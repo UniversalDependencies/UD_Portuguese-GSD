@@ -5,19 +5,19 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>12078</sentences><tokens>298323</tokens><words>298323</words><fused>0</fused></total>
+    <total><sentences>12078</sentences><tokens>297478</tokens><words>319380</words><fused>21902</fused></total>
   </size>
-  <lemmas unique="0" /><!--  -->
-  <forms unique="30832" /><!-- ,, de, ., a, o, e, que, do, da, em, para, ", no, com, na -->
-  <fusions unique="0" /><!--  -->
+  <lemmas unique="5" /><!-- o, de, en, a, por -->
+  <forms unique="30829" /><!-- de, ,, a, o, ., e, en, que, os, em, para, por, ", as, com -->
+  <fusions unique="38" /><!-- do, da, no, na, dos, ao, das, à, pelo, pela, nos, aos, nas, às, dum -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
   <tags unique="14">
     <tag name="ADJ">15107</tag><!-- _ -->
-    <tag name="ADP">51928</tag><!-- _ -->
+    <tag name="ADP">51928</tag><!-- _, de, en, a, por -->
     <tag name="ADV">9773</tag><!-- _ -->
     <tag name="AUX">5242</tag><!-- _ -->
     <tag name="CCONJ">10984</tag><!-- _ -->
-    <tag name="DET">26122</tag><!-- _ -->
+    <tag name="DET">47179</tag><!-- _, o -->
     <tag name="NOUN">57316</tag><!-- _ -->
     <tag name="NUM">8491</tag><!-- _ -->
     <tag name="PART">748</tag><!-- _ -->
@@ -28,8 +28,15 @@
     <tag name="X">539</tag><!-- _ -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
-  <feats unique="1">
+  <feats unique="8">
+    <feat name="Definite" value="Def" upos="DET">21057</feat><!-- o, a, os, as -->
+    <feat name="Gender" value="Fem" upos="DET">9142</feat><!-- a, as -->
+    <feat name="Gender" value="Masc" upos="DET">11915</feat><!-- o, os -->
+    <feat name="Number" value="Plur" upos="DET">3474</feat><!-- os, as -->
+    <feat name="Number" value="Sing" upos="DET">17583</feat><!-- o, a -->
     <feat name="NumType" value="Card" upos="NUM">8491</feat><!-- dois, três, mil, duas, milhões, 1, 2012, quatro, 2, bilhões -->
+    <feat name="Polarity" value="Neg" upos="ADV,NOUN,PROPN">1495</feat><!-- não -->
+    <feat name="PronType" value="Art" upos="DET">21057</feat><!-- o, a, os, as -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="34">
@@ -37,34 +44,34 @@
     <dep name="acl:part">2867</dep>
     <dep name="acl:relcl">3214</dep>
     <dep name="advcl">2488</dep>
-    <dep name="advmod">8896</dep>
-    <dep name="amod">16066</dep>
+    <dep name="advmod">8891</dep>
+    <dep name="amod">16065</dep>
     <dep name="appos">6082</dep>
     <dep name="aux">2806</dep>
     <dep name="aux:pass">2448</dep>
-    <dep name="case">47760</dep>
+    <dep name="case">48327</dep>
     <dep name="cc">7780</dep>
     <dep name="ccomp">2360</dep>
     <dep name="conj">10288</dep>
     <dep name="cop">2172</dep>
     <dep name="csubj">658</dep>
     <dep name="csubj:pass">8</dep>
-    <dep name="dep">278</dep>
-    <dep name="det">24622</dep>
+    <dep name="dep">275</dep>
+    <dep name="det">45678</dep>
     <dep name="det:poss">1731</dep>
     <dep name="expl:pv">672</dep>
-    <dep name="fixed">1212</dep>
+    <dep name="fixed">992</dep>
     <dep name="flat">6540</dep>
-    <dep name="iobj">516</dep>
-    <dep name="mark">7029</dep>
-    <dep name="nmod">49910</dep>
+    <dep name="iobj">515</dep>
+    <dep name="mark">6732</dep>
+    <dep name="nmod">49870</dep>
     <dep name="nsubj">14579</dep>
     <dep name="nsubj:pass">2011</dep>
     <dep name="nummod">4725</dep>
     <dep name="obj">11067</dep>
     <dep name="parataxis">757</dep>
     <dep name="punct">42028</dep>
-    <dep name="root">12078</dep>
+    <dep name="root">12079</dep>
     <dep name="xcomp">966</dep>
     <dep name="xcomp:adj">1648</dep>
   </deps>
