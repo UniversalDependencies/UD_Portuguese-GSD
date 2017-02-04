@@ -8,6 +8,8 @@ The README for that project is included here.
 
 Changelog
 
+2017-03-01 v2.0
+  * Converted to UD v2 guidelines.
 2016-05-15 v1.3
   * First release. No lemmas, no features. Dependencies converted from the legacy UD treebank.
 
