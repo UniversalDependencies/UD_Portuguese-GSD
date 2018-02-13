@@ -1,6 +1,10 @@
-The Brazilian Portuguese UD is converted from the Google Universal Dependency Treebanks v2.0 (legacy):
+# Summary
 
-https://github.com/ryanmcd/uni-dep-tb
+The Brazilian Portuguese UD is converted from the [Google Universal Dependency
+Treebank v2.0 (legacy)](https://github.com/ryanmcd/uni-dep-tb).
+
+
+# Introduction
 
 The README for that project is included here.
 
@@ -12,19 +16,6 @@ Changelog
   * Converted to UD v2 guidelines.
 2016-05-15 v1.3
   * First release. No lemmas, no features. Dependencies converted from the legacy UD treebank.
-
-
-
-=== Machine-readable metadata =================================================
-Documentation status: stub
-Data source: automatic
-Data available since: UD v1.3
-License: CC BY-NC-SA 3.0 US
-Genre: news blog
-Contributors: McDonald, Ryan; Nivre, Joakim; Zeman, Daniel
-Contact: zeman@ufal.mff.cuni.cz
-===============================================================================
-(Original treebank contributors: LaMontagne, Adam; Souček, Milan; Järvinen, Timo; Radici, Alessandra)
 
 
 
@@ -209,3 +200,23 @@ Contact
 ryanmcd@google.com
 joakim.nivre@lingfil.uu.se
 slav@google.com
+
+
+
+<pre>
+=== Machine-readable metadata =================================================
+Data available since: UD v1.3
+License: CC BY-NC-SA 3.0 US
+Includes text: yes
+Genre: blog news
+Lemmas: not available
+UPOS: converted from manual
+XPOS: manual native
+Features: not available
+Relations: converted from manual
+Contributors: McDonald, Ryan; Nivre, Joakim; Zeman, Daniel
+Contributing: to be adopted
+Contact: zeman@ufal.mff.cuni.cz
+===============================================================================
+(Original treebank contributors: LaMontagne, Adam; Souček, Milan; Järvinen, Timo; Radici, Alessandra)
+</pre>
