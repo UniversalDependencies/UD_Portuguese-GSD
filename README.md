@@ -4,6 +4,7 @@ The Brazilian Portuguese UD is converted from the [Google Universal Dependency
 Treebank v2.0 (legacy)](https://github.com/ryanmcd/uni-dep-tb).
 
 
+
 # Introduction
 
 The README for that project is included here.
@@ -11,6 +12,9 @@ The README for that project is included here.
 
 
 Changelog
+
+2018-04-15 v2.2
+  * Repository renamed from UD_Portuguese to UD_Portuguese-GSD.
 
 2017-03-01 v2.0
   * Converted to UD v2 guidelines.
@@ -214,7 +218,7 @@ UPOS: converted from manual
 XPOS: manual native
 Features: not available
 Relations: converted from manual
-Contributors: McDonald, Ryan; Nivre, Joakim; Zeman, Daniel
+Contributors: McDonald, Ryan; Nivre, Joakim; Zeman, Daniel; Ramisch, Carlos
 Contributing: to be adopted
 Contact: zeman@ufal.mff.cuni.cz
 ===============================================================================
