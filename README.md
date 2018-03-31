@@ -218,9 +218,9 @@ UPOS: converted from manual
 XPOS: manual native
 Features: not available
 Relations: converted from manual
-Contributors: McDonald, Ryan; Nivre, Joakim; Zeman, Daniel; Ramisch, Carlos
-Contributing: to be adopted
-Contact: zeman@ufal.mff.cuni.cz
+Contributors: McDonald, Ryan; Nivre, Joakim; Zeman, Daniel; Ramisch, Carlos; Rademaker, Alexandre
+Contributing: here
+Contact: arademaker@gmail.com
 ===============================================================================
 (Original treebank contributors: LaMontagne, Adam; Souček, Milan; Järvinen, Timo; Radici, Alessandra)
 </pre>
