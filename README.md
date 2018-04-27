@@ -13,6 +13,9 @@ The README for that project is included here.
 
 Changelog
 
+2018-04-27 v2.3
+  * Added lemmas from MorphoBr project (https://github.com/LFG-PTBR/MorphoBr), see issue #8 for more details.
+
 2018-04-15 v2.2
   * Repository renamed from UD_Portuguese to UD_Portuguese-GSD.
 
@@ -213,12 +216,12 @@ Data available since: UD v1.3
 License: CC BY-NC-SA 3.0 US
 Includes text: yes
 Genre: blog news
-Lemmas: not available
+Lemmas: automatic
 UPOS: converted from manual
 XPOS: manual native
 Features: not available
 Relations: converted from manual
-Contributors: McDonald, Ryan; Nivre, Joakim; Zeman, Daniel; Ramisch, Carlos; Rademaker, Alexandre
+Contributors: McDonald, Ryan; Nivre, Joakim; Zeman, Daniel; Rademaker, Alexandre; Chalub, Fabricio; Ramisch, Carlos
 Contributing: here
 Contact: arademaker@gmail.com
 ===============================================================================
