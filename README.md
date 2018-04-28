@@ -3,42 +3,26 @@
 The Brazilian Portuguese UD is converted from the [Google Universal Dependency
 Treebank v2.0 (legacy)](https://github.com/ryanmcd/uni-dep-tb).
 
-
-
-# Introduction
-
-The README for that project is included here.
-
-
-
-Changelog
+# Changelog
 
 2018-03-30 v2.2
-  * Automatically correct UPOS and XPOS of _cop_ verbs to AUX instead of VERB.
+  * Automatically correct UPOS and XPOS of _cop_ verbs to AUX instead
+    of VERB.
 
 2018-04-15 v2.2
   * Repository renamed from UD_Portuguese to UD_Portuguese-GSD.
 
 2017-03-01 v2.0
   * Converted to UD v2 guidelines.
+
 2016-05-15 v1.3
-  * First release. No lemmas, no features. Dependencies converted from the legacy UD treebank.
+  * First release. No lemmas, no features. Dependencies converted from
+    the legacy UD treebank.
 
 
+# Universal Dependency Treebanks v2.0
 
-###############################################################################
-LEGACY README FILE BELOW
-###############################################################################
-
-===================================
-Universal Dependency Treebanks v2.0
-===================================
-
-This directory contains treebanks for the following languages:
-  English, German, French, Spanish, Swedish, Korean, Japanese, Indonesian,
-  Brazilian Portuguese, Italian and Finnish.
-
-A description of how the treebanks were generated can be found in:
+A description of how this treebank was generated can be found in:
 
   Universal Dependency Annotation for Multilingual Parsing
   Ryan McDonald, Joakim Nivre, Yvonne Quirmbach-Brundage, Yoav Goldberg,
@@ -46,104 +30,7 @@ A description of how the treebanks were generated can be found in:
   Oscar Tackstrom, Claudia Bedini, Nuria Bertomeu Castello and Jungmee Lee
   Proceedings of ACL 2013
 
-A more detailed description of each relation type in our harmonized scheme is
-included in the file universal-guidelines.pdf.
-
-Each treebank has been split into training, development and testing files.
-
-Each file is formatted according to the CoNLL 2006/2007 guidelines:
-
-  http://ilk.uvt.nl/conll/#dataformat
-
-The treebank annotations use basic Stanford Style dependencies, modified
-minimally to be sufficient for each language and be maximally consistent across
-languages. The original English Stanford guidelines can be found here:
-
-  http://nlp.stanford.edu/software/dependencies_manual.pdf
-
-
-==============================================================================
-Version 2.0 - What is new
-==============================================================================
-
-1. Added more data for German, Spanish and French.
-2. Added Portuguese Brazilian, Indonesian, Japanese, Italian and Finnish.
-3. New content-head versions for 5 languages (see below).
-4. A number of bug fixes in the harmonization process.
-
-=====================
-Standard dependencies
-=====================
-
-In release 2.0 we include two sets of dependencies. The first is standard
-Stanford dependencies, which correspond roughly to the output of the
-Stanford converter for English with the copula as head set to true. In
-general, these are content-head dependency representations with two major
-exceptions: 1) adpositions are the head in adpositional phrases, and 2) copular
-verbs are the head in copluar constructions.
-
-This data is in the std/ directory and contains all languages but Finnish.
-
-Version 1.0 of the data is only standard.
-
-==========================
-Content head dependencies
-==========================
-
-In order to converge to a more uniform multilingual standard, in particular
-for morphologically rich languages, this release also includes a beta version
-of content-head dependencies for five languages: German, Spanish, Finnish,
-French and Swedish. Here the content word is always the head of a phrase.
-
-=============================================================================
-Language Specific Information
-=============================================================================
-
-====================
-English dependencies
-====================
-
-Note that the English dependencies are based on the original Penn Treebank data
-automatically converted with the Stanford Dependency Converter. Instructions for
-how to do this with corresponding scripts are included in the English directory.
-
-====================
-Finnish dependencies
-====================
-
-Finnish data is in the ch/fi directory and was produced by researchers at
-the University of Turku. In that directory there are specific README and
-LICENSE files for that data. Two things to note. First, the Finnish data is
-only content-head. This is due to difficulties in automatically converting the
-data to standard format from its original annotations. Second, we have included
-a test set in the release, but this is not the real test set, just a subset of
-the training. The true test set for this data is blind (as per the wishes of
-the researchers at Turku). The unannotated test data is included as well as
-instructions for obtaining scores on predictions.
-
-=============================================================================
-Other Information
-=============================================================================
-
-================================
-Fine-grained part-of-speech tags
-================================
-
-In the CoNLL file format there is a coarse part-of-speech tag field (4) and a
-fine-grained part-of-speech tag field (5). In this data release, we use the
-coarse field to store the normalized universal part-of-speech tags that are
-consistent across languages. The fine-grained field contains potentially richer
-part-of-speech information depending on the language, e.g., a richer tag
-representation for clitics.
-
-=========================
-Licenses and terms-of-use
-=========================
-
-For the following languages
-
-  German, Spanish, French, Indonesian, Italian, Japanese, Korean and Brazilian
-  Portuguese
+#  License
 
 we will distinguish between two portions of the data.
 
@@ -159,19 +46,8 @@ we will distinguish between two portions of the data.
    THEM AVAILABLE TO YOU 'AS IS', WITHOUT ANY WARRANTY OF ANY KIND, WHETHER
    EXPRESS OR IMPLIED. See attached LICENSE file for the text of CC BY-NC-SA.
 
-Portions of the German data were sampled from the CoNLL 2006 Tiger Treebank
-data. Hans Uszkoreit graciously gave permission to use the underlying
-sentences in this data as part of this release.
-
-For English, Italian, Finnish and Swedish, please see licences included in
-these directories or the following sources.
-
-Finnish - http://bionlp.utu.fi/fintreebank.html
-Swedish - http://stp.lingfil.uu.se/~nivre/swedish_treebank/
-Italian - http://medialab.di.unipi.it/wiki/ISDT
-
-We are greatful to researchers at those institutes who provided us data, in
-particular:
+We are greatful to researchers at those institutes who provided us
+data, in particular:
 
 Maria Simi and company from the University of Pisa.
   Converting Italian Treebanks: Towards an Italian Stanford Dependency Treebank
@@ -199,15 +75,9 @@ Any use of the data should reference the above plus:
   Dipanjan Das, Kuzman Ganchev, Keith Hall, Slav Petrov, Hao Zhang,
   Oscar Tackstrom, Claudia Bedini, Nuria Bertomeu Castello and Jungmee Lee
   Proceedings of ACL 2013
-
-=======
-Contact
-=======
-
-ryanmcd@google.com
-joakim.nivre@lingfil.uu.se
-slav@google.com
-
+  
+(Original treebank contributors: LaMontagne, Adam; Souček, Milan;
+Järvinen, Timo; Radici, Alessandra)
 
 
 <pre>
@@ -225,5 +95,4 @@ Contributors: McDonald, Ryan; Nivre, Joakim; Zeman, Daniel; Ramisch, Carlos; Rad
 Contributing: here
 Contact: arademaker@gmail.com
 ===============================================================================
-(Original treebank contributors: LaMontagne, Adam; Souček, Milan; Järvinen, Timo; Radici, Alessandra)
 </pre>
