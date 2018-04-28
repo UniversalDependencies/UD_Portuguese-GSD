@@ -13,6 +13,9 @@ The README for that project is included here.
 
 Changelog
 
+2018-03-30 v2.2
+  * Automatically correct UPOS and XPOS of _cop_ verbs to AUX instead of VERB.
+
 2018-04-15 v2.2
   * Repository renamed from UD_Portuguese to UD_Portuguese-GSD.
 
