@@ -5,6 +5,9 @@ Treebank v2.0 (legacy)](https://github.com/ryanmcd/uni-dep-tb).
 
 # Changelog
 
+2018-04-27 v2.3
+  * Added lemmas from MorphoBr project (https://github.com/LFG-PTBR/MorphoBr), see issue #8 for more details.
+
 2018-03-30 v2.2
   * Automatically correct UPOS and XPOS of _cop_ verbs to AUX instead
     of VERB.
@@ -86,12 +89,12 @@ Data available since: UD v1.3
 License: CC BY-NC-SA 3.0 US
 Includes text: yes
 Genre: blog news
-Lemmas: not available
+Lemmas: automatic
 UPOS: converted from manual
 XPOS: manual native
 Features: not available
 Relations: converted from manual
-Contributors: McDonald, Ryan; Nivre, Joakim; Zeman, Daniel; Ramisch, Carlos; Rademaker, Alexandre
+Contributors: McDonald, Ryan; Nivre, Joakim; Zeman, Daniel; Rademaker, Alexandre; Chalub, Fabricio; Ramisch, Carlos
 Contributing: here
 Contact: arademaker@gmail.com
 ===============================================================================
