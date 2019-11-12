@@ -5,6 +5,10 @@ Treebank v2.0 (legacy)](https://github.com/ryanmcd/uni-dep-tb).
 
 # Changelog
 
+* 2019-11-15 v2.5
+  * Google gave permission to drop the "NC" restriction from the license.
+    This applies to the UD annotations (not the underlying content, of which Google claims no ownership or copyright).
+
 2018-04-27 v2.3
   * Added lemmas from MorphoBr project (https://github.com/LFG-PTBR/MorphoBr), see issue #8 for more details.
 
@@ -23,17 +27,20 @@ Treebank v2.0 (legacy)](https://github.com/ryanmcd/uni-dep-tb).
     the legacy UD treebank.
 
 
-# Universal Dependency Treebanks v2.0
+```
+===================================
+Universal Dependency Treebanks v2.0
+(legacy information)
+===================================
 
-A description of how this treebank was generated can be found in:
+=========================
+Licenses and terms-of-use
+=========================
 
-  Universal Dependency Annotation for Multilingual Parsing
-  Ryan McDonald, Joakim Nivre, Yvonne Quirmbach-Brundage, Yoav Goldberg,
-  Dipanjan Das, Kuzman Ganchev, Keith Hall, Slav Petrov, Hao Zhang,
-  Oscar Tackstrom, Claudia Bedini, Nuria Bertomeu Castello and Jungmee Lee
-  Proceedings of ACL 2013
+For the following languages
 
-#  License
+  German, Spanish, French, Indonesian, Italian, Japanese, Korean and Brazilian
+  Portuguese
 
 we will distinguish between two portions of the data.
 
@@ -45,31 +52,13 @@ we will distinguish between two portions of the data.
    WARRANTY OF ANY KIND, WHETHER EXPRESS OR IMPLIED.
 
 2. The annotations -- part-of-speech tags and dependency annotations. These are
-   made available under a CC BY-NC-SA 3.0 non commercial license. GOOGLE MAKES
+   made available under a CC BY-SA 4.0. GOOGLE MAKES
    THEM AVAILABLE TO YOU 'AS IS', WITHOUT ANY WARRANTY OF ANY KIND, WHETHER
    EXPRESS OR IMPLIED. See attached LICENSE file for the text of CC BY-NC-SA.
 
-We are greatful to researchers at those institutes who provided us
-data, in particular:
-
-Maria Simi and company from the University of Pisa.
-  Converting Italian Treebanks: Towards an Italian Stanford Dependency Treebank
-  Bosco, Cristina and Montemagni, Simonetta and Simi, Maria
-  Proceedings of LAW VII \& ID
-
-Filip Ginter and company from the University of Turku.
-  Building the essential resources for Finnish: the Turku Dependency Treebank
-  Haverinen, Katri and Nyblom, Jenna and Viljanen, Timo and Laippala,
-  Veronika and Kohonen, Samuel and Missil{\"a}, Anna and Ojala, Stina and
-  Salakoski, Tapio and Ginter, Filip
-  Language Resources and Evaluation, 2013
-
-Joakim Nivre and company from Uppsala University.
-
-And Chris Manning and Marie-Catherine de Marneffe from Stanford and Ohio.
-  Generating typed dependency parses from phrase structure parses
-  MC De Marneffe, B MacCartney, CD Manning,
-  Proceedings of LREC, 2006
+Portions of the German data were sampled from the CoNLL 2006 Tiger Treebank
+data. Hans Uszkoreit graciously gave permission to use the underlying
+sentences in this data as part of this release.
 
 Any use of the data should reference the above plus:
 
@@ -78,7 +67,17 @@ Any use of the data should reference the above plus:
   Dipanjan Das, Kuzman Ganchev, Keith Hall, Slav Petrov, Hao Zhang,
   Oscar Tackstrom, Claudia Bedini, Nuria Bertomeu Castello and Jungmee Lee
   Proceedings of ACL 2013
-  
+
+=======
+Contact
+=======
+
+ryanmcd@google.com
+joakim.nivre@lingfil.uu.se
+slav@google.com
+See https://github.com/ryanmcd/uni-dep-tb for more details
+```
+
 (Original treebank contributors: LaMontagne, Adam; Souček, Milan;
 Järvinen, Timo; Radici, Alessandra)
 
@@ -86,7 +85,7 @@ Järvinen, Timo; Radici, Alessandra)
 <pre>
 === Machine-readable metadata =================================================
 Data available since: UD v1.3
-License: CC BY-NC-SA 3.0 US
+License: CC BY-SA 4.0
 Includes text: yes
 Genre: blog news
 Lemmas: automatic
