@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Portuguese-GSD:
-commit 56971e5b1d421e0ce01c4dcafc026a0c1f0b2b72
-Merge: 10dc475 9123ee2
+commit 57eaa888e408ad890aaec26b8122cf1015b90d03
+Merge: 73b4b4d c804ebf
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 319380 of 319380 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.5327632328254.
@@ -23,12 +23,81 @@ Udapi: found 63033 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 319380 words.
 Genres: found 2 out of 17 known.
 validate.py --lang pt --max-err=10 UD_Portuguese-GSD/pt_gsd-ud-dev.conllu
-*** PASSED ***
+[Line 441 Sent dev-s17 Node 6]: [L5 Morpho aux-lemma] 'considerar' is not an auxiliary verb in language [pt]
+[Line 441 Sent dev-s17 Node 6]: [L5 Syntax cop-lemma] 'considerar' is not a copula in language [pt]
+[Line 663 Sent dev-s25 Node 24]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [14, 15, 16, 17, 18, 19, 20, 21, 22]
+[Line 862 Sent dev-s31 Node 2]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [3, 7]
+[Line 862 Sent dev-s31 Node 2]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [3, 4, 5, 6, 7]
+[Line 1598 Sent dev-s54 Node 1]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (1:Depois:case --> 2:de:case)
+[Line 1599 Sent dev-s54 Node 1]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (1:Depois:case --> 3:o:det)
+[Line 1651 Sent dev-s55 Node 17]: [L5 Morpho aux-lemma] 'considerar' is not an auxiliary verb in language [pt]
+[Line 1651 Sent dev-s55 Node 17]: [L5 Syntax cop-lemma] 'considerar' is not a copula in language [pt]
+[Line 1683 Sent dev-s56 Node 3]: [L3 Syntax rel-upos-cop] 'cop' should be 'AUX' or 'PRON'/'DET' but it is 'VERB'
+[Line 1878 Sent dev-s62 Node 5]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'PROPN'
+...suppressing further errors regarding Syntax
+[Line 4286 Sent dev-s137 Node 30]: [L5 Morpho aux-lemma] 'morrer' is not an auxiliary verb in language [pt]
+[Line 7184 Sent dev-s222 Node 16]: [L5 Morpho aux-lemma] 'eleger' is not an auxiliary verb in language [pt]
+[Line 8009 Sent dev-s253 Node 2]: [L5 Morpho aux-lemma] 'virar' is not an auxiliary verb in language [pt]
+[Line 9949 Sent dev-s315 Node 5]: [L5 Morpho aux-lemma] 'demonstrar' is not an auxiliary verb in language [pt]
+[Line 12359 Sent dev-s385 Node 24]: [L5 Morpho aux-lemma] 'pretender' is not an auxiliary verb in language [pt]
+[Line 15040 Sent dev-s465 Node 3]: [L5 Morpho aux-lemma] 'terminar' is not an auxiliary verb in language [pt]
+[Line 15206 Sent dev-s470b Node 1]: [L5 Morpho aux-lemma] 'denominar' is not an auxiliary verb in language [pt]
+...suppressing further errors regarding Morpho
+Morpho errors: 16
+Syntax errors: 186
+*** FAILED *** with 202 errors
+Exit code: 1
 validate.py --lang pt --max-err=10 UD_Portuguese-GSD/pt_gsd-ud-test.conllu
-*** PASSED ***
+[Line 111 Sent test-s6 Node 1]: [L5 Syntax cop-lemma] 'tornar' is not a copula in language [pt]
+[Line 289 Sent test-s12a Node 1]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (1:Face:case --> 2:a:case)
+[Line 290 Sent test-s12a Node 1]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (1:Face:case --> 3:a:det)
+[Line 718 Sent test-s22 Node 2]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [3]
+[Line 718 Sent test-s22 Node 2]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [3]
+[Line 1101 Sent test-s35 Node 15]: [L5 Morpho aux-lemma] 'chamar' is not an auxiliary verb in language [pt]
+[Line 1101 Sent test-s35 Node 15]: [L5 Syntax cop-lemma] 'chamar' is not a copula in language [pt]
+[Line 1109 Sent test-s35 Node 23]: [L5 Morpho aux-lemma] 'chamar' is not an auxiliary verb in language [pt]
+[Line 1109 Sent test-s35 Node 23]: [L5 Syntax cop-lemma] 'chamar' is not a copula in language [pt]
+[Line 1771 Sent test-s57 Node 24]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP'
+[Line 2105 Sent test-s65 Node 14]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (14:devido:case --> 15:a:case)
+...suppressing further errors regarding Syntax
+[Line 7214 Sent test-s228 Node 7]: [L5 Morpho aux-lemma] 'considerar' is not an auxiliary verb in language [pt]
+[Line 10584 Sent test-s344a Node 5]: [L5 Morpho aux-lemma] 'vencer' is not an auxiliary verb in language [pt]
+[Line 12987 Sent test-s421 Node 30]: [L5 Morpho aux-lemma] 'denominar' is not an auxiliary verb in language [pt]
+[Line 13228 Sent test-s428 Node 9]: [L5 Morpho aux-lemma] 'considerar' is not an auxiliary verb in language [pt]
+[Line 15413 Sent test-s499 Node 29]: [L5 Morpho aux-lemma] 'considerar' is not an auxiliary verb in language [pt]
+[Line 16909 Sent test-s544 Node 15]: [L5 Morpho aux-lemma] 'significar' is not an auxiliary verb in language [pt]
+[Line 33314 Sent test-s1064 Node 28]: [L5 Morpho aux-lemma] 'configurar' is not an auxiliary verb in language [pt]
+...suppressing further errors regarding Morpho
+Morpho errors: 10
+Syntax errors: 166
+*** FAILED *** with 176 errors
+Exit code: 1
 validate.py --lang pt --max-err=10 UD_Portuguese-GSD/pt_gsd-ud-train.conllu
-*** PASSED ***
-Validity: 1
+[Line 250 Sent train-s5 Node 17]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'PROPN'
+[Line 729 Sent train-s21 Node 9]: [L3 Syntax rel-upos-mark] 'mark' should not be 'PRON'
+[Line 939 Sent train-s27 Node 1]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (1:Apesar:case --> 2:de:case)
+[Line 940 Sent train-s27 Node 1]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (1:Apesar:case --> 3:o:det)
+[Line 953 Sent train-s27 Node 14]: [L5 Morpho aux-lemma] 'terminar' is not an auxiliary verb in language [pt]
+[Line 1463 Sent train-s45 Node 30]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'PROPN'
+[Line 1572 Sent train-s49 Node 4]: [L5 Morpho aux-lemma] 'considerar' is not an auxiliary verb in language [pt]
+[Line 1572 Sent train-s49 Node 4]: [L5 Syntax cop-lemma] 'considerar' is not a copula in language [pt]
+[Line 2149 Sent train-s71 Node 6]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (6:depois:mark --> 5:dias:nmod)
+[Line 2776 Sent train-s88 Node 4]: [L5 Morpho aux-lemma] 'nomear' is not an auxiliary verb in language [pt]
+[Line 2776 Sent train-s88 Node 4]: [L5 Syntax cop-lemma] 'nomear' is not a copula in language [pt]
+[Line 3535 Sent train-s118 Node 25]: [L3 Syntax rel-upos-case] 'case' should not be 'PROPN'
+...suppressing further errors regarding Syntax
+[Line 4260 Sent train-s144 Node 7]: [L5 Morpho aux-lemma] 'denominar' is not an auxiliary verb in language [pt]
+[Line 6140 Sent train-s201 Node 16]: [L5 Morpho aux-lemma] 'denominar' is not an auxiliary verb in language [pt]
+[Line 6404 Sent train-s211 Node 8]: [L5 Morpho aux-lemma] 'considerar' is not an auxiliary verb in language [pt]
+[Line 7794 Sent train-s254 Node 8]: [L5 Morpho aux-lemma] 'virar' is not an auxiliary verb in language [pt]
+[Line 8237 Sent train-s270 Node 17]: [L5 Morpho aux-lemma] 'tocar' is not an auxiliary verb in language [pt]
+[Line 11292 Sent train-s363 Node 13]: [L5 Morpho aux-lemma] 'chamar' is not an auxiliary verb in language [pt]
+...suppressing further errors regarding Morpho
+Morpho errors: 125
+Syntax errors: 1481
+*** FAILED *** with 1606 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.12) = 0.00923076923076923
 (weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
 (weight=0.0769230769230769) * (score{lemmas}=0.01) = 0.000769230769230769
@@ -37,6 +106,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.705882352941177) = 0.0542986425339367
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.583783783783784) = 0.0449064449064449
-(TOTAL score=0.386657230132482) * (availability=1) * (validity=1) = 0.386657230132482
-STARS = 2
-UD_Portuguese-GSD	0.386657230132482	2
+(TOTAL score=0.386657230132482) * (availability=1) * (validity=0.01) = 0.00386657230132482
+STARS = 0
+UD_Portuguese-GSD	0.00386657230132482	0
