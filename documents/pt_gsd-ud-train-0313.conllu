@@ -1,0 +1,241 @@
+# sent_id = train-s3107
+# text = José Serra (PSDB) e Fernando Haddad (PRB) devem disputar o segundo turno rumo à Prefeitura de São Paulo.
+1	José	_	PROPN	PNOUN	_	13	nsubj	_	_
+2	Serra	_	PROPN	PNOUN	_	1	flat	_	_
+3	(	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
+4	PSDB	_	PROPN	PNOUN	_	1	appos	_	SpaceAfter=No
+5	)	_	PUNCT	.	_	4	punct	_	_
+6	e	_	CCONJ	CONJ	_	7	cc	_	_
+7	Fernando	_	PROPN	PNOUN	_	1	conj	_	_
+8	Haddad	_	PROPN	PNOUN	_	7	flat	_	_
+9	(	_	PUNCT	.	_	10	punct	_	SpaceAfter=No
+10	PRB	_	PROPN	PNOUN	_	7	appos	_	SpaceAfter=No
+11	)	_	PUNCT	.	_	10	punct	_	_
+12	devem	_	AUX	AUX	_	13	aux	_	_
+13	disputar	disputar	VERB	VERB	_	0	root	_	_
+14	o	_	DET	DET	_	16	det	_	_
+15	segundo	segundo	ADJ	ADJ	_	16	amod	_	_
+16	turno	turno	NOUN	NOUN	_	13	obj	_	_
+17	rumo	rumo	NOUN	NOUN	_	16	nmod	_	_
+18-19	à	_	_	_	_	_	_	_	_
+18	a	a	ADP	ADP	_	20	case	_	_
+19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Prefeitura	_	PROPN	PNOUN	_	17	nmod	_	_
+21	de	_	ADP	ADP	_	22	case	_	_
+22	São	_	PROPN	PNOUN	_	20	nmod	_	_
+23	Paulo	_	PROPN	PNOUN	_	22	flat	_	SpaceAfter=No
+24	.	_	PUNCT	.	_	13	punct	_	_
+
+# sent_id = train-s3108
+# text = No início de julho, após a divulgação pela revista Veja duma carta de Bruno ao amigo Macarrão, Rui Pimenta afirmou em entrevistas que os dois tinham um relacionamento amoroso.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	ADP	_	3	case	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	início	início	NOUN	NOUN	_	26	nmod	_	_
+4	de	_	ADP	ADP	_	5	case	_	_
+5	julho	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
+6	,	_	PUNCT	.	_	3	punct	_	_
+7	após	_	ADP	ADP	_	9	case	_	_
+8	a	_	DET	DET	_	9	det	_	_
+9	divulgação	divulgação	NOUN	NOUN	_	26	nmod	_	_
+10-11	pela	_	_	_	_	_	_	_	_
+10	por	por	ADP	ADP	_	12	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	revista	revista	NOUN	NOUN	_	9	nmod	_	_
+13	Veja	_	PROPN	PNOUN	_	12	appos	_	_
+14-15	duma	_	_	_	_	_	_	_	_
+14	de	_	ADP	ADP	_	16	case	_	_
+15	uma	_	DET	DET	_	16	det	_	_
+16	carta	carta	NOUN	NOUN	_	9	nmod	_	_
+17	de	_	ADP	ADP	_	18	case	_	_
+18	Bruno	_	PROPN	PNOUN	_	16	nmod	_	_
+19-20	ao	_	_	_	_	_	_	_	_
+19	a	a	ADP	ADP	_	21	case	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	amigo	amigo	NOUN	NOUN	_	16	nmod	_	_
+22	Macarrão	_	PROPN	PNOUN	_	21	appos	_	SpaceAfter=No
+23	,	_	PUNCT	.	_	9	punct	_	_
+24	Rui	_	PROPN	PNOUN	_	26	nsubj	_	_
+25	Pimenta	_	PROPN	PNOUN	_	24	flat	_	_
+26	afirmou	afirmar	VERB	VERB	_	0	root	_	_
+27	em	_	ADP	ADP	_	28	case	_	_
+28	entrevistas	entrevista	NOUN	NOUN	_	26	nmod	_	_
+29	que	_	CCONJ	CONJ	_	32	mark	_	_
+30	os	_	DET	DET	_	31	det	_	_
+31	dois	_	NUM	NUM	NumType=Card	32	nsubj	_	_
+32	tinham	ter	VERB	VERB	_	26	ccomp	_	_
+33	um	_	DET	DET	_	34	det	_	_
+34	relacionamento	relacionamento	NOUN	NOUN	_	32	obj	_	_
+35	amoroso	amoroso	ADJ	ADJ	_	34	amod	_	SpaceAfter=No
+36	.	_	PUNCT	.	_	26	punct	_	_
+
+# sent_id = train-s3109
+# text = A sala da casa ficou totalmente destruída.
+1	A	_	DET	DET	_	2	det	_	_
+2	sala	sala	NOUN	NOUN	_	6	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	casa	casa	NOUN	NOUN	_	2	nmod	_	_
+6	ficou	ficar	VERB	VERB	_	0	root	_	_
+7	totalmente	totalmente	ADV	ADV	_	8	advmod	_	_
+8	destruída	destruído	ADJ	ADJ	_	6	xcomp:adj	_	SpaceAfter=No
+9	.	_	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s3110
+# text = Me parece que em nível sistêmico tudo ocorreu adequadamente, mas a gente sempre verifica para ver se tem alguma coisa para acontecer ", disse o diretor do ONS.
+1	Me	_	PRON	PRON	_	2	iobj	_	_
+2	parece	parecer	VERB	VERB	_	26	ccomp	_	_
+3	que	_	CCONJ	CONJ	_	8	mark	_	_
+4	em	_	ADP	ADP	_	5	case	_	_
+5	nível	nível	NOUN	NOUN	_	8	nmod	_	_
+6	sistêmico	sistêmico	ADJ	ADJ	_	5	amod	_	_
+7	tudo	_	PRON	PRON	_	8	nsubj	_	_
+8	ocorreu	ocorrer	VERB	VERB	_	2	ccomp	_	_
+9	adequadamente	adequadamente	ADV	ADV	_	8	advmod	_	SpaceAfter=No
+10	,	_	PUNCT	.	_	8	punct	_	_
+11	mas	_	CCONJ	CONJ	_	15	cc	_	_
+12	a	_	DET	DET	_	13	det	_	_
+13	gente	gente	NOUN	NOUN	_	15	nsubj	_	_
+14	sempre	sempre	ADV	ADV	_	15	advmod	_	_
+15	verifica	verificar	VERB	VERB	_	2	conj	_	_
+16	para	_	ADP	ADP	_	17	mark	_	_
+17	ver	ver	VERB	VERB	_	15	advcl	_	_
+18	se	_	CCONJ	CONJ	_	19	mark	_	_
+19	tem	ter	VERB	VERB	_	17	ccomp	_	_
+20	alguma	_	DET	DET	_	21	det	_	_
+21	coisa	coisa	NOUN	NOUN	_	19	obj	_	_
+22	para	_	ADP	ADP	_	23	mark	_	_
+23	acontecer	acontecer	VERB	VERB	_	21	nmod	_	_
+24	"	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
+25	,	_	PUNCT	.	_	26	punct	_	_
+26	disse	dizer	VERB	VERB	_	0	root	_	_
+27	o	_	DET	DET	_	28	det	_	_
+28	diretor	diretor	NOUN	NOUN	_	26	nsubj	_	_
+29-30	do	_	_	_	_	_	_	_	_
+29	de	de	ADP	ADP	_	31	case	_	_
+30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	ONS	_	PROPN	PNOUN	_	28	nmod	_	SpaceAfter=No
+32	.	_	PUNCT	.	_	26	punct	_	_
+
+# sent_id = train-s3111
+# text = Entre os principais estabelecimentos de ensino gaúchos destacam - se a Universidade Federal do Rio Grande do Sul e a Pontifícia Universidade Católica do Rio Grande do Sul, ambas na capital;
+1	Entre	_	ADP	ADP	_	4	case	_	_
+2	os	_	DET	DET	_	4	det	_	_
+3	principais	principal	ADJ	ADJ	_	4	amod	_	_
+4	estabelecimentos	estabelecimento	NOUN	NOUN	_	8	nmod	_	_
+5	de	_	ADP	ADP	_	6	case	_	_
+6	ensino	ensino	NOUN	NOUN	_	4	nmod	_	_
+7	gaúchos	gaúcho	ADJ	ADJ	_	6	amod	_	_
+8	destacam	destacar	VERB	VERB	_	0	root	_	_
+9	-	_	PUNCT	.	_	8	punct	_	_
+10	se	_	PRON	PRON	_	8	expl:pv	_	_
+11	a	_	DET	DET	_	12	det	_	_
+12	Universidade	_	PROPN	PNOUN	_	8	nsubj	_	_
+13	Federal	_	PROPN	PNOUN	_	12	amod	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	ADP	_	16	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Rio	_	PROPN	PNOUN	_	12	nmod	_	_
+17	Grande	_	PROPN	PNOUN	_	16	amod	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	ADP	_	20	case	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Sul	_	PROPN	PNOUN	_	16	nmod	_	_
+21	e	_	CCONJ	CONJ	_	24	cc	_	_
+22	a	_	DET	DET	_	24	det	_	_
+23	Pontifícia	_	PROPN	PNOUN	_	24	amod	_	_
+24	Universidade	_	PROPN	PNOUN	_	12	conj	_	_
+25	Católica	_	PROPN	PNOUN	_	24	amod	_	_
+26-27	do	_	_	_	_	_	_	_	_
+26	de	de	ADP	ADP	_	28	case	_	_
+27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	Rio	_	PROPN	PNOUN	_	24	nmod	_	_
+29	Grande	_	PROPN	PNOUN	_	28	amod	_	_
+30-31	do	_	_	_	_	_	_	_	_
+30	de	de	ADP	ADP	_	32	case	_	_
+31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	Sul	_	PROPN	PNOUN	_	28	nmod	_	SpaceAfter=No
+33	,	_	PUNCT	.	_	34	punct	_	_
+34	ambas	_	PRON	PRON	_	12	appos	_	_
+35-36	na	_	_	_	_	_	_	_	_
+35	em	em	ADP	ADP	_	37	case	_	_
+36	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	capital	capital	NOUN	NOUN	_	34	nmod	_	SpaceAfter=No
+38	;	_	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s3112
+# text = (Da redação).
+1	(	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
+2-3	Da	_	_	_	_	_	_	_	_
+2	De	de	ADP	ADP	_	4	case	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	redação	redação	NOUN	NOUN	_	0	root	_	SpaceAfter=No
+5	)	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
+6	.	_	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s3113
+# text = Confira logo abaixo.
+1	Confira	conferir	VERB	VERB	_	0	root	_	_
+2	logo	logo	ADV	ADV	_	3	advmod	_	_
+3	abaixo	abaixo	ADV	ADV	_	1	advmod	_	SpaceAfter=No
+4	.	_	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s3114a
+# text = Um usuário do Yahoo! 23 horas atrás Quem vive de Boca é Cantor ....
+1	Um	_	DET	DET	_	2	det	_	_
+2	usuário	usuário	NOUN	NOUN	_	14	parataxis	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Yahoo!	_	PROPN	PNOUN	_	2	nmod	_	_
+6	23	_	NUM	NUM	NumType=Card	7	nummod	_	_
+7	horas	hora	NOUN	NOUN	_	8	nmod	_	_
+8	atrás	atrás	ADV	ADV	_	2	advmod	_	_
+9	Quem	_	PRON	PRON	_	10	nsubj	_	_
+10	vive	_	VERB	VERB	_	14	csubj	_	_
+11	de	_	ADP	ADP	_	12	case	_	_
+12	Boca	_	PROPN	PNOUN	_	10	nmod	_	_
+13	é	ser	AUX	AUX	_	14	cop	_	_
+14	Cantor	_	PROPN	PNOUN	_	0	root	_	_
+15	....	_	PUNCT	.	_	14	punct	_	_
+
+# sent_id = train-s3114b
+# text = Eu vivo de Corinthians!
+1	Eu	_	PRON	PRON	_	2	nsubj	_	_
+2	vivo	_	VERB	VERB	_	0	root	_	_
+3	de	_	ADP	ADP	_	4	case	_	_
+4	Corinthians	_	PROPN	PNOUN	_	2	nmod	_	SpaceAfter=No
+5	!	_	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s3115
+# text = Essa estimativa consta do boletim Focus, pesquisa feita pelo Banco Central (BC) com instituições financeiras sobre os principais indicadores econômicos.
+1	Essa	_	DET	DET	_	2	det	_	_
+2	estimativa	_	NOUN	NOUN	_	3	nsubj	_	_
+3	consta	constar	VERB	VERB	_	0	root	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	boletim	boletim	NOUN	NOUN	_	3	nmod	_	_
+7	Focus	_	PROPN	PNOUN	_	6	appos	_	SpaceAfter=No
+8	,	_	PUNCT	.	_	9	punct	_	_
+9	pesquisa	pesquisa	NOUN	NOUN	_	6	appos	_	_
+10	feita	_	VERB	VERB	_	9	acl:part	_	_
+11-12	pelo	_	_	_	_	_	_	_	_
+11	por	por	ADP	ADP	_	13	case	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Banco	_	PROPN	PNOUN	_	10	nmod	_	_
+14	Central	_	PROPN	PNOUN	_	13	amod	_	_
+15	(	_	PUNCT	.	_	16	punct	_	SpaceAfter=No
+16	BC	_	PROPN	PNOUN	_	13	appos	_	SpaceAfter=No
+17	)	_	PUNCT	.	_	16	punct	_	_
+18	com	_	ADP	ADP	_	19	case	_	_
+19	instituições	instituição	NOUN	NOUN	_	10	nmod	_	_
+20	financeiras	financeiro	ADJ	ADJ	_	19	amod	_	_
+21	sobre	_	ADP	ADP	_	24	case	_	_
+22	os	_	DET	DET	_	24	det	_	_
+23	principais	principal	ADJ	ADJ	_	24	amod	_	_
+24	indicadores	indicador	NOUN	NOUN	_	10	nmod	_	_
+25	econômicos	econômico	ADJ	ADJ	_	24	amod	_	SpaceAfter=No
+26	.	_	PUNCT	.	_	3	punct	_	_
+

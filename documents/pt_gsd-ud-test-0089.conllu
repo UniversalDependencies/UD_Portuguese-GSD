@@ -1,0 +1,315 @@
+# sent_id = test-s875
+# text = Até hoje o país não tinha um exame oficial para medir se as crianças estavam sendo alfabetizadas ou não na idade correta.
+1	Até	_	ADP	ADP	_	2	mark	_	_
+2	hoje	hoje	ADV	ADV	_	6	nmod	_	_
+3	o	_	DET	DET	_	4	det	_	_
+4	país	país	NOUN	NOUN	_	6	nsubj	_	_
+5	não	não	ADV	ADV	Polarity=Neg	6	advmod	_	_
+6	tinha	ter	VERB	VERB	_	0	root	_	_
+7	um	_	DET	DET	_	8	det	_	_
+8	exame	exame	NOUN	NOUN	_	6	obj	_	_
+9	oficial	oficial	ADJ	ADJ	_	8	amod	_	_
+10	para	_	ADP	ADP	_	11	mark	_	_
+11	medir	medir	VERB	VERB	_	8	nmod	_	_
+12	se	_	CCONJ	CONJ	_	17	mark	_	_
+13	as	_	DET	DET	_	14	det	_	_
+14	crianças	criança	NOUN	NOUN	_	17	nsubj:pass	_	_
+15	estavam	estar	AUX	AUX	_	17	aux	_	_
+16	sendo	ser	AUX	AUX	_	17	aux:pass	_	_
+17	alfabetizadas	alfabetizar	VERB	VERB	_	11	ccomp	_	_
+18	ou	_	CCONJ	CONJ	_	19	cc	_	_
+19	não	não	ADV	ADV	Polarity=Neg	17	conj	_	_
+20-21	na	_	_	_	_	_	_	_	_
+20	em	em	ADP	ADP	_	22	case	_	_
+21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	idade	idade	NOUN	NOUN	_	17	nmod	_	_
+23	correta	correto	ADJ	ADJ	_	22	amod	_	SpaceAfter=No
+24	.	_	PUNCT	.	_	6	punct	_	_
+
+# sent_id = test-s876
+# text = "Esse é um dos melhores e mais apaixonados painéis que já tivemos.
+1	"	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
+2	Esse	_	PRON	PRON	_	4	nsubj	_	_
+3	é	ser	AUX	AUX	_	4	cop	_	_
+4	um	_	PRON	PRON	_	0	root	_	_
+5-6	dos	_	_	_	_	_	_	_	_
+5	de	de	ADP	ADP	_	11	case	_	_
+6	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+7	melhores	melhor	ADJ	ADJ	_	11	amod	_	_
+8	e	_	CCONJ	CONJ	_	7	cc	_	_
+9	mais	mais	ADV	ADV	_	10	advmod	_	_
+10	apaixonados	apaixonado	ADJ	ADJ	_	7	amod	_	_
+11	painéis	painel	NOUN	NOUN	_	4	nmod	_	_
+12	que	_	PRON	PRON	_	14	obj	_	_
+13	já	já	ADV	ADV	_	14	advmod	_	_
+14	tivemos	ter	VERB	VERB	_	11	acl:relcl	_	SpaceAfter=No
+15	.	_	PUNCT	.	_	4	punct	_	_
+
+# sent_id = test-s877
+# text = Outra grande esperança do cinema português é o talento dos jovens cineastas, caso de Miguel Gomes, diretor de Tabu, que abriu a mostra na noite desta quarta - feira (03).
+1	Outra	_	DET	DET	_	3	det	_	_
+2	grande	grande	ADJ	ADJ	_	3	amod	_	_
+3	esperança	esperança	NOUN	NOUN	_	10	nsubj	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	cinema	cinema	NOUN	NOUN	_	3	nmod	_	_
+7	português	português	ADJ	ADJ	_	6	amod	_	_
+8	é	ser	AUX	AUX	_	10	cop	_	_
+9	o	_	DET	DET	_	10	det	_	_
+10	talento	talento	NOUN	NOUN	_	0	root	_	_
+11-12	dos	_	_	_	_	_	_	_	_
+11	de	de	ADP	ADP	_	13	case	_	_
+12	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	jovens	jovem	NOUN	NOUN	_	10	nmod	_	_
+14	cineastas	_	ADJ	ADJ	_	13	amod	_	SpaceAfter=No
+15	,	_	PUNCT	.	_	16	punct	_	_
+16	caso	caso	NOUN	NOUN	_	13	appos	_	_
+17	de	_	ADP	ADP	_	18	case	_	_
+18	Miguel	_	PROPN	PNOUN	_	16	nmod	_	_
+19	Gomes	_	PROPN	PNOUN	_	18	flat	_	SpaceAfter=No
+20	,	_	PUNCT	.	_	21	punct	_	_
+21	diretor	diretor	NOUN	NOUN	_	18	appos	_	_
+22	de	_	ADP	ADP	_	23	case	_	_
+23	Tabu	_	PROPN	PNOUN	_	21	nmod	_	SpaceAfter=No
+24	,	_	PUNCT	.	_	26	punct	_	_
+25	que	_	PRON	PRON	_	26	nsubj	_	_
+26	abriu	abrir	VERB	VERB	_	18	acl:relcl	_	_
+27	a	_	DET	DET	_	28	det	_	_
+28	mostra	mostra	NOUN	NOUN	_	26	obj	_	_
+29-30	na	_	_	_	_	_	_	_	_
+29	em	em	ADP	ADP	_	31	case	_	_
+30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	noite	noite	NOUN	NOUN	_	26	nmod	_	_
+32	desta	_	ADP	ADP	_	35	case	_	_
+33	quarta	_	PROPN	PNOUN	_	35	amod	_	_
+34	-	_	PUNCT	.	_	35	punct	_	_
+35	feira	_	PROPN	PNOUN	_	31	nmod	_	_
+36	(	_	PUNCT	.	_	37	punct	_	SpaceAfter=No
+37	03	_	NUM	NUM	NumType=Card	35	nmod	_	SpaceAfter=No
+38	)	_	PUNCT	.	_	37	punct	_	SpaceAfter=No
+39	.	_	PUNCT	.	_	10	punct	_	_
+
+# sent_id = test-s878
+# text = Daí nasceu o livro de 1960 "Dimensions de la conscience historique" (ou Dimensões da Consciência Histórica).
+1	Daí	_	ADP	ADP	_	2	nmod	_	_
+2	nasceu	nascer	VERB	VERB	_	0	root	_	_
+3	o	_	DET	DET	_	4	det	_	_
+4	livro	livro	NOUN	NOUN	_	2	nsubj	_	_
+5	de	_	ADP	ADP	_	6	case	_	_
+6	1960	_	NUM	NUM	NumType=Card	4	nmod	_	_
+7	"	_	PUNCT	.	_	8	punct	_	SpaceAfter=No
+8	Dimensions	_	PROPN	PNOUN	_	4	appos	_	_
+9	de	_	ADP	ADP	_	11	case	_	_
+10	la	_	DET	DET	_	11	det	_	_
+11	conscience	_	NOUN	NOUN	_	8	nmod	_	_
+12	historique	_	ADJ	ADJ	_	11	amod	_	SpaceAfter=No
+13	"	_	PUNCT	.	_	16	punct	_	_
+14	(	_	PUNCT	.	_	16	punct	_	SpaceAfter=No
+15	ou	_	CCONJ	CONJ	_	16	cc	_	_
+16	Dimensões	_	PROPN	PNOUN	_	8	conj	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	ADP	_	19	case	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Consciência	_	PROPN	PNOUN	_	16	nmod	_	_
+20	Histórica	_	PROPN	PNOUN	_	19	amod	_	SpaceAfter=No
+21	)	_	PUNCT	.	_	16	punct	_	SpaceAfter=No
+22	.	_	PUNCT	.	_	2	punct	_	_
+
+# sent_id = test-s879
+# text = O mistério sobre o ganhador da Mega - Sena de Curitiba foi desfeito.
+1	O	_	DET	DET	_	2	det	_	_
+2	mistério	mistério	NOUN	NOUN	_	14	nsubj:pass	_	_
+3	sobre	_	ADP	ADP	_	5	case	_	_
+4	o	_	DET	DET	_	5	det	_	_
+5	ganhador	ganhador	NOUN	NOUN	_	2	nmod	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	ADP	_	10	case	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+8	Mega	_	PROPN	PNOUN	_	10	amod	_	_
+9	-	_	PUNCT	.	_	10	punct	_	_
+10	Sena	_	PROPN	PNOUN	_	5	nmod	_	_
+11	de	_	ADP	ADP	_	12	case	_	_
+12	Curitiba	_	PROPN	PNOUN	_	10	nmod	_	_
+13	foi	_	AUX	AUX	_	14	aux:pass	_	_
+14	desfeito	desfazer	VERB	VERB	_	0	root	_	SpaceAfter=No
+15	.	_	PUNCT	.	_	14	punct	_	_
+
+# sent_id = test-s880
+# text = "Um alvo são as estruturas que propiciam a resistência a antibióticos", afirma.
+1	"	_	PUNCT	.	_	6	punct	_	SpaceAfter=No
+2	Um	_	DET	DET	_	3	det	_	_
+3	alvo	alvo	NOUN	NOUN	_	6	nsubj	_	_
+4	são	ser	AUX	AUX	_	6	cop	_	_
+5	as	_	DET	DET	_	6	det	_	_
+6	estruturas	estrutura	NOUN	NOUN	_	15	ccomp	_	_
+7	que	_	PRON	PRON	_	8	nsubj	_	_
+8	propiciam	propiciar	VERB	VERB	_	6	acl:relcl	_	_
+9	a	_	DET	DET	_	10	det	_	_
+10	resistência	resistência	NOUN	NOUN	_	8	obj	_	_
+11	a	_	ADP	ADP	_	12	case	_	_
+12	antibióticos	antibiótico	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
+13	"	_	PUNCT	.	_	6	punct	_	SpaceAfter=No
+14	,	_	PUNCT	.	_	15	punct	_	_
+15	afirma	afirmar	VERB	VERB	_	0	root	_	SpaceAfter=No
+16	.	_	PUNCT	.	_	15	punct	_	_
+
+# sent_id = test-s881
+# text = A função desta pré - fusão é tornar quaisquer componentes solúveis ou tóxicos em componentes insolúveis, através da sua combinação com a sílica e outros óxidos adicionados.
+1	A	_	DET	DET	_	2	det	_	_
+2	função	função	NOUN	NOUN	_	0	root	_	_
+3	desta	_	ADP	ADP	_	4	case	_	_
+4	pré	_	PART	PRT	_	2	nmod	_	_
+5	-	_	PUNCT	.	_	4	punct	_	_
+6	fusão	fusão	NOUN	NOUN	_	4	flat	_	_
+7	é	ser	AUX	AUX	_	2	cop	_	_
+8	tornar	tornar	VERB	VERB	_	2	csubj	_	_
+9	quaisquer	_	DET	DET	_	10	det	_	_
+10	componentes	componente	NOUN	NOUN	_	8	obj	_	_
+11	solúveis	solúvel	ADJ	ADJ	_	10	amod	_	_
+12	ou	_	CCONJ	CONJ	_	13	cc	_	_
+13	tóxicos	tóxico	ADJ	ADJ	_	11	conj	_	_
+14	em	_	ADP	ADP	_	15	case	_	_
+15	componentes	componente	NOUN	NOUN	_	8	nmod	_	_
+16	insolúveis	insolúvel	ADJ	ADJ	_	15	amod	_	SpaceAfter=No
+17	,	_	PUNCT	.	_	18	punct	_	_
+18	através	através	ADV	ADV	_	8	advmod	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	ADP	_	22	case	_	_
+20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	sua	_	DET	DET	_	22	det:poss	_	_
+22	combinação	combinação	NOUN	NOUN	_	18	nmod	_	_
+23	com	_	ADP	ADP	_	25	case	_	_
+24	a	_	DET	DET	_	25	det	_	_
+25	sílica	sílica	NOUN	NOUN	_	22	nmod	_	_
+26	e	_	CCONJ	CONJ	_	28	cc	_	_
+27	outros	_	DET	DET	_	28	det	_	_
+28	óxidos	óxido	NOUN	NOUN	_	25	conj	_	_
+29	adicionados	adicionar	VERB	VERB	_	28	acl:part	_	SpaceAfter=No
+30	.	_	PUNCT	.	_	2	punct	_	_
+
+# sent_id = test-s882
+# text = Ambos os governos defendem a busca pelo diálogo e medidas pacíficas como solução para impasses.
+1	Ambos	_	DET	DET	_	3	det	_	_
+2	os	_	DET	DET	_	3	det	_	_
+3	governos	governo	NOUN	NOUN	_	4	nsubj	_	_
+4	defendem	defender	VERB	VERB	_	0	root	_	_
+5	a	_	DET	DET	_	6	det	_	_
+6	busca	busca	NOUN	NOUN	_	4	obj	_	_
+7-8	pelo	_	_	_	_	_	_	_	_
+7	por	por	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	diálogo	diálogo	NOUN	NOUN	_	6	nmod	_	_
+10	e	_	CCONJ	CONJ	_	11	cc	_	_
+11	medidas	_	PROPN	PNOUN	_	9	conj	_	_
+12	pacíficas	pacífico	ADJ	ADJ	_	11	amod	_	_
+13	como	_	ADP	ADP	_	14	case	_	_
+14	solução	solução	NOUN	NOUN	_	6	nmod	_	_
+15	para	_	ADP	ADP	_	16	case	_	_
+16	impasses	impasse	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
+17	.	_	PUNCT	.	_	4	punct	_	_
+
+# sent_id = test-s883
+# text = Especificamente, MacIntyre argumenta que as concepções rivais e totalmente incompatíveis, da justiça, são o resultado de formas rivais e totalmente incompatíveis, da racionalidade prática.
+1	Especificamente	especificamente	ADV	ADV	_	4	advmod	_	SpaceAfter=No
+2	,	_	PUNCT	.	_	1	punct	_	_
+3	MacIntyre	_	PROPN	PNOUN	_	4	nsubj	_	_
+4	argumenta	argumentar	VERB	VERB	_	0	root	_	_
+5	que	_	CCONJ	CONJ	_	19	mark	_	_
+6	as	_	DET	DET	_	7	det	_	_
+7	concepções	concepção	NOUN	NOUN	_	19	nsubj	_	_
+8	rivais	rival	ADJ	ADJ	_	7	amod	_	_
+9	e	_	CCONJ	CONJ	_	11	cc	_	_
+10	totalmente	totalmente	ADV	ADV	_	11	advmod	_	_
+11	incompatíveis	incompatível	ADJ	ADJ	_	8	conj	_	SpaceAfter=No
+12	,	_	PUNCT	.	_	15	punct	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	justiça	justiça	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
+16	,	_	PUNCT	.	_	15	punct	_	_
+17	são	ser	AUX	AUX	_	19	cop	_	_
+18	o	_	DET	DET	_	19	det	_	_
+19	resultado	resultado	NOUN	NOUN	_	4	ccomp	_	_
+20	de	_	ADP	ADP	_	21	case	_	_
+21	formas	forma	NOUN	NOUN	_	19	nmod	_	_
+22	rivais	rival	ADJ	ADJ	_	21	amod	_	_
+23	e	_	CCONJ	CONJ	_	25	cc	_	_
+24	totalmente	totalmente	ADV	ADV	_	25	advmod	_	_
+25	incompatíveis	incompatível	ADJ	ADJ	_	22	conj	_	SpaceAfter=No
+26	,	_	PUNCT	.	_	29	punct	_	_
+27-28	da	_	_	_	_	_	_	_	_
+27	de	de	ADP	ADP	_	29	case	_	_
+28	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	racionalidade	racionalidade	NOUN	NOUN	_	21	nmod	_	_
+30	prática	prático	ADJ	ADJ	_	29	amod	_	SpaceAfter=No
+31	.	_	PUNCT	.	_	4	punct	_	_
+
+# sent_id = test-s884
+# text = Buscamos esclarecer que, quanto mais as pessoas denunciarem, mais vamos conseguir conscientizar a sociedade e a eventuais agressores sobre o direito das pessoas ", disse Vanessa Vieira, defensora pública e coordenadora do Núcleo de Combate à Discriminação, Racismo e Preconceito da Defensoria Pública, em entrevista à Agência Brasil.
+1	Buscamos	buscar	VERB	VERB	_	29	ccomp	_	_
+2	esclarecer	esclarecer	VERB	VERB	_	1	xcomp	_	_
+3	que	_	CCONJ	CONJ	_	13	mark	_	SpaceAfter=No
+4	,	_	PUNCT	.	_	9	punct	_	_
+5	quanto	quanto	ADV	ADV	_	6	advmod	_	_
+6	mais	mais	ADV	ADV	_	9	advmod	_	_
+7	as	_	DET	DET	_	8	det	_	_
+8	pessoas	pessoa	NOUN	NOUN	_	9	nsubj	_	_
+9	denunciarem	denunciar	VERB	VERB	_	13	advcl	_	SpaceAfter=No
+10	,	_	PUNCT	.	_	9	punct	_	_
+11	mais	mais	ADV	ADV	_	13	advmod	_	_
+12	vamos	ir	AUX	AUX	_	13	aux	_	_
+13	conseguir	conseguir	VERB	VERB	_	2	ccomp	_	_
+14	conscientizar	conscientizar	VERB	VERB	_	13	xcomp	_	_
+15	a	_	DET	DET	_	16	det	_	_
+16	sociedade	sociedade	NOUN	NOUN	_	14	obj	_	_
+17	e	e	CCONJ	CONJ	_	20	cc	_	_
+18	a	o	DET	DET	_	20	det	_	_
+19	eventuais	eventual	ADJ	ADJ	_	20	amod	_	_
+20	agressores	agressor	NOUN	NOUN	_	16	conj	_	_
+21	sobre	_	ADP	ADP	_	23	case	_	_
+22	o	_	DET	DET	_	23	det	_	_
+23	direito	direito	NOUN	NOUN	_	14	nmod	_	_
+24-25	das	_	_	_	_	_	_	_	_
+24	de	de	ADP	ADP	_	26	case	_	_
+25	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	pessoas	pessoa	NOUN	NOUN	_	23	nmod	_	_
+27	"	_	PUNCT	.	_	1	punct	_	SpaceAfter=No
+28	,	_	PUNCT	.	_	29	punct	_	_
+29	disse	dizer	VERB	VERB	_	0	root	_	_
+30	Vanessa	_	PROPN	PNOUN	_	29	nsubj	_	_
+31	Vieira	_	PROPN	PNOUN	_	30	flat	_	SpaceAfter=No
+32	,	_	PUNCT	.	_	33	punct	_	_
+33	defensora	defensor	NOUN	NOUN	_	30	appos	_	_
+34	pública	público	ADJ	ADJ	_	33	amod	_	_
+35	e	_	CCONJ	CONJ	_	36	cc	_	_
+36	coordenadora	coordenador	NOUN	NOUN	_	33	conj	_	_
+37-38	do	_	_	_	_	_	_	_	_
+37	de	de	ADP	ADP	_	39	case	_	_
+38	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	Núcleo	_	PROPN	PNOUN	_	36	nmod	_	_
+40	de	_	ADP	ADP	_	41	case	_	_
+41	Combate	_	PROPN	PNOUN	_	39	nmod	_	_
+42-43	à	_	_	_	_	_	_	_	_
+42	a	a	ADP	ADP	_	44	case	_	_
+43	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	Discriminação	_	PROPN	PNOUN	_	41	nmod	_	SpaceAfter=No
+45	,	_	PUNCT	.	_	46	punct	_	_
+46	Racismo	_	PROPN	PNOUN	_	44	conj	_	_
+47	e	_	CCONJ	CONJ	_	48	cc	_	_
+48	Preconceito	_	PROPN	PNOUN	_	44	conj	_	_
+49-50	da	_	_	_	_	_	_	_	_
+49	de	de	ADP	ADP	_	51	case	_	_
+50	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
+51	Defensoria	_	PROPN	PNOUN	_	39	nmod	_	_
+52	Pública	_	PROPN	PNOUN	_	51	amod	_	SpaceAfter=No
+53	,	_	PUNCT	.	_	55	punct	_	_
+54	em	_	ADP	ADP	_	55	case	_	_
+55	entrevista	entrevista	NOUN	NOUN	_	29	nmod	_	_
+56-57	à	_	_	_	_	_	_	_	_
+56	a	a	ADP	ADP	_	58	case	_	_
+57	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	58	det	_	_
+58	Agência	_	PROPN	PNOUN	_	55	nmod	_	_
+59	Brasil	_	PROPN	PNOUN	_	58	flat	_	SpaceAfter=No
+60	.	_	PUNCT	.	_	29	punct	_	_
+

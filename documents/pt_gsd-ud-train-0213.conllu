@@ -1,0 +1,310 @@
+# sent_id = train-s2114
+# text = O Blu - Ray dos Vingadores será lançado no dia 25 de setembro deste ano.
+1	O	_	DET	DET	_	2	det	_	_
+2	Blu	_	PROPN	PNOUN	_	9	nsubj:pass	_	_
+3	-	_	PUNCT	.	_	2	punct	_	_
+4	Ray	_	PROPN	PNOUN	_	2	flat	_	_
+5-6	dos	_	_	_	_	_	_	_	_
+5	de	_	ADP	ADP	_	7	case	_	_
+6	Os	_	PROPN	PNOUN	_	7	det	_	_
+7	Vingadores	_	PROPN	PNOUN	_	2	nmod	_	_
+8	será	ser	AUX	AUX	_	9	aux:pass	_	_
+9	lançado	lançar	VERB	VERB	_	0	root	_	_
+10-11	no	_	_	_	_	_	_	_	_
+10	em	em	ADP	ADP	_	12	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	dia	dia	NOUN	NOUN	_	9	nmod	_	_
+13	25	_	NUM	NUM	NumType=Card	12	nmod	_	_
+14	de	_	ADP	ADP	_	15	case	_	_
+15	setembro	_	PROPN	PNOUN	_	13	nmod	_	_
+16	deste	_	ADP	ADP	_	17	case	_	_
+17	ano	ano	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
+18	.	_	PUNCT	.	_	9	punct	_	_
+
+# sent_id = train-s2115
+# text = De acordo com o Unied States Census Bureau tem uma área de 1,7 km ², dos quais 1,7 km ² cobertos por terra e 0,0 km ² cobertos por água.
+1	De	_	ADP	ADP	_	2	case	_	_
+2	acordo	acordo	NOUN	NOUN	_	9	nmod	_	_
+3	com	_	ADP	ADP	_	6	case	_	_
+4	o	_	DET	DET	_	6	det	_	_
+5	Unied	_	PROPN	PNOUN	_	6	amod	_	_
+6	States	_	PROPN	PNOUN	_	2	nmod	_	_
+7	Census	_	PROPN	PNOUN	_	6	flat	_	_
+8	Bureau	_	PROPN	PNOUN	_	6	flat	_	_
+9	tem	ter	VERB	VERB	_	0	root	_	_
+10	uma	_	DET	DET	_	11	det	_	_
+11	área	área	NOUN	NOUN	_	9	obj	_	_
+12	de	_	ADP	ADP	_	14	case	_	_
+13	1,7	_	NUM	NUM	NumType=Card	14	nummod	_	_
+14	km	km	NOUN	NOUN	_	11	nmod	_	_
+15	²	_	PUNCT	.	_	14	punct	_	SpaceAfter=No
+16	,	_	PUNCT	.	_	21	punct	_	_
+17-18	dos	_	_	_	_	_	_	_	_
+17	de	de	ADP	ADP	_	19	case	_	_
+18	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	quais	_	PRON	PRON	_	21	nmod	_	_
+20	1,7	_	NUM	NUM	NumType=Card	21	nummod	_	_
+21	km	km	NOUN	NOUN	_	14	appos	_	_
+22	²	_	PUNCT	.	_	28	punct	_	_
+23	cobertos	cobrir	VERB	VERB	_	21	acl:part	_	_
+24	por	_	ADP	ADP	_	25	case	_	_
+25	terra	terra	NOUN	NOUN	_	23	nmod	_	_
+26	e	_	CCONJ	CONJ	_	28	cc	_	_
+27	0,0	_	NUM	NUM	NumType=Card	28	nummod	_	_
+28	km	km	NOUN	NOUN	_	21	conj	_	_
+29	²	_	PUNCT	.	_	28	punct	_	_
+30	cobertos	cobrir	VERB	VERB	_	28	acl:part	_	_
+31	por	_	ADP	ADP	_	32	case	_	_
+32	água	água	NOUN	NOUN	_	30	nmod	_	SpaceAfter=No
+33	.	_	PUNCT	.	_	9	punct	_	_
+
+# sent_id = train-s2116
+# text = Isso quer dizer, no geral, em que os homens recorrem a uma conduta "não tão ética" quanto estão prestes a "perder uma batalha", e essa perda é vista como uma "ameaça a sua masculinidade".
+1	Isso	_	PRON	PRON	_	2	nsubj	_	_
+2	quer	querer	VERB	VERB	_	0	root	_	_
+3	dizer	dizer	VERB	VERB	_	2	xcomp	_	SpaceAfter=No
+4	,	_	PUNCT	.	_	7	punct	_	_
+5-6	no	_	_	_	_	_	_	_	_
+5	em	em	ADP	ADP	_	7	case	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	geral	geral	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
+8	,	_	PUNCT	.	_	7	punct	_	_
+9	em	_	ADP	ADP	_	13	dep	_	_
+10	que	_	CCONJ	CONJ	_	13	mark	_	_
+11	os	_	DET	DET	_	12	det	_	_
+12	homens	homem	NOUN	NOUN	_	13	nsubj	_	_
+13	recorrem	recorrer	VERB	VERB	_	3	ccomp	_	_
+14	a	_	ADP	ADP	_	16	case	_	_
+15	uma	_	DET	DET	_	16	det	_	_
+16	conduta	conduta	NOUN	NOUN	_	13	nmod	_	_
+17	"	_	PUNCT	.	_	20	punct	_	SpaceAfter=No
+18	não	não	ADV	ADV	Polarity=Neg	20	advmod	_	_
+19	tão	tão	ADV	ADV	_	20	advmod	_	_
+20	ética	_	ADJ	ADJ	_	16	amod	_	SpaceAfter=No
+21	"	_	PUNCT	.	_	20	punct	_	_
+22	quanto	_	CCONJ	CONJ	_	23	mark	_	_
+23	estão	estar	VERB	VERB	_	13	advcl	_	_
+24	prestes	_	ADJ	ADJ	_	23	xcomp:adj	_	_
+25	a	_	ADP	ADP	_	27	mark	_	_
+26	"	_	PUNCT	.	_	27	punct	_	SpaceAfter=No
+27	perder	perder	VERB	VERB	_	24	nmod	_	_
+28	uma	_	DET	DET	_	29	det	_	_
+29	batalha	batalha	NOUN	NOUN	_	27	obj	_	SpaceAfter=No
+30	"	_	PUNCT	.	_	27	punct	_	SpaceAfter=No
+31	,	_	PUNCT	.	_	36	punct	_	_
+32	e	_	CCONJ	CONJ	_	36	cc	_	_
+33	essa	_	DET	DET	_	34	det	_	_
+34	perda	perda	NOUN	NOUN	_	36	nsubj:pass	_	_
+35	é	ser	AUX	AUX	_	36	aux:pass	_	_
+36	vista	_	VERB	VERB	_	23	conj	_	_
+37	como	_	ADP	ADP	_	40	case	_	_
+38	uma	_	DET	DET	_	40	det	_	_
+39	"	_	PUNCT	.	_	40	punct	_	SpaceAfter=No
+40	ameaça	ameaça	NOUN	NOUN	_	36	nmod	_	_
+41	a	_	ADP	ADP	_	43	case	_	_
+42	sua	_	DET	DET	_	43	det:poss	_	_
+43	masculinidade	masculinidade	NOUN	NOUN	_	40	nmod	_	SpaceAfter=No
+44	"	_	PUNCT	.	_	40	punct	_	SpaceAfter=No
+45	.	_	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s2117
+# text = Mesmo assim, é provável que a distância entre a campeã e a segunda colocada no ranking diminua.
+1	Mesmo	mesmo	ADV	ADV	_	2	advmod	_	_
+2	assim	assim	ADV	ADV	_	4	advmod	_	SpaceAfter=No
+3	,	_	PUNCT	.	_	2	punct	_	_
+4	é	ser	VERB	VERB	_	0	root	_	_
+5	provável	provável	ADJ	ADJ	_	4	xcomp:adj	_	_
+6	que	_	CCONJ	CONJ	_	19	mark	_	_
+7	a	_	DET	DET	_	8	det	_	_
+8	distância	distância	NOUN	NOUN	_	19	nsubj	_	_
+9	entre	_	ADP	ADP	_	11	case	_	_
+10	a	_	DET	DET	_	11	det	_	_
+11	campeã	campeão	NOUN	NOUN	_	8	nmod	_	_
+12	e	e	CCONJ	CONJ	_	15	cc	_	_
+13	a	o	DET	DET	_	15	det	_	_
+14	segunda	segundo	ADJ	ADJ	_	15	amod	_	_
+15	colocada	_	NOUN	NOUN	_	11	conj	_	_
+16-17	no	_	_	_	_	_	_	_	_
+16	em	em	ADP	ADP	_	18	case	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	ranking	ranking	NOUN	NOUN	_	15	nmod	_	_
+19	diminua	diminuir	VERB	VERB	_	4	csubj	_	SpaceAfter=No
+20	.	_	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s2118
+# text = Obama sempre deixou claro que se opõe à lei, aprovada em 2010, e que ganhou versões noutros estados.
+1	Obama	_	PROPN	PNOUN	_	3	nsubj	_	_
+2	sempre	sempre	ADV	ADV	_	3	advmod	_	_
+3	deixou	deixar	VERB	VERB	_	0	root	_	_
+4	claro	claro	ADJ	ADJ	_	3	xcomp	_	_
+5	que	_	CCONJ	CONJ	_	7	mark	_	_
+6	se	_	PRON	PRON	_	7	obj	_	_
+7	opõe	opor	VERB	VERB	_	3	ccomp	_	_
+8-9	à	_	_	_	_	_	_	_	_
+8	a	a	ADP	ADP	_	10	case	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	lei	lei	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
+11	,	_	PUNCT	.	_	7	punct	_	_
+12	aprovada	aprovar	VERB	VERB	_	10	acl:part	_	_
+13	em	_	ADP	ADP	_	14	case	_	_
+14	2010	_	NUM	NUM	NumType=Card	12	nmod	_	SpaceAfter=No
+15	,	_	PUNCT	.	_	18	punct	_	_
+16	e	_	CCONJ	CONJ	_	18	cc	_	_
+17	que	_	PRON	PRON	_	18	nsubj	_	_
+18	ganhou	ganhar	VERB	VERB	_	12	conj	_	_
+19	versões	versão	NOUN	NOUN	_	18	obj	_	_
+20-21	noutros	_	_	_	_	_	_	_	_
+20	em	_	ADP	ADP	_	22	case	_	_
+21	outros	_	DET	DET	_	22	det	_	_
+22	estados	estado	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
+23	.	_	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s2119
+# text = A ida de Loureiro para o segundo turno foi uma surpresa, já que todas as pesquisas de intenção de voto indicavam que ele ficaria em terceiro lugar.
+1	A	_	DET	DET	_	2	det	_	_
+2	ida	ida	NOUN	NOUN	_	11	nsubj	_	_
+3	de	_	ADP	ADP	_	4	case	_	_
+4	Loureiro	_	PROPN	PNOUN	_	2	nmod	_	_
+5	para	_	ADP	ADP	_	8	case	_	_
+6	o	_	DET	DET	_	8	det	_	_
+7	segundo	segundo	ADJ	ADJ	_	8	amod	_	_
+8	turno	turno	NOUN	NOUN	_	2	nmod	_	_
+9	foi	_	AUX	AUX	_	11	cop	_	_
+10	uma	_	DET	DET	_	11	det	_	_
+11	surpresa	surpresa	NOUN	NOUN	_	0	root	_	SpaceAfter=No
+12	,	_	PUNCT	.	_	22	punct	_	_
+13	já	já	ADV	ADV	_	22	mark	_	_
+14	que	_	CCONJ	CONJ	_	13	fixed	_	_
+15	todas	_	DET	DET	_	17	det	_	_
+16	as	_	DET	DET	_	17	det	_	_
+17	pesquisas	pesquisa	NOUN	NOUN	_	22	nsubj	_	_
+18	de	_	ADP	ADP	_	19	case	_	_
+19	intenção	intenção	NOUN	NOUN	_	17	nmod	_	_
+20	de	_	ADP	ADP	_	21	case	_	_
+21	voto	voto	NOUN	NOUN	_	19	nmod	_	_
+22	indicavam	indicar	VERB	VERB	_	11	advcl	_	_
+23	que	_	CCONJ	CONJ	_	25	mark	_	_
+24	ele	_	PRON	PRON	_	25	nsubj	_	_
+25	ficaria	ficar	VERB	VERB	_	22	ccomp	_	_
+26	em	_	ADP	ADP	_	28	case	_	_
+27	terceiro	_	ADJ	ADJ	_	28	amod	_	_
+28	lugar	lugar	NOUN	NOUN	_	25	nmod	_	SpaceAfter=No
+29	.	_	PUNCT	.	_	11	punct	_	_
+
+# sent_id = train-s2120
+# text = "A permissividade para autorizar nacionalistas e skinheads a marchar pela cidade pode destruir a frágil paz que existe na sociedade", advertiu Amín.
+1	"	_	PUNCT	.	_	15	punct	_	SpaceAfter=No
+2	A	_	DET	DET	_	3	det	_	_
+3	permissividade	permissividade	NOUN	NOUN	_	15	nsubj	_	_
+4	para	_	ADP	ADP	_	5	mark	_	_
+5	autorizar	autorizar	VERB	VERB	_	3	nmod	_	_
+6	nacionalistas	nacionalista	NOUN	NOUN	_	5	obj	_	_
+7	e	_	CCONJ	CONJ	_	8	cc	_	_
+8	skinheads	skinhead	NOUN	NOUN	_	6	conj	_	_
+9	a	_	ADP	ADP	_	10	mark	_	_
+10	marchar	marchar	VERB	VERB	_	5	nmod	_	_
+11-12	pela	_	_	_	_	_	_	_	_
+11	por	por	ADP	ADP	_	13	case	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	cidade	cidade	NOUN	NOUN	_	10	nmod	_	_
+14	pode	_	AUX	AUX	_	15	aux	_	_
+15	destruir	destruir	VERB	VERB	_	26	ccomp	_	_
+16	a	_	DET	DET	_	18	det	_	_
+17	frágil	frágil	ADJ	ADJ	_	18	amod	_	_
+18	paz	paz	NOUN	NOUN	_	15	obj	_	_
+19	que	_	PRON	PRON	_	20	nsubj	_	_
+20	existe	existir	VERB	VERB	_	18	acl:relcl	_	_
+21-22	na	_	_	_	_	_	_	_	_
+21	em	em	ADP	ADP	_	23	case	_	_
+22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	sociedade	sociedade	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
+24	"	_	PUNCT	.	_	15	punct	_	SpaceAfter=No
+25	,	_	PUNCT	.	_	26	punct	_	_
+26	advertiu	advertir	VERB	VERB	_	0	root	_	_
+27	Amín	_	PROPN	PNOUN	_	26	nsubj	_	SpaceAfter=No
+28	.	_	PUNCT	.	_	26	punct	_	_
+
+# sent_id = train-s2121
+# text = Além dos preços, o ministério quer detalhes sobre o volume de investimentos nos laboratórios brasileiros que cada proposta irá demandar.
+1	Além	além	NOUN	NOUN	_	4	case	_	_
+2-3	dos	_	_	_	_	_	_	_	_
+2	de	de	ADP	ADP	_	1	case	_	_
+3	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	1	det	_	_
+4	preços	preço	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
+5	,	_	PUNCT	.	_	4	punct	_	_
+6	o	_	DET	DET	_	7	det	_	_
+7	ministério	ministério	NOUN	NOUN	_	8	nsubj	_	_
+8	quer	querer	VERB	VERB	_	0	root	_	_
+9	detalhes	detalhe	NOUN	NOUN	_	8	obj	_	_
+10	sobre	_	ADP	ADP	_	12	case	_	_
+11	o	_	DET	DET	_	12	det	_	_
+12	volume	volume	NOUN	NOUN	_	9	nmod	_	_
+13	de	_	ADP	ADP	_	14	case	_	_
+14	investimentos	investimento	NOUN	NOUN	_	12	nmod	_	_
+15-16	nos	_	_	_	_	_	_	_	_
+15	em	em	ADP	ADP	_	17	case	_	_
+16	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	laboratórios	laboratório	NOUN	NOUN	_	14	nmod	_	_
+18	brasileiros	brasileiro	ADJ	ADJ	_	17	amod	_	_
+19	que	_	PRON	PRON	_	23	obj	_	_
+20	cada	_	DET	DET	_	21	det	_	_
+21	proposta	_	NOUN	NOUN	_	23	nsubj	_	_
+22	irá	_	AUX	AUX	_	23	aux	_	_
+23	demandar	demandar	VERB	VERB	_	14	acl:relcl	_	SpaceAfter=No
+24	.	_	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s2122
+# text = Com inchaço no rosto e deformação, ela já passou por seis especialistas desde 2010 e luta para conseguir uma cirurgia reparatória.
+1	Com	_	ADP	ADP	_	2	case	_	_
+2	inchaço	inchaço	NOUN	NOUN	_	11	nmod	_	_
+3-4	no	_	_	_	_	_	_	_	_
+3	em	em	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	rosto	rosto	NOUN	NOUN	_	2	nmod	_	_
+6	e	_	CCONJ	CONJ	_	7	cc	_	_
+7	deformação	deformação	NOUN	NOUN	_	2	conj	_	SpaceAfter=No
+8	,	_	PUNCT	.	_	2	punct	_	_
+9	ela	_	PRON	PRON	_	11	nsubj	_	_
+10	já	já	ADV	ADV	_	11	advmod	_	_
+11	passou	passar	VERB	VERB	_	0	root	_	_
+12	por	_	ADP	ADP	_	14	case	_	_
+13	seis	_	NUM	NUM	NumType=Card	14	nummod	_	_
+14	especialistas	especialista	NOUN	NOUN	_	11	nmod	_	_
+15	desde	_	ADP	ADP	_	16	case	_	_
+16	2010	_	NUM	NUM	NumType=Card	11	nmod	_	_
+17	e	_	CCONJ	CONJ	_	18	cc	_	_
+18	luta	lutar	VERB	VERB	_	11	conj	_	_
+19	para	_	ADP	ADP	_	20	mark	_	_
+20	conseguir	conseguir	VERB	VERB	_	18	advcl	_	_
+21	uma	_	DET	DET	_	22	det	_	_
+22	cirurgia	cirurgia	NOUN	NOUN	_	20	obj	_	_
+23	reparatória	reparatório	ADJ	ADJ	_	22	amod	_	SpaceAfter=No
+24	.	_	PUNCT	.	_	11	punct	_	_
+
+# sent_id = train-s2123
+# text = O atacante recebeu de Jadson, tocou por entre as pernas de Brinner, driblou Jefferson e tocou para o gol com tranquilidade.
+1	O	_	DET	DET	_	2	det	_	_
+2	atacante	atacante	NOUN	NOUN	_	3	nsubj	_	_
+3	recebeu	receber	VERB	VERB	_	0	root	_	_
+4	de	_	ADP	ADP	_	5	case	_	_
+5	Jadson	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
+6	,	_	PUNCT	.	_	7	punct	_	_
+7	tocou	tocar	VERB	VERB	_	3	conj	_	_
+8	por	_	ADP	ADP	_	7	nmod	_	_
+9	entre	_	ADP	ADP	_	11	case	_	_
+10	as	_	DET	DET	_	11	det	_	_
+11	pernas	perna	NOUN	NOUN	_	8	nmod	_	_
+12	de	_	ADP	ADP	_	13	case	_	_
+13	Brinner	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
+14	,	_	PUNCT	.	_	15	punct	_	_
+15	driblou	driblar	VERB	VERB	_	3	conj	_	_
+16	Jefferson	_	PROPN	PNOUN	_	15	obj	_	_
+17	e	_	CCONJ	CONJ	_	18	cc	_	_
+18	tocou	tocar	VERB	VERB	_	3	conj	_	_
+19	para	_	ADP	ADP	_	21	case	_	_
+20	o	_	DET	DET	_	21	det	_	_
+21	gol	gol	NOUN	NOUN	_	18	nmod	_	_
+22	com	_	ADP	ADP	_	23	case	_	_
+23	tranquilidade	tranquilidade	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
+24	.	_	PUNCT	.	_	3	punct	_	_
+

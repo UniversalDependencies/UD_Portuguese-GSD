@@ -1,0 +1,311 @@
+# sent_id = test-s170
+# text = Papel em branco, pedaço calado de mau caminho.
+1	Papel	papel	NOUN	NOUN	_	0	root	_	_
+2	em	_	ADP	ADP	_	3	case	_	_
+3	branco	branco	NOUN	NOUN	_	1	nmod	_	SpaceAfter=No
+4	,	_	PUNCT	.	_	5	punct	_	_
+5	pedaço	pedaço	NOUN	NOUN	_	1	appos	_	_
+6	calado	calado	ADJ	ADJ	_	5	amod	_	_
+7	de	_	ADP	ADP	_	9	case	_	_
+8	mau	mau	ADJ	ADJ	_	9	amod	_	_
+9	caminho	caminho	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
+10	.	_	PUNCT	.	_	1	punct	_	_
+
+# sent_id = test-s171
+# text = O segundo invadiu a área livre e bateu na saída de Diego Alves que fez ótima defesa
+1	O	_	DET	DET	_	2	det	_	_
+2	segundo	segundo	NOUN	NOUN	_	3	nsubj	_	_
+3	invadiu	invadir	VERB	VERB	_	0	root	_	_
+4	a	_	DET	DET	_	5	det	_	_
+5	área	área	NOUN	NOUN	_	3	obj	_	_
+6	livre	livre	ADJ	ADJ	_	5	amod	_	_
+7	e	_	CCONJ	CONJ	_	8	cc	_	_
+8	bateu	bater	VERB	VERB	_	3	conj	_	_
+9-10	na	_	_	_	_	_	_	_	_
+9	em	em	ADP	ADP	_	11	case	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	saída	saída	NOUN	NOUN	_	8	nmod	_	_
+12	de	_	ADP	ADP	_	13	case	_	_
+13	Diego	_	PROPN	PNOUN	_	11	nmod	_	_
+14	Alves	_	PROPN	PNOUN	_	13	flat	_	_
+15	que	_	PRON	PRON	_	16	nsubj	_	_
+16	fez	fazer	VERB	VERB	_	13	acl:relcl	_	_
+17	ótima	ótimo	ADJ	ADJ	_	18	amod	_	_
+18	defesa	_	NOUN	NOUN	_	16	obj	_	_
+
+# sent_id = test-s172
+# text = Para começar, vale o esclarecimento prévio: não, Noel Rosa de Oliveira não recebeu esse nome em homenagem ao poeta da Vila -- até porque quando o de Oliveira nasceu, em 1920, no Morro do Salgueiro, o autor de "Conversa de Botequim" tinha só nove anos de idade, andava de calças curtas e nem sonhava em ser sambista.
+1	Para	_	ADP	ADP	_	2	mark	_	_
+2	começar	começar	VERB	VERB	_	4	advcl	_	SpaceAfter=No
+3	,	_	PUNCT	.	_	2	punct	_	_
+4	vale	_	VERB	VERB	_	0	root	_	_
+5	o	_	DET	DET	_	6	det	_	_
+6	esclarecimento	esclarecimento	NOUN	NOUN	_	4	nsubj	_	_
+7	prévio	prévio	ADJ	ADJ	_	6	amod	_	SpaceAfter=No
+8	:	_	PUNCT	.	_	4	punct	_	_
+9	não	não	ADV	ADV	Polarity=Neg	16	advmod	_	SpaceAfter=No
+10	,	_	PUNCT	.	_	9	punct	_	_
+11	Noel	_	PROPN	PNOUN	_	16	nsubj	_	_
+12	Rosa	_	PROPN	PNOUN	_	11	flat	_	_
+13	de	_	ADP	ADP	_	14	case	_	_
+14	Oliveira	_	PROPN	PNOUN	_	11	nmod	_	_
+15	não	não	ADV	ADV	Polarity=Neg	16	advmod	_	_
+16	recebeu	receber	VERB	VERB	_	4	parataxis	_	_
+17	esse	_	DET	DET	_	18	det	_	_
+18	nome	nome	NOUN	NOUN	_	16	obj	_	_
+19	em	_	ADP	ADP	_	20	case	_	_
+20	homenagem	homenagem	NOUN	NOUN	_	16	nmod	_	_
+21-22	ao	_	_	_	_	_	_	_	_
+21	a	a	ADP	ADP	_	23	case	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	poeta	poeta	NOUN	NOUN	_	20	nmod	_	_
+24-25	da	_	_	_	_	_	_	_	_
+24	de	de	ADP	ADP	_	26	case	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	Vila	_	PROPN	PNOUN	_	23	nmod	_	_
+27	--	_	PUNCT	.	_	54	punct	_	_
+28	até	até	ADV	ADV	_	54	advmod	_	_
+29	porque	_	CCONJ	CONJ	_	54	mark	_	_
+30	quando	_	CCONJ	CONJ	_	34	mark	_	_
+31	o	_	PRON	PRON	_	34	nsubj	_	_
+32	de	_	ADP	ADP	_	33	case	_	_
+33	Oliveira	_	PROPN	PNOUN	_	31	nmod	_	_
+34	nasceu	nascer	VERB	VERB	_	54	advcl	_	SpaceAfter=No
+35	,	_	PUNCT	.	_	37	punct	_	_
+36	em	_	ADP	ADP	_	37	case	_	_
+37	1920	_	NUM	NUM	NumType=Card	34	nmod	_	SpaceAfter=No
+38	,	_	PUNCT	.	_	37	punct	_	_
+39-40	no	_	_	_	_	_	_	_	_
+39	em	em	ADP	ADP	_	41	case	_	_
+40	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	Morro	_	PROPN	PNOUN	_	34	nmod	_	_
+42-43	do	_	_	_	_	_	_	_	_
+42	de	de	ADP	ADP	_	44	case	_	_
+43	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	Salgueiro	_	PROPN	PNOUN	_	41	nmod	_	SpaceAfter=No
+45	,	_	PUNCT	.	_	41	punct	_	_
+46	o	_	DET	DET	_	47	det	_	_
+47	autor	autor	NOUN	NOUN	_	54	nsubj	_	_
+48	de	_	ADP	ADP	_	50	case	_	_
+49	"	_	PUNCT	.	_	50	punct	_	SpaceAfter=No
+50	Conversa	_	PROPN	PNOUN	_	47	nmod	_	_
+51	de	_	ADP	ADP	_	52	case	_	_
+52	Botequim	_	PROPN	PNOUN	_	50	nmod	_	SpaceAfter=No
+53	"	_	PUNCT	.	_	50	punct	_	_
+54	tinha	ter	VERB	VERB	_	16	advcl	_	_
+55	só	só	ADV	ADV	_	56	advmod	_	_
+56	nove	_	NUM	NUM	NumType=Card	57	nummod	_	_
+57	anos	ano	NOUN	NOUN	_	54	obj	_	_
+58	de	_	ADP	ADP	_	59	case	_	_
+59	idade	idade	NOUN	NOUN	_	57	nmod	_	SpaceAfter=No
+60	,	_	PUNCT	.	_	61	punct	_	_
+61	andava	andar	VERB	VERB	_	54	conj	_	_
+62	de	_	ADP	ADP	_	63	case	_	_
+63	calças	_	NOUN	NOUN	_	61	nmod	_	_
+64	curtas	curto	ADJ	ADJ	_	63	amod	_	_
+65	e	_	CCONJ	CONJ	_	67	cc	_	_
+66	nem	_	ADV	ADV	_	67	advmod	_	_
+67	sonhava	sonhar	VERB	VERB	_	54	conj	_	_
+68	em	_	ADP	ADP	_	69	mark	_	_
+69	ser	ser	VERB	VERB	_	67	nmod	_	_
+70	sambista	sambista	ADJ	ADJ	_	69	xcomp:adj	_	SpaceAfter=No
+71	.	_	PUNCT	.	_	4	punct	_	_
+
+# sent_id = test-s173
+# text = Então ame, e demonstre sempre os seus sentimentos, goste das pessoas e demonstre que você gosta.
+1	Então	então	ADV	ADV	_	2	advmod	_	_
+2	ame	amar	VERB	VERB	_	0	root	_	SpaceAfter=No
+3	,	_	PUNCT	.	_	5	punct	_	_
+4	e	_	CCONJ	CONJ	_	5	cc	_	_
+5	demonstre	demonstrar	VERB	VERB	_	2	conj	_	_
+6	sempre	sempre	ADV	ADV	_	5	advmod	_	_
+7	os	_	DET	DET	_	9	det	_	_
+8	seus	_	DET	DET	_	9	det:poss	_	_
+9	sentimentos	sentimento	NOUN	NOUN	_	5	obj	_	SpaceAfter=No
+10	,	_	PUNCT	.	_	11	punct	_	_
+11	goste	gostar	VERB	VERB	_	5	conj	_	_
+12-13	das	_	_	_	_	_	_	_	_
+12	de	de	ADP	ADP	_	14	case	_	_
+13	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	pessoas	pessoa	NOUN	NOUN	_	11	nmod	_	_
+15	e	_	CCONJ	CONJ	_	16	cc	_	_
+16	demonstre	demonstrar	VERB	VERB	_	11	conj	_	_
+17	que	_	CCONJ	CONJ	_	19	mark	_	_
+18	você	_	PRON	PRON	_	19	nsubj	_	_
+19	gosta	gostar	VERB	VERB	_	16	ccomp	_	SpaceAfter=No
+20	.	_	PUNCT	.	_	2	punct	_	_
+
+# sent_id = test-s174
+# text = Nesta edição, o editor do Wavescheck Herbert Passos Neto fala da condição para o surf no litoral Sul do país.
+1	Nesta	_	ADP	ADP	_	2	case	_	_
+2	edição	edição	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
+3	,	_	PUNCT	.	_	2	punct	_	_
+4	o	_	DET	DET	_	5	det	_	_
+5	editor	editor	NOUN	NOUN	_	12	nsubj	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Wavescheck	_	PROPN	PNOUN	_	5	nmod	_	_
+9	Herbert	_	PROPN	PNOUN	_	8	flat	_	_
+10	Passos	_	PROPN	PNOUN	_	8	flat	_	_
+11	Neto	_	PROPN	PNOUN	_	8	flat	_	_
+12	fala	_	VERB	VERB	_	0	root	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	condição	condição	NOUN	NOUN	_	12	nmod	_	_
+16	para	_	ADP	ADP	_	18	case	_	_
+17	o	_	DET	DET	_	18	det	_	_
+18	surf	surf	NOUN	NOUN	_	15	nmod	_	_
+19-20	no	_	_	_	_	_	_	_	_
+19	em	em	ADP	ADP	_	22	case	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	litoral	litoral	ADJ	ADJ	_	22	amod	_	_
+22	Sul	_	PROPN	PNOUN	_	15	nmod	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	ADP	_	25	case	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	país	país	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
+26	.	_	PUNCT	.	_	12	punct	_	_
+
+# sent_id = test-s175
+# text = Estava acompanhado de Vladimir Soares, Angela Chaves e Doca de Oliveira, assessores de comunicação.
+1	Estava	estar	VERB	VERB	_	0	root	_	_
+2	acompanhado	acompanhado	ADJ	ADJ	_	1	xcomp:adj	_	_
+3	de	_	ADP	ADP	_	4	case	_	_
+4	Vladimir	_	PROPN	PNOUN	_	2	nmod	_	_
+5	Soares	_	PROPN	PNOUN	_	4	flat	_	SpaceAfter=No
+6	,	_	PUNCT	.	_	7	punct	_	_
+7	Angela	_	PROPN	PNOUN	_	4	conj	_	_
+8	Chaves	_	PROPN	PNOUN	_	7	flat	_	_
+9	e	_	CCONJ	CONJ	_	10	cc	_	_
+10	Doca	_	PROPN	PNOUN	_	4	conj	_	_
+11	de	_	ADP	ADP	_	12	case	_	_
+12	Oliveira	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
+13	,	_	PUNCT	.	_	14	punct	_	_
+14	assessores	assessor	NOUN	NOUN	_	4	appos	_	_
+15	de	_	ADP	ADP	_	16	case	_	_
+16	comunicação	comunicação	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
+17	.	_	PUNCT	.	_	1	punct	_	_
+
+# sent_id = test-s176
+# text = No dia 3 de setembro, trabalhadores protestaram em frente à mina de Springs, controlada pela empresa Gold One, e foram reprimidos pela polícia sul - africana.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	ADP	_	3	case	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	dia	dia	NOUN	NOUN	_	9	nmod	_	_
+4	3	_	NUM	NUM	NumType=Card	3	nmod	_	_
+5	de	_	ADP	ADP	_	6	case	_	_
+6	setembro	_	PROPN	PNOUN	_	4	nmod	_	SpaceAfter=No
+7	,	_	PUNCT	.	_	3	punct	_	_
+8	trabalhadores	trabalhador	NOUN	NOUN	_	9	nsubj	_	_
+9	protestaram	protestar	VERB	VERB	_	0	root	_	_
+10	em	_	ADP	ADP	_	11	case	_	_
+11	frente	frente	NOUN	NOUN	_	9	nmod	_	_
+12-13	à	_	_	_	_	_	_	_	_
+12	a	a	ADP	ADP	_	14	case	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	mina	mina	NOUN	NOUN	_	11	nmod	_	_
+15	de	_	ADP	ADP	_	16	case	_	_
+16	Springs	_	PROPN	PNOUN	_	14	nmod	_	SpaceAfter=No
+17	,	_	PUNCT	.	_	18	punct	_	_
+18	controlada	controlar	VERB	VERB	_	14	acl:part	_	_
+19-20	pela	_	_	_	_	_	_	_	_
+19	por	por	ADP	ADP	_	21	case	_	_
+20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	empresa	empresa	NOUN	NOUN	_	18	nmod	_	_
+22	Gold	_	PROPN	PNOUN	_	21	appos	_	_
+23	One	_	PROPN	PNOUN	_	22	appos	_	SpaceAfter=No
+24	,	_	PUNCT	.	_	27	punct	_	_
+25	e	_	CCONJ	CONJ	_	27	cc	_	_
+26	foram	_	AUX	AUX	_	27	aux:pass	_	_
+27	reprimidos	reprimir	VERB	VERB	_	9	conj	_	_
+28-29	pela	_	_	_	_	_	_	_	_
+28	por	por	ADP	ADP	_	30	case	_	_
+29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	polícia	polícia	NOUN	NOUN	_	27	nmod	_	_
+31	sul	sul	ADJ	ADJ	_	33	amod	_	_
+32	-	_	PUNCT	.	_	33	punct	_	_
+33	africana	africano	ADJ	ADJ	_	30	amod	_	SpaceAfter=No
+34	.	_	PUNCT	.	_	9	punct	_	_
+
+# sent_id = test-s177
+# text = Por último, adoptou uma atitude servil em relação a Alexandre I, Rei da Polónia e Czar da Rússia, que lhe deu o título de duque em 1818.
+1	Por	_	ADP	ADP	_	2	mark	_	_
+2	último	último	ADJ	ADJ	_	4	nmod	_	SpaceAfter=No
+3	,	_	PUNCT	.	_	2	punct	_	_
+4	adoptou	adoptar	VERB	VERB	_	0	root	_	_
+5	uma	_	DET	DET	_	6	det	_	_
+6	atitude	atitude	NOUN	NOUN	_	4	obj	_	_
+7	servil	servil	ADJ	ADJ	_	6	amod	_	_
+8	em	_	ADP	ADP	_	9	case	_	_
+9	relação	relação	NOUN	NOUN	_	4	nmod	_	_
+10	a	_	ADP	ADP	_	11	case	_	_
+11	Alexandre	_	PROPN	PNOUN	_	9	nmod	_	_
+12	I	_	PROPN	PNOUN	_	11	amod	_	SpaceAfter=No
+13	,	_	PUNCT	.	_	14	punct	_	_
+14	Rei	_	PROPN	PNOUN	_	11	appos	_	_
+15-16	da	_	_	_	_	_	_	_	_
+15	de	de	ADP	ADP	_	17	case	_	_
+16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Polónia	_	PROPN	PNOUN	_	14	nmod	_	_
+18	e	_	CCONJ	CONJ	_	19	cc	_	_
+19	Czar	_	PROPN	PNOUN	_	14	conj	_	_
+20-21	da	_	_	_	_	_	_	_	_
+20	de	de	ADP	ADP	_	22	case	_	_
+21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Rússia	_	PROPN	PNOUN	_	19	nmod	_	SpaceAfter=No
+23	,	_	PUNCT	.	_	26	punct	_	_
+24	que	_	PRON	PRON	_	26	nsubj	_	_
+25	lhe	_	PRON	PRON	_	26	iobj	_	_
+26	deu	dar	VERB	VERB	_	11	acl:relcl	_	_
+27	o	_	DET	DET	_	28	det	_	_
+28	título	título	NOUN	NOUN	_	26	obj	_	_
+29	de	_	ADP	ADP	_	30	case	_	_
+30	duque	duque	NOUN	NOUN	_	28	nmod	_	_
+31	em	_	ADP	ADP	_	32	case	_	_
+32	1818	_	NUM	NUM	NumType=Card	26	nmod	_	SpaceAfter=No
+33	.	_	PUNCT	.	_	4	punct	_	_
+
+# sent_id = test-s178
+# text = Para Mascote, a decisão do prefeito não vai afetar a luta.
+1	Para	_	ADP	ADP	_	2	case	_	_
+2	Mascote	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
+3	,	_	PUNCT	.	_	2	punct	_	_
+4	a	_	DET	DET	_	5	det	_	_
+5	decisão	decisão	NOUN	NOUN	_	11	nsubj	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	prefeito	prefeito	NOUN	NOUN	_	5	nmod	_	_
+9	não	não	ADV	ADV	Polarity=Neg	11	advmod	_	_
+10	vai	ir	AUX	AUX	_	11	aux	_	_
+11	afetar	afetar	VERB	VERB	_	0	root	_	_
+12	a	_	DET	DET	_	13	det	_	_
+13	luta	luta	NOUN	NOUN	_	11	obj	_	SpaceAfter=No
+14	.	_	PUNCT	.	_	11	punct	_	_
+
+# sent_id = test-s179
+# text = 20h21: Péricles Deliberador (PMN) diz que Londrina está precisando do apoio de todos os vereadores.
+1	20h21	_	NUM	NUM	NumType=Card	8	parataxis	_	SpaceAfter=No
+2	:	_	PUNCT	.	_	8	punct	_	_
+3	Péricles	_	PROPN	PNOUN	_	8	nsubj	_	_
+4	Deliberador	_	PROPN	PNOUN	_	3	flat	_	_
+5	(	_	PUNCT	.	_	6	punct	_	SpaceAfter=No
+6	PMN	_	PROPN	PNOUN	_	3	appos	_	SpaceAfter=No
+7	)	_	PUNCT	.	_	6	punct	_	_
+8	diz	dizer	VERB	VERB	_	0	root	_	_
+9	que	_	CCONJ	CONJ	_	12	mark	_	_
+10	Londrina	_	PROPN	PNOUN	_	12	nsubj	_	_
+11	está	estar	AUX	AUX	_	12	aux	_	_
+12	precisando	precisar	VERB	VERB	_	8	ccomp	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	apoio	apoio	NOUN	NOUN	_	12	nmod	_	_
+16	de	_	ADP	ADP	_	19	case	_	_
+17	todos	_	DET	DET	_	19	det	_	_
+18	os	_	DET	DET	_	19	det	_	_
+19	vereadores	vereador	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
+20	.	_	PUNCT	.	_	8	punct	_	_
+

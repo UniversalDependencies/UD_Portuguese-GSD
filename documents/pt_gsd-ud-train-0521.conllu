@@ -1,0 +1,231 @@
+# sent_id = train-s5171
+# text = A vítima foi morta após reagir a um assalto cometido pelos bandidos.
+1	A	_	DET	DET	_	2	det	_	_
+2	vítima	vítima	NOUN	NOUN	_	4	nsubj:pass	_	_
+3	foi	_	AUX	AUX	_	4	aux:pass	_	_
+4	morta	_	VERB	VERB	_	0	root	_	_
+5	após	_	ADP	ADP	_	6	mark	_	_
+6	reagir	reagir	VERB	VERB	_	4	advcl	_	_
+7	a	_	ADP	ADP	_	9	case	_	_
+8	um	_	DET	DET	_	9	det	_	_
+9	assalto	assalto	NOUN	NOUN	_	6	nmod	_	_
+10	cometido	cometer	VERB	VERB	_	9	acl:part	_	_
+11-12	pelos	_	_	_	_	_	_	_	_
+11	por	por	ADP	ADP	_	13	case	_	_
+12	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	bandidos	bandido	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
+14	.	_	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s5172
+# text = O Real Madrid venceu, neste domingo, a Real Sociedad por 4 a 3, em jogo válido pela 18 ª rodada do Campeonato Espanhol.
+1	O	_	DET	DET	_	3	det	_	_
+2	Real	_	PROPN	PNOUN	_	3	amod	_	_
+3	Madrid	_	PROPN	PNOUN	_	4	nsubj	_	_
+4	venceu	vencer	VERB	VERB	_	0	root	_	SpaceAfter=No
+5	,	_	PUNCT	.	_	7	punct	_	_
+6	neste	_	ADP	ADP	_	7	case	_	_
+7	domingo	_	PROPN	PNOUN	_	4	nmod	_	SpaceAfter=No
+8	,	_	PUNCT	.	_	7	punct	_	_
+9	a	_	DET	DET	_	11	det	_	_
+10	Real	_	PROPN	PNOUN	_	11	amod	_	_
+11	Sociedad	_	PROPN	PNOUN	_	4	obj	_	_
+12	por	_	ADP	ADP	_	13	case	_	_
+13	4	_	NUM	NUM	NumType=Card	4	nmod	_	_
+14	a	_	ADP	ADP	_	15	case	_	_
+15	3	_	NUM	NUM	NumType=Card	13	nmod	_	SpaceAfter=No
+16	,	_	PUNCT	.	_	18	punct	_	_
+17	em	_	ADP	ADP	_	18	case	_	_
+18	jogo	jogo	NOUN	NOUN	_	4	nmod	_	_
+19	válido	válido	ADJ	ADJ	_	18	amod	_	_
+20-21	pela	_	_	_	_	_	_	_	_
+20	por	por	ADP	ADP	_	24	case	_	_
+21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+22	18	_	ADJ	ADJ	_	24	amod	_	_
+23	ª	_	PUNCT	.	_	22	punct	_	_
+24	rodada	_	NOUN	NOUN	_	18	nmod	_	_
+25-26	do	_	_	_	_	_	_	_	_
+25	de	de	ADP	ADP	_	27	case	_	_
+26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Campeonato	_	PROPN	PNOUN	_	24	nmod	_	_
+28	Espanhol	_	PROPN	PNOUN	_	27	amod	_	SpaceAfter=No
+29	.	_	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s5173
+# text = Seu lançamento está previsto primeiro para Ásia em janeiro de 2013, depois Europa e Oriente Médio.
+1	Seu	_	DET	DET	_	2	det:poss	_	_
+2	lançamento	lançamento	NOUN	NOUN	_	3	nsubj	_	_
+3	está	estar	VERB	VERB	_	0	root	_	_
+4	previsto	previsto	ADJ	ADJ	_	3	xcomp:adj	_	_
+5	primeiro	primeiro	ADV	ADV	_	7	advmod	_	_
+6	para	_	ADP	ADP	_	7	case	_	_
+7	Ásia	_	PROPN	PNOUN	_	4	nmod	_	_
+8	em	_	ADP	ADP	_	9	case	_	_
+9	janeiro	_	PROPN	PNOUN	_	4	nmod	_	_
+10	de	_	ADP	ADP	_	11	case	_	_
+11	2013	_	NUM	NUM	NumType=Card	9	nmod	_	SpaceAfter=No
+12	,	_	PUNCT	.	_	14	punct	_	_
+13	depois	depois	ADV	ADV	_	14	advmod	_	_
+14	Europa	_	PROPN	PNOUN	_	7	conj	_	_
+15	e	_	CCONJ	CONJ	_	16	cc	_	_
+16	Oriente	_	PROPN	PNOUN	_	14	conj	_	_
+17	Médio	_	PROPN	PNOUN	_	16	amod	_	SpaceAfter=No
+18	.	_	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s5174
+# text = "Precisamos nos assegurar de que o imprevisível não seja tão forte", declarou Brawn.
+1	"	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
+2	Precisamos	precisar	VERB	VERB	_	15	ccomp	_	_
+3	nos	_	PRON	PRON	_	4	obj	_	_
+4	assegurar	assegurar	VERB	VERB	_	2	xcomp	_	_
+5	de	_	ADP	ADP	_	10	mark	_	_
+6	que	_	CCONJ	CONJ	_	10	mark	_	_
+7	o	_	DET	DET	_	8	det	_	_
+8	imprevisível	_	NOUN	NOUN	_	10	nsubj	_	_
+9	não	não	ADV	ADV	Polarity=Neg	10	advmod	_	_
+10	seja	ser	VERB	VERB	_	4	nmod	_	_
+11	tão	tão	ADV	ADV	_	12	advmod	_	_
+12	forte	forte	ADJ	ADJ	_	10	xcomp:adj	_	SpaceAfter=No
+13	"	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
+14	,	_	PUNCT	.	_	15	punct	_	_
+15	declarou	declarar	VERB	VERB	_	0	root	_	_
+16	Brawn	_	PROPN	PNOUN	_	15	nsubj	_	SpaceAfter=No
+17	.	_	PUNCT	.	_	15	punct	_	_
+
+# sent_id = train-s5175
+# text = Bom feriado ", escreveu ela no microblog na quinta - feira (15).
+1	Bom	bom	ADJ	ADJ	_	2	amod	_	_
+2	feriado	feriado	NOUN	NOUN	_	5	obj	_	_
+3	"	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
+4	,	_	PUNCT	.	_	2	punct	_	_
+5	escreveu	escrever	VERB	VERB	_	0	root	_	_
+6	ela	_	PRON	PRON	_	5	nsubj	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	microblog	_	NOUN	NOUN	_	5	nmod	_	_
+10-11	na	_	_	_	_	_	_	_	_
+10	em	em	ADP	ADP	_	14	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+12	quinta	_	PROPN	PNOUN	_	14	amod	_	_
+13	-	_	PUNCT	.	_	14	punct	_	_
+14	feira	_	PROPN	PNOUN	_	5	nmod	_	_
+15	(	_	PUNCT	.	_	16	punct	_	SpaceAfter=No
+16	15	_	NUM	NUM	NumType=Card	14	nmod	_	SpaceAfter=No
+17	)	_	PUNCT	.	_	16	punct	_	SpaceAfter=No
+18	.	_	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s5176
+# text = Assim como antigamente, o salário médio dum jogador é baixo.
+1	Assim	assim	ADV	ADV	_	3	mark	_	_
+2	como	_	ADP	ADP	_	1	fixed	_	_
+3	antigamente	antigamente	ADV	ADV	_	11	nmod	_	SpaceAfter=No
+4	,	_	PUNCT	.	_	3	punct	_	_
+5	o	_	DET	DET	_	6	det	_	_
+6	salário	salário	NOUN	NOUN	_	11	nsubj	_	_
+7	médio	médio	ADJ	ADJ	_	6	amod	_	_
+8-9	dum	_	_	_	_	_	_	_	_
+8	de	_	ADP	ADP	_	10	case	_	_
+9	um	_	DET	DET	_	10	det	_	_
+10	jogador	jogador	NOUN	NOUN	_	6	nmod	_	_
+11	é	ser	VERB	VERB	_	0	root	_	_
+12	baixo	baixo	ADJ	ADJ	_	11	xcomp:adj	_	SpaceAfter=No
+13	.	_	PUNCT	.	_	11	punct	_	_
+
+# sent_id = train-s5177
+# text = Onde vamos parar?
+1	Onde	onde	ADV	ADV	_	3	advmod	_	_
+2	vamos	ir	AUX	AUX	_	3	aux	_	_
+3	parar	parar	VERB	VERB	_	0	root	_	SpaceAfter=No
+4	?	_	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s5178
+# text = Com o impacto, o poste atingido pelo veículo tombou sobre a pista atrapalhando o trânsito na região.
+1	Com	_	ADP	ADP	_	3	case	_	_
+2	o	_	DET	DET	_	3	det	_	_
+3	impacto	impacto	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
+4	,	_	PUNCT	.	_	3	punct	_	_
+5	o	_	DET	DET	_	6	det	_	_
+6	poste	poste	NOUN	NOUN	_	11	nsubj	_	_
+7	atingido	atingir	VERB	VERB	_	6	acl:part	_	_
+8-9	pelo	_	_	_	_	_	_	_	_
+8	por	por	ADP	ADP	_	10	case	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	veículo	veículo	NOUN	NOUN	_	7	nmod	_	_
+11	tombou	tombar	VERB	VERB	_	0	root	_	_
+12	sobre	_	ADP	ADP	_	14	case	_	_
+13	a	_	DET	DET	_	14	det	_	_
+14	pista	pista	NOUN	NOUN	_	11	nmod	_	_
+15	atrapalhando	atrapalhar	VERB	VERB	_	11	acl:part	_	_
+16	o	_	DET	DET	_	17	det	_	_
+17	trânsito	trânsito	NOUN	NOUN	_	15	obj	_	_
+18-19	na	_	_	_	_	_	_	_	_
+18	em	em	ADP	ADP	_	20	case	_	_
+19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	região	região	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
+21	.	_	PUNCT	.	_	11	punct	_	_
+
+# sent_id = train-s5179
+# text = o antigo traçado será aproveitado, durante alguns anos, para composições de mercadorias, prevendo - se que será completamente desactivado aquando da construção dum novo terminal de mercadorias por parte da Rede Ferroviária Nacional.
+1	o	_	DET	DET	_	3	det	_	_
+2	antigo	antigo	ADJ	ADJ	_	3	amod	_	_
+3	traçado	traçado	NOUN	NOUN	_	5	nsubj:pass	_	_
+4	será	ser	AUX	AUX	_	5	aux:pass	_	_
+5	aproveitado	aproveitar	VERB	VERB	_	0	root	_	SpaceAfter=No
+6	,	_	PUNCT	.	_	9	punct	_	_
+7	durante	_	ADP	ADP	_	9	case	_	_
+8	alguns	_	DET	DET	_	9	det	_	_
+9	anos	ano	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
+10	,	_	PUNCT	.	_	9	punct	_	_
+11	para	_	ADP	ADP	_	12	case	_	_
+12	composições	composição	NOUN	NOUN	_	5	nmod	_	_
+13	de	_	ADP	ADP	_	14	case	_	_
+14	mercadorias	mercadoria	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
+15	,	_	PUNCT	.	_	16	punct	_	_
+16	prevendo	prever	VERB	VERB	_	5	acl:part	_	_
+17	-	_	PUNCT	.	_	16	punct	_	_
+18	se	_	PART	PRT	_	16	expl:pv	_	_
+19	que	_	CCONJ	CONJ	_	22	mark	_	_
+20	será	ser	AUX	AUX	_	22	aux:pass	_	_
+21	completamente	completamente	ADV	ADV	_	22	advmod	_	_
+22	desactivado	desactivar	VERB	VERB	_	16	ccomp	_	_
+23	aquando	aquando	ADV	ADV	_	22	advmod	_	_
+24-25	da	_	_	_	_	_	_	_	_
+24	de	de	ADP	ADP	_	26	case	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	construção	construção	NOUN	NOUN	_	23	nmod	_	_
+27-28	dum	_	_	_	_	_	_	_	_
+27	de	_	ADP	ADP	_	30	case	_	_
+28	um	_	DET	DET	_	30	det	_	_
+29	novo	novo	ADJ	ADJ	_	30	amod	_	_
+30	terminal	terminal	NOUN	NOUN	_	26	nmod	_	_
+31	de	_	ADP	ADP	_	32	case	_	_
+32	mercadorias	mercadoria	NOUN	NOUN	_	30	nmod	_	_
+33	por	_	ADP	ADP	_	34	case	_	_
+34	parte	parte	NOUN	NOUN	_	26	nmod	_	_
+35-36	da	_	_	_	_	_	_	_	_
+35	de	de	ADP	ADP	_	37	case	_	_
+36	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	Rede	_	PROPN	PNOUN	_	34	nmod	_	_
+38	Ferroviária	_	PROPN	PNOUN	_	37	amod	_	_
+39	Nacional	_	PROPN	PNOUN	_	37	amod	_	SpaceAfter=No
+40	.	_	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s5180
+# text = O Centro Público de Apoio ao Trabalhador de Campinas atende em dois endereços.
+1	O	_	DET	DET	_	2	det	_	_
+2	Centro	_	PROPN	PNOUN	_	11	nsubj	_	_
+3	Público	_	PROPN	PNOUN	_	2	amod	_	_
+4	de	_	ADP	ADP	_	5	case	_	_
+5	Apoio	_	PROPN	PNOUN	_	2	nmod	_	_
+6-7	ao	_	_	_	_	_	_	_	_
+6	a	a	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Trabalhador	_	PROPN	PNOUN	_	5	nmod	_	_
+9	de	_	ADP	ADP	_	10	case	_	_
+10	Campinas	_	PROPN	PNOUN	_	2	nmod	_	_
+11	atende	_	VERB	VERB	_	0	root	_	_
+12	em	_	ADP	ADP	_	14	case	_	_
+13	dois	_	NUM	NUM	NumType=Card	14	nummod	_	_
+14	endereços	endereço	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
+15	.	_	PUNCT	.	_	11	punct	_	_
+

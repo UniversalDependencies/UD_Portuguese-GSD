@@ -1,0 +1,241 @@
+# sent_id = train-s561
+# text = Aqui na cidade a gente vive esse problema cotidianamente.
+1	Aqui	aqui	ADV	ADV	_	7	advmod	_	_
+2-3	na	_	_	_	_	_	_	_	_
+2	em	em	ADP	ADP	_	4	case	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	cidade	cidade	NOUN	NOUN	_	1	nmod	_	_
+5	a	_	DET	DET	_	6	det	_	_
+6	gente	gente	NOUN	NOUN	_	7	nsubj	_	_
+7	vive	_	VERB	VERB	_	0	root	_	_
+8	esse	_	DET	DET	_	9	det	_	_
+9	problema	problema	NOUN	NOUN	_	7	obj	_	_
+10	cotidianamente	cotidianamente	ADV	ADV	_	7	advmod	_	SpaceAfter=No
+11	.	_	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s562
+# text = "Compensa bastante, pois além de distrair a cabeça.
+1	"	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
+2	Compensa	compensar	VERB	VERB	_	0	root	_	_
+3	bastante	bastante	ADV	ADV	_	2	advmod	_	SpaceAfter=No
+4	,	_	PUNCT	.	_	6	punct	_	_
+5	pois	_	CCONJ	CONJ	_	8	dep	_	_
+6	além	além	ADV	ADV	_	2	advmod	_	_
+7	de	_	ADP	ADP	_	8	mark	_	_
+8	distrair	distrair	VERB	VERB	_	6	nmod	_	_
+9	a	_	DET	DET	_	10	det	_	_
+10	cabeça	cabeça	NOUN	NOUN	_	8	obj	_	SpaceAfter=No
+11	.	_	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s563
+# text = De acordo com a CET - Rio, até julho deste ano, o número de vagas pertencentes ao sistema Rio Rotativo era estimado em 45 mil vagas.
+1	De	_	ADP	ADP	_	2	case	_	_
+2	acordo	acordo	NOUN	NOUN	_	25	nmod	_	_
+3	com	_	ADP	ADP	_	5	case	_	_
+4	a	_	DET	DET	_	5	det	_	_
+5	CET	_	PROPN	PNOUN	_	2	nmod	_	_
+6	-	_	PUNCT	.	_	5	punct	_	_
+7	Rio	_	PROPN	PNOUN	_	5	flat	_	SpaceAfter=No
+8	,	_	PUNCT	.	_	2	punct	_	_
+9	até	_	ADP	ADP	_	10	case	_	_
+10	julho	_	PROPN	PNOUN	_	25	nmod	_	_
+11	deste	_	ADP	ADP	_	12	case	_	_
+12	ano	ano	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
+13	,	_	PUNCT	.	_	10	punct	_	_
+14	o	_	DET	DET	_	15	det	_	_
+15	número	número	NOUN	NOUN	_	25	nsubj:pass	_	_
+16	de	_	ADP	ADP	_	17	case	_	_
+17	vagas	vaga	NOUN	NOUN	_	15	nmod	_	_
+18	pertencentes	pertencente	ADJ	ADJ	_	17	amod	_	_
+19-20	ao	_	_	_	_	_	_	_	_
+19	a	a	ADP	ADP	_	21	case	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	sistema	sistema	NOUN	NOUN	_	18	nmod	_	_
+22	Rio	_	PROPN	PNOUN	_	21	appos	_	_
+23	Rotativo	_	PROPN	PNOUN	_	22	amod	_	_
+24	era	_	AUX	AUX	_	25	aux:pass	_	_
+25	estimado	estimar	VERB	VERB	_	0	root	_	_
+26	em	_	ADP	ADP	_	29	case	_	_
+27	45	_	NUM	NUM	NumType=Card	28	nummod	_	_
+28	mil	_	NUM	NUM	NumType=Card	29	nummod	_	_
+29	vagas	vaga	NOUN	NOUN	_	25	nmod	_	SpaceAfter=No
+30	.	_	PUNCT	.	_	25	punct	_	_
+
+# sent_id = train-s564
+# text = Os candidatos -- escolhidos por sorteio -- tiveram dois minutos para responder.
+1	Os	_	DET	DET	_	2	det	_	_
+2	candidatos	candidato	NOUN	NOUN	_	8	nsubj	_	_
+3	--	_	PUNCT	.	_	4	punct	_	_
+4	escolhidos	escolher	VERB	VERB	_	2	acl:part	_	_
+5	por	_	ADP	ADP	_	6	case	_	_
+6	sorteio	sorteio	NOUN	NOUN	_	4	nmod	_	_
+7	--	_	PUNCT	.	_	4	punct	_	_
+8	tiveram	ter	VERB	VERB	_	0	root	_	_
+9	dois	_	NUM	NUM	NumType=Card	10	nummod	_	_
+10	minutos	minuto	NOUN	NOUN	_	8	obj	_	_
+11	para	_	ADP	ADP	_	12	mark	_	_
+12	responder	responder	VERB	VERB	_	10	nmod	_	SpaceAfter=No
+13	.	_	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s565
+# text = "Quando saí da prova falei para minha mãe que tinha ido muito bem e estava muito feliz, mas nunca ia imaginar que iria acertar todas as questões", diz a estudante.
+1	"	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
+2	Quando	_	CCONJ	CONJ	_	3	mark	_	_
+3	saí	sair	VERB	VERB	_	7	advcl	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	ADP	_	6	case	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	prova	prova	NOUN	NOUN	_	3	nmod	_	_
+7	falei	falar	VERB	VERB	_	33	ccomp	_	_
+8	para	_	ADP	ADP	_	10	case	_	_
+9	minha	_	DET	DET	_	10	det:poss	_	_
+10	mãe	mãe	NOUN	NOUN	_	7	nmod	_	_
+11	que	_	CCONJ	CONJ	_	13	mark	_	_
+12	tinha	ter	AUX	AUX	_	13	aux	_	_
+13	ido	ir	VERB	VERB	_	7	ccomp	_	_
+14	muito	muito	ADV	ADV	_	15	advmod	_	_
+15	bem	bem	ADV	ADV	_	13	advmod	_	_
+16	e	_	CCONJ	CONJ	_	17	cc	_	_
+17	estava	estar	VERB	VERB	_	13	conj	_	_
+18	muito	muito	ADV	ADV	_	19	advmod	_	_
+19	feliz	feliz	ADJ	ADJ	_	17	xcomp:adj	_	SpaceAfter=No
+20	,	_	PUNCT	.	_	24	punct	_	_
+21	mas	_	CCONJ	CONJ	_	24	cc	_	_
+22	nunca	nunca	ADV	ADV	_	24	advmod	_	_
+23	ia	ir	AUX	AUX	_	24	aux	_	_
+24	imaginar	imaginar	VERB	VERB	_	7	conj	_	_
+25	que	_	CCONJ	CONJ	_	27	mark	_	_
+26	iria	_	AUX	AUX	_	27	aux	_	_
+27	acertar	acertar	VERB	VERB	_	24	ccomp	_	_
+28	todas	_	DET	DET	_	30	det	_	_
+29	as	_	DET	DET	_	30	det	_	_
+30	questões	questão	NOUN	NOUN	_	27	obj	_	SpaceAfter=No
+31	"	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
+32	,	_	PUNCT	.	_	33	punct	_	_
+33	diz	dizer	VERB	VERB	_	0	root	_	_
+34	a	_	DET	DET	_	35	det	_	_
+35	estudante	estudante	NOUN	NOUN	_	33	nsubj	_	SpaceAfter=No
+36	.	_	PUNCT	.	_	33	punct	_	_
+
+# sent_id = train-s566
+# text = O programa de etiquetagem dos fornos elétricos de padaria foi proposto pelo setor de panificação e organizado pelo Serviço de Apoio às Micro e Pequenas Empresas (Sebrae).
+1	O	_	DET	DET	_	2	det	_	_
+2	programa	programa	NOUN	NOUN	_	12	nsubj:pass	_	_
+3	de	_	ADP	ADP	_	4	case	_	_
+4	etiquetagem	etiquetagem	NOUN	NOUN	_	2	nmod	_	_
+5-6	dos	_	_	_	_	_	_	_	_
+5	de	de	ADP	ADP	_	7	case	_	_
+6	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	fornos	forno	NOUN	NOUN	_	4	nmod	_	_
+8	elétricos	elétrico	ADJ	ADJ	_	7	amod	_	_
+9	de	_	ADP	ADP	_	10	case	_	_
+10	padaria	padaria	NOUN	NOUN	_	7	nmod	_	_
+11	foi	_	AUX	AUX	_	12	aux:pass	_	_
+12	proposto	propor	VERB	VERB	_	0	root	_	_
+13-14	pelo	_	_	_	_	_	_	_	_
+13	por	por	ADP	ADP	_	15	case	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	setor	setor	NOUN	NOUN	_	12	nmod	_	_
+16	de	_	ADP	ADP	_	17	case	_	_
+17	panificação	panificação	NOUN	NOUN	_	15	nmod	_	_
+18	e	_	CCONJ	CONJ	_	19	cc	_	_
+19	organizado	organizar	VERB	VERB	_	12	conj	_	_
+20-21	pelo	_	_	_	_	_	_	_	_
+20	por	por	ADP	ADP	_	22	case	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Serviço	_	PROPN	PNOUN	_	19	nmod	_	_
+23	de	_	ADP	ADP	_	24	case	_	_
+24	Apoio	_	PROPN	PNOUN	_	22	nmod	_	_
+25-26	às	_	_	_	_	_	_	_	_
+25	a	a	ADP	ADP	_	30	case	_	_
+26	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+27	Micro	_	PROPN	PNOUN	_	30	amod	_	_
+28	e	_	CCONJ	CONJ	_	29	cc	_	_
+29	Pequenas	_	PROPN	PNOUN	_	27	conj	_	_
+30	Empresas	_	PROPN	PNOUN	_	24	nmod	_	_
+31	(	_	PUNCT	.	_	32	punct	_	SpaceAfter=No
+32	Sebrae	_	PROPN	PNOUN	_	22	appos	_	SpaceAfter=No
+33	)	_	PUNCT	.	_	32	punct	_	SpaceAfter=No
+34	.	_	PUNCT	.	_	12	punct	_	_
+
+# sent_id = train-s567
+# text = Atualmente, não há um candidato aceito para a teoria da gravitação quântica.
+1	Atualmente	atualmente	ADV	ADV	_	4	advmod	_	SpaceAfter=No
+2	,	_	PUNCT	.	_	1	punct	_	_
+3	não	não	ADV	ADV	Polarity=Neg	4	advmod	_	_
+4	há	haver	VERB	VERB	_	0	root	_	_
+5	um	_	DET	DET	_	6	det	_	_
+6	candidato	candidato	NOUN	NOUN	_	4	obj	_	_
+7	aceito	aceitar	VERB	VERB	_	6	acl:part	_	_
+8	para	_	ADP	ADP	_	10	case	_	_
+9	a	_	DET	DET	_	10	det	_	_
+10	teoria	teoria	NOUN	NOUN	_	7	nmod	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	ADP	_	13	case	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	gravitação	gravitação	NOUN	NOUN	_	10	nmod	_	_
+14	quântica	quântico	ADJ	ADJ	_	13	amod	_	SpaceAfter=No
+15	.	_	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s568
+# text = A taxa de mortalidade entre menores de 5 anos registrada em Curitiba em 2011 ficou em 9,9 por mil nascidos vivos.
+1	A	_	DET	DET	_	2	det	_	_
+2	taxa	taxa	NOUN	NOUN	_	15	nsubj	_	_
+3	de	_	ADP	ADP	_	4	case	_	_
+4	mortalidade	mortalidade	NOUN	NOUN	_	2	nmod	_	_
+5	entre	_	ADP	ADP	_	6	case	_	_
+6	menores	_	NOUN	NOUN	_	4	nmod	_	_
+7	de	_	ADP	ADP	_	9	case	_	_
+8	5	_	NUM	NUM	NumType=Card	9	nummod	_	_
+9	anos	ano	NOUN	NOUN	_	6	nmod	_	_
+10	registrada	registrar	VERB	VERB	_	2	acl:part	_	_
+11	em	_	ADP	ADP	_	12	case	_	_
+12	Curitiba	_	PROPN	PNOUN	_	10	nmod	_	_
+13	em	_	ADP	ADP	_	14	case	_	_
+14	2011	_	NUM	NUM	NumType=Card	10	nmod	_	_
+15	ficou	ficar	VERB	VERB	_	0	root	_	_
+16	em	_	ADP	ADP	_	17	case	_	_
+17	9,9	_	NUM	NUM	NumType=Card	15	nmod	_	_
+18	por	_	ADP	ADP	_	20	case	_	_
+19	mil	_	NUM	NUM	NumType=Card	20	nummod	_	_
+20	nascidos	nascido	NOUN	NOUN	_	15	nmod	_	_
+21	vivos	vivo	ADJ	ADJ	_	20	amod	_	SpaceAfter=No
+22	.	_	PUNCT	.	_	15	punct	_	_
+
+# sent_id = train-s569
+# text = Não tenho nada a perder!
+1	Não	não	ADV	ADV	Polarity=Neg	2	advmod	_	_
+2	tenho	ter	VERB	VERB	_	0	root	_	_
+3	nada	_	PRON	PRON	_	2	obj	_	_
+4	a	_	ADP	ADP	_	5	mark	_	_
+5	perder	perder	VERB	VERB	_	3	acl:inf	_	SpaceAfter=No
+6	!	_	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s570
+# text = A polícia ainda não conseguiu identificar o motociclista que atingiu a adolescente e disponibilizou o telefone 190 para denúncias e informações sobre o caso.
+1	A	_	DET	DET	_	2	det	_	_
+2	polícia	polícia	NOUN	NOUN	_	5	nsubj	_	_
+3	ainda	ainda	ADV	ADV	_	5	advmod	_	_
+4	não	não	ADV	ADV	Polarity=Neg	5	advmod	_	_
+5	conseguiu	conseguir	VERB	VERB	_	0	root	_	_
+6	identificar	identificar	VERB	VERB	_	5	xcomp	_	_
+7	o	_	DET	DET	_	8	det	_	_
+8	motociclista	motociclista	NOUN	NOUN	_	6	obj	_	_
+9	que	_	PRON	PRON	_	10	nsubj	_	_
+10	atingiu	atingir	VERB	VERB	_	8	acl:relcl	_	_
+11	a	_	DET	DET	_	12	det	_	_
+12	adolescente	adolescente	NOUN	NOUN	_	10	obj	_	_
+13	e	_	CCONJ	CONJ	_	14	cc	_	_
+14	disponibilizou	disponibilizar	VERB	VERB	_	5	conj	_	_
+15	o	_	DET	DET	_	16	det	_	_
+16	telefone	telefone	NOUN	NOUN	_	14	obj	_	_
+17	190	_	NUM	NUM	NumType=Card	16	appos	_	_
+18	para	_	ADP	ADP	_	19	case	_	_
+19	denúncias	denúncia	NOUN	NOUN	_	14	nmod	_	_
+20	e	_	CCONJ	CONJ	_	21	cc	_	_
+21	informações	informação	NOUN	NOUN	_	19	conj	_	_
+22	sobre	_	ADP	ADP	_	24	case	_	_
+23	o	_	DET	DET	_	24	det	_	_
+24	caso	caso	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
+25	.	_	PUNCT	.	_	5	punct	_	_
+

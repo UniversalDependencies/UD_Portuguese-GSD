@@ -1,0 +1,309 @@
+# sent_id = train-s900
+# text = "Eu realmente queria ganhar outro evento este ano, especialmente por estar fora da corrida do título mundial.
+1	"	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
+2	Eu	_	PRON	PRON	_	4	nsubj	_	_
+3	realmente	realmente	ADV	ADV	_	4	advmod	_	_
+4	queria	querer	VERB	VERB	_	0	root	_	_
+5	ganhar	ganhar	VERB	VERB	_	4	xcomp	_	_
+6	outro	_	DET	DET	_	7	det	_	_
+7	evento	evento	NOUN	NOUN	_	5	obj	_	_
+8	este	_	DET	DET	_	9	det	_	_
+9	ano	ano	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
+10	,	_	PUNCT	.	_	13	punct	_	_
+11	especialmente	especialmente	ADV	ADV	_	13	advmod	_	_
+12	por	_	ADP	ADP	_	13	mark	_	_
+13	estar	estar	VERB	VERB	_	5	advcl	_	_
+14	fora	fora	ADV	ADV	_	13	advmod	_	_
+15-16	da	_	_	_	_	_	_	_	_
+15	de	de	ADP	ADP	_	17	case	_	_
+16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	corrida	corrida	NOUN	NOUN	_	14	nmod	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	ADP	_	20	case	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	título	título	NOUN	NOUN	_	17	nmod	_	_
+21	mundial	mundial	ADJ	ADJ	_	20	amod	_	SpaceAfter=No
+22	.	_	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s901
+# text = Projetado para ter 60 % do espaço de área verde, o Dona Lindu custou cerca de R $ 30 milhões e possui um teatro para 540 lugares, um pavilhão de exposições, áreas de lazer infantil e prática de esportes.
+1	Projetado	projetar	VERB	VERB	_	14	acl:part	_	_
+2	para	_	ADP	ADP	_	3	mark	_	_
+3	ter	ter	VERB	VERB	_	1	nmod	_	_
+4	60	_	NUM	NUM	NumType=Card	5	nummod	_	_
+5	%	_	SYM	SYM	_	3	obj	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	espaço	espaço	NOUN	NOUN	_	5	nmod	_	_
+9	de	_	ADP	ADP	_	10	case	_	_
+10	área	área	NOUN	NOUN	_	5	nmod	_	_
+11	verde	verde	ADJ	ADJ	_	10	amod	_	SpaceAfter=No
+12	,	_	PUNCT	.	_	1	punct	_	_
+13	o	_	DET	DET	_	14	det	_	_
+14	Dona	_	PROPN	PNOUN	_	16	nsubj	_	_
+15	Lindu	_	PROPN	PNOUN	_	14	flat	_	_
+16	custou	custar	VERB	VERB	_	0	root	_	_
+17	cerca	cerca	ADV	ADV	_	22	advmod	_	_
+18	de	_	ADP	ADP	_	17	case	_	_
+19	R	r	NOUN	NOUN	_	16	nmod	_	_
+20	$	_	SYM	SYM	_	19	flat	_	_
+21	30	_	NUM	NUM	NumType=Card	22	nummod	_	_
+22	milhões	_	NUM	NUM	NumType=Card	19	nummod	_	_
+23	e	_	CCONJ	CONJ	_	24	cc	_	_
+24	possui	possuir	VERB	VERB	_	16	conj	_	_
+25	um	_	DET	DET	_	26	det	_	_
+26	teatro	teatro	NOUN	NOUN	_	24	obj	_	_
+27	para	_	ADP	ADP	_	29	case	_	_
+28	540	_	NUM	NUM	NumType=Card	29	nummod	_	_
+29	lugares	lugar	NOUN	NOUN	_	26	nmod	_	SpaceAfter=No
+30	,	_	PUNCT	.	_	32	punct	_	_
+31	um	_	DET	DET	_	32	det	_	_
+32	pavilhão	pavilhão	NOUN	NOUN	_	26	conj	_	_
+33	de	_	ADP	ADP	_	34	case	_	_
+34	exposições	exposição	NOUN	NOUN	_	32	nmod	_	SpaceAfter=No
+35	,	_	PUNCT	.	_	36	punct	_	_
+36	áreas	área	NOUN	NOUN	_	26	conj	_	_
+37	de	_	ADP	ADP	_	38	case	_	_
+38	lazer	lazer	NOUN	NOUN	_	36	nmod	_	_
+39	infantil	infantil	ADJ	ADJ	_	38	amod	_	_
+40	e	_	CCONJ	CONJ	_	41	cc	_	_
+41	prática	_	NOUN	NOUN	_	38	conj	_	_
+42	de	_	ADP	ADP	_	43	case	_	_
+43	esportes	esporte	NOUN	NOUN	_	41	nmod	_	SpaceAfter=No
+44	.	_	PUNCT	.	_	16	punct	_	_
+
+# sent_id = train-s902
+# text = -- A sinalização turística é um item fundamental da construção, valorização, manutenção e padronização da infraestrutura da cidade.
+1	--	_	PUNCT	.	_	7	punct	_	_
+2	A	_	DET	DET	_	3	det	_	_
+3	sinalização	sinalização	NOUN	NOUN	_	7	nsubj	_	_
+4	turística	turístico	ADJ	ADJ	_	3	amod	_	_
+5	é	ser	AUX	AUX	_	7	cop	_	_
+6	um	_	DET	DET	_	7	det	_	_
+7	item	item	NOUN	NOUN	_	0	root	_	_
+8	fundamental	fundamental	ADJ	ADJ	_	7	amod	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	ADP	_	11	case	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	construção	construção	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
+12	,	_	PUNCT	.	_	13	punct	_	_
+13	valorização	valorização	NOUN	NOUN	_	11	conj	_	SpaceAfter=No
+14	,	_	PUNCT	.	_	15	punct	_	_
+15	manutenção	manutenção	NOUN	NOUN	_	11	conj	_	_
+16	e	_	CCONJ	CONJ	_	17	cc	_	_
+17	padronização	padronização	NOUN	NOUN	_	11	conj	_	_
+18-19	da	_	_	_	_	_	_	_	_
+18	de	de	ADP	ADP	_	20	case	_	_
+19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	infraestrutura	infraestrutura	NOUN	NOUN	_	11	nmod	_	_
+21-22	da	_	_	_	_	_	_	_	_
+21	de	de	ADP	ADP	_	23	case	_	_
+22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	cidade	cidade	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
+24	.	_	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s903
+# text = 2000 QO90 (asteroide 38709) é um asteroide Hilda.
+1	2000	_	NUM	NUM	NumType=Card	9	nsubj	_	_
+2	QO90	_	PROPN	PNOUN	_	1	flat	_	_
+3	(	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
+4	asteroide	asteroide	NOUN	NOUN	_	1	appos	_	_
+5	38709	_	NUM	NUM	NumType=Card	4	appos	_	SpaceAfter=No
+6	)	_	PUNCT	.	_	4	punct	_	_
+7	é	ser	AUX	AUX	_	9	cop	_	_
+8	um	_	DET	DET	_	9	det	_	_
+9	asteroide	asteroide	NOUN	NOUN	_	0	root	_	_
+10	Hilda	_	PROPN	PNOUN	_	9	appos	_	SpaceAfter=No
+11	.	_	PUNCT	.	_	9	punct	_	_
+
+# sent_id = train-s904
+# text = Segundo o superintendente do Sebrae - SP, a expectativa existe em função dos empresários estarem se preparando para datas importantes em termos de vendas como o Dia da Criança e o Natal.
+1	Segundo	_	ADP	ADP	_	3	case	_	_
+2	o	_	DET	DET	_	3	det	_	_
+3	superintendente	superintendente	NOUN	NOUN	_	12	nmod	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Sebrae	_	PROPN	PNOUN	_	3	nmod	_	_
+7	-	_	PUNCT	.	_	6	punct	_	_
+8	SP	_	PROPN	PNOUN	_	6	flat	_	SpaceAfter=No
+9	,	_	PUNCT	.	_	3	punct	_	_
+10	a	_	DET	DET	_	11	det	_	_
+11	expectativa	expectativa	NOUN	NOUN	_	12	nsubj	_	_
+12	existe	existir	VERB	VERB	_	0	root	_	_
+13	em	_	ADP	ADP	_	14	case	_	_
+14	função	função	NOUN	NOUN	_	12	nmod	_	_
+15-16	dos	_	_	_	_	_	_	_	_
+15	de	_	ADP	ADP	_	20	mark	_	_
+16	os	_	DET	DET	_	17	det	_	_
+17	empresários	empresário	NOUN	NOUN	_	20	nsubj	_	_
+18	estarem	estar	AUX	AUX	_	20	aux	_	_
+19	se	_	PRON	PRON	_	20	obj	_	_
+20	preparando	preparar	VERB	VERB	_	14	nmod	_	_
+21	para	_	ADP	ADP	_	22	case	_	_
+22	datas	data	NOUN	NOUN	_	20	nmod	_	_
+23	importantes	importante	ADJ	ADJ	_	22	amod	_	_
+24	em	_	ADP	ADP	_	25	case	_	_
+25	termos	termo	NOUN	NOUN	_	23	nmod	_	_
+26	de	_	ADP	ADP	_	27	case	_	_
+27	vendas	venda	NOUN	NOUN	_	25	nmod	_	_
+28	como	_	ADP	ADP	_	30	case	_	_
+29	o	_	DET	DET	_	30	det	_	_
+30	Dia	_	PROPN	PNOUN	_	22	nmod	_	_
+31-32	da	_	_	_	_	_	_	_	_
+31	de	de	ADP	ADP	_	33	case	_	_
+32	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	Criança	_	PROPN	PNOUN	_	30	nmod	_	_
+34	e	e	CCONJ	CONJ	_	36	cc	_	_
+35	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	Natal	_	PROPN	PNOUN	_	30	conj	_	SpaceAfter=No
+37	.	_	PUNCT	.	_	12	punct	_	_
+
+# sent_id = train-s905
+# text = Para piorar, além da derrota os outros resultados complicaram o tricolor, que caiu da terceira para a sexta posição no Grupo A da Série C.
+1	Para	_	ADP	ADP	_	2	mark	_	_
+2	piorar	piorar	VERB	VERB	_	11	advcl	_	SpaceAfter=No
+3	,	_	PUNCT	.	_	2	punct	_	_
+4	além	além	ADV	ADV	_	11	advmod	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	ADP	_	7	case	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	derrota	derrota	NOUN	NOUN	_	4	nmod	_	_
+8	os	_	DET	DET	_	10	det	_	_
+9	outros	_	DET	DET	_	10	det	_	_
+10	resultados	resultado	NOUN	NOUN	_	11	nsubj	_	_
+11	complicaram	complicar	VERB	VERB	_	0	root	_	_
+12	o	_	DET	DET	_	13	det	_	_
+13	tricolor	_	NOUN	NOUN	_	11	obj	_	SpaceAfter=No
+14	,	_	PUNCT	.	_	16	punct	_	_
+15	que	_	PRON	PRON	_	16	nsubj	_	_
+16	caiu	cair	VERB	VERB	_	13	acl:relcl	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	ADP	_	19	case	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	terceira	_	NOUN	NOUN	_	16	nmod	_	_
+20	para	_	ADP	ADP	_	23	case	_	_
+21	a	_	DET	DET	_	23	det	_	_
+22	sexta	_	ADJ	ADJ	_	23	amod	_	_
+23	posição	posição	NOUN	NOUN	_	16	nmod	_	_
+24-25	no	_	_	_	_	_	_	_	_
+24	em	em	ADP	ADP	_	26	case	_	_
+25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Grupo	_	PROPN	PNOUN	_	16	nmod	_	_
+27	A	_	PROPN	PNOUN	_	26	flat	_	_
+28-29	da	_	_	_	_	_	_	_	_
+28	de	de	ADP	ADP	_	26	case	_	_
+29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+30	Série	_	PROPN	PNOUN	_	28	appos	_	_
+31	C.	_	PROPN	PNOUN	_	30	flat	_	_
+
+# sent_id = train-s906
+# text = Só no fim da manhã o atacante apareceu para correr no gramado, ao lado do fisioterapeuta Bruno Mazziotti.
+1	Só	só	ADV	ADV	_	4	advmod	_	_
+2-3	no	_	_	_	_	_	_	_	_
+2	em	em	ADP	ADP	_	4	case	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	fim	fim	NOUN	NOUN	_	10	nmod	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	ADP	_	7	case	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	manhã	manhã	NOUN	NOUN	_	4	nmod	_	_
+8	o	_	DET	DET	_	9	det	_	_
+9	atacante	atacante	NOUN	NOUN	_	10	nsubj	_	_
+10	apareceu	aparecer	VERB	VERB	_	0	root	_	_
+11	para	_	ADP	ADP	_	12	mark	_	_
+12	correr	correr	VERB	VERB	_	10	advcl	_	_
+13-14	no	_	_	_	_	_	_	_	_
+13	em	em	ADP	ADP	_	15	case	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	gramado	gramado	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
+16	,	_	PUNCT	.	_	19	punct	_	_
+17-18	ao	_	_	_	_	_	_	_	_
+17	a	a	ADP	ADP	_	19	case	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	lado	lado	NOUN	NOUN	_	10	nmod	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	ADP	_	22	case	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	fisioterapeuta	fisioterapeuta	NOUN	NOUN	_	19	nmod	_	_
+23	Bruno	_	PROPN	PNOUN	_	22	appos	_	_
+24	Mazziotti	_	PROPN	PNOUN	_	23	flat	_	SpaceAfter=No
+25	.	_	PUNCT	.	_	10	punct	_	_
+
+# sent_id = train-s907
+# text = Quando decidi ser candidato, uma coisa me preocupava: perder o carinho do torcedor, mas até hoje as pessoas me têm como ídolo.
+1	Quando	_	CCONJ	CONJ	_	2	mark	_	_
+2	decidi	decidir	VERB	VERB	_	9	advcl	_	_
+3	ser	ser	AUX	AUX	_	4	cop	_	_
+4	candidato	candidato	NOUN	NOUN	_	2	xcomp	_	SpaceAfter=No
+5	,	_	PUNCT	.	_	2	punct	_	_
+6	uma	_	DET	DET	_	7	det	_	_
+7	coisa	coisa	NOUN	NOUN	_	9	nsubj	_	_
+8	me	_	PRON	PRON	_	9	obj	_	_
+9	preocupava	preocupar	VERB	VERB	_	0	root	_	SpaceAfter=No
+10	:	_	PUNCT	.	_	24	punct	_	_
+11	perder	perder	VERB	VERB	_	9	parataxis	_	_
+12	o	_	DET	DET	_	13	det	_	_
+13	carinho	carinho	NOUN	NOUN	_	11	obj	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	ADP	_	16	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	torcedor	torcedor	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
+17	,	_	PUNCT	.	_	24	punct	_	_
+18	mas	_	CCONJ	CONJ	_	24	cc	_	_
+19	até	_	ADP	ADP	_	20	mark	_	_
+20	hoje	hoje	ADV	ADV	_	24	nmod	_	_
+21	as	_	DET	DET	_	22	det	_	_
+22	pessoas	pessoa	NOUN	NOUN	_	24	nsubj	_	_
+23	me	_	PRON	PRON	_	24	obj	_	_
+24	têm	ter	VERB	VERB	_	9	conj	_	_
+25	como	_	ADP	ADP	_	26	case	_	_
+26	ídolo	ídolo	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
+27	.	_	PUNCT	.	_	9	punct	_	_
+
+# sent_id = train-s908
+# text = Esta reatividade assemelha - se com a dos cloretos de ácidos, embora seja um pouco mais branda.
+1	Esta	_	DET	DET	_	2	det	_	_
+2	reatividade	reatividade	NOUN	NOUN	_	3	nsubj	_	_
+3	assemelha	assemelhar	VERB	VERB	_	0	root	_	_
+4	-	_	PUNCT	.	_	3	punct	_	_
+5	se	_	PART	PRT	_	3	expl:pv	_	_
+6	com	_	ADP	ADP	_	7	case	_	_
+7	a	_	PRON	PRON	_	3	nmod	_	_
+8-9	dos	_	_	_	_	_	_	_	_
+8	de	de	ADP	ADP	_	10	case	_	_
+9	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	cloretos	cloreto	NOUN	NOUN	_	7	nmod	_	_
+11	de	_	ADP	ADP	_	12	case	_	_
+12	ácidos	ácido	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
+13	,	_	PUNCT	.	_	15	punct	_	_
+14	embora	_	CCONJ	CONJ	_	15	mark	_	_
+15	seja	ser	VERB	VERB	_	3	advcl	_	_
+16	um	_	DET	DET	_	17	det	_	_
+17	pouco	pouco	NOUN	NOUN	_	18	nmod	_	_
+18	mais	mais	ADV	ADV	_	19	advmod	_	_
+19	branda	brando	ADJ	ADJ	_	15	xcomp:adj	_	SpaceAfter=No
+20	.	_	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s909
+# text = Ocorre em veios nos cristais de lazurite e em xenólitos calcários em pedra - pomes.
+1	Ocorre	ocorrer	VERB	VERB	_	0	root	_	_
+2	em	_	ADP	ADP	_	3	case	_	_
+3	veios	veio	NOUN	NOUN	_	1	nmod	_	_
+4-5	nos	_	_	_	_	_	_	_	_
+4	em	em	ADP	ADP	_	6	case	_	_
+5	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	cristais	cristal	NOUN	NOUN	_	1	nmod	_	_
+7	de	_	ADP	ADP	_	8	case	_	_
+8	lazurite	_	NOUN	NOUN	_	6	nmod	_	_
+9	e	_	CCONJ	CONJ	_	11	cc	_	_
+10	em	_	ADP	ADP	_	11	case	_	_
+11	xenólitos	xenólito	NOUN	NOUN	_	6	conj	_	_
+12	calcários	calcário	ADJ	ADJ	_	11	amod	_	_
+13	em	_	ADP	ADP	_	14	case	_	_
+14	pedra	pedra	NOUN	NOUN	_	11	nmod	_	_
+15	-	_	PUNCT	.	_	14	punct	_	_
+16	pomes	pomes	NOUN	NOUN	_	14	flat	_	SpaceAfter=No
+17	.	_	PUNCT	.	_	1	punct	_	_
+

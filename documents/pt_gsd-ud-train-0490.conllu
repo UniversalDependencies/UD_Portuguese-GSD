@@ -1,0 +1,285 @@
+# sent_id = train-s4864
+# text = A crítica não atrapalha.
+1	A	_	DET	DET	_	2	det	_	_
+2	crítica	_	NOUN	NOUN	_	4	nsubj	_	_
+3	não	não	ADV	ADV	Polarity=Neg	4	advmod	_	_
+4	atrapalha	atrapalhar	VERB	VERB	_	0	root	_	SpaceAfter=No
+5	.	_	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s4865
+# text = A mensagem final do Sínodo dos Bispos sobre a Nova Evangelização será divulgada nesta sexta - feira, 26, durante uma Coletiva de Imprensa no Vaticano.
+1	A	_	DET	DET	_	2	det	_	_
+2	mensagem	mensagem	NOUN	NOUN	_	15	nsubj:pass	_	_
+3	final	final	ADJ	ADJ	_	2	amod	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Sínodo	_	PROPN	PNOUN	_	2	nmod	_	_
+7-8	dos	_	_	_	_	_	_	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
+8	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	Bispos	_	PROPN	PNOUN	_	6	nmod	_	_
+10	sobre	_	ADP	ADP	_	13	case	_	_
+11	a	_	DET	DET	_	13	det	_	_
+12	Nova	_	PROPN	PNOUN	_	13	amod	_	_
+13	Evangelização	_	PROPN	PNOUN	_	6	nmod	_	_
+14	será	ser	AUX	AUX	_	15	aux:pass	_	_
+15	divulgada	divulgar	VERB	VERB	_	0	root	_	_
+16	nesta	_	ADP	ADP	_	19	case	_	_
+17	sexta	_	PROPN	PNOUN	_	19	amod	_	_
+18	-	_	PUNCT	.	_	19	punct	_	_
+19	feira	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
+20	,	_	PUNCT	.	_	21	punct	_	_
+21	26	_	NUM	NUM	NumType=Card	19	nmod	_	SpaceAfter=No
+22	,	_	PUNCT	.	_	21	punct	_	_
+23	durante	_	ADP	ADP	_	25	case	_	_
+24	uma	_	DET	DET	_	25	det	_	_
+25	Coletiva	_	PROPN	PNOUN	_	15	nmod	_	_
+26	de	_	ADP	ADP	_	27	case	_	_
+27	Imprensa	_	PROPN	PNOUN	_	25	nmod	_	_
+28-29	no	_	_	_	_	_	_	_	_
+28	em	em	ADP	ADP	_	30	case	_	_
+29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	Vaticano	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
+31	.	_	PUNCT	.	_	15	punct	_	_
+
+# sent_id = train-s4866
+# text = A Aiguille du Fou é sobretudo conhecida pela sua face sul excecionalmente a pique e lisa, pelo que esta via só foi aberta 50 anos depois de se ter vencido o cume, utilizando a escalada artificial, sistema estudado e preparado por John Harlin e Tom Frost no Parque Nacional de Yosemite.
+1	A	_	DET	DET	_	2	det	_	_
+2	Aiguille	_	PROPN	PNOUN	_	7	nsubj:pass	_	_
+3	du	_	ADP	ADP	_	4	case	_	_
+4	Fou	_	PROPN	PNOUN	_	2	nmod	_	_
+5	é	ser	AUX	AUX	_	7	aux:pass	_	_
+6	sobretudo	sobretudo	ADV	ADV	_	7	advmod	_	_
+7	conhecida	conhecer	VERB	VERB	_	0	root	_	_
+8-9	pela	_	_	_	_	_	_	_	_
+8	por	por	ADP	ADP	_	11	case	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	sua	_	DET	DET	_	11	det:poss	_	_
+11	face	face	NOUN	NOUN	_	7	nmod	_	_
+12	sul	sul	ADJ	ADJ	_	11	amod	_	_
+13	excecionalmente	excecionalmente	ADV	ADV	_	15	advmod	_	_
+14	a	_	ADP	ADP	_	15	case	_	_
+15	pique	pique	NOUN	NOUN	_	11	nmod	_	_
+16	e	_	CCONJ	CONJ	_	17	cc	_	_
+17	lisa	liso	ADJ	ADJ	_	15	conj	_	SpaceAfter=No
+18	,	_	PUNCT	.	_	26	punct	_	_
+19-20	pelo	_	_	_	_	_	_	_	_
+19	por	por	ADP	ADP	_	26	case	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+21	que	_	CCONJ	CONJ	_	19	fixed	_	_
+22	esta	_	DET	DET	_	23	det	_	_
+23	via	via	NOUN	NOUN	_	26	nsubj:pass	_	_
+24	só	só	ADV	ADV	_	26	advmod	_	_
+25	foi	_	AUX	AUX	_	26	aux:pass	_	_
+26	aberta	abrir	VERB	VERB	_	7	advcl	_	_
+27	50	_	NUM	NUM	NumType=Card	28	nummod	_	_
+28	anos	ano	NOUN	NOUN	_	29	nmod	_	_
+29	depois	depois	ADV	ADV	_	33	mark	_	_
+30	de	_	ADP	ADP	_	29	fixed	_	_
+31	se	_	PART	PRT	_	33	expl:pv	_	_
+32	ter	ter	AUX	AUX	_	33	aux	_	_
+33	vencido	vencer	VERB	VERB	_	26	advcl	_	_
+34	o	_	DET	DET	_	35	det	_	_
+35	cume	cume	NOUN	NOUN	_	33	obj	_	SpaceAfter=No
+36	,	_	PUNCT	.	_	37	punct	_	_
+37	utilizando	utilizar	VERB	VERB	_	33	acl:part	_	_
+38	a	_	DET	DET	_	39	det	_	_
+39	escalada	escalada	NOUN	NOUN	_	37	obj	_	_
+40	artificial	artificial	ADJ	ADJ	_	39	amod	_	SpaceAfter=No
+41	,	_	PUNCT	.	_	42	punct	_	_
+42	sistema	sistema	NOUN	NOUN	_	39	appos	_	_
+43	estudado	estudar	VERB	VERB	_	42	acl:part	_	_
+44	e	_	CCONJ	CONJ	_	45	cc	_	_
+45	preparado	preparar	VERB	VERB	_	43	conj	_	_
+46	por	_	ADP	ADP	_	47	case	_	_
+47	John	_	PROPN	PNOUN	_	43	nmod	_	_
+48	Harlin	_	PROPN	PNOUN	_	47	flat	_	_
+49	e	_	CCONJ	CONJ	_	50	cc	_	_
+50	Tom	_	PROPN	PNOUN	_	47	conj	_	_
+51	Frost	_	PROPN	PNOUN	_	50	flat	_	_
+52-53	no	_	_	_	_	_	_	_	_
+52	em	em	ADP	ADP	_	54	case	_	_
+53	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	Parque	_	PROPN	PNOUN	_	43	nmod	_	_
+55	Nacional	_	PROPN	PNOUN	_	54	amod	_	_
+56	de	_	ADP	ADP	_	57	case	_	_
+57	Yosemite	_	PROPN	PNOUN	_	54	nmod	_	SpaceAfter=No
+58	.	_	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s4867
+# text = Nesta segunda - feira, sites europeus noticiaram que o francês Florent Malouda, do Chelsea (ING), estaria tentando sua rescisão de contrato com o time londrino para acertar sua transferência para o Vasco.
+1	Nesta	_	ADP	ADP	_	4	case	_	_
+2	segunda	_	PROPN	PNOUN	_	4	amod	_	_
+3	-	_	PUNCT	.	_	4	punct	_	_
+4	feira	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
+5	,	_	PUNCT	.	_	4	punct	_	_
+6	sites	site	NOUN	NOUN	_	8	nsubj	_	_
+7	europeus	europeu	ADJ	ADJ	_	6	amod	_	_
+8	noticiaram	noticiar	VERB	VERB	_	0	root	_	_
+9	que	_	CCONJ	CONJ	_	23	mark	_	_
+10	o	_	DET	DET	_	11	det	_	_
+11	francês	francês	NOUN	NOUN	_	23	nsubj	_	_
+12	Florent	_	PROPN	PNOUN	_	11	appos	_	_
+13	Malouda	_	PROPN	PNOUN	_	12	flat	_	SpaceAfter=No
+14	,	_	PUNCT	.	_	17	punct	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Chelsea	_	PROPN	PNOUN	_	11	nmod	_	_
+18	(	_	PUNCT	.	_	19	punct	_	SpaceAfter=No
+19	ING	_	PROPN	PNOUN	_	17	appos	_	SpaceAfter=No
+20	)	_	PUNCT	.	_	19	punct	_	SpaceAfter=No
+21	,	_	PUNCT	.	_	17	punct	_	_
+22	estaria	estar	AUX	AUX	_	23	aux	_	_
+23	tentando	tentar	VERB	VERB	_	8	ccomp	_	_
+24	sua	_	DET	DET	_	25	det:poss	_	_
+25	rescisão	rescisão	NOUN	NOUN	_	23	obj	_	_
+26	de	_	ADP	ADP	_	27	case	_	_
+27	contrato	contrato	NOUN	NOUN	_	25	nmod	_	_
+28	com	_	ADP	ADP	_	30	case	_	_
+29	o	_	DET	DET	_	30	det	_	_
+30	time	time	NOUN	NOUN	_	27	nmod	_	_
+31	londrino	londrino	ADJ	ADJ	_	30	amod	_	_
+32	para	_	ADP	ADP	_	33	mark	_	_
+33	acertar	acertar	VERB	VERB	_	23	advcl	_	_
+34	sua	_	DET	DET	_	35	det:poss	_	_
+35	transferência	transferência	NOUN	NOUN	_	33	obj	_	_
+36	para	_	ADP	ADP	_	38	case	_	_
+37	o	_	DET	DET	_	38	det	_	_
+38	Vasco	_	PROPN	PNOUN	_	35	nmod	_	SpaceAfter=No
+39	.	_	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s4868
+# text = Essa decisão substitui a penhora do CT Meninos da Vila.
+1	Essa	_	DET	DET	_	2	det	_	_
+2	decisão	decisão	NOUN	NOUN	_	3	nsubj	_	_
+3	substitui	substituir	VERB	VERB	_	0	root	_	_
+4	a	_	DET	DET	_	5	det	_	_
+5	penhora	penhora	NOUN	NOUN	_	3	obj	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	CT	_	PROPN	PNOUN	_	5	nmod	_	_
+9	Meninos	_	PROPN	PNOUN	_	8	flat	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	ADP	_	12	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Vila	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
+13	.	_	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s4869
+# text = Este asteróide foi descoberto em 27 de Janeiro de 1993 por E. Elst.
+1	Este	_	DET	DET	_	2	det	_	_
+2	asteróide	_	NOUN	NOUN	_	4	nsubj:pass	_	_
+3	foi	_	AUX	AUX	_	4	aux:pass	_	_
+4	descoberto	descobrir	VERB	VERB	_	0	root	_	_
+5	em	_	ADP	ADP	_	6	case	_	_
+6	27	_	NUM	NUM	NumType=Card	4	nmod	_	_
+7	de	_	ADP	ADP	_	8	case	_	_
+8	Janeiro	_	PROPN	PNOUN	_	6	nmod	_	_
+9	de	_	ADP	ADP	_	10	case	_	_
+10	1993	_	NUM	NUM	NumType=Card	8	nmod	_	_
+11	por	_	ADP	ADP	_	12	case	_	_
+12	E.	_	PROPN	PNOUN	_	4	nmod	_	_
+13	Elst	_	PROPN	PNOUN	_	12	flat	_	SpaceAfter=No
+14	.	_	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s4870
+# text = Serão 48 toalhas pretas, copos coloridos (metade vermelhos e metade pretos), louça chinesa e bandejas de prata.
+1	Serão	ser	VERB	VERB	_	0	root	_	_
+2	48	_	NUM	NUM	NumType=Card	3	nummod	_	_
+3	toalhas	toalha	NOUN	NOUN	_	1	nsubj	_	_
+4	pretas	preto	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
+5	,	_	PUNCT	.	_	6	punct	_	_
+6	copos	copo	NOUN	NOUN	_	3	conj	_	_
+7	coloridos	colorido	ADJ	ADJ	_	6	amod	_	_
+8	(	_	PUNCT	.	_	9	punct	_	SpaceAfter=No
+9	metade	metade	NOUN	NOUN	_	6	appos	_	_
+10	vermelhos	vermelho	ADJ	ADJ	_	9	amod	_	_
+11	e	_	CCONJ	CONJ	_	12	cc	_	_
+12	metade	metade	NOUN	NOUN	_	9	conj	_	_
+13	pretos	preto	ADJ	ADJ	_	12	amod	_	SpaceAfter=No
+14	)	_	PUNCT	.	_	9	punct	_	SpaceAfter=No
+15	,	_	PUNCT	.	_	16	punct	_	_
+16	louça	louça	NOUN	NOUN	_	3	conj	_	_
+17	chinesa	chinês	ADJ	ADJ	_	16	amod	_	_
+18	e	_	CCONJ	CONJ	_	19	cc	_	_
+19	bandejas	bandeja	NOUN	NOUN	_	3	conj	_	_
+20	de	_	ADP	ADP	_	21	case	_	_
+21	prata	prata	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
+22	.	_	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s4871
+# text = Na decisão, o juiz ressaltou que, durante o prazo para a impugnação da candidatura, não havia qualquer motivo para cancelar o registro do ex - prefeito.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	ADP	_	3	case	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	decisão	decisão	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
+4	,	_	PUNCT	.	_	3	punct	_	_
+5	o	_	DET	DET	_	6	det	_	_
+6	juiz	juiz	NOUN	NOUN	_	7	nsubj	_	_
+7	ressaltou	ressaltar	VERB	VERB	_	0	root	_	_
+8	que	_	CCONJ	CONJ	_	21	mark	_	SpaceAfter=No
+9	,	_	PUNCT	.	_	12	punct	_	_
+10	durante	_	ADP	ADP	_	12	case	_	_
+11	o	_	DET	DET	_	12	det	_	_
+12	prazo	prazo	NOUN	NOUN	_	21	nmod	_	_
+13	para	_	ADP	ADP	_	15	case	_	_
+14	a	_	DET	DET	_	15	det	_	_
+15	impugnação	impugnação	NOUN	NOUN	_	12	nmod	_	_
+16-17	da	_	_	_	_	_	_	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
+17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	candidatura	candidatura	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
+19	,	_	PUNCT	.	_	12	punct	_	_
+20	não	não	ADV	ADV	Polarity=Neg	21	advmod	_	_
+21	havia	haver	VERB	VERB	_	7	ccomp	_	_
+22	qualquer	_	DET	DET	_	23	det	_	_
+23	motivo	motivo	NOUN	NOUN	_	21	obj	_	_
+24	para	_	ADP	ADP	_	25	mark	_	_
+25	cancelar	cancelar	VERB	VERB	_	23	nmod	_	_
+26	o	_	DET	DET	_	27	det	_	_
+27	registro	registro	NOUN	NOUN	_	25	obj	_	_
+28-29	do	_	_	_	_	_	_	_	_
+28	de	de	ADP	ADP	_	30	case	_	_
+29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	ex	_	PART	PRT	_	27	nmod	_	_
+31	-	_	PUNCT	.	_	30	punct	_	_
+32	prefeito	prefeito	NOUN	NOUN	_	30	flat	_	SpaceAfter=No
+33	.	_	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s4872
+# text = Bruce Wayne torna - se, então, a máscara que usa para disfarçar sua dor e sua verdadeira natureza.
+1	Bruce	_	PROPN	PNOUN	_	10	nsubj	_	_
+2	Wayne	_	PROPN	PNOUN	_	1	flat	_	_
+3	torna	tornar	AUX	AUX	_	10	cop	_	_
+4	-	_	PUNCT	.	_	10	punct	_	_
+5	se	_	PRON	PRON	_	10	expl:pv	_	SpaceAfter=No
+6	,	_	PUNCT	.	_	7	punct	_	_
+7	então	então	ADV	ADV	_	10	advmod	_	SpaceAfter=No
+8	,	_	PUNCT	.	_	7	punct	_	_
+9	a	_	DET	DET	_	10	det	_	_
+10	máscara	máscara	NOUN	NOUN	_	0	root	_	_
+11	que	_	PRON	PRON	_	12	obj	_	_
+12	usa	usar	VERB	VERB	_	10	acl:relcl	_	_
+13	para	_	ADP	ADP	_	14	mark	_	_
+14	disfarçar	disfarçar	VERB	VERB	_	12	advcl	_	_
+15	sua	_	DET	DET	_	16	det:poss	_	_
+16	dor	dor	NOUN	NOUN	_	14	obj	_	_
+17	e	_	CCONJ	CONJ	_	20	cc	_	_
+18	sua	_	DET	DET	_	20	det:poss	_	_
+19	verdadeira	verdadeiro	ADJ	ADJ	_	20	amod	_	_
+20	natureza	natureza	NOUN	NOUN	_	16	conj	_	SpaceAfter=No
+21	.	_	PUNCT	.	_	10	punct	_	_
+
+# sent_id = train-s4873
+# text = Não trabalho exclusivamente com o Scolari.
+1	Não	não	ADV	ADV	Polarity=Neg	2	advmod	_	_
+2	trabalho	trabalho	NOUN	NOUN	_	0	root	_	_
+3	exclusivamente	exclusivamente	ADV	ADV	_	6	advmod	_	_
+4	com	_	ADP	ADP	_	6	case	_	_
+5	o	_	DET	DET	_	6	det	_	_
+6	Scolari	_	PROPN	PNOUN	_	2	nmod	_	SpaceAfter=No
+7	.	_	PUNCT	.	_	2	punct	_	_
+

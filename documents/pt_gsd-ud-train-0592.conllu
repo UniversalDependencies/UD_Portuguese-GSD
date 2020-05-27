@@ -1,0 +1,291 @@
+# sent_id = train-s5878
+# text = A África é mesmo mais quente ", brincou.
+1	A	_	DET	DET	_	2	det	_	_
+2	África	_	NOUN	NOUN	_	3	nsubj	_	_
+3	é	ser	VERB	VERB	_	9	ccomp	_	_
+4	mesmo	mesmo	ADV	ADV	_	3	advmod	_	_
+5	mais	mais	ADV	ADV	_	6	advmod	_	_
+6	quente	quente	ADJ	ADJ	_	3	xcomp:adj	_	_
+7	"	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
+8	,	_	PUNCT	.	_	9	punct	_	_
+9	brincou	brincar	VERB	VERB	_	0	root	_	SpaceAfter=No
+10	.	_	PUNCT	.	_	9	punct	_	_
+
+# sent_id = train-s5879
+# text = Por aqui, passaram Ayrton Senna, Alain Prost, Niki Lauda, Mika Hakkinen e Keke Rosberg.
+1	Por	_	ADP	ADP	_	2	mark	_	_
+2	aqui	aqui	ADV	ADV	_	4	nmod	_	SpaceAfter=No
+3	,	_	PUNCT	.	_	2	punct	_	_
+4	passaram	passar	VERB	VERB	_	0	root	_	_
+5	Ayrton	_	PROPN	PNOUN	_	4	nsubj	_	_
+6	Senna	_	PROPN	PNOUN	_	5	flat	_	SpaceAfter=No
+7	,	_	PUNCT	.	_	8	punct	_	_
+8	Alain	_	PROPN	PNOUN	_	5	conj	_	_
+9	Prost	_	PROPN	PNOUN	_	8	flat	_	SpaceAfter=No
+10	,	_	PUNCT	.	_	11	punct	_	_
+11	Niki	_	PROPN	PNOUN	_	5	conj	_	_
+12	Lauda	_	PROPN	PNOUN	_	11	flat	_	SpaceAfter=No
+13	,	_	PUNCT	.	_	14	punct	_	_
+14	Mika	_	PROPN	PNOUN	_	5	conj	_	_
+15	Hakkinen	_	PROPN	PNOUN	_	14	flat	_	_
+16	e	_	CCONJ	CONJ	_	17	cc	_	_
+17	Keke	_	PROPN	PNOUN	_	5	conj	_	_
+18	Rosberg	_	PROPN	PNOUN	_	17	flat	_	SpaceAfter=No
+19	.	_	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s5880
+# text = O Detran envia um carta que avisa sobre o vencimento da CNH e um boleto para o pagamento a taxa que precisa ser efetuado para obtenção do documento definitivo.
+1	O	_	DET	DET	_	2	det	_	_
+2	Detran	_	PROPN	PNOUN	_	3	nsubj	_	_
+3	envia	enviar	VERB	VERB	_	0	root	_	_
+4	um	_	DET	DET	_	5	det	_	_
+5	carta	carta	NOUN	NOUN	_	3	obj	_	_
+6	que	_	PRON	PRON	_	7	nsubj	_	_
+7	avisa	avisar	VERB	VERB	_	5	acl:relcl	_	_
+8	sobre	_	ADP	ADP	_	10	case	_	_
+9	o	_	DET	DET	_	10	det	_	_
+10	vencimento	vencimento	NOUN	NOUN	_	7	nmod	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	ADP	_	13	case	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	CNH	_	PROPN	PNOUN	_	10	nmod	_	_
+14	e	_	CCONJ	CONJ	_	16	cc	_	_
+15	um	_	DET	DET	_	16	det	_	_
+16	boleto	boleto	NOUN	NOUN	_	5	conj	_	_
+17	para	_	ADP	ADP	_	19	case	_	_
+18	o	_	DET	DET	_	19	det	_	_
+19	pagamento	pagamento	NOUN	NOUN	_	16	nmod	_	_
+20	a	_	ADP	ADP	_	21	case	_	_
+21	taxa	taxa	NOUN	NOUN	_	19	nmod	_	_
+22	que	_	PRON	PRON	_	23	nsubj	_	_
+23	precisa	precisar	VERB	VERB	_	19	acl:relcl	_	_
+24	ser	ser	AUX	AUX	_	25	aux:pass	_	_
+25	efetuado	efetuar	VERB	VERB	_	23	ccomp	_	_
+26	para	_	ADP	ADP	_	27	case	_	_
+27	obtenção	obtenção	NOUN	NOUN	_	25	nmod	_	_
+28-29	do	_	_	_	_	_	_	_	_
+28	de	de	ADP	ADP	_	30	case	_	_
+29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	documento	documento	NOUN	NOUN	_	27	nmod	_	_
+31	definitivo	definitivo	ADJ	ADJ	_	30	amod	_	SpaceAfter=No
+32	.	_	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s5881
+# text = O Palácio de Buckingham já declarou oficialmente que a fortuna da rainha não passa de 100 milhões de libras, algo pouco provável já que, além das residências privadas da Família Real britânica todas mantidas como patrimônio pessoal da monarca, somente a Royal Collection ultrapassa o valor de 10 bilhões de libras.
+1	O	_	DET	DET	_	2	det	_	_
+2	Palácio	_	PROPN	PNOUN	_	6	nsubj	_	_
+3	de	_	ADP	ADP	_	4	case	_	_
+4	Buckingham	_	PROPN	PNOUN	_	2	nmod	_	_
+5	já	já	ADV	ADV	_	6	advmod	_	_
+6	declarou	declarar	VERB	VERB	_	0	root	_	_
+7	oficialmente	oficialmente	ADV	ADV	_	6	advmod	_	_
+8	que	_	CCONJ	CONJ	_	15	mark	_	_
+9	a	_	DET	DET	_	10	det	_	_
+10	fortuna	fortuna	NOUN	NOUN	_	15	nsubj	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	ADP	_	13	case	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	rainha	_	NOUN	NOUN	_	10	nmod	_	_
+14	não	não	ADV	ADV	Polarity=Neg	15	advmod	_	_
+15	passa	passar	VERB	VERB	_	6	ccomp	_	_
+16	de	_	ADP	ADP	_	20	case	_	_
+17	100	_	NUM	NUM	NumType=Card	18	nummod	_	_
+18	milhões	_	NUM	NUM	NumType=Card	20	nummod	_	_
+19	de	_	ADP	ADP	_	20	case	_	_
+20	libras	libra	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
+21	,	_	PUNCT	.	_	22	punct	_	_
+22	algo	_	PRON	PRON	_	15	parataxis	_	_
+23	pouco	pouco	ADV	ADV	_	24	advmod	_	_
+24	provável	provável	ADJ	ADJ	_	22	amod	_	_
+25	já	já	ADV	ADV	_	51	mark	_	_
+26	que	_	CCONJ	CONJ	_	25	fixed	_	SpaceAfter=No
+27	,	_	PUNCT	.	_	28	punct	_	_
+28	além	além	ADV	ADV	_	51	advmod	_	_
+29-30	das	_	_	_	_	_	_	_	_
+29	de	de	ADP	ADP	_	31	case	_	_
+30	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+31	residências	residência	NOUN	NOUN	_	28	nmod	_	_
+32	privadas	privado	ADJ	ADJ	_	31	amod	_	_
+33-34	da	_	_	_	_	_	_	_	_
+33	de	de	ADP	ADP	_	35	case	_	_
+34	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	Família	_	PROPN	PNOUN	_	31	nmod	_	_
+36	Real	_	PROPN	PNOUN	_	35	amod	_	_
+37	britânica	britânico	ADJ	ADJ	_	35	amod	_	_
+38	todas	_	PRON	PRON	_	31	appos	_	_
+39	mantidas	manter	VERB	VERB	_	38	acl:part	_	_
+40	como	_	ADP	ADP	_	41	case	_	_
+41	patrimônio	patrimônio	NOUN	NOUN	_	39	nmod	_	_
+42	pessoal	pessoal	ADJ	ADJ	_	41	amod	_	_
+43-44	da	_	_	_	_	_	_	_	_
+43	de	de	ADP	ADP	_	45	case	_	_
+44	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	monarca	monarca	NOUN	NOUN	_	41	nmod	_	SpaceAfter=No
+46	,	_	PUNCT	.	_	28	punct	_	_
+47	somente	somente	ADV	ADV	_	50	advmod	_	_
+48	a	_	DET	DET	_	50	det	_	_
+49	Royal	_	PROPN	PNOUN	_	50	amod	_	_
+50	Collection	_	PROPN	PNOUN	_	51	nsubj	_	_
+51	ultrapassa	ultrapassar	VERB	VERB	_	22	advcl	_	_
+52	o	_	DET	DET	_	53	det	_	_
+53	valor	valor	NOUN	NOUN	_	51	obj	_	_
+54	de	_	ADP	ADP	_	58	case	_	_
+55	10	_	NUM	NUM	NumType=Card	56	nummod	_	_
+56	bilhões	_	NUM	NUM	NumType=Card	58	nummod	_	_
+57	de	_	ADP	ADP	_	58	case	_	_
+58	libras	libra	NOUN	NOUN	_	53	nmod	_	SpaceAfter=No
+59	.	_	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s5882
+# text = E eu passei a cumprimentá - los.
+1	E	_	CCONJ	CONJ	_	5	cc	_	_
+2	eu	_	PRON	PRON	_	5	nsubj	_	_
+3	passei	passar	AUX	AUX	_	5	aux	_	_
+4	a	_	ADP	ADP	_	5	mark	_	_
+5	cumprimentá	cumprimentar	VERB	VERB	_	0	root	_	_
+6	-	_	PUNCT	.	_	5	punct	_	_
+7	los	_	PRON	PRON	_	5	obj	_	SpaceAfter=No
+8	.	_	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s5883
+# text = Vitória merecida em casa para o Timbu, e melhor ainda para os 15.013 torcedores nos Aflitos.
+1	Vitória	vitória	NOUN	NOUN	_	0	root	_	_
+2	merecida	merecido	ADJ	ADJ	_	1	amod	_	_
+3	em	_	ADP	ADP	_	4	case	_	_
+4	casa	casa	NOUN	NOUN	_	1	nmod	_	_
+5	para	_	ADP	ADP	_	7	case	_	_
+6	o	_	DET	DET	_	7	det	_	_
+7	Timbu	_	PROPN	PNOUN	_	1	nmod	_	SpaceAfter=No
+8	,	_	PUNCT	.	_	15	punct	_	_
+9	e	_	CCONJ	CONJ	_	15	cc	_	_
+10	melhor	melhor	ADJ	ADJ	_	1	amod	_	_
+11	ainda	ainda	ADV	ADV	_	10	advmod	_	_
+12	para	_	ADP	ADP	_	15	case	_	_
+13	os	_	DET	DET	_	15	det	_	_
+14	15.013	_	NUM	NUM	NumType=Card	15	nummod	_	_
+15	torcedores	torcedor	NOUN	NOUN	_	7	conj	_	_
+16-17	nos	_	_	_	_	_	_	_	_
+16	em	em	ADP	ADP	_	18	case	_	_
+17	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	Aflitos	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
+19	.	_	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s5884
+# text = Quando completou 13 anos já morava no Rio de Janeiro e foi quando ganhou a sua primeira sanfona entregue das mãos do Rei do Baião.
+1	Quando	_	CCONJ	CONJ	_	2	mark	_	_
+2	completou	completar	VERB	VERB	_	6	advcl	_	_
+3	13	_	NUM	NUM	NumType=Card	4	nummod	_	_
+4	anos	ano	NOUN	NOUN	_	2	obj	_	_
+5	já	já	ADV	ADV	_	6	advmod	_	_
+6	morava	morar	VERB	VERB	_	0	root	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Rio	_	PROPN	PNOUN	_	6	nmod	_	_
+10	de	_	ADP	ADP	_	11	case	_	_
+11	Janeiro	_	PROPN	PNOUN	_	9	nmod	_	_
+12	e	_	CCONJ	CONJ	_	13	cc	_	_
+13	foi	_	VERB	VERB	_	6	conj	_	_
+14	quando	_	CCONJ	CONJ	_	15	mark	_	_
+15	ganhou	ganhar	VERB	VERB	_	13	advcl	_	_
+16	a	_	DET	DET	_	19	det	_	_
+17	sua	_	DET	DET	_	19	det:poss	_	_
+18	primeira	primeiro	ADJ	ADJ	_	19	amod	_	_
+19	sanfona	sanfona	NOUN	NOUN	_	15	obj	_	_
+20	entregue	entregar	VERB	VERB	_	19	acl:part	_	_
+21-22	das	_	_	_	_	_	_	_	_
+21	de	de	ADP	ADP	_	23	case	_	_
+22	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	mãos	mão	NOUN	NOUN	_	20	nmod	_	_
+24-25	do	_	_	_	_	_	_	_	_
+24	de	de	ADP	ADP	_	26	case	_	_
+25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Rei	_	PROPN	PNOUN	_	23	nmod	_	_
+27-28	do	_	_	_	_	_	_	_	_
+27	de	de	ADP	ADP	_	29	case	_	_
+28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	Baião	_	PROPN	PNOUN	_	26	nmod	_	SpaceAfter=No
+30	.	_	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s5885
+# text = O executivo classificou como "aceitável" o número de reclamações de clientes diante do tamanho da base atendida pelas operadoras.
+1	O	_	DET	DET	_	2	det	_	_
+2	executivo	executivo	NOUN	NOUN	_	3	nsubj	_	_
+3	classificou	classificar	VERB	VERB	_	0	root	_	_
+4	como	_	ADP	ADP	_	6	mark	_	_
+5	"	_	PUNCT	.	_	6	punct	_	SpaceAfter=No
+6	aceitável	aceitável	ADJ	ADJ	_	3	nmod	_	SpaceAfter=No
+7	"	_	PUNCT	.	_	6	punct	_	_
+8	o	_	DET	DET	_	9	det	_	_
+9	número	número	NOUN	NOUN	_	3	obj	_	_
+10	de	_	ADP	ADP	_	11	case	_	_
+11	reclamações	reclamação	NOUN	NOUN	_	9	nmod	_	_
+12	de	_	ADP	ADP	_	13	case	_	_
+13	clientes	cliente	NOUN	NOUN	_	11	nmod	_	_
+14	diante	diante	ADV	ADV	_	9	advmod	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	tamanho	tamanho	NOUN	NOUN	_	14	nmod	_	_
+18-19	da	_	_	_	_	_	_	_	_
+18	de	de	ADP	ADP	_	20	case	_	_
+19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	base	base	NOUN	NOUN	_	17	nmod	_	_
+21	atendida	atender	VERB	VERB	_	20	acl:part	_	_
+22-23	pelas	_	_	_	_	_	_	_	_
+22	por	por	ADP	ADP	_	24	case	_	_
+23	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	operadoras	operador	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
+25	.	_	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s5886
+# text = Quando ele desceu do seu cavalo e começou a atirar com arco, Optila e seus amigos o atacaram.
+1	Quando	_	CCONJ	CONJ	_	3	mark	_	_
+2	ele	_	PRON	PRON	_	3	nsubj	_	_
+3	desceu	descer	VERB	VERB	_	20	advcl	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	ADP	_	7	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	seu	_	DET	DET	_	7	det:poss	_	_
+7	cavalo	cavalo	NOUN	NOUN	_	3	nmod	_	_
+8	e	_	CCONJ	CONJ	_	11	cc	_	_
+9	começou	começar	AUX	AUX	_	11	aux	_	_
+10	a	_	ADP	ADP	_	11	mark	_	_
+11	atirar	atirar	VERB	VERB	_	3	conj	_	_
+12	com	_	ADP	ADP	_	13	case	_	_
+13	arco	arco	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
+14	,	_	PUNCT	.	_	3	punct	_	_
+15	Optila	_	PROPN	PNOUN	_	0	root	_	_
+16	e	_	CCONJ	CONJ	_	18	cc	_	_
+17	seus	_	DET	DET	_	18	det:poss	_	_
+18	amigos	amigo	NOUN	NOUN	_	15	conj	_	_
+19	o	_	PRON	PRON	_	20	obj	_	_
+20	atacaram	atacar	VERB	VERB	_	15	conj	_	SpaceAfter=No
+21	.	_	PUNCT	.	_	15	punct	_	_
+
+# sent_id = train-s5887
+# text = Ainda segundo a presidenta, "da sinuosidade da curva, Niemeyer desenhou casas, palácios e cidades.
+1	Ainda	ainda	ADV	ADV	_	4	advmod	_	_
+2	segundo	_	ADP	ADP	_	4	case	_	_
+3	a	_	DET	DET	_	4	det	_	_
+4	presidenta	_	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
+5	,	_	PUNCT	.	_	4	punct	_	_
+6	"	_	PUNCT	.	_	9	punct	_	SpaceAfter=No
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
+8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	sinuosidade	sinuosidade	NOUN	NOUN	_	15	nmod	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	ADP	_	12	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	curva	curva	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
+13	,	_	PUNCT	.	_	9	punct	_	_
+14	Niemeyer	_	PROPN	PNOUN	_	15	nsubj	_	_
+15	desenhou	desenhar	VERB	VERB	_	0	root	_	_
+16	casas	_	PROPN	PNOUN	_	15	obj	_	SpaceAfter=No
+17	,	_	PUNCT	.	_	18	punct	_	_
+18	palácios	palácio	NOUN	NOUN	_	16	conj	_	_
+19	e	_	CCONJ	CONJ	_	20	cc	_	_
+20	cidades	cidade	NOUN	NOUN	_	16	conj	_	SpaceAfter=No
+21	.	_	PUNCT	.	_	15	punct	_	_
+

@@ -1,0 +1,277 @@
+# sent_id = train-s8390
+# text = E a Rádio Tupi, depois de perder o famoso locutor Penido para a Globo, deu 35 % de aumento para todos os profissionais de esportes.
+1	E	_	CCONJ	CONJ	_	17	cc	_	_
+2	a	_	DET	DET	_	3	det	_	_
+3	Rádio	_	PROPN	PNOUN	_	17	nsubj	_	_
+4	Tupi	_	PROPN	PNOUN	_	3	flat	_	SpaceAfter=No
+5	,	_	PUNCT	.	_	8	punct	_	_
+6	depois	depois	ADV	ADV	_	8	mark	_	_
+7	de	_	ADP	ADP	_	6	fixed	_	_
+8	perder	perder	VERB	VERB	_	17	advcl	_	_
+9	o	_	DET	DET	_	11	det	_	_
+10	famoso	famoso	ADJ	ADJ	_	11	amod	_	_
+11	locutor	locutor	NOUN	NOUN	_	8	obj	_	_
+12	Penido	_	PROPN	PNOUN	_	11	appos	_	_
+13	para	_	ADP	ADP	_	15	case	_	_
+14	a	_	DET	DET	_	15	det	_	_
+15	Globo	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
+16	,	_	PUNCT	.	_	8	punct	_	_
+17	deu	dar	VERB	VERB	_	0	root	_	_
+18	35	_	NUM	NUM	NumType=Card	19	nummod	_	_
+19	%	_	SYM	SYM	_	17	obj	_	_
+20	de	_	ADP	ADP	_	21	case	_	_
+21	aumento	aumento	NOUN	NOUN	_	19	nmod	_	_
+22	para	_	ADP	ADP	_	25	case	_	_
+23	todos	_	DET	DET	_	25	det	_	_
+24	os	_	DET	DET	_	25	det	_	_
+25	profissionais	profissional	NOUN	NOUN	_	17	nmod	_	_
+26	de	_	ADP	ADP	_	27	case	_	_
+27	esportes	esporte	NOUN	NOUN	_	25	nmod	_	SpaceAfter=No
+28	.	_	PUNCT	.	_	17	punct	_	_
+
+# sent_id = train-s8391
+# text = O jogador fez algumas declarações polêmicas após a elminação da equipe na Eurocopa, dizendo que se a torcida ficou triste, não era um problema dele:
+1	O	_	DET	DET	_	2	det	_	_
+2	jogador	jogador	NOUN	NOUN	_	3	nsubj	_	_
+3	fez	fazer	VERB	VERB	_	0	root	_	_
+4	algumas	_	DET	DET	_	5	det	_	_
+5	declarações	declaração	NOUN	NOUN	_	3	obj	_	_
+6	polêmicas	polêmico	ADJ	ADJ	_	5	amod	_	_
+7	após	_	ADP	ADP	_	9	case	_	_
+8	a	_	DET	DET	_	9	det	_	_
+9	elminação	_	NOUN	NOUN	_	3	nmod	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	ADP	_	12	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	equipe	equipe	NOUN	NOUN	_	9	nmod	_	_
+13-14	na	_	_	_	_	_	_	_	_
+13	em	em	ADP	ADP	_	15	case	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Eurocopa	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
+16	,	_	PUNCT	.	_	17	punct	_	_
+17	dizendo	dizer	VERB	VERB	_	3	acl:part	_	_
+18	que	_	CCONJ	CONJ	_	28	mark	_	_
+19	se	_	CCONJ	CONJ	_	22	mark	_	_
+20	a	_	DET	DET	_	21	det	_	_
+21	torcida	torcida	NOUN	NOUN	_	22	nsubj	_	_
+22	ficou	ficar	VERB	VERB	_	28	advcl	_	_
+23	triste	triste	ADJ	ADJ	_	22	xcomp:adj	_	SpaceAfter=No
+24	,	_	PUNCT	.	_	22	punct	_	_
+25	não	não	ADV	ADV	Polarity=Neg	28	advmod	_	_
+26	era	_	AUX	AUX	_	28	cop	_	_
+27	um	_	DET	DET	_	28	det	_	_
+28	problema	problema	NOUN	NOUN	_	17	ccomp	_	_
+29	dele	_	X	ADPPRON	_	28	det:poss	_	SpaceAfter=No
+30	:	_	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s8392
+# text = População: 4 485 000 (1999)
+1	População	população	NOUN	NOUN	_	0	root	_	SpaceAfter=No
+2	:	_	PUNCT	.	_	1	punct	_	_
+3	4	_	NUM	NUM	NumType=Card	4	nummod	_	_
+4	485	_	NUM	NUM	NumType=Card	5	nummod	_	_
+5	000	_	NUM	NUM	NumType=Card	1	appos	_	_
+6	(	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
+7	1999	_	NUM	NUM	NumType=Card	1	nmod	_	SpaceAfter=No
+8	)	_	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s8393
+# text = Os últimos anos de vida de Aguilar foram repletos de provações familiares.
+1	Os	_	DET	DET	_	3	det	_	_
+2	últimos	último	ADJ	ADJ	_	3	amod	_	_
+3	anos	ano	NOUN	NOUN	_	8	nsubj	_	_
+4	de	_	ADP	ADP	_	5	case	_	_
+5	vida	vida	NOUN	NOUN	_	3	nmod	_	_
+6	de	_	ADP	ADP	_	7	case	_	_
+7	Aguilar	_	PROPN	PNOUN	_	3	nmod	_	_
+8	foram	_	VERB	VERB	_	0	root	_	_
+9	repletos	repleto	ADJ	ADJ	_	8	xcomp:adj	_	_
+10	de	_	ADP	ADP	_	11	case	_	_
+11	provações	provação	NOUN	NOUN	_	9	nmod	_	_
+12	familiares	familiar	ADJ	ADJ	_	11	amod	_	SpaceAfter=No
+13	.	_	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s8394
+# text = O cenário favorável do mercado de trabalho, expansão do prazo médio de quitação de empréstimo e financiamentos resultarão para um menor nível de comprometimento da renda no ano corrente.
+1	O	_	DET	DET	_	2	det	_	_
+2	cenário	cenário	NOUN	NOUN	_	21	nsubj	_	_
+3	favorável	favorável	ADJ	ADJ	_	2	amod	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mercado	mercado	NOUN	NOUN	_	2	nmod	_	_
+7	de	_	ADP	ADP	_	8	case	_	_
+8	trabalho	trabalho	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
+9	,	_	PUNCT	.	_	10	punct	_	_
+10	expansão	expansão	NOUN	NOUN	_	2	conj	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	ADP	_	13	case	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	prazo	prazo	NOUN	NOUN	_	10	nmod	_	_
+14	médio	médio	ADJ	ADJ	_	13	amod	_	_
+15	de	_	ADP	ADP	_	16	case	_	_
+16	quitação	quitação	NOUN	NOUN	_	13	nmod	_	_
+17	de	_	ADP	ADP	_	18	case	_	_
+18	empréstimo	empréstimo	NOUN	NOUN	_	16	nmod	_	_
+19	e	_	CCONJ	CONJ	_	20	cc	_	_
+20	financiamentos	financiamento	NOUN	NOUN	_	2	conj	_	_
+21	resultarão	resultar	VERB	VERB	_	0	root	_	_
+22	para	_	ADP	ADP	_	25	case	_	_
+23	um	_	DET	DET	_	25	det	_	_
+24	menor	menor	ADJ	ADJ	_	25	amod	_	_
+25	nível	nível	NOUN	NOUN	_	21	nmod	_	_
+26	de	_	ADP	ADP	_	27	case	_	_
+27	comprometimento	comprometimento	NOUN	NOUN	_	25	nmod	_	_
+28-29	da	_	_	_	_	_	_	_	_
+28	de	de	ADP	ADP	_	30	case	_	_
+29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	renda	renda	NOUN	NOUN	_	27	nmod	_	_
+31-32	no	_	_	_	_	_	_	_	_
+31	em	em	ADP	ADP	_	33	case	_	_
+32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	ano	ano	NOUN	NOUN	_	21	nmod	_	_
+34	corrente	corrente	ADJ	ADJ	_	33	amod	_	SpaceAfter=No
+35	.	_	PUNCT	.	_	21	punct	_	_
+
+# sent_id = train-s8395
+# text = Mas acho que não veremos um grande salto como o do iPad".
+1	Mas	_	CCONJ	CONJ	_	2	cc	_	_
+2	acho	achar	VERB	VERB	_	0	root	_	_
+3	que	_	CCONJ	CONJ	_	5	mark	_	_
+4	não	não	ADV	ADV	Polarity=Neg	5	advmod	_	_
+5	veremos	ver	VERB	VERB	_	2	ccomp	_	_
+6	um	_	DET	DET	_	8	det	_	_
+7	grande	grande	ADJ	ADJ	_	8	amod	_	_
+8	salto	salto	NOUN	NOUN	_	5	obj	_	_
+9	como	_	ADP	ADP	_	10	case	_	_
+10	o	_	PRON	PRON	_	8	nmod	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	ADP	_	13	case	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	iPad	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
+14	"	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
+15	.	_	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s8396
+# text = A companhia está presente em todos os continentes, com plataformas de produção e escritórios no Brasil, Argentina, Itália, Austrália, EUA, Uruguai, Paraguai, México, China, Rússia, entre outros países.
+1	A	_	DET	DET	_	2	det	_	_
+2	companhia	companhia	NOUN	NOUN	_	3	nsubj	_	_
+3	está	estar	VERB	VERB	_	0	root	_	_
+4	presente	presente	ADJ	ADJ	_	3	xcomp:adj	_	_
+5	em	_	ADP	ADP	_	8	case	_	_
+6	todos	_	DET	DET	_	8	det	_	_
+7	os	_	DET	DET	_	8	det	_	_
+8	continentes	continente	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
+9	,	_	PUNCT	.	_	11	punct	_	_
+10	com	_	ADP	ADP	_	11	case	_	_
+11	plataformas	plataforma	NOUN	NOUN	_	3	nmod	_	_
+12	de	_	ADP	ADP	_	13	case	_	_
+13	produção	produção	NOUN	NOUN	_	11	nmod	_	_
+14	e	_	CCONJ	CONJ	_	15	cc	_	_
+15	escritórios	escritório	NOUN	NOUN	_	11	conj	_	_
+16-17	no	_	_	_	_	_	_	_	_
+16	em	em	ADP	ADP	_	18	case	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Brasil	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
+19	,	_	PUNCT	.	_	20	punct	_	_
+20	Argentina	_	PROPN	PNOUN	_	18	conj	_	SpaceAfter=No
+21	,	_	PUNCT	.	_	22	punct	_	_
+22	Itália	_	PROPN	PNOUN	_	18	conj	_	SpaceAfter=No
+23	,	_	PUNCT	.	_	24	punct	_	_
+24	Austrália	_	PROPN	PNOUN	_	18	conj	_	SpaceAfter=No
+25	,	_	PUNCT	.	_	26	punct	_	_
+26	EUA	_	PROPN	PNOUN	_	18	conj	_	SpaceAfter=No
+27	,	_	PUNCT	.	_	28	punct	_	_
+28	Uruguai	_	PROPN	PNOUN	_	18	conj	_	SpaceAfter=No
+29	,	_	PUNCT	.	_	30	punct	_	_
+30	Paraguai	_	PROPN	PNOUN	_	18	conj	_	SpaceAfter=No
+31	,	_	PUNCT	.	_	32	punct	_	_
+32	México	_	PROPN	PNOUN	_	18	conj	_	SpaceAfter=No
+33	,	_	PUNCT	.	_	34	punct	_	_
+34	China	_	PROPN	PNOUN	_	18	conj	_	SpaceAfter=No
+35	,	_	PUNCT	.	_	36	punct	_	_
+36	Rússia	_	PROPN	PNOUN	_	18	conj	_	SpaceAfter=No
+37	,	_	PUNCT	.	_	40	punct	_	_
+38	entre	_	ADP	ADP	_	40	case	_	_
+39	outros	_	DET	DET	_	40	det	_	_
+40	países	país	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
+41	.	_	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s8397
+# text = Os gols foram marcados por Nady - Gedo e Soliman, pelos campeões;
+1	Os	_	DET	DET	_	2	det	_	_
+2	gols	gol	NOUN	NOUN	_	4	nsubj:pass	_	_
+3	foram	_	AUX	AUX	_	4	aux:pass	_	_
+4	marcados	marcar	VERB	VERB	_	0	root	_	_
+5	por	_	ADP	ADP	_	6	case	_	_
+6	Nady	_	PROPN	PNOUN	_	4	nmod	_	_
+7	-	_	PUNCT	.	_	10	punct	_	_
+8	Gedo	_	PROPN	PNOUN	_	6	flat	_	_
+9	e	_	CCONJ	CONJ	_	10	cc	_	_
+10	Soliman	_	PROPN	PNOUN	_	6	conj	_	SpaceAfter=No
+11	,	_	PUNCT	.	_	14	punct	_	_
+12-13	pelos	_	_	_	_	_	_	_	_
+12	por	por	ADP	ADP	_	14	case	_	_
+13	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	campeões	campeão	NOUN	NOUN	_	6	appos	_	SpaceAfter=No
+15	;	_	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s8398
+# text = José Welington Pilé foi conduzido à unidade penitenciária.
+1	José	_	PROPN	PNOUN	_	5	nsubj:pass	_	_
+2	Welington	_	PROPN	PNOUN	_	1	flat	_	_
+3	Pilé	_	PROPN	PNOUN	_	1	flat	_	_
+4	foi	_	AUX	AUX	_	5	aux:pass	_	_
+5	conduzido	conduzir	VERB	VERB	_	0	root	_	_
+6-7	à	_	_	_	_	_	_	_	_
+6	a	a	ADP	ADP	_	8	case	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	unidade	unidade	NOUN	NOUN	_	5	nmod	_	_
+9	penitenciária	penitenciário	ADJ	ADJ	_	8	amod	_	SpaceAfter=No
+10	.	_	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s8399
+# text = Lésbicas, gays, bissexuais, travestis, transexuais e simpatizantes (LGBT) de Brasília realizam hoje na capital federal a 15 ª edição da Parada do Orgulho LGBT no Distrito Federal.
+1	Lésbicas	lésbica	NOUN	NOUN	_	17	nsubj	_	SpaceAfter=No
+2	,	_	PUNCT	.	_	3	punct	_	_
+3	gays	gay	NOUN	NOUN	_	1	conj	_	SpaceAfter=No
+4	,	_	PUNCT	.	_	5	punct	_	_
+5	bissexuais	bissexual	NOUN	NOUN	_	1	conj	_	SpaceAfter=No
+6	,	_	PUNCT	.	_	7	punct	_	_
+7	travestis	travesti	NOUN	NOUN	_	1	conj	_	SpaceAfter=No
+8	,	_	PUNCT	.	_	9	punct	_	_
+9	transexuais	transexual	NOUN	NOUN	_	1	conj	_	_
+10	e	_	CCONJ	CONJ	_	11	cc	_	_
+11	simpatizantes	simpatizante	NOUN	NOUN	_	1	conj	_	_
+12	(	_	PUNCT	.	_	13	punct	_	SpaceAfter=No
+13	LGBT	_	PROPN	PNOUN	_	11	appos	_	SpaceAfter=No
+14	)	_	PUNCT	.	_	13	punct	_	_
+15	de	_	ADP	ADP	_	16	case	_	_
+16	Brasília	_	PROPN	PNOUN	_	1	nmod	_	_
+17	realizam	realizar	VERB	VERB	_	0	root	_	_
+18	hoje	hoje	ADV	ADV	_	17	advmod	_	_
+19-20	na	_	_	_	_	_	_	_	_
+19	em	em	ADP	ADP	_	21	case	_	_
+20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	capital	capital	NOUN	NOUN	_	17	nmod	_	_
+22	federal	federal	ADJ	ADJ	_	21	amod	_	_
+23	a	_	DET	DET	_	26	det	_	_
+24	15	_	ADJ	ADJ	_	26	amod	_	_
+25	ª	_	PUNCT	.	_	24	punct	_	_
+26	edição	edição	NOUN	NOUN	_	17	obj	_	_
+27-28	da	_	_	_	_	_	_	_	_
+27	de	de	ADP	ADP	_	29	case	_	_
+28	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	Parada	_	PROPN	PNOUN	_	26	nmod	_	_
+30-31	do	_	_	_	_	_	_	_	_
+30	de	de	ADP	ADP	_	32	case	_	_
+31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	Orgulho	_	PROPN	PNOUN	_	29	nmod	_	_
+33	LGBT	_	PROPN	PNOUN	_	32	appos	_	_
+34-35	no	_	_	_	_	_	_	_	_
+34	em	em	ADP	ADP	_	36	case	_	_
+35	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	Distrito	_	PROPN	PNOUN	_	17	nmod	_	_
+37	Federal	_	PROPN	PNOUN	_	36	amod	_	SpaceAfter=No
+38	.	_	PUNCT	.	_	17	punct	_	_
+

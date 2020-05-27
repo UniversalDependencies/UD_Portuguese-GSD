@@ -1,0 +1,277 @@
+# sent_id = test-s259
+# text = Giovanni de Médici não teve filhos pelo que, antes de morrer, deixou a villa ao jovem sobrinho - neto Giuliano de Médici.
+1	Giovanni	_	PROPN	PNOUN	_	5	nsubj	_	_
+2	de	_	ADP	ADP	_	3	case	_	_
+3	Médici	_	PROPN	PNOUN	_	1	nmod	_	_
+4	não	não	ADV	ADV	Polarity=Neg	5	advmod	_	_
+5	teve	ter	VERB	VERB	_	0	root	_	_
+6	filhos	filho	NOUN	NOUN	_	5	obj	_	_
+7-8	pelo	_	_	_	_	_	_	_	_
+7	por	por	ADP	ADP	_	15	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+9	que	_	CCONJ	CONJ	_	7	fixed	_	SpaceAfter=No
+10	,	_	PUNCT	.	_	13	punct	_	_
+11	antes	antes	ADV	ADV	_	13	mark	_	_
+12	de	_	ADP	ADP	_	11	fixed	_	_
+13	morrer	morrer	VERB	VERB	_	15	advcl	_	SpaceAfter=No
+14	,	_	PUNCT	.	_	13	punct	_	_
+15	deixou	deixar	VERB	VERB	_	5	advcl	_	_
+16	a	_	DET	DET	_	17	det	_	_
+17	villa	_	NOUN	NOUN	_	15	obj	_	_
+18-19	ao	_	_	_	_	_	_	_	_
+18	a	a	ADP	ADP	_	21	case	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	jovem	jovem	ADJ	ADJ	_	21	amod	_	_
+21	sobrinho	_	NOUN	NOUN	_	15	iobj	_	_
+22	-	_	PUNCT	.	_	21	punct	_	_
+23	neto	neto	NOUN	NOUN	_	21	flat	_	_
+24	Giuliano	_	PROPN	PNOUN	_	21	appos	_	_
+25	de	_	ADP	ADP	_	26	case	_	_
+26	Médici	_	PROPN	PNOUN	_	24	nmod	_	SpaceAfter=No
+27	.	_	PUNCT	.	_	5	punct	_	_
+
+# sent_id = test-s260
+# text = Fogo toma conta de barracos na região central de São Paulo.
+1	Fogo	fogo	NOUN	NOUN	_	0	root	_	_
+2	toma	tomar	VERB	VERB	_	1	case	_	_
+3	conta	conta	NOUN	NOUN	_	1	obj	_	_
+4	de	_	ADP	ADP	_	5	case	_	_
+5	barracos	barraco	NOUN	NOUN	_	3	nmod	_	_
+6-7	na	_	_	_	_	_	_	_	_
+6	em	em	ADP	ADP	_	8	case	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	região	região	NOUN	NOUN	_	1	nmod	_	_
+9	central	central	ADJ	ADJ	_	8	amod	_	_
+10	de	_	ADP	ADP	_	11	case	_	_
+11	São	_	PROPN	PNOUN	_	8	nmod	_	_
+12	Paulo	_	PROPN	PNOUN	_	11	flat	_	SpaceAfter=No
+13	.	_	PUNCT	.	_	1	punct	_	_
+
+# sent_id = test-s261
+# text = Segundo ele, naquela época a equipe não tinha a estrutura que tem hoje.
+1	Segundo	_	ADP	ADP	_	2	case	_	_
+2	ele	_	PRON	PRON	_	9	nmod	_	SpaceAfter=No
+3	,	_	PUNCT	.	_	2	punct	_	_
+4	naquela	_	ADP	ADP	_	5	case	_	_
+5	época	época	NOUN	NOUN	_	9	nmod	_	_
+6	a	_	DET	DET	_	7	det	_	_
+7	equipe	equipe	NOUN	NOUN	_	9	nsubj	_	_
+8	não	não	ADV	ADV	Polarity=Neg	9	advmod	_	_
+9	tinha	ter	VERB	VERB	_	0	root	_	_
+10	a	_	DET	DET	_	11	det	_	_
+11	estrutura	estrutura	NOUN	NOUN	_	9	obj	_	_
+12	que	_	PRON	PRON	_	13	obj	_	_
+13	tem	ter	VERB	VERB	_	11	acl:relcl	_	_
+14	hoje	hoje	ADV	ADV	_	13	advmod	_	SpaceAfter=No
+15	.	_	PUNCT	.	_	9	punct	_	_
+
+# sent_id = test-s262
+# text = "... SE algum vândalo tentar arrancar as cadeiras?
+1	"	_	PUNCT	.	_	6	punct	_	SpaceAfter=No
+2	...	_	PUNCT	.	_	6	punct	_	_
+3	SE	_	CCONJ	CONJ	_	6	mark	_	_
+4	algum	_	DET	DET	_	5	det	_	_
+5	vândalo	vândalo	NOUN	NOUN	_	6	nsubj	_	_
+6	tentar	tentar	VERB	VERB	_	0	root	_	_
+7	arrancar	arrancar	VERB	VERB	_	6	xcomp	_	_
+8	as	_	DET	DET	_	9	det	_	_
+9	cadeiras	cadeira	NOUN	NOUN	_	7	obj	_	SpaceAfter=No
+10	?	_	PUNCT	.	_	6	punct	_	_
+
+# sent_id = test-s263
+# text = De Guindos disse apoiar as decisões do BCE e acrescentou que não se deve subestimar a vontade política dos países da zona do euro em desenvolver a união monetária.
+1	De	_	PROPN	PNOUN	_	0	root	_	_
+2	Guindos	_	PROPN	PNOUN	_	1	flat	_	_
+3	disse	dizer	VERB	VERB	_	1	case	_	_
+4	apoiar	apoiar	VERB	VERB	_	1	xcomp	_	_
+5	as	_	DET	DET	_	6	det	_	_
+6	decisões	decisão	NOUN	NOUN	_	4	obj	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	BCE	_	PROPN	PNOUN	_	6	nmod	_	_
+10	e	_	CCONJ	CONJ	_	11	cc	_	_
+11	acrescentou	acrescentar	VERB	VERB	_	1	conj	_	_
+12	que	_	CCONJ	CONJ	_	16	mark	_	_
+13	não	não	ADV	ADV	Polarity=Neg	16	advmod	_	_
+14	se	_	PRON	PRON	_	16	expl:pv	_	_
+15	deve	dever	AUX	AUX	_	16	aux	_	_
+16	subestimar	subestimar	VERB	VERB	_	11	ccomp	_	_
+17	a	_	DET	DET	_	18	det	_	_
+18	vontade	vontade	NOUN	NOUN	_	16	nsubj	_	_
+19	política	político	ADJ	ADJ	_	18	amod	_	_
+20-21	dos	_	_	_	_	_	_	_	_
+20	de	de	ADP	ADP	_	22	case	_	_
+21	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	países	país	NOUN	NOUN	_	18	nmod	_	_
+23-24	da	_	_	_	_	_	_	_	_
+23	de	de	ADP	ADP	_	25	case	_	_
+24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	zona	zona	NOUN	NOUN	_	22	nmod	_	_
+26-27	do	_	_	_	_	_	_	_	_
+26	de	de	ADP	ADP	_	28	case	_	_
+27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	euro	euro	NOUN	NOUN	_	25	nmod	_	_
+29	em	_	ADP	ADP	_	30	mark	_	_
+30	desenvolver	desenvolver	VERB	VERB	_	18	nmod	_	_
+31	a	_	DET	DET	_	32	det	_	_
+32	união	união	NOUN	NOUN	_	30	obj	_	_
+33	monetária	monetário	ADJ	ADJ	_	32	amod	_	SpaceAfter=No
+34	.	_	PUNCT	.	_	1	punct	_	_
+
+# sent_id = test-s264
+# text = Conforme Só Notícias informou, a fase Centro - Oeste corresponde ao grupo 3 dos 5 formados (cada região do país).
+1	Conforme	_	CCONJ	CONJ	_	4	mark	_	_
+2	Só	_	PROPN	PNOUN	_	3	advmod	_	_
+3	Notícias	_	PROPN	PNOUN	_	4	nsubj	_	_
+4	informou	informar	VERB	VERB	_	11	advcl	_	SpaceAfter=No
+5	,	_	PUNCT	.	_	4	punct	_	_
+6	a	_	DET	DET	_	7	det	_	_
+7	fase	fase	NOUN	NOUN	_	11	nsubj	_	_
+8	Centro	_	PROPN	PNOUN	_	7	appos	_	_
+9	-	_	PUNCT	.	_	8	punct	_	_
+10	Oeste	_	PROPN	PNOUN	_	8	flat	_	_
+11	corresponde	corresponder	VERB	VERB	_	0	root	_	_
+12-13	ao	_	_	_	_	_	_	_	_
+12	a	a	ADP	ADP	_	14	case	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	grupo	grupo	NOUN	NOUN	_	11	nmod	_	_
+15	3	_	NUM	NUM	NumType=Card	14	appos	_	_
+16-17	dos	_	_	_	_	_	_	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
+17	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	5	_	NUM	NUM	NumType=Card	15	nmod	_	_
+19	formados	formar	VERB	VERB	_	18	acl:part	_	_
+20	(	_	PUNCT	.	_	22	punct	_	SpaceAfter=No
+21	cada	_	DET	DET	_	22	det	_	_
+22	região	região	NOUN	NOUN	_	18	appos	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	ADP	_	25	case	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	país	país	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
+26	)	_	PUNCT	.	_	22	punct	_	SpaceAfter=No
+27	.	_	PUNCT	.	_	11	punct	_	_
+
+# sent_id = test-s265
+# text = Com isso, poderei trazer empresas para cá.
+1	Com	_	ADP	ADP	_	2	case	_	_
+2	isso	_	PRON	PRON	_	5	nmod	_	SpaceAfter=No
+3	,	_	PUNCT	.	_	2	punct	_	_
+4	poderei	poder	AUX	AUX	_	5	aux	_	_
+5	trazer	trazer	VERB	VERB	_	0	root	_	_
+6	empresas	empresa	NOUN	NOUN	_	5	obj	_	_
+7	para	_	ADP	ADP	_	8	mark	_	_
+8	cá	cá	ADV	ADV	_	5	nmod	_	SpaceAfter=No
+9	.	_	PUNCT	.	_	5	punct	_	_
+
+# sent_id = test-s266
+# text = Esta Legião Islâmica foi na sua maioria composta de imigrantes de países mais pobres do Sahel, mas também, de acordo com uma fonte, de milhares de paquistaneses que haviam sido recrutados em 1981 com a falsa promessa de empregos civis uma vez na Líbia.
+1	Esta	_	DET	DET	_	2	det	_	_
+2	Legião	_	PROPN	PNOUN	_	9	nsubj	_	_
+3	Islâmica	_	PROPN	PNOUN	_	2	amod	_	_
+4	foi	_	AUX	AUX	_	9	aux	_	_
+5-6	na	_	_	_	_	_	_	_	_
+5	em	em	ADP	ADP	_	8	case	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	sua	_	DET	DET	_	8	det:poss	_	_
+8	maioria	maioria	NOUN	NOUN	_	9	nmod	_	_
+9	composta	compor	VERB	VERB	_	0	root	_	_
+10	de	_	ADP	ADP	_	11	case	_	_
+11	imigrantes	imigrante	NOUN	NOUN	_	9	nmod	_	_
+12	de	_	ADP	ADP	_	13	case	_	_
+13	países	país	NOUN	NOUN	_	11	nmod	_	_
+14	mais	mais	ADV	ADV	_	15	advmod	_	_
+15	pobres	pobre	ADJ	ADJ	_	13	amod	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Sahel	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
+19	,	_	PUNCT	.	_	32	punct	_	_
+20	mas	_	CCONJ	CONJ	_	32	cc	_	_
+21	também	também	ADV	ADV	_	32	advmod	_	SpaceAfter=No
+22	,	_	PUNCT	.	_	24	punct	_	_
+23	de	_	ADP	ADP	_	24	case	_	_
+24	acordo	acordo	NOUN	NOUN	_	32	nmod	_	_
+25	com	_	ADP	ADP	_	27	case	_	_
+26	uma	_	DET	DET	_	27	det	_	_
+27	fonte	fonte	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
+28	,	_	PUNCT	.	_	24	punct	_	_
+29	de	_	ADP	ADP	_	32	case	_	_
+30	milhares	_	NUM	NUM	NumType=Card	32	nummod	_	_
+31	de	_	ADP	ADP	_	32	case	_	_
+32	paquistaneses	paquistanês	NOUN	NOUN	_	11	conj	_	_
+33	que	_	PRON	PRON	_	36	nsubj:pass	_	_
+34	haviam	haver	AUX	AUX	_	36	aux	_	_
+35	sido	ser	AUX	AUX	_	36	aux:pass	_	_
+36	recrutados	recrutar	VERB	VERB	_	32	acl:relcl	_	_
+37	em	_	ADP	ADP	_	38	case	_	_
+38	1981	_	NUM	NUM	NumType=Card	36	nmod	_	_
+39	com	_	ADP	ADP	_	42	case	_	_
+40	a	_	DET	DET	_	42	det	_	_
+41	falsa	falso	ADJ	ADJ	_	42	amod	_	_
+42	promessa	promessa	NOUN	NOUN	_	36	nmod	_	_
+43	de	_	ADP	ADP	_	44	case	_	_
+44	empregos	emprego	NOUN	NOUN	_	42	nmod	_	_
+45	civis	civil	ADJ	ADJ	_	44	amod	_	_
+46	uma	_	DET	DET	_	47	det	_	_
+47	vez	vez	NOUN	NOUN	_	50	nmod	_	_
+48-49	na	_	_	_	_	_	_	_	_
+48	em	em	ADP	ADP	_	50	case	_	_
+49	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+50	Líbia	_	PROPN	PNOUN	_	42	nmod	_	SpaceAfter=No
+51	.	_	PUNCT	.	_	9	punct	_	_
+
+# sent_id = test-s267
+# text = A solenidade de abertura também será realizada nesta segunda na Penitenciária Feminina, às 8h, com a presença do secretário de Justiça e Direitos Humanos.
+1	A	_	DET	DET	_	2	det	_	_
+2	solenidade	solenidade	NOUN	NOUN	_	7	nsubj:pass	_	_
+3	de	_	ADP	ADP	_	4	case	_	_
+4	abertura	abertura	NOUN	NOUN	_	2	nmod	_	_
+5	também	também	ADV	ADV	_	7	advmod	_	_
+6	será	ser	AUX	AUX	_	7	aux:pass	_	_
+7	realizada	realizar	VERB	VERB	_	0	root	_	_
+8	nesta	_	ADP	ADP	_	9	case	_	_
+9	segunda	_	PROPN	PNOUN	_	7	nmod	_	_
+10-11	na	_	_	_	_	_	_	_	_
+10	em	em	ADP	ADP	_	12	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Penitenciária	_	PROPN	PNOUN	_	7	nmod	_	_
+13	Feminina	_	PROPN	PNOUN	_	12	amod	_	SpaceAfter=No
+14	,	_	PUNCT	.	_	17	punct	_	_
+15-16	às	_	_	_	_	_	_	_	_
+15	a	a	ADP	ADP	_	17	case	_	_
+16	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	8h	_	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
+18	,	_	PUNCT	.	_	17	punct	_	_
+19	com	_	ADP	ADP	_	21	case	_	_
+20	a	_	DET	DET	_	21	det	_	_
+21	presença	presença	NOUN	NOUN	_	7	nmod	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	ADP	_	24	case	_	_
+23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	secretário	secretário	NOUN	NOUN	_	21	nmod	_	_
+25	de	_	ADP	ADP	_	26	case	_	_
+26	Justiça	_	PROPN	PNOUN	_	24	nmod	_	_
+27	e	_	CCONJ	CONJ	_	28	cc	_	_
+28	Direitos	_	PROPN	PNOUN	_	26	conj	_	_
+29	Humanos	_	PROPN	PNOUN	_	28	amod	_	SpaceAfter=No
+30	.	_	PUNCT	.	_	7	punct	_	_
+
+# sent_id = test-s268
+# text = Mas não se pode construir a paz duradoura sem o concurso de todos."
+1	Mas	_	CCONJ	CONJ	_	5	cc	_	_
+2	não	não	ADV	ADV	Polarity=Neg	5	advmod	_	_
+3	se	_	PRON	PRON	_	5	expl:pv	_	_
+4	pode	_	AUX	AUX	_	5	aux	_	_
+5	construir	construir	VERB	VERB	_	0	root	_	_
+6	a	_	DET	DET	_	7	det	_	_
+7	paz	paz	NOUN	NOUN	_	5	nsubj	_	_
+8	duradoura	duradouro	ADJ	ADJ	_	7	amod	_	_
+9	sem	_	ADP	ADP	_	11	case	_	_
+10	o	_	DET	DET	_	11	det	_	_
+11	concurso	concurso	NOUN	NOUN	_	5	nmod	_	_
+12	de	_	ADP	ADP	_	13	case	_	_
+13	todos	_	PRON	PRON	_	11	nmod	_	SpaceAfter=No
+14	.	_	PUNCT	.	_	5	punct	_	SpaceAfter=No
+15	"	_	PUNCT	.	_	5	punct	_	_
+
