@@ -1,0 +1,277 @@
+# sent_id = dev-s240
+# text = Porém, a sonda ainda não atingiu os limites do nosso Sistema Solar.
+1	Porém	_	ADV	ADV	_	7	advmod	_	SpaceAfter=No
+2	,	_	PUNCT	.	_	1	punct	_	_
+3	a	_	DET	DET	_	4	det	_	_
+4	sonda	sonda	NOUN	NOUN	_	7	nsubj	_	_
+5	ainda	ainda	ADV	ADV	_	7	advmod	_	_
+6	não	não	ADV	ADV	Polarity=Neg	7	advmod	_	_
+7	atingiu	atingir	VERB	VERB	_	0	root	_	_
+8	os	_	DET	DET	_	9	det	_	_
+9	limites	limite	NOUN	NOUN	_	7	obj	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	ADP	_	13	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	nosso	_	DET	DET	_	13	det:poss	_	_
+13	Sistema	_	PROPN	PNOUN	_	9	nmod	_	_
+14	Solar	_	PROPN	PNOUN	_	13	amod	_	SpaceAfter=No
+15	.	_	PUNCT	.	_	7	punct	_	_
+
+# sent_id = dev-s241
+# text = Na segunda fase, o aproveitamento caiu para 44,44 %, com duas vitórias, dois empates e duas derrotas, mas o time subiu duas posições em relação à classificação anterior e terminou na segunda posição do Grupo 13, com oito pontos.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	ADP	_	4	case	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	segunda	segundo	ADJ	ADJ	_	4	amod	_	_
+4	fase	fase	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
+5	,	_	PUNCT	.	_	4	punct	_	_
+6	o	_	DET	DET	_	7	det	_	_
+7	aproveitamento	aproveitamento	NOUN	NOUN	_	8	nsubj	_	_
+8	caiu	cair	VERB	VERB	_	0	root	_	_
+9	para	_	ADP	ADP	_	11	case	_	_
+10	44,44	_	NUM	NUM	NumType=Card	11	nummod	_	_
+11	%	_	SYM	SYM	_	8	nmod	_	SpaceAfter=No
+12	,	_	PUNCT	.	_	15	punct	_	_
+13	com	_	ADP	ADP	_	15	case	_	_
+14	duas	_	NUM	NUM	NumType=Card	15	nummod	_	_
+15	vitórias	vitória	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
+16	,	_	PUNCT	.	_	18	punct	_	_
+17	dois	_	NUM	NUM	NumType=Card	18	nummod	_	_
+18	empates	empate	NOUN	NOUN	_	15	conj	_	_
+19	e	_	CCONJ	CONJ	_	21	cc	_	_
+20	duas	_	NUM	NUM	NumType=Card	21	nummod	_	_
+21	derrotas	derrota	NOUN	NOUN	_	15	conj	_	SpaceAfter=No
+22	,	_	PUNCT	.	_	26	punct	_	_
+23	mas	_	CCONJ	CONJ	_	26	cc	_	_
+24	o	_	DET	DET	_	25	det	_	_
+25	time	time	NOUN	NOUN	_	26	nsubj	_	_
+26	subiu	subir	VERB	VERB	_	8	conj	_	_
+27	duas	_	NUM	NUM	NumType=Card	28	nummod	_	_
+28	posições	posição	NOUN	NOUN	_	26	obj	_	_
+29	em	_	ADP	ADP	_	30	case	_	_
+30	relação	relação	NOUN	NOUN	_	26	nmod	_	_
+31-32	à	_	_	_	_	_	_	_	_
+31	a	a	ADP	ADP	_	33	case	_	_
+32	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	classificação	classificação	NOUN	NOUN	_	30	nmod	_	_
+34	anterior	anterior	ADJ	ADJ	_	33	amod	_	_
+35	e	_	CCONJ	CONJ	_	36	cc	_	_
+36	terminou	terminar	VERB	VERB	_	26	conj	_	_
+37-38	na	_	_	_	_	_	_	_	_
+37	em	em	ADP	ADP	_	40	case	_	_
+38	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+39	segunda	segundo	ADJ	ADJ	_	40	amod	_	_
+40	posição	posição	NOUN	NOUN	_	36	nmod	_	_
+41-42	do	_	_	_	_	_	_	_	_
+41	de	de	ADP	ADP	_	43	case	_	_
+42	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	Grupo	_	PROPN	PNOUN	_	40	nmod	_	_
+44	13	_	NUM	NUM	NumType=Card	43	appos	_	SpaceAfter=No
+45	,	_	PUNCT	.	_	48	punct	_	_
+46	com	_	ADP	ADP	_	48	case	_	_
+47	oito	_	NUM	NUM	NumType=Card	48	nummod	_	_
+48	pontos	ponto	NOUN	NOUN	_	36	nmod	_	SpaceAfter=No
+49	.	_	PUNCT	.	_	8	punct	_	_
+
+# sent_id = dev-s242
+# text = Sabino Castelo Branco (PTB) teve a maior manifestação de fidelidade dos eleitores: 77 %.
+1	Sabino	_	PROPN	PNOUN	_	7	nsubj	_	_
+2	Castelo	_	PROPN	PNOUN	_	1	flat	_	_
+3	Branco	_	PROPN	PNOUN	_	1	flat	_	_
+4	(	_	PUNCT	.	_	5	punct	_	SpaceAfter=No
+5	PTB	_	PROPN	PNOUN	_	1	appos	_	SpaceAfter=No
+6	)	_	PUNCT	.	_	5	punct	_	_
+7	teve	ter	VERB	VERB	_	0	root	_	_
+8	a	_	DET	DET	_	10	det	_	_
+9	maior	maior	ADJ	ADJ	_	10	amod	_	_
+10	manifestação	manifestação	NOUN	NOUN	_	7	obj	_	_
+11	de	_	ADP	ADP	_	12	case	_	_
+12	fidelidade	fidelidade	NOUN	NOUN	_	10	nmod	_	_
+13-14	dos	_	_	_	_	_	_	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
+14	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	eleitores	eleitor	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
+16	:	_	PUNCT	.	_	10	punct	_	_
+17	77	_	NUM	NUM	NumType=Card	18	nummod	_	_
+18	%	_	SYM	SYM	_	10	appos	_	SpaceAfter=No
+19	.	_	PUNCT	.	_	7	punct	_	_
+
+# sent_id = dev-s243
+# text = Pessoas que trabalham no setor financeiro e de investimentos dos Estados Unidos doaram US $ 20 milhões para a campanha da Romney, ante US $ 6 milhões para Obama, segundo o Centro para Responsabilidade Política.
+1	Pessoas	pessoa	NOUN	NOUN	_	15	nsubj	_	_
+2	que	_	PRON	PRON	_	3	nsubj	_	_
+3	trabalham	trabalhar	VERB	VERB	_	1	acl:relcl	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	setor	setor	NOUN	NOUN	_	3	nmod	_	_
+7	financeiro	financeiro	ADJ	ADJ	_	6	amod	_	_
+8	e	_	CCONJ	CONJ	_	10	cc	_	_
+9	de	_	ADP	ADP	_	10	case	_	_
+10	investimentos	investimento	NOUN	NOUN	_	7	conj	_	_
+11-12	dos	_	_	_	_	_	_	_	_
+11	de	de	ADP	ADP	_	13	case	_	_
+12	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	Estados	_	PROPN	PNOUN	_	6	nmod	_	_
+14	Unidos	_	PROPN	PNOUN	_	13	amod	_	_
+15	doaram	doar	VERB	VERB	_	0	root	_	_
+16	US	_	PROPN	PNOUN	_	15	obj	_	_
+17	$	_	SYM	SYM	_	16	flat	_	_
+18	20	_	NUM	NUM	NumType=Card	19	nummod	_	_
+19	milhões	_	NUM	NUM	NumType=Card	16	nummod	_	_
+20	para	_	ADP	ADP	_	22	case	_	_
+21	a	_	DET	DET	_	22	det	_	_
+22	campanha	campanha	NOUN	NOUN	_	15	nmod	_	_
+23-24	da	_	_	_	_	_	_	_	_
+23	de	de	ADP	ADP	_	25	case	_	_
+24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	Romney	_	PROPN	PNOUN	_	22	nmod	_	SpaceAfter=No
+26	,	_	PUNCT	.	_	28	punct	_	_
+27	ante	_	ADP	ADP	_	28	case	_	_
+28	US	_	PROPN	PNOUN	_	15	nmod	_	_
+29	$	_	SYM	SYM	_	28	flat	_	_
+30	6	_	NUM	NUM	NumType=Card	31	nummod	_	_
+31	milhões	_	NUM	NUM	NumType=Card	28	nummod	_	_
+32	para	_	ADP	ADP	_	33	case	_	_
+33	Obama	_	PROPN	PNOUN	_	28	nmod	_	SpaceAfter=No
+34	,	_	PUNCT	.	_	37	punct	_	_
+35	segundo	_	ADP	ADP	_	37	case	_	_
+36	o	_	DET	DET	_	37	det	_	_
+37	Centro	_	PROPN	PNOUN	_	15	nmod	_	_
+38	para	_	ADP	ADP	_	39	case	_	_
+39	Responsabilidade	_	PROPN	PNOUN	_	37	nmod	_	_
+40	Política	_	PROPN	PNOUN	_	39	amod	_	SpaceAfter=No
+41	.	_	PUNCT	.	_	15	punct	_	_
+
+# sent_id = dev-s244
+# text = Se o juiz não estiver acessível na comarca, o pedido de Habeas Corpus não será apreciado ", exemplifica o presidente da OAB, Ophir Cavalcante Júnior, que estará presente no lançamento da campanha nesta quarta, em João Pessoa.
+1	Se	_	CCONJ	CONJ	_	5	mark	_	_
+2	o	_	DET	DET	_	3	det	_	_
+3	juiz	juiz	NOUN	NOUN	_	5	nsubj	_	_
+4	não	não	ADV	ADV	Polarity=Neg	5	advmod	_	_
+5	estiver	estar	VERB	VERB	_	18	advcl	_	_
+6	acessível	acessível	ADJ	ADJ	_	5	xcomp:adj	_	_
+7-8	na	_	_	_	_	_	_	_	_
+7	em	em	ADP	ADP	_	9	case	_	_
+8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	comarca	comarca	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
+10	,	_	PUNCT	.	_	5	punct	_	_
+11	o	_	DET	DET	_	12	det	_	_
+12	pedido	pedido	NOUN	NOUN	_	18	nsubj:pass	_	_
+13	de	_	ADP	ADP	_	14	case	_	_
+14	Habeas	_	PROPN	PNOUN	_	12	nmod	_	_
+15	Corpus	_	PROPN	PNOUN	_	14	flat	_	_
+16	não	não	ADV	ADV	Polarity=Neg	18	advmod	_	_
+17	será	ser	AUX	AUX	_	18	aux:pass	_	_
+18	apreciado	apreciar	VERB	VERB	_	21	ccomp	_	_
+19	"	_	PUNCT	.	_	18	punct	_	SpaceAfter=No
+20	,	_	PUNCT	.	_	21	punct	_	_
+21	exemplifica	exemplificar	VERB	VERB	_	0	root	_	_
+22	o	_	DET	DET	_	23	det	_	_
+23	presidente	presidente	NOUN	NOUN	_	21	nsubj	_	_
+24-25	da	_	_	_	_	_	_	_	_
+24	de	de	ADP	ADP	_	26	case	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	OAB	_	PROPN	PNOUN	_	23	nmod	_	SpaceAfter=No
+27	,	_	PUNCT	.	_	28	punct	_	_
+28	Ophir	_	PROPN	PNOUN	_	23	appos	_	_
+29	Cavalcante	_	PROPN	PNOUN	_	28	flat	_	_
+30	Júnior	_	PROPN	PNOUN	_	28	flat	_	SpaceAfter=No
+31	,	_	PUNCT	.	_	28	punct	_	_
+32	que	_	PRON	PRON	_	33	nsubj	_	_
+33	estará	estar	VERB	VERB	_	23	acl:relcl	_	_
+34	presente	presente	ADJ	ADJ	_	33	xcomp:adj	_	_
+35-36	no	_	_	_	_	_	_	_	_
+35	em	em	ADP	ADP	_	37	case	_	_
+36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	lançamento	lançamento	NOUN	NOUN	_	34	nmod	_	_
+38-39	da	_	_	_	_	_	_	_	_
+38	de	de	ADP	ADP	_	40	case	_	_
+39	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	campanha	campanha	NOUN	NOUN	_	37	nmod	_	_
+41	nesta	_	ADP	ADP	_	42	case	_	_
+42	quarta	_	PROPN	PNOUN	_	37	nmod	_	SpaceAfter=No
+43	,	_	PUNCT	.	_	45	punct	_	_
+44	em	_	ADP	ADP	_	45	case	_	_
+45	João	_	PROPN	PNOUN	_	37	nmod	_	_
+46	Pessoa	_	PROPN	PNOUN	_	45	flat	_	SpaceAfter=No
+47	.	_	PUNCT	.	_	21	punct	_	_
+
+# sent_id = dev-s245
+# text = Os votos de Nevoeiro Jr.
+1	Os	_	DET	DET	_	2	det	_	_
+2	votos	voto	NOUN	NOUN	_	0	root	_	_
+3	de	_	ADP	ADP	_	4	case	_	_
+4	Nevoeiro	_	PROPN	PNOUN	_	2	nmod	_	_
+5	Jr	_	PROPN	PNOUN	_	4	flat	_	SpaceAfter=No
+6	.	_	PUNCT	.	_	2	punct	_	_
+
+# sent_id = dev-s246
+# text = Em duas semanas, no mais tardar 20 dias, posso voltar a jogar.
+1	Em	_	ADP	ADP	_	3	case	_	_
+2	duas	_	NUM	NUM	NumType=Card	3	nummod	_	_
+3	semanas	semana	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
+4	,	_	PUNCT	.	_	10	punct	_	_
+5-6	no	_	_	_	_	_	_	_	_
+5	em	em	ADP	ADP	_	8	case	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	mais	_	DET	DET	_	8	det	_	_
+8	tardar	_	NOUN	NOUN	_	10	nmod	_	_
+9	20	_	NUM	NUM	NumType=Card	10	nummod	_	_
+10	dias	dia	NOUN	NOUN	_	3	conj	_	SpaceAfter=No
+11	,	_	PUNCT	.	_	10	punct	_	_
+12	posso	_	AUX	AUX	_	15	aux	_	_
+13	voltar	voltar	AUX	AUX	_	15	aux	_	_
+14	a	_	ADP	ADP	_	15	mark	_	_
+15	jogar	jogar	VERB	VERB	_	0	root	_	SpaceAfter=No
+16	.	_	PUNCT	.	_	15	punct	_	_
+
+# sent_id = dev-s247
+# text = Marcelo Oliveira afirma que não teme que o trauma da derrota atrapalhe a equipe.
+1	Marcelo	_	PROPN	PNOUN	_	3	nsubj	_	_
+2	Oliveira	_	PROPN	PNOUN	_	1	flat	_	_
+3	afirma	afirmar	VERB	VERB	_	0	root	_	_
+4	que	_	CCONJ	CONJ	_	6	mark	_	_
+5	não	não	ADV	ADV	Polarity=Neg	6	advmod	_	_
+6	teme	temer	VERB	VERB	_	3	ccomp	_	_
+7	que	_	CCONJ	CONJ	_	13	mark	_	_
+8	o	_	DET	DET	_	9	det	_	_
+9	trauma	trauma	NOUN	NOUN	_	13	nsubj	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	ADP	_	12	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	derrota	derrota	NOUN	NOUN	_	9	nmod	_	_
+13	atrapalhe	atrapalhar	VERB	VERB	_	6	ccomp	_	_
+14	a	_	DET	DET	_	15	det	_	_
+15	equipe	equipe	NOUN	NOUN	_	13	obj	_	SpaceAfter=No
+16	.	_	PUNCT	.	_	3	punct	_	_
+
+# sent_id = dev-s248
+# text = As autoridades mobilizaram seguranças para impedir que turistas ultrapassem as barreiras, e definiram horários para a visita.
+1	As	_	DET	DET	_	2	det	_	_
+2	autoridades	autoridade	NOUN	NOUN	_	3	nsubj	_	_
+3	mobilizaram	mobilizar	VERB	VERB	_	0	root	_	_
+4	seguranças	segurança	NOUN	NOUN	_	3	obj	_	_
+5	para	_	ADP	ADP	_	6	mark	_	_
+6	impedir	impedir	VERB	VERB	_	3	advcl	_	_
+7	que	_	CCONJ	CONJ	_	9	mark	_	_
+8	turistas	turista	NOUN	NOUN	_	9	nsubj	_	_
+9	ultrapassem	ultrapassar	VERB	VERB	_	6	ccomp	_	_
+10	as	_	DET	DET	_	11	det	_	_
+11	barreiras	barreira	NOUN	NOUN	_	9	obj	_	SpaceAfter=No
+12	,	_	PUNCT	.	_	14	punct	_	_
+13	e	_	CCONJ	CONJ	_	14	cc	_	_
+14	definiram	definir	VERB	VERB	_	3	conj	_	_
+15	horários	horário	NOUN	NOUN	_	14	obj	_	_
+16	para	_	ADP	ADP	_	18	case	_	_
+17	a	_	DET	DET	_	18	det	_	_
+18	visita	visita	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
+19	.	_	PUNCT	.	_	3	punct	_	_
+
+# sent_id = dev-s249
+# text = Débora elogia Iran.
+1	Débora	_	PROPN	PNOUN	_	2	nsubj	_	_
+2	elogia	elogiar	VERB	VERB	_	0	root	_	_
+3	Iran	_	PROPN	PNOUN	_	2	obj	_	SpaceAfter=No
+4	.	_	PUNCT	.	_	2	punct	_	_
+

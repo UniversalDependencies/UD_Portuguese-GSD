@@ -1,0 +1,306 @@
+# sent_id = train-s7026
+# text = Golden Axe II só foi liberado no Mega Drive, enquanto o 1 º foi lançado em muitas outras plataformas.
+1	Golden	_	PROPN	PNOUN	_	2	amod	_	_
+2	Axe	_	PROPN	PNOUN	_	6	nsubj:pass	_	_
+3	II	_	NUM	NUM	NumType=Card	2	appos	_	_
+4	só	só	ADV	ADV	_	6	advmod	_	_
+5	foi	_	AUX	AUX	_	6	aux:pass	_	_
+6	liberado	liberar	VERB	VERB	_	0	root	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	ADP	_	10	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	Mega	_	PROPN	PNOUN	_	10	amod	_	_
+10	Drive	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
+11	,	_	PUNCT	.	_	17	punct	_	_
+12	enquanto	_	CCONJ	CONJ	_	17	mark	_	_
+13	o	_	DET	DET	_	14	det	_	_
+14	1	_	NOUN	NOUN	_	17	nsubj:pass	_	_
+15	º	_	PUNCT	.	_	14	punct	_	_
+16	foi	_	AUX	AUX	_	17	aux:pass	_	_
+17	lançado	lançar	VERB	VERB	_	6	advcl	_	_
+18	em	_	ADP	ADP	_	21	case	_	_
+19	muitas	_	DET	DET	_	21	det	_	_
+20	outras	_	DET	DET	_	21	det	_	_
+21	plataformas	plataforma	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
+22	.	_	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s7027
+# text = A defesa do empresário afirmou ter ficado "perplexa" com o teor do documento, divulgado pela revista Carta Capital.
+1	A	_	DET	DET	_	2	det	_	_
+2	defesa	_	NOUN	NOUN	_	6	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	empresário	empresário	NOUN	NOUN	_	2	nmod	_	_
+6	afirmou	afirmar	VERB	VERB	_	0	root	_	_
+7	ter	ter	AUX	AUX	_	8	aux	_	_
+8	ficado	ficar	VERB	VERB	_	6	xcomp	_	_
+9	"	_	PUNCT	.	_	10	punct	_	SpaceAfter=No
+10	perplexa	perplexo	ADJ	ADJ	_	8	xcomp:adj	_	SpaceAfter=No
+11	"	_	PUNCT	.	_	10	punct	_	_
+12	com	_	ADP	ADP	_	14	case	_	_
+13	o	_	DET	DET	_	14	det	_	_
+14	teor	teor	NOUN	NOUN	_	10	nmod	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	documento	documento	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
+18	,	_	PUNCT	.	_	19	punct	_	_
+19	divulgado	divulgar	VERB	VERB	_	17	acl:part	_	_
+20-21	pela	_	_	_	_	_	_	_	_
+20	por	por	ADP	ADP	_	22	case	_	_
+21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	revista	revista	NOUN	NOUN	_	19	nmod	_	_
+23	Carta	_	PROPN	PNOUN	_	22	appos	_	_
+24	Capital	_	PROPN	PNOUN	_	23	flat	_	SpaceAfter=No
+25	.	_	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s7028
+# text = "Por meio de conversas intimistas, espero proporcionar um maior conhecimento sobre essa figura transcendente", acrescentou Scorsese.
+1	"	_	PUNCT	.	_	8	punct	_	SpaceAfter=No
+2	Por	_	ADP	ADP	_	3	case	_	_
+3	meio	meio	NOUN	NOUN	_	8	nmod	_	_
+4	de	_	ADP	ADP	_	5	case	_	_
+5	conversas	_	NOUN	NOUN	_	3	nmod	_	_
+6	intimistas	intimista	ADJ	ADJ	_	5	amod	_	SpaceAfter=No
+7	,	_	PUNCT	.	_	3	punct	_	_
+8	espero	esperar	VERB	VERB	_	19	ccomp	_	_
+9	proporcionar	proporcionar	VERB	VERB	_	8	xcomp	_	_
+10	um	_	DET	DET	_	12	det	_	_
+11	maior	maior	ADJ	ADJ	_	12	amod	_	_
+12	conhecimento	conhecimento	NOUN	NOUN	_	9	obj	_	_
+13	sobre	_	ADP	ADP	_	15	case	_	_
+14	essa	_	DET	DET	_	15	det	_	_
+15	figura	figura	NOUN	NOUN	_	12	nmod	_	_
+16	transcendente	transcendente	ADJ	ADJ	_	15	amod	_	SpaceAfter=No
+17	"	_	PUNCT	.	_	8	punct	_	SpaceAfter=No
+18	,	_	PUNCT	.	_	19	punct	_	_
+19	acrescentou	acrescentar	VERB	VERB	_	0	root	_	_
+20	Scorsese	_	PROPN	PNOUN	_	19	nsubj	_	SpaceAfter=No
+21	.	_	PUNCT	.	_	19	punct	_	_
+
+# sent_id = train-s7029
+# text = No início dessa semana, fotos postadas pelo Instagram deixaram de ser integradas aos tweets, o que desagradou vários internautas.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	ADP	_	3	case	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	início	início	NOUN	NOUN	_	15	nmod	_	_
+4	dessa	_	ADP	ADP	_	5	case	_	_
+5	semana	semana	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
+6	,	_	PUNCT	.	_	3	punct	_	_
+7	fotos	foto	NOUN	NOUN	_	15	nsubj	_	_
+8	postadas	postar	VERB	VERB	_	7	acl:part	_	_
+9-10	pelo	_	_	_	_	_	_	_	_
+9	por	por	ADP	ADP	_	11	case	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Instagram	_	PROPN	PNOUN	_	8	nmod	_	_
+12	deixaram	deixar	AUX	AUX	_	15	aux	_	_
+13	de	_	ADP	ADP	_	15	mark	_	_
+14	ser	ser	AUX	AUX	_	15	aux:pass	_	_
+15	integradas	integrar	VERB	VERB	_	0	root	_	_
+16-17	aos	_	_	_	_	_	_	_	_
+16	a	a	ADP	ADP	_	18	case	_	_
+17	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	tweets	_	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
+19	,	_	PUNCT	.	_	22	punct	_	_
+20	o	_	DET	DET	_	21	det	_	_
+21	que	_	PRON	PRON	_	22	nsubj	_	_
+22	desagradou	desagradar	VERB	VERB	_	15	parataxis	_	_
+23	vários	_	DET	DET	_	24	det	_	_
+24	internautas	internauta	NOUN	NOUN	_	22	obj	_	SpaceAfter=No
+25	.	_	PUNCT	.	_	15	punct	_	_
+
+# sent_id = train-s7030
+# text = Jogador caro, de passagem por times grandes.
+1	Jogador	jogador	NOUN	NOUN	_	0	root	_	_
+2	caro	caro	ADJ	ADJ	_	1	amod	_	SpaceAfter=No
+3	,	_	PUNCT	.	_	5	punct	_	_
+4	de	_	ADP	ADP	_	5	case	_	_
+5	passagem	passagem	NOUN	NOUN	_	1	nmod	_	_
+6	por	_	ADP	ADP	_	7	case	_	_
+7	times	time	NOUN	NOUN	_	5	nmod	_	_
+8	grandes	grande	ADJ	ADJ	_	7	amod	_	SpaceAfter=No
+9	.	_	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s7031
+# text = A guerra ocorreu no nordeste asiático, agravou - se, e o regime político do czar Nicolau II da Rússia foi abalado por uma série de revoltas internas em 1905, envolvendo operários, camponeses, marinheiros (como a revolta no couraçado Potemkin) e soldados do exército.
+1	A	_	DET	DET	_	2	det	_	_
+2	guerra	guerra	NOUN	NOUN	_	3	nsubj	_	_
+3	ocorreu	ocorrer	VERB	VERB	_	0	root	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	nordeste	nordeste	NOUN	NOUN	_	3	nmod	_	_
+7	asiático	asiático	ADJ	ADJ	_	6	amod	_	SpaceAfter=No
+8	,	_	PUNCT	.	_	9	punct	_	_
+9	agravou	agravar	VERB	VERB	_	3	conj	_	_
+10	-	_	PUNCT	.	_	9	punct	_	_
+11	se	_	PART	PRT	_	9	expl:pv	_	SpaceAfter=No
+12	,	_	PUNCT	.	_	26	punct	_	_
+13	e	_	CCONJ	CONJ	_	26	cc	_	_
+14	o	_	DET	DET	_	15	det	_	_
+15	regime	regime	NOUN	NOUN	_	26	nsubj:pass	_	_
+16	político	político	ADJ	ADJ	_	15	amod	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	ADP	_	19	case	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	czar	czar	NOUN	NOUN	_	15	nmod	_	_
+20	Nicolau	_	PROPN	PNOUN	_	19	appos	_	_
+21	II	_	PROPN	PNOUN	_	20	amod	_	_
+22-23	da	_	_	_	_	_	_	_	_
+22	de	de	ADP	ADP	_	24	case	_	_
+23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Rússia	_	PROPN	PNOUN	_	20	nmod	_	_
+25	foi	_	AUX	AUX	_	26	aux:pass	_	_
+26	abalado	abalar	VERB	VERB	_	3	conj	_	_
+27	por	_	ADP	ADP	_	29	case	_	_
+28	uma	_	DET	DET	_	29	det	_	_
+29	série	série	NOUN	NOUN	_	26	nmod	_	_
+30	de	_	ADP	ADP	_	31	case	_	_
+31	revoltas	_	NOUN	NOUN	_	29	nmod	_	_
+32	internas	interno	ADJ	ADJ	_	31	amod	_	_
+33	em	_	ADP	ADP	_	34	case	_	_
+34	1905	_	NUM	NUM	NumType=Card	29	nmod	_	SpaceAfter=No
+35	,	_	PUNCT	.	_	36	punct	_	_
+36	envolvendo	envolver	VERB	VERB	_	29	acl:part	_	_
+37	operários	operário	NOUN	NOUN	_	36	obj	_	SpaceAfter=No
+38	,	_	PUNCT	.	_	39	punct	_	_
+39	camponeses	camponês	NOUN	NOUN	_	37	conj	_	SpaceAfter=No
+40	,	_	PUNCT	.	_	41	punct	_	_
+41	marinheiros	marinheiro	NOUN	NOUN	_	37	conj	_	_
+42	(	_	PUNCT	.	_	45	punct	_	SpaceAfter=No
+43	como	_	ADP	ADP	_	45	case	_	_
+44	a	_	DET	DET	_	45	det	_	_
+45	revolta	_	NOUN	NOUN	_	41	nmod	_	_
+46-47	no	_	_	_	_	_	_	_	_
+46	em	em	ADP	ADP	_	48	case	_	_
+47	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	couraçado	couraçado	NOUN	NOUN	_	45	nmod	_	_
+49	Potemkin	_	PROPN	PNOUN	_	48	appos	_	SpaceAfter=No
+50	)	_	PUNCT	.	_	45	punct	_	_
+51	e	_	CCONJ	CONJ	_	52	cc	_	_
+52	soldados	soldado	NOUN	NOUN	_	37	conj	_	_
+53-54	do	_	_	_	_	_	_	_	_
+53	de	de	ADP	ADP	_	55	case	_	_
+54	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
+55	exército	exército	NOUN	NOUN	_	52	nmod	_	SpaceAfter=No
+56	.	_	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s7032
+# text = Eloisa, mãe de Jaime, serve suco para eles.
+1	Eloisa	_	PROPN	PNOUN	_	7	nsubj	_	SpaceAfter=No
+2	,	_	PUNCT	.	_	3	punct	_	_
+3	mãe	mãe	NOUN	NOUN	_	1	appos	_	_
+4	de	_	ADP	ADP	_	5	case	_	_
+5	Jaime	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
+6	,	_	PUNCT	.	_	3	punct	_	_
+7	serve	servir	VERB	VERB	_	0	root	_	_
+8	suco	suco	NOUN	NOUN	_	7	obj	_	_
+9	para	_	ADP	ADP	_	10	case	_	_
+10	eles	_	PRON	PRON	_	7	nmod	_	SpaceAfter=No
+11	.	_	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s7033
+# text = Depois que as penas dos condenados forem fixadas, os ministros terão de redigir o acórdão em que serão resumidas as conclusões do caso.
+1	Depois	depois	ADV	ADV	_	9	mark	_	_
+2	que	_	CCONJ	CONJ	_	1	fixed	_	_
+3	as	_	DET	DET	_	4	det	_	_
+4	penas	_	NOUN	NOUN	_	9	nsubj:pass	_	_
+5-6	dos	_	_	_	_	_	_	_	_
+5	de	de	ADP	ADP	_	7	case	_	_
+6	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	condenados	condenado	NOUN	NOUN	_	4	nmod	_	_
+8	forem	_	AUX	AUX	_	9	aux:pass	_	_
+9	fixadas	fixar	VERB	VERB	_	15	advcl	_	SpaceAfter=No
+10	,	_	PUNCT	.	_	9	punct	_	_
+11	os	_	DET	DET	_	12	det	_	_
+12	ministros	ministro	NOUN	NOUN	_	15	nsubj	_	_
+13	terão	ter	AUX	AUX	_	15	aux	_	_
+14	de	_	ADP	ADP	_	15	mark	_	_
+15	redigir	redigir	VERB	VERB	_	0	root	_	_
+16	o	_	DET	DET	_	17	det	_	_
+17	acórdão	acórdão	NOUN	NOUN	_	15	obj	_	_
+18	em	_	ADP	ADP	_	19	case	_	_
+19	que	_	NOUN	NOUN	_	21	nmod	_	_
+20	serão	ser	AUX	AUX	_	21	aux:pass	_	_
+21	resumidas	resumir	VERB	VERB	_	17	acl:relcl	_	_
+22	as	_	DET	DET	_	23	det	_	_
+23	conclusões	conclusão	NOUN	NOUN	_	21	nsubj:pass	_	_
+24-25	do	_	_	_	_	_	_	_	_
+24	de	de	ADP	ADP	_	26	case	_	_
+25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	caso	caso	NOUN	NOUN	_	23	nmod	_	SpaceAfter=No
+27	.	_	PUNCT	.	_	15	punct	_	_
+
+# sent_id = train-s7034
+# text = A expressão está muito desgastada.
+1	A	_	DET	DET	_	2	det	_	_
+2	expressão	expressão	NOUN	NOUN	_	3	nsubj	_	_
+3	está	estar	VERB	VERB	_	0	root	_	_
+4	muito	muito	ADV	ADV	_	5	advmod	_	_
+5	desgastada	desgastado	ADJ	ADJ	_	3	xcomp:adj	_	SpaceAfter=No
+6	.	_	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s7035
+# text = A lei também amplia significativamente o limite máximo de renda de famílias pobres, para ter direito ao Medicaid -- o único seguro - saúde "socializado" existentes nos EUA (também existe um outro programa, o Medicare, que é dedicado apenas a pessoas idosas -- com mais de 65 anos).
+1	A	_	DET	DET	_	2	det	_	_
+2	lei	lei	NOUN	NOUN	_	4	nsubj	_	_
+3	também	também	ADV	ADV	_	4	advmod	_	_
+4	amplia	ampliar	VERB	VERB	_	0	root	_	_
+5	significativamente	significativamente	ADV	ADV	_	4	advmod	_	_
+6	o	_	DET	DET	_	7	det	_	_
+7	limite	limite	NOUN	NOUN	_	4	obj	_	_
+8	máximo	máximo	ADJ	ADJ	_	7	amod	_	_
+9	de	_	ADP	ADP	_	10	case	_	_
+10	renda	renda	NOUN	NOUN	_	7	nmod	_	_
+11	de	_	ADP	ADP	_	12	case	_	_
+12	famílias	família	NOUN	NOUN	_	10	nmod	_	_
+13	pobres	pobre	ADJ	ADJ	_	12	amod	_	SpaceAfter=No
+14	,	_	PUNCT	.	_	16	punct	_	_
+15	para	_	ADP	ADP	_	16	mark	_	_
+16	ter	ter	VERB	VERB	_	7	nmod	_	_
+17	direito	direito	NOUN	NOUN	_	16	obj	_	_
+18-19	ao	_	_	_	_	_	_	_	_
+18	a	a	ADP	ADP	_	20	case	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Medicaid	_	PROPN	PNOUN	_	17	nmod	_	_
+21	--	_	PUNCT	.	_	24	punct	_	_
+22	o	_	DET	DET	_	24	det	_	_
+23	único	único	ADJ	ADJ	_	24	amod	_	_
+24	seguro	seguro	NOUN	NOUN	_	20	appos	_	_
+25	-	_	PUNCT	.	_	24	punct	_	_
+26	saúde	saúde	NOUN	NOUN	_	24	flat	_	_
+27	"	_	PUNCT	.	_	28	punct	_	SpaceAfter=No
+28	socializado	socializado	ADJ	ADJ	_	24	amod	_	SpaceAfter=No
+29	"	_	PUNCT	.	_	28	punct	_	_
+30	existentes	existente	ADJ	ADJ	_	24	amod	_	_
+31-32	nos	_	_	_	_	_	_	_	_
+31	em	em	ADP	ADP	_	33	case	_	_
+32	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	EUA	_	PROPN	PNOUN	_	30	nmod	_	_
+34	(	_	PUNCT	.	_	36	punct	_	SpaceAfter=No
+35	também	também	ADV	ADV	_	36	advmod	_	_
+36	existe	existir	VERB	VERB	_	24	parataxis	_	_
+37	um	_	DET	DET	_	39	det	_	_
+38	outro	_	DET	DET	_	39	det	_	_
+39	programa	programa	NOUN	NOUN	_	36	nsubj	_	SpaceAfter=No
+40	,	_	PUNCT	.	_	42	punct	_	_
+41	o	_	DET	DET	_	42	det	_	_
+42	Medicare	_	PROPN	PNOUN	_	39	appos	_	SpaceAfter=No
+43	,	_	PUNCT	.	_	42	punct	_	_
+44	que	_	PRON	PRON	_	46	nsubj:pass	_	_
+45	é	ser	AUX	AUX	_	46	aux:pass	_	_
+46	dedicado	dedicar	VERB	VERB	_	39	acl:relcl	_	_
+47	apenas	apenas	ADV	ADV	_	46	advmod	_	_
+48	a	_	ADP	ADP	_	49	case	_	_
+49	pessoas	pessoa	NOUN	NOUN	_	46	nmod	_	_
+50	idosas	idoso	ADJ	ADJ	_	49	amod	_	_
+51	--	_	PUNCT	.	_	56	punct	_	_
+52	com	_	ADP	ADP	_	56	case	_	_
+53	mais	mais	ADV	ADV	_	55	advmod	_	_
+54	de	_	ADP	ADP	_	53	case	_	_
+55	65	_	NUM	NUM	NumType=Card	56	nummod	_	_
+56	anos	ano	NOUN	NOUN	_	49	nmod	_	SpaceAfter=No
+57	)	_	PUNCT	.	_	36	punct	_	SpaceAfter=No
+58	.	_	PUNCT	.	_	4	punct	_	_
+

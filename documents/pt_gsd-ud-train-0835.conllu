@@ -1,0 +1,233 @@
+# sent_id = train-s8290
+# text = Agora, eu nunca trabalhei com pressão.
+1	Agora	_	PART	PRT	_	5	dep	_	SpaceAfter=No
+2	,	_	PUNCT	.	_	1	punct	_	_
+3	eu	_	PRON	PRON	_	5	nsubj	_	_
+4	nunca	nunca	ADV	ADV	_	5	advmod	_	_
+5	trabalhei	trabalhar	VERB	VERB	_	0	root	_	_
+6	com	_	ADP	ADP	_	7	case	_	_
+7	pressão	pressão	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
+8	.	_	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s8291
+# text = A lição estava inscrita n'alma.
+1	A	_	DET	DET	_	2	det	_	_
+2	lição	lição	NOUN	NOUN	_	3	nsubj	_	_
+3	estava	estar	VERB	VERB	_	0	root	_	_
+4	inscrita	inscrito	ADJ	ADJ	_	3	xcomp:adj	_	_
+5	n'alma	_	ADP	ADP	_	4	nmod	_	SpaceAfter=No
+6	.	_	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s8292
+# text = O GBA possui uma ARM de 16,8 - MHz personalizada.
+1	O	_	DET	DET	_	2	det	_	_
+2	GBA	_	PROPN	PNOUN	_	3	nsubj	_	_
+3	possui	possuir	VERB	VERB	_	0	root	_	_
+4	uma	_	DET	DET	_	5	det	_	_
+5	ARM	_	PROPN	PNOUN	_	3	obj	_	_
+6	de	_	ADP	ADP	_	9	case	_	_
+7	16,8	_	NUM	NUM	NumType=Card	9	nummod	_	_
+8	-	_	PUNCT	.	_	9	punct	_	_
+9	MHz	_	PROPN	PNOUN	_	5	nmod	_	_
+10	personalizada	personalizado	ADJ	ADJ	_	5	amod	_	SpaceAfter=No
+11	.	_	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s8293
+# text = Os cursos primário e secundário foram realizados no Ginásio Pernambuco e no Colégio Félix.
+1	Os	_	DET	DET	_	2	det	_	_
+2	cursos	curso	NOUN	NOUN	_	7	nsubj:pass	_	_
+3	primário	primário	ADJ	ADJ	_	2	amod	_	_
+4	e	_	CCONJ	CONJ	_	5	cc	_	_
+5	secundário	secundário	ADJ	ADJ	_	3	conj	_	_
+6	foram	_	AUX	AUX	_	7	aux:pass	_	_
+7	realizados	realizar	VERB	VERB	_	0	root	_	_
+8-9	no	_	_	_	_	_	_	_	_
+8	em	em	ADP	ADP	_	10	case	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Ginásio	_	PROPN	PNOUN	_	7	nmod	_	_
+11	Pernambuco	_	PROPN	PNOUN	_	10	flat	_	_
+12	e	_	CCONJ	CONJ	_	15	cc	_	_
+13-14	no	_	_	_	_	_	_	_	_
+13	em	em	ADP	ADP	_	15	case	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Colégio	_	PROPN	PNOUN	_	10	conj	_	_
+16	Félix	_	PROPN	PNOUN	_	15	flat	_	SpaceAfter=No
+17	.	_	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s8294
+# text = Nesse sentido, investiu no palanque de Luiz Paulo Vellozo Lucas, na Capital, segunda maior vitrine política depois do governo do Estado, e se movimentou em favor da candidatura de Rodney Miranda (DEM) em Vila Velha, o maior colégio eleitoral do Estado.
+1	Nesse	_	ADP	ADP	_	2	case	_	_
+2	sentido	sentido	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
+3	,	_	PUNCT	.	_	2	punct	_	_
+4	investiu	investir	VERB	VERB	_	0	root	_	_
+5-6	no	_	_	_	_	_	_	_	_
+5	em	em	ADP	ADP	_	7	case	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	palanque	palanque	NOUN	NOUN	_	4	nmod	_	_
+8	de	_	ADP	ADP	_	9	case	_	_
+9	Luiz	_	PROPN	PNOUN	_	7	nmod	_	_
+10	Paulo	_	PROPN	PNOUN	_	9	flat	_	_
+11	Vellozo	_	PROPN	PNOUN	_	9	flat	_	_
+12	Lucas	_	PROPN	PNOUN	_	9	flat	_	SpaceAfter=No
+13	,	_	PUNCT	.	_	16	punct	_	_
+14-15	na	_	_	_	_	_	_	_	_
+14	em	em	ADP	ADP	_	16	case	_	_
+15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Capital	_	PROPN	PNOUN	_	4	nmod	_	SpaceAfter=No
+17	,	_	PUNCT	.	_	20	punct	_	_
+18	segunda	segundo	ADJ	ADJ	_	20	amod	_	_
+19	maior	maior	ADJ	ADJ	_	20	amod	_	_
+20	vitrine	vitrine	NOUN	NOUN	_	16	appos	_	_
+21	política	político	ADJ	ADJ	_	20	amod	_	_
+22	depois	depois	ADV	ADV	_	25	case	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	ADP	_	22	case	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+25	governo	governo	NOUN	NOUN	_	20	nmod	_	_
+26-27	do	_	_	_	_	_	_	_	_
+26	de	de	ADP	ADP	_	28	case	_	_
+27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	Estado	_	PROPN	PNOUN	_	25	nmod	_	SpaceAfter=No
+29	,	_	PUNCT	.	_	20	punct	_	_
+30	e	_	CCONJ	CONJ	_	32	cc	_	_
+31	se	_	PRON	PRON	_	32	obj	_	_
+32	movimentou	movimentar	VERB	VERB	_	4	conj	_	_
+33	em	_	ADP	ADP	_	34	case	_	_
+34	favor	favor	NOUN	NOUN	_	32	nmod	_	_
+35-36	da	_	_	_	_	_	_	_	_
+35	de	de	ADP	ADP	_	37	case	_	_
+36	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	candidatura	candidatura	NOUN	NOUN	_	34	nmod	_	_
+38	de	_	ADP	ADP	_	39	case	_	_
+39	Rodney	_	PROPN	PNOUN	_	37	nmod	_	_
+40	Miranda	_	PROPN	PNOUN	_	39	flat	_	_
+41	(	_	PUNCT	.	_	42	punct	_	SpaceAfter=No
+42	DEM	_	PROPN	PNOUN	_	39	appos	_	SpaceAfter=No
+43	)	_	PUNCT	.	_	42	punct	_	_
+44	em	_	ADP	ADP	_	45	case	_	_
+45	Vila	_	PROPN	PNOUN	_	37	nmod	_	_
+46	Velha	_	PROPN	PNOUN	_	45	amod	_	SpaceAfter=No
+47	,	_	PUNCT	.	_	50	punct	_	_
+48	o	_	DET	DET	_	50	det	_	_
+49	maior	maior	ADJ	ADJ	_	50	amod	_	_
+50	colégio	colégio	NOUN	NOUN	_	45	appos	_	_
+51	eleitoral	eleitoral	ADJ	ADJ	_	50	amod	_	_
+52-53	do	_	_	_	_	_	_	_	_
+52	de	de	ADP	ADP	_	54	case	_	_
+53	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	Estado	_	PROPN	PNOUN	_	50	nmod	_	SpaceAfter=No
+55	.	_	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s8295
+# text = -- Vamos estudar como o Vitória atua fora de casa, para neutralizar o mais rápido possível os pontos fortes deles.
+1	--	_	PUNCT	.	_	3	punct	_	_
+2	Vamos	ir	AUX	AUX	_	3	aux	_	_
+3	estudar	estudar	VERB	VERB	_	0	root	_	_
+4	como	como	ADV	ADV	_	7	advmod	_	_
+5	o	_	DET	DET	_	6	det	_	_
+6	Vitória	_	PROPN	PNOUN	_	7	nsubj	_	_
+7	atua	_	ADP	ADP	_	3	ccomp	_	_
+8	fora	fora	ADV	ADV	_	7	advmod	_	_
+9	de	_	ADP	ADP	_	10	case	_	_
+10	casa	casa	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
+11	,	_	PUNCT	.	_	13	punct	_	_
+12	para	_	ADP	ADP	_	13	mark	_	_
+13	neutralizar	neutralizar	VERB	VERB	_	3	advcl	_	_
+14	o	_	DET	DET	_	16	advmod	_	_
+15	mais	mais	ADV	ADV	_	14	fixed	_	_
+16	rápido	rápido	ADV	ADV	_	13	advmod	_	_
+17	possível	possível	ADJ	ADJ	_	14	fixed	_	_
+18	os	_	DET	DET	_	19	det	_	_
+19	pontos	ponto	NOUN	NOUN	_	13	obj	_	_
+20	fortes	forte	ADJ	ADJ	_	19	amod	_	_
+21	deles	_	X	ADPPRON	_	19	det:poss	_	SpaceAfter=No
+22	.	_	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s8296
+# text = Goebbels escreveu em seu diário, em junho de 1943 que "Speer permanece no topo da lista do Führer.
+1	Goebbels	_	PROPN	PNOUN	_	2	nsubj	_	_
+2	escreveu	escrever	VERB	VERB	_	0	root	_	_
+3	em	_	ADP	ADP	_	5	case	_	_
+4	seu	_	DET	DET	_	5	det:poss	_	_
+5	diário	diário	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
+6	,	_	PUNCT	.	_	8	punct	_	_
+7	em	_	ADP	ADP	_	8	case	_	_
+8	junho	_	PROPN	PNOUN	_	2	nmod	_	_
+9	de	_	ADP	ADP	_	10	case	_	_
+10	1943	_	NUM	NUM	NumType=Card	8	nmod	_	_
+11	que	_	CCONJ	CONJ	_	14	mark	_	_
+12	"	_	PUNCT	.	_	14	punct	_	SpaceAfter=No
+13	Speer	_	PROPN	PNOUN	_	14	nsubj	_	_
+14	permanece	permanecer	VERB	VERB	_	2	ccomp	_	_
+15-16	no	_	_	_	_	_	_	_	_
+15	em	em	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	topo	topo	NOUN	NOUN	_	14	nmod	_	_
+18-19	da	_	_	_	_	_	_	_	_
+18	de	de	ADP	ADP	_	20	case	_	_
+19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	lista	lista	NOUN	NOUN	_	17	nmod	_	_
+21-22	do	_	_	_	_	_	_	_	_
+21	de	de	ADP	ADP	_	23	case	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Führer	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
+24	.	_	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s8297
+# text = A estimativa é de que o valor bruto da produção caia 11,6 % e fique em R $ 9,3 bilhões.
+1	A	_	DET	DET	_	2	det	_	_
+2	estimativa	_	NOUN	NOUN	_	3	nsubj	_	_
+3	é	ser	VERB	VERB	_	0	root	_	_
+4	de	_	ADP	ADP	_	12	mark	_	_
+5	que	_	CCONJ	CONJ	_	12	mark	_	_
+6	o	_	DET	DET	_	7	det	_	_
+7	valor	valor	NOUN	NOUN	_	12	nsubj	_	_
+8	bruto	bruto	ADJ	ADJ	_	7	amod	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	ADP	_	11	case	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	produção	produção	NOUN	NOUN	_	7	nmod	_	_
+12	caia	_	VERB	VERB	_	3	nmod	_	_
+13	11,6	_	NUM	NUM	NumType=Card	14	nummod	_	_
+14	%	_	SYM	SYM	_	12	nmod	_	_
+15	e	_	CCONJ	CONJ	_	16	cc	_	_
+16	fique	ficar	VERB	VERB	_	12	conj	_	_
+17	em	_	ADP	ADP	_	18	case	_	_
+18	R	r	NOUN	NOUN	_	16	nmod	_	_
+19	$	_	SYM	SYM	_	18	flat	_	_
+20	9,3	_	NUM	NUM	NumType=Card	21	nummod	_	_
+21	bilhões	_	NUM	NUM	NumType=Card	18	nummod	_	SpaceAfter=No
+22	.	_	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s8298
+# text = Ainda é absurdo, mas conseguimos avançar.
+1	Ainda	ainda	ADV	ADV	_	2	advmod	_	_
+2	é	ser	VERB	VERB	_	0	root	_	_
+3	absurdo	absurdo	ADJ	ADJ	_	2	xcomp:adj	_	SpaceAfter=No
+4	,	_	PUNCT	.	_	6	punct	_	_
+5	mas	_	CCONJ	CONJ	_	6	cc	_	_
+6	conseguimos	conseguir	VERB	VERB	_	2	conj	_	_
+7	avançar	avançar	VERB	VERB	_	6	xcomp	_	SpaceAfter=No
+8	.	_	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s8299
+# text = Clinicamente, ele notou que Cafu não daria certo na cabeça - de - área.
+1	Clinicamente	clinicamente	ADV	ADV	_	4	advmod	_	SpaceAfter=No
+2	,	_	PUNCT	.	_	1	punct	_	_
+3	ele	_	PRON	PRON	_	4	nsubj	_	_
+4	notou	notar	VERB	VERB	_	0	root	_	_
+5	que	_	CCONJ	CONJ	_	8	mark	_	_
+6	Cafu	_	PROPN	PNOUN	_	8	nsubj	_	_
+7	não	não	ADV	ADV	Polarity=Neg	8	advmod	_	_
+8	daria	dar	VERB	VERB	_	4	ccomp	_	_
+9	certo	certo	ADV	ADV	_	8	advmod	_	_
+10-11	na	_	_	_	_	_	_	_	_
+10	em	em	ADP	ADP	_	12	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	cabeça	cabeça	NOUN	NOUN	_	8	nmod	_	_
+13	-	_	PUNCT	.	_	12	punct	_	_
+14	de	_	ADP	ADP	_	16	case	_	_
+15	-	_	PUNCT	.	_	16	punct	_	_
+16	área	área	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
+17	.	_	PUNCT	.	_	4	punct	_	_
+

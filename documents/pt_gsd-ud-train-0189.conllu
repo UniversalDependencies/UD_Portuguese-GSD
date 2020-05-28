@@ -1,0 +1,277 @@
+# sent_id = train-s1876
+# text = O concorrente mais próximo foi Marcos Daneluz, do PT, com 64.211 votos, equivalentes a 26,69 % do total.
+1	O	_	DET	DET	_	2	det	_	_
+2	concorrente	concorrente	NOUN	NOUN	_	6	nsubj	_	_
+3	mais	mais	ADV	ADV	_	4	advmod	_	_
+4	próximo	próximo	ADJ	ADJ	_	2	amod	_	_
+5	foi	_	AUX	AUX	_	6	cop	_	_
+6	Marcos	_	PROPN	PNOUN	_	0	root	_	_
+7	Daneluz	_	PROPN	PNOUN	_	6	flat	_	SpaceAfter=No
+8	,	_	PUNCT	.	_	11	punct	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	ADP	_	11	case	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	PT	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
+12	,	_	PUNCT	.	_	11	punct	_	_
+13	com	_	ADP	ADP	_	15	case	_	_
+14	64.211	_	NUM	NUM	NumType=Card	15	nummod	_	_
+15	votos	voto	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
+16	,	_	PUNCT	.	_	17	punct	_	_
+17	equivalentes	equivalente	ADJ	ADJ	_	15	amod	_	_
+18	a	_	ADP	ADP	_	20	case	_	_
+19	26,69	_	NUM	NUM	NumType=Card	20	nummod	_	_
+20	%	_	SYM	SYM	_	17	nmod	_	_
+21-22	do	_	_	_	_	_	_	_	_
+21	de	de	ADP	ADP	_	23	case	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	total	total	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
+24	.	_	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s1877
+# text = Em entrevista conduzida no início do mês passado, o técnico declarou "amar" seu jogador, mas admitiu que ele precisava mudar seu comportamento:
+1	Em	_	ADP	ADP	_	2	case	_	_
+2	entrevista	entrevista	NOUN	NOUN	_	14	nmod	_	_
+3	conduzida	conduzir	VERB	VERB	_	2	acl:part	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	início	início	NOUN	NOUN	_	3	nmod	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	mês	mês	NOUN	NOUN	_	6	nmod	_	_
+10	passado	passado	ADJ	ADJ	_	9	amod	_	SpaceAfter=No
+11	,	_	PUNCT	.	_	2	punct	_	_
+12	o	_	DET	DET	_	13	det	_	_
+13	técnico	técnico	NOUN	NOUN	_	14	nsubj	_	_
+14	declarou	declarar	VERB	VERB	_	0	root	_	_
+15	"	_	PUNCT	.	_	16	punct	_	SpaceAfter=No
+16	amar	amar	VERB	VERB	_	14	xcomp	_	SpaceAfter=No
+17	"	_	PUNCT	.	_	16	punct	_	_
+18	seu	_	DET	DET	_	19	det:poss	_	_
+19	jogador	jogador	NOUN	NOUN	_	16	obj	_	SpaceAfter=No
+20	,	_	PUNCT	.	_	22	punct	_	_
+21	mas	_	CCONJ	CONJ	_	22	cc	_	_
+22	admitiu	admitir	VERB	VERB	_	14	conj	_	_
+23	que	_	CCONJ	CONJ	_	25	mark	_	_
+24	ele	_	PRON	PRON	_	25	nsubj	_	_
+25	precisava	precisar	VERB	VERB	_	22	ccomp	_	_
+26	mudar	mudar	VERB	VERB	_	25	xcomp	_	_
+27	seu	_	DET	DET	_	28	det:poss	_	_
+28	comportamento	comportamento	NOUN	NOUN	_	26	obj	_	SpaceAfter=No
+29	:	_	PUNCT	.	_	14	punct	_	_
+
+# sent_id = train-s1878
+# text = Tão logo acabou o jogo que deu o segundo título olímpico ao Brasil, a líbero Fabi foi flagrada pela câmera oficial muito emocionada, botou o dedo nos lábios e soltou um "cala a boca".
+1	Tão	tão	ADV	ADV	_	3	mark	_	_
+2	logo	logo	ADV	ADV	_	1	fixed	_	_
+3	acabou	acabar	VERB	VERB	_	20	advcl	_	_
+4	o	_	DET	DET	_	5	det	_	_
+5	jogo	jogo	NOUN	NOUN	_	3	nsubj	_	_
+6	que	_	PRON	PRON	_	7	nsubj	_	_
+7	deu	dar	VERB	VERB	_	5	acl:relcl	_	_
+8	o	_	DET	DET	_	10	det	_	_
+9	segundo	segundo	ADJ	ADJ	_	10	amod	_	_
+10	título	título	NOUN	NOUN	_	7	obj	_	_
+11	olímpico	olímpico	ADJ	ADJ	_	10	amod	_	_
+12-13	ao	_	_	_	_	_	_	_	_
+12	a	a	ADP	ADP	_	14	case	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Brasil	_	PROPN	PNOUN	_	7	iobj	_	SpaceAfter=No
+15	,	_	PUNCT	.	_	3	punct	_	_
+16	a	_	DET	DET	_	17	det	_	_
+17	líbero	líbero	NOUN	NOUN	_	20	nsubj:pass	_	_
+18	Fabi	_	PROPN	PNOUN	_	17	appos	_	_
+19	foi	_	AUX	AUX	_	20	aux:pass	_	_
+20	flagrada	flagrar	VERB	VERB	_	0	root	_	_
+21-22	pela	_	_	_	_	_	_	_	_
+21	por	por	ADP	ADP	_	23	case	_	_
+22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	câmera	câmera	NOUN	NOUN	_	20	nmod	_	_
+24	oficial	oficial	ADJ	ADJ	_	23	amod	_	_
+25	muito	muito	ADV	ADV	_	26	advmod	_	_
+26	emocionada	emocionado	ADJ	ADJ	_	17	amod	_	SpaceAfter=No
+27	,	_	PUNCT	.	_	28	punct	_	_
+28	botou	botar	VERB	VERB	_	20	conj	_	_
+29	o	_	DET	DET	_	30	det	_	_
+30	dedo	dedo	NOUN	NOUN	_	28	obj	_	_
+31-32	nos	_	_	_	_	_	_	_	_
+31	em	em	ADP	ADP	_	33	case	_	_
+32	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	lábios	lábio	NOUN	NOUN	_	28	nmod	_	_
+34	e	_	CCONJ	CONJ	_	35	cc	_	_
+35	soltou	soltar	VERB	VERB	_	28	conj	_	_
+36	um	_	DET	DET	_	38	dep	_	_
+37	"	_	PUNCT	.	_	38	punct	_	SpaceAfter=No
+38	cala	calar	VERB	VERB	_	35	ccomp	_	_
+39	a	_	DET	DET	_	40	det	_	_
+40	boca	boca	NOUN	NOUN	_	38	obj	_	SpaceAfter=No
+41	"	_	PUNCT	.	_	38	punct	_	SpaceAfter=No
+42	.	_	PUNCT	.	_	20	punct	_	_
+
+# sent_id = train-s1879
+# text = Ela estabelece um Estado independente baseado num sistema de democracia representativa e garante certos direitos fundamentais.
+1	Ela	_	PRON	PRON	_	2	nsubj	_	_
+2	estabelece	estabelecer	VERB	VERB	_	0	root	_	_
+3	um	_	DET	DET	_	4	det	_	_
+4	Estado	_	PROPN	PNOUN	_	2	obj	_	_
+5	independente	independente	ADJ	ADJ	_	4	amod	_	_
+6	baseado	basear	VERB	VERB	_	4	acl:part	_	_
+7	num	_	ADP	ADP	_	8	case	_	_
+8	sistema	sistema	NOUN	NOUN	_	6	nmod	_	_
+9	de	_	ADP	ADP	_	10	case	_	_
+10	democracia	democracia	NOUN	NOUN	_	8	nmod	_	_
+11	representativa	representativo	ADJ	ADJ	_	10	amod	_	_
+12	e	_	CCONJ	CONJ	_	13	cc	_	_
+13	garante	garantir	VERB	VERB	_	2	conj	_	_
+14	certos	_	DET	DET	_	15	det	_	_
+15	direitos	direito	NOUN	NOUN	_	13	obj	_	_
+16	fundamentais	fundamental	ADJ	ADJ	_	15	amod	_	SpaceAfter=No
+17	.	_	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s1880
+# text = Sapphire Styx é uma mutante das histórias de banda desenhada do Universo Marvel.
+1	Sapphire	_	PROPN	PNOUN	_	5	nsubj	_	_
+2	Styx	_	PROPN	PNOUN	_	1	flat	_	_
+3	é	ser	AUX	AUX	_	5	cop	_	_
+4	uma	_	DET	DET	_	5	det	_	_
+5	mutante	mutante	NOUN	NOUN	_	0	root	_	_
+6-7	das	_	_	_	_	_	_	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	histórias	história	NOUN	NOUN	_	5	nmod	_	_
+9	de	_	ADP	ADP	_	10	case	_	_
+10	banda	banda	NOUN	NOUN	_	8	nmod	_	_
+11	desenhada	desenhar	VERB	VERB	_	10	acl:part	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	ADP	_	14	case	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Universo	_	PROPN	PNOUN	_	8	nmod	_	_
+15	Marvel	_	PROPN	PNOUN	_	14	flat	_	SpaceAfter=No
+16	.	_	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s1881
+# text = Segundo informações da Polícia Rodoviária Estadual, Laudair José Botion dirigia um veículo Golf com placas de Maringá quando perdeu o controle do veículo e colidiu conta uma cerca.
+1	Segundo	_	ADP	ADP	_	2	case	_	_
+2	informações	informação	NOUN	NOUN	_	12	nmod	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Polícia	_	PROPN	PNOUN	_	2	nmod	_	_
+6	Rodoviária	_	PROPN	PNOUN	_	5	amod	_	_
+7	Estadual	_	PROPN	PNOUN	_	5	amod	_	SpaceAfter=No
+8	,	_	PUNCT	.	_	2	punct	_	_
+9	Laudair	_	PROPN	PNOUN	_	12	nsubj	_	_
+10	José	_	PROPN	PNOUN	_	9	flat	_	_
+11	Botion	_	PROPN	PNOUN	_	9	flat	_	_
+12	dirigia	dirigir	VERB	VERB	_	0	root	_	_
+13	um	_	DET	DET	_	14	det	_	_
+14	veículo	veículo	NOUN	NOUN	_	12	obj	_	_
+15	Golf	_	PROPN	PNOUN	_	14	appos	_	_
+16	com	_	ADP	ADP	_	17	case	_	_
+17	placas	placa	NOUN	NOUN	_	14	nmod	_	_
+18	de	_	ADP	ADP	_	19	case	_	_
+19	Maringá	_	PROPN	PNOUN	_	17	nmod	_	_
+20	quando	_	CCONJ	CONJ	_	21	mark	_	_
+21	perdeu	perder	VERB	VERB	_	12	advcl	_	_
+22	o	_	DET	DET	_	23	det	_	_
+23	controle	_	NOUN	NOUN	_	21	obj	_	_
+24-25	do	_	_	_	_	_	_	_	_
+24	de	de	ADP	ADP	_	26	case	_	_
+25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	veículo	veículo	NOUN	NOUN	_	23	nmod	_	_
+27	e	_	CCONJ	CONJ	_	28	cc	_	_
+28	colidiu	colidir	VERB	VERB	_	21	conj	_	_
+29	conta	_	ADP	ADP	_	31	case	_	_
+30	uma	_	DET	DET	_	31	det	_	_
+31	cerca	cerca	NOUN	NOUN	_	28	nmod	_	SpaceAfter=No
+32	.	_	PUNCT	.	_	12	punct	_	_
+
+# sent_id = train-s1882
+# text = Na porção exterior, porém, há hidrogênio neutro opaco a fótons ultravioleta, pois as temperaturas são mais baixas -- portanto a convecção é dominante.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	ADP	_	3	case	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	porção	porção	NOUN	NOUN	_	8	nmod	_	_
+4	exterior	exterior	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
+5	,	_	PUNCT	.	_	3	punct	_	_
+6	porém	_	ADV	ADV	_	8	advmod	_	SpaceAfter=No
+7	,	_	PUNCT	.	_	6	punct	_	_
+8	há	haver	VERB	VERB	_	0	root	_	_
+9	hidrogênio	hidrogênio	NOUN	NOUN	_	8	obj	_	_
+10	neutro	neutro	ADJ	ADJ	_	9	amod	_	_
+11	opaco	opaco	ADJ	ADJ	_	9	amod	_	_
+12	a	_	ADP	ADP	_	13	case	_	_
+13	fótons	fóton	NOUN	NOUN	_	11	nmod	_	_
+14	ultravioleta	ultravioleta	ADJ	ADJ	_	13	amod	_	SpaceAfter=No
+15	,	_	PUNCT	.	_	19	punct	_	_
+16	pois	_	CCONJ	CONJ	_	19	mark	_	_
+17	as	_	DET	DET	_	18	det	_	_
+18	temperaturas	temperatura	NOUN	NOUN	_	19	nsubj	_	_
+19	são	ser	VERB	VERB	_	8	advcl	_	_
+20	mais	mais	ADV	ADV	_	21	advmod	_	_
+21	baixas	baixo	ADJ	ADJ	_	19	xcomp:adj	_	_
+22	--	_	PUNCT	.	_	26	punct	_	_
+23	portanto	_	ADV	ADV	_	26	advmod	_	_
+24	a	_	DET	DET	_	25	det	_	_
+25	convecção	convecção	NOUN	NOUN	_	26	nsubj	_	_
+26	é	ser	VERB	VERB	_	19	conj	_	_
+27	dominante	dominante	ADJ	ADJ	_	26	xcomp:adj	_	SpaceAfter=No
+28	.	_	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s1883
+# text = O restante será o mesmo que derrotou o ASA.
+1	O	_	DET	DET	_	2	det	_	_
+2	restante	restante	NOUN	NOUN	_	5	nsubj	_	_
+3	será	ser	AUX	AUX	_	5	cop	_	_
+4	o	_	DET	DET	_	5	det	_	_
+5	mesmo	_	PRON	PRON	_	0	root	_	_
+6	que	_	PRON	PRON	_	7	nsubj	_	_
+7	derrotou	derrotar	VERB	VERB	_	5	acl:relcl	_	_
+8	o	_	DET	DET	_	9	det	_	_
+9	ASA	_	PROPN	PNOUN	_	7	obj	_	SpaceAfter=No
+10	.	_	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s1884
+# text = O Sistema Brasileiro de Televisão Digital Terrestre (SBTVD - T) foi implantado em 2006.
+1	O	_	DET	DET	_	2	det	_	_
+2	Sistema	_	PROPN	PNOUN	_	14	nsubj:pass	_	_
+3	Brasileiro	_	PROPN	PNOUN	_	2	amod	_	_
+4	de	_	ADP	ADP	_	5	case	_	_
+5	Televisão	_	PROPN	PNOUN	_	2	nmod	_	_
+6	Digital	_	PROPN	PNOUN	_	5	amod	_	_
+7	Terrestre	_	PROPN	PNOUN	_	5	amod	_	_
+8	(	_	PUNCT	.	_	9	punct	_	SpaceAfter=No
+9	SBTVD	_	PROPN	PNOUN	_	2	appos	_	_
+10	-	_	PUNCT	.	_	9	punct	_	_
+11	T	_	PROPN	PNOUN	_	9	flat	_	SpaceAfter=No
+12	)	_	PUNCT	.	_	9	punct	_	_
+13	foi	_	AUX	AUX	_	14	aux:pass	_	_
+14	implantado	implantar	VERB	VERB	_	0	root	_	_
+15	em	_	ADP	ADP	_	16	case	_	_
+16	2006	_	NUM	NUM	NumType=Card	14	nmod	_	SpaceAfter=No
+17	.	_	PUNCT	.	_	14	punct	_	_
+
+# sent_id = train-s1885
+# text = Representantes do governo estão reunidos neste momento para definir a estratégias de atuação do gabinete.
+1	Representantes	representante	NOUN	NOUN	_	5	nsubj	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	ADP	_	4	case	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	governo	governo	NOUN	NOUN	_	1	nmod	_	_
+5	estão	estar	VERB	VERB	_	0	root	_	_
+6	reunidos	reunido	ADJ	ADJ	_	5	xcomp:adj	_	_
+7	neste	_	ADP	ADP	_	8	case	_	_
+8	momento	momento	NOUN	NOUN	_	5	nmod	_	_
+9	para	_	ADP	ADP	_	10	mark	_	_
+10	definir	definir	VERB	VERB	_	5	advcl	_	_
+11	a	_	DET	DET	_	12	det	_	_
+12	estratégias	estratégia	NOUN	NOUN	_	10	obj	_	_
+13	de	_	ADP	ADP	_	14	case	_	_
+14	atuação	atuação	NOUN	NOUN	_	12	nmod	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	gabinete	gabinete	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
+18	.	_	PUNCT	.	_	5	punct	_	_
+

@@ -1,0 +1,239 @@
+# sent_id = train-s7446
+# text = Na segunda metade de 2008 retornou para o Brasil para defender o Atlético - PR.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	ADP	_	4	case	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	segunda	segundo	ADJ	ADJ	_	4	amod	_	_
+4	metade	metade	NOUN	NOUN	_	7	nmod	_	_
+5	de	_	ADP	ADP	_	6	case	_	_
+6	2008	_	NUM	NUM	NumType=Card	4	nmod	_	_
+7	retornou	retornar	VERB	VERB	_	0	root	_	_
+8	para	_	ADP	ADP	_	10	case	_	_
+9	o	_	DET	DET	_	10	det	_	_
+10	Brasil	_	PROPN	PNOUN	_	7	nmod	_	_
+11	para	_	ADP	ADP	_	12	mark	_	_
+12	defender	defender	VERB	VERB	_	7	advcl	_	_
+13	o	_	DET	DET	_	14	det	_	_
+14	Atlético	_	PROPN	PNOUN	_	12	obj	_	_
+15	-	_	PUNCT	.	_	14	punct	_	_
+16	PR	_	PROPN	PNOUN	_	14	flat	_	SpaceAfter=No
+17	.	_	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s7447
+# text = Em dezembro de 2011, seu projeto de longa - metragem "Dromedário do asfalto" recebeu do governo do Estado um prêmio de finalização de R $ 150 mil reais, viabilizando que o filme, rodado entre 2009 e 2010, seja lançado até o final de 2012.
+1	Em	_	ADP	ADP	_	2	case	_	_
+2	dezembro	_	PROPN	PNOUN	_	18	nmod	_	_
+3	de	_	ADP	ADP	_	4	case	_	_
+4	2011	_	NUM	NUM	NumType=Card	2	nmod	_	SpaceAfter=No
+5	,	_	PUNCT	.	_	2	punct	_	_
+6	seu	_	DET	DET	_	7	det:poss	_	_
+7	projeto	projeto	NOUN	NOUN	_	18	nsubj	_	_
+8	de	_	ADP	ADP	_	11	case	_	_
+9	longa	longo	ADJ	ADJ	_	11	amod	_	_
+10	-	_	PUNCT	.	_	11	punct	_	_
+11	metragem	metragem	NOUN	NOUN	_	7	nmod	_	_
+12	"	_	PUNCT	.	_	13	punct	_	SpaceAfter=No
+13	Dromedário	_	PROPN	PNOUN	_	7	appos	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	ADP	_	16	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	asfalto	asfalto	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
+17	"	_	PUNCT	.	_	13	punct	_	_
+18	recebeu	receber	VERB	VERB	_	0	root	_	_
+19-20	do	_	_	_	_	_	_	_	_
+19	de	de	ADP	ADP	_	21	case	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	governo	governo	NOUN	NOUN	_	18	nmod	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	ADP	_	24	case	_	_
+23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Estado	_	PROPN	PNOUN	_	21	nmod	_	_
+25	um	_	DET	DET	_	26	det	_	_
+26	prêmio	prêmio	NOUN	NOUN	_	18	obj	_	_
+27	de	_	ADP	ADP	_	28	case	_	_
+28	finalização	finalização	NOUN	NOUN	_	26	nmod	_	_
+29	de	_	ADP	ADP	_	30	case	_	_
+30	R	r	NOUN	NOUN	_	26	nmod	_	_
+31	$	_	SYM	SYM	_	30	flat	_	_
+32	150	_	NUM	NUM	NumType=Card	33	nummod	_	_
+33	mil	_	NUM	NUM	NumType=Card	30	nummod	_	_
+34	reais	real	NOUN	NOUN	_	30	appos	_	SpaceAfter=No
+35	,	_	PUNCT	.	_	36	punct	_	_
+36	viabilizando	viabilizar	VERB	VERB	_	18	acl:part	_	_
+37	que	_	CCONJ	CONJ	_	48	mark	_	_
+38	o	_	DET	DET	_	39	det	_	_
+39	filme	filme	NOUN	NOUN	_	48	nsubj:pass	_	SpaceAfter=No
+40	,	_	PUNCT	.	_	41	punct	_	_
+41	rodado	rodar	VERB	VERB	_	39	acl:part	_	_
+42	entre	_	ADP	ADP	_	43	case	_	_
+43	2009	_	NUM	NUM	NumType=Card	41	nmod	_	_
+44	e	_	CCONJ	CONJ	_	45	cc	_	_
+45	2010	_	NUM	NUM	NumType=Card	43	conj	_	SpaceAfter=No
+46	,	_	PUNCT	.	_	41	punct	_	_
+47	seja	ser	AUX	AUX	_	48	aux:pass	_	_
+48	lançado	lançar	VERB	VERB	_	36	ccomp	_	_
+49	até	_	ADP	ADP	_	51	case	_	_
+50	o	_	DET	DET	_	51	det	_	_
+51	final	final	NOUN	NOUN	_	48	nmod	_	_
+52	de	_	ADP	ADP	_	53	case	_	_
+53	2012	_	NUM	NUM	NumType=Card	51	nmod	_	SpaceAfter=No
+54	.	_	PUNCT	.	_	18	punct	_	_
+
+# sent_id = train-s7448
+# text = Seu mandato foi de 28 de janeiro de 1939 a 18 de outubro de 1941.
+1	Seu	_	DET	DET	_	2	det	_	_
+2	mandato	mandato	NOUN	NOUN	_	3	nsubj	_	_
+3	foi	_	VERB	VERB	_	0	root	_	_
+4	de	_	ADP	ADP	_	5	case	_	_
+5	28	_	NUM	NUM	NumType=Card	3	nmod	_	_
+6	de	_	ADP	ADP	_	7	case	_	_
+7	janeiro	_	PROPN	PNOUN	_	5	nmod	_	_
+8	de	_	ADP	ADP	_	9	case	_	_
+9	1939	_	NUM	NUM	NumType=Card	7	nmod	_	_
+10	a	_	ADP	ADP	_	11	case	_	_
+11	18	_	NUM	NUM	NumType=Card	3	nmod	_	_
+12	de	_	ADP	ADP	_	13	case	_	_
+13	outubro	_	PROPN	PNOUN	_	11	nmod	_	_
+14	de	_	ADP	ADP	_	15	case	_	_
+15	1941	_	NUM	NUM	NumType=Card	13	nmod	_	SpaceAfter=No
+16	.	_	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s7449
+# text = "Não há previsão de alta", completa o boletim.
+1	"	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
+2	Não	não	ADV	ADV	Polarity=Neg	3	advmod	_	_
+3	há	haver	VERB	VERB	_	9	ccomp	_	_
+4	previsão	previsão	NOUN	NOUN	_	3	obj	_	_
+5	de	_	ADP	ADP	_	6	case	_	_
+6	alta	_	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
+7	"	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
+8	,	_	PUNCT	.	_	9	punct	_	_
+9	completa	completar	VERB	VERB	_	0	root	_	_
+10	o	_	DET	DET	_	11	det	_	_
+11	boletim	boletim	NOUN	NOUN	_	9	nsubj	_	SpaceAfter=No
+12	.	_	PUNCT	.	_	9	punct	_	_
+
+# sent_id = train-s7450
+# text = Em entrevista ao Portal Infonet, o professor disse que cerca de 500 docentes são "fantasmas".
+1	Em	_	ADP	ADP	_	2	case	_	_
+2	entrevista	entrevista	NOUN	NOUN	_	10	nmod	_	_
+3-4	ao	_	_	_	_	_	_	_	_
+3	a	a	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Portal	_	PROPN	PNOUN	_	2	nmod	_	_
+6	Infonet	_	PROPN	PNOUN	_	5	flat	_	SpaceAfter=No
+7	,	_	PUNCT	.	_	2	punct	_	_
+8	o	_	DET	DET	_	9	det	_	_
+9	professor	professor	NOUN	NOUN	_	10	nsubj	_	_
+10	disse	dizer	VERB	VERB	_	0	root	_	_
+11	que	_	CCONJ	CONJ	_	18	mark	_	_
+12	cerca	cerca	ADV	ADV	_	14	advmod	_	_
+13	de	_	ADP	ADP	_	12	case	_	_
+14	500	_	NUM	NUM	NumType=Card	15	nummod	_	_
+15	docentes	docente	NOUN	NOUN	_	18	nsubj	_	_
+16	são	ser	AUX	AUX	_	18	cop	_	_
+17	"	_	PUNCT	.	_	18	punct	_	SpaceAfter=No
+18	fantasmas	fantasma	NOUN	NOUN	_	10	ccomp	_	SpaceAfter=No
+19	"	_	PUNCT	.	_	18	punct	_	SpaceAfter=No
+20	.	_	PUNCT	.	_	10	punct	_	_
+
+# sent_id = train-s7451
+# text = A mudança, embora permita sua utilização em smartphones mais poderosos e integrados com o computador, acabou tornando - o incompatível com os atuais aparelhos.
+1	A	_	DET	DET	_	2	det	_	_
+2	mudança	mudança	NOUN	NOUN	_	19	nsubj	_	SpaceAfter=No
+3	,	_	PUNCT	.	_	5	punct	_	_
+4	embora	_	CCONJ	CONJ	_	5	mark	_	_
+5	permita	permitir	VERB	VERB	_	19	advcl	_	_
+6	sua	_	DET	DET	_	7	det:poss	_	_
+7	utilização	utilização	NOUN	NOUN	_	5	obj	_	_
+8	em	_	ADP	ADP	_	9	case	_	_
+9	smartphones	_	NOUN	NOUN	_	7	nmod	_	_
+10	mais	mais	ADV	ADV	_	11	advmod	_	_
+11	poderosos	poderoso	ADJ	ADJ	_	9	amod	_	_
+12	e	_	CCONJ	CONJ	_	13	cc	_	_
+13	integrados	integrado	ADJ	ADJ	_	11	conj	_	_
+14	com	_	ADP	ADP	_	16	case	_	_
+15	o	_	DET	DET	_	16	det	_	_
+16	computador	computador	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
+17	,	_	PUNCT	.	_	5	punct	_	_
+18	acabou	acabar	AUX	AUX	_	19	aux	_	_
+19	tornando	tornar	VERB	VERB	_	0	root	_	_
+20	-	_	PUNCT	.	_	19	punct	_	_
+21	o	_	PRON	PRON	_	22	nsubj	_	_
+22	incompatível	incompatível	ADJ	ADJ	_	19	xcomp	_	_
+23	com	_	ADP	ADP	_	26	case	_	_
+24	os	_	DET	DET	_	26	det	_	_
+25	atuais	atual	ADJ	ADJ	_	26	amod	_	_
+26	aparelhos	aparelho	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
+27	.	_	PUNCT	.	_	19	punct	_	_
+
+# sent_id = train-s7452
+# text = Do saldo total, R $ 7,86 bilhões correspondem a créditos para pessoas físicas, e R $ 2,14 bilhões a operações com pessoas jurídicas.
+1-2	Do	_	_	_	_	_	_	_	_
+1	De	de	ADP	ADP	_	3	case	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	saldo	saldo	NOUN	NOUN	_	10	nmod	_	_
+4	total	total	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
+5	,	_	PUNCT	.	_	3	punct	_	_
+6	R	r	NOUN	NOUN	_	10	nsubj	_	_
+7	$	_	SYM	SYM	_	6	flat	_	_
+8	7,86	_	NUM	NUM	NumType=Card	9	nummod	_	_
+9	bilhões	_	NUM	NUM	NumType=Card	6	nummod	_	_
+10	correspondem	corresponder	VERB	VERB	_	0	root	_	_
+11	a	_	ADP	ADP	_	12	case	_	_
+12	créditos	crédito	NOUN	NOUN	_	10	nmod	_	_
+13	para	_	ADP	ADP	_	14	case	_	_
+14	pessoas	pessoa	NOUN	NOUN	_	12	nmod	_	_
+15	físicas	físico	ADJ	ADJ	_	14	amod	_	SpaceAfter=No
+16	,	_	PUNCT	.	_	18	punct	_	_
+17	e	_	CCONJ	CONJ	_	18	cc	_	_
+18	R	r	NOUN	NOUN	_	10	conj	_	_
+19	$	_	SYM	SYM	_	18	flat	_	_
+20	2,14	_	NUM	NUM	NumType=Card	21	nummod	_	_
+21	bilhões	_	NUM	NUM	NumType=Card	18	nummod	_	_
+22	a	_	ADP	ADP	_	23	case	_	_
+23	operações	operação	NOUN	NOUN	_	18	nmod	_	_
+24	com	_	ADP	ADP	_	25	case	_	_
+25	pessoas	pessoa	NOUN	NOUN	_	23	nmod	_	_
+26	jurídicas	jurídico	ADJ	ADJ	_	25	amod	_	SpaceAfter=No
+27	.	_	PUNCT	.	_	10	punct	_	_
+
+# sent_id = train-s7453
+# text = Untouchable ainda não tem previsão de lançamento no Brasil.
+1	Untouchable	_	PROPN	PNOUN	_	4	nsubj	_	_
+2	ainda	ainda	ADV	ADV	_	4	advmod	_	_
+3	não	não	ADV	ADV	Polarity=Neg	4	advmod	_	_
+4	tem	ter	VERB	VERB	_	0	root	_	_
+5	previsão	previsão	NOUN	NOUN	_	4	obj	_	_
+6	de	_	ADP	ADP	_	7	case	_	_
+7	lançamento	lançamento	NOUN	NOUN	_	5	nmod	_	_
+8-9	no	_	_	_	_	_	_	_	_
+8	em	em	ADP	ADP	_	10	case	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Brasil	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
+11	.	_	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s7454
+# text = Entre os longa, o vencedor foi o filme 'Colegas'
+1	Entre	_	ADP	ADP	_	3	case	_	_
+2	os	_	DET	DET	_	3	det	_	_
+3	longa	_	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
+4	,	_	PUNCT	.	_	3	punct	_	_
+5	o	_	DET	DET	_	6	det	_	_
+6	vencedor	_	NOUN	NOUN	_	9	nsubj	_	_
+7	foi	_	AUX	AUX	_	9	cop	_	_
+8	o	_	DET	DET	_	9	det	_	_
+9	filme	filme	NOUN	NOUN	_	0	root	_	_
+10	'	_	PUNCT	.	_	11	punct	_	SpaceAfter=No
+11	Colegas	_	PROPN	PNOUN	_	9	appos	_	SpaceAfter=No
+12	'	_	PUNCT	.	_	11	punct	_	_
+
+# sent_id = train-s7455
+# text = Os forasteiros ficaram apelidados emboabas.
+1	Os	_	DET	DET	_	2	det	_	_
+2	forasteiros	forasteiro	NOUN	NOUN	_	5	nsubj:pass	_	_
+3	ficaram	ficar	AUX	AUX	_	5	aux:pass	_	_
+4	apelidados	apelidar	AUX	AUX	_	5	cop	_	_
+5	emboabas	emboaba	NOUN	NOUN	_	0	root	_	SpaceAfter=No
+6	.	_	PUNCT	.	_	5	punct	_	_
+

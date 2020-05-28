@@ -1,0 +1,262 @@
+# sent_id = train-s2809
+# text = "O presidente tem sido capaz de unir gente de todos os tipos, de todas as partes do país, de todas as raças, algo que não temos visto os republicanos fazer com sua intolerância em tantos temas sociais", disse Sandra Powell, uma delegada do Kentucky de origem venezuelana.
+1	"	_	PUNCT	.	_	5	punct	_	SpaceAfter=No
+2	O	_	DET	DET	_	3	det	_	_
+3	presidente	presidente	NOUN	NOUN	_	5	nsubj	_	_
+4	tem	ter	AUX	AUX	_	5	aux	_	_
+5	sido	ser	VERB	VERB	_	45	ccomp	_	_
+6	capaz	capaz	ADJ	ADJ	_	5	xcomp:adj	_	_
+7	de	_	ADP	ADP	_	8	mark	_	_
+8	unir	unir	VERB	VERB	_	6	nmod	_	_
+9	gente	gente	NOUN	NOUN	_	8	obj	_	_
+10	de	_	ADP	ADP	_	13	case	_	_
+11	todos	_	DET	DET	_	13	det	_	_
+12	os	_	DET	DET	_	13	det	_	_
+13	tipos	tipo	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
+14	,	_	PUNCT	.	_	18	punct	_	_
+15	de	_	ADP	ADP	_	18	case	_	_
+16	todas	_	DET	DET	_	18	det	_	_
+17	as	_	DET	DET	_	18	det	_	_
+18	partes	_	PROPN	PNOUN	_	13	conj	_	_
+19-20	do	_	_	_	_	_	_	_	_
+19	de	de	ADP	ADP	_	21	case	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	país	país	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
+22	,	_	PUNCT	.	_	26	punct	_	_
+23	de	_	ADP	ADP	_	26	case	_	_
+24	todas	_	DET	DET	_	26	det	_	_
+25	as	_	DET	DET	_	26	det	_	_
+26	raças	raça	NOUN	NOUN	_	13	conj	_	SpaceAfter=No
+27	,	_	PUNCT	.	_	28	punct	_	_
+28	algo	_	PRON	PRON	_	5	parataxis	_	_
+29	que	_	PRON	PRON	_	35	obj	_	_
+30	não	não	ADV	ADV	Polarity=Neg	32	advmod	_	_
+31	temos	ter	AUX	AUX	_	32	aux	_	_
+32	visto	_	VERB	VERB	_	28	acl:relcl	_	_
+33	os	_	DET	DET	_	34	det	_	_
+34	republicanos	republicano	NOUN	NOUN	_	32	obj	_	_
+35	fazer	fazer	VERB	VERB	_	34	acl:inf	_	_
+36	com	_	ADP	ADP	_	38	case	_	_
+37	sua	_	DET	DET	_	38	det:poss	_	_
+38	intolerância	intolerância	NOUN	NOUN	_	35	nmod	_	_
+39	em	_	ADP	ADP	_	41	case	_	_
+40	tantos	_	DET	DET	_	41	det	_	_
+41	temas	tema	NOUN	NOUN	_	38	nmod	_	_
+42	sociais	social	ADJ	ADJ	_	41	amod	_	SpaceAfter=No
+43	"	_	PUNCT	.	_	5	punct	_	SpaceAfter=No
+44	,	_	PUNCT	.	_	45	punct	_	_
+45	disse	dizer	VERB	VERB	_	0	root	_	_
+46	Sandra	_	PROPN	PNOUN	_	45	nsubj	_	_
+47	Powell	_	PROPN	PNOUN	_	46	flat	_	SpaceAfter=No
+48	,	_	PUNCT	.	_	50	punct	_	_
+49	uma	_	DET	DET	_	50	det	_	_
+50	delegada	delegado	NOUN	NOUN	_	46	appos	_	_
+51-52	do	_	_	_	_	_	_	_	_
+51	de	de	ADP	ADP	_	53	case	_	_
+52	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
+53	Kentucky	_	PROPN	PNOUN	_	50	nmod	_	_
+54	de	_	ADP	ADP	_	55	case	_	_
+55	origem	origem	NOUN	NOUN	_	50	nmod	_	_
+56	venezuelana	venezuelano	ADJ	ADJ	_	55	amod	_	SpaceAfter=No
+57	.	_	PUNCT	.	_	45	punct	_	_
+
+# sent_id = train-s2810
+# text = Segundo a tradição que tinha oito irmãs gémeas: Basília;
+1	Segundo	_	ADP	ADP	_	3	case	_	_
+2	a	_	DET	DET	_	3	det	_	_
+3	tradição	tradição	NOUN	NOUN	_	5	nmod	_	_
+4	que	_	PRON	PRON	_	5	dep	_	_
+5	tinha	ter	VERB	VERB	_	0	root	_	_
+6	oito	_	NUM	NUM	NumType=Card	7	nummod	_	_
+7	irmãs	irmão	NOUN	NOUN	_	5	obj	_	_
+8	gémeas	gémeo	ADJ	ADJ	_	7	amod	_	SpaceAfter=No
+9	:	_	PUNCT	.	_	7	punct	_	_
+10	Basília	_	PROPN	PNOUN	_	7	appos	_	SpaceAfter=No
+11	;	_	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s2811
+# text = O servidor alegou um mau funcionamento de hardware.
+1	O	_	DET	DET	_	2	det	_	_
+2	servidor	servidor	NOUN	NOUN	_	3	nsubj	_	_
+3	alegou	alegar	VERB	VERB	_	0	root	_	_
+4	um	_	DET	DET	_	6	det	_	_
+5	mau	mau	ADJ	ADJ	_	6	amod	_	_
+6	funcionamento	funcionamento	NOUN	NOUN	_	3	obj	_	_
+7	de	_	ADP	ADP	_	8	case	_	_
+8	hardware	hardware	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
+9	.	_	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s2812
+# text = Quem liderou foi a francesa Marie Marchand - Arvier.
+1	Quem	_	PRON	PRON	_	2	nsubj	_	_
+2	liderou	liderar	VERB	VERB	_	5	csubj	_	_
+3	foi	_	AUX	AUX	_	5	cop	_	_
+4	a	_	DET	DET	_	5	det	_	_
+5	francesa	francês	NOUN	NOUN	_	0	root	_	_
+6	Marie	_	PROPN	PNOUN	_	5	appos	_	_
+7	Marchand	_	PROPN	PNOUN	_	6	flat	_	_
+8	-	_	PUNCT	.	_	6	punct	_	_
+9	Arvier	_	PROPN	PNOUN	_	6	flat	_	SpaceAfter=No
+10	.	_	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s2813
+# text = Nessa pesquisa, mesmo que a pessoa escreva numa ortografia ou outra, se a pronúncia for a mesma, ela chegará à informação desejada.
+1	Nessa	_	ADP	ADP	_	2	case	_	_
+2	pesquisa	pesquisa	NOUN	NOUN	_	23	nmod	_	SpaceAfter=No
+3	,	_	PUNCT	.	_	2	punct	_	_
+4	mesmo	mesmo	ADV	ADV	_	8	mark	_	_
+5	que	_	CCONJ	CONJ	_	4	fixed	_	_
+6	a	_	DET	DET	_	7	det	_	_
+7	pessoa	pessoa	NOUN	NOUN	_	8	nsubj	_	_
+8	escreva	escrever	VERB	VERB	_	23	advcl	_	_
+9-10	numa	_	_	_	_	_	_	_	_
+9	em	_	ADP	ADP	_	11	case	_	_
+10	uma	_	DET	DET	_	11	det	_	_
+11	ortografia	ortografia	NOUN	NOUN	_	8	nmod	_	_
+12	ou	_	CCONJ	CONJ	_	13	cc	_	_
+13	outra	_	PRON	PRON	_	11	conj	_	SpaceAfter=No
+14	,	_	PUNCT	.	_	20	punct	_	_
+15	se	_	CCONJ	CONJ	_	20	mark	_	_
+16	a	_	DET	DET	_	17	det	_	_
+17	pronúncia	pronúncia	NOUN	NOUN	_	20	nsubj	_	_
+18	for	_	AUX	AUX	_	20	cop	_	_
+19	a	_	DET	DET	_	20	det	_	_
+20	mesma	_	PRON	PRON	_	23	advcl	_	SpaceAfter=No
+21	,	_	PUNCT	.	_	20	punct	_	_
+22	ela	_	PRON	PRON	_	23	nsubj	_	_
+23	chegará	chegar	VERB	VERB	_	0	root	_	_
+24-25	à	_	_	_	_	_	_	_	_
+24	a	a	ADP	ADP	_	26	case	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	informação	informação	NOUN	NOUN	_	23	nmod	_	_
+27	desejada	desejado	ADJ	ADJ	_	26	amod	_	SpaceAfter=No
+28	.	_	PUNCT	.	_	23	punct	_	_
+
+# sent_id = train-s2814
+# text = "Nós falamos de muitas coisas.
+1	"	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
+2	Nós	_	PRON	PRON	_	3	nsubj	_	_
+3	falamos	_	VERB	VERB	_	0	root	_	_
+4	de	_	ADP	ADP	_	6	case	_	_
+5	muitas	_	DET	DET	_	6	det	_	_
+6	coisas	coisa	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
+7	.	_	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s2815
+# text = O descumprimento da Norma pode gerar punição as empresas, como autos de infração e nas situações de risco grave e iminente de acidentes pode haver interdição.
+1	O	_	DET	DET	_	2	det	_	_
+2	descumprimento	descumprimento	NOUN	NOUN	_	7	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Norma	_	PROPN	PNOUN	_	2	nmod	_	_
+6	pode	_	AUX	AUX	_	7	aux	_	_
+7	gerar	gerar	VERB	VERB	_	0	root	_	_
+8	punição	punição	NOUN	NOUN	_	7	obj	_	_
+9	as	_	ADP	ADP	_	10	case	_	_
+10	empresas	empresa	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
+11	,	_	PUNCT	.	_	13	punct	_	_
+12	como	_	ADP	ADP	_	13	case	_	_
+13	autos	auto	NOUN	NOUN	_	8	nmod	_	_
+14	de	_	ADP	ADP	_	15	case	_	_
+15	infração	infração	NOUN	NOUN	_	13	nmod	_	_
+16	e	_	CCONJ	CONJ	_	28	cc	_	_
+17-18	nas	_	_	_	_	_	_	_	_
+17	em	em	ADP	ADP	_	19	case	_	_
+18	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	situações	situação	NOUN	NOUN	_	28	nmod	_	_
+20	de	_	ADP	ADP	_	21	case	_	_
+21	risco	risco	NOUN	NOUN	_	19	nmod	_	_
+22	grave	grave	ADJ	ADJ	_	21	amod	_	_
+23	e	_	CCONJ	CONJ	_	24	cc	_	_
+24	iminente	iminente	ADJ	ADJ	_	22	conj	_	_
+25	de	_	ADP	ADP	_	26	case	_	_
+26	acidentes	acidente	NOUN	NOUN	_	21	nmod	_	_
+27	pode	_	AUX	AUX	_	28	aux	_	_
+28	haver	haver	VERB	VERB	_	7	conj	_	_
+29	interdição	interdição	NOUN	NOUN	_	28	obj	_	SpaceAfter=No
+30	.	_	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s2816
+# text = Durante a liberação de Trento, Andreas Hofer foi recebido com júbilo pela população local.
+1	Durante	_	ADP	ADP	_	3	case	_	_
+2	a	_	DET	DET	_	3	det	_	_
+3	liberação	liberação	NOUN	NOUN	_	10	nmod	_	_
+4	de	_	ADP	ADP	_	5	case	_	_
+5	Trento	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
+6	,	_	PUNCT	.	_	3	punct	_	_
+7	Andreas	_	PROPN	PNOUN	_	10	nsubj:pass	_	_
+8	Hofer	_	PROPN	PNOUN	_	7	flat	_	_
+9	foi	_	AUX	AUX	_	10	aux:pass	_	_
+10	recebido	receber	VERB	VERB	_	0	root	_	_
+11	com	_	ADP	ADP	_	12	case	_	_
+12	júbilo	júbilo	NOUN	NOUN	_	10	nmod	_	_
+13-14	pela	_	_	_	_	_	_	_	_
+13	por	por	ADP	ADP	_	15	case	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	população	população	NOUN	NOUN	_	10	nmod	_	_
+16	local	local	ADJ	ADJ	_	15	amod	_	SpaceAfter=No
+17	.	_	PUNCT	.	_	10	punct	_	_
+
+# sent_id = train-s2817
+# text = A LG Electronics foi a primeira companhia a apresentar novos produtos para o ano corrente durante o pré - show da CES.
+1	A	_	DET	DET	_	2	det	_	_
+2	LG	_	PROPN	PNOUN	_	7	nsubj	_	_
+3	Electronics	_	PROPN	PNOUN	_	2	flat	_	_
+4	foi	_	AUX	AUX	_	7	cop	_	_
+5	a	_	DET	DET	_	7	det	_	_
+6	primeira	primeiro	ADJ	ADJ	_	7	amod	_	_
+7	companhia	companhia	NOUN	NOUN	_	0	root	_	_
+8	a	_	ADP	ADP	_	9	mark	_	_
+9	apresentar	apresentar	VERB	VERB	_	7	nmod	_	_
+10	novos	novo	ADJ	ADJ	_	11	amod	_	_
+11	produtos	produto	NOUN	NOUN	_	9	obj	_	_
+12	para	_	ADP	ADP	_	14	case	_	_
+13	o	_	DET	DET	_	14	det	_	_
+14	ano	ano	NOUN	NOUN	_	11	nmod	_	_
+15	corrente	corrente	ADJ	ADJ	_	14	amod	_	_
+16	durante	_	ADP	ADP	_	18	case	_	_
+17	o	_	DET	DET	_	18	det	_	_
+18	pré	_	PART	PRT	_	7	nmod	_	_
+19	-	_	PUNCT	.	_	18	punct	_	_
+20	show	show	NOUN	NOUN	_	18	flat	_	_
+21-22	da	_	_	_	_	_	_	_	_
+21	de	de	ADP	ADP	_	23	case	_	_
+22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	CES	_	PROPN	PNOUN	_	18	nmod	_	SpaceAfter=No
+24	.	_	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s2818
+# text = Comalcalco é uma cidade do México, localizada na região noroeste do estado de Tabasco e no sul do país.
+1	Comalcalco	_	PROPN	PNOUN	_	4	nsubj	_	_
+2	é	ser	AUX	AUX	_	4	cop	_	_
+3	uma	_	DET	DET	_	4	det	_	_
+4	cidade	cidade	NOUN	NOUN	_	0	root	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	ADP	_	7	case	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	México	_	PROPN	PNOUN	_	4	nmod	_	SpaceAfter=No
+8	,	_	PUNCT	.	_	9	punct	_	_
+9	localizada	localizar	VERB	VERB	_	4	acl:part	_	_
+10-11	na	_	_	_	_	_	_	_	_
+10	em	em	ADP	ADP	_	12	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	região	região	NOUN	NOUN	_	9	nmod	_	_
+13	noroeste	noroeste	ADJ	ADJ	_	12	amod	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	ADP	_	16	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	estado	estado	NOUN	NOUN	_	12	nmod	_	_
+17	de	_	ADP	ADP	_	18	case	_	_
+18	Tabasco	_	PROPN	PNOUN	_	16	nmod	_	_
+19	e	_	CCONJ	CONJ	_	22	cc	_	_
+20-21	no	_	_	_	_	_	_	_	_
+20	em	em	ADP	ADP	_	22	case	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	sul	sul	NOUN	NOUN	_	12	conj	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	ADP	_	25	case	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	país	país	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
+26	.	_	PUNCT	.	_	4	punct	_	_
+

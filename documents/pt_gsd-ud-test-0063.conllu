@@ -1,0 +1,257 @@
+# sent_id = test-s617
+# text = 1911 -- 4 de setembro -- O nascimento em Santa Fé, Província de Granada, Espanha.
+1	1911	_	NUM	NUM	NumType=Card	8	parataxis	_	_
+2	--	_	PUNCT	.	_	3	punct	_	_
+3	4	_	NUM	NUM	NumType=Card	1	nmod	_	_
+4	de	_	ADP	ADP	_	5	case	_	_
+5	setembro	_	PROPN	PNOUN	_	3	nmod	_	_
+6	--	_	PUNCT	.	_	8	punct	_	_
+7	O	_	DET	DET	_	8	det	_	_
+8	nascimento	nascimento	NOUN	NOUN	_	0	root	_	_
+9	em	_	ADP	ADP	_	11	case	_	_
+10	Santa	_	PROPN	PNOUN	_	11	amod	_	_
+11	Fé	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
+12	,	_	PUNCT	.	_	13	punct	_	_
+13	Província	_	PROPN	PNOUN	_	11	appos	_	_
+14	de	_	ADP	ADP	_	15	case	_	_
+15	Granada	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
+16	,	_	PUNCT	.	_	17	punct	_	_
+17	Espanha	_	PROPN	PNOUN	_	13	appos	_	SpaceAfter=No
+18	.	_	PUNCT	.	_	8	punct	_	_
+
+# sent_id = test-s618
+# text = A Faculdade Impacta, referência em cursos de graduação, pós - graduação e MBA nas áreas de TI, Gestão, Marketing Digital e Design, anuncia abertura de inscrições para novo processo seletivo 2013.
+1	A	_	DET	DET	_	2	det	_	_
+2	Faculdade	_	PROPN	PNOUN	_	29	nsubj	_	_
+3	Impacta	_	PROPN	PNOUN	_	2	flat	_	SpaceAfter=No
+4	,	_	PUNCT	.	_	5	punct	_	_
+5	referência	referência	NOUN	NOUN	_	2	appos	_	_
+6	em	_	ADP	ADP	_	7	case	_	_
+7	cursos	curso	NOUN	NOUN	_	5	nmod	_	_
+8	de	_	ADP	ADP	_	9	case	_	_
+9	graduação	graduação	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
+10	,	_	PUNCT	.	_	11	punct	_	_
+11	pós	_	PART	PRT	_	9	conj	_	_
+12	-	_	PUNCT	.	_	11	punct	_	_
+13	graduação	graduação	NOUN	NOUN	_	11	flat	_	_
+14	e	_	CCONJ	CONJ	_	15	cc	_	_
+15	MBA	_	PROPN	PNOUN	_	9	conj	_	_
+16-17	nas	_	_	_	_	_	_	_	_
+16	em	em	ADP	ADP	_	18	case	_	_
+17	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	áreas	área	NOUN	NOUN	_	7	nmod	_	_
+19	de	_	ADP	ADP	_	20	case	_	_
+20	TI	_	PROPN	PNOUN	_	18	nmod	_	SpaceAfter=No
+21	,	_	PUNCT	.	_	22	punct	_	_
+22	Gestão	_	PROPN	PNOUN	_	20	conj	_	SpaceAfter=No
+23	,	_	PUNCT	.	_	24	punct	_	_
+24	Marketing	_	PROPN	PNOUN	_	20	conj	_	_
+25	Digital	_	PROPN	PNOUN	_	24	amod	_	_
+26	e	_	CCONJ	CONJ	_	27	cc	_	_
+27	Design	_	PROPN	PNOUN	_	20	conj	_	SpaceAfter=No
+28	,	_	PUNCT	.	_	5	punct	_	_
+29	anuncia	anunciar	VERB	VERB	_	0	root	_	_
+30	abertura	abertura	NOUN	NOUN	_	29	obj	_	_
+31	de	_	ADP	ADP	_	32	case	_	_
+32	inscrições	inscrição	NOUN	NOUN	_	30	nmod	_	_
+33	para	_	ADP	ADP	_	35	case	_	_
+34	novo	novo	ADJ	ADJ	_	35	amod	_	_
+35	processo	processo	NOUN	NOUN	_	32	nmod	_	_
+36	seletivo	seletivo	ADJ	ADJ	_	35	amod	_	_
+37	2013	_	NUM	NUM	NumType=Card	35	nmod	_	SpaceAfter=No
+38	.	_	PUNCT	.	_	29	punct	_	_
+
+# sent_id = test-s619
+# text = A fábrica da PSA Peugeot Citroën, em Sochaux, França, está celebrando seu centenário, sendo uma das mais antigas unidades de produção automotiva do mundo ainda em atividade.
+1	A	_	DET	DET	_	2	det	_	_
+2	fábrica	fábrica	NOUN	NOUN	_	15	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	PSA	_	PROPN	PNOUN	_	2	nmod	_	_
+6	Peugeot	_	PROPN	PNOUN	_	5	flat	_	_
+7	Citroën	_	PROPN	PNOUN	_	5	flat	_	SpaceAfter=No
+8	,	_	PUNCT	.	_	10	punct	_	_
+9	em	_	ADP	ADP	_	10	case	_	_
+10	Sochaux	_	PROPN	PNOUN	_	2	nmod	_	SpaceAfter=No
+11	,	_	PUNCT	.	_	12	punct	_	_
+12	França	_	PROPN	PNOUN	_	10	appos	_	SpaceAfter=No
+13	,	_	PUNCT	.	_	12	punct	_	_
+14	está	estar	AUX	AUX	_	15	aux	_	_
+15	celebrando	celebrar	VERB	VERB	_	0	root	_	_
+16	seu	_	DET	DET	_	17	det:poss	_	_
+17	centenário	centenário	NOUN	NOUN	_	15	obj	_	SpaceAfter=No
+18	,	_	PUNCT	.	_	20	punct	_	_
+19	sendo	ser	AUX	AUX	_	20	cop	_	_
+20	uma	_	PRON	PRON	_	15	acl:part	_	_
+21-22	das	_	_	_	_	_	_	_	_
+21	de	de	ADP	ADP	_	25	case	_	_
+22	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+23	mais	mais	ADV	ADV	_	24	advmod	_	_
+24	antigas	antigo	ADJ	ADJ	_	25	amod	_	_
+25	unidades	unidade	NOUN	NOUN	_	20	nmod	_	_
+26	de	_	ADP	ADP	_	27	case	_	_
+27	produção	produção	NOUN	NOUN	_	25	nmod	_	_
+28	automotiva	automotivo	ADJ	ADJ	_	27	amod	_	_
+29-30	do	_	_	_	_	_	_	_	_
+29	de	de	ADP	ADP	_	31	case	_	_
+30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	mundo	mundo	NOUN	NOUN	_	25	nmod	_	_
+32	ainda	ainda	ADV	ADV	_	34	advmod	_	_
+33	em	_	ADP	ADP	_	34	case	_	_
+34	atividade	atividade	NOUN	NOUN	_	25	nmod	_	SpaceAfter=No
+35	.	_	PUNCT	.	_	15	punct	_	_
+
+# sent_id = test-s620
+# text = O protesto começou na manhã desta quinta - feira quando os operários conseguiram entrar no recinto que rodeia o complexo ministerial e tentaram chegar ao edifício principal.
+1	O	_	DET	DET	_	2	det	_	_
+2	protesto	protesto	NOUN	NOUN	_	3	nsubj	_	_
+3	começou	começar	VERB	VERB	_	0	root	_	_
+4-5	na	_	_	_	_	_	_	_	_
+4	em	em	ADP	ADP	_	6	case	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	manhã	manhã	NOUN	NOUN	_	3	nmod	_	_
+7	desta	_	ADP	ADP	_	10	case	_	_
+8	quinta	_	PROPN	PNOUN	_	10	amod	_	_
+9	-	_	PUNCT	.	_	10	punct	_	_
+10	feira	_	PROPN	PNOUN	_	6	nmod	_	_
+11	quando	quando	ADV	ADV	_	14	advmod	_	_
+12	os	_	DET	DET	_	13	det	_	_
+13	operários	operário	NOUN	NOUN	_	14	nsubj	_	_
+14	conseguiram	conseguir	VERB	VERB	_	6	acl:relcl	_	_
+15	entrar	entrar	VERB	VERB	_	14	xcomp	_	_
+16-17	no	_	_	_	_	_	_	_	_
+16	em	em	ADP	ADP	_	18	case	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	recinto	recinto	NOUN	NOUN	_	15	nmod	_	_
+19	que	_	PRON	PRON	_	20	nsubj	_	_
+20	rodeia	rodear	VERB	VERB	_	18	acl:relcl	_	_
+21	o	_	DET	DET	_	22	det	_	_
+22	complexo	complexo	NOUN	NOUN	_	20	obj	_	_
+23	ministerial	ministerial	ADJ	ADJ	_	22	amod	_	_
+24	e	_	CCONJ	CONJ	_	25	cc	_	_
+25	tentaram	tentar	VERB	VERB	_	14	conj	_	_
+26	chegar	chegar	VERB	VERB	_	25	xcomp	_	_
+27-28	ao	_	_	_	_	_	_	_	_
+27	a	a	ADP	ADP	_	29	case	_	_
+28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	edifício	edifício	NOUN	NOUN	_	26	nmod	_	_
+30	principal	principal	ADJ	ADJ	_	29	amod	_	SpaceAfter=No
+31	.	_	PUNCT	.	_	3	punct	_	_
+
+# sent_id = test-s621
+# text = Os recursos serão utilizados também na capacitação e formação de pessoal, como profissionais de saúde, de trânsito e também de educação.
+1	Os	_	DET	DET	_	2	det	_	_
+2	recursos	recurso	NOUN	NOUN	_	4	nsubj:pass	_	_
+3	serão	ser	AUX	AUX	_	4	aux:pass	_	_
+4	utilizados	utilizar	VERB	VERB	_	0	root	_	_
+5	também	também	ADV	ADV	_	4	advmod	_	_
+6-7	na	_	_	_	_	_	_	_	_
+6	em	em	ADP	ADP	_	8	case	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	capacitação	capacitação	NOUN	NOUN	_	4	nmod	_	_
+9	e	_	CCONJ	CONJ	_	10	cc	_	_
+10	formação	formação	NOUN	NOUN	_	8	conj	_	_
+11	de	_	ADP	ADP	_	12	case	_	_
+12	pessoal	pessoal	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
+13	,	_	PUNCT	.	_	15	punct	_	_
+14	como	_	ADP	ADP	_	15	case	_	_
+15	profissionais	profissional	NOUN	NOUN	_	12	nmod	_	_
+16	de	_	ADP	ADP	_	17	case	_	_
+17	saúde	saúde	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
+18	,	_	PUNCT	.	_	20	punct	_	_
+19	de	_	ADP	ADP	_	20	case	_	_
+20	trânsito	trânsito	NOUN	NOUN	_	17	conj	_	_
+21	e	_	CCONJ	CONJ	_	24	cc	_	_
+22	também	também	ADV	ADV	_	24	advmod	_	_
+23	de	_	ADP	ADP	_	24	case	_	_
+24	educação	educação	NOUN	NOUN	_	17	conj	_	SpaceAfter=No
+25	.	_	PUNCT	.	_	4	punct	_	_
+
+# sent_id = test-s622
+# text = Salgado Filho, Hermes da Fonseca e BR - 101.
+1	Salgado	_	PROPN	PNOUN	_	0	root	_	_
+2	Filho	_	PROPN	PNOUN	_	1	flat	_	SpaceAfter=No
+3	,	_	PUNCT	.	_	4	punct	_	_
+4	Hermes	_	PROPN	PNOUN	_	1	conj	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	ADP	_	7	case	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Fonseca	_	PROPN	PNOUN	_	4	nmod	_	_
+8	e	_	CCONJ	CONJ	_	9	cc	_	_
+9	BR	_	PROPN	PNOUN	_	1	conj	_	_
+10	-	_	PUNCT	.	_	9	punct	_	_
+11	101	_	NUM	NUM	NumType=Card	9	appos	_	SpaceAfter=No
+12	.	_	PUNCT	.	_	1	punct	_	_
+
+# sent_id = test-s623
+# text = Em maio de 1974 foi criada a empresa Itaipu Binacional, para construir e gerenciar a usina.
+1	Em	_	ADP	ADP	_	2	case	_	_
+2	maio	_	PROPN	PNOUN	_	6	nmod	_	_
+3	de	_	ADP	ADP	_	4	case	_	_
+4	1974	_	NUM	NUM	NumType=Card	2	nmod	_	_
+5	foi	_	AUX	AUX	_	6	aux:pass	_	_
+6	criada	criar	VERB	VERB	_	0	root	_	_
+7	a	_	DET	DET	_	8	det	_	_
+8	empresa	empresa	NOUN	NOUN	_	6	nsubj:pass	_	_
+9	Itaipu	_	PROPN	PNOUN	_	8	appos	_	_
+10	Binacional	_	PROPN	PNOUN	_	9	amod	_	SpaceAfter=No
+11	,	_	PUNCT	.	_	13	punct	_	_
+12	para	_	ADP	ADP	_	13	mark	_	_
+13	construir	construir	VERB	VERB	_	6	advcl	_	_
+14	e	_	CCONJ	CONJ	_	15	cc	_	_
+15	gerenciar	gerenciar	VERB	VERB	_	13	conj	_	_
+16	a	_	DET	DET	_	17	det	_	_
+17	usina	usina	NOUN	NOUN	_	13	obj	_	SpaceAfter=No
+18	.	_	PUNCT	.	_	6	punct	_	_
+
+# sent_id = test-s624
+# text = Havia uma relação de confiança e foi feito um acordo, que não foi cumprido.
+1	Havia	haver	VERB	VERB	_	0	root	_	_
+2	uma	_	DET	DET	_	3	det	_	_
+3	relação	relação	NOUN	NOUN	_	1	obj	_	_
+4	de	_	ADP	ADP	_	5	case	_	_
+5	confiança	confiança	NOUN	NOUN	_	3	nmod	_	_
+6	e	_	CCONJ	CONJ	_	8	cc	_	_
+7	foi	_	AUX	AUX	_	8	aux:pass	_	_
+8	feito	_	VERB	VERB	_	1	conj	_	_
+9	um	_	DET	DET	_	10	det	_	_
+10	acordo	acordo	NOUN	NOUN	_	8	nsubj:pass	_	SpaceAfter=No
+11	,	_	PUNCT	.	_	15	punct	_	_
+12	que	_	PRON	PRON	_	15	nsubj:pass	_	_
+13	não	não	ADV	ADV	Polarity=Neg	15	advmod	_	_
+14	foi	_	AUX	AUX	_	15	aux:pass	_	_
+15	cumprido	cumprir	VERB	VERB	_	10	acl:relcl	_	SpaceAfter=No
+16	.	_	PUNCT	.	_	1	punct	_	_
+
+# sent_id = test-s625
+# text = Victor Hugo da Silva e Francisco Jorge Feitosa.
+1	Victor	_	NOUN	NOUN	_	0	root	_	_
+2	Hugo	_	PROPN	PNOUN	_	1	flat	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Silva	_	PROPN	PNOUN	_	1	nmod	_	_
+6	e	_	CCONJ	CONJ	_	7	cc	_	_
+7	Francisco	_	PROPN	PNOUN	_	1	conj	_	_
+8	Jorge	_	PROPN	PNOUN	_	7	flat	_	_
+9	Feitosa	_	PROPN	PNOUN	_	7	flat	_	SpaceAfter=No
+10	.	_	PUNCT	.	_	1	punct	_	_
+
+# sent_id = test-s626
+# text = No local, estará a urna e o carro em exposição.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	ADP	_	3	case	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	local	local	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
+4	,	_	PUNCT	.	_	3	punct	_	_
+5	estará	estar	VERB	VERB	_	0	root	_	_
+6	a	_	DET	DET	_	7	det	_	_
+7	urna	urna	NOUN	NOUN	_	5	nsubj	_	_
+8	e	e	CCONJ	CONJ	_	10	cc	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	carro	carro	NOUN	NOUN	_	7	conj	_	_
+11	em	_	ADP	ADP	_	12	case	_	_
+12	exposição	exposição	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
+13	.	_	PUNCT	.	_	5	punct	_	_
+

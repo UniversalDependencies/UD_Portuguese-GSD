@@ -1,0 +1,254 @@
+# sent_id = train-s5937
+# text = Serra caiu cinco pontos, para 32 %.
+1	Serra	_	PROPN	PNOUN	_	2	nsubj	_	_
+2	caiu	cair	VERB	VERB	_	0	root	_	_
+3	cinco	_	NUM	NUM	NumType=Card	4	nummod	_	_
+4	pontos	ponto	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
+5	,	_	PUNCT	.	_	8	punct	_	_
+6	para	_	ADP	ADP	_	8	case	_	_
+7	32	_	NUM	NUM	NumType=Card	8	nummod	_	_
+8	%	_	SYM	SYM	_	2	nmod	_	SpaceAfter=No
+9	.	_	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s5938
+# text = A língua oficial nesta comuna é o Alemão.
+1	A	_	DET	DET	_	2	det	_	_
+2	língua	língua	NOUN	NOUN	_	8	nsubj	_	_
+3	oficial	oficial	ADJ	ADJ	_	2	amod	_	_
+4	nesta	_	ADP	ADP	_	5	case	_	_
+5	comuna	comuna	NOUN	NOUN	_	8	nmod	_	_
+6	é	ser	AUX	AUX	_	8	cop	_	_
+7	o	_	DET	DET	_	8	det	_	_
+8	Alemão	alemão	NOUN	NOUN	_	0	root	_	SpaceAfter=No
+9	.	_	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s5939
+# text = É preciso chamar atenção para o papel do Estado, que é muito bem definido desde a Constituição até as regulamentações do seu funcionamento.
+1	É	ser	VERB	VERB	_	0	root	_	_
+2	preciso	preciso	ADJ	ADJ	_	1	xcomp:adj	_	_
+3	chamar	chamar	VERB	VERB	_	1	csubj	_	_
+4	atenção	atenção	NOUN	NOUN	_	3	obj	_	_
+5	para	_	ADP	ADP	_	7	case	_	_
+6	o	_	DET	DET	_	7	det	_	_
+7	papel	papel	NOUN	NOUN	_	4	nmod	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	ADP	_	10	case	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Estado	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
+11	,	_	PUNCT	.	_	16	punct	_	_
+12	que	_	PRON	PRON	_	16	nsubj:pass	_	_
+13	é	ser	AUX	AUX	_	16	aux:pass	_	_
+14	muito	muito	ADV	ADV	_	15	advmod	_	_
+15	bem	bem	ADV	ADV	_	16	advmod	_	_
+16	definido	definir	VERB	VERB	_	7	acl:relcl	_	_
+17	desde	_	ADP	ADP	_	19	case	_	_
+18	a	_	DET	DET	_	19	det	_	_
+19	Constituição	constituição	NOUN	NOUN	_	16	nmod	_	_
+20	até	_	ADP	ADP	_	22	case	_	_
+21	as	_	DET	DET	_	22	det	_	_
+22	regulamentações	regulamentação	NOUN	NOUN	_	16	nmod	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	ADP	_	26	case	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	seu	_	DET	DET	_	26	det:poss	_	_
+26	funcionamento	funcionamento	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
+27	.	_	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s5940
+# text = O evento fica em cartaz de 3 de novembro a 31 de janeiro de 2013.
+1	O	_	DET	DET	_	2	det	_	_
+2	evento	evento	NOUN	NOUN	_	3	nsubj	_	_
+3	fica	ficar	VERB	VERB	_	0	root	_	_
+4	em	_	ADP	ADP	_	5	case	_	_
+5	cartaz	cartaz	NOUN	NOUN	_	3	nmod	_	_
+6	de	_	ADP	ADP	_	7	case	_	_
+7	3	_	NUM	NUM	NumType=Card	3	nmod	_	_
+8	de	_	ADP	ADP	_	9	case	_	_
+9	novembro	_	PROPN	PNOUN	_	7	nmod	_	_
+10	a	_	ADP	ADP	_	11	case	_	_
+11	31	_	NUM	NUM	NumType=Card	3	nmod	_	_
+12	de	_	ADP	ADP	_	13	case	_	_
+13	janeiro	_	PROPN	PNOUN	_	11	nmod	_	_
+14	de	_	ADP	ADP	_	15	case	_	_
+15	2013	_	NUM	NUM	NumType=Card	13	nmod	_	SpaceAfter=No
+16	.	_	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s5941
+# text = O pai nunca acreditou na versão dada pela polícia para a morte do filho.
+1	O	_	DET	DET	_	2	det	_	_
+2	pai	pai	NOUN	NOUN	_	4	nsubj	_	_
+3	nunca	nunca	ADV	ADV	_	4	advmod	_	_
+4	acreditou	acreditar	VERB	VERB	_	0	root	_	_
+5-6	na	_	_	_	_	_	_	_	_
+5	em	em	ADP	ADP	_	7	case	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	versão	versão	NOUN	NOUN	_	4	nmod	_	_
+8	dada	dar	VERB	VERB	_	7	acl:part	_	_
+9-10	pela	_	_	_	_	_	_	_	_
+9	por	por	ADP	ADP	_	11	case	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	polícia	polícia	NOUN	NOUN	_	8	nmod	_	_
+12	para	_	ADP	ADP	_	14	case	_	_
+13	a	_	DET	DET	_	14	det	_	_
+14	morte	morte	NOUN	NOUN	_	8	nmod	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	filho	filho	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
+18	.	_	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s5942
+# text = Mesmo sem os recursos da tecnologia, mas precocemente politizada, aos 12 anos Winona já pensava em ser atriz.
+1	Mesmo	mesmo	ADV	ADV	_	4	advmod	_	_
+2	sem	_	ADP	ADP	_	4	case	_	_
+3	os	_	DET	DET	_	4	det	_	_
+4	recursos	recurso	NOUN	NOUN	_	19	nmod	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	ADP	_	7	case	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	tecnologia	tecnologia	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
+8	,	_	PUNCT	.	_	11	punct	_	_
+9	mas	_	CCONJ	CONJ	_	11	cc	_	_
+10	precocemente	precocemente	ADV	ADV	_	11	advmod	_	_
+11	politizada	politizado	ADJ	ADJ	_	4	conj	_	SpaceAfter=No
+12	,	_	PUNCT	.	_	4	punct	_	_
+13-14	aos	_	_	_	_	_	_	_	_
+13	a	a	ADP	ADP	_	16	case	_	_
+14	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+15	12	_	NUM	NUM	NumType=Card	16	nummod	_	_
+16	anos	ano	NOUN	NOUN	_	19	nmod	_	_
+17	Winona	_	PROPN	PNOUN	_	19	nsubj	_	_
+18	já	já	ADV	ADV	_	19	advmod	_	_
+19	pensava	pensar	VERB	VERB	_	0	root	_	_
+20	em	_	ADP	ADP	_	22	mark	_	_
+21	ser	ser	AUX	AUX	_	22	cop	_	_
+22	atriz	_	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
+23	.	_	PUNCT	.	_	19	punct	_	_
+
+# sent_id = train-s5943
+# text = Embora a vitória tenha sido do Limeira, os destaques individuais do confronto ficaram por conta da Liga Sorocabana.
+1	Embora	_	CCONJ	CONJ	_	5	mark	_	_
+2	a	_	DET	DET	_	3	det	_	_
+3	vitória	vitória	NOUN	NOUN	_	5	nsubj	_	_
+4	tenha	ter	AUX	AUX	_	5	aux	_	_
+5	sido	ser	VERB	VERB	_	16	advcl	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Limeira	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
+9	,	_	PUNCT	.	_	5	punct	_	_
+10	os	_	DET	DET	_	11	det	_	_
+11	destaques	destaque	NOUN	NOUN	_	16	nsubj	_	_
+12	individuais	individual	ADJ	ADJ	_	11	amod	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	confronto	confronto	NOUN	NOUN	_	11	nmod	_	_
+16	ficaram	ficar	VERB	VERB	_	0	root	_	_
+17	por	_	ADP	ADP	_	18	case	_	_
+18	conta	conta	NOUN	NOUN	_	16	nmod	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	ADP	_	21	case	_	_
+20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Liga	_	PROPN	PNOUN	_	18	nmod	_	_
+22	Sorocabana	_	PROPN	PNOUN	_	21	flat	_	SpaceAfter=No
+23	.	_	PUNCT	.	_	16	punct	_	_
+
+# sent_id = train-s5944
+# text = Simultaneamente à abertura, no Rio de Janeiro, da Conferência das Nações Unidas sobre Desenvolvimento Sustentável, a Rio +20, começou nesta quarta - feira, em Altamira (PA), o encontro Xingu +23.
+1	Simultaneamente	simultaneamente	ADV	ADV	_	27	advmod	_	_
+2-3	à	_	_	_	_	_	_	_	_
+2	a	a	ADP	ADP	_	4	case	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	abertura	abertura	NOUN	NOUN	_	1	nmod	_	SpaceAfter=No
+5	,	_	PUNCT	.	_	8	punct	_	_
+6-7	no	_	_	_	_	_	_	_	_
+6	em	em	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Rio	_	PROPN	PNOUN	_	4	nmod	_	_
+9	de	_	ADP	ADP	_	10	case	_	_
+10	Janeiro	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
+11	,	_	PUNCT	.	_	8	punct	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	ADP	_	14	case	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Conferência	_	PROPN	PNOUN	_	4	nmod	_	_
+15-16	das	_	_	_	_	_	_	_	_
+15	de	de	ADP	ADP	_	17	case	_	_
+16	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	Nações	_	PROPN	PNOUN	_	14	nmod	_	_
+18	Unidas	_	PROPN	PNOUN	_	17	amod	_	_
+19	sobre	_	ADP	ADP	_	20	case	_	_
+20	Desenvolvimento	_	PROPN	PNOUN	_	14	nmod	_	_
+21	Sustentável	_	PROPN	PNOUN	_	20	amod	_	SpaceAfter=No
+22	,	_	PUNCT	.	_	24	punct	_	_
+23	a	_	DET	DET	_	24	det	_	_
+24	Rio	_	PROPN	PNOUN	_	14	appos	_	_
+25	+20	_	NUM	NUM	NumType=Card	24	appos	_	SpaceAfter=No
+26	,	_	PUNCT	.	_	1	punct	_	_
+27	começou	começar	VERB	VERB	_	0	root	_	_
+28	nesta	_	ADP	ADP	_	31	case	_	_
+29	quarta	_	PROPN	PNOUN	_	31	amod	_	_
+30	-	_	PUNCT	.	_	31	punct	_	_
+31	feira	_	PROPN	PNOUN	_	27	nmod	_	SpaceAfter=No
+32	,	_	PUNCT	.	_	34	punct	_	_
+33	em	_	ADP	ADP	_	34	case	_	_
+34	Altamira	_	PROPN	PNOUN	_	27	nmod	_	_
+35	(	_	PUNCT	.	_	36	punct	_	SpaceAfter=No
+36	PA	_	PROPN	PNOUN	_	34	appos	_	SpaceAfter=No
+37	)	_	PUNCT	.	_	36	punct	_	SpaceAfter=No
+38	,	_	PUNCT	.	_	34	punct	_	_
+39	o	_	DET	DET	_	40	det	_	_
+40	encontro	encontro	NOUN	NOUN	_	27	nsubj	_	_
+41	Xingu	_	PROPN	PNOUN	_	40	appos	_	_
+42	+23	_	NUM	NUM	NumType=Card	41	appos	_	SpaceAfter=No
+43	.	_	PUNCT	.	_	27	punct	_	_
+
+# sent_id = train-s5945
+# text = O GP da Alemanha será antecipado numa semana e uma outra corrida europeia acontecerá duas semanas depois.
+1	O	_	DET	DET	_	2	det	_	_
+2	GP	_	PROPN	PNOUN	_	7	nsubj:pass	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Alemanha	_	PROPN	PNOUN	_	2	nmod	_	_
+6	será	ser	AUX	AUX	_	7	aux:pass	_	_
+7	antecipado	antecipar	VERB	VERB	_	0	root	_	_
+8-9	numa	_	_	_	_	_	_	_	_
+8	em	_	ADP	ADP	_	10	case	_	_
+9	uma	_	NUM	NUM	NumType=Card	10	nummod	_	_
+10	semana	semana	NOUN	NOUN	_	7	nmod	_	_
+11	e	_	CCONJ	CONJ	_	16	cc	_	_
+12	uma	_	DET	DET	_	14	det	_	_
+13	outra	_	DET	DET	_	14	det	_	_
+14	corrida	corrida	NOUN	NOUN	_	16	nsubj	_	_
+15	europeia	europeu	ADJ	ADJ	_	14	amod	_	_
+16	acontecerá	acontecer	VERB	VERB	_	7	conj	_	_
+17	duas	_	NUM	NUM	NumType=Card	18	nummod	_	_
+18	semanas	semana	NOUN	NOUN	_	19	nmod	_	_
+19	depois	depois	ADV	ADV	_	16	advmod	_	SpaceAfter=No
+20	.	_	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s5946
+# text = Leo • 20 horas atrás já foi adiado por 10 anos acho que chega.tudo adivogado do pt.
+1	Leo	_	PROPN	PNOUN	_	8	parataxis	_	_
+2	•	_	PUNCT	.	_	1	punct	_	_
+3	20	_	NUM	NUM	NumType=Card	4	nummod	_	_
+4	horas	hora	NOUN	NOUN	_	8	nmod	_	_
+5	atrás	atrás	ADV	ADV	_	4	advmod	_	_
+6	já	já	ADV	ADV	_	8	advmod	_	_
+7	foi	_	AUX	AUX	_	8	aux:pass	_	_
+8	adiado	adiar	VERB	VERB	_	0	root	_	_
+9	por	_	ADP	ADP	_	11	case	_	_
+10	10	_	NUM	NUM	NumType=Card	11	nummod	_	_
+11	anos	_	NUM	NUM	NumType=Card	8	nmod	_	_
+12	acho	achar	VERB	VERB	_	8	parataxis	_	_
+13	que	_	CCONJ	CONJ	_	14	mark	_	_
+14	chega.tudo	_	VERB	VERB	_	12	ccomp	_	_
+15	adivogado	_	NOUN	NOUN	_	8	parataxis	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	pt	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
+19	.	_	PUNCT	.	_	8	punct	_	_
+

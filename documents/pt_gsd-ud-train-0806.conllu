@@ -1,0 +1,276 @@
+# sent_id = train-s8001
+# text = Inicialmente, ele grita por socorro, mas ninguém estava ao alcance de sua voz.
+1	Inicialmente	inicialmente	ADV	ADV	_	4	advmod	_	SpaceAfter=No
+2	,	_	PUNCT	.	_	1	punct	_	_
+3	ele	_	PRON	PRON	_	4	nsubj	_	_
+4	grita	gritar	VERB	VERB	_	0	root	_	_
+5	por	_	ADP	ADP	_	6	case	_	_
+6	socorro	socorro	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
+7	,	_	PUNCT	.	_	10	punct	_	_
+8	mas	_	CCONJ	CONJ	_	10	cc	_	_
+9	ninguém	_	PRON	PRON	_	10	nsubj	_	_
+10	estava	estar	VERB	VERB	_	4	conj	_	_
+11-12	ao	_	_	_	_	_	_	_	_
+11	a	a	ADP	ADP	_	13	case	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	alcance	alcance	NOUN	NOUN	_	10	nmod	_	_
+14	de	_	ADP	ADP	_	16	case	_	_
+15	sua	_	DET	DET	_	16	det:poss	_	_
+16	voz	voz	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
+17	.	_	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s8002
+# text = Entre 1986 e 1989, Bohlen produziu alguns álbuns para a rainha da discoteca C. C. Catch, cantora que ele descobriu.
+1	Entre	_	ADP	ADP	_	2	case	_	_
+2	1986	_	NUM	NUM	NumType=Card	7	nmod	_	_
+3	e	_	CCONJ	CONJ	_	4	cc	_	_
+4	1989	_	NUM	NUM	NumType=Card	2	conj	_	SpaceAfter=No
+5	,	_	PUNCT	.	_	2	punct	_	_
+6	Bohlen	_	PROPN	PNOUN	_	7	nsubj	_	_
+7	produziu	produzir	VERB	VERB	_	0	root	_	_
+8	alguns	_	DET	DET	_	9	det	_	_
+9	álbuns	álbum	NOUN	NOUN	_	7	obj	_	_
+10	para	_	ADP	ADP	_	12	case	_	_
+11	a	_	DET	DET	_	12	det	_	_
+12	rainha	_	NOUN	NOUN	_	7	nmod	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	discoteca	discoteca	NOUN	NOUN	_	12	nmod	_	_
+16	C.	_	PROPN	PNOUN	_	12	appos	_	_
+17	C.	_	PROPN	PNOUN	_	16	flat	_	_
+18	Catch	_	PROPN	PNOUN	_	16	flat	_	SpaceAfter=No
+19	,	_	PUNCT	.	_	20	punct	_	_
+20	cantora	cantor	NOUN	NOUN	_	16	appos	_	_
+21	que	_	PRON	PRON	_	23	obj	_	_
+22	ele	_	PRON	PRON	_	23	nsubj	_	_
+23	descobriu	descobrir	VERB	VERB	_	20	acl:relcl	_	SpaceAfter=No
+24	.	_	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s8003
+# text = Plântulas originárias do solo arenoso tiveram maiores níveis de defesas baseadas em carbono, mas quando foram transferidas para solos argilosos ricos em nutriente, elas sofreram maior mortalidade por herbivoria.
+1	Plântulas	plântula	NOUN	NOUN	_	7	nsubj	_	_
+2	originárias	originário	ADJ	ADJ	_	1	amod	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	solo	solo	NOUN	NOUN	_	2	nmod	_	_
+6	arenoso	arenoso	ADJ	ADJ	_	5	amod	_	_
+7	tiveram	ter	VERB	VERB	_	0	root	_	_
+8	maiores	maior	ADJ	ADJ	_	9	amod	_	_
+9	níveis	nível	NOUN	NOUN	_	7	obj	_	_
+10	de	_	ADP	ADP	_	11	case	_	_
+11	defesas	_	NOUN	NOUN	_	9	nmod	_	_
+12	baseadas	basear	VERB	VERB	_	11	acl:part	_	_
+13	em	_	ADP	ADP	_	14	case	_	_
+14	carbono	carbono	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
+15	,	_	PUNCT	.	_	28	punct	_	_
+16	mas	_	CCONJ	CONJ	_	28	cc	_	_
+17	quando	_	CCONJ	CONJ	_	19	mark	_	_
+18	foram	_	AUX	AUX	_	19	aux:pass	_	_
+19	transferidas	transferir	VERB	VERB	_	28	advcl	_	_
+20	para	_	ADP	ADP	_	21	case	_	_
+21	solos	solo	NOUN	NOUN	_	19	nmod	_	_
+22	argilosos	argiloso	ADJ	ADJ	_	21	amod	_	_
+23	ricos	rico	ADJ	ADJ	_	21	amod	_	_
+24	em	_	ADP	ADP	_	25	case	_	_
+25	nutriente	nutriente	NOUN	NOUN	_	23	nmod	_	SpaceAfter=No
+26	,	_	PUNCT	.	_	19	punct	_	_
+27	elas	_	PRON	PRON	_	28	nsubj	_	_
+28	sofreram	sofrer	VERB	VERB	_	7	conj	_	_
+29	maior	maior	ADJ	ADJ	_	30	amod	_	_
+30	mortalidade	mortalidade	NOUN	NOUN	_	28	obj	_	_
+31	por	_	ADP	ADP	_	32	case	_	_
+32	herbivoria	_	NOUN	NOUN	_	28	nmod	_	SpaceAfter=No
+33	.	_	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s8004
+# text = As observações foram feitas por Brigitte Bailleul -- vencedora do concurso Tuíte até ao VLT!
+1	As	_	DET	DET	_	2	det	_	_
+2	observações	observação	NOUN	NOUN	_	4	nsubj:pass	_	_
+3	foram	_	AUX	AUX	_	4	aux:pass	_	_
+4	feitas	_	VERB	VERB	_	0	root	_	_
+5	por	_	ADP	ADP	_	6	case	_	_
+6	Brigitte	_	PROPN	PNOUN	_	4	nmod	_	_
+7	Bailleul	_	PROPN	PNOUN	_	6	flat	_	_
+8	--	_	PUNCT	.	_	9	punct	_	_
+9	vencedora	_	NOUN	NOUN	_	6	appos	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	ADP	_	12	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	concurso	concurso	NOUN	NOUN	_	9	nmod	_	_
+13	Tuíte	_	PROPN	PNOUN	_	12	appos	_	_
+14	até	_	ADP	ADP	_	13	nmod	_	_
+15-16	ao	_	_	_	_	_	_	_	_
+15	a	a	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	VLT	_	PROPN	PNOUN	_	14	nmod	_	SpaceAfter=No
+18	!	_	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s8005
+# text = Os comerciantes e produtores que quiserem entrar no Rio de Janeiro com produtos vegetais precisarão mostrar uma Permissão de Trânsito de Vegetais (PTV), emitida pelas autoridades fitossanitárias do estado, sobre a origem da carga.
+1	Os	_	DET	DET	_	2	det	_	_
+2	comerciantes	comerciante	NOUN	NOUN	_	17	nsubj	_	_
+3	e	_	CCONJ	CONJ	_	4	cc	_	_
+4	produtores	produtor	NOUN	NOUN	_	2	conj	_	_
+5	que	_	PRON	PRON	_	6	nsubj	_	_
+6	quiserem	querer	VERB	VERB	_	2	acl:relcl	_	_
+7	entrar	entrar	VERB	VERB	_	6	xcomp	_	_
+8-9	no	_	_	_	_	_	_	_	_
+8	em	em	ADP	ADP	_	10	case	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Rio	_	PROPN	PNOUN	_	7	nmod	_	_
+11	de	_	ADP	ADP	_	12	case	_	_
+12	Janeiro	_	PROPN	PNOUN	_	10	nmod	_	_
+13	com	_	ADP	ADP	_	14	case	_	_
+14	produtos	produto	NOUN	NOUN	_	7	nmod	_	_
+15	vegetais	vegetal	ADJ	ADJ	_	14	amod	_	_
+16	precisarão	precisar	AUX	AUX	_	17	aux	_	_
+17	mostrar	mostrar	VERB	VERB	_	0	root	_	_
+18	uma	_	DET	DET	_	19	det	_	_
+19	Permissão	_	PROPN	PNOUN	_	17	obj	_	_
+20	de	_	ADP	ADP	_	21	case	_	_
+21	Trânsito	_	PROPN	PNOUN	_	19	nmod	_	_
+22	de	_	ADP	ADP	_	23	case	_	_
+23	Vegetais	_	PROPN	PNOUN	_	21	nmod	_	_
+24	(	_	PUNCT	.	_	25	punct	_	SpaceAfter=No
+25	PTV	_	PROPN	PNOUN	_	19	appos	_	SpaceAfter=No
+26	)	_	PUNCT	.	_	25	punct	_	SpaceAfter=No
+27	,	_	PUNCT	.	_	28	punct	_	_
+28	emitida	emitir	VERB	VERB	_	19	acl:part	_	_
+29-30	pelas	_	_	_	_	_	_	_	_
+29	por	por	ADP	ADP	_	31	case	_	_
+30	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+31	autoridades	autoridade	NOUN	NOUN	_	28	nmod	_	_
+32	fitossanitárias	fitossanitário	ADJ	ADJ	_	31	amod	_	_
+33-34	do	_	_	_	_	_	_	_	_
+33	de	de	ADP	ADP	_	35	case	_	_
+34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	estado	estado	NOUN	NOUN	_	31	nmod	_	SpaceAfter=No
+36	,	_	PUNCT	.	_	39	punct	_	_
+37	sobre	_	ADP	ADP	_	39	case	_	_
+38	a	_	DET	DET	_	39	det	_	_
+39	origem	origem	NOUN	NOUN	_	28	nmod	_	_
+40-41	da	_	_	_	_	_	_	_	_
+40	de	de	ADP	ADP	_	42	case	_	_
+41	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	carga	carga	NOUN	NOUN	_	39	nmod	_	SpaceAfter=No
+43	.	_	PUNCT	.	_	17	punct	_	_
+
+# sent_id = train-s8006
+# text = Se o projeto já estivesse aprovado, seria possível abater a pena e, assim, substituir o regime semiaberto pelo aberto.
+1	Se	_	CCONJ	CONJ	_	5	mark	_	_
+2	o	_	DET	DET	_	3	det	_	_
+3	projeto	projeto	NOUN	NOUN	_	5	nsubj	_	_
+4	já	já	ADV	ADV	_	5	advmod	_	_
+5	estivesse	estar	VERB	VERB	_	8	advcl	_	_
+6	aprovado	aprovado	ADJ	ADJ	_	5	xcomp:adj	_	SpaceAfter=No
+7	,	_	PUNCT	.	_	5	punct	_	_
+8	seria	_	VERB	VERB	_	0	root	_	_
+9	possível	possível	ADJ	ADJ	_	8	xcomp:adj	_	_
+10	abater	abater	VERB	VERB	_	8	csubj	_	_
+11	a	_	DET	DET	_	12	det	_	_
+12	pena	_	NOUN	NOUN	_	10	obj	_	_
+13	e	_	CCONJ	CONJ	_	17	cc	_	SpaceAfter=No
+14	,	_	PUNCT	.	_	15	punct	_	_
+15	assim	assim	ADV	ADV	_	17	advmod	_	SpaceAfter=No
+16	,	_	PUNCT	.	_	15	punct	_	_
+17	substituir	substituir	VERB	VERB	_	10	conj	_	_
+18	o	_	DET	DET	_	19	det	_	_
+19	regime	regime	NOUN	NOUN	_	17	obj	_	_
+20	semiaberto	semiaberto	ADJ	ADJ	_	19	amod	_	_
+21-22	pelo	_	_	_	_	_	_	_	_
+21	por	por	ADP	ADP	_	23	case	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	aberto	aberto	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
+24	.	_	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s8007
+# text = Jonny Ive, designer da Apple;
+1	Jonny	_	PROPN	PNOUN	_	0	root	_	_
+2	Ive	_	PROPN	PNOUN	_	1	flat	_	SpaceAfter=No
+3	,	_	PUNCT	.	_	4	punct	_	_
+4	designer	designer	NOUN	NOUN	_	1	appos	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	ADP	_	7	case	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Apple	_	PROPN	PNOUN	_	4	nmod	_	SpaceAfter=No
+8	;	_	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s8008
+# text = "Hoje cerca de 60 % dos jovens já viveram ou vivem este estilo urbano independente de sua classe social, religião ou cor", diz o artista.
+1	"	_	PUNCT	.	_	11	punct	_	SpaceAfter=No
+2	Hoje	hoje	ADV	ADV	_	11	advmod	_	_
+3	cerca	cerca	ADV	ADV	_	5	advmod	_	_
+4	de	_	ADP	ADP	_	3	case	_	_
+5	60	_	NUM	NUM	NumType=Card	6	nummod	_	_
+6	%	_	SYM	SYM	_	11	nsubj	_	_
+7-8	dos	_	_	_	_	_	_	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
+8	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	jovens	jovem	NOUN	NOUN	_	6	nmod	_	_
+10	já	já	ADV	ADV	_	11	advmod	_	_
+11	viveram	viver	VERB	VERB	_	28	ccomp	_	_
+12	ou	_	CCONJ	CONJ	_	13	cc	_	_
+13	vivem	_	VERB	VERB	_	11	conj	_	_
+14	este	_	DET	DET	_	15	det	_	_
+15	estilo	estilo	NOUN	NOUN	_	11	obj	_	_
+16	urbano	urbano	ADJ	ADJ	_	15	amod	_	_
+17	independente	_	ADV	ADV	_	11	advmod	_	_
+18	de	_	ADP	ADP	_	20	case	_	_
+19	sua	_	DET	DET	_	20	det:poss	_	_
+20	classe	classe	NOUN	NOUN	_	17	nmod	_	_
+21	social	social	ADJ	ADJ	_	20	amod	_	SpaceAfter=No
+22	,	_	PUNCT	.	_	23	punct	_	_
+23	religião	religião	NOUN	NOUN	_	20	conj	_	_
+24	ou	_	CCONJ	CONJ	_	25	cc	_	_
+25	cor	cor	NOUN	NOUN	_	20	conj	_	SpaceAfter=No
+26	"	_	PUNCT	.	_	11	punct	_	SpaceAfter=No
+27	,	_	PUNCT	.	_	28	punct	_	_
+28	diz	dizer	VERB	VERB	_	0	root	_	_
+29	o	_	DET	DET	_	30	det	_	_
+30	artista	artista	NOUN	NOUN	_	28	nsubj	_	SpaceAfter=No
+31	.	_	PUNCT	.	_	28	punct	_	_
+
+# sent_id = train-s8009
+# text = Com tanto capricho, é fácil imaginar que Everton gasta fortunas com roupas e acessórios, mas ele garante que ser estiloso é bem baratinho.
+1	Com	_	ADP	ADP	_	3	case	_	_
+2	tanto	_	DET	DET	_	3	det	_	_
+3	capricho	capricho	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
+4	,	_	PUNCT	.	_	3	punct	_	_
+5	é	ser	VERB	VERB	_	0	root	_	_
+6	fácil	fácil	ADJ	ADJ	_	5	xcomp:adj	_	_
+7	imaginar	imaginar	VERB	VERB	_	5	csubj	_	_
+8	que	_	CCONJ	CONJ	_	10	mark	_	_
+9	Everton	_	PROPN	PNOUN	_	10	nsubj	_	_
+10	gasta	gastar	VERB	VERB	_	7	ccomp	_	_
+11	fortunas	fortuna	NOUN	NOUN	_	10	obj	_	_
+12	com	_	ADP	ADP	_	13	case	_	_
+13	roupas	roupa	NOUN	NOUN	_	10	nmod	_	_
+14	e	_	CCONJ	CONJ	_	15	cc	_	_
+15	acessórios	acessório	NOUN	NOUN	_	13	conj	_	SpaceAfter=No
+16	,	_	PUNCT	.	_	17	punct	_	_
+17	mas	_	CCONJ	CONJ	_	5	conj	_	_
+18	ele	_	PRON	PRON	_	19	nsubj	_	_
+19	garante	garantir	VERB	VERB	_	5	conj	_	_
+20	que	_	CCONJ	CONJ	_	23	mark	_	_
+21	ser	ser	VERB	VERB	_	23	csubj	_	_
+22	estiloso	_	ADJ	ADJ	_	21	xcomp:adj	_	_
+23	é	ser	VERB	VERB	_	19	ccomp	_	_
+24	bem	bem	ADV	ADV	_	25	advmod	_	_
+25	baratinho	barato	ADJ	ADJ	_	23	xcomp:adj	_	SpaceAfter=No
+26	.	_	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s8010
+# text = o engenheiro Roberto Thompson, instalando o sistema acústico;
+1	o	_	DET	DET	_	2	det	_	_
+2	engenheiro	engenheiro	NOUN	NOUN	_	0	root	_	_
+3	Roberto	_	PROPN	PNOUN	_	2	appos	_	_
+4	Thompson	_	PROPN	PNOUN	_	3	flat	_	SpaceAfter=No
+5	,	_	PUNCT	.	_	6	punct	_	_
+6	instalando	instalar	VERB	VERB	_	2	acl:part	_	_
+7	o	_	DET	DET	_	8	det	_	_
+8	sistema	sistema	NOUN	NOUN	_	6	obj	_	_
+9	acústico	acústico	ADJ	ADJ	_	8	amod	_	SpaceAfter=No
+10	;	_	PUNCT	.	_	2	punct	_	_
+

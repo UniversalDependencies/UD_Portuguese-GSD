@@ -1,0 +1,204 @@
+# sent_id = train-s1150
+# text = "Esta é uma questão que está sendo sempre discutida.
+1	"	_	PUNCT	.	_	5	punct	_	SpaceAfter=No
+2	Esta	_	PRON	PRON	_	5	nsubj	_	_
+3	é	ser	AUX	AUX	_	5	cop	_	_
+4	uma	_	DET	DET	_	5	det	_	_
+5	questão	questão	NOUN	NOUN	_	0	root	_	_
+6	que	_	PRON	PRON	_	10	nsubj:pass	_	_
+7	está	estar	AUX	AUX	_	10	aux	_	_
+8	sendo	ser	AUX	AUX	_	10	aux:pass	_	_
+9	sempre	sempre	ADV	ADV	_	10	advmod	_	_
+10	discutida	discutir	VERB	VERB	_	5	acl:relcl	_	SpaceAfter=No
+11	.	_	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s1151
+# text = Evitar quadros com temas que agridam os comensais.
+1	Evitar	evitar	VERB	VERB	_	0	root	_	_
+2	quadros	quadro	NOUN	NOUN	_	1	obj	_	_
+3	com	_	ADP	ADP	_	4	case	_	_
+4	temas	tema	NOUN	NOUN	_	2	nmod	_	_
+5	que	_	PRON	PRON	_	6	nsubj	_	_
+6	agridam	agredir	VERB	VERB	_	4	acl:relcl	_	_
+7	os	_	DET	DET	_	8	det	_	_
+8	comensais	comensal	NOUN	NOUN	_	6	obj	_	SpaceAfter=No
+9	.	_	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s1152
+# text = Ele morreu na segunda - feira, no Hospital Ipiranga, zona sul da capital paulista.
+1	Ele	_	PRON	PRON	_	2	nsubj	_	_
+2	morreu	morrer	VERB	VERB	_	0	root	_	_
+3-4	na	_	_	_	_	_	_	_	_
+3	em	em	ADP	ADP	_	7	case	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+5	segunda	_	PROPN	PNOUN	_	7	amod	_	_
+6	-	_	PUNCT	.	_	7	punct	_	_
+7	feira	_	PROPN	PNOUN	_	2	nmod	_	SpaceAfter=No
+8	,	_	PUNCT	.	_	11	punct	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	ADP	_	11	case	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Hospital	hospital	NOUN	NOUN	_	2	nmod	_	_
+12	Ipiranga	_	PROPN	PNOUN	_	11	flat	_	SpaceAfter=No
+13	,	_	PUNCT	.	_	14	punct	_	_
+14	zona	zona	NOUN	NOUN	_	11	appos	_	_
+15	sul	sul	ADJ	ADJ	_	14	amod	_	_
+16-17	da	_	_	_	_	_	_	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
+17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	capital	capital	NOUN	NOUN	_	14	nmod	_	_
+19	paulista	paulista	ADJ	ADJ	_	18	amod	_	SpaceAfter=No
+20	.	_	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s1153
+# text = No mesmo dia, o Colorado recebe o Náutico, às 19h30, no Beira - Rio.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	ADP	_	4	case	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	mesmo	mesmo	ADJ	ADJ	_	4	amod	_	_
+4	dia	dia	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
+5	,	_	PUNCT	.	_	4	punct	_	_
+6	o	_	DET	DET	_	7	det	_	_
+7	Colorado	_	PROPN	PNOUN	_	8	nsubj	_	_
+8	recebe	receber	VERB	VERB	_	0	root	_	_
+9	o	_	DET	DET	_	10	det	_	_
+10	Náutico	_	PROPN	PNOUN	_	8	obj	_	SpaceAfter=No
+11	,	_	PUNCT	.	_	14	punct	_	_
+12-13	às	_	_	_	_	_	_	_	_
+12	a	a	ADP	ADP	_	14	case	_	_
+13	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	19h30	_	NUM	NUM	NumType=Card	8	nmod	_	SpaceAfter=No
+15	,	_	PUNCT	.	_	14	punct	_	_
+16-17	no	_	_	_	_	_	_	_	_
+16	em	em	ADP	ADP	_	18	case	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Beira	_	PROPN	PNOUN	_	8	nmod	_	_
+19	-	_	PUNCT	.	_	18	punct	_	_
+20	Rio	_	PROPN	PNOUN	_	18	flat	_	SpaceAfter=No
+21	.	_	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s1154
+# text = Clique duas vezes nesse arquivo para abri - lo no editor conforme abaixo:
+1	Clique	clicar	VERB	VERB	_	0	root	_	_
+2	duas	_	NUM	NUM	NumType=Card	3	nummod	_	_
+3	vezes	vez	NOUN	NOUN	_	1	nmod	_	_
+4	nesse	_	ADP	ADP	_	5	case	_	_
+5	arquivo	arquivo	NOUN	NOUN	_	1	nmod	_	_
+6	para	_	ADP	ADP	_	7	mark	_	_
+7	abri	abrir	VERB	VERB	_	1	advcl	_	_
+8	-	_	PUNCT	.	_	7	punct	_	_
+9	lo	_	PRON	PRON	_	7	obj	_	_
+10-11	no	_	_	_	_	_	_	_	_
+10	em	em	ADP	ADP	_	12	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	editor	editor	NOUN	NOUN	_	7	nmod	_	_
+13	conforme	_	ADP	ADP	_	14	mark	_	_
+14	abaixo	abaixo	ADV	ADV	_	1	nmod	_	SpaceAfter=No
+15	:	_	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s1155
+# text = A garota de 16 anos e o adolescente de 17 foram apreendidos;
+1	A	_	DET	DET	_	2	det	_	_
+2	garota	garoto	NOUN	NOUN	_	12	nsubj:pass	_	_
+3	de	_	ADP	ADP	_	5	case	_	_
+4	16	_	NUM	NUM	NumType=Card	5	nummod	_	_
+5	anos	ano	NOUN	NOUN	_	2	nmod	_	_
+6	e	e	CCONJ	CONJ	_	8	cc	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	adolescente	adolescente	NOUN	NOUN	_	2	conj	_	_
+9	de	_	ADP	ADP	_	10	case	_	_
+10	17	_	NUM	NUM	NumType=Card	8	nmod	_	_
+11	foram	_	AUX	AUX	_	12	aux:pass	_	_
+12	apreendidos	apreender	VERB	VERB	_	0	root	_	SpaceAfter=No
+13	;	_	PUNCT	.	_	12	punct	_	_
+
+# sent_id = train-s1156
+# text = O canto do macho é um chilreio alegre, frequentemente terminando com su - seer, com a segunda nota mais alta do que a primeira mas caindo em tom.
+1	O	_	DET	DET	_	2	det	_	_
+2	canto	canto	NOUN	NOUN	_	8	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	macho	macho	NOUN	NOUN	_	2	nmod	_	_
+6	é	ser	AUX	AUX	_	8	cop	_	_
+7	um	_	DET	DET	_	8	det	_	_
+8	chilreio	chilreio	NOUN	NOUN	_	0	root	_	_
+9	alegre	alegre	ADJ	ADJ	_	8	amod	_	SpaceAfter=No
+10	,	_	PUNCT	.	_	12	punct	_	_
+11	frequentemente	frequentemente	ADV	ADV	_	12	advmod	_	_
+12	terminando	terminar	VERB	VERB	_	8	conj	_	_
+13	com	_	ADP	ADP	_	14	case	_	_
+14	su	_	PART	PRT	_	12	nmod	_	_
+15	-	_	PUNCT	.	_	14	punct	_	_
+16	seer	_	NOUN	NOUN	_	14	flat	_	SpaceAfter=No
+17	,	_	PUNCT	.	_	21	punct	_	_
+18	com	_	ADP	ADP	_	21	case	_	_
+19	a	_	DET	DET	_	21	det	_	_
+20	segunda	segundo	ADJ	ADJ	_	21	amod	_	_
+21	nota	nota	NOUN	NOUN	_	12	nmod	_	_
+22	mais	mais	ADV	ADV	_	23	advmod	_	_
+23	alta	alto	ADJ	ADJ	_	21	amod	_	_
+24-25	do	_	_	_	_	_	_	_	_
+24	de	de	ADP	ADP	_	28	case	_	_
+25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+26	que	_	ADP	ADP	_	24	fixed	_	_
+27	a	_	DET	DET	_	28	det	_	_
+28	primeira	primeiro	NOUN	NOUN	_	23	nmod	_	_
+29	mas	_	CCONJ	CONJ	_	30	cc	_	_
+30	caindo	cair	VERB	VERB	_	23	conj	_	_
+31	em	_	ADP	ADP	_	32	case	_	_
+32	tom	tom	NOUN	NOUN	_	30	nmod	_	SpaceAfter=No
+33	.	_	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s1157
+# text = Enviar arquivos muito pesados por email é realmente uma complicação.
+1	Enviar	enviar	VERB	VERB	_	10	csubj	_	_
+2	arquivos	arquivo	NOUN	NOUN	_	1	obj	_	_
+3	muito	muito	ADV	ADV	_	4	advmod	_	_
+4	pesados	pesado	ADJ	ADJ	_	2	amod	_	_
+5	por	_	ADP	ADP	_	6	case	_	_
+6	email	email	NOUN	NOUN	_	1	nmod	_	_
+7	é	ser	AUX	AUX	_	10	cop	_	_
+8	realmente	realmente	ADV	ADV	_	10	advmod	_	_
+9	uma	_	DET	DET	_	10	det	_	_
+10	complicação	complicação	NOUN	NOUN	_	0	root	_	SpaceAfter=No
+11	.	_	PUNCT	.	_	10	punct	_	_
+
+# sent_id = train-s1158
+# text = Nesses 14 anos "houve um despertar, em muitos sentidos.
+1	Nesses	_	ADP	ADP	_	3	case	_	_
+2	14	_	NUM	NUM	NumType=Card	3	nummod	_	_
+3	anos	ano	NOUN	NOUN	_	5	nmod	_	_
+4	"	_	PUNCT	.	_	5	punct	_	SpaceAfter=No
+5	houve	haver	VERB	VERB	_	0	root	_	_
+6	um	_	DET	DET	_	7	det	_	_
+7	despertar	despertar	NOUN	NOUN	_	5	obj	_	SpaceAfter=No
+8	,	_	PUNCT	.	_	11	punct	_	_
+9	em	_	ADP	ADP	_	11	case	_	_
+10	muitos	_	DET	DET	_	11	det	_	_
+11	sentidos	sentido	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
+12	.	_	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s1159
+# text = Freqüentemente a figura do Trickster pode mudar de gênero e de forma, alterando seu papel sexual.
+1	Freqüentemente	freqüentemente	ADV	ADV	_	8	advmod	_	_
+2	a	_	DET	DET	_	3	det	_	_
+3	figura	figura	NOUN	NOUN	_	8	nsubj	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Trickster	_	PROPN	PNOUN	_	3	nmod	_	_
+7	pode	_	AUX	AUX	_	8	aux	_	_
+8	mudar	mudar	VERB	VERB	_	0	root	_	_
+9	de	_	ADP	ADP	_	10	case	_	_
+10	gênero	gênero	NOUN	NOUN	_	8	nmod	_	_
+11	e	_	CCONJ	CONJ	_	13	cc	_	_
+12	de	_	ADP	ADP	_	13	case	_	_
+13	forma	forma	NOUN	NOUN	_	10	conj	_	SpaceAfter=No
+14	,	_	PUNCT	.	_	15	punct	_	_
+15	alterando	alterar	VERB	VERB	_	8	acl:part	_	_
+16	seu	_	DET	DET	_	17	det:poss	_	_
+17	papel	papel	NOUN	NOUN	_	15	obj	_	_
+18	sexual	sexual	ADJ	ADJ	_	17	amod	_	SpaceAfter=No
+19	.	_	PUNCT	.	_	8	punct	_	_
+
