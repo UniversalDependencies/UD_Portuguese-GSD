@@ -183,16 +183,16 @@
 
 # sent_id = dev-s17
 # text = "Eles não podem ser considerados marginais", disse ele.
-1	"	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
-2	Eles	_	PRON	PRON	_	7	nsubj:pass	_	_
-3	não	não	ADV	ADV	Polarity=Neg	7	advmod	_	_
-4	podem	_	AUX	AUX	_	7	aux	_	_
-5	ser	ser	AUX	AUX	_	7	aux:pass	_	_
-6	considerados	considerar	AUX	AUX	_	7	cop	_	_
-7	marginais	marginal	NOUN	NOUN	_	10	ccomp	_	SpaceAfter=No
+1	"	_	PUNCT	.	_	6	punct	_	SpaceAfter=No
+2	Eles	ele	PRON	PRON	_	6	nsubj:pass	_	_
+3	não	não	ADV	ADV	Polarity=Neg	6	advmod	_	_
+4	podem	poder	AUX	AUX	_	6	aux	_	_
+5	ser	ser	AUX	AUX	_	6	aux:pass	_	_
+6	considerados	considerar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+7	marginais	marginal	ADJ	_	Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
 8	"	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
 9	,	_	PUNCT	.	_	10	punct	_	_
-10	disse	dizer	VERB	VERB	_	0	root	_	_
+10	disse	dizer	VERB	VERB	_	6	parataxis	_	_
 11	ele	_	PRON	PRON	_	10	nsubj	_	SpaceAfter=No
 12	.	_	PUNCT	.	_	10	punct	_	_
 

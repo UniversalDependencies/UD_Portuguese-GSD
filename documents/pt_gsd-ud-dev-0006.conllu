@@ -116,22 +116,22 @@
 
 # sent_id = dev-s54
 # text = Depois do depoimento de Reimão, a juíza Ludmila Lins da Silva está tomando um novo depoimento dos quatro réus, que podem ser levados a júri popular.
-1	Depois	depois	ADV	ADV	_	4	case	_	_
+1	Depois	depois	ADV	ADV	_	16	case	_	_
 2-3	do	_	_	_	_	_	_	_	_
-2	de	de	ADP	ADP	_	1	case	_	_
-3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
-4	depoimento	depoimento	NOUN	NOUN	_	16	nmod	_	_
+2	de	de	ADP	ADP	_	4	case	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	depoimento	depoimento	NOUN	NOUN	_	1	obl	_	_
 5	de	_	ADP	ADP	_	6	case	_	_
 6	Reimão	_	PROPN	PNOUN	_	4	nmod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	4	punct	_	_
+7	,	,	PUNCT	_	_	16	punct	_	_
 8	a	_	DET	DET	_	9	det	_	_
 9	juíza	_	NOUN	NOUN	_	16	nsubj	_	_
 10	Ludmila	_	PROPN	PNOUN	_	9	appos	_	_
-11	Lins	_	PROPN	PNOUN	_	10	flat	_	_
+11	Lins	_	PROPN	PNOUN	_	10	flat:name	_	_
 12-13	da	_	_	_	_	_	_	_	_
 12	de	de	ADP	ADP	_	14	case	_	_
 13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	Silva	_	PROPN	PNOUN	_	10	nmod	_	_
+14	Silva	_	PROPN	PNOUN	_	10	flat:name	_	_
 15	está	estar	AUX	AUX	_	16	aux	_	_
 16	tomando	tomar	VERB	VERB	_	0	root	_	_
 17	um	_	DET	DET	_	19	det	_	_
@@ -153,32 +153,32 @@
 32	.	_	PUNCT	.	_	28	punct	_	_
 
 # sent_id = dev-s55
-# text = Para os ingleses, o empate diante da França por 1 x 1 pode ser considera um bom resultado e agora eles esperam a vitória em cima dos adversários teoricamente mais fracos do grupo para se classificarem.
+# text = Para os ingleses, o empate diante da França por 1x1 pode ser considerado um bom resultado e agora eles esperam a vitória em cima dos adversários teoricamente mais fracos do grupo para se classificarem.
 1	Para	_	ADP	ADP	_	3	case	_	_
 2	os	_	DET	DET	_	3	det	_	_
-3	ingleses	inglês	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
+3	ingleses	inglês	NOUN	NOUN	_	17	obl	_	SpaceAfter=No
 4	,	_	PUNCT	.	_	3	punct	_	_
 5	o	_	DET	DET	_	6	det	_	_
-6	empate	empate	NOUN	NOUN	_	20	nsubj	_	_
+6	empate	empate	NOUN	NOUN	_	17	nsubj	_	_
 7	diante	diante	ADV	ADV	_	6	advmod	_	_
 8-9	da	_	_	_	_	_	_	_	_
 8	de	de	ADP	ADP	_	10	case	_	_
 9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	França	_	PROPN	PNOUN	_	7	nmod	_	_
 11	por	_	ADP	ADP	_	12	case	_	_
-12	1	_	NUM	NUM	NumType=Card	6	nmod	_	_
-13	x	_	PUNCT	.	_	14	punct	_	_
+12	1	_	NUM	NUM	NumType=Card	6	nmod	_	SpaceAfter=No
+13	x	_	PUNCT	.	_	14	punct	_	SpaceAfter=No
 14	1	_	NUM	NUM	NumType=Card	12	conj	_	_
-15	pode	_	AUX	AUX	_	20	aux	_	_
-16	ser	ser	AUX	AUX	_	20	aux:pass	_	_
-17	considera	considerar	AUX	AUX	_	20	cop	_	_
+15	pode	_	AUX	AUX	_	17	aux	_	_
+16	ser	ser	AUX	AUX	_	17	aux:pass	_	_
+17	considerado	considerar	VERB	_	_	0	root	_	_
 18	um	_	DET	DET	_	20	det	_	_
 19	bom	bom	ADJ	ADJ	_	20	amod	_	_
-20	resultado	resultado	NOUN	NOUN	_	0	root	_	_
+20	resultado	resultado	NOUN	NOUN	_	17	obj	_	_
 21	e	_	CCONJ	CONJ	_	24	cc	_	_
 22	agora	agora	ADV	ADV	_	24	advmod	_	_
 23	eles	_	PRON	PRON	_	24	nsubj	_	_
-24	esperam	esperar	VERB	VERB	_	20	conj	_	_
+24	esperam	esperar	VERB	VERB	_	17	conj	_	_
 25	a	_	DET	DET	_	26	det	_	_
 26	vitória	vitória	NOUN	NOUN	_	24	obj	_	_
 27	em	_	ADP	ADP	_	28	case	_	_
@@ -197,13 +197,13 @@
 38	para	_	ADP	ADP	_	40	mark	_	_
 39	se	_	PRON	PRON	_	40	obj	_	_
 40	classificarem	classificar	VERB	VERB	_	24	advcl	_	SpaceAfter=No
-41	.	_	PUNCT	.	_	20	punct	_	_
+41	.	_	PUNCT	.	_	17	punct	_	_
 
 # sent_id = dev-s56
 # text = Eu [sou] a vossa suplicante: tende compasão de [vosso amado], queridos demônios, Dagina (?)
 1	Eu	_	PRON	PRON	_	7	nsubj	_	_
 2	[	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
-3	sou	ser	VERB	VERB	_	7	cop	_	SpaceAfter=No
+3	sou	ser	AUX	_	_	7	cop	_	SpaceAfter=No
 4	]	_	PUNCT	.	_	7	punct	_	_
 5	a	_	DET	DET	_	7	det	_	_
 6	vossa	_	DET	DET	_	7	det:poss	_	_
