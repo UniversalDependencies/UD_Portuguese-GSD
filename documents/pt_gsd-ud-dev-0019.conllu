@@ -132,12 +132,12 @@
 4	sendo	ser	AUX	AUX	_	5	aux:pass	_	_
 5	abandonado	abandonar	VERB	VERB	_	1	ccomp	_	_
 6	e	_	CCONJ	CONJ	_	8	cc	_	_
-7	que	_	PRON	PRON	_	8	mark	_	_
+7	que	que	ADP	_	_	8	mark	_	_
 8	tinha	ter	VERB	VERB	_	5	conj	_	_
 9	muita	_	DET	DET	_	10	det	_	_
 10	coisa	coisa	NOUN	NOUN	_	8	obj	_	_
 11	pra	_	ADP	ADP	_	12	mark	_	_
-12	contar	contar	VERB	VERB	_	10	nmod	_	SpaceAfter=No
+12	contar	contar	VERB	VERB	_	10	acl	_	SpaceAfter=No
 13	.	_	PUNCT	.	_	1	punct	_	_
 
 # sent_id = dev-s185
@@ -272,10 +272,10 @@
 
 # sent_id = dev-s188
 # text = Logo após o encerramento dos trabalhos, os corintianos arrumam os pertences e partem para o Aeroporto de Cumbica onde, sem a presença de torcidas organizadas, embarcam para a capital argentina.
-1	Logo	logo	ADV	ADV	_	4	advmod	_	_
-2	após	_	ADP	ADP	_	4	case	_	_
+1	Logo	logo	CCONJ	_	_	11	cc	_	_
+2	após	_	ADP	ADP	_	11	obl	_	_
 3	o	_	DET	DET	_	4	det	_	_
-4	encerramento	encerramento	NOUN	NOUN	_	11	mark	_	_
+4	encerramento	encerramento	NOUN	NOUN	_	2	obl	_	_
 5-6	dos	_	_	_	_	_	_	_	_
 5	de	de	ADP	ADP	_	7	case	_	_
 6	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_

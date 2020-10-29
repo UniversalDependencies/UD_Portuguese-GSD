@@ -214,10 +214,10 @@
 34	.	_	PUNCT	.	_	9	punct	_	_
 
 # sent_id = dev-s137
-# text = A pré - estreia baiana aconteceu uma semana após o atentado num cinema numa cidade da Califórnia (Estados Unidos), em que 12 pessoas morreram vítimas do atirador James Holmes, de 24 anos.
+# text = A pré-estreia baiana aconteceu uma semana após o atentado num cinema numa cidade da Califórnia (Estados Unidos), em que 12 pessoas morreram vítimas do atirador James Holmes, de 24 anos.
 1	A	_	DET	DET	_	2	det	_	_
-2	pré	_	PART	PRT	_	6	nsubj	_	_
-3	-	_	PUNCT	.	_	2	punct	_	_
+2	pré	_	PART	PRT	_	6	nsubj	_	SpaceAfter=No
+3	-	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
 4	estreia	estreia	NOUN	NOUN	_	2	flat	_	_
 5	baiana	baiano	ADJ	ADJ	_	2	amod	_	_
 6	aconteceu	acontecer	VERB	VERB	_	0	root	_	_
@@ -240,15 +240,15 @@
 20	Califórnia	_	PROPN	PNOUN	_	17	nmod	_	_
 21	(	_	PUNCT	.	_	22	punct	_	SpaceAfter=No
 22	Estados	_	PROPN	PNOUN	_	20	appos	_	_
-23	Unidos	_	PROPN	PNOUN	_	22	amod	_	SpaceAfter=No
+23	Unidos	_	PROPN	PNOUN	_	22	flat:name	_	SpaceAfter=No
 24	)	_	PUNCT	.	_	22	punct	_	SpaceAfter=No
-25	,	_	PUNCT	.	_	31	punct	_	_
-26	em	_	ADP	ADP	_	27	case	_	_
-27	que	_	PRON	PRON	_	31	nmod	_	_
+25	,	_	PUNCT	.	_	30	punct	_	_
+26	em	em	ADP	ADP	_	30	mark	_	_
+27	que	que	ADP	PRON	_	30	mark	_	_
 28	12	_	NUM	NUM	NumType=Card	29	nummod	_	_
-29	pessoas	pessoa	NOUN	NOUN	_	31	nsubj	_	_
-30	morreram	morrer	AUX	AUX	_	31	cop	_	_
-31	vítimas	vítima	NOUN	NOUN	_	11	acl:relcl	_	_
+29	pessoas	pessoa	NOUN	NOUN	_	30	nsubj	_	_
+30	morreram	morrer	VERB	_	_	11	acl	_	_
+31	vítimas	vítima	NOUN	NOUN	_	30	obl	_	_
 32-33	do	_	_	_	_	_	_	_	_
 32	de	de	ADP	ADP	_	34	case	_	_
 33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_

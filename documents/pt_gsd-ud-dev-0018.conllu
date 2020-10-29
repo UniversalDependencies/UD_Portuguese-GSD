@@ -296,25 +296,25 @@
 25	.	_	PUNCT	.	_	20	punct	_	_
 
 # sent_id = dev-s178
-# text = O Minha Vida é o maior portal de saúde e bem - estar do Brasil, com mais de 8 milhões de pessoas únicas por mês, 14 milhões de cadastrados, 10 milhões de visitas por mês e 50 milhões de Page Views.
-1	O	_	DET	DET	_	3	det	_	_
-2	Minha	_	PROPN	PNOUN	_	3	det:poss	_	_
-3	Vida	_	PROPN	PNOUN	_	7	nsubj	_	_
+# text = O Minha Vida é o maior portal de saúde e bem-estar do Brasil, com mais de 8 milhões de pessoas únicas por mês, 14 milhões de cadastrados, 10 milhões de visitas por mês e 50 milhões de Page Views.
+1	O	_	DET	DET	_	2	det	_	_
+2	Minha	Minha	PROPN	PNOUN	_	7	nsubj	_	_
+3	Vida	Vida	PROPN	PNOUN	_	2	flat:name	_	_
 4	é	ser	AUX	AUX	_	7	cop	_	_
 5	o	_	DET	DET	_	7	det	_	_
 6	maior	maior	ADJ	ADJ	_	7	amod	_	_
 7	portal	portal	NOUN	NOUN	_	0	root	_	_
 8	de	_	ADP	ADP	_	9	case	_	_
 9	saúde	saúde	NOUN	NOUN	_	7	nmod	_	_
-10	e	_	CCONJ	CONJ	_	13	cc	_	_
-11	bem	bem	ADV	ADV	_	13	advmod	_	_
-12	-	_	PUNCT	.	_	13	punct	_	_
-13	estar	_	NOUN	NOUN	_	9	conj	_	_
+10	e	_	CCONJ	CONJ	_	11	cc	_	_
+11	bem	bem	ADV	ADV	_	9	conj	_	SpaceAfter=No
+12	-	_	PUNCT	.	_	13	punct	_	SpaceAfter=No
+13	estar	_	NOUN	NOUN	_	11	compound	_	_
 14-15	do	_	_	_	_	_	_	_	_
 14	de	de	ADP	ADP	_	16	case	_	_
 15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	Brasil	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	13	punct	_	_
+17	,	_	PUNCT	.	_	24	punct	_	_
 18	com	_	ADP	ADP	_	24	case	_	_
 19	mais	mais	ADV	ADV	_	22	advmod	_	_
 20	de	_	ADP	ADP	_	19	case	_	_

@@ -43,12 +43,12 @@
 23	.	_	PUNCT	.	_	5	punct	_	_
 
 # sent_id = dev-s113
-# text = Apesar dos números, o cientista político e professor da PUC - RJ Ricardo Ismael acredita que ainda é cedo para afirmar se o PSOL ocupará o lugar que cabia ao PT.
-1	Apesar	apesar	ADV	ADV	_	4	case	_	_
+# text = Apesar dos números, o cientista político e professor da PUC-RJ Ricardo Ismael acredita que ainda é cedo para afirmar se o PSOL ocupará o lugar que cabia ao PT.
+1	Apesar	apesar	ADV	ADV	_	18	advmod	_	_
 2-3	dos	_	_	_	_	_	_	_	_
-2	de	de	ADP	ADP	_	1	case	_	_
-3	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	1	det	_	_
-4	números	número	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
+2	de	de	ADP	ADP	_	4	case	_	_
+3	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	números	número	NOUN	NOUN	_	1	obl	_	SpaceAfter=No
 5	,	_	PUNCT	.	_	4	punct	_	_
 6	o	_	DET	DET	_	7	det	_	_
 7	cientista	cientista	NOUN	NOUN	_	18	nsubj	_	_
@@ -58,8 +58,8 @@
 11-12	da	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	13	case	_	_
 12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	PUC	_	PROPN	PNOUN	_	10	nmod	_	_
-14	-	_	PUNCT	.	_	13	punct	_	_
+13	PUC	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
+14	-	_	PUNCT	.	_	13	punct	_	SpaceAfter=No
 15	RJ	_	PROPN	PNOUN	_	13	flat	_	_
 16	Ricardo	_	PROPN	PNOUN	_	7	appos	_	_
 17	Ismael	_	PROPN	PNOUN	_	16	flat	_	_
