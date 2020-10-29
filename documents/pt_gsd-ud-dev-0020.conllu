@@ -139,7 +139,7 @@
 19	.	_	PUNCT	.	_	2	punct	_	_
 
 # sent_id = dev-s195
-# text = Mãe de Kingston, 6 anos, e Zuma, 4 anos, a cantora tentou voltar à banda formada por ela, Tom Dumont, Tony Kanal e Adrian Young em 2008, mas só neste ano conseguiu terminar o álbum Push &amp; Shove, com lançamento marcado para setembro.
+# text = Mãe de Kingston, 6 anos, e Zuma, 4 anos, a cantora tentou voltar à banda formada por ela, Tom Dumont, Tony Kanal e Adrian Young em 2008, mas só neste ano conseguiu terminar o álbum Push&Shove, com lançamento marcado para setembro.
 1	Mãe	mãe	NOUN	NOUN	_	16	nsubj	_	_
 2	de	_	ADP	ADP	_	3	case	_	_
 3	Kingston	_	PROPN	PNOUN	_	1	nmod	_	SpaceAfter=No
@@ -184,9 +184,9 @@
 41	terminar	terminar	VERB	VERB	_	40	xcomp	_	_
 42	o	_	DET	DET	_	43	det	_	_
 43	álbum	álbum	NOUN	NOUN	_	41	obj	_	_
-44	Push	_	PROPN	PNOUN	_	43	appos	_	_
-45	&amp;	_	PROPN	PNOUN	_	46	cc	_	_
-46	Shove	_	PROPN	PNOUN	_	44	conj	_	SpaceAfter=No
+44	Push	_	PROPN	PNOUN	_	43	appos	_	SpaceAfter=No
+45	&	_	SYM	_	_	46	cc	_	SpaceAfter=No
+46	Shove	_	PROPN	PNOUN	_	44	flat:name	_	SpaceAfter=No
 47	,	_	PUNCT	.	_	49	punct	_	_
 48	com	_	ADP	ADP	_	49	case	_	_
 49	lançamento	lançamento	NOUN	NOUN	_	43	nmod	_	_
@@ -318,13 +318,13 @@
 19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	luta	luta	NOUN	NOUN	_	15	nmod	_	_
 21	mundial	mundial	ADJ	ADJ	_	20	amod	_	_
-22	contra	_	ADP	ADP	_	32	case	_	_
-23	as	_	DET	DET	_	32	det	_	_
-24	doenças	doença	NOUN	NOUN	_	32	case	_	_
+22	contra	contra	ADP	ADP	_	24	case	_	_
+23	as	a	DET	DET	_	24	det	_	_
+24	doenças	doença	NOUN	NOUN	_	20	nmod	_	_
 25	sexualmente	sexualmente	ADV	ADV	_	26	advmod	_	_
-26	transmissíveis	transmissível	ADJ	ADJ	_	32	amod	_	_
+26	transmissíveis	transmissível	ADJ	ADJ	_	24	amod	_	_
 27	(	_	PUNCT	.	_	28	punct	_	SpaceAfter=No
-28	DST	_	NOUN	NOUN	_	32	appos	_	SpaceAfter=No
+28	DST	_	NOUN	NOUN	_	24	appos	_	SpaceAfter=No
 29	)	_	PUNCT	.	_	28	punct	_	_
 30	e	_	CCONJ	CONJ	_	32	cc	_	_
 31	à	_	DET	DET	_	32	det	_	_
@@ -352,15 +352,15 @@
 51	por	por	ADP	ADP	_	53	case	_	_
 52	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	53	det	_	_
 53	empresas	empresa	NOUN	NOUN	_	50	nmod	_	SpaceAfter=No
-54	,	_	PUNCT	.	_	56	punct	_	_
-55	principalmente	principalmente	ADV	ADV	_	56	advmod	_	_
+54	,	_	PUNCT	.	_	62	punct	_	_
+55	principalmente	principalmente	ADV	ADV	_	59	advmod	_	_
 56-57	nas	_	_	_	_	_	_	_	_
-56	em	em	ADP	ADP	_	53	case	_	_
-57	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	53	det	_	_
+56	em	em	ADP	ADP	_	62	case	_	_
+57	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	62	det	_	_
 58	de	_	ADP	ADP	_	62	case	_	_
 59	pequeno	pequeno	ADJ	ADJ	_	62	amod	_	_
-60	e	_	CCONJ	CONJ	_	59	cc	_	_
-61	médio	médio	ADJ	ADJ	_	59	amod	_	_
-62	porte	porte	NOUN	NOUN	_	56	nmod	_	SpaceAfter=No
+60	e	_	CCONJ	CONJ	_	61	cc	_	_
+61	médio	médio	ADJ	ADJ	_	59	conj	_	_
+62	porte	porte	NOUN	NOUN	_	53	nmod	_	SpaceAfter=No
 63	.	_	PUNCT	.	_	37	punct	_	_
 
