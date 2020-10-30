@@ -72,11 +72,11 @@
 12	seu	_	DET	DET	_	13	det:poss	_	_
 13	lado	lado	NOUN	NOUN	_	9	nmod	_	_
 14-15	do	_	_	_	_	_	_	_	_
-14	de	de	ADP	ADP	_	3	case	_	_
-15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-16	que	_	ADP	ADP	_	14	fixed	_	_
+14	de	de	ADP	ADP	_	16	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	que	_	PRON	_	_	3	obl	_	_
 17	em	_	ADP	ADP	_	18	case	_	_
-18	pessoas	pessoa	NOUN	NOUN	_	14	nmod	_	_
+18	pessoas	pessoa	NOUN	NOUN	_	16	nmod	_	_
 19	que	_	PRON	PRON	_	21	obj	_	_
 20	mal	mal	ADV	ADV	_	21	advmod	_	_
 21	conhece	conhecer	VERB	VERB	_	18	acl:relcl	_	SpaceAfter=No
@@ -246,10 +246,10 @@
 8	que	_	CCONJ	CONJ	_	10	mark	_	_
 9	seria	_	AUX	AUX	_	10	aux:pass	_	_
 10	resolvido	resolver	VERB	VERB	_	7	ccomp	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	38	punct	_	_
+11	,	_	PUNCT	.	_	13	punct	_	_
 12	em	_	ADP	ADP	_	13	case	_	_
 13	janeiro	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
-14	,	_	PUNCT	.	_	38	punct	_	_
+14	,	_	PUNCT	.	_	13	punct	_	_
 15	quando	_	CCONJ	CONJ	_	20	mark	_	_
 16	a	_	DET	DET	_	17	det	_	_
 17	prefeitura	prefeitura	NOUN	NOUN	_	20	nsubj	_	_
@@ -312,8 +312,8 @@
 
 # sent_id = dev-s289
 # text = 'Com certeza, o treino foi muito bom para a gente ver como é o gramado e o tamanho.
-1	'	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
-2	Com	_	PROPN	PNOUN	_	3	case	_	_
+1	'	'	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Com	com	ADP	_	_	3	case	_	_
 3	certeza	certeza	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
 4	,	_	PUNCT	.	_	3	punct	_	_
 5	o	_	DET	DET	_	6	det	_	_
