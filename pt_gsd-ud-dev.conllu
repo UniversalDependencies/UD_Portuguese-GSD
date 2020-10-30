@@ -1,9 +1,9 @@
 # sent_id = dev-s1
 # text = Até agora o Brasil conquistou 8 medalhas (2 ouros, 1 prata e 5 bronzes) e tem mais quatro pódios garantidos: dois no boxe, um no vôlei de praia masculino e um no futebol masculino.
-1	Até	_	ADP	ADP	_	2	mark	_	_
-2	agora	agora	ADV	ADV	_	5	nmod	_	_
+1	Até	até	ADP	ADP	_	2	mark	_	_
+2	agora	agora	ADV	ADV	_	5	advmod	_	_
 3	o	_	DET	DET	_	4	det	_	_
-4	Brasil	_	PROPN	PNOUN	_	5	nsubj	_	_
+4	Brasil	Brasil	PROPN	PNOUN	_	5	nsubj	_	_
 5	conquistou	conquistar	VERB	VERB	_	0	root	_	_
 6	8	_	NUM	NUM	NumType=Card	7	nummod	_	_
 7	medalhas	medalha	NOUN	NOUN	_	5	obj	_	_
@@ -21,9 +21,9 @@
 19	tem	ter	VERB	VERB	_	5	conj	_	_
 20	mais	mais	ADV	ADV	_	21	advmod	_	_
 21	quatro	_	NUM	NUM	NumType=Card	22	nummod	_	_
-22	pódios	pódio	NOUN	NOUN	_	23	nsubj	_	_
-23	garantidos	garantido	ADJ	ADJ	_	19	xcomp	_	SpaceAfter=No
-24	:	_	PUNCT	.	_	22	punct	_	_
+22	pódios	pódio	NOUN	NOUN	_	19	obj	_	_
+23	garantidos	garantido	ADJ	ADJ	_	22	amod	_	SpaceAfter=No
+24	:	:	PUNCT	_	_	25	punct	_	_
 25	dois	_	NUM	NUM	NumType=Card	22	appos	_	_
 26-27	no	_	_	_	_	_	_	_	_
 26	em	em	ADP	ADP	_	28	case	_	_
@@ -434,16 +434,16 @@
 
 # sent_id = dev-s17
 # text = "Eles não podem ser considerados marginais", disse ele.
-1	"	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
-2	Eles	_	PRON	PRON	_	7	nsubj:pass	_	_
-3	não	não	ADV	ADV	Polarity=Neg	7	advmod	_	_
-4	podem	_	AUX	AUX	_	7	aux	_	_
-5	ser	ser	AUX	AUX	_	7	aux:pass	_	_
-6	considerados	considerar	AUX	AUX	_	7	cop	_	_
-7	marginais	marginal	NOUN	NOUN	_	10	ccomp	_	SpaceAfter=No
+1	"	_	PUNCT	.	_	6	punct	_	SpaceAfter=No
+2	Eles	ele	PRON	PRON	_	6	nsubj:pass	_	_
+3	não	não	ADV	ADV	Polarity=Neg	6	advmod	_	_
+4	podem	poder	AUX	AUX	_	6	aux	_	_
+5	ser	ser	AUX	AUX	_	6	aux:pass	_	_
+6	considerados	considerar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+7	marginais	marginal	ADJ	_	Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
 8	"	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
 9	,	_	PUNCT	.	_	10	punct	_	_
-10	disse	dizer	VERB	VERB	_	0	root	_	_
+10	disse	dizer	VERB	VERB	_	6	parataxis	_	_
 11	ele	_	PRON	PRON	_	10	nsubj	_	SpaceAfter=No
 12	.	_	PUNCT	.	_	10	punct	_	_
 
@@ -652,7 +652,7 @@
 12	três	_	NUM	NUM	NumType=Card	13	nummod	_	_
 13	lançamentos	lançamento	NOUN	NOUN	_	11	obj	_	_
 14	em	_	ADP	ADP	_	15	case	_	_
-15	comunicado	comunicado	NOUN	NOUN	_	11	nmod	_	_
+15	comunicado	comunicado	NOUN	NOUN	_	11	obl	_	_
 16	enviado	enviar	VERB	VERB	_	15	acl:part	_	_
 17-18	à	_	_	_	_	_	_	_	_
 17	a	a	ADP	ADP	_	19	case	_	_
@@ -663,7 +663,7 @@
 21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	CES	_	PROPN	PNOUN	_	16	nmod	_	_
 23	2013	_	NUM	NUM	NumType=Card	22	appos	_	SpaceAfter=No
-24	:	_	PUNCT	.	_	13	punct	_	_
+24	:	_	PUNCT	.	_	26	punct	_	_
 25	o	_	DET	DET	_	26	det	_	_
 26	IdeaCentre	_	PROPN	PNOUN	_	13	appos	_	_
 27	A730	_	PROPN	PNOUN	_	26	flat	_	SpaceAfter=No
@@ -861,30 +861,30 @@
 31	.	_	PUNCT	.	_	5	punct	_	_
 
 # sent_id = dev-s31
-# text = Concentre - se nas suas aspirações e então siga com confiança na direção dos seus objetivos.
+# text = Concentre-se nas suas aspirações e então siga com confiança na direção dos seus objetivos.
+1-2	Concentre-se	_	_	_	_	_	_	_	_
 1	Concentre	concentrar	VERB	VERB	_	0	root	_	_
-2	-	_	PUNCT	.	_	10	punct	_	_
-3	se	_	PART	PRT	_	1	expl:pv	_	_
-4-5	nas	_	_	_	_	_	_	_	_
-4	em	em	ADP	ADP	_	7	case	_	_
-5	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
-6	suas	_	DET	DET	_	7	det:poss	_	_
-7	aspirações	aspiração	NOUN	NOUN	_	1	nmod	_	_
-8	e	_	CCONJ	CONJ	_	10	cc	_	_
-9	então	então	ADV	ADV	_	10	advmod	_	_
-10	siga	seguir	VERB	VERB	_	1	conj	_	_
-11	com	_	ADP	ADP	_	12	case	_	_
-12	confiança	confiança	NOUN	NOUN	_	10	nmod	_	_
-13-14	na	_	_	_	_	_	_	_	_
-13	em	em	ADP	ADP	_	15	case	_	_
-14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	direção	direção	NOUN	NOUN	_	10	nmod	_	_
-16-17	dos	_	_	_	_	_	_	_	_
-16	de	de	ADP	ADP	_	19	case	_	_
-17	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
-18	seus	_	DET	DET	_	19	det:poss	_	_
-19	objetivos	objetivo	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
-20	.	_	PUNCT	.	_	1	punct	_	_
+2	se	_	PART	PRT	_	1	expl:pv	_	_
+3-4	nas	_	_	_	_	_	_	_	_
+3	em	em	ADP	ADP	_	6	case	_	_
+4	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	suas	_	DET	DET	_	6	det:poss	_	_
+6	aspirações	aspiração	NOUN	NOUN	_	1	nmod	_	_
+7	e	_	CCONJ	CONJ	_	9	cc	_	_
+8	então	então	ADV	ADV	_	9	advmod	_	_
+9	siga	seguir	VERB	VERB	_	1	conj	_	_
+10	com	_	ADP	ADP	_	11	case	_	_
+11	confiança	confiança	NOUN	NOUN	_	9	nmod	_	_
+12-13	na	_	_	_	_	_	_	_	_
+12	em	em	ADP	ADP	_	14	case	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	direção	direção	NOUN	NOUN	_	9	nmod	_	_
+15-16	dos	_	_	_	_	_	_	_	_
+15	de	de	ADP	ADP	_	18	case	_	_
+16	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+17	seus	_	DET	DET	_	18	det:poss	_	_
+18	objetivos	objetivo	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
+19	.	_	PUNCT	.	_	1	punct	_	_
 
 # sent_id = dev-s32
 # text = Ele chegou para mim e disse que era melhor eu ser emprestado porque via potencial em mim.
@@ -1598,22 +1598,22 @@
 
 # sent_id = dev-s54
 # text = Depois do depoimento de Reimão, a juíza Ludmila Lins da Silva está tomando um novo depoimento dos quatro réus, que podem ser levados a júri popular.
-1	Depois	depois	ADV	ADV	_	4	case	_	_
+1	Depois	depois	ADV	ADV	_	16	case	_	_
 2-3	do	_	_	_	_	_	_	_	_
-2	de	de	ADP	ADP	_	1	case	_	_
-3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
-4	depoimento	depoimento	NOUN	NOUN	_	16	nmod	_	_
+2	de	de	ADP	ADP	_	4	case	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	depoimento	depoimento	NOUN	NOUN	_	1	obl	_	_
 5	de	_	ADP	ADP	_	6	case	_	_
 6	Reimão	_	PROPN	PNOUN	_	4	nmod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	4	punct	_	_
+7	,	,	PUNCT	_	_	16	punct	_	_
 8	a	_	DET	DET	_	9	det	_	_
 9	juíza	_	NOUN	NOUN	_	16	nsubj	_	_
 10	Ludmila	_	PROPN	PNOUN	_	9	appos	_	_
-11	Lins	_	PROPN	PNOUN	_	10	flat	_	_
+11	Lins	_	PROPN	PNOUN	_	10	flat:name	_	_
 12-13	da	_	_	_	_	_	_	_	_
 12	de	de	ADP	ADP	_	14	case	_	_
 13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	Silva	_	PROPN	PNOUN	_	10	nmod	_	_
+14	Silva	_	PROPN	PNOUN	_	10	flat:name	_	_
 15	está	estar	AUX	AUX	_	16	aux	_	_
 16	tomando	tomar	VERB	VERB	_	0	root	_	_
 17	um	_	DET	DET	_	19	det	_	_
@@ -1635,32 +1635,32 @@
 32	.	_	PUNCT	.	_	28	punct	_	_
 
 # sent_id = dev-s55
-# text = Para os ingleses, o empate diante da França por 1 x 1 pode ser considera um bom resultado e agora eles esperam a vitória em cima dos adversários teoricamente mais fracos do grupo para se classificarem.
+# text = Para os ingleses, o empate diante da França por 1x1 pode ser considerado um bom resultado e agora eles esperam a vitória em cima dos adversários teoricamente mais fracos do grupo para se classificarem.
 1	Para	_	ADP	ADP	_	3	case	_	_
 2	os	_	DET	DET	_	3	det	_	_
-3	ingleses	inglês	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
+3	ingleses	inglês	NOUN	NOUN	_	17	obl	_	SpaceAfter=No
 4	,	_	PUNCT	.	_	3	punct	_	_
 5	o	_	DET	DET	_	6	det	_	_
-6	empate	empate	NOUN	NOUN	_	20	nsubj	_	_
+6	empate	empate	NOUN	NOUN	_	17	nsubj	_	_
 7	diante	diante	ADV	ADV	_	6	advmod	_	_
 8-9	da	_	_	_	_	_	_	_	_
 8	de	de	ADP	ADP	_	10	case	_	_
 9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	França	_	PROPN	PNOUN	_	7	nmod	_	_
 11	por	_	ADP	ADP	_	12	case	_	_
-12	1	_	NUM	NUM	NumType=Card	6	nmod	_	_
-13	x	_	PUNCT	.	_	14	punct	_	_
+12	1	_	NUM	NUM	NumType=Card	6	nmod	_	SpaceAfter=No
+13	x	_	PUNCT	.	_	14	punct	_	SpaceAfter=No
 14	1	_	NUM	NUM	NumType=Card	12	conj	_	_
-15	pode	_	AUX	AUX	_	20	aux	_	_
-16	ser	ser	AUX	AUX	_	20	aux:pass	_	_
-17	considera	considerar	AUX	AUX	_	20	cop	_	_
+15	pode	_	AUX	AUX	_	17	aux	_	_
+16	ser	ser	AUX	AUX	_	17	aux:pass	_	_
+17	considerado	considerar	VERB	_	_	0	root	_	_
 18	um	_	DET	DET	_	20	det	_	_
 19	bom	bom	ADJ	ADJ	_	20	amod	_	_
-20	resultado	resultado	NOUN	NOUN	_	0	root	_	_
+20	resultado	resultado	NOUN	NOUN	_	17	obj	_	_
 21	e	_	CCONJ	CONJ	_	24	cc	_	_
 22	agora	agora	ADV	ADV	_	24	advmod	_	_
 23	eles	_	PRON	PRON	_	24	nsubj	_	_
-24	esperam	esperar	VERB	VERB	_	20	conj	_	_
+24	esperam	esperar	VERB	VERB	_	17	conj	_	_
 25	a	_	DET	DET	_	26	det	_	_
 26	vitória	vitória	NOUN	NOUN	_	24	obj	_	_
 27	em	_	ADP	ADP	_	28	case	_	_
@@ -1679,13 +1679,13 @@
 38	para	_	ADP	ADP	_	40	mark	_	_
 39	se	_	PRON	PRON	_	40	obj	_	_
 40	classificarem	classificar	VERB	VERB	_	24	advcl	_	SpaceAfter=No
-41	.	_	PUNCT	.	_	20	punct	_	_
+41	.	_	PUNCT	.	_	17	punct	_	_
 
 # sent_id = dev-s56
 # text = Eu [sou] a vossa suplicante: tende compasão de [vosso amado], queridos demônios, Dagina (?)
 1	Eu	_	PRON	PRON	_	7	nsubj	_	_
 2	[	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
-3	sou	ser	VERB	VERB	_	7	cop	_	SpaceAfter=No
+3	sou	ser	AUX	_	_	7	cop	_	SpaceAfter=No
 4	]	_	PUNCT	.	_	7	punct	_	_
 5	a	_	DET	DET	_	7	det	_	_
 6	vossa	_	DET	DET	_	7	det:poss	_	_
@@ -1876,12 +1876,12 @@
 46	.	_	PUNCT	.	_	10	punct	_	_
 
 # sent_id = dev-s62
-# text = O vídeo, McDonald 's: Um Cardápio de Escândalos, produzido pelo Sinthoresp (Sindicato dos Trabalhadores no Comércio e Serviços em Geral de Hospedagem, Gastronomia, Alimentação Preparada e Bebida a Varejo de São Paulo e Região) detonou o esquema ilegal de trabalho da maior rede mundial de fast food, o McDonald 's.
+# text = O vídeo, McDonald's: Um Cardápio de Escândalos, produzido pelo Sinthoresp (Sindicato dos Trabalhadores no Comércio e Serviços em Geral de Hospedagem, Gastronomia, Alimentação Preparada e Bebida a Varejo de São Paulo e Região) detonou o esquema ilegal de trabalho da maior rede mundial de fast food, o McDonald 's.
 1	O	_	DET	DET	_	2	det	_	_
 2	vídeo	vídeo	NOUN	NOUN	_	45	nsubj	_	SpaceAfter=No
 3	,	_	PUNCT	.	_	4	punct	_	_
-4	McDonald	_	PROPN	PNOUN	_	2	appos	_	_
-5	's	_	PROPN	PNOUN	_	4	det:poss	_	SpaceAfter=No
+4	McDonald	_	PROPN	PNOUN	_	2	appos	_	SpaceAfter=No
+5	's	_	PART	_	_	4	case	_	SpaceAfter=No
 6	:	_	PUNCT	.	_	4	punct	_	_
 7	Um	_	DET	DET	_	8	det	_	_
 8	Cardápio	_	PROPN	PNOUN	_	4	appos	_	_
@@ -1942,7 +1942,7 @@
 59	,	_	PUNCT	.	_	61	punct	_	_
 60	o	_	DET	DET	_	61	det	_	_
 61	McDonald	_	PROPN	PNOUN	_	54	appos	_	_
-62	's	_	PROPN	PNOUN	_	61	det:poss	_	SpaceAfter=No
+62	's	_	PART	_	_	61	case	_	SpaceAfter=No
 63	.	_	PUNCT	.	_	45	punct	_	_
 
 # sent_id = dev-s63
@@ -2024,18 +2024,18 @@
 5	ainda	ainda	ADV	ADV	_	6	advmod	_	_
 6	morreram	morrer	VERB	VERB	_	0	root	_	_
 7	Edes	_	PROPN	PNOUN	_	6	nsubj	_	_
-8	Moraes	_	PROPN	PNOUN	_	7	flat	_	_
+8	Moraes	_	PROPN	PNOUN	_	7	flat:name	_	_
 9-10	da	_	_	_	_	_	_	_	_
 9	de	de	ADP	ADP	_	11	case	_	_
 10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	Silva	_	PROPN	PNOUN	_	7	nmod	_	_
+11	Silva	_	PROPN	PNOUN	_	7	flat:name	_	_
 12	e	_	CCONJ	CONJ	_	13	cc	_	_
 13	Ilma	_	PROPN	PNOUN	_	7	conj	_	_
 14-15	da	_	_	_	_	_	_	_	_
 14	de	de	ADP	ADP	_	16	case	_	_
 15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	Silva	_	PROPN	PNOUN	_	13	nmod	_	_
-17	Florido	_	PROPN	PNOUN	_	16	case	_	SpaceAfter=No
+16	Silva	_	PROPN	PNOUN	_	13	flat:name	_	_
+17	Florido	_	PROPN	PNOUN	_	13	flat:name	_	SpaceAfter=No
 18	,	_	PUNCT	.	_	19	punct	_	_
 19	marido	marido	NOUN	NOUN	_	7	appos	_	_
 20	e	_	CCONJ	CONJ	_	21	cc	_	_
@@ -2757,7 +2757,7 @@
 # text = Entre as atrações musicais do evento, está a banda Brasas Seis.
 1	Entre	_	ADP	ADP	_	3	case	_	_
 2	as	_	DET	DET	_	3	det	_	_
-3	atrações	atração	NOUN	NOUN	_	9	nmod	_	_
+3	atrações	atração	NOUN	NOUN	_	9	obj	_	_
 4	musicais	musical	ADJ	ADJ	_	3	amod	_	_
 5-6	do	_	_	_	_	_	_	_	_
 5	de	de	ADP	ADP	_	7	case	_	_
@@ -2768,7 +2768,7 @@
 10	a	_	DET	DET	_	11	det	_	_
 11	banda	banda	NOUN	NOUN	_	9	nsubj	_	_
 12	Brasas	_	PROPN	PNOUN	_	11	appos	_	_
-13	Seis	_	PROPN	PNOUN	_	12	nummod	_	SpaceAfter=No
+13	Seis	_	PROPN	PNOUN	_	12	flat:name	_	SpaceAfter=No
 14	.	_	PUNCT	.	_	9	punct	_	_
 
 # sent_id = dev-s88
@@ -2779,9 +2779,9 @@
 4	primeiros	primeiro	ADJ	ADJ	_	6	amod	_	_
 5	dois	_	NUM	NUM	NumType=Card	6	nummod	_	_
 6	jogos	jogo	NOUN	NOUN	_	2	obj	_	_
-7	em	_	ADP	ADP	_	9	case	_	_
-8	Los	_	PROPN	PNOUN	_	9	det	_	_
-9	Angeles	_	PROPN	PNOUN	_	2	nmod	_	SpaceAfter=No
+7	em	_	ADP	ADP	_	8	case	_	_
+8	Los	_	PROPN	PNOUN	_	2	obl	_	_
+9	Angeles	_	PROPN	PNOUN	_	8	flat:name	_	SpaceAfter=No
 10	,	_	PUNCT	.	_	12	punct	_	_
 11	mas	_	CCONJ	CONJ	_	12	cc	_	_
 12	venceram	vencer	VERB	VERB	_	2	conj	_	_
@@ -2800,8 +2800,8 @@
 24	jogo	jogo	NOUN	NOUN	_	22	obj	_	_
 25	6	_	NUM	NUM	NumType=Card	24	appos	_	_
 26	em	_	ADP	ADP	_	28	case	_	_
-27	Los	_	PROPN	PNOUN	_	28	det	_	_
-28	Angeles	_	PROPN	PNOUN	_	22	nmod	_	SpaceAfter=No
+27	Los	_	PROPN	PNOUN	_	22	obl	_	_
+28	Angeles	_	PROPN	PNOUN	_	27	flat:name	_	SpaceAfter=No
 29	,	_	PUNCT	.	_	30	punct	_	_
 30	vencendo	vencer	VERB	VERB	_	12	acl:part	_	_
 31	sua	_	DET	DET	_	34	det:poss	_	_
@@ -3065,59 +3065,61 @@
 
 # sent_id = dev-s96
 # text = EMPRESA DE SANEAMENTO DE ARRAIAL DO CABO / RJ -- Foram prorrogadas as inscrições para o concurso da Empresa de Saneamento de Arraial do Cabo (ESAC), que visa ao preenchimento de 182 vagas do quadro de servidores do órgão.
-1	EMPRESA	_	PROPN	PNOUN	_	12	parataxis	_	_
-2	DE	_	PROPN	PNOUN	_	3	case	_	_
-3	SANEAMENTO	_	PROPN	PNOUN	_	1	nmod	_	_
-4	DE	_	PROPN	PNOUN	_	5	case	_	_
-5	ARRAIAL	_	PROPN	PNOUN	_	3	nmod	_	_
-6	DO	_	PROPN	PNOUN	_	7	case	_	_
-7	CABO	_	PROPN	PNOUN	_	5	nmod	_	_
-8	/	_	PUNCT	.	_	1	punct	_	_
-9	RJ	_	PROPN	PNOUN	_	1	appos	_	_
-10	--	_	PUNCT	.	_	12	punct	_	_
-11	Foram	_	AUX	AUX	_	12	aux:pass	_	_
-12	prorrogadas	prorrogar	VERB	VERB	_	0	root	_	_
-13	as	_	DET	DET	_	14	det	_	_
-14	inscrições	inscrição	NOUN	NOUN	_	12	nsubj:pass	_	_
-15	para	_	ADP	ADP	_	17	case	_	_
-16	o	_	DET	DET	_	17	det	_	_
-17	concurso	concurso	NOUN	NOUN	_	12	nmod	_	_
-18-19	da	_	_	_	_	_	_	_	_
-18	de	de	ADP	ADP	_	20	case	_	_
-19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	Empresa	_	PROPN	PNOUN	_	17	nmod	_	_
-21	de	_	ADP	ADP	_	22	case	_	_
-22	Saneamento	_	PROPN	PNOUN	_	20	nmod	_	_
-23	de	_	ADP	ADP	_	24	case	_	_
-24	Arraial	_	PROPN	PNOUN	_	20	nmod	_	_
-25-26	do	_	_	_	_	_	_	_	_
-25	de	de	ADP	ADP	_	27	case	_	_
-26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	Cabo	_	PROPN	PNOUN	_	24	nmod	_	_
-28	(	_	PUNCT	.	_	29	punct	_	SpaceAfter=No
-29	ESAC	_	PROPN	PNOUN	_	20	appos	_	SpaceAfter=No
-30	)	_	PUNCT	.	_	29	punct	_	SpaceAfter=No
-31	,	_	PUNCT	.	_	33	punct	_	_
-32	que	_	PRON	PRON	_	33	nsubj	_	_
-33	visa	visar	VERB	VERB	_	17	acl:relcl	_	_
-34-35	ao	_	_	_	_	_	_	_	_
-34	a	a	ADP	ADP	_	36	case	_	_
-35	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
-36	preenchimento	preenchimento	NOUN	NOUN	_	33	nmod	_	_
-37	de	_	ADP	ADP	_	39	case	_	_
-38	182	_	NUM	NUM	NumType=Card	39	nummod	_	_
-39	vagas	vaga	NOUN	NOUN	_	36	nmod	_	_
-40-41	do	_	_	_	_	_	_	_	_
-40	de	de	ADP	ADP	_	42	case	_	_
-41	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
-42	quadro	quadro	NOUN	NOUN	_	39	nmod	_	_
-43	de	_	ADP	ADP	_	44	case	_	_
-44	servidores	servidor	NOUN	NOUN	_	42	nmod	_	_
-45-46	do	_	_	_	_	_	_	_	_
-45	de	de	ADP	ADP	_	47	case	_	_
-46	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
-47	órgão	órgão	NOUN	NOUN	_	44	nmod	_	SpaceAfter=No
-48	.	_	PUNCT	.	_	12	punct	_	_
+1	EMPRESA	empresa	NOUN	PNOUN	_	13	parataxis	_	_
+2	DE	de	ADP	PNOUN	_	3	case	_	_
+3	SANEAMENTO	saneamento	NOUN	PNOUN	_	1	nmod	_	_
+4	DE	_	ADP	PNOUN	_	5	case	_	_
+5	ARRAIAL	Arraial	PROPN	PNOUN	_	1	nmod	_	_
+6-7	DO	_	_	_	_	_	_	_	_
+6	de	de	ADP	PNOUN	_	8	case	_	_
+7	o	o	DET	PNOUN	_	8	det	_	_
+8	CABO	_	PROPN	PNOUN	_	5	flat:name	_	_
+9	/	_	PUNCT	.	_	10	punct	_	_
+10	RJ	_	PROPN	PNOUN	_	5	appos	_	_
+11	--	_	PUNCT	.	_	13	punct	_	_
+12	Foram	_	AUX	AUX	_	13	aux:pass	_	_
+13	prorrogadas	prorrogar	VERB	VERB	_	0	root	_	_
+14	as	_	DET	DET	_	15	det	_	_
+15	inscrições	inscrição	NOUN	NOUN	_	13	nsubj:pass	_	_
+16	para	_	ADP	ADP	_	18	case	_	_
+17	o	_	DET	DET	_	18	det	_	_
+18	concurso	concurso	NOUN	NOUN	_	13	nmod	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	ADP	_	21	case	_	_
+20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Empresa	_	PROPN	PNOUN	_	18	nmod	_	_
+22	de	_	ADP	ADP	_	23	case	_	_
+23	Saneamento	_	PROPN	PNOUN	_	21	nmod	_	_
+24	de	_	ADP	ADP	_	25	case	_	_
+25	Arraial	_	PROPN	PNOUN	_	21	nmod	_	_
+26-27	do	_	_	_	_	_	_	_	_
+26	de	de	ADP	ADP	_	28	case	_	_
+27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	Cabo	_	PROPN	PNOUN	_	25	nmod	_	_
+29	(	_	PUNCT	.	_	30	punct	_	SpaceAfter=No
+30	ESAC	_	PROPN	PNOUN	_	21	appos	_	SpaceAfter=No
+31	)	_	PUNCT	.	_	30	punct	_	SpaceAfter=No
+32	,	_	PUNCT	.	_	34	punct	_	_
+33	que	_	PRON	PRON	_	34	nsubj	_	_
+34	visa	visar	VERB	VERB	_	18	acl:relcl	_	_
+35-36	ao	_	_	_	_	_	_	_	_
+35	a	a	ADP	ADP	_	37	case	_	_
+36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	preenchimento	preenchimento	NOUN	NOUN	_	34	nmod	_	_
+38	de	_	ADP	ADP	_	40	case	_	_
+39	182	_	NUM	NUM	NumType=Card	40	nummod	_	_
+40	vagas	vaga	NOUN	NOUN	_	37	nmod	_	_
+41-42	do	_	_	_	_	_	_	_	_
+41	de	de	ADP	ADP	_	43	case	_	_
+42	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	quadro	quadro	NOUN	NOUN	_	40	nmod	_	_
+44	de	_	ADP	ADP	_	45	case	_	_
+45	servidores	servidor	NOUN	NOUN	_	43	nmod	_	_
+46-47	do	_	_	_	_	_	_	_	_
+46	de	de	ADP	ADP	_	48	case	_	_
+47	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	órgão	órgão	NOUN	NOUN	_	45	nmod	_	SpaceAfter=No
+49	.	_	PUNCT	.	_	13	punct	_	_
 
 # sent_id = dev-s97
 # text = Tome cuidado com inimigos declarados.
@@ -3557,12 +3559,12 @@
 23	.	_	PUNCT	.	_	5	punct	_	_
 
 # sent_id = dev-s113
-# text = Apesar dos números, o cientista político e professor da PUC - RJ Ricardo Ismael acredita que ainda é cedo para afirmar se o PSOL ocupará o lugar que cabia ao PT.
-1	Apesar	apesar	ADV	ADV	_	4	case	_	_
+# text = Apesar dos números, o cientista político e professor da PUC-RJ Ricardo Ismael acredita que ainda é cedo para afirmar se o PSOL ocupará o lugar que cabia ao PT.
+1	Apesar	apesar	ADV	ADV	_	18	advmod	_	_
 2-3	dos	_	_	_	_	_	_	_	_
-2	de	de	ADP	ADP	_	1	case	_	_
-3	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	1	det	_	_
-4	números	número	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
+2	de	de	ADP	ADP	_	4	case	_	_
+3	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	números	número	NOUN	NOUN	_	1	obl	_	SpaceAfter=No
 5	,	_	PUNCT	.	_	4	punct	_	_
 6	o	_	DET	DET	_	7	det	_	_
 7	cientista	cientista	NOUN	NOUN	_	18	nsubj	_	_
@@ -3572,8 +3574,8 @@
 11-12	da	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	13	case	_	_
 12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	PUC	_	PROPN	PNOUN	_	10	nmod	_	_
-14	-	_	PUNCT	.	_	13	punct	_	_
+13	PUC	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
+14	-	_	PUNCT	.	_	13	punct	_	SpaceAfter=No
 15	RJ	_	PROPN	PNOUN	_	13	flat	_	_
 16	Ricardo	_	PROPN	PNOUN	_	7	appos	_	_
 17	Ismael	_	PROPN	PNOUN	_	16	flat	_	_
@@ -3987,14 +3989,14 @@
 # text = SN 1054 (ou Supernova do Caranguejo) foi uma supernova amplamente vista da Terra a partir de de 4 de julho de 1054.
 1	SN	_	PROPN	PNOUN	_	12	nsubj	_	_
 2	1054	_	NUM	NUM	NumType=Card	1	appos	_	_
-3	(	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
+3	(	_	PUNCT	.	_	5	punct	_	SpaceAfter=No
 4	ou	_	CCONJ	CONJ	_	5	cc	_	_
-5	Supernova	_	PROPN	PNOUN	_	1	conj	_	_
+5	Supernova	_	PROPN	PNOUN	_	1	appos	_	_
 6-7	do	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	8	case	_	_
 7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	Caranguejo	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
-9	)	_	PUNCT	.	_	4	punct	_	_
+9	)	_	PUNCT	.	_	5	punct	_	_
 10	foi	_	AUX	AUX	_	12	cop	_	_
 11	uma	_	DET	DET	_	12	det	_	_
 12	supernova	supernova	NOUN	NOUN	_	0	root	_	_
@@ -4257,10 +4259,10 @@
 34	.	_	PUNCT	.	_	9	punct	_	_
 
 # sent_id = dev-s137
-# text = A pré - estreia baiana aconteceu uma semana após o atentado num cinema numa cidade da Califórnia (Estados Unidos), em que 12 pessoas morreram vítimas do atirador James Holmes, de 24 anos.
+# text = A pré-estreia baiana aconteceu uma semana após o atentado num cinema numa cidade da Califórnia (Estados Unidos), em que 12 pessoas morreram vítimas do atirador James Holmes, de 24 anos.
 1	A	_	DET	DET	_	2	det	_	_
-2	pré	_	PART	PRT	_	6	nsubj	_	_
-3	-	_	PUNCT	.	_	2	punct	_	_
+2	pré	_	PART	PRT	_	6	nsubj	_	SpaceAfter=No
+3	-	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
 4	estreia	estreia	NOUN	NOUN	_	2	flat	_	_
 5	baiana	baiano	ADJ	ADJ	_	2	amod	_	_
 6	aconteceu	acontecer	VERB	VERB	_	0	root	_	_
@@ -4283,15 +4285,15 @@
 20	Califórnia	_	PROPN	PNOUN	_	17	nmod	_	_
 21	(	_	PUNCT	.	_	22	punct	_	SpaceAfter=No
 22	Estados	_	PROPN	PNOUN	_	20	appos	_	_
-23	Unidos	_	PROPN	PNOUN	_	22	amod	_	SpaceAfter=No
+23	Unidos	_	PROPN	PNOUN	_	22	flat:name	_	SpaceAfter=No
 24	)	_	PUNCT	.	_	22	punct	_	SpaceAfter=No
-25	,	_	PUNCT	.	_	31	punct	_	_
-26	em	_	ADP	ADP	_	27	case	_	_
-27	que	_	PRON	PRON	_	31	nmod	_	_
+25	,	_	PUNCT	.	_	30	punct	_	_
+26	em	em	ADP	ADP	_	30	mark	_	_
+27	que	que	ADP	PRON	_	30	mark	_	_
 28	12	_	NUM	NUM	NumType=Card	29	nummod	_	_
-29	pessoas	pessoa	NOUN	NOUN	_	31	nsubj	_	_
-30	morreram	morrer	AUX	AUX	_	31	cop	_	_
-31	vítimas	vítima	NOUN	NOUN	_	11	acl:relcl	_	_
+29	pessoas	pessoa	NOUN	NOUN	_	30	nsubj	_	_
+30	morreram	morrer	VERB	_	_	11	acl	_	_
+31	vítimas	vítima	NOUN	NOUN	_	30	obl	_	_
 32-33	do	_	_	_	_	_	_	_	_
 32	de	de	ADP	ADP	_	34	case	_	_
 33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
@@ -4453,7 +4455,7 @@
 20	.	_	PUNCT	.	_	11	punct	_	_
 
 # sent_id = dev-s142
-# text = Existe a percepção de que, no futuro os serviços prestados aos passageiros, e a própria expansão dos aeroportos, serão financiados pela transformação de suas instalações em grandes complexos comerciais, englobando shopping - centers, hotéis, e o serviço de transporte terrestre de passageiros.
+# text = Existe a percepção de que, no futuro os serviços prestados aos passageiros, e a própria expansão dos aeroportos, serão financiados pela transformação de suas instalações em grandes complexos comerciais, englobando shopping-centers, hotéis, e o serviço de transporte terrestre de passageiros.
 1	Existe	existir	VERB	VERB	_	0	root	_	_
 2	a	_	DET	DET	_	3	det	_	_
 3	percepção	percepção	NOUN	NOUN	_	1	obj	_	_
@@ -4496,9 +4498,9 @@
 36	comerciais	comercial	ADJ	ADJ	_	35	amod	_	SpaceAfter=No
 37	,	_	PUNCT	.	_	38	punct	_	_
 38	englobando	englobar	VERB	VERB	_	35	acl:part	_	_
-39	shopping	shopping	NOUN	NOUN	_	38	obj	_	_
-40	-	_	PUNCT	.	_	43	punct	_	_
-41	centers	_	NOUN	NOUN	_	39	flat	_	SpaceAfter=No
+39	shopping	shopping	NOUN	NOUN	_	38	obj	_	SpaceAfter=No
+40	-	_	PUNCT	.	_	41	punct	_	SpaceAfter=No
+41	centers	_	NOUN	NOUN	_	39	compound	_	SpaceAfter=No
 42	,	_	PUNCT	.	_	43	punct	_	_
 43	hotéis	hotel	NOUN	NOUN	_	39	conj	_	SpaceAfter=No
 44	,	_	PUNCT	.	_	47	punct	_	_
@@ -5704,25 +5706,25 @@
 25	.	_	PUNCT	.	_	20	punct	_	_
 
 # sent_id = dev-s178
-# text = O Minha Vida é o maior portal de saúde e bem - estar do Brasil, com mais de 8 milhões de pessoas únicas por mês, 14 milhões de cadastrados, 10 milhões de visitas por mês e 50 milhões de Page Views.
-1	O	_	DET	DET	_	3	det	_	_
-2	Minha	_	PROPN	PNOUN	_	3	det:poss	_	_
-3	Vida	_	PROPN	PNOUN	_	7	nsubj	_	_
+# text = O Minha Vida é o maior portal de saúde e bem-estar do Brasil, com mais de 8 milhões de pessoas únicas por mês, 14 milhões de cadastrados, 10 milhões de visitas por mês e 50 milhões de Page Views.
+1	O	_	DET	DET	_	2	det	_	_
+2	Minha	Minha	PROPN	PNOUN	_	7	nsubj	_	_
+3	Vida	Vida	PROPN	PNOUN	_	2	flat:name	_	_
 4	é	ser	AUX	AUX	_	7	cop	_	_
 5	o	_	DET	DET	_	7	det	_	_
 6	maior	maior	ADJ	ADJ	_	7	amod	_	_
 7	portal	portal	NOUN	NOUN	_	0	root	_	_
 8	de	_	ADP	ADP	_	9	case	_	_
 9	saúde	saúde	NOUN	NOUN	_	7	nmod	_	_
-10	e	_	CCONJ	CONJ	_	13	cc	_	_
-11	bem	bem	ADV	ADV	_	13	advmod	_	_
-12	-	_	PUNCT	.	_	13	punct	_	_
-13	estar	_	NOUN	NOUN	_	9	conj	_	_
+10	e	_	CCONJ	CONJ	_	11	cc	_	_
+11	bem	bem	ADV	ADV	_	9	conj	_	SpaceAfter=No
+12	-	_	PUNCT	.	_	13	punct	_	SpaceAfter=No
+13	estar	_	NOUN	NOUN	_	11	compound	_	_
 14-15	do	_	_	_	_	_	_	_	_
 14	de	de	ADP	ADP	_	16	case	_	_
 15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	Brasil	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	13	punct	_	_
+17	,	_	PUNCT	.	_	24	punct	_	_
 18	com	_	ADP	ADP	_	24	case	_	_
 19	mais	mais	ADV	ADV	_	22	advmod	_	_
 20	de	_	ADP	ADP	_	19	case	_	_
@@ -5920,12 +5922,12 @@
 4	sendo	ser	AUX	AUX	_	5	aux:pass	_	_
 5	abandonado	abandonar	VERB	VERB	_	1	ccomp	_	_
 6	e	_	CCONJ	CONJ	_	8	cc	_	_
-7	que	_	PRON	PRON	_	8	mark	_	_
+7	que	que	ADP	_	_	8	mark	_	_
 8	tinha	ter	VERB	VERB	_	5	conj	_	_
 9	muita	_	DET	DET	_	10	det	_	_
 10	coisa	coisa	NOUN	NOUN	_	8	obj	_	_
 11	pra	_	ADP	ADP	_	12	mark	_	_
-12	contar	contar	VERB	VERB	_	10	nmod	_	SpaceAfter=No
+12	contar	contar	VERB	VERB	_	10	acl	_	SpaceAfter=No
 13	.	_	PUNCT	.	_	1	punct	_	_
 
 # sent_id = dev-s185
@@ -6060,10 +6062,10 @@
 
 # sent_id = dev-s188
 # text = Logo após o encerramento dos trabalhos, os corintianos arrumam os pertences e partem para o Aeroporto de Cumbica onde, sem a presença de torcidas organizadas, embarcam para a capital argentina.
-1	Logo	logo	ADV	ADV	_	4	advmod	_	_
-2	após	_	ADP	ADP	_	4	case	_	_
+1	Logo	logo	CCONJ	_	_	11	cc	_	_
+2	após	_	ADP	ADP	_	11	obl	_	_
 3	o	_	DET	DET	_	4	det	_	_
-4	encerramento	encerramento	NOUN	NOUN	_	11	mark	_	_
+4	encerramento	encerramento	NOUN	NOUN	_	2	obl	_	_
 5-6	dos	_	_	_	_	_	_	_	_
 5	de	de	ADP	ADP	_	7	case	_	_
 6	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
@@ -6288,7 +6290,7 @@
 19	.	_	PUNCT	.	_	2	punct	_	_
 
 # sent_id = dev-s195
-# text = Mãe de Kingston, 6 anos, e Zuma, 4 anos, a cantora tentou voltar à banda formada por ela, Tom Dumont, Tony Kanal e Adrian Young em 2008, mas só neste ano conseguiu terminar o álbum Push &amp; Shove, com lançamento marcado para setembro.
+# text = Mãe de Kingston, 6 anos, e Zuma, 4 anos, a cantora tentou voltar à banda formada por ela, Tom Dumont, Tony Kanal e Adrian Young em 2008, mas só neste ano conseguiu terminar o álbum Push&Shove, com lançamento marcado para setembro.
 1	Mãe	mãe	NOUN	NOUN	_	16	nsubj	_	_
 2	de	_	ADP	ADP	_	3	case	_	_
 3	Kingston	_	PROPN	PNOUN	_	1	nmod	_	SpaceAfter=No
@@ -6333,9 +6335,9 @@
 41	terminar	terminar	VERB	VERB	_	40	xcomp	_	_
 42	o	_	DET	DET	_	43	det	_	_
 43	álbum	álbum	NOUN	NOUN	_	41	obj	_	_
-44	Push	_	PROPN	PNOUN	_	43	appos	_	_
-45	&amp;	_	PROPN	PNOUN	_	46	cc	_	_
-46	Shove	_	PROPN	PNOUN	_	44	conj	_	SpaceAfter=No
+44	Push	_	PROPN	PNOUN	_	43	appos	_	SpaceAfter=No
+45	&	_	SYM	_	_	46	cc	_	SpaceAfter=No
+46	Shove	_	PROPN	PNOUN	_	44	flat:name	_	SpaceAfter=No
 47	,	_	PUNCT	.	_	49	punct	_	_
 48	com	_	ADP	ADP	_	49	case	_	_
 49	lançamento	lançamento	NOUN	NOUN	_	43	nmod	_	_
@@ -6467,13 +6469,13 @@
 19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	luta	luta	NOUN	NOUN	_	15	nmod	_	_
 21	mundial	mundial	ADJ	ADJ	_	20	amod	_	_
-22	contra	_	ADP	ADP	_	32	case	_	_
-23	as	_	DET	DET	_	32	det	_	_
-24	doenças	doença	NOUN	NOUN	_	32	case	_	_
+22	contra	contra	ADP	ADP	_	24	case	_	_
+23	as	a	DET	DET	_	24	det	_	_
+24	doenças	doença	NOUN	NOUN	_	20	nmod	_	_
 25	sexualmente	sexualmente	ADV	ADV	_	26	advmod	_	_
-26	transmissíveis	transmissível	ADJ	ADJ	_	32	amod	_	_
+26	transmissíveis	transmissível	ADJ	ADJ	_	24	amod	_	_
 27	(	_	PUNCT	.	_	28	punct	_	SpaceAfter=No
-28	DST	_	NOUN	NOUN	_	32	appos	_	SpaceAfter=No
+28	DST	_	NOUN	NOUN	_	24	appos	_	SpaceAfter=No
 29	)	_	PUNCT	.	_	28	punct	_	_
 30	e	_	CCONJ	CONJ	_	32	cc	_	_
 31	à	_	DET	DET	_	32	det	_	_
@@ -6501,16 +6503,16 @@
 51	por	por	ADP	ADP	_	53	case	_	_
 52	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	53	det	_	_
 53	empresas	empresa	NOUN	NOUN	_	50	nmod	_	SpaceAfter=No
-54	,	_	PUNCT	.	_	56	punct	_	_
-55	principalmente	principalmente	ADV	ADV	_	56	advmod	_	_
+54	,	_	PUNCT	.	_	62	punct	_	_
+55	principalmente	principalmente	ADV	ADV	_	59	advmod	_	_
 56-57	nas	_	_	_	_	_	_	_	_
-56	em	em	ADP	ADP	_	53	case	_	_
-57	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	53	det	_	_
+56	em	em	ADP	ADP	_	62	case	_	_
+57	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	62	det	_	_
 58	de	_	ADP	ADP	_	62	case	_	_
 59	pequeno	pequeno	ADJ	ADJ	_	62	amod	_	_
-60	e	_	CCONJ	CONJ	_	59	cc	_	_
-61	médio	médio	ADJ	ADJ	_	59	amod	_	_
-62	porte	porte	NOUN	NOUN	_	56	nmod	_	SpaceAfter=No
+60	e	_	CCONJ	CONJ	_	61	cc	_	_
+61	médio	médio	ADJ	ADJ	_	59	conj	_	_
+62	porte	porte	NOUN	NOUN	_	53	nmod	_	SpaceAfter=No
 63	.	_	PUNCT	.	_	37	punct	_	_
 
 # sent_id = dev-s200
@@ -6727,7 +6729,7 @@
 10	valor	valor	NOUN	NOUN	_	12	nsubj	_	_
 11	pode	_	AUX	AUX	_	12	aux	_	_
 12	chegar	chegar	VERB	VERB	_	0	root	_	_
-13	até	até	ADV	ADV	_	18	advmod	_	_
+13	até	até	ADV	ADV	_	12	advmod	_	_
 14	a	_	ADP	ADP	_	15	case	_	_
 15	R	r	NOUN	NOUN	_	12	nmod	_	_
 16	$	_	SYM	SYM	_	15	flat	_	_
@@ -6739,8 +6741,8 @@
 22	quitado	quitar	VERB	VERB	_	12	advcl	_	_
 23	antes	antes	ADV	ADV	_	26	case	_	_
 24-25	do	_	_	_	_	_	_	_	_
-24	de	de	ADP	ADP	_	23	case	_	_
-25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+24	de	de	ADP	ADP	_	26	case	_	_
+25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	prazo	prazo	NOUN	NOUN	_	22	nmod	_	_
 27	estipulado	estipular	VERB	VERB	_	26	acl:part	_	SpaceAfter=No
 28	,	_	PUNCT	.	_	30	punct	_	_
@@ -6981,13 +6983,13 @@
 3	álbum	álbum	NOUN	NOUN	_	5	nmod	_	_
 4	Elephunk	_	PROPN	PNOUN	_	3	appos	_	_
 5	veio	_	VERB	VERB	_	0	root	_	_
-6	"	_	PUNCT	.	_	8	punct	_	SpaceAfter=No
-7	Where	_	PROPN	PNOUN	_	8	advmod	_	_
-8	is	_	PROPN	PNOUN	_	5	csubj	_	_
+6	"	_	PUNCT	.	_	10	punct	_	SpaceAfter=No
+7	Where	_	ADV	_	_	10	advmod	_	_
+8	is	_	AUX	_	_	10	cop	_	_
 9	the	_	DET	DET	_	10	det	_	_
-10	Love	_	PROPN	PNOUN	_	8	nsubj	_	SpaceAfter=No
+10	Love	_	PROPN	PNOUN	_	5	ccomp	_	SpaceAfter=No
 11	?	_	PUNCT	.	_	10	punct	_	SpaceAfter=No
-12	"	_	PUNCT	.	_	5	punct	_	_
+12	"	_	PUNCT	.	_	10	punct	_	_
 
 # sent_id = dev-s215
 # text = Também foi convidado para a audiência pública o advogado - geral da União, Luís Inácio Lucena Adams, além do presidente da Embrapa, Pedro Antonio Arraes Pereira, e do presidente da Agencia Nacional de Águas (ANA), Vicente Andreu Guillo.
@@ -7116,8 +7118,8 @@
 # text = Apesar do indício apenas do arrombamento, foi realizado um levantamento das mercadorias durante a manhã.
 1	Apesar	apesar	ADV	ADV	_	4	case	_	_
 2-3	do	_	_	_	_	_	_	_	_
-2	de	de	ADP	ADP	_	1	case	_	_
-3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	de	de	ADP	ADP	_	4	case	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	indício	indício	NOUN	NOUN	_	11	nmod	_	_
 5	apenas	apenas	ADV	ADV	_	8	advmod	_	_
 6-7	do	_	_	_	_	_	_	_	_
@@ -7192,7 +7194,7 @@
 13	Segurança	_	PROPN	PNOUN	_	10	nmod	_	_
 14	Pública	_	PROPN	PNOUN	_	13	amod	_	_
 15	e	_	CCONJ	CONJ	_	17	cc	_	_
-16	eleito	eleger	AUX	AUX	_	17	cop	_	_
+16	eleito	eleito	ADJ	_	_	17	amod	_	_
 17	senador	senador	NOUN	NOUN	_	10	conj	_	_
 18	por	_	ADP	ADP	_	20	case	_	_
 19	duas	_	NUM	NUM	NumType=Card	20	nummod	_	_
@@ -7552,8 +7554,8 @@
 7	Governo	_	PROPN	PNOUN	_	3	nmod	_	_
 8	depois	depois	ADV	ADV	_	11	case	_	_
 9-10	da	_	_	_	_	_	_	_	_
-9	de	de	ADP	ADP	_	8	case	_	_
-10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+9	de	de	ADP	ADP	_	11	case	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	divisão	divisão	NOUN	NOUN	_	3	nmod	_	_
 12-13	do	_	_	_	_	_	_	_	_
 12	de	de	ADP	ADP	_	14	case	_	_
@@ -7640,7 +7642,7 @@
 10	de	_	ADP	ADP	_	11	case	_	_
 11	Cajamarca	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
 12	,	_	PUNCT	.	_	9	punct	_	_
-13	localizada	localizar	VERB	VERB	_	11	acl:part	_	_
+13	localizada	localizar	VERB	VERB	_	9	acl:part	_	_
 14-15	na	_	_	_	_	_	_	_	_
 14	em	em	ADP	ADP	_	16	case	_	_
 15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -8017,9 +8019,9 @@
 
 # sent_id = dev-s253
 # text = Hamdan virou motorista que transportava armas e outras mercadorias entre algumas bases da Al - Qaeda no Afeganistão, e mais tarde motorista pessoal e guarda - costas de Bin Laden, de acordo com documentos do tribunal americano.
-1	Hamdan	_	PROPN	PNOUN	_	3	nsubj	_	_
-2	virou	virar	AUX	AUX	_	3	cop	_	_
-3	motorista	motorista	NOUN	NOUN	_	0	root	_	_
+1	Hamdan	_	PROPN	PNOUN	_	2	nsubj	_	_
+2	virou	virar	VERB	_	_	0	root	_	_
+3	motorista	motorista	NOUN	NOUN	_	2	obj	_	_
 4	que	_	PRON	PRON	_	5	nsubj	_	_
 5	transportava	transportar	VERB	VERB	_	3	acl:relcl	_	_
 6	armas	arma	NOUN	NOUN	_	5	obj	_	_
@@ -8868,11 +8870,11 @@
 12	seu	_	DET	DET	_	13	det:poss	_	_
 13	lado	lado	NOUN	NOUN	_	9	nmod	_	_
 14-15	do	_	_	_	_	_	_	_	_
-14	de	de	ADP	ADP	_	3	case	_	_
-15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-16	que	_	ADP	ADP	_	14	fixed	_	_
+14	de	de	ADP	ADP	_	16	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	que	_	PRON	_	_	3	obl	_	_
 17	em	_	ADP	ADP	_	18	case	_	_
-18	pessoas	pessoa	NOUN	NOUN	_	14	nmod	_	_
+18	pessoas	pessoa	NOUN	NOUN	_	16	nmod	_	_
 19	que	_	PRON	PRON	_	21	obj	_	_
 20	mal	mal	ADV	ADV	_	21	advmod	_	_
 21	conhece	conhecer	VERB	VERB	_	18	acl:relcl	_	SpaceAfter=No
@@ -9042,10 +9044,10 @@
 8	que	_	CCONJ	CONJ	_	10	mark	_	_
 9	seria	_	AUX	AUX	_	10	aux:pass	_	_
 10	resolvido	resolver	VERB	VERB	_	7	ccomp	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	38	punct	_	_
+11	,	_	PUNCT	.	_	13	punct	_	_
 12	em	_	ADP	ADP	_	13	case	_	_
 13	janeiro	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
-14	,	_	PUNCT	.	_	38	punct	_	_
+14	,	_	PUNCT	.	_	13	punct	_	_
 15	quando	_	CCONJ	CONJ	_	20	mark	_	_
 16	a	_	DET	DET	_	17	det	_	_
 17	prefeitura	prefeitura	NOUN	NOUN	_	20	nsubj	_	_
@@ -9108,8 +9110,8 @@
 
 # sent_id = dev-s289
 # text = 'Com certeza, o treino foi muito bom para a gente ver como é o gramado e o tamanho.
-1	'	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
-2	Com	_	PROPN	PNOUN	_	3	case	_	_
+1	'	'	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Com	com	ADP	_	_	3	case	_	_
 3	certeza	certeza	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
 4	,	_	PUNCT	.	_	3	punct	_	_
 5	o	_	DET	DET	_	6	det	_	_
