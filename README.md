@@ -93,7 +93,7 @@ UPOS: converted from manual
 XPOS: manual native
 Features: not available
 Relations: converted from manual
-Contributors: McDonald, Ryan; Nivre, Joakim; Zeman, Daniel; Rademaker, Alexandre; Chalub, Fabricio; Ramisch, Carlos
+Contributors: Rademaker, Alexandre; McDonald, Ryan; Nivre, Joakim; Zeman, Daniel; Chalub, Fabricio; Ramisch, Carlos
 Contributing: here
 Contact: arademaker@gmail.com
 ===============================================================================
