@@ -98,9 +98,11 @@
 31	em	em	ADP	ADP	_	33	case	_	_
 32	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
 33	eleições	eleição	NOUN	NOUN	_	30	nmod	_	_
-34	deste	_	ADP	ADP	_	35	case	_	_
-35	ano	ano	NOUN	NOUN	_	33	nmod	_	SpaceAfter=No
-36	.	_	PUNCT	.	_	4	punct	_	_
+34-35	deste	_	_	_	_	_	_	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	este	este	DET	_	_	36	det	_	_
+36	ano	ano	NOUN	NOUN	_	33	nmod	_	SpaceAfter=No
+37	.	_	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s7059
 # text = O Tribunal Regional Federal da Primeira Região (TRF - 1) determinou na terça - feira passada que as obras da usina no Pará sejam suspensas, acatando pedido do Ministério Público Federal no Estado.
@@ -186,14 +188,18 @@
 # text = "Ninguém tratou deste assunto comigo", garantiu.
 1	"	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
 2	Ninguém	_	PRON	PRON	_	3	nsubj	_	_
-3	tratou	tratar	VERB	VERB	_	9	ccomp	_	_
-4	deste	_	ADP	ADP	_	5	case	_	_
-5	assunto	assunto	NOUN	NOUN	_	3	nmod	_	_
-6	comigo	_	X	ADPPRON	_	3	nmod	_	SpaceAfter=No
-7	"	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	9	punct	_	_
-9	garantiu	garantir	VERB	VERB	_	0	root	_	SpaceAfter=No
-10	.	_	PUNCT	.	_	9	punct	_	_
+3	tratou	tratar	VERB	VERB	_	11	ccomp	_	_
+4-5	deste	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	este	este	DET	_	_	6	det	_	_
+6	assunto	assunto	NOUN	NOUN	_	3	obj	_	_
+7-8	comigo	_	_	_	_	_	_	_	SpaceAfter=No
+7	com	com	ADP	_	_	8	case	_	_
+8	mim	eu	PRON	_	_	3	iobj	_	_
+9	"	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
+10	,	_	PUNCT	.	_	11	punct	_	_
+11	garantiu	garantir	VERB	VERB	_	0	root	_	SpaceAfter=No
+12	.	_	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s7062
 # text = Conforme a resolução, a gigante norte - americana de tecnologia pagou US $ 60 milhões em troca do direito de uso da marca iPad na China.
@@ -278,20 +284,22 @@
 4	junto	junto	ADV	ADV	_	3	advmod	_	SpaceAfter=No
 5	,	_	PUNCT	.	_	7	punct	_	_
 6	meus	_	DET	DET	_	7	det	_	_
-7	amigos	amigo	NOUN	NOUN	_	2	conj	_	_
+7	amigos	amigo	NOUN	NOUN	Gender=Masc|Number=Plur	3	parataxis	_	_
 8	também	também	ADV	ADV	_	7	advmod	_	SpaceAfter=No
 9	,	_	PUNCT	.	_	10	punct	_	_
-10	pessoas	pessoa	NOUN	NOUN	_	2	conj	_	_
+10	pessoas	pessoa	NOUN	NOUN	_	7	appos	_	_
 11	que	_	PRON	PRON	_	12	nsubj	_	_
 12	trabalharam	trabalhar	VERB	VERB	_	10	acl:relcl	_	_
-13	comigo	_	X	ADPPRON	_	12	nmod	_	_
-14	durante	_	ADP	ADP	_	17	case	_	_
-15	quase	quase	ADV	ADV	_	16	advmod	_	_
-16	seis	_	NUM	NUM	NumType=Card	17	nummod	_	_
-17	anos	ano	NOUN	NOUN	_	12	nmod	_	_
-18	aqui	aqui	ADV	ADV	_	12	advmod	_	SpaceAfter=No
-19	,	_	PUNCT	.	_	21	punct	_	_
-20	os	_	DET	DET	_	21	det	_	_
-21	torcedores	torcedor	NOUN	NOUN	_	2	conj	_	SpaceAfter=No
-22	.	_	PUNCT	.	_	3	punct	_	_
+13-14	comigo	_	_	_	_	_	_	_	_
+13	com	com	ADP	_	_	14	case	_	_
+14	mim	eu	PRON	_	_	12	iobj	_	_
+15	durante	_	ADP	ADP	_	18	case	_	_
+16	quase	quase	ADV	ADV	_	17	advmod	_	_
+17	seis	_	NUM	NUM	NumType=Card	18	nummod	_	_
+18	anos	ano	NOUN	NOUN	_	12	obl	_	_
+19	aqui	aqui	ADV	ADV	_	12	advmod	_	SpaceAfter=No
+20	,	_	PUNCT	.	_	22	punct	_	_
+21	os	_	DET	DET	_	22	det	_	_
+22	torcedores	torcedor	NOUN	NOUN	_	10	appos	_	SpaceAfter=No
+23	.	_	PUNCT	.	_	3	punct	_	_
 
