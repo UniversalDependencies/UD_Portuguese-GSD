@@ -1,18 +1,18 @@
 # sent_id = train-s7703
 # text = O Chelsea é um time tático, apesar de ter poucos ingleses.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	Chelsea	_	PROPN	PNOUN	_	5	nsubj	_	_
 3	é	ser	AUX	AUX	_	5	cop	_	_
-4	um	_	DET	DET	_	5	det	_	_
+4	um	um	DET	DET	_	5	det	_	_
 5	time	time	NOUN	NOUN	_	0	root	_	_
 6	tático	tático	ADJ	ADJ	_	5	amod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	10	punct	_	_
+7	,	,	PUNCT	.	_	10	punct	_	_
 8	apesar	apesar	ADV	ADV	_	10	mark	_	_
 9	de	_	ADP	ADP	_	8	fixed	_	_
 10	ter	ter	VERB	VERB	_	5	advcl	_	_
 11	poucos	_	DET	DET	_	12	det	_	_
 12	ingleses	inglês	NOUN	NOUN	_	10	obj	_	SpaceAfter=No
-13	.	_	PUNCT	.	_	5	punct	_	_
+13	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s7704a
 # text = No elenco, Valerio Mastandrea, Micaela Ramazzotti e Stefania
@@ -20,13 +20,13 @@
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	elenco	elenco	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
 5	Valerio	_	PROPN	PNOUN	_	0	root	_	_
 6	Mastandrea	_	PROPN	PNOUN	_	5	flat	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	8	punct	_	_
+7	,	,	PUNCT	.	_	8	punct	_	_
 8	Micaela	_	PROPN	PNOUN	_	5	conj	_	_
 9	Ramazzotti	_	PROPN	PNOUN	_	8	flat	_	_
-10	e	_	CCONJ	CONJ	_	11	cc	_	_
+10	e	e	CCONJ	CONJ	_	11	cc	_	_
 11	Stefania	_	PROPN	PNOUN	_	5	conj	_	_
 
 # sent_id = train-s7704b
@@ -36,43 +36,43 @@
 2	a	a	ADP	ADP	_	4	case	_	_
 3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	trailer	trailer	NOUN	NOUN	_	1	nmod	_	_
-5	"	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
-6	A	_	DET	DET	_	7	det	_	_
+5	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
+6	A	o	DET	DET	_	7	det	_	_
 7	Tentação	_	PROPN	PNOUN	_	4	appos	_	SpaceAfter=No
-8	"	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	11	punct	_	_
-10	de	_	ADP	ADP	_	11	case	_	_
+8	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	11	punct	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
 11	Matthew	_	PROPN	PNOUN	_	7	nmod	_	_
 12	Chapman	_	PROPN	PNOUN	_	11	flat	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	1	punct	_	_
+13	,	,	PUNCT	.	_	1	punct	_	_
 14	é	ser	AUX	AUX	_	16	cop	_	_
-15	um	_	DET	DET	_	16	det	_	_
+15	um	um	DET	DET	_	16	det	_	_
 16	thriller	thriller	NOUN	NOUN	_	1	parataxis	_	_
 17	focado	focado	ADJ	ADJ	_	16	amod	_	_
-18	em	_	ADP	ADP	_	19	case	_	_
+18	em	em	ADP	ADP	_	19	case	_	_
 19	corrida	corrida	NOUN	NOUN	_	17	nmod	_	_
 20	contra	_	ADP	ADP	_	22	case	_	_
-21	o	_	DET	DET	_	22	det	_	_
+21	o	o	DET	DET	_	22	det	_	_
 22	tempo	tempo	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
-23	.	_	PUNCT	.	_	1	punct	_	_
+23	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s7705
 # text = La Entrada é uma cidade de Honduras localizada no departamento de Copán.
 1	La	_	PROPN	PNOUN	_	2	det	_	_
 2	Entrada	_	PROPN	PNOUN	_	5	nsubj	_	_
 3	é	ser	AUX	AUX	_	5	cop	_	_
-4	uma	_	DET	DET	_	5	det	_	_
+4	uma	um	DET	DET	_	5	det	_	_
 5	cidade	cidade	NOUN	NOUN	_	0	root	_	_
-6	de	_	ADP	ADP	_	7	case	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
 7	Honduras	_	PROPN	PNOUN	_	5	nmod	_	_
 8	localizada	localizar	VERB	VERB	_	5	acl:part	_	_
 9-10	no	_	_	_	_	_	_	_	_
 9	em	em	ADP	ADP	_	11	case	_	_
 10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	departamento	departamento	NOUN	NOUN	_	8	nmod	_	_
-12	de	_	ADP	ADP	_	13	case	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
 13	Copán	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
-14	.	_	PUNCT	.	_	5	punct	_	_
+14	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s7706
 # text = É detentor do prémio da Casa da Imprensa Portuguesa.
@@ -91,34 +91,34 @@
 10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	Imprensa	_	PROPN	PNOUN	_	8	nmod	_	_
 12	Portuguesa	_	PROPN	PNOUN	_	11	amod	_	SpaceAfter=No
-13	.	_	PUNCT	.	_	1	punct	_	_
+13	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s7707
 # text = Deivid, recuperado dum problema no tornozelo direito, ainda está confiante que seja liberado para enfrentar o Náutico.
 1	Deivid	_	PROPN	PNOUN	_	13	nsubj	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	3	punct	_	_
+2	,	,	PUNCT	.	_	3	punct	_	_
 3	recuperado	recuperar	VERB	VERB	_	1	acl:part	_	_
 4-5	dum	_	_	_	_	_	_	_	_
-4	de	_	ADP	ADP	_	6	case	_	_
-5	um	_	DET	DET	_	6	det	_	_
+4	de	de	ADP	ADP	_	6	case	_	_
+5	um	um	DET	DET	_	6	det	_	_
 6	problema	problema	NOUN	NOUN	_	3	nmod	_	_
 7-8	no	_	_	_	_	_	_	_	_
 7	em	em	ADP	ADP	_	9	case	_	_
 8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	tornozelo	tornozelo	NOUN	NOUN	_	6	nmod	_	_
 10	direito	direito	ADJ	ADJ	_	9	amod	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	3	punct	_	_
+11	,	,	PUNCT	.	_	3	punct	_	_
 12	ainda	ainda	ADV	ADV	_	13	advmod	_	_
 13	está	estar	VERB	VERB	_	0	root	_	_
 14	confiante	confiante	ADJ	ADJ	_	13	xcomp:adj	_	_
-15	que	_	CCONJ	CONJ	_	17	mark	_	_
+15	que	que	CCONJ	CONJ	_	17	mark	_	_
 16	seja	ser	AUX	AUX	_	17	aux	_	_
 17	liberado	liberar	VERB	VERB	_	14	dep	_	_
 18	para	_	ADP	ADP	_	19	mark	_	_
 19	enfrentar	enfrentar	VERB	VERB	_	17	advcl	_	_
-20	o	_	DET	DET	_	21	det	_	_
+20	o	o	DET	DET	_	21	det	_	_
 21	Náutico	_	PROPN	PNOUN	_	19	obj	_	SpaceAfter=No
-22	.	_	PUNCT	.	_	13	punct	_	_
+22	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = train-s7708
 # text = Pelo Código Mundial Antidoping, o atleta é obrigado a ir direto fazer a coleta, de modo que não seja possível burlar o exame.
@@ -128,8 +128,8 @@
 3	Código	_	PROPN	PNOUN	_	10	nmod	_	_
 4	Mundial	_	PROPN	PNOUN	_	3	amod	_	_
 5	Antidoping	_	PROPN	PNOUN	_	3	amod	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	3	punct	_	_
-7	o	_	DET	DET	_	8	det	_	_
+6	,	,	PUNCT	.	_	3	punct	_	_
+7	o	o	DET	DET	_	8	det	_	_
 8	atleta	atleta	NOUN	NOUN	_	10	nsubj:pass	_	_
 9	é	ser	AUX	AUX	_	10	aux:pass	_	_
 10	obrigado	obrigar	VERB	VERB	_	0	root	_	_
@@ -137,9 +137,9 @@
 12	ir	ir	VERB	VERB	_	10	nmod	_	_
 13	direto	direto	ADV	ADV	_	12	advmod	_	_
 14	fazer	fazer	VERB	VERB	_	12	xcomp	_	_
-15	a	_	DET	DET	_	16	det	_	_
+15	a	a	DET	DET	_	16	det	_	_
 16	coleta	coleta	NOUN	NOUN	_	14	obj	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	22	punct	_	_
+17	,	,	PUNCT	.	_	22	punct	_	_
 18	de	_	ADP	ADP	_	22	mark	_	_
 19	modo	modo	NOUN	NOUN	_	18	fixed	_	_
 20	que	_	CCONJ	CONJ	_	18	fixed	_	_
@@ -147,78 +147,78 @@
 22	seja	ser	VERB	VERB	_	12	advcl	_	_
 23	possível	possível	ADJ	ADJ	_	22	xcomp:adj	_	_
 24	burlar	burlar	VERB	VERB	_	22	csubj	_	_
-25	o	_	DET	DET	_	26	det	_	_
+25	o	o	DET	DET	_	26	det	_	_
 26	exame	exame	NOUN	NOUN	_	24	obj	_	SpaceAfter=No
-27	.	_	PUNCT	.	_	10	punct	_	_
+27	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s7709
 # text = Os livros já tiveram milhões de exemplares vendidos e foram traduzidos para vários idiomas, dentre eles, Inglês e Alemão
-1	Os	_	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	_	2	det	_	_
 2	livros	livro	NOUN	NOUN	_	4	nsubj	_	_
 3	já	já	ADV	ADV	_	4	advmod	_	_
 4	tiveram	ter	VERB	VERB	_	0	root	_	_
 5	milhões	_	NUM	NUM	NumType=Card	7	nummod	_	_
-6	de	_	ADP	ADP	_	7	case	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
 7	exemplares	exemplar	NOUN	NOUN	_	8	nsubj	_	_
 8	vendidos	vendido	ADJ	ADJ	_	4	xcomp	_	_
-9	e	_	CCONJ	CONJ	_	11	cc	_	_
+9	e	e	CCONJ	CONJ	_	11	cc	_	_
 10	foram	_	AUX	AUX	_	11	aux:pass	_	_
 11	traduzidos	traduzir	VERB	VERB	_	4	conj	_	_
-12	para	_	ADP	ADP	_	14	case	_	_
+12	para	para	ADP	ADP	_	14	case	_	_
 13	vários	_	DET	DET	_	14	det	_	_
 14	idiomas	idioma	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	19	punct	_	_
+15	,	,	PUNCT	.	_	19	punct	_	_
 16	dentre	_	ADP	ADP	_	17	case	_	_
 17	eles	_	PRON	PRON	_	19	nmod	_	SpaceAfter=No
-18	,	_	PUNCT	.	_	17	punct	_	_
+18	,	,	PUNCT	.	_	17	punct	_	_
 19	Inglês	inglês	NOUN	NOUN	_	14	appos	_	_
-20	e	_	CCONJ	CONJ	_	21	cc	_	_
+20	e	e	CCONJ	CONJ	_	21	cc	_	_
 21	Alemão	alemão	NOUN	NOUN	_	19	conj	_	_
 
 # sent_id = train-s7710
 # text = "Em particular, o uso de pioglitazona foi associado com um risco aumentado de câncer de bexiga com base numa estimativa combinada de três estudos de coorte, envolvendo mais de 1,7 milhão de pessoas," completou.
-1	"	_	PUNCT	.	_	10	punct	_	SpaceAfter=No
-2	Em	_	ADP	ADP	_	3	case	_	_
+1	"	"	PUNCT	.	_	10	punct	_	SpaceAfter=No
+2	Em	em	ADP	ADP	_	3	case	_	_
 3	particular	particular	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
-5	o	_	DET	DET	_	6	det	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	o	o	DET	DET	_	6	det	_	_
 6	uso	uso	NOUN	NOUN	_	10	nsubj:pass	_	_
-7	de	_	ADP	ADP	_	8	case	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
 8	pioglitazona	_	NOUN	NOUN	_	6	nmod	_	_
 9	foi	_	AUX	AUX	_	10	aux:pass	_	_
 10	associado	associar	VERB	VERB	_	40	ccomp	_	_
-11	com	_	ADP	ADP	_	13	case	_	_
-12	um	_	DET	DET	_	13	det	_	_
+11	com	com	ADP	ADP	_	13	case	_	_
+12	um	um	DET	DET	_	13	det	_	_
 13	risco	risco	NOUN	NOUN	_	10	nmod	_	_
 14	aumentado	aumentado	ADJ	ADJ	_	13	amod	_	_
-15	de	_	ADP	ADP	_	16	case	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
 16	câncer	câncer	NOUN	NOUN	_	13	nmod	_	_
-17	de	_	ADP	ADP	_	18	case	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
 18	bexiga	bexiga	NOUN	NOUN	_	16	nmod	_	_
-19	com	_	ADP	ADP	_	20	case	_	_
+19	com	com	ADP	ADP	_	20	case	_	_
 20	base	base	NOUN	NOUN	_	10	nmod	_	_
 21-22	numa	_	_	_	_	_	_	_	_
-21	em	_	ADP	ADP	_	23	case	_	_
-22	uma	_	DET	DET	_	23	det	_	_
+21	em	em	ADP	ADP	_	23	case	_	_
+22	uma	um	DET	DET	_	23	det	_	_
 23	estimativa	_	NOUN	NOUN	_	20	nmod	_	_
 24	combinada	combinado	ADJ	ADJ	_	23	amod	_	_
-25	de	_	ADP	ADP	_	27	case	_	_
+25	de	de	ADP	ADP	_	27	case	_	_
 26	três	_	NUM	NUM	NumType=Card	27	nummod	_	_
 27	estudos	estudo	NOUN	NOUN	_	23	nmod	_	_
-28	de	_	ADP	ADP	_	29	case	_	_
+28	de	de	ADP	ADP	_	29	case	_	_
 29	coorte	coorte	NOUN	NOUN	_	27	nmod	_	SpaceAfter=No
-30	,	_	PUNCT	.	_	31	punct	_	_
+30	,	,	PUNCT	.	_	31	punct	_	_
 31	envolvendo	envolver	VERB	VERB	_	27	acl:part	_	_
 32	mais	mais	ADV	ADV	_	35	advmod	_	_
-33	de	_	ADP	ADP	_	32	case	_	_
+33	de	de	ADP	ADP	_	32	case	_	_
 34	1,7	_	NUM	NUM	NumType=Card	35	nummod	_	_
 35	milhão	_	NUM	NUM	NumType=Card	37	nummod	_	_
-36	de	_	ADP	ADP	_	37	case	_	_
+36	de	de	ADP	ADP	_	37	case	_	_
 37	pessoas	pessoa	NOUN	NOUN	_	31	obj	_	SpaceAfter=No
-38	,	_	PUNCT	.	_	10	punct	_	SpaceAfter=No
-39	"	_	PUNCT	.	_	10	punct	_	_
+38	,	,	PUNCT	.	_	10	punct	_	SpaceAfter=No
+39	"	"	PUNCT	.	_	10	punct	_	_
 40	completou	completar	VERB	VERB	_	0	root	_	SpaceAfter=No
-41	.	_	PUNCT	.	_	40	punct	_	_
+41	.	.	PUNCT	.	_	40	punct	_	_
 
 # sent_id = train-s7711
 # text = Foram realizados 33 resgates, número 73 % maior do que o registrado no mesmo período do ano passado.
@@ -226,7 +226,7 @@
 2	realizados	realizar	VERB	VERB	_	0	root	_	_
 3	33	_	NUM	NUM	NumType=Card	4	nummod	_	_
 4	resgates	resgate	NOUN	NOUN	_	2	nsubj:pass	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	6	punct	_	_
+5	,	,	PUNCT	.	_	6	punct	_	_
 6	número	número	NOUN	NOUN	_	4	appos	_	_
 7	73	_	NUM	NUM	NumType=Card	8	nummod	_	_
 8	%	_	SYM	SYM	_	9	nmod	_	_
@@ -235,7 +235,7 @@
 10	de	de	ADP	ADP	_	14	case	_	_
 11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 12	que	_	ADP	ADP	_	10	fixed	_	_
-13	o	_	DET	DET	_	14	det	_	_
+13	o	o	DET	DET	_	14	det	_	_
 14	registrado	_	NOUN	NOUN	_	9	nmod	_	_
 15-16	no	_	_	_	_	_	_	_	_
 15	em	em	ADP	ADP	_	18	case	_	_
@@ -247,5 +247,5 @@
 20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	ano	ano	NOUN	NOUN	_	18	nmod	_	_
 22	passado	passado	ADJ	ADJ	_	21	amod	_	SpaceAfter=No
-23	.	_	PUNCT	.	_	2	punct	_	_
+23	.	.	PUNCT	.	_	2	punct	_	_
 

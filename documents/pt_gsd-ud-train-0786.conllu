@@ -1,13 +1,13 @@
 # sent_id = train-s7801
 # text = Os bandidos voltaram a atacar caixas eletrônicos de Belo Horizonte na tarde desta segunda - feira (24).
-1	Os	_	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	_	2	det	_	_
 2	bandidos	bandido	NOUN	NOUN	_	5	nsubj	_	_
 3	voltaram	voltar	AUX	AUX	_	5	aux	_	_
 4	a	_	ADP	ADP	_	5	mark	_	_
 5	atacar	atacar	VERB	VERB	_	0	root	_	_
 6	caixas	caixa	NOUN	NOUN	_	5	obj	_	_
 7	eletrônicos	eletrônico	ADJ	ADJ	_	6	amod	_	_
-8	de	_	ADP	ADP	_	10	case	_	_
+8	de	de	ADP	ADP	_	10	case	_	_
 9	Belo	_	PROPN	PNOUN	_	10	amod	_	_
 10	Horizonte	_	PROPN	PNOUN	_	6	nmod	_	_
 11-12	na	_	_	_	_	_	_	_	_
@@ -16,12 +16,12 @@
 13	tarde	tarde	NOUN	NOUN	_	5	nmod	_	_
 14	desta	_	ADP	ADP	_	17	case	_	_
 15	segunda	_	PROPN	PNOUN	_	17	amod	_	_
-16	-	_	PUNCT	.	_	17	punct	_	_
+16	-	-	PUNCT	.	_	17	punct	_	_
 17	feira	_	PROPN	PNOUN	_	13	nmod	_	_
-18	(	_	PUNCT	.	_	19	punct	_	SpaceAfter=No
+18	(	(	PUNCT	.	_	19	punct	_	SpaceAfter=No
 19	24	_	NUM	NUM	NumType=Card	17	nmod	_	SpaceAfter=No
-20	)	_	PUNCT	.	_	19	punct	_	SpaceAfter=No
-21	.	_	PUNCT	.	_	5	punct	_	_
+20	)	)	PUNCT	.	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s7802
 # text = Além dos rumos da greve, os representantes tiveram na pauta de discussão a criação duma agenda política para discutir as desigualdades dentro da PF e duma agenda de mobilizações para os próximos quatro meses.
@@ -34,65 +34,65 @@
 5	de	de	ADP	ADP	_	7	case	_	_
 6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	greve	greve	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	1	punct	_	_
-9	os	_	DET	DET	_	10	det	_	_
+8	,	,	PUNCT	.	_	1	punct	_	_
+9	os	o	DET	DET	_	10	det	_	_
 10	representantes	representante	NOUN	NOUN	_	11	nsubj	_	_
 11	tiveram	ter	VERB	VERB	_	0	root	_	_
 12-13	na	_	_	_	_	_	_	_	_
 12	em	em	ADP	ADP	_	14	case	_	_
 13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	pauta	pauta	NOUN	NOUN	_	11	nmod	_	_
-15	de	_	ADP	ADP	_	16	case	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
 16	discussão	discussão	NOUN	NOUN	_	14	nmod	_	_
-17	a	_	DET	DET	_	18	det	_	_
+17	a	a	DET	DET	_	18	det	_	_
 18	criação	criação	NOUN	NOUN	_	11	obj	_	_
 19-20	duma	_	_	_	_	_	_	_	_
-19	de	_	ADP	ADP	_	21	case	_	_
-20	uma	_	DET	DET	_	21	det	_	_
+19	de	de	ADP	ADP	_	21	case	_	_
+20	uma	um	DET	DET	_	21	det	_	_
 21	agenda	agenda	NOUN	NOUN	_	18	nmod	_	_
 22	política	político	ADJ	ADJ	_	21	amod	_	_
 23	para	_	ADP	ADP	_	24	mark	_	_
 24	discutir	discutir	VERB	VERB	_	21	nmod	_	_
-25	as	_	DET	DET	_	26	det	_	_
+25	as	o	DET	DET	_	26	det	_	_
 26	desigualdades	desigualdade	NOUN	NOUN	_	24	obj	_	_
 27	dentro	dentro	ADV	ADV	_	26	advmod	_	_
 28-29	da	_	_	_	_	_	_	_	_
 28	de	de	ADP	ADP	_	30	case	_	_
 29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	PF	_	PROPN	PNOUN	_	27	nmod	_	_
-31	e	_	CCONJ	CONJ	_	34	cc	_	_
+31	e	e	CCONJ	CONJ	_	34	cc	_	_
 32-33	duma	_	_	_	_	_	_	_	_
-32	de	_	ADP	ADP	_	34	case	_	_
-33	uma	_	DET	DET	_	34	det	_	_
+32	de	de	ADP	ADP	_	34	case	_	_
+33	uma	um	DET	DET	_	34	det	_	_
 34	agenda	agenda	NOUN	NOUN	_	21	conj	_	_
-35	de	_	ADP	ADP	_	36	case	_	_
+35	de	de	ADP	ADP	_	36	case	_	_
 36	mobilizações	mobilização	NOUN	NOUN	_	34	nmod	_	_
-37	para	_	ADP	ADP	_	41	case	_	_
-38	os	_	DET	DET	_	41	det	_	_
+37	para	para	ADP	ADP	_	41	case	_	_
+38	os	o	DET	DET	_	41	det	_	_
 39	próximos	próximo	ADJ	ADJ	_	41	amod	_	_
 40	quatro	_	NUM	NUM	NumType=Card	41	nummod	_	_
 41	meses	mês	NOUN	NOUN	_	34	nmod	_	SpaceAfter=No
-42	.	_	PUNCT	.	_	11	punct	_	_
+42	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s7803
 # text = Pressionado, o técnico viajou para Londres neste ano em busca do ouro inédito.
 1	Pressionado	pressionar	VERB	VERB	_	4	acl:part	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	1	punct	_	_
-3	o	_	DET	DET	_	4	det	_	_
+2	,	,	PUNCT	.	_	1	punct	_	_
+3	o	o	DET	DET	_	4	det	_	_
 4	técnico	técnico	NOUN	NOUN	_	5	nsubj	_	_
 5	viajou	viajar	VERB	VERB	_	0	root	_	_
-6	para	_	ADP	ADP	_	7	case	_	_
+6	para	para	ADP	ADP	_	7	case	_	_
 7	Londres	_	PROPN	PNOUN	_	5	nmod	_	_
 8	neste	_	ADP	ADP	_	9	case	_	_
 9	ano	ano	NOUN	NOUN	_	5	nmod	_	_
-10	em	_	ADP	ADP	_	11	case	_	_
+10	em	em	ADP	ADP	_	11	case	_	_
 11	busca	busca	NOUN	NOUN	_	5	nmod	_	_
 12-13	do	_	_	_	_	_	_	_	_
 12	de	de	ADP	ADP	_	14	case	_	_
 13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	ouro	ouro	NOUN	NOUN	_	11	nmod	_	_
 15	inédito	inédito	ADJ	ADJ	_	14	amod	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	5	punct	_	_
+16	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s7804
 # text = Na porta da boate, Morena entra e vê Russo (Adriano Garib) e Irina (Vera Fischer).
@@ -104,23 +104,23 @@
 4	de	de	ADP	ADP	_	6	case	_	_
 5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	boate	boate	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	3	punct	_	_
+7	,	,	PUNCT	.	_	3	punct	_	_
 8	Morena	_	PROPN	PNOUN	_	9	nsubj	_	_
 9	entra	entrar	VERB	VERB	_	0	root	_	_
-10	e	_	CCONJ	CONJ	_	11	cc	_	_
+10	e	e	CCONJ	CONJ	_	11	cc	_	_
 11	vê	ver	VERB	VERB	_	9	conj	_	_
 12	Russo	_	PROPN	PNOUN	_	11	obj	_	_
-13	(	_	PUNCT	.	_	14	punct	_	SpaceAfter=No
+13	(	(	PUNCT	.	_	14	punct	_	SpaceAfter=No
 14	Adriano	_	PROPN	PNOUN	_	12	appos	_	_
 15	Garib	_	PROPN	PNOUN	_	14	flat	_	SpaceAfter=No
-16	)	_	PUNCT	.	_	14	punct	_	_
-17	e	_	CCONJ	CONJ	_	18	cc	_	_
+16	)	)	PUNCT	.	_	14	punct	_	_
+17	e	e	CCONJ	CONJ	_	18	cc	_	_
 18	Irina	_	PROPN	PNOUN	_	12	conj	_	_
-19	(	_	PUNCT	.	_	20	punct	_	SpaceAfter=No
+19	(	(	PUNCT	.	_	20	punct	_	SpaceAfter=No
 20	Vera	_	PROPN	PNOUN	_	18	appos	_	_
 21	Fischer	_	PROPN	PNOUN	_	20	flat	_	SpaceAfter=No
-22	)	_	PUNCT	.	_	20	punct	_	SpaceAfter=No
-23	.	_	PUNCT	.	_	9	punct	_	_
+22	)	)	PUNCT	.	_	20	punct	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s7805
 # text = Não quero nem ver mais como politico na minha frente.
@@ -129,56 +129,56 @@
 3	nem	_	ADV	ADV	_	4	advmod	_	_
 4	ver	ver	VERB	VERB	_	2	xcomp	_	_
 5	mais	mais	ADV	ADV	_	4	advmod	_	_
-6	como	_	ADP	ADP	_	7	case	_	_
+6	como	como	ADP	ADP	_	7	case	_	_
 7	politico	_	NOUN	NOUN	_	4	nmod	_	_
 8-9	na	_	_	_	_	_	_	_	_
 8	em	em	ADP	ADP	_	11	case	_	_
 9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 10	minha	_	DET	DET	_	11	det:poss	_	_
 11	frente	frente	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
-12	.	_	PUNCT	.	_	2	punct	_	_
+12	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s7806
 # text = Margarida se apresentou como uma candidata de oposição à atual administração e com a proposta de mudança de verdade.
 1	Margarida	_	PROPN	PNOUN	_	3	nsubj	_	_
 2	se	_	PRON	PRON	_	3	obj	_	_
 3	apresentou	apresentar	VERB	VERB	_	0	root	_	_
-4	como	_	ADP	ADP	_	6	case	_	_
-5	uma	_	DET	DET	_	6	det	_	_
+4	como	como	ADP	ADP	_	6	case	_	_
+5	uma	um	DET	DET	_	6	det	_	_
 6	candidata	candidato	NOUN	NOUN	_	3	nmod	_	_
-7	de	_	ADP	ADP	_	8	case	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
 8	oposição	oposição	NOUN	NOUN	_	6	nmod	_	_
 9-10	à	_	_	_	_	_	_	_	_
 9	a	a	ADP	ADP	_	12	case	_	_
 10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 11	atual	atual	ADJ	ADJ	_	12	amod	_	_
 12	administração	administração	NOUN	NOUN	_	8	nmod	_	_
-13	e	_	CCONJ	CONJ	_	16	cc	_	_
-14	com	_	ADP	ADP	_	16	case	_	_
-15	a	_	DET	DET	_	16	det	_	_
+13	e	e	CCONJ	CONJ	_	16	cc	_	_
+14	com	com	ADP	ADP	_	16	case	_	_
+15	a	a	DET	DET	_	16	det	_	_
 16	proposta	_	NOUN	NOUN	_	8	conj	_	_
-17	de	_	ADP	ADP	_	18	case	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
 18	mudança	mudança	NOUN	NOUN	_	16	nmod	_	_
-19	de	_	ADP	ADP	_	20	case	_	_
+19	de	de	ADP	ADP	_	20	case	_	_
 20	verdade	verdade	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
-21	.	_	PUNCT	.	_	3	punct	_	_
+21	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s7807
 # text = Hoje, alguns municípios como Santa Isabel e Biritiba Mirim dão como opção o descarte dos remédios diretamente nas unidades básicas de saúde.
 1	Hoje	hoje	ADV	ADV	_	11	advmod	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	1	punct	_	_
+2	,	,	PUNCT	.	_	1	punct	_	_
 3	alguns	_	DET	DET	_	4	det	_	_
 4	municípios	município	NOUN	NOUN	_	11	nsubj	_	_
-5	como	_	ADP	ADP	_	6	case	_	_
+5	como	como	ADP	ADP	_	6	case	_	_
 6	Santa	_	PROPN	PNOUN	_	4	nmod	_	_
 7	Isabel	_	PROPN	PNOUN	_	6	flat	_	_
-8	e	_	CCONJ	CONJ	_	9	cc	_	_
+8	e	e	CCONJ	CONJ	_	9	cc	_	_
 9	Biritiba	_	PROPN	PNOUN	_	6	conj	_	_
 10	Mirim	_	PROPN	PNOUN	_	9	flat	_	_
 11	dão	dar	VERB	VERB	_	0	root	_	_
-12	como	_	ADP	ADP	_	13	case	_	_
+12	como	como	ADP	ADP	_	13	case	_	_
 13	opção	opção	NOUN	NOUN	_	11	nmod	_	_
-14	o	_	DET	DET	_	15	det	_	_
+14	o	o	DET	DET	_	15	det	_	_
 15	descarte	descarte	NOUN	NOUN	_	11	obj	_	_
 16-17	dos	_	_	_	_	_	_	_	_
 16	de	de	ADP	ADP	_	18	case	_	_
@@ -190,31 +190,31 @@
 21	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
 22	unidades	unidade	NOUN	NOUN	_	15	nmod	_	_
 23	básicas	básico	ADJ	ADJ	_	22	amod	_	_
-24	de	_	ADP	ADP	_	25	case	_	_
+24	de	de	ADP	ADP	_	25	case	_	_
 25	saúde	saúde	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
-26	.	_	PUNCT	.	_	11	punct	_	_
+26	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s7808
 # text = O anúncio reforçou a visão de que haveria espaço para a Selic continuar estável em 2013, dado o impacto positivo do plano na inflação.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	anúncio	anúncio	NOUN	NOUN	_	3	nsubj	_	_
 3	reforçou	reforçar	VERB	VERB	_	0	root	_	_
-4	a	_	DET	DET	_	5	det	_	_
+4	a	a	DET	DET	_	5	det	_	_
 5	visão	visão	NOUN	NOUN	_	3	obj	_	_
 6	de	_	ADP	ADP	_	8	mark	_	_
-7	que	_	CCONJ	CONJ	_	8	mark	_	_
+7	que	que	CCONJ	CONJ	_	8	mark	_	_
 8	haveria	haver	VERB	VERB	_	5	nmod	_	_
 9	espaço	espaço	NOUN	NOUN	_	8	obj	_	_
 10	para	_	ADP	ADP	_	13	mark	_	_
-11	a	_	DET	DET	_	12	det	_	_
+11	a	a	DET	DET	_	12	det	_	_
 12	Selic	_	PROPN	PNOUN	_	13	nsubj	_	_
 13	continuar	continuar	VERB	VERB	_	8	nmod	_	_
 14	estável	estável	ADJ	ADJ	_	13	xcomp:adj	_	_
-15	em	_	ADP	ADP	_	16	case	_	_
+15	em	em	ADP	ADP	_	16	case	_	_
 16	2013	_	NUM	NUM	NumType=Card	13	nmod	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	20	punct	_	_
+17	,	,	PUNCT	.	_	20	punct	_	_
 18	dado	_	ADP	ADP	_	20	case	_	_
-19	o	_	DET	DET	_	20	det	_	_
+19	o	o	DET	DET	_	20	det	_	_
 20	impacto	impacto	NOUN	NOUN	_	8	nmod	_	_
 21	positivo	positivo	ADJ	ADJ	_	20	amod	_	_
 22-23	do	_	_	_	_	_	_	_	_
@@ -225,17 +225,17 @@
 25	em	em	ADP	ADP	_	27	case	_	_
 26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	inflação	inflação	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
-28	.	_	PUNCT	.	_	3	punct	_	_
+28	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s7809
 # text = "A única maneira de despertar o interesse da criança é sempre trazer novidades, uma forma é embutir a eletrônica nos brinquedos", afirma o diretor de marketing da estrela, Aires Leal Fernandes.
-1	"	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
-2	A	_	DET	DET	_	4	det	_	_
+1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
+2	A	o	DET	DET	_	4	det	_	_
 3	única	único	ADJ	ADJ	_	4	amod	_	_
 4	maneira	maneira	NOUN	NOUN	_	28	ccomp	_	_
 5	de	_	ADP	ADP	_	6	mark	_	_
 6	despertar	despertar	VERB	VERB	_	4	nmod	_	_
-7	o	_	DET	DET	_	8	det	_	_
+7	o	o	DET	DET	_	8	det	_	_
 8	interesse	interesse	NOUN	NOUN	_	6	obj	_	_
 9-10	da	_	_	_	_	_	_	_	_
 9	de	de	ADP	ADP	_	11	case	_	_
@@ -245,74 +245,74 @@
 13	sempre	sempre	ADV	ADV	_	14	advmod	_	_
 14	trazer	trazer	VERB	VERB	_	4	csubj	_	_
 15	novidades	novidade	NOUN	NOUN	_	14	obj	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	18	punct	_	_
-17	uma	_	DET	DET	_	18	det	_	_
+16	,	,	PUNCT	.	_	18	punct	_	_
+17	uma	um	DET	DET	_	18	det	_	_
 18	forma	forma	NOUN	NOUN	_	14	parataxis	_	_
 19	é	ser	AUX	AUX	_	18	cop	_	_
 20	embutir	embutir	VERB	VERB	_	18	csubj	_	_
-21	a	_	DET	DET	_	22	det	_	_
+21	a	a	DET	DET	_	22	det	_	_
 22	eletrônica	eletrônica	NOUN	NOUN	_	20	obj	_	_
 23-24	nos	_	_	_	_	_	_	_	_
 23	em	em	ADP	ADP	_	25	case	_	_
 24	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
 25	brinquedos	brinquedo	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
-26	"	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
-27	,	_	PUNCT	.	_	28	punct	_	_
+26	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
+27	,	,	PUNCT	.	_	28	punct	_	_
 28	afirma	afirmar	VERB	VERB	_	0	root	_	_
-29	o	_	DET	DET	_	30	det	_	_
+29	o	o	DET	DET	_	30	det	_	_
 30	diretor	diretor	NOUN	NOUN	_	28	nsubj	_	_
-31	de	_	ADP	ADP	_	32	case	_	_
+31	de	de	ADP	ADP	_	32	case	_	_
 32	marketing	marketing	NOUN	NOUN	_	30	nmod	_	_
 33-34	da	_	_	_	_	_	_	_	_
 33	de	de	ADP	ADP	_	35	case	_	_
 34	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	estrela	estrela	NOUN	NOUN	_	30	nmod	_	SpaceAfter=No
-36	,	_	PUNCT	.	_	37	punct	_	_
+36	,	,	PUNCT	.	_	37	punct	_	_
 37	Aires	_	PROPN	PNOUN	_	30	appos	_	_
 38	Leal	_	PROPN	PNOUN	_	37	flat	_	_
 39	Fernandes	_	PROPN	PNOUN	_	37	flat	_	SpaceAfter=No
-40	.	_	PUNCT	.	_	28	punct	_	_
+40	.	.	PUNCT	.	_	28	punct	_	_
 
 # sent_id = train-s7810
 # text = Segundo a Pnad, o percentual da população de 15 anos ou mais que não sabe ler ou escrever passou de 9,7 % em 2009 para 8,6 % em 2011 (queda de 1,1 ponto percentual).
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	a	_	DET	DET	_	3	det	_	_
+2	a	a	DET	DET	_	3	det	_	_
 3	Pnad	_	PROPN	PNOUN	_	21	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
-5	o	_	DET	DET	_	6	det	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	o	o	DET	DET	_	6	det	_	_
 6	percentual	_	NOUN	NOUN	_	21	nsubj	_	_
 7-8	da	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
 8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	população	população	NOUN	NOUN	_	6	nmod	_	_
-10	de	_	ADP	ADP	_	12	case	_	_
+10	de	de	ADP	ADP	_	12	case	_	_
 11	15	_	NUM	NUM	NumType=Card	12	nummod	_	_
 12	anos	ano	NOUN	NOUN	_	9	nmod	_	_
-13	ou	_	CCONJ	CONJ	_	14	cc	_	_
+13	ou	ou	CCONJ	CONJ	_	14	cc	_	_
 14	mais	mais	ADV	ADV	_	11	conj	_	_
 15	que	_	PRON	PRON	_	17	nsubj	_	_
 16	não	não	ADV	ADV	Polarity=Neg	17	advmod	_	_
 17	sabe	saber	VERB	VERB	_	9	acl:relcl	_	_
 18	ler	ler	VERB	VERB	_	17	xcomp	_	_
-19	ou	_	CCONJ	CONJ	_	20	cc	_	_
+19	ou	ou	CCONJ	CONJ	_	20	cc	_	_
 20	escrever	escrever	VERB	VERB	_	18	conj	_	_
 21	passou	passar	VERB	VERB	_	0	root	_	_
-22	de	_	ADP	ADP	_	24	case	_	_
+22	de	de	ADP	ADP	_	24	case	_	_
 23	9,7	_	NUM	NUM	NumType=Card	24	nummod	_	_
 24	%	_	SYM	SYM	_	21	nmod	_	_
-25	em	_	ADP	ADP	_	26	case	_	_
+25	em	em	ADP	ADP	_	26	case	_	_
 26	2009	_	NUM	NUM	NumType=Card	24	nmod	_	_
-27	para	_	ADP	ADP	_	29	case	_	_
+27	para	para	ADP	ADP	_	29	case	_	_
 28	8,6	_	NUM	NUM	NumType=Card	29	nummod	_	_
 29	%	_	SYM	SYM	_	21	nmod	_	_
-30	em	_	ADP	ADP	_	31	case	_	_
+30	em	em	ADP	ADP	_	31	case	_	_
 31	2011	_	NUM	NUM	NumType=Card	29	nmod	_	_
-32	(	_	PUNCT	.	_	33	punct	_	SpaceAfter=No
+32	(	(	PUNCT	.	_	33	punct	_	SpaceAfter=No
 33	queda	queda	NOUN	NOUN	_	21	parataxis	_	_
-34	de	_	ADP	ADP	_	36	case	_	_
+34	de	de	ADP	ADP	_	36	case	_	_
 35	1,1	_	NUM	NUM	NumType=Card	36	nummod	_	_
 36	ponto	ponto	NOUN	NOUN	_	33	nmod	_	_
 37	percentual	percentual	ADJ	ADJ	_	36	amod	_	SpaceAfter=No
-38	)	_	PUNCT	.	_	33	punct	_	SpaceAfter=No
-39	.	_	PUNCT	.	_	21	punct	_	_
+38	)	)	PUNCT	.	_	33	punct	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	21	punct	_	_
 

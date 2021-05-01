@@ -1,9 +1,9 @@
 # sent_id = train-s4715
 # text = Formado em Direito, Russomanno nunca passou no exame da Ordem que o habilitaria à beca.
 1	Formado	formar	VERB	VERB	_	5	acl:part	_	_
-2	em	_	ADP	ADP	_	3	case	_	_
+2	em	em	ADP	ADP	_	3	case	_	_
 3	Direito	_	PROPN	PNOUN	_	1	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	1	punct	_	_
+4	,	,	PUNCT	.	_	1	punct	_	_
 5	Russomanno	_	PROPN	PNOUN	_	7	nsubj	_	_
 6	nunca	nunca	ADV	ADV	_	7	advmod	_	_
 7	passou	passar	VERB	VERB	_	0	root	_	_
@@ -22,19 +22,19 @@
 17	a	a	ADP	ADP	_	19	case	_	_
 18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	beca	beca	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
-20	.	_	PUNCT	.	_	7	punct	_	_
+20	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s4716
 # text = Como seria uma chance clara de gol, o goleiro do Inter foi expulso.
 1	Como	_	CCONJ	CONJ	_	4	mark	_	_
 2	seria	_	AUX	AUX	_	4	cop	_	_
-3	uma	_	DET	DET	_	4	det	_	_
+3	uma	um	DET	DET	_	4	det	_	_
 4	chance	chance	NOUN	NOUN	_	15	advcl	_	_
 5	clara	claro	ADJ	ADJ	_	4	amod	_	_
-6	de	_	ADP	ADP	_	7	case	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
 7	gol	gol	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	4	punct	_	_
-9	o	_	DET	DET	_	10	det	_	_
+8	,	,	PUNCT	.	_	4	punct	_	_
+9	o	o	DET	DET	_	10	det	_	_
 10	goleiro	goleiro	NOUN	NOUN	_	15	nsubj:pass	_	_
 11-12	do	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	13	case	_	_
@@ -42,7 +42,7 @@
 13	Inter	_	PROPN	PNOUN	_	10	nmod	_	_
 14	foi	_	AUX	AUX	_	15	aux:pass	_	_
 15	expulso	expulsar	VERB	VERB	_	0	root	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	15	punct	_	_
+16	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = train-s4717
 # text = Depois da vitória na semifinal contra o Monterrey, Oscar e Lucas Piazon admitiram que a velha rivalidade pesa emocionalmente na decisão do torneio da Fifa contra o Corinthians no próximo domingo.
@@ -56,16 +56,16 @@
 6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	semifinal	semifinal	NOUN	NOUN	_	4	nmod	_	_
 8	contra	_	ADP	ADP	_	10	case	_	_
-9	o	_	DET	DET	_	10	det	_	_
+9	o	o	DET	DET	_	10	det	_	_
 10	Monterrey	_	PROPN	PNOUN	_	4	nmod	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	4	punct	_	_
+11	,	,	PUNCT	.	_	4	punct	_	_
 12	Oscar	_	PROPN	PNOUN	_	16	nsubj	_	_
-13	e	_	CCONJ	CONJ	_	14	cc	_	_
+13	e	e	CCONJ	CONJ	_	14	cc	_	_
 14	Lucas	_	PROPN	PNOUN	_	12	conj	_	_
 15	Piazon	_	PROPN	PNOUN	_	14	flat	_	_
 16	admitiram	admitir	VERB	VERB	_	0	root	_	_
-17	que	_	CCONJ	CONJ	_	21	mark	_	_
-18	a	_	DET	DET	_	20	det	_	_
+17	que	que	CCONJ	CONJ	_	21	mark	_	_
+18	a	a	DET	DET	_	20	det	_	_
 19	velha	velho	ADJ	ADJ	_	20	amod	_	_
 20	rivalidade	rivalidade	NOUN	NOUN	_	21	nsubj	_	_
 21	pesa	pesar	VERB	VERB	_	16	ccomp	_	_
@@ -83,28 +83,28 @@
 30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	Fifa	_	PROPN	PNOUN	_	28	nmod	_	_
 32	contra	_	ADP	ADP	_	34	case	_	_
-33	o	_	DET	DET	_	34	det	_	_
+33	o	o	DET	DET	_	34	det	_	_
 34	Corinthians	_	PROPN	PNOUN	_	21	nmod	_	_
 35-36	no	_	_	_	_	_	_	_	_
 35	em	em	ADP	ADP	_	38	case	_	_
 36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 37	próximo	próximo	ADJ	ADJ	_	38	amod	_	_
 38	domingo	_	PROPN	PNOUN	_	21	nmod	_	SpaceAfter=No
-39	.	_	PUNCT	.	_	16	punct	_	_
+39	.	.	PUNCT	.	_	16	punct	_	_
 
 # sent_id = train-s4718
 # text = Com o nível de detalhamento que existe hoje, sabendo - se exatamente onde cada pessoa confirma sua escolha, há candidatos que pressionam eleitores a garantir determinado número de votos nas seções onde estão cadastrados.
 1	Com	_	ADP	ADP	_	3	case	_	_
-2	o	_	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	_	3	det	_	_
 3	nível	nível	NOUN	NOUN	_	21	nmod	_	_
-4	de	_	ADP	ADP	_	5	case	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
 5	detalhamento	detalhamento	NOUN	NOUN	_	3	nmod	_	_
 6	que	_	PRON	PRON	_	7	nsubj	_	_
 7	existe	existir	VERB	VERB	_	3	acl:relcl	_	_
 8	hoje	hoje	ADV	ADV	_	7	advmod	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	3	punct	_	_
+9	,	,	PUNCT	.	_	3	punct	_	_
 10	sabendo	saber	VERB	VERB	_	21	acl:part	_	_
-11	-	_	PUNCT	.	_	10	punct	_	_
+11	-	-	PUNCT	.	_	10	punct	_	_
 12	se	_	PRON	PRON	_	10	nsubj	_	_
 13	exatamente	exatamente	ADV	ADV	_	10	advmod	_	_
 14	onde	onde	ADV	ADV	_	17	advmod	_	_
@@ -113,7 +113,7 @@
 17	confirma	confirmar	VERB	VERB	_	10	ccomp	_	_
 18	sua	_	DET	DET	_	19	det:poss	_	_
 19	escolha	escolha	NOUN	NOUN	_	17	obj	_	SpaceAfter=No
-20	,	_	PUNCT	.	_	10	punct	_	_
+20	,	,	PUNCT	.	_	10	punct	_	_
 21	há	haver	VERB	VERB	_	0	root	_	_
 22	candidatos	candidato	NOUN	NOUN	_	21	obj	_	_
 23	que	_	PRON	PRON	_	24	nsubj	_	_
@@ -123,7 +123,7 @@
 27	garantir	garantir	VERB	VERB	_	24	nmod	_	_
 28	determinado	_	DET	DET	_	29	det	_	_
 29	número	número	NOUN	NOUN	_	27	obj	_	_
-30	de	_	ADP	ADP	_	31	case	_	_
+30	de	de	ADP	ADP	_	31	case	_	_
 31	votos	voto	NOUN	NOUN	_	29	nmod	_	_
 32-33	nas	_	_	_	_	_	_	_	_
 32	em	em	ADP	ADP	_	34	case	_	_
@@ -132,15 +132,15 @@
 35	onde	onde	ADV	ADV	_	36	advmod	_	_
 36	estão	estar	VERB	VERB	_	34	acl:relcl	_	_
 37	cadastrados	cadastrado	ADJ	ADJ	_	36	xcomp:adj	_	SpaceAfter=No
-38	.	_	PUNCT	.	_	21	punct	_	_
+38	.	.	PUNCT	.	_	21	punct	_	_
 
 # sent_id = train-s4719
 # text = Ressalvou, entretanto, as minas já utilizadas industrialmente na data da entrada em vigor da Constituição (art. 119, § 6 º).
 1	Ressalvou	ressalvar	VERB	VERB	_	0	root	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	3	punct	_	_
+2	,	,	PUNCT	.	_	3	punct	_	_
 3	entretanto	entretanto	ADV	ADV	_	1	advmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
-5	as	_	DET	DET	_	6	det	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	as	o	DET	DET	_	6	det	_	_
 6	minas	mina	NOUN	NOUN	_	1	obj	_	_
 7	já	já	ADV	ADV	_	8	advmod	_	_
 8	utilizadas	utilizar	VERB	VERB	_	6	acl:part	_	_
@@ -153,33 +153,33 @@
 13	de	de	ADP	ADP	_	15	case	_	_
 14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	entrada	entrada	NOUN	NOUN	_	12	nmod	_	_
-16	em	_	ADP	ADP	_	17	case	_	_
+16	em	em	ADP	ADP	_	17	case	_	_
 17	vigor	vigor	NOUN	NOUN	_	15	nmod	_	_
 18-19	da	_	_	_	_	_	_	_	_
 18	de	de	ADP	ADP	_	20	case	_	_
 19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	Constituição	_	PROPN	PNOUN	_	15	nmod	_	_
-21	(	_	PUNCT	.	_	22	punct	_	SpaceAfter=No
+21	(	(	PUNCT	.	_	22	punct	_	SpaceAfter=No
 22	art.	_	NOUN	NOUN	_	20	appos	_	_
 23	119	_	NUM	NUM	NumType=Card	22	appos	_	SpaceAfter=No
-24	,	_	PUNCT	.	_	26	punct	_	_
+24	,	,	PUNCT	.	_	26	punct	_	_
 25	§	_	PUNCT	.	_	26	punct	_	_
 26	6	_	NUM	NUM	NumType=Card	23	appos	_	_
 27	º	_	PUNCT	.	_	26	punct	_	SpaceAfter=No
-28	)	_	PUNCT	.	_	22	punct	_	SpaceAfter=No
-29	.	_	PUNCT	.	_	1	punct	_	_
+28	)	)	PUNCT	.	_	22	punct	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s4720
 # text = Siga o Yahoo! Notícias no Twitter e no Facebook
 1	Siga	seguir	VERB	VERB	_	0	root	_	_
-2	o	_	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	_	3	det	_	_
 3	Yahoo!	_	PROPN	PNOUN	_	1	obj	_	_
 4	Notícias	_	PROPN	PNOUN	_	3	flat	_	_
 5-6	no	_	_	_	_	_	_	_	_
 5	em	em	ADP	ADP	_	7	case	_	_
 6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Twitter	_	PROPN	PNOUN	_	1	nmod	_	_
-8	e	_	CCONJ	CONJ	_	11	cc	_	_
+8	e	e	CCONJ	CONJ	_	11	cc	_	_
 9-10	no	_	_	_	_	_	_	_	_
 9	em	em	ADP	ADP	_	11	case	_	_
 10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -193,7 +193,7 @@
 3	de	de	ADP	ADP	_	5	case	_	_
 4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	emissora	_	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	2	punct	_	_
+6	,	,	PUNCT	.	_	2	punct	_	_
 7	ela	_	PRON	PRON	_	10	nsubj	_	_
 8	teve	ter	AUX	AUX	_	10	aux	_	_
 9	de	_	ADP	ADP	_	10	mark	_	_
@@ -204,7 +204,7 @@
 13	em	em	ADP	ADP	_	15	case	_	_
 14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	reality	_	NOUN	NOUN	_	12	nmod	_	_
-16	ou	_	CCONJ	CONJ	_	17	cc	_	_
+16	ou	ou	CCONJ	CONJ	_	17	cc	_	_
 17	sair	sair	VERB	VERB	_	12	conj	_	_
 18	para	_	ADP	ADP	_	19	mark	_	_
 19	ir	ir	VERB	VERB	_	17	advcl	_	_
@@ -216,7 +216,7 @@
 23	de	de	ADP	ADP	_	25	case	_	_
 24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	irmã	irmão	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
-26	,	_	PUNCT	.	_	32	punct	_	_
+26	,	,	PUNCT	.	_	32	punct	_	_
 27	mas	_	CCONJ	CONJ	_	32	cc	_	_
 28	neste	_	ADP	ADP	_	29	case	_	_
 29	caso	caso	NOUN	NOUN	_	32	nmod	_	_
@@ -227,12 +227,12 @@
 33	a	a	ADP	ADP	_	35	case	_	_
 34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	programa	programa	NOUN	NOUN	_	32	nmod	_	SpaceAfter=No
-36	.	_	PUNCT	.	_	10	punct	_	_
+36	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s4722
 # text = Todas as operadoras são obrigadas a disponibilizar essas informações agora em junho?
 1	Todas	_	DET	DET	_	3	det	_	_
-2	as	_	DET	DET	_	3	det	_	_
+2	as	o	DET	DET	_	3	det	_	_
 3	operadoras	operador	NOUN	NOUN	_	5	nsubj:pass	_	_
 4	são	ser	AUX	AUX	_	5	aux:pass	_	_
 5	obrigadas	obrigar	VERB	VERB	_	0	root	_	_
@@ -241,22 +241,22 @@
 8	essas	_	DET	DET	_	9	det	_	_
 9	informações	informação	NOUN	NOUN	_	7	obj	_	_
 10	agora	agora	ADV	ADV	_	12	advmod	_	_
-11	em	_	ADP	ADP	_	12	case	_	_
+11	em	em	ADP	ADP	_	12	case	_	_
 12	junho	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
-13	?	_	PUNCT	.	_	5	punct	_	_
+13	?	?	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s4723
 # text = Tivemos muito mais uma recuperação do grupo.
 1	Tivemos	ter	VERB	VERB	_	0	root	_	_
 2	muito	muito	ADV	ADV	_	3	advmod	_	_
 3	mais	mais	ADV	ADV	_	1	advmod	_	_
-4	uma	_	DET	DET	_	5	det	_	_
+4	uma	um	DET	DET	_	5	det	_	_
 5	recuperação	recuperação	NOUN	NOUN	_	1	obj	_	_
 6-7	do	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	8	case	_	_
 7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	grupo	grupo	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
-9	.	_	PUNCT	.	_	1	punct	_	_
+9	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s4724
 # text = Modalidade integrante dos Jogos Olímpicos de Los Angeles -- 1932, teve como primeiro campeão do mundo, o norte - americano Rolando Wolf.
@@ -267,26 +267,26 @@
 4	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
 5	Jogos	_	PROPN	PNOUN	_	2	nmod	_	_
 6	Olímpicos	_	PROPN	PNOUN	_	5	amod	_	_
-7	de	_	ADP	ADP	_	9	case	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
 8	Los	_	PROPN	PNOUN	_	9	det	_	_
 9	Angeles	_	PROPN	PNOUN	_	5	nmod	_	_
 10	--	_	PUNCT	.	_	11	punct	_	_
 11	1932	_	NUM	NUM	NumType=Card	5	nmod	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	11	punct	_	_
+12	,	,	PUNCT	.	_	11	punct	_	_
 13	teve	ter	VERB	VERB	_	0	root	_	_
-14	como	_	ADP	ADP	_	16	case	_	_
+14	como	como	ADP	ADP	_	16	case	_	_
 15	primeiro	primeiro	ADJ	ADJ	_	16	amod	_	_
 16	campeão	campeão	NOUN	NOUN	_	13	nmod	_	_
 17-18	do	_	_	_	_	_	_	_	_
 17	de	de	ADP	ADP	_	19	case	_	_
 18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	mundo	mundo	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
-20	,	_	PUNCT	.	_	24	punct	_	_
-21	o	_	DET	DET	_	24	det	_	_
+20	,	,	PUNCT	.	_	24	punct	_	_
+21	o	o	DET	DET	_	24	det	_	_
 22	norte	norte	ADJ	ADJ	_	24	amod	_	_
-23	-	_	PUNCT	.	_	24	punct	_	_
+23	-	-	PUNCT	.	_	24	punct	_	_
 24	americano	americano	NOUN	NOUN	_	13	obj	_	_
 25	Rolando	_	PROPN	PNOUN	_	24	appos	_	_
 26	Wolf	_	PROPN	PNOUN	_	25	flat	_	SpaceAfter=No
-27	.	_	PUNCT	.	_	13	punct	_	_
+27	.	.	PUNCT	.	_	13	punct	_	_
 

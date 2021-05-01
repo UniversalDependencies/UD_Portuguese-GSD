@@ -1,12 +1,12 @@
 # sent_id = train-s241
 # text = O maior e mais importante evento de moda da América Latina reúne 32 desfiles que apresentam coleções de verão para 2013.
-1	O	_	DET	DET	_	6	det	_	_
+1	O	o	DET	DET	_	6	det	_	_
 2	maior	maior	ADJ	ADJ	_	6	amod	_	_
-3	e	_	CCONJ	CONJ	_	5	cc	_	_
+3	e	e	CCONJ	CONJ	_	5	cc	_	_
 4	mais	mais	ADV	ADV	_	5	advmod	_	_
 5	importante	importante	ADJ	ADJ	_	2	conj	_	_
 6	evento	evento	NOUN	NOUN	_	13	nsubj	_	_
-7	de	_	ADP	ADP	_	8	case	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
 8	moda	moda	NOUN	NOUN	_	6	nmod	_	_
 9-10	da	_	_	_	_	_	_	_	_
 9	de	de	ADP	ADP	_	11	case	_	_
@@ -19,45 +19,45 @@
 16	que	_	PRON	PRON	_	17	nsubj	_	_
 17	apresentam	apresentar	VERB	VERB	_	15	acl:relcl	_	_
 18	coleções	coleção	NOUN	NOUN	_	17	obj	_	_
-19	de	_	ADP	ADP	_	20	case	_	_
+19	de	de	ADP	ADP	_	20	case	_	_
 20	verão	_	PROPN	PNOUN	_	18	nmod	_	_
-21	para	_	ADP	ADP	_	22	case	_	_
+21	para	para	ADP	ADP	_	22	case	_	_
 22	2013	_	NUM	NUM	NumType=Card	18	nmod	_	SpaceAfter=No
-23	.	_	PUNCT	.	_	13	punct	_	_
+23	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = train-s242
 # text = São Paulo -- As policias Civil e Militar (PM) de São Paulo anunciaram hoje (24) a prisão de cinco suspeitos de envolvimento nos assassinatos de policiais militares ocorridos nos últimos dias.
 1	São	_	PROPN	PNOUN	_	15	parataxis	_	_
 2	Paulo	_	PROPN	PNOUN	_	1	flat	_	_
 3	--	_	PUNCT	.	_	15	punct	_	_
-4	As	_	DET	DET	_	5	det	_	_
+4	As	o	DET	DET	_	5	det	_	_
 5	policias	_	PROPN	PNOUN	_	15	nsubj	_	_
 6	Civil	_	PROPN	PNOUN	_	5	amod	_	_
-7	e	_	CCONJ	CONJ	_	8	cc	_	_
+7	e	e	CCONJ	CONJ	_	8	cc	_	_
 8	Militar	_	PROPN	PNOUN	_	6	conj	_	_
-9	(	_	PUNCT	.	_	10	punct	_	SpaceAfter=No
+9	(	(	PUNCT	.	_	10	punct	_	SpaceAfter=No
 10	PM	_	PROPN	PNOUN	_	5	appos	_	SpaceAfter=No
-11	)	_	PUNCT	.	_	10	punct	_	_
-12	de	_	ADP	ADP	_	13	case	_	_
+11	)	)	PUNCT	.	_	10	punct	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
 13	São	_	PROPN	PNOUN	_	5	nmod	_	_
 14	Paulo	_	PROPN	PNOUN	_	13	flat	_	_
 15	anunciaram	anunciar	VERB	VERB	_	0	root	_	_
 16	hoje	hoje	ADV	ADV	_	15	advmod	_	_
-17	(	_	PUNCT	.	_	18	punct	_	SpaceAfter=No
+17	(	(	PUNCT	.	_	18	punct	_	SpaceAfter=No
 18	24	_	NUM	NUM	NumType=Card	16	nmod	_	SpaceAfter=No
-19	)	_	PUNCT	.	_	18	punct	_	_
-20	a	_	DET	DET	_	21	det	_	_
+19	)	)	PUNCT	.	_	18	punct	_	_
+20	a	a	DET	DET	_	21	det	_	_
 21	prisão	prisão	NOUN	NOUN	_	15	obj	_	_
-22	de	_	ADP	ADP	_	24	case	_	_
+22	de	de	ADP	ADP	_	24	case	_	_
 23	cinco	_	NUM	NUM	NumType=Card	24	nummod	_	_
 24	suspeitos	suspeito	NOUN	NOUN	_	21	nmod	_	_
-25	de	_	ADP	ADP	_	26	case	_	_
+25	de	de	ADP	ADP	_	26	case	_	_
 26	envolvimento	envolvimento	NOUN	NOUN	_	24	nmod	_	_
 27-28	nos	_	_	_	_	_	_	_	_
 27	em	em	ADP	ADP	_	29	case	_	_
 28	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
 29	assassinatos	assassinato	NOUN	NOUN	_	26	nmod	_	_
-30	de	_	ADP	ADP	_	31	case	_	_
+30	de	de	ADP	ADP	_	31	case	_	_
 31	policiais	policial	NOUN	NOUN	_	29	nmod	_	_
 32	militares	militar	ADJ	ADJ	_	31	amod	_	_
 33	ocorridos	ocorrer	VERB	VERB	_	29	acl:part	_	_
@@ -66,14 +66,14 @@
 35	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
 36	últimos	último	ADJ	ADJ	_	37	amod	_	_
 37	dias	dia	NOUN	NOUN	_	33	nmod	_	SpaceAfter=No
-38	.	_	PUNCT	.	_	15	punct	_	_
+38	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = train-s243
 # text = Também chovia fraco por volta das 8h30 desta sexta na BR - 040.
 1	Também	também	ADV	ADV	_	2	advmod	_	_
 2	chovia	chover	VERB	VERB	_	0	root	_	_
 3	fraco	_	ADV	ADV	_	2	advmod	_	_
-4	por	_	ADP	ADP	_	5	case	_	_
+4	por	por	ADP	ADP	_	5	case	_	_
 5	volta	volta	NOUN	NOUN	_	2	nmod	_	_
 6-7	das	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	8	case	_	_
@@ -85,9 +85,9 @@
 11	em	em	ADP	ADP	_	13	case	_	_
 12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	BR	_	PROPN	PNOUN	_	2	nmod	_	_
-14	-	_	PUNCT	.	_	13	punct	_	_
+14	-	-	PUNCT	.	_	13	punct	_	_
 15	040	_	NUM	NUM	NumType=Card	13	appos	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	2	punct	_	_
+16	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s244
 # text = No giro 52 ele chegou a abrir a asa móvel para tentar passar o piloto da casa mas não conseguiu.
@@ -100,13 +100,13 @@
 6	chegou	chegar	AUX	AUX	_	8	aux	_	_
 7	a	_	ADP	ADP	_	8	mark	_	_
 8	abrir	abrir	VERB	VERB	_	0	root	_	_
-9	a	_	DET	DET	_	10	det	_	_
+9	a	a	DET	DET	_	10	det	_	_
 10	asa	asa	NOUN	NOUN	_	8	obj	_	_
 11	móvel	móvel	ADJ	ADJ	_	10	amod	_	_
 12	para	_	ADP	ADP	_	13	mark	_	_
 13	tentar	tentar	VERB	VERB	_	8	advcl	_	_
 14	passar	passar	VERB	VERB	_	13	xcomp	_	_
-15	o	_	DET	DET	_	16	det	_	_
+15	o	o	DET	DET	_	16	det	_	_
 16	piloto	piloto	NOUN	NOUN	_	14	obj	_	_
 17-18	da	_	_	_	_	_	_	_	_
 17	de	de	ADP	ADP	_	19	case	_	_
@@ -115,19 +115,19 @@
 20	mas	_	CCONJ	CONJ	_	22	cc	_	_
 21	não	não	ADV	ADV	Polarity=Neg	22	advmod	_	_
 22	conseguiu	conseguir	VERB	VERB	_	14	conj	_	SpaceAfter=No
-23	.	_	PUNCT	.	_	8	punct	_	_
+23	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s245
 # text = Nunca o apelo da união faz a força foi tão exposto como hoje no encontro dos produtores de Goiás contra a cartelização da carne.
 1	Nunca	nunca	ADV	ADV	_	10	advmod	_	_
-2	o	_	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	_	3	det	_	_
 3	apelo	apelo	NOUN	NOUN	_	10	nsubj	_	_
 4-5	da	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	7	case	_	_
 5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 6	união	união	NOUN	NOUN	_	7	nsubj	_	_
 7	faz	fazer	VERB	VERB	_	3	nmod	_	_
-8	a	_	DET	DET	_	9	det	_	_
+8	a	a	DET	DET	_	9	det	_	_
 9	força	força	NOUN	NOUN	_	7	obj	_	_
 10	foi	_	VERB	VERB	_	0	root	_	_
 11	tão	tão	ADV	ADV	_	12	advmod	_	_
@@ -142,45 +142,45 @@
 18	de	de	ADP	ADP	_	20	case	_	_
 19	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
 20	produtores	produtor	NOUN	NOUN	_	17	nmod	_	_
-21	de	_	ADP	ADP	_	22	case	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
 22	Goiás	_	PROPN	PNOUN	_	20	nmod	_	_
 23	contra	_	ADP	ADP	_	25	case	_	_
-24	a	_	DET	DET	_	25	det	_	_
+24	a	a	DET	DET	_	25	det	_	_
 25	cartelização	cartelização	NOUN	NOUN	_	17	nmod	_	_
 26-27	da	_	_	_	_	_	_	_	_
 26	de	de	ADP	ADP	_	28	case	_	_
 27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	carne	carne	NOUN	NOUN	_	25	nmod	_	SpaceAfter=No
-29	.	_	PUNCT	.	_	10	punct	_	_
+29	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s246
 # text = Não, eu não sou de esquerda.
 1	Não	não	ADV	ADV	Polarity=Neg	5	advmod	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	1	punct	_	_
+2	,	,	PUNCT	.	_	1	punct	_	_
 3	eu	_	PRON	PRON	_	5	nsubj	_	_
 4	não	não	ADV	ADV	Polarity=Neg	5	advmod	_	_
 5	sou	ser	VERB	VERB	_	0	root	_	_
-6	de	_	ADP	ADP	_	7	case	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
 7	esquerda	esquerda	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
-8	.	_	PUNCT	.	_	5	punct	_	_
+8	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s247
 # text = Quando foi lançado, o canal tinha o objetivo de fazer com que todos os setores da empresa se comunicassem de forma mais próxima com seus clientes.
 1	Quando	_	CCONJ	CONJ	_	3	mark	_	_
 2	foi	_	AUX	AUX	_	3	aux:pass	_	_
 3	lançado	lançar	VERB	VERB	_	7	advcl	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
-5	o	_	DET	DET	_	6	det	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	o	o	DET	DET	_	6	det	_	_
 6	canal	canal	NOUN	NOUN	_	7	nsubj	_	_
 7	tinha	ter	VERB	VERB	_	0	root	_	_
-8	o	_	DET	DET	_	9	det	_	_
+8	o	o	DET	DET	_	9	det	_	_
 9	objetivo	objetivo	NOUN	NOUN	_	7	obj	_	_
 10	de	_	ADP	ADP	_	11	mark	_	_
 11	fazer	fazer	VERB	VERB	_	9	nmod	_	_
 12	com	_	ADP	ADP	_	21	mark	_	_
-13	que	_	CCONJ	CONJ	_	21	mark	_	_
+13	que	que	CCONJ	CONJ	_	21	mark	_	_
 14	todos	_	DET	DET	_	16	det	_	_
-15	os	_	DET	DET	_	16	det	_	_
+15	os	o	DET	DET	_	16	det	_	_
 16	setores	setor	NOUN	NOUN	_	21	nsubj	_	_
 17-18	da	_	_	_	_	_	_	_	_
 17	de	de	ADP	ADP	_	19	case	_	_
@@ -188,29 +188,29 @@
 19	empresa	empresa	NOUN	NOUN	_	16	nmod	_	_
 20	se	_	PART	PRT	_	21	expl:pv	_	_
 21	comunicassem	comunicar	VERB	VERB	_	11	nmod	_	_
-22	de	_	ADP	ADP	_	23	case	_	_
+22	de	de	ADP	ADP	_	23	case	_	_
 23	forma	forma	NOUN	NOUN	_	21	nmod	_	_
 24	mais	mais	ADV	ADV	_	25	advmod	_	_
 25	próxima	próximo	ADJ	ADJ	_	23	amod	_	_
-26	com	_	ADP	ADP	_	28	case	_	_
+26	com	com	ADP	ADP	_	28	case	_	_
 27	seus	_	DET	DET	_	28	det:poss	_	_
 28	clientes	cliente	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
-29	.	_	PUNCT	.	_	7	punct	_	_
+29	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s248
 # text = Hawks teria usado o apelido "Slim" para a personagem de Bacall no seu primeiro filme.
 1	Hawks	_	PROPN	PNOUN	_	3	nsubj	_	_
 2	teria	ter	AUX	AUX	_	3	aux	_	_
 3	usado	usar	VERB	VERB	_	0	root	_	_
-4	o	_	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	_	5	det	_	_
 5	apelido	apelido	NOUN	NOUN	_	3	obj	_	_
-6	"	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
+6	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
 7	Slim	_	PROPN	PNOUN	_	5	appos	_	SpaceAfter=No
-8	"	_	PUNCT	.	_	7	punct	_	_
-9	para	_	ADP	ADP	_	11	case	_	_
-10	a	_	DET	DET	_	11	det	_	_
+8	"	"	PUNCT	.	_	7	punct	_	_
+9	para	para	ADP	ADP	_	11	case	_	_
+10	a	a	DET	DET	_	11	det	_	_
 11	personagem	personagem	NOUN	NOUN	_	3	nmod	_	_
-12	de	_	ADP	ADP	_	13	case	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
 13	Bacall	_	PROPN	PNOUN	_	11	nmod	_	_
 14-15	no	_	_	_	_	_	_	_	_
 14	em	em	ADP	ADP	_	18	case	_	_
@@ -218,14 +218,14 @@
 16	seu	_	DET	DET	_	18	det:poss	_	_
 17	primeiro	primeiro	ADJ	ADJ	_	18	amod	_	_
 18	filme	filme	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	3	punct	_	_
+19	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s249
 # text = Dessa forma, a argentina YPF vai atuar na exploração de petróleo na Faixa de Orinoco (no Leste venezuelano) e a venezuelana PDVSA vai entrar nos campos de exploração em território argentino.
 1	Dessa	_	ADP	ADP	_	2	case	_	_
 2	forma	forma	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	2	punct	_	_
-4	a	_	DET	DET	_	6	det	_	_
+3	,	,	PUNCT	.	_	2	punct	_	_
+4	a	a	DET	DET	_	6	det	_	_
 5	argentina	argentino	ADJ	ADJ	_	6	amod	_	_
 6	YPF	_	PROPN	PNOUN	_	8	nsubj	_	_
 7	vai	ir	AUX	AUX	_	8	aux	_	_
@@ -234,21 +234,21 @@
 9	em	em	ADP	ADP	_	11	case	_	_
 10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	exploração	exploração	NOUN	NOUN	_	8	nmod	_	_
-12	de	_	ADP	ADP	_	13	case	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
 13	petróleo	petróleo	NOUN	NOUN	_	11	nmod	_	_
 14-15	na	_	_	_	_	_	_	_	_
 14	em	em	ADP	ADP	_	16	case	_	_
 15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	Faixa	_	PROPN	PNOUN	_	8	nmod	_	_
-17	de	_	ADP	ADP	_	18	case	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
 18	Orinoco	_	PROPN	PNOUN	_	16	nmod	_	_
-19	(	_	PUNCT	.	_	22	punct	_	SpaceAfter=No
+19	(	(	PUNCT	.	_	22	punct	_	SpaceAfter=No
 20-21	no	_	_	_	_	_	_	_	_
 20	em	em	ADP	ADP	_	22	case	_	_
 21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	Leste	_	PROPN	PNOUN	_	16	nmod	_	_
 23	venezuelano	venezuelano	ADJ	ADJ	_	22	amod	_	SpaceAfter=No
-24	)	_	PUNCT	.	_	22	punct	_	_
+24	)	)	PUNCT	.	_	22	punct	_	_
 25	e	e	CCONJ	CONJ	_	30	cc	_	_
 26	a	o	DET	DET	_	30	det	_	_
 27	venezuelana	venezuelano	ADJ	ADJ	_	28	amod	_	_
@@ -259,22 +259,22 @@
 31	em	em	ADP	ADP	_	33	case	_	_
 32	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
 33	campos	campo	NOUN	NOUN	_	30	nmod	_	_
-34	de	_	ADP	ADP	_	35	case	_	_
+34	de	de	ADP	ADP	_	35	case	_	_
 35	exploração	exploração	NOUN	NOUN	_	33	nmod	_	_
-36	em	_	ADP	ADP	_	37	case	_	_
+36	em	em	ADP	ADP	_	37	case	_	_
 37	território	território	NOUN	NOUN	_	30	nmod	_	_
 38	argentino	argentino	ADJ	ADJ	_	37	amod	_	SpaceAfter=No
-39	.	_	PUNCT	.	_	8	punct	_	_
+39	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s250
 # text = Mas, pelo Protocolo de Adesão da Venezuela ao Mercosul, o prazo final é quatro anos.
 1	Mas	_	CCONJ	CONJ	_	20	cc	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	5	punct	_	_
+2	,	,	PUNCT	.	_	5	punct	_	_
 3-4	pelo	_	_	_	_	_	_	_	_
 3	por	por	ADP	ADP	_	5	case	_	_
 4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Protocolo	_	PROPN	PNOUN	_	20	nmod	_	_
-6	de	_	ADP	ADP	_	7	case	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
 7	Adesão	_	PROPN	PNOUN	_	5	nmod	_	_
 8-9	da	_	_	_	_	_	_	_	_
 8	de	de	ADP	ADP	_	10	case	_	_
@@ -284,12 +284,12 @@
 11	a	a	ADP	ADP	_	13	case	_	_
 12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	Mercosul	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
-14	,	_	PUNCT	.	_	5	punct	_	_
-15	o	_	DET	DET	_	16	det	_	_
+14	,	,	PUNCT	.	_	5	punct	_	_
+15	o	o	DET	DET	_	16	det	_	_
 16	prazo	prazo	NOUN	NOUN	_	20	nsubj	_	_
 17	final	final	ADJ	ADJ	_	16	amod	_	_
 18	é	ser	AUX	AUX	_	20	cop	_	_
 19	quatro	_	NUM	NUM	NumType=Card	20	nummod	_	_
 20	anos	ano	NOUN	NOUN	_	0	root	_	SpaceAfter=No
-21	.	_	PUNCT	.	_	20	punct	_	_
+21	.	.	PUNCT	.	_	20	punct	_	_
 

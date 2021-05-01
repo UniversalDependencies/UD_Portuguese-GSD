@@ -4,34 +4,34 @@
 2	por	_	ADP	ADP	_	4	mark	_	_
 3	não	não	ADV	ADV	Polarity=Neg	4	advmod	_	_
 4	existir	existir	VERB	VERB	_	8	advcl	_	_
-5	um	_	DET	DET	_	6	det	_	_
+5	um	um	DET	DET	_	6	det	_	_
 6	marco	marco	NOUN	NOUN	_	4	obj	_	_
 7	legal	legal	ADJ	ADJ	_	6	amod	_	_
 8	há	haver	VERB	VERB	_	18	ccomp	_	_
-9	uma	_	DET	DET	_	10	det	_	_
+9	uma	um	DET	DET	_	10	det	_	_
 10	insegurança	insegurança	NOUN	NOUN	_	8	obj	_	_
-11	por	_	ADP	ADP	_	12	case	_	_
+11	por	por	ADP	ADP	_	12	case	_	_
 12	parte	parte	NOUN	NOUN	_	8	nmod	_	_
 13-14	dos	_	_	_	_	_	_	_	_
 13	de	de	ADP	ADP	_	15	case	_	_
 14	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
 15	investidores	investidor	NOUN	NOUN	_	12	nmod	_	_
-16	"	_	PUNCT	.	_	8	punct	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	8	punct	_	_
+16	"	"	PUNCT	.	_	8	punct	_	SpaceAfter=No
+17	,	,	PUNCT	.	_	8	punct	_	_
 18	destacou	destacar	VERB	VERB	_	0	root	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	18	punct	_	_
+19	.	.	PUNCT	.	_	18	punct	_	_
 
 # sent_id = test-s2
 # text = O executivo explicou que a companhia vai manter o foco na produtividade das consultoras e na evolução do nível de serviços.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	executivo	executivo	NOUN	NOUN	_	3	nsubj	_	_
 3	explicou	explicar	VERB	VERB	_	0	root	_	_
-4	que	_	CCONJ	CONJ	_	8	mark	_	_
-5	a	_	DET	DET	_	6	det	_	_
+4	que	que	CCONJ	CONJ	_	8	mark	_	_
+5	a	a	DET	DET	_	6	det	_	_
 6	companhia	companhia	NOUN	NOUN	_	8	nsubj	_	_
 7	vai	ir	AUX	AUX	_	8	aux	_	_
 8	manter	manter	VERB	VERB	_	3	ccomp	_	_
-9	o	_	DET	DET	_	10	det	_	_
+9	o	o	DET	DET	_	10	det	_	_
 10	foco	foco	NOUN	NOUN	_	8	obj	_	_
 11-12	na	_	_	_	_	_	_	_	_
 11	em	em	ADP	ADP	_	13	case	_	_
@@ -41,7 +41,7 @@
 14	de	de	ADP	ADP	_	16	case	_	_
 15	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
 16	consultoras	consultor	NOUN	NOUN	_	13	nmod	_	_
-17	e	_	CCONJ	CONJ	_	20	cc	_	_
+17	e	e	CCONJ	CONJ	_	20	cc	_	_
 18-19	na	_	_	_	_	_	_	_	_
 18	em	em	ADP	ADP	_	20	case	_	_
 19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
@@ -50,14 +50,14 @@
 21	de	de	ADP	ADP	_	23	case	_	_
 22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	nível	nível	NOUN	NOUN	_	20	nmod	_	_
-24	de	_	ADP	ADP	_	25	case	_	_
+24	de	de	ADP	ADP	_	25	case	_	_
 25	serviços	serviço	NOUN	NOUN	_	23	nmod	_	SpaceAfter=No
-26	.	_	PUNCT	.	_	3	punct	_	_
+26	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = test-s3
 # text = Com o resultado Cairoli retorna á liderança da competição.
 1	Com	_	ADP	ADP	_	3	case	_	_
-2	o	_	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	_	3	det	_	_
 3	resultado	resultado	NOUN	NOUN	_	5	nmod	_	_
 4	Cairoli	_	PROPN	PNOUN	_	5	nsubj	_	_
 5	retorna	retornar	VERB	VERB	_	0	root	_	_
@@ -67,13 +67,13 @@
 8	de	de	ADP	ADP	_	10	case	_	_
 9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	competição	competição	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-11	.	_	PUNCT	.	_	5	punct	_	_
+11	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = test-s4
 # text = Comissão técnica e diretoria desfrutam da mesma opinião.
 1	Comissão	_	PROPN	PNOUN	_	5	nsubj	_	_
 2	técnica	técnico	ADJ	ADJ	_	1	amod	_	_
-3	e	_	CCONJ	CONJ	_	4	cc	_	_
+3	e	e	CCONJ	CONJ	_	4	cc	_	_
 4	diretoria	diretoria	NOUN	NOUN	_	1	conj	_	_
 5	desfrutam	desfrutar	VERB	VERB	_	0	root	_	_
 6-7	da	_	_	_	_	_	_	_	_
@@ -81,30 +81,30 @@
 7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 8	mesma	mesmo	ADJ	ADJ	_	9	amod	_	_
 9	opinião	opinião	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
-10	.	_	PUNCT	.	_	5	punct	_	_
+10	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = test-s5
 # text = A espada, que era uma peça de decoração da casa, foi apreendida para ser periciada.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	espada	espada	NOUN	NOUN	_	15	nsubj:pass	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	7	punct	_	_
+3	,	,	PUNCT	.	_	7	punct	_	_
 4	que	_	PRON	PRON	_	7	nsubj	_	_
 5	era	_	AUX	AUX	_	7	cop	_	_
-6	uma	_	DET	DET	_	7	det	_	_
+6	uma	um	DET	DET	_	7	det	_	_
 7	peça	peça	NOUN	NOUN	_	2	acl:relcl	_	_
-8	de	_	ADP	ADP	_	9	case	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
 9	decoração	decoração	NOUN	NOUN	_	7	nmod	_	_
 10-11	da	_	_	_	_	_	_	_	_
 10	de	de	ADP	ADP	_	12	case	_	_
 11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	casa	casa	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	7	punct	_	_
+13	,	,	PUNCT	.	_	7	punct	_	_
 14	foi	_	AUX	AUX	_	15	aux:pass	_	_
 15	apreendida	apreender	VERB	VERB	_	0	root	_	_
 16	para	_	ADP	ADP	_	18	mark	_	_
 17	ser	ser	AUX	AUX	_	18	aux:pass	_	_
 18	periciada	_	VERB	VERB	_	15	advcl	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	15	punct	_	_
+19	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = test-s6
 # text = Tornando-se líder da H.I.D.R.A., foi deposto após uma derrota nas mãos da SHIELD e sofreu um acidente, caindo de considerável altura durante o confronto com o terceiro Duende Verde e o Homem - Aranha.
@@ -116,11 +116,11 @@
 4	de	de	ADP	ADP	_	6	case	_	_
 5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	H.I.D.R.A.	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	3	punct	_	_
+7	,	,	PUNCT	.	_	3	punct	_	_
 8	foi	_	AUX	AUX	_	9	aux:pass	_	_
 9	deposto	depor	VERB	VERB	_	0	root	_	_
 10	após	_	ADP	ADP	_	12	case	_	_
-11	uma	_	DET	DET	_	12	det	_	_
+11	uma	um	DET	DET	_	12	det	_	_
 12	derrota	derrota	NOUN	NOUN	_	9	nmod	_	_
 13-14	nas	_	_	_	_	_	_	_	_
 13	em	em	ADP	ADP	_	15	case	_	_
@@ -130,54 +130,54 @@
 16	de	de	ADP	ADP	_	18	case	_	_
 17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	SHIELD	_	PROPN	PNOUN	_	15	nmod	_	_
-19	e	_	CCONJ	CONJ	_	20	cc	_	_
+19	e	e	CCONJ	CONJ	_	20	cc	_	_
 20	sofreu	sofrer	VERB	VERB	_	9	conj	_	_
-21	um	_	DET	DET	_	22	det	_	_
+21	um	um	DET	DET	_	22	det	_	_
 22	acidente	acidente	NOUN	NOUN	_	20	obj	_	SpaceAfter=No
-23	,	_	PUNCT	.	_	24	punct	_	_
+23	,	,	PUNCT	.	_	24	punct	_	_
 24	caindo	cair	VERB	VERB	_	20	acl:part	_	_
-25	de	_	ADP	ADP	_	27	case	_	_
+25	de	de	ADP	ADP	_	27	case	_	_
 26	considerável	considerável	ADJ	ADJ	_	27	amod	_	_
 27	altura	altura	NOUN	NOUN	_	24	nmod	_	_
 28	durante	_	ADP	ADP	_	30	case	_	_
-29	o	_	DET	DET	_	30	det	_	_
+29	o	o	DET	DET	_	30	det	_	_
 30	confronto	confronto	NOUN	NOUN	_	24	nmod	_	_
-31	com	_	ADP	ADP	_	34	case	_	_
-32	o	_	DET	DET	_	34	det	_	_
+31	com	com	ADP	ADP	_	34	case	_	_
+32	o	o	DET	DET	_	34	det	_	_
 33	terceiro	_	ADJ	ADJ	_	34	amod	_	_
 34	Duende	_	PROPN	PNOUN	_	30	nmod	_	_
 35	Verde	_	PROPN	PNOUN	_	34	amod	_	_
-36	e	_	CCONJ	CONJ	_	38	cc	_	_
-37	o	_	DET	DET	_	38	det	_	_
+36	e	e	CCONJ	CONJ	_	38	cc	_	_
+37	o	o	DET	DET	_	38	det	_	_
 38	Homem	_	PROPN	PNOUN	_	34	conj	_	_
-39	-	_	PUNCT	.	_	38	punct	_	_
+39	-	-	PUNCT	.	_	38	punct	_	_
 40	Aranha	_	PROPN	PNOUN	_	38	flat	_	SpaceAfter=No
-41	.	_	PUNCT	.	_	9	punct	_	_
+41	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = test-s7
 # text = Sou fã de futebol, não gosto do Corinthians, fiquei empolgado com o Bóson de Higgs e tenho que descordar da postura da autora.
 1	Sou	ser	AUX	AUX	_	2	cop	_	_
 2	fã	fã	NOUN	NOUN	_	0	root	_	_
-3	de	_	ADP	ADP	_	4	case	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
 4	futebol	futebol	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	7	punct	_	_
+5	,	,	PUNCT	.	_	7	punct	_	_
 6	não	não	ADV	ADV	Polarity=Neg	7	advmod	_	_
 7	gosto	gostar	VERB	VERB	_	2	conj	_	_
 8-9	do	_	_	_	_	_	_	_	_
 8	de	de	ADP	ADP	_	10	case	_	_
 9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	Corinthians	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	12	punct	_	_
+11	,	,	PUNCT	.	_	12	punct	_	_
 12	fiquei	ficar	VERB	VERB	_	2	conj	_	_
 13	empolgado	empolgado	ADJ	ADJ	_	12	xcomp:adj	_	_
-14	com	_	ADP	ADP	_	16	case	_	_
-15	o	_	DET	DET	_	16	det	_	_
+14	com	com	ADP	ADP	_	16	case	_	_
+15	o	o	DET	DET	_	16	det	_	_
 16	Bóson	_	PROPN	PNOUN	_	13	nmod	_	_
-17	de	_	ADP	ADP	_	18	case	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
 18	Higgs	_	PROPN	PNOUN	_	16	nmod	_	_
-19	e	_	CCONJ	CONJ	_	22	cc	_	_
+19	e	e	CCONJ	CONJ	_	22	cc	_	_
 20	tenho	ter	AUX	AUX	_	22	aux	_	_
-21	que	_	CCONJ	CONJ	_	22	mark	_	_
+21	que	que	CCONJ	CONJ	_	22	mark	_	_
 22	descordar	descordar	VERB	VERB	_	2	conj	_	_
 23-24	da	_	_	_	_	_	_	_	_
 23	de	de	ADP	ADP	_	25	case	_	_
@@ -187,7 +187,7 @@
 26	de	de	ADP	ADP	_	28	case	_	_
 27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	autora	autor	NOUN	NOUN	_	25	nmod	_	SpaceAfter=No
-29	.	_	PUNCT	.	_	2	punct	_	_
+29	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = test-s8
 # text = Com http://m.goal.com -- sua melhor fonte de cobertura para celulares do futebol.
@@ -197,20 +197,20 @@
 4	sua	_	DET	DET	_	6	det:poss	_	_
 5	melhor	melhor	ADJ	ADJ	_	6	amod	_	_
 6	fonte	fonte	NOUN	NOUN	_	2	appos	_	_
-7	de	_	ADP	ADP	_	8	case	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
 8	cobertura	cobertura	NOUN	NOUN	_	6	nmod	_	_
-9	para	_	ADP	ADP	_	10	case	_	_
+9	para	para	ADP	ADP	_	10	case	_	_
 10	celulares	_	NOUN	NOUN	_	8	nmod	_	_
 11-12	do	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	13	case	_	_
 12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	futebol	futebol	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-14	.	_	PUNCT	.	_	2	punct	_	_
+14	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = test-s9
 # text = Cerca de 45 mil exemplares do Anthology 1 foram vendidos em seu primeiro dia de lançamento.
 1	Cerca	cerca	ADV	ADV	_	4	advmod	_	_
-2	de	_	ADP	ADP	_	1	case	_	_
+2	de	de	ADP	ADP	_	1	case	_	_
 3	45	_	NUM	NUM	NumType=Card	4	nummod	_	_
 4	mil	_	NUM	NUM	NumType=Card	5	nummod	_	_
 5	exemplares	exemplar	NOUN	NOUN	_	11	nsubj:pass	_	_
@@ -221,24 +221,24 @@
 9	1	_	NUM	NUM	NumType=Card	8	appos	_	_
 10	foram	_	AUX	AUX	_	11	aux:pass	_	_
 11	vendidos	vender	VERB	VERB	_	0	root	_	_
-12	em	_	ADP	ADP	_	15	case	_	_
+12	em	em	ADP	ADP	_	15	case	_	_
 13	seu	_	DET	DET	_	15	det:poss	_	_
 14	primeiro	primeiro	ADJ	ADJ	_	15	amod	_	_
 15	dia	dia	NOUN	NOUN	_	11	nmod	_	_
-16	de	_	ADP	ADP	_	17	case	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
 17	lançamento	lançamento	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
-18	.	_	PUNCT	.	_	11	punct	_	_
+18	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = test-s10
 # text = "Já estamos importando os equipamentos", afirmou.
-1	"	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
 2	Já	já	ADV	ADV	_	4	advmod	_	_
 3	estamos	estar	AUX	AUX	_	4	aux	_	_
 4	importando	importar	VERB	VERB	_	9	ccomp	_	_
-5	os	_	DET	DET	_	6	det	_	_
+5	os	o	DET	DET	_	6	det	_	_
 6	equipamentos	equipamento	NOUN	NOUN	_	4	obj	_	SpaceAfter=No
-7	"	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	9	punct	_	_
+7	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	9	punct	_	_
 9	afirmou	afirmar	VERB	VERB	_	0	root	_	SpaceAfter=No
-10	.	_	PUNCT	.	_	9	punct	_	_
+10	.	.	PUNCT	.	_	9	punct	_	_
 

@@ -1,21 +1,21 @@
 # sent_id = dev-s91
 # text = Os dados foram divulgados hoje (16), em diagnóstico preliminar sobre o tráfico de pessoas no Brasil elaborado pela Secretaria Nacional de Justiça do Ministério da Justiça e pelo Escritório das Nações Unidas sobre Drogas e Crime (Unodc).
-1	Os	_	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	_	2	det	_	_
 2	dados	dado	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foram	_	AUX	AUX	_	4	aux:pass	_	_
 4	divulgados	divulgar	VERB	VERB	_	0	root	_	_
 5	hoje	hoje	ADV	ADV	_	4	advmod	_	_
-6	(	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
+6	(	(	PUNCT	.	_	7	punct	_	SpaceAfter=No
 7	16	_	NUM	NUM	NumType=Card	5	nmod	_	SpaceAfter=No
-8	)	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	11	punct	_	_
-10	em	_	ADP	ADP	_	11	case	_	_
+8	)	)	PUNCT	.	_	7	punct	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	11	punct	_	_
+10	em	em	ADP	ADP	_	11	case	_	_
 11	diagnóstico	diagnóstico	NOUN	NOUN	_	4	nmod	_	_
 12	preliminar	preliminar	ADJ	ADJ	_	11	amod	_	_
 13	sobre	_	ADP	ADP	_	15	case	_	_
-14	o	_	DET	DET	_	15	det	_	_
+14	o	o	DET	DET	_	15	det	_	_
 15	tráfico	tráfico	NOUN	NOUN	_	11	nmod	_	_
-16	de	_	ADP	ADP	_	17	case	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
 17	pessoas	pessoa	NOUN	NOUN	_	15	nmod	_	_
 18-19	no	_	_	_	_	_	_	_	_
 18	em	em	ADP	ADP	_	20	case	_	_
@@ -27,7 +27,7 @@
 23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	Secretaria	_	PROPN	PNOUN	_	21	nmod	_	_
 25	Nacional	_	PROPN	PNOUN	_	24	amod	_	_
-26	de	_	ADP	ADP	_	27	case	_	_
+26	de	de	ADP	ADP	_	27	case	_	_
 27	Justiça	_	PROPN	PNOUN	_	24	nmod	_	_
 28-29	do	_	_	_	_	_	_	_	_
 28	de	de	ADP	ADP	_	30	case	_	_
@@ -37,7 +37,7 @@
 31	de	de	ADP	ADP	_	33	case	_	_
 32	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
 33	Justiça	_	PROPN	PNOUN	_	30	nmod	_	_
-34	e	_	CCONJ	CONJ	_	37	cc	_	_
+34	e	e	CCONJ	CONJ	_	37	cc	_	_
 35-36	pelo	_	_	_	_	_	_	_	_
 35	por	por	ADP	ADP	_	37	case	_	_
 36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
@@ -49,16 +49,16 @@
 41	Unidas	_	PROPN	PNOUN	_	40	amod	_	_
 42	sobre	_	ADP	ADP	_	43	case	_	_
 43	Drogas	_	PROPN	PNOUN	_	37	nmod	_	_
-44	e	_	CCONJ	CONJ	_	45	cc	_	_
+44	e	e	CCONJ	CONJ	_	45	cc	_	_
 45	Crime	_	PROPN	PNOUN	_	43	conj	_	_
-46	(	_	PUNCT	.	_	47	punct	_	SpaceAfter=No
+46	(	(	PUNCT	.	_	47	punct	_	SpaceAfter=No
 47	Unodc	_	PROPN	PNOUN	_	37	appos	_	SpaceAfter=No
-48	)	_	PUNCT	.	_	47	punct	_	SpaceAfter=No
-49	.	_	PUNCT	.	_	4	punct	_	_
+48	)	)	PUNCT	.	_	47	punct	_	SpaceAfter=No
+49	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = dev-s92
 # text = A ação da PM teve início após a chacina de seis jovens de Nilópolis, que foram até o parque de Gericinó, vizinho da favela, para tomar banho de cachoeira.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	ação	ação	NOUN	NOUN	_	6	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -67,42 +67,42 @@
 6	teve	ter	VERB	VERB	_	0	root	_	_
 7	início	início	NOUN	NOUN	_	6	obj	_	_
 8	após	_	ADP	ADP	_	10	case	_	_
-9	a	_	DET	DET	_	10	det	_	_
+9	a	a	DET	DET	_	10	det	_	_
 10	chacina	chacina	NOUN	NOUN	_	6	nmod	_	_
-11	de	_	ADP	ADP	_	13	case	_	_
+11	de	de	ADP	ADP	_	13	case	_	_
 12	seis	_	NUM	NUM	NumType=Card	13	nummod	_	_
 13	jovens	jovem	NOUN	NOUN	_	10	nmod	_	_
-14	de	_	ADP	ADP	_	15	case	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
 15	Nilópolis	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	18	punct	_	_
+16	,	,	PUNCT	.	_	18	punct	_	_
 17	que	_	PRON	PRON	_	18	nsubj	_	_
 18	foram	_	VERB	VERB	_	13	acl:relcl	_	_
 19	até	_	ADP	ADP	_	21	case	_	_
-20	o	_	DET	DET	_	21	det	_	_
+20	o	o	DET	DET	_	21	det	_	_
 21	parque	parque	NOUN	NOUN	_	18	nmod	_	_
-22	de	_	ADP	ADP	_	23	case	_	_
+22	de	de	ADP	ADP	_	23	case	_	_
 23	Gericinó	_	PROPN	PNOUN	_	21	nmod	_	SpaceAfter=No
-24	,	_	PUNCT	.	_	25	punct	_	_
+24	,	,	PUNCT	.	_	25	punct	_	_
 25	vizinho	vizinho	NOUN	NOUN	_	21	appos	_	_
 26-27	da	_	_	_	_	_	_	_	_
 26	de	de	ADP	ADP	_	28	case	_	_
 27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	favela	favela	NOUN	NOUN	_	25	nmod	_	SpaceAfter=No
-29	,	_	PUNCT	.	_	25	punct	_	_
+29	,	,	PUNCT	.	_	25	punct	_	_
 30	para	_	ADP	ADP	_	31	mark	_	_
 31	tomar	tomar	VERB	VERB	_	18	advcl	_	_
 32	banho	banho	NOUN	NOUN	_	31	obj	_	_
-33	de	_	ADP	ADP	_	34	case	_	_
+33	de	de	ADP	ADP	_	34	case	_	_
 34	cachoeira	cachoeira	NOUN	NOUN	_	32	nmod	_	SpaceAfter=No
-35	.	_	PUNCT	.	_	6	punct	_	_
+35	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = dev-s93
 # text = Suas principais características: O mais antigo exemplo da coluna coríntia é o Templo de Apollo Epicurius em Bassae na Arcadia, 450-420 AC.
 1	Suas	_	DET	DET	_	3	det:poss	_	_
 2	principais	principal	ADJ	ADJ	_	3	amod	_	_
 3	características	_	NOUN	NOUN	_	0	root	_	SpaceAfter=No
-4	:	_	PUNCT	.	_	3	punct	_	_
-5	O	_	DET	DET	_	8	det	_	_
+4	:	:	PUNCT	.	_	3	punct	_	_
+5	O	o	DET	DET	_	8	det	_	_
 6	mais	mais	ADV	ADV	_	7	advmod	_	_
 7	antigo	antigo	ADJ	ADJ	_	8	amod	_	_
 8	exemplo	exemplo	NOUN	NOUN	_	15	nsubj	_	_
@@ -112,21 +112,21 @@
 11	coluna	coluna	NOUN	NOUN	_	8	nmod	_	_
 12	coríntia	coríntio	ADJ	ADJ	_	11	amod	_	_
 13	é	ser	AUX	AUX	_	15	cop	_	_
-14	o	_	DET	DET	_	15	det	_	_
+14	o	o	DET	DET	_	15	det	_	_
 15	Templo	_	PROPN	PNOUN	_	3	parataxis	_	_
-16	de	_	ADP	ADP	_	17	case	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
 17	Apollo	_	PROPN	PNOUN	_	15	nmod	_	_
 18	Epicurius	_	PROPN	PNOUN	_	17	flat	_	_
-19	em	_	ADP	ADP	_	20	case	_	_
+19	em	em	ADP	ADP	_	20	case	_	_
 20	Bassae	_	PROPN	PNOUN	_	15	nmod	_	_
 21-22	na	_	_	_	_	_	_	_	_
 21	em	em	ADP	ADP	_	23	case	_	_
 22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	Arcadia	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
-24	,	_	PUNCT	.	_	25	punct	_	_
+24	,	,	PUNCT	.	_	25	punct	_	_
 25	450-420	_	NUM	NUM	NumType=Card	15	nmod	_	_
 26	AC	_	PUNCT	.	_	25	punct	_	SpaceAfter=No
-27	.	_	PUNCT	.	_	3	punct	_	_
+27	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = dev-s94
 # text = Floretino Avidos constrói mais estradas e funda a ponte que liga Vitória - Vila Velha.
@@ -135,17 +135,17 @@
 3	constrói	construir	VERB	VERB	_	0	root	_	_
 4	mais	_	DET	DET	_	5	det	_	_
 5	estradas	estrada	NOUN	NOUN	_	3	obj	_	_
-6	e	_	CCONJ	CONJ	_	7	cc	_	_
+6	e	e	CCONJ	CONJ	_	7	cc	_	_
 7	funda	_	VERB	VERB	_	3	conj	_	_
-8	a	_	DET	DET	_	9	det	_	_
+8	a	a	DET	DET	_	9	det	_	_
 9	ponte	ponte	NOUN	NOUN	_	7	obj	_	_
 10	que	_	PRON	PRON	_	11	nsubj	_	_
 11	liga	ligar	VERB	VERB	_	9	acl:relcl	_	_
 12	Vitória	_	PROPN	PNOUN	_	11	obj	_	_
-13	-	_	PUNCT	.	_	14	punct	_	_
+13	-	-	PUNCT	.	_	14	punct	_	_
 14	Vila	_	PROPN	PNOUN	_	12	conj	_	_
 15	Velha	_	PROPN	PNOUN	_	14	amod	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	3	punct	_	_
+16	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = dev-s95
 # text = Ao todo, onze inscrições foram efetuadas, mas apenas cinco foram pré - classificados
@@ -153,18 +153,18 @@
 1	A	a	ADP	ADP	_	3	case	_	_
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	todo	todo	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
 5	onze	_	DET	DET	_	6	det	_	_
 6	inscrições	inscrição	NOUN	NOUN	_	8	nsubj:pass	_	_
 7	foram	_	AUX	AUX	_	8	aux:pass	_	_
 8	efetuadas	efetuar	VERB	VERB	_	0	root	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	16	punct	_	_
+9	,	,	PUNCT	.	_	16	punct	_	_
 10	mas	_	CCONJ	CONJ	_	16	cc	_	_
 11	apenas	apenas	ADV	ADV	_	12	advmod	_	_
 12	cinco	_	NUM	NUM	NumType=Card	16	nsubj:pass	_	_
 13	foram	_	AUX	AUX	_	16	aux:pass	_	_
 14	pré	_	PART	PRT	_	16	advmod	_	_
-15	-	_	PUNCT	.	_	16	punct	_	_
+15	-	-	PUNCT	.	_	16	punct	_	_
 16	classificados	classificar	VERB	VERB	_	8	conj	_	_
 
 # sent_id = dev-s96
@@ -178,84 +178,84 @@
 6	de	de	ADP	PNOUN	_	8	case	_	_
 7	o	o	DET	PNOUN	_	8	det	_	_
 8	CABO	_	PROPN	PNOUN	_	5	flat:name	_	_
-9	/	_	PUNCT	.	_	10	punct	_	_
+9	/	/	PUNCT	.	_	10	punct	_	_
 10	RJ	_	PROPN	PNOUN	_	5	appos	_	_
 11	--	_	PUNCT	.	_	13	punct	_	_
 12	Foram	_	AUX	AUX	_	13	aux:pass	_	_
 13	prorrogadas	prorrogar	VERB	VERB	_	0	root	_	_
-14	as	_	DET	DET	_	15	det	_	_
+14	as	o	DET	DET	_	15	det	_	_
 15	inscrições	inscrição	NOUN	NOUN	_	13	nsubj:pass	_	_
-16	para	_	ADP	ADP	_	18	case	_	_
-17	o	_	DET	DET	_	18	det	_	_
+16	para	para	ADP	ADP	_	18	case	_	_
+17	o	o	DET	DET	_	18	det	_	_
 18	concurso	concurso	NOUN	NOUN	_	13	nmod	_	_
 19-20	da	_	_	_	_	_	_	_	_
 19	de	de	ADP	ADP	_	21	case	_	_
 20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	Empresa	_	PROPN	PNOUN	_	18	nmod	_	_
-22	de	_	ADP	ADP	_	23	case	_	_
+22	de	de	ADP	ADP	_	23	case	_	_
 23	Saneamento	_	PROPN	PNOUN	_	21	nmod	_	_
-24	de	_	ADP	ADP	_	25	case	_	_
+24	de	de	ADP	ADP	_	25	case	_	_
 25	Arraial	_	PROPN	PNOUN	_	21	nmod	_	_
 26-27	do	_	_	_	_	_	_	_	_
 26	de	de	ADP	ADP	_	28	case	_	_
 27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	Cabo	_	PROPN	PNOUN	_	25	nmod	_	_
-29	(	_	PUNCT	.	_	30	punct	_	SpaceAfter=No
+29	(	(	PUNCT	.	_	30	punct	_	SpaceAfter=No
 30	ESAC	_	PROPN	PNOUN	_	21	appos	_	SpaceAfter=No
-31	)	_	PUNCT	.	_	30	punct	_	SpaceAfter=No
-32	,	_	PUNCT	.	_	34	punct	_	_
+31	)	)	PUNCT	.	_	30	punct	_	SpaceAfter=No
+32	,	,	PUNCT	.	_	34	punct	_	_
 33	que	_	PRON	PRON	_	34	nsubj	_	_
 34	visa	visar	VERB	VERB	_	18	acl:relcl	_	_
 35-36	ao	_	_	_	_	_	_	_	_
 35	a	a	ADP	ADP	_	37	case	_	_
 36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
 37	preenchimento	preenchimento	NOUN	NOUN	_	34	nmod	_	_
-38	de	_	ADP	ADP	_	40	case	_	_
+38	de	de	ADP	ADP	_	40	case	_	_
 39	182	_	NUM	NUM	NumType=Card	40	nummod	_	_
 40	vagas	vaga	NOUN	NOUN	_	37	nmod	_	_
 41-42	do	_	_	_	_	_	_	_	_
 41	de	de	ADP	ADP	_	43	case	_	_
 42	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
 43	quadro	quadro	NOUN	NOUN	_	40	nmod	_	_
-44	de	_	ADP	ADP	_	45	case	_	_
+44	de	de	ADP	ADP	_	45	case	_	_
 45	servidores	servidor	NOUN	NOUN	_	43	nmod	_	_
 46-47	do	_	_	_	_	_	_	_	_
 46	de	de	ADP	ADP	_	48	case	_	_
 47	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
 48	órgão	órgão	NOUN	NOUN	_	45	nmod	_	SpaceAfter=No
-49	.	_	PUNCT	.	_	13	punct	_	_
+49	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = dev-s97
 # text = Tome cuidado com inimigos declarados.
 1	Tome	tomar	VERB	VERB	_	0	root	_	_
 2	cuidado	cuidado	NOUN	NOUN	_	1	obj	_	_
-3	com	_	ADP	ADP	_	4	case	_	_
+3	com	com	ADP	ADP	_	4	case	_	_
 4	inimigos	inimigo	NOUN	NOUN	_	2	nmod	_	_
 5	declarados	declarar	VERB	VERB	_	4	acl:part	_	SpaceAfter=No
-6	.	_	PUNCT	.	_	1	punct	_	_
+6	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = dev-s98
 # text = Estamos aqui com o desejo de triunfo, de fazer algo importante para o Monterrey e para o México.
 1	Estamos	estar	VERB	VERB	_	0	root	_	_
 2	aqui	aqui	ADV	ADV	_	1	advmod	_	_
-3	com	_	ADP	ADP	_	5	case	_	_
-4	o	_	DET	DET	_	5	det	_	_
+3	com	com	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	_	5	det	_	_
 5	desejo	desejo	NOUN	NOUN	_	1	nmod	_	_
-6	de	_	ADP	ADP	_	7	case	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
 7	triunfo	triunfo	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	10	punct	_	_
+8	,	,	PUNCT	.	_	10	punct	_	_
 9	de	_	ADP	ADP	_	10	mark	_	_
 10	fazer	fazer	VERB	VERB	_	7	conj	_	_
 11	algo	_	PRON	PRON	_	10	obj	_	_
 12	importante	importante	ADJ	ADJ	_	11	amod	_	_
-13	para	_	ADP	ADP	_	15	case	_	_
-14	o	_	DET	DET	_	15	det	_	_
+13	para	para	ADP	ADP	_	15	case	_	_
+14	o	o	DET	DET	_	15	det	_	_
 15	Monterrey	_	PROPN	PNOUN	_	12	nmod	_	_
-16	e	_	CCONJ	CONJ	_	19	cc	_	_
-17	para	_	ADP	ADP	_	19	case	_	_
-18	o	_	DET	DET	_	19	det	_	_
+16	e	e	CCONJ	CONJ	_	19	cc	_	_
+17	para	para	ADP	ADP	_	19	case	_	_
+18	o	o	DET	DET	_	19	det	_	_
 19	México	_	PROPN	PNOUN	_	15	conj	_	SpaceAfter=No
-20	.	_	PUNCT	.	_	1	punct	_	_
+20	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = dev-s99
 # text = Pernambuco elegerá delegados que representarão o Estado, nestas duas etapas, sendo a nacional no mês de dezembro, em Brasília (DF).
@@ -264,40 +264,40 @@
 3	delegados	delegado	NOUN	NOUN	_	2	obj	_	_
 4	que	_	PRON	PRON	_	5	nsubj	_	_
 5	representarão	representar	VERB	VERB	_	3	acl:relcl	_	_
-6	o	_	DET	DET	_	7	det	_	_
+6	o	o	DET	DET	_	7	det	_	_
 7	Estado	_	PROPN	PNOUN	_	5	obj	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	11	punct	_	_
+8	,	,	PUNCT	.	_	11	punct	_	_
 9	nestas	_	ADP	ADP	_	11	case	_	_
 10	duas	_	NUM	NUM	NumType=Card	11	nummod	_	_
 11	etapas	etapa	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	11	punct	_	_
+12	,	,	PUNCT	.	_	11	punct	_	_
 13	sendo	ser	VERB	VERB	_	5	acl:part	_	_
-14	a	_	DET	DET	_	15	det	_	_
+14	a	a	DET	DET	_	15	det	_	_
 15	nacional	nacional	NOUN	NOUN	_	13	nsubj	_	_
 16-17	no	_	_	_	_	_	_	_	_
 16	em	em	ADP	ADP	_	18	case	_	_
 17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	mês	mês	NOUN	NOUN	_	13	nmod	_	_
-19	de	_	ADP	ADP	_	20	case	_	_
+19	de	de	ADP	ADP	_	20	case	_	_
 20	dezembro	_	PROPN	PNOUN	_	18	nmod	_	SpaceAfter=No
-21	,	_	PUNCT	.	_	18	punct	_	_
-22	em	_	ADP	ADP	_	23	case	_	_
+21	,	,	PUNCT	.	_	18	punct	_	_
+22	em	em	ADP	ADP	_	23	case	_	_
 23	Brasília	_	PROPN	PNOUN	_	18	nmod	_	_
-24	(	_	PUNCT	.	_	25	punct	_	SpaceAfter=No
+24	(	(	PUNCT	.	_	25	punct	_	SpaceAfter=No
 25	DF	_	PROPN	PNOUN	_	23	appos	_	SpaceAfter=No
-26	)	_	PUNCT	.	_	25	punct	_	SpaceAfter=No
-27	.	_	PUNCT	.	_	2	punct	_	_
+26	)	)	PUNCT	.	_	25	punct	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = dev-s100
 # text = Carta: 3 de Espadas, que significa Amizade.
 1	Carta	carta	NOUN	NOUN	_	0	root	_	SpaceAfter=No
-2	:	_	PUNCT	.	_	1	punct	_	_
+2	:	:	PUNCT	.	_	1	punct	_	_
 3	3	_	NUM	NUM	NumType=Card	1	appos	_	_
-4	de	_	ADP	ADP	_	5	case	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
 5	Espadas	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	8	punct	_	_
+6	,	,	PUNCT	.	_	8	punct	_	_
 7	que	_	PRON	PRON	_	8	nsubj	_	_
 8	significa	significar	VERB	VERB	_	3	acl:relcl	_	_
 9	Amizade	_	PROPN	PNOUN	_	8	obj	_	SpaceAfter=No
-10	.	_	PUNCT	.	_	1	punct	_	_
+10	.	.	PUNCT	.	_	1	punct	_	_
 

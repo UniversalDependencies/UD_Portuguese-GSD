@@ -2,12 +2,12 @@
 # text = De acordo com a BHTrans, cerca de 30 motociclistas estão na sede da empresa, no bairro Buritis, na região Oeste da capital, onde devem ser recebidos para discutir suas reivindicações.
 1	De	_	VERB	VERB	_	2	case	_	_
 2	acordo	acordo	NOUN	NOUN	_	11	nmod	_	_
-3	com	_	ADP	ADP	_	5	case	_	_
-4	a	_	DET	DET	_	5	det	_	_
+3	com	com	ADP	ADP	_	5	case	_	_
+4	a	a	DET	DET	_	5	det	_	_
 5	BHTrans	_	PROPN	PNOUN	_	2	nmod	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	2	punct	_	_
+6	,	,	PUNCT	.	_	2	punct	_	_
 7	cerca	cerca	ADV	ADV	_	9	advmod	_	_
-8	de	_	ADP	ADP	_	7	case	_	_
+8	de	de	ADP	ADP	_	7	case	_	_
 9	30	_	NUM	NUM	NumType=Card	10	nummod	_	_
 10	motociclistas	motociclista	NOUN	NOUN	_	11	nsubj	_	_
 11	estão	estar	VERB	VERB	_	0	root	_	_
@@ -19,13 +19,13 @@
 15	de	de	ADP	ADP	_	17	case	_	_
 16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	empresa	empresa	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
-18	,	_	PUNCT	.	_	21	punct	_	_
+18	,	,	PUNCT	.	_	21	punct	_	_
 19-20	no	_	_	_	_	_	_	_	_
 19	em	em	ADP	ADP	_	21	case	_	_
 20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	bairro	bairro	NOUN	NOUN	_	14	nmod	_	_
 22	Buritis	_	PROPN	PNOUN	_	21	appos	_	SpaceAfter=No
-23	,	_	PUNCT	.	_	26	punct	_	_
+23	,	,	PUNCT	.	_	26	punct	_	_
 24-25	na	_	_	_	_	_	_	_	_
 24	em	em	ADP	ADP	_	26	case	_	_
 25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
@@ -35,7 +35,7 @@
 28	de	de	ADP	ADP	_	30	case	_	_
 29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	capital	capital	NOUN	NOUN	_	27	nmod	_	SpaceAfter=No
-31	,	_	PUNCT	.	_	35	punct	_	_
+31	,	,	PUNCT	.	_	35	punct	_	_
 32	onde	onde	ADV	ADV	_	35	advmod	_	_
 33	devem	_	AUX	AUX	_	35	aux	_	_
 34	ser	ser	AUX	AUX	_	35	aux:pass	_	_
@@ -44,15 +44,15 @@
 37	discutir	discutir	VERB	VERB	_	35	advcl	_	_
 38	suas	_	DET	DET	_	39	det:poss	_	_
 39	reivindicações	reivindicação	NOUN	NOUN	_	37	obj	_	SpaceAfter=No
-40	.	_	PUNCT	.	_	11	punct	_	_
+40	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s3938
 # text = É a minha prova.
 1	É	ser	AUX	AUX	_	4	cop	_	_
-2	a	_	DET	DET	_	4	det	_	_
+2	a	a	DET	DET	_	4	det	_	_
 3	minha	_	DET	DET	_	4	det:poss	_	_
 4	prova	prova	NOUN	NOUN	_	0	root	_	SpaceAfter=No
-5	.	_	PUNCT	.	_	4	punct	_	_
+5	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s3939
 # text = Seus maiores momentos foram em 1989 quando foi campeão do Campeonato Brasileiro pelo Vasco da Gama.
@@ -60,7 +60,7 @@
 2	maiores	maior	ADJ	ADJ	_	3	amod	_	_
 3	momentos	momento	NOUN	NOUN	_	4	nsubj	_	_
 4	foram	_	VERB	VERB	_	0	root	_	_
-5	em	_	ADP	ADP	_	6	case	_	_
+5	em	em	ADP	ADP	_	6	case	_	_
 6	1989	_	NUM	NUM	NumType=Card	4	nmod	_	_
 7	quando	quando	ADV	ADV	_	9	advmod	_	_
 8	foi	_	AUX	AUX	_	9	cop	_	_
@@ -78,44 +78,44 @@
 17	de	de	ADP	ADP	_	19	case	_	_
 18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	Gama	_	PROPN	PNOUN	_	16	nmod	_	SpaceAfter=No
-20	.	_	PUNCT	.	_	4	punct	_	_
+20	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s3940
 # text = Sendo a proposta do ambiente um dormitório para um casal na melhor idade, o elefante representa longevidade, prosperidade e sabedoria ", justifica.
 1	Sendo	ser	AUX	AUX	_	8	cop	_	_
-2	a	_	DET	DET	_	3	det	_	_
+2	a	a	DET	DET	_	3	det	_	_
 3	proposta	_	NOUN	NOUN	_	8	nsubj	_	_
 4-5	do	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
 5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	ambiente	ambiente	NOUN	NOUN	_	3	nmod	_	_
-7	um	_	DET	DET	_	8	det	_	_
+7	um	um	DET	DET	_	8	det	_	_
 8	dormitório	dormitório	NOUN	NOUN	_	19	acl:part	_	_
-9	para	_	ADP	ADP	_	11	case	_	_
-10	um	_	DET	DET	_	11	det	_	_
+9	para	para	ADP	ADP	_	11	case	_	_
+10	um	um	DET	DET	_	11	det	_	_
 11	casal	casal	NOUN	NOUN	_	8	nmod	_	_
 12-13	na	_	_	_	_	_	_	_	_
 12	em	em	ADP	ADP	_	15	case	_	_
 13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 14	melhor	melhor	ADJ	ADJ	_	15	amod	_	_
 15	idade	idade	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	8	punct	_	_
-17	o	_	DET	DET	_	18	det	_	_
+16	,	,	PUNCT	.	_	8	punct	_	_
+17	o	o	DET	DET	_	18	det	_	_
 18	elefante	elefante	NOUN	NOUN	_	19	nsubj	_	_
 19	representa	representar	VERB	VERB	_	27	ccomp	_	_
 20	longevidade	longevidade	NOUN	NOUN	_	19	obj	_	SpaceAfter=No
-21	,	_	PUNCT	.	_	22	punct	_	_
+21	,	,	PUNCT	.	_	22	punct	_	_
 22	prosperidade	prosperidade	NOUN	NOUN	_	20	conj	_	_
-23	e	_	CCONJ	CONJ	_	24	cc	_	_
+23	e	e	CCONJ	CONJ	_	24	cc	_	_
 24	sabedoria	sabedoria	NOUN	NOUN	_	20	conj	_	_
-25	"	_	PUNCT	.	_	19	punct	_	SpaceAfter=No
-26	,	_	PUNCT	.	_	27	punct	_	_
+25	"	"	PUNCT	.	_	19	punct	_	SpaceAfter=No
+26	,	,	PUNCT	.	_	27	punct	_	_
 27	justifica	justificar	VERB	VERB	_	0	root	_	SpaceAfter=No
-28	.	_	PUNCT	.	_	27	punct	_	_
+28	.	.	PUNCT	.	_	27	punct	_	_
 
 # sent_id = train-s3941
 # text = O alerta é da Coordenadoria Estadual de Defesa Civil (Cedec / MS).
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	alerta	alerta	NOUN	NOUN	_	3	nsubj	_	_
 3	é	ser	VERB	VERB	_	0	root	_	_
 4-5	da	_	_	_	_	_	_	_	_
@@ -123,23 +123,23 @@
 5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Coordenadoria	_	PROPN	PNOUN	_	3	nmod	_	_
 7	Estadual	_	PROPN	PNOUN	_	6	amod	_	_
-8	de	_	ADP	ADP	_	9	case	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
 9	Defesa	_	PROPN	PNOUN	_	6	nmod	_	_
 10	Civil	_	PROPN	PNOUN	_	9	amod	_	_
-11	(	_	PUNCT	.	_	12	punct	_	SpaceAfter=No
+11	(	(	PUNCT	.	_	12	punct	_	SpaceAfter=No
 12	Cedec	_	PROPN	PNOUN	_	6	appos	_	_
-13	/	_	PUNCT	.	_	12	punct	_	_
+13	/	/	PUNCT	.	_	12	punct	_	_
 14	MS	_	PROPN	PNOUN	_	12	flat	_	SpaceAfter=No
-15	)	_	PUNCT	.	_	12	punct	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	3	punct	_	_
+15	)	)	PUNCT	.	_	12	punct	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s3942
 # text = Devido a lesão, os dois estiveram ausentes da última partida do Tricolor.
 1	Devido	dever	VERB	VERB	_	3	case	_	_
 2	a	_	ADP	ADP	_	1	fixed	_	_
 3	lesão	lesão	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
-5	os	_	DET	DET	_	6	det	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	os	o	DET	DET	_	6	det	_	_
 6	dois	_	NUM	NUM	NumType=Card	7	nsubj	_	_
 7	estiveram	estar	VERB	VERB	_	0	root	_	_
 8	ausentes	ausente	ADJ	ADJ	_	7	xcomp:adj	_	_
@@ -152,12 +152,12 @@
 13	de	de	ADP	ADP	_	15	case	_	_
 14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	Tricolor	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	7	punct	_	_
+16	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s3943
 # text = Mas, no caso da Olimpíada, a competição é de hóquei sobre a grama, em que os atletas jogam com chuteiras e em campos gramados.
 1	Mas	_	CCONJ	CONJ	_	12	cc	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	5	punct	_	_
+2	,	,	PUNCT	.	_	5	punct	_	_
 3-4	no	_	_	_	_	_	_	_	_
 3	em	em	ADP	ADP	_	5	case	_	_
 4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -166,38 +166,38 @@
 6	de	de	ADP	ADP	_	8	case	_	_
 7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Olimpíada	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	5	punct	_	_
-10	a	_	DET	DET	_	11	det	_	_
+9	,	,	PUNCT	.	_	5	punct	_	_
+10	a	a	DET	DET	_	11	det	_	_
 11	competição	competição	NOUN	NOUN	_	12	nsubj	_	_
 12	é	ser	VERB	VERB	_	0	root	_	_
-13	de	_	ADP	ADP	_	14	case	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
 14	hóquei	hóquei	NOUN	NOUN	_	12	nmod	_	_
 15	sobre	_	ADP	ADP	_	17	case	_	_
-16	a	_	DET	DET	_	17	det	_	_
+16	a	a	DET	DET	_	17	det	_	_
 17	grama	grama	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
-18	,	_	PUNCT	.	_	23	punct	_	_
-19	em	_	ADP	ADP	_	20	case	_	_
+18	,	,	PUNCT	.	_	23	punct	_	_
+19	em	em	ADP	ADP	_	20	case	_	_
 20	que	_	PRON	PRON	_	23	nmod	_	_
-21	os	_	DET	DET	_	22	det	_	_
+21	os	o	DET	DET	_	22	det	_	_
 22	atletas	atleta	NOUN	NOUN	_	23	nsubj	_	_
 23	jogam	jogar	VERB	VERB	_	14	acl:relcl	_	_
-24	com	_	ADP	ADP	_	25	case	_	_
+24	com	com	ADP	ADP	_	25	case	_	_
 25	chuteiras	chuteira	NOUN	NOUN	_	23	nmod	_	_
-26	e	_	CCONJ	CONJ	_	28	cc	_	_
-27	em	_	ADP	ADP	_	28	case	_	_
+26	e	e	CCONJ	CONJ	_	28	cc	_	_
+27	em	em	ADP	ADP	_	28	case	_	_
 28	campos	campo	NOUN	NOUN	_	25	conj	_	_
 29	gramados	gramado	ADJ	ADJ	_	28	amod	_	SpaceAfter=No
-30	.	_	PUNCT	.	_	12	punct	_	_
+30	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = train-s3944
 # text = "Antes do plano, havia dias que nenhum homicídio tinha sido registrado.
-1	"	_	PUNCT	.	_	14	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	14	punct	_	SpaceAfter=No
 2	Antes	antes	ADV	ADV	_	5	case	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	2	case	_	_
 4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 5	plano	plano	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	5	punct	_	_
+6	,	,	PUNCT	.	_	5	punct	_	_
 7	havia	haver	VERB	VERB	_	14	advcl	_	_
 8	dias	dia	NOUN	NOUN	_	7	nmod	_	_
 9	que	_	CCONJ	CONJ	_	14	dep	_	_
@@ -206,11 +206,11 @@
 12	tinha	ter	AUX	AUX	_	14	aux	_	_
 13	sido	ser	AUX	AUX	_	14	aux:pass	_	_
 14	registrado	registrar	VERB	VERB	_	0	root	_	SpaceAfter=No
-15	.	_	PUNCT	.	_	14	punct	_	_
+15	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = train-s3945
 # text = As informações são do jornal O Estado de S. Paulo.
-1	As	_	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	_	2	det	_	_
 2	informações	informação	NOUN	NOUN	_	3	nsubj	_	_
 3	são	ser	VERB	VERB	_	0	root	_	_
 4-5	do	_	_	_	_	_	_	_	_
@@ -219,15 +219,15 @@
 6	jornal	jornal	NOUN	NOUN	_	3	nmod	_	_
 7	O	_	PROPN	PNOUN	_	8	det	_	_
 8	Estado	_	PROPN	PNOUN	_	6	appos	_	_
-9	de	_	ADP	ADP	_	10	case	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
 10	S.	_	PROPN	PNOUN	_	8	nmod	_	_
 11	Paulo	_	PROPN	PNOUN	_	10	flat	_	SpaceAfter=No
-12	.	_	PUNCT	.	_	3	punct	_	_
+12	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s3946
 # text = Paciência, doutores!
 1	Paciência	paciência	NOUN	NOUN	_	0	root	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	1	punct	_	_
+2	,	,	PUNCT	.	_	1	punct	_	_
 3	doutores	doutor	NOUN	NOUN	_	1	dep	_	SpaceAfter=No
-4	!	_	PUNCT	.	_	1	punct	_	_
+4	!	!	PUNCT	.	_	1	punct	_	_
 

@@ -1,12 +1,12 @@
 # sent_id = train-s5161
 # text = A Unidade da Rede em Santa Catarina é voltada principalmente ao público executivo, mas é regionalmente reconhecida também por sediar os principais eventos sociais da cidade.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	Unidade	_	PROPN	PNOUN	_	9	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
 4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Rede	_	PROPN	PNOUN	_	2	nmod	_	_
-6	em	_	ADP	ADP	_	7	case	_	_
+6	em	em	ADP	ADP	_	7	case	_	_
 7	Santa	_	PROPN	PNOUN	_	2	nmod	_	_
 8	Catarina	_	PROPN	PNOUN	_	7	flat	_	_
 9	é	ser	VERB	VERB	_	0	root	_	_
@@ -17,7 +17,7 @@
 13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	público	público	NOUN	NOUN	_	10	nmod	_	_
 15	executivo	executivo	ADJ	ADJ	_	14	amod	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	20	punct	_	_
+16	,	,	PUNCT	.	_	20	punct	_	_
 17	mas	_	CCONJ	CONJ	_	20	cc	_	_
 18	é	ser	AUX	AUX	_	20	aux:pass	_	_
 19	regionalmente	regionalmente	ADV	ADV	_	20	advmod	_	_
@@ -25,7 +25,7 @@
 21	também	também	ADV	ADV	_	20	advmod	_	_
 22	por	_	ADP	ADP	_	23	mark	_	_
 23	sediar	sediar	VERB	VERB	_	20	nmod	_	_
-24	os	_	DET	DET	_	26	det	_	_
+24	os	o	DET	DET	_	26	det	_	_
 25	principais	principal	ADJ	ADJ	_	26	amod	_	_
 26	eventos	evento	NOUN	NOUN	_	23	obj	_	_
 27	sociais	social	ADJ	ADJ	_	26	amod	_	_
@@ -33,7 +33,7 @@
 28	de	de	ADP	ADP	_	30	case	_	_
 29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	cidade	cidade	NOUN	NOUN	_	26	nmod	_	SpaceAfter=No
-31	.	_	PUNCT	.	_	9	punct	_	_
+31	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s5162
 # text = Apesar da evolução, tanto o técnico Ney Franco quanto o departamento médico da equipe tricolor se mantêm cautelosos sobre o retorno do meia, contratado junto ao Santos, aos gramados.
@@ -42,14 +42,14 @@
 2	de	de	ADP	ADP	_	1	case	_	_
 3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
 4	evolução	evolução	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	4	punct	_	_
+5	,	,	PUNCT	.	_	4	punct	_	_
 6	tanto	_	CCONJ	CONJ	_	8	cc	_	_
-7	o	_	DET	DET	_	8	det	_	_
+7	o	o	DET	DET	_	8	det	_	_
 8	técnico	técnico	NOUN	NOUN	_	20	nsubj	_	_
 9	Ney	_	PROPN	PNOUN	_	8	appos	_	_
 10	Franco	_	PROPN	PNOUN	_	9	flat	_	_
 11	quanto	_	CCONJ	CONJ	_	13	cc	_	_
-12	o	_	DET	DET	_	13	det	_	_
+12	o	o	DET	DET	_	13	det	_	_
 13	departamento	departamento	NOUN	NOUN	_	8	conj	_	_
 14	médico	médico	ADJ	ADJ	_	13	amod	_	_
 15-16	da	_	_	_	_	_	_	_	_
@@ -61,25 +61,25 @@
 20	mantêm	manter	VERB	VERB	_	0	root	_	_
 21	cautelosos	cauteloso	ADJ	ADJ	_	20	xcomp:adj	_	_
 22	sobre	_	ADP	ADP	_	24	case	_	_
-23	o	_	DET	DET	_	24	det	_	_
+23	o	o	DET	DET	_	24	det	_	_
 24	retorno	retorno	NOUN	NOUN	_	21	nmod	_	_
 25-26	do	_	_	_	_	_	_	_	_
 25	de	de	ADP	ADP	_	27	case	_	_
 26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	meia	_	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
-28	,	_	PUNCT	.	_	29	punct	_	_
+28	,	,	PUNCT	.	_	29	punct	_	_
 29	contratado	contratar	VERB	VERB	_	27	acl:part	_	_
 30	junto	junto	ADV	ADV	_	29	advmod	_	_
 31-32	ao	_	_	_	_	_	_	_	_
 31	a	a	ADP	ADP	_	33	case	_	_
 32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	Santos	_	PROPN	PNOUN	_	30	nmod	_	SpaceAfter=No
-34	,	_	PUNCT	.	_	37	punct	_	_
+34	,	,	PUNCT	.	_	37	punct	_	_
 35-36	aos	_	_	_	_	_	_	_	_
 35	a	a	ADP	ADP	_	37	case	_	_
 36	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
 37	gramados	gramado	NOUN	NOUN	_	29	nmod	_	SpaceAfter=No
-38	.	_	PUNCT	.	_	20	punct	_	_
+38	.	.	PUNCT	.	_	20	punct	_	_
 
 # sent_id = train-s5163
 # text = Um gol do artilheiro Rubén Castro não impediu o Bétis de tropeçar nesta quinta - feira pela Copa do Rei.
@@ -93,13 +93,13 @@
 7	Castro	_	PROPN	PNOUN	_	6	flat	_	_
 8	não	não	ADV	ADV	Polarity=Neg	9	advmod	_	_
 9	impediu	impedir	VERB	VERB	_	0	root	_	_
-10	o	_	DET	DET	_	11	det	_	_
+10	o	o	DET	DET	_	11	det	_	_
 11	Bétis	_	PROPN	PNOUN	_	9	obj	_	_
 12	de	_	ADP	ADP	_	13	mark	_	_
 13	tropeçar	tropeçar	VERB	VERB	_	9	nmod	_	_
 14	nesta	_	ADP	ADP	_	17	case	_	_
 15	quinta	_	PROPN	PNOUN	_	17	amod	_	_
-16	-	_	PUNCT	.	_	17	punct	_	_
+16	-	-	PUNCT	.	_	17	punct	_	_
 17	feira	_	PROPN	PNOUN	_	13	nmod	_	_
 18-19	pela	_	_	_	_	_	_	_	_
 18	por	por	ADP	ADP	_	20	case	_	_
@@ -109,57 +109,57 @@
 21	de	de	ADP	ADP	_	23	case	_	_
 22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	Rei	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
-24	.	_	PUNCT	.	_	9	punct	_	_
+24	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s5164
 # text = O delegado Carlos Henrique Engelmann explicou, ao Só Notícias, que o mecânico Aparecido Barbosa de Oliveira (idade não confirmada) estava consertando um trator quando o maquinário acabou ligando e passando por cima dele.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	delegado	delegado	NOUN	NOUN	_	6	nsubj	_	_
 3	Carlos	_	PROPN	PNOUN	_	2	appos	_	_
 4	Henrique	_	PROPN	PNOUN	_	3	flat	_	_
 5	Engelmann	_	PROPN	PNOUN	_	3	flat	_	_
 6	explicou	explicar	VERB	VERB	_	0	root	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	11	punct	_	_
+7	,	,	PUNCT	.	_	11	punct	_	_
 8-9	ao	_	_	_	_	_	_	_	_
 8	a	a	ADP	ADP	_	11	case	_	_
 9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 10	Só	_	PROPN	PNOUN	_	11	advmod	_	_
 11	Notícias	_	PROPN	PNOUN	_	6	iobj	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	6	punct	_	_
+12	,	,	PUNCT	.	_	6	punct	_	_
 13	que	_	PRON	PRON	_	26	mark	_	_
-14	o	_	DET	DET	_	15	det	_	_
+14	o	o	DET	DET	_	15	det	_	_
 15	mecânico	mecânico	NOUN	NOUN	_	26	nsubj	_	_
 16	Aparecido	_	PROPN	PNOUN	_	15	appos	_	_
 17	Barbosa	_	PROPN	PNOUN	_	16	flat	_	_
-18	de	_	ADP	ADP	_	19	case	_	_
+18	de	de	ADP	ADP	_	19	case	_	_
 19	Oliveira	_	PROPN	PNOUN	_	16	nmod	_	_
-20	(	_	PUNCT	.	_	21	punct	_	SpaceAfter=No
+20	(	(	PUNCT	.	_	21	punct	_	SpaceAfter=No
 21	idade	idade	NOUN	NOUN	_	16	appos	_	_
 22	não	não	ADV	ADV	Polarity=Neg	23	advmod	_	_
 23	confirmada	confirmar	VERB	VERB	_	21	acl:part	_	SpaceAfter=No
-24	)	_	PUNCT	.	_	21	punct	_	_
+24	)	)	PUNCT	.	_	21	punct	_	_
 25	estava	estar	AUX	AUX	_	26	aux	_	_
 26	consertando	consertar	VERB	VERB	_	6	ccomp	_	_
-27	um	_	DET	DET	_	28	det	_	_
+27	um	um	DET	DET	_	28	det	_	_
 28	trator	trator	NOUN	NOUN	_	26	obj	_	_
 29	quando	_	CCONJ	CONJ	_	33	mark	_	_
-30	o	_	DET	DET	_	31	det	_	_
+30	o	o	DET	DET	_	31	det	_	_
 31	maquinário	maquinário	NOUN	NOUN	_	33	nsubj	_	_
 32	acabou	acabar	AUX	AUX	_	33	aux	_	_
 33	ligando	ligar	VERB	VERB	_	26	advcl	_	_
-34	e	_	CCONJ	CONJ	_	35	cc	_	_
+34	e	e	CCONJ	CONJ	_	35	cc	_	_
 35	passando	passar	VERB	VERB	_	33	conj	_	_
-36	por	_	ADP	ADP	_	37	case	_	_
+36	por	por	ADP	ADP	_	37	case	_	_
 37	cima	cima	NOUN	NOUN	_	35	nmod	_	_
 38	dele	_	X	ADPPRON	_	37	nmod	_	SpaceAfter=No
-39	.	_	PUNCT	.	_	6	punct	_	_
+39	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s5165
 # text = Após uma briga em frente ao quartel da PM de Toledo (MG), envolvendo o prefeito e policiais militares no dia 4 de novembro, duas vans, um ônibus escolar e um caminhão de lixo foram apreendidos pela polícia e estão comprometendo os serviços da cidade.
 1	Após	_	ADP	ADP	_	3	case	_	_
-2	uma	_	DET	DET	_	3	det	_	_
+2	uma	um	DET	DET	_	3	det	_	_
 3	briga	briga	NOUN	NOUN	_	43	mark	_	_
-4	em	_	ADP	ADP	_	5	case	_	_
+4	em	em	ADP	ADP	_	5	case	_	_
 5	frente	frente	NOUN	NOUN	_	3	nmod	_	_
 6-7	ao	_	_	_	_	_	_	_	_
 6	a	a	ADP	ADP	_	8	case	_	_
@@ -169,16 +169,16 @@
 9	de	de	ADP	ADP	_	11	case	_	_
 10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	PM	_	PROPN	PNOUN	_	8	nmod	_	_
-12	de	_	ADP	ADP	_	13	case	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
 13	Toledo	_	PROPN	PNOUN	_	11	nmod	_	_
-14	(	_	PUNCT	.	_	15	punct	_	SpaceAfter=No
+14	(	(	PUNCT	.	_	15	punct	_	SpaceAfter=No
 15	MG	_	PROPN	PNOUN	_	13	appos	_	SpaceAfter=No
-16	)	_	PUNCT	.	_	15	punct	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	18	punct	_	_
+16	)	)	PUNCT	.	_	15	punct	_	SpaceAfter=No
+17	,	,	PUNCT	.	_	18	punct	_	_
 18	envolvendo	envolver	VERB	VERB	_	3	acl:part	_	_
-19	o	_	DET	DET	_	20	det	_	_
+19	o	o	DET	DET	_	20	det	_	_
 20	prefeito	prefeito	NOUN	NOUN	_	18	obj	_	_
-21	e	_	CCONJ	CONJ	_	22	cc	_	_
+21	e	e	CCONJ	CONJ	_	22	cc	_	_
 22	policiais	policial	NOUN	NOUN	_	20	conj	_	_
 23	militares	militar	ADJ	ADJ	_	22	amod	_	_
 24-25	no	_	_	_	_	_	_	_	_
@@ -186,19 +186,19 @@
 25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	dia	dia	NOUN	NOUN	_	3	nmod	_	_
 27	4	_	NUM	NUM	NumType=Card	26	nmod	_	_
-28	de	_	ADP	ADP	_	29	case	_	_
+28	de	de	ADP	ADP	_	29	case	_	_
 29	novembro	_	PROPN	PNOUN	_	27	nmod	_	SpaceAfter=No
-30	,	_	PUNCT	.	_	26	punct	_	_
+30	,	,	PUNCT	.	_	26	punct	_	_
 31	duas	_	NUM	NUM	NumType=Card	32	nummod	_	_
 32	vans	_	NOUN	NOUN	_	43	nsubj:pass	_	SpaceAfter=No
-33	,	_	PUNCT	.	_	35	punct	_	_
+33	,	,	PUNCT	.	_	35	punct	_	_
 34	um	_	NUM	NUM	NumType=Card	35	nummod	_	_
 35	ônibus	ônibus	NOUN	NOUN	_	32	conj	_	_
 36	escolar	escolar	ADJ	ADJ	_	35	amod	_	_
-37	e	_	CCONJ	CONJ	_	39	cc	_	_
+37	e	e	CCONJ	CONJ	_	39	cc	_	_
 38	um	_	NUM	NUM	NumType=Card	39	nummod	_	_
 39	caminhão	caminhão	NOUN	NOUN	_	32	conj	_	_
-40	de	_	ADP	ADP	_	41	case	_	_
+40	de	de	ADP	ADP	_	41	case	_	_
 41	lixo	lixo	NOUN	NOUN	_	39	nmod	_	_
 42	foram	_	AUX	AUX	_	43	aux:pass	_	_
 43	apreendidos	apreender	VERB	VERB	_	0	root	_	_
@@ -206,20 +206,20 @@
 44	por	por	ADP	ADP	_	46	case	_	_
 45	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
 46	polícia	polícia	NOUN	NOUN	_	43	nmod	_	_
-47	e	_	CCONJ	CONJ	_	49	cc	_	_
+47	e	e	CCONJ	CONJ	_	49	cc	_	_
 48	estão	estar	AUX	AUX	_	49	aux	_	_
 49	comprometendo	comprometer	VERB	VERB	_	43	conj	_	_
-50	os	_	DET	DET	_	51	det	_	_
+50	os	o	DET	DET	_	51	det	_	_
 51	serviços	serviço	NOUN	NOUN	_	49	obj	_	_
 52-53	da	_	_	_	_	_	_	_	_
 52	de	de	ADP	ADP	_	54	case	_	_
 53	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
 54	cidade	cidade	NOUN	NOUN	_	51	nmod	_	SpaceAfter=No
-55	.	_	PUNCT	.	_	43	punct	_	_
+55	.	.	PUNCT	.	_	43	punct	_	_
 
 # sent_id = train-s5166
 # text = O nosso movimento vai além de quem vai ser o presidente.
-1	O	_	DET	DET	_	3	det	_	_
+1	O	o	DET	DET	_	3	det	_	_
 2	nosso	_	DET	DET	_	3	det:poss	_	_
 3	movimento	movimento	NOUN	NOUN	_	4	nsubj	_	_
 4	vai	ir	VERB	VERB	_	0	root	_	_
@@ -228,9 +228,9 @@
 7	quem	_	PRON	PRON	_	11	nsubj	_	_
 8	vai	ir	AUX	AUX	_	11	aux	_	_
 9	ser	ser	AUX	AUX	_	11	cop	_	_
-10	o	_	DET	DET	_	11	det	_	_
+10	o	o	DET	DET	_	11	det	_	_
 11	presidente	presidente	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
-12	.	_	PUNCT	.	_	4	punct	_	_
+12	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s5167
 # text = Como encara esse assédio todo?
@@ -239,11 +239,11 @@
 3	esse	_	DET	DET	_	4	det	_	_
 4	assédio	assédio	NOUN	NOUN	_	2	obj	_	_
 5	todo	todo	ADJ	ADJ	_	4	amod	_	SpaceAfter=No
-6	?	_	PUNCT	.	_	2	punct	_	_
+6	?	?	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s5168
 # text = A presidenta reclamou do protecionismo norte - americano, sinalizou que há interesse em retomar as negociações entre o Mercosul e a União Europeia e condenou uma possível intervenção militar na Síria.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	presidenta	_	NOUN	NOUN	_	3	nsubj	_	_
 3	reclamou	reclamar	VERB	VERB	_	0	root	_	_
 4-5	do	_	_	_	_	_	_	_	_
@@ -251,27 +251,27 @@
 5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	protecionismo	protecionismo	NOUN	NOUN	_	3	nmod	_	_
 7	norte	norte	ADJ	ADJ	_	9	amod	_	_
-8	-	_	PUNCT	.	_	9	punct	_	_
+8	-	-	PUNCT	.	_	9	punct	_	_
 9	americano	americano	ADJ	ADJ	_	6	amod	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	11	punct	_	_
+10	,	,	PUNCT	.	_	11	punct	_	_
 11	sinalizou	sinalizar	VERB	VERB	_	3	conj	_	_
-12	que	_	CCONJ	CONJ	_	13	mark	_	_
+12	que	que	CCONJ	CONJ	_	13	mark	_	_
 13	há	haver	VERB	VERB	_	11	ccomp	_	_
 14	interesse	interesse	NOUN	NOUN	_	13	obj	_	_
 15	em	_	ADP	ADP	_	16	mark	_	_
 16	retomar	retomar	VERB	VERB	_	14	nmod	_	_
-17	as	_	DET	DET	_	18	det	_	_
+17	as	o	DET	DET	_	18	det	_	_
 18	negociações	negociação	NOUN	NOUN	_	16	obj	_	_
 19	entre	_	ADP	ADP	_	21	case	_	_
-20	o	_	DET	DET	_	21	det	_	_
+20	o	o	DET	DET	_	21	det	_	_
 21	Mercosul	_	PROPN	PNOUN	_	18	nmod	_	_
 22	e	e	CCONJ	CONJ	_	24	cc	_	_
 23	a	o	DET	DET	_	24	det	_	_
 24	União	_	PROPN	PNOUN	_	21	conj	_	_
 25	Europeia	_	PROPN	PNOUN	_	24	amod	_	_
-26	e	_	CCONJ	CONJ	_	27	cc	_	_
+26	e	e	CCONJ	CONJ	_	27	cc	_	_
 27	condenou	condenar	VERB	VERB	_	3	conj	_	_
-28	uma	_	DET	DET	_	30	det	_	_
+28	uma	um	DET	DET	_	30	det	_	_
 29	possível	possível	ADJ	ADJ	_	30	amod	_	_
 30	intervenção	intervenção	NOUN	NOUN	_	27	obj	_	_
 31	militar	militar	ADJ	ADJ	_	30	amod	_	_
@@ -279,56 +279,56 @@
 32	em	em	ADP	ADP	_	34	case	_	_
 33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	Síria	_	PROPN	PNOUN	_	27	nmod	_	SpaceAfter=No
-35	.	_	PUNCT	.	_	3	punct	_	_
+35	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s5169
 # text = A choca dura de 25 a 27 dias, período em que o macho monta guarda e afugenta invasores por meio de várias estratégias.
-1	A	_	DET	DET	_	3	det	_	_
+1	A	o	DET	DET	_	3	det	_	_
 2	choca	_	NOUN	NOUN	_	3	nsubj	_	_
 3	dura	durar	VERB	VERB	_	0	root	_	_
-4	de	_	ADP	ADP	_	8	case	_	_
+4	de	de	ADP	ADP	_	8	case	_	_
 5	25	_	NUM	NUM	NumType=Card	8	nummod	_	_
 6	a	_	ADP	ADP	_	7	case	_	_
 7	27	_	NUM	NUM	NumType=Card	5	nmod	_	_
 8	dias	dia	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	10	punct	_	_
+9	,	,	PUNCT	.	_	10	punct	_	_
 10	período	período	NOUN	NOUN	_	8	appos	_	_
-11	em	_	ADP	ADP	_	12	case	_	_
+11	em	em	ADP	ADP	_	12	case	_	_
 12	que	_	PRON	PRON	_	15	nmod	_	_
-13	o	_	DET	DET	_	14	det	_	_
+13	o	o	DET	DET	_	14	det	_	_
 14	macho	macho	NOUN	NOUN	_	15	nsubj	_	_
 15	monta	montar	VERB	VERB	_	10	acl:relcl	_	_
 16	guarda	guarda	NOUN	NOUN	_	15	obj	_	_
-17	e	_	CCONJ	CONJ	_	18	cc	_	_
+17	e	e	CCONJ	CONJ	_	18	cc	_	_
 18	afugenta	afugentar	VERB	VERB	_	15	conj	_	_
 19	invasores	invasor	NOUN	NOUN	_	18	obj	_	_
-20	por	_	ADP	ADP	_	21	case	_	_
+20	por	por	ADP	ADP	_	21	case	_	_
 21	meio	meio	NOUN	NOUN	_	18	nmod	_	_
-22	de	_	ADP	ADP	_	24	case	_	_
+22	de	de	ADP	ADP	_	24	case	_	_
 23	várias	_	DET	DET	_	24	det	_	_
 24	estratégias	estratégia	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
-25	.	_	PUNCT	.	_	3	punct	_	_
+25	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s5170
 # text = A Smartcom -- Inteligência em Comunicação é a nova parceira do Instituto de Pesquisa Pelé Pequeno Príncipe.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	Smartcom	_	PROPN	PNOUN	_	10	nsubj	_	_
 3	--	_	PUNCT	.	_	4	punct	_	_
 4	Inteligência	inteligência	NOUN	NOUN	_	2	appos	_	_
-5	em	_	ADP	ADP	_	6	case	_	_
+5	em	em	ADP	ADP	_	6	case	_	_
 6	Comunicação	_	PROPN	PNOUN	_	4	nmod	_	_
 7	é	ser	AUX	AUX	_	10	cop	_	_
-8	a	_	DET	DET	_	10	det	_	_
+8	a	a	DET	DET	_	10	det	_	_
 9	nova	novo	ADJ	ADJ	_	10	amod	_	_
 10	parceira	parceiro	NOUN	NOUN	_	0	root	_	_
 11-12	do	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	13	case	_	_
 12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	Instituto	_	PROPN	PNOUN	_	10	nmod	_	_
-14	de	_	ADP	ADP	_	15	case	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
 15	Pesquisa	_	PROPN	PNOUN	_	13	nmod	_	_
 16	Pelé	_	PROPN	PNOUN	_	13	appos	_	_
 17	Pequeno	_	PROPN	PNOUN	_	16	amod	_	_
 18	Príncipe	_	PROPN	PNOUN	_	16	flat	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	10	punct	_	_
+19	.	.	PUNCT	.	_	10	punct	_	_
 

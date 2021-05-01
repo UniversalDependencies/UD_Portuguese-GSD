@@ -1,6 +1,6 @@
 # sent_id = train-s2561
 # text = "Tem dois clubes que estão para responder se participarão ou não.
-1	"	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
 2	Tem	ter	VERB	VERB	_	0	root	_	_
 3	dois	_	NUM	NUM	NumType=Card	4	nummod	_	_
 4	clubes	clube	NOUN	NOUN	_	2	obj	_	_
@@ -10,21 +10,21 @@
 8	responder	responder	VERB	VERB	_	4	acl:relcl	_	_
 9	se	_	CCONJ	CONJ	_	10	mark	_	_
 10	participarão	participar	VERB	VERB	_	8	ccomp	_	_
-11	ou	_	CCONJ	CONJ	_	12	cc	_	_
+11	ou	ou	CCONJ	CONJ	_	12	cc	_	_
 12	não	não	ADV	ADV	Polarity=Neg	10	conj	_	SpaceAfter=No
-13	.	_	PUNCT	.	_	2	punct	_	_
+13	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s2562
 # text = Três minutos depois os visitantes responderam com Gilsinho, um dos destaques da partida até então.
 1	Três	_	NUM	NUM	NumType=Card	2	nummod	_	_
 2	minutos	minuto	NOUN	NOUN	_	6	nmod	_	_
 3	depois	depois	ADV	ADV	_	2	advmod	_	_
-4	os	_	DET	DET	_	5	det	_	_
+4	os	o	DET	DET	_	5	det	_	_
 5	visitantes	_	NOUN	NOUN	_	6	nsubj	_	_
 6	responderam	responder	VERB	VERB	_	0	root	_	_
-7	com	_	ADP	ADP	_	8	case	_	_
+7	com	com	ADP	ADP	_	8	case	_	_
 8	Gilsinho	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	10	punct	_	_
+9	,	,	PUNCT	.	_	10	punct	_	_
 10	um	_	PRON	PRON	_	8	appos	_	_
 11-12	dos	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	13	case	_	_
@@ -36,34 +36,34 @@
 16	partida	partida	NOUN	NOUN	_	13	nmod	_	_
 17	até	_	ADP	ADP	_	18	mark	_	_
 18	então	então	ADV	ADV	_	13	nmod	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	6	punct	_	_
+19	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s2563
 # text = A circulação dos ramais Saracuruna, Vila Inhomorim e Guapimirim, em Duque de Caxias, Baixada Fluminense, foi restabelecida por volta das 14h30 desta segunda - feira (27), segundo informou a SuperVia.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	circulação	circulação	NOUN	NOUN	_	22	nsubj:pass	_	_
 3-4	dos	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
 4	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
 5	ramais	ramal	NOUN	NOUN	_	2	nmod	_	_
 6	Saracuruna	_	PROPN	PNOUN	_	5	appos	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	8	punct	_	_
+7	,	,	PUNCT	.	_	8	punct	_	_
 8	Vila	_	PROPN	PNOUN	_	6	conj	_	_
 9	Inhomorim	_	PROPN	PNOUN	_	8	flat	_	_
-10	e	_	CCONJ	CONJ	_	11	cc	_	_
+10	e	e	CCONJ	CONJ	_	11	cc	_	_
 11	Guapimirim	_	PROPN	PNOUN	_	6	conj	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	14	punct	_	_
-13	em	_	ADP	ADP	_	14	case	_	_
+12	,	,	PUNCT	.	_	14	punct	_	_
+13	em	em	ADP	ADP	_	14	case	_	_
 14	Duque	_	PROPN	PNOUN	_	22	nmod	_	_
-15	de	_	ADP	ADP	_	16	case	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
 16	Caxias	_	PROPN	PNOUN	_	14	nmod	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	18	punct	_	_
+17	,	,	PUNCT	.	_	18	punct	_	_
 18	Baixada	_	PROPN	PNOUN	_	14	appos	_	_
 19	Fluminense	_	PROPN	PNOUN	_	18	amod	_	SpaceAfter=No
-20	,	_	PUNCT	.	_	18	punct	_	_
+20	,	,	PUNCT	.	_	18	punct	_	_
 21	foi	_	AUX	AUX	_	22	aux:pass	_	_
 22	restabelecida	restabelecer	VERB	VERB	_	0	root	_	_
-23	por	_	ADP	ADP	_	24	case	_	_
+23	por	por	ADP	ADP	_	24	case	_	_
 24	volta	volta	NOUN	NOUN	_	22	nmod	_	_
 25-26	das	_	_	_	_	_	_	_	_
 25	de	de	ADP	ADP	_	27	case	_	_
@@ -71,59 +71,59 @@
 27	14h30	_	NUM	NUM	NumType=Card	24	nmod	_	_
 28	desta	_	ADP	ADP	_	31	case	_	_
 29	segunda	_	PROPN	PNOUN	_	31	amod	_	_
-30	-	_	PUNCT	.	_	31	punct	_	_
+30	-	-	PUNCT	.	_	31	punct	_	_
 31	feira	_	PROPN	PNOUN	_	27	nmod	_	_
-32	(	_	PUNCT	.	_	33	punct	_	SpaceAfter=No
+32	(	(	PUNCT	.	_	33	punct	_	SpaceAfter=No
 33	27	_	NUM	NUM	NumType=Card	31	nmod	_	SpaceAfter=No
-34	)	_	PUNCT	.	_	33	punct	_	SpaceAfter=No
-35	,	_	PUNCT	.	_	37	punct	_	_
+34	)	)	PUNCT	.	_	33	punct	_	SpaceAfter=No
+35	,	,	PUNCT	.	_	37	punct	_	_
 36	segundo	_	CCONJ	CONJ	_	37	mark	_	_
 37	informou	informar	VERB	VERB	_	22	advcl	_	_
-38	a	_	DET	DET	_	39	det	_	_
+38	a	a	DET	DET	_	39	det	_	_
 39	SuperVia	_	PROPN	PNOUN	_	37	nsubj	_	SpaceAfter=No
-40	.	_	PUNCT	.	_	22	punct	_	_
+40	.	.	PUNCT	.	_	22	punct	_	_
 
 # sent_id = train-s2564
 # text = Mas, assim como na infância e na adolescência construímos as bases para uma vida adulta muito diferente, é hora da humanidade seguir adiante, dar o próximo passo ... amadurecer!
 1	Mas	_	CCONJ	CONJ	_	23	cc	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	12	punct	_	_
+2	,	,	PUNCT	.	_	12	punct	_	_
 3	assim	assim	ADV	ADV	_	12	mark	_	_
 4	como	como	ADV	ADV	_	3	fixed	_	_
 5-6	na	_	_	_	_	_	_	_	_
 5	em	em	ADP	ADP	_	7	case	_	_
 6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	infância	infância	NOUN	NOUN	_	12	nmod	_	_
-8	e	_	CCONJ	CONJ	_	11	cc	_	_
+8	e	e	CCONJ	CONJ	_	11	cc	_	_
 9-10	na	_	_	_	_	_	_	_	_
 9	em	em	ADP	ADP	_	11	case	_	_
 10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	adolescência	adolescência	NOUN	NOUN	_	7	conj	_	_
 12	construímos	construir	VERB	VERB	_	23	advcl	_	_
-13	as	_	DET	DET	_	14	det	_	_
+13	as	o	DET	DET	_	14	det	_	_
 14	bases	base	NOUN	NOUN	_	12	obj	_	_
-15	para	_	ADP	ADP	_	17	case	_	_
-16	uma	_	DET	DET	_	17	det	_	_
+15	para	para	ADP	ADP	_	17	case	_	_
+16	uma	um	DET	DET	_	17	det	_	_
 17	vida	vida	NOUN	NOUN	_	14	nmod	_	_
 18	adulta	adulto	ADJ	ADJ	_	17	amod	_	_
 19	muito	muito	ADV	ADV	_	20	advmod	_	_
 20	diferente	diferente	ADJ	ADJ	_	17	amod	_	SpaceAfter=No
-21	,	_	PUNCT	.	_	12	punct	_	_
+21	,	,	PUNCT	.	_	12	punct	_	_
 22	é	ser	AUX	AUX	_	23	cop	_	_
 23	hora	hora	NOUN	NOUN	_	0	root	_	_
 24-25	da	_	_	_	_	_	_	_	_
 24	de	_	ADP	ADP	_	27	mark	_	_
-25	a	_	DET	DET	_	26	det	_	_
+25	a	a	DET	DET	_	26	det	_	_
 26	humanidade	humanidade	NOUN	NOUN	_	27	nsubj	_	_
 27	seguir	seguir	VERB	VERB	_	23	nmod	_	_
 28	adiante	adiante	ADV	ADV	_	27	advmod	_	SpaceAfter=No
-29	,	_	PUNCT	.	_	30	punct	_	_
+29	,	,	PUNCT	.	_	30	punct	_	_
 30	dar	dar	VERB	VERB	_	27	conj	_	_
-31	o	_	DET	DET	_	33	det	_	_
+31	o	o	DET	DET	_	33	det	_	_
 32	próximo	próximo	ADJ	ADJ	_	33	amod	_	_
 33	passo	passo	NOUN	NOUN	_	30	obj	_	_
 34	...	_	PUNCT	.	_	35	punct	_	_
 35	amadurecer	amadurecer	VERB	VERB	_	27	conj	_	SpaceAfter=No
-36	!	_	PUNCT	.	_	23	punct	_	_
+36	!	!	PUNCT	.	_	23	punct	_	_
 
 # sent_id = train-s2565
 # text = Rosa Passos já realizou turnês por todo o mundo e há cinco anos não lançava um material inédito.
@@ -132,50 +132,50 @@
 3	já	já	ADV	ADV	_	4	advmod	_	_
 4	realizou	realizar	VERB	VERB	_	0	root	_	_
 5	turnês	turnê	NOUN	NOUN	_	4	obj	_	_
-6	por	_	ADP	ADP	_	9	case	_	_
+6	por	por	ADP	ADP	_	9	case	_	_
 7	todo	_	DET	DET	_	9	det	_	_
-8	o	_	DET	DET	_	9	det	_	_
+8	o	o	DET	DET	_	9	det	_	_
 9	mundo	mundo	NOUN	NOUN	_	4	nmod	_	_
-10	e	_	CCONJ	CONJ	_	15	cc	_	_
+10	e	e	CCONJ	CONJ	_	15	cc	_	_
 11	há	haver	VERB	VERB	_	15	advcl	_	_
 12	cinco	_	NUM	NUM	NumType=Card	13	nummod	_	_
 13	anos	ano	NOUN	NOUN	_	11	nmod	_	_
 14	não	não	ADV	ADV	Polarity=Neg	15	advmod	_	_
 15	lançava	lançar	VERB	VERB	_	4	conj	_	_
-16	um	_	DET	DET	_	17	det	_	_
+16	um	um	DET	DET	_	17	det	_	_
 17	material	material	NOUN	NOUN	_	15	obj	_	_
 18	inédito	inédito	ADJ	ADJ	_	17	amod	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	4	punct	_	_
+19	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s2566
 # text = Mas o lateral direito Bruno valorizou a vontade do time carioca.
 1	Mas	_	CCONJ	CONJ	_	6	cc	_	_
-2	o	_	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	_	3	det	_	_
 3	lateral	lateral	NOUN	NOUN	_	6	nsubj	_	_
 4	direito	direito	ADJ	ADJ	_	3	amod	_	_
 5	Bruno	_	PROPN	PNOUN	_	3	appos	_	_
 6	valorizou	valorizar	VERB	VERB	_	0	root	_	_
-7	a	_	DET	DET	_	8	det	_	_
+7	a	a	DET	DET	_	8	det	_	_
 8	vontade	vontade	NOUN	NOUN	_	6	obj	_	_
 9-10	do	_	_	_	_	_	_	_	_
 9	de	de	ADP	ADP	_	11	case	_	_
 10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	time	time	NOUN	NOUN	_	8	nmod	_	_
 12	carioca	carioca	ADJ	ADJ	_	11	amod	_	SpaceAfter=No
-13	.	_	PUNCT	.	_	6	punct	_	_
+13	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s2567
 # text = O Figueira apostou em jogadas pelo alto e levantou 18 bolas na área do Botafogo.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	Figueira	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	apostou	apostar	VERB	VERB	_	0	root	_	_
-4	em	_	ADP	ADP	_	5	case	_	_
+4	em	em	ADP	ADP	_	5	case	_	_
 5	jogadas	jogada	NOUN	NOUN	_	3	nmod	_	_
 6-7	pelo	_	_	_	_	_	_	_	_
 6	por	por	ADP	ADP	_	8	case	_	_
 7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	alto	alto	NOUN	NOUN	_	5	nmod	_	_
-9	e	_	CCONJ	CONJ	_	10	cc	_	_
+9	e	e	CCONJ	CONJ	_	10	cc	_	_
 10	levantou	levantar	VERB	VERB	_	3	conj	_	_
 11	18	_	NUM	NUM	NumType=Card	12	nummod	_	_
 12	bolas	bola	NOUN	NOUN	_	10	obj	_	_
@@ -187,16 +187,16 @@
 16	de	de	ADP	ADP	_	18	case	_	_
 17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	Botafogo	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	3	punct	_	_
+19	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s2568
 # text = Por volta de 1587, o Escrivão José Pedro da Costa (seu sobrenome se justificava por morar em Lisboa, de costa para o rio Tejo), lisboeta de nascimento, baixinho com altura dum metro e cinquenta centímetros, ingressou na para essa carreira por falta de opção.
 1	Por	_	ADP	ADP	_	2	case	_	_
 2	volta	volta	NOUN	NOUN	_	45	nmod	_	_
-3	de	_	ADP	ADP	_	4	case	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
 4	1587	_	NUM	NUM	NumType=Card	2	nmod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	2	punct	_	_
-6	o	_	DET	DET	_	7	det	_	_
+5	,	,	PUNCT	.	_	2	punct	_	_
+6	o	o	DET	DET	_	7	det	_	_
 7	Escrivão	_	PROPN	PNOUN	_	45	nsubj	_	_
 8	José	_	PROPN	PNOUN	_	7	flat	_	_
 9	Pedro	_	PROPN	PNOUN	_	7	flat	_	_
@@ -204,59 +204,59 @@
 10	de	de	ADP	ADP	_	12	case	_	_
 11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	Costa	_	PROPN	PNOUN	_	7	nmod	_	_
-13	(	_	PUNCT	.	_	17	punct	_	SpaceAfter=No
+13	(	(	PUNCT	.	_	17	punct	_	SpaceAfter=No
 14	seu	_	DET	DET	_	15	det:poss	_	_
 15	sobrenome	sobrenome	NOUN	NOUN	_	17	nsubj	_	_
 16	se	_	PART	PRT	_	17	expl:pv	_	_
 17	justificava	justificar	VERB	VERB	_	12	parataxis	_	_
 18	por	_	ADP	ADP	_	19	mark	_	_
 19	morar	morar	VERB	VERB	_	17	advcl	_	_
-20	em	_	ADP	ADP	_	21	case	_	_
+20	em	em	ADP	ADP	_	21	case	_	_
 21	Lisboa	_	PROPN	PNOUN	_	19	nmod	_	SpaceAfter=No
-22	,	_	PUNCT	.	_	24	punct	_	_
-23	de	_	ADP	ADP	_	24	case	_	_
+22	,	,	PUNCT	.	_	24	punct	_	_
+23	de	de	ADP	ADP	_	24	case	_	_
 24	costa	costa	NOUN	NOUN	_	19	nmod	_	_
-25	para	_	ADP	ADP	_	27	case	_	_
-26	o	_	DET	DET	_	27	det	_	_
+25	para	para	ADP	ADP	_	27	case	_	_
+26	o	o	DET	DET	_	27	det	_	_
 27	rio	rio	NOUN	NOUN	_	24	nmod	_	_
 28	Tejo	_	PROPN	PNOUN	_	27	appos	_	SpaceAfter=No
-29	)	_	PUNCT	.	_	17	punct	_	SpaceAfter=No
-30	,	_	PUNCT	.	_	31	punct	_	_
+29	)	)	PUNCT	.	_	17	punct	_	SpaceAfter=No
+30	,	,	PUNCT	.	_	31	punct	_	_
 31	lisboeta	lisboeta	ADJ	ADJ	_	7	amod	_	_
-32	de	_	ADP	ADP	_	33	case	_	_
+32	de	de	ADP	ADP	_	33	case	_	_
 33	nascimento	nascimento	NOUN	NOUN	_	31	nmod	_	SpaceAfter=No
-34	,	_	PUNCT	.	_	35	punct	_	_
+34	,	,	PUNCT	.	_	35	punct	_	_
 35	baixinho	baixo	ADJ	ADJ	_	31	conj	_	_
-36	com	_	ADP	ADP	_	37	case	_	_
+36	com	com	ADP	ADP	_	37	case	_	_
 37	altura	altura	NOUN	NOUN	_	35	nmod	_	_
 38-39	dum	_	_	_	_	_	_	_	_
-38	de	_	ADP	ADP	_	40	case	_	_
+38	de	de	ADP	ADP	_	40	case	_	_
 39	um	_	NUM	NUM	NumType=Card	40	nummod	_	_
 40	metro	metro	NOUN	NOUN	_	37	nmod	_	_
-41	e	_	CCONJ	CONJ	_	43	cc	_	_
+41	e	e	CCONJ	CONJ	_	43	cc	_	_
 42	cinquenta	_	NUM	NUM	NumType=Card	43	nummod	_	_
 43	centímetros	centímetro	NOUN	NOUN	_	40	conj	_	SpaceAfter=No
-44	,	_	PUNCT	.	_	31	punct	_	_
+44	,	,	PUNCT	.	_	31	punct	_	_
 45	ingressou	ingressar	VERB	VERB	_	0	root	_	_
 46-47	na	_	_	_	_	_	_	_	_
 46	em	em	ADP	ADP	_	45	case	_	_
 47	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
-48	para	_	ADP	ADP	_	50	case	_	_
+48	para	para	ADP	ADP	_	50	case	_	_
 49	essa	_	DET	DET	_	50	det	_	_
 50	carreira	_	NOUN	NOUN	_	45	nmod	_	_
-51	por	_	ADP	ADP	_	52	case	_	_
+51	por	por	ADP	ADP	_	52	case	_	_
 52	falta	_	NOUN	NOUN	_	45	nmod	_	_
-53	de	_	ADP	ADP	_	54	case	_	_
+53	de	de	ADP	ADP	_	54	case	_	_
 54	opção	opção	NOUN	NOUN	_	52	nmod	_	SpaceAfter=No
-55	.	_	PUNCT	.	_	45	punct	_	_
+55	.	.	PUNCT	.	_	45	punct	_	_
 
 # sent_id = train-s2569
 # text = Foi sepultada em Bauru.
 1	Foi	_	AUX	AUX	_	2	aux:pass	_	_
 2	sepultada	sepultar	VERB	VERB	_	0	root	_	_
-3	em	_	ADP	ADP	_	4	case	_	_
+3	em	em	ADP	ADP	_	4	case	_	_
 4	Bauru	_	PROPN	PNOUN	_	2	nmod	_	SpaceAfter=No
-5	.	_	PUNCT	.	_	2	punct	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s2570
 # text = No Chile, o convocado foi o zagueiro González, que atua no Flamengo.
@@ -264,19 +264,19 @@
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Chile	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
-5	o	_	DET	DET	_	6	det	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	o	o	DET	DET	_	6	det	_	_
 6	convocado	_	NOUN	NOUN	_	9	nsubj	_	_
 7	foi	_	AUX	AUX	_	9	cop	_	_
-8	o	_	DET	DET	_	9	det	_	_
+8	o	o	DET	DET	_	9	det	_	_
 9	zagueiro	zagueiro	NOUN	NOUN	_	0	root	_	_
 10	González	_	PROPN	PNOUN	_	9	appos	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	13	punct	_	_
+11	,	,	PUNCT	.	_	13	punct	_	_
 12	que	_	PRON	PRON	_	13	nsubj	_	_
 13	atua	_	VERB	VERB	_	9	acl:relcl	_	_
 14-15	no	_	_	_	_	_	_	_	_
 14	em	em	ADP	ADP	_	16	case	_	_
 15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	Flamengo	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
-17	.	_	PUNCT	.	_	9	punct	_	_
+17	.	.	PUNCT	.	_	9	punct	_	_
 

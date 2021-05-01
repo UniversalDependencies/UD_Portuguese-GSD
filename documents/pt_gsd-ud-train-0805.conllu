@@ -1,12 +1,12 @@
 # sent_id = train-s7991
 # text = TÓQUIO, 11 Jul (Reuters) -- Um panda nascido no Zoológico Ueno, em Tóquio, morreu de pneumonia nesta quarta - feira, menos duma semana após seu nascimento, que foi comemorado com grande entusiasmo.
 1	TÓQUIO	_	PROPN	PNOUN	_	20	parataxis	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	3	punct	_	_
+2	,	,	PUNCT	.	_	3	punct	_	_
 3	11	_	NUM	NUM	NumType=Card	1	nmod	_	_
 4	Jul	_	PROPN	PNOUN	_	3	nmod	_	_
-5	(	_	PUNCT	.	_	6	punct	_	SpaceAfter=No
+5	(	(	PUNCT	.	_	6	punct	_	SpaceAfter=No
 6	Reuters	_	PROPN	PNOUN	_	1	appos	_	SpaceAfter=No
-7	)	_	PUNCT	.	_	6	punct	_	_
+7	)	)	PUNCT	.	_	6	punct	_	_
 8	--	_	PUNCT	.	_	20	punct	_	_
 9	Um	_	DET	DET	_	10	det	_	_
 10	panda	panda	NOUN	NOUN	_	20	nsubj	_	_
@@ -16,71 +16,71 @@
 13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	Zoológico	_	PROPN	PNOUN	_	11	nmod	_	_
 15	Ueno	_	PROPN	PNOUN	_	14	flat	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	18	punct	_	_
-17	em	_	ADP	ADP	_	18	case	_	_
+16	,	,	PUNCT	.	_	18	punct	_	_
+17	em	em	ADP	ADP	_	18	case	_	_
 18	Tóquio	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
-19	,	_	PUNCT	.	_	18	punct	_	_
+19	,	,	PUNCT	.	_	18	punct	_	_
 20	morreu	morrer	VERB	VERB	_	0	root	_	_
-21	de	_	ADP	ADP	_	22	case	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
 22	pneumonia	pneumonia	NOUN	NOUN	_	20	nmod	_	_
 23	nesta	_	ADP	ADP	_	26	case	_	_
 24	quarta	_	PROPN	PNOUN	_	26	amod	_	_
-25	-	_	PUNCT	.	_	26	punct	_	_
+25	-	-	PUNCT	.	_	26	punct	_	_
 26	feira	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
-27	,	_	PUNCT	.	_	31	punct	_	_
+27	,	,	PUNCT	.	_	31	punct	_	_
 28	menos	menos	ADV	ADV	_	30	advmod	_	_
 29-30	duma	_	_	_	_	_	_	_	_
-29	de	_	ADP	ADP	_	28	case	_	_
+29	de	de	ADP	ADP	_	28	case	_	_
 30	uma	_	NUM	NUM	NumType=Card	31	nummod	_	_
 31	semana	semana	NOUN	NOUN	_	26	appos	_	_
 32	após	_	ADP	ADP	_	34	case	_	_
 33	seu	_	DET	DET	_	34	det:poss	_	_
 34	nascimento	nascimento	NOUN	NOUN	_	31	nmod	_	SpaceAfter=No
-35	,	_	PUNCT	.	_	38	punct	_	_
+35	,	,	PUNCT	.	_	38	punct	_	_
 36	que	_	PRON	PRON	_	38	nsubj:pass	_	_
 37	foi	_	AUX	AUX	_	38	aux:pass	_	_
 38	comemorado	comemorar	VERB	VERB	_	34	acl:relcl	_	_
-39	com	_	ADP	ADP	_	41	case	_	_
+39	com	com	ADP	ADP	_	41	case	_	_
 40	grande	grande	ADJ	ADJ	_	41	amod	_	_
 41	entusiasmo	entusiasmo	NOUN	NOUN	_	38	nmod	_	SpaceAfter=No
-42	.	_	PUNCT	.	_	20	punct	_	_
+42	.	.	PUNCT	.	_	20	punct	_	_
 
 # sent_id = train-s7992
 # text = Ainda em 2002 é lançado um single com "Somos Benfica", o hino que Paulo Gonzo compôs em parceria com António Melo e Rui Fingers.
 1	Ainda	ainda	ADV	ADV	_	3	advmod	_	_
-2	em	_	ADP	ADP	_	3	case	_	_
+2	em	em	ADP	ADP	_	3	case	_	_
 3	2002	_	NUM	NUM	NumType=Card	5	nmod	_	_
 4	é	ser	AUX	AUX	_	5	aux:pass	_	_
 5	lançado	lançar	VERB	VERB	_	0	root	_	_
-6	um	_	DET	DET	_	7	det	_	_
+6	um	um	DET	DET	_	7	det	_	_
 7	single	single	NOUN	NOUN	_	5	nsubj:pass	_	_
-8	com	_	ADP	ADP	_	11	case	_	_
-9	"	_	PUNCT	.	_	11	punct	_	SpaceAfter=No
+8	com	com	ADP	ADP	_	11	case	_	_
+9	"	"	PUNCT	.	_	11	punct	_	SpaceAfter=No
 10	Somos	_	PROPN	PNOUN	_	11	cop	_	_
 11	Benfica	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
-12	"	_	PUNCT	.	_	11	punct	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	15	punct	_	_
-14	o	_	DET	DET	_	15	det	_	_
+12	"	"	PUNCT	.	_	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	.	_	15	punct	_	_
+14	o	o	DET	DET	_	15	det	_	_
 15	hino	hino	NOUN	NOUN	_	11	appos	_	_
 16	que	_	PRON	PRON	_	19	obj	_	_
 17	Paulo	_	PROPN	PNOUN	_	19	nsubj	_	_
 18	Gonzo	_	PROPN	PNOUN	_	17	flat	_	_
 19	compôs	compor	VERB	VERB	_	15	acl:relcl	_	_
-20	em	_	ADP	ADP	_	21	case	_	_
+20	em	em	ADP	ADP	_	21	case	_	_
 21	parceria	parceria	NOUN	NOUN	_	19	nmod	_	_
-22	com	_	ADP	ADP	_	23	case	_	_
+22	com	com	ADP	ADP	_	23	case	_	_
 23	António	_	PROPN	PNOUN	_	21	nmod	_	_
 24	Melo	_	PROPN	PNOUN	_	23	flat	_	_
-25	e	_	CCONJ	CONJ	_	26	cc	_	_
+25	e	e	CCONJ	CONJ	_	26	cc	_	_
 26	Rui	_	PROPN	PNOUN	_	23	conj	_	_
 27	Fingers	_	PROPN	PNOUN	_	26	flat	_	SpaceAfter=No
-28	.	_	PUNCT	.	_	5	punct	_	_
+28	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s7993
 # text = Roberto Carlos, a quem Hebe costumava sempre se referir com carinho, foi um dos primeiros a chegar ao velório e demonstrou estar bastante emocionado.
 1	Roberto	_	PROPN	PNOUN	_	15	nsubj	_	_
 2	Carlos	_	PROPN	PNOUN	_	1	flat	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	10	punct	_	_
+3	,	,	PUNCT	.	_	10	punct	_	_
 4	a	_	ADP	ADP	_	5	case	_	_
 5	quem	_	PRON	PRON	_	10	iobj	_	_
 6	Hebe	_	PROPN	PNOUN	_	10	nsubj	_	_
@@ -88,9 +88,9 @@
 8	sempre	sempre	ADV	ADV	_	10	advmod	_	_
 9	se	_	PRON	PRON	_	10	expl:pv	_	_
 10	referir	referir	VERB	VERB	_	1	acl:relcl	_	_
-11	com	_	ADP	ADP	_	12	case	_	_
+11	com	com	ADP	ADP	_	12	case	_	_
 12	carinho	carinho	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	10	punct	_	_
+13	,	,	PUNCT	.	_	10	punct	_	_
 14	foi	_	AUX	AUX	_	15	cop	_	_
 15	um	_	PRON	PRON	_	0	root	_	_
 16-17	dos	_	_	_	_	_	_	_	_
@@ -103,38 +103,38 @@
 21	a	a	ADP	ADP	_	23	case	_	_
 22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	velório	velório	NOUN	NOUN	_	20	nmod	_	_
-24	e	_	CCONJ	CONJ	_	25	cc	_	_
+24	e	e	CCONJ	CONJ	_	25	cc	_	_
 25	demonstrou	demonstrar	VERB	VERB	_	15	conj	_	_
 26	estar	estar	VERB	VERB	_	25	xcomp	_	_
 27	bastante	bastante	ADV	ADV	_	28	advmod	_	_
 28	emocionado	emocionado	ADJ	ADJ	_	26	xcomp:adj	_	SpaceAfter=No
-29	.	_	PUNCT	.	_	15	punct	_	_
+29	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = train-s7994
 # text = É lamentável que tenha chegado a esse ponto ", desabafou.
 1	É	ser	VERB	VERB	_	11	ccomp	_	_
 2	lamentável	lamentável	ADJ	ADJ	_	1	xcomp:adj	_	_
-3	que	_	CCONJ	CONJ	_	5	mark	_	_
+3	que	que	CCONJ	CONJ	_	5	mark	_	_
 4	tenha	ter	AUX	AUX	_	5	aux	_	_
 5	chegado	chegar	VERB	VERB	_	1	csubj	_	_
 6	a	_	ADP	ADP	_	8	case	_	_
 7	esse	_	DET	DET	_	8	det	_	_
 8	ponto	ponto	NOUN	NOUN	_	5	nmod	_	_
-9	"	_	PUNCT	.	_	1	punct	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	11	punct	_	_
+9	"	"	PUNCT	.	_	1	punct	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	11	punct	_	_
 11	desabafou	desabafar	VERB	VERB	_	0	root	_	SpaceAfter=No
-12	.	_	PUNCT	.	_	11	punct	_	_
+12	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s7995
 # text = A solenidade de abertura teve início com um pronunciamento do presidente do Sindicato Nacional das Distribuidoras de Combustíveis e de Lubrificantes (Sindicom), Alisio Vaz.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	solenidade	solenidade	NOUN	NOUN	_	5	nsubj	_	_
-3	de	_	ADP	ADP	_	4	case	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
 4	abertura	abertura	NOUN	NOUN	_	2	nmod	_	_
 5	teve	ter	VERB	VERB	_	0	root	_	_
 6	início	início	NOUN	NOUN	_	5	obj	_	_
-7	com	_	ADP	ADP	_	9	case	_	_
-8	um	_	DET	DET	_	9	det	_	_
+7	com	com	ADP	ADP	_	9	case	_	_
+8	um	um	DET	DET	_	9	det	_	_
 9	pronunciamento	pronunciamento	NOUN	NOUN	_	5	nmod	_	_
 10-11	do	_	_	_	_	_	_	_	_
 10	de	de	ADP	ADP	_	12	case	_	_
@@ -149,24 +149,24 @@
 17	de	de	ADP	ADP	_	19	case	_	_
 18	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
 19	Distribuidoras	_	PROPN	PNOUN	_	15	nmod	_	_
-20	de	_	ADP	ADP	_	21	case	_	_
+20	de	de	ADP	ADP	_	21	case	_	_
 21	Combustíveis	_	PROPN	PNOUN	_	19	nmod	_	_
-22	e	_	CCONJ	CONJ	_	24	cc	_	_
-23	de	_	ADP	ADP	_	24	case	_	_
+22	e	e	CCONJ	CONJ	_	24	cc	_	_
+23	de	de	ADP	ADP	_	24	case	_	_
 24	Lubrificantes	_	PROPN	PNOUN	_	21	conj	_	_
-25	(	_	PUNCT	.	_	26	punct	_	SpaceAfter=No
+25	(	(	PUNCT	.	_	26	punct	_	SpaceAfter=No
 26	Sindicom	_	PROPN	PNOUN	_	15	appos	_	SpaceAfter=No
-27	)	_	PUNCT	.	_	26	punct	_	SpaceAfter=No
-28	,	_	PUNCT	.	_	29	punct	_	_
+27	)	)	PUNCT	.	_	26	punct	_	SpaceAfter=No
+28	,	,	PUNCT	.	_	29	punct	_	_
 29	Alisio	_	PROPN	PNOUN	_	12	appos	_	_
 30	Vaz	_	PROPN	PNOUN	_	29	flat	_	SpaceAfter=No
-31	.	_	PUNCT	.	_	5	punct	_	_
+31	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s7996
 # text = "Não, não é ordem da empresa, tem motorista mesmo que não gosta de parar", disse o fiscal.
-1	"	_	PUNCT	.	_	6	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
 2	Não	não	ADV	ADV	Polarity=Neg	6	advmod	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	2	punct	_	_
+3	,	,	PUNCT	.	_	2	punct	_	_
 4	não	não	ADV	ADV	Polarity=Neg	6	advmod	_	_
 5	é	ser	AUX	AUX	_	6	cop	_	_
 6	ordem	ordem	NOUN	NOUN	_	21	ccomp	_	_
@@ -174,7 +174,7 @@
 7	de	de	ADP	ADP	_	9	case	_	_
 8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	empresa	empresa	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	11	punct	_	_
+10	,	,	PUNCT	.	_	11	punct	_	_
 11	tem	ter	VERB	VERB	_	6	conj	_	_
 12	motorista	motorista	NOUN	NOUN	_	11	obj	_	_
 13	mesmo	mesmo	ADV	ADV	_	11	advmod	_	_
@@ -183,16 +183,16 @@
 16	gosta	gostar	VERB	VERB	_	12	acl:relcl	_	_
 17	de	_	ADP	ADP	_	18	mark	_	_
 18	parar	parar	VERB	VERB	_	16	nmod	_	SpaceAfter=No
-19	"	_	PUNCT	.	_	6	punct	_	SpaceAfter=No
-20	,	_	PUNCT	.	_	21	punct	_	_
+19	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
+20	,	,	PUNCT	.	_	21	punct	_	_
 21	disse	dizer	VERB	VERB	_	0	root	_	_
-22	o	_	DET	DET	_	23	det	_	_
+22	o	o	DET	DET	_	23	det	_	_
 23	fiscal	fiscal	NOUN	NOUN	_	21	nsubj	_	SpaceAfter=No
-24	.	_	PUNCT	.	_	21	punct	_	_
+24	.	.	PUNCT	.	_	21	punct	_	_
 
 # sent_id = train-s7997
 # text = O expediente do dia foi marcado pela votação de vários projetos relevantes, a exemplo do Projeto de Lei 2137 / 12 de autoria do Executivo Municipal que trata sobre auxílio fardamento destinado à Guarda Municipal.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	expediente	expediente	NOUN	NOUN	_	7	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -204,23 +204,23 @@
 8	por	por	ADP	ADP	_	10	case	_	_
 9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	votação	votação	NOUN	NOUN	_	7	nmod	_	_
-11	de	_	ADP	ADP	_	13	case	_	_
+11	de	de	ADP	ADP	_	13	case	_	_
 12	vários	_	DET	DET	_	13	det	_	_
 13	projetos	projeto	NOUN	NOUN	_	10	nmod	_	_
 14	relevantes	relevante	ADJ	ADJ	_	13	amod	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	17	punct	_	_
+15	,	,	PUNCT	.	_	17	punct	_	_
 16	a	_	ADP	ADP	_	17	case	_	_
 17	exemplo	exemplo	NOUN	NOUN	_	13	nmod	_	_
 18-19	do	_	_	_	_	_	_	_	_
 18	de	de	ADP	ADP	_	20	case	_	_
 19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	Projeto	_	PROPN	PNOUN	_	17	nmod	_	_
-21	de	_	ADP	ADP	_	22	case	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
 22	Lei	_	PROPN	PNOUN	_	20	nmod	_	_
 23	2137	_	NUM	NUM	NumType=Card	20	appos	_	_
-24	/	_	PUNCT	.	_	23	punct	_	_
+24	/	/	PUNCT	.	_	23	punct	_	_
 25	12	_	NUM	NUM	NumType=Card	23	nmod	_	_
-26	de	_	ADP	ADP	_	27	case	_	_
+26	de	de	ADP	ADP	_	27	case	_	_
 27	autoria	autoria	NOUN	NOUN	_	20	nmod	_	_
 28-29	do	_	_	_	_	_	_	_	_
 28	de	de	ADP	ADP	_	30	case	_	_
@@ -238,7 +238,7 @@
 39	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
 40	Guarda	_	PROPN	PNOUN	_	37	nmod	_	_
 41	Municipal	municipal	ADJ	ADJ	_	40	amod	_	SpaceAfter=No
-42	.	_	PUNCT	.	_	7	punct	_	_
+42	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s7998
 # text = Entre 427 títulos -- em 40 locais de exibição --, não faltam bons filmes.
@@ -246,18 +246,18 @@
 2	427	_	NUM	NUM	NumType=Card	3	nummod	_	_
 3	títulos	título	NOUN	NOUN	_	13	nmod	_	_
 4	--	_	PUNCT	.	_	7	punct	_	_
-5	em	_	ADP	ADP	_	7	case	_	_
+5	em	em	ADP	ADP	_	7	case	_	_
 6	40	_	NUM	NUM	NumType=Card	7	nummod	_	_
 7	locais	local	NOUN	NOUN	_	3	nmod	_	_
-8	de	_	ADP	ADP	_	9	case	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
 9	exibição	exibição	NOUN	NOUN	_	7	nmod	_	_
 10	--	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	3	punct	_	_
+11	,	,	PUNCT	.	_	3	punct	_	_
 12	não	não	ADV	ADV	Polarity=Neg	13	advmod	_	_
 13	faltam	faltar	VERB	VERB	_	0	root	_	_
 14	bons	bom	ADJ	ADJ	_	15	amod	_	_
 15	filmes	filme	NOUN	NOUN	_	13	nsubj	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	13	punct	_	_
+16	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = train-s7999
 # text = Na procura por águas translúcidas e tranquilidade, as opções de pedra ocupam o topo da lista.
@@ -265,57 +265,57 @@
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	procura	procura	NOUN	NOUN	_	14	nmod	_	_
-4	por	_	ADP	ADP	_	5	case	_	_
+4	por	por	ADP	ADP	_	5	case	_	_
 5	águas	água	NOUN	NOUN	_	3	nmod	_	_
 6	translúcidas	translúcido	ADJ	ADJ	_	5	amod	_	_
-7	e	_	CCONJ	CONJ	_	8	cc	_	_
+7	e	e	CCONJ	CONJ	_	8	cc	_	_
 8	tranquilidade	tranquilidade	NOUN	NOUN	_	5	conj	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	3	punct	_	_
-10	as	_	DET	DET	_	11	det	_	_
+9	,	,	PUNCT	.	_	3	punct	_	_
+10	as	o	DET	DET	_	11	det	_	_
 11	opções	opção	NOUN	NOUN	_	14	nsubj	_	_
-12	de	_	ADP	ADP	_	13	case	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
 13	pedra	pedra	NOUN	NOUN	_	11	nmod	_	_
 14	ocupam	ocupar	VERB	VERB	_	0	root	_	_
-15	o	_	DET	DET	_	16	det	_	_
+15	o	o	DET	DET	_	16	det	_	_
 16	topo	topo	NOUN	NOUN	_	14	obj	_	_
 17-18	da	_	_	_	_	_	_	_	_
 17	de	de	ADP	ADP	_	19	case	_	_
 18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	lista	lista	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
-20	.	_	PUNCT	.	_	14	punct	_	_
+20	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = train-s8000
 # text = Em Cariacica, onde duelam PPS e PMDB, os petistas optaram pela neutralidade, mas, em Vitória, o comando do partido orientou o diretório municipal a não apoiar nenhum dos dois candidatos, Luiz Paulo Velloso Lucas (PSDB) e Luciano Resende (PPS), ambos da oposição ao governo federal.
-1	Em	_	ADP	ADP	_	2	case	_	_
+1	Em	em	ADP	ADP	_	2	case	_	_
 2	Cariacica	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	5	punct	_	_
+3	,	,	PUNCT	.	_	5	punct	_	_
 4	onde	onde	ADV	ADV	_	5	advmod	_	_
 5	duelam	duelar	VERB	VERB	_	2	acl:relcl	_	_
 6	PPS	_	PROPN	PNOUN	_	5	nsubj	_	_
-7	e	_	CCONJ	CONJ	_	8	cc	_	_
+7	e	e	CCONJ	CONJ	_	8	cc	_	_
 8	PMDB	_	PROPN	PNOUN	_	6	conj	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	5	punct	_	_
-10	os	_	DET	DET	_	11	det	_	_
+9	,	,	PUNCT	.	_	5	punct	_	_
+10	os	o	DET	DET	_	11	det	_	_
 11	petistas	petista	NOUN	NOUN	_	12	nsubj	_	_
 12	optaram	optar	VERB	VERB	_	0	root	_	_
 13-14	pela	_	_	_	_	_	_	_	_
 13	por	por	ADP	ADP	_	15	case	_	_
 14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	neutralidade	neutralidade	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	27	punct	_	_
+16	,	,	PUNCT	.	_	27	punct	_	_
 17	mas	_	CCONJ	CONJ	_	27	cc	_	SpaceAfter=No
-18	,	_	PUNCT	.	_	20	punct	_	_
-19	em	_	ADP	ADP	_	20	case	_	_
+18	,	,	PUNCT	.	_	20	punct	_	_
+19	em	em	ADP	ADP	_	20	case	_	_
 20	Vitória	_	PROPN	PNOUN	_	27	nmod	_	SpaceAfter=No
-21	,	_	PUNCT	.	_	20	punct	_	_
-22	o	_	DET	DET	_	23	det	_	_
+21	,	,	PUNCT	.	_	20	punct	_	_
+22	o	o	DET	DET	_	23	det	_	_
 23	comando	comando	NOUN	NOUN	_	27	nsubj	_	_
 24-25	do	_	_	_	_	_	_	_	_
 24	de	de	ADP	ADP	_	26	case	_	_
 25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	partido	partido	NOUN	NOUN	_	23	nmod	_	_
 27	orientou	orientar	VERB	VERB	_	12	conj	_	_
-28	o	_	DET	DET	_	29	det	_	_
+28	o	o	DET	DET	_	29	det	_	_
 29	diretório	diretório	NOUN	NOUN	_	27	obj	_	_
 30	municipal	municipal	ADJ	ADJ	_	29	amod	_	_
 31	a	_	ADP	ADP	_	33	mark	_	_
@@ -327,21 +327,21 @@
 36	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
 37	dois	_	NUM	NUM	NumType=Card	38	nummod	_	_
 38	candidatos	candidato	NOUN	NOUN	_	34	nmod	_	SpaceAfter=No
-39	,	_	PUNCT	.	_	33	punct	_	_
+39	,	,	PUNCT	.	_	33	punct	_	_
 40	Luiz	_	PROPN	PNOUN	_	38	appos	_	_
 41	Paulo	_	PROPN	PNOUN	_	40	flat	_	_
 42	Velloso	_	PROPN	PNOUN	_	40	flat	_	_
 43	Lucas	_	PROPN	PNOUN	_	40	flat	_	_
-44	(	_	PUNCT	.	_	45	punct	_	SpaceAfter=No
+44	(	(	PUNCT	.	_	45	punct	_	SpaceAfter=No
 45	PSDB	_	PROPN	PNOUN	_	40	appos	_	SpaceAfter=No
-46	)	_	PUNCT	.	_	45	punct	_	_
-47	e	_	CCONJ	CONJ	_	48	cc	_	_
+46	)	)	PUNCT	.	_	45	punct	_	_
+47	e	e	CCONJ	CONJ	_	48	cc	_	_
 48	Luciano	_	PROPN	PNOUN	_	40	conj	_	_
 49	Resende	_	PROPN	PNOUN	_	48	flat	_	_
-50	(	_	PUNCT	.	_	51	punct	_	SpaceAfter=No
+50	(	(	PUNCT	.	_	51	punct	_	SpaceAfter=No
 51	PPS	_	PROPN	PNOUN	_	48	appos	_	SpaceAfter=No
-52	)	_	PUNCT	.	_	51	punct	_	SpaceAfter=No
-53	,	_	PUNCT	.	_	54	punct	_	_
+52	)	)	PUNCT	.	_	51	punct	_	SpaceAfter=No
+53	,	,	PUNCT	.	_	54	punct	_	_
 54	ambos	_	NOUN	NOUN	_	38	appos	_	_
 55-56	da	_	_	_	_	_	_	_	_
 55	de	de	ADP	ADP	_	57	case	_	_
@@ -352,5 +352,5 @@
 59	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	60	det	_	_
 60	governo	governo	NOUN	NOUN	_	57	nmod	_	_
 61	federal	federal	ADJ	ADJ	_	60	amod	_	SpaceAfter=No
-62	.	_	PUNCT	.	_	12	punct	_	_
+62	.	.	PUNCT	.	_	12	punct	_	_
 

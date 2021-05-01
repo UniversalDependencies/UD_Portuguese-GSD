@@ -7,9 +7,9 @@
 4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 5	Imperial	_	PROPN	PNOUN	_	6	amod	_	_
 6	Ordem	_	PROPN	PNOUN	_	2	nmod	_	_
-7	de	_	ADP	ADP	_	8	case	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
 8	Cristo	_	PROPN	PNOUN	_	6	nmod	_	_
-9	e	_	CCONJ	CONJ	_	10	cc	_	_
+9	e	e	CCONJ	CONJ	_	10	cc	_	_
 10	oficial	oficial	NOUN	NOUN	_	2	conj	_	_
 11-12	da	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	14	case	_	_
@@ -20,42 +20,42 @@
 15	de	de	ADP	ADP	_	17	case	_	_
 16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	Rosa	_	PROPN	PNOUN	_	14	nmod	_	SpaceAfter=No
-18	,	_	PUNCT	.	_	19	punct	_	_
+18	,	,	PUNCT	.	_	19	punct	_	_
 19	ordens	ordem	NOUN	NOUN	_	14	appos	_	_
 20	que	_	PRON	PRON	_	21	nsubj	_	_
 21	figuram	figurar	VERB	VERB	_	19	acl:relcl	_	_
-22	em	_	ADP	ADP	_	24	case	_	_
+22	em	em	ADP	ADP	_	24	case	_	_
 23	seu	_	DET	DET	_	24	det:poss	_	_
 24	brasão	brasão	NOUN	NOUN	_	21	nmod	_	_
-25	de	_	ADP	ADP	_	26	case	_	_
+25	de	de	ADP	ADP	_	26	case	_	_
 26	armas	arma	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
-27	.	_	PUNCT	.	_	2	punct	_	_
+27	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s482
 # text = É lamentável.
 1	É	ser	VERB	VERB	_	0	root	_	_
 2	lamentável	lamentável	ADJ	ADJ	_	1	xcomp:adj	_	SpaceAfter=No
-3	.	_	PUNCT	.	_	1	punct	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s483
 # text = "Se não tiver travesseiro, deita ali em cima do bumbum mesmo!"
-1	"	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
 2	Se	_	CCONJ	CONJ	_	4	mark	_	_
 3	não	não	ADV	ADV	Polarity=Neg	4	advmod	_	_
 4	tiver	ter	VERB	VERB	_	7	advcl	_	_
 5	travesseiro	travesseiro	NOUN	NOUN	_	4	obj	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	4	punct	_	_
+6	,	,	PUNCT	.	_	4	punct	_	_
 7	deita	deitar	VERB	VERB	_	0	root	_	_
 8	ali	ali	ADV	ADV	_	7	advmod	_	_
-9	em	_	ADP	ADP	_	10	case	_	_
+9	em	em	ADP	ADP	_	10	case	_	_
 10	cima	cima	NOUN	NOUN	_	8	nmod	_	_
 11-12	do	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	13	case	_	_
 12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	bumbum	bumbum	NOUN	NOUN	_	10	nmod	_	_
 14	mesmo	mesmo	ADV	ADV	_	7	advmod	_	SpaceAfter=No
-15	!	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
-16	"	_	PUNCT	.	_	7	punct	_	_
+15	!	!	PUNCT	.	_	7	punct	_	SpaceAfter=No
+16	"	"	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s484
 # text = Na tarde desta quarta - feira foram disputas seis partidas da Copa Rio.
@@ -65,7 +65,7 @@
 3	tarde	tarde	NOUN	NOUN	_	9	nmod	_	_
 4	desta	_	ADP	ADP	_	7	case	_	_
 5	quarta	_	PROPN	PNOUN	_	7	amod	_	_
-6	-	_	PUNCT	.	_	7	punct	_	_
+6	-	-	PUNCT	.	_	7	punct	_	_
 7	feira	_	PROPN	PNOUN	_	3	nmod	_	_
 8	foram	_	AUX	AUX	_	9	aux:pass	_	_
 9	disputas	disputar	VERB	VERB	_	0	root	_	_
@@ -76,24 +76,24 @@
 13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	Copa	_	PROPN	PNOUN	_	11	nmod	_	_
 15	Rio	_	PROPN	PNOUN	_	14	flat	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	9	punct	_	_
+16	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s485
 # text = As demonstrações de carinho no site colocaram a hashtag # FelizDiadoAmigo, no topo dos Trending Topics mundiais, logo no início do dia.
-1	As	_	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	_	2	det	_	_
 2	demonstrações	demonstração	NOUN	NOUN	_	8	nsubj	_	_
-3	de	_	ADP	ADP	_	4	case	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
 4	carinho	carinho	NOUN	NOUN	_	2	nmod	_	_
 5-6	no	_	_	_	_	_	_	_	_
 5	em	em	ADP	ADP	_	7	case	_	_
 6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	site	site	NOUN	NOUN	_	2	nmod	_	_
 8	colocaram	colocar	VERB	VERB	_	0	root	_	_
-9	a	_	DET	DET	_	10	det	_	_
+9	a	a	DET	DET	_	10	det	_	_
 10	hashtag	_	NOUN	NOUN	_	8	obj	_	_
 11	#	_	X	X	_	10	appos	_	_
 12	FelizDiadoAmigo	_	PROPN	PNOUN	_	11	flat	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	10	punct	_	_
+13	,	,	PUNCT	.	_	10	punct	_	_
 14-15	no	_	_	_	_	_	_	_	_
 14	em	em	ADP	ADP	_	16	case	_	_
 15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -104,7 +104,7 @@
 19	Trending	_	PROPN	PNOUN	_	20	amod	_	_
 20	Topics	_	PROPN	PNOUN	_	16	nmod	_	_
 21	mundiais	mundial	ADJ	ADJ	_	20	amod	_	SpaceAfter=No
-22	,	_	PUNCT	.	_	26	punct	_	_
+22	,	,	PUNCT	.	_	26	punct	_	_
 23	logo	logo	ADV	ADV	_	26	advmod	_	_
 24-25	no	_	_	_	_	_	_	_	_
 24	em	em	ADP	ADP	_	26	case	_	_
@@ -114,7 +114,7 @@
 27	de	de	ADP	ADP	_	29	case	_	_
 28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	dia	dia	NOUN	NOUN	_	26	nmod	_	SpaceAfter=No
-30	.	_	PUNCT	.	_	8	punct	_	_
+30	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s486
 # text = Outro artifício que disfarça bastante é um casaquinho por cima usado aberto, formando duas linhas verticais no centro do corpo.
@@ -124,13 +124,13 @@
 4	disfarça	disfarçar	VERB	VERB	_	2	acl:relcl	_	_
 5	bastante	bastante	ADV	ADV	_	4	advmod	_	_
 6	é	ser	AUX	AUX	_	8	cop	_	_
-7	um	_	DET	DET	_	8	det	_	_
+7	um	um	DET	DET	_	8	det	_	_
 8	casaquinho	casaco	NOUN	NOUN	_	0	root	_	_
-9	por	_	ADP	ADP	_	10	case	_	_
+9	por	por	ADP	ADP	_	10	case	_	_
 10	cima	cima	NOUN	NOUN	_	8	nmod	_	_
 11	usado	usar	VERB	VERB	_	8	acl:part	_	_
 12	aberto	aberto	ADJ	ADJ	_	11	xcomp:adj	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	14	punct	_	_
+13	,	,	PUNCT	.	_	14	punct	_	_
 14	formando	formar	VERB	VERB	_	8	acl:part	_	_
 15	duas	_	NUM	NUM	NumType=Card	16	nummod	_	_
 16	linhas	_	NOUN	NOUN	_	14	obj	_	_
@@ -143,34 +143,34 @@
 21	de	de	ADP	ADP	_	23	case	_	_
 22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	corpo	corpo	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
-24	.	_	PUNCT	.	_	8	punct	_	_
+24	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s487
 # text = "Estou contente com a decisão que tomei.
-1	"	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
 2	Estou	estar	VERB	VERB	_	0	root	_	_
 3	contente	contente	ADJ	ADJ	_	2	xcomp:adj	_	_
-4	com	_	ADP	ADP	_	6	case	_	_
-5	a	_	DET	DET	_	6	det	_	_
+4	com	com	ADP	ADP	_	6	case	_	_
+5	a	a	DET	DET	_	6	det	_	_
 6	decisão	decisão	NOUN	NOUN	_	3	nmod	_	_
 7	que	_	PRON	PRON	_	8	obj	_	_
 8	tomei	tomar	VERB	VERB	_	6	acl:relcl	_	SpaceAfter=No
-9	.	_	PUNCT	.	_	2	punct	_	_
+9	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s488
 # text = Relaciona - se à intuição e capacidade de comunicação.
 1	Relaciona	relacionar	VERB	VERB	_	0	root	_	_
-2	-	_	PUNCT	.	_	1	punct	_	_
+2	-	-	PUNCT	.	_	1	punct	_	_
 3	se	_	PART	PRT	_	1	expl:pv	_	_
 4-5	à	_	_	_	_	_	_	_	_
 4	a	a	ADP	ADP	_	6	case	_	_
 5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	intuição	intuição	NOUN	NOUN	_	1	nmod	_	_
-7	e	_	CCONJ	CONJ	_	8	cc	_	_
+7	e	e	CCONJ	CONJ	_	8	cc	_	_
 8	capacidade	capacidade	NOUN	NOUN	_	6	conj	_	_
-9	de	_	ADP	ADP	_	10	case	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
 10	comunicação	comunicação	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-11	.	_	PUNCT	.	_	1	punct	_	_
+11	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s489
 # text = Quando tinha 5 anos seus pais mudaram - se para Paris, onde começou a trabalhar alguns anos depois no escritório dum advogado.
@@ -181,11 +181,11 @@
 5	seus	_	DET	DET	_	6	det:poss	_	_
 6	pais	_	NOUN	NOUN	_	7	nsubj	_	_
 7	mudaram	mudar	VERB	VERB	_	0	root	_	_
-8	-	_	PUNCT	.	_	7	punct	_	_
+8	-	-	PUNCT	.	_	7	punct	_	_
 9	se	_	PART	PRT	_	7	expl:pv	_	_
-10	para	_	ADP	ADP	_	11	case	_	_
+10	para	para	ADP	ADP	_	11	case	_	_
 11	Paris	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	16	punct	_	_
+12	,	,	PUNCT	.	_	16	punct	_	_
 13	onde	onde	ADV	ADV	_	16	advmod	_	_
 14	começou	começar	AUX	AUX	_	16	aux	_	_
 15	a	_	ADP	ADP	_	16	mark	_	_
@@ -198,10 +198,10 @@
 21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	escritório	escritório	NOUN	NOUN	_	16	nmod	_	_
 23-24	dum	_	_	_	_	_	_	_	_
-23	de	_	ADP	ADP	_	25	case	_	_
-24	um	_	DET	DET	_	25	det	_	_
+23	de	de	ADP	ADP	_	25	case	_	_
+24	um	um	DET	DET	_	25	det	_	_
 25	advogado	advogado	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
-26	.	_	PUNCT	.	_	7	punct	_	_
+26	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s490
 # text = Do ponto de vista social e demográfico, assiste - se à gradual transferência das famílias ricas para locais mais amplos e aprazíveis;
@@ -209,14 +209,14 @@
 1	De	de	ADP	ADP	_	3	case	_	_
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	ponto	ponto	NOUN	NOUN	_	10	nmod	_	_
-4	de	_	ADP	ADP	_	5	case	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
 5	vista	vista	NOUN	NOUN	_	3	nmod	_	_
 6	social	social	ADJ	ADJ	_	5	amod	_	_
-7	e	_	CCONJ	CONJ	_	8	cc	_	_
+7	e	e	CCONJ	CONJ	_	8	cc	_	_
 8	demográfico	demográfico	ADJ	ADJ	_	6	conj	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	3	punct	_	_
+9	,	,	PUNCT	.	_	3	punct	_	_
 10	assiste	assistir	VERB	VERB	_	0	root	_	_
-11	-	_	PUNCT	.	_	10	punct	_	_
+11	-	-	PUNCT	.	_	10	punct	_	_
 12	se	_	PART	PRT	_	10	expl:pv	_	_
 13-14	à	_	_	_	_	_	_	_	_
 13	a	a	ADP	ADP	_	16	case	_	_
@@ -228,11 +228,11 @@
 18	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
 19	famílias	família	NOUN	NOUN	_	16	nmod	_	_
 20	ricas	rico	ADJ	ADJ	_	19	amod	_	_
-21	para	_	ADP	ADP	_	22	case	_	_
+21	para	para	ADP	ADP	_	22	case	_	_
 22	locais	local	NOUN	NOUN	_	16	nmod	_	_
 23	mais	mais	ADV	ADV	_	24	advmod	_	_
 24	amplos	amplo	ADJ	ADJ	_	22	amod	_	_
-25	e	_	CCONJ	CONJ	_	26	cc	_	_
+25	e	e	CCONJ	CONJ	_	26	cc	_	_
 26	aprazíveis	aprazível	ADJ	ADJ	_	24	conj	_	SpaceAfter=No
 27	;	_	PUNCT	.	_	10	punct	_	_
 

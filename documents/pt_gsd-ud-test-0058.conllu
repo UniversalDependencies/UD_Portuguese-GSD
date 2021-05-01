@@ -1,6 +1,6 @@
 # sent_id = test-s567
 # text = A primeira reunião do Congresso deverá ser no dia 5 de fevereiro, após o recesso parlamentar.
-1	A	_	DET	DET	_	3	det	_	_
+1	A	o	DET	DET	_	3	det	_	_
 2	primeira	primeiro	ADJ	ADJ	_	3	amod	_	_
 3	reunião	reunião	NOUN	NOUN	_	8	nsubj	_	_
 4-5	do	_	_	_	_	_	_	_	_
@@ -14,18 +14,18 @@
 10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	dia	dia	NOUN	NOUN	_	8	nmod	_	_
 12	5	_	NUM	NUM	NumType=Card	11	nmod	_	_
-13	de	_	ADP	ADP	_	14	case	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
 14	fevereiro	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	18	punct	_	_
+15	,	,	PUNCT	.	_	18	punct	_	_
 16	após	_	ADP	ADP	_	18	case	_	_
-17	o	_	DET	DET	_	18	det	_	_
+17	o	o	DET	DET	_	18	det	_	_
 18	recesso	recesso	NOUN	NOUN	_	8	nmod	_	_
 19	parlamentar	parlamentar	ADJ	ADJ	_	18	amod	_	SpaceAfter=No
-20	.	_	PUNCT	.	_	8	punct	_	_
+20	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = test-s568
 # text = A ideia é firmar também acordos que ampliem o Programa Ciências sem Fronteiras.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	ideia	ideia	NOUN	NOUN	_	0	root	_	_
 3	é	ser	AUX	AUX	_	2	cop	_	_
 4	firmar	firmar	VERB	VERB	_	2	csubj	_	_
@@ -33,24 +33,24 @@
 6	acordos	acordo	NOUN	NOUN	_	4	obj	_	_
 7	que	_	PRON	PRON	_	8	nsubj	_	_
 8	ampliem	ampliar	VERB	VERB	_	6	acl:relcl	_	_
-9	o	_	DET	DET	_	10	det	_	_
+9	o	o	DET	DET	_	10	det	_	_
 10	Programa	_	PROPN	PNOUN	_	8	obj	_	_
 11	Ciências	_	PROPN	PNOUN	_	10	flat	_	_
 12	sem	_	ADP	ADP	_	13	case	_	_
 13	Fronteiras	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
-14	.	_	PUNCT	.	_	2	punct	_	_
+14	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = test-s569
 # text = BEIRUTE, 18 Jul (Reuters) -- O ataque suicida que matou membros do círculo íntimo do presidente Bashar al - Assad, num momento em que os combates tomaram nesta quarta - feira a capital síria, Damasco, aumenta a urgência por ações mais firmes da ONU, disseram líderes ocidentais.
 1	BEIRUTE	_	PROPN	PNOUN	_	55	parataxis	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	3	punct	_	_
+2	,	,	PUNCT	.	_	3	punct	_	_
 3	18	_	NUM	NUM	NumType=Card	1	nmod	_	_
 4	Jul	_	PROPN	PNOUN	_	3	nmod	_	_
-5	(	_	PUNCT	.	_	6	punct	_	SpaceAfter=No
+5	(	(	PUNCT	.	_	6	punct	_	SpaceAfter=No
 6	Reuters	_	PROPN	PNOUN	_	1	appos	_	SpaceAfter=No
-7	)	_	PUNCT	.	_	6	punct	_	_
+7	)	)	PUNCT	.	_	6	punct	_	_
 8	--	_	PUNCT	.	_	55	punct	_	_
-9	O	_	DET	DET	_	10	det	_	_
+9	O	o	DET	DET	_	10	det	_	_
 10	ataque	ataque	NOUN	NOUN	_	44	nsubj	_	_
 11	suicida	suicida	ADJ	ADJ	_	10	amod	_	_
 12	que	_	PRON	PRON	_	13	nsubj	_	_
@@ -67,30 +67,30 @@
 21	presidente	presidente	NOUN	NOUN	_	17	nmod	_	_
 22	Bashar	_	PROPN	PNOUN	_	21	appos	_	_
 23	al	_	PROPN	PNOUN	_	22	flat	_	_
-24	-	_	PUNCT	.	_	22	punct	_	_
+24	-	-	PUNCT	.	_	22	punct	_	_
 25	Assad	_	PROPN	PNOUN	_	22	flat	_	SpaceAfter=No
-26	,	_	PUNCT	.	_	28	punct	_	_
+26	,	,	PUNCT	.	_	28	punct	_	_
 27	num	_	ADP	ADP	_	28	case	_	_
 28	momento	momento	NOUN	NOUN	_	13	nmod	_	_
-29	em	_	ADP	ADP	_	30	case	_	_
+29	em	em	ADP	ADP	_	30	case	_	_
 30	que	_	PRON	PRON	_	33	nmod	_	_
-31	os	_	DET	DET	_	32	det	_	_
+31	os	o	DET	DET	_	32	det	_	_
 32	combates	combate	NOUN	NOUN	_	33	nsubj	_	_
 33	tomaram	tomar	VERB	VERB	_	28	acl:relcl	_	_
 34	nesta	_	ADP	ADP	_	37	case	_	_
 35	quarta	_	PROPN	PNOUN	_	37	amod	_	_
-36	-	_	PUNCT	.	_	37	punct	_	_
+36	-	-	PUNCT	.	_	37	punct	_	_
 37	feira	_	PROPN	PNOUN	_	33	nmod	_	_
-38	a	_	DET	DET	_	39	det	_	_
+38	a	a	DET	DET	_	39	det	_	_
 39	capital	capital	NOUN	NOUN	_	33	obj	_	_
 40	síria	sírio	ADJ	ADJ	_	39	amod	_	SpaceAfter=No
-41	,	_	PUNCT	.	_	42	punct	_	_
+41	,	,	PUNCT	.	_	42	punct	_	_
 42	Damasco	_	PROPN	PNOUN	_	39	appos	_	SpaceAfter=No
-43	,	_	PUNCT	.	_	28	punct	_	_
+43	,	,	PUNCT	.	_	28	punct	_	_
 44	aumenta	aumentar	VERB	VERB	_	55	ccomp	_	_
-45	a	_	DET	DET	_	46	det	_	_
+45	a	a	DET	DET	_	46	det	_	_
 46	urgência	urgência	NOUN	NOUN	_	44	obj	_	_
-47	por	_	ADP	ADP	_	48	case	_	_
+47	por	por	ADP	ADP	_	48	case	_	_
 48	ações	ação	NOUN	NOUN	_	46	nmod	_	_
 49	mais	mais	ADV	ADV	_	50	advmod	_	_
 50	firmes	firme	ADJ	ADJ	_	48	amod	_	_
@@ -98,11 +98,11 @@
 51	de	de	ADP	ADP	_	53	case	_	_
 52	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
 53	ONU	_	PROPN	PNOUN	_	48	nmod	_	SpaceAfter=No
-54	,	_	PUNCT	.	_	44	punct	_	_
+54	,	,	PUNCT	.	_	44	punct	_	_
 55	disseram	dizer	VERB	VERB	_	0	root	_	_
 56	líderes	líder	NOUN	NOUN	_	55	nsubj	_	_
 57	ocidentais	ocidental	ADJ	ADJ	_	56	amod	_	SpaceAfter=No
-58	.	_	PUNCT	.	_	55	punct	_	_
+58	.	.	PUNCT	.	_	55	punct	_	_
 
 # sent_id = test-s570
 # text = Na cobrança, o goleiro croata não conseguiu parar o chute magistral do camisa 21, que finalizou com o capricho que lhe é peculiar.
@@ -110,14 +110,14 @@
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	cobrança	cobrança	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
-5	o	_	DET	DET	_	6	det	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	o	o	DET	DET	_	6	det	_	_
 6	goleiro	goleiro	NOUN	NOUN	_	9	nsubj	_	_
 7	croata	croata	ADJ	ADJ	_	6	amod	_	_
 8	não	não	ADV	ADV	Polarity=Neg	9	advmod	_	_
 9	conseguiu	conseguir	VERB	VERB	_	0	root	_	_
 10	parar	parar	VERB	VERB	_	9	xcomp	_	_
-11	o	_	DET	DET	_	12	det	_	_
+11	o	o	DET	DET	_	12	det	_	_
 12	chute	chute	NOUN	NOUN	_	10	obj	_	_
 13	magistral	magistral	ADJ	ADJ	_	12	amod	_	_
 14-15	do	_	_	_	_	_	_	_	_
@@ -125,17 +125,17 @@
 15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	camisa	camisa	NOUN	NOUN	_	12	nmod	_	_
 17	21	_	NUM	NUM	NumType=Card	16	appos	_	SpaceAfter=No
-18	,	_	PUNCT	.	_	20	punct	_	_
+18	,	,	PUNCT	.	_	20	punct	_	_
 19	que	_	PRON	PRON	_	20	nsubj	_	_
 20	finalizou	finalizar	VERB	VERB	_	16	acl:relcl	_	_
-21	com	_	ADP	ADP	_	23	case	_	_
-22	o	_	DET	DET	_	23	det	_	_
+21	com	com	ADP	ADP	_	23	case	_	_
+22	o	o	DET	DET	_	23	det	_	_
 23	capricho	capricho	NOUN	NOUN	_	20	nmod	_	_
 24	que	_	PRON	PRON	_	26	nsubj	_	_
 25	lhe	_	PRON	PRON	_	26	iobj	_	_
 26	é	ser	VERB	VERB	_	23	acl:relcl	_	_
 27	peculiar	peculiar	ADJ	ADJ	_	26	xcomp:adj	_	SpaceAfter=No
-28	.	_	PUNCT	.	_	9	punct	_	_
+28	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = test-s571
 # text = Ainda na delegacia, Nina sairá em defesa de Carminha, dizendo que o crime foi em legítima defesa, reconhecendo o que Carminha fez o que fez para tentar salvar a sua vida.
@@ -144,26 +144,26 @@
 2	em	em	ADP	ADP	_	4	case	_	_
 3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	delegacia	delegacia	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	4	punct	_	_
+5	,	,	PUNCT	.	_	4	punct	_	_
 6	Nina	_	PROPN	PNOUN	_	7	nsubj	_	_
 7	sairá	sair	VERB	VERB	_	0	root	_	_
-8	em	_	ADP	ADP	_	9	case	_	_
+8	em	em	ADP	ADP	_	9	case	_	_
 9	defesa	_	NOUN	NOUN	_	7	nmod	_	_
-10	de	_	ADP	ADP	_	11	case	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
 11	Carminha	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	13	punct	_	_
+12	,	,	PUNCT	.	_	13	punct	_	_
 13	dizendo	dizer	VERB	VERB	_	7	acl:part	_	_
-14	que	_	CCONJ	CONJ	_	17	mark	_	_
-15	o	_	DET	DET	_	16	det	_	_
+14	que	que	CCONJ	CONJ	_	17	mark	_	_
+15	o	o	DET	DET	_	16	det	_	_
 16	crime	crime	NOUN	NOUN	_	17	nsubj	_	_
 17	foi	_	VERB	VERB	_	13	ccomp	_	_
-18	em	_	ADP	ADP	_	20	case	_	_
+18	em	em	ADP	ADP	_	20	case	_	_
 19	legítima	legítimo	ADJ	ADJ	_	20	amod	_	_
 20	defesa	_	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
-21	,	_	PUNCT	.	_	22	punct	_	_
+21	,	,	PUNCT	.	_	22	punct	_	_
 22	reconhecendo	reconhecer	VERB	VERB	_	13	conj	_	_
 23	o	_	DET	DET	_	26	dep	_	_
-24	que	_	CCONJ	CONJ	_	26	mark	_	_
+24	que	que	CCONJ	CONJ	_	26	mark	_	_
 25	Carminha	_	PROPN	PNOUN	_	26	nsubj	_	_
 26	fez	fazer	VERB	VERB	_	22	ccomp	_	_
 27	o	_	PRON	PRON	_	26	obj	_	_
@@ -172,10 +172,10 @@
 30	para	_	ADP	ADP	_	31	mark	_	_
 31	tentar	tentar	VERB	VERB	_	26	advcl	_	_
 32	salvar	salvar	VERB	VERB	_	31	xcomp	_	_
-33	a	_	DET	DET	_	35	det	_	_
+33	a	a	DET	DET	_	35	det	_	_
 34	sua	_	DET	DET	_	35	det:poss	_	_
 35	vida	vida	NOUN	NOUN	_	32	obj	_	SpaceAfter=No
-36	.	_	PUNCT	.	_	7	punct	_	_
+36	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = test-s572
 # text = Mas foi no corpo a corpo com os jornalistas, já conhecendo os convocados, o Baixinho mostrou descontentamento com a escolha.
@@ -187,35 +187,35 @@
 5	corpo	corpo	NOUN	NOUN	_	2	nmod	_	_
 6	a	_	ADP	ADP	_	7	case	_	_
 7	corpo	corpo	NOUN	NOUN	_	5	nmod	_	_
-8	com	_	ADP	ADP	_	10	case	_	_
-9	os	_	DET	DET	_	10	det	_	_
+8	com	com	ADP	ADP	_	10	case	_	_
+9	os	o	DET	DET	_	10	det	_	_
 10	jornalistas	jornalista	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	13	punct	_	_
+11	,	,	PUNCT	.	_	13	punct	_	_
 12	já	já	ADV	ADV	_	13	advmod	_	_
 13	conhecendo	conhecer	VERB	VERB	_	2	acl:part	_	_
-14	os	_	DET	DET	_	15	det	_	_
+14	os	o	DET	DET	_	15	det	_	_
 15	convocados	_	NOUN	NOUN	_	13	obj	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	19	punct	_	_
-17	o	_	DET	DET	_	18	det	_	_
+16	,	,	PUNCT	.	_	19	punct	_	_
+17	o	o	DET	DET	_	18	det	_	_
 18	Baixinho	_	PROPN	PNOUN	_	19	nsubj	_	_
 19	mostrou	mostrar	VERB	VERB	_	2	csubj	_	_
 20	descontentamento	descontentamento	NOUN	NOUN	_	19	obj	_	_
-21	com	_	ADP	ADP	_	23	case	_	_
-22	a	_	DET	DET	_	23	det	_	_
+21	com	com	ADP	ADP	_	23	case	_	_
+22	a	a	DET	DET	_	23	det	_	_
 23	escolha	escolha	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
-24	.	_	PUNCT	.	_	2	punct	_	_
+24	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = test-s573
 # text = Ele contabiliza que a região foi atacada mais de 450 vezes pela guerrilha nos últimos dez anos.
 1	Ele	_	PRON	PRON	_	2	nsubj	_	_
 2	contabiliza	contabilizar	VERB	VERB	_	0	root	_	_
-3	que	_	CCONJ	CONJ	_	7	mark	_	_
-4	a	_	DET	DET	_	5	det	_	_
+3	que	que	CCONJ	CONJ	_	7	mark	_	_
+4	a	a	DET	DET	_	5	det	_	_
 5	região	região	NOUN	NOUN	_	7	nsubj:pass	_	_
 6	foi	_	AUX	AUX	_	7	aux:pass	_	_
 7	atacada	atacar	VERB	VERB	_	2	ccomp	_	_
 8	mais	mais	ADV	ADV	_	10	advmod	_	_
-9	de	_	ADP	ADP	_	8	case	_	_
+9	de	de	ADP	ADP	_	8	case	_	_
 10	450	_	NUM	NUM	NumType=Card	11	nummod	_	_
 11	vezes	vez	NOUN	NOUN	_	7	nmod	_	_
 12-13	pela	_	_	_	_	_	_	_	_
@@ -228,57 +228,57 @@
 17	últimos	último	ADJ	ADJ	_	19	amod	_	_
 18	dez	_	NUM	NUM	NumType=Card	19	nummod	_	_
 19	anos	ano	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-20	.	_	PUNCT	.	_	2	punct	_	_
+20	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = test-s574
 # text = "A lei prevê que o ministro pode decidir casos específicos, por provocação ou de ofício, o que abre possibilidade de diálogo", disse o advogado em palestra nesta sexta - feira (14 / 12) no IX Congresso Nacional de Estudos Tributários organizado pelo Instituto Brasileiro de Estudos Tributários (Ibet).
-1	"	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
-2	A	_	DET	DET	_	3	det	_	_
+1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
+2	A	o	DET	DET	_	3	det	_	_
 3	lei	lei	NOUN	NOUN	_	4	nsubj	_	_
 4	prevê	prever	VERB	VERB	_	27	ccomp	_	_
-5	que	_	CCONJ	CONJ	_	9	mark	_	_
-6	o	_	DET	DET	_	7	det	_	_
+5	que	que	CCONJ	CONJ	_	9	mark	_	_
+6	o	o	DET	DET	_	7	det	_	_
 7	ministro	ministro	NOUN	NOUN	_	9	nsubj	_	_
 8	pode	_	AUX	AUX	_	9	aux	_	_
 9	decidir	decidir	VERB	VERB	_	4	ccomp	_	_
 10	casos	caso	NOUN	NOUN	_	9	obj	_	_
 11	específicos	específico	ADJ	ADJ	_	10	amod	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	14	punct	_	_
-13	por	_	ADP	ADP	_	14	case	_	_
+12	,	,	PUNCT	.	_	14	punct	_	_
+13	por	por	ADP	ADP	_	14	case	_	_
 14	provocação	provocação	NOUN	NOUN	_	9	nmod	_	_
-15	ou	_	CCONJ	CONJ	_	17	cc	_	_
-16	de	_	ADP	ADP	_	17	case	_	_
+15	ou	ou	CCONJ	CONJ	_	17	cc	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
 17	ofício	ofício	NOUN	NOUN	_	14	conj	_	SpaceAfter=No
-18	,	_	PUNCT	.	_	14	punct	_	_
-19	o	_	DET	DET	_	20	det	_	_
+18	,	,	PUNCT	.	_	14	punct	_	_
+19	o	o	DET	DET	_	20	det	_	_
 20	que	_	PRON	PRON	_	21	nsubj	_	_
 21	abre	abrir	VERB	VERB	_	9	acl:relcl	_	_
 22	possibilidade	possibilidade	NOUN	NOUN	_	21	obj	_	_
-23	de	_	ADP	ADP	_	24	case	_	_
+23	de	de	ADP	ADP	_	24	case	_	_
 24	diálogo	diálogo	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
-25	"	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
-26	,	_	PUNCT	.	_	27	punct	_	_
+25	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
+26	,	,	PUNCT	.	_	27	punct	_	_
 27	disse	dizer	VERB	VERB	_	0	root	_	_
-28	o	_	DET	DET	_	29	det	_	_
+28	o	o	DET	DET	_	29	det	_	_
 29	advogado	advogado	NOUN	NOUN	_	27	nsubj	_	_
-30	em	_	ADP	ADP	_	31	case	_	_
+30	em	em	ADP	ADP	_	31	case	_	_
 31	palestra	palestra	NOUN	NOUN	_	27	nmod	_	_
 32	nesta	_	ADP	ADP	_	35	case	_	_
 33	sexta	_	PROPN	PNOUN	_	35	amod	_	_
-34	-	_	PUNCT	.	_	35	punct	_	_
+34	-	-	PUNCT	.	_	35	punct	_	_
 35	feira	_	PROPN	PNOUN	_	27	nmod	_	_
-36	(	_	PUNCT	.	_	37	punct	_	SpaceAfter=No
+36	(	(	PUNCT	.	_	37	punct	_	SpaceAfter=No
 37	14	_	NUM	NUM	NumType=Card	35	nmod	_	_
-38	/	_	PUNCT	.	_	37	punct	_	_
+38	/	/	PUNCT	.	_	37	punct	_	_
 39	12	_	NUM	NUM	NumType=Card	37	nmod	_	SpaceAfter=No
-40	)	_	PUNCT	.	_	37	punct	_	_
+40	)	)	PUNCT	.	_	37	punct	_	_
 41-42	no	_	_	_	_	_	_	_	_
 41	em	em	ADP	ADP	_	44	case	_	_
 42	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
 43	IX	_	ADJ	ADJ	_	44	amod	_	_
 44	Congresso	_	PROPN	PNOUN	_	27	nmod	_	_
 45	Nacional	_	PROPN	PNOUN	_	44	amod	_	_
-46	de	_	ADP	ADP	_	47	case	_	_
+46	de	de	ADP	ADP	_	47	case	_	_
 47	Estudos	_	PROPN	PNOUN	_	44	nmod	_	_
 48	Tributários	_	PROPN	PNOUN	_	47	amod	_	_
 49	organizado	organizar	VERB	VERB	_	44	acl:part	_	_
@@ -287,56 +287,56 @@
 51	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
 52	Instituto	_	PROPN	PNOUN	_	49	nmod	_	_
 53	Brasileiro	_	PROPN	PNOUN	_	52	amod	_	_
-54	de	_	ADP	ADP	_	55	case	_	_
+54	de	de	ADP	ADP	_	55	case	_	_
 55	Estudos	_	PROPN	PNOUN	_	52	nmod	_	_
 56	Tributários	_	PROPN	PNOUN	_	55	amod	_	_
-57	(	_	PUNCT	.	_	58	punct	_	SpaceAfter=No
+57	(	(	PUNCT	.	_	58	punct	_	SpaceAfter=No
 58	Ibet	_	PROPN	PNOUN	_	52	appos	_	SpaceAfter=No
-59	)	_	PUNCT	.	_	58	punct	_	SpaceAfter=No
-60	.	_	PUNCT	.	_	27	punct	_	_
+59	)	)	PUNCT	.	_	58	punct	_	SpaceAfter=No
+60	.	.	PUNCT	.	_	27	punct	_	_
 
 # sent_id = test-s575
 # text = Segundo o censo americano de 2000, a sua população era de 97 habitantes.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	o	_	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	_	3	det	_	_
 3	censo	censo	NOUN	NOUN	_	11	nmod	_	_
 4	americano	americano	ADJ	ADJ	_	3	amod	_	_
-5	de	_	ADP	ADP	_	6	case	_	_
+5	de	de	ADP	ADP	_	6	case	_	_
 6	2000	_	NUM	NUM	NumType=Card	3	nmod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	3	punct	_	_
-8	a	_	DET	DET	_	10	det	_	_
+7	,	,	PUNCT	.	_	3	punct	_	_
+8	a	a	DET	DET	_	10	det	_	_
 9	sua	_	DET	DET	_	10	det:poss	_	_
 10	população	população	NOUN	NOUN	_	11	nsubj	_	_
 11	era	_	VERB	VERB	_	0	root	_	_
-12	de	_	ADP	ADP	_	14	case	_	_
+12	de	de	ADP	ADP	_	14	case	_	_
 13	97	_	NUM	NUM	NumType=Card	14	nummod	_	_
 14	habitantes	habitante	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
-15	.	_	PUNCT	.	_	11	punct	_	_
+15	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = test-s576
 # text = O ato de assinatura ocorreu quarta - feira (25.07), na Secretaria de Estado de Educação (Seduc).
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	ato	ato	NOUN	NOUN	_	5	nsubj	_	_
-3	de	_	ADP	ADP	_	4	case	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
 4	assinatura	assinatura	NOUN	NOUN	_	2	nmod	_	_
 5	ocorreu	ocorrer	VERB	VERB	_	0	root	_	_
 6	quarta	_	PROPN	PNOUN	_	8	amod	_	_
-7	-	_	PUNCT	.	_	8	punct	_	_
+7	-	-	PUNCT	.	_	8	punct	_	_
 8	feira	_	PROPN	PNOUN	_	5	nmod	_	_
-9	(	_	PUNCT	.	_	10	punct	_	SpaceAfter=No
+9	(	(	PUNCT	.	_	10	punct	_	SpaceAfter=No
 10	25.07	_	NUM	NUM	NumType=Card	8	nmod	_	SpaceAfter=No
-11	)	_	PUNCT	.	_	10	punct	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	15	punct	_	_
+11	)	)	PUNCT	.	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	.	_	15	punct	_	_
 13-14	na	_	_	_	_	_	_	_	_
 13	em	em	ADP	ADP	_	15	case	_	_
 14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	Secretaria	_	PROPN	PNOUN	_	5	nmod	_	_
-16	de	_	ADP	ADP	_	17	case	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
 17	Estado	_	PROPN	PNOUN	_	15	nmod	_	_
-18	de	_	ADP	ADP	_	19	case	_	_
+18	de	de	ADP	ADP	_	19	case	_	_
 19	Educação	_	PROPN	PNOUN	_	15	nmod	_	_
-20	(	_	PUNCT	.	_	21	punct	_	SpaceAfter=No
+20	(	(	PUNCT	.	_	21	punct	_	SpaceAfter=No
 21	Seduc	_	PROPN	PNOUN	_	15	appos	_	SpaceAfter=No
-22	)	_	PUNCT	.	_	21	punct	_	SpaceAfter=No
-23	.	_	PUNCT	.	_	5	punct	_	_
+22	)	)	PUNCT	.	_	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	5	punct	_	_
 

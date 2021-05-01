@@ -6,41 +6,41 @@
 4	]	_	PUNCT	.	_	3	punct	_	_
 5	em	_	ADP	ADP	_	6	mark	_	_
 6	especial	especial	ADJ	ADJ	_	3	nmod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	3	punct	_	_
+7	,	,	PUNCT	.	_	3	punct	_	_
 8	estamos	estar	AUX	AUX	_	9	aux	_	_
 9	tratando	tratar	VERB	VERB	_	3	parataxis	_	_
 10-11	duma	_	_	_	_	_	_	_	_
-10	de	_	ADP	ADP	_	12	case	_	_
-11	uma	_	DET	DET	_	12	det	_	_
+10	de	de	ADP	ADP	_	12	case	_	_
+11	uma	um	DET	DET	_	12	det	_	_
 12	realidade	realidade	NOUN	NOUN	_	9	nmod	_	_
 13	que	_	PRON	PRON	_	14	nsubj	_	_
 14	beneficia	beneficiar	VERB	VERB	_	12	acl:relcl	_	_
 15	diretamente	diretamente	ADV	ADV	_	14	advmod	_	_
-16	a	_	DET	DET	_	17	det	_	_
+16	a	a	DET	DET	_	17	det	_	_
 17	população	população	NOUN	NOUN	_	14	obj	_	_
-18	"	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
-19	,	_	PUNCT	.	_	20	punct	_	_
+18	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
+19	,	,	PUNCT	.	_	20	punct	_	_
 20	disse	dizer	VERB	VERB	_	0	root	_	_
 21	ele	_	PRON	PRON	_	20	nsubj	_	SpaceAfter=No
-22	.	_	PUNCT	.	_	20	punct	_	_
+22	.	.	PUNCT	.	_	20	punct	_	_
 
 # sent_id = test-s161
 # text = O IBGE divulgou, no último dia 19, que o nível de ocupação feminina subiu 24 % nos últimos dez anos.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	IBGE	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	divulgou	divulgar	VERB	VERB	_	0	root	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	8	punct	_	_
+4	,	,	PUNCT	.	_	8	punct	_	_
 5-6	no	_	_	_	_	_	_	_	_
 5	em	em	ADP	ADP	_	8	case	_	_
 6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 7	último	último	ADJ	ADJ	_	8	amod	_	_
 8	dia	dia	NOUN	NOUN	_	3	nmod	_	_
 9	19	_	NUM	NUM	NumType=Card	8	nmod	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	8	punct	_	_
+10	,	,	PUNCT	.	_	8	punct	_	_
 11	que	_	PRON	PRON	_	17	mark	_	_
-12	o	_	DET	DET	_	13	det	_	_
+12	o	o	DET	DET	_	13	det	_	_
 13	nível	nível	NOUN	NOUN	_	17	nsubj	_	_
-14	de	_	ADP	ADP	_	15	case	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
 15	ocupação	ocupação	NOUN	NOUN	_	13	nmod	_	_
 16	feminina	feminino	ADJ	ADJ	_	15	amod	_	_
 17	subiu	subir	VERB	VERB	_	3	ccomp	_	_
@@ -52,7 +52,7 @@
 22	últimos	último	ADJ	ADJ	_	24	amod	_	_
 23	dez	_	NUM	NUM	NumType=Card	24	nummod	_	_
 24	anos	ano	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
-25	.	_	PUNCT	.	_	3	punct	_	_
+25	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = test-s162
 # text = Derivados do isopentano ou metilbutano (CH3) 2 - CH - CH2 - CH3 ==== ====
@@ -61,24 +61,24 @@
 2	de	de	ADP	ADP	_	4	case	_	_
 3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	isopentano	_	NOUN	NOUN	_	1	nmod	_	_
-5	ou	_	CCONJ	CONJ	_	6	cc	_	_
+5	ou	ou	CCONJ	CONJ	_	6	cc	_	_
 6	metilbutano	_	NOUN	NOUN	_	4	conj	_	_
-7	(	_	PUNCT	.	_	8	punct	_	SpaceAfter=No
+7	(	(	PUNCT	.	_	8	punct	_	SpaceAfter=No
 8	CH3	_	PROPN	PNOUN	_	1	appos	_	SpaceAfter=No
-9	)	_	PUNCT	.	_	12	punct	_	_
+9	)	)	PUNCT	.	_	12	punct	_	_
 10	2	_	NUM	NUM	NumType=Card	8	appos	_	_
-11	-	_	PUNCT	.	_	12	punct	_	_
+11	-	-	PUNCT	.	_	12	punct	_	_
 12	CH	_	PROPN	PNOUN	_	8	conj	_	_
-13	-	_	PUNCT	.	_	14	punct	_	_
+13	-	-	PUNCT	.	_	14	punct	_	_
 14	CH2	_	PROPN	PNOUN	_	8	conj	_	_
-15	-	_	PUNCT	.	_	16	punct	_	_
+15	-	-	PUNCT	.	_	16	punct	_	_
 16	CH3	_	PROPN	PNOUN	_	8	conj	_	_
 17	====	_	PUNCT	.	_	1	punct	_	_
 18	====	_	PUNCT	.	_	1	punct	_	_
 
 # sent_id = test-s163
 # text = "Não é isso que está sendo feito.
-1	"	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
 2	Não	não	ADV	ADV	Polarity=Neg	3	advmod	_	_
 3	é	ser	VERB	VERB	_	0	root	_	_
 4	isso	_	PRON	PRON	_	3	nsubj	_	_
@@ -86,7 +86,7 @@
 6	está	estar	VERB	VERB	_	4	acl:relcl	_	_
 7	sendo	ser	AUX	AUX	_	8	aux:pass	_	_
 8	feito	_	VERB	VERB	_	6	xcomp	_	SpaceAfter=No
-9	.	_	PUNCT	.	_	3	punct	_	_
+9	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = test-s164
 # text = Sua recusa é ainda uma outra pista para a natureza da ordem do rei.
@@ -94,11 +94,11 @@
 2	recusa	recusa	NOUN	NOUN	_	7	nsubj	_	_
 3	é	ser	AUX	AUX	_	7	cop	_	_
 4	ainda	ainda	ADV	ADV	_	7	advmod	_	_
-5	uma	_	DET	DET	_	7	det	_	_
+5	uma	um	DET	DET	_	7	det	_	_
 6	outra	_	DET	DET	_	7	det	_	_
 7	pista	pista	NOUN	NOUN	_	0	root	_	_
-8	para	_	ADP	ADP	_	10	case	_	_
-9	a	_	DET	DET	_	10	det	_	_
+8	para	para	ADP	ADP	_	10	case	_	_
+9	a	a	DET	DET	_	10	det	_	_
 10	natureza	natureza	NOUN	NOUN	_	7	nmod	_	_
 11-12	da	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	13	case	_	_
@@ -108,90 +108,90 @@
 14	de	de	ADP	ADP	_	16	case	_	_
 15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	rei	rei	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
-17	.	_	PUNCT	.	_	7	punct	_	_
+17	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = test-s165
 # text = A Portuguesa não se intimidou e teve mais posse de bola no campo de ataque.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	Portuguesa	_	PROPN	PNOUN	_	5	nsubj	_	_
 3	não	não	ADV	ADV	Polarity=Neg	5	advmod	_	_
 4	se	_	PART	PRT	_	5	expl:pv	_	_
 5	intimidou	intimidar	VERB	VERB	_	0	root	_	_
-6	e	_	CCONJ	CONJ	_	7	cc	_	_
+6	e	e	CCONJ	CONJ	_	7	cc	_	_
 7	teve	ter	VERB	VERB	_	5	conj	_	_
 8	mais	_	DET	DET	_	9	det	_	_
 9	posse	posse	NOUN	NOUN	_	7	obj	_	_
-10	de	_	ADP	ADP	_	11	case	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
 11	bola	bola	NOUN	NOUN	_	9	nmod	_	_
 12-13	no	_	_	_	_	_	_	_	_
 12	em	em	ADP	ADP	_	14	case	_	_
 13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	campo	campo	NOUN	NOUN	_	7	nmod	_	_
-15	de	_	ADP	ADP	_	16	case	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
 16	ataque	ataque	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
-17	.	_	PUNCT	.	_	5	punct	_	_
+17	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = test-s166
 # text = Não podemos iludir o torcedor ", completou o comandante.
 1	Não	não	ADV	ADV	Polarity=Neg	3	advmod	_	_
 2	podemos	_	AUX	AUX	_	3	aux	_	_
 3	iludir	iludir	VERB	VERB	_	8	ccomp	_	_
-4	o	_	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	_	5	det	_	_
 5	torcedor	torcedor	NOUN	NOUN	_	3	obj	_	_
-6	"	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	8	punct	_	_
+6	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	8	punct	_	_
 8	completou	completar	VERB	VERB	_	0	root	_	_
-9	o	_	DET	DET	_	10	det	_	_
+9	o	o	DET	DET	_	10	det	_	_
 10	comandante	comandante	NOUN	NOUN	_	8	nsubj	_	SpaceAfter=No
-11	.	_	PUNCT	.	_	8	punct	_	_
+11	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = test-s167
 # text = BRASÍLIA -- O Banco Central (BC) espera que os gastos de brasileiros no exterior superem as receitas deixadas por estrangeiros em viagens ao Brasil em US $ 16,3 bilhões, em 2013.
 1	BRASÍLIA	_	PROPN	PNOUN	_	9	parataxis	_	_
 2	--	_	PUNCT	.	_	9	punct	_	_
-3	O	_	DET	DET	_	4	det	_	_
+3	O	o	DET	DET	_	4	det	_	_
 4	Banco	_	PROPN	PNOUN	_	9	nsubj	_	_
 5	Central	_	PROPN	PNOUN	_	4	amod	_	_
-6	(	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
+6	(	(	PUNCT	.	_	7	punct	_	SpaceAfter=No
 7	BC	_	PROPN	PNOUN	_	4	appos	_	SpaceAfter=No
-8	)	_	PUNCT	.	_	7	punct	_	_
+8	)	)	PUNCT	.	_	7	punct	_	_
 9	espera	esperar	VERB	VERB	_	0	root	_	_
-10	que	_	CCONJ	CONJ	_	18	mark	_	_
-11	os	_	DET	DET	_	12	det	_	_
+10	que	que	CCONJ	CONJ	_	18	mark	_	_
+11	os	o	DET	DET	_	12	det	_	_
 12	gastos	gasto	NOUN	NOUN	_	18	nsubj	_	_
-13	de	_	ADP	ADP	_	14	case	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
 14	brasileiros	brasileiro	NOUN	NOUN	_	12	nmod	_	_
 15-16	no	_	_	_	_	_	_	_	_
 15	em	em	ADP	ADP	_	17	case	_	_
 16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	exterior	exterior	NOUN	NOUN	_	12	nmod	_	_
 18	superem	superar	VERB	VERB	_	9	ccomp	_	_
-19	as	_	DET	DET	_	20	det	_	_
+19	as	o	DET	DET	_	20	det	_	_
 20	receitas	receita	NOUN	NOUN	_	18	obj	_	_
 21	deixadas	deixar	VERB	VERB	_	20	acl:part	_	_
-22	por	_	ADP	ADP	_	23	case	_	_
+22	por	por	ADP	ADP	_	23	case	_	_
 23	estrangeiros	estrangeiro	NOUN	NOUN	_	21	nmod	_	_
-24	em	_	ADP	ADP	_	25	case	_	_
+24	em	em	ADP	ADP	_	25	case	_	_
 25	viagens	viagem	NOUN	NOUN	_	21	nmod	_	_
 26-27	ao	_	_	_	_	_	_	_	_
 26	a	a	ADP	ADP	_	28	case	_	_
 27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	Brasil	_	PROPN	PNOUN	_	25	nmod	_	_
-29	em	_	ADP	ADP	_	30	case	_	_
+29	em	em	ADP	ADP	_	30	case	_	_
 30	US	_	PROPN	PNOUN	_	18	nmod	_	_
 31	$	_	SYM	SYM	_	30	flat	_	_
 32	16,3	_	NUM	NUM	NumType=Card	33	nummod	_	_
 33	bilhões	_	NUM	NUM	NumType=Card	30	nummod	_	SpaceAfter=No
-34	,	_	PUNCT	.	_	36	punct	_	_
-35	em	_	ADP	ADP	_	36	case	_	_
+34	,	,	PUNCT	.	_	36	punct	_	_
+35	em	em	ADP	ADP	_	36	case	_	_
 36	2013	_	NUM	NUM	NumType=Card	18	nmod	_	SpaceAfter=No
-37	.	_	PUNCT	.	_	9	punct	_	_
+37	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = test-s168
 # text = O Paquistão, que foi próximo aos talibãs quando os extremistas estavam no poder em Cabul (1996-2001), manteve contatos com os insurgentes, alguns deles detidos em prisões paquistanesas.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	Paquistão	_	PROPN	PNOUN	_	23	nsubj	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	5	punct	_	_
+3	,	,	PUNCT	.	_	5	punct	_	_
 4	que	_	PRON	PRON	_	5	nsubj	_	_
 5	foi	_	VERB	VERB	_	2	acl:relcl	_	_
 6	próximo	próximo	ADJ	ADJ	_	5	xcomp:adj	_	_
@@ -200,50 +200,50 @@
 8	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
 9	talibãs	talibã	NOUN	NOUN	_	6	nmod	_	_
 10	quando	_	CCONJ	CONJ	_	13	mark	_	_
-11	os	_	DET	DET	_	12	det	_	_
+11	os	o	DET	DET	_	12	det	_	_
 12	extremistas	extremista	NOUN	NOUN	_	13	nsubj	_	_
 13	estavam	estar	VERB	VERB	_	5	advcl	_	_
 14-15	no	_	_	_	_	_	_	_	_
 14	em	em	ADP	ADP	_	16	case	_	_
 15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	poder	poder	NOUN	NOUN	_	13	nmod	_	_
-17	em	_	ADP	ADP	_	18	case	_	_
+17	em	em	ADP	ADP	_	18	case	_	_
 18	Cabul	_	PROPN	PNOUN	_	13	nmod	_	_
-19	(	_	PUNCT	.	_	20	punct	_	SpaceAfter=No
+19	(	(	PUNCT	.	_	20	punct	_	SpaceAfter=No
 20	1996-2001	_	NUM	NUM	NumType=Card	13	nmod	_	SpaceAfter=No
-21	)	_	PUNCT	.	_	20	punct	_	SpaceAfter=No
-22	,	_	PUNCT	.	_	5	punct	_	_
+21	)	)	PUNCT	.	_	20	punct	_	SpaceAfter=No
+22	,	,	PUNCT	.	_	5	punct	_	_
 23	manteve	manter	VERB	VERB	_	0	root	_	_
 24	contatos	contato	NOUN	NOUN	_	23	obj	_	_
-25	com	_	ADP	ADP	_	27	case	_	_
-26	os	_	DET	DET	_	27	det	_	_
+25	com	com	ADP	ADP	_	27	case	_	_
+26	os	o	DET	DET	_	27	det	_	_
 27	insurgentes	insurgente	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
-28	,	_	PUNCT	.	_	29	punct	_	_
+28	,	,	PUNCT	.	_	29	punct	_	_
 29	alguns	_	PRON	PRON	_	27	appos	_	_
 30	deles	_	X	ADPPRON	_	29	nmod	_	_
 31	detidos	deter	VERB	VERB	_	29	acl:part	_	_
-32	em	_	ADP	ADP	_	33	case	_	_
+32	em	em	ADP	ADP	_	33	case	_	_
 33	prisões	prisão	NOUN	NOUN	_	31	nmod	_	_
 34	paquistanesas	paquistanês	ADJ	ADJ	_	33	amod	_	SpaceAfter=No
-35	.	_	PUNCT	.	_	23	punct	_	_
+35	.	.	PUNCT	.	_	23	punct	_	_
 
 # sent_id = test-s169
 # text = Lactâncio (sec. III e IV), autor cristão que escreveu em latim a obra Divino Instituto no início de século IV, relata no livro 4 e capítulo 20 o seguinte:
 1	Lactâncio	_	PROPN	PNOUN	_	26	nsubj	_	_
-2	(	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
+2	(	(	PUNCT	.	_	3	punct	_	SpaceAfter=No
 3	sec.	_	NOUN	NOUN	_	1	appos	_	_
 4	III	_	NUM	NUM	NumType=Card	3	appos	_	_
-5	e	_	CCONJ	CONJ	_	6	cc	_	_
+5	e	e	CCONJ	CONJ	_	6	cc	_	_
 6	IV	_	NUM	NUM	NumType=Card	4	conj	_	SpaceAfter=No
-7	)	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	9	punct	_	_
+7	)	)	PUNCT	.	_	3	punct	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	9	punct	_	_
 9	autor	autor	NOUN	NOUN	_	1	appos	_	_
 10	cristão	cristão	ADJ	ADJ	_	9	amod	_	_
 11	que	_	PRON	PRON	_	12	nsubj	_	_
 12	escreveu	escrever	VERB	VERB	_	9	acl:relcl	_	_
-13	em	_	ADP	ADP	_	14	case	_	_
+13	em	em	ADP	ADP	_	14	case	_	_
 14	latim	latim	NOUN	NOUN	_	12	nmod	_	_
-15	a	_	DET	DET	_	16	det	_	_
+15	a	a	DET	DET	_	16	det	_	_
 16	obra	obra	NOUN	NOUN	_	12	obj	_	_
 17	Divino	_	PROPN	PNOUN	_	18	amod	_	_
 18	Instituto	_	PROPN	PNOUN	_	16	appos	_	_
@@ -251,20 +251,20 @@
 19	em	em	ADP	ADP	_	21	case	_	_
 20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	início	início	NOUN	NOUN	_	12	nmod	_	_
-22	de	_	ADP	ADP	_	23	case	_	_
+22	de	de	ADP	ADP	_	23	case	_	_
 23	século	século	NOUN	NOUN	_	21	nmod	_	_
 24	IV	_	NUM	NUM	NumType=Card	23	appos	_	SpaceAfter=No
-25	,	_	PUNCT	.	_	12	punct	_	_
+25	,	,	PUNCT	.	_	12	punct	_	_
 26	relata	relatar	VERB	VERB	_	0	root	_	_
 27-28	no	_	_	_	_	_	_	_	_
 27	em	em	ADP	ADP	_	29	case	_	_
 28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	livro	livro	NOUN	NOUN	_	26	nmod	_	_
 30	4	_	NUM	NUM	NumType=Card	29	appos	_	_
-31	e	_	CCONJ	CONJ	_	32	cc	_	_
+31	e	e	CCONJ	CONJ	_	32	cc	_	_
 32	capítulo	capítulo	NOUN	NOUN	_	29	conj	_	_
 33	20	_	NUM	NUM	NumType=Card	32	appos	_	_
-34	o	_	DET	DET	_	35	det	_	_
+34	o	o	DET	DET	_	35	det	_	_
 35	seguinte	seguinte	NOUN	NOUN	_	26	obj	_	SpaceAfter=No
-36	:	_	PUNCT	.	_	26	punct	_	_
+36	:	:	PUNCT	.	_	26	punct	_	_
 

@@ -1,9 +1,9 @@
 # sent_id = train-s3857
 # text = "O Oswaldo com certeza vai saber tirar deste período sem jogos o melhor de cada um de nós para que o Botafogo não volte a cometer os erros que vinha cometendo neste Campeonato Brasileiro.
-1	"	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
-2	O	_	DET	DET	_	3	det	_	_
+1	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
+2	O	o	DET	DET	_	3	det	_	_
 3	Oswaldo	_	PROPN	PNOUN	_	7	nsubj	_	_
-4	com	_	ADP	ADP	_	5	case	_	_
+4	com	com	ADP	ADP	_	5	case	_	_
 5	certeza	certeza	NOUN	NOUN	_	7	nmod	_	_
 6	vai	ir	AUX	AUX	_	7	aux	_	_
 7	saber	saber	VERB	VERB	_	0	root	_	_
@@ -12,22 +12,22 @@
 10	período	período	NOUN	NOUN	_	8	nmod	_	_
 11	sem	_	ADP	ADP	_	12	case	_	_
 12	jogos	jogo	NOUN	NOUN	_	10	nmod	_	_
-13	o	_	DET	DET	_	14	det	_	_
+13	o	o	DET	DET	_	14	det	_	_
 14	melhor	melhor	NOUN	NOUN	_	8	obj	_	_
-15	de	_	ADP	ADP	_	17	case	_	_
+15	de	de	ADP	ADP	_	17	case	_	_
 16	cada	_	DET	DET	_	17	det	_	_
 17	um	_	PRON	PRON	_	14	nmod	_	_
-18	de	_	ADP	ADP	_	19	case	_	_
+18	de	de	ADP	ADP	_	19	case	_	_
 19	nós	nó	NOUN	NOUN	_	17	nmod	_	_
 20	para	_	ADP	ADP	_	27	mark	_	_
 21	que	_	CCONJ	CONJ	_	20	fixed	_	_
-22	o	_	DET	DET	_	23	det	_	_
+22	o	o	DET	DET	_	23	det	_	_
 23	Botafogo	_	PROPN	PNOUN	_	27	nsubj	_	_
 24	não	não	ADV	ADV	Polarity=Neg	27	advmod	_	_
 25	volte	voltar	AUX	AUX	_	27	aux	_	_
 26	a	_	ADP	ADP	_	27	mark	_	_
 27	cometer	cometer	VERB	VERB	_	8	advcl	_	_
-28	os	_	DET	DET	_	29	det	_	_
+28	os	o	DET	DET	_	29	det	_	_
 29	erros	erro	NOUN	NOUN	_	27	obj	_	_
 30	que	_	PRON	PRON	_	32	obj	_	_
 31	vinha	vir	AUX	AUX	_	32	aux	_	_
@@ -35,7 +35,7 @@
 33	neste	_	ADP	ADP	_	34	case	_	_
 34	Campeonato	_	PROPN	PNOUN	_	32	nmod	_	_
 35	Brasileiro	_	PROPN	PNOUN	_	34	amod	_	SpaceAfter=No
-36	.	_	PUNCT	.	_	7	punct	_	_
+36	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s3858
 # text = Na terça - feira (2), o TSE autorizou o envio de tropas federais (Exército, Marinha e Aeronáutica) para reforçar a segurança das eleições em municípios do Rio Grande do Norte, de Alagoas e Sergipe.
@@ -43,36 +43,36 @@
 1	Em	em	ADP	ADP	_	5	case	_	_
 2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 3	terça	_	PROPN	PNOUN	_	5	amod	_	_
-4	-	_	PUNCT	.	_	5	punct	_	_
+4	-	-	PUNCT	.	_	5	punct	_	_
 5	feira	_	PROPN	PNOUN	_	12	nmod	_	_
-6	(	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
+6	(	(	PUNCT	.	_	7	punct	_	SpaceAfter=No
 7	2	_	NUM	NUM	NumType=Card	5	nmod	_	SpaceAfter=No
-8	)	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	5	punct	_	_
-10	o	_	DET	DET	_	11	det	_	_
+8	)	)	PUNCT	.	_	7	punct	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	5	punct	_	_
+10	o	o	DET	DET	_	11	det	_	_
 11	TSE	_	PROPN	PNOUN	_	12	nsubj	_	_
 12	autorizou	autorizar	VERB	VERB	_	0	root	_	_
-13	o	_	DET	DET	_	14	det	_	_
+13	o	o	DET	DET	_	14	det	_	_
 14	envio	envio	NOUN	NOUN	_	12	obj	_	_
-15	de	_	ADP	ADP	_	16	case	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
 16	tropas	tropa	NOUN	NOUN	_	14	nmod	_	_
 17	federais	federal	ADJ	ADJ	_	16	amod	_	_
-18	(	_	PUNCT	.	_	19	punct	_	SpaceAfter=No
+18	(	(	PUNCT	.	_	19	punct	_	SpaceAfter=No
 19	Exército	_	PROPN	PNOUN	_	16	appos	_	SpaceAfter=No
-20	,	_	PUNCT	.	_	21	punct	_	_
+20	,	,	PUNCT	.	_	21	punct	_	_
 21	Marinha	_	PROPN	PNOUN	_	19	conj	_	_
-22	e	_	CCONJ	CONJ	_	23	cc	_	_
+22	e	e	CCONJ	CONJ	_	23	cc	_	_
 23	Aeronáutica	_	PROPN	PNOUN	_	19	conj	_	SpaceAfter=No
-24	)	_	PUNCT	.	_	19	punct	_	_
+24	)	)	PUNCT	.	_	19	punct	_	_
 25	para	_	ADP	ADP	_	26	mark	_	_
 26	reforçar	reforçar	VERB	VERB	_	16	nmod	_	_
-27	a	_	DET	DET	_	28	det	_	_
+27	a	a	DET	DET	_	28	det	_	_
 28	segurança	segurança	NOUN	NOUN	_	26	obj	_	_
 29-30	das	_	_	_	_	_	_	_	_
 29	de	de	ADP	ADP	_	31	case	_	_
 30	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
 31	eleições	eleição	NOUN	NOUN	_	28	nmod	_	_
-32	em	_	ADP	ADP	_	33	case	_	_
+32	em	em	ADP	ADP	_	33	case	_	_
 33	municípios	município	NOUN	NOUN	_	26	nmod	_	_
 34-35	do	_	_	_	_	_	_	_	_
 34	de	de	ADP	ADP	_	36	case	_	_
@@ -83,22 +83,22 @@
 38	de	de	ADP	ADP	_	40	case	_	_
 39	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
 40	Norte	_	PROPN	PNOUN	_	36	nmod	_	SpaceAfter=No
-41	,	_	PUNCT	.	_	43	punct	_	_
-42	de	_	ADP	ADP	_	43	case	_	_
+41	,	,	PUNCT	.	_	43	punct	_	_
+42	de	de	ADP	ADP	_	43	case	_	_
 43	Alagoas	_	PROPN	PNOUN	_	36	conj	_	_
-44	e	_	CCONJ	CONJ	_	45	cc	_	_
+44	e	e	CCONJ	CONJ	_	45	cc	_	_
 45	Sergipe	_	PROPN	PNOUN	_	43	conj	_	SpaceAfter=No
-46	.	_	PUNCT	.	_	12	punct	_	_
+46	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = train-s3859
 # text = Em campo, o Náutico tomou a iniciativa da partida logo no início quando Rhayner, chutando de fora da área, obrigou o goleiro Fernando Pass a fazer uma boa defesa.
-1	Em	_	ADP	ADP	_	2	case	_	_
+1	Em	em	ADP	ADP	_	2	case	_	_
 2	campo	campo	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	2	punct	_	_
-4	o	_	DET	DET	_	5	det	_	_
+3	,	,	PUNCT	.	_	2	punct	_	_
+4	o	o	DET	DET	_	5	det	_	_
 5	Náutico	_	PROPN	PNOUN	_	6	nsubj	_	_
 6	tomou	tomar	VERB	VERB	_	0	root	_	_
-7	a	_	DET	DET	_	8	det	_	_
+7	a	a	DET	DET	_	8	det	_	_
 8	iniciativa	iniciativa	NOUN	NOUN	_	6	obj	_	_
 9-10	da	_	_	_	_	_	_	_	_
 9	de	de	ADP	ADP	_	11	case	_	_
@@ -111,7 +111,7 @@
 15	início	início	NOUN	NOUN	_	12	nmod	_	_
 16	quando	quando	ADV	ADV	_	26	advmod	_	_
 17	Rhayner	_	PROPN	PNOUN	_	26	nsubj	_	SpaceAfter=No
-18	,	_	PUNCT	.	_	19	punct	_	_
+18	,	,	PUNCT	.	_	19	punct	_	_
 19	chutando	chutar	VERB	VERB	_	17	acl:part	_	_
 20	de	_	ADP	ADP	_	21	mark	_	_
 21	fora	fora	ADV	ADV	_	19	nmod	_	_
@@ -119,26 +119,26 @@
 22	de	de	ADP	ADP	_	24	case	_	_
 23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	área	área	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
-25	,	_	PUNCT	.	_	19	punct	_	_
+25	,	,	PUNCT	.	_	19	punct	_	_
 26	obrigou	obrigar	VERB	VERB	_	15	acl:relcl	_	_
-27	o	_	DET	DET	_	28	det	_	_
+27	o	o	DET	DET	_	28	det	_	_
 28	goleiro	goleiro	NOUN	NOUN	_	26	obj	_	_
 29	Fernando	_	PROPN	PNOUN	_	28	appos	_	_
 30	Pass	_	PROPN	PNOUN	_	29	flat	_	_
 31	a	_	ADP	ADP	_	32	mark	_	_
 32	fazer	fazer	VERB	VERB	_	26	nmod	_	_
-33	uma	_	DET	DET	_	35	det	_	_
+33	uma	um	DET	DET	_	35	det	_	_
 34	boa	bom	ADJ	ADJ	_	35	amod	_	_
 35	defesa	_	NOUN	NOUN	_	32	obj	_	SpaceAfter=No
-36	.	_	PUNCT	.	_	6	punct	_	_
+36	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s3860
 # text = Segundo a UNFPA, o envelhecimento da população será mais perceptível em países emergentes.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	a	_	DET	DET	_	3	det	_	_
+2	a	a	DET	DET	_	3	det	_	_
 3	UNFPA	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
-5	o	_	DET	DET	_	6	det	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	o	o	DET	DET	_	6	det	_	_
 6	envelhecimento	envelhecimento	NOUN	NOUN	_	10	nsubj	_	_
 7-8	da	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
@@ -147,10 +147,10 @@
 10	será	ser	VERB	VERB	_	0	root	_	_
 11	mais	mais	ADV	ADV	_	12	advmod	_	_
 12	perceptível	perceptível	ADJ	ADJ	_	10	xcomp:adj	_	_
-13	em	_	ADP	ADP	_	14	case	_	_
+13	em	em	ADP	ADP	_	14	case	_	_
 14	países	país	NOUN	NOUN	_	10	nmod	_	_
 15	emergentes	emergente	ADJ	ADJ	_	14	amod	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	10	punct	_	_
+16	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s3861
 # text = Com relação ao roubo de provas, isso é um crime, não é um problema de gestão ou logística ", disse, referindo - se a episódio de 2009 em que provas do Enem foram roubadas na gráfica que imprimiu o exame.
@@ -160,34 +160,34 @@
 3	a	a	ADP	ADP	_	5	case	_	_
 4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	roubo	roubo	NOUN	NOUN	_	2	nmod	_	_
-6	de	_	ADP	ADP	_	7	case	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
 7	provas	prova	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	2	punct	_	_
+8	,	,	PUNCT	.	_	2	punct	_	_
 9	isso	_	PRON	PRON	_	12	nsubj	_	_
 10	é	ser	AUX	AUX	_	12	cop	_	_
-11	um	_	DET	DET	_	12	det	_	_
+11	um	um	DET	DET	_	12	det	_	_
 12	crime	crime	NOUN	NOUN	_	24	ccomp	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	17	punct	_	_
+13	,	,	PUNCT	.	_	17	punct	_	_
 14	não	não	ADV	ADV	Polarity=Neg	17	advmod	_	_
 15	é	ser	AUX	AUX	_	17	cop	_	_
-16	um	_	DET	DET	_	17	det	_	_
+16	um	um	DET	DET	_	17	det	_	_
 17	problema	problema	NOUN	NOUN	_	12	conj	_	_
-18	de	_	ADP	ADP	_	19	case	_	_
+18	de	de	ADP	ADP	_	19	case	_	_
 19	gestão	gestão	NOUN	NOUN	_	17	nmod	_	_
-20	ou	_	CCONJ	CONJ	_	21	cc	_	_
+20	ou	ou	CCONJ	CONJ	_	21	cc	_	_
 21	logística	_	NOUN	NOUN	_	19	conj	_	_
-22	"	_	PUNCT	.	_	12	punct	_	SpaceAfter=No
-23	,	_	PUNCT	.	_	24	punct	_	_
+22	"	"	PUNCT	.	_	12	punct	_	SpaceAfter=No
+23	,	,	PUNCT	.	_	24	punct	_	_
 24	disse	dizer	VERB	VERB	_	0	root	_	SpaceAfter=No
-25	,	_	PUNCT	.	_	26	punct	_	_
+25	,	,	PUNCT	.	_	26	punct	_	_
 26	referindo	referir	VERB	VERB	_	24	acl:part	_	_
-27	-	_	PUNCT	.	_	26	punct	_	_
+27	-	-	PUNCT	.	_	26	punct	_	_
 28	se	_	PRON	PRON	_	26	expl:pv	_	_
 29	a	_	ADP	ADP	_	30	case	_	_
 30	episódio	episódio	NOUN	NOUN	_	26	nmod	_	_
-31	de	_	ADP	ADP	_	32	case	_	_
+31	de	de	ADP	ADP	_	32	case	_	_
 32	2009	_	NUM	NUM	NumType=Card	30	nmod	_	_
-33	em	_	ADP	ADP	_	34	case	_	_
+33	em	em	ADP	ADP	_	34	case	_	_
 34	que	_	PRON	PRON	_	40	nmod	_	_
 35	provas	prova	NOUN	NOUN	_	40	nsubj:pass	_	_
 36-37	do	_	_	_	_	_	_	_	_
@@ -202,9 +202,9 @@
 43	gráfica	_	NOUN	NOUN	_	40	nmod	_	_
 44	que	_	PRON	PRON	_	45	nsubj	_	_
 45	imprimiu	imprimir	VERB	VERB	_	43	acl:relcl	_	_
-46	o	_	DET	DET	_	47	det	_	_
+46	o	o	DET	DET	_	47	det	_	_
 47	exame	exame	NOUN	NOUN	_	45	obj	_	SpaceAfter=No
-48	.	_	PUNCT	.	_	24	punct	_	_
+48	.	.	PUNCT	.	_	24	punct	_	_
 
 # sent_id = train-s3862
 # text = Abraão é acusado de participar do 'Caso dos Queimados' onde foram assassinados Hélio Araújo Silva e Einaldo Liberal Xaiver Júnior.
@@ -229,20 +229,20 @@
 17	Hélio	_	PROPN	PNOUN	_	16	nsubj:pass	_	_
 18	Araújo	_	PROPN	PNOUN	_	17	flat	_	_
 19	Silva	_	PROPN	PNOUN	_	17	flat	_	_
-20	e	_	CCONJ	CONJ	_	21	cc	_	_
+20	e	e	CCONJ	CONJ	_	21	cc	_	_
 21	Einaldo	_	PROPN	PNOUN	_	17	conj	_	_
 22	Liberal	_	PROPN	PNOUN	_	21	flat	_	_
 23	Xaiver	_	PROPN	PNOUN	_	21	flat	_	_
 24	Júnior	_	PROPN	PNOUN	_	21	flat	_	SpaceAfter=No
-25	.	_	PUNCT	.	_	3	punct	_	_
+25	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s3863
 # text = Somente em maio, o superávit primário do Governo Central foi R $ 1,558 bilhão.
 1	Somente	somente	ADV	ADV	_	13	advmod	_	_
-2	em	_	ADP	ADP	_	3	case	_	_
+2	em	em	ADP	ADP	_	3	case	_	_
 3	maio	_	PROPN	PNOUN	_	1	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	1	punct	_	_
-5	o	_	DET	DET	_	6	det	_	_
+4	,	,	PUNCT	.	_	1	punct	_	_
+5	o	o	DET	DET	_	6	det	_	_
 6	superávit	superávit	NOUN	NOUN	_	13	nsubj	_	_
 7	primário	primário	ADJ	ADJ	_	6	amod	_	_
 8-9	do	_	_	_	_	_	_	_	_
@@ -255,47 +255,47 @@
 14	$	_	SYM	SYM	_	13	flat	_	_
 15	1,558	_	NUM	NUM	NumType=Card	16	nummod	_	_
 16	bilhão	_	NUM	NUM	NumType=Card	13	nummod	_	SpaceAfter=No
-17	.	_	PUNCT	.	_	13	punct	_	_
+17	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = train-s3864
 # text = Uma opção técnica.
 1	Uma	_	DET	DET	_	2	det	_	_
 2	opção	opção	NOUN	NOUN	_	0	root	_	_
 3	técnica	técnico	ADJ	ADJ	_	2	amod	_	SpaceAfter=No
-4	.	_	PUNCT	.	_	2	punct	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s3865
 # text = É uma aula aberta, que não exige nenhuma experiência prévia, onde pulos, palmas, bate pé, coxa, peito, polirritmia e muitos risos são os elementos utilizados na criação duma sinfonia sonora em movimento.
 1	É	ser	AUX	AUX	_	3	cop	_	_
-2	uma	_	DET	DET	_	3	det	_	_
+2	uma	um	DET	DET	_	3	det	_	_
 3	aula	aula	NOUN	NOUN	_	0	root	_	_
 4	aberta	aberto	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	8	punct	_	_
+5	,	,	PUNCT	.	_	8	punct	_	_
 6	que	_	PRON	PRON	_	8	nsubj	_	_
 7	não	não	ADV	ADV	Polarity=Neg	8	advmod	_	_
 8	exige	exigir	VERB	VERB	_	3	acl:relcl	_	_
 9	nenhuma	_	DET	DET	_	10	det	_	_
 10	experiência	experiência	NOUN	NOUN	_	8	obj	_	_
 11	prévia	prévio	ADJ	ADJ	_	10	amod	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	14	punct	_	_
+12	,	,	PUNCT	.	_	14	punct	_	_
 13	onde	onde	ADV	ADV	_	31	advmod	_	_
 14	pulos	pulo	NOUN	NOUN	_	31	nsubj	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	16	punct	_	_
+15	,	,	PUNCT	.	_	16	punct	_	_
 16	palmas	_	NOUN	NOUN	_	14	conj	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	18	punct	_	_
+17	,	,	PUNCT	.	_	18	punct	_	_
 18	bate	bate	NOUN	NOUN	_	14	conj	_	_
 19	pé	pé	NOUN	NOUN	_	18	flat	_	SpaceAfter=No
-20	,	_	PUNCT	.	_	21	punct	_	_
+20	,	,	PUNCT	.	_	21	punct	_	_
 21	coxa	_	NOUN	NOUN	_	14	conj	_	SpaceAfter=No
-22	,	_	PUNCT	.	_	23	punct	_	_
+22	,	,	PUNCT	.	_	23	punct	_	_
 23	peito	peito	NOUN	NOUN	_	14	conj	_	SpaceAfter=No
-24	,	_	PUNCT	.	_	25	punct	_	_
+24	,	,	PUNCT	.	_	25	punct	_	_
 25	polirritmia	polirritmia	NOUN	NOUN	_	14	conj	_	_
-26	e	_	CCONJ	CONJ	_	28	cc	_	_
+26	e	e	CCONJ	CONJ	_	28	cc	_	_
 27	muitos	_	DET	DET	_	28	det	_	_
 28	risos	riso	NOUN	NOUN	_	14	conj	_	_
 29	são	ser	AUX	AUX	_	31	cop	_	_
-30	os	_	DET	DET	_	31	det	_	_
+30	os	o	DET	DET	_	31	det	_	_
 31	elementos	elemento	NOUN	NOUN	_	3	acl:relcl	_	_
 32	utilizados	utilizar	VERB	VERB	_	31	acl:part	_	_
 33-34	na	_	_	_	_	_	_	_	_
@@ -303,13 +303,13 @@
 34	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	criação	criação	NOUN	NOUN	_	32	nmod	_	_
 36-37	duma	_	_	_	_	_	_	_	_
-36	de	_	ADP	ADP	_	38	case	_	_
-37	uma	_	DET	DET	_	38	det	_	_
+36	de	de	ADP	ADP	_	38	case	_	_
+37	uma	um	DET	DET	_	38	det	_	_
 38	sinfonia	sinfonia	NOUN	NOUN	_	35	nmod	_	_
 39	sonora	sonoro	ADJ	ADJ	_	38	amod	_	_
-40	em	_	ADP	ADP	_	41	case	_	_
+40	em	em	ADP	ADP	_	41	case	_	_
 41	movimento	movimento	NOUN	NOUN	_	38	nmod	_	SpaceAfter=No
-42	.	_	PUNCT	.	_	3	punct	_	_
+42	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s3866
 # text = Marllos Rossano Ribeiro Gonçalves de Sampaio (Teresina, 28 de dezembro de 1974) é um delegado de polícia e político brasileiro que exerce o mandato de deputado federal pelo Piauí.
@@ -317,35 +317,35 @@
 2	Rossano	_	PROPN	PNOUN	_	1	flat	_	_
 3	Ribeiro	_	PROPN	PNOUN	_	1	flat	_	_
 4	Gonçalves	_	PROPN	PNOUN	_	1	flat	_	_
-5	de	_	ADP	ADP	_	6	case	_	_
+5	de	de	ADP	ADP	_	6	case	_	_
 6	Sampaio	_	PROPN	PNOUN	_	1	nmod	_	_
-7	(	_	PUNCT	.	_	8	punct	_	SpaceAfter=No
+7	(	(	PUNCT	.	_	8	punct	_	SpaceAfter=No
 8	Teresina	_	PROPN	PNOUN	_	1	appos	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	10	punct	_	_
+9	,	,	PUNCT	.	_	10	punct	_	_
 10	28	_	NUM	NUM	NumType=Card	8	nmod	_	_
-11	de	_	ADP	ADP	_	12	case	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
 12	dezembro	_	PROPN	PNOUN	_	10	nmod	_	_
-13	de	_	ADP	ADP	_	14	case	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
 14	1974	_	NUM	NUM	NumType=Card	12	nmod	_	SpaceAfter=No
-15	)	_	PUNCT	.	_	8	punct	_	_
+15	)	)	PUNCT	.	_	8	punct	_	_
 16	é	ser	AUX	AUX	_	18	cop	_	_
-17	um	_	DET	DET	_	18	det	_	_
+17	um	um	DET	DET	_	18	det	_	_
 18	delegado	delegado	NOUN	NOUN	_	0	root	_	_
-19	de	_	ADP	ADP	_	20	case	_	_
+19	de	de	ADP	ADP	_	20	case	_	_
 20	polícia	polícia	NOUN	NOUN	_	18	nmod	_	_
-21	e	_	CCONJ	CONJ	_	22	cc	_	_
+21	e	e	CCONJ	CONJ	_	22	cc	_	_
 22	político	político	NOUN	NOUN	_	18	conj	_	_
 23	brasileiro	brasileiro	ADJ	ADJ	_	18	amod	_	_
 24	que	_	PRON	PRON	_	25	nsubj	_	_
 25	exerce	exercer	VERB	VERB	_	18	acl:relcl	_	_
-26	o	_	DET	DET	_	27	det	_	_
+26	o	o	DET	DET	_	27	det	_	_
 27	mandato	mandato	NOUN	NOUN	_	25	obj	_	_
-28	de	_	ADP	ADP	_	29	case	_	_
+28	de	de	ADP	ADP	_	29	case	_	_
 29	deputado	deputado	NOUN	NOUN	_	27	nmod	_	_
 30	federal	federal	ADJ	ADJ	_	29	amod	_	_
 31-32	pelo	_	_	_	_	_	_	_	_
 31	por	por	ADP	ADP	_	33	case	_	_
 32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	Piauí	_	PROPN	PNOUN	_	29	nmod	_	SpaceAfter=No
-34	.	_	PUNCT	.	_	18	punct	_	_
+34	.	.	PUNCT	.	_	18	punct	_	_
 

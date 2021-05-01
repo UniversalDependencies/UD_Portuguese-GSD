@@ -1,8 +1,8 @@
 # sent_id = train-s2283
 # text = Em Aracaju a hipertensão 22,7 % da população.
-1	Em	_	ADP	ADP	_	2	case	_	_
+1	Em	em	ADP	ADP	_	2	case	_	_
 2	Aracaju	_	PROPN	PNOUN	_	4	nmod	_	_
-3	a	_	DET	DET	_	4	det	_	_
+3	a	a	DET	DET	_	4	det	_	_
 4	hipertensão	hipertensão	NOUN	NOUN	_	0	root	_	_
 5	22,7	_	NUM	NUM	NumType=Card	6	nummod	_	_
 6	%	_	SYM	SYM	_	4	dep	_	_
@@ -10,22 +10,22 @@
 7	de	de	ADP	ADP	_	9	case	_	_
 8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	população	população	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
-10	.	_	PUNCT	.	_	4	punct	_	_
+10	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s2284
 # text = Outra expectativa é o Projeto de Lei n º 117, de autoria do senador Vital do Rego (PMDB - PB), que prevê o licenciamento de obras de infraestrutura de telecomunicações como competência exclusiva da Anatel.
 1	Outra	_	DET	DET	_	2	det	_	_
 2	expectativa	expectativa	NOUN	NOUN	_	5	nsubj	_	_
 3	é	ser	AUX	AUX	_	5	cop	_	_
-4	o	_	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	_	5	det	_	_
 5	Projeto	_	PROPN	PNOUN	_	0	root	_	_
-6	de	_	ADP	ADP	_	7	case	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
 7	Lei	_	PROPN	PNOUN	_	5	nmod	_	_
 8	n	n	NOUN	NOUN	_	5	appos	_	_
 9	º	_	PUNCT	.	_	8	punct	_	_
 10	117	_	NUM	NUM	NumType=Card	8	appos	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	13	punct	_	_
-12	de	_	ADP	ADP	_	13	case	_	_
+11	,	,	PUNCT	.	_	13	punct	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
 13	autoria	autoria	NOUN	NOUN	_	5	nmod	_	_
 14-15	do	_	_	_	_	_	_	_	_
 14	de	de	ADP	ADP	_	16	case	_	_
@@ -36,45 +36,45 @@
 18	de	de	ADP	ADP	_	20	case	_	_
 19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	Rego	_	PROPN	PNOUN	_	17	nmod	_	_
-21	(	_	PUNCT	.	_	22	punct	_	SpaceAfter=No
+21	(	(	PUNCT	.	_	22	punct	_	SpaceAfter=No
 22	PMDB	_	PROPN	PNOUN	_	16	appos	_	_
-23	-	_	PUNCT	.	_	22	punct	_	_
+23	-	-	PUNCT	.	_	22	punct	_	_
 24	PB	_	PROPN	PNOUN	_	22	flat	_	SpaceAfter=No
-25	)	_	PUNCT	.	_	22	punct	_	SpaceAfter=No
-26	,	_	PUNCT	.	_	28	punct	_	_
+25	)	)	PUNCT	.	_	22	punct	_	SpaceAfter=No
+26	,	,	PUNCT	.	_	28	punct	_	_
 27	que	_	PRON	PRON	_	28	nsubj	_	_
 28	prevê	prever	VERB	VERB	_	5	acl:relcl	_	_
-29	o	_	DET	DET	_	30	det	_	_
+29	o	o	DET	DET	_	30	det	_	_
 30	licenciamento	licenciamento	NOUN	NOUN	_	28	obj	_	_
-31	de	_	ADP	ADP	_	32	case	_	_
+31	de	de	ADP	ADP	_	32	case	_	_
 32	obras	obra	NOUN	NOUN	_	30	nmod	_	_
-33	de	_	ADP	ADP	_	34	case	_	_
+33	de	de	ADP	ADP	_	34	case	_	_
 34	infraestrutura	infraestrutura	NOUN	NOUN	_	32	nmod	_	_
-35	de	_	ADP	ADP	_	36	case	_	_
+35	de	de	ADP	ADP	_	36	case	_	_
 36	telecomunicações	telecomunicação	NOUN	NOUN	_	34	nmod	_	_
-37	como	_	ADP	ADP	_	38	case	_	_
+37	como	como	ADP	ADP	_	38	case	_	_
 38	competência	competência	NOUN	NOUN	_	28	nmod	_	_
 39	exclusiva	exclusivo	ADJ	ADJ	_	38	amod	_	_
 40-41	da	_	_	_	_	_	_	_	_
 40	de	de	ADP	ADP	_	42	case	_	_
 41	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
 42	Anatel	_	PROPN	PNOUN	_	38	nmod	_	SpaceAfter=No
-43	.	_	PUNCT	.	_	5	punct	_	_
+43	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s2285
 # text = Hollerbach foi condenado por formação de quadrilha ...
 1	Hollerbach	_	PROPN	PNOUN	_	3	nsubj:pass	_	_
 2	foi	_	AUX	AUX	_	3	aux:pass	_	_
 3	condenado	condenar	VERB	VERB	_	0	root	_	_
-4	por	_	ADP	ADP	_	5	case	_	_
+4	por	por	ADP	ADP	_	5	case	_	_
 5	formação	formação	NOUN	NOUN	_	3	nmod	_	_
-6	de	_	ADP	ADP	_	7	case	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
 7	quadrilha	quadrilha	NOUN	NOUN	_	5	nmod	_	_
 8	...	_	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s2286
 # text = O PSDB e o PSD saíram das urnas com o mesmo número de municípios sob controle até 2016.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	PSDB	_	PROPN	PNOUN	_	6	nsubj	_	_
 3	e	e	CCONJ	CONJ	_	5	cc	_	_
 4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -84,23 +84,23 @@
 7	de	de	ADP	ADP	_	9	case	_	_
 8	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
 9	urnas	urna	NOUN	NOUN	_	6	nmod	_	_
-10	com	_	ADP	ADP	_	13	case	_	_
-11	o	_	DET	DET	_	13	det	_	_
+10	com	com	ADP	ADP	_	13	case	_	_
+11	o	o	DET	DET	_	13	det	_	_
 12	mesmo	mesmo	ADJ	ADJ	_	13	amod	_	_
 13	número	número	NOUN	NOUN	_	6	nmod	_	_
-14	de	_	ADP	ADP	_	15	case	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
 15	municípios	município	NOUN	NOUN	_	13	nmod	_	_
 16	sob	_	ADP	ADP	_	17	case	_	_
 17	controle	_	NOUN	NOUN	_	15	nmod	_	_
 18	até	_	ADP	ADP	_	19	case	_	_
 19	2016	_	NUM	NUM	NumType=Card	17	nmod	_	SpaceAfter=No
-20	.	_	PUNCT	.	_	6	punct	_	_
+20	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s2287
 # text = A decisão, que afetava milionários interesses da multinacional estadunidense, havia sido comunicada pelo Serviço Nacional de Qualidade e Saúde Vegetal e de Sementes (Senave), uma vez que a liberação não tinha o parecer do Ministério da Saúde e da Secretaria do Meio Ambiente.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	decisão	decisão	NOUN	NOUN	_	15	nsubj:pass	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	5	punct	_	_
+3	,	,	PUNCT	.	_	5	punct	_	_
 4	que	_	PRON	PRON	_	5	nsubj	_	_
 5	afetava	afetar	VERB	VERB	_	2	acl:relcl	_	_
 6	milionários	milionário	ADJ	ADJ	_	7	amod	_	_
@@ -110,7 +110,7 @@
 9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	multinacional	multinacional	NOUN	NOUN	_	7	nmod	_	_
 11	estadunidense	estadunidense	ADJ	ADJ	_	10	amod	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	5	punct	_	_
+12	,	,	PUNCT	.	_	5	punct	_	_
 13	havia	haver	AUX	AUX	_	15	aux	_	_
 14	sido	ser	AUX	AUX	_	15	aux:pass	_	_
 15	comunicada	comunicar	VERB	VERB	_	0	root	_	_
@@ -119,26 +119,26 @@
 17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	Serviço	_	PROPN	PNOUN	_	15	nmod	_	_
 19	Nacional	_	PROPN	PNOUN	_	18	amod	_	_
-20	de	_	ADP	ADP	_	21	case	_	_
+20	de	de	ADP	ADP	_	21	case	_	_
 21	Qualidade	_	PROPN	PNOUN	_	18	nmod	_	_
-22	e	_	CCONJ	CONJ	_	23	cc	_	_
+22	e	e	CCONJ	CONJ	_	23	cc	_	_
 23	Saúde	_	PROPN	PNOUN	_	21	conj	_	_
 24	Vegetal	_	PROPN	PNOUN	_	23	amod	_	_
-25	e	_	CCONJ	CONJ	_	27	cc	_	_
-26	de	_	ADP	ADP	_	27	case	_	_
+25	e	e	CCONJ	CONJ	_	27	cc	_	_
+26	de	de	ADP	ADP	_	27	case	_	_
 27	Sementes	_	PROPN	PNOUN	_	24	conj	_	_
-28	(	_	PUNCT	.	_	29	punct	_	SpaceAfter=No
+28	(	(	PUNCT	.	_	29	punct	_	SpaceAfter=No
 29	Senave	_	PROPN	PNOUN	_	18	appos	_	SpaceAfter=No
-30	)	_	PUNCT	.	_	29	punct	_	SpaceAfter=No
-31	,	_	PUNCT	.	_	38	punct	_	_
+30	)	)	PUNCT	.	_	29	punct	_	SpaceAfter=No
+31	,	,	PUNCT	.	_	38	punct	_	_
 32	uma	_	DET	DET	_	38	mark	_	_
 33	vez	vez	NOUN	NOUN	_	32	fixed	_	_
 34	que	_	CCONJ	CONJ	_	32	fixed	_	_
-35	a	_	DET	DET	_	36	det	_	_
+35	a	a	DET	DET	_	36	det	_	_
 36	liberação	liberação	NOUN	NOUN	_	38	nsubj	_	_
 37	não	não	ADV	ADV	Polarity=Neg	38	advmod	_	_
 38	tinha	ter	VERB	VERB	_	15	advcl	_	_
-39	o	_	DET	DET	_	40	det	_	_
+39	o	o	DET	DET	_	40	det	_	_
 40	parecer	parecer	NOUN	NOUN	_	38	obj	_	_
 41-42	do	_	_	_	_	_	_	_	_
 41	de	de	ADP	ADP	_	43	case	_	_
@@ -148,7 +148,7 @@
 44	de	de	ADP	ADP	_	46	case	_	_
 45	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
 46	Saúde	_	PROPN	PNOUN	_	43	nmod	_	_
-47	e	_	CCONJ	CONJ	_	50	cc	_	_
+47	e	e	CCONJ	CONJ	_	50	cc	_	_
 48-49	da	_	_	_	_	_	_	_	_
 48	de	de	ADP	ADP	_	50	case	_	_
 49	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
@@ -158,102 +158,102 @@
 52	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
 53	Meio	_	PROPN	PNOUN	_	50	nmod	_	_
 54	Ambiente	_	PROPN	PNOUN	_	53	flat	_	SpaceAfter=No
-55	.	_	PUNCT	.	_	15	punct	_	_
+55	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = train-s2288
 # text = Nesta imagem vemos o seu Zico, tendo ao seu lado o filho Mito, a nora Soledad e a netinha Marina.
 1	Nesta	_	ADP	ADP	_	2	case	_	_
 2	imagem	imagem	NOUN	NOUN	_	3	nmod	_	_
 3	vemos	ver	VERB	VERB	_	0	root	_	_
-4	o	_	DET	DET	_	6	det	_	_
+4	o	o	DET	DET	_	6	det	_	_
 5	seu	_	DET	DET	_	6	det:poss	_	_
 6	Zico	_	PROPN	PNOUN	_	3	obj	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	8	punct	_	_
+7	,	,	PUNCT	.	_	8	punct	_	_
 8	tendo	_	VERB	VERB	_	6	acl:part	_	_
 9-10	ao	_	_	_	_	_	_	_	_
 9	a	a	ADP	ADP	_	12	case	_	_
 10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 11	seu	_	DET	DET	_	12	det:poss	_	_
 12	lado	_	VERB	VERB	_	8	nmod	_	_
-13	o	_	DET	DET	_	14	det	_	_
+13	o	o	DET	DET	_	14	det	_	_
 14	filho	filho	NOUN	NOUN	_	8	obj	_	_
 15	Mito	_	PROPN	PNOUN	_	14	appos	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	18	punct	_	_
-17	a	_	DET	DET	_	18	det	_	_
+16	,	,	PUNCT	.	_	18	punct	_	_
+17	a	a	DET	DET	_	18	det	_	_
 18	nora	nora	NOUN	NOUN	_	14	conj	_	_
 19	Soledad	_	PROPN	PNOUN	_	18	appos	_	_
 20	e	e	CCONJ	CONJ	_	22	cc	_	_
 21	a	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	netinha	_	NOUN	NOUN	_	14	conj	_	_
 23	Marina	_	PROPN	PNOUN	_	22	appos	_	SpaceAfter=No
-24	.	_	PUNCT	.	_	3	punct	_	_
+24	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s2289
 # text = O prefeito reeleito de Cansanção, Ranulfo Gomes (PSD), contratou por diversos meios de licitação a empresa GS Informática -- de nome empresarial GS de Oliveira ME -- para prestar uma série de serviços à administração municipal, desde o fornecimento de material de expediente ou didático até aparelhos de ar condicionado, ou mesmo suprimentos de informática.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	prefeito	prefeito	NOUN	NOUN	_	13	nsubj	_	_
 3	reeleito	reeleito	ADJ	ADJ	_	2	amod	_	_
-4	de	_	ADP	ADP	_	5	case	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
 5	Cansanção	_	PROPN	PNOUN	_	2	nmod	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	7	punct	_	_
+6	,	,	PUNCT	.	_	7	punct	_	_
 7	Ranulfo	_	PROPN	PNOUN	_	2	appos	_	_
 8	Gomes	_	PROPN	PNOUN	_	7	flat	_	_
-9	(	_	PUNCT	.	_	10	punct	_	SpaceAfter=No
+9	(	(	PUNCT	.	_	10	punct	_	SpaceAfter=No
 10	PSD	_	PROPN	PNOUN	_	7	appos	_	SpaceAfter=No
-11	)	_	PUNCT	.	_	10	punct	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	7	punct	_	_
+11	)	)	PUNCT	.	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	.	_	7	punct	_	_
 13	contratou	contratar	VERB	VERB	_	0	root	_	_
-14	por	_	ADP	ADP	_	16	case	_	_
+14	por	por	ADP	ADP	_	16	case	_	_
 15	diversos	_	DET	DET	_	16	det	_	_
 16	meios	_	NOUN	NOUN	_	13	nmod	_	_
-17	de	_	ADP	ADP	_	18	case	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
 18	licitação	licitação	NOUN	NOUN	_	16	nmod	_	_
-19	a	_	DET	DET	_	20	det	_	_
+19	a	a	DET	DET	_	20	det	_	_
 20	empresa	empresa	NOUN	NOUN	_	13	obj	_	_
 21	GS	_	PROPN	PNOUN	_	20	appos	_	_
 22	Informática	_	PROPN	PNOUN	_	21	flat	_	_
 23	--	_	PUNCT	.	_	25	punct	_	_
-24	de	_	ADP	ADP	_	25	case	_	_
+24	de	de	ADP	ADP	_	25	case	_	_
 25	nome	nome	NOUN	NOUN	_	20	nmod	_	_
 26	empresarial	empresarial	ADJ	ADJ	_	25	amod	_	_
 27	GS	_	PROPN	PNOUN	_	25	appos	_	_
-28	de	_	ADP	ADP	_	29	case	_	_
+28	de	de	ADP	ADP	_	29	case	_	_
 29	Oliveira	_	PROPN	PNOUN	_	27	nmod	_	_
 30	ME	_	PROPN	PNOUN	_	29	flat	_	_
 31	--	_	PUNCT	.	_	25	punct	_	_
 32	para	_	ADP	ADP	_	33	mark	_	_
 33	prestar	prestar	VERB	VERB	_	13	advcl	_	_
-34	uma	_	DET	DET	_	35	det	_	_
+34	uma	um	DET	DET	_	35	det	_	_
 35	série	série	NOUN	NOUN	_	33	obj	_	_
-36	de	_	ADP	ADP	_	37	case	_	_
+36	de	de	ADP	ADP	_	37	case	_	_
 37	serviços	serviço	NOUN	NOUN	_	35	nmod	_	_
 38-39	à	_	_	_	_	_	_	_	_
 38	a	a	ADP	ADP	_	40	case	_	_
 39	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
 40	administração	administração	NOUN	NOUN	_	33	iobj	_	_
 41	municipal	municipal	ADJ	ADJ	_	40	amod	_	SpaceAfter=No
-42	,	_	PUNCT	.	_	45	punct	_	_
+42	,	,	PUNCT	.	_	45	punct	_	_
 43	desde	_	ADP	ADP	_	45	case	_	_
-44	o	_	DET	DET	_	45	det	_	_
+44	o	o	DET	DET	_	45	det	_	_
 45	fornecimento	fornecimento	NOUN	NOUN	_	33	nmod	_	_
-46	de	_	ADP	ADP	_	47	case	_	_
+46	de	de	ADP	ADP	_	47	case	_	_
 47	material	material	NOUN	NOUN	_	45	nmod	_	_
-48	de	_	ADP	ADP	_	49	case	_	_
+48	de	de	ADP	ADP	_	49	case	_	_
 49	expediente	expediente	NOUN	NOUN	_	47	nmod	_	_
-50	ou	_	CCONJ	CONJ	_	51	cc	_	_
+50	ou	ou	CCONJ	CONJ	_	51	cc	_	_
 51	didático	didático	ADJ	ADJ	_	49	conj	_	_
 52	até	_	ADP	ADP	_	53	case	_	_
 53	aparelhos	aparelho	NOUN	NOUN	_	33	nmod	_	_
-54	de	_	ADP	ADP	_	55	case	_	_
+54	de	de	ADP	ADP	_	55	case	_	_
 55	ar	ar	NOUN	NOUN	_	53	nmod	_	_
 56	condicionado	condicionado	ADJ	ADJ	_	55	amod	_	SpaceAfter=No
-57	,	_	PUNCT	.	_	60	punct	_	_
-58	ou	_	CCONJ	CONJ	_	60	cc	_	_
+57	,	,	PUNCT	.	_	60	punct	_	_
+58	ou	ou	CCONJ	CONJ	_	60	cc	_	_
 59	mesmo	mesmo	ADV	ADV	_	60	advmod	_	_
 60	suprimentos	suprimento	NOUN	NOUN	_	53	conj	_	_
-61	de	_	ADP	ADP	_	62	case	_	_
+61	de	de	ADP	ADP	_	62	case	_	_
 62	informática	_	NOUN	NOUN	_	60	nmod	_	SpaceAfter=No
-63	.	_	PUNCT	.	_	13	punct	_	_
+63	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = train-s2290
 # text = Eu só vou sossegar quando essa mulher estiver longe de todos ", promete a chef de cozinha.
@@ -266,57 +266,57 @@
 7	mulher	mulher	NOUN	NOUN	_	8	nsubj	_	_
 8	estiver	estar	VERB	VERB	_	4	advcl	_	_
 9	longe	longe	ADV	ADV	_	8	advmod	_	_
-10	de	_	ADP	ADP	_	11	case	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
 11	todos	_	PRON	PRON	_	9	nmod	_	_
-12	"	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	14	punct	_	_
+12	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
+13	,	,	PUNCT	.	_	14	punct	_	_
 14	promete	prometer	VERB	VERB	_	0	root	_	_
-15	a	_	DET	DET	_	16	det	_	_
+15	a	a	DET	DET	_	16	det	_	_
 16	chef	_	NOUN	NOUN	_	14	nsubj	_	_
-17	de	_	ADP	ADP	_	18	case	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
 18	cozinha	cozinha	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	14	punct	_	_
+19	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = train-s2291
 # text = Os médicos não podem mais indicar e divulgar que os pacientes utilizem pílulas, hormônios ou qualquer outra substância que prevena ou até reverta o envelhecimento.
-1	Os	_	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	_	2	det	_	_
 2	médicos	médico	NOUN	NOUN	_	6	nsubj	_	_
 3	não	não	ADV	ADV	Polarity=Neg	6	advmod	_	_
 4	podem	_	AUX	AUX	_	6	aux	_	_
 5	mais	mais	ADV	ADV	_	6	advmod	_	_
 6	indicar	indicar	VERB	VERB	_	0	root	_	_
-7	e	_	CCONJ	CONJ	_	8	cc	_	_
+7	e	e	CCONJ	CONJ	_	8	cc	_	_
 8	divulgar	divulgar	VERB	VERB	_	6	conj	_	_
-9	que	_	CCONJ	CONJ	_	12	mark	_	_
-10	os	_	DET	DET	_	11	det	_	_
+9	que	que	CCONJ	CONJ	_	12	mark	_	_
+10	os	o	DET	DET	_	11	det	_	_
 11	pacientes	paciente	NOUN	NOUN	_	12	nsubj	_	_
 12	utilizem	utilizar	VERB	VERB	_	6	ccomp	_	_
 13	pílulas	pílula	NOUN	NOUN	_	12	obj	_	SpaceAfter=No
-14	,	_	PUNCT	.	_	15	punct	_	_
+14	,	,	PUNCT	.	_	15	punct	_	_
 15	hormônios	hormônio	NOUN	NOUN	_	13	conj	_	_
-16	ou	_	CCONJ	CONJ	_	19	cc	_	_
+16	ou	ou	CCONJ	CONJ	_	19	cc	_	_
 17	qualquer	_	DET	DET	_	19	det	_	_
 18	outra	_	DET	DET	_	19	det	_	_
 19	substância	substância	NOUN	NOUN	_	13	conj	_	_
 20	que	_	PRON	PRON	_	21	nsubj	_	_
 21	prevena	_	VERB	VERB	_	19	acl:relcl	_	_
-22	ou	_	CCONJ	CONJ	_	24	cc	_	_
+22	ou	ou	CCONJ	CONJ	_	24	cc	_	_
 23	até	até	ADV	ADV	_	24	advmod	_	_
 24	reverta	reverter	VERB	VERB	_	21	conj	_	_
-25	o	_	DET	DET	_	26	det	_	_
+25	o	o	DET	DET	_	26	det	_	_
 26	envelhecimento	envelhecimento	NOUN	NOUN	_	21	obj	_	SpaceAfter=No
-27	.	_	PUNCT	.	_	6	punct	_	_
+27	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s2292
 # text = Final de jogo, vitória da Raposa.
 1	Final	final	NOUN	NOUN	_	0	root	_	_
-2	de	_	ADP	ADP	_	3	case	_	_
+2	de	de	ADP	ADP	_	3	case	_	_
 3	jogo	jogo	NOUN	NOUN	_	1	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	5	punct	_	_
+4	,	,	PUNCT	.	_	5	punct	_	_
 5	vitória	vitória	NOUN	NOUN	_	1	conj	_	_
 6-7	da	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	8	case	_	_
 7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Raposa	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
-9	.	_	PUNCT	.	_	1	punct	_	_
+9	.	.	PUNCT	.	_	1	punct	_	_
 

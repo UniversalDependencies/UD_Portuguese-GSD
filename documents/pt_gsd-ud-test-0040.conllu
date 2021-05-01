@@ -1,7 +1,7 @@
 # sent_id = test-s387
 # text = E o atacante Rafael Sobis não discorda do seu comandante.
 1	E	_	CCONJ	CONJ	_	7	cc	_	_
-2	o	_	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	_	3	det	_	_
 3	atacante	atacante	NOUN	NOUN	_	7	nsubj	_	_
 4	Rafael	_	PROPN	PNOUN	_	3	appos	_	_
 5	Sobis	_	PROPN	PNOUN	_	4	flat	_	_
@@ -12,49 +12,49 @@
 9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 10	seu	_	DET	DET	_	11	det:poss	_	_
 11	comandante	comandante	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-12	.	_	PUNCT	.	_	7	punct	_	_
+12	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = test-s388
 # text = Simples, segundo a lógica do meu amigo, que eu concordo.
 1	Simples	simples	ADJ	ADJ	_	0	root	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	5	punct	_	_
+2	,	,	PUNCT	.	_	5	punct	_	_
 3	segundo	_	ADP	ADP	_	5	case	_	_
-4	a	_	DET	DET	_	5	det	_	_
+4	a	a	DET	DET	_	5	det	_	_
 5	lógica	_	NOUN	NOUN	_	1	nmod	_	_
 6-7	do	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	9	case	_	_
 7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 8	meu	_	DET	DET	_	9	det:poss	_	_
 9	amigo	amigo	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	13	punct	_	_
+10	,	,	PUNCT	.	_	13	punct	_	_
 11	que	_	PRON	PRON	_	13	obj	_	_
 12	eu	_	PRON	PRON	_	13	nsubj	_	_
 13	concordo	concordar	VERB	VERB	_	5	acl:relcl	_	SpaceAfter=No
-14	.	_	PUNCT	.	_	1	punct	_	_
+14	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = test-s389
 # text = "É preciso ter um padrão mínimo de qualidade e as instituições que não evoluíram para o nível mínimo satisfatório, não podem simplesmente continuar abrindo vagas como se nada tivesse acontecido".
-1	"	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
 2	É	ser	VERB	VERB	_	0	root	_	_
 3	preciso	preciso	ADJ	ADJ	_	2	xcomp:adj	_	_
 4	ter	ter	VERB	VERB	_	2	csubj	_	_
-5	um	_	DET	DET	_	6	det	_	_
+5	um	um	DET	DET	_	6	det	_	_
 6	padrão	padrão	NOUN	NOUN	_	4	obj	_	_
 7	mínimo	mínimo	ADJ	ADJ	_	6	amod	_	_
-8	de	_	ADP	ADP	_	9	case	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
 9	qualidade	qualidade	NOUN	NOUN	_	6	nmod	_	_
-10	e	_	CCONJ	CONJ	_	26	cc	_	_
-11	as	_	DET	DET	_	12	det	_	_
+10	e	e	CCONJ	CONJ	_	26	cc	_	_
+11	as	o	DET	DET	_	12	det	_	_
 12	instituições	instituição	NOUN	NOUN	_	26	nsubj	_	_
 13	que	_	PRON	PRON	_	15	nsubj	_	_
 14	não	não	ADV	ADV	Polarity=Neg	15	advmod	_	_
 15	evoluíram	evoluir	VERB	VERB	_	12	acl:relcl	_	_
-16	para	_	ADP	ADP	_	18	case	_	_
-17	o	_	DET	DET	_	18	det	_	_
+16	para	para	ADP	ADP	_	18	case	_	_
+17	o	o	DET	DET	_	18	det	_	_
 18	nível	nível	NOUN	NOUN	_	15	nmod	_	_
 19	mínimo	mínimo	ADJ	ADJ	_	18	amod	_	_
 20	satisfatório	satisfatório	ADJ	ADJ	_	18	amod	_	SpaceAfter=No
-21	,	_	PUNCT	.	_	26	punct	_	_
+21	,	,	PUNCT	.	_	26	punct	_	_
 22	não	não	ADV	ADV	Polarity=Neg	26	advmod	_	_
 23	podem	_	AUX	AUX	_	26	aux	_	_
 24	simplesmente	simplesmente	ADV	ADV	_	26	advmod	_	_
@@ -66,67 +66,67 @@
 30	nada	_	PRON	PRON	_	32	nsubj	_	_
 31	tivesse	ter	AUX	AUX	_	32	aux	_	_
 32	acontecido	acontecer	VERB	VERB	_	26	advcl	_	SpaceAfter=No
-33	"	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
-34	.	_	PUNCT	.	_	2	punct	_	_
+33	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = test-s390
 # text = "Não vislumbramos nenhum instrumento que socorra a Petrobras senão o aumento."
-1	"	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
 2	Não	não	ADV	ADV	Polarity=Neg	3	advmod	_	_
 3	vislumbramos	vislumbrar	VERB	VERB	_	0	root	_	_
 4	nenhum	_	DET	DET	_	5	det	_	_
 5	instrumento	instrumento	NOUN	NOUN	_	3	obj	_	_
 6	que	_	PRON	PRON	_	7	nsubj	_	_
 7	socorra	socorrer	VERB	VERB	_	5	acl:relcl	_	_
-8	a	_	DET	DET	_	9	det	_	_
+8	a	a	DET	DET	_	9	det	_	_
 9	Petrobras	_	PROPN	PNOUN	_	7	obj	_	_
 10	senão	_	ADP	ADP	_	12	case	_	_
-11	o	_	DET	DET	_	12	det	_	_
+11	o	o	DET	DET	_	12	det	_	_
 12	aumento	aumento	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
-13	.	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
-14	"	_	PUNCT	.	_	3	punct	_	_
+13	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+14	"	"	PUNCT	.	_	3	punct	_	_
 
 # sent_id = test-s391
 # text = Trabalhamos de acordo com as necessidades de nossas clientes.
 1	Trabalhamos	trabalhar	VERB	VERB	_	0	root	_	_
-2	de	_	ADP	ADP	_	3	case	_	_
+2	de	de	ADP	ADP	_	3	case	_	_
 3	acordo	acordo	NOUN	NOUN	_	1	nmod	_	_
-4	com	_	ADP	ADP	_	6	case	_	_
-5	as	_	DET	DET	_	6	det	_	_
+4	com	com	ADP	ADP	_	6	case	_	_
+5	as	o	DET	DET	_	6	det	_	_
 6	necessidades	necessidade	NOUN	NOUN	_	3	nmod	_	_
-7	de	_	ADP	ADP	_	9	case	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
 8	nossas	_	DET	DET	_	9	det:poss	_	_
 9	clientes	cliente	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
-10	.	_	PUNCT	.	_	1	punct	_	_
+10	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = test-s392
 # text = A família procurou por cirurgias corretivas, em busca duma possível reconstituição que nunca aconteceu.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	família	família	NOUN	NOUN	_	3	nsubj	_	_
 3	procurou	procurar	VERB	VERB	_	0	root	_	_
-4	por	_	ADP	ADP	_	5	case	_	_
+4	por	por	ADP	ADP	_	5	case	_	_
 5	cirurgias	cirurgia	NOUN	NOUN	_	3	nmod	_	_
 6	corretivas	corretivo	ADJ	ADJ	_	5	amod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	9	punct	_	_
-8	em	_	ADP	ADP	_	9	case	_	_
+7	,	,	PUNCT	.	_	9	punct	_	_
+8	em	em	ADP	ADP	_	9	case	_	_
 9	busca	busca	NOUN	NOUN	_	3	nmod	_	_
 10-11	duma	_	_	_	_	_	_	_	_
-10	de	_	ADP	ADP	_	13	case	_	_
-11	uma	_	DET	DET	_	13	det	_	_
+10	de	de	ADP	ADP	_	13	case	_	_
+11	uma	um	DET	DET	_	13	det	_	_
 12	possível	possível	ADJ	ADJ	_	13	amod	_	_
 13	reconstituição	reconstituição	NOUN	NOUN	_	9	nmod	_	_
 14	que	_	PRON	PRON	_	16	nsubj	_	_
 15	nunca	nunca	ADV	ADV	_	16	advmod	_	_
 16	aconteceu	acontecer	VERB	VERB	_	13	acl:relcl	_	SpaceAfter=No
-17	.	_	PUNCT	.	_	3	punct	_	_
+17	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = test-s393
 # text = Destas, 117 tem a situação reconhecida pelo Governo Federal, porém ainda há cidades que não se manisfestaram para decretar emergência.
 1	Destas	_	X	ADPPRON	_	3	nmod	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	1	punct	_	_
+2	,	,	PUNCT	.	_	1	punct	_	_
 3	117	_	NUM	NUM	NumType=Card	4	nsubj	_	_
 4	tem	ter	VERB	VERB	_	0	root	_	_
-5	a	_	DET	DET	_	6	det	_	_
+5	a	a	DET	DET	_	6	det	_	_
 6	situação	situação	NOUN	NOUN	_	4	obj	_	_
 7	reconhecida	reconhecer	VERB	VERB	_	4	acl:part	_	_
 8-9	pelo	_	_	_	_	_	_	_	_
@@ -134,7 +134,7 @@
 9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	Governo	_	PROPN	PNOUN	_	7	nmod	_	_
 11	Federal	_	PROPN	PNOUN	_	10	amod	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	15	punct	_	_
+12	,	,	PUNCT	.	_	15	punct	_	_
 13	porém	_	ADV	ADV	_	15	advmod	_	_
 14	ainda	ainda	ADV	ADV	_	15	advmod	_	_
 15	há	haver	VERB	VERB	_	4	conj	_	_
@@ -146,32 +146,32 @@
 21	para	_	ADP	ADP	_	22	mark	_	_
 22	decretar	decretar	VERB	VERB	_	20	advcl	_	_
 23	emergência	emergência	NOUN	NOUN	_	22	obj	_	SpaceAfter=No
-24	.	_	PUNCT	.	_	15	punct	_	_
+24	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = test-s394
 # text = A Presidência encomendou ainda que fossem colocados tapumes em toda a extensão da Esplanada, para que os protestos, que normalmente ocorrem na pista contrária ao desfile, não pudessem ser vistos ou ouvidos.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	Presidência	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	encomendou	encomendar	VERB	VERB	_	0	root	_	_
 4	ainda	ainda	ADV	ADV	_	3	advmod	_	_
-5	que	_	CCONJ	CONJ	_	7	mark	_	_
+5	que	que	CCONJ	CONJ	_	7	mark	_	_
 6	fossem	_	AUX	AUX	_	7	aux:pass	_	_
 7	colocados	colocar	VERB	VERB	_	3	ccomp	_	_
 8	tapumes	tapume	NOUN	NOUN	_	7	nsubj:pass	_	_
-9	em	_	ADP	ADP	_	12	case	_	_
+9	em	em	ADP	ADP	_	12	case	_	_
 10	toda	_	DET	DET	_	12	det	_	_
-11	a	_	DET	DET	_	12	det	_	_
+11	a	a	DET	DET	_	12	det	_	_
 12	extensão	extensão	NOUN	NOUN	_	7	nmod	_	_
 13-14	da	_	_	_	_	_	_	_	_
 13	de	de	ADP	ADP	_	15	case	_	_
 14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	Esplanada	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	36	punct	_	_
+16	,	,	PUNCT	.	_	36	punct	_	_
 17	para	_	ADP	ADP	_	36	mark	_	_
 18	que	_	CCONJ	CONJ	_	17	fixed	_	_
-19	os	_	DET	DET	_	20	det	_	_
+19	os	o	DET	DET	_	20	det	_	_
 20	protestos	protesto	NOUN	NOUN	_	36	nsubj:pass	_	SpaceAfter=No
-21	,	_	PUNCT	.	_	24	punct	_	_
+21	,	,	PUNCT	.	_	24	punct	_	_
 22	que	_	PRON	PRON	_	24	nsubj	_	_
 23	normalmente	normalmente	ADV	ADV	_	24	advmod	_	_
 24	ocorrem	ocorrer	VERB	VERB	_	20	acl:relcl	_	_
@@ -184,31 +184,31 @@
 29	a	a	ADP	ADP	_	31	case	_	_
 30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	desfile	desfile	NOUN	NOUN	_	28	nmod	_	SpaceAfter=No
-32	,	_	PUNCT	.	_	24	punct	_	_
+32	,	,	PUNCT	.	_	24	punct	_	_
 33	não	não	ADV	ADV	Polarity=Neg	36	advmod	_	_
 34	pudessem	poder	AUX	AUX	_	36	aux	_	_
 35	ser	ser	AUX	AUX	_	36	aux:pass	_	_
 36	vistos	ver	VERB	VERB	_	7	advcl	_	_
-37	ou	_	CCONJ	CONJ	_	38	cc	_	_
+37	ou	ou	CCONJ	CONJ	_	38	cc	_	_
 38	ouvidos	ouvir	VERB	VERB	_	36	conj	_	SpaceAfter=No
-39	.	_	PUNCT	.	_	3	punct	_	_
+39	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = test-s395
 # text = A ideia da Acer com o lançamento seria concorrer diretamente com o Google Nexus 7 e o Amazon Kindle Fire HD.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	ideia	ideia	NOUN	NOUN	_	0	root	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
 4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Acer	_	PROPN	PNOUN	_	2	nmod	_	_
-6	com	_	ADP	ADP	_	8	case	_	_
-7	o	_	DET	DET	_	8	det	_	_
+6	com	com	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	_	8	det	_	_
 8	lançamento	lançamento	NOUN	NOUN	_	2	nmod	_	_
 9	seria	_	AUX	AUX	_	2	cop	_	_
 10	concorrer	concorrer	VERB	VERB	_	2	csubj	_	_
 11	diretamente	diretamente	ADV	ADV	_	10	advmod	_	_
-12	com	_	ADP	ADP	_	14	case	_	_
-13	o	_	DET	DET	_	14	det	_	_
+12	com	com	ADP	ADP	_	14	case	_	_
+13	o	o	DET	DET	_	14	det	_	_
 14	Google	_	PROPN	PNOUN	_	10	nmod	_	_
 15	Nexus	_	PROPN	PNOUN	_	14	flat	_	_
 16	7	_	NUM	NUM	NumType=Card	14	appos	_	_
@@ -218,11 +218,11 @@
 20	Kindle	_	PROPN	PNOUN	_	19	flat	_	_
 21	Fire	_	PROPN	PNOUN	_	19	flat	_	_
 22	HD	_	PROPN	PNOUN	_	19	flat	_	SpaceAfter=No
-23	.	_	PUNCT	.	_	2	punct	_	_
+23	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = test-s396
 # text = As qualidades imbatíveis do PPO HyperChannel quanto à função, velocidade e precisão permitiram as amplas aplicações de uso e continuarão a provocar mais inovações.
-1	As	_	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	_	2	det	_	_
 2	qualidades	qualidade	NOUN	NOUN	_	16	nsubj	_	_
 3	imbatíveis	imbatível	ADJ	ADJ	_	2	amod	_	_
 4-5	do	_	_	_	_	_	_	_	_
@@ -235,21 +235,21 @@
 9	a	a	ADP	ADP	_	11	case	_	_
 10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	função	função	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	13	punct	_	_
+12	,	,	PUNCT	.	_	13	punct	_	_
 13	velocidade	velocidade	NOUN	NOUN	_	11	conj	_	_
-14	e	_	CCONJ	CONJ	_	15	cc	_	_
+14	e	e	CCONJ	CONJ	_	15	cc	_	_
 15	precisão	precisão	NOUN	NOUN	_	11	conj	_	_
 16	permitiram	permitir	VERB	VERB	_	0	root	_	_
-17	as	_	DET	DET	_	19	det	_	_
+17	as	o	DET	DET	_	19	det	_	_
 18	amplas	amplo	ADJ	ADJ	_	19	amod	_	_
 19	aplicações	aplicação	NOUN	NOUN	_	16	obj	_	_
-20	de	_	ADP	ADP	_	21	case	_	_
+20	de	de	ADP	ADP	_	21	case	_	_
 21	uso	uso	NOUN	NOUN	_	19	nmod	_	_
-22	e	_	CCONJ	CONJ	_	25	cc	_	_
+22	e	e	CCONJ	CONJ	_	25	cc	_	_
 23	continuarão	continuar	AUX	AUX	_	25	aux	_	_
 24	a	_	ADP	ADP	_	25	mark	_	_
 25	provocar	provocar	VERB	VERB	_	16	conj	_	_
 26	mais	_	DET	DET	_	27	det	_	_
 27	inovações	inovação	NOUN	NOUN	_	25	obj	_	SpaceAfter=No
-28	.	_	PUNCT	.	_	16	punct	_	_
+28	.	.	PUNCT	.	_	16	punct	_	_
 

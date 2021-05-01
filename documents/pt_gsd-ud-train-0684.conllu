@@ -1,6 +1,6 @@
 # sent_id = train-s6790
 # text = "Estamos gastando muito do nosso tempo desfazendo mitos sobre o transporte sugerido para Mali", explicou Fruno.
-1	"	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
 2	Estamos	estar	AUX	AUX	_	3	aux	_	_
 3	gastando	gastar	VERB	VERB	_	19	ccomp	_	_
 4	muito	_	PRON	PRON	_	3	obj	_	_
@@ -12,39 +12,39 @@
 9	desfazendo	desfazer	VERB	VERB	_	3	acl:part	_	_
 10	mitos	mito	NOUN	NOUN	_	9	obj	_	_
 11	sobre	_	ADP	ADP	_	13	case	_	_
-12	o	_	DET	DET	_	13	det	_	_
+12	o	o	DET	DET	_	13	det	_	_
 13	transporte	transporte	NOUN	NOUN	_	10	nmod	_	_
 14	sugerido	sugerir	VERB	VERB	_	13	acl:part	_	_
-15	para	_	ADP	ADP	_	16	case	_	_
+15	para	para	ADP	ADP	_	16	case	_	_
 16	Mali	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
-17	"	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
-18	,	_	PUNCT	.	_	19	punct	_	_
+17	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
+18	,	,	PUNCT	.	_	19	punct	_	_
 19	explicou	explicar	VERB	VERB	_	0	root	_	_
 20	Fruno	_	PROPN	PNOUN	_	19	nsubj	_	SpaceAfter=No
-21	.	_	PUNCT	.	_	19	punct	_	_
+21	.	.	PUNCT	.	_	19	punct	_	_
 
 # sent_id = train-s6791
 # text = 'Em São Luís, de acordo com a Secretaria Municipal de Trânsito e Transporte (SMTT), em 2011 aconteceram 5.339 acidentes deixando 1.067 vítimas, das quais 492 feridas gravemente e ainda, o que é mais triste, matou 66 pessoas.
 1	'	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
-2	Em	_	ADP	ADP	_	3	case	_	_
+2	Em	em	ADP	ADP	_	3	case	_	_
 3	São	_	PROPN	PNOUN	_	22	nmod	_	_
 4	Luís	_	PROPN	PNOUN	_	3	flat	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	3	punct	_	_
-6	de	_	ADP	ADP	_	7	case	_	_
+5	,	,	PUNCT	.	_	3	punct	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
 7	acordo	acordo	NOUN	NOUN	_	22	nmod	_	_
-8	com	_	ADP	ADP	_	10	case	_	_
-9	a	_	DET	DET	_	10	det	_	_
+8	com	com	ADP	ADP	_	10	case	_	_
+9	a	a	DET	DET	_	10	det	_	_
 10	Secretaria	_	PROPN	PNOUN	_	7	nmod	_	_
 11	Municipal	_	PROPN	PNOUN	_	10	amod	_	_
-12	de	_	ADP	ADP	_	13	case	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
 13	Trânsito	_	PROPN	PNOUN	_	10	nmod	_	_
-14	e	_	CCONJ	CONJ	_	15	cc	_	_
+14	e	e	CCONJ	CONJ	_	15	cc	_	_
 15	Transporte	_	PROPN	PNOUN	_	13	conj	_	_
-16	(	_	PUNCT	.	_	17	punct	_	SpaceAfter=No
+16	(	(	PUNCT	.	_	17	punct	_	SpaceAfter=No
 17	SMTT	_	PROPN	PNOUN	_	10	appos	_	SpaceAfter=No
-18	)	_	PUNCT	.	_	17	punct	_	SpaceAfter=No
-19	,	_	PUNCT	.	_	7	punct	_	_
-20	em	_	ADP	ADP	_	21	case	_	_
+18	)	)	PUNCT	.	_	17	punct	_	SpaceAfter=No
+19	,	,	PUNCT	.	_	7	punct	_	_
+20	em	em	ADP	ADP	_	21	case	_	_
 21	2011	_	NUM	NUM	NumType=Card	22	nmod	_	_
 22	aconteceram	acontecer	VERB	VERB	_	0	root	_	_
 23	5.339	_	NUM	NUM	NumType=Card	24	nummod	_	_
@@ -52,7 +52,7 @@
 25	deixando	deixar	VERB	VERB	_	24	acl:part	_	_
 26	1.067	_	NUM	NUM	NumType=Card	27	nummod	_	_
 27	vítimas	vítima	NOUN	NOUN	_	25	obj	_	SpaceAfter=No
-28	,	_	PUNCT	.	_	25	punct	_	_
+28	,	,	PUNCT	.	_	25	punct	_	_
 29-30	das	_	_	_	_	_	_	_	_
 29	de	de	ADP	ADP	_	31	case	_	_
 30	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
@@ -60,24 +60,24 @@
 32	492	_	NUM	NUM	NumType=Card	27	appos	_	_
 33	feridas	ferido	ADJ	ADJ	_	32	amod	_	_
 34	gravemente	gravemente	ADV	ADV	_	33	advmod	_	_
-35	e	_	CCONJ	CONJ	_	44	cc	_	_
+35	e	e	CCONJ	CONJ	_	44	cc	_	_
 36	ainda	ainda	ADV	ADV	_	44	advmod	_	SpaceAfter=No
-37	,	_	PUNCT	.	_	42	punct	_	_
-38	o	_	DET	DET	_	39	det	_	_
+37	,	,	PUNCT	.	_	42	punct	_	_
+38	o	o	DET	DET	_	39	det	_	_
 39	que	_	PRON	PRON	_	42	nsubj	_	_
 40	é	ser	AUX	AUX	_	42	cop	_	_
 41	mais	mais	ADV	ADV	_	42	advmod	_	_
 42	triste	triste	NOUN	NOUN	_	44	parataxis	_	SpaceAfter=No
-43	,	_	PUNCT	.	_	42	punct	_	_
+43	,	,	PUNCT	.	_	42	punct	_	_
 44	matou	matar	VERB	VERB	_	22	conj	_	_
 45	66	_	NUM	NUM	NumType=Card	46	nummod	_	_
 46	pessoas	pessoa	NOUN	NOUN	_	44	obj	_	SpaceAfter=No
-47	.	_	PUNCT	.	_	22	punct	_	_
+47	.	.	PUNCT	.	_	22	punct	_	_
 
 # sent_id = train-s6792
 # text = Simultaneamente, algumas medidas aumentaram tarifas sobre 100 produtos -- alguns que irão afetar insumos farmacêuticos.
 1	Simultaneamente	simultaneamente	ADV	ADV	_	5	advmod	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	1	punct	_	_
+2	,	,	PUNCT	.	_	1	punct	_	_
 3	algumas	_	DET	DET	_	4	det	_	_
 4	medidas	medida	NOUN	NOUN	_	5	nsubj	_	_
 5	aumentaram	aumentar	VERB	VERB	_	0	root	_	_
@@ -92,7 +92,7 @@
 14	afetar	afetar	VERB	VERB	_	11	acl:relcl	_	_
 15	insumos	insumo	NOUN	NOUN	_	14	obj	_	_
 16	farmacêuticos	farmacêutico	ADJ	ADJ	_	15	amod	_	SpaceAfter=No
-17	.	_	PUNCT	.	_	5	punct	_	_
+17	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s6793
 # text = Ratinho e o diretor - geral Walter Scaramuzzi também vão ter espaço no livro.
@@ -100,7 +100,7 @@
 2	e	e	CCONJ	CONJ	_	4	cc	_	_
 3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	diretor	diretor	NOUN	NOUN	_	1	conj	_	_
-5	-	_	PUNCT	.	_	4	punct	_	_
+5	-	-	PUNCT	.	_	4	punct	_	_
 6	geral	geral	ADJ	ADJ	_	4	amod	_	_
 7	Walter	_	PROPN	PNOUN	_	4	appos	_	_
 8	Scaramuzzi	_	PROPN	PNOUN	_	7	flat	_	_
@@ -112,7 +112,7 @@
 13	em	em	ADP	ADP	_	15	case	_	_
 14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	livro	livro	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	11	punct	_	_
+16	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s6794
 # text = É minha última chance, se errar, vou falar com a minha família e amigos: "Gente, parei, acabou."
@@ -120,33 +120,33 @@
 2	minha	_	DET	DET	_	4	det:poss	_	_
 3	última	último	ADJ	ADJ	_	4	amod	_	_
 4	chance	chance	NOUN	NOUN	_	0	root	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	10	punct	_	_
+5	,	,	PUNCT	.	_	10	punct	_	_
 6	se	_	CCONJ	CONJ	_	7	mark	_	_
 7	errar	errar	VERB	VERB	_	10	advcl	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	7	punct	_	_
+8	,	,	PUNCT	.	_	7	punct	_	_
 9	vou	ir	AUX	AUX	_	10	aux	_	_
 10	falar	falar	VERB	VERB	_	4	conj	_	_
-11	com	_	ADP	ADP	_	14	case	_	_
-12	a	_	DET	DET	_	14	det	_	_
+11	com	com	ADP	ADP	_	14	case	_	_
+12	a	a	DET	DET	_	14	det	_	_
 13	minha	_	DET	DET	_	14	det:poss	_	_
 14	família	família	NOUN	NOUN	_	10	nmod	_	_
-15	e	_	CCONJ	CONJ	_	16	cc	_	_
+15	e	e	CCONJ	CONJ	_	16	cc	_	_
 16	amigos	amigo	NOUN	NOUN	_	14	conj	_	SpaceAfter=No
-17	:	_	PUNCT	.	_	10	punct	_	_
-18	"	_	PUNCT	.	_	21	punct	_	SpaceAfter=No
+17	:	:	PUNCT	.	_	10	punct	_	_
+18	"	"	PUNCT	.	_	21	punct	_	SpaceAfter=No
 19	Gente	gente	NOUN	NOUN	_	21	dep	_	SpaceAfter=No
-20	,	_	PUNCT	.	_	19	punct	_	_
+20	,	,	PUNCT	.	_	19	punct	_	_
 21	parei	parar	VERB	VERB	_	10	parataxis	_	SpaceAfter=No
-22	,	_	PUNCT	.	_	23	punct	_	_
+22	,	,	PUNCT	.	_	23	punct	_	_
 23	acabou	acabar	VERB	VERB	_	21	conj	_	SpaceAfter=No
-24	.	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
-25	"	_	PUNCT	.	_	21	punct	_	_
+24	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+25	"	"	PUNCT	.	_	21	punct	_	_
 
 # sent_id = train-s6795
 # text = Nesse momento, Max aparece na janelinha da porta, rindo.
 1	Nesse	_	ADP	ADP	_	2	case	_	_
 2	momento	momento	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	2	punct	_	_
+3	,	,	PUNCT	.	_	2	punct	_	_
 4	Max	_	PROPN	PNOUN	_	5	nsubj	_	_
 5	aparece	aparecer	VERB	VERB	_	0	root	_	_
 6-7	na	_	_	_	_	_	_	_	_
@@ -157,36 +157,36 @@
 9	de	de	ADP	ADP	_	11	case	_	_
 10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	porta	porta	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	13	punct	_	_
+12	,	,	PUNCT	.	_	13	punct	_	_
 13	rindo	rir	VERB	VERB	_	5	acl:part	_	SpaceAfter=No
-14	.	_	PUNCT	.	_	5	punct	_	_
+14	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s6796
 # text = 4 - E vós sabeis o caminho para onde eu vou.
 1	4	_	NUM	NUM	NumType=Card	5	parataxis	_	_
-2	-	_	PUNCT	.	_	5	punct	_	_
+2	-	-	PUNCT	.	_	5	punct	_	_
 3	E	_	CCONJ	CONJ	_	5	cc	_	_
 4	vós	_	PRON	PRON	_	5	nsubj	_	_
 5	sabeis	saber	VERB	VERB	_	0	root	_	_
-6	o	_	DET	DET	_	7	det	_	_
+6	o	o	DET	DET	_	7	det	_	_
 7	caminho	caminho	NOUN	NOUN	_	5	obj	_	_
 8	para	_	ADP	ADP	_	9	mark	_	_
 9	onde	onde	ADV	ADV	_	11	nmod	_	_
 10	eu	_	PRON	PRON	_	11	nsubj	_	_
 11	vou	ir	VERB	VERB	_	7	acl:relcl	_	SpaceAfter=No
-12	.	_	PUNCT	.	_	5	punct	_	_
+12	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s6797
 # text = Vamos fazer uma retrospectiva?
 1	Vamos	ir	AUX	AUX	_	2	aux	_	_
 2	fazer	fazer	VERB	VERB	_	0	root	_	_
-3	uma	_	DET	DET	_	4	det	_	_
+3	uma	um	DET	DET	_	4	det	_	_
 4	retrospectiva	_	NOUN	NOUN	_	2	obj	_	SpaceAfter=No
-5	?	_	PUNCT	.	_	2	punct	_	_
+5	?	?	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s6798
 # text = A Samsung cresceu muito nos últimos anos e um dos principais fatores que contribuíram para isso foi o empenho em criar uma grande quantidade de produtos nas mais variadas faixas de preço.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	Samsung	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	cresceu	crescer	VERB	VERB	_	0	root	_	_
 4	muito	muito	ADV	ADV	_	3	advmod	_	_
@@ -195,7 +195,7 @@
 6	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 7	últimos	último	ADJ	ADJ	_	8	amod	_	_
 8	anos	ano	NOUN	NOUN	_	3	nmod	_	_
-9	e	_	CCONJ	CONJ	_	21	cc	_	_
+9	e	e	CCONJ	CONJ	_	21	cc	_	_
 10	um	_	PRON	PRON	_	21	nsubj	_	_
 11-12	dos	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	14	case	_	_
@@ -204,17 +204,17 @@
 14	fatores	fator	NOUN	NOUN	_	10	nmod	_	_
 15	que	_	PRON	PRON	_	16	nsubj	_	_
 16	contribuíram	contribuir	VERB	VERB	_	14	acl:relcl	_	_
-17	para	_	ADP	ADP	_	18	case	_	_
+17	para	para	ADP	ADP	_	18	case	_	_
 18	isso	_	PRON	PRON	_	16	nmod	_	_
 19	foi	_	AUX	AUX	_	21	cop	_	_
-20	o	_	DET	DET	_	21	det	_	_
+20	o	o	DET	DET	_	21	det	_	_
 21	empenho	empenho	NOUN	NOUN	_	3	conj	_	_
 22	em	_	ADP	ADP	_	23	mark	_	_
 23	criar	criar	VERB	VERB	_	21	nmod	_	_
-24	uma	_	DET	DET	_	26	det	_	_
+24	uma	um	DET	DET	_	26	det	_	_
 25	grande	grande	ADJ	ADJ	_	26	amod	_	_
 26	quantidade	quantidade	NOUN	NOUN	_	23	obj	_	_
-27	de	_	ADP	ADP	_	28	case	_	_
+27	de	de	ADP	ADP	_	28	case	_	_
 28	produtos	produto	NOUN	NOUN	_	26	nmod	_	_
 29-30	nas	_	_	_	_	_	_	_	_
 29	em	em	ADP	ADP	_	33	case	_	_
@@ -222,9 +222,9 @@
 31	mais	mais	ADV	ADV	_	32	advmod	_	_
 32	variadas	variado	ADJ	ADJ	_	33	amod	_	_
 33	faixas	faixa	NOUN	NOUN	_	28	nmod	_	_
-34	de	_	ADP	ADP	_	35	case	_	_
+34	de	de	ADP	ADP	_	35	case	_	_
 35	preço	preço	NOUN	NOUN	_	33	nmod	_	SpaceAfter=No
-36	.	_	PUNCT	.	_	3	punct	_	_
+36	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s6799
 # text = Na comparação semanal, a relação de preço entre o etanol e a gasolina também perdeu força.
@@ -233,13 +233,13 @@
 2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	comparação	comparação	NOUN	NOUN	_	17	nmod	_	_
 4	semanal	semanal	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	3	punct	_	_
-6	a	_	DET	DET	_	7	det	_	_
+5	,	,	PUNCT	.	_	3	punct	_	_
+6	a	a	DET	DET	_	7	det	_	_
 7	relação	relação	NOUN	NOUN	_	17	nsubj	_	_
-8	de	_	ADP	ADP	_	9	case	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
 9	preço	preço	NOUN	NOUN	_	7	nmod	_	_
 10	entre	_	ADP	ADP	_	12	case	_	_
-11	o	_	DET	DET	_	12	det	_	_
+11	o	o	DET	DET	_	12	det	_	_
 12	etanol	etanol	NOUN	NOUN	_	7	nmod	_	_
 13	e	e	CCONJ	CONJ	_	15	cc	_	_
 14	a	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -247,5 +247,5 @@
 16	também	também	ADV	ADV	_	17	advmod	_	_
 17	perdeu	perder	VERB	VERB	_	0	root	_	_
 18	força	força	NOUN	NOUN	_	17	obj	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	17	punct	_	_
+19	.	.	PUNCT	.	_	17	punct	_	_
 

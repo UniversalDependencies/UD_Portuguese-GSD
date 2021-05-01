@@ -1,11 +1,11 @@
 # sent_id = train-s1905
 # text = "A bolsa pode combater a pobreza das famílias que possuem menores viciados, mas não é incisiva no controle pela dependência química.
-1	"	_	PUNCT	.	_	5	punct	_	SpaceAfter=No
-2	A	_	DET	DET	_	3	det	_	_
+1	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
+2	A	o	DET	DET	_	3	det	_	_
 3	bolsa	bolsa	NOUN	NOUN	_	5	nsubj	_	_
 4	pode	_	AUX	AUX	_	5	aux	_	_
 5	combater	combater	VERB	VERB	_	0	root	_	_
-6	a	_	DET	DET	_	7	det	_	_
+6	a	a	DET	DET	_	7	det	_	_
 7	pobreza	pobreza	NOUN	NOUN	_	5	obj	_	_
 8-9	das	_	_	_	_	_	_	_	_
 8	de	de	ADP	ADP	_	10	case	_	_
@@ -15,7 +15,7 @@
 12	possuem	possuir	VERB	VERB	_	10	acl:relcl	_	_
 13	menores	_	NOUN	NOUN	_	12	obj	_	_
 14	viciados	viciado	ADJ	ADJ	_	13	amod	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	18	punct	_	_
+15	,	,	PUNCT	.	_	18	punct	_	_
 16	mas	_	CCONJ	CONJ	_	18	cc	_	_
 17	não	não	ADV	ADV	Polarity=Neg	18	advmod	_	_
 18	é	ser	VERB	VERB	_	5	conj	_	_
@@ -29,7 +29,7 @@
 24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	dependência	dependência	NOUN	NOUN	_	22	nmod	_	_
 26	química	químico	ADJ	ADJ	_	25	amod	_	SpaceAfter=No
-27	.	_	PUNCT	.	_	5	punct	_	_
+27	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s1906
 # text = Apesar das palavras otimistas, o treinador alvirrubro, assim como os atletas, deixou transparecer que um empate na capital paulista será considerado de bom tamanho para o Timbu, que só precisa de mais um ponto para se garantir na Série A 2013.
@@ -39,20 +39,20 @@
 3	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	1	det	_	_
 4	palavras	palavra	NOUN	NOUN	_	16	nmod	_	_
 5	otimistas	otimista	ADJ	ADJ	_	4	amod	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	4	punct	_	_
-7	o	_	DET	DET	_	8	det	_	_
+6	,	,	PUNCT	.	_	4	punct	_	_
+7	o	o	DET	DET	_	8	det	_	_
 8	treinador	treinador	NOUN	NOUN	_	16	nsubj	_	_
 9	alvirrubro	alvirrubro	ADJ	ADJ	_	8	amod	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	14	punct	_	_
+10	,	,	PUNCT	.	_	14	punct	_	_
 11	assim	assim	ADV	ADV	_	14	case	_	_
 12	como	_	ADP	ADP	_	11	fixed	_	_
-13	os	_	DET	DET	_	14	det	_	_
+13	os	o	DET	DET	_	14	det	_	_
 14	atletas	atleta	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	14	punct	_	_
+15	,	,	PUNCT	.	_	14	punct	_	_
 16	deixou	deixar	VERB	VERB	_	0	root	_	_
 17	transparecer	transparecer	VERB	VERB	_	16	xcomp	_	_
-18	que	_	CCONJ	CONJ	_	26	mark	_	_
-19	um	_	DET	DET	_	20	det	_	_
+18	que	que	CCONJ	CONJ	_	26	mark	_	_
+19	um	um	DET	DET	_	20	det	_	_
 20	empate	empate	NOUN	NOUN	_	26	nsubj:pass	_	_
 21-22	na	_	_	_	_	_	_	_	_
 21	em	em	ADP	ADP	_	23	case	_	_
@@ -61,17 +61,17 @@
 24	paulista	paulista	ADJ	ADJ	_	23	amod	_	_
 25	será	ser	AUX	AUX	_	26	aux:pass	_	_
 26	considerado	considerar	VERB	VERB	_	17	ccomp	_	_
-27	de	_	ADP	ADP	_	29	case	_	_
+27	de	de	ADP	ADP	_	29	case	_	_
 28	bom	bom	ADJ	ADJ	_	29	amod	_	_
 29	tamanho	tamanho	NOUN	NOUN	_	26	nmod	_	_
-30	para	_	ADP	ADP	_	32	case	_	_
-31	o	_	DET	DET	_	32	det	_	_
+30	para	para	ADP	ADP	_	32	case	_	_
+31	o	o	DET	DET	_	32	det	_	_
 32	Timbu	_	PROPN	PNOUN	_	26	nmod	_	SpaceAfter=No
-33	,	_	PUNCT	.	_	36	punct	_	_
+33	,	,	PUNCT	.	_	36	punct	_	_
 34	que	_	PRON	PRON	_	36	nsubj	_	_
 35	só	só	ADV	ADV	_	36	advmod	_	_
 36	precisa	precisar	VERB	VERB	_	32	acl:relcl	_	_
-37	de	_	ADP	ADP	_	40	case	_	_
+37	de	de	ADP	ADP	_	40	case	_	_
 38	mais	mais	ADV	ADV	_	39	advmod	_	_
 39	um	_	NUM	NUM	NumType=Card	40	nummod	_	_
 40	ponto	ponto	NOUN	NOUN	_	36	nmod	_	_
@@ -84,7 +84,7 @@
 46	Série	_	PROPN	PNOUN	_	43	nmod	_	_
 47	A	_	PROPN	PNOUN	_	46	flat	_	_
 48	2013	_	NUM	NUM	NumType=Card	46	nmod	_	SpaceAfter=No
-49	.	_	PUNCT	.	_	16	punct	_	_
+49	.	.	PUNCT	.	_	16	punct	_	_
 
 # sent_id = train-s1907
 # text = Apesar da aposta nas novas faixas, a maior surpresa deve ficar por conta das regravações dos grandes sucessos da dupla.
@@ -98,13 +98,13 @@
 6	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
 7	novas	novo	ADJ	ADJ	_	8	amod	_	_
 8	faixas	faixa	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	4	punct	_	_
-10	a	_	DET	DET	_	12	det	_	_
+9	,	,	PUNCT	.	_	4	punct	_	_
+10	a	a	DET	DET	_	12	det	_	_
 11	maior	maior	ADJ	ADJ	_	12	amod	_	_
 12	surpresa	surpresa	NOUN	NOUN	_	14	nsubj	_	_
 13	deve	dever	AUX	AUX	_	14	aux	_	_
 14	ficar	ficar	VERB	VERB	_	0	root	_	_
-15	por	_	ADP	ADP	_	16	case	_	_
+15	por	por	ADP	ADP	_	16	case	_	_
 16	conta	conta	NOUN	NOUN	_	14	nmod	_	_
 17-18	das	_	_	_	_	_	_	_	_
 17	de	de	ADP	ADP	_	19	case	_	_
@@ -119,20 +119,20 @@
 24	de	de	ADP	ADP	_	26	case	_	_
 25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	dupla	_	NOUN	NOUN	_	23	nmod	_	SpaceAfter=No
-27	.	_	PUNCT	.	_	14	punct	_	_
+27	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = train-s1908
 # text = Por sua parte, Lianne Ball declarou que uniu - se aos protestos pela segurança de seus amigos e familiares, e alegou que os EUA não necessitam de armas de assalto entre a população civil.
 1	Por	_	ADP	ADP	_	3	case	_	_
 2	sua	_	DET	DET	_	3	det:poss	_	_
 3	parte	parte	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
 5	Lianne	_	PROPN	PNOUN	_	7	nsubj	_	_
 6	Ball	_	PROPN	PNOUN	_	5	flat	_	_
 7	declarou	declarar	VERB	VERB	_	0	root	_	_
-8	que	_	CCONJ	CONJ	_	9	mark	_	_
+8	que	que	CCONJ	CONJ	_	9	mark	_	_
 9	uniu	unir	VERB	VERB	_	7	ccomp	_	_
-10	-	_	PUNCT	.	_	9	punct	_	_
+10	-	-	PUNCT	.	_	9	punct	_	_
 11	se	_	PRON	PRON	_	9	obj	_	_
 12-13	aos	_	_	_	_	_	_	_	_
 12	a	a	ADP	ADP	_	14	case	_	_
@@ -142,52 +142,52 @@
 15	por	por	ADP	ADP	_	17	case	_	_
 16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	segurança	segurança	NOUN	NOUN	_	9	nmod	_	_
-18	de	_	ADP	ADP	_	20	case	_	_
+18	de	de	ADP	ADP	_	20	case	_	_
 19	seus	_	DET	DET	_	20	det:poss	_	_
 20	amigos	amigo	NOUN	NOUN	_	17	nmod	_	_
-21	e	_	CCONJ	CONJ	_	22	cc	_	_
+21	e	e	CCONJ	CONJ	_	22	cc	_	_
 22	familiares	familiar	NOUN	NOUN	_	20	conj	_	SpaceAfter=No
-23	,	_	PUNCT	.	_	25	punct	_	_
-24	e	_	CCONJ	CONJ	_	25	cc	_	_
+23	,	,	PUNCT	.	_	25	punct	_	_
+24	e	e	CCONJ	CONJ	_	25	cc	_	_
 25	alegou	alegar	VERB	VERB	_	7	conj	_	_
-26	que	_	CCONJ	CONJ	_	30	mark	_	_
-27	os	_	DET	DET	_	28	det	_	_
+26	que	que	CCONJ	CONJ	_	30	mark	_	_
+27	os	o	DET	DET	_	28	det	_	_
 28	EUA	_	PROPN	PNOUN	_	30	nsubj	_	_
 29	não	não	ADV	ADV	Polarity=Neg	30	advmod	_	_
 30	necessitam	necessitar	VERB	VERB	_	25	ccomp	_	_
-31	de	_	ADP	ADP	_	32	case	_	_
+31	de	de	ADP	ADP	_	32	case	_	_
 32	armas	arma	NOUN	NOUN	_	30	nmod	_	_
-33	de	_	ADP	ADP	_	34	case	_	_
+33	de	de	ADP	ADP	_	34	case	_	_
 34	assalto	assalto	NOUN	NOUN	_	32	nmod	_	_
 35	entre	_	ADP	ADP	_	37	case	_	_
-36	a	_	DET	DET	_	37	det	_	_
+36	a	a	DET	DET	_	37	det	_	_
 37	população	população	NOUN	NOUN	_	30	nmod	_	_
 38	civil	civil	ADJ	ADJ	_	37	amod	_	SpaceAfter=No
-39	.	_	PUNCT	.	_	7	punct	_	_
+39	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s1909
 # text = Conversei com o Marco Polo (vice - presidente da CBF) sobre esse assunto (arbitragem).
 1	Conversei	conversar	VERB	VERB	_	0	root	_	_
-2	com	_	ADP	ADP	_	4	case	_	_
-3	o	_	DET	DET	_	4	det	_	_
+2	com	com	ADP	ADP	_	4	case	_	_
+3	o	o	DET	DET	_	4	det	_	_
 4	Marco	_	PROPN	PNOUN	_	1	nmod	_	_
 5	Polo	_	PROPN	PNOUN	_	4	flat	_	_
-6	(	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
+6	(	(	PUNCT	.	_	7	punct	_	SpaceAfter=No
 7	vice	_	PART	PRT	_	4	appos	_	_
-8	-	_	PUNCT	.	_	7	punct	_	_
+8	-	-	PUNCT	.	_	7	punct	_	_
 9	presidente	presidente	NOUN	NOUN	_	7	flat	_	_
 10-11	da	_	_	_	_	_	_	_	_
 10	de	de	ADP	ADP	_	12	case	_	_
 11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	CBF	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
-13	)	_	PUNCT	.	_	7	punct	_	_
+13	)	)	PUNCT	.	_	7	punct	_	_
 14	sobre	_	ADP	ADP	_	16	case	_	_
 15	esse	_	DET	DET	_	16	det	_	_
 16	assunto	assunto	NOUN	NOUN	_	1	nmod	_	_
-17	(	_	PUNCT	.	_	18	punct	_	SpaceAfter=No
+17	(	(	PUNCT	.	_	18	punct	_	SpaceAfter=No
 18	arbitragem	arbitragem	NOUN	NOUN	_	16	appos	_	SpaceAfter=No
-19	)	_	PUNCT	.	_	18	punct	_	SpaceAfter=No
-20	.	_	PUNCT	.	_	1	punct	_	_
+19	)	)	PUNCT	.	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s1910
 # text = Ao chegar no PlayStation em 2002, os jogos podiam se tornar títulos Greatest Hits após venderem no mínimo 400 mil cópias e estarem no mercado há pelo menos 9 meses.
@@ -199,10 +199,10 @@
 4	em	em	ADP	ADP	_	6	case	_	_
 5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	PlayStation	_	PROPN	PNOUN	_	3	nmod	_	_
-7	em	_	ADP	ADP	_	8	case	_	_
+7	em	em	ADP	ADP	_	8	case	_	_
 8	2002	_	NUM	NUM	NumType=Card	3	nmod	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	3	punct	_	_
-10	os	_	DET	DET	_	11	det	_	_
+9	,	,	PUNCT	.	_	3	punct	_	_
+10	os	o	DET	DET	_	11	det	_	_
 11	jogos	jogo	NOUN	NOUN	_	15	nsubj	_	_
 12	podiam	poder	AUX	AUX	_	15	aux	_	_
 13	se	_	PART	PRT	_	15	expl:pv	_	_
@@ -219,7 +219,7 @@
 23	400	_	NUM	NUM	NumType=Card	24	nummod	_	_
 24	mil	_	NUM	NUM	NumType=Card	25	nummod	_	_
 25	cópias	cópia	NOUN	NOUN	_	19	obj	_	_
-26	e	_	CCONJ	CONJ	_	27	cc	_	_
+26	e	e	CCONJ	CONJ	_	27	cc	_	_
 27	estarem	estar	VERB	VERB	_	19	conj	_	_
 28-29	no	_	_	_	_	_	_	_	_
 28	em	em	ADP	ADP	_	30	case	_	_
@@ -232,7 +232,7 @@
 34	menos	menos	ADV	ADV	_	35	advmod	_	_
 35	9	_	NUM	NUM	NumType=Card	36	nummod	_	_
 36	meses	mês	NOUN	NOUN	_	31	nmod	_	SpaceAfter=No
-37	.	_	PUNCT	.	_	15	punct	_	_
+37	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = train-s1911
 # text = -- Segurança reforçada na Ásia -- No Iraque, milhares de simpatizantes do líder xiita Moqtada al - Sadr protestaram nesta quinta - feira na cidade de Najaf (sul), em Bagdá e em Kirkuk (norte).
@@ -248,9 +248,9 @@
 8	Em	em	ADP	ADP	_	10	case	_	_
 9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	Iraque	_	PROPN	PNOUN	_	23	nmod	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	10	punct	_	_
+11	,	,	PUNCT	.	_	10	punct	_	_
 12	milhares	_	NUM	NUM	NumType=Card	14	nummod	_	_
-13	de	_	ADP	ADP	_	14	case	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
 14	simpatizantes	simpatizante	NOUN	NOUN	_	23	nsubj	_	_
 15-16	do	_	_	_	_	_	_	_	_
 15	de	de	ADP	ADP	_	17	case	_	_
@@ -259,43 +259,43 @@
 18	xiita	xiita	ADJ	ADJ	_	17	amod	_	_
 19	Moqtada	_	PROPN	PNOUN	_	17	appos	_	_
 20	al	_	PROPN	PNOUN	_	19	flat	_	_
-21	-	_	PUNCT	.	_	19	punct	_	_
+21	-	-	PUNCT	.	_	19	punct	_	_
 22	Sadr	_	PROPN	PNOUN	_	19	flat	_	_
 23	protestaram	protestar	VERB	VERB	_	0	root	_	_
 24	nesta	_	ADP	ADP	_	27	case	_	_
 25	quinta	_	ADJ	ADJ	_	27	amod	_	_
-26	-	_	PUNCT	.	_	27	punct	_	_
+26	-	-	PUNCT	.	_	27	punct	_	_
 27	feira	_	PROPN	PNOUN	_	23	nmod	_	_
 28-29	na	_	_	_	_	_	_	_	_
 28	em	em	ADP	ADP	_	30	case	_	_
 29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	cidade	cidade	NOUN	NOUN	_	23	nmod	_	_
-31	de	_	ADP	ADP	_	32	case	_	_
+31	de	de	ADP	ADP	_	32	case	_	_
 32	Najaf	_	PROPN	PNOUN	_	30	nmod	_	_
-33	(	_	PUNCT	.	_	34	punct	_	SpaceAfter=No
+33	(	(	PUNCT	.	_	34	punct	_	SpaceAfter=No
 34	sul	sul	NOUN	NOUN	_	32	appos	_	SpaceAfter=No
-35	)	_	PUNCT	.	_	34	punct	_	SpaceAfter=No
-36	,	_	PUNCT	.	_	38	punct	_	_
-37	em	_	ADP	ADP	_	38	case	_	_
+35	)	)	PUNCT	.	_	34	punct	_	SpaceAfter=No
+36	,	,	PUNCT	.	_	38	punct	_	_
+37	em	em	ADP	ADP	_	38	case	_	_
 38	Bagdá	_	PROPN	PNOUN	_	30	conj	_	_
-39	e	_	CCONJ	CONJ	_	41	cc	_	_
-40	em	_	ADP	ADP	_	41	case	_	_
+39	e	e	CCONJ	CONJ	_	41	cc	_	_
+40	em	em	ADP	ADP	_	41	case	_	_
 41	Kirkuk	_	PROPN	PNOUN	_	30	conj	_	_
-42	(	_	PUNCT	.	_	43	punct	_	SpaceAfter=No
+42	(	(	PUNCT	.	_	43	punct	_	SpaceAfter=No
 43	norte	norte	NOUN	NOUN	_	41	appos	_	SpaceAfter=No
-44	)	_	PUNCT	.	_	43	punct	_	SpaceAfter=No
-45	.	_	PUNCT	.	_	23	punct	_	_
+44	)	)	PUNCT	.	_	43	punct	_	SpaceAfter=No
+45	.	.	PUNCT	.	_	23	punct	_	_
 
 # sent_id = train-s1912
 # text = O encarregado de encontrar um comprador para o apartamento mais caro dos Estados Unidos é o filho do ator Robert De Niro, Michael De Niro, que descreve o imóvel como uma 'jóia única em seu gênero localizado entre as casas mais ricas' do país.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	encarregado	encarregado	NOUN	NOUN	_	18	nsubj	_	_
 3	de	_	ADP	ADP	_	4	mark	_	_
 4	encontrar	encontrar	VERB	VERB	_	2	nmod	_	_
-5	um	_	DET	DET	_	6	det	_	_
+5	um	um	DET	DET	_	6	det	_	_
 6	comprador	comprador	NOUN	NOUN	_	4	obj	_	_
-7	para	_	ADP	ADP	_	9	case	_	_
-8	o	_	DET	DET	_	9	det	_	_
+7	para	para	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	_	9	det	_	_
 9	apartamento	apartamento	NOUN	NOUN	_	6	nmod	_	_
 10	mais	mais	ADV	ADV	_	11	advmod	_	_
 11	caro	caro	ADJ	ADJ	_	9	amod	_	_
@@ -305,7 +305,7 @@
 14	Estados	_	PROPN	PNOUN	_	9	nmod	_	_
 15	Unidos	_	PROPN	PNOUN	_	14	amod	_	_
 16	é	ser	AUX	AUX	_	18	cop	_	_
-17	o	_	DET	DET	_	18	det	_	_
+17	o	o	DET	DET	_	18	det	_	_
 18	filho	filho	NOUN	NOUN	_	0	root	_	_
 19-20	do	_	_	_	_	_	_	_	_
 19	de	de	ADP	ADP	_	21	case	_	_
@@ -314,26 +314,26 @@
 22	Robert	_	PROPN	PNOUN	_	21	appos	_	_
 23	De	_	PROPN	PNOUN	_	24	case	_	_
 24	Niro	_	PROPN	PNOUN	_	22	nmod	_	SpaceAfter=No
-25	,	_	PUNCT	.	_	26	punct	_	_
+25	,	,	PUNCT	.	_	26	punct	_	_
 26	Michael	_	PROPN	PNOUN	_	18	appos	_	_
 27	De	_	PROPN	PNOUN	_	28	case	_	_
 28	Niro	_	PROPN	PNOUN	_	26	nmod	_	SpaceAfter=No
-29	,	_	PUNCT	.	_	31	punct	_	_
+29	,	,	PUNCT	.	_	31	punct	_	_
 30	que	_	PRON	PRON	_	31	nsubj	_	_
 31	descreve	descrever	VERB	VERB	_	18	acl:relcl	_	_
-32	o	_	DET	DET	_	33	det	_	_
+32	o	o	DET	DET	_	33	det	_	_
 33	imóvel	imóvel	NOUN	NOUN	_	31	obj	_	_
-34	como	_	ADP	ADP	_	37	case	_	_
-35	uma	_	DET	DET	_	37	det	_	_
+34	como	como	ADP	ADP	_	37	case	_	_
+35	uma	um	DET	DET	_	37	det	_	_
 36	'	_	PUNCT	.	_	37	punct	_	SpaceAfter=No
 37	jóia	jóia	NOUN	NOUN	_	31	nmod	_	_
 38	única	único	ADJ	ADJ	_	37	amod	_	_
-39	em	_	ADP	ADP	_	41	case	_	_
+39	em	em	ADP	ADP	_	41	case	_	_
 40	seu	_	DET	DET	_	41	det:poss	_	_
 41	gênero	gênero	NOUN	NOUN	_	37	nmod	_	_
 42	localizado	localizar	VERB	VERB	_	37	acl:part	_	_
 43	entre	_	ADP	ADP	_	45	case	_	_
-44	as	_	DET	DET	_	45	det	_	_
+44	as	o	DET	DET	_	45	det	_	_
 45	casas	casa	NOUN	NOUN	_	42	nmod	_	_
 46	mais	mais	ADV	ADV	_	47	advmod	_	_
 47	ricas	rico	ADJ	ADJ	_	45	amod	_	SpaceAfter=No
@@ -342,7 +342,7 @@
 49	de	de	ADP	ADP	_	51	case	_	_
 50	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
 51	país	país	NOUN	NOUN	_	45	nmod	_	SpaceAfter=No
-52	.	_	PUNCT	.	_	18	punct	_	_
+52	.	.	PUNCT	.	_	18	punct	_	_
 
 # sent_id = train-s1913
 # text = Apesar de não haverem grandes mudanças, de acordo com publicação do GoNintendo, essa nova atualização foi disponibilizada para trazer melhorias para a estabilidade do console, que agora está na versão 4.3.0-1.
@@ -352,16 +352,16 @@
 4	haverem	haver	VERB	VERB	_	20	advcl	_	_
 5	grandes	grande	ADJ	ADJ	_	6	amod	_	_
 6	mudanças	mudança	NOUN	NOUN	_	4	obj	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	9	punct	_	_
-8	de	_	ADP	ADP	_	9	case	_	_
+7	,	,	PUNCT	.	_	9	punct	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
 9	acordo	acordo	NOUN	NOUN	_	20	nmod	_	_
-10	com	_	ADP	ADP	_	11	case	_	_
+10	com	com	ADP	ADP	_	11	case	_	_
 11	publicação	publicação	NOUN	NOUN	_	9	nmod	_	_
 12-13	do	_	_	_	_	_	_	_	_
 12	de	de	ADP	ADP	_	14	case	_	_
 13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	GoNintendo	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	9	punct	_	_
+15	,	,	PUNCT	.	_	9	punct	_	_
 16	essa	_	DET	DET	_	18	det	_	_
 17	nova	novo	ADJ	ADJ	_	18	amod	_	_
 18	atualização	atualização	NOUN	NOUN	_	20	nsubj:pass	_	_
@@ -370,14 +370,14 @@
 21	para	_	ADP	ADP	_	22	mark	_	_
 22	trazer	trazer	VERB	VERB	_	20	advcl	_	_
 23	melhorias	melhoria	NOUN	NOUN	_	22	obj	_	_
-24	para	_	ADP	ADP	_	26	case	_	_
-25	a	_	DET	DET	_	26	det	_	_
+24	para	para	ADP	ADP	_	26	case	_	_
+25	a	a	DET	DET	_	26	det	_	_
 26	estabilidade	estabilidade	NOUN	NOUN	_	23	nmod	_	_
 27-28	do	_	_	_	_	_	_	_	_
 27	de	de	ADP	ADP	_	29	case	_	_
 28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	console	_	NOUN	NOUN	_	26	nmod	_	SpaceAfter=No
-30	,	_	PUNCT	.	_	33	punct	_	_
+30	,	,	PUNCT	.	_	33	punct	_	_
 31	que	_	PRON	PRON	_	33	nsubj	_	_
 32	agora	agora	ADV	ADV	_	33	advmod	_	_
 33	está	estar	VERB	VERB	_	29	acl:relcl	_	_
@@ -386,11 +386,11 @@
 35	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 36	versão	versão	NOUN	NOUN	_	33	nmod	_	_
 37	4.3.0-1	_	NUM	NUM	NumType=Card	36	appos	_	SpaceAfter=No
-38	.	_	PUNCT	.	_	20	punct	_	_
+38	.	.	PUNCT	.	_	20	punct	_	_
 
 # sent_id = train-s1914
 # text = O mesmo se aplica aos jogadores, nenhum é melhor que o outro.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	mesmo	mesmo	NOUN	NOUN	_	4	nsubj	_	_
 3	se	_	PRON	PRON	_	4	expl:pv	_	_
 4	aplica	aplicar	VERB	VERB	_	0	root	_	_
@@ -398,12 +398,12 @@
 5	a	a	ADP	ADP	_	7	case	_	_
 6	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	jogadores	jogador	NOUN	NOUN	_	4	iobj	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	10	punct	_	_
+8	,	,	PUNCT	.	_	10	punct	_	_
 9	nenhum	_	PRON	PRON	_	10	nsubj	_	_
 10	é	ser	VERB	VERB	_	4	parataxis	_	_
 11	melhor	melhor	ADJ	ADJ	_	10	xcomp:adj	_	_
 12	que	_	ADP	ADP	_	14	case	_	_
-13	o	_	DET	DET	_	14	det	_	_
+13	o	o	DET	DET	_	14	det	_	_
 14	outro	_	PRON	PRON	_	10	nmod	_	SpaceAfter=No
-15	.	_	PUNCT	.	_	4	punct	_	_
+15	.	.	PUNCT	.	_	4	punct	_	_
 

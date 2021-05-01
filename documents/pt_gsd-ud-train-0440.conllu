@@ -3,11 +3,11 @@
 1	Deu	dar	VERB	VERB	_	6	ccomp	_	_
 2	tudo	_	PRON	PRON	_	1	nsubj	_	_
 3	certo	certo	ADV	ADV	_	1	advmod	_	_
-4	"	_	PUNCT	.	_	1	punct	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	6	punct	_	_
+4	"	"	PUNCT	.	_	1	punct	_	SpaceAfter=No
+5	,	,	PUNCT	.	_	6	punct	_	_
 6	comemorou	comemorar	VERB	VERB	_	0	root	_	_
 7	Fogacinha	_	PROPN	PNOUN	_	6	nsubj	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	18	punct	_	_
+8	,	,	PUNCT	.	_	18	punct	_	_
 9	que	_	PRON	PRON	_	18	nsubj	_	_
 10-11	aos	_	_	_	_	_	_	_	_
 10	a	a	ADP	ADP	_	13	case	_	_
@@ -15,7 +15,7 @@
 12	21	_	NUM	NUM	NumType=Card	13	nummod	_	_
 13	anos	ano	NOUN	NOUN	_	18	nmod	_	_
 14	é	ser	AUX	AUX	_	18	cop	_	_
-15	o	_	DET	DET	_	18	det	_	_
+15	o	o	DET	DET	_	18	det	_	_
 16	mais	mais	ADV	ADV	_	17	advmod	_	_
 17	jovem	jovem	ADJ	ADJ	_	18	amod	_	_
 18	piloto	piloto	NOUN	NOUN	_	7	acl:relcl	_	_
@@ -23,7 +23,7 @@
 19	de	de	ADP	ADP	_	21	case	_	_
 20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	grid	_	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
-22	.	_	PUNCT	.	_	6	punct	_	_
+22	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s4367
 # text = Pelé postou foto ao lado de Federer em sua conta no Twitter.
@@ -34,16 +34,16 @@
 4	a	a	ADP	ADP	_	6	case	_	_
 5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	lado	lado	NOUN	NOUN	_	3	nmod	_	_
-7	de	_	ADP	ADP	_	8	case	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
 8	Federer	_	PROPN	PNOUN	_	6	nmod	_	_
-9	em	_	ADP	ADP	_	11	case	_	_
+9	em	em	ADP	ADP	_	11	case	_	_
 10	sua	_	DET	DET	_	11	det:poss	_	_
 11	conta	conta	NOUN	NOUN	_	2	nmod	_	_
 12-13	no	_	_	_	_	_	_	_	_
 12	em	em	ADP	ADP	_	14	case	_	_
 13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	Twitter	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
-15	.	_	PUNCT	.	_	2	punct	_	_
+15	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s4368
 # text = Do lado alvinegro, a missão é conseguir a primeira sequência de três vitórias no Campeonato Brasileiro, depois dos bons resultados diante de Coritiba e Cruzeiro.
@@ -52,15 +52,15 @@
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	lado	lado	NOUN	NOUN	_	7	nmod	_	_
 4	alvinegro	alvinegro	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	3	punct	_	_
-6	a	_	DET	DET	_	7	det	_	_
+5	,	,	PUNCT	.	_	3	punct	_	_
+6	a	a	DET	DET	_	7	det	_	_
 7	missão	missão	NOUN	NOUN	_	0	root	_	_
 8	é	ser	AUX	AUX	_	7	cop	_	_
 9	conseguir	conseguir	VERB	VERB	_	7	csubj	_	_
-10	a	_	DET	DET	_	12	det	_	_
+10	a	a	DET	DET	_	12	det	_	_
 11	primeira	primeiro	ADJ	ADJ	_	12	amod	_	_
 12	sequência	sequência	NOUN	NOUN	_	9	obj	_	_
-13	de	_	ADP	ADP	_	15	case	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
 14	três	_	NUM	NUM	NumType=Card	15	nummod	_	_
 15	vitórias	vitória	NOUN	NOUN	_	12	nmod	_	_
 16-17	no	_	_	_	_	_	_	_	_
@@ -68,7 +68,7 @@
 17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	Campeonato	_	PROPN	PNOUN	_	9	nmod	_	_
 19	Brasileiro	_	PROPN	PNOUN	_	18	amod	_	SpaceAfter=No
-20	,	_	PUNCT	.	_	25	punct	_	_
+20	,	,	PUNCT	.	_	25	punct	_	_
 21	depois	depois	ADV	ADV	_	25	case	_	_
 22-23	dos	_	_	_	_	_	_	_	_
 22	de	de	ADP	ADP	_	21	case	_	_
@@ -76,15 +76,15 @@
 24	bons	bom	ADJ	ADJ	_	25	amod	_	_
 25	resultados	resultado	NOUN	NOUN	_	9	nmod	_	_
 26	diante	diante	ADV	ADV	_	25	advmod	_	_
-27	de	_	ADP	ADP	_	28	case	_	_
+27	de	de	ADP	ADP	_	28	case	_	_
 28	Coritiba	_	PROPN	PNOUN	_	26	nmod	_	_
-29	e	_	CCONJ	CONJ	_	30	cc	_	_
+29	e	e	CCONJ	CONJ	_	30	cc	_	_
 30	Cruzeiro	_	PROPN	PNOUN	_	28	conj	_	SpaceAfter=No
-31	.	_	PUNCT	.	_	7	punct	_	_
+31	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s4369
 # text = A maior parte da história Kisala é desconhecida até que e seus amigos descobrem que Kisala é a princesa Irieth do planeta Mariglenn, amplamente conhecido como "Eden".
-1	A	_	DET	DET	_	3	det	_	_
+1	A	o	DET	DET	_	3	det	_	_
 2	maior	maior	ADJ	ADJ	_	3	amod	_	_
 3	parte	parte	NOUN	NOUN	_	9	nmod	_	_
 4-5	da	_	_	_	_	_	_	_	_
@@ -100,10 +100,10 @@
 13	seus	_	DET	DET	_	14	det:poss	_	_
 14	amigos	amigo	NOUN	NOUN	_	15	nsubj	_	_
 15	descobrem	descobrir	VERB	VERB	_	9	advcl	_	_
-16	que	_	CCONJ	CONJ	_	20	mark	_	_
+16	que	que	CCONJ	CONJ	_	20	mark	_	_
 17	Kisala	_	PROPN	PNOUN	_	20	nsubj	_	_
 18	é	ser	AUX	AUX	_	20	cop	_	_
-19	a	_	DET	DET	_	20	det	_	_
+19	a	a	DET	DET	_	20	det	_	_
 20	princesa	_	NOUN	NOUN	_	15	ccomp	_	_
 21	Irieth	_	PROPN	PNOUN	_	20	appos	_	_
 22-23	do	_	_	_	_	_	_	_	_
@@ -111,30 +111,30 @@
 23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	planeta	planeta	NOUN	NOUN	_	20	nmod	_	_
 25	Mariglenn	_	PROPN	PNOUN	_	24	appos	_	SpaceAfter=No
-26	,	_	PUNCT	.	_	28	punct	_	_
+26	,	,	PUNCT	.	_	28	punct	_	_
 27	amplamente	amplamente	ADV	ADV	_	28	advmod	_	_
 28	conhecido	conhecer	VERB	VERB	_	24	acl:part	_	_
-29	como	_	ADP	ADP	_	31	case	_	_
-30	"	_	PUNCT	.	_	31	punct	_	SpaceAfter=No
+29	como	como	ADP	ADP	_	31	case	_	_
+30	"	"	PUNCT	.	_	31	punct	_	SpaceAfter=No
 31	Eden	_	PROPN	PNOUN	_	28	nmod	_	SpaceAfter=No
-32	"	_	PUNCT	.	_	31	punct	_	SpaceAfter=No
-33	.	_	PUNCT	.	_	9	punct	_	_
+32	"	"	PUNCT	.	_	31	punct	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s4370
 # text = Nós, mulheres, devemos ser respeitadas por nossa opinião, principalmente, se ela for a respeito do nosso próprio corpo ", afirma a jovem.
 1	Nós	_	PRON	PRON	_	7	nsubj:pass	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	1	punct	_	_
+2	,	,	PUNCT	.	_	1	punct	_	_
 3	mulheres	mulher	NOUN	NOUN	_	1	appos	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	1	punct	_	_
+4	,	,	PUNCT	.	_	1	punct	_	_
 5	devemos	dever	AUX	AUX	_	7	aux	_	_
 6	ser	ser	AUX	AUX	_	7	aux:pass	_	_
 7	respeitadas	respeitar	VERB	VERB	_	26	ccomp	_	_
-8	por	_	ADP	ADP	_	10	case	_	_
+8	por	por	ADP	ADP	_	10	case	_	_
 9	nossa	_	DET	DET	_	10	det:poss	_	_
 10	opinião	opinião	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	7	punct	_	_
+11	,	,	PUNCT	.	_	7	punct	_	_
 12	principalmente	principalmente	ADV	ADV	_	16	advmod	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	12	punct	_	_
+13	,	,	PUNCT	.	_	12	punct	_	_
 14	se	_	CCONJ	CONJ	_	16	mark	_	_
 15	ela	_	PRON	PRON	_	16	nsubj	_	_
 16	for	_	VERB	VERB	_	7	advcl	_	_
@@ -146,74 +146,74 @@
 21	nosso	_	DET	DET	_	23	det:poss	_	_
 22	próprio	próprio	ADJ	ADJ	_	23	amod	_	_
 23	corpo	corpo	NOUN	NOUN	_	18	nmod	_	_
-24	"	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
-25	,	_	PUNCT	.	_	26	punct	_	_
+24	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
+25	,	,	PUNCT	.	_	26	punct	_	_
 26	afirma	afirmar	VERB	VERB	_	0	root	_	_
-27	a	_	DET	DET	_	28	det	_	_
+27	a	a	DET	DET	_	28	det	_	_
 28	jovem	jovem	NOUN	NOUN	_	26	nsubj	_	SpaceAfter=No
-29	.	_	PUNCT	.	_	26	punct	_	_
+29	.	.	PUNCT	.	_	26	punct	_	_
 
 # sent_id = train-s4371
 # text = Horowitz já possuía os moldes para a produção de Cubos de Rubik e foi capaz de usá - los para produzir seu novo projeto.
 1	Horowitz	_	PROPN	PNOUN	_	3	nsubj	_	_
 2	já	já	ADV	ADV	_	3	advmod	_	_
 3	possuía	possuir	VERB	VERB	_	0	root	_	_
-4	os	_	DET	DET	_	5	det	_	_
+4	os	o	DET	DET	_	5	det	_	_
 5	moldes	molde	NOUN	NOUN	_	3	obj	_	_
-6	para	_	ADP	ADP	_	8	case	_	_
-7	a	_	DET	DET	_	8	det	_	_
+6	para	para	ADP	ADP	_	8	case	_	_
+7	a	a	DET	DET	_	8	det	_	_
 8	produção	produção	NOUN	NOUN	_	5	nmod	_	_
-9	de	_	ADP	ADP	_	10	case	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
 10	Cubos	_	PROPN	PNOUN	_	8	nmod	_	_
-11	de	_	ADP	ADP	_	12	case	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
 12	Rubik	_	PROPN	PNOUN	_	10	nmod	_	_
-13	e	_	CCONJ	CONJ	_	14	cc	_	_
+13	e	e	CCONJ	CONJ	_	14	cc	_	_
 14	foi	_	VERB	VERB	_	3	conj	_	_
 15	capaz	capaz	ADJ	ADJ	_	14	xcomp:adj	_	_
 16	de	_	ADP	ADP	_	17	mark	_	_
 17	usá	usar	VERB	VERB	_	15	nmod	_	_
-18	-	_	PUNCT	.	_	17	punct	_	_
+18	-	-	PUNCT	.	_	17	punct	_	_
 19	los	_	PRON	PRON	_	17	obj	_	_
 20	para	_	ADP	ADP	_	21	mark	_	_
 21	produzir	produzir	VERB	VERB	_	17	advcl	_	_
 22	seu	_	DET	DET	_	24	det:poss	_	_
 23	novo	novo	ADJ	ADJ	_	24	amod	_	_
 24	projeto	projeto	NOUN	NOUN	_	21	obj	_	SpaceAfter=No
-25	.	_	PUNCT	.	_	3	punct	_	_
+25	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s4372
 # text = Estende - se por uma área de 15,04 km ², com 11 830 habitantes, segundo os censos de 2007, com uma densidade 786,6 hab / km ².
 1	Estende	estender	VERB	VERB	_	0	root	_	_
-2	-	_	PUNCT	.	_	1	punct	_	_
+2	-	-	PUNCT	.	_	1	punct	_	_
 3	se	_	PART	PRT	_	1	expl:pv	_	_
-4	por	_	ADP	ADP	_	6	case	_	_
-5	uma	_	DET	DET	_	6	det	_	_
+4	por	por	ADP	ADP	_	6	case	_	_
+5	uma	um	DET	DET	_	6	det	_	_
 6	área	área	NOUN	NOUN	_	1	nmod	_	_
-7	de	_	ADP	ADP	_	9	case	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
 8	15,04	_	NUM	NUM	NumType=Card	9	nummod	_	_
 9	km	km	NOUN	NOUN	_	6	nmod	_	_
 10	²	_	PUNCT	.	_	9	punct	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	15	punct	_	_
-12	com	_	ADP	ADP	_	15	case	_	_
+11	,	,	PUNCT	.	_	15	punct	_	_
+12	com	com	ADP	ADP	_	15	case	_	_
 13	11	_	NUM	NUM	NumType=Card	14	nummod	_	_
 14	830	_	NUM	NUM	NumType=Card	15	nummod	_	_
 15	habitantes	habitante	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	19	punct	_	_
+16	,	,	PUNCT	.	_	19	punct	_	_
 17	segundo	_	ADP	ADP	_	19	case	_	_
-18	os	_	DET	DET	_	19	det	_	_
+18	os	o	DET	DET	_	19	det	_	_
 19	censos	censo	NOUN	NOUN	_	1	nmod	_	_
-20	de	_	ADP	ADP	_	21	case	_	_
+20	de	de	ADP	ADP	_	21	case	_	_
 21	2007	_	NUM	NUM	NumType=Card	19	nmod	_	SpaceAfter=No
-22	,	_	PUNCT	.	_	19	punct	_	_
-23	com	_	ADP	ADP	_	25	case	_	_
-24	uma	_	DET	DET	_	25	det	_	_
+22	,	,	PUNCT	.	_	19	punct	_	_
+23	com	com	ADP	ADP	_	25	case	_	_
+24	uma	um	DET	DET	_	25	det	_	_
 25	densidade	densidade	NOUN	NOUN	_	1	nmod	_	_
 26	786,6	_	NUM	NUM	NumType=Card	27	nummod	_	_
 27	hab	_	NOUN	NOUN	_	25	appos	_	_
-28	/	_	PUNCT	.	_	29	punct	_	_
+28	/	/	PUNCT	.	_	29	punct	_	_
 29	km	km	NOUN	NOUN	_	27	appos	_	_
 30	²	_	PUNCT	.	_	29	punct	_	SpaceAfter=No
-31	.	_	PUNCT	.	_	1	punct	_	_
+31	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s4373
 # text = Na sequência, retiraram o microfone de suas mãos e houve um breve apagão.
@@ -221,78 +221,78 @@
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	sequência	sequência	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
 5	retiraram	retirar	VERB	VERB	_	0	root	_	_
-6	o	_	DET	DET	_	7	det	_	_
+6	o	o	DET	DET	_	7	det	_	_
 7	microfone	microfone	NOUN	NOUN	_	5	obj	_	_
-8	de	_	ADP	ADP	_	10	case	_	_
+8	de	de	ADP	ADP	_	10	case	_	_
 9	suas	_	DET	DET	_	10	det:poss	_	_
 10	mãos	mão	NOUN	NOUN	_	5	nmod	_	_
-11	e	_	CCONJ	CONJ	_	12	cc	_	_
+11	e	e	CCONJ	CONJ	_	12	cc	_	_
 12	houve	haver	VERB	VERB	_	5	conj	_	_
-13	um	_	DET	DET	_	15	det	_	_
+13	um	um	DET	DET	_	15	det	_	_
 14	breve	breve	ADJ	ADJ	_	15	amod	_	_
 15	apagão	apagão	NOUN	NOUN	_	12	obj	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	5	punct	_	_
+16	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s4374
 # text = A agência de turismo de Munique divulga estatísticas sobre o ano anterior, qual foi o número total de visitantes, quanto se consumiu de cerveja, quanto se comeu de salsicha de porco e quanto de Eisbein.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	agência	agência	NOUN	NOUN	_	7	nsubj	_	_
-3	de	_	ADP	ADP	_	4	case	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
 4	turismo	turismo	NOUN	NOUN	_	2	nmod	_	_
-5	de	_	ADP	ADP	_	6	case	_	_
+5	de	de	ADP	ADP	_	6	case	_	_
 6	Munique	_	PROPN	PNOUN	_	2	nmod	_	_
 7	divulga	divulgar	VERB	VERB	_	0	root	_	_
 8	estatísticas	_	NOUN	NOUN	_	7	obj	_	_
 9	sobre	_	ADP	ADP	_	11	case	_	_
-10	o	_	DET	DET	_	11	det	_	_
+10	o	o	DET	DET	_	11	det	_	_
 11	ano	ano	NOUN	NOUN	_	8	nmod	_	_
 12	anterior	anterior	ADJ	ADJ	_	11	amod	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	14	punct	_	_
+13	,	,	PUNCT	.	_	14	punct	_	_
 14	qual	_	PRON	PRON	_	7	ccomp	_	_
 15	foi	_	AUX	AUX	_	14	cop	_	_
-16	o	_	DET	DET	_	17	det	_	_
+16	o	o	DET	DET	_	17	det	_	_
 17	número	número	NOUN	NOUN	_	14	nsubj	_	_
 18	total	total	ADJ	ADJ	_	17	amod	_	_
-19	de	_	ADP	ADP	_	20	case	_	_
+19	de	de	ADP	ADP	_	20	case	_	_
 20	visitantes	_	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
-21	,	_	PUNCT	.	_	24	punct	_	_
+21	,	,	PUNCT	.	_	24	punct	_	_
 22	quanto	_	PRON	PRON	_	24	nsubj	_	_
 23	se	_	PRON	PRON	_	24	expl:pv	_	_
 24	consumiu	consumir	VERB	VERB	_	14	conj	_	_
-25	de	_	ADP	ADP	_	26	case	_	_
+25	de	de	ADP	ADP	_	26	case	_	_
 26	cerveja	cerveja	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
-27	,	_	PUNCT	.	_	30	punct	_	_
+27	,	,	PUNCT	.	_	30	punct	_	_
 28	quanto	_	PRON	PRON	_	30	nsubj	_	_
 29	se	_	PRON	PRON	_	30	expl:pv	_	_
 30	comeu	comer	VERB	VERB	_	14	conj	_	_
-31	de	_	ADP	ADP	_	32	case	_	_
+31	de	de	ADP	ADP	_	32	case	_	_
 32	salsicha	salsicha	NOUN	NOUN	_	30	nmod	_	_
-33	de	_	ADP	ADP	_	34	case	_	_
+33	de	de	ADP	ADP	_	34	case	_	_
 34	porco	porco	NOUN	NOUN	_	32	nmod	_	_
-35	e	_	CCONJ	CONJ	_	36	cc	_	_
+35	e	e	CCONJ	CONJ	_	36	cc	_	_
 36	quanto	_	PRON	PRON	_	28	conj	_	_
-37	de	_	ADP	ADP	_	38	case	_	_
+37	de	de	ADP	ADP	_	38	case	_	_
 38	Eisbein	_	PROPN	PNOUN	_	36	nmod	_	SpaceAfter=No
-39	.	_	PUNCT	.	_	7	punct	_	_
+39	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s4375
 # text = É normal que 1kg de uva produza cerca de 650 a 700 ml de líquido.
 1	É	ser	VERB	VERB	_	0	root	_	_
 2	normal	normal	ADJ	ADJ	_	1	xcomp:adj	_	_
-3	que	_	CCONJ	CONJ	_	7	mark	_	_
+3	que	que	CCONJ	CONJ	_	7	mark	_	_
 4	1kg	_	NOUN	NOUN	_	7	nsubj	_	_
-5	de	_	ADP	ADP	_	6	case	_	_
+5	de	de	ADP	ADP	_	6	case	_	_
 6	uva	uva	NOUN	NOUN	_	4	nmod	_	_
 7	produza	produzir	VERB	VERB	_	1	csubj	_	_
 8	cerca	cerca	ADV	ADV	_	10	advmod	_	_
-9	de	_	ADP	ADP	_	8	case	_	_
+9	de	de	ADP	ADP	_	8	case	_	_
 10	650	_	NUM	NUM	NumType=Card	13	nummod	_	_
 11	a	_	ADP	ADP	_	12	case	_	_
 12	700	_	NUM	NUM	NumType=Card	10	nmod	_	_
 13	ml	_	NOUN	NOUN	_	7	obj	_	_
-14	de	_	ADP	ADP	_	15	case	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
 15	líquido	líquido	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	1	punct	_	_
+16	.	.	PUNCT	.	_	1	punct	_	_
 

@@ -1,29 +1,29 @@
 # sent_id = test-s190
 # text = As Organizações Sociais podem e devem ser mais fiscalizadas.
-1	As	_	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	_	2	det	_	_
 2	Organizações	_	PROPN	PNOUN	_	9	nsubj:pass	_	_
 3	Sociais	_	PROPN	PNOUN	_	2	amod	_	_
 4	podem	_	AUX	AUX	_	9	aux	_	_
-5	e	_	CCONJ	CONJ	_	6	cc	_	_
+5	e	e	CCONJ	CONJ	_	6	cc	_	_
 6	devem	_	AUX	AUX	_	4	conj	_	_
 7	ser	ser	AUX	AUX	_	9	aux:pass	_	_
 8	mais	mais	ADV	ADV	_	9	advmod	_	_
 9	fiscalizadas	fiscalizar	VERB	VERB	_	0	root	_	SpaceAfter=No
-10	.	_	PUNCT	.	_	9	punct	_	_
+10	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = test-s191
 # text = O crime aconteceu há três dias.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	crime	crime	NOUN	NOUN	_	3	nsubj	_	_
 3	aconteceu	acontecer	VERB	VERB	_	0	root	_	_
 4	há	haver	VERB	VERB	_	3	advcl	_	_
 5	três	_	NUM	NUM	NumType=Card	6	nummod	_	_
 6	dias	dia	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
-7	.	_	PUNCT	.	_	3	punct	_	_
+7	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = test-s192
 # text = O trabalho da polícia agora é no sentido de identificar os restos mortais.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	trabalho	trabalho	NOUN	NOUN	_	7	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -37,18 +37,18 @@
 10	sentido	sentido	NOUN	NOUN	_	7	nmod	_	_
 11	de	_	ADP	ADP	_	12	mark	_	_
 12	identificar	identificar	VERB	VERB	_	10	nmod	_	_
-13	os	_	DET	DET	_	14	det	_	_
+13	os	o	DET	DET	_	14	det	_	_
 14	restos	resto	NOUN	NOUN	_	12	obj	_	_
 15	mortais	mortal	ADJ	ADJ	_	14	amod	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	7	punct	_	_
+16	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = test-s193
 # text = Uma delas aponta que a carne do suíno imunocastrado é tão macia quanto a carne de suínos machos castrados cirurgicamente e de fêmeas.
 1	Uma	_	PRON	PRON	_	3	nsubj	_	_
 2	delas	_	X	ADPPRON	_	1	nmod	_	_
 3	aponta	apontar	VERB	VERB	_	0	root	_	_
-4	que	_	CCONJ	CONJ	_	11	mark	_	_
-5	a	_	DET	DET	_	6	det	_	_
+4	que	que	CCONJ	CONJ	_	11	mark	_	_
+5	a	a	DET	DET	_	6	det	_	_
 6	carne	carne	NOUN	NOUN	_	11	nsubj	_	_
 7-8	do	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
@@ -59,17 +59,17 @@
 12	tão	tão	ADV	ADV	_	13	advmod	_	_
 13	macia	macio	ADJ	ADJ	_	11	xcomp:adj	_	_
 14	quanto	_	ADP	ADP	_	16	case	_	_
-15	a	_	DET	DET	_	16	det	_	_
+15	a	a	DET	DET	_	16	det	_	_
 16	carne	carne	NOUN	NOUN	_	11	nmod	_	_
-17	de	_	ADP	ADP	_	18	case	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
 18	suínos	suíno	NOUN	NOUN	_	16	nmod	_	_
 19	machos	macho	ADJ	ADJ	_	18	amod	_	_
 20	castrados	castrado	ADJ	ADJ	_	18	amod	_	_
 21	cirurgicamente	cirurgicamente	ADV	ADV	_	20	advmod	_	_
-22	e	_	CCONJ	CONJ	_	24	cc	_	_
-23	de	_	ADP	ADP	_	24	case	_	_
+22	e	e	CCONJ	CONJ	_	24	cc	_	_
+23	de	de	ADP	ADP	_	24	case	_	_
 24	fêmeas	_	NOUN	NOUN	_	18	conj	_	SpaceAfter=No
-25	.	_	PUNCT	.	_	3	punct	_	_
+25	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = test-s194
 # text = Ao descobri - los juntos, o marido vinga - se, matando - os.
@@ -77,44 +77,44 @@
 1	A	a	ADP	ADP	_	3	case	_	_
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	descobri	descobrir	VERB	VERB	_	10	advcl	_	_
-4	-	_	PUNCT	.	_	3	punct	_	_
+4	-	-	PUNCT	.	_	3	punct	_	_
 5	los	_	PRON	PRON	_	6	nsubj	_	_
 6	juntos	junto	ADJ	ADJ	_	3	xcomp	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	3	punct	_	_
-8	o	_	DET	DET	_	9	det	_	_
+7	,	,	PUNCT	.	_	3	punct	_	_
+8	o	o	DET	DET	_	9	det	_	_
 9	marido	marido	NOUN	NOUN	_	10	nsubj	_	_
 10	vinga	vingar	VERB	VERB	_	0	root	_	_
-11	-	_	PUNCT	.	_	14	punct	_	_
+11	-	-	PUNCT	.	_	14	punct	_	_
 12	se	_	PRON	PRON	_	10	obj	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	14	punct	_	_
+13	,	,	PUNCT	.	_	14	punct	_	_
 14	matando	matar	VERB	VERB	_	10	conj	_	_
-15	-	_	PUNCT	.	_	14	punct	_	_
+15	-	-	PUNCT	.	_	14	punct	_	_
 16	os	_	PRON	PRON	_	14	obj	_	SpaceAfter=No
-17	.	_	PUNCT	.	_	10	punct	_	_
+17	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = test-s195
 # text = Para a cobertura dos Jogos, uma novidade: a ESPN Brasil HD, canal que trará toda a programação olímpica da ESPN Brasil em alta definição.
 1	Para	_	ADP	ADP	_	3	case	_	_
-2	a	_	DET	DET	_	3	det	_	_
+2	a	a	DET	DET	_	3	det	_	_
 3	cobertura	cobertura	NOUN	NOUN	_	9	nmod	_	_
 4-5	dos	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
 5	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
 6	Jogos	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	3	punct	_	_
-8	uma	_	DET	DET	_	9	det	_	_
+7	,	,	PUNCT	.	_	3	punct	_	_
+8	uma	um	DET	DET	_	9	det	_	_
 9	novidade	novidade	NOUN	NOUN	_	0	root	_	SpaceAfter=No
-10	:	_	PUNCT	.	_	9	punct	_	_
-11	a	_	DET	DET	_	12	det	_	_
+10	:	:	PUNCT	.	_	9	punct	_	_
+11	a	a	DET	DET	_	12	det	_	_
 12	ESPN	_	PROPN	PNOUN	_	9	appos	_	_
 13	Brasil	_	PROPN	PNOUN	_	12	flat	_	_
 14	HD	_	PROPN	PNOUN	_	12	flat	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	16	punct	_	_
+15	,	,	PUNCT	.	_	16	punct	_	_
 16	canal	canal	NOUN	NOUN	_	12	appos	_	_
 17	que	_	PRON	PRON	_	18	nsubj	_	_
 18	trará	trazer	VERB	VERB	_	16	acl:relcl	_	_
 19	toda	_	DET	DET	_	21	det	_	_
-20	a	_	DET	DET	_	21	det	_	_
+20	a	a	DET	DET	_	21	det	_	_
 21	programação	programação	NOUN	NOUN	_	18	obj	_	_
 22	olímpica	olímpico	ADJ	ADJ	_	21	amod	_	_
 23-24	da	_	_	_	_	_	_	_	_
@@ -122,26 +122,26 @@
 24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	ESPN	_	PROPN	PNOUN	_	21	nmod	_	_
 26	Brasil	_	PROPN	PNOUN	_	25	flat	_	_
-27	em	_	ADP	ADP	_	29	case	_	_
+27	em	em	ADP	ADP	_	29	case	_	_
 28	alta	alto	ADJ	ADJ	_	29	amod	_	_
 29	definição	definição	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
-30	.	_	PUNCT	.	_	9	punct	_	_
+30	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = test-s196
 # text = Segundo as denúncias da vítima CP, 42 anos, os fatos tiveram início no dia 16, quando ele podou os galhos dum pé de romã da casa vizinha, que estavam entrando no quintal de sua casa, na rua Cazuza, 363, no bairro Boa Vista.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	as	_	DET	DET	_	3	det	_	_
+2	as	o	DET	DET	_	3	det	_	_
 3	denúncias	denúncia	NOUN	NOUN	_	14	nmod	_	_
 4-5	da	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
 5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	vítima	vítima	NOUN	NOUN	_	3	nmod	_	_
 7	CP	_	PROPN	PNOUN	_	6	appos	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	10	punct	_	_
+8	,	,	PUNCT	.	_	10	punct	_	_
 9	42	_	NUM	NUM	NumType=Card	10	nummod	_	_
 10	anos	ano	NOUN	NOUN	_	6	appos	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	10	punct	_	_
-12	os	_	DET	DET	_	13	det	_	_
+11	,	,	PUNCT	.	_	10	punct	_	_
+12	os	o	DET	DET	_	13	det	_	_
 13	fatos	fato	NOUN	NOUN	_	14	nsubj	_	_
 14	tiveram	ter	VERB	VERB	_	0	root	_	_
 15	início	início	NOUN	NOUN	_	14	obj	_	_
@@ -150,24 +150,24 @@
 17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	dia	dia	NOUN	NOUN	_	15	nmod	_	_
 19	16	_	NUM	NUM	NumType=Card	18	nmod	_	SpaceAfter=No
-20	,	_	PUNCT	.	_	23	punct	_	_
+20	,	,	PUNCT	.	_	23	punct	_	_
 21	quando	quando	ADV	ADV	_	23	advmod	_	_
 22	ele	_	PRON	PRON	_	23	nsubj	_	_
 23	podou	podar	VERB	VERB	_	18	acl:relcl	_	_
-24	os	_	DET	DET	_	25	det	_	_
+24	os	o	DET	DET	_	25	det	_	_
 25	galhos	galho	NOUN	NOUN	_	23	obj	_	_
 26-27	dum	_	_	_	_	_	_	_	_
-26	de	_	ADP	ADP	_	28	case	_	_
-27	um	_	DET	DET	_	28	det	_	_
+26	de	de	ADP	ADP	_	28	case	_	_
+27	um	um	DET	DET	_	28	det	_	_
 28	pé	pé	NOUN	NOUN	_	25	nmod	_	_
-29	de	_	ADP	ADP	_	30	case	_	_
+29	de	de	ADP	ADP	_	30	case	_	_
 30	romã	romã	NOUN	NOUN	_	28	nmod	_	_
 31-32	da	_	_	_	_	_	_	_	_
 31	de	de	ADP	ADP	_	33	case	_	_
 32	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
 33	casa	casa	NOUN	NOUN	_	28	nmod	_	_
 34	vizinha	vizinho	ADJ	ADJ	_	33	amod	_	SpaceAfter=No
-35	,	_	PUNCT	.	_	38	punct	_	_
+35	,	,	PUNCT	.	_	38	punct	_	_
 36	que	_	PRON	PRON	_	38	nsubj	_	_
 37	estavam	estar	AUX	AUX	_	38	aux	_	_
 38	entrando	entrar	VERB	VERB	_	25	acl:relcl	_	_
@@ -175,38 +175,38 @@
 39	em	em	ADP	ADP	_	41	case	_	_
 40	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
 41	quintal	quintal	NOUN	NOUN	_	38	nmod	_	_
-42	de	_	ADP	ADP	_	44	case	_	_
+42	de	de	ADP	ADP	_	44	case	_	_
 43	sua	_	DET	DET	_	44	det:poss	_	_
 44	casa	casa	NOUN	NOUN	_	41	nmod	_	SpaceAfter=No
-45	,	_	PUNCT	.	_	48	punct	_	_
+45	,	,	PUNCT	.	_	48	punct	_	_
 46-47	na	_	_	_	_	_	_	_	_
 46	em	em	ADP	ADP	_	48	case	_	_
 47	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
 48	rua	rua	NOUN	NOUN	_	44	nmod	_	_
 49	Cazuza	_	PROPN	PNOUN	_	48	appos	_	SpaceAfter=No
-50	,	_	PUNCT	.	_	51	punct	_	_
+50	,	,	PUNCT	.	_	51	punct	_	_
 51	363	_	NUM	NUM	NumType=Card	49	appos	_	SpaceAfter=No
-52	,	_	PUNCT	.	_	55	punct	_	_
+52	,	,	PUNCT	.	_	55	punct	_	_
 53-54	no	_	_	_	_	_	_	_	_
 53	em	em	ADP	ADP	_	55	case	_	_
 54	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
 55	bairro	bairro	NOUN	NOUN	_	48	nmod	_	_
 56	Boa	_	PROPN	PNOUN	_	57	amod	_	_
 57	Vista	_	PROPN	PNOUN	_	55	appos	_	SpaceAfter=No
-58	.	_	PUNCT	.	_	14	punct	_	_
+58	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = test-s197
 # text = Em 27 de setembro, o SBT havia anunciado a volta da apresentadora à emissora.
-1	Em	_	ADP	ADP	_	2	case	_	_
+1	Em	em	ADP	ADP	_	2	case	_	_
 2	27	_	NUM	NUM	NumType=Card	9	nmod	_	_
-3	de	_	ADP	ADP	_	4	case	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
 4	setembro	_	PROPN	PNOUN	_	2	nmod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	2	punct	_	_
-6	o	_	DET	DET	_	7	det	_	_
+5	,	,	PUNCT	.	_	2	punct	_	_
+6	o	o	DET	DET	_	7	det	_	_
 7	SBT	_	PROPN	PNOUN	_	9	nsubj	_	_
 8	havia	haver	AUX	AUX	_	9	aux	_	_
 9	anunciado	anunciar	VERB	VERB	_	0	root	_	_
-10	a	_	DET	DET	_	11	det	_	_
+10	a	a	DET	DET	_	11	det	_	_
 11	volta	volta	NOUN	NOUN	_	9	obj	_	_
 12-13	da	_	_	_	_	_	_	_	_
 12	de	de	ADP	ADP	_	14	case	_	_
@@ -216,26 +216,26 @@
 15	a	a	ADP	ADP	_	17	case	_	_
 16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	emissora	_	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
-18	.	_	PUNCT	.	_	9	punct	_	_
+18	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = test-s198
 # text = A OCDE disse que as economias da Alemanha, França e Itália, as três maiores da zona do euro, têm recuado desde o segundo trimestre, e continuará contraindo até o fim do ano.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	OCDE	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	disse	dizer	VERB	VERB	_	0	root	_	_
-4	que	_	CCONJ	CONJ	_	26	mark	_	_
-5	as	_	DET	DET	_	6	det	_	_
+4	que	que	CCONJ	CONJ	_	26	mark	_	_
+5	as	o	DET	DET	_	6	det	_	_
 6	economias	economia	NOUN	NOUN	_	26	nsubj	_	_
 7-8	da	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
 8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Alemanha	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	11	punct	_	_
+10	,	,	PUNCT	.	_	11	punct	_	_
 11	França	_	PROPN	PNOUN	_	9	conj	_	_
-12	e	_	CCONJ	CONJ	_	13	cc	_	_
+12	e	e	CCONJ	CONJ	_	13	cc	_	_
 13	Itália	_	PROPN	PNOUN	_	9	conj	_	SpaceAfter=No
-14	,	_	PUNCT	.	_	16	punct	_	_
-15	as	_	DET	DET	_	16	det	_	_
+14	,	,	PUNCT	.	_	16	punct	_	_
+15	as	o	DET	DET	_	16	det	_	_
 16	três	_	NUM	NUM	NumType=Card	6	appos	_	_
 17	maiores	maior	ADJ	ADJ	_	16	amod	_	_
 18-19	da	_	_	_	_	_	_	_	_
@@ -246,37 +246,37 @@
 21	de	de	ADP	ADP	_	23	case	_	_
 22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	euro	euro	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
-24	,	_	PUNCT	.	_	16	punct	_	_
+24	,	,	PUNCT	.	_	16	punct	_	_
 25	têm	ter	AUX	AUX	_	26	aux	_	_
 26	recuado	recuar	VERB	VERB	_	3	ccomp	_	_
 27	desde	_	ADP	ADP	_	30	case	_	_
-28	o	_	DET	DET	_	30	det	_	_
+28	o	o	DET	DET	_	30	det	_	_
 29	segundo	segundo	ADJ	ADJ	_	30	amod	_	_
 30	trimestre	trimestre	NOUN	NOUN	_	26	nmod	_	SpaceAfter=No
-31	,	_	PUNCT	.	_	34	punct	_	_
-32	e	_	CCONJ	CONJ	_	34	cc	_	_
+31	,	,	PUNCT	.	_	34	punct	_	_
+32	e	e	CCONJ	CONJ	_	34	cc	_	_
 33	continuará	continuar	AUX	AUX	_	34	aux	_	_
 34	contraindo	contrair	VERB	VERB	_	26	conj	_	_
 35	até	_	ADP	ADP	_	37	case	_	_
-36	o	_	DET	DET	_	37	det	_	_
+36	o	o	DET	DET	_	37	det	_	_
 37	fim	fim	NOUN	NOUN	_	34	nmod	_	_
 38-39	do	_	_	_	_	_	_	_	_
 38	de	de	ADP	ADP	_	40	case	_	_
 39	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
 40	ano	ano	NOUN	NOUN	_	37	nmod	_	SpaceAfter=No
-41	.	_	PUNCT	.	_	3	punct	_	_
+41	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = test-s199
 # text = Além disso, há um canal que orienta o internauta sobre como agir nestas duas redes sociais para que os perfis do candidato ganhem mais evidência.
 1	Além	além	ADV	ADV	_	4	advmod	_	_
 2	disso	_	X	ADPPRON	_	1	nmod	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	1	punct	_	_
+3	,	,	PUNCT	.	_	1	punct	_	_
 4	há	haver	VERB	VERB	_	0	root	_	_
-5	um	_	DET	DET	_	6	det	_	_
+5	um	um	DET	DET	_	6	det	_	_
 6	canal	canal	NOUN	NOUN	_	4	obj	_	_
 7	que	_	PRON	PRON	_	8	nsubj	_	_
 8	orienta	orientar	VERB	VERB	_	6	acl:relcl	_	_
-9	o	_	DET	DET	_	10	det	_	_
+9	o	o	DET	DET	_	10	det	_	_
 10	internauta	internauta	NOUN	NOUN	_	8	obj	_	_
 11	sobre	_	ADP	ADP	_	13	mark	_	_
 12	como	como	ADV	ADV	_	13	advmod	_	_
@@ -287,7 +287,7 @@
 17	sociais	social	ADJ	ADJ	_	16	amod	_	_
 18	para	_	ADP	ADP	_	25	mark	_	_
 19	que	_	CCONJ	CONJ	_	18	fixed	_	_
-20	os	_	DET	DET	_	21	det	_	_
+20	os	o	DET	DET	_	21	det	_	_
 21	perfis	perfil	NOUN	NOUN	_	25	nsubj	_	_
 22-23	do	_	_	_	_	_	_	_	_
 22	de	de	ADP	ADP	_	24	case	_	_
@@ -296,5 +296,5 @@
 25	ganhem	ganhar	VERB	VERB	_	13	advcl	_	_
 26	mais	_	DET	DET	_	27	det	_	_
 27	evidência	evidência	NOUN	NOUN	_	25	obj	_	SpaceAfter=No
-28	.	_	PUNCT	.	_	4	punct	_	_
+28	.	.	PUNCT	.	_	4	punct	_	_
 

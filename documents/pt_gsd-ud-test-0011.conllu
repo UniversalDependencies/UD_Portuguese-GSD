@@ -2,24 +2,24 @@
 # text = Foi ali.
 1	Foi	_	VERB	VERB	_	0	root	_	_
 2	ali	ali	ADV	ADV	_	1	advmod	_	SpaceAfter=No
-3	.	_	PUNCT	.	_	1	punct	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = test-s101
 # text = Segundo o gerente de marketing da Hyundai, Cássio Pagliarini, o público predominante do novo hatch HB20 tem idade entre 20 e 30 anos e é solteiro.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	o	_	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	_	3	det	_	_
 3	gerente	gerente	NOUN	NOUN	_	21	nmod	_	_
-4	de	_	ADP	ADP	_	5	case	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
 5	marketing	marketing	NOUN	NOUN	_	3	nmod	_	_
 6-7	da	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	8	case	_	_
 7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Hyundai	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	10	punct	_	_
+9	,	,	PUNCT	.	_	10	punct	_	_
 10	Cássio	_	PROPN	PNOUN	_	3	appos	_	_
 11	Pagliarini	_	PROPN	PNOUN	_	10	flat	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	10	punct	_	_
-13	o	_	DET	DET	_	14	det	_	_
+12	,	,	PUNCT	.	_	10	punct	_	_
+13	o	o	DET	DET	_	14	det	_	_
 14	público	público	NOUN	NOUN	_	21	nsubj	_	_
 15	predominante	predominante	ADJ	ADJ	_	14	amod	_	_
 16-17	do	_	_	_	_	_	_	_	_
@@ -32,24 +32,24 @@
 22	idade	idade	NOUN	NOUN	_	21	obj	_	_
 23	entre	_	ADP	ADP	_	27	case	_	_
 24	20	_	NUM	NUM	NumType=Card	27	nummod	_	_
-25	e	_	CCONJ	CONJ	_	26	cc	_	_
+25	e	e	CCONJ	CONJ	_	26	cc	_	_
 26	30	_	NUM	NUM	NumType=Card	24	conj	_	_
 27	anos	ano	NOUN	NOUN	_	22	nmod	_	_
-28	e	_	CCONJ	CONJ	_	29	cc	_	_
+28	e	e	CCONJ	CONJ	_	29	cc	_	_
 29	é	ser	VERB	VERB	_	21	conj	_	_
 30	solteiro	solteiro	ADJ	ADJ	_	29	xcomp:adj	_	SpaceAfter=No
-31	.	_	PUNCT	.	_	21	punct	_	_
+31	.	.	PUNCT	.	_	21	punct	_	_
 
 # sent_id = test-s102
 # text = Com traumatismo craniano e trauma abdominal, o filho do cantor sertanejo Leonardo foi colocado em coma induzido.
 1	Com	_	ADP	ADP	_	2	case	_	_
 2	traumatismo	traumatismo	NOUN	NOUN	_	16	nmod	_	_
 3	craniano	craniano	ADJ	ADJ	_	2	amod	_	_
-4	e	_	CCONJ	CONJ	_	5	cc	_	_
+4	e	e	CCONJ	CONJ	_	5	cc	_	_
 5	trauma	trauma	NOUN	NOUN	_	2	conj	_	_
 6	abdominal	abdominal	ADJ	ADJ	_	5	amod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	2	punct	_	_
-8	o	_	DET	DET	_	9	det	_	_
+7	,	,	PUNCT	.	_	2	punct	_	_
+8	o	o	DET	DET	_	9	det	_	_
 9	filho	filho	NOUN	NOUN	_	16	nsubj:pass	_	_
 10-11	do	_	_	_	_	_	_	_	_
 10	de	de	ADP	ADP	_	12	case	_	_
@@ -59,25 +59,25 @@
 14	Leonardo	_	PROPN	PNOUN	_	12	appos	_	_
 15	foi	_	AUX	AUX	_	16	aux:pass	_	_
 16	colocado	colocar	VERB	VERB	_	0	root	_	_
-17	em	_	ADP	ADP	_	18	case	_	_
+17	em	em	ADP	ADP	_	18	case	_	_
 18	coma	coma	NOUN	NOUN	_	16	nmod	_	_
 19	induzido	induzido	ADJ	ADJ	_	18	amod	_	SpaceAfter=No
-20	.	_	PUNCT	.	_	16	punct	_	_
+20	.	.	PUNCT	.	_	16	punct	_	_
 
 # sent_id = test-s103
 # text = Composta por nove irmãos que juntos somam mais de 818 anos, 105 dos quais correspondentes à mais velha, a família Melis, residente na Sardenha, ostenta o recorde mundial de longevidade, certificado pelo Guinness, informaram nesta terça - feira vários jornais italianos.
 1	Composta	compor	VERB	VERB	_	23	acl:part	_	_
-2	por	_	ADP	ADP	_	4	case	_	_
+2	por	por	ADP	ADP	_	4	case	_	_
 3	nove	_	NUM	NUM	NumType=Card	4	nummod	_	_
 4	irmãos	irmão	NOUN	NOUN	_	1	nmod	_	_
 5	que	_	PRON	PRON	_	7	nsubj	_	_
 6	juntos	junto	ADJ	ADJ	_	7	xcomp:adj	_	_
 7	somam	somar	VERB	VERB	_	4	acl:relcl	_	_
 8	mais	mais	ADV	ADV	_	10	advmod	_	_
-9	de	_	ADP	ADP	_	8	case	_	_
+9	de	de	ADP	ADP	_	8	case	_	_
 10	818	_	NUM	NUM	NumType=Card	11	nummod	_	_
 11	anos	ano	NOUN	NOUN	_	7	obj	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	13	punct	_	_
+12	,	,	PUNCT	.	_	13	punct	_	_
 13	105	_	NUM	NUM	NumType=Card	11	appos	_	_
 14-15	dos	_	_	_	_	_	_	_	_
 14	de	de	ADP	ADP	_	16	case	_	_
@@ -87,39 +87,39 @@
 18	à	_	X	ADPPRON	_	20	case	_	_
 19	mais	_	DET	DET	_	20	det	_	_
 20	velha	velho	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
-21	,	_	PUNCT	.	_	1	punct	_	_
-22	a	_	DET	DET	_	23	det	_	_
+21	,	,	PUNCT	.	_	1	punct	_	_
+22	a	a	DET	DET	_	23	det	_	_
 23	família	família	NOUN	NOUN	_	31	nsubj	_	_
 24	Melis	_	PROPN	PNOUN	_	23	appos	_	SpaceAfter=No
-25	,	_	PUNCT	.	_	26	punct	_	_
+25	,	,	PUNCT	.	_	26	punct	_	_
 26	residente	residente	ADJ	ADJ	_	23	amod	_	_
 27-28	na	_	_	_	_	_	_	_	_
 27	em	em	ADP	ADP	_	29	case	_	_
 28	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	Sardenha	_	PROPN	PNOUN	_	26	nmod	_	SpaceAfter=No
-30	,	_	PUNCT	.	_	26	punct	_	_
+30	,	,	PUNCT	.	_	26	punct	_	_
 31	ostenta	ostentar	VERB	VERB	_	43	ccomp	_	_
-32	o	_	DET	DET	_	33	det	_	_
+32	o	o	DET	DET	_	33	det	_	_
 33	recorde	recorde	NOUN	NOUN	_	31	obj	_	_
 34	mundial	mundial	ADJ	ADJ	_	33	amod	_	_
-35	de	_	ADP	ADP	_	36	case	_	_
+35	de	de	ADP	ADP	_	36	case	_	_
 36	longevidade	longevidade	NOUN	NOUN	_	33	nmod	_	SpaceAfter=No
-37	,	_	PUNCT	.	_	38	punct	_	_
+37	,	,	PUNCT	.	_	38	punct	_	_
 38	certificado	certificar	VERB	VERB	_	33	acl:part	_	_
 39-40	pelo	_	_	_	_	_	_	_	_
 39	por	por	ADP	ADP	_	41	case	_	_
 40	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
 41	Guinness	_	PROPN	PNOUN	_	38	nmod	_	SpaceAfter=No
-42	,	_	PUNCT	.	_	43	punct	_	_
+42	,	,	PUNCT	.	_	43	punct	_	_
 43	informaram	informar	VERB	VERB	_	0	root	_	_
 44	nesta	_	ADP	ADP	_	47	case	_	_
 45	terça	_	PROPN	PNOUN	_	47	amod	_	_
-46	-	_	PUNCT	.	_	47	punct	_	_
+46	-	-	PUNCT	.	_	47	punct	_	_
 47	feira	_	PROPN	PNOUN	_	43	nmod	_	_
 48	vários	_	DET	DET	_	49	det	_	_
 49	jornais	jornal	NOUN	NOUN	_	43	nsubj	_	_
 50	italianos	italiano	ADJ	ADJ	_	49	amod	_	SpaceAfter=No
-51	.	_	PUNCT	.	_	43	punct	_	_
+51	.	.	PUNCT	.	_	43	punct	_	_
 
 # sent_id = test-s104
 # text = Vejo nesses jogadores atuais nomes que poderão ser bons técnicos para o futuro, para levar isso adiante.
@@ -133,85 +133,85 @@
 8	ser	ser	AUX	AUX	_	10	cop	_	_
 9	bons	bom	ADJ	ADJ	_	10	amod	_	_
 10	técnicos	técnico	NOUN	NOUN	_	5	acl:relcl	_	_
-11	para	_	ADP	ADP	_	13	case	_	_
-12	o	_	DET	DET	_	13	det	_	_
+11	para	para	ADP	ADP	_	13	case	_	_
+12	o	o	DET	DET	_	13	det	_	_
 13	futuro	futuro	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
-14	,	_	PUNCT	.	_	16	punct	_	_
+14	,	,	PUNCT	.	_	16	punct	_	_
 15	para	_	ADP	ADP	_	16	mark	_	_
 16	levar	levar	VERB	VERB	_	10	advcl	_	_
 17	isso	_	PRON	PRON	_	16	obj	_	_
 18	adiante	adiante	ADV	ADV	_	16	advmod	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	1	punct	_	_
+19	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = test-s105
 # text = Dessa forma, os corredores terão que passar pelo mesmo local, nalguns casos, três vezes.
 1	Dessa	_	ADP	ADP	_	2	case	_	_
 2	forma	forma	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	2	punct	_	_
-4	os	_	DET	DET	_	5	det	_	_
+3	,	,	PUNCT	.	_	2	punct	_	_
+4	os	o	DET	DET	_	5	det	_	_
 5	corredores	corredor	NOUN	NOUN	_	8	nsubj	_	_
 6	terão	ter	AUX	AUX	_	8	aux	_	_
-7	que	_	CCONJ	CONJ	_	8	mark	_	_
+7	que	que	CCONJ	CONJ	_	8	mark	_	_
 8	passar	passar	VERB	VERB	_	0	root	_	_
 9-10	pelo	_	_	_	_	_	_	_	_
 9	por	por	ADP	ADP	_	12	case	_	_
 10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 11	mesmo	mesmo	ADJ	ADJ	_	12	amod	_	_
 12	local	local	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	16	punct	_	_
+13	,	,	PUNCT	.	_	16	punct	_	_
 14-15	nalguns	_	_	_	_	_	_	_	_
-14	em	_	ADP	ADP	_	16	case	_	_
+14	em	em	ADP	ADP	_	16	case	_	_
 15	alguns	_	DET	DET	_	16	det	_	_
 16	casos	caso	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	16	punct	_	_
+17	,	,	PUNCT	.	_	16	punct	_	_
 18	três	_	NUM	NUM	NumType=Card	19	nummod	_	_
 19	vezes	vez	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-20	.	_	PUNCT	.	_	8	punct	_	_
+20	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = test-s106
 # text = SÃO PAULO, 26 Nov (Reuters) -- Os contratos de juros futuros encerraram em queda nesta segunda - feira, com investidores aguardando a liberação da próxima parcela de ajuda para a Grécia e ainda preocupados com a questão do abismo fiscal nos Estados Unidos.
 1	SÃO	_	PROPN	PNOUN	_	15	parataxis	_	_
 2	PAULO	_	PROPN	PNOUN	_	1	flat	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	4	punct	_	_
+3	,	,	PUNCT	.	_	4	punct	_	_
 4	26	_	NUM	NUM	NumType=Card	1	nmod	_	_
 5	Nov	_	PROPN	PNOUN	_	4	nmod	_	_
-6	(	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
+6	(	(	PUNCT	.	_	7	punct	_	SpaceAfter=No
 7	Reuters	_	PROPN	PNOUN	_	1	appos	_	SpaceAfter=No
-8	)	_	PUNCT	.	_	7	punct	_	_
+8	)	)	PUNCT	.	_	7	punct	_	_
 9	--	_	PUNCT	.	_	15	punct	_	_
-10	Os	_	DET	DET	_	11	det	_	_
+10	Os	o	DET	DET	_	11	det	_	_
 11	contratos	contrato	NOUN	NOUN	_	15	nsubj	_	_
-12	de	_	ADP	ADP	_	13	case	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
 13	juros	juro	NOUN	NOUN	_	11	nmod	_	_
 14	futuros	futuro	ADJ	ADJ	_	13	amod	_	_
 15	encerraram	encerrar	VERB	VERB	_	0	root	_	_
-16	em	_	ADP	ADP	_	17	case	_	_
+16	em	em	ADP	ADP	_	17	case	_	_
 17	queda	queda	NOUN	NOUN	_	15	nmod	_	_
 18	nesta	_	ADP	ADP	_	21	case	_	_
 19	segunda	_	PROPN	PNOUN	_	21	amod	_	_
-20	-	_	PUNCT	.	_	21	punct	_	_
+20	-	-	PUNCT	.	_	21	punct	_	_
 21	feira	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
-22	,	_	PUNCT	.	_	24	punct	_	_
-23	com	_	ADP	ADP	_	24	case	_	_
+22	,	,	PUNCT	.	_	24	punct	_	_
+23	com	com	ADP	ADP	_	24	case	_	_
 24	investidores	investidor	NOUN	NOUN	_	15	nmod	_	_
 25	aguardando	aguardar	VERB	VERB	_	24	acl:part	_	_
-26	a	_	DET	DET	_	27	det	_	_
+26	a	a	DET	DET	_	27	det	_	_
 27	liberação	liberação	NOUN	NOUN	_	25	obj	_	_
 28-29	da	_	_	_	_	_	_	_	_
 28	de	de	ADP	ADP	_	31	case	_	_
 29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 30	próxima	próximo	ADJ	ADJ	_	31	amod	_	_
 31	parcela	parcela	NOUN	NOUN	_	27	nmod	_	_
-32	de	_	ADP	ADP	_	33	case	_	_
+32	de	de	ADP	ADP	_	33	case	_	_
 33	ajuda	ajuda	NOUN	NOUN	_	31	nmod	_	_
-34	para	_	ADP	ADP	_	36	case	_	_
-35	a	_	DET	DET	_	36	det	_	_
+34	para	para	ADP	ADP	_	36	case	_	_
+35	a	a	DET	DET	_	36	det	_	_
 36	Grécia	_	PROPN	PNOUN	_	27	nmod	_	_
-37	e	_	CCONJ	CONJ	_	39	cc	_	_
+37	e	e	CCONJ	CONJ	_	39	cc	_	_
 38	ainda	ainda	ADV	ADV	_	39	advmod	_	_
 39	preocupados	preocupado	ADJ	ADJ	_	25	conj	_	_
-40	com	_	ADP	ADP	_	42	case	_	_
-41	a	_	DET	DET	_	42	det	_	_
+40	com	com	ADP	ADP	_	42	case	_	_
+41	a	a	DET	DET	_	42	det	_	_
 42	questão	questão	NOUN	NOUN	_	39	nmod	_	_
 43-44	do	_	_	_	_	_	_	_	_
 43	de	de	ADP	ADP	_	45	case	_	_
@@ -223,22 +223,22 @@
 48	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	49	det	_	_
 49	Estados	_	PROPN	PNOUN	_	42	nmod	_	_
 50	Unidos	_	PROPN	PNOUN	_	49	amod	_	SpaceAfter=No
-51	.	_	PUNCT	.	_	15	punct	_	_
+51	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = test-s107
 # text = Mas o lance não passou dum acidente de percurso.
 1	Mas	_	CCONJ	CONJ	_	5	cc	_	_
-2	o	_	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	_	3	det	_	_
 3	lance	lance	NOUN	NOUN	_	5	nsubj	_	_
 4	não	não	ADV	ADV	Polarity=Neg	5	advmod	_	_
 5	passou	passar	VERB	VERB	_	0	root	_	_
 6-7	dum	_	_	_	_	_	_	_	_
-6	de	_	ADP	ADP	_	8	case	_	_
-7	um	_	DET	DET	_	8	det	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	um	um	DET	DET	_	8	det	_	_
 8	acidente	acidente	NOUN	NOUN	_	5	nmod	_	_
-9	de	_	ADP	ADP	_	10	case	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
 10	percurso	percurso	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-11	.	_	PUNCT	.	_	5	punct	_	_
+11	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = test-s108
 # text = Não vejo desequilíbrio no sentido de influenciar a disputa.
@@ -251,35 +251,35 @@
 6	sentido	sentido	NOUN	NOUN	_	3	nmod	_	_
 7	de	_	ADP	ADP	_	8	mark	_	_
 8	influenciar	influenciar	VERB	VERB	_	6	nmod	_	_
-9	a	_	DET	DET	_	10	det	_	_
+9	a	a	DET	DET	_	10	det	_	_
 10	disputa	disputa	NOUN	NOUN	_	8	obj	_	SpaceAfter=No
-11	.	_	PUNCT	.	_	2	punct	_	_
+11	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = test-s109
 # text = Mesmo assim, alheios aos perigosos as pessoas caminham sem a menor preocupação, e chegam a saltar os pedados de parede que despencaram da fachada do imóvel.
 1	Mesmo	mesmo	ADV	ADV	_	2	advmod	_	_
 2	assim	assim	ADV	ADV	_	10	advmod	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	2	punct	_	_
+3	,	,	PUNCT	.	_	2	punct	_	_
 4	alheios	alheio	ADJ	ADJ	_	9	amod	_	_
 5-6	aos	_	_	_	_	_	_	_	_
 5	a	a	ADP	ADP	_	7	case	_	_
 6	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	perigosos	_	NOUN	NOUN	_	4	nmod	_	_
-8	as	_	DET	DET	_	9	det	_	_
+8	as	o	DET	DET	_	9	det	_	_
 9	pessoas	pessoa	NOUN	NOUN	_	10	nsubj	_	_
 10	caminham	caminhar	VERB	VERB	_	0	root	_	_
 11	sem	_	ADP	ADP	_	14	case	_	_
-12	a	_	DET	DET	_	14	det	_	_
+12	a	a	DET	DET	_	14	det	_	_
 13	menor	menor	ADJ	ADJ	_	14	amod	_	_
 14	preocupação	preocupação	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	19	punct	_	_
-16	e	_	CCONJ	CONJ	_	19	cc	_	_
+15	,	,	PUNCT	.	_	19	punct	_	_
+16	e	e	CCONJ	CONJ	_	19	cc	_	_
 17	chegam	chegar	AUX	AUX	_	19	aux	_	_
 18	a	_	ADP	ADP	_	19	mark	_	_
 19	saltar	saltar	VERB	VERB	_	10	conj	_	_
-20	os	_	DET	DET	_	21	det	_	_
+20	os	o	DET	DET	_	21	det	_	_
 21	pedados	_	NOUN	NOUN	_	19	obj	_	_
-22	de	_	ADP	ADP	_	23	case	_	_
+22	de	de	ADP	ADP	_	23	case	_	_
 23	parede	parede	NOUN	NOUN	_	21	nmod	_	_
 24	que	_	PRON	PRON	_	25	nsubj	_	_
 25	despencaram	despencar	VERB	VERB	_	21	acl:relcl	_	_
@@ -291,5 +291,5 @@
 29	de	de	ADP	ADP	_	31	case	_	_
 30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	imóvel	imóvel	NOUN	NOUN	_	28	nmod	_	SpaceAfter=No
-32	.	_	PUNCT	.	_	10	punct	_	_
+32	.	.	PUNCT	.	_	10	punct	_	_
 

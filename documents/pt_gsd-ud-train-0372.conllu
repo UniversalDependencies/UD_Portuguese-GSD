@@ -2,45 +2,45 @@
 # text = Desse modo, vihuela e viola identificam o instrumento pinçado, semelhante a um violão, atualmente chamado simplesmente de vihuela.
 1	Desse	_	ADP	ADP	_	2	case	_	_
 2	modo	modo	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	2	punct	_	_
+3	,	,	PUNCT	.	_	2	punct	_	_
 4	vihuela	_	NOUN	NOUN	_	7	nsubj	_	_
-5	e	_	CCONJ	CONJ	_	6	cc	_	_
+5	e	e	CCONJ	CONJ	_	6	cc	_	_
 6	viola	viola	NOUN	NOUN	_	4	conj	_	_
 7	identificam	identificar	VERB	VERB	_	0	root	_	_
-8	o	_	DET	DET	_	9	det	_	_
+8	o	o	DET	DET	_	9	det	_	_
 9	instrumento	instrumento	NOUN	NOUN	_	7	obj	_	_
 10	pinçado	_	ADJ	ADJ	_	9	amod	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	12	punct	_	_
+11	,	,	PUNCT	.	_	12	punct	_	_
 12	semelhante	semelhante	ADJ	ADJ	_	9	amod	_	_
 13	a	_	ADP	ADP	_	15	case	_	_
-14	um	_	DET	DET	_	15	det	_	_
+14	um	um	DET	DET	_	15	det	_	_
 15	violão	violão	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	12	punct	_	_
+16	,	,	PUNCT	.	_	12	punct	_	_
 17	atualmente	atualmente	ADV	ADV	_	18	advmod	_	_
 18	chamado	chamar	VERB	VERB	_	9	acl:part	_	_
 19	simplesmente	simplesmente	ADV	ADV	_	18	advmod	_	_
-20	de	_	ADP	ADP	_	21	case	_	_
+20	de	de	ADP	ADP	_	21	case	_	_
 21	vihuela	_	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
-22	.	_	PUNCT	.	_	7	punct	_	_
+22	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s3689
 # text = Antonio Vivarini (Antonio da Murano) (1440 -- 1480) foi um pintor veneziano do começo da Renascença.
 1	Antonio	_	PROPN	PNOUN	_	16	nsubj	_	_
 2	Vivarini	_	PROPN	PNOUN	_	1	flat	_	_
-3	(	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
+3	(	(	PUNCT	.	_	4	punct	_	SpaceAfter=No
 4	Antonio	_	PROPN	PNOUN	_	1	appos	_	_
 5-6	da	_	_	_	_	_	_	_	_
 5	de	de	ADP	ADP	_	7	case	_	_
 6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Murano	_	PROPN	PNOUN	_	4	nmod	_	SpaceAfter=No
-8	)	_	PUNCT	.	_	4	punct	_	_
-9	(	_	PUNCT	.	_	10	punct	_	SpaceAfter=No
+8	)	)	PUNCT	.	_	4	punct	_	_
+9	(	(	PUNCT	.	_	10	punct	_	SpaceAfter=No
 10	1440	_	NUM	NUM	NumType=Card	1	nmod	_	_
 11	--	_	PUNCT	.	_	10	punct	_	_
 12	1480	_	NUM	NUM	NumType=Card	10	dep	_	SpaceAfter=No
-13	)	_	PUNCT	.	_	10	punct	_	_
+13	)	)	PUNCT	.	_	10	punct	_	_
 14	foi	_	AUX	AUX	_	16	cop	_	_
-15	um	_	DET	DET	_	16	det	_	_
+15	um	um	DET	DET	_	16	det	_	_
 16	pintor	pintor	NOUN	NOUN	_	0	root	_	_
 17	veneziano	veneziano	ADJ	ADJ	_	16	amod	_	_
 18-19	do	_	_	_	_	_	_	_	_
@@ -51,7 +51,7 @@
 21	de	de	ADP	ADP	_	23	case	_	_
 22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	Renascença	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
-24	.	_	PUNCT	.	_	16	punct	_	_
+24	.	.	PUNCT	.	_	16	punct	_	_
 
 # sent_id = train-s3690
 # text = Luiz Adriano é acusado de ter, segundo a Uefa, violado os princípios de conduta estabelecidos no artigo 5 das Regulações Disciplinares da entidade.
@@ -61,15 +61,15 @@
 4	acusado	acusar	VERB	VERB	_	0	root	_	_
 5	de	_	ADP	ADP	_	12	mark	_	_
 6	ter	ter	AUX	AUX	_	12	aux	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	10	punct	_	_
+7	,	,	PUNCT	.	_	10	punct	_	_
 8	segundo	_	ADP	ADP	_	10	case	_	_
-9	a	_	DET	DET	_	10	det	_	_
+9	a	a	DET	DET	_	10	det	_	_
 10	Uefa	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	10	punct	_	_
+11	,	,	PUNCT	.	_	10	punct	_	_
 12	violado	violar	VERB	VERB	_	4	nmod	_	_
-13	os	_	DET	DET	_	14	det	_	_
+13	os	o	DET	DET	_	14	det	_	_
 14	princípios	princípio	NOUN	NOUN	_	12	obj	_	_
-15	de	_	ADP	ADP	_	16	case	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
 16	conduta	conduta	NOUN	NOUN	_	14	nmod	_	_
 17	estabelecidos	estabelecer	VERB	VERB	_	14	acl:part	_	_
 18-19	no	_	_	_	_	_	_	_	_
@@ -86,16 +86,16 @@
 26	de	de	ADP	ADP	_	28	case	_	_
 27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	entidade	entidade	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
-29	.	_	PUNCT	.	_	4	punct	_	_
+29	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s3691
 # text = Por isso, este é o momento de recordar o que está verdadeiramente em jogo nesta eleição, agora que o povo venezuelano é convocado a votar.
 1	Por	_	ADP	ADP	_	2	case	_	_
 2	isso	_	PRON	PRON	_	7	nmod	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	2	punct	_	_
+3	,	,	PUNCT	.	_	2	punct	_	_
 4	este	_	PRON	PRON	_	7	nsubj	_	_
 5	é	ser	AUX	AUX	_	7	cop	_	_
-6	o	_	DET	DET	_	7	det	_	_
+6	o	o	DET	DET	_	7	det	_	_
 7	momento	momento	NOUN	NOUN	_	0	root	_	_
 8	de	_	ADP	ADP	_	9	mark	_	_
 9	recordar	recordar	VERB	VERB	_	7	nmod	_	_
@@ -103,62 +103,62 @@
 11	que	_	PRON	PRON	_	12	nsubj	_	_
 12	está	estar	VERB	VERB	_	10	acl:relcl	_	_
 13	verdadeiramente	verdadeiramente	ADV	ADV	_	12	advmod	_	_
-14	em	_	ADP	ADP	_	15	case	_	_
+14	em	em	ADP	ADP	_	15	case	_	_
 15	jogo	jogo	NOUN	NOUN	_	12	nmod	_	_
 16	nesta	_	ADP	ADP	_	17	case	_	_
 17	eleição	eleição	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
-18	,	_	PUNCT	.	_	25	punct	_	_
+18	,	,	PUNCT	.	_	25	punct	_	_
 19	agora	agora	ADV	ADV	_	25	mark	_	_
 20	que	_	CCONJ	CONJ	_	19	fixed	_	_
-21	o	_	DET	DET	_	22	det	_	_
+21	o	o	DET	DET	_	22	det	_	_
 22	povo	povo	NOUN	NOUN	_	25	nsubj:pass	_	_
 23	venezuelano	venezuelano	ADJ	ADJ	_	22	amod	_	_
 24	é	ser	AUX	AUX	_	25	aux:pass	_	_
 25	convocado	convocar	VERB	VERB	_	7	advcl	_	_
 26	a	_	ADP	ADP	_	27	mark	_	_
 27	votar	votar	VERB	VERB	_	25	nmod	_	SpaceAfter=No
-28	.	_	PUNCT	.	_	7	punct	_	_
+28	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s3692
 # text = Toda a comunidade acadêmica esperava que, depois do doutorado, você fosse para uma universidade de renome no exterior, voltasse e estabelecesse uma linha de pesquisa própria.
 1	Toda	_	DET	DET	_	3	det	_	_
-2	a	_	DET	DET	_	3	det	_	_
+2	a	a	DET	DET	_	3	det	_	_
 3	comunidade	comunidade	NOUN	NOUN	_	5	nsubj	_	_
 4	acadêmica	acadêmico	ADJ	ADJ	_	3	amod	_	_
 5	esperava	esperar	VERB	VERB	_	0	root	_	_
-6	que	_	CCONJ	CONJ	_	14	mark	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	14	punct	_	_
+6	que	que	CCONJ	CONJ	_	14	mark	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	14	punct	_	_
 8	depois	depois	ADV	ADV	_	11	case	_	_
 9-10	do	_	_	_	_	_	_	_	_
 9	de	de	ADP	ADP	_	8	case	_	_
 10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 11	doutorado	doutorado	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	11	punct	_	_
+12	,	,	PUNCT	.	_	11	punct	_	_
 13	você	_	PRON	PRON	_	14	nsubj	_	_
 14	fosse	_	VERB	VERB	_	5	ccomp	_	_
-15	para	_	ADP	ADP	_	17	case	_	_
-16	uma	_	DET	DET	_	17	det	_	_
+15	para	para	ADP	ADP	_	17	case	_	_
+16	uma	um	DET	DET	_	17	det	_	_
 17	universidade	universidade	NOUN	NOUN	_	14	nmod	_	_
-18	de	_	ADP	ADP	_	19	case	_	_
+18	de	de	ADP	ADP	_	19	case	_	_
 19	renome	renome	NOUN	NOUN	_	17	nmod	_	_
 20-21	no	_	_	_	_	_	_	_	_
 20	em	em	ADP	ADP	_	22	case	_	_
 21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	exterior	exterior	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
-23	,	_	PUNCT	.	_	24	punct	_	_
+23	,	,	PUNCT	.	_	24	punct	_	_
 24	voltasse	voltar	VERB	VERB	_	14	conj	_	_
-25	e	_	CCONJ	CONJ	_	26	cc	_	_
+25	e	e	CCONJ	CONJ	_	26	cc	_	_
 26	estabelecesse	estabelecer	VERB	VERB	_	14	conj	_	_
-27	uma	_	DET	DET	_	28	det	_	_
+27	uma	um	DET	DET	_	28	det	_	_
 28	linha	_	NOUN	NOUN	_	26	obj	_	_
-29	de	_	ADP	ADP	_	30	case	_	_
+29	de	de	ADP	ADP	_	30	case	_	_
 30	pesquisa	pesquisa	NOUN	NOUN	_	28	nmod	_	_
 31	própria	próprio	ADJ	ADJ	_	28	amod	_	SpaceAfter=No
-32	.	_	PUNCT	.	_	5	punct	_	_
+32	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s3693
 # text = O Grupo Gay da Bahia tem um trabalho bastante interessante quando o assunto é esse.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	Grupo	_	PROPN	PNOUN	_	7	nsubj	_	_
 3	Gay	_	PROPN	PNOUN	_	2	flat	_	_
 4-5	da	_	_	_	_	_	_	_	_
@@ -166,32 +166,32 @@
 5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Bahia	_	PROPN	PNOUN	_	2	nmod	_	_
 7	tem	ter	VERB	VERB	_	0	root	_	_
-8	um	_	DET	DET	_	9	det	_	_
+8	um	um	DET	DET	_	9	det	_	_
 9	trabalho	trabalho	NOUN	NOUN	_	7	obj	_	_
 10	bastante	bastante	ADV	ADV	_	11	advmod	_	_
 11	interessante	interessante	ADJ	ADJ	_	9	amod	_	_
 12	quando	_	CCONJ	CONJ	_	16	mark	_	_
-13	o	_	DET	DET	_	14	det	_	_
+13	o	o	DET	DET	_	14	det	_	_
 14	assunto	assunto	NOUN	NOUN	_	16	nsubj	_	_
 15	é	ser	AUX	AUX	_	16	cop	_	_
 16	esse	_	PRON	PRON	_	7	advcl	_	SpaceAfter=No
-17	.	_	PUNCT	.	_	7	punct	_	_
+17	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s3694
 # text = Até agora, não houve incidentes, de acordo com o ministério.
 1	Até	_	ADP	ADP	_	2	mark	_	_
 2	agora	agora	ADV	ADV	_	5	nmod	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	2	punct	_	_
+3	,	,	PUNCT	.	_	2	punct	_	_
 4	não	não	ADV	ADV	Polarity=Neg	5	advmod	_	_
 5	houve	haver	VERB	VERB	_	0	root	_	_
 6	incidentes	incidente	NOUN	NOUN	_	5	obj	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	9	punct	_	_
-8	de	_	ADP	ADP	_	9	case	_	_
+7	,	,	PUNCT	.	_	9	punct	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
 9	acordo	acordo	NOUN	NOUN	_	5	nmod	_	_
-10	com	_	ADP	ADP	_	12	case	_	_
-11	o	_	DET	DET	_	12	det	_	_
+10	com	com	ADP	ADP	_	12	case	_	_
+11	o	o	DET	DET	_	12	det	_	_
 12	ministério	ministério	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
-13	.	_	PUNCT	.	_	5	punct	_	_
+13	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s3695
 # text = Um erro também comum é não negociar a redução de juros no pagamento antecipado da parcela.
@@ -202,9 +202,9 @@
 5	é	ser	AUX	AUX	_	2	cop	_	_
 6	não	não	ADV	ADV	Polarity=Neg	7	advmod	_	_
 7	negociar	negociar	VERB	VERB	_	2	csubj	_	_
-8	a	_	DET	DET	_	9	det	_	_
+8	a	a	DET	DET	_	9	det	_	_
 9	redução	redução	NOUN	NOUN	_	7	obj	_	_
-10	de	_	ADP	ADP	_	11	case	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
 11	juros	juro	NOUN	NOUN	_	9	nmod	_	_
 12-13	no	_	_	_	_	_	_	_	_
 12	em	em	ADP	ADP	_	14	case	_	_
@@ -215,7 +215,7 @@
 16	de	de	ADP	ADP	_	18	case	_	_
 17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	parcela	parcela	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	2	punct	_	_
+19	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s3696
 # text = Mas meu assunto aqui é a escolha de Mauro Mendes e estou me desviando dele.
@@ -224,22 +224,22 @@
 3	assunto	assunto	NOUN	NOUN	_	7	nsubj	_	_
 4	aqui	aqui	ADV	ADV	_	7	advmod	_	_
 5	é	ser	AUX	AUX	_	7	cop	_	_
-6	a	_	DET	DET	_	7	det	_	_
+6	a	a	DET	DET	_	7	det	_	_
 7	escolha	escolha	NOUN	NOUN	_	0	root	_	_
-8	de	_	ADP	ADP	_	9	case	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
 9	Mauro	_	PROPN	PNOUN	_	7	nmod	_	_
 10	Mendes	_	PROPN	PNOUN	_	9	flat	_	_
-11	e	_	CCONJ	CONJ	_	14	cc	_	_
+11	e	e	CCONJ	CONJ	_	14	cc	_	_
 12	estou	estar	AUX	AUX	_	14	aux	_	_
 13	me	_	PRON	PRON	_	14	obj	_	_
 14	desviando	desviar	VERB	VERB	_	7	conj	_	_
 15	dele	_	X	ADPPRON	_	14	nmod	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	7	punct	_	_
+16	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s3697
 # text = Atualmente, estes foram incorporados na atual Lei de Meios.
 1	Atualmente	atualmente	ADV	ADV	_	5	advmod	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	1	punct	_	_
+2	,	,	PUNCT	.	_	1	punct	_	_
 3	estes	_	PRON	PRON	_	5	nsubj:pass	_	_
 4	foram	_	AUX	AUX	_	5	aux:pass	_	_
 5	incorporados	incorporar	VERB	VERB	_	0	root	_	_
@@ -248,7 +248,7 @@
 7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 8	atual	atual	ADJ	ADJ	_	9	amod	_	_
 9	Lei	_	PROPN	PNOUN	_	5	nmod	_	_
-10	de	_	ADP	ADP	_	11	case	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
 11	Meios	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
-12	.	_	PUNCT	.	_	5	punct	_	_
+12	.	.	PUNCT	.	_	5	punct	_	_
 

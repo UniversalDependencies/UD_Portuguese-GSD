@@ -5,27 +5,27 @@
 3	também	também	ADV	ADV	_	5	advmod	_	_
 4	é	ser	AUX	AUX	_	5	cop	_	_
 5	novidade	novidade	NOUN	NOUN	_	0	root	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	12	punct	_	_
+6	,	,	PUNCT	.	_	12	punct	_	_
 7	já	já	ADV	ADV	_	12	mark	_	_
 8	que	_	CCONJ	CONJ	_	7	fixed	_	_
 9	Celso	_	PROPN	PNOUN	_	12	nsubj	_	_
 10	Roth	_	PROPN	PNOUN	_	9	flat	_	_
 11	vai	ir	AUX	AUX	_	12	aux	_	_
 12	montar	montar	VERB	VERB	_	5	advcl	_	_
-13	um	_	DET	DET	_	14	det	_	_
+13	um	um	DET	DET	_	14	det	_	_
 14	esquema	esquema	NOUN	NOUN	_	12	obj	_	_
 15	especial	especial	ADJ	ADJ	_	14	amod	_	_
 16	para	_	ADP	ADP	_	17	mark	_	_
 17	marcar	marcar	VERB	VERB	_	12	advcl	_	_
 18	Neymar	_	PROPN	PNOUN	_	17	obj	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	5	punct	_	_
+19	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s3009
 # text = Van Buren é uma cidade localizada no estado americano de Arkansas, no Condado de Crawford.
 1	Van	_	PROPN	PNOUN	_	5	nsubj	_	_
 2	Buren	_	PROPN	PNOUN	_	1	flat	_	_
 3	é	ser	AUX	AUX	_	5	cop	_	_
-4	uma	_	DET	DET	_	5	det	_	_
+4	uma	um	DET	DET	_	5	det	_	_
 5	cidade	cidade	NOUN	NOUN	_	0	root	_	_
 6	localizada	localizar	VERB	VERB	_	5	acl:part	_	_
 7-8	no	_	_	_	_	_	_	_	_
@@ -33,32 +33,32 @@
 8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	estado	estado	NOUN	NOUN	_	6	nmod	_	_
 10	americano	americano	ADJ	ADJ	_	9	amod	_	_
-11	de	_	ADP	ADP	_	12	case	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
 12	Arkansas	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	16	punct	_	_
+13	,	,	PUNCT	.	_	16	punct	_	_
 14-15	no	_	_	_	_	_	_	_	_
 14	em	em	ADP	ADP	_	16	case	_	_
 15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	Condado	_	PROPN	PNOUN	_	6	nmod	_	_
-17	de	_	ADP	ADP	_	18	case	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
 18	Crawford	_	PROPN	PNOUN	_	16	nmod	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	5	punct	_	_
+19	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s3010
 # text = Nesse sentido, anunciou que os novos desempregados verão reduzido o valor de seu auxílio a partir do sexto mês, embora será mantido o período máximo de 24 meses de duração desta ajuda.
 1	Nesse	_	ADP	ADP	_	2	case	_	_
 2	sentido	sentido	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	2	punct	_	_
+3	,	,	PUNCT	.	_	2	punct	_	_
 4	anunciou	anunciar	VERB	VERB	_	0	root	_	_
-5	que	_	CCONJ	CONJ	_	9	mark	_	_
-6	os	_	DET	DET	_	8	det	_	_
+5	que	que	CCONJ	CONJ	_	9	mark	_	_
+6	os	o	DET	DET	_	8	det	_	_
 7	novos	novo	ADJ	ADJ	_	8	amod	_	_
 8	desempregados	desempregado	NOUN	NOUN	_	9	nsubj	_	_
 9	verão	ver	VERB	VERB	_	4	ccomp	_	_
 10	reduzido	reduzido	ADJ	ADJ	_	9	xcomp	_	_
-11	o	_	DET	DET	_	12	det	_	_
+11	o	o	DET	DET	_	12	det	_	_
 12	valor	valor	NOUN	NOUN	_	10	nsubj	_	_
-13	de	_	ADP	ADP	_	15	case	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
 14	seu	_	DET	DET	_	15	det:poss	_	_
 15	auxílio	auxílio	NOUN	NOUN	_	12	nmod	_	_
 16	a	_	ADP	ADP	_	17	mark	_	_
@@ -68,67 +68,67 @@
 19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 20	sexto	_	ADJ	ADJ	_	21	amod	_	_
 21	mês	mês	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
-22	,	_	PUNCT	.	_	25	punct	_	_
+22	,	,	PUNCT	.	_	25	punct	_	_
 23	embora	_	CCONJ	CONJ	_	25	mark	_	_
 24	será	ser	AUX	AUX	_	25	aux:pass	_	_
 25	mantido	manter	VERB	VERB	_	9	advcl	_	_
-26	o	_	DET	DET	_	27	det	_	_
+26	o	o	DET	DET	_	27	det	_	_
 27	período	período	NOUN	NOUN	_	25	nsubj:pass	_	_
 28	máximo	máximo	ADJ	ADJ	_	27	amod	_	_
-29	de	_	ADP	ADP	_	31	case	_	_
+29	de	de	ADP	ADP	_	31	case	_	_
 30	24	_	NUM	NUM	NumType=Card	31	nummod	_	_
 31	meses	mês	NOUN	NOUN	_	27	nmod	_	_
-32	de	_	ADP	ADP	_	33	case	_	_
+32	de	de	ADP	ADP	_	33	case	_	_
 33	duração	duração	NOUN	NOUN	_	31	nmod	_	_
 34	desta	_	ADP	ADP	_	35	case	_	_
 35	ajuda	ajuda	NOUN	NOUN	_	33	nmod	_	SpaceAfter=No
-36	.	_	PUNCT	.	_	4	punct	_	_
+36	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s3011
 # text = Todos os traços estão conectados.
 1	Todos	_	DET	DET	_	3	det	_	_
-2	os	_	DET	DET	_	3	det	_	_
+2	os	o	DET	DET	_	3	det	_	_
 3	traços	traço	NOUN	NOUN	_	4	nsubj	_	_
 4	estão	estar	VERB	VERB	_	0	root	_	_
 5	conectados	conectado	ADJ	ADJ	_	4	xcomp:adj	_	SpaceAfter=No
-6	.	_	PUNCT	.	_	4	punct	_	_
+6	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s3012
 # text = Em maio deste ano, Bulgareli renunciou ao cargo de prefeito, alegando motivos de saúde para a saída.
-1	Em	_	ADP	ADP	_	2	case	_	_
+1	Em	em	ADP	ADP	_	2	case	_	_
 2	maio	_	PROPN	PNOUN	_	7	nmod	_	_
 3	deste	_	ADP	ADP	_	4	case	_	_
 4	ano	ano	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	2	punct	_	_
+5	,	,	PUNCT	.	_	2	punct	_	_
 6	Bulgareli	_	PROPN	PNOUN	_	7	nsubj	_	_
 7	renunciou	renunciar	VERB	VERB	_	0	root	_	_
 8-9	ao	_	_	_	_	_	_	_	_
 8	a	a	ADP	ADP	_	10	case	_	_
 9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	cargo	cargo	NOUN	NOUN	_	7	nmod	_	_
-11	de	_	ADP	ADP	_	12	case	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
 12	prefeito	prefeito	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	14	punct	_	_
+13	,	,	PUNCT	.	_	14	punct	_	_
 14	alegando	alegar	VERB	VERB	_	7	acl:part	_	_
 15	motivos	motivo	NOUN	NOUN	_	14	obj	_	_
-16	de	_	ADP	ADP	_	17	case	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
 17	saúde	saúde	NOUN	NOUN	_	15	nmod	_	_
-18	para	_	ADP	ADP	_	20	case	_	_
-19	a	_	DET	DET	_	20	det	_	_
+18	para	para	ADP	ADP	_	20	case	_	_
+19	a	a	DET	DET	_	20	det	_	_
 20	saída	saída	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
-21	.	_	PUNCT	.	_	7	punct	_	_
+21	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s3013
 # text = Foi o fizeram o Facebook, numa estratégia que ganhou intensidade a partir da contratação de Raphael Vasconcellos, ex - AgênciaClick (revelada em maio deste ano), e o Google, que há tempos vem trabalhando para aumentar o conhecimento dos profissionais de comunicação a respeito de seus produtos e pacotes.
 1	Foi	_	AUX	AUX	_	2	cop	_	_
 2	o	_	PRON	PRON	_	0	root	_	_
 3	fizeram	fazer	VERB	VERB	_	2	acl:relcl	_	_
-4	o	_	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	_	5	det	_	_
 5	Facebook	_	PROPN	PNOUN	_	3	nsubj	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	9	punct	_	_
+6	,	,	PUNCT	.	_	9	punct	_	_
 7-8	numa	_	_	_	_	_	_	_	_
-7	em	_	ADP	ADP	_	9	case	_	_
-8	uma	_	DET	DET	_	9	det	_	_
+7	em	em	ADP	ADP	_	9	case	_	_
+8	uma	um	DET	DET	_	9	det	_	_
 9	estratégia	estratégia	NOUN	NOUN	_	5	nmod	_	_
 10	que	_	PRON	PRON	_	11	nsubj	_	_
 11	ganhou	ganhar	VERB	VERB	_	9	acl:relcl	_	_
@@ -139,25 +139,25 @@
 15	de	de	ADP	ADP	_	17	case	_	_
 16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	contratação	contratação	NOUN	NOUN	_	14	nmod	_	_
-18	de	_	ADP	ADP	_	19	case	_	_
+18	de	de	ADP	ADP	_	19	case	_	_
 19	Raphael	_	PROPN	PNOUN	_	17	nmod	_	_
 20	Vasconcellos	_	PROPN	PNOUN	_	19	flat	_	SpaceAfter=No
-21	,	_	PUNCT	.	_	22	punct	_	_
+21	,	,	PUNCT	.	_	22	punct	_	_
 22	ex	_	PART	PRT	_	19	appos	_	_
-23	-	_	PUNCT	.	_	22	punct	_	_
+23	-	-	PUNCT	.	_	22	punct	_	_
 24	AgênciaClick	_	PROPN	PNOUN	_	22	flat	_	_
-25	(	_	PUNCT	.	_	26	punct	_	SpaceAfter=No
+25	(	(	PUNCT	.	_	26	punct	_	SpaceAfter=No
 26	revelada	revelar	VERB	VERB	_	22	acl:part	_	_
-27	em	_	ADP	ADP	_	28	case	_	_
+27	em	em	ADP	ADP	_	28	case	_	_
 28	maio	_	PROPN	PNOUN	_	26	nmod	_	_
 29	deste	_	ADP	ADP	_	30	case	_	_
 30	ano	ano	NOUN	NOUN	_	28	nmod	_	SpaceAfter=No
-31	)	_	PUNCT	.	_	26	punct	_	SpaceAfter=No
-32	,	_	PUNCT	.	_	35	punct	_	_
+31	)	)	PUNCT	.	_	26	punct	_	SpaceAfter=No
+32	,	,	PUNCT	.	_	35	punct	_	_
 33	e	e	CCONJ	CONJ	_	35	cc	_	_
 34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	Google	_	PROPN	PNOUN	_	5	conj	_	SpaceAfter=No
-36	,	_	PUNCT	.	_	41	punct	_	_
+36	,	,	PUNCT	.	_	41	punct	_	_
 37	que	_	PRON	PRON	_	41	nsubj	_	_
 38	há	haver	VERB	VERB	_	41	advcl	_	_
 39	tempos	tempo	NOUN	NOUN	_	38	nmod	_	_
@@ -165,46 +165,46 @@
 41	trabalhando	trabalhar	VERB	VERB	_	35	acl:relcl	_	_
 42	para	_	ADP	ADP	_	43	mark	_	_
 43	aumentar	aumentar	VERB	VERB	_	41	nmod	_	_
-44	o	_	DET	DET	_	45	det	_	_
+44	o	o	DET	DET	_	45	det	_	_
 45	conhecimento	conhecimento	NOUN	NOUN	_	43	obj	_	_
 46-47	dos	_	_	_	_	_	_	_	_
 46	de	de	ADP	ADP	_	48	case	_	_
 47	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	48	det	_	_
 48	profissionais	profissional	NOUN	NOUN	_	45	nmod	_	_
-49	de	_	ADP	ADP	_	50	case	_	_
+49	de	de	ADP	ADP	_	50	case	_	_
 50	comunicação	comunicação	NOUN	NOUN	_	48	nmod	_	_
 51	a	_	ADP	ADP	_	52	case	_	_
 52	respeito	respeito	NOUN	NOUN	_	45	nmod	_	_
-53	de	_	ADP	ADP	_	55	case	_	_
+53	de	de	ADP	ADP	_	55	case	_	_
 54	seus	_	DET	DET	_	55	det:poss	_	_
 55	produtos	produto	NOUN	NOUN	_	52	nmod	_	_
-56	e	_	CCONJ	CONJ	_	57	cc	_	_
+56	e	e	CCONJ	CONJ	_	57	cc	_	_
 57	pacotes	pacote	NOUN	NOUN	_	55	conj	_	SpaceAfter=No
-58	.	_	PUNCT	.	_	2	punct	_	_
+58	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s3014
 # text = Entretanto, as informações levam em conta o conjunto da Região e não os estados de forma específica.
 1	Entretanto	entretanto	ADV	ADV	_	5	advmod	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	1	punct	_	_
-3	as	_	DET	DET	_	4	det	_	_
+2	,	,	PUNCT	.	_	1	punct	_	_
+3	as	o	DET	DET	_	4	det	_	_
 4	informações	informação	NOUN	NOUN	_	5	nsubj	_	_
 5	levam	levar	VERB	VERB	_	0	root	_	_
-6	em	_	ADP	ADP	_	7	case	_	_
+6	em	em	ADP	ADP	_	7	case	_	_
 7	conta	conta	NOUN	NOUN	_	5	nmod	_	_
-8	o	_	DET	DET	_	9	det	_	_
+8	o	o	DET	DET	_	9	det	_	_
 9	conjunto	conjunto	NOUN	NOUN	_	5	obj	_	_
 10-11	da	_	_	_	_	_	_	_	_
 10	de	de	ADP	ADP	_	12	case	_	_
 11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	Região	_	PROPN	PNOUN	_	9	nmod	_	_
-13	e	_	CCONJ	CONJ	_	16	cc	_	_
+13	e	e	CCONJ	CONJ	_	16	cc	_	_
 14	não	não	ADV	ADV	Polarity=Neg	16	advmod	_	_
-15	os	_	DET	DET	_	16	det	_	_
+15	os	o	DET	DET	_	16	det	_	_
 16	estados	estado	NOUN	NOUN	_	9	conj	_	_
-17	de	_	ADP	ADP	_	18	case	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
 18	forma	forma	NOUN	NOUN	_	16	nmod	_	_
 19	específica	específico	ADJ	ADJ	_	18	amod	_	SpaceAfter=No
-20	.	_	PUNCT	.	_	5	punct	_	_
+20	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s3015
 # text = No Volume 1, Edição 6 da Broken Records Magazine Glen Power diz "Foi muito bom, partilhar o mesmo palco com Paul McCartney e assistir ao show dele ... mas o meu favorito sempre foi Ringo Starr."
@@ -213,7 +213,7 @@
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Volume	_	PROPN	PNOUN	_	15	nmod	_	_
 4	1	_	NUM	NUM	NumType=Card	3	appos	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	6	punct	_	_
+5	,	,	PUNCT	.	_	6	punct	_	_
 6	Edição	_	PROPN	PNOUN	_	3	appos	_	_
 7	6	_	NUM	NUM	NumType=Card	6	appos	_	_
 8-9	da	_	_	_	_	_	_	_	_
@@ -225,19 +225,19 @@
 13	Glen	_	PROPN	PNOUN	_	15	nsubj	_	_
 14	Power	_	PROPN	PNOUN	_	13	flat	_	_
 15	diz	dizer	VERB	VERB	_	0	root	_	_
-16	"	_	PUNCT	.	_	17	punct	_	SpaceAfter=No
+16	"	"	PUNCT	.	_	17	punct	_	SpaceAfter=No
 17	Foi	_	VERB	VERB	_	15	ccomp	_	_
 18	muito	muito	ADV	ADV	_	19	advmod	_	_
 19	bom	bom	ADJ	ADJ	_	17	xcomp:adj	_	SpaceAfter=No
-20	,	_	PUNCT	.	_	21	punct	_	_
+20	,	,	PUNCT	.	_	21	punct	_	_
 21	partilhar	partilhar	VERB	VERB	_	17	csubj	_	_
-22	o	_	DET	DET	_	24	det	_	_
+22	o	o	DET	DET	_	24	det	_	_
 23	mesmo	mesmo	ADJ	ADJ	_	24	amod	_	_
 24	palco	palco	NOUN	NOUN	_	21	obj	_	_
-25	com	_	ADP	ADP	_	26	case	_	_
+25	com	com	ADP	ADP	_	26	case	_	_
 26	Paul	_	PROPN	PNOUN	_	21	nmod	_	_
 27	McCartney	_	PROPN	PNOUN	_	26	flat	_	_
-28	e	_	CCONJ	CONJ	_	29	cc	_	_
+28	e	e	CCONJ	CONJ	_	29	cc	_	_
 29	assistir	assistir	VERB	VERB	_	21	conj	_	_
 30-31	ao	_	_	_	_	_	_	_	_
 30	a	a	ADP	ADP	_	32	case	_	_
@@ -246,15 +246,15 @@
 33	dele	_	X	ADPPRON	_	32	det:poss	_	_
 34	...	_	PUNCT	.	_	21	punct	_	_
 35	mas	_	CCONJ	CONJ	_	41	cc	_	_
-36	o	_	DET	DET	_	38	det	_	_
+36	o	o	DET	DET	_	38	det	_	_
 37	meu	_	DET	DET	_	38	det:poss	_	_
 38	favorito	favorito	NOUN	NOUN	_	41	nsubj	_	_
 39	sempre	sempre	ADV	ADV	_	41	advmod	_	_
 40	foi	_	AUX	AUX	_	41	cop	_	_
 41	Ringo	_	PROPN	PNOUN	_	17	conj	_	_
 42	Starr	_	PROPN	PNOUN	_	41	flat	_	SpaceAfter=No
-43	.	_	PUNCT	.	_	15	punct	_	SpaceAfter=No
-44	"	_	PUNCT	.	_	15	punct	_	_
+43	.	.	PUNCT	.	_	15	punct	_	SpaceAfter=No
+44	"	"	PUNCT	.	_	15	punct	_	_
 
 # sent_id = train-s3016
 # text = Na véspera de São João, o estabelecimento abre normalmente, com horário reduzido, das 9h às 18h.
@@ -262,19 +262,19 @@
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	véspera	véspera	NOUN	NOUN	_	10	nmod	_	_
-4	de	_	ADP	ADP	_	5	case	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
 5	São	_	PROPN	PNOUN	_	3	nmod	_	_
 6	João	_	PROPN	PNOUN	_	5	flat	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	3	punct	_	_
-8	o	_	DET	DET	_	9	det	_	_
+7	,	,	PUNCT	.	_	3	punct	_	_
+8	o	o	DET	DET	_	9	det	_	_
 9	estabelecimento	estabelecimento	NOUN	NOUN	_	10	nsubj	_	_
 10	abre	abrir	VERB	VERB	_	0	root	_	_
 11	normalmente	normalmente	ADV	ADV	_	10	advmod	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	14	punct	_	_
-13	com	_	ADP	ADP	_	14	case	_	_
+12	,	,	PUNCT	.	_	14	punct	_	_
+13	com	com	ADP	ADP	_	14	case	_	_
 14	horário	horário	NOUN	NOUN	_	10	nmod	_	_
 15	reduzido	reduzido	ADJ	ADJ	_	14	amod	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	14	punct	_	_
+16	,	,	PUNCT	.	_	14	punct	_	_
 17-18	das	_	_	_	_	_	_	_	_
 17	de	de	ADP	ADP	_	19	case	_	_
 18	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
@@ -283,20 +283,20 @@
 20	a	a	ADP	ADP	_	22	case	_	_
 21	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
 22	18h	_	NUM	NUM	NumType=Card	19	nmod	_	SpaceAfter=No
-23	.	_	PUNCT	.	_	10	punct	_	_
+23	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s3017
 # text = Por esse motivo, reorganizamos nosso modelo comercial ", afirma.
 1	Por	_	ADP	ADP	_	3	case	_	_
 2	esse	_	DET	DET	_	3	det	_	_
 3	motivo	motivo	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
 5	reorganizamos	reorganizar	VERB	VERB	_	11	ccomp	_	_
 6	nosso	_	DET	DET	_	7	det:poss	_	_
 7	modelo	modelo	NOUN	NOUN	_	5	obj	_	_
 8	comercial	comercial	ADJ	ADJ	_	7	amod	_	_
-9	"	_	PUNCT	.	_	5	punct	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	11	punct	_	_
+9	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	11	punct	_	_
 11	afirma	afirmar	VERB	VERB	_	0	root	_	SpaceAfter=No
-12	.	_	PUNCT	.	_	11	punct	_	_
+12	.	.	PUNCT	.	_	11	punct	_	_
 

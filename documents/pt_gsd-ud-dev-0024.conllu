@@ -2,27 +2,27 @@
 # text = Vale lembrar que rivais como a Apple TV, com uma oferta de conteúdo superior, custam por aqui R $ 400.
 1	Vale	_	VERB	VERB	_	0	root	_	_
 2	lembrar	lembrar	VERB	VERB	_	1	csubj	_	_
-3	que	_	CCONJ	CONJ	_	17	mark	_	_
+3	que	que	CCONJ	CONJ	_	17	mark	_	_
 4	rivais	rival	NOUN	NOUN	_	17	nsubj	_	_
-5	como	_	ADP	ADP	_	7	case	_	_
-6	a	_	DET	DET	_	7	det	_	_
+5	como	como	ADP	ADP	_	7	case	_	_
+6	a	a	DET	DET	_	7	det	_	_
 7	Apple	_	PROPN	PNOUN	_	4	nmod	_	_
 8	TV	_	PROPN	PNOUN	_	7	flat	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	12	punct	_	_
-10	com	_	ADP	ADP	_	12	case	_	_
-11	uma	_	DET	DET	_	12	det	_	_
+9	,	,	PUNCT	.	_	12	punct	_	_
+10	com	com	ADP	ADP	_	12	case	_	_
+11	uma	um	DET	DET	_	12	det	_	_
 12	oferta	oferta	NOUN	NOUN	_	4	nmod	_	_
-13	de	_	ADP	ADP	_	14	case	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
 14	conteúdo	conteúdo	NOUN	NOUN	_	12	nmod	_	_
 15	superior	superior	ADJ	ADJ	_	14	amod	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	12	punct	_	_
+16	,	,	PUNCT	.	_	12	punct	_	_
 17	custam	custar	VERB	VERB	_	2	ccomp	_	_
 18	por	_	ADP	ADP	_	19	mark	_	_
 19	aqui	aqui	ADV	ADV	_	17	nmod	_	_
 20	R	r	NOUN	NOUN	_	17	nmod	_	_
 21	$	_	SYM	SYM	_	20	flat	_	_
 22	400	_	NUM	NUM	NumType=Card	20	nummod	_	SpaceAfter=No
-23	.	_	PUNCT	.	_	1	punct	_	_
+23	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = dev-s231
 # text = Na cidade de Al Bab, perto de Aleppo, os bombardeios destruíram várias casas.
@@ -30,24 +30,24 @@
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	cidade	cidade	NOUN	NOUN	_	14	nmod	_	_
-4	de	_	ADP	ADP	_	5	case	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
 5	Al	_	PROPN	PNOUN	_	3	nmod	_	_
 6	Bab	_	PROPN	PNOUN	_	5	flat	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	8	punct	_	_
+7	,	,	PUNCT	.	_	8	punct	_	_
 8	perto	perto	ADV	ADV	_	3	advmod	_	_
-9	de	_	ADP	ADP	_	10	case	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
 10	Aleppo	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	8	punct	_	_
-12	os	_	DET	DET	_	13	det	_	_
+11	,	,	PUNCT	.	_	8	punct	_	_
+12	os	o	DET	DET	_	13	det	_	_
 13	bombardeios	bombardeio	NOUN	NOUN	_	14	nsubj	_	_
 14	destruíram	destruir	VERB	VERB	_	0	root	_	_
 15	várias	_	DET	DET	_	16	det	_	_
 16	casas	casa	NOUN	NOUN	_	14	obj	_	SpaceAfter=No
-17	.	_	PUNCT	.	_	14	punct	_	_
+17	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = dev-s232
 # text = A eleição na cidade que tem o quarto maior PIB do estado foi contaminada por questões judiciais.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	eleição	eleição	NOUN	NOUN	_	16	nsubj:pass	_	_
 3-4	na	_	_	_	_	_	_	_	_
 3	em	em	ADP	ADP	_	5	case	_	_
@@ -55,7 +55,7 @@
 5	cidade	cidade	NOUN	NOUN	_	2	nmod	_	_
 6	que	_	PRON	PRON	_	7	nsubj	_	_
 7	tem	ter	VERB	VERB	_	5	acl:relcl	_	_
-8	o	_	DET	DET	_	11	det	_	_
+8	o	o	DET	DET	_	11	det	_	_
 9	quarto	_	ADJ	ADJ	_	11	amod	_	_
 10	maior	maior	ADJ	ADJ	_	11	amod	_	_
 11	PIB	_	PROPN	PNOUN	_	7	obj	_	_
@@ -65,21 +65,21 @@
 14	estado	estado	NOUN	NOUN	_	11	nmod	_	_
 15	foi	_	AUX	AUX	_	16	aux:pass	_	_
 16	contaminada	contaminar	VERB	VERB	_	0	root	_	_
-17	por	_	ADP	ADP	_	18	case	_	_
+17	por	por	ADP	ADP	_	18	case	_	_
 18	questões	questão	NOUN	NOUN	_	16	nmod	_	_
 19	judiciais	judicial	ADJ	ADJ	_	18	amod	_	SpaceAfter=No
-20	.	_	PUNCT	.	_	16	punct	_	_
+20	.	.	PUNCT	.	_	16	punct	_	_
 
 # sent_id = dev-s233
 # text = O livro que conta a história dum dos estabelecimentos mais badalados da capital paranaense, o Cicarino Bar, deve sair em breve do forno da Posigraf.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	livro	livro	NOUN	NOUN	_	24	nsubj	_	_
 3	que	_	PRON	PRON	_	4	nsubj	_	_
 4	conta	contar	VERB	VERB	_	2	acl:relcl	_	_
-5	a	_	DET	DET	_	6	det	_	_
+5	a	a	DET	DET	_	6	det	_	_
 6	história	história	NOUN	NOUN	_	4	obj	_	_
 7-8	dum	_	_	_	_	_	_	_	_
-7	de	_	ADP	ADP	_	8	case	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
 8	um	_	PRON	PRON	_	6	nmod	_	_
 9-10	dos	_	_	_	_	_	_	_	_
 9	de	de	ADP	ADP	_	11	case	_	_
@@ -92,11 +92,11 @@
 15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	capital	capital	NOUN	NOUN	_	11	nmod	_	_
 17	paranaense	paranaense	ADJ	ADJ	_	16	amod	_	SpaceAfter=No
-18	,	_	PUNCT	.	_	20	punct	_	_
-19	o	_	DET	DET	_	20	det	_	_
+18	,	,	PUNCT	.	_	20	punct	_	_
+19	o	o	DET	DET	_	20	det	_	_
 20	Cicarino	_	PROPN	PNOUN	_	8	appos	_	_
 21	Bar	_	PROPN	PNOUN	_	20	flat	_	SpaceAfter=No
-22	,	_	PUNCT	.	_	20	punct	_	_
+22	,	,	PUNCT	.	_	20	punct	_	_
 23	deve	dever	AUX	AUX	_	24	aux	_	_
 24	sair	sair	VERB	VERB	_	0	root	_	_
 25	em	_	ADP	ADP	_	26	mark	_	_
@@ -109,15 +109,15 @@
 30	de	de	ADP	ADP	_	32	case	_	_
 31	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	Posigraf	_	PROPN	PNOUN	_	29	nmod	_	SpaceAfter=No
-33	.	_	PUNCT	.	_	24	punct	_	_
+33	.	.	PUNCT	.	_	24	punct	_	_
 
 # sent_id = dev-s234
 # text = O déficit vem desde o primeiro Governo depois da divisão do Estado (ocorrida ao final da década de 70) ", explicou Riva.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	déficit	déficit	NOUN	NOUN	_	3	nsubj	_	_
 3	vem	vir	VERB	VERB	_	28	ccomp	_	_
 4	desde	_	ADP	ADP	_	7	case	_	_
-5	o	_	DET	DET	_	7	det	_	_
+5	o	o	DET	DET	_	7	det	_	_
 6	primeiro	primeiro	ADJ	ADJ	_	7	amod	_	_
 7	Governo	_	PROPN	PNOUN	_	3	nmod	_	_
 8	depois	depois	ADV	ADV	_	11	case	_	_
@@ -129,7 +129,7 @@
 12	de	de	ADP	ADP	_	14	case	_	_
 13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	Estado	_	PROPN	PNOUN	_	11	nmod	_	_
-15	(	_	PUNCT	.	_	16	punct	_	SpaceAfter=No
+15	(	(	PUNCT	.	_	16	punct	_	SpaceAfter=No
 16	ocorrida	ocorrer	VERB	VERB	_	11	acl:part	_	_
 17-18	ao	_	_	_	_	_	_	_	_
 17	a	a	ADP	ADP	_	19	case	_	_
@@ -139,50 +139,50 @@
 20	de	de	ADP	ADP	_	22	case	_	_
 21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	década	década	NOUN	NOUN	_	19	nmod	_	_
-23	de	_	ADP	ADP	_	24	case	_	_
+23	de	de	ADP	ADP	_	24	case	_	_
 24	70	_	NUM	NUM	NumType=Card	22	nmod	_	SpaceAfter=No
-25	)	_	PUNCT	.	_	16	punct	_	_
-26	"	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
-27	,	_	PUNCT	.	_	28	punct	_	_
+25	)	)	PUNCT	.	_	16	punct	_	_
+26	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
+27	,	,	PUNCT	.	_	28	punct	_	_
 28	explicou	explicar	VERB	VERB	_	0	root	_	_
 29	Riva	_	PROPN	PNOUN	_	28	nsubj	_	SpaceAfter=No
-30	.	_	PUNCT	.	_	28	punct	_	_
+30	.	.	PUNCT	.	_	28	punct	_	_
 
 # sent_id = dev-s235
 # text = "Sempre quis dançar, mas não é tão fácil.
-1	"	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
 2	Sempre	sempre	ADV	ADV	_	3	advmod	_	_
 3	quis	querer	VERB	VERB	_	0	root	_	_
 4	dançar	dançar	VERB	VERB	_	3	xcomp	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	8	punct	_	_
+5	,	,	PUNCT	.	_	8	punct	_	_
 6	mas	_	CCONJ	CONJ	_	8	cc	_	_
 7	não	não	ADV	ADV	Polarity=Neg	8	advmod	_	_
 8	é	ser	VERB	VERB	_	3	conj	_	_
 9	tão	tão	ADV	ADV	_	10	advmod	_	_
 10	fácil	fácil	ADJ	ADJ	_	8	xcomp:adj	_	SpaceAfter=No
-11	.	_	PUNCT	.	_	3	punct	_	_
+11	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = dev-s236
 # text = O colo traz aproximação, afeto, amparo.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	colo	colo	NOUN	NOUN	_	3	nsubj	_	_
 3	traz	trazer	VERB	VERB	_	0	root	_	_
 4	aproximação	aproximação	NOUN	NOUN	_	3	obj	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	6	punct	_	_
+5	,	,	PUNCT	.	_	6	punct	_	_
 6	afeto	afeto	NOUN	NOUN	_	4	conj	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	8	punct	_	_
+7	,	,	PUNCT	.	_	8	punct	_	_
 8	amparo	amparo	NOUN	NOUN	_	4	conj	_	SpaceAfter=No
-9	.	_	PUNCT	.	_	3	punct	_	_
+9	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = dev-s237
 # text = É possível acabar com essa história.
 1	É	ser	VERB	VERB	_	0	root	_	_
 2	possível	possível	ADJ	ADJ	_	1	xcomp:adj	_	_
 3	acabar	acabar	VERB	VERB	_	1	csubj	_	_
-4	com	_	ADP	ADP	_	6	case	_	_
+4	com	com	ADP	ADP	_	6	case	_	_
 5	essa	_	DET	DET	_	6	det	_	_
 6	história	história	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
-7	.	_	PUNCT	.	_	1	punct	_	_
+7	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = dev-s238
 # text = 10minBola levantada na área paranista.
@@ -193,29 +193,29 @@
 4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	área	área	NOUN	NOUN	_	2	nmod	_	_
 6	paranista	_	ADJ	ADJ	_	5	amod	_	SpaceAfter=No
-7	.	_	PUNCT	.	_	1	punct	_	_
+7	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = dev-s239
 # text = Choros é um distrito do Peru, departamento de Cajamarca, localizada na província de Cutervo.
 1	Choros	_	PROPN	PNOUN	_	4	nsubj	_	_
 2	é	ser	AUX	AUX	_	4	cop	_	_
-3	um	_	DET	DET	_	4	det	_	_
+3	um	um	DET	DET	_	4	det	_	_
 4	distrito	distrito	NOUN	NOUN	_	0	root	_	_
 5-6	do	_	_	_	_	_	_	_	_
 5	de	de	ADP	ADP	_	7	case	_	_
 6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Peru	_	PROPN	PNOUN	_	4	nmod	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	9	punct	_	_
+8	,	,	PUNCT	.	_	9	punct	_	_
 9	departamento	departamento	NOUN	NOUN	_	4	appos	_	_
-10	de	_	ADP	ADP	_	11	case	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
 11	Cajamarca	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	9	punct	_	_
+12	,	,	PUNCT	.	_	9	punct	_	_
 13	localizada	localizar	VERB	VERB	_	9	acl:part	_	_
 14-15	na	_	_	_	_	_	_	_	_
 14	em	em	ADP	ADP	_	16	case	_	_
 15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	província	província	NOUN	NOUN	_	13	nmod	_	_
-17	de	_	ADP	ADP	_	18	case	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
 18	Cutervo	_	PROPN	PNOUN	_	16	nmod	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	4	punct	_	_
+19	.	.	PUNCT	.	_	4	punct	_	_
 

@@ -11,28 +11,28 @@
 8	serviço	serviço	NOUN	NOUN	_	6	nmod	_	_
 9	deste	_	ADP	ADP	_	10	case	_	_
 10	dogma	dogma	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-11	.	_	PUNCT	.	_	6	punct	_	_
+11	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s42
 # text = Se houver necessidade de reavaliação, irá solicitar.
 1	Se	_	CCONJ	CONJ	_	2	mark	_	_
 2	houver	haver	VERB	VERB	_	8	advcl	_	_
 3	necessidade	necessidade	NOUN	NOUN	_	2	obj	_	_
-4	de	_	ADP	ADP	_	5	case	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
 5	reavaliação	reavaliação	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	2	punct	_	_
+6	,	,	PUNCT	.	_	2	punct	_	_
 7	irá	_	AUX	AUX	_	8	aux	_	_
 8	solicitar	solicitar	VERB	VERB	_	0	root	_	SpaceAfter=No
-9	.	_	PUNCT	.	_	8	punct	_	_
+9	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s43
 # text = Agora, os pesquisadores estabeleceram um risco relacionado a um dos medicamentos usados para tratar a doença.
 1	Agora	agora	ADV	ADV	_	5	advmod	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	1	punct	_	_
-3	os	_	DET	DET	_	4	det	_	_
+2	,	,	PUNCT	.	_	1	punct	_	_
+3	os	o	DET	DET	_	4	det	_	_
 4	pesquisadores	pesquisador	NOUN	NOUN	_	5	nsubj	_	_
 5	estabeleceram	estabelecer	VERB	VERB	_	0	root	_	_
-6	um	_	DET	DET	_	7	det	_	_
+6	um	um	DET	DET	_	7	det	_	_
 7	risco	risco	NOUN	NOUN	_	5	obj	_	_
 8	relacionado	relacionado	ADJ	ADJ	_	7	amod	_	_
 9	a	_	ADP	ADP	_	10	case	_	_
@@ -44,14 +44,14 @@
 14	usados	usar	VERB	VERB	_	13	acl:part	_	_
 15	para	_	ADP	ADP	_	16	mark	_	_
 16	tratar	tratar	VERB	VERB	_	14	advcl	_	_
-17	a	_	DET	DET	_	18	det	_	_
+17	a	a	DET	DET	_	18	det	_	_
 18	doença	doença	NOUN	NOUN	_	16	obj	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	5	punct	_	_
+19	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s44
 # text = Porém, por enquanto deve ganhar novidades apenas do departamento médico.
 1	Porém	_	ADV	ADV	_	6	advmod	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	1	punct	_	_
+2	,	,	PUNCT	.	_	1	punct	_	_
 3	por	_	ADP	ADP	_	4	mark	_	_
 4	enquanto	enquanto	ADV	ADV	_	6	nmod	_	_
 5	deve	dever	AUX	AUX	_	6	aux	_	_
@@ -63,33 +63,33 @@
 10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	departamento	departamento	NOUN	NOUN	_	6	nmod	_	_
 12	médico	médico	ADJ	ADJ	_	11	amod	_	SpaceAfter=No
-13	.	_	PUNCT	.	_	6	punct	_	_
+13	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s45
 # text = Cercados por uma extensa tropa policial, os manifestantes gritam "Liberdade para as Pussy Riot" e "Fora Putin", conforme relatos do jornal britânico The Guardian.
 1	Cercados	cercado	ADJ	ADJ	_	9	amod	_	_
-2	por	_	ADP	ADP	_	5	case	_	_
-3	uma	_	DET	DET	_	5	det	_	_
+2	por	por	ADP	ADP	_	5	case	_	_
+3	uma	um	DET	DET	_	5	det	_	_
 4	extensa	extenso	ADJ	ADJ	_	5	amod	_	_
 5	tropa	tropa	NOUN	NOUN	_	1	nmod	_	_
 6	policial	policial	ADJ	ADJ	_	5	amod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	1	punct	_	_
-8	os	_	DET	DET	_	9	det	_	_
+7	,	,	PUNCT	.	_	1	punct	_	_
+8	os	o	DET	DET	_	9	det	_	_
 9	manifestantes	manifestante	NOUN	NOUN	_	10	nsubj	_	_
 10	gritam	gritar	VERB	VERB	_	0	root	_	_
-11	"	_	PUNCT	.	_	12	punct	_	SpaceAfter=No
+11	"	"	PUNCT	.	_	12	punct	_	SpaceAfter=No
 12	Liberdade	_	PROPN	PNOUN	_	10	obj	_	_
-13	para	_	ADP	ADP	_	15	case	_	_
-14	as	_	DET	DET	_	15	det	_	_
+13	para	para	ADP	ADP	_	15	case	_	_
+14	as	o	DET	DET	_	15	det	_	_
 15	Pussy	_	PROPN	PNOUN	_	12	nmod	_	_
 16	Riot	_	PROPN	PNOUN	_	15	flat	_	SpaceAfter=No
-17	"	_	PUNCT	.	_	20	punct	_	_
-18	e	_	CCONJ	CONJ	_	20	cc	_	_
-19	"	_	PUNCT	.	_	20	punct	_	SpaceAfter=No
+17	"	"	PUNCT	.	_	20	punct	_	_
+18	e	e	CCONJ	CONJ	_	20	cc	_	_
+19	"	"	PUNCT	.	_	20	punct	_	SpaceAfter=No
 20	Fora	_	PROPN	PNOUN	_	12	conj	_	_
 21	Putin	_	PROPN	PNOUN	_	20	dep	_	SpaceAfter=No
-22	"	_	PUNCT	.	_	20	punct	_	SpaceAfter=No
-23	,	_	PUNCT	.	_	25	punct	_	_
+22	"	"	PUNCT	.	_	20	punct	_	SpaceAfter=No
+23	,	,	PUNCT	.	_	25	punct	_	_
 24	conforme	_	ADP	ADP	_	25	case	_	_
 25	relatos	relato	NOUN	NOUN	_	10	nmod	_	_
 26-27	do	_	_	_	_	_	_	_	_
@@ -99,84 +99,84 @@
 29	britânico	britânico	ADJ	ADJ	_	28	amod	_	_
 30	The	_	PROPN	PNOUN	_	31	det	_	_
 31	Guardian	_	PROPN	PNOUN	_	28	appos	_	SpaceAfter=No
-32	.	_	PUNCT	.	_	10	punct	_	_
+32	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s46
 # text = Para o Android, o melhor é acessar diretamente a URL do WebcamXP.
 1	Para	_	ADP	ADP	_	3	case	_	_
-2	o	_	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	_	3	det	_	_
 3	Android	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
-5	o	_	DET	DET	_	6	det	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	o	o	DET	DET	_	6	det	_	_
 6	melhor	melhor	NOUN	NOUN	_	0	root	_	_
 7	é	ser	AUX	AUX	_	6	cop	_	_
 8	acessar	_	VERB	VERB	_	6	csubj	_	_
 9	diretamente	diretamente	ADV	ADV	_	8	advmod	_	_
-10	a	_	DET	DET	_	11	det	_	_
+10	a	a	DET	DET	_	11	det	_	_
 11	URL	_	NOUN	NOUN	_	8	obj	_	_
 12-13	do	_	_	_	_	_	_	_	_
 12	de	de	ADP	ADP	_	14	case	_	_
 13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	WebcamXP	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
-15	.	_	PUNCT	.	_	6	punct	_	_
+15	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s47
 # text = Em relação à educação, a tecnologia vai agir como um processo facilitador e enriquecedor da mesma, pois procura auxiliar o processo de aprendizagem disponibilizando para a sociedade novas formas de ensino, ou ainda aperfeiçoando métodos antigos através de recursos inovadores.
-1	Em	_	ADP	ADP	_	2	case	_	_
+1	Em	em	ADP	ADP	_	2	case	_	_
 2	relação	relação	NOUN	NOUN	_	10	nmod	_	_
 3-4	à	_	_	_	_	_	_	_	_
 3	a	a	ADP	ADP	_	5	case	_	_
 4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	educação	educação	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	2	punct	_	_
-7	a	_	DET	DET	_	8	det	_	_
+6	,	,	PUNCT	.	_	2	punct	_	_
+7	a	a	DET	DET	_	8	det	_	_
 8	tecnologia	tecnologia	NOUN	NOUN	_	10	nsubj	_	_
 9	vai	ir	AUX	AUX	_	10	aux	_	_
 10	agir	agir	VERB	VERB	_	0	root	_	_
-11	como	_	ADP	ADP	_	13	case	_	_
-12	um	_	DET	DET	_	13	det	_	_
+11	como	como	ADP	ADP	_	13	case	_	_
+12	um	um	DET	DET	_	13	det	_	_
 13	processo	processo	NOUN	NOUN	_	10	nmod	_	_
 14	facilitador	facilitador	ADJ	ADJ	_	13	amod	_	_
-15	e	_	CCONJ	CONJ	_	16	cc	_	_
+15	e	e	CCONJ	CONJ	_	16	cc	_	_
 16	enriquecedor	enriquecedor	ADJ	ADJ	_	14	conj	_	_
 17-18	da	_	_	_	_	_	_	_	_
 17	de	de	ADP	ADP	_	19	case	_	_
 18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	mesma	_	PRON	PRON	_	14	nmod	_	SpaceAfter=No
-20	,	_	PUNCT	.	_	22	punct	_	_
+20	,	,	PUNCT	.	_	22	punct	_	_
 21	pois	_	CCONJ	CONJ	_	22	mark	_	_
 22	procura	procurar	VERB	VERB	_	10	advcl	_	_
 23	auxiliar	auxiliar	VERB	VERB	_	22	xcomp	_	_
-24	o	_	DET	DET	_	25	det	_	_
+24	o	o	DET	DET	_	25	det	_	_
 25	processo	processo	NOUN	NOUN	_	23	obj	_	_
-26	de	_	ADP	ADP	_	27	case	_	_
+26	de	de	ADP	ADP	_	27	case	_	_
 27	aprendizagem	aprendizagem	NOUN	NOUN	_	25	nmod	_	_
 28	disponibilizando	disponibilizar	VERB	VERB	_	23	acl:part	_	_
-29	para	_	ADP	ADP	_	31	case	_	_
-30	a	_	DET	DET	_	31	det	_	_
+29	para	para	ADP	ADP	_	31	case	_	_
+30	a	a	DET	DET	_	31	det	_	_
 31	sociedade	sociedade	NOUN	NOUN	_	28	nmod	_	_
 32	novas	novo	ADJ	ADJ	_	33	amod	_	_
 33	formas	forma	NOUN	NOUN	_	28	obj	_	_
-34	de	_	ADP	ADP	_	35	case	_	_
+34	de	de	ADP	ADP	_	35	case	_	_
 35	ensino	ensino	NOUN	NOUN	_	33	nmod	_	SpaceAfter=No
-36	,	_	PUNCT	.	_	39	punct	_	_
-37	ou	_	CCONJ	CONJ	_	39	cc	_	_
+36	,	,	PUNCT	.	_	39	punct	_	_
+37	ou	ou	CCONJ	CONJ	_	39	cc	_	_
 38	ainda	ainda	ADV	ADV	_	39	advmod	_	_
 39	aperfeiçoando	aperfeiçoar	VERB	VERB	_	28	conj	_	_
 40	métodos	método	NOUN	NOUN	_	39	obj	_	_
 41	antigos	antigo	ADJ	ADJ	_	40	amod	_	_
 42	através	através	ADV	ADV	_	39	advmod	_	_
-43	de	_	ADP	ADP	_	44	case	_	_
+43	de	de	ADP	ADP	_	44	case	_	_
 44	recursos	recurso	NOUN	NOUN	_	42	nmod	_	_
 45	inovadores	inovador	ADJ	ADJ	_	44	amod	_	SpaceAfter=No
-46	.	_	PUNCT	.	_	10	punct	_	_
+46	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s48
 # text = Iniciou a produção de monografias sobre história local das freguesias do concelho de Guimarães, mas publicou apenas a referente a Tagilde.
 1	Iniciou	iniciar	VERB	VERB	_	0	root	_	_
-2	a	_	DET	DET	_	3	det	_	_
+2	a	a	DET	DET	_	3	det	_	_
 3	produção	produção	NOUN	NOUN	_	1	obj	_	_
-4	de	_	ADP	ADP	_	5	case	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
 5	monografias	monografia	NOUN	NOUN	_	3	nmod	_	_
 6	sobre	_	ADP	ADP	_	7	case	_	_
 7	história	história	NOUN	NOUN	_	5	nmod	_	_
@@ -189,25 +189,25 @@
 12	de	de	ADP	ADP	_	14	case	_	_
 13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	concelho	concelho	NOUN	NOUN	_	11	nmod	_	_
-15	de	_	ADP	ADP	_	16	case	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
 16	Guimarães	_	PROPN	PNOUN	_	14	nmod	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	19	punct	_	_
+17	,	,	PUNCT	.	_	19	punct	_	_
 18	mas	_	CCONJ	CONJ	_	19	cc	_	_
 19	publicou	publicar	VERB	VERB	_	1	conj	_	_
 20	apenas	apenas	ADV	ADV	_	19	advmod	_	_
-21	a	_	DET	DET	_	22	det	_	_
+21	a	a	DET	DET	_	22	det	_	_
 22	referente	referente	NOUN	NOUN	_	19	obj	_	_
 23	a	_	ADP	ADP	_	24	case	_	_
 24	Tagilde	_	PROPN	PNOUN	_	22	nmod	_	SpaceAfter=No
-25	.	_	PUNCT	.	_	1	punct	_	_
+25	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s49
 # text = O Estado é considerado o primeiro lugar no ranking nacional como maior produtor de peixe nativo e quinto na produção de peixe de água doce.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	Estado	_	PROPN	PNOUN	_	7	nsubj:pass	_	_
 3	é	ser	AUX	AUX	_	7	aux:pass	_	_
 4	considerado	considerar	AUX	AUX	_	7	cop	_	_
-5	o	_	DET	DET	_	7	det	_	_
+5	o	o	DET	DET	_	7	det	_	_
 6	primeiro	primeiro	ADJ	ADJ	_	7	amod	_	_
 7	lugar	lugar	NOUN	NOUN	_	0	root	_	_
 8-9	no	_	_	_	_	_	_	_	_
@@ -215,28 +215,28 @@
 9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	ranking	ranking	NOUN	NOUN	_	7	nmod	_	_
 11	nacional	nacional	ADJ	ADJ	_	10	amod	_	_
-12	como	_	ADP	ADP	_	14	case	_	_
+12	como	como	ADP	ADP	_	14	case	_	_
 13	maior	maior	ADJ	ADJ	_	14	amod	_	_
 14	produtor	produtor	NOUN	NOUN	_	7	nmod	_	_
-15	de	_	ADP	ADP	_	16	case	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
 16	peixe	peixe	NOUN	NOUN	_	14	nmod	_	_
 17	nativo	nativo	ADJ	ADJ	_	16	amod	_	_
-18	e	_	CCONJ	CONJ	_	19	cc	_	_
+18	e	e	CCONJ	CONJ	_	19	cc	_	_
 19	quinto	quinto	NOUN	NOUN	_	14	conj	_	_
 20-21	na	_	_	_	_	_	_	_	_
 20	em	em	ADP	ADP	_	22	case	_	_
 21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	produção	produção	NOUN	NOUN	_	19	nmod	_	_
-23	de	_	ADP	ADP	_	24	case	_	_
+23	de	de	ADP	ADP	_	24	case	_	_
 24	peixe	peixe	NOUN	NOUN	_	22	nmod	_	_
-25	de	_	ADP	ADP	_	26	case	_	_
+25	de	de	ADP	ADP	_	26	case	_	_
 26	água	água	NOUN	NOUN	_	24	nmod	_	_
 27	doce	doce	ADJ	ADJ	_	26	amod	_	SpaceAfter=No
-28	.	_	PUNCT	.	_	7	punct	_	_
+28	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s50
 # text = A decisão do treinador Avram Grant acabou sendo bastante criticada, pois o francês perderia o pênalti decisivo.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	decisão	decisão	NOUN	NOUN	_	11	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -248,13 +248,13 @@
 9	sendo	ser	AUX	AUX	_	11	aux:pass	_	_
 10	bastante	bastante	ADV	ADV	_	11	advmod	_	_
 11	criticada	criticar	VERB	VERB	_	0	root	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	16	punct	_	_
+12	,	,	PUNCT	.	_	16	punct	_	_
 13	pois	_	CCONJ	CONJ	_	16	mark	_	_
-14	o	_	DET	DET	_	15	det	_	_
+14	o	o	DET	DET	_	15	det	_	_
 15	francês	francês	NOUN	NOUN	_	16	nsubj	_	_
 16	perderia	perder	VERB	VERB	_	11	advcl	_	_
-17	o	_	DET	DET	_	18	det	_	_
+17	o	o	DET	DET	_	18	det	_	_
 18	pênalti	pênalti	NOUN	NOUN	_	16	obj	_	_
 19	decisivo	decisivo	ADJ	ADJ	_	18	amod	_	SpaceAfter=No
-20	.	_	PUNCT	.	_	11	punct	_	_
+20	.	.	PUNCT	.	_	11	punct	_	_
 

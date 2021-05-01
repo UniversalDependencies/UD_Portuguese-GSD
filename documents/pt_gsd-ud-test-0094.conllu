@@ -3,25 +3,25 @@
 1	Mas	_	CCONJ	CONJ	_	2	cc	_	_
 2	digo	dizer	VERB	VERB	_	12	ccomp	_	_
 3	claramente	claramente	ADV	ADV	_	2	advmod	_	SpaceAfter=No
-4	:	_	PUNCT	.	_	2	punct	_	_
+4	:	:	PUNCT	.	_	2	punct	_	_
 5	apoio	apoio	NOUN	NOUN	_	2	obj	_	_
 6	moral	moral	ADJ	ADJ	_	5	amod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	9	punct	_	_
+7	,	,	PUNCT	.	_	9	punct	_	_
 8	não	não	ADV	ADV	Polarity=Neg	9	advmod	_	_
 9	financeiro	financeiro	ADJ	ADJ	_	6	conj	_	_
-10	"	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	12	punct	_	_
+10	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	12	punct	_	_
 12	afirmou	afirmar	VERB	VERB	_	0	root	_	_
-13	o	_	DET	DET	_	14	det	_	_
+13	o	o	DET	DET	_	14	det	_	_
 14	premiê	premiê	NOUN	NOUN	_	12	nsubj	_	SpaceAfter=No
-15	.	_	PUNCT	.	_	12	punct	_	_
+15	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = test-s926
 # text = -- Acho até que este foi um dos diferenciais do Haddad neste ano: ele é novo.
 1	--	_	PUNCT	.	_	2	punct	_	_
 2	Acho	achar	VERB	VERB	_	0	root	_	_
 3	até	até	ADV	ADV	_	2	advmod	_	_
-4	que	_	CCONJ	CONJ	_	7	mark	_	_
+4	que	que	CCONJ	CONJ	_	7	mark	_	_
 5	este	_	PRON	PRON	_	7	nsubj	_	_
 6	foi	_	AUX	AUX	_	7	cop	_	_
 7	um	_	PRON	PRON	_	2	ccomp	_	_
@@ -35,11 +35,11 @@
 13	Haddad	_	PROPN	PNOUN	_	10	nmod	_	_
 14	neste	_	ADP	ADP	_	15	case	_	_
 15	ano	ano	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-16	:	_	PUNCT	.	_	7	punct	_	_
+16	:	:	PUNCT	.	_	7	punct	_	_
 17	ele	_	PRON	PRON	_	18	nsubj	_	_
 18	é	ser	VERB	VERB	_	7	parataxis	_	_
 19	novo	novo	ADJ	ADJ	_	18	xcomp:adj	_	SpaceAfter=No
-20	.	_	PUNCT	.	_	2	punct	_	_
+20	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = test-s927
 # text = Mas isto fez alguma diferença ao enredo?
@@ -52,11 +52,11 @@
 6	a	a	ADP	ADP	_	8	case	_	_
 7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	enredo	enredo	NOUN	NOUN	_	3	iobj	_	SpaceAfter=No
-9	?	_	PUNCT	.	_	3	punct	_	_
+9	?	?	PUNCT	.	_	3	punct	_	_
 
 # sent_id = test-s928
 # text = Os dois hospitais não possuíam recursos para atendê - lo e a vítima de acidente de moto foi transferida para o HR, dando entrada na madrugada do último domingo (12).
-1	Os	_	DET	DET	_	3	det	_	_
+1	Os	o	DET	DET	_	3	det	_	_
 2	dois	_	NUM	NUM	NumType=Card	3	nummod	_	_
 3	hospitais	hospital	NOUN	NOUN	_	5	nsubj	_	_
 4	não	não	ADV	ADV	Polarity=Neg	5	advmod	_	_
@@ -64,21 +64,21 @@
 6	recursos	recurso	NOUN	NOUN	_	5	obj	_	_
 7	para	_	ADP	ADP	_	8	mark	_	_
 8	atendê	atender	VERB	VERB	_	6	nmod	_	_
-9	-	_	PUNCT	.	_	8	punct	_	_
+9	-	-	PUNCT	.	_	8	punct	_	_
 10	lo	_	PRON	PRON	_	8	obj	_	_
 11	e	e	CCONJ	CONJ	_	19	cc	_	_
 12	a	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 13	vítima	vítima	NOUN	NOUN	_	19	nsubj:pass	_	_
-14	de	_	ADP	ADP	_	15	case	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
 15	acidente	acidente	NOUN	NOUN	_	13	nmod	_	_
-16	de	_	ADP	ADP	_	17	case	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
 17	moto	moto	NOUN	NOUN	_	15	nmod	_	_
 18	foi	_	AUX	AUX	_	19	aux:pass	_	_
 19	transferida	transferir	VERB	VERB	_	5	conj	_	_
-20	para	_	ADP	ADP	_	22	case	_	_
-21	o	_	DET	DET	_	22	det	_	_
+20	para	para	ADP	ADP	_	22	case	_	_
+21	o	o	DET	DET	_	22	det	_	_
 22	HR	_	PROPN	PNOUN	_	19	nmod	_	SpaceAfter=No
-23	,	_	PUNCT	.	_	24	punct	_	_
+23	,	,	PUNCT	.	_	24	punct	_	_
 24	dando	dar	VERB	VERB	_	19	acl:part	_	_
 25	entrada	entrada	NOUN	NOUN	_	24	obj	_	_
 26-27	na	_	_	_	_	_	_	_	_
@@ -90,10 +90,10 @@
 30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 31	último	último	ADJ	ADJ	_	32	amod	_	_
 32	domingo	_	PROPN	PNOUN	_	28	nmod	_	_
-33	(	_	PUNCT	.	_	34	punct	_	SpaceAfter=No
+33	(	(	PUNCT	.	_	34	punct	_	SpaceAfter=No
 34	12	_	NUM	NUM	NumType=Card	32	nmod	_	SpaceAfter=No
-35	)	_	PUNCT	.	_	34	punct	_	SpaceAfter=No
-36	.	_	PUNCT	.	_	5	punct	_	_
+35	)	)	PUNCT	.	_	34	punct	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = test-s929
 # text = Também existem Planilhas Financeiras disponíveis em http://www.portal-gestao.com/financas/folhas-de-calculo.html
@@ -102,50 +102,50 @@
 3	Planilhas	planilha	NOUN	NOUN	_	2	nsubj	_	_
 4	Financeiras	financeiro	ADJ	ADJ	_	3	amod	_	_
 5	disponíveis	disponível	ADJ	ADJ	_	2	xcomp:adj	_	_
-6	em	_	ADP	ADP	_	7	case	_	_
+6	em	em	ADP	ADP	_	7	case	_	_
 7	http://www.portal-gestao.com/financas/folhas-de-calculo.html	_	X	X	_	5	nmod	_	_
 
 # sent_id = test-s930
 # text = O ex - premiê, que apoiou o governo de Monti até o mês passado, atacou o atual governante por reintroduzir um imposto bastante impopular sobre propriedades em residências primárias e prometeu reduzir os impostos sobre rendimentos.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	ex	_	PART	PRT	_	17	nsubj	_	_
-3	-	_	PUNCT	.	_	2	punct	_	_
+3	-	-	PUNCT	.	_	2	punct	_	_
 4	premiê	premiê	NOUN	NOUN	_	2	flat	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	7	punct	_	_
+5	,	,	PUNCT	.	_	7	punct	_	_
 6	que	_	PRON	PRON	_	7	nsubj	_	_
 7	apoiou	apoiar	VERB	VERB	_	2	acl:relcl	_	_
-8	o	_	DET	DET	_	9	det	_	_
+8	o	o	DET	DET	_	9	det	_	_
 9	governo	governo	NOUN	NOUN	_	7	obj	_	_
-10	de	_	ADP	ADP	_	11	case	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
 11	Monti	_	PROPN	PNOUN	_	9	nmod	_	_
 12	até	_	ADP	ADP	_	14	case	_	_
-13	o	_	DET	DET	_	14	det	_	_
+13	o	o	DET	DET	_	14	det	_	_
 14	mês	mês	NOUN	NOUN	_	7	nmod	_	_
 15	passado	passado	ADJ	ADJ	_	14	amod	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	7	punct	_	_
+16	,	,	PUNCT	.	_	7	punct	_	_
 17	atacou	atacar	VERB	VERB	_	0	root	_	_
-18	o	_	DET	DET	_	20	det	_	_
+18	o	o	DET	DET	_	20	det	_	_
 19	atual	atual	ADJ	ADJ	_	20	amod	_	_
 20	governante	governante	NOUN	NOUN	_	17	obj	_	_
 21	por	_	ADP	ADP	_	22	mark	_	_
 22	reintroduzir	reintroduzir	VERB	VERB	_	17	advcl	_	_
-23	um	_	DET	DET	_	24	det	_	_
+23	um	um	DET	DET	_	24	det	_	_
 24	imposto	imposto	NOUN	NOUN	_	22	obj	_	_
 25	bastante	bastante	ADV	ADV	_	26	advmod	_	_
 26	impopular	impopular	ADJ	ADJ	_	24	amod	_	_
 27	sobre	_	ADP	ADP	_	28	case	_	_
 28	propriedades	propriedade	NOUN	NOUN	_	24	nmod	_	_
-29	em	_	ADP	ADP	_	30	case	_	_
+29	em	em	ADP	ADP	_	30	case	_	_
 30	residências	residência	NOUN	NOUN	_	24	nmod	_	_
 31	primárias	primário	ADJ	ADJ	_	30	amod	_	_
-32	e	_	CCONJ	CONJ	_	33	cc	_	_
+32	e	e	CCONJ	CONJ	_	33	cc	_	_
 33	prometeu	prometer	VERB	VERB	_	17	conj	_	_
 34	reduzir	reduzir	VERB	VERB	_	33	xcomp	_	_
-35	os	_	DET	DET	_	36	det	_	_
+35	os	o	DET	DET	_	36	det	_	_
 36	impostos	imposto	NOUN	NOUN	_	34	obj	_	_
 37	sobre	_	ADP	ADP	_	38	case	_	_
 38	rendimentos	rendimento	NOUN	NOUN	_	36	nmod	_	SpaceAfter=No
-39	.	_	PUNCT	.	_	17	punct	_	_
+39	.	.	PUNCT	.	_	17	punct	_	_
 
 # sent_id = test-s931
 # text = No total, 22.443 candidatos se inscreveram (veja a concorrência na página oficial do concurso).
@@ -153,14 +153,14 @@
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	total	total	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
 5	22.443	_	NUM	NUM	NumType=Card	6	nummod	_	_
 6	candidatos	candidato	NOUN	NOUN	_	8	nsubj	_	_
 7	se	_	PRON	PRON	_	8	obj	_	_
 8	inscreveram	inscrever	VERB	VERB	_	0	root	_	_
-9	(	_	PUNCT	.	_	10	punct	_	SpaceAfter=No
+9	(	(	PUNCT	.	_	10	punct	_	SpaceAfter=No
 10	veja	ver	VERB	VERB	_	8	parataxis	_	_
-11	a	_	DET	DET	_	12	det	_	_
+11	a	a	DET	DET	_	12	det	_	_
 12	concorrência	concorrência	NOUN	NOUN	_	10	obj	_	_
 13-14	na	_	_	_	_	_	_	_	_
 13	em	em	ADP	ADP	_	15	case	_	_
@@ -171,33 +171,33 @@
 17	de	de	ADP	ADP	_	19	case	_	_
 18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	concurso	concurso	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
-20	)	_	PUNCT	.	_	10	punct	_	SpaceAfter=No
-21	.	_	PUNCT	.	_	8	punct	_	_
+20	)	)	PUNCT	.	_	10	punct	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = test-s932
 # text = Segundo o censo norte - americano de 2000, a sua população era de 298 habitantes.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	o	_	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	_	3	det	_	_
 3	censo	censo	NOUN	NOUN	_	13	nmod	_	_
 4	norte	norte	ADJ	ADJ	_	6	amod	_	_
-5	-	_	PUNCT	.	_	6	punct	_	_
+5	-	-	PUNCT	.	_	6	punct	_	_
 6	americano	americano	ADJ	ADJ	_	3	amod	_	_
-7	de	_	ADP	ADP	_	8	case	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
 8	2000	_	NUM	NUM	NumType=Card	3	nmod	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	3	punct	_	_
-10	a	_	DET	DET	_	12	det	_	_
+9	,	,	PUNCT	.	_	3	punct	_	_
+10	a	a	DET	DET	_	12	det	_	_
 11	sua	_	DET	DET	_	12	det:poss	_	_
 12	população	população	NOUN	NOUN	_	13	nsubj	_	_
 13	era	_	VERB	VERB	_	0	root	_	_
-14	de	_	ADP	ADP	_	16	case	_	_
+14	de	de	ADP	ADP	_	16	case	_	_
 15	298	_	NUM	NUM	NumType=Card	16	nummod	_	_
 16	habitantes	habitante	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
-17	.	_	PUNCT	.	_	13	punct	_	_
+17	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = test-s933
 # text = Cage, realizado pela empresa Fight Agency, e a Amazon Live Fair, promovido pela Oficina D 'Arte, vai possibilitar um evento de lutas jamais visto antes na capital.
 1	Cage	_	PROPN	PNOUN	_	25	nsubj	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	3	punct	_	_
+2	,	,	PUNCT	.	_	3	punct	_	_
 3	realizado	realizar	VERB	VERB	_	1	acl:part	_	_
 4-5	pela	_	_	_	_	_	_	_	_
 4	por	por	ADP	ADP	_	6	case	_	_
@@ -205,13 +205,13 @@
 6	empresa	empresa	NOUN	NOUN	_	3	nmod	_	_
 7	Fight	_	PROPN	PNOUN	_	6	appos	_	_
 8	Agency	_	PROPN	PNOUN	_	7	flat	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	3	punct	_	_
+9	,	,	PUNCT	.	_	3	punct	_	_
 10	e	e	CCONJ	CONJ	_	12	cc	_	_
 11	a	o	DET	DET	_	12	det	_	_
 12	Amazon	_	PROPN	PNOUN	_	1	conj	_	_
 13	Live	_	PROPN	PNOUN	_	12	amod	_	_
 14	Fair	_	PROPN	PNOUN	_	12	flat	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	16	punct	_	_
+15	,	,	PUNCT	.	_	16	punct	_	_
 16	promovido	promover	VERB	VERB	_	12	acl:part	_	_
 17-18	pela	_	_	_	_	_	_	_	_
 17	por	por	ADP	ADP	_	19	case	_	_
@@ -220,12 +220,12 @@
 20	D	_	PROPN	PNOUN	_	22	case	_	_
 21	'	_	PUNCT	.	_	22	punct	_	SpaceAfter=No
 22	Arte	_	PROPN	PNOUN	_	19	nmod	_	SpaceAfter=No
-23	,	_	PUNCT	.	_	16	punct	_	_
+23	,	,	PUNCT	.	_	16	punct	_	_
 24	vai	ir	AUX	AUX	_	25	aux	_	_
 25	possibilitar	possibilitar	VERB	VERB	_	0	root	_	_
-26	um	_	DET	DET	_	27	det	_	_
+26	um	um	DET	DET	_	27	det	_	_
 27	evento	evento	NOUN	NOUN	_	25	obj	_	_
-28	de	_	ADP	ADP	_	29	case	_	_
+28	de	de	ADP	ADP	_	29	case	_	_
 29	lutas	luta	NOUN	NOUN	_	27	nmod	_	_
 30	jamais	jamais	ADV	ADV	_	31	advmod	_	_
 31	visto	_	VERB	VERB	_	27	acl:part	_	_
@@ -234,44 +234,44 @@
 33	em	em	ADP	ADP	_	35	case	_	_
 34	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	capital	capital	NOUN	NOUN	_	31	nmod	_	SpaceAfter=No
-36	.	_	PUNCT	.	_	25	punct	_	_
+36	.	.	PUNCT	.	_	25	punct	_	_
 
 # sent_id = test-s934
 # text = Segundo o juiz, a propaganda de Rodrigues se apropriou "da imagem dum líder do PT, que apoia outra candidatura, sendo enganoso para a população".
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	o	_	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	_	3	det	_	_
 3	juiz	juiz	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
-5	a	_	DET	DET	_	6	det	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	a	a	DET	DET	_	6	det	_	_
 6	propaganda	propaganda	NOUN	NOUN	_	10	nsubj	_	_
-7	de	_	ADP	ADP	_	8	case	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
 8	Rodrigues	_	PROPN	PNOUN	_	6	nmod	_	_
 9	se	_	PRON	PRON	_	10	expl:pv	_	_
 10	apropriou	apropriar	VERB	VERB	_	0	root	_	_
-11	"	_	PUNCT	.	_	10	punct	_	SpaceAfter=No
+11	"	"	PUNCT	.	_	10	punct	_	SpaceAfter=No
 12-13	da	_	_	_	_	_	_	_	_
 12	de	de	ADP	ADP	_	14	case	_	_
 13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	imagem	imagem	NOUN	NOUN	_	10	nmod	_	_
 15-16	dum	_	_	_	_	_	_	_	_
-15	de	_	ADP	ADP	_	17	case	_	_
-16	um	_	DET	DET	_	17	det	_	_
+15	de	de	ADP	ADP	_	17	case	_	_
+16	um	um	DET	DET	_	17	det	_	_
 17	líder	líder	NOUN	NOUN	_	14	nmod	_	_
 18-19	do	_	_	_	_	_	_	_	_
 18	de	de	ADP	ADP	_	20	case	_	_
 19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	PT	_	PROPN	PNOUN	_	17	nmod	_	SpaceAfter=No
-21	,	_	PUNCT	.	_	23	punct	_	_
+21	,	,	PUNCT	.	_	23	punct	_	_
 22	que	_	PRON	PRON	_	23	nsubj	_	_
 23	apoia	apoiar	VERB	VERB	_	17	acl:relcl	_	_
 24	outra	_	DET	DET	_	25	det	_	_
 25	candidatura	candidatura	NOUN	NOUN	_	23	obj	_	SpaceAfter=No
-26	,	_	PUNCT	.	_	27	punct	_	_
+26	,	,	PUNCT	.	_	27	punct	_	_
 27	sendo	ser	VERB	VERB	_	10	acl:part	_	_
 28	enganoso	enganoso	ADJ	ADJ	_	27	xcomp:adj	_	_
-29	para	_	ADP	ADP	_	31	case	_	_
-30	a	_	DET	DET	_	31	det	_	_
+29	para	para	ADP	ADP	_	31	case	_	_
+30	a	a	DET	DET	_	31	det	_	_
 31	população	população	NOUN	NOUN	_	27	nmod	_	SpaceAfter=No
-32	"	_	PUNCT	.	_	10	punct	_	SpaceAfter=No
-33	.	_	PUNCT	.	_	10	punct	_	_
+32	"	"	PUNCT	.	_	10	punct	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	10	punct	_	_
 

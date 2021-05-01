@@ -1,6 +1,6 @@
 # sent_id = train-s1289
 # text = A equipe do Instituto do Meio Ambiente (IMA) participa, nesse final de semana, das atividades do Dia Mundial de Limpeza das Praias.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	equipe	equipe	NOUN	NOUN	_	13	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -11,16 +11,16 @@
 7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	Meio	_	PROPN	PNOUN	_	5	nmod	_	_
 9	Ambiente	_	PROPN	PNOUN	_	8	flat	_	_
-10	(	_	PUNCT	.	_	11	punct	_	SpaceAfter=No
+10	(	(	PUNCT	.	_	11	punct	_	SpaceAfter=No
 11	IMA	_	PROPN	PNOUN	_	5	appos	_	SpaceAfter=No
-12	)	_	PUNCT	.	_	11	punct	_	_
+12	)	)	PUNCT	.	_	11	punct	_	_
 13	participa	participar	VERB	VERB	_	0	root	_	SpaceAfter=No
-14	,	_	PUNCT	.	_	16	punct	_	_
+14	,	,	PUNCT	.	_	16	punct	_	_
 15	nesse	_	ADP	ADP	_	16	case	_	_
 16	final	final	NOUN	NOUN	_	13	nmod	_	_
-17	de	_	ADP	ADP	_	18	case	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
 18	semana	semana	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
-19	,	_	PUNCT	.	_	16	punct	_	_
+19	,	,	PUNCT	.	_	16	punct	_	_
 20-21	das	_	_	_	_	_	_	_	_
 20	de	de	ADP	ADP	_	22	case	_	_
 21	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
@@ -30,43 +30,43 @@
 24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	Dia	_	PROPN	PNOUN	_	22	nmod	_	_
 26	Mundial	_	PROPN	PNOUN	_	25	amod	_	_
-27	de	_	ADP	ADP	_	28	case	_	_
+27	de	de	ADP	ADP	_	28	case	_	_
 28	Limpeza	_	PROPN	PNOUN	_	25	nmod	_	_
 29-30	das	_	_	_	_	_	_	_	_
 29	de	de	ADP	ADP	_	31	case	_	_
 30	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
 31	Praias	_	PROPN	PNOUN	_	28	nmod	_	SpaceAfter=No
-32	.	_	PUNCT	.	_	13	punct	_	_
+32	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = train-s1290
 # text = Mas, no ocidente urbano, os valores são outros.
 1	Mas	_	CCONJ	CONJ	_	11	cc	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	5	punct	_	_
+2	,	,	PUNCT	.	_	5	punct	_	_
 3-4	no	_	_	_	_	_	_	_	_
 3	em	em	ADP	ADP	_	5	case	_	_
 4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	ocidente	ocidente	NOUN	NOUN	_	11	nmod	_	_
 6	urbano	urbano	ADJ	ADJ	_	5	amod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	5	punct	_	_
-8	os	_	DET	DET	_	9	det	_	_
+7	,	,	PUNCT	.	_	5	punct	_	_
+8	os	o	DET	DET	_	9	det	_	_
 9	valores	_	NOUN	NOUN	_	11	nsubj	_	_
 10	são	ser	AUX	AUX	_	11	cop	_	_
 11	outros	_	PRON	PRON	_	0	root	_	SpaceAfter=No
-12	.	_	PUNCT	.	_	11	punct	_	_
+12	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s1291
 # text = Wanda conversa com Lívia sobre Morena.
 1	Wanda	_	PROPN	PNOUN	_	2	nsubj	_	_
 2	conversa	_	NOUN	NOUN	_	0	root	_	_
-3	com	_	ADP	ADP	_	4	case	_	_
+3	com	com	ADP	ADP	_	4	case	_	_
 4	Lívia	_	PROPN	PNOUN	_	2	nmod	_	_
 5	sobre	_	ADP	ADP	_	6	case	_	_
 6	Morena	_	PROPN	PNOUN	_	2	nmod	_	SpaceAfter=No
-7	.	_	PUNCT	.	_	2	punct	_	_
+7	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s1292
 # text = O evento ocorre na tarde deste sábado.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	evento	evento	NOUN	NOUN	_	3	nsubj	_	_
 3	ocorre	ocorrer	VERB	VERB	_	0	root	_	_
 4-5	na	_	_	_	_	_	_	_	_
@@ -75,62 +75,62 @@
 6	tarde	tarde	NOUN	NOUN	_	3	nmod	_	_
 7	deste	_	ADP	ADP	_	8	case	_	_
 8	sábado	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
-9	.	_	PUNCT	.	_	3	punct	_	_
+9	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s1293
 # text = Comprei em site de compras coletivas, a clínica é ótima, mas dói sim.
 1	Comprei	comprar	VERB	VERB	_	0	root	_	_
-2	em	_	ADP	ADP	_	3	case	_	_
+2	em	em	ADP	ADP	_	3	case	_	_
 3	site	site	NOUN	NOUN	_	1	nmod	_	_
-4	de	_	ADP	ADP	_	5	case	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
 5	compras	compra	NOUN	NOUN	_	3	nmod	_	_
 6	coletivas	coletivo	ADJ	ADJ	_	5	amod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	1	punct	_	_
-8	a	_	DET	DET	_	9	det	_	_
+7	,	,	PUNCT	.	_	1	punct	_	_
+8	a	a	DET	DET	_	9	det	_	_
 9	clínica	_	NOUN	NOUN	_	10	nsubj	_	_
 10	é	ser	VERB	VERB	_	1	parataxis	_	_
 11	ótima	ótimo	ADJ	ADJ	_	10	xcomp:adj	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	14	punct	_	_
+12	,	,	PUNCT	.	_	14	punct	_	_
 13	mas	_	CCONJ	CONJ	_	14	cc	_	_
 14	dói	doer	VERB	VERB	_	10	conj	_	_
 15	sim	_	VERB	VERB	_	14	advmod	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	1	punct	_	_
+16	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s1294
 # text = 1998 RU80 tem uma velocidade orbital média de 18,44383078 km / s e uma inclinação de 16,9134 º.
 1	1998	_	NUM	NUM	NumType=Card	3	nsubj	_	_
 2	RU80	_	PROPN	PNOUN	_	1	flat	_	_
 3	tem	ter	VERB	VERB	_	0	root	_	_
-4	uma	_	DET	DET	_	5	det	_	_
+4	uma	um	DET	DET	_	5	det	_	_
 5	velocidade	velocidade	NOUN	NOUN	_	3	obj	_	_
 6	orbital	orbital	ADJ	ADJ	_	5	amod	_	_
 7	média	_	NOUN	NOUN	_	5	amod	_	_
-8	de	_	ADP	ADP	_	10	case	_	_
+8	de	de	ADP	ADP	_	10	case	_	_
 9	18,44383078	_	NUM	NUM	NumType=Card	10	nummod	_	_
 10	km	km	NOUN	NOUN	_	5	nmod	_	_
-11	/	_	PUNCT	.	_	12	punct	_	_
+11	/	/	PUNCT	.	_	12	punct	_	_
 12	s	s	NOUN	NOUN	_	10	appos	_	_
-13	e	_	CCONJ	CONJ	_	15	cc	_	_
-14	uma	_	DET	DET	_	15	det	_	_
+13	e	e	CCONJ	CONJ	_	15	cc	_	_
+14	uma	um	DET	DET	_	15	det	_	_
 15	inclinação	inclinação	NOUN	NOUN	_	5	conj	_	_
-16	de	_	ADP	ADP	_	18	case	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
 17	16,9134	_	NUM	NUM	NumType=Card	18	nummod	_	_
 18	º	_	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	3	punct	_	_
+19	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s1295
 # text = Mais ou menos nessa época, na Dinamarca, foi convidado pelo rei Gorm o Velho para um banquete, no qual conheceu Gunnhild, com quem se casou na noite seguinte.
 1	Mais	mais	ADV	ADV	_	5	advmod	_	_
-2	ou	_	CCONJ	CONJ	_	3	cc	_	_
+2	ou	ou	CCONJ	CONJ	_	3	cc	_	_
 3	menos	menos	ADV	ADV	_	1	conj	_	_
 4	nessa	_	ADP	ADP	_	5	case	_	_
 5	época	época	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	9	punct	_	_
+6	,	,	PUNCT	.	_	9	punct	_	_
 7-8	na	_	_	_	_	_	_	_	_
 7	em	em	ADP	ADP	_	9	case	_	_
 8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Dinamarca	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	9	punct	_	_
+10	,	,	PUNCT	.	_	9	punct	_	_
 11	foi	_	AUX	AUX	_	12	aux:pass	_	_
 12	convidado	convidar	VERB	VERB	_	0	root	_	_
 13-14	pelo	_	_	_	_	_	_	_	_
@@ -138,20 +138,20 @@
 14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	rei	rei	NOUN	NOUN	_	12	nmod	_	_
 16	Gorm	_	PROPN	PNOUN	_	15	appos	_	_
-17	o	_	DET	DET	_	18	det	_	_
+17	o	o	DET	DET	_	18	det	_	_
 18	Velho	_	PROPN	PNOUN	_	16	appos	_	_
-19	para	_	ADP	ADP	_	21	case	_	_
-20	um	_	DET	DET	_	21	det	_	_
+19	para	para	ADP	ADP	_	21	case	_	_
+20	um	um	DET	DET	_	21	det	_	_
 21	banquete	banquete	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
-22	,	_	PUNCT	.	_	26	punct	_	_
+22	,	,	PUNCT	.	_	26	punct	_	_
 23-24	no	_	_	_	_	_	_	_	_
 23	em	em	ADP	ADP	_	25	case	_	_
 24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	qual	_	PRON	PRON	_	26	nmod	_	_
 26	conheceu	conhecer	VERB	VERB	_	21	acl:relcl	_	_
 27	Gunnhild	_	PROPN	PNOUN	_	26	obj	_	SpaceAfter=No
-28	,	_	PUNCT	.	_	32	punct	_	_
-29	com	_	ADP	ADP	_	30	case	_	_
+28	,	,	PUNCT	.	_	32	punct	_	_
+29	com	com	ADP	ADP	_	30	case	_	_
 30	quem	_	PRON	PRON	_	32	nmod	_	_
 31	se	_	PRON	PRON	_	32	obj	_	_
 32	casou	casar	VERB	VERB	_	27	acl:relcl	_	_
@@ -160,34 +160,34 @@
 34	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	noite	noite	NOUN	NOUN	_	32	nmod	_	_
 36	seguinte	seguinte	ADJ	ADJ	_	35	amod	_	SpaceAfter=No
-37	.	_	PUNCT	.	_	12	punct	_	_
+37	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = train-s1296
 # text = Além de Marta, participaram da caminhada o presidente nacional do PT, Rui Falcão, e parlamentares petistas.
 1	Além	além	ADV	ADV	_	5	advmod	_	_
-2	de	_	ADP	ADP	_	3	case	_	_
+2	de	de	ADP	ADP	_	3	case	_	_
 3	Marta	_	PROPN	PNOUN	_	1	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	1	punct	_	_
+4	,	,	PUNCT	.	_	1	punct	_	_
 5	participaram	participar	VERB	VERB	_	0	root	_	_
 6-7	da	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	8	case	_	_
 7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	caminhada	caminhada	NOUN	NOUN	_	5	nmod	_	_
-9	o	_	DET	DET	_	10	det	_	_
+9	o	o	DET	DET	_	10	det	_	_
 10	presidente	presidente	NOUN	NOUN	_	5	nsubj	_	_
 11	nacional	nacional	ADJ	ADJ	_	10	amod	_	_
 12-13	do	_	_	_	_	_	_	_	_
 12	de	de	ADP	ADP	_	14	case	_	_
 13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	PT	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	16	punct	_	_
+15	,	,	PUNCT	.	_	16	punct	_	_
 16	Rui	_	PROPN	PNOUN	_	10	appos	_	_
 17	Falcão	_	PROPN	PNOUN	_	16	flat	_	SpaceAfter=No
-18	,	_	PUNCT	.	_	16	punct	_	_
-19	e	_	CCONJ	CONJ	_	20	cc	_	_
+18	,	,	PUNCT	.	_	16	punct	_	_
+19	e	e	CCONJ	CONJ	_	20	cc	_	_
 20	parlamentares	parlamentar	NOUN	NOUN	_	10	conj	_	_
 21	petistas	petista	ADJ	ADJ	_	20	amod	_	SpaceAfter=No
-22	.	_	PUNCT	.	_	5	punct	_	_
+22	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s1297
 # text = Kombarov fez boa jogada pela esquerda e cruzou para Emenike empurrar a bola para o gol.
@@ -199,25 +199,25 @@
 5	por	por	ADP	ADP	_	7	case	_	_
 6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	esquerda	esquerda	NOUN	NOUN	_	2	nmod	_	_
-8	e	_	CCONJ	CONJ	_	9	cc	_	_
+8	e	e	CCONJ	CONJ	_	9	cc	_	_
 9	cruzou	cruzar	VERB	VERB	_	2	conj	_	_
 10	para	_	ADP	ADP	_	12	mark	_	_
 11	Emenike	_	PROPN	PNOUN	_	12	nsubj	_	_
 12	empurrar	empurrar	VERB	VERB	_	9	advcl	_	_
-13	a	_	DET	DET	_	14	det	_	_
+13	a	a	DET	DET	_	14	det	_	_
 14	bola	bola	NOUN	NOUN	_	12	obj	_	_
-15	para	_	ADP	ADP	_	17	case	_	_
-16	o	_	DET	DET	_	17	det	_	_
+15	para	para	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	_	17	det	_	_
 17	gol	gol	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
-18	.	_	PUNCT	.	_	2	punct	_	_
+18	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s1298
 # text = O decreto para abertura de licitação foi assinado pelo governador Beto Richa e prevê valor máximo de R $ 1,355 milhão.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	decreto	decreto	NOUN	NOUN	_	8	nsubj:pass	_	_
-3	para	_	ADP	ADP	_	4	case	_	_
+3	para	para	ADP	ADP	_	4	case	_	_
 4	abertura	abertura	NOUN	NOUN	_	2	nmod	_	_
-5	de	_	ADP	ADP	_	6	case	_	_
+5	de	de	ADP	ADP	_	6	case	_	_
 6	licitação	licitação	NOUN	NOUN	_	4	nmod	_	_
 7	foi	_	AUX	AUX	_	8	aux:pass	_	_
 8	assinado	assinar	VERB	VERB	_	0	root	_	_
@@ -227,14 +227,14 @@
 11	governador	governador	NOUN	NOUN	_	8	nmod	_	_
 12	Beto	_	PROPN	PNOUN	_	11	appos	_	_
 13	Richa	_	PROPN	PNOUN	_	12	flat	_	_
-14	e	_	CCONJ	CONJ	_	15	cc	_	_
+14	e	e	CCONJ	CONJ	_	15	cc	_	_
 15	prevê	prever	VERB	VERB	_	8	conj	_	_
 16	valor	valor	NOUN	NOUN	_	15	obj	_	_
 17	máximo	máximo	ADJ	ADJ	_	16	amod	_	_
-18	de	_	ADP	ADP	_	19	case	_	_
+18	de	de	ADP	ADP	_	19	case	_	_
 19	R	r	NOUN	NOUN	_	16	nmod	_	_
 20	$	_	SYM	SYM	_	19	flat	_	_
 21	1,355	_	NUM	NUM	NumType=Card	22	nummod	_	_
 22	milhão	_	NUM	NUM	NumType=Card	19	nummod	_	SpaceAfter=No
-23	.	_	PUNCT	.	_	8	punct	_	_
+23	.	.	PUNCT	.	_	8	punct	_	_
 

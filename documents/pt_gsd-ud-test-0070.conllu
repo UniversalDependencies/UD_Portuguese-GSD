@@ -1,6 +1,6 @@
 # sent_id = test-s686
 # text = O anúncio foi feito na manhã desta quinta - feira (29), no Rio de Janeiro.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	anúncio	anúncio	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foi	_	AUX	AUX	_	4	aux:pass	_	_
 4	feito	_	VERB	VERB	_	0	root	_	_
@@ -10,19 +10,19 @@
 7	manhã	manhã	NOUN	NOUN	_	4	nmod	_	_
 8	desta	_	ADP	ADP	_	11	case	_	_
 9	quinta	_	PROPN	PNOUN	_	11	amod	_	_
-10	-	_	PUNCT	.	_	11	punct	_	_
+10	-	-	PUNCT	.	_	11	punct	_	_
 11	feira	_	PROPN	PNOUN	_	7	nmod	_	_
-12	(	_	PUNCT	.	_	13	punct	_	SpaceAfter=No
+12	(	(	PUNCT	.	_	13	punct	_	SpaceAfter=No
 13	29	_	NUM	NUM	NumType=Card	11	nmod	_	SpaceAfter=No
-14	)	_	PUNCT	.	_	13	punct	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	18	punct	_	_
+14	)	)	PUNCT	.	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	.	_	18	punct	_	_
 16-17	no	_	_	_	_	_	_	_	_
 16	em	em	ADP	ADP	_	18	case	_	_
 17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	Rio	_	PROPN	PNOUN	_	4	nmod	_	_
-19	de	_	ADP	ADP	_	20	case	_	_
+19	de	de	ADP	ADP	_	20	case	_	_
 20	Janeiro	_	PROPN	PNOUN	_	18	nmod	_	SpaceAfter=No
-21	.	_	PUNCT	.	_	4	punct	_	_
+21	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = test-s687
 # text = A nove rodadas do final, o Palmeiras está nove pontos atrás do Bahia, o 16 º colocado e primeiro fora da zona de rebaixamento do Brasileirão.
@@ -33,8 +33,8 @@
 4	de	de	ADP	ADP	_	6	case	_	_
 5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	final	final	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	3	punct	_	_
-8	o	_	DET	DET	_	9	det	_	_
+7	,	,	PUNCT	.	_	3	punct	_	_
+8	o	o	DET	DET	_	9	det	_	_
 9	Palmeiras	_	PROPN	PNOUN	_	10	nsubj	_	_
 10	está	estar	VERB	VERB	_	0	root	_	_
 11	nove	_	NUM	NUM	NumType=Card	12	nummod	_	_
@@ -44,62 +44,62 @@
 14	de	de	ADP	ADP	_	16	case	_	_
 15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	Bahia	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	21	punct	_	_
-18	o	_	DET	DET	_	21	det	_	_
+17	,	,	PUNCT	.	_	21	punct	_	_
+18	o	o	DET	DET	_	21	det	_	_
 19	16	_	ADJ	ADJ	_	21	amod	_	_
 20	º	_	PUNCT	.	_	19	punct	_	_
 21	colocado	_	NOUN	NOUN	_	16	appos	_	_
-22	e	_	CCONJ	CONJ	_	23	cc	_	_
+22	e	e	CCONJ	CONJ	_	23	cc	_	_
 23	primeiro	primeiro	NOUN	NOUN	_	21	conj	_	_
 24	fora	fora	ADV	ADV	_	23	advmod	_	_
 25-26	da	_	_	_	_	_	_	_	_
 25	de	de	ADP	ADP	_	27	case	_	_
 26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	zona	zona	NOUN	NOUN	_	24	nmod	_	_
-28	de	_	ADP	ADP	_	29	case	_	_
+28	de	de	ADP	ADP	_	29	case	_	_
 29	rebaixamento	rebaixamento	NOUN	NOUN	_	27	nmod	_	_
 30-31	do	_	_	_	_	_	_	_	_
 30	de	de	ADP	ADP	_	32	case	_	_
 31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	Brasileirão	_	PROPN	PNOUN	_	27	nmod	_	SpaceAfter=No
-33	.	_	PUNCT	.	_	10	punct	_	_
+33	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = test-s688
 # text = A escolha foi baseada em pesquisa com consumidores brasileiros, realizada por um instituto independente ** comparando os modelos Xperia Z e Xperia ZQ, e indicou a preferência de tamanho, design e funcionalidades do modelo Xperia ZQ.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	escolha	escolha	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foi	_	AUX	AUX	_	4	aux:pass	_	_
 4	baseada	basear	VERB	VERB	_	0	root	_	_
-5	em	_	ADP	ADP	_	6	case	_	_
+5	em	em	ADP	ADP	_	6	case	_	_
 6	pesquisa	pesquisa	NOUN	NOUN	_	4	nmod	_	_
-7	com	_	ADP	ADP	_	8	case	_	_
+7	com	com	ADP	ADP	_	8	case	_	_
 8	consumidores	consumidor	NOUN	NOUN	_	6	nmod	_	_
 9	brasileiros	brasileiro	ADJ	ADJ	_	8	amod	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	11	punct	_	_
+10	,	,	PUNCT	.	_	11	punct	_	_
 11	realizada	realizar	VERB	VERB	_	6	acl:part	_	_
-12	por	_	ADP	ADP	_	14	case	_	_
-13	um	_	DET	DET	_	14	det	_	_
+12	por	por	ADP	ADP	_	14	case	_	_
+13	um	um	DET	DET	_	14	det	_	_
 14	instituto	instituto	NOUN	NOUN	_	11	nmod	_	_
 15	independente	independente	ADJ	ADJ	_	14	amod	_	_
 16	**	_	PUNCT	.	_	15	punct	_	_
 17	comparando	comparar	VERB	VERB	_	4	acl:part	_	_
-18	os	_	DET	DET	_	19	det	_	_
+18	os	o	DET	DET	_	19	det	_	_
 19	modelos	modelo	NOUN	NOUN	_	17	obj	_	_
 20	Xperia	_	PROPN	PNOUN	_	19	appos	_	_
 21	Z	_	PROPN	PNOUN	_	20	flat	_	_
-22	e	_	CCONJ	CONJ	_	23	cc	_	_
+22	e	e	CCONJ	CONJ	_	23	cc	_	_
 23	Xperia	_	PROPN	PNOUN	_	20	conj	_	_
 24	ZQ	_	PROPN	PNOUN	_	23	flat	_	SpaceAfter=No
-25	,	_	PUNCT	.	_	27	punct	_	_
-26	e	_	CCONJ	CONJ	_	27	cc	_	_
+25	,	,	PUNCT	.	_	27	punct	_	_
+26	e	e	CCONJ	CONJ	_	27	cc	_	_
 27	indicou	indicar	VERB	VERB	_	4	conj	_	_
-28	a	_	DET	DET	_	29	det	_	_
+28	a	a	DET	DET	_	29	det	_	_
 29	preferência	preferência	NOUN	NOUN	_	27	obj	_	_
-30	de	_	ADP	ADP	_	31	case	_	_
+30	de	de	ADP	ADP	_	31	case	_	_
 31	tamanho	tamanho	NOUN	NOUN	_	29	nmod	_	SpaceAfter=No
-32	,	_	PUNCT	.	_	33	punct	_	_
+32	,	,	PUNCT	.	_	33	punct	_	_
 33	design	design	NOUN	NOUN	_	31	conj	_	_
-34	e	_	CCONJ	CONJ	_	35	cc	_	_
+34	e	e	CCONJ	CONJ	_	35	cc	_	_
 35	funcionalidades	funcionalidade	NOUN	NOUN	_	31	conj	_	_
 36-37	do	_	_	_	_	_	_	_	_
 36	de	de	ADP	ADP	_	38	case	_	_
@@ -107,79 +107,79 @@
 38	modelo	modelo	NOUN	NOUN	_	31	nmod	_	_
 39	Xperia	_	PROPN	PNOUN	_	38	appos	_	_
 40	ZQ	_	PROPN	PNOUN	_	39	flat	_	SpaceAfter=No
-41	.	_	PUNCT	.	_	4	punct	_	_
+41	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = test-s689
 # text = A gravação do curta - metragem é um prêmio oferecido para o melhor filme cinematográfico feito durante o 9 º Festival de Cinema de Maringá, que aconteceu no mês de junho.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	gravação	gravação	NOUN	NOUN	_	10	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	7	case	_	_
 4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 5	curta	curto	ADJ	ADJ	_	7	amod	_	_
-6	-	_	PUNCT	.	_	7	punct	_	_
+6	-	-	PUNCT	.	_	7	punct	_	_
 7	metragem	_	PROPN	PNOUN	_	2	nmod	_	_
 8	é	ser	AUX	AUX	_	10	cop	_	_
-9	um	_	DET	DET	_	10	det	_	_
+9	um	um	DET	DET	_	10	det	_	_
 10	prêmio	prêmio	NOUN	NOUN	_	0	root	_	_
 11	oferecido	oferecer	VERB	VERB	_	10	acl:part	_	_
-12	para	_	ADP	ADP	_	15	case	_	_
-13	o	_	DET	DET	_	15	det	_	_
+12	para	para	ADP	ADP	_	15	case	_	_
+13	o	o	DET	DET	_	15	det	_	_
 14	melhor	melhor	ADJ	ADJ	_	15	amod	_	_
 15	filme	filme	NOUN	NOUN	_	11	nmod	_	_
 16	cinematográfico	cinematográfico	ADJ	ADJ	_	15	amod	_	_
 17	feito	_	VERB	VERB	_	15	acl:part	_	_
 18	durante	_	ADP	ADP	_	22	case	_	_
-19	o	_	DET	DET	_	22	det	_	_
+19	o	o	DET	DET	_	22	det	_	_
 20	9	_	ADJ	ADJ	_	22	amod	_	_
 21	º	_	PUNCT	.	_	20	punct	_	_
 22	Festival	_	PROPN	PNOUN	_	17	nmod	_	_
-23	de	_	ADP	ADP	_	24	case	_	_
+23	de	de	ADP	ADP	_	24	case	_	_
 24	Cinema	_	PROPN	PNOUN	_	22	nmod	_	_
-25	de	_	ADP	ADP	_	26	case	_	_
+25	de	de	ADP	ADP	_	26	case	_	_
 26	Maringá	_	PROPN	PNOUN	_	22	nmod	_	SpaceAfter=No
-27	,	_	PUNCT	.	_	29	punct	_	_
+27	,	,	PUNCT	.	_	29	punct	_	_
 28	que	_	PRON	PRON	_	29	nsubj	_	_
 29	aconteceu	acontecer	VERB	VERB	_	22	acl:relcl	_	_
 30-31	no	_	_	_	_	_	_	_	_
 30	em	em	ADP	ADP	_	32	case	_	_
 31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	mês	mês	NOUN	NOUN	_	29	nmod	_	_
-33	de	_	ADP	ADP	_	34	case	_	_
+33	de	de	ADP	ADP	_	34	case	_	_
 34	junho	_	PROPN	PNOUN	_	32	nmod	_	SpaceAfter=No
-35	.	_	PUNCT	.	_	10	punct	_	_
+35	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = test-s690
 # text = A Secretaria de Assistência Social diz que não há previsão de reabertura do restaurante.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	Secretaria	_	PROPN	PNOUN	_	6	nsubj	_	_
-3	de	_	ADP	ADP	_	4	case	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
 4	Assistência	_	PROPN	PNOUN	_	2	nmod	_	_
 5	Social	_	PROPN	PNOUN	_	4	amod	_	_
 6	diz	dizer	VERB	VERB	_	0	root	_	_
-7	que	_	CCONJ	CONJ	_	9	mark	_	_
+7	que	que	CCONJ	CONJ	_	9	mark	_	_
 8	não	não	ADV	ADV	Polarity=Neg	9	advmod	_	_
 9	há	haver	VERB	VERB	_	6	ccomp	_	_
 10	previsão	previsão	NOUN	NOUN	_	9	obj	_	_
-11	de	_	ADP	ADP	_	12	case	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
 12	reabertura	reabertura	NOUN	NOUN	_	10	nmod	_	_
 13-14	do	_	_	_	_	_	_	_	_
 13	de	de	ADP	ADP	_	15	case	_	_
 14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	restaurante	restaurante	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	6	punct	_	_
+16	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = test-s691
 # text = A tendência é que Celso de Mello acompanhe os votos favoráveis à interpretação de que cabe ao Supremo determinar a perda de mandato dos deputados condenados, já que durante a sessão desta segunda - feira ele se mostrou inclinado à tese.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	tendência	tendência	NOUN	NOUN	_	0	root	_	_
 3	é	ser	AUX	AUX	_	2	cop	_	_
-4	que	_	CCONJ	CONJ	_	8	mark	_	_
+4	que	que	CCONJ	CONJ	_	8	mark	_	_
 5	Celso	_	PROPN	PNOUN	_	8	nsubj	_	_
-6	de	_	ADP	ADP	_	7	case	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
 7	Mello	_	PROPN	PNOUN	_	5	nmod	_	_
 8	acompanhe	acompanhar	VERB	VERB	_	2	csubj	_	_
-9	os	_	DET	DET	_	10	det	_	_
+9	os	o	DET	DET	_	10	det	_	_
 10	votos	voto	NOUN	NOUN	_	8	obj	_	_
 11	favoráveis	favorável	ADJ	ADJ	_	10	amod	_	_
 12-13	à	_	_	_	_	_	_	_	_
@@ -187,31 +187,31 @@
 13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	interpretação	interpretação	NOUN	NOUN	_	11	nmod	_	_
 15	de	_	ADP	ADP	_	17	mark	_	_
-16	que	_	CCONJ	CONJ	_	17	mark	_	_
+16	que	que	CCONJ	CONJ	_	17	mark	_	_
 17	cabe	caber	VERB	VERB	_	14	nmod	_	_
 18-19	ao	_	_	_	_	_	_	_	_
 18	a	a	ADP	ADP	_	20	case	_	_
 19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	Supremo	_	PROPN	PNOUN	_	17	iobj	_	_
 21	determinar	determinar	VERB	VERB	_	17	csubj	_	_
-22	a	_	DET	DET	_	23	det	_	_
+22	a	a	DET	DET	_	23	det	_	_
 23	perda	perda	NOUN	NOUN	_	21	obj	_	_
-24	de	_	ADP	ADP	_	25	case	_	_
+24	de	de	ADP	ADP	_	25	case	_	_
 25	mandato	mandato	NOUN	NOUN	_	23	nmod	_	_
 26-27	dos	_	_	_	_	_	_	_	_
 26	de	de	ADP	ADP	_	28	case	_	_
 27	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
 28	deputados	deputado	NOUN	NOUN	_	23	nmod	_	_
 29	condenados	condenar	VERB	VERB	_	28	acl:part	_	SpaceAfter=No
-30	,	_	PUNCT	.	_	42	punct	_	_
+30	,	,	PUNCT	.	_	42	punct	_	_
 31	já	já	ADV	ADV	_	42	mark	_	_
 32	que	_	CCONJ	CONJ	_	31	fixed	_	_
 33	durante	_	ADP	ADP	_	35	case	_	_
-34	a	_	DET	DET	_	35	det	_	_
+34	a	a	DET	DET	_	35	det	_	_
 35	sessão	sessão	NOUN	NOUN	_	42	nmod	_	_
 36	desta	_	ADP	ADP	_	39	case	_	_
 37	segunda	_	PROPN	PNOUN	_	39	amod	_	_
-38	-	_	PUNCT	.	_	39	punct	_	_
+38	-	-	PUNCT	.	_	39	punct	_	_
 39	feira	_	PROPN	PNOUN	_	35	nmod	_	_
 40	ele	_	PRON	PRON	_	42	nsubj	_	_
 41	se	_	PRON	PRON	_	43	nsubj	_	_
@@ -221,54 +221,54 @@
 44	a	a	ADP	ADP	_	46	case	_	_
 45	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
 46	tese	tese	NOUN	NOUN	_	43	nmod	_	SpaceAfter=No
-47	.	_	PUNCT	.	_	42	punct	_	_
+47	.	.	PUNCT	.	_	42	punct	_	_
 
 # sent_id = test-s692
 # text = Professora Isabel noutro lar.
 1	Professora	professor	NOUN	NOUN	_	0	root	_	_
 2	Isabel	_	PROPN	PNOUN	_	1	appos	_	_
 3-4	noutro	_	_	_	_	_	_	_	_
-3	em	_	ADP	ADP	_	5	case	_	_
+3	em	em	ADP	ADP	_	5	case	_	_
 4	outro	_	DET	DET	_	5	det	_	_
 5	lar	lar	NOUN	NOUN	_	1	nmod	_	SpaceAfter=No
-6	.	_	PUNCT	.	_	1	punct	_	_
+6	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = test-s693
 # text = A obra será executada em oito meses.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	obra	obra	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	será	ser	AUX	AUX	_	4	aux:pass	_	_
 4	executada	executar	VERB	VERB	_	0	root	_	_
-5	em	_	ADP	ADP	_	7	case	_	_
+5	em	em	ADP	ADP	_	7	case	_	_
 6	oito	_	NUM	NUM	NumType=Card	7	nummod	_	_
 7	meses	mês	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
-8	.	_	PUNCT	.	_	4	punct	_	_
+8	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = test-s694
 # text = Além disso, o tablet contará com portas USB e micro HDMI.
 1	Além	além	ADV	ADV	_	6	advmod	_	_
 2	disso	_	X	ADPPRON	_	1	nmod	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	1	punct	_	_
-4	o	_	DET	DET	_	5	det	_	_
+3	,	,	PUNCT	.	_	1	punct	_	_
+4	o	o	DET	DET	_	5	det	_	_
 5	tablet	_	NOUN	NOUN	_	6	nsubj	_	_
 6	contará	contar	VERB	VERB	_	0	root	_	_
-7	com	_	ADP	ADP	_	8	case	_	_
+7	com	com	ADP	ADP	_	8	case	_	_
 8	portas	porta	NOUN	NOUN	_	6	nmod	_	_
 9	USB	_	PROPN	PNOUN	_	8	appos	_	_
-10	e	_	CCONJ	CONJ	_	11	cc	_	_
+10	e	e	CCONJ	CONJ	_	11	cc	_	_
 11	micro	micro	NOUN	NOUN	_	8	conj	_	_
 12	HDMI	_	PROPN	PNOUN	_	11	appos	_	SpaceAfter=No
-13	.	_	PUNCT	.	_	6	punct	_	_
+13	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = test-s695
 # text = Destes, 40 % caíram devido a buracos.
 1	Destes	_	X	ADPPRON	_	4	nmod	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	1	punct	_	_
+2	,	,	PUNCT	.	_	1	punct	_	_
 3	40	_	NUM	NUM	NumType=Card	4	nummod	_	_
 4	%	_	SYM	SYM	_	5	nsubj	_	_
 5	caíram	cair	VERB	VERB	_	0	root	_	_
 6	devido	dever	VERB	VERB	_	8	case	_	_
 7	a	_	ADP	ADP	_	6	fixed	_	_
 8	buracos	buraco	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
-9	.	_	PUNCT	.	_	5	punct	_	_
+9	.	.	PUNCT	.	_	5	punct	_	_
 

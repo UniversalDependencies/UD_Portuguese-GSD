@@ -1,20 +1,20 @@
 # sent_id = train-s5201
 # text = Destes, 3.547 casos foram confirmados em 113 municípios.
 1	Destes	_	X	ADPPRON	_	6	nmod	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	1	punct	_	_
+2	,	,	PUNCT	.	_	1	punct	_	_
 3	3.547	_	NUM	NUM	NumType=Card	4	nummod	_	_
 4	casos	caso	NOUN	NOUN	_	6	nsubj:pass	_	_
 5	foram	_	AUX	AUX	_	6	aux:pass	_	_
 6	confirmados	confirmar	VERB	VERB	_	0	root	_	_
-7	em	_	ADP	ADP	_	9	case	_	_
+7	em	em	ADP	ADP	_	9	case	_	_
 8	113	_	NUM	NUM	NumType=Card	9	nummod	_	_
 9	municípios	município	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
-10	.	_	PUNCT	.	_	6	punct	_	_
+10	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s5202
 # text = Trata - se da Lei Municipal 217 / 2009, que obriga os professores da rede municipal a ministrar, em sala de aula, a leitura diária dum trecho da Bíblia, de livre escolha, seguida duma oração.
 1	Trata	tratar	VERB	VERB	_	0	root	_	_
-2	-	_	PUNCT	.	_	1	punct	_	_
+2	-	-	PUNCT	.	_	1	punct	_	_
 3	se	_	PRON	PRON	_	1	expl:pv	_	_
 4-5	da	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
@@ -22,12 +22,12 @@
 6	Lei	_	PROPN	PNOUN	_	1	nmod	_	_
 7	Municipal	_	PROPN	PNOUN	_	6	amod	_	_
 8	217	_	NUM	NUM	NumType=Card	6	appos	_	_
-9	/	_	PUNCT	.	_	8	punct	_	_
+9	/	/	PUNCT	.	_	8	punct	_	_
 10	2009	_	NUM	NUM	NumType=Card	8	nmod	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	13	punct	_	_
+11	,	,	PUNCT	.	_	13	punct	_	_
 12	que	_	PRON	PRON	_	13	nsubj	_	_
 13	obriga	obrigar	VERB	VERB	_	6	acl:relcl	_	_
-14	os	_	DET	DET	_	15	det	_	_
+14	os	o	DET	DET	_	15	det	_	_
 15	professores	professor	NOUN	NOUN	_	13	obj	_	_
 16-17	da	_	_	_	_	_	_	_	_
 16	de	de	ADP	ADP	_	18	case	_	_
@@ -36,34 +36,34 @@
 19	municipal	municipal	ADJ	ADJ	_	18	amod	_	_
 20	a	_	ADP	ADP	_	21	mark	_	_
 21	ministrar	ministrar	VERB	VERB	_	13	nmod	_	SpaceAfter=No
-22	,	_	PUNCT	.	_	24	punct	_	_
-23	em	_	ADP	ADP	_	24	case	_	_
+22	,	,	PUNCT	.	_	24	punct	_	_
+23	em	em	ADP	ADP	_	24	case	_	_
 24	sala	sala	NOUN	NOUN	_	21	nmod	_	_
-25	de	_	ADP	ADP	_	26	case	_	_
+25	de	de	ADP	ADP	_	26	case	_	_
 26	aula	aula	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
-27	,	_	PUNCT	.	_	24	punct	_	_
-28	a	_	DET	DET	_	29	det	_	_
+27	,	,	PUNCT	.	_	24	punct	_	_
+28	a	a	DET	DET	_	29	det	_	_
 29	leitura	leitura	NOUN	NOUN	_	21	obj	_	_
 30	diária	diário	ADJ	ADJ	_	29	amod	_	_
 31-32	dum	_	_	_	_	_	_	_	_
-31	de	_	ADP	ADP	_	33	case	_	_
-32	um	_	DET	DET	_	33	det	_	_
+31	de	de	ADP	ADP	_	33	case	_	_
+32	um	um	DET	DET	_	33	det	_	_
 33	trecho	trecho	NOUN	NOUN	_	29	nmod	_	_
 34-35	da	_	_	_	_	_	_	_	_
 34	de	de	ADP	ADP	_	36	case	_	_
 35	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 36	Bíblia	_	PROPN	PNOUN	_	33	nmod	_	SpaceAfter=No
-37	,	_	PUNCT	.	_	40	punct	_	_
-38	de	_	ADP	ADP	_	40	case	_	_
+37	,	,	PUNCT	.	_	40	punct	_	_
+38	de	de	ADP	ADP	_	40	case	_	_
 39	livre	livre	ADJ	ADJ	_	40	amod	_	_
 40	escolha	escolha	NOUN	NOUN	_	33	nmod	_	SpaceAfter=No
-41	,	_	PUNCT	.	_	40	punct	_	_
+41	,	,	PUNCT	.	_	40	punct	_	_
 42	seguida	seguir	VERB	VERB	_	29	acl:part	_	_
 43-44	duma	_	_	_	_	_	_	_	_
-43	de	_	ADP	ADP	_	45	case	_	_
-44	uma	_	DET	DET	_	45	det	_	_
+43	de	de	ADP	ADP	_	45	case	_	_
+44	uma	um	DET	DET	_	45	det	_	_
 45	oração	oração	NOUN	NOUN	_	42	nmod	_	SpaceAfter=No
-46	.	_	PUNCT	.	_	1	punct	_	_
+46	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s5203
 # text = Mas vou dar três bicos no tornozelo para ele parar com as gracinhas dele (risos).
@@ -79,14 +79,14 @@
 9	para	_	ADP	ADP	_	11	mark	_	_
 10	ele	_	PRON	PRON	_	11	nsubj	_	_
 11	parar	parar	VERB	VERB	_	3	advcl	_	_
-12	com	_	ADP	ADP	_	14	case	_	_
-13	as	_	DET	DET	_	14	det	_	_
+12	com	com	ADP	ADP	_	14	case	_	_
+13	as	o	DET	DET	_	14	det	_	_
 14	gracinhas	graça	NOUN	NOUN	_	11	nmod	_	_
 15	dele	_	X	ADPPRON	_	14	det:poss	_	_
-16	(	_	PUNCT	.	_	17	punct	_	SpaceAfter=No
+16	(	(	PUNCT	.	_	17	punct	_	SpaceAfter=No
 17	risos	riso	NOUN	NOUN	_	3	parataxis	_	SpaceAfter=No
-18	)	_	PUNCT	.	_	17	punct	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	3	punct	_	_
+18	)	)	PUNCT	.	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s5204
 # text = Sua fonte está no departamento Maine - et - Loire, próximo a La Pouëze.
@@ -98,52 +98,52 @@
 5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	departamento	departamento	NOUN	NOUN	_	3	nmod	_	_
 7	Maine	_	PROPN	PNOUN	_	6	appos	_	_
-8	-	_	PUNCT	.	_	11	punct	_	_
+8	-	-	PUNCT	.	_	11	punct	_	_
 9	et	_	CCONJ	CONJ	_	11	cc	_	_
-10	-	_	PUNCT	.	_	11	punct	_	_
+10	-	-	PUNCT	.	_	11	punct	_	_
 11	Loire	_	PROPN	PNOUN	_	7	conj	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	13	punct	_	_
+12	,	,	PUNCT	.	_	13	punct	_	_
 13	próximo	próximo	ADJ	ADJ	_	7	amod	_	_
 14	a	_	ADP	ADP	_	16	case	_	_
 15	La	_	PROPN	PNOUN	_	16	det	_	_
 16	Pouëze	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
-17	.	_	PUNCT	.	_	3	punct	_	_
+17	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s5205
 # text = Em 1975 foi eleito Deputado Estadual, mandato que repetiu por mais duas vezes até 1986.
-1	Em	_	ADP	ADP	_	2	case	_	_
+1	Em	em	ADP	ADP	_	2	case	_	_
 2	1975	_	NUM	NUM	NumType=Card	5	nmod	_	_
 3	foi	_	AUX	AUX	_	5	aux:pass	_	_
 4	eleito	eleger	AUX	AUX	_	5	cop	_	_
 5	Deputado	_	PROPN	PNOUN	_	0	root	_	_
 6	Estadual	_	PROPN	PNOUN	_	5	amod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	8	punct	_	_
+7	,	,	PUNCT	.	_	8	punct	_	_
 8	mandato	mandato	NOUN	NOUN	_	5	appos	_	_
 9	que	_	PRON	PRON	_	10	obj	_	_
 10	repetiu	repetir	VERB	VERB	_	8	acl:relcl	_	_
-11	por	_	ADP	ADP	_	14	case	_	_
+11	por	por	ADP	ADP	_	14	case	_	_
 12	mais	mais	ADV	ADV	_	13	advmod	_	_
 13	duas	_	NUM	NUM	NumType=Card	14	nummod	_	_
 14	vezes	vez	NOUN	NOUN	_	10	nmod	_	_
 15	até	_	ADP	ADP	_	16	case	_	_
 16	1986	_	NUM	NUM	NumType=Card	10	nmod	_	SpaceAfter=No
-17	.	_	PUNCT	.	_	5	punct	_	_
+17	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s5206
 # text = A remuneração varia dum salário mínimo a R $ 1.721,38.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	remuneração	remuneração	NOUN	NOUN	_	3	nsubj	_	_
 3	varia	variar	VERB	VERB	_	0	root	_	_
 4-5	dum	_	_	_	_	_	_	_	_
-4	de	_	ADP	ADP	_	6	case	_	_
-5	um	_	DET	DET	_	6	det	_	_
+4	de	de	ADP	ADP	_	6	case	_	_
+5	um	um	DET	DET	_	6	det	_	_
 6	salário	salário	NOUN	NOUN	_	3	nmod	_	_
 7	mínimo	mínimo	ADJ	ADJ	_	6	amod	_	_
 8	a	_	ADP	ADP	_	9	case	_	_
 9	R	r	NOUN	NOUN	_	3	nmod	_	_
 10	$	_	SYM	SYM	_	9	flat	_	_
 11	1.721,38	_	NUM	NUM	NumType=Card	9	nummod	_	SpaceAfter=No
-12	.	_	PUNCT	.	_	3	punct	_	_
+12	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s5207
 # text = Nos meses de março e abril, acadêmicos realizaram protestos semelhantes, chegando até mesmo a se deslocarem para Cuiabá para reunião com alguns deputados e secretários.
@@ -151,32 +151,32 @@
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	meses	mês	NOUN	NOUN	_	10	nmod	_	_
-4	de	_	ADP	ADP	_	5	case	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
 5	março	_	PROPN	PNOUN	_	3	nmod	_	_
-6	e	_	CCONJ	CONJ	_	7	cc	_	_
+6	e	e	CCONJ	CONJ	_	7	cc	_	_
 7	abril	_	PROPN	PNOUN	_	5	conj	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	3	punct	_	_
+8	,	,	PUNCT	.	_	3	punct	_	_
 9	acadêmicos	acadêmico	NOUN	NOUN	_	10	nsubj	_	_
 10	realizaram	realizar	VERB	VERB	_	0	root	_	_
 11	protestos	protesto	NOUN	NOUN	_	10	obj	_	_
 12	semelhantes	semelhante	ADJ	ADJ	_	11	amod	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	19	punct	_	_
+13	,	,	PUNCT	.	_	19	punct	_	_
 14	chegando	chegar	AUX	AUX	_	19	aux	_	_
 15	até	até	ADV	ADV	_	16	advmod	_	_
 16	mesmo	mesmo	ADV	ADV	_	19	advmod	_	_
 17	a	_	ADP	ADP	_	19	mark	_	_
 18	se	_	PRON	PRON	_	19	obj	_	_
 19	deslocarem	deslocar	VERB	VERB	_	10	acl:part	_	_
-20	para	_	ADP	ADP	_	21	case	_	_
+20	para	para	ADP	ADP	_	21	case	_	_
 21	Cuiabá	_	PROPN	PNOUN	_	19	nmod	_	_
-22	para	_	ADP	ADP	_	23	case	_	_
+22	para	para	ADP	ADP	_	23	case	_	_
 23	reunião	reunião	NOUN	NOUN	_	19	nmod	_	_
-24	com	_	ADP	ADP	_	26	case	_	_
+24	com	com	ADP	ADP	_	26	case	_	_
 25	alguns	_	DET	DET	_	26	det	_	_
 26	deputados	deputado	NOUN	NOUN	_	23	nmod	_	_
-27	e	_	CCONJ	CONJ	_	28	cc	_	_
+27	e	e	CCONJ	CONJ	_	28	cc	_	_
 28	secretários	secretário	NOUN	NOUN	_	26	conj	_	SpaceAfter=No
-29	.	_	PUNCT	.	_	10	punct	_	_
+29	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s5208
 # text = Polícia Civil irá investigar possíveis causas do incêndio.
@@ -190,13 +190,13 @@
 7	de	de	ADP	ADP	_	9	case	_	_
 8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	incêndio	incêndio	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
-10	.	_	PUNCT	.	_	4	punct	_	_
+10	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s5209
 # text = Ironicamente, a constante retornou à corrente principal da cosmologia devido a medições que indicam uma expansão acelerada do universo, o que implica um valor de Λ diferente de zero.
 1	Ironicamente	ironicamente	ADV	ADV	_	5	advmod	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	1	punct	_	_
-3	a	_	DET	DET	_	4	det	_	_
+2	,	,	PUNCT	.	_	1	punct	_	_
+3	a	a	DET	DET	_	4	det	_	_
 4	constante	constante	NOUN	NOUN	_	5	nsubj	_	_
 5	retornou	retornar	VERB	VERB	_	0	root	_	_
 6-7	à	_	_	_	_	_	_	_	_
@@ -213,25 +213,25 @@
 15	medições	medição	NOUN	NOUN	_	5	nmod	_	_
 16	que	_	PRON	PRON	_	17	nsubj	_	_
 17	indicam	indicar	VERB	VERB	_	15	acl:relcl	_	_
-18	uma	_	DET	DET	_	19	det	_	_
+18	uma	um	DET	DET	_	19	det	_	_
 19	expansão	expansão	NOUN	NOUN	_	17	obj	_	_
 20	acelerada	acelerado	ADJ	ADJ	_	19	amod	_	_
 21-22	do	_	_	_	_	_	_	_	_
 21	de	de	ADP	ADP	_	23	case	_	_
 22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	universo	universo	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
-24	,	_	PUNCT	.	_	27	punct	_	_
-25	o	_	DET	DET	_	26	det	_	_
+24	,	,	PUNCT	.	_	27	punct	_	_
+25	o	o	DET	DET	_	26	det	_	_
 26	que	_	PRON	PRON	_	27	nsubj	_	_
 27	implica	implicar	VERB	VERB	_	5	parataxis	_	_
-28	um	_	DET	DET	_	29	det	_	_
+28	um	um	DET	DET	_	29	det	_	_
 29	valor	valor	NOUN	NOUN	_	27	obj	_	_
-30	de	_	ADP	ADP	_	31	case	_	_
+30	de	de	ADP	ADP	_	31	case	_	_
 31	Λ	_	PROPN	PNOUN	_	29	nmod	_	_
 32	diferente	diferente	ADJ	ADJ	_	29	amod	_	_
-33	de	_	ADP	ADP	_	34	case	_	_
+33	de	de	ADP	ADP	_	34	case	_	_
 34	zero	_	NUM	NUM	NumType=Card	32	nmod	_	SpaceAfter=No
-35	.	_	PUNCT	.	_	5	punct	_	_
+35	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s5210
 # text = Codinomes não serão aceitos.
@@ -239,5 +239,5 @@
 2	não	não	ADV	ADV	Polarity=Neg	4	advmod	_	_
 3	serão	ser	AUX	AUX	_	4	aux:pass	_	_
 4	aceitos	_	VERB	VERB	_	0	root	_	SpaceAfter=No
-5	.	_	PUNCT	.	_	4	punct	_	_
+5	.	.	PUNCT	.	_	4	punct	_	_
 

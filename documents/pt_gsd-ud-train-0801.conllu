@@ -10,22 +10,22 @@
 7	destruída	destruído	ADJ	ADJ	_	6	xcomp:adj	_	_
 8	depois	depois	ADV	ADV	_	12	mark	_	_
 9	que	_	CCONJ	CONJ	_	8	fixed	_	_
-10	os	_	DET	DET	_	11	det	_	_
+10	os	o	DET	DET	_	11	det	_	_
 11	bombeiros	bombeiro	NOUN	NOUN	_	12	nsubj	_	_
 12	conseguiram	conseguir	VERB	VERB	_	6	advcl	_	_
 13	apagar	apagar	VERB	VERB	_	12	xcomp	_	_
-14	as	_	DET	DET	_	15	det	_	_
+14	as	o	DET	DET	_	15	det	_	_
 15	chamas	chama	NOUN	NOUN	_	13	obj	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	6	punct	_	_
+16	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s7952
 # text = A procissão e a missa de encerramento da festa da padroeira de Natal, Nossa Senhora da Apresentação, ocorrida no final da tarde de hoje, contou com a presença de muitos políticos.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	procissão	procissão	NOUN	NOUN	_	33	nsubj	_	_
 3	e	e	CCONJ	CONJ	_	5	cc	_	_
 4	a	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	missa	missa	NOUN	NOUN	_	2	conj	_	_
-6	de	_	ADP	ADP	_	7	case	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
 7	encerramento	encerramento	NOUN	NOUN	_	5	nmod	_	_
 8-9	da	_	_	_	_	_	_	_	_
 8	de	de	ADP	ADP	_	10	case	_	_
@@ -35,16 +35,16 @@
 11	de	de	ADP	ADP	_	13	case	_	_
 12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	padroeira	padroeiro	NOUN	NOUN	_	10	nmod	_	_
-14	de	_	ADP	ADP	_	15	case	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
 15	Natal	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	18	punct	_	_
+16	,	,	PUNCT	.	_	18	punct	_	_
 17	Nossa	_	PROPN	PNOUN	_	18	det:poss	_	_
 18	Senhora	_	PROPN	PNOUN	_	13	appos	_	_
 19-20	da	_	_	_	_	_	_	_	_
 19	de	de	ADP	ADP	_	21	case	_	_
 20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	Apresentação	_	PROPN	PNOUN	_	18	nmod	_	SpaceAfter=No
-22	,	_	PUNCT	.	_	18	punct	_	_
+22	,	,	PUNCT	.	_	18	punct	_	_
 23	ocorrida	ocorrer	VERB	VERB	_	5	acl:part	_	_
 24-25	no	_	_	_	_	_	_	_	_
 24	em	em	ADP	ADP	_	26	case	_	_
@@ -56,20 +56,20 @@
 29	tarde	tarde	NOUN	NOUN	_	26	nmod	_	_
 30	de	_	ADP	ADP	_	31	mark	_	_
 31	hoje	hoje	ADV	ADV	_	29	nmod	_	SpaceAfter=No
-32	,	_	PUNCT	.	_	23	punct	_	_
+32	,	,	PUNCT	.	_	23	punct	_	_
 33	contou	contar	VERB	VERB	_	0	root	_	_
-34	com	_	ADP	ADP	_	36	case	_	_
-35	a	_	DET	DET	_	36	det	_	_
+34	com	com	ADP	ADP	_	36	case	_	_
+35	a	a	DET	DET	_	36	det	_	_
 36	presença	presença	NOUN	NOUN	_	33	nmod	_	_
-37	de	_	ADP	ADP	_	39	case	_	_
+37	de	de	ADP	ADP	_	39	case	_	_
 38	muitos	_	DET	DET	_	39	det	_	_
 39	políticos	político	NOUN	NOUN	_	36	nmod	_	SpaceAfter=No
-40	.	_	PUNCT	.	_	33	punct	_	_
+40	.	.	PUNCT	.	_	33	punct	_	_
 
 # sent_id = train-s7953
 # text = Gameiro, que marcou duas vezes no mês passado no único jogo que havia começado como titular nesta temporada, cabeceou após cruzamento de Maxwell aos 20 do segundo tempo.
 1	Gameiro	_	PROPN	PNOUN	_	23	nsubj	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	4	punct	_	_
+2	,	,	PUNCT	.	_	4	punct	_	_
 3	que	_	PRON	PRON	_	4	nsubj	_	_
 4	marcou	marcar	VERB	VERB	_	1	acl:relcl	_	_
 5	duas	_	NUM	NUM	NumType=Card	6	nummod	_	_
@@ -87,15 +87,15 @@
 15	que	_	PRON	PRON	_	17	obj	_	_
 16	havia	haver	AUX	AUX	_	17	aux	_	_
 17	começado	começar	VERB	VERB	_	14	acl:relcl	_	_
-18	como	_	ADP	ADP	_	19	case	_	_
+18	como	como	ADP	ADP	_	19	case	_	_
 19	titular	titular	NOUN	NOUN	_	17	nmod	_	_
 20	nesta	_	ADP	ADP	_	21	case	_	_
 21	temporada	temporada	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
-22	,	_	PUNCT	.	_	4	punct	_	_
+22	,	,	PUNCT	.	_	4	punct	_	_
 23	cabeceou	cabecear	VERB	VERB	_	0	root	_	_
 24	após	_	ADP	ADP	_	25	case	_	_
 25	cruzamento	cruzamento	NOUN	NOUN	_	23	nmod	_	_
-26	de	_	ADP	ADP	_	27	case	_	_
+26	de	de	ADP	ADP	_	27	case	_	_
 27	Maxwell	_	PROPN	PNOUN	_	25	nmod	_	_
 28-29	aos	_	_	_	_	_	_	_	_
 28	a	a	ADP	ADP	_	30	case	_	_
@@ -106,13 +106,13 @@
 32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
 33	segundo	segundo	ADJ	ADJ	_	34	amod	_	_
 34	tempo	tempo	NOUN	NOUN	_	30	nmod	_	SpaceAfter=No
-35	.	_	PUNCT	.	_	23	punct	_	_
+35	.	.	PUNCT	.	_	23	punct	_	_
 
 # sent_id = train-s7954
 # text = Acima e um tanto atrás se eleva outro arco ogival, já mais rico de espinhas e florões, terminando em pináculo, com um grande óculo ovalado com uma rosácea redonda de oito lobos em seu interior.
 1	Acima	acima	ADV	ADV	_	7	advmod	_	_
-2	e	_	CCONJ	CONJ	_	5	cc	_	_
-3	um	_	DET	DET	_	4	det	_	_
+2	e	e	CCONJ	CONJ	_	5	cc	_	_
+3	um	um	DET	DET	_	4	det	_	_
 4	tanto	tanto	NOUN	NOUN	_	5	advmod	_	_
 5	atrás	atrás	ADV	ADV	_	1	conj	_	_
 6	se	_	PART	PRT	_	7	expl:pv	_	_
@@ -120,39 +120,39 @@
 8	outro	_	DET	DET	_	9	det	_	_
 9	arco	arco	NOUN	NOUN	_	7	nsubj	_	_
 10	ogival	ogival	ADJ	ADJ	_	9	amod	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	14	punct	_	_
+11	,	,	PUNCT	.	_	14	punct	_	_
 12	já	já	ADV	ADV	_	13	advmod	_	_
 13	mais	mais	ADV	ADV	_	14	advmod	_	_
 14	rico	rico	ADJ	ADJ	_	9	amod	_	_
-15	de	_	ADP	ADP	_	16	case	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
 16	espinhas	_	NOUN	NOUN	_	14	nmod	_	_
-17	e	_	CCONJ	CONJ	_	18	cc	_	_
+17	e	e	CCONJ	CONJ	_	18	cc	_	_
 18	florões	florão	NOUN	NOUN	_	16	conj	_	SpaceAfter=No
-19	,	_	PUNCT	.	_	20	punct	_	_
+19	,	,	PUNCT	.	_	20	punct	_	_
 20	terminando	terminar	VERB	VERB	_	9	acl:part	_	_
-21	em	_	ADP	ADP	_	22	case	_	_
+21	em	em	ADP	ADP	_	22	case	_	_
 22	pináculo	pináculo	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
-23	,	_	PUNCT	.	_	20	punct	_	_
-24	com	_	ADP	ADP	_	27	case	_	_
-25	um	_	DET	DET	_	27	det	_	_
+23	,	,	PUNCT	.	_	20	punct	_	_
+24	com	com	ADP	ADP	_	27	case	_	_
+25	um	um	DET	DET	_	27	det	_	_
 26	grande	grande	ADJ	ADJ	_	27	amod	_	_
 27	óculo	óculo	NOUN	NOUN	_	9	nmod	_	_
 28	ovalado	_	ADJ	ADJ	_	27	amod	_	_
-29	com	_	ADP	ADP	_	31	case	_	_
-30	uma	_	DET	DET	_	31	det	_	_
+29	com	com	ADP	ADP	_	31	case	_	_
+30	uma	um	DET	DET	_	31	det	_	_
 31	rosácea	rosácea	NOUN	NOUN	_	27	nmod	_	_
 32	redonda	redondo	ADJ	ADJ	_	31	amod	_	_
-33	de	_	ADP	ADP	_	35	case	_	_
+33	de	de	ADP	ADP	_	35	case	_	_
 34	oito	_	NUM	NUM	NumType=Card	35	nummod	_	_
 35	lobos	lobo	NOUN	NOUN	_	31	nmod	_	_
-36	em	_	ADP	ADP	_	38	case	_	_
+36	em	em	ADP	ADP	_	38	case	_	_
 37	seu	_	DET	DET	_	38	det:poss	_	_
 38	interior	interior	NOUN	NOUN	_	31	nmod	_	SpaceAfter=No
-39	.	_	PUNCT	.	_	7	punct	_	_
+39	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s7955
 # text = A primeira temporada da série não está mais sendo exibida em nenhum canal, sendo também que a T.I. já encerrou a exibição da segunda e a Teen Model começou a exibir a segunda temporada e a encerrou em Janeiro deste ano.
-1	A	_	DET	DET	_	3	det	_	_
+1	A	o	DET	DET	_	3	det	_	_
 2	primeira	primeiro	ADJ	ADJ	_	3	amod	_	_
 3	temporada	temporada	NOUN	NOUN	_	11	nsubj:pass	_	_
 4-5	da	_	_	_	_	_	_	_	_
@@ -164,41 +164,41 @@
 9	mais	mais	ADV	ADV	_	11	advmod	_	_
 10	sendo	ser	AUX	AUX	_	11	aux:pass	_	_
 11	exibida	exibir	VERB	VERB	_	0	root	_	_
-12	em	_	ADP	ADP	_	14	case	_	_
+12	em	em	ADP	ADP	_	14	case	_	_
 13	nenhum	_	DET	DET	_	14	det	_	_
 14	canal	canal	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	16	punct	_	_
+15	,	,	PUNCT	.	_	16	punct	_	_
 16	sendo	ser	VERB	VERB	_	11	acl:part	_	_
 17	também	também	ADV	ADV	_	16	advmod	_	_
-18	que	_	CCONJ	CONJ	_	22	mark	_	_
-19	a	_	DET	DET	_	20	det	_	_
+18	que	que	CCONJ	CONJ	_	22	mark	_	_
+19	a	a	DET	DET	_	20	det	_	_
 20	T.I.	_	PROPN	PNOUN	_	22	nsubj	_	_
 21	já	já	ADV	ADV	_	22	advmod	_	_
 22	encerrou	encerrar	VERB	VERB	_	16	csubj	_	_
-23	a	_	DET	DET	_	24	det	_	_
+23	a	a	DET	DET	_	24	det	_	_
 24	exibição	exibição	NOUN	NOUN	_	22	obj	_	_
 25-26	da	_	_	_	_	_	_	_	_
 25	de	de	ADP	ADP	_	27	case	_	_
 26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	segunda	_	NOUN	NOUN	_	24	nmod	_	_
-28	e	_	CCONJ	CONJ	_	34	cc	_	_
-29	a	_	DET	DET	_	30	det	_	_
+28	e	e	CCONJ	CONJ	_	34	cc	_	_
+29	a	a	DET	DET	_	30	det	_	_
 30	Teen	_	PROPN	PNOUN	_	34	nsubj	_	_
 31	Model	_	PROPN	PNOUN	_	30	flat	_	_
 32	começou	começar	AUX	AUX	_	34	aux	_	_
 33	a	_	ADP	ADP	_	34	mark	_	_
 34	exibir	exibir	VERB	VERB	_	22	conj	_	_
-35	a	_	DET	DET	_	37	det	_	_
+35	a	a	DET	DET	_	37	det	_	_
 36	segunda	segundo	ADJ	ADJ	_	37	amod	_	_
 37	temporada	temporada	NOUN	NOUN	_	34	obj	_	_
-38	e	_	CCONJ	CONJ	_	40	cc	_	_
+38	e	e	CCONJ	CONJ	_	40	cc	_	_
 39	a	_	PRON	PRON	_	40	obj	_	_
 40	encerrou	encerrar	VERB	VERB	_	34	conj	_	_
-41	em	_	ADP	ADP	_	42	case	_	_
+41	em	em	ADP	ADP	_	42	case	_	_
 42	Janeiro	_	PROPN	PNOUN	_	40	nmod	_	_
 43	deste	_	ADP	ADP	_	44	case	_	_
 44	ano	ano	NOUN	NOUN	_	42	nmod	_	SpaceAfter=No
-45	.	_	PUNCT	.	_	11	punct	_	_
+45	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s7956
 # text = Outra companhia que operou o tipo, dois modelos que acabaram na frota da TAM, foi a extinta TABA.
@@ -206,9 +206,9 @@
 2	companhia	companhia	NOUN	NOUN	_	22	nsubj	_	_
 3	que	_	PRON	PRON	_	4	nsubj	_	_
 4	operou	operar	VERB	VERB	_	2	acl:relcl	_	_
-5	o	_	DET	DET	_	6	det	_	_
+5	o	o	DET	DET	_	6	det	_	_
 6	tipo	tipo	NOUN	NOUN	_	4	obj	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	9	punct	_	_
+7	,	,	PUNCT	.	_	9	punct	_	_
 8	dois	_	NUM	NUM	NumType=Card	9	nummod	_	_
 9	modelos	modelo	NOUN	NOUN	_	6	appos	_	_
 10	que	_	PRON	PRON	_	11	nsubj	_	_
@@ -221,28 +221,28 @@
 15	de	de	ADP	ADP	_	17	case	_	_
 16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	TAM	_	PROPN	PNOUN	_	14	nmod	_	SpaceAfter=No
-18	,	_	PUNCT	.	_	9	punct	_	_
+18	,	,	PUNCT	.	_	9	punct	_	_
 19	foi	_	AUX	AUX	_	22	cop	_	_
-20	a	_	DET	DET	_	22	det	_	_
+20	a	a	DET	DET	_	22	det	_	_
 21	extinta	extinto	ADJ	ADJ	_	22	amod	_	_
 22	TABA	_	PROPN	PNOUN	_	0	root	_	SpaceAfter=No
-23	.	_	PUNCT	.	_	22	punct	_	_
+23	.	.	PUNCT	.	_	22	punct	_	_
 
 # sent_id = train-s7957
 # text = Sem dúvida, obra melhora o atendimento ao jurisdicionado porque o espaço que temos no fórum atual é muito pequeno ", ressaltou o juiz.
 1	Sem	_	ADP	ADP	_	2	case	_	_
 2	dúvida	dúvida	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	2	punct	_	_
+3	,	,	PUNCT	.	_	2	punct	_	_
 4	obra	obra	NOUN	NOUN	_	5	nsubj	_	_
 5	melhora	melhorar	VERB	VERB	_	25	ccomp	_	_
-6	o	_	DET	DET	_	7	det	_	_
+6	o	o	DET	DET	_	7	det	_	_
 7	atendimento	atendimento	NOUN	NOUN	_	5	obj	_	_
 8-9	ao	_	_	_	_	_	_	_	_
 8	a	a	ADP	ADP	_	10	case	_	_
 9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	jurisdicionado	_	NOUN	NOUN	_	7	nmod	_	_
 11	porque	_	CCONJ	CONJ	_	20	mark	_	_
-12	o	_	DET	DET	_	13	det	_	_
+12	o	o	DET	DET	_	13	det	_	_
 13	espaço	espaço	NOUN	NOUN	_	20	nsubj	_	_
 14	que	_	PRON	PRON	_	15	obj	_	_
 15	temos	ter	VERB	VERB	_	13	acl:relcl	_	_
@@ -254,32 +254,32 @@
 20	é	ser	VERB	VERB	_	5	advcl	_	_
 21	muito	muito	ADV	ADV	_	22	advmod	_	_
 22	pequeno	pequeno	ADJ	ADJ	_	20	xcomp:adj	_	_
-23	"	_	PUNCT	.	_	5	punct	_	SpaceAfter=No
-24	,	_	PUNCT	.	_	25	punct	_	_
+23	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
+24	,	,	PUNCT	.	_	25	punct	_	_
 25	ressaltou	ressaltar	VERB	VERB	_	0	root	_	_
-26	o	_	DET	DET	_	27	det	_	_
+26	o	o	DET	DET	_	27	det	_	_
 27	juiz	juiz	NOUN	NOUN	_	25	nsubj	_	SpaceAfter=No
-28	.	_	PUNCT	.	_	25	punct	_	_
+28	.	.	PUNCT	.	_	25	punct	_	_
 
 # sent_id = train-s7958
 # text = Se houver um resultado contrário e eles forem absolvidos, eu vou morrer ", afirmou.
 1	Se	_	CCONJ	CONJ	_	2	mark	_	_
 2	houver	haver	VERB	VERB	_	13	advcl	_	_
-3	um	_	DET	DET	_	4	det	_	_
+3	um	um	DET	DET	_	4	det	_	_
 4	resultado	resultado	NOUN	NOUN	_	2	obj	_	_
 5	contrário	contrário	ADJ	ADJ	_	4	amod	_	_
-6	e	_	CCONJ	CONJ	_	9	cc	_	_
+6	e	e	CCONJ	CONJ	_	9	cc	_	_
 7	eles	_	PRON	PRON	_	9	nsubj:pass	_	_
 8	forem	_	AUX	AUX	_	9	aux:pass	_	_
 9	absolvidos	absolver	VERB	VERB	_	2	conj	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	2	punct	_	_
+10	,	,	PUNCT	.	_	2	punct	_	_
 11	eu	_	PRON	PRON	_	13	nsubj	_	_
 12	vou	ir	AUX	AUX	_	13	aux	_	_
 13	morrer	morrer	VERB	VERB	_	16	ccomp	_	_
-14	"	_	PUNCT	.	_	13	punct	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	16	punct	_	_
+14	"	"	PUNCT	.	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	.	_	16	punct	_	_
 16	afirmou	afirmar	VERB	VERB	_	0	root	_	SpaceAfter=No
-17	.	_	PUNCT	.	_	16	punct	_	_
+17	.	.	PUNCT	.	_	16	punct	_	_
 
 # sent_id = train-s7959
 # text = Mais do que isso, lembrará da conquista da Copa do Brasil, seu primeiro título como dono do gol alviverde.
@@ -289,7 +289,7 @@
 3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 4	que	_	CCONJ	CONJ	_	2	fixed	_	_
 5	isso	_	PRON	PRON	_	1	nmod	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	1	punct	_	_
+6	,	,	PUNCT	.	_	1	punct	_	_
 7	lembrará	lembrar	VERB	VERB	_	0	root	_	_
 8-9	da	_	_	_	_	_	_	_	_
 8	de	de	ADP	ADP	_	10	case	_	_
@@ -303,24 +303,24 @@
 14	de	de	ADP	ADP	_	16	case	_	_
 15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	Brasil	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	20	punct	_	_
+17	,	,	PUNCT	.	_	20	punct	_	_
 18	seu	_	DET	DET	_	20	det:poss	_	_
 19	primeiro	primeiro	ADJ	ADJ	_	20	amod	_	_
 20	título	título	NOUN	NOUN	_	13	appos	_	_
-21	como	_	ADP	ADP	_	22	case	_	_
+21	como	como	ADP	ADP	_	22	case	_	_
 22	dono	dono	NOUN	NOUN	_	20	nmod	_	_
 23-24	do	_	_	_	_	_	_	_	_
 23	de	de	ADP	ADP	_	25	case	_	_
 24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	gol	gol	NOUN	NOUN	_	22	nmod	_	_
 26	alviverde	alviverde	ADJ	ADJ	_	25	amod	_	SpaceAfter=No
-27	.	_	PUNCT	.	_	7	punct	_	_
+27	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s7960
 # text = O atacante, que é velho conhecido do futebol cearense, marcou de pênalti, aos 24 minutos do 2 ° tempo.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	atacante	atacante	NOUN	NOUN	_	13	nsubj	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	7	punct	_	_
+3	,	,	PUNCT	.	_	7	punct	_	_
 4	que	_	PRON	PRON	_	7	nsubj	_	_
 5	é	ser	AUX	AUX	_	7	cop	_	_
 6	velho	velho	ADJ	ADJ	_	7	amod	_	_
@@ -330,11 +330,11 @@
 9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	futebol	futebol	NOUN	NOUN	_	7	nmod	_	_
 11	cearense	cearense	ADJ	ADJ	_	10	amod	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	7	punct	_	_
+12	,	,	PUNCT	.	_	7	punct	_	_
 13	marcou	marcar	VERB	VERB	_	0	root	_	_
-14	de	_	ADP	ADP	_	15	case	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
 15	pênalti	pênalti	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	20	punct	_	_
+16	,	,	PUNCT	.	_	20	punct	_	_
 17-18	aos	_	_	_	_	_	_	_	_
 17	a	a	ADP	ADP	_	20	case	_	_
 18	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
@@ -346,5 +346,5 @@
 23	2	_	ADJ	ADJ	_	25	amod	_	_
 24	°	_	PUNCT	.	_	23	punct	_	_
 25	tempo	tempo	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
-26	.	_	PUNCT	.	_	13	punct	_	_
+26	.	.	PUNCT	.	_	13	punct	_	_
 

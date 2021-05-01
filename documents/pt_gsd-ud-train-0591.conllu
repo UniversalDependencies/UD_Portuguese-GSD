@@ -12,48 +12,48 @@
 9	condenação	condenação	NOUN	NOUN	_	6	nmod	_	_
 10	nesse	_	ADP	ADP	_	11	case	_	_
 11	crime	crime	NOUN	NOUN	_	9	nmod	_	_
-12	e	_	CCONJ	CONJ	_	13	cc	_	_
+12	e	e	CCONJ	CONJ	_	13	cc	_	_
 13	João	_	PROPN	PNOUN	_	2	conj	_	_
 14	Paulo	_	PROPN	PNOUN	_	13	flat	_	_
 15	Cunha	_	PROPN	PNOUN	_	13	flat	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	17	punct	_	_
+16	,	,	PUNCT	.	_	17	punct	_	_
 17	três	_	NUM	NUM	NumType=Card	13	obj	_	SpaceAfter=No
-18	.	_	PUNCT	.	_	2	punct	_	_
+18	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s5869
 # text = A escola de futsal abriu mais dois núcleos de treinamento um em São Leopoldo com o UJR / GuSch e outro em Novo Hamburgo UJR / Bancários.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	escola	escola	NOUN	NOUN	_	5	nsubj	_	_
-3	de	_	ADP	ADP	_	4	case	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
 4	futsal	_	NOUN	NOUN	_	2	nmod	_	_
 5	abriu	abrir	VERB	VERB	_	0	root	_	_
 6	mais	mais	ADV	ADV	_	7	advmod	_	_
 7	dois	_	NUM	NUM	NumType=Card	8	nummod	_	_
 8	núcleos	núcleo	NOUN	NOUN	_	5	obj	_	_
-9	de	_	ADP	ADP	_	10	case	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
 10	treinamento	treinamento	NOUN	NOUN	_	8	nmod	_	_
 11	um	_	PRON	PRON	_	8	appos	_	_
-12	em	_	ADP	ADP	_	13	case	_	_
+12	em	em	ADP	ADP	_	13	case	_	_
 13	São	_	PROPN	PNOUN	_	11	nmod	_	_
 14	Leopoldo	_	PROPN	PNOUN	_	13	flat	_	_
-15	com	_	ADP	ADP	_	17	case	_	_
-16	o	_	DET	DET	_	17	det	_	_
+15	com	com	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	_	17	det	_	_
 17	UJR	_	PROPN	PNOUN	_	11	nmod	_	_
-18	/	_	PUNCT	.	_	17	punct	_	_
+18	/	/	PUNCT	.	_	17	punct	_	_
 19	GuSch	_	PROPN	PNOUN	_	17	flat	_	_
-20	e	_	CCONJ	CONJ	_	21	cc	_	_
+20	e	e	CCONJ	CONJ	_	21	cc	_	_
 21	outro	_	PRON	PRON	_	11	conj	_	_
-22	em	_	ADP	ADP	_	24	case	_	_
+22	em	em	ADP	ADP	_	24	case	_	_
 23	Novo	_	PROPN	PNOUN	_	24	amod	_	_
 24	Hamburgo	_	PROPN	PNOUN	_	21	nmod	_	_
 25	UJR	_	PROPN	PNOUN	_	24	appos	_	_
-26	/	_	PUNCT	.	_	25	punct	_	_
+26	/	/	PUNCT	.	_	25	punct	_	_
 27	Bancários	_	PROPN	PNOUN	_	25	flat	_	SpaceAfter=No
-28	.	_	PUNCT	.	_	5	punct	_	_
+28	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s5870
 # text = A confirmação da presença do agente causador da doença da vaca louca numa matriz bovina, que há dois anos teve morte súbita numa fazenda em Sertanópolis, no Paraná, causou apreensão na pecuária brasileira.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	confirmação	confirmação	NOUN	NOUN	_	38	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -74,11 +74,11 @@
 15	vaca	_	NOUN	NOUN	_	12	nmod	_	_
 16	louca	louco	ADJ	ADJ	_	15	amod	_	_
 17-18	numa	_	_	_	_	_	_	_	_
-17	em	_	ADP	ADP	_	19	case	_	_
-18	uma	_	DET	DET	_	19	det	_	_
+17	em	em	ADP	ADP	_	19	case	_	_
+18	uma	um	DET	DET	_	19	det	_	_
 19	matriz	matriz	NOUN	NOUN	_	5	nmod	_	_
 20	bovina	bovino	ADJ	ADJ	_	19	amod	_	SpaceAfter=No
-21	,	_	PUNCT	.	_	26	punct	_	_
+21	,	,	PUNCT	.	_	26	punct	_	_
 22	que	_	PRON	PRON	_	26	nsubj	_	_
 23	há	haver	VERB	VERB	_	26	advcl	_	_
 24	dois	_	NUM	NUM	NumType=Card	25	nummod	_	_
@@ -88,14 +88,14 @@
 28	súbita	súbito	ADJ	ADJ	_	27	amod	_	_
 29	numa	_	ADP	ADP	_	30	case	_	_
 30	fazenda	fazenda	NOUN	NOUN	_	26	nmod	_	_
-31	em	_	ADP	ADP	_	32	case	_	_
+31	em	em	ADP	ADP	_	32	case	_	_
 32	Sertanópolis	_	PROPN	PNOUN	_	30	nmod	_	SpaceAfter=No
-33	,	_	PUNCT	.	_	36	punct	_	_
+33	,	,	PUNCT	.	_	36	punct	_	_
 34-35	no	_	_	_	_	_	_	_	_
 34	em	em	ADP	ADP	_	36	case	_	_
 35	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 36	Paraná	_	PROPN	PNOUN	_	26	nmod	_	SpaceAfter=No
-37	,	_	PUNCT	.	_	26	punct	_	_
+37	,	,	PUNCT	.	_	26	punct	_	_
 38	causou	causar	VERB	VERB	_	0	root	_	_
 39	apreensão	apreensão	NOUN	NOUN	_	38	obj	_	_
 40-41	na	_	_	_	_	_	_	_	_
@@ -103,18 +103,18 @@
 41	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
 42	pecuária	_	NOUN	NOUN	_	38	nmod	_	_
 43	brasileira	brasileiro	ADJ	ADJ	_	42	amod	_	SpaceAfter=No
-44	.	_	PUNCT	.	_	38	punct	_	_
+44	.	.	PUNCT	.	_	38	punct	_	_
 
 # sent_id = train-s5871
 # text = Em Pyongyang também realizado um show pirotécnico.
-1	Em	_	ADP	ADP	_	2	case	_	_
+1	Em	em	ADP	ADP	_	2	case	_	_
 2	Pyongyang	_	PROPN	PNOUN	_	4	nmod	_	_
 3	também	também	ADV	ADV	_	4	advmod	_	_
 4	realizado	realizar	VERB	VERB	_	0	root	_	_
-5	um	_	DET	DET	_	6	det	_	_
+5	um	um	DET	DET	_	6	det	_	_
 6	show	show	NOUN	NOUN	_	4	nsubj:pass	_	_
 7	pirotécnico	pirotécnico	ADJ	ADJ	_	6	amod	_	SpaceAfter=No
-8	.	_	PUNCT	.	_	4	punct	_	_
+8	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s5872
 # text = No último sorteio, realizado na quarta - feira (5), também em São Luís, ninguém acertou as sete dezenas do prêmio máximo, que foram 02, 07, 21, 22, 33, 45 e 79, enquanto o Time do Coração foi o Ypiranga (AP).
@@ -123,26 +123,26 @@
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	último	último	ADJ	ADJ	_	4	amod	_	_
 4	sorteio	sorteio	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	6	punct	_	_
+5	,	,	PUNCT	.	_	6	punct	_	_
 6	realizado	realizar	VERB	VERB	_	4	acl:part	_	_
 7-8	na	_	_	_	_	_	_	_	_
 7	em	em	ADP	ADP	_	11	case	_	_
 8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 9	quarta	_	PROPN	PNOUN	_	11	amod	_	_
-10	-	_	PUNCT	.	_	11	punct	_	_
+10	-	-	PUNCT	.	_	11	punct	_	_
 11	feira	_	PROPN	PNOUN	_	6	nmod	_	_
-12	(	_	PUNCT	.	_	13	punct	_	SpaceAfter=No
+12	(	(	PUNCT	.	_	13	punct	_	SpaceAfter=No
 13	5	_	NUM	NUM	NumType=Card	11	nmod	_	SpaceAfter=No
-14	)	_	PUNCT	.	_	13	punct	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	18	punct	_	_
+14	)	)	PUNCT	.	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	.	_	18	punct	_	_
 16	também	também	ADV	ADV	_	18	advmod	_	_
-17	em	_	ADP	ADP	_	18	case	_	_
+17	em	em	ADP	ADP	_	18	case	_	_
 18	São	_	PROPN	PNOUN	_	6	nmod	_	_
 19	Luís	_	PROPN	PNOUN	_	18	flat	_	SpaceAfter=No
-20	,	_	PUNCT	.	_	18	punct	_	_
+20	,	,	PUNCT	.	_	18	punct	_	_
 21	ninguém	_	PRON	PRON	_	22	nsubj	_	_
 22	acertou	acertar	VERB	VERB	_	0	root	_	_
-23	as	_	DET	DET	_	25	det	_	_
+23	as	o	DET	DET	_	25	det	_	_
 24	sete	_	NUM	NUM	NumType=Card	25	nummod	_	_
 25	dezenas	dezena	NOUN	NOUN	_	22	obj	_	_
 26-27	do	_	_	_	_	_	_	_	_
@@ -150,64 +150,64 @@
 27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	prêmio	prêmio	NOUN	NOUN	_	25	nmod	_	_
 29	máximo	máximo	ADJ	ADJ	_	28	amod	_	SpaceAfter=No
-30	,	_	PUNCT	.	_	33	punct	_	_
+30	,	,	PUNCT	.	_	33	punct	_	_
 31	que	_	PRON	PRON	_	33	nsubj	_	_
 32	foram	_	AUX	AUX	_	33	cop	_	_
 33	02	_	NUM	NUM	NumType=Card	25	acl:relcl	_	SpaceAfter=No
-34	,	_	PUNCT	.	_	35	punct	_	_
+34	,	,	PUNCT	.	_	35	punct	_	_
 35	07	_	NUM	NUM	NumType=Card	33	conj	_	SpaceAfter=No
-36	,	_	PUNCT	.	_	37	punct	_	_
+36	,	,	PUNCT	.	_	37	punct	_	_
 37	21	_	NUM	NUM	NumType=Card	33	conj	_	SpaceAfter=No
-38	,	_	PUNCT	.	_	39	punct	_	_
+38	,	,	PUNCT	.	_	39	punct	_	_
 39	22	_	NUM	NUM	NumType=Card	33	conj	_	SpaceAfter=No
-40	,	_	PUNCT	.	_	41	punct	_	_
+40	,	,	PUNCT	.	_	41	punct	_	_
 41	33	_	NUM	NUM	NumType=Card	33	conj	_	SpaceAfter=No
-42	,	_	PUNCT	.	_	43	punct	_	_
+42	,	,	PUNCT	.	_	43	punct	_	_
 43	45	_	NUM	NUM	NumType=Card	33	conj	_	_
-44	e	_	CCONJ	CONJ	_	45	cc	_	_
+44	e	e	CCONJ	CONJ	_	45	cc	_	_
 45	79	_	NUM	NUM	NumType=Card	33	conj	_	SpaceAfter=No
-46	,	_	PUNCT	.	_	55	punct	_	_
+46	,	,	PUNCT	.	_	55	punct	_	_
 47	enquanto	_	CCONJ	CONJ	_	55	mark	_	_
-48	o	_	DET	DET	_	49	det	_	_
+48	o	o	DET	DET	_	49	det	_	_
 49	Time	_	PROPN	PNOUN	_	55	nsubj	_	_
 50-51	do	_	_	_	_	_	_	_	_
 50	de	de	ADP	ADP	_	52	case	_	_
 51	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
 52	Coração	_	PROPN	PNOUN	_	49	nmod	_	_
 53	foi	_	AUX	AUX	_	55	cop	_	_
-54	o	_	DET	DET	_	55	det	_	_
+54	o	o	DET	DET	_	55	det	_	_
 55	Ypiranga	_	PROPN	PNOUN	_	33	advcl	_	_
-56	(	_	PUNCT	.	_	57	punct	_	SpaceAfter=No
+56	(	(	PUNCT	.	_	57	punct	_	SpaceAfter=No
 57	AP	_	PROPN	PNOUN	_	55	appos	_	SpaceAfter=No
-58	)	_	PUNCT	.	_	57	punct	_	SpaceAfter=No
-59	.	_	PUNCT	.	_	22	punct	_	_
+58	)	)	PUNCT	.	_	57	punct	_	SpaceAfter=No
+59	.	.	PUNCT	.	_	22	punct	_	_
 
 # sent_id = train-s5873
 # text = Dados oficiais revelam que dos cerca de 3,5 milhões de cidadãos aptos para exercer o sufrágio, se registraram 2,8 milhões, 45 % dos quais são mulheres.
 1	Dados	dado	NOUN	NOUN	_	3	nsubj	_	_
 2	oficiais	oficial	ADJ	ADJ	_	1	amod	_	_
 3	revelam	revelar	VERB	VERB	_	0	root	_	_
-4	que	_	CCONJ	CONJ	_	20	mark	_	_
+4	que	que	CCONJ	CONJ	_	20	mark	_	_
 5-6	dos	_	_	_	_	_	_	_	_
 5	de	de	ADP	ADP	_	12	case	_	_
 6	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
 7	cerca	cerca	ADV	ADV	_	10	advmod	_	_
-8	de	_	ADP	ADP	_	7	case	_	_
+8	de	de	ADP	ADP	_	7	case	_	_
 9	3,5	_	NUM	NUM	NumType=Card	10	nummod	_	_
 10	milhões	_	NUM	NUM	NumType=Card	12	nummod	_	_
-11	de	_	ADP	ADP	_	12	case	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
 12	cidadãos	cidadão	NOUN	NOUN	_	20	nmod	_	_
 13	aptos	apto	ADJ	ADJ	_	12	amod	_	_
 14	para	_	ADP	ADP	_	15	mark	_	_
 15	exercer	exercer	VERB	VERB	_	13	nmod	_	_
-16	o	_	DET	DET	_	17	det	_	_
+16	o	o	DET	DET	_	17	det	_	_
 17	sufrágio	sufrágio	NOUN	NOUN	_	15	obj	_	SpaceAfter=No
-18	,	_	PUNCT	.	_	12	punct	_	_
+18	,	,	PUNCT	.	_	12	punct	_	_
 19	se	_	PRON	PRON	_	20	obj	_	_
 20	registraram	registrar	VERB	VERB	_	3	ccomp	_	_
 21	2,8	_	NUM	NUM	NumType=Card	22	nummod	_	_
 22	milhões	_	NUM	NUM	NumType=Card	20	obj	_	SpaceAfter=No
-23	,	_	PUNCT	.	_	30	punct	_	_
+23	,	,	PUNCT	.	_	30	punct	_	_
 24	45	_	NUM	NUM	NumType=Card	25	nummod	_	_
 25	%	_	SYM	SYM	_	30	nsubj	_	_
 26-27	dos	_	_	_	_	_	_	_	_
@@ -216,7 +216,7 @@
 28	quais	_	PRON	PRON	_	25	nmod	_	_
 29	são	ser	AUX	AUX	_	30	cop	_	_
 30	mulheres	mulher	NOUN	NOUN	_	22	acl:relcl	_	SpaceAfter=No
-31	.	_	PUNCT	.	_	3	punct	_	_
+31	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s5874
 # text = E quando se trata do Bahrein, esta é a última coisa que os sauditas querem ver, uma revolução no Bahrein a poucas milhas de suas fronteiras.
@@ -228,19 +228,19 @@
 5	de	de	ADP	ADP	_	7	case	_	_
 6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Bahrein	_	PROPN	PNOUN	_	4	nmod	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	4	punct	_	_
+8	,	,	PUNCT	.	_	4	punct	_	_
 9	esta	_	PRON	PRON	_	13	nsubj	_	_
 10	é	ser	AUX	AUX	_	13	cop	_	_
-11	a	_	DET	DET	_	13	det	_	_
+11	a	a	DET	DET	_	13	det	_	_
 12	última	último	ADJ	ADJ	_	13	amod	_	_
 13	coisa	coisa	NOUN	NOUN	_	0	root	_	_
 14	que	_	PRON	PRON	_	17	obj	_	_
-15	os	_	DET	DET	_	16	det	_	_
+15	os	o	DET	DET	_	16	det	_	_
 16	sauditas	_	NOUN	NOUN	_	17	nsubj	_	_
 17	querem	querer	VERB	VERB	_	13	acl:relcl	_	_
 18	ver	ver	VERB	VERB	_	17	xcomp	_	SpaceAfter=No
-19	,	_	PUNCT	.	_	21	punct	_	_
-20	uma	_	DET	DET	_	21	det	_	_
+19	,	,	PUNCT	.	_	21	punct	_	_
+20	uma	um	DET	DET	_	21	det	_	_
 21	revolução	revolução	NOUN	NOUN	_	13	appos	_	_
 22-23	no	_	_	_	_	_	_	_	_
 22	em	em	ADP	ADP	_	24	case	_	_
@@ -249,15 +249,15 @@
 25	a	_	ADP	ADP	_	27	case	_	_
 26	poucas	pouco	ADJ	ADJ	_	27	amod	_	_
 27	milhas	_	NOUN	NOUN	_	21	nmod	_	_
-28	de	_	ADP	ADP	_	30	case	_	_
+28	de	de	ADP	ADP	_	30	case	_	_
 29	suas	_	DET	DET	_	30	det:poss	_	_
 30	fronteiras	_	NOUN	NOUN	_	27	nmod	_	SpaceAfter=No
-31	.	_	PUNCT	.	_	13	punct	_	_
+31	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = train-s5875
 # text = Em "A Viagem do Peregrino da Alvorada", sua primeira aparição, Eustáquio é acompanhado à Nárnia por seus primos Edmundo e Lúcia Pevensie.
-1	Em	_	ADP	ADP	_	4	case	_	_
-2	"	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
+1	Em	em	ADP	ADP	_	4	case	_	_
+2	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
 3	A	_	PROPN	PNOUN	_	4	det	_	_
 4	Viagem	_	PROPN	PNOUN	_	19	nmod	_	_
 5-6	do	_	_	_	_	_	_	_	_
@@ -268,12 +268,12 @@
 8	de	de	ADP	ADP	_	10	case	_	_
 9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Alvorada	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
-11	"	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	15	punct	_	_
+11	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
+12	,	,	PUNCT	.	_	15	punct	_	_
 13	sua	_	DET	DET	_	15	det:poss	_	_
 14	primeira	primeiro	ADJ	ADJ	_	15	amod	_	_
 15	aparição	aparição	NOUN	NOUN	_	4	appos	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	15	punct	_	_
+16	,	,	PUNCT	.	_	15	punct	_	_
 17	Eustáquio	_	PROPN	PNOUN	_	19	nsubj:pass	_	_
 18	é	ser	AUX	AUX	_	19	aux:pass	_	_
 19	acompanhado	acompanhar	VERB	VERB	_	0	root	_	_
@@ -281,14 +281,14 @@
 20	a	a	ADP	ADP	_	22	case	_	_
 21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	Nárnia	_	PROPN	PNOUN	_	19	nmod	_	_
-23	por	_	ADP	ADP	_	25	case	_	_
+23	por	por	ADP	ADP	_	25	case	_	_
 24	seus	_	DET	DET	_	25	det:poss	_	_
 25	primos	primo	NOUN	NOUN	_	19	nmod	_	_
 26	Edmundo	_	PROPN	PNOUN	_	25	appos	_	_
-27	e	_	CCONJ	CONJ	_	28	cc	_	_
+27	e	e	CCONJ	CONJ	_	28	cc	_	_
 28	Lúcia	_	PROPN	PNOUN	_	26	conj	_	_
 29	Pevensie	_	PROPN	PNOUN	_	28	flat	_	SpaceAfter=No
-30	.	_	PUNCT	.	_	19	punct	_	_
+30	.	.	PUNCT	.	_	19	punct	_	_
 
 # sent_id = train-s5876
 # text = Pelo menos 846 foguetes foram disparados desde quarta - feira em direção a Israel, sendo que 302 foram interceptados pelo sistema antimísseis "Iron Dome", segundo o Exército israelense.
@@ -302,15 +302,15 @@
 7	disparados	disparar	VERB	VERB	_	0	root	_	_
 8	desde	_	ADP	ADP	_	11	case	_	_
 9	quarta	_	PROPN	PNOUN	_	11	amod	_	_
-10	-	_	PUNCT	.	_	11	punct	_	_
+10	-	-	PUNCT	.	_	11	punct	_	_
 11	feira	_	PROPN	PNOUN	_	7	nmod	_	_
-12	em	_	ADP	ADP	_	13	case	_	_
+12	em	em	ADP	ADP	_	13	case	_	_
 13	direção	direção	NOUN	NOUN	_	7	nmod	_	_
 14	a	_	ADP	ADP	_	15	case	_	_
 15	Israel	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	17	punct	_	_
+16	,	,	PUNCT	.	_	17	punct	_	_
 17	sendo	ser	VERB	VERB	_	7	acl:part	_	_
-18	que	_	CCONJ	CONJ	_	21	mark	_	_
+18	que	que	CCONJ	CONJ	_	21	mark	_	_
 19	302	_	NUM	NUM	NumType=Card	21	nsubj:pass	_	_
 20	foram	_	AUX	AUX	_	21	aux:pass	_	_
 21	interceptados	interceptar	VERB	VERB	_	17	csubj	_	_
@@ -319,45 +319,45 @@
 23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	sistema	sistema	NOUN	NOUN	_	21	nmod	_	_
 25	antimísseis	antimíssil	ADJ	ADJ	_	24	amod	_	_
-26	"	_	PUNCT	.	_	27	punct	_	SpaceAfter=No
+26	"	"	PUNCT	.	_	27	punct	_	SpaceAfter=No
 27	Iron	_	PROPN	PNOUN	_	24	appos	_	_
 28	Dome	_	PROPN	PNOUN	_	27	flat	_	SpaceAfter=No
-29	"	_	PUNCT	.	_	27	punct	_	SpaceAfter=No
-30	,	_	PUNCT	.	_	33	punct	_	_
+29	"	"	PUNCT	.	_	27	punct	_	SpaceAfter=No
+30	,	,	PUNCT	.	_	33	punct	_	_
 31	segundo	_	ADP	ADP	_	33	case	_	_
-32	o	_	DET	DET	_	33	det	_	_
+32	o	o	DET	DET	_	33	det	_	_
 33	Exército	_	PROPN	PNOUN	_	7	nmod	_	_
 34	israelense	israelense	ADJ	ADJ	_	33	amod	_	SpaceAfter=No
-35	.	_	PUNCT	.	_	7	punct	_	_
+35	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s5877
 # text = Até a escolha do substituto, a diretora de Administração e Finanças, Vânia Beatriz Rodrigues Castiglioni, ocupará a presidência da Embrapa.
 1	Até	_	ADP	ADP	_	3	case	_	_
-2	a	_	DET	DET	_	3	det	_	_
+2	a	a	DET	DET	_	3	det	_	_
 3	escolha	escolha	NOUN	NOUN	_	20	nmod	_	_
 4-5	do	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
 5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	substituto	substituto	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	3	punct	_	_
-8	a	_	DET	DET	_	9	det	_	_
+7	,	,	PUNCT	.	_	3	punct	_	_
+8	a	a	DET	DET	_	9	det	_	_
 9	diretora	diretor	NOUN	NOUN	_	20	nsubj	_	_
-10	de	_	ADP	ADP	_	11	case	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
 11	Administração	_	PROPN	PNOUN	_	9	nmod	_	_
-12	e	_	CCONJ	CONJ	_	13	cc	_	_
+12	e	e	CCONJ	CONJ	_	13	cc	_	_
 13	Finanças	_	PROPN	PNOUN	_	11	conj	_	SpaceAfter=No
-14	,	_	PUNCT	.	_	15	punct	_	_
+14	,	,	PUNCT	.	_	15	punct	_	_
 15	Vânia	_	PROPN	PNOUN	_	9	appos	_	_
 16	Beatriz	_	PROPN	PNOUN	_	15	flat	_	_
 17	Rodrigues	_	PROPN	PNOUN	_	15	flat	_	_
 18	Castiglioni	_	PROPN	PNOUN	_	15	flat	_	SpaceAfter=No
-19	,	_	PUNCT	.	_	15	punct	_	_
+19	,	,	PUNCT	.	_	15	punct	_	_
 20	ocupará	ocupar	VERB	VERB	_	0	root	_	_
-21	a	_	DET	DET	_	22	det	_	_
+21	a	a	DET	DET	_	22	det	_	_
 22	presidência	presidência	NOUN	NOUN	_	20	obj	_	_
 23-24	da	_	_	_	_	_	_	_	_
 23	de	de	ADP	ADP	_	25	case	_	_
 24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	Embrapa	_	PROPN	PNOUN	_	22	nmod	_	SpaceAfter=No
-26	.	_	PUNCT	.	_	20	punct	_	_
+26	.	.	PUNCT	.	_	20	punct	_	_
 

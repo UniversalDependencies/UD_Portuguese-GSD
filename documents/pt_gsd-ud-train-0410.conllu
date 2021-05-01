@@ -5,8 +5,8 @@
 2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Justiça	_	PROPN	PNOUN	_	21	nmod	_	_
 4	Federal	_	PROPN	PNOUN	_	3	amod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	3	punct	_	_
-6	a	_	DET	DET	_	8	det	_	_
+5	,	,	PUNCT	.	_	3	punct	_	_
+6	a	a	DET	DET	_	8	det	_	_
 7	última	último	ADJ	ADJ	_	8	amod	_	_
 8	decisão	decisão	NOUN	NOUN	_	21	nsubj	_	_
 9	liminar	liminar	ADJ	ADJ	_	8	amod	_	_
@@ -14,23 +14,23 @@
 10	de	de	ADP	ADP	_	12	case	_	_
 11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	caso	caso	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	16	punct	_	_
+13	,	,	PUNCT	.	_	16	punct	_	_
 14-15	do	_	_	_	_	_	_	_	_
 14	de	de	ADP	ADP	_	16	case	_	_
 15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	dia	dia	NOUN	NOUN	_	8	nmod	_	_
 17	15	_	NUM	NUM	NumType=Card	16	nmod	_	_
-18	de	_	ADP	ADP	_	19	case	_	_
+18	de	de	ADP	ADP	_	19	case	_	_
 19	outubro	_	PROPN	PNOUN	_	17	nmod	_	SpaceAfter=No
-20	,	_	PUNCT	.	_	16	punct	_	_
+20	,	,	PUNCT	.	_	16	punct	_	_
 21	garantia	garantir	VERB	VERB	_	0	root	_	_
-22	a	_	DET	DET	_	23	det	_	_
+22	a	a	DET	DET	_	23	det	_	_
 23	liberdade	liberdade	NOUN	NOUN	_	21	obj	_	_
 24-25	do	_	_	_	_	_	_	_	_
 24	de	de	ADP	ADP	_	26	case	_	_
 25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	empresário	empresário	NOUN	NOUN	_	23	nmod	_	_
-27	em	_	ADP	ADP	_	28	case	_	_
+27	em	em	ADP	ADP	_	28	case	_	_
 28	relação	relação	NOUN	NOUN	_	21	nmod	_	_
 29-30	à	_	_	_	_	_	_	_	_
 29	a	a	ADP	ADP	_	31	case	_	_
@@ -38,16 +38,16 @@
 31	Operação	_	PROPN	PNOUN	_	28	nmod	_	_
 32	Monte	_	PROPN	PNOUN	_	31	flat	_	_
 33	Carlo	_	PROPN	PNOUN	_	31	flat	_	SpaceAfter=No
-34	.	_	PUNCT	.	_	21	punct	_	_
+34	.	.	PUNCT	.	_	21	punct	_	_
 
 # sent_id = train-s4068
 # text = "É um jogador rodado e que vai nos ajudar muito no campeonato.
-1	"	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
 2	É	ser	AUX	AUX	_	4	cop	_	_
-3	um	_	DET	DET	_	4	det	_	_
+3	um	um	DET	DET	_	4	det	_	_
 4	jogador	jogador	NOUN	NOUN	_	0	root	_	_
 5	rodado	rodado	ADJ	ADJ	_	4	amod	_	_
-6	e	_	CCONJ	CONJ	_	10	cc	_	_
+6	e	e	CCONJ	CONJ	_	10	cc	_	_
 7	que	_	PRON	PRON	_	10	nsubj	_	_
 8	vai	ir	AUX	AUX	_	10	aux	_	_
 9	nos	_	PRON	PRON	_	10	obj	_	_
@@ -57,29 +57,29 @@
 12	em	em	ADP	ADP	_	14	case	_	_
 13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	campeonato	campeonato	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
-15	.	_	PUNCT	.	_	4	punct	_	_
+15	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s4069
 # text = É uma canção rica, que soa parecido como um anjo com asas esfarrapadas.
 1	É	ser	AUX	AUX	_	3	cop	_	_
-2	uma	_	DET	DET	_	3	det	_	_
+2	uma	um	DET	DET	_	3	det	_	_
 3	canção	canção	NOUN	NOUN	_	0	root	_	_
 4	rica	rico	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	7	punct	_	_
+5	,	,	PUNCT	.	_	7	punct	_	_
 6	que	_	PRON	PRON	_	7	nsubj	_	_
 7	soa	_	VERB	VERB	_	3	acl:relcl	_	_
 8	parecido	_	ADV	ADV	_	7	advmod	_	_
-9	como	_	ADP	ADP	_	11	case	_	_
-10	um	_	DET	DET	_	11	det	_	_
+9	como	como	ADP	ADP	_	11	case	_	_
+10	um	um	DET	DET	_	11	det	_	_
 11	anjo	anjo	NOUN	NOUN	_	8	nmod	_	_
-12	com	_	ADP	ADP	_	13	case	_	_
+12	com	com	ADP	ADP	_	13	case	_	_
 13	asas	asa	NOUN	NOUN	_	11	nmod	_	_
 14	esfarrapadas	esfarrapado	ADJ	ADJ	_	13	amod	_	SpaceAfter=No
-15	.	_	PUNCT	.	_	3	punct	_	_
+15	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s4070
 # text = O ponto exato do ataque da FAB foi identificado durante um sobrevoo feito em 11 de abril e registrado por imagens em infra - vermelhos.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	ponto	ponto	NOUN	NOUN	_	11	nsubj:pass	_	_
 3	exato	exato	ADJ	ADJ	_	2	amod	_	_
 4-5	do	_	_	_	_	_	_	_	_
@@ -93,29 +93,29 @@
 10	foi	_	AUX	AUX	_	11	aux:pass	_	_
 11	identificado	identificar	VERB	VERB	_	0	root	_	_
 12	durante	_	ADP	ADP	_	14	case	_	_
-13	um	_	DET	DET	_	14	det	_	_
+13	um	um	DET	DET	_	14	det	_	_
 14	sobrevoo	sobrevoo	NOUN	NOUN	_	11	nmod	_	_
 15	feito	_	VERB	VERB	_	14	acl:part	_	_
-16	em	_	ADP	ADP	_	17	case	_	_
+16	em	em	ADP	ADP	_	17	case	_	_
 17	11	_	NUM	NUM	NumType=Card	15	nmod	_	_
-18	de	_	ADP	ADP	_	19	case	_	_
+18	de	de	ADP	ADP	_	19	case	_	_
 19	abril	_	PROPN	PNOUN	_	17	nmod	_	_
-20	e	_	CCONJ	CONJ	_	21	cc	_	_
+20	e	e	CCONJ	CONJ	_	21	cc	_	_
 21	registrado	registrar	VERB	VERB	_	15	conj	_	_
-22	por	_	ADP	ADP	_	23	case	_	_
+22	por	por	ADP	ADP	_	23	case	_	_
 23	imagens	imagem	NOUN	NOUN	_	21	nmod	_	_
-24	em	_	ADP	ADP	_	25	case	_	_
+24	em	em	ADP	ADP	_	25	case	_	_
 25	infra	_	PART	PRT	_	23	nmod	_	_
-26	-	_	PUNCT	.	_	25	punct	_	_
+26	-	-	PUNCT	.	_	25	punct	_	_
 27	vermelhos	vermelho	NOUN	NOUN	_	25	flat	_	SpaceAfter=No
-28	.	_	PUNCT	.	_	11	punct	_	_
+28	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s4071
 # text = Você acha que os políticos do Piauí devem agir de maneira mais agressiva contra os políticos dos estados do Rio de Janeiro e Espírito Santo no caso da divisão dos royalties do petróleo?
 1	Você	_	PRON	PRON	_	2	nsubj	_	_
 2	acha	achar	VERB	VERB	_	0	root	_	_
-3	que	_	CCONJ	CONJ	_	10	mark	_	_
-4	os	_	DET	DET	_	5	det	_	_
+3	que	que	CCONJ	CONJ	_	10	mark	_	_
+4	os	o	DET	DET	_	5	det	_	_
 5	políticos	político	NOUN	NOUN	_	10	nsubj	_	_
 6-7	do	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	8	case	_	_
@@ -123,12 +123,12 @@
 8	Piauí	_	PROPN	PNOUN	_	5	nmod	_	_
 9	devem	_	AUX	AUX	_	10	aux	_	_
 10	agir	agir	VERB	VERB	_	2	ccomp	_	_
-11	de	_	ADP	ADP	_	12	case	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
 12	maneira	maneira	NOUN	NOUN	_	10	nmod	_	_
 13	mais	mais	ADV	ADV	_	14	advmod	_	_
 14	agressiva	agressivo	ADJ	ADJ	_	12	amod	_	_
 15	contra	_	ADP	ADP	_	17	case	_	_
-16	os	_	DET	DET	_	17	det	_	_
+16	os	o	DET	DET	_	17	det	_	_
 17	políticos	político	NOUN	NOUN	_	10	nmod	_	_
 18-19	dos	_	_	_	_	_	_	_	_
 18	de	de	ADP	ADP	_	20	case	_	_
@@ -138,9 +138,9 @@
 21	de	de	ADP	ADP	_	23	case	_	_
 22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	Rio	_	PROPN	PNOUN	_	20	nmod	_	_
-24	de	_	ADP	ADP	_	25	case	_	_
+24	de	de	ADP	ADP	_	25	case	_	_
 25	Janeiro	_	PROPN	PNOUN	_	23	nmod	_	_
-26	e	_	CCONJ	CONJ	_	27	cc	_	_
+26	e	e	CCONJ	CONJ	_	27	cc	_	_
 27	Espírito	_	PROPN	PNOUN	_	23	conj	_	_
 28	Santo	_	PROPN	PNOUN	_	27	amod	_	_
 29-30	no	_	_	_	_	_	_	_	_
@@ -159,7 +159,7 @@
 38	de	de	ADP	ADP	_	40	case	_	_
 39	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
 40	petróleo	petróleo	NOUN	NOUN	_	37	nmod	_	SpaceAfter=No
-41	?	_	PUNCT	.	_	2	punct	_	_
+41	?	?	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s4072
 # text = No terceiro e no quarto bloco do programa os candidatos fazem perguntas entre si e o último bloco foi reservado para considerações finais.
@@ -167,7 +167,7 @@
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	terceiro	terceiro	NOUN	NOUN	_	14	nmod	_	_
-4	e	_	CCONJ	CONJ	_	8	cc	_	_
+4	e	e	CCONJ	CONJ	_	8	cc	_	_
 5-6	no	_	_	_	_	_	_	_	_
 5	em	em	ADP	ADP	_	8	case	_	_
 6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -177,7 +177,7 @@
 9	de	de	ADP	ADP	_	11	case	_	_
 10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	programa	programa	NOUN	NOUN	_	8	nmod	_	_
-12	os	_	DET	DET	_	13	det	_	_
+12	os	o	DET	DET	_	13	det	_	_
 13	candidatos	candidato	NOUN	NOUN	_	14	nsubj	_	_
 14	fazem	fazer	VERB	VERB	_	0	root	_	_
 15	perguntas	pergunta	NOUN	NOUN	_	14	obj	_	_
@@ -189,64 +189,64 @@
 21	bloco	bloco	NOUN	NOUN	_	23	nsubj:pass	_	_
 22	foi	_	AUX	AUX	_	23	aux:pass	_	_
 23	reservado	reservar	VERB	VERB	_	14	conj	_	_
-24	para	_	ADP	ADP	_	25	case	_	_
+24	para	para	ADP	ADP	_	25	case	_	_
 25	considerações	consideração	NOUN	NOUN	_	23	nmod	_	_
 26	finais	final	ADJ	ADJ	_	25	amod	_	SpaceAfter=No
-27	.	_	PUNCT	.	_	14	punct	_	_
+27	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = train-s4073
 # text = O Brasileirão foi decepção para os times paulistas.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	Brasileirão	_	PROPN	PNOUN	_	4	nsubj	_	_
 3	foi	_	AUX	AUX	_	4	cop	_	_
 4	decepção	decepção	NOUN	NOUN	_	0	root	_	_
-5	para	_	ADP	ADP	_	7	case	_	_
-6	os	_	DET	DET	_	7	det	_	_
+5	para	para	ADP	ADP	_	7	case	_	_
+6	os	o	DET	DET	_	7	det	_	_
 7	times	time	NOUN	NOUN	_	4	nmod	_	_
 8	paulistas	paulista	ADJ	ADJ	_	7	amod	_	SpaceAfter=No
-9	.	_	PUNCT	.	_	4	punct	_	_
+9	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s4074
 # text = Avanços foram obtidos com a conquista dalgumas cláusulas novas.
 1	Avanços	avanço	NOUN	NOUN	_	3	nsubj:pass	_	_
 2	foram	_	AUX	AUX	_	3	aux:pass	_	_
 3	obtidos	obter	VERB	VERB	_	0	root	_	_
-4	com	_	ADP	ADP	_	6	case	_	_
-5	a	_	DET	DET	_	6	det	_	_
+4	com	com	ADP	ADP	_	6	case	_	_
+5	a	a	DET	DET	_	6	det	_	_
 6	conquista	conquista	NOUN	NOUN	_	3	nmod	_	_
 7-8	dalgumas	_	_	_	_	_	_	_	_
-7	de	_	ADP	ADP	_	9	case	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
 8	algumas	_	DET	DET	_	9	det	_	_
 9	cláusulas	cláusula	NOUN	NOUN	_	6	nmod	_	_
 10	novas	novo	ADJ	ADJ	_	9	amod	_	SpaceAfter=No
-11	.	_	PUNCT	.	_	3	punct	_	_
+11	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s4075
 # text = Candidatos a vereador de diferentes partidos e de correntes opostas abraçaram a causa.
 1	Candidatos	candidato	NOUN	NOUN	_	11	nsubj	_	_
 2	a	_	DET	DET	_	3	case	_	_
 3	vereador	vereador	NOUN	NOUN	_	1	nmod	_	_
-4	de	_	ADP	ADP	_	6	case	_	_
+4	de	de	ADP	ADP	_	6	case	_	_
 5	diferentes	_	DET	DET	_	6	det	_	_
 6	partidos	partido	NOUN	NOUN	_	1	nmod	_	_
-7	e	_	CCONJ	CONJ	_	9	cc	_	_
-8	de	_	ADP	ADP	_	9	case	_	_
+7	e	e	CCONJ	CONJ	_	9	cc	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
 9	correntes	corrente	NOUN	NOUN	_	6	conj	_	_
 10	opostas	oposto	ADJ	ADJ	_	9	amod	_	_
 11	abraçaram	abraçar	VERB	VERB	_	0	root	_	_
-12	a	_	DET	DET	_	13	det	_	_
+12	a	a	DET	DET	_	13	det	_	_
 13	causa	causa	NOUN	NOUN	_	11	obj	_	SpaceAfter=No
-14	.	_	PUNCT	.	_	11	punct	_	_
+14	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s4076
 # text = Para questões disciplinares, com valores e penas a serem estipuladas pela direção, ficava o aviso de que a consequência poderia ser pesada.
 1	Para	_	ADP	ADP	_	2	case	_	_
 2	questões	questão	NOUN	NOUN	_	16	nmod	_	_
 3	disciplinares	disciplinar	ADJ	ADJ	_	2	amod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	6	punct	_	_
-5	com	_	ADP	ADP	_	6	case	_	_
+4	,	,	PUNCT	.	_	6	punct	_	_
+5	com	com	ADP	ADP	_	6	case	_	_
 6	valores	_	NOUN	NOUN	_	2	nmod	_	_
-7	e	_	CCONJ	CONJ	_	8	cc	_	_
+7	e	e	CCONJ	CONJ	_	8	cc	_	_
 8	penas	_	NOUN	NOUN	_	6	conj	_	_
 9	a	_	ADP	ADP	_	11	mark	_	_
 10	serem	ser	AUX	AUX	_	11	aux:pass	_	_
@@ -255,16 +255,16 @@
 12	por	por	ADP	ADP	_	14	case	_	_
 13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	direção	direção	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	6	punct	_	_
+15	,	,	PUNCT	.	_	6	punct	_	_
 16	ficava	ficar	VERB	VERB	_	0	root	_	_
-17	o	_	DET	DET	_	18	det	_	_
+17	o	o	DET	DET	_	18	det	_	_
 18	aviso	aviso	NOUN	NOUN	_	16	nsubj	_	_
 19	de	_	ADP	ADP	_	25	mark	_	_
-20	que	_	CCONJ	CONJ	_	25	mark	_	_
-21	a	_	DET	DET	_	22	det	_	_
+20	que	que	CCONJ	CONJ	_	25	mark	_	_
+21	a	a	DET	DET	_	22	det	_	_
 22	consequência	consequência	NOUN	NOUN	_	25	nsubj:pass	_	_
 23	poderia	poder	AUX	AUX	_	25	aux	_	_
 24	ser	ser	AUX	AUX	_	25	aux:pass	_	_
 25	pesada	pesar	VERB	VERB	_	18	nmod	_	SpaceAfter=No
-26	.	_	PUNCT	.	_	16	punct	_	_
+26	.	.	PUNCT	.	_	16	punct	_	_
 

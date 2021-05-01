@@ -1,6 +1,6 @@
 # sent_id = train-s5309
 # text = Em 2010 mais uma vez teve sua edição alterada, supostamente em oposição ao estatuto do torcedor.
-1	Em	_	ADP	ADP	_	2	case	_	_
+1	Em	em	ADP	ADP	_	2	case	_	_
 2	2010	_	NUM	NUM	NumType=Card	6	nmod	_	_
 3	mais	mais	ADV	ADV	_	4	advmod	_	_
 4	uma	_	NUM	NUM	NumType=Card	5	nummod	_	_
@@ -9,9 +9,9 @@
 7	sua	_	DET	DET	_	8	det:poss	_	_
 8	edição	edição	NOUN	NOUN	_	9	nsubj	_	_
 9	alterada	alterado	ADJ	ADJ	_	6	xcomp	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	13	punct	_	_
+10	,	,	PUNCT	.	_	13	punct	_	_
 11	supostamente	supostamente	ADV	ADV	_	13	advmod	_	_
-12	em	_	ADP	ADP	_	13	case	_	_
+12	em	em	ADP	ADP	_	13	case	_	_
 13	oposição	oposição	NOUN	NOUN	_	6	nmod	_	_
 14-15	ao	_	_	_	_	_	_	_	_
 14	a	a	ADP	ADP	_	16	case	_	_
@@ -21,47 +21,47 @@
 17	de	de	ADP	ADP	_	19	case	_	_
 18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	torcedor	torcedor	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
-20	.	_	PUNCT	.	_	6	punct	_	_
+20	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s5310
 # text = "Sou um artista do povo, falo a língua do povo."
-1	"	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
 2	Sou	ser	AUX	AUX	_	4	cop	_	_
-3	um	_	DET	DET	_	4	det	_	_
+3	um	um	DET	DET	_	4	det	_	_
 4	artista	artista	NOUN	NOUN	_	0	root	_	_
 5-6	do	_	_	_	_	_	_	_	_
 5	de	de	ADP	ADP	_	7	case	_	_
 6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	povo	povo	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	9	punct	_	_
+8	,	,	PUNCT	.	_	9	punct	_	_
 9	falo	_	VERB	VERB	_	4	conj	_	_
-10	a	_	DET	DET	_	11	det	_	_
+10	a	a	DET	DET	_	11	det	_	_
 11	língua	língua	NOUN	NOUN	_	9	obj	_	_
 12-13	do	_	_	_	_	_	_	_	_
 12	de	de	ADP	ADP	_	14	case	_	_
 13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	povo	povo	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
-15	.	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
-16	"	_	PUNCT	.	_	4	punct	_	_
+15	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+16	"	"	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s5311
 # text = A divisão é realizada por uma farmácia de manipulação de Curitiba.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	divisão	divisão	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	é	ser	AUX	AUX	_	4	aux:pass	_	_
 4	realizada	realizar	VERB	VERB	_	0	root	_	_
-5	por	_	ADP	ADP	_	7	case	_	_
-6	uma	_	DET	DET	_	7	det	_	_
+5	por	por	ADP	ADP	_	7	case	_	_
+6	uma	um	DET	DET	_	7	det	_	_
 7	farmácia	farmácia	NOUN	NOUN	_	4	nmod	_	_
-8	de	_	ADP	ADP	_	9	case	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
 9	manipulação	manipulação	NOUN	NOUN	_	7	nmod	_	_
-10	de	_	ADP	ADP	_	11	case	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
 11	Curitiba	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
-12	.	_	PUNCT	.	_	4	punct	_	_
+12	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s5312
 # text = O beque improvisado será substituto pela terceira vez seguida por Douglas após entorse no joelho esquerdo.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	beque	beque	NOUN	NOUN	_	5	nsubj:pass	_	_
 3	improvisado	improvisado	ADJ	ADJ	_	2	amod	_	_
 4	será	ser	AUX	AUX	_	5	aux:pass	_	_
@@ -72,7 +72,7 @@
 8	terceira	_	ADJ	ADJ	_	9	amod	_	_
 9	vez	vez	NOUN	NOUN	_	5	nmod	_	_
 10	seguida	seguido	ADJ	ADJ	_	9	amod	_	_
-11	por	_	ADP	ADP	_	12	case	_	_
+11	por	por	ADP	ADP	_	12	case	_	_
 12	Douglas	_	PROPN	PNOUN	_	5	nmod	_	_
 13	após	_	ADP	ADP	_	14	case	_	_
 14	entorse	entorse	NOUN	NOUN	_	5	nmod	_	_
@@ -81,48 +81,48 @@
 16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	joelho	joelho	NOUN	NOUN	_	14	nmod	_	_
 18	esquerdo	esquerdo	ADJ	ADJ	_	17	amod	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	5	punct	_	_
+19	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s5313
 # text = A reportagem acompanhou a rotina de duas atletas, uma da Grã - Bretanha e outra do Brasil, e viu de perto os desafios enfrentados dentro e fora das quadras.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	reportagem	reportagem	NOUN	NOUN	_	3	nsubj	_	_
 3	acompanhou	acompanhar	VERB	VERB	_	0	root	_	_
-4	a	_	DET	DET	_	5	det	_	_
+4	a	a	DET	DET	_	5	det	_	_
 5	rotina	rotina	NOUN	NOUN	_	3	obj	_	_
-6	de	_	ADP	ADP	_	8	case	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
 7	duas	_	NUM	NUM	NumType=Card	8	nummod	_	_
 8	atletas	atleta	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	10	punct	_	_
+9	,	,	PUNCT	.	_	10	punct	_	_
 10	uma	_	PRON	PRON	_	8	appos	_	_
 11-12	da	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	15	case	_	_
 12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 13	Grã	_	PROPN	PNOUN	_	15	amod	_	_
-14	-	_	PUNCT	.	_	15	punct	_	_
+14	-	-	PUNCT	.	_	15	punct	_	_
 15	Bretanha	_	PROPN	PNOUN	_	10	nmod	_	_
-16	e	_	CCONJ	CONJ	_	17	cc	_	_
+16	e	e	CCONJ	CONJ	_	17	cc	_	_
 17	outra	_	PRON	PRON	_	10	conj	_	_
 18-19	do	_	_	_	_	_	_	_	_
 18	de	de	ADP	ADP	_	20	case	_	_
 19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	Brasil	_	PROPN	PNOUN	_	17	nmod	_	SpaceAfter=No
-21	,	_	PUNCT	.	_	10	punct	_	_
-22	e	_	CCONJ	CONJ	_	23	cc	_	_
+21	,	,	PUNCT	.	_	10	punct	_	_
+22	e	e	CCONJ	CONJ	_	23	cc	_	_
 23	viu	ver	VERB	VERB	_	3	conj	_	_
 24	de	_	ADP	ADP	_	25	mark	_	_
 25	perto	perto	ADV	ADV	_	23	nmod	_	_
-26	os	_	DET	DET	_	27	det	_	_
+26	os	o	DET	DET	_	27	det	_	_
 27	desafios	desafio	NOUN	NOUN	_	23	mark	_	_
 28	enfrentados	enfrentado	ADJ	ADJ	_	27	acl:part	_	_
 29	dentro	dentro	ADV	ADV	_	28	advmod	_	_
-30	e	_	CCONJ	CONJ	_	31	cc	_	_
+30	e	e	CCONJ	CONJ	_	31	cc	_	_
 31	fora	fora	ADV	ADV	_	29	conj	_	_
 32-33	das	_	_	_	_	_	_	_	_
 32	de	de	ADP	ADP	_	34	case	_	_
 33	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
 34	quadras	quadra	NOUN	NOUN	_	29	nmod	_	SpaceAfter=No
-35	.	_	PUNCT	.	_	3	punct	_	_
+35	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s5314
 # text = Além do compromisso com o desenvolvimento do Brasil e com a melhoria constante de suas relações com os Estados Unidos, a Amcham Rio tem trabalhado intensamente contra as barreiras ao livre comércio e a proteção de marcas e patentes.
@@ -131,34 +131,34 @@
 2	de	de	ADP	ADP	_	4	case	_	_
 3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	compromisso	compromisso	NOUN	NOUN	_	1	nmod	_	_
-5	com	_	ADP	ADP	_	7	case	_	_
-6	o	_	DET	DET	_	7	det	_	_
+5	com	com	ADP	ADP	_	7	case	_	_
+6	o	o	DET	DET	_	7	det	_	_
 7	desenvolvimento	desenvolvimento	NOUN	NOUN	_	4	nmod	_	_
 8-9	do	_	_	_	_	_	_	_	_
 8	de	de	ADP	ADP	_	10	case	_	_
 9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	Brasil	_	PROPN	PNOUN	_	7	nmod	_	_
-11	e	_	CCONJ	CONJ	_	14	cc	_	_
-12	com	_	ADP	ADP	_	14	case	_	_
-13	a	_	DET	DET	_	14	det	_	_
+11	e	e	CCONJ	CONJ	_	14	cc	_	_
+12	com	com	ADP	ADP	_	14	case	_	_
+13	a	a	DET	DET	_	14	det	_	_
 14	melhoria	melhoria	NOUN	NOUN	_	7	conj	_	_
 15	constante	constante	ADJ	ADJ	_	14	amod	_	_
-16	de	_	ADP	ADP	_	18	case	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
 17	suas	_	DET	DET	_	18	det:poss	_	_
 18	relações	relação	NOUN	NOUN	_	14	nmod	_	_
-19	com	_	ADP	ADP	_	21	case	_	_
-20	os	_	DET	DET	_	21	det	_	_
+19	com	com	ADP	ADP	_	21	case	_	_
+20	os	o	DET	DET	_	21	det	_	_
 21	Estados	_	PROPN	PNOUN	_	18	nmod	_	_
 22	Unidos	_	PROPN	PNOUN	_	21	amod	_	SpaceAfter=No
-23	,	_	PUNCT	.	_	1	punct	_	_
-24	a	_	DET	DET	_	25	det	_	_
+23	,	,	PUNCT	.	_	1	punct	_	_
+24	a	a	DET	DET	_	25	det	_	_
 25	Amcham	_	PROPN	PNOUN	_	28	nsubj	_	_
 26	Rio	_	PROPN	PNOUN	_	25	flat	_	_
 27	tem	ter	AUX	AUX	_	28	aux	_	_
 28	trabalhado	trabalhar	VERB	VERB	_	0	root	_	_
 29	intensamente	intensamente	ADV	ADV	_	28	advmod	_	_
 30	contra	_	ADP	ADP	_	32	case	_	_
-31	as	_	DET	DET	_	32	det	_	_
+31	as	o	DET	DET	_	32	det	_	_
 32	barreiras	barreira	NOUN	NOUN	_	28	nmod	_	_
 33-34	ao	_	_	_	_	_	_	_	_
 33	a	a	ADP	ADP	_	36	case	_	_
@@ -168,22 +168,22 @@
 37	e	e	CCONJ	CONJ	_	39	cc	_	_
 38	a	o	DET	DET	_	39	det	_	_
 39	proteção	proteção	NOUN	NOUN	_	32	conj	_	_
-40	de	_	ADP	ADP	_	41	case	_	_
+40	de	de	ADP	ADP	_	41	case	_	_
 41	marcas	marca	NOUN	NOUN	_	39	nmod	_	_
-42	e	_	CCONJ	CONJ	_	43	cc	_	_
+42	e	e	CCONJ	CONJ	_	43	cc	_	_
 43	patentes	patente	NOUN	NOUN	_	41	conj	_	SpaceAfter=No
-44	.	_	PUNCT	.	_	28	punct	_	_
+44	.	.	PUNCT	.	_	28	punct	_	_
 
 # sent_id = train-s5315
 # text = Segundo ele, os assaltos numa praça ao lado do cemitério são frequentes.
 1	Segundo	_	ADP	ADP	_	2	case	_	_
 2	ele	_	PRON	PRON	_	15	nmod	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	2	punct	_	_
-4	os	_	DET	DET	_	5	det	_	_
+3	,	,	PUNCT	.	_	2	punct	_	_
+4	os	o	DET	DET	_	5	det	_	_
 5	assaltos	assalto	NOUN	NOUN	_	15	nsubj	_	_
 6-7	numa	_	_	_	_	_	_	_	_
-6	em	_	ADP	ADP	_	8	case	_	_
-7	uma	_	DET	DET	_	8	det	_	_
+6	em	em	ADP	ADP	_	8	case	_	_
+7	uma	um	DET	DET	_	8	det	_	_
 8	praça	praça	NOUN	NOUN	_	5	nmod	_	_
 9-10	ao	_	_	_	_	_	_	_	_
 9	a	a	ADP	ADP	_	11	case	_	_
@@ -195,12 +195,12 @@
 14	cemitério	cemitério	NOUN	NOUN	_	11	nmod	_	_
 15	são	ser	VERB	VERB	_	0	root	_	_
 16	frequentes	frequente	ADJ	ADJ	_	15	xcomp:adj	_	SpaceAfter=No
-17	.	_	PUNCT	.	_	15	punct	_	_
+17	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = train-s5316
 # text = Durante o mandato do presidente Manuel Bulnes Prieto, em 1845, o Palácio de la Moneda foi convertido em sede do Governo Chileno, e residência oficial de seus presidentes.
 1	Durante	_	ADP	ADP	_	3	case	_	_
-2	o	_	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	_	3	det	_	_
 3	mandato	mandato	NOUN	NOUN	_	20	nmod	_	_
 4-5	do	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
@@ -209,36 +209,36 @@
 7	Manuel	_	PROPN	PNOUN	_	6	appos	_	_
 8	Bulnes	_	PROPN	PNOUN	_	7	flat	_	_
 9	Prieto	_	PROPN	PNOUN	_	7	flat	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	12	punct	_	_
-11	em	_	ADP	ADP	_	12	case	_	_
+10	,	,	PUNCT	.	_	12	punct	_	_
+11	em	em	ADP	ADP	_	12	case	_	_
 12	1845	_	NUM	NUM	NumType=Card	20	nmod	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	12	punct	_	_
-14	o	_	DET	DET	_	15	det	_	_
+13	,	,	PUNCT	.	_	12	punct	_	_
+14	o	o	DET	DET	_	15	det	_	_
 15	Palácio	_	PROPN	PNOUN	_	20	nsubj:pass	_	_
-16	de	_	ADP	ADP	_	18	case	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
 17	la	_	DET	DET	_	18	det	_	_
 18	Moneda	_	PROPN	PNOUN	_	15	nmod	_	_
 19	foi	_	AUX	AUX	_	20	aux:pass	_	_
 20	convertido	converter	VERB	VERB	_	0	root	_	_
-21	em	_	ADP	ADP	_	22	case	_	_
+21	em	em	ADP	ADP	_	22	case	_	_
 22	sede	sede	NOUN	NOUN	_	20	nmod	_	_
 23-24	do	_	_	_	_	_	_	_	_
 23	de	de	ADP	ADP	_	25	case	_	_
 24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	Governo	_	PROPN	PNOUN	_	22	nmod	_	_
 26	Chileno	_	PROPN	PNOUN	_	25	amod	_	SpaceAfter=No
-27	,	_	PUNCT	.	_	29	punct	_	_
-28	e	_	CCONJ	CONJ	_	29	cc	_	_
+27	,	,	PUNCT	.	_	29	punct	_	_
+28	e	e	CCONJ	CONJ	_	29	cc	_	_
 29	residência	residência	NOUN	NOUN	_	22	conj	_	_
 30	oficial	oficial	ADJ	ADJ	_	29	amod	_	_
-31	de	_	ADP	ADP	_	33	case	_	_
+31	de	de	ADP	ADP	_	33	case	_	_
 32	seus	_	DET	DET	_	33	det:poss	_	_
 33	presidentes	presidente	NOUN	NOUN	_	29	nmod	_	SpaceAfter=No
-34	.	_	PUNCT	.	_	20	punct	_	_
+34	.	.	PUNCT	.	_	20	punct	_	_
 
 # sent_id = train-s5317
 # text = A Família na Doutrina Social da Igreja é compreendida como sendo célula vital da sociedade, primeira sociedade natural, fundada no matrimônio (um vínculo perpétuo entre um homem e uma mulher), santuário da vida, a quem é atribuída uma tarefa educativa que é direito dos filhos, é protagonista da vida social e deve ter a sociedade a seu serviço.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	Família	_	PROPN	PNOUN	_	11	nsubj:pass	_	_
 3-4	na	_	_	_	_	_	_	_	_
 3	em	em	ADP	ADP	_	5	case	_	_
@@ -259,39 +259,39 @@
 16	de	de	ADP	ADP	_	18	case	_	_
 17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	sociedade	sociedade	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
-19	,	_	PUNCT	.	_	21	punct	_	_
+19	,	,	PUNCT	.	_	21	punct	_	_
 20	primeira	primeiro	ADJ	ADJ	_	21	amod	_	_
 21	sociedade	sociedade	NOUN	NOUN	_	14	conj	_	_
 22	natural	natural	ADJ	ADJ	_	21	amod	_	SpaceAfter=No
-23	,	_	PUNCT	.	_	24	punct	_	_
+23	,	,	PUNCT	.	_	24	punct	_	_
 24	fundada	fundar	VERB	VERB	_	21	acl:part	_	_
 25-26	no	_	_	_	_	_	_	_	_
 25	em	em	ADP	ADP	_	27	case	_	_
 26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	matrimônio	matrimônio	NOUN	NOUN	_	24	nmod	_	_
-28	(	_	PUNCT	.	_	30	punct	_	SpaceAfter=No
-29	um	_	DET	DET	_	30	det	_	_
+28	(	(	PUNCT	.	_	30	punct	_	SpaceAfter=No
+29	um	um	DET	DET	_	30	det	_	_
 30	vínculo	vínculo	NOUN	NOUN	_	27	appos	_	_
 31	perpétuo	perpétuo	ADJ	ADJ	_	30	amod	_	_
 32	entre	_	ADP	ADP	_	34	case	_	_
-33	um	_	DET	DET	_	34	det	_	_
+33	um	um	DET	DET	_	34	det	_	_
 34	homem	homem	NOUN	NOUN	_	30	nmod	_	_
-35	e	_	CCONJ	CONJ	_	37	cc	_	_
-36	uma	_	DET	DET	_	37	det	_	_
+35	e	e	CCONJ	CONJ	_	37	cc	_	_
+36	uma	um	DET	DET	_	37	det	_	_
 37	mulher	mulher	NOUN	NOUN	_	34	conj	_	SpaceAfter=No
-38	)	_	PUNCT	.	_	30	punct	_	SpaceAfter=No
-39	,	_	PUNCT	.	_	40	punct	_	_
+38	)	)	PUNCT	.	_	30	punct	_	SpaceAfter=No
+39	,	,	PUNCT	.	_	40	punct	_	_
 40	santuário	santuário	NOUN	NOUN	_	14	conj	_	_
 41-42	da	_	_	_	_	_	_	_	_
 41	de	de	ADP	ADP	_	43	case	_	_
 42	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
 43	vida	vida	NOUN	NOUN	_	40	nmod	_	SpaceAfter=No
-44	,	_	PUNCT	.	_	48	punct	_	_
+44	,	,	PUNCT	.	_	48	punct	_	_
 45	a	_	ADP	ADP	_	46	case	_	_
 46	quem	_	PRON	PRON	_	48	iobj	_	_
 47	é	ser	AUX	AUX	_	48	aux:pass	_	_
 48	atribuída	atribuir	VERB	VERB	_	14	acl:relcl	_	_
-49	uma	_	DET	DET	_	50	det	_	_
+49	uma	um	DET	DET	_	50	det	_	_
 50	tarefa	tarefa	NOUN	NOUN	_	48	nsubj:pass	_	_
 51	educativa	educativo	ADJ	ADJ	_	50	amod	_	_
 52	que	_	PRON	PRON	_	54	nsubj	_	_
@@ -301,7 +301,7 @@
 55	de	de	ADP	ADP	_	57	case	_	_
 56	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	57	det	_	_
 57	filhos	filho	NOUN	NOUN	_	54	nmod	_	SpaceAfter=No
-58	,	_	PUNCT	.	_	60	punct	_	_
+58	,	,	PUNCT	.	_	60	punct	_	_
 59	é	ser	AUX	AUX	_	60	cop	_	_
 60	protagonista	protagonista	NOUN	NOUN	_	48	conj	_	_
 61-62	da	_	_	_	_	_	_	_	_
@@ -309,19 +309,19 @@
 62	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	63	det	_	_
 63	vida	vida	NOUN	NOUN	_	60	nmod	_	_
 64	social	social	ADJ	ADJ	_	63	amod	_	_
-65	e	_	CCONJ	CONJ	_	67	cc	_	_
+65	e	e	CCONJ	CONJ	_	67	cc	_	_
 66	deve	dever	AUX	AUX	_	67	aux	_	_
 67	ter	ter	VERB	VERB	_	60	conj	_	_
-68	a	_	DET	DET	_	69	det	_	_
+68	a	a	DET	DET	_	69	det	_	_
 69	sociedade	sociedade	NOUN	NOUN	_	67	obj	_	_
 70	a	_	ADP	ADP	_	72	case	_	_
 71	seu	_	DET	DET	_	72	det:poss	_	_
 72	serviço	serviço	NOUN	NOUN	_	67	nmod	_	SpaceAfter=No
-73	.	_	PUNCT	.	_	11	punct	_	_
+73	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s5318
 # text = As revelações do jornal israelense não foram desmentidas nem por Washington nem por Tel Aviv.
-1	As	_	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	_	2	det	_	_
 2	revelações	revelação	NOUN	NOUN	_	9	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -332,11 +332,11 @@
 8	foram	_	AUX	AUX	_	9	aux:pass	_	_
 9	desmentidas	desmentir	VERB	VERB	_	0	root	_	_
 10	nem	_	CCONJ	CONJ	_	12	cc	_	_
-11	por	_	ADP	ADP	_	12	case	_	_
+11	por	por	ADP	ADP	_	12	case	_	_
 12	Washington	_	PROPN	PNOUN	_	9	nmod	_	_
 13	nem	_	CCONJ	CONJ	_	15	cc	_	_
-14	por	_	ADP	ADP	_	15	case	_	_
+14	por	por	ADP	ADP	_	15	case	_	_
 15	Tel	_	PROPN	PNOUN	_	12	conj	_	_
 16	Aviv	_	PROPN	PNOUN	_	15	flat	_	SpaceAfter=No
-17	.	_	PUNCT	.	_	9	punct	_	_
+17	.	.	PUNCT	.	_	9	punct	_	_
 

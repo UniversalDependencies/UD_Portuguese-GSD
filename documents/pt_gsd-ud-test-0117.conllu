@@ -1,21 +1,21 @@
 # sent_id = test-s1155
 # text = Raikkonen, aliás, é o quarto colocado do campeonato com 131 pontos, contra 164 do líder Fernando Alonso.
 1	Raikkonen	_	PROPN	PNOUN	_	8	nsubj	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	3	punct	_	_
+2	,	,	PUNCT	.	_	3	punct	_	_
 3	aliás	aliás	ADV	ADV	_	8	advmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
 5	é	ser	AUX	AUX	_	8	cop	_	_
-6	o	_	DET	DET	_	8	det	_	_
+6	o	o	DET	DET	_	8	det	_	_
 7	quarto	_	ADJ	ADJ	_	8	amod	_	_
 8	colocado	_	NOUN	NOUN	_	0	root	_	_
 9-10	do	_	_	_	_	_	_	_	_
 9	de	de	ADP	ADP	_	11	case	_	_
 10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	campeonato	campeonato	NOUN	NOUN	_	8	nmod	_	_
-12	com	_	ADP	ADP	_	14	case	_	_
+12	com	com	ADP	ADP	_	14	case	_	_
 13	131	_	NUM	NUM	NumType=Card	14	nummod	_	_
 14	pontos	ponto	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	17	punct	_	_
+15	,	,	PUNCT	.	_	17	punct	_	_
 16	contra	_	ADP	ADP	_	17	case	_	_
 17	164	_	NUM	NUM	NumType=Card	8	nmod	_	_
 18-19	do	_	_	_	_	_	_	_	_
@@ -24,65 +24,65 @@
 20	líder	líder	NOUN	NOUN	_	17	nmod	_	_
 21	Fernando	_	PROPN	PNOUN	_	20	appos	_	_
 22	Alonso	_	PROPN	PNOUN	_	21	flat	_	SpaceAfter=No
-23	.	_	PUNCT	.	_	8	punct	_	_
+23	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = test-s1156
 # text = O jogador relembra com carinho os momentos vividos no clube de Belo Horizonte.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	jogador	jogador	NOUN	NOUN	_	3	nsubj	_	_
 3	relembra	relembrar	VERB	VERB	_	0	root	_	_
-4	com	_	ADP	ADP	_	5	case	_	_
+4	com	com	ADP	ADP	_	5	case	_	_
 5	carinho	carinho	NOUN	NOUN	_	3	nmod	_	_
-6	os	_	DET	DET	_	7	det	_	_
+6	os	o	DET	DET	_	7	det	_	_
 7	momentos	momento	NOUN	NOUN	_	3	obj	_	_
 8	vividos	viver	VERB	VERB	_	7	acl:part	_	_
 9-10	no	_	_	_	_	_	_	_	_
 9	em	em	ADP	ADP	_	11	case	_	_
 10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	clube	clube	NOUN	NOUN	_	8	nmod	_	_
-12	de	_	ADP	ADP	_	14	case	_	_
+12	de	de	ADP	ADP	_	14	case	_	_
 13	Belo	_	PROPN	PNOUN	_	14	amod	_	_
 14	Horizonte	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
-15	.	_	PUNCT	.	_	3	punct	_	_
+15	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = test-s1157
 # text = As Olimpíadas serviram como forte impulsionador de empreendimentos na cidade -- como as vias expressas Transolímpica, Transoeste, Transcarioca, integrando as zonas norte, oeste, centro e o aeroporto internacional.
-1	As	_	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	_	2	det	_	_
 2	Olimpíadas	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	serviram	servir	VERB	VERB	_	0	root	_	_
-4	como	_	ADP	ADP	_	6	case	_	_
+4	como	como	ADP	ADP	_	6	case	_	_
 5	forte	forte	ADJ	ADJ	_	6	amod	_	_
 6	impulsionador	impulsionador	NOUN	NOUN	_	3	nmod	_	_
-7	de	_	ADP	ADP	_	8	case	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
 8	empreendimentos	empreendimento	NOUN	NOUN	_	6	nmod	_	_
 9-10	na	_	_	_	_	_	_	_	_
 9	em	em	ADP	ADP	_	11	case	_	_
 10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	cidade	cidade	NOUN	NOUN	_	8	nmod	_	_
 12	--	_	PUNCT	.	_	15	punct	_	_
-13	como	_	ADP	ADP	_	15	case	_	_
-14	as	_	DET	DET	_	15	det	_	_
+13	como	como	ADP	ADP	_	15	case	_	_
+14	as	o	DET	DET	_	15	det	_	_
 15	vias	via	NOUN	NOUN	_	8	nmod	_	_
 16	expressas	expresso	ADJ	ADJ	_	15	amod	_	_
 17	Transolímpica	_	PROPN	PNOUN	_	15	appos	_	SpaceAfter=No
-18	,	_	PUNCT	.	_	19	punct	_	_
+18	,	,	PUNCT	.	_	19	punct	_	_
 19	Transoeste	_	PROPN	PNOUN	_	17	conj	_	SpaceAfter=No
-20	,	_	PUNCT	.	_	21	punct	_	_
+20	,	,	PUNCT	.	_	21	punct	_	_
 21	Transcarioca	_	PROPN	PNOUN	_	17	conj	_	SpaceAfter=No
-22	,	_	PUNCT	.	_	23	punct	_	_
+22	,	,	PUNCT	.	_	23	punct	_	_
 23	integrando	integrar	VERB	VERB	_	15	acl:part	_	_
-24	as	_	DET	DET	_	25	det	_	_
+24	as	o	DET	DET	_	25	det	_	_
 25	zonas	zona	NOUN	NOUN	_	23	obj	_	_
 26	norte	norte	ADJ	ADJ	_	25	amod	_	SpaceAfter=No
-27	,	_	PUNCT	.	_	28	punct	_	_
+27	,	,	PUNCT	.	_	28	punct	_	_
 28	oeste	oeste	ADJ	ADJ	_	26	conj	_	SpaceAfter=No
-29	,	_	PUNCT	.	_	30	punct	_	_
+29	,	,	PUNCT	.	_	30	punct	_	_
 30	centro	_	ADJ	ADJ	_	26	conj	_	_
 31	e	e	CCONJ	CONJ	_	33	cc	_	_
 32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	aeroporto	aeroporto	NOUN	NOUN	_	25	conj	_	_
 34	internacional	internacional	ADJ	ADJ	_	33	amod	_	SpaceAfter=No
-35	.	_	PUNCT	.	_	3	punct	_	_
+35	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = test-s1158
 # text = Este seriado é considerado perdido.
@@ -91,28 +91,28 @@
 3	é	ser	AUX	AUX	_	4	aux:pass	_	_
 4	considerado	considerar	VERB	VERB	_	0	root	_	_
 5	perdido	perdido	ADJ	ADJ	_	4	xcomp:adj	_	SpaceAfter=No
-6	.	_	PUNCT	.	_	4	punct	_	_
+6	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = test-s1159
 # text = O ex - jogador afirmou que a entidade não tinha "decência", e pediu até a invervenção da presidente Dilma Rousseff.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	ex	_	PART	PRT	_	5	nsubj	_	_
-3	-	_	PUNCT	.	_	2	punct	_	_
+3	-	-	PUNCT	.	_	2	punct	_	_
 4	jogador	jogador	NOUN	NOUN	_	2	flat	_	_
 5	afirmou	afirmar	VERB	VERB	_	0	root	_	_
-6	que	_	CCONJ	CONJ	_	10	mark	_	_
-7	a	_	DET	DET	_	8	det	_	_
+6	que	que	CCONJ	CONJ	_	10	mark	_	_
+7	a	a	DET	DET	_	8	det	_	_
 8	entidade	entidade	NOUN	NOUN	_	10	nsubj	_	_
 9	não	não	ADV	ADV	Polarity=Neg	10	advmod	_	_
 10	tinha	ter	VERB	VERB	_	5	ccomp	_	_
-11	"	_	PUNCT	.	_	12	punct	_	SpaceAfter=No
+11	"	"	PUNCT	.	_	12	punct	_	SpaceAfter=No
 12	decência	decência	NOUN	NOUN	_	10	obj	_	SpaceAfter=No
-13	"	_	PUNCT	.	_	12	punct	_	SpaceAfter=No
-14	,	_	PUNCT	.	_	10	punct	_	_
-15	e	_	CCONJ	CONJ	_	16	cc	_	_
+13	"	"	PUNCT	.	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	10	punct	_	_
+15	e	e	CCONJ	CONJ	_	16	cc	_	_
 16	pediu	pedir	VERB	VERB	_	5	conj	_	_
 17	até	até	ADV	ADV	_	16	advmod	_	_
-18	a	_	DET	DET	_	19	det	_	_
+18	a	a	DET	DET	_	19	det	_	_
 19	invervenção	_	NOUN	NOUN	_	16	obj	_	_
 20-21	da	_	_	_	_	_	_	_	_
 20	de	de	ADP	ADP	_	22	case	_	_
@@ -120,42 +120,42 @@
 22	presidente	presidente	NOUN	NOUN	_	19	nmod	_	_
 23	Dilma	_	PROPN	PNOUN	_	22	appos	_	_
 24	Rousseff	_	PROPN	PNOUN	_	23	flat	_	SpaceAfter=No
-25	.	_	PUNCT	.	_	5	punct	_	_
+25	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = test-s1160
 # text = A ideia é fornecer um meio de comunicação direto para que as pequenas empresas comuniquem - se com potenciais parceiros, fornecedores e clientes.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	ideia	ideia	NOUN	NOUN	_	0	root	_	_
 3	é	ser	AUX	AUX	_	2	cop	_	_
 4	fornecer	fornecer	VERB	VERB	_	2	csubj	_	_
-5	um	_	DET	DET	_	6	det	_	_
+5	um	um	DET	DET	_	6	det	_	_
 6	meio	meio	NOUN	NOUN	_	4	obj	_	_
-7	de	_	ADP	ADP	_	8	case	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
 8	comunicação	comunicação	NOUN	NOUN	_	6	nmod	_	_
 9	direto	direto	ADJ	ADJ	_	6	amod	_	_
 10	para	_	ADP	ADP	_	11	nmod	_	_
-11	que	_	CCONJ	CONJ	_	15	mark	_	_
-12	as	_	DET	DET	_	14	det	_	_
+11	que	que	CCONJ	CONJ	_	15	mark	_	_
+12	as	o	DET	DET	_	14	det	_	_
 13	pequenas	pequeno	ADJ	ADJ	_	14	amod	_	_
 14	empresas	empresa	NOUN	NOUN	_	15	nsubj	_	_
 15	comuniquem	comunicar	VERB	VERB	_	2	advcl	_	_
-16	-	_	PUNCT	.	_	15	punct	_	_
+16	-	-	PUNCT	.	_	15	punct	_	_
 17	se	_	PRON	PRON	_	15	expl:pv	_	_
-18	com	_	ADP	ADP	_	20	case	_	_
+18	com	com	ADP	ADP	_	20	case	_	_
 19	potenciais	potencial	ADJ	ADJ	_	20	amod	_	_
 20	parceiros	parceiro	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
-21	,	_	PUNCT	.	_	22	punct	_	_
+21	,	,	PUNCT	.	_	22	punct	_	_
 22	fornecedores	fornecedor	NOUN	NOUN	_	20	conj	_	_
-23	e	_	CCONJ	CONJ	_	24	cc	_	_
+23	e	e	CCONJ	CONJ	_	24	cc	_	_
 24	clientes	cliente	NOUN	NOUN	_	20	conj	_	SpaceAfter=No
-25	.	_	PUNCT	.	_	2	punct	_	_
+25	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = test-s1161
 # text = Tudo é poder.
 1	Tudo	_	PROPN	PNOUN	_	3	nsubj	_	_
 2	é	ser	AUX	AUX	_	3	cop	_	_
 3	poder	poder	NOUN	NOUN	_	0	root	_	SpaceAfter=No
-4	.	_	PUNCT	.	_	3	punct	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = test-s1162
 # text = Ele só está pensando no subsídio das empresas de ônibus e excluiu a CPTM e o metrô."
@@ -171,21 +171,21 @@
 8	de	de	ADP	ADP	_	10	case	_	_
 9	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
 10	empresas	empresa	NOUN	NOUN	_	7	nmod	_	_
-11	de	_	ADP	ADP	_	12	case	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
 12	ônibus	ônibus	NOUN	NOUN	_	10	nmod	_	_
-13	e	_	CCONJ	CONJ	_	14	cc	_	_
+13	e	e	CCONJ	CONJ	_	14	cc	_	_
 14	excluiu	excluir	VERB	VERB	_	4	conj	_	_
-15	a	_	DET	DET	_	16	det	_	_
+15	a	a	DET	DET	_	16	det	_	_
 16	CPTM	_	PROPN	PNOUN	_	14	obj	_	_
 17	e	e	CCONJ	CONJ	_	19	cc	_	_
 18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	metrô	metrô	NOUN	NOUN	_	16	conj	_	SpaceAfter=No
-20	.	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
-21	"	_	PUNCT	.	_	4	punct	_	_
+20	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+21	"	"	PUNCT	.	_	4	punct	_	_
 
 # sent_id = test-s1163
 # text = O destino do dinheiro também pouco preocupa.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	destino	destino	NOUN	NOUN	_	8	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -194,24 +194,24 @@
 6	também	também	ADV	ADV	_	8	advmod	_	_
 7	pouco	pouco	ADV	ADV	_	8	advmod	_	_
 8	preocupa	preocupar	VERB	VERB	_	0	root	_	SpaceAfter=No
-9	.	_	PUNCT	.	_	8	punct	_	_
+9	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = test-s1164
 # text = Posteriormente, a coligação que entrou com ação apontou o desrespeito da liminar.
 1	Posteriormente	posteriormente	ADV	ADV	_	9	advmod	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	1	punct	_	_
-3	a	_	DET	DET	_	4	det	_	_
+2	,	,	PUNCT	.	_	1	punct	_	_
+3	a	a	DET	DET	_	4	det	_	_
 4	coligação	coligação	NOUN	NOUN	_	9	nsubj	_	_
 5	que	_	PRON	PRON	_	6	nsubj	_	_
 6	entrou	entrar	VERB	VERB	_	4	acl:relcl	_	_
-7	com	_	ADP	ADP	_	8	case	_	_
+7	com	com	ADP	ADP	_	8	case	_	_
 8	ação	ação	NOUN	NOUN	_	6	nmod	_	_
 9	apontou	apontar	VERB	VERB	_	0	root	_	_
-10	o	_	DET	DET	_	11	det	_	_
+10	o	o	DET	DET	_	11	det	_	_
 11	desrespeito	desrespeito	NOUN	NOUN	_	9	obj	_	_
 12-13	da	_	_	_	_	_	_	_	_
 12	de	de	ADP	ADP	_	14	case	_	_
 13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	liminar	liminar	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
-15	.	_	PUNCT	.	_	9	punct	_	_
+15	.	.	PUNCT	.	_	9	punct	_	_
 

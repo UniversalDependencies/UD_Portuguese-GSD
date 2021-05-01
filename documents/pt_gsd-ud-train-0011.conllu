@@ -1,34 +1,34 @@
 # sent_id = train-s101
 # text = "Algumas informações chegaram, mas não temos certeza de nada.
-1	"	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
 2	Algumas	_	DET	DET	_	3	det	_	_
 3	informações	informação	NOUN	NOUN	_	4	nsubj	_	_
 4	chegaram	chegar	VERB	VERB	_	0	root	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	8	punct	_	_
+5	,	,	PUNCT	.	_	8	punct	_	_
 6	mas	_	CCONJ	CONJ	_	8	cc	_	_
 7	não	não	ADV	ADV	Polarity=Neg	8	advmod	_	_
 8	temos	ter	VERB	VERB	_	4	conj	_	_
 9	certeza	certeza	NOUN	NOUN	_	8	obj	_	_
-10	de	_	ADP	ADP	_	11	case	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
 11	nada	_	PRON	PRON	_	9	nmod	_	SpaceAfter=No
-12	.	_	PUNCT	.	_	4	punct	_	_
+12	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s102
 # text = O mais importante é que as chamadas não caiam.
-1	O	_	DET	DET	_	3	det	_	_
+1	O	o	DET	DET	_	3	det	_	_
 2	mais	_	DET	DET	_	3	det	_	_
 3	importante	importante	NOUN	NOUN	_	0	root	_	_
 4	é	ser	AUX	AUX	_	3	cop	_	_
-5	que	_	CCONJ	CONJ	_	9	mark	_	_
-6	as	_	DET	DET	_	7	det	_	_
+5	que	que	CCONJ	CONJ	_	9	mark	_	_
+6	as	o	DET	DET	_	7	det	_	_
 7	chamadas	_	NOUN	NOUN	_	9	nsubj	_	_
 8	não	não	ADV	ADV	Polarity=Neg	9	advmod	_	_
 9	caiam	_	VERB	VERB	_	3	csubj	_	SpaceAfter=No
-10	.	_	PUNCT	.	_	3	punct	_	_
+10	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s103
 # text = As instalações industriais modernas estão muito distantes dos antigos e mal - cheirosos abatedouros, presentes na imaginação de muitos ainda.
-1	As	_	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	_	2	det	_	_
 2	instalações	instalação	NOUN	NOUN	_	5	nsubj	_	_
 3	industriais	industrial	ADJ	ADJ	_	2	amod	_	_
 4	modernas	moderno	ADJ	ADJ	_	2	amod	_	_
@@ -39,21 +39,21 @@
 8	de	de	ADP	ADP	_	15	case	_	_
 9	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
 10	antigos	antigo	ADJ	ADJ	_	15	amod	_	_
-11	e	_	CCONJ	CONJ	_	14	cc	_	_
+11	e	e	CCONJ	CONJ	_	14	cc	_	_
 12	mal	mal	ADV	ADV	_	14	advmod	_	_
-13	-	_	PUNCT	.	_	14	punct	_	_
+13	-	-	PUNCT	.	_	14	punct	_	_
 14	cheirosos	cheiroso	ADJ	ADJ	_	10	conj	_	_
 15	abatedouros	abatedouro	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	17	punct	_	_
+16	,	,	PUNCT	.	_	17	punct	_	_
 17	presentes	presente	ADJ	ADJ	_	15	amod	_	_
 18-19	na	_	_	_	_	_	_	_	_
 18	em	em	ADP	ADP	_	20	case	_	_
 19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	imaginação	imaginação	NOUN	NOUN	_	17	nmod	_	_
-21	de	_	ADP	ADP	_	22	case	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
 22	muitos	_	PRON	PRON	_	20	nmod	_	_
 23	ainda	ainda	ADV	ADV	_	17	advmod	_	SpaceAfter=No
-24	.	_	PUNCT	.	_	5	punct	_	_
+24	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s104
 # text = Perez ficou pelo caminho e Maldonado teve o pneu furado.
@@ -63,13 +63,13 @@
 3	por	por	ADP	ADP	_	5	case	_	_
 4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	caminho	caminho	NOUN	NOUN	_	2	nmod	_	_
-6	e	_	CCONJ	CONJ	_	8	cc	_	_
+6	e	e	CCONJ	CONJ	_	8	cc	_	_
 7	Maldonado	_	PROPN	PNOUN	_	8	nsubj	_	_
 8	teve	ter	VERB	VERB	_	2	conj	_	_
-9	o	_	DET	DET	_	10	det	_	_
+9	o	o	DET	DET	_	10	det	_	_
 10	pneu	pneu	NOUN	NOUN	_	11	nsubj	_	_
 11	furado	furado	ADJ	ADJ	_	8	xcomp	_	SpaceAfter=No
-12	.	_	PUNCT	.	_	2	punct	_	_
+12	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s105
 # text = No trajeto, ele ainda bateu em dois carros.
@@ -77,43 +77,43 @@
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	trajeto	trajeto	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
 5	ele	_	PRON	PRON	_	7	nsubj	_	_
 6	ainda	ainda	ADV	ADV	_	7	advmod	_	_
 7	bateu	bater	VERB	VERB	_	0	root	_	_
-8	em	_	ADP	ADP	_	10	case	_	_
+8	em	em	ADP	ADP	_	10	case	_	_
 9	dois	_	NUM	NUM	NumType=Card	10	nummod	_	_
 10	carros	carro	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-11	.	_	PUNCT	.	_	7	punct	_	_
+11	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s106
 # text = Segundo o historiador Câmara Cascudo, a primeira casa do "Salgado", nome pelo qual a região era conhecida, foi construída pelo Sr. José Maria do Nascimento, natural de Bodó em Cerro-Corá/RN, que ao lado de dois irmãos foram os primeiros proprietários de terras.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	o	_	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	_	3	det	_	_
 3	historiador	historiador	NOUN	NOUN	_	26	nmod	_	_
 4	Câmara	_	PROPN	PNOUN	_	3	appos	_	_
 5	Cascudo	_	PROPN	PNOUN	_	4	flat	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	3	punct	_	_
-7	a	_	DET	DET	_	9	det	_	_
+6	,	,	PUNCT	.	_	3	punct	_	_
+7	a	a	DET	DET	_	9	det	_	_
 8	primeira	primeiro	ADJ	ADJ	_	9	amod	_	_
 9	casa	casa	NOUN	NOUN	_	26	nsubj:pass	_	_
 10-11	do	_	_	_	_	_	_	_	_
 10	de	de	ADP	ADP	_	13	case	_	_
 11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-12	"	_	PUNCT	.	_	13	punct	_	SpaceAfter=No
+12	"	"	PUNCT	.	_	13	punct	_	SpaceAfter=No
 13	Salgado	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
-14	"	_	PUNCT	.	_	13	punct	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	16	punct	_	_
+14	"	"	PUNCT	.	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	.	_	16	punct	_	_
 16	nome	nome	NOUN	NOUN	_	13	appos	_	_
 17-18	pelo	_	_	_	_	_	_	_	_
 17	por	por	ADP	ADP	_	19	case	_	_
 18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	qual	_	PRON	PRON	_	23	nmod	_	_
-20	a	_	DET	DET	_	21	det	_	_
+20	a	a	DET	DET	_	21	det	_	_
 21	região	região	NOUN	NOUN	_	23	nsubj:pass	_	_
 22	era	_	AUX	AUX	_	23	aux:pass	_	_
 23	conhecida	conhecer	VERB	VERB	_	16	acl:relcl	_	SpaceAfter=No
-24	,	_	PUNCT	.	_	16	punct	_	_
+24	,	,	PUNCT	.	_	16	punct	_	_
 25	foi	_	AUX	AUX	_	26	aux:pass	_	_
 26	construída	construir	VERB	VERB	_	0	root	_	_
 27-28	pelo	_	_	_	_	_	_	_	_
@@ -126,35 +126,35 @@
 32	de	de	ADP	ADP	_	34	case	_	_
 33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
 34	Nascimento	_	PROPN	PNOUN	_	29	nmod	_	SpaceAfter=No
-35	,	_	PUNCT	.	_	36	punct	_	_
+35	,	,	PUNCT	.	_	36	punct	_	_
 36	natural	natural	ADJ	ADJ	_	29	amod	_	_
-37	de	_	ADP	ADP	_	38	case	_	_
+37	de	de	ADP	ADP	_	38	case	_	_
 38	Bodó	_	PROPN	PNOUN	_	36	nmod	_	_
-39	em	_	ADP	ADP	_	40	case	_	_
+39	em	em	ADP	ADP	_	40	case	_	_
 40	Cerro-Corá/RN	_	PROPN	PNOUN	_	38	nmod	_	SpaceAfter=No
-41	,	_	PUNCT	.	_	52	punct	_	_
+41	,	,	PUNCT	.	_	52	punct	_	_
 42	que	_	PRON	PRON	_	52	nsubj	_	_
 43-44	ao	_	_	_	_	_	_	_	_
 43	a	a	ADP	ADP	_	45	case	_	_
 44	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
 45	lado	lado	NOUN	NOUN	_	52	nmod	_	_
-46	de	_	ADP	ADP	_	48	case	_	_
+46	de	de	ADP	ADP	_	48	case	_	_
 47	dois	_	NUM	NUM	NumType=Card	48	nummod	_	_
 48	irmãos	irmão	NOUN	NOUN	_	45	nmod	_	_
 49	foram	_	AUX	AUX	_	52	cop	_	_
-50	os	_	DET	DET	_	52	det	_	_
+50	os	o	DET	DET	_	52	det	_	_
 51	primeiros	primeiro	ADJ	ADJ	_	52	amod	_	_
 52	proprietários	proprietário	NOUN	NOUN	_	29	acl:relcl	_	_
-53	de	_	ADP	ADP	_	54	case	_	_
+53	de	de	ADP	ADP	_	54	case	_	_
 54	terras	terra	NOUN	NOUN	_	52	nmod	_	SpaceAfter=No
-55	.	_	PUNCT	.	_	26	punct	_	_
+55	.	.	PUNCT	.	_	26	punct	_	_
 
 # sent_id = train-s107
 # text = Carlos Leopoldo era o segundo dos quatro filhos do duque Frederico I de Mecklenburg - Schwerin e da landegravina Cristina Guilhermina de Hesse - Homburg.
 1	Carlos	_	PROPN	PNOUN	_	5	nsubj	_	_
 2	Leopoldo	_	PROPN	PNOUN	_	1	flat	_	_
 3	era	_	AUX	AUX	_	5	cop	_	_
-4	o	_	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	_	5	det	_	_
 5	segundo	segundo	NOUN	NOUN	_	0	root	_	_
 6-7	dos	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	9	case	_	_
@@ -167,22 +167,22 @@
 12	duque	duque	NOUN	NOUN	_	9	nmod	_	_
 13	Frederico	_	PROPN	PNOUN	_	12	appos	_	_
 14	I	_	PROPN	PNOUN	_	13	amod	_	_
-15	de	_	ADP	ADP	_	16	case	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
 16	Mecklenburg	_	PROPN	PNOUN	_	13	nmod	_	_
-17	-	_	PUNCT	.	_	16	punct	_	_
+17	-	-	PUNCT	.	_	16	punct	_	_
 18	Schwerin	_	PROPN	PNOUN	_	16	flat	_	_
-19	e	_	CCONJ	CONJ	_	22	cc	_	_
+19	e	e	CCONJ	CONJ	_	22	cc	_	_
 20-21	da	_	_	_	_	_	_	_	_
 20	de	de	ADP	ADP	_	22	case	_	_
 21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	landegravina	_	NOUN	NOUN	_	12	conj	_	_
 23	Cristina	_	PROPN	PNOUN	_	22	appos	_	_
 24	Guilhermina	_	PROPN	PNOUN	_	23	flat	_	_
-25	de	_	ADP	ADP	_	26	case	_	_
+25	de	de	ADP	ADP	_	26	case	_	_
 26	Hesse	_	PROPN	PNOUN	_	23	nmod	_	_
-27	-	_	PUNCT	.	_	26	punct	_	_
+27	-	-	PUNCT	.	_	26	punct	_	_
 28	Homburg	_	PROPN	PNOUN	_	26	flat	_	SpaceAfter=No
-29	.	_	PUNCT	.	_	5	punct	_	_
+29	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s108
 # text = No começo da tarde, o oficial de justiça Valdemir Leme Maciel trouxe o documento.
@@ -194,27 +194,27 @@
 4	de	de	ADP	ADP	_	6	case	_	_
 5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	tarde	tarde	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	3	punct	_	_
-8	o	_	DET	DET	_	9	det	_	_
+7	,	,	PUNCT	.	_	3	punct	_	_
+8	o	o	DET	DET	_	9	det	_	_
 9	oficial	oficial	ADJ	ADJ	_	15	nsubj	_	_
-10	de	_	ADP	ADP	_	11	case	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
 11	justiça	justiça	NOUN	NOUN	_	9	nmod	_	_
 12	Valdemir	_	PROPN	PNOUN	_	9	appos	_	_
 13	Leme	_	PROPN	PNOUN	_	12	flat	_	_
 14	Maciel	_	PROPN	PNOUN	_	12	flat	_	_
 15	trouxe	trazer	VERB	VERB	_	0	root	_	_
-16	o	_	DET	DET	_	17	det	_	_
+16	o	o	DET	DET	_	17	det	_	_
 17	documento	documento	NOUN	NOUN	_	15	obj	_	SpaceAfter=No
-18	.	_	PUNCT	.	_	15	punct	_	_
+18	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = train-s109
 # text = Em concentrações mais baixas, o ácido retinoico pode ser receitado pelo dermatologista e aplicado em casa durante o tempo determinado.
-1	Em	_	ADP	ADP	_	2	case	_	_
+1	Em	em	ADP	ADP	_	2	case	_	_
 2	concentrações	concentração	NOUN	NOUN	_	11	nmod	_	_
 3	mais	mais	ADV	ADV	_	4	advmod	_	_
 4	baixas	baixo	ADJ	ADJ	_	2	amod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	2	punct	_	_
-6	o	_	DET	DET	_	7	det	_	_
+5	,	,	PUNCT	.	_	2	punct	_	_
+6	o	o	DET	DET	_	7	det	_	_
 7	ácido	ácido	NOUN	NOUN	_	11	nsubj:pass	_	_
 8	retinoico	_	ADJ	ADJ	_	7	amod	_	_
 9	pode	_	AUX	AUX	_	11	aux	_	_
@@ -224,15 +224,15 @@
 12	por	por	ADP	ADP	_	14	case	_	_
 13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	dermatologista	dermatologista	NOUN	NOUN	_	11	nmod	_	_
-15	e	_	CCONJ	CONJ	_	16	cc	_	_
+15	e	e	CCONJ	CONJ	_	16	cc	_	_
 16	aplicado	aplicar	VERB	VERB	_	11	conj	_	_
-17	em	_	ADP	ADP	_	18	case	_	_
+17	em	em	ADP	ADP	_	18	case	_	_
 18	casa	casa	NOUN	NOUN	_	16	nmod	_	_
 19	durante	_	ADP	ADP	_	21	case	_	_
-20	o	_	DET	DET	_	21	det	_	_
+20	o	o	DET	DET	_	21	det	_	_
 21	tempo	tempo	NOUN	NOUN	_	16	nmod	_	_
 22	determinado	determinar	VERB	VERB	_	21	acl:part	_	SpaceAfter=No
-23	.	_	PUNCT	.	_	11	punct	_	_
+23	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s110
 # text = Eduardo Paes também anunciou a instalação da Coordenadoria do Sistema de Transporte Público Local (STPL), cujo coordenador será Cláudio Ferraz.
@@ -240,7 +240,7 @@
 2	Paes	_	PROPN	PNOUN	_	1	flat	_	_
 3	também	também	ADV	ADV	_	4	advmod	_	_
 4	anunciou	anunciar	VERB	VERB	_	0	root	_	_
-5	a	_	DET	DET	_	6	det	_	_
+5	a	a	DET	DET	_	6	det	_	_
 6	instalação	instalação	NOUN	NOUN	_	4	obj	_	_
 7-8	da	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
@@ -250,18 +250,18 @@
 10	de	de	ADP	ADP	_	12	case	_	_
 11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	Sistema	_	PROPN	PNOUN	_	9	nmod	_	_
-13	de	_	ADP	ADP	_	14	case	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
 14	Transporte	_	PROPN	PNOUN	_	12	nmod	_	_
 15	Público	_	PROPN	PNOUN	_	14	amod	_	_
 16	Local	_	PROPN	PNOUN	_	14	amod	_	_
-17	(	_	PUNCT	.	_	18	punct	_	SpaceAfter=No
+17	(	(	PUNCT	.	_	18	punct	_	SpaceAfter=No
 18	STPL	_	PROPN	PNOUN	_	12	appos	_	SpaceAfter=No
-19	)	_	PUNCT	.	_	18	punct	_	SpaceAfter=No
-20	,	_	PUNCT	.	_	24	punct	_	_
+19	)	)	PUNCT	.	_	18	punct	_	SpaceAfter=No
+20	,	,	PUNCT	.	_	24	punct	_	_
 21	cujo	_	DET	DET	_	22	det	_	_
 22	coordenador	coordenador	NOUN	NOUN	_	24	nsubj	_	_
 23	será	ser	AUX	AUX	_	24	cop	_	_
 24	Cláudio	_	PROPN	PNOUN	_	12	acl:relcl	_	_
 25	Ferraz	_	PROPN	PNOUN	_	24	flat	_	SpaceAfter=No
-26	.	_	PUNCT	.	_	4	punct	_	_
+26	.	.	PUNCT	.	_	4	punct	_	_
 

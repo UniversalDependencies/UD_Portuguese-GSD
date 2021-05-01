@@ -1,6 +1,6 @@
 # sent_id = train-s820
 # text = O projeto aprovado na Câmara dos Deputados que define a redistribuição da verba repassada à União pela exploração de campos de petróleo passará pelo crivo presidencial nesta sexta - feira, último dia para sancionar ou vetar a proposta.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	projeto	projeto	NOUN	NOUN	_	28	nsubj	_	_
 3	aprovado	aprovar	VERB	VERB	_	2	acl:part	_	_
 4-5	na	_	_	_	_	_	_	_	_
@@ -13,7 +13,7 @@
 9	Deputados	_	PROPN	PNOUN	_	6	nmod	_	_
 10	que	_	PRON	PRON	_	11	nsubj	_	_
 11	define	definir	VERB	VERB	_	2	acl:relcl	_	_
-12	a	_	DET	DET	_	13	det	_	_
+12	a	a	DET	DET	_	13	det	_	_
 13	redistribuição	redistribuição	NOUN	NOUN	_	11	obj	_	_
 14-15	da	_	_	_	_	_	_	_	_
 14	de	de	ADP	ADP	_	16	case	_	_
@@ -28,9 +28,9 @@
 21	por	por	ADP	ADP	_	23	case	_	_
 22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	exploração	exploração	NOUN	NOUN	_	17	nmod	_	_
-24	de	_	ADP	ADP	_	25	case	_	_
+24	de	de	ADP	ADP	_	25	case	_	_
 25	campos	campo	NOUN	NOUN	_	23	nmod	_	_
-26	de	_	ADP	ADP	_	27	case	_	_
+26	de	de	ADP	ADP	_	27	case	_	_
 27	petróleo	petróleo	NOUN	NOUN	_	25	nmod	_	_
 28	passará	passar	VERB	VERB	_	0	root	_	_
 29-30	pelo	_	_	_	_	_	_	_	_
@@ -40,18 +40,18 @@
 32	presidencial	presidencial	ADJ	ADJ	_	31	amod	_	_
 33	nesta	_	ADP	ADP	_	36	case	_	_
 34	sexta	_	PROPN	PNOUN	_	36	amod	_	_
-35	-	_	PUNCT	.	_	36	punct	_	_
+35	-	-	PUNCT	.	_	36	punct	_	_
 36	feira	_	PROPN	PNOUN	_	28	nmod	_	SpaceAfter=No
-37	,	_	PUNCT	.	_	39	punct	_	_
+37	,	,	PUNCT	.	_	39	punct	_	_
 38	último	último	ADJ	ADJ	_	39	amod	_	_
 39	dia	dia	NOUN	NOUN	_	36	appos	_	_
 40	para	_	ADP	ADP	_	41	mark	_	_
 41	sancionar	sancionar	VERB	VERB	_	39	advcl	_	_
-42	ou	_	CCONJ	CONJ	_	43	cc	_	_
+42	ou	ou	CCONJ	CONJ	_	43	cc	_	_
 43	vetar	vetar	VERB	VERB	_	41	conj	_	_
-44	a	_	DET	DET	_	45	det	_	_
+44	a	a	DET	DET	_	45	det	_	_
 45	proposta	_	NOUN	NOUN	_	41	obj	_	SpaceAfter=No
-46	.	_	PUNCT	.	_	28	punct	_	_
+46	.	.	PUNCT	.	_	28	punct	_	_
 
 # sent_id = train-s821
 # text = Mas eu fui até onde eu podia, quando eu vi que eu era fraca demais pra isso reavaliamos e vimos o que podia ser feito.
@@ -62,11 +62,11 @@
 5	onde	onde	ADV	ADV	_	7	advmod	_	_
 6	eu	_	PRON	PRON	_	7	nsubj	_	_
 7	podia	poder	VERB	VERB	_	3	nmod	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	19	punct	_	_
+8	,	,	PUNCT	.	_	19	punct	_	_
 9	quando	_	CCONJ	CONJ	_	11	mark	_	_
 10	eu	_	PRON	PRON	_	11	nsubj	_	_
 11	vi	_	VERB	VERB	_	19	advcl	_	_
-12	que	_	CCONJ	CONJ	_	14	mark	_	_
+12	que	que	CCONJ	CONJ	_	14	mark	_	_
 13	eu	_	PRON	PRON	_	14	nsubj	_	_
 14	era	_	VERB	VERB	_	11	ccomp	_	_
 15	fraca	fraco	ADJ	ADJ	_	14	xcomp:adj	_	_
@@ -74,30 +74,30 @@
 17	pra	_	ADP	ADP	_	18	case	_	_
 18	isso	_	PRON	PRON	_	15	nmod	_	_
 19	reavaliamos	reavaliar	VERB	VERB	_	3	parataxis	_	_
-20	e	_	CCONJ	CONJ	_	21	cc	_	_
+20	e	e	CCONJ	CONJ	_	21	cc	_	_
 21	vimos	_	VERB	VERB	_	19	conj	_	_
 22	o	_	PRON	PRON	_	21	obj	_	_
 23	que	_	PRON	PRON	_	26	nsubj:pass	_	_
 24	podia	poder	AUX	AUX	_	26	aux	_	_
 25	ser	ser	AUX	AUX	_	26	aux:pass	_	_
 26	feito	_	VERB	VERB	_	22	acl:relcl	_	SpaceAfter=No
-27	.	_	PUNCT	.	_	3	punct	_	_
+27	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s822
 # text = A previsão é de 20 carros por hora.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	previsão	previsão	NOUN	NOUN	_	3	nsubj	_	_
 3	é	ser	VERB	VERB	_	0	root	_	_
-4	de	_	ADP	ADP	_	6	case	_	_
+4	de	de	ADP	ADP	_	6	case	_	_
 5	20	_	NUM	NUM	NumType=Card	6	nummod	_	_
 6	carros	carro	NOUN	NOUN	_	3	nmod	_	_
-7	por	_	ADP	ADP	_	8	case	_	_
+7	por	por	ADP	ADP	_	8	case	_	_
 8	hora	hora	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
-9	.	_	PUNCT	.	_	3	punct	_	_
+9	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s823
 # text = Os aliados europeus dos Estados Unidos evocaram no sábado novas sanções contra Damasco, e o ministro belga chegou a mencionar um "dever de intervir".
-1	Os	_	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	_	2	det	_	_
 2	aliados	aliado	NOUN	NOUN	_	8	nsubj	_	_
 3	europeus	europeu	ADJ	ADJ	_	2	amod	_	_
 4-5	dos	_	_	_	_	_	_	_	_
@@ -114,7 +114,7 @@
 13	sanções	sanção	NOUN	NOUN	_	8	obj	_	_
 14	contra	_	ADP	ADP	_	15	case	_	_
 15	Damasco	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	23	punct	_	_
+16	,	,	PUNCT	.	_	23	punct	_	_
 17	e	e	CCONJ	CONJ	_	23	cc	_	_
 18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 19	ministro	ministro	NOUN	NOUN	_	23	nsubj	_	_
@@ -122,56 +122,56 @@
 21	chegou	chegar	AUX	AUX	_	23	aux	_	_
 22	a	_	ADP	ADP	_	23	mark	_	_
 23	mencionar	mencionar	VERB	VERB	_	8	conj	_	_
-24	um	_	DET	DET	_	26	det	_	_
-25	"	_	PUNCT	.	_	26	punct	_	SpaceAfter=No
+24	um	um	DET	DET	_	26	det	_	_
+25	"	"	PUNCT	.	_	26	punct	_	SpaceAfter=No
 26	dever	dever	NOUN	NOUN	_	23	obj	_	_
 27	de	_	ADP	ADP	_	28	mark	_	_
 28	intervir	_	VERB	VERB	_	26	nmod	_	SpaceAfter=No
-29	"	_	PUNCT	.	_	26	punct	_	SpaceAfter=No
-30	.	_	PUNCT	.	_	8	punct	_	_
+29	"	"	PUNCT	.	_	26	punct	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s824
 # text = Para solicitação manutenção ou instalação de pontos de iluminação, o telefone da Emlurb é: (81) 3355.7626.
 1	Para	_	ADP	ADP	_	2	case	_	_
 2	solicitação	solicitação	NOUN	NOUN	_	21	nmod	_	_
 3	manutenção	manutenção	NOUN	NOUN	_	2	dep	_	_
-4	ou	_	CCONJ	CONJ	_	5	cc	_	_
+4	ou	ou	CCONJ	CONJ	_	5	cc	_	_
 5	instalação	instalação	NOUN	NOUN	_	3	conj	_	_
-6	de	_	ADP	ADP	_	7	case	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
 7	pontos	ponto	NOUN	NOUN	_	3	nmod	_	_
-8	de	_	ADP	ADP	_	9	case	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
 9	iluminação	iluminação	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	2	punct	_	_
-11	o	_	DET	DET	_	12	det	_	_
+10	,	,	PUNCT	.	_	2	punct	_	_
+11	o	o	DET	DET	_	12	det	_	_
 12	telefone	telefone	NOUN	NOUN	_	21	nsubj	_	_
 13-14	da	_	_	_	_	_	_	_	_
 13	de	de	ADP	ADP	_	15	case	_	_
 14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	Emlurb	_	PROPN	PNOUN	_	12	nmod	_	_
 16	é	ser	VERB	VERB	_	21	cop	_	SpaceAfter=No
-17	:	_	PUNCT	.	_	21	punct	_	_
-18	(	_	PUNCT	.	_	19	punct	_	SpaceAfter=No
+17	:	:	PUNCT	.	_	21	punct	_	_
+18	(	(	PUNCT	.	_	19	punct	_	SpaceAfter=No
 19	81	_	NUM	NUM	NumType=Card	21	nummod	_	SpaceAfter=No
-20	)	_	PUNCT	.	_	19	punct	_	_
+20	)	)	PUNCT	.	_	19	punct	_	_
 21	3355.7626	_	NUM	NUM	NumType=Card	0	root	_	SpaceAfter=No
-22	.	_	PUNCT	.	_	21	punct	_	_
+22	.	.	PUNCT	.	_	21	punct	_	_
 
 # sent_id = train-s825
 # text = Vão lá, levem pra se vestir!"
 1	Vão	ir	VERB	VERB	_	0	root	_	_
 2	lá	lá	ADV	ADV	_	1	advmod	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	4	punct	_	_
+3	,	,	PUNCT	.	_	4	punct	_	_
 4	levem	levar	VERB	VERB	_	1	conj	_	_
 5	pra	_	ADP	ADP	_	7	mark	_	_
 6	se	_	PRON	PRON	_	7	obj	_	_
 7	vestir	vestir	VERB	VERB	_	4	nmod	_	SpaceAfter=No
-8	!	_	PUNCT	.	_	1	punct	_	SpaceAfter=No
-9	"	_	PUNCT	.	_	1	punct	_	_
+8	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+9	"	"	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s826
 # text = "O trabalho da ministra Eliana Calmon será mantido integralmente, mas de forma diferente, porque cada um tem seu estilo.
-1	"	_	PUNCT	.	_	10	punct	_	SpaceAfter=No
-2	O	_	DET	DET	_	3	det	_	_
+1	"	"	PUNCT	.	_	10	punct	_	SpaceAfter=No
+2	O	o	DET	DET	_	3	det	_	_
 3	trabalho	trabalho	NOUN	NOUN	_	10	nsubj:pass	_	_
 4-5	da	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
@@ -182,33 +182,33 @@
 9	será	ser	AUX	AUX	_	10	aux:pass	_	_
 10	mantido	manter	VERB	VERB	_	0	root	_	_
 11	integralmente	integralmente	ADV	ADV	_	10	advmod	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	15	punct	_	_
+12	,	,	PUNCT	.	_	15	punct	_	_
 13	mas	_	CCONJ	CONJ	_	15	cc	_	_
-14	de	_	ADP	ADP	_	15	case	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
 15	forma	forma	NOUN	NOUN	_	11	conj	_	_
 16	diferente	diferente	ADJ	ADJ	_	15	amod	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	21	punct	_	_
+17	,	,	PUNCT	.	_	21	punct	_	_
 18	porque	_	CCONJ	CONJ	_	21	mark	_	_
 19	cada	_	DET	DET	_	20	det	_	_
 20	um	_	PRON	PRON	_	21	nsubj	_	_
 21	tem	ter	VERB	VERB	_	15	advcl	_	_
 22	seu	_	DET	DET	_	23	det:poss	_	_
 23	estilo	estilo	NOUN	NOUN	_	21	obj	_	SpaceAfter=No
-24	.	_	PUNCT	.	_	10	punct	_	_
+24	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s827
 # text = Sem tempo para mais nada o Tigre garantiu a vitória.
 1	Sem	_	ADP	ADP	_	2	case	_	_
 2	tempo	tempo	NOUN	NOUN	_	8	nmod	_	_
-3	para	_	ADP	ADP	_	5	case	_	_
+3	para	para	ADP	ADP	_	5	case	_	_
 4	mais	_	DET	DET	_	5	det	_	_
 5	nada	_	PRON	PRON	_	2	nmod	_	_
-6	o	_	DET	DET	_	7	det	_	_
+6	o	o	DET	DET	_	7	det	_	_
 7	Tigre	_	PROPN	PNOUN	_	8	nsubj	_	_
 8	garantiu	garantir	VERB	VERB	_	0	root	_	_
-9	a	_	DET	DET	_	10	det	_	_
+9	a	a	DET	DET	_	10	det	_	_
 10	vitória	vitória	NOUN	NOUN	_	8	obj	_	SpaceAfter=No
-11	.	_	PUNCT	.	_	8	punct	_	_
+11	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s828
 # text = No ataque, o escolhido para substituir Hernán Barcos, que está na Argentina para defender a sua seleção, foi Obina.
@@ -216,14 +216,14 @@
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	ataque	ataque	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
-5	o	_	DET	DET	_	6	det	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	o	o	DET	DET	_	6	det	_	_
 6	escolhido	_	NOUN	NOUN	_	24	nsubj	_	_
 7	para	_	ADP	ADP	_	8	mark	_	_
 8	substituir	substituir	VERB	VERB	_	6	nmod	_	_
 9	Hernán	_	PROPN	PNOUN	_	8	obj	_	_
 10	Barcos	_	PROPN	PNOUN	_	9	flat	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	13	punct	_	_
+11	,	,	PUNCT	.	_	13	punct	_	_
 12	que	_	PRON	PRON	_	13	nsubj	_	_
 13	está	estar	VERB	VERB	_	9	acl:relcl	_	_
 14-15	na	_	_	_	_	_	_	_	_
@@ -232,48 +232,48 @@
 16	Argentina	_	PROPN	PNOUN	_	13	nmod	_	_
 17	para	_	ADP	ADP	_	18	mark	_	_
 18	defender	defender	VERB	VERB	_	13	advcl	_	_
-19	a	_	DET	DET	_	21	det	_	_
+19	a	a	DET	DET	_	21	det	_	_
 20	sua	_	DET	DET	_	21	det:poss	_	_
 21	seleção	seleção	NOUN	NOUN	_	18	obj	_	SpaceAfter=No
-22	,	_	PUNCT	.	_	13	punct	_	_
+22	,	,	PUNCT	.	_	13	punct	_	_
 23	foi	_	AUX	AUX	_	24	cop	_	_
 24	Obina	_	PROPN	PNOUN	_	0	root	_	SpaceAfter=No
-25	.	_	PUNCT	.	_	24	punct	_	_
+25	.	.	PUNCT	.	_	24	punct	_	_
 
 # sent_id = train-s829
 # text = O PDT e mais 10 partidos realizaram convenção municipal em Itaporã na noite de quinta - feira (21) para oficializar a Coligação Renovação, Trabalho e Fé, encabeçada pelo candidato a prefeito Wallas Milfont (PDT) e Jacinta Cordeiro (PR), candidata a vice - prefeita.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	PDT	_	PROPN	PNOUN	_	7	nsubj	_	_
-3	e	_	CCONJ	CONJ	_	6	cc	_	_
+3	e	e	CCONJ	CONJ	_	6	cc	_	_
 4	mais	_	DET	DET	_	6	det	_	_
 5	10	_	NUM	NUM	NumType=Card	6	nummod	_	_
 6	partidos	partido	NOUN	NOUN	_	2	conj	_	_
 7	realizaram	realizar	VERB	VERB	_	0	root	_	_
 8	convenção	convenção	NOUN	NOUN	_	7	obj	_	_
 9	municipal	municipal	ADJ	ADJ	_	8	amod	_	_
-10	em	_	ADP	ADP	_	11	case	_	_
+10	em	em	ADP	ADP	_	11	case	_	_
 11	Itaporã	_	PROPN	PNOUN	_	7	nmod	_	_
 12-13	na	_	_	_	_	_	_	_	_
 12	em	em	ADP	ADP	_	14	case	_	_
 13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	noite	noite	NOUN	NOUN	_	7	nmod	_	_
-15	de	_	ADP	ADP	_	18	case	_	_
+15	de	de	ADP	ADP	_	18	case	_	_
 16	quinta	_	PROPN	PNOUN	_	18	amod	_	_
-17	-	_	PUNCT	.	_	18	punct	_	_
+17	-	-	PUNCT	.	_	18	punct	_	_
 18	feira	_	PROPN	PNOUN	_	14	nmod	_	_
-19	(	_	PUNCT	.	_	20	punct	_	SpaceAfter=No
+19	(	(	PUNCT	.	_	20	punct	_	SpaceAfter=No
 20	21	_	NUM	NUM	NumType=Card	18	nmod	_	SpaceAfter=No
-21	)	_	PUNCT	.	_	20	punct	_	_
+21	)	)	PUNCT	.	_	20	punct	_	_
 22	para	_	ADP	ADP	_	23	mark	_	_
 23	oficializar	oficializar	VERB	VERB	_	7	advcl	_	_
-24	a	_	DET	DET	_	25	det	_	_
+24	a	a	DET	DET	_	25	det	_	_
 25	Coligação	_	PROPN	PNOUN	_	23	obj	_	_
 26	Renovação	_	PROPN	PNOUN	_	25	appos	_	SpaceAfter=No
-27	,	_	PUNCT	.	_	28	punct	_	_
+27	,	,	PUNCT	.	_	28	punct	_	_
 28	Trabalho	_	PROPN	PNOUN	_	26	conj	_	_
-29	e	_	CCONJ	CONJ	_	30	cc	_	_
+29	e	e	CCONJ	CONJ	_	30	cc	_	_
 30	Fé	_	PROPN	PNOUN	_	26	conj	_	SpaceAfter=No
-31	,	_	PUNCT	.	_	32	punct	_	_
+31	,	,	PUNCT	.	_	32	punct	_	_
 32	encabeçada	encabeçar	VERB	VERB	_	25	acl:part	_	_
 33-34	pelo	_	_	_	_	_	_	_	_
 33	por	por	ADP	ADP	_	35	case	_	_
@@ -283,20 +283,20 @@
 37	prefeito	prefeito	NOUN	NOUN	_	35	nmod	_	_
 38	Wallas	_	PROPN	PNOUN	_	35	appos	_	_
 39	Milfont	_	PROPN	PNOUN	_	38	flat	_	_
-40	(	_	PUNCT	.	_	41	punct	_	SpaceAfter=No
+40	(	(	PUNCT	.	_	41	punct	_	SpaceAfter=No
 41	PDT	_	PROPN	PNOUN	_	38	appos	_	SpaceAfter=No
-42	)	_	PUNCT	.	_	41	punct	_	_
-43	e	_	CCONJ	CONJ	_	44	cc	_	_
+42	)	)	PUNCT	.	_	41	punct	_	_
+43	e	e	CCONJ	CONJ	_	44	cc	_	_
 44	Jacinta	_	PROPN	PNOUN	_	38	conj	_	_
 45	Cordeiro	_	PROPN	PNOUN	_	44	flat	_	_
-46	(	_	PUNCT	.	_	47	punct	_	SpaceAfter=No
+46	(	(	PUNCT	.	_	47	punct	_	SpaceAfter=No
 47	PR	_	NOUN	NOUN	_	44	appos	_	SpaceAfter=No
-48	)	_	PUNCT	.	_	47	punct	_	SpaceAfter=No
-49	,	_	PUNCT	.	_	50	punct	_	_
+48	)	)	PUNCT	.	_	47	punct	_	SpaceAfter=No
+49	,	,	PUNCT	.	_	50	punct	_	_
 50	candidata	candidatar	VERB	VERB	_	44	appos	_	_
 51	a	_	ADP	ADP	_	52	case	_	_
 52	vice	_	PART	PRT	_	50	nmod	_	_
-53	-	_	PUNCT	.	_	52	punct	_	_
+53	-	-	PUNCT	.	_	52	punct	_	_
 54	prefeita	prefeito	NOUN	NOUN	_	52	flat	_	SpaceAfter=No
 55	.	_	NUM	NUM	NumType=Card	7	appos	_	_
 

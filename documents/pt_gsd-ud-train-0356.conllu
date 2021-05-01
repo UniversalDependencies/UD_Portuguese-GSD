@@ -1,6 +1,6 @@
 # sent_id = train-s3530
 # text = O São Paulo chegou pela primeira vez ao G - 4 após 30 rodadas do Brasileirão, após somar cinco vitórias e um empate e ganhar 16 dos 18 pontos possíveis.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	São	_	PROPN	PNOUN	_	4	nsubj	_	_
 3	Paulo	_	PROPN	PNOUN	_	2	flat	_	_
 4	chegou	chegar	VERB	VERB	_	0	root	_	_
@@ -13,7 +13,7 @@
 9	a	a	ADP	ADP	_	11	case	_	_
 10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	G	_	PROPN	PNOUN	_	4	nmod	_	_
-12	-	_	PUNCT	.	_	11	punct	_	_
+12	-	-	PUNCT	.	_	11	punct	_	_
 13	4	_	NUM	NUM	NumType=Card	11	appos	_	_
 14	após	_	ADP	ADP	_	16	case	_	_
 15	30	_	NUM	NUM	NumType=Card	16	nummod	_	_
@@ -22,15 +22,15 @@
 17	de	de	ADP	ADP	_	19	case	_	_
 18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	Brasileirão	_	PROPN	PNOUN	_	16	nmod	_	SpaceAfter=No
-20	,	_	PUNCT	.	_	22	punct	_	_
+20	,	,	PUNCT	.	_	22	punct	_	_
 21	após	_	ADP	ADP	_	22	mark	_	_
 22	somar	somar	VERB	VERB	_	4	advcl	_	_
 23	cinco	_	NUM	NUM	NumType=Card	24	nummod	_	_
 24	vitórias	vitória	NOUN	NOUN	_	22	obj	_	_
-25	e	_	CCONJ	CONJ	_	27	cc	_	_
+25	e	e	CCONJ	CONJ	_	27	cc	_	_
 26	um	_	NUM	NUM	NumType=Card	27	nummod	_	_
 27	empate	empate	NOUN	NOUN	_	24	conj	_	_
-28	e	_	CCONJ	CONJ	_	29	cc	_	_
+28	e	e	CCONJ	CONJ	_	29	cc	_	_
 29	ganhar	ganhar	VERB	VERB	_	22	conj	_	_
 30	16	_	NUM	NUM	NumType=Card	29	obj	_	_
 31-32	dos	_	_	_	_	_	_	_	_
@@ -39,36 +39,36 @@
 33	18	_	NUM	NUM	NumType=Card	34	nummod	_	_
 34	pontos	ponto	NOUN	NOUN	_	30	nmod	_	_
 35	possíveis	possível	ADJ	ADJ	_	34	amod	_	SpaceAfter=No
-36	.	_	PUNCT	.	_	4	punct	_	_
+36	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s3531
 # text = O nosso time entrou para jogar futebol, para fazer gols e para ser campeão.
-1	O	_	DET	DET	_	3	det	_	_
+1	O	o	DET	DET	_	3	det	_	_
 2	nosso	_	DET	DET	_	3	det:poss	_	_
 3	time	time	NOUN	NOUN	_	4	nsubj	_	_
 4	entrou	entrar	VERB	VERB	_	0	root	_	_
 5	para	_	ADP	ADP	_	6	mark	_	_
 6	jogar	jogar	VERB	VERB	_	4	advcl	_	_
 7	futebol	futebol	NOUN	NOUN	_	6	obj	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	10	punct	_	_
+8	,	,	PUNCT	.	_	10	punct	_	_
 9	para	_	ADP	ADP	_	10	mark	_	_
 10	fazer	fazer	VERB	VERB	_	6	conj	_	_
 11	gols	gol	NOUN	NOUN	_	10	obj	_	_
-12	e	_	CCONJ	CONJ	_	15	cc	_	_
+12	e	e	CCONJ	CONJ	_	15	cc	_	_
 13	para	_	ADP	ADP	_	15	mark	_	_
 14	ser	ser	AUX	AUX	_	15	cop	_	_
 15	campeão	campeão	NOUN	NOUN	_	6	conj	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	4	punct	_	_
+16	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s3532
 # text = Pretendem, assim, evitar até que colegas sejam presos enquanto estiverem no exercício do cargo.
 1	Pretendem	pretender	VERB	VERB	_	0	root	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	3	punct	_	_
+2	,	,	PUNCT	.	_	3	punct	_	_
 3	assim	assim	ADV	ADV	_	1	advmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
 5	evitar	evitar	VERB	VERB	_	1	xcomp	_	_
 6	até	até	ADV	ADV	_	5	advmod	_	_
-7	que	_	CCONJ	CONJ	_	10	mark	_	_
+7	que	que	CCONJ	CONJ	_	10	mark	_	_
 8	colegas	colega	NOUN	NOUN	_	10	nsubj:pass	_	_
 9	sejam	ser	AUX	AUX	_	10	aux:pass	_	_
 10	presos	prender	VERB	VERB	_	5	ccomp	_	_
@@ -82,13 +82,13 @@
 16	de	de	ADP	ADP	_	18	case	_	_
 17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	cargo	cargo	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	1	punct	_	_
+19	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s3533
 # text = De acordo com informações do portal da Secretaria Nacional Sindical do PCdoB, a Central dos Trabalhadores e Trabalhadoras do Brasil (CTB) já iniciou as discussões de preparação para 3 º Congresso da central.
 1	De	_	ADP	ADP	_	2	case	_	_
 2	acordo	acordo	NOUN	NOUN	_	31	nmod	_	_
-3	com	_	ADP	ADP	_	4	case	_	_
+3	com	com	ADP	ADP	_	4	case	_	_
 4	informações	informação	NOUN	NOUN	_	2	nmod	_	_
 5-6	do	_	_	_	_	_	_	_	_
 5	de	de	ADP	ADP	_	7	case	_	_
@@ -104,29 +104,29 @@
 13	de	de	ADP	ADP	_	15	case	_	_
 14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	PCdoB	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	2	punct	_	_
-17	a	_	DET	DET	_	18	det	_	_
+16	,	,	PUNCT	.	_	2	punct	_	_
+17	a	a	DET	DET	_	18	det	_	_
 18	Central	_	PROPN	PNOUN	_	31	nsubj	_	_
 19-20	dos	_	_	_	_	_	_	_	_
 19	de	de	ADP	ADP	_	21	case	_	_
 20	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
 21	Trabalhadores	_	PROPN	PNOUN	_	18	nmod	_	_
-22	e	_	CCONJ	CONJ	_	23	cc	_	_
+22	e	e	CCONJ	CONJ	_	23	cc	_	_
 23	Trabalhadoras	_	PROPN	PNOUN	_	21	conj	_	_
 24-25	do	_	_	_	_	_	_	_	_
 24	de	de	ADP	ADP	_	26	case	_	_
 25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	Brasil	_	PROPN	PNOUN	_	21	nmod	_	_
-27	(	_	PUNCT	.	_	28	punct	_	SpaceAfter=No
+27	(	(	PUNCT	.	_	28	punct	_	SpaceAfter=No
 28	CTB	_	PROPN	PNOUN	_	18	appos	_	SpaceAfter=No
-29	)	_	PUNCT	.	_	28	punct	_	_
+29	)	)	PUNCT	.	_	28	punct	_	_
 30	já	já	ADV	ADV	_	31	advmod	_	_
 31	iniciou	iniciar	VERB	VERB	_	0	root	_	_
-32	as	_	DET	DET	_	33	det	_	_
+32	as	o	DET	DET	_	33	det	_	_
 33	discussões	discussão	NOUN	NOUN	_	31	obj	_	_
-34	de	_	ADP	ADP	_	35	case	_	_
+34	de	de	ADP	ADP	_	35	case	_	_
 35	preparação	preparação	NOUN	NOUN	_	33	nmod	_	_
-36	para	_	ADP	ADP	_	39	case	_	_
+36	para	para	ADP	ADP	_	39	case	_	_
 37	3	_	ADJ	ADJ	_	39	amod	_	_
 38	º	_	PUNCT	.	_	37	punct	_	_
 39	Congresso	_	PROPN	PNOUN	_	35	nmod	_	_
@@ -134,30 +134,30 @@
 40	de	de	ADP	ADP	_	42	case	_	_
 41	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
 42	central	central	NOUN	NOUN	_	39	nmod	_	SpaceAfter=No
-43	.	_	PUNCT	.	_	31	punct	_	_
+43	.	.	PUNCT	.	_	31	punct	_	_
 
 # sent_id = train-s3534
 # text = Em maio, empresa inaugurou uma nova linha de decapagem de metais na unidade de São Bernardo.
-1	Em	_	ADP	ADP	_	2	case	_	_
+1	Em	em	ADP	ADP	_	2	case	_	_
 2	maio	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	2	punct	_	_
+3	,	,	PUNCT	.	_	2	punct	_	_
 4	empresa	empresa	NOUN	NOUN	_	5	nsubj	_	_
 5	inaugurou	inaugurar	VERB	VERB	_	0	root	_	_
-6	uma	_	DET	DET	_	8	det	_	_
+6	uma	um	DET	DET	_	8	det	_	_
 7	nova	novo	ADJ	ADJ	_	8	amod	_	_
 8	linha	_	NOUN	NOUN	_	5	obj	_	_
-9	de	_	ADP	ADP	_	10	case	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
 10	decapagem	decapagem	NOUN	NOUN	_	8	nmod	_	_
-11	de	_	ADP	ADP	_	12	case	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
 12	metais	_	NOUN	NOUN	_	10	nmod	_	_
 13-14	na	_	_	_	_	_	_	_	_
 13	em	em	ADP	ADP	_	15	case	_	_
 14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	unidade	unidade	NOUN	NOUN	_	5	nmod	_	_
-16	de	_	ADP	ADP	_	17	case	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
 17	São	_	PROPN	PNOUN	_	15	nmod	_	_
 18	Bernardo	_	PROPN	PNOUN	_	17	flat	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	5	punct	_	_
+19	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s3535
 # text = Eles medem entre 2,88 a 3,85 metros e não existe qualquer limitação quanto a dimensão e a forma de pás.
@@ -168,7 +168,7 @@
 5	a	_	ADP	ADP	_	7	case	_	_
 6	3,85	_	NUM	NUM	NumType=Card	7	nummod	_	_
 7	metros	metro	NOUN	NOUN	_	2	nmod	_	_
-8	e	_	CCONJ	CONJ	_	10	cc	_	_
+8	e	e	CCONJ	CONJ	_	10	cc	_	_
 9	não	não	ADV	ADV	Polarity=Neg	10	advmod	_	_
 10	existe	existir	VERB	VERB	_	2	conj	_	_
 11	qualquer	_	DET	DET	_	12	det	_	_
@@ -179,54 +179,54 @@
 16	e	e	CCONJ	CONJ	_	18	cc	_	_
 17	a	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	forma	forma	NOUN	NOUN	_	15	conj	_	_
-19	de	_	ADP	ADP	_	20	case	_	_
+19	de	de	ADP	ADP	_	20	case	_	_
 20	pás	pá	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
-21	.	_	PUNCT	.	_	2	punct	_	_
+21	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s3536
 # text = Não cabendo este, não cabe aquele.
 1	Não	não	ADV	ADV	Polarity=Neg	2	advmod	_	_
 2	cabendo	caber	VERB	VERB	_	6	acl:part	_	_
 3	este	_	PRON	PRON	_	2	nsubj	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	2	punct	_	_
+4	,	,	PUNCT	.	_	2	punct	_	_
 5	não	não	ADV	ADV	Polarity=Neg	6	advmod	_	_
 6	cabe	caber	VERB	VERB	_	0	root	_	_
 7	aquele	_	PRON	PRON	_	6	nsubj	_	SpaceAfter=No
-8	.	_	PUNCT	.	_	6	punct	_	_
+8	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s3537
 # text = "Houve certa resistência por parte dos bancos oficiais, mas ao final conseguimos a aprovação, o que mostra que a empresa tem solução", disse Santos à Agência Estado.
-1	"	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
 2	Houve	haver	VERB	VERB	_	30	ccomp	_	_
 3	certa	_	DET	DET	_	4	det	_	_
 4	resistência	resistência	NOUN	NOUN	_	2	obj	_	_
-5	por	_	ADP	ADP	_	6	case	_	_
+5	por	por	ADP	ADP	_	6	case	_	_
 6	parte	parte	NOUN	NOUN	_	2	nmod	_	_
 7-8	dos	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
 8	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
 9	bancos	banco	NOUN	NOUN	_	6	nmod	_	_
 10	oficiais	oficial	ADJ	ADJ	_	9	amod	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	16	punct	_	_
+11	,	,	PUNCT	.	_	16	punct	_	_
 12	mas	_	CCONJ	CONJ	_	16	cc	_	_
 13-14	ao	_	_	_	_	_	_	_	_
 13	a	a	ADP	ADP	_	15	case	_	_
 14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	final	final	NOUN	NOUN	_	16	nmod	_	_
 16	conseguimos	conseguir	VERB	VERB	_	2	conj	_	_
-17	a	_	DET	DET	_	18	det	_	_
+17	a	a	DET	DET	_	18	det	_	_
 18	aprovação	aprovação	NOUN	NOUN	_	16	obj	_	SpaceAfter=No
-19	,	_	PUNCT	.	_	22	punct	_	_
-20	o	_	DET	DET	_	21	det	_	_
+19	,	,	PUNCT	.	_	22	punct	_	_
+20	o	o	DET	DET	_	21	det	_	_
 21	que	_	PRON	PRON	_	22	nsubj	_	_
 22	mostra	mostrar	VERB	VERB	_	16	acl:relcl	_	_
-23	que	_	CCONJ	CONJ	_	26	mark	_	_
-24	a	_	DET	DET	_	25	det	_	_
+23	que	que	CCONJ	CONJ	_	26	mark	_	_
+24	a	a	DET	DET	_	25	det	_	_
 25	empresa	empresa	NOUN	NOUN	_	26	nsubj	_	_
 26	tem	ter	VERB	VERB	_	22	ccomp	_	_
 27	solução	solução	NOUN	NOUN	_	26	obj	_	SpaceAfter=No
-28	"	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
-29	,	_	PUNCT	.	_	30	punct	_	_
+28	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
+29	,	,	PUNCT	.	_	30	punct	_	_
 30	disse	dizer	VERB	VERB	_	0	root	_	_
 31	Santos	_	PROPN	PNOUN	_	30	nsubj	_	_
 32-33	à	_	_	_	_	_	_	_	_
@@ -234,7 +234,7 @@
 33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	Agência	_	PROPN	PNOUN	_	30	iobj	_	_
 35	Estado	_	PROPN	PNOUN	_	34	flat	_	SpaceAfter=No
-36	.	_	PUNCT	.	_	30	punct	_	_
+36	.	.	PUNCT	.	_	30	punct	_	_
 
 # sent_id = train-s3538
 # text = Para aqueles que leram as histórias do herói até alguns anos atrás, é estranho ver o nome sendo utilizado, ao contrário da tradução à língua portuguesa, Super - Homem.
@@ -242,7 +242,7 @@
 2	aqueles	_	PRON	PRON	_	15	nmod	_	_
 3	que	_	PRON	PRON	_	4	nsubj	_	_
 4	leram	ler	VERB	VERB	_	2	acl:relcl	_	_
-5	as	_	DET	DET	_	6	det	_	_
+5	as	o	DET	DET	_	6	det	_	_
 6	histórias	história	NOUN	NOUN	_	4	obj	_	_
 7-8	do	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
@@ -252,15 +252,15 @@
 11	alguns	_	DET	DET	_	12	det	_	_
 12	anos	ano	NOUN	NOUN	_	4	nmod	_	_
 13	atrás	atrás	ADV	ADV	_	12	advmod	_	SpaceAfter=No
-14	,	_	PUNCT	.	_	2	punct	_	_
+14	,	,	PUNCT	.	_	2	punct	_	_
 15	é	ser	VERB	VERB	_	0	root	_	_
 16	estranho	estranho	ADJ	ADJ	_	15	xcomp:adj	_	_
 17	ver	ver	VERB	VERB	_	15	csubj	_	_
-18	o	_	DET	DET	_	19	det	_	_
+18	o	o	DET	DET	_	19	det	_	_
 19	nome	nome	NOUN	NOUN	_	17	obj	_	_
 20	sendo	ser	AUX	AUX	_	21	aux:pass	_	_
 21	utilizado	utilizar	VERB	VERB	_	19	acl:part	_	SpaceAfter=No
-22	,	_	PUNCT	.	_	25	punct	_	_
+22	,	,	PUNCT	.	_	25	punct	_	_
 23-24	ao	_	_	_	_	_	_	_	_
 23	a	a	ADP	ADP	_	25	case	_	_
 24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
@@ -274,11 +274,11 @@
 30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	língua	língua	NOUN	NOUN	_	28	nmod	_	_
 32	portuguesa	português	ADJ	ADJ	_	31	amod	_	SpaceAfter=No
-33	,	_	PUNCT	.	_	36	punct	_	_
+33	,	,	PUNCT	.	_	36	punct	_	_
 34	Super	_	PROPN	PNOUN	_	36	amod	_	_
-35	-	_	PUNCT	.	_	36	punct	_	_
+35	-	-	PUNCT	.	_	36	punct	_	_
 36	Homem	_	PROPN	PNOUN	_	28	appos	_	SpaceAfter=No
-37	.	_	PUNCT	.	_	15	punct	_	_
+37	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = train-s3539
 # text = Não tem como escolher qual passageiro pegar.
@@ -289,5 +289,5 @@
 5	qual	_	DET	DET	_	6	det	_	_
 6	passageiro	passageiro	NOUN	NOUN	_	7	nsubj	_	_
 7	pegar	pegar	VERB	VERB	_	4	ccomp	_	SpaceAfter=No
-8	.	_	PUNCT	.	_	2	punct	_	_
+8	.	.	PUNCT	.	_	2	punct	_	_
 

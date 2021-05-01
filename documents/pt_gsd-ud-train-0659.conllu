@@ -6,16 +6,16 @@
 3	última	último	ADJ	ADJ	_	4	amod	_	_
 4	semana	semana	NOUN	NOUN	_	5	nmod	_	_
 5	inaugurou	inaugurar	VERB	VERB	_	0	root	_	_
-6	o	_	DET	DET	_	7	det	_	_
+6	o	o	DET	DET	_	7	det	_	_
 7	restaurante	restaurante	NOUN	NOUN	_	5	obj	_	_
 8	II	_	PROPN	PNOUN	_	9	det	_	_
 9	Tartufo	_	PROPN	PNOUN	_	7	appos	_	_
-10	(	_	PUNCT	.	_	11	punct	_	SpaceAfter=No
+10	(	(	PUNCT	.	_	11	punct	_	SpaceAfter=No
 11	trufa	trufa	NOUN	NOUN	_	9	appos	_	_
-12	em	_	ADP	ADP	_	13	case	_	_
+12	em	em	ADP	ADP	_	13	case	_	_
 13	italiano	italiano	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
-14	)	_	PUNCT	.	_	11	punct	_	SpaceAfter=No
-15	.	_	PUNCT	.	_	5	punct	_	_
+14	)	)	PUNCT	.	_	11	punct	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s6543
 # text = Na noite de ontem, durante inauguração de mais um comitê da candidata governista ao Palácio da Ceramica, Regina Maura (PTB), no bairro Barcelona, o prefeito José Auricchio Jr.
@@ -25,10 +25,10 @@
 3	noite	noite	NOUN	NOUN	_	36	nmod	_	_
 4	de	_	ADP	ADP	_	5	mark	_	_
 5	ontem	ontem	ADV	ADV	_	3	nmod	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	3	punct	_	_
+6	,	,	PUNCT	.	_	3	punct	_	_
 7	durante	_	ADP	ADP	_	8	case	_	_
 8	inauguração	inauguração	NOUN	NOUN	_	36	nmod	_	_
-9	de	_	ADP	ADP	_	12	case	_	_
+9	de	de	ADP	ADP	_	12	case	_	_
 10	mais	mais	ADV	ADV	_	11	advmod	_	_
 11	um	_	NUM	NUM	NumType=Card	12	nummod	_	_
 12	comitê	comitê	NOUN	NOUN	_	8	nmod	_	_
@@ -45,36 +45,36 @@
 20	de	de	ADP	ADP	_	22	case	_	_
 21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	Ceramica	_	PROPN	PNOUN	_	19	nmod	_	SpaceAfter=No
-23	,	_	PUNCT	.	_	24	punct	_	_
+23	,	,	PUNCT	.	_	24	punct	_	_
 24	Regina	_	PROPN	PNOUN	_	15	appos	_	_
 25	Maura	_	PROPN	PNOUN	_	24	flat	_	_
-26	(	_	PUNCT	.	_	27	punct	_	SpaceAfter=No
+26	(	(	PUNCT	.	_	27	punct	_	SpaceAfter=No
 27	PTB	_	PROPN	PNOUN	_	24	appos	_	SpaceAfter=No
-28	)	_	PUNCT	.	_	27	punct	_	SpaceAfter=No
-29	,	_	PUNCT	.	_	24	punct	_	_
+28	)	)	PUNCT	.	_	27	punct	_	SpaceAfter=No
+29	,	,	PUNCT	.	_	24	punct	_	_
 30-31	no	_	_	_	_	_	_	_	_
 30	em	em	ADP	ADP	_	32	case	_	_
 31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	bairro	bairro	NOUN	NOUN	_	12	nmod	_	_
 33	Barcelona	_	PROPN	PNOUN	_	32	appos	_	SpaceAfter=No
-34	,	_	PUNCT	.	_	32	punct	_	_
-35	o	_	DET	DET	_	36	det	_	_
+34	,	,	PUNCT	.	_	32	punct	_	_
+35	o	o	DET	DET	_	36	det	_	_
 36	prefeito	prefeito	NOUN	NOUN	_	0	root	_	_
 37	José	_	PROPN	PNOUN	_	36	appos	_	_
 38	Auricchio	_	PROPN	PNOUN	_	37	flat	_	_
 39	Jr	_	PROPN	PNOUN	_	37	flat	_	SpaceAfter=No
-40	.	_	PUNCT	.	_	36	punct	_	_
+40	.	.	PUNCT	.	_	36	punct	_	_
 
 # sent_id = train-s6544
 # text = O ministério diz ainda que a prefeitura de Altamira encaminhou ao órgão compromissos que não foram atendidos pela concessionária, como ações de cooperação nas áreas de abastecimento de água, esgotamento sanitário, aterro sanitário, remediação do lixão, drenagem urbana, requalificação urbana, habitação e treinamento de mão de obra local.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	ministério	ministério	NOUN	NOUN	_	3	nsubj	_	_
 3	diz	dizer	VERB	VERB	_	0	root	_	_
 4	ainda	ainda	ADV	ADV	_	3	advmod	_	_
-5	que	_	CCONJ	CONJ	_	10	mark	_	_
-6	a	_	DET	DET	_	7	det	_	_
+5	que	que	CCONJ	CONJ	_	10	mark	_	_
+6	a	a	DET	DET	_	7	det	_	_
 7	prefeitura	prefeitura	NOUN	NOUN	_	10	nsubj	_	_
-8	de	_	ADP	ADP	_	9	case	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
 9	Altamira	_	PROPN	PNOUN	_	7	nmod	_	_
 10	encaminhou	encaminhar	VERB	VERB	_	3	ccomp	_	_
 11-12	ao	_	_	_	_	_	_	_	_
@@ -90,63 +90,63 @@
 19	por	por	ADP	ADP	_	21	case	_	_
 20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	concessionária	concessionário	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
-22	,	_	PUNCT	.	_	24	punct	_	_
-23	como	_	ADP	ADP	_	24	case	_	_
+22	,	,	PUNCT	.	_	24	punct	_	_
+23	como	como	ADP	ADP	_	24	case	_	_
 24	ações	ação	NOUN	NOUN	_	14	nmod	_	_
-25	de	_	ADP	ADP	_	26	case	_	_
+25	de	de	ADP	ADP	_	26	case	_	_
 26	cooperação	cooperação	NOUN	NOUN	_	24	nmod	_	_
 27-28	nas	_	_	_	_	_	_	_	_
 27	em	em	ADP	ADP	_	29	case	_	_
 28	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
 29	áreas	área	NOUN	NOUN	_	24	nmod	_	_
-30	de	_	ADP	ADP	_	31	case	_	_
+30	de	de	ADP	ADP	_	31	case	_	_
 31	abastecimento	abastecimento	NOUN	NOUN	_	29	nmod	_	_
-32	de	_	ADP	ADP	_	33	case	_	_
+32	de	de	ADP	ADP	_	33	case	_	_
 33	água	água	NOUN	NOUN	_	31	nmod	_	SpaceAfter=No
-34	,	_	PUNCT	.	_	35	punct	_	_
+34	,	,	PUNCT	.	_	35	punct	_	_
 35	esgotamento	esgotamento	NOUN	NOUN	_	31	conj	_	_
 36	sanitário	sanitário	ADJ	ADJ	_	35	amod	_	SpaceAfter=No
-37	,	_	PUNCT	.	_	38	punct	_	_
+37	,	,	PUNCT	.	_	38	punct	_	_
 38	aterro	aterro	NOUN	NOUN	_	31	conj	_	_
 39	sanitário	sanitário	ADJ	ADJ	_	38	amod	_	SpaceAfter=No
-40	,	_	PUNCT	.	_	41	punct	_	_
+40	,	,	PUNCT	.	_	41	punct	_	_
 41	remediação	_	NOUN	NOUN	_	31	conj	_	_
 42-43	do	_	_	_	_	_	_	_	_
 42	de	de	ADP	ADP	_	44	case	_	_
 43	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
 44	lixão	lixo	NOUN	NOUN	_	41	nmod	_	SpaceAfter=No
-45	,	_	PUNCT	.	_	46	punct	_	_
+45	,	,	PUNCT	.	_	46	punct	_	_
 46	drenagem	drenagem	NOUN	NOUN	_	31	conj	_	_
 47	urbana	urbano	ADJ	ADJ	_	46	amod	_	SpaceAfter=No
-48	,	_	PUNCT	.	_	49	punct	_	_
+48	,	,	PUNCT	.	_	49	punct	_	_
 49	requalificação	requalificação	NOUN	NOUN	_	31	conj	_	_
 50	urbana	urbano	ADJ	ADJ	_	49	amod	_	SpaceAfter=No
-51	,	_	PUNCT	.	_	52	punct	_	_
+51	,	,	PUNCT	.	_	52	punct	_	_
 52	habitação	habitação	NOUN	NOUN	_	31	conj	_	_
-53	e	_	CCONJ	CONJ	_	54	cc	_	_
+53	e	e	CCONJ	CONJ	_	54	cc	_	_
 54	treinamento	treinamento	NOUN	NOUN	_	52	conj	_	_
-55	de	_	ADP	ADP	_	56	case	_	_
+55	de	de	ADP	ADP	_	56	case	_	_
 56	mão	mão	NOUN	NOUN	_	54	nmod	_	_
-57	de	_	ADP	ADP	_	58	case	_	_
+57	de	de	ADP	ADP	_	58	case	_	_
 58	obra	obra	NOUN	NOUN	_	56	nmod	_	_
 59	local	local	ADJ	ADJ	_	56	amod	_	SpaceAfter=No
-60	.	_	PUNCT	.	_	3	punct	_	_
+60	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s6545
 # text = "O resultado da Peic em agosto ainda mostra que a redução do Imposto sobre Produtos Industrializados (IPI) para os setores de linha branca, carros, móveis, materiais de construção, somado à redução das taxas de juros, continuam impulsionando o consumo das famílias paulistanas", diz.
-1	"	_	PUNCT	.	_	10	punct	_	SpaceAfter=No
-2	O	_	DET	DET	_	3	det	_	_
+1	"	"	PUNCT	.	_	10	punct	_	SpaceAfter=No
+2	O	o	DET	DET	_	3	det	_	_
 3	resultado	resultado	NOUN	NOUN	_	10	nsubj	_	_
 4-5	da	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
 5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Peic	_	PROPN	PNOUN	_	3	nmod	_	_
-7	em	_	ADP	ADP	_	8	case	_	_
+7	em	em	ADP	ADP	_	8	case	_	_
 8	agosto	_	PROPN	PNOUN	_	3	nmod	_	_
 9	ainda	ainda	ADV	ADV	_	10	advmod	_	_
 10	mostra	mostrar	VERB	VERB	_	58	ccomp	_	_
-11	que	_	CCONJ	CONJ	_	49	mark	_	_
-12	a	_	DET	DET	_	13	det	_	_
+11	que	que	CCONJ	CONJ	_	49	mark	_	_
+12	a	a	DET	DET	_	13	det	_	_
 13	redução	redução	NOUN	NOUN	_	49	nsubj	_	_
 14-15	do	_	_	_	_	_	_	_	_
 14	de	de	ADP	ADP	_	16	case	_	_
@@ -155,24 +155,24 @@
 17	sobre	_	ADP	ADP	_	18	case	_	_
 18	Produtos	_	PROPN	PNOUN	_	16	nmod	_	_
 19	Industrializados	_	PROPN	PNOUN	_	18	amod	_	_
-20	(	_	PUNCT	.	_	21	punct	_	SpaceAfter=No
+20	(	(	PUNCT	.	_	21	punct	_	SpaceAfter=No
 21	IPI	_	PROPN	PNOUN	_	16	appos	_	SpaceAfter=No
-22	)	_	PUNCT	.	_	21	punct	_	_
-23	para	_	ADP	ADP	_	25	case	_	_
-24	os	_	DET	DET	_	25	det	_	_
+22	)	)	PUNCT	.	_	21	punct	_	_
+23	para	para	ADP	ADP	_	25	case	_	_
+24	os	o	DET	DET	_	25	det	_	_
 25	setores	setor	NOUN	NOUN	_	13	nmod	_	_
-26	de	_	ADP	ADP	_	27	case	_	_
+26	de	de	ADP	ADP	_	27	case	_	_
 27	linha	_	NOUN	NOUN	_	25	nmod	_	_
 28	branca	branco	ADJ	ADJ	_	27	amod	_	SpaceAfter=No
-29	,	_	PUNCT	.	_	30	punct	_	_
+29	,	,	PUNCT	.	_	30	punct	_	_
 30	carros	carro	NOUN	NOUN	_	25	conj	_	SpaceAfter=No
-31	,	_	PUNCT	.	_	32	punct	_	_
+31	,	,	PUNCT	.	_	32	punct	_	_
 32	móveis	_	NOUN	NOUN	_	25	conj	_	SpaceAfter=No
-33	,	_	PUNCT	.	_	34	punct	_	_
+33	,	,	PUNCT	.	_	34	punct	_	_
 34	materiais	material	NOUN	NOUN	_	25	conj	_	_
-35	de	_	ADP	ADP	_	36	case	_	_
+35	de	de	ADP	ADP	_	36	case	_	_
 36	construção	construção	NOUN	NOUN	_	34	nmod	_	SpaceAfter=No
-37	,	_	PUNCT	.	_	38	punct	_	_
+37	,	,	PUNCT	.	_	38	punct	_	_
 38	somado	somar	VERB	VERB	_	13	acl:part	_	_
 39-40	à	_	_	_	_	_	_	_	_
 39	a	a	ADP	ADP	_	41	case	_	_
@@ -182,22 +182,22 @@
 42	de	de	ADP	ADP	_	44	case	_	_
 43	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	44	det	_	_
 44	taxas	taxa	NOUN	NOUN	_	41	nmod	_	_
-45	de	_	ADP	ADP	_	46	case	_	_
+45	de	de	ADP	ADP	_	46	case	_	_
 46	juros	juro	NOUN	NOUN	_	44	nmod	_	SpaceAfter=No
-47	,	_	PUNCT	.	_	38	punct	_	_
+47	,	,	PUNCT	.	_	38	punct	_	_
 48	continuam	continuar	AUX	AUX	_	49	aux	_	_
 49	impulsionando	impulsionar	VERB	VERB	_	10	ccomp	_	_
-50	o	_	DET	DET	_	51	det	_	_
+50	o	o	DET	DET	_	51	det	_	_
 51	consumo	consumo	NOUN	NOUN	_	49	obj	_	_
 52-53	das	_	_	_	_	_	_	_	_
 52	de	de	ADP	ADP	_	54	case	_	_
 53	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	54	det	_	_
 54	famílias	família	NOUN	NOUN	_	51	nmod	_	_
 55	paulistanas	paulistano	ADJ	ADJ	_	54	amod	_	SpaceAfter=No
-56	"	_	PUNCT	.	_	10	punct	_	SpaceAfter=No
-57	,	_	PUNCT	.	_	58	punct	_	_
+56	"	"	PUNCT	.	_	10	punct	_	SpaceAfter=No
+57	,	,	PUNCT	.	_	58	punct	_	_
 58	diz	dizer	VERB	VERB	_	0	root	_	SpaceAfter=No
-59	.	_	PUNCT	.	_	58	punct	_	_
+59	.	.	PUNCT	.	_	58	punct	_	_
 
 # sent_id = train-s6546
 # text = Thierry da Alsácia ou Teodorico da Alsácia (c. 1110 -- 17 de janeiro de 1168) foi conde de Flandres de 1128 a 1168.
@@ -206,72 +206,72 @@
 2	de	de	ADP	ADP	_	4	case	_	_
 3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Alsácia	_	PROPN	PNOUN	_	1	nmod	_	_
-5	ou	_	CCONJ	CONJ	_	6	cc	_	_
+5	ou	ou	CCONJ	CONJ	_	6	cc	_	_
 6	Teodorico	_	PROPN	PNOUN	_	1	conj	_	_
 7-8	da	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
 8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Alsácia	_	PROPN	PNOUN	_	6	nmod	_	_
-10	(	_	PUNCT	.	_	12	punct	_	SpaceAfter=No
+10	(	(	PUNCT	.	_	12	punct	_	SpaceAfter=No
 11	c.	_	NOUN	NOUN	_	12	dep	_	_
 12	1110	_	NUM	NUM	NumType=Card	1	nmod	_	_
 13	--	_	PUNCT	.	_	12	punct	_	_
 14	17	_	NUM	NUM	NumType=Card	12	dep	_	_
-15	de	_	ADP	ADP	_	16	case	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
 16	janeiro	_	PROPN	PNOUN	_	14	nmod	_	_
-17	de	_	ADP	ADP	_	18	case	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
 18	1168	_	NUM	NUM	NumType=Card	16	nmod	_	SpaceAfter=No
-19	)	_	PUNCT	.	_	12	punct	_	_
+19	)	)	PUNCT	.	_	12	punct	_	_
 20	foi	_	AUX	AUX	_	21	cop	_	_
 21	conde	conde	NOUN	NOUN	_	0	root	_	_
-22	de	_	ADP	ADP	_	23	case	_	_
+22	de	de	ADP	ADP	_	23	case	_	_
 23	Flandres	_	PROPN	PNOUN	_	21	nmod	_	_
-24	de	_	ADP	ADP	_	25	case	_	_
+24	de	de	ADP	ADP	_	25	case	_	_
 25	1128	_	NUM	NUM	NumType=Card	21	nmod	_	_
 26	a	_	ADP	ADP	_	27	case	_	_
 27	1168	_	NUM	NUM	NumType=Card	25	nmod	_	SpaceAfter=No
-28	.	_	PUNCT	.	_	21	punct	_	_
+28	.	.	PUNCT	.	_	21	punct	_	_
 
 # sent_id = train-s6547
 # text = Segundo ele, a posição de Assad não encerrará o "sofrimento terrível" do povo.
 1	Segundo	_	ADP	ADP	_	2	case	_	_
 2	ele	_	PRON	PRON	_	9	nmod	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	2	punct	_	_
-4	a	_	DET	DET	_	5	det	_	_
+3	,	,	PUNCT	.	_	2	punct	_	_
+4	a	a	DET	DET	_	5	det	_	_
 5	posição	posição	NOUN	NOUN	_	9	nsubj	_	_
-6	de	_	ADP	ADP	_	7	case	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
 7	Assad	_	PROPN	PNOUN	_	5	nmod	_	_
 8	não	não	ADV	ADV	Polarity=Neg	9	advmod	_	_
 9	encerrará	encerrar	VERB	VERB	_	0	root	_	_
-10	o	_	DET	DET	_	12	det	_	_
-11	"	_	PUNCT	.	_	12	punct	_	SpaceAfter=No
+10	o	o	DET	DET	_	12	det	_	_
+11	"	"	PUNCT	.	_	12	punct	_	SpaceAfter=No
 12	sofrimento	sofrimento	NOUN	NOUN	_	9	obj	_	_
 13	terrível	terrível	ADJ	ADJ	_	12	amod	_	SpaceAfter=No
-14	"	_	PUNCT	.	_	12	punct	_	_
+14	"	"	PUNCT	.	_	12	punct	_	_
 15-16	do	_	_	_	_	_	_	_	_
 15	de	de	ADP	ADP	_	17	case	_	_
 16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	povo	povo	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
-18	.	_	PUNCT	.	_	9	punct	_	_
+18	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s6548
 # text = É casado com Amália Borges de Andrada e tem 8 filhos.
 1	É	ser	AUX	AUX	_	2	aux:pass	_	_
 2	casado	casar	VERB	VERB	_	0	root	_	_
-3	com	_	ADP	ADP	_	4	case	_	_
+3	com	com	ADP	ADP	_	4	case	_	_
 4	Amália	_	PROPN	PNOUN	_	2	nmod	_	_
 5	Borges	_	PROPN	PNOUN	_	4	flat	_	_
-6	de	_	ADP	ADP	_	7	case	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
 7	Andrada	_	PROPN	PNOUN	_	4	nmod	_	_
-8	e	_	CCONJ	CONJ	_	9	cc	_	_
+8	e	e	CCONJ	CONJ	_	9	cc	_	_
 9	tem	ter	VERB	VERB	_	2	conj	_	_
 10	8	_	NUM	NUM	NumType=Card	11	nummod	_	_
 11	filhos	filho	NOUN	NOUN	_	9	obj	_	SpaceAfter=No
-12	.	_	PUNCT	.	_	2	punct	_	_
+12	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s6549
 # text = O motivo da indignação do mandatário foi a maneira como a equipe do Morumbi estaria conduzindo a negociação com o meia alvinegro Paulo Henrique Ganso.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	motivo	motivo	NOUN	NOUN	_	11	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -282,10 +282,10 @@
 7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	mandatário	mandatário	NOUN	NOUN	_	5	nmod	_	_
 9	foi	_	AUX	AUX	_	11	cop	_	_
-10	a	_	DET	DET	_	11	det	_	_
+10	a	a	DET	DET	_	11	det	_	_
 11	maneira	maneira	NOUN	NOUN	_	0	root	_	_
 12	como	como	ADV	ADV	_	19	advmod	_	_
-13	a	_	DET	DET	_	14	det	_	_
+13	a	a	DET	DET	_	14	det	_	_
 14	equipe	equipe	NOUN	NOUN	_	19	nsubj	_	_
 15-16	do	_	_	_	_	_	_	_	_
 15	de	de	ADP	ADP	_	17	case	_	_
@@ -293,20 +293,20 @@
 17	Morumbi	_	PROPN	PNOUN	_	14	nmod	_	_
 18	estaria	estar	AUX	AUX	_	19	aux	_	_
 19	conduzindo	conduzir	VERB	VERB	_	11	acl:relcl	_	_
-20	a	_	DET	DET	_	21	det	_	_
+20	a	a	DET	DET	_	21	det	_	_
 21	negociação	negociação	NOUN	NOUN	_	19	obj	_	_
-22	com	_	ADP	ADP	_	24	case	_	_
-23	o	_	DET	DET	_	24	det	_	_
+22	com	com	ADP	ADP	_	24	case	_	_
+23	o	o	DET	DET	_	24	det	_	_
 24	meia	_	NOUN	NOUN	_	21	nmod	_	_
 25	alvinegro	alvinegro	ADJ	ADJ	_	24	amod	_	_
 26	Paulo	_	PROPN	PNOUN	_	24	appos	_	_
 27	Henrique	_	PROPN	PNOUN	_	26	flat	_	_
 28	Ganso	_	PROPN	PNOUN	_	26	flat	_	SpaceAfter=No
-29	.	_	PUNCT	.	_	11	punct	_	_
+29	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s6550
 # text = A paralisação também interrompeu pelo menos 100 investigações de grande porte no estado.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	paralisação	paralisação	NOUN	NOUN	_	4	nsubj	_	_
 3	também	também	ADV	ADV	_	4	advmod	_	_
 4	interrompeu	interromper	VERB	VERB	_	0	root	_	_
@@ -316,21 +316,21 @@
 7	menos	menos	ADV	ADV	_	8	advmod	_	_
 8	100	_	NUM	NUM	NumType=Card	9	nummod	_	_
 9	investigações	investigação	NOUN	NOUN	_	4	obj	_	_
-10	de	_	ADP	ADP	_	12	case	_	_
+10	de	de	ADP	ADP	_	12	case	_	_
 11	grande	grande	ADJ	ADJ	_	12	amod	_	_
 12	porte	porte	NOUN	NOUN	_	9	nmod	_	_
 13-14	no	_	_	_	_	_	_	_	_
 13	em	em	ADP	ADP	_	15	case	_	_
 14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	estado	estado	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	4	punct	_	_
+16	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s6551
 # text = Verbandsgemeinde Wöllstein é uma associação municipal do estado da Renânia - Palatinado.
 1	Verbandsgemeinde	_	PROPN	PNOUN	_	5	nsubj	_	_
 2	Wöllstein	_	PROPN	PNOUN	_	1	flat	_	_
 3	é	ser	AUX	AUX	_	5	cop	_	_
-4	uma	_	DET	DET	_	5	det	_	_
+4	uma	um	DET	DET	_	5	det	_	_
 5	associação	associação	NOUN	NOUN	_	0	root	_	_
 6	municipal	municipal	ADJ	ADJ	_	5	amod	_	_
 7-8	do	_	_	_	_	_	_	_	_
@@ -341,7 +341,7 @@
 10	de	de	ADP	ADP	_	12	case	_	_
 11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	Renânia	_	PROPN	PNOUN	_	9	nmod	_	_
-13	-	_	PUNCT	.	_	12	punct	_	_
+13	-	-	PUNCT	.	_	12	punct	_	_
 14	Palatinado	_	PROPN	PNOUN	_	12	flat	_	SpaceAfter=No
-15	.	_	PUNCT	.	_	5	punct	_	_
+15	.	.	PUNCT	.	_	5	punct	_	_
 

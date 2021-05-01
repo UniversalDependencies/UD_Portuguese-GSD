@@ -1,8 +1,8 @@
 # sent_id = test-s1065
 # text = Assim, os dois candidatos mais votados se enfrentam numa nova disputa.
 1	Assim	assim	ADV	ADV	_	9	advmod	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	1	punct	_	_
-3	os	_	DET	DET	_	5	det	_	_
+2	,	,	PUNCT	.	_	1	punct	_	_
+3	os	o	DET	DET	_	5	det	_	_
 4	dois	_	NUM	NUM	NumType=Card	5	nummod	_	_
 5	candidatos	candidato	NOUN	NOUN	_	9	nsubj	_	_
 6	mais	mais	ADV	ADV	_	7	advmod	_	_
@@ -10,15 +10,15 @@
 8	se	_	PRON	PRON	_	9	obj	_	_
 9	enfrentam	enfrentar	VERB	VERB	_	0	root	_	_
 10-11	numa	_	_	_	_	_	_	_	_
-10	em	_	ADP	ADP	_	13	case	_	_
-11	uma	_	DET	DET	_	13	det	_	_
+10	em	em	ADP	ADP	_	13	case	_	_
+11	uma	um	DET	DET	_	13	det	_	_
 12	nova	novo	ADJ	ADJ	_	13	amod	_	_
 13	disputa	disputa	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
-14	.	_	PUNCT	.	_	9	punct	_	_
+14	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = test-s1066
 # text = O restante da agenda está divida entre cidades de São Paulo, Minas Gerais, Espírito Santo e Rondônia.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	restante	restante	NOUN	NOUN	_	6	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -28,18 +28,18 @@
 7	divida	_	ADJ	ADJ	_	6	xcomp:adj	_	_
 8	entre	_	ADP	ADP	_	9	case	_	_
 9	cidades	cidade	NOUN	NOUN	_	7	nmod	_	_
-10	de	_	ADP	ADP	_	11	case	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
 11	São	_	PROPN	PNOUN	_	9	nmod	_	_
 12	Paulo	_	PROPN	PNOUN	_	11	flat	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	14	punct	_	_
+13	,	,	PUNCT	.	_	14	punct	_	_
 14	Minas	_	PROPN	PNOUN	_	11	conj	_	_
 15	Gerais	_	PROPN	PNOUN	_	14	amod	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	17	punct	_	_
+16	,	,	PUNCT	.	_	17	punct	_	_
 17	Espírito	_	PROPN	PNOUN	_	11	conj	_	_
 18	Santo	_	PROPN	PNOUN	_	17	amod	_	_
-19	e	_	CCONJ	CONJ	_	20	cc	_	_
+19	e	e	CCONJ	CONJ	_	20	cc	_	_
 20	Rondônia	_	PROPN	PNOUN	_	11	conj	_	SpaceAfter=No
-21	.	_	PUNCT	.	_	6	punct	_	_
+21	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = test-s1067
 # text = Prazer da Serrinha foi uma escola de samba da Serrinha, comunidade entre Madureira e Vaz Lobo, no Rio de Janeiro.
@@ -49,50 +49,50 @@
 3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Serrinha	_	PROPN	PNOUN	_	1	nmod	_	_
 5	foi	_	AUX	AUX	_	7	cop	_	_
-6	uma	_	DET	DET	_	7	det	_	_
+6	uma	um	DET	DET	_	7	det	_	_
 7	escola	escola	NOUN	NOUN	_	0	root	_	_
-8	de	_	ADP	ADP	_	9	case	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
 9	samba	samba	NOUN	NOUN	_	7	nmod	_	_
 10-11	da	_	_	_	_	_	_	_	_
 10	de	de	ADP	ADP	_	12	case	_	_
 11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	Serrinha	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	14	punct	_	_
+13	,	,	PUNCT	.	_	14	punct	_	_
 14	comunidade	comunidade	NOUN	NOUN	_	12	appos	_	_
 15	entre	_	ADP	ADP	_	16	case	_	_
 16	Madureira	_	PROPN	PNOUN	_	14	nmod	_	_
-17	e	_	CCONJ	CONJ	_	18	cc	_	_
+17	e	e	CCONJ	CONJ	_	18	cc	_	_
 18	Vaz	_	PROPN	PNOUN	_	16	conj	_	_
 19	Lobo	_	PROPN	PNOUN	_	18	flat	_	SpaceAfter=No
-20	,	_	PUNCT	.	_	23	punct	_	_
+20	,	,	PUNCT	.	_	23	punct	_	_
 21-22	no	_	_	_	_	_	_	_	_
 21	em	em	ADP	ADP	_	23	case	_	_
 22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	Rio	_	PROPN	PNOUN	_	14	nmod	_	_
-24	de	_	ADP	ADP	_	25	case	_	_
+24	de	de	ADP	ADP	_	25	case	_	_
 25	Janeiro	_	PROPN	PNOUN	_	23	nmod	_	SpaceAfter=No
-26	.	_	PUNCT	.	_	7	punct	_	_
+26	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = test-s1068
 # text = Por fim, o zagueiro Filipe recebeu o terceiro cartão amarelo e não vai para o jogo.
 1	Por	_	ADP	ADP	_	2	case	_	_
 2	fim	fim	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	2	punct	_	_
-4	o	_	DET	DET	_	5	det	_	_
+3	,	,	PUNCT	.	_	2	punct	_	_
+4	o	o	DET	DET	_	5	det	_	_
 5	zagueiro	zagueiro	NOUN	NOUN	_	7	amod	_	_
 6	Filipe	_	PROPN	PNOUN	_	5	appos	_	_
 7	recebeu	receber	VERB	VERB	_	0	root	_	_
-8	o	_	DET	DET	_	10	det	_	_
+8	o	o	DET	DET	_	10	det	_	_
 9	terceiro	_	ADJ	ADJ	_	10	amod	_	_
 10	cartão	cartão	NOUN	NOUN	_	7	obj	_	_
 11	amarelo	amarelo	ADJ	ADJ	_	10	amod	_	_
-12	e	_	CCONJ	CONJ	_	14	cc	_	_
+12	e	e	CCONJ	CONJ	_	14	cc	_	_
 13	não	não	ADV	ADV	Polarity=Neg	14	advmod	_	_
 14	vai	ir	VERB	VERB	_	7	conj	_	_
-15	para	_	ADP	ADP	_	17	case	_	_
-16	o	_	DET	DET	_	17	det	_	_
+15	para	para	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	_	17	det	_	_
 17	jogo	jogo	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
-18	.	_	PUNCT	.	_	7	punct	_	_
+18	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = test-s1069
 # text = Mandela passou 27 anos em prisões do apartheid, incluindo 18 anos em Robben Island, na costa da Cidade do Cabo.
@@ -100,20 +100,20 @@
 2	passou	passar	VERB	VERB	_	0	root	_	_
 3	27	_	NUM	NUM	NumType=Card	4	nummod	_	_
 4	anos	ano	NOUN	NOUN	_	2	obj	_	_
-5	em	_	ADP	ADP	_	6	case	_	_
+5	em	em	ADP	ADP	_	6	case	_	_
 6	prisões	prisão	NOUN	NOUN	_	2	nmod	_	_
 7-8	do	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
 8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	apartheid	apartheid	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	11	punct	_	_
+10	,	,	PUNCT	.	_	11	punct	_	_
 11	incluindo	incluir	VERB	VERB	_	2	acl:part	_	_
 12	18	_	NUM	NUM	NumType=Card	13	nummod	_	_
 13	anos	ano	NOUN	NOUN	_	11	obj	_	_
-14	em	_	ADP	ADP	_	15	case	_	_
+14	em	em	ADP	ADP	_	15	case	_	_
 15	Robben	_	PROPN	PNOUN	_	13	nmod	_	_
 16	Island	_	PROPN	PNOUN	_	15	flat	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	20	punct	_	_
+17	,	,	PUNCT	.	_	20	punct	_	_
 18-19	na	_	_	_	_	_	_	_	_
 18	em	em	ADP	ADP	_	20	case	_	_
 19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
@@ -126,20 +126,20 @@
 24	de	de	ADP	ADP	_	26	case	_	_
 25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	Cabo	_	PROPN	PNOUN	_	23	nmod	_	SpaceAfter=No
-27	.	_	PUNCT	.	_	2	punct	_	_
+27	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = test-s1070
 # text = "Com o aumento dessa demanda de clientes, a concorrência do setor tem feito com que os valores se tornarem mais acessíveis dentro de diferentes faixas de preço e tipo de atendimento, fazendo com que uma parcela maior da população tenha acesso a esse serviço, especialmente na classe C."
-1	"	_	PUNCT	.	_	16	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	16	punct	_	SpaceAfter=No
 2	Com	_	ADP	ADP	_	4	case	_	_
-3	o	_	DET	DET	_	4	det	_	_
+3	o	o	DET	DET	_	4	det	_	_
 4	aumento	aumento	NOUN	NOUN	_	16	nmod	_	_
 5	dessa	_	ADP	ADP	_	6	case	_	_
 6	demanda	demanda	NOUN	NOUN	_	4	nmod	_	_
-7	de	_	ADP	ADP	_	8	case	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
 8	clientes	cliente	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	4	punct	_	_
-10	a	_	DET	DET	_	11	det	_	_
+9	,	,	PUNCT	.	_	4	punct	_	_
+10	a	a	DET	DET	_	11	det	_	_
 11	concorrência	concorrência	NOUN	NOUN	_	16	nsubj	_	_
 12-13	do	_	_	_	_	_	_	_	_
 12	de	de	ADP	ADP	_	14	case	_	_
@@ -148,28 +148,28 @@
 15	tem	ter	AUX	AUX	_	16	aux	_	_
 16	feito	_	VERB	VERB	_	0	root	_	_
 17	com	_	ADP	ADP	_	22	mark	_	_
-18	que	_	CCONJ	CONJ	_	22	mark	_	_
-19	os	_	DET	DET	_	20	det	_	_
+18	que	que	CCONJ	CONJ	_	22	mark	_	_
+19	os	o	DET	DET	_	20	det	_	_
 20	valores	_	NOUN	NOUN	_	22	nsubj	_	_
 21	se	_	PART	PRT	_	22	expl:pv	_	_
 22	tornarem	tornar	VERB	VERB	_	16	nmod	_	_
 23	mais	mais	ADV	ADV	_	24	advmod	_	_
 24	acessíveis	acessível	ADJ	ADJ	_	22	xcomp:adj	_	_
 25	dentro	dentro	ADV	ADV	_	22	advmod	_	_
-26	de	_	ADP	ADP	_	28	case	_	_
+26	de	de	ADP	ADP	_	28	case	_	_
 27	diferentes	_	DET	DET	_	28	det	_	_
 28	faixas	faixa	NOUN	NOUN	_	25	nmod	_	_
-29	de	_	ADP	ADP	_	30	case	_	_
+29	de	de	ADP	ADP	_	30	case	_	_
 30	preço	preço	NOUN	NOUN	_	28	nmod	_	_
-31	e	_	CCONJ	CONJ	_	32	cc	_	_
+31	e	e	CCONJ	CONJ	_	32	cc	_	_
 32	tipo	tipo	NOUN	NOUN	_	28	conj	_	_
-33	de	_	ADP	ADP	_	34	case	_	_
+33	de	de	ADP	ADP	_	34	case	_	_
 34	atendimento	atendimento	NOUN	NOUN	_	32	nmod	_	SpaceAfter=No
-35	,	_	PUNCT	.	_	36	punct	_	_
+35	,	,	PUNCT	.	_	36	punct	_	_
 36	fazendo	fazer	VERB	VERB	_	16	acl:part	_	_
 37	com	_	ADP	ADP	_	45	mark	_	_
-38	que	_	CCONJ	CONJ	_	45	mark	_	_
-39	uma	_	DET	DET	_	40	det	_	_
+38	que	que	CCONJ	CONJ	_	45	mark	_	_
+39	uma	um	DET	DET	_	40	det	_	_
 40	parcela	parcela	NOUN	NOUN	_	45	nsubj	_	_
 41	maior	maior	ADJ	ADJ	_	40	amod	_	_
 42-43	da	_	_	_	_	_	_	_	_
@@ -181,14 +181,14 @@
 47	a	_	ADP	ADP	_	49	case	_	_
 48	esse	_	DET	DET	_	49	det	_	_
 49	serviço	serviço	NOUN	NOUN	_	46	nmod	_	SpaceAfter=No
-50	,	_	PUNCT	.	_	54	punct	_	_
+50	,	,	PUNCT	.	_	54	punct	_	_
 51	especialmente	especialmente	ADV	ADV	_	54	advmod	_	_
 52-53	na	_	_	_	_	_	_	_	_
 52	em	em	ADP	ADP	_	54	case	_	_
 53	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
 54	classe	classe	NOUN	NOUN	_	45	nmod	_	_
 55	C.	_	PROPN	PNOUN	_	54	appos	_	SpaceAfter=No
-56	"	_	PUNCT	.	_	16	punct	_	_
+56	"	"	PUNCT	.	_	16	punct	_	_
 
 # sent_id = test-s1071
 # text = No total, se somado com a primeira parcela, deverá ser injetado, segundo os dados do Departamento Intersindical de Estatística e Estudos Sócio - Econômicos (Dieese), um montante de R $ 133,4 milhões na economia local -- sendo, aproximadamente, R $ 60 milhões nesta segunda parcela.
@@ -196,40 +196,40 @@
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	total	total	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
 5	se	_	CCONJ	CONJ	_	6	mark	_	_
 6	somado	somar	VERB	VERB	_	14	advcl	_	_
-7	com	_	ADP	ADP	_	10	case	_	_
-8	a	_	DET	DET	_	10	det	_	_
+7	com	com	ADP	ADP	_	10	case	_	_
+8	a	a	DET	DET	_	10	det	_	_
 9	primeira	primeiro	ADJ	ADJ	_	10	amod	_	_
 10	parcela	parcela	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	6	punct	_	_
+11	,	,	PUNCT	.	_	6	punct	_	_
 12	deverá	dever	AUX	AUX	_	14	aux	_	_
 13	ser	ser	AUX	AUX	_	14	aux:pass	_	_
 14	injetado	injetar	VERB	VERB	_	0	root	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	18	punct	_	_
+15	,	,	PUNCT	.	_	18	punct	_	_
 16	segundo	_	ADP	ADP	_	18	case	_	_
-17	os	_	DET	DET	_	18	det	_	_
+17	os	o	DET	DET	_	18	det	_	_
 18	dados	dado	NOUN	NOUN	_	14	nmod	_	_
 19-20	do	_	_	_	_	_	_	_	_
 19	de	de	ADP	ADP	_	21	case	_	_
 20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	Departamento	_	PROPN	PNOUN	_	18	nmod	_	_
 22	Intersindical	_	PROPN	PNOUN	_	21	amod	_	_
-23	de	_	ADP	ADP	_	24	case	_	_
+23	de	de	ADP	ADP	_	24	case	_	_
 24	Estatística	_	NOUN	NOUN	_	21	nmod	_	_
-25	e	_	CCONJ	CONJ	_	26	cc	_	_
+25	e	e	CCONJ	CONJ	_	26	cc	_	_
 26	Estudos	_	PROPN	PNOUN	_	24	conj	_	_
 27	Sócio	_	PROPN	PNOUN	_	29	amod	_	_
-28	-	_	PUNCT	.	_	29	punct	_	_
+28	-	-	PUNCT	.	_	29	punct	_	_
 29	Econômicos	_	PROPN	PNOUN	_	26	amod	_	_
-30	(	_	PUNCT	.	_	31	punct	_	SpaceAfter=No
+30	(	(	PUNCT	.	_	31	punct	_	SpaceAfter=No
 31	Dieese	_	PROPN	PNOUN	_	21	appos	_	SpaceAfter=No
-32	)	_	PUNCT	.	_	31	punct	_	SpaceAfter=No
-33	,	_	PUNCT	.	_	18	punct	_	_
-34	um	_	DET	DET	_	35	det	_	_
+32	)	)	PUNCT	.	_	31	punct	_	SpaceAfter=No
+33	,	,	PUNCT	.	_	18	punct	_	_
+34	um	um	DET	DET	_	35	det	_	_
 35	montante	montante	NOUN	NOUN	_	14	nsubj:pass	_	_
-36	de	_	ADP	ADP	_	37	case	_	_
+36	de	de	ADP	ADP	_	37	case	_	_
 37	R	r	NOUN	NOUN	_	35	nmod	_	_
 38	$	_	SYM	SYM	_	37	flat	_	_
 39	133,4	_	NUM	NUM	NumType=Card	40	nummod	_	_
@@ -241,9 +241,9 @@
 44	local	local	ADJ	ADJ	_	43	amod	_	_
 45	--	_	PUNCT	.	_	46	punct	_	_
 46	sendo	ser	VERB	VERB	_	14	acl:part	_	SpaceAfter=No
-47	,	_	PUNCT	.	_	48	punct	_	_
+47	,	,	PUNCT	.	_	48	punct	_	_
 48	aproximadamente	aproximadamente	ADV	ADV	_	53	advmod	_	SpaceAfter=No
-49	,	_	PUNCT	.	_	48	punct	_	_
+49	,	,	PUNCT	.	_	48	punct	_	_
 50	R	r	NOUN	NOUN	_	46	nsubj	_	_
 51	$	_	SYM	SYM	_	50	flat	_	_
 52	60	_	NUM	NUM	NumType=Card	53	nummod	_	_
@@ -251,7 +251,7 @@
 54	nesta	_	ADP	ADP	_	56	case	_	_
 55	segunda	segundo	ADJ	ADJ	_	56	amod	_	_
 56	parcela	parcela	NOUN	NOUN	_	46	nmod	_	SpaceAfter=No
-57	.	_	PUNCT	.	_	14	punct	_	_
+57	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = test-s1072
 # text = Isso somente viria a ser admitido oficialmente pela URSS em 1985.
@@ -266,46 +266,46 @@
 8	por	por	ADP	ADP	_	10	case	_	_
 9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	URSS	_	PROPN	PNOUN	_	6	nmod	_	_
-11	em	_	ADP	ADP	_	12	case	_	_
+11	em	em	ADP	ADP	_	12	case	_	_
 12	1985	_	NUM	NUM	NumType=Card	6	nmod	_	SpaceAfter=No
-13	.	_	PUNCT	.	_	6	punct	_	_
+13	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = test-s1073
 # text = A pivô também foi a cestinha da Seleção e do jogo.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	pivô	pivô	NOUN	NOUN	_	6	nsubj	_	_
 3	também	também	ADV	ADV	_	6	advmod	_	_
 4	foi	_	AUX	AUX	_	6	cop	_	_
-5	a	_	DET	DET	_	6	det	_	_
+5	a	a	DET	DET	_	6	det	_	_
 6	cestinha	cesta	NOUN	NOUN	_	0	root	_	_
 7-8	da	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
 8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Seleção	_	PROPN	PNOUN	_	6	nmod	_	_
-10	e	_	CCONJ	CONJ	_	13	cc	_	_
+10	e	e	CCONJ	CONJ	_	13	cc	_	_
 11-12	do	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	13	case	_	_
 12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	jogo	jogo	NOUN	NOUN	_	9	conj	_	SpaceAfter=No
-14	.	_	PUNCT	.	_	6	punct	_	_
+14	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = test-s1074
 # text = Para todos os sentidos que se olha existe um canteiro de obra ou novas ruas surgindo.
 1	Para	_	ADP	ADP	_	4	case	_	_
 2	todos	_	DET	DET	_	4	det	_	_
-3	os	_	DET	DET	_	4	det	_	_
+3	os	o	DET	DET	_	4	det	_	_
 4	sentidos	sentido	NOUN	NOUN	_	8	nmod	_	_
 5	que	_	PRON	PRON	_	7	obj	_	_
 6	se	_	PART	PRT	_	7	expl:pv	_	_
 7	olha	olhar	VERB	VERB	_	4	acl:relcl	_	_
 8	existe	existir	VERB	VERB	_	0	root	_	_
-9	um	_	DET	DET	_	10	det	_	_
+9	um	um	DET	DET	_	10	det	_	_
 10	canteiro	canteiro	NOUN	NOUN	_	8	nsubj	_	_
-11	de	_	ADP	ADP	_	12	case	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
 12	obra	obra	NOUN	NOUN	_	10	nmod	_	_
-13	ou	_	CCONJ	CONJ	_	15	cc	_	_
+13	ou	ou	CCONJ	CONJ	_	15	cc	_	_
 14	novas	novo	ADJ	ADJ	_	15	amod	_	_
 15	ruas	rua	NOUN	NOUN	_	10	conj	_	_
 16	surgindo	surgir	VERB	VERB	_	15	acl:part	_	SpaceAfter=No
-17	.	_	PUNCT	.	_	8	punct	_	_
+17	.	.	PUNCT	.	_	8	punct	_	_
 

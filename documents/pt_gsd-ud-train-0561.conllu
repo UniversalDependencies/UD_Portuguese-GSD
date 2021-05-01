@@ -2,17 +2,17 @@
 # text = PREFERENCIAL -- O cruzamento trabalha agora com uma sinaleira de dois tempos.
 1	PREFERENCIAL	_	NOUN	NOUN	_	5	parataxis	_	_
 2	--	_	PUNCT	.	_	5	punct	_	_
-3	O	_	DET	DET	_	4	det	_	_
+3	O	o	DET	DET	_	4	det	_	_
 4	cruzamento	cruzamento	NOUN	NOUN	_	5	nsubj	_	_
 5	trabalha	trabalhar	VERB	VERB	_	0	root	_	_
 6	agora	agora	ADV	ADV	_	5	advmod	_	_
-7	com	_	ADP	ADP	_	9	case	_	_
-8	uma	_	DET	DET	_	9	det	_	_
+7	com	com	ADP	ADP	_	9	case	_	_
+8	uma	um	DET	DET	_	9	det	_	_
 9	sinaleira	sinaleiro	NOUN	NOUN	_	5	nmod	_	_
-10	de	_	ADP	ADP	_	12	case	_	_
+10	de	de	ADP	ADP	_	12	case	_	_
 11	dois	_	NUM	NUM	NumType=Card	12	nummod	_	_
 12	tempos	tempo	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
-13	.	_	PUNCT	.	_	5	punct	_	_
+13	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s5570
 # text = Nos últimos seis anos, a CEB já foi multada pela Agência Nacional de Energia Elétrica (Aneel) em R $ 50 milhões por falta de investimento, manutenção inadequada e interrupção do fornecimento de energia.
@@ -22,8 +22,8 @@
 3	últimos	último	ADJ	ADJ	_	5	amod	_	_
 4	seis	_	NUM	NUM	NumType=Card	5	nummod	_	_
 5	anos	ano	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	5	punct	_	_
-7	a	_	DET	DET	_	8	det	_	_
+6	,	,	PUNCT	.	_	5	punct	_	_
+7	a	a	DET	DET	_	8	det	_	_
 8	CEB	_	PROPN	PNOUN	_	11	nsubj:pass	_	_
 9	já	já	ADV	ADV	_	11	advmod	_	_
 10	foi	_	AUX	AUX	_	11	aux:pass	_	_
@@ -33,41 +33,41 @@
 13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	Agência	_	PROPN	PNOUN	_	11	nmod	_	_
 15	Nacional	_	PROPN	PNOUN	_	14	amod	_	_
-16	de	_	ADP	ADP	_	17	case	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
 17	Energia	_	PROPN	PNOUN	_	14	nmod	_	_
 18	Elétrica	_	PROPN	PNOUN	_	17	amod	_	_
-19	(	_	PUNCT	.	_	20	punct	_	SpaceAfter=No
+19	(	(	PUNCT	.	_	20	punct	_	SpaceAfter=No
 20	Aneel	_	PROPN	PNOUN	_	14	appos	_	SpaceAfter=No
-21	)	_	PUNCT	.	_	20	punct	_	_
-22	em	_	ADP	ADP	_	23	case	_	_
+21	)	)	PUNCT	.	_	20	punct	_	_
+22	em	em	ADP	ADP	_	23	case	_	_
 23	R	r	NOUN	NOUN	_	11	nmod	_	_
 24	$	_	SYM	SYM	_	23	flat	_	_
 25	50	_	NUM	NUM	NumType=Card	26	nummod	_	_
 26	milhões	_	NUM	NUM	NumType=Card	23	nummod	_	_
-27	por	_	ADP	ADP	_	28	case	_	_
+27	por	por	ADP	ADP	_	28	case	_	_
 28	falta	_	NOUN	NOUN	_	11	nmod	_	_
-29	de	_	ADP	ADP	_	30	case	_	_
+29	de	de	ADP	ADP	_	30	case	_	_
 30	investimento	investimento	NOUN	NOUN	_	28	nmod	_	SpaceAfter=No
-31	,	_	PUNCT	.	_	32	punct	_	_
+31	,	,	PUNCT	.	_	32	punct	_	_
 32	manutenção	manutenção	NOUN	NOUN	_	28	conj	_	_
 33	inadequada	inadequado	ADJ	ADJ	_	32	amod	_	_
-34	e	_	CCONJ	CONJ	_	35	cc	_	_
+34	e	e	CCONJ	CONJ	_	35	cc	_	_
 35	interrupção	interrupção	NOUN	NOUN	_	28	conj	_	_
 36-37	do	_	_	_	_	_	_	_	_
 36	de	de	ADP	ADP	_	38	case	_	_
 37	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 38	fornecimento	fornecimento	NOUN	NOUN	_	35	nmod	_	_
-39	de	_	ADP	ADP	_	40	case	_	_
+39	de	de	ADP	ADP	_	40	case	_	_
 40	energia	energia	NOUN	NOUN	_	38	nmod	_	SpaceAfter=No
-41	.	_	PUNCT	.	_	11	punct	_	_
+41	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s5571
 # text = Faço esteira, musculação.
 1	Faço	fazer	VERB	VERB	_	0	root	_	_
 2	esteira	esteira	NOUN	NOUN	_	1	obj	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	4	punct	_	_
+3	,	,	PUNCT	.	_	4	punct	_	_
 4	musculação	musculação	NOUN	NOUN	_	2	conj	_	SpaceAfter=No
-5	.	_	PUNCT	.	_	1	punct	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s5572
 # text = Na segunda corrida, Nastran confirmou a vitória, na frente de Fonseca e do argentino Gaston Vivas.
@@ -76,61 +76,61 @@
 2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	segunda	segundo	ADJ	ADJ	_	4	amod	_	_
 4	corrida	corrida	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	4	punct	_	_
+5	,	,	PUNCT	.	_	4	punct	_	_
 6	Nastran	_	PROPN	PNOUN	_	7	nsubj	_	_
 7	confirmou	confirmar	VERB	VERB	_	0	root	_	_
-8	a	_	DET	DET	_	9	det	_	_
+8	a	a	DET	DET	_	9	det	_	_
 9	vitória	vitória	NOUN	NOUN	_	7	obj	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	13	punct	_	_
+10	,	,	PUNCT	.	_	13	punct	_	_
 11-12	na	_	_	_	_	_	_	_	_
 11	em	em	ADP	ADP	_	13	case	_	_
 12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	frente	frente	NOUN	NOUN	_	7	nmod	_	_
-14	de	_	ADP	ADP	_	15	case	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
 15	Fonseca	_	PROPN	PNOUN	_	13	nmod	_	_
-16	e	_	CCONJ	CONJ	_	19	cc	_	_
+16	e	e	CCONJ	CONJ	_	19	cc	_	_
 17-18	do	_	_	_	_	_	_	_	_
 17	de	de	ADP	ADP	_	19	case	_	_
 18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	argentino	argentino	NOUN	NOUN	_	15	conj	_	_
 20	Gaston	_	PROPN	PNOUN	_	19	appos	_	_
 21	Vivas	_	PROPN	PNOUN	_	20	flat	_	SpaceAfter=No
-22	.	_	PUNCT	.	_	7	punct	_	_
+22	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s5573
 # text = Mas venceu com gols de Eloir, de cabeça, no primeiro tempo, e de Pimentinha na etapa final.
 1	Mas	_	CCONJ	CONJ	_	2	cc	_	_
 2	venceu	vencer	VERB	VERB	_	0	root	_	_
-3	com	_	ADP	ADP	_	4	case	_	_
+3	com	com	ADP	ADP	_	4	case	_	_
 4	gols	gol	NOUN	NOUN	_	2	nmod	_	_
-5	de	_	ADP	ADP	_	6	case	_	_
+5	de	de	ADP	ADP	_	6	case	_	_
 6	Eloir	_	PROPN	PNOUN	_	4	nmod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	9	punct	_	_
-8	de	_	ADP	ADP	_	9	case	_	_
+7	,	,	PUNCT	.	_	9	punct	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
 9	cabeça	cabeça	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	9	punct	_	_
+10	,	,	PUNCT	.	_	9	punct	_	_
 11-12	no	_	_	_	_	_	_	_	_
 11	em	em	ADP	ADP	_	14	case	_	_
 12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 13	primeiro	primeiro	ADJ	ADJ	_	14	amod	_	_
 14	tempo	tempo	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	14	punct	_	_
-16	e	_	CCONJ	CONJ	_	18	cc	_	_
-17	de	_	ADP	ADP	_	18	case	_	_
+15	,	,	PUNCT	.	_	14	punct	_	_
+16	e	e	CCONJ	CONJ	_	18	cc	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
 18	Pimentinha	_	PROPN	PNOUN	_	6	conj	_	_
 19-20	na	_	_	_	_	_	_	_	_
 19	em	em	ADP	ADP	_	21	case	_	_
 20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	etapa	etapa	NOUN	NOUN	_	18	nmod	_	_
 22	final	final	ADJ	ADJ	_	21	amod	_	SpaceAfter=No
-23	.	_	PUNCT	.	_	2	punct	_	_
+23	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s5574
 # text = Nesta semana, os principais grupos da oposição mantiveram uma reunião no Cairo na qual, embora não tenham abordado a forma de derrubar esse Executivo, detalharam os passos que darão para preencher o vazio que deixará sua eventual queda.
 1	Nesta	_	ADP	ADP	_	2	case	_	_
 2	semana	semana	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	2	punct	_	_
-4	os	_	DET	DET	_	6	det	_	_
+3	,	,	PUNCT	.	_	2	punct	_	_
+4	os	o	DET	DET	_	6	det	_	_
 5	principais	principal	ADJ	ADJ	_	6	amod	_	_
 6	grupos	grupo	NOUN	NOUN	_	10	nsubj	_	_
 7-8	da	_	_	_	_	_	_	_	_
@@ -138,7 +138,7 @@
 8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	oposição	oposição	NOUN	NOUN	_	6	nmod	_	_
 10	mantiveram	manter	VERB	VERB	_	0	root	_	_
-11	uma	_	DET	DET	_	12	det	_	_
+11	uma	um	DET	DET	_	12	det	_	_
 12	reunião	reunião	NOUN	NOUN	_	10	obj	_	_
 13-14	no	_	_	_	_	_	_	_	_
 13	em	em	ADP	ADP	_	15	case	_	_
@@ -148,41 +148,41 @@
 16	em	em	ADP	ADP	_	18	case	_	_
 17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	qual	_	PRON	PRON	_	31	nmod	_	SpaceAfter=No
-19	,	_	PUNCT	.	_	23	punct	_	_
+19	,	,	PUNCT	.	_	23	punct	_	_
 20	embora	_	CCONJ	CONJ	_	23	mark	_	_
 21	não	não	ADV	ADV	Polarity=Neg	23	advmod	_	_
 22	tenham	ter	AUX	AUX	_	23	aux	_	_
 23	abordado	abordar	VERB	VERB	_	31	advcl	_	_
-24	a	_	DET	DET	_	25	det	_	_
+24	a	a	DET	DET	_	25	det	_	_
 25	forma	forma	NOUN	NOUN	_	23	obj	_	_
 26	de	_	ADP	ADP	_	27	mark	_	_
 27	derrubar	derrubar	VERB	VERB	_	25	nmod	_	_
 28	esse	_	DET	DET	_	29	det	_	_
 29	Executivo	_	PROPN	PNOUN	_	27	obj	_	SpaceAfter=No
-30	,	_	PUNCT	.	_	23	punct	_	_
+30	,	,	PUNCT	.	_	23	punct	_	_
 31	detalharam	detalhar	VERB	VERB	_	12	acl:relcl	_	_
-32	os	_	DET	DET	_	33	det	_	_
+32	os	o	DET	DET	_	33	det	_	_
 33	passos	passo	NOUN	NOUN	_	31	obj	_	_
 34	que	_	PRON	PRON	_	35	obj	_	_
 35	darão	dar	VERB	VERB	_	33	acl:relcl	_	_
 36	para	_	ADP	ADP	_	37	mark	_	_
 37	preencher	preencher	VERB	VERB	_	35	advcl	_	_
-38	o	_	DET	DET	_	39	det	_	_
+38	o	o	DET	DET	_	39	det	_	_
 39	vazio	vazio	NOUN	NOUN	_	37	obj	_	_
 40	que	_	PRON	PRON	_	41	obj	_	_
 41	deixará	deixar	VERB	VERB	_	39	acl:relcl	_	_
 42	sua	_	DET	DET	_	44	det:poss	_	_
 43	eventual	eventual	ADJ	ADJ	_	44	amod	_	_
 44	queda	queda	NOUN	NOUN	_	41	nsubj	_	SpaceAfter=No
-45	.	_	PUNCT	.	_	10	punct	_	_
+45	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s5575
 # text = O município de Holambra, a 148 quilômetros da capital paulista, concentra 40 % da produção nacional de flores e plantas ornamentais e sedia anualmente a Expoflora -- feira que começa amanhã e mostra as tendências do setor de flores e plantas ornamentais no país.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	município	município	NOUN	NOUN	_	14	nsubj	_	_
-3	de	_	ADP	ADP	_	4	case	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
 4	Holambra	_	PROPN	PNOUN	_	2	nmod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	8	punct	_	_
+5	,	,	PUNCT	.	_	8	punct	_	_
 6	a	_	ADP	ADP	_	8	case	_	_
 7	148	_	NUM	NUM	NumType=Card	8	nummod	_	_
 8	quilômetros	quilômetro	NOUN	NOUN	_	2	nmod	_	_
@@ -191,7 +191,7 @@
 10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	capital	capital	NOUN	NOUN	_	8	nmod	_	_
 12	paulista	paulista	ADJ	ADJ	_	11	amod	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	8	punct	_	_
+13	,	,	PUNCT	.	_	8	punct	_	_
 14	concentra	concentrar	VERB	VERB	_	0	root	_	_
 15	40	_	NUM	NUM	NumType=Card	16	nummod	_	_
 16	%	_	SYM	SYM	_	14	obj	_	_
@@ -200,66 +200,66 @@
 18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	produção	produção	NOUN	NOUN	_	16	nmod	_	_
 20	nacional	nacional	ADJ	ADJ	_	19	amod	_	_
-21	de	_	ADP	ADP	_	22	case	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
 22	flores	flor	NOUN	NOUN	_	19	nmod	_	_
-23	e	_	CCONJ	CONJ	_	24	cc	_	_
+23	e	e	CCONJ	CONJ	_	24	cc	_	_
 24	plantas	planta	NOUN	NOUN	_	22	conj	_	_
 25	ornamentais	ornamental	ADJ	ADJ	_	24	amod	_	_
-26	e	_	CCONJ	CONJ	_	27	cc	_	_
+26	e	e	CCONJ	CONJ	_	27	cc	_	_
 27	sedia	sediar	VERB	VERB	_	14	conj	_	_
 28	anualmente	anualmente	ADV	ADV	_	27	advmod	_	_
-29	a	_	DET	DET	_	30	det	_	_
+29	a	a	DET	DET	_	30	det	_	_
 30	Expoflora	_	PROPN	PNOUN	_	27	obj	_	_
 31	--	_	PUNCT	.	_	32	punct	_	_
 32	feira	feira	NOUN	NOUN	_	30	appos	_	_
 33	que	_	PRON	PRON	_	34	nsubj	_	_
 34	começa	_	VERB	VERB	_	32	acl:relcl	_	_
 35	amanhã	amanhã	ADV	ADV	_	34	advmod	_	_
-36	e	_	CCONJ	CONJ	_	37	cc	_	_
+36	e	e	CCONJ	CONJ	_	37	cc	_	_
 37	mostra	mostrar	VERB	VERB	_	34	conj	_	_
-38	as	_	DET	DET	_	39	det	_	_
+38	as	o	DET	DET	_	39	det	_	_
 39	tendências	tendência	NOUN	NOUN	_	37	obj	_	_
 40-41	do	_	_	_	_	_	_	_	_
 40	de	de	ADP	ADP	_	42	case	_	_
 41	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
 42	setor	setor	NOUN	NOUN	_	39	nmod	_	_
-43	de	_	ADP	ADP	_	44	case	_	_
+43	de	de	ADP	ADP	_	44	case	_	_
 44	flores	flor	NOUN	NOUN	_	42	nmod	_	_
-45	e	_	CCONJ	CONJ	_	46	cc	_	_
+45	e	e	CCONJ	CONJ	_	46	cc	_	_
 46	plantas	planta	NOUN	NOUN	_	44	conj	_	_
 47	ornamentais	ornamental	ADJ	ADJ	_	46	amod	_	_
 48-49	no	_	_	_	_	_	_	_	_
 48	em	em	ADP	ADP	_	50	case	_	_
 49	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
 50	país	país	NOUN	NOUN	_	39	nmod	_	SpaceAfter=No
-51	.	_	PUNCT	.	_	14	punct	_	_
+51	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = train-s5576
 # text = Em 2008 fundou a produtora e selo musical Orpheu Music, que executa projetos de produção e preservação da música brasileira.
-1	Em	_	ADP	ADP	_	2	case	_	_
+1	Em	em	ADP	ADP	_	2	case	_	_
 2	2008	_	NUM	NUM	NumType=Card	3	nmod	_	_
 3	fundou	fundar	VERB	VERB	_	0	root	_	_
-4	a	_	DET	DET	_	5	det	_	_
+4	a	a	DET	DET	_	5	det	_	_
 5	produtora	produtor	NOUN	NOUN	_	3	obj	_	_
-6	e	_	CCONJ	CONJ	_	7	cc	_	_
+6	e	e	CCONJ	CONJ	_	7	cc	_	_
 7	selo	selo	NOUN	NOUN	_	5	conj	_	_
 8	musical	musical	ADJ	ADJ	_	7	amod	_	_
 9	Orpheu	_	PROPN	PNOUN	_	5	appos	_	_
 10	Music	_	PROPN	PNOUN	_	9	flat	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	13	punct	_	_
+11	,	,	PUNCT	.	_	13	punct	_	_
 12	que	_	PRON	PRON	_	13	nsubj	_	_
 13	executa	executar	VERB	VERB	_	5	acl:relcl	_	_
 14	projetos	projeto	NOUN	NOUN	_	13	obj	_	_
-15	de	_	ADP	ADP	_	16	case	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
 16	produção	produção	NOUN	NOUN	_	14	nmod	_	_
-17	e	_	CCONJ	CONJ	_	18	cc	_	_
+17	e	e	CCONJ	CONJ	_	18	cc	_	_
 18	preservação	preservação	NOUN	NOUN	_	16	conj	_	_
 19-20	da	_	_	_	_	_	_	_	_
 19	de	de	ADP	ADP	_	21	case	_	_
 20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	música	_	NOUN	NOUN	_	16	nmod	_	_
 22	brasileira	brasileiro	ADJ	ADJ	_	21	amod	_	SpaceAfter=No
-23	.	_	PUNCT	.	_	3	punct	_	_
+23	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s5577
 # text = Bombom foi clicada na Barra da Tijuca, zona oeste do Rio de Janeiro.
@@ -274,16 +274,16 @@
 7	de	de	ADP	ADP	_	9	case	_	_
 8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Tijuca	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	11	punct	_	_
+10	,	,	PUNCT	.	_	11	punct	_	_
 11	zona	zona	NOUN	NOUN	_	6	appos	_	_
 12	oeste	oeste	ADJ	ADJ	_	11	amod	_	_
 13-14	do	_	_	_	_	_	_	_	_
 13	de	de	ADP	ADP	_	15	case	_	_
 14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	Rio	_	PROPN	PNOUN	_	11	nmod	_	_
-16	de	_	ADP	ADP	_	17	case	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
 17	Janeiro	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
-18	.	_	PUNCT	.	_	3	punct	_	_
+18	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s5578
 # text = No dia seguinte, o Psol representou contra o parlamentar no Conselho de Ética e, um dia depois, em 29 de março, o ministro do Supremo Tribunal Federal (STF) Ricardo Lewandowski autorizou a quebra de seu sigilo bancário.
@@ -292,31 +292,31 @@
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	dia	dia	NOUN	NOUN	_	8	nmod	_	_
 4	seguinte	seguinte	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	3	punct	_	_
-6	o	_	DET	DET	_	7	det	_	_
+5	,	,	PUNCT	.	_	3	punct	_	_
+6	o	o	DET	DET	_	7	det	_	_
 7	Psol	_	PROPN	PNOUN	_	8	nsubj	_	_
 8	representou	representar	VERB	VERB	_	0	root	_	_
 9	contra	_	ADP	ADP	_	11	case	_	_
-10	o	_	DET	DET	_	11	det	_	_
+10	o	o	DET	DET	_	11	det	_	_
 11	parlamentar	parlamentar	NOUN	NOUN	_	8	nmod	_	_
 12-13	no	_	_	_	_	_	_	_	_
 12	em	em	ADP	ADP	_	14	case	_	_
 13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	Conselho	_	PROPN	PNOUN	_	8	nmod	_	_
-15	de	_	ADP	ADP	_	16	case	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
 16	Ética	_	PROPN	PNOUN	_	14	nmod	_	_
-17	e	_	CCONJ	CONJ	_	40	cc	_	SpaceAfter=No
-18	,	_	PUNCT	.	_	20	punct	_	_
+17	e	e	CCONJ	CONJ	_	40	cc	_	SpaceAfter=No
+18	,	,	PUNCT	.	_	20	punct	_	_
 19	um	_	NUM	NUM	NumType=Card	20	nummod	_	_
 20	dia	dia	NOUN	NOUN	_	40	nmod	_	_
 21	depois	depois	ADV	ADV	_	20	advmod	_	SpaceAfter=No
-22	,	_	PUNCT	.	_	24	punct	_	_
-23	em	_	ADP	ADP	_	24	case	_	_
+22	,	,	PUNCT	.	_	24	punct	_	_
+23	em	em	ADP	ADP	_	24	case	_	_
 24	29	_	NUM	NUM	NumType=Card	40	nmod	_	_
-25	de	_	ADP	ADP	_	26	case	_	_
+25	de	de	ADP	ADP	_	26	case	_	_
 26	março	_	PROPN	PNOUN	_	24	nmod	_	SpaceAfter=No
-27	,	_	PUNCT	.	_	24	punct	_	_
-28	o	_	DET	DET	_	29	det	_	_
+27	,	,	PUNCT	.	_	24	punct	_	_
+28	o	o	DET	DET	_	29	det	_	_
 29	ministro	ministro	NOUN	NOUN	_	40	nsubj	_	_
 30-31	do	_	_	_	_	_	_	_	_
 30	de	de	ADP	ADP	_	33	case	_	_
@@ -324,17 +324,17 @@
 32	Supremo	_	PROPN	PNOUN	_	33	amod	_	_
 33	Tribunal	_	PROPN	PNOUN	_	29	nmod	_	_
 34	Federal	_	PROPN	PNOUN	_	33	amod	_	_
-35	(	_	PUNCT	.	_	36	punct	_	SpaceAfter=No
+35	(	(	PUNCT	.	_	36	punct	_	SpaceAfter=No
 36	STF	_	PROPN	PNOUN	_	33	appos	_	SpaceAfter=No
-37	)	_	PUNCT	.	_	36	punct	_	_
+37	)	)	PUNCT	.	_	36	punct	_	_
 38	Ricardo	_	PROPN	PNOUN	_	29	appos	_	_
 39	Lewandowski	_	PROPN	PNOUN	_	38	flat	_	_
 40	autorizou	autorizar	VERB	VERB	_	8	conj	_	_
-41	a	_	DET	DET	_	42	det	_	_
+41	a	a	DET	DET	_	42	det	_	_
 42	quebra	quebra	NOUN	NOUN	_	40	obj	_	_
-43	de	_	ADP	ADP	_	45	case	_	_
+43	de	de	ADP	ADP	_	45	case	_	_
 44	seu	_	DET	DET	_	45	det:poss	_	_
 45	sigilo	sigilo	NOUN	NOUN	_	42	nmod	_	_
 46	bancário	bancário	ADJ	ADJ	_	45	amod	_	SpaceAfter=No
-47	.	_	PUNCT	.	_	8	punct	_	_
+47	.	.	PUNCT	.	_	8	punct	_	_
 

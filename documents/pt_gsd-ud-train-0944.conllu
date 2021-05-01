@@ -1,18 +1,18 @@
 # sent_id = train-s9367
 # text = "Meu objetivo é fazer um filme que inclui um rosto sorridente de cada ser humano no mundo", disse a artista no vídeo sobre o projeto que você assiste logo abaixo.
-1	"	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
 2	Meu	_	DET	DET	_	3	det:poss	_	_
 3	objetivo	objetivo	NOUN	NOUN	_	22	ccomp	_	_
 4	é	ser	AUX	AUX	_	3	cop	_	_
 5	fazer	fazer	VERB	VERB	_	3	csubj	_	_
-6	um	_	DET	DET	_	7	det	_	_
+6	um	um	DET	DET	_	7	det	_	_
 7	filme	filme	NOUN	NOUN	_	5	obj	_	_
 8	que	_	PRON	PRON	_	9	nsubj	_	_
 9	inclui	incluir	VERB	VERB	_	7	acl:relcl	_	_
-10	um	_	DET	DET	_	11	det	_	_
+10	um	um	DET	DET	_	11	det	_	_
 11	rosto	rosto	NOUN	NOUN	_	9	obj	_	_
 12	sorridente	sorridente	ADJ	ADJ	_	11	amod	_	_
-13	de	_	ADP	ADP	_	15	case	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
 14	cada	_	DET	DET	_	15	det	_	_
 15	ser	ser	NOUN	NOUN	_	11	nmod	_	_
 16	humano	humano	ADJ	ADJ	_	15	amod	_	_
@@ -20,73 +20,73 @@
 17	em	em	ADP	ADP	_	19	case	_	_
 18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	mundo	mundo	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
-20	"	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
-21	,	_	PUNCT	.	_	22	punct	_	_
+20	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
+21	,	,	PUNCT	.	_	22	punct	_	_
 22	disse	dizer	VERB	VERB	_	0	root	_	_
-23	a	_	DET	DET	_	24	det	_	_
+23	a	a	DET	DET	_	24	det	_	_
 24	artista	artista	NOUN	NOUN	_	22	nsubj	_	_
 25-26	no	_	_	_	_	_	_	_	_
 25	em	em	ADP	ADP	_	27	case	_	_
 26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	vídeo	vídeo	NOUN	NOUN	_	22	nmod	_	_
 28	sobre	_	ADP	ADP	_	30	case	_	_
-29	o	_	DET	DET	_	30	det	_	_
+29	o	o	DET	DET	_	30	det	_	_
 30	projeto	projeto	NOUN	NOUN	_	27	nmod	_	_
 31	que	_	PRON	PRON	_	33	obj	_	_
 32	você	_	PRON	PRON	_	33	nsubj	_	_
 33	assiste	assistir	VERB	VERB	_	27	acl:relcl	_	_
 34	logo	logo	ADV	ADV	_	35	advmod	_	_
 35	abaixo	abaixo	ADV	ADV	_	33	advmod	_	SpaceAfter=No
-36	.	_	PUNCT	.	_	22	punct	_	_
+36	.	.	PUNCT	.	_	22	punct	_	_
 
 # sent_id = train-s9368
 # text = RIO DE JANEIRO (Agência Brasil) -- Durou oito horas a cirurgia a que foi submetido hoje (28) o advogado e presidente nacional do PTB, Roberto Jefferson, 59 anos, no Hospital Samaritano, em Botafogo, na zona sul da capital fluminense.
 1	RIO	_	PROPN	PNOUN	_	9	parataxis	_	_
 2	DE	_	ADP	ADP	_	3	case	_	_
 3	JANEIRO	_	PROPN	PNOUN	_	1	nmod	_	_
-4	(	_	PUNCT	.	_	5	punct	_	SpaceAfter=No
+4	(	(	PUNCT	.	_	5	punct	_	SpaceAfter=No
 5	Agência	_	PROPN	PNOUN	_	1	appos	_	_
 6	Brasil	_	PROPN	PNOUN	_	5	flat	_	SpaceAfter=No
-7	)	_	PUNCT	.	_	5	punct	_	_
+7	)	)	PUNCT	.	_	5	punct	_	_
 8	--	_	PUNCT	.	_	9	punct	_	_
 9	Durou	durar	VERB	VERB	_	0	root	_	_
 10	oito	_	NUM	NUM	NumType=Card	11	nummod	_	_
 11	horas	hora	NOUN	NOUN	_	9	nmod	_	_
-12	a	_	DET	DET	_	13	det	_	_
+12	a	a	DET	DET	_	13	det	_	_
 13	cirurgia	cirurgia	NOUN	NOUN	_	9	nsubj	_	_
 14	a	_	ADP	ADP	_	15	case	_	_
 15	que	_	PRON	PRON	_	17	nmod	_	_
 16	foi	_	AUX	AUX	_	17	aux:pass	_	_
 17	submetido	submeter	VERB	VERB	_	13	acl:relcl	_	_
 18	hoje	hoje	ADV	ADV	_	17	advmod	_	_
-19	(	_	PUNCT	.	_	20	punct	_	SpaceAfter=No
+19	(	(	PUNCT	.	_	20	punct	_	SpaceAfter=No
 20	28	_	NUM	NUM	NumType=Card	18	nmod	_	SpaceAfter=No
-21	)	_	PUNCT	.	_	20	punct	_	_
-22	o	_	DET	DET	_	23	det	_	_
+21	)	)	PUNCT	.	_	20	punct	_	_
+22	o	o	DET	DET	_	23	det	_	_
 23	advogado	advogado	NOUN	NOUN	_	17	nsubj:pass	_	_
-24	e	_	CCONJ	CONJ	_	25	cc	_	_
+24	e	e	CCONJ	CONJ	_	25	cc	_	_
 25	presidente	presidente	NOUN	NOUN	_	23	conj	_	_
 26	nacional	nacional	ADJ	ADJ	_	25	amod	_	_
 27-28	do	_	_	_	_	_	_	_	_
 27	de	de	ADP	ADP	_	29	case	_	_
 28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	PTB	_	PROPN	PNOUN	_	25	nmod	_	SpaceAfter=No
-30	,	_	PUNCT	.	_	31	punct	_	_
+30	,	,	PUNCT	.	_	31	punct	_	_
 31	Roberto	_	PROPN	PNOUN	_	23	appos	_	_
 32	Jefferson	_	PROPN	PNOUN	_	31	flat	_	SpaceAfter=No
-33	,	_	PUNCT	.	_	35	punct	_	_
+33	,	,	PUNCT	.	_	35	punct	_	_
 34	59	_	NUM	NUM	NumType=Card	35	nummod	_	_
 35	anos	ano	NOUN	NOUN	_	23	appos	_	SpaceAfter=No
-36	,	_	PUNCT	.	_	35	punct	_	_
+36	,	,	PUNCT	.	_	35	punct	_	_
 37-38	no	_	_	_	_	_	_	_	_
 37	em	em	ADP	ADP	_	39	case	_	_
 38	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
 39	Hospital	hospital	NOUN	NOUN	_	17	nmod	_	_
 40	Samaritano	_	PROPN	PNOUN	_	39	amod	_	SpaceAfter=No
-41	,	_	PUNCT	.	_	43	punct	_	_
-42	em	_	ADP	ADP	_	43	case	_	_
+41	,	,	PUNCT	.	_	43	punct	_	_
+42	em	em	ADP	ADP	_	43	case	_	_
 43	Botafogo	_	PROPN	PNOUN	_	17	nmod	_	SpaceAfter=No
-44	,	_	PUNCT	.	_	47	punct	_	_
+44	,	,	PUNCT	.	_	47	punct	_	_
 45-46	na	_	_	_	_	_	_	_	_
 45	em	em	ADP	ADP	_	47	case	_	_
 46	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
@@ -97,19 +97,19 @@
 50	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
 51	capital	capital	NOUN	NOUN	_	47	nmod	_	_
 52	fluminense	fluminense	ADJ	ADJ	_	51	amod	_	SpaceAfter=No
-53	.	_	PUNCT	.	_	9	punct	_	_
+53	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s9369
 # text = Segundo ele, as máquinas foram levadas para a Ação Social da prefeitura do município.
 1	Segundo	_	ADP	ADP	_	2	case	_	_
 2	ele	_	PRON	PRON	_	7	nmod	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	2	punct	_	_
-4	as	_	DET	DET	_	5	det	_	_
+3	,	,	PUNCT	.	_	2	punct	_	_
+4	as	o	DET	DET	_	5	det	_	_
 5	máquinas	máquina	NOUN	NOUN	_	7	nsubj:pass	_	_
 6	foram	_	AUX	AUX	_	7	aux:pass	_	_
 7	levadas	levar	VERB	VERB	_	0	root	_	_
-8	para	_	ADP	ADP	_	10	case	_	_
-9	a	_	DET	DET	_	10	det	_	_
+8	para	para	ADP	ADP	_	10	case	_	_
+9	a	a	DET	DET	_	10	det	_	_
 10	Ação	_	PROPN	PNOUN	_	7	nmod	_	_
 11	Social	_	PROPN	PNOUN	_	10	amod	_	_
 12-13	da	_	_	_	_	_	_	_	_
@@ -120,32 +120,32 @@
 15	de	de	ADP	ADP	_	17	case	_	_
 16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	município	município	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
-18	.	_	PUNCT	.	_	7	punct	_	_
+18	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s9370
 # text = Essas saídas têm o prazo máximo de sete dias.
 1	Essas	_	DET	DET	_	2	det	_	_
 2	saídas	saída	NOUN	NOUN	_	3	nsubj	_	_
 3	têm	ter	VERB	VERB	_	0	root	_	_
-4	o	_	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	_	5	det	_	_
 5	prazo	prazo	NOUN	NOUN	_	3	obj	_	_
 6	máximo	máximo	ADJ	ADJ	_	5	amod	_	_
-7	de	_	ADP	ADP	_	9	case	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
 8	sete	_	NUM	NUM	NumType=Card	9	nummod	_	_
 9	dias	dia	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
-10	.	_	PUNCT	.	_	3	punct	_	_
+10	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s9371
 # text = Rafinha se revoltou e publicou o seguinte texto em seu perfil na rede social:
 1	Rafinha	_	PROPN	PNOUN	_	3	nsubj	_	_
 2	se	_	PRON	PRON	_	3	obj	_	_
 3	revoltou	revoltar	VERB	VERB	_	0	root	_	_
-4	e	_	CCONJ	CONJ	_	5	cc	_	_
+4	e	e	CCONJ	CONJ	_	5	cc	_	_
 5	publicou	publicar	VERB	VERB	_	3	conj	_	_
-6	o	_	DET	DET	_	8	det	_	_
+6	o	o	DET	DET	_	8	det	_	_
 7	seguinte	seguinte	ADJ	ADJ	_	8	amod	_	_
 8	texto	texto	NOUN	NOUN	_	5	obj	_	_
-9	em	_	ADP	ADP	_	11	case	_	_
+9	em	em	ADP	ADP	_	11	case	_	_
 10	seu	_	DET	DET	_	11	det:poss	_	_
 11	perfil	perfil	NOUN	NOUN	_	5	nmod	_	_
 12-13	na	_	_	_	_	_	_	_	_
@@ -153,7 +153,7 @@
 13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	rede	rede	NOUN	NOUN	_	11	nmod	_	_
 15	social	social	ADJ	ADJ	_	14	amod	_	SpaceAfter=No
-16	:	_	PUNCT	.	_	3	punct	_	_
+16	:	:	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s9372
 # text = Quando ele não sabe o que vem depois, fica ainda mais instigado ", afirma.
@@ -165,19 +165,19 @@
 6	que	_	PRON	PRON	_	7	nsubj	_	_
 7	vem	vir	VERB	VERB	_	5	acl:relcl	_	_
 8	depois	depois	ADV	ADV	_	7	advmod	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	4	punct	_	_
+9	,	,	PUNCT	.	_	4	punct	_	_
 10	fica	ficar	VERB	VERB	_	16	ccomp	_	_
 11	ainda	ainda	ADV	ADV	_	12	advmod	_	_
 12	mais	mais	ADV	ADV	_	13	advmod	_	_
 13	instigado	instigado	ADJ	ADJ	_	10	xcomp:adj	_	_
-14	"	_	PUNCT	.	_	10	punct	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	16	punct	_	_
+14	"	"	PUNCT	.	_	10	punct	_	SpaceAfter=No
+15	,	,	PUNCT	.	_	16	punct	_	_
 16	afirma	afirmar	VERB	VERB	_	0	root	_	SpaceAfter=No
-17	.	_	PUNCT	.	_	16	punct	_	_
+17	.	.	PUNCT	.	_	16	punct	_	_
 
 # sent_id = train-s9373
 # text = O teatro fica na Praça do Pacificador, no Centro de Caxias.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	teatro	teatro	NOUN	NOUN	_	3	nsubj	_	_
 3	fica	ficar	VERB	VERB	_	0	root	_	_
 4-5	na	_	_	_	_	_	_	_	_
@@ -188,44 +188,44 @@
 7	de	de	ADP	ADP	_	9	case	_	_
 8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Pacificador	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	13	punct	_	_
+10	,	,	PUNCT	.	_	13	punct	_	_
 11-12	no	_	_	_	_	_	_	_	_
 11	em	em	ADP	ADP	_	13	case	_	_
 12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	Centro	_	PROPN	PNOUN	_	3	nmod	_	_
-14	de	_	ADP	ADP	_	15	case	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
 15	Caxias	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	3	punct	_	_
+16	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s9374
 # text = A equipe comandada por Cristóvão Borges dominou o jogo.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	equipe	equipe	NOUN	NOUN	_	7	nsubj	_	_
 3	comandada	comandar	VERB	VERB	_	2	acl:part	_	_
-4	por	_	ADP	ADP	_	5	case	_	_
+4	por	por	ADP	ADP	_	5	case	_	_
 5	Cristóvão	_	PROPN	PNOUN	_	3	nmod	_	_
 6	Borges	_	PROPN	PNOUN	_	5	flat	_	_
 7	dominou	dominar	VERB	VERB	_	0	root	_	_
-8	o	_	DET	DET	_	9	det	_	_
+8	o	o	DET	DET	_	9	det	_	_
 9	jogo	jogo	NOUN	NOUN	_	7	obj	_	SpaceAfter=No
-10	.	_	PUNCT	.	_	7	punct	_	_
+10	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s9375
 # text = Além de ser uma categoria cortesã, havia vários prōtospatharioi exerciam funções específicas:
 1	Além	além	ADV	ADV	_	8	advmod	_	_
 2	de	_	ADP	ADP	_	5	mark	_	_
 3	ser	ser	AUX	AUX	_	5	cop	_	_
-4	uma	_	DET	DET	_	5	det	_	_
+4	uma	um	DET	DET	_	5	det	_	_
 5	categoria	categoria	NOUN	NOUN	_	1	nmod	_	_
 6	cortesã	cortesão	ADJ	ADJ	_	5	amod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	1	punct	_	_
+7	,	,	PUNCT	.	_	1	punct	_	_
 8	havia	haver	VERB	VERB	_	0	root	_	_
 9	vários	_	DET	DET	_	10	det	_	_
 10	prōtospatharioi	_	NOUN	NOUN	_	8	obj	_	_
 11	exerciam	exercer	VERB	VERB	_	10	acl:relcl	_	_
 12	funções	função	NOUN	NOUN	_	11	obj	_	_
 13	específicas	específico	ADJ	ADJ	_	12	amod	_	SpaceAfter=No
-14	:	_	PUNCT	.	_	8	punct	_	_
+14	:	:	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s9376
 # text = Suichiro sempre se preocupou muito com tezuka, sempre desejando a ele o melhor e sempre se preocupou muito também com o clube e com todos os jogadores que o compõe.
@@ -234,31 +234,31 @@
 3	se	_	PART	PRT	_	4	expl:pv	_	_
 4	preocupou	preocupar	VERB	VERB	_	0	root	_	_
 5	muito	muito	ADV	ADV	_	4	advmod	_	_
-6	com	_	ADP	ADP	_	7	case	_	_
+6	com	com	ADP	ADP	_	7	case	_	_
 7	tezuka	_	PROPN	PNOUN	_	4	nmod	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	10	punct	_	_
+8	,	,	PUNCT	.	_	10	punct	_	_
 9	sempre	sempre	ADV	ADV	_	10	advmod	_	_
 10	desejando	desejar	VERB	VERB	_	4	acl:part	_	_
 11	a	_	ADP	ADP	_	12	case	_	_
 12	ele	_	PRON	PRON	_	10	iobj	_	_
-13	o	_	DET	DET	_	14	det	_	_
+13	o	o	DET	DET	_	14	det	_	_
 14	melhor	melhor	NOUN	NOUN	_	10	obj	_	_
-15	e	_	CCONJ	CONJ	_	18	cc	_	_
+15	e	e	CCONJ	CONJ	_	18	cc	_	_
 16	sempre	sempre	ADV	ADV	_	18	advmod	_	_
 17	se	_	PRON	PRON	_	18	expl:pv	_	_
 18	preocupou	preocupar	VERB	VERB	_	4	conj	_	_
 19	muito	muito	ADV	ADV	_	18	advmod	_	_
 20	também	também	ADV	ADV	_	18	advmod	_	_
-21	com	_	ADP	ADP	_	23	case	_	_
-22	o	_	DET	DET	_	23	det	_	_
+21	com	com	ADP	ADP	_	23	case	_	_
+22	o	o	DET	DET	_	23	det	_	_
 23	clube	clube	NOUN	NOUN	_	18	nmod	_	_
-24	e	_	CCONJ	CONJ	_	28	cc	_	_
-25	com	_	ADP	ADP	_	28	case	_	_
+24	e	e	CCONJ	CONJ	_	28	cc	_	_
+25	com	com	ADP	ADP	_	28	case	_	_
 26	todos	_	DET	DET	_	28	det	_	_
-27	os	_	DET	DET	_	28	det	_	_
+27	os	o	DET	DET	_	28	det	_	_
 28	jogadores	jogador	NOUN	NOUN	_	23	conj	_	_
 29	que	_	PRON	PRON	_	31	nsubj	_	_
 30	o	_	PRON	PRON	_	31	obj	_	_
 31	compõe	_	NOUN	NOUN	_	28	acl:relcl	_	SpaceAfter=No
-32	.	_	PUNCT	.	_	4	punct	_	_
+32	.	.	PUNCT	.	_	4	punct	_	_
 

@@ -1,59 +1,59 @@
 # sent_id = train-s1339
 # text = "O projeto estará 100 % implantado, em voo de cruzeiro, com as plataformas de câmbio e ativos integradas, no final de 2015", informou o executivo.
-1	"	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
-2	O	_	DET	DET	_	3	det	_	_
+1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
+2	O	o	DET	DET	_	3	det	_	_
 3	projeto	projeto	NOUN	NOUN	_	4	nsubj	_	_
 4	estará	estar	VERB	VERB	_	30	ccomp	_	_
 5	100	_	NUM	NUM	NumType=Card	6	nummod	_	_
 6	%	_	SYM	SYM	_	7	nmod	_	_
 7	implantado	implantado	ADJ	ADJ	_	4	xcomp:adj	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	10	punct	_	_
-9	em	_	ADP	ADP	_	10	case	_	_
+8	,	,	PUNCT	.	_	10	punct	_	_
+9	em	em	ADP	ADP	_	10	case	_	_
 10	voo	voo	NOUN	NOUN	_	4	conj	_	_
-11	de	_	ADP	ADP	_	12	case	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
 12	cruzeiro	cruzeiro	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	16	punct	_	_
-14	com	_	ADP	ADP	_	16	case	_	_
-15	as	_	DET	DET	_	16	det	_	_
+13	,	,	PUNCT	.	_	16	punct	_	_
+14	com	com	ADP	ADP	_	16	case	_	_
+15	as	o	DET	DET	_	16	det	_	_
 16	plataformas	plataforma	NOUN	NOUN	_	4	conj	_	_
-17	de	_	ADP	ADP	_	18	case	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
 18	câmbio	câmbio	NOUN	NOUN	_	16	nmod	_	_
-19	e	_	CCONJ	CONJ	_	20	cc	_	_
+19	e	e	CCONJ	CONJ	_	20	cc	_	_
 20	ativos	ativo	NOUN	NOUN	_	18	conj	_	_
 21	integradas	integrado	ADJ	ADJ	_	16	amod	_	SpaceAfter=No
-22	,	_	PUNCT	.	_	25	punct	_	_
+22	,	,	PUNCT	.	_	25	punct	_	_
 23-24	no	_	_	_	_	_	_	_	_
 23	em	em	ADP	ADP	_	25	case	_	_
 24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	final	final	NOUN	NOUN	_	4	nmod	_	_
-26	de	_	ADP	ADP	_	27	case	_	_
+26	de	de	ADP	ADP	_	27	case	_	_
 27	2015	_	NUM	NUM	NumType=Card	25	nmod	_	SpaceAfter=No
-28	"	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
-29	,	_	PUNCT	.	_	30	punct	_	_
+28	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
+29	,	,	PUNCT	.	_	30	punct	_	_
 30	informou	informar	VERB	VERB	_	0	root	_	_
-31	o	_	DET	DET	_	32	det	_	_
+31	o	o	DET	DET	_	32	det	_	_
 32	executivo	executivo	NOUN	NOUN	_	30	nsubj	_	SpaceAfter=No
-33	.	_	PUNCT	.	_	30	punct	_	_
+33	.	.	PUNCT	.	_	30	punct	_	_
 
 # sent_id = train-s1340
 # text = Para comentar as matérias é necessário estar autenticado.
 1	Para	_	ADP	ADP	_	2	mark	_	_
 2	comentar	comentar	VERB	VERB	_	5	advcl	_	_
-3	as	_	DET	DET	_	4	det	_	_
+3	as	o	DET	DET	_	4	det	_	_
 4	matérias	matéria	NOUN	NOUN	_	2	obj	_	_
 5	é	ser	VERB	VERB	_	0	root	_	_
 6	necessário	necessário	ADJ	ADJ	_	5	xcomp:adj	_	_
 7	estar	estar	VERB	VERB	_	5	csubj	_	_
 8	autenticado	autenticado	ADJ	ADJ	_	7	xcomp:adj	_	SpaceAfter=No
-9	.	_	PUNCT	.	_	5	punct	_	_
+9	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s1341
 # text = As únicas pendências são em relação à pocentagem dos direitos econômicos.
-1	As	_	DET	DET	_	3	det	_	_
+1	As	o	DET	DET	_	3	det	_	_
 2	únicas	único	ADJ	ADJ	_	3	amod	_	_
 3	pendências	pendência	NOUN	NOUN	_	4	nsubj	_	_
 4	são	ser	VERB	VERB	_	0	root	_	_
-5	em	_	ADP	ADP	_	6	case	_	_
+5	em	em	ADP	ADP	_	6	case	_	_
 6	relação	relação	NOUN	NOUN	_	4	nmod	_	_
 7-8	à	_	_	_	_	_	_	_	_
 7	a	a	ADP	ADP	_	9	case	_	_
@@ -64,132 +64,132 @@
 11	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
 12	direitos	direito	NOUN	NOUN	_	9	nmod	_	_
 13	econômicos	econômico	ADJ	ADJ	_	12	amod	_	SpaceAfter=No
-14	.	_	PUNCT	.	_	4	punct	_	_
+14	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s1342
 # text = Eu brinco que sou amador, porque amo o que eu faço.
 1	Eu	_	PRON	PRON	_	2	nsubj	_	_
 2	brinco	brinco	NOUN	NOUN	_	0	root	_	_
-3	que	_	CCONJ	CONJ	_	4	mark	_	_
+3	que	que	CCONJ	CONJ	_	4	mark	_	_
 4	sou	ser	VERB	VERB	_	2	ccomp	_	_
 5	amador	amador	ADJ	ADJ	_	4	xcomp:adj	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	8	punct	_	_
+6	,	,	PUNCT	.	_	8	punct	_	_
 7	porque	_	CCONJ	CONJ	_	8	mark	_	_
 8	amo	amar	VERB	VERB	_	2	advcl	_	_
 9	o	_	PRON	PRON	_	8	obj	_	_
 10	que	_	PRON	PRON	_	12	obj	_	_
 11	eu	_	PRON	PRON	_	12	nsubj	_	_
 12	faço	fazer	VERB	VERB	_	9	acl:relcl	_	SpaceAfter=No
-13	.	_	PUNCT	.	_	2	punct	_	_
+13	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s1343
 # text = O universitário havia concluído, em 2012, o curso de administração de empresas na PUC - Campinas.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	universitário	universitário	NOUN	NOUN	_	4	nsubj	_	_
 3	havia	haver	AUX	AUX	_	4	aux	_	_
 4	concluído	concluir	VERB	VERB	_	0	root	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	7	punct	_	_
-6	em	_	ADP	ADP	_	7	case	_	_
+5	,	,	PUNCT	.	_	7	punct	_	_
+6	em	em	ADP	ADP	_	7	case	_	_
 7	2012	_	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	7	punct	_	_
-9	o	_	DET	DET	_	10	det	_	_
+8	,	,	PUNCT	.	_	7	punct	_	_
+9	o	o	DET	DET	_	10	det	_	_
 10	curso	curso	NOUN	NOUN	_	4	obj	_	_
-11	de	_	ADP	ADP	_	12	case	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
 12	administração	administração	NOUN	NOUN	_	10	nmod	_	_
-13	de	_	ADP	ADP	_	14	case	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
 14	empresas	empresa	NOUN	NOUN	_	12	nmod	_	_
 15-16	na	_	_	_	_	_	_	_	_
 15	em	em	ADP	ADP	_	17	case	_	_
 16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	PUC	_	PROPN	PNOUN	_	4	nmod	_	_
-18	-	_	PUNCT	.	_	17	punct	_	_
+18	-	-	PUNCT	.	_	17	punct	_	_
 19	Campinas	_	PROPN	PNOUN	_	17	flat	_	SpaceAfter=No
-20	.	_	PUNCT	.	_	4	punct	_	_
+20	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s1344
 # text = A maioria das diretrizes limitam - se a definir uma aparência comum para os aplicativos desenvolvidos para um determinado Ambiente de desktop.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	maioria	maioria	NOUN	NOUN	_	6	nsubj	_	_
 3-4	das	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
 4	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 5	diretrizes	diretriz	NOUN	NOUN	_	2	nmod	_	_
 6	limitam	limitar	VERB	VERB	_	0	root	_	_
-7	-	_	PUNCT	.	_	6	punct	_	_
+7	-	-	PUNCT	.	_	6	punct	_	_
 8	se	_	PART	PRT	_	6	expl:pv	_	_
 9	a	_	ADP	ADP	_	10	mark	_	_
 10	definir	definir	VERB	VERB	_	6	nmod	_	_
-11	uma	_	DET	DET	_	12	det	_	_
+11	uma	um	DET	DET	_	12	det	_	_
 12	aparência	aparência	NOUN	NOUN	_	10	obj	_	_
 13	comum	comum	ADJ	ADJ	_	12	amod	_	_
-14	para	_	ADP	ADP	_	16	case	_	_
-15	os	_	DET	DET	_	16	det	_	_
+14	para	para	ADP	ADP	_	16	case	_	_
+15	os	o	DET	DET	_	16	det	_	_
 16	aplicativos	aplicativo	NOUN	NOUN	_	10	nmod	_	_
 17	desenvolvidos	desenvolver	VERB	VERB	_	16	acl:part	_	_
-18	para	_	ADP	ADP	_	21	case	_	_
-19	um	_	DET	DET	_	21	det	_	_
+18	para	para	ADP	ADP	_	21	case	_	_
+19	um	um	DET	DET	_	21	det	_	_
 20	determinado	determinado	ADJ	ADJ	_	21	amod	_	_
 21	Ambiente	_	PROPN	PNOUN	_	17	nmod	_	_
-22	de	_	ADP	ADP	_	23	case	_	_
+22	de	de	ADP	ADP	_	23	case	_	_
 23	desktop	_	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
-24	.	_	PUNCT	.	_	6	punct	_	_
+24	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s1345
 # text = O CRB inicia nesta segunda - feira a preparação para enfrentar o ABC - RN no próximo sábado (16), às 16h20, no estádio Frasqueirão, em Natal (RN), com o objetivo de conquistar os seus primeiros pontos fora de casa.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	CRB	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	inicia	iniciar	VERB	VERB	_	0	root	_	_
 4	nesta	_	ADP	ADP	_	7	case	_	_
 5	segunda	_	PROPN	PNOUN	_	7	amod	_	_
-6	-	_	PUNCT	.	_	7	punct	_	_
+6	-	-	PUNCT	.	_	7	punct	_	_
 7	feira	_	PROPN	PNOUN	_	3	nmod	_	_
-8	a	_	DET	DET	_	9	det	_	_
+8	a	a	DET	DET	_	9	det	_	_
 9	preparação	preparação	NOUN	NOUN	_	3	obj	_	_
 10	para	_	ADP	ADP	_	11	mark	_	_
 11	enfrentar	enfrentar	VERB	VERB	_	9	nmod	_	_
-12	o	_	DET	DET	_	13	det	_	_
+12	o	o	DET	DET	_	13	det	_	_
 13	ABC	_	PROPN	PNOUN	_	11	obj	_	_
-14	-	_	PUNCT	.	_	13	punct	_	_
+14	-	-	PUNCT	.	_	13	punct	_	_
 15	RN	_	PROPN	PNOUN	_	13	flat	_	_
 16-17	no	_	_	_	_	_	_	_	_
 16	em	em	ADP	ADP	_	19	case	_	_
 17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 18	próximo	próximo	ADJ	ADJ	_	19	amod	_	_
 19	sábado	_	PROPN	PNOUN	_	11	nmod	_	_
-20	(	_	PUNCT	.	_	21	punct	_	SpaceAfter=No
+20	(	(	PUNCT	.	_	21	punct	_	SpaceAfter=No
 21	16	_	NUM	NUM	NumType=Card	19	nmod	_	SpaceAfter=No
-22	)	_	PUNCT	.	_	21	punct	_	SpaceAfter=No
-23	,	_	PUNCT	.	_	26	punct	_	_
+22	)	)	PUNCT	.	_	21	punct	_	SpaceAfter=No
+23	,	,	PUNCT	.	_	26	punct	_	_
 24-25	às	_	_	_	_	_	_	_	_
 24	a	a	ADP	ADP	_	26	case	_	_
 25	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
 26	16h20	_	NUM	NUM	NumType=Card	11	nmod	_	SpaceAfter=No
-27	,	_	PUNCT	.	_	30	punct	_	_
+27	,	,	PUNCT	.	_	30	punct	_	_
 28-29	no	_	_	_	_	_	_	_	_
 28	em	em	ADP	ADP	_	30	case	_	_
 29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	estádio	estádio	NOUN	NOUN	_	11	nmod	_	_
 31	Frasqueirão	_	PROPN	PNOUN	_	30	appos	_	SpaceAfter=No
-32	,	_	PUNCT	.	_	34	punct	_	_
-33	em	_	ADP	ADP	_	34	case	_	_
+32	,	,	PUNCT	.	_	34	punct	_	_
+33	em	em	ADP	ADP	_	34	case	_	_
 34	Natal	_	PROPN	PNOUN	_	11	nmod	_	_
-35	(	_	PUNCT	.	_	36	punct	_	SpaceAfter=No
+35	(	(	PUNCT	.	_	36	punct	_	SpaceAfter=No
 36	RN	_	PROPN	PNOUN	_	34	appos	_	SpaceAfter=No
-37	)	_	PUNCT	.	_	36	punct	_	SpaceAfter=No
-38	,	_	PUNCT	.	_	34	punct	_	_
+37	)	)	PUNCT	.	_	36	punct	_	SpaceAfter=No
+38	,	,	PUNCT	.	_	34	punct	_	_
 39	com	_	ADP	ADP	_	43	mark	_	_
 40	o	_	DET	DET	_	39	fixed	_	_
 41	objetivo	objetivo	NOUN	NOUN	_	39	fixed	_	_
 42	de	_	ADP	ADP	_	39	fixed	_	_
 43	conquistar	conquistar	VERB	VERB	_	3	advcl	_	_
-44	os	_	DET	DET	_	47	det	_	_
+44	os	o	DET	DET	_	47	det	_	_
 45	seus	_	DET	DET	_	47	det:poss	_	_
 46	primeiros	primeiro	ADJ	ADJ	_	47	amod	_	_
 47	pontos	ponto	NOUN	NOUN	_	43	obj	_	_
 48	fora	fora	ADV	ADV	_	43	advmod	_	_
-49	de	_	ADP	ADP	_	50	case	_	_
+49	de	de	ADP	ADP	_	50	case	_	_
 50	casa	casa	NOUN	NOUN	_	48	nmod	_	SpaceAfter=No
-51	.	_	PUNCT	.	_	3	punct	_	_
+51	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s1346
 # text = Cada um faz sua parte, mas vamos fazer de forma consertada ", diz.
@@ -198,31 +198,31 @@
 3	faz	fazer	VERB	VERB	_	15	ccomp	_	_
 4	sua	_	DET	DET	_	5	det:poss	_	_
 5	parte	parte	NOUN	NOUN	_	3	obj	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	9	punct	_	_
+6	,	,	PUNCT	.	_	9	punct	_	_
 7	mas	_	CCONJ	CONJ	_	9	cc	_	_
 8	vamos	ir	AUX	AUX	_	9	aux	_	_
 9	fazer	fazer	VERB	VERB	_	3	conj	_	_
-10	de	_	ADP	ADP	_	11	case	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
 11	forma	forma	NOUN	NOUN	_	9	nmod	_	_
 12	consertada	consertado	ADJ	ADJ	_	11	amod	_	_
-13	"	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
-14	,	_	PUNCT	.	_	15	punct	_	_
+13	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	15	punct	_	_
 15	diz	dizer	VERB	VERB	_	0	root	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	15	punct	_	_
+16	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = train-s1347
 # text = O secretário adjunto de Assistência Social Juciley Magalhães, comentou que é necessário haver políticas públicas e o apoio da comunidade para acontecer à prevenção e o combate às drogas.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	secretário	secretário	NOUN	NOUN	_	10	nsubj	_	_
 3	adjunto	adjunto	ADJ	ADJ	_	2	amod	_	_
-4	de	_	ADP	ADP	_	5	case	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
 5	Assistência	_	PROPN	PNOUN	_	2	nmod	_	_
 6	Social	_	PROPN	PNOUN	_	5	amod	_	_
 7	Juciley	_	PROPN	PNOUN	_	2	appos	_	_
 8	Magalhães	_	PROPN	PNOUN	_	7	flat	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	7	punct	_	_
+9	,	,	PUNCT	.	_	7	punct	_	_
 10	comentou	comentar	VERB	VERB	_	0	root	_	_
-11	que	_	CCONJ	CONJ	_	12	mark	_	_
+11	que	que	CCONJ	CONJ	_	12	mark	_	_
 12	é	ser	VERB	VERB	_	10	ccomp	_	_
 13	necessário	necessário	ADJ	ADJ	_	12	xcomp:adj	_	_
 14	haver	haver	VERB	VERB	_	12	csubj	_	_
@@ -246,7 +246,7 @@
 30	a	a	ADP	ADP	_	32	case	_	_
 31	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
 32	drogas	droga	NOUN	NOUN	_	29	nmod	_	SpaceAfter=No
-33	.	_	PUNCT	.	_	10	punct	_	_
+33	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s1348
 # text = No primeiro semestre de 2012, o banco apresentou um aumento de 21,1 % na quantidade de operações contratadas, em relação a igual período de 2011, conforme balanço financeiro divulgado na última terça - feira pela instituição.
@@ -255,33 +255,33 @@
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	primeiro	primeiro	ADJ	ADJ	_	4	amod	_	_
 4	semestre	semestre	NOUN	NOUN	_	10	nmod	_	_
-5	de	_	ADP	ADP	_	6	case	_	_
+5	de	de	ADP	ADP	_	6	case	_	_
 6	2012	_	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	4	punct	_	_
-8	o	_	DET	DET	_	9	det	_	_
+7	,	,	PUNCT	.	_	4	punct	_	_
+8	o	o	DET	DET	_	9	det	_	_
 9	banco	banco	NOUN	NOUN	_	10	nsubj	_	_
 10	apresentou	apresentar	VERB	VERB	_	0	root	_	_
-11	um	_	DET	DET	_	12	det	_	_
+11	um	um	DET	DET	_	12	det	_	_
 12	aumento	aumento	NOUN	NOUN	_	10	obj	_	_
-13	de	_	ADP	ADP	_	15	case	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
 14	21,1	_	NUM	NUM	NumType=Card	15	nummod	_	_
 15	%	_	SYM	SYM	_	12	nmod	_	_
 16-17	na	_	_	_	_	_	_	_	_
 16	em	em	ADP	ADP	_	18	case	_	_
 17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	quantidade	quantidade	NOUN	NOUN	_	12	nmod	_	_
-19	de	_	ADP	ADP	_	20	case	_	_
+19	de	de	ADP	ADP	_	20	case	_	_
 20	operações	operação	NOUN	NOUN	_	18	nmod	_	_
 21	contratadas	contratado	ADJ	ADJ	_	20	amod	_	SpaceAfter=No
-22	,	_	PUNCT	.	_	24	punct	_	_
-23	em	_	ADP	ADP	_	24	case	_	_
+22	,	,	PUNCT	.	_	24	punct	_	_
+23	em	em	ADP	ADP	_	24	case	_	_
 24	relação	relação	NOUN	NOUN	_	12	nmod	_	_
 25	a	_	ADP	ADP	_	27	case	_	_
 26	igual	igual	ADJ	ADJ	_	27	amod	_	_
 27	período	período	NOUN	NOUN	_	24	nmod	_	_
-28	de	_	ADP	ADP	_	29	case	_	_
+28	de	de	ADP	ADP	_	29	case	_	_
 29	2011	_	NUM	NUM	NumType=Card	27	nmod	_	SpaceAfter=No
-30	,	_	PUNCT	.	_	32	punct	_	_
+30	,	,	PUNCT	.	_	32	punct	_	_
 31	conforme	_	ADP	ADP	_	32	case	_	_
 32	balanço	balanço	NOUN	NOUN	_	10	nmod	_	_
 33	financeiro	financeiro	ADJ	ADJ	_	32	amod	_	_
@@ -291,11 +291,11 @@
 36	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
 37	última	último	ADJ	ADJ	_	40	amod	_	_
 38	terça	_	ADJ	ADJ	_	40	amod	_	_
-39	-	_	PUNCT	.	_	40	punct	_	_
+39	-	-	PUNCT	.	_	40	punct	_	_
 40	feira	_	PROPN	PNOUN	_	34	nmod	_	_
 41-42	pela	_	_	_	_	_	_	_	_
 41	por	por	ADP	ADP	_	43	case	_	_
 42	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
 43	instituição	instituição	NOUN	NOUN	_	34	nmod	_	SpaceAfter=No
-44	.	_	PUNCT	.	_	10	punct	_	_
+44	.	.	PUNCT	.	_	10	punct	_	_
 

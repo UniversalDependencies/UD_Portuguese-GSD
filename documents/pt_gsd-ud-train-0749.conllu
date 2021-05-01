@@ -3,36 +3,36 @@
 1	Nesta	_	ADP	ADP	_	2	case	_	_
 2	faixa	faixa	NOUN	NOUN	_	8	nmod	_	_
 3	etária	etário	ADJ	ADJ	_	2	amod	_	_
-4	as	_	DET	DET	_	5	det	_	_
+4	as	o	DET	DET	_	5	det	_	_
 5	brincadeiras	brincadeira	NOUN	NOUN	_	8	nsubj	_	_
-6	de	_	ADP	ADP	_	7	case	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
 7	rua	rua	NOUN	NOUN	_	5	nmod	_	_
 8	são	ser	VERB	VERB	_	0	root	_	_
 9	bem	bem	ADV	ADV	_	10	advmod	_	_
 10	atrativas	atrativo	ADJ	ADJ	_	8	xcomp:adj	_	_
-11	e	_	CCONJ	CONJ	_	12	cc	_	_
+11	e	e	CCONJ	CONJ	_	12	cc	_	_
 12	saudáveis	saudável	ADJ	ADJ	_	10	conj	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	14	punct	_	_
+13	,	,	PUNCT	.	_	14	punct	_	_
 14	colaborando	colaborar	VERB	VERB	_	8	acl:part	_	_
 15	também	também	ADV	ADV	_	14	advmod	_	_
-16	para	_	ADP	ADP	_	18	case	_	_
-17	a	_	DET	DET	_	18	det	_	_
+16	para	para	ADP	ADP	_	18	case	_	_
+17	a	a	DET	DET	_	18	det	_	_
 18	socialização	socialização	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	8	punct	_	_
+19	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s7437
 # text = Muito preocupante, mesmo.
 1	Muito	muito	ADV	ADV	_	2	advmod	_	_
 2	preocupante	preocupante	ADJ	ADJ	_	0	root	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	4	punct	_	_
+3	,	,	PUNCT	.	_	4	punct	_	_
 4	mesmo	mesmo	ADV	ADV	_	2	advmod	_	SpaceAfter=No
-5	.	_	PUNCT	.	_	2	punct	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s7438
 # text = Leão -- O Sol passa a favorecer suas novas iniciativas, tanto familiar como afetivas.
 1	Leão	_	PROPN	PNOUN	_	7	parataxis	_	_
 2	--	_	PUNCT	.	_	7	punct	_	_
-3	O	_	DET	DET	_	4	det	_	_
+3	O	o	DET	DET	_	4	det	_	_
 4	Sol	_	PROPN	PNOUN	_	7	nsubj	_	_
 5	passa	passar	AUX	AUX	_	7	aux	_	_
 6	a	_	ADP	ADP	_	7	mark	_	_
@@ -40,12 +40,12 @@
 8	suas	_	DET	DET	_	10	det:poss	_	_
 9	novas	novo	ADJ	ADJ	_	10	amod	_	_
 10	iniciativas	iniciativa	NOUN	NOUN	_	7	obj	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	10	punct	_	_
+11	,	,	PUNCT	.	_	10	punct	_	_
 12	tanto	tanto	ADV	ADV	_	13	cc	_	_
 13	familiar	familiar	ADJ	ADJ	_	10	amod	_	_
 14	como	_	CCONJ	CONJ	_	15	cc	_	_
 15	afetivas	afetivo	ADJ	ADJ	_	13	conj	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	7	punct	_	_
+16	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s7439
 # text = Britânica Claire Culverwell teve de gastar R $ 7,1 mil devido ao vício de retirar pelos durante a infância.
@@ -68,9 +68,9 @@
 16	retirar	retirar	VERB	VERB	_	14	nmod	_	_
 17	pelos	pelo	NOUN	NOUN	_	16	obj	_	_
 18	durante	_	ADP	ADP	_	20	case	_	_
-19	a	_	DET	DET	_	20	det	_	_
+19	a	a	DET	DET	_	20	det	_	_
 20	infância	infância	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
-21	.	_	PUNCT	.	_	6	punct	_	_
+21	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s7440
 # text = Ele não resistiu à prisão.
@@ -81,29 +81,29 @@
 4	a	a	ADP	ADP	_	6	case	_	_
 5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	prisão	prisão	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
-7	.	_	PUNCT	.	_	3	punct	_	_
+7	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s7441
 # text = Segundo o vice - presidente de Governo e Habitação da Caixa, José Urbano Duarte, o crescimento nos empréstimos imobiliários pode ser associado ao Programa Caixa Melhor Crédito, lançado pelo banco em abril deste ano, que teve como pilares a redução acentuada das taxas de juros e o aumento do volume de recursos disponíveis ao mercado.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	o	_	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	_	3	det	_	_
 3	vice	_	PART	PRT	_	26	nmod	_	_
-4	-	_	PUNCT	.	_	3	punct	_	_
+4	-	-	PUNCT	.	_	3	punct	_	_
 5	presidente	presidente	NOUN	NOUN	_	3	flat	_	_
-6	de	_	ADP	ADP	_	7	case	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
 7	Governo	_	PROPN	PNOUN	_	3	nmod	_	_
-8	e	_	CCONJ	CONJ	_	9	cc	_	_
+8	e	e	CCONJ	CONJ	_	9	cc	_	_
 9	Habitação	_	PROPN	PNOUN	_	7	conj	_	_
 10-11	da	_	_	_	_	_	_	_	_
 10	de	de	ADP	ADP	_	12	case	_	_
 11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	Caixa	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	14	punct	_	_
+13	,	,	PUNCT	.	_	14	punct	_	_
 14	José	_	PROPN	PNOUN	_	3	appos	_	_
 15	Urbano	_	PROPN	PNOUN	_	14	flat	_	_
 16	Duarte	_	PROPN	PNOUN	_	14	flat	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	3	punct	_	_
-18	o	_	DET	DET	_	19	det	_	_
+17	,	,	PUNCT	.	_	3	punct	_	_
+18	o	o	DET	DET	_	19	det	_	_
 19	crescimento	crescimento	NOUN	NOUN	_	26	nsubj:pass	_	_
 20-21	nos	_	_	_	_	_	_	_	_
 20	em	em	ADP	ADP	_	22	case	_	_
@@ -120,29 +120,29 @@
 30	Caixa	_	PROPN	PNOUN	_	29	flat	_	_
 31	Melhor	_	PROPN	PNOUN	_	29	amod	_	_
 32	Crédito	_	PROPN	PNOUN	_	29	flat	_	SpaceAfter=No
-33	,	_	PUNCT	.	_	34	punct	_	_
+33	,	,	PUNCT	.	_	34	punct	_	_
 34	lançado	lançar	VERB	VERB	_	29	acl:part	_	_
 35-36	pelo	_	_	_	_	_	_	_	_
 35	por	por	ADP	ADP	_	37	case	_	_
 36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
 37	banco	banco	NOUN	NOUN	_	34	nmod	_	_
-38	em	_	ADP	ADP	_	39	case	_	_
+38	em	em	ADP	ADP	_	39	case	_	_
 39	abril	_	PROPN	PNOUN	_	34	nmod	_	_
 40	deste	_	ADP	ADP	_	41	case	_	_
 41	ano	ano	NOUN	NOUN	_	39	nmod	_	SpaceAfter=No
-42	,	_	PUNCT	.	_	44	punct	_	_
+42	,	,	PUNCT	.	_	44	punct	_	_
 43	que	_	PRON	PRON	_	44	nsubj	_	_
 44	teve	ter	VERB	VERB	_	29	acl:relcl	_	_
-45	como	_	ADP	ADP	_	46	case	_	_
+45	como	como	ADP	ADP	_	46	case	_	_
 46	pilares	pilar	NOUN	NOUN	_	44	nmod	_	_
-47	a	_	DET	DET	_	48	det	_	_
+47	a	a	DET	DET	_	48	det	_	_
 48	redução	redução	NOUN	NOUN	_	44	obj	_	_
 49	acentuada	acentuado	ADJ	ADJ	_	48	amod	_	_
 50-51	das	_	_	_	_	_	_	_	_
 50	de	de	ADP	ADP	_	52	case	_	_
 51	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	52	det	_	_
 52	taxas	taxa	NOUN	NOUN	_	48	nmod	_	_
-53	de	_	ADP	ADP	_	54	case	_	_
+53	de	de	ADP	ADP	_	54	case	_	_
 54	juros	juro	NOUN	NOUN	_	52	nmod	_	_
 55	e	e	CCONJ	CONJ	_	57	cc	_	_
 56	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
@@ -151,42 +151,42 @@
 58	de	de	ADP	ADP	_	60	case	_	_
 59	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	60	det	_	_
 60	volume	volume	NOUN	NOUN	_	57	nmod	_	_
-61	de	_	ADP	ADP	_	62	case	_	_
+61	de	de	ADP	ADP	_	62	case	_	_
 62	recursos	recurso	NOUN	NOUN	_	60	nmod	_	_
 63	disponíveis	disponível	ADJ	ADJ	_	62	amod	_	_
 64-65	ao	_	_	_	_	_	_	_	_
 64	a	a	ADP	ADP	_	66	case	_	_
 65	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	66	det	_	_
 66	mercado	mercado	NOUN	NOUN	_	63	nmod	_	SpaceAfter=No
-67	.	_	PUNCT	.	_	26	punct	_	_
+67	.	.	PUNCT	.	_	26	punct	_	_
 
 # sent_id = train-s7442
 # text = De acordo com o Instituto Nacional de Câncer (Inca), o sintoma mais comum é o sangramento anal vivo durante a evacuação, associado à dor na região do ânus.
 1	De	_	ADP	ADP	_	2	case	_	_
 2	acordo	acordo	NOUN	NOUN	_	19	nmod	_	_
-3	com	_	ADP	ADP	_	5	case	_	_
-4	o	_	DET	DET	_	5	det	_	_
+3	com	com	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	_	5	det	_	_
 5	Instituto	_	PROPN	PNOUN	_	2	nmod	_	_
 6	Nacional	_	PROPN	PNOUN	_	5	amod	_	_
-7	de	_	ADP	ADP	_	8	case	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
 8	Câncer	_	PROPN	PNOUN	_	5	nmod	_	_
-9	(	_	PUNCT	.	_	10	punct	_	SpaceAfter=No
+9	(	(	PUNCT	.	_	10	punct	_	SpaceAfter=No
 10	Inca	_	PROPN	PNOUN	_	5	appos	_	SpaceAfter=No
-11	)	_	PUNCT	.	_	10	punct	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	2	punct	_	_
-13	o	_	DET	DET	_	14	det	_	_
+11	)	)	PUNCT	.	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	.	_	2	punct	_	_
+13	o	o	DET	DET	_	14	det	_	_
 14	sintoma	sintoma	NOUN	NOUN	_	19	nsubj	_	_
 15	mais	mais	ADV	ADV	_	16	advmod	_	_
 16	comum	comum	ADJ	ADJ	_	14	amod	_	_
 17	é	ser	AUX	AUX	_	19	cop	_	_
-18	o	_	DET	DET	_	19	det	_	_
+18	o	o	DET	DET	_	19	det	_	_
 19	sangramento	sangramento	NOUN	NOUN	_	0	root	_	_
 20	anal	anal	ADJ	ADJ	_	19	amod	_	_
 21	vivo	vivo	ADJ	ADJ	_	19	amod	_	_
 22	durante	_	ADP	ADP	_	24	case	_	_
-23	a	_	DET	DET	_	24	det	_	_
+23	a	a	DET	DET	_	24	det	_	_
 24	evacuação	evacuação	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
-25	,	_	PUNCT	.	_	26	punct	_	_
+25	,	,	PUNCT	.	_	26	punct	_	_
 26	associado	associar	VERB	VERB	_	19	acl:part	_	_
 27-28	à	_	_	_	_	_	_	_	_
 27	a	a	ADP	ADP	_	29	case	_	_
@@ -200,18 +200,18 @@
 33	de	de	ADP	ADP	_	35	case	_	_
 34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	ânus	ânus	NOUN	NOUN	_	32	nmod	_	SpaceAfter=No
-36	.	_	PUNCT	.	_	19	punct	_	_
+36	.	.	PUNCT	.	_	19	punct	_	_
 
 # sent_id = train-s7443
 # text = "Mesmo que as pessoas estejam endividadas, grande parte do 13 º salário é reservada para gastos e presentes no fim do ano.
-1	"	_	PUNCT	.	_	17	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	17	punct	_	SpaceAfter=No
 2	Mesmo	mesmo	ADV	ADV	_	6	mark	_	_
 3	que	_	CCONJ	CONJ	_	2	fixed	_	_
-4	as	_	DET	DET	_	5	det	_	_
+4	as	o	DET	DET	_	5	det	_	_
 5	pessoas	pessoa	NOUN	NOUN	_	6	nsubj	_	_
 6	estejam	estar	VERB	VERB	_	17	advcl	_	_
 7	endividadas	endividado	ADJ	ADJ	_	6	xcomp:adj	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	6	punct	_	_
+8	,	,	PUNCT	.	_	6	punct	_	_
 9	grande	grande	ADJ	ADJ	_	10	amod	_	_
 10	parte	parte	NOUN	NOUN	_	17	nsubj:pass	_	_
 11-12	do	_	_	_	_	_	_	_	_
@@ -222,9 +222,9 @@
 15	salário	salário	NOUN	NOUN	_	10	nmod	_	_
 16	é	ser	AUX	AUX	_	17	aux	_	_
 17	reservada	reservar	VERB	VERB	_	0	root	_	_
-18	para	_	ADP	ADP	_	19	case	_	_
+18	para	para	ADP	ADP	_	19	case	_	_
 19	gastos	gasto	NOUN	NOUN	_	17	nmod	_	_
-20	e	_	CCONJ	CONJ	_	21	cc	_	_
+20	e	e	CCONJ	CONJ	_	21	cc	_	_
 21	presentes	_	NOUN	NOUN	_	19	conj	_	_
 22-23	no	_	_	_	_	_	_	_	_
 22	em	em	ADP	ADP	_	24	case	_	_
@@ -234,7 +234,7 @@
 25	de	de	ADP	ADP	_	27	case	_	_
 26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	ano	ano	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
-28	.	_	PUNCT	.	_	17	punct	_	_
+28	.	.	PUNCT	.	_	17	punct	_	_
 
 # sent_id = train-s7444
 # text = Cientistas da agência espacial americana (Nasa) que atuam no projeto "IceBridge" ("Ponte de Gelo", na tradução do inglês), de monitoramento do gelo dos polos e efeitos do aquecimento global, criaram novas técnicas que têm acelerado o processamento de dados sobre estas regiões do planeta.
@@ -245,25 +245,25 @@
 4	agência	agência	NOUN	NOUN	_	1	nmod	_	_
 5	espacial	espacial	ADJ	ADJ	_	4	amod	_	_
 6	americana	americano	ADJ	ADJ	_	4	amod	_	_
-7	(	_	PUNCT	.	_	8	punct	_	SpaceAfter=No
+7	(	(	PUNCT	.	_	8	punct	_	SpaceAfter=No
 8	Nasa	_	PROPN	PNOUN	_	4	appos	_	SpaceAfter=No
-9	)	_	PUNCT	.	_	8	punct	_	_
+9	)	)	PUNCT	.	_	8	punct	_	_
 10	que	_	PRON	PRON	_	11	nsubj	_	_
 11	atuam	_	VERB	VERB	_	1	acl:relcl	_	_
 12-13	no	_	_	_	_	_	_	_	_
 12	em	em	ADP	ADP	_	14	case	_	_
 13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	projeto	projeto	NOUN	NOUN	_	11	nmod	_	_
-15	"	_	PUNCT	.	_	16	punct	_	SpaceAfter=No
+15	"	"	PUNCT	.	_	16	punct	_	SpaceAfter=No
 16	IceBridge	_	PROPN	PNOUN	_	14	appos	_	SpaceAfter=No
-17	"	_	PUNCT	.	_	16	punct	_	_
-18	(	_	PUNCT	.	_	20	punct	_	SpaceAfter=No
-19	"	_	PUNCT	.	_	20	punct	_	SpaceAfter=No
+17	"	"	PUNCT	.	_	16	punct	_	_
+18	(	(	PUNCT	.	_	20	punct	_	SpaceAfter=No
+19	"	"	PUNCT	.	_	20	punct	_	SpaceAfter=No
 20	Ponte	_	PROPN	PNOUN	_	16	appos	_	_
-21	de	_	ADP	ADP	_	22	case	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
 22	Gelo	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
-23	"	_	PUNCT	.	_	20	punct	_	SpaceAfter=No
-24	,	_	PUNCT	.	_	27	punct	_	_
+23	"	"	PUNCT	.	_	20	punct	_	SpaceAfter=No
+24	,	,	PUNCT	.	_	27	punct	_	_
 25-26	na	_	_	_	_	_	_	_	_
 25	em	em	ADP	ADP	_	27	case	_	_
 26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
@@ -272,9 +272,9 @@
 28	de	de	ADP	ADP	_	30	case	_	_
 29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	inglês	inglês	NOUN	NOUN	_	27	nmod	_	SpaceAfter=No
-31	)	_	PUNCT	.	_	20	punct	_	SpaceAfter=No
-32	,	_	PUNCT	.	_	34	punct	_	_
-33	de	_	ADP	ADP	_	34	case	_	_
+31	)	)	PUNCT	.	_	20	punct	_	SpaceAfter=No
+32	,	,	PUNCT	.	_	34	punct	_	_
+33	de	de	ADP	ADP	_	34	case	_	_
 34	monitoramento	monitoramento	NOUN	NOUN	_	14	nmod	_	_
 35-36	do	_	_	_	_	_	_	_	_
 35	de	de	ADP	ADP	_	37	case	_	_
@@ -284,23 +284,23 @@
 38	de	de	ADP	ADP	_	40	case	_	_
 39	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
 40	polos	polo	NOUN	NOUN	_	37	nmod	_	_
-41	e	_	CCONJ	CONJ	_	42	cc	_	_
+41	e	e	CCONJ	CONJ	_	42	cc	_	_
 42	efeitos	efeito	NOUN	NOUN	_	37	conj	_	_
 43-44	do	_	_	_	_	_	_	_	_
 43	de	de	ADP	ADP	_	45	case	_	_
 44	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
 45	aquecimento	aquecimento	NOUN	NOUN	_	42	nmod	_	_
 46	global	global	ADJ	ADJ	_	45	amod	_	SpaceAfter=No
-47	,	_	PUNCT	.	_	11	punct	_	_
+47	,	,	PUNCT	.	_	11	punct	_	_
 48	criaram	criar	VERB	VERB	_	0	root	_	_
 49	novas	novo	ADJ	ADJ	_	50	amod	_	_
 50	técnicas	_	NOUN	NOUN	_	48	obj	_	_
 51	que	_	PRON	PRON	_	53	nsubj	_	_
 52	têm	ter	AUX	AUX	_	53	aux	_	_
 53	acelerado	acelerar	VERB	VERB	_	50	acl:relcl	_	_
-54	o	_	DET	DET	_	55	det	_	_
+54	o	o	DET	DET	_	55	det	_	_
 55	processamento	processamento	NOUN	NOUN	_	53	obj	_	_
-56	de	_	ADP	ADP	_	57	case	_	_
+56	de	de	ADP	ADP	_	57	case	_	_
 57	dados	dado	NOUN	NOUN	_	55	nmod	_	_
 58	sobre	_	ADP	ADP	_	60	case	_	_
 59	estas	_	DET	DET	_	60	det	_	_
@@ -309,7 +309,7 @@
 61	de	de	ADP	ADP	_	63	case	_	_
 62	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	63	det	_	_
 63	planeta	planeta	NOUN	NOUN	_	60	nmod	_	SpaceAfter=No
-64	.	_	PUNCT	.	_	48	punct	_	_
+64	.	.	PUNCT	.	_	48	punct	_	_
 
 # sent_id = train-s7445
 # text = Se ele quiser ir, não ficaremos contra ", ressaltou o dirigente.
@@ -317,14 +317,14 @@
 2	ele	_	PRON	PRON	_	3	nsubj	_	_
 3	quiser	querer	VERB	VERB	_	7	advcl	_	_
 4	ir	ir	VERB	VERB	_	3	xcomp	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	3	punct	_	_
+5	,	,	PUNCT	.	_	3	punct	_	_
 6	não	não	ADV	ADV	Polarity=Neg	7	advmod	_	_
 7	ficaremos	ficar	VERB	VERB	_	11	ccomp	_	_
 8	contra	contra	ADV	ADV	_	7	advmod	_	_
-9	"	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	11	punct	_	_
+9	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	11	punct	_	_
 11	ressaltou	ressaltar	VERB	VERB	_	0	root	_	_
-12	o	_	DET	DET	_	13	det	_	_
+12	o	o	DET	DET	_	13	det	_	_
 13	dirigente	dirigente	NOUN	NOUN	_	11	nsubj	_	SpaceAfter=No
-14	.	_	PUNCT	.	_	11	punct	_	_
+14	.	.	PUNCT	.	_	11	punct	_	_
 

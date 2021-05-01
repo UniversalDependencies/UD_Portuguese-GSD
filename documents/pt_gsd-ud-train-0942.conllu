@@ -1,37 +1,37 @@
 # sent_id = train-s9347
 # text = Entre os incentivos dados, foi reduzido o IPI para automóveis, artigos da linha branca, móveis, material de construção, entre outros.
 1	Entre	_	ADP	ADP	_	3	case	_	_
-2	os	_	DET	DET	_	3	det	_	_
+2	os	o	DET	DET	_	3	det	_	_
 3	incentivos	incentivo	NOUN	NOUN	_	7	nmod	_	_
 4	dados	dar	VERB	VERB	_	3	acl:part	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	3	punct	_	_
+5	,	,	PUNCT	.	_	3	punct	_	_
 6	foi	_	AUX	AUX	_	7	aux:pass	_	_
 7	reduzido	reduzir	VERB	VERB	_	0	root	_	_
-8	o	_	DET	DET	_	9	det	_	_
+8	o	o	DET	DET	_	9	det	_	_
 9	IPI	_	PROPN	PNOUN	_	7	nsubj:pass	_	_
-10	para	_	ADP	ADP	_	11	case	_	_
+10	para	para	ADP	ADP	_	11	case	_	_
 11	automóveis	automóvel	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	13	punct	_	_
+12	,	,	PUNCT	.	_	13	punct	_	_
 13	artigos	artigo	NOUN	NOUN	_	11	conj	_	_
 14-15	da	_	_	_	_	_	_	_	_
 14	de	de	ADP	ADP	_	16	case	_	_
 15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	linha	_	NOUN	NOUN	_	13	nmod	_	_
 17	branca	branco	ADJ	ADJ	_	16	amod	_	SpaceAfter=No
-18	,	_	PUNCT	.	_	19	punct	_	_
+18	,	,	PUNCT	.	_	19	punct	_	_
 19	móveis	_	NOUN	NOUN	_	11	conj	_	SpaceAfter=No
-20	,	_	PUNCT	.	_	21	punct	_	_
+20	,	,	PUNCT	.	_	21	punct	_	_
 21	material	material	NOUN	NOUN	_	11	conj	_	_
-22	de	_	ADP	ADP	_	23	case	_	_
+22	de	de	ADP	ADP	_	23	case	_	_
 23	construção	construção	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
-24	,	_	PUNCT	.	_	26	punct	_	_
+24	,	,	PUNCT	.	_	26	punct	_	_
 25	entre	_	ADP	ADP	_	26	case	_	_
 26	outros	_	PRON	PRON	_	11	nmod	_	SpaceAfter=No
-27	.	_	PUNCT	.	_	7	punct	_	_
+27	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s9348
 # text = O Estado do Pará continua sendo o mais atingido pelos criminosos.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	Estado	_	PROPN	PNOUN	_	7	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -39,21 +39,21 @@
 5	Pará	_	PROPN	PNOUN	_	2	nmod	_	_
 6	continua	continuar	AUX	AUX	_	7	aux	_	_
 7	sendo	ser	VERB	VERB	_	0	root	_	_
-8	o	_	DET	DET	_	9	det	_	_
+8	o	o	DET	DET	_	9	det	_	_
 9	mais	mais	ADV	ADV	_	10	advmod	_	_
 10	atingido	atingido	ADJ	ADJ	_	7	xcomp:adj	_	_
 11-12	pelos	_	_	_	_	_	_	_	_
 11	por	por	ADP	ADP	_	13	case	_	_
 12	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 13	criminosos	criminoso	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
-14	.	_	PUNCT	.	_	7	punct	_	_
+14	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s9349
 # text = Esta não é a primeira ação do Vitória relacionada à questão ambiental.
 1	Esta	_	PRON	PRON	_	6	nsubj	_	_
 2	não	não	ADV	ADV	Polarity=Neg	6	advmod	_	_
 3	é	ser	AUX	AUX	_	6	cop	_	_
-4	a	_	DET	DET	_	6	det	_	_
+4	a	a	DET	DET	_	6	det	_	_
 5	primeira	primeiro	ADJ	ADJ	_	6	amod	_	_
 6	ação	ação	NOUN	NOUN	_	0	root	_	_
 7-8	do	_	_	_	_	_	_	_	_
@@ -66,7 +66,7 @@
 12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	questão	questão	NOUN	NOUN	_	10	nmod	_	_
 14	ambiental	ambiental	ADJ	ADJ	_	13	amod	_	SpaceAfter=No
-15	.	_	PUNCT	.	_	6	punct	_	_
+15	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s9350
 # text = Se eu fizesse isso, pareceria grávida, ou uma stripper gorda ", brinca.
@@ -74,18 +74,18 @@
 2	eu	_	PRON	PRON	_	3	nsubj	_	_
 3	fizesse	fazer	VERB	VERB	_	6	advcl	_	_
 4	isso	_	PRON	PRON	_	3	obj	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	3	punct	_	_
+5	,	,	PUNCT	.	_	3	punct	_	_
 6	pareceria	parecer	VERB	VERB	_	15	ccomp	_	_
 7	grávida	_	ADJ	ADJ	_	6	xcomp:adj	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	11	punct	_	_
-9	ou	_	CCONJ	CONJ	_	11	cc	_	_
-10	uma	_	DET	DET	_	11	det	_	_
+8	,	,	PUNCT	.	_	11	punct	_	_
+9	ou	ou	CCONJ	CONJ	_	11	cc	_	_
+10	uma	um	DET	DET	_	11	det	_	_
 11	stripper	_	NOUN	NOUN	_	7	conj	_	_
 12	gorda	gordo	ADJ	ADJ	_	11	amod	_	_
-13	"	_	PUNCT	.	_	6	punct	_	SpaceAfter=No
-14	,	_	PUNCT	.	_	15	punct	_	_
+13	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	15	punct	_	_
 15	brinca	brincar	VERB	VERB	_	0	root	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	15	punct	_	_
+16	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = train-s9351
 # text = Atletas da geração que hoje está na faixa de 30 a 35 anos, em média, geralmente são mais capacitados tecnicamente do que os jovens de hoje, que correm muito e ainda pensam pouco.
@@ -101,15 +101,15 @@
 8	em	em	ADP	ADP	_	10	case	_	_
 9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	faixa	faixa	NOUN	NOUN	_	7	nmod	_	_
-11	de	_	ADP	ADP	_	12	case	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
 12	30	_	NUM	NUM	NumType=Card	10	nmod	_	_
 13	a	_	ADP	ADP	_	15	case	_	_
 14	35	_	NUM	NUM	NumType=Card	15	nummod	_	_
 15	anos	ano	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	18	punct	_	_
-17	em	_	ADP	ADP	_	18	case	_	_
+16	,	,	PUNCT	.	_	18	punct	_	_
+17	em	em	ADP	ADP	_	18	case	_	_
 18	média	_	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-19	,	_	PUNCT	.	_	18	punct	_	_
+19	,	,	PUNCT	.	_	18	punct	_	_
 20	geralmente	geralmente	ADV	ADV	_	21	advmod	_	_
 21	são	ser	VERB	VERB	_	0	root	_	_
 22	mais	mais	ADV	ADV	_	23	advmod	_	_
@@ -119,33 +119,33 @@
 25	de	de	ADP	ADP	_	29	case	_	_
 26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 27	que	_	ADP	ADP	_	25	fixed	_	_
-28	os	_	DET	DET	_	29	det	_	_
+28	os	o	DET	DET	_	29	det	_	_
 29	jovens	jovem	NOUN	NOUN	_	21	nmod	_	_
 30	de	_	ADP	ADP	_	31	mark	_	_
 31	hoje	hoje	ADV	ADV	_	29	nmod	_	SpaceAfter=No
-32	,	_	PUNCT	.	_	34	punct	_	_
+32	,	,	PUNCT	.	_	34	punct	_	_
 33	que	_	PRON	PRON	_	34	nsubj	_	_
 34	correm	correr	VERB	VERB	_	29	acl:relcl	_	_
 35	muito	muito	ADV	ADV	_	34	advmod	_	_
-36	e	_	CCONJ	CONJ	_	38	cc	_	_
+36	e	e	CCONJ	CONJ	_	38	cc	_	_
 37	ainda	ainda	ADV	ADV	_	38	advmod	_	_
 38	pensam	pensar	VERB	VERB	_	34	conj	_	_
 39	pouco	pouco	ADV	ADV	_	38	advmod	_	SpaceAfter=No
-40	.	_	PUNCT	.	_	21	punct	_	_
+40	.	.	PUNCT	.	_	21	punct	_	_
 
 # sent_id = train-s9352
 # text = De acordo com o TJ, em agosto de 2009 o noivo da bancária a avisou que fotos dela fazendo sexo com um homem estavam sendo compartilhadas por e - mail.
 1	De	_	ADP	ADP	_	2	case	_	_
 2	acordo	acordo	NOUN	NOUN	_	17	nmod	_	_
-3	com	_	ADP	ADP	_	5	case	_	_
-4	o	_	DET	DET	_	5	det	_	_
+3	com	com	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	_	5	det	_	_
 5	TJ	_	PROPN	PNOUN	_	2	nmod	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	2	punct	_	_
-7	em	_	ADP	ADP	_	8	case	_	_
+6	,	,	PUNCT	.	_	2	punct	_	_
+7	em	em	ADP	ADP	_	8	case	_	_
 8	agosto	_	PROPN	PNOUN	_	17	nmod	_	_
-9	de	_	ADP	ADP	_	10	case	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
 10	2009	_	NUM	NUM	NumType=Card	8	nmod	_	_
-11	o	_	DET	DET	_	12	det	_	_
+11	o	o	DET	DET	_	12	det	_	_
 12	noivo	noivo	NOUN	NOUN	_	17	nsubj	_	_
 13-14	da	_	_	_	_	_	_	_	_
 13	de	de	ADP	ADP	_	15	case	_	_
@@ -153,50 +153,50 @@
 15	bancária	bancário	NOUN	NOUN	_	12	nmod	_	_
 16	a	_	PRON	PRON	_	17	obj	_	_
 17	avisou	avisar	VERB	VERB	_	0	root	_	_
-18	que	_	CCONJ	CONJ	_	28	mark	_	_
+18	que	que	CCONJ	CONJ	_	28	mark	_	_
 19	fotos	foto	NOUN	NOUN	_	28	nsubj	_	_
 20	dela	_	X	ADPPRON	_	19	det:poss	_	_
 21	fazendo	fazer	VERB	VERB	_	20	acl:part	_	_
 22	sexo	sexo	NOUN	NOUN	_	21	obj	_	_
-23	com	_	ADP	ADP	_	25	case	_	_
-24	um	_	DET	DET	_	25	det	_	_
+23	com	com	ADP	ADP	_	25	case	_	_
+24	um	um	DET	DET	_	25	det	_	_
 25	homem	homem	NOUN	NOUN	_	22	nmod	_	_
 26	estavam	estar	AUX	AUX	_	28	aux	_	_
 27	sendo	ser	AUX	AUX	_	28	aux:pass	_	_
 28	compartilhadas	compartilhar	VERB	VERB	_	17	mark	_	_
-29	por	_	ADP	ADP	_	32	case	_	_
+29	por	por	ADP	ADP	_	32	case	_	_
 30	e	_	ADJ	ADJ	_	32	amod	_	_
-31	-	_	PUNCT	.	_	32	punct	_	_
+31	-	-	PUNCT	.	_	32	punct	_	_
 32	mail	mail	NOUN	NOUN	_	28	nmod	_	SpaceAfter=No
-33	.	_	PUNCT	.	_	28	punct	_	_
+33	.	.	PUNCT	.	_	28	punct	_	_
 
 # sent_id = train-s9353
 # text = Com o resultado, o país fica à frente de economias como a do Reino Unido, mas o aumento de 12 % da inadimplência do brasileiro nos últimos cinco anos preocupa.
 1	Com	_	ADP	ADP	_	3	case	_	_
-2	o	_	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	_	3	det	_	_
 3	resultado	resultado	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
-5	o	_	DET	DET	_	6	det	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	o	o	DET	DET	_	6	det	_	_
 6	país	país	NOUN	NOUN	_	7	nsubj	_	_
 7	fica	ficar	VERB	VERB	_	0	root	_	_
 8-9	à	_	_	_	_	_	_	_	_
 8	a	a	ADP	ADP	_	10	case	_	_
 9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	frente	frente	NOUN	NOUN	_	7	nmod	_	_
-11	de	_	ADP	ADP	_	12	case	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
 12	economias	economia	NOUN	NOUN	_	10	nmod	_	_
-13	como	_	ADP	ADP	_	14	case	_	_
+13	como	como	ADP	ADP	_	14	case	_	_
 14	a	_	PRON	PRON	_	12	nmod	_	_
 15-16	do	_	_	_	_	_	_	_	_
 15	de	de	ADP	ADP	_	17	case	_	_
 16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	Reino	_	PROPN	PNOUN	_	14	nmod	_	_
 18	Unido	_	PROPN	PNOUN	_	17	amod	_	SpaceAfter=No
-19	,	_	PUNCT	.	_	37	punct	_	_
+19	,	,	PUNCT	.	_	37	punct	_	_
 20	mas	_	CCONJ	CONJ	_	37	cc	_	_
-21	o	_	DET	DET	_	22	det	_	_
+21	o	o	DET	DET	_	22	det	_	_
 22	aumento	aumento	NOUN	NOUN	_	37	nsubj	_	_
-23	de	_	ADP	ADP	_	25	case	_	_
+23	de	de	ADP	ADP	_	25	case	_	_
 24	12	_	NUM	NUM	NumType=Card	25	nummod	_	_
 25	%	_	SYM	SYM	_	22	nmod	_	_
 26-27	da	_	_	_	_	_	_	_	_
@@ -214,7 +214,7 @@
 35	cinco	_	NUM	NUM	NumType=Card	36	nummod	_	_
 36	anos	ano	NOUN	NOUN	_	22	nmod	_	_
 37	preocupa	preocupar	VERB	VERB	_	7	conj	_	SpaceAfter=No
-38	.	_	PUNCT	.	_	7	punct	_	_
+38	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s9354
 # text = Teremos outras opções e o Neymar vai ter mais facilidade.
@@ -228,31 +228,31 @@
 8	ter	ter	VERB	VERB	_	1	conj	_	_
 9	mais	_	DET	DET	_	10	det	_	_
 10	facilidade	facilidade	NOUN	NOUN	_	8	obj	_	SpaceAfter=No
-11	.	_	PUNCT	.	_	1	punct	_	_
+11	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s9355
 # text = Os valores do VEP e os preços de abertura, em R $ por quilo, ICMS excluso, serão divulgados até dois dias antes da realização do leilão.
-1	Os	_	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	_	2	det	_	_
 2	valores	_	NOUN	NOUN	_	22	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
 4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	VEP	_	PROPN	PNOUN	_	2	nmod	_	_
-6	e	_	CCONJ	CONJ	_	8	cc	_	_
-7	os	_	DET	DET	_	8	det	_	_
+6	e	e	CCONJ	CONJ	_	8	cc	_	_
+7	os	o	DET	DET	_	8	det	_	_
 8	preços	preço	NOUN	NOUN	_	2	conj	_	_
-9	de	_	ADP	ADP	_	10	case	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
 10	abertura	abertura	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	13	punct	_	_
-12	em	_	ADP	ADP	_	13	case	_	_
+11	,	,	PUNCT	.	_	13	punct	_	_
+12	em	em	ADP	ADP	_	13	case	_	_
 13	R	r	NOUN	NOUN	_	8	nmod	_	_
 14	$	_	SYM	SYM	_	13	flat	_	_
-15	por	_	ADP	ADP	_	16	case	_	_
+15	por	por	ADP	ADP	_	16	case	_	_
 16	quilo	quilo	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	18	punct	_	_
+17	,	,	PUNCT	.	_	18	punct	_	_
 18	ICMS	_	PROPN	PNOUN	_	8	appos	_	_
 19	excluso	excluso	ADJ	ADJ	_	18	amod	_	SpaceAfter=No
-20	,	_	PUNCT	.	_	18	punct	_	_
+20	,	,	PUNCT	.	_	18	punct	_	_
 21	serão	ser	AUX	AUX	_	22	aux:pass	_	_
 22	divulgados	divulgar	VERB	VERB	_	0	root	_	_
 23	até	_	ADP	ADP	_	24	advmod	_	_
@@ -267,7 +267,7 @@
 30	de	de	ADP	ADP	_	32	case	_	_
 31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	leilão	leilão	NOUN	NOUN	_	29	nmod	_	SpaceAfter=No
-33	.	_	PUNCT	.	_	22	punct	_	_
+33	.	.	PUNCT	.	_	22	punct	_	_
 
 # sent_id = train-s9356
 # text = Ao contrário do festival Woodstock (tanto o 1 como o 2), o Live Aid conseguiu tocar não somente os bolsos e as mentes das pessoas, mas também os corações.
@@ -280,35 +280,35 @@
 5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	festival	festival	NOUN	NOUN	_	3	nmod	_	_
 7	Woodstock	_	PROPN	PNOUN	_	6	appos	_	_
-8	(	_	PUNCT	.	_	11	punct	_	SpaceAfter=No
+8	(	(	PUNCT	.	_	11	punct	_	SpaceAfter=No
 9	tanto	_	CCONJ	CONJ	_	11	cc	_	_
-10	o	_	DET	DET	_	11	det	_	_
+10	o	o	DET	DET	_	11	det	_	_
 11	1	_	NUM	NUM	NumType=Card	6	appos	_	_
 12	como	_	CCONJ	CONJ	_	11	conj	_	_
-13	o	_	DET	DET	_	14	det	_	_
+13	o	o	DET	DET	_	14	det	_	_
 14	2	_	NUM	NUM	NumType=Card	11	conj	_	SpaceAfter=No
-15	)	_	PUNCT	.	_	11	punct	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	3	punct	_	_
-17	o	_	DET	DET	_	19	det	_	_
+15	)	)	PUNCT	.	_	11	punct	_	SpaceAfter=No
+16	,	,	PUNCT	.	_	3	punct	_	_
+17	o	o	DET	DET	_	19	det	_	_
 18	Live	_	PROPN	PNOUN	_	19	amod	_	_
 19	Aid	_	PROPN	PNOUN	_	20	nsubj	_	_
 20	conseguiu	conseguir	VERB	VERB	_	0	root	_	_
 21	tocar	tocar	VERB	VERB	_	20	xcomp	_	_
 22	não	não	ADV	ADV	Polarity=Neg	23	advmod	_	_
 23	somente	somente	ADV	ADV	_	25	advmod	_	_
-24	os	_	DET	DET	_	25	det	_	_
+24	os	o	DET	DET	_	25	det	_	_
 25	bolsos	bolso	NOUN	NOUN	_	21	obj	_	_
-26	e	_	CCONJ	CONJ	_	28	cc	_	_
-27	as	_	DET	DET	_	28	det	_	_
+26	e	e	CCONJ	CONJ	_	28	cc	_	_
+27	as	o	DET	DET	_	28	det	_	_
 28	mentes	mente	NOUN	NOUN	_	25	conj	_	_
 29-30	das	_	_	_	_	_	_	_	_
 29	de	de	ADP	ADP	_	31	case	_	_
 30	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
 31	pessoas	pessoa	NOUN	NOUN	_	28	nmod	_	SpaceAfter=No
-32	,	_	PUNCT	.	_	36	punct	_	_
+32	,	,	PUNCT	.	_	36	punct	_	_
 33	mas	_	CCONJ	CONJ	_	36	cc	_	_
 34	também	também	ADV	ADV	_	25	advmod	_	_
-35	os	_	DET	DET	_	36	det	_	_
+35	os	o	DET	DET	_	36	det	_	_
 36	corações	coração	NOUN	NOUN	_	25	conj	_	SpaceAfter=No
-37	.	_	PUNCT	.	_	20	punct	_	_
+37	.	.	PUNCT	.	_	20	punct	_	_
 

@@ -1,13 +1,13 @@
 # sent_id = train-s7456
 # text = A presidente da mesa será a Promotora Eleitoral Rosângela Corrêa da Rosa.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	presidente	presidente	NOUN	NOUN	_	8	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
 4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	mesa	mesa	NOUN	NOUN	_	2	nmod	_	_
 6	será	ser	AUX	AUX	_	8	cop	_	_
-7	a	_	DET	DET	_	8	det	_	_
+7	a	a	DET	DET	_	8	det	_	_
 8	Promotora	_	PROPN	PNOUN	_	0	root	_	_
 9	Eleitoral	_	PROPN	PNOUN	_	8	amod	_	_
 10	Rosângela	_	PROPN	PNOUN	_	8	appos	_	_
@@ -16,7 +16,7 @@
 12	de	de	ADP	ADP	_	14	case	_	_
 13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	Rosa	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
-15	.	_	PUNCT	.	_	8	punct	_	_
+15	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s7457
 # text = É isso que vejo ela.
@@ -25,21 +25,21 @@
 3	que	_	PRON	PRON	_	4	nsubj	_	_
 4	vejo	ver	VERB	VERB	_	2	acl:relcl	_	_
 5	ela	_	PRON	PRON	_	4	dep	_	SpaceAfter=No
-6	.	_	PUNCT	.	_	1	punct	_	_
+6	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s7458
 # text = Em nota responderam ainda que no monitoramento "as edificações do entorno não apresentam risco estrutural".
-1	Em	_	ADP	ADP	_	2	case	_	_
+1	Em	em	ADP	ADP	_	2	case	_	_
 2	nota	nota	NOUN	NOUN	_	3	nmod	_	_
 3	responderam	responder	VERB	VERB	_	0	root	_	_
 4	ainda	ainda	ADV	ADV	_	3	advmod	_	_
-5	que	_	CCONJ	CONJ	_	16	mark	_	_
+5	que	que	CCONJ	CONJ	_	16	mark	_	_
 6-7	no	_	_	_	_	_	_	_	_
 6	em	em	ADP	ADP	_	8	case	_	_
 7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	monitoramento	monitoramento	NOUN	NOUN	_	16	nmod	_	_
-9	"	_	PUNCT	.	_	16	punct	_	SpaceAfter=No
-10	as	_	DET	DET	_	11	det	_	_
+9	"	"	PUNCT	.	_	16	punct	_	SpaceAfter=No
+10	as	o	DET	DET	_	11	det	_	_
 11	edificações	edificação	NOUN	NOUN	_	16	nsubj	_	_
 12-13	do	_	_	_	_	_	_	_	_
 12	de	de	ADP	ADP	_	14	case	_	_
@@ -49,67 +49,67 @@
 16	apresentam	apresentar	VERB	VERB	_	3	ccomp	_	_
 17	risco	risco	NOUN	NOUN	_	16	obj	_	_
 18	estrutural	estrutural	ADJ	ADJ	_	17	amod	_	SpaceAfter=No
-19	"	_	PUNCT	.	_	16	punct	_	SpaceAfter=No
-20	.	_	PUNCT	.	_	3	punct	_	_
+19	"	"	PUNCT	.	_	16	punct	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s7459
 # text = Nascia o turtablism, uma façanha que ajudou a elevar o DJ ao patamar de showman.
 1	Nascia	nascer	VERB	VERB	_	0	root	_	_
-2	o	_	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	_	3	det	_	_
 3	turtablism	_	NOUN	NOUN	_	1	nsubj	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	6	punct	_	_
-5	uma	_	DET	DET	_	6	det	_	_
+4	,	,	PUNCT	.	_	6	punct	_	_
+5	uma	um	DET	DET	_	6	det	_	_
 6	façanha	façanha	NOUN	NOUN	_	3	appos	_	_
 7	que	_	PRON	PRON	_	8	nsubj	_	_
 8	ajudou	ajudar	VERB	VERB	_	6	acl:relcl	_	_
 9	a	_	ADP	ADP	_	10	mark	_	_
 10	elevar	elevar	VERB	VERB	_	8	nmod	_	_
-11	o	_	DET	DET	_	12	det	_	_
+11	o	o	DET	DET	_	12	det	_	_
 12	DJ	_	PROPN	PNOUN	_	10	obj	_	_
 13-14	ao	_	_	_	_	_	_	_	_
 13	a	a	ADP	ADP	_	15	case	_	_
 14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	patamar	patamar	NOUN	NOUN	_	10	nmod	_	_
-16	de	_	ADP	ADP	_	17	case	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
 17	showman	_	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
-18	.	_	PUNCT	.	_	1	punct	_	_
+18	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s7460
 # text = Pacotes estavam dentro de peixes congelados.
 1	Pacotes	pacote	NOUN	NOUN	_	2	nsubj	_	_
 2	estavam	estar	VERB	VERB	_	0	root	_	_
 3	dentro	dentro	ADV	ADV	_	2	advmod	_	_
-4	de	_	ADP	ADP	_	5	case	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
 5	peixes	peixe	NOUN	NOUN	_	3	nmod	_	_
 6	congelados	congelado	ADJ	ADJ	_	5	amod	_	SpaceAfter=No
-7	.	_	PUNCT	.	_	2	punct	_	_
+7	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s7461
 # text = A decisão de Obama de usar o privilégio legislativo não tem "mérito" e foi "uma manobra política calculada para frear a divulgação dos documentos até depois das eleições de novembro" próximo, enfatizou Issa.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	decisão	decisão	NOUN	NOUN	_	11	nsubj	_	_
-3	de	_	ADP	ADP	_	4	case	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
 4	Obama	_	PROPN	PNOUN	_	2	nmod	_	_
 5	de	_	ADP	ADP	_	6	mark	_	_
 6	usar	usar	VERB	VERB	_	2	nmod	_	_
-7	o	_	DET	DET	_	8	det	_	_
+7	o	o	DET	DET	_	8	det	_	_
 8	privilégio	privilégio	NOUN	NOUN	_	6	obj	_	_
 9	legislativo	legislativo	ADJ	ADJ	_	8	amod	_	_
 10	não	não	ADV	ADV	Polarity=Neg	11	advmod	_	_
 11	tem	ter	VERB	VERB	_	39	ccomp	_	_
-12	"	_	PUNCT	.	_	13	punct	_	SpaceAfter=No
+12	"	"	PUNCT	.	_	13	punct	_	SpaceAfter=No
 13	mérito	mérito	NOUN	NOUN	_	11	obj	_	SpaceAfter=No
-14	"	_	PUNCT	.	_	13	punct	_	_
-15	e	_	CCONJ	CONJ	_	19	cc	_	_
+14	"	"	PUNCT	.	_	13	punct	_	_
+15	e	e	CCONJ	CONJ	_	19	cc	_	_
 16	foi	_	AUX	AUX	_	19	cop	_	_
-17	"	_	PUNCT	.	_	19	punct	_	SpaceAfter=No
-18	uma	_	DET	DET	_	19	det	_	_
+17	"	"	PUNCT	.	_	19	punct	_	SpaceAfter=No
+18	uma	um	DET	DET	_	19	det	_	_
 19	manobra	manobra	NOUN	NOUN	_	11	conj	_	_
 20	política	político	ADJ	ADJ	_	19	amod	_	_
 21	calculada	calcular	VERB	VERB	_	19	acl:part	_	_
 22	para	_	ADP	ADP	_	23	mark	_	_
 23	frear	frear	VERB	VERB	_	21	advcl	_	_
-24	a	_	DET	DET	_	25	det	_	_
+24	a	a	DET	DET	_	25	det	_	_
 25	divulgação	divulgação	NOUN	NOUN	_	23	obj	_	_
 26-27	dos	_	_	_	_	_	_	_	_
 26	de	de	ADP	ADP	_	28	case	_	_
@@ -121,70 +121,70 @@
 31	de	de	ADP	ADP	_	33	case	_	_
 32	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
 33	eleições	eleição	NOUN	NOUN	_	30	nmod	_	_
-34	de	_	ADP	ADP	_	35	case	_	_
+34	de	de	ADP	ADP	_	35	case	_	_
 35	novembro	_	PROPN	PNOUN	_	33	nmod	_	SpaceAfter=No
-36	"	_	PUNCT	.	_	19	punct	_	_
+36	"	"	PUNCT	.	_	19	punct	_	_
 37	próximo	próximo	ADJ	ADJ	_	35	amod	_	SpaceAfter=No
-38	,	_	PUNCT	.	_	39	punct	_	_
+38	,	,	PUNCT	.	_	39	punct	_	_
 39	enfatizou	enfatizar	VERB	VERB	_	0	root	_	_
 40	Issa	_	PROPN	PNOUN	_	39	nsubj	_	SpaceAfter=No
-41	.	_	PUNCT	.	_	39	punct	_	_
+41	.	.	PUNCT	.	_	39	punct	_	_
 
 # sent_id = train-s7462
 # text = "Mandam bandidos para cá, mas coisa boa não mandam e ninguém fala nada.
-1	"	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
 2	Mandam	mandar	VERB	VERB	_	0	root	_	_
 3	bandidos	bandido	NOUN	NOUN	_	2	obj	_	_
 4	para	_	ADP	ADP	_	5	mark	_	_
 5	cá	cá	ADV	ADV	_	2	nmod	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	11	punct	_	_
+6	,	,	PUNCT	.	_	11	punct	_	_
 7	mas	_	CCONJ	CONJ	_	11	cc	_	_
 8	coisa	coisa	NOUN	NOUN	_	11	obj	_	_
 9	boa	bom	ADJ	ADJ	_	8	amod	_	_
 10	não	não	ADV	ADV	Polarity=Neg	11	advmod	_	_
 11	mandam	mandar	VERB	VERB	_	2	conj	_	_
-12	e	_	CCONJ	CONJ	_	14	cc	_	_
+12	e	e	CCONJ	CONJ	_	14	cc	_	_
 13	ninguém	_	PRON	PRON	_	14	nsubj	_	_
 14	fala	_	VERB	VERB	_	11	conj	_	_
 15	nada	_	PRON	PRON	_	14	obj	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	2	punct	_	_
+16	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s7463
 # text = "É um encontro de música boa e tem até uma noite que é regional", resume Capucho, produtor e idealizador do festival.
-1	"	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
 2	É	ser	AUX	AUX	_	4	cop	_	_
-3	um	_	DET	DET	_	4	det	_	_
+3	um	um	DET	DET	_	4	det	_	_
 4	encontro	encontro	NOUN	NOUN	_	18	ccomp	_	_
-5	de	_	ADP	ADP	_	6	case	_	_
+5	de	de	ADP	ADP	_	6	case	_	_
 6	música	_	NOUN	NOUN	_	4	nmod	_	_
 7	boa	bom	ADJ	ADJ	_	6	amod	_	_
-8	e	_	CCONJ	CONJ	_	9	cc	_	_
+8	e	e	CCONJ	CONJ	_	9	cc	_	_
 9	tem	ter	VERB	VERB	_	4	conj	_	_
 10	até	até	ADV	ADV	_	9	advmod	_	_
-11	uma	_	DET	DET	_	12	det	_	_
+11	uma	um	DET	DET	_	12	det	_	_
 12	noite	noite	NOUN	NOUN	_	9	obj	_	_
 13	que	_	PRON	PRON	_	14	nsubj	_	_
 14	é	ser	VERB	VERB	_	12	acl:relcl	_	_
 15	regional	regional	ADJ	ADJ	_	14	xcomp:adj	_	SpaceAfter=No
-16	"	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	18	punct	_	_
+16	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
+17	,	,	PUNCT	.	_	18	punct	_	_
 18	resume	resumir	VERB	VERB	_	0	root	_	_
 19	Capucho	_	PROPN	PNOUN	_	18	nsubj	_	SpaceAfter=No
-20	,	_	PUNCT	.	_	21	punct	_	_
+20	,	,	PUNCT	.	_	21	punct	_	_
 21	produtor	produtor	NOUN	NOUN	_	19	appos	_	_
-22	e	_	CCONJ	CONJ	_	23	cc	_	_
+22	e	e	CCONJ	CONJ	_	23	cc	_	_
 23	idealizador	idealizador	NOUN	NOUN	_	21	conj	_	_
 24-25	do	_	_	_	_	_	_	_	_
 24	de	de	ADP	ADP	_	26	case	_	_
 25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	festival	festival	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
-27	.	_	PUNCT	.	_	18	punct	_	_
+27	.	.	PUNCT	.	_	18	punct	_	_
 
 # sent_id = train-s7464
 # text = Outros acham que Warhol só pintava coisas que estivessem próximo dele em termos emocionais.
 1	Outros	_	PRON	PRON	_	2	nsubj	_	_
 2	acham	achar	VERB	VERB	_	0	root	_	_
-3	que	_	CCONJ	CONJ	_	6	mark	_	_
+3	que	que	CCONJ	CONJ	_	6	mark	_	_
 4	Warhol	_	PROPN	PNOUN	_	6	nsubj	_	_
 5	só	só	ADV	ADV	_	6	advmod	_	_
 6	pintava	pintar	VERB	VERB	_	2	ccomp	_	_
@@ -193,10 +193,10 @@
 9	estivessem	estar	VERB	VERB	_	7	acl:relcl	_	_
 10	próximo	próximo	ADV	ADV	_	9	advmod	_	_
 11	dele	_	X	ADPPRON	_	10	nmod	_	_
-12	em	_	ADP	ADP	_	13	case	_	_
+12	em	em	ADP	ADP	_	13	case	_	_
 13	termos	termo	NOUN	NOUN	_	9	nmod	_	_
 14	emocionais	emocional	ADJ	ADJ	_	13	amod	_	SpaceAfter=No
-15	.	_	PUNCT	.	_	2	punct	_	_
+15	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s7465
 # text = Após receber atendimento hospitalar, o motorista do caminhão será autuado em flagrante.
@@ -204,8 +204,8 @@
 2	receber	receber	VERB	VERB	_	12	advcl	_	_
 3	atendimento	atendimento	NOUN	NOUN	_	2	obj	_	_
 4	hospitalar	hospitalar	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	2	punct	_	_
-6	o	_	DET	DET	_	7	det	_	_
+5	,	,	PUNCT	.	_	2	punct	_	_
+6	o	o	DET	DET	_	7	det	_	_
 7	motorista	motorista	NOUN	NOUN	_	12	nsubj:pass	_	_
 8-9	do	_	_	_	_	_	_	_	_
 8	de	de	ADP	ADP	_	10	case	_	_
@@ -213,7 +213,7 @@
 10	caminhão	caminhão	NOUN	NOUN	_	7	nmod	_	_
 11	será	ser	AUX	AUX	_	12	aux:pass	_	_
 12	autuado	autuar	VERB	VERB	_	0	root	_	_
-13	em	_	ADP	ADP	_	14	case	_	_
+13	em	em	ADP	ADP	_	14	case	_	_
 14	flagrante	flagrante	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
-15	.	_	PUNCT	.	_	12	punct	_	_
+15	.	.	PUNCT	.	_	12	punct	_	_
 

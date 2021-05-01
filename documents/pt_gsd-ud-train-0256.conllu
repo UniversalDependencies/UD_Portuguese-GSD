@@ -1,16 +1,16 @@
 # sent_id = train-s2541
 # text = "As testemunhas não são necessárias, mas elas ajudam, dando mais força à denúncia", explicou a defensora Vanessa Vieira.
-1	"	_	PUNCT	.	_	5	punct	_	SpaceAfter=No
-2	As	_	DET	DET	_	3	det	_	_
+1	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
+2	As	o	DET	DET	_	3	det	_	_
 3	testemunhas	testemunha	NOUN	NOUN	_	5	nsubj	_	_
 4	não	não	ADV	ADV	Polarity=Neg	5	advmod	_	_
 5	são	ser	VERB	VERB	_	20	ccomp	_	_
 6	necessárias	necessário	ADJ	ADJ	_	5	xcomp:adj	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	10	punct	_	_
+7	,	,	PUNCT	.	_	10	punct	_	_
 8	mas	_	CCONJ	CONJ	_	10	cc	_	_
 9	elas	_	PRON	PRON	_	10	nsubj	_	_
 10	ajudam	ajudar	VERB	VERB	_	5	conj	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	12	punct	_	_
+11	,	,	PUNCT	.	_	12	punct	_	_
 12	dando	dar	VERB	VERB	_	10	acl:part	_	_
 13	mais	_	DET	DET	_	14	det	_	_
 14	força	força	NOUN	NOUN	_	12	obj	_	_
@@ -18,28 +18,28 @@
 15	a	a	ADP	ADP	_	17	case	_	_
 16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	denúncia	denúncia	NOUN	NOUN	_	12	iobj	_	SpaceAfter=No
-18	"	_	PUNCT	.	_	5	punct	_	SpaceAfter=No
-19	,	_	PUNCT	.	_	20	punct	_	_
+18	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
+19	,	,	PUNCT	.	_	20	punct	_	_
 20	explicou	explicar	VERB	VERB	_	0	root	_	_
-21	a	_	DET	DET	_	22	det	_	_
+21	a	a	DET	DET	_	22	det	_	_
 22	defensora	defensor	NOUN	NOUN	_	20	nsubj	_	_
 23	Vanessa	_	PROPN	PNOUN	_	22	appos	_	_
 24	Vieira	_	PROPN	PNOUN	_	23	flat	_	SpaceAfter=No
-25	.	_	PUNCT	.	_	20	punct	_	_
+25	.	.	PUNCT	.	_	20	punct	_	_
 
 # sent_id = train-s2542
 # text = Em 1940, encontra - se entre o vasto leque de artistas modernistas convidados pelo arquitecto Cottinelli Telmo para a decoração dos pavilhões da Exposição do Mundo Português.
-1	Em	_	ADP	ADP	_	2	case	_	_
+1	Em	em	ADP	ADP	_	2	case	_	_
 2	1940	_	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	2	punct	_	_
+3	,	,	PUNCT	.	_	2	punct	_	_
 4	encontra	encontrar	VERB	VERB	_	0	root	_	_
-5	-	_	PUNCT	.	_	4	punct	_	_
+5	-	-	PUNCT	.	_	4	punct	_	_
 6	se	_	PART	PRT	_	4	expl:pv	_	_
 7	entre	_	ADP	ADP	_	10	case	_	_
-8	o	_	DET	DET	_	10	det	_	_
+8	o	o	DET	DET	_	10	det	_	_
 9	vasto	vasto	ADJ	ADJ	_	10	amod	_	_
 10	leque	leque	NOUN	NOUN	_	4	nmod	_	_
-11	de	_	ADP	ADP	_	12	case	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
 12	artistas	artista	NOUN	NOUN	_	10	nmod	_	_
 13	modernistas	modernista	ADJ	ADJ	_	12	amod	_	_
 14	convidados	convidar	VERB	VERB	_	12	acl:part	_	_
@@ -49,8 +49,8 @@
 17	arquitecto	arquitecto	NOUN	NOUN	_	14	nmod	_	_
 18	Cottinelli	_	PROPN	PNOUN	_	17	appos	_	_
 19	Telmo	_	PROPN	PNOUN	_	18	flat	_	_
-20	para	_	ADP	ADP	_	22	case	_	_
-21	a	_	DET	DET	_	22	det	_	_
+20	para	para	ADP	ADP	_	22	case	_	_
+21	a	a	DET	DET	_	22	det	_	_
 22	decoração	decoração	NOUN	NOUN	_	14	nmod	_	_
 23-24	dos	_	_	_	_	_	_	_	_
 23	de	de	ADP	ADP	_	25	case	_	_
@@ -65,7 +65,7 @@
 30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	Mundo	_	PROPN	PNOUN	_	28	nmod	_	_
 32	Português	_	PROPN	PNOUN	_	31	amod	_	SpaceAfter=No
-33	.	_	PUNCT	.	_	4	punct	_	_
+33	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s2543
 # text = Ao contrário do ano passado, quando o time inglês recebeu o gaulês por empréstimo no recesso da Liga Norte - Americana (Major League Soccer), no final do ano passado, o técnico Arsène Wenger fechou as portas ao compatriota.
@@ -78,15 +78,15 @@
 5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	ano	ano	NOUN	NOUN	_	3	nmod	_	_
 7	passado	passado	ADJ	ADJ	_	6	amod	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	13	punct	_	_
+8	,	,	PUNCT	.	_	13	punct	_	_
 9	quando	quando	ADV	ADV	_	13	advmod	_	_
-10	o	_	DET	DET	_	11	det	_	_
+10	o	o	DET	DET	_	11	det	_	_
 11	time	time	NOUN	NOUN	_	13	nsubj	_	_
 12	inglês	inglês	ADJ	ADJ	_	11	amod	_	_
 13	recebeu	receber	VERB	VERB	_	6	acl:relcl	_	_
-14	o	_	DET	DET	_	15	det	_	_
+14	o	o	DET	DET	_	15	det	_	_
 15	gaulês	gaulês	NOUN	NOUN	_	13	obj	_	_
-16	por	_	ADP	ADP	_	17	case	_	_
+16	por	por	ADP	ADP	_	17	case	_	_
 17	empréstimo	empréstimo	NOUN	NOUN	_	13	nmod	_	_
 18-19	no	_	_	_	_	_	_	_	_
 18	em	em	ADP	ADP	_	20	case	_	_
@@ -97,14 +97,14 @@
 22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	Liga	_	PROPN	PNOUN	_	20	nmod	_	_
 24	Norte	_	PROPN	PNOUN	_	26	amod	_	_
-25	-	_	PUNCT	.	_	26	punct	_	_
+25	-	-	PUNCT	.	_	26	punct	_	_
 26	Americana	_	PROPN	PNOUN	_	23	amod	_	_
-27	(	_	PUNCT	.	_	29	punct	_	SpaceAfter=No
+27	(	(	PUNCT	.	_	29	punct	_	SpaceAfter=No
 28	Major	_	PROPN	PNOUN	_	29	amod	_	_
 29	League	_	PROPN	PNOUN	_	23	appos	_	_
 30	Soccer	_	PROPN	PNOUN	_	29	flat	_	SpaceAfter=No
-31	)	_	PUNCT	.	_	29	punct	_	SpaceAfter=No
-32	,	_	PUNCT	.	_	35	punct	_	_
+31	)	)	PUNCT	.	_	29	punct	_	SpaceAfter=No
+32	,	,	PUNCT	.	_	35	punct	_	_
 33-34	no	_	_	_	_	_	_	_	_
 33	em	em	ADP	ADP	_	35	case	_	_
 34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
@@ -114,26 +114,26 @@
 37	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 38	ano	ano	NOUN	NOUN	_	35	nmod	_	_
 39	passado	passado	ADJ	ADJ	_	38	amod	_	SpaceAfter=No
-40	,	_	PUNCT	.	_	35	punct	_	_
-41	o	_	DET	DET	_	42	det	_	_
+40	,	,	PUNCT	.	_	35	punct	_	_
+41	o	o	DET	DET	_	42	det	_	_
 42	técnico	técnico	NOUN	NOUN	_	45	nsubj	_	_
 43	Arsène	_	PROPN	PNOUN	_	42	appos	_	_
 44	Wenger	_	PROPN	PNOUN	_	43	flat	_	_
 45	fechou	fechar	VERB	VERB	_	0	root	_	_
-46	as	_	DET	DET	_	47	det	_	_
+46	as	o	DET	DET	_	47	det	_	_
 47	portas	porta	NOUN	NOUN	_	45	obj	_	_
 48-49	ao	_	_	_	_	_	_	_	_
 48	a	a	ADP	ADP	_	50	case	_	_
 49	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
 50	compatriota	compatriota	NOUN	NOUN	_	45	iobj	_	SpaceAfter=No
-51	.	_	PUNCT	.	_	45	punct	_	_
+51	.	.	PUNCT	.	_	45	punct	_	_
 
 # sent_id = train-s2544
 # text = Após uma derrota por 6 a 3 no primeiro set, Kvitova ganhou o segundo por 6 a 2 e o terceiro set por 6 a 3.
 1	Após	_	ADP	ADP	_	3	case	_	_
-2	uma	_	DET	DET	_	3	det	_	_
+2	uma	um	DET	DET	_	3	det	_	_
 3	derrota	derrota	NOUN	NOUN	_	14	nmod	_	_
-4	por	_	ADP	ADP	_	5	case	_	_
+4	por	por	ADP	ADP	_	5	case	_	_
 5	6	_	NUM	NUM	NumType=Card	3	nmod	_	_
 6	a	_	ADP	ADP	_	7	case	_	_
 7	3	_	NUM	NUM	NumType=Card	5	nmod	_	_
@@ -142,12 +142,12 @@
 9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 10	primeiro	primeiro	ADJ	ADJ	_	11	amod	_	_
 11	set	set	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	3	punct	_	_
+12	,	,	PUNCT	.	_	3	punct	_	_
 13	Kvitova	_	PROPN	PNOUN	_	14	nsubj	_	_
 14	ganhou	ganhar	VERB	VERB	_	0	root	_	_
-15	o	_	DET	DET	_	16	det	_	_
+15	o	o	DET	DET	_	16	det	_	_
 16	segundo	segundo	NOUN	NOUN	_	14	obj	_	_
-17	por	_	ADP	ADP	_	18	case	_	_
+17	por	por	ADP	ADP	_	18	case	_	_
 18	6	_	NUM	NUM	NumType=Card	16	nmod	_	_
 19	a	_	ADP	ADP	_	20	case	_	_
 20	2	_	NUM	NUM	NumType=Card	18	nmod	_	_
@@ -155,24 +155,24 @@
 22	o	o	DET	DET	_	24	det	_	_
 23	terceiro	_	ADJ	ADJ	_	24	amod	_	_
 24	set	set	NOUN	NOUN	_	16	conj	_	_
-25	por	_	ADP	ADP	_	26	case	_	_
+25	por	por	ADP	ADP	_	26	case	_	_
 26	6	_	NUM	NUM	NumType=Card	24	nmod	_	_
 27	a	_	ADP	ADP	_	28	case	_	_
 28	3	_	NUM	NUM	NumType=Card	26	nmod	_	SpaceAfter=No
-29	.	_	PUNCT	.	_	14	punct	_	_
+29	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = train-s2545
 # text = Com isso, o vice Carlos Alberto Martins Lopes, que é comerciante do ramo moveleiro, já assumiu a presidência do Leão da Araraquarense.
 1	Com	_	ADP	ADP	_	2	case	_	_
 2	isso	_	PRON	PRON	_	20	nmod	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	2	punct	_	_
-4	o	_	DET	DET	_	5	det	_	_
+3	,	,	PUNCT	.	_	2	punct	_	_
+4	o	o	DET	DET	_	5	det	_	_
 5	vice	vice	NOUN	NOUN	_	20	nsubj	_	_
 6	Carlos	_	PROPN	PNOUN	_	5	appos	_	_
 7	Alberto	_	PROPN	PNOUN	_	6	flat	_	_
 8	Martins	_	PROPN	PNOUN	_	6	flat	_	_
 9	Lopes	_	PROPN	PNOUN	_	6	flat	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	13	punct	_	_
+10	,	,	PUNCT	.	_	13	punct	_	_
 11	que	_	PRON	PRON	_	13	nsubj	_	_
 12	é	ser	AUX	AUX	_	13	cop	_	_
 13	comerciante	comerciante	NOUN	NOUN	_	5	acl:relcl	_	_
@@ -181,10 +181,10 @@
 15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	ramo	ramo	NOUN	NOUN	_	13	nmod	_	_
 17	moveleiro	moveleiro	ADJ	ADJ	_	16	amod	_	SpaceAfter=No
-18	,	_	PUNCT	.	_	13	punct	_	_
+18	,	,	PUNCT	.	_	13	punct	_	_
 19	já	já	ADV	ADV	_	20	advmod	_	_
 20	assumiu	assumir	VERB	VERB	_	0	root	_	_
-21	a	_	DET	DET	_	22	det	_	_
+21	a	a	DET	DET	_	22	det	_	_
 22	presidência	presidência	NOUN	NOUN	_	20	obj	_	_
 23-24	do	_	_	_	_	_	_	_	_
 23	de	de	ADP	ADP	_	25	case	_	_
@@ -194,7 +194,7 @@
 26	de	de	ADP	ADP	_	28	case	_	_
 27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	Araraquarense	_	PROPN	PNOUN	_	25	nmod	_	SpaceAfter=No
-29	.	_	PUNCT	.	_	20	punct	_	_
+29	.	.	PUNCT	.	_	20	punct	_	_
 
 # sent_id = train-s2546
 # text = Cada bilhete possui 10 frações e a premiação é proporcional ao que você adquire.
@@ -212,17 +212,17 @@
 12	que	_	PRON	PRON	_	14	obj	_	_
 13	você	_	PRON	PRON	_	14	nsubj	_	_
 14	adquire	adquirir	VERB	VERB	_	11	acl:relcl	_	SpaceAfter=No
-15	.	_	PUNCT	.	_	3	punct	_	_
+15	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s2547
 # text = "Gostaria de agradecer o apoio.
-1	"	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
 2	Gostaria	_	PROPN	PNOUN	_	0	root	_	_
 3	de	_	ADP	ADP	_	4	mark	_	_
 4	agradecer	agradecer	VERB	VERB	_	2	nmod	_	_
-5	o	_	DET	DET	_	6	det	_	_
+5	o	o	DET	DET	_	6	det	_	_
 6	apoio	apoio	NOUN	NOUN	_	4	obj	_	SpaceAfter=No
-7	.	_	PUNCT	.	_	2	punct	_	_
+7	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s2548
 # text = Quanto ao projeto, a OAB decidiu entregar às Comissões de Constituição e Justiça da Câmara dos Deputados e do Senado Federal parecer com entendimento contrário ao projeto.
@@ -231,8 +231,8 @@
 2	a	a	ADP	ADP	_	4	case	_	_
 3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	projeto	projeto	NOUN	NOUN	_	1	nmod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	1	punct	_	_
-6	a	_	DET	DET	_	7	det	_	_
+5	,	,	PUNCT	.	_	1	punct	_	_
+6	a	a	DET	DET	_	7	det	_	_
 7	OAB	_	PROPN	PNOUN	_	8	nsubj	_	_
 8	decidiu	decidir	VERB	VERB	_	0	root	_	_
 9	entregar	entregar	VERB	VERB	_	8	xcomp	_	_
@@ -240,9 +240,9 @@
 10	a	a	ADP	ADP	_	12	case	_	_
 11	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
 12	Comissões	_	PROPN	PNOUN	_	9	iobj	_	_
-13	de	_	ADP	ADP	_	14	case	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
 14	Constituição	_	PROPN	PNOUN	_	12	nmod	_	_
-15	e	_	CCONJ	CONJ	_	16	cc	_	_
+15	e	e	CCONJ	CONJ	_	16	cc	_	_
 16	Justiça	_	PROPN	PNOUN	_	14	conj	_	_
 17-18	da	_	_	_	_	_	_	_	_
 17	de	de	ADP	ADP	_	19	case	_	_
@@ -252,45 +252,45 @@
 20	de	de	ADP	ADP	_	22	case	_	_
 21	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
 22	Deputados	_	PROPN	PNOUN	_	19	nmod	_	_
-23	e	_	CCONJ	CONJ	_	26	cc	_	_
+23	e	e	CCONJ	CONJ	_	26	cc	_	_
 24-25	do	_	_	_	_	_	_	_	_
 24	de	de	ADP	ADP	_	26	case	_	_
 25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	Senado	_	PROPN	PNOUN	_	19	conj	_	_
 27	Federal	_	PROPN	PNOUN	_	26	amod	_	_
 28	parecer	parecer	NOUN	NOUN	_	9	obj	_	_
-29	com	_	ADP	ADP	_	30	case	_	_
+29	com	com	ADP	ADP	_	30	case	_	_
 30	entendimento	entendimento	NOUN	NOUN	_	28	nmod	_	_
 31	contrário	contrário	ADJ	ADJ	_	30	amod	_	_
 32-33	ao	_	_	_	_	_	_	_	_
 32	a	a	ADP	ADP	_	34	case	_	_
 33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
 34	projeto	projeto	NOUN	NOUN	_	31	nmod	_	SpaceAfter=No
-35	.	_	PUNCT	.	_	8	punct	_	_
+35	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s2549
 # text = O E21 foi a Série 3 da BMW de 1975 a 1983.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	E21	_	PROPN	PNOUN	_	5	nsubj	_	_
 3	foi	_	AUX	AUX	_	5	cop	_	_
-4	a	_	DET	DET	_	5	det	_	_
+4	a	a	DET	DET	_	5	det	_	_
 5	Série	_	PROPN	PNOUN	_	0	root	_	_
 6	3	_	NUM	NUM	NumType=Card	5	appos	_	_
 7-8	da	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
 8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	BMW	_	PROPN	PNOUN	_	5	nmod	_	_
-10	de	_	ADP	ADP	_	11	case	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
 11	1975	_	NUM	NUM	NumType=Card	5	nmod	_	_
 12	a	_	ADP	ADP	_	13	case	_	_
 13	1983	_	NUM	NUM	NumType=Card	11	nmod	_	SpaceAfter=No
-14	.	_	PUNCT	.	_	5	punct	_	_
+14	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s2550
 # text = A dona de 15 títulos dos torneios do Grand Slam já venceu cinco vezes o Aberto da Austrália e, faltando mais duma semana para o início da disputa em Melbourne, tem chances reais de ser campeã pela sexta vez.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	dona	_	NOUN	NOUN	_	14	nsubj	_	_
-3	de	_	ADP	ADP	_	5	case	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
 4	15	_	NUM	NUM	NumType=Card	5	nummod	_	_
 5	títulos	título	NOUN	NOUN	_	2	nmod	_	_
 6-7	dos	_	_	_	_	_	_	_	_
@@ -306,30 +306,30 @@
 14	venceu	vencer	VERB	VERB	_	0	root	_	_
 15	cinco	_	NUM	NUM	NumType=Card	16	nummod	_	_
 16	vezes	vez	NOUN	NOUN	_	14	nmod	_	_
-17	o	_	DET	DET	_	18	det	_	_
+17	o	o	DET	DET	_	18	det	_	_
 18	Aberto	_	PROPN	PNOUN	_	14	obj	_	_
 19-20	da	_	_	_	_	_	_	_	_
 19	de	de	ADP	ADP	_	21	case	_	_
 20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	Austrália	_	PROPN	PNOUN	_	18	nmod	_	_
-22	e	_	CCONJ	CONJ	_	38	cc	_	SpaceAfter=No
-23	,	_	PUNCT	.	_	24	punct	_	_
+22	e	e	CCONJ	CONJ	_	38	cc	_	SpaceAfter=No
+23	,	,	PUNCT	.	_	24	punct	_	_
 24	faltando	faltar	VERB	VERB	_	38	acl:part	_	_
 25	mais	mais	ADV	ADV	_	27	advmod	_	_
 26-27	duma	_	_	_	_	_	_	_	_
-26	de	_	ADP	ADP	_	25	case	_	_
+26	de	de	ADP	ADP	_	25	case	_	_
 27	uma	_	NUM	NUM	NumType=Card	28	nummod	_	_
 28	semana	semana	NOUN	NOUN	_	24	nsubj	_	_
-29	para	_	ADP	ADP	_	31	case	_	_
-30	o	_	DET	DET	_	31	det	_	_
+29	para	para	ADP	ADP	_	31	case	_	_
+30	o	o	DET	DET	_	31	det	_	_
 31	início	início	NOUN	NOUN	_	24	nmod	_	_
 32-33	da	_	_	_	_	_	_	_	_
 32	de	de	ADP	ADP	_	34	case	_	_
 33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	disputa	disputa	NOUN	NOUN	_	31	nmod	_	_
-35	em	_	ADP	ADP	_	36	case	_	_
+35	em	em	ADP	ADP	_	36	case	_	_
 36	Melbourne	_	PROPN	PNOUN	_	31	nmod	_	SpaceAfter=No
-37	,	_	PUNCT	.	_	24	punct	_	_
+37	,	,	PUNCT	.	_	24	punct	_	_
 38	tem	ter	VERB	VERB	_	14	conj	_	_
 39	chances	chance	NOUN	NOUN	_	38	obj	_	_
 40	reais	real	ADJ	ADJ	_	39	amod	_	_
@@ -341,5 +341,5 @@
 45	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
 46	sexta	_	ADJ	ADJ	_	47	amod	_	_
 47	vez	vez	NOUN	NOUN	_	43	nmod	_	SpaceAfter=No
-48	.	_	PUNCT	.	_	14	punct	_	_
+48	.	.	PUNCT	.	_	14	punct	_	_
 

@@ -5,8 +5,8 @@
 3	providência	providência	NOUN	NOUN	_	5	nsubj:pass	_	_
 4	for	_	AUX	AUX	_	5	aux:pass	_	_
 5	tomada	tomar	VERB	VERB	_	12	advcl	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	5	punct	_	_
-7	a	_	DET	DET	_	8	det	_	_
+6	,	,	PUNCT	.	_	5	punct	_	_
+7	a	a	DET	DET	_	8	det	_	_
 8	população	população	NOUN	NOUN	_	12	nsubj	_	_
 9	vai	ir	AUX	AUX	_	12	aux	_	_
 10	voltar	voltar	AUX	AUX	_	12	aux	_	_
@@ -17,41 +17,41 @@
 14	a	a	ADP	ADP	_	16	case	_	_
 15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	noite	noite	NOUN	NOUN	_	12	nmod	_	_
-17	e	_	CCONJ	CONJ	_	18	cc	_	_
+17	e	e	CCONJ	CONJ	_	18	cc	_	_
 18	geladeira	geladeira	NOUN	NOUN	_	13	conj	_	_
 19	a	_	ADP	ADP	_	20	case	_	_
 20	querosene	querosene	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
-21	.	_	PUNCT	.	_	12	punct	_	_
+21	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = train-s12
 # text = Em relação ao socorro, é necessário olhar para a Serra com cuidado.
-1	Em	_	ADP	ADP	_	2	case	_	_
+1	Em	em	ADP	ADP	_	2	case	_	_
 2	relação	relação	NOUN	NOUN	_	7	nmod	_	_
 3-4	ao	_	_	_	_	_	_	_	_
 3	a	a	ADP	ADP	_	5	case	_	_
 4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	socorro	socorro	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	2	punct	_	_
+6	,	,	PUNCT	.	_	2	punct	_	_
 7	é	ser	VERB	VERB	_	0	root	_	_
 8	necessário	necessário	ADJ	ADJ	_	7	xcomp:adj	_	_
 9	olhar	olhar	VERB	VERB	_	7	csubj	_	_
-10	para	_	ADP	ADP	_	12	case	_	_
-11	a	_	DET	DET	_	12	det	_	_
+10	para	para	ADP	ADP	_	12	case	_	_
+11	a	a	DET	DET	_	12	det	_	_
 12	Serra	_	PROPN	PNOUN	_	9	nmod	_	_
-13	com	_	ADP	ADP	_	14	case	_	_
+13	com	com	ADP	ADP	_	14	case	_	_
 14	cuidado	cuidado	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
-15	.	_	PUNCT	.	_	7	punct	_	_
+15	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s13
 # text = Será que a votação secreta pode mudar a já decidida cassação do senador Demostenes Torres?
 1	Será	ser	VERB	VERB	_	0	root	_	_
-2	que	_	CCONJ	CONJ	_	7	mark	_	_
-3	a	_	DET	DET	_	4	det	_	_
+2	que	que	CCONJ	CONJ	_	7	mark	_	_
+3	a	a	DET	DET	_	4	det	_	_
 4	votação	votação	NOUN	NOUN	_	7	nsubj	_	_
 5	secreta	secreto	ADJ	ADJ	_	4	amod	_	_
 6	pode	_	AUX	AUX	_	7	aux	_	_
 7	mudar	mudar	VERB	VERB	_	1	csubj	_	_
-8	a	_	DET	DET	_	11	det	_	_
+8	a	a	DET	DET	_	11	det	_	_
 9	já	já	ADV	ADV	_	10	advmod	_	_
 10	decidida	decidido	ADJ	ADJ	_	11	amod	_	_
 11	cassação	cassação	NOUN	NOUN	_	7	obj	_	_
@@ -61,22 +61,22 @@
 14	senador	senador	NOUN	NOUN	_	11	nmod	_	_
 15	Demostenes	_	PROPN	PNOUN	_	14	appos	_	_
 16	Torres	_	PROPN	PNOUN	_	15	flat	_	SpaceAfter=No
-17	?	_	PUNCT	.	_	1	punct	_	_
+17	?	?	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s14
 # text = Você tem um chefe ou colega de trabalho arrogante e prepotente?
 1	Você	_	PRON	PRON	_	2	nsubj	_	_
 2	tem	ter	VERB	VERB	_	0	root	_	_
-3	um	_	DET	DET	_	4	det	_	_
+3	um	um	DET	DET	_	4	det	_	_
 4	chefe	chefe	NOUN	NOUN	_	2	obj	_	_
-5	ou	_	CCONJ	CONJ	_	6	cc	_	_
+5	ou	ou	CCONJ	CONJ	_	6	cc	_	_
 6	colega	colega	NOUN	NOUN	_	4	conj	_	_
-7	de	_	ADP	ADP	_	8	case	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
 8	trabalho	trabalho	NOUN	NOUN	_	6	nmod	_	_
 9	arrogante	arrogante	ADJ	ADJ	_	4	amod	_	_
-10	e	_	CCONJ	CONJ	_	11	cc	_	_
+10	e	e	CCONJ	CONJ	_	11	cc	_	_
 11	prepotente	prepotente	ADJ	ADJ	_	9	conj	_	SpaceAfter=No
-12	?	_	PUNCT	.	_	2	punct	_	_
+12	?	?	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s15
 # text = Etapa do XXIII Circuito Estadual de Vôlei de Praia (apoio da Fundesporte), que será realizado no próximo sábado e domingo (08 e 09), no complexo do Guanandizão.
@@ -87,18 +87,18 @@
 4	XXIII	_	PROPN	PNOUN	_	5	amod	_	_
 5	Circuito	_	PROPN	PNOUN	_	1	nmod	_	_
 6	Estadual	_	PROPN	PNOUN	_	5	amod	_	_
-7	de	_	ADP	ADP	_	8	case	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
 8	Vôlei	_	PROPN	PNOUN	_	5	nmod	_	_
-9	de	_	ADP	ADP	_	10	case	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
 10	Praia	_	PROPN	PNOUN	_	8	nmod	_	_
-11	(	_	PUNCT	.	_	12	punct	_	SpaceAfter=No
+11	(	(	PUNCT	.	_	12	punct	_	SpaceAfter=No
 12	apoio	apoio	NOUN	NOUN	_	5	appos	_	_
 13-14	da	_	_	_	_	_	_	_	_
 13	de	de	ADP	ADP	_	15	case	_	_
 14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	Fundesporte	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
-16	)	_	PUNCT	.	_	12	punct	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	20	punct	_	_
+16	)	)	PUNCT	.	_	12	punct	_	SpaceAfter=No
+17	,	,	PUNCT	.	_	20	punct	_	_
 18	que	_	PRON	PRON	_	20	nsubj:pass	_	_
 19	será	ser	AUX	AUX	_	20	aux:pass	_	_
 20	realizado	realizar	VERB	VERB	_	5	acl:relcl	_	_
@@ -107,14 +107,14 @@
 22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 23	próximo	próximo	ADJ	ADJ	_	24	amod	_	_
 24	sábado	_	PROPN	PNOUN	_	20	nmod	_	_
-25	e	_	CCONJ	CONJ	_	26	cc	_	_
+25	e	e	CCONJ	CONJ	_	26	cc	_	_
 26	domingo	_	PROPN	PNOUN	_	24	conj	_	_
-27	(	_	PUNCT	.	_	28	punct	_	SpaceAfter=No
+27	(	(	PUNCT	.	_	28	punct	_	SpaceAfter=No
 28	08	_	NUM	NUM	NumType=Card	24	nmod	_	_
-29	e	_	CCONJ	CONJ	_	30	cc	_	_
+29	e	e	CCONJ	CONJ	_	30	cc	_	_
 30	09	_	NUM	NUM	NumType=Card	28	conj	_	SpaceAfter=No
-31	)	_	PUNCT	.	_	28	punct	_	SpaceAfter=No
-32	,	_	PUNCT	.	_	35	punct	_	_
+31	)	)	PUNCT	.	_	28	punct	_	SpaceAfter=No
+32	,	,	PUNCT	.	_	35	punct	_	_
 33-34	no	_	_	_	_	_	_	_	_
 33	em	em	ADP	ADP	_	35	case	_	_
 34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
@@ -123,13 +123,13 @@
 36	de	de	ADP	ADP	_	38	case	_	_
 37	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 38	Guanandizão	_	PROPN	PNOUN	_	35	nmod	_	SpaceAfter=No
-39	.	_	PUNCT	.	_	1	punct	_	_
+39	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s16
 # text = Athol é uma cidade localizada no estado americano de Idaho, no Condado de Kootenai.
 1	Athol	_	PROPN	PNOUN	_	4	nsubj	_	_
 2	é	ser	AUX	AUX	_	4	cop	_	_
-3	uma	_	DET	DET	_	4	det	_	_
+3	uma	um	DET	DET	_	4	det	_	_
 4	cidade	cidade	NOUN	NOUN	_	0	root	_	_
 5	localizada	localizar	VERB	VERB	_	4	acl:part	_	_
 6-7	no	_	_	_	_	_	_	_	_
@@ -137,16 +137,16 @@
 7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	estado	estado	NOUN	NOUN	_	5	nmod	_	_
 9	americano	americano	ADJ	ADJ	_	8	amod	_	_
-10	de	_	ADP	ADP	_	11	case	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
 11	Idaho	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	15	punct	_	_
+12	,	,	PUNCT	.	_	15	punct	_	_
 13-14	no	_	_	_	_	_	_	_	_
 13	em	em	ADP	ADP	_	15	case	_	_
 14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	Condado	_	PROPN	PNOUN	_	5	nmod	_	_
-16	de	_	ADP	ADP	_	17	case	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
 17	Kootenai	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
-18	.	_	PUNCT	.	_	4	punct	_	_
+18	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s17
 # text = Não tenho mais tempo para nada!
@@ -154,13 +154,13 @@
 2	tenho	ter	VERB	VERB	_	0	root	_	_
 3	mais	mais	ADV	ADV	_	2	advmod	_	_
 4	tempo	tempo	NOUN	NOUN	_	2	obj	_	_
-5	para	_	ADP	ADP	_	6	case	_	_
+5	para	para	ADP	ADP	_	6	case	_	_
 6	nada	_	PRON	PRON	_	4	nmod	_	SpaceAfter=No
-7	!	_	PUNCT	.	_	2	punct	_	_
+7	!	!	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s18
 # text = O número 35 pelo ranking da ATP mais uma vez mostrou irregularidade no circuito profissional, já que em sua última participação foi um grande oponente diante do número um do mundo Roger Federer.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	número	número	NOUN	NOUN	_	13	nsubj	_	_
 3	35	_	NUM	NUM	NumType=Card	2	appos	_	_
 4-5	pelo	_	_	_	_	_	_	_	_
@@ -181,15 +181,15 @@
 16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	circuito	circuito	NOUN	NOUN	_	14	nmod	_	_
 18	profissional	profissional	ADJ	ADJ	_	17	amod	_	SpaceAfter=No
-19	,	_	PUNCT	.	_	29	punct	_	_
+19	,	,	PUNCT	.	_	29	punct	_	_
 20	já	já	ADV	ADV	_	29	mark	_	_
 21	que	_	CCONJ	CONJ	_	20	fixed	_	_
-22	em	_	ADP	ADP	_	25	case	_	_
+22	em	em	ADP	ADP	_	25	case	_	_
 23	sua	_	DET	DET	_	25	det:poss	_	_
 24	última	último	ADJ	ADJ	_	25	amod	_	_
 25	participação	participação	NOUN	NOUN	_	29	nmod	_	_
 26	foi	_	AUX	AUX	_	29	cop	_	_
-27	um	_	DET	DET	_	29	det	_	_
+27	um	um	DET	DET	_	29	det	_	_
 28	grande	grande	ADJ	ADJ	_	29	amod	_	_
 29	oponente	oponente	NOUN	NOUN	_	13	advcl	_	_
 30	diante	diante	ADV	ADV	_	29	advmod	_	_
@@ -204,7 +204,7 @@
 37	mundo	mundo	NOUN	NOUN	_	33	nmod	_	_
 38	Roger	_	PROPN	PNOUN	_	33	appos	_	_
 39	Federer	_	PROPN	PNOUN	_	38	flat	_	SpaceAfter=No
-40	.	_	PUNCT	.	_	13	punct	_	_
+40	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = train-s19
 # text = Na semifinal, a judoca vai enfrentar a norte - americana Kayla Harrison, quarta do mundo, que ganhou da húngara Abigel Joo, quinta do ranking.
@@ -212,24 +212,24 @@
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	semifinal	semifinal	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
-5	a	_	DET	DET	_	6	det	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	a	a	DET	DET	_	6	det	_	_
 6	judoca	judoca	NOUN	NOUN	_	8	nsubj	_	_
 7	vai	ir	AUX	AUX	_	8	aux	_	_
 8	enfrentar	enfrentar	VERB	VERB	_	0	root	_	_
-9	a	_	DET	DET	_	12	det	_	_
+9	a	a	DET	DET	_	12	det	_	_
 10	norte	norte	ADJ	ADJ	_	12	amod	_	_
-11	-	_	PUNCT	.	_	12	punct	_	_
+11	-	-	PUNCT	.	_	12	punct	_	_
 12	americana	_	NOUN	NOUN	_	8	obj	_	_
 13	Kayla	_	PROPN	PNOUN	_	12	appos	_	_
 14	Harrison	_	PROPN	PNOUN	_	13	flat	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	16	punct	_	_
+15	,	,	PUNCT	.	_	16	punct	_	_
 16	quarta	_	ADJ	ADJ	_	12	amod	_	_
 17-18	do	_	_	_	_	_	_	_	_
 17	de	de	ADP	ADP	_	19	case	_	_
 18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	mundo	mundo	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
-20	,	_	PUNCT	.	_	22	punct	_	_
+20	,	,	PUNCT	.	_	22	punct	_	_
 21	que	_	PRON	PRON	_	22	nsubj	_	_
 22	ganhou	ganhar	VERB	VERB	_	12	acl:relcl	_	_
 23-24	da	_	_	_	_	_	_	_	_
@@ -238,28 +238,28 @@
 25	húngara	húngaro	NOUN	NOUN	_	22	nmod	_	_
 26	Abigel	_	PROPN	PNOUN	_	25	appos	_	_
 27	Joo	_	PROPN	PNOUN	_	26	flat	_	SpaceAfter=No
-28	,	_	PUNCT	.	_	29	punct	_	_
+28	,	,	PUNCT	.	_	29	punct	_	_
 29	quinta	_	ADJ	ADJ	_	25	amod	_	_
 30-31	do	_	_	_	_	_	_	_	_
 30	de	de	ADP	ADP	_	32	case	_	_
 31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	ranking	ranking	NOUN	NOUN	_	29	nmod	_	SpaceAfter=No
-33	.	_	PUNCT	.	_	8	punct	_	_
+33	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s20
 # text = O candidato garante que uma imensa área na Alemoa, que era da Rede Ferroviária Federal, servirá de megapátio para caminhões.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	candidato	candidato	NOUN	NOUN	_	3	nsubj	_	_
 3	garante	garantir	VERB	VERB	_	0	root	_	_
-4	que	_	CCONJ	CONJ	_	20	mark	_	_
-5	uma	_	DET	DET	_	7	det	_	_
+4	que	que	CCONJ	CONJ	_	20	mark	_	_
+5	uma	um	DET	DET	_	7	det	_	_
 6	imensa	imenso	ADJ	ADJ	_	7	amod	_	_
 7	área	área	NOUN	NOUN	_	20	nsubj	_	_
 8-9	na	_	_	_	_	_	_	_	_
 8	em	em	ADP	ADP	_	10	case	_	_
 9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Alemoa	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	13	punct	_	_
+11	,	,	PUNCT	.	_	13	punct	_	_
 12	que	_	PRON	PRON	_	13	nsubj	_	_
 13	era	_	VERB	VERB	_	7	acl:relcl	_	_
 14-15	da	_	_	_	_	_	_	_	_
@@ -268,11 +268,11 @@
 16	Rede	_	PROPN	PNOUN	_	13	nmod	_	_
 17	Ferroviária	_	PROPN	PNOUN	_	16	amod	_	_
 18	Federal	_	PROPN	PNOUN	_	16	amod	_	SpaceAfter=No
-19	,	_	PUNCT	.	_	13	punct	_	_
+19	,	,	PUNCT	.	_	13	punct	_	_
 20	servirá	servir	VERB	VERB	_	3	ccomp	_	_
-21	de	_	ADP	ADP	_	22	case	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
 22	megapátio	_	NOUN	NOUN	_	20	nmod	_	_
-23	para	_	ADP	ADP	_	24	case	_	_
+23	para	para	ADP	ADP	_	24	case	_	_
 24	caminhões	caminhão	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
-25	.	_	PUNCT	.	_	3	punct	_	_
+25	.	.	PUNCT	.	_	3	punct	_	_
 

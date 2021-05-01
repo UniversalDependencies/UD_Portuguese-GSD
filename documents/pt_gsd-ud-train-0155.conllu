@@ -2,7 +2,7 @@
 # text = Outro diz "Amerimnus teve considerações boas sobre sua dama Harmonia.
 1	Outro	_	PRON	PRON	_	2	nsubj	_	_
 2	diz	dizer	VERB	VERB	_	0	root	_	_
-3	"	_	PUNCT	.	_	5	punct	_	SpaceAfter=No
+3	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
 4	Amerimnus	_	PROPN	PNOUN	_	5	nsubj	_	_
 5	teve	ter	VERB	VERB	_	2	ccomp	_	_
 6	considerações	consideração	NOUN	NOUN	_	5	obj	_	_
@@ -11,107 +11,107 @@
 9	sua	_	DET	DET	_	10	det:poss	_	_
 10	dama	dama	NOUN	NOUN	_	6	nmod	_	_
 11	Harmonia	_	PROPN	PNOUN	_	10	appos	_	SpaceAfter=No
-12	.	_	PUNCT	.	_	2	punct	_	_
+12	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s1540
 # text = A empresa começa suas operações com a criação da empresa Socal, a Sociedade de Ônibus Canoense Ltda.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	empresa	empresa	NOUN	NOUN	_	3	nsubj	_	_
 3	começa	_	VERB	VERB	_	0	root	_	_
 4	suas	_	DET	DET	_	5	det:poss	_	_
 5	operações	operação	NOUN	NOUN	_	3	obj	_	_
-6	com	_	ADP	ADP	_	8	case	_	_
-7	a	_	DET	DET	_	8	det	_	_
+6	com	com	ADP	ADP	_	8	case	_	_
+7	a	a	DET	DET	_	8	det	_	_
 8	criação	criação	NOUN	NOUN	_	3	nmod	_	_
 9-10	da	_	_	_	_	_	_	_	_
 9	de	de	ADP	ADP	_	11	case	_	_
 10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	empresa	empresa	NOUN	NOUN	_	8	nmod	_	_
 12	Socal	_	PROPN	PNOUN	_	11	appos	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	15	punct	_	_
-14	a	_	DET	DET	_	15	det	_	_
+13	,	,	PUNCT	.	_	15	punct	_	_
+14	a	a	DET	DET	_	15	det	_	_
 15	Sociedade	_	PROPN	PNOUN	_	12	appos	_	_
-16	de	_	ADP	ADP	_	17	case	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
 17	Ônibus	_	PROPN	PNOUN	_	15	nmod	_	_
 18	Canoense	_	PROPN	PNOUN	_	15	amod	_	_
 19	Ltda	_	PROPN	PNOUN	_	15	amod	_	SpaceAfter=No
-20	.	_	PUNCT	.	_	3	punct	_	_
+20	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s1541
 # text = Ou, mesmo que se lembrem, podem estar erradas, já que a posição, por exemplo, pode mudar.
 1	Ou	_	CCONJ	CONJ	_	9	cc	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	6	punct	_	_
+2	,	,	PUNCT	.	_	6	punct	_	_
 3	mesmo	mesmo	ADV	ADV	_	6	mark	_	_
 4	que	_	CCONJ	CONJ	_	3	fixed	_	_
 5	se	_	PRON	PRON	_	6	obj	_	_
 6	lembrem	lembrar	VERB	VERB	_	9	advcl	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	6	punct	_	_
+7	,	,	PUNCT	.	_	6	punct	_	_
 8	podem	_	AUX	AUX	_	9	aux	_	_
 9	estar	estar	VERB	VERB	_	0	root	_	_
 10	erradas	errado	ADJ	ADJ	_	9	xcomp:adj	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	21	punct	_	_
+11	,	,	PUNCT	.	_	21	punct	_	_
 12	já	já	ADV	ADV	_	21	mark	_	_
 13	que	_	CCONJ	CONJ	_	12	fixed	_	_
-14	a	_	DET	DET	_	15	det	_	_
+14	a	a	DET	DET	_	15	det	_	_
 15	posição	posição	NOUN	NOUN	_	21	nsubj	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	18	punct	_	_
-17	por	_	ADP	ADP	_	18	case	_	_
+16	,	,	PUNCT	.	_	18	punct	_	_
+17	por	por	ADP	ADP	_	18	case	_	_
 18	exemplo	exemplo	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
-19	,	_	PUNCT	.	_	18	punct	_	_
+19	,	,	PUNCT	.	_	18	punct	_	_
 20	pode	_	AUX	AUX	_	21	aux	_	_
 21	mudar	mudar	VERB	VERB	_	9	advcl	_	SpaceAfter=No
-22	.	_	PUNCT	.	_	9	punct	_	_
+22	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s1542
 # text = Botamos pra correr ", contou.
 1	Botamos	botar	AUX	AUX	_	3	aux	_	_
 2	pra	_	ADP	ADP	_	3	mark	_	_
 3	correr	correr	VERB	VERB	_	6	ccomp	_	_
-4	"	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	6	punct	_	_
+4	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
+5	,	,	PUNCT	.	_	6	punct	_	_
 6	contou	contar	VERB	VERB	_	0	root	_	SpaceAfter=No
-7	.	_	PUNCT	.	_	6	punct	_	_
+7	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s1543
 # text = "O setor perde por ano R $ 12 milhões", alerta o presidente da Acrismat, Paulo Lucion.
-1	"	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
-2	O	_	DET	DET	_	3	det	_	_
+1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
+2	O	o	DET	DET	_	3	det	_	_
 3	setor	setor	NOUN	NOUN	_	4	nsubj	_	_
 4	perde	perder	VERB	VERB	_	13	ccomp	_	_
-5	por	_	ADP	ADP	_	6	case	_	_
+5	por	por	ADP	ADP	_	6	case	_	_
 6	ano	ano	NOUN	NOUN	_	4	nmod	_	_
 7	R	r	NOUN	NOUN	_	4	obj	_	_
 8	$	_	SYM	SYM	_	7	flat	_	_
 9	12	_	NUM	NUM	NumType=Card	10	nummod	_	_
 10	milhões	_	NUM	NUM	NumType=Card	7	nummod	_	SpaceAfter=No
-11	"	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	13	punct	_	_
+11	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
+12	,	,	PUNCT	.	_	13	punct	_	_
 13	alerta	alerta	NOUN	NOUN	_	0	root	_	_
-14	o	_	DET	DET	_	15	det	_	_
+14	o	o	DET	DET	_	15	det	_	_
 15	presidente	presidente	NOUN	NOUN	_	13	nsubj	_	_
 16-17	da	_	_	_	_	_	_	_	_
 16	de	de	ADP	ADP	_	18	case	_	_
 17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	Acrismat	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
-19	,	_	PUNCT	.	_	20	punct	_	_
+19	,	,	PUNCT	.	_	20	punct	_	_
 20	Paulo	_	PROPN	PNOUN	_	15	appos	_	_
 21	Lucion	_	PROPN	PNOUN	_	20	flat	_	SpaceAfter=No
-22	.	_	PUNCT	.	_	13	punct	_	_
+22	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = train-s1544
 # text = O Ministério Público solicitou a retirada da feira porque o calçamento da via é tombado pelo patrimônio histórico.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	Ministério	_	PROPN	PNOUN	_	4	nsubj	_	_
 3	Público	_	PROPN	PNOUN	_	2	amod	_	_
 4	solicitou	solicitar	VERB	VERB	_	0	root	_	_
-5	a	_	DET	DET	_	6	det	_	_
+5	a	a	DET	DET	_	6	det	_	_
 6	retirada	_	NOUN	NOUN	_	4	obj	_	_
 7-8	da	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
 8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	feira	feira	NOUN	NOUN	_	6	nmod	_	_
 10	porque	_	CCONJ	CONJ	_	17	mark	_	_
-11	o	_	DET	DET	_	12	det	_	_
+11	o	o	DET	DET	_	12	det	_	_
 12	calçamento	calçamento	NOUN	NOUN	_	17	nsubj:pass	_	_
 13-14	da	_	_	_	_	_	_	_	_
 13	de	de	ADP	ADP	_	15	case	_	_
@@ -124,15 +124,15 @@
 19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	patrimônio	patrimônio	NOUN	NOUN	_	17	nmod	_	_
 21	histórico	histórico	ADJ	ADJ	_	20	amod	_	SpaceAfter=No
-22	.	_	PUNCT	.	_	4	punct	_	_
+22	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s1545
 # text = O casal, então, contratou dois homens que ajudaram na execução da funcionária pública.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	casal	casal	NOUN	NOUN	_	6	nsubj	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	4	punct	_	_
+3	,	,	PUNCT	.	_	4	punct	_	_
 4	então	então	ADV	ADV	_	6	advmod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	4	punct	_	_
+5	,	,	PUNCT	.	_	4	punct	_	_
 6	contratou	contratar	VERB	VERB	_	0	root	_	_
 7	dois	_	NUM	NUM	NumType=Card	8	nummod	_	_
 8	homens	homem	NOUN	NOUN	_	6	obj	_	_
@@ -147,18 +147,18 @@
 15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	funcionária	funcionário	NOUN	NOUN	_	13	nmod	_	_
 17	pública	público	ADJ	ADJ	_	16	amod	_	SpaceAfter=No
-18	.	_	PUNCT	.	_	6	punct	_	_
+18	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s1546
 # text = (1999), de curta duração, mas bem avaliado pela crítica.
-1	(	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
+1	(	(	PUNCT	.	_	2	punct	_	SpaceAfter=No
 2	1999	_	NUM	NUM	NumType=Card	0	root	_	SpaceAfter=No
-3	)	_	PUNCT	.	_	11	punct	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	7	punct	_	_
-5	de	_	ADP	ADP	_	7	case	_	_
+3	)	)	PUNCT	.	_	11	punct	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	7	punct	_	_
+5	de	de	ADP	ADP	_	7	case	_	_
 6	curta	curto	ADJ	ADJ	_	7	amod	_	_
 7	duração	duração	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	7	punct	_	_
+8	,	,	PUNCT	.	_	7	punct	_	_
 9	mas	_	CCONJ	CONJ	_	11	cc	_	_
 10	bem	bem	ADV	ADV	_	11	advmod	_	_
 11	avaliado	avaliar	VERB	VERB	_	2	conj	_	_
@@ -166,43 +166,43 @@
 12	por	por	ADP	ADP	_	14	case	_	_
 13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	crítica	_	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
-15	.	_	PUNCT	.	_	2	punct	_	_
+15	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s1547
 # text = Macy Gray (Nasceu Natalie Renee McIntyre em Canton, Ohio, 6 de setembro de 1967) é uma cantora e atriz estadunidense.
 1	Macy	_	PROPN	PNOUN	_	21	nsubj	_	_
 2	Gray	_	PROPN	PNOUN	_	1	flat	_	_
-3	(	_	PUNCT	.	_	5	punct	_	SpaceAfter=No
+3	(	(	PUNCT	.	_	5	punct	_	SpaceAfter=No
 4	Nasceu	nascer	AUX	AUX	_	5	cop	_	_
 5	Natalie	_	PROPN	PNOUN	_	1	parataxis	_	_
 6	Renee	_	PROPN	PNOUN	_	5	flat	_	_
 7	McIntyre	_	PROPN	PNOUN	_	5	flat	_	_
-8	em	_	ADP	ADP	_	9	case	_	_
+8	em	em	ADP	ADP	_	9	case	_	_
 9	Canton	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	11	punct	_	_
+10	,	,	PUNCT	.	_	11	punct	_	_
 11	Ohio	_	PROPN	PNOUN	_	9	appos	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	13	punct	_	_
+12	,	,	PUNCT	.	_	13	punct	_	_
 13	6	_	NUM	NUM	NumType=Card	5	nmod	_	_
-14	de	_	ADP	ADP	_	15	case	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
 15	setembro	_	PROPN	PNOUN	_	13	nmod	_	_
-16	de	_	ADP	ADP	_	17	case	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
 17	1967	_	NUM	NUM	NumType=Card	15	nmod	_	SpaceAfter=No
-18	)	_	PUNCT	.	_	5	punct	_	_
+18	)	)	PUNCT	.	_	5	punct	_	_
 19	é	ser	AUX	AUX	_	21	cop	_	_
-20	uma	_	DET	DET	_	21	det	_	_
+20	uma	um	DET	DET	_	21	det	_	_
 21	cantora	cantor	NOUN	NOUN	_	0	root	_	_
-22	e	_	CCONJ	CONJ	_	23	cc	_	_
+22	e	e	CCONJ	CONJ	_	23	cc	_	_
 23	atriz	_	NOUN	NOUN	_	21	conj	_	_
 24	estadunidense	estadunidense	ADJ	ADJ	_	21	amod	_	SpaceAfter=No
-25	.	_	PUNCT	.	_	21	punct	_	_
+25	.	.	PUNCT	.	_	21	punct	_	_
 
 # sent_id = train-s1548
 # text = Com isso, João de Lucca passa a fazer parte da delegação brasileira nos Jogos.
 1	Com	_	ADP	ADP	_	2	case	_	_
 2	isso	_	PRON	PRON	_	9	nmod	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	2	punct	_	_
+3	,	,	PUNCT	.	_	2	punct	_	_
 4	João	_	PROPN	PNOUN	_	9	nsubj	_	_
-5	de	_	ADP	ADP	_	6	case	_	_
+5	de	de	ADP	ADP	_	6	case	_	_
 6	Lucca	_	PROPN	PNOUN	_	4	nmod	_	_
 7	passa	passar	AUX	AUX	_	9	aux	_	_
 8	a	_	ADP	ADP	_	9	mark	_	_
@@ -217,5 +217,5 @@
 15	em	em	ADP	ADP	_	17	case	_	_
 16	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
 17	Jogos	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
-18	.	_	PUNCT	.	_	9	punct	_	_
+18	.	.	PUNCT	.	_	9	punct	_	_
 

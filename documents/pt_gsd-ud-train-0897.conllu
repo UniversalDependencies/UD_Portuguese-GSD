@@ -1,9 +1,9 @@
 # sent_id = train-s8899
 # text = O prédio onde a escola está instalada foi projetado pelo engenheiro - arquiteto Francisco de Paula Ramos de Azevedo.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	prédio	prédio	NOUN	NOUN	_	9	nsubj:pass	_	_
 3	onde	onde	ADV	ADV	_	6	advmod	_	_
-4	a	_	DET	DET	_	5	det	_	_
+4	a	a	DET	DET	_	5	det	_	_
 5	escola	escola	NOUN	NOUN	_	6	nsubj	_	_
 6	está	estar	VERB	VERB	_	2	acl:relcl	_	_
 7	instalada	instalado	ADJ	ADJ	_	6	xcomp:adj	_	_
@@ -13,31 +13,31 @@
 10	por	por	ADP	ADP	_	12	case	_	_
 11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	engenheiro	engenheiro	NOUN	NOUN	_	9	nmod	_	_
-13	-	_	PUNCT	.	_	12	punct	_	_
+13	-	-	PUNCT	.	_	12	punct	_	_
 14	arquiteto	arquiteto	NOUN	NOUN	_	12	flat	_	_
 15	Francisco	_	PROPN	PNOUN	_	12	appos	_	_
-16	de	_	ADP	ADP	_	17	case	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
 17	Paula	_	PROPN	PNOUN	_	15	nmod	_	_
 18	Ramos	_	PROPN	PNOUN	_	17	flat	_	_
-19	de	_	ADP	ADP	_	20	case	_	_
+19	de	de	ADP	ADP	_	20	case	_	_
 20	Azevedo	_	PROPN	PNOUN	_	17	nmod	_	SpaceAfter=No
-21	.	_	PUNCT	.	_	9	punct	_	_
+21	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s8900
 # text = (82) 8883-7564 ou com a filha da dona de casa pelo simone.bavaroski @ gmail.com.
-1	(	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
+1	(	(	PUNCT	.	_	2	punct	_	SpaceAfter=No
 2	82	_	NUM	NUM	NumType=Card	4	nummod	_	SpaceAfter=No
-3	)	_	PUNCT	.	_	2	punct	_	_
+3	)	)	PUNCT	.	_	2	punct	_	_
 4	8883-7564	_	NUM	NUM	NumType=Card	0	root	_	_
-5	ou	_	CCONJ	CONJ	_	8	cc	_	_
-6	com	_	ADP	ADP	_	8	case	_	_
-7	a	_	DET	DET	_	8	det	_	_
+5	ou	ou	CCONJ	CONJ	_	8	cc	_	_
+6	com	com	ADP	ADP	_	8	case	_	_
+7	a	a	DET	DET	_	8	det	_	_
 8	filha	filho	NOUN	NOUN	_	4	conj	_	_
 9-10	da	_	_	_	_	_	_	_	_
 9	de	de	ADP	ADP	_	11	case	_	_
 10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	dona	_	NOUN	NOUN	_	8	nmod	_	_
-12	de	_	ADP	ADP	_	13	case	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
 13	casa	casa	NOUN	NOUN	_	11	nmod	_	_
 14-15	pelo	_	_	_	_	_	_	_	_
 14	por	por	ADP	ADP	_	16	case	_	_
@@ -45,7 +45,7 @@
 16	simone.bavaroski	_	X	X	_	8	nmod	_	_
 17	@	_	X	X	_	16	flat	_	_
 18	gmail.com	_	X	X	_	16	flat	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	4	punct	_	_
+19	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s8901
 # text = No primeiro duelo, no Chile, a equipe mandante venceu por 2 a 0 e agora joga por qualquer empate ou derrota por um gol ou dois gols de diferença -- neste segundo caso, o time precisa marcar um gol.
@@ -54,73 +54,73 @@
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	primeiro	primeiro	ADJ	ADJ	_	4	amod	_	_
 4	duelo	duelo	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	4	punct	_	_
+5	,	,	PUNCT	.	_	4	punct	_	_
 6-7	no	_	_	_	_	_	_	_	_
 6	em	em	ADP	ADP	_	8	case	_	_
 7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	Chile	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	8	punct	_	_
-10	a	_	DET	DET	_	11	det	_	_
+9	,	,	PUNCT	.	_	8	punct	_	_
+10	a	a	DET	DET	_	11	det	_	_
 11	equipe	equipe	NOUN	NOUN	_	13	nsubj	_	_
 12	mandante	mandante	ADJ	ADJ	_	11	amod	_	_
 13	venceu	vencer	VERB	VERB	_	0	root	_	_
-14	por	_	ADP	ADP	_	15	case	_	_
+14	por	por	ADP	ADP	_	15	case	_	_
 15	2	_	NUM	NUM	NumType=Card	13	nmod	_	_
 16	a	_	ADP	ADP	_	17	case	_	_
 17	0	_	NUM	NUM	NumType=Card	15	nmod	_	_
-18	e	_	CCONJ	CONJ	_	20	cc	_	_
+18	e	e	CCONJ	CONJ	_	20	cc	_	_
 19	agora	agora	ADV	ADV	_	20	advmod	_	_
 20	joga	jogar	VERB	VERB	_	13	conj	_	_
-21	por	_	ADP	ADP	_	23	case	_	_
+21	por	por	ADP	ADP	_	23	case	_	_
 22	qualquer	_	DET	DET	_	23	det	_	_
 23	empate	empate	NOUN	NOUN	_	20	nmod	_	_
-24	ou	_	CCONJ	CONJ	_	25	cc	_	_
+24	ou	ou	CCONJ	CONJ	_	25	cc	_	_
 25	derrota	derrota	NOUN	NOUN	_	23	conj	_	_
-26	por	_	ADP	ADP	_	28	case	_	_
+26	por	por	ADP	ADP	_	28	case	_	_
 27	um	_	NUM	NUM	NumType=Card	28	nummod	_	_
 28	gol	gol	NOUN	NOUN	_	25	nmod	_	_
-29	ou	_	CCONJ	CONJ	_	31	cc	_	_
+29	ou	ou	CCONJ	CONJ	_	31	cc	_	_
 30	dois	_	NUM	NUM	NumType=Card	31	nummod	_	_
 31	gols	gol	NOUN	NOUN	_	28	conj	_	_
-32	de	_	ADP	ADP	_	33	case	_	_
+32	de	de	ADP	ADP	_	33	case	_	_
 33	diferença	diferença	NOUN	NOUN	_	28	nmod	_	_
 34	--	_	PUNCT	.	_	20	punct	_	_
 35	neste	_	ADP	ADP	_	37	case	_	_
 36	segundo	segundo	ADJ	ADJ	_	37	amod	_	_
 37	caso	caso	NOUN	NOUN	_	41	nmod	_	SpaceAfter=No
-38	,	_	PUNCT	.	_	37	punct	_	_
-39	o	_	DET	DET	_	40	det	_	_
+38	,	,	PUNCT	.	_	37	punct	_	_
+39	o	o	DET	DET	_	40	det	_	_
 40	time	time	NOUN	NOUN	_	41	nsubj	_	_
 41	precisa	precisar	VERB	VERB	_	20	parataxis	_	_
 42	marcar	marcar	VERB	VERB	_	41	xcomp	_	_
 43	um	_	NUM	NUM	NumType=Card	44	nummod	_	_
 44	gol	gol	NOUN	NOUN	_	42	obj	_	SpaceAfter=No
-45	.	_	PUNCT	.	_	13	punct	_	_
+45	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = train-s8902
 # text = A Espanha seria resgatada sem esgotar o fundo de resgate da Europa e não haveria contágio para a Itália.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	Espanha	_	PROPN	PNOUN	_	4	nsubj:pass	_	_
 3	seria	_	AUX	AUX	_	4	aux:pass	_	_
 4	resgatada	resgatar	VERB	VERB	_	0	root	_	_
 5	sem	_	ADP	ADP	_	6	mark	_	_
 6	esgotar	esgotar	VERB	VERB	_	4	advcl	_	_
-7	o	_	DET	DET	_	8	det	_	_
+7	o	o	DET	DET	_	8	det	_	_
 8	fundo	fundo	NOUN	NOUN	_	6	obj	_	_
-9	de	_	ADP	ADP	_	10	case	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
 10	resgate	resgate	NOUN	NOUN	_	8	nmod	_	_
 11-12	da	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	13	case	_	_
 12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	Europa	_	PROPN	PNOUN	_	8	nmod	_	_
-14	e	_	CCONJ	CONJ	_	16	cc	_	_
+14	e	e	CCONJ	CONJ	_	16	cc	_	_
 15	não	não	ADV	ADV	Polarity=Neg	16	advmod	_	_
 16	haveria	haver	VERB	VERB	_	4	conj	_	_
 17	contágio	contágio	NOUN	NOUN	_	16	obj	_	_
-18	para	_	ADP	ADP	_	20	case	_	_
-19	a	_	DET	DET	_	20	det	_	_
+18	para	para	ADP	ADP	_	20	case	_	_
+19	a	a	DET	DET	_	20	det	_	_
 20	Itália	_	PROPN	PNOUN	_	17	nmod	_	SpaceAfter=No
-21	.	_	PUNCT	.	_	4	punct	_	_
+21	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s8903
 # text = Mas não posso negar que o risco de acidente tende a diminuir.
@@ -128,15 +128,15 @@
 2	não	não	ADV	ADV	Polarity=Neg	4	advmod	_	_
 3	posso	_	AUX	AUX	_	4	aux	_	_
 4	negar	negar	VERB	VERB	_	0	root	_	_
-5	que	_	CCONJ	CONJ	_	10	mark	_	_
-6	o	_	DET	DET	_	7	det	_	_
+5	que	que	CCONJ	CONJ	_	10	mark	_	_
+6	o	o	DET	DET	_	7	det	_	_
 7	risco	risco	NOUN	NOUN	_	10	nsubj	_	_
-8	de	_	ADP	ADP	_	9	case	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
 9	acidente	acidente	NOUN	NOUN	_	7	nmod	_	_
 10	tende	_	VERB	VERB	_	4	ccomp	_	_
 11	a	_	ADP	ADP	_	12	mark	_	_
 12	diminuir	diminuir	VERB	VERB	_	10	nmod	_	SpaceAfter=No
-13	.	_	PUNCT	.	_	4	punct	_	_
+13	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s8904
 # text = It 's Christmas Time Again é uma canção tradicional de Natal nos Estados Unidos, e ganhou um novo arranjo na versão dos Backstreet Boys.
@@ -146,20 +146,20 @@
 4	Time	_	PROPN	PNOUN	_	3	flat	_	_
 5	Again	_	PROPN	PNOUN	_	3	advmod	_	_
 6	é	ser	AUX	AUX	_	8	cop	_	_
-7	uma	_	DET	DET	_	8	det	_	_
+7	uma	um	DET	DET	_	8	det	_	_
 8	canção	canção	NOUN	NOUN	_	0	root	_	_
 9	tradicional	tradicional	ADJ	ADJ	_	8	amod	_	_
-10	de	_	ADP	ADP	_	11	case	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
 11	Natal	_	PROPN	PNOUN	_	8	nmod	_	_
 12-13	nos	_	_	_	_	_	_	_	_
 12	em	em	ADP	ADP	_	14	case	_	_
 13	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
 14	Estados	_	PROPN	PNOUN	_	8	nmod	_	_
 15	Unidos	_	PROPN	PNOUN	_	14	amod	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	18	punct	_	_
-17	e	_	CCONJ	CONJ	_	18	cc	_	_
+16	,	,	PUNCT	.	_	18	punct	_	_
+17	e	e	CCONJ	CONJ	_	18	cc	_	_
 18	ganhou	ganhar	VERB	VERB	_	8	conj	_	_
-19	um	_	DET	DET	_	21	det	_	_
+19	um	um	DET	DET	_	21	det	_	_
 20	novo	novo	ADJ	ADJ	_	21	amod	_	_
 21	arranjo	arranjo	NOUN	NOUN	_	18	obj	_	_
 22-23	na	_	_	_	_	_	_	_	_
@@ -171,34 +171,34 @@
 26	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
 27	Backstreet	_	PROPN	PNOUN	_	24	nmod	_	_
 28	Boys	_	PROPN	PNOUN	_	27	flat	_	SpaceAfter=No
-29	.	_	PUNCT	.	_	8	punct	_	_
+29	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s8905
 # text = A seleção brasileira começou o quarto set sem Dante, com dores no joelho esquerdo, que foi substituído por Giba.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	seleção	seleção	NOUN	NOUN	_	4	nsubj	_	_
 3	brasileira	brasileiro	ADJ	ADJ	_	2	amod	_	_
 4	começou	começar	VERB	VERB	_	0	root	_	_
-5	o	_	DET	DET	_	7	det	_	_
+5	o	o	DET	DET	_	7	det	_	_
 6	quarto	_	ADJ	ADJ	_	7	amod	_	_
 7	set	set	NOUN	NOUN	_	4	obj	_	_
 8	sem	_	ADP	ADP	_	9	case	_	_
 9	Dante	_	PROPN	PNOUN	_	4	nmod	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	12	punct	_	_
-11	com	_	ADP	ADP	_	12	case	_	_
+10	,	,	PUNCT	.	_	12	punct	_	_
+11	com	com	ADP	ADP	_	12	case	_	_
 12	dores	dor	NOUN	NOUN	_	9	nmod	_	_
 13-14	no	_	_	_	_	_	_	_	_
 13	em	em	ADP	ADP	_	15	case	_	_
 14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	joelho	joelho	NOUN	NOUN	_	12	nmod	_	_
 16	esquerdo	esquerdo	ADJ	ADJ	_	15	amod	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	20	punct	_	_
+17	,	,	PUNCT	.	_	20	punct	_	_
 18	que	_	PRON	PRON	_	20	nsubj:pass	_	_
 19	foi	_	AUX	AUX	_	20	aux:pass	_	_
 20	substituído	substituir	VERB	VERB	_	9	acl:relcl	_	_
-21	por	_	ADP	ADP	_	22	case	_	_
+21	por	por	ADP	ADP	_	22	case	_	_
 22	Giba	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
-23	.	_	PUNCT	.	_	4	punct	_	_
+23	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s8906
 # text = No dia seguinte, Jiang Zemin assinou outra nota na 4 ª Ponte do Rio Yangtzé em Nanjing e apareceu na mídia novamente em 27 de dezembro, dando instruções sobre um livro publicado pela Imprensa Central de Literatura do Partido, uma coleção de discursos de Jiang Zemin sobre a economia chinesa.
@@ -207,7 +207,7 @@
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 3	dia	dia	NOUN	NOUN	_	1	obj	_	_
 4	seguinte	seguinte	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	1	punct	_	_
+5	,	,	PUNCT	.	_	1	punct	_	_
 6	Jiang	_	PROPN	PNOUN	_	8	nsubj	_	_
 7	Zemin	_	PROPN	PNOUN	_	6	flat	_	_
 8	assinou	assinar	VERB	VERB	_	0	root	_	_
@@ -224,24 +224,24 @@
 17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	Rio	_	PROPN	PNOUN	_	15	nmod	_	_
 19	Yangtzé	_	PROPN	PNOUN	_	18	flat	_	_
-20	em	_	ADP	ADP	_	21	case	_	_
+20	em	em	ADP	ADP	_	21	case	_	_
 21	Nanjing	_	PROPN	PNOUN	_	8	nmod	_	_
-22	e	_	CCONJ	CONJ	_	23	cc	_	_
+22	e	e	CCONJ	CONJ	_	23	cc	_	_
 23	apareceu	aparecer	VERB	VERB	_	8	conj	_	_
 24-25	na	_	_	_	_	_	_	_	_
 24	em	em	ADP	ADP	_	26	case	_	_
 25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	mídia	mídia	NOUN	NOUN	_	23	nmod	_	_
 27	novamente	novamente	ADV	ADV	_	23	advmod	_	_
-28	em	_	ADP	ADP	_	29	case	_	_
+28	em	em	ADP	ADP	_	29	case	_	_
 29	27	_	NUM	NUM	NumType=Card	23	nmod	_	_
-30	de	_	ADP	ADP	_	31	case	_	_
+30	de	de	ADP	ADP	_	31	case	_	_
 31	dezembro	_	PROPN	PNOUN	_	29	nmod	_	SpaceAfter=No
-32	,	_	PUNCT	.	_	23	punct	_	_
+32	,	,	PUNCT	.	_	23	punct	_	_
 33	dando	dar	VERB	VERB	_	23	acl:part	_	_
 34	instruções	instrução	NOUN	NOUN	_	33	obj	_	_
 35	sobre	_	ADP	ADP	_	37	case	_	_
-36	um	_	DET	DET	_	37	det	_	_
+36	um	um	DET	DET	_	37	det	_	_
 37	livro	livro	NOUN	NOUN	_	34	nmod	_	_
 38	publicado	publicar	VERB	VERB	_	37	acl:part	_	_
 39-40	pela	_	_	_	_	_	_	_	_
@@ -249,25 +249,25 @@
 40	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
 41	Imprensa	_	PROPN	PNOUN	_	38	nmod	_	_
 42	Central	_	PROPN	PNOUN	_	41	amod	_	_
-43	de	_	ADP	ADP	_	44	case	_	_
+43	de	de	ADP	ADP	_	44	case	_	_
 44	Literatura	_	PROPN	PNOUN	_	41	nmod	_	_
 45-46	do	_	_	_	_	_	_	_	_
 45	de	de	ADP	ADP	_	47	case	_	_
 46	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
 47	Partido	_	PROPN	PNOUN	_	44	nmod	_	SpaceAfter=No
-48	,	_	PUNCT	.	_	50	punct	_	_
-49	uma	_	DET	DET	_	50	det	_	_
+48	,	,	PUNCT	.	_	50	punct	_	_
+49	uma	um	DET	DET	_	50	det	_	_
 50	coleção	coleção	NOUN	NOUN	_	37	appos	_	_
-51	de	_	ADP	ADP	_	52	case	_	_
+51	de	de	ADP	ADP	_	52	case	_	_
 52	discursos	discurso	NOUN	NOUN	_	50	nmod	_	_
-53	de	_	ADP	ADP	_	54	case	_	_
+53	de	de	ADP	ADP	_	54	case	_	_
 54	Jiang	_	PROPN	PNOUN	_	52	nmod	_	_
 55	Zemin	_	PROPN	PNOUN	_	54	flat	_	_
 56	sobre	_	ADP	ADP	_	58	case	_	_
-57	a	_	DET	DET	_	58	det	_	_
+57	a	a	DET	DET	_	58	det	_	_
 58	economia	economia	NOUN	NOUN	_	52	nmod	_	_
 59	chinesa	chinês	ADJ	ADJ	_	58	amod	_	SpaceAfter=No
-60	.	_	PUNCT	.	_	8	punct	_	_
+60	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s8907
 # text = No MEC, um de seus principais feitos foi fazer do portal na web um veículo de interação com diferentes públicos -- professores, gestores, estudantes e pais.
@@ -275,9 +275,9 @@
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	MEC	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
 5	um	_	PRON	PRON	_	0	root	_	_
-6	de	_	ADP	ADP	_	9	case	_	_
+6	de	de	ADP	ADP	_	9	case	_	_
 7	seus	_	DET	DET	_	9	det:poss	_	_
 8	principais	principal	ADJ	ADJ	_	9	amod	_	_
 9	feitos	feito	NOUN	NOUN	_	5	nmod	_	_
@@ -291,22 +291,22 @@
 15	em	em	ADP	ADP	_	17	case	_	_
 16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	web	_	NOUN	NOUN	_	14	nmod	_	_
-18	um	_	DET	DET	_	19	det	_	_
+18	um	um	DET	DET	_	19	det	_	_
 19	veículo	veículo	NOUN	NOUN	_	11	obj	_	_
-20	de	_	ADP	ADP	_	21	case	_	_
+20	de	de	ADP	ADP	_	21	case	_	_
 21	interação	interação	NOUN	NOUN	_	19	nmod	_	_
-22	com	_	ADP	ADP	_	24	case	_	_
+22	com	com	ADP	ADP	_	24	case	_	_
 23	diferentes	_	DET	DET	_	24	det	_	_
 24	públicos	público	NOUN	NOUN	_	21	nmod	_	_
 25	--	_	PUNCT	.	_	26	punct	_	_
 26	professores	professor	NOUN	NOUN	_	24	appos	_	SpaceAfter=No
-27	,	_	PUNCT	.	_	28	punct	_	_
+27	,	,	PUNCT	.	_	28	punct	_	_
 28	gestores	gestor	NOUN	NOUN	_	26	conj	_	SpaceAfter=No
-29	,	_	PUNCT	.	_	30	punct	_	_
+29	,	,	PUNCT	.	_	30	punct	_	_
 30	estudantes	estudante	NOUN	NOUN	_	26	conj	_	_
-31	e	_	CCONJ	CONJ	_	32	cc	_	_
+31	e	e	CCONJ	CONJ	_	32	cc	_	_
 32	pais	_	NOUN	NOUN	_	26	conj	_	SpaceAfter=No
-33	.	_	PUNCT	.	_	5	punct	_	_
+33	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s8908
 # text = Ambos estão acima da média da região, que é de 0,426 litros por ano.
@@ -321,13 +321,13 @@
 7	de	de	ADP	ADP	_	9	case	_	_
 8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	região	região	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	12	punct	_	_
+10	,	,	PUNCT	.	_	12	punct	_	_
 11	que	_	PRON	PRON	_	12	nsubj	_	_
 12	é	ser	VERB	VERB	_	6	acl:relcl	_	_
-13	de	_	ADP	ADP	_	15	case	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
 14	0,426	_	NUM	NUM	NumType=Card	15	nummod	_	_
 15	litros	litro	NOUN	NOUN	_	12	nmod	_	_
-16	por	_	ADP	ADP	_	17	case	_	_
+16	por	por	ADP	ADP	_	17	case	_	_
 17	ano	ano	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
-18	.	_	PUNCT	.	_	2	punct	_	_
+18	.	.	PUNCT	.	_	2	punct	_	_
 

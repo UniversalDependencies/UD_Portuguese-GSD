@@ -2,7 +2,7 @@
 # text = Romeu foi o vencedor da 2 ª edição do Prêmio, em 2011, e participou como jurado no evento deste ano.
 1	Romeu	_	PROPN	PNOUN	_	4	nsubj	_	_
 2	foi	_	AUX	AUX	_	4	cop	_	_
-3	o	_	DET	DET	_	4	det	_	_
+3	o	o	DET	DET	_	4	det	_	_
 4	vencedor	_	NOUN	NOUN	_	0	root	_	_
 5-6	da	_	_	_	_	_	_	_	_
 5	de	de	ADP	ADP	_	9	case	_	_
@@ -14,13 +14,13 @@
 10	de	de	ADP	ADP	_	12	case	_	_
 11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	Prêmio	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	15	punct	_	_
-14	em	_	ADP	ADP	_	15	case	_	_
+13	,	,	PUNCT	.	_	15	punct	_	_
+14	em	em	ADP	ADP	_	15	case	_	_
 15	2011	_	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	15	punct	_	_
-17	e	_	CCONJ	CONJ	_	18	cc	_	_
+16	,	,	PUNCT	.	_	15	punct	_	_
+17	e	e	CCONJ	CONJ	_	18	cc	_	_
 18	participou	participar	VERB	VERB	_	4	conj	_	_
-19	como	_	ADP	ADP	_	20	case	_	_
+19	como	como	ADP	ADP	_	20	case	_	_
 20	jurado	jurado	NOUN	NOUN	_	18	nmod	_	_
 21-22	no	_	_	_	_	_	_	_	_
 21	em	em	ADP	ADP	_	23	case	_	_
@@ -28,24 +28,24 @@
 23	evento	evento	NOUN	NOUN	_	18	nmod	_	_
 24	deste	_	ADP	ADP	_	25	case	_	_
 25	ano	ano	NOUN	NOUN	_	23	nmod	_	SpaceAfter=No
-26	.	_	PUNCT	.	_	4	punct	_	_
+26	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = dev-s805
 # text = A onda de violência na Síria, que dura 19 meses, provocou pelo menos 32 mil mortes, segundo a organização não governamental (ONG) Observatório Sírio dos Direitos Humanos.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	onda	onda	NOUN	NOUN	_	14	nsubj	_	_
-3	de	_	ADP	ADP	_	4	case	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
 4	violência	violência	NOUN	NOUN	_	2	nmod	_	_
 5-6	na	_	_	_	_	_	_	_	_
 5	em	em	ADP	ADP	_	7	case	_	_
 6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Síria	_	PROPN	PNOUN	_	2	nmod	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	10	punct	_	_
+8	,	,	PUNCT	.	_	10	punct	_	_
 9	que	_	PRON	PRON	_	10	nsubj	_	_
 10	dura	durar	VERB	VERB	_	2	acl:relcl	_	_
 11	19	_	NUM	NUM	NumType=Card	12	nummod	_	_
 12	meses	mês	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	10	punct	_	_
+13	,	,	PUNCT	.	_	10	punct	_	_
 14	provocou	provocar	VERB	VERB	_	0	root	_	_
 15-16	pelo	_	_	_	_	_	_	_	_
 15	por	por	ADP	ADP	_	17	case	_	_
@@ -54,15 +54,15 @@
 18	32	_	NUM	NUM	NumType=Card	19	nummod	_	_
 19	mil	_	NUM	NUM	NumType=Card	20	nummod	_	_
 20	mortes	morte	NOUN	NOUN	_	14	obj	_	SpaceAfter=No
-21	,	_	PUNCT	.	_	24	punct	_	_
+21	,	,	PUNCT	.	_	24	punct	_	_
 22	segundo	_	ADP	ADP	_	24	case	_	_
-23	a	_	DET	DET	_	24	det	_	_
+23	a	a	DET	DET	_	24	det	_	_
 24	organização	organização	NOUN	NOUN	_	14	nmod	_	_
 25	não	não	ADV	ADV	Polarity=Neg	26	advmod	_	_
 26	governamental	governamental	ADJ	ADJ	_	24	amod	_	_
-27	(	_	PUNCT	.	_	28	punct	_	SpaceAfter=No
+27	(	(	PUNCT	.	_	28	punct	_	SpaceAfter=No
 28	ONG	_	PROPN	PNOUN	_	24	appos	_	SpaceAfter=No
-29	)	_	PUNCT	.	_	28	punct	_	_
+29	)	)	PUNCT	.	_	28	punct	_	_
 30	Observatório	_	PROPN	PNOUN	_	24	appos	_	_
 31	Sírio	_	PROPN	PNOUN	_	30	amod	_	_
 32-33	dos	_	_	_	_	_	_	_	_
@@ -70,38 +70,38 @@
 33	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
 34	Direitos	_	PROPN	PNOUN	_	30	nmod	_	_
 35	Humanos	_	PROPN	PNOUN	_	34	amod	_	SpaceAfter=No
-36	.	_	PUNCT	.	_	14	punct	_	_
+36	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = dev-s806
 # text = Sinônimo de aconchego no lar, os tapetes dão um tom acolhedor aos ambientes em que são colocados, por isso, atraem a atenção do público em geral e, consequentemente, dos lojistas.
 1	Sinônimo	sinônimo	NOUN	NOUN	_	10	nsubj	_	_
-2	de	_	ADP	ADP	_	3	case	_	_
+2	de	de	ADP	ADP	_	3	case	_	_
 3	aconchego	aconchego	NOUN	NOUN	_	1	nmod	_	_
 4-5	no	_	_	_	_	_	_	_	_
 4	em	em	ADP	ADP	_	6	case	_	_
 5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	lar	lar	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	9	punct	_	_
-8	os	_	DET	DET	_	9	det	_	_
+7	,	,	PUNCT	.	_	9	punct	_	_
+8	os	o	DET	DET	_	9	det	_	_
 9	tapetes	tapete	NOUN	NOUN	_	1	appos	_	_
 10	dão	dar	VERB	VERB	_	0	root	_	_
-11	um	_	DET	DET	_	12	det	_	_
+11	um	um	DET	DET	_	12	det	_	_
 12	tom	tom	NOUN	NOUN	_	10	obj	_	_
 13	acolhedor	acolhedor	ADJ	ADJ	_	12	amod	_	_
 14-15	aos	_	_	_	_	_	_	_	_
 14	a	a	ADP	ADP	_	16	case	_	_
 15	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
 16	ambientes	ambiente	NOUN	NOUN	_	10	iobj	_	_
-17	em	_	ADP	ADP	_	18	case	_	_
+17	em	em	ADP	ADP	_	18	case	_	_
 18	que	_	PRON	PRON	_	20	nmod	_	_
 19	são	ser	AUX	AUX	_	20	aux:pass	_	_
 20	colocados	colocar	VERB	VERB	_	16	acl:relcl	_	SpaceAfter=No
-21	,	_	PUNCT	.	_	25	punct	_	_
-22	por	_	ADP	ADP	_	23	case	_	_
+21	,	,	PUNCT	.	_	25	punct	_	_
+22	por	por	ADP	ADP	_	23	case	_	_
 23	isso	_	PRON	PRON	_	25	nmod	_	SpaceAfter=No
-24	,	_	PUNCT	.	_	23	punct	_	_
+24	,	,	PUNCT	.	_	23	punct	_	_
 25	atraem	atrair	VERB	VERB	_	10	conj	_	_
-26	a	_	DET	DET	_	27	det	_	_
+26	a	a	DET	DET	_	27	det	_	_
 27	atenção	atenção	NOUN	NOUN	_	25	obj	_	_
 28-29	do	_	_	_	_	_	_	_	_
 28	de	de	ADP	ADP	_	30	case	_	_
@@ -109,63 +109,63 @@
 30	público	público	NOUN	NOUN	_	27	nmod	_	_
 31	em	_	ADP	ADP	_	32	mark	_	_
 32	geral	geral	ADJ	ADJ	_	30	nmod	_	_
-33	e	_	CCONJ	CONJ	_	39	cc	_	SpaceAfter=No
-34	,	_	PUNCT	.	_	35	punct	_	_
+33	e	e	CCONJ	CONJ	_	39	cc	_	SpaceAfter=No
+34	,	,	PUNCT	.	_	35	punct	_	_
 35	consequentemente	consequentemente	ADV	ADV	_	39	advmod	_	SpaceAfter=No
-36	,	_	PUNCT	.	_	35	punct	_	_
+36	,	,	PUNCT	.	_	35	punct	_	_
 37-38	dos	_	_	_	_	_	_	_	_
 37	de	de	ADP	ADP	_	39	case	_	_
 38	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
 39	lojistas	lojista	NOUN	NOUN	_	30	conj	_	SpaceAfter=No
-40	.	_	PUNCT	.	_	10	punct	_	_
+40	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = dev-s807
 # text = Jogar com essa massa a favor, os jogadores vão adquirindo uma ferramenta que nesse final de campeonato vai ser muito importante para nós, que é a confiança.
 1	Jogar	jogar	VERB	VERB	_	11	advcl	_	_
-2	com	_	ADP	ADP	_	4	case	_	_
+2	com	com	ADP	ADP	_	4	case	_	_
 3	essa	_	DET	DET	_	4	det	_	_
 4	massa	massa	NOUN	NOUN	_	1	nmod	_	_
 5	a	_	ADP	ADP	_	6	case	_	_
 6	favor	favor	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	1	punct	_	_
-8	os	_	DET	DET	_	9	det	_	_
+7	,	,	PUNCT	.	_	1	punct	_	_
+8	os	o	DET	DET	_	9	det	_	_
 9	jogadores	jogador	NOUN	NOUN	_	11	nsubj	_	_
 10	vão	ir	AUX	AUX	_	11	aux	_	_
 11	adquirindo	adquirir	VERB	VERB	_	0	root	_	_
-12	uma	_	DET	DET	_	13	det	_	_
+12	uma	um	DET	DET	_	13	det	_	_
 13	ferramenta	ferramenta	NOUN	NOUN	_	11	obj	_	_
 14	que	_	PRON	PRON	_	20	nsubj	_	_
 15	nesse	_	ADP	ADP	_	16	case	_	_
 16	final	final	NOUN	NOUN	_	20	nmod	_	_
-17	de	_	ADP	ADP	_	18	case	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
 18	campeonato	campeonato	NOUN	NOUN	_	16	nmod	_	_
 19	vai	ir	AUX	AUX	_	20	aux	_	_
 20	ser	ser	VERB	VERB	_	13	acl:relcl	_	_
 21	muito	muito	ADV	ADV	_	22	advmod	_	_
 22	importante	importante	ADJ	ADJ	_	20	xcomp:adj	_	_
-23	para	_	ADP	ADP	_	24	case	_	_
+23	para	para	ADP	ADP	_	24	case	_	_
 24	nós	nó	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
-25	,	_	PUNCT	.	_	29	punct	_	_
+25	,	,	PUNCT	.	_	29	punct	_	_
 26	que	_	PRON	PRON	_	29	nsubj	_	_
 27	é	ser	AUX	AUX	_	29	cop	_	_
-28	a	_	DET	DET	_	29	det	_	_
+28	a	a	DET	DET	_	29	det	_	_
 29	confiança	confiança	NOUN	NOUN	_	13	acl:relcl	_	SpaceAfter=No
-30	.	_	PUNCT	.	_	11	punct	_	_
+30	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = dev-s808
 # text = Os líderes judeus aceitaram e fundaram Israel.
-1	Os	_	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	_	2	det	_	_
 2	líderes	líder	NOUN	NOUN	_	4	nsubj	_	_
 3	judeus	judeu	ADJ	ADJ	_	2	amod	_	_
 4	aceitaram	aceitar	VERB	VERB	_	0	root	_	_
-5	e	_	CCONJ	CONJ	_	6	cc	_	_
+5	e	e	CCONJ	CONJ	_	6	cc	_	_
 6	fundaram	fundar	VERB	VERB	_	4	conj	_	_
 7	Israel	_	PROPN	PNOUN	_	6	obj	_	SpaceAfter=No
-8	.	_	PUNCT	.	_	4	punct	_	_
+8	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = dev-s809
 # text = O executivo foi um dos palestrantes do Congresso Internacional da Qualidade, encerrado nesta terça - feira, em Porto Alegre.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	executivo	executivo	NOUN	NOUN	_	4	nsubj	_	_
 3	foi	_	AUX	AUX	_	4	cop	_	_
 4	um	_	PRON	PRON	_	0	root	_	_
@@ -182,17 +182,17 @@
 12	de	de	ADP	ADP	_	14	case	_	_
 13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	Qualidade	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	16	punct	_	_
+15	,	,	PUNCT	.	_	16	punct	_	_
 16	encerrado	encerrar	VERB	VERB	_	10	acl:part	_	_
 17	nesta	_	ADP	ADP	_	20	case	_	_
 18	terça	_	PROPN	PNOUN	_	20	amod	_	_
-19	-	_	PUNCT	.	_	20	punct	_	_
+19	-	-	PUNCT	.	_	20	punct	_	_
 20	feira	_	PROPN	PNOUN	_	16	nmod	_	SpaceAfter=No
-21	,	_	PUNCT	.	_	23	punct	_	_
-22	em	_	ADP	ADP	_	23	case	_	_
+21	,	,	PUNCT	.	_	23	punct	_	_
+22	em	em	ADP	ADP	_	23	case	_	_
 23	Porto	_	PROPN	PNOUN	_	16	nmod	_	_
 24	Alegre	_	PROPN	PNOUN	_	23	amod	_	SpaceAfter=No
-25	.	_	PUNCT	.	_	4	punct	_	_
+25	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = dev-s810
 # text = Testemunhas dizem ter visto, depois dos tiros, PMs chegando com uma sacola com armas e drogas, que depois foram apresentadas como sendo dos mortos.
@@ -200,23 +200,23 @@
 2	dizem	dizer	VERB	VERB	_	0	root	_	_
 3	ter	ter	AUX	AUX	_	4	aux	_	_
 4	visto	_	VERB	VERB	_	2	xcomp	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	6	punct	_	_
+5	,	,	PUNCT	.	_	6	punct	_	_
 6	depois	depois	ADV	ADV	_	4	advmod	_	_
 7-8	dos	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
 8	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
 9	tiros	tiro	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	6	punct	_	_
+10	,	,	PUNCT	.	_	6	punct	_	_
 11	PMs	_	PRON	PRON	_	4	obj	_	_
 12	chegando	chegar	VERB	VERB	_	11	acl:part	_	_
-13	com	_	ADP	ADP	_	15	case	_	_
-14	uma	_	DET	DET	_	15	det	_	_
+13	com	com	ADP	ADP	_	15	case	_	_
+14	uma	um	DET	DET	_	15	det	_	_
 15	sacola	_	NOUN	NOUN	_	12	nmod	_	_
-16	com	_	ADP	ADP	_	17	case	_	_
+16	com	com	ADP	ADP	_	17	case	_	_
 17	armas	arma	NOUN	NOUN	_	15	nmod	_	_
-18	e	_	CCONJ	CONJ	_	19	cc	_	_
+18	e	e	CCONJ	CONJ	_	19	cc	_	_
 19	drogas	droga	NOUN	NOUN	_	17	conj	_	SpaceAfter=No
-20	,	_	PUNCT	.	_	24	punct	_	_
+20	,	,	PUNCT	.	_	24	punct	_	_
 21	que	_	PRON	PRON	_	24	nsubj:pass	_	_
 22	depois	depois	ADV	ADV	_	24	advmod	_	_
 23	foram	_	AUX	AUX	_	24	aux:pass	_	_
@@ -227,58 +227,58 @@
 27	de	de	ADP	ADP	_	29	case	_	_
 28	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
 29	mortos	morto	NOUN	NOUN	_	26	nmod	_	SpaceAfter=No
-30	.	_	PUNCT	.	_	2	punct	_	_
+30	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = dev-s811
 # text = Cadastre - se já e ganhe um guia grátis com dicas para concurseiros.
 1	Cadastre	cadastrar	VERB	VERB	_	0	root	_	_
-2	-	_	PUNCT	.	_	6	punct	_	_
+2	-	-	PUNCT	.	_	6	punct	_	_
 3	se	_	PRON	PRON	_	1	obj	_	_
 4	já	já	ADV	ADV	_	1	advmod	_	_
-5	e	_	CCONJ	CONJ	_	6	cc	_	_
+5	e	e	CCONJ	CONJ	_	6	cc	_	_
 6	ganhe	ganhar	VERB	VERB	_	1	conj	_	_
-7	um	_	DET	DET	_	8	det	_	_
+7	um	um	DET	DET	_	8	det	_	_
 8	guia	guia	NOUN	NOUN	_	6	obj	_	_
 9	grátis	grátis	ADJ	ADJ	_	8	amod	_	_
-10	com	_	ADP	ADP	_	11	case	_	_
+10	com	com	ADP	ADP	_	11	case	_	_
 11	dicas	dica	NOUN	NOUN	_	8	nmod	_	_
-12	para	_	ADP	ADP	_	13	case	_	_
+12	para	para	ADP	ADP	_	13	case	_	_
 13	concurseiros	_	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
-14	.	_	PUNCT	.	_	1	punct	_	_
+14	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = dev-s812
 # text = O condado foi fundado em 1889.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	condado	condado	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foi	_	AUX	AUX	_	4	aux:pass	_	_
 4	fundado	fundar	VERB	VERB	_	0	root	_	_
-5	em	_	ADP	ADP	_	6	case	_	_
+5	em	em	ADP	ADP	_	6	case	_	_
 6	1889	_	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
-7	.	_	PUNCT	.	_	4	punct	_	_
+7	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = dev-s813
 # text = A bolsa estima que a área dedicada ao grão em 2012 / 13 atingirá 3,4 milhões de hectares, embora esta área possa sofrer cortes se o tempo não melhorar logo.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	bolsa	bolsa	NOUN	NOUN	_	3	nsubj	_	_
 3	estima	estimar	VERB	VERB	_	0	root	_	_
-4	que	_	CCONJ	CONJ	_	15	mark	_	_
-5	a	_	DET	DET	_	6	det	_	_
+4	que	que	CCONJ	CONJ	_	15	mark	_	_
+5	a	a	DET	DET	_	6	det	_	_
 6	área	área	NOUN	NOUN	_	15	nsubj	_	_
 7	dedicada	dedicar	VERB	VERB	_	6	acl:part	_	_
 8-9	ao	_	_	_	_	_	_	_	_
 8	a	a	ADP	ADP	_	10	case	_	_
 9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	grão	grão	NOUN	NOUN	_	7	nmod	_	_
-11	em	_	ADP	ADP	_	12	case	_	_
+11	em	em	ADP	ADP	_	12	case	_	_
 12	2012	_	NUM	NUM	NumType=Card	7	nmod	_	_
-13	/	_	PUNCT	.	_	14	punct	_	_
+13	/	/	PUNCT	.	_	14	punct	_	_
 14	13	_	NUM	NUM	NumType=Card	12	conj	_	_
 15	atingirá	atingir	VERB	VERB	_	3	ccomp	_	_
 16	3,4	_	NUM	NUM	NumType=Card	17	nummod	_	_
 17	milhões	_	NUM	NUM	NumType=Card	19	nummod	_	_
-18	de	_	ADP	ADP	_	19	case	_	_
+18	de	de	ADP	ADP	_	19	case	_	_
 19	hectares	hectare	NOUN	NOUN	_	15	obj	_	SpaceAfter=No
-20	,	_	PUNCT	.	_	25	punct	_	_
+20	,	,	PUNCT	.	_	25	punct	_	_
 21	embora	_	CCONJ	CONJ	_	25	mark	_	_
 22	esta	_	DET	DET	_	23	det	_	_
 23	área	área	NOUN	NOUN	_	25	nsubj	_	_
@@ -286,10 +286,10 @@
 25	sofrer	sofrer	VERB	VERB	_	15	advcl	_	_
 26	cortes	corte	NOUN	NOUN	_	25	obj	_	_
 27	se	_	CCONJ	CONJ	_	31	mark	_	_
-28	o	_	DET	DET	_	29	det	_	_
+28	o	o	DET	DET	_	29	det	_	_
 29	tempo	tempo	NOUN	NOUN	_	31	nsubj	_	_
 30	não	não	ADV	ADV	Polarity=Neg	31	advmod	_	_
 31	melhorar	melhorar	VERB	VERB	_	25	advcl	_	_
 32	logo	logo	ADV	ADV	_	31	advmod	_	SpaceAfter=No
-33	.	_	PUNCT	.	_	3	punct	_	_
+33	.	.	PUNCT	.	_	3	punct	_	_
 

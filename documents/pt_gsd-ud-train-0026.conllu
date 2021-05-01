@@ -7,28 +7,28 @@
 4	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
 5	últimos	último	ADJ	ADJ	_	10	amod	_	_
 6	2	_	NUM	NUM	NumType=Card	10	nummod	_	_
-7	(	_	PUNCT	.	_	8	punct	_	SpaceAfter=No
+7	(	(	PUNCT	.	_	8	punct	_	SpaceAfter=No
 8	dois	_	NUM	NUM	NumType=Card	6	appos	_	SpaceAfter=No
-9	)	_	PUNCT	.	_	8	punct	_	_
+9	)	)	PUNCT	.	_	8	punct	_	_
 10	anos	ano	NOUN	NOUN	_	1	nmod	_	_
 11-12	do	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	13	case	_	_
 12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	período	período	NOUN	NOUN	_	10	nmod	_	_
 14	governamental	governamental	ADJ	ADJ	_	13	amod	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	1	punct	_	_
-16	a	_	DET	DET	_	17	det	_	_
+15	,	,	PUNCT	.	_	1	punct	_	_
+16	a	a	DET	DET	_	17	det	_	_
 17	eleição	eleição	NOUN	NOUN	_	23	nsubj:pass	_	_
-18	para	_	ADP	ADP	_	21	case	_	_
+18	para	para	ADP	ADP	_	21	case	_	_
 19	ambos	_	DET	DET	_	21	det	_	_
-20	os	_	DET	DET	_	21	det	_	_
+20	os	o	DET	DET	_	21	det	_	_
 21	cargos	cargo	NOUN	NOUN	_	17	nmod	_	_
 22	será	ser	AUX	AUX	_	23	aux:pass	_	_
 23	feita	_	VERB	VERB	_	0	root	_	_
 24	30	_	NUM	NUM	NumType=Card	28	nummod	_	_
-25	(	_	PUNCT	.	_	26	punct	_	SpaceAfter=No
+25	(	(	PUNCT	.	_	26	punct	_	SpaceAfter=No
 26	trinta	_	NUM	NUM	NumType=Card	24	appos	_	SpaceAfter=No
-27	)	_	PUNCT	.	_	26	punct	_	_
+27	)	)	PUNCT	.	_	26	punct	_	_
 28	dias	dia	NOUN	NOUN	_	29	nmod	_	_
 29	depois	depois	ADV	ADV	_	33	case	_	_
 30-31	da	_	_	_	_	_	_	_	_
@@ -36,13 +36,13 @@
 31	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 32	última	último	ADJ	ADJ	_	33	amod	_	_
 33	vaga	vaga	NOUN	NOUN	_	23	nmod	_	SpaceAfter=No
-34	,	_	PUNCT	.	_	37	punct	_	_
+34	,	,	PUNCT	.	_	37	punct	_	_
 35-36	pela	_	_	_	_	_	_	_	_
 35	por	por	ADP	ADP	_	37	case	_	_
 36	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
 37	Assembléia	_	PROPN	PNOUN	_	23	nmod	_	_
 38	Legislativa	_	PROPN	PNOUN	_	37	amod	_	SpaceAfter=No
-39	,	_	PUNCT	.	_	42	punct	_	_
+39	,	,	PUNCT	.	_	42	punct	_	_
 40-41	na	_	_	_	_	_	_	_	_
 40	em	em	ADP	ADP	_	42	case	_	_
 41	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
@@ -51,34 +51,34 @@
 43	de	de	ADP	ADP	_	45	case	_	_
 44	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
 45	lei	lei	NOUN	NOUN	_	42	nmod	_	SpaceAfter=No
-46	.	_	PUNCT	.	_	23	punct	_	_
+46	.	.	PUNCT	.	_	23	punct	_	_
 
 # sent_id = train-s252
 # text = "Não há informação oficial a respeito", disse à Agência Efe um porta - voz do escritório de Imprensa do Ministério das Relações Exteriores.
-1	"	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
 2	Não	não	ADV	ADV	Polarity=Neg	3	advmod	_	_
 3	há	haver	VERB	VERB	_	10	ccomp	_	_
 4	informação	informação	NOUN	NOUN	_	3	obj	_	_
 5	oficial	oficial	ADJ	ADJ	_	4	amod	_	_
 6	a	_	ADP	ADP	_	7	case	_	_
 7	respeito	respeito	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
-8	"	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	10	punct	_	_
+8	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	10	punct	_	_
 10	disse	dizer	VERB	VERB	_	0	root	_	_
 11-12	à	_	_	_	_	_	_	_	_
 11	a	a	ADP	ADP	_	13	case	_	_
 12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	Agência	_	PROPN	PNOUN	_	10	iobj	_	_
 14	Efe	_	PROPN	PNOUN	_	13	flat	_	_
-15	um	_	DET	DET	_	16	det	_	_
+15	um	um	DET	DET	_	16	det	_	_
 16	porta	porta	NOUN	NOUN	_	10	nsubj	_	_
-17	-	_	PUNCT	.	_	16	punct	_	_
+17	-	-	PUNCT	.	_	16	punct	_	_
 18	voz	voz	NOUN	NOUN	_	16	flat	_	_
 19-20	do	_	_	_	_	_	_	_	_
 19	de	de	ADP	ADP	_	21	case	_	_
 20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	escritório	escritório	NOUN	NOUN	_	16	nmod	_	_
-22	de	_	ADP	ADP	_	23	case	_	_
+22	de	de	ADP	ADP	_	23	case	_	_
 23	Imprensa	_	PROPN	PNOUN	_	21	nmod	_	_
 24-25	do	_	_	_	_	_	_	_	_
 24	de	de	ADP	ADP	_	26	case	_	_
@@ -89,7 +89,7 @@
 28	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
 29	Relações	_	PROPN	PNOUN	_	26	nmod	_	_
 30	Exteriores	_	PROPN	PNOUN	_	29	amod	_	SpaceAfter=No
-31	.	_	PUNCT	.	_	10	punct	_	_
+31	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s253
 # text = Somente no ano passado, a safra gerou aproximadamente 270 toneladas do fruto.
@@ -99,8 +99,8 @@
 3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	ano	ano	NOUN	NOUN	_	9	nmod	_	_
 5	passado	passado	ADJ	ADJ	_	4	amod	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	4	punct	_	_
-7	a	_	DET	DET	_	8	det	_	_
+6	,	,	PUNCT	.	_	4	punct	_	_
+7	a	a	DET	DET	_	8	det	_	_
 8	safra	safra	NOUN	NOUN	_	9	nsubj	_	_
 9	gerou	gerar	VERB	VERB	_	0	root	_	_
 10	aproximadamente	aproximadamente	ADV	ADV	_	11	advmod	_	_
@@ -110,42 +110,42 @@
 13	de	de	ADP	ADP	_	15	case	_	_
 14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	fruto	fruto	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	9	punct	_	_
+16	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s254
 # text = Quem não tem, esses sim acabam virando bois de piranha para que a justiça se refestele e brade em tom alto que está cumprindo seu papel.
 1	Quem	_	PRON	PRON	_	3	nsubj	_	_
 2	não	não	ADV	ADV	Polarity=Neg	3	advmod	_	_
 3	tem	ter	VERB	VERB	_	5	parataxis	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
 5	esses	_	PRON	PRON	_	9	nsubj	_	_
 6	sim	sim	ADV	ADV	_	5	advmod	_	_
 7	acabam	acabar	AUX	AUX	_	9	aux	_	_
 8	virando	virar	AUX	AUX	_	9	cop	_	_
 9	bois	boi	NOUN	NOUN	_	0	root	_	_
-10	de	_	ADP	ADP	_	11	case	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
 11	piranha	piranha	NOUN	NOUN	_	9	nmod	_	_
 12	para	_	ADP	ADP	_	17	mark	_	_
 13	que	_	CCONJ	CONJ	_	12	fixed	_	_
-14	a	_	DET	DET	_	15	det	_	_
+14	a	a	DET	DET	_	15	det	_	_
 15	justiça	justiça	NOUN	NOUN	_	17	nsubj	_	_
 16	se	_	PRON	PRON	_	17	expl:pv	_	_
 17	refestele	refestelar	VERB	VERB	_	9	advcl	_	_
-18	e	_	CCONJ	CONJ	_	19	cc	_	_
+18	e	e	CCONJ	CONJ	_	19	cc	_	_
 19	brade	bradar	VERB	VERB	_	17	conj	_	_
-20	em	_	ADP	ADP	_	21	case	_	_
+20	em	em	ADP	ADP	_	21	case	_	_
 21	tom	tom	NOUN	NOUN	_	19	nmod	_	_
 22	alto	alto	ADJ	ADJ	_	21	amod	_	_
-23	que	_	CCONJ	CONJ	_	25	mark	_	_
+23	que	que	CCONJ	CONJ	_	25	mark	_	_
 24	está	estar	AUX	AUX	_	25	aux	_	_
 25	cumprindo	cumprir	VERB	VERB	_	19	ccomp	_	_
 26	seu	_	DET	DET	_	27	det:poss	_	_
 27	papel	papel	NOUN	NOUN	_	25	obj	_	SpaceAfter=No
-28	.	_	PUNCT	.	_	9	punct	_	_
+28	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s255
 # text = O possível pênalti não foi assinalado pela arbitragem.
-1	O	_	DET	DET	_	3	det	_	_
+1	O	o	DET	DET	_	3	det	_	_
 2	possível	possível	ADJ	ADJ	_	3	amod	_	_
 3	pênalti	pênalti	NOUN	NOUN	_	6	nsubj:pass	_	_
 4	não	não	ADV	ADV	Polarity=Neg	6	advmod	_	_
@@ -155,37 +155,37 @@
 7	por	por	ADP	ADP	_	9	case	_	_
 8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	arbitragem	arbitragem	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
-10	.	_	PUNCT	.	_	6	punct	_	_
+10	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s256
 # text = Ainda segundo o comandante da companhia, o militar deu três tiros contra o veículo e fugiu.
 1	Ainda	ainda	ADV	ADV	_	4	advmod	_	_
 2	segundo	_	ADP	ADP	_	4	case	_	_
-3	o	_	DET	DET	_	4	det	_	_
+3	o	o	DET	DET	_	4	det	_	_
 4	comandante	comandante	NOUN	NOUN	_	11	nmod	_	_
 5-6	da	_	_	_	_	_	_	_	_
 5	de	de	ADP	ADP	_	7	case	_	_
 6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	companhia	companhia	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	4	punct	_	_
-9	o	_	DET	DET	_	10	det	_	_
+8	,	,	PUNCT	.	_	4	punct	_	_
+9	o	o	DET	DET	_	10	det	_	_
 10	militar	militar	NOUN	NOUN	_	11	nsubj	_	_
 11	deu	dar	VERB	VERB	_	0	root	_	_
 12	três	_	NUM	NUM	NumType=Card	13	nummod	_	_
 13	tiros	tiro	NOUN	NOUN	_	11	obj	_	_
 14	contra	_	ADP	ADP	_	16	case	_	_
-15	o	_	DET	DET	_	16	det	_	_
+15	o	o	DET	DET	_	16	det	_	_
 16	veículo	veículo	NOUN	NOUN	_	11	nmod	_	_
-17	e	_	CCONJ	CONJ	_	18	cc	_	_
+17	e	e	CCONJ	CONJ	_	18	cc	_	_
 18	fugiu	fugir	VERB	VERB	_	11	conj	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	11	punct	_	_
+19	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s257
 # text = Restam o voto de quatro dos dez ministros sobre a conduta de réus ligados ao PP, PTB, PMDB e PL (atual PR).
 1	Restam	restar	VERB	VERB	_	0	root	_	_
-2	o	_	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	_	3	det	_	_
 3	voto	voto	NOUN	NOUN	_	1	nsubj	_	_
-4	de	_	ADP	ADP	_	5	case	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
 5	quatro	_	NUM	NUM	NumType=Card	3	nmod	_	_
 6-7	dos	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	9	case	_	_
@@ -193,80 +193,80 @@
 8	dez	_	NUM	NUM	NumType=Card	9	nummod	_	_
 9	ministros	ministro	NOUN	NOUN	_	5	nmod	_	_
 10	sobre	_	ADP	ADP	_	12	case	_	_
-11	a	_	DET	DET	_	12	det	_	_
+11	a	a	DET	DET	_	12	det	_	_
 12	conduta	conduta	NOUN	NOUN	_	3	nmod	_	_
-13	de	_	ADP	ADP	_	14	case	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
 14	réus	réu	NOUN	NOUN	_	12	nmod	_	_
 15	ligados	ligado	ADJ	ADJ	_	14	amod	_	_
 16-17	ao	_	_	_	_	_	_	_	_
 16	a	a	ADP	ADP	_	18	case	_	_
 17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	PP	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
-19	,	_	PUNCT	.	_	20	punct	_	_
+19	,	,	PUNCT	.	_	20	punct	_	_
 20	PTB	_	PROPN	PNOUN	_	18	conj	_	SpaceAfter=No
-21	,	_	PUNCT	.	_	22	punct	_	_
+21	,	,	PUNCT	.	_	22	punct	_	_
 22	PMDB	_	PROPN	PNOUN	_	18	conj	_	_
-23	e	_	CCONJ	CONJ	_	24	cc	_	_
+23	e	e	CCONJ	CONJ	_	24	cc	_	_
 24	PL	_	PROPN	PNOUN	_	18	conj	_	_
-25	(	_	PUNCT	.	_	27	punct	_	SpaceAfter=No
+25	(	(	PUNCT	.	_	27	punct	_	SpaceAfter=No
 26	atual	atual	ADJ	ADJ	_	27	amod	_	_
 27	PR	_	NOUN	NOUN	_	24	appos	_	SpaceAfter=No
-28	)	_	PUNCT	.	_	27	punct	_	SpaceAfter=No
-29	.	_	PUNCT	.	_	1	punct	_	_
+28	)	)	PUNCT	.	_	27	punct	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s258
 # text = Para transplante de rim existem 879 (585 ativos e 195 semiativos) pessoas aguardando na fila.
 1	Para	_	ADP	ADP	_	2	case	_	_
 2	transplante	transplante	NOUN	NOUN	_	5	nmod	_	_
-3	de	_	ADP	ADP	_	4	case	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
 4	rim	rim	NOUN	NOUN	_	2	nmod	_	_
 5	existem	existir	VERB	VERB	_	0	root	_	_
 6	879	_	NUM	NUM	NumType=Card	14	nummod	_	_
-7	(	_	PUNCT	.	_	8	punct	_	SpaceAfter=No
+7	(	(	PUNCT	.	_	8	punct	_	SpaceAfter=No
 8	585	_	NUM	NUM	NumType=Card	6	appos	_	_
 9	ativos	ativo	ADJ	ADJ	_	8	amod	_	_
-10	e	_	CCONJ	CONJ	_	11	cc	_	_
+10	e	e	CCONJ	CONJ	_	11	cc	_	_
 11	195	_	NUM	NUM	NumType=Card	8	conj	_	_
 12	semiativos	_	ADJ	ADJ	_	11	amod	_	SpaceAfter=No
-13	)	_	PUNCT	.	_	8	punct	_	_
+13	)	)	PUNCT	.	_	8	punct	_	_
 14	pessoas	pessoa	NOUN	NOUN	_	5	nsubj	_	_
 15	aguardando	aguardar	VERB	VERB	_	14	acl:part	_	_
 16-17	na	_	_	_	_	_	_	_	_
 16	em	em	ADP	ADP	_	18	case	_	_
 17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	fila	fila	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	5	punct	_	_
+19	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s259
 # text = Uma ótima pedida para o verão são os pratos mais leves como saladas e sanduíches do tipo baguete.
 1	Uma	_	DET	DET	_	3	det	_	_
 2	ótima	ótimo	ADJ	ADJ	_	3	amod	_	_
 3	pedida	pedido	NOUN	NOUN	_	9	nsubj	_	_
-4	para	_	ADP	ADP	_	6	case	_	_
-5	o	_	DET	DET	_	6	det	_	_
+4	para	para	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	_	6	det	_	_
 6	verão	_	PROPN	PNOUN	_	3	nmod	_	_
 7	são	ser	AUX	AUX	_	9	cop	_	_
-8	os	_	DET	DET	_	9	det	_	_
+8	os	o	DET	DET	_	9	det	_	_
 9	pratos	prato	NOUN	NOUN	_	0	root	_	_
 10	mais	mais	ADV	ADV	_	11	advmod	_	_
 11	leves	leve	ADJ	ADJ	_	9	amod	_	_
-12	como	_	ADP	ADP	_	13	case	_	_
+12	como	como	ADP	ADP	_	13	case	_	_
 13	saladas	salada	NOUN	NOUN	_	9	nmod	_	_
-14	e	_	CCONJ	CONJ	_	15	cc	_	_
+14	e	e	CCONJ	CONJ	_	15	cc	_	_
 15	sanduíches	sanduíche	NOUN	NOUN	_	13	conj	_	_
 16-17	do	_	_	_	_	_	_	_	_
 16	de	de	ADP	ADP	_	18	case	_	_
 17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	tipo	tipo	NOUN	NOUN	_	15	nmod	_	_
 19	baguete	baguete	NOUN	NOUN	_	18	flat	_	SpaceAfter=No
-20	.	_	PUNCT	.	_	9	punct	_	_
+20	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s260
 # text = Segundo a Ubisoft, depois do lançamento do game para Wii e Xbox 360, em outubro de 2011, a BEP Music LLC violou o contrato entre as empresas para a versão para iPhone, iPad e iPod Touch.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	a	_	DET	DET	_	3	det	_	_
+2	a	a	DET	DET	_	3	det	_	_
 3	Ubisoft	_	PROPN	PNOUN	_	27	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
 5	depois	depois	ADV	ADV	_	8	case	_	_
 6-7	do	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	5	case	_	_
@@ -276,36 +276,36 @@
 9	de	de	ADP	ADP	_	11	case	_	_
 10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	game	game	NOUN	NOUN	_	8	nmod	_	_
-12	para	_	ADP	ADP	_	13	case	_	_
+12	para	para	ADP	ADP	_	13	case	_	_
 13	Wii	_	PROPN	PNOUN	_	8	nmod	_	_
-14	e	_	CCONJ	CONJ	_	15	cc	_	_
+14	e	e	CCONJ	CONJ	_	15	cc	_	_
 15	Xbox	_	PROPN	PNOUN	_	13	conj	_	_
 16	360	_	NUM	NUM	NumType=Card	15	appos	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	8	punct	_	_
-18	em	_	ADP	ADP	_	19	case	_	_
+17	,	,	PUNCT	.	_	8	punct	_	_
+18	em	em	ADP	ADP	_	19	case	_	_
 19	outubro	_	PROPN	PNOUN	_	8	nmod	_	_
-20	de	_	ADP	ADP	_	21	case	_	_
+20	de	de	ADP	ADP	_	21	case	_	_
 21	2011	_	NUM	NUM	NumType=Card	19	nmod	_	SpaceAfter=No
-22	,	_	PUNCT	.	_	19	punct	_	_
-23	a	_	DET	DET	_	24	det	_	_
+22	,	,	PUNCT	.	_	19	punct	_	_
+23	a	a	DET	DET	_	24	det	_	_
 24	BEP	_	PROPN	PNOUN	_	27	nsubj	_	_
 25	Music	_	PROPN	PNOUN	_	24	flat	_	_
 26	LLC	_	PROPN	PNOUN	_	24	flat	_	_
 27	violou	violar	VERB	VERB	_	0	root	_	_
-28	o	_	DET	DET	_	29	det	_	_
+28	o	o	DET	DET	_	29	det	_	_
 29	contrato	contrato	NOUN	NOUN	_	27	obj	_	_
 30	entre	_	ADP	ADP	_	32	case	_	_
-31	as	_	DET	DET	_	32	det	_	_
+31	as	o	DET	DET	_	32	det	_	_
 32	empresas	empresa	NOUN	NOUN	_	29	nmod	_	_
-33	para	_	ADP	ADP	_	35	case	_	_
-34	a	_	DET	DET	_	35	det	_	_
+33	para	para	ADP	ADP	_	35	case	_	_
+34	a	a	DET	DET	_	35	det	_	_
 35	versão	versão	NOUN	NOUN	_	29	nmod	_	_
-36	para	_	ADP	ADP	_	37	case	_	_
+36	para	para	ADP	ADP	_	37	case	_	_
 37	iPhone	_	PROPN	PNOUN	_	35	nmod	_	SpaceAfter=No
-38	,	_	PUNCT	.	_	39	punct	_	_
+38	,	,	PUNCT	.	_	39	punct	_	_
 39	iPad	_	PROPN	PNOUN	_	37	conj	_	_
-40	e	_	CCONJ	CONJ	_	41	cc	_	_
+40	e	e	CCONJ	CONJ	_	41	cc	_	_
 41	iPod	_	PROPN	PNOUN	_	37	conj	_	_
 42	Touch	_	PROPN	PNOUN	_	41	flat	_	SpaceAfter=No
-43	.	_	PUNCT	.	_	27	punct	_	_
+43	.	.	PUNCT	.	_	27	punct	_	_
 

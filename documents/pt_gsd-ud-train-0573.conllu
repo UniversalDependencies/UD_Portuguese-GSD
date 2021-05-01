@@ -2,31 +2,31 @@
 # text = Acabou eliminado de forma surpreendente para Honduras.
 1	Acabou	acabar	VERB	VERB	_	0	root	_	_
 2	eliminado	eliminado	ADJ	ADJ	_	1	xcomp:adj	_	_
-3	de	_	ADP	ADP	_	4	case	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
 4	forma	forma	NOUN	NOUN	_	2	nmod	_	_
 5	surpreendente	surpreendente	ADJ	ADJ	_	4	amod	_	_
-6	para	_	ADP	ADP	_	7	case	_	_
+6	para	para	ADP	ADP	_	7	case	_	_
 7	Honduras	_	PROPN	PNOUN	_	2	nmod	_	SpaceAfter=No
-8	.	_	PUNCT	.	_	1	punct	_	_
+8	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s5689
 # text = Recentemente, a ponte Gilberto Amado, orçada em mais de R $ 110 milhões, sendo R $ 11 milhões do Governo do Estado, foi um dos destaques nacionais nas publicidades do Ministério do Turismo, aparecendo na foto principal de fundo da revista Época, página 92 da edição 00743.
 1	Recentemente	recentemente	ADV	ADV	_	30	advmod	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	1	punct	_	_
-3	a	_	DET	DET	_	4	det	_	_
+2	,	,	PUNCT	.	_	1	punct	_	_
+3	a	a	DET	DET	_	4	det	_	_
 4	ponte	ponte	NOUN	NOUN	_	30	nsubj	_	_
 5	Gilberto	_	PROPN	PNOUN	_	4	appos	_	_
 6	Amado	_	PROPN	PNOUN	_	5	flat	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	4	punct	_	_
+7	,	,	PUNCT	.	_	4	punct	_	_
 8	orçada	orçar	VERB	VERB	_	4	acl:part	_	_
 9	em	_	ADP	ADP	_	10	mark	_	_
 10	mais	mais	ADV	ADV	_	8	nmod	_	_
-11	de	_	ADP	ADP	_	12	case	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
 12	R	r	NOUN	NOUN	_	10	nmod	_	_
 13	$	_	SYM	SYM	_	12	flat	_	_
 14	110	_	NUM	NUM	NumType=Card	15	nummod	_	_
 15	milhões	_	NUM	NUM	NumType=Card	12	nummod	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	4	punct	_	_
+16	,	,	PUNCT	.	_	4	punct	_	_
 17	sendo	ser	VERB	VERB	_	4	acl:part	_	_
 18	R	r	NOUN	NOUN	_	17	nsubj	_	_
 19	$	_	SYM	SYM	_	18	flat	_	_
@@ -40,7 +40,7 @@
 25	de	de	ADP	ADP	_	27	case	_	_
 26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	Estado	_	PROPN	PNOUN	_	24	nmod	_	SpaceAfter=No
-28	,	_	PUNCT	.	_	4	punct	_	_
+28	,	,	PUNCT	.	_	4	punct	_	_
 29	foi	_	AUX	AUX	_	30	cop	_	_
 30	um	_	PRON	PRON	_	0	root	_	_
 31-32	dos	_	_	_	_	_	_	_	_
@@ -60,21 +60,21 @@
 41	de	de	ADP	ADP	_	43	case	_	_
 42	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
 43	Turismo	_	PROPN	PNOUN	_	40	nmod	_	SpaceAfter=No
-44	,	_	PUNCT	.	_	30	punct	_	_
+44	,	,	PUNCT	.	_	30	punct	_	_
 45	aparecendo	aparecer	VERB	VERB	_	30	acl:part	_	_
 46-47	na	_	_	_	_	_	_	_	_
 46	em	em	ADP	ADP	_	48	case	_	_
 47	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
 48	foto	foto	NOUN	NOUN	_	45	nmod	_	_
 49	principal	principal	ADJ	ADJ	_	48	amod	_	_
-50	de	_	ADP	ADP	_	51	case	_	_
+50	de	de	ADP	ADP	_	51	case	_	_
 51	fundo	fundo	NOUN	NOUN	_	48	nmod	_	_
 52-53	da	_	_	_	_	_	_	_	_
 52	de	de	ADP	ADP	_	54	case	_	_
 53	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
 54	revista	revista	NOUN	NOUN	_	48	nmod	_	_
 55	Época	_	PROPN	PNOUN	_	54	appos	_	SpaceAfter=No
-56	,	_	PUNCT	.	_	54	punct	_	_
+56	,	,	PUNCT	.	_	54	punct	_	_
 57	página	página	NOUN	NOUN	_	54	appos	_	_
 58	92	_	NUM	NUM	NumType=Card	57	appos	_	_
 59-60	da	_	_	_	_	_	_	_	_
@@ -82,7 +82,7 @@
 60	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	61	det	_	_
 61	edição	edição	NOUN	NOUN	_	57	nmod	_	_
 62	00743	_	NUM	NUM	NumType=Card	61	appos	_	SpaceAfter=No
-63	.	_	PUNCT	.	_	30	punct	_	_
+63	.	.	PUNCT	.	_	30	punct	_	_
 
 # sent_id = train-s5690
 # text = Para que ele não sofra novo problema muscular (já foram três nesta temporada), foi feita uma programação para que ele siga até o fim do ano.
@@ -94,55 +94,55 @@
 6	novo	novo	ADJ	ADJ	_	7	amod	_	_
 7	problema	problema	NOUN	NOUN	_	5	obj	_	_
 8	muscular	muscular	ADJ	ADJ	_	7	amod	_	_
-9	(	_	PUNCT	.	_	12	punct	_	SpaceAfter=No
+9	(	(	PUNCT	.	_	12	punct	_	SpaceAfter=No
 10	já	já	ADV	ADV	_	12	advmod	_	_
 11	foram	_	AUX	AUX	_	12	cop	_	_
 12	três	_	NUM	NUM	NumType=Card	5	parataxis	_	_
 13	nesta	_	ADP	ADP	_	14	case	_	_
 14	temporada	temporada	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
-15	)	_	PUNCT	.	_	12	punct	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	5	punct	_	_
+15	)	)	PUNCT	.	_	12	punct	_	SpaceAfter=No
+16	,	,	PUNCT	.	_	5	punct	_	_
 17	foi	_	AUX	AUX	_	18	aux:pass	_	_
 18	feita	_	VERB	VERB	_	0	root	_	_
-19	uma	_	DET	DET	_	20	det	_	_
+19	uma	um	DET	DET	_	20	det	_	_
 20	programação	programação	NOUN	NOUN	_	18	nsubj:pass	_	_
 21	para	_	ADP	ADP	_	24	mark	_	_
-22	que	_	CCONJ	CONJ	_	24	mark	_	_
+22	que	que	CCONJ	CONJ	_	24	mark	_	_
 23	ele	_	PRON	PRON	_	24	nsubj	_	_
 24	siga	seguir	VERB	VERB	_	20	nmod	_	_
 25	até	_	ADP	ADP	_	27	case	_	_
-26	o	_	DET	DET	_	27	det	_	_
+26	o	o	DET	DET	_	27	det	_	_
 27	fim	fim	NOUN	NOUN	_	24	nmod	_	_
 28-29	do	_	_	_	_	_	_	_	_
 28	de	de	ADP	ADP	_	30	case	_	_
 29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	ano	ano	NOUN	NOUN	_	27	nmod	_	SpaceAfter=No
-31	.	_	PUNCT	.	_	18	punct	_	_
+31	.	.	PUNCT	.	_	18	punct	_	_
 
 # sent_id = train-s5691
 # text = Bateu ponto 12h30, saiu para o banheiro e encontrou Geraldo Resende (PMDB - MS) no lugar.
 1	Bateu	bater	VERB	VERB	_	0	root	_	_
 2	ponto	ponto	NOUN	NOUN	_	1	obj	_	_
 3	12h30	_	NUM	NUM	NumType=Card	1	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	5	punct	_	_
+4	,	,	PUNCT	.	_	5	punct	_	_
 5	saiu	sair	VERB	VERB	_	1	conj	_	_
-6	para	_	ADP	ADP	_	8	case	_	_
-7	o	_	DET	DET	_	8	det	_	_
+6	para	para	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	_	8	det	_	_
 8	banheiro	banheiro	NOUN	NOUN	_	5	nmod	_	_
-9	e	_	CCONJ	CONJ	_	10	cc	_	_
+9	e	e	CCONJ	CONJ	_	10	cc	_	_
 10	encontrou	encontrar	VERB	VERB	_	1	conj	_	_
 11	Geraldo	_	PROPN	PNOUN	_	10	obj	_	_
 12	Resende	_	PROPN	PNOUN	_	11	flat	_	_
-13	(	_	PUNCT	.	_	14	punct	_	SpaceAfter=No
+13	(	(	PUNCT	.	_	14	punct	_	SpaceAfter=No
 14	PMDB	_	PROPN	PNOUN	_	11	appos	_	_
-15	-	_	PUNCT	.	_	14	punct	_	_
+15	-	-	PUNCT	.	_	14	punct	_	_
 16	MS	_	PROPN	PNOUN	_	14	flat	_	SpaceAfter=No
-17	)	_	PUNCT	.	_	14	punct	_	_
+17	)	)	PUNCT	.	_	14	punct	_	_
 18-19	no	_	_	_	_	_	_	_	_
 18	em	em	ADP	ADP	_	20	case	_	_
 19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	lugar	lugar	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
-21	.	_	PUNCT	.	_	1	punct	_	_
+21	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s5692
 # text = Mesmo personagens tidos como "menores" apresentavam grandes performances, com quase todo o elenco, na visão de Patrícia Kogut, sendo "de alto nível".
@@ -150,62 +150,62 @@
 2	personagens	personagem	NOUN	NOUN	_	8	nsubj	_	_
 3	tidos	ter	VERB	VERB	_	2	acl:part	_	_
 4	como	_	ADP	ADP	_	6	mark	_	_
-5	"	_	PUNCT	.	_	6	punct	_	SpaceAfter=No
+5	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
 6	menores	menor	ADJ	ADJ	_	3	nmod	_	SpaceAfter=No
-7	"	_	PUNCT	.	_	6	punct	_	_
+7	"	"	PUNCT	.	_	6	punct	_	_
 8	apresentavam	apresentar	VERB	VERB	_	0	root	_	_
 9	grandes	grande	ADJ	ADJ	_	10	amod	_	_
 10	performances	performance	NOUN	NOUN	_	8	obj	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	16	punct	_	_
-12	com	_	ADP	ADP	_	16	case	_	_
+11	,	,	PUNCT	.	_	16	punct	_	_
+12	com	com	ADP	ADP	_	16	case	_	_
 13	quase	quase	ADV	ADV	_	14	advmod	_	_
 14	todo	todo	ADJ	ADJ	_	16	amod	_	_
-15	o	_	DET	DET	_	16	det	_	_
+15	o	o	DET	DET	_	16	det	_	_
 16	elenco	elenco	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	20	punct	_	_
+17	,	,	PUNCT	.	_	20	punct	_	_
 18-19	na	_	_	_	_	_	_	_	_
 18	em	em	ADP	ADP	_	20	case	_	_
 19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	visão	visão	NOUN	NOUN	_	25	nmod	_	_
-21	de	_	ADP	ADP	_	22	case	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
 22	Patrícia	_	PROPN	PNOUN	_	20	nmod	_	_
 23	Kogut	_	PROPN	PNOUN	_	22	flat	_	SpaceAfter=No
-24	,	_	PUNCT	.	_	25	punct	_	_
+24	,	,	PUNCT	.	_	25	punct	_	_
 25	sendo	ser	VERB	VERB	_	16	acl:part	_	_
-26	"	_	PUNCT	.	_	29	punct	_	SpaceAfter=No
-27	de	_	ADP	ADP	_	29	case	_	_
+26	"	"	PUNCT	.	_	29	punct	_	SpaceAfter=No
+27	de	de	ADP	ADP	_	29	case	_	_
 28	alto	alto	ADJ	ADJ	_	29	amod	_	_
 29	nível	nível	NOUN	NOUN	_	25	nmod	_	SpaceAfter=No
-30	"	_	PUNCT	.	_	29	punct	_	SpaceAfter=No
-31	.	_	PUNCT	.	_	8	punct	_	_
+30	"	"	PUNCT	.	_	29	punct	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s5693
 # text = A instituição rapidamente produziu um guia para a estação de 1984, e abriu a propriedade ao público.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	instituição	instituição	NOUN	NOUN	_	4	nsubj	_	_
 3	rapidamente	rapidamente	ADV	ADV	_	4	advmod	_	_
 4	produziu	produzir	VERB	VERB	_	0	root	_	_
-5	um	_	DET	DET	_	6	det	_	_
+5	um	um	DET	DET	_	6	det	_	_
 6	guia	guia	NOUN	NOUN	_	4	obj	_	_
-7	para	_	ADP	ADP	_	9	case	_	_
-8	a	_	DET	DET	_	9	det	_	_
+7	para	para	ADP	ADP	_	9	case	_	_
+8	a	a	DET	DET	_	9	det	_	_
 9	estação	estação	NOUN	NOUN	_	6	nmod	_	_
-10	de	_	ADP	ADP	_	11	case	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
 11	1984	_	NUM	NUM	NumType=Card	9	nmod	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	14	punct	_	_
-13	e	_	CCONJ	CONJ	_	14	cc	_	_
+12	,	,	PUNCT	.	_	14	punct	_	_
+13	e	e	CCONJ	CONJ	_	14	cc	_	_
 14	abriu	abrir	VERB	VERB	_	4	conj	_	_
-15	a	_	DET	DET	_	16	det	_	_
+15	a	a	DET	DET	_	16	det	_	_
 16	propriedade	propriedade	NOUN	NOUN	_	14	obj	_	_
 17-18	ao	_	_	_	_	_	_	_	_
 17	a	a	ADP	ADP	_	19	case	_	_
 18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	público	público	NOUN	NOUN	_	14	iobj	_	SpaceAfter=No
-20	.	_	PUNCT	.	_	4	punct	_	_
+20	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s5694
 # text = A brasileira Marily dos Santos terminou em quinto lugar.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	brasileira	brasileiro	NOUN	NOUN	_	7	nsubj	_	_
 3	Marily	_	PROPN	PNOUN	_	2	appos	_	_
 4-5	dos	_	_	_	_	_	_	_	_
@@ -213,10 +213,10 @@
 5	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
 6	Santos	_	PROPN	PNOUN	_	3	nmod	_	_
 7	terminou	terminar	VERB	VERB	_	0	root	_	_
-8	em	_	ADP	ADP	_	10	case	_	_
+8	em	em	ADP	ADP	_	10	case	_	_
 9	quinto	_	ADJ	ADJ	_	10	amod	_	_
 10	lugar	lugar	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-11	.	_	PUNCT	.	_	7	punct	_	_
+11	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s5695
 # text = Na raiz dos cílios superiores e inferiores, aposte em lápis marrom.
@@ -229,40 +229,40 @@
 5	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
 6	cílios	cílio	NOUN	NOUN	_	3	nmod	_	_
 7	superiores	superior	ADJ	ADJ	_	6	amod	_	_
-8	e	_	CCONJ	CONJ	_	9	cc	_	_
+8	e	e	CCONJ	CONJ	_	9	cc	_	_
 9	inferiores	inferior	ADJ	ADJ	_	7	conj	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	3	punct	_	_
+10	,	,	PUNCT	.	_	3	punct	_	_
 11	aposte	apostar	VERB	VERB	_	0	root	_	_
-12	em	_	ADP	ADP	_	13	case	_	_
+12	em	em	ADP	ADP	_	13	case	_	_
 13	lápis	lápis	NOUN	NOUN	_	11	nmod	_	_
 14	marrom	marrom	ADJ	ADJ	_	13	amod	_	SpaceAfter=No
-15	.	_	PUNCT	.	_	11	punct	_	_
+15	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s5696
 # text = Atualmente, a cidade, que faz fronteira com a Colômbia e a Venezuela, é um ponyo estratégico para o país.
 1	Atualmente	atualmente	ADV	ADV	_	18	advmod	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	1	punct	_	_
-3	a	_	DET	DET	_	4	det	_	_
+2	,	,	PUNCT	.	_	1	punct	_	_
+3	a	a	DET	DET	_	4	det	_	_
 4	cidade	cidade	NOUN	NOUN	_	18	nsubj	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	7	punct	_	_
+5	,	,	PUNCT	.	_	7	punct	_	_
 6	que	_	PRON	PRON	_	7	nsubj	_	_
 7	faz	fazer	VERB	VERB	_	4	acl:relcl	_	_
 8	fronteira	_	NOUN	NOUN	_	7	obj	_	_
-9	com	_	ADP	ADP	_	11	case	_	_
-10	a	_	DET	DET	_	11	det	_	_
+9	com	com	ADP	ADP	_	11	case	_	_
+10	a	a	DET	DET	_	11	det	_	_
 11	Colômbia	_	PROPN	PNOUN	_	8	nmod	_	_
 12	e	e	CCONJ	CONJ	_	14	cc	_	_
 13	a	o	DET	DET	_	14	det	_	_
 14	Venezuela	_	PROPN	PNOUN	_	11	conj	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	7	punct	_	_
+15	,	,	PUNCT	.	_	7	punct	_	_
 16	é	ser	AUX	AUX	_	18	cop	_	_
-17	um	_	DET	DET	_	18	det	_	_
+17	um	um	DET	DET	_	18	det	_	_
 18	ponyo	_	NOUN	NOUN	_	0	root	_	_
 19	estratégico	estratégico	ADJ	ADJ	_	18	amod	_	_
-20	para	_	ADP	ADP	_	22	case	_	_
-21	o	_	DET	DET	_	22	det	_	_
+20	para	para	ADP	ADP	_	22	case	_	_
+21	o	o	DET	DET	_	22	det	_	_
 22	país	país	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
-23	.	_	PUNCT	.	_	18	punct	_	_
+23	.	.	PUNCT	.	_	18	punct	_	_
 
 # sent_id = train-s5697
 # text = Dalguma forma, estamos sentindo esse vazio.
@@ -270,10 +270,10 @@
 1	De	_	ADP	ADP	_	3	case	_	_
 2	alguma	_	DET	DET	_	3	det	_	_
 3	forma	forma	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
 5	estamos	estar	AUX	AUX	_	6	aux	_	_
 6	sentindo	sentir	VERB	VERB	_	0	root	_	_
 7	esse	_	DET	DET	_	8	det	_	_
 8	vazio	vazio	NOUN	NOUN	_	6	obj	_	SpaceAfter=No
-9	.	_	PUNCT	.	_	6	punct	_	_
+9	.	.	PUNCT	.	_	6	punct	_	_
 

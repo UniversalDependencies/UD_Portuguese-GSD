@@ -4,20 +4,20 @@
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Secundário	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
-5	os	_	DET	DET	_	6	det	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	os	o	DET	DET	_	6	det	_	_
 6	alunos	aluno	NOUN	NOUN	_	7	nsubj	_	_
 7	têm	ter	VERB	VERB	_	0	root	_	_
 8	exames	exame	NOUN	NOUN	_	7	obj	_	_
 9	nacionais	nacional	ADJ	ADJ	_	8	amod	_	_
-10	de	_	ADP	ADP	_	11	case	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
 11	Português	_	PROPN	PNOUN	_	8	nmod	_	_
-12	(	_	PUNCT	.	_	15	punct	_	SpaceAfter=No
+12	(	(	PUNCT	.	_	15	punct	_	SpaceAfter=No
 13	12	_	ADJ	ADJ	_	15	amod	_	_
 14	º	_	PUNCT	.	_	13	punct	_	_
 15	ano	ano	NOUN	NOUN	_	8	appos	_	SpaceAfter=No
-16	)	_	PUNCT	.	_	15	punct	_	_
-17	e	_	CCONJ	CONJ	_	20	cc	_	_
+16	)	)	PUNCT	.	_	15	punct	_	_
+17	e	e	CCONJ	CONJ	_	20	cc	_	_
 18-19	das	_	_	_	_	_	_	_	_
 18	de	de	ADP	ADP	_	20	case	_	_
 19	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
@@ -28,7 +28,7 @@
 23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 24	seu	_	DET	DET	_	25	det:poss	_	_
 25	curso	curso	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
-26	.	_	PUNCT	.	_	7	punct	_	_
+26	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s1699
 # text = Cada uma das formações será utilizada no momento certo.
@@ -45,47 +45,47 @@
 9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	momento	momento	NOUN	NOUN	_	7	nmod	_	_
 11	certo	certo	ADJ	ADJ	_	10	amod	_	SpaceAfter=No
-12	.	_	PUNCT	.	_	7	punct	_	_
+12	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s1700
 # text = A segunda etapa começou, praticamente, como terminou a inicial, ou seja, com Rooney tentando balançar as redes.
-1	A	_	DET	DET	_	3	det	_	_
+1	A	o	DET	DET	_	3	det	_	_
 2	segunda	segundo	ADJ	ADJ	_	3	amod	_	_
 3	etapa	etapa	NOUN	NOUN	_	4	nsubj	_	_
 4	começou	começar	VERB	VERB	_	0	root	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	6	punct	_	_
+5	,	,	PUNCT	.	_	6	punct	_	_
 6	praticamente	praticamente	ADV	ADV	_	4	advmod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	6	punct	_	_
+7	,	,	PUNCT	.	_	6	punct	_	_
 8	como	_	CCONJ	CONJ	_	9	mark	_	_
 9	terminou	terminar	VERB	VERB	_	4	advcl	_	_
-10	a	_	DET	DET	_	11	det	_	_
+10	a	a	DET	DET	_	11	det	_	_
 11	inicial	inicial	NOUN	NOUN	_	9	nsubj	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	17	punct	_	_
-13	ou	_	CCONJ	CONJ	_	17	cc	_	_
+12	,	,	PUNCT	.	_	17	punct	_	_
+13	ou	ou	CCONJ	CONJ	_	17	cc	_	_
 14	seja	_	CCONJ	CONJ	_	13	fixed	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	17	punct	_	_
-16	com	_	ADP	ADP	_	17	case	_	_
+15	,	,	PUNCT	.	_	17	punct	_	_
+16	com	com	ADP	ADP	_	17	case	_	_
 17	Rooney	_	PROPN	PNOUN	_	9	conj	_	_
 18	tentando	tentar	VERB	VERB	_	17	acl:part	_	_
 19	balançar	balançar	VERB	VERB	_	18	xcomp	_	_
-20	as	_	DET	DET	_	21	det	_	_
+20	as	o	DET	DET	_	21	det	_	_
 21	redes	rede	NOUN	NOUN	_	19	obj	_	SpaceAfter=No
-22	.	_	PUNCT	.	_	4	punct	_	_
+22	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s1701
 # text = O Manchester United ocupa a quinta colocação, com seis pontos.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	Manchester	_	PROPN	PNOUN	_	4	nsubj	_	_
 3	United	_	PROPN	PNOUN	_	2	amod	_	_
 4	ocupa	ocupar	VERB	VERB	_	0	root	_	_
-5	a	_	DET	DET	_	7	det	_	_
+5	a	a	DET	DET	_	7	det	_	_
 6	quinta	_	ADJ	ADJ	_	7	amod	_	_
 7	colocação	colocação	NOUN	NOUN	_	4	obj	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	11	punct	_	_
-9	com	_	ADP	ADP	_	11	case	_	_
+8	,	,	PUNCT	.	_	11	punct	_	_
+9	com	com	ADP	ADP	_	11	case	_	_
 10	seis	_	NUM	NUM	NumType=Card	11	nummod	_	_
 11	pontos	ponto	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
-12	.	_	PUNCT	.	_	4	punct	_	_
+12	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s1702
 # text = Temos sorte de termos muito lutadores brasileiros e isso ajuda também ", concluiu Marshall.
@@ -96,21 +96,21 @@
 5	muito	_	DET	DET	_	6	det	_	_
 6	lutadores	lutador	NOUN	NOUN	_	4	obj	_	_
 7	brasileiros	brasileiro	ADJ	ADJ	_	6	amod	_	_
-8	e	_	CCONJ	CONJ	_	10	cc	_	_
+8	e	e	CCONJ	CONJ	_	10	cc	_	_
 9	isso	_	PRON	PRON	_	10	nsubj	_	_
 10	ajuda	ajudar	VERB	VERB	_	1	conj	_	_
 11	também	também	ADV	ADV	_	10	advmod	_	_
-12	"	_	PUNCT	.	_	1	punct	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	14	punct	_	_
+12	"	"	PUNCT	.	_	1	punct	_	SpaceAfter=No
+13	,	,	PUNCT	.	_	14	punct	_	_
 14	concluiu	concluir	VERB	VERB	_	0	root	_	_
 15	Marshall	_	PROPN	PNOUN	_	14	nsubj	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	14	punct	_	_
+16	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = train-s1703
 # text = Numa carta divulgada na internet no dia 10 do mês passado, membros do Conselho Indigenista Missionário (Cimi) condenaram a ordem de despejo dada pela Justiça Federal de Naviraí, em Mato Grosso do Sul, comparando - à uma "morte coletiva".
 1-2	Numa	_	_	_	_	_	_	_	_
-1	Em	_	ADP	ADP	_	3	case	_	_
-2	uma	_	DET	DET	_	3	det	_	_
+1	Em	em	ADP	ADP	_	3	case	_	_
+2	uma	um	DET	DET	_	3	det	_	_
 3	carta	carta	NOUN	NOUN	_	26	nmod	_	_
 4	divulgada	divulgar	VERB	VERB	_	3	acl:part	_	_
 5-6	na	_	_	_	_	_	_	_	_
@@ -127,7 +127,7 @@
 13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	mês	mês	NOUN	NOUN	_	11	nmod	_	_
 15	passado	passado	ADJ	ADJ	_	14	amod	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	3	punct	_	_
+16	,	,	PUNCT	.	_	3	punct	_	_
 17	membros	membro	NOUN	NOUN	_	26	nsubj	_	_
 18-19	do	_	_	_	_	_	_	_	_
 18	de	de	ADP	ADP	_	20	case	_	_
@@ -135,13 +135,13 @@
 20	Conselho	_	PROPN	PNOUN	_	17	nmod	_	_
 21	Indigenista	_	PROPN	PNOUN	_	20	amod	_	_
 22	Missionário	_	PROPN	PNOUN	_	20	amod	_	_
-23	(	_	PUNCT	.	_	24	punct	_	SpaceAfter=No
+23	(	(	PUNCT	.	_	24	punct	_	SpaceAfter=No
 24	Cimi	_	PROPN	PNOUN	_	20	appos	_	SpaceAfter=No
-25	)	_	PUNCT	.	_	24	punct	_	_
+25	)	)	PUNCT	.	_	24	punct	_	_
 26	condenaram	condenar	VERB	VERB	_	0	root	_	_
-27	a	_	DET	DET	_	28	det	_	_
+27	a	a	DET	DET	_	28	det	_	_
 28	ordem	ordem	NOUN	NOUN	_	26	obj	_	_
-29	de	_	ADP	ADP	_	30	case	_	_
+29	de	de	ADP	ADP	_	30	case	_	_
 30	despejo	despejo	NOUN	NOUN	_	28	nmod	_	_
 31	dada	dar	VERB	VERB	_	28	acl:part	_	_
 32-33	pela	_	_	_	_	_	_	_	_
@@ -149,33 +149,33 @@
 33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	Justiça	_	PROPN	PNOUN	_	31	nmod	_	_
 35	Federal	_	PROPN	PNOUN	_	34	amod	_	_
-36	de	_	ADP	ADP	_	37	case	_	_
+36	de	de	ADP	ADP	_	37	case	_	_
 37	Naviraí	_	PROPN	PNOUN	_	34	nmod	_	SpaceAfter=No
-38	,	_	PUNCT	.	_	40	punct	_	_
-39	em	_	ADP	ADP	_	40	case	_	_
+38	,	,	PUNCT	.	_	40	punct	_	_
+39	em	em	ADP	ADP	_	40	case	_	_
 40	Mato	_	PROPN	PNOUN	_	31	nmod	_	_
 41	Grosso	_	PROPN	PNOUN	_	40	amod	_	_
 42-43	do	_	_	_	_	_	_	_	_
 42	de	de	ADP	ADP	_	44	case	_	_
 43	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
 44	Sul	_	PROPN	PNOUN	_	40	nmod	_	SpaceAfter=No
-45	,	_	PUNCT	.	_	40	punct	_	_
+45	,	,	PUNCT	.	_	40	punct	_	_
 46	comparando	comparar	VERB	VERB	_	26	acl:part	_	_
-47	-	_	PUNCT	.	_	46	punct	_	_
+47	-	-	PUNCT	.	_	46	punct	_	_
 48-49	à	_	_	_	_	_	_	_	_
 48	a	_	PRON	PRON	_	46	obj	_	_
 49	a	_	ADP	ADP	_	52	case	_	_
-50	uma	_	DET	DET	_	52	det	_	_
-51	"	_	PUNCT	.	_	52	punct	_	SpaceAfter=No
+50	uma	um	DET	DET	_	52	det	_	_
+51	"	"	PUNCT	.	_	52	punct	_	SpaceAfter=No
 52	morte	morte	NOUN	NOUN	_	46	nmod	_	_
 53	coletiva	coletivo	ADJ	ADJ	_	52	amod	_	SpaceAfter=No
-54	"	_	PUNCT	.	_	52	punct	_	SpaceAfter=No
-55	.	_	PUNCT	.	_	26	punct	_	_
+54	"	"	PUNCT	.	_	52	punct	_	SpaceAfter=No
+55	.	.	PUNCT	.	_	26	punct	_	_
 
 # sent_id = train-s1704
 # text = Graficamente, conforme relatório enviado a clientes pela equipe da Um Investimentos, O Ibovespa à vista, se confirmar o rompimento do nível próximo aos 59.500 pontos, tem novo ponto de resistência nos 61.500 pontos.
 1	Graficamente	graficamente	ADV	ADV	_	35	advmod	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	1	punct	_	_
+2	,	,	PUNCT	.	_	1	punct	_	_
 3	conforme	_	ADP	ADP	_	4	case	_	_
 4	relatório	relatório	NOUN	NOUN	_	35	nmod	_	_
 5	enviado	enviar	VERB	VERB	_	4	acl:part	_	_
@@ -190,17 +190,17 @@
 12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	Um	_	PROPN	PNOUN	_	10	nmod	_	_
 14	Investimentos	_	PROPN	PNOUN	_	13	flat	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	4	punct	_	_
-16	O	_	DET	DET	_	17	det	_	_
+15	,	,	PUNCT	.	_	4	punct	_	_
+16	O	o	DET	DET	_	17	det	_	_
 17	Ibovespa	_	PROPN	PNOUN	_	35	nsubj	_	_
 18-19	à	_	_	_	_	_	_	_	_
 18	a	a	ADP	ADP	_	20	case	_	_
 19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	vista	vista	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
-21	,	_	PUNCT	.	_	23	punct	_	_
+21	,	,	PUNCT	.	_	23	punct	_	_
 22	se	_	CCONJ	CONJ	_	23	mark	_	_
 23	confirmar	confirmar	VERB	VERB	_	35	advcl	_	_
-24	o	_	DET	DET	_	25	det	_	_
+24	o	o	DET	DET	_	25	det	_	_
 25	rompimento	rompimento	NOUN	NOUN	_	23	obj	_	_
 26-27	do	_	_	_	_	_	_	_	_
 26	de	de	ADP	ADP	_	28	case	_	_
@@ -212,48 +212,48 @@
 31	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
 32	59.500	_	NUM	NUM	NumType=Card	33	nummod	_	_
 33	pontos	ponto	NOUN	NOUN	_	29	nmod	_	SpaceAfter=No
-34	,	_	PUNCT	.	_	23	punct	_	_
+34	,	,	PUNCT	.	_	23	punct	_	_
 35	tem	ter	VERB	VERB	_	0	root	_	_
 36	novo	novo	ADJ	ADJ	_	37	amod	_	_
 37	ponto	ponto	NOUN	NOUN	_	35	obj	_	_
-38	de	_	ADP	ADP	_	39	case	_	_
+38	de	de	ADP	ADP	_	39	case	_	_
 39	resistência	resistência	NOUN	NOUN	_	37	nmod	_	_
 40-41	nos	_	_	_	_	_	_	_	_
 40	em	em	ADP	ADP	_	43	case	_	_
 41	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	43	det	_	_
 42	61.500	_	NUM	NUM	NumType=Card	43	nummod	_	_
 43	pontos	ponto	NOUN	NOUN	_	35	nmod	_	SpaceAfter=No
-44	.	_	PUNCT	.	_	35	punct	_	_
+44	.	.	PUNCT	.	_	35	punct	_	_
 
 # sent_id = train-s1705
 # text = "Expectativas sim, mas já viajei muito jogando em campeonatos mineiros.
-1	"	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
 2	Expectativas	expectativa	NOUN	NOUN	_	0	root	_	_
 3	sim	sim	ADV	ADV	_	2	advmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	7	punct	_	_
+4	,	,	PUNCT	.	_	7	punct	_	_
 5	mas	_	CCONJ	CONJ	_	7	cc	_	_
 6	já	já	ADV	ADV	_	7	advmod	_	_
 7	viajei	viajar	VERB	VERB	_	2	conj	_	_
 8	muito	muito	ADV	ADV	_	7	advmod	_	_
 9	jogando	jogar	VERB	VERB	_	7	acl:part	_	_
-10	em	_	ADP	ADP	_	11	case	_	_
+10	em	em	ADP	ADP	_	11	case	_	_
 11	campeonatos	campeonato	NOUN	NOUN	_	9	nmod	_	_
 12	mineiros	mineiro	ADJ	ADJ	_	11	amod	_	SpaceAfter=No
-13	.	_	PUNCT	.	_	2	punct	_	_
+13	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s1706
 # text = Está localizado entre os bairros: Feital, Jardim Hélida e Chácara Maria Francisca
 1	Está	estar	AUX	AUX	_	2	aux	_	_
 2	localizado	localizar	VERB	VERB	_	0	root	_	_
 3	entre	_	ADP	ADP	_	5	case	_	_
-4	os	_	DET	DET	_	5	det	_	_
+4	os	o	DET	DET	_	5	det	_	_
 5	bairros	bairro	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
-6	:	_	PUNCT	.	_	5	punct	_	_
+6	:	:	PUNCT	.	_	5	punct	_	_
 7	Feital	_	PROPN	PNOUN	_	5	appos	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	9	punct	_	_
+8	,	,	PUNCT	.	_	9	punct	_	_
 9	Jardim	_	PROPN	PNOUN	_	7	conj	_	_
 10	Hélida	_	PROPN	PNOUN	_	9	flat	_	_
-11	e	_	CCONJ	CONJ	_	9	cc	_	_
+11	e	e	CCONJ	CONJ	_	9	cc	_	_
 12	Chácara	_	PROPN	PNOUN	_	7	appos	_	_
 13	Maria	_	PROPN	PNOUN	_	12	conj	_	_
 14	Francisca	_	PROPN	PNOUN	_	13	flat	_	_
@@ -267,13 +267,13 @@
 4	em	em	ADP	ADP	_	6	case	_	_
 5	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
 6	oócitos	oócito	NOUN	NOUN	_	3	nmod	_	_
-7	de	_	ADP	ADP	_	8	case	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
 8	Osedax	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	12	punct	_	_
+9	,	,	PUNCT	.	_	12	punct	_	_
 10	portanto	_	ADV	ADV	_	12	advmod	_	_
 11	são	ser	AUX	AUX	_	12	aux:pass	_	_
 12	adquiridas	adquirir	VERB	VERB	_	2	conj	_	_
 13	mais	mais	ADV	ADV	_	14	advmod	_	_
 14	tarde	tarde	ADV	ADV	_	12	advmod	_	SpaceAfter=No
-15	.	_	PUNCT	.	_	2	punct	_	_
+15	.	.	PUNCT	.	_	2	punct	_	_
 

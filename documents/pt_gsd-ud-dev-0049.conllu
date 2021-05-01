@@ -5,27 +5,27 @@
 2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	última	último	ADJ	ADJ	_	4	amod	_	_
 4	rodada	_	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	4	punct	_	_
-6	o	_	DET	DET	_	8	det	_	_
+5	,	,	PUNCT	.	_	4	punct	_	_
+6	o	o	DET	DET	_	8	det	_	_
 7	Santa	_	PROPN	PNOUN	_	8	amod	_	_
 8	Cruz	_	PROPN	PNOUN	_	9	nsubj	_	_
 9	empatou	empatar	VERB	VERB	_	0	root	_	_
-10	por	_	ADP	ADP	_	11	case	_	_
+10	por	por	ADP	ADP	_	11	case	_	_
 11	0	_	NUM	NUM	NumType=Card	9	nmod	_	_
 12	a	_	ADP	ADP	_	13	case	_	_
 13	0	_	NUM	NUM	NumType=Card	11	nmod	_	SpaceAfter=No
-14	,	_	PUNCT	.	_	11	punct	_	_
-15	com	_	ADP	ADP	_	17	case	_	_
-16	o	_	DET	DET	_	17	det	_	_
+14	,	,	PUNCT	.	_	11	punct	_	_
+15	com	com	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	_	17	det	_	_
 17	Salgueiro	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
-18	,	_	PUNCT	.	_	19	punct	_	_
+18	,	,	PUNCT	.	_	19	punct	_	_
 19	chegou	chegar	VERB	VERB	_	9	conj	_	_
 20-21	aos	_	_	_	_	_	_	_	_
 20	a	a	ADP	ADP	_	23	case	_	_
 21	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
 22	15	_	NUM	NUM	NumType=Card	23	nummod	_	_
 23	pontos	ponto	NOUN	NOUN	_	19	nmod	_	_
-24	e	_	CCONJ	CONJ	_	25	cc	_	_
+24	e	e	CCONJ	CONJ	_	25	cc	_	_
 25	permaneceu	permanecer	VERB	VERB	_	9	conj	_	_
 26-27	na	_	_	_	_	_	_	_	_
 26	em	em	ADP	ADP	_	29	case	_	_
@@ -41,21 +41,21 @@
 # sent_id = dev-s476b
 # text = Já o Treze, vem de vitória por 2 a 1, sobre o Icasa, que o colocou na sétima posição, com 13 pontos ganhos.
 1	Já	já	ADV	ADV	_	5	advmod	_	_
-2	o	_	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	_	3	det	_	_
 3	Treze	_	PROPN	PNOUN	_	5	nsubj	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
 5	vem	vir	VERB	VERB	_	0	root	_	_
-6	de	_	ADP	ADP	_	7	case	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
 7	vitória	vitória	NOUN	NOUN	_	5	nmod	_	_
-8	por	_	ADP	ADP	_	9	case	_	_
+8	por	por	ADP	ADP	_	9	case	_	_
 9	2	_	NUM	NUM	NumType=Card	7	nmod	_	_
 10	a	_	ADP	ADP	_	11	case	_	_
 11	1	_	NUM	NUM	NumType=Card	9	nmod	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	15	punct	_	_
+12	,	,	PUNCT	.	_	15	punct	_	_
 13	sobre	_	ADP	ADP	_	15	case	_	_
-14	o	_	DET	DET	_	15	det	_	_
+14	o	o	DET	DET	_	15	det	_	_
 15	Icasa	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	19	punct	_	_
+16	,	,	PUNCT	.	_	19	punct	_	_
 17	que	_	PRON	PRON	_	19	nsubj	_	_
 18	o	_	PRON	PRON	_	19	obj	_	_
 19	colocou	colocar	VERB	VERB	_	7	acl:relcl	_	_
@@ -64,12 +64,12 @@
 21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 22	sétima	_	ADJ	ADJ	_	23	amod	_	_
 23	posição	posição	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
-24	,	_	PUNCT	.	_	27	punct	_	_
-25	com	_	ADP	ADP	_	27	case	_	_
+24	,	,	PUNCT	.	_	27	punct	_	_
+25	com	com	ADP	ADP	_	27	case	_	_
 26	13	_	NUM	NUM	NumType=Card	27	nummod	_	_
 27	pontos	ponto	NOUN	NOUN	_	19	nmod	_	_
 28	ganhos	ganhar	VERB	VERB	_	27	acl:part	_	SpaceAfter=No
-29	.	_	PUNCT	.	_	5	punct	_	_
+29	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = dev-s477
 # text = Até aproximadamente aos 50 anos os homens têm maior risco, a partir desta idade o risco se iguala para ambos os sexos.
@@ -80,56 +80,56 @@
 4	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
 5	50	_	NUM	NUM	NumType=Card	6	nummod	_	_
 6	anos	ano	NOUN	NOUN	_	1	nmod	_	_
-7	os	_	DET	DET	_	8	det	_	_
+7	os	o	DET	DET	_	8	det	_	_
 8	homens	homem	NOUN	NOUN	_	9	nsubj	_	_
 9	têm	ter	VERB	VERB	_	0	root	_	_
 10	maior	maior	ADJ	ADJ	_	11	amod	_	_
 11	risco	risco	NOUN	NOUN	_	9	obj	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	20	punct	_	_
+12	,	,	PUNCT	.	_	20	punct	_	_
 13	a	_	ADP	ADP	_	14	mark	_	_
 14	partir	partir	VERB	VERB	_	20	nmod	_	_
 15	desta	_	ADP	ADP	_	16	case	_	_
 16	idade	idade	NOUN	NOUN	_	14	nmod	_	_
-17	o	_	DET	DET	_	18	det	_	_
+17	o	o	DET	DET	_	18	det	_	_
 18	risco	risco	NOUN	NOUN	_	20	nsubj	_	_
 19	se	_	PRON	PRON	_	20	expl:pv	_	_
 20	iguala	igualar	VERB	VERB	_	9	conj	_	_
-21	para	_	ADP	ADP	_	24	case	_	_
+21	para	para	ADP	ADP	_	24	case	_	_
 22	ambos	_	DET	DET	_	24	det	_	_
-23	os	_	DET	DET	_	24	det	_	_
+23	os	o	DET	DET	_	24	det	_	_
 24	sexos	sexo	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
-25	.	_	PUNCT	.	_	9	punct	_	_
+25	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = dev-s478
 # text = Nesta Euro, a Federação Croata já foi multada em 25 mil euros (cerca de R $ 64 mil) por conta do comportamento de seus torcedores no jogo contra a Itália.
 1	Nesta	_	ADP	ADP	_	2	case	_	_
 2	Euro	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	2	punct	_	_
-4	a	_	DET	DET	_	5	det	_	_
+3	,	,	PUNCT	.	_	2	punct	_	_
+4	a	a	DET	DET	_	5	det	_	_
 5	Federação	_	PROPN	PNOUN	_	9	nsubj:pass	_	_
 6	Croata	_	PROPN	PNOUN	_	5	amod	_	_
 7	já	já	ADV	ADV	_	9	advmod	_	_
 8	foi	_	AUX	AUX	_	9	aux:pass	_	_
 9	multada	multar	VERB	VERB	_	0	root	_	_
-10	em	_	ADP	ADP	_	13	case	_	_
+10	em	em	ADP	ADP	_	13	case	_	_
 11	25	_	NUM	NUM	NumType=Card	12	nummod	_	_
 12	mil	_	NOUN	NOUN	_	13	nummod	_	_
 13	euros	euro	NOUN	NOUN	_	9	nmod	_	_
-14	(	_	PUNCT	.	_	15	punct	_	SpaceAfter=No
+14	(	(	PUNCT	.	_	15	punct	_	SpaceAfter=No
 15	cerca	cerca	ADV	ADV	_	13	advmod	_	_
-16	de	_	ADP	ADP	_	17	case	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
 17	R	r	NOUN	NOUN	_	15	nmod	_	_
 18	$	_	SYM	SYM	_	17	flat	_	_
 19	64	_	NUM	NUM	NumType=Card	20	nummod	_	_
 20	mil	_	NOUN	NOUN	_	17	nummod	_	SpaceAfter=No
-21	)	_	PUNCT	.	_	15	punct	_	_
-22	por	_	ADP	ADP	_	23	case	_	_
+21	)	)	PUNCT	.	_	15	punct	_	_
+22	por	por	ADP	ADP	_	23	case	_	_
 23	conta	conta	NOUN	NOUN	_	9	nmod	_	_
 24-25	do	_	_	_	_	_	_	_	_
 24	de	de	ADP	ADP	_	26	case	_	_
 25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	comportamento	comportamento	NOUN	NOUN	_	23	nmod	_	_
-27	de	_	ADP	ADP	_	29	case	_	_
+27	de	de	ADP	ADP	_	29	case	_	_
 28	seus	_	DET	DET	_	29	det:poss	_	_
 29	torcedores	torcedor	NOUN	NOUN	_	26	nmod	_	_
 30-31	no	_	_	_	_	_	_	_	_
@@ -137,13 +137,13 @@
 31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	jogo	jogo	NOUN	NOUN	_	26	nmod	_	_
 33	contra	_	ADP	ADP	_	35	case	_	_
-34	a	_	DET	DET	_	35	det	_	_
+34	a	a	DET	DET	_	35	det	_	_
 35	Itália	_	PROPN	PNOUN	_	32	nmod	_	SpaceAfter=No
-36	.	_	PUNCT	.	_	9	punct	_	_
+36	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = dev-s479
 # text = A partida seria parte das comemorações da reabertura do Mineirão, cuja reforma do estádio para 68 mil pessoas custou 654 milhões reais.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	partida	partida	NOUN	NOUN	_	4	nsubj	_	_
 3	seria	_	AUX	AUX	_	4	cop	_	_
 4	parte	parte	NOUN	NOUN	_	0	root	_	_
@@ -159,14 +159,14 @@
 11	de	de	ADP	ADP	_	13	case	_	_
 12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	Mineirão	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
-14	,	_	PUNCT	.	_	24	punct	_	_
+14	,	,	PUNCT	.	_	24	punct	_	_
 15	cuja	_	DET	DET	_	16	det	_	_
 16	reforma	reforma	NOUN	NOUN	_	24	nsubj	_	_
 17-18	do	_	_	_	_	_	_	_	_
 17	de	de	ADP	ADP	_	19	case	_	_
 18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	estádio	estádio	NOUN	NOUN	_	16	nmod	_	_
-20	para	_	ADP	ADP	_	23	case	_	_
+20	para	para	ADP	ADP	_	23	case	_	_
 21	68	_	NUM	NUM	NumType=Card	22	nummod	_	_
 22	mil	_	NUM	NUM	NumType=Card	23	nummod	_	_
 23	pessoas	pessoa	NOUN	NOUN	_	19	nmod	_	_
@@ -174,83 +174,83 @@
 25	654	_	NUM	NUM	NumType=Card	26	nummod	_	_
 26	milhões	_	NUM	NUM	NumType=Card	27	nummod	_	_
 27	reais	real	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
-28	.	_	PUNCT	.	_	4	punct	_	_
+28	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = dev-s480
 # text = Depois de levar em conta outros fatores de risco para o coração, como pressão alta, colesterol alto e histórico familiar de problemas cardíacos, Roopinder Sandhu, que liderou a pesquisa, descobriu que mulheres que fumavam tinham o dobro de chances de morrer de repente mesmo se fumassem entre um e 14 cigarros por dia.
 1	Depois	depois	ADV	ADV	_	3	mark	_	_
 2	de	_	ADP	ADP	_	1	fixed	_	_
 3	levar	levar	VERB	VERB	_	35	advcl	_	_
-4	em	_	ADP	ADP	_	5	case	_	_
+4	em	em	ADP	ADP	_	5	case	_	_
 5	conta	conta	NOUN	NOUN	_	3	nmod	_	_
 6	outros	_	DET	DET	_	7	det	_	_
 7	fatores	fator	NOUN	NOUN	_	3	obj	_	_
-8	de	_	ADP	ADP	_	9	case	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
 9	risco	risco	NOUN	NOUN	_	7	nmod	_	_
-10	para	_	ADP	ADP	_	12	case	_	_
-11	o	_	DET	DET	_	12	det	_	_
+10	para	para	ADP	ADP	_	12	case	_	_
+11	o	o	DET	DET	_	12	det	_	_
 12	coração	coração	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	15	punct	_	_
-14	como	_	ADP	ADP	_	15	case	_	_
+13	,	,	PUNCT	.	_	15	punct	_	_
+14	como	como	ADP	ADP	_	15	case	_	_
 15	pressão	pressão	NOUN	NOUN	_	7	nmod	_	_
 16	alta	_	NOUN	NOUN	_	15	amod	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	18	punct	_	_
+17	,	,	PUNCT	.	_	18	punct	_	_
 18	colesterol	colesterol	NOUN	NOUN	_	15	conj	_	_
 19	alto	alto	ADJ	ADJ	_	18	amod	_	_
-20	e	_	CCONJ	CONJ	_	21	cc	_	_
+20	e	e	CCONJ	CONJ	_	21	cc	_	_
 21	histórico	histórico	NOUN	NOUN	_	15	conj	_	_
 22	familiar	familiar	ADJ	ADJ	_	21	amod	_	_
-23	de	_	ADP	ADP	_	24	case	_	_
+23	de	de	ADP	ADP	_	24	case	_	_
 24	problemas	problema	NOUN	NOUN	_	21	nmod	_	_
 25	cardíacos	cardíaco	ADJ	ADJ	_	24	amod	_	SpaceAfter=No
-26	,	_	PUNCT	.	_	15	punct	_	_
+26	,	,	PUNCT	.	_	15	punct	_	_
 27	Roopinder	_	PROPN	PNOUN	_	35	nsubj	_	_
 28	Sandhu	_	PROPN	PNOUN	_	27	flat	_	SpaceAfter=No
-29	,	_	PUNCT	.	_	31	punct	_	_
+29	,	,	PUNCT	.	_	31	punct	_	_
 30	que	_	PRON	PRON	_	31	nsubj	_	_
 31	liderou	liderar	VERB	VERB	_	27	acl:relcl	_	_
-32	a	_	DET	DET	_	33	det	_	_
+32	a	a	DET	DET	_	33	det	_	_
 33	pesquisa	pesquisa	NOUN	NOUN	_	31	obj	_	SpaceAfter=No
-34	,	_	PUNCT	.	_	31	punct	_	_
+34	,	,	PUNCT	.	_	31	punct	_	_
 35	descobriu	descobrir	VERB	VERB	_	0	root	_	_
-36	que	_	CCONJ	CONJ	_	40	mark	_	_
+36	que	que	CCONJ	CONJ	_	40	mark	_	_
 37	mulheres	mulher	NOUN	NOUN	_	40	nsubj	_	_
 38	que	_	PRON	PRON	_	39	nsubj	_	_
 39	fumavam	fumar	VERB	VERB	_	37	acl:relcl	_	_
 40	tinham	ter	VERB	VERB	_	35	ccomp	_	_
-41	o	_	DET	DET	_	42	det	_	_
+41	o	o	DET	DET	_	42	det	_	_
 42	dobro	dobro	NOUN	NOUN	_	40	obj	_	_
-43	de	_	ADP	ADP	_	44	case	_	_
+43	de	de	ADP	ADP	_	44	case	_	_
 44	chances	chance	NOUN	NOUN	_	42	nmod	_	_
 45	de	_	ADP	ADP	_	46	mark	_	_
 46	morrer	morrer	VERB	VERB	_	44	nmod	_	_
-47	de	_	ADP	ADP	_	48	case	_	_
+47	de	de	ADP	ADP	_	48	case	_	_
 48	repente	repente	NOUN	NOUN	_	46	nmod	_	_
 49	mesmo	mesmo	ADV	ADV	_	51	mark	_	_
 50	se	_	CCONJ	CONJ	_	49	fixed	_	_
 51	fumassem	fumar	VERB	VERB	_	40	advcl	_	_
 52	entre	_	ADP	ADP	_	53	case	_	_
 53	um	_	NUM	NUM	NumType=Card	51	nmod	_	_
-54	e	_	CCONJ	CONJ	_	56	cc	_	_
+54	e	e	CCONJ	CONJ	_	56	cc	_	_
 55	14	_	NUM	NUM	NumType=Card	56	nummod	_	_
 56	cigarros	cigarro	NOUN	NOUN	_	53	conj	_	_
-57	por	_	ADP	ADP	_	58	case	_	_
+57	por	por	ADP	ADP	_	58	case	_	_
 58	dia	dia	NOUN	NOUN	_	53	nmod	_	SpaceAfter=No
-59	.	_	PUNCT	.	_	35	punct	_	_
+59	.	.	PUNCT	.	_	35	punct	_	_
 
 # sent_id = dev-s481
 # text = 'Em reuniões tinha até goteira.
 1	'	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
-2	Em	_	ADP	ADP	_	3	case	_	_
+2	Em	em	ADP	ADP	_	3	case	_	_
 3	reuniões	reunião	NOUN	NOUN	_	4	nmod	_	_
 4	tinha	ter	VERB	VERB	_	0	root	_	_
 5	até	até	ADV	ADV	_	6	advmod	_	_
 6	goteira	goteira	NOUN	NOUN	_	4	obj	_	SpaceAfter=No
-7	.	_	PUNCT	.	_	4	punct	_	_
+7	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = dev-s482
 # text = O ministro retorna a Brasília na manhã desta quarta (7), ao lado do atual presidente da corte, Carlos Ayres Britto.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	ministro	ministro	NOUN	NOUN	_	3	nsubj	_	_
 3	retorna	retornar	VERB	VERB	_	0	root	_	_
 4	a	_	ADP	ADP	_	5	case	_	_
@@ -261,10 +261,10 @@
 8	manhã	manhã	NOUN	NOUN	_	3	nmod	_	_
 9	desta	_	ADP	ADP	_	10	case	_	_
 10	quarta	_	PROPN	PNOUN	_	8	nmod	_	_
-11	(	_	PUNCT	.	_	12	punct	_	SpaceAfter=No
+11	(	(	PUNCT	.	_	12	punct	_	SpaceAfter=No
 12	7	_	NUM	NUM	NumType=Card	10	nmod	_	SpaceAfter=No
-13	)	_	PUNCT	.	_	12	punct	_	SpaceAfter=No
-14	,	_	PUNCT	.	_	17	punct	_	_
+13	)	)	PUNCT	.	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	17	punct	_	_
 15-16	ao	_	_	_	_	_	_	_	_
 15	a	a	ADP	ADP	_	17	case	_	_
 16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
@@ -278,11 +278,11 @@
 22	de	de	ADP	ADP	_	24	case	_	_
 23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	corte	corte	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
-25	,	_	PUNCT	.	_	26	punct	_	_
+25	,	,	PUNCT	.	_	26	punct	_	_
 26	Carlos	_	PROPN	PNOUN	_	21	appos	_	_
 27	Ayres	_	PROPN	PNOUN	_	26	flat	_	_
 28	Britto	_	PROPN	PNOUN	_	26	flat	_	SpaceAfter=No
-29	.	_	PUNCT	.	_	3	punct	_	_
+29	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = dev-s483
 # text = Desde que Renato se ausentou para fazer a cirurgia, o Flamengo não conseguiu êxito nas cinco partidas que disputou no Campeonato Brasileiro.
@@ -293,10 +293,10 @@
 5	ausentou	ausentar	VERB	VERB	_	14	advcl	_	_
 6	para	_	ADP	ADP	_	7	mark	_	_
 7	fazer	fazer	VERB	VERB	_	5	advcl	_	_
-8	a	_	DET	DET	_	9	det	_	_
+8	a	a	DET	DET	_	9	det	_	_
 9	cirurgia	cirurgia	NOUN	NOUN	_	7	obj	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	5	punct	_	_
-11	o	_	DET	DET	_	12	det	_	_
+10	,	,	PUNCT	.	_	5	punct	_	_
+11	o	o	DET	DET	_	12	det	_	_
 12	Flamengo	_	PROPN	PNOUN	_	14	nsubj	_	_
 13	não	não	ADV	ADV	Polarity=Neg	14	advmod	_	_
 14	conseguiu	conseguir	VERB	VERB	_	0	root	_	_
@@ -313,26 +313,26 @@
 23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	Campeonato	_	PROPN	PNOUN	_	21	nmod	_	_
 25	Brasileiro	_	PROPN	PNOUN	_	24	amod	_	SpaceAfter=No
-26	.	_	PUNCT	.	_	14	punct	_	_
+26	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = dev-s484
 # text = O show da cantora de "Poker Face" e "Bad Romance" na capital paulista acontecerá no estádio do Morumbi no domingo - os ingressos custam de R $ 95 a R $ 750.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	show	show	NOUN	NOUN	_	20	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
 4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	cantora	cantor	NOUN	NOUN	_	2	nmod	_	_
-6	de	_	ADP	ADP	_	8	case	_	_
-7	"	_	PUNCT	.	_	8	punct	_	SpaceAfter=No
+6	de	de	ADP	ADP	_	8	case	_	_
+7	"	"	PUNCT	.	_	8	punct	_	SpaceAfter=No
 8	Poker	_	PROPN	PNOUN	_	5	nmod	_	_
 9	Face	_	PROPN	PNOUN	_	8	flat	_	SpaceAfter=No
-10	"	_	PUNCT	.	_	14	punct	_	_
-11	e	_	CCONJ	CONJ	_	14	cc	_	_
-12	"	_	PUNCT	.	_	14	punct	_	SpaceAfter=No
+10	"	"	PUNCT	.	_	14	punct	_	_
+11	e	e	CCONJ	CONJ	_	14	cc	_	_
+12	"	"	PUNCT	.	_	14	punct	_	SpaceAfter=No
 13	Bad	_	PROPN	PNOUN	_	14	amod	_	_
 14	Romance	_	PROPN	PNOUN	_	8	conj	_	SpaceAfter=No
-15	"	_	PUNCT	.	_	14	punct	_	_
+15	"	"	PUNCT	.	_	14	punct	_	_
 16-17	na	_	_	_	_	_	_	_	_
 16	em	em	ADP	ADP	_	18	case	_	_
 17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
@@ -351,11 +351,11 @@
 27	em	em	ADP	ADP	_	29	case	_	_
 28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	domingo	_	PROPN	PNOUN	_	20	nmod	_	_
-30	-	_	PUNCT	.	_	20	punct	_	_
-31	os	_	DET	DET	_	32	det	_	_
+30	-	-	PUNCT	.	_	20	punct	_	_
+31	os	o	DET	DET	_	32	det	_	_
 32	ingressos	ingresso	NOUN	NOUN	_	33	nsubj	_	_
 33	custam	custar	VERB	VERB	_	20	parataxis	_	_
-34	de	_	ADP	ADP	_	35	case	_	_
+34	de	de	ADP	ADP	_	35	case	_	_
 35	R	r	NOUN	NOUN	_	33	nmod	_	_
 36	$	_	SYM	SYM	_	35	flat	_	_
 37	95	_	NUM	NUM	NumType=Card	35	nummod	_	_
@@ -363,5 +363,5 @@
 39	R	r	NOUN	NOUN	_	33	nmod	_	_
 40	$	_	SYM	SYM	_	39	flat	_	_
 41	750	_	NUM	NUM	NumType=Card	39	nummod	_	SpaceAfter=No
-42	.	_	PUNCT	.	_	20	punct	_	_
+42	.	.	PUNCT	.	_	20	punct	_	_
 

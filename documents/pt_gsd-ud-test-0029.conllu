@@ -1,18 +1,18 @@
 # sent_id = test-s279
 # text = Num estudo filhos em idade escolar de mães que sofriam com violência conjugal tinham 21 % de exercer comportamentos antissociais.
 1-2	Num	_	_	_	_	_	_	_	_
-1	Em	_	ADP	ADP	_	3	case	_	_
-2	um	_	DET	DET	_	3	det	_	_
+1	Em	em	ADP	ADP	_	3	case	_	_
+2	um	um	DET	DET	_	3	det	_	_
 3	estudo	estudo	NOUN	NOUN	_	15	nmod	_	_
 4	filhos	filho	NOUN	NOUN	_	15	nsubj	_	_
-5	em	_	ADP	ADP	_	6	case	_	_
+5	em	em	ADP	ADP	_	6	case	_	_
 6	idade	idade	NOUN	NOUN	_	4	nmod	_	_
 7	escolar	escolar	ADJ	ADJ	_	6	amod	_	_
-8	de	_	ADP	ADP	_	9	case	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
 9	mães	mãe	NOUN	NOUN	_	4	nmod	_	_
 10	que	_	PRON	PRON	_	11	nsubj	_	_
 11	sofriam	sofrer	VERB	VERB	_	9	acl:relcl	_	_
-12	com	_	ADP	ADP	_	13	case	_	_
+12	com	com	ADP	ADP	_	13	case	_	_
 13	violência	violência	NOUN	NOUN	_	11	nmod	_	_
 14	conjugal	conjugal	ADJ	ADJ	_	13	amod	_	_
 15	tinham	ter	VERB	VERB	_	0	root	_	_
@@ -22,124 +22,124 @@
 19	exercer	exercer	VERB	VERB	_	17	nmod	_	_
 20	comportamentos	comportamento	NOUN	NOUN	_	19	obj	_	_
 21	antissociais	antissocial	ADJ	ADJ	_	20	amod	_	SpaceAfter=No
-22	.	_	PUNCT	.	_	15	punct	_	_
+22	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = test-s280
 # text = "Sei o que é importante para mim."
-1	"	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
 2	Sei	saber	VERB	VERB	_	0	root	_	_
 3	o	_	PRON	PRON	_	2	obj	_	_
 4	que	_	PRON	PRON	_	5	nsubj	_	_
 5	é	ser	VERB	VERB	_	3	acl:relcl	_	_
 6	importante	importante	ADJ	ADJ	_	5	xcomp:adj	_	_
-7	para	_	ADP	ADP	_	8	case	_	_
+7	para	para	ADP	ADP	_	8	case	_	_
 8	mim	_	PRON	PRON	_	6	nmod	_	SpaceAfter=No
-9	.	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
-10	"	_	PUNCT	.	_	2	punct	_	_
+9	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+10	"	"	PUNCT	.	_	2	punct	_	_
 
 # sent_id = test-s281
 # text = As duas partidas, amanhã e na quinta - feira, em Sofia, na Bulgária, serão às 11h30 (de Brasília).
-1	As	_	DET	DET	_	3	det	_	_
+1	As	o	DET	DET	_	3	det	_	_
 2	duas	_	NUM	NUM	NumType=Card	3	nummod	_	_
 3	partidas	partida	NOUN	NOUN	_	20	nsubj	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	5	punct	_	_
+4	,	,	PUNCT	.	_	5	punct	_	_
 5	amanhã	amanhã	ADV	ADV	_	20	advmod	_	_
-6	e	_	CCONJ	CONJ	_	11	cc	_	_
+6	e	e	CCONJ	CONJ	_	11	cc	_	_
 7-8	na	_	_	_	_	_	_	_	_
 7	em	em	ADP	ADP	_	11	case	_	_
 8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 9	quinta	_	PROPN	PNOUN	_	11	amod	_	_
-10	-	_	PUNCT	.	_	11	punct	_	_
+10	-	-	PUNCT	.	_	11	punct	_	_
 11	feira	_	PROPN	PNOUN	_	5	conj	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	14	punct	_	_
-13	em	_	ADP	ADP	_	14	case	_	_
+12	,	,	PUNCT	.	_	14	punct	_	_
+13	em	em	ADP	ADP	_	14	case	_	_
 14	Sofia	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	14	punct	_	_
+15	,	,	PUNCT	.	_	14	punct	_	_
 16-17	na	_	_	_	_	_	_	_	_
 16	em	em	ADP	ADP	_	18	case	_	_
 17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	Bulgária	_	PROPN	PNOUN	_	0	root	_	SpaceAfter=No
-19	,	_	PUNCT	.	_	18	punct	_	_
+19	,	,	PUNCT	.	_	18	punct	_	_
 20	serão	ser	VERB	VERB	_	18	conj	_	_
 21-22	às	_	_	_	_	_	_	_	_
 21	a	a	ADP	ADP	_	23	case	_	_
 22	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
 23	11h30	_	NUM	NUM	NumType=Card	20	nmod	_	_
-24	(	_	PUNCT	.	_	26	punct	_	SpaceAfter=No
-25	de	_	ADP	ADP	_	26	case	_	_
+24	(	(	PUNCT	.	_	26	punct	_	SpaceAfter=No
+25	de	de	ADP	ADP	_	26	case	_	_
 26	Brasília	_	PROPN	PNOUN	_	23	nmod	_	SpaceAfter=No
-27	)	_	PUNCT	.	_	26	punct	_	SpaceAfter=No
-28	.	_	PUNCT	.	_	18	punct	_	_
+27	)	)	PUNCT	.	_	26	punct	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	18	punct	_	_
 
 # sent_id = test-s282
 # text = Minha luta é com o Vitória.
 1	Minha	_	DET	DET	_	2	det:poss	_	_
 2	luta	luta	NOUN	NOUN	_	3	nsubj	_	_
 3	é	ser	VERB	VERB	_	0	root	_	_
-4	com	_	ADP	ADP	_	6	case	_	_
-5	o	_	DET	DET	_	6	det	_	_
+4	com	com	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	_	6	det	_	_
 6	Vitória	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
-7	.	_	PUNCT	.	_	3	punct	_	_
+7	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = test-s283
 # text = A crer em João Barata Feyo, "... o globo terrestre com a Cruz de Cristo é um símbolo da história de Portugal, que é a descoberta, a conquista, a navegação.
 1	A	_	ADP	ADP	_	2	mark	_	_
 2	crer	crer	VERB	VERB	_	20	nmod	_	_
-3	em	_	ADP	ADP	_	4	case	_	_
+3	em	em	ADP	ADP	_	4	case	_	_
 4	João	_	PROPN	PNOUN	_	2	nmod	_	_
 5	Barata	_	PROPN	PNOUN	_	4	flat	_	_
 6	Feyo	_	PROPN	PNOUN	_	4	flat	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	2	punct	_	_
-8	"	_	PUNCT	.	_	20	punct	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	2	punct	_	_
+8	"	"	PUNCT	.	_	20	punct	_	SpaceAfter=No
 9	...	_	PUNCT	.	_	20	punct	_	_
-10	o	_	DET	DET	_	11	det	_	_
+10	o	o	DET	DET	_	11	det	_	_
 11	globo	globo	NOUN	NOUN	_	20	nsubj	_	_
 12	terrestre	terrestre	ADJ	ADJ	_	11	amod	_	_
-13	com	_	ADP	ADP	_	15	case	_	_
-14	a	_	DET	DET	_	15	det	_	_
+13	com	com	ADP	ADP	_	15	case	_	_
+14	a	a	DET	DET	_	15	det	_	_
 15	Cruz	_	PROPN	PNOUN	_	11	nmod	_	_
-16	de	_	ADP	ADP	_	17	case	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
 17	Cristo	_	PROPN	PNOUN	_	15	nmod	_	_
 18	é	ser	AUX	AUX	_	20	cop	_	_
-19	um	_	DET	DET	_	20	det	_	_
+19	um	um	DET	DET	_	20	det	_	_
 20	símbolo	símbolo	NOUN	NOUN	_	0	root	_	_
 21-22	da	_	_	_	_	_	_	_	_
 21	de	de	ADP	ADP	_	23	case	_	_
 22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	história	história	NOUN	NOUN	_	20	nmod	_	_
-24	de	_	ADP	ADP	_	25	case	_	_
+24	de	de	ADP	ADP	_	25	case	_	_
 25	Portugal	_	PROPN	PNOUN	_	23	nmod	_	SpaceAfter=No
-26	,	_	PUNCT	.	_	30	punct	_	_
+26	,	,	PUNCT	.	_	30	punct	_	_
 27	que	_	PRON	PRON	_	30	nsubj	_	_
 28	é	ser	AUX	AUX	_	30	cop	_	_
-29	a	_	DET	DET	_	30	det	_	_
+29	a	a	DET	DET	_	30	det	_	_
 30	descoberta	_	NOUN	NOUN	_	23	acl:relcl	_	SpaceAfter=No
-31	,	_	PUNCT	.	_	33	punct	_	_
-32	a	_	DET	DET	_	33	det	_	_
+31	,	,	PUNCT	.	_	33	punct	_	_
+32	a	a	DET	DET	_	33	det	_	_
 33	conquista	conquista	NOUN	NOUN	_	30	conj	_	SpaceAfter=No
-34	,	_	PUNCT	.	_	36	punct	_	_
-35	a	_	DET	DET	_	36	det	_	_
+34	,	,	PUNCT	.	_	36	punct	_	_
+35	a	a	DET	DET	_	36	det	_	_
 36	navegação	navegação	NOUN	NOUN	_	30	conj	_	SpaceAfter=No
-37	.	_	PUNCT	.	_	20	punct	_	_
+37	.	.	PUNCT	.	_	20	punct	_	_
 
 # sent_id = test-s284
 # text = Algoritmo bem útil para todos nós, mas colocado à prova por estudiosos.
 1	Algoritmo	algoritmo	NOUN	NOUN	_	0	root	_	_
 2	bem	bem	ADV	ADV	_	3	advmod	_	_
 3	útil	útil	ADJ	ADJ	_	1	amod	_	_
-4	para	_	ADP	ADP	_	6	case	_	_
+4	para	para	ADP	ADP	_	6	case	_	_
 5	todos	_	DET	DET	_	6	det	_	_
 6	nós	nó	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	8	punct	_	_
+7	,	,	PUNCT	.	_	8	punct	_	_
 8	mas	_	CCONJ	CONJ	_	1	conj	_	_
 9	colocado	colocar	VERB	VERB	_	1	conj	_	_
 10-11	à	_	_	_	_	_	_	_	_
 10	a	a	ADP	ADP	_	12	case	_	_
 11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	prova	prova	NOUN	NOUN	_	9	nmod	_	_
-13	por	_	ADP	ADP	_	14	case	_	_
+13	por	por	ADP	ADP	_	14	case	_	_
 14	estudiosos	estudioso	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
-15	.	_	PUNCT	.	_	1	punct	_	_
+15	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = test-s285
 # text = Só marketing não adianta.
@@ -147,50 +147,50 @@
 2	marketing	marketing	NOUN	NOUN	_	4	nsubj	_	_
 3	não	não	ADV	ADV	Polarity=Neg	4	advmod	_	_
 4	adianta	adiantar	VERB	VERB	_	0	root	_	SpaceAfter=No
-5	.	_	PUNCT	.	_	4	punct	_	_
+5	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = test-s286
 # text = "Ele fica desconfiado."
-1	"	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
 2	Ele	_	PRON	PRON	_	3	nsubj	_	_
 3	fica	ficar	VERB	VERB	_	0	root	_	_
 4	desconfiado	desconfiado	ADJ	ADJ	_	3	xcomp:adj	_	SpaceAfter=No
-5	.	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
-6	"	_	PUNCT	.	_	3	punct	_	_
+5	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+6	"	"	PUNCT	.	_	3	punct	_	_
 
 # sent_id = test-s287
 # text = Conclusão óbvia: impossível se fazer alguma coisa.
 1	Conclusão	conclusão	NOUN	NOUN	_	0	root	_	_
 2	óbvia	óbvio	ADJ	ADJ	_	1	amod	_	SpaceAfter=No
-3	:	_	PUNCT	.	_	1	punct	_	_
+3	:	:	PUNCT	.	_	1	punct	_	_
 4	impossível	impossível	ADJ	ADJ	_	6	amod	_	_
 5	se	_	PRON	PRON	_	6	expl:pv	_	_
 6	fazer	fazer	VERB	VERB	_	1	parataxis	_	_
 7	alguma	_	DET	DET	_	8	det	_	_
 8	coisa	coisa	NOUN	NOUN	_	6	obj	_	SpaceAfter=No
-9	.	_	PUNCT	.	_	1	punct	_	_
+9	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = test-s288
 # text = Ele espera aumentar as restrições sobre a venda ao público em geral do tipo de armas automáticas que foram utilizadas na maioria dos tiroteios em massa mais mortais nos Estados Unidos.
 1	Ele	_	PRON	PRON	_	2	nsubj	_	_
 2	espera	esperar	VERB	VERB	_	0	root	_	_
 3	aumentar	aumentar	VERB	VERB	_	2	xcomp	_	_
-4	as	_	DET	DET	_	5	det	_	_
+4	as	o	DET	DET	_	5	det	_	_
 5	restrições	restrição	NOUN	NOUN	_	3	obj	_	_
 6	sobre	_	ADP	ADP	_	8	case	_	_
-7	a	_	DET	DET	_	8	det	_	_
+7	a	a	DET	DET	_	8	det	_	_
 8	venda	venda	NOUN	NOUN	_	5	nmod	_	_
 9-10	ao	_	_	_	_	_	_	_	_
 9	a	a	ADP	ADP	_	11	case	_	_
 10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	público	público	NOUN	NOUN	_	8	nmod	_	_
-12	em	_	ADP	ADP	_	13	case	_	_
+12	em	em	ADP	ADP	_	13	case	_	_
 13	geral	geral	NOUN	NOUN	_	11	nmod	_	_
 14-15	do	_	_	_	_	_	_	_	_
 14	de	de	ADP	ADP	_	16	case	_	_
 15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	tipo	tipo	NOUN	NOUN	_	8	nmod	_	_
-17	de	_	ADP	ADP	_	18	case	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
 18	armas	arma	NOUN	NOUN	_	16	nmod	_	_
 19	automáticas	automático	ADJ	ADJ	_	18	amod	_	_
 20	que	_	PRON	PRON	_	22	nsubj:pass	_	_
@@ -204,7 +204,7 @@
 26	de	de	ADP	ADP	_	28	case	_	_
 27	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
 28	tiroteios	tiroteio	NOUN	NOUN	_	25	nmod	_	_
-29	em	_	ADP	ADP	_	30	case	_	_
+29	em	em	ADP	ADP	_	30	case	_	_
 30	massa	massa	NOUN	NOUN	_	28	nmod	_	_
 31	mais	mais	ADV	ADV	_	32	advmod	_	_
 32	mortais	mortal	ADJ	ADJ	_	28	amod	_	_
@@ -213,5 +213,5 @@
 34	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
 35	Estados	_	PROPN	PNOUN	_	28	nmod	_	_
 36	Unidos	_	PROPN	PNOUN	_	35	amod	_	SpaceAfter=No
-37	.	_	PUNCT	.	_	2	punct	_	_
+37	.	.	PUNCT	.	_	2	punct	_	_
 

@@ -2,7 +2,7 @@
 # text = Opopanax é um género botânico pertencente à família Apiaceae.
 1	Opopanax	_	PROPN	PNOUN	_	4	nsubj	_	_
 2	é	ser	AUX	AUX	_	4	cop	_	_
-3	um	_	DET	DET	_	4	det	_	_
+3	um	um	DET	DET	_	4	det	_	_
 4	género	género	NOUN	NOUN	_	0	root	_	_
 5	botânico	botânico	ADJ	ADJ	_	4	amod	_	_
 6	pertencente	pertencente	ADJ	ADJ	_	4	amod	_	_
@@ -11,21 +11,21 @@
 8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	família	família	NOUN	NOUN	_	6	nmod	_	_
 10	Apiaceae	_	PROPN	PNOUN	_	9	appos	_	SpaceAfter=No
-11	.	_	PUNCT	.	_	4	punct	_	_
+11	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = test-s320
 # text = Estende - se por uma área de 7,45 km ².
 1	Estende	estender	VERB	VERB	_	0	root	_	_
-2	-	_	PUNCT	.	_	1	punct	_	_
+2	-	-	PUNCT	.	_	1	punct	_	_
 3	se	_	PART	PRT	_	1	expl:pv	_	_
-4	por	_	ADP	ADP	_	6	case	_	_
-5	uma	_	DET	DET	_	6	det	_	_
+4	por	por	ADP	ADP	_	6	case	_	_
+5	uma	um	DET	DET	_	6	det	_	_
 6	área	área	NOUN	NOUN	_	1	nmod	_	_
-7	de	_	ADP	ADP	_	9	case	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
 8	7,45	_	NUM	NUM	NumType=Card	9	nummod	_	_
 9	km	km	NOUN	NOUN	_	6	nmod	_	_
 10	²	_	PUNCT	.	_	9	punct	_	SpaceAfter=No
-11	.	_	PUNCT	.	_	1	punct	_	_
+11	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = test-s321
 # text = Apesar da nova lei ter entrado em vigor no dia 21 dezembro, muitos policiais militares encontram dificuldades para que infratores fossem autuados nas delegacias por causa da falta de policias civis durante o feriadão de natal.
@@ -37,7 +37,7 @@
 5	lei	lei	NOUN	NOUN	_	7	nsubj	_	_
 6	ter	ter	AUX	AUX	_	7	aux	_	_
 7	entrado	entrar	VERB	VERB	_	19	advcl	_	_
-8	em	_	ADP	ADP	_	9	case	_	_
+8	em	em	ADP	ADP	_	9	case	_	_
 9	vigor	vigor	NOUN	NOUN	_	7	nmod	_	_
 10-11	no	_	_	_	_	_	_	_	_
 10	em	em	ADP	ADP	_	12	case	_	_
@@ -45,14 +45,14 @@
 12	dia	dia	NOUN	NOUN	_	7	nmod	_	_
 13	21	_	NUM	NUM	NumType=Card	12	nmod	_	_
 14	dezembro	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	7	punct	_	_
+15	,	,	PUNCT	.	_	7	punct	_	_
 16	muitos	_	DET	DET	_	17	det	_	_
 17	policiais	policial	NOUN	NOUN	_	19	nsubj	_	_
 18	militares	militar	ADJ	ADJ	_	17	amod	_	_
 19	encontram	encontrar	VERB	VERB	_	0	root	_	_
 20	dificuldades	dificuldade	NOUN	NOUN	_	19	obj	_	_
 21	para	_	ADP	ADP	_	25	mark	_	_
-22	que	_	CCONJ	CONJ	_	25	mark	_	_
+22	que	que	CCONJ	CONJ	_	25	mark	_	_
 23	infratores	infrator	NOUN	NOUN	_	25	nsubj:pass	_	_
 24	fossem	_	AUX	AUX	_	25	aux	_	_
 25	autuados	autuar	VERB	VERB	_	20	nmod	_	_
@@ -60,38 +60,38 @@
 26	em	em	ADP	ADP	_	28	case	_	_
 27	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
 28	delegacias	delegacia	NOUN	NOUN	_	25	nmod	_	_
-29	por	_	ADP	ADP	_	33	case	_	_
+29	por	por	ADP	ADP	_	33	case	_	_
 30	causa	causa	NOUN	NOUN	_	29	fixed	_	_
 31-32	da	_	_	_	_	_	_	_	_
 31	de	de	ADP	ADP	_	29	case	_	_
 32	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 33	falta	_	NOUN	NOUN	_	19	nmod	_	_
-34	de	_	ADP	ADP	_	35	case	_	_
+34	de	de	ADP	ADP	_	35	case	_	_
 35	policias	_	NOUN	NOUN	_	33	nmod	_	_
 36	civis	civil	ADJ	ADJ	_	35	amod	_	_
 37	durante	_	ADP	ADP	_	39	case	_	_
-38	o	_	DET	DET	_	39	det	_	_
+38	o	o	DET	DET	_	39	det	_	_
 39	feriadão	feriado	NOUN	NOUN	_	33	nmod	_	_
-40	de	_	ADP	ADP	_	41	case	_	_
+40	de	de	ADP	ADP	_	41	case	_	_
 41	natal	_	PROPN	PNOUN	_	39	nmod	_	SpaceAfter=No
-42	.	_	PUNCT	.	_	19	punct	_	_
+42	.	.	PUNCT	.	_	19	punct	_	_
 
 # sent_id = test-s322
 # text = Para as regiões onde se passava a edição de rede, foi criada a Agência GE que concentra material dos reporteres da rede, editado com o padrão das edições paulista e carioca, via satélite, variando de acordo com a necessidade do estado.
 1	Para	_	ADP	ADP	_	3	case	_	_
-2	as	_	DET	DET	_	3	det	_	_
+2	as	o	DET	DET	_	3	det	_	_
 3	regiões	região	NOUN	NOUN	_	13	nmod	_	_
 4	onde	onde	ADV	ADV	_	6	advmod	_	_
 5	se	_	PART	PRT	_	6	expl:pv	_	_
 6	passava	passar	VERB	VERB	_	3	acl:relcl	_	_
-7	a	_	DET	DET	_	8	det	_	_
+7	a	a	DET	DET	_	8	det	_	_
 8	edição	edição	NOUN	NOUN	_	6	nsubj	_	_
-9	de	_	ADP	ADP	_	10	case	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
 10	rede	rede	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	3	punct	_	_
+11	,	,	PUNCT	.	_	3	punct	_	_
 12	foi	_	AUX	AUX	_	13	aux:pass	_	_
 13	criada	criar	VERB	VERB	_	0	root	_	_
-14	a	_	DET	DET	_	15	det	_	_
+14	a	a	DET	DET	_	15	det	_	_
 15	Agência	_	PROPN	PNOUN	_	13	nsubj:pass	_	_
 16	GE	_	PROPN	PNOUN	_	15	flat	_	_
 17	que	_	PRON	PRON	_	18	nsubj	_	_
@@ -105,33 +105,33 @@
 23	de	de	ADP	ADP	_	25	case	_	_
 24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	rede	rede	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
-26	,	_	PUNCT	.	_	27	punct	_	_
+26	,	,	PUNCT	.	_	27	punct	_	_
 27	editado	editar	VERB	VERB	_	19	acl:part	_	_
-28	com	_	ADP	ADP	_	30	case	_	_
-29	o	_	DET	DET	_	30	det	_	_
+28	com	com	ADP	ADP	_	30	case	_	_
+29	o	o	DET	DET	_	30	det	_	_
 30	padrão	padrão	NOUN	NOUN	_	27	nmod	_	_
 31-32	das	_	_	_	_	_	_	_	_
 31	de	de	ADP	ADP	_	33	case	_	_
 32	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
 33	edições	edição	NOUN	NOUN	_	30	nmod	_	_
 34	paulista	paulista	ADJ	ADJ	_	33	amod	_	_
-35	e	_	CCONJ	CONJ	_	36	cc	_	_
+35	e	e	CCONJ	CONJ	_	36	cc	_	_
 36	carioca	carioca	ADJ	ADJ	_	34	conj	_	SpaceAfter=No
-37	,	_	PUNCT	.	_	39	punct	_	_
+37	,	,	PUNCT	.	_	39	punct	_	_
 38	via	_	ADP	ADP	_	39	case	_	_
 39	satélite	satélite	NOUN	NOUN	_	27	nmod	_	SpaceAfter=No
-40	,	_	PUNCT	.	_	41	punct	_	_
+40	,	,	PUNCT	.	_	41	punct	_	_
 41	variando	variar	VERB	VERB	_	27	acl:part	_	_
-42	de	_	ADP	ADP	_	43	case	_	_
+42	de	de	ADP	ADP	_	43	case	_	_
 43	acordo	acordo	NOUN	NOUN	_	41	nmod	_	_
-44	com	_	ADP	ADP	_	46	case	_	_
-45	a	_	DET	DET	_	46	det	_	_
+44	com	com	ADP	ADP	_	46	case	_	_
+45	a	a	DET	DET	_	46	det	_	_
 46	necessidade	necessidade	NOUN	NOUN	_	43	nmod	_	_
 47-48	do	_	_	_	_	_	_	_	_
 47	de	de	ADP	ADP	_	49	case	_	_
 48	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
 49	estado	estado	NOUN	NOUN	_	46	nmod	_	SpaceAfter=No
-50	.	_	PUNCT	.	_	13	punct	_	_
+50	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = test-s323
 # text = No meu período, a cidade era limpa.
@@ -140,44 +140,44 @@
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	meu	_	DET	DET	_	4	det:poss	_	_
 4	período	período	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	4	punct	_	_
-6	a	_	DET	DET	_	7	det	_	_
+5	,	,	PUNCT	.	_	4	punct	_	_
+6	a	a	DET	DET	_	7	det	_	_
 7	cidade	cidade	NOUN	NOUN	_	8	nsubj	_	_
 8	era	_	VERB	VERB	_	0	root	_	_
 9	limpa	limpo	ADJ	ADJ	_	8	xcomp:adj	_	SpaceAfter=No
-10	.	_	PUNCT	.	_	8	punct	_	_
+10	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = test-s324
 # text = Os atletas ainda conversaram com o árbitro e conseguiram reverter a expulsão para apenas um cartão amarelo.
-1	Os	_	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	_	2	det	_	_
 2	atletas	atleta	NOUN	NOUN	_	4	nsubj	_	_
 3	ainda	ainda	ADV	ADV	_	4	advmod	_	_
 4	conversaram	conversar	VERB	VERB	_	0	root	_	_
-5	com	_	ADP	ADP	_	7	case	_	_
-6	o	_	DET	DET	_	7	det	_	_
+5	com	com	ADP	ADP	_	7	case	_	_
+6	o	o	DET	DET	_	7	det	_	_
 7	árbitro	árbitro	NOUN	NOUN	_	4	nmod	_	_
-8	e	_	CCONJ	CONJ	_	9	cc	_	_
+8	e	e	CCONJ	CONJ	_	9	cc	_	_
 9	conseguiram	conseguir	VERB	VERB	_	4	conj	_	_
 10	reverter	reverter	VERB	VERB	_	9	xcomp	_	_
-11	a	_	DET	DET	_	12	det	_	_
+11	a	a	DET	DET	_	12	det	_	_
 12	expulsão	expulsão	NOUN	NOUN	_	10	obj	_	_
-13	para	_	ADP	ADP	_	16	case	_	_
+13	para	para	ADP	ADP	_	16	case	_	_
 14	apenas	apenas	ADV	ADV	_	16	advmod	_	_
-15	um	_	DET	DET	_	16	det	_	_
+15	um	um	DET	DET	_	16	det	_	_
 16	cartão	cartão	NOUN	NOUN	_	10	nmod	_	_
 17	amarelo	amarelo	ADJ	ADJ	_	16	amod	_	SpaceAfter=No
-18	.	_	PUNCT	.	_	4	punct	_	_
+18	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = test-s325
 # text = O Vale de Aulps () é um pequeno vale na região francesa de Ródano - Alpes, no departamento da Alta Sabóia e constitui a bacia hidrográfica da Dranse de Morzine.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	Vale	_	PROPN	PNOUN	_	10	nsubj	_	_
-3	de	_	ADP	ADP	_	4	case	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
 4	Aulps	_	PROPN	PNOUN	_	2	nmod	_	_
-5	(	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
-6	)	_	PUNCT	.	_	2	punct	_	_
+5	(	(	PUNCT	.	_	2	punct	_	SpaceAfter=No
+6	)	)	PUNCT	.	_	2	punct	_	_
 7	é	ser	AUX	AUX	_	10	cop	_	_
-8	um	_	DET	DET	_	10	det	_	_
+8	um	um	DET	DET	_	10	det	_	_
 9	pequeno	pequeno	ADJ	ADJ	_	10	amod	_	_
 10	vale	vale	NOUN	NOUN	_	0	root	_	_
 11-12	na	_	_	_	_	_	_	_	_
@@ -185,11 +185,11 @@
 12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	região	região	NOUN	NOUN	_	10	nmod	_	_
 14	francesa	francês	ADJ	ADJ	_	13	amod	_	_
-15	de	_	ADP	ADP	_	16	case	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
 16	Ródano	_	PROPN	PNOUN	_	13	nmod	_	_
-17	-	_	PUNCT	.	_	16	punct	_	_
+17	-	-	PUNCT	.	_	16	punct	_	_
 18	Alpes	_	PROPN	PNOUN	_	16	flat	_	SpaceAfter=No
-19	,	_	PUNCT	.	_	22	punct	_	_
+19	,	,	PUNCT	.	_	22	punct	_	_
 20-21	no	_	_	_	_	_	_	_	_
 20	em	em	ADP	ADP	_	22	case	_	_
 21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
@@ -199,18 +199,18 @@
 24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 25	Alta	_	PROPN	PNOUN	_	26	amod	_	_
 26	Sabóia	_	PROPN	PNOUN	_	22	nmod	_	_
-27	e	_	CCONJ	CONJ	_	28	cc	_	_
+27	e	e	CCONJ	CONJ	_	28	cc	_	_
 28	constitui	constituir	VERB	VERB	_	10	conj	_	_
-29	a	_	DET	DET	_	30	det	_	_
+29	a	a	DET	DET	_	30	det	_	_
 30	bacia	bacia	NOUN	NOUN	_	28	obj	_	_
 31	hidrográfica	hidrográfico	ADJ	ADJ	_	30	amod	_	_
 32-33	da	_	_	_	_	_	_	_	_
 32	de	de	ADP	ADP	_	34	case	_	_
 33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	Dranse	_	PROPN	PNOUN	_	30	nmod	_	_
-35	de	_	ADP	ADP	_	36	case	_	_
+35	de	de	ADP	ADP	_	36	case	_	_
 36	Morzine	_	PROPN	PNOUN	_	34	nmod	_	SpaceAfter=No
-37	.	_	PUNCT	.	_	10	punct	_	_
+37	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = test-s326
 # text = Divulgada na noite de ontem, a primeira pesquisa do instituto Ibope Inteligência sobre a corrida eleitoral para prefeito de Ponta Grossa no segundo turno coloca o candidato da coligação Viva Ponta Grossa!
@@ -221,8 +221,8 @@
 4	noite	noite	NOUN	NOUN	_	1	nmod	_	_
 5	de	_	ADP	ADP	_	6	mark	_	_
 6	ontem	ontem	ADV	ADV	_	4	nmod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	1	punct	_	_
-8	a	_	DET	DET	_	10	det	_	_
+7	,	,	PUNCT	.	_	1	punct	_	_
+8	a	a	DET	DET	_	10	det	_	_
 9	primeira	primeiro	ADJ	ADJ	_	10	amod	_	_
 10	pesquisa	pesquisa	NOUN	NOUN	_	29	nsubj	_	_
 11-12	do	_	_	_	_	_	_	_	_
@@ -232,12 +232,12 @@
 14	Ibope	_	PROPN	PNOUN	_	13	appos	_	_
 15	Inteligência	_	PROPN	PNOUN	_	14	flat	_	_
 16	sobre	_	ADP	ADP	_	18	case	_	_
-17	a	_	DET	DET	_	18	det	_	_
+17	a	a	DET	DET	_	18	det	_	_
 18	corrida	corrida	NOUN	NOUN	_	10	nmod	_	_
 19	eleitoral	eleitoral	ADJ	ADJ	_	18	amod	_	_
-20	para	_	ADP	ADP	_	21	case	_	_
+20	para	para	ADP	ADP	_	21	case	_	_
 21	prefeito	prefeito	NOUN	NOUN	_	18	nmod	_	_
-22	de	_	ADP	ADP	_	23	case	_	_
+22	de	de	ADP	ADP	_	23	case	_	_
 23	Ponta	_	PROPN	PNOUN	_	21	nmod	_	_
 24	Grossa	_	PROPN	PNOUN	_	23	amod	_	_
 25-26	no	_	_	_	_	_	_	_	_
@@ -246,7 +246,7 @@
 27	segundo	segundo	ADJ	ADJ	_	28	amod	_	_
 28	turno	turno	NOUN	NOUN	_	18	nmod	_	_
 29	coloca	colocar	VERB	VERB	_	0	root	_	_
-30	o	_	DET	DET	_	31	det	_	_
+30	o	o	DET	DET	_	31	det	_	_
 31	candidato	candidato	NOUN	NOUN	_	29	obj	_	_
 32-33	da	_	_	_	_	_	_	_	_
 32	de	de	ADP	ADP	_	34	case	_	_
@@ -255,88 +255,88 @@
 35	Viva	_	PROPN	PNOUN	_	36	dep	_	_
 36	Ponta	_	PROPN	PNOUN	_	34	flat	_	_
 37	Grossa	_	PROPN	PNOUN	_	36	amod	_	SpaceAfter=No
-38	!	_	PUNCT	.	_	29	punct	_	_
+38	!	!	PUNCT	.	_	29	punct	_	_
 
 # sent_id = test-s327
 # text = O corpo caído, entrevisto, parcialmente descoberto [...], pernas, saias, mesas, braços presos por cordas [...] boca amordaçada, auto - estrangulamento, troncos de mulher, rasgões no vestido, um murro na garganta".
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	corpo	corpo	NOUN	NOUN	_	0	root	_	_
 3	caído	caído	ADJ	ADJ	_	2	amod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	5	punct	_	_
+4	,	,	PUNCT	.	_	5	punct	_	_
 5	entrevisto	_	VERB	VERB	_	2	acl:part	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	8	punct	_	_
+6	,	,	PUNCT	.	_	8	punct	_	_
 7	parcialmente	parcialmente	ADV	ADV	_	8	advmod	_	_
 8	descoberto	descoberto	ADJ	ADJ	_	5	conj	_	_
 9	[	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
 10	...	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
 11	]	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	13	punct	_	_
+12	,	,	PUNCT	.	_	13	punct	_	_
 13	pernas	perna	NOUN	NOUN	_	2	appos	_	SpaceAfter=No
-14	,	_	PUNCT	.	_	15	punct	_	_
+14	,	,	PUNCT	.	_	15	punct	_	_
 15	saias	saia	NOUN	NOUN	_	13	conj	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	17	punct	_	_
+16	,	,	PUNCT	.	_	17	punct	_	_
 17	mesas	mesa	NOUN	NOUN	_	13	conj	_	SpaceAfter=No
-18	,	_	PUNCT	.	_	19	punct	_	_
+18	,	,	PUNCT	.	_	19	punct	_	_
 19	braços	braço	NOUN	NOUN	_	13	conj	_	_
 20	presos	prender	VERB	VERB	_	19	acl:part	_	_
-21	por	_	ADP	ADP	_	22	case	_	_
+21	por	por	ADP	ADP	_	22	case	_	_
 22	cordas	corda	NOUN	NOUN	_	20	nmod	_	_
 23	[	_	PUNCT	.	_	26	punct	_	SpaceAfter=No
 24	...	_	PUNCT	.	_	26	punct	_	SpaceAfter=No
 25	]	_	PUNCT	.	_	26	punct	_	_
 26	boca	boca	NOUN	NOUN	_	13	conj	_	_
 27	amordaçada	amordaçar	VERB	VERB	_	26	acl:part	_	SpaceAfter=No
-28	,	_	PUNCT	.	_	29	punct	_	_
+28	,	,	PUNCT	.	_	29	punct	_	_
 29	auto	_	PART	PRT	_	13	conj	_	_
-30	-	_	PUNCT	.	_	29	punct	_	_
+30	-	-	PUNCT	.	_	29	punct	_	_
 31	estrangulamento	estrangulamento	NOUN	NOUN	_	29	flat	_	SpaceAfter=No
-32	,	_	PUNCT	.	_	33	punct	_	_
+32	,	,	PUNCT	.	_	33	punct	_	_
 33	troncos	tronco	NOUN	NOUN	_	13	conj	_	_
-34	de	_	ADP	ADP	_	35	case	_	_
+34	de	de	ADP	ADP	_	35	case	_	_
 35	mulher	mulher	NOUN	NOUN	_	33	nmod	_	SpaceAfter=No
-36	,	_	PUNCT	.	_	37	punct	_	_
+36	,	,	PUNCT	.	_	37	punct	_	_
 37	rasgões	rasgão	NOUN	NOUN	_	13	conj	_	_
 38-39	no	_	_	_	_	_	_	_	_
 38	em	em	ADP	ADP	_	40	case	_	_
 39	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
 40	vestido	vestido	NOUN	NOUN	_	37	nmod	_	SpaceAfter=No
-41	,	_	PUNCT	.	_	43	punct	_	_
-42	um	_	DET	DET	_	43	det	_	_
+41	,	,	PUNCT	.	_	43	punct	_	_
+42	um	um	DET	DET	_	43	det	_	_
 43	murro	murro	NOUN	NOUN	_	13	conj	_	_
 44-45	na	_	_	_	_	_	_	_	_
 44	em	em	ADP	ADP	_	46	case	_	_
 45	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
 46	garganta	garganta	NOUN	NOUN	_	43	nmod	_	SpaceAfter=No
-47	"	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
-48	.	_	PUNCT	.	_	2	punct	_	_
+47	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
+48	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = test-s328
 # text = De acordo com o diretor superintendente do Sebrae, Cláudio George Mendonça, o objetivo é realizar um trabalho de orientação para o cidadão que já está na formalidade.
 1	De	_	ADP	ADP	_	2	case	_	_
 2	acordo	acordo	NOUN	NOUN	_	16	nmod	_	_
-3	com	_	ADP	ADP	_	5	case	_	_
-4	o	_	DET	DET	_	5	det	_	_
+3	com	com	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	_	5	det	_	_
 5	diretor	diretor	NOUN	NOUN	_	2	nmod	_	_
 6	superintendente	superintendente	ADJ	ADJ	_	5	amod	_	_
 7-8	do	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
 8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Sebrae	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	11	punct	_	_
+10	,	,	PUNCT	.	_	11	punct	_	_
 11	Cláudio	_	PROPN	PNOUN	_	5	appos	_	_
 12	George	_	PROPN	PNOUN	_	11	flat	_	_
 13	Mendonça	_	PROPN	PNOUN	_	11	flat	_	SpaceAfter=No
-14	,	_	PUNCT	.	_	11	punct	_	_
-15	o	_	DET	DET	_	16	det	_	_
+14	,	,	PUNCT	.	_	11	punct	_	_
+15	o	o	DET	DET	_	16	det	_	_
 16	objetivo	objetivo	NOUN	NOUN	_	0	root	_	_
 17	é	ser	AUX	AUX	_	16	cop	_	_
 18	realizar	realizar	VERB	VERB	_	16	csubj	_	_
-19	um	_	DET	DET	_	20	det	_	_
+19	um	um	DET	DET	_	20	det	_	_
 20	trabalho	trabalho	NOUN	NOUN	_	18	obj	_	_
-21	de	_	ADP	ADP	_	22	case	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
 22	orientação	orientação	NOUN	NOUN	_	20	nmod	_	_
-23	para	_	ADP	ADP	_	25	case	_	_
-24	o	_	DET	DET	_	25	det	_	_
+23	para	para	ADP	ADP	_	25	case	_	_
+24	o	o	DET	DET	_	25	det	_	_
 25	cidadão	cidadão	NOUN	NOUN	_	20	nmod	_	_
 26	que	_	PRON	PRON	_	28	nsubj	_	_
 27	já	já	ADV	ADV	_	28	advmod	_	_
@@ -345,5 +345,5 @@
 29	em	em	ADP	ADP	_	31	case	_	_
 30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	formalidade	formalidade	NOUN	NOUN	_	28	nmod	_	SpaceAfter=No
-32	.	_	PUNCT	.	_	16	punct	_	_
+32	.	.	PUNCT	.	_	16	punct	_	_
 

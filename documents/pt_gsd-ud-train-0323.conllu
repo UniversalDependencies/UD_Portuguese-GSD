@@ -1,8 +1,8 @@
 # sent_id = train-s3202
 # text = A ação, que teve início na última quarta - feira (1), vai agilizar o andamento das duas varas da capital que estão sobrecarregadas.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	ação	ação	NOUN	NOUN	_	18	nsubj	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	5	punct	_	_
+3	,	,	PUNCT	.	_	5	punct	_	_
 4	que	_	PRON	PRON	_	5	nsubj	_	_
 5	teve	ter	VERB	VERB	_	2	acl:relcl	_	_
 6	início	início	NOUN	NOUN	_	5	obj	_	_
@@ -11,15 +11,15 @@
 8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 9	última	último	ADJ	ADJ	_	12	amod	_	_
 10	quarta	_	PROPN	PNOUN	_	12	amod	_	_
-11	-	_	PUNCT	.	_	12	punct	_	_
+11	-	-	PUNCT	.	_	12	punct	_	_
 12	feira	_	PROPN	PNOUN	_	6	nmod	_	_
-13	(	_	PUNCT	.	_	14	punct	_	SpaceAfter=No
+13	(	(	PUNCT	.	_	14	punct	_	SpaceAfter=No
 14	1	_	NUM	NUM	NumType=Card	12	nmod	_	SpaceAfter=No
-15	)	_	PUNCT	.	_	14	punct	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	5	punct	_	_
+15	)	)	PUNCT	.	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	.	_	5	punct	_	_
 17	vai	ir	AUX	AUX	_	18	aux	_	_
 18	agilizar	agilizar	VERB	VERB	_	0	root	_	_
-19	o	_	DET	DET	_	20	det	_	_
+19	o	o	DET	DET	_	20	det	_	_
 20	andamento	andamento	NOUN	NOUN	_	18	obj	_	_
 21-22	das	_	_	_	_	_	_	_	_
 21	de	de	ADP	ADP	_	24	case	_	_
@@ -33,51 +33,51 @@
 28	que	_	PRON	PRON	_	29	nsubj	_	_
 29	estão	estar	VERB	VERB	_	24	acl:relcl	_	_
 30	sobrecarregadas	sobrecarregado	ADJ	ADJ	_	29	xcomp:adj	_	SpaceAfter=No
-31	.	_	PUNCT	.	_	18	punct	_	_
+31	.	.	PUNCT	.	_	18	punct	_	_
 
 # sent_id = train-s3203
 # text = "O Corinthians está excelente em campo", opina.
-1	"	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
-2	O	_	DET	DET	_	3	det	_	_
+1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
+2	O	o	DET	DET	_	3	det	_	_
 3	Corinthians	_	PROPN	PNOUN	_	4	nsubj	_	_
 4	está	estar	VERB	VERB	_	10	ccomp	_	_
 5	excelente	excelente	ADJ	ADJ	_	4	xcomp:adj	_	_
-6	em	_	ADP	ADP	_	7	case	_	_
+6	em	em	ADP	ADP	_	7	case	_	_
 7	campo	campo	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
-8	"	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	4	punct	_	_
+8	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	4	punct	_	_
 10	opina	opinar	VERB	VERB	_	0	root	_	SpaceAfter=No
-11	.	_	PUNCT	.	_	10	punct	_	_
+11	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s3204
 # text = KIEV, 1 Jul 2012 (AFP) - Os atacantes espanhóis Fernando Torres e Juan Mata tiveram um fim de temporada dos sonhos, ao conquistar dois títulos europeus em apenas quarenta dias: neste domingo na final da Eurocopa com a '' Fúria '', e no dia 19 de maio, ao levantar o troféu da Liga dos Campeões com o Chelsea.
 1	KIEV	_	PROPN	PNOUN	_	18	parataxis	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	1	punct	_	_
+2	,	,	PUNCT	.	_	1	punct	_	_
 3	1	_	NUM	NUM	NumType=Card	4	nmod	_	_
 4	Jul	_	PROPN	PNOUN	_	1	nmod	_	_
 5	2012	_	NUM	NUM	NumType=Card	4	nmod	_	_
-6	(	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
+6	(	(	PUNCT	.	_	7	punct	_	SpaceAfter=No
 7	AFP	_	PROPN	PNOUN	_	1	appos	_	SpaceAfter=No
-8	)	_	PUNCT	.	_	7	punct	_	_
-9	-	_	PUNCT	.	_	18	punct	_	_
-10	Os	_	DET	DET	_	11	det	_	_
+8	)	)	PUNCT	.	_	7	punct	_	_
+9	-	-	PUNCT	.	_	18	punct	_	_
+10	Os	o	DET	DET	_	11	det	_	_
 11	atacantes	atacante	NOUN	NOUN	_	18	nsubj	_	_
 12	espanhóis	espanhol	ADJ	ADJ	_	11	amod	_	_
 13	Fernando	_	PROPN	PNOUN	_	11	appos	_	_
 14	Torres	_	PROPN	PNOUN	_	13	flat	_	_
-15	e	_	CCONJ	CONJ	_	16	cc	_	_
+15	e	e	CCONJ	CONJ	_	16	cc	_	_
 16	Juan	_	PROPN	PNOUN	_	13	conj	_	_
 17	Mata	_	PROPN	PNOUN	_	16	flat	_	_
 18	tiveram	ter	VERB	VERB	_	0	root	_	_
-19	um	_	DET	DET	_	20	det	_	_
+19	um	um	DET	DET	_	20	det	_	_
 20	fim	fim	NOUN	NOUN	_	18	obj	_	_
-21	de	_	ADP	ADP	_	22	case	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
 22	temporada	temporada	NOUN	NOUN	_	20	nmod	_	_
 23-24	dos	_	_	_	_	_	_	_	_
 23	de	de	ADP	ADP	_	25	case	_	_
 24	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
 25	sonhos	sonho	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
-26	,	_	PUNCT	.	_	18	punct	_	_
+26	,	,	PUNCT	.	_	18	punct	_	_
 27-28	ao	_	_	_	_	_	_	_	_
 27	a	a	ADP	ADP	_	29	case	_	_
 28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
@@ -85,11 +85,11 @@
 30	dois	_	NUM	NUM	NumType=Card	31	nummod	_	_
 31	títulos	título	NOUN	NOUN	_	29	obj	_	_
 32	europeus	europeu	ADJ	ADJ	_	31	amod	_	_
-33	em	_	ADP	ADP	_	36	case	_	_
+33	em	em	ADP	ADP	_	36	case	_	_
 34	apenas	apenas	ADV	ADV	_	35	advmod	_	_
 35	quarenta	_	NUM	NUM	NumType=Card	36	nummod	_	_
 36	dias	dia	NOUN	NOUN	_	29	nmod	_	SpaceAfter=No
-37	:	_	PUNCT	.	_	29	punct	_	_
+37	:	:	PUNCT	.	_	29	punct	_	_
 38	neste	_	ADP	ADP	_	39	case	_	_
 39	domingo	_	PROPN	PNOUN	_	29	nmod	_	_
 40-41	na	_	_	_	_	_	_	_	_
@@ -100,26 +100,26 @@
 43	de	de	ADP	ADP	_	45	case	_	_
 44	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
 45	Eurocopa	_	PROPN	PNOUN	_	42	nmod	_	_
-46	com	_	ADP	ADP	_	49	case	_	_
-47	a	_	DET	DET	_	49	det	_	_
+46	com	com	ADP	ADP	_	49	case	_	_
+47	a	a	DET	DET	_	49	det	_	_
 48	''	_	PUNCT	.	_	49	punct	_	_
 49	Fúria	_	PROPN	PNOUN	_	45	nmod	_	_
 50	''	_	PUNCT	.	_	49	punct	_	SpaceAfter=No
-51	,	_	PUNCT	.	_	55	punct	_	_
-52	e	_	CCONJ	CONJ	_	55	cc	_	_
+51	,	,	PUNCT	.	_	55	punct	_	_
+52	e	e	CCONJ	CONJ	_	55	cc	_	_
 53-54	no	_	_	_	_	_	_	_	_
 53	em	em	ADP	ADP	_	55	case	_	_
 54	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
 55	dia	dia	NOUN	NOUN	_	39	conj	_	_
 56	19	_	NUM	NUM	NumType=Card	55	appos	_	_
-57	de	_	ADP	ADP	_	58	case	_	_
+57	de	de	ADP	ADP	_	58	case	_	_
 58	maio	_	PROPN	PNOUN	_	56	nmod	_	SpaceAfter=No
-59	,	_	PUNCT	.	_	55	punct	_	_
+59	,	,	PUNCT	.	_	55	punct	_	_
 60-61	ao	_	_	_	_	_	_	_	_
 60	a	a	ADP	ADP	_	62	case	_	_
 61	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
 62	levantar	levantar	VERB	VERB	_	29	advcl	_	_
-63	o	_	DET	DET	_	64	det	_	_
+63	o	o	DET	DET	_	64	det	_	_
 64	troféu	troféu	NOUN	NOUN	_	62	obj	_	_
 65-66	da	_	_	_	_	_	_	_	_
 65	de	de	ADP	ADP	_	67	case	_	_
@@ -129,30 +129,30 @@
 68	de	de	ADP	ADP	_	70	case	_	_
 69	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	70	det	_	_
 70	Campeões	_	PROPN	PNOUN	_	67	nmod	_	_
-71	com	_	ADP	ADP	_	73	case	_	_
-72	o	_	DET	DET	_	73	det	_	_
+71	com	com	ADP	ADP	_	73	case	_	_
+72	o	o	DET	DET	_	73	det	_	_
 73	Chelsea	_	PROPN	PNOUN	_	62	nmod	_	SpaceAfter=No
-74	.	_	PUNCT	.	_	18	punct	_	_
+74	.	.	PUNCT	.	_	18	punct	_	_
 
 # sent_id = train-s3205
 # text = Só que a parcela "invertida" da torcida pensa doutra forma.
 1	Só	só	ADV	ADV	_	11	mark	_	_
 2	que	_	CCONJ	CONJ	_	1	fixed	_	_
-3	a	_	DET	DET	_	4	det	_	_
+3	a	a	DET	DET	_	4	det	_	_
 4	parcela	parcela	NOUN	NOUN	_	11	nsubj	_	_
-5	"	_	PUNCT	.	_	6	punct	_	SpaceAfter=No
+5	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
 6	invertida	invertido	ADJ	ADJ	_	4	amod	_	SpaceAfter=No
-7	"	_	PUNCT	.	_	6	punct	_	_
+7	"	"	PUNCT	.	_	6	punct	_	_
 8-9	da	_	_	_	_	_	_	_	_
 8	de	de	ADP	ADP	_	10	case	_	_
 9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	torcida	torcida	NOUN	NOUN	_	4	nmod	_	_
 11	pensa	pensar	VERB	VERB	_	0	root	_	_
 12-13	doutra	_	_	_	_	_	_	_	_
-12	de	_	ADP	ADP	_	14	case	_	_
+12	de	de	ADP	ADP	_	14	case	_	_
 13	outra	_	DET	DET	_	14	det	_	_
 14	forma	forma	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
-15	.	_	PUNCT	.	_	11	punct	_	_
+15	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s3206
 # text = Este critério é comumente, mas não universalmente aceito.
@@ -160,16 +160,16 @@
 2	critério	critério	NOUN	NOUN	_	9	nsubj:pass	_	_
 3	é	ser	AUX	AUX	_	9	aux:pass	_	_
 4	comumente	comumente	ADV	ADV	_	9	advmod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	8	punct	_	_
+5	,	,	PUNCT	.	_	8	punct	_	_
 6	mas	_	CCONJ	CONJ	_	8	cc	_	_
 7	não	não	ADV	ADV	Polarity=Neg	8	advmod	_	_
 8	universalmente	universalmente	ADV	ADV	_	4	conj	_	_
 9	aceito	aceitar	VERB	VERB	_	0	root	_	SpaceAfter=No
-10	.	_	PUNCT	.	_	9	punct	_	_
+10	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s3207
 # text = O programa fala de como é distribuição das oficinas dentro do Caje e eles queriam dizer que acham preconceituosa a forma como a mídia se refere a eles."
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	programa	programa	NOUN	NOUN	_	3	nsubj	_	_
 3	fala	_	VERB	VERB	_	0	root	_	_
 4	de	_	ADP	ADP	_	6	mark	_	_
@@ -185,24 +185,24 @@
 12	de	de	ADP	ADP	_	14	case	_	_
 13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	Caje	_	PROPN	PNOUN	_	11	nmod	_	_
-15	e	_	CCONJ	CONJ	_	17	cc	_	_
+15	e	e	CCONJ	CONJ	_	17	cc	_	_
 16	eles	_	PRON	PRON	_	17	nsubj	_	_
 17	queriam	querer	VERB	VERB	_	3	conj	_	_
 18	dizer	dizer	VERB	VERB	_	17	xcomp	_	_
-19	que	_	CCONJ	CONJ	_	20	mark	_	_
+19	que	que	CCONJ	CONJ	_	20	mark	_	_
 20	acham	achar	VERB	VERB	_	18	ccomp	_	_
 21	preconceituosa	preconceituoso	ADJ	ADJ	_	20	xcomp	_	_
-22	a	_	DET	DET	_	23	det	_	_
+22	a	a	DET	DET	_	23	det	_	_
 23	forma	forma	NOUN	NOUN	_	21	nsubj	_	_
 24	como	como	ADV	ADV	_	28	advmod	_	_
-25	a	_	DET	DET	_	26	det	_	_
+25	a	a	DET	DET	_	26	det	_	_
 26	mídia	mídia	NOUN	NOUN	_	28	nsubj	_	_
 27	se	_	PRON	PRON	_	28	expl:pv	_	_
 28	refere	referir	VERB	VERB	_	23	acl:relcl	_	_
 29	a	_	ADP	ADP	_	30	case	_	_
 30	eles	_	PRON	PRON	_	28	nmod	_	SpaceAfter=No
-31	.	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
-32	"	_	PUNCT	.	_	3	punct	_	_
+31	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+32	"	"	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s3208
 # text = Lawrence teria ainda tentado atirar em dois outros funcionários, mas percebeu que estava sem munição.
@@ -211,18 +211,18 @@
 3	ainda	ainda	ADV	ADV	_	5	advmod	_	_
 4	tentado	tentar	AUX	AUX	_	5	aux	_	_
 5	atirar	atirar	VERB	VERB	_	0	root	_	_
-6	em	_	ADP	ADP	_	9	case	_	_
+6	em	em	ADP	ADP	_	9	case	_	_
 7	dois	_	NUM	NUM	NumType=Card	9	nummod	_	_
 8	outros	_	DET	DET	_	9	det	_	_
 9	funcionários	funcionário	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	12	punct	_	_
+10	,	,	PUNCT	.	_	12	punct	_	_
 11	mas	_	CCONJ	CONJ	_	12	cc	_	_
 12	percebeu	perceber	VERB	VERB	_	5	conj	_	_
-13	que	_	CCONJ	CONJ	_	14	mark	_	_
+13	que	que	CCONJ	CONJ	_	14	mark	_	_
 14	estava	estar	VERB	VERB	_	12	ccomp	_	_
 15	sem	_	ADP	ADP	_	16	case	_	_
 16	munição	munição	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
-17	.	_	PUNCT	.	_	5	punct	_	_
+17	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s3209
 # text = Perda lamentável foi a do Conjunto de Câmara de Porto Alegre, criado em 1973 como uma evolução do Quarteto de Flautas Doces fundado em 1966 por Isolde Frank.
@@ -234,32 +234,32 @@
 5	de	de	ADP	ADP	_	7	case	_	_
 6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Conjunto	_	PROPN	PNOUN	_	4	nmod	_	_
-8	de	_	ADP	ADP	_	9	case	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
 9	Câmara	_	PROPN	PNOUN	_	7	nmod	_	_
-10	de	_	ADP	ADP	_	11	case	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
 11	Porto	_	PROPN	PNOUN	_	7	nmod	_	_
 12	Alegre	_	PROPN	PNOUN	_	11	amod	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	14	punct	_	_
+13	,	,	PUNCT	.	_	14	punct	_	_
 14	criado	criar	VERB	VERB	_	7	acl:part	_	_
-15	em	_	ADP	ADP	_	16	case	_	_
+15	em	em	ADP	ADP	_	16	case	_	_
 16	1973	_	NUM	NUM	NumType=Card	14	nmod	_	_
-17	como	_	ADP	ADP	_	19	case	_	_
-18	uma	_	DET	DET	_	19	det	_	_
+17	como	como	ADP	ADP	_	19	case	_	_
+18	uma	um	DET	DET	_	19	det	_	_
 19	evolução	evolução	NOUN	NOUN	_	14	nmod	_	_
 20-21	do	_	_	_	_	_	_	_	_
 20	de	de	ADP	ADP	_	22	case	_	_
 21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	Quarteto	_	PROPN	PNOUN	_	19	nmod	_	_
-23	de	_	ADP	ADP	_	24	case	_	_
+23	de	de	ADP	ADP	_	24	case	_	_
 24	Flautas	_	PROPN	PNOUN	_	22	nmod	_	_
 25	Doces	_	PROPN	PNOUN	_	24	amod	_	_
 26	fundado	fundar	VERB	VERB	_	22	acl:part	_	_
-27	em	_	ADP	ADP	_	28	case	_	_
+27	em	em	ADP	ADP	_	28	case	_	_
 28	1966	_	NUM	NUM	NumType=Card	26	nmod	_	_
-29	por	_	ADP	ADP	_	30	case	_	_
+29	por	por	ADP	ADP	_	30	case	_	_
 30	Isolde	_	PROPN	PNOUN	_	26	nmod	_	_
 31	Frank	_	PROPN	PNOUN	_	30	flat	_	SpaceAfter=No
-32	.	_	PUNCT	.	_	4	punct	_	_
+32	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s3210
 # text = No próximo domingo, dia 26 de agosto, data em que se comemora o aniversário de 113 anos de Campo Grande, haverá uma extensa programação.
@@ -268,43 +268,43 @@
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	próximo	próximo	ADJ	ADJ	_	4	amod	_	_
 4	domingo	_	PROPN	PNOUN	_	25	nmod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	6	punct	_	_
+5	,	,	PUNCT	.	_	6	punct	_	_
 6	dia	dia	NOUN	NOUN	_	4	nmod	_	_
 7	26	_	NUM	NUM	NumType=Card	6	appos	_	_
-8	de	_	ADP	ADP	_	9	case	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
 9	agosto	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	11	punct	_	_
+10	,	,	PUNCT	.	_	11	punct	_	_
 11	data	data	NOUN	NOUN	_	6	appos	_	_
-12	em	_	ADP	ADP	_	13	case	_	_
+12	em	em	ADP	ADP	_	13	case	_	_
 13	que	_	PRON	PRON	_	15	nmod	_	_
 14	se	_	PRON	PRON	_	15	expl:pv	_	_
 15	comemora	comemorar	VERB	VERB	_	11	acl:relcl	_	_
-16	o	_	DET	DET	_	17	det	_	_
+16	o	o	DET	DET	_	17	det	_	_
 17	aniversário	aniversário	NOUN	NOUN	_	15	nsubj	_	_
-18	de	_	ADP	ADP	_	20	case	_	_
+18	de	de	ADP	ADP	_	20	case	_	_
 19	113	_	NUM	NUM	NumType=Card	20	nummod	_	_
 20	anos	ano	NOUN	NOUN	_	17	nmod	_	_
-21	de	_	ADP	ADP	_	22	case	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
 22	Campo	_	PROPN	PNOUN	_	17	nmod	_	_
 23	Grande	_	PROPN	PNOUN	_	22	amod	_	SpaceAfter=No
-24	,	_	PUNCT	.	_	11	punct	_	_
+24	,	,	PUNCT	.	_	11	punct	_	_
 25	haverá	haver	VERB	VERB	_	0	root	_	_
-26	uma	_	DET	DET	_	28	det	_	_
+26	uma	um	DET	DET	_	28	det	_	_
 27	extensa	extenso	ADJ	ADJ	_	28	amod	_	_
 28	programação	programação	NOUN	NOUN	_	25	obj	_	SpaceAfter=No
-29	.	_	PUNCT	.	_	25	punct	_	_
+29	.	.	PUNCT	.	_	25	punct	_	_
 
 # sent_id = train-s3211
 # text = De acordo com a Polícia Rodoviária Federal, a pista da BR 282 está parcialmente interditada por período indeterminado nos km 605, 406,5 e 645, nas cidades de Maravilha, Catanduva e São Miguel do Oeste, respectivamente.
 1	De	_	ADP	ADP	_	2	case	_	_
 2	acordo	acordo	NOUN	NOUN	_	15	nmod	_	_
-3	com	_	ADP	ADP	_	5	case	_	_
-4	a	_	DET	DET	_	5	det	_	_
+3	com	com	ADP	ADP	_	5	case	_	_
+4	a	a	DET	DET	_	5	det	_	_
 5	Polícia	_	PROPN	PNOUN	_	2	nmod	_	_
 6	Rodoviária	_	PROPN	PNOUN	_	5	amod	_	_
 7	Federal	_	PROPN	PNOUN	_	5	amod	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	2	punct	_	_
-9	a	_	DET	DET	_	10	det	_	_
+8	,	,	PUNCT	.	_	2	punct	_	_
+9	a	a	DET	DET	_	10	det	_	_
 10	pista	pista	NOUN	NOUN	_	15	nsubj	_	_
 11-12	da	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	13	case	_	_
@@ -314,7 +314,7 @@
 15	está	estar	VERB	VERB	_	0	root	_	_
 16	parcialmente	parcialmente	ADV	ADV	_	17	advmod	_	_
 17	interditada	interditado	ADJ	ADJ	_	15	xcomp:adj	_	_
-18	por	_	ADP	ADP	_	19	case	_	_
+18	por	por	ADP	ADP	_	19	case	_	_
 19	período	período	NOUN	NOUN	_	17	nmod	_	_
 20	indeterminado	indeterminado	ADJ	ADJ	_	19	amod	_	_
 21-22	nos	_	_	_	_	_	_	_	_
@@ -322,27 +322,27 @@
 22	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
 23	km	km	NOUN	NOUN	_	17	nmod	_	_
 24	605	_	NUM	NUM	NumType=Card	23	appos	_	SpaceAfter=No
-25	,	_	PUNCT	.	_	26	punct	_	_
+25	,	,	PUNCT	.	_	26	punct	_	_
 26	406,5	_	NUM	NUM	NumType=Card	24	conj	_	_
-27	e	_	CCONJ	CONJ	_	28	cc	_	_
+27	e	e	CCONJ	CONJ	_	28	cc	_	_
 28	645	_	NUM	NUM	NumType=Card	24	conj	_	SpaceAfter=No
-29	,	_	PUNCT	.	_	32	punct	_	_
+29	,	,	PUNCT	.	_	32	punct	_	_
 30-31	nas	_	_	_	_	_	_	_	_
 30	em	em	ADP	ADP	_	32	case	_	_
 31	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
 32	cidades	cidade	NOUN	NOUN	_	17	nmod	_	_
-33	de	_	ADP	ADP	_	34	case	_	_
+33	de	de	ADP	ADP	_	34	case	_	_
 34	Maravilha	_	PROPN	PNOUN	_	32	nmod	_	SpaceAfter=No
-35	,	_	PUNCT	.	_	36	punct	_	_
+35	,	,	PUNCT	.	_	36	punct	_	_
 36	Catanduva	_	PROPN	PNOUN	_	34	conj	_	_
-37	e	_	CCONJ	CONJ	_	38	cc	_	_
+37	e	e	CCONJ	CONJ	_	38	cc	_	_
 38	São	_	PROPN	PNOUN	_	34	conj	_	_
 39	Miguel	_	PROPN	PNOUN	_	38	flat	_	_
 40-41	do	_	_	_	_	_	_	_	_
 40	de	de	ADP	ADP	_	42	case	_	_
 41	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
 42	Oeste	_	PROPN	PNOUN	_	38	nmod	_	SpaceAfter=No
-43	,	_	PUNCT	.	_	44	punct	_	_
+43	,	,	PUNCT	.	_	44	punct	_	_
 44	respectivamente	respectivamente	ADV	ADV	_	34	advmod	_	SpaceAfter=No
-45	.	_	PUNCT	.	_	15	punct	_	_
+45	.	.	PUNCT	.	_	15	punct	_	_
 

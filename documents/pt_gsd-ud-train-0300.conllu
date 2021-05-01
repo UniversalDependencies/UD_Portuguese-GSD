@@ -1,14 +1,14 @@
 # sent_id = train-s2979
 # text = TVs, rádios, sites, redes sociais e novas ferramentas tecnológicas estão à disposição da Igreja para a propagação da fé, da espiritualidade e dos valores cristãos.
 1	TVs	tv	NOUN	NOUN	_	13	nsubj	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	3	punct	_	_
+2	,	,	PUNCT	.	_	3	punct	_	_
 3	rádios	rádio	NOUN	NOUN	_	1	conj	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	5	punct	_	_
+4	,	,	PUNCT	.	_	5	punct	_	_
 5	sites	site	NOUN	NOUN	_	1	conj	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	7	punct	_	_
+6	,	,	PUNCT	.	_	7	punct	_	_
 7	redes	rede	NOUN	NOUN	_	1	conj	_	_
 8	sociais	social	ADJ	ADJ	_	7	amod	_	_
-9	e	_	CCONJ	CONJ	_	11	cc	_	_
+9	e	e	CCONJ	CONJ	_	11	cc	_	_
 10	novas	novo	ADJ	ADJ	_	11	amod	_	_
 11	ferramentas	ferramenta	NOUN	NOUN	_	1	conj	_	_
 12	tecnológicas	tecnológico	ADJ	ADJ	_	11	amod	_	_
@@ -21,25 +21,25 @@
 17	de	de	ADP	ADP	_	19	case	_	_
 18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	Igreja	_	PROPN	PNOUN	_	16	nmod	_	_
-20	para	_	ADP	ADP	_	22	case	_	_
-21	a	_	DET	DET	_	22	det	_	_
+20	para	para	ADP	ADP	_	22	case	_	_
+21	a	a	DET	DET	_	22	det	_	_
 22	propagação	propagação	NOUN	NOUN	_	16	nmod	_	_
 23-24	da	_	_	_	_	_	_	_	_
 23	de	de	ADP	ADP	_	25	case	_	_
 24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	fé	fé	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
-26	,	_	PUNCT	.	_	29	punct	_	_
+26	,	,	PUNCT	.	_	29	punct	_	_
 27-28	da	_	_	_	_	_	_	_	_
 27	de	de	ADP	ADP	_	29	case	_	_
 28	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	espiritualidade	espiritualidade	NOUN	NOUN	_	25	conj	_	_
-30	e	_	CCONJ	CONJ	_	33	cc	_	_
+30	e	e	CCONJ	CONJ	_	33	cc	_	_
 31-32	dos	_	_	_	_	_	_	_	_
 31	de	de	ADP	ADP	_	33	case	_	_
 32	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
 33	valores	_	NOUN	NOUN	_	25	conj	_	_
 34	cristãos	cristão	ADJ	ADJ	_	33	amod	_	SpaceAfter=No
-35	.	_	PUNCT	.	_	13	punct	_	_
+35	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = train-s2980
 # text = Ele não teve trabalho nenhum em ampliar.
@@ -50,21 +50,21 @@
 5	nenhum	_	DET	DET	_	4	det	_	_
 6	em	_	ADP	ADP	_	7	mark	_	_
 7	ampliar	ampliar	VERB	VERB	_	3	nmod	_	SpaceAfter=No
-8	.	_	PUNCT	.	_	3	punct	_	_
+8	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s2981
 # text = Mas o retorno é maior produtividade e inteligência para toda a companhia -- principalmente para saber onde cortar custos -- e esse é o tipo de coisa que deve ser levada em consideração ", acredita Marques.
 1	Mas	_	CCONJ	CONJ	_	6	cc	_	_
-2	o	_	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	_	3	det	_	_
 3	retorno	retorno	NOUN	NOUN	_	6	nsubj	_	_
 4	é	ser	AUX	AUX	_	6	cop	_	_
 5	maior	maior	ADJ	ADJ	_	6	amod	_	_
 6	produtividade	produtividade	NOUN	NOUN	_	36	ccomp	_	_
-7	e	_	CCONJ	CONJ	_	8	cc	_	_
+7	e	e	CCONJ	CONJ	_	8	cc	_	_
 8	inteligência	inteligência	NOUN	NOUN	_	6	conj	_	_
-9	para	_	ADP	ADP	_	12	case	_	_
+9	para	para	ADP	ADP	_	12	case	_	_
 10	toda	_	DET	DET	_	12	det	_	_
-11	a	_	DET	DET	_	12	det	_	_
+11	a	a	DET	DET	_	12	det	_	_
 12	companhia	companhia	NOUN	NOUN	_	6	nmod	_	_
 13	--	_	PUNCT	.	_	16	punct	_	_
 14	principalmente	principalmente	ADV	ADV	_	16	advmod	_	_
@@ -74,28 +74,28 @@
 18	cortar	cortar	VERB	VERB	_	16	ccomp	_	_
 19	custos	custo	NOUN	NOUN	_	18	obj	_	_
 20	--	_	PUNCT	.	_	16	punct	_	_
-21	e	_	CCONJ	CONJ	_	25	cc	_	_
+21	e	e	CCONJ	CONJ	_	25	cc	_	_
 22	esse	_	PRON	PRON	_	25	nsubj	_	_
 23	é	ser	AUX	AUX	_	25	cop	_	_
-24	o	_	DET	DET	_	25	det	_	_
+24	o	o	DET	DET	_	25	det	_	_
 25	tipo	tipo	NOUN	NOUN	_	6	conj	_	_
-26	de	_	ADP	ADP	_	27	case	_	_
+26	de	de	ADP	ADP	_	27	case	_	_
 27	coisa	coisa	NOUN	NOUN	_	25	nmod	_	_
 28	que	_	PRON	PRON	_	31	nsubj:pass	_	_
 29	deve	dever	AUX	AUX	_	31	aux	_	_
 30	ser	ser	AUX	AUX	_	31	aux:pass	_	_
 31	levada	levar	VERB	VERB	_	27	acl:relcl	_	_
-32	em	_	ADP	ADP	_	33	case	_	_
+32	em	em	ADP	ADP	_	33	case	_	_
 33	consideração	consideração	NOUN	NOUN	_	31	nmod	_	_
-34	"	_	PUNCT	.	_	6	punct	_	SpaceAfter=No
-35	,	_	PUNCT	.	_	36	punct	_	_
+34	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
+35	,	,	PUNCT	.	_	36	punct	_	_
 36	acredita	acreditar	VERB	VERB	_	0	root	_	_
 37	Marques	_	PROPN	PNOUN	_	36	nsubj	_	SpaceAfter=No
-38	.	_	PUNCT	.	_	36	punct	_	_
+38	.	.	PUNCT	.	_	36	punct	_	_
 
 # sent_id = train-s2982
 # text = A projeção da entidade são novas reduções nos meses subsequentes.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	projeção	projeção	NOUN	NOUN	_	8	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -109,16 +109,16 @@
 10	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
 11	meses	mês	NOUN	NOUN	_	8	nmod	_	_
 12	subsequentes	subsequente	ADJ	ADJ	_	11	amod	_	SpaceAfter=No
-13	.	_	PUNCT	.	_	8	punct	_	_
+13	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s2983
 # text = Já temos trabalho para 2013.
 1	Já	já	ADV	ADV	_	2	advmod	_	_
 2	temos	ter	VERB	VERB	_	0	root	_	_
 3	trabalho	trabalho	NOUN	NOUN	_	2	obj	_	_
-4	para	_	ADP	ADP	_	5	case	_	_
+4	para	para	ADP	ADP	_	5	case	_	_
 5	2013	_	NUM	NUM	NumType=Card	2	nmod	_	SpaceAfter=No
-6	.	_	PUNCT	.	_	2	punct	_	_
+6	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s2984
 # text = Não entro num eventual segundo turno para apoiar candidaturas aventurescas e fenômenos de última hora.
@@ -132,23 +132,23 @@
 8	apoiar	apoiar	VERB	VERB	_	2	advcl	_	_
 9	candidaturas	candidatura	NOUN	NOUN	_	8	obj	_	_
 10	aventurescas	_	ADJ	ADJ	_	9	amod	_	_
-11	e	_	CCONJ	CONJ	_	12	cc	_	_
+11	e	e	CCONJ	CONJ	_	12	cc	_	_
 12	fenômenos	fenômeno	NOUN	NOUN	_	9	conj	_	_
-13	de	_	ADP	ADP	_	15	case	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
 14	última	último	ADJ	ADJ	_	15	amod	_	_
 15	hora	hora	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	2	punct	_	_
+16	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s2985
 # text = Acompanharam a divergência os juízes Ricardo Procópio, Nilson Cavalcanti e o desembargador João Rebouças.
 1	Acompanharam	acompanhar	VERB	VERB	_	0	root	_	_
-2	a	_	DET	DET	_	3	det	_	_
+2	a	a	DET	DET	_	3	det	_	_
 3	divergência	divergência	NOUN	NOUN	_	1	obj	_	_
-4	os	_	DET	DET	_	5	det	_	_
+4	os	o	DET	DET	_	5	det	_	_
 5	juízes	juiz	NOUN	NOUN	_	1	nsubj	_	_
 6	Ricardo	_	PROPN	PNOUN	_	5	appos	_	_
 7	Procópio	_	PROPN	PNOUN	_	6	flat	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	9	punct	_	_
+8	,	,	PUNCT	.	_	9	punct	_	_
 9	Nilson	_	PROPN	PNOUN	_	6	conj	_	_
 10	Cavalcanti	_	PROPN	PNOUN	_	9	flat	_	_
 11	e	e	CCONJ	CONJ	_	13	cc	_	_
@@ -156,7 +156,7 @@
 13	desembargador	desembargador	NOUN	NOUN	_	6	conj	_	_
 14	João	_	PROPN	PNOUN	_	13	appos	_	_
 15	Rebouças	_	PROPN	PNOUN	_	14	flat	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	1	punct	_	_
+16	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s2986
 # text = Rafael cruzou rasteiro da direita, Damião dominou já ajeitando para o tiro, mas foi foi interceptado por Mier, que mandou para escanteio, afastando o perigo.
@@ -167,31 +167,31 @@
 4	de	de	ADP	ADP	_	6	case	_	_
 5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	direita	_	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	9	punct	_	_
+7	,	,	PUNCT	.	_	9	punct	_	_
 8	Damião	_	PROPN	PNOUN	_	9	nsubj	_	_
 9	dominou	dominar	VERB	VERB	_	2	conj	_	_
 10	já	já	ADV	ADV	_	11	advmod	_	_
 11	ajeitando	ajeitar	VERB	VERB	_	9	acl:part	_	_
-12	para	_	ADP	ADP	_	14	case	_	_
-13	o	_	DET	DET	_	14	det	_	_
+12	para	para	ADP	ADP	_	14	case	_	_
+13	o	o	DET	DET	_	14	det	_	_
 14	tiro	tiro	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	19	punct	_	_
+15	,	,	PUNCT	.	_	19	punct	_	_
 16	mas	_	CCONJ	CONJ	_	19	cc	_	_
 17	foi	_	AUX	AUX	_	19	dep	_	_
 18	foi	_	AUX	AUX	_	19	aux:pass	_	_
 19	interceptado	interceptar	VERB	VERB	_	9	conj	_	_
-20	por	_	ADP	ADP	_	21	case	_	_
+20	por	por	ADP	ADP	_	21	case	_	_
 21	Mier	_	PROPN	PNOUN	_	19	nmod	_	SpaceAfter=No
-22	,	_	PUNCT	.	_	24	punct	_	_
+22	,	,	PUNCT	.	_	24	punct	_	_
 23	que	_	PRON	PRON	_	24	nsubj	_	_
 24	mandou	mandar	VERB	VERB	_	21	acl:relcl	_	_
-25	para	_	ADP	ADP	_	26	case	_	_
+25	para	para	ADP	ADP	_	26	case	_	_
 26	escanteio	escanteio	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
-27	,	_	PUNCT	.	_	28	punct	_	_
+27	,	,	PUNCT	.	_	28	punct	_	_
 28	afastando	afastar	VERB	VERB	_	24	acl:part	_	_
-29	o	_	DET	DET	_	30	det	_	_
+29	o	o	DET	DET	_	30	det	_	_
 30	perigo	perigo	NOUN	NOUN	_	28	obj	_	SpaceAfter=No
-31	.	_	PUNCT	.	_	2	punct	_	_
+31	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s2987
 # text = Treinamos muitas vezes num pedaço de grama atrás do alojamento, e foi ali onde fechamos e conseguimos este êxito que até hoje está marcado no futebol paranaense.
@@ -200,20 +200,20 @@
 3	vezes	vez	NOUN	NOUN	_	1	nmod	_	_
 4	num	_	ADP	ADP	_	5	case	_	_
 5	pedaço	pedaço	NOUN	NOUN	_	1	nmod	_	_
-6	de	_	ADP	ADP	_	7	case	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
 7	grama	grama	NOUN	NOUN	_	5	nmod	_	_
 8	atrás	atrás	ADV	ADV	_	5	advmod	_	_
 9-10	do	_	_	_	_	_	_	_	_
 9	de	de	ADP	ADP	_	11	case	_	_
 10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	alojamento	alojamento	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	14	punct	_	_
-13	e	_	CCONJ	CONJ	_	14	cc	_	_
+12	,	,	PUNCT	.	_	14	punct	_	_
+13	e	e	CCONJ	CONJ	_	14	cc	_	_
 14	foi	_	VERB	VERB	_	1	conj	_	_
 15	ali	ali	ADV	ADV	_	14	advmod	_	_
 16	onde	onde	ADV	ADV	_	17	advmod	_	_
 17	fechamos	fechar	VERB	VERB	_	15	acl:relcl	_	_
-18	e	_	CCONJ	CONJ	_	19	cc	_	_
+18	e	e	CCONJ	CONJ	_	19	cc	_	_
 19	conseguimos	conseguir	VERB	VERB	_	17	conj	_	_
 20	este	_	DET	DET	_	21	det	_	_
 21	êxito	êxito	NOUN	NOUN	_	19	obj	_	_
@@ -227,17 +227,17 @@
 28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	futebol	futebol	NOUN	NOUN	_	26	nmod	_	_
 30	paranaense	paranaense	ADJ	ADJ	_	29	amod	_	SpaceAfter=No
-31	.	_	PUNCT	.	_	1	punct	_	_
+31	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s2988
 # text = Sempre tivemos isso, pois queremos que nossas histórias sejam enraizadas na realidade, como se elas pudessem acontecer no mundo em que vivemos ", disse Goyer.
 1	Sempre	sempre	ADV	ADV	_	2	advmod	_	_
 2	tivemos	ter	VERB	VERB	_	29	ccomp	_	_
 3	isso	_	PRON	PRON	_	2	obj	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	6	punct	_	_
+4	,	,	PUNCT	.	_	6	punct	_	_
 5	pois	_	CCONJ	CONJ	_	6	mark	_	_
 6	queremos	querer	VERB	VERB	_	2	advcl	_	_
-7	que	_	CCONJ	CONJ	_	11	mark	_	_
+7	que	que	CCONJ	CONJ	_	11	mark	_	_
 8	nossas	_	DET	DET	_	9	det:poss	_	_
 9	histórias	história	NOUN	NOUN	_	11	nsubj:pass	_	_
 10	sejam	ser	AUX	AUX	_	11	aux	_	_
@@ -246,7 +246,7 @@
 12	em	em	ADP	ADP	_	14	case	_	_
 13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	realidade	realidade	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	20	punct	_	_
+15	,	,	PUNCT	.	_	20	punct	_	_
 16	como	_	CCONJ	CONJ	_	20	mark	_	_
 17	se	_	CCONJ	CONJ	_	16	fixed	_	_
 18	elas	_	PRON	PRON	_	20	nsubj	_	_
@@ -256,12 +256,12 @@
 21	em	em	ADP	ADP	_	23	case	_	_
 22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	mundo	mundo	NOUN	NOUN	_	20	nmod	_	_
-24	em	_	ADP	ADP	_	25	case	_	_
+24	em	em	ADP	ADP	_	25	case	_	_
 25	que	_	PRON	PRON	_	26	nmod	_	_
 26	vivemos	_	VERB	VERB	_	23	acl:relcl	_	_
-27	"	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
-28	,	_	PUNCT	.	_	29	punct	_	_
+27	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
+28	,	,	PUNCT	.	_	29	punct	_	_
 29	disse	dizer	VERB	VERB	_	0	root	_	_
 30	Goyer	_	PROPN	PNOUN	_	29	nsubj	_	SpaceAfter=No
-31	.	_	PUNCT	.	_	29	punct	_	_
+31	.	.	PUNCT	.	_	29	punct	_	_
 

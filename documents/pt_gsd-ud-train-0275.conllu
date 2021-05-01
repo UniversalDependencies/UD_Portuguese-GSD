@@ -4,11 +4,11 @@
 2	Expedição	_	PROPN	PNOUN	_	11	nsubj:pass	_	_
 3	Ártica	_	PROPN	PNOUN	_	2	amod	_	_
 4	Jackson	_	PROPN	PNOUN	_	2	appos	_	_
-5	-	_	PUNCT	.	_	4	punct	_	_
+5	-	-	PUNCT	.	_	4	punct	_	_
 6	Harmsworth	_	PROPN	PNOUN	_	4	flat	_	_
-7	(	_	PUNCT	.	_	8	punct	_	SpaceAfter=No
+7	(	(	PUNCT	.	_	8	punct	_	SpaceAfter=No
 8	1894-1897	_	NUM	NUM	NumType=Card	2	nmod	_	SpaceAfter=No
-9	)	_	PUNCT	.	_	8	punct	_	_
+9	)	)	PUNCT	.	_	8	punct	_	_
 10	foi	_	AUX	AUX	_	11	aux:pass	_	_
 11	patrocinada	patrocinar	VERB	VERB	_	0	root	_	_
 12-13	pela	_	_	_	_	_	_	_	_
@@ -17,14 +17,14 @@
 14	Royal	_	PROPN	PNOUN	_	16	amod	_	_
 15	Geographical	_	PROPN	PNOUN	_	16	amod	_	_
 16	Society	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
-17	.	_	PUNCT	.	_	11	punct	_	_
+17	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s2731
 # text = Rachel de Farias, voluntária da Associação Esportiva Turma dos Ratos, acha que a questão do aborto em casos de estupro é mais delicada.
 1	Rachel	_	PROPN	PNOUN	_	15	nsubj	_	_
-2	de	_	ADP	ADP	_	3	case	_	_
+2	de	de	ADP	ADP	_	3	case	_	_
 3	Farias	_	PROPN	PNOUN	_	1	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	5	punct	_	_
+4	,	,	PUNCT	.	_	5	punct	_	_
 5	voluntária	voluntário	NOUN	NOUN	_	1	appos	_	_
 6-7	da	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	8	case	_	_
@@ -36,35 +36,35 @@
 11	de	de	ADP	ADP	_	13	case	_	_
 12	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 13	Ratos	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
-14	,	_	PUNCT	.	_	5	punct	_	_
+14	,	,	PUNCT	.	_	5	punct	_	_
 15	acha	achar	VERB	VERB	_	0	root	_	_
-16	que	_	CCONJ	CONJ	_	26	mark	_	_
-17	a	_	DET	DET	_	18	det	_	_
+16	que	que	CCONJ	CONJ	_	26	mark	_	_
+17	a	a	DET	DET	_	18	det	_	_
 18	questão	questão	NOUN	NOUN	_	26	nsubj	_	_
 19-20	do	_	_	_	_	_	_	_	_
 19	de	de	ADP	ADP	_	21	case	_	_
 20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	aborto	aborto	NOUN	NOUN	_	18	nmod	_	_
-22	em	_	ADP	ADP	_	23	case	_	_
+22	em	em	ADP	ADP	_	23	case	_	_
 23	casos	caso	NOUN	NOUN	_	21	nmod	_	_
-24	de	_	ADP	ADP	_	25	case	_	_
+24	de	de	ADP	ADP	_	25	case	_	_
 25	estupro	estupro	NOUN	NOUN	_	23	nmod	_	_
 26	é	ser	VERB	VERB	_	15	ccomp	_	_
 27	mais	mais	ADV	ADV	_	28	advmod	_	_
 28	delicada	delicado	ADJ	ADJ	_	26	xcomp:adj	_	SpaceAfter=No
-29	.	_	PUNCT	.	_	15	punct	_	_
+29	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = train-s2732
 # text = Unidas formam o Detonador do Poder, que destroem qualquer monstro dos vilões (Se Rita ou Zedd não fizerem o monstro crescer antes disso).
 1	Unidas	unido	ADJ	ADJ	_	2	xcomp:adj	_	_
 2	formam	formar	VERB	VERB	_	0	root	_	_
-3	o	_	DET	DET	_	4	det	_	_
+3	o	o	DET	DET	_	4	det	_	_
 4	Detonador	detonador	NOUN	NOUN	_	2	obj	_	_
 5-6	do	_	_	_	_	_	_	_	_
 5	de	de	ADP	ADP	_	7	case	_	_
 6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Poder	_	PROPN	PNOUN	_	4	nmod	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	10	punct	_	_
+8	,	,	PUNCT	.	_	10	punct	_	_
 9	que	_	PRON	PRON	_	10	nsubj	_	_
 10	destroem	destruir	VERB	VERB	_	4	acl:relcl	_	_
 11	qualquer	_	DET	DET	_	12	det	_	_
@@ -73,39 +73,39 @@
 13	de	de	ADP	ADP	_	15	case	_	_
 14	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
 15	vilões	vilão	NOUN	NOUN	_	12	nmod	_	_
-16	(	_	PUNCT	.	_	22	punct	_	SpaceAfter=No
+16	(	(	PUNCT	.	_	22	punct	_	SpaceAfter=No
 17	Se	_	CCONJ	CONJ	_	22	mark	_	_
 18	Rita	_	PROPN	PNOUN	_	22	nsubj	_	_
-19	ou	_	CCONJ	CONJ	_	20	cc	_	_
+19	ou	ou	CCONJ	CONJ	_	20	cc	_	_
 20	Zedd	_	PROPN	PNOUN	_	18	conj	_	_
 21	não	não	ADV	ADV	Polarity=Neg	22	advmod	_	_
 22	fizerem	fazer	VERB	VERB	_	10	advcl	_	_
-23	o	_	DET	DET	_	24	det	_	_
+23	o	o	DET	DET	_	24	det	_	_
 24	monstro	monstro	NOUN	NOUN	_	22	obj	_	_
 25	crescer	crescer	VERB	VERB	_	24	acl:inf	_	_
 26	antes	antes	ADV	ADV	_	22	nmod	_	_
 27	disso	_	X	ADPPRON	_	26	fixed	_	SpaceAfter=No
-28	)	_	PUNCT	.	_	22	punct	_	SpaceAfter=No
-29	.	_	PUNCT	.	_	2	punct	_	_
+28	)	)	PUNCT	.	_	22	punct	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s2733
 # text = Outras informações 3221-6100.
 1	Outras	_	DET	DET	_	2	det	_	_
 2	informações	informação	NOUN	NOUN	_	0	root	_	_
 3	3221-6100	_	NUM	NUM	NumType=Card	2	appos	_	SpaceAfter=No
-4	.	_	PUNCT	.	_	2	punct	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s2734
 # text = Em 2002, retornou ao Brasil, agora para jogar pelo Vitória, onde fez dupla de ataque com André, marcando, juntos, mais de 60 gols na temporada.
-1	Em	_	ADP	ADP	_	2	case	_	_
+1	Em	em	ADP	ADP	_	2	case	_	_
 2	2002	_	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	2	punct	_	_
+3	,	,	PUNCT	.	_	2	punct	_	_
 4	retornou	retornar	VERB	VERB	_	0	root	_	_
 5-6	ao	_	_	_	_	_	_	_	_
 5	a	a	ADP	ADP	_	7	case	_	_
 6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Brasil	_	PROPN	PNOUN	_	4	nmod	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	11	punct	_	_
+8	,	,	PUNCT	.	_	11	punct	_	_
 9	agora	agora	ADV	ADV	_	11	advmod	_	_
 10	para	_	ADP	ADP	_	11	mark	_	_
 11	jogar	jogar	VERB	VERB	_	4	advcl	_	_
@@ -113,47 +113,47 @@
 12	por	por	ADP	ADP	_	14	case	_	_
 13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	Vitória	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	17	punct	_	_
+15	,	,	PUNCT	.	_	17	punct	_	_
 16	onde	onde	ADV	ADV	_	17	advmod	_	_
 17	fez	fazer	VERB	VERB	_	14	acl:relcl	_	_
 18	dupla	_	NOUN	NOUN	_	17	obj	_	_
-19	de	_	ADP	ADP	_	20	case	_	_
+19	de	de	ADP	ADP	_	20	case	_	_
 20	ataque	ataque	NOUN	NOUN	_	18	nmod	_	_
-21	com	_	ADP	ADP	_	22	case	_	_
+21	com	com	ADP	ADP	_	22	case	_	_
 22	André	_	PROPN	PNOUN	_	17	nmod	_	SpaceAfter=No
-23	,	_	PUNCT	.	_	24	punct	_	_
+23	,	,	PUNCT	.	_	24	punct	_	_
 24	marcando	marcar	VERB	VERB	_	17	acl:part	_	SpaceAfter=No
-25	,	_	PUNCT	.	_	26	punct	_	_
+25	,	,	PUNCT	.	_	26	punct	_	_
 26	juntos	junto	ADJ	ADJ	_	24	xcomp:adj	_	SpaceAfter=No
-27	,	_	PUNCT	.	_	26	punct	_	_
+27	,	,	PUNCT	.	_	26	punct	_	_
 28	mais	mais	ADV	ADV	_	30	advmod	_	_
-29	de	_	ADP	ADP	_	28	case	_	_
+29	de	de	ADP	ADP	_	28	case	_	_
 30	60	_	NUM	NUM	NumType=Card	31	nummod	_	_
 31	gols	gol	NOUN	NOUN	_	24	obj	_	_
 32-33	na	_	_	_	_	_	_	_	_
 32	em	em	ADP	ADP	_	34	case	_	_
 33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	temporada	temporada	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
-35	.	_	PUNCT	.	_	4	punct	_	_
+35	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s2735a
 # text = A oposição entre as duas mulheres chegou a tal ponto que a rainha Vitória teve que interceder pela filha junto a Guilherme I.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	oposição	oposição	NOUN	NOUN	_	7	nsubj	_	_
 3	entre	_	ADP	ADP	_	6	case	_	_
-4	as	_	DET	DET	_	6	det	_	_
+4	as	o	DET	DET	_	6	det	_	_
 5	duas	_	NUM	NUM	NumType=Card	6	nummod	_	_
 6	mulheres	mulher	NOUN	NOUN	_	2	nmod	_	_
 7	chegou	chegar	VERB	VERB	_	0	root	_	_
 8	a	_	ADP	ADP	_	10	case	_	_
 9	tal	_	DET	DET	_	10	det	_	_
 10	ponto	ponto	NOUN	NOUN	_	7	nmod	_	_
-11	que	_	CCONJ	CONJ	_	17	mark	_	_
-12	a	_	DET	DET	_	13	det	_	_
+11	que	que	CCONJ	CONJ	_	17	mark	_	_
+12	a	a	DET	DET	_	13	det	_	_
 13	rainha	_	NOUN	NOUN	_	17	nsubj	_	_
 14	Vitória	_	PROPN	PNOUN	_	13	appos	_	_
 15	teve	ter	AUX	AUX	_	17	aux	_	_
-16	que	_	CCONJ	CONJ	_	17	mark	_	_
+16	que	que	CCONJ	CONJ	_	17	mark	_	_
 17	interceder	interceder	VERB	VERB	_	7	advcl	_	_
 18-19	pela	_	_	_	_	_	_	_	_
 18	por	por	ADP	ADP	_	20	case	_	_
@@ -168,18 +168,18 @@
 # text = Em 19 de julho de 1870 teve início a Guerra Franco - prussiana, que levou à queda do Segundo Império Francês.
 1	Em	_	PROPN	PNOUN	_	2	case	_	_
 2	19	_	NUM	NUM	NumType=Card	0	root	_	_
-3	de	_	ADP	ADP	_	4	case	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
 4	julho	_	PROPN	PNOUN	_	2	nmod	_	_
-5	de	_	ADP	ADP	_	6	case	_	_
+5	de	de	ADP	ADP	_	6	case	_	_
 6	1870	_	NUM	NUM	NumType=Card	4	nmod	_	_
 7	teve	ter	VERB	VERB	_	2	case	_	_
 8	início	início	NOUN	NOUN	_	2	obj	_	_
-9	a	_	DET	DET	_	10	det	_	_
+9	a	a	DET	DET	_	10	det	_	_
 10	Guerra	_	PROPN	PNOUN	_	2	nsubj	_	_
 11	Franco	_	PROPN	PNOUN	_	13	amod	_	_
-12	-	_	PUNCT	.	_	13	punct	_	_
+12	-	-	PUNCT	.	_	13	punct	_	_
 13	prussiana	_	PROPN	PNOUN	_	10	amod	_	SpaceAfter=No
-14	,	_	PUNCT	.	_	16	punct	_	_
+14	,	,	PUNCT	.	_	16	punct	_	_
 15	que	_	PRON	PRON	_	16	nsubj	_	_
 16	levou	levar	VERB	VERB	_	10	acl:relcl	_	_
 17-18	à	_	_	_	_	_	_	_	_
@@ -192,18 +192,18 @@
 22	Segundo	_	PROPN	PNOUN	_	23	amod	_	_
 23	Império	_	PROPN	PNOUN	_	19	nmod	_	_
 24	Francês	_	PROPN	PNOUN	_	23	amod	_	SpaceAfter=No
-25	.	_	PUNCT	.	_	2	punct	_	_
+25	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s2736
 # text = "Os trabalhos já tinham sido encerrados.
-1	"	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
-2	Os	_	DET	DET	_	3	det	_	_
+1	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
+2	Os	o	DET	DET	_	3	det	_	_
 3	trabalhos	trabalho	NOUN	NOUN	_	7	nsubj:pass	_	_
 4	já	já	ADV	ADV	_	7	advmod	_	_
 5	tinham	ter	AUX	AUX	_	7	aux	_	_
 6	sido	ser	AUX	AUX	_	7	aux:pass	_	_
 7	encerrados	encerrar	VERB	VERB	_	0	root	_	SpaceAfter=No
-8	.	_	PUNCT	.	_	7	punct	_	_
+8	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s2737
 # text = Temple of Shadows -- vocal em "The Temple of Hate" Follow The Blind -- vocais em "Valhalla", e solo de guitarra em "Hall Of The King"
@@ -212,34 +212,34 @@
 3	Shadows	_	PROPN	PNOUN	_	1	nmod	_	_
 4	--	_	PUNCT	.	_	5	punct	_	_
 5	vocal	vocal	NOUN	NOUN	_	1	appos	_	_
-6	em	_	ADP	ADP	_	9	case	_	_
-7	"	_	PUNCT	.	_	9	punct	_	SpaceAfter=No
+6	em	em	ADP	ADP	_	9	case	_	_
+7	"	"	PUNCT	.	_	9	punct	_	SpaceAfter=No
 8	The	_	PROPN	PNOUN	_	9	det	_	_
 9	Temple	_	PROPN	PNOUN	_	5	nmod	_	_
 10	of	_	ADP	ADP	_	11	case	_	_
 11	Hate	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
-12	"	_	PUNCT	.	_	9	punct	_	_
+12	"	"	PUNCT	.	_	9	punct	_	_
 13	Follow	_	PROPN	PNOUN	_	1	conj	_	_
 14	The	_	PROPN	PNOUN	_	15	det	_	_
 15	Blind	_	PROPN	PNOUN	_	13	obj	_	_
 16	--	_	PUNCT	.	_	17	punct	_	_
 17	vocais	vocal	NOUN	NOUN	_	13	appos	_	_
-18	em	_	ADP	ADP	_	20	case	_	_
-19	"	_	PUNCT	.	_	20	punct	_	SpaceAfter=No
+18	em	em	ADP	ADP	_	20	case	_	_
+19	"	"	PUNCT	.	_	20	punct	_	SpaceAfter=No
 20	Valhalla	_	PROPN	PNOUN	_	17	nmod	_	SpaceAfter=No
-21	"	_	PUNCT	.	_	20	punct	_	SpaceAfter=No
-22	,	_	PUNCT	.	_	24	punct	_	_
-23	e	_	CCONJ	CONJ	_	24	cc	_	_
+21	"	"	PUNCT	.	_	20	punct	_	SpaceAfter=No
+22	,	,	PUNCT	.	_	24	punct	_	_
+23	e	e	CCONJ	CONJ	_	24	cc	_	_
 24	solo	solo	NOUN	NOUN	_	17	conj	_	_
-25	de	_	ADP	ADP	_	26	case	_	_
+25	de	de	ADP	ADP	_	26	case	_	_
 26	guitarra	guitarra	NOUN	NOUN	_	24	nmod	_	_
-27	em	_	ADP	ADP	_	29	case	_	_
-28	"	_	PUNCT	.	_	29	punct	_	SpaceAfter=No
+27	em	em	ADP	ADP	_	29	case	_	_
+28	"	"	PUNCT	.	_	29	punct	_	SpaceAfter=No
 29	Hall	_	PROPN	PNOUN	_	24	nmod	_	_
 30	Of	_	PROPN	PNOUN	_	32	case	_	_
 31	The	_	PROPN	PNOUN	_	32	det	_	_
 32	King	_	PROPN	PNOUN	_	29	nmod	_	SpaceAfter=No
-33	"	_	PUNCT	.	_	29	punct	_	_
+33	"	"	PUNCT	.	_	29	punct	_	_
 
 # sent_id = train-s2738
 # text = Na tarde de quarta - feira (2), a vereadora apareceu na Santa Casa de Misericórdia, demonstrando - se atordoada.
@@ -247,15 +247,15 @@
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	tarde	tarde	NOUN	NOUN	_	14	nmod	_	_
-4	de	_	ADP	ADP	_	7	case	_	_
+4	de	de	ADP	ADP	_	7	case	_	_
 5	quarta	_	PROPN	PNOUN	_	7	amod	_	_
-6	-	_	PUNCT	.	_	7	punct	_	_
+6	-	-	PUNCT	.	_	7	punct	_	_
 7	feira	_	PROPN	PNOUN	_	3	nmod	_	_
-8	(	_	PUNCT	.	_	9	punct	_	SpaceAfter=No
+8	(	(	PUNCT	.	_	9	punct	_	SpaceAfter=No
 9	2	_	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
-10	)	_	PUNCT	.	_	9	punct	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	3	punct	_	_
-12	a	_	DET	DET	_	13	det	_	_
+10	)	)	PUNCT	.	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	3	punct	_	_
+12	a	a	DET	DET	_	13	det	_	_
 13	vereadora	vereador	NOUN	NOUN	_	14	nsubj	_	_
 14	apareceu	aparecer	VERB	VERB	_	0	root	_	_
 15-16	na	_	_	_	_	_	_	_	_
@@ -263,12 +263,12 @@
 16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 17	Santa	_	PROPN	PNOUN	_	18	amod	_	_
 18	Casa	_	PROPN	PNOUN	_	14	nmod	_	_
-19	de	_	ADP	ADP	_	20	case	_	_
+19	de	de	ADP	ADP	_	20	case	_	_
 20	Misericórdia	_	PROPN	PNOUN	_	18	nmod	_	SpaceAfter=No
-21	,	_	PUNCT	.	_	22	punct	_	_
+21	,	,	PUNCT	.	_	22	punct	_	_
 22	demonstrando	demonstrar	VERB	VERB	_	14	acl:part	_	_
-23	-	_	PUNCT	.	_	22	punct	_	_
+23	-	-	PUNCT	.	_	22	punct	_	_
 24	se	_	PRON	PRON	_	25	nsubj	_	_
 25	atordoada	atordoado	ADJ	ADJ	_	22	xcomp	_	SpaceAfter=No
-26	.	_	PUNCT	.	_	14	punct	_	_
+26	.	.	PUNCT	.	_	14	punct	_	_
 

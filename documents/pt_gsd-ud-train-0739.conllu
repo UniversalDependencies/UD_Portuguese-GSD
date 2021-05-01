@@ -3,13 +3,13 @@
 1	Selena	_	PROPN	PNOUN	_	3	nsubj	_	_
 2	Gomez	_	PROPN	PNOUN	_	1	flat	_	_
 3	ousou	ousar	VERB	VERB	_	0	root	_	_
-4	com	_	ADP	ADP	_	6	case	_	_
-5	o	_	DET	DET	_	6	det	_	_
+4	com	com	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	_	6	det	_	_
 6	vestido	vestido	NOUN	NOUN	_	3	nmod	_	_
-7	de	_	ADP	ADP	_	8	case	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
 8	tecido	tecido	NOUN	NOUN	_	6	nmod	_	_
 9	leve	leve	ADJ	ADJ	_	8	amod	_	_
-10	e	_	CCONJ	CONJ	_	11	cc	_	_
+10	e	e	CCONJ	CONJ	_	11	cc	_	_
 11	decote	decotar	VERB	VERB	_	8	conj	_	_
 12	bem	bem	ADV	ADV	_	13	advmod	_	_
 13	profundo	profundo	ADJ	ADJ	_	11	amod	_	_
@@ -17,11 +17,11 @@
 14	em	em	ADP	ADP	_	16	case	_	_
 15	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
 16	costas	_	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
-17	.	_	PUNCT	.	_	3	punct	_	_
+17	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s7337
 # text = A última sessão do Legislativo Municipal antes do segundo turno da eleição majoritária, que acontece no próximo domingo (28), foi esvaziada pelos vereadores.
-1	A	_	DET	DET	_	3	det	_	_
+1	A	o	DET	DET	_	3	det	_	_
 2	última	último	ADJ	ADJ	_	3	amod	_	_
 3	sessão	sessão	NOUN	NOUN	_	29	nsubj:pass	_	_
 4-5	do	_	_	_	_	_	_	_	_
@@ -40,7 +40,7 @@
 14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	eleição	eleição	NOUN	NOUN	_	12	nmod	_	_
 16	majoritária	majoritário	ADJ	ADJ	_	15	amod	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	19	punct	_	_
+17	,	,	PUNCT	.	_	19	punct	_	_
 18	que	_	PRON	PRON	_	19	nsubj	_	_
 19	acontece	acontecer	VERB	VERB	_	12	acl:relcl	_	_
 20-21	no	_	_	_	_	_	_	_	_
@@ -48,42 +48,42 @@
 21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 22	próximo	próximo	ADJ	ADJ	_	23	amod	_	_
 23	domingo	_	PROPN	PNOUN	_	19	nmod	_	_
-24	(	_	PUNCT	.	_	25	punct	_	SpaceAfter=No
+24	(	(	PUNCT	.	_	25	punct	_	SpaceAfter=No
 25	28	_	NUM	NUM	NumType=Card	23	nmod	_	SpaceAfter=No
-26	)	_	PUNCT	.	_	25	punct	_	SpaceAfter=No
-27	,	_	PUNCT	.	_	19	punct	_	_
+26	)	)	PUNCT	.	_	25	punct	_	SpaceAfter=No
+27	,	,	PUNCT	.	_	19	punct	_	_
 28	foi	_	AUX	AUX	_	29	aux:pass	_	_
 29	esvaziada	esvaziar	VERB	VERB	_	0	root	_	_
 30-31	pelos	_	_	_	_	_	_	_	_
 30	por	por	ADP	ADP	_	32	case	_	_
 31	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
 32	vereadores	vereador	NOUN	NOUN	_	29	nmod	_	SpaceAfter=No
-33	.	_	PUNCT	.	_	29	punct	_	_
+33	.	.	PUNCT	.	_	29	punct	_	_
 
 # sent_id = train-s7338
 # text = O artista morreu num hospital em Paris, na França, aos 91 anos, e sua morte foi anunciada pela família.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	artista	artista	NOUN	NOUN	_	3	nsubj	_	_
 3	morreu	morrer	VERB	VERB	_	0	root	_	_
 4-5	num	_	_	_	_	_	_	_	_
-4	em	_	ADP	ADP	_	6	case	_	_
-5	um	_	DET	DET	_	6	det	_	_
+4	em	em	ADP	ADP	_	6	case	_	_
+5	um	um	DET	DET	_	6	det	_	_
 6	hospital	hospital	NOUN	NOUN	_	3	nmod	_	_
-7	em	_	ADP	ADP	_	8	case	_	_
+7	em	em	ADP	ADP	_	8	case	_	_
 8	Paris	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	12	punct	_	_
+9	,	,	PUNCT	.	_	12	punct	_	_
 10-11	na	_	_	_	_	_	_	_	_
 10	em	em	ADP	ADP	_	12	case	_	_
 11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	França	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	17	punct	_	_
+13	,	,	PUNCT	.	_	17	punct	_	_
 14-15	aos	_	_	_	_	_	_	_	_
 14	a	a	ADP	ADP	_	17	case	_	_
 15	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
 16	91	_	NUM	NUM	NumType=Card	17	nummod	_	_
 17	anos	ano	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
-18	,	_	PUNCT	.	_	23	punct	_	_
-19	e	_	CCONJ	CONJ	_	23	cc	_	_
+18	,	,	PUNCT	.	_	23	punct	_	_
+19	e	e	CCONJ	CONJ	_	23	cc	_	_
 20	sua	_	DET	DET	_	21	det:poss	_	_
 21	morte	morte	NOUN	NOUN	_	23	nsubj:pass	_	_
 22	foi	_	AUX	AUX	_	23	aux:pass	_	_
@@ -92,11 +92,11 @@
 24	por	por	ADP	ADP	_	26	case	_	_
 25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	família	família	NOUN	NOUN	_	23	nmod	_	SpaceAfter=No
-27	.	_	PUNCT	.	_	3	punct	_	_
+27	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s7339
 # text = "Não vamos tolerar funcionários que não produzam.
-1	"	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
 2	Não	não	ADV	ADV	Polarity=Neg	4	advmod	_	_
 3	vamos	ir	AUX	AUX	_	4	aux	_	_
 4	tolerar	tolerar	VERB	VERB	_	0	root	_	_
@@ -104,14 +104,14 @@
 6	que	_	PRON	PRON	_	8	nsubj	_	_
 7	não	não	ADV	ADV	Polarity=Neg	8	advmod	_	_
 8	produzam	produzir	VERB	VERB	_	5	acl:relcl	_	SpaceAfter=No
-9	.	_	PUNCT	.	_	4	punct	_	_
+9	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s7340
 # text = A AEB indicou que todos seus membros assumiram na quinta - feira passada este compromisso por razões humanitárias e dentro de sua política de responsabilidade social de paralisar as expulsões durnte os dois próximos anos nos casos de extrema necessidade.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	AEB	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	indicou	indicar	VERB	VERB	_	0	root	_	_
-4	que	_	CCONJ	CONJ	_	8	mark	_	_
+4	que	que	CCONJ	CONJ	_	8	mark	_	_
 5	todos	_	DET	DET	_	7	det	_	_
 6	seus	_	DET	DET	_	7	det:poss	_	_
 7	membros	membro	NOUN	NOUN	_	8	nsubj	_	_
@@ -120,28 +120,28 @@
 9	em	em	ADP	ADP	_	13	case	_	_
 10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 11	quinta	_	PROPN	PNOUN	_	13	amod	_	_
-12	-	_	PUNCT	.	_	13	punct	_	_
+12	-	-	PUNCT	.	_	13	punct	_	_
 13	feira	_	PROPN	PNOUN	_	8	nmod	_	_
 14	passada	passado	ADJ	ADJ	_	13	amod	_	_
 15	este	_	DET	DET	_	16	det	_	_
 16	compromisso	compromisso	NOUN	NOUN	_	8	obj	_	_
-17	por	_	ADP	ADP	_	18	case	_	_
+17	por	por	ADP	ADP	_	18	case	_	_
 18	razões	razão	NOUN	NOUN	_	8	nmod	_	_
 19	humanitárias	humanitário	ADJ	ADJ	_	18	amod	_	_
-20	e	_	CCONJ	CONJ	_	18	cc	_	_
+20	e	e	CCONJ	CONJ	_	18	cc	_	_
 21	dentro	dentro	ADV	ADV	_	18	advmod	_	_
-22	de	_	ADP	ADP	_	24	case	_	_
+22	de	de	ADP	ADP	_	24	case	_	_
 23	sua	_	DET	DET	_	24	det:poss	_	_
 24	política	_	NOUN	NOUN	_	21	nmod	_	_
-25	de	_	ADP	ADP	_	26	case	_	_
+25	de	de	ADP	ADP	_	26	case	_	_
 26	responsabilidade	responsabilidade	NOUN	NOUN	_	24	nmod	_	_
 27	social	social	ADJ	ADJ	_	26	amod	_	_
 28	de	_	ADP	ADP	_	29	mark	_	_
 29	paralisar	paralisar	VERB	VERB	_	24	nmod	_	_
-30	as	_	DET	DET	_	31	det	_	_
+30	as	o	DET	DET	_	31	det	_	_
 31	expulsões	expulsão	NOUN	NOUN	_	29	obj	_	_
 32	durnte	_	ADP	ADP	_	36	case	_	_
-33	os	_	DET	DET	_	36	det	_	_
+33	os	o	DET	DET	_	36	det	_	_
 34	dois	_	NUM	NUM	NumType=Card	36	nummod	_	_
 35	próximos	próximo	ADJ	ADJ	_	36	amod	_	_
 36	anos	ano	NOUN	NOUN	_	29	nmod	_	_
@@ -149,10 +149,10 @@
 37	em	em	ADP	ADP	_	39	case	_	_
 38	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
 39	casos	caso	NOUN	NOUN	_	29	nmod	_	_
-40	de	_	ADP	ADP	_	42	case	_	_
+40	de	de	ADP	ADP	_	42	case	_	_
 41	extrema	extremo	ADJ	ADJ	_	42	amod	_	_
 42	necessidade	necessidade	NOUN	NOUN	_	39	nmod	_	SpaceAfter=No
-43	.	_	PUNCT	.	_	3	punct	_	_
+43	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s7341
 # text = Desta maneira faremos com que as filas de espera nos postos de saúde diminuam.
@@ -160,55 +160,55 @@
 2	maneira	maneira	NOUN	NOUN	_	3	nmod	_	_
 3	faremos	_	VERB	VERB	_	0	root	_	_
 4	com	_	ADP	ADP	_	15	mark	_	_
-5	que	_	CCONJ	CONJ	_	15	mark	_	_
-6	as	_	DET	DET	_	7	det	_	_
+5	que	que	CCONJ	CONJ	_	15	mark	_	_
+6	as	o	DET	DET	_	7	det	_	_
 7	filas	fila	NOUN	NOUN	_	15	nsubj	_	_
-8	de	_	ADP	ADP	_	9	case	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
 9	espera	espera	NOUN	NOUN	_	7	nmod	_	_
 10-11	nos	_	_	_	_	_	_	_	_
 10	em	em	ADP	ADP	_	12	case	_	_
 11	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
 12	postos	posto	NOUN	NOUN	_	15	nmod	_	_
-13	de	_	ADP	ADP	_	14	case	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
 14	saúde	saúde	NOUN	NOUN	_	12	nmod	_	_
 15	diminuam	diminuir	VERB	VERB	_	3	nmod	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	3	punct	_	_
+16	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s7342
 # text = Tem um carro popular, moram com os pais (ou tios, avós etc) e pagam cursos de faculdade do próprio bolso.
 1	Tem	ter	VERB	VERB	_	0	root	_	_
-2	um	_	DET	DET	_	3	det	_	_
+2	um	um	DET	DET	_	3	det	_	_
 3	carro	carro	NOUN	NOUN	_	1	obj	_	_
 4	popular	popular	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	6	punct	_	_
+5	,	,	PUNCT	.	_	6	punct	_	_
 6	moram	morar	VERB	VERB	_	1	conj	_	_
-7	com	_	ADP	ADP	_	9	case	_	_
-8	os	_	DET	DET	_	9	det	_	_
+7	com	com	ADP	ADP	_	9	case	_	_
+8	os	o	DET	DET	_	9	det	_	_
 9	pais	_	NOUN	NOUN	_	6	nmod	_	_
-10	(	_	PUNCT	.	_	11	punct	_	SpaceAfter=No
-11	ou	_	CCONJ	CONJ	_	12	cc	_	_
+10	(	(	PUNCT	.	_	11	punct	_	SpaceAfter=No
+11	ou	ou	CCONJ	CONJ	_	12	cc	_	_
 12	tios	tio	NOUN	NOUN	_	9	conj	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	14	punct	_	_
+13	,	,	PUNCT	.	_	14	punct	_	_
 14	avós	avô	NOUN	NOUN	_	9	conj	_	_
 15	etc	_	X	X	_	9	conj	_	SpaceAfter=No
-16	)	_	PUNCT	.	_	11	punct	_	_
-17	e	_	CCONJ	CONJ	_	18	cc	_	_
+16	)	)	PUNCT	.	_	11	punct	_	_
+17	e	e	CCONJ	CONJ	_	18	cc	_	_
 18	pagam	pagar	VERB	VERB	_	1	conj	_	_
 19	cursos	curso	NOUN	NOUN	_	18	obj	_	_
-20	de	_	ADP	ADP	_	21	case	_	_
+20	de	de	ADP	ADP	_	21	case	_	_
 21	faculdade	faculdade	NOUN	NOUN	_	19	nmod	_	_
 22-23	do	_	_	_	_	_	_	_	_
 22	de	de	ADP	ADP	_	25	case	_	_
 23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 24	próprio	próprio	ADJ	ADJ	_	25	amod	_	_
 25	bolso	bolso	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
-26	.	_	PUNCT	.	_	1	punct	_	_
+26	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s7343
 # text = Segundo ela, foi convidada a morar na residência do embaixador pela mulher dele.
 1	Segundo	_	ADP	ADP	_	2	case	_	_
 2	ela	_	PRON	PRON	_	5	nmod	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	2	punct	_	_
+3	,	,	PUNCT	.	_	2	punct	_	_
 4	foi	_	AUX	AUX	_	5	aux:pass	_	_
 5	convidada	convidar	VERB	VERB	_	0	root	_	_
 6	a	_	ADP	ADP	_	7	mark	_	_
@@ -226,16 +226,16 @@
 15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	mulher	mulher	NOUN	NOUN	_	5	nmod	_	_
 17	dele	_	X	ADPPRON	_	16	det:poss	_	SpaceAfter=No
-18	.	_	PUNCT	.	_	5	punct	_	_
+18	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s7344
 # text = Úrsula Peres (Finanças) e Luís Fernando Massonetto são nomes dados como certos.
 1	Úrsula	_	PROPN	PNOUN	_	11	nsubj	_	_
 2	Peres	_	PROPN	PNOUN	_	1	flat	_	_
-3	(	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
+3	(	(	PUNCT	.	_	4	punct	_	SpaceAfter=No
 4	Finanças	_	PROPN	PNOUN	_	1	appos	_	SpaceAfter=No
-5	)	_	PUNCT	.	_	4	punct	_	_
-6	e	_	CCONJ	CONJ	_	7	cc	_	_
+5	)	)	PUNCT	.	_	4	punct	_	_
+6	e	e	CCONJ	CONJ	_	7	cc	_	_
 7	Luís	_	PROPN	PNOUN	_	1	conj	_	_
 8	Fernando	_	PROPN	PNOUN	_	7	flat	_	_
 9	Massonetto	_	PROPN	PNOUN	_	7	flat	_	_
@@ -244,27 +244,27 @@
 12	dados	dar	VERB	VERB	_	11	acl:part	_	_
 13	como	_	ADP	ADP	_	14	mark	_	_
 14	certos	certo	ADJ	ADJ	_	12	nmod	_	SpaceAfter=No
-15	.	_	PUNCT	.	_	11	punct	_	_
+15	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s7345
 # text = "Se a licença não sair nalguns dias, eu terei de paralisar as máquinas."
-1	"	_	PUNCT	.	_	6	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
 2	Se	_	CCONJ	CONJ	_	6	mark	_	_
-3	a	_	DET	DET	_	4	det	_	_
+3	a	a	DET	DET	_	4	det	_	_
 4	licença	licença	NOUN	NOUN	_	6	nsubj	_	_
 5	não	não	ADV	ADV	Polarity=Neg	6	advmod	_	_
 6	sair	sair	VERB	VERB	_	14	advcl	_	_
 7-8	nalguns	_	_	_	_	_	_	_	_
-7	em	_	ADP	ADP	_	9	case	_	_
+7	em	em	ADP	ADP	_	9	case	_	_
 8	alguns	_	DET	DET	_	9	det	_	_
 9	dias	dia	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	6	punct	_	_
+10	,	,	PUNCT	.	_	6	punct	_	_
 11	eu	_	PRON	PRON	_	14	nsubj	_	_
 12	terei	ter	AUX	AUX	_	14	aux	_	_
 13	de	_	ADP	ADP	_	14	mark	_	_
 14	paralisar	paralisar	VERB	VERB	_	0	root	_	_
-15	as	_	DET	DET	_	16	det	_	_
+15	as	o	DET	DET	_	16	det	_	_
 16	máquinas	máquina	NOUN	NOUN	_	14	obj	_	SpaceAfter=No
-17	.	_	PUNCT	.	_	14	punct	_	SpaceAfter=No
-18	"	_	PUNCT	.	_	14	punct	_	_
+17	.	.	PUNCT	.	_	14	punct	_	SpaceAfter=No
+18	"	"	PUNCT	.	_	14	punct	_	_
 

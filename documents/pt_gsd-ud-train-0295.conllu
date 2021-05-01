@@ -2,7 +2,7 @@
 # text = De acordo com levantamento feito pela Caixa Econômica Federal, o financiamento de imóveis com prazo de 35 anos foi o mais utilizado pelos brasileiros nos últimos três meses.
 1	De	_	ADP	ADP	_	2	case	_	_
 2	acordo	acordo	NOUN	NOUN	_	21	nmod	_	_
-3	com	_	ADP	ADP	_	4	case	_	_
+3	com	com	ADP	ADP	_	4	case	_	_
 4	levantamento	levantamento	NOUN	NOUN	_	2	nmod	_	_
 5	feito	_	VERB	VERB	_	4	acl:part	_	_
 6-7	pela	_	_	_	_	_	_	_	_
@@ -11,18 +11,18 @@
 8	Caixa	_	PROPN	PNOUN	_	5	nmod	_	_
 9	Econômica	_	PROPN	PNOUN	_	8	amod	_	_
 10	Federal	_	PROPN	PNOUN	_	8	amod	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	2	punct	_	_
-12	o	_	DET	DET	_	13	det	_	_
+11	,	,	PUNCT	.	_	2	punct	_	_
+12	o	o	DET	DET	_	13	det	_	_
 13	financiamento	financiamento	NOUN	NOUN	_	21	nsubj	_	_
-14	de	_	ADP	ADP	_	15	case	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
 15	imóveis	imóvel	NOUN	NOUN	_	13	nmod	_	_
-16	com	_	ADP	ADP	_	17	case	_	_
+16	com	com	ADP	ADP	_	17	case	_	_
 17	prazo	prazo	NOUN	NOUN	_	13	nmod	_	_
-18	de	_	ADP	ADP	_	20	case	_	_
+18	de	de	ADP	ADP	_	20	case	_	_
 19	35	_	NUM	NUM	NumType=Card	20	nummod	_	_
 20	anos	ano	NOUN	NOUN	_	17	nmod	_	_
 21	foi	_	VERB	VERB	_	0	root	_	_
-22	o	_	DET	DET	_	24	det	_	_
+22	o	o	DET	DET	_	24	det	_	_
 23	mais	mais	ADV	ADV	_	24	advmod	_	_
 24	utilizado	utilizado	ADJ	ADJ	_	21	xcomp:adj	_	_
 25-26	pelos	_	_	_	_	_	_	_	_
@@ -35,11 +35,11 @@
 30	últimos	último	ADJ	ADJ	_	32	amod	_	_
 31	três	_	NUM	NUM	NumType=Card	32	nummod	_	_
 32	meses	mês	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
-33	.	_	PUNCT	.	_	21	punct	_	_
+33	.	.	PUNCT	.	_	21	punct	_	_
 
 # sent_id = train-s2930
 # text = "Estamos dando sequência à decisão tomada em nossa 2 ª reunião intersecretarial, quando assumimos o compromisso de transferir, até o final deste ano, pelo menos 2.000 presos de delegacias de polícia para o sistema penitenciário do Paraná", afirmou Maria Tereza.
-1	"	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
 2	Estamos	estar	AUX	AUX	_	3	aux	_	_
 3	dando	dar	VERB	VERB	_	47	ccomp	_	_
 4	sequência	sequência	NOUN	NOUN	_	3	obj	_	_
@@ -48,50 +48,50 @@
 6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	decisão	decisão	NOUN	NOUN	_	4	nmod	_	_
 8	tomada	tomar	VERB	VERB	_	7	acl:part	_	_
-9	em	_	ADP	ADP	_	13	case	_	_
+9	em	em	ADP	ADP	_	13	case	_	_
 10	nossa	_	DET	DET	_	13	det:poss	_	_
 11	2	_	ADJ	ADJ	_	13	amod	_	_
 12	ª	_	PUNCT	.	_	11	punct	_	_
 13	reunião	reunião	NOUN	NOUN	_	8	nmod	_	_
 14	intersecretarial	_	ADJ	ADJ	_	13	amod	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	17	punct	_	_
+15	,	,	PUNCT	.	_	17	punct	_	_
 16	quando	quando	ADV	ADV	_	17	advmod	_	_
 17	assumimos	assumir	VERB	VERB	_	13	acl:relcl	_	_
-18	o	_	DET	DET	_	19	det	_	_
+18	o	o	DET	DET	_	19	det	_	_
 19	compromisso	compromisso	NOUN	NOUN	_	17	obj	_	_
 20	de	_	ADP	ADP	_	21	mark	_	_
 21	transferir	transferir	VERB	VERB	_	19	nmod	_	SpaceAfter=No
-22	,	_	PUNCT	.	_	25	punct	_	_
+22	,	,	PUNCT	.	_	25	punct	_	_
 23	até	_	ADP	ADP	_	25	case	_	_
-24	o	_	DET	DET	_	25	det	_	_
+24	o	o	DET	DET	_	25	det	_	_
 25	final	final	NOUN	NOUN	_	21	nmod	_	_
 26	deste	_	ADP	ADP	_	27	case	_	_
 27	ano	ano	NOUN	NOUN	_	25	nmod	_	SpaceAfter=No
-28	,	_	PUNCT	.	_	25	punct	_	_
+28	,	,	PUNCT	.	_	25	punct	_	_
 29-30	pelo	_	_	_	_	_	_	_	_
 29	por	por	ADP	ADP	_	31	case	_	_
 30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	menos	menos	ADV	ADV	_	32	advmod	_	_
 32	2.000	_	NUM	NUM	NumType=Card	33	nummod	_	_
 33	presos	preso	NOUN	NOUN	_	21	obj	_	_
-34	de	_	ADP	ADP	_	35	case	_	_
+34	de	de	ADP	ADP	_	35	case	_	_
 35	delegacias	delegacia	NOUN	NOUN	_	21	nmod	_	_
-36	de	_	ADP	ADP	_	37	case	_	_
+36	de	de	ADP	ADP	_	37	case	_	_
 37	polícia	polícia	NOUN	NOUN	_	35	nmod	_	_
-38	para	_	ADP	ADP	_	40	case	_	_
-39	o	_	DET	DET	_	40	det	_	_
+38	para	para	ADP	ADP	_	40	case	_	_
+39	o	o	DET	DET	_	40	det	_	_
 40	sistema	sistema	NOUN	NOUN	_	21	nmod	_	_
 41	penitenciário	penitenciário	ADJ	ADJ	_	40	amod	_	_
 42-43	do	_	_	_	_	_	_	_	_
 42	de	de	ADP	ADP	_	44	case	_	_
 43	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
 44	Paraná	_	PROPN	PNOUN	_	40	nmod	_	SpaceAfter=No
-45	"	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
-46	,	_	PUNCT	.	_	47	punct	_	_
+45	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
+46	,	,	PUNCT	.	_	47	punct	_	_
 47	afirmou	afirmar	VERB	VERB	_	0	root	_	_
 48	Maria	_	PROPN	PNOUN	_	47	nsubj	_	_
 49	Tereza	_	PROPN	PNOUN	_	48	flat	_	SpaceAfter=No
-50	.	_	PUNCT	.	_	47	punct	_	_
+50	.	.	PUNCT	.	_	47	punct	_	_
 
 # sent_id = train-s2931
 # text = No dia seguinte, o Psol representou contra o parlamentar no Conselho de Ética e, um dia depois, em 29 de março, o ministro do Supremo Tribunal Federal (STF) Ricardo Lewandowski autorizou a quebra de seu sigilo bancário.
@@ -100,31 +100,31 @@
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	dia	dia	NOUN	NOUN	_	8	nmod	_	_
 4	seguinte	seguinte	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	3	punct	_	_
-6	o	_	DET	DET	_	7	det	_	_
+5	,	,	PUNCT	.	_	3	punct	_	_
+6	o	o	DET	DET	_	7	det	_	_
 7	Psol	_	PROPN	PNOUN	_	8	nsubj	_	_
 8	representou	representar	VERB	VERB	_	0	root	_	_
 9	contra	_	ADP	ADP	_	11	case	_	_
-10	o	_	DET	DET	_	11	det	_	_
+10	o	o	DET	DET	_	11	det	_	_
 11	parlamentar	parlamentar	NOUN	NOUN	_	8	nmod	_	_
 12-13	no	_	_	_	_	_	_	_	_
 12	em	em	ADP	ADP	_	14	case	_	_
 13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	Conselho	_	PROPN	PNOUN	_	8	nmod	_	_
-15	de	_	ADP	ADP	_	16	case	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
 16	Ética	_	PROPN	PNOUN	_	14	nmod	_	_
-17	e	_	CCONJ	CONJ	_	40	cc	_	SpaceAfter=No
-18	,	_	PUNCT	.	_	21	punct	_	_
+17	e	e	CCONJ	CONJ	_	40	cc	_	SpaceAfter=No
+18	,	,	PUNCT	.	_	21	punct	_	_
 19	um	_	NUM	NUM	NumType=Card	20	nummod	_	_
 20	dia	dia	NOUN	NOUN	_	21	nmod	_	_
 21	depois	depois	ADV	ADV	_	40	advmod	_	SpaceAfter=No
-22	,	_	PUNCT	.	_	24	punct	_	_
-23	em	_	ADP	ADP	_	24	case	_	_
+22	,	,	PUNCT	.	_	24	punct	_	_
+23	em	em	ADP	ADP	_	24	case	_	_
 24	29	_	NUM	NUM	NumType=Card	40	nmod	_	_
-25	de	_	ADP	ADP	_	26	case	_	_
+25	de	de	ADP	ADP	_	26	case	_	_
 26	março	_	PROPN	PNOUN	_	24	nmod	_	SpaceAfter=No
-27	,	_	PUNCT	.	_	24	punct	_	_
-28	o	_	DET	DET	_	29	det	_	_
+27	,	,	PUNCT	.	_	24	punct	_	_
+28	o	o	DET	DET	_	29	det	_	_
 29	ministro	ministro	NOUN	NOUN	_	40	nsubj	_	_
 30-31	do	_	_	_	_	_	_	_	_
 30	de	de	ADP	ADP	_	33	case	_	_
@@ -132,33 +132,33 @@
 32	Supremo	_	PROPN	PNOUN	_	33	amod	_	_
 33	Tribunal	_	PROPN	PNOUN	_	29	nmod	_	_
 34	Federal	_	PROPN	PNOUN	_	33	amod	_	_
-35	(	_	PUNCT	.	_	36	punct	_	SpaceAfter=No
+35	(	(	PUNCT	.	_	36	punct	_	SpaceAfter=No
 36	STF	_	PROPN	PNOUN	_	33	appos	_	SpaceAfter=No
-37	)	_	PUNCT	.	_	36	punct	_	_
+37	)	)	PUNCT	.	_	36	punct	_	_
 38	Ricardo	_	PROPN	PNOUN	_	29	appos	_	_
 39	Lewandowski	_	PROPN	PNOUN	_	38	flat	_	_
 40	autorizou	autorizar	VERB	VERB	_	8	conj	_	_
-41	a	_	DET	DET	_	42	det	_	_
+41	a	a	DET	DET	_	42	det	_	_
 42	quebra	quebra	NOUN	NOUN	_	40	obj	_	_
-43	de	_	ADP	ADP	_	45	case	_	_
+43	de	de	ADP	ADP	_	45	case	_	_
 44	seu	_	DET	DET	_	45	det:poss	_	_
 45	sigilo	sigilo	NOUN	NOUN	_	42	nmod	_	_
 46	bancário	bancário	ADJ	ADJ	_	45	amod	_	SpaceAfter=No
-47	.	_	PUNCT	.	_	8	punct	_	_
+47	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s2932
 # text = Segundo a Autoridade de Transporte Metropolitano de Nova York, o metrô deixará de funcionar às 19h locais e os ônibus deixarão de circular nas duas horas seguintes.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	a	_	DET	DET	_	3	det	_	_
+2	a	a	DET	DET	_	3	det	_	_
 3	Autoridade	autoridade	NOUN	NOUN	_	15	nmod	_	_
-4	de	_	ADP	ADP	_	5	case	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
 5	Transporte	_	PROPN	PNOUN	_	3	nmod	_	_
 6	Metropolitano	_	PROPN	PNOUN	_	5	amod	_	_
-7	de	_	ADP	ADP	_	9	case	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
 8	Nova	_	PROPN	PNOUN	_	9	amod	_	_
 9	York	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	3	punct	_	_
-11	o	_	DET	DET	_	12	det	_	_
+10	,	,	PUNCT	.	_	3	punct	_	_
+11	o	o	DET	DET	_	12	det	_	_
 12	metrô	metrô	NOUN	NOUN	_	15	nsubj	_	_
 13	deixará	deixar	AUX	AUX	_	15	aux	_	_
 14	de	_	ADP	ADP	_	15	mark	_	_
@@ -168,8 +168,8 @@
 17	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
 18	19h	_	NUM	NUM	NumType=Card	19	nummod	_	_
 19	locais	local	NOUN	NOUN	_	15	nmod	_	_
-20	e	_	CCONJ	CONJ	_	25	cc	_	_
-21	os	_	DET	DET	_	22	det	_	_
+20	e	e	CCONJ	CONJ	_	25	cc	_	_
+21	os	o	DET	DET	_	22	det	_	_
 22	ônibus	ônibus	NOUN	NOUN	_	25	nsubj	_	_
 23	deixarão	deixar	AUX	AUX	_	25	aux	_	_
 24	de	_	ADP	ADP	_	25	mark	_	_
@@ -180,13 +180,13 @@
 28	duas	_	NUM	NUM	NumType=Card	29	nummod	_	_
 29	horas	hora	NOUN	NOUN	_	25	nmod	_	_
 30	seguintes	seguinte	ADJ	ADJ	_	29	amod	_	SpaceAfter=No
-31	.	_	PUNCT	.	_	15	punct	_	_
+31	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = train-s2933
 # text = Em 2009, elas ocupavam 55,1 % das matrículas no ensino superior, contra 44,9 % deles.
-1	Em	_	ADP	ADP	_	2	case	_	_
+1	Em	em	ADP	ADP	_	2	case	_	_
 2	2009	_	NUM	NUM	NumType=Card	5	nmod	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	2	punct	_	_
+3	,	,	PUNCT	.	_	2	punct	_	_
 4	elas	_	PRON	PRON	_	5	nsubj	_	_
 5	ocupavam	ocupar	VERB	VERB	_	0	root	_	_
 6	55,1	_	NUM	NUM	NumType=Card	7	nummod	_	_
@@ -200,12 +200,12 @@
 12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	ensino	ensino	NOUN	NOUN	_	10	nmod	_	_
 14	superior	superior	ADJ	ADJ	_	13	amod	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	18	punct	_	_
+15	,	,	PUNCT	.	_	18	punct	_	_
 16	contra	_	ADP	ADP	_	18	case	_	_
 17	44,9	_	NUM	NUM	NumType=Card	18	nummod	_	_
 18	%	_	SYM	SYM	_	5	nmod	_	_
 19	deles	_	X	ADPPRON	_	18	det:poss	_	SpaceAfter=No
-20	.	_	PUNCT	.	_	5	punct	_	_
+20	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s2934
 # text = No entanto, Eloy é tão doloroso que você prefere não chamar as coisas pelo seu nome e menos peças do corpo, então ele decide colocar um número para cada parte.
@@ -213,53 +213,53 @@
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	entanto	entanto	ADV	ADV	_	6	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
 5	Eloy	_	PROPN	PNOUN	_	6	nsubj	_	_
 6	é	ser	VERB	VERB	_	0	root	_	_
 7	tão	tão	ADV	ADV	_	8	advmod	_	_
 8	doloroso	doloroso	ADJ	ADJ	_	6	xcomp:adj	_	_
-9	que	_	CCONJ	CONJ	_	11	mark	_	_
+9	que	que	CCONJ	CONJ	_	11	mark	_	_
 10	você	_	PRON	PRON	_	11	nsubj	_	_
 11	prefere	preferir	VERB	VERB	_	6	advcl	_	_
 12	não	não	ADV	ADV	Polarity=Neg	13	advmod	_	_
 13	chamar	chamar	VERB	VERB	_	11	xcomp	_	_
-14	as	_	DET	DET	_	15	det	_	_
+14	as	o	DET	DET	_	15	det	_	_
 15	coisas	coisa	NOUN	NOUN	_	13	obj	_	_
 16-17	pelo	_	_	_	_	_	_	_	_
 16	por	por	ADP	ADP	_	19	case	_	_
 17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 18	seu	_	DET	DET	_	19	det:poss	_	_
 19	nome	nome	NOUN	NOUN	_	13	nmod	_	_
-20	e	_	CCONJ	CONJ	_	22	cc	_	_
+20	e	e	CCONJ	CONJ	_	22	cc	_	_
 21	menos	_	DET	DET	_	22	det	_	_
 22	peças	peça	NOUN	NOUN	_	11	conj	_	_
 23-24	do	_	_	_	_	_	_	_	_
 23	de	de	ADP	ADP	_	25	case	_	_
 24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	corpo	corpo	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
-26	,	_	PUNCT	.	_	29	punct	_	_
+26	,	,	PUNCT	.	_	29	punct	_	_
 27	então	então	ADV	ADV	_	29	advmod	_	_
 28	ele	_	PRON	PRON	_	29	nsubj	_	_
 29	decide	decidir	VERB	VERB	_	11	conj	_	_
 30	colocar	colocar	VERB	VERB	_	29	xcomp	_	_
-31	um	_	DET	DET	_	32	det	_	_
+31	um	um	DET	DET	_	32	det	_	_
 32	número	número	NOUN	NOUN	_	30	obj	_	_
-33	para	_	ADP	ADP	_	35	case	_	_
+33	para	para	ADP	ADP	_	35	case	_	_
 34	cada	_	DET	DET	_	35	det	_	_
 35	parte	parte	NOUN	NOUN	_	30	nmod	_	SpaceAfter=No
-36	.	_	PUNCT	.	_	6	punct	_	_
+36	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s2935
 # text = "O Grameem Bank é uma referência mundial.
-1	"	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
-2	O	_	DET	DET	_	3	det	_	_
+1	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
+2	O	o	DET	DET	_	3	det	_	_
 3	Grameem	_	PROPN	PNOUN	_	7	nsubj	_	_
 4	Bank	_	PROPN	PNOUN	_	3	flat	_	_
 5	é	ser	AUX	AUX	_	7	cop	_	_
-6	uma	_	DET	DET	_	7	det	_	_
+6	uma	um	DET	DET	_	7	det	_	_
 7	referência	referência	NOUN	NOUN	_	0	root	_	_
 8	mundial	mundial	ADJ	ADJ	_	7	amod	_	SpaceAfter=No
-9	.	_	PUNCT	.	_	7	punct	_	_
+9	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s2936
 # text = Dizendo ser policial civil, o suspeito entregou a arma que estava em sua mão aos agentes.
@@ -267,27 +267,27 @@
 2	ser	ser	AUX	AUX	_	3	cop	_	_
 3	policial	policial	NOUN	NOUN	_	1	xcomp	_	_
 4	civil	civil	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	1	punct	_	_
-6	o	_	DET	DET	_	7	det	_	_
+5	,	,	PUNCT	.	_	1	punct	_	_
+6	o	o	DET	DET	_	7	det	_	_
 7	suspeito	suspeito	NOUN	NOUN	_	8	nsubj	_	_
 8	entregou	entregar	VERB	VERB	_	0	root	_	_
-9	a	_	DET	DET	_	10	det	_	_
+9	a	a	DET	DET	_	10	det	_	_
 10	arma	arma	NOUN	NOUN	_	8	obj	_	_
 11	que	_	PRON	PRON	_	12	nsubj	_	_
 12	estava	estar	VERB	VERB	_	10	acl:relcl	_	_
-13	em	_	ADP	ADP	_	15	case	_	_
+13	em	em	ADP	ADP	_	15	case	_	_
 14	sua	_	DET	DET	_	15	det:poss	_	_
 15	mão	mão	NOUN	NOUN	_	12	nmod	_	_
 16-17	aos	_	_	_	_	_	_	_	_
 16	a	a	ADP	ADP	_	18	case	_	_
 17	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
 18	agentes	agente	NOUN	NOUN	_	8	iobj	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	8	punct	_	_
+19	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s2937
 # text = 'O caso ocorrido ontem à noite em Benghazi coincidiu com o aniversário dos atentados de 11 de setembro.
 1	'	_	PUNCT	.	_	11	punct	_	SpaceAfter=No
-2	O	_	DET	DET	_	3	det	_	_
+2	O	o	DET	DET	_	3	det	_	_
 3	caso	caso	NOUN	NOUN	_	11	nsubj	_	_
 4	ocorrido	ocorrer	VERB	VERB	_	3	acl:part	_	_
 5	ontem	ontem	ADV	ADV	_	4	advmod	_	_
@@ -295,21 +295,21 @@
 6	a	a	ADP	ADP	_	8	case	_	_
 7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	noite	noite	NOUN	NOUN	_	5	nmod	_	_
-9	em	_	ADP	ADP	_	10	case	_	_
+9	em	em	ADP	ADP	_	10	case	_	_
 10	Benghazi	_	PROPN	PNOUN	_	4	nmod	_	_
 11	coincidiu	coincidir	VERB	VERB	_	0	root	_	_
-12	com	_	ADP	ADP	_	14	case	_	_
-13	o	_	DET	DET	_	14	det	_	_
+12	com	com	ADP	ADP	_	14	case	_	_
+13	o	o	DET	DET	_	14	det	_	_
 14	aniversário	aniversário	NOUN	NOUN	_	11	nmod	_	_
 15-16	dos	_	_	_	_	_	_	_	_
 15	de	de	ADP	ADP	_	17	case	_	_
 16	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
 17	atentados	atentado	NOUN	NOUN	_	14	nmod	_	_
-18	de	_	ADP	ADP	_	19	case	_	_
+18	de	de	ADP	ADP	_	19	case	_	_
 19	11	_	NUM	NUM	NumType=Card	17	nmod	_	_
-20	de	_	ADP	ADP	_	21	case	_	_
+20	de	de	ADP	ADP	_	21	case	_	_
 21	setembro	_	PROPN	PNOUN	_	19	nmod	_	SpaceAfter=No
-22	.	_	PUNCT	.	_	11	punct	_	_
+22	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s2938
 # text = Na véspera, o dólar fechou em queda de 0,36 %, a R $ 2,089.
@@ -317,19 +317,19 @@
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	véspera	véspera	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
-5	o	_	DET	DET	_	6	det	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	o	o	DET	DET	_	6	det	_	_
 6	dólar	dólar	NOUN	NOUN	_	7	nsubj	_	_
 7	fechou	fechar	VERB	VERB	_	0	root	_	_
-8	em	_	ADP	ADP	_	9	case	_	_
+8	em	em	ADP	ADP	_	9	case	_	_
 9	queda	queda	NOUN	NOUN	_	7	nmod	_	_
-10	de	_	ADP	ADP	_	12	case	_	_
+10	de	de	ADP	ADP	_	12	case	_	_
 11	0,36	_	NUM	NUM	NumType=Card	12	nummod	_	_
 12	%	_	SYM	SYM	_	9	nmod	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	15	punct	_	_
+13	,	,	PUNCT	.	_	15	punct	_	_
 14	a	_	ADP	ADP	_	15	case	_	_
 15	R	r	NOUN	NOUN	_	7	nmod	_	_
 16	$	_	SYM	SYM	_	15	flat	_	_
 17	2,089	_	NUM	NUM	NumType=Card	15	nummod	_	SpaceAfter=No
-18	.	_	PUNCT	.	_	7	punct	_	_
+18	.	.	PUNCT	.	_	7	punct	_	_
 

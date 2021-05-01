@@ -2,7 +2,7 @@
 # text = Lula chegou por volta das 8h15 ao local, onde também se encontrou com outras lideranças do PT para um café da manhã.
 1	Lula	_	PROPN	PNOUN	_	2	nsubj	_	_
 2	chegou	chegar	VERB	VERB	_	0	root	_	_
-3	por	_	ADP	ADP	_	4	case	_	_
+3	por	por	ADP	ADP	_	4	case	_	_
 4	volta	volta	NOUN	NOUN	_	2	nmod	_	_
 5-6	das	_	_	_	_	_	_	_	_
 5	de	de	ADP	ADP	_	7	case	_	_
@@ -12,47 +12,47 @@
 8	a	a	ADP	ADP	_	10	case	_	_
 9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	local	local	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	15	punct	_	_
+11	,	,	PUNCT	.	_	15	punct	_	_
 12	onde	onde	ADV	ADV	_	15	advmod	_	_
 13	também	também	ADV	ADV	_	15	advmod	_	_
 14	se	_	PRON	PRON	_	15	obj	_	_
 15	encontrou	encontrar	VERB	VERB	_	10	acl:relcl	_	_
-16	com	_	ADP	ADP	_	18	case	_	_
+16	com	com	ADP	ADP	_	18	case	_	_
 17	outras	_	DET	DET	_	18	det	_	_
 18	lideranças	liderança	NOUN	NOUN	_	15	nmod	_	_
 19-20	do	_	_	_	_	_	_	_	_
 19	de	de	ADP	ADP	_	21	case	_	_
 20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	PT	_	PROPN	PNOUN	_	18	nmod	_	_
-22	para	_	ADP	ADP	_	24	case	_	_
-23	um	_	DET	DET	_	24	det	_	_
+22	para	para	ADP	ADP	_	24	case	_	_
+23	um	um	DET	DET	_	24	det	_	_
 24	café	café	NOUN	NOUN	_	15	nmod	_	_
 25-26	da	_	_	_	_	_	_	_	_
 25	de	de	ADP	ADP	_	27	case	_	_
 26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	manhã	manhã	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
-28	.	_	PUNCT	.	_	2	punct	_	_
+28	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s5968
 # text = "Acreditamos que a integração de eventos presenciais e virtual é uma realidade que veio para ficar e não temos receio de trilhar este caminho ainda pouco explorado.
-1	"	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
 2	Acreditamos	acreditar	VERB	VERB	_	0	root	_	_
-3	que	_	CCONJ	CONJ	_	13	mark	_	_
-4	a	_	DET	DET	_	5	det	_	_
+3	que	que	CCONJ	CONJ	_	13	mark	_	_
+4	a	a	DET	DET	_	5	det	_	_
 5	integração	integração	NOUN	NOUN	_	13	nsubj	_	_
-6	de	_	ADP	ADP	_	7	case	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
 7	eventos	evento	NOUN	NOUN	_	5	nmod	_	_
 8	presenciais	presencial	ADJ	ADJ	_	7	amod	_	_
-9	e	_	CCONJ	CONJ	_	10	cc	_	_
+9	e	e	CCONJ	CONJ	_	10	cc	_	_
 10	virtual	virtual	ADJ	ADJ	_	8	conj	_	_
 11	é	ser	AUX	AUX	_	13	cop	_	_
-12	uma	_	DET	DET	_	13	det	_	_
+12	uma	um	DET	DET	_	13	det	_	_
 13	realidade	realidade	NOUN	NOUN	_	2	ccomp	_	_
 14	que	_	PRON	PRON	_	15	nsubj	_	_
 15	veio	_	VERB	VERB	_	13	acl:relcl	_	_
 16	para	_	ADP	ADP	_	17	mark	_	_
 17	ficar	ficar	VERB	VERB	_	15	advcl	_	_
-18	e	_	CCONJ	CONJ	_	20	cc	_	_
+18	e	e	CCONJ	CONJ	_	20	cc	_	_
 19	não	não	ADV	ADV	Polarity=Neg	20	advmod	_	_
 20	temos	ter	VERB	VERB	_	2	conj	_	_
 21	receio	receio	NOUN	NOUN	_	20	obj	_	_
@@ -63,19 +63,19 @@
 26	ainda	ainda	ADV	ADV	_	28	advmod	_	_
 27	pouco	pouco	ADV	ADV	_	28	advmod	_	_
 28	explorado	explorado	ADJ	ADJ	_	25	amod	_	SpaceAfter=No
-29	.	_	PUNCT	.	_	2	punct	_	_
+29	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s5969
 # text = Diante dum império muito expandido, o Imperador Wu posteriormente nomeou 13 inspetores regionais para supervisionar o trabalho dos governadores provinciais e para melhorar o sistema administrativo do império.
 1	Diante	diante	ADV	ADV	_	12	advmod	_	_
 2-3	dum	_	_	_	_	_	_	_	_
-2	de	_	ADP	ADP	_	4	case	_	_
-3	um	_	DET	DET	_	4	det	_	_
+2	de	de	ADP	ADP	_	4	case	_	_
+3	um	um	DET	DET	_	4	det	_	_
 4	império	império	NOUN	NOUN	_	1	nmod	_	_
 5	muito	muito	ADV	ADV	_	6	advmod	_	_
 6	expandido	expandido	ADJ	ADJ	_	4	amod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	1	punct	_	_
-8	o	_	DET	DET	_	9	det	_	_
+7	,	,	PUNCT	.	_	1	punct	_	_
+8	o	o	DET	DET	_	9	det	_	_
 9	Imperador	imperador	NOUN	NOUN	_	12	nsubj	_	_
 10	Wu	_	PROPN	PNOUN	_	9	appos	_	_
 11	posteriormente	posteriormente	ADV	ADV	_	12	advmod	_	_
@@ -85,28 +85,28 @@
 15	regionais	regional	ADJ	ADJ	_	14	amod	_	_
 16	para	_	ADP	ADP	_	17	mark	_	_
 17	supervisionar	supervisionar	VERB	VERB	_	12	advcl	_	_
-18	o	_	DET	DET	_	19	det	_	_
+18	o	o	DET	DET	_	19	det	_	_
 19	trabalho	trabalho	NOUN	NOUN	_	17	obj	_	_
 20-21	dos	_	_	_	_	_	_	_	_
 20	de	de	ADP	ADP	_	22	case	_	_
 21	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
 22	governadores	governador	NOUN	NOUN	_	19	nmod	_	_
 23	provinciais	provincial	ADJ	ADJ	_	22	amod	_	_
-24	e	_	CCONJ	CONJ	_	17	cc	_	_
+24	e	e	CCONJ	CONJ	_	17	cc	_	_
 25	para	_	ADP	ADP	_	26	mark	_	_
 26	melhorar	melhorar	VERB	VERB	_	17	advcl	_	_
-27	o	_	DET	DET	_	28	det	_	_
+27	o	o	DET	DET	_	28	det	_	_
 28	sistema	sistema	NOUN	NOUN	_	26	obj	_	_
 29	administrativo	administrativo	ADJ	ADJ	_	28	amod	_	_
 30-31	do	_	_	_	_	_	_	_	_
 30	de	de	ADP	ADP	_	32	case	_	_
 31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	império	império	NOUN	NOUN	_	28	nmod	_	SpaceAfter=No
-33	.	_	PUNCT	.	_	12	punct	_	_
+33	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = train-s5970
 # text = O valor investido nas equipes do SUS é superior a R $ 30 milhões.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	valor	valor	NOUN	NOUN	_	10	nsubj	_	_
 3	investido	investir	VERB	VERB	_	2	acl:part	_	_
 4-5	nas	_	_	_	_	_	_	_	_
@@ -124,46 +124,46 @@
 14	$	_	SYM	SYM	_	13	flat	_	_
 15	30	_	NUM	NUM	NumType=Card	16	nummod	_	_
 16	milhões	_	NUM	NUM	NumType=Card	13	nummod	_	SpaceAfter=No
-17	.	_	PUNCT	.	_	10	punct	_	_
+17	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s5971
 # text = A Triunfo detém 23 % de participação no negócio.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	Triunfo	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	detém	deter	VERB	VERB	_	0	root	_	_
 4	23	_	NUM	NUM	NumType=Card	5	nummod	_	_
 5	%	_	SYM	SYM	_	3	obj	_	_
-6	de	_	ADP	ADP	_	7	case	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
 7	participação	participação	NOUN	NOUN	_	5	nmod	_	_
 8-9	no	_	_	_	_	_	_	_	_
 8	em	em	ADP	ADP	_	10	case	_	_
 9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	negócio	negócio	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-11	.	_	PUNCT	.	_	3	punct	_	_
+11	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s5972
 # text = A Polícia Rodoviária Federal (PRF) de Três Lagoas realizou de 03 a 05 de agosto a Operação MotoShow, com objetivo de prevenir acidentes envolvendo motocicletas já que no local estava acontecendo o Encontro de Motociclistas.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	Polícia	_	PROPN	PNOUN	_	11	nsubj	_	_
 3	Rodoviária	_	PROPN	PNOUN	_	2	amod	_	_
 4	Federal	_	PROPN	PNOUN	_	2	amod	_	_
-5	(	_	PUNCT	.	_	6	punct	_	SpaceAfter=No
+5	(	(	PUNCT	.	_	6	punct	_	SpaceAfter=No
 6	PRF	_	PROPN	PNOUN	_	2	appos	_	SpaceAfter=No
-7	)	_	PUNCT	.	_	6	punct	_	_
-8	de	_	ADP	ADP	_	10	case	_	_
+7	)	)	PUNCT	.	_	6	punct	_	_
+8	de	de	ADP	ADP	_	10	case	_	_
 9	Três	_	PROPN	PNOUN	_	10	nummod	_	_
 10	Lagoas	_	PROPN	PNOUN	_	2	nmod	_	_
 11	realizou	realizar	VERB	VERB	_	0	root	_	_
-12	de	_	ADP	ADP	_	13	case	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
 13	03	_	NUM	NUM	NumType=Card	11	nmod	_	_
 14	a	_	ADP	ADP	_	15	case	_	_
 15	05	_	NUM	NUM	NumType=Card	13	nmod	_	_
-16	de	_	ADP	ADP	_	17	case	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
 17	agosto	_	PROPN	PNOUN	_	13	nmod	_	_
-18	a	_	DET	DET	_	19	det	_	_
+18	a	a	DET	DET	_	19	det	_	_
 19	Operação	_	PROPN	PNOUN	_	11	obj	_	_
 20	MotoShow	_	PROPN	PNOUN	_	19	flat	_	SpaceAfter=No
-21	,	_	PUNCT	.	_	25	punct	_	_
+21	,	,	PUNCT	.	_	25	punct	_	_
 22	com	_	ADP	ADP	_	25	mark	_	_
 23	objetivo	objetivo	NOUN	NOUN	_	22	fixed	_	_
 24	de	_	ADP	ADP	_	22	fixed	_	_
@@ -179,41 +179,41 @@
 33	local	local	NOUN	NOUN	_	35	nmod	_	_
 34	estava	estar	AUX	AUX	_	35	aux	_	_
 35	acontecendo	acontecer	VERB	VERB	_	11	advcl	_	_
-36	o	_	DET	DET	_	37	det	_	_
+36	o	o	DET	DET	_	37	det	_	_
 37	Encontro	encontro	NOUN	NOUN	_	35	nsubj	_	_
-38	de	_	ADP	ADP	_	39	case	_	_
+38	de	de	ADP	ADP	_	39	case	_	_
 39	Motociclistas	_	PROPN	PNOUN	_	37	nmod	_	SpaceAfter=No
-40	.	_	PUNCT	.	_	11	punct	_	_
+40	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s5973
 # text = Já as aulas de dança acontecem de segunda a quinta - feira, tendo a inserção de atividades de ginástica às sextas - feiras.
 1	Já	já	ADV	ADV	_	6	advmod	_	_
-2	as	_	DET	DET	_	3	det	_	_
+2	as	o	DET	DET	_	3	det	_	_
 3	aulas	aula	NOUN	NOUN	_	6	nsubj	_	_
-4	de	_	ADP	ADP	_	5	case	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
 5	dança	dança	NOUN	NOUN	_	3	nmod	_	_
 6	acontecem	acontecer	VERB	VERB	_	0	root	_	_
-7	de	_	ADP	ADP	_	12	case	_	_
+7	de	de	ADP	ADP	_	12	case	_	_
 8	segunda	_	PROPN	PNOUN	_	12	amod	_	_
 9	a	_	ADP	ADP	_	10	case	_	_
 10	quinta	_	PROPN	PNOUN	_	8	nmod	_	_
-11	-	_	PUNCT	.	_	12	punct	_	_
+11	-	-	PUNCT	.	_	12	punct	_	_
 12	feira	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	14	punct	_	_
+13	,	,	PUNCT	.	_	14	punct	_	_
 14	tendo	_	VERB	VERB	_	6	acl:part	_	_
-15	a	_	DET	DET	_	16	det	_	_
+15	a	a	DET	DET	_	16	det	_	_
 16	inserção	inserção	NOUN	NOUN	_	14	obj	_	_
-17	de	_	ADP	ADP	_	18	case	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
 18	atividades	atividade	NOUN	NOUN	_	16	nmod	_	_
-19	de	_	ADP	ADP	_	20	case	_	_
+19	de	de	ADP	ADP	_	20	case	_	_
 20	ginástica	_	NOUN	NOUN	_	18	nmod	_	_
 21-22	às	_	_	_	_	_	_	_	_
 21	a	a	ADP	ADP	_	25	case	_	_
 22	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
 23	sextas	_	ADJ	ADJ	_	25	amod	_	_
-24	-	_	PUNCT	.	_	25	punct	_	_
+24	-	-	PUNCT	.	_	25	punct	_	_
 25	feiras	_	PROPN	PNOUN	_	14	nmod	_	SpaceAfter=No
-26	.	_	PUNCT	.	_	6	punct	_	_
+26	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s5974
 # text = Para aprovação do convênio, o projeto de lei complementar estabelece que é necessária a concordância de três quintos das unidades federação e dum terço dos Estados integrantes de cada uma das cinco regiões do País.
@@ -223,19 +223,19 @@
 3	de	de	ADP	ADP	_	5	case	_	_
 4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	convênio	convênio	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	2	punct	_	_
-7	o	_	DET	DET	_	8	det	_	_
+6	,	,	PUNCT	.	_	2	punct	_	_
+7	o	o	DET	DET	_	8	det	_	_
 8	projeto	projeto	NOUN	NOUN	_	12	nsubj	_	_
-9	de	_	ADP	ADP	_	10	case	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
 10	lei	lei	NOUN	NOUN	_	8	nmod	_	_
 11	complementar	complementar	ADJ	ADJ	_	8	amod	_	_
 12	estabelece	estabelecer	VERB	VERB	_	0	root	_	_
-13	que	_	CCONJ	CONJ	_	14	mark	_	_
+13	que	que	CCONJ	CONJ	_	14	mark	_	_
 14	é	ser	VERB	VERB	_	12	ccomp	_	_
 15	necessária	necessário	ADJ	ADJ	_	14	xcomp:adj	_	_
-16	a	_	DET	DET	_	17	det	_	_
+16	a	a	DET	DET	_	17	det	_	_
 17	concordância	concordância	NOUN	NOUN	_	14	nsubj	_	_
-18	de	_	ADP	ADP	_	20	case	_	_
+18	de	de	ADP	ADP	_	20	case	_	_
 19	três	_	NUM	NUM	NumType=Card	20	nummod	_	_
 20	quintos	_	NOUN	NOUN	_	17	nmod	_	_
 21-22	das	_	_	_	_	_	_	_	_
@@ -243,9 +243,9 @@
 22	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
 23	unidades	unidade	NOUN	NOUN	_	20	nmod	_	_
 24	federação	federação	NOUN	NOUN	_	23	flat	_	_
-25	e	_	CCONJ	CONJ	_	28	cc	_	_
+25	e	e	CCONJ	CONJ	_	28	cc	_	_
 26-27	dum	_	_	_	_	_	_	_	_
-26	de	_	ADP	ADP	_	28	case	_	_
+26	de	de	ADP	ADP	_	28	case	_	_
 27	um	_	NUM	NUM	NumType=Card	28	nummod	_	_
 28	terço	terço	NOUN	NOUN	_	20	conj	_	_
 29-30	dos	_	_	_	_	_	_	_	_
@@ -253,7 +253,7 @@
 30	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
 31	Estados	_	PROPN	PNOUN	_	28	nmod	_	_
 32	integrantes	integrante	ADJ	ADJ	_	31	amod	_	_
-33	de	_	ADP	ADP	_	35	case	_	_
+33	de	de	ADP	ADP	_	35	case	_	_
 34	cada	_	DET	DET	_	35	det	_	_
 35	uma	_	PRON	PRON	_	32	nmod	_	_
 36-37	das	_	_	_	_	_	_	_	_
@@ -265,24 +265,24 @@
 40	de	de	ADP	ADP	_	42	case	_	_
 41	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
 42	País	_	PROPN	PNOUN	_	39	nmod	_	SpaceAfter=No
-43	.	_	PUNCT	.	_	12	punct	_	_
+43	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = train-s5975a
 # text = Era para ser um jogo "amistoso", já que nem Ceará e nem Paraná possuem grandes objetivos na Série B. ,
 1	Era	_	VERB	VERB	_	0	root	_	_
 2	para	_	ADP	ADP	_	3	mark	_	_
 3	ser	ser	VERB	VERB	_	1	nmod	_	_
-4	um	_	DET	DET	_	5	det	_	_
+4	um	um	DET	DET	_	5	det	_	_
 5	jogo	jogo	NOUN	NOUN	_	3	nsubj	_	_
-6	"	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
+6	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
 7	amistoso	amistoso	ADJ	ADJ	_	5	amod	_	SpaceAfter=No
-8	"	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	17	punct	_	_
+8	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	17	punct	_	_
 10	já	já	ADV	ADV	_	17	mark	_	_
 11	que	_	CCONJ	CONJ	_	10	fixed	_	_
 12	nem	_	CCONJ	CONJ	_	13	cc	_	_
 13	Ceará	_	PROPN	PNOUN	_	17	nsubj	_	_
-14	e	_	CCONJ	CONJ	_	16	cc	_	_
+14	e	e	CCONJ	CONJ	_	16	cc	_	_
 15	nem	_	ADV	ADV	_	16	advmod	_	_
 16	Paraná	_	PROPN	PNOUN	_	13	conj	_	_
 17	possuem	possuir	VERB	VERB	_	3	advcl	_	_
@@ -293,19 +293,19 @@
 21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	Série	_	PROPN	PNOUN	_	17	nmod	_	_
 23	B.	_	PROPN	PNOUN	_	22	flat	_	_
-24	,	_	PUNCT	.	_	17	punct	_	_
+24	,	,	PUNCT	.	_	17	punct	_	_
 
 # sent_id = train-s5975b
 # text = Porémo duelo em Fortaleza começou a todo o vapor.
 1	Porém	_	ADV	ADV	_	6	advmod	_	SpaceAfter=No
-2	o	_	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	_	3	det	_	_
 3	duelo	duelo	NOUN	NOUN	_	6	nsubj	_	_
-4	em	_	ADP	ADP	_	5	case	_	_
+4	em	em	ADP	ADP	_	5	case	_	_
 5	Fortaleza	_	PROPN	PNOUN	_	3	nmod	_	_
 6	começou	começar	VERB	VERB	_	0	root	_	_
 7	a	_	ADP	ADP	_	10	case	_	_
 8	todo	_	DET	DET	_	10	det	_	_
-9	o	_	DET	DET	_	10	det	_	_
+9	o	o	DET	DET	_	10	det	_	_
 10	vapor	vapor	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
-11	.	_	PUNCT	.	_	6	punct	_	_
+11	.	.	PUNCT	.	_	6	punct	_	_
 

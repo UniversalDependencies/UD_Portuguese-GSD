@@ -3,8 +3,8 @@
 1	--	_	PUNCT	.	_	3	punct	_	_
 2	Estava	estar	AUX	AUX	_	3	aux	_	_
 3	torcendo	torcer	VERB	VERB	_	0	root	_	_
-4	para	_	ADP	ADP	_	6	case	_	_
-5	a	_	DET	DET	_	6	det	_	_
+4	para	para	ADP	ADP	_	6	case	_	_
+5	a	a	DET	DET	_	6	det	_	_
 6	representante	representante	NOUN	NOUN	_	3	nmod	_	_
 7-8	do	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
@@ -15,52 +15,52 @@
 11	de	de	ADP	ADP	_	13	case	_	_
 12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	Sul	_	PROPN	PNOUN	_	9	nmod	_	_
-14	(	_	PUNCT	.	_	15	punct	_	SpaceAfter=No
+14	(	(	PUNCT	.	_	15	punct	_	SpaceAfter=No
 15	Isis	_	PROPN	PNOUN	_	6	appos	_	_
 16	Gomes	_	PROPN	PNOUN	_	15	flat	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	20	punct	_	_
+17	,	,	PUNCT	.	_	20	punct	_	_
 18-19	da	_	_	_	_	_	_	_	_
 18	de	de	ADP	ADP	_	20	case	_	_
 19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	Fazenda	_	PROPN	PNOUN	_	15	nmod	_	_
-21	de	_	ADP	ADP	_	22	case	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
 22	Verão	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
-23	)	_	PUNCT	.	_	15	punct	_	SpaceAfter=No
-24	,	_	PUNCT	.	_	33	punct	_	_
+23	)	)	PUNCT	.	_	15	punct	_	SpaceAfter=No
+24	,	,	PUNCT	.	_	33	punct	_	_
 25	mas	_	CCONJ	CONJ	_	33	cc	_	_
 26	como	_	CCONJ	CONJ	_	29	mark	_	_
 27	ela	_	PRON	PRON	_	29	nsubj	_	_
 28	não	não	ADV	ADV	Polarity=Neg	29	advmod	_	_
 29	vem	vir	VERB	VERB	_	33	advcl	_	SpaceAfter=No
-30	,	_	PUNCT	.	_	29	punct	_	_
+30	,	,	PUNCT	.	_	29	punct	_	_
 31	ainda	ainda	ADV	ADV	_	33	advmod	_	_
 32	não	não	ADV	ADV	Polarity=Neg	33	advmod	_	_
 33	tenho	ter	VERB	VERB	_	3	conj	_	_
-34	um	_	DET	DET	_	35	det	_	_
+34	um	um	DET	DET	_	35	det	_	_
 35	bumbum	bumbum	NOUN	NOUN	_	33	obj	_	_
 36	favorito	favorito	ADJ	ADJ	_	35	amod	_	SpaceAfter=No
-37	.	_	PUNCT	.	_	3	punct	_	_
+37	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s7237
 # text = "Primeiro vamos descobrir de quem é a responsabilidade.
-1	"	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
 2	Primeiro	primeiro	ADV	ADV	_	4	advmod	_	_
 3	vamos	ir	AUX	AUX	_	4	aux	_	_
 4	descobrir	descobrir	VERB	VERB	_	0	root	_	_
 5	de	_	ADP	ADP	_	6	mark	_	_
 6	quem	_	PRON	PRON	_	4	nmod	_	_
 7	é	ser	AUX	AUX	_	6	cop	_	_
-8	a	_	DET	DET	_	9	det	_	_
+8	a	a	DET	DET	_	9	det	_	_
 9	responsabilidade	responsabilidade	NOUN	NOUN	_	6	nsubj	_	SpaceAfter=No
-10	.	_	PUNCT	.	_	4	punct	_	_
+10	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s7238
 # text = A proposta estabelecia que a oração fosse realizada nas escolas das redes pública e particular antes do início das aulas de cada dia.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	proposta	_	NOUN	NOUN	_	3	nsubj	_	_
 3	estabelecia	estabelecer	VERB	VERB	_	0	root	_	_
-4	que	_	CCONJ	CONJ	_	8	mark	_	_
-5	a	_	DET	DET	_	6	det	_	_
+4	que	que	CCONJ	CONJ	_	8	mark	_	_
+5	a	a	DET	DET	_	6	det	_	_
 6	oração	oração	NOUN	NOUN	_	8	nsubj:pass	_	_
 7	fosse	_	AUX	AUX	_	8	aux:pass	_	_
 8	realizada	realizar	VERB	VERB	_	3	ccomp	_	_
@@ -73,7 +73,7 @@
 13	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
 14	redes	rede	NOUN	NOUN	_	11	nmod	_	_
 15	pública	público	ADJ	ADJ	_	14	amod	_	_
-16	e	_	CCONJ	CONJ	_	17	cc	_	_
+16	e	e	CCONJ	CONJ	_	17	cc	_	_
 17	particular	particular	ADJ	ADJ	_	15	conj	_	_
 18	antes	antes	ADV	ADV	_	21	case	_	_
 19-20	do	_	_	_	_	_	_	_	_
@@ -84,97 +84,97 @@
 22	de	de	ADP	ADP	_	24	case	_	_
 23	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
 24	aulas	aula	NOUN	NOUN	_	21	nmod	_	_
-25	de	_	ADP	ADP	_	27	case	_	_
+25	de	de	ADP	ADP	_	27	case	_	_
 26	cada	_	DET	DET	_	27	det	_	_
 27	dia	dia	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
-28	.	_	PUNCT	.	_	3	punct	_	_
+28	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s7239
 # text = Leandro Balbinot, da Renner, participa do evento.
 1	Leandro	_	PROPN	PNOUN	_	8	nsubj	_	_
 2	Balbinot	_	PROPN	PNOUN	_	1	flat	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	6	punct	_	_
+3	,	,	PUNCT	.	_	6	punct	_	_
 4-5	da	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
 5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Renner	_	PROPN	PNOUN	_	1	nmod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	6	punct	_	_
+7	,	,	PUNCT	.	_	6	punct	_	_
 8	participa	participar	VERB	VERB	_	0	root	_	_
 9-10	do	_	_	_	_	_	_	_	_
 9	de	de	ADP	ADP	_	11	case	_	_
 10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	evento	evento	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-12	.	_	PUNCT	.	_	8	punct	_	_
+12	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s7240
 # text = passa por diversas ampliações e mudanças.
 1	passa	passar	VERB	VERB	_	0	root	_	_
-2	por	_	ADP	ADP	_	4	case	_	_
+2	por	por	ADP	ADP	_	4	case	_	_
 3	diversas	_	DET	DET	_	4	det	_	_
 4	ampliações	ampliação	NOUN	NOUN	_	1	nmod	_	_
-5	e	_	CCONJ	CONJ	_	6	cc	_	_
+5	e	e	CCONJ	CONJ	_	6	cc	_	_
 6	mudanças	mudança	NOUN	NOUN	_	4	conj	_	SpaceAfter=No
-7	.	_	PUNCT	.	_	1	punct	_	_
+7	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s7241
 # text = "A gente sabia mais ou menos um dia antes quem jogaria.
-1	"	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
-2	A	_	DET	DET	_	3	det	_	_
+1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
+2	A	o	DET	DET	_	3	det	_	_
 3	gente	gente	NOUN	NOUN	_	4	nsubj	_	_
 4	sabia	saber	VERB	VERB	_	0	root	_	_
 5	mais	mais	ADV	ADV	_	8	advmod	_	_
-6	ou	_	CCONJ	CONJ	_	7	cc	_	_
+6	ou	ou	CCONJ	CONJ	_	7	cc	_	_
 7	menos	menos	ADV	ADV	_	5	conj	_	_
 8	um	_	NUM	NUM	NumType=Card	9	nummod	_	_
 9	dia	dia	NOUN	NOUN	_	10	nmod	_	_
 10	antes	antes	ADV	ADV	_	4	advmod	_	_
 11	quem	_	PRON	PRON	_	12	nsubj	_	_
 12	jogaria	jogar	VERB	VERB	_	4	ccomp	_	SpaceAfter=No
-13	.	_	PUNCT	.	_	4	punct	_	_
+13	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s7242
 # text = O evento de gestão empresarial, que ocorre de 7 e 10, no Expo Unimed Curitiba, reúne as principais tendências de gestão empresarial, abrangendo tecnologias, comportamento, liderança, finanças, marketing e competitividade.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	evento	evento	NOUN	NOUN	_	20	nsubj	_	_
-3	de	_	ADP	ADP	_	4	case	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
 4	gestão	gestão	NOUN	NOUN	_	2	nmod	_	_
 5	empresarial	empresarial	ADJ	ADJ	_	4	amod	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	8	punct	_	_
+6	,	,	PUNCT	.	_	8	punct	_	_
 7	que	_	PRON	PRON	_	8	nsubj	_	_
 8	ocorre	ocorrer	VERB	VERB	_	2	acl:relcl	_	_
-9	de	_	ADP	ADP	_	10	case	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
 10	7	_	NUM	NUM	NumType=Card	8	nmod	_	_
-11	e	_	CCONJ	CONJ	_	12	cc	_	_
+11	e	e	CCONJ	CONJ	_	12	cc	_	_
 12	10	_	NUM	NUM	NumType=Card	10	conj	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	16	punct	_	_
+13	,	,	PUNCT	.	_	16	punct	_	_
 14-15	no	_	_	_	_	_	_	_	_
 14	em	em	ADP	ADP	_	16	case	_	_
 15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	Expo	_	PROPN	PNOUN	_	8	nmod	_	_
 17	Unimed	_	PROPN	PNOUN	_	16	flat	_	_
 18	Curitiba	_	PROPN	PNOUN	_	16	flat	_	SpaceAfter=No
-19	,	_	PUNCT	.	_	16	punct	_	_
+19	,	,	PUNCT	.	_	16	punct	_	_
 20	reúne	reunir	VERB	VERB	_	0	root	_	_
-21	as	_	DET	DET	_	23	det	_	_
+21	as	o	DET	DET	_	23	det	_	_
 22	principais	principal	ADJ	ADJ	_	23	amod	_	_
 23	tendências	tendência	NOUN	NOUN	_	20	obj	_	_
-24	de	_	ADP	ADP	_	25	case	_	_
+24	de	de	ADP	ADP	_	25	case	_	_
 25	gestão	gestão	NOUN	NOUN	_	23	nmod	_	_
 26	empresarial	empresarial	ADJ	ADJ	_	25	amod	_	SpaceAfter=No
-27	,	_	PUNCT	.	_	28	punct	_	_
+27	,	,	PUNCT	.	_	28	punct	_	_
 28	abrangendo	abranger	VERB	VERB	_	20	acl:part	_	_
 29	tecnologias	tecnologia	NOUN	NOUN	_	28	obj	_	SpaceAfter=No
-30	,	_	PUNCT	.	_	31	punct	_	_
+30	,	,	PUNCT	.	_	31	punct	_	_
 31	comportamento	comportamento	NOUN	NOUN	_	29	conj	_	SpaceAfter=No
-32	,	_	PUNCT	.	_	33	punct	_	_
+32	,	,	PUNCT	.	_	33	punct	_	_
 33	liderança	liderança	NOUN	NOUN	_	29	conj	_	SpaceAfter=No
-34	,	_	PUNCT	.	_	35	punct	_	_
+34	,	,	PUNCT	.	_	35	punct	_	_
 35	finanças	_	NOUN	NOUN	_	29	conj	_	SpaceAfter=No
-36	,	_	PUNCT	.	_	37	punct	_	_
+36	,	,	PUNCT	.	_	37	punct	_	_
 37	marketing	marketing	NOUN	NOUN	_	29	conj	_	_
-38	e	_	CCONJ	CONJ	_	39	cc	_	_
+38	e	e	CCONJ	CONJ	_	39	cc	_	_
 39	competitividade	competitividade	NOUN	NOUN	_	29	conj	_	SpaceAfter=No
-40	.	_	PUNCT	.	_	20	punct	_	_
+40	.	.	PUNCT	.	_	20	punct	_	_
 
 # sent_id = train-s7243
 # text = Recentemente recebi algumas propostas e estou analisando junto com meu empresário ", comentou ele ao site Grande Área.
@@ -182,15 +182,15 @@
 2	recebi	receber	VERB	VERB	_	14	ccomp	_	_
 3	algumas	_	DET	DET	_	4	det	_	_
 4	propostas	_	NOUN	NOUN	_	2	obj	_	_
-5	e	_	CCONJ	CONJ	_	7	cc	_	_
+5	e	e	CCONJ	CONJ	_	7	cc	_	_
 6	estou	estar	AUX	AUX	_	7	aux	_	_
 7	analisando	analisar	VERB	VERB	_	2	conj	_	_
 8	junto	junto	ADV	ADV	_	7	advmod	_	_
-9	com	_	ADP	ADP	_	11	case	_	_
+9	com	com	ADP	ADP	_	11	case	_	_
 10	meu	_	DET	DET	_	11	det:poss	_	_
 11	empresário	empresário	NOUN	NOUN	_	8	nmod	_	_
-12	"	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	14	punct	_	_
+12	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
+13	,	,	PUNCT	.	_	14	punct	_	_
 14	comentou	comentar	VERB	VERB	_	0	root	_	_
 15	ele	_	PRON	PRON	_	14	nsubj	_	_
 16-17	ao	_	_	_	_	_	_	_	_
@@ -199,22 +199,22 @@
 18	site	site	NOUN	NOUN	_	14	nmod	_	_
 19	Grande	_	PROPN	PNOUN	_	20	amod	_	_
 20	Área	_	PROPN	PNOUN	_	18	appos	_	SpaceAfter=No
-21	.	_	PUNCT	.	_	14	punct	_	_
+21	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = train-s7244
 # text = O time conseguiu faturar o primeiro turno e, posteriormente, o título carioca que não vinha há sete anos.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	time	time	NOUN	NOUN	_	3	nsubj	_	_
 3	conseguiu	conseguir	VERB	VERB	_	0	root	_	_
 4	faturar	faturar	VERB	VERB	_	3	xcomp	_	_
-5	o	_	DET	DET	_	7	det	_	_
+5	o	o	DET	DET	_	7	det	_	_
 6	primeiro	primeiro	ADJ	ADJ	_	7	amod	_	_
 7	turno	turno	NOUN	NOUN	_	4	obj	_	_
-8	e	_	CCONJ	CONJ	_	13	cc	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	10	punct	_	_
+8	e	e	CCONJ	CONJ	_	13	cc	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	10	punct	_	_
 10	posteriormente	posteriormente	ADV	ADV	_	7	advmod	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	10	punct	_	_
-12	o	_	DET	DET	_	13	det	_	_
+11	,	,	PUNCT	.	_	10	punct	_	_
+12	o	o	DET	DET	_	13	det	_	_
 13	título	título	NOUN	NOUN	_	7	conj	_	_
 14	carioca	carioca	ADJ	ADJ	_	13	amod	_	_
 15	que	_	PRON	PRON	_	17	nsubj	_	_
@@ -223,12 +223,12 @@
 18	há	haver	VERB	VERB	_	17	advcl	_	_
 19	sete	_	NUM	NUM	NumType=Card	20	nummod	_	_
 20	anos	ano	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
-21	.	_	PUNCT	.	_	3	punct	_	_
+21	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s7245
 # text = Com a crise da Zona do Euro, a União Europeia parece viver um dos seus momentos de maior divisão e fragilidade.
 1	Com	_	ADP	ADP	_	3	case	_	_
-2	a	_	DET	DET	_	3	det	_	_
+2	a	a	DET	DET	_	3	det	_	_
 3	crise	crise	NOUN	NOUN	_	14	nmod	_	_
 4-5	da	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
@@ -238,8 +238,8 @@
 7	de	de	ADP	ADP	_	9	case	_	_
 8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Euro	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	3	punct	_	_
-11	a	_	DET	DET	_	12	det	_	_
+10	,	,	PUNCT	.	_	3	punct	_	_
+11	a	a	DET	DET	_	12	det	_	_
 12	União	_	PROPN	PNOUN	_	14	nsubj	_	_
 13	Europeia	_	PROPN	PNOUN	_	12	amod	_	_
 14	parece	parecer	VERB	VERB	_	0	root	_	_
@@ -250,10 +250,10 @@
 18	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
 19	seus	_	DET	DET	_	20	det:poss	_	_
 20	momentos	momento	NOUN	NOUN	_	16	nmod	_	_
-21	de	_	ADP	ADP	_	23	case	_	_
+21	de	de	ADP	ADP	_	23	case	_	_
 22	maior	maior	ADJ	ADJ	_	23	amod	_	_
 23	divisão	divisão	NOUN	NOUN	_	20	nmod	_	_
-24	e	_	CCONJ	CONJ	_	25	cc	_	_
+24	e	e	CCONJ	CONJ	_	25	cc	_	_
 25	fragilidade	fragilidade	NOUN	NOUN	_	23	conj	_	SpaceAfter=No
-26	.	_	PUNCT	.	_	14	punct	_	_
+26	.	.	PUNCT	.	_	14	punct	_	_
 

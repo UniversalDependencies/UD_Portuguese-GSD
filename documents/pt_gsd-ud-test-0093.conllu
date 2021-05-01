@@ -1,7 +1,7 @@
 # sent_id = test-s915
 # text = Gosto de lugar onde ninguém tá vendo o que a gente faz."
 1	Gosto	gostar	VERB	VERB	_	0	root	_	_
-2	de	_	ADP	ADP	_	3	case	_	_
+2	de	de	ADP	ADP	_	3	case	_	_
 3	lugar	lugar	NOUN	NOUN	_	1	nmod	_	_
 4	onde	onde	ADV	ADV	_	7	advmod	_	_
 5	ninguém	_	PRON	PRON	_	7	nsubj	_	_
@@ -9,15 +9,15 @@
 7	vendo	_	VERB	VERB	_	3	acl:relcl	_	_
 8	o	_	PRON	PRON	_	7	obj	_	_
 9	que	_	PRON	PRON	_	12	obj	_	_
-10	a	_	DET	DET	_	11	det	_	_
+10	a	a	DET	DET	_	11	det	_	_
 11	gente	gente	NOUN	NOUN	_	12	nsubj	_	_
 12	faz	fazer	VERB	VERB	_	8	acl:relcl	_	SpaceAfter=No
-13	.	_	PUNCT	.	_	1	punct	_	SpaceAfter=No
-14	"	_	PUNCT	.	_	1	punct	_	_
+13	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+14	"	"	PUNCT	.	_	1	punct	_	_
 
 # sent_id = test-s916
 # text = O grupo é suspeito de vender ilegalmente moradias do programa Minha Casa Minha Vida.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	grupo	grupo	NOUN	NOUN	_	3	nsubj	_	_
 3	é	ser	VERB	VERB	_	0	root	_	_
 4	suspeito	suspeito	ADJ	ADJ	_	3	xcomp:adj	_	_
@@ -33,40 +33,40 @@
 13	Casa	_	PROPN	PNOUN	_	11	appos	_	_
 14	Minha	_	PROPN	PNOUN	_	15	det:poss	_	_
 15	Vida	_	PROPN	PNOUN	_	13	appos	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	3	punct	_	_
+16	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = test-s917
 # text = Quanto mais baixa a umidade relativa do ar, mais eficiente será o umidificador.
 1	Quanto	_	ADP	ADP	_	5	case	_	_
 2	mais	mais	ADV	ADV	_	3	advcl	_	_
 3	baixa	baixo	ADJ	ADJ	_	5	amod	_	_
-4	a	_	DET	DET	_	5	det	_	_
+4	a	a	DET	DET	_	5	det	_	_
 5	umidade	umidade	NOUN	NOUN	_	13	nmod	_	_
 6	relativa	relativo	ADJ	ADJ	_	5	amod	_	_
 7-8	do	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
 8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	ar	ar	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	5	punct	_	_
+10	,	,	PUNCT	.	_	5	punct	_	_
 11	mais	mais	ADV	ADV	_	12	advmod	_	_
 12	eficiente	eficiente	ADJ	ADJ	_	13	xcomp:adj	_	_
 13	será	ser	VERB	VERB	_	0	root	_	_
-14	o	_	DET	DET	_	15	det	_	_
+14	o	o	DET	DET	_	15	det	_	_
 15	umidificador	_	NOUN	NOUN	_	13	nsubj	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	13	punct	_	_
+16	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = test-s918
 # text = Em poucas palavras, D'Alessandro rebateu as vaias, mas não se escondeu do momento crítico.
-1	Em	_	ADP	ADP	_	3	case	_	_
+1	Em	em	ADP	ADP	_	3	case	_	_
 2	poucas	_	DET	DET	_	3	det	_	_
 3	palavras	palavra	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
 5	D'	_	PROPN	PNOUN	_	7	nsubj	_	SpaceAfter=No
 6	Alessandro	_	PROPN	PNOUN	_	5	flat	_	_
 7	rebateu	rebater	VERB	VERB	_	0	root	_	_
-8	as	_	DET	DET	_	9	det	_	_
+8	as	o	DET	DET	_	9	det	_	_
 9	vaias	vaia	NOUN	NOUN	_	7	obj	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	14	punct	_	_
+10	,	,	PUNCT	.	_	14	punct	_	_
 11	mas	_	CCONJ	CONJ	_	14	cc	_	_
 12	não	não	ADV	ADV	Polarity=Neg	14	advmod	_	_
 13	se	_	PRON	PRON	_	14	obj	_	_
@@ -76,15 +76,15 @@
 16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	momento	momento	NOUN	NOUN	_	14	nmod	_	_
 18	crítico	crítico	ADJ	ADJ	_	17	amod	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	7	punct	_	_
+19	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = test-s919
 # text = A polícia informou que o marido dela e o filho também foram assassinados há poucos meses.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	polícia	polícia	NOUN	NOUN	_	3	nsubj	_	_
 3	informou	informar	VERB	VERB	_	0	root	_	_
-4	que	_	CCONJ	CONJ	_	13	mark	_	_
-5	o	_	DET	DET	_	6	det	_	_
+4	que	que	CCONJ	CONJ	_	13	mark	_	_
+5	o	o	DET	DET	_	6	det	_	_
 6	marido	marido	NOUN	NOUN	_	13	nsubj:pass	_	_
 7	dela	_	X	ADPPRON	_	6	det:poss	_	_
 8	e	e	CCONJ	CONJ	_	10	cc	_	_
@@ -96,52 +96,52 @@
 14	há	haver	VERB	VERB	_	13	advcl	_	_
 15	poucos	_	DET	DET	_	16	det	_	_
 16	meses	mês	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
-17	.	_	PUNCT	.	_	3	punct	_	_
+17	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = test-s920
 # text = Têm como princípio, os valores dos clientes e os ajudam a vivenciar esses valores, enquanto alcançam seus objetivos.
 1	Têm	ter	VERB	VERB	_	0	root	_	_
-2	como	_	ADP	ADP	_	3	case	_	_
+2	como	como	ADP	ADP	_	3	case	_	_
 3	princípio	princípio	NOUN	NOUN	_	1	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
-5	os	_	DET	DET	_	6	det	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	os	o	DET	DET	_	6	det	_	_
 6	valores	_	NOUN	NOUN	_	1	obj	_	_
 7-8	dos	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
 8	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
 9	clientes	cliente	NOUN	NOUN	_	6	nmod	_	_
-10	e	_	CCONJ	CONJ	_	12	cc	_	_
+10	e	e	CCONJ	CONJ	_	12	cc	_	_
 11	os	_	PRON	PRON	_	12	obj	_	_
 12	ajudam	ajudar	VERB	VERB	_	1	conj	_	_
 13	a	_	ADP	ADP	_	14	mark	_	_
 14	vivenciar	vivenciar	VERB	VERB	_	12	nmod	_	_
 15	esses	_	DET	DET	_	16	det	_	_
 16	valores	_	NOUN	NOUN	_	14	obj	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	19	punct	_	_
+17	,	,	PUNCT	.	_	19	punct	_	_
 18	enquanto	_	CCONJ	CONJ	_	19	mark	_	_
 19	alcançam	alcançar	VERB	VERB	_	12	advcl	_	_
 20	seus	_	DET	DET	_	21	det:poss	_	_
 21	objetivos	objetivo	NOUN	NOUN	_	19	obj	_	SpaceAfter=No
-22	.	_	PUNCT	.	_	1	punct	_	_
+22	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = test-s921
 # text = A deputada federal Erika Kokay, presidente interina da Comissão de Direitos Humanos e Minorias da Câmara dos Deputados, disse que os Guarani - Kaiowá são vítimas da ação do Estado.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	deputada	deputado	NOUN	NOUN	_	24	nsubj	_	_
 3	federal	federal	ADJ	ADJ	_	2	amod	_	_
 4	Erika	_	PROPN	PNOUN	_	2	appos	_	_
 5	Kokay	_	PROPN	PNOUN	_	4	flat	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	7	punct	_	_
+6	,	,	PUNCT	.	_	7	punct	_	_
 7	presidente	presidente	NOUN	NOUN	_	2	appos	_	_
 8	interina	interino	ADJ	ADJ	_	7	amod	_	_
 9-10	da	_	_	_	_	_	_	_	_
 9	de	de	ADP	ADP	_	11	case	_	_
 10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	Comissão	_	PROPN	PNOUN	_	7	nmod	_	_
-12	de	_	ADP	ADP	_	13	case	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
 13	Direitos	_	PROPN	PNOUN	_	11	nmod	_	_
 14	Humanos	_	PROPN	PNOUN	_	13	amod	_	_
-15	e	_	CCONJ	CONJ	_	16	cc	_	_
+15	e	e	CCONJ	CONJ	_	16	cc	_	_
 16	Minorias	minoria	NOUN	NOUN	_	13	conj	_	_
 17-18	da	_	_	_	_	_	_	_	_
 17	de	de	ADP	ADP	_	19	case	_	_
@@ -151,12 +151,12 @@
 20	de	de	ADP	ADP	_	22	case	_	_
 21	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
 22	Deputados	_	PROPN	PNOUN	_	19	nmod	_	SpaceAfter=No
-23	,	_	PUNCT	.	_	7	punct	_	_
+23	,	,	PUNCT	.	_	7	punct	_	_
 24	disse	dizer	VERB	VERB	_	0	root	_	_
-25	que	_	CCONJ	CONJ	_	31	mark	_	_
-26	os	_	DET	DET	_	27	det	_	_
+25	que	que	CCONJ	CONJ	_	31	mark	_	_
+26	os	o	DET	DET	_	27	det	_	_
 27	Guarani	_	PROPN	PNOUN	_	31	nsubj	_	_
-28	-	_	PUNCT	.	_	27	punct	_	_
+28	-	-	PUNCT	.	_	27	punct	_	_
 29	Kaiowá	_	PROPN	PNOUN	_	27	flat	_	_
 30	são	ser	AUX	AUX	_	31	cop	_	_
 31	vítimas	vítima	NOUN	NOUN	_	24	ccomp	_	_
@@ -168,13 +168,13 @@
 35	de	de	ADP	ADP	_	37	case	_	_
 36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
 37	Estado	_	PROPN	PNOUN	_	34	nmod	_	SpaceAfter=No
-38	.	_	PUNCT	.	_	24	punct	_	_
+38	.	.	PUNCT	.	_	24	punct	_	_
 
 # sent_id = test-s922
 # text = A perda de popularidade nas últimas décadas é evidente.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	perda	perda	NOUN	NOUN	_	9	nsubj	_	_
-3	de	_	ADP	ADP	_	4	case	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
 4	popularidade	popularidade	NOUN	NOUN	_	2	nmod	_	_
 5-6	nas	_	_	_	_	_	_	_	_
 5	em	em	ADP	ADP	_	8	case	_	_
@@ -183,13 +183,13 @@
 8	décadas	década	NOUN	NOUN	_	2	nmod	_	_
 9	é	ser	VERB	VERB	_	0	root	_	_
 10	evidente	evidente	ADJ	ADJ	_	9	xcomp:adj	_	SpaceAfter=No
-11	.	_	PUNCT	.	_	9	punct	_	_
+11	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = test-s923
 # text = Inquestionavelmente, a proteção à maternidade há de ser amparada como um direito social e um dever do próprio Estado.
 1	Inquestionavelmente	inquestionavelmente	ADV	ADV	_	11	advmod	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	1	punct	_	_
-3	a	_	DET	DET	_	4	det	_	_
+2	,	,	PUNCT	.	_	1	punct	_	_
+3	a	a	DET	DET	_	4	det	_	_
 4	proteção	proteção	NOUN	NOUN	_	11	nsubj:pass	_	_
 5-6	à	_	_	_	_	_	_	_	_
 5	a	a	ADP	ADP	_	7	case	_	_
@@ -199,19 +199,19 @@
 9	de	_	ADP	ADP	_	11	mark	_	_
 10	ser	ser	AUX	AUX	_	11	aux:pass	_	_
 11	amparada	amparar	VERB	VERB	_	0	root	_	_
-12	como	_	ADP	ADP	_	14	case	_	_
-13	um	_	DET	DET	_	14	det	_	_
+12	como	como	ADP	ADP	_	14	case	_	_
+13	um	um	DET	DET	_	14	det	_	_
 14	direito	direito	NOUN	NOUN	_	11	nmod	_	_
 15	social	social	ADJ	ADJ	_	14	amod	_	_
-16	e	_	CCONJ	CONJ	_	18	cc	_	_
-17	um	_	DET	DET	_	18	det	_	_
+16	e	e	CCONJ	CONJ	_	18	cc	_	_
+17	um	um	DET	DET	_	18	det	_	_
 18	dever	dever	NOUN	NOUN	_	14	conj	_	_
 19-20	do	_	_	_	_	_	_	_	_
 19	de	de	ADP	ADP	_	22	case	_	_
 20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 21	próprio	próprio	ADJ	ADJ	_	22	amod	_	_
 22	Estado	_	PROPN	PNOUN	_	18	nmod	_	SpaceAfter=No
-23	.	_	PUNCT	.	_	11	punct	_	_
+23	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = test-s924
 # text = Só ganhando o que diziam que seria impossível.
@@ -220,8 +220,8 @@
 3	o	_	PRON	PRON	_	2	obj	_	_
 4	que	_	PRON	PRON	_	5	obj	_	_
 5	diziam	dizer	VERB	VERB	_	3	acl:relcl	_	_
-6	que	_	CCONJ	CONJ	_	7	mark	_	_
+6	que	que	CCONJ	CONJ	_	7	mark	_	_
 7	seria	_	VERB	VERB	_	5	ccomp	_	_
 8	impossível	impossível	ADJ	ADJ	_	7	xcomp:adj	_	SpaceAfter=No
-9	.	_	PUNCT	.	_	2	punct	_	_
+9	.	.	PUNCT	.	_	2	punct	_	_
 

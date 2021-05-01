@@ -1,7 +1,7 @@
 # sent_id = train-s8813a
 # text = Desde o início da pacificação nas duas comunidades, 71 pessoas foram acolhidas.Segundo
 1	Desde	_	ADP	ADP	_	3	case	_	_
-2	o	_	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	_	3	det	_	_
 3	início	início	NOUN	NOUN	_	15	nmod	_	_
 4-5	da	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
@@ -12,7 +12,7 @@
 8	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
 9	duas	_	NUM	NUM	NumType=Card	10	nummod	_	_
 10	comunidades	comunidade	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	3	punct	_	_
+11	,	,	PUNCT	.	_	3	punct	_	_
 12	71	_	NUM	NUM	NumType=Card	13	nummod	_	_
 13	pessoas	pessoa	NOUN	NOUN	_	15	nsubj:pass	_	_
 14	foram	_	AUX	AUX	_	15	aux:pass	_	_
@@ -20,35 +20,35 @@
 
 # sent_id = train-s8813b
 # text = a coordenadora da operação, a assistente social Daphne Braga, mesmo com muitas ações, alguns usuários voltaram para a cracolândia do Jacarezinho, uma das maiores da cidade.
-1	a	_	DET	DET	_	2	det	_	_
+1	a	a	DET	DET	_	2	det	_	_
 2	coordenadora	coordenador	NOUN	NOUN	_	20	dep	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
 4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	operação	operação	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	8	punct	_	_
-7	a	_	DET	DET	_	8	det	_	_
+6	,	,	PUNCT	.	_	8	punct	_	_
+7	a	a	DET	DET	_	8	det	_	_
 8	assistente	assistente	NOUN	NOUN	_	2	appos	_	_
 9	social	social	ADJ	ADJ	_	8	amod	_	_
 10	Daphne	_	PROPN	PNOUN	_	8	appos	_	_
 11	Braga	_	PROPN	PNOUN	_	10	flat	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	8	punct	_	_
+12	,	,	PUNCT	.	_	8	punct	_	_
 13	mesmo	mesmo	ADV	ADV	_	16	advmod	_	_
-14	com	_	ADP	ADP	_	16	case	_	_
+14	com	com	ADP	ADP	_	16	case	_	_
 15	muitas	_	DET	DET	_	16	det	_	_
 16	ações	ação	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	16	punct	_	_
+17	,	,	PUNCT	.	_	16	punct	_	_
 18	alguns	_	DET	DET	_	19	det	_	_
 19	usuários	usuário	NOUN	NOUN	_	20	nsubj	_	_
 20	voltaram	voltar	VERB	VERB	_	0	root	_	_
-21	para	_	ADP	ADP	_	23	case	_	_
-22	a	_	DET	DET	_	23	det	_	_
+21	para	para	ADP	ADP	_	23	case	_	_
+22	a	a	DET	DET	_	23	det	_	_
 23	cracolândia	_	NOUN	NOUN	_	20	nmod	_	_
 24-25	do	_	_	_	_	_	_	_	_
 24	de	de	ADP	ADP	_	26	case	_	_
 25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	Jacarezinho	_	PROPN	PNOUN	_	23	nmod	_	SpaceAfter=No
-27	,	_	PUNCT	.	_	28	punct	_	_
+27	,	,	PUNCT	.	_	28	punct	_	_
 28	uma	_	PRON	PRON	_	23	appos	_	_
 29-30	das	_	_	_	_	_	_	_	_
 29	de	de	ADP	ADP	_	31	case	_	_
@@ -58,7 +58,7 @@
 32	de	de	ADP	ADP	_	34	case	_	_
 33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	cidade	cidade	NOUN	NOUN	_	31	nmod	_	SpaceAfter=No
-35	.	_	PUNCT	.	_	20	punct	_	_
+35	.	.	PUNCT	.	_	20	punct	_	_
 
 # sent_id = train-s8814
 # text = Ainda será necessário realizar inúmeros estudos com humanos e verificar os efeitos em longo prazo dessa vacina, mas tudo parece indicar que em breve teremos mais uma arma para auxiliar na luta contra os quilinhos a mais.
@@ -68,23 +68,23 @@
 4	realizar	realizar	VERB	VERB	_	2	csubj	_	_
 5	inúmeros	inúmero	ADJ	ADJ	_	6	amod	_	_
 6	estudos	estudo	NOUN	NOUN	_	4	obj	_	_
-7	com	_	ADP	ADP	_	8	case	_	_
+7	com	com	ADP	ADP	_	8	case	_	_
 8	humanos	humano	NOUN	NOUN	_	6	nmod	_	_
-9	e	_	CCONJ	CONJ	_	10	cc	_	_
+9	e	e	CCONJ	CONJ	_	10	cc	_	_
 10	verificar	verificar	VERB	VERB	_	4	conj	_	_
-11	os	_	DET	DET	_	12	det	_	_
+11	os	o	DET	DET	_	12	det	_	_
 12	efeitos	efeito	NOUN	NOUN	_	10	obj	_	_
-13	em	_	ADP	ADP	_	15	case	_	_
+13	em	em	ADP	ADP	_	15	case	_	_
 14	longo	longo	ADJ	ADJ	_	15	amod	_	_
 15	prazo	prazo	NOUN	NOUN	_	10	nmod	_	_
 16	dessa	_	ADP	ADP	_	17	case	_	_
 17	vacina	vacina	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
-18	,	_	PUNCT	.	_	21	punct	_	_
+18	,	,	PUNCT	.	_	21	punct	_	_
 19	mas	_	CCONJ	CONJ	_	21	cc	_	_
 20	tudo	_	PRON	PRON	_	21	nsubj	_	_
 21	parece	parecer	VERB	VERB	_	2	conj	_	_
 22	indicar	indicar	VERB	VERB	_	21	xcomp	_	_
-23	que	_	CCONJ	CONJ	_	26	mark	_	_
+23	que	que	CCONJ	CONJ	_	26	mark	_	_
 24	em	_	ADP	ADP	_	25	mark	_	_
 25	breve	breve	ADJ	ADJ	_	26	nmod	_	_
 26	teremos	ter	VERB	VERB	_	22	ccomp	_	_
@@ -98,73 +98,73 @@
 33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	luta	luta	NOUN	NOUN	_	31	nmod	_	_
 35	contra	_	ADP	ADP	_	37	case	_	_
-36	os	_	DET	DET	_	37	det	_	_
+36	os	o	DET	DET	_	37	det	_	_
 37	quilinhos	quilo	NOUN	NOUN	_	34	nmod	_	_
 38	a	_	ADP	ADP	_	39	mark	_	_
 39	mais	mais	ADV	ADV	_	37	nmod	_	SpaceAfter=No
-40	.	_	PUNCT	.	_	2	punct	_	_
+40	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s8815
 # text = Até o dia 12 de agosto, Olimpíada é no R7, Record e Record News, os canais oficiais de Londres.
 1	Até	_	ADP	ADP	_	3	case	_	_
-2	o	_	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	_	3	det	_	_
 3	dia	dia	NOUN	NOUN	_	9	nmod	_	_
 4	12	_	NUM	NUM	NumType=Card	3	nmod	_	_
-5	de	_	ADP	ADP	_	6	case	_	_
+5	de	de	ADP	ADP	_	6	case	_	_
 6	agosto	_	PROPN	PNOUN	_	4	nmod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	3	punct	_	_
+7	,	,	PUNCT	.	_	3	punct	_	_
 8	Olimpíada	_	PROPN	PNOUN	_	9	nsubj	_	_
 9	é	ser	VERB	VERB	_	0	root	_	_
 10-11	no	_	_	_	_	_	_	_	_
 10	em	em	ADP	ADP	_	12	case	_	_
 11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	R7	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	14	punct	_	_
+13	,	,	PUNCT	.	_	14	punct	_	_
 14	Record	_	PROPN	PNOUN	_	12	conj	_	_
-15	e	_	CCONJ	CONJ	_	16	cc	_	_
+15	e	e	CCONJ	CONJ	_	16	cc	_	_
 16	Record	_	PROPN	PNOUN	_	12	conj	_	_
 17	News	_	PROPN	PNOUN	_	16	flat	_	SpaceAfter=No
-18	,	_	PUNCT	.	_	20	punct	_	_
-19	os	_	DET	DET	_	20	det	_	_
+18	,	,	PUNCT	.	_	20	punct	_	_
+19	os	o	DET	DET	_	20	det	_	_
 20	canais	canal	NOUN	NOUN	_	12	appos	_	_
 21	oficiais	oficial	ADJ	ADJ	_	20	amod	_	_
-22	de	_	ADP	ADP	_	23	case	_	_
+22	de	de	ADP	ADP	_	23	case	_	_
 23	Londres	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
-24	.	_	PUNCT	.	_	9	punct	_	_
+24	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s8816
 # text = Neste domingo (2 de dezembro), o Vélez Sarsfield recebeu o lanterna Unión, no Estádio José Amalfitani, e, com uma rodada de antecedência, foi campeão do Torneio Inicial do Campeonato Argentino ao vencer por 2 a 0.
 1	Neste	_	ADP	ADP	_	2	case	_	_
 2	domingo	_	PROPN	PNOUN	_	12	nmod	_	_
-3	(	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
+3	(	(	PUNCT	.	_	4	punct	_	SpaceAfter=No
 4	2	_	NUM	NUM	NumType=Card	2	nmod	_	_
-5	de	_	ADP	ADP	_	6	case	_	_
+5	de	de	ADP	ADP	_	6	case	_	_
 6	dezembro	_	PROPN	PNOUN	_	4	nmod	_	SpaceAfter=No
-7	)	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	2	punct	_	_
-9	o	_	DET	DET	_	10	det	_	_
+7	)	)	PUNCT	.	_	4	punct	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	2	punct	_	_
+9	o	o	DET	DET	_	10	det	_	_
 10	Vélez	_	PROPN	PNOUN	_	12	nsubj	_	_
 11	Sarsfield	_	PROPN	PNOUN	_	10	flat	_	_
 12	recebeu	receber	VERB	VERB	_	0	root	_	_
-13	o	_	DET	DET	_	14	det	_	_
+13	o	o	DET	DET	_	14	det	_	_
 14	lanterna	_	PROPN	PNOUN	_	12	obj	_	_
 15	Unión	_	PROPN	PNOUN	_	14	flat	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	19	punct	_	_
+16	,	,	PUNCT	.	_	19	punct	_	_
 17-18	no	_	_	_	_	_	_	_	_
 17	em	em	ADP	ADP	_	19	case	_	_
 18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	Estádio	_	PROPN	PNOUN	_	12	nmod	_	_
 20	José	_	PROPN	PNOUN	_	19	flat	_	_
 21	Amalfitani	_	PROPN	PNOUN	_	19	flat	_	SpaceAfter=No
-22	,	_	PUNCT	.	_	19	punct	_	_
-23	e	_	CCONJ	CONJ	_	32	cc	_	SpaceAfter=No
-24	,	_	PUNCT	.	_	27	punct	_	_
-25	com	_	ADP	ADP	_	27	case	_	_
-26	uma	_	DET	DET	_	27	det	_	_
+22	,	,	PUNCT	.	_	19	punct	_	_
+23	e	e	CCONJ	CONJ	_	32	cc	_	SpaceAfter=No
+24	,	,	PUNCT	.	_	27	punct	_	_
+25	com	com	ADP	ADP	_	27	case	_	_
+26	uma	um	DET	DET	_	27	det	_	_
 27	rodada	_	NOUN	NOUN	_	32	nmod	_	_
-28	de	_	ADP	ADP	_	29	case	_	_
+28	de	de	ADP	ADP	_	29	case	_	_
 29	antecedência	antecedência	NOUN	NOUN	_	27	nmod	_	SpaceAfter=No
-30	,	_	PUNCT	.	_	27	punct	_	_
+30	,	,	PUNCT	.	_	27	punct	_	_
 31	foi	_	AUX	AUX	_	32	cop	_	_
 32	campeão	campeão	NOUN	NOUN	_	12	conj	_	_
 33-34	do	_	_	_	_	_	_	_	_
@@ -181,40 +181,40 @@
 41	a	a	ADP	ADP	_	43	case	_	_
 42	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
 43	vencer	vencer	VERB	VERB	_	32	advcl	_	_
-44	por	_	ADP	ADP	_	45	case	_	_
+44	por	por	ADP	ADP	_	45	case	_	_
 45	2	_	NUM	NUM	NumType=Card	43	nmod	_	_
 46	a	_	ADP	ADP	_	47	case	_	_
 47	0	_	NUM	NUM	NumType=Card	45	nmod	_	SpaceAfter=No
-48	.	_	PUNCT	.	_	12	punct	_	_
+48	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = train-s8817
 # text = Aliás, isso é o que me realiza e me faz querer ser prefeito: o desejo de fazer o bem às pessoas.
 1	Aliás	aliás	ADV	ADV	_	5	advmod	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	1	punct	_	_
+2	,	,	PUNCT	.	_	1	punct	_	_
 3	isso	_	PRON	PRON	_	5	nsubj	_	_
 4	é	ser	AUX	AUX	_	5	cop	_	_
 5	o	_	PRON	PRON	_	0	root	_	_
 6	que	_	PRON	PRON	_	8	nsubj	_	_
 7	me	_	PRON	PRON	_	8	obj	_	_
 8	realiza	realizar	VERB	VERB	_	5	acl:relcl	_	_
-9	e	_	CCONJ	CONJ	_	11	cc	_	_
+9	e	e	CCONJ	CONJ	_	11	cc	_	_
 10	me	_	PRON	PRON	_	11	obj	_	_
 11	faz	fazer	VERB	VERB	_	8	conj	_	_
 12	querer	querer	VERB	VERB	_	11	ccomp	_	_
 13	ser	ser	AUX	AUX	_	14	cop	_	_
 14	prefeito	prefeito	NOUN	NOUN	_	12	xcomp	_	SpaceAfter=No
-15	:	_	PUNCT	.	_	5	punct	_	_
-16	o	_	DET	DET	_	17	det	_	_
+15	:	:	PUNCT	.	_	5	punct	_	_
+16	o	o	DET	DET	_	17	det	_	_
 17	desejo	desejo	NOUN	NOUN	_	5	parataxis	_	_
 18	de	_	ADP	ADP	_	19	mark	_	_
 19	fazer	fazer	VERB	VERB	_	17	nmod	_	_
-20	o	_	DET	DET	_	21	det	_	_
+20	o	o	DET	DET	_	21	det	_	_
 21	bem	bem	NOUN	NOUN	_	19	obj	_	_
 22-23	às	_	_	_	_	_	_	_	_
 22	a	a	ADP	ADP	_	24	case	_	_
 23	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
 24	pessoas	pessoa	NOUN	NOUN	_	19	iobj	_	SpaceAfter=No
-25	.	_	PUNCT	.	_	5	punct	_	_
+25	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s8818
 # text = Será inaugurada nesta terça - feira (12) em Sinop (MT) a delegacia do Sindicato dos Corretores de Seguro (Sincor) do Estado de Mato Grosso.
@@ -222,17 +222,17 @@
 2	inaugurada	inaugurar	VERB	VERB	_	0	root	_	_
 3	nesta	_	ADP	ADP	_	6	case	_	_
 4	terça	_	PROPN	PNOUN	_	6	amod	_	_
-5	-	_	PUNCT	.	_	6	punct	_	_
+5	-	-	PUNCT	.	_	6	punct	_	_
 6	feira	_	PROPN	PNOUN	_	2	nmod	_	_
-7	(	_	PUNCT	.	_	8	punct	_	SpaceAfter=No
+7	(	(	PUNCT	.	_	8	punct	_	SpaceAfter=No
 8	12	_	NUM	NUM	NumType=Card	6	nmod	_	SpaceAfter=No
-9	)	_	PUNCT	.	_	8	punct	_	_
-10	em	_	ADP	ADP	_	11	case	_	_
+9	)	)	PUNCT	.	_	8	punct	_	_
+10	em	em	ADP	ADP	_	11	case	_	_
 11	Sinop	_	PROPN	PNOUN	_	2	nmod	_	_
-12	(	_	PUNCT	.	_	13	punct	_	SpaceAfter=No
+12	(	(	PUNCT	.	_	13	punct	_	SpaceAfter=No
 13	MT	_	PROPN	PNOUN	_	11	appos	_	SpaceAfter=No
-14	)	_	PUNCT	.	_	13	punct	_	_
-15	a	_	DET	DET	_	16	det	_	_
+14	)	)	PUNCT	.	_	13	punct	_	_
+15	a	a	DET	DET	_	16	det	_	_
 16	delegacia	delegacia	NOUN	NOUN	_	2	nsubj:pass	_	_
 17-18	do	_	_	_	_	_	_	_	_
 17	de	de	ADP	ADP	_	19	case	_	_
@@ -242,19 +242,19 @@
 20	de	de	ADP	ADP	_	22	case	_	_
 21	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
 22	Corretores	_	PROPN	PNOUN	_	19	nmod	_	_
-23	de	_	ADP	ADP	_	24	case	_	_
+23	de	de	ADP	ADP	_	24	case	_	_
 24	Seguro	_	PROPN	PNOUN	_	22	nmod	_	_
-25	(	_	PUNCT	.	_	26	punct	_	SpaceAfter=No
+25	(	(	PUNCT	.	_	26	punct	_	SpaceAfter=No
 26	Sincor	_	PROPN	PNOUN	_	19	appos	_	SpaceAfter=No
-27	)	_	PUNCT	.	_	26	punct	_	_
+27	)	)	PUNCT	.	_	26	punct	_	_
 28-29	do	_	_	_	_	_	_	_	_
 28	de	de	ADP	ADP	_	30	case	_	_
 29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	Estado	_	PROPN	PNOUN	_	19	nmod	_	_
-31	de	_	ADP	ADP	_	32	case	_	_
+31	de	de	ADP	ADP	_	32	case	_	_
 32	Mato	_	PROPN	PNOUN	_	30	nmod	_	_
 33	Grosso	_	PROPN	PNOUN	_	32	amod	_	SpaceAfter=No
-34	.	_	PUNCT	.	_	2	punct	_	_
+34	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s8819
 # text = Sua estréia na televisão aconteceu em 2002, na novela Clase 406, dois anos depois foi chamado para protagonizar Rebelde, considerada uma das maiores telenovelas juvenis.
@@ -265,16 +265,16 @@
 4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	televisão	televisão	NOUN	NOUN	_	2	nmod	_	_
 6	aconteceu	acontecer	VERB	VERB	_	0	root	_	_
-7	em	_	ADP	ADP	_	8	case	_	_
+7	em	em	ADP	ADP	_	8	case	_	_
 8	2002	_	NUM	NUM	NumType=Card	6	nmod	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	12	punct	_	_
+9	,	,	PUNCT	.	_	12	punct	_	_
 10-11	na	_	_	_	_	_	_	_	_
 10	em	em	ADP	ADP	_	12	case	_	_
 11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	novela	novela	NOUN	NOUN	_	6	nmod	_	_
 13	Clase	_	PROPN	PNOUN	_	12	appos	_	_
 14	406	_	NUM	NUM	NumType=Card	13	appos	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	20	punct	_	_
+15	,	,	PUNCT	.	_	20	punct	_	_
 16	dois	_	NUM	NUM	NumType=Card	17	nummod	_	_
 17	anos	ano	NOUN	NOUN	_	18	nmod	_	_
 18	depois	depois	ADV	ADV	_	20	advmod	_	_
@@ -283,7 +283,7 @@
 21	para	_	ADP	ADP	_	22	mark	_	_
 22	protagonizar	protagonizar	VERB	VERB	_	20	nmod	_	_
 23	Rebelde	_	PROPN	PNOUN	_	22	obj	_	SpaceAfter=No
-24	,	_	PUNCT	.	_	26	punct	_	_
+24	,	,	PUNCT	.	_	26	punct	_	_
 25	considerada	considerar	AUX	AUX	_	26	cop	_	_
 26	uma	_	PRON	PRON	_	23	acl:part	_	_
 27-28	das	_	_	_	_	_	_	_	_
@@ -292,31 +292,31 @@
 29	maiores	maior	ADJ	ADJ	_	30	amod	_	_
 30	telenovelas	telenovela	NOUN	NOUN	_	26	nmod	_	_
 31	juvenis	juvenil	ADJ	ADJ	_	30	amod	_	SpaceAfter=No
-32	.	_	PUNCT	.	_	6	punct	_	_
+32	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s8820
 # text = Este pode ser o começo dum tempo com mais amor, paz e solidariedade.
 1	Este	_	PRON	PRON	_	5	nsubj	_	_
 2	pode	_	AUX	AUX	_	5	aux	_	_
 3	ser	ser	AUX	AUX	_	5	cop	_	_
-4	o	_	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	_	5	det	_	_
 5	começo	começo	NOUN	NOUN	_	0	root	_	_
 6-7	dum	_	_	_	_	_	_	_	_
-6	de	_	ADP	ADP	_	8	case	_	_
-7	um	_	DET	DET	_	8	det	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	um	um	DET	DET	_	8	det	_	_
 8	tempo	tempo	NOUN	NOUN	_	5	nmod	_	_
-9	com	_	ADP	ADP	_	11	case	_	_
+9	com	com	ADP	ADP	_	11	case	_	_
 10	mais	_	DET	DET	_	11	det	_	_
 11	amor	amor	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	13	punct	_	_
+12	,	,	PUNCT	.	_	13	punct	_	_
 13	paz	paz	NOUN	NOUN	_	11	conj	_	_
-14	e	_	CCONJ	CONJ	_	15	cc	_	_
+14	e	e	CCONJ	CONJ	_	15	cc	_	_
 15	solidariedade	solidariedade	NOUN	NOUN	_	11	conj	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	5	punct	_	_
+16	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s8821
 # text = A polícia espanhola prendeu na quarta - feira (3) um jovem que pretendia espalhar bombas num campus universitário para imitar o massacre de 1999 na escola americana de Columbine, que deixou 13 mortos, anunciaram as autoridades.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	polícia	polícia	NOUN	NOUN	_	4	nsubj	_	_
 3	espanhola	espanhol	ADJ	ADJ	_	2	amod	_	_
 4	prendeu	prender	VERB	VERB	_	41	ccomp	_	_
@@ -324,43 +324,43 @@
 5	em	em	ADP	ADP	_	9	case	_	_
 6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 7	quarta	_	PROPN	PNOUN	_	9	amod	_	_
-8	-	_	PUNCT	.	_	9	punct	_	_
+8	-	-	PUNCT	.	_	9	punct	_	_
 9	feira	_	PROPN	PNOUN	_	4	nmod	_	_
-10	(	_	PUNCT	.	_	11	punct	_	SpaceAfter=No
+10	(	(	PUNCT	.	_	11	punct	_	SpaceAfter=No
 11	3	_	NUM	NUM	NumType=Card	9	nmod	_	SpaceAfter=No
-12	)	_	PUNCT	.	_	11	punct	_	_
-13	um	_	DET	DET	_	14	det	_	_
+12	)	)	PUNCT	.	_	11	punct	_	_
+13	um	um	DET	DET	_	14	det	_	_
 14	jovem	jovem	NOUN	NOUN	_	4	obj	_	_
 15	que	_	PRON	PRON	_	16	nsubj	_	_
 16	pretendia	pretender	VERB	VERB	_	14	acl:relcl	_	_
 17	espalhar	espalhar	VERB	VERB	_	16	xcomp	_	_
 18	bombas	bomba	NOUN	NOUN	_	17	obj	_	_
 19-20	num	_	_	_	_	_	_	_	_
-19	em	_	ADP	ADP	_	21	case	_	_
-20	um	_	DET	DET	_	21	det	_	_
+19	em	em	ADP	ADP	_	21	case	_	_
+20	um	um	DET	DET	_	21	det	_	_
 21	campus	campus	NOUN	NOUN	_	17	nmod	_	_
 22	universitário	universitário	ADJ	ADJ	_	21	amod	_	_
 23	para	_	ADP	ADP	_	24	mark	_	_
 24	imitar	imitar	VERB	VERB	_	16	advcl	_	_
-25	o	_	DET	DET	_	26	det	_	_
+25	o	o	DET	DET	_	26	det	_	_
 26	massacre	massacre	NOUN	NOUN	_	24	obj	_	_
-27	de	_	ADP	ADP	_	28	case	_	_
+27	de	de	ADP	ADP	_	28	case	_	_
 28	1999	_	NUM	NUM	NumType=Card	26	nmod	_	_
 29-30	na	_	_	_	_	_	_	_	_
 29	em	em	ADP	ADP	_	31	case	_	_
 30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	escola	escola	NOUN	NOUN	_	26	nmod	_	_
 32	americana	americano	ADJ	ADJ	_	31	amod	_	_
-33	de	_	ADP	ADP	_	34	case	_	_
+33	de	de	ADP	ADP	_	34	case	_	_
 34	Columbine	_	PROPN	PNOUN	_	31	nmod	_	SpaceAfter=No
-35	,	_	PUNCT	.	_	37	punct	_	_
+35	,	,	PUNCT	.	_	37	punct	_	_
 36	que	_	PRON	PRON	_	37	nsubj	_	_
 37	deixou	deixar	VERB	VERB	_	26	acl:relcl	_	_
 38	13	_	NUM	NUM	NumType=Card	39	nummod	_	_
 39	mortos	morto	NOUN	NOUN	_	37	obj	_	SpaceAfter=No
-40	,	_	PUNCT	.	_	41	punct	_	_
+40	,	,	PUNCT	.	_	41	punct	_	_
 41	anunciaram	anunciar	VERB	VERB	_	0	root	_	_
-42	as	_	DET	DET	_	43	det	_	_
+42	as	o	DET	DET	_	43	det	_	_
 43	autoridades	autoridade	NOUN	NOUN	_	41	nsubj	_	SpaceAfter=No
-44	.	_	PUNCT	.	_	41	punct	_	_
+44	.	.	PUNCT	.	_	41	punct	_	_
 

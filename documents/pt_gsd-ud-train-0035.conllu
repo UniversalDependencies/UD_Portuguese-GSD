@@ -1,6 +1,6 @@
 # sent_id = train-s341
 # text = A Torcida Bafo do Leão é mais antiga torcida do Nordeste com mais de 30 anos de glórias.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	Torcida	_	PROPN	PNOUN	_	10	nsubj	_	_
 3	Bafo	_	PROPN	PNOUN	_	2	flat	_	_
 4-5	do	_	_	_	_	_	_	_	_
@@ -15,18 +15,18 @@
 11	de	de	ADP	ADP	_	13	case	_	_
 12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	Nordeste	_	PROPN	PNOUN	_	10	nmod	_	_
-14	com	_	ADP	ADP	_	18	case	_	_
+14	com	com	ADP	ADP	_	18	case	_	_
 15	mais	mais	ADV	ADV	_	17	advmod	_	_
-16	de	_	ADP	ADP	_	15	case	_	_
+16	de	de	ADP	ADP	_	15	case	_	_
 17	30	_	NUM	NUM	NumType=Card	18	nummod	_	_
 18	anos	ano	NOUN	NOUN	_	10	nmod	_	_
-19	de	_	ADP	ADP	_	20	case	_	_
+19	de	de	ADP	ADP	_	20	case	_	_
 20	glórias	glória	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
-21	.	_	PUNCT	.	_	10	punct	_	_
+21	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s342
 # text = As informações são da Dow Jones.
-1	As	_	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	_	2	det	_	_
 2	informações	informação	NOUN	NOUN	_	3	nsubj	_	_
 3	são	ser	VERB	VERB	_	0	root	_	_
 4-5	da	_	_	_	_	_	_	_	_
@@ -34,13 +34,13 @@
 5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Dow	_	PROPN	PNOUN	_	3	nmod	_	_
 7	Jones	_	PROPN	PNOUN	_	6	flat	_	SpaceAfter=No
-8	.	_	PUNCT	.	_	3	punct	_	_
+8	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s343
 # text = De acordo com publicação do Ministro Ives Gandra da Silva Martins Filho, a história da origem do Ministério Público do Trabalho se confunde com a da Justiça do Trabalho, que surgiu no Conselho Nacional do Trabalho (Decreto n º 16.027/23), órgão de caráter administrativo instituído no âmbito do Ministério da Agricultura, Indústria e Comércio.
 1	De	_	ADP	ADP	_	2	case	_	_
 2	acordo	acordo	NOUN	NOUN	_	29	nmod	_	_
-3	com	_	ADP	ADP	_	4	case	_	_
+3	com	com	ADP	ADP	_	4	case	_	_
 4	publicação	publicação	NOUN	NOUN	_	2	nmod	_	_
 5-6	do	_	_	_	_	_	_	_	_
 5	de	de	ADP	ADP	_	7	case	_	_
@@ -54,8 +54,8 @@
 12	Silva	_	PROPN	PNOUN	_	7	nmod	_	_
 13	Martins	_	PROPN	PNOUN	_	12	flat	_	_
 14	Filho	_	PROPN	PNOUN	_	12	flat	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	2	punct	_	_
-16	a	_	DET	DET	_	17	det	_	_
+15	,	,	PUNCT	.	_	2	punct	_	_
+16	a	a	DET	DET	_	17	det	_	_
 17	história	história	NOUN	NOUN	_	29	nsubj	_	_
 18-19	da	_	_	_	_	_	_	_	_
 18	de	de	ADP	ADP	_	20	case	_	_
@@ -72,7 +72,7 @@
 27	Trabalho	_	PROPN	PNOUN	_	23	nmod	_	_
 28	se	_	PART	PRT	_	29	expl:pv	_	_
 29	confunde	confundir	VERB	VERB	_	0	root	_	_
-30	com	_	ADP	ADP	_	31	case	_	_
+30	com	com	ADP	ADP	_	31	case	_	_
 31	a	_	PRON	PRON	_	29	nmod	_	_
 32-33	da	_	_	_	_	_	_	_	_
 32	de	de	ADP	ADP	_	34	case	_	_
@@ -82,7 +82,7 @@
 35	de	de	ADP	ADP	_	37	case	_	_
 36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
 37	Trabalho	_	PROPN	PNOUN	_	34	nmod	_	SpaceAfter=No
-38	,	_	PUNCT	.	_	40	punct	_	_
+38	,	,	PUNCT	.	_	40	punct	_	_
 39	que	_	PRON	PRON	_	40	nsubj	_	_
 40	surgiu	surgir	VERB	VERB	_	34	acl:relcl	_	_
 41-42	no	_	_	_	_	_	_	_	_
@@ -94,15 +94,15 @@
 45	de	de	ADP	ADP	_	47	case	_	_
 46	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
 47	Trabalho	_	PROPN	PNOUN	_	43	nmod	_	_
-48	(	_	PUNCT	.	_	49	punct	_	SpaceAfter=No
+48	(	(	PUNCT	.	_	49	punct	_	SpaceAfter=No
 49	Decreto	_	PROPN	PNOUN	_	43	appos	_	_
 50	n	n	NOUN	NOUN	_	49	appos	_	_
 51	º	_	PUNCT	.	_	50	punct	_	_
 52	16.027/23	_	NUM	NUM	NumType=Card	50	appos	_	SpaceAfter=No
-53	)	_	PUNCT	.	_	49	punct	_	SpaceAfter=No
-54	,	_	PUNCT	.	_	55	punct	_	_
+53	)	)	PUNCT	.	_	49	punct	_	SpaceAfter=No
+54	,	,	PUNCT	.	_	55	punct	_	_
 55	órgão	órgão	NOUN	NOUN	_	43	appos	_	_
-56	de	_	ADP	ADP	_	57	case	_	_
+56	de	de	ADP	ADP	_	57	case	_	_
 57	caráter	caráter	NOUN	NOUN	_	55	nmod	_	_
 58	administrativo	administrativo	ADJ	ADJ	_	57	amod	_	_
 59	instituído	instituir	VERB	VERB	_	55	acl:part	_	_
@@ -118,26 +118,26 @@
 66	de	de	ADP	ADP	_	68	case	_	_
 67	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	68	det	_	_
 68	Agricultura	_	PROPN	PNOUN	_	65	nmod	_	SpaceAfter=No
-69	,	_	PUNCT	.	_	70	punct	_	_
+69	,	,	PUNCT	.	_	70	punct	_	_
 70	Indústria	_	PROPN	PNOUN	_	68	conj	_	_
-71	e	_	CCONJ	CONJ	_	72	cc	_	_
+71	e	e	CCONJ	CONJ	_	72	cc	_	_
 72	Comércio	_	PROPN	PNOUN	_	68	conj	_	SpaceAfter=No
-73	.	_	PUNCT	.	_	29	punct	_	_
+73	.	.	PUNCT	.	_	29	punct	_	_
 
 # sent_id = train-s344
 # text = A Light apura os motivos.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	Light	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	apura	apurar	VERB	VERB	_	0	root	_	_
-4	os	_	DET	DET	_	5	det	_	_
+4	os	o	DET	DET	_	5	det	_	_
 5	motivos	_	PROPN	PNOUN	_	3	obj	_	SpaceAfter=No
-6	.	_	PUNCT	.	_	3	punct	_	_
+6	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s345
 # text = Naldo iniciou a sua carreira no futebol do Rio Grande do Sul e deixou o Juventude em 2005 para reforçar o Werder Bremen.
 1	Naldo	_	PROPN	PNOUN	_	2	nsubj	_	_
 2	iniciou	iniciar	VERB	VERB	_	0	root	_	_
-3	a	_	DET	DET	_	5	det	_	_
+3	a	a	DET	DET	_	5	det	_	_
 4	sua	_	DET	DET	_	5	det:poss	_	_
 5	carreira	_	NOUN	NOUN	_	2	obj	_	_
 6-7	no	_	_	_	_	_	_	_	_
@@ -153,22 +153,22 @@
 13	de	de	ADP	ADP	_	15	case	_	_
 14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	Sul	_	PROPN	PNOUN	_	11	nmod	_	_
-16	e	_	CCONJ	CONJ	_	17	cc	_	_
+16	e	e	CCONJ	CONJ	_	17	cc	_	_
 17	deixou	deixar	VERB	VERB	_	2	conj	_	_
-18	o	_	DET	DET	_	19	det	_	_
+18	o	o	DET	DET	_	19	det	_	_
 19	Juventude	_	PROPN	PNOUN	_	17	obj	_	_
-20	em	_	ADP	ADP	_	21	case	_	_
+20	em	em	ADP	ADP	_	21	case	_	_
 21	2005	_	NUM	NUM	NumType=Card	17	nmod	_	_
 22	para	_	ADP	ADP	_	23	mark	_	_
 23	reforçar	reforçar	VERB	VERB	_	17	advcl	_	_
-24	o	_	DET	DET	_	25	det	_	_
+24	o	o	DET	DET	_	25	det	_	_
 25	Werder	_	PROPN	PNOUN	_	23	obj	_	_
 26	Bremen	_	PROPN	PNOUN	_	25	flat	_	SpaceAfter=No
-27	.	_	PUNCT	.	_	2	punct	_	_
+27	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s346
 # text = O padre Politi recorda;
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	padre	padre	NOUN	NOUN	_	4	nsubj	_	_
 3	Politi	_	PROPN	PNOUN	_	2	appos	_	_
 4	recorda	recordar	VERB	VERB	_	0	root	_	SpaceAfter=No
@@ -178,7 +178,7 @@
 # text = Que absurdo!
 1	Que	_	DET	DET	_	2	det	_	_
 2	absurdo	absurdo	NOUN	NOUN	_	0	root	_	SpaceAfter=No
-3	!	_	PUNCT	.	_	2	punct	_	_
+3	!	!	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s348
 # text = Depois de se aventurar por estilos como o sertanejo, Roberto Carlos prepara agora, aos 71 anos, sua estreia no funk carioca.
@@ -186,23 +186,23 @@
 2	de	_	ADP	ADP	_	1	fixed	_	_
 3	se	_	PRON	PRON	_	4	obj	_	_
 4	aventurar	aventurar	VERB	VERB	_	13	advcl	_	_
-5	por	_	ADP	ADP	_	6	case	_	_
+5	por	por	ADP	ADP	_	6	case	_	_
 6	estilos	estilo	NOUN	NOUN	_	4	nmod	_	_
-7	como	_	ADP	ADP	_	9	case	_	_
-8	o	_	DET	DET	_	9	det	_	_
+7	como	como	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	_	9	det	_	_
 9	sertanejo	sertanejo	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	4	punct	_	_
+10	,	,	PUNCT	.	_	4	punct	_	_
 11	Roberto	_	PROPN	PNOUN	_	13	nsubj	_	_
 12	Carlos	_	PROPN	PNOUN	_	11	flat	_	_
 13	prepara	preparar	VERB	VERB	_	0	root	_	_
 14	agora	agora	ADV	ADV	_	13	advmod	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	19	punct	_	_
+15	,	,	PUNCT	.	_	19	punct	_	_
 16-17	aos	_	_	_	_	_	_	_	_
 16	a	a	ADP	ADP	_	19	case	_	_
 17	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
 18	71	_	NUM	NUM	NumType=Card	19	nummod	_	_
 19	anos	ano	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
-20	,	_	PUNCT	.	_	19	punct	_	_
+20	,	,	PUNCT	.	_	19	punct	_	_
 21	sua	_	DET	DET	_	22	det:poss	_	_
 22	estreia	estreia	NOUN	NOUN	_	13	obj	_	_
 23-24	no	_	_	_	_	_	_	_	_
@@ -210,31 +210,31 @@
 24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	funk	funk	NOUN	NOUN	_	22	nmod	_	_
 26	carioca	carioca	ADJ	ADJ	_	25	amod	_	SpaceAfter=No
-27	.	_	PUNCT	.	_	13	punct	_	_
+27	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = train-s349
 # text = Foram mais de 400 práticas inscritas.
 1	Foram	_	VERB	VERB	_	0	root	_	_
 2	mais	mais	ADV	ADV	_	4	advmod	_	_
-3	de	_	ADP	ADP	_	2	case	_	_
+3	de	de	ADP	ADP	_	2	case	_	_
 4	400	_	NUM	NUM	NumType=Card	5	nummod	_	_
 5	práticas	_	NOUN	NOUN	_	1	nsubj	_	_
 6	inscritas	inscrever	VERB	VERB	_	5	acl:part	_	SpaceAfter=No
-7	.	_	PUNCT	.	_	1	punct	_	_
+7	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s350
 # text = Por dentro, o volante revestido em couro é item de série nas versões LT automática e nas duas opções LTZ.
 1	Por	_	ADP	ADP	_	2	mark	_	_
 2	dentro	dentro	ADV	ADV	_	10	nmod	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	2	punct	_	_
-4	o	_	DET	DET	_	5	det	_	_
+3	,	,	PUNCT	.	_	2	punct	_	_
+4	o	o	DET	DET	_	5	det	_	_
 5	volante	volante	NOUN	NOUN	_	10	nsubj	_	_
 6	revestido	revestir	VERB	VERB	_	5	acl:part	_	_
-7	em	_	ADP	ADP	_	8	case	_	_
+7	em	em	ADP	ADP	_	8	case	_	_
 8	couro	couro	NOUN	NOUN	_	6	nmod	_	_
 9	é	ser	AUX	AUX	_	10	cop	_	_
 10	item	item	NOUN	NOUN	_	0	root	_	_
-11	de	_	ADP	ADP	_	12	case	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
 12	série	série	NOUN	NOUN	_	10	nmod	_	_
 13-14	nas	_	_	_	_	_	_	_	_
 13	em	em	ADP	ADP	_	15	case	_	_
@@ -242,12 +242,12 @@
 15	versões	versão	NOUN	NOUN	_	10	nmod	_	_
 16	LT	_	PROPN	PNOUN	_	15	appos	_	_
 17	automática	automático	ADJ	ADJ	_	16	amod	_	_
-18	e	_	CCONJ	CONJ	_	22	cc	_	_
+18	e	e	CCONJ	CONJ	_	22	cc	_	_
 19-20	nas	_	_	_	_	_	_	_	_
 19	em	em	ADP	ADP	_	22	case	_	_
 20	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
 21	duas	_	NUM	NUM	NumType=Card	22	nummod	_	_
 22	opções	opção	NOUN	NOUN	_	15	conj	_	_
 23	LTZ	_	PROPN	PNOUN	_	22	appos	_	SpaceAfter=No
-24	.	_	PUNCT	.	_	10	punct	_	_
+24	.	.	PUNCT	.	_	10	punct	_	_
 

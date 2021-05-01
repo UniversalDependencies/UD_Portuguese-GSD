@@ -1,8 +1,8 @@
 # sent_id = train-s9477
 # text = O Instituto de Arte Contemporânea também publicou vários catálogos registrando suas exposições, entre eles: Campo Ampliado, Absorção e Intimismo em Volpi, O Olhar do Colecionador -- Coleção Tuiuiu, Sergio Camargo -- Claro Enigma.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	Instituto	_	PROPN	PNOUN	_	7	nsubj	_	_
-3	de	_	ADP	ADP	_	4	case	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
 4	Arte	_	PROPN	PNOUN	_	2	nmod	_	_
 5	Contemporânea	_	PROPN	PNOUN	_	4	amod	_	_
 6	também	também	ADV	ADV	_	7	advmod	_	_
@@ -12,20 +12,20 @@
 10	registrando	registrar	VERB	VERB	_	9	acl:part	_	_
 11	suas	_	DET	DET	_	12	det:poss	_	_
 12	exposições	exposição	NOUN	NOUN	_	10	obj	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	17	punct	_	_
+13	,	,	PUNCT	.	_	17	punct	_	_
 14	entre	_	ADP	ADP	_	15	case	_	_
 15	eles	_	PRON	PRON	_	17	nmod	_	SpaceAfter=No
-16	:	_	PUNCT	.	_	9	punct	_	_
+16	:	:	PUNCT	.	_	9	punct	_	_
 17	Campo	_	PROPN	PNOUN	_	9	appos	_	_
 18	Ampliado	_	PROPN	PNOUN	_	17	amod	_	SpaceAfter=No
-19	,	_	PUNCT	.	_	20	punct	_	_
+19	,	,	PUNCT	.	_	20	punct	_	_
 20	Absorção	_	PROPN	PNOUN	_	17	conj	_	_
-21	e	_	CCONJ	CONJ	_	22	cc	_	_
+21	e	e	CCONJ	CONJ	_	22	cc	_	_
 22	Intimismo	_	PROPN	PNOUN	_	20	conj	_	_
-23	em	_	ADP	ADP	_	24	case	_	_
+23	em	em	ADP	ADP	_	24	case	_	_
 24	Volpi	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
-25	,	_	PUNCT	.	_	27	punct	_	_
-26	O	_	DET	DET	_	27	det	_	_
+25	,	,	PUNCT	.	_	27	punct	_	_
+26	O	o	DET	DET	_	27	det	_	_
 27	Olhar	_	PROPN	PNOUN	_	17	conj	_	_
 28-29	do	_	_	_	_	_	_	_	_
 28	de	de	ADP	ADP	_	30	case	_	_
@@ -34,56 +34,56 @@
 31	--	_	PUNCT	.	_	32	punct	_	_
 32	Coleção	_	PROPN	PNOUN	_	27	appos	_	_
 33	Tuiuiu	_	PROPN	PNOUN	_	32	flat	_	SpaceAfter=No
-34	,	_	PUNCT	.	_	35	punct	_	_
+34	,	,	PUNCT	.	_	35	punct	_	_
 35	Sergio	_	PROPN	PNOUN	_	17	conj	_	_
 36	Camargo	_	PROPN	PNOUN	_	35	flat	_	_
 37	--	_	PUNCT	.	_	39	punct	_	_
 38	Claro	_	PROPN	PNOUN	_	39	amod	_	_
 39	Enigma	_	PROPN	PNOUN	_	35	appos	_	SpaceAfter=No
-40	.	_	PUNCT	.	_	7	punct	_	_
+40	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s9478
 # text = Anaciaeschna é um género de libelinha da família Aeshnidae.
 1	Anaciaeschna	_	PROPN	PNOUN	_	4	nsubj	_	_
 2	é	ser	AUX	AUX	_	4	cop	_	_
-3	um	_	DET	DET	_	4	det	_	_
+3	um	um	DET	DET	_	4	det	_	_
 4	género	género	NOUN	NOUN	_	0	root	_	_
-5	de	_	ADP	ADP	_	6	case	_	_
+5	de	de	ADP	ADP	_	6	case	_	_
 6	libelinha	libelinha	NOUN	NOUN	_	4	nmod	_	_
 7-8	da	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
 8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	família	família	NOUN	NOUN	_	4	nmod	_	_
 10	Aeshnidae	_	PROPN	PNOUN	_	9	appos	_	SpaceAfter=No
-11	.	_	PUNCT	.	_	4	punct	_	_
+11	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s9479
 # text = Diversas opções artísticas e de assistência pública estão disponíveis esta semana em Manaus.
 1	Diversas	_	DET	DET	_	2	det	_	_
 2	opções	opção	NOUN	NOUN	_	8	nsubj	_	_
 3	artísticas	artístico	ADJ	ADJ	_	2	amod	_	_
-4	e	_	CCONJ	CONJ	_	2	cc	_	_
-5	de	_	ADP	ADP	_	6	case	_	_
+4	e	e	CCONJ	CONJ	_	2	cc	_	_
+5	de	de	ADP	ADP	_	6	case	_	_
 6	assistência	assistência	NOUN	NOUN	_	2	nmod	_	_
 7	pública	público	ADJ	ADJ	_	6	amod	_	_
 8	estão	estar	VERB	VERB	_	0	root	_	_
 9	disponíveis	disponível	ADJ	ADJ	_	8	xcomp:adj	_	_
 10	esta	_	DET	DET	_	11	det	_	_
 11	semana	semana	NOUN	NOUN	_	8	nmod	_	_
-12	em	_	ADP	ADP	_	13	case	_	_
+12	em	em	ADP	ADP	_	13	case	_	_
 13	Manaus	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
-14	.	_	PUNCT	.	_	8	punct	_	_
+14	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s9480
 # text = "Estou realmente impressionado com a quantidade de serviços sob demanda disponíveis pela AWS", diz Aaron Kenny, antes engenheiro da McAfee e agora CTO da startup eMeals.com, um site completamente hospedado na nuvem da AWS e que ajuda os usuários com planos de alimentação saudáveis.
-1	"	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
 2	Estou	estar	VERB	VERB	_	18	ccomp	_	_
 3	realmente	realmente	ADV	ADV	_	2	advmod	_	_
 4	impressionado	impressionado	ADJ	ADJ	_	2	xcomp:adj	_	_
-5	com	_	ADP	ADP	_	7	case	_	_
-6	a	_	DET	DET	_	7	det	_	_
+5	com	com	ADP	ADP	_	7	case	_	_
+6	a	a	DET	DET	_	7	det	_	_
 7	quantidade	quantidade	NOUN	NOUN	_	4	nmod	_	_
-8	de	_	ADP	ADP	_	9	case	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
 9	serviços	serviço	NOUN	NOUN	_	7	nmod	_	_
 10	sob	_	ADP	ADP	_	11	case	_	_
 11	demanda	demanda	NOUN	NOUN	_	9	nmod	_	_
@@ -92,19 +92,19 @@
 13	por	por	ADP	ADP	_	15	case	_	_
 14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	AWS	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
-16	"	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	18	punct	_	_
+16	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
+17	,	,	PUNCT	.	_	18	punct	_	_
 18	diz	dizer	VERB	VERB	_	0	root	_	_
 19	Aaron	_	PROPN	PNOUN	_	18	nsubj	_	_
 20	Kenny	_	PROPN	PNOUN	_	19	flat	_	SpaceAfter=No
-21	,	_	PUNCT	.	_	23	punct	_	_
+21	,	,	PUNCT	.	_	23	punct	_	_
 22	antes	antes	ADV	ADV	_	23	advmod	_	_
 23	engenheiro	engenheiro	NOUN	NOUN	_	19	appos	_	_
 24-25	da	_	_	_	_	_	_	_	_
 24	de	de	ADP	ADP	_	26	case	_	_
 25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	McAfee	_	PROPN	PNOUN	_	23	nmod	_	_
-27	e	_	CCONJ	CONJ	_	29	cc	_	_
+27	e	e	CCONJ	CONJ	_	29	cc	_	_
 28	agora	agora	ADV	ADV	_	29	advmod	_	_
 29	CTO	_	PROPN	PNOUN	_	23	conj	_	_
 30-31	da	_	_	_	_	_	_	_	_
@@ -112,8 +112,8 @@
 31	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	startup	_	NOUN	NOUN	_	29	nmod	_	_
 33	eMeals.com	_	PROPN	PNOUN	_	32	appos	_	SpaceAfter=No
-34	,	_	PUNCT	.	_	23	punct	_	_
-35	um	_	DET	DET	_	36	det	_	_
+34	,	,	PUNCT	.	_	23	punct	_	_
+35	um	um	DET	DET	_	36	det	_	_
 36	site	site	NOUN	NOUN	_	33	appos	_	_
 37	completamente	completamente	ADV	ADV	_	38	advmod	_	_
 38	hospedado	hospedado	ADJ	ADJ	_	36	amod	_	_
@@ -125,21 +125,21 @@
 42	de	de	ADP	ADP	_	44	case	_	_
 43	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
 44	AWS	_	PROPN	PNOUN	_	41	nmod	_	_
-45	e	_	CCONJ	CONJ	_	47	cc	_	_
+45	e	e	CCONJ	CONJ	_	47	cc	_	_
 46	que	_	PRON	PRON	_	47	nsubj	_	_
 47	ajuda	ajudar	VERB	VERB	_	38	conj	_	_
-48	os	_	DET	DET	_	49	det	_	_
+48	os	o	DET	DET	_	49	det	_	_
 49	usuários	usuário	NOUN	NOUN	_	47	obj	_	_
-50	com	_	ADP	ADP	_	51	case	_	_
+50	com	com	ADP	ADP	_	51	case	_	_
 51	planos	plano	NOUN	NOUN	_	47	nmod	_	_
-52	de	_	ADP	ADP	_	53	case	_	_
+52	de	de	ADP	ADP	_	53	case	_	_
 53	alimentação	alimentação	NOUN	NOUN	_	51	nmod	_	_
 54	saudáveis	saudável	ADJ	ADJ	_	51	amod	_	SpaceAfter=No
-55	.	_	PUNCT	.	_	18	punct	_	_
+55	.	.	PUNCT	.	_	18	punct	_	_
 
 # sent_id = train-s9481
 # text = A magistrada é titular da 3 ª Vara de Fazenda Pública e Registros Públicos da Comarca de Campo Grande e assume a vaga deixada pela Desa.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	magistrada	magistrado	NOUN	NOUN	_	4	nsubj	_	_
 3	é	ser	AUX	AUX	_	4	cop	_	_
 4	titular	titular	NOUN	NOUN	_	0	root	_	_
@@ -149,43 +149,43 @@
 7	3	_	ADJ	ADJ	_	9	amod	_	_
 8	ª	_	PUNCT	.	_	7	punct	_	_
 9	Vara	_	PROPN	PNOUN	_	4	nmod	_	_
-10	de	_	ADP	ADP	_	11	case	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
 11	Fazenda	_	PROPN	PNOUN	_	9	nmod	_	_
 12	Pública	_	PROPN	PNOUN	_	11	amod	_	_
-13	e	_	CCONJ	CONJ	_	14	cc	_	_
+13	e	e	CCONJ	CONJ	_	14	cc	_	_
 14	Registros	_	PROPN	PNOUN	_	11	conj	_	_
 15	Públicos	_	PROPN	PNOUN	_	14	amod	_	_
 16-17	da	_	_	_	_	_	_	_	_
 16	de	de	ADP	ADP	_	18	case	_	_
 17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	Comarca	_	PROPN	PNOUN	_	9	nmod	_	_
-19	de	_	ADP	ADP	_	20	case	_	_
+19	de	de	ADP	ADP	_	20	case	_	_
 20	Campo	_	PROPN	PNOUN	_	18	nmod	_	_
 21	Grande	_	PROPN	PNOUN	_	20	amod	_	_
-22	e	_	CCONJ	CONJ	_	23	cc	_	_
+22	e	e	CCONJ	CONJ	_	23	cc	_	_
 23	assume	assumir	VERB	VERB	_	4	conj	_	_
-24	a	_	DET	DET	_	25	det	_	_
+24	a	a	DET	DET	_	25	det	_	_
 25	vaga	vaga	NOUN	NOUN	_	23	obj	_	_
 26	deixada	deixar	VERB	VERB	_	25	acl:part	_	_
 27-28	pela	_	_	_	_	_	_	_	_
 27	por	por	ADP	ADP	_	29	case	_	_
 28	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	Desa	_	PROPN	PNOUN	_	26	nmod	_	SpaceAfter=No
-30	.	_	PUNCT	.	_	4	punct	_	_
+30	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s9482
 # text = O acordo contempla ainda o incremento da participação de agricultores familiares na cadeia do biodiesel, com geração de até 2.430 postos de trabalhos rurais.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	acordo	acordo	NOUN	NOUN	_	3	nsubj	_	_
 3	contempla	contemplar	VERB	VERB	_	0	root	_	_
 4	ainda	ainda	ADV	ADV	_	3	advmod	_	_
-5	o	_	DET	DET	_	6	det	_	_
+5	o	o	DET	DET	_	6	det	_	_
 6	incremento	incremento	NOUN	NOUN	_	3	obj	_	_
 7-8	da	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
 8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	participação	participação	NOUN	NOUN	_	6	nmod	_	_
-10	de	_	ADP	ADP	_	11	case	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
 11	agricultores	agricultor	NOUN	NOUN	_	9	nmod	_	_
 12	familiares	familiar	ADJ	ADJ	_	11	amod	_	_
 13-14	na	_	_	_	_	_	_	_	_
@@ -196,24 +196,24 @@
 16	de	de	ADP	ADP	_	18	case	_	_
 17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	biodiesel	_	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
-19	,	_	PUNCT	.	_	21	punct	_	_
-20	com	_	ADP	ADP	_	21	case	_	_
+19	,	,	PUNCT	.	_	21	punct	_	_
+20	com	com	ADP	ADP	_	21	case	_	_
 21	geração	geração	NOUN	NOUN	_	6	nmod	_	_
-22	de	_	ADP	ADP	_	25	case	_	_
+22	de	de	ADP	ADP	_	25	case	_	_
 23	até	até	ADV	ADV	_	24	advmod	_	_
 24	2.430	_	NUM	NUM	NumType=Card	25	nummod	_	_
 25	postos	posto	NOUN	NOUN	_	21	nmod	_	_
-26	de	_	ADP	ADP	_	27	case	_	_
+26	de	de	ADP	ADP	_	27	case	_	_
 27	trabalhos	trabalho	NOUN	NOUN	_	25	nmod	_	_
 28	rurais	rural	ADJ	ADJ	_	27	amod	_	SpaceAfter=No
-29	.	_	PUNCT	.	_	3	punct	_	_
+29	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s9483
 # text = "Sabemos que o problema não se resume a apenas a escola, mas a única forma de garantir a vida e a integridade física de alunos, professores e diretores foi essa.
-1	"	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
 2	Sabemos	saber	VERB	VERB	_	0	root	_	_
-3	que	_	CCONJ	CONJ	_	8	mark	_	_
-4	o	_	DET	DET	_	5	det	_	_
+3	que	que	CCONJ	CONJ	_	8	mark	_	_
+4	o	o	DET	DET	_	5	det	_	_
 5	problema	problema	NOUN	NOUN	_	8	nsubj	_	_
 6	não	não	ADV	ADV	Polarity=Neg	8	advmod	_	_
 7	se	_	PRON	PRON	_	8	expl:pv	_	_
@@ -222,34 +222,34 @@
 10	apenas	apenas	ADV	ADV	_	12	advmod	_	_
 11	a	_	DET	DET	_	12	dep	_	_
 12	escola	escola	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	12	punct	_	_
+13	,	,	PUNCT	.	_	12	punct	_	_
 14	mas	_	CCONJ	CONJ	_	17	cc	_	_
-15	a	_	DET	DET	_	17	det	_	_
+15	a	a	DET	DET	_	17	det	_	_
 16	única	único	ADJ	ADJ	_	17	amod	_	_
 17	forma	forma	NOUN	NOUN	_	8	conj	_	_
 18	de	_	ADP	ADP	_	19	mark	_	_
 19	garantir	garantir	VERB	VERB	_	17	nmod	_	_
-20	a	_	DET	DET	_	21	det	_	_
+20	a	a	DET	DET	_	21	det	_	_
 21	vida	vida	NOUN	NOUN	_	19	obj	_	_
 22	e	e	CCONJ	CONJ	_	24	cc	_	_
 23	a	o	DET	DET	_	24	det	_	_
 24	integridade	integridade	NOUN	NOUN	_	21	conj	_	_
 25	física	físico	ADJ	ADJ	_	24	amod	_	_
-26	de	_	ADP	ADP	_	27	case	_	_
+26	de	de	ADP	ADP	_	27	case	_	_
 27	alunos	aluno	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
-28	,	_	PUNCT	.	_	29	punct	_	_
+28	,	,	PUNCT	.	_	29	punct	_	_
 29	professores	professor	NOUN	NOUN	_	27	conj	_	_
-30	e	_	CCONJ	CONJ	_	31	cc	_	_
+30	e	e	CCONJ	CONJ	_	31	cc	_	_
 31	diretores	diretor	NOUN	NOUN	_	27	conj	_	_
 32	foi	_	AUX	AUX	_	17	cop	_	_
 33	essa	_	PRON	PRON	_	17	nsubj	_	SpaceAfter=No
-34	.	_	PUNCT	.	_	2	punct	_	_
+34	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s9484
 # text = Essa dívida, que permanceu depois da negociação entre Galo e Vasco, era de 900 mil euros, algo em torno de R $ 2,221,816,77 milhões, se convertido atualmente.
 1	Essa	_	DET	DET	_	2	det	_	_
 2	dívida	dívida	NOUN	NOUN	_	15	nsubj	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	5	punct	_	_
+3	,	,	PUNCT	.	_	5	punct	_	_
 4	que	_	PRON	PRON	_	5	nsubj	_	_
 5	permanceu	_	VERB	VERB	_	2	acl:relcl	_	_
 6	depois	depois	ADV	ADV	_	9	case	_	_
@@ -259,15 +259,15 @@
 9	negociação	negociação	NOUN	NOUN	_	5	nmod	_	_
 10	entre	_	ADP	ADP	_	11	case	_	_
 11	Galo	_	PROPN	PNOUN	_	9	nmod	_	_
-12	e	_	CCONJ	CONJ	_	13	cc	_	_
+12	e	e	CCONJ	CONJ	_	13	cc	_	_
 13	Vasco	_	PROPN	PNOUN	_	11	conj	_	SpaceAfter=No
-14	,	_	PUNCT	.	_	5	punct	_	_
+14	,	,	PUNCT	.	_	5	punct	_	_
 15	era	_	VERB	VERB	_	0	root	_	_
-16	de	_	ADP	ADP	_	19	case	_	_
+16	de	de	ADP	ADP	_	19	case	_	_
 17	900	_	NUM	NUM	NumType=Card	18	nummod	_	_
 18	mil	_	NUM	NUM	NumType=Card	19	nummod	_	_
 19	euros	euro	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
-20	,	_	PUNCT	.	_	21	punct	_	_
+20	,	,	PUNCT	.	_	21	punct	_	_
 21	algo	_	PRON	PRON	_	19	appos	_	_
 22	em	_	ADP	ADP	_	28	advmod	_	_
 23	torno	torno	NOUN	NOUN	_	22	fixed	_	_
@@ -276,32 +276,32 @@
 26	$	_	SYM	SYM	_	25	flat	_	_
 27	2,221,816,77	_	NUM	NUM	NumType=Card	28	nummod	_	_
 28	milhões	_	NUM	NUM	NumType=Card	25	nummod	_	SpaceAfter=No
-29	,	_	PUNCT	.	_	31	punct	_	_
+29	,	,	PUNCT	.	_	31	punct	_	_
 30	se	_	CCONJ	CONJ	_	31	mark	_	_
 31	convertido	converter	VERB	VERB	_	15	advcl	_	_
 32	atualmente	atualmente	ADV	ADV	_	31	advmod	_	SpaceAfter=No
-33	.	_	PUNCT	.	_	15	punct	_	_
+33	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = train-s9485
 # text = O Brasil tem problemas imensos e grandes dificuldades para enfrentá - los.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	Brasil	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	tem	ter	VERB	VERB	_	0	root	_	_
 4	problemas	problema	NOUN	NOUN	_	3	obj	_	_
 5	imensos	imenso	ADJ	ADJ	_	4	amod	_	_
-6	e	_	CCONJ	CONJ	_	8	cc	_	_
+6	e	e	CCONJ	CONJ	_	8	cc	_	_
 7	grandes	grande	ADJ	ADJ	_	8	amod	_	_
 8	dificuldades	dificuldade	NOUN	NOUN	_	4	conj	_	_
 9	para	_	ADP	ADP	_	10	mark	_	_
 10	enfrentá	enfrentar	VERB	VERB	_	8	nmod	_	_
-11	-	_	PUNCT	.	_	10	punct	_	_
+11	-	-	PUNCT	.	_	10	punct	_	_
 12	los	_	PRON	PRON	_	10	obj	_	SpaceAfter=No
-13	.	_	PUNCT	.	_	3	punct	_	_
+13	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s9486
 # text = Com a negativa dessas companhias em aderir ao novo modelo, a economia média nas contas dos consumidores ficará em 16,7 % em 2013.
 1	Com	_	ADP	ADP	_	3	case	_	_
-2	a	_	DET	DET	_	3	det	_	_
+2	a	a	DET	DET	_	3	det	_	_
 3	negativa	_	NOUN	NOUN	_	22	nmod	_	_
 4	dessas	_	ADP	ADP	_	5	case	_	_
 5	companhias	companhia	NOUN	NOUN	_	3	nmod	_	_
@@ -312,8 +312,8 @@
 9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 10	novo	novo	ADJ	ADJ	_	11	amod	_	_
 11	modelo	modelo	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	3	punct	_	_
-13	a	_	DET	DET	_	14	det	_	_
+12	,	,	PUNCT	.	_	3	punct	_	_
+13	a	a	DET	DET	_	14	det	_	_
 14	economia	economia	NOUN	NOUN	_	22	nsubj	_	_
 15	média	médio	ADJ	ADJ	_	14	amod	_	_
 16-17	nas	_	_	_	_	_	_	_	_
@@ -325,10 +325,10 @@
 20	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
 21	consumidores	consumidor	NOUN	NOUN	_	18	nmod	_	_
 22	ficará	ficar	VERB	VERB	_	0	root	_	_
-23	em	_	ADP	ADP	_	25	case	_	_
+23	em	em	ADP	ADP	_	25	case	_	_
 24	16,7	_	NUM	NUM	NumType=Card	25	nummod	_	_
 25	%	_	SYM	SYM	_	22	nmod	_	_
-26	em	_	ADP	ADP	_	27	case	_	_
+26	em	em	ADP	ADP	_	27	case	_	_
 27	2013	_	NUM	NUM	NumType=Card	22	nmod	_	SpaceAfter=No
-28	.	_	PUNCT	.	_	22	punct	_	_
+28	.	.	PUNCT	.	_	22	punct	_	_
 

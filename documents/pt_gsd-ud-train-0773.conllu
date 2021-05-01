@@ -1,11 +1,11 @@
 # sent_id = train-s7673
 # text = -- O espanhol David Ferrer, quinto melhor tenista do mundo, classificou - se nesta sexta - feira para a semifinal do Masters 1.000 de Paris ao derrotar o francês Jo - Wilfried Tsonga por 6-2 e 7-5 numa hora e 20 minutos.
 1	--	_	PUNCT	.	_	14	punct	_	_
-2	O	_	DET	DET	_	3	det	_	_
+2	O	o	DET	DET	_	3	det	_	_
 3	espanhol	espanhol	NOUN	NOUN	_	14	nsubj	_	_
 4	David	_	PROPN	PNOUN	_	3	appos	_	_
 5	Ferrer	_	PROPN	PNOUN	_	4	flat	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	9	punct	_	_
+6	,	,	PUNCT	.	_	9	punct	_	_
 7	quinto	_	ADJ	ADJ	_	9	amod	_	_
 8	melhor	melhor	ADJ	ADJ	_	9	amod	_	_
 9	tenista	tenista	NOUN	NOUN	_	4	appos	_	_
@@ -13,68 +13,68 @@
 10	de	de	ADP	ADP	_	12	case	_	_
 11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	mundo	mundo	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	9	punct	_	_
+13	,	,	PUNCT	.	_	9	punct	_	_
 14	classificou	classificar	VERB	VERB	_	0	root	_	_
-15	-	_	PUNCT	.	_	14	punct	_	_
+15	-	-	PUNCT	.	_	14	punct	_	_
 16	se	_	PRON	PRON	_	14	obj	_	_
 17	nesta	_	ADP	ADP	_	20	case	_	_
 18	sexta	_	PROPN	PNOUN	_	20	amod	_	_
-19	-	_	PUNCT	.	_	20	punct	_	_
+19	-	-	PUNCT	.	_	20	punct	_	_
 20	feira	_	PROPN	PNOUN	_	14	nmod	_	_
-21	para	_	ADP	ADP	_	23	case	_	_
-22	a	_	DET	DET	_	23	det	_	_
+21	para	para	ADP	ADP	_	23	case	_	_
+22	a	a	DET	DET	_	23	det	_	_
 23	semifinal	semifinal	NOUN	NOUN	_	14	nmod	_	_
 24-25	do	_	_	_	_	_	_	_	_
 24	de	de	ADP	ADP	_	26	case	_	_
 25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	Masters	_	PROPN	PNOUN	_	23	nmod	_	_
 27	1.000	_	NUM	NUM	NumType=Card	26	appos	_	_
-28	de	_	ADP	ADP	_	29	case	_	_
+28	de	de	ADP	ADP	_	29	case	_	_
 29	Paris	_	PROPN	PNOUN	_	26	nmod	_	_
 30-31	ao	_	_	_	_	_	_	_	_
 30	a	a	ADP	ADP	_	32	case	_	_
 31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	derrotar	derrotar	VERB	VERB	_	14	advcl	_	_
-33	o	_	DET	DET	_	34	det	_	_
+33	o	o	DET	DET	_	34	det	_	_
 34	francês	francês	NOUN	NOUN	_	32	obj	_	_
 35	Jo	_	PROPN	PNOUN	_	34	appos	_	_
-36	-	_	PUNCT	.	_	35	punct	_	_
+36	-	-	PUNCT	.	_	35	punct	_	_
 37	Wilfried	_	PROPN	PNOUN	_	35	flat	_	_
 38	Tsonga	_	PROPN	PNOUN	_	35	flat	_	_
-39	por	_	ADP	ADP	_	40	case	_	_
+39	por	por	ADP	ADP	_	40	case	_	_
 40	6-2	_	NUM	NUM	NumType=Card	32	nmod	_	_
-41	e	_	CCONJ	CONJ	_	42	cc	_	_
+41	e	e	CCONJ	CONJ	_	42	cc	_	_
 42	7-5	_	NUM	NUM	NumType=Card	40	conj	_	_
 43-44	numa	_	_	_	_	_	_	_	_
-43	em	_	ADP	ADP	_	45	case	_	_
+43	em	em	ADP	ADP	_	45	case	_	_
 44	uma	_	NUM	NUM	NumType=Card	45	nummod	_	_
 45	hora	hora	NOUN	NOUN	_	32	nmod	_	_
-46	e	_	CCONJ	CONJ	_	48	cc	_	_
+46	e	e	CCONJ	CONJ	_	48	cc	_	_
 47	20	_	NUM	NUM	NumType=Card	48	nummod	_	_
 48	minutos	minuto	NOUN	NOUN	_	45	conj	_	SpaceAfter=No
-49	.	_	PUNCT	.	_	32	punct	_	_
+49	.	.	PUNCT	.	_	32	punct	_	_
 
 # sent_id = train-s7674
 # text = O banco busca fortalecer a parceria com os clientes e com propostas de quitação de débitos, inclusive com parcelamentos no prazo original da operação e redução de multas e juros.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	banco	banco	NOUN	NOUN	_	3	nsubj	_	_
 3	busca	buscar	VERB	VERB	_	0	root	_	_
 4	fortalecer	fortalecer	VERB	VERB	_	3	xcomp	_	_
-5	a	_	DET	DET	_	6	det	_	_
+5	a	a	DET	DET	_	6	det	_	_
 6	parceria	parceria	NOUN	NOUN	_	4	obj	_	_
-7	com	_	ADP	ADP	_	9	case	_	_
-8	os	_	DET	DET	_	9	det	_	_
+7	com	com	ADP	ADP	_	9	case	_	_
+8	os	o	DET	DET	_	9	det	_	_
 9	clientes	cliente	NOUN	NOUN	_	4	nmod	_	_
-10	e	_	CCONJ	CONJ	_	12	cc	_	_
-11	com	_	ADP	ADP	_	12	case	_	_
+10	e	e	CCONJ	CONJ	_	12	cc	_	_
+11	com	com	ADP	ADP	_	12	case	_	_
 12	propostas	_	NOUN	NOUN	_	9	conj	_	_
-13	de	_	ADP	ADP	_	14	case	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
 14	quitação	quitação	NOUN	NOUN	_	12	nmod	_	_
-15	de	_	ADP	ADP	_	16	case	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
 16	débitos	débito	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	4	punct	_	_
+17	,	,	PUNCT	.	_	4	punct	_	_
 18	inclusive	inclusive	ADV	ADV	_	4	advmod	_	_
-19	com	_	ADP	ADP	_	20	case	_	_
+19	com	com	ADP	ADP	_	20	case	_	_
 20	parcelamentos	parcelamento	NOUN	NOUN	_	18	nmod	_	_
 21-22	no	_	_	_	_	_	_	_	_
 21	em	em	ADP	ADP	_	23	case	_	_
@@ -85,13 +85,13 @@
 25	de	de	ADP	ADP	_	27	case	_	_
 26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	operação	operação	NOUN	NOUN	_	23	nmod	_	_
-28	e	_	CCONJ	CONJ	_	29	cc	_	_
+28	e	e	CCONJ	CONJ	_	29	cc	_	_
 29	redução	redução	NOUN	NOUN	_	20	conj	_	_
-30	de	_	ADP	ADP	_	31	case	_	_
+30	de	de	ADP	ADP	_	31	case	_	_
 31	multas	multa	NOUN	NOUN	_	29	nmod	_	_
-32	e	_	CCONJ	CONJ	_	33	cc	_	_
+32	e	e	CCONJ	CONJ	_	33	cc	_	_
 33	juros	juro	NOUN	NOUN	_	31	conj	_	SpaceAfter=No
-34	.	_	PUNCT	.	_	3	punct	_	_
+34	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s7675
 # text = Ainda mais num jogo como esse, um confronto direto".
@@ -99,26 +99,26 @@
 2	mais	mais	ADV	ADV	_	4	advmod	_	_
 3	num	_	ADP	ADP	_	4	case	_	_
 4	jogo	jogo	NOUN	NOUN	_	0	root	_	_
-5	como	_	ADP	ADP	_	6	case	_	_
+5	como	como	ADP	ADP	_	6	case	_	_
 6	esse	_	PRON	PRON	_	4	nmod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	9	punct	_	_
-8	um	_	DET	DET	_	9	det	_	_
+7	,	,	PUNCT	.	_	9	punct	_	_
+8	um	um	DET	DET	_	9	det	_	_
 9	confronto	confronto	NOUN	NOUN	_	4	appos	_	_
 10	direto	direto	ADJ	ADJ	_	9	amod	_	SpaceAfter=No
-11	"	_	PUNCT	.	_	9	punct	_	SpaceAfter=No
-12	.	_	PUNCT	.	_	4	punct	_	_
+11	"	"	PUNCT	.	_	9	punct	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s7676
 # text = De acordo com o Vice - Presidente, a grande diferença no novo modelo está no fortalecimento da abertura de mercados através da maior flexibilidade comercial, proporcionada por agregar mais serviços às linhas de produtos.
 1	De	_	ADP	ADP	_	2	case	_	_
 2	acordo	acordo	NOUN	NOUN	_	16	nmod	_	_
-3	com	_	ADP	ADP	_	5	case	_	_
-4	o	_	DET	DET	_	5	det	_	_
+3	com	com	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	_	5	det	_	_
 5	Vice	_	PROPN	PNOUN	_	2	nmod	_	_
-6	-	_	PUNCT	.	_	5	punct	_	_
+6	-	-	PUNCT	.	_	5	punct	_	_
 7	Presidente	_	PROPN	PNOUN	_	5	flat	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	2	punct	_	_
-9	a	_	DET	DET	_	11	det	_	_
+8	,	,	PUNCT	.	_	2	punct	_	_
+9	a	a	DET	DET	_	11	det	_	_
 10	grande	grande	ADJ	ADJ	_	11	amod	_	_
 11	diferença	diferença	NOUN	NOUN	_	16	nsubj	_	_
 12-13	no	_	_	_	_	_	_	_	_
@@ -135,7 +135,7 @@
 20	de	de	ADP	ADP	_	22	case	_	_
 21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	abertura	abertura	NOUN	NOUN	_	19	nmod	_	_
-23	de	_	ADP	ADP	_	24	case	_	_
+23	de	de	ADP	ADP	_	24	case	_	_
 24	mercados	mercado	NOUN	NOUN	_	22	nmod	_	_
 25	através	através	ADV	ADV	_	19	advmod	_	_
 26-27	da	_	_	_	_	_	_	_	_
@@ -144,7 +144,7 @@
 28	maior	maior	ADJ	ADJ	_	29	amod	_	_
 29	flexibilidade	flexibilidade	NOUN	NOUN	_	25	nmod	_	_
 30	comercial	comercial	ADJ	ADJ	_	29	amod	_	SpaceAfter=No
-31	,	_	PUNCT	.	_	32	punct	_	_
+31	,	,	PUNCT	.	_	32	punct	_	_
 32	proporcionada	proporcionar	VERB	VERB	_	29	acl:part	_	_
 33	por	_	ADP	ADP	_	34	mark	_	_
 34	agregar	agregar	VERB	VERB	_	32	advcl	_	_
@@ -154,30 +154,30 @@
 37	a	a	ADP	ADP	_	39	case	_	_
 38	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
 39	linhas	_	NOUN	NOUN	_	34	iobj	_	_
-40	de	_	ADP	ADP	_	41	case	_	_
+40	de	de	ADP	ADP	_	41	case	_	_
 41	produtos	produto	NOUN	NOUN	_	39	nmod	_	SpaceAfter=No
-42	.	_	PUNCT	.	_	16	punct	_	_
+42	.	.	PUNCT	.	_	16	punct	_	_
 
 # sent_id = train-s7677
 # text = Dá para falar em democracia?
 1	Dá	dar	VERB	VERB	_	0	root	_	_
 2	para	_	ADP	ADP	_	3	mark	_	_
 3	falar	falar	VERB	VERB	_	1	nmod	_	_
-4	em	_	ADP	ADP	_	5	case	_	_
+4	em	em	ADP	ADP	_	5	case	_	_
 5	democracia	democracia	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
-6	?	_	PUNCT	.	_	1	punct	_	_
+6	?	?	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s7678
 # text = Isso ajuda um piloto que queira se adaptar o quanto antes para competir na categoria principal, que é o meu caso -- disse o piloto Beto Cavaleiro, da Montana.
 1	Isso	_	PRON	PRON	_	2	nsubj	_	_
 2	ajuda	ajudar	VERB	VERB	_	25	ccomp	_	_
-3	um	_	DET	DET	_	4	det	_	_
+3	um	um	DET	DET	_	4	det	_	_
 4	piloto	piloto	NOUN	NOUN	_	2	obj	_	_
 5	que	_	PRON	PRON	_	6	nsubj	_	_
 6	queira	querer	VERB	VERB	_	4	acl:relcl	_	_
 7	se	_	PRON	PRON	_	8	obj	_	_
 8	adaptar	adaptar	VERB	VERB	_	6	ccomp	_	_
-9	o	_	DET	DET	_	10	det	_	_
+9	o	o	DET	DET	_	10	det	_	_
 10	quanto	_	PRON	PRON	_	11	nmod	_	_
 11	antes	antes	ADV	ADV	_	8	advmod	_	_
 12	para	_	ADP	ADP	_	13	mark	_	_
@@ -187,24 +187,24 @@
 15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	categoria	categoria	NOUN	NOUN	_	13	nmod	_	_
 17	principal	principal	ADJ	ADJ	_	16	amod	_	SpaceAfter=No
-18	,	_	PUNCT	.	_	23	punct	_	_
+18	,	,	PUNCT	.	_	23	punct	_	_
 19	que	_	PRON	PRON	_	23	nsubj	_	_
 20	é	ser	AUX	AUX	_	23	cop	_	_
-21	o	_	DET	DET	_	23	det	_	_
+21	o	o	DET	DET	_	23	det	_	_
 22	meu	_	DET	DET	_	23	det:poss	_	_
 23	caso	caso	NOUN	NOUN	_	6	parataxis	_	_
 24	--	_	PUNCT	.	_	23	punct	_	_
 25	disse	dizer	VERB	VERB	_	0	root	_	_
-26	o	_	DET	DET	_	27	det	_	_
+26	o	o	DET	DET	_	27	det	_	_
 27	piloto	piloto	NOUN	NOUN	_	25	nsubj	_	_
 28	Beto	_	PROPN	PNOUN	_	27	appos	_	_
 29	Cavaleiro	_	PROPN	PNOUN	_	28	flat	_	SpaceAfter=No
-30	,	_	PUNCT	.	_	33	punct	_	_
+30	,	,	PUNCT	.	_	33	punct	_	_
 31-32	da	_	_	_	_	_	_	_	_
 31	de	de	ADP	ADP	_	33	case	_	_
 32	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
 33	Montana	_	PROPN	PNOUN	_	27	nmod	_	SpaceAfter=No
-34	.	_	PUNCT	.	_	25	punct	_	_
+34	.	.	PUNCT	.	_	25	punct	_	_
 
 # sent_id = train-s7679
 # text = Mas está tudo ainda no começo.
@@ -216,37 +216,37 @@
 5	em	em	ADP	ADP	_	7	case	_	_
 6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	começo	começo	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
-8	.	_	PUNCT	.	_	2	punct	_	_
+8	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s7680
 # text = Sem o remetente identificado com nome, sobrenome e e - mail válido.
 1	Sem	_	VERB	VERB	_	3	case	_	_
-2	o	_	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	_	3	det	_	_
 3	remetente	remetente	NOUN	NOUN	_	0	root	_	_
 4	identificado	identificar	VERB	VERB	_	3	acl:part	_	_
-5	com	_	ADP	ADP	_	6	case	_	_
+5	com	com	ADP	ADP	_	6	case	_	_
 6	nome	nome	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	8	punct	_	_
+7	,	,	PUNCT	.	_	8	punct	_	_
 8	sobrenome	sobrenome	NOUN	NOUN	_	6	conj	_	_
-9	e	_	CCONJ	CONJ	_	12	cc	_	_
+9	e	e	CCONJ	CONJ	_	12	cc	_	_
 10	e	_	ADJ	ADJ	_	12	amod	_	_
-11	-	_	PUNCT	.	_	12	punct	_	_
+11	-	-	PUNCT	.	_	12	punct	_	_
 12	mail	mail	NOUN	NOUN	_	6	conj	_	_
 13	válido	válido	ADJ	ADJ	_	12	amod	_	SpaceAfter=No
-14	.	_	PUNCT	.	_	3	punct	_	_
+14	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s7681
 # text = Para Carvalho, o governo brasileiro precisa adotar políticas de mobilidade urbana baseadas no modelo europeu, que não cria restrições para a compra de veículos, mas estimula o uso racional de automóveis e motocicletas.
 1	Para	_	ADP	ADP	_	2	case	_	_
 2	Carvalho	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	2	punct	_	_
-4	o	_	DET	DET	_	5	det	_	_
+3	,	,	PUNCT	.	_	2	punct	_	_
+4	o	o	DET	DET	_	5	det	_	_
 5	governo	governo	NOUN	NOUN	_	7	nsubj	_	_
 6	brasileiro	brasileiro	ADJ	ADJ	_	5	amod	_	_
 7	precisa	precisar	VERB	VERB	_	0	root	_	_
 8	adotar	adotar	VERB	VERB	_	7	xcomp	_	_
 9	políticas	_	NOUN	NOUN	_	8	obj	_	_
-10	de	_	ADP	ADP	_	11	case	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
 11	mobilidade	mobilidade	NOUN	NOUN	_	9	nmod	_	_
 12	urbana	urbano	ADJ	ADJ	_	11	amod	_	_
 13	baseadas	basear	VERB	VERB	_	9	acl:part	_	_
@@ -255,43 +255,43 @@
 15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	modelo	modelo	NOUN	NOUN	_	13	nmod	_	_
 17	europeu	europeu	ADJ	ADJ	_	16	amod	_	SpaceAfter=No
-18	,	_	PUNCT	.	_	21	punct	_	_
+18	,	,	PUNCT	.	_	21	punct	_	_
 19	que	_	PRON	PRON	_	21	nsubj	_	_
 20	não	não	ADV	ADV	Polarity=Neg	21	advmod	_	_
 21	cria	_	VERB	VERB	_	16	acl:relcl	_	_
 22	restrições	restrição	NOUN	NOUN	_	21	obj	_	_
-23	para	_	ADP	ADP	_	25	case	_	_
-24	a	_	DET	DET	_	25	det	_	_
+23	para	para	ADP	ADP	_	25	case	_	_
+24	a	a	DET	DET	_	25	det	_	_
 25	compra	compra	NOUN	NOUN	_	22	nmod	_	_
-26	de	_	ADP	ADP	_	27	case	_	_
+26	de	de	ADP	ADP	_	27	case	_	_
 27	veículos	veículo	NOUN	NOUN	_	25	nmod	_	SpaceAfter=No
-28	,	_	PUNCT	.	_	30	punct	_	_
+28	,	,	PUNCT	.	_	30	punct	_	_
 29	mas	_	CCONJ	CONJ	_	30	cc	_	_
 30	estimula	estimular	VERB	VERB	_	21	conj	_	_
-31	o	_	DET	DET	_	32	det	_	_
+31	o	o	DET	DET	_	32	det	_	_
 32	uso	uso	NOUN	NOUN	_	30	obj	_	_
 33	racional	racional	ADJ	ADJ	_	32	amod	_	_
-34	de	_	ADP	ADP	_	35	case	_	_
+34	de	de	ADP	ADP	_	35	case	_	_
 35	automóveis	automóvel	NOUN	NOUN	_	32	nmod	_	_
-36	e	_	CCONJ	CONJ	_	37	cc	_	_
+36	e	e	CCONJ	CONJ	_	37	cc	_	_
 37	motocicletas	motocicleta	NOUN	NOUN	_	35	conj	_	SpaceAfter=No
-38	.	_	PUNCT	.	_	7	punct	_	_
+38	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s7682
 # text = E é por isso que o Tribunal Constitucional com muita probabilidade chumbará o Orçamento do Estado neste ponto.
 1	E	_	CCONJ	CONJ	_	2	cc	_	_
 2	é	ser	VERB	VERB	_	0	root	_	_
-3	por	_	ADP	ADP	_	4	case	_	_
+3	por	por	ADP	ADP	_	4	case	_	_
 4	isso	_	PRON	PRON	_	2	nmod	_	_
 5	que	_	PRON	PRON	_	12	mark	_	_
-6	o	_	DET	DET	_	7	det	_	_
+6	o	o	DET	DET	_	7	det	_	_
 7	Tribunal	_	PROPN	PNOUN	_	12	nsubj	_	_
 8	Constitucional	_	PROPN	PNOUN	_	7	amod	_	_
-9	com	_	ADP	ADP	_	11	case	_	_
+9	com	com	ADP	ADP	_	11	case	_	_
 10	muita	_	DET	DET	_	11	det	_	_
 11	probabilidade	probabilidade	NOUN	NOUN	_	12	nmod	_	_
 12	chumbará	chumbar	VERB	VERB	_	2	csubj	_	_
-13	o	_	DET	DET	_	14	det	_	_
+13	o	o	DET	DET	_	14	det	_	_
 14	Orçamento	_	PROPN	PNOUN	_	12	obj	_	_
 15-16	do	_	_	_	_	_	_	_	_
 15	de	de	ADP	ADP	_	17	case	_	_
@@ -299,5 +299,5 @@
 17	Estado	_	PROPN	PNOUN	_	14	nmod	_	_
 18	neste	_	ADP	ADP	_	19	case	_	_
 19	ponto	ponto	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
-20	.	_	PUNCT	.	_	2	punct	_	_
+20	.	.	PUNCT	.	_	2	punct	_	_
 

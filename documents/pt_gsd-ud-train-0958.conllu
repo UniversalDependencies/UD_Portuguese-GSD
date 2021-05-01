@@ -3,9 +3,9 @@
 1	Tem	ter	VERB	VERB	_	0	root	_	_
 2	60	_	NUM	NUM	NumType=Card	3	nummod	_	_
 3	anos	ano	NOUN	NOUN	_	1	obj	_	_
-4	e	_	CCONJ	CONJ	_	5	cc	_	_
+4	e	e	CCONJ	CONJ	_	5	cc	_	_
 5	revela	revelar	VERB	VERB	_	1	conj	_	_
-6	que	_	CCONJ	CONJ	_	10	mark	_	_
+6	que	que	CCONJ	CONJ	_	10	mark	_	_
 7	seu	_	DET	DET	_	8	det:poss	_	_
 8	interesse	interesse	NOUN	NOUN	_	10	nsubj	_	_
 9	partidário	partidário	ADJ	ADJ	_	8	amod	_	_
@@ -13,11 +13,11 @@
 11	há	haver	VERB	VERB	_	10	advcl	_	_
 12	dois	_	NUM	NUM	NumType=Card	13	nummod	_	_
 13	anos	ano	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
-14	.	_	PUNCT	.	_	1	punct	_	_
+14	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s9508
 # text = A Fiorentina está interessada na contratação do atacante do Schalke 04 e da seleção holandesa Huntelaar.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	Fiorentina	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	está	estar	VERB	VERB	_	0	root	_	_
 4	interessada	interessado	ADJ	ADJ	_	3	xcomp:adj	_	_
@@ -34,22 +34,22 @@
 12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	Schalke	_	PROPN	PNOUN	_	10	nmod	_	_
 14	04	_	NUM	NUM	NumType=Card	13	appos	_	_
-15	e	_	CCONJ	CONJ	_	18	cc	_	_
+15	e	e	CCONJ	CONJ	_	18	cc	_	_
 16-17	da	_	_	_	_	_	_	_	_
 16	de	de	ADP	ADP	_	18	case	_	_
 17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	seleção	seleção	NOUN	NOUN	_	13	conj	_	_
 19	holandesa	holandês	ADJ	ADJ	_	18	amod	_	_
 20	Huntelaar	_	PROPN	PNOUN	_	10	appos	_	SpaceAfter=No
-21	.	_	PUNCT	.	_	3	punct	_	_
+21	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s9509
 # text = Como uma regra geral, explosivos primários são considerados aqueles compostos que são mais sensíveis que o PETN.
 1	Como	_	ADP	ADP	_	3	case	_	_
-2	uma	_	DET	DET	_	3	det	_	_
+2	uma	um	DET	DET	_	3	det	_	_
 3	regra	regra	NOUN	NOUN	_	11	nmod	_	_
 4	geral	geral	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	3	punct	_	_
+5	,	,	PUNCT	.	_	3	punct	_	_
 6	explosivos	explosivo	NOUN	NOUN	_	11	nsubj:pass	_	_
 7	primários	primário	ADJ	ADJ	_	6	amod	_	_
 8	são	ser	AUX	AUX	_	11	aux:pass	_	_
@@ -61,64 +61,64 @@
 14	mais	mais	ADV	ADV	_	15	advmod	_	_
 15	sensíveis	sensível	ADJ	ADJ	_	13	xcomp:adj	_	_
 16	que	_	ADP	ADP	_	18	case	_	_
-17	o	_	DET	DET	_	18	det	_	_
+17	o	o	DET	DET	_	18	det	_	_
 18	PETN	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	11	punct	_	_
+19	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s9510
 # text = "Eles tentam impedir, de forma hipócrita, que outros países usem esta tecnologia para fins pacíficos, como na medicina ou na produção de energia elétrica.
-1	"	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
 2	Eles	_	PRON	PRON	_	3	nsubj	_	_
 3	tentam	tentar	VERB	VERB	_	0	root	_	_
 4	impedir	impedir	VERB	VERB	_	3	xcomp	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	7	punct	_	_
-6	de	_	ADP	ADP	_	7	case	_	_
+5	,	,	PUNCT	.	_	7	punct	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
 7	forma	forma	NOUN	NOUN	_	4	nmod	_	_
 8	hipócrita	hipócrita	ADJ	ADJ	_	7	amod	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	7	punct	_	_
-10	que	_	CCONJ	CONJ	_	13	mark	_	_
+9	,	,	PUNCT	.	_	7	punct	_	_
+10	que	que	CCONJ	CONJ	_	13	mark	_	_
 11	outros	_	DET	DET	_	12	det	_	_
 12	países	país	NOUN	NOUN	_	13	nsubj	_	_
 13	usem	usar	VERB	VERB	_	4	ccomp	_	_
 14	esta	_	DET	DET	_	15	det	_	_
 15	tecnologia	tecnologia	NOUN	NOUN	_	13	obj	_	_
-16	para	_	ADP	ADP	_	17	case	_	_
+16	para	para	ADP	ADP	_	17	case	_	_
 17	fins	fim	NOUN	NOUN	_	13	nmod	_	_
 18	pacíficos	pacífico	ADJ	ADJ	_	17	amod	_	SpaceAfter=No
-19	,	_	PUNCT	.	_	20	punct	_	_
+19	,	,	PUNCT	.	_	20	punct	_	_
 20	como	_	ADP	ADP	_	17	nmod	_	_
 21-22	na	_	_	_	_	_	_	_	_
 21	em	em	ADP	ADP	_	23	case	_	_
 22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	medicina	medicina	NOUN	NOUN	_	20	nmod	_	_
-24	ou	_	CCONJ	CONJ	_	27	cc	_	_
+24	ou	ou	CCONJ	CONJ	_	27	cc	_	_
 25-26	na	_	_	_	_	_	_	_	_
 25	em	em	ADP	ADP	_	27	case	_	_
 26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	produção	produção	NOUN	NOUN	_	23	conj	_	_
-28	de	_	ADP	ADP	_	29	case	_	_
+28	de	de	ADP	ADP	_	29	case	_	_
 29	energia	energia	NOUN	NOUN	_	27	nmod	_	_
 30	elétrica	elétrico	ADJ	ADJ	_	29	amod	_	SpaceAfter=No
-31	.	_	PUNCT	.	_	3	punct	_	_
+31	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s9511
 # text = Para enfrentar o avanço dos acidentes de trânsito, o Governo Federal expandiu o Projeto Vida no Trânsito a todas as capitais brasileiras.
 1	Para	_	ADP	ADP	_	2	mark	_	_
 2	enfrentar	enfrentar	VERB	VERB	_	14	advcl	_	_
-3	o	_	DET	DET	_	4	det	_	_
+3	o	o	DET	DET	_	4	det	_	_
 4	avanço	avanço	NOUN	NOUN	_	2	obj	_	_
 5-6	dos	_	_	_	_	_	_	_	_
 5	de	de	ADP	ADP	_	7	case	_	_
 6	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	acidentes	acidente	NOUN	NOUN	_	4	nmod	_	_
-8	de	_	ADP	ADP	_	9	case	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
 9	trânsito	trânsito	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	2	punct	_	_
-11	o	_	DET	DET	_	12	det	_	_
+10	,	,	PUNCT	.	_	2	punct	_	_
+11	o	o	DET	DET	_	12	det	_	_
 12	Governo	_	PROPN	PNOUN	_	14	nsubj	_	_
 13	Federal	_	PROPN	PNOUN	_	12	amod	_	_
 14	expandiu	expandir	VERB	VERB	_	0	root	_	_
-15	o	_	DET	DET	_	16	det	_	_
+15	o	o	DET	DET	_	16	det	_	_
 16	Projeto	_	PROPN	PNOUN	_	14	obj	_	_
 17	Vida	_	PROPN	PNOUN	_	16	flat	_	_
 18-19	no	_	_	_	_	_	_	_	_
@@ -127,22 +127,22 @@
 20	Trânsito	_	PROPN	PNOUN	_	16	nmod	_	_
 21	a	_	ADP	ADP	_	24	case	_	_
 22	todas	_	DET	DET	_	24	det	_	_
-23	as	_	DET	DET	_	24	det	_	_
+23	as	o	DET	DET	_	24	det	_	_
 24	capitais	capital	NOUN	NOUN	_	14	nmod	_	_
 25	brasileiras	brasileiro	ADJ	ADJ	_	24	amod	_	SpaceAfter=No
-26	.	_	PUNCT	.	_	14	punct	_	_
+26	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = train-s9512
 # text = Decepcionada, ela procurou seu amigo Milt Gabler (tio do comediante Billy Crystal), cuja selo, a Commodore Records, gravava músicas de jazz alternativo.
 1	Decepcionada	decepcionado	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	1	punct	_	_
+2	,	,	PUNCT	.	_	1	punct	_	_
 3	ela	_	PRON	PRON	_	4	nsubj	_	_
 4	procurou	procurar	VERB	VERB	_	0	root	_	_
 5	seu	_	DET	DET	_	6	det:poss	_	_
 6	amigo	amigo	NOUN	NOUN	_	4	obj	_	_
 7	Milt	_	PROPN	PNOUN	_	6	appos	_	_
 8	Gabler	_	PROPN	PNOUN	_	7	flat	_	_
-9	(	_	PUNCT	.	_	10	punct	_	SpaceAfter=No
+9	(	(	PUNCT	.	_	10	punct	_	SpaceAfter=No
 10	tio	tio	NOUN	NOUN	_	7	appos	_	_
 11-12	do	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	13	case	_	_
@@ -150,21 +150,21 @@
 13	comediante	comediante	NOUN	NOUN	_	10	nmod	_	_
 14	Billy	_	PROPN	PNOUN	_	13	appos	_	_
 15	Crystal	_	PROPN	PNOUN	_	14	flat	_	SpaceAfter=No
-16	)	_	PUNCT	.	_	10	punct	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	25	punct	_	_
+16	)	)	PUNCT	.	_	10	punct	_	SpaceAfter=No
+17	,	,	PUNCT	.	_	25	punct	_	_
 18	cuja	_	DET	DET	_	19	det	_	_
 19	selo	selo	NOUN	NOUN	_	25	nsubj	_	SpaceAfter=No
-20	,	_	PUNCT	.	_	22	punct	_	_
-21	a	_	DET	DET	_	22	det	_	_
+20	,	,	PUNCT	.	_	22	punct	_	_
+21	a	a	DET	DET	_	22	det	_	_
 22	Commodore	_	PROPN	PNOUN	_	19	appos	_	_
 23	Records	_	PROPN	PNOUN	_	22	flat	_	SpaceAfter=No
-24	,	_	PUNCT	.	_	22	punct	_	_
+24	,	,	PUNCT	.	_	22	punct	_	_
 25	gravava	gravar	VERB	VERB	_	6	acl:relcl	_	_
 26	músicas	_	NOUN	NOUN	_	25	obj	_	_
-27	de	_	ADP	ADP	_	28	case	_	_
+27	de	de	ADP	ADP	_	28	case	_	_
 28	jazz	jazz	NOUN	NOUN	_	26	nmod	_	_
 29	alternativo	alternativo	ADJ	ADJ	_	28	amod	_	SpaceAfter=No
-30	.	_	PUNCT	.	_	4	punct	_	_
+30	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s9513
 # text = Para algumas vítimas é nossa câmara de gás.
@@ -174,98 +174,98 @@
 4	é	ser	AUX	AUX	_	6	cop	_	_
 5	nossa	_	DET	DET	_	6	det:poss	_	_
 6	câmara	câmara	NOUN	NOUN	_	0	root	_	_
-7	de	_	ADP	ADP	_	8	case	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
 8	gás	gás	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
-9	.	_	PUNCT	.	_	6	punct	_	_
+9	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s9514
 # text = O próximo adversário brasileiro é a Coreia do Sul.
-1	O	_	DET	DET	_	3	det	_	_
+1	O	o	DET	DET	_	3	det	_	_
 2	próximo	próximo	ADJ	ADJ	_	3	amod	_	_
 3	adversário	adversário	NOUN	NOUN	_	7	nsubj	_	_
 4	brasileiro	brasileiro	ADJ	ADJ	_	3	amod	_	_
 5	é	ser	AUX	AUX	_	7	cop	_	_
-6	a	_	DET	DET	_	7	det	_	_
+6	a	a	DET	DET	_	7	det	_	_
 7	Coreia	_	PROPN	PNOUN	_	0	root	_	_
 8-9	do	_	_	_	_	_	_	_	_
 8	de	de	ADP	ADP	_	10	case	_	_
 9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	Sul	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
-11	.	_	PUNCT	.	_	7	punct	_	_
+11	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s9515
 # text = Perim destaca que escolher as comunidades pacificadas para sediar o festival é uma forma de unir o entretenimento e a inclusão social.
 1	Perim	_	PROPN	PNOUN	_	2	nsubj	_	_
 2	destaca	destacar	VERB	VERB	_	0	root	_	_
-3	que	_	CCONJ	CONJ	_	14	mark	_	_
+3	que	que	CCONJ	CONJ	_	14	mark	_	_
 4	escolher	escolher	VERB	VERB	_	14	csubj	_	_
-5	as	_	DET	DET	_	6	det	_	_
+5	as	o	DET	DET	_	6	det	_	_
 6	comunidades	comunidade	NOUN	NOUN	_	4	obj	_	_
 7	pacificadas	pacificado	ADJ	ADJ	_	6	amod	_	_
 8	para	_	ADP	ADP	_	9	mark	_	_
 9	sediar	sediar	VERB	VERB	_	4	nmod	_	_
-10	o	_	DET	DET	_	11	det	_	_
+10	o	o	DET	DET	_	11	det	_	_
 11	festival	festival	NOUN	NOUN	_	9	obj	_	_
 12	é	ser	AUX	AUX	_	14	cop	_	_
-13	uma	_	DET	DET	_	14	det	_	_
+13	uma	um	DET	DET	_	14	det	_	_
 14	forma	forma	NOUN	NOUN	_	2	ccomp	_	_
 15	de	_	ADP	ADP	_	16	mark	_	_
 16	unir	unir	VERB	VERB	_	14	nmod	_	_
-17	o	_	DET	DET	_	18	det	_	_
+17	o	o	DET	DET	_	18	det	_	_
 18	entretenimento	entretenimento	NOUN	NOUN	_	16	obj	_	_
 19	e	e	CCONJ	CONJ	_	21	cc	_	_
 20	a	o	DET	DET	_	21	det	_	_
 21	inclusão	inclusão	NOUN	NOUN	_	18	conj	_	_
 22	social	social	ADJ	ADJ	_	21	amod	_	SpaceAfter=No
-23	.	_	PUNCT	.	_	2	punct	_	_
+23	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s9516
 # text = Indico, como ministra, a psicanalista e colunista deste jornal, Ana Verônica Mautner, que além de mulher é húngara, povo que pode ser acusado de muitas coisas (não sei quais, essa é só uma frase de efeito), menos de refugar na hora do salto.
 1	Indico	indicar	VERB	VERB	_	0	root	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	4	punct	_	_
-3	como	_	ADP	ADP	_	4	case	_	_
+2	,	,	PUNCT	.	_	4	punct	_	_
+3	como	como	ADP	ADP	_	4	case	_	_
 4	ministra	_	NOUN	NOUN	_	1	nmod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	4	punct	_	_
-6	a	_	DET	DET	_	7	det	_	_
+5	,	,	PUNCT	.	_	4	punct	_	_
+6	a	a	DET	DET	_	7	det	_	_
 7	psicanalista	psicanalista	NOUN	NOUN	_	1	obj	_	_
-8	e	_	CCONJ	CONJ	_	9	cc	_	_
+8	e	e	CCONJ	CONJ	_	9	cc	_	_
 9	colunista	colunista	NOUN	NOUN	_	7	conj	_	_
 10	deste	_	ADP	ADP	_	11	case	_	_
 11	jornal	jornal	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	13	punct	_	_
+12	,	,	PUNCT	.	_	13	punct	_	_
 13	Ana	_	PROPN	PNOUN	_	7	appos	_	_
 14	Verônica	_	PROPN	PNOUN	_	13	flat	_	_
 15	Mautner	_	PROPN	PNOUN	_	13	flat	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	13	punct	_	_
+16	,	,	PUNCT	.	_	13	punct	_	_
 17	que	_	PRON	PRON	_	22	nsubj	_	_
 18	além	além	ADV	ADV	_	22	advmod	_	_
-19	de	_	ADP	ADP	_	20	case	_	_
+19	de	de	ADP	ADP	_	20	case	_	_
 20	mulher	mulher	NOUN	NOUN	_	18	nmod	_	_
 21	é	ser	AUX	AUX	_	22	cop	_	_
 22	húngara	húngaro	NOUN	NOUN	_	7	acl:relcl	_	SpaceAfter=No
-23	,	_	PUNCT	.	_	24	punct	_	_
+23	,	,	PUNCT	.	_	24	punct	_	_
 24	povo	povo	NOUN	NOUN	_	22	appos	_	_
 25	que	_	PRON	PRON	_	28	nsubj:pass	_	_
 26	pode	_	AUX	AUX	_	28	aux	_	_
 27	ser	ser	AUX	AUX	_	28	aux:pass	_	_
 28	acusado	acusar	VERB	VERB	_	24	acl:relcl	_	_
-29	de	_	ADP	ADP	_	31	case	_	_
+29	de	de	ADP	ADP	_	31	case	_	_
 30	muitas	_	DET	DET	_	31	det	_	_
 31	coisas	coisa	NOUN	NOUN	_	28	nmod	_	_
-32	(	_	PUNCT	.	_	34	punct	_	SpaceAfter=No
+32	(	(	PUNCT	.	_	34	punct	_	SpaceAfter=No
 33	não	não	ADV	ADV	Polarity=Neg	34	advmod	_	_
 34	sei	saber	VERB	VERB	_	28	parataxis	_	_
 35	quais	_	PRON	PRON	_	34	obj	_	SpaceAfter=No
-36	,	_	PUNCT	.	_	41	punct	_	_
+36	,	,	PUNCT	.	_	41	punct	_	_
 37	essa	_	PRON	PRON	_	41	nsubj	_	_
 38	é	ser	AUX	AUX	_	41	cop	_	_
 39	só	só	ADV	ADV	_	41	advmod	_	_
-40	uma	_	DET	DET	_	41	det	_	_
+40	uma	um	DET	DET	_	41	det	_	_
 41	frase	frase	NOUN	NOUN	_	34	conj	_	_
-42	de	_	ADP	ADP	_	43	case	_	_
+42	de	de	ADP	ADP	_	43	case	_	_
 43	efeito	efeito	NOUN	NOUN	_	41	nmod	_	SpaceAfter=No
-44	)	_	PUNCT	.	_	34	punct	_	SpaceAfter=No
-45	,	_	PUNCT	.	_	46	punct	_	_
+44	)	)	PUNCT	.	_	34	punct	_	SpaceAfter=No
+45	,	,	PUNCT	.	_	46	punct	_	_
 46	menos	menos	ADV	ADV	_	28	advmod	_	_
 47	de	_	ADP	ADP	_	48	mark	_	_
 48	refugar	refugar	VERB	VERB	_	46	nmod	_	_
@@ -277,5 +277,5 @@
 52	de	de	ADP	ADP	_	54	case	_	_
 53	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
 54	salto	salto	NOUN	NOUN	_	51	nmod	_	SpaceAfter=No
-55	.	_	PUNCT	.	_	1	punct	_	_
+55	.	.	PUNCT	.	_	1	punct	_	_
 

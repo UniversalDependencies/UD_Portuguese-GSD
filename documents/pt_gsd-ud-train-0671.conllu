@@ -3,9 +3,9 @@
 1	SÃO	_	PROPN	PNOUN	_	28	parataxis	_	_
 2	PAULO	_	PROPN	PNOUN	_	1	flat	_	_
 3	--	_	PUNCT	.	_	28	punct	_	_
-4	O	_	DET	DET	_	5	det	_	_
+4	O	o	DET	DET	_	5	det	_	_
 5	índice	índice	NOUN	NOUN	_	15	nsubj	_	_
-6	de	_	ADP	ADP	_	7	case	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
 7	preços	preço	NOUN	NOUN	_	5	nmod	_	_
 8-9	das	_	_	_	_	_	_	_	_
 8	de	de	ADP	ADP	_	10	case	_	_
@@ -19,48 +19,48 @@
 15	subiu	subir	VERB	VERB	_	28	ccomp	_	_
 16	0,8	_	NUM	NUM	NumType=Card	17	nummod	_	_
 17	%	_	SYM	SYM	_	15	nmod	_	_
-18	em	_	ADP	ADP	_	19	case	_	_
+18	em	em	ADP	ADP	_	19	case	_	_
 19	maio	_	PROPN	PNOUN	_	15	nmod	_	_
 20	ante	_	ADP	ADP	_	21	case	_	_
 21	abril	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
-22	,	_	PUNCT	.	_	24	punct	_	_
-23	em	_	ADP	ADP	_	24	case	_	_
+22	,	,	PUNCT	.	_	24	punct	_	_
+23	em	em	ADP	ADP	_	24	case	_	_
 24	base	base	NOUN	NOUN	_	15	nmod	_	_
 25	ajustada	ajustar	VERB	VERB	_	24	acl:part	_	_
 26	sazonalmente	sazonalmente	ADV	ADV	_	25	advmod	_	SpaceAfter=No
-27	,	_	PUNCT	.	_	28	punct	_	_
+27	,	,	PUNCT	.	_	28	punct	_	_
 28	informou	informar	VERB	VERB	_	0	root	_	_
-29	a	_	DET	DET	_	30	det	_	_
+29	a	a	DET	DET	_	30	det	_	_
 30	Agência	_	PROPN	PNOUN	_	28	nsubj	_	_
 31	Federal	_	PROPN	PNOUN	_	30	amod	_	_
-32	de	_	ADP	ADP	_	33	case	_	_
+32	de	de	ADP	ADP	_	33	case	_	_
 33	Financiamento	_	PROPN	PNOUN	_	30	nmod	_	_
 34	Imobiliário	_	PROPN	PNOUN	_	33	amod	_	_
-35	(	_	PUNCT	.	_	36	punct	_	SpaceAfter=No
+35	(	(	PUNCT	.	_	36	punct	_	SpaceAfter=No
 36	FHFA	_	PROPN	PNOUN	_	30	appos	_	SpaceAfter=No
-37	,	_	PUNCT	.	_	40	punct	_	_
+37	,	,	PUNCT	.	_	40	punct	_	_
 38-39	na	_	_	_	_	_	_	_	_
 38	em	em	ADP	ADP	_	40	case	_	_
 39	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
 40	sigla	sigla	NOUN	NOUN	_	36	nmod	_	_
-41	em	_	ADP	ADP	_	42	case	_	_
+41	em	em	ADP	ADP	_	42	case	_	_
 42	inglês	inglês	NOUN	NOUN	_	40	nmod	_	SpaceAfter=No
-43	)	_	PUNCT	.	_	36	punct	_	SpaceAfter=No
-44	.	_	PUNCT	.	_	28	punct	_	_
+43	)	)	PUNCT	.	_	36	punct	_	SpaceAfter=No
+44	.	.	PUNCT	.	_	28	punct	_	_
 
 # sent_id = train-s6663
 # text = A PF informou, no entanto, que a solicitação foi feita ao Ministério Público paraguaio.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	PF	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	informou	informar	VERB	VERB	_	0	root	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	7	punct	_	_
+4	,	,	PUNCT	.	_	7	punct	_	_
 5-6	no	_	_	_	_	_	_	_	_
 5	em	em	ADP	ADP	_	7	case	_	_
 6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	entanto	entanto	ADV	ADV	_	3	nmod	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	7	punct	_	_
-9	que	_	CCONJ	CONJ	_	13	mark	_	_
-10	a	_	DET	DET	_	11	det	_	_
+8	,	,	PUNCT	.	_	7	punct	_	_
+9	que	que	CCONJ	CONJ	_	13	mark	_	_
+10	a	a	DET	DET	_	11	det	_	_
 11	solicitação	solicitação	NOUN	NOUN	_	13	nsubj:pass	_	_
 12	foi	_	AUX	AUX	_	13	aux:pass	_	_
 13	feita	_	VERB	VERB	_	3	ccomp	_	_
@@ -70,7 +70,7 @@
 16	Ministério	_	PROPN	PNOUN	_	13	iobj	_	_
 17	Público	_	PROPN	PNOUN	_	16	amod	_	_
 18	paraguaio	paraguaio	ADJ	ADJ	_	16	amod	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	3	punct	_	_
+19	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s6664
 # text = -- Eles tiveram mais posse de bola no segundo tempo, mas não tiveram tantas chances.
@@ -79,57 +79,57 @@
 3	tiveram	ter	VERB	VERB	_	0	root	_	_
 4	mais	_	DET	DET	_	5	det	_	_
 5	posse	posse	NOUN	NOUN	_	3	obj	_	_
-6	de	_	ADP	ADP	_	7	case	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
 7	bola	bola	NOUN	NOUN	_	5	nmod	_	_
 8-9	no	_	_	_	_	_	_	_	_
 8	em	em	ADP	ADP	_	11	case	_	_
 9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 10	segundo	segundo	ADJ	ADJ	_	11	amod	_	_
 11	tempo	tempo	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	15	punct	_	_
+12	,	,	PUNCT	.	_	15	punct	_	_
 13	mas	_	CCONJ	CONJ	_	15	cc	_	_
 14	não	não	ADV	ADV	Polarity=Neg	15	advmod	_	_
 15	tiveram	ter	VERB	VERB	_	3	conj	_	_
 16	tantas	_	DET	DET	_	17	det	_	_
 17	chances	chance	NOUN	NOUN	_	15	obj	_	SpaceAfter=No
-18	.	_	PUNCT	.	_	3	punct	_	_
+18	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s6665
 # text = Em 2003 uma versão similar a existente em Super Mario All - Stars foi lançada para o portátil Game Boy Advance com o título de Super Mario Advance 4: Super Mario Bros.
-1	Em	_	ADP	ADP	_	2	case	_	_
+1	Em	em	ADP	ADP	_	2	case	_	_
 2	2003	_	NUM	NUM	NumType=Card	15	nmod	_	_
-3	uma	_	DET	DET	_	4	det	_	_
+3	uma	um	DET	DET	_	4	det	_	_
 4	versão	versão	NOUN	NOUN	_	15	nsubj:pass	_	_
 5	similar	similar	ADJ	ADJ	_	4	amod	_	_
 6	a	_	ADP	ADP	_	7	case	_	_
 7	existente	_	NOUN	NOUN	_	5	nmod	_	_
-8	em	_	ADP	ADP	_	9	case	_	_
+8	em	em	ADP	ADP	_	9	case	_	_
 9	Super	_	PROPN	PNOUN	_	7	nmod	_	_
 10	Mario	_	PROPN	PNOUN	_	9	flat	_	_
 11	All	_	PROPN	PNOUN	_	9	flat	_	_
-12	-	_	PUNCT	.	_	9	punct	_	_
+12	-	-	PUNCT	.	_	9	punct	_	_
 13	Stars	_	PROPN	PNOUN	_	9	flat	_	_
 14	foi	_	AUX	AUX	_	15	aux:pass	_	_
 15	lançada	lançar	VERB	VERB	_	0	root	_	_
-16	para	_	ADP	ADP	_	18	case	_	_
-17	o	_	DET	DET	_	18	det	_	_
+16	para	para	ADP	ADP	_	18	case	_	_
+17	o	o	DET	DET	_	18	det	_	_
 18	portátil	_	PROPN	PNOUN	_	15	nmod	_	_
 19	Game	_	PROPN	PNOUN	_	18	appos	_	_
 20	Boy	_	PROPN	PNOUN	_	19	flat	_	_
 21	Advance	_	PROPN	PNOUN	_	19	flat	_	_
-22	com	_	ADP	ADP	_	24	case	_	_
-23	o	_	DET	DET	_	24	det	_	_
+22	com	com	ADP	ADP	_	24	case	_	_
+23	o	o	DET	DET	_	24	det	_	_
 24	título	título	NOUN	NOUN	_	15	nmod	_	_
-25	de	_	ADP	ADP	_	26	case	_	_
+25	de	de	ADP	ADP	_	26	case	_	_
 26	Super	_	PROPN	PNOUN	_	24	nmod	_	_
 27	Mario	_	PROPN	PNOUN	_	26	flat	_	_
 28	Advance	_	PROPN	PNOUN	_	26	flat	_	_
 29	4	_	NUM	NUM	NumType=Card	26	nummod	_	SpaceAfter=No
-30	:	_	PUNCT	.	_	26	punct	_	_
+30	:	:	PUNCT	.	_	26	punct	_	_
 31	Super	_	PROPN	PNOUN	_	26	appos	_	_
 32	Mario	_	PROPN	PNOUN	_	31	flat	_	_
 33	Bros	_	PROPN	PNOUN	_	31	flat	_	SpaceAfter=No
-34	.	_	PUNCT	.	_	15	punct	_	_
+34	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = train-s6666
 # text = Também na capital, 1.183 pessoas solicitaram o registro à candidatura ao cargo de vereador.
@@ -138,11 +138,11 @@
 2	em	em	ADP	ADP	_	4	case	_	_
 3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	capital	capital	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	4	punct	_	_
+5	,	,	PUNCT	.	_	4	punct	_	_
 6	1.183	_	NUM	NUM	NumType=Card	7	nummod	_	_
 7	pessoas	pessoa	NOUN	NOUN	_	8	nsubj	_	_
 8	solicitaram	solicitar	VERB	VERB	_	0	root	_	_
-9	o	_	DET	DET	_	10	det	_	_
+9	o	o	DET	DET	_	10	det	_	_
 10	registro	registro	NOUN	NOUN	_	8	obj	_	_
 11-12	à	_	_	_	_	_	_	_	_
 11	a	a	ADP	ADP	_	13	case	_	_
@@ -152,19 +152,19 @@
 14	a	a	ADP	ADP	_	16	case	_	_
 15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	cargo	cargo	NOUN	NOUN	_	13	nmod	_	_
-17	de	_	ADP	ADP	_	18	case	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
 18	vereador	vereador	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	8	punct	_	_
+19	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s6667
 # text = E o farelo de soja permanece com mais do dobro do custo de dois anos atrás.
 1	E	_	CCONJ	CONJ	_	6	cc	_	_
-2	o	_	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	_	3	det	_	_
 3	farelo	farelo	NOUN	NOUN	_	6	nsubj	_	_
-4	de	_	ADP	ADP	_	5	case	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
 5	soja	soja	NOUN	NOUN	_	3	nmod	_	_
 6	permanece	permanecer	VERB	VERB	_	0	root	_	_
-7	com	_	ADP	ADP	_	11	case	_	_
+7	com	com	ADP	ADP	_	11	case	_	_
 8	mais	mais	ADV	ADV	_	11	advmod	_	_
 9-10	do	_	_	_	_	_	_	_	_
 9	de	de	ADP	ADP	_	8	case	_	_
@@ -174,23 +174,23 @@
 12	de	de	ADP	ADP	_	14	case	_	_
 13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	custo	custo	NOUN	NOUN	_	11	nmod	_	_
-15	de	_	ADP	ADP	_	17	case	_	_
+15	de	de	ADP	ADP	_	17	case	_	_
 16	dois	_	NUM	NUM	NumType=Card	17	nummod	_	_
 17	anos	ano	NOUN	NOUN	_	14	nmod	_	_
 18	atrás	atrás	ADV	ADV	_	17	advmod	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	6	punct	_	_
+19	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s6668
 # text = Desde que ingressou, em setembro de 2010, indicou 88 potenciais clientes aos colegas.
 1	Desde	_	ADP	ADP	_	3	mark	_	_
 2	que	_	CCONJ	CONJ	_	1	fixed	_	_
 3	ingressou	ingressar	VERB	VERB	_	10	advcl	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	6	punct	_	_
-5	em	_	ADP	ADP	_	6	case	_	_
+4	,	,	PUNCT	.	_	6	punct	_	_
+5	em	em	ADP	ADP	_	6	case	_	_
 6	setembro	_	PROPN	PNOUN	_	3	nmod	_	_
-7	de	_	ADP	ADP	_	8	case	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
 8	2010	_	NUM	NUM	NumType=Card	6	nmod	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	6	punct	_	_
+9	,	,	PUNCT	.	_	6	punct	_	_
 10	indicou	indicar	VERB	VERB	_	0	root	_	_
 11	88	_	NUM	NUM	NumType=Card	13	nummod	_	_
 12	potenciais	potencial	ADJ	ADJ	_	13	amod	_	_
@@ -199,7 +199,7 @@
 14	a	a	ADP	ADP	_	16	case	_	_
 15	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
 16	colegas	colega	NOUN	NOUN	_	10	iobj	_	SpaceAfter=No
-17	.	_	PUNCT	.	_	10	punct	_	_
+17	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s6669
 # text = Outra é eliminar vagas nas ruas e cobrar mais nos estacionamentos.
@@ -211,65 +211,65 @@
 5	em	em	ADP	ADP	_	7	case	_	_
 6	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
 7	ruas	rua	NOUN	NOUN	_	3	nmod	_	_
-8	e	_	CCONJ	CONJ	_	9	cc	_	_
+8	e	e	CCONJ	CONJ	_	9	cc	_	_
 9	cobrar	cobrar	VERB	VERB	_	3	conj	_	_
 10	mais	mais	ADV	ADV	_	9	advmod	_	_
 11-12	nos	_	_	_	_	_	_	_	_
 11	em	em	ADP	ADP	_	13	case	_	_
 12	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 13	estacionamentos	estacionamento	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
-14	.	_	PUNCT	.	_	1	punct	_	_
+14	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s6670
 # text = Para o Apertura 2010, Moisés juntou - se à equipe Atlante, onde foi um elemento permanente até sua partida para o Club América.
 1	Para	_	ADP	ADP	_	3	case	_	_
-2	o	_	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	_	3	det	_	_
 3	Apertura	_	PROPN	PNOUN	_	7	nmod	_	_
 4	2010	_	NUM	NUM	NumType=Card	3	nmod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	3	punct	_	_
+5	,	,	PUNCT	.	_	3	punct	_	_
 6	Moisés	_	PROPN	PNOUN	_	7	nsubj	_	_
 7	juntou	juntar	VERB	VERB	_	0	root	_	_
-8	-	_	PUNCT	.	_	7	punct	_	_
+8	-	-	PUNCT	.	_	7	punct	_	_
 9	se	_	PRON	PRON	_	7	obj	_	_
 10-11	à	_	_	_	_	_	_	_	_
 10	a	a	ADP	ADP	_	12	case	_	_
 11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	equipe	equipe	NOUN	NOUN	_	7	nmod	_	_
 13	Atlante	atlante	ADJ	ADJ	_	12	amod	_	SpaceAfter=No
-14	,	_	PUNCT	.	_	18	punct	_	_
+14	,	,	PUNCT	.	_	18	punct	_	_
 15	onde	onde	ADV	ADV	_	18	advmod	_	_
 16	foi	_	AUX	AUX	_	18	cop	_	_
-17	um	_	DET	DET	_	18	det	_	_
+17	um	um	DET	DET	_	18	det	_	_
 18	elemento	elemento	NOUN	NOUN	_	12	acl:relcl	_	_
 19	permanente	permanente	ADJ	ADJ	_	18	amod	_	_
 20	até	_	ADP	ADP	_	22	case	_	_
 21	sua	_	DET	DET	_	22	det:poss	_	_
 22	partida	partida	NOUN	NOUN	_	18	nmod	_	_
-23	para	_	ADP	ADP	_	25	case	_	_
-24	o	_	DET	DET	_	25	det	_	_
+23	para	para	ADP	ADP	_	25	case	_	_
+24	o	o	DET	DET	_	25	det	_	_
 25	Club	_	PROPN	PNOUN	_	22	nmod	_	_
 26	América	_	PROPN	PNOUN	_	25	flat	_	SpaceAfter=No
-27	.	_	PUNCT	.	_	7	punct	_	_
+27	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s6671
 # text = "O Apple iPhone 5 teve um começo sólido, com uma estimativa de 6 milhões de unidades vendidas no terceiro trimestre.
-1	"	_	PUNCT	.	_	6	punct	_	SpaceAfter=No
-2	O	_	DET	DET	_	3	det	_	_
+1	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
+2	O	o	DET	DET	_	3	det	_	_
 3	Apple	_	PROPN	PNOUN	_	6	nsubj	_	_
 4	iPhone	_	PROPN	PNOUN	_	3	flat	_	_
 5	5	_	NUM	NUM	NumType=Card	3	appos	_	_
 6	teve	ter	VERB	VERB	_	0	root	_	_
-7	um	_	DET	DET	_	8	det	_	_
+7	um	um	DET	DET	_	8	det	_	_
 8	começo	começo	NOUN	NOUN	_	6	obj	_	_
 9	sólido	sólido	ADJ	ADJ	_	8	amod	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	13	punct	_	_
-11	com	_	ADP	ADP	_	13	case	_	_
-12	uma	_	DET	DET	_	13	det	_	_
+10	,	,	PUNCT	.	_	13	punct	_	_
+11	com	com	ADP	ADP	_	13	case	_	_
+12	uma	um	DET	DET	_	13	det	_	_
 13	estimativa	_	NOUN	NOUN	_	6	nmod	_	_
-14	de	_	ADP	ADP	_	18	case	_	_
+14	de	de	ADP	ADP	_	18	case	_	_
 15	6	_	NUM	NUM	NumType=Card	16	nummod	_	_
 16	milhões	_	NUM	NUM	NumType=Card	18	nummod	_	_
-17	de	_	ADP	ADP	_	18	case	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
 18	unidades	unidade	NOUN	NOUN	_	13	nmod	_	_
 19	vendidas	vender	VERB	VERB	_	18	acl:part	_	_
 20-21	no	_	_	_	_	_	_	_	_
@@ -277,5 +277,5 @@
 21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 22	terceiro	_	ADJ	ADJ	_	23	amod	_	_
 23	trimestre	trimestre	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
-24	.	_	PUNCT	.	_	6	punct	_	_
+24	.	.	PUNCT	.	_	6	punct	_	_
 

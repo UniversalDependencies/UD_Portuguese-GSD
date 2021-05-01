@@ -1,6 +1,6 @@
 # sent_id = dev-s1071
 # text = A força da marca Corinthians é divida em três partes: torcida (51 %), receitas (27 %) e mercado (22 %).
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	força	força	NOUN	NOUN	_	8	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -9,34 +9,34 @@
 6	Corinthians	_	PROPN	PNOUN	_	5	appos	_	_
 7	é	ser	AUX	AUX	_	8	aux:pass	_	_
 8	divida	dividir	VERB	VERB	_	0	root	_	_
-9	em	_	ADP	ADP	_	11	case	_	_
+9	em	em	ADP	ADP	_	11	case	_	_
 10	três	_	NUM	NUM	NumType=Card	11	nummod	_	_
 11	partes	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
-12	:	_	PUNCT	.	_	11	punct	_	_
+12	:	:	PUNCT	.	_	11	punct	_	_
 13	torcida	torcida	NOUN	NOUN	_	11	appos	_	_
-14	(	_	PUNCT	.	_	16	punct	_	SpaceAfter=No
+14	(	(	PUNCT	.	_	16	punct	_	SpaceAfter=No
 15	51	_	NUM	NUM	NumType=Card	16	nummod	_	_
 16	%	_	SYM	SYM	_	13	appos	_	SpaceAfter=No
-17	)	_	PUNCT	.	_	16	punct	_	SpaceAfter=No
-18	,	_	PUNCT	.	_	19	punct	_	_
+17	)	)	PUNCT	.	_	16	punct	_	SpaceAfter=No
+18	,	,	PUNCT	.	_	19	punct	_	_
 19	receitas	receita	NOUN	NOUN	_	13	conj	_	_
-20	(	_	PUNCT	.	_	22	punct	_	SpaceAfter=No
+20	(	(	PUNCT	.	_	22	punct	_	SpaceAfter=No
 21	27	_	NUM	NUM	NumType=Card	22	nummod	_	_
 22	%	_	SYM	SYM	_	19	appos	_	SpaceAfter=No
-23	)	_	PUNCT	.	_	22	punct	_	_
-24	e	_	CCONJ	CONJ	_	25	cc	_	_
+23	)	)	PUNCT	.	_	22	punct	_	_
+24	e	e	CCONJ	CONJ	_	25	cc	_	_
 25	mercado	mercado	NOUN	NOUN	_	13	conj	_	_
-26	(	_	PUNCT	.	_	28	punct	_	SpaceAfter=No
+26	(	(	PUNCT	.	_	28	punct	_	SpaceAfter=No
 27	22	_	NUM	NUM	NumType=Card	28	nummod	_	_
 28	%	_	SYM	SYM	_	25	appos	_	SpaceAfter=No
-29	)	_	PUNCT	.	_	28	punct	_	SpaceAfter=No
-30	.	_	PUNCT	.	_	8	punct	_	_
+29	)	)	PUNCT	.	_	28	punct	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = dev-s1072
 # text = Como todos, claro que ele sabe quanto vai ser difícil seu trabalho.
 1	Como	_	ADP	ADP	_	2	case	_	_
 2	todos	_	PRON	PRON	_	7	nmod	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	2	punct	_	_
+3	,	,	PUNCT	.	_	2	punct	_	_
 4	claro	_	PART	PRT	_	7	dep	_	_
 5	que	_	CCONJ	CONJ	_	7	dep	_	_
 6	ele	_	PRON	PRON	_	7	nsubj	_	_
@@ -47,13 +47,13 @@
 11	difícil	difícil	ADJ	ADJ	_	10	xcomp:adj	_	_
 12	seu	_	DET	DET	_	13	det:poss	_	_
 13	trabalho	trabalho	NOUN	NOUN	_	10	nsubj	_	SpaceAfter=No
-14	.	_	PUNCT	.	_	7	punct	_	_
+14	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = dev-s1073
 # text = 62,1 % em representação do seu produto interno bruto se referem à prestação de serviços em áreas como telecomunicações, audiovisual, tecnologia da informação -- TI, turismo, turismo de negócios, ecoturismo, seguros e comércio.
 1	62,1	_	NUM	NUM	NumType=Card	2	nummod	_	_
 2	%	_	SYM	SYM	_	12	nsubj	_	_
-3	em	_	ADP	ADP	_	4	case	_	_
+3	em	em	ADP	ADP	_	4	case	_	_
 4	representação	representação	NOUN	NOUN	_	2	nmod	_	_
 5-6	do	_	_	_	_	_	_	_	_
 5	de	de	ADP	ADP	_	8	case	_	_
@@ -68,15 +68,15 @@
 13	a	a	ADP	ADP	_	15	case	_	_
 14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	prestação	prestação	NOUN	NOUN	_	12	nmod	_	_
-16	de	_	ADP	ADP	_	17	case	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
 17	serviços	serviço	NOUN	NOUN	_	15	nmod	_	_
-18	em	_	ADP	ADP	_	19	case	_	_
+18	em	em	ADP	ADP	_	19	case	_	_
 19	áreas	área	NOUN	NOUN	_	15	nmod	_	_
-20	como	_	ADP	ADP	_	21	case	_	_
+20	como	como	ADP	ADP	_	21	case	_	_
 21	telecomunicações	telecomunicação	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
-22	,	_	PUNCT	.	_	23	punct	_	_
+22	,	,	PUNCT	.	_	23	punct	_	_
 23	audiovisual	audiovisual	NOUN	NOUN	_	21	conj	_	SpaceAfter=No
-24	,	_	PUNCT	.	_	25	punct	_	_
+24	,	,	PUNCT	.	_	25	punct	_	_
 25	tecnologia	tecnologia	NOUN	NOUN	_	21	conj	_	_
 26-27	da	_	_	_	_	_	_	_	_
 26	de	de	ADP	ADP	_	28	case	_	_
@@ -84,68 +84,68 @@
 28	informação	informação	NOUN	NOUN	_	25	nmod	_	_
 29	--	_	PUNCT	.	_	30	punct	_	_
 30	TI	ti	NOUN	NOUN	_	25	appos	_	SpaceAfter=No
-31	,	_	PUNCT	.	_	32	punct	_	_
+31	,	,	PUNCT	.	_	32	punct	_	_
 32	turismo	turismo	NOUN	NOUN	_	21	conj	_	SpaceAfter=No
-33	,	_	PUNCT	.	_	34	punct	_	_
+33	,	,	PUNCT	.	_	34	punct	_	_
 34	turismo	turismo	NOUN	NOUN	_	21	conj	_	_
-35	de	_	ADP	ADP	_	36	case	_	_
+35	de	de	ADP	ADP	_	36	case	_	_
 36	negócios	negócio	NOUN	NOUN	_	34	nmod	_	SpaceAfter=No
-37	,	_	PUNCT	.	_	38	punct	_	_
+37	,	,	PUNCT	.	_	38	punct	_	_
 38	ecoturismo	ecoturismo	NOUN	NOUN	_	21	conj	_	SpaceAfter=No
-39	,	_	PUNCT	.	_	40	punct	_	_
+39	,	,	PUNCT	.	_	40	punct	_	_
 40	seguros	seguro	NOUN	NOUN	_	21	conj	_	_
-41	e	_	CCONJ	CONJ	_	42	cc	_	_
+41	e	e	CCONJ	CONJ	_	42	cc	_	_
 42	comércio	comércio	NOUN	NOUN	_	21	conj	_	SpaceAfter=No
-43	.	_	PUNCT	.	_	12	punct	_	_
+43	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = dev-s1074
 # text = A prova, promovida pela Racing Adventure, será no período de 14 a 18 de novembro, na Serra Catarinense, com sede na cidade de São Joaquim.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	prova	prova	NOUN	NOUN	_	10	nsubj	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	4	punct	_	_
+3	,	,	PUNCT	.	_	4	punct	_	_
 4	promovida	promover	VERB	VERB	_	2	acl:part	_	_
 5-6	pela	_	_	_	_	_	_	_	_
 5	por	por	ADP	ADP	_	7	case	_	_
 6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Racing	_	PROPN	PNOUN	_	4	nmod	_	_
 8	Adventure	_	PROPN	PNOUN	_	7	flat	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	4	punct	_	_
+9	,	,	PUNCT	.	_	4	punct	_	_
 10	será	ser	VERB	VERB	_	0	root	_	_
 11-12	no	_	_	_	_	_	_	_	_
 11	em	em	ADP	ADP	_	13	case	_	_
 12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	período	período	NOUN	NOUN	_	10	nmod	_	_
-14	de	_	ADP	ADP	_	15	case	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
 15	14	_	NUM	NUM	NumType=Card	13	nmod	_	_
 16	a	_	ADP	ADP	_	17	case	_	_
 17	18	_	NUM	NUM	NumType=Card	15	nmod	_	_
-18	de	_	ADP	ADP	_	19	case	_	_
+18	de	de	ADP	ADP	_	19	case	_	_
 19	novembro	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
-20	,	_	PUNCT	.	_	23	punct	_	_
+20	,	,	PUNCT	.	_	23	punct	_	_
 21-22	na	_	_	_	_	_	_	_	_
 21	em	em	ADP	ADP	_	23	case	_	_
 22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	Serra	_	PROPN	PNOUN	_	10	nmod	_	_
 24	Catarinense	_	PROPN	PNOUN	_	23	amod	_	SpaceAfter=No
-25	,	_	PUNCT	.	_	27	punct	_	_
-26	com	_	ADP	ADP	_	27	case	_	_
+25	,	,	PUNCT	.	_	27	punct	_	_
+26	com	com	ADP	ADP	_	27	case	_	_
 27	sede	sede	NOUN	NOUN	_	10	nmod	_	_
 28-29	na	_	_	_	_	_	_	_	_
 28	em	em	ADP	ADP	_	30	case	_	_
 29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	cidade	cidade	NOUN	NOUN	_	27	nmod	_	_
-31	de	_	ADP	ADP	_	32	case	_	_
+31	de	de	ADP	ADP	_	32	case	_	_
 32	São	_	PROPN	PNOUN	_	30	nmod	_	_
 33	Joaquim	_	PROPN	PNOUN	_	32	flat	_	SpaceAfter=No
-34	.	_	PUNCT	.	_	10	punct	_	_
+34	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = dev-s1075
 # text = Com o resultado, as duas equipes seguem sem vencer na competição.
 1	Com	_	ADP	ADP	_	3	case	_	_
-2	o	_	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	_	3	det	_	_
 3	resultado	resultado	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
-5	as	_	DET	DET	_	7	det	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	as	o	DET	DET	_	7	det	_	_
 6	duas	_	NUM	NUM	NumType=Card	7	nummod	_	_
 7	equipes	equipe	NOUN	NOUN	_	10	nsubj	_	_
 8	seguem	_	AUX	AUX	_	10	aux	_	_
@@ -155,7 +155,7 @@
 11	em	em	ADP	ADP	_	13	case	_	_
 12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	competição	competição	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
-14	.	_	PUNCT	.	_	10	punct	_	_
+14	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = dev-s1076
 # text = Pitbull ganhou sua chance pelo título ao vencer a quarta temporada do torneio, apesar duma mão quebrada, que o colocou fora de combate durante os últimos 15 meses.
@@ -171,51 +171,51 @@
 8	a	a	ADP	ADP	_	10	case	_	_
 9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	vencer	vencer	VERB	VERB	_	2	advcl	_	_
-11	a	_	DET	DET	_	13	det	_	_
+11	a	a	DET	DET	_	13	det	_	_
 12	quarta	_	ADJ	ADJ	_	13	amod	_	_
 13	temporada	temporada	NOUN	NOUN	_	10	obj	_	_
 14-15	do	_	_	_	_	_	_	_	_
 14	de	de	ADP	ADP	_	16	case	_	_
 15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	torneio	torneio	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	21	punct	_	_
+17	,	,	PUNCT	.	_	21	punct	_	_
 18	apesar	apesar	ADV	ADV	_	21	case	_	_
 19-20	duma	_	_	_	_	_	_	_	_
 19	de	_	ADP	ADP	_	18	fixed	_	_
-20	uma	_	DET	DET	_	21	det	_	_
+20	uma	um	DET	DET	_	21	det	_	_
 21	mão	mão	NOUN	NOUN	_	10	nmod	_	_
 22	quebrada	quebrado	ADJ	ADJ	_	21	amod	_	SpaceAfter=No
-23	,	_	PUNCT	.	_	26	punct	_	_
+23	,	,	PUNCT	.	_	26	punct	_	_
 24	que	_	PRON	PRON	_	26	nsubj	_	_
 25	o	_	PRON	PRON	_	26	obj	_	_
 26	colocou	colocar	VERB	VERB	_	21	acl:relcl	_	_
 27	fora	fora	ADV	ADV	_	26	advmod	_	_
-28	de	_	ADP	ADP	_	29	case	_	_
+28	de	de	ADP	ADP	_	29	case	_	_
 29	combate	combate	NOUN	NOUN	_	27	nmod	_	_
 30	durante	_	ADP	ADP	_	34	case	_	_
-31	os	_	DET	DET	_	34	det	_	_
+31	os	o	DET	DET	_	34	det	_	_
 32	últimos	último	ADJ	ADJ	_	34	amod	_	_
 33	15	_	NUM	NUM	NumType=Card	34	nummod	_	_
 34	meses	mês	NOUN	NOUN	_	26	nmod	_	SpaceAfter=No
-35	.	_	PUNCT	.	_	2	punct	_	_
+35	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = dev-s1077
 # text = Lula, que encerrou à noite, em Mauá, um roteiro de quatro comícios na região do ABC, disse que pretendia ir a muitas cidades, mas precisa dar mais atenção a São Paulo.
 1	Lula	_	PROPN	PNOUN	_	24	nsubj	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	4	punct	_	_
+2	,	,	PUNCT	.	_	4	punct	_	_
 3	que	_	PRON	PRON	_	4	nsubj	_	_
 4	encerrou	encerrar	VERB	VERB	_	1	acl:relcl	_	_
 5-6	à	_	_	_	_	_	_	_	_
 5	a	a	ADP	ADP	_	7	case	_	_
 6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	noite	noite	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	10	punct	_	_
-9	em	_	ADP	ADP	_	10	case	_	_
+8	,	,	PUNCT	.	_	10	punct	_	_
+9	em	em	ADP	ADP	_	10	case	_	_
 10	Mauá	_	PROPN	PNOUN	_	4	nmod	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	10	punct	_	_
-12	um	_	DET	DET	_	13	det	_	_
+11	,	,	PUNCT	.	_	10	punct	_	_
+12	um	um	DET	DET	_	13	det	_	_
 13	roteiro	roteiro	NOUN	NOUN	_	4	obj	_	_
-14	de	_	ADP	ADP	_	16	case	_	_
+14	de	de	ADP	ADP	_	16	case	_	_
 15	quatro	_	NUM	NUM	NumType=Card	16	nummod	_	_
 16	comícios	comício	NOUN	NOUN	_	13	nmod	_	_
 17-18	na	_	_	_	_	_	_	_	_
@@ -226,15 +226,15 @@
 20	de	de	ADP	ADP	_	22	case	_	_
 21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	ABC	_	PROPN	PNOUN	_	19	nmod	_	SpaceAfter=No
-23	,	_	PUNCT	.	_	4	punct	_	_
+23	,	,	PUNCT	.	_	4	punct	_	_
 24	disse	dizer	VERB	VERB	_	0	root	_	_
-25	que	_	CCONJ	CONJ	_	26	mark	_	_
+25	que	que	CCONJ	CONJ	_	26	mark	_	_
 26	pretendia	pretender	VERB	VERB	_	24	ccomp	_	_
 27	ir	ir	VERB	VERB	_	26	xcomp	_	_
 28	a	_	ADP	ADP	_	30	case	_	_
 29	muitas	_	DET	DET	_	30	det	_	_
 30	cidades	cidade	NOUN	NOUN	_	27	nmod	_	SpaceAfter=No
-31	,	_	PUNCT	.	_	33	punct	_	_
+31	,	,	PUNCT	.	_	33	punct	_	_
 32	mas	_	CCONJ	CONJ	_	33	cc	_	_
 33	precisa	precisar	VERB	VERB	_	26	conj	_	_
 34	dar	dar	VERB	VERB	_	33	xcomp	_	_
@@ -243,16 +243,16 @@
 37	a	_	ADP	ADP	_	38	case	_	_
 38	São	_	PROPN	PNOUN	_	34	iobj	_	_
 39	Paulo	_	PROPN	PNOUN	_	38	flat	_	SpaceAfter=No
-40	.	_	PUNCT	.	_	24	punct	_	_
+40	.	.	PUNCT	.	_	24	punct	_	_
 
 # sent_id = dev-s1078
 # text = Os padrões atuais exigem que o impacto das mudanças no risco de crédito próprio sobre essas obrigações seja reconhecido no resultado -- levando a um grande aumento nos lucros de determinada entidade quando a percepção de seu risco de crédito deteriora - se.
-1	Os	_	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	_	2	det	_	_
 2	padrões	padrão	NOUN	NOUN	_	4	nsubj	_	_
 3	atuais	atual	ADJ	ADJ	_	2	amod	_	_
 4	exigem	exigir	VERB	VERB	_	0	root	_	_
-5	que	_	CCONJ	CONJ	_	21	mark	_	_
-6	o	_	DET	DET	_	7	det	_	_
+5	que	que	CCONJ	CONJ	_	21	mark	_	_
+6	o	o	DET	DET	_	7	det	_	_
 7	impacto	impacto	NOUN	NOUN	_	21	nsubj:pass	_	_
 8-9	das	_	_	_	_	_	_	_	_
 8	de	de	ADP	ADP	_	10	case	_	_
@@ -262,7 +262,7 @@
 11	em	em	ADP	ADP	_	13	case	_	_
 12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	risco	risco	NOUN	NOUN	_	7	nmod	_	_
-14	de	_	ADP	ADP	_	15	case	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
 15	crédito	crédito	NOUN	NOUN	_	13	nmod	_	_
 16	próprio	próprio	ADJ	ADJ	_	15	amod	_	_
 17	sobre	_	ADP	ADP	_	19	case	_	_
@@ -277,66 +277,66 @@
 25	--	_	PUNCT	.	_	21	punct	_	_
 26	levando	levar	VERB	VERB	_	21	acl:part	_	_
 27	a	_	ADP	ADP	_	30	case	_	_
-28	um	_	DET	DET	_	30	det	_	_
+28	um	um	DET	DET	_	30	det	_	_
 29	grande	grande	ADJ	ADJ	_	30	amod	_	_
 30	aumento	aumento	NOUN	NOUN	_	26	nmod	_	_
 31-32	nos	_	_	_	_	_	_	_	_
 31	em	em	ADP	ADP	_	33	case	_	_
 32	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
 33	lucros	lucro	NOUN	NOUN	_	30	nmod	_	_
-34	de	_	ADP	ADP	_	36	case	_	_
+34	de	de	ADP	ADP	_	36	case	_	_
 35	determinada	_	DET	DET	_	36	det	_	_
 36	entidade	entidade	NOUN	NOUN	_	33	nmod	_	_
 37	quando	_	CCONJ	CONJ	_	45	mark	_	_
-38	a	_	DET	DET	_	39	det	_	_
+38	a	a	DET	DET	_	39	det	_	_
 39	percepção	percepção	NOUN	NOUN	_	45	nsubj	_	_
-40	de	_	ADP	ADP	_	42	case	_	_
+40	de	de	ADP	ADP	_	42	case	_	_
 41	seu	_	DET	DET	_	42	det:poss	_	_
 42	risco	risco	NOUN	NOUN	_	39	nmod	_	_
-43	de	_	ADP	ADP	_	44	case	_	_
+43	de	de	ADP	ADP	_	44	case	_	_
 44	crédito	crédito	NOUN	NOUN	_	42	nmod	_	_
 45	deteriora	deteriorar	VERB	VERB	_	26	advcl	_	_
-46	-	_	PUNCT	.	_	45	punct	_	_
+46	-	-	PUNCT	.	_	45	punct	_	_
 47	se	_	PRON	PRON	_	45	expl:pv	_	SpaceAfter=No
-48	.	_	PUNCT	.	_	4	punct	_	_
+48	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = dev-s1079
 # text = Uma crítica dizia: "que é como se o melhor das pistas de 2027 fosse lançado em pleno 2007".
 1	Uma	_	DET	DET	_	2	det	_	_
 2	crítica	_	NOUN	NOUN	_	3	nsubj	_	_
 3	dizia	dizer	VERB	VERB	_	0	root	_	SpaceAfter=No
-4	:	_	PUNCT	.	_	3	punct	_	_
-5	"	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
-6	que	_	CCONJ	CONJ	_	7	mark	_	_
+4	:	:	PUNCT	.	_	3	punct	_	_
+5	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
+6	que	que	CCONJ	CONJ	_	7	mark	_	_
 7	é	ser	VERB	VERB	_	3	ccomp	_	_
 8	como	_	CCONJ	CONJ	_	18	mark	_	_
 9	se	_	CCONJ	CONJ	_	8	fixed	_	_
-10	o	_	DET	DET	_	11	det	_	_
+10	o	o	DET	DET	_	11	det	_	_
 11	melhor	melhor	NOUN	NOUN	_	18	nsubj:pass	_	_
 12-13	das	_	_	_	_	_	_	_	_
 12	de	de	ADP	ADP	_	14	case	_	_
 13	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
 14	pistas	pista	NOUN	NOUN	_	11	nmod	_	_
-15	de	_	ADP	ADP	_	16	case	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
 16	2027	_	NUM	NUM	NumType=Card	14	nmod	_	_
 17	fosse	_	AUX	AUX	_	18	aux:pass	_	_
 18	lançado	lançar	VERB	VERB	_	7	advcl	_	_
-19	em	_	ADP	ADP	_	21	case	_	_
+19	em	em	ADP	ADP	_	21	case	_	_
 20	pleno	pleno	ADJ	ADJ	_	21	amod	_	_
 21	2007	_	NUM	NUM	NumType=Card	18	nmod	_	SpaceAfter=No
-22	"	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
-23	.	_	PUNCT	.	_	3	punct	_	_
+22	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = dev-s1080
 # text = Nesta obra, tornam - se visíveis as qualidades mais singulares do compositor: a angústia existencial e a sublime grandiosidade.
 1	Nesta	_	ADP	ADP	_	2	case	_	_
 2	obra	obra	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	2	punct	_	_
+3	,	,	PUNCT	.	_	2	punct	_	_
 4	tornam	tornar	VERB	VERB	_	0	root	_	_
-5	-	_	PUNCT	.	_	4	punct	_	_
+5	-	-	PUNCT	.	_	4	punct	_	_
 6	se	_	PART	PRT	_	4	expl:pv	_	_
 7	visíveis	visível	ADJ	ADJ	_	4	xcomp:adj	_	_
-8	as	_	DET	DET	_	9	det	_	_
+8	as	o	DET	DET	_	9	det	_	_
 9	qualidades	qualidade	NOUN	NOUN	_	4	nsubj	_	_
 10	mais	mais	ADV	ADV	_	11	advmod	_	_
 11	singulares	singular	ADJ	ADJ	_	9	amod	_	_
@@ -344,13 +344,13 @@
 12	de	de	ADP	ADP	_	14	case	_	_
 13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	compositor	compositor	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
-15	:	_	PUNCT	.	_	9	punct	_	_
-16	a	_	DET	DET	_	17	det	_	_
+15	:	:	PUNCT	.	_	9	punct	_	_
+16	a	a	DET	DET	_	17	det	_	_
 17	angústia	angústia	NOUN	NOUN	_	9	appos	_	_
 18	existencial	existencial	ADJ	ADJ	_	17	amod	_	_
-19	e	_	CCONJ	CONJ	_	22	cc	_	_
-20	a	_	DET	DET	_	22	det	_	_
+19	e	e	CCONJ	CONJ	_	22	cc	_	_
+20	a	a	DET	DET	_	22	det	_	_
 21	sublime	sublime	ADJ	ADJ	_	22	amod	_	_
 22	grandiosidade	grandiosidade	NOUN	NOUN	_	17	conj	_	SpaceAfter=No
-23	.	_	PUNCT	.	_	4	punct	_	_
+23	.	.	PUNCT	.	_	4	punct	_	_
 

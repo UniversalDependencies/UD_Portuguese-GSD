@@ -1,6 +1,6 @@
 # sent_id = train-s1816
 # text = A modéstia faz parte do jeito de ser do treinador, que conquistou a confiança do elenco e está invicto no comando tricolor.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	modéstia	modéstia	NOUN	NOUN	_	3	nsubj	_	_
 3	faz	fazer	VERB	VERB	_	0	root	_	_
 4	parte	parte	NOUN	NOUN	_	3	obj	_	_
@@ -14,16 +14,16 @@
 10	de	de	ADP	ADP	_	12	case	_	_
 11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	treinador	treinador	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	15	punct	_	_
+13	,	,	PUNCT	.	_	15	punct	_	_
 14	que	_	PRON	PRON	_	15	nsubj	_	_
 15	conquistou	conquistar	VERB	VERB	_	12	acl:relcl	_	_
-16	a	_	DET	DET	_	17	det	_	_
+16	a	a	DET	DET	_	17	det	_	_
 17	confiança	confiança	NOUN	NOUN	_	15	obj	_	_
 18-19	do	_	_	_	_	_	_	_	_
 18	de	de	ADP	ADP	_	20	case	_	_
 19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	elenco	elenco	NOUN	NOUN	_	17	nmod	_	_
-21	e	_	CCONJ	CONJ	_	22	cc	_	_
+21	e	e	CCONJ	CONJ	_	22	cc	_	_
 22	está	estar	VERB	VERB	_	15	conj	_	_
 23	invicto	invicto	ADJ	ADJ	_	22	xcomp:adj	_	_
 24-25	no	_	_	_	_	_	_	_	_
@@ -31,32 +31,32 @@
 25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	comando	comandar	VERB	VERB	_	22	nmod	_	_
 27	tricolor	tricolor	ADJ	ADJ	_	26	amod	_	SpaceAfter=No
-28	.	_	PUNCT	.	_	3	punct	_	_
+28	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s1817
 # text = As agências estão todas abertas e atendendo normalmente ao público.
-1	As	_	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	_	2	det	_	_
 2	agências	agência	NOUN	NOUN	_	4	nsubj	_	_
 3	estão	estar	AUX	AUX	_	4	cop	_	_
 4	todas	_	PRON	PRON	_	0	root	_	_
 5	abertas	aberto	ADJ	ADJ	_	4	amod	_	_
-6	e	_	CCONJ	CONJ	_	7	cc	_	_
+6	e	e	CCONJ	CONJ	_	7	cc	_	_
 7	atendendo	atender	VERB	VERB	_	4	conj	_	_
 8	normalmente	normalmente	ADV	ADV	_	7	advmod	_	_
 9-10	ao	_	_	_	_	_	_	_	_
 9	a	a	ADP	ADP	_	11	case	_	_
 10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	público	público	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-12	.	_	PUNCT	.	_	4	punct	_	_
+12	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s1818
 # text = Até o ano de 2010, este seguia crescendo na América Latina, tanto em valores absolutos como em proporção ao gasto público total e ao produto interno bruto (PIB), mostrando um caráter contracíclico durante a crise internacional.
 1	Até	_	ADP	ADP	_	3	case	_	_
-2	o	_	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	_	3	det	_	_
 3	ano	ano	NOUN	NOUN	_	9	nmod	_	_
-4	de	_	ADP	ADP	_	5	case	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
 5	2010	_	NUM	NUM	NumType=Card	3	nmod	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	3	punct	_	_
+6	,	,	PUNCT	.	_	3	punct	_	_
 7	este	_	PRON	PRON	_	9	nsubj	_	_
 8	seguia	seguir	AUX	AUX	_	9	aux	_	_
 9	crescendo	crescer	VERB	VERB	_	0	root	_	_
@@ -65,13 +65,13 @@
 11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	América	_	PROPN	PNOUN	_	9	nmod	_	_
 13	Latina	_	PROPN	PNOUN	_	12	amod	_	SpaceAfter=No
-14	,	_	PUNCT	.	_	17	punct	_	_
+14	,	,	PUNCT	.	_	17	punct	_	_
 15	tanto	tanto	ADV	ADV	_	17	cc	_	_
-16	em	_	ADP	ADP	_	17	case	_	_
+16	em	em	ADP	ADP	_	17	case	_	_
 17	valores	_	NOUN	NOUN	_	9	nmod	_	_
 18	absolutos	absoluto	ADJ	ADJ	_	17	amod	_	_
 19	como	_	CCONJ	CONJ	_	21	cc	_	_
-20	em	_	ADP	ADP	_	21	case	_	_
+20	em	em	ADP	ADP	_	21	case	_	_
 21	proporção	proporção	NOUN	NOUN	_	17	conj	_	_
 22-23	ao	_	_	_	_	_	_	_	_
 22	a	a	ADP	ADP	_	24	case	_	_
@@ -79,50 +79,50 @@
 24	gasto	gasto	NOUN	NOUN	_	21	nmod	_	_
 25	público	público	ADJ	ADJ	_	24	amod	_	_
 26	total	total	ADJ	ADJ	_	24	amod	_	_
-27	e	_	CCONJ	CONJ	_	30	cc	_	_
+27	e	e	CCONJ	CONJ	_	30	cc	_	_
 28-29	ao	_	_	_	_	_	_	_	_
 28	a	a	ADP	ADP	_	30	case	_	_
 29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	produto	produto	NOUN	NOUN	_	24	conj	_	_
 31	interno	interno	ADJ	ADJ	_	30	amod	_	_
 32	bruto	bruto	ADJ	ADJ	_	30	amod	_	_
-33	(	_	PUNCT	.	_	34	punct	_	SpaceAfter=No
+33	(	(	PUNCT	.	_	34	punct	_	SpaceAfter=No
 34	PIB	_	PROPN	PNOUN	_	30	appos	_	SpaceAfter=No
-35	)	_	PUNCT	.	_	34	punct	_	SpaceAfter=No
-36	,	_	PUNCT	.	_	37	punct	_	_
+35	)	)	PUNCT	.	_	34	punct	_	SpaceAfter=No
+36	,	,	PUNCT	.	_	37	punct	_	_
 37	mostrando	mostrar	VERB	VERB	_	9	acl:part	_	_
-38	um	_	DET	DET	_	39	det	_	_
+38	um	um	DET	DET	_	39	det	_	_
 39	caráter	caráter	NOUN	NOUN	_	37	obj	_	_
 40	contracíclico	_	ADJ	ADJ	_	39	amod	_	_
 41	durante	_	ADP	ADP	_	43	case	_	_
-42	a	_	DET	DET	_	43	det	_	_
+42	a	a	DET	DET	_	43	det	_	_
 43	crise	crise	NOUN	NOUN	_	37	nmod	_	_
 44	internacional	internacional	ADJ	ADJ	_	43	amod	_	SpaceAfter=No
-45	.	_	PUNCT	.	_	9	punct	_	_
+45	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s1819
 # text = Desde 2010, foram feitas três licitações para compra de uniformes, envolvendo contratos de até R $ 8 milhões.
 1	Desde	_	ADP	ADP	_	2	case	_	_
 2	2010	_	NUM	NUM	NumType=Card	5	nmod	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	2	punct	_	_
+3	,	,	PUNCT	.	_	2	punct	_	_
 4	foram	_	AUX	AUX	_	5	aux:pass	_	_
 5	feitas	_	VERB	VERB	_	0	root	_	_
 6	três	_	NUM	NUM	NumType=Card	7	nummod	_	_
 7	licitações	licitação	NOUN	NOUN	_	5	nsubj:pass	_	_
-8	para	_	ADP	ADP	_	9	case	_	_
+8	para	para	ADP	ADP	_	9	case	_	_
 9	compra	compra	NOUN	NOUN	_	7	nmod	_	_
-10	de	_	ADP	ADP	_	11	case	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
 11	uniformes	uniforme	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	13	punct	_	_
+12	,	,	PUNCT	.	_	13	punct	_	_
 13	envolvendo	envolver	VERB	VERB	_	7	acl:part	_	_
 14	contratos	contrato	NOUN	NOUN	_	13	obj	_	_
-15	de	_	ADP	ADP	_	17	case	_	_
+15	de	de	ADP	ADP	_	17	case	_	_
 16	até	até	ADV	ADV	_	20	advmod	_	_
 17	R	r	NOUN	NOUN	_	14	nmod	_	_
 18	$	_	SYM	SYM	_	17	flat	_	_
 19	8	_	NUM	NUM	NumType=Card	20	nummod	_	_
 20	milhões	_	NUM	NUM	NumType=Card	17	nummod	_	SpaceAfter=No
-21	.	_	PUNCT	.	_	5	punct	_	_
+21	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s1820
 # text = Na realidade, os Visitantes são uma raça de humanóides reptilianos.
@@ -130,40 +130,40 @@
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	realidade	realidade	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
-5	os	_	DET	DET	_	6	det	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	os	o	DET	DET	_	6	det	_	_
 6	Visitantes	_	PROPN	PNOUN	_	9	nsubj	_	_
 7	são	ser	AUX	AUX	_	9	cop	_	_
-8	uma	_	DET	DET	_	9	det	_	_
+8	uma	um	DET	DET	_	9	det	_	_
 9	raça	raça	NOUN	NOUN	_	0	root	_	_
-10	de	_	ADP	ADP	_	11	case	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
 11	humanóides	humanóide	NOUN	NOUN	_	9	nmod	_	_
 12	reptilianos	reptiliano	ADJ	ADJ	_	11	amod	_	SpaceAfter=No
-13	.	_	PUNCT	.	_	9	punct	_	_
+13	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s1821
 # text = Kutina tem uma população de 14.814 na cidade e 24.597 habitantes na municipalidade (2001).
 1	Kutina	_	PROPN	PNOUN	_	2	nsubj	_	_
 2	tem	ter	VERB	VERB	_	0	root	_	_
-3	uma	_	DET	DET	_	4	det	_	_
+3	uma	um	DET	DET	_	4	det	_	_
 4	população	população	NOUN	NOUN	_	2	obj	_	_
-5	de	_	ADP	ADP	_	6	case	_	_
+5	de	de	ADP	ADP	_	6	case	_	_
 6	14.814	_	NUM	NUM	NumType=Card	4	nmod	_	_
 7-8	na	_	_	_	_	_	_	_	_
 7	em	em	ADP	ADP	_	9	case	_	_
 8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	cidade	cidade	NOUN	NOUN	_	4	nmod	_	_
-10	e	_	CCONJ	CONJ	_	12	cc	_	_
+10	e	e	CCONJ	CONJ	_	12	cc	_	_
 11	24.597	_	NUM	NUM	NumType=Card	12	nummod	_	_
 12	habitantes	habitante	NOUN	NOUN	_	4	conj	_	_
 13-14	na	_	_	_	_	_	_	_	_
 13	em	em	ADP	ADP	_	15	case	_	_
 14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	municipalidade	municipalidade	NOUN	NOUN	_	12	nmod	_	_
-16	(	_	PUNCT	.	_	17	punct	_	SpaceAfter=No
+16	(	(	PUNCT	.	_	17	punct	_	SpaceAfter=No
 17	2001	_	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
-18	)	_	PUNCT	.	_	17	punct	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	2	punct	_	_
+18	)	)	PUNCT	.	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s1822
 # text = Na manhã de quarta, Niemeyer sofreu uma parada cardíaca e sua respiração passou a ser mantida por aparelhos.
@@ -171,75 +171,75 @@
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	manhã	manhã	NOUN	NOUN	_	8	nmod	_	_
-4	de	_	ADP	ADP	_	5	case	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
 5	quarta	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	3	punct	_	_
+6	,	,	PUNCT	.	_	3	punct	_	_
 7	Niemeyer	_	PROPN	PNOUN	_	8	nsubj	_	_
 8	sofreu	sofrer	VERB	VERB	_	0	root	_	_
-9	uma	_	DET	DET	_	10	det	_	_
+9	uma	um	DET	DET	_	10	det	_	_
 10	parada	parada	NOUN	NOUN	_	8	obj	_	_
 11	cardíaca	cardíaco	ADJ	ADJ	_	10	amod	_	_
-12	e	_	CCONJ	CONJ	_	18	cc	_	_
+12	e	e	CCONJ	CONJ	_	18	cc	_	_
 13	sua	_	DET	DET	_	14	det:poss	_	_
 14	respiração	respiração	NOUN	NOUN	_	18	nsubj:pass	_	_
 15	passou	passar	AUX	AUX	_	18	aux	_	_
 16	a	_	ADP	ADP	_	18	mark	_	_
 17	ser	ser	AUX	AUX	_	18	aux:pass	_	_
 18	mantida	manter	VERB	VERB	_	8	conj	_	_
-19	por	_	ADP	ADP	_	20	case	_	_
+19	por	por	ADP	ADP	_	20	case	_	_
 20	aparelhos	aparelho	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
-21	.	_	PUNCT	.	_	8	punct	_	_
+21	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s1823
 # text = Izett (asteróide 5765) é um asteróide da cintura principal, a 1,9268105 UA.
 1	Izett	_	PROPN	PNOUN	_	8	nsubj	_	_
-2	(	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
+2	(	(	PUNCT	.	_	3	punct	_	SpaceAfter=No
 3	asteróide	_	NOUN	NOUN	_	1	appos	_	_
 4	5765	_	NUM	NUM	NumType=Card	3	appos	_	SpaceAfter=No
-5	)	_	PUNCT	.	_	3	punct	_	_
+5	)	)	PUNCT	.	_	3	punct	_	_
 6	é	ser	AUX	AUX	_	8	cop	_	_
-7	um	_	DET	DET	_	8	det	_	_
+7	um	um	DET	DET	_	8	det	_	_
 8	asteróide	_	NOUN	NOUN	_	0	root	_	_
 9-10	da	_	_	_	_	_	_	_	_
 9	de	de	ADP	ADP	_	11	case	_	_
 10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	cintura	cintura	NOUN	NOUN	_	8	nmod	_	_
 12	principal	principal	ADJ	ADJ	_	11	amod	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	16	punct	_	_
+13	,	,	PUNCT	.	_	16	punct	_	_
 14	a	_	ADP	ADP	_	16	case	_	_
 15	1,9268105	_	NUM	NUM	NumType=Card	16	nummod	_	_
 16	UA	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
-17	.	_	PUNCT	.	_	8	punct	_	_
+17	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s1824
 # text = "Efetuamos o pagamento por volta das 19h20.
-1	"	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
 2	Efetuamos	efetuar	VERB	VERB	_	0	root	_	_
-3	o	_	DET	DET	_	4	det	_	_
+3	o	o	DET	DET	_	4	det	_	_
 4	pagamento	pagamento	NOUN	NOUN	_	2	obj	_	_
-5	por	_	ADP	ADP	_	6	case	_	_
+5	por	por	ADP	ADP	_	6	case	_	_
 6	volta	volta	NOUN	NOUN	_	2	nmod	_	_
 7-8	das	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
 8	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
 9	19h20	_	NUM	NUM	NumType=Card	6	nmod	_	SpaceAfter=No
-10	.	_	PUNCT	.	_	2	punct	_	_
+10	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s1825
 # text = Segundo ela, não será necessário apenas ampliar as vagas para incluir os jovens que estão fora da escola, mas torná - la mais atrativa para a realidade deles.
 1	Segundo	_	ADP	ADP	_	2	case	_	_
 2	ela	_	PRON	PRON	_	5	nmod	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	2	punct	_	_
+3	,	,	PUNCT	.	_	2	punct	_	_
 4	não	não	ADV	ADV	Polarity=Neg	5	advmod	_	_
 5	será	ser	VERB	VERB	_	0	root	_	_
 6	necessário	necessário	ADJ	ADJ	_	5	xcomp:adj	_	_
 7	apenas	apenas	ADV	ADV	_	8	advmod	_	_
 8	ampliar	ampliar	VERB	VERB	_	5	csubj	_	_
-9	as	_	DET	DET	_	10	det	_	_
+9	as	o	DET	DET	_	10	det	_	_
 10	vagas	vaga	NOUN	NOUN	_	8	obj	_	_
 11	para	_	ADP	ADP	_	12	mark	_	_
 12	incluir	incluir	VERB	VERB	_	8	advcl	_	_
-13	os	_	DET	DET	_	14	det	_	_
+13	os	o	DET	DET	_	14	det	_	_
 14	jovens	jovem	NOUN	NOUN	_	12	obj	_	_
 15	que	_	PRON	PRON	_	16	nsubj	_	_
 16	estão	estar	VERB	VERB	_	14	acl:relcl	_	_
@@ -248,16 +248,16 @@
 18	de	de	ADP	ADP	_	20	case	_	_
 19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	escola	escola	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
-21	,	_	PUNCT	.	_	23	punct	_	_
+21	,	,	PUNCT	.	_	23	punct	_	_
 22	mas	_	CCONJ	CONJ	_	23	cc	_	_
 23	torná	tornar	VERB	VERB	_	8	conj	_	_
-24	-	_	PUNCT	.	_	23	punct	_	_
+24	-	-	PUNCT	.	_	23	punct	_	_
 25	la	_	PRON	PRON	_	27	nsubj	_	_
 26	mais	mais	ADV	ADV	_	27	advmod	_	_
 27	atrativa	atrativo	ADJ	ADJ	_	23	xcomp	_	_
-28	para	_	ADP	ADP	_	30	case	_	_
-29	a	_	DET	DET	_	30	det	_	_
+28	para	para	ADP	ADP	_	30	case	_	_
+29	a	a	DET	DET	_	30	det	_	_
 30	realidade	realidade	NOUN	NOUN	_	23	nmod	_	_
 31	deles	_	X	ADPPRON	_	30	nmod	_	SpaceAfter=No
-32	.	_	PUNCT	.	_	5	punct	_	_
+32	.	.	PUNCT	.	_	5	punct	_	_
 

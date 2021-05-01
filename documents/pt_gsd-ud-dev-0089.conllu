@@ -8,26 +8,26 @@
 4	de	de	ADP	ADP	_	6	case	_	_
 5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	etanol	etanol	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	10	punct	_	_
+7	,	,	PUNCT	.	_	10	punct	_	_
 8	que	_	PRON	PRON	_	10	nsubj	_	_
 9	atualmente	atualmente	ADV	ADV	_	10	advmod	_	_
 10	está	estar	VERB	VERB	_	6	acl:relcl	_	_
-11	em	_	ADP	ADP	_	13	case	_	_
+11	em	em	ADP	ADP	_	13	case	_	_
 12	9,7	_	NUM	NUM	NumType=Card	13	nummod	_	_
 13	km	km	NOUN	NOUN	_	10	nmod	_	_
-14	/	_	PUNCT	.	_	15	punct	_	_
+14	/	/	PUNCT	.	_	15	punct	_	_
 15	l	l	NOUN	NOUN	_	13	appos	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	3	punct	_	_
-17	o	_	DET	DET	_	18	det	_	_
+16	,	,	PUNCT	.	_	3	punct	_	_
+17	o	o	DET	DET	_	18	det	_	_
 18	consumo	consumo	NOUN	NOUN	_	20	nsubj	_	_
 19	deve	dever	AUX	AUX	_	20	aux	_	_
 20	chegar	chegar	VERB	VERB	_	0	root	_	_
 21	a	_	ADP	ADP	_	23	case	_	_
 22	11,9	_	NUM	NUM	NumType=Card	23	nummod	_	_
 23	km	km	NOUN	NOUN	_	20	nmod	_	_
-24	/	_	PUNCT	.	_	25	punct	_	_
+24	/	/	PUNCT	.	_	25	punct	_	_
 25	l	l	NOUN	NOUN	_	23	appos	_	SpaceAfter=No
-26	.	_	PUNCT	.	_	20	punct	_	_
+26	.	.	PUNCT	.	_	20	punct	_	_
 
 # sent_id = dev-s874
 # text = Com seus vidros ao lado do campo e o curto espaço entre as linhas e a torcida, o campo está bem representado no game.
@@ -47,13 +47,13 @@
 12	curto	curto	ADJ	ADJ	_	13	amod	_	_
 13	espaço	espaço	NOUN	NOUN	_	3	conj	_	_
 14	entre	_	ADP	ADP	_	16	case	_	_
-15	as	_	DET	DET	_	16	det	_	_
+15	as	o	DET	DET	_	16	det	_	_
 16	linhas	_	NOUN	NOUN	_	13	nmod	_	_
 17	e	e	CCONJ	CONJ	_	19	cc	_	_
 18	a	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	torcida	torcida	NOUN	NOUN	_	16	conj	_	SpaceAfter=No
-20	,	_	PUNCT	.	_	3	punct	_	_
-21	o	_	DET	DET	_	22	det	_	_
+20	,	,	PUNCT	.	_	3	punct	_	_
+21	o	o	DET	DET	_	22	det	_	_
 22	campo	campo	NOUN	NOUN	_	23	nsubj	_	_
 23	está	estar	VERB	VERB	_	0	root	_	_
 24	bem	bem	ADV	ADV	_	25	advmod	_	_
@@ -62,11 +62,11 @@
 26	em	em	ADP	ADP	_	28	case	_	_
 27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	game	game	NOUN	NOUN	_	23	nmod	_	SpaceAfter=No
-29	.	_	PUNCT	.	_	23	punct	_	_
+29	.	.	PUNCT	.	_	23	punct	_	_
 
 # sent_id = dev-s875
 # text = Os dois passageiros do Kadett também morreram.
-1	Os	_	DET	DET	_	3	det	_	_
+1	Os	o	DET	DET	_	3	det	_	_
 2	dois	_	NUM	NUM	NumType=Card	3	nummod	_	_
 3	passageiros	passageiro	NOUN	NOUN	_	8	nsubj	_	_
 4-5	do	_	_	_	_	_	_	_	_
@@ -75,7 +75,7 @@
 6	Kadett	_	PROPN	PNOUN	_	3	nmod	_	_
 7	também	também	ADV	ADV	_	8	advmod	_	_
 8	morreram	morrer	VERB	VERB	_	0	root	_	SpaceAfter=No
-9	.	_	PUNCT	.	_	8	punct	_	_
+9	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = dev-s876
 # text = -- Temos de reunir os elementos, jamais fazemos uma denúncia se não apresentamos provas.
@@ -83,24 +83,24 @@
 2	Temos	ter	AUX	AUX	_	4	aux	_	_
 3	de	_	ADP	ADP	_	4	mark	_	_
 4	reunir	reunir	VERB	VERB	_	0	root	_	_
-5	os	_	DET	DET	_	6	det	_	_
+5	os	o	DET	DET	_	6	det	_	_
 6	elementos	elemento	NOUN	NOUN	_	4	obj	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	4	punct	_	_
+7	,	,	PUNCT	.	_	4	punct	_	_
 8	jamais	jamais	ADV	ADV	_	9	advmod	_	_
 9	fazemos	fazer	VERB	VERB	_	4	parataxis	_	_
-10	uma	_	DET	DET	_	11	det	_	_
+10	uma	um	DET	DET	_	11	det	_	_
 11	denúncia	denúncia	NOUN	NOUN	_	9	obj	_	_
 12	se	_	CCONJ	CONJ	_	14	mark	_	_
 13	não	não	ADV	ADV	Polarity=Neg	14	advmod	_	_
 14	apresentamos	apresentar	VERB	VERB	_	9	advcl	_	_
 15	provas	prova	NOUN	NOUN	_	14	obj	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	4	punct	_	_
+16	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = dev-s877
 # text = E agora o endividamento e a necessidade de cortar gastos que afeta tanto administrações regionais como o governo central do país já provoca até mesmo escassez de medicamentos nas farmácias.
 1	E	_	CCONJ	CONJ	_	24	cc	_	_
 2	agora	agora	ADV	ADV	_	24	advmod	_	_
-3	o	_	DET	DET	_	4	det	_	_
+3	o	o	DET	DET	_	4	det	_	_
 4	endividamento	endividamento	NOUN	NOUN	_	24	nsubj	_	_
 5	e	e	CCONJ	CONJ	_	7	cc	_	_
 6	a	o	DET	DET	_	7	det	_	_
@@ -114,7 +114,7 @@
 14	administrações	administração	NOUN	NOUN	_	12	obj	_	_
 15	regionais	regional	ADJ	ADJ	_	14	amod	_	_
 16	como	_	CCONJ	CONJ	_	18	cc	_	_
-17	o	_	DET	DET	_	18	det	_	_
+17	o	o	DET	DET	_	18	det	_	_
 18	governo	governo	NOUN	NOUN	_	14	conj	_	_
 19	central	central	ADJ	ADJ	_	18	amod	_	_
 20-21	do	_	_	_	_	_	_	_	_
@@ -126,13 +126,13 @@
 25	até	até	ADV	ADV	_	26	advmod	_	_
 26	mesmo	mesmo	ADV	ADV	_	27	advmod	_	_
 27	escassez	escassez	NOUN	NOUN	_	24	obj	_	_
-28	de	_	ADP	ADP	_	29	case	_	_
+28	de	de	ADP	ADP	_	29	case	_	_
 29	medicamentos	medicamento	NOUN	NOUN	_	27	nmod	_	_
 30-31	nas	_	_	_	_	_	_	_	_
 30	em	em	ADP	ADP	_	32	case	_	_
 31	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
 32	farmácias	farmácia	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
-33	.	_	PUNCT	.	_	24	punct	_	_
+33	.	.	PUNCT	.	_	24	punct	_	_
 
 # sent_id = dev-s878
 # text = Depois saímos ao exílio pouco a pouco.
@@ -145,22 +145,22 @@
 6	pouco	pouco	ADV	ADV	_	2	advmod	_	_
 7	a	_	ADP	ADP	_	8	mark	_	_
 8	pouco	pouco	ADV	ADV	_	6	nmod	_	SpaceAfter=No
-9	.	_	PUNCT	.	_	2	punct	_	_
+9	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = dev-s879
 # text = Quero registrar o empenho do nosso diretor de Irrigação, João Quintiliano que tem incentivado sua equipe a abraçar essa causa ", concluiu.
 1	Quero	querer	VERB	VERB	_	25	ccomp	_	_
 2	registrar	registrar	VERB	VERB	_	1	xcomp	_	_
-3	o	_	DET	DET	_	4	det	_	_
+3	o	o	DET	DET	_	4	det	_	_
 4	empenho	empenho	NOUN	NOUN	_	2	obj	_	_
 5-6	do	_	_	_	_	_	_	_	_
 5	de	de	ADP	ADP	_	8	case	_	_
 6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 7	nosso	_	DET	DET	_	8	det:poss	_	_
 8	diretor	diretor	NOUN	NOUN	_	4	nmod	_	_
-9	de	_	ADP	ADP	_	10	case	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
 10	Irrigação	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	12	punct	_	_
+11	,	,	PUNCT	.	_	12	punct	_	_
 12	João	_	PROPN	PNOUN	_	8	appos	_	_
 13	Quintiliano	_	PROPN	PNOUN	_	12	flat	_	_
 14	que	_	PRON	PRON	_	16	nsubj	_	_
@@ -172,21 +172,21 @@
 20	abraçar	abraçar	VERB	VERB	_	16	nmod	_	_
 21	essa	_	DET	DET	_	22	det	_	_
 22	causa	causa	NOUN	NOUN	_	20	obj	_	_
-23	"	_	PUNCT	.	_	1	punct	_	SpaceAfter=No
-24	,	_	PUNCT	.	_	25	punct	_	_
+23	"	"	PUNCT	.	_	1	punct	_	SpaceAfter=No
+24	,	,	PUNCT	.	_	25	punct	_	_
 25	concluiu	concluir	VERB	VERB	_	0	root	_	SpaceAfter=No
-26	.	_	PUNCT	.	_	25	punct	_	_
+26	.	.	PUNCT	.	_	25	punct	_	_
 
 # sent_id = dev-s880
 # text = Confira os preços e surpreenda - se:
 1	Confira	conferir	VERB	VERB	_	0	root	_	_
-2	os	_	DET	DET	_	3	det	_	_
+2	os	o	DET	DET	_	3	det	_	_
 3	preços	preço	NOUN	NOUN	_	1	obj	_	_
-4	e	_	CCONJ	CONJ	_	5	cc	_	_
+4	e	e	CCONJ	CONJ	_	5	cc	_	_
 5	surpreenda	surpreender	VERB	VERB	_	1	conj	_	_
-6	-	_	PUNCT	.	_	5	punct	_	_
+6	-	-	PUNCT	.	_	5	punct	_	_
 7	se	_	PRON	PRON	_	5	expl:pv	_	SpaceAfter=No
-8	:	_	PUNCT	.	_	1	punct	_	_
+8	:	:	PUNCT	.	_	1	punct	_	_
 
 # sent_id = dev-s881
 # text = Esta etapa é eliminatória e composta por barra fixa, corrida de 12 minutos (homens fizeram 2.200 metros e mulheres, 1.800 metros para as mulheres) e dinamometria (manual, escapulare dorsal).
@@ -194,55 +194,55 @@
 2	etapa	etapa	NOUN	NOUN	_	3	nsubj	_	_
 3	é	ser	VERB	VERB	_	0	root	_	_
 4	eliminatória	eliminatório	ADJ	ADJ	_	3	xcomp:adj	_	_
-5	e	_	CCONJ	CONJ	_	6	cc	_	_
+5	e	e	CCONJ	CONJ	_	6	cc	_	_
 6	composta	compor	VERB	VERB	_	4	conj	_	_
-7	por	_	ADP	ADP	_	8	case	_	_
+7	por	por	ADP	ADP	_	8	case	_	_
 8	barra	barra	NOUN	NOUN	_	6	nmod	_	_
 9	fixa	fixo	ADJ	ADJ	_	8	amod	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	11	punct	_	_
+10	,	,	PUNCT	.	_	11	punct	_	_
 11	corrida	corrida	NOUN	NOUN	_	8	conj	_	_
-12	de	_	ADP	ADP	_	14	case	_	_
+12	de	de	ADP	ADP	_	14	case	_	_
 13	12	_	NUM	NUM	NumType=Card	14	nummod	_	_
 14	minutos	minuto	NOUN	NOUN	_	11	nmod	_	_
-15	(	_	PUNCT	.	_	17	punct	_	SpaceAfter=No
+15	(	(	PUNCT	.	_	17	punct	_	SpaceAfter=No
 16	homens	homem	NOUN	NOUN	_	17	nsubj	_	_
 17	fizeram	fazer	VERB	VERB	_	11	parataxis	_	_
 18	2.200	_	NUM	NUM	NumType=Card	19	nummod	_	_
 19	metros	metro	NOUN	NOUN	_	17	obj	_	_
-20	e	_	CCONJ	CONJ	_	21	cc	_	_
+20	e	e	CCONJ	CONJ	_	21	cc	_	_
 21	mulheres	mulher	NOUN	NOUN	_	17	conj	_	SpaceAfter=No
-22	,	_	PUNCT	.	_	24	punct	_	_
+22	,	,	PUNCT	.	_	24	punct	_	_
 23	1.800	_	NUM	NUM	NumType=Card	24	nummod	_	_
 24	metros	metro	NOUN	NOUN	_	21	obj	_	_
-25	para	_	ADP	ADP	_	27	case	_	_
-26	as	_	DET	DET	_	27	det	_	_
+25	para	para	ADP	ADP	_	27	case	_	_
+26	as	o	DET	DET	_	27	det	_	_
 27	mulheres	mulher	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
-28	)	_	PUNCT	.	_	17	punct	_	_
-29	e	_	CCONJ	CONJ	_	30	cc	_	_
+28	)	)	PUNCT	.	_	17	punct	_	_
+29	e	e	CCONJ	CONJ	_	30	cc	_	_
 30	dinamometria	dinamometria	NOUN	NOUN	_	8	conj	_	_
-31	(	_	PUNCT	.	_	32	punct	_	SpaceAfter=No
+31	(	(	PUNCT	.	_	32	punct	_	SpaceAfter=No
 32	manual	manual	ADJ	ADJ	_	30	amod	_	SpaceAfter=No
-33	,	_	PUNCT	.	_	34	punct	_	_
+33	,	,	PUNCT	.	_	34	punct	_	_
 34	escapulare	_	NOUN	NOUN	_	32	conj	_	_
 35	dorsal	dorsal	ADJ	ADJ	_	34	amod	_	SpaceAfter=No
-36	)	_	PUNCT	.	_	32	punct	_	SpaceAfter=No
-37	.	_	PUNCT	.	_	3	punct	_	_
+36	)	)	PUNCT	.	_	32	punct	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = dev-s882
 # text = As eleições se ganham com votos e no dia 7 de outubro seremos testemunhas dessa mudança que vem para a Venezuela.
-1	As	_	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	_	2	det	_	_
 2	eleições	eleição	NOUN	NOUN	_	4	nsubj	_	_
 3	se	_	PRON	PRON	_	4	expl:pv	_	_
 4	ganham	ganhar	VERB	VERB	_	0	root	_	_
-5	com	_	ADP	ADP	_	6	case	_	_
+5	com	com	ADP	ADP	_	6	case	_	_
 6	votos	voto	NOUN	NOUN	_	4	nmod	_	_
-7	e	_	CCONJ	CONJ	_	10	cc	_	_
+7	e	e	CCONJ	CONJ	_	10	cc	_	_
 8-9	no	_	_	_	_	_	_	_	_
 8	em	em	ADP	ADP	_	10	case	_	_
 9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	dia	dia	NOUN	NOUN	_	4	conj	_	_
 11	7	_	NUM	NUM	NumType=Card	10	nmod	_	_
-12	de	_	ADP	ADP	_	13	case	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
 13	outubro	_	PROPN	PNOUN	_	11	nmod	_	_
 14	seremos	ser	AUX	AUX	_	15	cop	_	_
 15	testemunhas	testemunha	NOUN	NOUN	_	10	conj	_	_
@@ -250,8 +250,8 @@
 17	mudança	mudança	NOUN	NOUN	_	15	nmod	_	_
 18	que	_	PRON	PRON	_	19	nsubj	_	_
 19	vem	vir	VERB	VERB	_	17	acl:relcl	_	_
-20	para	_	ADP	ADP	_	22	case	_	_
-21	a	_	DET	DET	_	22	det	_	_
+20	para	para	ADP	ADP	_	22	case	_	_
+21	a	a	DET	DET	_	22	det	_	_
 22	Venezuela	_	PROPN	PNOUN	_	19	nmod	_	SpaceAfter=No
-23	.	_	PUNCT	.	_	4	punct	_	_
+23	.	.	PUNCT	.	_	4	punct	_	_
 

@@ -5,13 +5,13 @@
 3	sair	sair	VERB	VERB	_	0	root	_	_
 4	desse	_	ADP	ADP	_	5	case	_	_
 5	itinerário	itinerário	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
-6	.	_	PUNCT	.	_	3	punct	_	_
+6	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = test-s1076
 # text = Grande jogo.
 1	Grande	grande	ADJ	ADJ	_	2	amod	_	_
 2	jogo	jogo	NOUN	NOUN	_	0	root	_	SpaceAfter=No
-3	.	_	PUNCT	.	_	2	punct	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = test-s1077
 # text = Ela não é utilizada como defesa pessoal, como nas artes marciais, por exemplo.
@@ -19,32 +19,32 @@
 2	não	não	ADV	ADV	Polarity=Neg	4	advmod	_	_
 3	é	ser	AUX	AUX	_	4	aux:pass	_	_
 4	utilizada	utilizar	VERB	VERB	_	0	root	_	_
-5	como	_	ADP	ADP	_	6	case	_	_
+5	como	como	ADP	ADP	_	6	case	_	_
 6	defesa	_	NOUN	NOUN	_	4	nmod	_	_
 7	pessoal	pessoal	ADJ	ADJ	_	6	amod	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	9	punct	_	_
+8	,	,	PUNCT	.	_	9	punct	_	_
 9	como	_	ADP	ADP	_	6	nmod	_	_
 10-11	nas	_	_	_	_	_	_	_	_
 10	em	em	ADP	ADP	_	12	case	_	_
 11	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
 12	artes	arte	NOUN	NOUN	_	9	nmod	_	_
 13	marciais	marcial	ADJ	ADJ	_	12	amod	_	SpaceAfter=No
-14	,	_	PUNCT	.	_	16	punct	_	_
-15	por	_	ADP	ADP	_	16	case	_	_
+14	,	,	PUNCT	.	_	16	punct	_	_
+15	por	por	ADP	ADP	_	16	case	_	_
 16	exemplo	exemplo	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
-17	.	_	PUNCT	.	_	4	punct	_	_
+17	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = test-s1078
 # text = Numa final o juiz dá um pênalti desse.
 1	Numa	_	ADP	ADP	_	2	case	_	_
 2	final	final	NOUN	NOUN	_	5	nmod	_	_
-3	o	_	DET	DET	_	4	det	_	_
+3	o	o	DET	DET	_	4	det	_	_
 4	juiz	juiz	NOUN	NOUN	_	5	nsubj	_	_
 5	dá	dar	VERB	VERB	_	0	root	_	_
-6	um	_	DET	DET	_	7	det	_	_
+6	um	um	DET	DET	_	7	det	_	_
 7	pênalti	pênalti	NOUN	NOUN	_	5	obj	_	_
 8	desse	_	X	ADPPRON	_	7	nmod	_	SpaceAfter=No
-9	.	_	PUNCT	.	_	5	punct	_	_
+9	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = test-s1079
 # text = 14 % da população está abaixo dos 6 anos de idade.
@@ -61,9 +61,9 @@
 9	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
 10	6	_	NUM	NUM	NumType=Card	11	nummod	_	_
 11	anos	ano	NOUN	NOUN	_	7	nmod	_	_
-12	de	_	ADP	ADP	_	13	case	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
 13	idade	idade	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
-14	.	_	PUNCT	.	_	6	punct	_	_
+14	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = test-s1080
 # text = Os que mais sofreram foram o musical Nice Work If You Can Get It e a peça Grace, com queda de 50 % na bilheteria em relação a semana anterior, de acordo com dados divulgados pela Broadway League, uma associação de produtores e donos de teatros.
@@ -72,7 +72,7 @@
 3	mais	mais	ADV	ADV	_	4	advmod	_	_
 4	sofreram	sofrer	VERB	VERB	_	1	acl:relcl	_	_
 5	foram	_	AUX	AUX	_	7	cop	_	_
-6	o	_	DET	DET	_	7	det	_	_
+6	o	o	DET	DET	_	7	det	_	_
 7	musical	musical	NOUN	NOUN	_	0	root	_	_
 8	Nice	_	PROPN	PNOUN	_	9	amod	_	_
 9	Work	_	PROPN	PNOUN	_	7	appos	_	_
@@ -85,25 +85,25 @@
 16	a	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	peça	peça	NOUN	NOUN	_	7	conj	_	_
 18	Grace	_	PROPN	PNOUN	_	17	appos	_	SpaceAfter=No
-19	,	_	PUNCT	.	_	21	punct	_	_
-20	com	_	ADP	ADP	_	21	case	_	_
+19	,	,	PUNCT	.	_	21	punct	_	_
+20	com	com	ADP	ADP	_	21	case	_	_
 21	queda	queda	NOUN	NOUN	_	7	nmod	_	_
-22	de	_	ADP	ADP	_	24	case	_	_
+22	de	de	ADP	ADP	_	24	case	_	_
 23	50	_	NUM	NUM	NumType=Card	24	nummod	_	_
 24	%	_	SYM	SYM	_	21	nmod	_	_
 25-26	na	_	_	_	_	_	_	_	_
 25	em	em	ADP	ADP	_	27	case	_	_
 26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	bilheteria	bilheteria	NOUN	NOUN	_	21	nmod	_	_
-28	em	_	ADP	ADP	_	29	case	_	_
+28	em	em	ADP	ADP	_	29	case	_	_
 29	relação	relação	NOUN	NOUN	_	21	nmod	_	_
 30	a	_	ADP	ADP	_	31	case	_	_
 31	semana	semana	NOUN	NOUN	_	29	nmod	_	_
 32	anterior	anterior	ADJ	ADJ	_	31	amod	_	SpaceAfter=No
-33	,	_	PUNCT	.	_	35	punct	_	_
-34	de	_	ADP	ADP	_	35	case	_	_
+33	,	,	PUNCT	.	_	35	punct	_	_
+34	de	de	ADP	ADP	_	35	case	_	_
 35	acordo	acordo	NOUN	NOUN	_	7	nmod	_	_
-36	com	_	ADP	ADP	_	37	case	_	_
+36	com	com	ADP	ADP	_	37	case	_	_
 37	dados	dado	NOUN	NOUN	_	35	nmod	_	_
 38	divulgados	divulgar	VERB	VERB	_	37	acl:part	_	_
 39-40	pela	_	_	_	_	_	_	_	_
@@ -111,48 +111,48 @@
 40	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
 41	Broadway	_	PROPN	PNOUN	_	38	nmod	_	_
 42	League	_	PROPN	PNOUN	_	41	flat	_	SpaceAfter=No
-43	,	_	PUNCT	.	_	45	punct	_	_
-44	uma	_	DET	DET	_	45	det	_	_
+43	,	,	PUNCT	.	_	45	punct	_	_
+44	uma	um	DET	DET	_	45	det	_	_
 45	associação	associação	NOUN	NOUN	_	41	appos	_	_
-46	de	_	ADP	ADP	_	47	case	_	_
+46	de	de	ADP	ADP	_	47	case	_	_
 47	produtores	produtor	NOUN	NOUN	_	45	nmod	_	_
-48	e	_	CCONJ	CONJ	_	49	cc	_	_
+48	e	e	CCONJ	CONJ	_	49	cc	_	_
 49	donos	dono	NOUN	NOUN	_	47	conj	_	_
-50	de	_	ADP	ADP	_	51	case	_	_
+50	de	de	ADP	ADP	_	51	case	_	_
 51	teatros	teatro	NOUN	NOUN	_	49	nmod	_	SpaceAfter=No
-52	.	_	PUNCT	.	_	7	punct	_	_
+52	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = test-s1081
 # text = A General Motors também optou por um feirão na fábrica de São Caetano do Sul (SP), com direito a test drive.
-1	A	_	DET	DET	_	3	det	_	_
+1	A	o	DET	DET	_	3	det	_	_
 2	General	_	PROPN	PNOUN	_	3	amod	_	_
 3	Motors	_	PROPN	PNOUN	_	5	nsubj	_	_
 4	também	também	ADV	ADV	_	5	advmod	_	_
 5	optou	optar	VERB	VERB	_	0	root	_	_
-6	por	_	ADP	ADP	_	8	case	_	_
-7	um	_	DET	DET	_	8	det	_	_
+6	por	por	ADP	ADP	_	8	case	_	_
+7	um	um	DET	DET	_	8	det	_	_
 8	feirão	_	NOUN	NOUN	_	5	nmod	_	_
 9-10	na	_	_	_	_	_	_	_	_
 9	em	em	ADP	ADP	_	11	case	_	_
 10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	fábrica	fábrica	NOUN	NOUN	_	8	nmod	_	_
-12	de	_	ADP	ADP	_	13	case	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
 13	São	_	PROPN	PNOUN	_	11	nmod	_	_
 14	Caetano	_	PROPN	PNOUN	_	13	flat	_	_
 15-16	do	_	_	_	_	_	_	_	_
 15	de	de	ADP	ADP	_	17	case	_	_
 16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	Sul	_	PROPN	PNOUN	_	13	nmod	_	_
-18	(	_	PUNCT	.	_	19	punct	_	SpaceAfter=No
+18	(	(	PUNCT	.	_	19	punct	_	SpaceAfter=No
 19	SP	_	PROPN	PNOUN	_	13	appos	_	SpaceAfter=No
-20	)	_	PUNCT	.	_	19	punct	_	SpaceAfter=No
-21	,	_	PUNCT	.	_	23	punct	_	_
-22	com	_	ADP	ADP	_	23	case	_	_
+20	)	)	PUNCT	.	_	19	punct	_	SpaceAfter=No
+21	,	,	PUNCT	.	_	23	punct	_	_
+22	com	com	ADP	ADP	_	23	case	_	_
 23	direito	direito	NOUN	NOUN	_	8	nmod	_	_
 24	a	_	ADP	ADP	_	25	case	_	_
 25	test	_	NOUN	NOUN	_	23	nmod	_	_
 26	drive	drive	NOUN	NOUN	_	25	flat	_	SpaceAfter=No
-27	.	_	PUNCT	.	_	5	punct	_	_
+27	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = test-s1082
 # text = Cheguei até a comentar isso com o Ricardo Henriques (preparador físico) e o Flavio Tenius (preparador de goleiros), no banco.
@@ -161,80 +161,80 @@
 3	a	_	ADP	ADP	_	4	mark	_	_
 4	comentar	comentar	VERB	VERB	_	0	root	_	_
 5	isso	_	PRON	PRON	_	4	obj	_	_
-6	com	_	ADP	ADP	_	8	case	_	_
-7	o	_	DET	DET	_	8	det	_	_
+6	com	com	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	_	8	det	_	_
 8	Ricardo	_	PROPN	PNOUN	_	4	nmod	_	_
 9	Henriques	_	PROPN	PNOUN	_	8	flat	_	_
-10	(	_	PUNCT	.	_	11	punct	_	SpaceAfter=No
+10	(	(	PUNCT	.	_	11	punct	_	SpaceAfter=No
 11	preparador	preparador	NOUN	NOUN	_	8	appos	_	_
 12	físico	físico	ADJ	ADJ	_	11	amod	_	SpaceAfter=No
-13	)	_	PUNCT	.	_	11	punct	_	_
+13	)	)	PUNCT	.	_	11	punct	_	_
 14	e	e	CCONJ	CONJ	_	16	cc	_	_
 15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	Flavio	_	PROPN	PNOUN	_	8	conj	_	_
 17	Tenius	_	PROPN	PNOUN	_	16	flat	_	_
-18	(	_	PUNCT	.	_	19	punct	_	SpaceAfter=No
+18	(	(	PUNCT	.	_	19	punct	_	SpaceAfter=No
 19	preparador	preparador	NOUN	NOUN	_	16	appos	_	_
-20	de	_	ADP	ADP	_	21	case	_	_
+20	de	de	ADP	ADP	_	21	case	_	_
 21	goleiros	goleiro	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
-22	)	_	PUNCT	.	_	19	punct	_	SpaceAfter=No
-23	,	_	PUNCT	.	_	26	punct	_	_
+22	)	)	PUNCT	.	_	19	punct	_	SpaceAfter=No
+23	,	,	PUNCT	.	_	26	punct	_	_
 24-25	no	_	_	_	_	_	_	_	_
 24	em	em	ADP	ADP	_	26	case	_	_
 25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	banco	banco	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
-27	.	_	PUNCT	.	_	4	punct	_	_
+27	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = test-s1083
 # text = O acidente foi na madrugada de 23 de dezembro de 2008 na BR - 476 (antiga BR - 116), no Guabirotuba.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	acidente	acidente	NOUN	NOUN	_	3	nsubj	_	_
 3	foi	_	VERB	VERB	_	0	root	_	_
 4-5	na	_	_	_	_	_	_	_	_
 4	em	em	ADP	ADP	_	6	case	_	_
 5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	madrugada	madrugada	NOUN	NOUN	_	3	nmod	_	_
-7	de	_	ADP	ADP	_	8	case	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
 8	23	_	NUM	NUM	NumType=Card	6	nmod	_	_
-9	de	_	ADP	ADP	_	10	case	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
 10	dezembro	_	PROPN	PNOUN	_	8	nmod	_	_
-11	de	_	ADP	ADP	_	12	case	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
 12	2008	_	NUM	NUM	NumType=Card	10	nmod	_	_
 13-14	na	_	_	_	_	_	_	_	_
 13	em	em	ADP	ADP	_	15	case	_	_
 14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	BR	_	PROPN	PNOUN	_	3	nmod	_	_
-16	-	_	PUNCT	.	_	15	punct	_	_
+16	-	-	PUNCT	.	_	15	punct	_	_
 17	476	_	NUM	NUM	NumType=Card	15	appos	_	_
-18	(	_	PUNCT	.	_	20	punct	_	SpaceAfter=No
+18	(	(	PUNCT	.	_	20	punct	_	SpaceAfter=No
 19	antiga	antigo	ADJ	ADJ	_	20	amod	_	_
 20	BR	_	PROPN	PNOUN	_	15	appos	_	_
-21	-	_	PUNCT	.	_	20	punct	_	_
+21	-	-	PUNCT	.	_	20	punct	_	_
 22	116	_	NUM	NUM	NumType=Card	20	appos	_	SpaceAfter=No
-23	)	_	PUNCT	.	_	20	punct	_	SpaceAfter=No
-24	,	_	PUNCT	.	_	27	punct	_	_
+23	)	)	PUNCT	.	_	20	punct	_	SpaceAfter=No
+24	,	,	PUNCT	.	_	27	punct	_	_
 25-26	no	_	_	_	_	_	_	_	_
 25	em	em	ADP	ADP	_	27	case	_	_
 26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	Guabirotuba	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
-28	.	_	PUNCT	.	_	3	punct	_	_
+28	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = test-s1084
 # text = Já conglomerados de entretenimento como emissoras de TV, gravadoras, estúdios cinematográficos e editoras deram respaldo ao Sopa, cuja votação acabou sendo cancelada.
 1	Já	já	ADV	ADV	_	16	advmod	_	_
 2	conglomerados	conglomerado	NOUN	NOUN	_	16	nsubj	_	_
-3	de	_	ADP	ADP	_	4	case	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
 4	entretenimento	entretenimento	NOUN	NOUN	_	2	nmod	_	_
-5	como	_	ADP	ADP	_	6	case	_	_
+5	como	como	ADP	ADP	_	6	case	_	_
 6	emissoras	_	NOUN	NOUN	_	2	nmod	_	_
-7	de	_	ADP	ADP	_	8	case	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
 8	TV	tv	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	10	punct	_	_
+9	,	,	PUNCT	.	_	10	punct	_	_
 10	gravadoras	_	NOUN	NOUN	_	6	conj	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	12	punct	_	_
+11	,	,	PUNCT	.	_	12	punct	_	_
 12	estúdios	estúdio	NOUN	NOUN	_	6	conj	_	_
 13	cinematográficos	cinematográfico	ADJ	ADJ	_	12	amod	_	_
-14	e	_	CCONJ	CONJ	_	15	cc	_	_
+14	e	e	CCONJ	CONJ	_	15	cc	_	_
 15	editoras	_	NOUN	NOUN	_	6	conj	_	_
 16	deram	dar	VERB	VERB	_	0	root	_	_
 17	respaldo	respaldo	NOUN	NOUN	_	16	obj	_	_
@@ -242,11 +242,11 @@
 18	a	a	ADP	ADP	_	20	case	_	_
 19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	Sopa	_	PROPN	PNOUN	_	16	iobj	_	SpaceAfter=No
-21	,	_	PUNCT	.	_	26	punct	_	_
+21	,	,	PUNCT	.	_	26	punct	_	_
 22	cuja	_	DET	DET	_	23	det	_	_
 23	votação	votação	NOUN	NOUN	_	26	nsubj:pass	_	_
 24	acabou	acabar	AUX	AUX	_	26	aux	_	_
 25	sendo	ser	AUX	AUX	_	26	aux:pass	_	_
 26	cancelada	cancelar	VERB	VERB	_	20	acl:relcl	_	SpaceAfter=No
-27	.	_	PUNCT	.	_	16	punct	_	_
+27	.	.	PUNCT	.	_	16	punct	_	_
 

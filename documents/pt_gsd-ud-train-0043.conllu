@@ -6,19 +6,19 @@
 3	de	de	ADP	ADP	_	5	case	_	_
 4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Vale	_	PROPN	PNOUN	_	2	nmod	_	_
-6	-	_	PUNCT	.	_	5	punct	_	_
+6	-	-	PUNCT	.	_	5	punct	_	_
 7	Viagem	_	PROPN	PNOUN	_	5	flat	_	_
 8	CVC	_	PROPN	PNOUN	_	5	appos	_	_
 9	é	ser	AUX	AUX	_	2	cop	_	_
-10	que	_	CCONJ	CONJ	_	15	mark	_	_
-11	o	_	DET	DET	_	12	det	_	_
+10	que	que	CCONJ	CONJ	_	15	mark	_	_
+11	o	o	DET	DET	_	12	det	_	_
 12	cartão	cartão	NOUN	NOUN	_	15	nsubj:pass	_	_
 13	pode	_	AUX	AUX	_	15	aux	_	_
 14	ser	ser	AUX	AUX	_	15	aux:pass	_	_
 15	recarregado	recarregar	VERB	VERB	_	2	csubj	_	_
 16	quantas	_	DET	DET	_	17	det	_	_
 17	vezes	vez	NOUN	NOUN	_	20	nmod	_	_
-18	o	_	DET	DET	_	19	det	_	_
+18	o	o	DET	DET	_	19	det	_	_
 19	cliente	cliente	NOUN	NOUN	_	20	nsubj	_	_
 20	quiser	querer	VERB	VERB	_	15	acl:relcl	_	_
 21	e	e	CCONJ	CONJ	_	25	cc	_	_
@@ -26,22 +26,22 @@
 23	presenteado	_	NOUN	NOUN	_	25	nsubj	_	_
 24	pode	_	AUX	AUX	_	25	aux	_	_
 25	consultar	consultar	VERB	VERB	_	15	conj	_	_
-26	o	_	DET	DET	_	27	det	_	_
+26	o	o	DET	DET	_	27	det	_	_
 27	saldo	saldo	NOUN	NOUN	_	25	obj	_	_
 28-29	no	_	_	_	_	_	_	_	_
 28	em	em	ADP	ADP	_	30	case	_	_
 29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	site	site	NOUN	NOUN	_	25	nmod	_	_
 31	www.valeviagemcvc.com.br	_	X	X	_	30	appos	_	SpaceAfter=No
-32	.	_	PUNCT	.	_	2	punct	_	_
+32	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s422
 # text = Ele disse que notou que sua pele era elástica quando ele tinha cerca de três ou quatro anos.
 1	Ele	_	PRON	PRON	_	2	nsubj	_	_
 2	disse	dizer	VERB	VERB	_	0	root	_	_
-3	que	_	CCONJ	CONJ	_	4	mark	_	_
+3	que	que	CCONJ	CONJ	_	4	mark	_	_
 4	notou	notar	VERB	VERB	_	2	ccomp	_	_
-5	que	_	CCONJ	CONJ	_	8	mark	_	_
+5	que	que	CCONJ	CONJ	_	8	mark	_	_
 6	sua	_	DET	DET	_	7	det:poss	_	_
 7	pele	pele	NOUN	NOUN	_	8	nsubj	_	_
 8	era	_	VERB	VERB	_	4	ccomp	_	_
@@ -50,12 +50,12 @@
 11	ele	_	PRON	PRON	_	12	nsubj	_	_
 12	tinha	ter	VERB	VERB	_	4	advcl	_	_
 13	cerca	cerca	ADV	ADV	_	15	advmod	_	_
-14	de	_	ADP	ADP	_	13	case	_	_
+14	de	de	ADP	ADP	_	13	case	_	_
 15	três	_	NUM	NUM	NumType=Card	18	nummod	_	_
-16	ou	_	CCONJ	CONJ	_	17	cc	_	_
+16	ou	ou	CCONJ	CONJ	_	17	cc	_	_
 17	quatro	_	NUM	NUM	NumType=Card	15	conj	_	_
 18	anos	ano	NOUN	NOUN	_	12	obj	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	2	punct	_	_
+19	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s423
 # text = Passou no concurso da Polícia Militar.
@@ -69,11 +69,11 @@
 6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Polícia	_	PROPN	PNOUN	_	4	nmod	_	_
 8	Militar	_	PROPN	PNOUN	_	7	amod	_	SpaceAfter=No
-9	.	_	PUNCT	.	_	1	punct	_	_
+9	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s424
 # text = As duas empresas sócias no Solimões têm um protocolo de intenções com a Petrobras para avaliar formas de monetizar as reservas de gás no Solimões.
-1	As	_	DET	DET	_	3	det	_	_
+1	As	o	DET	DET	_	3	det	_	_
 2	duas	_	NUM	NUM	NumType=Card	3	nummod	_	_
 3	empresas	empresa	NOUN	NOUN	_	8	nsubj	_	_
 4	sócias	sócio	ADJ	ADJ	_	3	amod	_	_
@@ -82,27 +82,27 @@
 6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Solimões	_	PROPN	PNOUN	_	3	nmod	_	_
 8	têm	ter	VERB	VERB	_	0	root	_	_
-9	um	_	DET	DET	_	10	det	_	_
+9	um	um	DET	DET	_	10	det	_	_
 10	protocolo	protocolo	NOUN	NOUN	_	8	obj	_	_
-11	de	_	ADP	ADP	_	12	case	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
 12	intenções	intenção	NOUN	NOUN	_	10	nmod	_	_
-13	com	_	ADP	ADP	_	15	case	_	_
-14	a	_	DET	DET	_	15	det	_	_
+13	com	com	ADP	ADP	_	15	case	_	_
+14	a	a	DET	DET	_	15	det	_	_
 15	Petrobras	_	PROPN	PNOUN	_	10	nmod	_	_
 16	para	_	ADP	ADP	_	17	mark	_	_
 17	avaliar	avaliar	VERB	VERB	_	10	nmod	_	_
 18	formas	forma	NOUN	NOUN	_	17	obj	_	_
 19	de	_	ADP	ADP	_	20	mark	_	_
 20	monetizar	monetizar	VERB	VERB	_	18	nmod	_	_
-21	as	_	DET	DET	_	22	det	_	_
+21	as	o	DET	DET	_	22	det	_	_
 22	reservas	reserva	NOUN	NOUN	_	20	obj	_	_
-23	de	_	ADP	ADP	_	24	case	_	_
+23	de	de	ADP	ADP	_	24	case	_	_
 24	gás	gás	NOUN	NOUN	_	22	nmod	_	_
 25-26	no	_	_	_	_	_	_	_	_
 25	em	em	ADP	ADP	_	27	case	_	_
 26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	Solimões	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
-28	.	_	PUNCT	.	_	8	punct	_	_
+28	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s425
 # text = Vinte e duas pessoas foram indiciadas por sete crimes.
@@ -112,21 +112,21 @@
 4	pessoas	pessoa	NOUN	NOUN	_	6	nsubj:pass	_	_
 5	foram	_	AUX	AUX	_	6	aux:pass	_	_
 6	indiciadas	indiciar	VERB	VERB	_	0	root	_	_
-7	por	_	ADP	ADP	_	9	case	_	_
+7	por	por	ADP	ADP	_	9	case	_	_
 8	sete	_	NUM	NUM	NumType=Card	9	nummod	_	_
 9	crimes	crime	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
-10	.	_	PUNCT	.	_	6	punct	_	_
+10	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s426
 # text = Para os líderes políticos latino - americanos, houve rompimento da ordem democrática no processo de destituição de Lugo do poder.
 1	Para	_	ADP	ADP	_	3	case	_	_
-2	os	_	DET	DET	_	3	det	_	_
+2	os	o	DET	DET	_	3	det	_	_
 3	líderes	líder	NOUN	NOUN	_	9	nmod	_	_
 4	políticos	político	ADJ	ADJ	_	3	amod	_	_
 5	latino	_	PART	PRT	_	7	amod	_	_
-6	-	_	PUNCT	.	_	7	punct	_	_
+6	-	-	PUNCT	.	_	7	punct	_	_
 7	americanos	americano	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	3	punct	_	_
+8	,	,	PUNCT	.	_	3	punct	_	_
 9	houve	haver	VERB	VERB	_	0	root	_	_
 10	rompimento	rompimento	NOUN	NOUN	_	9	obj	_	_
 11-12	da	_	_	_	_	_	_	_	_
@@ -138,22 +138,22 @@
 15	em	em	ADP	ADP	_	17	case	_	_
 16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	processo	processo	NOUN	NOUN	_	9	nmod	_	_
-18	de	_	ADP	ADP	_	19	case	_	_
+18	de	de	ADP	ADP	_	19	case	_	_
 19	destituição	destituição	NOUN	NOUN	_	17	nmod	_	_
-20	de	_	ADP	ADP	_	21	case	_	_
+20	de	de	ADP	ADP	_	21	case	_	_
 21	Lugo	_	PROPN	PNOUN	_	19	nmod	_	_
 22-23	do	_	_	_	_	_	_	_	_
 22	de	de	ADP	ADP	_	24	case	_	_
 23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	poder	poder	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
-25	.	_	PUNCT	.	_	9	punct	_	_
+25	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s427
 # text = Deste modo, a preocupação do legislador já estava em vincular ao julgamento do processo o juiz que teve o contato com as provas orais produzidas no bojo dos autos, estando referido regramento inserido no CPC, no Capítulo IV -- Do Juiz, na Seção I, que trata dos poderes, dos deveres e da responsabilidade do juiz.
 1	Deste	_	ADP	ADP	_	2	case	_	_
 2	modo	modo	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	2	punct	_	_
-4	a	_	DET	DET	_	5	det	_	_
+3	,	,	PUNCT	.	_	2	punct	_	_
+4	a	a	DET	DET	_	5	det	_	_
 5	preocupação	preocupação	NOUN	NOUN	_	10	nsubj	_	_
 6-7	do	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	8	case	_	_
@@ -171,14 +171,14 @@
 16	de	de	ADP	ADP	_	18	case	_	_
 17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	processo	processo	NOUN	NOUN	_	15	nmod	_	_
-19	o	_	DET	DET	_	20	det	_	_
+19	o	o	DET	DET	_	20	det	_	_
 20	juiz	juiz	NOUN	NOUN	_	12	obj	_	_
 21	que	_	PRON	PRON	_	22	nsubj	_	_
 22	teve	ter	VERB	VERB	_	20	acl:relcl	_	_
-23	o	_	DET	DET	_	24	det	_	_
+23	o	o	DET	DET	_	24	det	_	_
 24	contato	contato	NOUN	NOUN	_	22	obj	_	_
-25	com	_	ADP	ADP	_	27	case	_	_
-26	as	_	DET	DET	_	27	det	_	_
+25	com	com	ADP	ADP	_	27	case	_	_
+26	as	o	DET	DET	_	27	det	_	_
 27	provas	prova	NOUN	NOUN	_	24	nmod	_	_
 28	orais	oral	ADJ	ADJ	_	27	amod	_	_
 29	produzidas	produzir	VERB	VERB	_	27	acl:part	_	_
@@ -190,7 +190,7 @@
 33	de	de	ADP	ADP	_	35	case	_	_
 34	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
 35	autos	auto	NOUN	NOUN	_	32	nmod	_	SpaceAfter=No
-36	,	_	PUNCT	.	_	37	punct	_	_
+36	,	,	PUNCT	.	_	37	punct	_	_
 37	estando	estar	VERB	VERB	_	12	acl:part	_	_
 38	referido	referido	ADJ	ADJ	_	39	amod	_	_
 39	regramento	regramento	NOUN	NOUN	_	37	nsubj	_	_
@@ -199,7 +199,7 @@
 41	em	em	ADP	ADP	_	43	case	_	_
 42	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
 43	CPC	_	PROPN	PNOUN	_	40	nmod	_	SpaceAfter=No
-44	,	_	PUNCT	.	_	47	punct	_	_
+44	,	,	PUNCT	.	_	47	punct	_	_
 45-46	no	_	_	_	_	_	_	_	_
 45	em	em	ADP	ADP	_	47	case	_	_
 46	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
@@ -210,25 +210,25 @@
 50	De	de	ADP	ADP	_	52	case	_	_
 51	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
 52	Juiz	_	PROPN	PNOUN	_	47	nmod	_	SpaceAfter=No
-53	,	_	PUNCT	.	_	52	punct	_	_
+53	,	,	PUNCT	.	_	52	punct	_	_
 54-55	na	_	_	_	_	_	_	_	_
 54	em	em	ADP	ADP	_	56	case	_	_
 55	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
 56	Seção	_	PROPN	PNOUN	_	47	nmod	_	_
 57	I	_	NUM	NUM	NumType=Card	56	appos	_	SpaceAfter=No
-58	,	_	PUNCT	.	_	60	punct	_	_
+58	,	,	PUNCT	.	_	60	punct	_	_
 59	que	_	PRON	PRON	_	60	nsubj	_	_
 60	trata	tratar	VERB	VERB	_	56	acl:relcl	_	_
 61-62	dos	_	_	_	_	_	_	_	_
 61	de	de	ADP	ADP	_	63	case	_	_
 62	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	63	det	_	_
 63	poderes	_	NOUN	NOUN	_	60	nmod	_	SpaceAfter=No
-64	,	_	PUNCT	.	_	67	punct	_	_
+64	,	,	PUNCT	.	_	67	punct	_	_
 65-66	dos	_	_	_	_	_	_	_	_
 65	de	de	ADP	ADP	_	67	case	_	_
 66	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	67	det	_	_
 67	deveres	dever	NOUN	NOUN	_	63	conj	_	_
-68	e	_	CCONJ	CONJ	_	71	cc	_	_
+68	e	e	CCONJ	CONJ	_	71	cc	_	_
 69-70	da	_	_	_	_	_	_	_	_
 69	de	de	ADP	ADP	_	71	case	_	_
 70	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	71	det	_	_
@@ -237,23 +237,23 @@
 72	de	de	ADP	ADP	_	74	case	_	_
 73	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	74	det	_	_
 74	juiz	juiz	NOUN	NOUN	_	71	nmod	_	SpaceAfter=No
-75	.	_	PUNCT	.	_	10	punct	_	_
+75	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s428
 # text = O lucro da Vale, maior produtora mundial de ferro, caiu 66,2 % no terceiro trimestre de 2012 em relação ao mesmo período de 2011, devido à queda dos preços internacionais e da demanda num contexto de crise econômica mundial.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	lucro	lucro	NOUN	NOUN	_	13	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
 4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Vale	_	PROPN	PNOUN	_	2	nmod	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	8	punct	_	_
+6	,	,	PUNCT	.	_	8	punct	_	_
 7	maior	maior	ADJ	ADJ	_	8	amod	_	_
 8	produtora	produtor	NOUN	NOUN	_	5	appos	_	_
 9	mundial	mundial	ADJ	ADJ	_	8	amod	_	_
-10	de	_	ADP	ADP	_	11	case	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
 11	ferro	ferro	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	8	punct	_	_
+12	,	,	PUNCT	.	_	8	punct	_	_
 13	caiu	cair	VERB	VERB	_	0	root	_	_
 14	66,2	_	NUM	NUM	NumType=Card	15	nummod	_	_
 15	%	_	SYM	SYM	_	13	nmod	_	_
@@ -262,18 +262,18 @@
 17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 18	terceiro	_	ADJ	ADJ	_	19	amod	_	_
 19	trimestre	trimestre	NOUN	NOUN	_	13	nmod	_	_
-20	de	_	ADP	ADP	_	21	case	_	_
+20	de	de	ADP	ADP	_	21	case	_	_
 21	2012	_	NUM	NUM	NumType=Card	19	nmod	_	_
-22	em	_	ADP	ADP	_	23	case	_	_
+22	em	em	ADP	ADP	_	23	case	_	_
 23	relação	relação	NOUN	NOUN	_	13	nmod	_	_
 24-25	ao	_	_	_	_	_	_	_	_
 24	a	a	ADP	ADP	_	27	case	_	_
 25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 26	mesmo	mesmo	ADJ	ADJ	_	27	amod	_	_
 27	período	período	NOUN	NOUN	_	23	nmod	_	_
-28	de	_	ADP	ADP	_	29	case	_	_
+28	de	de	ADP	ADP	_	29	case	_	_
 29	2011	_	NUM	NUM	NumType=Card	27	nmod	_	SpaceAfter=No
-30	,	_	PUNCT	.	_	34	punct	_	_
+30	,	,	PUNCT	.	_	34	punct	_	_
 31	devido	dever	VERB	VERB	_	34	case	_	_
 32-33	à	_	_	_	_	_	_	_	_
 32	a	a	ADP	ADP	_	31	case	_	_
@@ -284,37 +284,37 @@
 36	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
 37	preços	preço	NOUN	NOUN	_	34	nmod	_	_
 38	internacionais	internacional	ADJ	ADJ	_	37	amod	_	_
-39	e	_	CCONJ	CONJ	_	42	cc	_	_
+39	e	e	CCONJ	CONJ	_	42	cc	_	_
 40-41	da	_	_	_	_	_	_	_	_
 40	de	de	ADP	ADP	_	42	case	_	_
 41	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
 42	demanda	demanda	NOUN	NOUN	_	37	conj	_	_
 43-44	num	_	_	_	_	_	_	_	_
-43	em	_	ADP	ADP	_	45	case	_	_
-44	um	_	DET	DET	_	45	det	_	_
+43	em	em	ADP	ADP	_	45	case	_	_
+44	um	um	DET	DET	_	45	det	_	_
 45	contexto	contexto	NOUN	NOUN	_	34	nmod	_	_
-46	de	_	ADP	ADP	_	47	case	_	_
+46	de	de	ADP	ADP	_	47	case	_	_
 47	crise	crise	NOUN	NOUN	_	45	nmod	_	_
 48	econômica	econômico	ADJ	ADJ	_	47	amod	_	_
 49	mundial	mundial	ADJ	ADJ	_	47	amod	_	SpaceAfter=No
-50	.	_	PUNCT	.	_	13	punct	_	_
+50	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = train-s429
 # text = As inscrições podem ser feitas até o dia 13 de julho de 2012.
-1	As	_	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	_	2	det	_	_
 2	inscrições	inscrição	NOUN	NOUN	_	5	nsubj:pass	_	_
 3	podem	_	AUX	AUX	_	5	aux	_	_
 4	ser	ser	AUX	AUX	_	5	aux:pass	_	_
 5	feitas	_	VERB	VERB	_	0	root	_	_
 6	até	_	ADP	ADP	_	8	case	_	_
-7	o	_	DET	DET	_	8	det	_	_
+7	o	o	DET	DET	_	8	det	_	_
 8	dia	dia	NOUN	NOUN	_	5	nmod	_	_
 9	13	_	NUM	NUM	NumType=Card	8	nmod	_	_
-10	de	_	ADP	ADP	_	11	case	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
 11	julho	_	PROPN	PNOUN	_	9	nmod	_	_
-12	de	_	ADP	ADP	_	13	case	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
 13	2012	_	NUM	NUM	NumType=Card	11	nmod	_	SpaceAfter=No
-14	.	_	PUNCT	.	_	5	punct	_	_
+14	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s430
 # text = Métricas normalmente nos dizem onde estamos hoje enquanto os KPIs nos dizem o que o futuro pode parecer, se as condições atuais continuarem.
@@ -326,21 +326,21 @@
 6	estamos	estar	VERB	VERB	_	4	ccomp	_	_
 7	hoje	hoje	ADV	ADV	_	6	advmod	_	_
 8	enquanto	_	CCONJ	CONJ	_	12	mark	_	_
-9	os	_	DET	DET	_	10	det	_	_
+9	os	o	DET	DET	_	10	det	_	_
 10	KPIs	_	PROPN	PNOUN	_	12	nsubj	_	_
 11	nos	_	PRON	PRON	_	12	iobj	_	_
 12	dizem	dizer	VERB	VERB	_	4	advcl	_	_
 13	o	_	PRON	PRON	_	12	obj	_	_
 14	que	_	PRON	PRON	_	18	obj	_	_
-15	o	_	DET	DET	_	16	det	_	_
+15	o	o	DET	DET	_	16	det	_	_
 16	futuro	futuro	NOUN	NOUN	_	18	nsubj	_	_
 17	pode	_	AUX	AUX	_	18	aux	_	_
 18	parecer	parecer	VERB	VERB	_	13	acl:relcl	_	SpaceAfter=No
-19	,	_	PUNCT	.	_	24	punct	_	_
+19	,	,	PUNCT	.	_	24	punct	_	_
 20	se	_	CCONJ	CONJ	_	24	mark	_	_
-21	as	_	DET	DET	_	22	det	_	_
+21	as	o	DET	DET	_	22	det	_	_
 22	condições	condição	NOUN	NOUN	_	24	nsubj	_	_
 23	atuais	atual	ADJ	ADJ	_	22	amod	_	_
 24	continuarem	continuar	VERB	VERB	_	18	advcl	_	SpaceAfter=No
-25	.	_	PUNCT	.	_	4	punct	_	_
+25	.	.	PUNCT	.	_	4	punct	_	_
 

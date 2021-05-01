@@ -1,16 +1,16 @@
 # sent_id = train-s81
 # text = Morena (Nanda Costa) e Wanda (Totia Meirelles) declararam guerra uma à outra.
 1	Morena	_	PROPN	PNOUN	_	12	nsubj	_	_
-2	(	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
+2	(	(	PUNCT	.	_	3	punct	_	SpaceAfter=No
 3	Nanda	_	PROPN	PNOUN	_	1	appos	_	_
 4	Costa	_	PROPN	PNOUN	_	3	flat	_	SpaceAfter=No
-5	)	_	PUNCT	.	_	3	punct	_	_
-6	e	_	CCONJ	CONJ	_	7	cc	_	_
+5	)	)	PUNCT	.	_	3	punct	_	_
+6	e	e	CCONJ	CONJ	_	7	cc	_	_
 7	Wanda	_	PROPN	PNOUN	_	1	conj	_	_
-8	(	_	PUNCT	.	_	9	punct	_	SpaceAfter=No
+8	(	(	PUNCT	.	_	9	punct	_	SpaceAfter=No
 9	Totia	_	PROPN	PNOUN	_	7	appos	_	_
 10	Meirelles	_	PROPN	PNOUN	_	9	flat	_	SpaceAfter=No
-11	)	_	PUNCT	.	_	9	punct	_	_
+11	)	)	PUNCT	.	_	9	punct	_	_
 12	declararam	declarar	VERB	VERB	_	0	root	_	_
 13	guerra	guerra	NOUN	NOUN	_	12	obj	_	_
 14	uma	_	PRON	PRON	_	1	appos	_	_
@@ -18,18 +18,18 @@
 15	a	a	ADP	ADP	_	17	case	_	_
 16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	outra	_	PRON	PRON	_	14	nmod	_	SpaceAfter=No
-18	.	_	PUNCT	.	_	12	punct	_	_
+18	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = train-s82
 # text = Brasília, DF, 20 (AFI) -- Na tarde deste sábado, a partir das 17 horas no Estádio Augustinho Lima, em Sobradinho - DF, os donos da casa, o Leão da Serra recebe o Cene - MS, jogo válido pela quarta rodada da Série D do brasileiro, Grupo A5.
 1	Brasília	_	PROPN	PNOUN	_	44	parataxis	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	3	punct	_	_
+2	,	,	PUNCT	.	_	3	punct	_	_
 3	DF	_	PROPN	PNOUN	_	1	appos	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
 5	20	_	NUM	NUM	NumType=Card	1	nmod	_	_
-6	(	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
+6	(	(	PUNCT	.	_	7	punct	_	SpaceAfter=No
 7	AFI	_	PROPN	PNOUN	_	1	appos	_	SpaceAfter=No
-8	)	_	PUNCT	.	_	7	punct	_	_
+8	)	)	PUNCT	.	_	7	punct	_	_
 9	--	_	PUNCT	.	_	44	punct	_	_
 10-11	Na	_	_	_	_	_	_	_	_
 10	Em	em	ADP	ADP	_	12	case	_	_
@@ -37,7 +37,7 @@
 12	tarde	tarde	NOUN	NOUN	_	44	nmod	_	_
 13	deste	_	ADP	ADP	_	14	case	_	_
 14	sábado	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	12	punct	_	_
+15	,	,	PUNCT	.	_	12	punct	_	_
 16	a	_	ADP	ADP	_	17	mark	_	_
 17	partir	partir	VERB	VERB	_	44	nmod	_	_
 18-19	das	_	_	_	_	_	_	_	_
@@ -51,31 +51,31 @@
 24	Estádio	_	PROPN	PNOUN	_	44	nmod	_	_
 25	Augustinho	_	PROPN	PNOUN	_	24	flat	_	_
 26	Lima	_	PROPN	PNOUN	_	24	flat	_	SpaceAfter=No
-27	,	_	PUNCT	.	_	29	punct	_	_
-28	em	_	ADP	ADP	_	29	case	_	_
+27	,	,	PUNCT	.	_	29	punct	_	_
+28	em	em	ADP	ADP	_	29	case	_	_
 29	Sobradinho	_	PROPN	PNOUN	_	44	nmod	_	_
-30	-	_	PUNCT	.	_	29	punct	_	_
+30	-	-	PUNCT	.	_	29	punct	_	_
 31	DF	_	PROPN	PNOUN	_	29	flat	_	SpaceAfter=No
-32	,	_	PUNCT	.	_	29	punct	_	_
-33	os	_	DET	DET	_	34	det	_	_
+32	,	,	PUNCT	.	_	29	punct	_	_
+33	os	o	DET	DET	_	34	det	_	_
 34	donos	dono	NOUN	NOUN	_	44	nsubj	_	_
 35-36	da	_	_	_	_	_	_	_	_
 35	de	de	ADP	ADP	_	37	case	_	_
 36	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
 37	casa	casa	NOUN	NOUN	_	34	nmod	_	SpaceAfter=No
-38	,	_	PUNCT	.	_	40	punct	_	_
-39	o	_	DET	DET	_	40	det	_	_
+38	,	,	PUNCT	.	_	40	punct	_	_
+39	o	o	DET	DET	_	40	det	_	_
 40	Leão	_	PROPN	PNOUN	_	34	appos	_	_
 41-42	da	_	_	_	_	_	_	_	_
 41	de	de	ADP	ADP	_	43	case	_	_
 42	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
 43	Serra	_	PROPN	PNOUN	_	40	nmod	_	_
 44	recebe	receber	VERB	VERB	_	0	root	_	_
-45	o	_	DET	DET	_	46	det	_	_
+45	o	o	DET	DET	_	46	det	_	_
 46	Cene	_	PROPN	PNOUN	_	44	obj	_	_
-47	-	_	PUNCT	.	_	46	punct	_	_
+47	-	-	PUNCT	.	_	46	punct	_	_
 48	MS	_	PROPN	PNOUN	_	46	flat	_	SpaceAfter=No
-49	,	_	PUNCT	.	_	50	punct	_	_
+49	,	,	PUNCT	.	_	50	punct	_	_
 50	jogo	jogo	NOUN	NOUN	_	44	parataxis	_	_
 51	válido	válido	ADJ	ADJ	_	50	amod	_	_
 52-53	pela	_	_	_	_	_	_	_	_
@@ -92,14 +92,14 @@
 60	de	de	ADP	ADP	_	62	case	_	_
 61	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
 62	brasileiro	brasileiro	NOUN	NOUN	_	58	nmod	_	SpaceAfter=No
-63	,	_	PUNCT	.	_	64	punct	_	_
+63	,	,	PUNCT	.	_	64	punct	_	_
 64	Grupo	_	PROPN	PNOUN	_	58	appos	_	_
 65	A5	_	PROPN	PNOUN	_	64	flat	_	SpaceAfter=No
-66	.	_	PUNCT	.	_	44	punct	_	_
+66	.	.	PUNCT	.	_	44	punct	_	_
 
 # sent_id = train-s83
 # text = A comunidade internacional intensificou nos últimos dias as advertências a Assad, diante do temor de que ele decida recorrer a armas químicas.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	comunidade	comunidade	NOUN	NOUN	_	4	nsubj	_	_
 3	internacional	internacional	ADJ	ADJ	_	2	amod	_	_
 4	intensificou	intensificar	VERB	VERB	_	0	root	_	_
@@ -108,33 +108,33 @@
 6	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 7	últimos	último	ADJ	ADJ	_	8	amod	_	_
 8	dias	dia	NOUN	NOUN	_	4	nmod	_	_
-9	as	_	DET	DET	_	10	det	_	_
+9	as	o	DET	DET	_	10	det	_	_
 10	advertências	advertência	NOUN	NOUN	_	4	obj	_	_
 11	a	_	ADP	ADP	_	12	case	_	_
 12	Assad	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	14	punct	_	_
+13	,	,	PUNCT	.	_	14	punct	_	_
 14	diante	diante	ADV	ADV	_	4	advmod	_	_
 15-16	do	_	_	_	_	_	_	_	_
 15	de	de	ADP	ADP	_	17	case	_	_
 16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	temor	temor	NOUN	NOUN	_	14	nmod	_	_
 18	de	_	ADP	ADP	_	21	mark	_	_
-19	que	_	CCONJ	CONJ	_	21	mark	_	_
+19	que	que	CCONJ	CONJ	_	21	mark	_	_
 20	ele	_	PRON	PRON	_	21	nsubj	_	_
 21	decida	decidir	VERB	VERB	_	17	nmod	_	_
 22	recorrer	recorrer	VERB	VERB	_	21	xcomp	_	_
 23	a	_	ADP	ADP	_	24	case	_	_
 24	armas	arma	NOUN	NOUN	_	22	nmod	_	_
 25	químicas	químico	ADJ	ADJ	_	24	amod	_	SpaceAfter=No
-26	.	_	PUNCT	.	_	4	punct	_	_
+26	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s84
 # text = Com essa decisão, o IPI dos carros importados voltam ao normal: de 7 % nos automóveis com motores de até 1,0 litro, de 11 % nos equipados com motores entre 1,0 e 2,0 litros movidos a etanol (flex), e de 13 % nos veículos entre 1,0 e 2,0 litros movidos a gasolina.
 1	Com	_	ADP	ADP	_	3	case	_	_
 2	essa	_	DET	DET	_	3	det	_	_
 3	decisão	decisão	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
-5	o	_	DET	DET	_	6	det	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	o	o	DET	DET	_	6	det	_	_
 6	IPI	_	PROPN	PNOUN	_	11	nsubj	_	_
 7-8	dos	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
@@ -146,44 +146,44 @@
 12	a	a	ADP	ADP	_	14	case	_	_
 13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	normal	normal	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
-15	:	_	PUNCT	.	_	11	punct	_	_
-16	de	_	ADP	ADP	_	18	case	_	_
+15	:	:	PUNCT	.	_	11	punct	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
 17	7	_	NUM	NUM	NumType=Card	18	nummod	_	_
 18	%	_	SYM	SYM	_	11	dep	_	_
 19-20	nos	_	_	_	_	_	_	_	_
 19	em	em	ADP	ADP	_	21	case	_	_
 20	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
 21	automóveis	automóvel	NOUN	NOUN	_	18	nmod	_	_
-22	com	_	ADP	ADP	_	23	case	_	_
+22	com	com	ADP	ADP	_	23	case	_	_
 23	motores	motor	NOUN	NOUN	_	21	nmod	_	_
-24	de	_	ADP	ADP	_	27	case	_	_
+24	de	de	ADP	ADP	_	27	case	_	_
 25	até	até	ADV	ADV	_	26	advmod	_	_
 26	1,0	_	NUM	NUM	NumType=Card	27	nummod	_	_
 27	litro	litro	NOUN	NOUN	_	23	nmod	_	SpaceAfter=No
-28	,	_	PUNCT	.	_	31	punct	_	_
-29	de	_	ADP	ADP	_	31	case	_	_
+28	,	,	PUNCT	.	_	31	punct	_	_
+29	de	de	ADP	ADP	_	31	case	_	_
 30	11	_	NUM	NUM	NumType=Card	31	nummod	_	_
 31	%	_	SYM	SYM	_	18	conj	_	_
 32-33	nos	_	_	_	_	_	_	_	_
 32	em	em	ADP	ADP	_	34	case	_	_
 33	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
 34	equipados	_	NOUN	NOUN	_	31	nmod	_	_
-35	com	_	ADP	ADP	_	36	case	_	_
+35	com	com	ADP	ADP	_	36	case	_	_
 36	motores	motor	NOUN	NOUN	_	34	nmod	_	_
 37	entre	_	ADP	ADP	_	41	case	_	_
 38	1,0	_	NUM	NUM	NumType=Card	41	nummod	_	_
-39	e	_	CCONJ	CONJ	_	40	cc	_	_
+39	e	e	CCONJ	CONJ	_	40	cc	_	_
 40	2,0	_	NUM	NUM	NumType=Card	38	conj	_	_
 41	litros	litro	NOUN	NOUN	_	36	nmod	_	_
 42	movidos	mover	VERB	VERB	_	36	acl:part	_	_
 43	a	_	ADP	ADP	_	44	case	_	_
 44	etanol	etanol	NOUN	NOUN	_	42	nmod	_	_
-45	(	_	PUNCT	.	_	46	punct	_	SpaceAfter=No
+45	(	(	PUNCT	.	_	46	punct	_	SpaceAfter=No
 46	flex	_	NOUN	NOUN	_	44	appos	_	SpaceAfter=No
-47	)	_	PUNCT	.	_	46	punct	_	SpaceAfter=No
-48	,	_	PUNCT	.	_	52	punct	_	_
-49	e	_	CCONJ	CONJ	_	52	cc	_	_
-50	de	_	ADP	ADP	_	52	case	_	_
+47	)	)	PUNCT	.	_	46	punct	_	SpaceAfter=No
+48	,	,	PUNCT	.	_	52	punct	_	_
+49	e	e	CCONJ	CONJ	_	52	cc	_	_
+50	de	de	ADP	ADP	_	52	case	_	_
 51	13	_	NUM	NUM	NumType=Card	52	nummod	_	_
 52	%	_	SYM	SYM	_	18	conj	_	_
 53-54	nos	_	_	_	_	_	_	_	_
@@ -192,25 +192,25 @@
 55	veículos	veículo	NOUN	NOUN	_	52	nmod	_	_
 56	entre	_	ADP	ADP	_	60	case	_	_
 57	1,0	_	NUM	NUM	NumType=Card	60	nummod	_	_
-58	e	_	CCONJ	CONJ	_	59	cc	_	_
+58	e	e	CCONJ	CONJ	_	59	cc	_	_
 59	2,0	_	NUM	NUM	NumType=Card	57	conj	_	_
 60	litros	litro	NOUN	NOUN	_	55	nmod	_	_
 61	movidos	mover	VERB	VERB	_	55	acl:part	_	_
 62	a	_	ADP	ADP	_	63	case	_	_
 63	gasolina	gasolina	NOUN	NOUN	_	61	nmod	_	SpaceAfter=No
-64	.	_	PUNCT	.	_	11	punct	_	_
+64	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s85
 # text = Ele comentou ainda que, após as eleições, continuará sendo membro do Parlamento italiano, como senador vitalício.
 1	Ele	_	PRON	PRON	_	2	nsubj	_	_
 2	comentou	comentar	VERB	VERB	_	0	root	_	_
 3	ainda	ainda	ADV	ADV	_	2	advmod	_	_
-4	que	_	CCONJ	CONJ	_	12	mark	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	8	punct	_	_
+4	que	que	CCONJ	CONJ	_	12	mark	_	SpaceAfter=No
+5	,	,	PUNCT	.	_	8	punct	_	_
 6	após	_	ADP	ADP	_	8	case	_	_
-7	as	_	DET	DET	_	8	det	_	_
+7	as	o	DET	DET	_	8	det	_	_
 8	eleições	eleição	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	8	punct	_	_
+9	,	,	PUNCT	.	_	8	punct	_	_
 10	continuará	continuar	AUX	AUX	_	12	aux	_	_
 11	sendo	ser	AUX	AUX	_	12	cop	_	_
 12	membro	membro	NOUN	NOUN	_	2	ccomp	_	_
@@ -219,11 +219,11 @@
 14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	Parlamento	_	PROPN	PNOUN	_	12	nmod	_	_
 16	italiano	italiano	ADJ	ADJ	_	15	amod	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	19	punct	_	_
-18	como	_	ADP	ADP	_	19	case	_	_
+17	,	,	PUNCT	.	_	19	punct	_	_
+18	como	como	ADP	ADP	_	19	case	_	_
 19	senador	senador	NOUN	NOUN	_	12	nmod	_	_
 20	vitalício	vitalício	ADJ	ADJ	_	19	amod	_	SpaceAfter=No
-21	.	_	PUNCT	.	_	2	punct	_	_
+21	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s86
 # text = [Esses dados] nos garantem que o aspecto fiscal permanecerá sólido nos próximos anos.
@@ -233,8 +233,8 @@
 4	]	_	PUNCT	.	_	3	punct	_	_
 5	nos	_	PRON	PRON	_	6	iobj	_	_
 6	garantem	garantir	VERB	VERB	_	0	root	_	_
-7	que	_	CCONJ	CONJ	_	11	mark	_	_
-8	o	_	DET	DET	_	9	det	_	_
+7	que	que	CCONJ	CONJ	_	11	mark	_	_
+8	o	o	DET	DET	_	9	det	_	_
 9	aspecto	aspecto	NOUN	NOUN	_	11	nsubj	_	_
 10	fiscal	fiscal	ADJ	ADJ	_	9	amod	_	_
 11	permanecerá	permanecer	VERB	VERB	_	6	ccomp	_	_
@@ -244,11 +244,11 @@
 14	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
 15	próximos	próximo	ADJ	ADJ	_	16	amod	_	_
 16	anos	ano	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
-17	.	_	PUNCT	.	_	6	punct	_	_
+17	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s87
 # text = O crescimento das importações é resultado, principalmente, dos desembarques de 336 mil t de cimentos não pulverizados (clinkers), 291 mil t de carvão, 241 mil t de produtos siderúrgicos e 162 mil t de gás natural.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	crescimento	crescimento	NOUN	NOUN	_	7	nsubj	_	_
 3-4	das	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -256,49 +256,49 @@
 5	importações	importação	NOUN	NOUN	_	2	nmod	_	_
 6	é	ser	AUX	AUX	_	7	cop	_	_
 7	resultado	resultado	NOUN	NOUN	_	0	root	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	9	punct	_	_
+8	,	,	PUNCT	.	_	9	punct	_	_
 9	principalmente	principalmente	ADV	ADV	_	7	advmod	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	9	punct	_	_
+10	,	,	PUNCT	.	_	9	punct	_	_
 11-12	dos	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	13	case	_	_
 12	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 13	desembarques	desembarque	NOUN	NOUN	_	7	nmod	_	_
-14	de	_	ADP	ADP	_	17	case	_	_
+14	de	de	ADP	ADP	_	17	case	_	_
 15	336	_	NUM	NUM	NumType=Card	16	nummod	_	_
 16	mil	_	NUM	NUM	NumType=Card	17	nummod	_	_
 17	t	t	NOUN	NOUN	_	13	nmod	_	_
-18	de	_	ADP	ADP	_	19	case	_	_
+18	de	de	ADP	ADP	_	19	case	_	_
 19	cimentos	cimento	NOUN	NOUN	_	17	nmod	_	_
 20	não	não	ADV	ADV	Polarity=Neg	21	advmod	_	_
 21	pulverizados	pulverizado	ADJ	ADJ	_	19	amod	_	_
-22	(	_	PUNCT	.	_	23	punct	_	SpaceAfter=No
+22	(	(	PUNCT	.	_	23	punct	_	SpaceAfter=No
 23	clinkers	_	NOUN	NOUN	_	19	appos	_	SpaceAfter=No
-24	)	_	PUNCT	.	_	23	punct	_	SpaceAfter=No
-25	,	_	PUNCT	.	_	28	punct	_	_
+24	)	)	PUNCT	.	_	23	punct	_	SpaceAfter=No
+25	,	,	PUNCT	.	_	28	punct	_	_
 26	291	_	NUM	NUM	NumType=Card	27	nummod	_	_
 27	mil	_	NUM	NUM	NumType=Card	28	nummod	_	_
 28	t	t	NOUN	NOUN	_	17	conj	_	_
-29	de	_	ADP	ADP	_	30	case	_	_
+29	de	de	ADP	ADP	_	30	case	_	_
 30	carvão	carvão	NOUN	NOUN	_	28	nmod	_	SpaceAfter=No
-31	,	_	PUNCT	.	_	34	punct	_	_
+31	,	,	PUNCT	.	_	34	punct	_	_
 32	241	_	NUM	NUM	NumType=Card	33	nummod	_	_
 33	mil	_	NUM	NUM	NumType=Card	34	nummod	_	_
 34	t	t	NOUN	NOUN	_	17	conj	_	_
-35	de	_	ADP	ADP	_	36	case	_	_
+35	de	de	ADP	ADP	_	36	case	_	_
 36	produtos	produto	NOUN	NOUN	_	34	nmod	_	_
 37	siderúrgicos	siderúrgico	ADJ	ADJ	_	36	amod	_	_
-38	e	_	CCONJ	CONJ	_	41	cc	_	_
+38	e	e	CCONJ	CONJ	_	41	cc	_	_
 39	162	_	NUM	NUM	NumType=Card	40	nummod	_	_
 40	mil	_	NUM	NUM	NumType=Card	41	nummod	_	_
 41	t	t	NOUN	NOUN	_	17	conj	_	_
-42	de	_	ADP	ADP	_	43	case	_	_
+42	de	de	ADP	ADP	_	43	case	_	_
 43	gás	gás	NOUN	NOUN	_	41	nmod	_	_
 44	natural	natural	ADJ	ADJ	_	43	amod	_	SpaceAfter=No
-45	.	_	PUNCT	.	_	7	punct	_	_
+45	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s88
 # text = Em 1820 foi nomeado professor pensionista substituto na Academia Imperial de Belas Artes.
-1	Em	_	ADP	ADP	_	2	case	_	_
+1	Em	em	ADP	ADP	_	2	case	_	_
 2	1820	_	NUM	NUM	NumType=Card	5	nmod	_	_
 3	foi	_	AUX	AUX	_	5	aux:pass	_	_
 4	nomeado	nomear	AUX	AUX	_	5	cop	_	_
@@ -310,49 +310,49 @@
 9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Academia	academia	NOUN	NOUN	_	5	nmod	_	_
 11	Imperial	_	PROPN	PNOUN	_	10	amod	_	_
-12	de	_	ADP	ADP	_	14	case	_	_
+12	de	de	ADP	ADP	_	14	case	_	_
 13	Belas	_	PROPN	PNOUN	_	14	amod	_	_
 14	Artes	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
-15	.	_	PUNCT	.	_	5	punct	_	_
+15	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s89
 # text = Mas a atleta também poderá, de acordo com o técnico, se deparar com obstáculos 'naturais', como os patos que habitam o Serpentine.
 1	Mas	_	CCONJ	CONJ	_	14	cc	_	_
-2	a	_	DET	DET	_	3	det	_	_
+2	a	a	DET	DET	_	3	det	_	_
 3	atleta	atleta	NOUN	NOUN	_	14	nsubj	_	_
 4	também	também	ADV	ADV	_	14	advmod	_	_
 5	poderá	poder	AUX	AUX	_	14	aux	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	8	punct	_	_
-7	de	_	ADP	ADP	_	8	case	_	_
+6	,	,	PUNCT	.	_	8	punct	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
 8	acordo	acordo	NOUN	NOUN	_	14	nmod	_	_
-9	com	_	ADP	ADP	_	11	case	_	_
-10	o	_	DET	DET	_	11	det	_	_
+9	com	com	ADP	ADP	_	11	case	_	_
+10	o	o	DET	DET	_	11	det	_	_
 11	técnico	técnico	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	8	punct	_	_
+12	,	,	PUNCT	.	_	8	punct	_	_
 13	se	_	PRON	PRON	_	14	expl:pv	_	_
 14	deparar	deparar	VERB	VERB	_	0	root	_	_
-15	com	_	ADP	ADP	_	16	case	_	_
+15	com	com	ADP	ADP	_	16	case	_	_
 16	obstáculos	obstáculo	NOUN	NOUN	_	14	nmod	_	_
 17	'	_	PUNCT	.	_	18	punct	_	SpaceAfter=No
 18	naturais	natural	ADJ	ADJ	_	16	amod	_	SpaceAfter=No
 19	'	_	PUNCT	.	_	18	punct	_	SpaceAfter=No
-20	,	_	PUNCT	.	_	23	punct	_	_
-21	como	_	ADP	ADP	_	23	case	_	_
-22	os	_	DET	DET	_	23	det	_	_
+20	,	,	PUNCT	.	_	23	punct	_	_
+21	como	como	ADP	ADP	_	23	case	_	_
+22	os	o	DET	DET	_	23	det	_	_
 23	patos	pato	NOUN	NOUN	_	16	nmod	_	_
 24	que	_	PRON	PRON	_	25	nsubj	_	_
 25	habitam	habitar	VERB	VERB	_	23	acl:relcl	_	_
-26	o	_	DET	DET	_	27	det	_	_
+26	o	o	DET	DET	_	27	det	_	_
 27	Serpentine	_	PROPN	PNOUN	_	25	obj	_	SpaceAfter=No
-28	.	_	PUNCT	.	_	14	punct	_	_
+28	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = train-s90
 # text = Os assuntos foram abordados em entrevista ao radialista França Moura, do Programa Cidadania, na manhã desta sexta - feira (07).
-1	Os	_	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	_	2	det	_	_
 2	assuntos	assunto	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foram	_	AUX	AUX	_	4	aux:pass	_	_
 4	abordados	abordar	VERB	VERB	_	0	root	_	_
-5	em	_	ADP	ADP	_	6	case	_	_
+5	em	em	ADP	ADP	_	6	case	_	_
 6	entrevista	entrevista	NOUN	NOUN	_	4	nmod	_	_
 7-8	ao	_	_	_	_	_	_	_	_
 7	a	a	ADP	ADP	_	9	case	_	_
@@ -360,23 +360,23 @@
 9	radialista	radialista	NOUN	NOUN	_	6	nmod	_	_
 10	França	_	PROPN	PNOUN	_	9	appos	_	_
 11	Moura	_	PROPN	PNOUN	_	10	flat	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	15	punct	_	_
+12	,	,	PUNCT	.	_	15	punct	_	_
 13-14	do	_	_	_	_	_	_	_	_
 13	de	de	ADP	ADP	_	15	case	_	_
 14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	Programa	_	PROPN	PNOUN	_	9	nmod	_	_
 16	Cidadania	_	PROPN	PNOUN	_	15	flat	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	15	punct	_	_
+17	,	,	PUNCT	.	_	15	punct	_	_
 18-19	na	_	_	_	_	_	_	_	_
 18	em	em	ADP	ADP	_	20	case	_	_
 19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	manhã	manhã	NOUN	NOUN	_	4	nmod	_	_
 21	desta	_	ADP	ADP	_	24	case	_	_
 22	sexta	_	PROPN	PNOUN	_	24	amod	_	_
-23	-	_	PUNCT	.	_	24	punct	_	_
+23	-	-	PUNCT	.	_	24	punct	_	_
 24	feira	_	PROPN	PNOUN	_	20	nmod	_	_
-25	(	_	PUNCT	.	_	26	punct	_	SpaceAfter=No
+25	(	(	PUNCT	.	_	26	punct	_	SpaceAfter=No
 26	07	_	NUM	NUM	NumType=Card	24	nmod	_	SpaceAfter=No
-27	)	_	PUNCT	.	_	26	punct	_	SpaceAfter=No
-28	.	_	PUNCT	.	_	4	punct	_	_
+27	)	)	PUNCT	.	_	26	punct	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	4	punct	_	_
 

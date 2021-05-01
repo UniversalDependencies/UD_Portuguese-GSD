@@ -1,10 +1,10 @@
 # sent_id = train-s4217
 # text = Em termos nominais, o déficit no primeiro semestre foi de 5,6 bilhões de euros, abaixo do déficit de 6,9 bilhões de euros (equivalente a 8,2 % do PIB) registrado nos primeiros seis meses do ano passado.
-1	Em	_	ADP	ADP	_	2	case	_	_
+1	Em	em	ADP	ADP	_	2	case	_	_
 2	termos	termo	NOUN	NOUN	_	11	nmod	_	_
 3	nominais	nominal	ADJ	ADJ	_	2	amod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	2	punct	_	_
-5	o	_	DET	DET	_	6	det	_	_
+4	,	,	PUNCT	.	_	2	punct	_	_
+5	o	o	DET	DET	_	6	det	_	_
 6	déficit	déficit	NOUN	NOUN	_	11	nsubj	_	_
 7-8	no	_	_	_	_	_	_	_	_
 7	em	em	ADP	ADP	_	10	case	_	_
@@ -12,23 +12,23 @@
 9	primeiro	primeiro	ADJ	ADJ	_	10	amod	_	_
 10	semestre	semestre	NOUN	NOUN	_	6	nmod	_	_
 11	foi	_	VERB	VERB	_	0	root	_	_
-12	de	_	ADP	ADP	_	16	case	_	_
+12	de	de	ADP	ADP	_	16	case	_	_
 13	5,6	_	NUM	NUM	NumType=Card	14	nummod	_	_
 14	bilhões	_	NUM	NUM	NumType=Card	16	nummod	_	_
-15	de	_	ADP	ADP	_	16	case	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
 16	euros	euro	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	18	punct	_	_
+17	,	,	PUNCT	.	_	18	punct	_	_
 18	abaixo	abaixo	ADV	ADV	_	16	advmod	_	_
 19-20	do	_	_	_	_	_	_	_	_
 19	de	de	ADP	ADP	_	21	case	_	_
 20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	déficit	déficit	NOUN	NOUN	_	18	nmod	_	_
-22	de	_	ADP	ADP	_	26	case	_	_
+22	de	de	ADP	ADP	_	26	case	_	_
 23	6,9	_	NUM	NUM	NumType=Card	24	nummod	_	_
 24	bilhões	_	NUM	NUM	NumType=Card	26	nummod	_	_
-25	de	_	ADP	ADP	_	26	case	_	_
+25	de	de	ADP	ADP	_	26	case	_	_
 26	euros	euro	NOUN	NOUN	_	21	nmod	_	_
-27	(	_	PUNCT	.	_	28	punct	_	SpaceAfter=No
+27	(	(	PUNCT	.	_	28	punct	_	SpaceAfter=No
 28	equivalente	equivalente	ADJ	ADJ	_	26	amod	_	_
 29	a	_	ADP	ADP	_	31	case	_	_
 30	8,2	_	NUM	NUM	NumType=Card	31	nummod	_	_
@@ -37,7 +37,7 @@
 32	de	de	ADP	ADP	_	34	case	_	_
 33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
 34	PIB	_	PROPN	PNOUN	_	31	nmod	_	SpaceAfter=No
-35	)	_	PUNCT	.	_	28	punct	_	_
+35	)	)	PUNCT	.	_	28	punct	_	_
 36	registrado	registrar	VERB	VERB	_	21	acl:part	_	_
 37-38	nos	_	_	_	_	_	_	_	_
 37	em	em	ADP	ADP	_	41	case	_	_
@@ -50,7 +50,7 @@
 43	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
 44	ano	ano	NOUN	NOUN	_	41	nmod	_	_
 45	passado	passado	ADJ	ADJ	_	44	amod	_	SpaceAfter=No
-46	.	_	PUNCT	.	_	11	punct	_	_
+46	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s4218
 # text = Rodrigo Braghetto arbitrou quatro jogos no Brasileirão, marcou 160 faltas (média de 40 por jogo), aplicou 23 amarelos (média de 5,8 por jogo), nenhum vermelho e nenhum pênalti.
@@ -63,50 +63,50 @@
 6	em	em	ADP	ADP	_	8	case	_	_
 7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	Brasileirão	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	10	punct	_	_
+9	,	,	PUNCT	.	_	10	punct	_	_
 10	marcou	marcar	VERB	VERB	_	3	conj	_	_
 11	160	_	NUM	NUM	NumType=Card	12	nummod	_	_
 12	faltas	_	NOUN	NOUN	_	10	obj	_	_
-13	(	_	PUNCT	.	_	14	punct	_	SpaceAfter=No
+13	(	(	PUNCT	.	_	14	punct	_	SpaceAfter=No
 14	média	_	NOUN	NOUN	_	12	appos	_	_
-15	de	_	ADP	ADP	_	16	case	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
 16	40	_	NUM	NUM	NumType=Card	14	nmod	_	_
-17	por	_	ADP	ADP	_	18	case	_	_
+17	por	por	ADP	ADP	_	18	case	_	_
 18	jogo	jogo	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
-19	)	_	PUNCT	.	_	14	punct	_	SpaceAfter=No
-20	,	_	PUNCT	.	_	21	punct	_	_
+19	)	)	PUNCT	.	_	14	punct	_	SpaceAfter=No
+20	,	,	PUNCT	.	_	21	punct	_	_
 21	aplicou	aplicar	VERB	VERB	_	3	conj	_	_
 22	23	_	NUM	NUM	NumType=Card	23	nummod	_	_
 23	amarelos	amarelo	NOUN	NOUN	_	21	obj	_	_
-24	(	_	PUNCT	.	_	25	punct	_	SpaceAfter=No
+24	(	(	PUNCT	.	_	25	punct	_	SpaceAfter=No
 25	média	_	NOUN	NOUN	_	23	appos	_	_
-26	de	_	ADP	ADP	_	27	case	_	_
+26	de	de	ADP	ADP	_	27	case	_	_
 27	5,8	_	NUM	NUM	NumType=Card	25	nmod	_	_
-28	por	_	ADP	ADP	_	29	case	_	_
+28	por	por	ADP	ADP	_	29	case	_	_
 29	jogo	jogo	NOUN	NOUN	_	27	nmod	_	SpaceAfter=No
-30	)	_	PUNCT	.	_	25	punct	_	SpaceAfter=No
-31	,	_	PUNCT	.	_	33	punct	_	_
+30	)	)	PUNCT	.	_	25	punct	_	SpaceAfter=No
+31	,	,	PUNCT	.	_	33	punct	_	_
 32	nenhum	_	DET	DET	_	33	det	_	_
 33	vermelho	vermelho	NOUN	NOUN	_	23	conj	_	_
-34	e	_	CCONJ	CONJ	_	36	cc	_	_
+34	e	e	CCONJ	CONJ	_	36	cc	_	_
 35	nenhum	_	DET	DET	_	36	det	_	_
 36	pênalti	pênalti	NOUN	NOUN	_	23	conj	_	SpaceAfter=No
-37	.	_	PUNCT	.	_	3	punct	_	_
+37	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s4219
 # text = Barros acrescenta que, por isso, o processo de redução de tarifas sobre produtos venezuelanos deve tomar tempo e exigir intensa negociação.
 1	Barros	_	PROPN	PNOUN	_	2	nsubj	_	_
 2	acrescenta	acrescentar	VERB	VERB	_	0	root	_	_
-3	que	_	CCONJ	CONJ	_	18	mark	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	6	punct	_	_
-5	por	_	ADP	ADP	_	6	case	_	_
+3	que	que	CCONJ	CONJ	_	18	mark	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	6	punct	_	_
+5	por	por	ADP	ADP	_	6	case	_	_
 6	isso	_	PRON	PRON	_	18	nmod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	6	punct	_	_
-8	o	_	DET	DET	_	9	det	_	_
+7	,	,	PUNCT	.	_	6	punct	_	_
+8	o	o	DET	DET	_	9	det	_	_
 9	processo	processo	NOUN	NOUN	_	18	nsubj	_	_
-10	de	_	ADP	ADP	_	11	case	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
 11	redução	redução	NOUN	NOUN	_	9	nmod	_	_
-12	de	_	ADP	ADP	_	13	case	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
 13	tarifas	tarifa	NOUN	NOUN	_	11	nmod	_	_
 14	sobre	_	ADP	ADP	_	15	case	_	_
 15	produtos	produto	NOUN	NOUN	_	13	nmod	_	_
@@ -114,11 +114,11 @@
 17	deve	dever	AUX	AUX	_	18	aux	_	_
 18	tomar	tomar	VERB	VERB	_	2	ccomp	_	_
 19	tempo	tempo	NOUN	NOUN	_	18	obj	_	_
-20	e	_	CCONJ	CONJ	_	21	cc	_	_
+20	e	e	CCONJ	CONJ	_	21	cc	_	_
 21	exigir	exigir	VERB	VERB	_	18	conj	_	_
 22	intensa	intenso	ADJ	ADJ	_	23	amod	_	_
 23	negociação	negociação	NOUN	NOUN	_	21	obj	_	SpaceAfter=No
-24	.	_	PUNCT	.	_	2	punct	_	_
+24	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s4220
 # text = Procedeu a limpeza geral dos bairros São Lucas e Morro Boa Vista, além de dar impulso ao problema de limite entre Volta Redonda e Barra Mansa, e atender a milhares de pessoas na sede da Prefeitura Municipal.
@@ -132,11 +132,11 @@
 7	bairros	bairro	NOUN	NOUN	_	3	nmod	_	_
 8	São	_	PROPN	PNOUN	_	7	appos	_	_
 9	Lucas	_	PROPN	PNOUN	_	8	flat	_	_
-10	e	_	CCONJ	CONJ	_	11	cc	_	_
+10	e	e	CCONJ	CONJ	_	11	cc	_	_
 11	Morro	_	PROPN	PNOUN	_	8	conj	_	_
 12	Boa	_	PROPN	PNOUN	_	13	amod	_	_
 13	Vista	_	PROPN	PNOUN	_	11	appos	_	SpaceAfter=No
-14	,	_	PUNCT	.	_	15	punct	_	_
+14	,	,	PUNCT	.	_	15	punct	_	_
 15	além	além	ADV	ADV	_	1	advmod	_	_
 16	de	_	ADP	ADP	_	17	mark	_	_
 17	dar	dar	VERB	VERB	_	15	nmod	_	_
@@ -145,20 +145,20 @@
 19	a	a	ADP	ADP	_	21	case	_	_
 20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	problema	problema	NOUN	NOUN	_	17	iobj	_	_
-22	de	_	ADP	ADP	_	23	case	_	_
+22	de	de	ADP	ADP	_	23	case	_	_
 23	limite	limite	NOUN	NOUN	_	21	nmod	_	_
 24	entre	_	ADP	ADP	_	25	case	_	_
 25	Volta	_	PROPN	PNOUN	_	23	nmod	_	_
 26	Redonda	_	PROPN	PNOUN	_	25	amod	_	_
-27	e	_	CCONJ	CONJ	_	28	cc	_	_
+27	e	e	CCONJ	CONJ	_	28	cc	_	_
 28	Barra	_	PROPN	PNOUN	_	25	conj	_	_
 29	Mansa	_	PROPN	PNOUN	_	28	amod	_	SpaceAfter=No
-30	,	_	PUNCT	.	_	32	punct	_	_
-31	e	_	CCONJ	CONJ	_	32	cc	_	_
+30	,	,	PUNCT	.	_	32	punct	_	_
+31	e	e	CCONJ	CONJ	_	32	cc	_	_
 32	atender	atender	VERB	VERB	_	17	conj	_	_
 33	a	_	ADP	ADP	_	36	case	_	_
 34	milhares	_	NUM	NUM	NumType=Card	36	nummod	_	_
-35	de	_	ADP	ADP	_	36	case	_	_
+35	de	de	ADP	ADP	_	36	case	_	_
 36	pessoas	pessoa	NOUN	NOUN	_	32	nmod	_	_
 37-38	na	_	_	_	_	_	_	_	_
 37	em	em	ADP	ADP	_	39	case	_	_
@@ -169,33 +169,33 @@
 41	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
 42	Prefeitura	_	PROPN	PNOUN	_	39	nmod	_	_
 43	Municipal	_	PROPN	PNOUN	_	42	amod	_	SpaceAfter=No
-44	.	_	PUNCT	.	_	1	punct	_	_
+44	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s4221
 # text = A autarquia é, inclusive, investigada pela Polícia Civil e pelo Ministério Público.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	autarquia	autarquia	NOUN	NOUN	_	7	nsubj:pass	_	_
 3	é	ser	AUX	AUX	_	7	aux:pass	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	5	punct	_	_
+4	,	,	PUNCT	.	_	5	punct	_	_
 5	inclusive	inclusive	ADV	ADV	_	7	advmod	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	5	punct	_	_
+6	,	,	PUNCT	.	_	5	punct	_	_
 7	investigada	investigar	VERB	VERB	_	0	root	_	_
 8-9	pela	_	_	_	_	_	_	_	_
 8	por	por	ADP	ADP	_	10	case	_	_
 9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Polícia	_	PROPN	PNOUN	_	7	nmod	_	_
 11	Civil	_	PROPN	PNOUN	_	10	amod	_	_
-12	e	_	CCONJ	CONJ	_	15	cc	_	_
+12	e	e	CCONJ	CONJ	_	15	cc	_	_
 13-14	pelo	_	_	_	_	_	_	_	_
 13	por	por	ADP	ADP	_	15	case	_	_
 14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	Ministério	_	PROPN	PNOUN	_	10	conj	_	_
 16	Público	_	PROPN	PNOUN	_	15	amod	_	SpaceAfter=No
-17	.	_	PUNCT	.	_	7	punct	_	_
+17	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s4222
 # text = Os dois eventos acontecem na sede da Federação do Comércio do Acre -- Condomínio Fecomércio (Av. Getúlio Vargas -- 2472 -- Bairro Bosque).
-1	Os	_	DET	DET	_	3	det	_	_
+1	Os	o	DET	DET	_	3	det	_	_
 2	dois	_	NUM	NUM	NumType=Card	3	nummod	_	_
 3	eventos	evento	NOUN	NOUN	_	4	nsubj	_	_
 4	acontecem	acontecer	VERB	VERB	_	0	root	_	_
@@ -218,7 +218,7 @@
 17	--	_	PUNCT	.	_	18	punct	_	_
 18	Condomínio	_	PROPN	PNOUN	_	7	appos	_	_
 19	Fecomércio	_	PROPN	PNOUN	_	18	flat	_	_
-20	(	_	PUNCT	.	_	21	punct	_	SpaceAfter=No
+20	(	(	PUNCT	.	_	21	punct	_	SpaceAfter=No
 21	Av.	_	PROPN	PNOUN	_	18	appos	_	_
 22	Getúlio	_	PROPN	PNOUN	_	21	flat	_	_
 23	Vargas	_	PROPN	PNOUN	_	21	flat	_	_
@@ -227,12 +227,12 @@
 26	--	_	PUNCT	.	_	25	punct	_	_
 27	Bairro	_	PROPN	PNOUN	_	21	appos	_	_
 28	Bosque	_	PROPN	PNOUN	_	27	flat	_	SpaceAfter=No
-29	)	_	PUNCT	.	_	21	punct	_	SpaceAfter=No
-30	.	_	PUNCT	.	_	4	punct	_	_
+29	)	)	PUNCT	.	_	21	punct	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s4223
 # text = "Tínhamos feito duas substituições no intervalo, que iriam melhorar o time e chegaram a melhorar.
-1	"	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
 2	Tínhamos	ter	AUX	AUX	_	3	aux	_	_
 3	feito	_	VERB	VERB	_	0	root	_	_
 4	duas	_	NUM	NUM	NumType=Card	5	nummod	_	_
@@ -241,17 +241,17 @@
 6	em	em	ADP	ADP	_	8	case	_	_
 7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	intervalo	intervalo	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	12	punct	_	_
+9	,	,	PUNCT	.	_	12	punct	_	_
 10	que	_	PRON	PRON	_	12	nsubj	_	_
 11	iriam	_	AUX	AUX	_	12	aux	_	_
 12	melhorar	melhorar	VERB	VERB	_	5	acl:relcl	_	_
-13	o	_	DET	DET	_	14	det	_	_
+13	o	o	DET	DET	_	14	det	_	_
 14	time	time	NOUN	NOUN	_	12	obj	_	_
-15	e	_	CCONJ	CONJ	_	18	cc	_	_
+15	e	e	CCONJ	CONJ	_	18	cc	_	_
 16	chegaram	chegar	AUX	AUX	_	18	aux	_	_
 17	a	_	ADP	ADP	_	18	mark	_	_
 18	melhorar	melhorar	VERB	VERB	_	12	conj	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	3	punct	_	_
+19	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s4224
 # text = Alguns anos mais tarde, Cuba sofreria as mesmas investidas da CIA e Fidel Castro teria escapado de mais de vinte tentativas de assassinato.
@@ -259,33 +259,33 @@
 2	anos	ano	NOUN	NOUN	_	7	nmod	_	_
 3	mais	mais	ADV	ADV	_	4	advmod	_	_
 4	tarde	tarde	ADV	ADV	_	2	advmod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	2	punct	_	_
+5	,	,	PUNCT	.	_	2	punct	_	_
 6	Cuba	_	PROPN	PNOUN	_	7	nsubj	_	_
 7	sofreria	sofrer	VERB	VERB	_	0	root	_	_
-8	as	_	DET	DET	_	10	det	_	_
+8	as	o	DET	DET	_	10	det	_	_
 9	mesmas	mesmo	ADJ	ADJ	_	10	amod	_	_
 10	investidas	_	NOUN	NOUN	_	7	obj	_	_
 11-12	da	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	13	case	_	_
 12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	CIA	_	PROPN	PNOUN	_	10	nmod	_	_
-14	e	_	CCONJ	CONJ	_	18	cc	_	_
+14	e	e	CCONJ	CONJ	_	18	cc	_	_
 15	Fidel	_	PROPN	PNOUN	_	18	nsubj	_	_
 16	Castro	_	PROPN	PNOUN	_	15	flat	_	_
 17	teria	ter	AUX	AUX	_	18	aux	_	_
 18	escapado	escapar	VERB	VERB	_	7	conj	_	_
-19	de	_	ADP	ADP	_	23	case	_	_
+19	de	de	ADP	ADP	_	23	case	_	_
 20	mais	mais	ADV	ADV	_	22	advmod	_	_
-21	de	_	ADP	ADP	_	20	case	_	_
+21	de	de	ADP	ADP	_	20	case	_	_
 22	vinte	_	NUM	NUM	NumType=Card	23	nummod	_	_
 23	tentativas	_	NOUN	NOUN	_	18	nmod	_	_
-24	de	_	ADP	ADP	_	25	case	_	_
+24	de	de	ADP	ADP	_	25	case	_	_
 25	assassinato	assassinato	NOUN	NOUN	_	23	nmod	_	SpaceAfter=No
-26	.	_	PUNCT	.	_	7	punct	_	_
+26	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s4225
 # text = A Fazenda da Rainha Carlota Joaquina, além do engenho de cana - de - açúcar, tinha também plantação de café e a mão - de - obra escrava era a responsável pela economia rural.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	Fazenda	_	PROPN	PNOUN	_	20	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -293,41 +293,41 @@
 5	Rainha	_	PROPN	PNOUN	_	2	nmod	_	_
 6	Carlota	_	PROPN	PNOUN	_	5	flat	_	_
 7	Joaquina	_	PROPN	PNOUN	_	5	flat	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	9	punct	_	_
+8	,	,	PUNCT	.	_	9	punct	_	_
 9	além	além	ADV	ADV	_	20	advmod	_	_
 10-11	do	_	_	_	_	_	_	_	_
 10	de	de	ADP	ADP	_	12	case	_	_
 11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	engenho	engenho	NOUN	NOUN	_	9	nmod	_	_
-13	de	_	ADP	ADP	_	14	case	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
 14	cana	cana	NOUN	NOUN	_	12	nmod	_	_
-15	-	_	PUNCT	.	_	14	punct	_	_
-16	de	_	ADP	ADP	_	18	case	_	_
-17	-	_	PUNCT	.	_	18	punct	_	_
+15	-	-	PUNCT	.	_	14	punct	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
+17	-	-	PUNCT	.	_	18	punct	_	_
 18	açúcar	açúcar	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
-19	,	_	PUNCT	.	_	9	punct	_	_
+19	,	,	PUNCT	.	_	9	punct	_	_
 20	tinha	ter	VERB	VERB	_	0	root	_	_
 21	também	também	ADV	ADV	_	20	advmod	_	_
 22	plantação	plantação	NOUN	NOUN	_	20	obj	_	_
-23	de	_	ADP	ADP	_	24	case	_	_
+23	de	de	ADP	ADP	_	24	case	_	_
 24	café	café	NOUN	NOUN	_	22	nmod	_	_
-25	e	_	CCONJ	CONJ	_	35	cc	_	_
-26	a	_	DET	DET	_	27	det	_	_
+25	e	e	CCONJ	CONJ	_	35	cc	_	_
+26	a	a	DET	DET	_	27	det	_	_
 27	mão	mão	NOUN	NOUN	_	35	nsubj	_	_
-28	-	_	PUNCT	.	_	27	punct	_	_
-29	de	_	ADP	ADP	_	31	case	_	_
-30	-	_	PUNCT	.	_	31	punct	_	_
+28	-	-	PUNCT	.	_	27	punct	_	_
+29	de	de	ADP	ADP	_	31	case	_	_
+30	-	-	PUNCT	.	_	31	punct	_	_
 31	obra	obra	NOUN	NOUN	_	27	nmod	_	_
 32	escrava	escravo	ADJ	ADJ	_	27	amod	_	_
 33	era	_	AUX	AUX	_	35	cop	_	_
-34	a	_	DET	DET	_	35	det	_	_
+34	a	a	DET	DET	_	35	det	_	_
 35	responsável	responsável	NOUN	NOUN	_	20	conj	_	_
 36-37	pela	_	_	_	_	_	_	_	_
 36	por	por	ADP	ADP	_	38	case	_	_
 37	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
 38	economia	economia	NOUN	NOUN	_	35	nmod	_	_
 39	rural	rural	ADJ	ADJ	_	38	amod	_	SpaceAfter=No
-40	.	_	PUNCT	.	_	20	punct	_	_
+40	.	.	PUNCT	.	_	20	punct	_	_
 
 # sent_id = train-s4226
 # text = Além da eficiência energética, o consumo de água e a capacidade de lavagem também serão monitorados.
@@ -337,18 +337,18 @@
 3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	eficiência	eficiência	NOUN	NOUN	_	1	nmod	_	_
 5	energética	energético	ADJ	ADJ	_	4	amod	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	1	punct	_	_
-7	o	_	DET	DET	_	8	det	_	_
+6	,	,	PUNCT	.	_	1	punct	_	_
+7	o	o	DET	DET	_	8	det	_	_
 8	consumo	consumo	NOUN	NOUN	_	18	nsubj:pass	_	_
-9	de	_	ADP	ADP	_	10	case	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
 10	água	água	NOUN	NOUN	_	8	nmod	_	_
 11	e	e	CCONJ	CONJ	_	13	cc	_	_
 12	a	o	DET	DET	_	13	det	_	_
 13	capacidade	capacidade	NOUN	NOUN	_	8	conj	_	_
-14	de	_	ADP	ADP	_	15	case	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
 15	lavagem	lavagem	NOUN	NOUN	_	13	nmod	_	_
 16	também	também	ADV	ADV	_	18	advmod	_	_
 17	serão	ser	AUX	AUX	_	18	aux:pass	_	_
 18	monitorados	_	VERB	VERB	_	0	root	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	18	punct	_	_
+19	.	.	PUNCT	.	_	18	punct	_	_
 

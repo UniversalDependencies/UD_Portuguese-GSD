@@ -1,13 +1,13 @@
 # sent_id = train-s2065
 # text = O Banco do Brasil teve a segunda maior redução na taxa média do cheque especial, de 5,7 %.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	Banco	_	PROPN	PNOUN	_	6	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
 4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Brasil	_	PROPN	PNOUN	_	2	nmod	_	_
 6	teve	ter	VERB	VERB	_	0	root	_	_
-7	a	_	DET	DET	_	10	det	_	_
+7	a	a	DET	DET	_	10	det	_	_
 8	segunda	segundo	ADJ	ADJ	_	10	amod	_	_
 9	maior	maior	ADJ	ADJ	_	10	amod	_	_
 10	redução	redução	NOUN	NOUN	_	6	obj	_	_
@@ -21,21 +21,21 @@
 16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	cheque	cheque	NOUN	NOUN	_	13	nmod	_	_
 18	especial	especial	ADJ	ADJ	_	17	amod	_	SpaceAfter=No
-19	,	_	PUNCT	.	_	22	punct	_	_
-20	de	_	ADP	ADP	_	22	case	_	_
+19	,	,	PUNCT	.	_	22	punct	_	_
+20	de	de	ADP	ADP	_	22	case	_	_
 21	5,7	_	NUM	NUM	NumType=Card	22	nummod	_	_
 22	%	_	SYM	SYM	_	10	nmod	_	SpaceAfter=No
-23	.	_	PUNCT	.	_	6	punct	_	_
+23	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s2066a
 # text = Para isso, a agência abre uma consulta pública a partir da próxima segunda - feira (08 / 10) para colher opiniões da sociedade, que pode ser consultada no site www.anac.gov.br.
 1	Para	_	ADP	ADP	_	2	case	_	_
 2	isso	_	PRON	PRON	_	6	nmod	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	2	punct	_	_
-4	a	_	DET	DET	_	5	det	_	_
+3	,	,	PUNCT	.	_	2	punct	_	_
+4	a	a	DET	DET	_	5	det	_	_
 5	agência	agência	NOUN	NOUN	_	6	nsubj	_	_
 6	abre	abrir	VERB	VERB	_	0	root	_	_
-7	uma	_	DET	DET	_	8	det	_	_
+7	uma	um	DET	DET	_	8	det	_	_
 8	consulta	consulta	NOUN	NOUN	_	6	obj	_	_
 9	pública	público	ADJ	ADJ	_	8	amod	_	_
 10	a	_	ADP	ADP	_	11	mark	_	_
@@ -45,13 +45,13 @@
 13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 14	próxima	próximo	ADJ	ADJ	_	17	amod	_	_
 15	segunda	_	PROPN	PNOUN	_	17	amod	_	_
-16	-	_	PUNCT	.	_	17	punct	_	_
+16	-	-	PUNCT	.	_	17	punct	_	_
 17	feira	_	PROPN	PNOUN	_	11	nmod	_	_
-18	(	_	PUNCT	.	_	19	punct	_	SpaceAfter=No
+18	(	(	PUNCT	.	_	19	punct	_	SpaceAfter=No
 19	08	_	NUM	NUM	NumType=Card	17	nmod	_	_
-20	/	_	PUNCT	.	_	19	punct	_	_
+20	/	/	PUNCT	.	_	19	punct	_	_
 21	10	_	NUM	NUM	NumType=Card	19	nmod	_	SpaceAfter=No
-22	)	_	PUNCT	.	_	19	punct	_	_
+22	)	)	PUNCT	.	_	19	punct	_	_
 23	para	_	ADP	ADP	_	24	mark	_	_
 24	colher	colher	VERB	VERB	_	8	nmod	_	_
 25	opiniões	opinião	NOUN	NOUN	_	24	obj	_	_
@@ -59,7 +59,7 @@
 26	de	de	ADP	ADP	_	28	case	_	_
 27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	sociedade	sociedade	NOUN	NOUN	_	25	nmod	_	SpaceAfter=No
-29	,	_	PUNCT	.	_	33	punct	_	_
+29	,	,	PUNCT	.	_	33	punct	_	_
 30	que	_	PRON	PRON	_	33	nsubj:pass	_	_
 31	pode	_	AUX	AUX	_	33	aux	_	_
 32	ser	ser	AUX	AUX	_	33	aux:pass	_	_
@@ -73,35 +73,35 @@
 # sent_id = train-s2066b
 # text = Confira a audiência pública que discutiu as novas regras.
 1	Confira	conferir	VERB	VERB	_	0	root	_	_
-2	a	_	DET	DET	_	3	det	_	_
+2	a	a	DET	DET	_	3	det	_	_
 3	audiência	audiência	NOUN	NOUN	_	1	obj	_	_
 4	pública	público	ADJ	ADJ	_	3	amod	_	_
 5	que	_	PRON	PRON	_	6	nsubj	_	_
 6	discutiu	discutir	VERB	VERB	_	3	acl:relcl	_	_
-7	as	_	DET	DET	_	9	det	_	_
+7	as	o	DET	DET	_	9	det	_	_
 8	novas	novo	ADJ	ADJ	_	9	amod	_	_
 9	regras	regra	NOUN	NOUN	_	6	obj	_	SpaceAfter=No
-10	.	_	PUNCT	.	_	1	punct	_	_
+10	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s2067
 # text = Paralelamente, o Ministério Público Federal (MPF) pediu a suspensão de atividades de mineração de níquel da Vale no Pará no final de maio, sob argumento de que a mineradora falhou em atender a obrigações para mitigar impacto da mina de Onça Puma sobre povos indígenas na região.
 1	Paralelamente	paralelamente	ADV	ADV	_	10	advmod	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	1	punct	_	_
-3	o	_	DET	DET	_	4	det	_	_
+2	,	,	PUNCT	.	_	1	punct	_	_
+3	o	o	DET	DET	_	4	det	_	_
 4	Ministério	_	PROPN	PNOUN	_	10	nsubj	_	_
 5	Público	_	PROPN	PNOUN	_	4	amod	_	_
 6	Federal	_	PROPN	PNOUN	_	4	amod	_	_
-7	(	_	PUNCT	.	_	8	punct	_	SpaceAfter=No
+7	(	(	PUNCT	.	_	8	punct	_	SpaceAfter=No
 8	MPF	_	PROPN	PNOUN	_	4	appos	_	SpaceAfter=No
-9	)	_	PUNCT	.	_	8	punct	_	_
+9	)	)	PUNCT	.	_	8	punct	_	_
 10	pediu	pedir	VERB	VERB	_	0	root	_	_
-11	a	_	DET	DET	_	12	det	_	_
+11	a	a	DET	DET	_	12	det	_	_
 12	suspensão	suspensão	NOUN	NOUN	_	10	obj	_	_
-13	de	_	ADP	ADP	_	14	case	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
 14	atividades	atividade	NOUN	NOUN	_	12	nmod	_	_
-15	de	_	ADP	ADP	_	16	case	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
 16	mineração	mineração	NOUN	NOUN	_	14	nmod	_	_
-17	de	_	ADP	ADP	_	18	case	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
 18	níquel	níquel	NOUN	NOUN	_	16	nmod	_	_
 19-20	da	_	_	_	_	_	_	_	_
 19	de	de	ADP	ADP	_	21	case	_	_
@@ -115,14 +115,14 @@
 25	em	em	ADP	ADP	_	27	case	_	_
 26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	final	final	NOUN	NOUN	_	10	nmod	_	_
-28	de	_	ADP	ADP	_	29	case	_	_
+28	de	de	ADP	ADP	_	29	case	_	_
 29	maio	_	PROPN	PNOUN	_	27	nmod	_	SpaceAfter=No
-30	,	_	PUNCT	.	_	27	punct	_	_
+30	,	,	PUNCT	.	_	27	punct	_	_
 31	sob	_	ADP	ADP	_	32	case	_	_
 32	argumento	argumento	NOUN	NOUN	_	10	nmod	_	_
 33	de	_	ADP	ADP	_	37	mark	_	_
-34	que	_	CCONJ	CONJ	_	37	mark	_	_
-35	a	_	DET	DET	_	36	det	_	_
+34	que	que	CCONJ	CONJ	_	37	mark	_	_
+35	a	a	DET	DET	_	36	det	_	_
 36	mineradora	_	NOUN	NOUN	_	37	nsubj	_	_
 37	falhou	falhar	VERB	VERB	_	32	nmod	_	_
 38	em	_	ADP	ADP	_	39	mark	_	_
@@ -136,7 +136,7 @@
 45	de	de	ADP	ADP	_	47	case	_	_
 46	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
 47	mina	mina	NOUN	NOUN	_	44	nmod	_	_
-48	de	_	ADP	ADP	_	49	case	_	_
+48	de	de	ADP	ADP	_	49	case	_	_
 49	Onça	_	PROPN	PNOUN	_	47	nmod	_	_
 50	Puma	_	PROPN	PNOUN	_	49	flat	_	_
 51	sobre	_	ADP	ADP	_	52	case	_	_
@@ -146,11 +146,11 @@
 54	em	em	ADP	ADP	_	56	case	_	_
 55	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
 56	região	região	NOUN	NOUN	_	44	nmod	_	SpaceAfter=No
-57	.	_	PUNCT	.	_	10	punct	_	_
+57	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s2068
 # text = As redações serão avaliadas ao término da edição do projeto e, delas, 15 serão premiadas.
-1	As	_	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	_	2	det	_	_
 2	redações	redação	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	serão	ser	AUX	AUX	_	4	aux:pass	_	_
 4	avaliadas	avaliar	VERB	VERB	_	0	root	_	_
@@ -166,14 +166,14 @@
 11	de	de	ADP	ADP	_	13	case	_	_
 12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	projeto	projeto	NOUN	NOUN	_	10	nmod	_	_
-14	e	_	CCONJ	CONJ	_	20	cc	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	16	punct	_	_
+14	e	e	CCONJ	CONJ	_	20	cc	_	SpaceAfter=No
+15	,	,	PUNCT	.	_	16	punct	_	_
 16	delas	_	X	ADPPRON	_	20	nmod	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	16	punct	_	_
+17	,	,	PUNCT	.	_	16	punct	_	_
 18	15	_	NUM	NUM	NumType=Card	20	nsubj:pass	_	_
 19	serão	ser	AUX	AUX	_	20	aux:pass	_	_
 20	premiadas	premiar	VERB	VERB	_	4	conj	_	SpaceAfter=No
-21	.	_	PUNCT	.	_	4	punct	_	_
+21	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s2069
 # text = Questionado se Célio apoiaria o rompimento, Patrus limitou - se a dizer que o ex - prefeito era petista.
@@ -181,28 +181,28 @@
 2	se	_	CCONJ	CONJ	_	4	mark	_	_
 3	Célio	_	PROPN	PNOUN	_	4	nsubj	_	_
 4	apoiaria	apoiar	VERB	VERB	_	1	ccomp	_	_
-5	o	_	DET	DET	_	6	det	_	_
+5	o	o	DET	DET	_	6	det	_	_
 6	rompimento	rompimento	NOUN	NOUN	_	4	obj	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	1	punct	_	_
+7	,	,	PUNCT	.	_	1	punct	_	_
 8	Patrus	_	PROPN	PNOUN	_	9	nsubj	_	_
 9	limitou	limitar	VERB	VERB	_	0	root	_	_
-10	-	_	PUNCT	.	_	9	punct	_	_
+10	-	-	PUNCT	.	_	9	punct	_	_
 11	se	_	PRON	PRON	_	9	obj	_	_
 12	a	_	DET	DET	_	13	mark	_	_
 13	dizer	dizer	VERB	VERB	_	9	nmod	_	_
-14	que	_	CCONJ	CONJ	_	20	mark	_	_
-15	o	_	DET	DET	_	16	det	_	_
+14	que	que	CCONJ	CONJ	_	20	mark	_	_
+15	o	o	DET	DET	_	16	det	_	_
 16	ex	_	PART	PRT	_	20	nsubj	_	_
-17	-	_	PUNCT	.	_	16	punct	_	_
+17	-	-	PUNCT	.	_	16	punct	_	_
 18	prefeito	prefeito	NOUN	NOUN	_	16	flat	_	_
 19	era	_	AUX	AUX	_	20	cop	_	_
 20	petista	petista	NOUN	NOUN	_	13	ccomp	_	SpaceAfter=No
-21	.	_	PUNCT	.	_	9	punct	_	_
+21	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s2070
 # text = Sobre o seu momento no futebol inglês, o brasileiro disse estar muito feliz no Tottenham e afirmou que o pensamento do clube é ficar entre os três primeiros colocados e garantir a classificação direta para a UEFA Champions League da próxima temporada.
 1	Sobre	_	ADP	ADP	_	4	case	_	_
-2	o	_	DET	DET	_	4	det	_	_
+2	o	o	DET	DET	_	4	det	_	_
 3	seu	_	DET	DET	_	4	det:poss	_	_
 4	momento	momento	NOUN	NOUN	_	12	nmod	_	_
 5-6	no	_	_	_	_	_	_	_	_
@@ -210,8 +210,8 @@
 6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	futebol	futebol	NOUN	NOUN	_	4	nmod	_	_
 8	inglês	inglês	ADJ	ADJ	_	7	amod	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	4	punct	_	_
-10	o	_	DET	DET	_	11	det	_	_
+9	,	,	PUNCT	.	_	4	punct	_	_
+10	o	o	DET	DET	_	11	det	_	_
 11	brasileiro	brasileiro	NOUN	NOUN	_	12	nsubj	_	_
 12	disse	dizer	VERB	VERB	_	0	root	_	_
 13	estar	estar	VERB	VERB	_	12	xcomp	_	_
@@ -221,10 +221,10 @@
 16	em	em	ADP	ADP	_	18	case	_	_
 17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	Tottenham	_	PROPN	PNOUN	_	15	nmod	_	_
-19	e	_	CCONJ	CONJ	_	20	cc	_	_
+19	e	e	CCONJ	CONJ	_	20	cc	_	_
 20	afirmou	afirmar	VERB	VERB	_	12	conj	_	_
-21	que	_	CCONJ	CONJ	_	23	mark	_	_
-22	o	_	DET	DET	_	23	det	_	_
+21	que	que	CCONJ	CONJ	_	23	mark	_	_
+22	o	o	DET	DET	_	23	det	_	_
 23	pensamento	pensamento	NOUN	NOUN	_	20	ccomp	_	_
 24-25	do	_	_	_	_	_	_	_	_
 24	de	de	ADP	ADP	_	26	case	_	_
@@ -233,17 +233,17 @@
 27	é	ser	AUX	AUX	_	23	cop	_	_
 28	ficar	ficar	VERB	VERB	_	23	csubj	_	_
 29	entre	_	ADP	ADP	_	33	case	_	_
-30	os	_	DET	DET	_	33	det	_	_
+30	os	o	DET	DET	_	33	det	_	_
 31	três	_	NUM	NUM	NumType=Card	33	nummod	_	_
 32	primeiros	primeiro	ADJ	ADJ	_	33	amod	_	_
 33	colocados	_	NOUN	NOUN	_	28	nmod	_	_
-34	e	_	CCONJ	CONJ	_	35	cc	_	_
+34	e	e	CCONJ	CONJ	_	35	cc	_	_
 35	garantir	garantir	VERB	VERB	_	28	conj	_	_
-36	a	_	DET	DET	_	37	det	_	_
+36	a	a	DET	DET	_	37	det	_	_
 37	classificação	classificação	NOUN	NOUN	_	35	obj	_	_
 38	direta	direto	ADJ	ADJ	_	37	amod	_	_
-39	para	_	ADP	ADP	_	41	case	_	_
-40	a	_	DET	DET	_	41	det	_	_
+39	para	para	ADP	ADP	_	41	case	_	_
+40	a	a	DET	DET	_	41	det	_	_
 41	UEFA	_	PROPN	PNOUN	_	37	nmod	_	_
 42	Champions	_	PROPN	PNOUN	_	41	flat	_	_
 43	League	_	PROPN	PNOUN	_	41	flat	_	_
@@ -252,11 +252,11 @@
 45	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
 46	próxima	próximo	ADJ	ADJ	_	47	amod	_	_
 47	temporada	temporada	NOUN	NOUN	_	41	nmod	_	SpaceAfter=No
-48	.	_	PUNCT	.	_	12	punct	_	_
+48	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = train-s2071
 # text = A maior parte deste esforço vem do mês de janeiro, quando saldo foi de R $ 20,81 bilhões.
-1	A	_	DET	DET	_	3	det	_	_
+1	A	o	DET	DET	_	3	det	_	_
 2	maior	maior	ADJ	ADJ	_	3	amod	_	_
 3	parte	parte	NOUN	NOUN	_	6	nsubj	_	_
 4	deste	_	ADP	ADP	_	5	case	_	_
@@ -266,18 +266,18 @@
 7	de	de	ADP	ADP	_	9	case	_	_
 8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	mês	mês	NOUN	NOUN	_	6	nmod	_	_
-10	de	_	ADP	ADP	_	11	case	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
 11	janeiro	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	15	punct	_	_
+12	,	,	PUNCT	.	_	15	punct	_	_
 13	quando	quando	ADV	ADV	_	15	advmod	_	_
 14	saldo	saldo	NOUN	NOUN	_	15	nsubj	_	_
 15	foi	_	VERB	VERB	_	9	acl:relcl	_	_
-16	de	_	ADP	ADP	_	17	case	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
 17	R	r	NOUN	NOUN	_	15	nmod	_	_
 18	$	_	SYM	SYM	_	17	flat	_	_
 19	20,81	_	NUM	NUM	NumType=Card	20	nummod	_	_
 20	bilhões	_	NUM	NUM	NumType=Card	17	nummod	_	SpaceAfter=No
-21	.	_	PUNCT	.	_	6	punct	_	_
+21	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s2072
 # text = Encomendado pela Rede Bandeirantes, a sondagem mostra empate restrito entre os candidatos José Serra (PSDB) e Fernando Haddad (PT), com 17 % das intenções de voto cada.
@@ -287,38 +287,38 @@
 3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Rede	_	PROPN	PNOUN	_	1	nmod	_	_
 5	Bandeirantes	_	PROPN	PNOUN	_	4	flat	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	1	punct	_	_
-7	a	_	DET	DET	_	8	det	_	_
+6	,	,	PUNCT	.	_	1	punct	_	_
+7	a	a	DET	DET	_	8	det	_	_
 8	sondagem	sondagem	NOUN	NOUN	_	9	nsubj	_	_
 9	mostra	mostrar	VERB	VERB	_	0	root	_	_
 10	empate	empate	NOUN	NOUN	_	9	obj	_	_
 11	restrito	restrito	ADJ	ADJ	_	10	amod	_	_
 12	entre	_	ADP	ADP	_	14	case	_	_
-13	os	_	DET	DET	_	14	det	_	_
+13	os	o	DET	DET	_	14	det	_	_
 14	candidatos	candidato	NOUN	NOUN	_	10	nmod	_	_
 15	José	_	PROPN	PNOUN	_	14	appos	_	_
 16	Serra	_	PROPN	PNOUN	_	15	flat	_	_
-17	(	_	PUNCT	.	_	18	punct	_	SpaceAfter=No
+17	(	(	PUNCT	.	_	18	punct	_	SpaceAfter=No
 18	PSDB	_	PROPN	PNOUN	_	15	appos	_	SpaceAfter=No
-19	)	_	PUNCT	.	_	18	punct	_	_
-20	e	_	CCONJ	CONJ	_	21	cc	_	_
+19	)	)	PUNCT	.	_	18	punct	_	_
+20	e	e	CCONJ	CONJ	_	21	cc	_	_
 21	Fernando	_	PROPN	PNOUN	_	14	conj	_	_
 22	Haddad	_	PROPN	PNOUN	_	21	flat	_	_
-23	(	_	PUNCT	.	_	24	punct	_	SpaceAfter=No
+23	(	(	PUNCT	.	_	24	punct	_	SpaceAfter=No
 24	PT	_	PROPN	PNOUN	_	21	appos	_	SpaceAfter=No
-25	)	_	PUNCT	.	_	24	punct	_	SpaceAfter=No
-26	,	_	PUNCT	.	_	21	punct	_	_
-27	com	_	ADP	ADP	_	29	case	_	_
+25	)	)	PUNCT	.	_	24	punct	_	SpaceAfter=No
+26	,	,	PUNCT	.	_	21	punct	_	_
+27	com	com	ADP	ADP	_	29	case	_	_
 28	17	_	NUM	NUM	NumType=Card	29	nummod	_	_
 29	%	_	SYM	SYM	_	9	nmod	_	_
 30-31	das	_	_	_	_	_	_	_	_
 30	de	de	ADP	ADP	_	32	case	_	_
 31	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
 32	intenções	intenção	NOUN	NOUN	_	29	nmod	_	_
-33	de	_	ADP	ADP	_	34	case	_	_
+33	de	de	ADP	ADP	_	34	case	_	_
 34	voto	voto	NOUN	NOUN	_	32	nmod	_	_
 35	cada	_	DET	DET	_	29	det	_	SpaceAfter=No
-36	.	_	PUNCT	.	_	9	punct	_	_
+36	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s2073
 # text = Todo empresário que quer crescer deve buscar orientação antes de começar a empreender ", avalia.
@@ -335,8 +335,8 @@
 11	começar	começar	AUX	AUX	_	13	aux	_	_
 12	a	_	ADP	ADP	_	13	mark	_	_
 13	empreender	empreender	VERB	VERB	_	7	advcl	_	_
-14	"	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	16	punct	_	_
+14	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
+15	,	,	PUNCT	.	_	16	punct	_	_
 16	avalia	avaliar	VERB	VERB	_	0	root	_	SpaceAfter=No
-17	.	_	PUNCT	.	_	16	punct	_	_
+17	.	.	PUNCT	.	_	16	punct	_	_
 

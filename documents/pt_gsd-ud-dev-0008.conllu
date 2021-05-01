@@ -4,15 +4,15 @@
 2	imediatamente	imediatamente	ADV	ADV	_	3	advmod	_	_
 3	viajou	viajar	VERB	VERB	_	0	root	_	_
 4	novamente	novamente	ADV	ADV	_	3	advmod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	12	punct	_	_
-6	e	_	CCONJ	CONJ	_	12	cc	_	_
+5	,	,	PUNCT	.	_	12	punct	_	_
+6	e	e	CCONJ	CONJ	_	12	cc	_	_
 7	chegando	chegar	VERB	VERB	_	12	acl:part	_	_
-8	em	_	ADP	ADP	_	9	case	_	_
+8	em	em	ADP	ADP	_	9	case	_	_
 9	Paris	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	7	punct	_	_
+10	,	,	PUNCT	.	_	7	punct	_	_
 11	foi	_	AUX	AUX	_	12	aux:pass	_	_
 12	recebido	receber	VERB	VERB	_	3	conj	_	_
-13	de	_	ADP	ADP	_	14	case	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
 14	braços	braço	NOUN	NOUN	_	12	nmod	_	_
 15	abertos	aberto	ADJ	ADJ	_	14	amod	_	_
 16-17	pelos	_	_	_	_	_	_	_	_
@@ -20,7 +20,7 @@
 17	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
 18	eruditos	erudito	NOUN	NOUN	_	12	nmod	_	_
 19	franceses	francês	ADJ	ADJ	_	18	amod	_	SpaceAfter=No
-20	.	_	PUNCT	.	_	3	punct	_	_
+20	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = dev-s72
 # text = Na verdade as reportagens que constam lá me acusam de tecer críticas ao antigo comando, na realidade eu apenas falei em sugestões, apenas dei ideias.
@@ -28,7 +28,7 @@
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	verdade	verdade	NOUN	NOUN	_	10	nmod	_	_
-4	as	_	DET	DET	_	5	det	_	_
+4	as	o	DET	DET	_	5	det	_	_
 5	reportagens	reportagem	NOUN	NOUN	_	10	nsubj	_	_
 6	que	_	PRON	PRON	_	7	nsubj	_	_
 7	constam	constar	VERB	VERB	_	5	acl:relcl	_	_
@@ -43,7 +43,7 @@
 15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 16	antigo	antigo	ADJ	ADJ	_	17	amod	_	_
 17	comando	comando	NOUN	NOUN	_	12	iobj	_	SpaceAfter=No
-18	,	_	PUNCT	.	_	24	punct	_	_
+18	,	,	PUNCT	.	_	24	punct	_	_
 19-20	na	_	_	_	_	_	_	_	_
 19	em	em	ADP	ADP	_	21	case	_	_
 20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
@@ -51,13 +51,13 @@
 22	eu	_	PRON	PRON	_	24	nsubj	_	_
 23	apenas	apenas	ADV	ADV	_	24	advmod	_	_
 24	falei	falar	VERB	VERB	_	10	parataxis	_	_
-25	em	_	ADP	ADP	_	26	case	_	_
+25	em	em	ADP	ADP	_	26	case	_	_
 26	sugestões	sugestão	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
-27	,	_	PUNCT	.	_	29	punct	_	_
+27	,	,	PUNCT	.	_	29	punct	_	_
 28	apenas	apenas	ADV	ADV	_	29	advmod	_	_
 29	dei	dar	VERB	VERB	_	24	conj	_	_
 30	ideias	ideia	NOUN	NOUN	_	29	obj	_	SpaceAfter=No
-31	.	_	PUNCT	.	_	10	punct	_	_
+31	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = dev-s73
 # text = Já no dia 16 de junho foi realizada a final do Campeonato na linha 95, e teve presença maciça da população que prestigiou as competições, em que o time das Pantaneiras se classificaram em 1 º Lugar na categoria feminina, em 2 ª lugar Porto Murtinho, em 3 º Bandeirantes e em 4 º, Estrela de Ouro.
@@ -67,11 +67,11 @@
 3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	dia	dia	NOUN	NOUN	_	9	nmod	_	_
 5	16	_	NUM	NUM	NumType=Card	4	nmod	_	_
-6	de	_	ADP	ADP	_	7	case	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
 7	junho	_	PROPN	PNOUN	_	5	nmod	_	_
 8	foi	_	AUX	AUX	_	9	aux:pass	_	_
 9	realizada	realizar	VERB	VERB	_	0	root	_	_
-10	a	_	DET	DET	_	11	det	_	_
+10	a	a	DET	DET	_	11	det	_	_
 11	final	final	NOUN	NOUN	_	9	nsubj:pass	_	_
 12-13	do	_	_	_	_	_	_	_	_
 12	de	de	ADP	ADP	_	14	case	_	_
@@ -82,8 +82,8 @@
 16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	linha	_	NOUN	NOUN	_	9	nmod	_	_
 18	95	_	NUM	NUM	NumType=Card	17	appos	_	SpaceAfter=No
-19	,	_	PUNCT	.	_	21	punct	_	_
-20	e	_	CCONJ	CONJ	_	21	cc	_	_
+19	,	,	PUNCT	.	_	21	punct	_	_
+20	e	e	CCONJ	CONJ	_	21	cc	_	_
 21	teve	ter	VERB	VERB	_	9	conj	_	_
 22	presença	presença	NOUN	NOUN	_	21	obj	_	_
 23	maciça	maciço	ADJ	ADJ	_	22	amod	_	_
@@ -93,12 +93,12 @@
 26	população	população	NOUN	NOUN	_	22	nmod	_	_
 27	que	_	PRON	PRON	_	28	nsubj	_	_
 28	prestigiou	prestigiar	VERB	VERB	_	26	acl:relcl	_	_
-29	as	_	DET	DET	_	30	det	_	_
+29	as	o	DET	DET	_	30	det	_	_
 30	competições	competição	NOUN	NOUN	_	28	obj	_	SpaceAfter=No
-31	,	_	PUNCT	.	_	40	punct	_	_
-32	em	_	ADP	ADP	_	33	case	_	_
+31	,	,	PUNCT	.	_	40	punct	_	_
+32	em	em	ADP	ADP	_	33	case	_	_
 33	que	_	PRON	PRON	_	40	nmod	_	_
-34	o	_	DET	DET	_	35	det	_	_
+34	o	o	DET	DET	_	35	det	_	_
 35	time	time	NOUN	NOUN	_	40	nsubj	_	_
 36-37	das	_	_	_	_	_	_	_	_
 36	de	de	ADP	ADP	_	38	case	_	_
@@ -106,7 +106,7 @@
 38	Pantaneiras	_	PROPN	PNOUN	_	35	nmod	_	_
 39	se	_	PRON	PRON	_	40	obj	_	_
 40	classificaram	classificar	VERB	VERB	_	30	acl:relcl	_	_
-41	em	_	ADP	ADP	_	44	case	_	_
+41	em	em	ADP	ADP	_	44	case	_	_
 42	1	_	ADJ	ADJ	_	44	amod	_	_
 43	º	_	PUNCT	.	_	42	punct	_	_
 44	Lugar	_	PROPN	PNOUN	_	40	nmod	_	_
@@ -115,27 +115,27 @@
 46	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
 47	categoria	categoria	NOUN	NOUN	_	44	nmod	_	_
 48	feminina	feminino	ADJ	ADJ	_	47	amod	_	SpaceAfter=No
-49	,	_	PUNCT	.	_	53	punct	_	_
-50	em	_	ADP	ADP	_	53	case	_	_
+49	,	,	PUNCT	.	_	53	punct	_	_
+50	em	em	ADP	ADP	_	53	case	_	_
 51	2	_	ADJ	ADJ	_	53	amod	_	_
 52	ª	_	PUNCT	.	_	51	punct	_	_
 53	lugar	lugar	NOUN	NOUN	_	44	conj	_	_
 54	Porto	_	PROPN	PNOUN	_	53	appos	_	_
 55	Murtinho	_	PROPN	PNOUN	_	54	flat	_	SpaceAfter=No
-56	,	_	PUNCT	.	_	44	punct	_	_
-57	em	_	ADP	ADP	_	58	case	_	_
+56	,	,	PUNCT	.	_	44	punct	_	_
+57	em	em	ADP	ADP	_	58	case	_	_
 58	3	_	NOUN	NOUN	_	44	nmod	_	_
 59	º	_	PUNCT	.	_	58	punct	_	_
 60	Bandeirantes	_	PROPN	PNOUN	_	58	appos	_	_
-61	e	_	CCONJ	CONJ	_	63	cc	_	_
-62	em	_	ADP	ADP	_	63	case	_	_
+61	e	e	CCONJ	CONJ	_	63	cc	_	_
+62	em	em	ADP	ADP	_	63	case	_	_
 63	4	_	NOUN	NOUN	_	58	conj	_	_
 64	º	_	PUNCT	.	_	63	punct	_	SpaceAfter=No
-65	,	_	PUNCT	.	_	63	punct	_	_
+65	,	,	PUNCT	.	_	63	punct	_	_
 66	Estrela	_	PROPN	PNOUN	_	63	appos	_	_
-67	de	_	ADP	ADP	_	68	case	_	_
+67	de	de	ADP	ADP	_	68	case	_	_
 68	Ouro	_	PROPN	PNOUN	_	66	nmod	_	SpaceAfter=No
-69	.	_	PUNCT	.	_	40	punct	_	_
+69	.	.	PUNCT	.	_	40	punct	_	_
 
 # sent_id = dev-s74
 # text = Neste momento da entrevista, José Roberto interrompeu e comentou o assunto, colocando a mão no braço da líbero e dizendo: "as mais velhas sabem lidar melhor com isso, mas é difícil porque aqui corre sangue".
@@ -145,17 +145,17 @@
 3	de	de	ADP	ADP	_	5	case	_	_
 4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	entrevista	entrevista	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	2	punct	_	_
+6	,	,	PUNCT	.	_	2	punct	_	_
 7	José	_	PROPN	PNOUN	_	9	nsubj	_	_
 8	Roberto	_	PROPN	PNOUN	_	7	flat	_	_
 9	interrompeu	interromper	VERB	VERB	_	0	root	_	_
-10	e	_	CCONJ	CONJ	_	11	cc	_	_
+10	e	e	CCONJ	CONJ	_	11	cc	_	_
 11	comentou	comentar	VERB	VERB	_	9	conj	_	_
-12	o	_	DET	DET	_	13	det	_	_
+12	o	o	DET	DET	_	13	det	_	_
 13	assunto	assunto	NOUN	NOUN	_	11	obj	_	SpaceAfter=No
-14	,	_	PUNCT	.	_	15	punct	_	_
+14	,	,	PUNCT	.	_	15	punct	_	_
 15	colocando	colocar	VERB	VERB	_	9	acl:part	_	_
-16	a	_	DET	DET	_	17	det	_	_
+16	a	a	DET	DET	_	17	det	_	_
 17	mão	mão	NOUN	NOUN	_	15	obj	_	_
 18-19	no	_	_	_	_	_	_	_	_
 18	em	em	ADP	ADP	_	20	case	_	_
@@ -165,19 +165,19 @@
 21	de	de	ADP	ADP	_	23	case	_	_
 22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	líbero	líbero	NOUN	NOUN	_	20	nmod	_	_
-24	e	_	CCONJ	CONJ	_	25	cc	_	_
+24	e	e	CCONJ	CONJ	_	25	cc	_	_
 25	dizendo	dizer	VERB	VERB	_	15	conj	_	SpaceAfter=No
-26	:	_	PUNCT	.	_	25	punct	_	_
-27	"	_	PUNCT	.	_	31	punct	_	SpaceAfter=No
-28	as	_	DET	DET	_	30	det	_	_
+26	:	:	PUNCT	.	_	25	punct	_	_
+27	"	"	PUNCT	.	_	31	punct	_	SpaceAfter=No
+28	as	o	DET	DET	_	30	det	_	_
 29	mais	_	DET	DET	_	30	det	_	_
 30	velhas	velho	NOUN	NOUN	_	31	nsubj	_	_
 31	sabem	saber	VERB	VERB	_	25	ccomp	_	_
 32	lidar	lidar	VERB	VERB	_	31	xcomp	_	_
 33	melhor	melhor	ADV	ADV	_	32	advmod	_	_
-34	com	_	ADP	ADP	_	35	case	_	_
+34	com	com	ADP	ADP	_	35	case	_	_
 35	isso	_	PRON	PRON	_	32	nmod	_	SpaceAfter=No
-36	,	_	PUNCT	.	_	38	punct	_	_
+36	,	,	PUNCT	.	_	38	punct	_	_
 37	mas	_	CCONJ	CONJ	_	38	cc	_	_
 38	é	ser	VERB	VERB	_	31	conj	_	_
 39	difícil	difícil	ADJ	ADJ	_	38	xcomp:adj	_	_
@@ -185,8 +185,8 @@
 41	aqui	aqui	ADV	ADV	_	42	advmod	_	_
 42	corre	correr	VERB	VERB	_	38	advcl	_	_
 43	sangue	sangue	NOUN	NOUN	_	42	nsubj	_	SpaceAfter=No
-44	"	_	PUNCT	.	_	31	punct	_	SpaceAfter=No
-45	.	_	PUNCT	.	_	9	punct	_	_
+44	"	"	PUNCT	.	_	31	punct	_	SpaceAfter=No
+45	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = dev-s75
 # text = Com base no acúmulo de experiência com o software CACIC, aos pouco o conceito de software público foi se desenvolvendo e diferenciando do conceito de software livre.
@@ -196,73 +196,73 @@
 3	em	em	ADP	ADP	_	5	case	_	_
 4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	acúmulo	acúmulo	NOUN	NOUN	_	2	nmod	_	_
-6	de	_	ADP	ADP	_	7	case	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
 7	experiência	experiência	NOUN	NOUN	_	5	nmod	_	_
-8	com	_	ADP	ADP	_	10	case	_	_
-9	o	_	DET	DET	_	10	det	_	_
+8	com	com	ADP	ADP	_	10	case	_	_
+9	o	o	DET	DET	_	10	det	_	_
 10	software	software	NOUN	NOUN	_	7	nmod	_	_
 11	CACIC	_	PROPN	PNOUN	_	10	appos	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	2	punct	_	_
+12	,	,	PUNCT	.	_	2	punct	_	_
 13-14	aos	_	_	_	_	_	_	_	_
 13	a	a	ADP	ADP	_	15	case	_	_
 14	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
 15	pouco	pouco	ADV	ADV	_	23	nmod	_	_
-16	o	_	DET	DET	_	17	det	_	_
+16	o	o	DET	DET	_	17	det	_	_
 17	conceito	conceito	NOUN	NOUN	_	23	nsubj	_	_
-18	de	_	ADP	ADP	_	19	case	_	_
+18	de	de	ADP	ADP	_	19	case	_	_
 19	software	software	NOUN	NOUN	_	17	nmod	_	_
 20	público	público	ADJ	ADJ	_	19	amod	_	_
 21	foi	_	AUX	AUX	_	23	aux	_	_
 22	se	_	PART	PRT	_	23	expl:pv	_	_
 23	desenvolvendo	desenvolver	VERB	VERB	_	0	root	_	_
-24	e	_	CCONJ	CONJ	_	25	cc	_	_
+24	e	e	CCONJ	CONJ	_	25	cc	_	_
 25	diferenciando	diferenciar	VERB	VERB	_	23	conj	_	_
 26-27	do	_	_	_	_	_	_	_	_
 26	de	de	ADP	ADP	_	28	case	_	_
 27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	conceito	conceito	NOUN	NOUN	_	25	nmod	_	_
-29	de	_	ADP	ADP	_	30	case	_	_
+29	de	de	ADP	ADP	_	30	case	_	_
 30	software	software	NOUN	NOUN	_	28	nmod	_	_
 31	livre	livre	ADJ	ADJ	_	30	amod	_	SpaceAfter=No
-32	.	_	PUNCT	.	_	23	punct	_	_
+32	.	.	PUNCT	.	_	23	punct	_	_
 
 # sent_id = dev-s76
 # text = Tivemos um primeiro tempo equilibrado e na segunda etapa sabíamos que poderíamos ter uma única chance e fomos felizes.
 1	Tivemos	ter	VERB	VERB	_	0	root	_	_
-2	um	_	DET	DET	_	4	det	_	_
+2	um	um	DET	DET	_	4	det	_	_
 3	primeiro	primeiro	ADJ	ADJ	_	4	amod	_	_
 4	tempo	tempo	NOUN	NOUN	_	1	obj	_	_
 5	equilibrado	equilibrado	ADJ	ADJ	_	4	amod	_	_
-6	e	_	CCONJ	CONJ	_	11	cc	_	_
+6	e	e	CCONJ	CONJ	_	11	cc	_	_
 7-8	na	_	_	_	_	_	_	_	_
 7	em	em	ADP	ADP	_	10	case	_	_
 8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 9	segunda	segundo	ADJ	ADJ	_	10	amod	_	_
 10	etapa	etapa	NOUN	NOUN	_	11	nmod	_	_
 11	sabíamos	saber	VERB	VERB	_	1	conj	_	_
-12	que	_	CCONJ	CONJ	_	14	mark	_	_
+12	que	que	CCONJ	CONJ	_	14	mark	_	_
 13	poderíamos	poder	AUX	AUX	_	14	aux	_	_
 14	ter	ter	VERB	VERB	_	11	ccomp	_	_
-15	uma	_	DET	DET	_	17	det	_	_
+15	uma	um	DET	DET	_	17	det	_	_
 16	única	único	ADJ	ADJ	_	17	amod	_	_
 17	chance	chance	NOUN	NOUN	_	14	obj	_	_
-18	e	_	CCONJ	CONJ	_	19	cc	_	_
+18	e	e	CCONJ	CONJ	_	19	cc	_	_
 19	fomos	_	VERB	VERB	_	11	conj	_	_
 20	felizes	feliz	ADJ	ADJ	_	19	xcomp:adj	_	SpaceAfter=No
-21	.	_	PUNCT	.	_	1	punct	_	_
+21	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = dev-s77
 # text = Trabalha e cumpre horário, como se não fosse o ungido pelo governador para ser conselheiro do TCE.
 1	Trabalha	trabalhar	VERB	VERB	_	0	root	_	_
-2	e	_	CCONJ	CONJ	_	3	cc	_	_
+2	e	e	CCONJ	CONJ	_	3	cc	_	_
 3	cumpre	cumprir	VERB	VERB	_	1	conj	_	_
 4	horário	horário	NOUN	NOUN	_	3	obj	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	11	punct	_	_
+5	,	,	PUNCT	.	_	11	punct	_	_
 6	como	_	CCONJ	CONJ	_	11	mark	_	_
 7	se	_	CCONJ	CONJ	_	6	fixed	_	_
 8	não	não	ADV	ADV	Polarity=Neg	11	advmod	_	_
 9	fosse	_	AUX	AUX	_	11	cop	_	_
-10	o	_	DET	DET	_	11	det	_	_
+10	o	o	DET	DET	_	11	det	_	_
 11	ungido	ungido	NOUN	NOUN	_	1	advcl	_	_
 12-13	pelo	_	_	_	_	_	_	_	_
 12	por	por	ADP	ADP	_	14	case	_	_
@@ -275,7 +275,7 @@
 18	de	de	ADP	ADP	_	20	case	_	_
 19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	TCE	_	PROPN	PNOUN	_	17	nmod	_	SpaceAfter=No
-21	.	_	PUNCT	.	_	11	punct	_	_
+21	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = dev-s78
 # text = Inserida nas festividades alusivas aos 120 anos de fundação de Aquidauana, a 7 ª edição da Festa da Sopa Paraguaia começa hoje no Clube Arpa (Associação Recreativa Paraguaia de Aquidauana), prometendo repetir o sucesso de público das outras edições.
@@ -290,12 +290,12 @@
 7	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
 8	120	_	NUM	NUM	NumType=Card	9	nummod	_	_
 9	anos	ano	NOUN	NOUN	_	5	nmod	_	_
-10	de	_	ADP	ADP	_	11	case	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
 11	fundação	fundação	NOUN	NOUN	_	9	nmod	_	_
-12	de	_	ADP	ADP	_	13	case	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
 13	Aquidauana	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
-14	,	_	PUNCT	.	_	1	punct	_	_
-15	a	_	DET	DET	_	18	det	_	_
+14	,	,	PUNCT	.	_	1	punct	_	_
+15	a	a	DET	DET	_	18	det	_	_
 16	7	_	ADJ	ADJ	_	18	amod	_	_
 17	ª	_	PUNCT	.	_	16	punct	_	_
 18	edição	edição	NOUN	NOUN	_	26	nsubj	_	_
@@ -315,54 +315,54 @@
 29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	Clube	_	PROPN	PNOUN	_	26	nmod	_	_
 31	Arpa	_	PROPN	PNOUN	_	30	flat	_	_
-32	(	_	PUNCT	.	_	33	punct	_	SpaceAfter=No
+32	(	(	PUNCT	.	_	33	punct	_	SpaceAfter=No
 33	Associação	_	PROPN	PNOUN	_	30	appos	_	_
 34	Recreativa	_	PROPN	PNOUN	_	33	amod	_	_
 35	Paraguaia	_	PROPN	PNOUN	_	33	amod	_	_
-36	de	_	ADP	ADP	_	37	case	_	_
+36	de	de	ADP	ADP	_	37	case	_	_
 37	Aquidauana	_	PROPN	PNOUN	_	33	nmod	_	SpaceAfter=No
-38	)	_	PUNCT	.	_	33	punct	_	SpaceAfter=No
-39	,	_	PUNCT	.	_	26	punct	_	_
+38	)	)	PUNCT	.	_	33	punct	_	SpaceAfter=No
+39	,	,	PUNCT	.	_	26	punct	_	_
 40	prometendo	prometer	VERB	VERB	_	26	acl:part	_	_
 41	repetir	repetir	VERB	VERB	_	40	xcomp	_	_
-42	o	_	DET	DET	_	43	det	_	_
+42	o	o	DET	DET	_	43	det	_	_
 43	sucesso	sucesso	NOUN	NOUN	_	41	obj	_	_
-44	de	_	ADP	ADP	_	45	case	_	_
+44	de	de	ADP	ADP	_	45	case	_	_
 45	público	público	NOUN	NOUN	_	43	nmod	_	_
 46-47	das	_	_	_	_	_	_	_	_
 46	de	de	ADP	ADP	_	49	case	_	_
 47	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	49	det	_	_
 48	outras	_	DET	DET	_	49	det	_	_
 49	edições	edição	NOUN	NOUN	_	43	nmod	_	SpaceAfter=No
-50	.	_	PUNCT	.	_	26	punct	_	_
+50	.	.	PUNCT	.	_	26	punct	_	_
 
 # sent_id = dev-s79
 # text = Foi um grande jogador, mas o que ganhou como técnico?"
 1	Foi	_	AUX	AUX	_	4	cop	_	_
-2	um	_	DET	DET	_	4	det	_	_
+2	um	um	DET	DET	_	4	det	_	_
 3	grande	grande	ADJ	ADJ	_	4	amod	_	_
 4	jogador	jogador	NOUN	NOUN	_	0	root	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	9	punct	_	_
+5	,	,	PUNCT	.	_	9	punct	_	_
 6	mas	_	CCONJ	CONJ	_	9	cc	_	_
-7	o	_	DET	DET	_	8	det	_	_
+7	o	o	DET	DET	_	8	det	_	_
 8	que	_	PRON	PRON	_	9	nsubj	_	_
 9	ganhou	ganhar	VERB	VERB	_	4	conj	_	_
-10	como	_	ADP	ADP	_	11	case	_	_
+10	como	como	ADP	ADP	_	11	case	_	_
 11	técnico	técnico	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
-12	?	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
-13	"	_	PUNCT	.	_	4	punct	_	_
+12	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+13	"	"	PUNCT	.	_	4	punct	_	_
 
 # sent_id = dev-s80
 # text = Com menor índice, Piauí, Santa Catarina e Alagoas.
 1	Com	_	ADP	ADP	_	3	case	_	_
 2	menor	menor	ADJ	ADJ	_	3	amod	_	_
 3	índice	índice	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
 5	Piauí	_	PROPN	PNOUN	_	0	root	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	7	punct	_	_
+6	,	,	PUNCT	.	_	7	punct	_	_
 7	Santa	_	PROPN	PNOUN	_	5	conj	_	_
 8	Catarina	_	PROPN	PNOUN	_	7	flat	_	_
-9	e	_	CCONJ	CONJ	_	10	cc	_	_
+9	e	e	CCONJ	CONJ	_	10	cc	_	_
 10	Alagoas	_	PROPN	PNOUN	_	5	conj	_	SpaceAfter=No
-11	.	_	PUNCT	.	_	5	punct	_	_
+11	.	.	PUNCT	.	_	5	punct	_	_
 

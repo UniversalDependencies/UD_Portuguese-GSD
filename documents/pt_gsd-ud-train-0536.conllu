@@ -2,7 +2,7 @@
 # text = Conseguimos arrumar e nas últimas voltas das especiais conseguimos alcançar o terceiro lugar.
 1	Conseguimos	conseguir	VERB	VERB	_	0	root	_	_
 2	arrumar	arrumar	VERB	VERB	_	1	xcomp	_	_
-3	e	_	CCONJ	CONJ	_	11	cc	_	_
+3	e	e	CCONJ	CONJ	_	11	cc	_	_
 4-5	nas	_	_	_	_	_	_	_	_
 4	em	em	ADP	ADP	_	7	case	_	_
 5	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
@@ -14,14 +14,14 @@
 10	especiais	_	NOUN	NOUN	_	7	nmod	_	_
 11	conseguimos	conseguir	VERB	VERB	_	1	conj	_	_
 12	alcançar	alcançar	VERB	VERB	_	11	xcomp	_	_
-13	o	_	DET	DET	_	15	det	_	_
+13	o	o	DET	DET	_	15	det	_	_
 14	terceiro	_	ADJ	ADJ	_	15	amod	_	_
 15	lugar	lugar	NOUN	NOUN	_	12	obj	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	1	punct	_	_
+16	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s5320
 # text = O título é concedido pela Organização das Nações Unidas para a Educação, a Ciência e a Cultura (Unesco).
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	título	título	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	é	ser	AUX	AUX	_	4	aux:pass	_	_
 4	concedido	conceder	VERB	VERB	_	0	root	_	_
@@ -34,57 +34,57 @@
 9	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
 10	Nações	_	PROPN	PNOUN	_	7	nmod	_	_
 11	Unidas	_	PROPN	PNOUN	_	10	amod	_	_
-12	para	_	ADP	ADP	_	14	case	_	_
-13	a	_	DET	DET	_	14	det	_	_
+12	para	para	ADP	ADP	_	14	case	_	_
+13	a	a	DET	DET	_	14	det	_	_
 14	Educação	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	17	punct	_	_
-16	a	_	DET	DET	_	17	det	_	_
+15	,	,	PUNCT	.	_	17	punct	_	_
+16	a	a	DET	DET	_	17	det	_	_
 17	Ciência	_	PROPN	PNOUN	_	14	conj	_	_
 18	e	e	CCONJ	CONJ	_	20	cc	_	_
 19	a	o	DET	DET	_	20	det	_	_
 20	Cultura	_	PROPN	PNOUN	_	14	conj	_	_
-21	(	_	PUNCT	.	_	22	punct	_	SpaceAfter=No
+21	(	(	PUNCT	.	_	22	punct	_	SpaceAfter=No
 22	Unesco	_	PROPN	PNOUN	_	7	appos	_	SpaceAfter=No
-23	)	_	PUNCT	.	_	22	punct	_	SpaceAfter=No
-24	.	_	PUNCT	.	_	4	punct	_	_
+23	)	)	PUNCT	.	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s5321
 # text = Num futuro próximo, cloud computing vai perder o 'computing' e cloud será o modelo padrão do mercado ", acredita.
 1-2	Num	_	_	_	_	_	_	_	_
-1	Em	_	ADP	ADP	_	3	case	_	_
-2	um	_	DET	DET	_	3	det	_	_
+1	Em	em	ADP	ADP	_	3	case	_	_
+2	um	um	DET	DET	_	3	det	_	_
 3	futuro	futuro	NOUN	NOUN	_	9	nmod	_	_
 4	próximo	próximo	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	3	punct	_	_
+5	,	,	PUNCT	.	_	3	punct	_	_
 6	cloud	_	NOUN	NOUN	_	9	nsubj	_	_
 7	computing	_	NOUN	NOUN	_	6	flat	_	_
 8	vai	ir	AUX	AUX	_	9	aux	_	_
 9	perder	perder	VERB	VERB	_	25	ccomp	_	_
-10	o	_	DET	DET	_	12	det	_	_
+10	o	o	DET	DET	_	12	det	_	_
 11	'	_	PUNCT	.	_	12	punct	_	SpaceAfter=No
 12	computing	_	NOUN	NOUN	_	9	obj	_	SpaceAfter=No
 13	'	_	PUNCT	.	_	12	punct	_	_
-14	e	_	CCONJ	CONJ	_	18	cc	_	_
+14	e	e	CCONJ	CONJ	_	18	cc	_	_
 15	cloud	_	NOUN	NOUN	_	18	nsubj	_	_
 16	será	ser	AUX	AUX	_	18	cop	_	_
-17	o	_	DET	DET	_	18	det	_	_
+17	o	o	DET	DET	_	18	det	_	_
 18	modelo	modelo	NOUN	NOUN	_	9	conj	_	_
 19	padrão	padrão	NOUN	NOUN	_	18	flat	_	_
 20-21	do	_	_	_	_	_	_	_	_
 20	de	de	ADP	ADP	_	22	case	_	_
 21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	mercado	mercado	NOUN	NOUN	_	18	nmod	_	_
-23	"	_	PUNCT	.	_	9	punct	_	SpaceAfter=No
-24	,	_	PUNCT	.	_	25	punct	_	_
+23	"	"	PUNCT	.	_	9	punct	_	SpaceAfter=No
+24	,	,	PUNCT	.	_	25	punct	_	_
 25	acredita	acreditar	VERB	VERB	_	0	root	_	SpaceAfter=No
-26	.	_	PUNCT	.	_	25	punct	_	_
+26	.	.	PUNCT	.	_	25	punct	_	_
 
 # sent_id = train-s5322
 # text = A Seleção Portuguesa de Futsal é da responsabilidade da Federação Portuguesa de Futebol.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	Seleção	_	PROPN	PNOUN	_	6	nsubj	_	_
 3	Portuguesa	_	PROPN	PNOUN	_	2	amod	_	_
-4	de	_	ADP	ADP	_	5	case	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
 5	Futsal	_	PROPN	PNOUN	_	2	nmod	_	_
 6	é	ser	VERB	VERB	_	0	root	_	_
 7-8	da	_	_	_	_	_	_	_	_
@@ -96,19 +96,19 @@
 11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	Federação	_	PROPN	PNOUN	_	9	nmod	_	_
 13	Portuguesa	_	PROPN	PNOUN	_	12	amod	_	_
-14	de	_	ADP	ADP	_	15	case	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
 15	Futebol	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	6	punct	_	_
+16	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s5323
 # text = EO NUMERO?
 1	EO	_	CCONJ	CONJ	_	2	cc	_	_
 2	NUMERO	_	NOUN	NOUN	_	0	root	_	SpaceAfter=No
-3	?	_	PUNCT	.	_	2	punct	_	_
+3	?	?	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s5324
 # text = A Biblioteca Pública do Paraná é uma instituição cultural situada em Curitiba e mantida pelo governo do Paraná, que tem em seu acervo mais de 470 mil livros, inclusive em braille, além de jornais, revistas, mapas, partituras musicais, manuscritos, discos de vinil, compact discs (CD), vídeos, fitas cassetes, diafilmes e slides, entre outras mídias.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	Biblioteca	_	PROPN	PNOUN	_	9	nsubj	_	_
 3	Pública	_	PROPN	PNOUN	_	2	amod	_	_
 4-5	do	_	_	_	_	_	_	_	_
@@ -116,13 +116,13 @@
 5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Paraná	_	PROPN	PNOUN	_	2	nmod	_	_
 7	é	ser	AUX	AUX	_	9	cop	_	_
-8	uma	_	DET	DET	_	9	det	_	_
+8	uma	um	DET	DET	_	9	det	_	_
 9	instituição	instituição	NOUN	NOUN	_	0	root	_	_
 10	cultural	cultural	ADJ	ADJ	_	9	amod	_	_
 11	situada	situar	VERB	VERB	_	9	acl:part	_	_
-12	em	_	ADP	ADP	_	13	case	_	_
+12	em	em	ADP	ADP	_	13	case	_	_
 13	Curitiba	_	PROPN	PNOUN	_	11	nmod	_	_
-14	e	_	CCONJ	CONJ	_	15	cc	_	_
+14	e	e	CCONJ	CONJ	_	15	cc	_	_
 15	mantida	manter	VERB	VERB	_	11	conj	_	_
 16-17	pelo	_	_	_	_	_	_	_	_
 16	por	por	ADP	ADP	_	18	case	_	_
@@ -132,90 +132,90 @@
 19	de	de	ADP	ADP	_	21	case	_	_
 20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	Paraná	_	PROPN	PNOUN	_	18	nmod	_	SpaceAfter=No
-22	,	_	PUNCT	.	_	24	punct	_	_
+22	,	,	PUNCT	.	_	24	punct	_	_
 23	que	_	PRON	PRON	_	24	nsubj	_	_
 24	tem	ter	VERB	VERB	_	9	acl:relcl	_	_
-25	em	_	ADP	ADP	_	27	case	_	_
+25	em	em	ADP	ADP	_	27	case	_	_
 26	seu	_	DET	DET	_	27	det:poss	_	_
 27	acervo	acervo	NOUN	NOUN	_	24	nmod	_	_
 28	mais	mais	ADV	ADV	_	31	advmod	_	_
-29	de	_	ADP	ADP	_	28	case	_	_
+29	de	de	ADP	ADP	_	28	case	_	_
 30	470	_	NUM	NUM	NumType=Card	31	nummod	_	_
 31	mil	_	NUM	NUM	NumType=Card	32	nummod	_	_
 32	livros	livro	NOUN	NOUN	_	24	obj	_	SpaceAfter=No
-33	,	_	PUNCT	.	_	34	punct	_	_
+33	,	,	PUNCT	.	_	34	punct	_	_
 34	inclusive	inclusive	ADV	ADV	_	32	advmod	_	_
-35	em	_	ADP	ADP	_	36	case	_	_
+35	em	em	ADP	ADP	_	36	case	_	_
 36	braille	_	NOUN	NOUN	_	34	nmod	_	SpaceAfter=No
-37	,	_	PUNCT	.	_	38	punct	_	_
+37	,	,	PUNCT	.	_	38	punct	_	_
 38	além	além	ADV	ADV	_	24	advmod	_	_
-39	de	_	ADP	ADP	_	40	case	_	_
+39	de	de	ADP	ADP	_	40	case	_	_
 40	jornais	jornal	NOUN	NOUN	_	38	nmod	_	SpaceAfter=No
-41	,	_	PUNCT	.	_	42	punct	_	_
+41	,	,	PUNCT	.	_	42	punct	_	_
 42	revistas	revista	NOUN	NOUN	_	40	conj	_	SpaceAfter=No
-43	,	_	PUNCT	.	_	44	punct	_	_
+43	,	,	PUNCT	.	_	44	punct	_	_
 44	mapas	mapa	NOUN	NOUN	_	40	conj	_	SpaceAfter=No
-45	,	_	PUNCT	.	_	46	punct	_	_
+45	,	,	PUNCT	.	_	46	punct	_	_
 46	partituras	partitura	NOUN	NOUN	_	40	conj	_	_
 47	musicais	musical	ADJ	ADJ	_	46	amod	_	SpaceAfter=No
-48	,	_	PUNCT	.	_	49	punct	_	_
+48	,	,	PUNCT	.	_	49	punct	_	_
 49	manuscritos	manuscrito	NOUN	NOUN	_	40	conj	_	SpaceAfter=No
-50	,	_	PUNCT	.	_	51	punct	_	_
+50	,	,	PUNCT	.	_	51	punct	_	_
 51	discos	disco	NOUN	NOUN	_	40	conj	_	_
-52	de	_	ADP	ADP	_	53	case	_	_
+52	de	de	ADP	ADP	_	53	case	_	_
 53	vinil	vinil	NOUN	NOUN	_	51	nmod	_	SpaceAfter=No
-54	,	_	PUNCT	.	_	56	punct	_	_
+54	,	,	PUNCT	.	_	56	punct	_	_
 55	compact	_	ADJ	ADJ	_	56	amod	_	_
 56	discs	_	NOUN	NOUN	_	40	conj	_	_
-57	(	_	PUNCT	.	_	58	punct	_	SpaceAfter=No
+57	(	(	PUNCT	.	_	58	punct	_	SpaceAfter=No
 58	CD	_	NOUN	NOUN	_	56	appos	_	SpaceAfter=No
-59	)	_	PUNCT	.	_	58	punct	_	SpaceAfter=No
-60	,	_	PUNCT	.	_	61	punct	_	_
+59	)	)	PUNCT	.	_	58	punct	_	SpaceAfter=No
+60	,	,	PUNCT	.	_	61	punct	_	_
 61	vídeos	vídeo	NOUN	NOUN	_	40	conj	_	SpaceAfter=No
-62	,	_	PUNCT	.	_	63	punct	_	_
+62	,	,	PUNCT	.	_	63	punct	_	_
 63	fitas	fita	NOUN	NOUN	_	40	conj	_	_
 64	cassetes	cassete	NOUN	NOUN	_	63	flat	_	SpaceAfter=No
-65	,	_	PUNCT	.	_	66	punct	_	_
+65	,	,	PUNCT	.	_	66	punct	_	_
 66	diafilmes	_	NOUN	NOUN	_	40	conj	_	_
-67	e	_	CCONJ	CONJ	_	68	cc	_	_
+67	e	e	CCONJ	CONJ	_	68	cc	_	_
 68	slides	slide	NOUN	NOUN	_	40	conj	_	SpaceAfter=No
-69	,	_	PUNCT	.	_	72	punct	_	_
+69	,	,	PUNCT	.	_	72	punct	_	_
 70	entre	_	ADP	ADP	_	72	case	_	_
 71	outras	_	DET	DET	_	72	det	_	_
 72	mídias	mídia	NOUN	NOUN	_	40	nmod	_	SpaceAfter=No
-73	.	_	PUNCT	.	_	9	punct	_	_
+73	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s5325
 # text = Há uma tendência em apoiar o PT onde a disputa é com o PSDB, exceto em raras ocasiões em que existem alianças históricas consolidadas com o PSDB.
 1	Há	haver	VERB	VERB	_	0	root	_	_
-2	uma	_	DET	DET	_	3	det	_	_
+2	uma	um	DET	DET	_	3	det	_	_
 3	tendência	tendência	NOUN	NOUN	_	1	obj	_	_
 4	em	_	ADP	ADP	_	5	mark	_	_
 5	apoiar	apoiar	VERB	VERB	_	3	nmod	_	_
-6	o	_	DET	DET	_	7	det	_	_
+6	o	o	DET	DET	_	7	det	_	_
 7	PT	_	PROPN	PNOUN	_	5	obj	_	_
 8	onde	onde	ADV	ADV	_	11	advmod	_	_
-9	a	_	DET	DET	_	10	det	_	_
+9	a	a	DET	DET	_	10	det	_	_
 10	disputa	disputa	NOUN	NOUN	_	11	nsubj	_	_
 11	é	ser	VERB	VERB	_	7	acl:relcl	_	_
-12	com	_	ADP	ADP	_	14	case	_	_
-13	o	_	DET	DET	_	14	det	_	_
+12	com	com	ADP	ADP	_	14	case	_	_
+13	o	o	DET	DET	_	14	det	_	_
 14	PSDB	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	16	punct	_	_
+15	,	,	PUNCT	.	_	16	punct	_	_
 16	exceto	_	ADP	ADP	_	11	nmod	_	_
-17	em	_	ADP	ADP	_	19	case	_	_
+17	em	em	ADP	ADP	_	19	case	_	_
 18	raras	raro	ADJ	ADJ	_	19	amod	_	_
 19	ocasiões	ocasião	NOUN	NOUN	_	16	nmod	_	_
-20	em	_	ADP	ADP	_	21	case	_	_
+20	em	em	ADP	ADP	_	21	case	_	_
 21	que	_	PRON	PRON	_	22	nmod	_	_
 22	existem	existir	VERB	VERB	_	19	acl:relcl	_	_
 23	alianças	aliança	NOUN	NOUN	_	22	nsubj	_	_
 24	históricas	histórico	ADJ	ADJ	_	23	amod	_	_
 25	consolidadas	consolidado	ADJ	ADJ	_	23	amod	_	_
-26	com	_	ADP	ADP	_	28	case	_	_
-27	o	_	DET	DET	_	28	det	_	_
+26	com	com	ADP	ADP	_	28	case	_	_
+27	o	o	DET	DET	_	28	det	_	_
 28	PSDB	_	PROPN	PNOUN	_	23	nmod	_	SpaceAfter=No
-29	.	_	PUNCT	.	_	1	punct	_	_
+29	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s5326
 # text = Ao todo, 65 pessoas foram indiciadas.
@@ -223,19 +223,19 @@
 1	A	a	ADP	ADP	_	3	case	_	_
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	todo	todo	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
 5	65	_	NUM	NUM	NumType=Card	6	nummod	_	_
 6	pessoas	pessoa	NOUN	NOUN	_	8	nsubj:pass	_	_
 7	foram	_	AUX	AUX	_	8	aux:pass	_	_
 8	indiciadas	indiciar	VERB	VERB	_	0	root	_	SpaceAfter=No
-9	.	_	PUNCT	.	_	8	punct	_	_
+9	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s5327
 # text = As denúncias levaram o Psol a representar contra Demóstenes no Conselho de Ética e o DEM a abrir processo para expulsar o senador.
-1	As	_	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	_	2	det	_	_
 2	denúncias	denúncia	NOUN	NOUN	_	3	nsubj	_	_
 3	levaram	levar	VERB	VERB	_	0	root	_	_
-4	o	_	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	_	5	det	_	_
 5	Psol	_	PROPN	PNOUN	_	3	obj	_	_
 6	a	_	ADP	ADP	_	7	mark	_	_
 7	representar	representar	VERB	VERB	_	3	nmod	_	_
@@ -245,7 +245,7 @@
 10	em	em	ADP	ADP	_	12	case	_	_
 11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	Conselho	_	PROPN	PNOUN	_	7	nmod	_	_
-13	de	_	ADP	ADP	_	14	case	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
 14	Ética	_	PROPN	PNOUN	_	12	nmod	_	_
 15	e	e	CCONJ	CONJ	_	17	cc	_	_
 16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
@@ -255,9 +255,9 @@
 20	processo	processo	NOUN	NOUN	_	19	obj	_	_
 21	para	_	ADP	ADP	_	22	mark	_	_
 22	expulsar	expulsar	VERB	VERB	_	19	advcl	_	_
-23	o	_	DET	DET	_	24	det	_	_
+23	o	o	DET	DET	_	24	det	_	_
 24	senador	senador	NOUN	NOUN	_	22	obj	_	SpaceAfter=No
-25	.	_	PUNCT	.	_	3	punct	_	_
+25	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s5328
 # text = Brasília -- Apesar de estar protegido por uma liminar do Supremo Tribunal Federal (STF) que garante o direito ao silêncio, o contador Rubmaier Ferreira de Carvalho, em depoimento à Comissão Parlamentar Mista de Inquérito (CPMI) do Cachoeira, decidiu responder as perguntas dos parlamentares.
@@ -267,8 +267,8 @@
 4	de	_	ADP	ADP	_	3	fixed	_	_
 5	estar	estar	VERB	VERB	_	49	advcl	_	_
 6	protegido	protegido	ADJ	ADJ	_	5	xcomp:adj	_	_
-7	por	_	ADP	ADP	_	9	case	_	_
-8	uma	_	DET	DET	_	9	det	_	_
+7	por	por	ADP	ADP	_	9	case	_	_
+8	uma	um	DET	DET	_	9	det	_	_
 9	liminar	liminar	NOUN	NOUN	_	6	nmod	_	_
 10-11	do	_	_	_	_	_	_	_	_
 10	de	de	ADP	ADP	_	13	case	_	_
@@ -276,26 +276,26 @@
 12	Supremo	_	PROPN	PNOUN	_	13	amod	_	_
 13	Tribunal	_	PROPN	PNOUN	_	9	nmod	_	_
 14	Federal	_	PROPN	PNOUN	_	13	amod	_	_
-15	(	_	PUNCT	.	_	16	punct	_	SpaceAfter=No
+15	(	(	PUNCT	.	_	16	punct	_	SpaceAfter=No
 16	STF	_	PROPN	PNOUN	_	13	appos	_	SpaceAfter=No
-17	)	_	PUNCT	.	_	16	punct	_	_
+17	)	)	PUNCT	.	_	16	punct	_	_
 18	que	_	PRON	PRON	_	19	nsubj	_	_
 19	garante	garantir	VERB	VERB	_	9	acl:relcl	_	_
-20	o	_	DET	DET	_	21	det	_	_
+20	o	o	DET	DET	_	21	det	_	_
 21	direito	direito	NOUN	NOUN	_	19	obj	_	_
 22-23	ao	_	_	_	_	_	_	_	_
 22	a	a	ADP	ADP	_	24	case	_	_
 23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	silêncio	silêncio	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
-25	,	_	PUNCT	.	_	5	punct	_	_
-26	o	_	DET	DET	_	27	det	_	_
+25	,	,	PUNCT	.	_	5	punct	_	_
+26	o	o	DET	DET	_	27	det	_	_
 27	contador	contador	NOUN	NOUN	_	49	nsubj	_	_
 28	Rubmaier	_	PROPN	PNOUN	_	27	appos	_	_
 29	Ferreira	_	PROPN	PNOUN	_	28	flat	_	_
-30	de	_	ADP	ADP	_	31	case	_	_
+30	de	de	ADP	ADP	_	31	case	_	_
 31	Carvalho	_	PROPN	PNOUN	_	28	nmod	_	SpaceAfter=No
-32	,	_	PUNCT	.	_	34	punct	_	_
-33	em	_	ADP	ADP	_	34	case	_	_
+32	,	,	PUNCT	.	_	34	punct	_	_
+33	em	em	ADP	ADP	_	34	case	_	_
 34	depoimento	depoimento	NOUN	NOUN	_	49	nmod	_	_
 35-36	à	_	_	_	_	_	_	_	_
 35	a	a	ADP	ADP	_	37	case	_	_
@@ -303,16 +303,16 @@
 37	Comissão	_	PROPN	PNOUN	_	34	nmod	_	_
 38	Parlamentar	_	PROPN	PNOUN	_	37	amod	_	_
 39	Mista	_	PROPN	PNOUN	_	37	amod	_	_
-40	de	_	ADP	ADP	_	41	case	_	_
+40	de	de	ADP	ADP	_	41	case	_	_
 41	Inquérito	_	PROPN	PNOUN	_	37	nmod	_	_
-42	(	_	PUNCT	.	_	43	punct	_	SpaceAfter=No
+42	(	(	PUNCT	.	_	43	punct	_	SpaceAfter=No
 43	CPMI	_	PROPN	PNOUN	_	37	appos	_	SpaceAfter=No
-44	)	_	PUNCT	.	_	43	punct	_	_
+44	)	)	PUNCT	.	_	43	punct	_	_
 45-46	do	_	_	_	_	_	_	_	_
 45	de	de	ADP	ADP	_	47	case	_	_
 46	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
 47	Cachoeira	_	PROPN	PNOUN	_	37	nmod	_	SpaceAfter=No
-48	,	_	PUNCT	.	_	34	punct	_	_
+48	,	,	PUNCT	.	_	34	punct	_	_
 49	decidiu	decidir	VERB	VERB	_	0	root	_	_
 50	responder	responder	VERB	VERB	_	49	xcomp	_	_
 51	as	_	ADP	ADP	_	52	case	_	_
@@ -321,5 +321,5 @@
 53	de	de	ADP	ADP	_	55	case	_	_
 54	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	55	det	_	_
 55	parlamentares	parlamentar	NOUN	NOUN	_	52	nmod	_	SpaceAfter=No
-56	.	_	PUNCT	.	_	49	punct	_	_
+56	.	.	PUNCT	.	_	49	punct	_	_
 

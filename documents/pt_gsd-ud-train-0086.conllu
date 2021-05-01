@@ -1,10 +1,10 @@
 # sent_id = train-s850
 # text = O futebol não profissionalizado, sendo disputado apenas na categoria amador.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	futebol	futebol	NOUN	NOUN	_	0	root	_	_
 3	não	não	ADV	ADV	Polarity=Neg	4	advmod	_	_
 4	profissionalizado	profissionalizado	ADJ	ADJ	_	2	amod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	7	punct	_	_
+5	,	,	PUNCT	.	_	7	punct	_	_
 6	sendo	ser	AUX	AUX	_	7	aux:pass	_	_
 7	disputado	disputar	VERB	VERB	_	2	acl:part	_	_
 8	apenas	apenas	ADV	ADV	_	7	advmod	_	_
@@ -13,7 +13,7 @@
 10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	categoria	categoria	NOUN	NOUN	_	7	nmod	_	_
 12	amador	amador	NOUN	NOUN	_	11	appos	_	SpaceAfter=No
-13	.	_	PUNCT	.	_	2	punct	_	_
+13	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s851
 # text = Na sequência, lhe disseram que aquela era Miley Cyrus.
@@ -21,64 +21,64 @@
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	sequência	sequência	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
 5	lhe	_	PRON	PRON	_	6	iobj	_	_
 6	disseram	dizer	VERB	VERB	_	0	root	_	_
-7	que	_	CCONJ	CONJ	_	10	mark	_	_
+7	que	que	CCONJ	CONJ	_	10	mark	_	_
 8	aquela	_	PRON	PRON	_	10	nsubj	_	_
 9	era	_	AUX	AUX	_	10	cop	_	_
 10	Miley	_	PROPN	PNOUN	_	6	ccomp	_	_
 11	Cyrus	_	PROPN	PNOUN	_	10	flat	_	SpaceAfter=No
-12	.	_	PUNCT	.	_	6	punct	_	_
+12	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s852
 # text = Eu sabia tudo de "O Jardineiro Fiel", e Fernando nos disse que tinha dúvidas em relação ao elenco.
 1	Eu	_	PRON	PRON	_	2	nsubj	_	_
 2	sabia	saber	VERB	VERB	_	0	root	_	_
 3	tudo	_	PRON	PRON	_	2	obj	_	_
-4	de	_	ADP	ADP	_	7	case	_	_
-5	"	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
-6	O	_	DET	DET	_	7	det	_	_
+4	de	de	ADP	ADP	_	7	case	_	_
+5	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
+6	O	o	DET	DET	_	7	det	_	_
 7	Jardineiro	_	PROPN	PNOUN	_	3	nmod	_	_
 8	Fiel	_	PROPN	PNOUN	_	7	amod	_	SpaceAfter=No
-9	"	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	14	punct	_	_
-11	e	_	CCONJ	CONJ	_	14	cc	_	_
+9	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	14	punct	_	_
+11	e	e	CCONJ	CONJ	_	14	cc	_	_
 12	Fernando	_	PROPN	PNOUN	_	14	nsubj	_	_
 13	nos	_	PRON	PRON	_	14	iobj	_	_
 14	disse	dizer	VERB	VERB	_	2	conj	_	_
-15	que	_	CCONJ	CONJ	_	16	mark	_	_
+15	que	que	CCONJ	CONJ	_	16	mark	_	_
 16	tinha	ter	VERB	VERB	_	14	ccomp	_	_
 17	dúvidas	dúvida	NOUN	NOUN	_	16	obj	_	_
-18	em	_	ADP	ADP	_	19	case	_	_
+18	em	em	ADP	ADP	_	19	case	_	_
 19	relação	relação	NOUN	NOUN	_	17	nmod	_	_
 20-21	ao	_	_	_	_	_	_	_	_
 20	a	a	ADP	ADP	_	22	case	_	_
 21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	elenco	elenco	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
-23	.	_	PUNCT	.	_	2	punct	_	_
+23	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s853
 # text = O montante de pessoas ocupadas também foi o maior já registrado: 23,5 milhões.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	montante	montante	NOUN	NOUN	_	9	nsubj	_	_
-3	de	_	ADP	ADP	_	4	case	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
 4	pessoas	pessoa	NOUN	NOUN	_	2	nmod	_	_
 5	ocupadas	ocupado	ADJ	ADJ	_	4	amod	_	_
 6	também	também	ADV	ADV	_	9	advmod	_	_
 7	foi	_	AUX	AUX	_	9	cop	_	_
-8	o	_	DET	DET	_	9	det	_	_
+8	o	o	DET	DET	_	9	det	_	_
 9	maior	maior	NOUN	NOUN	_	0	root	_	_
 10	já	já	ADV	ADV	_	11	advmod	_	_
 11	registrado	registrar	VERB	VERB	_	9	acl:part	_	SpaceAfter=No
-12	:	_	PUNCT	.	_	9	punct	_	_
+12	:	:	PUNCT	.	_	9	punct	_	_
 13	23,5	_	NUM	NUM	NumType=Card	14	nummod	_	_
 14	milhões	_	NUM	NUM	NumType=Card	9	parataxis	_	SpaceAfter=No
-15	.	_	PUNCT	.	_	9	punct	_	_
+15	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s854
 # text = A banda filarmónica desfilou pela primeira vez no dia 16 de Abril de 2012.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	banda	banda	NOUN	NOUN	_	4	nsubj	_	_
 3	filarmónica	filarmónico	ADJ	ADJ	_	2	amod	_	_
 4	desfilou	desfilar	VERB	VERB	_	0	root	_	_
@@ -92,11 +92,11 @@
 10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	dia	dia	NOUN	NOUN	_	4	nmod	_	_
 12	16	_	NUM	NUM	NumType=Card	11	nmod	_	_
-13	de	_	ADP	ADP	_	14	case	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
 14	Abril	_	PROPN	PNOUN	_	12	nmod	_	_
-15	de	_	ADP	ADP	_	16	case	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
 16	2012	_	NUM	NUM	NumType=Card	14	nmod	_	SpaceAfter=No
-17	.	_	PUNCT	.	_	4	punct	_	_
+17	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s855
 # text = No Sertão de Alagoas, por exemplo, entre os cinco povos indígenas existentes, apenas um deles tem área registrada e os demais com reivindicações em andamento.
@@ -104,33 +104,33 @@
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Sertão	_	PROPN	PNOUN	_	20	nmod	_	_
-4	de	_	ADP	ADP	_	5	case	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
 5	Alagoas	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	8	punct	_	_
-7	por	_	ADP	ADP	_	8	case	_	_
+6	,	,	PUNCT	.	_	8	punct	_	_
+7	por	por	ADP	ADP	_	8	case	_	_
 8	exemplo	exemplo	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	8	punct	_	_
+9	,	,	PUNCT	.	_	8	punct	_	_
 10	entre	_	ADP	ADP	_	13	case	_	_
-11	os	_	DET	DET	_	13	det	_	_
+11	os	o	DET	DET	_	13	det	_	_
 12	cinco	_	NUM	NUM	NumType=Card	13	nummod	_	_
 13	povos	_	NOUN	NOUN	_	20	nmod	_	_
 14	indígenas	indígena	ADJ	ADJ	_	13	amod	_	_
 15	existentes	existente	ADJ	ADJ	_	13	amod	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	13	punct	_	_
+16	,	,	PUNCT	.	_	13	punct	_	_
 17	apenas	apenas	ADV	ADV	_	18	advmod	_	_
 18	um	_	PRON	PRON	_	20	nsubj	_	_
 19	deles	_	X	ADPPRON	_	18	nmod	_	_
 20	tem	ter	VERB	VERB	_	0	root	_	_
 21	área	área	NOUN	NOUN	_	20	obj	_	_
 22	registrada	_	ADJ	ADJ	_	21	amod	_	_
-23	e	_	CCONJ	CONJ	_	25	cc	_	_
-24	os	_	DET	DET	_	25	det	_	_
+23	e	e	CCONJ	CONJ	_	25	cc	_	_
+24	os	o	DET	DET	_	25	det	_	_
 25	demais	_	NOUN	NOUN	_	20	conj	_	_
-26	com	_	ADP	ADP	_	27	case	_	_
+26	com	com	ADP	ADP	_	27	case	_	_
 27	reivindicações	reivindicação	NOUN	NOUN	_	25	nmod	_	_
-28	em	_	ADP	ADP	_	29	case	_	_
+28	em	em	ADP	ADP	_	29	case	_	_
 29	andamento	andamento	NOUN	NOUN	_	27	nmod	_	SpaceAfter=No
-30	.	_	PUNCT	.	_	20	punct	_	_
+30	.	.	PUNCT	.	_	20	punct	_	_
 
 # sent_id = train-s856
 # text = Qualquer tentativa de se pagar de volta a Deus, seja na forma de boas obras ou práticas religiosas, torna - se num insulto ao Salvador.
@@ -139,72 +139,72 @@
 3	de	_	ADP	ADP	_	5	mark	_	_
 4	se	_	PART	PRT	_	5	expl:pv	_	_
 5	pagar	pagar	VERB	VERB	_	2	nmod	_	_
-6	de	_	ADP	ADP	_	7	case	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
 7	volta	volta	NOUN	NOUN	_	5	nmod	_	_
 8	a	_	ADP	ADP	_	9	case	_	_
 9	Deus	_	PROPN	PNOUN	_	5	iobj	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	5	punct	_	_
+10	,	,	PUNCT	.	_	5	punct	_	_
 11	seja	ser	VERB	VERB	_	14	cc	_	_
 12-13	na	_	_	_	_	_	_	_	_
 12	em	em	ADP	ADP	_	14	case	_	_
 13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	forma	forma	NOUN	NOUN	_	5	nmod	_	_
-15	de	_	ADP	ADP	_	17	case	_	_
+15	de	de	ADP	ADP	_	17	case	_	_
 16	boas	bom	ADJ	ADJ	_	17	amod	_	_
 17	obras	obra	NOUN	NOUN	_	14	nmod	_	_
-18	ou	_	CCONJ	CONJ	_	19	cc	_	_
+18	ou	ou	CCONJ	CONJ	_	19	cc	_	_
 19	práticas	_	NOUN	NOUN	_	17	conj	_	_
 20	religiosas	religioso	ADJ	ADJ	_	19	amod	_	SpaceAfter=No
-21	,	_	PUNCT	.	_	14	punct	_	_
+21	,	,	PUNCT	.	_	14	punct	_	_
 22	torna	tornar	VERB	VERB	_	0	root	_	_
-23	-	_	PUNCT	.	_	22	punct	_	_
+23	-	-	PUNCT	.	_	22	punct	_	_
 24	se	_	PART	PRT	_	22	expl:pv	_	_
 25-26	num	_	_	_	_	_	_	_	_
-25	em	_	ADP	ADP	_	27	case	_	_
-26	um	_	DET	DET	_	27	det	_	_
+25	em	em	ADP	ADP	_	27	case	_	_
+26	um	um	DET	DET	_	27	det	_	_
 27	insulto	insulto	NOUN	NOUN	_	22	nmod	_	_
 28-29	ao	_	_	_	_	_	_	_	_
 28	a	a	ADP	ADP	_	30	case	_	_
 29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	Salvador	_	PROPN	PNOUN	_	27	nmod	_	SpaceAfter=No
-31	.	_	PUNCT	.	_	22	punct	_	_
+31	.	.	PUNCT	.	_	22	punct	_	_
 
 # sent_id = train-s857
 # text = Jandir Sampaio, pai de Bruno, era só cuidados.
 1	Jandir	_	PROPN	PNOUN	_	10	nsubj	_	_
 2	Sampaio	_	PROPN	PNOUN	_	1	flat	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	4	punct	_	_
+3	,	,	PUNCT	.	_	4	punct	_	_
 4	pai	pai	NOUN	NOUN	_	1	appos	_	_
-5	de	_	ADP	ADP	_	6	case	_	_
+5	de	de	ADP	ADP	_	6	case	_	_
 6	Bruno	_	PROPN	PNOUN	_	4	nmod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	4	punct	_	_
+7	,	,	PUNCT	.	_	4	punct	_	_
 8	era	_	AUX	AUX	_	10	cop	_	_
 9	só	só	ADV	ADV	_	10	advmod	_	_
 10	cuidados	cuidado	NOUN	NOUN	_	0	root	_	SpaceAfter=No
-11	.	_	PUNCT	.	_	10	punct	_	_
+11	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s858
 # text = Segundo os Correios, não há terceirização nesse setor e só há contratação de trabalhadores temporários em períodos específicos, quando há mais demanda pelo serviço, como no Dia das Mães e no Natal.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	os	_	DET	DET	_	3	det	_	_
+2	os	o	DET	DET	_	3	det	_	_
 3	Correios	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
 5	não	não	ADV	ADV	Polarity=Neg	6	advmod	_	_
 6	há	haver	VERB	VERB	_	0	root	_	_
 7	terceirização	terceirização	NOUN	NOUN	_	6	obj	_	_
 8	nesse	_	ADP	ADP	_	9	case	_	_
 9	setor	setor	NOUN	NOUN	_	7	nmod	_	_
-10	e	_	CCONJ	CONJ	_	12	cc	_	_
+10	e	e	CCONJ	CONJ	_	12	cc	_	_
 11	só	só	ADV	ADV	_	12	advmod	_	_
 12	há	haver	VERB	VERB	_	6	conj	_	_
 13	contratação	contratação	NOUN	NOUN	_	12	obj	_	_
-14	de	_	ADP	ADP	_	15	case	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
 15	trabalhadores	trabalhador	NOUN	NOUN	_	13	nmod	_	_
 16	temporários	temporário	ADJ	ADJ	_	15	amod	_	_
-17	em	_	ADP	ADP	_	18	case	_	_
+17	em	em	ADP	ADP	_	18	case	_	_
 18	períodos	período	NOUN	NOUN	_	13	nmod	_	_
 19	específicos	específico	ADJ	ADJ	_	18	amod	_	SpaceAfter=No
-20	,	_	PUNCT	.	_	22	punct	_	_
+20	,	,	PUNCT	.	_	22	punct	_	_
 21	quando	quando	ADV	ADV	_	22	advmod	_	_
 22	há	haver	VERB	VERB	_	18	acl:relcl	_	_
 23	mais	_	DET	DET	_	24	det	_	_
@@ -213,7 +213,7 @@
 25	por	por	ADP	ADP	_	27	case	_	_
 26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	serviço	serviço	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
-28	,	_	PUNCT	.	_	29	punct	_	_
+28	,	,	PUNCT	.	_	29	punct	_	_
 29	como	_	ADP	ADP	_	24	nmod	_	_
 30-31	no	_	_	_	_	_	_	_	_
 30	em	em	ADP	ADP	_	32	case	_	_
@@ -223,24 +223,24 @@
 33	de	de	ADP	ADP	_	35	case	_	_
 34	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
 35	Mães	_	PROPN	PNOUN	_	32	nmod	_	_
-36	e	_	CCONJ	CONJ	_	39	cc	_	_
+36	e	e	CCONJ	CONJ	_	39	cc	_	_
 37-38	no	_	_	_	_	_	_	_	_
 37	em	em	ADP	ADP	_	39	case	_	_
 38	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
 39	Natal	_	PROPN	PNOUN	_	32	conj	_	SpaceAfter=No
-40	.	_	PUNCT	.	_	6	punct	_	_
+40	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s859
 # text = Sobre o Código Florestal, Barroso disse que o partido é contrário à proposta atual, não só no que diz respeito à MP do executivo sobre o tema como também com relação ao texto que saiu do Congresso.
 1	Sobre	_	ADP	ADP	_	3	case	_	_
-2	o	_	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	_	3	det	_	_
 3	Código	_	PROPN	PNOUN	_	7	nmod	_	_
 4	Florestal	_	PROPN	PNOUN	_	3	amod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	3	punct	_	_
+5	,	,	PUNCT	.	_	3	punct	_	_
 6	Barroso	_	PROPN	PNOUN	_	7	nsubj	_	_
 7	disse	dizer	VERB	VERB	_	0	root	_	_
-8	que	_	CCONJ	CONJ	_	11	mark	_	_
-9	o	_	DET	DET	_	10	det	_	_
+8	que	que	CCONJ	CONJ	_	11	mark	_	_
+9	o	o	DET	DET	_	10	det	_	_
 10	partido	partido	NOUN	NOUN	_	11	nsubj	_	_
 11	é	ser	VERB	VERB	_	7	ccomp	_	_
 12	contrário	contrário	ADJ	ADJ	_	11	xcomp:adj	_	_
@@ -249,7 +249,7 @@
 14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	proposta	_	NOUN	NOUN	_	12	nmod	_	_
 16	atual	atual	ADJ	ADJ	_	15	amod	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	11	punct	_	_
+17	,	,	PUNCT	.	_	11	punct	_	_
 18	não	não	ADV	ADV	Polarity=Neg	11	advmod	_	_
 19	só	só	ADV	ADV	_	11	advmod	_	_
 20	no	_	X	ADPPRON	_	11	nmod	_	_
@@ -265,11 +265,11 @@
 28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	executivo	executivo	NOUN	NOUN	_	26	nmod	_	_
 30	sobre	_	ADP	ADP	_	32	case	_	_
-31	o	_	DET	DET	_	32	det	_	_
+31	o	o	DET	DET	_	32	det	_	_
 32	tema	tema	NOUN	NOUN	_	26	nmod	_	_
 33	como	_	CCONJ	CONJ	_	36	cc	_	_
 34	também	também	ADV	ADV	_	36	advmod	_	_
-35	com	_	ADP	ADP	_	36	case	_	_
+35	com	com	ADP	ADP	_	36	case	_	_
 36	relação	relação	NOUN	NOUN	_	20	conj	_	_
 37-38	ao	_	_	_	_	_	_	_	_
 37	a	a	ADP	ADP	_	39	case	_	_
@@ -281,5 +281,5 @@
 42	de	de	ADP	ADP	_	44	case	_	_
 43	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
 44	Congresso	_	PROPN	PNOUN	_	41	nmod	_	SpaceAfter=No
-45	.	_	PUNCT	.	_	7	punct	_	_
+45	.	.	PUNCT	.	_	7	punct	_	_
 

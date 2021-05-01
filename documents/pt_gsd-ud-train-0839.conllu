@@ -6,7 +6,7 @@
 3	de	de	ADP	ADP	_	1	case	_	_
 4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
 5	natal	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	5	punct	_	_
+6	,	,	PUNCT	.	_	5	punct	_	_
 7	mega	_	PROPN	PNOUN	_	8	amod	_	_
 8	sena	_	PROPN	PNOUN	_	9	nsubj	_	_
 9	faz	fazer	VERB	VERB	_	0	root	_	_
@@ -14,7 +14,7 @@
 11	semana	semana	NOUN	NOUN	_	9	nmod	_	_
 12	três	_	NUM	NUM	NumType=Card	13	nummod	_	_
 13	sorteios	sorteio	NOUN	NOUN	_	9	obj	_	SpaceAfter=No
-14	.	_	PUNCT	.	_	9	punct	_	_
+14	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s8331
 # text = Americas 'Cosmic Courtyard -- exposição coletiva, co - autoria Ary Perez, The Art Institute of Chicago, Chicago;
@@ -25,67 +25,67 @@
 5	--	_	PUNCT	.	_	1	punct	_	_
 6	exposição	exposição	NOUN	NOUN	_	1	appos	_	_
 7	coletiva	coletivo	ADJ	ADJ	_	6	amod	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	9	punct	_	_
+8	,	,	PUNCT	.	_	9	punct	_	_
 9	co	_	PART	PRT	_	6	appos	_	_
-10	-	_	PUNCT	.	_	9	punct	_	_
+10	-	-	PUNCT	.	_	9	punct	_	_
 11	autoria	autoria	NOUN	NOUN	_	9	flat	_	_
 12	Ary	_	PROPN	PNOUN	_	9	appos	_	_
 13	Perez	_	PROPN	PNOUN	_	12	flat	_	SpaceAfter=No
-14	,	_	PUNCT	.	_	16	punct	_	_
+14	,	,	PUNCT	.	_	16	punct	_	_
 15	The	_	PROPN	PNOUN	_	16	det	_	_
 16	Art	_	PROPN	PNOUN	_	12	appos	_	_
 17	Institute	_	PROPN	PNOUN	_	16	flat	_	_
 18	of	_	ADP	ADP	_	19	case	_	_
 19	Chicago	_	PROPN	PNOUN	_	16	nmod	_	SpaceAfter=No
-20	,	_	PUNCT	.	_	21	punct	_	_
+20	,	,	PUNCT	.	_	21	punct	_	_
 21	Chicago	_	PROPN	PNOUN	_	16	appos	_	SpaceAfter=No
 22	;	_	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s8332
 # text = Os investigadores disseram que, em nenhum momento, os passageiros a bordo correram perigo.
-1	Os	_	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	_	2	det	_	_
 2	investigadores	investigador	NOUN	NOUN	_	3	nsubj	_	_
 3	disseram	dizer	VERB	VERB	_	0	root	_	_
-4	que	_	CCONJ	CONJ	_	14	mark	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	8	punct	_	_
-6	em	_	ADP	ADP	_	8	case	_	_
+4	que	que	CCONJ	CONJ	_	14	mark	_	SpaceAfter=No
+5	,	,	PUNCT	.	_	8	punct	_	_
+6	em	em	ADP	ADP	_	8	case	_	_
 7	nenhum	_	DET	DET	_	8	det	_	_
 8	momento	momento	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	8	punct	_	_
-10	os	_	DET	DET	_	11	det	_	_
+9	,	,	PUNCT	.	_	8	punct	_	_
+10	os	o	DET	DET	_	11	det	_	_
 11	passageiros	passageiro	NOUN	NOUN	_	14	nsubj	_	_
 12	a	_	ADP	ADP	_	13	case	_	_
 13	bordo	bordo	NOUN	NOUN	_	11	nmod	_	_
 14	correram	correr	VERB	VERB	_	3	ccomp	_	_
 15	perigo	perigo	NOUN	NOUN	_	14	obj	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	3	punct	_	_
+16	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s8333
 # text = A coisa foi tão primária que até eu fico em dúvida se é possível tanta burrice ", escreveu no blog.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	coisa	coisa	NOUN	NOUN	_	3	nsubj	_	_
 3	foi	_	VERB	VERB	_	19	ccomp	_	_
 4	tão	tão	ADV	ADV	_	5	advmod	_	_
 5	primária	primário	ADJ	ADJ	_	3	xcomp:adj	_	_
-6	que	_	CCONJ	CONJ	_	9	mark	_	_
+6	que	que	CCONJ	CONJ	_	9	mark	_	_
 7	até	até	ADV	ADV	_	8	advmod	_	_
 8	eu	_	PRON	PRON	_	9	nsubj	_	_
 9	fico	ficar	VERB	VERB	_	3	advcl	_	_
-10	em	_	ADP	ADP	_	11	case	_	_
+10	em	em	ADP	ADP	_	11	case	_	_
 11	dúvida	dúvida	NOUN	NOUN	_	9	nmod	_	_
 12	se	_	CCONJ	CONJ	_	13	mark	_	_
 13	é	ser	VERB	VERB	_	11	dep	_	_
 14	possível	possível	ADJ	ADJ	_	13	xcomp:adj	_	_
 15	tanta	_	DET	DET	_	16	det	_	_
 16	burrice	burrice	NOUN	NOUN	_	13	nsubj	_	_
-17	"	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
-18	,	_	PUNCT	.	_	19	punct	_	_
+17	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
+18	,	,	PUNCT	.	_	19	punct	_	_
 19	escreveu	escrever	VERB	VERB	_	0	root	_	_
 20-21	no	_	_	_	_	_	_	_	_
 20	em	em	ADP	ADP	_	22	case	_	_
 21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	blog	blog	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
-23	.	_	PUNCT	.	_	19	punct	_	_
+23	.	.	PUNCT	.	_	19	punct	_	_
 
 # sent_id = train-s8334
 # text = Sem se envolver nas questões internas que culminaram numa nova queda alviverde, Cavalieri prometeu acompanhar o desempenho de seu ex - clube na segunda divisão e garantiu que ficará na torcida pelo acesso palmeirense.
@@ -100,30 +100,30 @@
 8	que	_	PRON	PRON	_	9	nsubj	_	_
 9	culminaram	culminar	VERB	VERB	_	6	acl:relcl	_	_
 10-11	numa	_	_	_	_	_	_	_	_
-10	em	_	ADP	ADP	_	13	case	_	_
-11	uma	_	DET	DET	_	13	det	_	_
+10	em	em	ADP	ADP	_	13	case	_	_
+11	uma	um	DET	DET	_	13	det	_	_
 12	nova	novo	ADJ	ADJ	_	13	amod	_	_
 13	queda	queda	NOUN	NOUN	_	9	nmod	_	_
 14	alviverde	alviverde	ADJ	ADJ	_	13	amod	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	3	punct	_	_
+15	,	,	PUNCT	.	_	3	punct	_	_
 16	Cavalieri	_	PROPN	PNOUN	_	17	nsubj	_	_
 17	prometeu	prometer	VERB	VERB	_	0	root	_	_
 18	acompanhar	acompanhar	VERB	VERB	_	17	xcomp	_	_
-19	o	_	DET	DET	_	20	det	_	_
+19	o	o	DET	DET	_	20	det	_	_
 20	desempenho	desempenho	NOUN	NOUN	_	18	obj	_	_
-21	de	_	ADP	ADP	_	23	case	_	_
+21	de	de	ADP	ADP	_	23	case	_	_
 22	seu	_	DET	DET	_	23	det:poss	_	_
 23	ex	_	PART	PRT	_	20	nmod	_	_
-24	-	_	PUNCT	.	_	23	punct	_	_
+24	-	-	PUNCT	.	_	23	punct	_	_
 25	clube	clube	NOUN	NOUN	_	23	flat	_	_
 26-27	na	_	_	_	_	_	_	_	_
 26	em	em	ADP	ADP	_	29	case	_	_
 27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 28	segunda	segundo	ADJ	ADJ	_	29	amod	_	_
 29	divisão	divisão	NOUN	NOUN	_	20	nmod	_	_
-30	e	_	CCONJ	CONJ	_	31	cc	_	_
+30	e	e	CCONJ	CONJ	_	31	cc	_	_
 31	garantiu	garantir	VERB	VERB	_	17	conj	_	_
-32	que	_	CCONJ	CONJ	_	33	mark	_	_
+32	que	que	CCONJ	CONJ	_	33	mark	_	_
 33	ficará	ficar	VERB	VERB	_	31	ccomp	_	_
 34-35	na	_	_	_	_	_	_	_	_
 34	em	em	ADP	ADP	_	36	case	_	_
@@ -134,26 +134,26 @@
 38	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
 39	acesso	acesso	NOUN	NOUN	_	36	nmod	_	_
 40	palmeirense	palmeirense	ADJ	ADJ	_	39	amod	_	SpaceAfter=No
-41	.	_	PUNCT	.	_	17	punct	_	_
+41	.	.	PUNCT	.	_	17	punct	_	_
 
 # sent_id = train-s8335
 # text = Guilherme, que já havia sentido dores durante a semana passada, teve que abandonar o jogo ainda antes do intervalo.
 1	Guilherme	_	PROPN	PNOUN	_	15	nsubj	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	6	punct	_	_
+2	,	,	PUNCT	.	_	6	punct	_	_
 3	que	_	PRON	PRON	_	6	nsubj	_	_
 4	já	já	ADV	ADV	_	6	advmod	_	_
 5	havia	haver	AUX	AUX	_	6	aux	_	_
 6	sentido	sentir	VERB	VERB	_	1	acl:relcl	_	_
 7	dores	dor	NOUN	NOUN	_	6	obj	_	_
 8	durante	_	ADP	ADP	_	10	case	_	_
-9	a	_	DET	DET	_	10	det	_	_
+9	a	a	DET	DET	_	10	det	_	_
 10	semana	semana	NOUN	NOUN	_	6	nmod	_	_
 11	passada	passado	ADJ	ADJ	_	10	amod	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	6	punct	_	_
+12	,	,	PUNCT	.	_	6	punct	_	_
 13	teve	ter	AUX	AUX	_	15	aux	_	_
 14	que	_	ADP	ADP	_	15	mark	_	_
 15	abandonar	abandonar	VERB	VERB	_	0	root	_	_
-16	o	_	DET	DET	_	17	det	_	_
+16	o	o	DET	DET	_	17	det	_	_
 17	jogo	jogo	NOUN	NOUN	_	15	obj	_	_
 18	ainda	ainda	ADV	ADV	_	19	advmod	_	_
 19	antes	antes	ADV	ADV	_	22	case	_	_
@@ -161,58 +161,58 @@
 20	de	de	ADP	ADP	_	19	case	_	_
 21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 22	intervalo	intervalo	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
-23	.	_	PUNCT	.	_	15	punct	_	_
+23	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = train-s8336
 # text = Parte de sua obra continua inédita.
 1	Parte	parte	NOUN	NOUN	_	5	nsubj	_	_
-2	de	_	ADP	ADP	_	4	case	_	_
+2	de	de	ADP	ADP	_	4	case	_	_
 3	sua	_	DET	DET	_	4	det:poss	_	_
 4	obra	obra	NOUN	NOUN	_	1	nmod	_	_
 5	continua	continuar	VERB	VERB	_	0	root	_	_
 6	inédita	inédito	ADJ	ADJ	_	5	xcomp:adj	_	SpaceAfter=No
-7	.	_	PUNCT	.	_	5	punct	_	_
+7	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s8337
 # text = Segundo o censo americano de 2000, a sua população era de 497 habitantes.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	o	_	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	_	3	det	_	_
 3	censo	censo	NOUN	NOUN	_	11	nmod	_	_
 4	americano	americano	ADJ	ADJ	_	3	amod	_	_
-5	de	_	ADP	ADP	_	6	case	_	_
+5	de	de	ADP	ADP	_	6	case	_	_
 6	2000	_	NUM	NUM	NumType=Card	3	nmod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	3	punct	_	_
-8	a	_	DET	DET	_	10	det	_	_
+7	,	,	PUNCT	.	_	3	punct	_	_
+8	a	a	DET	DET	_	10	det	_	_
 9	sua	_	DET	DET	_	10	det:poss	_	_
 10	população	população	NOUN	NOUN	_	11	nsubj	_	_
 11	era	_	VERB	VERB	_	0	root	_	_
-12	de	_	ADP	ADP	_	14	case	_	_
+12	de	de	ADP	ADP	_	14	case	_	_
 13	497	_	NUM	NUM	NumType=Card	14	nummod	_	_
 14	habitantes	habitante	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
-15	.	_	PUNCT	.	_	11	punct	_	_
+15	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s8338
 # text = Os quadrinhos se destacam por seu grande elemento erótico shakspeariano e por ser um fumetti particularmente rico em violência, embora nunca seja levado a níveis extremos.
-1	Os	_	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	_	2	det	_	_
 2	quadrinhos	quadro	NOUN	NOUN	_	4	nsubj	_	_
 3	se	_	PRON	PRON	_	4	obj	_	_
 4	destacam	destacar	VERB	VERB	_	0	root	_	_
-5	por	_	ADP	ADP	_	8	case	_	_
+5	por	por	ADP	ADP	_	8	case	_	_
 6	seu	_	DET	DET	_	8	det:poss	_	_
 7	grande	grande	ADJ	ADJ	_	8	amod	_	_
 8	elemento	elemento	NOUN	NOUN	_	4	nmod	_	_
 9	erótico	erótico	ADJ	ADJ	_	8	amod	_	_
 10	shakspeariano	_	ADJ	ADJ	_	8	amod	_	_
-11	e	_	CCONJ	CONJ	_	15	cc	_	_
+11	e	e	CCONJ	CONJ	_	15	cc	_	_
 12	por	_	ADP	ADP	_	15	mark	_	_
 13	ser	ser	AUX	AUX	_	15	cop	_	_
-14	um	_	DET	DET	_	15	det	_	_
+14	um	um	DET	DET	_	15	det	_	_
 15	fumetti	_	NOUN	NOUN	_	8	conj	_	_
 16	particularmente	particularmente	ADV	ADV	_	17	advmod	_	_
 17	rico	rico	ADJ	ADJ	_	15	amod	_	_
-18	em	_	ADP	ADP	_	19	case	_	_
+18	em	em	ADP	ADP	_	19	case	_	_
 19	violência	violência	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
-20	,	_	PUNCT	.	_	24	punct	_	_
+20	,	,	PUNCT	.	_	24	punct	_	_
 21	embora	_	CCONJ	CONJ	_	24	mark	_	_
 22	nunca	nunca	ADV	ADV	_	24	advmod	_	_
 23	seja	ser	AUX	AUX	_	24	aux:pass	_	_
@@ -220,7 +220,7 @@
 25	a	_	ADP	ADP	_	26	case	_	_
 26	níveis	nível	NOUN	NOUN	_	24	nmod	_	_
 27	extremos	extremo	ADJ	ADJ	_	26	amod	_	SpaceAfter=No
-28	.	_	PUNCT	.	_	4	punct	_	_
+28	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s8339
 # text = No clube novo, vai manter o empenho constantemente ou apenas nos primeiros meses, quando precisará calar os críticos?
@@ -229,24 +229,24 @@
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	clube	clube	NOUN	NOUN	_	7	nmod	_	_
 4	novo	novo	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	3	punct	_	_
+5	,	,	PUNCT	.	_	3	punct	_	_
 6	vai	ir	AUX	AUX	_	7	aux	_	_
 7	manter	manter	VERB	VERB	_	0	root	_	_
-8	o	_	DET	DET	_	9	det	_	_
+8	o	o	DET	DET	_	9	det	_	_
 9	empenho	empenho	NOUN	NOUN	_	7	obj	_	_
 10	constantemente	constantemente	ADV	ADV	_	7	advmod	_	_
-11	ou	_	CCONJ	CONJ	_	16	cc	_	_
+11	ou	ou	CCONJ	CONJ	_	16	cc	_	_
 12	apenas	apenas	ADV	ADV	_	16	advmod	_	_
 13-14	nos	_	_	_	_	_	_	_	_
 13	em	em	ADP	ADP	_	16	case	_	_
 14	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
 15	primeiros	primeiro	ADJ	ADJ	_	16	amod	_	_
 16	meses	mês	NOUN	NOUN	_	10	conj	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	19	punct	_	_
+17	,	,	PUNCT	.	_	19	punct	_	_
 18	quando	quando	ADV	ADV	_	19	advmod	_	_
 19	precisará	precisar	VERB	VERB	_	16	acl:relcl	_	_
 20	calar	calar	VERB	VERB	_	19	xcomp	_	_
-21	os	_	DET	DET	_	22	det	_	_
+21	os	o	DET	DET	_	22	det	_	_
 22	críticos	crítico	NOUN	NOUN	_	20	obj	_	SpaceAfter=No
-23	?	_	PUNCT	.	_	7	punct	_	_
+23	?	?	PUNCT	.	_	7	punct	_	_
 

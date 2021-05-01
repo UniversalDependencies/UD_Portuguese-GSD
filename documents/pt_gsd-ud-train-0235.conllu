@@ -1,37 +1,37 @@
 # sent_id = train-s2333
 # text = "É um tema complicado para o leigo", alerta ele, mas de forma simplificada pode - se dizer que o cirurgião opera um paciente quando conclui que mais de 15 % do músculo cardíaco vai sofrer.
-1	"	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
 2	É	ser	AUX	AUX	_	4	cop	_	_
-3	um	_	DET	DET	_	4	det	_	_
+3	um	um	DET	DET	_	4	det	_	_
 4	tema	tema	NOUN	NOUN	_	0	root	_	_
 5	complicado	complicado	ADJ	ADJ	_	4	amod	_	_
-6	para	_	ADP	ADP	_	8	case	_	_
-7	o	_	DET	DET	_	8	det	_	_
+6	para	para	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	_	8	det	_	_
 8	leigo	leigo	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
-9	"	_	PUNCT	.	_	16	punct	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	11	punct	_	_
+9	"	"	PUNCT	.	_	16	punct	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	11	punct	_	_
 11	alerta	alertar	VERB	VERB	_	4	parataxis	_	_
 12	ele	_	PRON	PRON	_	11	nsubj	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	11	punct	_	_
+13	,	,	PUNCT	.	_	11	punct	_	_
 14	mas	_	CCONJ	CONJ	_	16	cc	_	_
-15	de	_	ADP	ADP	_	16	case	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
 16	forma	forma	NOUN	NOUN	_	4	conj	_	_
 17	simplificada	simplificado	ADJ	ADJ	_	16	amod	_	_
 18	pode	_	AUX	AUX	_	21	aux	_	_
-19	-	_	PUNCT	.	_	18	punct	_	_
+19	-	-	PUNCT	.	_	18	punct	_	_
 20	se	_	PRON	PRON	_	21	expl:pv	_	_
 21	dizer	dizer	VERB	VERB	_	16	conj	_	_
-22	que	_	CCONJ	CONJ	_	25	mark	_	_
-23	o	_	DET	DET	_	24	det	_	_
+22	que	que	CCONJ	CONJ	_	25	mark	_	_
+23	o	o	DET	DET	_	24	det	_	_
 24	cirurgião	cirurgião	NOUN	NOUN	_	25	nsubj	_	_
 25	opera	operar	VERB	VERB	_	21	csubj	_	_
-26	um	_	DET	DET	_	27	det	_	_
+26	um	um	DET	DET	_	27	det	_	_
 27	paciente	paciente	NOUN	NOUN	_	25	obj	_	_
 28	quando	_	CCONJ	CONJ	_	29	mark	_	_
 29	conclui	concluir	VERB	VERB	_	25	advcl	_	_
-30	que	_	CCONJ	CONJ	_	40	mark	_	_
+30	que	que	CCONJ	CONJ	_	40	mark	_	_
 31	mais	mais	ADV	ADV	_	33	advmod	_	_
-32	de	_	ADP	ADP	_	31	case	_	_
+32	de	de	ADP	ADP	_	31	case	_	_
 33	15	_	NUM	NUM	NumType=Card	34	nummod	_	_
 34	%	_	SYM	SYM	_	40	nsubj	_	_
 35-36	do	_	_	_	_	_	_	_	_
@@ -41,15 +41,15 @@
 38	cardíaco	cardíaco	ADJ	ADJ	_	37	amod	_	_
 39	vai	ir	AUX	AUX	_	40	aux	_	_
 40	sofrer	sofrer	VERB	VERB	_	29	ccomp	_	SpaceAfter=No
-41	.	_	PUNCT	.	_	4	punct	_	_
+41	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s2334
 # text = A Organização está deixando a administração dos hospitais a partir do dia 10.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	Organização	_	PROPN	PNOUN	_	4	nsubj	_	_
 3	está	estar	AUX	AUX	_	4	aux	_	_
 4	deixando	deixar	VERB	VERB	_	0	root	_	_
-5	a	_	DET	DET	_	6	det	_	_
+5	a	a	DET	DET	_	6	det	_	_
 6	administração	administração	NOUN	NOUN	_	4	obj	_	_
 7-8	dos	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
@@ -62,7 +62,7 @@
 13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	dia	dia	NOUN	NOUN	_	11	nmod	_	_
 15	10	_	NUM	NUM	NumType=Card	14	nmod	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	4	punct	_	_
+16	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s2335
 # text = Superado nos treinos e corridas pelo jovem francês, Palmer sentiu que o seu tempo estava terminando na categoria máxima da velocidade.
@@ -71,18 +71,18 @@
 2	em	em	ADP	ADP	_	4	case	_	_
 3	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
 4	treinos	treino	NOUN	NOUN	_	1	nmod	_	_
-5	e	_	CCONJ	CONJ	_	6	cc	_	_
+5	e	e	CCONJ	CONJ	_	6	cc	_	_
 6	corridas	corrida	NOUN	NOUN	_	4	conj	_	_
 7-8	pelo	_	_	_	_	_	_	_	_
 7	por	por	ADP	ADP	_	9	case	_	_
 8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	jovem	jovem	NOUN	NOUN	_	1	nmod	_	_
 10	francês	francês	ADJ	ADJ	_	9	amod	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	1	punct	_	_
+11	,	,	PUNCT	.	_	1	punct	_	_
 12	Palmer	_	PROPN	PNOUN	_	13	nsubj	_	_
 13	sentiu	sentir	VERB	VERB	_	0	root	_	_
-14	que	_	CCONJ	CONJ	_	19	mark	_	_
-15	o	_	DET	DET	_	17	det	_	_
+14	que	que	CCONJ	CONJ	_	19	mark	_	_
+15	o	o	DET	DET	_	17	det	_	_
 16	seu	_	DET	DET	_	17	det:poss	_	_
 17	tempo	tempo	NOUN	NOUN	_	19	nsubj	_	_
 18	estava	estar	AUX	AUX	_	19	aux	_	_
@@ -96,35 +96,35 @@
 24	de	de	ADP	ADP	_	26	case	_	_
 25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	velocidade	velocidade	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
-27	.	_	PUNCT	.	_	13	punct	_	_
+27	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = train-s2336
 # text = Logo após isso, Angélique viajou para os Estados Unidos para gravar um novo álbum, intitulado "Oremi".
 1	Logo	logo	ADV	ADV	_	3	advmod	_	_
 2	após	_	ADP	ADP	_	3	case	_	_
 3	isso	_	PRON	PRON	_	6	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
 5	Angélique	_	PROPN	PNOUN	_	6	nsubj	_	_
 6	viajou	viajar	VERB	VERB	_	0	root	_	_
-7	para	_	ADP	ADP	_	9	case	_	_
-8	os	_	DET	DET	_	9	det	_	_
+7	para	para	ADP	ADP	_	9	case	_	_
+8	os	o	DET	DET	_	9	det	_	_
 9	Estados	_	PROPN	PNOUN	_	6	nmod	_	_
 10	Unidos	_	PROPN	PNOUN	_	9	amod	_	_
 11	para	_	ADP	ADP	_	12	mark	_	_
 12	gravar	gravar	VERB	VERB	_	6	advcl	_	_
-13	um	_	DET	DET	_	15	det	_	_
+13	um	um	DET	DET	_	15	det	_	_
 14	novo	novo	ADJ	ADJ	_	15	amod	_	_
 15	álbum	álbum	NOUN	NOUN	_	12	obj	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	19	punct	_	_
+16	,	,	PUNCT	.	_	19	punct	_	_
 17	intitulado	intitular	AUX	AUX	_	19	cop	_	_
-18	"	_	PUNCT	.	_	19	punct	_	SpaceAfter=No
+18	"	"	PUNCT	.	_	19	punct	_	SpaceAfter=No
 19	Oremi	_	PROPN	PNOUN	_	15	acl:part	_	SpaceAfter=No
-20	"	_	PUNCT	.	_	19	punct	_	SpaceAfter=No
-21	.	_	PUNCT	.	_	6	punct	_	_
+20	"	"	PUNCT	.	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s2337
 # text = Em seu livro The Evening Crowd at Kirmser 's: A Gay Life in the 1940s, Ricardo J. Brown confirma que quando esteve em Nova Iorque, vira "a lot of queer people in the theater and the movies", entre eles Tyrone Power e Tallulah Bankhead.
-1	Em	_	ADP	ADP	_	3	case	_	_
+1	Em	em	ADP	ADP	_	3	case	_	_
 2	seu	_	DET	DET	_	3	det:poss	_	_
 3	livro	livro	NOUN	NOUN	_	21	nmod	_	_
 4	The	_	PROPN	PNOUN	_	5	det	_	_
@@ -133,28 +133,28 @@
 7	at	_	PROPN	PNOUN	_	8	case	_	_
 8	Kirmser	_	PROPN	PNOUN	_	5	nmod	_	_
 9	's	_	PROPN	PNOUN	_	8	det:poss	_	SpaceAfter=No
-10	:	_	PUNCT	.	_	5	punct	_	_
-11	A	_	DET	DET	_	13	det	_	_
+10	:	:	PUNCT	.	_	5	punct	_	_
+11	A	o	DET	DET	_	13	det	_	_
 12	Gay	_	PROPN	PNOUN	_	13	amod	_	_
 13	Life	_	PROPN	PNOUN	_	10	appos	_	_
 14	in	_	PROPN	PNOUN	_	16	case	_	_
 15	the	_	DET	DET	_	16	det	_	_
 16	1940s	_	NUM	NUM	NumType=Card	13	nmod	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	18	punct	_	_
+17	,	,	PUNCT	.	_	18	punct	_	_
 18	Ricardo	_	PROPN	PNOUN	_	21	nsubj	_	_
 19	J.	_	PROPN	PNOUN	_	18	flat	_	_
 20	Brown	_	PROPN	PNOUN	_	18	flat	_	_
 21	confirma	confirmar	VERB	VERB	_	0	root	_	_
-22	que	_	CCONJ	CONJ	_	29	mark	_	_
+22	que	que	CCONJ	CONJ	_	29	mark	_	_
 23	quando	_	CCONJ	CONJ	_	24	mark	_	_
 24	esteve	_	VERB	VERB	_	29	advcl	_	_
-25	em	_	ADP	ADP	_	27	case	_	_
+25	em	em	ADP	ADP	_	27	case	_	_
 26	Nova	_	PROPN	PNOUN	_	27	amod	_	_
 27	Iorque	_	PROPN	PNOUN	_	24	nmod	_	SpaceAfter=No
-28	,	_	PUNCT	.	_	24	punct	_	_
+28	,	,	PUNCT	.	_	24	punct	_	_
 29	vira	_	VERB	VERB	_	21	ccomp	_	_
-30	"	_	PUNCT	.	_	32	punct	_	SpaceAfter=No
-31	a	_	DET	DET	_	32	det	_	_
+30	"	"	PUNCT	.	_	32	punct	_	SpaceAfter=No
+31	a	a	DET	DET	_	32	det	_	_
 32	lot	_	NOUN	NOUN	_	29	obj	_	_
 33	of	_	ADP	ADP	_	32	case	_	_
 34	queer	_	ADJ	ADJ	_	35	amod	_	_
@@ -165,16 +165,16 @@
 39	and	_	CCONJ	CONJ	_	41	cc	_	_
 40	the	_	DET	DET	_	41	det	_	_
 41	movies	_	NOUN	NOUN	_	38	conj	_	SpaceAfter=No
-42	"	_	PUNCT	.	_	32	punct	_	SpaceAfter=No
-43	,	_	PUNCT	.	_	46	punct	_	_
+42	"	"	PUNCT	.	_	32	punct	_	SpaceAfter=No
+43	,	,	PUNCT	.	_	46	punct	_	_
 44	entre	_	ADP	ADP	_	45	case	_	_
 45	eles	_	PRON	PRON	_	46	nmod	_	_
 46	Tyrone	_	PROPN	PNOUN	_	35	appos	_	_
 47	Power	_	PROPN	PNOUN	_	46	flat	_	_
-48	e	_	CCONJ	CONJ	_	49	cc	_	_
+48	e	e	CCONJ	CONJ	_	49	cc	_	_
 49	Tallulah	_	PROPN	PNOUN	_	46	conj	_	_
 50	Bankhead	_	PROPN	PNOUN	_	49	flat	_	SpaceAfter=No
-51	.	_	PUNCT	.	_	21	punct	_	_
+51	.	.	PUNCT	.	_	21	punct	_	_
 
 # sent_id = train-s2338
 # text = Na ocasião, trechos da carta foram lidos em voz alta pelos protestantes, em meio aos transeuntes e aos funcionários da Secult que entravam no prédio.
@@ -182,7 +182,7 @@
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	ocasião	ocasião	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
 5	trechos	trecho	NOUN	NOUN	_	10	nsubj:pass	_	_
 6-7	da	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	8	case	_	_
@@ -190,21 +190,21 @@
 8	carta	carta	NOUN	NOUN	_	5	nmod	_	_
 9	foram	_	AUX	AUX	_	10	aux:pass	_	_
 10	lidos	ler	VERB	VERB	_	0	root	_	_
-11	em	_	ADP	ADP	_	12	case	_	_
+11	em	em	ADP	ADP	_	12	case	_	_
 12	voz	voz	NOUN	NOUN	_	10	nmod	_	_
 13	alta	alto	ADJ	ADJ	_	12	amod	_	_
 14-15	pelos	_	_	_	_	_	_	_	_
 14	por	por	ADP	ADP	_	16	case	_	_
 15	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
 16	protestantes	protestante	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	19	punct	_	_
-18	em	_	ADP	ADP	_	19	case	_	_
+17	,	,	PUNCT	.	_	19	punct	_	_
+18	em	em	ADP	ADP	_	19	case	_	_
 19	meio	meio	NOUN	NOUN	_	10	nmod	_	_
 20-21	aos	_	_	_	_	_	_	_	_
 20	a	a	ADP	ADP	_	22	case	_	_
 21	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
 22	transeuntes	transeunte	NOUN	NOUN	_	19	nmod	_	_
-23	e	_	CCONJ	CONJ	_	26	cc	_	_
+23	e	e	CCONJ	CONJ	_	26	cc	_	_
 24-25	aos	_	_	_	_	_	_	_	_
 24	a	a	ADP	ADP	_	26	case	_	_
 25	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
@@ -219,31 +219,31 @@
 32	em	em	ADP	ADP	_	34	case	_	_
 33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
 34	prédio	prédio	NOUN	NOUN	_	31	nmod	_	SpaceAfter=No
-35	.	_	PUNCT	.	_	10	punct	_	_
+35	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s2339
 # text = Os arquivos foram liberados com base na Lei de Acesso à Informação e revelam uma troca de ofícios entre Dirceu e o Deputado Valdemar Costa Neto (ex PL, hoje PR - SP) em negociação de cargos na Radiobrás -- ambos foram denunciados e respondem no julgamento do mensalão.
-1	Os	_	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	_	2	det	_	_
 2	arquivos	arquivo	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foram	_	AUX	AUX	_	4	aux:pass	_	_
 4	liberados	liberar	VERB	VERB	_	0	root	_	_
-5	com	_	ADP	ADP	_	6	case	_	_
+5	com	com	ADP	ADP	_	6	case	_	_
 6	base	base	NOUN	NOUN	_	4	nmod	_	_
 7-8	na	_	_	_	_	_	_	_	_
 7	em	em	ADP	ADP	_	9	case	_	_
 8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Lei	_	PROPN	PNOUN	_	6	nmod	_	_
-10	de	_	ADP	ADP	_	11	case	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
 11	Acesso	_	PROPN	PNOUN	_	9	nmod	_	_
 12-13	à	_	_	_	_	_	_	_	_
 12	a	a	ADP	ADP	_	14	case	_	_
 13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	Informação	_	PROPN	PNOUN	_	11	nmod	_	_
-15	e	_	CCONJ	CONJ	_	16	cc	_	_
+15	e	e	CCONJ	CONJ	_	16	cc	_	_
 16	revelam	revelar	VERB	VERB	_	4	conj	_	_
-17	uma	_	DET	DET	_	18	det	_	_
+17	uma	um	DET	DET	_	18	det	_	_
 18	troca	_	NOUN	NOUN	_	16	obj	_	_
-19	de	_	ADP	ADP	_	20	case	_	_
+19	de	de	ADP	ADP	_	20	case	_	_
 20	ofícios	ofício	NOUN	NOUN	_	18	nmod	_	_
 21	entre	_	ADP	ADP	_	22	case	_	_
 22	Dirceu	_	PROPN	PNOUN	_	18	nmod	_	_
@@ -253,18 +253,18 @@
 26	Valdemar	_	PROPN	PNOUN	_	25	flat	_	_
 27	Costa	_	PROPN	PNOUN	_	25	flat	_	_
 28	Neto	_	PROPN	PNOUN	_	25	flat	_	_
-29	(	_	PUNCT	.	_	30	punct	_	SpaceAfter=No
+29	(	(	PUNCT	.	_	30	punct	_	SpaceAfter=No
 30	ex	_	PART	PRT	_	25	appos	_	_
 31	PL	_	PROPN	PNOUN	_	30	flat	_	SpaceAfter=No
-32	,	_	PUNCT	.	_	34	punct	_	_
+32	,	,	PUNCT	.	_	34	punct	_	_
 33	hoje	hoje	ADV	ADV	_	34	advmod	_	_
 34	PR	_	PROPN	PNOUN	_	30	conj	_	_
-35	-	_	PUNCT	.	_	34	punct	_	_
+35	-	-	PUNCT	.	_	34	punct	_	_
 36	SP	_	PROPN	PNOUN	_	34	flat	_	SpaceAfter=No
-37	)	_	PUNCT	.	_	34	punct	_	_
-38	em	_	ADP	ADP	_	39	case	_	_
+37	)	)	PUNCT	.	_	34	punct	_	_
+38	em	em	ADP	ADP	_	39	case	_	_
 39	negociação	negociação	NOUN	NOUN	_	18	nmod	_	_
-40	de	_	ADP	ADP	_	41	case	_	_
+40	de	de	ADP	ADP	_	41	case	_	_
 41	cargos	cargo	NOUN	NOUN	_	39	nmod	_	_
 42-43	na	_	_	_	_	_	_	_	_
 42	em	em	ADP	ADP	_	44	case	_	_
@@ -274,7 +274,7 @@
 46	ambos	_	PRON	PRON	_	48	nsubj:pass	_	_
 47	foram	_	AUX	AUX	_	48	aux:pass	_	_
 48	denunciados	denunciar	VERB	VERB	_	4	parataxis	_	_
-49	e	_	CCONJ	CONJ	_	50	cc	_	_
+49	e	e	CCONJ	CONJ	_	50	cc	_	_
 50	respondem	responder	VERB	VERB	_	48	conj	_	_
 51-52	no	_	_	_	_	_	_	_	_
 51	em	em	ADP	ADP	_	53	case	_	_
@@ -284,7 +284,7 @@
 54	de	de	ADP	ADP	_	56	case	_	_
 55	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
 56	mensalão	_	NOUN	NOUN	_	53	nmod	_	SpaceAfter=No
-57	.	_	PUNCT	.	_	4	punct	_	_
+57	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s2340
 # text = No topo do morro de Tabiago, existe a Torre de Tabiago, resquício dum castelo destruído.
@@ -296,33 +296,33 @@
 4	de	de	ADP	ADP	_	6	case	_	_
 5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	morro	morro	NOUN	NOUN	_	3	nmod	_	_
-7	de	_	ADP	ADP	_	8	case	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
 8	Tabiago	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	3	punct	_	_
+9	,	,	PUNCT	.	_	3	punct	_	_
 10	existe	existir	VERB	VERB	_	0	root	_	_
-11	a	_	DET	DET	_	12	det	_	_
+11	a	a	DET	DET	_	12	det	_	_
 12	Torre	_	PROPN	PNOUN	_	10	nsubj	_	_
-13	de	_	ADP	ADP	_	14	case	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
 14	Tabiago	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	16	punct	_	_
+15	,	,	PUNCT	.	_	16	punct	_	_
 16	resquício	resquício	NOUN	NOUN	_	12	appos	_	_
 17-18	dum	_	_	_	_	_	_	_	_
-17	de	_	ADP	ADP	_	19	case	_	_
-18	um	_	DET	DET	_	19	det	_	_
+17	de	de	ADP	ADP	_	19	case	_	_
+18	um	um	DET	DET	_	19	det	_	_
 19	castelo	castelo	NOUN	NOUN	_	16	nmod	_	_
 20	destruído	destruir	VERB	VERB	_	19	acl:part	_	SpaceAfter=No
-21	.	_	PUNCT	.	_	10	punct	_	_
+21	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s2341
 # text = As famílias das vítimas, os sobreviventes e a companhia Costa Concordia lembram o primeiro aniversário do naufrágio do navio de cruzeiro Costa Concordia com missas, cultos e cerimônias na pequena ilha toscana de Giglio.
-1	As	_	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	_	2	det	_	_
 2	famílias	família	NOUN	NOUN	_	14	nsubj	_	_
 3-4	das	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
 4	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 5	vítimas	vítima	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	8	punct	_	_
-7	os	_	DET	DET	_	8	det	_	_
+6	,	,	PUNCT	.	_	8	punct	_	_
+7	os	o	DET	DET	_	8	det	_	_
 8	sobreviventes	sobrevivente	NOUN	NOUN	_	2	conj	_	_
 9	e	e	CCONJ	CONJ	_	11	cc	_	_
 10	a	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -330,7 +330,7 @@
 12	Costa	_	PROPN	PNOUN	_	11	appos	_	_
 13	Concordia	_	PROPN	PNOUN	_	12	flat	_	_
 14	lembram	lembrar	VERB	VERB	_	0	root	_	_
-15	o	_	DET	DET	_	17	det	_	_
+15	o	o	DET	DET	_	17	det	_	_
 16	primeiro	primeiro	ADJ	ADJ	_	17	amod	_	_
 17	aniversário	aniversário	NOUN	NOUN	_	14	obj	_	_
 18-19	do	_	_	_	_	_	_	_	_
@@ -341,15 +341,15 @@
 21	de	de	ADP	ADP	_	23	case	_	_
 22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	navio	navio	NOUN	NOUN	_	20	nmod	_	_
-24	de	_	ADP	ADP	_	25	case	_	_
+24	de	de	ADP	ADP	_	25	case	_	_
 25	cruzeiro	cruzeiro	NOUN	NOUN	_	23	nmod	_	_
 26	Costa	_	PROPN	PNOUN	_	23	appos	_	_
 27	Concordia	_	PROPN	PNOUN	_	26	flat	_	_
-28	com	_	ADP	ADP	_	29	case	_	_
+28	com	com	ADP	ADP	_	29	case	_	_
 29	missas	missa	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
-30	,	_	PUNCT	.	_	31	punct	_	_
+30	,	,	PUNCT	.	_	31	punct	_	_
 31	cultos	culto	NOUN	NOUN	_	29	conj	_	_
-32	e	_	CCONJ	CONJ	_	33	cc	_	_
+32	e	e	CCONJ	CONJ	_	33	cc	_	_
 33	cerimônias	cerimônia	NOUN	NOUN	_	29	conj	_	_
 34-35	na	_	_	_	_	_	_	_	_
 34	em	em	ADP	ADP	_	37	case	_	_
@@ -357,21 +357,21 @@
 36	pequena	pequeno	ADJ	ADJ	_	37	amod	_	_
 37	ilha	ilha	NOUN	NOUN	_	14	nmod	_	_
 38	toscana	toscano	ADJ	ADJ	_	37	amod	_	_
-39	de	_	ADP	ADP	_	40	case	_	_
+39	de	de	ADP	ADP	_	40	case	_	_
 40	Giglio	_	PROPN	PNOUN	_	37	nmod	_	SpaceAfter=No
-41	.	_	PUNCT	.	_	14	punct	_	_
+41	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = train-s2342
 # text = Os seus descendentes, os Duques de Lancaster, viveram ali ao longo do século seguinte.
-1	Os	_	DET	DET	_	3	det	_	_
+1	Os	o	DET	DET	_	3	det	_	_
 2	seus	_	DET	DET	_	3	det:poss	_	_
 3	descendentes	descendente	NOUN	NOUN	_	10	nsubj	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	6	punct	_	_
-5	os	_	DET	DET	_	6	det	_	_
+4	,	,	PUNCT	.	_	6	punct	_	_
+5	os	o	DET	DET	_	6	det	_	_
 6	Duques	_	PROPN	PNOUN	_	3	appos	_	_
-7	de	_	ADP	ADP	_	8	case	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
 8	Lancaster	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	6	punct	_	_
+9	,	,	PUNCT	.	_	6	punct	_	_
 10	viveram	viver	VERB	VERB	_	0	root	_	_
 11	ali	ali	ADV	ADV	_	10	advmod	_	_
 12-13	ao	_	_	_	_	_	_	_	_
@@ -383,5 +383,5 @@
 16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	século	século	NOUN	NOUN	_	14	nmod	_	_
 18	seguinte	seguinte	ADJ	ADJ	_	17	amod	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	10	punct	_	_
+19	.	.	PUNCT	.	_	10	punct	_	_
 

@@ -1,30 +1,30 @@
 # sent_id = train-s980
 # text = A culpa é nossa, não tem o que falar.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	culpa	culpa	NOUN	NOUN	_	4	nsubj	_	_
 3	é	ser	AUX	AUX	_	4	cop	_	_
 4	nossa	_	PRON	PRON	_	0	root	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	7	punct	_	_
+5	,	,	PUNCT	.	_	7	punct	_	_
 6	não	não	ADV	ADV	Polarity=Neg	7	advmod	_	_
 7	tem	ter	VERB	VERB	_	4	parataxis	_	_
-8	o	_	DET	DET	_	9	det	_	_
+8	o	o	DET	DET	_	9	det	_	_
 9	que	_	PRON	PRON	_	10	obj	_	_
 10	falar	falar	VERB	VERB	_	7	ccomp	_	SpaceAfter=No
-11	.	_	PUNCT	.	_	4	punct	_	_
+11	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s981
 # text = E nesse caso, nestas eleições, o PCdoB é o 6 ° no grupo chamado G85.
 1	E	_	CCONJ	CONJ	_	12	cc	_	_
 2	nesse	_	ADP	ADP	_	3	case	_	_
 3	caso	caso	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
 5	nestas	_	ADP	ADP	_	6	case	_	_
 6	eleições	eleição	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	6	punct	_	_
-8	o	_	DET	DET	_	9	det	_	_
+7	,	,	PUNCT	.	_	6	punct	_	_
+8	o	o	DET	DET	_	9	det	_	_
 9	PCdoB	_	PROPN	PNOUN	_	12	nsubj	_	_
 10	é	ser	AUX	AUX	_	12	cop	_	_
-11	o	_	DET	DET	_	12	det	_	_
+11	o	o	DET	DET	_	12	det	_	_
 12	6	_	NOUN	NOUN	_	0	root	_	_
 13	°	_	PUNCT	.	_	12	punct	_	_
 14-15	no	_	_	_	_	_	_	_	_
@@ -33,7 +33,7 @@
 16	grupo	grupo	NOUN	NOUN	_	12	nmod	_	_
 17	chamado	chamado	ADJ	ADJ	_	18	amod	_	_
 18	G85	_	PROPN	PNOUN	_	16	appos	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	12	punct	_	_
+19	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = train-s982
 # text = Não esperava isso acontecer com meu único filho homem.
@@ -41,12 +41,12 @@
 2	esperava	esperar	VERB	VERB	_	0	root	_	_
 3	isso	_	PRON	PRON	_	4	nsubj	_	_
 4	acontecer	acontecer	VERB	VERB	_	2	ccomp	_	_
-5	com	_	ADP	ADP	_	8	case	_	_
+5	com	com	ADP	ADP	_	8	case	_	_
 6	meu	_	DET	DET	_	8	det:poss	_	_
 7	único	único	ADJ	ADJ	_	8	amod	_	_
 8	filho	filho	NOUN	NOUN	_	4	nmod	_	_
 9	homem	_	ADJ	ADJ	_	8	amod	_	SpaceAfter=No
-10	.	_	PUNCT	.	_	2	punct	_	_
+10	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s983
 # text = Provavelmente sua origem esteja no século XVI.
@@ -59,22 +59,22 @@
 6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	século	século	NOUN	NOUN	_	4	nmod	_	_
 8	XVI	_	NUM	NUM	NumType=Card	7	appos	_	SpaceAfter=No
-9	.	_	PUNCT	.	_	4	punct	_	_
+9	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s984
 # text = Para a Cepal, o cenário mais provável para 2013 é de continuação do baixo crescimento na Europa, inclusive com recessão nalguns casos, "ainda que simultaneamente podem haver acordos que permitam superar gradualmente os desequilíbrios financeiros, fiscais e de competitividade atualmente existentes".
 1	Para	_	ADP	ADP	_	3	case	_	_
-2	a	_	DET	DET	_	3	det	_	_
+2	a	a	DET	DET	_	3	det	_	_
 3	Cepal	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
-5	o	_	DET	DET	_	6	det	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	o	o	DET	DET	_	6	det	_	_
 6	cenário	cenário	NOUN	NOUN	_	11	nsubj	_	_
 7	mais	mais	ADV	ADV	_	8	advmod	_	_
 8	provável	provável	ADJ	ADJ	_	6	amod	_	_
-9	para	_	ADP	ADP	_	10	case	_	_
+9	para	para	ADP	ADP	_	10	case	_	_
 10	2013	_	NUM	NUM	NumType=Card	6	nmod	_	_
 11	é	ser	VERB	VERB	_	0	root	_	_
-12	de	_	ADP	ADP	_	13	case	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
 13	continuação	continuação	NOUN	NOUN	_	11	nmod	_	_
 14-15	do	_	_	_	_	_	_	_	_
 14	de	de	ADP	ADP	_	17	case	_	_
@@ -85,16 +85,16 @@
 18	em	em	ADP	ADP	_	20	case	_	_
 19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	Europa	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
-21	,	_	PUNCT	.	_	24	punct	_	_
+21	,	,	PUNCT	.	_	24	punct	_	_
 22	inclusive	inclusive	ADV	ADV	_	24	advmod	_	_
-23	com	_	ADP	ADP	_	24	case	_	_
+23	com	com	ADP	ADP	_	24	case	_	_
 24	recessão	recessão	NOUN	NOUN	_	11	nmod	_	_
 25-26	nalguns	_	_	_	_	_	_	_	_
-25	em	_	ADP	ADP	_	27	case	_	_
+25	em	em	ADP	ADP	_	27	case	_	_
 26	alguns	_	DET	DET	_	27	det	_	_
 27	casos	caso	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
-28	,	_	PUNCT	.	_	34	punct	_	_
-29	"	_	PUNCT	.	_	34	punct	_	SpaceAfter=No
+28	,	,	PUNCT	.	_	34	punct	_	_
+29	"	"	PUNCT	.	_	34	punct	_	SpaceAfter=No
 30	ainda	ainda	ADV	ADV	_	34	mark	_	_
 31	que	_	CCONJ	CONJ	_	30	fixed	_	_
 32	simultaneamente	simultaneamente	ADV	ADV	_	34	advmod	_	_
@@ -105,18 +105,18 @@
 37	permitam	permitir	VERB	VERB	_	35	acl:relcl	_	_
 38	superar	superar	VERB	VERB	_	37	xcomp	_	_
 39	gradualmente	gradualmente	ADV	ADV	_	38	advmod	_	_
-40	os	_	DET	DET	_	41	det	_	_
+40	os	o	DET	DET	_	41	det	_	_
 41	desequilíbrios	desequilíbrio	NOUN	NOUN	_	38	obj	_	_
 42	financeiros	financeiro	ADJ	ADJ	_	41	amod	_	SpaceAfter=No
-43	,	_	PUNCT	.	_	44	punct	_	_
+43	,	,	PUNCT	.	_	44	punct	_	_
 44	fiscais	fiscal	ADJ	ADJ	_	42	conj	_	_
-45	e	_	CCONJ	CONJ	_	47	cc	_	_
-46	de	_	ADP	ADP	_	47	case	_	_
+45	e	e	CCONJ	CONJ	_	47	cc	_	_
+46	de	de	ADP	ADP	_	47	case	_	_
 47	competitividade	competitividade	NOUN	NOUN	_	42	conj	_	_
 48	atualmente	atualmente	ADV	ADV	_	49	advmod	_	_
 49	existentes	existente	ADJ	ADJ	_	41	amod	_	SpaceAfter=No
-50	"	_	PUNCT	.	_	34	punct	_	SpaceAfter=No
-51	.	_	PUNCT	.	_	11	punct	_	_
+50	"	"	PUNCT	.	_	34	punct	_	SpaceAfter=No
+51	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s985
 # text = Bolatti teve diversas propostas, principalmente da Argentina, mas não houve nenhum acerto.
@@ -124,69 +124,69 @@
 2	teve	ter	VERB	VERB	_	0	root	_	_
 3	diversas	_	DET	DET	_	4	det	_	_
 4	propostas	_	NOUN	NOUN	_	2	obj	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	9	punct	_	_
+5	,	,	PUNCT	.	_	9	punct	_	_
 6	principalmente	principalmente	ADV	ADV	_	9	advmod	_	_
 7-8	da	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
 8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Argentina	_	PROPN	PNOUN	_	2	nmod	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	13	punct	_	_
+10	,	,	PUNCT	.	_	13	punct	_	_
 11	mas	_	CCONJ	CONJ	_	13	cc	_	_
 12	não	não	ADV	ADV	Polarity=Neg	13	advmod	_	_
 13	houve	haver	VERB	VERB	_	2	conj	_	_
 14	nenhum	_	DET	DET	_	15	det	_	_
 15	acerto	acerto	NOUN	NOUN	_	13	obj	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	2	punct	_	_
+16	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s986
 # text = Algoritmo de Dijkstra
 1	Algoritmo	algoritmo	NOUN	NOUN	_	0	root	_	_
-2	de	_	ADP	ADP	_	3	case	_	_
+2	de	de	ADP	ADP	_	3	case	_	_
 3	Dijkstra	_	PROPN	PNOUN	_	1	nmod	_	_
 
 # sent_id = train-s987
 # text = O projeto mais conhecido, porém, é o da Google.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	projeto	projeto	NOUN	NOUN	_	9	nsubj	_	_
 3	mais	mais	ADV	ADV	_	4	advmod	_	_
 4	conhecido	conhecido	ADJ	ADJ	_	2	amod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	6	punct	_	_
+5	,	,	PUNCT	.	_	6	punct	_	_
 6	porém	_	ADV	ADV	_	9	advmod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	6	punct	_	_
+7	,	,	PUNCT	.	_	6	punct	_	_
 8	é	ser	AUX	AUX	_	9	cop	_	_
 9	o	_	PRON	PRON	_	0	root	_	_
 10-11	da	_	_	_	_	_	_	_	_
 10	de	de	ADP	ADP	_	12	case	_	_
 11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	Google	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
-13	.	_	PUNCT	.	_	9	punct	_	_
+13	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s988
 # text = "A crescente militarização em campo e a clara falta de unidade no Conselho de Segurança fundamentalmente mudaram as circunstâncias para o exercício efetivo do meu papel", afirmou em coletiva em Genebra, momentos após sua renúncia ter sido anunciada pela ONU.
-1	"	_	PUNCT	.	_	19	punct	_	SpaceAfter=No
-2	A	_	DET	DET	_	4	det	_	_
+1	"	"	PUNCT	.	_	19	punct	_	SpaceAfter=No
+2	A	o	DET	DET	_	4	det	_	_
 3	crescente	crescente	ADJ	ADJ	_	4	amod	_	_
 4	militarização	militarização	NOUN	NOUN	_	19	nsubj	_	_
-5	em	_	ADP	ADP	_	6	case	_	_
+5	em	em	ADP	ADP	_	6	case	_	_
 6	campo	campo	NOUN	NOUN	_	4	nmod	_	_
 7	e	e	CCONJ	CONJ	_	10	cc	_	_
 8	a	o	DET	DET	_	10	det	_	_
 9	clara	claro	ADJ	ADJ	_	10	amod	_	_
 10	falta	_	NOUN	NOUN	_	4	conj	_	_
-11	de	_	ADP	ADP	_	12	case	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
 12	unidade	unidade	NOUN	NOUN	_	10	nmod	_	_
 13-14	no	_	_	_	_	_	_	_	_
 13	em	em	ADP	ADP	_	15	case	_	_
 14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	Conselho	_	PROPN	PNOUN	_	10	nmod	_	_
-16	de	_	ADP	ADP	_	17	case	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
 17	Segurança	_	PROPN	PNOUN	_	15	nmod	_	_
 18	fundamentalmente	fundamentalmente	ADV	ADV	_	19	advmod	_	_
 19	mudaram	mudar	VERB	VERB	_	32	ccomp	_	_
-20	as	_	DET	DET	_	21	det	_	_
+20	as	o	DET	DET	_	21	det	_	_
 21	circunstâncias	circunstância	NOUN	NOUN	_	19	obj	_	_
-22	para	_	ADP	ADP	_	24	case	_	_
-23	o	_	DET	DET	_	24	det	_	_
+22	para	para	ADP	ADP	_	24	case	_	_
+23	o	o	DET	DET	_	24	det	_	_
 24	exercício	exercício	NOUN	NOUN	_	21	nmod	_	_
 25	efetivo	efetivo	ADJ	ADJ	_	24	amod	_	_
 26-27	do	_	_	_	_	_	_	_	_
@@ -194,14 +194,14 @@
 27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 28	meu	_	DET	DET	_	29	det:poss	_	_
 29	papel	papel	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
-30	"	_	PUNCT	.	_	19	punct	_	SpaceAfter=No
-31	,	_	PUNCT	.	_	32	punct	_	_
+30	"	"	PUNCT	.	_	19	punct	_	SpaceAfter=No
+31	,	,	PUNCT	.	_	32	punct	_	_
 32	afirmou	afirmar	VERB	VERB	_	0	root	_	_
-33	em	_	ADP	ADP	_	34	case	_	_
+33	em	em	ADP	ADP	_	34	case	_	_
 34	coletiva	coletiva	NOUN	NOUN	_	32	nmod	_	_
-35	em	_	ADP	ADP	_	36	case	_	_
+35	em	em	ADP	ADP	_	36	case	_	_
 36	Genebra	_	PROPN	PNOUN	_	34	nmod	_	SpaceAfter=No
-37	,	_	PUNCT	.	_	44	punct	_	_
+37	,	,	PUNCT	.	_	44	punct	_	_
 38	momentos	momento	NOUN	NOUN	_	39	nmod	_	_
 39	após	_	ADP	ADP	_	44	mark	_	_
 40	sua	_	DET	DET	_	41	det:poss	_	_
@@ -213,49 +213,49 @@
 45	por	por	ADP	ADP	_	47	case	_	_
 46	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
 47	ONU	_	PROPN	PNOUN	_	44	nmod	_	SpaceAfter=No
-48	.	_	PUNCT	.	_	32	punct	_	_
+48	.	.	PUNCT	.	_	32	punct	_	_
 
 # sent_id = train-s989
 # text = Em duas ocasiões, no Pan - Americano de 1995, disputado em Mar del Plata, na Argentina, e na Copa América de 2001, na Colômbia, a Seleção acabou eliminada pelos rivais.
-1	Em	_	ADP	ADP	_	3	case	_	_
+1	Em	em	ADP	ADP	_	3	case	_	_
 2	duas	_	NUM	NUM	NumType=Card	3	nummod	_	_
 3	ocasiões	ocasião	NOUN	NOUN	_	37	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
 5-6	no	_	_	_	_	_	_	_	_
 5	em	em	ADP	ADP	_	7	case	_	_
 6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Pan	_	PROPN	PNOUN	_	37	nmod	_	_
-8	-	_	PUNCT	.	_	7	punct	_	_
+8	-	-	PUNCT	.	_	7	punct	_	_
 9	Americano	_	PROPN	PNOUN	_	7	flat	_	_
-10	de	_	ADP	ADP	_	11	case	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
 11	1995	_	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	13	punct	_	_
+12	,	,	PUNCT	.	_	13	punct	_	_
 13	disputado	disputar	VERB	VERB	_	7	acl:part	_	_
-14	em	_	ADP	ADP	_	15	case	_	_
+14	em	em	ADP	ADP	_	15	case	_	_
 15	Mar	_	PROPN	PNOUN	_	13	nmod	_	_
 16	del	_	ADP	ADP	_	17	case	_	_
 17	Plata	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
-18	,	_	PUNCT	.	_	21	punct	_	_
+18	,	,	PUNCT	.	_	21	punct	_	_
 19-20	na	_	_	_	_	_	_	_	_
 19	em	em	ADP	ADP	_	21	case	_	_
 20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	Argentina	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
-22	,	_	PUNCT	.	_	26	punct	_	_
-23	e	_	CCONJ	CONJ	_	26	cc	_	_
+22	,	,	PUNCT	.	_	26	punct	_	_
+23	e	e	CCONJ	CONJ	_	26	cc	_	_
 24-25	na	_	_	_	_	_	_	_	_
 24	em	em	ADP	ADP	_	26	case	_	_
 25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	Copa	_	PROPN	PNOUN	_	7	conj	_	_
 27	América	_	PROPN	PNOUN	_	26	flat	_	_
-28	de	_	ADP	ADP	_	29	case	_	_
+28	de	de	ADP	ADP	_	29	case	_	_
 29	2001	_	NUM	NUM	NumType=Card	26	nmod	_	SpaceAfter=No
-30	,	_	PUNCT	.	_	33	punct	_	_
+30	,	,	PUNCT	.	_	33	punct	_	_
 31-32	na	_	_	_	_	_	_	_	_
 31	em	em	ADP	ADP	_	33	case	_	_
 32	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
 33	Colômbia	_	PROPN	PNOUN	_	26	conj	_	SpaceAfter=No
-34	,	_	PUNCT	.	_	26	punct	_	_
-35	a	_	DET	DET	_	36	det	_	_
+34	,	,	PUNCT	.	_	26	punct	_	_
+35	a	a	DET	DET	_	36	det	_	_
 36	Seleção	_	PROPN	PNOUN	_	37	nsubj	_	_
 37	acabou	acabar	VERB	VERB	_	0	root	_	_
 38	eliminada	eliminar	VERB	VERB	_	37	acl:part	_	_
@@ -263,5 +263,5 @@
 39	por	por	ADP	ADP	_	41	case	_	_
 40	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	_
 41	rivais	rival	NOUN	NOUN	_	38	nmod	_	SpaceAfter=No
-42	.	_	PUNCT	.	_	37	punct	_	_
+42	.	.	PUNCT	.	_	37	punct	_	_
 

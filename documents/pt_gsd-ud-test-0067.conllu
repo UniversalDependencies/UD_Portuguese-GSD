@@ -1,15 +1,15 @@
 # sent_id = test-s657
 # text = Mikaella, de 3 anos, tem baixa visão e acabou de ser matriculada na Unidade Especializada para fazer aulas de Estimulação Precoce.
 1	Mikaella	_	PROPN	PNOUN	_	7	nsubj	_	SpaceAfter=No
-2	,	_	PUNCT	.	_	5	punct	_	_
-3	de	_	ADP	ADP	_	5	case	_	_
+2	,	,	PUNCT	.	_	5	punct	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
 4	3	_	NUM	NUM	NumType=Card	5	nummod	_	_
 5	anos	ano	NOUN	NOUN	_	1	nmod	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	5	punct	_	_
+6	,	,	PUNCT	.	_	5	punct	_	_
 7	tem	ter	VERB	VERB	_	0	root	_	_
 8	baixa	baixo	ADJ	ADJ	_	9	amod	_	_
 9	visão	visão	NOUN	NOUN	_	7	obj	_	_
-10	e	_	CCONJ	CONJ	_	14	cc	_	_
+10	e	e	CCONJ	CONJ	_	14	cc	_	_
 11	acabou	acabar	AUX	AUX	_	14	aux	_	_
 12	de	_	ADP	ADP	_	14	mark	_	_
 13	ser	ser	AUX	AUX	_	14	aux:pass	_	_
@@ -22,14 +22,14 @@
 19	para	_	ADP	ADP	_	20	mark	_	_
 20	fazer	fazer	VERB	VERB	_	14	advcl	_	_
 21	aulas	aula	NOUN	NOUN	_	20	obj	_	_
-22	de	_	ADP	ADP	_	23	case	_	_
+22	de	de	ADP	ADP	_	23	case	_	_
 23	Estimulação	_	PROPN	PNOUN	_	21	nmod	_	_
 24	Precoce	_	PROPN	PNOUN	_	23	amod	_	SpaceAfter=No
-25	.	_	PUNCT	.	_	7	punct	_	_
+25	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = test-s658
 # text = Os indivíduos do sexo masculino constituem 53 % da população e os do sexo feminino 47 %.
-1	Os	_	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	_	2	det	_	_
 2	indivíduos	indivíduo	NOUN	NOUN	_	7	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -43,7 +43,7 @@
 10	de	de	ADP	ADP	_	12	case	_	_
 11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	população	população	NOUN	NOUN	_	9	nmod	_	_
-13	e	_	CCONJ	CONJ	_	14	cc	_	_
+13	e	e	CCONJ	CONJ	_	14	cc	_	_
 14	os	_	PRON	PRON	_	2	conj	_	_
 15-16	do	_	_	_	_	_	_	_	_
 15	de	de	ADP	ADP	_	17	case	_	_
@@ -52,7 +52,7 @@
 18	feminino	feminino	ADJ	ADJ	_	17	amod	_	_
 19	47	_	NUM	NUM	NumType=Card	20	nummod	_	_
 20	%	_	SYM	SYM	_	14	appos	_	SpaceAfter=No
-21	.	_	PUNCT	.	_	7	punct	_	_
+21	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = test-s659
 # text = Além dos gastos financeiros e de contratos, a lei garante o acesso e o acompanhamento de programas, ações, projetos e obras.
@@ -62,54 +62,54 @@
 3	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
 4	gastos	gasto	NOUN	NOUN	_	1	nmod	_	_
 5	financeiros	financeiro	ADJ	ADJ	_	4	amod	_	_
-6	e	_	CCONJ	CONJ	_	8	cc	_	_
-7	de	_	ADP	ADP	_	8	case	_	_
+6	e	e	CCONJ	CONJ	_	8	cc	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
 8	contratos	contrato	NOUN	NOUN	_	4	conj	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	1	punct	_	_
-10	a	_	DET	DET	_	11	det	_	_
+9	,	,	PUNCT	.	_	1	punct	_	_
+10	a	a	DET	DET	_	11	det	_	_
 11	lei	lei	NOUN	NOUN	_	12	nsubj	_	_
 12	garante	garantir	VERB	VERB	_	0	root	_	_
-13	o	_	DET	DET	_	14	det	_	_
+13	o	o	DET	DET	_	14	det	_	_
 14	acesso	acesso	NOUN	NOUN	_	12	obj	_	_
 15	e	e	CCONJ	CONJ	_	17	cc	_	_
 16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	acompanhamento	acompanhamento	NOUN	NOUN	_	14	conj	_	_
-18	de	_	ADP	ADP	_	19	case	_	_
+18	de	de	ADP	ADP	_	19	case	_	_
 19	programas	programa	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
-20	,	_	PUNCT	.	_	21	punct	_	_
+20	,	,	PUNCT	.	_	21	punct	_	_
 21	ações	ação	NOUN	NOUN	_	19	conj	_	SpaceAfter=No
-22	,	_	PUNCT	.	_	23	punct	_	_
+22	,	,	PUNCT	.	_	23	punct	_	_
 23	projetos	projeto	NOUN	NOUN	_	19	conj	_	_
-24	e	_	CCONJ	CONJ	_	25	cc	_	_
+24	e	e	CCONJ	CONJ	_	25	cc	_	_
 25	obras	obra	NOUN	NOUN	_	19	conj	_	SpaceAfter=No
-26	.	_	PUNCT	.	_	12	punct	_	_
+26	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = test-s660
 # text = A participação dos beneficiários de planos de saúde com mais de 80 anos cresceu de 12 % em junho de 2000 para 17 % no mesmo período deste ano entre os que têm mais de 60 anos, segundo o Iess, que representa empresas de saúde suplementar.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	participação	participação	NOUN	NOUN	_	15	nsubj	_	_
 3-4	dos	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
 4	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
 5	beneficiários	beneficiário	NOUN	NOUN	_	2	nmod	_	_
-6	de	_	ADP	ADP	_	7	case	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
 7	planos	plano	NOUN	NOUN	_	5	nmod	_	_
-8	de	_	ADP	ADP	_	9	case	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
 9	saúde	saúde	NOUN	NOUN	_	7	nmod	_	_
-10	com	_	ADP	ADP	_	14	case	_	_
+10	com	com	ADP	ADP	_	14	case	_	_
 11	mais	mais	ADV	ADV	_	13	advmod	_	_
-12	de	_	ADP	ADP	_	11	case	_	_
+12	de	de	ADP	ADP	_	11	case	_	_
 13	80	_	NUM	NUM	NumType=Card	14	nummod	_	_
 14	anos	ano	NOUN	NOUN	_	5	nmod	_	_
 15	cresceu	crescer	VERB	VERB	_	0	root	_	_
-16	de	_	ADP	ADP	_	18	case	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
 17	12	_	NUM	NUM	NumType=Card	18	nummod	_	_
 18	%	_	SYM	SYM	_	15	nmod	_	_
-19	em	_	ADP	ADP	_	20	case	_	_
+19	em	em	ADP	ADP	_	20	case	_	_
 20	junho	_	PROPN	PNOUN	_	18	nmod	_	_
-21	de	_	ADP	ADP	_	22	case	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
 22	2000	_	NUM	NUM	NumType=Card	20	nmod	_	_
-23	para	_	ADP	ADP	_	25	case	_	_
+23	para	para	ADP	ADP	_	25	case	_	_
 24	17	_	NUM	NUM	NumType=Card	25	nummod	_	_
 25	%	_	SYM	SYM	_	15	nmod	_	_
 26-27	no	_	_	_	_	_	_	_	_
@@ -124,25 +124,25 @@
 34	que	_	PRON	PRON	_	35	nsubj	_	_
 35	têm	ter	VERB	VERB	_	33	acl:relcl	_	_
 36	mais	mais	ADV	ADV	_	38	advmod	_	_
-37	de	_	ADP	ADP	_	36	case	_	_
+37	de	de	ADP	ADP	_	36	case	_	_
 38	60	_	NUM	NUM	NumType=Card	39	nummod	_	_
 39	anos	ano	NOUN	NOUN	_	35	obj	_	SpaceAfter=No
-40	,	_	PUNCT	.	_	43	punct	_	_
+40	,	,	PUNCT	.	_	43	punct	_	_
 41	segundo	_	ADP	ADP	_	43	case	_	_
-42	o	_	DET	DET	_	43	det	_	_
+42	o	o	DET	DET	_	43	det	_	_
 43	Iess	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
-44	,	_	PUNCT	.	_	46	punct	_	_
+44	,	,	PUNCT	.	_	46	punct	_	_
 45	que	_	PRON	PRON	_	46	nsubj	_	_
 46	representa	representar	VERB	VERB	_	43	acl:relcl	_	_
 47	empresas	empresa	NOUN	NOUN	_	46	obj	_	_
-48	de	_	ADP	ADP	_	49	case	_	_
+48	de	de	ADP	ADP	_	49	case	_	_
 49	saúde	saúde	NOUN	NOUN	_	47	nmod	_	_
 50	suplementar	suplementar	ADJ	ADJ	_	49	amod	_	SpaceAfter=No
-51	.	_	PUNCT	.	_	15	punct	_	_
+51	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = test-s661
 # text = A premiação dos Jogos da Reme e a abertura da Exposição Artística do Grupo Maturidade, formado pelos mestres da música, do artesanato, da poesia e da decoração de Ladário, marcam a largada das festividades no dia 31 de agosto, sexta - feira.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	premiação	premiação	NOUN	NOUN	_	43	nsubj	_	_
 3-4	dos	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -165,7 +165,7 @@
 17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	Grupo	_	PROPN	PNOUN	_	14	nmod	_	_
 19	Maturidade	_	PROPN	PNOUN	_	18	flat	_	SpaceAfter=No
-20	,	_	PUNCT	.	_	21	punct	_	_
+20	,	,	PUNCT	.	_	21	punct	_	_
 21	formado	formar	VERB	VERB	_	18	acl:part	_	_
 22-23	pelos	_	_	_	_	_	_	_	_
 22	por	por	ADP	ADP	_	24	case	_	_
@@ -175,26 +175,26 @@
 25	de	de	ADP	ADP	_	27	case	_	_
 26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	música	_	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
-28	,	_	PUNCT	.	_	31	punct	_	_
+28	,	,	PUNCT	.	_	31	punct	_	_
 29-30	do	_	_	_	_	_	_	_	_
 29	de	de	ADP	ADP	_	31	case	_	_
 30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	artesanato	artesanato	NOUN	NOUN	_	27	conj	_	SpaceAfter=No
-32	,	_	PUNCT	.	_	35	punct	_	_
+32	,	,	PUNCT	.	_	35	punct	_	_
 33-34	da	_	_	_	_	_	_	_	_
 33	de	de	ADP	ADP	_	35	case	_	_
 34	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	poesia	poesia	NOUN	NOUN	_	27	conj	_	_
-36	e	_	CCONJ	CONJ	_	39	cc	_	_
+36	e	e	CCONJ	CONJ	_	39	cc	_	_
 37-38	da	_	_	_	_	_	_	_	_
 37	de	de	ADP	ADP	_	39	case	_	_
 38	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
 39	decoração	decoração	NOUN	NOUN	_	27	conj	_	_
-40	de	_	ADP	ADP	_	41	case	_	_
+40	de	de	ADP	ADP	_	41	case	_	_
 41	Ladário	_	PROPN	PNOUN	_	27	nmod	_	SpaceAfter=No
-42	,	_	PUNCT	.	_	21	punct	_	_
+42	,	,	PUNCT	.	_	21	punct	_	_
 43	marcam	marcar	VERB	VERB	_	0	root	_	_
-44	a	_	DET	DET	_	45	det	_	_
+44	a	a	DET	DET	_	45	det	_	_
 45	largada	largada	NOUN	NOUN	_	43	obj	_	_
 46-47	das	_	_	_	_	_	_	_	_
 46	de	de	ADP	ADP	_	48	case	_	_
@@ -205,22 +205,22 @@
 50	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
 51	dia	dia	NOUN	NOUN	_	43	nmod	_	_
 52	31	_	NUM	NUM	NumType=Card	51	nmod	_	_
-53	de	_	ADP	ADP	_	54	case	_	_
+53	de	de	ADP	ADP	_	54	case	_	_
 54	agosto	_	PROPN	PNOUN	_	52	nmod	_	SpaceAfter=No
-55	,	_	PUNCT	.	_	58	punct	_	_
+55	,	,	PUNCT	.	_	58	punct	_	_
 56	sexta	_	PROPN	PNOUN	_	58	amod	_	_
-57	-	_	PUNCT	.	_	58	punct	_	_
+57	-	-	PUNCT	.	_	58	punct	_	_
 58	feira	_	PROPN	PNOUN	_	51	appos	_	SpaceAfter=No
-59	.	_	PUNCT	.	_	43	punct	_	_
+59	.	.	PUNCT	.	_	43	punct	_	_
 
 # sent_id = test-s662
 # text = O estado sobre a geração de empregos formais no setor extrativo mineral no Pará e demais estados do Norte foi elaborado e analisado com base em informações oficiais do Ministério do Trabalho, segundo os dados do Cadastro Geral de Empregados e Desempregados -- Caged.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	estado	estado	NOUN	NOUN	_	24	nsubj:pass	_	_
 3	sobre	_	ADP	ADP	_	5	case	_	_
-4	a	_	DET	DET	_	5	det	_	_
+4	a	a	DET	DET	_	5	det	_	_
 5	geração	geração	NOUN	NOUN	_	2	nmod	_	_
-6	de	_	ADP	ADP	_	7	case	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
 7	empregos	emprego	NOUN	NOUN	_	5	nmod	_	_
 8	formais	formal	ADJ	ADJ	_	7	amod	_	_
 9-10	no	_	_	_	_	_	_	_	_
@@ -233,7 +233,7 @@
 14	em	em	ADP	ADP	_	16	case	_	_
 15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	Pará	_	PROPN	PNOUN	_	5	nmod	_	_
-17	e	_	CCONJ	CONJ	_	19	cc	_	_
+17	e	e	CCONJ	CONJ	_	19	cc	_	_
 18	demais	_	DET	DET	_	19	det	_	_
 19	estados	estado	NOUN	NOUN	_	16	conj	_	_
 20-21	do	_	_	_	_	_	_	_	_
@@ -242,11 +242,11 @@
 22	Norte	_	PROPN	PNOUN	_	19	nmod	_	_
 23	foi	_	AUX	AUX	_	24	aux:pass	_	_
 24	elaborado	elaborar	VERB	VERB	_	0	root	_	_
-25	e	_	CCONJ	CONJ	_	26	cc	_	_
+25	e	e	CCONJ	CONJ	_	26	cc	_	_
 26	analisado	analisar	VERB	VERB	_	24	conj	_	_
-27	com	_	ADP	ADP	_	28	case	_	_
+27	com	com	ADP	ADP	_	28	case	_	_
 28	base	base	NOUN	NOUN	_	24	nmod	_	_
-29	em	_	ADP	ADP	_	30	case	_	_
+29	em	em	ADP	ADP	_	30	case	_	_
 30	informações	informação	NOUN	NOUN	_	28	nmod	_	_
 31	oficiais	oficial	ADJ	ADJ	_	30	amod	_	_
 32-33	do	_	_	_	_	_	_	_	_
@@ -257,30 +257,30 @@
 35	de	de	ADP	ADP	_	37	case	_	_
 36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
 37	Trabalho	_	PROPN	PNOUN	_	34	nmod	_	SpaceAfter=No
-38	,	_	PUNCT	.	_	41	punct	_	_
+38	,	,	PUNCT	.	_	41	punct	_	_
 39	segundo	_	ADP	ADP	_	41	case	_	_
-40	os	_	DET	DET	_	41	det	_	_
+40	os	o	DET	DET	_	41	det	_	_
 41	dados	dado	NOUN	NOUN	_	24	nmod	_	_
 42-43	do	_	_	_	_	_	_	_	_
 42	de	de	ADP	ADP	_	44	case	_	_
 43	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
 44	Cadastro	_	PROPN	PNOUN	_	41	nmod	_	_
 45	Geral	_	PROPN	PNOUN	_	44	amod	_	_
-46	de	_	ADP	ADP	_	47	case	_	_
+46	de	de	ADP	ADP	_	47	case	_	_
 47	Empregados	_	PROPN	PNOUN	_	44	nmod	_	_
-48	e	_	CCONJ	CONJ	_	49	cc	_	_
+48	e	e	CCONJ	CONJ	_	49	cc	_	_
 49	Desempregados	_	PROPN	PNOUN	_	47	conj	_	_
 50	--	_	PUNCT	.	_	51	punct	_	_
 51	Caged	_	PROPN	PNOUN	_	44	appos	_	SpaceAfter=No
-52	.	_	PUNCT	.	_	24	punct	_	_
+52	.	.	PUNCT	.	_	24	punct	_	_
 
 # sent_id = test-s663
 # text = Autoridades de Chicago alertaram os moradores para ficarem distantes da costa do Lago Michigan e a cidade se prepara para receber ventos de 96 km/h e ondas de mais de 7 m até quarta-feira.
 1	Autoridades	autoridade	NOUN	NOUN	_	4	nsubj	_	_
-2	de	_	ADP	ADP	_	3	case	_	_
+2	de	de	ADP	ADP	_	3	case	_	_
 3	Chicago	_	PROPN	PNOUN	_	1	nmod	_	_
 4	alertaram	alertar	VERB	VERB	_	0	root	_	_
-5	os	_	DET	DET	_	6	det	_	_
+5	os	o	DET	DET	_	6	det	_	_
 6	moradores	morador	NOUN	NOUN	_	4	obj	_	_
 7	para	_	ADP	ADP	_	8	mark	_	_
 8	ficarem	ficar	VERB	VERB	_	4	xcomp	_	_
@@ -302,23 +302,23 @@
 22	para	_	ADP	ADP	_	23	mark	_	_
 23	receber	receber	VERB	VERB	_	21	xcomp	_	_
 24	ventos	vento	NOUN	NOUN	_	23	obj	_	_
-25	de	_	ADP	ADP	_	27	case	_	_
+25	de	de	ADP	ADP	_	27	case	_	_
 26	96	_	NUM	NUM	NumType=Card	27	nummod	_	_
 27	km	km	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
 28	/	/	PUNCT	.	_	27	punct	_	SpaceAfter=No
 29	h	h	NOUN	_	_	27	conj	_	_
 30	e	e	CCONJ	_	_	31	cc	_	_
 31	ondas	onda	NOUN	NOUN	_	24	conj	_	_
-32	de	_	ADP	ADP	_	36	case	_	_
+32	de	de	ADP	ADP	_	36	case	_	_
 33	mais	mais	ADV	ADV	_	35	advmod	_	_
-34	de	_	ADP	ADP	_	35	case	_	_
+34	de	de	ADP	ADP	_	35	case	_	_
 35	7	_	NUM	NUM	NumType=Card	36	nummod	_	_
 36	m	m	NOUN	NOUN	_	31	nmod	_	_
 37	até	_	ADP	ADP	_	38	case	_	_
 38	quarta	_	NOUN	PNOUN	_	23	obl	_	SpaceAfter=No
-39	-	_	PUNCT	.	_	40	punct	_	SpaceAfter=No
+39	-	-	PUNCT	.	_	40	punct	_	SpaceAfter=No
 40	feira	_	NOUN	PNOUN	_	38	flat:name	_	SpaceAfter=No
-41	.	_	PUNCT	.	_	4	punct	_	_
+41	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = test-s664
 # text = José Aldo foi cortado do evento, em decorrência duma lesão no pé.
@@ -330,18 +330,18 @@
 5	de	de	ADP	ADP	_	7	case	_	_
 6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	evento	evento	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	10	punct	_	_
-9	em	_	ADP	ADP	_	10	case	_	_
+8	,	,	PUNCT	.	_	10	punct	_	_
+9	em	em	ADP	ADP	_	10	case	_	_
 10	decorrência	decorrência	NOUN	NOUN	_	4	nmod	_	_
 11-12	duma	_	_	_	_	_	_	_	_
-11	de	_	ADP	ADP	_	13	case	_	_
-12	uma	_	DET	DET	_	13	det	_	_
+11	de	de	ADP	ADP	_	13	case	_	_
+12	uma	um	DET	DET	_	13	det	_	_
 13	lesão	lesão	NOUN	NOUN	_	10	nmod	_	_
 14-15	no	_	_	_	_	_	_	_	_
 14	em	em	ADP	ADP	_	16	case	_	_
 15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	pé	pé	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
-17	.	_	PUNCT	.	_	4	punct	_	_
+17	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = test-s665
 # text = Meu camp está perto de começar".
@@ -351,76 +351,76 @@
 4	perto	perto	ADV	ADV	_	3	advmod	_	_
 5	de	_	ADP	ADP	_	6	mark	_	_
 6	começar	começar	VERB	VERB	_	4	nmod	_	SpaceAfter=No
-7	"	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
-8	.	_	PUNCT	.	_	3	punct	_	_
+7	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = test-s666
 # text = O francês derrotou o cipriota Marcos Baghdatis por 2 a 0 (6 / 2 e 7 / 6) e agora terá pela frente o tenista tcheco Tomas Berdych, que teve um pouco de dificuldade, mas conseguiu vencer o norte - americano Sam Queerey por 2 a 1 (6 / 2, 6 / 7 e 6 / 4).
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	francês	francês	NOUN	NOUN	_	3	nsubj	_	_
 3	derrotou	derrotar	VERB	VERB	_	0	root	_	_
-4	o	_	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	_	5	det	_	_
 5	cipriota	cipriota	NOUN	NOUN	_	3	obj	_	_
 6	Marcos	_	PROPN	PNOUN	_	5	appos	_	_
 7	Baghdatis	_	PROPN	PNOUN	_	6	flat	_	_
-8	por	_	ADP	ADP	_	9	case	_	_
+8	por	por	ADP	ADP	_	9	case	_	_
 9	2	_	NUM	NUM	NumType=Card	3	nmod	_	_
 10	a	_	ADP	ADP	_	11	case	_	_
 11	0	_	NUM	NUM	NumType=Card	9	nmod	_	_
-12	(	_	PUNCT	.	_	13	punct	_	SpaceAfter=No
+12	(	(	PUNCT	.	_	13	punct	_	SpaceAfter=No
 13	6	_	NUM	NUM	NumType=Card	9	appos	_	_
-14	/	_	PUNCT	.	_	15	punct	_	_
+14	/	/	PUNCT	.	_	15	punct	_	_
 15	2	_	NUM	NUM	NumType=Card	13	conj	_	_
-16	e	_	CCONJ	CONJ	_	17	cc	_	_
+16	e	e	CCONJ	CONJ	_	17	cc	_	_
 17	7	_	NUM	NUM	NumType=Card	13	conj	_	_
-18	/	_	PUNCT	.	_	19	punct	_	_
+18	/	/	PUNCT	.	_	19	punct	_	_
 19	6	_	NUM	NUM	NumType=Card	17	conj	_	SpaceAfter=No
-20	)	_	PUNCT	.	_	13	punct	_	_
-21	e	_	CCONJ	CONJ	_	23	cc	_	_
+20	)	)	PUNCT	.	_	13	punct	_	_
+21	e	e	CCONJ	CONJ	_	23	cc	_	_
 22	agora	agora	ADV	ADV	_	23	advmod	_	_
 23	terá	ter	VERB	VERB	_	3	conj	_	_
 24-25	pela	_	_	_	_	_	_	_	_
 24	por	por	ADP	ADP	_	26	case	_	_
 25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	frente	frente	NOUN	NOUN	_	23	nmod	_	_
-27	o	_	DET	DET	_	28	det	_	_
+27	o	o	DET	DET	_	28	det	_	_
 28	tenista	tenista	NOUN	NOUN	_	23	obj	_	_
 29	tcheco	tcheco	ADJ	ADJ	_	28	amod	_	_
 30	Tomas	_	PROPN	PNOUN	_	28	appos	_	_
 31	Berdych	_	PROPN	PNOUN	_	30	flat	_	SpaceAfter=No
-32	,	_	PUNCT	.	_	34	punct	_	_
+32	,	,	PUNCT	.	_	34	punct	_	_
 33	que	_	PRON	PRON	_	34	nsubj	_	_
 34	teve	ter	VERB	VERB	_	28	acl:relcl	_	_
-35	um	_	DET	DET	_	36	det	_	_
+35	um	um	DET	DET	_	36	det	_	_
 36	pouco	pouco	NOUN	NOUN	_	34	obj	_	_
-37	de	_	ADP	ADP	_	38	case	_	_
+37	de	de	ADP	ADP	_	38	case	_	_
 38	dificuldade	dificuldade	NOUN	NOUN	_	36	nmod	_	SpaceAfter=No
-39	,	_	PUNCT	.	_	41	punct	_	_
+39	,	,	PUNCT	.	_	41	punct	_	_
 40	mas	_	CCONJ	CONJ	_	41	cc	_	_
 41	conseguiu	conseguir	VERB	VERB	_	34	conj	_	_
 42	vencer	vencer	VERB	VERB	_	41	xcomp	_	_
-43	o	_	DET	DET	_	46	det	_	_
+43	o	o	DET	DET	_	46	det	_	_
 44	norte	norte	ADJ	ADJ	_	46	amod	_	_
-45	-	_	PUNCT	.	_	46	punct	_	_
+45	-	-	PUNCT	.	_	46	punct	_	_
 46	americano	americano	NOUN	NOUN	_	42	obj	_	_
 47	Sam	_	PROPN	PNOUN	_	46	appos	_	_
 48	Queerey	_	PROPN	PNOUN	_	47	flat	_	_
-49	por	_	ADP	ADP	_	50	case	_	_
+49	por	por	ADP	ADP	_	50	case	_	_
 50	2	_	NUM	NUM	NumType=Card	42	nmod	_	_
 51	a	_	ADP	ADP	_	52	case	_	_
 52	1	_	NUM	NUM	NumType=Card	50	nmod	_	_
-53	(	_	PUNCT	.	_	54	punct	_	SpaceAfter=No
+53	(	(	PUNCT	.	_	54	punct	_	SpaceAfter=No
 54	6	_	NUM	NUM	NumType=Card	50	appos	_	_
-55	/	_	PUNCT	.	_	56	punct	_	_
+55	/	/	PUNCT	.	_	56	punct	_	_
 56	2	_	NUM	NUM	NumType=Card	54	conj	_	SpaceAfter=No
-57	,	_	PUNCT	.	_	58	punct	_	_
+57	,	,	PUNCT	.	_	58	punct	_	_
 58	6	_	NUM	NUM	NumType=Card	54	conj	_	_
-59	/	_	PUNCT	.	_	60	punct	_	_
+59	/	/	PUNCT	.	_	60	punct	_	_
 60	7	_	NUM	NUM	NumType=Card	58	conj	_	_
-61	e	_	CCONJ	CONJ	_	62	cc	_	_
+61	e	e	CCONJ	CONJ	_	62	cc	_	_
 62	6	_	NUM	NUM	NumType=Card	54	conj	_	_
-63	/	_	PUNCT	.	_	64	punct	_	_
+63	/	/	PUNCT	.	_	64	punct	_	_
 64	4	_	NUM	NUM	NumType=Card	62	conj	_	SpaceAfter=No
-65	)	_	PUNCT	.	_	62	punct	_	SpaceAfter=No
-66	.	_	PUNCT	.	_	3	punct	_	_
+65	)	)	PUNCT	.	_	62	punct	_	SpaceAfter=No
+66	.	.	PUNCT	.	_	3	punct	_	_
 

@@ -1,18 +1,18 @@
 # sent_id = dev-s21
 # text = A tendência, no entanto, pode ser muito perigosa, já que normalmente está vinculada à restrição de nutrientes na dieta.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	tendência	tendência	NOUN	NOUN	_	9	nsubj	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	6	punct	_	_
+3	,	,	PUNCT	.	_	6	punct	_	_
 4-5	no	_	_	_	_	_	_	_	_
 4	em	em	ADP	ADP	_	6	case	_	_
 5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	entanto	entanto	ADV	ADV	_	9	nmod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	6	punct	_	_
+7	,	,	PUNCT	.	_	6	punct	_	_
 8	pode	_	AUX	AUX	_	9	aux	_	_
 9	ser	ser	VERB	VERB	_	0	root	_	_
 10	muito	muito	ADV	ADV	_	11	advmod	_	_
 11	perigosa	perigoso	ADJ	ADJ	_	9	xcomp:adj	_	SpaceAfter=No
-12	,	_	PUNCT	.	_	16	punct	_	_
+12	,	,	PUNCT	.	_	16	punct	_	_
 13	já	já	ADV	ADV	_	16	mark	_	_
 14	que	_	CCONJ	CONJ	_	13	fixed	_	_
 15	normalmente	normalmente	ADV	ADV	_	16	advmod	_	_
@@ -22,35 +22,35 @@
 18	a	a	ADP	ADP	_	20	case	_	_
 19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	restrição	restrição	NOUN	NOUN	_	17	nmod	_	_
-21	de	_	ADP	ADP	_	22	case	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
 22	nutrientes	nutriente	NOUN	NOUN	_	20	nmod	_	_
 23-24	na	_	_	_	_	_	_	_	_
 23	em	em	ADP	ADP	_	25	case	_	_
 24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	dieta	dieta	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
-26	.	_	PUNCT	.	_	9	punct	_	_
+26	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = dev-s22
 # text = Para o Planejamento, as áreas prioritárias serão educação, saúde e segurança pública.
 1	Para	_	ADP	ADP	_	3	case	_	_
-2	o	_	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	_	3	det	_	_
 3	Planejamento	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
-5	as	_	DET	DET	_	6	det	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	as	o	DET	DET	_	6	det	_	_
 6	áreas	área	NOUN	NOUN	_	9	nsubj	_	_
 7	prioritárias	prioritário	ADJ	ADJ	_	6	amod	_	_
 8	serão	ser	AUX	AUX	_	9	cop	_	_
 9	educação	educação	NOUN	NOUN	_	0	root	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	11	punct	_	_
+10	,	,	PUNCT	.	_	11	punct	_	_
 11	saúde	saúde	NOUN	NOUN	_	9	conj	_	_
-12	e	_	CCONJ	CONJ	_	13	cc	_	_
+12	e	e	CCONJ	CONJ	_	13	cc	_	_
 13	segurança	segurança	NOUN	NOUN	_	9	conj	_	_
 14	pública	público	ADJ	ADJ	_	13	amod	_	SpaceAfter=No
-15	.	_	PUNCT	.	_	9	punct	_	_
+15	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = dev-s23
 # text = O conceito é também muito útil na elaboração e planificação de políticas e programas de saúde, uma vez que permite organizar os recursos existentes para os problemas de saúde mais importantes.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	conceito	conceito	NOUN	NOUN	_	3	nsubj	_	_
 3	é	ser	VERB	VERB	_	0	root	_	_
 4	também	também	ADV	ADV	_	3	advmod	_	_
@@ -60,45 +60,45 @@
 7	em	em	ADP	ADP	_	9	case	_	_
 8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	elaboração	elaboração	NOUN	NOUN	_	3	nmod	_	_
-10	e	_	CCONJ	CONJ	_	11	cc	_	_
+10	e	e	CCONJ	CONJ	_	11	cc	_	_
 11	planificação	planificação	NOUN	NOUN	_	9	conj	_	_
-12	de	_	ADP	ADP	_	13	case	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
 13	políticas	_	NOUN	NOUN	_	9	nmod	_	_
-14	e	_	CCONJ	CONJ	_	15	cc	_	_
+14	e	e	CCONJ	CONJ	_	15	cc	_	_
 15	programas	programa	NOUN	NOUN	_	13	conj	_	_
-16	de	_	ADP	ADP	_	17	case	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
 17	saúde	saúde	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
-18	,	_	PUNCT	.	_	22	punct	_	_
+18	,	,	PUNCT	.	_	22	punct	_	_
 19	uma	_	DET	DET	_	22	mark	_	_
 20	vez	vez	NOUN	NOUN	_	19	fixed	_	_
 21	que	_	CCONJ	CONJ	_	19	fixed	_	_
 22	permite	permitir	VERB	VERB	_	3	advcl	_	_
 23	organizar	organizar	VERB	VERB	_	22	xcomp	_	_
-24	os	_	DET	DET	_	25	det	_	_
+24	os	o	DET	DET	_	25	det	_	_
 25	recursos	recurso	NOUN	NOUN	_	23	obj	_	_
 26	existentes	existente	ADJ	ADJ	_	25	amod	_	_
-27	para	_	ADP	ADP	_	29	case	_	_
-28	os	_	DET	DET	_	29	det	_	_
+27	para	para	ADP	ADP	_	29	case	_	_
+28	os	o	DET	DET	_	29	det	_	_
 29	problemas	problema	NOUN	NOUN	_	25	nmod	_	_
-30	de	_	ADP	ADP	_	31	case	_	_
+30	de	de	ADP	ADP	_	31	case	_	_
 31	saúde	saúde	NOUN	NOUN	_	29	nmod	_	_
 32	mais	mais	ADV	ADV	_	33	advmod	_	_
 33	importantes	importante	ADJ	ADJ	_	29	amod	_	SpaceAfter=No
-34	.	_	PUNCT	.	_	3	punct	_	_
+34	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = dev-s24
 # text = Em seu consultório, a consulta custa R $ 450, sete vez o que pagou cada um dos dez pacientes atendidos naquela tarde.
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	seu	seu	DET	DET	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det	_	_
 3	consultório	consultório	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
-5	a	_	DET	DET	_	6	det	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	a	a	DET	DET	_	6	det	_	_
 6	consulta	consulta	NOUN	NOUN	_	7	nsubj	_	_
 7	custa	custar	VERB	VERB	_	0	root	_	_
 8	R	r	NOUN	NOUN	_	7	obj	_	_
 9	$	_	SYM	SYM	_	8	flat	_	_
 10	450	_	NUM	NUM	NumType=Card	8	nummod	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	8	punct	_	_
+11	,	,	PUNCT	.	_	8	punct	_	_
 12	sete	_	NUM	NUM	NumType=Card	13	nummod	_	_
 13	vez	vez	NOUN	NOUN	_	14	nmod	_	_
 14	o	_	PRON	PRON	_	8	appos	_	_
@@ -114,11 +114,11 @@
 23	atendidos	atender	VERB	VERB	_	22	acl:part	_	_
 24	naquela	_	ADP	ADP	_	25	case	_	_
 25	tarde	tarde	NOUN	NOUN	_	23	nmod	_	SpaceAfter=No
-26	.	_	PUNCT	.	_	7	punct	_	_
+26	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = dev-s25
 # text = A Lenovo ainda investe no mercado de desktops e apresentou três lançamentos em comunicado enviado à imprensa na CES 2013: o IdeaCentre A730, o IdeaCentre C540 e o Erazer X700, desenvolvido para garantir aos usuários um alto desempenho em jogos.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	Lenovo	_	PROPN	PNOUN	_	4	nsubj	_	_
 3	ainda	ainda	ADV	ADV	_	4	advmod	_	_
 4	investe	investir	VERB	VERB	_	0	root	_	_
@@ -126,13 +126,13 @@
 5	em	em	ADP	ADP	_	7	case	_	_
 6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	mercado	mercado	NOUN	NOUN	_	4	nmod	_	_
-8	de	_	ADP	ADP	_	9	case	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
 9	desktops	_	NOUN	NOUN	_	7	nmod	_	_
-10	e	_	CCONJ	CONJ	_	11	cc	_	_
+10	e	e	CCONJ	CONJ	_	11	cc	_	_
 11	apresentou	apresentar	VERB	VERB	_	4	conj	_	_
 12	três	_	NUM	NUM	NumType=Card	13	nummod	_	_
 13	lançamentos	lançamento	NOUN	NOUN	_	11	obj	_	_
-14	em	_	ADP	ADP	_	15	case	_	_
+14	em	em	ADP	ADP	_	15	case	_	_
 15	comunicado	comunicado	NOUN	NOUN	_	11	obl	_	_
 16	enviado	enviar	VERB	VERB	_	15	acl:part	_	_
 17-18	à	_	_	_	_	_	_	_	_
@@ -144,19 +144,19 @@
 21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	CES	_	PROPN	PNOUN	_	16	nmod	_	_
 23	2013	_	NUM	NUM	NumType=Card	22	appos	_	SpaceAfter=No
-24	:	_	PUNCT	.	_	26	punct	_	_
-25	o	_	DET	DET	_	26	det	_	_
+24	:	:	PUNCT	.	_	26	punct	_	_
+25	o	o	DET	DET	_	26	det	_	_
 26	IdeaCentre	_	PROPN	PNOUN	_	13	appos	_	_
 27	A730	_	PROPN	PNOUN	_	26	flat	_	SpaceAfter=No
-28	,	_	PUNCT	.	_	30	punct	_	_
-29	o	_	DET	DET	_	30	det	_	_
+28	,	,	PUNCT	.	_	30	punct	_	_
+29	o	o	DET	DET	_	30	det	_	_
 30	IdeaCentre	_	PROPN	PNOUN	_	26	conj	_	_
 31	C540	_	PROPN	PNOUN	_	30	flat	_	_
 32	e	e	CCONJ	CONJ	_	34	cc	_	_
 33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
 34	Erazer	_	PROPN	PNOUN	_	26	conj	_	_
 35	X700	_	PROPN	PNOUN	_	34	flat	_	SpaceAfter=No
-36	,	_	PUNCT	.	_	37	punct	_	_
+36	,	,	PUNCT	.	_	37	punct	_	_
 37	desenvolvido	desenvolver	VERB	VERB	_	34	acl:part	_	_
 38	para	_	ADP	ADP	_	39	mark	_	_
 39	garantir	garantir	VERB	VERB	_	37	advcl	_	_
@@ -164,57 +164,57 @@
 40	a	a	ADP	ADP	_	42	case	_	_
 41	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	42	det	_	_
 42	usuários	usuário	NOUN	NOUN	_	39	iobj	_	_
-43	um	_	DET	DET	_	45	det	_	_
+43	um	um	DET	DET	_	45	det	_	_
 44	alto	alto	ADJ	ADJ	_	45	amod	_	_
 45	desempenho	desempenho	NOUN	NOUN	_	39	obj	_	_
-46	em	_	ADP	ADP	_	47	case	_	_
+46	em	em	ADP	ADP	_	47	case	_	_
 47	jogos	jogo	NOUN	NOUN	_	45	nmod	_	SpaceAfter=No
-48	.	_	PUNCT	.	_	4	punct	_	_
+48	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = dev-s26
 # text = Dois anos depois, ele foi preso -- e eu nunca o vi novamente.
 1	Dois	_	NUM	NUM	NumType=Card	2	nummod	_	_
 2	anos	ano	NOUN	NOUN	_	3	nmod	_	_
 3	depois	depois	ADV	ADV	_	7	advmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
 5	ele	_	PRON	PRON	_	7	nsubj:pass	_	_
 6	foi	_	AUX	AUX	_	7	aux:pass	_	_
 7	preso	_	VERB	VERB	_	0	root	_	_
 8	--	_	PUNCT	.	_	13	punct	_	_
-9	e	_	CCONJ	CONJ	_	13	cc	_	_
+9	e	e	CCONJ	CONJ	_	13	cc	_	_
 10	eu	_	PRON	PRON	_	13	nsubj	_	_
 11	nunca	nunca	ADV	ADV	_	13	advmod	_	_
 12	o	_	PRON	PRON	_	13	obj	_	_
 13	vi	_	VERB	VERB	_	7	conj	_	_
 14	novamente	novamente	ADV	ADV	_	13	advmod	_	SpaceAfter=No
-15	.	_	PUNCT	.	_	7	punct	_	_
+15	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = dev-s27
 # text = "Às 17 horas, aproximadamente, os juízes foram informados de que o motim terminara", diz o documento.
-1	"	_	PUNCT	.	_	12	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	12	punct	_	SpaceAfter=No
 2-3	Às	_	_	_	_	_	_	_	_
 2	A	a	ADP	ADP	_	5	case	_	_
 3	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 4	17	_	NUM	NUM	NumType=Card	5	nummod	_	_
 5	horas	hora	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	7	punct	_	_
+6	,	,	PUNCT	.	_	7	punct	_	_
 7	aproximadamente	aproximadamente	ADV	ADV	_	5	advmod	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	7	punct	_	_
-9	os	_	DET	DET	_	10	det	_	_
+8	,	,	PUNCT	.	_	7	punct	_	_
+9	os	o	DET	DET	_	10	det	_	_
 10	juízes	juiz	NOUN	NOUN	_	12	nsubj:pass	_	_
 11	foram	_	AUX	AUX	_	12	aux:pass	_	_
 12	informados	informar	VERB	VERB	_	20	ccomp	_	_
 13	de	_	ADP	ADP	_	17	mark	_	_
-14	que	_	CCONJ	CONJ	_	17	mark	_	_
-15	o	_	DET	DET	_	16	det	_	_
+14	que	que	CCONJ	CONJ	_	17	mark	_	_
+15	o	o	DET	DET	_	16	det	_	_
 16	motim	motim	NOUN	NOUN	_	17	nsubj	_	_
 17	terminara	terminar	VERB	VERB	_	12	nmod	_	SpaceAfter=No
-18	"	_	PUNCT	.	_	12	punct	_	SpaceAfter=No
-19	,	_	PUNCT	.	_	20	punct	_	_
+18	"	"	PUNCT	.	_	12	punct	_	SpaceAfter=No
+19	,	,	PUNCT	.	_	20	punct	_	_
 20	diz	dizer	VERB	VERB	_	0	root	_	_
-21	o	_	DET	DET	_	22	det	_	_
+21	o	o	DET	DET	_	22	det	_	_
 22	documento	documento	NOUN	NOUN	_	20	nsubj	_	SpaceAfter=No
-23	.	_	PUNCT	.	_	20	punct	_	_
+23	.	.	PUNCT	.	_	20	punct	_	_
 
 # sent_id = dev-s28
 # text = Na ocasião, o Brasil fazia campanha irregular nas Eliminatórias e vinha de dois trabalhos diferentes em menos dum ano.
@@ -222,8 +222,8 @@
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	ocasião	ocasião	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
-5	o	_	DET	DET	_	6	det	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	o	o	DET	DET	_	6	det	_	_
 6	Brasil	_	PROPN	PNOUN	_	7	nsubj	_	_
 7	fazia	fazer	VERB	VERB	_	0	root	_	_
 8	campanha	campanha	NOUN	NOUN	_	7	obj	_	_
@@ -232,19 +232,19 @@
 10	em	em	ADP	ADP	_	12	case	_	_
 11	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
 12	Eliminatórias	_	PROPN	PNOUN	_	7	nmod	_	_
-13	e	_	CCONJ	CONJ	_	14	cc	_	_
+13	e	e	CCONJ	CONJ	_	14	cc	_	_
 14	vinha	vir	VERB	VERB	_	7	conj	_	_
-15	de	_	ADP	ADP	_	17	case	_	_
+15	de	de	ADP	ADP	_	17	case	_	_
 16	dois	_	NUM	NUM	NumType=Card	17	nummod	_	_
 17	trabalhos	trabalho	NOUN	NOUN	_	14	nmod	_	_
 18	diferentes	diferente	ADJ	ADJ	_	17	amod	_	_
 19	em	_	ADP	ADP	_	20	mark	_	_
 20	menos	menos	ADV	ADV	_	14	nmod	_	_
 21-22	dum	_	_	_	_	_	_	_	_
-21	de	_	ADP	ADP	_	23	case	_	_
+21	de	de	ADP	ADP	_	23	case	_	_
 22	um	_	NUM	NUM	NumType=Card	23	nummod	_	_
 23	ano	ano	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
-24	.	_	PUNCT	.	_	7	punct	_	_
+24	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = dev-s29
 # text = Autor do primeiro gol do Bahia na vitória sobre o Botafogo por 2 a 0, no último domingo, em Pituaçu, o volante Fahel pode ficar de fora da próxima partida, por conta duma torção no tornozelo direito.
@@ -263,23 +263,23 @@
 10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	vitória	vitória	NOUN	NOUN	_	1	nmod	_	_
 12	sobre	_	ADP	ADP	_	14	case	_	_
-13	o	_	DET	DET	_	14	det	_	_
+13	o	o	DET	DET	_	14	det	_	_
 14	Botafogo	_	PROPN	PNOUN	_	11	nmod	_	_
-15	por	_	ADP	ADP	_	16	case	_	_
+15	por	por	ADP	ADP	_	16	case	_	_
 16	2	_	NUM	NUM	NumType=Card	11	nmod	_	_
 17	a	_	ADP	ADP	_	18	case	_	_
 18	0	_	NUM	NUM	NumType=Card	16	nmod	_	SpaceAfter=No
-19	,	_	PUNCT	.	_	23	punct	_	_
+19	,	,	PUNCT	.	_	23	punct	_	_
 20-21	no	_	_	_	_	_	_	_	_
 20	em	em	ADP	ADP	_	23	case	_	_
 21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 22	último	último	ADJ	ADJ	_	23	amod	_	_
 23	domingo	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
-24	,	_	PUNCT	.	_	26	punct	_	_
-25	em	_	ADP	ADP	_	26	case	_	_
+24	,	,	PUNCT	.	_	26	punct	_	_
+25	em	em	ADP	ADP	_	26	case	_	_
 26	Pituaçu	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
-27	,	_	PUNCT	.	_	29	punct	_	_
-28	o	_	DET	DET	_	29	det	_	_
+27	,	,	PUNCT	.	_	29	punct	_	_
+28	o	o	DET	DET	_	29	det	_	_
 29	volante	volante	NOUN	NOUN	_	1	appos	_	_
 30	Fahel	_	PROPN	PNOUN	_	29	appos	_	_
 31	pode	_	AUX	AUX	_	32	aux	_	_
@@ -291,36 +291,36 @@
 36	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
 37	próxima	próximo	ADJ	ADJ	_	38	amod	_	_
 38	partida	partida	NOUN	NOUN	_	34	nmod	_	SpaceAfter=No
-39	,	_	PUNCT	.	_	41	punct	_	_
-40	por	_	ADP	ADP	_	41	case	_	_
+39	,	,	PUNCT	.	_	41	punct	_	_
+40	por	por	ADP	ADP	_	41	case	_	_
 41	conta	conta	NOUN	NOUN	_	32	nmod	_	_
 42-43	duma	_	_	_	_	_	_	_	_
-42	de	_	ADP	ADP	_	44	case	_	_
-43	uma	_	DET	DET	_	44	det	_	_
+42	de	de	ADP	ADP	_	44	case	_	_
+43	uma	um	DET	DET	_	44	det	_	_
 44	torção	torção	NOUN	NOUN	_	41	nmod	_	_
 45-46	no	_	_	_	_	_	_	_	_
 45	em	em	ADP	ADP	_	47	case	_	_
 46	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
 47	tornozelo	tornozelo	NOUN	NOUN	_	44	nmod	_	_
 48	direito	direito	ADJ	ADJ	_	47	amod	_	SpaceAfter=No
-49	.	_	PUNCT	.	_	32	punct	_	_
+49	.	.	PUNCT	.	_	32	punct	_	_
 
 # sent_id = dev-s30
 # text = O zagueiro Pepe foi encaminhado a um hospital em Madri após ter sofrido um choque na cabeça na partida entre Real Madrid e Valencia, realizada neste domingo.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	zagueiro	zagueiro	NOUN	NOUN	_	5	nsubj:pass	_	_
 3	Pepe	_	PROPN	PNOUN	_	2	appos	_	_
 4	foi	_	AUX	AUX	_	5	aux:pass	_	_
 5	encaminhado	encaminhar	VERB	VERB	_	0	root	_	_
 6	a	_	ADP	ADP	_	8	case	_	_
-7	um	_	DET	DET	_	8	det	_	_
+7	um	um	DET	DET	_	8	det	_	_
 8	hospital	hospital	NOUN	NOUN	_	5	nmod	_	_
-9	em	_	ADP	ADP	_	10	case	_	_
+9	em	em	ADP	ADP	_	10	case	_	_
 10	Madri	_	PROPN	PNOUN	_	8	nmod	_	_
 11	após	_	ADP	ADP	_	13	mark	_	_
 12	ter	ter	AUX	AUX	_	13	aux	_	_
 13	sofrido	sofrer	VERB	VERB	_	5	advcl	_	_
-14	um	_	DET	DET	_	15	det	_	_
+14	um	um	DET	DET	_	15	det	_	_
 15	choque	choque	NOUN	NOUN	_	13	obj	_	_
 16-17	na	_	_	_	_	_	_	_	_
 16	em	em	ADP	ADP	_	18	case	_	_
@@ -333,11 +333,11 @@
 22	entre	_	ADP	ADP	_	24	case	_	_
 23	Real	_	PROPN	PNOUN	_	24	amod	_	_
 24	Madrid	_	PROPN	PNOUN	_	21	nmod	_	_
-25	e	_	CCONJ	CONJ	_	26	cc	_	_
+25	e	e	CCONJ	CONJ	_	26	cc	_	_
 26	Valencia	_	PROPN	PNOUN	_	24	conj	_	SpaceAfter=No
-27	,	_	PUNCT	.	_	28	punct	_	_
+27	,	,	PUNCT	.	_	28	punct	_	_
 28	realizada	realizar	VERB	VERB	_	21	acl:part	_	_
 29	neste	_	ADP	ADP	_	30	case	_	_
 30	domingo	_	PROPN	PNOUN	_	28	nmod	_	SpaceAfter=No
-31	.	_	PUNCT	.	_	5	punct	_	_
+31	.	.	PUNCT	.	_	5	punct	_	_
 

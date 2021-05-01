@@ -8,28 +8,28 @@
 4	de	de	ADP	ADP	_	6	case	_	_
 5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Japão	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	9	punct	_	_
-8	a	_	DET	DET	_	9	det	_	_
+7	,	,	PUNCT	.	_	9	punct	_	_
+8	a	a	DET	DET	_	9	det	_	_
 9	terceira	_	NOUN	NOUN	_	3	appos	_	_
 10-11	do	_	_	_	_	_	_	_	_
 10	de	de	ADP	ADP	_	12	case	_	_
 11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	mundo	mundo	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	9	punct	_	_
+13	,	,	PUNCT	.	_	9	punct	_	_
 14	depois	depois	ADV	ADV	_	9	advmod	_	_
 15-16	dos	_	_	_	_	_	_	_	_
 15	de	de	ADP	ADP	_	17	case	_	_
 16	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
 17	EUA	_	PROPN	PNOUN	_	14	nmod	_	_
-18	e	_	CCONJ	CONJ	_	21	cc	_	_
+18	e	e	CCONJ	CONJ	_	21	cc	_	_
 19-20	da	_	_	_	_	_	_	_	_
 19	de	de	ADP	ADP	_	21	case	_	_
 20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	China	_	PROPN	PNOUN	_	17	conj	_	SpaceAfter=No
-22	,	_	PUNCT	.	_	14	punct	_	_
+22	,	,	PUNCT	.	_	14	punct	_	_
 23	100	_	NUM	NUM	NumType=Card	24	nummod	_	_
 24	bilhões	_	NUM	NUM	NumType=Card	26	nummod	_	_
-25	de	_	ADP	ADP	_	26	case	_	_
+25	de	de	ADP	ADP	_	26	case	_	_
 26	euros	euro	NOUN	NOUN	_	27	nsubj	_	_
 27	correspondem	corresponder	VERB	VERB	_	0	root	_	_
 28	a	_	ADP	ADP	_	30	case	_	_
@@ -41,14 +41,14 @@
 33	Produto	_	PROPN	PNOUN	_	30	nmod	_	_
 34	Interno	_	PROPN	PNOUN	_	33	amod	_	_
 35	Bruto	_	PROPN	PNOUN	_	33	amod	_	_
-36	(	_	PUNCT	.	_	37	punct	_	SpaceAfter=No
+36	(	(	PUNCT	.	_	37	punct	_	SpaceAfter=No
 37	PIB	_	PROPN	PNOUN	_	33	appos	_	SpaceAfter=No
-38	)	_	PUNCT	.	_	37	punct	_	SpaceAfter=No
-39	.	_	PUNCT	.	_	27	punct	_	_
+38	)	)	PUNCT	.	_	37	punct	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	27	punct	_	_
 
 # sent_id = train-s7207
 # text = O Santo Antônio Futebol Clube do Distrito da Picadinha estreou com uma vitória neste domingo pela série B1 no Campeonato Estadual de futebol amador contra o Navilux de Naviraí.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	Santo	_	PROPN	PNOUN	_	12	nsubj	_	_
 3	Antônio	_	PROPN	PNOUN	_	2	flat	_	_
 4	Futebol	_	PROPN	PNOUN	_	2	flat	_	_
@@ -62,8 +62,8 @@
 10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	Picadinha	_	PROPN	PNOUN	_	8	nmod	_	_
 12	estreou	estrear	VERB	VERB	_	0	root	_	_
-13	com	_	ADP	ADP	_	15	case	_	_
-14	uma	_	DET	DET	_	15	det	_	_
+13	com	com	ADP	ADP	_	15	case	_	_
+14	uma	um	DET	DET	_	15	det	_	_
 15	vitória	vitória	NOUN	NOUN	_	12	nmod	_	_
 16	neste	_	ADP	ADP	_	17	case	_	_
 17	domingo	_	PROPN	PNOUN	_	12	nmod	_	_
@@ -77,20 +77,20 @@
 23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	Campeonato	_	PROPN	PNOUN	_	20	nmod	_	_
 25	Estadual	_	PROPN	PNOUN	_	24	amod	_	_
-26	de	_	ADP	ADP	_	27	case	_	_
+26	de	de	ADP	ADP	_	27	case	_	_
 27	futebol	futebol	NOUN	NOUN	_	24	nmod	_	_
 28	amador	amador	ADJ	ADJ	_	27	amod	_	_
 29	contra	_	ADP	ADP	_	31	case	_	_
-30	o	_	DET	DET	_	31	det	_	_
+30	o	o	DET	DET	_	31	det	_	_
 31	Navilux	_	PROPN	PNOUN	_	12	nmod	_	_
-32	de	_	ADP	ADP	_	33	case	_	_
+32	de	de	ADP	ADP	_	33	case	_	_
 33	Naviraí	_	PROPN	PNOUN	_	31	nmod	_	SpaceAfter=No
-34	.	_	PUNCT	.	_	12	punct	_	_
+34	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = train-s7208
 # text = Com uma carreira ligada à Mitsubishi Motors, Masuoka ficou famoso por competir no Rali Dacar, onde foi bicampeão entre 2001 e 2002, pilotando um Mitsubishi Pajero.
 1	Com	_	ADP	ADP	_	3	case	_	_
-2	uma	_	DET	DET	_	3	det	_	_
+2	uma	um	DET	DET	_	3	det	_	_
 3	carreira	_	NOUN	NOUN	_	11	nmod	_	_
 4	ligada	ligado	ADJ	ADJ	_	3	amod	_	_
 5-6	à	_	_	_	_	_	_	_	_
@@ -98,7 +98,7 @@
 6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Mitsubishi	_	PROPN	PNOUN	_	4	nmod	_	_
 8	Motors	_	PROPN	PNOUN	_	7	flat	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	3	punct	_	_
+9	,	,	PUNCT	.	_	3	punct	_	_
 10	Masuoka	_	PROPN	PNOUN	_	11	nsubj	_	_
 11	ficou	ficar	VERB	VERB	_	0	root	_	_
 12	famoso	famoso	ADJ	ADJ	_	11	xcomp:adj	_	_
@@ -109,20 +109,20 @@
 16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	Rali	_	PROPN	PNOUN	_	14	nmod	_	_
 18	Dacar	_	PROPN	PNOUN	_	17	flat	_	SpaceAfter=No
-19	,	_	PUNCT	.	_	22	punct	_	_
+19	,	,	PUNCT	.	_	22	punct	_	_
 20	onde	onde	ADV	ADV	_	22	advmod	_	_
 21	foi	_	AUX	AUX	_	22	cop	_	_
 22	bicampeão	bicampeão	NOUN	NOUN	_	17	acl:relcl	_	_
 23	entre	_	ADP	ADP	_	24	case	_	_
 24	2001	_	NUM	NUM	NumType=Card	22	nmod	_	_
-25	e	_	CCONJ	CONJ	_	26	cc	_	_
+25	e	e	CCONJ	CONJ	_	26	cc	_	_
 26	2002	_	NUM	NUM	NumType=Card	24	conj	_	SpaceAfter=No
-27	,	_	PUNCT	.	_	28	punct	_	_
+27	,	,	PUNCT	.	_	28	punct	_	_
 28	pilotando	pilotar	VERB	VERB	_	22	acl:part	_	_
-29	um	_	DET	DET	_	30	det	_	_
+29	um	um	DET	DET	_	30	det	_	_
 30	Mitsubishi	_	PROPN	PNOUN	_	28	obj	_	_
 31	Pajero	_	PROPN	PNOUN	_	30	flat	_	SpaceAfter=No
-32	.	_	PUNCT	.	_	11	punct	_	_
+32	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s7209
 # text = Apesar de ter negado inicialmente, parte do alto escalão do governo foi direcionada para a futura gestão do futuro prefeito eleito do Recife, o também socialista, Geraldo Julio (PSB).
@@ -131,7 +131,7 @@
 3	ter	ter	AUX	AUX	_	4	aux	_	_
 4	negado	negar	VERB	VERB	_	16	advcl	_	_
 5	inicialmente	inicialmente	ADV	ADV	_	4	advmod	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	4	punct	_	_
+6	,	,	PUNCT	.	_	4	punct	_	_
 7	parte	parte	NOUN	NOUN	_	16	nsubj:pass	_	_
 8-9	do	_	_	_	_	_	_	_	_
 8	de	de	ADP	ADP	_	11	case	_	_
@@ -144,8 +144,8 @@
 14	governo	governo	NOUN	NOUN	_	11	nmod	_	_
 15	foi	_	AUX	AUX	_	16	aux:pass	_	_
 16	direcionada	direcionar	VERB	VERB	_	0	root	_	_
-17	para	_	ADP	ADP	_	20	case	_	_
-18	a	_	DET	DET	_	20	det	_	_
+17	para	para	ADP	ADP	_	20	case	_	_
+18	a	a	DET	DET	_	20	det	_	_
 19	futura	futuro	ADJ	ADJ	_	20	amod	_	_
 20	gestão	gestão	NOUN	NOUN	_	16	nmod	_	_
 21-22	do	_	_	_	_	_	_	_	_
@@ -158,17 +158,17 @@
 26	de	de	ADP	ADP	_	28	case	_	_
 27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	Recife	_	PROPN	PNOUN	_	24	nmod	_	SpaceAfter=No
-29	,	_	PUNCT	.	_	32	punct	_	_
-30	o	_	DET	DET	_	32	det	_	_
+29	,	,	PUNCT	.	_	32	punct	_	_
+30	o	o	DET	DET	_	32	det	_	_
 31	também	também	ADV	ADV	_	32	advmod	_	_
 32	socialista	socialista	NOUN	NOUN	_	24	appos	_	SpaceAfter=No
-33	,	_	PUNCT	.	_	34	punct	_	_
+33	,	,	PUNCT	.	_	34	punct	_	_
 34	Geraldo	_	PROPN	PNOUN	_	32	appos	_	_
 35	Julio	_	PROPN	PNOUN	_	34	flat	_	_
-36	(	_	PUNCT	.	_	37	punct	_	SpaceAfter=No
+36	(	(	PUNCT	.	_	37	punct	_	SpaceAfter=No
 37	PSB	_	PROPN	PNOUN	_	34	appos	_	SpaceAfter=No
-38	)	_	PUNCT	.	_	37	punct	_	SpaceAfter=No
-39	.	_	PUNCT	.	_	16	punct	_	_
+38	)	)	PUNCT	.	_	37	punct	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	16	punct	_	_
 
 # sent_id = train-s7210
 # text = Pessoas que passaram neste sábado pelo Parque Ibirapuera, em São Paulo, puderam aferir gratuitamente sua pressão arterial e medir a glicemia.
@@ -182,40 +182,40 @@
 7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	Parque	_	PROPN	PNOUN	_	3	nmod	_	_
 9	Ibirapuera	_	PROPN	PNOUN	_	8	flat	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	12	punct	_	_
-11	em	_	ADP	ADP	_	12	case	_	_
+10	,	,	PUNCT	.	_	12	punct	_	_
+11	em	em	ADP	ADP	_	12	case	_	_
 12	São	_	PROPN	PNOUN	_	3	nmod	_	_
 13	Paulo	_	PROPN	PNOUN	_	12	flat	_	SpaceAfter=No
-14	,	_	PUNCT	.	_	12	punct	_	_
+14	,	,	PUNCT	.	_	12	punct	_	_
 15	puderam	poder	AUX	AUX	_	16	aux	_	_
 16	aferir	aferir	VERB	VERB	_	0	root	_	_
 17	gratuitamente	gratuitamente	ADV	ADV	_	16	advmod	_	_
 18	sua	_	DET	DET	_	19	det:poss	_	_
 19	pressão	pressão	NOUN	NOUN	_	16	obj	_	_
 20	arterial	arterial	ADJ	ADJ	_	19	amod	_	_
-21	e	_	CCONJ	CONJ	_	22	cc	_	_
+21	e	e	CCONJ	CONJ	_	22	cc	_	_
 22	medir	medir	VERB	VERB	_	16	conj	_	_
-23	a	_	DET	DET	_	24	det	_	_
+23	a	a	DET	DET	_	24	det	_	_
 24	glicemia	glicemia	NOUN	NOUN	_	22	obj	_	SpaceAfter=No
-25	.	_	PUNCT	.	_	16	punct	_	_
+25	.	.	PUNCT	.	_	16	punct	_	_
 
 # sent_id = train-s7211
 # text = Em maio deste ano, os depoimentos foram agendados, mas a Justiça acolheu o pedido dos advogados do bicheiro, que alegaram falta de diligências solicitadas pela defesa e dificuldade para falar com o cliente em entrevistas reservadas.
-1	Em	_	ADP	ADP	_	2	case	_	_
+1	Em	em	ADP	ADP	_	2	case	_	_
 2	maio	_	PROPN	PNOUN	_	9	nmod	_	_
 3	deste	_	ADP	ADP	_	4	case	_	_
 4	ano	ano	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
-5	,	_	PUNCT	.	_	2	punct	_	_
-6	os	_	DET	DET	_	7	det	_	_
+5	,	,	PUNCT	.	_	2	punct	_	_
+6	os	o	DET	DET	_	7	det	_	_
 7	depoimentos	depoimento	NOUN	NOUN	_	9	nsubj:pass	_	_
 8	foram	_	AUX	AUX	_	9	aux:pass	_	_
 9	agendados	agendar	VERB	VERB	_	0	root	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	14	punct	_	_
+10	,	,	PUNCT	.	_	14	punct	_	_
 11	mas	_	CCONJ	CONJ	_	14	cc	_	_
-12	a	_	DET	DET	_	13	det	_	_
+12	a	a	DET	DET	_	13	det	_	_
 13	Justiça	_	PROPN	PNOUN	_	14	nsubj	_	_
 14	acolheu	acolher	VERB	VERB	_	9	conj	_	_
-15	o	_	DET	DET	_	16	det	_	_
+15	o	o	DET	DET	_	16	det	_	_
 16	pedido	pedido	NOUN	NOUN	_	14	obj	_	_
 17-18	dos	_	_	_	_	_	_	_	_
 17	de	de	ADP	ADP	_	19	case	_	_
@@ -225,60 +225,60 @@
 20	de	de	ADP	ADP	_	22	case	_	_
 21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	bicheiro	bicheiro	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
-23	,	_	PUNCT	.	_	25	punct	_	_
+23	,	,	PUNCT	.	_	25	punct	_	_
 24	que	_	PRON	PRON	_	25	nsubj	_	_
 25	alegaram	alegar	VERB	VERB	_	19	acl:relcl	_	_
 26	falta	_	NOUN	NOUN	_	25	obj	_	_
-27	de	_	ADP	ADP	_	28	case	_	_
+27	de	de	ADP	ADP	_	28	case	_	_
 28	diligências	diligência	NOUN	NOUN	_	26	nmod	_	_
 29	solicitadas	solicitar	VERB	VERB	_	28	acl:part	_	_
 30-31	pela	_	_	_	_	_	_	_	_
 30	por	por	ADP	ADP	_	32	case	_	_
 31	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	defesa	_	NOUN	NOUN	_	29	nmod	_	_
-33	e	_	CCONJ	CONJ	_	34	cc	_	_
+33	e	e	CCONJ	CONJ	_	34	cc	_	_
 34	dificuldade	dificuldade	NOUN	NOUN	_	26	conj	_	_
 35	para	_	ADP	ADP	_	36	mark	_	_
 36	falar	falar	VERB	VERB	_	34	nmod	_	_
-37	com	_	ADP	ADP	_	39	case	_	_
-38	o	_	DET	DET	_	39	det	_	_
+37	com	com	ADP	ADP	_	39	case	_	_
+38	o	o	DET	DET	_	39	det	_	_
 39	cliente	cliente	NOUN	NOUN	_	36	nmod	_	_
-40	em	_	ADP	ADP	_	41	case	_	_
+40	em	em	ADP	ADP	_	41	case	_	_
 41	entrevistas	entrevista	NOUN	NOUN	_	36	nmod	_	_
 42	reservadas	reservado	ADJ	ADJ	_	41	amod	_	SpaceAfter=No
-43	.	_	PUNCT	.	_	9	punct	_	_
+43	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s7212
 # text = A Literatura lusófona é a literatura escrita em língua portuguesa.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	Literatura	literatura	NOUN	NOUN	_	6	nsubj	_	_
 3	lusófona	lusófono	ADJ	ADJ	_	2	amod	_	_
 4	é	ser	AUX	AUX	_	6	cop	_	_
-5	a	_	DET	DET	_	6	det	_	_
+5	a	a	DET	DET	_	6	det	_	_
 6	literatura	literatura	NOUN	NOUN	_	0	root	_	_
 7	escrita	escrever	VERB	VERB	_	6	acl:part	_	_
-8	em	_	ADP	ADP	_	9	case	_	_
+8	em	em	ADP	ADP	_	9	case	_	_
 9	língua	língua	NOUN	NOUN	_	7	nmod	_	_
 10	portuguesa	português	ADJ	ADJ	_	9	amod	_	SpaceAfter=No
-11	.	_	PUNCT	.	_	6	punct	_	_
+11	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s7213
 # text = Segundo um estudo do Departamento de Competitividade de Tecnologia (Decomtec), da Federação das Indústrias do Estado de São Paulo (Fiesp), as empresas têm uma despesa anual extra de R $ 17 bilhões devido à precariedade da infraestrutura do país, incluindo péssimas condições das rodovias e sucateamento dos portos.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	um	_	DET	DET	_	3	det	_	_
+2	um	um	DET	DET	_	3	det	_	_
 3	estudo	estudo	NOUN	NOUN	_	33	nmod	_	_
 4-5	do	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
 5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Departamento	_	PROPN	PNOUN	_	3	nmod	_	_
-7	de	_	ADP	ADP	_	8	case	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
 8	Competitividade	_	PROPN	PNOUN	_	6	nmod	_	_
-9	de	_	ADP	ADP	_	10	case	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
 10	Tecnologia	_	PROPN	PNOUN	_	8	nmod	_	_
-11	(	_	PUNCT	.	_	12	punct	_	SpaceAfter=No
+11	(	(	PUNCT	.	_	12	punct	_	SpaceAfter=No
 12	Decomtec	_	PROPN	PNOUN	_	6	appos	_	SpaceAfter=No
-13	)	_	PUNCT	.	_	12	punct	_	SpaceAfter=No
-14	,	_	PUNCT	.	_	17	punct	_	_
+13	)	)	PUNCT	.	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	17	punct	_	_
 15-16	da	_	_	_	_	_	_	_	_
 15	de	de	ADP	ADP	_	17	case	_	_
 16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
@@ -291,21 +291,21 @@
 21	de	de	ADP	ADP	_	23	case	_	_
 22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	Estado	_	PROPN	PNOUN	_	20	nmod	_	_
-24	de	_	ADP	ADP	_	25	case	_	_
+24	de	de	ADP	ADP	_	25	case	_	_
 25	São	_	PROPN	PNOUN	_	23	nmod	_	_
 26	Paulo	_	PROPN	PNOUN	_	25	flat	_	_
-27	(	_	PUNCT	.	_	28	punct	_	SpaceAfter=No
+27	(	(	PUNCT	.	_	28	punct	_	SpaceAfter=No
 28	Fiesp	_	PROPN	PNOUN	_	17	appos	_	SpaceAfter=No
-29	)	_	PUNCT	.	_	28	punct	_	SpaceAfter=No
-30	,	_	PUNCT	.	_	17	punct	_	_
-31	as	_	DET	DET	_	32	det	_	_
+29	)	)	PUNCT	.	_	28	punct	_	SpaceAfter=No
+30	,	,	PUNCT	.	_	17	punct	_	_
+31	as	o	DET	DET	_	32	det	_	_
 32	empresas	empresa	NOUN	NOUN	_	33	nsubj	_	_
 33	têm	ter	VERB	VERB	_	0	root	_	_
-34	uma	_	DET	DET	_	35	det	_	_
+34	uma	um	DET	DET	_	35	det	_	_
 35	despesa	despesa	NOUN	NOUN	_	33	obj	_	_
 36	anual	anual	ADJ	ADJ	_	35	amod	_	_
 37	extra	extra	ADJ	ADJ	_	35	amod	_	_
-38	de	_	ADP	ADP	_	39	case	_	_
+38	de	de	ADP	ADP	_	39	case	_	_
 39	R	r	NOUN	NOUN	_	35	nmod	_	_
 40	$	_	SYM	SYM	_	39	flat	_	_
 41	17	_	NUM	NUM	NumType=Card	42	nummod	_	_
@@ -323,7 +323,7 @@
 50	de	de	ADP	ADP	_	52	case	_	_
 51	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
 52	país	país	NOUN	NOUN	_	49	nmod	_	SpaceAfter=No
-53	,	_	PUNCT	.	_	54	punct	_	_
+53	,	,	PUNCT	.	_	54	punct	_	_
 54	incluindo	incluir	VERB	VERB	_	46	acl:part	_	_
 55	péssimas	_	ADJ	ADJ	_	56	amod	_	_
 56	condições	condição	NOUN	NOUN	_	54	obj	_	_
@@ -331,13 +331,13 @@
 57	de	de	ADP	ADP	_	59	case	_	_
 58	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	59	det	_	_
 59	rodovias	rodovia	NOUN	NOUN	_	56	nmod	_	_
-60	e	_	CCONJ	CONJ	_	61	cc	_	_
+60	e	e	CCONJ	CONJ	_	61	cc	_	_
 61	sucateamento	sucateamento	NOUN	NOUN	_	59	conj	_	_
 62-63	dos	_	_	_	_	_	_	_	_
 62	de	de	ADP	ADP	_	64	case	_	_
 63	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	64	det	_	_
 64	portos	porto	NOUN	NOUN	_	61	nmod	_	SpaceAfter=No
-65	.	_	PUNCT	.	_	33	punct	_	_
+65	.	.	PUNCT	.	_	33	punct	_	_
 
 # sent_id = train-s7214
 # text = Lançado no Brasil na década de 1980, o Stent veio revolucionar a medicina em todo o mundo.
@@ -350,41 +350,41 @@
 5	em	em	ADP	ADP	_	7	case	_	_
 6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	década	década	NOUN	NOUN	_	1	nmod	_	_
-8	de	_	ADP	ADP	_	9	case	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
 9	1980	_	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	1	punct	_	_
-11	o	_	DET	DET	_	12	det	_	_
+10	,	,	PUNCT	.	_	1	punct	_	_
+11	o	o	DET	DET	_	12	det	_	_
 12	Stent	_	PROPN	PNOUN	_	13	nsubj	_	_
 13	veio	_	VERB	VERB	_	0	root	_	_
 14	revolucionar	revolucionar	VERB	VERB	_	13	xcomp	_	_
-15	a	_	DET	DET	_	16	det	_	_
+15	a	a	DET	DET	_	16	det	_	_
 16	medicina	medicina	NOUN	NOUN	_	14	obj	_	_
-17	em	_	ADP	ADP	_	20	case	_	_
+17	em	em	ADP	ADP	_	20	case	_	_
 18	todo	_	DET	DET	_	20	det	_	_
-19	o	_	DET	DET	_	20	det	_	_
+19	o	o	DET	DET	_	20	det	_	_
 20	mundo	mundo	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
-21	.	_	PUNCT	.	_	13	punct	_	_
+21	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = train-s7215
 # text = Foge para o planeta Ródia onde se envolve com a filha do monarca, a jovem Artemísia.
 1	Foge	fugir	VERB	VERB	_	0	root	_	_
-2	para	_	ADP	ADP	_	4	case	_	_
-3	o	_	DET	DET	_	4	det	_	_
+2	para	para	ADP	ADP	_	4	case	_	_
+3	o	o	DET	DET	_	4	det	_	_
 4	planeta	planeta	NOUN	NOUN	_	1	nmod	_	_
 5	Ródia	_	PROPN	PNOUN	_	4	appos	_	_
 6	onde	onde	ADV	ADV	_	8	advmod	_	_
 7	se	_	PRON	PRON	_	8	obj	_	_
 8	envolve	envolver	VERB	VERB	_	4	acl:relcl	_	_
-9	com	_	ADP	ADP	_	11	case	_	_
-10	a	_	DET	DET	_	11	det	_	_
+9	com	com	ADP	ADP	_	11	case	_	_
+10	a	a	DET	DET	_	11	det	_	_
 11	filha	filho	NOUN	NOUN	_	8	nmod	_	_
 12-13	do	_	_	_	_	_	_	_	_
 12	de	de	ADP	ADP	_	14	case	_	_
 13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	monarca	monarca	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	18	punct	_	_
-16	a	_	DET	DET	_	18	det	_	_
+15	,	,	PUNCT	.	_	18	punct	_	_
+16	a	a	DET	DET	_	18	det	_	_
 17	jovem	jovem	ADJ	ADJ	_	18	amod	_	_
 18	Artemísia	_	PROPN	PNOUN	_	11	appos	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	1	punct	_	_
+19	.	.	PUNCT	.	_	1	punct	_	_
 

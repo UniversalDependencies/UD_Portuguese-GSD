@@ -2,12 +2,12 @@
 # text = Dum lado, o ex - presidente Fernando Henrique Cardoso sugeria renovação do discurso do PSDB.
 1-2	Dum	_	_	_	_	_	_	_	_
 1	De	_	ADP	ADP	_	3	case	_	_
-2	um	_	DET	DET	_	3	det	_	_
+2	um	um	DET	DET	_	3	det	_	_
 3	lado	lado	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
-5	o	_	DET	DET	_	6	det	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	o	o	DET	DET	_	6	det	_	_
 6	ex	_	PART	PRT	_	12	nsubj	_	_
-7	-	_	PUNCT	.	_	6	punct	_	_
+7	-	-	PUNCT	.	_	6	punct	_	_
 8	presidente	presidente	NOUN	NOUN	_	6	flat	_	_
 9	Fernando	_	PROPN	PNOUN	_	6	appos	_	_
 10	Henrique	_	PROPN	PNOUN	_	9	flat	_	_
@@ -22,53 +22,53 @@
 17	de	de	ADP	ADP	_	19	case	_	_
 18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	PSDB	_	PROPN	PNOUN	_	16	nmod	_	SpaceAfter=No
-20	.	_	PUNCT	.	_	12	punct	_	_
+20	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = dev-s993
 # text = A data da compilação deve, portanto, compreender - se entre 743 e 749.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	data	data	NOUN	NOUN	_	10	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
 4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	compilação	compilação	NOUN	NOUN	_	2	nmod	_	_
 6	deve	dever	AUX	AUX	_	10	aux	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	8	punct	_	_
+7	,	,	PUNCT	.	_	8	punct	_	_
 8	portanto	_	ADV	ADV	_	10	advmod	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	8	punct	_	_
+9	,	,	PUNCT	.	_	8	punct	_	_
 10	compreender	compreender	VERB	VERB	_	0	root	_	_
-11	-	_	PUNCT	.	_	10	punct	_	_
+11	-	-	PUNCT	.	_	10	punct	_	_
 12	se	_	PART	PRT	_	10	expl:pv	_	_
 13	entre	_	ADP	ADP	_	14	case	_	_
 14	743	_	NUM	NUM	NumType=Card	10	nmod	_	_
-15	e	_	CCONJ	CONJ	_	16	cc	_	_
+15	e	e	CCONJ	CONJ	_	16	cc	_	_
 16	749	_	NUM	NUM	NumType=Card	14	conj	_	SpaceAfter=No
-17	.	_	PUNCT	.	_	10	punct	_	_
+17	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = dev-s994
 # text = O veículo pertence ao sogro de Roniere.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	veículo	veículo	NOUN	NOUN	_	3	nsubj	_	_
 3	pertence	pertencer	VERB	VERB	_	0	root	_	_
 4-5	ao	_	_	_	_	_	_	_	_
 4	a	a	ADP	ADP	_	6	case	_	_
 5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	sogro	sogro	NOUN	NOUN	_	3	iobj	_	_
-7	de	_	ADP	ADP	_	8	case	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
 8	Roniere	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
-9	.	_	PUNCT	.	_	3	punct	_	_
+9	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = dev-s995
 # text = Pesquisa revela que o público brasileiro aguarda ansiosamente a chegada da gigante do comércio eletrônico ao país.
 1	Pesquisa	pesquisa	NOUN	NOUN	_	2	nsubj	_	_
 2	revela	revelar	VERB	VERB	_	0	root	_	_
-3	que	_	CCONJ	CONJ	_	7	mark	_	_
-4	o	_	DET	DET	_	5	det	_	_
+3	que	que	CCONJ	CONJ	_	7	mark	_	_
+4	o	o	DET	DET	_	5	det	_	_
 5	público	público	NOUN	NOUN	_	7	nsubj	_	_
 6	brasileiro	brasileiro	ADJ	ADJ	_	5	amod	_	_
 7	aguarda	aguardar	VERB	VERB	_	2	ccomp	_	_
 8	ansiosamente	ansiosamente	ADV	ADV	_	7	advmod	_	_
-9	a	_	DET	DET	_	10	det	_	_
+9	a	a	DET	DET	_	10	det	_	_
 10	chegada	chegada	NOUN	NOUN	_	7	obj	_	_
 11-12	da	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	13	case	_	_
@@ -83,7 +83,7 @@
 18	a	a	ADP	ADP	_	20	case	_	_
 19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	país	país	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
-21	.	_	PUNCT	.	_	2	punct	_	_
+21	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = dev-s996
 # text = São duas conjunturas completamente diferentes ', comentou.
@@ -93,44 +93,44 @@
 4	completamente	completamente	ADV	ADV	_	5	advmod	_	_
 5	diferentes	diferente	ADJ	ADJ	_	3	amod	_	_
 6	'	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	8	punct	_	_
+7	,	,	PUNCT	.	_	8	punct	_	_
 8	comentou	comentar	VERB	VERB	_	0	root	_	SpaceAfter=No
-9	.	_	PUNCT	.	_	8	punct	_	_
+9	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = dev-s997
 # text = Pretendemos voltar!"
 1	Pretendemos	pretender	VERB	VERB	_	0	root	_	_
 2	voltar	voltar	VERB	VERB	_	1	xcomp	_	SpaceAfter=No
-3	!	_	PUNCT	.	_	1	punct	_	SpaceAfter=No
-4	"	_	PUNCT	.	_	1	punct	_	_
+3	!	!	PUNCT	.	_	1	punct	_	SpaceAfter=No
+4	"	"	PUNCT	.	_	1	punct	_	_
 
 # sent_id = dev-s998
 # text = Segundo ele, o procurador - geral da República, Roberto Gurgel, acusou Adauto, mas não provou se ele praticou os crimes dos quais foi acusado.
 1	Segundo	_	ADP	ADP	_	2	case	_	_
 2	ele	_	PRON	PRON	_	15	nmod	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	2	punct	_	_
-4	o	_	DET	DET	_	5	det	_	_
+3	,	,	PUNCT	.	_	2	punct	_	_
+4	o	o	DET	DET	_	5	det	_	_
 5	procurador	procurador	NOUN	NOUN	_	15	nsubj	_	_
-6	-	_	PUNCT	.	_	5	punct	_	_
+6	-	-	PUNCT	.	_	5	punct	_	_
 7	geral	geral	ADJ	ADJ	_	5	amod	_	_
 8-9	da	_	_	_	_	_	_	_	_
 8	de	de	ADP	ADP	_	10	case	_	_
 9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	República	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
-11	,	_	PUNCT	.	_	12	punct	_	_
+11	,	,	PUNCT	.	_	12	punct	_	_
 12	Roberto	_	PROPN	PNOUN	_	5	appos	_	_
 13	Gurgel	_	PROPN	PNOUN	_	12	flat	_	SpaceAfter=No
-14	,	_	PUNCT	.	_	12	punct	_	_
+14	,	,	PUNCT	.	_	12	punct	_	_
 15	acusou	acusar	VERB	VERB	_	0	root	_	_
 16	Adauto	_	PROPN	PNOUN	_	15	obj	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	20	punct	_	_
+17	,	,	PUNCT	.	_	20	punct	_	_
 18	mas	_	CCONJ	CONJ	_	20	cc	_	_
 19	não	não	ADV	ADV	Polarity=Neg	20	advmod	_	_
 20	provou	provar	VERB	VERB	_	15	conj	_	_
 21	se	_	CCONJ	CONJ	_	23	mark	_	_
 22	ele	_	PRON	PRON	_	23	nsubj	_	_
 23	praticou	praticar	VERB	VERB	_	20	ccomp	_	_
-24	os	_	DET	DET	_	25	det	_	_
+24	os	o	DET	DET	_	25	det	_	_
 25	crimes	crime	NOUN	NOUN	_	23	obj	_	_
 26-27	dos	_	_	_	_	_	_	_	_
 26	de	de	ADP	ADP	_	28	case	_	_
@@ -138,7 +138,7 @@
 28	quais	_	PRON	PRON	_	30	nmod	_	_
 29	foi	_	AUX	AUX	_	30	aux:pass	_	_
 30	acusado	acusar	VERB	VERB	_	25	acl:relcl	_	SpaceAfter=No
-31	.	_	PUNCT	.	_	15	punct	_	_
+31	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = dev-s999
 # text = Espetáculo espanhol Maravillas conquistou público na abertura, nesta quinta (1 º).
@@ -151,35 +151,35 @@
 6	em	em	ADP	ADP	_	8	case	_	_
 7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	abertura	abertura	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	4	punct	_	_
+9	,	,	PUNCT	.	_	4	punct	_	_
 10	nesta	_	ADP	ADP	_	11	case	_	_
 11	quinta	_	PROPN	PNOUN	_	4	nmod	_	_
-12	(	_	PUNCT	.	_	13	punct	_	SpaceAfter=No
+12	(	(	PUNCT	.	_	13	punct	_	SpaceAfter=No
 13	1	_	NUM	NUM	NumType=Card	11	nmod	_	_
 14	º	_	PUNCT	.	_	13	punct	_	SpaceAfter=No
-15	)	_	PUNCT	.	_	13	punct	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	4	punct	_	_
+15	)	)	PUNCT	.	_	13	punct	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = dev-s1000
 # text = A rede, que perdeu a vice - liderança para a Record em 2007, andava com a imagem abalada pelo rombo do Pan - Americano, em 2010.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	rede	rede	NOUN	NOUN	_	16	nsubj	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	5	punct	_	_
+3	,	,	PUNCT	.	_	5	punct	_	_
 4	que	_	PRON	PRON	_	5	nsubj	_	_
 5	perdeu	perder	VERB	VERB	_	2	acl:relcl	_	_
-6	a	_	DET	DET	_	7	det	_	_
+6	a	a	DET	DET	_	7	det	_	_
 7	vice	_	PART	PRT	_	5	obj	_	_
-8	-	_	PUNCT	.	_	7	punct	_	_
+8	-	-	PUNCT	.	_	7	punct	_	_
 9	liderança	liderança	NOUN	NOUN	_	7	flat	_	_
-10	para	_	ADP	ADP	_	12	case	_	_
-11	a	_	DET	DET	_	12	det	_	_
+10	para	para	ADP	ADP	_	12	case	_	_
+11	a	a	DET	DET	_	12	det	_	_
 12	Record	_	PROPN	PNOUN	_	5	nmod	_	_
-13	em	_	ADP	ADP	_	14	case	_	_
+13	em	em	ADP	ADP	_	14	case	_	_
 14	2007	_	NUM	NUM	NumType=Card	5	nmod	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	5	punct	_	_
+15	,	,	PUNCT	.	_	5	punct	_	_
 16	andava	andar	VERB	VERB	_	0	root	_	_
-17	com	_	ADP	ADP	_	19	case	_	_
-18	a	_	DET	DET	_	19	det	_	_
+17	com	com	ADP	ADP	_	19	case	_	_
+18	a	a	DET	DET	_	19	det	_	_
 19	imagem	imagem	NOUN	NOUN	_	16	nmod	_	_
 20	abalada	abalar	VERB	VERB	_	19	acl:part	_	_
 21-22	pelo	_	_	_	_	_	_	_	_
@@ -190,24 +190,24 @@
 24	de	de	ADP	ADP	_	26	case	_	_
 25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	Pan	_	PROPN	PNOUN	_	23	nmod	_	_
-27	-	_	PUNCT	.	_	26	punct	_	_
+27	-	-	PUNCT	.	_	26	punct	_	_
 28	Americano	_	PROPN	PNOUN	_	26	flat	_	SpaceAfter=No
-29	,	_	PUNCT	.	_	31	punct	_	_
-30	em	_	ADP	ADP	_	31	case	_	_
+29	,	,	PUNCT	.	_	31	punct	_	_
+30	em	em	ADP	ADP	_	31	case	_	_
 31	2010	_	NUM	NUM	NumType=Card	23	nmod	_	SpaceAfter=No
-32	.	_	PUNCT	.	_	16	punct	_	_
+32	.	.	PUNCT	.	_	16	punct	_	_
 
 # sent_id = dev-s1001
 # text = ª Região para duas empresárias, presas em caráter temporário.
 1	ª	_	PUNCT	.	_	2	punct	_	_
 2	Região	região	NOUN	NOUN	_	0	root	_	_
-3	para	_	ADP	ADP	_	5	case	_	_
+3	para	para	ADP	ADP	_	5	case	_	_
 4	duas	_	NUM	NUM	NumType=Card	5	nummod	_	_
 5	empresárias	empresário	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	7	punct	_	_
+6	,	,	PUNCT	.	_	7	punct	_	_
 7	presas	_	VERB	VERB	_	5	acl:part	_	_
-8	em	_	ADP	ADP	_	9	case	_	_
+8	em	em	ADP	ADP	_	9	case	_	_
 9	caráter	caráter	NOUN	NOUN	_	7	nmod	_	_
 10	temporário	temporário	ADJ	ADJ	_	9	amod	_	SpaceAfter=No
-11	.	_	PUNCT	.	_	2	punct	_	_
+11	.	.	PUNCT	.	_	2	punct	_	_
 

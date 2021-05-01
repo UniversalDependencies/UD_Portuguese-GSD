@@ -1,14 +1,14 @@
 # sent_id = train-s3186
 # text = Os dados, divulgados hoje (4), são da Associação Nacional dos Veículos Automotores (Anfavea).
-1	Os	_	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	_	2	det	_	_
 2	dados	dado	NOUN	NOUN	_	10	nsubj	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	4	punct	_	_
+3	,	,	PUNCT	.	_	4	punct	_	_
 4	divulgados	divulgar	VERB	VERB	_	2	acl:part	_	_
 5	hoje	hoje	ADV	ADV	_	4	advmod	_	_
-6	(	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
+6	(	(	PUNCT	.	_	7	punct	_	SpaceAfter=No
 7	4	_	NUM	NUM	NumType=Card	5	nmod	_	SpaceAfter=No
-8	)	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	4	punct	_	_
+8	)	)	PUNCT	.	_	7	punct	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	4	punct	_	_
 10	são	ser	VERB	VERB	_	0	root	_	_
 11-12	da	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	13	case	_	_
@@ -20,37 +20,37 @@
 16	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
 17	Veículos	_	PROPN	PNOUN	_	13	nmod	_	_
 18	Automotores	_	PROPN	PNOUN	_	17	amod	_	_
-19	(	_	PUNCT	.	_	20	punct	_	SpaceAfter=No
+19	(	(	PUNCT	.	_	20	punct	_	SpaceAfter=No
 20	Anfavea	_	PROPN	PNOUN	_	13	appos	_	SpaceAfter=No
-21	)	_	PUNCT	.	_	20	punct	_	SpaceAfter=No
-22	.	_	PUNCT	.	_	10	punct	_	_
+21	)	)	PUNCT	.	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s3187
 # text = "A minha preocupação é que não tivemos entendimento com a oposição e esticasse o mês de fevereiro com o debate e [o Orçamento] só pudesse ser votado no final de fevereiro.
-1	"	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
-2	A	_	DET	DET	_	4	det	_	_
+1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
+2	A	o	DET	DET	_	4	det	_	_
 3	minha	_	DET	DET	_	4	det:poss	_	_
 4	preocupação	preocupação	NOUN	NOUN	_	0	root	_	_
 5	é	ser	AUX	AUX	_	4	cop	_	_
-6	que	_	CCONJ	CONJ	_	8	mark	_	_
+6	que	que	CCONJ	CONJ	_	8	mark	_	_
 7	não	não	ADV	ADV	Polarity=Neg	8	advmod	_	_
 8	tivemos	ter	VERB	VERB	_	4	csubj	_	_
 9	entendimento	entendimento	NOUN	NOUN	_	8	obj	_	_
-10	com	_	ADP	ADP	_	12	case	_	_
-11	a	_	DET	DET	_	12	det	_	_
+10	com	com	ADP	ADP	_	12	case	_	_
+11	a	a	DET	DET	_	12	det	_	_
 12	oposição	oposição	NOUN	NOUN	_	9	nmod	_	_
-13	e	_	CCONJ	CONJ	_	14	cc	_	_
+13	e	e	CCONJ	CONJ	_	14	cc	_	_
 14	esticasse	esticar	VERB	VERB	_	8	conj	_	_
-15	o	_	DET	DET	_	16	det	_	_
+15	o	o	DET	DET	_	16	det	_	_
 16	mês	mês	NOUN	NOUN	_	14	nsubj	_	_
-17	de	_	ADP	ADP	_	18	case	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
 18	fevereiro	_	PROPN	PNOUN	_	16	nmod	_	_
-19	com	_	ADP	ADP	_	21	case	_	_
-20	o	_	DET	DET	_	21	det	_	_
+19	com	com	ADP	ADP	_	21	case	_	_
+20	o	o	DET	DET	_	21	det	_	_
 21	debate	debate	NOUN	NOUN	_	14	nmod	_	_
-22	e	_	CCONJ	CONJ	_	30	cc	_	_
+22	e	e	CCONJ	CONJ	_	30	cc	_	_
 23	[	_	PUNCT	.	_	25	punct	_	SpaceAfter=No
-24	o	_	DET	DET	_	25	det	_	_
+24	o	o	DET	DET	_	25	det	_	_
 25	Orçamento	_	PROPN	PNOUN	_	30	nsubj:pass	_	SpaceAfter=No
 26	]	_	PUNCT	.	_	25	punct	_	_
 27	só	só	ADV	ADV	_	30	advmod	_	_
@@ -61,13 +61,13 @@
 31	em	em	ADP	ADP	_	33	case	_	_
 32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	final	final	NOUN	NOUN	_	30	nmod	_	_
-34	de	_	ADP	ADP	_	35	case	_	_
+34	de	de	ADP	ADP	_	35	case	_	_
 35	fevereiro	_	PROPN	PNOUN	_	33	nmod	_	SpaceAfter=No
-36	.	_	PUNCT	.	_	4	punct	_	_
+36	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s3188
 # text = A expectativa da federação local é que o estádio esteja lotado -- até segunda - feira haviam sido vendidos 16 mil dos cerca de 24 mil bilhetes disponíveis.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	expectativa	expectativa	NOUN	NOUN	_	0	root	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -75,15 +75,15 @@
 5	federação	federação	NOUN	NOUN	_	2	nmod	_	_
 6	local	local	ADJ	ADJ	_	5	amod	_	_
 7	é	ser	AUX	AUX	_	2	cop	_	_
-8	que	_	CCONJ	CONJ	_	11	mark	_	_
-9	o	_	DET	DET	_	10	det	_	_
+8	que	que	CCONJ	CONJ	_	11	mark	_	_
+9	o	o	DET	DET	_	10	det	_	_
 10	estádio	estádio	NOUN	NOUN	_	11	nsubj	_	_
 11	esteja	estar	VERB	VERB	_	2	csubj	_	_
 12	lotado	lotado	ADJ	ADJ	_	11	xcomp:adj	_	_
 13	--	_	PUNCT	.	_	20	punct	_	_
 14	até	_	ADP	ADP	_	17	case	_	_
 15	segunda	_	PROPN	PNOUN	_	17	amod	_	_
-16	-	_	PUNCT	.	_	17	punct	_	_
+16	-	-	PUNCT	.	_	17	punct	_	_
 17	feira	_	PROPN	PNOUN	_	20	nmod	_	_
 18	haviam	haver	AUX	AUX	_	20	aux	_	_
 19	sido	ser	AUX	AUX	_	20	aux:pass	_	_
@@ -94,12 +94,12 @@
 23	de	de	ADP	ADP	_	29	case	_	_
 24	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
 25	cerca	cerca	ADV	ADV	_	28	advmod	_	_
-26	de	_	ADP	ADP	_	25	case	_	_
+26	de	de	ADP	ADP	_	25	case	_	_
 27	24	_	NUM	NUM	NumType=Card	28	nummod	_	_
 28	mil	_	NUM	NUM	NumType=Card	29	nummod	_	_
 29	bilhetes	bilhete	NOUN	NOUN	_	22	nmod	_	_
 30	disponíveis	disponível	ADJ	ADJ	_	29	amod	_	SpaceAfter=No
-31	.	_	PUNCT	.	_	2	punct	_	_
+31	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s3189a
 # text = Dr. Carlos Frederico Duarte da Rocha
@@ -115,10 +115,10 @@
 # sent_id = train-s3189b
 # text = Filmografia e Direção Geral: Luiz Duarte
 1	Filmografia	_	PROPN	PNOUN	_	3	case	_	_
-2	e	_	CCONJ	CONJ	_	3	cc	_	_
+2	e	e	CCONJ	CONJ	_	3	cc	_	_
 3	Direção	_	PROPN	PNOUN	_	0	root	_	_
 4	Geral	_	PROPN	PNOUN	_	3	amod	_	SpaceAfter=No
-5	:	_	PUNCT	.	_	3	punct	_	_
+5	:	:	PUNCT	.	_	3	punct	_	_
 6	Luiz	_	PROPN	PNOUN	_	3	appos	_	_
 7	Duarte	_	PROPN	PNOUN	_	6	flat	_	_
 
@@ -129,7 +129,7 @@
 2	de	de	ADP	ADP	_	4	case	_	_
 3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Filmagem	_	PROPN	PNOUN	_	1	nmod	_	SpaceAfter=No
-5	:	_	PUNCT	.	_	1	punct	_	_
+5	:	:	PUNCT	.	_	1	punct	_	_
 6	1999	_	NUM	NUM	NumType=Card	1	nmod	_	_
 
 # sent_id = train-s3189d
@@ -139,35 +139,35 @@
 2	de	de	ADP	ADP	_	4	case	_	_
 3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Produção	_	PROPN	PNOUN	_	1	nmod	_	SpaceAfter=No
-5	:	_	PUNCT	.	_	1	punct	_	_
+5	:	:	PUNCT	.	_	1	punct	_	_
 6	2002	_	NUM	NUM	NumType=Card	1	nmod	_	_
 
 # sent_id = train-s3189e
 # text = Ano de Lançamento: 2003
 1	Ano	_	PROPN	PNOUN	_	0	root	_	_
-2	de	_	ADP	ADP	_	3	case	_	_
+2	de	de	ADP	ADP	_	3	case	_	_
 3	Lançamento	_	PROPN	PNOUN	_	1	nmod	_	SpaceAfter=No
-4	:	_	PUNCT	.	_	1	punct	_	_
+4	:	:	PUNCT	.	_	1	punct	_	_
 5	2003	_	NUM	NUM	NumType=Card	1	nmod	_	_
 
 # sent_id = train-s3190
 # text = Espera - se que a eleição se realize ainda nesta semana.
 1	Espera	esperar	VERB	VERB	_	0	root	_	_
-2	-	_	PUNCT	.	_	1	punct	_	_
+2	-	-	PUNCT	.	_	1	punct	_	_
 3	se	_	PART	PRT	_	1	expl:pv	_	_
-4	que	_	CCONJ	CONJ	_	8	mark	_	_
-5	a	_	DET	DET	_	6	det	_	_
+4	que	que	CCONJ	CONJ	_	8	mark	_	_
+5	a	a	DET	DET	_	6	det	_	_
 6	eleição	eleição	NOUN	NOUN	_	8	nsubj	_	_
 7	se	_	PRON	PRON	_	8	expl:pv	_	_
 8	realize	realizar	VERB	VERB	_	1	csubj	_	_
 9	ainda	ainda	ADV	ADV	_	11	advmod	_	_
 10	nesta	_	ADP	ADP	_	11	case	_	_
 11	semana	semana	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-12	.	_	PUNCT	.	_	1	punct	_	_
+12	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s3191
 # text = O Brasil ainda conseguiu salvar três set points antes da seleção cubana fechar a parcial em 25 / 19.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	Brasil	_	PROPN	PNOUN	_	4	nsubj	_	_
 3	ainda	ainda	ADV	ADV	_	4	advmod	_	_
 4	conseguiu	conseguir	VERB	VERB	_	0	root	_	_
@@ -182,11 +182,11 @@
 12	seleção	seleção	NOUN	NOUN	_	14	nsubj	_	_
 13	cubana	cubano	ADJ	ADJ	_	12	amod	_	_
 14	fechar	fechar	VERB	VERB	_	5	advcl	_	_
-15	a	_	DET	DET	_	16	det	_	_
+15	a	a	DET	DET	_	16	det	_	_
 16	parcial	_	NOUN	NOUN	_	14	obj	_	_
-17	em	_	ADP	ADP	_	18	case	_	_
+17	em	em	ADP	ADP	_	18	case	_	_
 18	25	_	NUM	NUM	NumType=Card	14	nmod	_	_
-19	/	_	PUNCT	.	_	20	punct	_	_
+19	/	/	PUNCT	.	_	20	punct	_	_
 20	19	_	NUM	NUM	NumType=Card	18	conj	_	SpaceAfter=No
-21	.	_	PUNCT	.	_	4	punct	_	_
+21	.	.	PUNCT	.	_	4	punct	_	_
 

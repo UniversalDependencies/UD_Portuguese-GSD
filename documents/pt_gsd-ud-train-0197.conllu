@@ -1,7 +1,7 @@
 # sent_id = train-s1955
 # text = Todos os encaminhamentos realizados a cada encontro são levados ao conhecimento do gestor estadual para as devidas providências.
 1	Todos	_	DET	DET	_	3	det	_	_
-2	os	_	DET	DET	_	3	det	_	_
+2	os	o	DET	DET	_	3	det	_	_
 3	encaminhamentos	encaminhamento	NOUN	NOUN	_	9	nsubj:pass	_	_
 4	realizados	realizar	VERB	VERB	_	3	acl:part	_	_
 5	a	_	ADP	ADP	_	7	case	_	_
@@ -18,15 +18,15 @@
 14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	gestor	gestor	NOUN	NOUN	_	12	nmod	_	_
 16	estadual	estadual	ADJ	ADJ	_	15	amod	_	_
-17	para	_	ADP	ADP	_	20	case	_	_
-18	as	_	DET	DET	_	20	det	_	_
+17	para	para	ADP	ADP	_	20	case	_	_
+18	as	o	DET	DET	_	20	det	_	_
 19	devidas	devido	ADJ	ADJ	_	20	amod	_	_
 20	providências	providência	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
-21	.	_	PUNCT	.	_	9	punct	_	_
+21	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s1956
 # text = Os jovens interessados no processo político estão fazendo a campanha com a cara e a linguagem deles.
-1	Os	_	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	_	2	det	_	_
 2	jovens	jovem	NOUN	NOUN	_	9	nsubj	_	_
 3	interessados	interessado	ADJ	ADJ	_	2	amod	_	_
 4-5	no	_	_	_	_	_	_	_	_
@@ -36,85 +36,85 @@
 7	político	político	ADJ	ADJ	_	6	amod	_	_
 8	estão	estar	AUX	AUX	_	9	aux	_	_
 9	fazendo	fazer	VERB	VERB	_	0	root	_	_
-10	a	_	DET	DET	_	11	det	_	_
+10	a	a	DET	DET	_	11	det	_	_
 11	campanha	campanha	NOUN	NOUN	_	9	obj	_	_
-12	com	_	ADP	ADP	_	14	case	_	_
-13	a	_	DET	DET	_	14	det	_	_
+12	com	com	ADP	ADP	_	14	case	_	_
+13	a	a	DET	DET	_	14	det	_	_
 14	cara	cara	NOUN	NOUN	_	9	nmod	_	_
 15	e	e	CCONJ	CONJ	_	17	cc	_	_
 16	a	o	DET	DET	_	17	det	_	_
 17	linguagem	linguagem	NOUN	NOUN	_	14	conj	_	_
 18	deles	_	X	ADPPRON	_	14	det:poss	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	9	punct	_	_
+19	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s1957
 # text = José Serra (PSDB) ficou com 37 % das intenções de votos.
 1	José	_	PROPN	PNOUN	_	6	nsubj	_	_
 2	Serra	_	PROPN	PNOUN	_	1	flat	_	_
-3	(	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
+3	(	(	PUNCT	.	_	4	punct	_	SpaceAfter=No
 4	PSDB	_	PROPN	PNOUN	_	1	appos	_	SpaceAfter=No
-5	)	_	PUNCT	.	_	4	punct	_	_
+5	)	)	PUNCT	.	_	4	punct	_	_
 6	ficou	ficar	VERB	VERB	_	0	root	_	_
-7	com	_	ADP	ADP	_	9	case	_	_
+7	com	com	ADP	ADP	_	9	case	_	_
 8	37	_	NUM	NUM	NumType=Card	9	nummod	_	_
 9	%	_	SYM	SYM	_	6	nmod	_	_
 10-11	das	_	_	_	_	_	_	_	_
 10	de	de	ADP	ADP	_	12	case	_	_
 11	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
 12	intenções	intenção	NOUN	NOUN	_	9	nmod	_	_
-13	de	_	ADP	ADP	_	14	case	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
 14	votos	voto	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
-15	.	_	PUNCT	.	_	6	punct	_	_
+15	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s1958
 # text = A direção da ANS afirma que elaborou a metodologia da pesquisa e distribuiu questionários para as operadoras entrevistarem os usuários por telefone.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	direção	direção	NOUN	NOUN	_	6	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
 4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	ANS	_	PROPN	PNOUN	_	2	nmod	_	_
 6	afirma	afirmar	VERB	VERB	_	0	root	_	_
-7	que	_	CCONJ	CONJ	_	8	mark	_	_
+7	que	que	CCONJ	CONJ	_	8	mark	_	_
 8	elaborou	elaborar	VERB	VERB	_	6	ccomp	_	_
-9	a	_	DET	DET	_	10	det	_	_
+9	a	a	DET	DET	_	10	det	_	_
 10	metodologia	metodologia	NOUN	NOUN	_	8	obj	_	_
 11-12	da	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	13	case	_	_
 12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	pesquisa	pesquisa	NOUN	NOUN	_	10	nmod	_	_
-14	e	_	CCONJ	CONJ	_	15	cc	_	_
+14	e	e	CCONJ	CONJ	_	15	cc	_	_
 15	distribuiu	distribuir	VERB	VERB	_	8	conj	_	_
 16	questionários	questionário	NOUN	NOUN	_	15	obj	_	_
 17	para	_	ADP	ADP	_	20	mark	_	_
-18	as	_	DET	DET	_	19	det	_	_
+18	as	o	DET	DET	_	19	det	_	_
 19	operadoras	operador	NOUN	NOUN	_	20	nsubj	_	_
 20	entrevistarem	entrevistar	VERB	VERB	_	15	advcl	_	_
-21	os	_	DET	DET	_	22	det	_	_
+21	os	o	DET	DET	_	22	det	_	_
 22	usuários	usuário	NOUN	NOUN	_	20	obj	_	_
-23	por	_	ADP	ADP	_	24	case	_	_
+23	por	por	ADP	ADP	_	24	case	_	_
 24	telefone	telefone	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
-25	.	_	PUNCT	.	_	6	punct	_	_
+25	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s1959
 # text = A composição dessas rochas são bem representadas por misturas de olivina e basaltos toleíticos mais típicos.
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	composição	composição	NOUN	NOUN	_	7	nsubj:pass	_	_
 3	dessas	_	ADP	ADP	_	4	case	_	_
 4	rochas	rocha	NOUN	NOUN	_	2	nmod	_	_
 5	são	ser	AUX	AUX	_	7	aux:pass	_	_
 6	bem	bem	ADV	ADV	_	7	advmod	_	_
 7	representadas	representar	VERB	VERB	_	0	root	_	_
-8	por	_	ADP	ADP	_	9	case	_	_
+8	por	por	ADP	ADP	_	9	case	_	_
 9	misturas	mistura	NOUN	NOUN	_	7	nmod	_	_
-10	de	_	ADP	ADP	_	11	case	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
 11	olivina	olivina	NOUN	NOUN	_	9	nmod	_	_
-12	e	_	CCONJ	CONJ	_	13	cc	_	_
+12	e	e	CCONJ	CONJ	_	13	cc	_	_
 13	basaltos	basalto	NOUN	NOUN	_	11	conj	_	_
 14	toleíticos	_	ADJ	ADJ	_	13	amod	_	_
 15	mais	mais	ADV	ADV	_	16	advmod	_	_
 16	típicos	típico	ADJ	ADJ	_	13	amod	_	SpaceAfter=No
-17	.	_	PUNCT	.	_	7	punct	_	_
+17	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s1960
 # text = Outros quatro acusados do assassinato também já foram condenados.
@@ -129,21 +129,21 @@
 8	já	já	ADV	ADV	_	10	advmod	_	_
 9	foram	_	AUX	AUX	_	10	aux:pass	_	_
 10	condenados	condenar	VERB	VERB	_	0	root	_	SpaceAfter=No
-11	.	_	PUNCT	.	_	10	punct	_	_
+11	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s1961
 # text = "Não podemos nos acomodar.
-1	"	_	PUNCT	.	_	5	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
 2	Não	não	ADV	ADV	Polarity=Neg	5	advmod	_	_
 3	podemos	_	AUX	AUX	_	5	aux	_	_
 4	nos	_	PRON	PRON	_	5	obj	_	_
 5	acomodar	acomodar	VERB	VERB	_	0	root	_	SpaceAfter=No
-6	.	_	PUNCT	.	_	5	punct	_	_
+6	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s1962
 # text = Falta de estrutura nas cidades mais afastadas e dificuldade da população carente do Estado em ter acesso à medicina especializada em oncologia, fez com que a Cassems (Caixa de Assistência dos Servidores do Estado de Mato Grosso do Sul), em parceria com o Hospital do Câncer Alfredo Abrão, lançasse em outubro do ano passado o 'Ônibus da Saúde'.
 1	Falta	_	NOUN	NOUN	_	28	nsubj	_	_
-2	de	_	ADP	ADP	_	3	case	_	_
+2	de	de	ADP	ADP	_	3	case	_	_
 3	estrutura	estrutura	NOUN	NOUN	_	1	nmod	_	_
 4-5	nas	_	_	_	_	_	_	_	_
 4	em	em	ADP	ADP	_	6	case	_	_
@@ -151,7 +151,7 @@
 6	cidades	cidade	NOUN	NOUN	_	1	nmod	_	_
 7	mais	mais	ADV	ADV	_	8	advmod	_	_
 8	afastadas	afastado	ADJ	ADJ	_	6	amod	_	_
-9	e	_	CCONJ	CONJ	_	10	cc	_	_
+9	e	e	CCONJ	CONJ	_	10	cc	_	_
 10	dificuldade	dificuldade	NOUN	NOUN	_	1	conj	_	_
 11-12	da	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	13	case	_	_
@@ -170,17 +170,17 @@
 22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	medicina	medicina	NOUN	NOUN	_	20	nmod	_	_
 24	especializada	especializar	VERB	VERB	_	23	acl:part	_	_
-25	em	_	ADP	ADP	_	26	case	_	_
+25	em	em	ADP	ADP	_	26	case	_	_
 26	oncologia	oncologia	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
-27	,	_	PUNCT	.	_	1	punct	_	_
+27	,	,	PUNCT	.	_	1	punct	_	_
 28	fez	fazer	VERB	VERB	_	0	root	_	_
 29	com	_	ADP	ADP	_	62	mark	_	_
-30	que	_	CCONJ	CONJ	_	62	mark	_	_
-31	a	_	DET	DET	_	32	det	_	_
+30	que	que	CCONJ	CONJ	_	62	mark	_	_
+31	a	a	DET	DET	_	32	det	_	_
 32	Cassems	_	PROPN	PNOUN	_	62	nsubj	_	_
-33	(	_	PUNCT	.	_	34	punct	_	SpaceAfter=No
+33	(	(	PUNCT	.	_	34	punct	_	SpaceAfter=No
 34	Caixa	_	PROPN	PNOUN	_	32	appos	_	_
-35	de	_	ADP	ADP	_	36	case	_	_
+35	de	de	ADP	ADP	_	36	case	_	_
 36	Assistência	_	PROPN	PNOUN	_	34	nmod	_	_
 37-38	dos	_	_	_	_	_	_	_	_
 37	de	de	ADP	ADP	_	39	case	_	_
@@ -190,19 +190,19 @@
 40	de	de	ADP	ADP	_	42	case	_	_
 41	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
 42	Estado	_	PROPN	PNOUN	_	39	nmod	_	_
-43	de	_	ADP	ADP	_	44	case	_	_
+43	de	de	ADP	ADP	_	44	case	_	_
 44	Mato	_	PROPN	PNOUN	_	42	nmod	_	_
 45	Grosso	_	PROPN	PNOUN	_	44	amod	_	_
 46-47	do	_	_	_	_	_	_	_	_
 46	de	de	ADP	ADP	_	48	case	_	_
 47	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
 48	Sul	_	PROPN	PNOUN	_	44	nmod	_	SpaceAfter=No
-49	)	_	PUNCT	.	_	34	punct	_	SpaceAfter=No
-50	,	_	PUNCT	.	_	52	punct	_	_
-51	em	_	ADP	ADP	_	52	case	_	_
+49	)	)	PUNCT	.	_	34	punct	_	SpaceAfter=No
+50	,	,	PUNCT	.	_	52	punct	_	_
+51	em	em	ADP	ADP	_	52	case	_	_
 52	parceria	parceria	NOUN	NOUN	_	62	nmod	_	_
-53	com	_	ADP	ADP	_	55	case	_	_
-54	o	_	DET	DET	_	55	det	_	_
+53	com	com	ADP	ADP	_	55	case	_	_
+54	o	o	DET	DET	_	55	det	_	_
 55	Hospital	_	PROPN	PNOUN	_	52	nmod	_	_
 56-57	do	_	_	_	_	_	_	_	_
 56	de	de	ADP	ADP	_	58	case	_	_
@@ -210,16 +210,16 @@
 58	Câncer	_	PROPN	PNOUN	_	55	nmod	_	_
 59	Alfredo	_	PROPN	PNOUN	_	55	appos	_	_
 60	Abrão	_	PROPN	PNOUN	_	59	flat	_	SpaceAfter=No
-61	,	_	PUNCT	.	_	52	punct	_	_
+61	,	,	PUNCT	.	_	52	punct	_	_
 62	lançasse	lançar	VERB	VERB	_	28	nmod	_	_
-63	em	_	ADP	ADP	_	64	case	_	_
+63	em	em	ADP	ADP	_	64	case	_	_
 64	outubro	_	PROPN	PNOUN	_	62	nmod	_	_
 65-66	do	_	_	_	_	_	_	_	_
 65	de	de	ADP	ADP	_	67	case	_	_
 66	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	67	det	_	_
 67	ano	ano	NOUN	NOUN	_	64	nmod	_	_
 68	passado	passado	ADJ	ADJ	_	67	amod	_	_
-69	o	_	DET	DET	_	71	det	_	_
+69	o	o	DET	DET	_	71	det	_	_
 70	'	_	PUNCT	.	_	71	punct	_	SpaceAfter=No
 71	Ônibus	_	PROPN	PNOUN	_	62	obj	_	_
 72-73	da	_	_	_	_	_	_	_	_
@@ -227,45 +227,45 @@
 73	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	74	det	_	_
 74	Saúde	_	PROPN	PNOUN	_	71	nmod	_	SpaceAfter=No
 75	'	_	PUNCT	.	_	71	punct	_	SpaceAfter=No
-76	.	_	PUNCT	.	_	28	punct	_	_
+76	.	.	PUNCT	.	_	28	punct	_	_
 
 # sent_id = train-s1963
 # text = O período considerado pode ser um qualquer desde que seja regular (semana, mensal, trimestral, semestral, anual, etc.)
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	período	período	NOUN	NOUN	_	7	nsubj	_	_
 3	considerado	considerar	VERB	VERB	_	2	acl:part	_	_
 4	pode	_	AUX	AUX	_	7	aux	_	_
 5	ser	ser	AUX	AUX	_	7	cop	_	_
-6	um	_	DET	DET	_	7	det	_	_
+6	um	um	DET	DET	_	7	det	_	_
 7	qualquer	_	PRON	PRON	_	0	root	_	_
 8	desde	_	ADP	ADP	_	10	mark	_	_
 9	que	_	CCONJ	CONJ	_	8	fixed	_	_
 10	seja	ser	VERB	VERB	_	7	advcl	_	_
 11	regular	regular	ADJ	ADJ	_	10	xcomp:adj	_	_
-12	(	_	PUNCT	.	_	13	punct	_	SpaceAfter=No
+12	(	(	PUNCT	.	_	13	punct	_	SpaceAfter=No
 13	semana	_	ADJ	ADJ	_	11	appos	_	SpaceAfter=No
-14	,	_	PUNCT	.	_	15	punct	_	_
+14	,	,	PUNCT	.	_	15	punct	_	_
 15	mensal	mensal	ADJ	ADJ	_	13	conj	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	17	punct	_	_
+16	,	,	PUNCT	.	_	17	punct	_	_
 17	trimestral	trimestral	ADJ	ADJ	_	13	conj	_	SpaceAfter=No
-18	,	_	PUNCT	.	_	19	punct	_	_
+18	,	,	PUNCT	.	_	19	punct	_	_
 19	semestral	semestral	ADJ	ADJ	_	13	conj	_	SpaceAfter=No
-20	,	_	PUNCT	.	_	21	punct	_	_
+20	,	,	PUNCT	.	_	21	punct	_	_
 21	anual	anual	ADJ	ADJ	_	13	conj	_	SpaceAfter=No
-22	,	_	PUNCT	.	_	23	punct	_	_
+22	,	,	PUNCT	.	_	23	punct	_	_
 23	etc	_	X	X	_	13	conj	_	SpaceAfter=No
-24	.	_	PUNCT	.	_	13	punct	_	SpaceAfter=No
-25	)	_	PUNCT	.	_	13	punct	_	_
+24	.	.	PUNCT	.	_	13	punct	_	SpaceAfter=No
+25	)	)	PUNCT	.	_	13	punct	_	_
 
 # sent_id = train-s1964
 # text = "Muito gentil que vocês desejam minha reabilitação.
-1	"	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
 2	Muito	muito	ADV	ADV	_	3	advmod	_	_
 3	gentil	gentil	ADJ	ADJ	_	0	root	_	_
-4	que	_	CCONJ	CONJ	_	6	mark	_	_
+4	que	que	CCONJ	CONJ	_	6	mark	_	_
 5	vocês	_	PRON	PRON	_	6	nsubj	_	_
 6	desejam	desejar	VERB	VERB	_	3	dep	_	_
 7	minha	_	DET	DET	_	8	det:poss	_	_
 8	reabilitação	reabilitação	NOUN	NOUN	_	6	obj	_	SpaceAfter=No
-9	.	_	PUNCT	.	_	3	punct	_	_
+9	.	.	PUNCT	.	_	3	punct	_	_
 

@@ -7,9 +7,9 @@
 4	por	por	ADP	ADP	_	6	case	_	_
 5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Bope	_	PROPN	PNOUN	_	3	nmod	_	_
-7	(	_	PUNCT	.	_	8	punct	_	SpaceAfter=No
+7	(	(	PUNCT	.	_	8	punct	_	SpaceAfter=No
 8	Batalhão	_	PROPN	PNOUN	_	6	appos	_	_
-9	de	_	ADP	ADP	_	10	case	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
 10	Operações	_	PROPN	PNOUN	_	8	nmod	_	_
 11	Especiais	_	PROPN	PNOUN	_	10	amod	_	_
 12-13	da	_	_	_	_	_	_	_	_
@@ -17,7 +17,7 @@
 13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	Polícia	_	PROPN	PNOUN	_	8	nmod	_	_
 15	Militar	_	PROPN	PNOUN	_	14	amod	_	SpaceAfter=No
-16	)	_	PUNCT	.	_	8	punct	_	_
+16	)	)	PUNCT	.	_	8	punct	_	_
 17-18	na	_	_	_	_	_	_	_	_
 17	em	em	ADP	ADP	_	19	case	_	_
 18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
@@ -25,11 +25,11 @@
 20	Faz	_	PROPN	PNOUN	_	19	appos	_	_
 21	Quem	_	PROPN	PNOUN	_	22	nsubj	_	_
 22	Quer	_	PROPN	PNOUN	_	20	csubj	_	SpaceAfter=No
-23	,	_	PUNCT	.	_	25	punct	_	_
-24	em	_	ADP	ADP	_	25	case	_	_
+23	,	,	PUNCT	.	_	25	punct	_	_
+24	em	em	ADP	ADP	_	25	case	_	_
 25	Rocha	_	PROPN	PNOUN	_	3	nmod	_	_
 26	Miranda	_	PROPN	PNOUN	_	25	flat	_	SpaceAfter=No
-27	,	_	PUNCT	.	_	30	punct	_	_
+27	,	,	PUNCT	.	_	30	punct	_	_
 28-29	na	_	_	_	_	_	_	_	_
 28	em	em	ADP	ADP	_	30	case	_	_
 29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
@@ -39,13 +39,13 @@
 32	de	de	ADP	ADP	_	34	case	_	_
 33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
 34	Rio	_	PROPN	PNOUN	_	30	nmod	_	SpaceAfter=No
-35	,	_	PUNCT	.	_	30	punct	_	_
+35	,	,	PUNCT	.	_	30	punct	_	_
 36	resultou	resultar	VERB	VERB	_	0	root	_	_
 37-38	na	_	_	_	_	_	_	_	_
 37	em	em	ADP	ADP	_	39	case	_	_
 38	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
 39	morte	morte	NOUN	NOUN	_	36	nmod	_	_
-40	de	_	ADP	ADP	_	42	case	_	_
+40	de	de	ADP	ADP	_	42	case	_	_
 41	cinco	_	NUM	NUM	NumType=Card	42	nummod	_	_
 42	pessoas	pessoa	NOUN	NOUN	_	39	nmod	_	_
 43-44	na	_	_	_	_	_	_	_	_
@@ -54,34 +54,34 @@
 45	manhã	manhã	NOUN	NOUN	_	36	nmod	_	_
 46	deste	_	ADP	ADP	_	47	case	_	_
 47	sábado	_	PROPN	PNOUN	_	45	nmod	_	SpaceAfter=No
-48	.	_	PUNCT	.	_	36	punct	_	_
+48	.	.	PUNCT	.	_	36	punct	_	_
 
 # sent_id = train-s6897
 # text = Como de tudo.
 1	Como	comer	VERB	VERB	_	0	root	_	_
-2	de	_	ADP	ADP	_	3	case	_	_
+2	de	de	ADP	ADP	_	3	case	_	_
 3	tudo	_	PRON	PRON	_	1	nmod	_	SpaceAfter=No
-4	.	_	PUNCT	.	_	1	punct	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s6898
 # text = De acordo com o economista da Serasa, o resultado das empresas, além do baixo crescimento da atividade econômica no país, pode ser explicado pela inadimplência das pessoas físicas, que afeta as contas a receber, e pelo aumento do dólar.
 1	De	_	ADP	ADP	_	2	case	_	_
 2	acordo	acordo	NOUN	NOUN	_	31	nmod	_	_
-3	com	_	ADP	ADP	_	5	case	_	_
-4	o	_	DET	DET	_	5	det	_	_
+3	com	com	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	_	5	det	_	_
 5	economista	economista	NOUN	NOUN	_	2	nmod	_	_
 6-7	da	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	8	case	_	_
 7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Serasa	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
-9	,	_	PUNCT	.	_	2	punct	_	_
-10	o	_	DET	DET	_	11	det	_	_
+9	,	,	PUNCT	.	_	2	punct	_	_
+10	o	o	DET	DET	_	11	det	_	_
 11	resultado	resultado	NOUN	NOUN	_	31	nsubj:pass	_	_
 12-13	das	_	_	_	_	_	_	_	_
 12	de	de	ADP	ADP	_	14	case	_	_
 13	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
 14	empresas	empresa	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	16	punct	_	_
+15	,	,	PUNCT	.	_	16	punct	_	_
 16	além	além	ADV	ADV	_	31	advmod	_	_
 17-18	do	_	_	_	_	_	_	_	_
 17	de	de	ADP	ADP	_	20	case	_	_
@@ -97,7 +97,7 @@
 25	em	em	ADP	ADP	_	27	case	_	_
 26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	país	país	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
-28	,	_	PUNCT	.	_	16	punct	_	_
+28	,	,	PUNCT	.	_	16	punct	_	_
 29	pode	_	AUX	AUX	_	31	aux	_	_
 30	ser	ser	AUX	AUX	_	31	aux:pass	_	_
 31	explicado	explicar	VERB	VERB	_	0	root	_	_
@@ -110,15 +110,15 @@
 36	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
 37	pessoas	pessoa	NOUN	NOUN	_	34	nmod	_	_
 38	físicas	físico	ADJ	ADJ	_	37	amod	_	SpaceAfter=No
-39	,	_	PUNCT	.	_	41	punct	_	_
+39	,	,	PUNCT	.	_	41	punct	_	_
 40	que	_	PRON	PRON	_	41	nsubj	_	_
 41	afeta	afetar	VERB	VERB	_	34	acl:relcl	_	_
-42	as	_	DET	DET	_	43	det	_	_
+42	as	o	DET	DET	_	43	det	_	_
 43	contas	conta	NOUN	NOUN	_	41	obj	_	_
 44	a	_	ADP	ADP	_	45	mark	_	_
 45	receber	receber	VERB	VERB	_	43	acl:inf	_	SpaceAfter=No
-46	,	_	PUNCT	.	_	41	punct	_	_
-47	e	_	CCONJ	CONJ	_	50	cc	_	_
+46	,	,	PUNCT	.	_	41	punct	_	_
+47	e	e	CCONJ	CONJ	_	50	cc	_	_
 48-49	pelo	_	_	_	_	_	_	_	_
 48	por	por	ADP	ADP	_	50	case	_	_
 49	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
@@ -127,48 +127,48 @@
 51	de	de	ADP	ADP	_	53	case	_	_
 52	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
 53	dólar	dólar	NOUN	NOUN	_	50	nmod	_	SpaceAfter=No
-54	.	_	PUNCT	.	_	31	punct	_	_
+54	.	.	PUNCT	.	_	31	punct	_	_
 
 # sent_id = train-s6899
 # text = Ele tem televisão, microondas e geladeira, mas a ligação precária traz problemas.
 1	Ele	_	PRON	PRON	_	2	nsubj	_	_
 2	tem	ter	VERB	VERB	_	0	root	_	_
 3	televisão	televisão	NOUN	NOUN	_	2	obj	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	5	punct	_	_
+4	,	,	PUNCT	.	_	5	punct	_	_
 5	microondas	microonda	NOUN	NOUN	_	3	conj	_	_
-6	e	_	CCONJ	CONJ	_	7	cc	_	_
+6	e	e	CCONJ	CONJ	_	7	cc	_	_
 7	geladeira	geladeira	NOUN	NOUN	_	3	conj	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	13	punct	_	_
+8	,	,	PUNCT	.	_	13	punct	_	_
 9	mas	_	CCONJ	CONJ	_	13	cc	_	_
-10	a	_	DET	DET	_	11	det	_	_
+10	a	a	DET	DET	_	11	det	_	_
 11	ligação	ligação	NOUN	NOUN	_	13	nsubj	_	_
 12	precária	precário	ADJ	ADJ	_	11	amod	_	_
 13	traz	trazer	VERB	VERB	_	2	conj	_	_
 14	problemas	problema	NOUN	NOUN	_	13	obj	_	SpaceAfter=No
-15	.	_	PUNCT	.	_	2	punct	_	_
+15	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s6900
 # text = -- A percepção de que o cartão proporciona o controle dos gastos, é inteligente, simples e seguro cresceu nos últimos anos.
 1	--	_	PUNCT	.	_	21	punct	_	_
-2	A	_	DET	DET	_	3	det	_	_
+2	A	o	DET	DET	_	3	det	_	_
 3	percepção	percepção	NOUN	NOUN	_	21	nsubj	_	_
 4	de	_	ADP	ADP	_	8	mark	_	_
-5	que	_	CCONJ	CONJ	_	8	mark	_	_
-6	o	_	DET	DET	_	7	det	_	_
+5	que	que	CCONJ	CONJ	_	8	mark	_	_
+6	o	o	DET	DET	_	7	det	_	_
 7	cartão	cartão	NOUN	NOUN	_	8	nsubj	_	_
 8	proporciona	proporcionar	VERB	VERB	_	3	nmod	_	_
-9	o	_	DET	DET	_	10	det	_	_
+9	o	o	DET	DET	_	10	det	_	_
 10	controle	_	NOUN	NOUN	_	8	obj	_	_
 11-12	dos	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	13	case	_	_
 12	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 13	gastos	gasto	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
-14	,	_	PUNCT	.	_	15	punct	_	_
+14	,	,	PUNCT	.	_	15	punct	_	_
 15	é	ser	VERB	VERB	_	8	conj	_	_
 16	inteligente	inteligente	ADJ	ADJ	_	15	xcomp:adj	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	18	punct	_	_
+17	,	,	PUNCT	.	_	18	punct	_	_
 18	simples	simples	ADJ	ADJ	_	16	conj	_	_
-19	e	_	CCONJ	CONJ	_	20	cc	_	_
+19	e	e	CCONJ	CONJ	_	20	cc	_	_
 20	seguro	seguro	ADJ	ADJ	_	16	conj	_	_
 21	cresceu	crescer	VERB	VERB	_	0	root	_	_
 22-23	nos	_	_	_	_	_	_	_	_
@@ -176,25 +176,25 @@
 23	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
 24	últimos	último	ADJ	ADJ	_	25	amod	_	_
 25	anos	ano	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
-26	.	_	PUNCT	.	_	21	punct	_	_
+26	.	.	PUNCT	.	_	21	punct	_	_
 
 # sent_id = train-s6901
 # text = Vou deixar pra em cima da hora ", avisa Ricardo Silva.
 1	Vou	ir	AUX	AUX	_	2	aux	_	_
 2	deixar	deixar	VERB	VERB	_	11	ccomp	_	_
 3	pra	_	ADP	ADP	_	2	nmod	_	_
-4	em	_	ADP	ADP	_	5	case	_	_
+4	em	em	ADP	ADP	_	5	case	_	_
 5	cima	cima	NOUN	NOUN	_	3	nmod	_	_
 6-7	da	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	8	case	_	_
 7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	hora	hora	NOUN	NOUN	_	5	nmod	_	_
-9	"	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	11	punct	_	_
+9	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	11	punct	_	_
 11	avisa	avisar	VERB	VERB	_	0	root	_	_
 12	Ricardo	_	PROPN	PNOUN	_	11	nsubj	_	_
 13	Silva	_	PROPN	PNOUN	_	12	flat	_	SpaceAfter=No
-14	.	_	PUNCT	.	_	11	punct	_	_
+14	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s6902
 # text = Assim não é necessário que o código de barras esteja alinhado com o aparelho ", diz Luana.
@@ -202,21 +202,21 @@
 2	não	não	ADV	ADV	Polarity=Neg	3	advmod	_	_
 3	é	ser	VERB	VERB	_	17	ccomp	_	_
 4	necessário	necessário	ADJ	ADJ	_	3	xcomp:adj	_	_
-5	que	_	CCONJ	CONJ	_	10	mark	_	_
-6	o	_	DET	DET	_	7	det	_	_
+5	que	que	CCONJ	CONJ	_	10	mark	_	_
+6	o	o	DET	DET	_	7	det	_	_
 7	código	código	NOUN	NOUN	_	10	nsubj	_	_
-8	de	_	ADP	ADP	_	9	case	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
 9	barras	barra	NOUN	NOUN	_	7	nmod	_	_
 10	esteja	estar	VERB	VERB	_	3	csubj	_	_
 11	alinhado	alinhado	ADJ	ADJ	_	10	xcomp:adj	_	_
-12	com	_	ADP	ADP	_	14	case	_	_
-13	o	_	DET	DET	_	14	det	_	_
+12	com	com	ADP	ADP	_	14	case	_	_
+13	o	o	DET	DET	_	14	det	_	_
 14	aparelho	aparelho	NOUN	NOUN	_	11	nmod	_	_
-15	"	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
-16	,	_	PUNCT	.	_	17	punct	_	_
+15	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
+16	,	,	PUNCT	.	_	17	punct	_	_
 17	diz	dizer	VERB	VERB	_	0	root	_	_
 18	Luana	_	PROPN	PNOUN	_	17	nsubj	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	17	punct	_	_
+19	.	.	PUNCT	.	_	17	punct	_	_
 
 # sent_id = train-s6903
 # text = Campeão da Uefa Champions League e, logo, representante da Europa, o Chelsea também entra apenas na fase semifinal e vai duelar contra o vencedor do confronto entre o Monterrey, campeão da Concacaf, e o time da Ásia, ainda não definido.
@@ -227,17 +227,17 @@
 4	Uefa	_	PROPN	PNOUN	_	1	nmod	_	_
 5	Champions	_	PROPN	PNOUN	_	4	flat	_	_
 6	League	_	PROPN	PNOUN	_	4	flat	_	_
-7	e	_	CCONJ	CONJ	_	11	cc	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	9	punct	_	_
+7	e	e	CCONJ	CONJ	_	11	cc	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	9	punct	_	_
 9	logo	_	CCONJ	CONJ	_	11	cc	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	9	punct	_	_
+10	,	,	PUNCT	.	_	9	punct	_	_
 11	representante	representante	NOUN	NOUN	_	1	conj	_	_
 12-13	da	_	_	_	_	_	_	_	_
 12	de	de	ADP	ADP	_	14	case	_	_
 13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	Europa	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
-15	,	_	PUNCT	.	_	11	punct	_	_
-16	o	_	DET	DET	_	17	det	_	_
+15	,	,	PUNCT	.	_	11	punct	_	_
+16	o	o	DET	DET	_	17	det	_	_
 17	Chelsea	_	PROPN	PNOUN	_	1	appos	_	_
 18	também	também	ADV	ADV	_	19	advmod	_	_
 19	entra	entrar	VERB	VERB	_	0	root	_	_
@@ -247,26 +247,26 @@
 22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	fase	fase	NOUN	NOUN	_	19	nmod	_	_
 24	semifinal	semifinal	ADJ	ADJ	_	23	amod	_	_
-25	e	_	CCONJ	CONJ	_	27	cc	_	_
+25	e	e	CCONJ	CONJ	_	27	cc	_	_
 26	vai	ir	AUX	AUX	_	27	aux	_	_
 27	duelar	duelar	VERB	VERB	_	19	conj	_	_
 28	contra	_	ADP	ADP	_	30	case	_	_
-29	o	_	DET	DET	_	30	det	_	_
+29	o	o	DET	DET	_	30	det	_	_
 30	vencedor	_	NOUN	NOUN	_	27	nmod	_	_
 31-32	do	_	_	_	_	_	_	_	_
 31	de	de	ADP	ADP	_	33	case	_	_
 32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	confronto	confronto	NOUN	NOUN	_	30	nmod	_	_
 34	entre	_	ADP	ADP	_	36	case	_	_
-35	o	_	DET	DET	_	36	det	_	_
+35	o	o	DET	DET	_	36	det	_	_
 36	Monterrey	_	PROPN	PNOUN	_	33	nmod	_	SpaceAfter=No
-37	,	_	PUNCT	.	_	38	punct	_	_
+37	,	,	PUNCT	.	_	38	punct	_	_
 38	campeão	campeão	NOUN	NOUN	_	36	appos	_	_
 39-40	da	_	_	_	_	_	_	_	_
 39	de	de	ADP	ADP	_	41	case	_	_
 40	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
 41	Concacaf	_	PROPN	PNOUN	_	38	nmod	_	SpaceAfter=No
-42	,	_	PUNCT	.	_	38	punct	_	_
+42	,	,	PUNCT	.	_	38	punct	_	_
 43	e	e	CCONJ	CONJ	_	45	cc	_	_
 44	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
 45	time	time	NOUN	NOUN	_	36	conj	_	_
@@ -274,19 +274,19 @@
 46	de	de	ADP	ADP	_	48	case	_	_
 47	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
 48	Ásia	_	PROPN	PNOUN	_	45	nmod	_	SpaceAfter=No
-49	,	_	PUNCT	.	_	52	punct	_	_
+49	,	,	PUNCT	.	_	52	punct	_	_
 50	ainda	ainda	ADV	ADV	_	51	advmod	_	_
 51	não	não	ADV	ADV	Polarity=Neg	52	advmod	_	_
 52	definido	definir	VERB	VERB	_	45	acl:part	_	SpaceAfter=No
-53	.	_	PUNCT	.	_	19	punct	_	_
+53	.	.	PUNCT	.	_	19	punct	_	_
 
 # sent_id = train-s6904
 # text = Segundo a SEC, os calendários foram aprovados pelos colegiados escolares, que contam com participação de professores, servidores, pais e estudantes.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	a	_	DET	DET	_	3	det	_	_
+2	a	a	DET	DET	_	3	det	_	_
 3	SEC	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	.	_	3	punct	_	_
-5	os	_	DET	DET	_	6	det	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	os	o	DET	DET	_	6	det	_	_
 6	calendários	calendário	NOUN	NOUN	_	8	nsubj:pass	_	_
 7	foram	_	AUX	AUX	_	8	aux:pass	_	_
 8	aprovados	aprovar	VERB	VERB	_	0	root	_	_
@@ -295,20 +295,20 @@
 10	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
 11	colegiados	_	NOUN	NOUN	_	8	nmod	_	_
 12	escolares	escolar	ADJ	ADJ	_	11	amod	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	15	punct	_	_
+13	,	,	PUNCT	.	_	15	punct	_	_
 14	que	_	PRON	PRON	_	15	nsubj	_	_
 15	contam	contar	VERB	VERB	_	11	acl:relcl	_	_
-16	com	_	ADP	ADP	_	17	case	_	_
+16	com	com	ADP	ADP	_	17	case	_	_
 17	participação	participação	NOUN	NOUN	_	15	nmod	_	_
-18	de	_	ADP	ADP	_	19	case	_	_
+18	de	de	ADP	ADP	_	19	case	_	_
 19	professores	professor	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
-20	,	_	PUNCT	.	_	21	punct	_	_
+20	,	,	PUNCT	.	_	21	punct	_	_
 21	servidores	servidor	NOUN	NOUN	_	19	conj	_	SpaceAfter=No
-22	,	_	PUNCT	.	_	23	punct	_	_
+22	,	,	PUNCT	.	_	23	punct	_	_
 23	pais	_	NOUN	NOUN	_	19	conj	_	_
-24	e	_	CCONJ	CONJ	_	25	cc	_	_
+24	e	e	CCONJ	CONJ	_	25	cc	_	_
 25	estudantes	estudante	NOUN	NOUN	_	19	conj	_	SpaceAfter=No
-26	.	_	PUNCT	.	_	8	punct	_	_
+26	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s6905
 # text = Retornou à turnê ao lado de Garinei e Giovanni atuando no Teatro Lírico, situado na cidade de Liverpool.
@@ -321,9 +321,9 @@
 5	a	a	ADP	ADP	_	7	case	_	_
 6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	lado	lado	NOUN	NOUN	_	1	nmod	_	_
-8	de	_	ADP	ADP	_	9	case	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
 9	Garinei	_	PROPN	PNOUN	_	7	nmod	_	_
-10	e	_	CCONJ	CONJ	_	11	cc	_	_
+10	e	e	CCONJ	CONJ	_	11	cc	_	_
 11	Giovanni	_	PROPN	PNOUN	_	9	conj	_	_
 12	atuando	atuar	VERB	VERB	_	1	acl:part	_	_
 13-14	no	_	_	_	_	_	_	_	_
@@ -331,13 +331,13 @@
 14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	Teatro	_	PROPN	PNOUN	_	12	nmod	_	_
 16	Lírico	_	PROPN	PNOUN	_	15	amod	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	18	punct	_	_
+17	,	,	PUNCT	.	_	18	punct	_	_
 18	situado	situar	VERB	VERB	_	15	acl:part	_	_
 19-20	na	_	_	_	_	_	_	_	_
 19	em	em	ADP	ADP	_	21	case	_	_
 20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	cidade	cidade	NOUN	NOUN	_	18	nmod	_	_
-22	de	_	ADP	ADP	_	23	case	_	_
+22	de	de	ADP	ADP	_	23	case	_	_
 23	Liverpool	_	PROPN	PNOUN	_	21	nmod	_	SpaceAfter=No
-24	.	_	PUNCT	.	_	1	punct	_	_
+24	.	.	PUNCT	.	_	1	punct	_	_
 

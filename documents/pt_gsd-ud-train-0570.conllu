@@ -5,50 +5,50 @@
 2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 3	próxima	próximo	ADJ	ADJ	_	6	amod	_	_
 4	segunda	_	PROPN	PNOUN	_	6	amod	_	_
-5	-	_	PUNCT	.	_	6	punct	_	_
+5	-	-	PUNCT	.	_	6	punct	_	_
 6	feira	_	PROPN	PNOUN	_	16	nmod	_	_
-7	(	_	PUNCT	.	_	8	punct	_	SpaceAfter=No
+7	(	(	PUNCT	.	_	8	punct	_	SpaceAfter=No
 8	12	_	NUM	NUM	NumType=Card	6	nmod	_	SpaceAfter=No
-9	)	_	PUNCT	.	_	8	punct	_	SpaceAfter=No
-10	,	_	PUNCT	.	_	11	punct	_	_
+9	)	)	PUNCT	.	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	11	punct	_	_
 11	continuou	continuar	VERB	VERB	_	16	parataxis	_	_
 12	Cardozo	_	PROPN	PNOUN	_	11	nsubj	_	SpaceAfter=No
-13	,	_	PUNCT	.	_	11	punct	_	_
+13	,	,	PUNCT	.	_	11	punct	_	_
 14	já	já	ADV	ADV	_	16	advmod	_	_
 15	será	ser	AUX	AUX	_	16	aux:pass	_	_
 16	feita	_	VERB	VERB	_	0	root	_	_
-17	a	_	DET	DET	_	19	det	_	_
+17	a	a	DET	DET	_	19	det	_	_
 18	primeira	primeiro	ADJ	ADJ	_	19	amod	_	_
 19	reunião	reunião	NOUN	NOUN	_	16	nsubj:pass	_	_
-20	de	_	ADP	ADP	_	21	case	_	_
+20	de	de	ADP	ADP	_	21	case	_	_
 21	representantes	representante	NOUN	NOUN	_	19	nmod	_	_
 22-23	da	_	_	_	_	_	_	_	_
 22	de	de	ADP	ADP	_	24	case	_	_
 23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	agência	agência	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
-25	,	_	PUNCT	.	_	27	punct	_	_
-26	em	_	ADP	ADP	_	27	case	_	_
+25	,	,	PUNCT	.	_	27	punct	_	_
+26	em	em	ADP	ADP	_	27	case	_	_
 27	São	_	PROPN	PNOUN	_	16	nmod	_	_
 28	Paulo	_	PROPN	PNOUN	_	27	flat	_	SpaceAfter=No
-29	,	_	PUNCT	.	_	27	punct	_	_
+29	,	,	PUNCT	.	_	27	punct	_	_
 30	para	_	ADP	ADP	_	33	mark	_	_
 31	começar	começar	VERB	VERB	_	33	aux	_	_
 32	a	_	ADP	ADP	_	33	mark	_	_
 33	estudar	estudar	VERB	VERB	_	16	advcl	_	_
-34	um	_	DET	DET	_	35	det	_	_
+34	um	um	DET	DET	_	35	det	_	_
 35	plano	plano	NOUN	NOUN	_	33	obj	_	_
-36	de	_	ADP	ADP	_	37	case	_	_
+36	de	de	ADP	ADP	_	37	case	_	_
 37	contenção	contenção	NOUN	NOUN	_	35	nmod	_	_
 38-39	nas	_	_	_	_	_	_	_	_
 38	em	em	ADP	ADP	_	40	case	_	_
 39	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	40	det	_	_
 40	fronteiras	_	NOUN	NOUN	_	35	nmod	_	_
 41	estaduais	estadual	ADJ	ADJ	_	40	amod	_	SpaceAfter=No
-42	.	_	PUNCT	.	_	16	punct	_	_
+42	.	.	PUNCT	.	_	16	punct	_	_
 
 # sent_id = train-s5659
 # text = O objetivo da secretaria é vacinar 2,9 milhões até o final da campanha.
-1	O	_	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	_	2	det	_	_
 2	objetivo	objetivo	NOUN	NOUN	_	0	root	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -59,80 +59,80 @@
 8	2,9	_	NUM	NUM	NumType=Card	9	nummod	_	_
 9	milhões	_	NUM	NUM	NumType=Card	7	obj	_	_
 10	até	_	ADP	ADP	_	12	case	_	_
-11	o	_	DET	DET	_	12	det	_	_
+11	o	o	DET	DET	_	12	det	_	_
 12	final	final	NOUN	NOUN	_	7	nmod	_	_
 13-14	da	_	_	_	_	_	_	_	_
 13	de	de	ADP	ADP	_	15	case	_	_
 14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	campanha	campanha	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
-16	.	_	PUNCT	.	_	2	punct	_	_
+16	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s5660
 # text = "Eu viu muitos incidentes recentemente, e assisti ao lance de Suarez duas ou três vezes.
-1	"	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
+1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
 2	Eu	_	PRON	PRON	_	3	nsubj	_	_
 3	viu	ver	VERB	VERB	_	0	root	_	_
 4	muitos	_	DET	DET	_	5	det	_	_
 5	incidentes	incidente	NOUN	NOUN	_	3	obj	_	_
 6	recentemente	recentemente	ADV	ADV	_	3	advmod	_	SpaceAfter=No
-7	,	_	PUNCT	.	_	9	punct	_	_
-8	e	_	CCONJ	CONJ	_	9	cc	_	_
+7	,	,	PUNCT	.	_	9	punct	_	_
+8	e	e	CCONJ	CONJ	_	9	cc	_	_
 9	assisti	assistir	VERB	VERB	_	3	conj	_	_
 10-11	ao	_	_	_	_	_	_	_	_
 10	a	a	ADP	ADP	_	12	case	_	_
 11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	lance	lance	NOUN	NOUN	_	9	nmod	_	_
-13	de	_	ADP	ADP	_	14	case	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
 14	Suarez	_	PROPN	PNOUN	_	12	nmod	_	_
 15	duas	_	NUM	NUM	NumType=Card	18	nummod	_	_
-16	ou	_	CCONJ	CONJ	_	17	cc	_	_
+16	ou	ou	CCONJ	CONJ	_	17	cc	_	_
 17	três	_	NUM	NUM	NumType=Card	15	conj	_	_
 18	vezes	vez	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
-19	.	_	PUNCT	.	_	3	punct	_	_
+19	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s5661
 # text = Cristiano Ronaldo, então com 19 anos, marcou duas vezes.
 1	Cristiano	_	PROPN	PNOUN	_	9	nsubj	_	_
 2	Ronaldo	_	PROPN	PNOUN	_	1	flat	_	SpaceAfter=No
-3	,	_	PUNCT	.	_	7	punct	_	_
+3	,	,	PUNCT	.	_	7	punct	_	_
 4	então	então	ADV	ADV	_	7	advmod	_	_
-5	com	_	ADP	ADP	_	7	case	_	_
+5	com	com	ADP	ADP	_	7	case	_	_
 6	19	_	NUM	NUM	NumType=Card	7	nummod	_	_
 7	anos	ano	NOUN	NOUN	_	1	nmod	_	SpaceAfter=No
-8	,	_	PUNCT	.	_	7	punct	_	_
+8	,	,	PUNCT	.	_	7	punct	_	_
 9	marcou	marcar	VERB	VERB	_	0	root	_	_
 10	duas	_	NUM	NUM	NumType=Card	11	nummod	_	_
 11	vezes	vez	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
-12	.	_	PUNCT	.	_	9	punct	_	_
+12	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s5662
 # text = "A violência contra a juventude é uma violência contra todos nós", afirmou ela.
-1	"	_	PUNCT	.	_	9	punct	_	SpaceAfter=No
-2	A	_	DET	DET	_	3	det	_	_
+1	"	"	PUNCT	.	_	9	punct	_	SpaceAfter=No
+2	A	o	DET	DET	_	3	det	_	_
 3	violência	violência	NOUN	NOUN	_	9	nsubj	_	_
 4	contra	_	ADP	ADP	_	6	case	_	_
-5	a	_	DET	DET	_	6	det	_	_
+5	a	a	DET	DET	_	6	det	_	_
 6	juventude	juventude	NOUN	NOUN	_	3	nmod	_	_
 7	é	ser	AUX	AUX	_	9	cop	_	_
-8	uma	_	DET	DET	_	9	det	_	_
+8	uma	um	DET	DET	_	9	det	_	_
 9	violência	violência	NOUN	NOUN	_	15	ccomp	_	_
 10	contra	_	ADP	ADP	_	12	case	_	_
 11	todos	_	DET	DET	_	12	det	_	_
 12	nós	nó	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
-13	"	_	PUNCT	.	_	9	punct	_	SpaceAfter=No
-14	,	_	PUNCT	.	_	15	punct	_	_
+13	"	"	PUNCT	.	_	9	punct	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	15	punct	_	_
 15	afirmou	afirmar	VERB	VERB	_	0	root	_	_
 16	ela	_	PRON	PRON	_	15	nsubj	_	SpaceAfter=No
-17	.	_	PUNCT	.	_	15	punct	_	_
+17	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = train-s5663
 # text = Durante a festa de Halloween, Quirrell adentra no salão para avisar a todos de que havia um Trasgo nas masmorras.
 1	Durante	_	ADP	ADP	_	3	case	_	_
-2	a	_	DET	DET	_	3	det	_	_
+2	a	a	DET	DET	_	3	det	_	_
 3	festa	festa	NOUN	NOUN	_	8	nmod	_	_
-4	de	_	ADP	ADP	_	5	case	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
 5	Halloween	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	3	punct	_	_
+6	,	,	PUNCT	.	_	3	punct	_	_
 7	Quirrell	_	PROPN	PNOUN	_	8	nsubj	_	_
 8	adentra	adentrar	VERB	VERB	_	0	root	_	_
 9-10	no	_	_	_	_	_	_	_	_
@@ -144,19 +144,19 @@
 14	a	_	ADP	ADP	_	15	case	_	_
 15	todos	_	PRON	PRON	_	13	nmod	_	_
 16	de	_	ADP	ADP	_	18	mark	_	_
-17	que	_	CCONJ	CONJ	_	18	mark	_	_
+17	que	que	CCONJ	CONJ	_	18	mark	_	_
 18	havia	haver	VERB	VERB	_	13	nmod	_	_
-19	um	_	DET	DET	_	20	det	_	_
+19	um	um	DET	DET	_	20	det	_	_
 20	Trasgo	_	PROPN	PNOUN	_	18	obj	_	_
 21-22	nas	_	_	_	_	_	_	_	_
 21	em	em	ADP	ADP	_	23	case	_	_
 22	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
 23	masmorras	masmorra	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
-24	.	_	PUNCT	.	_	8	punct	_	_
+24	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s5664
 # text = As inscrições serão feitas a partir do dia 30 de julho até 10 de agosto, pelo site www.cotec.unimontes.br.
-1	As	_	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	_	2	det	_	_
 2	inscrições	inscrição	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	serão	ser	AUX	AUX	_	4	aux:pass	_	_
 4	feitas	_	VERB	VERB	_	0	root	_	_
@@ -167,19 +167,19 @@
 8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	dia	dia	NOUN	NOUN	_	6	nmod	_	_
 10	30	_	NUM	NUM	NumType=Card	9	nmod	_	_
-11	de	_	ADP	ADP	_	12	case	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
 12	julho	_	PROPN	PNOUN	_	10	nmod	_	_
 13	até	_	ADP	ADP	_	14	case	_	_
 14	10	_	NUM	NUM	NumType=Card	4	nmod	_	_
-15	de	_	ADP	ADP	_	16	case	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
 16	agosto	_	PROPN	PNOUN	_	14	nmod	_	SpaceAfter=No
-17	,	_	PUNCT	.	_	20	punct	_	_
+17	,	,	PUNCT	.	_	20	punct	_	_
 18-19	pelo	_	_	_	_	_	_	_	_
 18	por	por	ADP	ADP	_	20	case	_	_
 19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	site	site	NOUN	NOUN	_	4	nmod	_	_
 21	www.cotec.unimontes.br	_	X	X	_	20	appos	_	SpaceAfter=No
-22	.	_	PUNCT	.	_	4	punct	_	_
+22	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s5665
 # text = É minha alma gêmea no Carnaval."
@@ -191,17 +191,17 @@
 5	em	em	ADP	ADP	_	7	case	_	_
 6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Carnaval	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
-8	.	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
-9	"	_	PUNCT	.	_	3	punct	_	_
+8	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+9	"	"	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s5666
 # text = A informação está numa pesquisa da Federação das Indústrias do Estado do Rio de Janeiro (Firjan) feita nos 5.565 municípios do país, que resultou no Índice Firjan de Desenvolvimento MUnicipal (IFDM), divulgado hoje (2).
-1	A	_	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	_	2	det	_	_
 2	informação	informação	NOUN	NOUN	_	3	nsubj	_	_
 3	está	estar	VERB	VERB	_	0	root	_	_
 4-5	numa	_	_	_	_	_	_	_	_
-4	em	_	ADP	ADP	_	6	case	_	_
-5	uma	_	DET	DET	_	6	det	_	_
+4	em	em	ADP	ADP	_	6	case	_	_
+5	uma	um	DET	DET	_	6	det	_	_
 6	pesquisa	pesquisa	NOUN	NOUN	_	3	nmod	_	_
 7-8	da	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
@@ -219,11 +219,11 @@
 16	de	de	ADP	ADP	_	18	case	_	_
 17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	Rio	_	PROPN	PNOUN	_	15	nmod	_	_
-19	de	_	ADP	ADP	_	20	case	_	_
+19	de	de	ADP	ADP	_	20	case	_	_
 20	Janeiro	_	PROPN	PNOUN	_	18	nmod	_	_
-21	(	_	PUNCT	.	_	22	punct	_	SpaceAfter=No
+21	(	(	PUNCT	.	_	22	punct	_	SpaceAfter=No
 22	Firjan	_	PROPN	PNOUN	_	9	appos	_	SpaceAfter=No
-23	)	_	PUNCT	.	_	22	punct	_	_
+23	)	)	PUNCT	.	_	22	punct	_	_
 24	feita	_	VERB	VERB	_	6	acl:part	_	_
 25-26	nos	_	_	_	_	_	_	_	_
 25	em	em	ADP	ADP	_	28	case	_	_
@@ -234,7 +234,7 @@
 29	de	de	ADP	ADP	_	31	case	_	_
 30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	país	país	NOUN	NOUN	_	28	nmod	_	SpaceAfter=No
-32	,	_	PUNCT	.	_	34	punct	_	_
+32	,	,	PUNCT	.	_	34	punct	_	_
 33	que	_	PRON	PRON	_	34	nsubj	_	_
 34	resultou	resultar	VERB	VERB	_	6	acl:relcl	_	_
 35-36	no	_	_	_	_	_	_	_	_
@@ -242,25 +242,25 @@
 36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
 37	Índice	_	PROPN	PNOUN	_	34	nmod	_	_
 38	Firjan	_	PROPN	PNOUN	_	37	flat	_	_
-39	de	_	ADP	ADP	_	40	case	_	_
+39	de	de	ADP	ADP	_	40	case	_	_
 40	Desenvolvimento	_	PROPN	PNOUN	_	37	nmod	_	_
 41	MUnicipal	_	PROPN	PNOUN	_	40	amod	_	_
-42	(	_	PUNCT	.	_	43	punct	_	SpaceAfter=No
+42	(	(	PUNCT	.	_	43	punct	_	SpaceAfter=No
 43	IFDM	_	PROPN	PNOUN	_	37	appos	_	SpaceAfter=No
-44	)	_	PUNCT	.	_	43	punct	_	SpaceAfter=No
-45	,	_	PUNCT	.	_	46	punct	_	_
+44	)	)	PUNCT	.	_	43	punct	_	SpaceAfter=No
+45	,	,	PUNCT	.	_	46	punct	_	_
 46	divulgado	divulgar	VERB	VERB	_	37	acl:part	_	_
 47	hoje	hoje	ADV	ADV	_	46	advmod	_	_
-48	(	_	PUNCT	.	_	49	punct	_	SpaceAfter=No
+48	(	(	PUNCT	.	_	49	punct	_	SpaceAfter=No
 49	2	_	NUM	NUM	NumType=Card	47	nmod	_	SpaceAfter=No
-50	)	_	PUNCT	.	_	49	punct	_	SpaceAfter=No
-51	.	_	PUNCT	.	_	3	punct	_	_
+50	)	)	PUNCT	.	_	49	punct	_	SpaceAfter=No
+51	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s5667
 # text = Stockton é uma cidade localizada no estado norte - americano de Utah, no Condado de Tooele.
 1	Stockton	_	PROPN	PNOUN	_	4	nsubj	_	_
 2	é	ser	AUX	AUX	_	4	cop	_	_
-3	uma	_	DET	DET	_	4	det	_	_
+3	uma	um	DET	DET	_	4	det	_	_
 4	cidade	cidade	NOUN	NOUN	_	0	root	_	_
 5	localizada	localizar	VERB	VERB	_	4	acl:part	_	_
 6-7	no	_	_	_	_	_	_	_	_
@@ -268,16 +268,16 @@
 7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	estado	estado	NOUN	NOUN	_	5	nmod	_	_
 9	norte	norte	ADJ	ADJ	_	11	amod	_	_
-10	-	_	PUNCT	.	_	11	punct	_	_
+10	-	-	PUNCT	.	_	11	punct	_	_
 11	americano	americano	ADJ	ADJ	_	8	amod	_	_
-12	de	_	ADP	ADP	_	13	case	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
 13	Utah	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
-14	,	_	PUNCT	.	_	17	punct	_	_
+14	,	,	PUNCT	.	_	17	punct	_	_
 15-16	no	_	_	_	_	_	_	_	_
 15	em	em	ADP	ADP	_	17	case	_	_
 16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	Condado	_	PROPN	PNOUN	_	5	nmod	_	_
-18	de	_	ADP	ADP	_	19	case	_	_
+18	de	de	ADP	ADP	_	19	case	_	_
 19	Tooele	_	PROPN	PNOUN	_	17	nmod	_	SpaceAfter=No
-20	.	_	PUNCT	.	_	4	punct	_	_
+20	.	.	PUNCT	.	_	4	punct	_	_
 
