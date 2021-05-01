@@ -10,6 +10,7 @@ Treebank v2.0 (legacy)](https://github.com/ryanmcd/uni-dep-tb).
  * Fixed verbs that are not AUX in PT 
  * Fixed some cases of missing MWT (contractions)
  * Fixed some other erros in validation. 
+ * added many more missing lemmas 
  
  We still have many validation errors and incompatibilities with UD_Portuguese-Bosque
 
