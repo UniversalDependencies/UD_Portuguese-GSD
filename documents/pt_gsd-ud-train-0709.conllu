@@ -220,7 +220,7 @@
 15	.	_	PUNCT	.	_	13	punct	_	_
 
 # sent_id = train-s7043
-# text = A versão 2.4 mudou a pasta da Área de Trabalho para o diretório ~ / Desktop (o ~ representa a pasta principal do usuário) para tornar - se compatível com os padrões freedesktop.org
+# text = A versão 2.4 mudou a pasta da Área de Trabalho para o diretório ~/Desktop (o ~ representa a pasta principal do usuário) para tornar-se compatível com os padrões freedesktop.org
 1	A	_	DET	DET	_	2	det	_	_
 2	versão	versão	NOUN	NOUN	_	4	nsubj	_	_
 3	2.4	_	NUM	NUM	NumType=Card	2	appos	_	_
@@ -236,30 +236,28 @@
 12	para	_	ADP	ADP	_	14	case	_	_
 13	o	_	DET	DET	_	14	det	_	_
 14	diretório	diretório	NOUN	NOUN	_	4	nmod	_	_
-15	~	_	PUNCT	.	_	17	punct	_	_
-16	/	_	PUNCT	.	_	17	punct	_	_
-17	Desktop	_	PROPN	PNOUN	_	14	appos	_	_
-18	(	_	PUNCT	.	_	23	punct	_	SpaceAfter=No
-19	o	_	DET	DET	_	20	det	_	_
-20	~	_	NOUN	NOUN	_	23	nsubj	_	_
-21	representa	representar	AUX	AUX	_	23	cop	_	_
-22	a	_	DET	DET	_	23	det	_	_
-23	pasta	pasta	NOUN	NOUN	_	17	parataxis	_	_
-24	principal	principal	ADJ	ADJ	_	23	amod	_	_
-25-26	do	_	_	_	_	_	_	_	_
-25	de	de	ADP	ADP	_	27	case	_	_
-26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	usuário	usuário	NOUN	NOUN	_	23	nmod	_	SpaceAfter=No
-28	)	_	PUNCT	.	_	23	punct	_	_
-29	para	_	ADP	ADP	_	30	mark	_	_
-30	tornar	tornar	VERB	VERB	_	4	advcl	_	_
-31	-	_	PUNCT	.	_	30	punct	_	_
-32	se	_	PART	PRT	_	30	expl:pv	_	_
-33	compatível	compatível	ADJ	ADJ	_	30	xcomp:adj	_	_
-34	com	_	ADP	ADP	_	36	case	_	_
-35	os	_	DET	DET	_	36	det	_	_
-36	padrões	padrão	NOUN	NOUN	_	33	nmod	_	_
-37	freedesktop.org	_	X	X	_	36	appos	_	_
+15	~/Desktop	~/Desktop	X	.	_	14	appos	_	_
+16	(	_	PUNCT	.	_	21	punct	_	SpaceAfter=No
+17	o	_	DET	DET	_	18	det	_	_
+18	~	_	SYM	_	_	20	nsubj	_	_
+19	representa	representar	VERB	_	_	14	acl	_	_
+20	a	_	DET	DET	_	21	det	_	_
+21	pasta	pasta	NOUN	NOUN	_	19	obj	_	_
+22	principal	principal	ADJ	ADJ	_	21	amod	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	ADP	_	25	case	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	usuário	usuário	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
+26	)	_	PUNCT	.	_	21	punct	_	_
+27	para	_	ADP	ADP	_	28	mark	_	_
+28	tornar	tornar	VERB	VERB	_	4	advcl	_	_
+29	-	_	PUNCT	.	_	28	punct	_	_
+30	se	_	PART	PRT	_	28	expl:pv	_	_
+31	compatível	compatível	ADJ	ADJ	_	28	xcomp:adj	_	_
+32	com	_	ADP	ADP	_	34	case	_	_
+33	os	_	DET	DET	_	34	det	_	_
+34	padrões	padrão	NOUN	NOUN	_	31	nmod	_	_
+35	freedesktop.org	freedesktop.org	X	X	_	34	appos	_	_
 
 # sent_id = train-s7044
 # text = Nesse sentido foi realizada a Revisão Constitucional de 1982 que extinguiu o Conselho da Revolução e que voltou a subordinar as Forças Armadas à administração direta do Estado.

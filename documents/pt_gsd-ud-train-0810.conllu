@@ -51,17 +51,17 @@
 13	.	_	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s8043
-# text = Mais Belo que o Pôr - do - sol e outros contos (2000) e Um Chão Maior, livreto de poesia publicado em duas edições em 1981 e 2001.
-1	Mais	_	PROPN	PNOUN	_	2	advmod	_	_
-2	Belo	_	PROPN	PNOUN	_	0	root	_	_
+# text = Mais Belo que o Pôr-do-sol e outros contos (2000) e Um Chão Maior, livreto de poesia publicado em duas edições em 1981 e 2001.
+1	Mais	mais	ADV	_	_	2	advmod	_	_
+2	Belo	belo	ADJ	_	_	0	root	_	_
 3	que	_	ADP	ADP	_	5	case	_	_
 4	o	_	DET	DET	_	5	det	_	_
-5	Pôr	_	PROPN	PNOUN	_	2	nmod	_	_
+5	Pôr	_	PROPN	PNOUN	_	2	nmod	_	MWEPOS=PROPN|SpaceAfter=No
 6	-	_	PUNCT	.	_	5	punct	_	_
-7-8	do	_	_	_	_	_	_	_	_
+7-8	do	_	_	_	_	_	_	_	SpaceAfter=No
 7	de	de	ADP	ADP	_	10	case	_	_
 8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-9	-	_	PUNCT	.	_	10	punct	_	_
+9	-	_	PUNCT	.	_	10	punct	_	SpaceAfter=No
 10	sol	sol	NOUN	NOUN	_	5	nmod	_	_
 11	e	_	CCONJ	CONJ	_	13	cc	_	_
 12	outros	_	DET	DET	_	13	det	_	_
@@ -70,9 +70,9 @@
 15	2000	_	NUM	NUM	NumType=Card	2	nmod	_	SpaceAfter=No
 16	)	_	PUNCT	.	_	15	punct	_	_
 17	e	_	CCONJ	CONJ	_	19	cc	_	_
-18	Um	_	PROPN	PNOUN	_	19	det	_	_
-19	Chão	_	PROPN	PNOUN	_	2	conj	_	_
-20	Maior	_	PROPN	PNOUN	_	19	amod	_	SpaceAfter=No
+18	Um	um	DET	_	_	19	det	_	MWEPOS=PROPN
+19	Chão	chão	NOUN	_	_	2	conj	_	_
+20	Maior	maior	ADJ	_	_	19	amod	_	SpaceAfter=No
 21	,	_	PUNCT	.	_	22	punct	_	_
 22	livreto	livro	NOUN	NOUN	_	19	appos	_	_
 23	de	_	ADP	ADP	_	24	case	_	_
@@ -127,7 +127,7 @@
 13	entendeu	entender	VERB	VERB	_	7	ccomp	_	_
 14	a	_	DET	DET	_	15	det	_	_
 15	situação	situação	NOUN	NOUN	_	13	obj	_	SpaceAfter=No
-16	"	_	PUNCT	.	_	13	punct	_	_
+16	"	_	PUNCT	.	_	15	punct	_	_
 17-18	do	_	_	_	_	_	_	_	_
 17	de	de	ADP	ADP	_	19	case	_	_
 18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
@@ -135,20 +135,20 @@
 20	.	_	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s8046
-# text = Em outubro de 2006, Teotônio Vilela (PSDB) foi eleito governador do estado, sendo reeleito, em outubro de 2010, com 52,74 % dos votos, em segundo turno, contra o seu adversário, o candidato Ronaldo Lessa (PDT), que ficou com 47,26 %.
+# text = Em outubro de 2006, Teotônio Vilela (PSDB) foi eleito governador do estado, sendo reeleito, em outubro de 2010, com 52,74% dos votos, em segundo turno, contra o seu adversário, o candidato Ronaldo Lessa (PDT), que ficou com 47,26%.
 1	Em	_	ADP	ADP	_	2	case	_	_
-2	outubro	_	PROPN	PNOUN	_	13	nmod	_	_
+2	outubro	_	PROPN	PNOUN	_	12	nmod	_	_
 3	de	_	ADP	ADP	_	4	case	_	_
 4	2006	_	NUM	NUM	NumType=Card	2	nmod	_	SpaceAfter=No
 5	,	_	PUNCT	.	_	6	punct	_	_
-6	Teotônio	_	PROPN	PNOUN	_	13	nsubj:pass	_	_
-7	Vilela	_	PROPN	PNOUN	_	6	flat	_	_
+6	Teotônio	_	PROPN	PNOUN	_	12	nsubj:pass	_	_
+7	Vilela	_	PROPN	PNOUN	_	6	flat:name	_	_
 8	(	_	PUNCT	.	_	9	punct	_	SpaceAfter=No
-9	PSDB	_	PROPN	PNOUN	_	6	appos	_	SpaceAfter=No
+9	PSDB	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
 10	)	_	PUNCT	.	_	9	punct	_	_
-11	foi	_	AUX	AUX	_	13	aux:pass	_	_
-12	eleito	eleger	AUX	AUX	_	13	cop	_	_
-13	governador	governador	NOUN	NOUN	_	0	root	_	_
+11	foi	_	AUX	AUX	_	12	aux:pass	_	_
+12	eleito	eleger	VERB	_	_	0	root	_	_
+13	governador	governador	NOUN	NOUN	_	12	obl	_	_
 14-15	do	_	_	_	_	_	_	_	_
 14	de	de	ADP	ADP	_	16	case	_	_
 15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -158,13 +158,13 @@
 19	reeleito	reeleger	VERB	VERB	_	13	acl:part	_	SpaceAfter=No
 20	,	_	PUNCT	.	_	22	punct	_	_
 21	em	_	ADP	ADP	_	22	case	_	_
-22	outubro	_	PROPN	PNOUN	_	19	nmod	_	_
+22	outubro	_	PROPN	PNOUN	_	19	obl	_	_
 23	de	_	ADP	ADP	_	24	case	_	_
 24	2010	_	NUM	NUM	NumType=Card	22	nmod	_	SpaceAfter=No
 25	,	_	PUNCT	.	_	28	punct	_	_
 26	com	_	ADP	ADP	_	28	case	_	_
-27	52,74	_	NUM	NUM	NumType=Card	28	nummod	_	_
-28	%	_	SYM	SYM	_	19	nmod	_	_
+27	52,74	_	NUM	NUM	NumType=Card	28	nummod	_	SpaceAfter=No
+28	%	_	SYM	SYM	_	19	obl	_	_
 29-30	dos	_	_	_	_	_	_	_	_
 29	de	de	ADP	ADP	_	31	case	_	_
 30	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
@@ -190,9 +190,9 @@
 50	que	_	PRON	PRON	_	51	nsubj	_	_
 51	ficou	ficar	VERB	VERB	_	43	acl:relcl	_	_
 52	com	_	ADP	ADP	_	54	case	_	_
-53	47,26	_	NUM	NUM	NumType=Card	54	nummod	_	_
+53	47,26	_	NUM	NUM	NumType=Card	54	nummod	_	SpaceAfter=No
 54	%	_	SYM	SYM	_	51	nmod	_	SpaceAfter=No
-55	.	_	PUNCT	.	_	13	punct	_	_
+55	.	_	PUNCT	.	_	12	punct	_	_
 
 # sent_id = train-s8047
 # text = Na terceira posição, ficou o chinês Zhiming Liu, com tempo de 54s82.
