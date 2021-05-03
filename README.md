@@ -11,8 +11,10 @@ Treebank v2.0 (legacy)](https://github.com/ryanmcd/uni-dep-tb).
  * Fixed some cases of missing MWT (contractions)
  * Fixed some other erros in validation. 
  * added many more missing lemmas 
+ * removed undocumented subtypes "xcomp:adj" and "acl:part".
  
- We still have many validation errors and incompatibilities with UD_Portuguese-Bosque
+  We still have many validation errors and incompatibilities with
+  UD_Portuguese-Bosque.
 
 * 2019-11-15 v2.5
   * Google gave permission to drop the "NC" restriction from the license.
