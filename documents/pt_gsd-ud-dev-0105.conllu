@@ -6,7 +6,7 @@
 4	é	ser	VERB	VERB	_	0	root	_	_
 5	a	o	DET	DET	_	6	det	_	_
 6	mais	mais	ADV	ADV	_	7	advmod	_	_
-7	extensa	extenso	ADJ	ADJ	_	4	xcomp:adj	_	_
+7	extensa	extenso	ADJ	ADJ	_	4	xcomp	_	_
 8-9	do	_	_	_	_	_	_	_	_
 8	de	de	ADP	ADP	_	10	case	_	_
 9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
@@ -61,7 +61,7 @@
 # text = As empresas inscritas devem ter completado 50, 30, 20 ou 15 anos de atividades ininterruptas até o dia 31 de julho de 2012, ano da concessão do prêmio.
 1	As	o	DET	DET	_	2	det	_	_
 2	empresas	empresa	NOUN	NOUN	_	6	nsubj	_	_
-3	inscritas	inscrever	VERB	VERB	_	2	acl:part	_	_
+3	inscritas	inscrever	VERB	VERB	_	2	acl	_	_
 4	devem	_	AUX	AUX	_	6	aux	_	_
 5	ter	ter	AUX	AUX	_	6	aux	_	_
 6	completado	completar	VERB	VERB	_	0	root	_	_
@@ -97,35 +97,33 @@
 34	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = dev-s1036
-# text = O juiz tem até segunda - feira (1) para definir se acata as alegações ou se mantém o Google como responsável no caso.
+# text = O juiz tem até segunda-feira (1) para definir se acata as alegações ou se mantém o Google como responsável no caso.
 1	O	o	DET	DET	_	2	det	_	_
 2	juiz	juiz	NOUN	NOUN	_	3	nsubj	_	_
 3	tem	ter	VERB	VERB	_	0	root	_	_
-4	até	_	ADP	ADP	_	7	case	_	_
-5	segunda	_	PROPN	PNOUN	_	7	amod	_	_
-6	-	-	PUNCT	.	_	7	punct	_	_
-7	feira	_	PROPN	PNOUN	_	3	nmod	_	_
-8	(	(	PUNCT	.	_	9	punct	_	SpaceAfter=No
-9	1	_	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
-10	)	)	PUNCT	.	_	9	punct	_	_
-11	para	_	ADP	ADP	_	12	mark	_	_
-12	definir	definir	VERB	VERB	_	3	nmod	_	_
-13	se	_	CCONJ	CONJ	_	14	mark	_	_
-14	acata	acatar	VERB	VERB	_	12	ccomp	_	_
-15	as	o	DET	DET	_	16	det	_	_
-16	alegações	alegação	NOUN	NOUN	_	14	obj	_	_
-17	ou	ou	CCONJ	CONJ	_	19	cc	_	_
-18	se	_	PRON	PRON	_	19	mark	_	_
-19	mantém	manter	VERB	VERB	_	14	conj	_	_
-20	o	o	DET	DET	_	21	det	_	_
-21	Google	_	PROPN	PNOUN	_	19	obj	_	_
-22	como	como	ADP	ADP	_	23	case	_	_
-23	responsável	responsável	NOUN	NOUN	_	19	nmod	_	_
-24-25	no	_	_	_	_	_	_	_	_
-24	em	em	ADP	ADP	_	26	case	_	_
-25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	caso	caso	NOUN	NOUN	_	23	nmod	_	SpaceAfter=No
-27	.	.	PUNCT	.	_	3	punct	_	_
+4	até	_	ADP	ADP	_	5	case	_	_
+5	segunda-feira	_	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+6	(	(	PUNCT	.	_	7	punct	_	SpaceAfter=No
+7	1	_	NUM	NUM	NumType=Card	5	appos	_	SpaceAfter=No
+8	)	)	PUNCT	.	_	7	punct	_	_
+9	para	_	ADP	ADP	_	10	mark	_	_
+10	definir	definir	VERB	VERB	_	3	ccomp	_	_
+11	se	_	CCONJ	CONJ	_	12	mark	_	_
+12	acata	acatar	VERB	VERB	_	10	ccomp	_	_
+13	as	o	DET	DET	_	14	det	_	_
+14	alegações	alegação	NOUN	NOUN	_	12	obj	_	_
+15	ou	ou	CCONJ	CONJ	_	17	cc	_	_
+16	se	_	CCONJ	PRON	_	17	mark	_	_
+17	mantém	manter	VERB	VERB	_	12	conj	_	_
+18	o	o	DET	DET	_	19	det	_	_
+19	Google	_	PROPN	PNOUN	_	17	obj	_	_
+20	como	como	ADP	ADP	_	21	case	_	_
+21	responsável	responsável	NOUN	NOUN	_	19	nmod	_	_
+22-23	no	_	_	_	_	_	_	_	_
+22	em	em	ADP	ADP	_	24	case	_	_
+23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	caso	caso	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = dev-s1037
 # text = Um dos campos que chama atenção do Twitter -- e isso em escala mundial -- é a chamada segunda tela.
@@ -181,12 +179,12 @@
 13	de	de	ADP	ADP	_	15	case	_	_
 14	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
 15	smartphones	_	NOUN	NOUN	_	12	nmod	_	_
-16	vendidos	_	PUNCT	.	_	15	acl:part	_	_
+16	vendidos	vender	VERB	.	_	15	acl	_	_
 17-18	no	_	_	_	_	_	_	_	_
 17	em	em	ADP	ADP	_	20	case	_	_
 18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 19	segundo	segundo	ADJ	ADJ	_	20	amod	_	_
-20	trimestre	trimestre	NOUN	NOUN	_	16	nmod	_	_
+20	trimestre	trimestre	NOUN	NOUN	_	16	obl	_	_
 21	de	de	ADP	ADP	_	22	case	_	_
 22	2012	_	NUM	NUM	NumType=Card	20	nmod	_	_
 23-24	no	_	_	_	_	_	_	_	_
@@ -271,7 +269,7 @@
 35	que	que	CCONJ	CONJ	_	42	mark	_	_
 36	a	o	DET	DET	_	37	det	_	_
 37	meta	meta	NOUN	NOUN	_	42	nsubj:pass	_	_
-38	prevista	prever	VERB	VERB	_	37	acl:part	_	_
+38	prevista	prever	VERB	VERB	_	37	acl	_	_
 39	para	para	ADP	ADP	_	40	case	_	_
 40	2015	_	NUM	NUM	NumType=Card	38	nmod	_	_
 41	foi	_	AUX	AUX	_	42	aux:pass	_	_

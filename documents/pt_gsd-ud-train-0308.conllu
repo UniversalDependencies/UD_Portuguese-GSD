@@ -1,7 +1,7 @@
 # sent_id = train-s3057
 # text = Fica feio e "fake".
 1	Fica	ficar	VERB	VERB	_	0	root	_	_
-2	feio	feio	ADJ	ADJ	_	1	xcomp:adj	_	_
+2	feio	feio	ADJ	ADJ	_	1	xcomp	_	_
 3	e	e	CCONJ	CONJ	_	5	cc	_	_
 4	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
 5	fake	_	X	X	_	2	conj	_	SpaceAfter=No
@@ -83,9 +83,9 @@
 
 # sent_id = train-s3061
 # text = Transformando dados obtidos dos experimentos em informações, os pesquisadores apresentarão sistemas de produção inovadores.
-1	Transformando	transformar	VERB	VERB	_	12	acl:part	_	_
+1	Transformando	transformar	VERB	VERB	_	12	acl	_	_
 2	dados	dado	NOUN	NOUN	_	1	obj	_	_
-3	obtidos	obter	VERB	VERB	_	2	acl:part	_	_
+3	obtidos	obter	VERB	VERB	_	2	acl	_	_
 4-5	dos	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
 5	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
@@ -219,7 +219,7 @@
 # text = Outro problema apontado por ele são os barulhos fora do horário permitido.
 1	Outro	_	DET	DET	_	2	det	_	_
 2	problema	problema	NOUN	NOUN	_	8	nsubj	_	_
-3	apontado	apontar	VERB	VERB	_	2	acl:part	_	_
+3	apontado	apontar	VERB	VERB	_	2	acl	_	_
 4	por	por	ADP	ADP	_	5	case	_	_
 5	ele	_	PRON	PRON	_	3	nmod	_	_
 6	são	ser	AUX	AUX	_	8	cop	_	_
@@ -230,6 +230,6 @@
 10	de	de	ADP	ADP	_	12	case	_	_
 11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	horário	horário	NOUN	NOUN	_	9	nmod	_	_
-13	permitido	permitir	VERB	VERB	_	12	acl:part	_	SpaceAfter=No
+13	permitido	permitir	VERB	VERB	_	12	acl	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	8	punct	_	_
 

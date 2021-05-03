@@ -121,7 +121,7 @@
 17	vegetação	vegetação	NOUN	NOUN	_	19	nsubj	_	_
 18	natural	natural	ADJ	ADJ	_	17	amod	_	_
 19	é	ser	VERB	VERB	_	8	acl:relcl	_	_
-20	escassa	escasso	ADJ	ADJ	_	19	xcomp:adj	_	_
+20	escassa	escasso	ADJ	ADJ	_	19	xcomp	_	_
 21	e	e	CCONJ	CONJ	_	22	cc	_	_
 22	sopram	soprar	VERB	VERB	_	19	conj	_	_
 23	ventos	vento	NOUN	NOUN	_	22	obj	_	_
@@ -132,10 +132,10 @@
 # text = "Será bom não ficar parado o mês inteiro de agosto.
 1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
 2	Será	ser	VERB	VERB	_	0	root	_	_
-3	bom	bom	ADJ	ADJ	_	2	xcomp:adj	_	_
+3	bom	bom	ADJ	ADJ	_	2	xcomp	_	_
 4	não	não	ADV	ADV	Polarity=Neg	5	advmod	_	_
 5	ficar	ficar	VERB	VERB	_	2	csubj	_	_
-6	parado	parado	ADJ	ADJ	_	5	xcomp:adj	_	_
+6	parado	parado	ADJ	ADJ	_	5	xcomp	_	_
 7	o	o	DET	DET	_	8	det	_	_
 8	mês	mês	NOUN	NOUN	_	5	nmod	_	_
 9	inteiro	inteiro	ADJ	ADJ	_	8	amod	_	_
@@ -157,7 +157,7 @@
 2	acordo	acordo	NOUN	NOUN	_	19	nmod	_	_
 3	com	com	ADP	ADP	_	4	case	_	_
 4	informação	informação	NOUN	NOUN	_	2	nmod	_	_
-5	colhidas	colher	VERB	VERB	_	4	acl:part	_	_
+5	colhidas	colher	VERB	VERB	_	4	acl	_	_
 6	junto	junto	ADV	ADV	_	5	advmod	_	_
 7-8	ao	_	_	_	_	_	_	_	_
 7	a	a	ADP	ADP	_	9	case	_	_
@@ -193,7 +193,7 @@
 34	se	_	PRON	PRON	_	35	expl:pv	_	_
 35	mostrou	mostrar	VERB	VERB	_	19	conj	_	_
 36	muito	muito	ADV	ADV	_	37	advmod	_	_
-37	nervosa	nervoso	ADJ	ADJ	_	35	xcomp:adj	_	_
+37	nervosa	nervoso	ADJ	ADJ	_	35	xcomp	_	_
 38	e	e	CCONJ	CONJ	_	40	cc	_	_
 39	muito	muito	ADV	ADV	_	40	advmod	_	_
 40	preocupada	preocupado	ADJ	ADJ	_	37	conj	_	_
@@ -206,12 +206,12 @@
 # sent_id = train-s1892b
 # text = ser menor de idade e estar sozinha, a adolescente foi levada para o conselho tutelar da capital localizado na rua Pinheiro Machado, onde em revista feita por policiais militares foi descoberto que a mala da mesma estava recheada de maconha.
 1	ser	ser	VERB	VERB	_	12	advcl	_	_
-2	menor	menor	ADJ	ADJ	_	1	xcomp:adj	_	_
+2	menor	menor	ADJ	ADJ	_	1	xcomp	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	idade	idade	NOUN	NOUN	_	2	nmod	_	_
 5	e	e	CCONJ	CONJ	_	6	cc	_	_
 6	estar	estar	VERB	VERB	_	1	conj	_	_
-7	sozinha	só	ADJ	ADJ	_	6	xcomp:adj	_	SpaceAfter=No
+7	sozinha	só	ADJ	ADJ	_	6	xcomp	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	1	punct	_	_
 9	a	o	DET	DET	_	10	det	_	_
 10	adolescente	adolescente	NOUN	NOUN	_	12	nsubj:pass	_	_
@@ -225,7 +225,7 @@
 17	de	de	ADP	ADP	_	19	case	_	_
 18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	capital	capital	NOUN	NOUN	_	15	nmod	_	_
-20	localizado	localizar	VERB	VERB	_	15	acl:part	_	_
+20	localizado	localizar	VERB	VERB	_	15	acl	_	_
 21-22	na	_	_	_	_	_	_	_	_
 21	em	em	ADP	ADP	_	23	case	_	_
 22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
@@ -236,7 +236,7 @@
 27	onde	onde	ADV	ADV	_	35	advmod	_	_
 28	em	em	ADP	ADP	_	29	case	_	_
 29	revista	revista	NOUN	NOUN	_	35	nmod	_	_
-30	feita	_	VERB	VERB	_	29	acl:part	_	_
+30	feita	_	VERB	VERB	_	29	acl	_	_
 31	por	por	ADP	ADP	_	32	case	_	_
 32	policiais	policial	NOUN	NOUN	_	30	nmod	_	_
 33	militares	militar	ADJ	ADJ	_	32	amod	_	_
@@ -250,7 +250,7 @@
 40	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
 41	mesma	_	PRON	PRON	_	38	nmod	_	_
 42	estava	estar	VERB	VERB	_	35	ccomp	_	_
-43	recheada	recheado	ADJ	ADJ	_	42	xcomp:adj	_	_
+43	recheada	recheado	ADJ	ADJ	_	42	xcomp	_	_
 44	de	de	ADP	ADP	_	45	case	_	_
 45	maconha	maconha	NOUN	NOUN	_	43	nmod	_	SpaceAfter=No
 46	.	.	PUNCT	.	_	12	punct	_	_
@@ -272,7 +272,7 @@
 13	Um	_	DET	DET	_	14	det	_	_
 14	memorial	memorial	NOUN	NOUN	_	29	nsubj	_	_
 15	improvisado	improvisado	ADJ	ADJ	_	14	amod	_	_
-16	criado	criar	VERB	VERB	_	14	acl:part	_	_
+16	criado	criar	VERB	VERB	_	14	acl	_	_
 17	em	em	ADP	ADP	_	18	case	_	_
 18	Oak	_	PROPN	PNOUN	_	16	nmod	_	_
 19	Creek	_	PROPN	PNOUN	_	18	flat	_	SpaceAfter=No
@@ -316,7 +316,7 @@
 52	templo	templo	NOUN	NOUN	_	47	nmod	_	_
 53	sikh	_	ADJ	ADJ	_	52	amod	_	SpaceAfter=No
 54	,	,	PUNCT	.	_	55	punct	_	_
-55	incluindo	incluir	VERB	VERB	_	49	acl:part	_	_
+55	incluindo	incluir	VERB	VERB	_	49	acl	_	_
 56	o	o	DET	DET	_	57	det	_	_
 57	atirador	atirador	NOUN	NOUN	_	55	obj	_	SpaceAfter=No
 58	,	,	PUNCT	.	_	60	punct	_	_

@@ -49,7 +49,7 @@
 43	Orleans	_	PROPN	PNOUN	_	40	nmod	_	_
 44	chamada	chamar	AUX	AUX	_	46	cop	_	_
 45	"	"	PUNCT	.	_	46	punct	_	SpaceAfter=No
-46	Razor	_	PROPN	PNOUN	_	37	acl:part	_	_
+46	Razor	_	PROPN	PNOUN	_	37	acl	_	_
 47	White	_	PROPN	PNOUN	_	46	amod	_	SpaceAfter=No
 48	"	"	PUNCT	.	_	46	punct	_	SpaceAfter=No
 49	,	,	PUNCT	.	_	51	punct	_	_
@@ -135,7 +135,7 @@
 10	ainda	ainda	ADV	ADV	_	11	advmod	_	_
 11	está	estar	VERB	VERB	_	2	ccomp	_	_
 12	muito	muito	ADV	ADV	_	13	advmod	_	_
-13	restrita	restrito	ADJ	ADJ	_	11	xcomp:adj	_	_
+13	restrita	restrito	ADJ	ADJ	_	11	xcomp	_	_
 14	a	_	ADP	ADP	_	17	case	_	_
 15	algumas	_	DET	DET	_	17	det	_	_
 16	grandes	grande	ADJ	ADJ	_	17	amod	_	_
@@ -147,7 +147,7 @@
 # text = "Achei interessante poder manifestar minha opinião e fazer questionamentos sobre as ações sustentáveis praticadas nas grandes empresas.
 1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
 2	Achei	achar	VERB	VERB	_	0	root	_	_
-3	interessante	interessante	ADJ	ADJ	_	2	xcomp:adj	_	_
+3	interessante	interessante	ADJ	ADJ	_	2	xcomp	_	_
 4	poder	poder	AUX	AUX	_	5	aux	_	_
 5	manifestar	manifestar	VERB	VERB	_	2	csubj	_	_
 6	minha	_	DET	DET	_	7	det:poss	_	_
@@ -159,7 +159,7 @@
 12	as	o	DET	DET	_	13	det	_	_
 13	ações	ação	NOUN	NOUN	_	10	nmod	_	_
 14	sustentáveis	sustentável	ADJ	ADJ	_	13	amod	_	_
-15	praticadas	praticar	VERB	VERB	_	13	acl:part	_	_
+15	praticadas	praticar	VERB	VERB	_	13	acl	_	_
 16-17	nas	_	_	_	_	_	_	_	_
 16	em	em	ADP	ADP	_	19	case	_	_
 17	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
@@ -170,7 +170,7 @@
 # sent_id = train-s6890
 # text = Analistas consultados pela Reuters estimavam, em média, prejuízo líquido de R $ 292,1 milhões no segundo trimestre.
 1	Analistas	analista	NOUN	NOUN	_	6	nsubj	_	_
-2	consultados	consultar	VERB	VERB	_	1	acl:part	_	_
+2	consultados	consultar	VERB	VERB	_	1	acl	_	_
 3-4	pela	_	_	_	_	_	_	_	_
 3	por	por	ADP	ADP	_	5	case	_	_
 4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -232,7 +232,7 @@
 22	a	o	DET	DET	_	23	det	_	_
 23	liberdade	liberdade	NOUN	NOUN	_	21	obj	_	_
 24	religiosa	religioso	ADJ	ADJ	_	23	amod	_	_
-25	dizendo	dizer	VERB	VERB	_	17	acl:part	_	SpaceAfter=No
+25	dizendo	dizer	VERB	VERB	_	17	acl	_	SpaceAfter=No
 26	:	:	PUNCT	.	_	25	punct	_	_
 27	"	"	PUNCT	.	_	32	punct	_	SpaceAfter=No
 28	O	o	DET	DET	_	29	det	_	_
@@ -322,6 +322,6 @@
 16	de	de	ADP	ADP	_	17	case	_	_
 17	Janeiro	_	PROPN	PNOUN	_	15	nmod	_	_
 18	seja	ser	VERB	VERB	_	6	nmod	_	_
-19	prejudicial	prejudicial	ADJ	ADJ	_	18	xcomp:adj	_	SpaceAfter=No
+19	prejudicial	prejudicial	ADJ	ADJ	_	18	xcomp	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	6	punct	_	_
 

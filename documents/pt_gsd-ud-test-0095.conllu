@@ -29,7 +29,7 @@
 # sent_id = test-s937
 # text = É diferente de desenvolver medo do liquidificador, em que o cão nota que é aquele o objeto responsável pelo barulho.
 1	É	ser	VERB	VERB	_	0	root	_	_
-2	diferente	diferente	ADJ	ADJ	_	1	xcomp:adj	_	_
+2	diferente	diferente	ADJ	ADJ	_	1	xcomp	_	_
 3	de	_	ADP	ADP	_	4	mark	_	_
 4	desenvolver	desenvolver	VERB	VERB	_	2	nmod	_	_
 5	medo	medo	NOUN	NOUN	_	4	obj	_	_
@@ -106,7 +106,7 @@
 44	é	ser	VERB	VERB	_	0	root	_	_
 45	"	"	PUNCT	.	_	47	punct	_	SpaceAfter=No
 46	extremamente	extremamente	ADV	ADV	_	47	advmod	_	_
-47	necessária	necessário	ADJ	ADJ	_	44	xcomp:adj	_	SpaceAfter=No
+47	necessária	necessário	ADJ	ADJ	_	44	xcomp	_	SpaceAfter=No
 48	"	"	PUNCT	.	_	47	punct	_	SpaceAfter=No
 49	.	.	PUNCT	.	_	44	punct	_	_
 
@@ -312,7 +312,7 @@
 
 # sent_id = test-s944
 # text = Debutando no estádio Bombonera, o meio - campista Lucas falou sobre o primeiro jogo desta decisão.
-1	Debutando	debutar	VERB	VERB	_	12	acl:part	_	_
+1	Debutando	debutar	VERB	VERB	_	12	acl	_	_
 2-3	no	_	_	_	_	_	_	_	_
 2	em	em	ADP	ADP	_	4	case	_	_
 3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
