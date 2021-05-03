@@ -5,14 +5,14 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>12078</sentences><tokens>297940</tokens><words>319853</words><fused>21913</fused></total>
-    <train><sentences>9664</sentences><tokens>238712</tokens><words>256138</words><fused>17426</fused></train>
+    <total><sentences>12078</sentences><tokens>297938</tokens><words>319852</words><fused>21914</fused></total>
+    <train><sentences>9664</sentences><tokens>238710</tokens><words>256137</words><fused>17427</fused></train>
     <dev><sentences>1210</sentences><tokens>29832</tokens><words>32176</words><fused>2344</fused></dev>
     <test><sentences>1204</sentences><tokens>29396</tokens><words>31539</words><fused>2143</fused></test>
   </size>
   <lemmas unique="9863" /><!-- o, de, ,, ., em, e, ser, um, ", por, com, a, -, ), ( -->
   <forms unique="30831" /><!-- de, a, ,, o, ., em, e, que, os, para, por, ", as, com, - -->
-  <fusions unique="45" /><!-- do, da, no, na, dos, ao, das, à, pelo, pela, nos, aos, nas, às, dum -->
+  <fusions unique="46" /><!-- do, da, no, na, dos, ao, das, à, pelo, pela, nos, aos, nas, às, dum -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
     <tag name="ADJ">15113</tag><!-- _, primeiro, novo, último, maior, grande, próximo, segundo, brasileiro, mesmo -->
@@ -26,18 +26,17 @@
     <tag name="PART">750</tag><!-- _, se -->
     <tag name="PRON">7390</tag><!-- _, eu, ele -->
     <tag name="PROPN">32924</tag><!-- _, Arraial, Brasil, Machado, Marcelinho, Minha, Niemeyer, Oscar, Vida, feira -->
-    <tag name="PUNCT">42024</tag><!-- ,, ., ", -, ), (, _, :, /, ? -->
+    <tag name="PUNCT">42023</tag><!-- ,, ., ", -, ), (, _, :, /, ? -->
     <tag name="SCONJ">2</tag><!-- _, que -->
     <tag name="SYM">1009</tag><!-- _ -->
     <tag name="VERB">27582</tag><!-- _, ser, ter, estar, fazer, dizer, haver, ficar, dar, afirmar -->
     <tag name="X">534</tag><!-- _, dele, freedesktop.org, ~/Desktop -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="19">
+  <feats unique="18">
     <feat name="Definite" value="Def" upos="DET">21347</feat><!-- o, a, os, as -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN">9148</feat><!-- a, as, uma, Metropolitana, segunda-feira, área -->
     <feat name="Gender" value="Masc" upos="ADJ,DET,NOUN,VERB">12211</feat><!-- o, os, a, amigo, amigos, considerados, fã, km², marginais, seu -->
-    <feat name="Gender" value="Unsp" upos="PRON">1</feat><!-- mim -->
     <feat name="Mood" value="Ind" upos="VERB">1</feat><!-- virou -->
     <feat name="Number" value="Plur" upos="ADJ,DET,NOUN,VERB">3477</feat><!-- os, as, amigos, considerados, marginais -->
     <feat name="Number" value="Sing" upos="ADJ,DET,NOUN,PRON,VERB">17884</feat><!-- o, a, uma, Metropolitana, amigo, fã, km², mim, segunda-feira, seu -->
@@ -92,7 +91,7 @@
     <dep name="obl:agent">1</dep>
     <dep name="orphan">2</dep>
     <dep name="parataxis">758</dep>
-    <dep name="punct">42020</dep>
+    <dep name="punct">42019</dep>
     <dep name="root">12078</dep>
     <dep name="xcomp">2616</dep>
   </deps>
