@@ -11,13 +11,13 @@
        (equal (nth 2 pat) (token-upostag tk))
        (equal (nth 3 pat) (token-deprel tk))))
 
-(defun add-lemma (tk)
+(defun fix-deprel (tk)
   (when (or (equal "xcomp:adj" (token-deprel tk))
 	    (equal "acl:part" (token-deprel tk)))
     (setf (token-deprel tk) (car (cl-ppcre:split ":" (token-deprel tk))))))
 
 (defun fix-conllu (sentences)
-  (mapc (lambda (s) (mapc #'add-lemma (sentence-tokens s))) sentences))
+  (mapc (lambda (s) (mapc #'fix-deprel (sentence-tokens s))) sentences))
 
 
 (defun run ()
