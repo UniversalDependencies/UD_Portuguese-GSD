@@ -5,86 +5,94 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>12078</sentences><tokens>297948</tokens><words>319853</words><fused>21905</fused></total>
-    <train><sentences>9664</sentences><tokens>238714</tokens><words>256135</words><fused>17421</fused></train>
-    <dev><sentences>1210</sentences><tokens>29838</tokens><words>32179</words><fused>2341</fused></dev>
+    <total><sentences>12078</sentences><tokens>297938</tokens><words>319852</words><fused>21914</fused></total>
+    <train><sentences>9664</sentences><tokens>238710</tokens><words>256137</words><fused>17427</fused></train>
+    <dev><sentences>1210</sentences><tokens>29832</tokens><words>32176</words><fused>2344</fused></dev>
     <test><sentences>1204</sentences><tokens>29396</tokens><words>31539</words><fused>2143</fused></test>
   </size>
-  <lemmas unique="9832" /><!-- o, de, em, ser, a, ter, não, por, estar, mais, ano, também, fazer, dizer, já -->
-  <forms unique="30830" /><!-- de, a, ,, o, ., em, e, que, os, para, por, ", as, com, - -->
-  <fusions unique="40" /><!-- do, da, no, na, dos, ao, das, à, pelo, pela, nos, aos, nas, às, dum -->
+  <lemmas unique="9863" /><!-- o, de, ,, ., em, e, ser, um, ", por, com, a, -, ), ( -->
+  <forms unique="30831" /><!-- de, a, ,, o, ., em, e, que, os, para, por, ", as, com, - -->
+  <fusions unique="46" /><!-- do, da, no, na, dos, ao, das, à, pelo, pela, nos, aos, nas, às, dum -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
-  <tags unique="15">
-    <tag name="ADJ">15109</tag><!-- _, primeiro, novo, último, maior, grande, próximo, segundo, brasileiro, mesmo -->
-    <tag name="ADP">51932</tag><!-- _, de, em, a, por, que, até, com, contra -->
-    <tag name="ADV">9773</tag><!-- não, mais, também, já, ainda, muito, onde, depois, _, além -->
-    <tag name="AUX">7371</tag><!-- ser, _, ter, ir, estar, dever, poder, haver, vir, acabar -->
-    <tag name="CCONJ">10986</tag><!-- _, e, logo -->
-    <tag name="DET">47653</tag><!-- _, o, a, seu -->
-    <tag name="NOUN">56318</tag><!-- _, ano, dia, r, pessoa, cidade, presidente, país, vez, acordo -->
-    <tag name="NUM">8491</tag><!-- _ -->
-    <tag name="PART">750</tag><!-- _ -->
-    <tag name="PRON">7391</tag><!-- _, ele -->
-    <tag name="PROPN">32935</tag><!-- _, Arraial, Brasil, Minha, Vida -->
-    <tag name="PUNCT">42031</tag><!-- _, ', ,, /, : -->
-    <tag name="SYM">1008</tag><!-- _ -->
-    <tag name="VERB">27571</tag><!-- _, ser, ter, estar, fazer, dizer, haver, ficar, dar, afirmar -->
-    <tag name="X">534</tag><!-- _ -->
+  <tags unique="16">
+    <tag name="ADJ">15113</tag><!-- _, primeiro, novo, último, maior, grande, próximo, segundo, brasileiro, mesmo -->
+    <tag name="ADP">51935</tag><!-- de, em, _, por, com, a, para, como, que, até -->
+    <tag name="ADV">9775</tag><!-- não, mais, também, já, ainda, muito, onde, depois, _, além -->
+    <tag name="AUX">7363</tag><!-- ser, _, ter, ir, estar, dever, poder, haver, vir, acabar -->
+    <tag name="CCONJ">10986</tag><!-- e, que, _, mas, ou, logo -->
+    <tag name="DET">47656</tag><!-- o, _, um, este, seu -->
+    <tag name="NOUN">56319</tag><!-- _, ano, dia, r, pessoa, cidade, presidente, país, vez, acordo -->
+    <tag name="NUM">8491</tag><!-- _, cinco, dois, oito, três -->
+    <tag name="PART">750</tag><!-- _, se -->
+    <tag name="PRON">7390</tag><!-- _, eu, ele -->
+    <tag name="PROPN">32924</tag><!-- _, Arraial, Brasil, Machado, Marcelinho, Minha, Niemeyer, Oscar, Vida, feira -->
+    <tag name="PUNCT">42023</tag><!-- ,, ., ", -, ), (, _, :, /, ? -->
+    <tag name="SCONJ">2</tag><!-- _, que -->
+    <tag name="SYM">1009</tag><!-- _ -->
+    <tag name="VERB">27582</tag><!-- _, ser, ter, estar, fazer, dizer, haver, ficar, dar, afirmar -->
+    <tag name="X">534</tag><!-- _, dele, freedesktop.org, ~/Desktop -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="12">
-    <feat name="Definite" value="Def" upos="DET">21346</feat><!-- o, a, os, as -->
-    <feat name="Gender" value="Fem" upos="DET">9142</feat><!-- a, as -->
-    <feat name="Gender" value="Masc" upos="ADJ,DET,VERB">12207</feat><!-- o, os, a, considerados, marginais, seu -->
-    <feat name="Number" value="Plur" upos="ADJ,DET,VERB">3476</feat><!-- os, as, considerados, marginais -->
-    <feat name="Number" value="Sing" upos="DET">17873</feat><!-- o, a, seu -->
+  <feats unique="18">
+    <feat name="Definite" value="Def" upos="DET">21347</feat><!-- o, a, os, as -->
+    <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN">9148</feat><!-- a, as, uma, Metropolitana, segunda-feira, área -->
+    <feat name="Gender" value="Masc" upos="ADJ,DET,NOUN,VERB">12211</feat><!-- o, os, a, amigo, amigos, considerados, fã, km², marginais, seu -->
+    <feat name="Mood" value="Ind" upos="VERB">1</feat><!-- virou -->
+    <feat name="Number" value="Plur" upos="ADJ,DET,NOUN,VERB">3477</feat><!-- os, as, amigos, considerados, marginais -->
+    <feat name="Number" value="Sing" upos="ADJ,DET,NOUN,PRON,VERB">17884</feat><!-- o, a, uma, Metropolitana, amigo, fã, km², mim, segunda-feira, seu -->
     <feat name="NumType" value="Card" upos="NUM">8491</feat><!-- dois, três, mil, duas, milhões, 1, 2012, quatro, 2, bilhões -->
+    <feat name="Person" value="1" upos="PRON">1</feat><!-- mim -->
+    <feat name="Person" value="3" upos="VERB">1</feat><!-- virou -->
     <feat name="Polarity" value="Neg" upos="ADV,NOUN,PROPN">1495</feat><!-- não -->
     <feat name="Poss" value="Yes" upos="DET">1</feat><!-- seu -->
-    <feat name="PronType" value="Art" upos="DET">21346</feat><!-- o, a, os, as -->
-    <feat name="PronType" value="Prs" upos="DET">1</feat><!-- seu -->
+    <feat name="PronType" value="Art" upos="DET">21347</feat><!-- o, a, os, as -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">2</feat><!-- mim, seu -->
+    <feat name="Tense" value="Past" upos="VERB">1</feat><!-- virou -->
+    <feat name="VerbForm" value="Fin" upos="VERB">1</feat><!-- virou -->
+    <feat name="VerbForm" value="Ger" upos="VERB">1</feat><!-- tornando -->
     <feat name="VerbForm" value="Part" upos="VERB">1</feat><!-- considerados -->
     <feat name="Voice" value="Pass" upos="VERB">1</feat><!-- considerados -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="38">
-    <dep name="acl">2</dep>
+  <deps unique="39">
+    <dep name="acl">2865</dep>
     <dep name="acl:inf">61</dep>
-    <dep name="acl:part">2865</dep>
     <dep name="acl:relcl">3212</dep>
-    <dep name="advcl">2490</dep>
+    <dep name="advcl">2493</dep>
     <dep name="advmod">8890</dep>
-    <dep name="amod">16059</dep>
-    <dep name="appos">6084</dep>
-    <dep name="aux">2806</dep>
-    <dep name="aux:pass">2448</dep>
-    <dep name="case">48326</dep>
+    <dep name="amod">16057</dep>
+    <dep name="appos">6085</dep>
+    <dep name="aux">2803</dep>
+    <dep name="aux:pass">2449</dep>
+    <dep name="case">48328</dep>
     <dep name="cc">7783</dep>
-    <dep name="ccomp">2359</dep>
+    <dep name="ccomp">2360</dep>
     <dep name="compound">2</dep>
-    <dep name="conj">10292</dep>
-    <dep name="cop">2168</dep>
-    <dep name="csubj">657</dep>
+    <dep name="conj">10290</dep>
+    <dep name="cop">2158</dep>
+    <dep name="csubj">660</dep>
     <dep name="csubj:pass">8</dep>
     <dep name="dep">275</dep>
-    <dep name="det">46151</dep>
-    <dep name="det:poss">1727</dep>
+    <dep name="det">46152</dep>
+    <dep name="det:poss">1725</dep>
+    <dep name="expl">1</dep>
     <dep name="expl:pv">672</dep>
-    <dep name="fixed">991</dep>
-    <dep name="flat">6537</dep>
-    <dep name="flat:name">16</dep>
-    <dep name="iobj">515</dep>
-    <dep name="mark">6733</dep>
-    <dep name="nmod">49851</dep>
+    <dep name="fixed">990</dep>
+    <dep name="flat">6533</dep>
+    <dep name="flat:name">26</dep>
+    <dep name="iobj">518</dep>
+    <dep name="mark">6734</dep>
+    <dep name="nmod">49814</dep>
     <dep name="nsubj">14575</dep>
-    <dep name="nsubj:pass">2011</dep>
+    <dep name="nsubj:pass">2012</dep>
     <dep name="nummod">4724</dep>
-    <dep name="obj">11074</dep>
-    <dep name="obl">12</dep>
+    <dep name="obj">11085</dep>
+    <dep name="obl">38</dep>
+    <dep name="obl:agent">1</dep>
+    <dep name="orphan">2</dep>
     <dep name="parataxis">758</dep>
-    <dep name="punct">42026</dep>
+    <dep name="punct">42019</dep>
     <dep name="root">12078</dep>
-    <dep name="xcomp">967</dep>
-    <dep name="xcomp:adj">1648</dep>
+    <dep name="xcomp">2616</dep>
   </deps>
 </treebank>
