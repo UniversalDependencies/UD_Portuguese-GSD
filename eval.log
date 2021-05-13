@@ -1,51 +1,51 @@
-Running the following version of tools/evaluate_treebank.pl:
-commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
+Running the following version of UD tools:
+commit ca3b862e9e2871c76cd91bf78ffb089c0c60184d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Apr 21 19:02:58 2018 +0200
+Date:   Thu May 6 20:16:19 2021 +0200
 Evaluating the following revision of UD_Portuguese-GSD:
-commit 11fc845d44a69c49af18a855554b0662decaf44b
-Merge: 900566b 075974e
+commit cb1245b2d3d1b4783189fd93d83e69ef07f89a9e
+Merge: 24f1caa 65a670c
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 319853 of 319853 words (nodes).
-Size: min(0, log((N/1000)**2)) = 11.5357230304975.
+Size: counted 319852 of 319852 words (nodes).
+Size: min(0, log((N/1000)**2)) = 11.5357167776153.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
 Split: Found at least 10000 test words.
 Lemmas: '_' is the most frequent lemma.
-Universal POS tags: 15 out of 17 found in the corpus.
+Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 31335 out of 319853 total words have one or more features.
+Features: 31348 out of 319852 total words have one or more features.
 Features: source of annotation (from README) factor is 0.4.
-Universal relations: 29 out of 37 found in the corpus.
+Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 63253 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 319853 words.
+Udapi:
+               TOTAL      63219
+Udapi: found 63219 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 319852 words.
 Genres: found 2 out of 17 known.
 validate.py --lang pt --max-err=10 UD_Portuguese-GSD/pt_gsd-ud-dev.conllu
-[Line 8945 Sent dev-s285 Node 12]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [15]
-[Line 8945 Sent dev-s285 Node 12]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [13, 14, 15, 16, 17, 18, 19]
-[Line 9186 Sent dev-s291 Node 27]: [L5 Syntax cop-lemma] 'tornar' is not a copula in language [pt]
-[Line 9865 Sent dev-s313 Node 20]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [14, 15, 16, 17, 18, 19]
 [Line 9888 Sent dev-s313 Node 41]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'X'
-[Line 9886 Sent dev-s313 Node 39]: [L5 Syntax cop-lemma] 'tornar' is not a copula in language [pt]
-[Line 9965 Sent dev-s315 Node 5]: [L5 Morpho aux-lemma] 'demonstrar' is not an auxiliary verb in language [pt]
-[Line 9965 Sent dev-s315 Node 5]: [L5 Syntax cop-lemma] 'demonstrar' is not a copula in language [pt]
-[Line 9984 Sent dev-s316 Node 1]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (1:Depois:case --> 2:de:case)
-[Line 9985 Sent dev-s316 Node 1]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (1:Depois:case --> 3:a:det)
+[Line 10158 Sent dev-s322 Node 9]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (9:por:case --> 11:de:case)
+[Line 10159 Sent dev-s322 Node 9]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (9:por:case --> 12:a:det)
+[Line 10162 Sent dev-s322 Node 15]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'X'
+[Line 12382 Sent dev-s385 Node 24]: [L5 Morpho aux-lemma] 'pretender' is not an auxiliary verb in language [pt]
+[Line 12439 Sent dev-s388 Node 2]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [3, 4]
+[Line 13318 Sent dev-s409 Node 12]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [13, 18]
+[Line 13319 Sent dev-s409 Node 13]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [12]
+[Line 13392 Sent dev-s412 Node 10]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [11, 12]
+[Line 13684 Sent dev-s422 Node 29]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [30, 31, 32, 33]
 ...suppressing further errors regarding Syntax
-[Line 12380 Sent dev-s385 Node 24]: [L5 Morpho aux-lemma] 'pretender' is not an auxiliary verb in language [pt]
-[Line 15066 Sent dev-s465 Node 3]: [L5 Morpho aux-lemma] 'terminar' is not an auxiliary verb in language [pt]
-[Line 15232 Sent dev-s470b Node 1]: [L5 Morpho aux-lemma] 'denominar' is not an auxiliary verb in language [pt]
-[Line 18800 Sent dev-s578 Node 12]: [L5 Morpho aux-lemma] 'virar' is not an auxiliary verb in language [pt]
-[Line 22276 Sent dev-s685 Node 36]: [L5 Morpho aux-lemma] 'chamar' is not an auxiliary verb in language [pt]
-[Line 24598 Sent dev-s767 Node 14]: [L5 Morpho aux-lemma] 'intitular' is not an auxiliary verb in language [pt]
-[Line 25071 Sent dev-s782 Node 13]: [L5 Morpho aux-lemma] 'eleger' is not an auxiliary verb in language [pt]
-[Line 25149 Sent dev-s785 Node 8]: [L5 Morpho aux-lemma] 'conseguir' is not an auxiliary verb in language [pt]
-...suppressing further errors regarding Morpho
-Morpho errors: 11
-Syntax errors: 123
-*** FAILED *** with 134 errors
+[Line 15068 Sent dev-s465 Node 3]: [L5 Morpho aux-lemma] 'terminar' is not an auxiliary verb in language [pt]
+[Line 15234 Sent dev-s470b Node 1]: [L5 Morpho aux-lemma] 'denominar' is not an auxiliary verb in language [pt]
+[Line 22278 Sent dev-s685 Node 36]: [L5 Morpho aux-lemma] 'chamar' is not an auxiliary verb in language [pt]
+[Line 24600 Sent dev-s767 Node 14]: [L5 Morpho aux-lemma] 'intitular' is not an auxiliary verb in language [pt]
+[Line 25073 Sent dev-s782 Node 13]: [L5 Morpho aux-lemma] 'eleger' is not an auxiliary verb in language [pt]
+[Line 25151 Sent dev-s785 Node 8]: [L5 Morpho aux-lemma] 'conseguir' is not an auxiliary verb in language [pt]
+[Line 25563 Sent dev-s800 Node 48]: [L5 Morpho aux-lemma] 'seguir' is not an auxiliary verb in language [pt]
+Morpho errors: 8
+Syntax errors: 99
+*** FAILED *** with 107 errors
 Exit code: 1
 validate.py --lang pt --max-err=10 UD_Portuguese-GSD/pt_gsd-ud-test.conllu
 [Line 289 Sent test-s12a Node 1]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (1:Face:case --> 2:a:case)
@@ -93,19 +93,19 @@ validate.py --lang pt --max-err=10 UD_Portuguese-GSD/pt_gsd-ud-train.conllu
 [Line 8244 Sent train-s270 Node 17]: [L5 Morpho aux-lemma] 'tocar' is not an auxiliary verb in language [pt]
 [Line 11303 Sent train-s363 Node 13]: [L5 Morpho aux-lemma] 'chamar' is not an auxiliary verb in language [pt]
 ...suppressing further errors regarding Morpho
-Morpho errors: 125
-Syntax errors: 1372
-*** FAILED *** with 1497 errors
+Morpho errors: 116
+Syntax errors: 1349
+*** FAILED *** with 1465 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.12) = 0.00923076923076923
 (weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
 (weight=0.0769230769230769) * (score{lemmas}=0.01) = 0.000769230769230769
-(weight=0.256410256410256) * (score{size}=0.834983476151554) = 0.214098327218347
+(weight=0.256410256410256) * (score{size}=0.834983023552849) = 0.214098211167397
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.705882352941177) = 0.0542986425339367
+(weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
-(weight=0.0769230769230769) * (score{udeprels}=0.627027027027027) = 0.0482328482328482
-(TOTAL score=0.390038566099763) * (availability=1) * (validity=0.01) = 0.00390038566099763
+(weight=0.0769230769230769) * (score{udeprels}=0.648648648648649) = 0.0498960498960499
+(TOTAL score=0.395321561214277) * (availability=1) * (validity=0.01) = 0.00395321561214277
 STARS = 0
-UD_Portuguese-GSD	0.00390038566099763	0
+UD_Portuguese-GSD	0.00395321561214277	0
