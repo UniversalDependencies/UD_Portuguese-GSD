@@ -86,7 +86,7 @@
 11	encontraram	encontrar	VERB	VERB	_	3	conj	_	_
 12	o	o	DET	DET	_	13	det	_	_
 13	pai	pai	NOUN	NOUN	_	11	obj	_	_
-14	dele	_	X	ADPPRON	_	13	det:poss	_	SpaceAfter=No
+14	dele	_	PRON	_	_	13	det:poss	_	SpaceAfter=No
 15	,	,	PUNCT	.	_	17	punct	_	_
 16	que	_	PRON	PRON	_	17	nsubj	_	_
 17	informou	informar	VERB	VERB	_	13	acl:relcl	_	_
@@ -104,34 +104,22 @@
 28	cadeira	cadeira	NOUN	NOUN	_	25	nmod	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = test-s728
-# text = As informações são da Dow Jones.
-1	As	o	DET	DET	_	2	det	_	_
-2	informações	informação	NOUN	NOUN	_	3	nsubj	_	_
-3	são	ser	VERB	VERB	_	0	root	_	_
-4-5	da	_	_	_	_	_	_	_	_
-4	de	de	ADP	ADP	_	6	case	_	_
-5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	Dow	_	PROPN	PNOUN	_	3	nmod	_	_
-7	Jones	_	PROPN	PNOUN	_	6	flat	_	SpaceAfter=No
-8	.	.	PUNCT	.	_	3	punct	_	_
-
 # sent_id = test-s729
 # text = Graças ao sites de assinatura, empresas como a Florecanto podem respirar um pouco mais alividas, uma vez que contam com entregas programadas.
 1	Graças	graça	NOUN	NOUN	_	4	case	_	_
 2-3	ao	_	_	_	_	_	_	_	_
-2	a	a	ADP	ADP	_	1	case	_	_
-3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
-4	sites	site	NOUN	NOUN	_	13	nmod	_	_
+2	a	a	ADP	ADP	_	4	case	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	sites	site	NOUN	NOUN	_	12	nmod	_	_
 5	de	de	ADP	ADP	_	6	case	_	_
 6	assinatura	assinatura	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	4	punct	_	_
-8	empresas	empresa	NOUN	NOUN	_	13	nsubj	_	_
+8	empresas	empresa	NOUN	NOUN	_	12	nsubj	_	_
 9	como	como	ADP	ADP	_	11	case	_	_
 10	a	o	DET	DET	_	11	det	_	_
 11	Florecanto	_	PROPN	PNOUN	_	8	nmod	_	_
-12	podem	_	VERB	VERB	_	13	aux	_	_
-13	respirar	respirar	VERB	VERB	_	0	root	_	_
+12	podem	_	VERB	VERB	_	0	root	_	_
+13	respirar	respirar	VERB	VERB	_	12	xcomp	_	_
 14	um	um	DET	DET	_	15	det	_	_
 15	pouco	pouco	NOUN	NOUN	_	16	nmod	_	_
 16	mais	mais	ADV	ADV	_	17	advmod	_	_

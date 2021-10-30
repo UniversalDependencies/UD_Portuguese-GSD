@@ -1,17 +1,5 @@
-# sent_id = train-s2084
-# text = As informações são da Dow Jones.
-1	As	o	DET	DET	_	2	det	_	_
-2	informações	informação	NOUN	NOUN	_	3	nsubj	_	_
-3	são	ser	VERB	VERB	_	0	root	_	_
-4-5	da	_	_	_	_	_	_	_	_
-4	de	de	ADP	ADP	_	6	case	_	_
-5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	Dow	_	PROPN	PNOUN	_	3	nmod	_	_
-7	Jones	_	PROPN	PNOUN	_	6	flat	_	SpaceAfter=No
-8	.	.	PUNCT	.	_	3	punct	_	_
-
 # sent_id = train-s2085
-# text = Dois dos homicídios foram cometidos no bairro de São Mateus, zona leste, por um policial que estava de folga e atirou contra duas pessoas que ele acreditava estar planejando assaltá - lo ou matá - lo.
+# text = Dois dos homicídios foram cometidos no bairro de São Mateus, zona leste, por um policial que estava de folga e atirou contra duas pessoas que ele acreditava estar planejando assaltá-lo ou matá-lo.
 1	Dois	dois	NOUN	NOUN	_	6	nsubj:pass	_	_
 2-3	dos	_	_	_	_	_	_	_	_
 2	de	de	ADP	ADP	_	4	case	_	_
@@ -47,12 +35,12 @@
 31	acreditava	acreditar	VERB	VERB	_	28	acl:relcl	_	_
 32	estar	estar	AUX	AUX	_	33	aux	_	_
 33	planejando	planejar	VERB	VERB	_	31	ccomp	_	_
-34	assaltá	assaltar	VERB	VERB	_	33	xcomp	_	_
-35	-	-	PUNCT	.	_	38	punct	_	_
+34	assaltá	assaltar	VERB	VERB	_	33	xcomp	_	SpaceAfter=No
+35	-	-	PUNCT	.	_	36	punct	_	SpaceAfter=No
 36	lo	_	PRON	PRON	_	34	obj	_	_
 37	ou	ou	CCONJ	CONJ	_	38	cc	_	_
-38	matá	matar	VERB	VERB	_	34	conj	_	_
-39	-	-	PUNCT	.	_	38	punct	_	_
+38	matá	matar	VERB	VERB	_	34	conj	_	SpaceAfter=No
+39	-	-	PUNCT	.	_	40	punct	_	SpaceAfter=No
 40	lo	_	PRON	PRON	_	38	obj	_	SpaceAfter=No
 41	.	.	PUNCT	.	_	6	punct	_	_
 
