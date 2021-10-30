@@ -5,7 +5,7 @@
 3	nesta	_	ADP	ADP	_	4	case	_	_
 4	região	região	NOUN	NOUN	_	5	nmod	_	_
 5	move	mover	VERB	VERB	_	0	root	_	_
-6	-	-	PUNCT	.	_	13	punct	_	_
+6	-	-	PUNCT	.	_	7	punct	_	_
 7	se	_	PRON	PRON	_	5	obj	_	_
 8	para	para	ADP	ADP	_	10	case	_	_
 9	a	o	DET	DET	_	10	det	_	_
@@ -13,7 +13,7 @@
 11	primitiva	primitivo	ADJ	ADJ	_	10	amod	_	SpaceAfter=No
 12	,	,	PUNCT	.	_	13	punct	_	_
 13	mergulha	mergulhar	VERB	VERB	_	5	conj	_	_
-14	-	-	PUNCT	.	_	13	punct	_	_
+14	-	-	PUNCT	.	_	15	punct	_	_
 15	se	_	PRON	PRON	_	13	obj	_	_
 16	para	_	ADP	ADP	_	17	mark	_	_
 17	baixo	baixo	ADV	ADV	_	13	nmod	_	_
@@ -26,9 +26,9 @@
 24	uma	um	DET	DET	_	25	det	_	_
 25	camada	camada	NOUN	NOUN	_	21	iobj	_	_
 26	nova	novo	ADJ	ADJ	_	25	amod	_	SpaceAfter=No
-27	,	,	PUNCT	.	_	29	punct	_	_
-28	chamada	chamar	AUX	AUX	_	29	cop	_	_
-29	endoderme	endoderme	NOUN	NOUN	_	25	acl	_	SpaceAfter=No
+27	,	,	PUNCT	.	_	28	punct	_	_
+28	chamada	chamar	VERB	_	_	25	acl	_	_
+29	endoderme	endoderme	NOUN	NOUN	_	28	obj	_	SpaceAfter=No
 30	,	,	PUNCT	.	_	31	punct	_	_
 31	empurrando	empurrar	VERB	VERB	_	21	acl	_	_
 32	o	o	DET	DET	_	33	det	_	_
@@ -193,16 +193,16 @@
 14	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s2596
-# text = A ex - apresentadora do Casseta &amp; Planeta disse em entrevista ao programa Confissões do Apocalípse, que vai ao ar no canal pago GNT nesta sexta - feira (6), que todos os cassetas já tentaram levá - la para a cama.
+# text = A ex-apresentadora do Casseta & Planeta disse em entrevista ao programa Confissões do Apocalípse, que vai ao ar no canal pago GNT nesta sexta - feira (6), que todos os cassetas já tentaram levá - la para a cama.
 1	A	o	DET	DET	_	2	det	_	_
-2	ex	_	PART	PRT	_	10	nsubj	_	_
-3	-	-	PUNCT	.	_	2	punct	_	_
+2	ex	_	PART	PRT	_	10	nsubj	_	SpaceAfter=No
+3	-	-	PUNCT	.	_	2	punct	_	SpaceAfter=No
 4	apresentadora	apresentador	NOUN	NOUN	_	2	flat	_	_
 5-6	do	_	_	_	_	_	_	_	_
 5	de	de	ADP	ADP	_	7	case	_	_
 6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Casseta	_	PROPN	PNOUN	_	2	nmod	_	_
-8	&amp;	_	CCONJ	CONJ	_	9	cc	_	_
+8	&	e	CCONJ	CONJ	_	9	cc	_	_
 9	Planeta	_	PROPN	PNOUN	_	7	conj	_	_
 10	disse	dizer	VERB	VERB	_	0	root	_	_
 11	em	em	ADP	ADP	_	12	case	_	_
@@ -237,7 +237,7 @@
 36	6	_	NUM	NUM	NumType=Card	34	nmod	_	SpaceAfter=No
 37	)	)	PUNCT	.	_	36	punct	_	SpaceAfter=No
 38	,	,	PUNCT	.	_	22	punct	_	_
-39	que	_	PRON	PRON	_	44	mark	_	_
+39	que	_	ADP	_	_	44	mark	_	_
 40	todos	_	DET	DET	_	42	det	_	_
 41	os	o	DET	DET	_	42	det	_	_
 42	cassetas	_	NOUN	NOUN	_	44	nsubj	_	_
@@ -252,7 +252,7 @@
 51	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s2597
-# text = Outro problema seria uma falha de redação: se é "ex - cônjuge ou ex - companheiro", como diz a lei, então o fim da união estável já foi decretado, não havendo, portanto, abandono de lar.
+# text = Outro problema seria uma falha de redação: se é "ex-cônjuge ou ex-companheiro", como diz a lei, então o fim da união estável já foi decretado, não havendo, portanto, abandono de lar.
 1	Outro	_	DET	DET	_	2	det	_	_
 2	problema	problema	NOUN	NOUN	_	5	nsubj	_	_
 3	seria	_	AUX	AUX	_	5	cop	_	_
@@ -264,12 +264,12 @@
 9	se	_	CCONJ	CONJ	_	12	mark	_	_
 10	é	ser	AUX	AUX	_	12	cop	_	_
 11	"	"	PUNCT	.	_	12	punct	_	SpaceAfter=No
-12	ex	_	PART	PRT	_	35	advcl	_	_
-13	-	-	PUNCT	.	_	16	punct	_	_
+12	ex	_	PART	PRT	_	35	advcl	_	SpaceAfter=No
+13	-	-	PUNCT	.	_	14	punct	_	SpaceAfter=No
 14	cônjuge	cônjuge	NOUN	NOUN	_	12	flat	_	_
 15	ou	ou	CCONJ	CONJ	_	16	cc	_	_
-16	ex	_	PART	PRT	_	12	conj	_	_
-17	-	-	PUNCT	.	_	16	punct	_	_
+16	ex	_	PART	PRT	_	12	conj	_	SpaceAfter=No
+17	-	-	PUNCT	.	_	18	punct	_	SpaceAfter=No
 18	companheiro	companheiro	NOUN	NOUN	_	16	flat	_	SpaceAfter=No
 19	"	"	PUNCT	.	_	12	punct	_	SpaceAfter=No
 20	,	,	PUNCT	.	_	22	punct	_	_

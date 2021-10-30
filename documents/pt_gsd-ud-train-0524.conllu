@@ -82,14 +82,14 @@
 12	com	com	ADP	ADP	_	14	case	_	_
 13	as	o	DET	DET	_	14	det	_	_
 14	gracinhas	graça	NOUN	NOUN	_	11	nmod	_	_
-15	dele	_	X	ADPPRON	_	14	det:poss	_	_
+15	dele	_	PRON	_	_	14	det:poss	_	_
 16	(	(	PUNCT	.	_	17	punct	_	SpaceAfter=No
 17	risos	riso	NOUN	NOUN	_	3	parataxis	_	SpaceAfter=No
 18	)	)	PUNCT	.	_	17	punct	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s5204
-# text = Sua fonte está no departamento Maine - et - Loire, próximo a La Pouëze.
+# text = Sua fonte está no departamento Maine-et-Loire, próximo a La Pouëze.
 1	Sua	_	DET	DET	_	2	det:poss	_	_
 2	fonte	fonte	NOUN	NOUN	_	3	nsubj	_	_
 3	está	estar	VERB	VERB	_	0	root	_	_
@@ -97,28 +97,28 @@
 4	em	em	ADP	ADP	_	6	case	_	_
 5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	departamento	departamento	NOUN	NOUN	_	3	nmod	_	_
-7	Maine	_	PROPN	PNOUN	_	6	appos	_	_
-8	-	-	PUNCT	.	_	11	punct	_	_
-9	et	_	CCONJ	CONJ	_	11	cc	_	_
-10	-	-	PUNCT	.	_	11	punct	_	_
+7	Maine	_	PROPN	PNOUN	_	6	appos	_	SpaceAfter=No
+8	-	-	PUNCT	.	_	11	punct	_	SpaceAfter=No
+9	et	_	CCONJ	CONJ	_	11	cc	_	SpaceAfter=No
+10	-	-	PUNCT	.	_	11	punct	_	SpaceAfter=No
 11	Loire	_	PROPN	PNOUN	_	7	conj	_	SpaceAfter=No
 12	,	,	PUNCT	.	_	13	punct	_	_
 13	próximo	próximo	ADJ	ADJ	_	7	amod	_	_
 14	a	_	ADP	ADP	_	16	case	_	_
-15	La	_	PROPN	PNOUN	_	16	det	_	_
+15	La	_	DET	_	_	16	det	_	_
 16	Pouëze	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s5205
 # text = Em 1975 foi eleito Deputado Estadual, mandato que repetiu por mais duas vezes até 1986.
 1	Em	em	ADP	ADP	_	2	case	_	_
-2	1975	_	NUM	NUM	NumType=Card	5	nmod	_	_
-3	foi	_	AUX	AUX	_	5	aux:pass	_	_
-4	eleito	eleger	AUX	AUX	_	5	cop	_	_
-5	Deputado	_	PROPN	PNOUN	_	0	root	_	_
+2	1975	_	NUM	NUM	NumType=Card	4	obl	_	_
+3	foi	_	AUX	AUX	_	4	aux:pass	_	_
+4	eleito	eleger	VERB	_	_	0	root	_	_
+5	Deputado	_	PROPN	PNOUN	_	4	obj	_	_
 6	Estadual	_	PROPN	PNOUN	_	5	amod	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	8	punct	_	_
-8	mandato	mandato	NOUN	NOUN	_	5	appos	_	_
+8	mandato	mandato	NOUN	NOUN	_	5	nmod	_	_
 9	que	_	PRON	PRON	_	10	obj	_	_
 10	repetiu	repetir	VERB	VERB	_	8	acl:relcl	_	_
 11	por	por	ADP	ADP	_	14	case	_	_
