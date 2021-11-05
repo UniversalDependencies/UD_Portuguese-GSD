@@ -8,7 +8,7 @@
 6	-	-	PUNCT	.	_	7	punct	_	_
 7	feira	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	2	punct	_	_
-9	o	o	DET	DET	_	10	det	_	_
+9	o	o	DET	DET	PronType=Art	10	det	_	_
 10	técnico	técnico	NOUN	NOUN	_	15	nsubj	_	_
 11-12	da	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	13	case	_	_
@@ -16,7 +16,7 @@
 13	equipe	equipe	NOUN	NOUN	_	10	nmod	_	_
 14	inglesa	inglês	ADJ	ADJ	_	13	amod	_	_
 15	explicou	explicar	VERB	VERB	_	0	root	_	_
-16	o	o	DET	DET	_	17	det	_	_
+16	o	o	DET	DET	PronType=Art	17	det	_	_
 17	porquê	porquê	NOUN	NOUN	_	15	obj	_	_
 18-19	do	_	_	_	_	_	_	_	_
 18	de	de	ADP	ADP	_	20	case	_	_
@@ -27,13 +27,13 @@
 23	compatriota	compatriota	NOUN	NOUN	_	20	nmod	_	_
 24	e	e	CCONJ	CONJ	_	25	cc	_	_
 25	minimizou	minimizar	VERB	VERB	_	15	conj	_	_
-26	o	o	DET	DET	_	27	det	_	_
+26	o	o	DET	DET	PronType=Art	27	det	_	_
 27	fato	fato	NOUN	NOUN	_	25	obj	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = train-s4347
 # text = O financiamento poderá ser usado para construção, reforma ou ampliação de unidade habitacional e instalação de hidrômetro e sistema de aquecimento solar para residências.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	financiamento	financiamento	NOUN	NOUN	_	5	nsubj:pass	_	_
 3	poderá	poder	AUX	AUX	_	5	aux	_	_
 4	ser	ser	AUX	AUX	_	5	aux:pass	_	_
@@ -76,7 +76,7 @@
 12	avançado	avançado	ADJ	ADJ	_	10	amod	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	20	punct	_	_
 14	quando	quando	ADV	ADV	_	20	advmod	_	_
-15	as	o	DET	DET	_	16	det	_	_
+15	as	o	DET	DET	PronType=Art	16	det	_	_
 16	complicações	complicação	NOUN	NOUN	_	20	nsubj	_	_
 17	já	já	ADV	ADV	_	20	advmod	_	_
 18	começam	_	AUX	AUX	_	20	aux	_	_
@@ -86,7 +86,7 @@
 
 # sent_id = train-s4349
 # text = O público ainda pôde assistir à performance de dois caças F - 5, que sobrevoaram o Centro da Capital.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	público	público	NOUN	NOUN	_	5	nsubj	_	_
 3	ainda	ainda	ADV	ADV	_	5	advmod	_	_
 4	pôde	poder	AUX	AUX	_	5	aux	_	_
@@ -104,7 +104,7 @@
 15	,	,	PUNCT	.	_	17	punct	_	_
 16	que	_	PRON	PRON	_	17	nsubj	_	_
 17	sobrevoaram	sobrevoar	VERB	VERB	_	11	acl:relcl	_	_
-18	o	o	DET	DET	_	19	det	_	_
+18	o	o	DET	DET	PronType=Art	19	det	_	_
 19	Centro	_	PROPN	PNOUN	_	17	obj	_	_
 20-21	da	_	_	_	_	_	_	_	_
 20	de	de	ADP	ADP	_	22	case	_	_
@@ -114,7 +114,7 @@
 
 # sent_id = train-s4350
 # text = O carro será construído na fábrica de Gravataí, vai custar cerca de 30 mil reais e chega no próximo mês nas lojas.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	carro	carro	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	será	ser	AUX	AUX	_	4	aux:pass	_	_
 4	construído	construir	VERB	VERB	_	0	root	_	_
@@ -151,12 +151,12 @@
 2	de	_	ADP	ADP	_	1	fixed	_	_
 3	contar	contar	VERB	VERB	_	13	advcl	_	_
 4	com	com	ADP	ADP	_	6	case	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	presença	presença	NOUN	NOUN	_	3	nmod	_	_
 7	de	de	ADP	ADP	_	8	case	_	_
 8	Marta	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	3	punct	_	_
-10	a	o	DET	DET	_	11	det	_	_
+10	a	o	DET	DET	PronType=Art	11	det	_	_
 11	Seleção	_	PROPN	PNOUN	_	13	nsubj	_	_
 12	não	não	ADV	ADV	Polarity=Neg	13	advmod	_	_
 13	teve	ter	VERB	VERB	_	0	root	_	_
@@ -176,7 +176,7 @@
 # sent_id = train-s4352
 # text = Segundo o censo de 2001, Sonatikiri tinha uma população de 6628 habitantes.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	PronType=Art	3	det	_	_
 3	censo	censo	NOUN	NOUN	_	8	nmod	_	_
 4	de	de	ADP	ADP	_	5	case	_	_
 5	2001	_	NUM	NUM	NumType=Card	3	nmod	_	SpaceAfter=No
@@ -193,7 +193,7 @@
 # sent_id = train-s4353
 # text = Segundo o BC, essa mudança ocorre para apenas se adaptar ao "crescimento natural" do mercado, e não soube informar quantos bancos poderiam ser beneficiados com o novo parâmetro.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	PronType=Art	3	det	_	_
 3	BC	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
 5	essa	_	DET	DET	_	6	det	_	_
@@ -225,7 +225,7 @@
 29	ser	ser	AUX	AUX	_	30	aux:pass	_	_
 30	beneficiados	beneficiar	VERB	VERB	_	25	ccomp	_	_
 31	com	com	ADP	ADP	_	34	case	_	_
-32	o	o	DET	DET	_	34	det	_	_
+32	o	o	DET	DET	PronType=Art	34	det	_	_
 33	novo	novo	ADJ	ADJ	_	34	amod	_	_
 34	parâmetro	parâmetro	NOUN	NOUN	_	30	nmod	_	SpaceAfter=No
 35	.	.	PUNCT	.	_	7	punct	_	_
@@ -253,7 +253,7 @@
 6	que	_	PRON	PRON	_	8	nsubj	_	_
 7	certamente	certamente	ADV	ADV	_	8	advmod	_	_
 8	deixou	deixar	VERB	VERB	_	5	acl:relcl	_	_
-9	os	o	DET	DET	_	10	det	_	_
+9	os	o	DET	DET	PronType=Art	10	det	_	_
 10	fãs	fã	NOUN	NOUN	_	8	obj	_	_
 11-12	do	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	13	case	_	_

@@ -1,6 +1,6 @@
 # sent_id = train-s9527
 # text = O referendo foi organizado pelo governo de Ponta.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	referendo	referendo	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foi	_	AUX	AUX	_	4	aux:pass	_	_
 4	organizado	organizar	VERB	VERB	_	0	root	_	_
@@ -14,7 +14,7 @@
 
 # sent_id = train-s9528
 # text = Os oficiais que nãoo estão na primeira linha (p.e. engenheiros, médicos) podem ser nomeados por méritos em tempo de guerra.
-1	Os	o	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	PronType=Art	2	det	_	_
 2	oficiais	oficial	NOUN	NOUN	_	18	nsubj:pass	_	_
 3	que	_	PRON	PRON	_	5	nsubj	_	_
 4	nãoo	_	ADV	ADV	_	5	advmod	_	_
@@ -96,7 +96,7 @@
 
 # sent_id = train-s9531
 # text = O vídeo do grupo londrino foi gravado em Edimburgo, na Escócia, sob direção de Lewis Gourlay.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	vídeo	vídeo	NOUN	NOUN	_	8	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -122,10 +122,10 @@
 
 # sent_id = train-s9532
 # text = Os Vinci dominam a tecnologia.
-1	Os	o	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	PronType=Art	2	det	_	_
 2	Vinci	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	dominam	dominar	VERB	VERB	_	0	root	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	tecnologia	tecnologia	NOUN	NOUN	_	3	obj	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -155,7 +155,7 @@
 22	só	só	ADV	ADV	_	24	advmod	_	_
 23	para	_	ADP	ADP	_	24	mark	_	_
 24	lembrar	lembrar	VERB	VERB	_	3	nmod	_	_
-25	os	o	DET	DET	_	27	det	_	_
+25	os	o	DET	DET	PronType=Art	27	det	_	_
 26	mais	_	DET	DET	_	27	det	_	_
 27	importantes	importante	NOUN	NOUN	_	24	obj	_	_
 28-29	no	_	_	_	_	_	_	_	_
@@ -171,13 +171,13 @@
 
 # sent_id = train-s9534
 # text = As matrículas devem ser feitas até o dia 31 nas próprias escolas, das 9h às 16h, de acordo com o zoneamento escolar.
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	PronType=Art	2	det	_	_
 2	matrículas	matrícula	NOUN	NOUN	_	5	nsubj:pass	_	_
 3	devem	_	AUX	AUX	_	5	aux	_	_
 4	ser	ser	AUX	AUX	_	5	aux:pass	_	_
 5	feitas	_	VERB	VERB	_	0	root	_	_
 6	até	_	ADP	ADP	_	8	case	_	_
-7	o	o	DET	DET	_	8	det	_	_
+7	o	o	DET	DET	PronType=Art	8	det	_	_
 8	dia	dia	NOUN	NOUN	_	5	nmod	_	_
 9	31	_	NUM	NUM	NumType=Card	8	nmod	_	_
 10-11	nas	_	_	_	_	_	_	_	_
@@ -198,7 +198,7 @@
 22	de	de	ADP	ADP	_	23	case	_	_
 23	acordo	acordo	NOUN	NOUN	_	5	nmod	_	_
 24	com	com	ADP	ADP	_	26	case	_	_
-25	o	o	DET	DET	_	26	det	_	_
+25	o	o	DET	DET	PronType=Art	26	det	_	_
 26	zoneamento	zoneamento	NOUN	NOUN	_	23	nmod	_	_
 27	escolar	escolar	ADJ	ADJ	_	26	amod	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	5	punct	_	_
@@ -206,7 +206,7 @@
 # sent_id = train-s9535
 # text = Criou as missionárias da caridade, onde todas as freiras iriam ajudar não a ela, mas sim a todos os necessitados.
 1	Criou	criar	VERB	VERB	_	0	root	_	_
-2	as	o	DET	DET	_	3	det	_	_
+2	as	o	DET	DET	PronType=Art	3	det	_	_
 3	missionárias	missionário	NOUN	NOUN	_	1	obj	_	_
 4-5	da	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
@@ -215,7 +215,7 @@
 7	,	,	PUNCT	.	_	13	punct	_	_
 8	onde	onde	ADV	ADV	_	13	advmod	_	_
 9	todas	_	DET	DET	_	11	det	_	_
-10	as	o	DET	DET	_	11	det	_	_
+10	as	o	DET	DET	PronType=Art	11	det	_	_
 11	freiras	_	NOUN	NOUN	_	13	nsubj	_	_
 12	iriam	_	AUX	AUX	_	13	aux	_	_
 13	ajudar	ajudar	VERB	VERB	_	3	acl:relcl	_	_
@@ -227,21 +227,21 @@
 19	sim	sim	ADV	ADV	_	23	advmod	_	_
 20	a	_	ADP	ADP	_	23	case	_	_
 21	todos	_	DET	DET	_	23	det	_	_
-22	os	o	DET	DET	_	23	det	_	_
+22	os	o	DET	DET	PronType=Art	23	det	_	_
 23	necessitados	necessitado	NOUN	NOUN	_	13	conj	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s9536
 # text = O órgão meteorológico informou que a tempestade perdeu as características dum ciclone, mas ainda poderá causar temporais na região dos Grandes Lagos, enchentes e ventos fortes em toda a costa leste.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	órgão	órgão	NOUN	NOUN	_	4	nsubj	_	_
 3	meteorológico	meteorológico	ADJ	ADJ	_	2	amod	_	_
 4	informou	informar	VERB	VERB	_	0	root	_	_
 5	que	que	CCONJ	CONJ	_	8	mark	_	_
-6	a	o	DET	DET	_	7	det	_	_
+6	a	o	DET	DET	PronType=Art	7	det	_	_
 7	tempestade	tempestade	NOUN	NOUN	_	8	nsubj	_	_
 8	perdeu	perder	VERB	VERB	_	4	ccomp	_	_
-9	as	o	DET	DET	_	10	det	_	_
+9	as	o	DET	DET	PronType=Art	10	det	_	_
 10	características	_	NOUN	NOUN	_	8	obj	_	_
 11-12	dum	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	13	case	_	_
@@ -269,7 +269,7 @@
 31	fortes	forte	ADJ	ADJ	_	30	amod	_	_
 32	em	em	ADP	ADP	_	35	case	_	_
 33	toda	_	DET	DET	_	35	det	_	_
-34	a	o	DET	DET	_	35	det	_	_
+34	a	o	DET	DET	PronType=Art	35	det	_	_
 35	costa	costa	NOUN	NOUN	_	28	nmod	_	_
 36	leste	leste	ADJ	ADJ	_	35	amod	_	SpaceAfter=No
 37	.	.	PUNCT	.	_	4	punct	_	_

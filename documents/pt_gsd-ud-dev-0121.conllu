@@ -2,7 +2,7 @@
 # text = Dilemário presídiu o PTB no período em que o partido tentava decidir quem apoiar no pleito deste ano.
 1	Dilemário	_	PROPN	PNOUN	_	2	nsubj	_	_
 2	presídiu	_	VERB	VERB	_	0	root	_	_
-3	o	o	DET	DET	_	4	det	_	_
+3	o	o	DET	DET	PronType=Art	4	det	_	_
 4	PTB	_	PROPN	PNOUN	_	2	obj	_	_
 5-6	no	_	_	_	_	_	_	_	_
 5	em	em	ADP	ADP	_	7	case	_	_
@@ -10,7 +10,7 @@
 7	período	período	NOUN	NOUN	_	2	nmod	_	_
 8	em	em	ADP	ADP	_	9	case	_	_
 9	que	_	PRON	PRON	_	12	nmod	_	_
-10	o	o	DET	DET	_	11	det	_	_
+10	o	o	DET	DET	PronType=Art	11	det	_	_
 11	partido	partido	NOUN	NOUN	_	12	nsubj	_	_
 12	tentava	tentar	VERB	VERB	_	7	acl:relcl	_	_
 13	decidir	decidir	VERB	VERB	_	12	xcomp	_	_
@@ -26,7 +26,7 @@
 
 # sent_id = dev-s1192
 # text = A instituição aponta ainda que, como parte do trato com o departamento de Justiça americana, o UBS Securities Japan Co.Ltd.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	instituição	instituição	NOUN	NOUN	_	3	nsubj	_	_
 3	aponta	apontar	VERB	VERB	_	0	root	_	_
 4	ainda	ainda	ADV	ADV	_	3	advmod	_	_
@@ -39,13 +39,13 @@
 10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	trato	trato	NOUN	NOUN	_	8	nmod	_	_
 12	com	com	ADP	ADP	_	14	case	_	_
-13	o	o	DET	DET	_	14	det	_	_
+13	o	o	DET	DET	PronType=Art	14	det	_	_
 14	departamento	departamento	NOUN	NOUN	_	11	nmod	_	_
 15	de	de	ADP	ADP	_	16	case	_	_
 16	Justiça	_	PROPN	PNOUN	_	14	nmod	_	_
 17	americana	americano	ADJ	ADJ	_	16	amod	_	SpaceAfter=No
 18	,	,	PUNCT	.	_	8	punct	_	_
-19	o	o	DET	DET	_	20	det	_	_
+19	o	o	DET	DET	PronType=Art	20	det	_	_
 20	UBS	_	PROPN	PNOUN	_	3	dep	_	_
 21	Securities	_	PROPN	PNOUN	_	20	flat	_	_
 22	Japan	_	PROPN	PNOUN	_	20	flat	_	_
@@ -68,7 +68,7 @@
 
 # sent_id = dev-s1194
 # text = Os planos da E.ON e da empresa do empresário Eike Batista de construir essa usina em Castilla tiveram a resistência de moradores locais, que dizem que as emissões da unidade prejudicarão a qualidade do ar e poluirão as paisagens.
-1	Os	o	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	PronType=Art	2	det	_	_
 2	planos	plano	NOUN	NOUN	_	21	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -92,7 +92,7 @@
 19	em	em	ADP	ADP	_	20	case	_	_
 20	Castilla	_	PROPN	PNOUN	_	16	nmod	_	_
 21	tiveram	ter	VERB	VERB	_	0	root	_	_
-22	a	o	DET	DET	_	23	det	_	_
+22	a	o	DET	DET	PronType=Art	23	det	_	_
 23	resistência	resistência	NOUN	NOUN	_	21	obj	_	_
 24	de	de	ADP	ADP	_	25	case	_	_
 25	moradores	morador	NOUN	NOUN	_	23	nmod	_	_
@@ -101,14 +101,14 @@
 28	que	_	PRON	PRON	_	29	nsubj	_	_
 29	dizem	dizer	VERB	VERB	_	25	acl:relcl	_	_
 30	que	que	CCONJ	CONJ	_	36	mark	_	_
-31	as	o	DET	DET	_	32	det	_	_
+31	as	o	DET	DET	PronType=Art	32	det	_	_
 32	emissões	emissão	NOUN	NOUN	_	36	nsubj	_	_
 33-34	da	_	_	_	_	_	_	_	_
 33	de	de	ADP	ADP	_	35	case	_	_
 34	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	unidade	unidade	NOUN	NOUN	_	32	nmod	_	_
 36	prejudicarão	prejudicar	VERB	VERB	_	29	ccomp	_	_
-37	a	o	DET	DET	_	38	det	_	_
+37	a	o	DET	DET	PronType=Art	38	det	_	_
 38	qualidade	qualidade	NOUN	NOUN	_	36	obj	_	_
 39-40	do	_	_	_	_	_	_	_	_
 39	de	de	ADP	ADP	_	41	case	_	_
@@ -116,14 +116,14 @@
 41	ar	ar	NOUN	NOUN	_	38	nmod	_	_
 42	e	e	CCONJ	CONJ	_	43	cc	_	_
 43	poluirão	poluir	VERB	VERB	_	36	conj	_	_
-44	as	o	DET	DET	_	45	det	_	_
+44	as	o	DET	DET	PronType=Art	45	det	_	_
 45	paisagens	paisagem	NOUN	NOUN	_	43	obj	_	SpaceAfter=No
 46	.	.	PUNCT	.	_	21	punct	_	_
 
 # sent_id = dev-s1195
 # text = "O Timão deseja sorte e sucesso na sequência da carreira do excelente profissional que, como comandante do time de base, sempre correspondeu às expectativas do clube", afirmava a nota no site oficial do clube.
 1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
-2	O	o	DET	DET	_	3	det	_	_
+2	O	o	DET	DET	PronType=Art	3	det	_	_
 3	Timão	_	PROPN	PNOUN	_	4	nsubj	_	_
 4	deseja	desejar	VERB	VERB	_	38	ccomp	_	_
 5	sorte	sorte	NOUN	NOUN	_	4	obj	_	_
@@ -166,7 +166,7 @@
 36	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
 37	,	,	PUNCT	.	_	38	punct	_	_
 38	afirmava	afirmar	VERB	VERB	_	0	root	_	_
-39	a	o	DET	DET	_	40	det	_	_
+39	a	o	DET	DET	PronType=Art	40	det	_	_
 40	nota	nota	NOUN	NOUN	_	38	nsubj	_	_
 41-42	no	_	_	_	_	_	_	_	_
 41	em	em	ADP	ADP	_	43	case	_	_
@@ -181,7 +181,7 @@
 
 # sent_id = dev-s1196
 # text = A proposta da vereadora Teresa Britto (PV) objetiva unir os secretários de Meio Ambiente do Estado e de Teresina, além do superintendente do Instituto Brasileiro do Meio Ambiente e de Recursos Naturais Renováveis (Ibama - PI) numa ação urgente de limpeza do rio.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	proposta	_	NOUN	NOUN	_	11	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -194,7 +194,7 @@
 10	)	)	PUNCT	.	_	9	punct	_	_
 11	objetiva	objetivar	VERB	VERB	_	0	root	_	_
 12	unir	unir	VERB	VERB	_	11	xcomp	_	_
-13	os	o	DET	DET	_	14	det	_	_
+13	os	o	DET	DET	PronType=Art	14	det	_	_
 14	secretários	secretário	NOUN	NOUN	_	12	obj	_	_
 15	de	de	ADP	ADP	_	16	case	_	_
 16	Meio	_	PROPN	PNOUN	_	14	nmod	_	_
@@ -247,10 +247,10 @@
 
 # sent_id = dev-s1197
 # text = O TuSpo fez a sua primeira aparição na DFB - Pokal, a Copa da Alemanha, em 1982.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	TuSpo	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	fez	fazer	VERB	VERB	_	0	root	_	_
-4	a	o	DET	DET	_	7	det	_	_
+4	a	o	DET	DET	PronType=Art	7	det	_	_
 5	sua	_	DET	DET	_	7	det:poss	_	_
 6	primeira	primeiro	ADJ	ADJ	_	7	amod	_	_
 7	aparição	aparição	NOUN	NOUN	_	3	obj	_	_
@@ -261,7 +261,7 @@
 11	-	-	PUNCT	.	_	10	punct	_	_
 12	Pokal	_	PROPN	PNOUN	_	10	flat	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	15	punct	_	_
-14	a	o	DET	DET	_	15	det	_	_
+14	a	o	DET	DET	PronType=Art	15	det	_	_
 15	Copa	_	PROPN	PNOUN	_	10	appos	_	_
 16-17	da	_	_	_	_	_	_	_	_
 16	de	de	ADP	ADP	_	18	case	_	_
@@ -274,7 +274,7 @@
 
 # sent_id = dev-s1198
 # text = A pilha de Daniell pode ser escrita por:
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	pilha	_	NOUN	NOUN	_	7	nsubj:pass	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	Daniell	_	PROPN	PNOUN	_	2	nmod	_	_
@@ -294,7 +294,7 @@
 6	que	_	PRON	PRON	_	7	nsubj	_	_
 7	levam	levar	VERB	VERB	_	5	acl:relcl	_	_
 8	consigo	_	X	ADPPRON	_	7	nmod	_	_
-9	o	o	DET	DET	_	10	det	_	_
+9	o	o	DET	DET	PronType=Art	10	det	_	_
 10	sonho	sonho	NOUN	NOUN	_	7	obj	_	_
 11	de	_	ADP	ADP	_	12	mark	_	_
 12	participar	participar	VERB	VERB	_	10	nmod	_	_
@@ -319,7 +319,7 @@
 
 # sent_id = dev-s1200
 # text = A próxima assembleia acontecerá no Salão da Igreja Pompeia, na Rua Barros Cassal, n º 220, a partir das 15h.
-1	A	o	DET	DET	_	3	det	_	_
+1	A	o	DET	DET	PronType=Art	3	det	_	_
 2	próxima	próximo	ADJ	ADJ	_	3	amod	_	_
 3	assembleia	assembleia	NOUN	NOUN	_	4	nsubj	_	_
 4	acontecerá	acontecer	VERB	VERB	_	0	root	_	_

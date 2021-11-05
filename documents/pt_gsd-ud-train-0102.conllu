@@ -4,7 +4,7 @@
 2	citar	citar	VERB	VERB	_	10	advcl	_	_
 3	nomes	nome	NOUN	NOUN	_	2	obj	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	2	punct	_	_
-5	o	o	DET	DET	_	6	det	_	_
+5	o	o	DET	DET	PronType=Art	6	det	_	_
 6	técnico	técnico	NOUN	NOUN	_	10	nsubj	_	_
 7	Oswaldo	_	PROPN	PNOUN	_	6	appos	_	_
 8	de	de	ADP	ADP	_	9	case	_	_
@@ -14,7 +14,7 @@
 12	ter	ter	AUX	AUX	_	13	aux	_	_
 13	contado	contar	VERB	VERB	_	10	xcomp	_	_
 14	com	com	ADP	ADP	_	16	case	_	_
-15	a	o	DET	DET	_	16	det	_	_
+15	a	o	DET	DET	PronType=Art	16	det	_	_
 16	defesa	_	NOUN	NOUN	_	13	nmod	_	_
 17	completa	completo	ADJ	ADJ	_	16	amod	_	_
 18-19	nos	_	_	_	_	_	_	_	_
@@ -28,7 +28,7 @@
 # sent_id = train-s1011
 # text = Já o Internacional, com 31 pontos, perdeu uma colocação, pois o São Paulo superou o Corinthians neste domingo e agora é o novo quinto lugar.
 1	Já	já	ADV	ADV	_	9	advmod	_	_
-2	o	o	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	PronType=Art	3	det	_	_
 3	Internacional	_	PROPN	PNOUN	_	9	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	7	punct	_	_
 5	com	com	ADP	ADP	_	7	case	_	_
@@ -40,18 +40,18 @@
 11	colocação	colocação	NOUN	NOUN	_	9	obj	_	SpaceAfter=No
 12	,	,	PUNCT	.	_	17	punct	_	_
 13	pois	_	CCONJ	CONJ	_	17	mark	_	_
-14	o	o	DET	DET	_	15	det	_	_
+14	o	o	DET	DET	PronType=Art	15	det	_	_
 15	São	_	PROPN	PNOUN	_	17	nsubj	_	_
 16	Paulo	_	PROPN	PNOUN	_	15	flat	_	_
 17	superou	superar	VERB	VERB	_	9	advcl	_	_
-18	o	o	DET	DET	_	19	det	_	_
+18	o	o	DET	DET	PronType=Art	19	det	_	_
 19	Corinthians	_	PROPN	PNOUN	_	17	obj	_	_
 20	neste	_	ADP	ADP	_	21	case	_	_
 21	domingo	_	PROPN	PNOUN	_	17	nmod	_	_
 22	e	e	CCONJ	CONJ	_	28	cc	_	_
 23	agora	agora	ADV	ADV	_	28	advmod	_	_
 24	é	ser	AUX	AUX	_	28	cop	_	_
-25	o	o	DET	DET	_	28	det	_	_
+25	o	o	DET	DET	PronType=Art	28	det	_	_
 26	novo	novo	ADJ	ADJ	_	28	amod	_	_
 27	quinto	_	ADJ	ADJ	_	28	amod	_	_
 28	lugar	lugar	NOUN	NOUN	_	17	conj	_	SpaceAfter=No
@@ -59,7 +59,7 @@
 
 # sent_id = train-s1012
 # text = O treino de sexta - feira vai definir a escalação.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	treino	treino	NOUN	NOUN	_	8	nsubj	_	_
 3	de	de	ADP	ADP	_	6	case	_	_
 4	sexta	_	PROPN	PNOUN	_	6	amod	_	_
@@ -67,7 +67,7 @@
 6	feira	_	PROPN	PNOUN	_	2	nmod	_	_
 7	vai	ir	AUX	AUX	_	8	aux	_	_
 8	definir	definir	VERB	VERB	_	0	root	_	_
-9	a	o	DET	DET	_	10	det	_	_
+9	a	o	DET	DET	PronType=Art	10	det	_	_
 10	escalação	escalação	NOUN	NOUN	_	8	obj	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	8	punct	_	_
 
@@ -75,7 +75,7 @@
 # text = Quando tiraram as bandagens, eu fiquei surpresa: tinha ficado muito melhor do que eu esperava".
 1	Quando	_	CCONJ	CONJ	_	2	mark	_	_
 2	tiraram	tirar	VERB	VERB	_	7	advcl	_	_
-3	as	o	DET	DET	_	4	det	_	_
+3	as	o	DET	DET	PronType=Art	4	det	_	_
 4	bandagens	bandagem	NOUN	NOUN	_	2	obj	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	2	punct	_	_
 6	eu	_	PRON	PRON	_	7	nsubj	_	_
@@ -97,7 +97,7 @@
 
 # sent_id = train-s1014
 # text = As meninas da gafieira vão ficar bobas!
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	PronType=Art	2	det	_	_
 2	meninas	menino	NOUN	NOUN	_	7	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -110,11 +110,11 @@
 
 # sent_id = train-s1015
 # text = A secretária afirmou que o governo segue avaliando outras medidas de fomento ao crescimento econômico como a redução do custo da energia para a indústria.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	secretária	_	NOUN	NOUN	_	3	nsubj	_	_
 3	afirmou	afirmar	VERB	VERB	_	0	root	_	_
 4	que	que	CCONJ	CONJ	_	8	mark	_	_
-5	o	o	DET	DET	_	6	det	_	_
+5	o	o	DET	DET	PronType=Art	6	det	_	_
 6	governo	governo	NOUN	NOUN	_	8	nsubj	_	_
 7	segue	_	AUX	AUX	_	8	aux	_	_
 8	avaliando	avaliar	VERB	VERB	_	3	ccomp	_	_
@@ -128,7 +128,7 @@
 15	crescimento	crescimento	NOUN	NOUN	_	12	nmod	_	_
 16	econômico	econômico	ADJ	ADJ	_	15	amod	_	_
 17	como	como	ADP	ADP	_	19	case	_	_
-18	a	o	DET	DET	_	19	det	_	_
+18	a	o	DET	DET	PronType=Art	19	det	_	_
 19	redução	redução	NOUN	NOUN	_	10	nmod	_	_
 20-21	do	_	_	_	_	_	_	_	_
 20	de	de	ADP	ADP	_	22	case	_	_
@@ -139,7 +139,7 @@
 24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	energia	energia	NOUN	NOUN	_	22	nmod	_	_
 26	para	para	ADP	ADP	_	28	case	_	_
-27	a	o	DET	DET	_	28	det	_	_
+27	a	o	DET	DET	PronType=Art	28	det	_	_
 28	indústria	indústria	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -155,7 +155,7 @@
 7	sem	_	ADP	ADP	_	8	case	_	_
 8	gols	gol	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	3	punct	_	_
-10	o	o	DET	DET	_	11	det	_	_
+10	o	o	DET	DET	PronType=Art	11	det	_	_
 11	time	time	NOUN	NOUN	_	14	nsubj	_	_
 12	espanhol	espanhol	ADJ	ADJ	_	11	amod	_	_
 13	teria	ter	AUX	AUX	_	14	aux	_	_
@@ -167,7 +167,7 @@
 18	posição	posição	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	.	_	24	punct	_	_
 20	com	com	ADP	ADP	_	24	case	_	_
-21	os	o	DET	DET	_	24	det	_	_
+21	os	o	DET	DET	PronType=Art	24	det	_	_
 22	mesmos	mesmo	ADJ	ADJ	_	24	amod	_	_
 23	cinco	_	NUM	NUM	NumType=Card	24	nummod	_	_
 24	pontos	ponto	NOUN	NOUN	_	14	nmod	_	_
@@ -179,7 +179,7 @@
 
 # sent_id = train-s1017
 # text = A vigilante Dolores Andrade, também moradora na capital paranaense, porém, admite que indicacações de "pessoas conhecidas" têm peso na sua escolha.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	vigilante	vigilante	NOUN	NOUN	_	15	nsubj	_	_
 3	Dolores	_	PROPN	PNOUN	_	2	appos	_	_
 4	Andrade	_	PROPN	PNOUN	_	3	flat	_	SpaceAfter=No
@@ -213,7 +213,7 @@
 
 # sent_id = train-s1018
 # text = O novo indicador, com base em dados de pesquisa global do instituto Gallup em 161 países, mede o acesso das pessoas a celular, internet via computador, telefone fixo e computador sem acesso à rede.
-1	O	o	DET	DET	_	3	det	_	_
+1	O	o	DET	DET	PronType=Art	3	det	_	_
 2	novo	novo	ADJ	ADJ	_	3	amod	_	_
 3	indicador	indicador	NOUN	NOUN	_	20	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	6	punct	_	_
@@ -234,7 +234,7 @@
 18	países	país	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	.	_	6	punct	_	_
 20	mede	medir	VERB	VERB	_	0	root	_	_
-21	o	o	DET	DET	_	22	det	_	_
+21	o	o	DET	DET	PronType=Art	22	det	_	_
 22	acesso	acesso	NOUN	NOUN	_	20	obj	_	_
 23-24	das	_	_	_	_	_	_	_	_
 23	de	de	ADP	ADP	_	25	case	_	_
@@ -261,7 +261,7 @@
 
 # sent_id = train-s1019
 # text = O despejo do tradicional Clube de Regatas Tietê, de 105 anos, deixou por volta de 1.700 estudantes sem aula pelo menos até segunda - feira.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	despejo	despejo	NOUN	NOUN	_	15	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	6	case	_	_

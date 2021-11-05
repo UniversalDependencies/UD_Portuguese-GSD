@@ -15,14 +15,14 @@
 12	dados	dado	NOUN	NOUN	_	10	nmod	_	_
 13	pessoais	pessoal	ADJ	ADJ	_	12	amod	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	2	punct	_	_
-15	o	o	DET	DET	_	16	det	_	_
+15	o	o	DET	DET	PronType=Art	16	det	_	_
 16	cliente	cliente	NOUN	NOUN	_	18	nsubj	_	_
 17	deve	dever	AUX	AUX	_	18	aux	_	_
 18	entrar	entrar	VERB	VERB	_	0	root	_	_
 19	em	em	ADP	ADP	_	20	case	_	_
 20	contato	contato	NOUN	NOUN	_	18	nmod	_	_
 21	com	com	ADP	ADP	_	23	case	_	_
-22	o	o	DET	DET	_	23	det	_	_
+22	o	o	DET	DET	PronType=Art	23	det	_	_
 23	banco	banco	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	18	punct	_	_
 
@@ -34,7 +34,7 @@
 4	o	_	PRON	PRON	_	2	nmod	_	_
 5	que	_	PRON	PRON	_	6	obj	_	_
 6	apurou	apurar	VERB	VERB	_	4	acl:relcl	_	_
-7	a	o	DET	DET	_	8	det	_	_
+7	a	o	DET	DET	PronType=Art	8	det	_	_
 8	Corregedoria	_	PROPN	PNOUN	_	6	nsubj	_	_
 9	Geral	_	PROPN	PNOUN	_	8	amod	_	_
 10-11	do	_	_	_	_	_	_	_	_
@@ -73,7 +73,7 @@
 39	MA	_	PROPN	PNOUN	_	37	flat	_	SpaceAfter=No
 40	)	)	PUNCT	.	_	37	punct	_	SpaceAfter=No
 41	,	,	PUNCT	.	_	18	punct	_	_
-42	os	o	DET	DET	_	43	det	_	_
+42	os	o	DET	DET	PronType=Art	43	det	_	_
 43	responsáveis	responsável	NOUN	NOUN	_	49	nsubj	_	_
 44-45	pelos	_	_	_	_	_	_	_	_
 44	por	por	ADP	ADP	_	46	case	_	_
@@ -114,7 +114,7 @@
 
 # sent_id = train-s5331
 # text = O presidente da Câmara, deputado federal Marco Maia (PT - RS) disse que considera justas e legítimas as reivindicações por empenho de emendas parlamentares apresentadas pela oposição.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	presidente	presidente	NOUN	NOUN	_	16	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -136,7 +136,7 @@
 19	justas	justo	ADJ	ADJ	_	18	xcomp	_	_
 20	e	e	CCONJ	CONJ	_	21	cc	_	_
 21	legítimas	legítimo	ADJ	ADJ	_	19	conj	_	_
-22	as	o	DET	DET	_	23	det	_	_
+22	as	o	DET	DET	PronType=Art	23	det	_	_
 23	reivindicações	reivindicação	NOUN	NOUN	_	19	nsubj	_	_
 24	por	por	ADP	ADP	_	25	case	_	_
 25	empenho	empenho	NOUN	NOUN	_	23	nmod	_	_
@@ -162,14 +162,14 @@
 8	cabido	_	ADJ	ADJ	_	7	xcomp	_	_
 9	autorizar	autorizar	VERB	VERB	_	7	csubj	_	_
 10	que	que	CCONJ	CONJ	_	15	mark	_	_
-11	o	o	DET	DET	_	12	det	_	_
+11	o	o	DET	DET	PronType=Art	12	det	_	_
 12	servidor	servidor	NOUN	NOUN	_	15	nsubj:pass	_	_
 13	grevista	grevista	ADJ	ADJ	_	12	amod	_	_
 14	seja	ser	AUX	AUX	_	15	aux:pass	_	_
 15	remunerado	remunerar	VERB	VERB	_	9	ccomp	_	_
 16	mesmo	mesmo	ADV	ADV	_	20	mark	_	_
 17	que	_	CCONJ	CONJ	_	16	fixed	_	_
-18	a	o	DET	DET	_	19	det	_	_
+18	a	o	DET	DET	PronType=Art	19	det	_	_
 19	paralisação	paralisação	NOUN	NOUN	_	20	nsubj	_	_
 20	seja	ser	VERB	VERB	_	7	advcl	_	_
 21	legitima	_	ADJ	ADJ	_	20	xcomp	_	SpaceAfter=No
@@ -177,7 +177,7 @@
 
 # sent_id = train-s5333
 # text = O empréstimo junto ao Bird, parte da dívida externa de Mato Grosso, teve como base legal a Resolução Federal n º 70 de 14/12/1995, a Lei Estadual n º 6.695 de 19/12/1995, o Decreto Estadual n º 752 de 22/01/1996, e o Voto n º 162 / 95 que tratam das operações de crédito voltadas ao apoio a reestruturação e o ajuste fiscal do Estado.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	empréstimo	empréstimo	NOUN	NOUN	_	17	nsubj	_	_
 3	junto	junto	ADV	ADV	_	2	advmod	_	_
 4-5	ao	_	_	_	_	_	_	_	_
@@ -199,7 +199,7 @@
 18	como	como	ADP	ADP	_	19	case	_	_
 19	base	base	NOUN	NOUN	_	17	nmod	_	_
 20	legal	legal	ADJ	ADJ	_	19	amod	_	_
-21	a	o	DET	DET	_	22	det	_	_
+21	a	o	DET	DET	PronType=Art	22	det	_	_
 22	Resolução	_	PROPN	PNOUN	_	17	obj	_	_
 23	Federal	_	PROPN	PNOUN	_	22	amod	_	_
 24	n	n	NOUN	NOUN	_	22	appos	_	_
@@ -208,7 +208,7 @@
 27	de	de	ADP	ADP	_	28	case	_	_
 28	14/12/1995	_	NUM	NUM	NumType=Card	22	nmod	_	SpaceAfter=No
 29	,	,	PUNCT	.	_	31	punct	_	_
-30	a	o	DET	DET	_	31	det	_	_
+30	a	o	DET	DET	PronType=Art	31	det	_	_
 31	Lei	_	PROPN	PNOUN	_	22	conj	_	_
 32	Estadual	_	PROPN	PNOUN	_	31	amod	_	_
 33	n	n	NOUN	NOUN	_	31	appos	_	_
@@ -217,7 +217,7 @@
 36	de	de	ADP	ADP	_	37	case	_	_
 37	19/12/1995	_	NUM	NUM	NumType=Card	31	nmod	_	SpaceAfter=No
 38	,	,	PUNCT	.	_	40	punct	_	_
-39	o	o	DET	DET	_	40	det	_	_
+39	o	o	DET	DET	PronType=Art	40	det	_	_
 40	Decreto	_	PROPN	PNOUN	_	22	conj	_	_
 41	Estadual	_	PROPN	PNOUN	_	40	amod	_	_
 42	n	n	NOUN	NOUN	_	40	appos	_	_
@@ -272,7 +272,7 @@
 9	que	_	PRON	PRON	_	10	nsubj	_	_
 10	trabalham	trabalhar	VERB	VERB	_	4	acl:relcl	_	_
 11	com	com	ADP	ADP	_	13	case	_	_
-12	o	o	DET	DET	_	13	det	_	_
+12	o	o	DET	DET	PronType=Art	13	det	_	_
 13	fornecimento	fornecimento	NOUN	NOUN	_	10	nmod	_	_
 14	de	de	ADP	ADP	_	15	case	_	_
 15	asfalto	asfalto	NOUN	NOUN	_	13	nmod	_	_
@@ -280,7 +280,7 @@
 17	obras	obra	NOUN	NOUN	_	13	nmod	_	_
 18	rodoviárias	rodoviário	ADJ	ADJ	_	17	amod	_	SpaceAfter=No
 19	,	,	PUNCT	.	_	2	punct	_	_
-20	a	o	DET	DET	_	21	det	_	_
+20	a	o	DET	DET	PronType=Art	21	det	_	_
 21	importação	importação	NOUN	NOUN	_	23	nsubj	_	_
 22	tem	ter	AUX	AUX	_	23	aux	_	_
 23	sido	ser	VERB	VERB	_	0	root	_	_
@@ -295,7 +295,7 @@
 31	,	,	PUNCT	.	_	27	punct	_	_
 32	para	_	ADP	ADP	_	33	mark	_	_
 33	suprir	suprir	VERB	VERB	_	23	advcl	_	_
-34	a	o	DET	DET	_	35	det	_	_
+34	a	o	DET	DET	PronType=Art	35	det	_	_
 35	demanda	demanda	NOUN	NOUN	_	33	obj	_	_
 36-37	do	_	_	_	_	_	_	_	_
 36	de	de	ADP	ADP	_	38	case	_	_
@@ -305,7 +305,7 @@
 40	principalmente	principalmente	ADV	ADV	_	49	advmod	_	SpaceAfter=No
 41	,	,	PUNCT	.	_	40	punct	_	_
 42	quando	_	CCONJ	CONJ	_	49	mark	_	_
-43	a	o	DET	DET	_	44	det	_	_
+43	a	o	DET	DET	PronType=Art	44	det	_	_
 44	produção	produção	NOUN	NOUN	_	49	nsubj	_	_
 45-46	da	_	_	_	_	_	_	_	_
 45	de	de	ADP	ADP	_	47	case	_	_
@@ -325,7 +325,7 @@
 1	Dêem	dar	VERB	VERB	_	0	root	_	_
 2	-	-	PUNCT	.	_	1	punct	_	_
 3	me	_	PRON	PRON	_	1	iobj	_	_
-4	o	o	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	PronType=Art	5	det	_	_
 5	direito	direito	NOUN	NOUN	_	1	obj	_	_
 6	que	_	PRON	PRON	_	8	nsubj:pass	_	_
 7	foi	_	AUX	AUX	_	8	aux:pass	_	_
@@ -335,7 +335,7 @@
 11	outros	_	PRON	PRON	_	8	iobj	_	_
 12	de	_	ADP	ADP	_	13	mark	_	_
 13	fazer	fazer	VERB	VERB	_	5	nmod	_	_
-14	a	o	DET	DET	_	16	det	_	_
+14	a	o	DET	DET	PronType=Art	16	det	_	_
 15	minha	_	DET	DET	_	16	det:poss	_	_
 16	defesa	_	NOUN	NOUN	_	13	obj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	1	punct	_	_
@@ -345,7 +345,7 @@
 1	De	_	ADP	ADP	_	2	case	_	_
 2	acordo	acordo	NOUN	NOUN	_	11	nmod	_	_
 3	com	com	ADP	ADP	_	5	case	_	_
-4	o	o	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	PronType=Art	5	det	_	_
 5	HSBC	_	PROPN	PNOUN	_	2	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	2	punct	_	_
 7	esta	_	DET	DET	_	8	det	_	_
@@ -402,7 +402,7 @@
 # sent_id = train-s5338
 # text = Após a conclusão de Longa Jornada Noite Adentro, Hepburn fez uma pausa em sua carreira para cuidar do doente Spencer Tracy.
 1	Após	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	conclusão	conclusão	NOUN	NOUN	_	11	nmod	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
 5	Longa	_	PROPN	PNOUN	_	6	amod	_	_

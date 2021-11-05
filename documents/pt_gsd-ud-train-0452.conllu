@@ -2,7 +2,7 @@
 # text = "Quando a gente faz uma coisa que corresponde ao anseio da sociedade a gente fica feliz", disse.
 1	"	"	PUNCT	.	_	18	punct	_	SpaceAfter=No
 2	Quando	_	CCONJ	CONJ	_	5	mark	_	_
-3	a	o	DET	DET	_	4	det	_	_
+3	a	o	DET	DET	PronType=Art	4	det	_	_
 4	gente	gente	NOUN	NOUN	_	5	nsubj	_	_
 5	faz	fazer	VERB	VERB	_	18	advcl	_	_
 6	uma	um	DET	DET	_	7	det	_	_
@@ -17,7 +17,7 @@
 13	de	de	ADP	ADP	_	15	case	_	_
 14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	sociedade	sociedade	NOUN	NOUN	_	12	nmod	_	_
-16	a	o	DET	DET	_	17	det	_	_
+16	a	o	DET	DET	PronType=Art	17	det	_	_
 17	gente	gente	NOUN	NOUN	_	18	nsubj	_	_
 18	fica	ficar	VERB	VERB	_	22	ccomp	_	_
 19	feliz	feliz	ADJ	ADJ	_	18	xcomp	_	SpaceAfter=No
@@ -32,7 +32,7 @@
 2	Já	já	ADV	ADV	_	4	advmod	_	_
 3	foram	_	AUX	AUX	_	4	aux:pass	_	_
 4	definidas	definir	VERB	VERB	_	0	root	_	_
-5	as	o	DET	DET	_	6	det	_	_
+5	as	o	DET	DET	PronType=Art	6	det	_	_
 6	áreas	área	NOUN	NOUN	_	4	nsubj:pass	_	_
 7	que	_	PRON	PRON	_	9	nsubj	_	_
 8	serão	ser	AUX	AUX	_	9	cop	_	_
@@ -42,7 +42,7 @@
 11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	operação	operação	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	23	punct	_	_
-14	o	o	DET	DET	_	15	det	_	_
+14	o	o	DET	DET	PronType=Art	15	det	_	_
 15	levantamento	levantamento	NOUN	NOUN	_	23	nsubj:pass	_	_
 16-17	dos	_	_	_	_	_	_	_	_
 16	de	de	ADP	ADP	_	18	case	_	_
@@ -73,7 +73,7 @@
 # sent_id = train-s4487
 # text = Para a consultora do Sebrae / PR, Nádia Terumi Joboji, a conquista de Izolde valoriza a cultura e a tradição da Colônia.
 1	Para	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	consultora	consultor	NOUN	NOUN	_	18	nmod	_	_
 4-5	do	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
@@ -86,15 +86,15 @@
 11	Terumi	_	PROPN	PNOUN	_	10	flat	_	_
 12	Joboji	_	PROPN	PNOUN	_	10	flat	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	10	punct	_	_
-14	a	o	DET	DET	_	15	det	_	_
+14	a	o	DET	DET	PronType=Art	15	det	_	_
 15	conquista	conquista	NOUN	NOUN	_	18	nsubj	_	_
 16	de	de	ADP	ADP	_	17	case	_	_
 17	Izolde	_	PROPN	PNOUN	_	15	nmod	_	_
 18	valoriza	valorizar	VERB	VERB	_	0	root	_	_
-19	a	o	DET	DET	_	20	det	_	_
+19	a	o	DET	DET	PronType=Art	20	det	_	_
 20	cultura	cultura	NOUN	NOUN	_	18	obj	_	_
 21	e	e	CCONJ	CONJ	_	23	cc	_	_
-22	a	o	DET	DET	_	23	det	_	_
+22	a	o	DET	DET	PronType=Art	23	det	_	_
 23	tradição	tradição	NOUN	NOUN	_	20	conj	_	_
 24-25	da	_	_	_	_	_	_	_	_
 24	de	de	ADP	ADP	_	26	case	_	_
@@ -123,7 +123,7 @@
 15	a	a	ADP	ADP	_	17	case	_	_
 16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	tráfego	tráfego	NOUN	NOUN	_	14	nmod	_	_
-18	a	o	DET	DET	_	19	det	_	_
+18	a	o	DET	DET	PronType=Art	19	det	_	_
 19	Rodovia	rodovia	NOUN	NOUN	_	12	nsubj:pass	_	_
 20-21	dos	_	_	_	_	_	_	_	_
 20	de	de	ADP	ADP	_	22	case	_	_
@@ -176,11 +176,11 @@
 
 # sent_id = train-s4491
 # text = A maior barreira para a adoção do Windows 8 dentro das empresas, até agora, é a falta de aplicativos na Windows Store para serem executados em novos tablets touchscreen com o sistema operacional, disse Nick Brown, vice - presidente sênior de estratégia móvel da SAP, em entrevista.
-1	A	o	DET	DET	_	3	det	_	_
+1	A	o	DET	DET	PronType=Art	3	det	_	_
 2	maior	maior	ADJ	ADJ	_	3	amod	_	_
 3	barreira	barreira	NOUN	NOUN	_	21	nsubj	_	_
 4	para	para	ADP	ADP	_	6	case	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	adoção	adoção	NOUN	NOUN	_	3	nmod	_	_
 7-8	do	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
@@ -197,7 +197,7 @@
 17	agora	agora	ADV	ADV	_	3	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	.	_	17	punct	_	_
 19	é	ser	AUX	AUX	_	21	cop	_	_
-20	a	o	DET	DET	_	21	det	_	_
+20	a	o	DET	DET	PronType=Art	21	det	_	_
 21	falta	_	NOUN	NOUN	_	40	ccomp	_	_
 22	de	de	ADP	ADP	_	23	case	_	_
 23	aplicativos	aplicativo	NOUN	NOUN	_	21	nmod	_	_
@@ -214,7 +214,7 @@
 33	tablets	_	NOUN	NOUN	_	30	nmod	_	_
 34	touchscreen	_	NOUN	NOUN	_	33	flat	_	_
 35	com	com	ADP	ADP	_	37	case	_	_
-36	o	o	DET	DET	_	37	det	_	_
+36	o	o	DET	DET	PronType=Art	37	det	_	_
 37	sistema	sistema	NOUN	NOUN	_	30	nmod	_	_
 38	operacional	operacional	ADJ	ADJ	_	37	amod	_	SpaceAfter=No
 39	,	,	PUNCT	.	_	40	punct	_	_
@@ -240,7 +240,7 @@
 
 # sent_id = train-s4492
 # text = A expectativa do Santander é que o segundo semestre tenha atividade econômica mais aquecida que no primeiro.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	expectativa	expectativa	NOUN	NOUN	_	0	root	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -248,7 +248,7 @@
 5	Santander	_	PROPN	PNOUN	_	2	nmod	_	_
 6	é	ser	AUX	AUX	_	2	cop	_	_
 7	que	que	CCONJ	CONJ	_	11	mark	_	_
-8	o	o	DET	DET	_	10	det	_	_
+8	o	o	DET	DET	PronType=Art	10	det	_	_
 9	segundo	segundo	ADJ	ADJ	_	10	amod	_	_
 10	semestre	semestre	NOUN	NOUN	_	11	nsubj	_	_
 11	tenha	ter	VERB	VERB	_	2	csubj	_	_
@@ -273,7 +273,7 @@
 
 # sent_id = train-s4494
 # text = A maior parte dessas pessoas -- 1,542 milhão -- está recebendo a restituição do exercício de 2012, que totaliza R $ 1,4 bilhão, valor já corrigido pela taxa Selic de 4,29 %, referente ao período de maio a outubro de 2012.
-1	A	o	DET	DET	_	3	det	_	_
+1	A	o	DET	DET	PronType=Art	3	det	_	_
 2	maior	maior	ADJ	ADJ	_	3	amod	_	_
 3	parte	parte	NOUN	NOUN	_	11	nsubj	_	_
 4	dessas	_	ADP	ADP	_	5	case	_	_
@@ -284,7 +284,7 @@
 9	--	_	PUNCT	.	_	8	punct	_	_
 10	está	estar	AUX	AUX	_	11	aux	_	_
 11	recebendo	receber	VERB	VERB	_	0	root	_	_
-12	a	o	DET	DET	_	13	det	_	_
+12	a	o	DET	DET	PronType=Art	13	det	_	_
 13	restituição	restituição	NOUN	NOUN	_	11	obj	_	_
 14-15	do	_	_	_	_	_	_	_	_
 14	de	de	ADP	ADP	_	16	case	_	_

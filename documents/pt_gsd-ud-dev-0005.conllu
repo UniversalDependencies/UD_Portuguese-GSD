@@ -34,7 +34,7 @@
 12	de	_	ADP	ADP	_	9	fixed	_	_
 13	ter	ter	AUX	AUX	_	14	aux	_	_
 14	absolvido	absolver	VERB	VERB	_	5	advcl	_	_
-15	o	o	DET	DET	_	16	det	_	_
+15	o	o	DET	DET	PronType=Art	16	det	_	_
 16	petista	petista	NOUN	NOUN	_	14	obj	_	_
 17	João	_	PROPN	PNOUN	_	16	appos	_	_
 18	Paulo	_	PROPN	PNOUN	_	17	flat	_	_
@@ -44,10 +44,10 @@
 # sent_id = dev-s43
 # text = Sob a camisa, a barriga começava a despontar.
 1	Sob	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	camisa	camisa	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	barriga	barriga	NOUN	NOUN	_	9	nsubj	_	_
 7	começava	começar	AUX	AUX	_	9	aux	_	_
 8	a	_	ADP	ADP	_	9	mark	_	_
@@ -56,7 +56,7 @@
 
 # sent_id = dev-s44
 # text = A ideia é de que todos desliguem seus celulares.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	ideia	ideia	NOUN	NOUN	_	0	root	_	_
 3	é	ser	AUX	AUX	_	2	cop	_	_
 4	de	_	ADP	ADP	_	7	mark	_	_
@@ -76,10 +76,10 @@
 4	luta	luta	NOUN	NOUN	_	26	nmod	_	_
 5	debilitante	debilitante	ADJ	ADJ	_	4	amod	_	_
 6	para	para	ADP	ADP	_	8	case	_	_
-7	a	o	DET	DET	_	8	det	_	_
+7	a	o	DET	DET	PronType=Art	8	det	_	_
 8	sucessão	sucessão	NOUN	NOUN	_	4	nmod	_	_
 9	entre	_	ADP	ADP	_	11	case	_	_
-10	os	o	DET	DET	_	11	det	_	_
+10	os	o	DET	DET	PronType=Art	11	det	_	_
 11	filhos	filho	NOUN	NOUN	_	8	nmod	_	_
 12	de	de	ADP	ADP	_	13	case	_	_
 13	Sundiata	_	PROPN	PNOUN	_	11	nmod	_	_
@@ -96,7 +96,7 @@
 24	,	,	PUNCT	.	_	4	punct	_	_
 25	Sakoura	_	PROPN	PNOUN	_	26	nsubj	_	_
 26	tomou	tomar	VERB	VERB	_	0	root	_	_
-27	o	o	DET	DET	_	28	det	_	_
+27	o	o	DET	DET	PronType=Art	28	det	_	_
 28	controle	_	NOUN	NOUN	_	26	obj	_	_
 29-30	do	_	_	_	_	_	_	_	_
 29	de	de	ADP	ADP	_	31	case	_	_
@@ -110,7 +110,7 @@
 
 # sent_id = dev-s46
 # text = A situação criaria uma figura estranha do deputado com mandato, mas que passa os dias dentro dum presídio.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	situação	situação	NOUN	NOUN	_	3	nsubj	_	_
 3	criaria	criar	VERB	VERB	_	0	root	_	_
 4	uma	um	DET	DET	_	5	det	_	_
@@ -126,7 +126,7 @@
 13	mas	mas	CCONJ	CONJ	_	15	cc	_	_
 14	que	_	PRON	PRON	_	15	nsubj	_	_
 15	passa	passar	VERB	VERB	_	11	conj	_	_
-16	os	o	DET	DET	_	17	det	_	_
+16	os	o	DET	DET	PronType=Art	17	det	_	_
 17	dias	dia	NOUN	NOUN	_	15	obj	_	_
 18	dentro	dentro	ADV	ADV	_	15	advmod	_	_
 19-20	dum	_	_	_	_	_	_	_	_
@@ -140,7 +140,7 @@
 1	Além	além	ADV	ADV	_	6	advmod	_	_
 2	disso	_	X	ADPPRON	_	1	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	1	punct	_	_
-4	os	o	DET	DET	_	5	det	_	_
+4	os	o	DET	DET	PronType=Art	5	det	_	_
 5	investidores	investidor	NOUN	NOUN	_	6	nsubj	_	_
 6	esperam	esperar	VERB	VERB	_	0	root	_	_
 7	cautelosos	cauteloso	ADJ	ADJ	_	6	xcomp	_	_
@@ -221,7 +221,7 @@
 5	em	em	ADP	ADP	_	7	case	_	_
 6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	sábado	_	PROPN	PNOUN	_	3	conj	_	_
-8	o	o	DET	DET	_	9	det	_	_
+8	o	o	DET	DET	PronType=Art	9	det	_	_
 9	evento	evento	NOUN	NOUN	_	10	nsubj	_	_
 10	começa	_	VERB	VERB	_	0	root	_	_
 11-12	às	_	_	_	_	_	_	_	_
@@ -247,7 +247,7 @@
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	entanto	entanto	ADV	ADV	_	17	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
-5	o	o	DET	DET	_	6	det	_	_
+5	o	o	DET	DET	PronType=Art	6	det	_	_
 6	número	número	NOUN	NOUN	_	17	nsubj	_	_
 7	de	de	ADP	ADP	_	8	case	_	_
 8	pessoas	pessoa	NOUN	NOUN	_	6	nmod	_	_
@@ -255,7 +255,7 @@
 10	passaram	passar	AUX	AUX	_	12	aux	_	_
 11	a	_	ADP	ADP	_	12	mark	_	_
 12	integrar	integrar	VERB	VERB	_	8	acl:relcl	_	_
-13	a	o	DET	DET	_	14	det	_	_
+13	a	o	DET	DET	PronType=Art	14	det	_	_
 14	força	força	NOUN	NOUN	_	12	obj	_	_
 15	de	de	ADP	ADP	_	16	case	_	_
 16	trabalho	trabalho	NOUN	NOUN	_	14	nmod	_	_

@@ -1,6 +1,6 @@
 # sent_id = train-s2721
 # text = A característica da equipe, priorizando o coletivo ao invés do individual, "é muito difícil de implantar" no campo da informática, declarou o produtor do jogo, o colombiano Santiago Jaramillo, à agência Efe, na sede da Electronics Arts (EA), fabricante do jogo, em Vancouver, no Canadá.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	característica	_	NOUN	NOUN	_	18	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -8,7 +8,7 @@
 5	equipe	equipe	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	7	punct	_	_
 7	priorizando	_	VERB	VERB	_	2	acl	_	_
-8	o	o	DET	DET	_	9	det	_	_
+8	o	o	DET	DET	PronType=Art	9	det	_	_
 9	coletivo	coletivo	NOUN	NOUN	_	7	obj	_	_
 10-11	ao	_	_	_	_	_	_	_	_
 10	a	a	ADP	ADP	_	12	case	_	_
@@ -36,14 +36,14 @@
 29	informática	_	NOUN	NOUN	_	26	nmod	_	SpaceAfter=No
 30	,	,	PUNCT	.	_	18	punct	_	_
 31	declarou	declarar	VERB	VERB	_	0	root	_	_
-32	o	o	DET	DET	_	33	det	_	_
+32	o	o	DET	DET	PronType=Art	33	det	_	_
 33	produtor	produtor	NOUN	NOUN	_	31	nsubj	_	_
 34-35	do	_	_	_	_	_	_	_	_
 34	de	de	ADP	ADP	_	36	case	_	_
 35	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 36	jogo	jogo	NOUN	NOUN	_	33	nmod	_	SpaceAfter=No
 37	,	,	PUNCT	.	_	39	punct	_	_
-38	o	o	DET	DET	_	39	det	_	_
+38	o	o	DET	DET	PronType=Art	39	det	_	_
 39	colombiano	colombiano	NOUN	NOUN	_	33	appos	_	_
 40	Santiago	_	PROPN	PNOUN	_	39	appos	_	_
 41	Jaramillo	_	PROPN	PNOUN	_	40	flat	_	SpaceAfter=No
@@ -96,7 +96,7 @@
 9	capital	capital	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	6	punct	_	_
 11	todas	_	DET	DET	_	13	det	_	_
-12	as	o	DET	DET	_	13	det	_	_
+12	as	o	DET	DET	PronType=Art	13	det	_	_
 13	unidades	unidade	NOUN	NOUN	_	18	nsubj	_	_
 14-15	do	_	_	_	_	_	_	_	_
 14	de	de	ADP	ADP	_	16	case	_	_
@@ -157,7 +157,7 @@
 1	Mirelles	_	PROPN	PNOUN	_	2	nsubj	_	_
 2	comentou	comentar	VERB	VERB	_	0	root	_	_
 3	também	também	ADV	ADV	_	2	advmod	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	questão	questão	NOUN	NOUN	_	2	obj	_	_
 6-7	do	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	8	case	_	_
@@ -166,7 +166,7 @@
 9	e	e	CCONJ	CONJ	_	10	cc	_	_
 10	afirmou	afirmar	VERB	VERB	_	2	conj	_	_
 11	que	que	CCONJ	CONJ	_	15	mark	_	_
-12	o	o	DET	DET	_	13	det	_	_
+12	o	o	DET	DET	PronType=Art	13	det	_	_
 13	Brasil	_	PROPN	PNOUN	_	15	nsubj	_	_
 14	não	não	ADV	ADV	Polarity=Neg	15	advmod	_	_
 15	viveu	viver	VERB	VERB	_	10	ccomp	_	_
@@ -181,7 +181,7 @@
 3	M	_	PROPN	PNOUN	_	1	conj	_	_
 4	_	_	PUNCT	.	_	1	punct	_	_
 5	Qual	_	DET	DET	_	7	det	_	_
-6	a	o	DET	DET	_	7	det	_	_
+6	a	o	DET	DET	PronType=Art	7	det	_	_
 7	participação	participação	NOUN	NOUN	_	0	root	_	_
 8-9	do	_	_	_	_	_	_	_	_
 8	de	de	ADP	ADP	_	10	case	_	_
@@ -202,7 +202,7 @@
 
 # sent_id = train-s2728
 # text = Os agradecimentos são infinitos ", disse.
-1	Os	o	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	PronType=Art	2	det	_	_
 2	agradecimentos	agradecimento	NOUN	NOUN	_	3	nsubj	_	_
 3	são	ser	VERB	VERB	_	7	ccomp	_	_
 4	infinitos	infinito	ADJ	ADJ	_	3	xcomp	_	_
@@ -215,7 +215,7 @@
 # text = Confira abaixo o vídeo divulgado pela Força de Defesa de Israel com o momento exato do ataque que matou o comandante militar do Hamas, Ahmed Jabari.
 1	Confira	conferir	VERB	VERB	_	0	root	_	_
 2	abaixo	abaixo	ADV	ADV	_	1	advmod	_	_
-3	o	o	DET	DET	_	4	det	_	_
+3	o	o	DET	DET	PronType=Art	4	det	_	_
 4	vídeo	vídeo	NOUN	NOUN	_	1	obj	_	_
 5	divulgado	divulgar	VERB	VERB	_	4	acl	_	_
 6-7	pela	_	_	_	_	_	_	_	_
@@ -227,7 +227,7 @@
 11	de	de	ADP	ADP	_	12	case	_	_
 12	Israel	_	PROPN	PNOUN	_	8	nmod	_	_
 13	com	com	ADP	ADP	_	15	case	_	_
-14	o	o	DET	DET	_	15	det	_	_
+14	o	o	DET	DET	PronType=Art	15	det	_	_
 15	momento	momento	NOUN	NOUN	_	4	nmod	_	_
 16	exato	exato	ADJ	ADJ	_	15	amod	_	_
 17-18	do	_	_	_	_	_	_	_	_
@@ -236,7 +236,7 @@
 19	ataque	ataque	NOUN	NOUN	_	15	nmod	_	_
 20	que	_	PRON	PRON	_	21	nsubj	_	_
 21	matou	matar	VERB	VERB	_	19	acl:relcl	_	_
-22	o	o	DET	DET	_	23	det	_	_
+22	o	o	DET	DET	PronType=Art	23	det	_	_
 23	comandante	comandante	NOUN	NOUN	_	21	obj	_	_
 24	militar	militar	ADJ	ADJ	_	23	amod	_	_
 25-26	do	_	_	_	_	_	_	_	_

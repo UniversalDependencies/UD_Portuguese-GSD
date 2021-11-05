@@ -1,6 +1,6 @@
 # sent_id = train-s431
 # text = O governo vai destinar recursos para comprar equipamento de ginástica para São Paulo?
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	governo	governo	NOUN	NOUN	_	4	nsubj	_	_
 3	vai	ir	AUX	AUX	_	4	aux	_	_
 4	destinar	destinar	VERB	VERB	_	0	root	_	_
@@ -36,7 +36,7 @@
 15	,	,	PUNCT	.	_	16	punct	_	_
 16	explicando	explicar	VERB	VERB	_	11	acl	_	_
 17	que	que	CCONJ	CONJ	_	21	mark	_	_
-18	a	o	DET	DET	_	19	det	_	_
+18	a	o	DET	DET	PronType=Art	19	det	_	_
 19	decisão	decisão	NOUN	NOUN	_	21	nsubj	_	_
 20	final	final	ADJ	ADJ	_	19	amod	_	_
 21	seria	_	VERB	VERB	_	16	ccomp	_	_
@@ -58,12 +58,12 @@
 
 # sent_id = train-s434
 # text = O ministério já negocia com a Petrobrás ação semelhante.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	ministério	ministério	NOUN	NOUN	_	4	nsubj	_	_
 3	já	já	ADV	ADV	_	4	advmod	_	_
 4	negocia	negociar	VERB	VERB	_	0	root	_	_
 5	com	com	ADP	ADP	_	7	case	_	_
-6	a	o	DET	DET	_	7	det	_	_
+6	a	o	DET	DET	PronType=Art	7	det	_	_
 7	Petrobrás	_	PROPN	PNOUN	_	4	nmod	_	_
 8	ação	ação	NOUN	NOUN	_	4	obj	_	_
 9	semelhante	semelhante	ADJ	ADJ	_	8	amod	_	SpaceAfter=No
@@ -87,7 +87,7 @@
 # sent_id = train-s436
 # text = E os meus pais são muito legais também, assim como os dele.
 1	E	_	CCONJ	CONJ	_	5	cc	_	_
-2	os	o	DET	DET	_	4	det	_	_
+2	os	o	DET	DET	PronType=Art	4	det	_	_
 3	meus	_	DET	DET	_	4	det:poss	_	_
 4	pais	_	NOUN	NOUN	_	5	nsubj	_	_
 5	são	ser	VERB	VERB	_	0	root	_	_
@@ -107,7 +107,7 @@
 2	eles	_	PRON	PRON	_	6	nsubj	_	_
 3	não	não	ADV	ADV	Polarity=Neg	6	advmod	_	_
 4	são	ser	AUX	AUX	_	6	cop	_	_
-5	os	o	DET	DET	_	6	det	_	_
+5	os	o	DET	DET	PronType=Art	6	det	_	_
 6	únicos	único	NOUN	NOUN	_	0	root	_	_
 7	que	_	PRON	PRON	_	8	nsubj	_	_
 8	querem	querer	VERB	VERB	_	6	acl:relcl	_	_
@@ -116,14 +116,14 @@
 
 # sent_id = train-s438
 # text = Os estímulos são determinados de acordo com o perfil de audição dos dois ouvidos para que todas as áreas da cóclea sejam estimuladas o tempo todo \ ", observa.
-1	Os	o	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	PronType=Art	2	det	_	_
 2	estímulos	estímulo	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	são	ser	AUX	AUX	_	4	aux:pass	_	_
 4	determinados	determinar	VERB	VERB	_	32	ccomp	_	_
 5	de	de	ADP	ADP	_	6	case	_	_
 6	acordo	acordo	NOUN	NOUN	_	4	nmod	_	_
 7	com	com	ADP	ADP	_	9	case	_	_
-8	o	o	DET	DET	_	9	det	_	_
+8	o	o	DET	DET	PronType=Art	9	det	_	_
 9	perfil	perfil	NOUN	NOUN	_	6	nmod	_	_
 10	de	de	ADP	ADP	_	11	case	_	_
 11	audição	audição	NOUN	NOUN	_	9	nmod	_	_
@@ -135,7 +135,7 @@
 16	para	_	ADP	ADP	_	25	mark	_	_
 17	que	_	CCONJ	CONJ	_	16	fixed	_	_
 18	todas	_	DET	DET	_	20	det	_	_
-19	as	o	DET	DET	_	20	det	_	_
+19	as	o	DET	DET	PronType=Art	20	det	_	_
 20	áreas	área	NOUN	NOUN	_	25	nsubj:pass	_	_
 21-22	da	_	_	_	_	_	_	_	_
 21	de	de	ADP	ADP	_	23	case	_	_
@@ -143,7 +143,7 @@
 23	cóclea	cóclea	NOUN	NOUN	_	20	nmod	_	_
 24	sejam	ser	AUX	AUX	_	25	aux:pass	_	_
 25	estimuladas	estimular	VERB	VERB	_	4	advcl	_	_
-26	o	o	DET	DET	_	27	det	_	_
+26	o	o	DET	DET	PronType=Art	27	det	_	_
 27	tempo	tempo	NOUN	NOUN	_	25	nmod	_	_
 28	todo	todo	ADJ	ADJ	_	27	amod	_	_
 29	\	_	PUNCT	.	_	4	punct	_	_
@@ -168,7 +168,7 @@
 12	,	,	PUNCT	.	_	8	punct	_	_
 13	saiu	sair	VERB	VERB	_	0	root	_	_
 14	com	com	ADP	ADP	_	16	case	_	_
-15	as	o	DET	DET	_	16	det	_	_
+15	as	o	DET	DET	PronType=Art	16	det	_	_
 16	mãos	mão	NOUN	NOUN	_	13	nmod	_	_
 17	vazias	vazio	ADJ	ADJ	_	16	amod	_	_
 18-19	da	_	_	_	_	_	_	_	_
@@ -202,7 +202,7 @@
 5	de	de	ADP	ADP	_	9	case	_	_
 6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 7	que	_	ADP	ADP	_	5	fixed	_	_
-8	o	o	DET	DET	_	9	det	_	_
+8	o	o	DET	DET	PronType=Art	9	det	_	_
 9	índice	índice	NOUN	NOUN	_	4	nmod	_	_
 10	obtido	obter	VERB	VERB	_	9	acl	_	_
 11-12	no	_	_	_	_	_	_	_	_

@@ -1,7 +1,7 @@
 # sent_id = test-s786
 # text = "O Grêmio, pela primeira vez na sua história, conseguiu avançar de fase na Sul - Americana.
 1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
-2	O	o	DET	DET	_	3	det	_	_
+2	O	o	DET	DET	PronType=Art	3	det	_	_
 3	Grêmio	_	PROPN	PNOUN	_	14	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	8	punct	_	_
 5-6	pela	_	_	_	_	_	_	_	_
@@ -41,7 +41,7 @@
 10	,	,	PUNCT	.	_	12	punct	_	_
 11	mas	mas	CCONJ	CONJ	_	12	cc	_	_
 12	perdeu	perder	VERB	VERB	_	2	conj	_	_
-13	a	o	DET	DET	_	14	det	_	_
+13	a	o	DET	DET	PronType=Art	14	det	_	_
 14	bola	bola	NOUN	NOUN	_	12	obj	_	_
 15	próximo	próximo	ADV	ADV	_	12	advmod	_	_
 16-17	à	_	_	_	_	_	_	_	_
@@ -63,7 +63,7 @@
 
 # sent_id = test-s789
 # text = A prova é disputada em pista e leva 25 voltas na pista de 400 metros.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	prova	prova	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	é	ser	AUX	AUX	_	4	aux:pass	_	_
 4	disputada	disputar	VERB	VERB	_	0	root	_	_
@@ -99,11 +99,11 @@
 4	Nandissimaaa	_	PROPN	PNOUN	_	1	flat	_	_
 5	Verificamos	verificar	VERB	VERB	_	0	root	_	_
 6	todos	_	DET	DET	_	8	det	_	_
-7	os	o	DET	DET	_	8	det	_	_
+7	os	o	DET	DET	PronType=Art	8	det	_	_
 8	serviços	serviço	NOUN	NOUN	_	5	obj	_	_
 9	e	e	CCONJ	CONJ	_	19	cc	_	_
 10	somente	somente	ADV	ADV	_	12	advmod	_	_
-11	a	o	DET	DET	_	12	det	_	_
+11	a	o	DET	DET	PronType=Art	12	det	_	_
 12	emissão	emissão	NOUN	NOUN	_	19	nsubj	_	_
 13	de	de	ADP	ADP	_	14	case	_	_
 14	atestado	atestado	NOUN	NOUN	_	12	nmod	_	_
@@ -118,7 +118,7 @@
 # sent_id = test-s792
 # text = "A taxa de investimento era pequena, porque a estratégia para combater a inflação penalizava o investimento produtivo", lembrou.
 1	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
-2	A	o	DET	DET	_	3	det	_	_
+2	A	o	DET	DET	PronType=Art	3	det	_	_
 3	taxa	taxa	NOUN	NOUN	_	6	nsubj	_	_
 4	de	de	ADP	ADP	_	5	case	_	_
 5	investimento	investimento	NOUN	NOUN	_	3	nmod	_	_
@@ -126,14 +126,14 @@
 7	pequena	pequeno	ADJ	ADJ	_	6	xcomp	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	16	punct	_	_
 9	porque	_	CCONJ	CONJ	_	16	mark	_	_
-10	a	o	DET	DET	_	11	det	_	_
+10	a	o	DET	DET	PronType=Art	11	det	_	_
 11	estratégia	estratégia	NOUN	NOUN	_	16	nsubj	_	_
 12	para	_	ADP	ADP	_	13	mark	_	_
 13	combater	combater	VERB	VERB	_	11	nmod	_	_
-14	a	o	DET	DET	_	15	det	_	_
+14	a	o	DET	DET	PronType=Art	15	det	_	_
 15	inflação	inflação	NOUN	NOUN	_	13	obj	_	_
 16	penalizava	penalizar	VERB	VERB	_	6	advcl	_	_
-17	o	o	DET	DET	_	18	det	_	_
+17	o	o	DET	DET	PronType=Art	18	det	_	_
 18	investimento	investimento	NOUN	NOUN	_	16	obj	_	_
 19	produtivo	produtivo	ADJ	ADJ	_	18	amod	_	SpaceAfter=No
 20	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
@@ -214,20 +214,20 @@
 1	Ele	_	PRON	PRON	_	2	nsubj	_	_
 2	garantiu	garantir	VERB	VERB	_	0	root	_	_
 3	que	que	CCONJ	CONJ	_	7	mark	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	recusa	recusa	NOUN	NOUN	_	7	nsubj	_	_
 6	não	não	ADV	ADV	Polarity=Neg	7	advmod	_	_
 7	tem	ter	VERB	VERB	_	2	ccomp	_	_
 8	a	_	ADP	ADP	_	9	mark	_	_
 9	ver	ver	VERB	VERB	_	7	nmod	_	_
 10	com	com	ADP	ADP	_	12	case	_	_
-11	as	o	DET	DET	_	12	det	_	_
+11	as	o	DET	DET	PronType=Art	12	det	_	_
 12	provocações	provocação	NOUN	NOUN	_	9	nmod	_	_
 13	que	_	PRON	PRON	_	16	obj	_	_
 14	Madonna	_	PROPN	PNOUN	_	16	nsubj	_	_
 15	costuma	costumar	AUX	AUX	_	16	aux	_	_
 16	direcionar	direcionar	VERB	VERB	_	12	acl:relcl	_	_
-17	a	o	DET	DET	_	18	det	_	_
+17	a	o	DET	DET	PronType=Art	18	det	_	_
 18	Gaga	_	PROPN	PNOUN	_	16	iobj	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	2	punct	_	_
 

@@ -1,6 +1,6 @@
 # sent_id = train-s2224
 # text = A Agência Nacional de Vigilância Sanitária (ANVISA) determina que todas as vezes que um produto tiver na sua composição ureia em dosagens maiores que 3 %, o rótulo deve ter o seguinte alerta: "Não utilizar durante a gravidez".
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	Agência	_	PROPN	PNOUN	_	10	nsubj	_	_
 3	Nacional	_	PROPN	PNOUN	_	2	amod	_	_
 4	de	de	ADP	ADP	_	5	case	_	_
@@ -31,11 +31,11 @@
 28	3	_	NUM	NUM	NumType=Card	29	nummod	_	_
 29	%	_	SYM	SYM	_	26	nmod	_	SpaceAfter=No
 30	,	,	PUNCT	.	_	18	punct	_	_
-31	o	o	DET	DET	_	32	det	_	_
+31	o	o	DET	DET	PronType=Art	32	det	_	_
 32	rótulo	rótulo	NOUN	NOUN	_	34	nsubj	_	_
 33	deve	dever	AUX	AUX	_	34	aux	_	_
 34	ter	ter	VERB	VERB	_	10	ccomp	_	_
-35	o	o	DET	DET	_	37	det	_	_
+35	o	o	DET	DET	PronType=Art	37	det	_	_
 36	seguinte	seguinte	ADJ	ADJ	_	37	amod	_	_
 37	alerta	alerta	NOUN	NOUN	_	34	obj	_	SpaceAfter=No
 38	:	:	PUNCT	.	_	34	punct	_	_
@@ -43,14 +43,14 @@
 40	Não	não	ADV	ADV	Polarity=Neg	41	advmod	_	_
 41	utilizar	utilizar	VERB	VERB	_	34	parataxis	_	_
 42	durante	_	ADP	ADP	_	44	case	_	_
-43	a	o	DET	DET	_	44	det	_	_
+43	a	o	DET	DET	PronType=Art	44	det	_	_
 44	gravidez	gravidez	NOUN	NOUN	_	41	nmod	_	SpaceAfter=No
 45	"	"	PUNCT	.	_	41	punct	_	SpaceAfter=No
 46	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s2225a
 # text = A região já era habitada por mestiços de índio quando os italianos começaram a chegar, em 1940.http :/ / www.sc.gov.br/portalturismo/Default.asp?CodMunicipio=386&amp;Pag=2
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	região	região	NOUN	NOUN	_	5	nsubj:pass	_	_
 3	já	já	ADV	ADV	_	5	advmod	_	_
 4	era	_	AUX	AUX	_	5	aux:pass	_	_
@@ -60,7 +60,7 @@
 8	de	de	ADP	ADP	_	9	case	_	_
 9	índio	índio	NOUN	NOUN	_	7	nmod	_	_
 10	quando	_	CCONJ	CONJ	_	15	mark	_	_
-11	os	o	DET	DET	_	12	det	_	_
+11	os	o	DET	DET	PronType=Art	12	det	_	_
 12	italianos	italiano	NOUN	NOUN	_	15	nsubj	_	_
 13	começaram	começar	AUX	AUX	_	15	aux	_	_
 14	a	_	ADP	ADP	_	15	mark	_	_
@@ -127,7 +127,7 @@
 # sent_id = train-s2227
 # text = Agora os dirigentes tentam atuar como mediadores no conflito para buscar uma solução que satisfaça a todos, embora o futuro permaneça incerto.
 1	Agora	agora	ADV	ADV	_	4	advmod	_	_
-2	os	o	DET	DET	_	3	det	_	_
+2	os	o	DET	DET	PronType=Art	3	det	_	_
 3	dirigentes	dirigente	NOUN	NOUN	_	4	nsubj	_	_
 4	tentam	tentar	VERB	VERB	_	0	root	_	_
 5	atuar	atuar	VERB	VERB	_	4	xcomp	_	_
@@ -147,7 +147,7 @@
 18	todos	_	PRON	PRON	_	16	obj	_	SpaceAfter=No
 19	,	,	PUNCT	.	_	23	punct	_	_
 20	embora	_	CCONJ	CONJ	_	23	mark	_	_
-21	o	o	DET	DET	_	22	det	_	_
+21	o	o	DET	DET	PronType=Art	22	det	_	_
 22	futuro	futuro	NOUN	NOUN	_	23	nsubj	_	_
 23	permaneça	permanecer	VERB	VERB	_	4	advcl	_	_
 24	incerto	incerto	ADJ	ADJ	_	23	xcomp	_	SpaceAfter=No
@@ -155,14 +155,14 @@
 
 # sent_id = train-s2228
 # text = O Rio Negro, não conformado com a goleada sofrida, pediu revanche, chamando o jogo para o seu campo, localizado na Rua São Borja, impondo ainda uma condição: o centroavante Sílvio Machado, do Santa Cruz, não poderia atuar, porque tinha sido o melhor jogador em campo na primeira partida, tendo marcado 5 dos 7 gols do Santa Cruz.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	Rio	_	PROPN	PNOUN	_	12	nsubj	_	_
 3	Negro	_	PROPN	PNOUN	_	2	amod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	6	punct	_	_
 5	não	não	ADV	ADV	Polarity=Neg	6	advmod	_	_
 6	conformado	conformar	VERB	VERB	_	2	acl	_	_
 7	com	com	ADP	ADP	_	9	case	_	_
-8	a	o	DET	DET	_	9	det	_	_
+8	a	o	DET	DET	PronType=Art	9	det	_	_
 9	goleada	goleada	NOUN	NOUN	_	6	nmod	_	_
 10	sofrida	sofrer	VERB	VERB	_	9	acl	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	6	punct	_	_
@@ -170,10 +170,10 @@
 13	revanche	revanche	NOUN	NOUN	_	12	obj	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	15	punct	_	_
 15	chamando	chamar	VERB	VERB	_	12	acl	_	_
-16	o	o	DET	DET	_	17	det	_	_
+16	o	o	DET	DET	PronType=Art	17	det	_	_
 17	jogo	jogo	NOUN	NOUN	_	15	obj	_	_
 18	para	para	ADP	ADP	_	21	case	_	_
-19	o	o	DET	DET	_	21	det	_	_
+19	o	o	DET	DET	PronType=Art	21	det	_	_
 20	seu	_	DET	DET	_	21	det:poss	_	_
 21	campo	campo	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	.	_	23	punct	_	_
@@ -190,7 +190,7 @@
 32	uma	um	DET	DET	_	33	det	_	_
 33	condição	condição	NOUN	NOUN	_	30	obj	_	SpaceAfter=No
 34	:	:	PUNCT	.	_	30	punct	_	_
-35	o	o	DET	DET	_	36	det	_	_
+35	o	o	DET	DET	PronType=Art	36	det	_	_
 36	centroavante	centroavante	NOUN	NOUN	_	47	nsubj	_	_
 37	Sílvio	_	PROPN	PNOUN	_	36	appos	_	_
 38	Machado	_	PROPN	PNOUN	_	37	flat	_	SpaceAfter=No
@@ -208,7 +208,7 @@
 49	porque	_	CCONJ	CONJ	_	54	mark	_	_
 50	tinha	ter	AUX	AUX	_	54	aux	_	_
 51	sido	ser	AUX	AUX	_	54	cop	_	_
-52	o	o	DET	DET	_	54	det	_	_
+52	o	o	DET	DET	PronType=Art	54	det	_	_
 53	melhor	melhor	ADJ	ADJ	_	54	amod	_	_
 54	jogador	jogador	NOUN	NOUN	_	47	advcl	_	_
 55	em	em	ADP	ADP	_	56	case	_	_
@@ -249,10 +249,10 @@
 9	são	ser	AUX	AUX	_	10	cop	_	_
 10	opções	opção	NOUN	NOUN	_	7	acl:relcl	_	_
 11	para	para	ADP	ADP	_	13	case	_	_
-12	o	o	DET	DET	_	13	det	_	_
+12	o	o	DET	DET	PronType=Art	13	det	_	_
 13	comandante	comandante	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	3	punct	_	_
-15	o	o	DET	DET	_	16	det	_	_
+15	o	o	DET	DET	PronType=Art	16	det	_	_
 16	meio	meio	NOUN	NOUN	_	20	nsubj	_	_
 17	-	-	PUNCT	.	_	16	punct	_	_
 18	campista	campista	NOUN	NOUN	_	16	flat	_	_
@@ -278,7 +278,7 @@
 36	)	)	PUNCT	.	_	35	punct	_	SpaceAfter=No
 37	,	,	PUNCT	.	_	40	punct	_	_
 38	contra	_	ADP	ADP	_	40	case	_	_
-39	o	o	DET	DET	_	40	det	_	_
+39	o	o	DET	DET	PronType=Art	40	det	_	_
 40	Coritiba	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
 41	,	,	PUNCT	.	_	44	punct	_	_
 42-43	pela	_	_	_	_	_	_	_	_
@@ -332,7 +332,7 @@
 3	planejamento	planejamento	NOUN	NOUN	_	7	nmod	_	_
 4	inicial	inicial	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	3	punct	_	_
-6	a	o	DET	DET	_	7	det	_	_
+6	a	o	DET	DET	PronType=Art	7	det	_	_
 7	prioridade	prioridade	NOUN	NOUN	_	0	root	_	_
 8	é	ser	AUX	AUX	_	7	cop	_	_
 9	incluir	incluir	VERB	VERB	_	7	csubj	_	_
@@ -344,17 +344,17 @@
 14	produtos	produto	NOUN	NOUN	_	12	nmod	_	_
 15	comercializados	comercializar	VERB	VERB	_	14	acl	_	_
 16	entre	_	ADP	ADP	_	18	case	_	_
-17	a	o	DET	DET	_	18	det	_	_
+17	a	o	DET	DET	PronType=Art	18	det	_	_
 18	Venezuela	_	PROPN	PNOUN	_	15	nmod	_	_
 19	e	e	CCONJ	CONJ	_	22	cc	_	_
-20	os	o	DET	DET	_	22	det	_	_
+20	os	o	DET	DET	PronType=Art	22	det	_	_
 21	demais	_	DET	DET	_	22	det	_	_
 22	integrantes	_	NOUN	NOUN	_	18	conj	_	_
 23-24	do	_	_	_	_	_	_	_	_
 23	de	de	ADP	ADP	_	25	case	_	_
 24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	bloco	bloco	NOUN	NOUN	_	22	nmod	_	_
-26	as	o	DET	DET	_	27	det	_	_
+26	as	o	DET	DET	PronType=Art	27	det	_	_
 27	mercadorias	mercadoria	NOUN	NOUN	_	9	obj	_	_
 28	cujas	_	DET	DET	_	29	det	_	_
 29	taxas	taxa	NOUN	NOUN	_	30	nsubj	_	_
@@ -393,7 +393,7 @@
 10	que	_	PRON	PRON	_	12	nsubj	_	_
 11	iriam	_	AUX	AUX	_	12	aux	_	_
 12	compor	compor	VERB	VERB	_	6	acl:relcl	_	_
-13	o	o	DET	DET	_	15	det	_	_
+13	o	o	DET	DET	PronType=Art	15	det	_	_
 14	seu	_	DET	DET	_	15	det:poss	_	_
 15	visual	_	NOUN	NOUN	_	12	obj	_	_
 16	de	de	ADP	ADP	_	17	case	_	_

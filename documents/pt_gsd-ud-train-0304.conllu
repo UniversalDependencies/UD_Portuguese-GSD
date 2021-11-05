@@ -29,7 +29,7 @@
 
 # sent_id = train-s3019
 # text = O outro acidente, também na Estrada do Sapopemba, deixou cinco pessoas feridas.
-1	O	o	DET	DET	_	3	det	_	_
+1	O	o	DET	DET	PronType=Art	3	det	_	_
 2	outro	_	DET	DET	_	3	det	_	_
 3	acidente	acidente	NOUN	NOUN	_	13	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	8	punct	_	_
@@ -51,11 +51,11 @@
 
 # sent_id = train-s3020
 # text = As inscrições seguem até o dia 29 de agosto e o curso acontece entre os dias 31 de agosto a 29 de setembro, todas as sextas - feiras, das 18h45 às 21h45, na Oficina Cultural "Grande Otelo", mesmo local onde deve ser realizada a inscrição para o workshop.
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	PronType=Art	2	det	_	_
 2	inscrições	inscrição	NOUN	NOUN	_	3	nsubj	_	_
 3	seguem	_	VERB	VERB	_	0	root	_	_
 4	até	_	ADP	ADP	_	6	case	_	_
-5	o	o	DET	DET	_	6	det	_	_
+5	o	o	DET	DET	PronType=Art	6	det	_	_
 6	dia	dia	NOUN	NOUN	_	3	nmod	_	_
 7	29	_	NUM	NUM	NumType=Card	6	appos	_	_
 8	de	de	ADP	ADP	_	9	case	_	_
@@ -65,7 +65,7 @@
 12	curso	curso	NOUN	NOUN	_	13	nsubj	_	_
 13	acontece	acontecer	VERB	VERB	_	3	conj	_	_
 14	entre	_	ADP	ADP	_	16	case	_	_
-15	os	o	DET	DET	_	16	det	_	_
+15	os	o	DET	DET	PronType=Art	16	det	_	_
 16	dias	dia	NOUN	NOUN	_	13	nmod	_	_
 17	31	_	NUM	NUM	NumType=Card	16	appos	_	_
 18	de	de	ADP	ADP	_	19	case	_	_
@@ -76,7 +76,7 @@
 23	setembro	_	PROPN	PNOUN	_	21	nmod	_	SpaceAfter=No
 24	,	,	PUNCT	.	_	13	punct	_	_
 25	todas	_	DET	DET	_	29	det	_	_
-26	as	o	DET	DET	_	29	det	_	_
+26	as	o	DET	DET	PronType=Art	29	det	_	_
 27	sextas	_	ADJ	ADJ	_	29	amod	_	_
 28	-	-	PUNCT	.	_	29	punct	_	_
 29	feiras	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
@@ -109,13 +109,13 @@
 53	a	_	ADP	ADP	_	54	nmod	_	_
 54	inscrição	inscrição	NOUN	NOUN	_	52	nsubj:pass	_	_
 55	para	para	ADP	ADP	_	57	case	_	_
-56	o	o	DET	DET	_	57	det	_	_
+56	o	o	DET	DET	PronType=Art	57	det	_	_
 57	workshop	workshop	NOUN	NOUN	_	54	nmod	_	SpaceAfter=No
 58	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s3021
 # text = O Campeonato Brasileiro de Endurance possui mais duas datas em seu calendário: 4 de novembro e 2 de dezembro.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	Campeonato	_	PROPN	PNOUN	_	6	nsubj	_	_
 3	Brasileiro	_	PROPN	PNOUN	_	2	amod	_	_
 4	de	de	ADP	ADP	_	5	case	_	_
@@ -139,7 +139,7 @@
 
 # sent_id = train-s3022
 # text = O Galo partiu para cima.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	Galo	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	partiu	partir	VERB	VERB	_	0	root	_	_
 4	para	para	ADP	ADP	_	5	case	_	_
@@ -153,13 +153,13 @@
 3	se	_	PRON	PRON	_	4	expl:pv	_	_
 4	viam	ver	VERB	VERB	_	0	root	_	_
 5	mais	mais	ADV	ADV	_	4	advmod	_	_
-6	a	o	DET	DET	_	8	det	_	_
+6	a	o	DET	DET	PronType=Art	8	det	_	_
 7	boas	bom	ADJ	ADJ	_	8	amod	_	_
 8	trocas	_	NOUN	NOUN	_	4	nsubj	_	_
 9	de	de	ADP	ADP	_	10	case	_	_
 10	passes	passe	NOUN	NOUN	_	8	nmod	_	_
 11	e	e	CCONJ	CONJ	_	13	cc	_	_
-12	as	o	DET	DET	_	13	det	_	_
+12	as	o	DET	DET	PronType=Art	13	det	_	_
 13	oportunidades	oportunidade	NOUN	NOUN	_	8	conj	_	_
 14	claras	claro	ADJ	ADJ	_	13	amod	_	_
 15	de	de	ADP	ADP	_	16	case	_	_
@@ -193,7 +193,7 @@
 9	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
 10	Deputados	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	3	punct	_	_
-12	o	o	DET	DET	_	13	det	_	_
+12	o	o	DET	DET	PronType=Art	13	det	_	_
 13	ministro	ministro	NOUN	NOUN	_	16	nsubj	_	_
 14	Mercadante	_	PROPN	PNOUN	_	13	appos	_	_
 15	também	também	ADV	ADV	_	16	advmod	_	_
@@ -202,7 +202,7 @@
 17	a	a	ADP	ADP	_	19	case	_	_
 18	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
 19	parlamentares	parlamentar	NOUN	NOUN	_	16	iobj	_	_
-20	as	o	DET	DET	_	22	det	_	_
+20	as	o	DET	DET	PronType=Art	22	det	_	_
 21	principais	principal	ADJ	ADJ	_	22	amod	_	_
 22	ações	ação	NOUN	NOUN	_	16	obj	_	_
 23-24	do	_	_	_	_	_	_	_	_
@@ -298,7 +298,7 @@
 16	ir	ir	VERB	VERB	_	5	advcl	_	_
 17	diretamente	diretamente	ADV	ADV	_	16	advmod	_	_
 18	para	para	ADP	ADP	_	20	case	_	_
-19	a	o	DET	DET	_	20	det	_	_
+19	a	o	DET	DET	PronType=Art	20	det	_	_
 20	sala	sala	NOUN	NOUN	_	16	nmod	_	_
 21	de	de	ADP	ADP	_	22	case	_	_
 22	aula	aula	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
@@ -316,7 +316,7 @@
 7	de	de	ADP	ADP	_	8	case	_	_
 8	combate	combate	NOUN	NOUN	_	6	nmod	_	_
 9	contra	_	ADP	ADP	_	11	case	_	_
-10	os	o	DET	DET	_	11	det	_	_
+10	os	o	DET	DET	PronType=Art	11	det	_	_
 11	talibãs	talibã	NOUN	NOUN	_	6	nmod	_	_
 12-13	ao	_	_	_	_	_	_	_	_
 12	a	a	ADP	ADP	_	14	case	_	_

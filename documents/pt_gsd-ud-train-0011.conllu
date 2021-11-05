@@ -15,12 +15,12 @@
 
 # sent_id = train-s102
 # text = O mais importante é que as chamadas não caiam.
-1	O	o	DET	DET	_	3	det	_	_
+1	O	o	DET	DET	PronType=Art	3	det	_	_
 2	mais	_	DET	DET	_	3	det	_	_
 3	importante	importante	NOUN	NOUN	_	0	root	_	_
 4	é	ser	AUX	AUX	_	3	cop	_	_
 5	que	que	CCONJ	CONJ	_	9	mark	_	_
-6	as	o	DET	DET	_	7	det	_	_
+6	as	o	DET	DET	PronType=Art	7	det	_	_
 7	chamadas	_	NOUN	NOUN	_	9	nsubj	_	_
 8	não	não	ADV	ADV	Polarity=Neg	9	advmod	_	_
 9	caiam	_	VERB	VERB	_	3	csubj	_	SpaceAfter=No
@@ -28,7 +28,7 @@
 
 # sent_id = train-s103
 # text = As instalações industriais modernas estão muito distantes dos antigos e mal - cheirosos abatedouros, presentes na imaginação de muitos ainda.
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	PronType=Art	2	det	_	_
 2	instalações	instalação	NOUN	NOUN	_	5	nsubj	_	_
 3	industriais	industrial	ADJ	ADJ	_	2	amod	_	_
 4	modernas	moderno	ADJ	ADJ	_	2	amod	_	_
@@ -66,7 +66,7 @@
 6	e	e	CCONJ	CONJ	_	8	cc	_	_
 7	Maldonado	_	PROPN	PNOUN	_	8	nsubj	_	_
 8	teve	ter	VERB	VERB	_	2	conj	_	_
-9	o	o	DET	DET	_	10	det	_	_
+9	o	o	DET	DET	PronType=Art	10	det	_	_
 10	pneu	pneu	NOUN	NOUN	_	11	nsubj	_	_
 11	furado	furado	ADJ	ADJ	_	8	xcomp	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	2	punct	_	_
@@ -89,12 +89,12 @@
 # sent_id = train-s106
 # text = Segundo o historiador Câmara Cascudo, a primeira casa do "Salgado", nome pelo qual a região era conhecida, foi construída pelo Sr. José Maria do Nascimento, natural de Bodó em Cerro-Corá/RN, que ao lado de dois irmãos foram os primeiros proprietários de terras.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	PronType=Art	3	det	_	_
 3	historiador	historiador	NOUN	NOUN	_	26	nmod	_	_
 4	Câmara	_	PROPN	PNOUN	_	3	appos	_	_
 5	Cascudo	_	PROPN	PNOUN	_	4	flat	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	3	punct	_	_
-7	a	o	DET	DET	_	9	det	_	_
+7	a	o	DET	DET	PronType=Art	9	det	_	_
 8	primeira	primeiro	ADJ	ADJ	_	9	amod	_	_
 9	casa	casa	NOUN	NOUN	_	26	nsubj:pass	_	_
 10-11	do	_	_	_	_	_	_	_	_
@@ -109,7 +109,7 @@
 17	por	por	ADP	ADP	_	19	case	_	_
 18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	qual	_	PRON	PRON	_	23	nmod	_	_
-20	a	o	DET	DET	_	21	det	_	_
+20	a	o	DET	DET	PronType=Art	21	det	_	_
 21	região	região	NOUN	NOUN	_	23	nsubj:pass	_	_
 22	era	_	AUX	AUX	_	23	aux:pass	_	_
 23	conhecida	conhecer	VERB	VERB	_	16	acl:relcl	_	SpaceAfter=No
@@ -142,7 +142,7 @@
 47	dois	_	NUM	NUM	NumType=Card	48	nummod	_	_
 48	irmãos	irmão	NOUN	NOUN	_	45	nmod	_	_
 49	foram	_	AUX	AUX	_	52	cop	_	_
-50	os	o	DET	DET	_	52	det	_	_
+50	os	o	DET	DET	PronType=Art	52	det	_	_
 51	primeiros	primeiro	ADJ	ADJ	_	52	amod	_	_
 52	proprietários	proprietário	NOUN	NOUN	_	29	acl:relcl	_	_
 53	de	de	ADP	ADP	_	54	case	_	_
@@ -154,7 +154,7 @@
 1	Carlos	_	PROPN	PNOUN	_	5	nsubj	_	_
 2	Leopoldo	_	PROPN	PNOUN	_	1	flat	_	_
 3	era	_	AUX	AUX	_	5	cop	_	_
-4	o	o	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	PronType=Art	5	det	_	_
 5	segundo	segundo	NOUN	NOUN	_	0	root	_	_
 6-7	dos	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	9	case	_	_
@@ -203,7 +203,7 @@
 13	Leme	_	PROPN	PNOUN	_	12	flat	_	_
 14	Maciel	_	PROPN	PNOUN	_	12	flat	_	_
 15	trouxe	trazer	VERB	VERB	_	0	root	_	_
-16	o	o	DET	DET	_	17	det	_	_
+16	o	o	DET	DET	PronType=Art	17	det	_	_
 17	documento	documento	NOUN	NOUN	_	15	obj	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	15	punct	_	_
 
@@ -214,7 +214,7 @@
 3	mais	mais	ADV	ADV	_	4	advmod	_	_
 4	baixas	baixo	ADJ	ADJ	_	2	amod	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	2	punct	_	_
-6	o	o	DET	DET	_	7	det	_	_
+6	o	o	DET	DET	PronType=Art	7	det	_	_
 7	ácido	ácido	NOUN	NOUN	_	11	nsubj:pass	_	_
 8	retinoico	_	ADJ	ADJ	_	7	amod	_	_
 9	pode	_	AUX	AUX	_	11	aux	_	_
@@ -229,7 +229,7 @@
 17	em	em	ADP	ADP	_	18	case	_	_
 18	casa	casa	NOUN	NOUN	_	16	nmod	_	_
 19	durante	_	ADP	ADP	_	21	case	_	_
-20	o	o	DET	DET	_	21	det	_	_
+20	o	o	DET	DET	PronType=Art	21	det	_	_
 21	tempo	tempo	NOUN	NOUN	_	16	nmod	_	_
 22	determinado	determinar	VERB	VERB	_	21	acl	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	11	punct	_	_
@@ -240,7 +240,7 @@
 2	Paes	_	PROPN	PNOUN	_	1	flat	_	_
 3	também	também	ADV	ADV	_	4	advmod	_	_
 4	anunciou	anunciar	VERB	VERB	_	0	root	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	instalação	instalação	NOUN	NOUN	_	4	obj	_	_
 7-8	da	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_

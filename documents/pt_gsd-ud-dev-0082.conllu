@@ -2,7 +2,7 @@
 # text = Romeu foi o vencedor da 2 ª edição do Prêmio, em 2011, e participou como jurado no evento deste ano.
 1	Romeu	_	PROPN	PNOUN	_	4	nsubj	_	_
 2	foi	_	AUX	AUX	_	4	cop	_	_
-3	o	o	DET	DET	_	4	det	_	_
+3	o	o	DET	DET	PronType=Art	4	det	_	_
 4	vencedor	_	NOUN	NOUN	_	0	root	_	_
 5-6	da	_	_	_	_	_	_	_	_
 5	de	de	ADP	ADP	_	9	case	_	_
@@ -32,7 +32,7 @@
 
 # sent_id = dev-s805
 # text = A onda de violência na Síria, que dura 19 meses, provocou pelo menos 32 mil mortes, segundo a organização não governamental (ONG) Observatório Sírio dos Direitos Humanos.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	onda	onda	NOUN	NOUN	_	14	nsubj	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	violência	violência	NOUN	NOUN	_	2	nmod	_	_
@@ -56,7 +56,7 @@
 20	mortes	morte	NOUN	NOUN	_	14	obj	_	SpaceAfter=No
 21	,	,	PUNCT	.	_	24	punct	_	_
 22	segundo	_	ADP	ADP	_	24	case	_	_
-23	a	o	DET	DET	_	24	det	_	_
+23	a	o	DET	DET	PronType=Art	24	det	_	_
 24	organização	organização	NOUN	NOUN	_	14	nmod	_	_
 25	não	não	ADV	ADV	Polarity=Neg	26	advmod	_	_
 26	governamental	governamental	ADJ	ADJ	_	24	amod	_	_
@@ -82,7 +82,7 @@
 5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	lar	lar	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	9	punct	_	_
-8	os	o	DET	DET	_	9	det	_	_
+8	os	o	DET	DET	PronType=Art	9	det	_	_
 9	tapetes	tapete	NOUN	NOUN	_	1	appos	_	_
 10	dão	dar	VERB	VERB	_	0	root	_	_
 11	um	um	DET	DET	_	12	det	_	_
@@ -101,7 +101,7 @@
 23	isso	_	PRON	PRON	_	25	nmod	_	SpaceAfter=No
 24	,	,	PUNCT	.	_	23	punct	_	_
 25	atraem	atrair	VERB	VERB	_	10	conj	_	_
-26	a	o	DET	DET	_	27	det	_	_
+26	a	o	DET	DET	PronType=Art	27	det	_	_
 27	atenção	atenção	NOUN	NOUN	_	25	obj	_	_
 28-29	do	_	_	_	_	_	_	_	_
 28	de	de	ADP	ADP	_	30	case	_	_
@@ -128,7 +128,7 @@
 5	a	_	ADP	ADP	_	6	case	_	_
 6	favor	favor	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	1	punct	_	_
-8	os	o	DET	DET	_	9	det	_	_
+8	os	o	DET	DET	PronType=Art	9	det	_	_
 9	jogadores	jogador	NOUN	NOUN	_	11	nsubj	_	_
 10	vão	ir	AUX	AUX	_	11	aux	_	_
 11	adquirindo	adquirir	VERB	VERB	_	0	root	_	_
@@ -148,13 +148,13 @@
 25	,	,	PUNCT	.	_	29	punct	_	_
 26	que	_	PRON	PRON	_	29	nsubj	_	_
 27	é	ser	AUX	AUX	_	29	cop	_	_
-28	a	o	DET	DET	_	29	det	_	_
+28	a	o	DET	DET	PronType=Art	29	det	_	_
 29	confiança	confiança	NOUN	NOUN	_	13	acl:relcl	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = dev-s808
 # text = Os líderes judeus aceitaram e fundaram Israel.
-1	Os	o	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	PronType=Art	2	det	_	_
 2	líderes	líder	NOUN	NOUN	_	4	nsubj	_	_
 3	judeus	judeu	ADJ	ADJ	_	2	amod	_	_
 4	aceitaram	aceitar	VERB	VERB	_	0	root	_	_
@@ -165,7 +165,7 @@
 
 # sent_id = dev-s809
 # text = O executivo foi um dos palestrantes do Congresso Internacional da Qualidade, encerrado nesta terça - feira, em Porto Alegre.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	executivo	executivo	NOUN	NOUN	_	4	nsubj	_	_
 3	foi	_	AUX	AUX	_	4	cop	_	_
 4	um	_	PRON	PRON	_	0	root	_	_
@@ -248,7 +248,7 @@
 
 # sent_id = dev-s812
 # text = O condado foi fundado em 1889.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	condado	condado	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foi	_	AUX	AUX	_	4	aux:pass	_	_
 4	fundado	fundar	VERB	VERB	_	0	root	_	_
@@ -258,11 +258,11 @@
 
 # sent_id = dev-s813
 # text = A bolsa estima que a área dedicada ao grão em 2012 / 13 atingirá 3,4 milhões de hectares, embora esta área possa sofrer cortes se o tempo não melhorar logo.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	bolsa	bolsa	NOUN	NOUN	_	3	nsubj	_	_
 3	estima	estimar	VERB	VERB	_	0	root	_	_
 4	que	que	CCONJ	CONJ	_	15	mark	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	área	área	NOUN	NOUN	_	15	nsubj	_	_
 7	dedicada	dedicar	VERB	VERB	_	6	acl	_	_
 8-9	ao	_	_	_	_	_	_	_	_
@@ -286,7 +286,7 @@
 25	sofrer	sofrer	VERB	VERB	_	15	advcl	_	_
 26	cortes	corte	NOUN	NOUN	_	25	obj	_	_
 27	se	_	CCONJ	CONJ	_	31	mark	_	_
-28	o	o	DET	DET	_	29	det	_	_
+28	o	o	DET	DET	PronType=Art	29	det	_	_
 29	tempo	tempo	NOUN	NOUN	_	31	nsubj	_	_
 30	não	não	ADV	ADV	Polarity=Neg	31	advmod	_	_
 31	melhorar	melhorar	VERB	VERB	_	25	advcl	_	_

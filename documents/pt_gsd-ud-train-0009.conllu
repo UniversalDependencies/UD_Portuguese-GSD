@@ -57,21 +57,21 @@
 30	-	-	PUNCT	.	_	29	punct	_	_
 31	DF	_	PROPN	PNOUN	_	29	flat	_	SpaceAfter=No
 32	,	,	PUNCT	.	_	29	punct	_	_
-33	os	o	DET	DET	_	34	det	_	_
+33	os	o	DET	DET	PronType=Art	34	det	_	_
 34	donos	dono	NOUN	NOUN	_	44	nsubj	_	_
 35-36	da	_	_	_	_	_	_	_	_
 35	de	de	ADP	ADP	_	37	case	_	_
 36	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
 37	casa	casa	NOUN	NOUN	_	34	nmod	_	SpaceAfter=No
 38	,	,	PUNCT	.	_	40	punct	_	_
-39	o	o	DET	DET	_	40	det	_	_
+39	o	o	DET	DET	PronType=Art	40	det	_	_
 40	Leão	_	PROPN	PNOUN	_	34	appos	_	_
 41-42	da	_	_	_	_	_	_	_	_
 41	de	de	ADP	ADP	_	43	case	_	_
 42	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
 43	Serra	_	PROPN	PNOUN	_	40	nmod	_	_
 44	recebe	receber	VERB	VERB	_	0	root	_	_
-45	o	o	DET	DET	_	46	det	_	_
+45	o	o	DET	DET	PronType=Art	46	det	_	_
 46	Cene	_	PROPN	PNOUN	_	44	obj	_	_
 47	-	-	PUNCT	.	_	46	punct	_	_
 48	MS	_	PROPN	PNOUN	_	46	flat	_	SpaceAfter=No
@@ -99,7 +99,7 @@
 
 # sent_id = train-s83
 # text = A comunidade internacional intensificou nos últimos dias as advertências a Assad, diante do temor de que ele decida recorrer a armas químicas.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	comunidade	comunidade	NOUN	NOUN	_	4	nsubj	_	_
 3	internacional	internacional	ADJ	ADJ	_	2	amod	_	_
 4	intensificou	intensificar	VERB	VERB	_	0	root	_	_
@@ -108,7 +108,7 @@
 6	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 7	últimos	último	ADJ	ADJ	_	8	amod	_	_
 8	dias	dia	NOUN	NOUN	_	4	nmod	_	_
-9	as	o	DET	DET	_	10	det	_	_
+9	as	o	DET	DET	PronType=Art	10	det	_	_
 10	advertências	advertência	NOUN	NOUN	_	4	obj	_	_
 11	a	_	ADP	ADP	_	12	case	_	_
 12	Assad	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
@@ -134,7 +134,7 @@
 2	essa	_	DET	DET	_	3	det	_	_
 3	decisão	decisão	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
-5	o	o	DET	DET	_	6	det	_	_
+5	o	o	DET	DET	PronType=Art	6	det	_	_
 6	IPI	_	PROPN	PNOUN	_	11	nsubj	_	_
 7-8	dos	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
@@ -208,7 +208,7 @@
 4	que	que	CCONJ	CONJ	_	12	mark	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	8	punct	_	_
 6	após	_	ADP	ADP	_	8	case	_	_
-7	as	o	DET	DET	_	8	det	_	_
+7	as	o	DET	DET	PronType=Art	8	det	_	_
 8	eleições	eleição	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	8	punct	_	_
 10	continuará	continuar	AUX	AUX	_	12	aux	_	_
@@ -234,7 +234,7 @@
 5	nos	_	PRON	PRON	_	6	iobj	_	_
 6	garantem	garantir	VERB	VERB	_	0	root	_	_
 7	que	que	CCONJ	CONJ	_	11	mark	_	_
-8	o	o	DET	DET	_	9	det	_	_
+8	o	o	DET	DET	PronType=Art	9	det	_	_
 9	aspecto	aspecto	NOUN	NOUN	_	11	nsubj	_	_
 10	fiscal	fiscal	ADJ	ADJ	_	9	amod	_	_
 11	permanecerá	permanecer	VERB	VERB	_	6	ccomp	_	_
@@ -248,7 +248,7 @@
 
 # sent_id = train-s87
 # text = O crescimento das importações é resultado, principalmente, dos desembarques de 336 mil t de cimentos não pulverizados (clinkers), 291 mil t de carvão, 241 mil t de produtos siderúrgicos e 162 mil t de gás natural.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	crescimento	crescimento	NOUN	NOUN	_	7	nsubj	_	_
 3-4	das	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -318,7 +318,7 @@
 # sent_id = train-s89
 # text = Mas a atleta também poderá, de acordo com o técnico, se deparar com obstáculos 'naturais', como os patos que habitam o Serpentine.
 1	Mas	_	CCONJ	CONJ	_	14	cc	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	atleta	atleta	NOUN	NOUN	_	14	nsubj	_	_
 4	também	também	ADV	ADV	_	14	advmod	_	_
 5	poderá	poder	AUX	AUX	_	14	aux	_	SpaceAfter=No
@@ -326,7 +326,7 @@
 7	de	de	ADP	ADP	_	8	case	_	_
 8	acordo	acordo	NOUN	NOUN	_	14	nmod	_	_
 9	com	com	ADP	ADP	_	11	case	_	_
-10	o	o	DET	DET	_	11	det	_	_
+10	o	o	DET	DET	PronType=Art	11	det	_	_
 11	técnico	técnico	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	.	_	8	punct	_	_
 13	se	_	PRON	PRON	_	14	expl:pv	_	_
@@ -338,17 +338,17 @@
 19	'	_	PUNCT	.	_	18	punct	_	SpaceAfter=No
 20	,	,	PUNCT	.	_	23	punct	_	_
 21	como	como	ADP	ADP	_	23	case	_	_
-22	os	o	DET	DET	_	23	det	_	_
+22	os	o	DET	DET	PronType=Art	23	det	_	_
 23	patos	pato	NOUN	NOUN	_	16	nmod	_	_
 24	que	_	PRON	PRON	_	25	nsubj	_	_
 25	habitam	habitar	VERB	VERB	_	23	acl:relcl	_	_
-26	o	o	DET	DET	_	27	det	_	_
+26	o	o	DET	DET	PronType=Art	27	det	_	_
 27	Serpentine	_	PROPN	PNOUN	_	25	obj	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = train-s90
 # text = Os assuntos foram abordados em entrevista ao radialista França Moura, do Programa Cidadania, na manhã desta sexta - feira (07).
-1	Os	o	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	PronType=Art	2	det	_	_
 2	assuntos	assunto	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foram	_	AUX	AUX	_	4	aux:pass	_	_
 4	abordados	abordar	VERB	VERB	_	0	root	_	_

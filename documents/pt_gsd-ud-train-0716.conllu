@@ -21,7 +21,7 @@
 18	por	por	ADP	ADP	_	19	case	_	_
 19	isso	_	PRON	PRON	_	26	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	.	_	19	punct	_	_
-21	o	o	DET	DET	_	22	det	_	_
+21	o	o	DET	DET	PronType=Art	22	det	_	_
 22	Fazendeiro	_	PROPN	PNOUN	_	26	nsubj	_	_
 23	Diego	_	PROPN	PNOUN	_	22	flat	_	_
 24	teve	ter	AUX	AUX	_	26	aux	_	_
@@ -45,7 +45,7 @@
 
 # sent_id = train-s7108
 # text = Os jogos incluíram atletas com diversas deficiências físicas e sensoriais, tal como paralisia cerebral, amputações e cegueira.
-1	Os	o	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	PronType=Art	2	det	_	_
 2	jogos	jogo	NOUN	NOUN	_	3	nsubj	_	_
 3	incluíram	incluir	VERB	VERB	_	0	root	_	_
 4	atletas	atleta	NOUN	NOUN	_	3	obj	_	_
@@ -92,7 +92,7 @@
 20	militantes	militante	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
 21	:	:	PUNCT	.	_	16	punct	_	_
 22	"	"	PUNCT	.	_	27	punct	_	SpaceAfter=No
-23	O	o	DET	DET	_	24	det	_	_
+23	O	o	DET	DET	PronType=Art	24	det	_	_
 24	Haddad	_	PROPN	PNOUN	_	27	nsubj	_	_
 25	não	não	ADV	ADV	Polarity=Neg	27	advmod	_	_
 26	vai	ir	AUX	AUX	_	27	aux	_	_
@@ -109,7 +109,7 @@
 # text = "Solicito a ampliação da prefeitura, para que todas as secretarias municipais que não estão funcionando em prédio próprio sejam remanejadas, para se concentrarem no mesmo local", diz a vereadora, explicando que a indicação atende reivindicação da população.
 1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
 2	Solicito	solicitar	VERB	VERB	_	34	ccomp	_	_
-3	a	o	DET	DET	_	4	det	_	_
+3	a	o	DET	DET	PronType=Art	4	det	_	_
 4	ampliação	ampliação	NOUN	NOUN	_	2	obj	_	_
 5-6	da	_	_	_	_	_	_	_	_
 5	de	de	ADP	ADP	_	7	case	_	_
@@ -119,7 +119,7 @@
 9	para	_	ADP	ADP	_	23	mark	_	_
 10	que	_	CCONJ	CONJ	_	9	fixed	_	_
 11	todas	_	DET	DET	_	13	det	_	_
-12	as	o	DET	DET	_	13	det	_	_
+12	as	o	DET	DET	PronType=Art	13	det	_	_
 13	secretarias	secretaria	NOUN	NOUN	_	23	nsubj:pass	_	_
 14	municipais	municipal	ADJ	ADJ	_	13	amod	_	_
 15	que	_	PRON	PRON	_	18	nsubj	_	_
@@ -143,12 +143,12 @@
 32	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
 33	,	,	PUNCT	.	_	34	punct	_	_
 34	diz	dizer	VERB	VERB	_	0	root	_	_
-35	a	o	DET	DET	_	36	det	_	_
+35	a	o	DET	DET	PronType=Art	36	det	_	_
 36	vereadora	vereador	NOUN	NOUN	_	34	nsubj	_	SpaceAfter=No
 37	,	,	PUNCT	.	_	38	punct	_	_
 38	explicando	explicar	VERB	VERB	_	34	acl	_	_
 39	que	que	CCONJ	CONJ	_	42	mark	_	_
-40	a	o	DET	DET	_	41	det	_	_
+40	a	o	DET	DET	PronType=Art	41	det	_	_
 41	indicação	indicação	NOUN	NOUN	_	42	nsubj	_	_
 42	atende	_	VERB	VERB	_	38	ccomp	_	_
 43	reivindicação	reivindicação	NOUN	NOUN	_	42	obj	_	_
@@ -162,7 +162,7 @@
 # text = Então, o consumidor só deverá perceber queda nos preços a partir de março, abril.
 1	Então	então	ADV	ADV	_	7	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	.	_	1	punct	_	_
-3	o	o	DET	DET	_	4	det	_	_
+3	o	o	DET	DET	PronType=Art	4	det	_	_
 4	consumidor	consumidor	NOUN	NOUN	_	7	nsubj	_	_
 5	só	só	ADV	ADV	_	7	advmod	_	_
 6	deverá	dever	AUX	AUX	_	7	aux	_	_
@@ -182,11 +182,11 @@
 
 # sent_id = train-s7112
 # text = O candidato defende ainda a humanização da frota de ônibus e se comprometeu em equipar os veículos com ar - condicionado até o final do seu mandato.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	candidato	candidato	NOUN	NOUN	_	3	nsubj	_	_
 3	defende	defender	VERB	VERB	_	0	root	_	_
 4	ainda	ainda	ADV	ADV	_	3	advmod	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	humanização	humanização	NOUN	NOUN	_	3	obj	_	_
 7-8	da	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
@@ -199,14 +199,14 @@
 14	comprometeu	comprometer	VERB	VERB	_	3	conj	_	_
 15	em	_	ADP	ADP	_	16	mark	_	_
 16	equipar	equipar	VERB	VERB	_	14	nmod	_	_
-17	os	o	DET	DET	_	18	det	_	_
+17	os	o	DET	DET	PronType=Art	18	det	_	_
 18	veículos	veículo	NOUN	NOUN	_	16	obj	_	_
 19	com	com	ADP	ADP	_	20	case	_	_
 20	ar	ar	NOUN	NOUN	_	16	nmod	_	_
 21	-	-	PUNCT	.	_	20	punct	_	_
 22	condicionado	condicionado	ADJ	ADJ	_	20	amod	_	_
 23	até	_	ADP	ADP	_	25	case	_	_
-24	o	o	DET	DET	_	25	det	_	_
+24	o	o	DET	DET	PronType=Art	25	det	_	_
 25	final	final	NOUN	NOUN	_	16	nmod	_	_
 26-27	do	_	_	_	_	_	_	_	_
 26	de	de	ADP	ADP	_	29	case	_	_
@@ -261,7 +261,7 @@
 3	a	_	ADP	ADP	_	4	case	_	_
 4	2014	_	NUM	NUM	NumType=Card	2	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	2	punct	_	_
-6	os	o	DET	DET	_	7	det	_	_
+6	os	o	DET	DET	PronType=Art	7	det	_	_
 7	PACs	_	PROPN	PNOUN	_	11	nsubj	_	_
 8	1	_	NUM	NUM	NumType=Card	7	appos	_	_
 9	e	e	CCONJ	CONJ	_	10	cc	_	_
@@ -281,7 +281,7 @@
 
 # sent_id = train-s7115
 # text = A Associação Nacional de Clínicos Veterinários de Pequenos Animais (Anclivepa - SP), que administra o hospital, acaba de alugar um prédio de três andares no Tatuapé, zona leste da capital, a apenas 200 metros da atual sede.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	Associação	_	PROPN	PNOUN	_	23	nsubj	_	_
 3	Nacional	_	PROPN	PNOUN	_	2	amod	_	_
 4	de	de	ADP	ADP	_	5	case	_	_
@@ -298,7 +298,7 @@
 15	,	,	PUNCT	.	_	17	punct	_	_
 16	que	_	PRON	PRON	_	17	nsubj	_	_
 17	administra	administrar	VERB	VERB	_	2	acl:relcl	_	_
-18	o	o	DET	DET	_	19	det	_	_
+18	o	o	DET	DET	PronType=Art	19	det	_	_
 19	hospital	hospital	NOUN	NOUN	_	17	obj	_	SpaceAfter=No
 20	,	,	PUNCT	.	_	17	punct	_	_
 21	acaba	acabar	AUX	AUX	_	23	aux	_	_

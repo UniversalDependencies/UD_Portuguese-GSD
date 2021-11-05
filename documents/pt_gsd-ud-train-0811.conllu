@@ -12,7 +12,7 @@
 9	Mallu	_	PROPN	PNOUN	_	11	nsubj	_	_
 10	Magalhães	_	PROPN	PNOUN	_	9	flat	_	_
 11	deixou	deixar	VERB	VERB	_	0	root	_	_
-12	a	o	DET	DET	_	13	det	_	_
+12	a	o	DET	DET	PronType=Art	13	det	_	_
 13	imagem	imagem	NOUN	NOUN	_	11	obj	_	_
 14	de	de	ADP	ADP	_	15	case	_	_
 15	menina	menino	NOUN	NOUN	_	13	nmod	_	_
@@ -31,16 +31,16 @@
 
 # sent_id = train-s8052
 # text = A assinatura supostamente forjada tinha o objetivo de garantir a apresentação da prestação de contas da campanha, dentro do prazo legal estabelecido pela Justiça Eleitoral.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	assinatura	assinatura	NOUN	NOUN	_	5	nsubj	_	_
 3	supostamente	supostamente	ADV	ADV	_	4	advmod	_	_
 4	forjada	forjado	ADJ	ADJ	_	2	amod	_	_
 5	tinha	ter	VERB	VERB	_	0	root	_	_
-6	o	o	DET	DET	_	7	det	_	_
+6	o	o	DET	DET	PronType=Art	7	det	_	_
 7	objetivo	objetivo	NOUN	NOUN	_	5	obj	_	_
 8	de	_	ADP	ADP	_	9	mark	_	_
 9	garantir	garantir	VERB	VERB	_	7	nmod	_	_
-10	a	o	DET	DET	_	11	det	_	_
+10	a	o	DET	DET	PronType=Art	11	det	_	_
 11	apresentação	apresentação	NOUN	NOUN	_	9	obj	_	_
 12-13	da	_	_	_	_	_	_	_	_
 12	de	de	ADP	ADP	_	14	case	_	_
@@ -102,7 +102,7 @@
 
 # sent_id = train-s8055
 # text = O atleta encerrou dizendo que já tem 27 anos e isso ajuda a não sentir muita ansiedade ao entrar como titular.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	atleta	atleta	NOUN	NOUN	_	3	nsubj	_	_
 3	encerrou	encerrar	VERB	VERB	_	0	root	_	_
 4	dizendo	dizer	VERB	VERB	_	3	acl	_	_
@@ -130,15 +130,15 @@
 # sent_id = train-s8056
 # text = Durante a reunião em que discutiu o assunto, a presidente Dilma voltou a insistir que sua decisão evitaria quebrar contratos e respeitaria o direito adquirido dos Estados e municípios produtores.
 1	Durante	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	reunião	reunião	NOUN	NOUN	_	15	nmod	_	_
 4	em	em	ADP	ADP	_	5	case	_	_
 5	que	_	PRON	PRON	_	6	nmod	_	_
 6	discutiu	discutir	VERB	VERB	_	3	acl:relcl	_	_
-7	o	o	DET	DET	_	8	det	_	_
+7	o	o	DET	DET	PronType=Art	8	det	_	_
 8	assunto	assunto	NOUN	NOUN	_	6	obj	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	3	punct	_	_
-10	a	o	DET	DET	_	11	det	_	_
+10	a	o	DET	DET	PronType=Art	11	det	_	_
 11	presidente	presidente	NOUN	NOUN	_	15	nsubj	_	_
 12	Dilma	_	PROPN	PNOUN	_	11	appos	_	_
 13	voltou	voltar	AUX	AUX	_	15	aux	_	_
@@ -152,7 +152,7 @@
 21	contratos	contrato	NOUN	NOUN	_	20	obj	_	_
 22	e	e	CCONJ	CONJ	_	23	cc	_	_
 23	respeitaria	respeitar	VERB	VERB	_	19	conj	_	_
-24	o	o	DET	DET	_	25	det	_	_
+24	o	o	DET	DET	PronType=Art	25	det	_	_
 25	direito	direito	NOUN	NOUN	_	23	obj	_	_
 26	adquirido	adquirir	VERB	VERB	_	25	acl	_	_
 27-28	dos	_	_	_	_	_	_	_	_
@@ -166,10 +166,10 @@
 
 # sent_id = train-s8057
 # text = O duelo entre as duas tenistas está agora empatado, com três vitórias para cada lado.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	duelo	duelo	NOUN	NOUN	_	7	nsubj	_	_
 3	entre	_	ADP	ADP	_	6	case	_	_
-4	as	o	DET	DET	_	6	det	_	_
+4	as	o	DET	DET	PronType=Art	6	det	_	_
 5	duas	_	NUM	NUM	NumType=Card	6	nummod	_	_
 6	tenistas	tenista	NOUN	NOUN	_	2	nmod	_	_
 7	está	estar	VERB	VERB	_	0	root	_	_
@@ -188,11 +188,11 @@
 # text = E para os grandes produtores, a exigência mínima de recomposição de mata ciliar caiu de 30 metros para 20 metros.
 1	E	_	CCONJ	CONJ	_	15	cc	_	_
 2	para	para	ADP	ADP	_	5	case	_	_
-3	os	o	DET	DET	_	5	det	_	_
+3	os	o	DET	DET	PronType=Art	5	det	_	_
 4	grandes	grande	ADJ	ADJ	_	5	amod	_	_
 5	produtores	produtor	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	5	punct	_	_
-7	a	o	DET	DET	_	8	det	_	_
+7	a	o	DET	DET	PronType=Art	8	det	_	_
 8	exigência	exigência	NOUN	NOUN	_	15	nsubj	_	_
 9	mínima	mínimo	ADJ	ADJ	_	8	amod	_	_
 10	de	de	ADP	ADP	_	11	case	_	_
@@ -220,13 +220,13 @@
 6	fizeram	fazer	VERB	VERB	_	0	root	_	_
 7	manifestações	manifestação	NOUN	NOUN	_	6	obj	_	_
 8	contra	_	ADP	ADP	_	10	case	_	_
-9	a	o	DET	DET	_	10	det	_	_
+9	a	o	DET	DET	PronType=Art	10	det	_	_
 10	prova	prova	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s8060
 # text = A maioria das ações ocorridas nesta área em Votorantim, ou foram nossa iniciativa ou tiveram nosso apoio para que fossem concluídas.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	maioria	maioria	NOUN	NOUN	_	15	nsubj	_	_
 3-4	das	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_

@@ -1,13 +1,13 @@
 # sent_id = train-s521
 # text = O grupo alimentação também foi destaque entre as reduções (de 1,16 % para 1,02 %).
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	grupo	grupo	NOUN	NOUN	_	6	nsubj	_	_
 3	alimentação	alimentação	NOUN	NOUN	_	2	flat	_	_
 4	também	também	ADV	ADV	_	6	advmod	_	_
 5	foi	_	AUX	AUX	_	6	cop	_	_
 6	destaque	destaque	NOUN	NOUN	_	0	root	_	_
 7	entre	_	ADP	ADP	_	9	case	_	_
-8	as	o	DET	DET	_	9	det	_	_
+8	as	o	DET	DET	PronType=Art	9	det	_	_
 9	reduções	redução	NOUN	NOUN	_	6	nmod	_	_
 10	(	(	PUNCT	.	_	13	punct	_	SpaceAfter=No
 11	de	de	ADP	ADP	_	13	case	_	_
@@ -48,7 +48,7 @@
 22	,	,	PUNCT	.	_	24	punct	_	_
 23	que	_	PRON	PRON	_	24	nsubj	_	_
 24	propõe	propor	VERB	VERB	_	4	acl:relcl	_	_
-25	a	o	DET	DET	_	26	det	_	_
+25	a	o	DET	DET	PronType=Art	26	det	_	_
 26	entrega	entrega	NOUN	NOUN	_	24	obj	_	_
 27	voluntária	voluntário	ADJ	ADJ	_	26	amod	_	_
 28-29	dos	_	_	_	_	_	_	_	_
@@ -71,7 +71,7 @@
 4	sobre	_	ADP	ADP	_	5	case	_	_
 5	isso	_	PRON	PRON	_	3	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	3	punct	_	_
-7	o	o	DET	DET	_	8	det	_	_
+7	o	o	DET	DET	PronType=Art	8	det	_	_
 8	preço	preço	NOUN	NOUN	_	9	nsubj	_	_
 9	sobe	subir	VERB	VERB	_	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	9	punct	_	_
@@ -115,7 +115,7 @@
 17	,	,	PUNCT	.	_	22	punct	_	_
 18	desta	_	ADP	ADP	_	19	case	_	_
 19	vez	vez	NOUN	NOUN	_	22	nmod	_	_
-20	a	o	DET	DET	_	22	det	_	_
+20	a	o	DET	DET	PronType=Art	22	det	_	_
 21	grande	grande	ADJ	ADJ	_	22	amod	_	_
 22	embaixada	embaixada	NOUN	NOUN	_	15	appos	_	_
 23	enviada	enviar	VERB	VERB	_	22	acl	_	_
@@ -146,13 +146,13 @@
 
 # sent_id = train-s526
 # text = A Brasil Kirin iniciará neste mês a distribuição da linha de saquê Azuma Kirin, produzido pela indústria Tozan, empresa do Grupo Kirin, para todo Brasil, inicialmente em toda sua rede de Distribuição Própria.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	Brasil	_	PROPN	PNOUN	_	4	nsubj	_	_
 3	Kirin	_	PROPN	PNOUN	_	2	flat	_	_
 4	iniciará	iniciar	VERB	VERB	_	0	root	_	_
 5	neste	_	ADP	ADP	_	6	case	_	_
 6	mês	_	NUM	NUM	NumType=Card	4	nmod	_	_
-7	a	o	DET	DET	_	8	det	_	_
+7	a	o	DET	DET	PronType=Art	8	det	_	_
 8	distribuição	distribuição	NOUN	NOUN	_	4	obj	_	_
 9-10	da	_	_	_	_	_	_	_	_
 9	de	de	ADP	ADP	_	11	case	_	_
@@ -193,7 +193,7 @@
 
 # sent_id = train-s527
 # text = A maior parte das águas subterrâneas do mundo são salobras (0,5 e 30 gramas de sal por litro) não salgadas (acima de 35 gramas por litro).
-1	A	o	DET	DET	_	3	det	_	_
+1	A	o	DET	DET	PronType=Art	3	det	_	_
 2	maior	maior	ADJ	ADJ	_	3	amod	_	_
 3	parte	parte	NOUN	NOUN	_	11	nsubj	_	_
 4-5	das	_	_	_	_	_	_	_	_
@@ -231,7 +231,7 @@
 
 # sent_id = train-s528
 # text = O programa entra no ar a qualquer momento e traz algumas das principais notícias veiculadas no site.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	programa	programa	NOUN	NOUN	_	3	nsubj	_	_
 3	entra	entrar	VERB	VERB	_	0	root	_	_
 4-5	no	_	_	_	_	_	_	_	_
@@ -265,10 +265,10 @@
 4	escândalo	escândalo	NOUN	NOUN	_	1	nmod	_	_
 5	mundial	mundial	ADJ	ADJ	_	4	amod	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	1	punct	_	_
-7	a	o	DET	DET	_	8	det	_	_
+7	a	o	DET	DET	PronType=Art	8	det	_	_
 8	Anvisa	_	PROPN	PNOUN	_	9	nsubj	_	_
 9	proibiu	proibir	VERB	VERB	_	0	root	_	_
-10	a	o	DET	DET	_	11	det	_	_
+10	a	o	DET	DET	PronType=Art	11	det	_	_
 11	importação	importação	NOUN	NOUN	_	9	obj	_	_
 12	e	e	CCONJ	CONJ	_	13	cc	_	_
 13	venda	venda	NOUN	NOUN	_	11	conj	_	_
@@ -290,7 +290,7 @@
 # sent_id = train-s530
 # text = Entre os participantes da cerimônia noturna estavam Steven Bridges e Michael Snell, que se uniram extraoficialmente há seis anos, mas tornaram o casamento oficial apenas hoje, com a permissão garantida pela nova lei estadual.
 1	Entre	_	ADP	ADP	_	3	case	_	_
-2	os	o	DET	DET	_	3	det	_	_
+2	os	o	DET	DET	PronType=Art	3	det	_	_
 3	participantes	participante	NOUN	NOUN	_	8	nmod	_	_
 4-5	da	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
@@ -314,14 +314,14 @@
 22	,	,	PUNCT	.	_	24	punct	_	_
 23	mas	mas	CCONJ	CONJ	_	24	cc	_	_
 24	tornaram	tornar	VERB	VERB	_	17	conj	_	_
-25	o	o	DET	DET	_	26	det	_	_
+25	o	o	DET	DET	PronType=Art	26	det	_	_
 26	casamento	casamento	NOUN	NOUN	_	27	nsubj	_	_
 27	oficial	oficial	ADJ	ADJ	_	24	xcomp	_	_
 28	apenas	apenas	ADV	ADV	_	29	advmod	_	_
 29	hoje	hoje	ADV	ADV	_	24	advmod	_	SpaceAfter=No
 30	,	,	PUNCT	.	_	33	punct	_	_
 31	com	com	ADP	ADP	_	33	case	_	_
-32	a	o	DET	DET	_	33	det	_	_
+32	a	o	DET	DET	PronType=Art	33	det	_	_
 33	permissão	permissão	NOUN	NOUN	_	24	nmod	_	_
 34	garantida	garantir	VERB	VERB	_	33	acl	_	_
 35-36	pela	_	_	_	_	_	_	_	_

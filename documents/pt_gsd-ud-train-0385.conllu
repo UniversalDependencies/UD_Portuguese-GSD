@@ -1,6 +1,6 @@
 # sent_id = train-s3818
 # text = A taxa teve uma alta em relação a setembro, quando havia sido registrado índice de 0,63 %, segundo dados divulgados nesta quarta - feira (7) pelo Instituto Brasileiro de Geografia e Estatística (IBGE).
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	taxa	taxa	NOUN	NOUN	_	3	nsubj	_	_
 3	teve	ter	VERB	VERB	_	0	root	_	_
 4	uma	um	DET	DET	_	5	det	_	_
@@ -88,10 +88,10 @@
 # sent_id = train-s3820
 # text = Para a noite, os vestidos são pretos com saias rendadas em camadas combinados com casacos de toureiro pretos e dourados ou até vermelho flamboyant acompanhados de luvas de tule negras.
 1	Para	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	noite	noite	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
-5	os	o	DET	DET	_	6	det	_	_
+5	os	o	DET	DET	PronType=Art	6	det	_	_
 6	vestidos	vestido	NOUN	NOUN	_	7	nsubj	_	_
 7	são	ser	VERB	VERB	_	0	root	_	_
 8	pretos	preto	ADJ	ADJ	_	7	xcomp	_	_
@@ -122,14 +122,14 @@
 
 # sent_id = train-s3821
 # text = O 'A Cidade' se reserva o direito de, a seu próprio critério, armazenar as informações de usuários que se conectarem ao sistema de comentários, como forma de viabilizar eventuais identificações que se façam necessárias.
-1	O	o	DET	DET	_	4	det	_	_
+1	O	o	DET	DET	PronType=Art	4	det	_	_
 2	'	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
 3	A	_	PROPN	PNOUN	_	4	det	_	_
 4	Cidade	_	PROPN	PNOUN	_	7	nsubj	_	SpaceAfter=No
 5	'	_	PUNCT	.	_	4	punct	_	_
 6	se	_	PRON	PRON	_	7	iobj	_	_
 7	reserva	reservar	VERB	VERB	_	0	root	_	_
-8	o	o	DET	DET	_	9	det	_	_
+8	o	o	DET	DET	PronType=Art	9	det	_	_
 9	direito	direito	NOUN	NOUN	_	7	obj	_	_
 10	de	_	ADP	ADP	_	17	mark	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	15	punct	_	_
@@ -139,7 +139,7 @@
 15	critério	critério	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	.	_	15	punct	_	_
 17	armazenar	armazenar	VERB	VERB	_	9	nmod	_	_
-18	as	o	DET	DET	_	19	det	_	_
+18	as	o	DET	DET	PronType=Art	19	det	_	_
 19	informações	informação	NOUN	NOUN	_	17	obj	_	_
 20	de	de	ADP	ADP	_	21	case	_	_
 21	usuários	usuário	NOUN	NOUN	_	19	nmod	_	_
@@ -177,10 +177,10 @@
 1	Nesse	_	ADP	ADP	_	2	case	_	_
 2	item	item	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
-4	o	o	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	PronType=Art	5	det	_	_
 5	STF	_	PROPN	PNOUN	_	6	nsubj	_	_
 6	analisa	analisar	VERB	VERB	_	0	root	_	_
-7	as	o	DET	DET	_	8	det	_	_
+7	as	o	DET	DET	PronType=Art	8	det	_	_
 8	acusações	acusação	NOUN	NOUN	_	6	obj	_	_
 9	de	de	ADP	ADP	_	10	case	_	_
 10	corrupção	corrupção	NOUN	NOUN	_	8	nmod	_	_
@@ -202,7 +202,7 @@
 # text = É novamente o maior valor desde 22 de maio, quando a moeda norte - americana terminou o dia cotada a R $ 2,08.
 1	É	ser	AUX	AUX	_	5	cop	_	_
 2	novamente	novamente	ADV	ADV	_	5	advmod	_	_
-3	o	o	DET	DET	_	5	det	_	_
+3	o	o	DET	DET	PronType=Art	5	det	_	_
 4	maior	maior	ADJ	ADJ	_	5	amod	_	_
 5	valor	valor	NOUN	NOUN	_	0	root	_	_
 6	desde	_	ADP	ADP	_	7	case	_	_
@@ -211,13 +211,13 @@
 9	maio	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	17	punct	_	_
 11	quando	quando	ADV	ADV	_	17	advmod	_	_
-12	a	o	DET	DET	_	13	det	_	_
+12	a	o	DET	DET	PronType=Art	13	det	_	_
 13	moeda	moeda	NOUN	NOUN	_	17	nsubj	_	_
 14	norte	norte	ADJ	ADJ	_	16	amod	_	_
 15	-	-	PUNCT	.	_	16	punct	_	_
 16	americana	americano	ADJ	ADJ	_	13	amod	_	_
 17	terminou	terminar	VERB	VERB	_	7	acl:relcl	_	_
-18	o	o	DET	DET	_	19	det	_	_
+18	o	o	DET	DET	PronType=Art	19	det	_	_
 19	dia	dia	NOUN	NOUN	_	17	obj	_	_
 20	cotada	cotado	ADJ	ADJ	_	17	xcomp	_	_
 21	a	_	ADP	ADP	_	22	case	_	_
@@ -234,7 +234,7 @@
 4	salão	_	NOUN	NOUN	_	17	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	10	punct	_	_
 6	com	com	ADP	ADP	_	10	case	_	_
-7	o	o	DET	DET	_	10	det	_	_
+7	o	o	DET	DET	PronType=Art	10	det	_	_
 8	seu	_	DET	DET	_	10	det:poss	_	_
 9	grande	grande	ADJ	ADJ	_	10	amod	_	_
 10	palco	palco	NOUN	NOUN	_	4	nmod	_	_
@@ -246,7 +246,7 @@
 16	,	,	PUNCT	.	_	10	punct	_	_
 17	serve	servir	VERB	VERB	_	0	root	_	_
 18	para	para	ADP	ADP	_	20	case	_	_
-19	a	o	DET	DET	_	20	det	_	_
+19	a	o	DET	DET	PronType=Art	20	det	_	_
 20	realização	realização	NOUN	NOUN	_	17	nmod	_	_
 21	de	de	ADP	ADP	_	22	case	_	_
 22	concertos	concerto	NOUN	NOUN	_	20	nmod	_	_
@@ -262,7 +262,7 @@
 1	Em	em	ADP	ADP	_	2	case	_	_
 2	PARIS	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
-4	o	o	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	PronType=Art	5	det	_	_
 5	índice	índice	NOUN	NOUN	_	9	nsubj	_	_
 6	CAC	_	PROPN	PNOUN	_	5	appos	_	_
 7	-	-	PUNCT	.	_	6	punct	_	_
@@ -294,11 +294,11 @@
 12	de	de	ADP	ADP	_	13	case	_	_
 13	outubro	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	2	punct	_	_
-15	a	o	DET	DET	_	16	det	_	_
+15	a	o	DET	DET	PronType=Art	16	det	_	_
 16	empresa	empresa	NOUN	NOUN	_	17	nsubj	_	_
 17	informou	informar	VERB	VERB	_	0	root	_	_
 18	que	que	CCONJ	CONJ	_	29	mark	_	_
-19	a	o	DET	DET	_	20	det	_	_
+19	a	o	DET	DET	PronType=Art	20	det	_	_
 20	remessa	remessa	NOUN	NOUN	_	29	nsubj	_	_
 21	inicial	inicial	ADJ	ADJ	_	20	amod	_	_
 22	de	de	ADP	ADP	_	23	case	_	_
@@ -306,10 +306,10 @@
 24	enviada	enviar	VERB	VERB	_	20	acl	_	_
 25	para	para	ADP	ADP	_	28	case	_	_
 26	todo	_	DET	DET	_	28	det	_	_
-27	o	o	DET	DET	_	28	det	_	_
+27	o	o	DET	DET	PronType=Art	28	det	_	_
 28	mundo	mundo	NOUN	NOUN	_	24	nmod	_	_
 29	atingiu	atingir	VERB	VERB	_	17	ccomp	_	_
-30	a	o	DET	DET	_	31	det	_	_
+30	a	o	DET	DET	PronType=Art	31	det	_	_
 31	marca	marca	NOUN	NOUN	_	29	obj	_	_
 32	de	de	ADP	ADP	_	36	case	_	_
 33	4,5	_	NUM	NUM	NumType=Card	34	nummod	_	_

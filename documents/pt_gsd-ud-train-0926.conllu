@@ -5,7 +5,7 @@
 3	minha	_	DET	DET	_	4	det:poss	_	_
 4	defesa	_	NOUN	NOUN	_	2	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	2	punct	_	_
-6	as	o	DET	DET	_	7	det	_	_
+6	as	o	DET	DET	PronType=Art	7	det	_	_
 7	reuniões	reunião	NOUN	NOUN	_	18	nsubj	_	_
 8-9	na	_	_	_	_	_	_	_	_
 8	em	em	ADP	ADP	_	10	case	_	_
@@ -21,7 +21,7 @@
 18	são	ser	VERB	VERB	_	0	root	_	_
 19	compatíveis	compatível	ADJ	ADJ	_	18	xcomp	_	_
 20	com	com	ADP	ADP	_	22	case	_	_
-21	a	o	DET	DET	_	22	det	_	_
+21	a	o	DET	DET	PronType=Art	22	det	_	_
 22	função	função	NOUN	NOUN	_	19	nmod	_	_
 23	de	de	ADP	ADP	_	24	case	_	_
 24	ministro	ministro	NOUN	NOUN	_	22	nmod	_	_
@@ -32,7 +32,7 @@
 29	,	,	PUNCT	.	_	27	punct	_	_
 30	como	_	CCONJ	CONJ	_	31	mark	_	_
 31	atestam	atestar	VERB	VERB	_	35	advcl	_	_
-32	os	o	DET	DET	_	33	det	_	_
+32	os	o	DET	DET	PronType=Art	33	det	_	_
 33	testemunhos	testemunho	NOUN	NOUN	_	31	nsubj	_	SpaceAfter=No
 34	,	,	PUNCT	.	_	31	punct	_	_
 35	foram	_	VERB	VERB	_	27	conj	_	_
@@ -55,7 +55,7 @@
 7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Samu	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	5	punct	_	_
-10	a	o	DET	DET	_	11	det	_	_
+10	a	o	DET	DET	PronType=Art	11	det	_	_
 11	Secretaria	_	PROPN	PNOUN	_	19	nsubj	_	_
 12	Municipal	_	PROPN	PNOUN	_	11	amod	_	_
 13	de	de	ADP	ADP	_	14	case	_	_
@@ -87,7 +87,7 @@
 
 # sent_id = train-s9190
 # text = A hospedagem inclui programa de emagrecimento ou descanso, entre outras vantagens.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	hospedagem	hospedagem	NOUN	NOUN	_	3	nsubj	_	_
 3	inclui	incluir	VERB	VERB	_	0	root	_	_
 4	programa	programa	NOUN	NOUN	_	3	obj	_	_
@@ -108,14 +108,14 @@
 3	-	-	PUNCT	.	_	4	punct	_	_
 4	feira	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	4	punct	_	_
-6	o	o	DET	DET	_	7	det	_	_
+6	o	o	DET	DET	PronType=Art	7	det	_	_
 7	arqueiro	arqueiro	NOUN	NOUN	_	9	nsubj	_	_
 8	vai	ir	AUX	AUX	_	9	aux	_	_
 9	realizar	realizar	VERB	VERB	_	0	root	_	_
 10	fisioterapia	fisioterapia	NOUN	NOUN	_	9	obj	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	14	punct	_	_
 12	sob	_	ADP	ADP	_	14	case	_	_
-13	os	o	DET	DET	_	14	det	_	_
+13	os	o	DET	DET	PronType=Art	14	det	_	_
 14	cuidados	cuidado	NOUN	NOUN	_	9	nmod	_	_
 15	de	de	ADP	ADP	_	16	case	_	_
 16	Odir	_	PROPN	PNOUN	_	14	nmod	_	_
@@ -158,7 +158,7 @@
 
 # sent_id = train-s9193
 # text = O setor industrial registrou alta acima da inflação em 94 % das negociações.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	setor	setor	NOUN	NOUN	_	4	nsubj	_	_
 3	industrial	industrial	ADJ	ADJ	_	2	amod	_	_
 4	registrou	registrar	VERB	VERB	_	0	root	_	_
@@ -179,10 +179,10 @@
 
 # sent_id = train-s9194
 # text = O encontro teve a participação de representantes de 30 países da América Latina e do Caribe.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	encontro	encontro	NOUN	NOUN	_	3	nsubj	_	_
 3	teve	ter	VERB	VERB	_	0	root	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	participação	participação	NOUN	NOUN	_	3	obj	_	_
 6	de	de	ADP	ADP	_	7	case	_	_
 7	representantes	representante	NOUN	NOUN	_	5	nmod	_	_
@@ -228,7 +228,7 @@
 
 # sent_id = train-s9196
 # text = A bancada federal, coordenada pelo deputado Homero Pereira (PSD), concentrou cerca de R $ 450 milhões das emendas parlamentares para tentar diminuir o problema da Saúde em Mato Grosso.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	bancada	bancada	NOUN	NOUN	_	15	nsubj	_	_
 3	federal	federal	ADJ	ADJ	_	2	amod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	5	punct	_	_
@@ -258,7 +258,7 @@
 26	para	_	ADP	ADP	_	27	mark	_	_
 27	tentar	tentar	VERB	VERB	_	15	advcl	_	_
 28	diminuir	diminuir	VERB	VERB	_	27	xcomp	_	_
-29	o	o	DET	DET	_	30	det	_	_
+29	o	o	DET	DET	PronType=Art	30	det	_	_
 30	problema	problema	NOUN	NOUN	_	28	obj	_	_
 31-32	da	_	_	_	_	_	_	_	_
 31	de	de	ADP	ADP	_	33	case	_	_
@@ -276,14 +276,14 @@
 3	também	também	ADV	ADV	_	5	advmod	_	_
 4	foram	_	AUX	AUX	_	5	aux:pass	_	_
 5	realizadas	realizar	VERB	VERB	_	0	root	_	_
-6	as	o	DET	DET	_	7	det	_	_
+6	as	o	DET	DET	PronType=Art	7	det	_	_
 7	cerimônias	cerimônia	NOUN	NOUN	_	5	nsubj:pass	_	_
 8	de	de	ADP	ADP	_	9	case	_	_
 9	entregas	entrega	NOUN	NOUN	_	7	nmod	_	_
 10	de	de	ADP	ADP	_	11	case	_	_
 11	medalhas	medalha	NOUN	NOUN	_	9	nmod	_	_
 12	para	para	ADP	ADP	_	14	case	_	_
-13	os	o	DET	DET	_	14	det	_	_
+13	os	o	DET	DET	PronType=Art	14	det	_	_
 14	vencedores	_	NOUN	NOUN	_	9	nmod	_	_
 15-16	das	_	_	_	_	_	_	_	_
 15	de	de	ADP	ADP	_	17	case	_	_

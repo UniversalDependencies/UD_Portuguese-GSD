@@ -1,6 +1,6 @@
 # sent_id = train-s1866
 # text = A hipótese é de que tenha ocorrido uma briga no local, mas ninguém soube informar o que aconteceu e nem quem seria o autor do crime.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	hipótese	hipótese	NOUN	NOUN	_	3	nsubj	_	_
 3	é	ser	VERB	VERB	_	0	root	_	_
 4	de	_	ADP	ADP	_	7	mark	_	_
@@ -25,7 +25,7 @@
 22	nem	_	CCONJ	CONJ	_	23	cc	_	_
 23	quem	_	PRON	PRON	_	17	conj	_	_
 24	seria	_	AUX	AUX	_	23	cop	_	_
-25	o	o	DET	DET	_	26	det	_	_
+25	o	o	DET	DET	PronType=Art	26	det	_	_
 26	autor	autor	NOUN	NOUN	_	23	nsubj	_	_
 27-28	do	_	_	_	_	_	_	_	_
 27	de	de	ADP	ADP	_	29	case	_	_
@@ -49,7 +49,7 @@
 10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	julgamento	julgamento	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	.	_	7	punct	_	_
-13	o	o	DET	DET	_	14	det	_	_
+13	o	o	DET	DET	PronType=Art	14	det	_	_
 14	advogado	advogado	NOUN	NOUN	_	20	nsubj	_	_
 15	de	de	ADP	ADP	_	16	case	_	_
 16	defesa	_	NOUN	NOUN	_	14	nmod	_	_
@@ -97,13 +97,13 @@
 6	e	e	CCONJ	CONJ	_	7	cc	_	_
 7	agosto	_	PROPN	PNOUN	_	5	conj	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	5	punct	_	_
-9	os	o	DET	DET	_	10	det	_	_
+9	os	o	DET	DET	PronType=Art	10	det	_	_
 10	Ingleses	_	PROPN	PNOUN	_	11	nsubj	_	_
 11	conquistaram	conquistar	VERB	VERB	_	0	root	_	_
-12	as	o	DET	DET	_	13	det	_	_
+12	as	o	DET	DET	PronType=Art	13	det	_	_
 13	planícies	planície	NOUN	NOUN	_	11	obj	_	_
 14	e	e	CCONJ	CONJ	_	16	cc	_	_
-15	as	o	DET	DET	_	16	det	_	_
+15	as	o	DET	DET	PronType=Art	16	det	_	_
 16	cidades	cidade	NOUN	NOUN	_	13	conj	_	_
 17	de	de	ADP	ADP	_	18	case	_	_
 18	Kandahar	_	PROPN	PNOUN	_	16	nmod	_	_
@@ -116,7 +116,7 @@
 24	e	e	CCONJ	CONJ	_	25	cc	_	_
 25	Cabul	_	PROPN	PNOUN	_	18	conj	_	SpaceAfter=No
 26	,	,	PUNCT	.	_	28	punct	_	_
-27	a	o	DET	DET	_	28	det	_	_
+27	a	o	DET	DET	PronType=Art	28	det	_	_
 28	capital	capital	NOUN	NOUN	_	25	appos	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	11	punct	_	_
 
@@ -133,7 +133,7 @@
 8	,	,	PUNCT	.	_	12	punct	_	_
 9	principalmente	principalmente	ADV	ADV	_	12	advmod	_	_
 10	para	para	ADP	ADP	_	12	case	_	_
-11	a	o	DET	DET	_	12	det	_	_
+11	a	o	DET	DET	PronType=Art	12	det	_	_
 12	prova	prova	NOUN	NOUN	_	3	nmod	_	_
 13	de	de	ADP	ADP	_	14	case	_	_
 14	redação	redação	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
@@ -145,7 +145,7 @@
 2	aplicar	aplicar	VERB	VERB	_	4	advcl	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
 4	faça	fazer	VERB	VERB	_	0	root	_	_
-5	o	o	DET	DET	_	6	det	_	_
+5	o	o	DET	DET	PronType=Art	6	det	_	_
 6	traço	traço	NOUN	NOUN	_	4	obj	_	_
 7	rente	rente	ADJ	ADJ	_	6	amod	_	_
 8-9	aos	_	_	_	_	_	_	_	_
@@ -165,7 +165,7 @@
 19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	olho	olho	NOUN	NOUN	_	17	nmod	_	_
 21	para	para	ADP	ADP	_	23	case	_	_
-22	o	o	DET	DET	_	23	det	_	_
+22	o	o	DET	DET	PronType=Art	23	det	_	_
 23	efeito	efeito	NOUN	NOUN	_	12	nmod	_	_
 24	gatinho	gato	NOUN	NOUN	_	23	flat	_	SpaceAfter=No
 25	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
@@ -173,7 +173,7 @@
 
 # sent_id = train-s1871
 # text = A perícia técnica de Bragança Paulista esteve na escola, nesta tarde, e o laudo deve confirmar as causas do incêndio.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	perícia	perícia	NOUN	NOUN	_	7	nsubj	_	_
 3	técnica	técnico	ADJ	ADJ	_	2	amod	_	_
 4	de	de	ADP	ADP	_	5	case	_	_
@@ -193,7 +193,7 @@
 17	laudo	laudo	NOUN	NOUN	_	19	nsubj	_	_
 18	deve	dever	AUX	AUX	_	19	aux	_	_
 19	confirmar	confirmar	VERB	VERB	_	7	conj	_	_
-20	as	o	DET	DET	_	21	det	_	_
+20	as	o	DET	DET	PronType=Art	21	det	_	_
 21	causas	causa	NOUN	NOUN	_	19	obj	_	_
 22-23	do	_	_	_	_	_	_	_	_
 22	de	de	ADP	ADP	_	24	case	_	_
@@ -230,12 +230,12 @@
 24	Massoud	_	PROPN	PNOUN	_	26	nsubj:pass	_	_
 25	foi	_	AUX	AUX	_	26	aux:pass	_	_
 26	nomeado	nomear	VERB	_	_	6	conj	_	_
-27	o	o	DET	DET	_	29	det	_	_
+27	o	o	DET	DET	PronType=Art	29	det	_	_
 28	"	"	PUNCT	.	_	29	punct	_	SpaceAfter=No
 29	afegão	afegão	NOUN	NOUN	_	26	obj	_	_
 30	que	_	PRON	PRON	_	31	nsubj	_	_
 31	venceu	vencer	VERB	VERB	_	29	acl:relcl	_	_
-32	a	o	DET	DET	_	33	det	_	_
+32	a	o	DET	DET	PronType=Art	33	det	_	_
 33	Guerra	_	PROPN	PNOUN	_	31	obj	_	_
 34	Fria	_	PROPN	PNOUN	_	33	amod	_	SpaceAfter=No
 35	"	"	PUNCT	.	_	29	punct	_	_
@@ -249,11 +249,11 @@
 
 # sent_id = train-s1873
 # text = O evento contará com a participação de presidentes, vice - presidentes, juízes auxiliares, assessores de gestão estratégica, diretores - gerais e servidores envolvidos nos projetos.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	evento	evento	NOUN	NOUN	_	3	nsubj	_	_
 3	contará	contar	VERB	VERB	_	0	root	_	_
 4	com	com	ADP	ADP	_	6	case	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	participação	participação	NOUN	NOUN	_	3	nmod	_	_
 7	de	de	ADP	ADP	_	8	case	_	_
 8	presidentes	presidente	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
@@ -291,7 +291,7 @@
 5	respectivas	respectivo	ADJ	ADJ	_	6	amod	_	_
 6	multas	multa	NOUN	NOUN	_	2	conj	_	_
 7	são	ser	AUX	AUX	_	11	cop	_	_
-8	os	o	DET	DET	_	11	det	_	_
+8	os	o	DET	DET	PronType=Art	11	det	_	_
 9	dois	_	NUM	NUM	NumType=Card	11	nummod	_	_
 10	principais	principal	ADJ	ADJ	_	11	amod	_	_
 11	motivos	motivo	NOUN	NOUN	_	22	ccomp	_	_
@@ -314,7 +314,7 @@
 # text = Agra seria o vice que Cássio tanto quis e nunca teve.
 1	Agra	_	PRON	PRON	_	4	nsubj	_	_
 2	seria	_	AUX	AUX	_	4	cop	_	_
-3	o	o	DET	DET	_	4	det	_	_
+3	o	o	DET	DET	PronType=Art	4	det	_	_
 4	vice	vice	NOUN	NOUN	_	0	root	_	_
 5	que	_	PRON	PRON	_	8	obj	_	_
 6	Cássio	_	PROPN	PNOUN	_	8	nsubj	_	_

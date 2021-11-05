@@ -1,7 +1,7 @@
 # sent_id = train-s7673
 # text = -- O espanhol David Ferrer, quinto melhor tenista do mundo, classificou - se nesta sexta - feira para a semifinal do Masters 1.000 de Paris ao derrotar o francês Jo - Wilfried Tsonga por 6-2 e 7-5 numa hora e 20 minutos.
 1	--	_	PUNCT	.	_	14	punct	_	_
-2	O	o	DET	DET	_	3	det	_	_
+2	O	o	DET	DET	PronType=Art	3	det	_	_
 3	espanhol	espanhol	NOUN	NOUN	_	14	nsubj	_	_
 4	David	_	PROPN	PNOUN	_	3	appos	_	_
 5	Ferrer	_	PROPN	PNOUN	_	4	flat	_	SpaceAfter=No
@@ -22,7 +22,7 @@
 19	-	-	PUNCT	.	_	20	punct	_	_
 20	feira	_	PROPN	PNOUN	_	14	nmod	_	_
 21	para	para	ADP	ADP	_	23	case	_	_
-22	a	o	DET	DET	_	23	det	_	_
+22	a	o	DET	DET	PronType=Art	23	det	_	_
 23	semifinal	semifinal	NOUN	NOUN	_	14	nmod	_	_
 24-25	do	_	_	_	_	_	_	_	_
 24	de	de	ADP	ADP	_	26	case	_	_
@@ -35,7 +35,7 @@
 30	a	a	ADP	ADP	_	32	case	_	_
 31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	derrotar	derrotar	VERB	VERB	_	14	advcl	_	_
-33	o	o	DET	DET	_	34	det	_	_
+33	o	o	DET	DET	PronType=Art	34	det	_	_
 34	francês	francês	NOUN	NOUN	_	32	obj	_	_
 35	Jo	_	PROPN	PNOUN	_	34	appos	_	_
 36	-	-	PUNCT	.	_	35	punct	_	_
@@ -56,14 +56,14 @@
 
 # sent_id = train-s7674
 # text = O banco busca fortalecer a parceria com os clientes e com propostas de quitação de débitos, inclusive com parcelamentos no prazo original da operação e redução de multas e juros.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	banco	banco	NOUN	NOUN	_	3	nsubj	_	_
 3	busca	buscar	VERB	VERB	_	0	root	_	_
 4	fortalecer	fortalecer	VERB	VERB	_	3	xcomp	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	parceria	parceria	NOUN	NOUN	_	4	obj	_	_
 7	com	com	ADP	ADP	_	9	case	_	_
-8	os	o	DET	DET	_	9	det	_	_
+8	os	o	DET	DET	PronType=Art	9	det	_	_
 9	clientes	cliente	NOUN	NOUN	_	4	nmod	_	_
 10	e	e	CCONJ	CONJ	_	12	cc	_	_
 11	com	com	ADP	ADP	_	12	case	_	_
@@ -113,12 +113,12 @@
 1	De	_	ADP	ADP	_	2	case	_	_
 2	acordo	acordo	NOUN	NOUN	_	16	nmod	_	_
 3	com	com	ADP	ADP	_	5	case	_	_
-4	o	o	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	PronType=Art	5	det	_	_
 5	Vice	_	PROPN	PNOUN	_	2	nmod	_	_
 6	-	-	PUNCT	.	_	5	punct	_	_
 7	Presidente	_	PROPN	PNOUN	_	5	flat	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	2	punct	_	_
-9	a	o	DET	DET	_	11	det	_	_
+9	a	o	DET	DET	PronType=Art	11	det	_	_
 10	grande	grande	ADJ	ADJ	_	11	amod	_	_
 11	diferença	diferença	NOUN	NOUN	_	16	nsubj	_	_
 12-13	no	_	_	_	_	_	_	_	_
@@ -190,12 +190,12 @@
 18	,	,	PUNCT	.	_	23	punct	_	_
 19	que	_	PRON	PRON	_	23	nsubj	_	_
 20	é	ser	AUX	AUX	_	23	cop	_	_
-21	o	o	DET	DET	_	23	det	_	_
+21	o	o	DET	DET	PronType=Art	23	det	_	_
 22	meu	_	DET	DET	_	23	det:poss	_	_
 23	caso	caso	NOUN	NOUN	_	6	parataxis	_	_
 24	--	_	PUNCT	.	_	23	punct	_	_
 25	disse	dizer	VERB	VERB	_	0	root	_	_
-26	o	o	DET	DET	_	27	det	_	_
+26	o	o	DET	DET	PronType=Art	27	det	_	_
 27	piloto	piloto	NOUN	NOUN	_	25	nsubj	_	_
 28	Beto	_	PROPN	PNOUN	_	27	appos	_	_
 29	Cavaleiro	_	PROPN	PNOUN	_	28	flat	_	SpaceAfter=No
@@ -221,7 +221,7 @@
 # sent_id = train-s7680
 # text = Sem o remetente identificado com nome, sobrenome e e - mail válido.
 1	Sem	_	VERB	VERB	_	3	case	_	_
-2	o	o	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	PronType=Art	3	det	_	_
 3	remetente	remetente	NOUN	NOUN	_	0	root	_	_
 4	identificado	identificar	VERB	VERB	_	3	acl	_	_
 5	com	com	ADP	ADP	_	6	case	_	_
@@ -240,7 +240,7 @@
 1	Para	_	ADP	ADP	_	2	case	_	_
 2	Carvalho	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
-4	o	o	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	PronType=Art	5	det	_	_
 5	governo	governo	NOUN	NOUN	_	7	nsubj	_	_
 6	brasileiro	brasileiro	ADJ	ADJ	_	5	amod	_	_
 7	precisa	precisar	VERB	VERB	_	0	root	_	_
@@ -261,14 +261,14 @@
 21	cria	_	VERB	VERB	_	16	acl:relcl	_	_
 22	restrições	restrição	NOUN	NOUN	_	21	obj	_	_
 23	para	para	ADP	ADP	_	25	case	_	_
-24	a	o	DET	DET	_	25	det	_	_
+24	a	o	DET	DET	PronType=Art	25	det	_	_
 25	compra	compra	NOUN	NOUN	_	22	nmod	_	_
 26	de	de	ADP	ADP	_	27	case	_	_
 27	veículos	veículo	NOUN	NOUN	_	25	nmod	_	SpaceAfter=No
 28	,	,	PUNCT	.	_	30	punct	_	_
 29	mas	mas	CCONJ	CONJ	_	30	cc	_	_
 30	estimula	estimular	VERB	VERB	_	21	conj	_	_
-31	o	o	DET	DET	_	32	det	_	_
+31	o	o	DET	DET	PronType=Art	32	det	_	_
 32	uso	uso	NOUN	NOUN	_	30	obj	_	_
 33	racional	racional	ADJ	ADJ	_	32	amod	_	_
 34	de	de	ADP	ADP	_	35	case	_	_
@@ -284,14 +284,14 @@
 3	por	por	ADP	ADP	_	4	case	_	_
 4	isso	_	PRON	PRON	_	2	nmod	_	_
 5	que	_	PRON	PRON	_	12	mark	_	_
-6	o	o	DET	DET	_	7	det	_	_
+6	o	o	DET	DET	PronType=Art	7	det	_	_
 7	Tribunal	_	PROPN	PNOUN	_	12	nsubj	_	_
 8	Constitucional	_	PROPN	PNOUN	_	7	amod	_	_
 9	com	com	ADP	ADP	_	11	case	_	_
 10	muita	_	DET	DET	_	11	det	_	_
 11	probabilidade	probabilidade	NOUN	NOUN	_	12	nmod	_	_
 12	chumbará	chumbar	VERB	VERB	_	2	csubj	_	_
-13	o	o	DET	DET	_	14	det	_	_
+13	o	o	DET	DET	PronType=Art	14	det	_	_
 14	Orçamento	_	PROPN	PNOUN	_	12	obj	_	_
 15-16	do	_	_	_	_	_	_	_	_
 15	de	de	ADP	ADP	_	17	case	_	_

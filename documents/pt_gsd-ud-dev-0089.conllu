@@ -18,7 +18,7 @@
 14	/	/	PUNCT	.	_	15	punct	_	_
 15	l	l	NOUN	NOUN	_	13	appos	_	SpaceAfter=No
 16	,	,	PUNCT	.	_	3	punct	_	_
-17	o	o	DET	DET	_	18	det	_	_
+17	o	o	DET	DET	PronType=Art	18	det	_	_
 18	consumo	consumo	NOUN	NOUN	_	20	nsubj	_	_
 19	deve	dever	AUX	AUX	_	20	aux	_	_
 20	chegar	chegar	VERB	VERB	_	0	root	_	_
@@ -43,17 +43,17 @@
 8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	campo	campo	NOUN	NOUN	_	6	nmod	_	_
 10	e	e	CCONJ	CONJ	_	13	cc	_	_
-11	o	o	DET	DET	_	13	det	_	_
+11	o	o	DET	DET	PronType=Art	13	det	_	_
 12	curto	curto	ADJ	ADJ	_	13	amod	_	_
 13	espaço	espaço	NOUN	NOUN	_	3	conj	_	_
 14	entre	_	ADP	ADP	_	16	case	_	_
-15	as	o	DET	DET	_	16	det	_	_
+15	as	o	DET	DET	PronType=Art	16	det	_	_
 16	linhas	_	NOUN	NOUN	_	13	nmod	_	_
 17	e	e	CCONJ	CONJ	_	19	cc	_	_
 18	a	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	torcida	torcida	NOUN	NOUN	_	16	conj	_	SpaceAfter=No
 20	,	,	PUNCT	.	_	3	punct	_	_
-21	o	o	DET	DET	_	22	det	_	_
+21	o	o	DET	DET	PronType=Art	22	det	_	_
 22	campo	campo	NOUN	NOUN	_	23	nsubj	_	_
 23	está	estar	VERB	VERB	_	0	root	_	_
 24	bem	bem	ADV	ADV	_	25	advmod	_	_
@@ -66,7 +66,7 @@
 
 # sent_id = dev-s875
 # text = Os dois passageiros do Kadett também morreram.
-1	Os	o	DET	DET	_	3	det	_	_
+1	Os	o	DET	DET	PronType=Art	3	det	_	_
 2	dois	_	NUM	NUM	NumType=Card	3	nummod	_	_
 3	passageiros	passageiro	NOUN	NOUN	_	8	nsubj	_	_
 4-5	do	_	_	_	_	_	_	_	_
@@ -83,7 +83,7 @@
 2	Temos	ter	AUX	AUX	_	4	aux	_	_
 3	de	_	ADP	ADP	_	4	mark	_	_
 4	reunir	reunir	VERB	VERB	_	0	root	_	_
-5	os	o	DET	DET	_	6	det	_	_
+5	os	o	DET	DET	PronType=Art	6	det	_	_
 6	elementos	elemento	NOUN	NOUN	_	4	obj	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	4	punct	_	_
 8	jamais	jamais	ADV	ADV	_	9	advmod	_	_
@@ -100,10 +100,10 @@
 # text = E agora o endividamento e a necessidade de cortar gastos que afeta tanto administrações regionais como o governo central do país já provoca até mesmo escassez de medicamentos nas farmácias.
 1	E	_	CCONJ	CONJ	_	24	cc	_	_
 2	agora	agora	ADV	ADV	_	24	advmod	_	_
-3	o	o	DET	DET	_	4	det	_	_
+3	o	o	DET	DET	PronType=Art	4	det	_	_
 4	endividamento	endividamento	NOUN	NOUN	_	24	nsubj	_	_
 5	e	e	CCONJ	CONJ	_	7	cc	_	_
-6	a	o	DET	DET	_	7	det	_	_
+6	a	o	DET	DET	PronType=Art	7	det	_	_
 7	necessidade	necessidade	NOUN	NOUN	_	4	conj	_	_
 8	de	_	ADP	ADP	_	9	mark	_	_
 9	cortar	cortar	VERB	VERB	_	7	nmod	_	_
@@ -114,7 +114,7 @@
 14	administrações	administração	NOUN	NOUN	_	12	obj	_	_
 15	regionais	regional	ADJ	ADJ	_	14	amod	_	_
 16	como	_	CCONJ	CONJ	_	18	cc	_	_
-17	o	o	DET	DET	_	18	det	_	_
+17	o	o	DET	DET	PronType=Art	18	det	_	_
 18	governo	governo	NOUN	NOUN	_	14	conj	_	_
 19	central	central	ADJ	ADJ	_	18	amod	_	_
 20-21	do	_	_	_	_	_	_	_	_
@@ -151,7 +151,7 @@
 # text = Quero registrar o empenho do nosso diretor de Irrigação, João Quintiliano que tem incentivado sua equipe a abraçar essa causa ", concluiu.
 1	Quero	querer	VERB	VERB	_	25	ccomp	_	_
 2	registrar	registrar	VERB	VERB	_	1	xcomp	_	_
-3	o	o	DET	DET	_	4	det	_	_
+3	o	o	DET	DET	PronType=Art	4	det	_	_
 4	empenho	empenho	NOUN	NOUN	_	2	obj	_	_
 5-6	do	_	_	_	_	_	_	_	_
 5	de	de	ADP	ADP	_	8	case	_	_
@@ -180,7 +180,7 @@
 # sent_id = dev-s880
 # text = Confira os preços e surpreenda - se:
 1	Confira	conferir	VERB	VERB	_	0	root	_	_
-2	os	o	DET	DET	_	3	det	_	_
+2	os	o	DET	DET	PronType=Art	3	det	_	_
 3	preços	preço	NOUN	NOUN	_	1	obj	_	_
 4	e	e	CCONJ	CONJ	_	5	cc	_	_
 5	surpreenda	surpreender	VERB	VERB	_	1	conj	_	_
@@ -215,7 +215,7 @@
 23	1.800	_	NUM	NUM	NumType=Card	24	nummod	_	_
 24	metros	metro	NOUN	NOUN	_	21	obj	_	_
 25	para	para	ADP	ADP	_	27	case	_	_
-26	as	o	DET	DET	_	27	det	_	_
+26	as	o	DET	DET	PronType=Art	27	det	_	_
 27	mulheres	mulher	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
 28	)	)	PUNCT	.	_	17	punct	_	_
 29	e	e	CCONJ	CONJ	_	30	cc	_	_
@@ -230,7 +230,7 @@
 
 # sent_id = dev-s882
 # text = As eleições se ganham com votos e no dia 7 de outubro seremos testemunhas dessa mudança que vem para a Venezuela.
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	PronType=Art	2	det	_	_
 2	eleições	eleição	NOUN	NOUN	_	4	nsubj	_	_
 3	se	_	PRON	PRON	_	4	expl:pv	_	_
 4	ganham	ganhar	VERB	VERB	_	0	root	_	_
@@ -251,7 +251,7 @@
 18	que	_	PRON	PRON	_	19	nsubj	_	_
 19	vem	vir	VERB	VERB	_	17	acl:relcl	_	_
 20	para	para	ADP	ADP	_	22	case	_	_
-21	a	o	DET	DET	_	22	det	_	_
+21	a	o	DET	DET	PronType=Art	22	det	_	_
 22	Venezuela	_	PROPN	PNOUN	_	19	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	4	punct	_	_
 

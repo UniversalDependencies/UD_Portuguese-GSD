@@ -3,14 +3,14 @@
 1	Evento	evento	NOUN	NOUN	_	3	nsubj	_	_
 2	vai	ir	AUX	AUX	_	3	aux	_	_
 3	debater	debater	VERB	VERB	_	0	root	_	_
-4	os	o	DET	DET	_	6	det	_	_
+4	os	o	DET	DET	PronType=Art	6	det	_	_
 5	principais	principal	ADJ	ADJ	_	6	amod	_	_
 6	desafios	desafio	NOUN	NOUN	_	3	obj	_	_
 7	e	e	CCONJ	CONJ	_	8	cc	_	_
 8	propor	propor	VERB	VERB	_	3	conj	_	_
 9	soluções	solução	NOUN	NOUN	_	8	obj	_	_
 10	para	para	ADP	ADP	_	12	case	_	_
-11	o	o	DET	DET	_	12	det	_	_
+11	o	o	DET	DET	PronType=Art	12	det	_	_
 12	transporte	transporte	NOUN	NOUN	_	9	nmod	_	_
 13	de	de	ADP	ADP	_	14	case	_	_
 14	cargas	carga	NOUN	NOUN	_	12	nmod	_	_
@@ -23,10 +23,10 @@
 # sent_id = dev-s291
 # text = Segundo a vizinhança, o equipamento foi inaugurado há quatro anos, entretanto, há pouco mais dum ano o local está escuro, se tornando um ponto perigoso do bairro, propício para usuários de drogas.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	vizinhança	vizinhança	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
-5	o	o	DET	DET	_	6	det	_	_
+5	o	o	DET	DET	PronType=Art	6	det	_	_
 6	equipamento	equipamento	NOUN	NOUN	_	8	nsubj:pass	_	_
 7	foi	_	AUX	AUX	_	8	aux:pass	_	_
 8	inaugurado	inaugurar	VERB	VERB	_	0	root	_	_
@@ -43,7 +43,7 @@
 18	de	de	ADP	ADP	_	17	case	_	_
 19	um	_	NUM	NUM	NumType=Card	20	nummod	_	_
 20	ano	ano	NOUN	NOUN	_	15	nmod	_	_
-21	o	o	DET	DET	_	22	det	_	_
+21	o	o	DET	DET	PronType=Art	22	det	_	_
 22	local	local	NOUN	NOUN	_	23	nsubj	_	_
 23	está	estar	VERB	VERB	_	8	conj	_	_
 24	escuro	escuro	ADJ	ADJ	_	23	xcomp	_	SpaceAfter=No
@@ -68,7 +68,7 @@
 # sent_id = dev-s292
 # text = Precisa os órgãos que cuidam desse material, recolher amostras para certificar se realmente é biodegradável, oriundo de material orgânico ", diz o professor.
 1	Precisa	precisar	VERB	VERB	_	24	ccomp	_	_
-2	os	o	DET	DET	_	3	det	_	_
+2	os	o	DET	DET	PronType=Art	3	det	_	_
 3	órgãos	órgão	NOUN	NOUN	_	9	nsubj	_	_
 4	que	_	PRON	PRON	_	5	nsubj	_	_
 5	cuidam	cuidar	VERB	VERB	_	3	acl:relcl	_	_
@@ -91,14 +91,14 @@
 22	"	"	PUNCT	.	_	1	punct	_	SpaceAfter=No
 23	,	,	PUNCT	.	_	24	punct	_	_
 24	diz	dizer	VERB	VERB	_	0	root	_	_
-25	o	o	DET	DET	_	26	det	_	_
+25	o	o	DET	DET	PronType=Art	26	det	_	_
 26	professor	professor	NOUN	NOUN	_	24	nsubj	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	24	punct	_	_
 
 # sent_id = dev-s293
 # text = 'O Galatto está crescendo nos treinamentos e sei que ele chegou para ser titular, mas o Dida soube aproveitar e vem correspondendo.
 1	'	_	PUNCT	.	_	5	punct	_	SpaceAfter=No
-2	O	o	DET	DET	_	3	det	_	_
+2	O	o	DET	DET	PronType=Art	3	det	_	_
 3	Galatto	_	PROPN	PNOUN	_	5	nsubj	_	_
 4	está	estar	AUX	AUX	_	5	aux	_	_
 5	crescendo	crescer	VERB	VERB	_	0	root	_	_
@@ -116,7 +116,7 @@
 16	titular	titular	NOUN	NOUN	_	13	advcl	_	SpaceAfter=No
 17	,	,	PUNCT	.	_	21	punct	_	_
 18	mas	mas	CCONJ	CONJ	_	21	cc	_	_
-19	o	o	DET	DET	_	20	det	_	_
+19	o	o	DET	DET	PronType=Art	20	det	_	_
 20	Dida	_	PROPN	PNOUN	_	21	nsubj	_	_
 21	soube	saber	VERB	VERB	_	5	conj	_	_
 22	aproveitar	aproveitar	VERB	VERB	_	21	xcomp	_	_
@@ -127,7 +127,7 @@
 
 # sent_id = dev-s294
 # text = A linha do VLT era umas das principais obras para a mobilidade urbana de Brasília, que receberá sete jogos da Copa do Mundo.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	linha	_	NOUN	NOUN	_	7	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -141,7 +141,7 @@
 10	principais	principal	ADJ	ADJ	_	11	amod	_	_
 11	obras	obra	NOUN	NOUN	_	7	nmod	_	_
 12	para	para	ADP	ADP	_	14	case	_	_
-13	a	o	DET	DET	_	14	det	_	_
+13	a	o	DET	DET	PronType=Art	14	det	_	_
 14	mobilidade	mobilidade	NOUN	NOUN	_	11	nmod	_	_
 15	urbana	urbano	ADJ	ADJ	_	14	amod	_	_
 16	de	de	ADP	ADP	_	17	case	_	_
@@ -164,17 +164,17 @@
 # sent_id = dev-s295
 # text = Segundo a PF, o pedido teria de ser negociado com os indígenas.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	PF	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
-5	o	o	DET	DET	_	6	det	_	_
+5	o	o	DET	DET	PronType=Art	6	det	_	_
 6	pedido	pedido	NOUN	NOUN	_	10	nsubj:pass	_	_
 7	teria	ter	AUX	AUX	_	10	aux	_	_
 8	de	_	ADP	ADP	_	10	mark	_	_
 9	ser	ser	AUX	AUX	_	10	aux:pass	_	_
 10	negociado	negociar	VERB	VERB	_	0	root	_	_
 11	com	com	ADP	ADP	_	13	case	_	_
-12	os	o	DET	DET	_	13	det	_	_
+12	os	o	DET	DET	PronType=Art	13	det	_	_
 13	indígenas	indígena	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	10	punct	_	_
 
@@ -197,7 +197,7 @@
 
 # sent_id = dev-s297
 # text = O alto valor do aruanã - dourado como peixe de aquário tem afetado a sua preservação.
-1	O	o	DET	DET	_	3	det	_	_
+1	O	o	DET	DET	PronType=Art	3	det	_	_
 2	alto	alto	ADJ	ADJ	_	3	amod	_	_
 3	valor	valor	NOUN	NOUN	_	14	nsubj	_	_
 4-5	do	_	_	_	_	_	_	_	_
@@ -212,7 +212,7 @@
 12	aquário	aquário	NOUN	NOUN	_	10	nmod	_	_
 13	tem	ter	AUX	AUX	_	14	aux	_	_
 14	afetado	afetar	VERB	VERB	_	0	root	_	_
-15	a	o	DET	DET	_	17	det	_	_
+15	a	o	DET	DET	PronType=Art	17	det	_	_
 16	sua	_	DET	DET	_	17	det:poss	_	_
 17	preservação	preservação	NOUN	NOUN	_	14	obj	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	14	punct	_	_
@@ -225,11 +225,11 @@
 4	13	_	NUM	NUM	NumType=Card	5	nummod	_	_
 5	anos	ano	NOUN	NOUN	_	2	nmod	_	_
 6	conduzia	conduzir	VERB	VERB	_	0	root	_	_
-7	o	o	DET	DET	_	8	det	_	_
+7	o	o	DET	DET	PronType=Art	8	det	_	_
 8	equipamento	equipamento	NOUN	NOUN	_	6	obj	_	_
 9	quando	quando	ADV	ADV	_	10	mark	_	_
 10	perdeu	perder	VERB	VERB	_	6	advcl	_	_
-11	o	o	DET	DET	_	12	det	_	_
+11	o	o	DET	DET	PronType=Art	12	det	_	_
 12	controle	_	NOUN	NOUN	_	10	obj	_	_
 13-14	do	_	_	_	_	_	_	_	_
 13	de	de	ADP	ADP	_	15	case	_	_
@@ -242,7 +242,7 @@
 1	Ele	_	PRON	PRON	_	2	nsubj	_	_
 2	espera	esperar	VERB	VERB	_	0	root	_	_
 3	que	que	CCONJ	CONJ	_	8	mark	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	equipe	equipe	NOUN	NOUN	_	8	nsubj	_	_
 6	volte	voltar	AUX	AUX	_	8	aux	_	_
 7	a	_	ADP	ADP	_	8	mark	_	_
@@ -255,7 +255,7 @@
 14	,	,	PUNCT	.	_	16	punct	_	_
 15	mas	mas	CCONJ	CONJ	_	16	cc	_	_
 16	mantém	manter	VERB	VERB	_	8	conj	_	_
-17	o	o	DET	DET	_	18	det	_	_
+17	o	o	DET	DET	PronType=Art	18	det	_	_
 18	foco	foco	NOUN	NOUN	_	16	obj	_	_
 19-20	na	_	_	_	_	_	_	_	_
 19	em	em	ADP	ADP	_	21	case	_	_

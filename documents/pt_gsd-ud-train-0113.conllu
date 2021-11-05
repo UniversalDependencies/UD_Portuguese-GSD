@@ -4,7 +4,7 @@
 2	este	_	DET	DET	_	3	det	_	_
 3	ano	ano	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
-5	as	o	DET	DET	_	6	det	_	_
+5	as	o	DET	DET	PronType=Art	6	det	_	_
 6	perspectivas	perspectiva	NOUN	NOUN	_	18	nsubj	_	_
 7-8	da	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
@@ -70,7 +70,7 @@
 
 # sent_id = train-s1122
 # text = O atleta cubano também reclamou, e acusou o rival de agredí - lo.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	atleta	atleta	NOUN	NOUN	_	5	nsubj	_	_
 3	cubano	cubano	ADJ	ADJ	_	2	amod	_	_
 4	também	também	ADV	ADV	_	5	advmod	_	_
@@ -78,7 +78,7 @@
 6	,	,	PUNCT	.	_	8	punct	_	_
 7	e	e	CCONJ	CONJ	_	8	cc	_	_
 8	acusou	acusar	VERB	VERB	_	5	conj	_	_
-9	o	o	DET	DET	_	10	det	_	_
+9	o	o	DET	DET	PronType=Art	10	det	_	_
 10	rival	rival	NOUN	NOUN	_	8	obj	_	_
 11	de	_	ADP	ADP	_	12	mark	_	_
 12	agredí	_	VERB	VERB	_	8	nmod	_	_
@@ -96,7 +96,7 @@
 5	ataque	ataque	NOUN	NOUN	_	2	nmod	_	_
 6	adversário	adversário	ADJ	ADJ	_	5	amod	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	2	punct	_	_
-8	o	o	DET	DET	_	9	det	_	_
+8	o	o	DET	DET	PronType=Art	9	det	_	_
 9	dono	dono	NOUN	NOUN	_	14	nsubj	_	_
 10-11	da	_	_	_	_	_	_	_	_
 10	de	de	ADP	ADP	_	12	case	_	_
@@ -105,7 +105,7 @@
 13	alviverde	alviverde	ADJ	ADJ	_	12	amod	_	_
 14	evitou	evitar	VERB	VERB	_	0	root	_	_
 15	que	que	CCONJ	CONJ	_	18	mark	_	_
-16	o	o	DET	DET	_	17	det	_	_
+16	o	o	DET	DET	PronType=Art	17	det	_	_
 17	time	time	NOUN	NOUN	_	18	nsubj	_	_
 18	saísse	sair	VERB	VERB	_	14	ccomp	_	_
 19	sem	_	ADP	ADP	_	21	case	_	_
@@ -120,7 +120,7 @@
 
 # sent_id = train-s1124
 # text = A película promete grandes emoções para fãs e amantes do Homem - Aranha, já que faz uma releitura de toda a história do herói, desde a infância até a descoberta de seus poderes, o segredo da morte de seus pais e finalmente o primeiro contato com seu primeiro inimigo.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	película	película	NOUN	NOUN	_	3	nsubj	_	_
 3	promete	prometer	VERB	VERB	_	0	root	_	_
 4	grandes	grande	ADJ	ADJ	_	5	amod	_	_
@@ -143,7 +143,7 @@
 20	releitura	releitura	NOUN	NOUN	_	18	obj	_	_
 21	de	de	ADP	ADP	_	24	case	_	_
 22	toda	_	DET	DET	_	24	det	_	_
-23	a	o	DET	DET	_	24	det	_	_
+23	a	o	DET	DET	PronType=Art	24	det	_	_
 24	história	história	NOUN	NOUN	_	20	nmod	_	_
 25-26	do	_	_	_	_	_	_	_	_
 25	de	de	ADP	ADP	_	27	case	_	_
@@ -151,16 +151,16 @@
 27	herói	herói	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
 28	,	,	PUNCT	.	_	31	punct	_	_
 29	desde	_	ADP	ADP	_	31	case	_	_
-30	a	o	DET	DET	_	31	det	_	_
+30	a	o	DET	DET	PronType=Art	31	det	_	_
 31	infância	infância	NOUN	NOUN	_	24	nmod	_	_
 32	até	_	ADP	ADP	_	34	case	_	_
-33	a	o	DET	DET	_	34	det	_	_
+33	a	o	DET	DET	PronType=Art	34	det	_	_
 34	descoberta	_	NOUN	NOUN	_	24	nmod	_	_
 35	de	de	ADP	ADP	_	37	case	_	_
 36	seus	_	DET	DET	_	37	det:poss	_	_
 37	poderes	_	NOUN	NOUN	_	34	nmod	_	SpaceAfter=No
 38	,	,	PUNCT	.	_	40	punct	_	_
-39	o	o	DET	DET	_	40	det	_	_
+39	o	o	DET	DET	PronType=Art	40	det	_	_
 40	segredo	segredo	NOUN	NOUN	_	34	conj	_	_
 41-42	da	_	_	_	_	_	_	_	_
 41	de	de	ADP	ADP	_	43	case	_	_
@@ -171,7 +171,7 @@
 46	pais	_	NOUN	NOUN	_	43	nmod	_	_
 47	e	e	CCONJ	CONJ	_	51	cc	_	_
 48	finalmente	finalmente	ADV	ADV	_	34	advmod	_	_
-49	o	o	DET	DET	_	51	det	_	_
+49	o	o	DET	DET	PronType=Art	51	det	_	_
 50	primeiro	primeiro	ADJ	ADJ	_	51	amod	_	_
 51	contato	contato	NOUN	NOUN	_	34	conj	_	_
 52	com	com	ADP	ADP	_	55	case	_	_
@@ -183,7 +183,7 @@
 # sent_id = train-s1125
 # text = Com a morte de sua mãe, Tavares interrompeu a tradição de enfeitar a casa.
 1	Com	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	morte	morte	NOUN	NOUN	_	9	nmod	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
 5	sua	_	DET	DET	_	6	det:poss	_	_
@@ -191,17 +191,17 @@
 7	,	,	PUNCT	.	_	3	punct	_	_
 8	Tavares	_	PROPN	PNOUN	_	9	nsubj	_	_
 9	interrompeu	interromper	VERB	VERB	_	0	root	_	_
-10	a	o	DET	DET	_	11	det	_	_
+10	a	o	DET	DET	PronType=Art	11	det	_	_
 11	tradição	tradição	NOUN	NOUN	_	9	obj	_	_
 12	de	_	ADP	ADP	_	13	mark	_	_
 13	enfeitar	enfeitar	VERB	VERB	_	11	nmod	_	_
-14	a	o	DET	DET	_	15	det	_	_
+14	a	o	DET	DET	PronType=Art	15	det	_	_
 15	casa	casa	NOUN	NOUN	_	13	obj	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s1126
 # text = O Esquadrão Antibomba da Coordenadoria de Recursos Especiais (Core) é um dos beneficiados, com a aquisição de equipamentos de última geração.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	Esquadrão	_	PROPN	PNOUN	_	14	nsubj	_	_
 3	Antibomba	_	PROPN	PNOUN	_	2	amod	_	_
 4-5	da	_	_	_	_	_	_	_	_
@@ -222,7 +222,7 @@
 17	beneficiados	beneficiado	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	.	_	21	punct	_	_
 19	com	com	ADP	ADP	_	21	case	_	_
-20	a	o	DET	DET	_	21	det	_	_
+20	a	o	DET	DET	PronType=Art	21	det	_	_
 21	aquisição	aquisição	NOUN	NOUN	_	14	nmod	_	_
 22	de	de	ADP	ADP	_	23	case	_	_
 23	equipamentos	equipamento	NOUN	NOUN	_	21	nmod	_	_
@@ -233,7 +233,7 @@
 
 # sent_id = train-s1127
 # text = O deputado estadual Airton Português vai lançar nesta quarta - feira (31) abaixo - assinado para instalação da Base Aérea em Cáceres.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	deputado	deputado	NOUN	NOUN	_	7	nsubj	_	_
 3	estadual	estadual	ADJ	ADJ	_	2	amod	_	_
 4	Airton	_	PROPN	PNOUN	_	2	appos	_	_
@@ -275,7 +275,7 @@
 1	Para	_	ADP	ADP	_	2	case	_	_
 2	ela	_	PRON	PRON	_	8	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	nudez	nudez	NOUN	NOUN	_	8	nsubj	_	_
 6	é	ser	AUX	AUX	_	8	cop	_	_
 7	uma	um	DET	DET	_	8	det	_	_

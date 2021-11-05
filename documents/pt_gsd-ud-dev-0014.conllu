@@ -1,7 +1,7 @@
 # sent_id = dev-s131
 # text = Com o tom firme nas respostas, o titular confirmou que há jogadores insatisfeitos no elenco rubro - negro, embora reconheça que isso é normal, principalmente para que não vem sendo titular.
 1	Com	_	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	PronType=Art	3	det	_	_
 3	tom	tom	NOUN	NOUN	_	11	nmod	_	_
 4	firme	firme	ADJ	ADJ	_	3	amod	_	_
 5-6	nas	_	_	_	_	_	_	_	_
@@ -9,7 +9,7 @@
 6	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
 7	respostas	resposta	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	3	punct	_	_
-9	o	o	DET	DET	_	10	det	_	_
+9	o	o	DET	DET	PronType=Art	10	det	_	_
 10	titular	titular	NOUN	NOUN	_	11	nsubj	_	_
 11	confirmou	confirmar	VERB	VERB	_	0	root	_	_
 12	que	que	CCONJ	CONJ	_	13	mark	_	_
@@ -44,7 +44,7 @@
 # text = Entretanto, a proposta de trabalho do São Paulo foi determinante para que Paulo Henrique Ganso optasse por defender o rival do time da Vila Belmiro.
 1	Entretanto	entretanto	ADV	ADV	_	11	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	.	_	1	punct	_	_
-3	a	o	DET	DET	_	4	det	_	_
+3	a	o	DET	DET	PronType=Art	4	det	_	_
 4	proposta	_	NOUN	NOUN	_	11	nsubj	_	_
 5	de	de	ADP	ADP	_	6	case	_	_
 6	trabalho	trabalho	NOUN	NOUN	_	4	nmod	_	_
@@ -63,7 +63,7 @@
 18	optasse	optar	VERB	VERB	_	12	nmod	_	_
 19	por	_	ADP	ADP	_	20	mark	_	_
 20	defender	defender	VERB	VERB	_	18	nmod	_	_
-21	o	o	DET	DET	_	22	det	_	_
+21	o	o	DET	DET	PronType=Art	22	det	_	_
 22	rival	rival	NOUN	NOUN	_	20	obj	_	_
 23-24	do	_	_	_	_	_	_	_	_
 23	de	de	ADP	ADP	_	25	case	_	_
@@ -97,7 +97,7 @@
 16	não	não	ADV	ADV	Polarity=Neg	18	advmod	_	_
 17	vai	ir	AUX	AUX	_	18	aux	_	_
 18	empregar	empregar	VERB	VERB	_	11	ccomp	_	_
-19	o	o	DET	DET	_	20	det	_	_
+19	o	o	DET	DET	PronType=Art	20	det	_	_
 20	termo	termo	NOUN	NOUN	_	18	obj	_	_
 21	"	"	PUNCT	.	_	22	punct	_	SpaceAfter=No
 22	volta	volta	NOUN	NOUN	_	20	appos	_	_
@@ -115,7 +115,7 @@
 
 # sent_id = dev-s134
 # text = A argumentação foi rebatida pelo juiz da 11 ª Vara do Trabalho de Vitória.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	argumentação	argumentação	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foi	_	AUX	AUX	_	4	aux:pass	_	_
 4	rebatida	rebater	VERB	VERB	_	0	root	_	_
@@ -143,10 +143,10 @@
 2	39,6	_	NUM	NUM	NumType=Card	3	nummod	_	_
 3	%	_	SYM	SYM	_	9	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
-5	o	o	DET	DET	_	6	det	_	_
+5	o	o	DET	DET	PronType=Art	6	det	_	_
 6	problema	problema	NOUN	NOUN	_	9	nsubj	_	_
 7	são	ser	AUX	AUX	_	9	cop	_	_
-8	as	o	DET	DET	_	9	det	_	_
+8	as	o	DET	DET	PronType=Art	9	det	_	_
 9	pessoas	pessoa	NOUN	NOUN	_	0	root	_	_
 10	desmotivadas	desmotivado	ADJ	ADJ	_	9	amod	_	_
 11	ou	ou	CCONJ	CONJ	_	12	cc	_	_
@@ -167,13 +167,13 @@
 24	um	um	DET	DET	_	25	det	_	_
 25	significado	significado	NOUN	NOUN	_	22	nmod	_	_
 26	para	para	ADP	ADP	_	28	case	_	_
-27	o	o	DET	DET	_	28	det	_	_
+27	o	o	DET	DET	PronType=Art	28	det	_	_
 28	trabalho	trabalho	NOUN	NOUN	_	25	nmod	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = dev-s136
 # text = O corte será o que anunciei ", disse a presidente no pronunciamento de 11 minutos gravado no Palácio da Alvorada, residência oficial da Presidência da República.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	corte	corte	NOUN	NOUN	_	4	nsubj	_	_
 3	será	ser	AUX	AUX	_	4	cop	_	_
 4	o	_	PRON	PRON	_	9	ccomp	_	_
@@ -182,7 +182,7 @@
 7	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	9	punct	_	_
 9	disse	dizer	VERB	VERB	_	0	root	_	_
-10	a	o	DET	DET	_	11	det	_	_
+10	a	o	DET	DET	PronType=Art	11	det	_	_
 11	presidente	presidente	NOUN	NOUN	_	9	nsubj	_	_
 12-13	no	_	_	_	_	_	_	_	_
 12	em	em	ADP	ADP	_	14	case	_	_
@@ -224,7 +224,7 @@
 7	uma	_	NUM	NUM	NumType=Card	8	nummod	_	_
 8	semana	semana	NOUN	NOUN	_	11	nmod	_	_
 9	após	_	ADP	ADP	_	11	case	_	_
-10	o	o	DET	DET	_	11	det	_	_
+10	o	o	DET	DET	PronType=Art	11	det	_	_
 11	atentado	atentado	NOUN	NOUN	_	6	nmod	_	_
 12-13	num	_	_	_	_	_	_	_	_
 12	em	em	ADP	ADP	_	14	case	_	_
@@ -268,7 +268,7 @@
 3	-	-	PUNCT	.	_	2	punct	_	_
 4	venda	venda	NOUN	NOUN	_	2	flat	_	_
 5	para	para	ADP	ADP	_	7	case	_	_
-6	os	o	DET	DET	_	7	det	_	_
+6	os	o	DET	DET	PronType=Art	7	det	_	_
 7	shows	show	NOUN	NOUN	_	2	nmod	_	_
 8	de	de	ADP	ADP	_	9	case	_	_
 9	São	_	PROPN	PNOUN	_	7	nmod	_	_
@@ -301,7 +301,7 @@
 
 # sent_id = dev-s139
 # text = A disputa entre Nina (Débora Falabella) e Carminha (Adriana Esteves) promete esquentar nos próximos capítulos de '' Avenida Brasil ''.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	disputa	disputa	NOUN	NOUN	_	15	nsubj	_	_
 3	entre	_	ADP	ADP	_	4	case	_	_
 4	Nina	_	PROPN	PNOUN	_	2	nmod	_	_
@@ -331,7 +331,7 @@
 
 # sent_id = dev-s140
 # text = A única mudança em relação ao time que enfrentou o Criciúma, na última rodada, é a entrada do zagueiro Thiego no lugar de Daniel Marques, que terá que cumprir suspensão automática nas próximas duas partidas do Alvinegro.
-1	A	o	DET	DET	_	3	det	_	_
+1	A	o	DET	DET	PronType=Art	3	det	_	_
 2	única	único	ADJ	ADJ	_	3	amod	_	_
 3	mudança	mudança	NOUN	NOUN	_	21	nsubj	_	_
 4	em	em	ADP	ADP	_	5	case	_	_
@@ -342,7 +342,7 @@
 8	time	time	NOUN	NOUN	_	5	nmod	_	_
 9	que	_	PRON	PRON	_	10	nsubj	_	_
 10	enfrentou	enfrentar	VERB	VERB	_	8	acl:relcl	_	_
-11	o	o	DET	DET	_	12	det	_	_
+11	o	o	DET	DET	PronType=Art	12	det	_	_
 12	Criciúma	_	PROPN	PNOUN	_	10	obj	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	17	punct	_	_
 14-15	na	_	_	_	_	_	_	_	_
@@ -352,7 +352,7 @@
 17	rodada	_	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	.	_	17	punct	_	_
 19	é	ser	AUX	AUX	_	21	cop	_	_
-20	a	o	DET	DET	_	21	det	_	_
+20	a	o	DET	DET	PronType=Art	21	det	_	_
 21	entrada	entrada	NOUN	NOUN	_	0	root	_	_
 22-23	do	_	_	_	_	_	_	_	_
 22	de	de	ADP	ADP	_	24	case	_	_

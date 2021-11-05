@@ -27,11 +27,11 @@
 22	um	um	DET	DET	_	23	det	_	_
 23	plebiscito	plebiscito	NOUN	NOUN	_	28	nsubj	_	_
 24	com	com	ADP	ADP	_	26	case	_	_
-25	os	o	DET	DET	_	26	det	_	_
+25	os	o	DET	DET	PronType=Art	26	det	_	_
 26	sócios	sócio	NOUN	NOUN	_	23	nmod	_	_
 27	deve	dever	AUX	AUX	_	28	aux	_	_
 28	referendar	referendar	VERB	VERB	_	0	root	_	_
-29	a	o	DET	DET	_	30	det	_	_
+29	a	o	DET	DET	PronType=Art	30	det	_	_
 30	implantação	implantação	NOUN	NOUN	_	28	obj	_	_
 31-32	das	_	_	_	_	_	_	_	_
 31	de	de	ADP	ADP	_	33	case	_	_
@@ -44,7 +44,7 @@
 
 # sent_id = train-s2662
 # text = Os forcados são grupos amadores de vários homens que numa corrida de touros pegam o touro.
-1	Os	o	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	PronType=Art	2	det	_	_
 2	forcados	forcado	NOUN	NOUN	_	4	nsubj	_	_
 3	são	ser	AUX	AUX	_	4	cop	_	_
 4	grupos	grupo	NOUN	NOUN	_	0	root	_	_
@@ -58,7 +58,7 @@
 12	de	de	ADP	ADP	_	13	case	_	_
 13	touros	touro	NOUN	NOUN	_	11	nmod	_	_
 14	pegam	pegar	VERB	VERB	_	8	acl:relcl	_	_
-15	o	o	DET	DET	_	16	det	_	_
+15	o	o	DET	DET	PronType=Art	16	det	_	_
 16	touro	touro	NOUN	NOUN	_	14	obj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	4	punct	_	_
 
@@ -83,7 +83,7 @@
 16	é	ser	VERB	VERB	_	14	acl:relcl	_	_
 17	certo	certo	ADJ	ADJ	_	16	xcomp	_	_
 18	para	para	ADP	ADP	_	21	case	_	_
-19	o	o	DET	DET	_	21	det	_	_
+19	o	o	DET	DET	PronType=Art	21	det	_	_
 20	meu	_	DET	DET	_	21	det:poss	_	_
 21	país	país	NOUN	NOUN	_	17	nmod	_	_
 22	e	e	CCONJ	CONJ	_	44	cc	_	_
@@ -103,7 +103,7 @@
 36	frente	frente	NOUN	NOUN	_	34	nsubj	_	_
 37	unida	unido	ADJ	ADJ	_	36	amod	_	_
 38	contra	_	ADP	ADP	_	40	case	_	_
-39	a	o	DET	DET	_	40	det	_	_
+39	a	o	DET	DET	PronType=Art	40	det	_	_
 40	esquerda	esquerda	NOUN	NOUN	_	36	nmod	_	SpaceAfter=No
 41	,	,	PUNCT	.	_	34	punct	_	_
 42	eu	_	PRON	PRON	_	44	nsubj	_	_
@@ -116,7 +116,7 @@
 
 # sent_id = train-s2664
 # text = As meninas vão à casa abandonada.
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	PronType=Art	2	det	_	_
 2	meninas	menino	NOUN	NOUN	_	3	nsubj	_	_
 3	vão	ir	VERB	VERB	_	0	root	_	_
 4-5	à	_	_	_	_	_	_	_	_
@@ -148,12 +148,12 @@
 # text = Ela é a tal mulher que virou a cabeça do nosso filho.
 1	Ela	_	PRON	PRON	_	5	nsubj	_	_
 2	é	ser	AUX	AUX	_	5	cop	_	_
-3	a	o	DET	DET	_	5	det	_	_
+3	a	o	DET	DET	PronType=Art	5	det	_	_
 4	tal	_	DET	DET	_	5	det	_	_
 5	mulher	mulher	NOUN	NOUN	_	0	root	_	_
 6	que	_	PRON	PRON	_	7	nsubj	_	_
 7	virou	virar	VERB	VERB	_	5	acl:relcl	_	_
-8	a	o	DET	DET	_	9	det	_	_
+8	a	o	DET	DET	PronType=Art	9	det	_	_
 9	cabeça	cabeça	NOUN	NOUN	_	7	obj	_	_
 10-11	do	_	_	_	_	_	_	_	_
 10	de	de	ADP	ADP	_	13	case	_	_
@@ -170,7 +170,7 @@
 3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	PAM	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	4	punct	_	_
-6	o	o	DET	DET	_	7	det	_	_
+6	o	o	DET	DET	PronType=Art	7	det	_	_
 7	supervisor	supervisor	NOUN	NOUN	_	9	nsubj	_	_
 8	se	_	PRON	PRON	_	9	obj	_	_
 9	apresentou	apresentar	VERB	VERB	_	0	root	_	_
@@ -191,7 +191,7 @@
 4	qualquer	_	DET	DET	_	2	conj	_	_
 5	estação	estação	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	5	punct	_	_
-7	o	o	DET	DET	_	8	det	_	_
+7	o	o	DET	DET	PronType=Art	8	det	_	_
 8	mundo	mundo	NOUN	NOUN	_	13	nsubj	_	_
 9-10	da	_	_	_	_	_	_	_	_
 9	de	de	ADP	ADP	_	11	case	_	_
@@ -226,7 +226,7 @@
 # sent_id = train-s2670
 # text = Segundo a gerência do aeroporto, apenas 20 % da obra chegou a ser finalizada até o momento.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	gerência	gerência	NOUN	NOUN	_	17	nmod	_	_
 4-5	do	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
@@ -245,7 +245,7 @@
 16	ser	ser	AUX	AUX	_	17	aux:pass	_	_
 17	finalizada	finalizar	VERB	VERB	_	0	root	_	_
 18	até	_	ADP	ADP	_	20	case	_	_
-19	o	o	DET	DET	_	20	det	_	_
+19	o	o	DET	DET	PronType=Art	20	det	_	_
 20	momento	momento	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	17	punct	_	_
 

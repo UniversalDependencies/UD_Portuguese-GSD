@@ -1,10 +1,10 @@
 # sent_id = test-s527
 # text = Segundo a Honda, o Micro Commuter será focado nalguns usos específicos, como compartilhamento de veículos, setor público e carro de entregas -- mas poderá ser o carro de famílias com duas crianças pequenas e pessoas da terceira idade.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	Honda	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
-5	o	o	DET	DET	_	7	det	_	_
+5	o	o	DET	DET	PronType=Art	7	det	_	_
 6	Micro	_	PROPN	PNOUN	_	7	amod	_	_
 7	Commuter	_	PROPN	PNOUN	_	9	nsubj:pass	_	_
 8	será	ser	AUX	AUX	_	9	aux:pass	_	_
@@ -30,7 +30,7 @@
 27	mas	mas	CCONJ	CONJ	_	31	cc	_	_
 28	poderá	poder	AUX	AUX	_	31	aux	_	_
 29	ser	ser	AUX	AUX	_	31	cop	_	_
-30	o	o	DET	DET	_	31	det	_	_
+30	o	o	DET	DET	PronType=Art	31	det	_	_
 31	carro	carro	NOUN	NOUN	_	9	conj	_	_
 32	de	de	ADP	ADP	_	33	case	_	_
 33	famílias	família	NOUN	NOUN	_	31	nmod	_	_
@@ -49,7 +49,7 @@
 
 # sent_id = test-s528
 # text = A primeira Loja mista na Inglaterra, é fundada 26 de Setembro de 1902.
-1	A	o	DET	DET	_	3	det	_	_
+1	A	o	DET	DET	PronType=Art	3	det	_	_
 2	primeira	primeiro	ADJ	ADJ	_	3	amod	_	_
 3	Loja	loja	NOUN	NOUN	_	10	nsubj:pass	_	_
 4	mista	misto	ADJ	ADJ	_	3	amod	_	_
@@ -69,7 +69,7 @@
 
 # sent_id = test-s529
 # text = O desembargador, que teve acesso ao Tribunal de Justiça de Alagoas (TJ / AL), pelo critério de antiguidade, disse ser "imperioso" anotar sua gratidão aos desembargadores que muito contribuíram para seu ingresso na magistratura alagoana.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	desembargador	desembargador	NOUN	NOUN	_	26	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	5	punct	_	_
 4	que	_	PRON	PRON	_	5	nsubj	_	_
@@ -126,7 +126,7 @@
 1	Uma	_	PRON	PRON	_	0	root	_	_
 2	em	em	ADP	ADP	_	3	case	_	_
 3	que	_	PRON	PRON	_	6	nmod	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	pessoa	pessoa	NOUN	NOUN	_	6	nsubj	_	_
 6	tem	ter	VERB	VERB	_	1	acl:relcl	_	_
 7	medo	medo	NOUN	NOUN	_	6	obj	_	_
@@ -148,7 +148,7 @@
 5	tachou	tachar	VERB	VERB	_	0	root	_	_
 6	de	_	ADP	ADP	_	7	mark	_	_
 7	abusivo	abusivo	ADJ	ADJ	_	5	nmod	_	_
-8	o	o	DET	DET	_	9	det	_	_
+8	o	o	DET	DET	PronType=Art	9	det	_	_
 9	pedido	pedido	NOUN	NOUN	_	5	obj	_	_
 10	de	de	ADP	ADP	_	11	case	_	_
 11	prisão	prisão	NOUN	NOUN	_	9	nmod	_	_
@@ -180,13 +180,13 @@
 
 # sent_id = test-s532
 # text = A gastrônoma Cila Rocha explica porque o doce é leve.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	gastrônoma	_	NOUN	NOUN	_	5	nsubj	_	_
 3	Cila	_	PROPN	PNOUN	_	2	appos	_	_
 4	Rocha	_	PROPN	PNOUN	_	3	flat	_	_
 5	explica	explicar	VERB	VERB	_	0	root	_	_
 6	porque	_	ADV	ADV	_	9	advmod	_	_
-7	o	o	DET	DET	_	8	det	_	_
+7	o	o	DET	DET	PronType=Art	8	det	_	_
 8	doce	doce	NOUN	NOUN	_	9	nsubj	_	_
 9	é	ser	VERB	VERB	_	5	ccomp	_	_
 10	leve	leve	ADJ	ADJ	_	9	xcomp	_	SpaceAfter=No
@@ -197,12 +197,12 @@
 1	O	_	PRON	PRON	_	10	nsubj	_	_
 2	que	_	PRON	PRON	_	3	nsubj	_	_
 3	une	_	VERB	VERB	_	1	acl:relcl	_	_
-4	os	o	DET	DET	_	5	det	_	_
+4	os	o	DET	DET	PronType=Art	5	det	_	_
 5	Católicos	_	PROPN	PNOUN	_	3	obj	_	_
 6	Liberais	_	PROPN	PNOUN	_	5	amod	_	_
 7	não	não	ADV	ADV	Polarity=Neg	10	advmod	_	_
 8	é	ser	AUX	AUX	_	10	cop	_	_
-9	a	o	DET	DET	_	10	det	_	_
+9	a	o	DET	DET	PronType=Art	10	det	_	_
 10	crença	crença	NOUN	NOUN	_	0	root	_	_
 11	comum	comum	ADJ	ADJ	_	10	amod	_	_
 12-13	num	_	_	_	_	_	_	_	_
@@ -215,7 +215,7 @@
 18	,	,	PUNCT	.	_	22	punct	_	_
 19	mas	mas	CCONJ	CONJ	_	22	cc	_	_
 20	sim	sim	ADV	ADV	_	22	advmod	_	_
-21	a	o	DET	DET	_	22	det	_	_
+21	a	o	DET	DET	PronType=Art	22	det	_	_
 22	participação	participação	NOUN	NOUN	_	10	conj	_	_
 23	livre	livre	ADJ	ADJ	_	22	amod	_	_
 24	e	e	CCONJ	CONJ	_	25	cc	_	_
@@ -231,7 +231,7 @@
 32	próprio	próprio	ADJ	ADJ	_	33	amod	_	_
 33	Cristo	_	PROPN	PNOUN	_	29	nmod	_	_
 34	para	para	ADP	ADP	_	36	case	_	_
-35	a	o	DET	DET	_	36	det	_	_
+35	a	o	DET	DET	PronType=Art	36	det	_	_
 36	redenção	redenção	NOUN	NOUN	_	29	nmod	_	_
 37-38	da	_	_	_	_	_	_	_	_
 37	de	de	ADP	ADP	_	39	case	_	_
@@ -296,7 +296,7 @@
 14	-	-	PUNCT	.	_	13	punct	_	_
 15	se	_	PART	PRT	_	13	expl:pv	_	_
 16	que	_	PRON	PRON	_	20	mark	_	_
-17	o	o	DET	DET	_	18	det	_	_
+17	o	o	DET	DET	PronType=Art	18	det	_	_
 18	terminal	terminal	NOUN	NOUN	_	20	nsubj:pass	_	_
 19	seria	_	AUX	AUX	_	20	aux:pass	_	_
 20	instalado	instalar	VERB	VERB	_	13	ccomp	_	_
@@ -308,7 +308,7 @@
 25	seguinte	seguinte	ADJ	ADJ	_	24	amod	_	SpaceAfter=No
 26	)	)	PUNCT	.	_	13	punct	_	SpaceAfter=No
 27	,	,	PUNCT	.	_	4	punct	_	_
-28	o	o	DET	DET	_	29	det	_	_
+28	o	o	DET	DET	PronType=Art	29	det	_	_
 29	Terminal	_	PROPN	PNOUN	_	35	nsubj:pass	_	_
 30	Intermunicipal	_	PROPN	PNOUN	_	29	amod	_	_
 31-32	do	_	_	_	_	_	_	_	_
@@ -339,7 +339,7 @@
 # sent_id = test-s536
 # text = Com o decreto do GDF, entretanto, tornou - se regular, favorecendo os interesses da quadrilha.
 1	Com	_	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	PronType=Art	3	det	_	_
 3	decreto	decreto	NOUN	NOUN	_	10	nmod	_	_
 4-5	do	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
@@ -354,7 +354,7 @@
 13	regular	regular	ADJ	ADJ	_	10	xcomp	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	15	punct	_	_
 15	favorecendo	favorecer	VERB	VERB	_	10	acl	_	_
-16	os	o	DET	DET	_	17	det	_	_
+16	os	o	DET	DET	PronType=Art	17	det	_	_
 17	interesses	interesse	NOUN	NOUN	_	15	obj	_	_
 18-19	da	_	_	_	_	_	_	_	_
 18	de	de	ADP	ADP	_	20	case	_	_

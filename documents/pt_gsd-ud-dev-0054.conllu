@@ -19,7 +19,7 @@
 15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	partida	partida	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	.	_	4	punct	_	_
-18	o	o	DET	DET	_	19	det	_	_
+18	o	o	DET	DET	PronType=Art	19	det	_	_
 19	tricolor	_	NOUN	NOUN	_	20	nsubj	_	_
 20	deixou	deixar	VERB	VERB	_	0	root	_	_
 21	escapar	escapar	VERB	VERB	_	20	xcomp	_	_
@@ -44,7 +44,7 @@
 7	categoria	categoria	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	9	punct	_	_
 9	somando	somar	VERB	VERB	_	3	acl	_	_
-10	a	o	DET	DET	_	12	det	_	_
+10	a	o	DET	DET	PronType=Art	12	det	_	_
 11	melhor	melhor	ADJ	ADJ	_	12	amod	_	_
 12	média	_	NOUN	NOUN	_	9	obj	_	_
 13	obtida	obter	VERB	VERB	_	12	acl	_	_
@@ -74,7 +74,7 @@
 3	húmida	húmido	ADJ	ADJ	_	2	amod	_	_
 4	é	ser	AUX	AUX	_	7	cop	_	_
 5	actualmente	actualmente	ADV	ADV	_	7	advmod	_	_
-6	o	o	DET	DET	_	7	det	_	_
+6	o	o	DET	DET	PronType=Art	7	det	_	_
 7	resto	resto	NOUN	NOUN	_	0	root	_	_
 8-9	duma	_	_	_	_	_	_	_	_
 8	de	de	ADP	ADP	_	11	case	_	_
@@ -138,7 +138,7 @@
 55	e	e	CCONJ	CONJ	_	59	cc	_	_
 56	de	_	ADP	ADP	_	59	mark	_	_
 57	ser	ser	AUX	AUX	_	59	cop	_	_
-58	o	o	DET	DET	_	59	det	_	_
+58	o	o	DET	DET	PronType=Art	59	det	_	_
 59	ponto	ponto	NOUN	NOUN	_	50	conj	_	_
 60	de	de	ADP	ADP	_	61	case	_	_
 61	encontro	encontro	NOUN	NOUN	_	59	nmod	_	_
@@ -152,7 +152,7 @@
 68	superfície	superfície	NOUN	NOUN	_	64	nmod	_	SpaceAfter=No
 69	,	,	PUNCT	.	_	44	punct	_	_
 70	permitiu	permitir	VERB	VERB	_	11	acl:relcl	_	_
-71	a	o	DET	DET	_	73	det	_	_
+71	a	o	DET	DET	PronType=Art	73	det	_	_
 72	sua	_	DET	DET	_	73	det:poss	_	_
 73	existência	existência	NOUN	NOUN	_	70	obj	_	SpaceAfter=No
 74	.	.	PUNCT	.	_	7	punct	_	_
@@ -209,7 +209,7 @@
 
 # sent_id = dev-s529
 # text = O prestígio do papado foi profundamente afetado com esta crise, o que causou a criação da doutrina conciliar, que sustenta que a autoridade suprema da Igreja encontra - se com um concílio ecumênico e não com o papa, sendo efetivamente extinta no século XV.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	prestígio	prestígio	NOUN	NOUN	_	8	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -225,7 +225,7 @@
 13	o	o	DET	DET	_	14	det	_	_
 14	que	_	PRON	PRON	_	15	nsubj	_	_
 15	causou	causar	VERB	VERB	_	8	parataxis	_	_
-16	a	o	DET	DET	_	17	det	_	_
+16	a	o	DET	DET	PronType=Art	17	det	_	_
 17	criação	criação	NOUN	NOUN	_	15	obj	_	_
 18-19	da	_	_	_	_	_	_	_	_
 18	de	de	ADP	ADP	_	20	case	_	_
@@ -236,7 +236,7 @@
 23	que	_	PRON	PRON	_	24	nsubj	_	_
 24	sustenta	sustentar	VERB	VERB	_	20	acl:relcl	_	_
 25	que	que	CCONJ	CONJ	_	32	mark	_	_
-26	a	o	DET	DET	_	27	det	_	_
+26	a	o	DET	DET	PronType=Art	27	det	_	_
 27	autoridade	autoridade	NOUN	NOUN	_	32	nsubj	_	_
 28	suprema	supremo	ADJ	ADJ	_	27	amod	_	_
 29-30	da	_	_	_	_	_	_	_	_
@@ -253,7 +253,7 @@
 39	e	e	CCONJ	CONJ	_	43	cc	_	_
 40	não	não	ADV	ADV	Polarity=Neg	43	advmod	_	_
 41	com	com	ADP	ADP	_	43	case	_	_
-42	o	o	DET	DET	_	43	det	_	_
+42	o	o	DET	DET	PronType=Art	43	det	_	_
 43	papa	papa	NOUN	NOUN	_	37	conj	_	SpaceAfter=No
 44	,	,	PUNCT	.	_	47	punct	_	_
 45	sendo	ser	AUX	AUX	_	47	aux:pass	_	_
@@ -268,7 +268,7 @@
 
 # sent_id = dev-s530
 # text = O próprio fundamento do dano moral, que além de reparação do mal também exerce uma função educadora, justifica a divulgação do fato à imprensa".
-1	O	o	DET	DET	_	3	det	_	_
+1	O	o	DET	DET	PronType=Art	3	det	_	_
 2	próprio	próprio	ADJ	ADJ	_	3	amod	_	_
 3	fundamento	fundamento	NOUN	NOUN	_	22	nsubj	_	_
 4-5	do	_	_	_	_	_	_	_	_
@@ -292,7 +292,7 @@
 20	educadora	educador	NOUN	NOUN	_	19	amod	_	SpaceAfter=No
 21	,	,	PUNCT	.	_	17	punct	_	_
 22	justifica	justificar	VERB	VERB	_	0	root	_	_
-23	a	o	DET	DET	_	24	det	_	_
+23	a	o	DET	DET	PronType=Art	24	det	_	_
 24	divulgação	divulgação	NOUN	NOUN	_	22	obj	_	_
 25-26	do	_	_	_	_	_	_	_	_
 25	de	de	ADP	ADP	_	27	case	_	_
@@ -309,7 +309,7 @@
 # text = Este é o primeiro título da Recopa, disputada desde 1989, na história do Santos.
 1	Este	_	PRON	PRON	_	5	nsubj	_	_
 2	é	ser	AUX	AUX	_	5	cop	_	_
-3	o	o	DET	DET	_	5	det	_	_
+3	o	o	DET	DET	PronType=Art	5	det	_	_
 4	primeiro	primeiro	ADJ	ADJ	_	5	amod	_	_
 5	título	título	NOUN	NOUN	_	0	root	_	_
 6-7	da	_	_	_	_	_	_	_	_
@@ -395,7 +395,7 @@
 
 # sent_id = dev-s534
 # text = A partida foi realizada no campo do CCTAN, na cidade de Parnamirim.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	partida	partida	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foi	_	AUX	AUX	_	4	aux:pass	_	_
 4	realizada	realizar	VERB	VERB	_	0	root	_	_

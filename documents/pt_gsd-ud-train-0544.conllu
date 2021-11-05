@@ -1,7 +1,7 @@
 # sent_id = train-s5399
 # text = "A escolha não nos surpreendeu.
 1	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
-2	A	o	DET	DET	_	3	det	_	_
+2	A	o	DET	DET	PronType=Art	3	det	_	_
 3	escolha	escolha	NOUN	NOUN	_	6	nsubj	_	_
 4	não	não	ADV	ADV	Polarity=Neg	6	advmod	_	_
 5	nos	_	PRON	PRON	_	6	obj	_	_
@@ -14,12 +14,12 @@
 2	,	,	PUNCT	.	_	1	punct	_	_
 3	ela	_	PRON	PRON	_	4	nsubj	_	_
 4	aproveitou	aproveitar	VERB	VERB	_	0	root	_	_
-5	o	o	DET	DET	_	6	det	_	_
+5	o	o	DET	DET	PronType=Art	6	det	_	_
 6	tempo	tempo	NOUN	NOUN	_	4	obj	_	_
 7	livre	livre	ADJ	ADJ	_	6	amod	_	_
 8	para	_	ADP	ADP	_	9	mark	_	_
 9	estudar	estudar	VERB	VERB	_	4	nmod	_	_
-10	as	o	DET	DET	_	11	det	_	_
+10	as	o	DET	DET	PronType=Art	11	det	_	_
 11	disciplinas	disciplina	NOUN	NOUN	_	9	obj	_	_
 12	que	_	PRON	PRON	_	14	obj	_	_
 13	menos	menos	ADV	ADV	_	14	advmod	_	_
@@ -64,19 +64,19 @@
 23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	negociação	negociação	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	.	_	5	punct	_	_
-26	o	o	DET	DET	_	27	det	_	_
+26	o	o	DET	DET	PronType=Art	27	det	_	_
 27	Flamengo	_	PROPN	PNOUN	_	28	nsubj	_	_
 28	desistiu	desistir	VERB	VERB	_	0	root	_	_
 29	de	_	ADP	ADP	_	30	mark	_	_
 30	contratar	contratar	VERB	VERB	_	28	nmod	_	_
-31	o	o	DET	DET	_	32	det	_	_
+31	o	o	DET	DET	PronType=Art	32	det	_	_
 32	atacante	atacante	NOUN	NOUN	_	30	obj	_	_
 33	Robinho	_	PROPN	PNOUN	_	32	appos	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	28	punct	_	_
 
 # sent_id = train-s5402
 # text = A consolidação dos números totais da CMNet também impactou o balanço dessa área de negócios.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	consolidação	consolidação	NOUN	NOUN	_	11	nsubj	_	_
 3-4	dos	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -89,7 +89,7 @@
 9	CMNet	_	PROPN	PNOUN	_	5	nmod	_	_
 10	também	também	ADV	ADV	_	11	advmod	_	_
 11	impactou	impactar	VERB	VERB	_	0	root	_	_
-12	o	o	DET	DET	_	13	det	_	_
+12	o	o	DET	DET	PronType=Art	13	det	_	_
 13	balanço	balanço	NOUN	NOUN	_	11	obj	_	_
 14	dessa	_	ADP	ADP	_	15	case	_	_
 15	área	área	NOUN	NOUN	_	13	nmod	_	_
@@ -131,7 +131,7 @@
 8	situação	situação	NOUN	NOUN	_	6	nmod	_	_
 9	pode	_	AUX	AUX	_	10	aux	_	_
 10	fazer	fazer	VERB	VERB	_	0	root	_	_
-11	a	o	DET	DET	_	12	det	_	_
+11	a	o	DET	DET	PronType=Art	12	det	_	_
 12	denúncia	denúncia	NOUN	NOUN	_	10	obj	_	_
 13-14	na	_	_	_	_	_	_	_	_
 13	em	em	ADP	ADP	_	15	case	_	_
@@ -154,14 +154,14 @@
 30	TCO	_	PROPN	PNOUN	_	25	appos	_	SpaceAfter=No
 31	)	)	PUNCT	.	_	30	punct	_	_
 32	contra	_	ADP	ADP	_	34	case	_	_
-33	o	o	DET	DET	_	34	det	_	_
+33	o	o	DET	DET	PronType=Art	34	det	_	_
 34	acusado	acusado	NOUN	NOUN	_	25	nmod	_	SpaceAfter=No
 35	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s5405
 # text = Durante a inundação do rio, em fevereiro, as águas chegaram a quase 17 metros de profundidade.
 1	Durante	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	inundação	inundação	NOUN	NOUN	_	13	nmod	_	_
 4-5	do	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
@@ -171,7 +171,7 @@
 8	em	em	ADP	ADP	_	9	case	_	_
 9	fevereiro	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	3	punct	_	_
-11	as	o	DET	DET	_	12	det	_	_
+11	as	o	DET	DET	PronType=Art	12	det	_	_
 12	águas	água	NOUN	NOUN	_	13	nsubj	_	_
 13	chegaram	chegar	VERB	VERB	_	0	root	_	_
 14	a	_	ADP	ADP	_	17	case	_	_
@@ -198,7 +198,7 @@
 11	diretório	diretório	NOUN	NOUN	_	7	nmod	_	_
 12	de	_	ADP	ADP	_	16	mark	_	_
 13	que	que	CCONJ	CONJ	_	16	mark	_	_
-14	o	o	DET	DET	_	15	det	_	_
+14	o	o	DET	DET	PronType=Art	15	det	_	_
 15	partido	partido	NOUN	NOUN	_	16	nsubj	_	_
 16	passava	passar	VERB	VERB	_	7	nmod	_	_
 17	por	por	ADP	ADP	_	18	case	_	_
@@ -207,7 +207,7 @@
 20	e	e	CCONJ	CONJ	_	25	cc	_	_
 21	de	_	ADP	ADP	_	25	mark	_	_
 22	que	que	CCONJ	CONJ	_	25	mark	_	_
-23	o	o	DET	DET	_	24	det	_	_
+23	o	o	DET	DET	PronType=Art	24	det	_	_
 24	PT	_	PROPN	PNOUN	_	25	nsubj	_	_
 25	tinha	ter	VERB	VERB	_	16	conj	_	_
 26	comprometimentos	comprometimento	NOUN	NOUN	_	25	obj	_	_
@@ -221,11 +221,11 @@
 33	base	base	NOUN	NOUN	_	30	nmod	_	SpaceAfter=No
 34	,	,	PUNCT	.	_	44	punct	_	_
 35	mas	mas	CCONJ	CONJ	_	44	cc	_	_
-36	a	o	DET	DET	_	37	det	_	_
+36	a	o	DET	DET	PronType=Art	37	det	_	_
 37	forma	forma	NOUN	NOUN	_	44	nsubj:pass	_	_
 38	de	_	ADP	ADP	_	39	mark	_	_
 39	solucionar	solucionar	VERB	VERB	_	37	nmod	_	_
-40	o	o	DET	DET	_	41	det	_	_
+40	o	o	DET	DET	PronType=Art	41	det	_	_
 41	problema	problema	NOUN	NOUN	_	39	obj	_	_
 42	foi	_	AUX	AUX	_	44	aux:pass	_	_
 43	totalmente	totalmente	ADV	ADV	_	44	advmod	_	_
@@ -279,7 +279,7 @@
 20	e	e	CCONJ	CONJ	_	22	cc	_	_
 21	já	já	ADV	ADV	_	22	advmod	_	_
 22	prega	pregar	VERB	VERB	_	12	conj	_	_
-23	a	o	DET	DET	_	24	det	_	_
+23	a	o	DET	DET	PronType=Art	24	det	_	_
 24	reeleição	reeleição	NOUN	NOUN	_	22	obj	_	_
 25-26	da	_	_	_	_	_	_	_	_
 25	de	de	ADP	ADP	_	27	case	_	_
@@ -291,7 +291,7 @@
 31	Lula	_	PROPN	PNOUN	_	32	nsubj	_	_
 32	disse	dizer	VERB	VERB	_	0	root	_	_
 33	que	que	CCONJ	CONJ	_	38	mark	_	_
-34	o	o	DET	DET	_	35	det	_	_
+34	o	o	DET	DET	PronType=Art	35	det	_	_
 35	povo	povo	NOUN	NOUN	_	38	nsubj	_	_
 36	tem	ter	AUX	AUX	_	38	aux	_	_
 37	de	_	ADP	ADP	_	38	mark	_	_
@@ -315,7 +315,7 @@
 4	--	_	PUNCT	.	_	5	punct	_	_
 5	nome	nome	NOUN	NOUN	_	3	appos	_	_
 6	que	_	PRON	PRON	_	9	obj	_	_
-7	o	o	DET	DET	_	8	det	_	_
+7	o	o	DET	DET	PronType=Art	8	det	_	_
 8	diretor	diretor	NOUN	NOUN	_	9	nsubj	_	_
 9	escolheu	escolher	VERB	VERB	_	5	acl:relcl	_	_
 10	por	_	ADP	ADP	_	11	mark	_	_

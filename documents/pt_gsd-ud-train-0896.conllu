@@ -15,7 +15,7 @@
 # text = Mesmo porque a Lusa planeja vencer seus dois próximos dois jogos em casa, contra o Náutico, e depois, dia 4, diante do Figueirense, outro jogo considerado de "seis pontos".
 1	Mesmo	mesmo	ADV	ADV	_	5	advmod	_	_
 2	porque	_	CCONJ	CONJ	_	5	mark	_	_
-3	a	o	DET	DET	_	4	det	_	_
+3	a	o	DET	DET	PronType=Art	4	det	_	_
 4	Lusa	luso	NOUN	NOUN	_	5	nsubj	_	_
 5	planeja	planejar	VERB	VERB	_	0	root	_	_
 6	vencer	vencer	VERB	VERB	_	5	xcomp	_	_
@@ -28,7 +28,7 @@
 13	casa	casa	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	17	punct	_	_
 15	contra	_	ADP	ADP	_	17	case	_	_
-16	o	o	DET	DET	_	17	det	_	_
+16	o	o	DET	DET	PronType=Art	17	det	_	_
 17	Náutico	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	.	_	6	punct	_	_
 19	e	e	CCONJ	CONJ	_	6	cc	_	_
@@ -57,7 +57,7 @@
 # text = Esta é a primeira entrega oficial de carga à plataforma orbital realizada por uma empresa privada mediante um contrato de 1,6 bilhão de dólares com a NASA, em que a SpaceX realizará doze missões de abastecimento à ISS em quatro anos, para transportar pelo menos 20 toneladas de carga no total.
 1	Esta	_	PRON	PRON	_	5	nsubj	_	_
 2	é	ser	AUX	AUX	_	5	cop	_	_
-3	a	o	DET	DET	_	5	det	_	_
+3	a	o	DET	DET	PronType=Art	5	det	_	_
 4	primeira	primeiro	ADJ	ADJ	_	5	amod	_	_
 5	entrega	entrega	NOUN	NOUN	_	0	root	_	_
 6	oficial	oficial	ADJ	ADJ	_	5	amod	_	_
@@ -82,12 +82,12 @@
 24	de	de	ADP	ADP	_	25	case	_	_
 25	dólares	dólar	NOUN	NOUN	_	20	nmod	_	_
 26	com	com	ADP	ADP	_	28	case	_	_
-27	a	o	DET	DET	_	28	det	_	_
+27	a	o	DET	DET	PronType=Art	28	det	_	_
 28	NASA	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
 29	,	,	PUNCT	.	_	34	punct	_	_
 30	em	em	ADP	ADP	_	31	case	_	_
 31	que	_	PRON	PRON	_	34	nmod	_	_
-32	a	o	DET	DET	_	33	det	_	_
+32	a	o	DET	DET	PronType=Art	33	det	_	_
 33	SpaceX	_	PROPN	PNOUN	_	34	nsubj	_	_
 34	realizará	realizar	VERB	VERB	_	20	acl:relcl	_	_
 35	doze	_	NUM	NUM	NumType=Card	36	nummod	_	_
@@ -130,10 +130,10 @@
 8	'	_	PUNCT	.	_	7	punct	_	_
 9	um	um	DET	DET	_	10	det	_	_
 10	pouco	pouco	NOUN	NOUN	_	7	nmod	_	_
-11	a	o	DET	DET	_	12	det	_	_
+11	a	o	DET	DET	PronType=Art	12	det	_	_
 12	diretoria	diretoria	NOUN	NOUN	_	7	obj	_	_
 13	para	_	ADP	ADP	_	16	mark	_	_
-14	as	o	DET	DET	_	15	det	_	_
+14	as	o	DET	DET	PronType=Art	15	det	_	_
 15	coisas	coisa	NOUN	NOUN	_	16	nsubj	_	_
 16	saírem	sair	VERB	VERB	_	7	advcl	_	_
 17	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
@@ -143,25 +143,25 @@
 
 # sent_id = train-s8893
 # text = A substância fundamental tradicionalmente não inclui o colagénio, mas inclui todos os outros componentes proteináceos, incluindo os proteoglicanos, proteínas da matriz e de maneira mais prevalente, a água.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	substância	substância	NOUN	NOUN	_	6	nsubj	_	_
 3	fundamental	fundamental	ADJ	ADJ	_	2	amod	_	_
 4	tradicionalmente	tradicionalmente	ADV	ADV	_	6	advmod	_	_
 5	não	não	ADV	ADV	Polarity=Neg	6	advmod	_	_
 6	inclui	incluir	VERB	VERB	_	0	root	_	_
-7	o	o	DET	DET	_	8	det	_	_
+7	o	o	DET	DET	PronType=Art	8	det	_	_
 8	colagénio	colagénio	NOUN	NOUN	_	6	obj	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	11	punct	_	_
 10	mas	mas	CCONJ	CONJ	_	11	cc	_	_
 11	inclui	incluir	VERB	VERB	_	6	conj	_	_
 12	todos	_	DET	DET	_	15	det	_	_
-13	os	o	DET	DET	_	15	det	_	_
+13	os	o	DET	DET	PronType=Art	15	det	_	_
 14	outros	_	DET	DET	_	15	det	_	_
 15	componentes	componente	NOUN	NOUN	_	11	obj	_	_
 16	proteináceos	_	ADJ	ADJ	_	15	amod	_	SpaceAfter=No
 17	,	,	PUNCT	.	_	18	punct	_	_
 18	incluindo	incluir	VERB	VERB	_	15	acl	_	_
-19	os	o	DET	DET	_	20	det	_	_
+19	os	o	DET	DET	PronType=Art	20	det	_	_
 20	proteoglicanos	_	NOUN	NOUN	_	18	obj	_	SpaceAfter=No
 21	,	,	PUNCT	.	_	22	punct	_	_
 22	proteínas	proteína	NOUN	NOUN	_	20	conj	_	_
@@ -175,7 +175,7 @@
 29	mais	mais	ADV	ADV	_	30	advmod	_	_
 30	prevalente	prevalente	ADJ	ADJ	_	28	amod	_	SpaceAfter=No
 31	,	,	PUNCT	.	_	33	punct	_	_
-32	a	o	DET	DET	_	33	det	_	_
+32	a	o	DET	DET	PronType=Art	33	det	_	_
 33	água	água	NOUN	NOUN	_	20	conj	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	6	punct	_	_
 
@@ -186,7 +186,7 @@
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Fox	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
-5	o	o	DET	DET	_	6	det	_	_
+5	o	o	DET	DET	PronType=Art	6	det	_	_
 6	benefício	benefício	NOUN	NOUN	_	11	nsubj	_	_
 7	de	de	ADP	ADP	_	8	case	_	_
 8	economia	economia	NOUN	NOUN	_	6	nmod	_	_
@@ -263,11 +263,11 @@
 
 # sent_id = train-s8896
 # text = O diagrama seguinte representa as localidades num raio de 12 km ao redor de Fairport Harbor.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	diagrama	diagrama	NOUN	NOUN	_	4	nsubj	_	_
 3	seguinte	seguinte	ADJ	ADJ	_	2	amod	_	_
 4	representa	representar	VERB	VERB	_	0	root	_	_
-5	as	o	DET	DET	_	6	det	_	_
+5	as	o	DET	DET	PronType=Art	6	det	_	_
 6	localidades	localidade	NOUN	NOUN	_	4	obj	_	_
 7	num	_	ADP	ADP	_	8	case	_	_
 8	raio	raio	NOUN	NOUN	_	6	nmod	_	_
@@ -288,7 +288,7 @@
 1	E	_	CCONJ	CONJ	_	5	cc	_	_
 2	esse	_	PRON	PRON	_	5	nsubj	_	_
 3	era	_	AUX	AUX	_	5	cop	_	_
-4	o	o	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	PronType=Art	5	det	_	_
 5	desejo	desejo	NOUN	NOUN	_	0	root	_	_
 6-7	dum	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	9	case	_	_
@@ -313,7 +313,7 @@
 
 # sent_id = train-s8898
 # text = A paralisação dos professores de Chicago foi a primeira na cidade em 25 anos.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	paralisação	paralisação	NOUN	NOUN	_	10	nsubj	_	_
 3-4	dos	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -322,7 +322,7 @@
 6	de	de	ADP	ADP	_	7	case	_	_
 7	Chicago	_	PROPN	PNOUN	_	5	nmod	_	_
 8	foi	_	AUX	AUX	_	10	cop	_	_
-9	a	o	DET	DET	_	10	det	_	_
+9	a	o	DET	DET	PronType=Art	10	det	_	_
 10	primeira	primeiro	NOUN	NOUN	_	0	root	_	_
 11-12	na	_	_	_	_	_	_	_	_
 11	em	em	ADP	ADP	_	13	case	_	_

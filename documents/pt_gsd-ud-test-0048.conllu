@@ -5,7 +5,7 @@
 3	mais	mais	ADV	ADV	_	4	advmod	_	_
 4	importante	importante	ADJ	ADJ	_	2	amod	_	_
 5	foi	_	AUX	AUX	_	10	cop	_	_
-6	o	o	DET	DET	_	10	det	_	_
+6	o	o	DET	DET	PronType=Art	10	det	_	_
 7	infanto	_	PART	PRT	_	9	amod	_	_
 8	/	/	PUNCT	.	_	9	punct	_	_
 9	juvenil	juvenil	ADJ	ADJ	_	10	amod	_	_
@@ -17,7 +17,7 @@
 
 # sent_id = test-s468
 # text = Os autores da CPI argumentam que as empresas, apesar de cobrarem do consumidor, não usam os recursos dessa tarifa para investimentos no sistema, como explica o deputado Ronaldo Nogueira (PTB - RS).
-1	Os	o	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	PronType=Art	2	det	_	_
 2	autores	autor	NOUN	NOUN	_	6	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -25,7 +25,7 @@
 5	CPI	_	PROPN	PNOUN	_	2	nmod	_	_
 6	argumentam	argumentar	VERB	VERB	_	0	root	_	_
 7	que	que	CCONJ	CONJ	_	13	mark	_	_
-8	as	o	DET	DET	_	9	det	_	_
+8	as	o	DET	DET	PronType=Art	9	det	_	_
 9	empresas	empresa	NOUN	NOUN	_	13	nsubj	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	13	punct	_	_
 11	apesar	apesar	ADV	ADV	_	13	mark	_	_
@@ -38,7 +38,7 @@
 17	,	,	PUNCT	.	_	13	punct	_	_
 18	não	não	ADV	ADV	Polarity=Neg	13	advmod	_	_
 19	usam	usar	VERB	VERB	_	13	case	_	_
-20	os	o	DET	DET	_	21	det	_	_
+20	os	o	DET	DET	PronType=Art	21	det	_	_
 21	recursos	recurso	NOUN	NOUN	_	13	obj	_	_
 22	dessa	_	ADP	ADP	_	23	case	_	_
 23	tarifa	tarifa	NOUN	NOUN	_	21	nmod	_	_
@@ -51,7 +51,7 @@
 29	,	,	PUNCT	.	_	31	punct	_	_
 30	como	_	CCONJ	CONJ	_	31	mark	_	_
 31	explica	explicar	VERB	VERB	_	6	advcl	_	_
-32	o	o	DET	DET	_	33	det	_	_
+32	o	o	DET	DET	PronType=Art	33	det	_	_
 33	deputado	deputado	NOUN	NOUN	_	31	nsubj	_	_
 34	Ronaldo	_	PROPN	PNOUN	_	33	appos	_	_
 35	Nogueira	_	PROPN	PNOUN	_	34	flat	_	_
@@ -64,7 +64,7 @@
 
 # sent_id = test-s469
 # text = O meia era conhecido por não aguentar jogar uma partida inteira, já que tinha alguns problemas físicos que o impossibilitavam.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	meia	_	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	era	_	AUX	AUX	_	4	aux:pass	_	_
 4	conhecido	conhecer	VERB	VERB	_	0	root	_	_
@@ -91,7 +91,7 @@
 # text = Bruxelas -- A Comissão de Indústria do Parlamento Europeu deu nesta segunda - feira sinal verde à renovação do acordo de cooperação científica e tecnológica assinado entre a União Europeia (UE) e o Brasil.
 1	Bruxelas	_	PROPN	PNOUN	_	11	parataxis	_	_
 2	--	_	PUNCT	.	_	11	punct	_	_
-3	A	o	DET	DET	_	4	det	_	_
+3	A	o	DET	DET	PronType=Art	4	det	_	_
 4	Comissão	_	PROPN	PNOUN	_	11	nsubj	_	_
 5	de	de	ADP	ADP	_	6	case	_	_
 6	Indústria	_	PROPN	PNOUN	_	4	nmod	_	_
@@ -122,7 +122,7 @@
 28	tecnológica	tecnológico	ADJ	ADJ	_	26	conj	_	_
 29	assinado	assinar	VERB	VERB	_	23	acl	_	_
 30	entre	_	ADP	ADP	_	32	case	_	_
-31	a	o	DET	DET	_	32	det	_	_
+31	a	o	DET	DET	PronType=Art	32	det	_	_
 32	União	_	PROPN	PNOUN	_	29	nmod	_	_
 33	Europeia	_	PROPN	PNOUN	_	32	amod	_	_
 34	(	(	PUNCT	.	_	35	punct	_	SpaceAfter=No
@@ -135,7 +135,7 @@
 
 # sent_id = test-s471
 # text = A preguiça é um dos seus piores defeitos.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	preguiça	preguiça	NOUN	NOUN	_	4	nsubj	_	_
 3	é	ser	AUX	AUX	_	4	cop	_	_
 4	um	_	PRON	PRON	_	0	root	_	_
@@ -162,11 +162,11 @@
 1	Segundo	_	ADP	ADP	_	2	case	_	_
 2	ele	_	PRON	PRON	_	6	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	organização	organização	NOUN	NOUN	_	6	nsubj	_	_
 6	conta	contar	VERB	VERB	_	0	root	_	_
 7	com	com	ADP	ADP	_	9	case	_	_
-8	a	o	DET	DET	_	9	det	_	_
+8	a	o	DET	DET	PronType=Art	9	det	_	_
 9	cooperação	cooperação	NOUN	NOUN	_	6	nmod	_	_
 10	de	de	ADP	ADP	_	14	case	_	_
 11	mais	mais	ADV	ADV	_	13	advmod	_	_
@@ -181,7 +181,7 @@
 20	de	de	ADP	ADP	_	21	case	_	_
 21	medições	medição	NOUN	NOUN	_	19	nmod	_	_
 22	sobre	_	ADP	ADP	_	24	case	_	_
-23	a	o	DET	DET	_	24	det	_	_
+23	a	o	DET	DET	PronType=Art	24	det	_	_
 24	concentração	concentração	NOUN	NOUN	_	21	nmod	_	_
 25	de	de	ADP	ADP	_	26	case	_	_
 26	gases	gás	NOUN	NOUN	_	24	nmod	_	_
@@ -195,7 +195,7 @@
 # text = Entretanto, o retorno ao clube não deve ocorrer como muitos rubro - negros desejam.
 1	Entretanto	entretanto	ADV	ADV	_	10	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	.	_	1	punct	_	_
-3	o	o	DET	DET	_	4	det	_	_
+3	o	o	DET	DET	PronType=Art	4	det	_	_
 4	retorno	retorno	NOUN	NOUN	_	10	nsubj	_	_
 5-6	ao	_	_	_	_	_	_	_	_
 5	a	a	ADP	ADP	_	7	case	_	_
@@ -220,7 +220,7 @@
 4	um	um	DET	DET	_	5	det	_	_
 5	helicóptero	helicóptero	NOUN	NOUN	_	6	nsubj	_	_
 6	levou	levar	VERB	VERB	_	0	root	_	_
-7	a	o	DET	DET	_	8	det	_	_
+7	a	o	DET	DET	PronType=Art	8	det	_	_
 8	rainha	_	NOUN	NOUN	_	6	obj	_	_
 9	até	_	ADP	ADP	_	10	case	_	_
 10	Enniskillen	_	PROPN	PNOUN	_	6	nmod	_	_
@@ -262,7 +262,7 @@
 41	que	_	PRON	PRON	_	42	nsubj	_	_
 42	acabou	acabar	VERB	VERB	_	30	acl:relcl	_	_
 43	com	com	ADP	ADP	_	45	case	_	_
-44	a	o	DET	DET	_	45	det	_	_
+44	a	o	DET	DET	PronType=Art	45	det	_	_
 45	vida	vida	NOUN	NOUN	_	42	nmod	_	_
 46	de	de	ADP	ADP	_	48	case	_	_
 47	11	_	NUM	NUM	NumType=Card	48	nummod	_	_
@@ -273,7 +273,7 @@
 
 # sent_id = test-s476
 # text = O atacante do Ceará, Misael, foi liberado pelo Departamento Médico para dar início aos trabalhos físicos já a partir da tarde desta segunda - feira (09).
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	atacante	atacante	NOUN	NOUN	_	10	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_

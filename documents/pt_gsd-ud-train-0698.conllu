@@ -1,6 +1,6 @@
 # sent_id = train-s6926
 # text = Os agentes federais disseram ainda que consideravam que as balas eram destinadas a ser utilizadas num atentado contra a vida dum dos intérpretes dum dos 42 países a concurso (18 naquele dia).
-1	Os	o	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	PronType=Art	2	det	_	_
 2	agentes	agente	NOUN	NOUN	_	4	nsubj	_	_
 3	federais	federal	ADJ	ADJ	_	2	amod	_	_
 4	disseram	dizer	VERB	VERB	_	0	root	_	_
@@ -8,7 +8,7 @@
 6	que	que	CCONJ	CONJ	_	7	mark	_	_
 7	consideravam	considerar	VERB	VERB	_	4	ccomp	_	_
 8	que	que	CCONJ	CONJ	_	12	mark	_	_
-9	as	o	DET	DET	_	10	det	_	_
+9	as	o	DET	DET	PronType=Art	10	det	_	_
 10	balas	bala	NOUN	NOUN	_	12	nsubj:pass	_	_
 11	eram	_	AUX	AUX	_	12	aux:pass	_	_
 12	destinadas	destinar	VERB	VERB	_	7	ccomp	_	_
@@ -18,7 +18,7 @@
 16	num	_	ADP	ADP	_	17	case	_	_
 17	atentado	atentado	NOUN	NOUN	_	15	nmod	_	_
 18	contra	_	ADP	ADP	_	20	case	_	_
-19	a	o	DET	DET	_	20	det	_	_
+19	a	o	DET	DET	PronType=Art	20	det	_	_
 20	vida	vida	NOUN	NOUN	_	17	nmod	_	_
 21-22	dum	_	_	_	_	_	_	_	_
 21	de	de	ADP	ADP	_	22	case	_	_
@@ -51,7 +51,7 @@
 3	de	de	ADP	ADP	_	5	case	_	_
 4	355	_	NUM	NUM	NumType=Card	5	nummod	_	_
 5	mil	_	NUM	NUM	NumType=Card	2	nmod	_	_
-6	o	o	DET	DET	_	7	det	_	_
+6	o	o	DET	DET	PronType=Art	7	det	_	_
 7	número	número	NOUN	NOUN	_	2	nsubj	_	_
 8	oficial	oficial	ADJ	ADJ	_	7	amod	_	_
 9	de	de	ADP	ADP	_	10	case	_	_
@@ -63,7 +63,7 @@
 14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	país	país	NOUN	NOUN	_	12	nmod	_	_
 16	desde	_	ADP	ADP	_	18	case	_	_
-17	o	o	DET	DET	_	18	det	_	_
+17	o	o	DET	DET	PronType=Art	18	det	_	_
 18	início	início	NOUN	NOUN	_	12	nmod	_	_
 19-20	do	_	_	_	_	_	_	_	_
 19	de	de	ADP	ADP	_	21	case	_	_
@@ -85,7 +85,7 @@
 # sent_id = train-s6928
 # text = Acompanhe o Jornal Hoje também pelo twitter e pelo facebook.
 1	Acompanhe	acompanhar	VERB	VERB	_	0	root	_	_
-2	o	o	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	PronType=Art	3	det	_	_
 3	Jornal	_	PROPN	PNOUN	_	1	obj	_	_
 4	Hoje	_	PROPN	PNOUN	_	3	flat	_	_
 5	também	também	ADV	ADV	_	1	advmod	_	_
@@ -102,7 +102,7 @@
 
 # sent_id = train-s6929
 # text = O centro posicionará a Lenovo para alcançar um crescimento superior ao do mercado brasileiro, ajudando a empresa a repetir a sua história de sucesso em todo o mundo".
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	centro	centro	NOUN	NOUN	_	3	nsubj	_	_
 3	posicionará	posicionar	VERB	VERB	_	0	root	_	_
 4	a	_	ADP	ADP	_	5	case	_	_
@@ -122,18 +122,18 @@
 16	brasileiro	brasileiro	ADJ	ADJ	_	15	amod	_	SpaceAfter=No
 17	,	,	PUNCT	.	_	18	punct	_	_
 18	ajudando	ajudar	VERB	VERB	_	3	acl	_	_
-19	a	o	DET	DET	_	20	det	_	_
+19	a	o	DET	DET	PronType=Art	20	det	_	_
 20	empresa	empresa	NOUN	NOUN	_	18	obj	_	_
 21	a	_	ADP	ADP	_	22	mark	_	_
 22	repetir	repetir	VERB	VERB	_	18	nmod	_	_
-23	a	o	DET	DET	_	25	det	_	_
+23	a	o	DET	DET	PronType=Art	25	det	_	_
 24	sua	_	DET	DET	_	25	det:poss	_	_
 25	história	história	NOUN	NOUN	_	22	obj	_	_
 26	de	de	ADP	ADP	_	27	case	_	_
 27	sucesso	sucesso	NOUN	NOUN	_	25	nmod	_	_
 28	em	em	ADP	ADP	_	31	case	_	_
 29	todo	_	DET	DET	_	31	det	_	_
-30	o	o	DET	DET	_	31	det	_	_
+30	o	o	DET	DET	PronType=Art	31	det	_	_
 31	mundo	mundo	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
 32	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	3	punct	_	_
@@ -178,7 +178,7 @@
 6	orçamento	orçamento	NOUN	NOUN	_	3	nmod	_	_
 7	para	_	ADP	ADP	_	8	mark	_	_
 8	apoiar	apoiar	VERB	VERB	_	2	nmod	_	_
-9	a	o	DET	DET	_	10	det	_	_
+9	a	o	DET	DET	PronType=Art	10	det	_	_
 10	visita	visita	NOUN	NOUN	_	8	obj	_	_
 11	de	de	ADP	ADP	_	13	case	_	_
 12	curta	curto	ADJ	ADJ	_	13	amod	_	_
@@ -202,7 +202,7 @@
 30	fim	fim	NOUN	NOUN	_	29	fixed	_	_
 31	de	_	ADP	ADP	_	29	fixed	_	_
 32	acelerar	acelerar	VERB	VERB	_	2	advcl	_	_
-33	o	o	DET	DET	_	34	det	_	_
+33	o	o	DET	DET	PronType=Art	34	det	_	_
 34	processo	processo	NOUN	NOUN	_	32	obj	_	_
 35	de	de	ADP	ADP	_	36	case	_	_
 36	inserção	inserção	NOUN	NOUN	_	34	nmod	_	_
@@ -217,10 +217,10 @@
 
 # sent_id = train-s6932
 # text = A turma analisou a ondulação que passou pelo Peru durante a etapa do Big Wave World Tour, e perceberam que ela seguia em direção à América Central.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	turma	turma	NOUN	NOUN	_	3	nsubj	_	_
 3	analisou	analisar	VERB	VERB	_	0	root	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	ondulação	ondulação	NOUN	NOUN	_	3	obj	_	_
 6	que	_	PRON	PRON	_	7	nsubj	_	_
 7	passou	passar	VERB	VERB	_	5	acl:relcl	_	_
@@ -229,7 +229,7 @@
 9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	Peru	_	PROPN	PNOUN	_	7	nmod	_	_
 11	durante	_	ADP	ADP	_	13	case	_	_
-12	a	o	DET	DET	_	13	det	_	_
+12	a	o	DET	DET	PronType=Art	13	det	_	_
 13	etapa	etapa	NOUN	NOUN	_	7	nmod	_	_
 14-15	do	_	_	_	_	_	_	_	_
 14	de	de	ADP	ADP	_	17	case	_	_
@@ -262,7 +262,7 @@
 5	de	de	ADP	ADP	_	6	case	_	_
 6	carbono	carbono	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	4	punct	_	_
-8	os	o	DET	DET	_	9	det	_	_
+8	os	o	DET	DET	PronType=Art	9	det	_	_
 9	rodolitos	_	NOUN	NOUN	_	12	nsubj	_	_
 10	são	ser	AUX	AUX	_	12	cop	_	_
 11	importantes	importante	ADJ	ADJ	_	12	amod	_	_
@@ -272,7 +272,7 @@
 15	,	,	PUNCT	.	_	12	punct	_	_
 16	assim	assim	ADV	ADV	_	19	case	_	_
 17	como	_	ADP	ADP	_	16	fixed	_	_
-18	os	o	DET	DET	_	19	det	_	_
+18	os	o	DET	DET	PronType=Art	19	det	_	_
 19	recifes	recife	NOUN	NOUN	_	12	nmod	_	_
 20	de	de	ADP	ADP	_	21	case	_	_
 21	corais	coral	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
@@ -291,7 +291,7 @@
 
 # sent_id = train-s6935
 # text = Os desfalques, no entanto, em nada prejudicaram o clube catalão que, como de praxe, impunha seu toque de bola diante dum fechado Spartak Moscou.
-1	Os	o	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	PronType=Art	2	det	_	_
 2	desfalques	desfalque	NOUN	NOUN	_	10	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	6	punct	_	_
 4-5	no	_	_	_	_	_	_	_	_
@@ -302,7 +302,7 @@
 8	em	em	ADP	ADP	_	9	case	_	_
 9	nada	_	PRON	PRON	_	10	nmod	_	_
 10	prejudicaram	prejudicar	VERB	VERB	_	0	root	_	_
-11	o	o	DET	DET	_	12	det	_	_
+11	o	o	DET	DET	PronType=Art	12	det	_	_
 12	clube	clube	NOUN	NOUN	_	10	obj	_	_
 13	catalão	catalão	ADJ	ADJ	_	12	amod	_	_
 14	que	_	PRON	PRON	_	20	nsubj	_	SpaceAfter=No

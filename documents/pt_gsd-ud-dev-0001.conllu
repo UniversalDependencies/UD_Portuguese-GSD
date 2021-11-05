@@ -2,7 +2,7 @@
 # text = Até agora o Brasil conquistou 8 medalhas (2 ouros, 1 prata e 5 bronzes) e tem mais quatro pódios garantidos: dois no boxe, um no vôlei de praia masculino e um no futebol masculino.
 1	Até	até	ADP	ADP	_	2	mark	_	_
 2	agora	agora	ADV	ADV	_	5	advmod	_	_
-3	o	o	DET	DET	_	4	det	_	_
+3	o	o	DET	DET	PronType=Art	4	det	_	_
 4	Brasil	Brasil	PROPN	PNOUN	_	5	nsubj	_	_
 5	conquistou	conquistar	VERB	VERB	_	0	root	_	_
 6	8	_	NUM	NUM	NumType=Card	7	nummod	_	_
@@ -51,7 +51,7 @@
 # text = Ver também a lista de entidades que tenham emitido selos postais.
 1	Ver	ver	VERB	VERB	_	0	root	_	_
 2	também	também	ADV	ADV	_	1	advmod	_	_
-3	a	o	DET	DET	_	4	det	_	_
+3	a	o	DET	DET	PronType=Art	4	det	_	_
 4	lista	lista	NOUN	NOUN	_	1	obj	_	_
 5	de	de	ADP	ADP	_	6	case	_	_
 6	entidades	entidade	NOUN	NOUN	_	4	nmod	_	_
@@ -64,10 +64,10 @@
 
 # sent_id = dev-s3
 # text = A Nina é a chance dele ser feliz.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	Nina	_	PROPN	PNOUN	_	5	nsubj	_	_
 3	é	ser	AUX	AUX	_	5	cop	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	chance	chance	NOUN	NOUN	_	0	root	_	_
 6-7	dele	_	_	_	_	_	_	_	_
 6	de	_	ADP	ADP	_	8	mark	_	_
@@ -91,24 +91,24 @@
 
 # sent_id = dev-s5
 # text = A prefeitura informou ainda que a Secretaria de Serviços Urbanos regularizou o contrato e já está prevista a manutenção da praça conforme cronograma em andamento.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	prefeitura	prefeitura	NOUN	NOUN	_	3	nsubj	_	_
 3	informou	informar	VERB	VERB	_	0	root	_	_
 4	ainda	ainda	ADV	ADV	_	3	advmod	_	_
 5	que	que	CCONJ	CONJ	_	11	mark	_	_
-6	a	o	DET	DET	_	7	det	_	_
+6	a	o	DET	DET	PronType=Art	7	det	_	_
 7	Secretaria	_	PROPN	PNOUN	_	11	nsubj	_	_
 8	de	de	ADP	ADP	_	9	case	_	_
 9	Serviços	_	PROPN	PNOUN	_	7	nmod	_	_
 10	Urbanos	_	PROPN	PNOUN	_	9	amod	_	_
 11	regularizou	regularizar	VERB	VERB	_	3	ccomp	_	_
-12	o	o	DET	DET	_	13	det	_	_
+12	o	o	DET	DET	PronType=Art	13	det	_	_
 13	contrato	contrato	NOUN	NOUN	_	11	obj	_	_
 14	e	e	CCONJ	CONJ	_	16	cc	_	_
 15	já	já	ADV	ADV	_	16	advmod	_	_
 16	está	estar	VERB	VERB	_	11	conj	_	_
 17	prevista	previsto	ADJ	ADJ	_	16	xcomp	_	_
-18	a	o	DET	DET	_	19	det	_	_
+18	a	o	DET	DET	PronType=Art	19	det	_	_
 19	manutenção	manutenção	NOUN	NOUN	_	16	nsubj	_	_
 20-21	da	_	_	_	_	_	_	_	_
 20	de	de	ADP	ADP	_	22	case	_	_
@@ -122,7 +122,7 @@
 
 # sent_id = dev-s6
 # text = O incidente ocorreu na cidade de Burgas, 400 quilômetros ao leste da capital búlgara, Sofia.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	incidente	incidente	NOUN	NOUN	_	3	nsubj	_	_
 3	ocorreu	ocorrer	VERB	VERB	_	0	root	_	_
 4-5	na	_	_	_	_	_	_	_	_
@@ -170,7 +170,7 @@
 
 # sent_id = dev-s8
 # text = O couro do peixe sempre rende ", conta.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	couro	couro	NOUN	NOUN	_	7	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -194,13 +194,13 @@
 6	principais	principal	ADJ	ADJ	_	7	amod	_	_
 7	acusações	acusação	NOUN	NOUN	_	3	nmod	_	_
 8	que	_	PRON	PRON	_	13	obj	_	_
-9	a	o	DET	DET	_	10	det	_	_
+9	a	o	DET	DET	PronType=Art	10	det	_	_
 10	campanha	campanha	NOUN	NOUN	_	13	nsubj	_	_
 11	tucana	tucano	ADJ	ADJ	_	10	amod	_	_
 12	tem	ter	AUX	AUX	_	13	aux	_	_
 13	dirigido	dirigir	VERB	VERB	_	7	acl:relcl	_	_
 14	contra	_	ADP	ADP	_	16	case	_	_
-15	o	o	DET	DET	_	16	det	_	_
+15	o	o	DET	DET	PronType=Art	16	det	_	_
 16	petista	petista	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	.	_	21	punct	_	_
 18	e	e	CCONJ	CONJ	_	21	cc	_	_
@@ -234,7 +234,7 @@
 9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	Grêmio	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	14	punct	_	_
-12	o	o	DET	DET	_	14	det	_	_
+12	o	o	DET	DET	PronType=Art	14	det	_	_
 13	quarto	_	ADJ	ADJ	_	14	amod	_	_
 14	colocado	_	NOUN	NOUN	_	10	appos	_	SpaceAfter=No
 15	,	,	PUNCT	.	_	14	punct	_	_

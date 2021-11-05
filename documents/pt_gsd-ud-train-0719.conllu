@@ -1,12 +1,12 @@
 # sent_id = train-s7136
 # text = Segundo o delegado Flávio Martins, a professora prestou depoimento e foi liberada após pagamento de fiança no valor dum salário mínimo, R $ 622.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	PronType=Art	3	det	_	_
 3	delegado	delegado	NOUN	NOUN	_	9	nmod	_	_
 4	Flávio	_	PROPN	PNOUN	_	3	appos	_	_
 5	Martins	_	PROPN	PNOUN	_	4	flat	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	3	punct	_	_
-7	a	o	DET	DET	_	8	det	_	_
+7	a	o	DET	DET	PronType=Art	8	det	_	_
 8	professora	professor	NOUN	NOUN	_	9	nsubj	_	_
 9	prestou	prestar	VERB	VERB	_	0	root	_	_
 10	depoimento	depoimento	NOUN	NOUN	_	9	obj	_	_
@@ -48,7 +48,7 @@
 12	casa	casa	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	3	punct	_	_
 14	chega	chegar	VERB	VERB	_	0	root	_	_
-15	a	o	DET	DET	_	16	det	_	_
+15	a	o	DET	DET	PronType=Art	16	det	_	_
 16	hora	hora	NOUN	NOUN	_	14	nsubj	_	_
 17	de	_	ADP	ADP	_	26	mark	_	_
 18	Fábio	_	PROPN	PNOUN	_	26	nsubj	_	_
@@ -68,10 +68,10 @@
 # sent_id = train-s7138
 # text = Já o preparatório para os novos policiais civis tem início no dia 16.
 1	Já	já	ADV	ADV	_	9	advmod	_	_
-2	o	o	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	PronType=Art	3	det	_	_
 3	preparatório	preparatório	NOUN	NOUN	_	9	nsubj	_	_
 4	para	para	ADP	ADP	_	7	case	_	_
-5	os	o	DET	DET	_	7	det	_	_
+5	os	o	DET	DET	PronType=Art	7	det	_	_
 6	novos	novo	ADJ	ADJ	_	7	amod	_	_
 7	policiais	policial	NOUN	NOUN	_	3	nmod	_	_
 8	civis	civil	ADJ	ADJ	_	7	amod	_	_
@@ -87,11 +87,11 @@
 # sent_id = train-s7139
 # text = "O Comitê entende que a estabilidade das condições monetárias por um período de tempo suficientemente prolongado é a estratégia mais adequada para garantir a convergência da inflação para a meta, ainda que de forma não linear", informou o BC na última semana, repetindo a frase na ata.
 1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
-2	O	o	DET	DET	_	3	det	_	_
+2	O	o	DET	DET	PronType=Art	3	det	_	_
 3	Comitê	_	PROPN	PNOUN	_	4	nsubj	_	_
 4	entende	entender	VERB	VERB	_	43	ccomp	_	_
 5	que	que	CCONJ	CONJ	_	21	mark	_	_
-6	a	o	DET	DET	_	7	det	_	_
+6	a	o	DET	DET	PronType=Art	7	det	_	_
 7	estabilidade	estabilidade	NOUN	NOUN	_	21	nsubj	_	_
 8-9	das	_	_	_	_	_	_	_	_
 8	de	de	ADP	ADP	_	10	case	_	_
@@ -106,20 +106,20 @@
 17	suficientemente	suficientemente	ADV	ADV	_	18	advmod	_	_
 18	prolongado	prolongado	ADJ	ADJ	_	16	amod	_	_
 19	é	ser	AUX	AUX	_	21	cop	_	_
-20	a	o	DET	DET	_	21	det	_	_
+20	a	o	DET	DET	PronType=Art	21	det	_	_
 21	estratégia	estratégia	NOUN	NOUN	_	4	ccomp	_	_
 22	mais	mais	ADV	ADV	_	23	advmod	_	_
 23	adequada	adequado	ADJ	ADJ	_	21	amod	_	_
 24	para	_	ADP	ADP	_	25	mark	_	_
 25	garantir	garantir	VERB	VERB	_	21	advcl	_	_
-26	a	o	DET	DET	_	27	det	_	_
+26	a	o	DET	DET	PronType=Art	27	det	_	_
 27	convergência	convergência	NOUN	NOUN	_	25	obj	_	_
 28-29	da	_	_	_	_	_	_	_	_
 28	de	de	ADP	ADP	_	30	case	_	_
 29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	inflação	inflação	NOUN	NOUN	_	27	nmod	_	_
 31	para	para	ADP	ADP	_	33	case	_	_
-32	a	o	DET	DET	_	33	det	_	_
+32	a	o	DET	DET	PronType=Art	33	det	_	_
 33	meta	meta	NOUN	NOUN	_	27	nmod	_	SpaceAfter=No
 34	,	,	PUNCT	.	_	35	punct	_	_
 35	ainda	ainda	ADV	ADV	_	27	nmod	_	_
@@ -131,7 +131,7 @@
 41	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
 42	,	,	PUNCT	.	_	43	punct	_	_
 43	informou	informar	VERB	VERB	_	0	root	_	_
-44	o	o	DET	DET	_	45	det	_	_
+44	o	o	DET	DET	PronType=Art	45	det	_	_
 45	BC	_	PROPN	PNOUN	_	43	nsubj	_	_
 46-47	na	_	_	_	_	_	_	_	_
 46	em	em	ADP	ADP	_	49	case	_	_
@@ -140,7 +140,7 @@
 49	semana	semana	NOUN	NOUN	_	43	nmod	_	SpaceAfter=No
 50	,	,	PUNCT	.	_	51	punct	_	_
 51	repetindo	repetir	VERB	VERB	_	43	acl	_	_
-52	a	o	DET	DET	_	53	det	_	_
+52	a	o	DET	DET	PronType=Art	53	det	_	_
 53	frase	frase	NOUN	NOUN	_	51	obj	_	_
 54-55	na	_	_	_	_	_	_	_	_
 54	em	em	ADP	ADP	_	56	case	_	_
@@ -153,7 +153,7 @@
 1	É	ser	VERB	VERB	_	0	root	_	_
 2	onde	onde	ADV	ADV	_	3	advmod	_	_
 3	ocorrem	ocorrer	VERB	VERB	_	1	csubj	_	_
-4	a	o	DET	DET	_	6	det	_	_
+4	a	o	DET	DET	PronType=Art	6	det	_	_
 5	maior	maior	ADJ	ADJ	_	6	amod	_	_
 6	parte	parte	NOUN	NOUN	_	3	nsubj	_	_
 7-8	das	_	_	_	_	_	_	_	_
@@ -207,7 +207,7 @@
 11	uma	um	DET	DET	_	13	det	_	_
 12	boa	bom	ADJ	ADJ	_	13	amod	_	_
 13	proposta	_	NOUN	NOUN	_	10	obj	_	_
-14	o	o	DET	DET	_	15	det	_	_
+14	o	o	DET	DET	PronType=Art	15	det	_	_
 15	Atlético	_	PROPN	PNOUN	_	19	nsubj	_	_
 16	-	-	PUNCT	.	_	15	punct	_	_
 17	GO	_	PROPN	PNOUN	_	15	flat	_	_
@@ -262,7 +262,7 @@
 37	)	)	PUNCT	.	_	36	punct	_	_
 38	para	_	ADP	ADP	_	39	mark	_	_
 39	suspender	suspender	VERB	VERB	_	22	nmod	_	_
-40	a	o	DET	DET	_	41	det	_	_
+40	a	o	DET	DET	PronType=Art	41	det	_	_
 41	eficácia	eficácia	NOUN	NOUN	_	39	obj	_	_
 42-43	da	_	_	_	_	_	_	_	_
 42	de	de	ADP	ADP	_	44	case	_	_
@@ -320,7 +320,7 @@
 12	de	de	ADP	ADP	_	13	case	_	_
 13	trabalhadores	trabalhador	NOUN	NOUN	_	10	nsubj	_	_
 14	com	com	ADP	ADP	_	16	case	_	_
-15	os	o	DET	DET	_	16	det	_	_
+15	os	o	DET	DET	PronType=Art	16	det	_	_
 16	débitos	débito	NOUN	NOUN	_	13	nmod	_	_
 17	pessoais	pessoal	ADJ	ADJ	_	16	amod	_	_
 18	aumentando	aumentar	VERB	VERB	_	16	acl	_	_
@@ -329,7 +329,7 @@
 21	dia	dia	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	.	_	23	punct	_	_
 23	gerando	gerar	VERB	VERB	_	18	conj	_	_
-24	o	o	DET	DET	_	25	det	_	_
+24	o	o	DET	DET	PronType=Art	25	det	_	_
 25	pagamento	pagamento	NOUN	NOUN	_	23	obj	_	_
 26	de	de	ADP	ADP	_	27	case	_	_
 27	juros	juro	NOUN	NOUN	_	25	nmod	_	SpaceAfter=No
@@ -358,13 +358,13 @@
 48	se	_	PRON	PRON	_	49	obj	_	_
 49	locomoverem	locomover	VERB	VERB	_	46	nmod	_	_
 50	até	_	ADP	ADP	_	53	case	_	_
-51	o	o	DET	DET	_	53	det	_	_
+51	o	o	DET	DET	PronType=Art	53	det	_	_
 52	próprio	próprio	ADJ	ADJ	_	53	amod	_	_
 53	trabalho	trabalho	NOUN	NOUN	_	49	nmod	_	SpaceAfter=No
 54	"	"	PUNCT	.	_	10	punct	_	SpaceAfter=No
 55	,	,	PUNCT	.	_	56	punct	_	_
 56	denunciou	denunciar	VERB	VERB	_	0	root	_	_
-57	a	o	DET	DET	_	58	det	_	_
+57	a	o	DET	DET	PronType=Art	58	det	_	_
 58	entidade	entidade	NOUN	NOUN	_	56	nsubj	_	SpaceAfter=No
 59	.	.	PUNCT	.	_	56	punct	_	_
 

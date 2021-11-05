@@ -5,7 +5,7 @@
 3	uma	um	DET	DET	_	4	det	_	_
 4	notificação	notificação	NOUN	NOUN	_	2	obj	_	_
 5	para	para	ADP	ADP	_	7	case	_	_
-6	os	o	DET	DET	_	7	det	_	_
+6	os	o	DET	DET	PronType=Art	7	det	_	_
 7	pais	_	NOUN	NOUN	_	2	nmod	_	_
 8-9	dos	_	_	_	_	_	_	_	_
 8	de	de	ADP	ADP	_	10	case	_	_
@@ -64,11 +64,11 @@
 
 # sent_id = train-s9520
 # text = O jogo aéreo é o sexto pior da temporada em jardas, mas o quarterback Alex Smith continua protegendo a bola e já anotou oito touchdowns, sendo interceptado apenas uma vez.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	jogo	jogo	NOUN	NOUN	_	6	nsubj	_	_
 3	aéreo	aéreo	ADJ	ADJ	_	2	amod	_	_
 4	é	ser	AUX	AUX	_	6	cop	_	_
-5	o	o	DET	DET	_	6	det	_	_
+5	o	o	DET	DET	PronType=Art	6	det	_	_
 6	sexto	sexto	NOUN	NOUN	_	0	root	_	_
 7	pior	pior	ADJ	ADJ	_	6	amod	_	_
 8-9	da	_	_	_	_	_	_	_	_
@@ -79,13 +79,13 @@
 12	jardas	jarda	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	20	punct	_	_
 14	mas	mas	CCONJ	CONJ	_	20	cc	_	_
-15	o	o	DET	DET	_	16	det	_	_
+15	o	o	DET	DET	PronType=Art	16	det	_	_
 16	quarterback	_	NOUN	NOUN	_	20	nsubj	_	_
 17	Alex	_	PROPN	PNOUN	_	16	appos	_	_
 18	Smith	_	PROPN	PNOUN	_	17	flat	_	_
 19	continua	continuar	AUX	AUX	_	20	aux	_	_
 20	protegendo	proteger	VERB	VERB	_	6	conj	_	_
-21	a	o	DET	DET	_	22	det	_	_
+21	a	o	DET	DET	PronType=Art	22	det	_	_
 22	bola	bola	NOUN	NOUN	_	20	obj	_	_
 23	e	e	CCONJ	CONJ	_	25	cc	_	_
 24	já	já	ADV	ADV	_	25	advmod	_	_
@@ -104,18 +104,18 @@
 # text = São estas as tarefas, estes são os desafios.
 1	São	ser	AUX	AUX	_	4	cop	_	_
 2	estas	_	PRON	PRON	_	4	nsubj	_	_
-3	as	o	DET	DET	_	4	det	_	_
+3	as	o	DET	DET	PronType=Art	4	det	_	_
 4	tarefas	tarefa	NOUN	NOUN	_	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	9	punct	_	_
 6	estes	_	PRON	PRON	_	9	nsubj	_	_
 7	são	ser	AUX	AUX	_	9	cop	_	_
-8	os	o	DET	DET	_	9	det	_	_
+8	os	o	DET	DET	PronType=Art	9	det	_	_
 9	desafios	desafio	NOUN	NOUN	_	4	conj	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s9522
 # text = A indisponibilidade da verba direcionada aos hospitais Júlio Muller, Santa Casa, Santa Helena, Hospital Geral Universitário, Hospital do Câncer, Pronto - Socorro de Cuiabá e a outros setores de atendimento à saúde da população gerou uma ameaça de corte no atendimento pelo SUS nestas instituições.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	indisponibilidade	indisponibilidade	NOUN	NOUN	_	45	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -151,7 +151,7 @@
 31	de	de	ADP	ADP	_	32	case	_	_
 32	Cuiabá	_	PROPN	PNOUN	_	30	nmod	_	_
 33	e	e	CCONJ	CONJ	_	36	cc	_	_
-34	a	o	DET	DET	_	36	det	_	_
+34	a	o	DET	DET	PronType=Art	36	det	_	_
 35	outros	_	DET	DET	_	36	det	_	_
 36	setores	setor	NOUN	NOUN	_	9	conj	_	_
 37	de	de	ADP	ADP	_	38	case	_	_
@@ -183,12 +183,12 @@
 
 # sent_id = train-s9523
 # text = A cidade teve, desde a última eleição em 2008, três prefeitos diferentes.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	cidade	cidade	NOUN	NOUN	_	3	nsubj	_	_
 3	teve	ter	VERB	VERB	_	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	8	punct	_	_
 5	desde	_	ADP	ADP	_	8	case	_	_
-6	a	o	DET	DET	_	8	det	_	_
+6	a	o	DET	DET	PronType=Art	8	det	_	_
 7	última	último	ADJ	ADJ	_	8	amod	_	_
 8	eleição	eleição	NOUN	NOUN	_	3	nmod	_	_
 9	em	em	ADP	ADP	_	10	case	_	_
@@ -201,7 +201,7 @@
 
 # sent_id = train-s9524
 # text = O evento acontecerá no Sindicato dos Trabalhadores da Indústria de Alimentação, Açúcar, Álcool e afins, que fica localizada na Rua Terêncio Ricciard, 1048, no município de Sertãozinho.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	evento	evento	NOUN	NOUN	_	3	nsubj	_	_
 3	acontecerá	acontecer	VERB	VERB	_	0	root	_	_
 4-5	no	_	_	_	_	_	_	_	_
@@ -313,7 +313,7 @@
 57	uma	um	DET	DET	_	58	det	_	_
 58	partida	partida	NOUN	NOUN	_	55	nmod	_	_
 59	contra	_	ADP	ADP	_	61	case	_	_
-60	o	o	DET	DET	_	61	det	_	_
+60	o	o	DET	DET	PronType=Art	61	det	_	_
 61	São	_	PROPN	PNOUN	_	58	nmod	_	_
 62	Paulo	_	PROPN	PNOUN	_	61	flat	_	SpaceAfter=No
 63	,	,	PUNCT	.	_	66	punct	_	_
@@ -326,7 +326,7 @@
 
 # sent_id = train-s9526
 # text = O conhecimento de transporte é um impresso fiscal em papel, como a nota fiscal de produtos ou serviços.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	conhecimento	conhecimento	NOUN	NOUN	_	7	nsubj	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	transporte	transporte	NOUN	NOUN	_	2	nmod	_	_
@@ -338,7 +338,7 @@
 10	papel	papel	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	14	punct	_	_
 12	como	como	ADP	ADP	_	14	case	_	_
-13	a	o	DET	DET	_	14	det	_	_
+13	a	o	DET	DET	PronType=Art	14	det	_	_
 14	nota	nota	NOUN	NOUN	_	7	nmod	_	_
 15	fiscal	fiscal	ADJ	ADJ	_	14	amod	_	_
 16	de	de	ADP	ADP	_	17	case	_	_

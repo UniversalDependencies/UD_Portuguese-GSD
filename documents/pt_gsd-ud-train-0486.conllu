@@ -26,10 +26,10 @@
 
 # sent_id = train-s4825
 # text = A agressão contra a jovem desencadeou uma série de protestos violentos em várias cidades indianas e cobranças de providências às autoridades.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	agressão	agressão	NOUN	NOUN	_	6	nsubj	_	_
 3	contra	_	ADP	ADP	_	5	case	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	jovem	jovem	NOUN	NOUN	_	2	nmod	_	_
 6	desencadeou	desencadear	VERB	VERB	_	0	root	_	_
 7	uma	um	DET	DET	_	8	det	_	_
@@ -60,14 +60,14 @@
 4	,	,	PUNCT	.	_	3	punct	_	_
 5	serão	ser	AUX	AUX	_	6	aux:pass	_	_
 6	realizadas	realizar	VERB	VERB	_	0	root	_	_
-7	as	o	DET	DET	_	8	det	_	_
+7	as	o	DET	DET	PronType=Art	8	det	_	_
 8	competições	competição	NOUN	NOUN	_	6	nsubj:pass	_	_
 9-10	do	_	_	_	_	_	_	_	_
 9	de	de	ADP	ADP	_	11	case	_	_
 10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	Circuito	_	PROPN	PNOUN	_	8	nmod	_	_
 12	e	e	CCONJ	CONJ	_	14	cc	_	_
-13	as	o	DET	DET	_	14	det	_	_
+13	as	o	DET	DET	PronType=Art	14	det	_	_
 14	finais	final	NOUN	NOUN	_	8	conj	_	_
 15-16	do	_	_	_	_	_	_	_	_
 15	de	de	ADP	ADP	_	17	case	_	_
@@ -89,7 +89,7 @@
 1	De	_	ADP	ADP	_	2	case	_	_
 2	acordo	acordo	NOUN	NOUN	_	9	nmod	_	_
 3	com	com	ADP	ADP	_	6	case	_	_
-4	o	o	DET	DET	_	6	det	_	_
+4	o	o	DET	DET	PronType=Art	6	det	_	_
 5	United	_	PROPN	PNOUN	_	6	amod	_	_
 6	States	_	PROPN	PNOUN	_	2	nmod	_	_
 7	Census	_	PROPN	PNOUN	_	6	flat	_	_
@@ -123,16 +123,16 @@
 
 # sent_id = train-s4828
 # text = Os comentários mais ofensivos sobre o islã e sobre o profeta Maomé foram claramente dublados posteriormente sobre a trilha sonora e não foram falados pelos atores.
-1	Os	o	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	PronType=Art	2	det	_	_
 2	comentários	comentário	NOUN	NOUN	_	15	nsubj:pass	_	_
 3	mais	mais	ADV	ADV	_	4	advmod	_	_
 4	ofensivos	ofensivo	ADJ	ADJ	_	2	amod	_	_
 5	sobre	_	ADP	ADP	_	7	case	_	_
-6	o	o	DET	DET	_	7	det	_	_
+6	o	o	DET	DET	PronType=Art	7	det	_	_
 7	islã	_	PROPN	PNOUN	_	2	nmod	_	_
 8	e	e	CCONJ	CONJ	_	11	cc	_	_
 9	sobre	_	ADP	ADP	_	11	case	_	_
-10	o	o	DET	DET	_	11	det	_	_
+10	o	o	DET	DET	PronType=Art	11	det	_	_
 11	profeta	profeta	NOUN	NOUN	_	7	conj	_	_
 12	Maomé	_	PROPN	PNOUN	_	11	appos	_	_
 13	foram	_	AUX	AUX	_	15	aux:pass	_	_
@@ -140,7 +140,7 @@
 15	dublados	dublar	VERB	VERB	_	0	root	_	_
 16	posteriormente	posteriormente	ADV	ADV	_	15	advmod	_	_
 17	sobre	_	ADP	ADP	_	19	case	_	_
-18	a	o	DET	DET	_	19	det	_	_
+18	a	o	DET	DET	PronType=Art	19	det	_	_
 19	trilha	trilha	NOUN	NOUN	_	15	nmod	_	_
 20	sonora	sonoro	ADJ	ADJ	_	19	amod	_	_
 21	e	e	CCONJ	CONJ	_	24	cc	_	_
@@ -155,7 +155,7 @@
 
 # sent_id = train-s4829
 # text = O luxo em São Paulo cabe no bolso e pode ser dividido em até cinco vezes sem juros.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	luxo	luxo	NOUN	NOUN	_	6	nsubj	_	_
 3	em	em	ADP	ADP	_	4	case	_	_
 4	São	_	PROPN	PNOUN	_	2	nmod	_	_
@@ -226,7 +226,7 @@
 # sent_id = train-s4832
 # text = Já a gasolina ficou em R $ 2,619 por litro, de acordo com dados da ANP (Agência Nacional de Petróleo, Gás Natural e Biocombustíveis), com base nos preços praticados na semana encerrada no último dia 01.
 1	Já	já	ADV	ADV	_	4	advmod	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	gasolina	gasolina	NOUN	NOUN	_	4	nsubj	_	_
 4	ficou	ficar	VERB	VERB	_	0	root	_	_
 5	em	em	ADP	ADP	_	6	case	_	_

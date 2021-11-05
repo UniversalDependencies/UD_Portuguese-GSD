@@ -1,7 +1,7 @@
 # sent_id = train-s4177
 # text = Segundo a Eurostat, 20 nações da UE registraram aumento recorde na dívida durante o segundo trimestre.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	Eurostat	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
 5	20	_	NUM	NUM	NumType=Card	6	nummod	_	_
@@ -18,7 +18,7 @@
 14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	dívida	dívida	NOUN	NOUN	_	11	nmod	_	_
 16	durante	_	ADP	ADP	_	19	case	_	_
-17	o	o	DET	DET	_	19	det	_	_
+17	o	o	DET	DET	PronType=Art	19	det	_	_
 18	segundo	segundo	ADJ	ADJ	_	19	amod	_	_
 19	trimestre	trimestre	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	10	punct	_	_
@@ -29,12 +29,12 @@
 2	depois	depois	ADV	ADV	_	13	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	6	punct	_	_
 4	com	com	ADP	ADP	_	6	case	_	_
-5	o	o	DET	DET	_	6	det	_	_
+5	o	o	DET	DET	PronType=Art	6	det	_	_
 6	reforço	reforço	NOUN	NOUN	_	13	nmod	_	_
 7	de	de	ADP	ADP	_	8	case	_	_
 8	viaturas	viatura	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	6	punct	_	_
-10	o	o	DET	DET	_	11	det	_	_
+10	o	o	DET	DET	PronType=Art	11	det	_	_
 11	Vectra	_	PROPN	PNOUN	_	13	nsubj:pass	_	_
 12	foi	_	AUX	AUX	_	13	aux:pass	_	_
 13	localizado	localizar	VERB	VERB	_	0	root	_	_
@@ -66,7 +66,7 @@
 # text = Isso possibilitará o acesso ao estacionamento previsto na praça ", declara a SMDU.
 1	Isso	_	PRON	PRON	_	2	nsubj	_	_
 2	possibilitará	possibilitar	VERB	VERB	_	14	ccomp	_	_
-3	o	o	DET	DET	_	4	det	_	_
+3	o	o	DET	DET	PronType=Art	4	det	_	_
 4	acesso	acesso	NOUN	NOUN	_	2	obj	_	_
 5-6	ao	_	_	_	_	_	_	_	_
 5	a	a	ADP	ADP	_	7	case	_	_
@@ -80,7 +80,7 @@
 12	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	14	punct	_	_
 14	declara	declarar	VERB	VERB	_	0	root	_	_
-15	a	o	DET	DET	_	16	det	_	_
+15	a	o	DET	DET	PronType=Art	16	det	_	_
 16	SMDU	_	PROPN	PNOUN	_	14	nsubj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	14	punct	_	_
 
@@ -109,7 +109,7 @@
 18	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
 19	provas	prova	NOUN	NOUN	_	16	nmod	_	_
 20	e	e	CCONJ	CONJ	_	22	cc	_	_
-21	a	o	DET	DET	_	22	det	_	_
+21	a	o	DET	DET	PronType=Art	22	det	_	_
 22	decisão	decisão	NOUN	NOUN	_	19	conj	_	_
 23	quanto	quanto	ADV	ADV	_	22	advmod	_	_
 24-25	aos	_	_	_	_	_	_	_	_
@@ -123,14 +123,14 @@
 
 # sent_id = train-s4181
 # text = O atacante não disputa uma partida desde o dia 4 de março, quando participou de 68 minutos na derrota por 1 a 0 para o Santos.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	atacante	atacante	NOUN	NOUN	_	4	nsubj	_	_
 3	não	não	ADV	ADV	Polarity=Neg	4	advmod	_	_
 4	disputa	disputar	VERB	VERB	_	0	root	_	_
 5	uma	um	DET	DET	_	6	det	_	_
 6	partida	partida	NOUN	NOUN	_	4	obj	_	_
 7	desde	_	ADP	ADP	_	9	case	_	_
-8	o	o	DET	DET	_	9	det	_	_
+8	o	o	DET	DET	PronType=Art	9	det	_	_
 9	dia	dia	NOUN	NOUN	_	4	nmod	_	_
 10	4	_	NUM	NUM	NumType=Card	9	nmod	_	_
 11	de	de	ADP	ADP	_	12	case	_	_
@@ -150,7 +150,7 @@
 24	a	_	ADP	ADP	_	25	case	_	_
 25	0	_	NUM	NUM	NumType=Card	23	nmod	_	_
 26	para	para	ADP	ADP	_	28	case	_	_
-27	o	o	DET	DET	_	28	det	_	_
+27	o	o	DET	DET	PronType=Art	28	det	_	_
 28	Santos	_	PROPN	PNOUN	_	21	nmod	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	4	punct	_	_
 
@@ -196,7 +196,7 @@
 
 # sent_id = train-s4184
 # text = As commodities agropecuárias (carne de boi e de porco, algodão, óleo de soja, trigo, açúcar, milho, café e arroz) tiveram aumento de 0,73 %.
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	PronType=Art	2	det	_	_
 2	commodities	commodities	NOUN	NOUN	_	28	nsubj	_	_
 3	agropecuárias	agropecuário	ADJ	ADJ	_	2	amod	_	_
 4	(	(	PUNCT	.	_	5	punct	_	SpaceAfter=No
@@ -239,7 +239,7 @@
 5	como	como	ADP	ADP	_	6	case	_	_
 6	arquiteto	arquiteto	NOUN	NOUN	_	4	nmod	_	_
 7	foi	_	AUX	AUX	_	11	cop	_	_
-8	o	o	DET	DET	_	11	det	_	_
+8	o	o	DET	DET	PronType=Art	11	det	_	_
 9	franco	_	PART	PRT	_	11	amod	_	_
 10	-	-	PUNCT	.	_	11	punct	_	_
 11	suíço	suíço	NOUN	NOUN	_	0	root	_	_

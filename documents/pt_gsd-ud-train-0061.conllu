@@ -3,7 +3,7 @@
 1	Silima	_	PROPN	PNOUN	_	2	nsubj	_	_
 2	precisou	precisar	VERB	VERB	_	0	root	_	_
 3	que	que	CCONJ	CONJ	_	7	mark	_	_
-4	os	o	DET	DET	_	5	det	_	_
+4	os	o	DET	DET	PronType=Art	5	det	_	_
 5	corpos	corpo	NOUN	NOUN	_	7	nsubj:pass	_	_
 6	foram	_	AUX	AUX	_	7	aux:pass	_	_
 7	encontrados	encontrar	VERB	VERB	_	2	ccomp	_	_
@@ -37,20 +37,20 @@
 
 # sent_id = train-s602
 # text = O partido, que já governou a capital durante 16 anos, perdeu as eleições no primeiro turno em Porto Alegre e também foi derrotado em Caxias do Sul, o segundo principal colégio eleitoral.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	partido	partido	NOUN	NOUN	_	13	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	6	punct	_	_
 4	que	_	PRON	PRON	_	6	nsubj	_	_
 5	já	já	ADV	ADV	_	6	advmod	_	_
 6	governou	governar	VERB	VERB	_	2	acl:relcl	_	_
-7	a	o	DET	DET	_	8	det	_	_
+7	a	o	DET	DET	PronType=Art	8	det	_	_
 8	capital	capital	NOUN	NOUN	_	6	obj	_	_
 9	durante	_	ADP	ADP	_	11	case	_	_
 10	16	_	NUM	NUM	NumType=Card	11	nummod	_	_
 11	anos	ano	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	.	_	6	punct	_	_
 13	perdeu	perder	VERB	VERB	_	0	root	_	_
-14	as	o	DET	DET	_	15	det	_	_
+14	as	o	DET	DET	PronType=Art	15	det	_	_
 15	eleições	eleição	NOUN	NOUN	_	13	obj	_	_
 16-17	no	_	_	_	_	_	_	_	_
 16	em	em	ADP	ADP	_	19	case	_	_
@@ -71,7 +71,7 @@
 30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	Sul	_	PROPN	PNOUN	_	28	nmod	_	SpaceAfter=No
 32	,	,	PUNCT	.	_	36	punct	_	_
-33	o	o	DET	DET	_	36	det	_	_
+33	o	o	DET	DET	PronType=Art	36	det	_	_
 34	segundo	segundo	ADJ	ADJ	_	36	amod	_	_
 35	principal	principal	ADJ	ADJ	_	36	amod	_	_
 36	colégio	colégio	NOUN	NOUN	_	28	appos	_	_
@@ -80,7 +80,7 @@
 
 # sent_id = train-s603
 # text = Os demais casos foram registrados em Santa Luzia, São José da Vitória, Pau Brasil, Ubatã, Itororó, Ibicaraí, Gongogi, Coaraci e Arataca.
-1	Os	o	DET	DET	_	3	det	_	_
+1	Os	o	DET	DET	PronType=Art	3	det	_	_
 2	demais	_	DET	DET	_	3	det	_	_
 3	casos	caso	NOUN	NOUN	_	5	nsubj:pass	_	_
 4	foram	_	AUX	AUX	_	5	aux:pass	_	_
@@ -114,7 +114,7 @@
 
 # sent_id = train-s604
 # text = A falta de retratos confiáveis de Bento Gonçalves levou o retratista Urbano Vilela a pesquisar outras fontes de informação que servissem como base na elaboração de sua tela.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	falta	_	NOUN	NOUN	_	9	nsubj	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	retratos	retrato	NOUN	NOUN	_	2	nmod	_	_
@@ -123,7 +123,7 @@
 7	Bento	_	PROPN	PNOUN	_	4	nmod	_	_
 8	Gonçalves	_	PROPN	PNOUN	_	7	flat	_	_
 9	levou	levar	VERB	VERB	_	0	root	_	_
-10	o	o	DET	DET	_	11	det	_	_
+10	o	o	DET	DET	PronType=Art	11	det	_	_
 11	retratista	retratista	NOUN	NOUN	_	9	obj	_	_
 12	Urbano	_	PROPN	PNOUN	_	11	appos	_	_
 13	Vilela	_	PROPN	PNOUN	_	12	flat	_	_
@@ -154,7 +154,7 @@
 4	estar	estar	VERB	VERB	_	11	advcl	_	_
 5	confirmado	confirmado	ADJ	ADJ	_	4	xcomp	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	4	punct	_	_
-7	o	o	DET	DET	_	9	det	_	_
+7	o	o	DET	DET	PronType=Art	9	det	_	_
 8	próprio	próprio	ADJ	ADJ	_	9	amod	_	_
 9	Murphy	_	PROPN	PNOUN	_	11	nsubj	_	_
 10	deverá	dever	AUX	AUX	_	11	aux	_	_
@@ -202,7 +202,7 @@
 24	tiros	tiro	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	.	_	26	punct	_	_
 26	informou	informar	VERB	VERB	_	0	root	_	_
-27	o	o	DET	DET	_	28	det	_	_
+27	o	o	DET	DET	PronType=Art	28	det	_	_
 28	governo	governo	NOUN	NOUN	_	26	nsubj	_	_
 29-30	da	_	_	_	_	_	_	_	_
 29	de	de	ADP	ADP	_	31	case	_	_
@@ -217,7 +217,7 @@
 1	Para	_	ADP	ADP	_	2	case	_	_
 2	eles	_	PRON	PRON	_	12	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	vitória	vitória	NOUN	NOUN	_	12	nsubj	_	_
 6-7	nas	_	_	_	_	_	_	_	_
 6	em	em	ADP	ADP	_	8	case	_	_
@@ -225,7 +225,7 @@
 8	urnas	urna	NOUN	NOUN	_	5	nmod	_	_
 9	não	não	ADV	ADV	Polarity=Neg	12	advmod	_	_
 10	será	ser	AUX	AUX	_	12	cop	_	_
-11	a	o	DET	DET	_	12	det	_	_
+11	a	o	DET	DET	PronType=Art	12	det	_	_
 12	garantia	garantia	NOUN	NOUN	_	0	root	_	_
 13	de	de	ADP	ADP	_	14	case	_	_
 14	posse	posse	NOUN	NOUN	_	12	nmod	_	_
@@ -242,11 +242,11 @@
 23	,	,	PUNCT	.	_	29	punct	_	_
 24	se	_	CCONJ	CONJ	_	29	mark	_	_
 25	posteriormente	posteriormente	ADV	ADV	_	29	advmod	_	_
-26	o	o	DET	DET	_	27	det	_	_
+26	o	o	DET	DET	PronType=Art	27	det	_	_
 27	candidato	candidato	NOUN	NOUN	_	29	nsubj	_	_
 28	que	_	PRON	PRON	_	29	dep	_	_
 29	tiver	ter	VERB	VERB	_	40	advcl	_	_
-30	o	o	DET	DET	_	31	det	_	_
+30	o	o	DET	DET	PronType=Art	31	det	_	_
 31	registro	registro	NOUN	NOUN	_	29	obj	_	_
 32	impugnado	impugnar	VERB	VERB	_	29	acl	_	_
 33-34	pelo	_	_	_	_	_	_	_	_
@@ -254,7 +254,7 @@
 34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	TSE	_	PROPN	PNOUN	_	32	nmod	_	SpaceAfter=No
 36	,	,	PUNCT	.	_	29	punct	_	_
-37	os	o	DET	DET	_	38	det	_	_
+37	os	o	DET	DET	PronType=Art	38	det	_	_
 38	votos	voto	NOUN	NOUN	_	40	nsubj:pass	_	_
 39	serão	ser	AUX	AUX	_	40	aux:pass	_	_
 40	considerados	considerar	VERB	VERB	_	12	advcl	_	_
@@ -263,7 +263,7 @@
 
 # sent_id = train-s608
 # text = O primeiro vem fazendo uma boa trajetória nas bilheterias norte - americanas e a crítica especializada o recebeu muito bem.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	primeiro	primeiro	NOUN	NOUN	_	4	nsubj	_	_
 3	vem	vir	AUX	AUX	_	4	aux	_	_
 4	fazendo	fazer	VERB	VERB	_	0	root	_	_
@@ -292,13 +292,13 @@
 1	Todo	_	DET	DET	_	2	det	_	_
 2	cidadão	cidadão	NOUN	NOUN	_	3	nsubj	_	_
 3	tem	ter	VERB	VERB	_	0	root	_	_
-4	o	o	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	PronType=Art	5	det	_	_
 5	direito	direito	NOUN	NOUN	_	3	obj	_	_
 6	livre	livre	ADJ	ADJ	_	5	amod	_	_
 7	de	_	ADP	ADP	_	8	mark	_	_
 8	escolher	escolher	VERB	VERB	_	5	nmod	_	_
 9	qual	_	DET	DET	_	12	det	_	_
-10	o	o	DET	DET	_	12	det	_	_
+10	o	o	DET	DET	PronType=Art	12	det	_	_
 11	melhor	melhor	ADJ	ADJ	_	12	amod	_	_
 12	meio	meio	NOUN	NOUN	_	8	obj	_	_
 13	de	de	ADP	ADP	_	14	case	_	_

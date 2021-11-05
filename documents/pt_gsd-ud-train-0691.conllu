@@ -14,7 +14,7 @@
 11	,	,	PUNCT	.	_	3	punct	_	_
 12	ele	_	PRON	PRON	_	13	nsubj	_	_
 13	decide	decidir	VERB	VERB	_	0	root	_	_
-14	o	o	DET	DET	_	15	det	_	_
+14	o	o	DET	DET	PronType=Art	15	det	_	_
 15	improvável	_	NOUN	NOUN	_	13	obj	_	SpaceAfter=No
 16	:	:	PUNCT	.	_	13	punct	_	_
 17	contrata	contratar	VERB	VERB	_	13	parataxis	_	_
@@ -37,14 +37,14 @@
 
 # sent_id = train-s6858
 # text = A comediante e apresentadora Rosie O'Donnell anunciou o nascimento de sua filha Dakota nesta quarta - feira (9), seu primeiro bebê com sua segunda mulher Michelle Rounds.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	comediante	comediante	NOUN	NOUN	_	7	nsubj	_	_
 3	e	e	CCONJ	CONJ	_	4	cc	_	_
 4	apresentadora	apresentador	NOUN	NOUN	_	2	conj	_	_
 5	Rosie	_	PROPN	PNOUN	_	2	appos	_	_
 6	O'Donnell	_	PROPN	PNOUN	_	5	flat	_	_
 7	anunciou	anunciar	VERB	VERB	_	0	root	_	_
-8	o	o	DET	DET	_	9	det	_	_
+8	o	o	DET	DET	PronType=Art	9	det	_	_
 9	nascimento	nascimento	NOUN	NOUN	_	7	obj	_	_
 10	de	de	ADP	ADP	_	12	case	_	_
 11	sua	_	DET	DET	_	12	det:poss	_	_
@@ -72,10 +72,10 @@
 # sent_id = train-s6859
 # text = Entre as manifestações que a categoria pretende fazer em protesto pela falta de reajuste, está a promessa de boicote a ações de inteligência e operações de investigação da PF.
 1	Entre	_	ADP	ADP	_	3	case	_	_
-2	as	o	DET	DET	_	3	det	_	_
+2	as	o	DET	DET	PronType=Art	3	det	_	_
 3	manifestações	manifestação	NOUN	NOUN	_	17	nmod	_	_
 4	que	_	PRON	PRON	_	7	obj	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	categoria	categoria	NOUN	NOUN	_	7	nsubj	_	_
 7	pretende	pretender	VERB	VERB	_	3	acl:relcl	_	_
 8	fazer	fazer	VERB	VERB	_	7	xcomp	_	_
@@ -89,7 +89,7 @@
 15	reajuste	reajuste	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	.	_	7	punct	_	_
 17	está	estar	VERB	VERB	_	0	root	_	_
-18	a	o	DET	DET	_	19	det	_	_
+18	a	o	DET	DET	PronType=Art	19	det	_	_
 19	promessa	promessa	NOUN	NOUN	_	17	nsubj	_	_
 20	de	de	ADP	ADP	_	21	case	_	_
 21	boicote	boicote	NOUN	NOUN	_	19	nmod	_	_
@@ -109,11 +109,11 @@
 
 # sent_id = train-s6860
 # text = O diagrama seguinte representa as localidades num raio de 28 km ao redor de Danbury.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	diagrama	diagrama	NOUN	NOUN	_	4	nsubj	_	_
 3	seguinte	seguinte	ADJ	ADJ	_	2	amod	_	_
 4	representa	representar	VERB	VERB	_	0	root	_	_
-5	as	o	DET	DET	_	6	det	_	_
+5	as	o	DET	DET	PronType=Art	6	det	_	_
 6	localidades	localidade	NOUN	NOUN	_	4	obj	_	_
 7	num	_	ADP	ADP	_	8	case	_	_
 8	raio	raio	NOUN	NOUN	_	6	nmod	_	_
@@ -130,7 +130,7 @@
 
 # sent_id = train-s6861
 # text = O republicano é amigo pessoal do premiê Benjamin Netanyahu, cuja relação com Obama se deteriorou após divergências sobre a política no Oriente Médio.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	republicano	republicano	NOUN	NOUN	_	4	nsubj	_	_
 3	é	ser	AUX	AUX	_	4	cop	_	_
 4	amigo	amigo	NOUN	NOUN	_	0	root	_	_
@@ -151,7 +151,7 @@
 18	após	_	ADP	ADP	_	19	case	_	_
 19	divergências	divergência	NOUN	NOUN	_	17	nmod	_	_
 20	sobre	_	ADP	ADP	_	22	case	_	_
-21	a	o	DET	DET	_	22	det	_	_
+21	a	o	DET	DET	PronType=Art	22	det	_	_
 22	política	_	NOUN	NOUN	_	19	nmod	_	_
 23-24	no	_	_	_	_	_	_	_	_
 23	em	em	ADP	ADP	_	25	case	_	_
@@ -167,7 +167,7 @@
 2	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	Gunners	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
-5	o	o	DET	DET	_	6	det	_	_
+5	o	o	DET	DET	PronType=Art	6	det	_	_
 6	atacante	atacante	NOUN	NOUN	_	7	nsubj	_	_
 7	conquistou	conquistar	VERB	VERB	_	0	root	_	_
 8	dois	_	NUM	NUM	NumType=Card	9	nummod	_	_
@@ -222,7 +222,7 @@
 12	,	,	PUNCT	.	_	13	punct	_	_
 13	incidente	incidente	ADJ	ADJ	_	8	amod	_	_
 14	sobre	_	ADP	ADP	_	16	case	_	_
-15	o	o	DET	DET	_	16	det	_	_
+15	o	o	DET	DET	PronType=Art	16	det	_	_
 16	somatório	somatório	NOUN	NOUN	_	13	nmod	_	_
 17-18	dos	_	_	_	_	_	_	_	_
 17	de	de	ADP	ADP	_	19	case	_	_
@@ -234,16 +234,16 @@
 
 # sent_id = train-s6865
 # text = A ideia, acrescentou o professor, é que a mostra seja o mais inclusiva possível, funcionando como um fórum para professores e alunos.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	ideia	ideia	NOUN	NOUN	_	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	4	punct	_	_
 4	acrescentou	acrescentar	VERB	VERB	_	2	parataxis	_	_
-5	o	o	DET	DET	_	6	det	_	_
+5	o	o	DET	DET	PronType=Art	6	det	_	_
 6	professor	professor	NOUN	NOUN	_	4	nsubj	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	4	punct	_	_
 8	é	ser	AUX	AUX	_	2	cop	_	_
 9	que	que	CCONJ	CONJ	_	12	mark	_	_
-10	a	o	DET	DET	_	11	det	_	_
+10	a	o	DET	DET	PronType=Art	11	det	_	_
 11	mostra	mostra	NOUN	NOUN	_	12	nsubj	_	_
 12	seja	ser	VERB	VERB	_	2	csubj	_	_
 13	o	o	DET	DET	_	14	det	_	_
@@ -263,7 +263,7 @@
 
 # sent_id = train-s6866
 # text = Os indecisos somariam 10,90 % e os que não escolheriam qualquer dos candidatos ficariam em 10,78 %.
-1	Os	o	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	PronType=Art	2	det	_	_
 2	indecisos	_	NOUN	NOUN	_	3	nsubj	_	_
 3	somariam	somar	VERB	VERB	_	0	root	_	_
 4	10,90	_	NUM	NUM	NumType=Card	5	nummod	_	_

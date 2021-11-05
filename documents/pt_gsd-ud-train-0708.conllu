@@ -13,7 +13,7 @@
 10	Drive	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	17	punct	_	_
 12	enquanto	_	CCONJ	CONJ	_	17	mark	_	_
-13	o	o	DET	DET	_	14	det	_	_
+13	o	o	DET	DET	PronType=Art	14	det	_	_
 14	1	_	NOUN	NOUN	_	17	nsubj:pass	_	_
 15	º	_	PUNCT	.	_	14	punct	_	_
 16	foi	_	AUX	AUX	_	17	aux:pass	_	_
@@ -26,7 +26,7 @@
 
 # sent_id = train-s7027
 # text = A defesa do empresário afirmou ter ficado "perplexa" com o teor do documento, divulgado pela revista Carta Capital.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	defesa	_	NOUN	NOUN	_	6	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -39,7 +39,7 @@
 10	perplexa	perplexo	ADJ	ADJ	_	8	xcomp	_	SpaceAfter=No
 11	"	"	PUNCT	.	_	10	punct	_	_
 12	com	com	ADP	ADP	_	14	case	_	_
-13	o	o	DET	DET	_	14	det	_	_
+13	o	o	DET	DET	PronType=Art	14	det	_	_
 14	teor	teor	NOUN	NOUN	_	10	nmod	_	_
 15-16	do	_	_	_	_	_	_	_	_
 15	de	de	ADP	ADP	_	17	case	_	_
@@ -124,7 +124,7 @@
 
 # sent_id = train-s7031
 # text = A guerra ocorreu no nordeste asiático, agravou - se, e o regime político do czar Nicolau II da Rússia foi abalado por uma série de revoltas internas em 1905, envolvendo operários, camponeses, marinheiros (como a revolta no couraçado Potemkin) e soldados do exército.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	guerra	guerra	NOUN	NOUN	_	3	nsubj	_	_
 3	ocorreu	ocorrer	VERB	VERB	_	0	root	_	_
 4-5	no	_	_	_	_	_	_	_	_
@@ -138,7 +138,7 @@
 11	se	_	PART	PRT	_	9	expl:pv	_	SpaceAfter=No
 12	,	,	PUNCT	.	_	26	punct	_	_
 13	e	e	CCONJ	CONJ	_	26	cc	_	_
-14	o	o	DET	DET	_	15	det	_	_
+14	o	o	DET	DET	PronType=Art	15	det	_	_
 15	regime	regime	NOUN	NOUN	_	26	nsubj:pass	_	_
 16	político	político	ADJ	ADJ	_	15	amod	_	_
 17-18	do	_	_	_	_	_	_	_	_
@@ -170,7 +170,7 @@
 41	marinheiros	marinheiro	NOUN	NOUN	_	37	conj	_	_
 42	(	(	PUNCT	.	_	45	punct	_	SpaceAfter=No
 43	como	como	ADP	ADP	_	45	case	_	_
-44	a	o	DET	DET	_	45	det	_	_
+44	a	o	DET	DET	PronType=Art	45	det	_	_
 45	revolta	_	NOUN	NOUN	_	41	nmod	_	_
 46-47	no	_	_	_	_	_	_	_	_
 46	em	em	ADP	ADP	_	48	case	_	_
@@ -204,7 +204,7 @@
 # text = Depois que as penas dos condenados forem fixadas, os ministros terão de redigir o acórdão em que serão resumidas as conclusões do caso.
 1	Depois	depois	ADV	ADV	_	9	mark	_	_
 2	que	_	CCONJ	CONJ	_	1	fixed	_	_
-3	as	o	DET	DET	_	4	det	_	_
+3	as	o	DET	DET	PronType=Art	4	det	_	_
 4	penas	_	NOUN	NOUN	_	9	nsubj:pass	_	_
 5-6	dos	_	_	_	_	_	_	_	_
 5	de	de	ADP	ADP	_	7	case	_	_
@@ -213,18 +213,18 @@
 8	forem	_	AUX	AUX	_	9	aux:pass	_	_
 9	fixadas	fixar	VERB	VERB	_	15	advcl	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	9	punct	_	_
-11	os	o	DET	DET	_	12	det	_	_
+11	os	o	DET	DET	PronType=Art	12	det	_	_
 12	ministros	ministro	NOUN	NOUN	_	15	nsubj	_	_
 13	terão	ter	AUX	AUX	_	15	aux	_	_
 14	de	_	ADP	ADP	_	15	mark	_	_
 15	redigir	redigir	VERB	VERB	_	0	root	_	_
-16	o	o	DET	DET	_	17	det	_	_
+16	o	o	DET	DET	PronType=Art	17	det	_	_
 17	acórdão	acórdão	NOUN	NOUN	_	15	obj	_	_
 18	em	em	ADP	ADP	_	19	case	_	_
 19	que	_	NOUN	NOUN	_	21	nmod	_	_
 20	serão	ser	AUX	AUX	_	21	aux:pass	_	_
 21	resumidas	resumir	VERB	VERB	_	17	acl:relcl	_	_
-22	as	o	DET	DET	_	23	det	_	_
+22	as	o	DET	DET	PronType=Art	23	det	_	_
 23	conclusões	conclusão	NOUN	NOUN	_	21	nsubj:pass	_	_
 24-25	do	_	_	_	_	_	_	_	_
 24	de	de	ADP	ADP	_	26	case	_	_
@@ -234,7 +234,7 @@
 
 # sent_id = train-s7034
 # text = A expressão está muito desgastada.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	expressão	expressão	NOUN	NOUN	_	3	nsubj	_	_
 3	está	estar	VERB	VERB	_	0	root	_	_
 4	muito	muito	ADV	ADV	_	5	advmod	_	_
@@ -243,12 +243,12 @@
 
 # sent_id = train-s7035
 # text = A lei também amplia significativamente o limite máximo de renda de famílias pobres, para ter direito ao Medicaid -- o único seguro - saúde "socializado" existentes nos EUA (também existe um outro programa, o Medicare, que é dedicado apenas a pessoas idosas -- com mais de 65 anos).
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	lei	lei	NOUN	NOUN	_	4	nsubj	_	_
 3	também	também	ADV	ADV	_	4	advmod	_	_
 4	amplia	ampliar	VERB	VERB	_	0	root	_	_
 5	significativamente	significativamente	ADV	ADV	_	4	advmod	_	_
-6	o	o	DET	DET	_	7	det	_	_
+6	o	o	DET	DET	PronType=Art	7	det	_	_
 7	limite	limite	NOUN	NOUN	_	4	obj	_	_
 8	máximo	máximo	ADJ	ADJ	_	7	amod	_	_
 9	de	de	ADP	ADP	_	10	case	_	_
@@ -265,7 +265,7 @@
 19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	Medicaid	_	PROPN	PNOUN	_	17	nmod	_	_
 21	--	_	PUNCT	.	_	24	punct	_	_
-22	o	o	DET	DET	_	24	det	_	_
+22	o	o	DET	DET	PronType=Art	24	det	_	_
 23	único	único	ADJ	ADJ	_	24	amod	_	_
 24	seguro	seguro	NOUN	NOUN	_	20	appos	_	_
 25	-	-	PUNCT	.	_	24	punct	_	_
@@ -285,7 +285,7 @@
 38	outro	_	DET	DET	_	39	det	_	_
 39	programa	programa	NOUN	NOUN	_	36	nsubj	_	SpaceAfter=No
 40	,	,	PUNCT	.	_	42	punct	_	_
-41	o	o	DET	DET	_	42	det	_	_
+41	o	o	DET	DET	PronType=Art	42	det	_	_
 42	Medicare	_	PROPN	PNOUN	_	39	appos	_	SpaceAfter=No
 43	,	,	PUNCT	.	_	42	punct	_	_
 44	que	_	PRON	PRON	_	46	nsubj:pass	_	_

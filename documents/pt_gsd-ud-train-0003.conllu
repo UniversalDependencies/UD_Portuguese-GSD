@@ -1,7 +1,7 @@
 # sent_id = train-s21
 # text = E as outras obras, eu tenho certeza que até o dia 31 de dezembro, o prefeito Roberto Sobrinho irá concluir.
 1	E	_	CCONJ	CONJ	_	7	cc	_	_
-2	as	o	DET	DET	_	4	det	_	_
+2	as	o	DET	DET	PronType=Art	4	det	_	_
 3	outras	_	DET	DET	_	4	det	_	_
 4	obras	obra	NOUN	NOUN	_	22	obj	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	4	punct	_	_
@@ -10,13 +10,13 @@
 8	certeza	certeza	NOUN	NOUN	_	7	obj	_	_
 9	que	_	PRON	PRON	_	22	mark	_	_
 10	até	_	ADP	ADP	_	12	case	_	_
-11	o	o	DET	DET	_	12	det	_	_
+11	o	o	DET	DET	PronType=Art	12	det	_	_
 12	dia	dia	NOUN	NOUN	_	22	nmod	_	_
 13	31	_	NUM	NUM	NumType=Card	12	nmod	_	_
 14	de	de	ADP	ADP	_	15	case	_	_
 15	dezembro	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	.	_	12	punct	_	_
-17	o	o	DET	DET	_	18	det	_	_
+17	o	o	DET	DET	PronType=Art	18	det	_	_
 18	prefeito	prefeito	NOUN	NOUN	_	22	nsubj	_	_
 19	Roberto	_	PROPN	PNOUN	_	18	appos	_	_
 20	Sobrinho	_	PROPN	PNOUN	_	19	flat	_	_
@@ -29,7 +29,7 @@
 1	Marcelo	_	PROPN	PNOUN	_	6	nsubj	_	_
 2	Zormann	_	PROPN	PNOUN	_	1	flat	_	_
 3	foi	_	AUX	AUX	_	6	cop	_	_
-4	o	o	DET	DET	_	6	det	_	_
+4	o	o	DET	DET	PronType=Art	6	det	_	_
 5	primeiro	primeiro	ADJ	ADJ	_	6	amod	_	_
 6	representante	representante	NOUN	NOUN	_	0	root	_	_
 7-8	do	_	_	_	_	_	_	_	_
@@ -41,7 +41,7 @@
 12	,	,	PUNCT	.	_	13	punct	_	_
 13	começou	começar	VERB	VERB	_	6	conj	_	_
 14	vencendo	vencer	VERB	VERB	_	13	acl	_	_
-15	a	o	DET	DET	_	16	det	_	_
+15	a	o	DET	DET	PronType=Art	16	det	_	_
 16	partida	partida	NOUN	NOUN	_	14	obj	_	_
 17	contra	_	ADP	ADP	_	18	case	_	_
 18	Stefan	_	PROPN	PNOUN	_	16	nmod	_	_
@@ -85,17 +85,17 @@
 10	se	_	CCONJ	CONJ	_	12	mark	_	_
 11	não	não	ADV	ADV	Polarity=Neg	12	advmod	_	_
 12	fosse	_	VERB	VERB	_	2	advcl	_	_
-13	o	o	DET	DET	_	14	det	_	_
+13	o	o	DET	DET	PronType=Art	14	det	_	_
 14	programa	programa	NOUN	NOUN	_	12	nsubj	_	SpaceAfter=No
 15	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s24
 # text = A concorrência para o contrato atual foi realizada após constatado pela Procuradoria Geral do Município (PGM) a "existência de atas com 'valores mais baixos' no mercado".
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	concorrência	concorrência	NOUN	NOUN	_	8	nsubj:pass	_	_
 3	para	para	ADP	ADP	_	5	case	_	_
-4	o	o	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	PronType=Art	5	det	_	_
 5	contrato	contrato	NOUN	NOUN	_	2	nmod	_	_
 6	atual	atual	ADJ	ADJ	_	5	amod	_	_
 7	foi	_	AUX	AUX	_	8	aux:pass	_	_
@@ -114,7 +114,7 @@
 18	(	(	PUNCT	.	_	19	punct	_	SpaceAfter=No
 19	PGM	_	PROPN	PNOUN	_	13	appos	_	SpaceAfter=No
 20	)	)	PUNCT	.	_	19	punct	_	_
-21	a	o	DET	DET	_	23	det	_	_
+21	a	o	DET	DET	PronType=Art	23	det	_	_
 22	"	"	PUNCT	.	_	23	punct	_	SpaceAfter=No
 23	existência	existência	NOUN	NOUN	_	10	nsubj	_	_
 24	de	de	ADP	ADP	_	25	case	_	_
@@ -162,7 +162,7 @@
 
 # sent_id = train-s26
 # text = A reforma da imigração, sinalizada pela ação do Executivo de anunciar que vai poupar os jovens imigrantes de deportação, também faz parte da estratégia -- e já energizou esta parcela da população em estados como Arizona e Califórnia.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	reforma	reforma	NOUN	NOUN	_	26	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -183,7 +183,7 @@
 16	que	que	CCONJ	CONJ	_	18	mark	_	_
 17	vai	ir	AUX	AUX	_	18	aux	_	_
 18	poupar	poupar	VERB	VERB	_	15	ccomp	_	_
-19	os	o	DET	DET	_	20	det	_	_
+19	os	o	DET	DET	PronType=Art	20	det	_	_
 20	jovens	jovem	NOUN	NOUN	_	18	obj	_	_
 21	imigrantes	imigrante	ADJ	ADJ	_	20	amod	_	_
 22	de	de	ADP	ADP	_	23	case	_	_
@@ -234,7 +234,7 @@
 13	Londres	_	PROPN	PNOUN	_	15	nsubj	_	_
 14	terminou	terminar	AUX	AUX	_	15	aux	_	_
 15	aceitando	aceitar	VERB	VERB	_	0	root	_	_
-16	a	o	DET	DET	_	17	det	_	_
+16	a	o	DET	DET	PronType=Art	17	det	_	_
 17	realização	realização	NOUN	NOUN	_	15	obj	_	_
 18-19	dos	_	_	_	_	_	_	_	_
 18	de	de	ADP	ADP	_	20	case	_	_
@@ -253,7 +253,7 @@
 31	de	de	ADP	ADP	_	32	case	_	_
 32	1946	_	NUM	NUM	NumType=Card	30	nmod	_	_
 33	processaram	processar	VERB	VERB	_	20	acl:relcl	_	_
-34	a	o	DET	DET	_	35	det	_	_
+34	a	o	DET	DET	PronType=Art	35	det	_	_
 35	cúpula	cúpula	NOUN	NOUN	_	33	obj	_	_
 36-37	do	_	_	_	_	_	_	_	_
 36	de	de	ADP	ADP	_	39	case	_	_
@@ -270,14 +270,14 @@
 4	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	6	punct	_	_
 6	disse	dizer	VERB	VERB	_	0	root	_	_
-7	o	o	DET	DET	_	8	det	_	_
+7	o	o	DET	DET	PronType=Art	8	det	_	_
 8	treinador	treinador	NOUN	NOUN	_	6	nsubj	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s29
 # text = Todo o poder está concentrado em suas mãos -- e parte nas mãos do seu marqueteiro, Luiz Gonzales.
 1	Todo	_	DET	DET	_	3	det	_	_
-2	o	o	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	PronType=Art	3	det	_	_
 3	poder	poder	NOUN	NOUN	_	4	nsubj	_	_
 4	está	estar	VERB	VERB	_	0	root	_	_
 5	concentrado	concentrado	ADJ	ADJ	_	4	xcomp	_	_
@@ -326,7 +326,7 @@
 18	Brasil	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	.	_	22	punct	_	_
 20	entre	_	ADP	ADP	_	22	case	_	_
-21	os	o	DET	DET	_	22	det	_	_
+21	os	o	DET	DET	PronType=Art	22	det	_	_
 22	pontos	ponto	NOUN	NOUN	_	5	nmod	_	_
 23	extremos	extremo	ADJ	ADJ	_	22	amod	_	_
 24	determinados	determinar	VERB	VERB	_	22	acl	_	_

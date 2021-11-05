@@ -6,7 +6,7 @@
 4	de	de	ADP	ADP	_	5	case	_	_
 5	setembro	_	PROPN	PNOUN	_	3	nmod	_	_
 6	--	_	PUNCT	.	_	8	punct	_	_
-7	O	o	DET	DET	_	8	det	_	_
+7	O	o	DET	DET	PronType=Art	8	det	_	_
 8	nascimento	nascimento	NOUN	NOUN	_	0	root	_	_
 9	em	em	ADP	ADP	_	11	case	_	_
 10	Santa	_	PROPN	PNOUN	_	11	amod	_	_
@@ -21,7 +21,7 @@
 
 # sent_id = test-s618
 # text = A Faculdade Impacta, referência em cursos de graduação, pós - graduação e MBA nas áreas de TI, Gestão, Marketing Digital e Design, anuncia abertura de inscrições para novo processo seletivo 2013.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	Faculdade	_	PROPN	PNOUN	_	29	nsubj	_	_
 3	Impacta	_	PROPN	PNOUN	_	2	flat	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	5	punct	_	_
@@ -63,7 +63,7 @@
 
 # sent_id = test-s619
 # text = A fábrica da PSA Peugeot Citroën, em Sochaux, França, está celebrando seu centenário, sendo uma das mais antigas unidades de produção automotiva do mundo ainda em atividade.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	fábrica	fábrica	NOUN	NOUN	_	15	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -104,7 +104,7 @@
 
 # sent_id = test-s620
 # text = O protesto começou na manhã desta quinta - feira quando os operários conseguiram entrar no recinto que rodeia o complexo ministerial e tentaram chegar ao edifício principal.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	protesto	protesto	NOUN	NOUN	_	3	nsubj	_	_
 3	começou	começar	VERB	VERB	_	0	root	_	_
 4-5	na	_	_	_	_	_	_	_	_
@@ -116,7 +116,7 @@
 9	-	-	PUNCT	.	_	10	punct	_	_
 10	feira	_	PROPN	PNOUN	_	6	nmod	_	_
 11	quando	quando	ADV	ADV	_	14	advmod	_	_
-12	os	o	DET	DET	_	13	det	_	_
+12	os	o	DET	DET	PronType=Art	13	det	_	_
 13	operários	operário	NOUN	NOUN	_	14	nsubj	_	_
 14	conseguiram	conseguir	VERB	VERB	_	6	acl:relcl	_	_
 15	entrar	entrar	VERB	VERB	_	14	xcomp	_	_
@@ -126,7 +126,7 @@
 18	recinto	recinto	NOUN	NOUN	_	15	nmod	_	_
 19	que	_	PRON	PRON	_	20	nsubj	_	_
 20	rodeia	rodear	VERB	VERB	_	18	acl:relcl	_	_
-21	o	o	DET	DET	_	22	det	_	_
+21	o	o	DET	DET	PronType=Art	22	det	_	_
 22	complexo	complexo	NOUN	NOUN	_	20	obj	_	_
 23	ministerial	ministerial	ADJ	ADJ	_	22	amod	_	_
 24	e	e	CCONJ	CONJ	_	25	cc	_	_
@@ -141,7 +141,7 @@
 
 # sent_id = test-s621
 # text = Os recursos serão utilizados também na capacitação e formação de pessoal, como profissionais de saúde, de trânsito e também de educação.
-1	Os	o	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	PronType=Art	2	det	_	_
 2	recursos	recurso	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	serão	ser	AUX	AUX	_	4	aux:pass	_	_
 4	utilizados	utilizar	VERB	VERB	_	0	root	_	_
@@ -192,7 +192,7 @@
 4	1974	_	NUM	NUM	NumType=Card	2	nmod	_	_
 5	foi	_	AUX	AUX	_	6	aux:pass	_	_
 6	criada	criar	VERB	VERB	_	0	root	_	_
-7	a	o	DET	DET	_	8	det	_	_
+7	a	o	DET	DET	PronType=Art	8	det	_	_
 8	empresa	empresa	NOUN	NOUN	_	6	nsubj:pass	_	_
 9	Itaipu	_	PROPN	PNOUN	_	8	appos	_	_
 10	Binacional	_	PROPN	PNOUN	_	9	amod	_	SpaceAfter=No
@@ -201,7 +201,7 @@
 13	construir	construir	VERB	VERB	_	6	advcl	_	_
 14	e	e	CCONJ	CONJ	_	15	cc	_	_
 15	gerenciar	gerenciar	VERB	VERB	_	13	conj	_	_
-16	a	o	DET	DET	_	17	det	_	_
+16	a	o	DET	DET	PronType=Art	17	det	_	_
 17	usina	usina	NOUN	NOUN	_	13	obj	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	6	punct	_	_
 
@@ -246,7 +246,7 @@
 3	local	local	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
 5	estará	estar	VERB	VERB	_	0	root	_	_
-6	a	o	DET	DET	_	7	det	_	_
+6	a	o	DET	DET	PronType=Art	7	det	_	_
 7	urna	urna	NOUN	NOUN	_	5	nsubj	_	_
 8	e	e	CCONJ	CONJ	_	10	cc	_	_
 9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_

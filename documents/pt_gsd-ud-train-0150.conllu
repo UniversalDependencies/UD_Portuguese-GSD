@@ -7,7 +7,7 @@
 4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	clube	clube	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	2	punct	_	_
-7	o	o	DET	DET	_	8	det	_	_
+7	o	o	DET	DET	PronType=Art	8	det	_	_
 8	brasileiro	brasileiro	NOUN	NOUN	_	12	nsubj:pass	_	_
 9	agora	agora	ADV	ADV	_	12	advmod	_	_
 10	já	já	ADV	ADV	_	12	advmod	_	_
@@ -24,7 +24,7 @@
 20	deste	_	ADP	ADP	_	21	case	_	_
 21	domingo	_	PROPN	PNOUN	_	19	nmod	_	_
 22	contra	_	ADP	ADP	_	24	case	_	_
-23	o	o	DET	DET	_	24	det	_	_
+23	o	o	DET	DET	PronType=Art	24	det	_	_
 24	Barcelona	_	PROPN	PNOUN	_	19	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	12	punct	_	_
 
@@ -44,7 +44,7 @@
 2	quem	_	PRON	PRON	_	3	nsubj	_	_
 3	negocia	negociar	VERB	VERB	_	11	csubj	_	_
 4	com	com	ADP	ADP	_	6	case	_	_
-5	as	o	DET	DET	_	6	det	_	_
+5	as	o	DET	DET	PronType=Art	6	det	_	_
 6	partes	_	PROPN	PNOUN	_	3	nmod	_	_
 7	não	não	ADV	ADV	Polarity=Neg	11	advmod	_	_
 8	é	ser	AUX	AUX	_	11	cop	_	_
@@ -91,7 +91,7 @@
 # text = "Com as multas eu teria que pagar um pouco mais de R $ 90 mil.
 1	"	"	PUNCT	.	_	8	punct	_	SpaceAfter=No
 2	Com	_	ADP	ADP	_	4	case	_	_
-3	as	o	DET	DET	_	4	det	_	_
+3	as	o	DET	DET	PronType=Art	4	det	_	_
 4	multas	multa	NOUN	NOUN	_	8	nmod	_	_
 5	eu	_	PRON	PRON	_	8	nsubj	_	_
 6	teria	ter	AUX	AUX	_	8	aux	_	_
@@ -139,7 +139,7 @@
 3	65	_	NUM	NUM	NumType=Card	4	nummod	_	_
 4	milhões	_	NUM	NUM	NumType=Card	2	obj	_	_
 5	até	_	ADP	ADP	_	7	case	_	_
-6	o	o	DET	DET	_	7	det	_	_
+6	o	o	DET	DET	PronType=Art	7	det	_	_
 7	fim	fim	NOUN	NOUN	_	2	nmod	_	_
 8-9	do	_	_	_	_	_	_	_	_
 8	de	de	ADP	ADP	_	10	case	_	_
@@ -148,7 +148,7 @@
 11	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
 12	,	,	PUNCT	.	_	13	punct	_	_
 13	diz	dizer	VERB	VERB	_	0	root	_	_
-14	o	o	DET	DET	_	15	det	_	_
+14	o	o	DET	DET	PronType=Art	15	det	_	_
 15	CEO	_	PROPN	PNOUN	_	13	nsubj	_	_
 16-17	da	_	_	_	_	_	_	_	_
 16	de	de	ADP	ADP	_	18	case	_	_
@@ -161,7 +161,7 @@
 
 # sent_id = train-s1496
 # text = O preço dos pratos também é outro atrativo, varia de R $ 15,80 até R $ 44,80.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	preço	preço	NOUN	NOUN	_	9	nsubj	_	_
 3-4	dos	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -185,7 +185,7 @@
 
 # sent_id = train-s1497
 # text = A história vem à tona após o GP da Espanha, dias antes do italiano Alessandro Nannini vir a sofrer um acidente de helicóptero que colocaria fim à sua carreira na F1.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	história	história	NOUN	NOUN	_	3	nsubj	_	_
 3	vem	vir	VERB	VERB	_	0	root	_	_
 4-5	à	_	_	_	_	_	_	_	_
@@ -193,7 +193,7 @@
 5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	tona	tona	NOUN	NOUN	_	3	nmod	_	_
 7	após	_	ADP	ADP	_	9	case	_	_
-8	o	o	DET	DET	_	9	det	_	_
+8	o	o	DET	DET	PronType=Art	9	det	_	_
 9	GP	_	PROPN	PNOUN	_	3	nmod	_	_
 10-11	da	_	_	_	_	_	_	_	_
 10	de	de	ADP	ADP	_	12	case	_	_
@@ -229,7 +229,7 @@
 
 # sent_id = train-s1498
 # text = O ministro Solminihac explicou ao canal 24 Horas que a atividade vulcânica é bem menor agora, mas que resolveram decretar o alerta laranja para acompanhar a evolução do vulcão.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	ministro	ministro	NOUN	NOUN	_	4	nsubj	_	_
 3	Solminihac	_	PROPN	PNOUN	_	2	appos	_	_
 4	explicou	explicar	VERB	VERB	_	0	root	_	_
@@ -240,7 +240,7 @@
 8	24	_	NUM	NUM	NumType=Card	9	nummod	_	_
 9	Horas	_	PROPN	PNOUN	_	7	appos	_	_
 10	que	que	CCONJ	CONJ	_	14	mark	_	_
-11	a	o	DET	DET	_	12	det	_	_
+11	a	o	DET	DET	PronType=Art	12	det	_	_
 12	atividade	atividade	NOUN	NOUN	_	14	nsubj	_	_
 13	vulcânica	vulcânico	ADJ	ADJ	_	12	amod	_	_
 14	é	ser	VERB	VERB	_	4	ccomp	_	_
@@ -252,12 +252,12 @@
 20	que	_	PRON	PRON	_	21	mark	_	_
 21	resolveram	resolver	VERB	VERB	_	14	conj	_	_
 22	decretar	decretar	VERB	VERB	_	21	xcomp	_	_
-23	o	o	DET	DET	_	24	det	_	_
+23	o	o	DET	DET	PronType=Art	24	det	_	_
 24	alerta	alerta	NOUN	NOUN	_	22	obj	_	_
 25	laranja	_	ADJ	ADJ	_	24	amod	_	_
 26	para	_	ADP	ADP	_	27	mark	_	_
 27	acompanhar	acompanhar	VERB	VERB	_	22	advcl	_	_
-28	a	o	DET	DET	_	29	det	_	_
+28	a	o	DET	DET	PronType=Art	29	det	_	_
 29	evolução	evolução	NOUN	NOUN	_	27	obj	_	_
 30-31	do	_	_	_	_	_	_	_	_
 30	de	de	ADP	ADP	_	32	case	_	_

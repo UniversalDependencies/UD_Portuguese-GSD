@@ -1,6 +1,6 @@
 # sent_id = train-s8160
 # text = O conjunto dos discursos de Cícero contra Catilina ficaria celebrizado sob o nome de "Catilinárias", que foram usadas por muito tempo como uma das principais formas de ensino de argumentação em todo o mundo.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	conjunto	conjunto	NOUN	NOUN	_	10	nsubj:pass	_	_
 3-4	dos	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -13,7 +13,7 @@
 10	ficaria	ficar	VERB	VERB	_	0	root	_	_
 11	celebrizado	celebrizado	ADJ	ADJ	_	10	xcomp	_	_
 12	sob	_	ADP	ADP	_	14	case	_	_
-13	o	o	DET	DET	_	14	det	_	_
+13	o	o	DET	DET	PronType=Art	14	det	_	_
 14	nome	nome	NOUN	NOUN	_	10	nmod	_	_
 15	de	de	ADP	ADP	_	17	case	_	_
 16	"	"	PUNCT	.	_	17	punct	_	SpaceAfter=No
@@ -39,7 +39,7 @@
 35	argumentação	argumentação	NOUN	NOUN	_	33	nmod	_	_
 36	em	em	ADP	ADP	_	39	case	_	_
 37	todo	_	DET	DET	_	39	det	_	_
-38	o	o	DET	DET	_	39	det	_	_
+38	o	o	DET	DET	PronType=Art	39	det	_	_
 39	mundo	mundo	NOUN	NOUN	_	31	nmod	_	SpaceAfter=No
 40	.	.	PUNCT	.	_	10	punct	_	_
 
@@ -57,18 +57,18 @@
 10	"	"	PUNCT	.	_	1	punct	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	12	punct	_	_
 12	escreve	escrever	VERB	VERB	_	0	root	_	_
-13	a	o	DET	DET	_	14	det	_	_
+13	a	o	DET	DET	PronType=Art	14	det	_	_
 14	professora	professor	NOUN	NOUN	_	12	nsubj	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = train-s8162
 # text = Os abusos teriam começado quando a vítima tinha 12 anos, e se manteve até ela completar 16 anos.
-1	Os	o	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	PronType=Art	2	det	_	_
 2	abusos	abuso	NOUN	NOUN	_	4	nsubj	_	_
 3	teriam	ter	AUX	AUX	_	4	aux	_	_
 4	começado	começar	VERB	VERB	_	0	root	_	_
 5	quando	_	CCONJ	CONJ	_	8	mark	_	_
-6	a	o	DET	DET	_	7	det	_	_
+6	a	o	DET	DET	PronType=Art	7	det	_	_
 7	vítima	vítima	NOUN	NOUN	_	8	nsubj	_	_
 8	tinha	ter	VERB	VERB	_	4	advcl	_	_
 9	12	_	NUM	NUM	NumType=Card	10	nummod	_	_
@@ -86,7 +86,7 @@
 
 # sent_id = train-s8163
 # text = A melhor chance aconteceu no último minuto, quando João Pedro isolou uma bola da entrada da área, sem marcação, desperdiçando a oportunidade de dar a vitória a sua equipe.
-1	A	o	DET	DET	_	3	det	_	_
+1	A	o	DET	DET	PronType=Art	3	det	_	_
 2	melhor	melhor	ADJ	ADJ	_	3	amod	_	_
 3	chance	chance	NOUN	NOUN	_	4	nsubj	_	_
 4	aconteceu	acontecer	VERB	VERB	_	0	root	_	_
@@ -115,11 +115,11 @@
 24	marcação	marcação	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	.	_	26	punct	_	_
 26	desperdiçando	desperdiçar	VERB	VERB	_	13	acl	_	_
-27	a	o	DET	DET	_	28	det	_	_
+27	a	o	DET	DET	PronType=Art	28	det	_	_
 28	oportunidade	oportunidade	NOUN	NOUN	_	26	obj	_	_
 29	de	_	ADP	ADP	_	30	mark	_	_
 30	dar	dar	VERB	VERB	_	28	nmod	_	_
-31	a	o	DET	DET	_	32	det	_	_
+31	a	o	DET	DET	PronType=Art	32	det	_	_
 32	vitória	vitória	NOUN	NOUN	_	30	obj	_	_
 33	a	_	ADP	ADP	_	35	case	_	_
 34	sua	_	DET	DET	_	35	det:poss	_	_
@@ -128,7 +128,7 @@
 
 # sent_id = train-s8164
 # text = O melhor jogador dos clubes nacionais é Ronaldinho Gaúcho, seguido por Neymar e Deco.
-1	O	o	DET	DET	_	3	det	_	_
+1	O	o	DET	DET	PronType=Art	3	det	_	_
 2	melhor	melhor	ADJ	ADJ	_	3	amod	_	_
 3	jogador	jogador	NOUN	NOUN	_	9	nsubj	_	_
 4-5	dos	_	_	_	_	_	_	_	_
@@ -189,7 +189,7 @@
 
 # sent_id = train-s8167
 # text = Os primeiros anos de Law &amp; Order tiveram níveis mediocres de audiência, e finalmente, após o encerramento da temporada de 1992-93, a rede de televisão que o transmitia, a NBC informou ao criador e produtor - executivo da série, Dick Wolf, que cancelariam o programa a menos que fossem adicionadas algumas mulheres ao elenco, composto até então apenas por homens.
-1	Os	o	DET	DET	_	3	det	_	_
+1	Os	o	DET	DET	PronType=Art	3	det	_	_
 2	primeiros	primeiro	ADJ	ADJ	_	3	amod	_	_
 3	anos	ano	NOUN	NOUN	_	8	nsubj	_	_
 4	de	de	ADP	ADP	_	5	case	_	_
@@ -206,7 +206,7 @@
 15	finalmente	finalmente	ADV	ADV	_	36	advmod	_	SpaceAfter=No
 16	,	,	PUNCT	.	_	19	punct	_	_
 17	após	_	ADP	ADP	_	19	case	_	_
-18	o	o	DET	DET	_	19	det	_	_
+18	o	o	DET	DET	PronType=Art	19	det	_	_
 19	encerramento	encerramento	NOUN	NOUN	_	36	nmod	_	_
 20-21	da	_	_	_	_	_	_	_	_
 20	de	de	ADP	ADP	_	22	case	_	_
@@ -215,7 +215,7 @@
 23	de	de	ADP	ADP	_	24	case	_	_
 24	1992-93	_	NUM	NUM	NumType=Card	22	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	.	_	19	punct	_	_
-26	a	o	DET	DET	_	27	det	_	_
+26	a	o	DET	DET	PronType=Art	27	det	_	_
 27	rede	rede	NOUN	NOUN	_	36	nsubj	_	_
 28	de	de	ADP	ADP	_	29	case	_	_
 29	televisão	televisão	NOUN	NOUN	_	27	nmod	_	_
@@ -223,7 +223,7 @@
 31	o	_	PRON	PRON	_	32	obj	_	_
 32	transmitia	transmitir	VERB	VERB	_	29	acl:relcl	_	SpaceAfter=No
 33	,	,	PUNCT	.	_	35	punct	_	_
-34	a	o	DET	DET	_	35	det	_	_
+34	a	o	DET	DET	PronType=Art	35	det	_	_
 35	NBC	_	PROPN	PNOUN	_	27	appos	_	_
 36	informou	informar	VERB	VERB	_	8	conj	_	_
 37-38	ao	_	_	_	_	_	_	_	_
@@ -244,7 +244,7 @@
 50	,	,	PUNCT	.	_	48	punct	_	_
 51	que	que	CCONJ	CONJ	_	52	mark	_	_
 52	cancelariam	cancelar	VERB	VERB	_	36	ccomp	_	_
-53	o	o	DET	DET	_	54	det	_	_
+53	o	o	DET	DET	PronType=Art	54	det	_	_
 54	programa	programa	NOUN	NOUN	_	52	obj	_	_
 55	a	_	ADP	ADP	_	59	mark	_	_
 56	menos	menos	ADV	ADV	_	55	fixed	_	_
@@ -268,7 +268,7 @@
 
 # sent_id = train-s8168
 # text = O calor produzido no antigo vulcão fornece energia geotérmica para a eletricidade do parque, por causa disto a ilha é quente nalgumas áreas.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	calor	calor	NOUN	NOUN	_	8	nsubj	_	_
 3	produzido	produzir	VERB	VERB	_	2	acl	_	_
 4-5	no	_	_	_	_	_	_	_	_
@@ -280,7 +280,7 @@
 9	energia	energia	NOUN	NOUN	_	8	obj	_	_
 10	geotérmica	geotérmico	ADJ	ADJ	_	9	amod	_	_
 11	para	para	ADP	ADP	_	13	case	_	_
-12	a	o	DET	DET	_	13	det	_	_
+12	a	o	DET	DET	PronType=Art	13	det	_	_
 13	eletricidade	eletricidade	NOUN	NOUN	_	8	nmod	_	_
 14-15	do	_	_	_	_	_	_	_	_
 14	de	de	ADP	ADP	_	16	case	_	_
@@ -290,7 +290,7 @@
 18	por	por	ADP	ADP	_	20	case	_	_
 19	causa	causa	NOUN	NOUN	_	20	case	_	_
 20	disto	_	X	ADPPRON	_	23	nmod	_	_
-21	a	o	DET	DET	_	22	det	_	_
+21	a	o	DET	DET	PronType=Art	22	det	_	_
 22	ilha	ilha	NOUN	NOUN	_	23	nsubj	_	_
 23	é	ser	VERB	VERB	_	8	parataxis	_	_
 24	quente	quente	ADJ	ADJ	_	23	xcomp	_	_
@@ -305,7 +305,7 @@
 1	Por	_	ADP	ADP	_	2	case	_	_
 2	isso	_	PRON	PRON	_	9	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
-4	o	o	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	PronType=Art	5	det	_	_
 5	técnico	técnico	NOUN	NOUN	_	9	nsubj	_	_
 6	Gilson	_	PROPN	PNOUN	_	5	appos	_	_
 7	Kleina	_	PROPN	PNOUN	_	6	flat	_	_

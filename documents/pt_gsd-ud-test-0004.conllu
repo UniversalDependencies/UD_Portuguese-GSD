@@ -1,7 +1,7 @@
 # sent_id = test-s30
 # text = Segundo a Câmara de Dirigentes Lojistas (CDL), dezembro é o mês no ano com maior volume de vendas e este ano a expectativa é crescer em 10 % nas vendas.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	Câmara	_	PROPN	PNOUN	_	14	nmod	_	_
 4	de	de	ADP	ADP	_	5	case	_	_
 5	Dirigentes	_	PROPN	PNOUN	_	3	nmod	_	_
@@ -12,7 +12,7 @@
 10	,	,	PUNCT	.	_	3	punct	_	_
 11	dezembro	_	PROPN	PNOUN	_	14	nsubj	_	_
 12	é	ser	AUX	AUX	_	14	cop	_	_
-13	o	o	DET	DET	_	14	det	_	_
+13	o	o	DET	DET	PronType=Art	14	det	_	_
 14	mês	mês	NOUN	NOUN	_	0	root	_	_
 15-16	no	_	_	_	_	_	_	_	_
 15	em	em	ADP	ADP	_	17	case	_	_
@@ -26,7 +26,7 @@
 23	e	e	CCONJ	CONJ	_	27	cc	_	_
 24	este	_	DET	DET	_	25	det	_	_
 25	ano	ano	NOUN	NOUN	_	27	nmod	_	_
-26	a	o	DET	DET	_	27	det	_	_
+26	a	o	DET	DET	PronType=Art	27	det	_	_
 27	expectativa	expectativa	NOUN	NOUN	_	14	conj	_	_
 28	é	ser	AUX	AUX	_	27	cop	_	_
 29	crescer	crescer	VERB	VERB	_	27	csubj	_	_
@@ -59,7 +59,7 @@
 6	importante	importante	ADJ	ADJ	_	4	amod	_	_
 7	para	_	ADP	ADP	_	8	mark	_	_
 8	garantir	garantir	VERB	VERB	_	6	nmod	_	_
-9	a	o	DET	DET	_	10	det	_	_
+9	a	o	DET	DET	PronType=Art	10	det	_	_
 10	vaga	vaga	NOUN	NOUN	_	8	obj	_	_
 11-12	da	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	13	case	_	_
@@ -78,7 +78,7 @@
 23	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
 24	,	,	PUNCT	.	_	25	punct	_	_
 25	ressaltou	ressaltar	VERB	VERB	_	0	root	_	_
-26	o	o	DET	DET	_	27	det	_	_
+26	o	o	DET	DET	PronType=Art	27	det	_	_
 27	presidente	presidente	NOUN	NOUN	_	25	nsubj	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	25	punct	_	_
 
@@ -88,7 +88,7 @@
 2	evitar	evitar	VERB	VERB	_	21	advcl	_	_
 3	prejuízos	prejuízo	NOUN	NOUN	_	2	obj	_	_
 4	para	para	ADP	ADP	_	6	case	_	_
-5	as	o	DET	DET	_	6	det	_	_
+5	as	o	DET	DET	PronType=Art	6	det	_	_
 6	vendas	venda	NOUN	NOUN	_	3	nmod	_	_
 7-8	no	_	_	_	_	_	_	_	_
 7	em	em	ADP	ADP	_	9	case	_	_
@@ -97,7 +97,7 @@
 10	de	de	ADP	ADP	_	11	case	_	_
 11	semana	semana	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	.	_	2	punct	_	_
-13	o	o	DET	DET	_	14	det	_	_
+13	o	o	DET	DET	PronType=Art	14	det	_	_
 14	anúncio	anúncio	NOUN	NOUN	_	21	nsubj	_	_
 15	oficial	oficial	ADJ	ADJ	_	14	amod	_	_
 16-17	da	_	_	_	_	_	_	_	_
@@ -133,7 +133,7 @@
 14	,	,	PUNCT	.	_	15	punct	_	_
 15	revelou	revelar	VERB	VERB	_	0	root	_	_
 16	sobre	_	ADP	ADP	_	18	case	_	_
-17	o	o	DET	DET	_	18	det	_	_
+17	o	o	DET	DET	PronType=Art	18	det	_	_
 18	jogo	jogo	NOUN	NOUN	_	15	nmod	_	_
 19	desta	_	ADP	ADP	_	20	case	_	_
 20	terça	_	PROPN	PNOUN	_	18	nmod	_	SpaceAfter=No
@@ -147,7 +147,7 @@
 4	1946	_	NUM	NUM	NumType=Card	2	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	8	punct	_	_
 6	com	com	ADP	ADP	_	8	case	_	_
-7	a	o	DET	DET	_	8	det	_	_
+7	a	o	DET	DET	PronType=Art	8	det	_	_
 8	denominação	denominação	NOUN	NOUN	_	2	nmod	_	_
 9	de	de	ADP	ADP	_	10	case	_	_
 10	Dínamo	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
@@ -178,7 +178,7 @@
 6	São	_	PROPN	PNOUN	_	3	nmod	_	_
 7	José	_	PROPN	PNOUN	_	6	flat	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	3	punct	_	_
-9	o	o	DET	DET	_	10	det	_	_
+9	o	o	DET	DET	PronType=Art	10	det	_	_
 10	volante	volante	NOUN	NOUN	_	12	nsubj	_	_
 11	Dudu	_	PROPN	PNOUN	_	10	appos	_	_
 12	está	estar	VERB	VERB	_	0	root	_	_
@@ -192,7 +192,7 @@
 19	depois	depois	ADV	ADV	_	21	mark	_	_
 20	de	_	ADP	ADP	_	19	fixed	_	_
 21	defender	defender	VERB	VERB	_	12	advcl	_	_
-22	o	o	DET	DET	_	23	det	_	_
+22	o	o	DET	DET	PronType=Art	23	det	_	_
 23	Timbaúba	_	PROPN	PNOUN	_	21	obj	_	SpaceAfter=No
 24	,	,	PUNCT	.	_	27	punct	_	_
 25-26	no	_	_	_	_	_	_	_	_
@@ -237,7 +237,7 @@
 5	de	de	ADP	ADP	_	6	case	_	_
 6	pênalti	pênalti	NOUN	NOUN	_	4	nmod	_	_
 7	contra	_	ADP	ADP	_	9	case	_	_
-8	o	o	DET	DET	_	9	det	_	_
+8	o	o	DET	DET	PronType=Art	9	det	_	_
 9	Cruzeiro	_	PROPN	PNOUN	_	4	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	2	punct	_	_
 11	Luis	_	PROPN	PNOUN	_	13	nsubj	_	_
@@ -252,7 +252,7 @@
 20	grama	grama	NOUN	NOUN	_	18	nmod	_	_
 21	e	e	CCONJ	CONJ	_	22	cc	_	_
 22	recebeu	receber	VERB	VERB	_	13	conj	_	_
-23	o	o	DET	DET	_	24	det	_	_
+23	o	o	DET	DET	PronType=Art	24	det	_	_
 24	cartão	cartão	NOUN	NOUN	_	22	obj	_	_
 25	amarelo	amarelo	ADJ	ADJ	_	24	amod	_	_
 26-27	pela	_	_	_	_	_	_	_	_

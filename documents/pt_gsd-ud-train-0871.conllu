@@ -34,7 +34,7 @@
 5	maior	maior	ADJ	ADJ	_	6	amod	_	_
 6	rival	rival	NOUN	NOUN	_	12	nsubj	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	9	punct	_	_
-8	o	o	DET	DET	_	9	det	_	_
+8	o	o	DET	DET	PronType=Art	9	det	_	_
 9	Manchester	_	PROPN	PNOUN	_	6	appos	_	_
 10	City	_	PROPN	PNOUN	_	9	flat	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	9	punct	_	_
@@ -47,7 +47,7 @@
 # text = Ele será o novo preparador de goleiros, uma vez que André Dias, que hoje exerce a função, vai para a Ponte Preta -- ele é natural de Campinas.
 1	Ele	_	PRON	PRON	_	5	nsubj	_	_
 2	será	ser	AUX	AUX	_	5	cop	_	_
-3	o	o	DET	DET	_	5	det	_	_
+3	o	o	DET	DET	PronType=Art	5	det	_	_
 4	novo	novo	ADJ	ADJ	_	5	amod	_	_
 5	preparador	preparador	NOUN	NOUN	_	0	root	_	_
 6	de	de	ADP	ADP	_	7	case	_	_
@@ -62,12 +62,12 @@
 15	que	_	PRON	PRON	_	17	nsubj	_	_
 16	hoje	hoje	ADV	ADV	_	17	advmod	_	_
 17	exerce	exercer	VERB	VERB	_	12	acl:relcl	_	_
-18	a	o	DET	DET	_	19	det	_	_
+18	a	o	DET	DET	PronType=Art	19	det	_	_
 19	função	função	NOUN	NOUN	_	17	obj	_	SpaceAfter=No
 20	,	,	PUNCT	.	_	17	punct	_	_
 21	vai	ir	VERB	VERB	_	5	advcl	_	_
 22	para	para	ADP	ADP	_	24	case	_	_
-23	a	o	DET	DET	_	24	det	_	_
+23	a	o	DET	DET	PronType=Art	24	det	_	_
 24	Ponte	_	PROPN	PNOUN	_	21	nmod	_	_
 25	Preta	_	PROPN	PNOUN	_	24	amod	_	_
 26	--	_	PUNCT	.	_	21	punct	_	_
@@ -87,16 +87,16 @@
 4	primeiro	primeiro	ADJ	ADJ	_	5	amod	_	_
 5	encontro	encontro	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	5	punct	_	_
-7	a	o	DET	DET	_	8	det	_	_
+7	a	o	DET	DET	PronType=Art	8	det	_	_
 8	professora	professor	NOUN	NOUN	_	9	nsubj	_	_
 9	percebeu	perceber	VERB	VERB	_	0	root	_	_
 10	que	que	CCONJ	CONJ	_	14	mark	_	_
-11	o	o	DET	DET	_	12	det	_	_
+11	o	o	DET	DET	PronType=Art	12	det	_	_
 12	namorado	namorado	NOUN	NOUN	_	14	nsubj	_	_
 13	continuava	continuar	AUX	AUX	_	14	aux	_	_
 14	conversando	conversar	VERB	VERB	_	9	ccomp	_	_
 15	com	com	ADP	ADP	_	17	case	_	_
-16	a	o	DET	DET	_	17	det	_	_
+16	a	o	DET	DET	PronType=Art	17	det	_	_
 17	jovem	jovem	NOUN	NOUN	_	14	nmod	_	_
 18-19	pela	_	_	_	_	_	_	_	_
 18	por	por	ADP	ADP	_	20	case	_	_
@@ -106,7 +106,7 @@
 
 # sent_id = train-s8648
 # text = As diferentes formas de craniossinostose classificam - se segundo a sutura craniana afetada: O tratamento da craniossinostose é cirúrgico, tendo em vista o risco de hipertensão intracraniana e sofrimento cerebral que pode levar a regressão do desenvolvimento neuropsicomotor, a possibilidade de alterações oftalmológicas que podem chegar à perda de visão, além das razões de ordem estética.
-1	As	o	DET	DET	_	3	det	_	_
+1	As	o	DET	DET	PronType=Art	3	det	_	_
 2	diferentes	_	DET	DET	_	3	det	_	_
 3	formas	forma	NOUN	NOUN	_	6	nsubj	_	_
 4	de	de	ADP	ADP	_	5	case	_	_
@@ -115,12 +115,12 @@
 7	-	-	PUNCT	.	_	6	punct	_	_
 8	se	_	PART	PRT	_	6	expl:pv	_	_
 9	segundo	_	ADP	ADP	_	11	case	_	_
-10	a	o	DET	DET	_	11	det	_	_
+10	a	o	DET	DET	PronType=Art	11	det	_	_
 11	sutura	sutura	NOUN	NOUN	_	6	nmod	_	_
 12	craniana	craniano	ADJ	ADJ	_	11	amod	_	_
 13	afetada	afetar	VERB	VERB	_	11	acl	_	SpaceAfter=No
 14	:	:	PUNCT	.	_	6	punct	_	_
-15	O	o	DET	DET	_	16	det	_	_
+15	O	o	DET	DET	PronType=Art	16	det	_	_
 16	tratamento	tratamento	NOUN	NOUN	_	20	nsubj	_	_
 17-18	da	_	_	_	_	_	_	_	_
 17	de	de	ADP	ADP	_	19	case	_	_
@@ -132,7 +132,7 @@
 23	tendo	_	VERB	VERB	_	20	acl	_	_
 24	em	em	ADP	ADP	_	25	case	_	_
 25	vista	vista	NOUN	NOUN	_	23	nmod	_	_
-26	o	o	DET	DET	_	27	det	_	_
+26	o	o	DET	DET	PronType=Art	27	det	_	_
 27	risco	risco	NOUN	NOUN	_	23	obj	_	_
 28	de	de	ADP	ADP	_	29	case	_	_
 29	hipertensão	hipertensão	NOUN	NOUN	_	27	nmod	_	_
@@ -178,7 +178,7 @@
 
 # sent_id = train-s8649
 # text = O papel principal das células fibroblásticas é ajudar na recuperação de ferimentos e produzir colágeno, o principal componente de tecidos de ligação, como os tendões, por exemplo.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	papel	papel	NOUN	NOUN	_	0	root	_	_
 3	principal	principal	ADJ	ADJ	_	2	amod	_	_
 4-5	das	_	_	_	_	_	_	_	_
@@ -198,7 +198,7 @@
 16	produzir	produzir	VERB	VERB	_	9	conj	_	_
 17	colágeno	colágeno	NOUN	NOUN	_	16	obj	_	SpaceAfter=No
 18	,	,	PUNCT	.	_	21	punct	_	_
-19	o	o	DET	DET	_	21	det	_	_
+19	o	o	DET	DET	PronType=Art	21	det	_	_
 20	principal	principal	ADJ	ADJ	_	21	amod	_	_
 21	componente	componente	NOUN	NOUN	_	17	appos	_	_
 22	de	de	ADP	ADP	_	23	case	_	_
@@ -207,7 +207,7 @@
 25	ligação	ligação	NOUN	NOUN	_	23	nmod	_	SpaceAfter=No
 26	,	,	PUNCT	.	_	29	punct	_	_
 27	como	como	ADP	ADP	_	29	case	_	_
-28	os	o	DET	DET	_	29	det	_	_
+28	os	o	DET	DET	PronType=Art	29	det	_	_
 29	tendões	tendão	NOUN	NOUN	_	23	nmod	_	SpaceAfter=No
 30	,	,	PUNCT	.	_	32	punct	_	_
 31	por	por	ADP	ADP	_	32	case	_	_
@@ -218,7 +218,7 @@
 # text = Companhia encerrou o período com faturamento líquido de R $ 449,2 milhões e crescimento da base total de usuários de 17,2 %.
 1	Companhia	_	PROPN	PNOUN	_	2	nsubj	_	_
 2	encerrou	encerrar	VERB	VERB	_	0	root	_	_
-3	o	o	DET	DET	_	4	det	_	_
+3	o	o	DET	DET	PronType=Art	4	det	_	_
 4	período	período	NOUN	NOUN	_	2	obj	_	_
 5	com	com	ADP	ADP	_	6	case	_	_
 6	faturamento	faturamento	NOUN	NOUN	_	2	nmod	_	_
@@ -244,7 +244,7 @@
 
 # sent_id = train-s8651
 # text = O artilheiro do São Paulo ficou incomodado com o funcionário do clube, responsável por apitar o rachão de minutos antes e invalidar alguns gols marcados.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	artilheiro	artilheiro	NOUN	NOUN	_	7	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -254,7 +254,7 @@
 7	ficou	ficar	VERB	VERB	_	0	root	_	_
 8	incomodado	incomodado	ADJ	ADJ	_	7	xcomp	_	_
 9	com	com	ADP	ADP	_	11	case	_	_
-10	o	o	DET	DET	_	11	det	_	_
+10	o	o	DET	DET	PronType=Art	11	det	_	_
 11	funcionário	funcionário	NOUN	NOUN	_	8	nmod	_	_
 12-13	do	_	_	_	_	_	_	_	_
 12	de	de	ADP	ADP	_	14	case	_	_
@@ -264,7 +264,7 @@
 16	responsável	responsável	ADJ	ADJ	_	11	amod	_	_
 17	por	_	ADP	ADP	_	18	mark	_	_
 18	apitar	apitar	VERB	VERB	_	16	nmod	_	_
-19	o	o	DET	DET	_	20	det	_	_
+19	o	o	DET	DET	PronType=Art	20	det	_	_
 20	rachão	rachão	NOUN	NOUN	_	18	obj	_	_
 21	de	de	ADP	ADP	_	22	case	_	_
 22	minutos	minuto	NOUN	NOUN	_	20	nmod	_	_
@@ -278,7 +278,7 @@
 
 # sent_id = train-s8652
 # text = O material é completo, pois reúne informações de todas as linhas de produtos e tem como diferencial o projeto gráfico do catálogo, que prevê um formato maior para facilitar a consulta do balconista.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	material	material	NOUN	NOUN	_	3	nsubj	_	_
 3	é	ser	VERB	VERB	_	0	root	_	_
 4	completo	completo	ADJ	ADJ	_	3	xcomp	_	SpaceAfter=No
@@ -288,7 +288,7 @@
 8	informações	informação	NOUN	NOUN	_	7	obj	_	_
 9	de	de	ADP	ADP	_	12	case	_	_
 10	todas	_	DET	DET	_	12	det	_	_
-11	as	o	DET	DET	_	12	det	_	_
+11	as	o	DET	DET	PronType=Art	12	det	_	_
 12	linhas	_	NOUN	NOUN	_	8	nmod	_	_
 13	de	de	ADP	ADP	_	14	case	_	_
 14	produtos	produto	NOUN	NOUN	_	12	nmod	_	_
@@ -296,7 +296,7 @@
 16	tem	ter	VERB	VERB	_	7	conj	_	_
 17	como	como	ADP	ADP	_	18	case	_	_
 18	diferencial	diferencial	NOUN	NOUN	_	16	nmod	_	_
-19	o	o	DET	DET	_	20	det	_	_
+19	o	o	DET	DET	PronType=Art	20	det	_	_
 20	projeto	projeto	NOUN	NOUN	_	16	obj	_	_
 21	gráfico	gráfico	ADJ	ADJ	_	20	amod	_	_
 22-23	do	_	_	_	_	_	_	_	_
@@ -311,7 +311,7 @@
 30	maior	maior	ADJ	ADJ	_	29	amod	_	_
 31	para	_	ADP	ADP	_	32	mark	_	_
 32	facilitar	facilitar	VERB	VERB	_	27	advcl	_	_
-33	a	o	DET	DET	_	34	det	_	_
+33	a	o	DET	DET	PronType=Art	34	det	_	_
 34	consulta	consulta	NOUN	NOUN	_	32	obj	_	_
 35-36	do	_	_	_	_	_	_	_	_
 35	de	de	ADP	ADP	_	37	case	_	_
@@ -327,7 +327,7 @@
 4	diariamente	diariamente	ADV	ADV	_	3	advmod	_	_
 5	discursos	discurso	NOUN	NOUN	_	3	obj	_	_
 6	até	_	ADP	ADP	_	9	case	_	_
-7	o	o	DET	DET	_	9	det	_	_
+7	o	o	DET	DET	PronType=Art	9	det	_	_
 8	próximo	próximo	ADJ	ADJ	_	9	amod	_	_
 9	dia	dia	NOUN	NOUN	_	3	nmod	_	_
 10	11	_	NUM	NUM	NumType=Card	9	nmod	_	SpaceAfter=No

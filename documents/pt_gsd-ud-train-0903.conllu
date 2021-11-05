@@ -1,6 +1,6 @@
 # sent_id = train-s8959
 # text = O veículo só foi encontrado no início desta semana, jogado no pátio do Detram, totalmente depenado.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	veículo	veículo	NOUN	NOUN	_	5	nsubj:pass	_	_
 3	só	só	ADV	ADV	_	5	advmod	_	_
 4	foi	_	AUX	AUX	_	5	aux:pass	_	_
@@ -30,7 +30,7 @@
 # text = Especialista analisa o impacto econômico da perda do poder de compra.
 1	Especialista	especialista	NOUN	NOUN	_	2	nsubj	_	_
 2	analisa	analisar	VERB	VERB	_	0	root	_	_
-3	o	o	DET	DET	_	4	det	_	_
+3	o	o	DET	DET	PronType=Art	4	det	_	_
 4	impacto	impacto	NOUN	NOUN	_	2	obj	_	_
 5	econômico	econômico	ADJ	ADJ	_	4	amod	_	_
 6-7	da	_	_	_	_	_	_	_	_
@@ -47,7 +47,7 @@
 
 # sent_id = train-s8961
 # text = O julgamento do recurso do coronel reformado teve início em maio deste ano.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	julgamento	julgamento	NOUN	NOUN	_	10	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -76,7 +76,7 @@
 5	mídia	mídia	NOUN	NOUN	_	2	nmod	_	_
 6	britânica	britânico	ADJ	ADJ	_	5	amod	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	2	punct	_	_
-8	a	o	DET	DET	_	9	det	_	_
+8	a	o	DET	DET	PronType=Art	9	det	_	_
 9	suspeita	_	NOUN	NOUN	_	10	nsubj	_	_
 10	é	ser	VERB	VERB	_	0	root	_	_
 11	de	de	ADP	ADP	_	12	case	_	_
@@ -99,20 +99,20 @@
 1	Não	não	ADV	ADV	Polarity=Neg	2	advmod	_	_
 2	fiz	fazer	VERB	VERB	_	0	root	_	_
 3	só	só	ADV	ADV	_	5	advmod	_	_
-4	o	o	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	PronType=Art	5	det	_	_
 5	parquinho	_	NOUN	NOUN	_	2	obj	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	7	punct	_	_
 7	reformei	reformar	VERB	VERB	_	2	conj	_	_
-8	os	o	DET	DET	_	9	det	_	_
+8	os	o	DET	DET	PronType=Art	9	det	_	_
 9	ginásios	ginásio	NOUN	NOUN	_	7	obj	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	12	punct	_	_
 11	estou	estar	AUX	AUX	_	12	aux	_	_
 12	fazendo	fazer	VERB	VERB	_	7	conj	_	_
-13	o	o	DET	DET	_	14	det	_	_
+13	o	o	DET	DET	PronType=Art	14	det	_	_
 14	CT	_	PROPN	PNOUN	_	12	obj	_	SpaceAfter=No
 15	,	,	PUNCT	.	_	16	punct	_	_
 16	resolvi	resolver	VERB	VERB	_	7	conj	_	_
-17	o	o	DET	DET	_	18	det	_	_
+17	o	o	DET	DET	PronType=Art	18	det	_	_
 18	problema	problema	NOUN	NOUN	_	16	obj	_	_
 19-20	do	_	_	_	_	_	_	_	_
 19	de	de	ADP	ADP	_	21	case	_	_
@@ -188,9 +188,9 @@
 # text = Votaram contra a proposta os integrantes dos partidos Liga do Norte, Itália dos Valores e do Povo da Liberdade.
 1	Votaram	votar	VERB	VERB	_	0	root	_	_
 2	contra	_	ADP	ADP	_	4	case	_	_
-3	a	o	DET	DET	_	4	det	_	_
+3	a	o	DET	DET	PronType=Art	4	det	_	_
 4	proposta	_	NOUN	NOUN	_	1	nmod	_	_
-5	os	o	DET	DET	_	6	det	_	_
+5	os	o	DET	DET	PronType=Art	6	det	_	_
 6	integrantes	_	NOUN	NOUN	_	1	nsubj	_	_
 7-8	dos	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
@@ -221,7 +221,7 @@
 # sent_id = train-s8967
 # text = "O resultado é um ótimo filme que, conseguiu o milagre de agradar ao público e aos críticos" (O Estado de SP).
 1	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
-2	O	o	DET	DET	_	3	det	_	_
+2	O	o	DET	DET	PronType=Art	3	det	_	_
 3	resultado	resultado	NOUN	NOUN	_	7	nsubj	_	_
 4	é	ser	AUX	AUX	_	7	cop	_	_
 5	um	um	DET	DET	_	7	det	_	_
@@ -230,7 +230,7 @@
 8	que	_	PRON	PRON	_	10	nsubj	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	8	punct	_	_
 10	conseguiu	conseguir	VERB	VERB	_	7	acl:relcl	_	_
-11	o	o	DET	DET	_	12	det	_	_
+11	o	o	DET	DET	PronType=Art	12	det	_	_
 12	milagre	milagre	NOUN	NOUN	_	10	obj	_	_
 13	de	_	ADP	ADP	_	14	mark	_	_
 14	agradar	agradar	VERB	VERB	_	12	nmod	_	_
@@ -245,7 +245,7 @@
 21	críticos	crítico	NOUN	NOUN	_	17	conj	_	SpaceAfter=No
 22	"	"	PUNCT	.	_	7	punct	_	_
 23	(	(	PUNCT	.	_	25	punct	_	SpaceAfter=No
-24	O	o	DET	DET	_	25	det	_	_
+24	O	o	DET	DET	PronType=Art	25	det	_	_
 25	Estado	_	PROPN	PNOUN	_	7	parataxis	_	_
 26	de	de	ADP	ADP	_	27	case	_	_
 27	SP	_	PROPN	PNOUN	_	25	nmod	_	SpaceAfter=No
@@ -262,16 +262,16 @@
 6	2008	_	NUM	NUM	NumType=Card	4	nmod	_	_
 7	foi	_	AUX	AUX	_	8	aux:pass	_	_
 8	lançada	lançar	VERB	VERB	_	0	root	_	_
-9	a	o	DET	DET	_	10	det	_	_
+9	a	o	DET	DET	PronType=Art	10	det	_	_
 10	versão	versão	NOUN	NOUN	_	8	nsubj:pass	_	_
 11	2.6	_	NUM	NUM	NumType=Card	10	appos	_	SpaceAfter=No
 12	,	,	PUNCT	.	_	14	punct	_	_
 13	já	já	ADV	ADV	_	14	advmod	_	_
 14	visando	visar	VERB	VERB	_	8	acl	_	_
-15	a	o	DET	DET	_	16	det	_	_
+15	a	o	DET	DET	PronType=Art	16	det	_	_
 16	transição	transição	NOUN	NOUN	_	14	obj	_	_
 17	para	para	ADP	ADP	_	19	case	_	_
-18	a	o	DET	DET	_	19	det	_	_
+18	a	o	DET	DET	PronType=Art	19	det	_	_
 19	versão	versão	NOUN	NOUN	_	16	nmod	_	_
 20	3.0	_	NUM	NUM	NumType=Card	19	appos	_	_
 21-22	da	_	_	_	_	_	_	_	_

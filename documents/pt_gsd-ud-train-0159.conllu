@@ -3,7 +3,7 @@
 1	Ainda	ainda	ADV	ADV	_	2	advmod	_	_
 2	assim	assim	ADV	ADV	_	10	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
-4	o	o	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	PronType=Art	5	det	_	_
 5	desempenho	desempenho	NOUN	NOUN	_	10	nsubj:pass	_	_
 6-7	do	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	8	case	_	_
@@ -21,31 +21,31 @@
 17	fato	fato	NOUN	NOUN	_	15	fixed	_	_
 18-19	dos	_	_	_	_	_	_	_	_
 18	de	_	ADP	ADP	_	15	fixed	_	_
-19	os	o	DET	DET	_	21	det	_	_
+19	os	o	DET	DET	PronType=Art	21	det	_	_
 20	três	_	NUM	NUM	NumType=Card	21	nummod	_	_
 21	rivais	rival	NOUN	NOUN	_	23	nsubj	_	_
 22	terem	ter	AUX	AUX	_	23	aux	_	_
 23	brigado	brigar	VERB	VERB	_	10	advcl	_	_
 24	contra	_	ADP	ADP	_	26	case	_	_
-25	o	o	DET	DET	_	26	det	_	_
+25	o	o	DET	DET	PronType=Art	26	det	_	_
 26	rebaixamento	rebaixamento	NOUN	NOUN	_	23	nmod	_	_
 27	naquele	_	ADP	ADP	_	28	case	_	_
 28	ano	ano	NOUN	NOUN	_	23	nmod	_	_
 29	--	_	PUNCT	.	_	34	punct	_	_
 30	em	em	ADP	ADP	_	31	case	_	_
 31	que	_	PRON	PRON	_	34	nmod	_	_
-32	o	o	DET	DET	_	33	det	_	_
+32	o	o	DET	DET	PronType=Art	33	det	_	_
 33	Botafogo	_	PROPN	PNOUN	_	34	nsubj	_	_
 34	caiu	cair	VERB	VERB	_	28	acl:relcl	_	SpaceAfter=No
 35	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s1580
 # text = O setor destacou principalmente a falta de soldadores para atender à demanda dos estaleiros e de oficiais de Marinha Mercante.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	setor	setor	NOUN	NOUN	_	3	nsubj	_	_
 3	destacou	destacar	VERB	VERB	_	0	root	_	_
 4	principalmente	principalmente	ADV	ADV	_	3	advmod	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	falta	_	NOUN	NOUN	_	3	obj	_	_
 7	de	de	ADP	ADP	_	8	case	_	_
 8	soldadores	soldador	NOUN	NOUN	_	6	nmod	_	_
@@ -71,7 +71,7 @@
 # text = Mesmo com o natural desentrosamento, foi muito pouco para o gigante inglês, sempre favorito ao título nacional.
 1	Mesmo	mesmo	ADV	ADV	_	5	advmod	_	_
 2	com	com	ADP	ADP	_	5	case	_	_
-3	o	o	DET	DET	_	5	det	_	_
+3	o	o	DET	DET	PronType=Art	5	det	_	_
 4	natural	natural	ADJ	ADJ	_	5	amod	_	_
 5	desentrosamento	desentrosamento	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	5	punct	_	_
@@ -79,7 +79,7 @@
 8	muito	muito	ADV	ADV	_	9	advmod	_	_
 9	pouco	pouco	ADV	ADV	_	7	advmod	_	_
 10	para	para	ADP	ADP	_	12	case	_	_
-11	o	o	DET	DET	_	12	det	_	_
+11	o	o	DET	DET	PronType=Art	12	det	_	_
 12	gigante	gigante	NOUN	NOUN	_	7	nmod	_	_
 13	inglês	inglês	ADJ	ADJ	_	12	amod	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	16	punct	_	_
@@ -94,7 +94,7 @@
 
 # sent_id = train-s1582
 # text = A candidata vem duma família pobre da Paraíba.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	candidata	candidato	NOUN	NOUN	_	3	nsubj	_	_
 3	vem	vir	VERB	VERB	_	0	root	_	_
 4-5	duma	_	_	_	_	_	_	_	_
@@ -111,7 +111,7 @@
 # sent_id = train-s1583
 # text = E a maratona corintiana ainda não acabou.
 1	E	_	CCONJ	CONJ	_	7	cc	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	maratona	maratona	NOUN	NOUN	_	7	nsubj	_	_
 4	corintiana	corintiano	ADJ	ADJ	_	3	amod	_	_
 5	ainda	ainda	ADV	ADV	_	7	advmod	_	_
@@ -121,7 +121,7 @@
 
 # sent_id = train-s1584
 # text = O candidato tem 54 anos, é casado e nasceu em Assis / SP, adotou Maracaju como cidade para morar e criar seus filhos desde o ano de 1981.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	candidato	candidato	NOUN	NOUN	_	3	nsubj	_	_
 3	tem	ter	VERB	VERB	_	0	root	_	_
 4	54	_	NUM	NUM	NumType=Card	5	nummod	_	_
@@ -147,7 +147,7 @@
 24	seus	_	DET	DET	_	25	det:poss	_	_
 25	filhos	filho	NOUN	NOUN	_	23	obj	_	_
 26	desde	_	ADP	ADP	_	28	case	_	_
-27	o	o	DET	DET	_	28	det	_	_
+27	o	o	DET	DET	PronType=Art	28	det	_	_
 28	ano	ano	NOUN	NOUN	_	16	nmod	_	_
 29	de	de	ADP	ADP	_	30	case	_	_
 30	1981	_	NUM	NUM	NumType=Card	28	nmod	_	SpaceAfter=No
@@ -156,14 +156,14 @@
 # sent_id = train-s1585
 # text = Segundo a empresa, isso é possível porque a IGB Eletrônica SA, sucessora da Gradiente SA, é detentora exclusiva do registro sob a marca IPHONE no Brasil.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	empresa	empresa	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
 5	isso	_	PRON	PRON	_	6	nsubj	_	_
 6	é	ser	VERB	VERB	_	0	root	_	_
 7	possível	possível	ADJ	ADJ	_	6	xcomp	_	_
 8	porque	_	CCONJ	CONJ	_	21	mark	_	_
-9	a	o	DET	DET	_	10	det	_	_
+9	a	o	DET	DET	PronType=Art	10	det	_	_
 10	IGB	_	PROPN	PNOUN	_	21	nsubj	_	_
 11	Eletrônica	_	PROPN	PNOUN	_	10	flat	_	_
 12	SA	_	PROPN	PNOUN	_	10	flat	_	SpaceAfter=No
@@ -183,7 +183,7 @@
 24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	registro	registro	NOUN	NOUN	_	21	nmod	_	_
 26	sob	_	ADP	ADP	_	28	case	_	_
-27	a	o	DET	DET	_	28	det	_	_
+27	a	o	DET	DET	PronType=Art	28	det	_	_
 28	marca	marca	NOUN	NOUN	_	25	nmod	_	_
 29	IPHONE	_	PROPN	PNOUN	_	28	appos	_	_
 30-31	no	_	_	_	_	_	_	_	_
@@ -194,14 +194,14 @@
 
 # sent_id = train-s1586
 # text = A tarefa não será fácil, mas o jogador mostra personalidade e garante que brigará por uma vaga entre os 11.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	tarefa	tarefa	NOUN	NOUN	_	4	nsubj	_	_
 3	não	não	ADV	ADV	Polarity=Neg	4	advmod	_	_
 4	será	ser	VERB	VERB	_	0	root	_	_
 5	fácil	fácil	ADJ	ADJ	_	4	xcomp	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	10	punct	_	_
 7	mas	mas	CCONJ	CONJ	_	10	cc	_	_
-8	o	o	DET	DET	_	9	det	_	_
+8	o	o	DET	DET	PronType=Art	9	det	_	_
 9	jogador	jogador	NOUN	NOUN	_	10	nsubj	_	_
 10	mostra	mostrar	VERB	VERB	_	4	conj	_	_
 11	personalidade	personalidade	NOUN	NOUN	_	10	obj	_	_
@@ -225,7 +225,7 @@
 4	lembrando	lembrar	VERB	VERB	_	1	acl	_	_
 5	que	que	CCONJ	CONJ	_	12	mark	_	_
 6	toda	_	DET	DET	_	8	det	_	_
-7	a	o	DET	DET	_	8	det	_	_
+7	a	o	DET	DET	PronType=Art	8	det	_	_
 8	estrutura	estrutura	NOUN	NOUN	_	12	nsubj:pass	_	_
 9	de	de	ADP	ADP	_	10	case	_	_
 10	telemedicina	_	NOUN	NOUN	_	8	nmod	_	_
@@ -234,7 +234,7 @@
 13	sem	_	ADP	ADP	_	14	case	_	_
 14	custos	custo	NOUN	NOUN	_	12	nmod	_	_
 15	para	para	ADP	ADP	_	17	case	_	_
-16	a	o	DET	DET	_	17	det	_	_
+16	a	o	DET	DET	PronType=Art	17	det	_	_
 17	missão	missão	NOUN	NOUN	_	14	nmod	_	_
 18	brasileira	brasileiro	ADJ	ADJ	_	17	amod	_	SpaceAfter=No
 19	,	,	PUNCT	.	_	20	punct	_	_
@@ -242,7 +242,7 @@
 21	de	de	ADP	ADP	_	22	case	_	_
 22	convênio	convênio	NOUN	NOUN	_	20	nmod	_	_
 23	com	com	ADP	ADP	_	25	case	_	_
-24	a	o	DET	DET	_	25	det	_	_
+24	a	o	DET	DET	PronType=Art	25	det	_	_
 25	Universidade	_	PROPN	PNOUN	_	22	nmod	_	_
 26	de	de	ADP	ADP	_	27	case	_	_
 27	Miami	_	PROPN	PNOUN	_	25	nmod	_	SpaceAfter=No
@@ -250,7 +250,7 @@
 
 # sent_id = train-s1588
 # text = A meteorologista do Inmet Neide Oliveira explica que a massa de ar seco que estava estacionada sobre o Estado enfraqueceu e permitiu que um sistema de ar frio vindo do oceano trouxesse mais umidade.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	meteorologista	meteorologista	NOUN	NOUN	_	8	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -260,7 +260,7 @@
 7	Oliveira	_	PROPN	PNOUN	_	6	flat	_	_
 8	explica	explicar	VERB	VERB	_	0	root	_	_
 9	que	que	CCONJ	CONJ	_	21	mark	_	_
-10	a	o	DET	DET	_	11	det	_	_
+10	a	o	DET	DET	PronType=Art	11	det	_	_
 11	massa	massa	NOUN	NOUN	_	21	nsubj	_	_
 12	de	de	ADP	ADP	_	13	case	_	_
 13	ar	ar	NOUN	NOUN	_	11	nmod	_	_
@@ -269,7 +269,7 @@
 16	estava	estar	VERB	VERB	_	11	acl:relcl	_	_
 17	estacionada	estacionado	ADJ	ADJ	_	16	xcomp	_	_
 18	sobre	_	ADP	ADP	_	20	case	_	_
-19	o	o	DET	DET	_	20	det	_	_
+19	o	o	DET	DET	PronType=Art	20	det	_	_
 20	Estado	_	PROPN	PNOUN	_	17	nmod	_	_
 21	enfraqueceu	enfraquecer	VERB	VERB	_	8	ccomp	_	_
 22	e	e	CCONJ	CONJ	_	23	cc	_	_

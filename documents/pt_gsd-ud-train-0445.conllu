@@ -29,14 +29,14 @@
 24	de	de	ADP	ADP	_	25	case	_	_
 25	negócios	negócio	NOUN	NOUN	_	23	nmod	_	_
 26	durante	_	ADP	ADP	_	28	case	_	_
-27	a	o	DET	DET	_	28	det	_	_
+27	a	o	DET	DET	PronType=Art	28	det	_	_
 28	Feira	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
 29	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s4416
 # text = A era soviética traz novidades como cantores a solo, novos instrumentos, orquestras menores.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	era	era	NOUN	NOUN	_	4	nsubj	_	_
 3	soviética	soviético	ADJ	ADJ	_	2	amod	_	_
 4	traz	trazer	VERB	VERB	_	0	root	_	_
@@ -55,7 +55,7 @@
 
 # sent_id = train-s4417
 # text = O prédio tem fundações e foi construído com um padrão muito bom para a época."
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	prédio	prédio	NOUN	NOUN	_	3	nsubj	_	_
 3	tem	ter	VERB	VERB	_	0	root	_	_
 4	fundações	fundação	NOUN	NOUN	_	3	obj	_	_
@@ -68,14 +68,14 @@
 11	muito	muito	ADV	ADV	_	12	advmod	_	_
 12	bom	bom	ADJ	ADJ	_	10	amod	_	_
 13	para	para	ADP	ADP	_	15	case	_	_
-14	a	o	DET	DET	_	15	det	_	_
+14	a	o	DET	DET	PronType=Art	15	det	_	_
 15	época	época	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
 17	"	"	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s4418
 # text = O soldado foi socorrido pelos colegas e levado inicialmente para a Unidade de Pronto Atendimento (UPA) do Complexo do Alemão.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	soldado	soldado	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foi	_	AUX	AUX	_	4	aux:pass	_	_
 4	socorrido	socorrer	VERB	VERB	_	0	root	_	_
@@ -87,7 +87,7 @@
 9	levado	levar	VERB	VERB	_	4	conj	_	_
 10	inicialmente	inicialmente	ADV	ADV	_	9	advmod	_	_
 11	para	para	ADP	ADP	_	13	case	_	_
-12	a	o	DET	DET	_	13	det	_	_
+12	a	o	DET	DET	PronType=Art	13	det	_	_
 13	Unidade	_	PROPN	PNOUN	_	9	nmod	_	_
 14	de	de	ADP	ADP	_	16	case	_	_
 15	Pronto	_	PROPN	PNOUN	_	16	amod	_	_
@@ -113,7 +113,7 @@
 4	após	_	ADP	ADP	_	5	case	_	_
 5	queda	queda	NOUN	NOUN	_	21	nmod	_	_
 6	para	para	ADP	ADP	_	8	case	_	_
-7	o	o	DET	DET	_	8	det	_	_
+7	o	o	DET	DET	PronType=Art	8	det	_	_
 8	Avaí	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	13	punct	_	_
 10	também	também	ADV	ADV	_	13	advmod	_	_
@@ -157,21 +157,21 @@
 
 # sent_id = train-s4420
 # text = O Santos descia com velocidade e assustava os gaúchos.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	Santos	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	descia	descer	VERB	VERB	_	0	root	_	_
 4	com	com	ADP	ADP	_	5	case	_	_
 5	velocidade	velocidade	NOUN	NOUN	_	3	nmod	_	_
 6	e	e	CCONJ	CONJ	_	7	cc	_	_
 7	assustava	assustar	VERB	VERB	_	3	conj	_	_
-8	os	o	DET	DET	_	9	det	_	_
+8	os	o	DET	DET	PronType=Art	9	det	_	_
 9	gaúchos	gaúcho	NOUN	NOUN	_	7	obj	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s4421
 # text = Implica a respiração de oxigênio puro e é realizado em câmaras pressurizadas.
 1	Implica	implicar	VERB	VERB	_	0	root	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	respiração	respiração	NOUN	NOUN	_	1	obj	_	_
 4	de	de	ADP	ADP	_	5	case	_	_
 5	oxigênio	oxigênio	NOUN	NOUN	_	3	nmod	_	_
@@ -197,7 +197,7 @@
 9	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	11	punct	_	_
 11	afirma	afirmar	VERB	VERB	_	0	root	_	_
-12	o	o	DET	DET	_	13	det	_	_
+12	o	o	DET	DET	PronType=Art	13	det	_	_
 13	laudo	laudo	NOUN	NOUN	_	11	nsubj	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	15	punct	_	_
 15	divulgado	divulgar	VERB	VERB	_	13	acl	_	_
@@ -219,7 +219,7 @@
 # sent_id = train-s4423
 # text = Era o segundo do Fortaleza.
 1	Era	_	AUX	AUX	_	3	cop	_	_
-2	o	o	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	PronType=Art	3	det	_	_
 3	segundo	segundo	NOUN	NOUN	_	0	root	_	_
 4-5	do	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
@@ -229,10 +229,10 @@
 
 # sent_id = train-s4424
 # text = O gol animou o Gansinho que voltou a ser melhor na partida.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	gol	gol	NOUN	NOUN	_	3	nsubj	_	_
 3	animou	animar	VERB	VERB	_	0	root	_	_
-4	o	o	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	PronType=Art	5	det	_	_
 5	Gansinho	_	PROPN	PNOUN	_	3	obj	_	_
 6	que	_	PRON	PRON	_	9	nsubj	_	_
 7	voltou	voltar	AUX	AUX	_	9	aux	_	_

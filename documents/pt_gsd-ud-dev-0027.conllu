@@ -1,10 +1,10 @@
 # sent_id = dev-s260
 # text = "A bandeira é o símbolo máximo duma nação, dum Estado, duma aldeia, duma Instituição.
 1	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
-2	A	o	DET	DET	_	3	det	_	_
+2	A	o	DET	DET	PronType=Art	3	det	_	_
 3	bandeira	bandeira	NOUN	NOUN	_	6	nsubj	_	_
 4	é	ser	AUX	AUX	_	6	cop	_	_
-5	o	o	DET	DET	_	6	det	_	_
+5	o	o	DET	DET	PronType=Art	6	det	_	_
 6	símbolo	símbolo	NOUN	NOUN	_	0	root	_	_
 7	máximo	máximo	ADJ	ADJ	_	6	amod	_	_
 8-9	duma	_	_	_	_	_	_	_	_
@@ -61,7 +61,7 @@
 
 # sent_id = dev-s263
 # text = O presidente do Egito, Mohammed Mursi, está liderando as negociações para acabar com os confrontos na região e afirmou esperar que Israel interrompa os ataques aéreos na Faixa de Gaza até o final de hoje.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	presidente	presidente	NOUN	NOUN	_	11	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -73,12 +73,12 @@
 9	,	,	PUNCT	.	_	7	punct	_	_
 10	está	estar	AUX	AUX	_	11	aux	_	_
 11	liderando	liderar	VERB	VERB	_	0	root	_	_
-12	as	o	DET	DET	_	13	det	_	_
+12	as	o	DET	DET	PronType=Art	13	det	_	_
 13	negociações	negociação	NOUN	NOUN	_	11	obj	_	_
 14	para	_	ADP	ADP	_	15	mark	_	_
 15	acabar	acabar	VERB	VERB	_	13	nmod	_	_
 16	com	com	ADP	ADP	_	18	case	_	_
-17	os	o	DET	DET	_	18	det	_	_
+17	os	o	DET	DET	PronType=Art	18	det	_	_
 18	confrontos	confronto	NOUN	NOUN	_	15	nmod	_	_
 19-20	na	_	_	_	_	_	_	_	_
 19	em	em	ADP	ADP	_	21	case	_	_
@@ -90,7 +90,7 @@
 25	que	que	CCONJ	CONJ	_	27	mark	_	_
 26	Israel	_	PROPN	PNOUN	_	27	nsubj	_	_
 27	interrompa	interromper	VERB	VERB	_	24	ccomp	_	_
-28	os	o	DET	DET	_	29	det	_	_
+28	os	o	DET	DET	PronType=Art	29	det	_	_
 29	ataques	ataque	NOUN	NOUN	_	27	obj	_	_
 30	aéreos	aéreo	ADJ	ADJ	_	29	amod	_	_
 31-32	na	_	_	_	_	_	_	_	_
@@ -100,7 +100,7 @@
 34	de	de	ADP	ADP	_	35	case	_	_
 35	Gaza	_	PROPN	PNOUN	_	33	nmod	_	_
 36	até	_	ADP	ADP	_	38	case	_	_
-37	o	o	DET	DET	_	38	det	_	_
+37	o	o	DET	DET	PronType=Art	38	det	_	_
 38	final	final	NOUN	NOUN	_	27	nmod	_	_
 39	de	_	ADP	ADP	_	40	mark	_	_
 40	hoje	hoje	ADV	ADV	_	38	nmod	_	SpaceAfter=No
@@ -108,7 +108,7 @@
 
 # sent_id = dev-s264
 # text = Os vencedores serão retratados na revista Pequenas Empresas &amp; Grandes Negócios de Dezembro de 2012 e no site do Movimento Empreenda.
-1	Os	o	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	PronType=Art	2	det	_	_
 2	vencedores	_	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	serão	ser	AUX	AUX	_	4	aux:pass	_	_
 4	retratados	retratar	VERB	VERB	_	0	root	_	_
@@ -157,7 +157,7 @@
 15	,	,	PUNCT	.	_	20	punct	_	_
 16	mesmo	mesmo	ADV	ADV	_	20	mark	_	_
 17	que	_	CCONJ	CONJ	_	16	fixed	_	_
-18	a	o	DET	DET	_	19	det	_	_
+18	a	o	DET	DET	PronType=Art	19	det	_	_
 19	greve	greve	NOUN	NOUN	_	20	nsubj	_	_
 20	seja	ser	VERB	VERB	_	5	advcl	_	_
 21	legal	legal	ADJ	ADJ	_	20	xcomp	_	_
@@ -168,7 +168,7 @@
 26	não	não	ADV	ADV	Polarity=Neg	28	advmod	_	_
 27	se	_	PART	PRT	_	28	expl:pv	_	_
 28	prestou	prestar	VERB	VERB	_	5	conj	_	_
-29	o	o	DET	DET	_	30	det	_	_
+29	o	o	DET	DET	PronType=Art	30	det	_	_
 30	serviço	serviço	NOUN	NOUN	_	28	nsubj	_	_
 31	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
 32	,	,	PUNCT	.	_	33	punct	_	_
@@ -177,7 +177,7 @@
 
 # sent_id = dev-s266
 # text = A terceira colocada ficou com apenas 6,8 pontos.
-1	A	o	DET	DET	_	3	det	_	_
+1	A	o	DET	DET	PronType=Art	3	det	_	_
 2	terceira	_	ADJ	ADJ	_	3	amod	_	_
 3	colocada	_	NOUN	NOUN	_	4	nsubj	_	_
 4	ficou	ficar	VERB	VERB	_	0	root	_	_
@@ -189,12 +189,12 @@
 
 # sent_id = dev-s267
 # text = A ideia é limitar também a ação dos responsáveis por chacinas, nas quais são mortos civis, autoridades públicas, policiais e dissidentes de quadrilhas, além de testemunhas de crimes.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	ideia	ideia	NOUN	NOUN	_	0	root	_	_
 3	é	ser	AUX	AUX	_	2	cop	_	_
 4	limitar	limitar	VERB	VERB	_	2	csubj	_	_
 5	também	também	ADV	ADV	_	4	advmod	_	_
-6	a	o	DET	DET	_	7	det	_	_
+6	a	o	DET	DET	PronType=Art	7	det	_	_
 7	ação	ação	NOUN	NOUN	_	4	obj	_	_
 8-9	dos	_	_	_	_	_	_	_	_
 8	de	de	ADP	ADP	_	10	case	_	_
@@ -232,7 +232,7 @@
 1	Em	em	ADP	ADP	_	2	case	_	_
 2	seguida	_	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	banda	banda	NOUN	NOUN	_	6	nsubj	_	_
 6	fará	_	VERB	VERB	_	0	root	_	_
 7	apresentações	apresentação	NOUN	NOUN	_	6	obj	_	_
@@ -299,7 +299,7 @@
 9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	marido	marido	NOUN	NOUN	_	7	nmod	_	_
 11	com	com	ADP	ADP	_	14	case	_	_
-12	a	o	DET	DET	_	14	det	_	_
+12	a	o	DET	DET	PronType=Art	14	det	_	_
 13	própria	próprio	ADJ	ADJ	_	14	amod	_	_
 14	cunhada	cunhado	NOUN	NOUN	_	7	nmod	_	_
 15	e	e	CCONJ	CONJ	_	20	cc	_	_

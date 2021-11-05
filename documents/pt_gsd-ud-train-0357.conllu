@@ -1,7 +1,7 @@
 # sent_id = train-s3540
 # text = Até o fim de semana teremos novidades.
 1	Até	_	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	PronType=Art	3	det	_	_
 3	fim	fim	NOUN	NOUN	_	6	nmod	_	_
 4	de	de	ADP	ADP	_	5	case	_	_
 5	semana	semana	NOUN	NOUN	_	3	nmod	_	_
@@ -11,7 +11,7 @@
 
 # sent_id = train-s3541
 # text = O diretor de Relações Institucionais da Endesa Brasil, André Moragas, disse que a iniciativa prevê a introdução gradual em Búzios de novas tecnologias e inovações relacionadas à rede elétrica que possam trazer benefícios diretos para o consumidor.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	diretor	diretor	NOUN	NOUN	_	14	nsubj	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	Relações	_	PROPN	PNOUN	_	2	nmod	_	_
@@ -27,10 +27,10 @@
 13	,	,	PUNCT	.	_	11	punct	_	_
 14	disse	dizer	VERB	VERB	_	0	root	_	_
 15	que	que	CCONJ	CONJ	_	18	mark	_	_
-16	a	o	DET	DET	_	17	det	_	_
+16	a	o	DET	DET	PronType=Art	17	det	_	_
 17	iniciativa	iniciativa	NOUN	NOUN	_	18	nsubj	_	_
 18	prevê	prever	VERB	VERB	_	14	ccomp	_	_
-19	a	o	DET	DET	_	20	det	_	_
+19	a	o	DET	DET	PronType=Art	20	det	_	_
 20	introdução	introdução	NOUN	NOUN	_	18	obj	_	_
 21	gradual	gradual	ADJ	ADJ	_	20	amod	_	_
 22	em	em	ADP	ADP	_	23	case	_	_
@@ -52,7 +52,7 @@
 37	benefícios	benefício	NOUN	NOUN	_	36	obj	_	_
 38	diretos	direto	ADJ	ADJ	_	37	amod	_	_
 39	para	para	ADP	ADP	_	41	case	_	_
-40	o	o	DET	DET	_	41	det	_	_
+40	o	o	DET	DET	PronType=Art	41	det	_	_
 41	consumidor	consumidor	NOUN	NOUN	_	36	nmod	_	SpaceAfter=No
 42	.	.	PUNCT	.	_	14	punct	_	_
 
@@ -77,13 +77,13 @@
 4	haviam	haver	AUX	AUX	_	5	aux	_	_
 5	assumido	assumir	VERB	VERB	_	0	root	_	_
 6	que	que	CCONJ	CONJ	_	11	mark	_	_
-7	a	o	DET	DET	_	8	det	_	_
+7	a	o	DET	DET	PronType=Art	8	det	_	_
 8	peça	peça	NOUN	NOUN	_	11	nsubj	_	_
 9	era	_	AUX	AUX	_	11	cop	_	_
 10	um	um	DET	DET	_	11	det	_	_
 11	esboço	esboço	NOUN	NOUN	_	5	ccomp	_	_
 12	para	para	ADP	ADP	_	15	case	_	_
-13	a	o	DET	DET	_	15	det	_	_
+13	a	o	DET	DET	PronType=Art	15	det	_	_
 14	famosa	famoso	ADJ	ADJ	_	15	amod	_	_
 15	Missa	_	PROPN	PNOUN	_	11	nmod	_	_
 16	Solene	_	PROPN	PNOUN	_	15	amod	_	_
@@ -107,7 +107,7 @@
 3	a	_	PRON	PRON	_	4	obj	_	_
 4	deixou	deixar	VERB	VERB	_	0	root	_	_
 5	entre	_	ADP	ADP	_	8	case	_	_
-6	as	o	DET	DET	_	8	det	_	_
+6	as	o	DET	DET	PronType=Art	8	det	_	_
 7	dez	_	NUM	NUM	NumType=Card	8	nummod	_	_
 8	melhores	melhor	NOUN	NOUN	_	4	nmod	_	_
 9-10	do	_	_	_	_	_	_	_	_
@@ -116,7 +116,7 @@
 11	mundo	mundo	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	.	_	13	punct	_	_
 13	terminando	terminar	VERB	VERB	_	4	acl	_	_
-14	a	o	DET	DET	_	15	det	_	_
+14	a	o	DET	DET	PronType=Art	15	det	_	_
 15	categoria	categoria	NOUN	NOUN	_	13	obj	_	_
 16	até	até	ADV	ADV	_	17	advmod	_	_
 17	75kg	_	NUM	NUM	NumType=Card	15	appos	_	_
@@ -126,7 +126,7 @@
 20	oitava	_	ADJ	ADJ	_	21	amod	_	_
 21	posição	posição	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	.	_	25	punct	_	_
-23	a	o	DET	DET	_	25	det	_	_
+23	a	o	DET	DET	PronType=Art	25	det	_	_
 24	melhor	melhor	ADJ	ADJ	_	25	amod	_	_
 25	participação	participação	NOUN	NOUN	_	21	appos	_	_
 26	brasileira	brasileiro	ADJ	ADJ	_	25	amod	_	_
@@ -148,7 +148,7 @@
 4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Marinha	_	PROPN	PNOUN	_	2	nmod	_	_
 6	durante	_	ADP	ADP	_	8	case	_	_
-7	o	o	DET	DET	_	8	det	_	_
+7	o	o	DET	DET	PronType=Art	8	det	_	_
 8	governo	governo	NOUN	NOUN	_	2	nmod	_	_
 9	Itamar	_	PROPN	PNOUN	_	8	appos	_	_
 10	Franco	_	PROPN	PNOUN	_	9	flat	_	_
@@ -194,7 +194,7 @@
 6	t	t	NOUN	NOUN	_	4	appos	_	SpaceAfter=No
 7	)	)	PUNCT	.	_	6	punct	_	_
 8	é	ser	AUX	AUX	_	10	cop	_	_
-9	a	o	DET	DET	_	10	det	_	_
+9	a	o	DET	DET	PronType=Art	10	det	_	_
 10	portadora	portador	NOUN	NOUN	_	2	ccomp	_	_
 11	e	e	CCONJ	CONJ	_	12	cc	_	_
 12	f	f	NOUN	NOUN	_	4	conj	_	_
@@ -202,7 +202,7 @@
 14	t	t	NOUN	NOUN	_	12	appos	_	SpaceAfter=No
 15	)	)	PUNCT	.	_	14	punct	_	SpaceAfter=No
 16	,	,	PUNCT	.	_	18	punct	_	_
-17	o	o	DET	DET	_	18	det	_	_
+17	o	o	DET	DET	PronType=Art	18	det	_	_
 18	sinal	sinal	NOUN	NOUN	_	12	appos	_	_
 19	modulante	_	ADJ	ADJ	_	18	amod	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	2	punct	_	_
@@ -232,14 +232,14 @@
 
 # sent_id = train-s3549
 # text = o soberano de Árados submeteu, e o rei de Sídon foi deposto.
-1	o	o	DET	DET	_	2	det	_	_
+1	o	o	DET	DET	PronType=Art	2	det	_	_
 2	soberano	soberano	NOUN	NOUN	_	5	nsubj	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	Árados	_	PROPN	PNOUN	_	2	nmod	_	_
 5	submeteu	submeter	VERB	VERB	_	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	13	punct	_	_
 7	e	e	CCONJ	CONJ	_	13	cc	_	_
-8	o	o	DET	DET	_	9	det	_	_
+8	o	o	DET	DET	PronType=Art	9	det	_	_
 9	rei	rei	NOUN	NOUN	_	13	nsubj:pass	_	_
 10	de	de	ADP	ADP	_	11	case	_	_
 11	Sídon	_	PROPN	PNOUN	_	9	nmod	_	_

@@ -38,14 +38,14 @@
 17	cinco	_	NUM	NUM	NumType=Card	18	nummod	_	_
 18	títulos	título	NOUN	NOUN	_	3	nmod	_	_
 19	[	_	PUNCT	.	_	23	punct	_	SpaceAfter=No
-20	o	o	DET	DET	_	21	det	_	_
+20	o	o	DET	DET	PronType=Art	21	det	_	_
 21	Pittsburgh	_	PROPN	PNOUN	_	23	nsubj	_	_
 22	Steelers	_	PROPN	PNOUN	_	21	flat	_	_
 23	tem	ter	VERB	VERB	_	18	parataxis	_	_
 24	seis	_	NUM	NUM	NumType=Card	23	obj	_	SpaceAfter=No
 25	]	_	PUNCT	.	_	23	punct	_	SpaceAfter=No
 26	,	,	PUNCT	.	_	28	punct	_	_
-27	o	o	DET	DET	_	28	det	_	_
+27	o	o	DET	DET	PronType=Art	28	det	_	_
 28	Dallas	_	PROPN	PNOUN	_	3	appos	_	_
 29	Cowboys	_	PROPN	PNOUN	_	28	flat	_	_
 30	foi	_	VERB	VERB	_	0	root	_	_
@@ -66,7 +66,7 @@
 
 # sent_id = train-s6574
 # text = A solenidade foi acompanhada pelo presidente do Tribunal Regional da 1 ª Região, desembargador Mário César Ribeiro, o diretor do foro da Seção Judiciária de Rondônia, Rodrigo de Godoy Mendes, o diretor da Subseção Judiciária de Ji - Paraná, juiz federal Flávio da Silva Andrade e o prefeito José de Abreu Bianco (DEM), entre outras autoridades.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	solenidade	solenidade	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foi	_	AUX	AUX	_	4	aux:pass	_	_
 4	acompanhada	acompanhar	VERB	VERB	_	0	root	_	_
@@ -91,7 +91,7 @@
 20	César	_	PROPN	PNOUN	_	19	flat	_	_
 21	Ribeiro	_	PROPN	PNOUN	_	19	flat	_	SpaceAfter=No
 22	,	,	PUNCT	.	_	24	punct	_	_
-23	o	o	DET	DET	_	24	det	_	_
+23	o	o	DET	DET	PronType=Art	24	det	_	_
 24	diretor	diretor	NOUN	NOUN	_	7	conj	_	_
 25-26	do	_	_	_	_	_	_	_	_
 25	de	de	ADP	ADP	_	27	case	_	_
@@ -110,7 +110,7 @@
 37	Godoy	_	PROPN	PNOUN	_	35	nmod	_	_
 38	Mendes	_	PROPN	PNOUN	_	37	flat	_	SpaceAfter=No
 39	,	,	PUNCT	.	_	41	punct	_	_
-40	o	o	DET	DET	_	41	det	_	_
+40	o	o	DET	DET	PronType=Art	41	det	_	_
 41	diretor	diretor	NOUN	NOUN	_	7	conj	_	_
 42-43	da	_	_	_	_	_	_	_	_
 42	de	de	ADP	ADP	_	44	case	_	_
@@ -160,7 +160,7 @@
 8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Pacaembu	_	PROPN	PNOUN	_	24	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	9	punct	_	_
-11	o	o	DET	DET	_	13	det	_	_
+11	o	o	DET	DET	PronType=Art	13	det	_	_
 12	desesperado	desesperado	ADJ	ADJ	_	13	amod	_	_
 13	Palmeiras	_	PROPN	PNOUN	_	24	nsubj	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	16	punct	_	_
@@ -176,7 +176,7 @@
 22	degola	degola	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
 23	,	,	PUNCT	.	_	16	punct	_	_
 24	recebe	receber	VERB	VERB	_	0	root	_	_
-25	o	o	DET	DET	_	27	det	_	_
+25	o	o	DET	DET	PronType=Art	27	det	_	_
 26	embalado	embalado	ADJ	ADJ	_	27	amod	_	_
 27	Grêmio	_	PROPN	PNOUN	_	24	obj	_	SpaceAfter=No
 28	,	,	PUNCT	.	_	30	punct	_	_
@@ -203,11 +203,11 @@
 
 # sent_id = train-s6577
 # text = A entidade acredita que os juros mais baixos possibilitam que mais pessoas físicas e jurídicas adquiram financiamento, estimulando a produção e o consumo interno.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	entidade	entidade	NOUN	NOUN	_	3	nsubj	_	_
 3	acredita	acreditar	VERB	VERB	_	0	root	_	_
 4	que	que	CCONJ	CONJ	_	9	mark	_	_
-5	os	o	DET	DET	_	6	det	_	_
+5	os	o	DET	DET	PronType=Art	6	det	_	_
 6	juros	juro	NOUN	NOUN	_	9	nsubj	_	_
 7	mais	mais	ADV	ADV	_	8	advmod	_	_
 8	baixos	baixo	ADJ	ADJ	_	6	amod	_	_
@@ -222,7 +222,7 @@
 17	financiamento	financiamento	NOUN	NOUN	_	16	obj	_	SpaceAfter=No
 18	,	,	PUNCT	.	_	19	punct	_	_
 19	estimulando	estimular	VERB	VERB	_	16	acl	_	_
-20	a	o	DET	DET	_	21	det	_	_
+20	a	o	DET	DET	PronType=Art	21	det	_	_
 21	produção	produção	NOUN	NOUN	_	19	obj	_	_
 22	e	e	CCONJ	CONJ	_	24	cc	_	_
 23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
@@ -232,7 +232,7 @@
 
 # sent_id = train-s6578
 # text = A experiência foi confirmada por Hallwachs.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	experiência	experiência	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foi	_	AUX	AUX	_	4	aux:pass	_	_
 4	confirmada	confirmar	VERB	VERB	_	0	root	_	_
@@ -262,7 +262,7 @@
 16	Campo	_	PROPN	PNOUN	_	15	appos	_	_
 17	Grande	_	PROPN	PNOUN	_	16	amod	_	_
 18	--	_	PUNCT	.	_	9	punct	_	_
-19	a	o	DET	DET	_	20	det	_	_
+19	a	o	DET	DET	PronType=Art	20	det	_	_
 20	restrição	restrição	NOUN	NOUN	_	21	nsubj	_	_
 21	vale	_	VERB	VERB	_	0	root	_	_
 22	até	_	ADP	ADP	_	24	case	_	_
@@ -302,7 +302,7 @@
 8	ouvido	ouvido	NOUN	NOUN	_	5	nmod	_	_
 9	médio	médio	ADJ	ADJ	_	8	amod	_	SpaceAfter=No
 10	:	:	PUNCT	.	_	8	punct	_	_
-11	o	o	DET	DET	_	12	det	_	_
+11	o	o	DET	DET	PronType=Art	12	det	_	_
 12	espaço	espaço	NOUN	NOUN	_	8	appos	_	_
 13	atrás	atrás	ADV	ADV	_	12	advmod	_	_
 14-15	da	_	_	_	_	_	_	_	_
@@ -316,7 +316,7 @@
 # text = Até lá o RAZR HD irá funcionar normalmente nas redes 3G e 3G + já em operação no país, com velocidade de acesso comparável à doutros aparelhos.
 1	Até	_	ADP	ADP	_	2	mark	_	_
 2	lá	lá	ADV	ADV	_	7	nmod	_	_
-3	o	o	DET	DET	_	4	det	_	_
+3	o	o	DET	DET	PronType=Art	4	det	_	_
 4	RAZR	_	PROPN	PNOUN	_	7	nsubj	_	_
 5	HD	_	PROPN	PNOUN	_	4	flat	_	_
 6	irá	_	AUX	AUX	_	7	aux	_	_

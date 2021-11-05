@@ -16,12 +16,12 @@
 12	Abnael	_	PROPN	PNOUN	_	13	nsubj	_	_
 13	contou	contar	VERB	VERB	_	0	root	_	_
 14	sobre	_	ADP	ADP	_	17	case	_	_
-15	o	o	DET	DET	_	17	det	_	_
+15	o	o	DET	DET	PronType=Art	17	det	_	_
 16	novo	novo	ADJ	ADJ	_	17	amod	_	_
 17	livro	livro	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	.	_	19	punct	_	_
 19	exibindo	exibir	VERB	VERB	_	13	acl	_	_
-20	o	o	DET	DET	_	22	det	_	_
+20	o	o	DET	DET	PronType=Art	22	det	_	_
 21	primeiro	primeiro	ADJ	ADJ	_	22	amod	_	_
 22	exemplar	exemplar	NOUN	NOUN	_	19	obj	_	_
 23	entregue	entregar	VERB	VERB	_	22	acl	_	_
@@ -36,12 +36,12 @@
 # sent_id = train-s4626
 # text = Segundo o plantonista desta unidade, o motorista do ônibus ainda não foi interrogado porque o caso será encaminhado para a 11 ª delegacia, do bairro de Tancredo Neves, que é responsável pela região.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	PronType=Art	3	det	_	_
 3	plantonista	plantonista	NOUN	NOUN	_	15	nmod	_	_
 4	desta	_	ADP	ADP	_	5	case	_	_
 5	unidade	unidade	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	3	punct	_	_
-7	o	o	DET	DET	_	8	det	_	_
+7	o	o	DET	DET	PronType=Art	8	det	_	_
 8	motorista	motorista	NOUN	NOUN	_	15	nsubj:pass	_	_
 9-10	do	_	_	_	_	_	_	_	_
 9	de	de	ADP	ADP	_	11	case	_	_
@@ -52,12 +52,12 @@
 14	foi	_	AUX	AUX	_	15	aux:pass	_	_
 15	interrogado	interrogar	VERB	VERB	_	0	root	_	_
 16	porque	_	CCONJ	CONJ	_	20	mark	_	_
-17	o	o	DET	DET	_	18	det	_	_
+17	o	o	DET	DET	PronType=Art	18	det	_	_
 18	caso	caso	NOUN	NOUN	_	20	nsubj:pass	_	_
 19	será	ser	AUX	AUX	_	20	aux:pass	_	_
 20	encaminhado	encaminhar	VERB	VERB	_	15	advcl	_	_
 21	para	para	ADP	ADP	_	25	case	_	_
-22	a	o	DET	DET	_	25	det	_	_
+22	a	o	DET	DET	PronType=Art	25	det	_	_
 23	11	_	ADJ	ADJ	_	25	amod	_	_
 24	ª	_	PUNCT	.	_	23	punct	_	_
 25	delegacia	delegacia	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
@@ -82,10 +82,10 @@
 # sent_id = train-s4627
 # text = Segundo a polícia, a vítima, de nacionalidade colombiana, foi encontrada morta no dia 16 de abril, por volta das 6h (horário local), com o rosto desfigurado, no estacionamento duma estação ferroviária em Sant Andreu de la Barca, na área metropolitana de Barcelona.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	polícia	polícia	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	vítima	vítima	NOUN	NOUN	_	13	nsubj:pass	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	9	punct	_	_
 8	de	de	ADP	ADP	_	9	case	_	_
@@ -115,7 +115,7 @@
 30	)	)	PUNCT	.	_	28	punct	_	SpaceAfter=No
 31	,	,	PUNCT	.	_	34	punct	_	_
 32	com	com	ADP	ADP	_	34	case	_	_
-33	o	o	DET	DET	_	34	det	_	_
+33	o	o	DET	DET	PronType=Art	34	det	_	_
 34	rosto	rosto	NOUN	NOUN	_	13	nmod	_	_
 35	desfigurado	desfigurado	ADJ	ADJ	_	34	amod	_	SpaceAfter=No
 36	,	,	PUNCT	.	_	39	punct	_	_
@@ -179,7 +179,7 @@
 # sent_id = train-s4629
 # text = E o professor, por outro lado aprende muito com o aluno ', comenta.
 1	E	_	CCONJ	CONJ	_	8	cc	_	_
-2	o	o	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	PronType=Art	3	det	_	_
 3	professor	professor	NOUN	NOUN	_	8	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	7	punct	_	_
 5	por	por	ADP	ADP	_	7	case	_	_
@@ -188,7 +188,7 @@
 8	aprende	aprender	VERB	VERB	_	15	ccomp	_	_
 9	muito	muito	ADV	ADV	_	8	advmod	_	_
 10	com	com	ADP	ADP	_	12	case	_	_
-11	o	o	DET	DET	_	12	det	_	_
+11	o	o	DET	DET	PronType=Art	12	det	_	_
 12	aluno	aluno	NOUN	NOUN	_	8	nmod	_	_
 13	'	_	PUNCT	.	_	8	punct	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	15	punct	_	_
@@ -211,7 +211,7 @@
 1	Ativistas	ativista	NOUN	NOUN	_	2	nsubj	_	_
 2	estimam	estimar	VERB	VERB	_	0	root	_	_
 3	que	que	CCONJ	CONJ	_	8	mark	_	_
-4	o	o	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	PronType=Art	5	det	_	_
 5	total	total	NOUN	NOUN	_	8	nsubj	_	_
 6	de	de	ADP	ADP	_	7	case	_	_
 7	mortos	morto	NOUN	NOUN	_	5	nmod	_	_
@@ -264,7 +264,7 @@
 8	expectativa	expectativa	NOUN	NOUN	_	4	conj	_	_
 9	de	_	ADP	ADP	_	12	mark	_	_
 10	ser	ser	AUX	AUX	_	12	cop	_	_
-11	o	o	DET	DET	_	12	det	_	_
+11	o	o	DET	DET	PronType=Art	12	det	_	_
 12	titular	titular	NOUN	NOUN	_	8	nmod	_	_
 13-14	da	_	_	_	_	_	_	_	_
 13	de	de	ADP	ADP	_	15	case	_	_
@@ -287,11 +287,11 @@
 28	carrega	carregar	VERB	VERB	_	2	conj	_	_
 29	com	com	ADP	ADP	_	30	case	_	_
 30	ele	_	PRON	PRON	_	28	nmod	_	_
-31	a	o	DET	DET	_	32	det	_	_
+31	a	o	DET	DET	PronType=Art	32	det	_	_
 32	missão	missão	NOUN	NOUN	_	28	obj	_	_
 33	de	_	ADP	ADP	_	34	mark	_	_
 34	classificar	classificar	VERB	VERB	_	32	nmod	_	_
-35	o	o	DET	DET	_	36	det	_	_
+35	o	o	DET	DET	PronType=Art	36	det	_	_
 36	Botafogo	_	PROPN	PNOUN	_	34	obj	_	_
 37	para	para	ADP	ADP	_	39	case	_	_
 38	uma	um	DET	DET	_	39	det	_	_
@@ -304,13 +304,13 @@
 1	De	_	ADP	ADP	_	2	case	_	_
 2	acordo	acordo	NOUN	NOUN	_	21	nmod	_	_
 3	com	com	ADP	ADP	_	5	case	_	_
-4	o	o	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	PronType=Art	5	det	_	_
 5	juiz	juiz	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	2	punct	_	_
 7	durante	_	ADP	ADP	_	9	case	_	_
-8	a	o	DET	DET	_	9	det	_	_
+8	a	o	DET	DET	PronType=Art	9	det	_	_
 9	sessão	sessão	NOUN	NOUN	_	21	nmod	_	_
-10	o	o	DET	DET	_	11	det	_	_
+10	o	o	DET	DET	PronType=Art	11	det	_	_
 11	advogado	advogado	NOUN	NOUN	_	21	nsubj	_	_
 12-13	da	_	_	_	_	_	_	_	_
 12	de	de	ADP	ADP	_	14	case	_	_
@@ -324,7 +324,7 @@
 20	,	,	PUNCT	.	_	18	punct	_	_
 21	entendeu	entender	VERB	VERB	_	0	root	_	_
 22	que	que	CCONJ	CONJ	_	25	mark	_	_
-23	o	o	DET	DET	_	24	det	_	_
+23	o	o	DET	DET	PronType=Art	24	det	_	_
 24	caseiro	caseiro	NOUN	NOUN	_	25	nsubj	_	_
 25	mentiu	mentir	VERB	VERB	_	21	ccomp	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	21	punct	_	_
@@ -342,7 +342,7 @@
 9	tudo	_	PRON	PRON	_	8	obj	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	13	punct	_	_
 11	inclusive	inclusive	ADV	ADV	_	8	advmod	_	_
-12	os	o	DET	DET	_	13	det	_	_
+12	os	o	DET	DET	PronType=Art	13	det	_	_
 13	fios	fio	NOUN	NOUN	_	8	conj	_	_
 14	de	de	ADP	ADP	_	15	case	_	_
 15	eletricidade	eletricidade	NOUN	NOUN	_	13	nmod	_	_

@@ -17,7 +17,7 @@
 
 # sent_id = train-s6156
 # text = O "Documento Final" resultou dum processo de construção coletiva, desencadeado pela decisão política de submeter ao debate social as idéias e proposições em torno da construção do Sistema Nacional de Educação, que assegurasse a articulação entre os entes federados e os setores da sociedade civil.
-1	O	o	DET	DET	_	3	det	_	_
+1	O	o	DET	DET	PronType=Art	3	det	_	_
 2	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
 3	Documento	_	PROPN	PNOUN	_	6	nsubj	_	_
 4	Final	_	PROPN	PNOUN	_	3	amod	_	SpaceAfter=No
@@ -44,7 +44,7 @@
 22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	debate	debate	NOUN	NOUN	_	20	nmod	_	_
 24	social	social	ADJ	ADJ	_	23	amod	_	_
-25	as	o	DET	DET	_	26	det	_	_
+25	as	o	DET	DET	PronType=Art	26	det	_	_
 26	idéias	_	NOUN	NOUN	_	20	obj	_	_
 27	e	e	CCONJ	CONJ	_	28	cc	_	_
 28	proposições	proposição	NOUN	NOUN	_	26	conj	_	_
@@ -64,14 +64,14 @@
 40	,	,	PUNCT	.	_	42	punct	_	_
 41	que	_	PRON	PRON	_	42	nsubj	_	_
 42	assegurasse	assegurar	VERB	VERB	_	23	acl:relcl	_	_
-43	a	o	DET	DET	_	44	det	_	_
+43	a	o	DET	DET	PronType=Art	44	det	_	_
 44	articulação	articulação	NOUN	NOUN	_	42	obj	_	_
 45	entre	_	ADP	ADP	_	47	case	_	_
-46	os	o	DET	DET	_	47	det	_	_
+46	os	o	DET	DET	PronType=Art	47	det	_	_
 47	entes	ente	NOUN	NOUN	_	42	nmod	_	_
 48	federados	federado	ADJ	ADJ	_	47	amod	_	_
 49	e	e	CCONJ	CONJ	_	51	cc	_	_
-50	os	o	DET	DET	_	51	det	_	_
+50	os	o	DET	DET	PronType=Art	51	det	_	_
 51	setores	setor	NOUN	NOUN	_	47	conj	_	_
 52-53	da	_	_	_	_	_	_	_	_
 52	de	de	ADP	ADP	_	54	case	_	_
@@ -82,7 +82,7 @@
 
 # sent_id = train-s6157
 # text = As matrículas acontecem no Fundo Social de Solidariedade (FSS).
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	PronType=Art	2	det	_	_
 2	matrículas	matrícula	NOUN	NOUN	_	3	nsubj	_	_
 3	acontecem	acontecer	VERB	VERB	_	0	root	_	_
 4-5	no	_	_	_	_	_	_	_	_
@@ -110,7 +110,7 @@
 7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	EFSA	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	5	punct	_	_
-10	o	o	DET	DET	_	11	det	_	_
+10	o	o	DET	DET	PronType=Art	11	det	_	_
 11	estudo	estudo	NOUN	NOUN	_	14	nsubj	_	_
 12	já	já	ADV	ADV	_	14	advmod	_	_
 13	vinha	vir	AUX	AUX	_	14	aux	_	_
@@ -124,10 +124,10 @@
 
 # sent_id = train-s6159
 # text = O país apresenta o maior corficiente de Gini (que mede a desigualdade) da América Latina.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	país	país	NOUN	NOUN	_	3	nsubj	_	_
 3	apresenta	apresentar	VERB	VERB	_	0	root	_	_
-4	o	o	DET	DET	_	6	det	_	_
+4	o	o	DET	DET	PronType=Art	6	det	_	_
 5	maior	maior	ADJ	ADJ	_	6	amod	_	_
 6	corficiente	_	NOUN	NOUN	_	3	obj	_	_
 7	de	de	ADP	ADP	_	8	case	_	_
@@ -135,7 +135,7 @@
 9	(	(	PUNCT	.	_	11	punct	_	SpaceAfter=No
 10	que	_	PRON	PRON	_	11	nsubj	_	_
 11	mede	medir	VERB	VERB	_	6	acl:relcl	_	_
-12	a	o	DET	DET	_	13	det	_	_
+12	a	o	DET	DET	PronType=Art	13	det	_	_
 13	desigualdade	desigualdade	NOUN	NOUN	_	11	obj	_	SpaceAfter=No
 14	)	)	PUNCT	.	_	11	punct	_	_
 15-16	da	_	_	_	_	_	_	_	_
@@ -188,7 +188,7 @@
 8	havia	haver	VERB	VERB	_	2	csubj	_	_
 9	intimidade	intimidade	NOUN	NOUN	_	8	obj	_	_
 10	entre	_	ADP	ADP	_	12	case	_	_
-11	a	o	DET	DET	_	12	det	_	_
+11	a	o	DET	DET	PronType=Art	12	det	_	_
 12	vítima	vítima	NOUN	NOUN	_	9	nmod	_	_
 13	e	e	CCONJ	CONJ	_	15	cc	_	_
 14	a	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -203,14 +203,14 @@
 23	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
 24	,	,	PUNCT	.	_	25	punct	_	_
 25	disse	dizer	VERB	VERB	_	0	root	_	_
-26	o	o	DET	DET	_	27	det	_	_
+26	o	o	DET	DET	PronType=Art	27	det	_	_
 27	delegado	delegado	NOUN	NOUN	_	25	nsubj	_	_
 28	Amaro	_	PROPN	PNOUN	_	27	appos	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	25	punct	_	_
 
 # sent_id = train-s6162
 # text = A Federação Nacional de Saúde Suplementar (FenaSaúde) informou que apoia iniciativas que levem à maior transparência para clientes de planos de saúde e ressaltou que os planos suspensos atendem a um total de 3,6 milhões de beneficiários.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	Federação	_	PROPN	PNOUN	_	10	nsubj	_	_
 3	Nacional	_	PROPN	PNOUN	_	2	amod	_	_
 4	de	de	ADP	ADP	_	5	case	_	_
@@ -239,7 +239,7 @@
 26	e	e	CCONJ	CONJ	_	27	cc	_	_
 27	ressaltou	ressaltar	VERB	VERB	_	10	conj	_	_
 28	que	que	CCONJ	CONJ	_	32	mark	_	_
-29	os	o	DET	DET	_	30	det	_	_
+29	os	o	DET	DET	PronType=Art	30	det	_	_
 30	planos	plano	NOUN	NOUN	_	32	nsubj	_	_
 31	suspensos	suspenso	ADJ	ADJ	_	30	amod	_	_
 32	atendem	_	VERB	VERB	_	27	ccomp	_	_
@@ -255,7 +255,7 @@
 
 # sent_id = train-s6163
 # text = Os índices da Abecs ainda mostram que em 2006 a quantidade de cartões em circulação no país era de 388 milhões.
-1	Os	o	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	PronType=Art	2	det	_	_
 2	índices	_	NOUN	NOUN	_	7	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -266,7 +266,7 @@
 8	que	que	CCONJ	CONJ	_	20	mark	_	_
 9	em	em	ADP	ADP	_	10	case	_	_
 10	2006	_	NUM	NUM	NumType=Card	20	nmod	_	_
-11	a	o	DET	DET	_	12	det	_	_
+11	a	o	DET	DET	PronType=Art	12	det	_	_
 12	quantidade	quantidade	NOUN	NOUN	_	20	nsubj	_	_
 13	de	de	ADP	ADP	_	14	case	_	_
 14	cartões	cartão	NOUN	NOUN	_	12	nmod	_	_
@@ -284,7 +284,7 @@
 
 # sent_id = train-s6164
 # text = O atacante tem 24 anos, 1,88 m e já passou pelo Tupi - MG, América - MG, Ferroviária - SP, Ponte Preta, Cruzeiro, Bahia e Goiás.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	atacante	atacante	NOUN	NOUN	_	3	nsubj	_	_
 3	tem	ter	VERB	VERB	_	0	root	_	_
 4	24	_	NUM	NUM	NumType=Card	5	nummod	_	_

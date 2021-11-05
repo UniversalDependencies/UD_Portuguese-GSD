@@ -45,11 +45,11 @@
 
 # sent_id = test-s797
 # text = O costume de comer a chistorra com talo em vez de pão branco começou a arreigar - se durante os últimos anos do franquismo, alegadamente por ser mais fiel à tradição.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	costume	costume	NOUN	NOUN	_	16	nsubj	_	_
 3	de	_	ADP	ADP	_	4	mark	_	_
 4	comer	comer	VERB	VERB	_	2	nmod	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	chistorra	_	NOUN	NOUN	_	4	obj	_	_
 7	com	com	ADP	ADP	_	8	case	_	_
 8	talo	talo	NOUN	NOUN	_	4	nmod	_	_
@@ -64,7 +64,7 @@
 17	-	-	PUNCT	.	_	16	punct	_	_
 18	se	_	PART	PRT	_	16	expl:pv	_	_
 19	durante	_	ADP	ADP	_	22	case	_	_
-20	os	o	DET	DET	_	22	det	_	_
+20	os	o	DET	DET	PronType=Art	22	det	_	_
 21	últimos	último	ADJ	ADJ	_	22	amod	_	_
 22	anos	ano	NOUN	NOUN	_	16	nmod	_	_
 23-24	do	_	_	_	_	_	_	_	_
@@ -86,14 +86,14 @@
 # sent_id = test-s798
 # text = Com o término das festividades, a Comissão de japoneses deveria ser dissolvida, mas revelando - se a união conseguida, resolveu criar - se uma entidade representativa, que mais tarde passou a ser denominada de Sociedade Brasileira de Cultura Japonesa.
 1	Com	_	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	PronType=Art	3	det	_	_
 3	término	término	NOUN	NOUN	_	14	nmod	_	_
 4-5	das	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
 5	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
 6	festividades	festividade	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	3	punct	_	_
-8	a	o	DET	DET	_	9	det	_	_
+8	a	o	DET	DET	PronType=Art	9	det	_	_
 9	Comissão	_	PROPN	PNOUN	_	14	nsubj:pass	_	_
 10	de	de	ADP	ADP	_	11	case	_	_
 11	japoneses	japonês	NOUN	NOUN	_	9	nmod	_	_
@@ -105,7 +105,7 @@
 17	revelando	revelar	VERB	VERB	_	24	acl	_	_
 18	-	-	PUNCT	.	_	17	punct	_	_
 19	se	_	PART	PRT	_	17	expl:pv	_	_
-20	a	o	DET	DET	_	21	det	_	_
+20	a	o	DET	DET	PronType=Art	21	det	_	_
 21	união	união	NOUN	NOUN	_	17	nsubj	_	_
 22	conseguida	conseguido	ADJ	ADJ	_	17	xcomp	_	SpaceAfter=No
 23	,	,	PUNCT	.	_	17	punct	_	_
@@ -135,7 +135,7 @@
 # sent_id = test-s799
 # text = Todas as atenções da liderança política europeia e dos mercados financeiros estarão voltadas para o resultado das eleições gregas.
 1	Todas	_	DET	DET	_	3	det	_	_
-2	as	o	DET	DET	_	3	det	_	_
+2	as	o	DET	DET	PronType=Art	3	det	_	_
 3	atenções	atenção	NOUN	NOUN	_	14	nsubj	_	_
 4-5	da	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
@@ -152,7 +152,7 @@
 14	estarão	estar	VERB	VERB	_	0	root	_	_
 15	voltadas	voltado	ADJ	ADJ	_	14	xcomp	_	_
 16	para	para	ADP	ADP	_	18	case	_	_
-17	o	o	DET	DET	_	18	det	_	_
+17	o	o	DET	DET	PronType=Art	18	det	_	_
 18	resultado	resultado	NOUN	NOUN	_	15	nmod	_	_
 19-20	das	_	_	_	_	_	_	_	_
 19	de	de	ADP	ADP	_	21	case	_	_
@@ -164,14 +164,14 @@
 # sent_id = test-s800
 # text = Durante a competição, é muito importante que os atletas mantenham - se hidratados, pois o esforço físico é grande e há muito perda de líquido.
 1	Durante	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	competição	competição	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
 5	é	ser	VERB	VERB	_	0	root	_	_
 6	muito	muito	ADV	ADV	_	7	advmod	_	_
 7	importante	importante	ADJ	ADJ	_	5	xcomp	_	_
 8	que	que	CCONJ	CONJ	_	11	mark	_	_
-9	os	o	DET	DET	_	10	det	_	_
+9	os	o	DET	DET	PronType=Art	10	det	_	_
 10	atletas	atleta	NOUN	NOUN	_	11	nsubj	_	_
 11	mantenham	manter	VERB	VERB	_	5	csubj	_	_
 12	-	-	PUNCT	.	_	11	punct	_	_
@@ -179,7 +179,7 @@
 14	hidratados	hidratado	ADJ	ADJ	_	11	xcomp	_	SpaceAfter=No
 15	,	,	PUNCT	.	_	20	punct	_	_
 16	pois	_	CCONJ	CONJ	_	20	mark	_	_
-17	o	o	DET	DET	_	18	det	_	_
+17	o	o	DET	DET	PronType=Art	18	det	_	_
 18	esforço	esforço	NOUN	NOUN	_	20	nsubj	_	_
 19	físico	físico	ADJ	ADJ	_	18	amod	_	_
 20	é	ser	VERB	VERB	_	11	advcl	_	_
@@ -194,7 +194,7 @@
 
 # sent_id = test-s801
 # text = A espécie foi nomeada em homenagem ao naturalista e explorador francês Pierre - Médard Diard, no século XIX, as duas espécies de panteras - nebulosas eram designadas como Felis diardii e, coloquialmente, como Gato de Diardi.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	espécie	espécie	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foi	_	AUX	AUX	_	4	aux:pass	_	_
 4	nomeada	nomear	VERB	VERB	_	0	root	_	_
@@ -218,7 +218,7 @@
 20	século	século	NOUN	NOUN	_	4	nmod	_	_
 21	XIX	_	NUM	NUM	NumType=Card	20	appos	_	SpaceAfter=No
 22	,	,	PUNCT	.	_	31	punct	_	_
-23	as	o	DET	DET	_	25	det	_	_
+23	as	o	DET	DET	PronType=Art	25	det	_	_
 24	duas	_	NUM	NUM	NumType=Card	25	nummod	_	_
 25	espécies	espécie	NOUN	NOUN	_	31	nsubj:pass	_	_
 26	de	de	ADP	ADP	_	27	case	_	_
@@ -242,7 +242,7 @@
 
 # sent_id = test-s802
 # text = O especulado era de que o ex - presidente teria ficado desgostoso com a postulação de candidatura do PSB.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	especulado	_	NOUN	NOUN	_	3	nsubj	_	_
 3	era	_	VERB	VERB	_	0	root	_	_
 4	de	_	ADP	ADP	_	11	mark	_	_
@@ -255,7 +255,7 @@
 11	ficado	ficar	VERB	VERB	_	3	nmod	_	_
 12	desgostoso	desgostoso	ADJ	ADJ	_	11	xcomp	_	_
 13	com	com	ADP	ADP	_	15	case	_	_
-14	a	o	DET	DET	_	15	det	_	_
+14	a	o	DET	DET	PronType=Art	15	det	_	_
 15	postulação	postulação	NOUN	NOUN	_	11	nmod	_	_
 16	de	de	ADP	ADP	_	17	case	_	_
 17	candidatura	candidatura	NOUN	NOUN	_	15	nmod	_	_
@@ -268,10 +268,10 @@
 # sent_id = test-s803
 # text = Segundo os pesquisadores, o Nyasasaurus data do período Anisiano, há 243 milhões anos.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	os	o	DET	DET	_	3	det	_	_
+2	os	o	DET	DET	PronType=Art	3	det	_	_
 3	pesquisadores	pesquisador	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
-5	o	o	DET	DET	_	6	det	_	_
+5	o	o	DET	DET	PronType=Art	6	det	_	_
 6	Nyasasaurus	_	PROPN	PNOUN	_	7	nsubj	_	_
 7	data	datar	VERB	VERB	_	0	root	_	_
 8-9	do	_	_	_	_	_	_	_	_
@@ -291,7 +291,7 @@
 1	Assista	assistir	VERB	VERB	_	0	root	_	_
 2	e	e	CCONJ	CONJ	_	3	cc	_	_
 3	escolha	escolher	VERB	VERB	_	1	conj	_	_
-4	o	o	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	PronType=Art	5	det	_	_
 5	gol	gol	NOUN	NOUN	_	1	obj	_	_
 6	mais	mais	ADV	ADV	_	7	advmod	_	_
 7	bonito	bonito	ADJ	ADJ	_	5	amod	_	SpaceAfter=No
@@ -299,7 +299,7 @@
 
 # sent_id = test-s805
 # text = As aulas serão ministradas até outubro, às segundas e sextas - feiras, sempre às 9h, no auditório do Instituto Legislativo Brasileiro (ILB).
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	PronType=Art	2	det	_	_
 2	aulas	aula	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	serão	ser	AUX	AUX	_	4	aux:pass	_	_
 4	ministradas	ministrar	VERB	VERB	_	0	root	_	_

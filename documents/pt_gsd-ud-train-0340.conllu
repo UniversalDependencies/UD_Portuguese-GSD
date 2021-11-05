@@ -1,17 +1,17 @@
 # sent_id = train-s3371
 # text = O esquimó "dá" a mulher dele para dormir com os visitantes e ainda acha que, se o visitante não aceitar, é um destrato com ele.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	esquimó	esquimó	NOUN	NOUN	_	4	nsubj	_	_
 3	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
 4	dá	dar	VERB	VERB	_	0	root	_	SpaceAfter=No
 5	"	"	PUNCT	.	_	16	punct	_	_
-6	a	o	DET	DET	_	7	det	_	_
+6	a	o	DET	DET	PronType=Art	7	det	_	_
 7	mulher	mulher	NOUN	NOUN	_	4	obj	_	_
 8	dele	_	X	ADPPRON	_	7	det:poss	_	_
 9	para	_	ADP	ADP	_	10	mark	_	_
 10	dormir	dormir	VERB	VERB	_	4	nmod	_	_
 11	com	com	ADP	ADP	_	13	case	_	_
-12	os	o	DET	DET	_	13	det	_	_
+12	os	o	DET	DET	PronType=Art	13	det	_	_
 13	visitantes	_	NOUN	NOUN	_	10	nmod	_	_
 14	e	e	CCONJ	CONJ	_	16	cc	_	_
 15	ainda	ainda	ADV	ADV	_	16	advmod	_	_
@@ -19,7 +19,7 @@
 17	que	que	CCONJ	CONJ	_	27	mark	_	SpaceAfter=No
 18	,	,	PUNCT	.	_	23	punct	_	_
 19	se	_	CCONJ	CONJ	_	23	mark	_	_
-20	o	o	DET	DET	_	21	det	_	_
+20	o	o	DET	DET	PronType=Art	21	det	_	_
 21	visitante	_	NOUN	NOUN	_	23	nsubj	_	_
 22	não	não	ADV	ADV	Polarity=Neg	23	advmod	_	_
 23	aceitar	aceitar	VERB	VERB	_	27	csubj	_	SpaceAfter=No
@@ -44,7 +44,7 @@
 8	,	,	PUNCT	.	_	7	punct	_	_
 9	teria	ter	AUX	AUX	_	10	aux	_	_
 10	tido	ter	VERB	VERB	_	0	root	_	_
-11	o	o	DET	DET	_	12	det	_	_
+11	o	o	DET	DET	PronType=Art	12	det	_	_
 12	apoio	apoio	NOUN	NOUN	_	10	obj	_	_
 13	de	de	ADP	ADP	_	14	case	_	_
 14	colegas	colega	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
@@ -53,7 +53,7 @@
 # sent_id = train-s3373
 # text = Com a acção de Tossa de Mar, foram assim lançadas as bases para o desenvolvimento do conceito de cidade antitouradas, que se espalhou por várias outras cidades.
 1	Com	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	acção	acção	NOUN	NOUN	_	11	nmod	_	_
 4	de	de	ADP	ADP	_	5	case	_	_
 5	Tossa	_	PROPN	PNOUN	_	3	nmod	_	_
@@ -63,10 +63,10 @@
 9	foram	_	AUX	AUX	_	11	aux:pass	_	_
 10	assim	assim	ADV	ADV	_	11	advmod	_	_
 11	lançadas	lançar	VERB	VERB	_	0	root	_	_
-12	as	o	DET	DET	_	13	det	_	_
+12	as	o	DET	DET	PronType=Art	13	det	_	_
 13	bases	base	NOUN	NOUN	_	11	nsubj:pass	_	_
 14	para	para	ADP	ADP	_	16	case	_	_
-15	o	o	DET	DET	_	16	det	_	_
+15	o	o	DET	DET	PronType=Art	16	det	_	_
 16	desenvolvimento	desenvolvimento	NOUN	NOUN	_	13	nmod	_	_
 17-18	do	_	_	_	_	_	_	_	_
 17	de	de	ADP	ADP	_	19	case	_	_
@@ -141,7 +141,7 @@
 
 # sent_id = train-s3376
 # text = O programa passou por diversas fases, desde o colunismo social eletrônico, destacando personalidades da sociedade manauara, até fases mais polêmicas, ao promover debates com temas de interesse público, com entrevistas com autoridades locais.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	programa	programa	NOUN	NOUN	_	3	nsubj	_	_
 3	passou	passar	VERB	VERB	_	0	root	_	_
 4	por	por	ADP	ADP	_	6	case	_	_
@@ -149,7 +149,7 @@
 6	fases	fase	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	10	punct	_	_
 8	desde	_	ADP	ADP	_	10	case	_	_
-9	o	o	DET	DET	_	10	det	_	_
+9	o	o	DET	DET	PronType=Art	10	det	_	_
 10	colunismo	colunismo	NOUN	NOUN	_	3	nmod	_	_
 11	social	social	ADJ	ADJ	_	10	amod	_	_
 12	eletrônico	eletrônico	ADJ	ADJ	_	10	amod	_	SpaceAfter=No
@@ -203,7 +203,7 @@
 13	e	e	CCONJ	CONJ	_	14	cc	_	_
 14	queremos	querer	VERB	VERB	_	4	conj	_	_
 15	pedir	pedir	VERB	VERB	_	14	xcomp	_	_
-16	o	o	DET	DET	_	17	det	_	_
+16	o	o	DET	DET	PronType=Art	17	det	_	_
 17	apoio	apoio	NOUN	NOUN	_	15	obj	_	_
 18-19	da	_	_	_	_	_	_	_	_
 18	de	de	ADP	ADP	_	20	case	_	_
@@ -232,7 +232,7 @@
 4	é	ser	VERB	VERB	_	0	root	_	_
 5	necessário	necessário	ADJ	ADJ	_	4	xcomp	_	_
 6	aguardar	aguardar	VERB	VERB	_	4	csubj	_	_
-7	a	o	DET	DET	_	8	det	_	_
+7	a	o	DET	DET	PronType=Art	8	det	_	_
 8	conclusão	conclusão	NOUN	NOUN	_	6	obj	_	_
 9-10	do	_	_	_	_	_	_	_	_
 9	de	de	ADP	ADP	_	11	case	_	_
@@ -241,7 +241,7 @@
 12	feito	_	VERB	VERB	_	11	acl	_	_
 13	para	_	ADP	ADP	_	14	mark	_	_
 14	detectar	detectar	VERB	VERB	_	12	advcl	_	_
-15	a	o	DET	DET	_	16	det	_	_
+15	a	o	DET	DET	PronType=Art	16	det	_	_
 16	presença	presença	NOUN	NOUN	_	14	obj	_	_
 17	de	de	ADP	ADP	_	18	case	_	_
 18	chumbo	chumbo	NOUN	NOUN	_	16	nmod	_	_

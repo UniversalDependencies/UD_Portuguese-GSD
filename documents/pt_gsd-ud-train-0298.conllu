@@ -49,7 +49,7 @@
 12	1994	_	NUM	NUM	NumType=Card	10	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	16	punct	_	_
 14	durante	_	ADP	ADP	_	16	case	_	_
-15	a	o	DET	DET	_	16	det	_	_
+15	a	o	DET	DET	PronType=Art	16	det	_	_
 16	administração	administração	NOUN	NOUN	_	4	nmod	_	_
 17-18	do	_	_	_	_	_	_	_	_
 17	de	de	ADP	ADP	_	19	case	_	_
@@ -62,7 +62,7 @@
 # text = Então, a proposta para uma sociedade que está cheia de eros, é levar o ágape ', afirmou padre Marcelo em entrevista à Agência Efe.
 1	Então	então	ADV	ADV	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	.	_	1	punct	_	_
-3	a	o	DET	DET	_	4	det	_	_
+3	a	o	DET	DET	PronType=Art	4	det	_	_
 4	proposta	_	NOUN	NOUN	_	20	ccomp	_	_
 5	para	para	ADP	ADP	_	7	case	_	_
 6	uma	um	DET	DET	_	7	det	_	_
@@ -75,7 +75,7 @@
 13	,	,	PUNCT	.	_	4	punct	_	_
 14	é	ser	AUX	AUX	_	4	cop	_	_
 15	levar	levar	VERB	VERB	_	4	csubj	_	_
-16	o	o	DET	DET	_	17	det	_	_
+16	o	o	DET	DET	PronType=Art	17	det	_	_
 17	ágape	ágape	NOUN	NOUN	_	15	obj	_	_
 18	'	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
 19	,	,	PUNCT	.	_	20	punct	_	_
@@ -93,7 +93,7 @@
 
 # sent_id = train-s2963
 # text = O orçamento da Prefeitura para 2013 é de R $ 42 bilhões.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	orçamento	orçamento	NOUN	NOUN	_	8	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -111,14 +111,14 @@
 
 # sent_id = train-s2964
 # text = A comuna possui 33 089 habitantes segundo o censo de 1990.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	comuna	comuna	NOUN	NOUN	_	3	nsubj	_	_
 3	possui	possuir	VERB	VERB	_	0	root	_	_
 4	33	_	NUM	NUM	NumType=Card	5	nummod	_	_
 5	089	_	NUM	NUM	NumType=Card	6	nummod	_	_
 6	habitantes	habitante	NOUN	NOUN	_	3	obj	_	_
 7	segundo	_	ADP	ADP	_	9	case	_	_
-8	o	o	DET	DET	_	9	det	_	_
+8	o	o	DET	DET	PronType=Art	9	det	_	_
 9	censo	censo	NOUN	NOUN	_	3	nmod	_	_
 10	de	de	ADP	ADP	_	11	case	_	_
 11	1990	_	NUM	NUM	NumType=Card	9	nmod	_	SpaceAfter=No
@@ -127,7 +127,7 @@
 # sent_id = train-s2965
 # text = Sobre o primeiro tema, os dois prometeram revisão e redução de valores.
 1	Sobre	_	ADP	ADP	_	4	case	_	_
-2	o	o	DET	DET	_	4	det	_	_
+2	o	o	DET	DET	PronType=Art	4	det	_	_
 3	primeiro	primeiro	ADJ	ADJ	_	4	amod	_	_
 4	tema	tema	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	4	punct	_	_
@@ -148,7 +148,7 @@
 3	que	que	CCONJ	CONJ	_	7	mark	_	_
 4	não	não	ADV	ADV	Polarity=Neg	7	advmod	_	_
 5	era	_	AUX	AUX	_	7	cop	_	_
-6	o	o	DET	DET	_	7	det	_	_
+6	o	o	DET	DET	PronType=Art	7	det	_	_
 7	apresentador	apresentador	NOUN	NOUN	_	2	ccomp	_	_
 8	que	_	PRON	PRON	_	10	nsubj	_	_
 9	estava	estar	AUX	AUX	_	10	aux	_	_
@@ -157,7 +157,7 @@
 12	,	,	PUNCT	.	_	13	punct	_	_
 13	sim	sim	ADV	ADV	_	16	advmod	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	13	punct	_	_
-15	o	o	DET	DET	_	16	det	_	_
+15	o	o	DET	DET	PronType=Art	16	det	_	_
 16	pai	pai	NOUN	NOUN	_	7	conj	_	_
 17-18	do	_	_	_	_	_	_	_	_
 17	de	de	ADP	ADP	_	19	case	_	_
@@ -174,10 +174,10 @@
 5	questão	questão	NOUN	NOUN	_	4	obj	_	_
 6	de	_	ADP	ADP	_	7	mark	_	_
 7	mostrar	mostrar	VERB	VERB	_	5	nmod	_	_
-8	a	o	DET	DET	_	9	det	_	_
+8	a	o	DET	DET	PronType=Art	9	det	_	_
 9	cena	cena	NOUN	NOUN	_	7	obj	_	_
 10	foi	_	AUX	AUX	_	13	cop	_	_
-11	a	o	DET	DET	_	13	det	_	_
+11	a	o	DET	DET	PronType=Art	13	det	_	_
 12	própria	próprio	ADJ	ADJ	_	13	amod	_	_
 13	morena	_	NOUN	NOUN	_	0	root	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	17	punct	_	_

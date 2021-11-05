@@ -1,6 +1,6 @@
 # sent_id = train-s9387
 # text = O agente, no entanto, atuou em diversas investigações de risco.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	agente	agente	NOUN	NOUN	_	8	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	6	punct	_	_
 4-5	no	_	_	_	_	_	_	_	_
@@ -19,7 +19,7 @@
 # sent_id = train-s9388
 # text = Todas as escolas de zen são versadas em filosofia e doutrina budistas, incluindo as Quatro Nobres Verdades, o Nobre Caminho Óctuplo e as Paramitas.
 1	Todas	_	DET	DET	_	3	det	_	_
-2	as	o	DET	DET	_	3	det	_	_
+2	as	o	DET	DET	PronType=Art	3	det	_	_
 3	escolas	escola	NOUN	NOUN	_	6	nsubj	_	_
 4	de	de	ADP	ADP	_	5	case	_	_
 5	zen	_	NOUN	NOUN	_	3	nmod	_	_
@@ -32,17 +32,17 @@
 12	budistas	budista	ADJ	ADJ	_	9	amod	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	14	punct	_	_
 14	incluindo	incluir	VERB	VERB	_	9	acl	_	_
-15	as	o	DET	DET	_	18	det	_	_
+15	as	o	DET	DET	PronType=Art	18	det	_	_
 16	Quatro	_	PROPN	PNOUN	_	18	nummod	_	_
 17	Nobres	_	PROPN	PNOUN	_	18	amod	_	_
 18	Verdades	_	PROPN	PNOUN	_	14	obj	_	SpaceAfter=No
 19	,	,	PUNCT	.	_	22	punct	_	_
-20	o	o	DET	DET	_	22	det	_	_
+20	o	o	DET	DET	PronType=Art	22	det	_	_
 21	Nobre	_	PROPN	PNOUN	_	22	amod	_	_
 22	Caminho	_	PROPN	PNOUN	_	18	conj	_	_
 23	Óctuplo	_	PROPN	PNOUN	_	22	amod	_	_
 24	e	e	CCONJ	CONJ	_	26	cc	_	_
-25	as	o	DET	DET	_	26	det	_	_
+25	as	o	DET	DET	PronType=Art	26	det	_	_
 26	Paramitas	_	PROPN	PNOUN	_	18	conj	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	6	punct	_	_
 
@@ -60,7 +60,7 @@
 9	Frank	_	PROPN	PNOUN	_	6	conj	_	_
 10	Edgar	_	PROPN	PNOUN	_	9	flat	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	1	punct	_	_
-12	o	o	DET	DET	_	13	det	_	_
+12	o	o	DET	DET	PronType=Art	13	det	_	_
 13	pôster	pôster	NOUN	NOUN	_	18	nsubj	_	_
 14-15	do	_	_	_	_	_	_	_	_
 14	de	de	ADP	ADP	_	16	case	_	_
@@ -94,7 +94,7 @@
 9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	entanto	entanto	ADV	ADV	_	14	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	10	punct	_	_
-12	os	o	DET	DET	_	13	det	_	_
+12	os	o	DET	DET	PronType=Art	13	det	_	_
 13	índices	_	NOUN	NOUN	_	14	nsubj	_	_
 14	são	ser	VERB	VERB	_	0	root	_	_
 15	em	_	ADV	ADV	_	16	advmod	_	_
@@ -116,10 +116,10 @@
 29	Rússia	_	PROPN	PNOUN	_	26	nmod	_	_
 30	acreditam	acreditar	VERB	VERB	_	14	parataxis	_	_
 31	que	que	CCONJ	CONJ	_	34	mark	_	_
-32	a	o	DET	DET	_	33	det	_	_
+32	a	o	DET	DET	PronType=Art	33	det	_	_
 33	corrupção	corrupção	NOUN	NOUN	_	34	nsubj	_	_
 34	limita	limitar	VERB	VERB	_	30	ccomp	_	_
-35	o	o	DET	DET	_	36	det	_	_
+35	o	o	DET	DET	PronType=Art	36	det	_	_
 36	acesso	acesso	NOUN	NOUN	_	34	obj	_	_
 37-38	à	_	_	_	_	_	_	_	_
 37	a	a	ADP	ADP	_	39	case	_	_
@@ -134,7 +134,7 @@
 3	prenderam	prender	VERB	VERB	_	0	root	_	_
 4	em	_	ADP	ADP	_	3	nmod	_	_
 5	flagrante	_	DET	DET	_	4	det	_	_
-6	o	o	DET	DET	_	7	det	_	_
+6	o	o	DET	DET	PronType=Art	7	det	_	_
 7	jovem	jovem	NOUN	NOUN	_	3	obj	_	_
 8	Wiliam	_	PROPN	PNOUN	_	7	appos	_	_
 9	de	de	ADP	ADP	_	10	case	_	_
@@ -182,15 +182,15 @@
 16	em	em	ADP	ADP	_	17	case	_	_
 17	Londres	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	.	_	2	punct	_	_
-19	o	o	DET	DET	_	20	det	_	_
+19	o	o	DET	DET	PronType=Art	20	det	_	_
 20	vôlei	vôlei	NOUN	NOUN	_	21	nsubj	_	_
 21	vê	ver	VERB	VERB	_	0	root	_	_
 22	cair	cair	VERB	VERB	_	21	ccomp	_	_
 23	sobre	_	ADP	ADP	_	26	case	_	_
-24	os	o	DET	DET	_	26	det	_	_
+24	os	o	DET	DET	PronType=Art	26	det	_	_
 25	seus	_	DET	DET	_	26	det:poss	_	_
 26	ombros	ombro	NOUN	NOUN	_	22	nmod	_	_
-27	a	o	DET	DET	_	28	det	_	_
+27	a	o	DET	DET	PronType=Art	28	det	_	_
 28	responsabilidade	responsabilidade	NOUN	NOUN	_	22	nsubj	_	_
 29	de	_	ADP	ADP	_	30	mark	_	_
 30	conquistar	conquistar	VERB	VERB	_	28	nmod	_	_
@@ -200,7 +200,7 @@
 34	,	,	PUNCT	.	_	38	punct	_	_
 35	sobretudo	sobretudo	ADV	ADV	_	38	advmod	_	_
 36	após	_	ADP	ADP	_	38	case	_	_
-37	o	o	DET	DET	_	38	det	_	_
+37	o	o	DET	DET	PronType=Art	38	det	_	_
 38	fracasso	fracasso	NOUN	NOUN	_	21	nmod	_	_
 39-40	doutros	_	_	_	_	_	_	_	_
 39	de	de	ADP	ADP	_	41	case	_	_
@@ -215,12 +215,12 @@
 
 # sent_id = train-s9394
 # text = O relatório de inteligência sobre a Operação Porto Seguro da Polícia Federal aponta que a ex - chefe de gabinete da Presidência em São Paulo, Rosemary Nóvoa de Noronha, disse aos irmãos Rubens e Paulo Vieira que trataria com o ex - presidente Luiz Inácio Lula da Silva sobre suas nomeações para cargos em agências reguladoras.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	relatório	relatório	NOUN	NOUN	_	14	nsubj	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	inteligência	inteligência	NOUN	NOUN	_	2	nmod	_	_
 5	sobre	_	ADP	ADP	_	7	case	_	_
-6	a	o	DET	DET	_	7	det	_	_
+6	a	o	DET	DET	PronType=Art	7	det	_	_
 7	Operação	_	PROPN	PNOUN	_	2	nmod	_	_
 8	Porto	_	PROPN	PNOUN	_	7	flat	_	_
 9	Seguro	_	PROPN	PNOUN	_	7	amod	_	_
@@ -285,7 +285,7 @@
 
 # sent_id = train-s9395
 # text = O problema teve início às 4h e foi solucionado às 7h15.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	problema	problema	NOUN	NOUN	_	3	nsubj	_	_
 3	teve	ter	VERB	VERB	_	0	root	_	_
 4	início	início	NOUN	NOUN	_	3	obj	_	_
@@ -309,7 +309,7 @@
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Brasil	_	PROPN	PNOUN	_	19	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
-5	a	o	DET	DET	_	7	det	_	_
+5	a	o	DET	DET	PronType=Art	7	det	_	_
 6	maior	maior	ADJ	ADJ	_	7	amod	_	_
 7	parte	parte	NOUN	NOUN	_	19	nsubj	_	_
 8	do	_	X	ADPPRON	_	7	nmod	_	_
@@ -317,7 +317,7 @@
 10	se	_	PART	PRT	_	11	expl:pv	_	_
 11	conhece	conhecer	VERB	VERB	_	8	acl:relcl	_	_
 12	sobre	_	ADP	ADP	_	14	case	_	_
-13	a	o	DET	DET	_	14	det	_	_
+13	a	o	DET	DET	PronType=Art	14	det	_	_
 14	História	_	PROPN	PNOUN	_	11	nmod	_	_
 15	Antiga	_	PROPN	PNOUN	_	14	amod	_	_
 16-17	da	_	_	_	_	_	_	_	_
@@ -342,7 +342,7 @@
 32	em	em	ADP	ADP	_	33	case	_	_
 33	1950	_	NUM	NUM	NumType=Card	34	nmod	_	_
 34	publicou	publicar	VERB	VERB	_	26	acl:relcl	_	_
-35	a	o	DET	DET	_	37	det	_	_
+35	a	o	DET	DET	PronType=Art	37	det	_	_
 36	sua	_	DET	DET	_	37	det:poss	_	_
 37	Storia	_	PROPN	PNOUN	_	34	obj	_	_
 38	della	_	ADP	ADP	_	39	case	_	_

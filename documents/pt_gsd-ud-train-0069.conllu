@@ -1,10 +1,10 @@
 # sent_id = train-s681
 # text = "O PCCS é a reivindicação principal e ele já está pronto há muito tempo.
 1	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
-2	O	o	DET	DET	_	3	det	_	_
+2	O	o	DET	DET	PronType=Art	3	det	_	_
 3	PCCS	_	PROPN	PNOUN	_	6	nsubj	_	_
 4	é	ser	AUX	AUX	_	6	cop	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	reivindicação	reivindicação	NOUN	NOUN	_	0	root	_	_
 7	principal	principal	ADJ	ADJ	_	6	amod	_	_
 8	e	e	CCONJ	CONJ	_	11	cc	_	_
@@ -23,7 +23,7 @@
 2	comunicado	comunicado	NOUN	NOUN	_	7	nmod	_	_
 3	recente	recente	ADJ	ADJ	_	2	amod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	2	punct	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	companhia	companhia	NOUN	NOUN	_	7	nsubj	_	_
 7	alegou	alegar	VERB	VERB	_	0	root	_	_
 8	que	que	CCONJ	CONJ	_	10	mark	_	_
@@ -41,11 +41,11 @@
 18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	situação	situação	NOUN	NOUN	_	16	nmod	_	_
 20	e	e	CCONJ	CONJ	_	26	cc	_	_
-21	os	o	DET	DET	_	23	det	_	_
+21	os	o	DET	DET	PronType=Art	23	det	_	_
 22	principais	principal	ADJ	ADJ	_	23	amod	_	_
 23	motivos	motivo	NOUN	NOUN	_	26	nsubj	_	_
 24	são	ser	AUX	AUX	_	26	cop	_	_
-25	o	o	DET	DET	_	26	det	_	_
+25	o	o	DET	DET	PronType=Art	26	det	_	_
 26	declínio	declínio	NOUN	NOUN	_	10	conj	_	_
 27-28	do	_	_	_	_	_	_	_	_
 27	de	de	ADP	ADP	_	29	case	_	_
@@ -61,7 +61,7 @@
 37	capacidade	capacidade	NOUN	NOUN	_	35	nmod	_	_
 38	em	em	ADP	ADP	_	41	case	_	_
 39	toda	_	DET	DET	_	41	det	_	_
-40	a	o	DET	DET	_	41	det	_	_
+40	a	o	DET	DET	PronType=Art	41	det	_	_
 41	indústria	indústria	NOUN	NOUN	_	35	nmod	_	_
 42	automotiva	automotivo	ADJ	ADJ	_	41	amod	_	_
 43-44	do	_	_	_	_	_	_	_	_
@@ -75,7 +75,7 @@
 1	De	_	ADP	ADP	_	2	case	_	_
 2	acordo	acordo	NOUN	NOUN	_	9	nmod	_	_
 3	com	com	ADP	ADP	_	6	case	_	_
-4	o	o	DET	DET	_	6	det	_	_
+4	o	o	DET	DET	PronType=Art	6	det	_	_
 5	United	_	PROPN	PNOUN	_	6	amod	_	_
 6	States	_	PROPN	PNOUN	_	2	nmod	_	_
 7	Census	_	PROPN	PNOUN	_	6	flat	_	_
@@ -109,10 +109,10 @@
 
 # sent_id = train-s684
 # text = As confirmações para a etapa de Salvador podem ser feitas até o dia 12 de setembro ou até que seja atingido o limite técnico de atletas (500 para Água e Terra, e 1.500 para a Sol).
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	PronType=Art	2	det	_	_
 2	confirmações	confirmação	NOUN	NOUN	_	10	nsubj:pass	_	_
 3	para	para	ADP	ADP	_	5	case	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	etapa	etapa	NOUN	NOUN	_	2	nmod	_	_
 6	de	de	ADP	ADP	_	7	case	_	_
 7	Salvador	_	PROPN	PNOUN	_	5	nmod	_	_
@@ -120,7 +120,7 @@
 9	ser	ser	AUX	AUX	_	10	aux:pass	_	_
 10	feitas	_	VERB	VERB	_	0	root	_	_
 11	até	_	ADP	ADP	_	13	case	_	_
-12	o	o	DET	DET	_	13	det	_	_
+12	o	o	DET	DET	PronType=Art	13	det	_	_
 13	dia	dia	NOUN	NOUN	_	10	nmod	_	_
 14	12	_	NUM	NUM	NumType=Card	13	nmod	_	_
 15	de	de	ADP	ADP	_	16	case	_	_
@@ -130,7 +130,7 @@
 19	que	_	CCONJ	CONJ	_	18	fixed	_	_
 20	seja	ser	AUX	AUX	_	21	aux:pass	_	_
 21	atingido	atingir	VERB	VERB	_	13	conj	_	_
-22	o	o	DET	DET	_	23	det	_	_
+22	o	o	DET	DET	PronType=Art	23	det	_	_
 23	limite	limite	NOUN	NOUN	_	21	nsubj:pass	_	_
 24	técnico	técnico	ADJ	ADJ	_	23	amod	_	_
 25	de	de	ADP	ADP	_	26	case	_	_
@@ -145,7 +145,7 @@
 34	e	e	CCONJ	CONJ	_	35	cc	_	_
 35	1.500	_	NUM	NUM	NumType=Card	28	conj	_	_
 36	para	para	ADP	ADP	_	38	case	_	_
-37	a	o	DET	DET	_	38	det	_	_
+37	a	o	DET	DET	PronType=Art	38	det	_	_
 38	Sol	_	PROPN	PNOUN	_	35	nmod	_	SpaceAfter=No
 39	)	)	PUNCT	.	_	28	punct	_	SpaceAfter=No
 40	.	.	PUNCT	.	_	10	punct	_	_
@@ -161,7 +161,7 @@
 7	a	_	ADP	ADP	_	8	case	_	_
 8	0	_	NUM	NUM	NumType=Card	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	4	punct	_	_
-10	o	o	DET	DET	_	11	det	_	_
+10	o	o	DET	DET	PronType=Art	11	det	_	_
 11	Flamengo	_	PROPN	PNOUN	_	12	nsubj	_	_
 12	sofreu	sofrer	VERB	VERB	_	0	root	_	_
 13	derrota	derrota	NOUN	NOUN	_	12	obj	_	_
@@ -174,7 +174,7 @@
 # sent_id = train-s686
 # text = Durante a década de 1960, Nixon tinha ficado impressionado com um artigo que tinha lido do professor Martin Anderson da Universidade Columbia.
 1	Durante	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	década	década	NOUN	NOUN	_	9	nmod	_	_
 4	de	de	ADP	ADP	_	5	case	_	_
 5	1960	_	NUM	NUM	NumType=Card	3	nmod	_	SpaceAfter=No
@@ -224,7 +224,7 @@
 
 # sent_id = train-s688
 # text = O Instituto Brasileiro de Geografia e Estatística (IBGE), informou que não divulgará o resultado da taxa média de desemprego, conforme estava programado no cronograma da instituição para hoje.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	Instituto	_	PROPN	PNOUN	_	12	nsubj	_	_
 3	Brasileiro	_	PROPN	PNOUN	_	2	amod	_	_
 4	de	de	ADP	ADP	_	5	case	_	_
@@ -239,7 +239,7 @@
 13	que	que	CCONJ	CONJ	_	15	mark	_	_
 14	não	não	ADV	ADV	Polarity=Neg	15	advmod	_	_
 15	divulgará	divulgar	VERB	VERB	_	12	ccomp	_	_
-16	o	o	DET	DET	_	17	det	_	_
+16	o	o	DET	DET	PronType=Art	17	det	_	_
 17	resultado	resultado	NOUN	NOUN	_	15	obj	_	_
 18-19	da	_	_	_	_	_	_	_	_
 18	de	de	ADP	ADP	_	20	case	_	_
@@ -266,7 +266,7 @@
 
 # sent_id = train-s689
 # text = O pico Pedra Azul é um afloramento de gnaisse com 1822m, localizado dentro do Parque Estadual da Pedra Azul, no distrito de Aracê, em Domingos Martins, no estado do Espírito Santo.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	pico	pico	NOUN	NOUN	_	7	nsubj	_	_
 3	Pedra	_	PROPN	PNOUN	_	2	appos	_	_
 4	Azul	_	PROPN	PNOUN	_	3	amod	_	_

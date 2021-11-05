@@ -30,7 +30,7 @@
 
 # sent_id = train-s4406
 # text = A reunião acolherá uma centena de representantes estatais e de organizações internacionais, mas não contará com a presença da China nem da Rússia, países que sinalizaram que não queriam participar.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	reunião	reunião	NOUN	NOUN	_	7	nsubj	_	_
 3	acolherá	_	VERB	VERB	_	7	case	_	_
 4	uma	_	NUM	NUM	NumType=Card	5	nummod	_	_
@@ -47,7 +47,7 @@
 15	não	não	ADV	ADV	Polarity=Neg	16	advmod	_	_
 16	contará	contar	VERB	VERB	_	7	conj	_	_
 17	com	com	ADP	ADP	_	19	case	_	_
-18	a	o	DET	DET	_	19	det	_	_
+18	a	o	DET	DET	PronType=Art	19	det	_	_
 19	presença	presença	NOUN	NOUN	_	16	nmod	_	_
 20-21	da	_	_	_	_	_	_	_	_
 20	de	de	ADP	ADP	_	22	case	_	_
@@ -70,12 +70,12 @@
 
 # sent_id = train-s4407
 # text = O resultado fez com que o técnico Hélio dos Anjos fosse o terceiro técnico demitido do clube esse ano.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	resultado	resultado	NOUN	NOUN	_	3	nsubj	_	_
 3	fez	fazer	VERB	VERB	_	0	root	_	_
 4	com	_	ADP	ADP	_	15	mark	_	_
 5	que	que	CCONJ	CONJ	_	15	mark	_	_
-6	o	o	DET	DET	_	7	det	_	_
+6	o	o	DET	DET	PronType=Art	7	det	_	_
 7	técnico	técnico	NOUN	NOUN	_	15	nsubj	_	_
 8	Hélio	_	PROPN	PNOUN	_	7	appos	_	_
 9-10	dos	_	_	_	_	_	_	_	_
@@ -83,7 +83,7 @@
 10	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
 11	Anjos	_	PROPN	PNOUN	_	8	nmod	_	_
 12	fosse	_	AUX	AUX	_	15	cop	_	_
-13	o	o	DET	DET	_	15	det	_	_
+13	o	o	DET	DET	PronType=Art	15	det	_	_
 14	terceiro	_	ADJ	ADJ	_	15	amod	_	_
 15	técnico	técnico	NOUN	NOUN	_	3	nmod	_	_
 16	demitido	demitir	VERB	VERB	_	15	acl	_	_
@@ -102,7 +102,7 @@
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Brasil	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
-5	o	o	DET	DET	_	6	det	_	_
+5	o	o	DET	DET	PronType=Art	6	det	_	_
 6	medidor	medidor	NOUN	NOUN	_	7	nsubj	_	_
 7	marcou	marcar	VERB	VERB	_	0	root	_	_
 8	ontem	ontem	ADV	ADV	_	7	advmod	_	_
@@ -118,11 +118,11 @@
 
 # sent_id = train-s4409
 # text = A polícia acredita que os veículos foram utilizados nos ataques aos caixas eletrônicos.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	polícia	polícia	NOUN	NOUN	_	3	nsubj	_	_
 3	acredita	acreditar	VERB	VERB	_	0	root	_	_
 4	que	que	CCONJ	CONJ	_	8	mark	_	_
-5	os	o	DET	DET	_	6	det	_	_
+5	os	o	DET	DET	PronType=Art	6	det	_	_
 6	veículos	veículo	NOUN	NOUN	_	8	nsubj:pass	_	_
 7	foram	_	AUX	AUX	_	8	aux:pass	_	_
 8	utilizados	utilizar	VERB	VERB	_	3	ccomp	_	_
@@ -148,7 +148,7 @@
 6	de	de	ADP	ADP	_	7	case	_	_
 7	agosto	_	PROPN	PNOUN	_	5	nmod	_	_
 8	para	para	ADP	ADP	_	10	case	_	_
-9	os	o	DET	DET	_	10	det	_	_
+9	os	o	DET	DET	PronType=Art	10	det	_	_
 10	quadros	quadro	NOUN	NOUN	_	15	nmod	_	_
 11-12	à	_	_	_	_	_	_	_	_
 11	a	a	ADP	ADP	_	13	case	_	_
@@ -170,7 +170,7 @@
 
 # sent_id = train-s4411
 # text = O autor foi identificado, mas, por ser menor de idade, não teve a identidade revelada.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	autor	autor	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foi	_	AUX	AUX	_	4	aux:pass	_	_
 4	identificado	identificar	VERB	VERB	_	0	root	_	SpaceAfter=No
@@ -185,7 +185,7 @@
 13	,	,	PUNCT	.	_	9	punct	_	_
 14	não	não	ADV	ADV	Polarity=Neg	15	advmod	_	_
 15	teve	ter	VERB	VERB	_	4	conj	_	_
-16	a	o	DET	DET	_	17	det	_	_
+16	a	o	DET	DET	PronType=Art	17	det	_	_
 17	identidade	identidade	NOUN	NOUN	_	18	nsubj	_	_
 18	revelada	revelado	ADJ	ADJ	_	15	xcomp	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	4	punct	_	_
@@ -202,7 +202,7 @@
 8	dos	_	X	ADPPRON	_	5	det:poss	_	_
 9	que	_	PRON	PRON	_	10	nsubj	_	_
 10	têm	ter	VERB	VERB	_	8	acl:relcl	_	_
-11	a	o	DET	DET	_	12	det	_	_
+11	a	o	DET	DET	PronType=Art	12	det	_	_
 12	doença	doença	NOUN	NOUN	_	10	obj	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	5	punct	_	_
 14	ela	_	PRON	PRON	_	15	nsubj	_	_
@@ -260,10 +260,10 @@
 24	e	e	CCONJ	CONJ	_	25	cc	_	_
 25	explica	explicar	VERB	VERB	_	13	conj	_	_
 26	que	que	CCONJ	CONJ	_	29	mark	_	_
-27	o	o	DET	DET	_	28	det	_	_
+27	o	o	DET	DET	PronType=Art	28	det	_	_
 28	protesto	protesto	NOUN	NOUN	_	29	nsubj	_	_
 29	busca	buscar	VERB	VERB	_	25	ccomp	_	_
-30	o	o	DET	DET	_	31	det	_	_
+30	o	o	DET	DET	PronType=Art	31	det	_	_
 31	direito	direito	NOUN	NOUN	_	29	obj	_	_
 32	de	de	ADP	ADP	_	33	case	_	_
 33	escolha	escolha	NOUN	NOUN	_	31	nmod	_	_
@@ -274,7 +274,7 @@
 37	de	de	ADP	ADP	_	38	case	_	_
 38	parto	parto	NOUN	NOUN	_	36	nmod	_	_
 39	que	_	PRON	PRON	_	42	obj	_	_
-40	as	o	DET	DET	_	41	det	_	_
+40	as	o	DET	DET	PronType=Art	41	det	_	_
 41	mulheres	mulher	NOUN	NOUN	_	42	nsubj	_	_
 42	preferem	preferir	VERB	VERB	_	36	acl:relcl	_	SpaceAfter=No
 43	.	.	PUNCT	.	_	13	punct	_	_
@@ -299,7 +299,7 @@
 15	Interlagos	_	PROPN	PNOUN	_	8	nmod	_	_
 16	e	e	CCONJ	CONJ	_	17	cc	_	_
 17	garantiu	garantir	VERB	VERB	_	2	conj	_	_
-18	a	o	DET	DET	_	19	det	_	_
+18	a	o	DET	DET	PronType=Art	19	det	_	_
 19	pole	_	NOUN	NOUN	_	17	obj	_	_
 20	com	com	ADP	ADP	_	21	case	_	_
 21	0s055	_	NUM	NUM	NumType=Card	17	nmod	_	_

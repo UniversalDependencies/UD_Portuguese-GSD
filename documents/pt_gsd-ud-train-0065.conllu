@@ -23,12 +23,12 @@
 20	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
 21	,	,	PUNCT	.	_	22	punct	_	_
 22	comentou	comentar	VERB	VERB	_	0	root	_	_
-23	o	o	DET	DET	_	24	det	_	_
+23	o	o	DET	DET	PronType=Art	24	det	_	_
 24	dirigente	dirigente	NOUN	NOUN	_	22	nsubj	_	SpaceAfter=No
 25	,	,	PUNCT	.	_	27	punct	_	_
 26	que	_	PRON	PRON	_	27	nsubj	_	_
 27	divulgará	divulgar	VERB	VERB	_	24	acl:relcl	_	_
-28	a	o	DET	DET	_	29	det	_	_
+28	a	o	DET	DET	PronType=Art	29	det	_	_
 29	lista	lista	NOUN	NOUN	_	27	obj	_	_
 30	nessa	_	ADP	ADP	_	33	case	_	_
 31	quinta	_	PROPN	PNOUN	_	33	amod	_	_
@@ -38,7 +38,7 @@
 
 # sent_id = train-s642
 # text = O atacante, porém, tratou de assegurar presença em Porto Alegre.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	atacante	atacante	NOUN	NOUN	_	6	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	4	punct	_	_
 4	porém	_	ADV	ADV	_	6	advmod	_	SpaceAfter=No
@@ -86,7 +86,7 @@
 2	certamente	certamente	ADV	ADV	_	3	advmod	_	_
 3	verão	ver	VERB	VERB	_	0	root	_	_
 4	nela	_	X	ADPPRON	_	3	nmod	_	_
-5	o	o	DET	DET	_	6	det	_	_
+5	o	o	DET	DET	PronType=Art	6	det	_	_
 6	início	início	NOUN	NOUN	_	3	obj	_	_
 7-8	do	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
@@ -105,7 +105,7 @@
 19	criação	criação	NOUN	NOUN	_	17	nmod	_	_
 20	despencou	despencar	VERB	VERB	_	12	acl:relcl	_	_
 21	desde	_	ADP	ADP	_	23	case	_	_
-22	o	o	DET	DET	_	23	det	_	_
+22	o	o	DET	DET	PronType=Art	23	det	_	_
 23	início	início	NOUN	NOUN	_	20	nmod	_	_
 24-25	do	_	_	_	_	_	_	_	_
 24	de	de	ADP	ADP	_	26	case	_	_
@@ -143,7 +143,7 @@
 3	de	de	ADP	ADP	_	4	case	_	_
 4	surpresa	surpresa	NOUN	NOUN	_	2	nmod	_	_
 5	com	com	ADP	ADP	_	7	case	_	_
-6	a	o	DET	DET	_	7	det	_	_
+6	a	o	DET	DET	PronType=Art	7	det	_	_
 7	prisão	prisão	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
 8	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -160,7 +160,7 @@
 8	sessão	sessão	NOUN	NOUN	_	3	nmod	_	_
 9	ordinária	ordinário	ADJ	ADJ	_	8	amod	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	3	punct	_	_
-11	o	o	DET	DET	_	12	det	_	_
+11	o	o	DET	DET	PronType=Art	12	det	_	_
 12	plenário	plenário	NOUN	NOUN	_	13	nsubj	_	_
 13	decidiu	decidir	VERB	VERB	_	0	root	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	16	punct	_	_
@@ -169,7 +169,7 @@
 17	,	,	PUNCT	.	_	16	punct	_	_
 18	aposentar	aposentar	VERB	VERB	_	13	xcomp	_	_
 19	compulsoriamente	compulsoriamente	ADV	ADV	_	18	advmod	_	_
-20	a	o	DET	DET	_	21	det	_	_
+20	a	o	DET	DET	PronType=Art	21	det	_	_
 21	desembargadora	desembargador	NOUN	NOUN	_	18	obj	_	_
 22	Willamara	_	PROPN	PNOUN	_	21	appos	_	_
 23	Leila	_	PROPN	PNOUN	_	22	flat	_	_
@@ -206,11 +206,11 @@
 
 # sent_id = train-s648
 # text = O presidente disse que as atitudes de Israel -- que também foi acusado de criar um sistema de apartheid contra os palestinos -- passam ilesas e impunes diante da comunidade internacional.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	presidente	presidente	NOUN	NOUN	_	3	nsubj	_	_
 3	disse	dizer	VERB	VERB	_	0	root	_	_
 4	que	que	CCONJ	CONJ	_	24	mark	_	_
-5	as	o	DET	DET	_	6	det	_	_
+5	as	o	DET	DET	PronType=Art	6	det	_	_
 6	atitudes	atitude	NOUN	NOUN	_	24	nsubj	_	_
 7	de	de	ADP	ADP	_	8	case	_	_
 8	Israel	_	PROPN	PNOUN	_	6	nmod	_	_
@@ -226,7 +226,7 @@
 18	de	de	ADP	ADP	_	19	case	_	_
 19	apartheid	apartheid	NOUN	NOUN	_	17	nmod	_	_
 20	contra	_	ADP	ADP	_	22	case	_	_
-21	os	o	DET	DET	_	22	det	_	_
+21	os	o	DET	DET	PronType=Art	22	det	_	_
 22	palestinos	palestino	NOUN	NOUN	_	17	nmod	_	_
 23	--	_	PUNCT	.	_	13	punct	_	_
 24	passam	passar	VERB	VERB	_	3	ccomp	_	_
@@ -251,7 +251,7 @@
 # sent_id = train-s650
 # text = Caso o plano não tenha sucesso ou não haja interessados, o Cruzeiro do Sul deverá ser liquidado pelo BC.
 1	Caso	_	CCONJ	CONJ	_	5	mark	_	_
-2	o	o	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	PronType=Art	3	det	_	_
 3	plano	plano	NOUN	NOUN	_	5	nsubj	_	_
 4	não	não	ADV	ADV	Polarity=Neg	5	advmod	_	_
 5	tenha	ter	VERB	VERB	_	19	advcl	_	_
@@ -261,7 +261,7 @@
 9	haja	haver	VERB	VERB	_	5	conj	_	_
 10	interessados	interessado	NOUN	NOUN	_	9	obj	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	5	punct	_	_
-12	o	o	DET	DET	_	13	det	_	_
+12	o	o	DET	DET	PronType=Art	13	det	_	_
 13	Cruzeiro	_	PROPN	PNOUN	_	19	nsubj:pass	_	_
 14-15	do	_	_	_	_	_	_	_	_
 14	de	de	ADP	ADP	_	16	case	_	_

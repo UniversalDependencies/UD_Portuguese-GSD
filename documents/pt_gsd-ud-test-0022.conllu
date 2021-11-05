@@ -1,7 +1,7 @@
 # sent_id = test-s210
 # text = Salvador A participação da presidente Dilma Rousseff em campanhas de candidatos do PT em capitais onde há disputa com partidos da base aliada do governo federal provocou "mal - estar e estranheza em todo o PMDB nacional", segundo o presidente do partido na Bahia, deputado federal Lúcio Vieira Lima.
 1	Salvador	_	PROPN	PNOUN	_	31	parataxis	_	_
-2	A	o	DET	DET	_	3	det	_	_
+2	A	o	DET	DET	PronType=Art	3	det	_	_
 3	participação	participação	NOUN	NOUN	_	31	nsubj	_	_
 4-5	da	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
@@ -43,13 +43,13 @@
 37	estranheza	estranheza	NOUN	NOUN	_	35	conj	_	_
 38	em	em	ADP	ADP	_	41	case	_	_
 39	todo	_	DET	DET	_	41	det	_	_
-40	o	o	DET	DET	_	41	det	_	_
+40	o	o	DET	DET	PronType=Art	41	det	_	_
 41	PMDB	_	PROPN	PNOUN	_	35	nmod	_	_
 42	nacional	nacional	ADJ	ADJ	_	41	amod	_	SpaceAfter=No
 43	"	"	PUNCT	.	_	35	punct	_	SpaceAfter=No
 44	,	,	PUNCT	.	_	47	punct	_	_
 45	segundo	_	ADP	ADP	_	47	case	_	_
-46	o	o	DET	DET	_	47	det	_	_
+46	o	o	DET	DET	PronType=Art	47	det	_	_
 47	presidente	presidente	NOUN	NOUN	_	31	nmod	_	_
 48-49	do	_	_	_	_	_	_	_	_
 48	de	de	ADP	ADP	_	50	case	_	_
@@ -160,7 +160,7 @@
 1	Em	em	ADP	ADP	_	2	case	_	_
 2	2005	_	NUM	NUM	NumType=Card	9	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	diretoria	diretoria	NOUN	NOUN	_	9	nsubj	_	_
 6-7	da	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	8	case	_	_
@@ -179,7 +179,7 @@
 17	em	em	ADP	ADP	_	19	case	_	_
 18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	qual	_	PRON	PRON	_	24	nmod	_	_
-20	o	o	DET	DET	_	21	det	_	_
+20	o	o	DET	DET	PronType=Art	21	det	_	_
 21	país	país	NOUN	NOUN	_	24	nsubj:pass	_	_
 22	africano	africano	ADJ	ADJ	_	21	amod	_	_
 23	foi	_	AUX	AUX	_	24	aux:pass	_	_
@@ -227,7 +227,7 @@
 6	feira	_	PROPN	PNOUN	_	2	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	2	punct	_	_
 8	começam	_	VERB	VERB	_	0	root	_	_
-9	as	o	DET	DET	_	10	det	_	_
+9	as	o	DET	DET	PronType=Art	10	det	_	_
 10	oficinas	oficina	NOUN	NOUN	_	8	nsubj	_	_
 11	de	de	ADP	ADP	_	12	case	_	_
 12	Planejamento	_	PROPN	PNOUN	_	10	nmod	_	_
@@ -264,7 +264,7 @@
 40	e	e	CCONJ	CONJ	_	41	cc	_	_
 41	Alinhamento	_	PROPN	PNOUN	_	12	conj	_	_
 42	com	com	ADP	ADP	_	44	case	_	_
-43	o	o	DET	DET	_	44	det	_	_
+43	o	o	DET	DET	PronType=Art	44	det	_	_
 44	planejamento	planejamento	NOUN	NOUN	_	41	nmod	_	_
 45	estratégico	estratégico	ADJ	ADJ	_	44	amod	_	_
 46-47	do	_	_	_	_	_	_	_	_
@@ -280,7 +280,7 @@
 2	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	7h30	_	NUM	NUM	NumType=Card	8	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	via	via	NOUN	NOUN	_	8	nsubj	_	_
 7	ainda	ainda	ADV	ADV	_	8	advmod	_	_
 8	tinha	ter	VERB	VERB	_	0	root	_	_
@@ -306,7 +306,7 @@
 # sent_id = test-s217
 # text = É o caso dos plásticos, vidros, latas, papel, etc.
 1	É	ser	AUX	AUX	_	3	cop	_	_
-2	o	o	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	PronType=Art	3	det	_	_
 3	caso	caso	NOUN	NOUN	_	0	root	_	_
 4-5	dos	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
@@ -349,10 +349,10 @@
 
 # sent_id = test-s219
 # text = A notícia atribui a desistência ao custo da ferrovia.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	notícia	notícia	NOUN	NOUN	_	3	nsubj	_	_
 3	atribui	atribuir	VERB	VERB	_	0	root	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	desistência	desistência	NOUN	NOUN	_	3	obj	_	_
 6-7	ao	_	_	_	_	_	_	_	_
 6	a	a	ADP	ADP	_	8	case	_	_

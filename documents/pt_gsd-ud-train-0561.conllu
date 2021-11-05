@@ -2,7 +2,7 @@
 # text = PREFERENCIAL -- O cruzamento trabalha agora com uma sinaleira de dois tempos.
 1	PREFERENCIAL	_	NOUN	NOUN	_	5	parataxis	_	_
 2	--	_	PUNCT	.	_	5	punct	_	_
-3	O	o	DET	DET	_	4	det	_	_
+3	O	o	DET	DET	PronType=Art	4	det	_	_
 4	cruzamento	cruzamento	NOUN	NOUN	_	5	nsubj	_	_
 5	trabalha	trabalhar	VERB	VERB	_	0	root	_	_
 6	agora	agora	ADV	ADV	_	5	advmod	_	_
@@ -23,7 +23,7 @@
 4	seis	_	NUM	NUM	NumType=Card	5	nummod	_	_
 5	anos	ano	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	5	punct	_	_
-7	a	o	DET	DET	_	8	det	_	_
+7	a	o	DET	DET	PronType=Art	8	det	_	_
 8	CEB	_	PROPN	PNOUN	_	11	nsubj:pass	_	_
 9	já	já	ADV	ADV	_	11	advmod	_	_
 10	foi	_	AUX	AUX	_	11	aux:pass	_	_
@@ -79,7 +79,7 @@
 5	,	,	PUNCT	.	_	4	punct	_	_
 6	Nastran	_	PROPN	PNOUN	_	7	nsubj	_	_
 7	confirmou	confirmar	VERB	VERB	_	0	root	_	_
-8	a	o	DET	DET	_	9	det	_	_
+8	a	o	DET	DET	PronType=Art	9	det	_	_
 9	vitória	vitória	NOUN	NOUN	_	7	obj	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	13	punct	_	_
 11-12	na	_	_	_	_	_	_	_	_
@@ -130,7 +130,7 @@
 1	Nesta	_	ADP	ADP	_	2	case	_	_
 2	semana	semana	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
-4	os	o	DET	DET	_	6	det	_	_
+4	os	o	DET	DET	PronType=Art	6	det	_	_
 5	principais	principal	ADJ	ADJ	_	6	amod	_	_
 6	grupos	grupo	NOUN	NOUN	_	10	nsubj	_	_
 7-8	da	_	_	_	_	_	_	_	_
@@ -153,7 +153,7 @@
 21	não	não	ADV	ADV	Polarity=Neg	23	advmod	_	_
 22	tenham	ter	AUX	AUX	_	23	aux	_	_
 23	abordado	abordar	VERB	VERB	_	31	advcl	_	_
-24	a	o	DET	DET	_	25	det	_	_
+24	a	o	DET	DET	PronType=Art	25	det	_	_
 25	forma	forma	NOUN	NOUN	_	23	obj	_	_
 26	de	_	ADP	ADP	_	27	mark	_	_
 27	derrubar	derrubar	VERB	VERB	_	25	nmod	_	_
@@ -161,13 +161,13 @@
 29	Executivo	_	PROPN	PNOUN	_	27	obj	_	SpaceAfter=No
 30	,	,	PUNCT	.	_	23	punct	_	_
 31	detalharam	detalhar	VERB	VERB	_	12	acl:relcl	_	_
-32	os	o	DET	DET	_	33	det	_	_
+32	os	o	DET	DET	PronType=Art	33	det	_	_
 33	passos	passo	NOUN	NOUN	_	31	obj	_	_
 34	que	_	PRON	PRON	_	35	obj	_	_
 35	darão	dar	VERB	VERB	_	33	acl:relcl	_	_
 36	para	_	ADP	ADP	_	37	mark	_	_
 37	preencher	preencher	VERB	VERB	_	35	advcl	_	_
-38	o	o	DET	DET	_	39	det	_	_
+38	o	o	DET	DET	PronType=Art	39	det	_	_
 39	vazio	vazio	NOUN	NOUN	_	37	obj	_	_
 40	que	_	PRON	PRON	_	41	obj	_	_
 41	deixará	deixar	VERB	VERB	_	39	acl:relcl	_	_
@@ -178,7 +178,7 @@
 
 # sent_id = train-s5575
 # text = O município de Holambra, a 148 quilômetros da capital paulista, concentra 40 % da produção nacional de flores e plantas ornamentais e sedia anualmente a Expoflora -- feira que começa amanhã e mostra as tendências do setor de flores e plantas ornamentais no país.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	município	município	NOUN	NOUN	_	14	nsubj	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	Holambra	_	PROPN	PNOUN	_	2	nmod	_	SpaceAfter=No
@@ -208,7 +208,7 @@
 26	e	e	CCONJ	CONJ	_	27	cc	_	_
 27	sedia	sediar	VERB	VERB	_	14	conj	_	_
 28	anualmente	anualmente	ADV	ADV	_	27	advmod	_	_
-29	a	o	DET	DET	_	30	det	_	_
+29	a	o	DET	DET	PronType=Art	30	det	_	_
 30	Expoflora	_	PROPN	PNOUN	_	27	obj	_	_
 31	--	_	PUNCT	.	_	32	punct	_	_
 32	feira	feira	NOUN	NOUN	_	30	appos	_	_
@@ -217,7 +217,7 @@
 35	amanhã	amanhã	ADV	ADV	_	34	advmod	_	_
 36	e	e	CCONJ	CONJ	_	37	cc	_	_
 37	mostra	mostrar	VERB	VERB	_	34	conj	_	_
-38	as	o	DET	DET	_	39	det	_	_
+38	as	o	DET	DET	PronType=Art	39	det	_	_
 39	tendências	tendência	NOUN	NOUN	_	37	obj	_	_
 40-41	do	_	_	_	_	_	_	_	_
 40	de	de	ADP	ADP	_	42	case	_	_
@@ -239,7 +239,7 @@
 1	Em	em	ADP	ADP	_	2	case	_	_
 2	2008	_	NUM	NUM	NumType=Card	3	nmod	_	_
 3	fundou	fundar	VERB	VERB	_	0	root	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	produtora	produtor	NOUN	NOUN	_	3	obj	_	_
 6	e	e	CCONJ	CONJ	_	7	cc	_	_
 7	selo	selo	NOUN	NOUN	_	5	conj	_	_

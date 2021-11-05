@@ -26,7 +26,7 @@
 3	preso	preso	ADJ	ADJ	_	2	xcomp	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	7	punct	_	_
 5	com	com	ADP	ADP	_	7	case	_	_
-6	a	o	DET	DET	_	7	det	_	_
+6	a	o	DET	DET	PronType=Art	7	det	_	_
 7	mujlher	_	NOUN	NOUN	_	2	nmod	_	_
 8	e	e	CCONJ	CONJ	_	10	cc	_	_
 9	um	_	NUM	NUM	NumType=Card	10	nummod	_	_
@@ -45,7 +45,7 @@
 
 # sent_id = train-s7625
 # text = A coleção de itens poderia ser avaliada em até R $ 1 milhão, segundo o NME.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	coleção	coleção	NOUN	NOUN	_	7	nsubj:pass	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	itens	item	NOUN	NOUN	_	2	nmod	_	_
@@ -60,7 +60,7 @@
 13	milhão	_	NUM	NUM	NumType=Card	10	nummod	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	17	punct	_	_
 15	segundo	_	ADP	ADP	_	17	case	_	_
-16	o	o	DET	DET	_	17	det	_	_
+16	o	o	DET	DET	PronType=Art	17	det	_	_
 17	NME	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	7	punct	_	_
 
@@ -79,7 +79,7 @@
 9	não	não	ADV	ADV	Polarity=Neg	11	advmod	_	_
 10	foram	_	AUX	AUX	_	11	aux:pass	_	_
 11	encontrados	encontrar	VERB	VERB	_	0	root	_	_
-12	os	o	DET	DET	_	13	det	_	_
+12	os	o	DET	DET	PronType=Art	13	det	_	_
 13	indícios	indício	NOUN	NOUN	_	11	nsubj:pass	_	_
 14	apontados	apontar	VERB	VERB	_	13	acl	_	_
 15-16	pela	_	_	_	_	_	_	_	_
@@ -90,7 +90,7 @@
 
 # sent_id = train-s7627
 # text = O Mato Grosso do Sul é o estado com o maior percentual de municípios que cumpriram as metas de qualidade para o período: 97,4 % -- apenas duas prefeituras ficaram com Ideb abaixo da meta.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	Mato	_	PROPN	PNOUN	_	9	nsubj	_	_
 3	Grosso	_	PROPN	PNOUN	_	2	amod	_	_
 4-5	do	_	_	_	_	_	_	_	_
@@ -98,22 +98,22 @@
 5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Sul	_	PROPN	PNOUN	_	2	nmod	_	_
 7	é	ser	AUX	AUX	_	9	cop	_	_
-8	o	o	DET	DET	_	9	det	_	_
+8	o	o	DET	DET	PronType=Art	9	det	_	_
 9	estado	estado	NOUN	NOUN	_	0	root	_	_
 10	com	com	ADP	ADP	_	13	case	_	_
-11	o	o	DET	DET	_	13	det	_	_
+11	o	o	DET	DET	PronType=Art	13	det	_	_
 12	maior	maior	ADJ	ADJ	_	13	amod	_	_
 13	percentual	_	NOUN	NOUN	_	9	nmod	_	_
 14	de	de	ADP	ADP	_	15	case	_	_
 15	municípios	município	NOUN	NOUN	_	13	nmod	_	_
 16	que	_	PRON	PRON	_	17	nsubj	_	_
 17	cumpriram	cumprir	VERB	VERB	_	15	acl:relcl	_	_
-18	as	o	DET	DET	_	19	det	_	_
+18	as	o	DET	DET	PronType=Art	19	det	_	_
 19	metas	meta	NOUN	NOUN	_	17	obj	_	_
 20	de	de	ADP	ADP	_	21	case	_	_
 21	qualidade	qualidade	NOUN	NOUN	_	19	nmod	_	_
 22	para	para	ADP	ADP	_	24	case	_	_
-23	o	o	DET	DET	_	24	det	_	_
+23	o	o	DET	DET	PronType=Art	24	det	_	_
 24	período	período	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
 25	:	:	PUNCT	.	_	13	punct	_	_
 26	97,4	_	NUM	NUM	NumType=Card	27	nummod	_	_
@@ -181,7 +181,7 @@
 2	-	-	PUNCT	.	_	1	punct	_	_
 3	se	_	PART	PRT	_	1	expl:pv	_	_
 4	também	também	ADV	ADV	_	1	advmod	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	ocorrência	ocorrência	NOUN	NOUN	_	1	nsubj	_	_
 7-8	no	_	_	_	_	_	_	_	_
 7	em	em	ADP	ADP	_	9	case	_	_
@@ -193,11 +193,11 @@
 # text = 2012 foi o ano definitivo para os jogos desenvolvidos em pequenos estúdios.
 1	2012	_	NUM	NUM	NumType=Card	4	nsubj	_	_
 2	foi	_	AUX	AUX	_	4	cop	_	_
-3	o	o	DET	DET	_	4	det	_	_
+3	o	o	DET	DET	PronType=Art	4	det	_	_
 4	ano	ano	NOUN	NOUN	_	0	root	_	_
 5	definitivo	definitivo	ADJ	ADJ	_	4	amod	_	_
 6	para	para	ADP	ADP	_	8	case	_	_
-7	os	o	DET	DET	_	8	det	_	_
+7	os	o	DET	DET	PronType=Art	8	det	_	_
 8	jogos	jogo	NOUN	NOUN	_	4	nmod	_	_
 9	desenvolvidos	desenvolver	VERB	VERB	_	8	acl	_	_
 10	em	em	ADP	ADP	_	12	case	_	_
@@ -207,7 +207,7 @@
 
 # sent_id = train-s7632
 # text = Os funcionários doutros setores não conseguirão dar conta ", previu Sebastião Cruz, integrante do comando de negociação da Fentect, em entrevista à Agência Brasil.
-1	Os	o	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	PronType=Art	2	det	_	_
 2	funcionários	funcionário	NOUN	NOUN	_	7	nsubj	_	_
 3-4	doutros	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_

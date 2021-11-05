@@ -1,6 +1,6 @@
 # sent_id = train-s3202
 # text = A ação, que teve início na última quarta - feira (1), vai agilizar o andamento das duas varas da capital que estão sobrecarregadas.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	ação	ação	NOUN	NOUN	_	18	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	5	punct	_	_
 4	que	_	PRON	PRON	_	5	nsubj	_	_
@@ -19,7 +19,7 @@
 16	,	,	PUNCT	.	_	5	punct	_	_
 17	vai	ir	AUX	AUX	_	18	aux	_	_
 18	agilizar	agilizar	VERB	VERB	_	0	root	_	_
-19	o	o	DET	DET	_	20	det	_	_
+19	o	o	DET	DET	PronType=Art	20	det	_	_
 20	andamento	andamento	NOUN	NOUN	_	18	obj	_	_
 21-22	das	_	_	_	_	_	_	_	_
 21	de	de	ADP	ADP	_	24	case	_	_
@@ -38,7 +38,7 @@
 # sent_id = train-s3203
 # text = "O Corinthians está excelente em campo", opina.
 1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
-2	O	o	DET	DET	_	3	det	_	_
+2	O	o	DET	DET	PronType=Art	3	det	_	_
 3	Corinthians	_	PROPN	PNOUN	_	4	nsubj	_	_
 4	está	estar	VERB	VERB	_	10	ccomp	_	_
 5	excelente	excelente	ADJ	ADJ	_	4	xcomp	_	_
@@ -60,7 +60,7 @@
 7	AFP	_	PROPN	PNOUN	_	1	appos	_	SpaceAfter=No
 8	)	)	PUNCT	.	_	7	punct	_	_
 9	-	-	PUNCT	.	_	18	punct	_	_
-10	Os	o	DET	DET	_	11	det	_	_
+10	Os	o	DET	DET	PronType=Art	11	det	_	_
 11	atacantes	atacante	NOUN	NOUN	_	18	nsubj	_	_
 12	espanhóis	espanhol	ADJ	ADJ	_	11	amod	_	_
 13	Fernando	_	PROPN	PNOUN	_	11	appos	_	_
@@ -101,7 +101,7 @@
 44	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
 45	Eurocopa	_	PROPN	PNOUN	_	42	nmod	_	_
 46	com	com	ADP	ADP	_	49	case	_	_
-47	a	o	DET	DET	_	49	det	_	_
+47	a	o	DET	DET	PronType=Art	49	det	_	_
 48	''	_	PUNCT	.	_	49	punct	_	_
 49	Fúria	_	PROPN	PNOUN	_	45	nmod	_	_
 50	''	_	PUNCT	.	_	49	punct	_	SpaceAfter=No
@@ -119,7 +119,7 @@
 60	a	a	ADP	ADP	_	62	case	_	_
 61	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
 62	levantar	levantar	VERB	VERB	_	29	advcl	_	_
-63	o	o	DET	DET	_	64	det	_	_
+63	o	o	DET	DET	PronType=Art	64	det	_	_
 64	troféu	troféu	NOUN	NOUN	_	62	obj	_	_
 65-66	da	_	_	_	_	_	_	_	_
 65	de	de	ADP	ADP	_	67	case	_	_
@@ -130,7 +130,7 @@
 69	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	70	det	_	_
 70	Campeões	_	PROPN	PNOUN	_	67	nmod	_	_
 71	com	com	ADP	ADP	_	73	case	_	_
-72	o	o	DET	DET	_	73	det	_	_
+72	o	o	DET	DET	PronType=Art	73	det	_	_
 73	Chelsea	_	PROPN	PNOUN	_	62	nmod	_	SpaceAfter=No
 74	.	.	PUNCT	.	_	18	punct	_	_
 
@@ -138,7 +138,7 @@
 # text = Só que a parcela "invertida" da torcida pensa doutra forma.
 1	Só	só	ADV	ADV	_	11	mark	_	_
 2	que	_	CCONJ	CONJ	_	1	fixed	_	_
-3	a	o	DET	DET	_	4	det	_	_
+3	a	o	DET	DET	PronType=Art	4	det	_	_
 4	parcela	parcela	NOUN	NOUN	_	11	nsubj	_	_
 5	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
 6	invertida	invertido	ADJ	ADJ	_	4	amod	_	SpaceAfter=No
@@ -169,7 +169,7 @@
 
 # sent_id = train-s3207
 # text = O programa fala de como é distribuição das oficinas dentro do Caje e eles queriam dizer que acham preconceituosa a forma como a mídia se refere a eles."
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	programa	programa	NOUN	NOUN	_	3	nsubj	_	_
 3	fala	_	VERB	VERB	_	0	root	_	_
 4	de	_	ADP	ADP	_	6	mark	_	_
@@ -192,10 +192,10 @@
 19	que	que	CCONJ	CONJ	_	20	mark	_	_
 20	acham	achar	VERB	VERB	_	18	ccomp	_	_
 21	preconceituosa	preconceituoso	ADJ	ADJ	_	20	xcomp	_	_
-22	a	o	DET	DET	_	23	det	_	_
+22	a	o	DET	DET	PronType=Art	23	det	_	_
 23	forma	forma	NOUN	NOUN	_	21	nsubj	_	_
 24	como	como	ADV	ADV	_	28	advmod	_	_
-25	a	o	DET	DET	_	26	det	_	_
+25	a	o	DET	DET	PronType=Art	26	det	_	_
 26	mídia	mídia	NOUN	NOUN	_	28	nsubj	_	_
 27	se	_	PRON	PRON	_	28	expl:pv	_	_
 28	refere	referir	VERB	VERB	_	23	acl:relcl	_	_
@@ -279,7 +279,7 @@
 13	que	_	PRON	PRON	_	15	nmod	_	_
 14	se	_	PRON	PRON	_	15	expl:pv	_	_
 15	comemora	comemorar	VERB	VERB	_	11	acl:relcl	_	_
-16	o	o	DET	DET	_	17	det	_	_
+16	o	o	DET	DET	PronType=Art	17	det	_	_
 17	aniversário	aniversário	NOUN	NOUN	_	15	nsubj	_	_
 18	de	de	ADP	ADP	_	20	case	_	_
 19	113	_	NUM	NUM	NumType=Card	20	nummod	_	_
@@ -299,12 +299,12 @@
 1	De	_	ADP	ADP	_	2	case	_	_
 2	acordo	acordo	NOUN	NOUN	_	15	nmod	_	_
 3	com	com	ADP	ADP	_	5	case	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	Polícia	_	PROPN	PNOUN	_	2	nmod	_	_
 6	Rodoviária	_	PROPN	PNOUN	_	5	amod	_	_
 7	Federal	_	PROPN	PNOUN	_	5	amod	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	2	punct	_	_
-9	a	o	DET	DET	_	10	det	_	_
+9	a	o	DET	DET	PronType=Art	10	det	_	_
 10	pista	pista	NOUN	NOUN	_	15	nsubj	_	_
 11-12	da	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	13	case	_	_

@@ -74,7 +74,7 @@
 18	ele	_	PRON	PRON	_	17	nsubj	_	_
 19	que	_	PRON	PRON	_	20	nsubj	_	_
 20	toca	tocar	VERB	VERB	_	18	acl:relcl	_	_
-21	a	o	DET	DET	_	22	det	_	_
+21	a	o	DET	DET	PronType=Art	22	det	_	_
 22	prefeitura	prefeitura	NOUN	NOUN	_	20	obj	_	SpaceAfter=No
 23	,	,	PUNCT	.	_	24	punct	_	_
 24	ano	ano	NOUN	NOUN	_	20	nmod	_	_
@@ -85,7 +85,7 @@
 
 # sent_id = train-s8785
 # text = A venda da meia - entrada para estudantes será feita somente no sábado, na bilheteria do parque.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	venda	venda	NOUN	NOUN	_	11	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	7	case	_	_
@@ -123,7 +123,7 @@
 5	segurança	segurança	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	3	punct	_	_
 7	estão	estar	VERB	VERB	_	0	root	_	_
-8	os	o	DET	DET	_	10	det	_	_
+8	os	o	DET	DET	PronType=Art	10	det	_	_
 9	tradicionais	tradicional	ADJ	ADJ	_	10	amod	_	_
 10	airbag	airbag	NOUN	NOUN	_	7	nsubj	_	_
 11	duplo	duplo	ADJ	ADJ	_	10	amod	_	_
@@ -133,11 +133,11 @@
 
 # sent_id = train-s8787
 # text = A previsão é que a desoneração para esses segmentos seja efetivada assim que a aprovação da MP 563 for concluída no Senado e a lei for sancionada.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	previsão	previsão	NOUN	NOUN	_	0	root	_	_
 3	é	ser	AUX	AUX	_	2	cop	_	_
 4	que	que	CCONJ	CONJ	_	11	mark	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	desoneração	desoneração	NOUN	NOUN	_	11	nsubj:pass	_	_
 7	para	para	ADP	ADP	_	9	case	_	_
 8	esses	_	DET	DET	_	9	det	_	_
@@ -146,7 +146,7 @@
 11	efetivada	efetivar	VERB	VERB	_	2	csubj	_	_
 12	assim	assim	ADV	ADV	_	21	mark	_	_
 13	que	_	CCONJ	CONJ	_	12	fixed	_	_
-14	a	o	DET	DET	_	15	det	_	_
+14	a	o	DET	DET	PronType=Art	15	det	_	_
 15	aprovação	aprovação	NOUN	NOUN	_	21	nsubj:pass	_	_
 16-17	da	_	_	_	_	_	_	_	_
 16	de	de	ADP	ADP	_	18	case	_	_
@@ -168,10 +168,10 @@
 
 # sent_id = train-s8788
 # text = Os bolões para a Mega - Sena têm preço mínimo de R $ 10 e cada cota deve ser de, pelo menos, R $ 4, sendo possível realizar um bolão de, no mínimo, duas e no máximo 100 cotas.
-1	Os	o	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	PronType=Art	2	det	_	_
 2	bolões	_	NOUN	NOUN	_	8	nsubj	_	_
 3	para	para	ADP	ADP	_	7	case	_	_
-4	a	o	DET	DET	_	7	det	_	_
+4	a	o	DET	DET	PronType=Art	7	det	_	_
 5	Mega	_	PROPN	PNOUN	_	7	amod	_	_
 6	-	-	PUNCT	.	_	7	punct	_	_
 7	Sena	_	PROPN	PNOUN	_	2	nmod	_	_
@@ -251,7 +251,7 @@
 
 # sent_id = train-s8790
 # text = O Tribunal Regional Eleitoral julga, neste momento, o processo do pedido de candidatura do prefeitável Mozaniel Rodrigues, que tenta disputar a Prefeitura de Guamaré.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	Tribunal	_	PROPN	PNOUN	_	5	nsubj	_	_
 3	Regional	_	PROPN	PNOUN	_	2	amod	_	_
 4	Eleitoral	_	PROPN	PNOUN	_	2	amod	_	_
@@ -260,7 +260,7 @@
 7	neste	_	ADP	ADP	_	8	case	_	_
 8	momento	momento	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	8	punct	_	_
-10	o	o	DET	DET	_	11	det	_	_
+10	o	o	DET	DET	PronType=Art	11	det	_	_
 11	processo	processo	NOUN	NOUN	_	5	obj	_	_
 12-13	do	_	_	_	_	_	_	_	_
 12	de	de	ADP	ADP	_	14	case	_	_
@@ -278,7 +278,7 @@
 23	que	_	PRON	PRON	_	24	nsubj	_	_
 24	tenta	tentar	VERB	VERB	_	19	acl:relcl	_	_
 25	disputar	disputar	VERB	VERB	_	24	xcomp	_	_
-26	a	o	DET	DET	_	27	det	_	_
+26	a	o	DET	DET	PronType=Art	27	det	_	_
 27	Prefeitura	_	PROPN	PNOUN	_	25	obj	_	_
 28	de	de	ADP	ADP	_	29	case	_	_
 29	Guamaré	_	PROPN	PNOUN	_	27	nmod	_	SpaceAfter=No
@@ -312,7 +312,7 @@
 22	passado	passado	ADJ	ADJ	_	21	amod	_	_
 23	também	também	ADV	ADV	_	24	advmod	_	_
 24	cobra	cobrar	VERB	VERB	_	0	root	_	_
-25	a	o	DET	DET	_	26	det	_	_
+25	a	o	DET	DET	PronType=Art	26	det	_	_
 26	execução	execução	NOUN	NOUN	_	24	obj	_	_
 27-28	do	_	_	_	_	_	_	_	_
 27	de	de	ADP	ADP	_	29	case	_	_
@@ -326,7 +326,7 @@
 
 # sent_id = train-s8792
 # text = O cantor Tatau, vocalista do grupo Araketu, também foi ao estádio e, estusiasmado, fez questão de tuitar foto antes de sair.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	cantor	cantor	NOUN	NOUN	_	12	nsubj	_	_
 3	Tatau	_	PROPN	PNOUN	_	2	appos	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	5	punct	_	_

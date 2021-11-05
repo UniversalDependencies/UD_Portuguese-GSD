@@ -15,7 +15,7 @@
 12	ainda	ainda	ADV	ADV	_	13	advmod	_	_
 13	jovem	jovem	ADJ	ADJ	_	9	nmod	_	_
 14	para	para	ADP	ADP	_	16	case	_	_
-15	o	o	DET	DET	_	16	det	_	_
+15	o	o	DET	DET	PronType=Art	16	det	_	_
 16	Recife	_	PROPN	PNOUN	_	9	nmod	_	_
 17	e	e	CCONJ	CONJ	_	23	cc	_	SpaceAfter=No
 18	,	,	PUNCT	.	_	20	punct	_	_
@@ -25,7 +25,7 @@
 22	foi	_	AUX	AUX	_	23	aux	_	_
 23	morar	morar	VERB	VERB	_	2	conj	_	_
 24	com	com	ADP	ADP	_	26	case	_	_
-25	os	o	DET	DET	_	26	det	_	_
+25	os	o	DET	DET	PronType=Art	26	det	_	_
 26	avós	avô	NOUN	NOUN	_	23	nmod	_	_
 27	em	em	ADP	ADP	_	28	case	_	_
 28	Fortaleza	_	PROPN	PNOUN	_	23	nmod	_	SpaceAfter=No
@@ -39,7 +39,7 @@
 35	movimento	movimento	NOUN	NOUN	_	32	nmod	_	_
 36	estudantil	estudantil	ADJ	ADJ	_	35	amod	_	_
 37	com	com	ADP	ADP	_	39	case	_	_
-38	a	o	DET	DET	_	39	det	_	_
+38	a	o	DET	DET	PronType=Art	39	det	_	_
 39	idade	idade	NOUN	NOUN	_	32	nmod	_	_
 40	de	de	ADP	ADP	_	42	case	_	_
 41	quinze	_	NUM	NUM	NumType=Card	42	nummod	_	_
@@ -57,7 +57,7 @@
 
 # sent_id = train-s5800
 # text = A Casa é uma herança da Fliporto para a comunidade local, que poderá desfrutar duma biblioteca infantil, além de espaços de convivência, cujo objetivo é estimular a prática da leitura entre o público infanto - juvenil.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	Casa	casa	NOUN	NOUN	_	5	nsubj	_	_
 3	é	ser	AUX	AUX	_	5	cop	_	_
 4	uma	um	DET	DET	_	5	det	_	_
@@ -67,7 +67,7 @@
 7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Fliporto	_	PROPN	PNOUN	_	5	nmod	_	_
 9	para	para	ADP	ADP	_	11	case	_	_
-10	a	o	DET	DET	_	11	det	_	_
+10	a	o	DET	DET	PronType=Art	11	det	_	_
 11	comunidade	comunidade	NOUN	NOUN	_	5	nmod	_	_
 12	local	local	ADJ	ADJ	_	11	amod	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	16	punct	_	_
@@ -90,14 +90,14 @@
 29	objetivo	objetivo	NOUN	NOUN	_	19	acl:relcl	_	_
 30	é	ser	AUX	AUX	_	29	cop	_	_
 31	estimular	estimular	VERB	VERB	_	29	csubj	_	_
-32	a	o	DET	DET	_	33	det	_	_
+32	a	o	DET	DET	PronType=Art	33	det	_	_
 33	prática	_	NOUN	NOUN	_	31	obj	_	_
 34-35	da	_	_	_	_	_	_	_	_
 34	de	de	ADP	ADP	_	36	case	_	_
 35	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 36	leitura	leitura	NOUN	NOUN	_	33	nmod	_	_
 37	entre	_	ADP	ADP	_	39	case	_	_
-38	o	o	DET	DET	_	39	det	_	_
+38	o	o	DET	DET	PronType=Art	39	det	_	_
 39	público	público	NOUN	NOUN	_	31	nmod	_	_
 40	infanto	_	PART	PRT	_	42	amod	_	_
 41	-	-	PUNCT	.	_	42	punct	_	_
@@ -108,7 +108,7 @@
 # text = Carlos deixa a chave de seu apart com Antonia.
 1	Carlos	_	PROPN	PNOUN	_	2	nsubj	_	_
 2	deixa	deixar	VERB	VERB	_	0	root	_	_
-3	a	o	DET	DET	_	4	det	_	_
+3	a	o	DET	DET	PronType=Art	4	det	_	_
 4	chave	chave	NOUN	NOUN	_	2	obj	_	_
 5	de	de	ADP	ADP	_	7	case	_	_
 6	seu	_	DET	DET	_	7	det:poss	_	_
@@ -134,7 +134,7 @@
 4	em	em	ADP	ADP	_	5	case	_	_
 5	anos	ano	NOUN	NOUN	_	10	nmod	_	_
 6	anteriores	anterior	ADJ	ADJ	_	5	amod	_	_
-7	a	o	DET	DET	_	8	det	_	_
+7	a	o	DET	DET	PronType=Art	8	det	_	_
 8	missa	missa	NOUN	NOUN	_	10	nsubj:pass	_	_
 9	era	_	AUX	AUX	_	10	aux:pass	_	_
 10	realizada	realizar	VERB	VERB	_	2	ccomp	_	_
@@ -161,7 +161,7 @@
 
 # sent_id = train-s5804
 # text = A gente precisa dum goleiro mais experiente.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	gente	gente	NOUN	NOUN	_	3	nsubj	_	_
 3	precisa	precisar	VERB	VERB	_	0	root	_	_
 4-5	dum	_	_	_	_	_	_	_	_
@@ -218,7 +218,7 @@
 13	,	,	PUNCT	.	_	15	punct	_	_
 14	e	e	CCONJ	CONJ	_	15	cc	_	_
 15	deixou	deixar	VERB	VERB	_	2	conj	_	_
-16	o	o	DET	DET	_	17	det	_	_
+16	o	o	DET	DET	PronType=Art	17	det	_	_
 17	time	time	NOUN	NOUN	_	15	obj	_	_
 18	italiano	italiano	ADJ	ADJ	_	17	amod	_	_
 19	com	com	ADP	ADP	_	21	case	_	_
@@ -232,7 +232,7 @@
 
 # sent_id = train-s5807
 # text = O assalto aconteceu às 9h (horário local), segundo a Secretaria de Segurança e Defesa da Cidadania (Sesdec) de Rondônia.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	assalto	assalto	NOUN	NOUN	_	3	nsubj	_	_
 3	aconteceu	acontecer	VERB	VERB	_	0	root	_	_
 4-5	às	_	_	_	_	_	_	_	_
@@ -245,7 +245,7 @@
 10	)	)	PUNCT	.	_	8	punct	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	14	punct	_	_
 12	segundo	_	ADP	ADP	_	14	case	_	_
-13	a	o	DET	DET	_	14	det	_	_
+13	a	o	DET	DET	PronType=Art	14	det	_	_
 14	Secretaria	_	PROPN	PNOUN	_	3	nmod	_	_
 15	de	de	ADP	ADP	_	16	case	_	_
 16	Segurança	_	PROPN	PNOUN	_	14	nmod	_	_

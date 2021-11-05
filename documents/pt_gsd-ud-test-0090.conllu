@@ -7,7 +7,7 @@
 5	depois	depois	ADV	ADV	_	7	mark	_	_
 6	de	_	ADP	ADP	_	5	fixed	_	_
 7	começar	começar	VERB	VERB	_	1	advcl	_	_
-8	a	o	DET	DET	_	9	det	_	_
+8	a	o	DET	DET	PronType=Art	9	det	_	_
 9	carreira	_	NOUN	NOUN	_	7	obj	_	_
 10-11	na	_	_	_	_	_	_	_	_
 10	em	em	ADP	ADP	_	12	case	_	_
@@ -42,7 +42,7 @@
 # sent_id = test-s887
 # text = "A poesia perdeu uma fonte.
 1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
-2	A	o	DET	DET	_	3	det	_	_
+2	A	o	DET	DET	PronType=Art	3	det	_	_
 3	poesia	poesia	NOUN	NOUN	_	4	nsubj	_	_
 4	perdeu	perder	VERB	VERB	_	0	root	_	_
 5	uma	um	DET	DET	_	6	det	_	_
@@ -51,7 +51,7 @@
 
 # sent_id = test-s888
 # text = O CTS conta com doze linhas que cobrem diariamente a cidade entre as sete da manhã e oito da noite.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	CTS	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	conta	contar	VERB	VERB	_	0	root	_	_
 4	com	com	ADP	ADP	_	6	case	_	_
@@ -60,7 +60,7 @@
 7	que	_	PRON	PRON	_	8	nsubj	_	_
 8	cobrem	_	VERB	VERB	_	6	acl:relcl	_	_
 9	diariamente	diariamente	ADV	ADV	_	8	advmod	_	_
-10	a	o	DET	DET	_	11	det	_	_
+10	a	o	DET	DET	PronType=Art	11	det	_	_
 11	cidade	cidade	NOUN	NOUN	_	8	obj	_	_
 12	entre	_	ADP	ADP	_	14	case	_	_
 13	as	o	DET	DET	_	14	det	_	_
@@ -110,10 +110,10 @@
 # sent_id = test-s890
 # text = Segundo o senador com a complementação da BR - 235, na região Nordeste, passando pelo município de Jeremoabo na Bahia, torna - se necessário a remoção da Unidade.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	PronType=Art	3	det	_	_
 3	senador	senador	NOUN	NOUN	_	28	nmod	_	_
 4	com	com	ADP	ADP	_	6	case	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	complementação	complementação	NOUN	NOUN	_	28	nmod	_	_
 7-8	da	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
@@ -144,7 +144,7 @@
 29	-	-	PUNCT	.	_	28	punct	_	_
 30	se	_	PRON	PRON	_	28	expl:pv	_	_
 31	necessário	necessário	ADJ	ADJ	_	28	xcomp	_	_
-32	a	o	DET	DET	_	33	det	_	_
+32	a	o	DET	DET	PronType=Art	33	det	_	_
 33	remoção	remoção	NOUN	NOUN	_	28	nsubj	_	_
 34-35	da	_	_	_	_	_	_	_	_
 34	de	de	ADP	ADP	_	36	case	_	_
@@ -154,11 +154,11 @@
 
 # sent_id = test-s891
 # text = A empresa também possui o selo verde Ecolabelling, conferido pelo programa de Rotulagem Ambiental da ABNT, que atesta a excelência ambiental para a promoção e melhoria dos produtos e processos de forma a atender às preferências dos consumidores.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	empresa	empresa	NOUN	NOUN	_	4	nsubj	_	_
 3	também	também	ADV	ADV	_	4	advmod	_	_
 4	possui	possuir	VERB	VERB	_	0	root	_	_
-5	o	o	DET	DET	_	6	det	_	_
+5	o	o	DET	DET	PronType=Art	6	det	_	_
 6	selo	selo	NOUN	NOUN	_	4	obj	_	_
 7	verde	verde	ADJ	ADJ	_	6	amod	_	_
 8	Ecolabelling	_	PROPN	PNOUN	_	6	appos	_	SpaceAfter=No
@@ -178,11 +178,11 @@
 20	,	,	PUNCT	.	_	22	punct	_	_
 21	que	_	PRON	PRON	_	22	nsubj	_	_
 22	atesta	atestar	VERB	VERB	_	6	acl:relcl	_	_
-23	a	o	DET	DET	_	24	det	_	_
+23	a	o	DET	DET	PronType=Art	24	det	_	_
 24	excelência	excelência	NOUN	NOUN	_	22	obj	_	_
 25	ambiental	ambiental	ADJ	ADJ	_	24	amod	_	_
 26	para	para	ADP	ADP	_	28	case	_	_
-27	a	o	DET	DET	_	28	det	_	_
+27	a	o	DET	DET	PronType=Art	28	det	_	_
 28	promoção	promoção	NOUN	NOUN	_	22	nmod	_	_
 29	e	e	CCONJ	CONJ	_	30	cc	_	_
 30	melhoria	melhoria	NOUN	NOUN	_	28	conj	_	_
@@ -214,13 +214,13 @@
 3	Record	_	PROPN	PNOUN	_	5	nmod	_	_
 4	News	_	PROPN	PNOUN	_	3	flat	_	_
 5	discursaram	discursar	VERB	VERB	_	0	root	_	_
-6	o	o	DET	DET	_	7	det	_	_
+6	o	o	DET	DET	PronType=Art	7	det	_	_
 7	presidente	presidente	NOUN	NOUN	_	5	nsubj	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	10	punct	_	_
-9	os	o	DET	DET	_	10	det	_	_
+9	os	o	DET	DET	PronType=Art	10	det	_	_
 10	apresentadores	apresentador	NOUN	NOUN	_	7	conj	_	_
 11	e	e	CCONJ	CONJ	_	13	cc	_	_
-12	o	o	DET	DET	_	13	det	_	_
+12	o	o	DET	DET	PronType=Art	13	det	_	_
 13	diretor	diretor	NOUN	NOUN	_	7	conj	_	_
 14	executivo	executivo	ADJ	ADJ	_	13	amod	_	_
 15-16	da	_	_	_	_	_	_	_	_
@@ -254,7 +254,7 @@
 15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	brecada	brecada	NOUN	NOUN	_	13	nmod	_	_
 17	antecipa	antecipar	VERB	VERB	_	7	conj	_	_
-18	o	o	DET	DET	_	19	det	_	_
+18	o	o	DET	DET	PronType=Art	19	det	_	_
 19	estrondo	estrondo	NOUN	NOUN	_	17	obj	_	_
 20-21	duma	_	_	_	_	_	_	_	_
 20	de	de	ADP	ADP	_	22	case	_	_
@@ -275,7 +275,7 @@
 7	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 8	serviços	serviço	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	2	punct	_	_
-10	os	o	DET	DET	_	11	det	_	_
+10	os	o	DET	DET	PronType=Art	11	det	_	_
 11	lojistas	lojista	NOUN	NOUN	_	16	nsubj:pass	_	_
 12-13	do	_	_	_	_	_	_	_	_
 12	de	de	ADP	ADP	_	14	case	_	_

@@ -28,7 +28,7 @@
 1	Mesmo	mesmo	ADV	ADV	_	2	advmod	_	_
 2	assim	assim	ADV	ADV	_	7	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
-4	o	o	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	PronType=Art	5	det	_	_
 5	atacante	atacante	NOUN	NOUN	_	7	nsubj	_	_
 6	é	ser	AUX	AUX	_	7	cop	_	_
 7	um	_	PRON	PRON	_	0	root	_	_
@@ -83,7 +83,7 @@
 10	-	-	PUNCT	.	_	9	punct	_	_
 11	MS	_	PROPN	PNOUN	_	9	flat	_	SpaceAfter=No
 12	,	,	PUNCT	.	_	1	punct	_	_
-13	os	o	DET	DET	_	14	det	_	_
+13	os	o	DET	DET	PronType=Art	14	det	_	_
 14	veículos	veículo	NOUN	NOUN	_	16	nsubj:pass	_	_
 15	são	ser	AUX	AUX	_	16	aux:pass	_	_
 16	leiloados	leiloar	VERB	VERB	_	0	root	_	_
@@ -106,11 +106,11 @@
 3	acusado	acusar	VERB	VERB	_	0	root	_	_
 4	de	_	ADP	ADP	_	5	mark	_	_
 5	usar	usar	VERB	VERB	_	3	nmod	_	_
-6	o	o	DET	DET	_	7	det	_	_
+6	o	o	DET	DET	PronType=Art	7	det	_	_
 7	mandato	mandato	NOUN	NOUN	_	5	obj	_	_
 8	para	_	ADP	ADP	_	9	mark	_	_
 9	favorecer	favorecer	VERB	VERB	_	5	advcl	_	_
-10	o	o	DET	DET	_	11	det	_	_
+10	o	o	DET	DET	PronType=Art	11	det	_	_
 11	contraventor	contraventor	NOUN	NOUN	_	9	obj	_	_
 12	Carlinhos	_	PROPN	PNOUN	_	11	appos	_	_
 13	Cachoeira	_	PROPN	PNOUN	_	12	flat	_	SpaceAfter=No
@@ -118,7 +118,7 @@
 
 # sent_id = dev-s618
 # text = O Terra irá exibir ao vivo via internet para o Brasil todas as partidas da Liga Europa da Uefa nas temporadas de 2012 / 2013, 2013 / 2014 e 2014 / 2015, sendo o único meio de comunicação do País a transmitir ao vivo os 205 jogos da competição.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	Terra	_	PROPN	PNOUN	_	4	nsubj	_	_
 3	irá	_	AUX	AUX	_	4	aux	_	_
 4	exibir	exibir	VERB	VERB	_	0	root	_	_
@@ -129,10 +129,10 @@
 8	via	_	ADP	ADP	_	9	case	_	_
 9	internet	_	PROPN	PNOUN	_	4	nmod	_	_
 10	para	para	ADP	ADP	_	12	case	_	_
-11	o	o	DET	DET	_	12	det	_	_
+11	o	o	DET	DET	PronType=Art	12	det	_	_
 12	Brasil	_	PROPN	PNOUN	_	4	nmod	_	_
 13	todas	_	DET	DET	_	15	det	_	_
-14	as	o	DET	DET	_	15	det	_	_
+14	as	o	DET	DET	PronType=Art	15	det	_	_
 15	partidas	partida	NOUN	NOUN	_	4	obj	_	_
 16-17	da	_	_	_	_	_	_	_	_
 16	de	de	ADP	ADP	_	18	case	_	_
@@ -161,7 +161,7 @@
 37	2015	_	NUM	NUM	NumType=Card	35	conj	_	SpaceAfter=No
 38	,	,	PUNCT	.	_	42	punct	_	_
 39	sendo	ser	AUX	AUX	_	42	cop	_	_
-40	o	o	DET	DET	_	42	det	_	_
+40	o	o	DET	DET	PronType=Art	42	det	_	_
 41	único	único	ADJ	ADJ	_	42	amod	_	_
 42	meio	meio	NOUN	NOUN	_	4	acl	_	_
 43	de	de	ADP	ADP	_	44	case	_	_
@@ -176,7 +176,7 @@
 50	a	a	ADP	ADP	_	52	case	_	_
 51	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
 52	vivo	vivo	NOUN	NOUN	_	49	nmod	_	_
-53	os	o	DET	DET	_	55	det	_	_
+53	os	o	DET	DET	PronType=Art	55	det	_	_
 54	205	_	NUM	NUM	NumType=Card	55	nummod	_	_
 55	jogos	jogo	NOUN	NOUN	_	49	obj	_	_
 56-57	da	_	_	_	_	_	_	_	_
@@ -187,7 +187,7 @@
 
 # sent_id = dev-s619
 # text = O recurso de embargos do trabalhador foi interposto apenas em 3/6/2011, sexta - feira.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	recurso	recurso	NOUN	NOUN	_	9	nsubj:pass	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	embargos	embargo	NOUN	NOUN	_	2	nmod	_	_
@@ -208,7 +208,7 @@
 
 # sent_id = dev-s620
 # text = O evento é resultado de parceira da Secretaria de Extrativismo e Desenvolvimento Rural Sustentável do Ministério do Meio Ambiente com a Cooperativa Mista dos Pequenos Agricultores (Copag)
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	evento	evento	NOUN	NOUN	_	4	nsubj	_	_
 3	é	ser	AUX	AUX	_	4	cop	_	_
 4	resultado	resultado	NOUN	NOUN	_	0	root	_	_
@@ -234,7 +234,7 @@
 21	Meio	_	PROPN	PNOUN	_	18	nmod	_	_
 22	Ambiente	_	PROPN	PNOUN	_	21	flat	_	_
 23	com	com	ADP	ADP	_	25	case	_	_
-24	a	o	DET	DET	_	25	det	_	_
+24	a	o	DET	DET	PronType=Art	25	det	_	_
 25	Cooperativa	_	PROPN	PNOUN	_	6	nmod	_	_
 26	Mista	_	PROPN	PNOUN	_	25	amod	_	_
 27-28	dos	_	_	_	_	_	_	_	_
@@ -287,13 +287,13 @@
 16	em	em	ADP	ADP	_	17	case	_	_
 17	que	_	PRON	PRON	_	18	nmod	_	_
 18	recebeu	receber	VERB	VERB	_	15	acl:relcl	_	_
-19	o	o	DET	DET	_	20	det	_	_
+19	o	o	DET	DET	PronType=Art	20	det	_	_
 20	segundo	segundo	NOUN	NOUN	_	18	obj	_	_
 21	amarelo	amarelo	ADJ	ADJ	_	20	amod	_	_
 22	--	_	PUNCT	.	_	26	punct	_	_
 23	e	e	CCONJ	CONJ	_	26	cc	_	_
 24	consequentemente	consequentemente	ADV	ADV	_	26	advmod	_	_
-25	o	o	DET	DET	_	26	det	_	_
+25	o	o	DET	DET	PronType=Art	26	det	_	_
 26	vermelho	vermelho	NOUN	NOUN	_	20	conj	_	_
 27	--	_	PUNCT	.	_	20	punct	_	_
 28-29	aos	_	_	_	_	_	_	_	_
@@ -309,7 +309,7 @@
 36	por	por	ADP	ADP	_	37	case	_	_
 37	outro	_	PRON	PRON	_	43	nmod	_	SpaceAfter=No
 38	,	,	PUNCT	.	_	37	punct	_	_
-39	o	o	DET	DET	_	40	det	_	_
+39	o	o	DET	DET	PronType=Art	40	det	_	_
 40	atacante	atacante	NOUN	NOUN	_	43	nsubj	_	_
 41	palmeirense	palmeirense	ADJ	ADJ	_	40	amod	_	_
 42	mais	mais	ADV	ADV	_	43	advmod	_	_
@@ -325,7 +325,7 @@
 # text = Pediu ainda a condenação de Marcos Valério e seus ex - sócios por corrupção ativa e dois peculatos.
 1	Pediu	pedir	VERB	VERB	_	0	root	_	_
 2	ainda	ainda	ADV	ADV	_	1	advmod	_	_
-3	a	o	DET	DET	_	4	det	_	_
+3	a	o	DET	DET	PronType=Art	4	det	_	_
 4	condenação	condenação	NOUN	NOUN	_	1	obj	_	_
 5	de	de	ADP	ADP	_	6	case	_	_
 6	Marcos	_	PROPN	PNOUN	_	4	nmod	_	_

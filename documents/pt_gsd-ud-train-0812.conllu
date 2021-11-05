@@ -47,14 +47,14 @@
 39	paranaense	paranaense	ADJ	ADJ	_	38	amod	_	_
 40	justamente	justamente	ADV	ADV	_	34	advmod	_	_
 41	com	com	ADP	ADP	_	43	case	_	_
-42	o	o	DET	DET	_	43	det	_	_
+42	o	o	DET	DET	PronType=Art	43	det	_	_
 43	PT	_	PROPN	PNOUN	_	40	nmod	_	SpaceAfter=No
 44	.	.	PUNCT	.	_	21	punct	_	_
 
 # sent_id = train-s8062
 # text = "A expectativa não é dum crescimento tão alto e o seu alerta sobre o aumento estimado da receita mostra que o Parlamento pode e deve ajudar na construção do Orçamento viável", completou.
 1	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
-2	A	o	DET	DET	_	3	det	_	_
+2	A	o	DET	DET	PronType=Art	3	det	_	_
 3	expectativa	expectativa	NOUN	NOUN	_	5	nsubj	_	_
 4	não	não	ADV	ADV	Polarity=Neg	5	advmod	_	_
 5	é	ser	VERB	VERB	_	39	ccomp	_	_
@@ -69,7 +69,7 @@
 13	seu	_	DET	DET	_	14	det:poss	_	_
 14	alerta	alerta	NOUN	NOUN	_	22	nsubj	_	_
 15	sobre	_	ADP	ADP	_	17	case	_	_
-16	o	o	DET	DET	_	17	det	_	_
+16	o	o	DET	DET	PronType=Art	17	det	_	_
 17	aumento	aumento	NOUN	NOUN	_	14	nmod	_	_
 18	estimado	estimar	VERB	VERB	_	17	acl	_	_
 19-20	da	_	_	_	_	_	_	_	_
@@ -78,7 +78,7 @@
 21	receita	receita	NOUN	NOUN	_	17	nmod	_	_
 22	mostra	mostrar	VERB	VERB	_	5	conj	_	_
 23	que	que	CCONJ	CONJ	_	29	mark	_	_
-24	o	o	DET	DET	_	25	det	_	_
+24	o	o	DET	DET	PronType=Art	25	det	_	_
 25	Parlamento	_	PROPN	PNOUN	_	29	nsubj	_	_
 26	pode	_	AUX	AUX	_	29	aux	_	_
 27	e	e	CCONJ	CONJ	_	28	cc	_	_
@@ -114,7 +114,7 @@
 # sent_id = train-s8064
 # text = Mesmo os 26 pontos de LeBron James, cestinha do duelo, e os 24 de Dwyane Wade não foram suficientes para vencer o embate.
 1	Mesmo	mesmo	ADV	ADV	_	4	advmod	_	_
-2	os	o	DET	DET	_	4	det	_	_
+2	os	o	DET	DET	PronType=Art	4	det	_	_
 3	26	_	NUM	NUM	NumType=Card	4	nummod	_	_
 4	pontos	ponto	NOUN	NOUN	_	21	nsubj	_	_
 5	de	de	ADP	ADP	_	6	case	_	_
@@ -138,7 +138,7 @@
 22	suficientes	suficiente	ADJ	ADJ	_	21	xcomp	_	_
 23	para	_	ADP	ADP	_	24	mark	_	_
 24	vencer	vencer	VERB	VERB	_	22	nmod	_	_
-25	o	o	DET	DET	_	26	det	_	_
+25	o	o	DET	DET	PronType=Art	26	det	_	_
 26	embate	embate	NOUN	NOUN	_	24	obj	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	21	punct	_	_
 
@@ -156,7 +156,7 @@
 10	Folhapress	_	PROPN	PNOUN	_	1	appos	_	SpaceAfter=No
 11	)	)	PUNCT	.	_	10	punct	_	_
 12	--	_	PUNCT	.	_	22	punct	_	_
-13	O	o	DET	DET	_	14	det	_	_
+13	O	o	DET	DET	PronType=Art	14	det	_	_
 14	número	número	NOUN	NOUN	_	22	nsubj	_	_
 15	de	de	ADP	ADP	_	16	case	_	_
 16	entregas	entrega	NOUN	NOUN	_	14	nmod	_	_
@@ -188,7 +188,7 @@
 39	ano	ano	NOUN	NOUN	_	36	nmod	_	SpaceAfter=No
 40	,	,	PUNCT	.	_	43	punct	_	_
 41	segundo	_	ADP	ADP	_	43	case	_	_
-42	o	o	DET	DET	_	43	det	_	_
+42	o	o	DET	DET	PronType=Art	43	det	_	_
 43	Ministério	_	PROPN	PNOUN	_	22	nmod	_	_
 44-45	da	_	_	_	_	_	_	_	_
 44	de	de	ADP	ADP	_	46	case	_	_
@@ -198,7 +198,7 @@
 
 # sent_id = train-s8066
 # text = O Farmetone será vendido exclusivamente no e - Farm, ecommerce da marca, por 59 reais.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	Farmetone	_	PROPN	PNOUN	_	4	nsubj:pass	_	_
 3	será	ser	AUX	AUX	_	4	aux:pass	_	_
 4	vendido	vender	VERB	VERB	_	0	root	_	_
@@ -226,14 +226,14 @@
 1	De	_	ADP	ADP	_	2	case	_	_
 2	acordo	acordo	NOUN	NOUN	_	8	nmod	_	_
 3	com	com	ADP	ADP	_	5	case	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	entidade	entidade	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	2	punct	_	_
 7	Selsouli	_	PROPN	PNOUN	_	8	nsubj	_	_
 8	testou	testar	VERB	VERB	_	0	root	_	_
 9	positivo	positivo	NOUN	NOUN	_	8	obj	_	_
 10	para	para	ADP	ADP	_	12	case	_	_
-11	o	o	DET	DET	_	12	det	_	_
+11	o	o	DET	DET	PronType=Art	12	det	_	_
 12	diurético	_	NOUN	NOUN	_	8	nmod	_	_
 13	furosemida	furosemida	NOUN	NOUN	_	12	appos	_	_
 14-15	na	_	_	_	_	_	_	_	_
@@ -285,7 +285,7 @@
 
 # sent_id = train-s8069
 # text = A Opel, uma das divisões da GM, tem outras três fábricas na Alemanha, em Ruesselsheim, Kaiserslautern e Eisenach.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	Opel	_	PROPN	PNOUN	_	12	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	4	punct	_	_
 4	uma	_	PRON	PRON	_	2	appos	_	_
@@ -324,7 +324,7 @@
 4	-	-	PUNCT	.	_	5	punct	_	_
 5	feira	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	5	punct	_	_
-7	a	o	DET	DET	_	8	det	_	_
+7	a	o	DET	DET	PronType=Art	8	det	_	_
 8	capital	capital	NOUN	NOUN	_	9	nsubj	_	_
 9	enfrentou	enfrentar	VERB	VERB	_	0	root	_	_
 10	um	um	DET	DET	_	11	det	_	_

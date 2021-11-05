@@ -1,7 +1,7 @@
 # sent_id = test-s547
 # text = -- O Jolmar também era perseguido.
 1	--	_	PUNCT	.	_	6	punct	_	_
-2	O	o	DET	DET	_	3	det	_	_
+2	O	o	DET	DET	PronType=Art	3	det	_	_
 3	Jolmar	_	PROPN	PNOUN	_	6	nsubj:pass	_	_
 4	também	também	ADV	ADV	_	6	advmod	_	_
 5	era	_	AUX	AUX	_	6	aux:pass	_	_
@@ -20,7 +20,7 @@
 7	passado	passado	ADJ	ADJ	_	6	amod	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	13	punct	_	_
 9	quando	quando	ADV	ADV	_	13	advmod	_	_
-10	o	o	DET	DET	_	11	det	_	_
+10	o	o	DET	DET	PronType=Art	11	det	_	_
 11	saldo	saldo	NOUN	NOUN	_	13	nsubj	_	_
 12	comercial	comercial	ADJ	ADJ	_	11	amod	_	_
 13	ficou	ficar	VERB	VERB	_	3	acl:relcl	_	_
@@ -31,7 +31,7 @@
 18	3,13	_	NUM	NUM	NumType=Card	19	nummod	_	_
 19	bilhões	_	NUM	NUM	NumType=Card	16	nummod	_	SpaceAfter=No
 20	,	,	PUNCT	.	_	13	punct	_	_
-21	a	o	DET	DET	_	22	det	_	_
+21	a	o	DET	DET	PronType=Art	22	det	_	_
 22	queda	queda	NOUN	NOUN	_	23	nsubj	_	_
 23	foi	_	VERB	VERB	_	0	root	_	_
 24	de	de	ADP	ADP	_	26	case	_	_
@@ -74,7 +74,7 @@
 
 # sent_id = test-s552
 # text = Os outros nove condenados, que tinham diversos cargos na empresa, receberam penas de quatro a sete anos de prisão.
-1	Os	o	DET	DET	_	4	det	_	_
+1	Os	o	DET	DET	PronType=Art	4	det	_	_
 2	outros	_	DET	DET	_	4	det	_	_
 3	nove	_	NUM	NUM	NumType=Card	4	nummod	_	_
 4	condenados	condenado	NOUN	NOUN	_	14	nsubj	_	SpaceAfter=No
@@ -119,14 +119,14 @@
 5	mim	_	PRON	PRON	_	3	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	9	punct	_	_
 7	para	para	ADP	ADP	_	9	case	_	_
-8	a	o	DET	DET	_	9	det	_	_
+8	a	o	DET	DET	PronType=Art	9	det	_	_
 9	equipe	equipe	NOUN	NOUN	_	5	conj	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	12	punct	_	_
-11	os	o	DET	DET	_	12	det	_	_
+11	os	o	DET	DET	PronType=Art	12	det	_	_
 12	fãs	fã	NOUN	NOUN	_	9	conj	_	_
 13	e	e	CCONJ	CONJ	_	16	cc	_	_
 14	todos	_	DET	DET	_	16	det	_	_
-15	os	o	DET	DET	_	16	det	_	_
+15	os	o	DET	DET	PronType=Art	16	det	_	_
 16	caras	cara	NOUN	NOUN	_	9	conj	_	_
 17	que	_	PRON	PRON	_	18	nsubj	_	_
 18	trabalharam	trabalhar	VERB	VERB	_	16	acl:relcl	_	_
@@ -140,10 +140,10 @@
 2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Austrália	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
-5	os	o	DET	DET	_	6	det	_	_
+5	os	o	DET	DET	PronType=Art	6	det	_	_
 6	mosquitos	mosquito	NOUN	NOUN	_	12	nsubj:pass	_	_
 7	com	com	ADP	ADP	_	9	case	_	_
-8	as	o	DET	DET	_	9	det	_	_
+8	as	o	DET	DET	PronType=Art	9	det	_	_
 9	bactérias	bactéria	NOUN	NOUN	_	6	nmod	_	_
 10	já	já	ADV	ADV	_	12	advmod	_	_
 11	foram	_	AUX	AUX	_	12	aux:pass	_	_
@@ -155,10 +155,10 @@
 1	"	"	PUNCT	.	_	21	punct	_	SpaceAfter=No
 2	Visto	_	VERB	VERB	_	6	mark	_	_
 3	que	_	CCONJ	CONJ	_	2	fixed	_	_
-4	as	o	DET	DET	_	5	det	_	_
+4	as	o	DET	DET	PronType=Art	5	det	_	_
 5	partes	_	PROPN	PNOUN	_	6	nsubj	_	_
 6	solicitaram	solicitar	VERB	VERB	_	21	advcl	_	_
-7	a	o	DET	DET	_	8	det	_	_
+7	a	o	DET	DET	PronType=Art	8	det	_	_
 8	assistência	assistência	NOUN	NOUN	_	6	obj	_	_
 9-10	da	_	_	_	_	_	_	_	_
 9	de	de	ADP	ADP	_	11	case	_	_

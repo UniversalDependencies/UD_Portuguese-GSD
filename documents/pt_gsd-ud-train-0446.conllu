@@ -21,7 +21,7 @@
 1	Sem	_	ADP	ADP	_	2	case	_	_
 2	alarde	alarde	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	Câmara	_	PROPN	PNOUN	_	9	nsubj	_	_
 6-7	dos	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	8	case	_	_
@@ -46,7 +46,7 @@
 23	Justiça	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
 24	,	,	PUNCT	.	_	25	punct	_	_
 25	descriminalizando	_	VERB	VERB	_	9	acl	_	_
-26	a	o	DET	DET	_	27	det	_	_
+26	a	o	DET	DET	PronType=Art	27	det	_	_
 27	vadiagem	vadiagem	NOUN	NOUN	_	25	obj	_	_
 28	-	-	PUNCT	.	_	33	punct	_	_
 29	ou	ou	CCONJ	CONJ	_	33	cc	_	_
@@ -62,7 +62,7 @@
 
 # sent_id = train-s4427
 # text = O afastamento do assistente Emerson Augusto de Carvalho depois do erro no clássico contra o Santos, no último domingo, repercutiu no Corinthians.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	afastamento	afastamento	NOUN	NOUN	_	26	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -82,7 +82,7 @@
 15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	clássico	clássico	NOUN	NOUN	_	13	nmod	_	_
 17	contra	_	ADP	ADP	_	19	case	_	_
-18	o	o	DET	DET	_	19	det	_	_
+18	o	o	DET	DET	PronType=Art	19	det	_	_
 19	Santos	_	PROPN	PNOUN	_	16	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	.	_	24	punct	_	_
 21-22	no	_	_	_	_	_	_	_	_
@@ -126,21 +126,21 @@
 # sent_id = train-s4429
 # text = "O fortalecimento do relacionamento com os agentes de viagens é essencial para a Empresa, uma vez que eles são nosso principal canal de distribuição.
 1	"	"	PUNCT	.	_	12	punct	_	SpaceAfter=No
-2	O	o	DET	DET	_	3	det	_	_
+2	O	o	DET	DET	PronType=Art	3	det	_	_
 3	fortalecimento	fortalecimento	NOUN	NOUN	_	12	nsubj	_	_
 4-5	do	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
 5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	relacionamento	relacionamento	NOUN	NOUN	_	3	nmod	_	_
 7	com	com	ADP	ADP	_	9	case	_	_
-8	os	o	DET	DET	_	9	det	_	_
+8	os	o	DET	DET	PronType=Art	9	det	_	_
 9	agentes	agente	NOUN	NOUN	_	6	nmod	_	_
 10	de	de	ADP	ADP	_	11	case	_	_
 11	viagens	viagem	NOUN	NOUN	_	9	nmod	_	_
 12	é	ser	VERB	VERB	_	0	root	_	_
 13	essencial	essencial	ADJ	ADJ	_	12	xcomp	_	_
 14	para	para	ADP	ADP	_	16	case	_	_
-15	a	o	DET	DET	_	16	det	_	_
+15	a	o	DET	DET	PronType=Art	16	det	_	_
 16	Empresa	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	.	_	25	punct	_	_
 18	uma	_	DET	DET	_	25	mark	_	_
@@ -172,7 +172,7 @@
 12	,	,	PUNCT	.	_	11	punct	_	_
 13	significa	significar	VERB	VERB	_	0	root	_	_
 14	que	que	CCONJ	CONJ	_	18	mark	_	_
-15	a	o	DET	DET	_	16	det	_	_
+15	a	o	DET	DET	PronType=Art	16	det	_	_
 16	GCM	_	PROPN	PNOUN	_	18	nsubj	_	_
 17	também	também	ADV	ADV	_	18	advmod	_	_
 18	pode	_	VERB	VERB	_	13	ccomp	_	_
@@ -209,7 +209,7 @@
 8	muito	muito	ADV	ADV	_	9	advmod	_	_
 9	importante	importante	ADJ	ADJ	_	7	amod	_	_
 10	com	com	ADP	ADP	_	12	case	_	_
-11	as	o	DET	DET	_	12	det	_	_
+11	as	o	DET	DET	PronType=Art	12	det	_	_
 12	avaliações	avaliação	NOUN	NOUN	_	5	nmod	_	_
 13	independentes	independente	ADJ	ADJ	_	12	amod	_	_
 14	''	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
@@ -219,7 +219,7 @@
 
 # sent_id = train-s4432
 # text = A presença Terena provinha do fato de que a reserva Indígena de Icatu havia sido presídio indígena, por isso tinham ficado por lá algumas famílias.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	presença	presença	NOUN	NOUN	_	4	nsubj	_	_
 3	Terena	_	PROPN	PNOUN	_	2	appos	_	_
 4	provinha	provir	VERB	VERB	_	0	root	_	_
@@ -229,7 +229,7 @@
 7	fato	fato	NOUN	NOUN	_	4	nmod	_	_
 8	de	_	ADP	ADP	_	17	mark	_	_
 9	que	que	CCONJ	CONJ	_	17	mark	_	_
-10	a	o	DET	DET	_	11	det	_	_
+10	a	o	DET	DET	PronType=Art	11	det	_	_
 11	reserva	reserva	NOUN	NOUN	_	17	nsubj	_	_
 12	Indígena	indígena	ADJ	ADJ	_	11	amod	_	_
 13	de	de	ADP	ADP	_	14	case	_	_
@@ -251,7 +251,7 @@
 
 # sent_id = train-s4433
 # text = As competições acontecem na tarde desta quinta - feira (30), a partir das 15h52 (horário de Brasília).
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	PronType=Art	2	det	_	_
 2	competições	competição	NOUN	NOUN	_	3	nsubj	_	_
 3	acontecem	acontecer	VERB	VERB	_	0	root	_	_
 4-5	na	_	_	_	_	_	_	_	_
@@ -284,7 +284,7 @@
 1	Por	_	ADP	ADP	_	2	mark	_	_
 2	ora	ora	ADV	ADV	_	7	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	Google	_	PROPN	PNOUN	_	7	nsubj	_	_
 6	não	não	ADV	ADV	Polarity=Neg	7	advmod	_	_
 7	pretende	pretender	VERB	VERB	_	0	root	_	_
@@ -300,7 +300,7 @@
 16	não	não	ADV	ADV	Polarity=Neg	18	advmod	_	_
 17	vai	ir	AUX	AUX	_	18	aux	_	_
 18	facilitar	facilitar	VERB	VERB	_	7	conj	_	_
-19	o	o	DET	DET	_	20	det	_	_
+19	o	o	DET	DET	PronType=Art	20	det	_	_
 20	acesso	acesso	NOUN	NOUN	_	18	obj	_	_
 21-22	ao	_	_	_	_	_	_	_	_
 21	a	a	ADP	ADP	_	23	case	_	_
@@ -314,7 +314,7 @@
 28	em	em	ADP	ADP	_	29	case	_	_
 29	dispositivos	dispositivo	NOUN	NOUN	_	20	nmod	_	_
 30	com	com	ADP	ADP	_	32	case	_	_
-31	o	o	DET	DET	_	32	det	_	_
+31	o	o	DET	DET	PronType=Art	32	det	_	_
 32	Windows	_	PROPN	PNOUN	_	29	nmod	_	_
 33	Phone	_	PROPN	PNOUN	_	32	flat	_	_
 34	8	_	NUM	NUM	NumType=Card	32	appos	_	SpaceAfter=No

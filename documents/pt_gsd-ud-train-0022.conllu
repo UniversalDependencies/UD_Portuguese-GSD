@@ -1,6 +1,6 @@
 # sent_id = train-s211
 # text = Os baianos e pernambucanos e os outros considerados estrangeiros ficaram do lado dos portugueses.
-1	Os	o	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	PronType=Art	2	det	_	_
 2	baianos	baiano	NOUN	NOUN	_	10	nsubj	_	_
 3	e	e	CCONJ	CONJ	_	4	cc	_	_
 4	pernambucanos	pernambucano	NOUN	NOUN	_	2	conj	_	_
@@ -22,7 +22,7 @@
 
 # sent_id = train-s212
 # text = O grande destaque da goleada do Sampaio Corrêa sobre o Comercial / PI, ontem, à tarde, no Nhozinho Santos, foi o experiente Arlindo Maracanã, que fez dois gols, ambos de cabeça, sendo um no primeiro tempo e o outro no segundo tempo e por pouco não fez o terceiro, para se tornar o artilheiro do Fantástico desde domingo e pedir música.
-1	O	o	DET	DET	_	3	det	_	_
+1	O	o	DET	DET	PronType=Art	3	det	_	_
 2	grande	grande	ADJ	ADJ	_	3	amod	_	_
 3	destaque	destaque	NOUN	NOUN	_	28	nsubj	_	_
 4-5	da	_	_	_	_	_	_	_	_
@@ -35,7 +35,7 @@
 9	Sampaio	_	PROPN	PNOUN	_	6	nmod	_	_
 10	Corrêa	_	PROPN	PNOUN	_	9	flat	_	_
 11	sobre	_	ADP	ADP	_	13	case	_	_
-12	o	o	DET	DET	_	13	det	_	_
+12	o	o	DET	DET	PronType=Art	13	det	_	_
 13	Comercial	_	PROPN	PNOUN	_	6	nmod	_	_
 14	/	/	PUNCT	.	_	13	punct	_	_
 15	PI	_	PROPN	PNOUN	_	13	flat	_	SpaceAfter=No
@@ -54,7 +54,7 @@
 26	Santos	_	PROPN	PNOUN	_	25	flat	_	SpaceAfter=No
 27	,	,	PUNCT	.	_	25	punct	_	_
 28	foi	_	VERB	VERB	_	0	root	_	_
-29	o	o	DET	DET	_	31	det	_	_
+29	o	o	DET	DET	PronType=Art	31	det	_	_
 30	experiente	experiente	ADJ	ADJ	_	31	amod	_	_
 31	Arlindo	_	PROPN	PNOUN	_	28	appos	_	_
 32	Maracanã	_	PROPN	PNOUN	_	31	flat	_	SpaceAfter=No
@@ -88,13 +88,13 @@
 58	pouco	pouco	ADV	ADV	_	60	nmod	_	_
 59	não	não	ADV	ADV	Polarity=Neg	60	advmod	_	_
 60	fez	fazer	VERB	VERB	_	35	conj	_	_
-61	o	o	DET	DET	_	62	det	_	_
+61	o	o	DET	DET	PronType=Art	62	det	_	_
 62	terceiro	terceiro	NOUN	NOUN	_	60	obj	_	SpaceAfter=No
 63	,	,	PUNCT	.	_	68	punct	_	_
 64	para	_	ADP	ADP	_	68	mark	_	_
 65	se	_	PART	PRT	_	68	expl:pv	_	_
 66	tornar	tornar	AUX	AUX	_	68	cop	_	_
-67	o	o	DET	DET	_	68	det	_	_
+67	o	o	DET	DET	PronType=Art	68	det	_	_
 68	artilheiro	artilheiro	NOUN	NOUN	_	35	nmod	_	_
 69-70	do	_	_	_	_	_	_	_	_
 69	de	de	ADP	ADP	_	71	case	_	_
@@ -119,7 +119,7 @@
 2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	primeira	primeiro	ADJ	ADJ	_	4	amod	_	_
 4	vez	vez	NOUN	NOUN	_	7	nmod	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	instituição	instituição	NOUN	NOUN	_	7	nsubj	_	_
 7	entregou	entregar	VERB	VERB	_	0	root	_	_
 8	um	um	DET	DET	_	9	det	_	_
@@ -134,7 +134,7 @@
 
 # sent_id = train-s215
 # text = O pedido foi negado.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	pedido	pedido	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foi	_	AUX	AUX	_	4	aux:pass	_	_
 4	negado	negar	VERB	VERB	_	0	root	_	SpaceAfter=No
@@ -146,7 +146,7 @@
 2	última	último	ADJ	ADJ	_	3	amod	_	_
 3	modificação	modificação	NOUN	NOUN	_	6	nsubj	_	_
 4	é	ser	AUX	AUX	_	6	cop	_	_
-5	o	o	DET	DET	_	6	det	_	_
+5	o	o	DET	DET	PronType=Art	6	det	_	_
 6	resultado	resultado	NOUN	NOUN	_	0	root	_	_
 7-8	dum	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	10	case	_	_
@@ -160,7 +160,7 @@
 15	entre	_	ADP	ADP	_	16	case	_	_
 16	psiquiatras	_	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	.	_	19	punct	_	_
-18	as	o	DET	DET	_	19	det	_	_
+18	as	o	DET	DET	PronType=Art	19	det	_	_
 19	fundações	fundação	NOUN	NOUN	_	16	conj	_	_
 20	e	e	CCONJ	CONJ	_	21	cc	_	_
 21	organizações	_	PROPN	PNOUN	_	16	conj	_	_
@@ -180,7 +180,7 @@
 
 # sent_id = train-s217
 # text = O material foi encontrado na tarde da última sexta - feira (26) e será encaminhado ao Promotor de Justiça da cidade, Dr.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	material	material	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foi	_	AUX	AUX	_	4	aux:pass	_	_
 4	encontrado	encontrar	VERB	VERB	_	0	root	_	_
@@ -240,7 +240,7 @@
 
 # sent_id = train-s219
 # text = As discussões provocaram nova manifestação de Barbosa, que engatou: "Minha proposta é deixarmos na nossa decisão consignada a perda.
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	PronType=Art	2	det	_	_
 2	discussões	discussão	NOUN	NOUN	_	3	nsubj	_	_
 3	provocaram	provocar	VERB	VERB	_	0	root	_	_
 4	nova	novo	ADJ	ADJ	_	5	amod	_	_
@@ -262,13 +262,13 @@
 19	nossa	_	DET	DET	_	20	det:poss	_	_
 20	decisão	decisão	NOUN	NOUN	_	16	nmod	_	_
 21	consignada	consignado	ADJ	ADJ	_	16	xcomp	_	_
-22	a	o	DET	DET	_	23	det	_	_
+22	a	o	DET	DET	PronType=Art	23	det	_	_
 23	perda	perda	NOUN	NOUN	_	21	nsubj	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s220
 # text = A cooperativa é proprietária das marcas Hyper U, Super U e Marché U que são colocadas à disposição dos seus associados.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	cooperativa	_	NOUN	NOUN	_	4	nsubj	_	_
 3	é	ser	AUX	AUX	_	4	cop	_	_
 4	proprietária	proprietário	NOUN	NOUN	_	0	root	_	_

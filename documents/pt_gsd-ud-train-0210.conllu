@@ -51,12 +51,12 @@
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	mesmo	mesmo	ADJ	ADJ	_	4	amod	_	_
 4	tempo	tempo	NOUN	NOUN	_	12	nmod	_	_
-5	o	o	DET	DET	_	6	det	_	_
+5	o	o	DET	DET	PronType=Art	6	det	_	_
 6	cúmplice	cúmplice	NOUN	NOUN	_	12	nsubj	_	_
 7	que	_	PRON	PRON	_	8	nsubj	_	_
 8	estava	estar	VERB	VERB	_	6	acl:relcl	_	_
 9	com	com	ADP	ADP	_	11	case	_	_
-10	a	o	DET	DET	_	11	det	_	_
+10	a	o	DET	DET	PronType=Art	11	det	_	_
 11	bolsa	bolsa	NOUN	NOUN	_	8	nmod	_	_
 12	rouba	roubar	VERB	VERB	_	0	root	_	_
 13	diversos	_	DET	DET	_	14	det	_	_
@@ -65,7 +65,7 @@
 
 # sent_id = train-s2087
 # text = O álbum recebeu críticas positivas.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	álbum	álbum	NOUN	NOUN	_	3	nsubj	_	_
 3	recebeu	receber	VERB	VERB	_	0	root	_	_
 4	críticas	_	NOUN	NOUN	_	3	obj	_	_
@@ -88,7 +88,7 @@
 10	e	e	CCONJ	CONJ	_	11	cc	_	_
 11	afirmou	afirmar	VERB	VERB	_	1	conj	_	_
 12	que	que	CCONJ	CONJ	_	15	mark	_	_
-13	o	o	DET	DET	_	14	det	_	_
+13	o	o	DET	DET	PronType=Art	14	det	_	_
 14	projeto	projeto	NOUN	NOUN	_	15	nsubj	_	_
 15	é	ser	VERB	VERB	_	11	ccomp	_	_
 16	falho	falho	ADJ	ADJ	_	15	xcomp	_	_
@@ -103,12 +103,12 @@
 24	estados	estado	NOUN	NOUN	_	22	conj	_	_
 25	e	e	CCONJ	CONJ	_	26	cc	_	_
 26	municípios	município	NOUN	NOUN	_	22	conj	_	_
-27	os	o	DET	DET	_	28	det	_	_
+27	os	o	DET	DET	PronType=Art	28	det	_	_
 28	porcentuais	_	NOUN	NOUN	_	20	obj	_	_
 29	para	_	ADP	ADP	_	31	mark	_	_
 30	se	_	PART	PRT	_	31	expl:pv	_	_
 31	alcançar	alcançar	VERB	VERB	_	20	advcl	_	_
-32	a	o	DET	DET	_	34	det	_	_
+32	a	o	DET	DET	PronType=Art	34	det	_	_
 33	referida	referido	ADJ	ADJ	_	34	amod	_	_
 34	meta	meta	NOUN	NOUN	_	31	obj	_	_
 35	de	de	ADP	ADP	_	37	case	_	_
@@ -134,7 +134,7 @@
 
 # sent_id = train-s2090
 # text = Os custos com ferramentas de segurança por si só não são suficientes, evidentemente.
-1	Os	o	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	PronType=Art	2	det	_	_
 2	custos	custo	NOUN	NOUN	_	11	nsubj	_	_
 3	com	com	ADP	ADP	_	4	case	_	_
 4	ferramentas	ferramenta	NOUN	NOUN	_	2	nmod	_	_
@@ -153,7 +153,7 @@
 # sent_id = train-s2091
 # text = "Os nossos policiais têm orientação sobre conduta de segurança durante o serviço e fora do serviço" ressaltou.
 1	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
-2	Os	o	DET	DET	_	4	det	_	_
+2	Os	o	DET	DET	PronType=Art	4	det	_	_
 3	nossos	_	DET	DET	_	4	det:poss	_	_
 4	policiais	policial	NOUN	NOUN	_	5	nsubj	_	_
 5	têm	ter	VERB	VERB	_	20	ccomp	_	_
@@ -163,7 +163,7 @@
 9	de	de	ADP	ADP	_	10	case	_	_
 10	segurança	segurança	NOUN	NOUN	_	8	nmod	_	_
 11	durante	_	ADP	ADP	_	13	case	_	_
-12	o	o	DET	DET	_	13	det	_	_
+12	o	o	DET	DET	PronType=Art	13	det	_	_
 13	serviço	serviço	NOUN	NOUN	_	8	nmod	_	_
 14	e	e	CCONJ	CONJ	_	15	cc	_	_
 15	fora	fora	ADV	ADV	_	13	conj	_	_
@@ -202,7 +202,7 @@
 
 # sent_id = train-s2093
 # text = O Sta Paula eu acompanhei da série bronze até a série ouro, mas a falta de apoio do empresariado local para com o esporte local é muito grande, e sem patrocínio ninguém consegue se manter.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	Sta	_	PROPN	PNOUN	_	5	obj	_	_
 3	Paula	_	PROPN	PNOUN	_	2	flat	_	_
 4	eu	_	PRON	PRON	_	5	nsubj	_	_
@@ -213,12 +213,12 @@
 8	série	série	NOUN	NOUN	_	5	nmod	_	_
 9	bronze	bronze	NOUN	NOUN	_	8	flat	_	_
 10	até	_	ADP	ADP	_	12	case	_	_
-11	a	o	DET	DET	_	12	det	_	_
+11	a	o	DET	DET	PronType=Art	12	det	_	_
 12	série	série	NOUN	NOUN	_	5	nmod	_	_
 13	ouro	ouro	NOUN	NOUN	_	12	flat	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	29	punct	_	_
 15	mas	mas	CCONJ	CONJ	_	29	cc	_	_
-16	a	o	DET	DET	_	17	det	_	_
+16	a	o	DET	DET	PronType=Art	17	det	_	_
 17	falta	_	NOUN	NOUN	_	29	nsubj	_	_
 18	de	de	ADP	ADP	_	19	case	_	_
 19	apoio	apoio	NOUN	NOUN	_	17	nmod	_	_
@@ -229,7 +229,7 @@
 23	local	local	ADJ	ADJ	_	22	amod	_	_
 24	para	_	ADP	ADP	_	19	nmod	_	_
 25	com	com	ADP	ADP	_	27	case	_	_
-26	o	o	DET	DET	_	27	det	_	_
+26	o	o	DET	DET	PronType=Art	27	det	_	_
 27	esporte	esporte	NOUN	NOUN	_	24	nmod	_	_
 28	local	local	ADJ	ADJ	_	27	amod	_	_
 29	é	ser	VERB	VERB	_	5	conj	_	_

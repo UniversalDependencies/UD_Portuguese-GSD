@@ -1,7 +1,7 @@
 # sent_id = train-s3431
 # text = Segundo o Instituto Médico Legal (IML), o crime ocorreu na Rua Rio Madeira, no bairro Adrianópolis, zona centro - sul, por volta das 21h.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	PronType=Art	3	det	_	_
 3	Instituto	_	PROPN	PNOUN	_	12	nmod	_	_
 4	Médico	_	PROPN	PNOUN	_	3	amod	_	_
 5	Legal	_	PROPN	PNOUN	_	3	amod	_	_
@@ -9,7 +9,7 @@
 7	IML	_	PROPN	PNOUN	_	3	appos	_	SpaceAfter=No
 8	)	)	PUNCT	.	_	7	punct	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	3	punct	_	_
-10	o	o	DET	DET	_	11	det	_	_
+10	o	o	DET	DET	PronType=Art	11	det	_	_
 11	crime	crime	NOUN	NOUN	_	12	nsubj	_	_
 12	ocorreu	ocorrer	VERB	VERB	_	0	root	_	_
 13-14	na	_	_	_	_	_	_	_	_
@@ -40,7 +40,7 @@
 
 # sent_id = train-s3432
 # text = A finalização nos primeiros minutos da etapa complementar empolgou Riquelme e motivou novas investidas do temido camisa 10 do Boca Juniors.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	finalização	finalização	NOUN	NOUN	_	11	nsubj	_	_
 3-4	nos	_	_	_	_	_	_	_	_
 3	em	em	ADP	ADP	_	6	case	_	_
@@ -82,7 +82,7 @@
 7	para	para	ADP	ADP	_	8	case	_	_
 8	Constantinopla	_	PROPN	PNOUN	_	6	nmod	_	_
 9	após	_	ADP	ADP	_	11	case	_	_
-10	o	o	DET	DET	_	11	det	_	_
+10	o	o	DET	DET	PronType=Art	11	det	_	_
 11	concílio	concílio	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	.	_	16	punct	_	_
 13	enquanto	_	CCONJ	CONJ	_	16	mark	_	_
@@ -107,7 +107,7 @@
 # sent_id = train-s3434
 # text = Recebeu o Prêmio Chauvenet em 1972, pela publicação on local solvability of linear partial differential equations, Bulletin da American Mathematical Society, 76:552, 1970.
 1	Recebeu	receber	VERB	VERB	_	0	root	_	_
-2	o	o	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	PronType=Art	3	det	_	_
 3	Prêmio	_	PROPN	PNOUN	_	1	obj	_	_
 4	Chauvenet	_	PROPN	PNOUN	_	3	flat	_	_
 5	em	em	ADP	ADP	_	6	case	_	_
@@ -169,12 +169,12 @@
 11	tem	ter	AUX	AUX	_	13	aux	_	_
 12	que	que	CCONJ	CONJ	_	13	mark	_	_
 13	deixar	deixar	VERB	VERB	_	3	ccomp	_	_
-14	a	o	DET	DET	_	16	det	_	_
+14	a	o	DET	DET	PronType=Art	16	det	_	_
 15	"	"	PUNCT	.	_	16	punct	_	SpaceAfter=No
 16	eletrônica	eletrônica	NOUN	NOUN	_	13	obj	_	SpaceAfter=No
 17	"	"	PUNCT	.	_	16	punct	_	_
 18	para	para	ADP	ADP	_	20	case	_	_
-19	a	o	DET	DET	_	20	det	_	_
+19	a	o	DET	DET	PronType=Art	20	det	_	_
 20	sensibilidade	sensibilidade	NOUN	NOUN	_	13	nmod	_	_
 21-22	do	_	_	_	_	_	_	_	_
 21	de	de	ADP	ADP	_	23	case	_	_
@@ -198,13 +198,13 @@
 11	Niemeyer	_	PROPN	PNOUN	_	9	nmod	_	_
 12	e	e	CCONJ	CONJ	_	13	cc	_	_
 13	cumprimentar	cumprimentar	VERB	VERB	_	9	conj	_	_
-14	os	o	DET	DET	_	15	det	_	_
+14	os	o	DET	DET	PronType=Art	15	det	_	_
 15	familiares	familiar	NOUN	NOUN	_	13	obj	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s3438
 # text = O repertório terá 17 músicas, voltadas, exclusivamente, às comemorações de final de ano.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	repertório	repertório	NOUN	NOUN	_	3	nsubj	_	_
 3	terá	ter	VERB	VERB	_	0	root	_	_
 4	17	_	NUM	NUM	NumType=Card	5	nummod	_	_
@@ -229,7 +229,7 @@
 1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
 2	Conseguimos	conseguir	VERB	VERB	_	0	root	_	_
 3	realizar	realizar	VERB	VERB	_	2	xcomp	_	_
-4	o	o	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	PronType=Art	5	det	_	_
 5	teste	teste	NOUN	NOUN	_	3	obj	_	_
 6-7	do	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	8	case	_	_
@@ -248,7 +248,7 @@
 
 # sent_id = train-s3440
 # text = A empresa também realizou uma pesquisa para saber quais produtos os consumidores compraram nos últimos seis meses.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	empresa	empresa	NOUN	NOUN	_	4	nsubj	_	_
 3	também	também	ADV	ADV	_	4	advmod	_	_
 4	realizou	realizar	VERB	VERB	_	0	root	_	_
@@ -258,7 +258,7 @@
 8	saber	saber	VERB	VERB	_	4	advcl	_	_
 9	quais	_	DET	DET	_	10	det	_	_
 10	produtos	produto	NOUN	NOUN	_	13	obj	_	_
-11	os	o	DET	DET	_	12	det	_	_
+11	os	o	DET	DET	PronType=Art	12	det	_	_
 12	consumidores	consumidor	NOUN	NOUN	_	13	nsubj	_	_
 13	compraram	comprar	VERB	VERB	_	8	ccomp	_	_
 14-15	nos	_	_	_	_	_	_	_	_

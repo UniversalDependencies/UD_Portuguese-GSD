@@ -26,11 +26,11 @@
 1	Quando	_	CCONJ	CONJ	_	2	mark	_	_
 2	questionado	questionar	VERB	VERB	_	22	advcl	_	_
 3	sobre	_	ADP	ADP	_	5	case	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	importância	importância	NOUN	NOUN	_	2	nmod	_	_
 6	de	_	ADP	ADP	_	10	mark	_	_
 7	ser	ser	AUX	AUX	_	10	cop	_	_
-8	o	o	DET	DET	_	10	det	_	_
+8	o	o	DET	DET	PronType=Art	10	det	_	_
 9	primeiro	primeiro	ADJ	ADJ	_	10	amod	_	_
 10	campeão	campeão	NOUN	NOUN	_	5	nmod	_	_
 11-12	da	_	_	_	_	_	_	_	_
@@ -53,7 +53,7 @@
 24	a	a	ADP	ADP	_	26	case	_	_
 25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	comparar	comparar	VERB	VERB	_	22	advcl	_	_
-27	a	o	DET	DET	_	28	det	_	_
+27	a	o	DET	DET	PronType=Art	28	det	_	_
 28	honra	honra	NOUN	NOUN	_	26	obj	_	_
 29-30	do	_	_	_	_	_	_	_	_
 29	de	de	ADP	ADP	_	31	case	_	_
@@ -67,7 +67,7 @@
 36	a	_	PRON	PRON	_	26	nmod	_	_
 37	de	_	ADP	ADP	_	41	mark	_	_
 38	ser	ser	AUX	AUX	_	41	cop	_	_
-39	o	o	DET	DET	_	41	det	_	_
+39	o	o	DET	DET	PronType=Art	41	det	_	_
 40	primeiro	primeiro	ADJ	ADJ	_	41	amod	_	_
 41	presidente	presidente	NOUN	NOUN	_	36	nmod	_	_
 42	americano	americano	ADJ	ADJ	_	41	amod	_	_
@@ -85,7 +85,7 @@
 # sent_id = train-s3710
 # text = Foi o fim de qualquer tipo vivência em comum que até aí possa ter existido.
 1	Foi	_	AUX	AUX	_	3	cop	_	_
-2	o	o	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	PronType=Art	3	det	_	_
 3	fim	fim	NOUN	NOUN	_	0	root	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
 5	qualquer	_	DET	DET	_	6	det	_	_
@@ -113,7 +113,7 @@
 7	duas	_	NUM	NUM	NumType=Card	8	nummod	_	_
 8	escolas	escola	NOUN	NOUN	_	2	conj	_	_
 9	fecharam	fechar	VERB	VERB	_	0	root	_	_
-10	as	o	DET	DET	_	11	det	_	_
+10	as	o	DET	DET	PronType=Art	11	det	_	_
 11	portas	porta	NOUN	NOUN	_	9	obj	_	_
 12	após	_	ADP	ADP	_	13	mark	_	_
 13	receberem	receber	VERB	VERB	_	9	advcl	_	_
@@ -130,7 +130,7 @@
 # sent_id = train-s3712
 # text = "A cidade deve ser pensada de forma a incluir as pessoas, e não jogá - las pra periferia."
 1	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
-2	A	o	DET	DET	_	3	det	_	_
+2	A	o	DET	DET	PronType=Art	3	det	_	_
 3	cidade	cidade	NOUN	NOUN	_	6	nsubj:pass	_	_
 4	deve	dever	AUX	AUX	_	6	aux	_	_
 5	ser	ser	AUX	AUX	_	6	aux:pass	_	_
@@ -139,7 +139,7 @@
 8	forma	forma	NOUN	NOUN	_	7	fixed	_	_
 9	a	_	ADP	ADP	_	7	fixed	_	_
 10	incluir	incluir	VERB	VERB	_	7	fixed	_	_
-11	as	o	DET	DET	_	12	det	_	_
+11	as	o	DET	DET	PronType=Art	12	det	_	_
 12	pessoas	pessoa	NOUN	NOUN	_	7	obj	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	16	punct	_	_
 14	e	e	CCONJ	CONJ	_	16	cc	_	_
@@ -171,14 +171,14 @@
 14	Dragão	_	PROPN	PNOUN	_	16	nsubj	_	_
 15	Chinês	_	PROPN	PNOUN	_	14	amod	_	_
 16	exalta	exaltar	VERB	VERB	_	10	ccomp	_	_
-17	o	o	DET	DET	_	18	det	_	_
+17	o	o	DET	DET	PronType=Art	18	det	_	_
 18	Carnaval	_	PROPN	PNOUN	_	16	obj	_	SpaceAfter=No
 19	"	"	PUNCT	.	_	16	punct	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s3714
 # text = As inscrições já começaram e serão realizadas até 08 de janeiro de 2013, através do site www.universa.org.br.
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	PronType=Art	2	det	_	_
 2	inscrições	inscrição	NOUN	NOUN	_	4	nsubj	_	_
 3	já	já	ADV	ADV	_	4	advmod	_	_
 4	começaram	começar	VERB	VERB	_	0	root	_	_
@@ -206,7 +206,7 @@
 2	essa	_	DET	DET	_	3	det	_	_
 3	teoria	teoria	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
-5	o	o	DET	DET	_	6	det	_	_
+5	o	o	DET	DET	PronType=Art	6	det	_	_
 6	cérebro	cérebro	NOUN	NOUN	_	7	nsubj	_	_
 7	emite	emitir	VERB	VERB	_	0	root	_	_
 8	um	um	DET	DET	_	9	det	_	_
@@ -214,7 +214,7 @@
 10	de	de	ADP	ADP	_	11	case	_	_
 11	alarme	alarme	NOUN	NOUN	_	9	nmod	_	_
 12	e	e	CCONJ	CONJ	_	15	cc	_	_
-13	o	o	DET	DET	_	14	det	_	_
+13	o	o	DET	DET	PronType=Art	14	det	_	_
 14	corpo	corpo	NOUN	NOUN	_	15	nsubj	_	_
 15	responde	responder	VERB	VERB	_	7	conj	_	_
 16	rapidamente	rapidamente	ADV	ADV	_	15	advmod	_	SpaceAfter=No
@@ -222,10 +222,10 @@
 
 # sent_id = train-s3716
 # text = Os lucros com o não pagamento de luvas ao município por cada novo ônibus adquirido, de conformidade
-1	Os	o	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	PronType=Art	2	det	_	_
 2	lucros	lucro	NOUN	NOUN	_	0	root	_	_
 3	com	com	ADP	ADP	_	5	case	_	_
-4	o	o	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	PronType=Art	5	det	_	_
 5	não	não	NOUN	NOUN	Polarity=Neg	2	nmod	_	_
 6	pagamento	pagamento	NOUN	NOUN	_	5	flat	_	_
 7	de	de	ADP	ADP	_	8	case	_	_

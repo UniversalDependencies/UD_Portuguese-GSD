@@ -19,7 +19,7 @@
 16	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
 17	clubes	clube	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	.	_	14	punct	_	_
-19	o	o	DET	DET	_	20	det	_	_
+19	o	o	DET	DET	PronType=Art	20	det	_	_
 20	regulamento	regulamento	NOUN	NOUN	_	27	nsubj	_	_
 21-22	do	_	_	_	_	_	_	_	_
 21	de	de	ADP	ADP	_	23	case	_	_
@@ -41,10 +41,10 @@
 
 # sent_id = train-s9408
 # text = A audiência entre as partes será presidida pelo Ministério Público Federal (MPF) e cada grupo social deverá participar com um representante.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	audiência	audiência	NOUN	NOUN	_	7	nsubj:pass	_	_
 3	entre	_	ADP	ADP	_	5	case	_	_
-4	as	o	DET	DET	_	5	det	_	_
+4	as	o	DET	DET	PronType=Art	5	det	_	_
 5	partes	_	PROPN	PNOUN	_	2	nmod	_	_
 6	será	ser	AUX	AUX	_	7	aux:pass	_	_
 7	presidida	presidir	VERB	VERB	_	0	root	_	_
@@ -70,7 +70,7 @@
 
 # sent_id = train-s9409
 # text = Os ingressos custam entre R $ 90 e R $ 145 (meia) e estão disponíveis na bilheteria do teatro e no site www.ingresso.com.
-1	Os	o	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	PronType=Art	2	det	_	_
 2	ingressos	ingresso	NOUN	NOUN	_	3	nsubj	_	_
 3	custam	custar	VERB	VERB	_	0	root	_	_
 4	entre	_	ADP	ADP	_	5	case	_	_
@@ -148,7 +148,7 @@
 14	de	de	ADP	ADP	_	15	case	_	_
 15	acordo	acordo	NOUN	NOUN	_	13	nmod	_	_
 16	com	com	ADP	ADP	_	18	case	_	_
-17	os	o	DET	DET	_	18	det	_	_
+17	os	o	DET	DET	PronType=Art	18	det	_	_
 18	interesses	interesse	NOUN	NOUN	_	15	nmod	_	_
 19-20	do	_	_	_	_	_	_	_	_
 19	de	de	ADP	ADP	_	21	case	_	_
@@ -170,7 +170,7 @@
 3	forma	forma	NOUN	NOUN	_	2	fixed	_	_
 4	de	_	ADP	ADP	_	2	fixed	_	_
 5	alavancar	_	VERB	VERB	_	19	advcl	_	_
-6	a	o	DET	DET	_	7	det	_	_
+6	a	o	DET	DET	PronType=Art	7	det	_	_
 7	economia	economia	NOUN	NOUN	_	5	obj	_	_
 8	e	e	CCONJ	CONJ	_	9	cc	_	_
 9	evitar	evitar	VERB	VERB	_	5	conj	_	_
@@ -180,7 +180,7 @@
 13	suas	_	DET	DET	_	14	det:poss	_	_
 14	previsões	previsão	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	.	_	5	punct	_	_
-16	o	o	DET	DET	_	17	det	_	_
+16	o	o	DET	DET	PronType=Art	17	det	_	_
 17	governo	governo	NOUN	NOUN	_	19	nsubj	_	_
 18	federal	federal	ADJ	ADJ	_	17	amod	_	_
 19	anunciou	anunciar	VERB	VERB	_	0	root	_	SpaceAfter=No
@@ -204,7 +204,7 @@
 36	bilhões	_	NUM	NUM	NumType=Card	33	nummod	_	_
 37	para	_	ADP	ADP	_	38	mark	_	_
 38	melhorar	melhorar	VERB	VERB	_	19	advcl	_	_
-39	a	o	DET	DET	_	40	det	_	_
+39	a	o	DET	DET	PronType=Art	40	det	_	_
 40	infraestrutura	infraestrutura	NOUN	NOUN	_	38	obj	_	_
 41-42	do	_	_	_	_	_	_	_	_
 41	de	de	ADP	ADP	_	43	case	_	_
@@ -232,7 +232,7 @@
 
 # sent_id = train-s9414
 # text = A camisa dum dos suspeitos ficou no chão da agência e será periciada, junto com as imagens registradas pelas câmeras de segurança.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	camisa	camisa	NOUN	NOUN	_	8	nsubj	_	_
 3-4	dum	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
@@ -256,7 +256,7 @@
 18	,	,	PUNCT	.	_	19	punct	_	_
 19	junto	junto	ADV	ADV	_	17	advmod	_	_
 20	com	com	ADP	ADP	_	22	case	_	_
-21	as	o	DET	DET	_	22	det	_	_
+21	as	o	DET	DET	PronType=Art	22	det	_	_
 22	imagens	imagem	NOUN	NOUN	_	19	nmod	_	_
 23	registradas	registrar	VERB	VERB	_	22	acl	_	_
 24-25	pelas	_	_	_	_	_	_	_	_
@@ -269,12 +269,12 @@
 
 # sent_id = train-s9415
 # text = O Romarinho tem estrela, o garoto é bom ... foi somente uma feliz coicidencia ...
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	Romarinho	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	tem	ter	VERB	VERB	_	0	root	_	_
 4	estrela	estrela	NOUN	NOUN	_	3	obj	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	8	punct	_	_
-6	o	o	DET	DET	_	7	det	_	_
+6	o	o	DET	DET	PronType=Art	7	det	_	_
 7	garoto	garoto	NOUN	NOUN	_	8	nsubj	_	_
 8	é	ser	VERB	VERB	_	3	conj	_	_
 9	bom	bom	ADJ	ADJ	_	8	xcomp	_	_
@@ -295,7 +295,7 @@
 5	fez	fazer	VERB	VERB	_	2	acl:relcl	_	_
 6	foi	_	AUX	AUX	_	2	cop	_	_
 7	dar	dar	VERB	VERB	_	2	csubj	_	_
-8	o	o	DET	DET	_	9	det	_	_
+8	o	o	DET	DET	PronType=Art	9	det	_	_
 9	toque	toque	NOUN	NOUN	_	7	obj	_	_
 10	clássico	clássico	ADJ	ADJ	_	9	amod	_	_
 11-12	dos	_	_	_	_	_	_	_	_

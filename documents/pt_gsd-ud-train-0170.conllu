@@ -1,7 +1,7 @@
 # sent_id = train-s1688
 # text = Durante a operação, quatro veículos que seriam desmanchados foram apreendidos.
 1	Durante	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	operação	operação	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
 5	quatro	_	NUM	NUM	NumType=Card	6	nummod	_	_
@@ -15,14 +15,14 @@
 
 # sent_id = train-s1689
 # text = Os demais estão agendados para visitas até o início da nova temporada de 2012, começando em outubro próximo.
-1	Os	o	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	PronType=Art	2	det	_	_
 2	demais	_	NOUN	NOUN	_	3	nsubj	_	_
 3	estão	estar	VERB	VERB	_	0	root	_	_
 4	agendados	agendado	ADJ	ADJ	_	3	xcomp	_	_
 5	para	para	ADP	ADP	_	6	case	_	_
 6	visitas	visita	NOUN	NOUN	_	4	nmod	_	_
 7	até	_	ADP	ADP	_	9	case	_	_
-8	o	o	DET	DET	_	9	det	_	_
+8	o	o	DET	DET	PronType=Art	9	det	_	_
 9	início	início	NOUN	NOUN	_	3	nmod	_	_
 10-11	da	_	_	_	_	_	_	_	_
 10	de	de	ADP	ADP	_	13	case	_	_
@@ -42,7 +42,7 @@
 # text = Brasília -- O Supremo Tribunal Federal (STF) concluiu a análise das penas do publicitário mineiro Cristiano Paz, na Ação Penal 470, o processo do mensalão.
 1	Brasília	_	PROPN	PNOUN	_	10	parataxis	_	_
 2	--	_	PUNCT	.	_	10	punct	_	_
-3	O	o	DET	DET	_	5	det	_	_
+3	O	o	DET	DET	PronType=Art	5	det	_	_
 4	Supremo	_	PROPN	PNOUN	_	5	amod	_	_
 5	Tribunal	_	PROPN	PNOUN	_	10	nsubj	_	_
 6	Federal	_	PROPN	PNOUN	_	5	amod	_	_
@@ -50,7 +50,7 @@
 8	STF	_	PROPN	PNOUN	_	5	appos	_	SpaceAfter=No
 9	)	)	PUNCT	.	_	8	punct	_	_
 10	concluiu	concluir	VERB	VERB	_	0	root	_	_
-11	a	o	DET	DET	_	12	det	_	_
+11	a	o	DET	DET	PronType=Art	12	det	_	_
 12	análise	análise	NOUN	NOUN	_	10	obj	_	_
 13-14	das	_	_	_	_	_	_	_	_
 13	de	de	ADP	ADP	_	15	case	_	_
@@ -71,7 +71,7 @@
 26	Penal	_	PROPN	PNOUN	_	25	amod	_	_
 27	470	_	NUM	NUM	NumType=Card	25	appos	_	SpaceAfter=No
 28	,	,	PUNCT	.	_	30	punct	_	_
-29	o	o	DET	DET	_	30	det	_	_
+29	o	o	DET	DET	PronType=Art	30	det	_	_
 30	processo	processo	NOUN	NOUN	_	25	appos	_	_
 31-32	do	_	_	_	_	_	_	_	_
 31	de	de	ADP	ADP	_	33	case	_	_
@@ -81,7 +81,7 @@
 
 # sent_id = train-s1691
 # text = A epigenética é diferente da genética, que abrange os genes e a hereditariedade.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	epigenética	_	NOUN	NOUN	_	3	nsubj	_	_
 3	é	ser	VERB	VERB	_	0	root	_	_
 4	diferente	diferente	ADJ	ADJ	_	3	xcomp	_	_
@@ -92,17 +92,17 @@
 8	,	,	PUNCT	.	_	10	punct	_	_
 9	que	_	PRON	PRON	_	10	nsubj	_	_
 10	abrange	abranger	VERB	VERB	_	7	acl:relcl	_	_
-11	os	o	DET	DET	_	12	det	_	_
+11	os	o	DET	DET	PronType=Art	12	det	_	_
 12	genes	gene	NOUN	NOUN	_	10	obj	_	_
 13	e	e	CCONJ	CONJ	_	15	cc	_	_
-14	a	o	DET	DET	_	15	det	_	_
+14	a	o	DET	DET	PronType=Art	15	det	_	_
 15	hereditariedade	hereditariedade	NOUN	NOUN	_	12	conj	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s1692
 # text = Entre as propostas de Eduardo Paes estão oferecer ensino integral para 240 mil crianças e reduzir o tempo de espera para consultas médicas nas emergências municipais e nos hospitais da prefeitura.
 1	Entre	_	ADP	ADP	_	3	case	_	_
-2	as	o	DET	DET	_	3	det	_	_
+2	as	o	DET	DET	PronType=Art	3	det	_	_
 3	propostas	_	NOUN	NOUN	_	7	nmod	_	_
 4	de	de	ADP	ADP	_	5	case	_	_
 5	Eduardo	_	PROPN	PNOUN	_	3	nmod	_	_
@@ -117,7 +117,7 @@
 14	crianças	criança	NOUN	NOUN	_	8	nmod	_	_
 15	e	e	CCONJ	CONJ	_	16	cc	_	_
 16	reduzir	reduzir	VERB	VERB	_	8	conj	_	_
-17	o	o	DET	DET	_	18	det	_	_
+17	o	o	DET	DET	PronType=Art	18	det	_	_
 18	tempo	tempo	NOUN	NOUN	_	16	obj	_	_
 19	de	de	ADP	ADP	_	20	case	_	_
 20	espera	espera	NOUN	NOUN	_	18	nmod	_	_
@@ -147,7 +147,7 @@
 3	Bianca	_	PROPN	PNOUN	_	1	conj	_	_
 4	tentam	tentar	VERB	VERB	_	0	root	_	_
 5	conter	conter	VERB	VERB	_	4	xcomp	_	_
-6	o	o	DET	DET	_	7	det	_	_
+6	o	o	DET	DET	PronType=Art	7	det	_	_
 7	constrangimento	constrangimento	NOUN	NOUN	_	5	obj	_	_
 8-9	na	_	_	_	_	_	_	_	_
 8	em	em	ADP	ADP	_	10	case	_	_
@@ -160,7 +160,7 @@
 # sent_id = train-s1694
 # text = Segundo a denúncia, João Paulo Cunha recebeu, em 2003, R $ 50 mil em vantagens indevidas da agência de Valério SMP &amp; B, que tinha contrato com a Câmara.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	denúncia	denúncia	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
 5	João	_	PROPN	PNOUN	_	8	nsubj	_	_
@@ -192,7 +192,7 @@
 30	tinha	ter	VERB	VERB	_	22	acl:relcl	_	_
 31	contrato	contrato	NOUN	NOUN	_	30	obj	_	_
 32	com	com	ADP	ADP	_	34	case	_	_
-33	a	o	DET	DET	_	34	det	_	_
+33	a	o	DET	DET	PronType=Art	34	det	_	_
 34	Câmara	_	PROPN	PNOUN	_	30	nmod	_	SpaceAfter=No
 35	.	.	PUNCT	.	_	8	punct	_	_
 
@@ -200,7 +200,7 @@
 # text = Em todos os capítulos da novela, verifica - se sempre a existência dum gancho na passagem de cada bloco e não apenas no seu final.
 1	Em	em	ADP	ADP	_	4	case	_	_
 2	todos	_	DET	DET	_	4	det	_	_
-3	os	o	DET	DET	_	4	det	_	_
+3	os	o	DET	DET	PronType=Art	4	det	_	_
 4	capítulos	capítulo	NOUN	NOUN	_	9	nmod	_	_
 5-6	da	_	_	_	_	_	_	_	_
 5	de	de	ADP	ADP	_	7	case	_	_
@@ -211,7 +211,7 @@
 10	-	-	PUNCT	.	_	9	punct	_	_
 11	se	_	PRON	PRON	_	9	expl:pv	_	_
 12	sempre	sempre	ADV	ADV	_	9	advmod	_	_
-13	a	o	DET	DET	_	14	det	_	_
+13	a	o	DET	DET	PronType=Art	14	det	_	_
 14	existência	existência	NOUN	NOUN	_	9	nsubj	_	_
 15-16	dum	_	_	_	_	_	_	_	_
 15	de	de	ADP	ADP	_	17	case	_	_
@@ -245,12 +245,12 @@
 6	uma	_	NUM	NUM	NumType=Card	7	nummod	_	_
 7	vez	vez	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	7	punct	_	_
-9	a	o	DET	DET	_	10	det	_	_
+9	a	o	DET	DET	PronType=Art	10	det	_	_
 10	seleção	seleção	NOUN	NOUN	_	12	nsubj	_	_
 11	brasileira	brasileiro	ADJ	ADJ	_	10	amod	_	_
 12	conseguiu	conseguir	VERB	VERB	_	0	root	_	_
 13	mandar	mandar	VERB	VERB	_	12	xcomp	_	_
-14	a	o	DET	DET	_	15	det	_	_
+14	a	o	DET	DET	PronType=Art	15	det	_	_
 15	bola	bola	NOUN	NOUN	_	13	obj	_	_
 16	para	_	ADP	ADP	_	17	mark	_	_
 17	dentro	dentro	ADV	ADV	_	13	nmod	_	_
@@ -267,7 +267,7 @@
 26	quando	_	CCONJ	CONJ	_	28	mark	_	_
 27	Wilde	_	PROPN	PNOUN	_	28	nsubj	_	_
 28	arriscou	arriscar	VERB	VERB	_	12	advcl	_	_
-29	o	o	DET	DET	_	30	det	_	_
+29	o	o	DET	DET	PronType=Art	30	det	_	_
 30	chute	chute	NOUN	NOUN	_	28	obj	_	SpaceAfter=No
 31	,	,	PUNCT	.	_	32	punct	_	_
 32	truncado	truncado	ADJ	ADJ	_	30	conj	_	_
@@ -291,10 +291,10 @@
 # sent_id = train-s1697
 # text = Conforme a ANS, a norma permitirá aos beneficiários localizar de forma mais fácil e ágil todos os prestadores de saúde do plano contratado e deverá aumentar a concorrência no setor já que tornará mais visível o que cada operadora oferece.
 1	Conforme	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	ANS	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	norma	norma	NOUN	NOUN	_	7	nsubj	_	_
 7	permitirá	permitir	VERB	VERB	_	0	root	_	_
 8-9	aos	_	_	_	_	_	_	_	_
@@ -309,7 +309,7 @@
 16	e	e	CCONJ	CONJ	_	17	cc	_	_
 17	ágil	ágil	ADJ	ADJ	_	15	conj	_	_
 18	todos	_	DET	DET	_	20	det	_	_
-19	os	o	DET	DET	_	20	det	_	_
+19	os	o	DET	DET	PronType=Art	20	det	_	_
 20	prestadores	prestador	NOUN	NOUN	_	11	obj	_	_
 21	de	de	ADP	ADP	_	22	case	_	_
 22	saúde	saúde	NOUN	NOUN	_	20	nmod	_	_
@@ -321,7 +321,7 @@
 27	e	e	CCONJ	CONJ	_	29	cc	_	_
 28	deverá	dever	AUX	AUX	_	29	aux	_	_
 29	aumentar	aumentar	VERB	VERB	_	7	conj	_	_
-30	a	o	DET	DET	_	31	det	_	_
+30	a	o	DET	DET	PronType=Art	31	det	_	_
 31	concorrência	concorrência	NOUN	NOUN	_	29	obj	_	_
 32-33	no	_	_	_	_	_	_	_	_
 32	em	em	ADP	ADP	_	34	case	_	_

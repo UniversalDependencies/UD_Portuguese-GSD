@@ -1,6 +1,6 @@
 # sent_id = train-s131
 # text = O robô Opportunity pousou em Meridiani Planum, no pólo norte.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	robô	robô	NOUN	NOUN	_	4	nsubj	_	_
 3	Opportunity	_	PROPN	PNOUN	_	2	appos	_	_
 4	pousou	pousar	VERB	VERB	_	0	root	_	_
@@ -21,7 +21,7 @@
 2	a	_	ADP	ADP	_	3	mark	_	_
 3	posar	posar	VERB	VERB	_	1	nmod	_	_
 4	para	para	ADP	ADP	_	6	case	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	sessão	sessão	NOUN	NOUN	_	3	nmod	_	_
 7	Pin	_	PROPN	PNOUN	_	6	appos	_	_
 8	up	_	PROPN	PNOUN	_	7	flat	_	_
@@ -40,7 +40,7 @@
 20	,	,	PUNCT	.	_	19	punct	_	_
 21	19	_	NUM	NUM	NumType=Card	19	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	.	_	19	punct	_	_
-23	a	o	DET	DET	_	25	det	_	_
+23	a	o	DET	DET	PronType=Art	25	det	_	_
 24	'	_	PUNCT	.	_	25	punct	_	SpaceAfter=No
 25	Peladona	_	PROPN	PNOUN	_	29	nsubj	_	_
 26	de	de	ADP	ADP	_	27	case	_	_
@@ -57,10 +57,10 @@
 # sent_id = train-s133
 # text = Com o impacto, o motoqueiro morreu na hora.
 1	Com	_	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	PronType=Art	3	det	_	_
 3	impacto	impacto	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
-5	o	o	DET	DET	_	6	det	_	_
+5	o	o	DET	DET	PronType=Art	6	det	_	_
 6	motoqueiro	motoqueiro	NOUN	NOUN	_	7	nsubj	_	_
 7	morreu	morrer	VERB	VERB	_	0	root	_	_
 8-9	na	_	_	_	_	_	_	_	_
@@ -79,7 +79,7 @@
 6	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	8	punct	_	_
 8	lembra	lembrar	VERB	VERB	_	0	root	_	_
-9	a	o	DET	DET	_	10	det	_	_
+9	a	o	DET	DET	PronType=Art	10	det	_	_
 10	atriz	_	NOUN	NOUN	_	8	nsubj	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	8	punct	_	_
 
@@ -88,7 +88,7 @@
 1	Segundo	_	ADP	ADP	_	2	case	_	_
 2	ele	_	PRON	PRON	_	21	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
-4	o	o	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	PronType=Art	5	det	_	_
 5	palácio	palácio	NOUN	NOUN	_	21	nsubj	_	_
 6	histórico	histórico	ADJ	ADJ	_	5	amod	_	_
 7	de	de	ADP	ADP	_	8	case	_	_
@@ -118,7 +118,7 @@
 # text = Bolt teve a pior largada entre todos nesta sexta, mas depois atropelou seus concorrentes, como de costume, para vencer e confirmar o seu favoritismo.
 1	Bolt	_	PROPN	PNOUN	_	2	nsubj	_	_
 2	teve	ter	VERB	VERB	_	0	root	_	_
-3	a	o	DET	DET	_	5	det	_	_
+3	a	o	DET	DET	PronType=Art	5	det	_	_
 4	pior	pior	ADJ	ADJ	_	5	amod	_	_
 5	largada	largada	NOUN	NOUN	_	2	obj	_	_
 6	entre	_	ADP	ADP	_	7	case	_	_
@@ -140,7 +140,7 @@
 22	vencer	vencer	VERB	VERB	_	13	advcl	_	_
 23	e	e	CCONJ	CONJ	_	24	cc	_	_
 24	confirmar	confirmar	VERB	VERB	_	22	conj	_	_
-25	o	o	DET	DET	_	27	det	_	_
+25	o	o	DET	DET	PronType=Art	27	det	_	_
 26	seu	_	DET	DET	_	27	det:poss	_	_
 27	favoritismo	favoritismo	NOUN	NOUN	_	22	obj	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	2	punct	_	_
@@ -174,7 +174,7 @@
 
 # sent_id = train-s138
 # text = A festa foi apoiada por Bourbon Hotéis &amp; Resorts, InterContinental Hotéis Group (IHG), Accor Hotéis, Rede Tulip (BHG), Club Med, Via Landauto, Quality Travel Argentina, Rede Tauá de Hotéis, dentre outros.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	festa	festa	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foi	_	AUX	AUX	_	4	aux:pass	_	_
 4	apoiada	apoiar	VERB	VERB	_	0	root	_	_
@@ -230,10 +230,10 @@
 6	seu	_	DET	DET	_	8	det:poss	_	_
 7	primeiro	primeiro	ADJ	ADJ	_	8	amod	_	_
 8	ataque	ataque	NOUN	NOUN	_	11	nmod	_	_
-9	o	o	DET	DET	_	10	det	_	_
+9	o	o	DET	DET	PronType=Art	10	det	_	_
 10	Águia	_	PROPN	PNOUN	_	11	nsubj	_	_
 11	abriu	abrir	VERB	VERB	_	0	root	_	_
-12	o	o	DET	DET	_	13	det	_	_
+12	o	o	DET	DET	PronType=Art	13	det	_	_
 13	placar	placar	NOUN	NOUN	_	11	obj	_	_
 14	com	com	ADP	ADP	_	15	case	_	_
 15	Marabá	_	PROPN	PNOUN	_	11	nmod	_	_
@@ -252,7 +252,7 @@
 4	Branca	_	PROPN	PNOUN	_	3	amod	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	3	punct	_	_
 6	agradeceu	agradecer	VERB	VERB	_	0	root	_	_
-7	o	o	DET	DET	_	8	det	_	_
+7	o	o	DET	DET	PronType=Art	8	det	_	_
 8	empenho	empenho	NOUN	NOUN	_	6	obj	_	_
 9-10	das	_	_	_	_	_	_	_	_
 9	de	de	ADP	ADP	_	11	case	_	_

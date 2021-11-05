@@ -1,7 +1,7 @@
 # sent_id = train-s3698
 # text = Até o fim do ano, vistorias serão realizadas até as 19h durante a semana.
 1	Até	_	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	PronType=Art	3	det	_	_
 3	fim	fim	NOUN	NOUN	_	10	nmod	_	_
 4-5	do	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
@@ -15,13 +15,13 @@
 12	as	o	DET	DET	_	13	det	_	_
 13	19h	_	NUM	NUM	NumType=Card	10	nmod	_	_
 14	durante	_	ADP	ADP	_	16	case	_	_
-15	a	o	DET	DET	_	16	det	_	_
+15	a	o	DET	DET	PronType=Art	16	det	_	_
 16	semana	semana	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s3699
 # text = Os seus habitats naturais são: regiões subtropicais ou tropicais húmidas de alta altitude.
-1	Os	o	DET	DET	_	3	det	_	_
+1	Os	o	DET	DET	PronType=Art	3	det	_	_
 2	seus	_	DET	DET	_	3	det:poss	_	_
 3	habitats	habitat	NOUN	NOUN	_	7	nsubj	_	_
 4	naturais	natural	ADJ	ADJ	_	3	amod	_	_
@@ -80,7 +80,7 @@
 3	,	,	PUNCT	.	_	2	punct	_	_
 4	antes	antes	ADV	ADV	_	12	mark	_	_
 5	que	_	CCONJ	CONJ	_	4	fixed	_	_
-6	a	o	DET	DET	_	8	det	_	_
+6	a	o	DET	DET	PronType=Art	8	det	_	_
 7	atual	atual	ADJ	ADJ	_	8	amod	_	_
 8	onda	onda	NOUN	NOUN	_	12	nsubj:pass	_	_
 9	de	de	ADP	ADP	_	10	case	_	_
@@ -88,17 +88,17 @@
 11	fosse	_	AUX	AUX	_	12	aux:pass	_	_
 12	deflagrada	deflagrar	VERB	VERB	_	17	advcl	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	12	punct	_	_
-14	a	o	DET	DET	_	15	det	_	_
+14	a	o	DET	DET	PronType=Art	15	det	_	_
 15	Polícia	_	PROPN	PNOUN	_	17	nsubj	_	_
 16	Federal	_	PROPN	PNOUN	_	15	amod	_	_
 17	avisou	avisar	VERB	VERB	_	0	root	_	_
-18	o	o	DET	DET	_	19	det	_	_
+18	o	o	DET	DET	PronType=Art	19	det	_	_
 19	governo	governo	NOUN	NOUN	_	17	obj	_	_
 20	de	de	ADP	ADP	_	21	case	_	_
 21	São	_	PROPN	PNOUN	_	19	nmod	_	_
 22	Paulo	_	PROPN	PNOUN	_	21	flat	_	_
 23	que	que	CCONJ	CONJ	_	30	mark	_	_
-24	os	o	DET	DET	_	25	det	_	_
+24	os	o	DET	DET	PronType=Art	25	det	_	_
 25	líderes	líder	NOUN	NOUN	_	30	nsubj	_	_
 26-27	do	_	_	_	_	_	_	_	_
 26	de	de	ADP	ADP	_	28	case	_	_
@@ -112,7 +112,7 @@
 34	,	,	PUNCT	.	_	36	punct	_	_
 35	segundo	_	CCONJ	CONJ	_	36	mark	_	_
 36	informam	informar	VERB	VERB	_	17	advcl	_	_
-37	os	o	DET	DET	_	38	det	_	_
+37	os	o	DET	DET	PronType=Art	38	det	_	_
 38	repórteres	repórter	NOUN	NOUN	_	36	nsubj	_	_
 39	Marco	_	PROPN	PNOUN	_	38	appos	_	_
 40	Antônio	_	PROPN	PNOUN	_	39	flat	_	_
@@ -132,7 +132,7 @@
 # sent_id = train-s3702
 # text = Todos os exames são gratuitos.
 1	Todos	_	DET	DET	_	3	det	_	_
-2	os	o	DET	DET	_	3	det	_	_
+2	os	o	DET	DET	PronType=Art	3	det	_	_
 3	exames	exame	NOUN	NOUN	_	4	nsubj	_	_
 4	são	ser	VERB	VERB	_	0	root	_	_
 5	gratuitos	gratuito	ADJ	ADJ	_	4	xcomp	_	SpaceAfter=No
@@ -140,7 +140,7 @@
 
 # sent_id = train-s3703
 # text = O plano comercial foi apresentado na tarde desta terça - feira 25, durante almoço para agências e anunciantes, por Illan Kow, diretor de projetos do Grupo Estado.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	plano	plano	NOUN	NOUN	_	5	nsubj:pass	_	_
 3	comercial	comercial	ADJ	ADJ	_	2	amod	_	_
 4	foi	_	AUX	AUX	_	5	aux:pass	_	_
@@ -181,10 +181,10 @@
 1	De	_	ADP	ADP	_	2	case	_	_
 2	acordo	acordo	NOUN	NOUN	_	14	nmod	_	_
 3	com	com	ADP	ADP	_	5	case	_	_
-4	o	o	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	PronType=Art	5	det	_	_
 5	estudo	estudo	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	2	punct	_	_
-7	a	o	DET	DET	_	8	det	_	_
+7	a	o	DET	DET	PronType=Art	8	det	_	_
 8	demanda	demanda	NOUN	NOUN	_	14	nsubj	_	_
 9	aquecida	aquecer	VERB	VERB	_	8	acl	_	_
 10	em	em	ADP	ADP	_	11	case	_	_
@@ -193,7 +193,7 @@
 13	2010	_	NUM	NUM	NumType=Card	11	conj	_	_
 14	permitiu	permitir	VERB	VERB	_	0	root	_	_
 15	que	que	CCONJ	CONJ	_	18	mark	_	_
-16	o	o	DET	DET	_	17	det	_	_
+16	o	o	DET	DET	PronType=Art	17	det	_	_
 17	setor	setor	NOUN	NOUN	_	18	nsubj	_	_
 18	aplicasse	aplicar	VERB	VERB	_	14	ccomp	_	_
 19	reajustes	reajuste	NOUN	NOUN	_	18	obj	_	_
@@ -214,7 +214,7 @@
 31	o	o	DET	DET	_	32	det	_	_
 32	que	_	PRON	PRON	_	33	nsubj	_	_
 33	aumentou	aumentar	VERB	VERB	_	14	parataxis	_	_
-34	a	o	DET	DET	_	35	det	_	_
+34	a	o	DET	DET	PronType=Art	35	det	_	_
 35	rentabilidade	rentabilidade	NOUN	NOUN	_	33	obj	_	_
 36-37	no	_	_	_	_	_	_	_	_
 36	em	em	ADP	ADP	_	38	case	_	_
@@ -238,14 +238,14 @@
 # sent_id = train-s3705
 # text = "O negativo desse resultado é que aumentou a taxa de desemprego e o mercado não atendeu essa demanda.
 1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
-2	O	o	DET	DET	_	3	det	_	_
+2	O	o	DET	DET	PronType=Art	3	det	_	_
 3	negativo	negativo	NOUN	NOUN	_	0	root	_	_
 4	desse	_	ADP	ADP	_	5	case	_	_
 5	resultado	resultado	NOUN	NOUN	_	3	nmod	_	_
 6	é	ser	AUX	AUX	_	3	cop	_	_
 7	que	que	CCONJ	CONJ	_	8	mark	_	_
 8	aumentou	aumentar	VERB	VERB	_	3	csubj	_	_
-9	a	o	DET	DET	_	10	det	_	_
+9	a	o	DET	DET	PronType=Art	10	det	_	_
 10	taxa	taxa	NOUN	NOUN	_	8	nsubj	_	_
 11	de	de	ADP	ADP	_	12	case	_	_
 12	desemprego	desemprego	NOUN	NOUN	_	10	nmod	_	_
@@ -263,7 +263,7 @@
 1	Além	além	ADV	ADV	_	10	advmod	_	_
 2	disso	_	X	ADPPRON	_	1	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	1	punct	_	_
-4	o	o	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	PronType=Art	5	det	_	_
 5	recuo	recuo	NOUN	NOUN	_	10	nsubj:pass	_	_
 6-7	do	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	8	case	_	_
@@ -294,7 +294,7 @@
 28	futuro	futuro	ADJ	ADJ	_	27	amod	_	SpaceAfter=No
 29	)	)	PUNCT	.	_	19	punct	_	_
 30	--	_	PUNCT	.	_	32	punct	_	_
-31	o	o	DET	DET	_	32	det	_	_
+31	o	o	DET	DET	PronType=Art	32	det	_	_
 32	terceiro	terceiro	NOUN	NOUN	_	13	appos	_	_
 33	sequencial	sequencial	ADJ	ADJ	_	32	amod	_	_
 34	--	_	PUNCT	.	_	32	punct	_	_
@@ -310,7 +310,7 @@
 42	que	_	PRON	PRON	_	43	nsubj	_	_
 43	impedia	impedir	VERB	VERB	_	41	acl:relcl	_	_
 44	que	que	CCONJ	CONJ	_	47	mark	_	_
-45	os	o	DET	DET	_	46	det	_	_
+45	os	o	DET	DET	PronType=Art	46	det	_	_
 46	exportadores	exportador	NOUN	NOUN	_	47	nsubj	_	_
 47	fizessem	fazer	VERB	VERB	_	43	ccomp	_	_
 48	operações	operação	NOUN	NOUN	_	47	obj	_	_
@@ -327,7 +327,7 @@
 59	que	_	PRON	PRON	_	63	nsubj	_	_
 60	não	não	ADV	ADV	Polarity=Neg	63	advmod	_	_
 61	fossem	_	AUX	AUX	_	63	cop	_	_
-62	os	o	DET	DET	_	63	det	_	_
+62	os	o	DET	DET	PronType=Art	63	det	_	_
 63	importadores	importador	NOUN	NOUN	_	54	acl:relcl	_	_
 64	de	de	ADP	ADP	_	66	case	_	_
 65	seus	_	DET	DET	_	66	det:poss	_	_
@@ -337,7 +337,7 @@
 # sent_id = train-s3707
 # text = É o maior aeroporto da região do Tirol.
 1	É	ser	AUX	AUX	_	4	cop	_	_
-2	o	o	DET	DET	_	4	det	_	_
+2	o	o	DET	DET	PronType=Art	4	det	_	_
 3	maior	maior	ADJ	ADJ	_	4	amod	_	_
 4	aeroporto	aeroporto	NOUN	NOUN	_	0	root	_	_
 5-6	da	_	_	_	_	_	_	_	_

@@ -1,6 +1,6 @@
 # sent_id = train-s341
 # text = A Torcida Bafo do Leão é mais antiga torcida do Nordeste com mais de 30 anos de glórias.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	Torcida	_	PROPN	PNOUN	_	10	nsubj	_	_
 3	Bafo	_	PROPN	PNOUN	_	2	flat	_	_
 4-5	do	_	_	_	_	_	_	_	_
@@ -43,7 +43,7 @@
 13	Martins	_	PROPN	PNOUN	_	12	flat	_	_
 14	Filho	_	PROPN	PNOUN	_	12	flat	_	SpaceAfter=No
 15	,	,	PUNCT	.	_	2	punct	_	_
-16	a	o	DET	DET	_	17	det	_	_
+16	a	o	DET	DET	PronType=Art	17	det	_	_
 17	história	história	NOUN	NOUN	_	29	nsubj	_	_
 18-19	da	_	_	_	_	_	_	_	_
 18	de	de	ADP	ADP	_	20	case	_	_
@@ -114,10 +114,10 @@
 
 # sent_id = train-s344
 # text = A Light apura os motivos.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	Light	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	apura	apurar	VERB	VERB	_	0	root	_	_
-4	os	o	DET	DET	_	5	det	_	_
+4	os	o	DET	DET	PronType=Art	5	det	_	_
 5	motivos	_	PROPN	PNOUN	_	3	obj	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -125,7 +125,7 @@
 # text = Naldo iniciou a sua carreira no futebol do Rio Grande do Sul e deixou o Juventude em 2005 para reforçar o Werder Bremen.
 1	Naldo	_	PROPN	PNOUN	_	2	nsubj	_	_
 2	iniciou	iniciar	VERB	VERB	_	0	root	_	_
-3	a	o	DET	DET	_	5	det	_	_
+3	a	o	DET	DET	PronType=Art	5	det	_	_
 4	sua	_	DET	DET	_	5	det:poss	_	_
 5	carreira	_	NOUN	NOUN	_	2	obj	_	_
 6-7	no	_	_	_	_	_	_	_	_
@@ -143,20 +143,20 @@
 15	Sul	_	PROPN	PNOUN	_	11	nmod	_	_
 16	e	e	CCONJ	CONJ	_	17	cc	_	_
 17	deixou	deixar	VERB	VERB	_	2	conj	_	_
-18	o	o	DET	DET	_	19	det	_	_
+18	o	o	DET	DET	PronType=Art	19	det	_	_
 19	Juventude	_	PROPN	PNOUN	_	17	obj	_	_
 20	em	em	ADP	ADP	_	21	case	_	_
 21	2005	_	NUM	NUM	NumType=Card	17	nmod	_	_
 22	para	_	ADP	ADP	_	23	mark	_	_
 23	reforçar	reforçar	VERB	VERB	_	17	advcl	_	_
-24	o	o	DET	DET	_	25	det	_	_
+24	o	o	DET	DET	PronType=Art	25	det	_	_
 25	Werder	_	PROPN	PNOUN	_	23	obj	_	_
 26	Bremen	_	PROPN	PNOUN	_	25	flat	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s346
 # text = O padre Politi recorda;
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	padre	padre	NOUN	NOUN	_	4	nsubj	_	_
 3	Politi	_	PROPN	PNOUN	_	2	appos	_	_
 4	recorda	recordar	VERB	VERB	_	0	root	_	SpaceAfter=No
@@ -177,7 +177,7 @@
 5	por	por	ADP	ADP	_	6	case	_	_
 6	estilos	estilo	NOUN	NOUN	_	4	nmod	_	_
 7	como	como	ADP	ADP	_	9	case	_	_
-8	o	o	DET	DET	_	9	det	_	_
+8	o	o	DET	DET	PronType=Art	9	det	_	_
 9	sertanejo	sertanejo	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	4	punct	_	_
 11	Roberto	_	PROPN	PNOUN	_	13	nsubj	_	_
@@ -215,7 +215,7 @@
 1	Por	_	ADP	ADP	_	2	mark	_	_
 2	dentro	dentro	ADV	ADV	_	10	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
-4	o	o	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	PronType=Art	5	det	_	_
 5	volante	volante	NOUN	NOUN	_	10	nsubj	_	_
 6	revestido	revestir	VERB	VERB	_	5	acl	_	_
 7	em	em	ADP	ADP	_	8	case	_	_

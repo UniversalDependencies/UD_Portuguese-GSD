@@ -1,6 +1,6 @@
 # sent_id = train-s7576
 # text = O marido Noel não pode se queixar da vida: tem casa, comida e roupa lavada.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	marido	marido	NOUN	NOUN	_	7	nsubj	_	_
 3	Noel	_	PROPN	PNOUN	_	2	appos	_	_
 4	não	não	ADV	ADV	Polarity=Neg	7	advmod	_	_
@@ -29,7 +29,7 @@
 4	quando	_	CCONJ	CONJ	_	6	mark	_	_
 5	não	não	ADV	ADV	Polarity=Neg	6	advmod	_	_
 6	recebem	receber	VERB	VERB	_	1	advcl	_	_
-7	a	o	DET	DET	_	8	det	_	_
+7	a	o	DET	DET	PronType=Art	8	det	_	_
 8	etiqueta	etiqueta	NOUN	NOUN	_	6	obj	_	_
 9	de	_	ADP	ADP	_	11	mark	_	_
 10	"	"	PUNCT	.	_	11	punct	_	SpaceAfter=No
@@ -58,7 +58,7 @@
 16	dia	dia	NOUN	NOUN	_	11	nmod	_	_
 17	em	em	ADP	ADP	_	18	case	_	_
 18	que	_	PRON	PRON	_	35	nmod	_	_
-19	o	o	DET	DET	_	20	det	_	_
+19	o	o	DET	DET	PronType=Art	20	det	_	_
 20	ministro	ministro	NOUN	NOUN	_	35	nsubj	_	_
 21-22	da	_	_	_	_	_	_	_	_
 21	de	de	ADP	ADP	_	23	case	_	_
@@ -78,7 +78,7 @@
 34	,	,	PUNCT	.	_	29	punct	_	_
 35	negou	negar	VERB	VERB	_	16	acl:relcl	_	_
 36	que	que	CCONJ	CONJ	_	42	mark	_	_
-37	o	o	DET	DET	_	38	det	_	_
+37	o	o	DET	DET	PronType=Art	38	det	_	_
 38	câmbio	câmbio	NOUN	NOUN	_	42	nsubj	_	_
 39-40	no	_	_	_	_	_	_	_	_
 39	em	em	ADP	ADP	_	41	case	_	_
@@ -90,7 +90,7 @@
 
 # sent_id = train-s7579
 # text = As informações são da Agência Senado.
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	PronType=Art	2	det	_	_
 2	informações	informação	NOUN	NOUN	_	3	nsubj	_	_
 3	são	ser	VERB	VERB	_	0	root	_	_
 4-5	da	_	_	_	_	_	_	_	_
@@ -110,7 +110,7 @@
 5	aspecto	aspecto	NOUN	NOUN	_	2	nmod	_	_
 6	criminal	criminal	ADJ	ADJ	_	5	amod	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	2	punct	_	_
-8	os	o	DET	DET	_	9	det	_	_
+8	os	o	DET	DET	PronType=Art	9	det	_	_
 9	promotores	promotor	NOUN	NOUN	_	10	nsubj	_	_
 10	entenderam	entender	VERB	VERB	_	0	root	_	_
 11	que	que	CCONJ	CONJ	_	13	mark	_	_
@@ -118,7 +118,7 @@
 13	cabe	caber	VERB	VERB	_	10	ccomp	_	_
 14	denúncia	denúncia	NOUN	NOUN	_	13	nsubj	_	_
 15	contra	_	ADP	ADP	_	17	case	_	_
-16	o	o	DET	DET	_	17	det	_	_
+16	o	o	DET	DET	PronType=Art	17	det	_	_
 17	prefeito	prefeito	NOUN	NOUN	_	14	nmod	_	_
 18-19	da	_	_	_	_	_	_	_	_
 18	de	de	ADP	ADP	_	20	case	_	_
@@ -142,7 +142,7 @@
 
 # sent_id = train-s7582
 # text = A apresentação única começa às 18h30.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	apresentação	apresentação	NOUN	NOUN	_	4	nsubj	_	_
 3	única	único	ADJ	ADJ	_	2	amod	_	_
 4	começa	_	VERB	VERB	_	0	root	_	_
@@ -156,7 +156,7 @@
 # text = "É a melhor estrutura dum campeonato que eu já fui na minha vida.
 1	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
 2	É	ser	AUX	AUX	_	5	cop	_	_
-3	a	o	DET	DET	_	5	det	_	_
+3	a	o	DET	DET	PronType=Art	5	det	_	_
 4	melhor	melhor	ADJ	ADJ	_	5	amod	_	_
 5	estrutura	estrutura	NOUN	NOUN	_	0	root	_	_
 6-7	dum	_	_	_	_	_	_	_	_
@@ -221,11 +221,11 @@
 12	logo	logo	ADV	ADV	_	14	mark	_	_
 13	que	_	CCONJ	CONJ	_	12	fixed	_	_
 14	assumiu	assumir	VERB	VERB	_	60	advcl	_	_
-15	o	o	DET	DET	_	16	det	_	_
+15	o	o	DET	DET	PronType=Art	16	det	_	_
 16	cargo	cargo	NOUN	NOUN	_	14	obj	_	SpaceAfter=No
 17	,	,	PUNCT	.	_	20	punct	_	_
 18	com	com	ADP	ADP	_	20	case	_	_
-19	o	o	DET	DET	_	20	det	_	_
+19	o	o	DET	DET	PronType=Art	20	det	_	_
 20	apoio	apoio	NOUN	NOUN	_	14	nmod	_	_
 21-22	da	_	_	_	_	_	_	_	_
 21	de	de	ADP	ADP	_	23	case	_	_
@@ -243,11 +243,11 @@
 33	)	)	PUNCT	.	_	25	punct	_	SpaceAfter=No
 34	,	,	PUNCT	.	_	37	punct	_	_
 35	e	e	CCONJ	CONJ	_	37	cc	_	_
-36	a	o	DET	DET	_	37	det	_	_
+36	a	o	DET	DET	PronType=Art	37	det	_	_
 37	ligação	ligação	NOUN	NOUN	_	14	conj	_	_
 38	surpreendente	surpreendente	ADJ	ADJ	_	37	amod	_	_
 39	com	com	ADP	ADP	_	42	case	_	_
-40	a	o	DET	DET	_	42	det	_	_
+40	a	o	DET	DET	PronType=Art	42	det	_	_
 41	antiga	antigo	ADJ	ADJ	_	42	amod	_	_
 42	oposicionista	oposicionista	NOUN	NOUN	_	37	nmod	_	_
 43	(	(	PUNCT	.	_	45	punct	_	SpaceAfter=No
@@ -259,7 +259,7 @@
 49	Frizzo	_	PROPN	PNOUN	_	48	flat	_	SpaceAfter=No
 50	)	)	PUNCT	.	_	45	punct	_	_
 51	e	e	CCONJ	CONJ	_	53	cc	_	_
-52	o	o	DET	DET	_	53	det	_	_
+52	o	o	DET	DET	PronType=Art	53	det	_	_
 53	movimento	movimento	NOUN	NOUN	_	42	conj	_	_
 54	"	"	PUNCT	.	_	55	punct	_	SpaceAfter=No
 55	Muda	_	PROPN	PNOUN	_	53	appos	_	_
@@ -274,7 +274,7 @@
 64	passou	passar	AUX	AUX	_	66	aux	_	_
 65	a	_	ADP	ADP	_	66	mark	_	_
 66	comandar	comandar	VERB	VERB	_	60	conj	_	_
-67	o	o	DET	DET	_	68	det	_	_
+67	o	o	DET	DET	PronType=Art	68	det	_	_
 68	clube	clube	NOUN	NOUN	_	66	obj	_	_
 69-70	na	_	_	_	_	_	_	_	_
 69	em	em	ADP	ADP	_	71	case	_	_
@@ -289,7 +289,7 @@
 77	se	_	PART	PRT	_	78	expl:pv	_	_
 78	concretizou	concretizar	VERB	VERB	_	71	acl:relcl	_	_
 79	com	com	ADP	ADP	_	81	case	_	_
-80	o	o	DET	DET	_	81	det	_	_
+80	o	o	DET	DET	PronType=Art	81	det	_	_
 81	Campeonato	_	PROPN	PNOUN	_	78	nmod	_	_
 82	Paulista	_	PROPN	PNOUN	_	81	amod	_	_
 83	de	de	ADP	ADP	_	84	case	_	_
@@ -305,11 +305,11 @@
 93	,	,	PUNCT	.	_	92	punct	_	_
 94	sendo	ser	VERB	VERB	_	88	acl	_	_
 95	que	que	CCONJ	CONJ	_	101	mark	_	_
-96	o	o	DET	DET	_	97	det	_	_
+96	o	o	DET	DET	PronType=Art	97	det	_	_
 97	último	último	NOUN	NOUN	_	101	nsubj	_	_
 98	havia	haver	AUX	AUX	_	101	aux	_	_
 99	sido	ser	AUX	AUX	_	101	cop	_	_
-100	a	o	DET	DET	_	101	det	_	_
+100	a	o	DET	DET	PronType=Art	101	det	_	_
 101	Série	_	PROPN	PNOUN	_	94	csubj	_	_
 102	B	_	PROPN	PNOUN	_	101	flat	_	_
 103	de	_	ADP	ADP	_	101	nmod	_	_

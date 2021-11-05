@@ -6,17 +6,17 @@
 3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	benefício	benefício	NOUN	NOUN	_	1	nmod	_	_
 5	para	para	ADP	ADP	_	7	case	_	_
-6	o	o	DET	DET	_	7	det	_	_
+6	o	o	DET	DET	PronType=Art	7	det	_	_
 7	setor	setor	NOUN	NOUN	_	4	nmod	_	_
 8	automotivo	automotivo	ADJ	ADJ	_	7	amod	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	1	punct	_	_
-10	o	o	DET	DET	_	11	det	_	_
+10	o	o	DET	DET	PronType=Art	11	det	_	_
 11	ministro	ministro	NOUN	NOUN	_	12	nsubj	_	_
 12	anunciou	anunciar	VERB	VERB	_	0	root	_	_
 13	desoneração	desoneração	NOUN	NOUN	_	12	obj	_	_
 14	também	também	ADV	ADV	_	17	advmod	_	_
 15	para	para	ADP	ADP	_	17	case	_	_
-16	os	o	DET	DET	_	17	det	_	_
+16	os	o	DET	DET	PronType=Art	17	det	_	_
 17	produtos	produto	NOUN	NOUN	_	13	nmod	_	_
 18-19	da	_	_	_	_	_	_	_	_
 18	de	de	ADP	ADP	_	20	case	_	_
@@ -66,7 +66,7 @@
 
 # sent_id = dev-s595
 # text = A colisão aconteceu na Avenida Cristiano Machado, ao lado do Minas Shopping.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	colisão	colisão	NOUN	NOUN	_	3	nsubj	_	_
 3	aconteceu	acontecer	VERB	VERB	_	0	root	_	_
 4-5	na	_	_	_	_	_	_	_	_
@@ -90,7 +90,7 @@
 # sent_id = dev-s596
 # text = Já o Leão da Ilha está quatro pontos atrás da Lusa e do Tricolor de Aço.
 1	Já	já	ADV	ADV	_	7	advmod	_	_
-2	o	o	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	PronType=Art	3	det	_	_
 3	Leão	_	PROPN	PNOUN	_	7	nsubj	_	_
 4-5	da	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
@@ -125,10 +125,10 @@
 6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	vivo	vivo	ADJ	ADJ	_	4	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	1	punct	_	_
-9	o	o	DET	DET	_	10	det	_	_
+9	o	o	DET	DET	PronType=Art	10	det	_	_
 10	Terra	_	PROPN	PNOUN	_	11	nsubj	_	_
 11	terá	ter	VERB	VERB	_	0	root	_	_
-12	os	o	DET	DET	_	13	det	_	_
+12	os	o	DET	DET	PronType=Art	13	det	_	_
 13	blogs	blog	NOUN	NOUN	_	11	obj	_	_
 14-15	da	_	_	_	_	_	_	_	_
 14	de	de	ADP	ADP	_	16	case	_	_
@@ -157,7 +157,7 @@
 1	Este	_	DET	DET	_	2	det	_	_
 2	ano	ano	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
-4	o	o	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	PronType=Art	5	det	_	_
 5	Prêmio	_	PROPN	PNOUN	_	9	nsubj	_	_
 6	Exportação	_	PROPN	PNOUN	_	5	flat	_	_
 7	RS	_	PROPN	PNOUN	_	5	flat	_	_
@@ -220,7 +220,7 @@
 
 # sent_id = dev-s600
 # text = O V40 é um carro familiar pequeno, com 5 portas (hatchback), fabricado pela Volvo.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	V40	_	PROPN	PNOUN	_	5	nsubj	_	_
 3	é	ser	AUX	AUX	_	5	cop	_	_
 4	um	um	DET	DET	_	5	det	_	_
@@ -245,7 +245,7 @@
 # sent_id = dev-s601
 # text = -- A greve começou no dia 18 de junho, e eles cortaram os dias proporcionais.
 1	--	_	PUNCT	.	_	4	punct	_	_
-2	A	o	DET	DET	_	3	det	_	_
+2	A	o	DET	DET	PronType=Art	3	det	_	_
 3	greve	greve	NOUN	NOUN	_	4	nsubj	_	_
 4	começou	começar	VERB	VERB	_	0	root	_	_
 5-6	no	_	_	_	_	_	_	_	_
@@ -259,21 +259,21 @@
 12	e	e	CCONJ	CONJ	_	14	cc	_	_
 13	eles	_	PRON	PRON	_	14	nsubj	_	_
 14	cortaram	cortar	VERB	VERB	_	4	conj	_	_
-15	os	o	DET	DET	_	16	det	_	_
+15	os	o	DET	DET	PronType=Art	16	det	_	_
 16	dias	dia	NOUN	NOUN	_	14	obj	_	_
 17	proporcionais	proporcional	ADJ	ADJ	_	16	amod	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = dev-s602
 # text = O Vasco deve entrar em campo com a seguinte formação: Fernando Prass, Max, Dedé, Douglas e William Matheus;
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	Vasco	_	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	deve	dever	AUX	AUX	_	4	aux	_	_
 4	entrar	entrar	VERB	VERB	_	0	root	_	_
 5	em	em	ADP	ADP	_	6	case	_	_
 6	campo	campo	NOUN	NOUN	_	4	nmod	_	_
 7	com	com	ADP	ADP	_	10	case	_	_
-8	a	o	DET	DET	_	10	det	_	_
+8	a	o	DET	DET	PronType=Art	10	det	_	_
 9	seguinte	seguinte	ADJ	ADJ	_	10	amod	_	_
 10	formação	formação	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
 11	:	:	PUNCT	.	_	10	punct	_	_
@@ -292,7 +292,7 @@
 
 # sent_id = dev-s603
 # text = O maior arquiteto do mundo."
-1	O	o	DET	DET	_	3	det	_	_
+1	O	o	DET	DET	PronType=Art	3	det	_	_
 2	maior	maior	ADJ	ADJ	_	3	amod	_	_
 3	arquiteto	arquiteto	NOUN	NOUN	_	0	root	_	_
 4-5	do	_	_	_	_	_	_	_	_

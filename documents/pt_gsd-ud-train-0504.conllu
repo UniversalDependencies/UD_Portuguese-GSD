@@ -15,7 +15,7 @@
 11	Polícia	_	PROPN	PNOUN	_	8	nmod	_	_
 12	Militar	_	PROPN	PNOUN	_	11	amod	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	2	punct	_	_
-14	a	o	DET	DET	_	15	det	_	_
+14	a	o	DET	DET	PronType=Art	15	det	_	_
 15	criança	criança	NOUN	NOUN	_	17	nsubj	_	_
 16	estaria	estar	AUX	AUX	_	17	aux	_	_
 17	brincando	brincar	VERB	VERB	_	0	root	_	_
@@ -64,7 +64,7 @@
 # sent_id = train-s5005
 # text = Para o diretor presidente da ALGÁS, Geoberto Espírito Santo, o prêmio conquistado em 2012 ressalta o compromisso da companhia com o cumprimento do contrato de concessão de distribuição de gás natural em Alagoas.
 1	Para	_	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	PronType=Art	3	det	_	_
 3	diretor	diretor	NOUN	NOUN	_	18	nmod	_	_
 4	presidente	presidente	NOUN	NOUN	_	3	flat	_	_
 5-6	da	_	_	_	_	_	_	_	_
@@ -76,20 +76,20 @@
 10	Espírito	_	PROPN	PNOUN	_	9	flat	_	_
 11	Santo	_	PROPN	PNOUN	_	9	flat	_	SpaceAfter=No
 12	,	,	PUNCT	.	_	9	punct	_	_
-13	o	o	DET	DET	_	14	det	_	_
+13	o	o	DET	DET	PronType=Art	14	det	_	_
 14	prêmio	prêmio	NOUN	NOUN	_	18	nsubj	_	_
 15	conquistado	conquistar	VERB	VERB	_	14	acl	_	_
 16	em	em	ADP	ADP	_	17	case	_	_
 17	2012	_	NUM	NUM	NumType=Card	15	nmod	_	_
 18	ressalta	ressaltar	VERB	VERB	_	0	root	_	_
-19	o	o	DET	DET	_	20	det	_	_
+19	o	o	DET	DET	PronType=Art	20	det	_	_
 20	compromisso	compromisso	NOUN	NOUN	_	18	obj	_	_
 21-22	da	_	_	_	_	_	_	_	_
 21	de	de	ADP	ADP	_	23	case	_	_
 22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	companhia	companhia	NOUN	NOUN	_	20	nmod	_	_
 24	com	com	ADP	ADP	_	26	case	_	_
-25	o	o	DET	DET	_	26	det	_	_
+25	o	o	DET	DET	PronType=Art	26	det	_	_
 26	cumprimento	cumprimento	NOUN	NOUN	_	20	nmod	_	_
 27-28	do	_	_	_	_	_	_	_	_
 27	de	de	ADP	ADP	_	29	case	_	_
@@ -153,7 +153,7 @@
 41	Federal	_	PROPN	PNOUN	_	39	amod	_	SpaceAfter=No
 42	,	,	PUNCT	.	_	39	punct	_	_
 43	com	com	ADP	ADP	_	45	case	_	_
-44	o	o	DET	DET	_	45	det	_	_
+44	o	o	DET	DET	PronType=Art	45	det	_	_
 45	músico	músico	NOUN	NOUN	_	28	nmod	_	_
 46	e	e	CCONJ	CONJ	_	47	cc	_	_
 47	procurador	procurador	NOUN	NOUN	_	45	conj	_	_
@@ -168,7 +168,7 @@
 56	exemplo	exemplo	NOUN	NOUN	_	58	nmod	_	SpaceAfter=No
 57	,	,	PUNCT	.	_	56	punct	_	_
 58	rendeu	render	VERB	VERB	_	45	acl	_	_
-59	a	o	DET	DET	_	60	det	_	_
+59	a	o	DET	DET	PronType=Art	60	det	_	_
 60	música	_	NOUN	NOUN	_	58	obj	_	_
 61	"	"	PUNCT	.	_	62	punct	_	SpaceAfter=No
 62	Confissão	_	PROPN	PNOUN	_	60	appos	_	SpaceAfter=No
@@ -184,7 +184,7 @@
 # text = "Monitoramos o Twitter dos principais candidatos.
 1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
 2	Monitoramos	_	VERB	VERB	_	0	root	_	_
-3	o	o	DET	DET	_	4	det	_	_
+3	o	o	DET	DET	PronType=Art	4	det	_	_
 4	Twitter	_	PROPN	PNOUN	_	2	obj	_	_
 5-6	dos	_	_	_	_	_	_	_	_
 5	de	de	ADP	ADP	_	8	case	_	_
@@ -195,7 +195,7 @@
 
 # sent_id = train-s5008
 # text = A MP inclui novos setores no Programa Revitaliza do BNDES (Banco Nacional de Desenvolvimento Econômico e Social) para financiar empresas que foram afetadas pela crise.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	MP	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	inclui	incluir	VERB	VERB	_	0	root	_	_
 4	novos	novo	ADJ	ADJ	_	5	amod	_	_
@@ -238,7 +238,7 @@
 4	apelo	apelo	NOUN	NOUN	_	2	obj	_	_
 5	para	_	ADP	ADP	_	9	mark	_	_
 6	que	que	CCONJ	CONJ	_	9	mark	_	_
-7	os	o	DET	DET	_	8	det	_	_
+7	os	o	DET	DET	PronType=Art	8	det	_	_
 8	senadores	senador	NOUN	NOUN	_	9	nsubj	_	_
 9	estivessem	estar	VERB	VERB	_	4	nmod	_	_
 10	aqui	aqui	ADV	ADV	_	9	advmod	_	_
@@ -286,7 +286,7 @@
 
 # sent_id = train-s5012
 # text = O percurso da caminhada foi definido na última reunião.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	percurso	percurso	NOUN	NOUN	_	7	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_

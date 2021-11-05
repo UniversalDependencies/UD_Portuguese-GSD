@@ -2,7 +2,7 @@
 # text = Jaguapitã possuiu o primeiro cinema da região, chamado Cine Guairacá, que funcionou entre os anos de 1956 e 1983, sendo fechado por falta de recursos.
 1	Jaguapitã	_	PROPN	PNOUN	_	2	nsubj	_	_
 2	possuiu	possuir	VERB	VERB	_	0	root	_	_
-3	o	o	DET	DET	_	5	det	_	_
+3	o	o	DET	DET	PronType=Art	5	det	_	_
 4	primeiro	primeiro	ADJ	ADJ	_	5	amod	_	_
 5	cinema	cinema	NOUN	NOUN	_	2	obj	_	_
 6-7	da	_	_	_	_	_	_	_	_
@@ -17,7 +17,7 @@
 14	que	_	PRON	PRON	_	15	nsubj	_	_
 15	funcionou	funcionar	VERB	VERB	_	5	acl:relcl	_	_
 16	entre	_	ADP	ADP	_	18	case	_	_
-17	os	o	DET	DET	_	18	det	_	_
+17	os	o	DET	DET	PronType=Art	18	det	_	_
 18	anos	ano	NOUN	NOUN	_	15	nmod	_	_
 19	de	de	ADP	ADP	_	20	case	_	_
 20	1956	_	NUM	NUM	NumType=Card	18	nmod	_	_
@@ -41,7 +41,7 @@
 5	brasileiros	brasileiro	ADJ	ADJ	_	2	amod	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	5	punct	_	_
 7	relataram	relatar	VERB	VERB	_	0	root	_	_
-8	a	o	DET	DET	_	9	det	_	_
+8	a	o	DET	DET	PronType=Art	9	det	_	_
 9	modificação	modificação	NOUN	NOUN	_	7	obj	_	_
 10	nesta	_	ADP	ADP	_	13	case	_	_
 11	terça	_	PROPN	PNOUN	_	13	amod	_	_
@@ -63,7 +63,7 @@
 7	destacam	destacar	VERB	VERB	_	0	root	_	_
 8	-	-	PUNCT	.	_	7	punct	_	_
 9	se	_	PART	PRT	_	7	expl:pv	_	_
-10	as	o	DET	DET	_	11	det	_	_
+10	as	o	DET	DET	PronType=Art	11	det	_	_
 11	canções	canção	NOUN	NOUN	_	7	nsubj	_	_
 12	"	"	PUNCT	.	_	14	punct	_	SpaceAfter=No
 13	Vai	_	PROPN	PNOUN	_	14	aux	_	_
@@ -100,14 +100,14 @@
 # sent_id = train-s5045
 # text = "O motivo do adiamento é a falta de patrocínio.
 1	"	"	PUNCT	.	_	9	punct	_	SpaceAfter=No
-2	O	o	DET	DET	_	3	det	_	_
+2	O	o	DET	DET	PronType=Art	3	det	_	_
 3	motivo	motivo	NOUN	NOUN	_	9	nsubj	_	_
 4-5	do	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
 5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	adiamento	adiamento	NOUN	NOUN	_	3	nmod	_	_
 7	é	ser	AUX	AUX	_	9	cop	_	_
-8	a	o	DET	DET	_	9	det	_	_
+8	a	o	DET	DET	PronType=Art	9	det	_	_
 9	falta	_	NOUN	NOUN	_	0	root	_	_
 10	de	de	ADP	ADP	_	11	case	_	_
 11	patrocínio	patrocínio	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
@@ -185,7 +185,7 @@
 
 # sent_id = train-s5049
 # text = A vitória da equipe gaulesa foi de virada por 2 a 1 em Glasgow, na Escócia, nesta sexta - feira.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	vitória	vitória	NOUN	NOUN	_	7	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -219,7 +219,7 @@
 2	tinha	ter	VERB	VERB	_	0	root	_	_
 3	negócios	negócio	NOUN	NOUN	_	2	obj	_	_
 4	desde	_	ADP	ADP	_	6	case	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	década	década	NOUN	NOUN	_	2	nmod	_	_
 7	de	de	ADP	ADP	_	8	case	_	_
 8	30	_	NUM	NUM	NumType=Card	6	nmod	_	_
@@ -240,7 +240,7 @@
 22	de	de	ADP	ADP	_	23	case	_	_
 23	brincadeira	brincadeira	NOUN	NOUN	_	21	nmod	_	_
 24	"	"	PUNCT	.	_	27	punct	_	SpaceAfter=No
-25	a	o	DET	DET	_	27	det	_	_
+25	a	o	DET	DET	PronType=Art	27	det	_	_
 26	única	único	ADJ	ADJ	_	27	amod	_	_
 27	pessoa	pessoa	NOUN	NOUN	_	17	xcomp	_	_
 28	lúcida	lúcido	ADJ	ADJ	_	27	amod	_	SpaceAfter=No
@@ -257,7 +257,7 @@
 
 # sent_id = train-s5051
 # text = O caso de Rafa tem certa semelhança com o que os argentinos vivenciaram com Lionel Messi em 2005.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	caso	caso	NOUN	NOUN	_	5	nsubj	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	Rafa	_	PROPN	PNOUN	_	2	nmod	_	_
@@ -267,7 +267,7 @@
 8	com	com	ADP	ADP	_	9	case	_	_
 9	o	_	PRON	PRON	_	7	nmod	_	_
 10	que	_	PRON	PRON	_	13	obj	_	_
-11	os	o	DET	DET	_	12	det	_	_
+11	os	o	DET	DET	PronType=Art	12	det	_	_
 12	argentinos	argentino	NOUN	NOUN	_	13	nsubj	_	_
 13	vivenciaram	vivenciar	VERB	VERB	_	9	acl:relcl	_	_
 14	com	com	ADP	ADP	_	15	case	_	_

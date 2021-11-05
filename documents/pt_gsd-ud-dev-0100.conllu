@@ -30,7 +30,7 @@
 24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	mesmo	_	PRON	PRON	_	26	nmod	_	_
 26	pagou	pagar	VERB	VERB	_	9	conj	_	_
-27	o	o	DET	DET	_	29	det	_	_
+27	o	o	DET	DET	PronType=Art	29	det	_	_
 28	mesmo	mesmo	ADJ	ADJ	_	29	amod	_	_
 29	valor	valor	NOUN	NOUN	_	26	obj	_	_
 30	daqueles	_	X	ADPPRON	_	29	nmod	_	_
@@ -45,7 +45,7 @@
 # text = 1 -- O referido artigo demonstra uma tendência de adesão pelas empresas particulares ao pregão eletrônico, o que evidência a sua relevância para a economia do país.
 1	1	_	NUM	NUM	NumType=Card	6	parataxis	_	_
 2	--	_	PUNCT	.	_	6	punct	_	_
-3	O	o	DET	DET	_	5	det	_	_
+3	O	o	DET	DET	PronType=Art	5	det	_	_
 4	referido	referido	ADJ	ADJ	_	5	amod	_	_
 5	artigo	artigo	NOUN	NOUN	_	6	nsubj	_	_
 6	demonstra	demonstrar	VERB	VERB	_	0	root	_	_
@@ -67,11 +67,11 @@
 20	o	_	PRON	PRON	_	8	appos	_	_
 21	que	_	PRON	PRON	_	22	nsubj	_	_
 22	evidência	_	VERB	VERB	_	20	acl:relcl	_	_
-23	a	o	DET	DET	_	25	det	_	_
+23	a	o	DET	DET	PronType=Art	25	det	_	_
 24	sua	_	PRON	PRON	_	25	det:poss	_	_
 25	relevância	relevância	NOUN	NOUN	_	22	obj	_	_
 26	para	para	ADP	ADP	_	28	case	_	_
-27	a	o	DET	DET	_	28	det	_	_
+27	a	o	DET	DET	PronType=Art	28	det	_	_
 28	economia	economia	NOUN	NOUN	_	25	nmod	_	_
 29-30	do	_	_	_	_	_	_	_	_
 29	de	de	ADP	ADP	_	31	case	_	_
@@ -87,7 +87,7 @@
 3	telefonia	telefonia	NOUN	NOUN	_	4	nmod	_	_
 4	é	ser	VERB	VERB	_	0	root	_	_
 5	comum	comum	ADJ	ADJ	_	4	xcomp	_	_
-6	a	o	DET	DET	_	7	det	_	_
+6	a	o	DET	DET	PronType=Art	7	det	_	_
 7	oferta	oferta	NOUN	NOUN	_	4	nsubj	_	_
 8	de	de	ADP	ADP	_	9	case	_	_
 9	preços	preço	NOUN	NOUN	_	7	nmod	_	_
@@ -136,7 +136,7 @@
 1	Segundo	_	ADP	ADP	_	2	case	_	_
 2	ele	_	PRON	PRON	_	7	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
-4	o	o	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	PronType=Art	5	det	_	_
 5	time	time	NOUN	NOUN	_	7	nsubj	_	_
 6	mineiro	mineiro	ADJ	ADJ	_	5	amod	_	_
 7	segue	_	VERB	VERB	_	0	root	_	_
@@ -152,7 +152,7 @@
 15	,	,	PUNCT	.	_	19	punct	_	_
 16	mesmo	mesmo	ADV	ADV	_	19	advmod	_	_
 17	com	com	ADP	ADP	_	19	case	_	_
-18	o	o	DET	DET	_	19	det	_	_
+18	o	o	DET	DET	PronType=Art	19	det	_	_
 19	Fluminense	_	PROPN	PNOUN	_	7	nmod	_	_
 20	tendo	_	VERB	VERB	_	19	acl	_	_
 21	nove	_	NUM	NUM	NumType=Card	22	nummod	_	_
@@ -160,13 +160,13 @@
 23	de	de	ADP	ADP	_	24	case	_	_
 24	vantagem	vantagem	NOUN	NOUN	_	22	nmod	_	_
 25	sobre	_	ADP	ADP	_	27	case	_	_
-26	o	o	DET	DET	_	27	det	_	_
+26	o	o	DET	DET	PronType=Art	27	det	_	_
 27	Galo	_	PROPN	PNOUN	_	24	nmod	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = dev-s988
 # text = Os dados fazem parte do Mapa da Violência 2012, elaborado pelo Instituto Sangari e pelo Ministério da Justiça.
-1	Os	o	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	PronType=Art	2	det	_	_
 2	dados	dado	NOUN	NOUN	_	3	nsubj	_	_
 3	fazem	fazer	VERB	VERB	_	0	root	_	_
 4	parte	parte	NOUN	NOUN	_	3	obj	_	_
@@ -204,7 +204,7 @@
 3	-	-	PUNCT	.	_	4	punct	_	_
 4	feira	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	4	punct	_	_
-6	o	o	DET	DET	_	7	det	_	_
+6	o	o	DET	DET	PronType=Art	7	det	_	_
 7	delegado	delegado	NOUN	NOUN	_	20	nsubj	_	_
 8-9	da	_	_	_	_	_	_	_	_
 8	de	de	ADP	ADP	_	10	case	_	_
@@ -225,7 +225,7 @@
 22	Parauapebas	_	PROPN	PNOUN	_	20	nmod	_	_
 23	para	_	ADP	ADP	_	24	nmod	_	_
 24	iniciar	iniciar	VERB	VERB	_	20	advcl	_	_
-25	as	o	DET	DET	_	26	det	_	_
+25	as	o	DET	DET	PronType=Art	26	det	_	_
 26	investigações	investigação	NOUN	NOUN	_	24	obj	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	20	punct	_	_
 
@@ -250,14 +250,14 @@
 17	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
 18	,	,	PUNCT	.	_	19	punct	_	_
 19	finalizou	finalizar	VERB	VERB	_	0	root	_	_
-20	o	o	DET	DET	_	21	det	_	_
+20	o	o	DET	DET	PronType=Art	21	det	_	_
 21	empresário	empresário	NOUN	NOUN	_	19	nsubj	_	_
 22-23	ao	_	_	_	_	_	_	_	_
 22	a	a	ADP	ADP	_	24	case	_	_
 23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	lembrar	lembrar	VERB	VERB	_	19	advcl	_	_
 25	que	que	CCONJ	CONJ	_	33	mark	_	_
-26	a	o	DET	DET	_	27	det	_	_
+26	a	o	DET	DET	PronType=Art	27	det	_	_
 27	regularização	regularização	NOUN	NOUN	_	33	nsubj	_	_
 28	fundiária	fundiário	ADJ	ADJ	_	27	amod	_	_
 29	feita	_	VERB	VERB	_	27	acl	_	_
@@ -277,7 +277,7 @@
 
 # sent_id = dev-s991
 # text = A notícia que chegou pela manhã da capital informava que na manhã deste sábado, por volta das 6h30, um capotamento deixou uma criança ferida e em estado de saúde considerado grave, segundo informações de militares do Corpo de Bombeiros que estiveram no local.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	notícia	notícia	NOUN	NOUN	_	11	nsubj	_	_
 3	que	_	PRON	PRON	_	4	nsubj	_	_
 4	chegou	chegar	VERB	VERB	_	2	acl:relcl	_	_

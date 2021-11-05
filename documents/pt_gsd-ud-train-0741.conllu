@@ -1,7 +1,7 @@
 # sent_id = train-s7356
 # text = Para as inscrições pagas no período de 01 a 08 de novembro a taxa é de R $ 100,00 (candidato regular) e R $ 80,00 (candidato treineiro).
 1	Para	_	ADP	ADP	_	3	case	_	_
-2	as	o	DET	DET	_	3	det	_	_
+2	as	o	DET	DET	PronType=Art	3	det	_	_
 3	inscrições	inscrição	NOUN	NOUN	_	16	nmod	_	_
 4	pagas	pagar	VERB	VERB	_	3	acl	_	_
 5-6	no	_	_	_	_	_	_	_	_
@@ -14,7 +14,7 @@
 11	08	_	NUM	NUM	NumType=Card	9	nmod	_	_
 12	de	de	ADP	ADP	_	13	case	_	_
 13	novembro	_	PROPN	PNOUN	_	9	nmod	_	_
-14	a	o	DET	DET	_	15	det	_	_
+14	a	o	DET	DET	PronType=Art	15	det	_	_
 15	taxa	taxa	NOUN	NOUN	_	16	nsubj	_	_
 16	é	ser	VERB	VERB	_	0	root	_	_
 17	de	de	ADP	ADP	_	18	case	_	_
@@ -58,7 +58,7 @@
 3	sem	_	ADP	ADP	_	4	case	_	_
 4	dúvida	dúvida	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	4	punct	_	_
-6	o	o	DET	DET	_	7	det	_	_
+6	o	o	DET	DET	PronType=Art	7	det	_	_
 7	empresário	empresário	NOUN	NOUN	_	8	nsubj	_	_
 8	exerce	exercer	VERB	VERB	_	0	root	_	_
 9	papel	papel	NOUN	NOUN	_	8	obj	_	_
@@ -91,7 +91,7 @@
 
 # sent_id = train-s7360
 # text = O Brasil não é um império.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	Brasil	_	PROPN	PNOUN	_	6	nsubj	_	_
 3	não	não	ADV	ADV	Polarity=Neg	6	advmod	_	_
 4	é	ser	AUX	AUX	_	6	cop	_	_
@@ -117,7 +117,7 @@
 13	,	,	PUNCT	.	_	3	punct	_	_
 14	Manu	_	PROPN	PNOUN	_	15	nsubj	_	_
 15	toma	tomar	VERB	VERB	_	0	root	_	_
-16	o	o	DET	DET	_	18	det	_	_
+16	o	o	DET	DET	PronType=Art	18	det	_	_
 17	seu	_	DET	DET	_	18	det:poss	_	_
 18	lugar	lugar	NOUN	NOUN	_	15	obj	_	_
 19-20	na	_	_	_	_	_	_	_	_
@@ -133,7 +133,7 @@
 28	vinte	_	NUM	NUM	NumType=Card	29	nummod	_	_
 29	jogos	jogo	NOUN	NOUN	_	25	obj	_	_
 30	com	com	ADP	ADP	_	32	case	_	_
-31	o	o	DET	DET	_	32	det	_	_
+31	o	o	DET	DET	PronType=Art	32	det	_	_
 32	clube	clube	NOUN	NOUN	_	25	nmod	_	_
 33-34	da	_	_	_	_	_	_	_	_
 33	de	de	ADP	ADP	_	35	case	_	_
@@ -165,7 +165,7 @@
 18	avançar	avançar	VERB	VERB	_	16	advcl	_	_
 19	e	e	CCONJ	CONJ	_	20	cc	_	_
 20	ampliar	ampliar	VERB	VERB	_	18	conj	_	_
-21	a	o	DET	DET	_	22	det	_	_
+21	a	o	DET	DET	PronType=Art	22	det	_	_
 22	atuação	atuação	NOUN	NOUN	_	18	obj	_	_
 23-24	do	_	_	_	_	_	_	_	_
 23	de	de	ADP	ADP	_	25	case	_	_
@@ -189,7 +189,7 @@
 # sent_id = train-s7363
 # text = -- O site deve estampar fotos de produtos de boa qualidade.
 1	--	_	PUNCT	.	_	5	punct	_	_
-2	O	o	DET	DET	_	3	det	_	_
+2	O	o	DET	DET	PronType=Art	3	det	_	_
 3	site	site	NOUN	NOUN	_	5	nsubj	_	_
 4	deve	dever	AUX	AUX	_	5	aux	_	_
 5	estampar	estampar	VERB	VERB	_	0	root	_	_
@@ -204,7 +204,7 @@
 # sent_id = train-s7364
 # text = É a maior família da ordem, com quase 200 espécies.
 1	É	ser	AUX	AUX	_	4	cop	_	_
-2	a	o	DET	DET	_	4	det	_	_
+2	a	o	DET	DET	PronType=Art	4	det	_	_
 3	maior	maior	ADJ	ADJ	_	4	amod	_	_
 4	família	família	NOUN	NOUN	_	0	root	_	_
 5-6	da	_	_	_	_	_	_	_	_

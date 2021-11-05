@@ -3,7 +3,7 @@
 1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
 2	Acredito	acreditar	VERB	VERB	_	23	ccomp	_	_
 3	que	que	CCONJ	CONJ	_	20	mark	_	_
-4	os	o	DET	DET	_	5	det	_	_
+4	os	o	DET	DET	PronType=Art	5	det	_	_
 5	esforços	esforço	NOUN	NOUN	_	20	nsubj	_	_
 6	por	por	ADP	ADP	_	8	case	_	_
 7	uma	um	DET	DET	_	8	det	_	_
@@ -39,7 +39,7 @@
 # text = Só que a alegria do time da casa não durou muito porque aos 44 minutos, Escudero escorou de cabeça e Everton Ribeiro mandou uma bomba sem defesa para Fernando Prass e definiu o resultado da partida.
 1	Só	só	ADV	ADV	_	12	advmod	_	_
 2	que	que	CCONJ	CONJ	_	12	mark	_	_
-3	a	o	DET	DET	_	4	det	_	_
+3	a	o	DET	DET	PronType=Art	4	det	_	_
 4	alegria	alegria	NOUN	NOUN	_	12	nsubj	_	_
 5-6	do	_	_	_	_	_	_	_	_
 5	de	de	ADP	ADP	_	7	case	_	_
@@ -76,7 +76,7 @@
 34	Prass	_	PROPN	PNOUN	_	33	flat	_	_
 35	e	e	CCONJ	CONJ	_	36	cc	_	_
 36	definiu	definir	VERB	VERB	_	21	conj	_	_
-37	o	o	DET	DET	_	38	det	_	_
+37	o	o	DET	DET	PronType=Art	38	det	_	_
 38	resultado	resultado	NOUN	NOUN	_	36	obj	_	_
 39-40	da	_	_	_	_	_	_	_	_
 39	de	de	ADP	ADP	_	41	case	_	_
@@ -92,7 +92,7 @@
 4	nessa	_	X	ADPPRON	_	3	nmod	_	_
 5	que	_	PRON	PRON	_	9	nsubj	_	_
 6	é	ser	AUX	AUX	_	9	cop	_	_
-7	a	o	DET	DET	_	9	det	_	_
+7	a	o	DET	DET	PronType=Art	9	det	_	_
 8	maior	maior	ADJ	ADJ	_	9	amod	_	_
 9	chance	chance	NOUN	NOUN	_	4	acl:relcl	_	_
 10-11	da	_	_	_	_	_	_	_	_
@@ -143,12 +143,12 @@
 1	E	_	CCONJ	CONJ	_	3	cc	_	_
 2	também	também	ADV	ADV	_	3	advmod	_	_
 3	tem	ter	VERB	VERB	_	0	root	_	_
-4	a	o	DET	DET	_	5	det	_	_
+4	a	o	DET	DET	PronType=Art	5	det	_	_
 5	secação	secação	NOUN	NOUN	_	3	obj	_	_
 6	amanhã	amanhã	ADV	ADV	_	3	advmod	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	10	punct	_	_
 8	contra	_	ADP	ADP	_	10	case	_	_
-9	a	o	DET	DET	_	10	det	_	_
+9	a	o	DET	DET	PronType=Art	10	det	_	_
 10	porcada	porcada	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -214,9 +214,9 @@
 # text = Imediatamente após o parto a criança passa por extensas modificações fisiológicas à medida que se habitua à sua respiração independente.
 1	Imediatamente	imediatamente	ADV	ADV	_	4	advmod	_	_
 2	após	_	ADP	ADP	_	4	case	_	_
-3	o	o	DET	DET	_	4	det	_	_
+3	o	o	DET	DET	PronType=Art	4	det	_	_
 4	parto	parto	NOUN	NOUN	_	7	nmod	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	criança	criança	NOUN	NOUN	_	7	nsubj	_	_
 7	passa	passar	VERB	VERB	_	0	root	_	_
 8	por	por	ADP	ADP	_	10	case	_	_
@@ -240,14 +240,14 @@
 
 # sent_id = train-s3636
 # text = O candidato do PDT governou a cidade entre 2002 e 2008.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	candidato	candidato	NOUN	NOUN	_	6	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
 4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	PDT	_	PROPN	PNOUN	_	2	nmod	_	_
 6	governou	governar	VERB	VERB	_	0	root	_	_
-7	a	o	DET	DET	_	8	det	_	_
+7	a	o	DET	DET	PronType=Art	8	det	_	_
 8	cidade	cidade	NOUN	NOUN	_	6	obj	_	_
 9	entre	_	ADP	ADP	_	10	case	_	_
 10	2002	_	NUM	NUM	NumType=Card	6	nmod	_	_
@@ -263,12 +263,12 @@
 3	12h08	_	NUM	NUM	NumType=Card	18	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
 5	entre	_	ADP	ADP	_	7	case	_	_
-6	os	o	DET	DET	_	7	det	_	_
+6	os	o	DET	DET	PronType=Art	7	det	_	_
 7	contratos	contrato	NOUN	NOUN	_	18	nmod	_	_
 8	mais	mais	ADV	ADV	_	9	advmod	_	_
 9	líquidos	líquido	ADJ	ADJ	_	7	amod	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	7	punct	_	_
-11	a	o	DET	DET	_	12	det	_	_
+11	a	o	DET	DET	PronType=Art	12	det	_	_
 12	taxa	taxa	NOUN	NOUN	_	18	nsubj:pass	_	_
 13	para	para	ADP	ADP	_	14	case	_	_
 14	janeiro	_	PROPN	PNOUN	_	12	nmod	_	_
@@ -283,7 +283,7 @@
 23	,	,	PUNCT	.	_	24	punct	_	_
 24	estável	estável	ADJ	ADJ	_	18	xcomp	_	_
 25	ante	_	ADP	ADP	_	27	case	_	_
-26	o	o	DET	DET	_	27	det	_	_
+26	o	o	DET	DET	PronType=Art	27	det	_	_
 27	ajuste	ajuste	NOUN	NOUN	_	24	nmod	_	_
 28	anterior	anterior	ADJ	ADJ	_	27	amod	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	18	punct	_	_

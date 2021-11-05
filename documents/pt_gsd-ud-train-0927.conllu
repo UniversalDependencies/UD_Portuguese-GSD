@@ -1,6 +1,6 @@
 # sent_id = train-s9198
 # text = O estudo deve ser realizado a cada cinco anos.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	estudo	estudo	NOUN	NOUN	_	5	nsubj:pass	_	_
 3	deve	dever	AUX	AUX	_	5	aux	_	_
 4	ser	ser	AUX	AUX	_	5	aux:pass	_	_
@@ -33,7 +33,7 @@
 
 # sent_id = train-s9200
 # text = A Lua Me Traiu é uma música da Banda Calypso.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	Lua	_	PROPN	PNOUN	_	4	nsubj	_	_
 3	Me	_	PROPN	PNOUN	_	4	obj	_	_
 4	Traiu	_	PROPN	PNOUN	_	7	csubj	_	_
@@ -66,14 +66,14 @@
 
 # sent_id = train-s9202
 # text = A vez dos homens / A vaidade masculina também está florescendo e alcançando os mesmos percentuais dos procedimentos feitos em mulheres.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	vez	vez	NOUN	NOUN	_	12	nsubj	_	_
 3-4	dos	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
 4	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
 5	homens	homem	NOUN	NOUN	_	2	nmod	_	_
 6	/	/	PUNCT	.	_	8	punct	_	_
-7	A	o	DET	DET	_	8	det	_	_
+7	A	o	DET	DET	PronType=Art	8	det	_	_
 8	vaidade	vaidade	NOUN	NOUN	_	2	appos	_	_
 9	masculina	masculino	ADJ	ADJ	_	8	amod	_	_
 10	também	também	ADV	ADV	_	12	advmod	_	_
@@ -81,7 +81,7 @@
 12	florescendo	florescer	VERB	VERB	_	0	root	_	_
 13	e	e	CCONJ	CONJ	_	14	cc	_	_
 14	alcançando	alcançar	VERB	VERB	_	12	conj	_	_
-15	os	o	DET	DET	_	17	det	_	_
+15	os	o	DET	DET	PronType=Art	17	det	_	_
 16	mesmos	mesmo	ADJ	ADJ	_	17	amod	_	_
 17	percentuais	_	NOUN	NOUN	_	14	obj	_	_
 18-19	dos	_	_	_	_	_	_	_	_
@@ -142,14 +142,14 @@
 8	AFI	_	PROPN	PNOUN	_	1	appos	_	SpaceAfter=No
 9	)	)	PUNCT	.	_	8	punct	_	_
 10	--	_	PUNCT	.	_	16	punct	_	_
-11	O	o	DET	DET	_	12	det	_	_
+11	O	o	DET	DET	PronType=Art	12	det	_	_
 12	volante	volante	NOUN	NOUN	_	16	nsubj	_	_
 13	Serginho	_	PROPN	PNOUN	_	12	appos	_	_
 14	não	não	ADV	ADV	Polarity=Neg	16	advmod	_	_
 15	deve	dever	AUX	AUX	_	16	aux	_	_
 16	vestir	vestir	VERB	VERB	_	0	root	_	_
 17	mais	mais	ADV	ADV	_	16	advmod	_	_
-18	a	o	DET	DET	_	19	det	_	_
+18	a	o	DET	DET	PronType=Art	19	det	_	_
 19	camisa	camisa	NOUN	NOUN	_	16	obj	_	_
 20-21	do	_	_	_	_	_	_	_	_
 20	de	de	ADP	ADP	_	22	case	_	_
@@ -170,7 +170,7 @@
 # text = Isso porque o jogador está sendo negociado por empréstimo com o Al Ittihad Kalba, dos Emirados Árabes.
 1	Isso	_	PRON	PRON	_	0	root	_	_
 2	porque	_	CCONJ	CONJ	_	7	mark	_	_
-3	o	o	DET	DET	_	4	det	_	_
+3	o	o	DET	DET	PronType=Art	4	det	_	_
 4	jogador	jogador	NOUN	NOUN	_	7	nsubj:pass	_	_
 5	está	estar	AUX	AUX	_	7	aux	_	_
 6	sendo	ser	AUX	AUX	_	7	aux:pass	_	_
@@ -178,7 +178,7 @@
 8	por	por	ADP	ADP	_	9	case	_	_
 9	empréstimo	empréstimo	NOUN	NOUN	_	7	nmod	_	_
 10	com	com	ADP	ADP	_	12	case	_	_
-11	o	o	DET	DET	_	12	det	_	_
+11	o	o	DET	DET	PronType=Art	12	det	_	_
 12	Al	_	PROPN	PNOUN	_	7	nmod	_	_
 13	Ittihad	_	PROPN	PNOUN	_	12	flat	_	_
 14	Kalba	_	PROPN	PNOUN	_	12	flat	_	SpaceAfter=No
@@ -223,7 +223,7 @@
 26	bloco	bloco	NOUN	NOUN	_	23	nmod	_	_
 27	intermediário	intermediário	ADJ	ADJ	_	26	amod	_	_
 28	para	para	ADP	ADP	_	30	case	_	_
-29	a	o	DET	DET	_	30	det	_	_
+29	a	o	DET	DET	PronType=Art	30	det	_	_
 30	platéia	platéia	NOUN	NOUN	_	20	nmod	_	_
 31	que	_	PRON	PRON	_	34	nsubj	_	_
 32	deverá	dever	AUX	AUX	_	34	aux	_	_
@@ -239,7 +239,7 @@
 
 # sent_id = train-s9206
 # text = As autoridades estudam se houve falha no motor ou no trem de pouso do Tupolev, ou um erro do piloto.
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	PronType=Art	2	det	_	_
 2	autoridades	autoridade	NOUN	NOUN	_	3	nsubj	_	_
 3	estudam	estudar	VERB	VERB	_	0	root	_	_
 4	se	_	CCONJ	CONJ	_	5	mark	_	_

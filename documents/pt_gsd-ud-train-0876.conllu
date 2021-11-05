@@ -20,7 +20,7 @@
 9	linda	lindo	ADJ	ADJ	_	7	xcomp	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	11	punct	_	_
 11	adoro	adorar	VERB	VERB	_	2	conj	_	_
-12	a	o	DET	DET	_	13	det	_	_
+12	a	o	DET	DET	PronType=Art	13	det	_	_
 13	espontaneidade	espontaneidade	NOUN	NOUN	_	11	obj	_	_
 14	dela	_	X	ADPPRON	_	13	det:poss	_	SpaceAfter=No
 15	,	,	PUNCT	.	_	17	punct	_	_
@@ -39,7 +39,7 @@
 # text = Oferecer para os vizinhos, nem pensar, pois todos também tinham porco gordo para vender.
 1	Oferecer	oferecer	VERB	VERB	_	7	xcomp	_	_
 2	para	para	ADP	ADP	_	4	case	_	_
-3	os	o	DET	DET	_	4	det	_	_
+3	os	o	DET	DET	PronType=Art	4	det	_	_
 4	vizinhos	vizinho	NOUN	NOUN	_	1	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	1	punct	_	_
 6	nem	_	ADV	ADV	_	7	advmod	_	_
@@ -71,7 +71,7 @@
 12	la	_	PRON	PRON	_	10	obj	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	16	punct	_	_
 14	só	só	ADV	ADV	_	16	advmod	_	_
-15	os	o	DET	DET	_	16	det	_	_
+15	os	o	DET	DET	PronType=Art	16	det	_	_
 16	tipos	tipo	NOUN	NOUN	_	10	parataxis	_	_
 17	2	_	NUM	NUM	NumType=Card	16	appos	_	SpaceAfter=No
 18	,	,	PUNCT	.	_	19	punct	_	_
@@ -83,7 +83,7 @@
 
 # sent_id = train-s8698
 # text = A Vale explicou que pela perspectiva de expansão 'mais moderada' da economia mundial nos próximos anos será importante obter 'uma maior produtividade e custos menores'.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	Vale	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	explicou	explicar	VERB	VERB	_	0	root	_	_
 4	que	que	CCONJ	CONJ	_	22	mark	_	_
@@ -132,10 +132,10 @@
 # sent_id = train-s8700
 # text = Segundo a Anac, o Plano de Emergência, elaborado pelo operador aeroportuário, é um documento que estabelece as responsabilidades dos órgãos, entidades ou profissionais que possam ser acionados para o atendimento às emergências ocorridas no aeroporto ou em seu entorno.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	Anac	_	PROPN	PNOUN	_	18	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
-5	o	o	DET	DET	_	6	det	_	_
+5	o	o	DET	DET	PronType=Art	6	det	_	_
 6	Plano	_	PROPN	PNOUN	_	18	nsubj	_	_
 7	de	de	ADP	ADP	_	8	case	_	_
 8	Emergência	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
@@ -152,7 +152,7 @@
 18	documento	documento	NOUN	NOUN	_	0	root	_	_
 19	que	_	PRON	PRON	_	20	nsubj	_	_
 20	estabelece	estabelecer	VERB	VERB	_	18	acl:relcl	_	_
-21	as	o	DET	DET	_	22	det	_	_
+21	as	o	DET	DET	PronType=Art	22	det	_	_
 22	responsabilidades	responsabilidade	NOUN	NOUN	_	20	obj	_	_
 23-24	dos	_	_	_	_	_	_	_	_
 23	de	de	ADP	ADP	_	25	case	_	_
@@ -167,7 +167,7 @@
 32	ser	ser	AUX	AUX	_	33	aux:pass	_	_
 33	acionados	acionar	VERB	VERB	_	25	acl:relcl	_	_
 34	para	para	ADP	ADP	_	36	case	_	_
-35	o	o	DET	DET	_	36	det	_	_
+35	o	o	DET	DET	PronType=Art	36	det	_	_
 36	atendimento	atendimento	NOUN	NOUN	_	33	nmod	_	_
 37-38	às	_	_	_	_	_	_	_	_
 37	a	a	ADP	ADP	_	39	case	_	_
@@ -188,7 +188,7 @@
 # text = Este é o retrato delas traçado pelo Ipea (Instituto de Pesquisa Econômica Aplicada), por meio do cruzamento de dados da Pnad (Pesquisa Nacional por Amostra de Domicílio) 2009, divulgados este ano pelo IBGE (Instituto Brasileiro de Geografia e Estatística).
 1	Este	_	PRON	PRON	_	4	nsubj	_	_
 2	é	ser	AUX	AUX	_	4	cop	_	_
-3	o	o	DET	DET	_	4	det	_	_
+3	o	o	DET	DET	PronType=Art	4	det	_	_
 4	retrato	retrato	NOUN	NOUN	_	0	root	_	_
 5	delas	_	X	ADPPRON	_	4	det:poss	_	_
 6	traçado	traçar	VERB	VERB	_	4	acl	_	_
@@ -281,7 +281,7 @@
 30	Seguros	_	PROPN	PNOUN	_	29	flat	_	_
 31	--	_	PUNCT	.	_	26	punct	_	_
 32	farão	fazer	VERB	VERB	_	0	root	_	_
-33	a	o	DET	DET	_	34	det	_	_
+33	a	o	DET	DET	PronType=Art	34	det	_	_
 34	entrega	entrega	NOUN	NOUN	_	32	obj	_	_
 35-36	da	_	_	_	_	_	_	_	_
 35	de	de	ADP	ADP	_	37	case	_	_
@@ -317,11 +317,11 @@
 
 # sent_id = train-s8703
 # text = O linfoma que atingiu o parlamentar é um tipo de câncer no sistema linfático, folicular, indolente e de baixa agressividade.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	linfoma	linfoma	NOUN	NOUN	_	9	nsubj	_	_
 3	que	_	PRON	PRON	_	4	nsubj	_	_
 4	atingiu	atingir	VERB	VERB	_	2	acl:relcl	_	_
-5	o	o	DET	DET	_	6	det	_	_
+5	o	o	DET	DET	PronType=Art	6	det	_	_
 6	parlamentar	parlamentar	NOUN	NOUN	_	4	obj	_	_
 7	é	ser	AUX	AUX	_	9	cop	_	_
 8	um	um	DET	DET	_	9	det	_	_

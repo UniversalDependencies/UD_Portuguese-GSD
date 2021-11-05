@@ -1,6 +1,6 @@
 # sent_id = train-s3047
 # text = Os poloneses demonstraram reação (19 / 15) e Bernardinho pediu tempo.
-1	Os	o	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	PronType=Art	2	det	_	_
 2	poloneses	polonês	NOUN	NOUN	_	3	nsubj	_	_
 3	demonstraram	demonstrar	VERB	VERB	_	0	root	_	_
 4	reação	reação	NOUN	NOUN	_	3	obj	_	_
@@ -17,7 +17,7 @@
 
 # sent_id = train-s3048
 # text = O aeroporto conta com uma área patrimonial de 60 hectares e quando em funcionamento servirá de alternativa para vôos nacionais e internacionais.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	aeroporto	aeroporto	NOUN	NOUN	_	3	nsubj	_	_
 3	conta	contar	VERB	VERB	_	0	root	_	_
 4	com	com	ADP	ADP	_	6	case	_	_
@@ -45,19 +45,19 @@
 # text = "Todos os processos são importantes, mas o mais importante de todos é a governança", defende Gerdau.
 1	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
 2	Todos	_	DET	DET	_	4	det	_	_
-3	os	o	DET	DET	_	4	det	_	_
+3	os	o	DET	DET	PronType=Art	4	det	_	_
 4	processos	processo	NOUN	NOUN	_	5	nsubj	_	_
 5	são	ser	VERB	VERB	_	19	ccomp	_	_
 6	importantes	importante	ADJ	ADJ	_	5	xcomp	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	11	punct	_	_
 8	mas	mas	CCONJ	CONJ	_	11	cc	_	_
-9	o	o	DET	DET	_	11	det	_	_
+9	o	o	DET	DET	PronType=Art	11	det	_	_
 10	mais	mais	ADV	ADV	_	11	advmod	_	_
 11	importante	importante	NOUN	NOUN	_	5	conj	_	_
 12	de	de	ADP	ADP	_	13	case	_	_
 13	todos	_	PRON	PRON	_	11	nmod	_	_
 14	é	ser	AUX	AUX	_	11	cop	_	_
-15	a	o	DET	DET	_	16	det	_	_
+15	a	o	DET	DET	PronType=Art	16	det	_	_
 16	governança	governança	NOUN	NOUN	_	11	nsubj	_	SpaceAfter=No
 17	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
 18	,	,	PUNCT	.	_	19	punct	_	_
@@ -67,7 +67,7 @@
 
 # sent_id = train-s3050
 # text = A investida minuciosamente planejada foi levada a cabo justamente antes do empossamento de Barack, assim ele pôde dizer que era hora de vislumbrar o futuro, não o passado.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	investida	_	NOUN	NOUN	_	6	nsubj:pass	_	_
 3	minuciosamente	minuciosamente	ADV	ADV	_	4	advmod	_	_
 4	planejada	planejar	VERB	VERB	_	2	acl	_	_
@@ -93,11 +93,11 @@
 23	hora	hora	NOUN	NOUN	_	20	ccomp	_	_
 24	de	_	ADP	ADP	_	25	mark	_	_
 25	vislumbrar	vislumbrar	VERB	VERB	_	23	nmod	_	_
-26	o	o	DET	DET	_	27	det	_	_
+26	o	o	DET	DET	PronType=Art	27	det	_	_
 27	futuro	futuro	NOUN	NOUN	_	25	obj	_	SpaceAfter=No
 28	,	,	PUNCT	.	_	31	punct	_	_
 29	não	não	ADV	ADV	Polarity=Neg	31	advmod	_	_
-30	o	o	DET	DET	_	31	det	_	_
+30	o	o	DET	DET	PronType=Art	31	det	_	_
 31	passado	passado	NOUN	NOUN	_	27	conj	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	6	punct	_	_
 
@@ -154,7 +154,7 @@
 15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	semana	semana	NOUN	NOUN	_	20	nmod	_	_
 17	passada	passado	ADJ	ADJ	_	16	amod	_	_
-18	os	o	DET	DET	_	19	det	_	_
+18	os	o	DET	DET	PronType=Art	19	det	_	_
 19	protestos	protesto	NOUN	NOUN	_	20	nsubj	_	_
 20	provocaram	provocar	VERB	VERB	_	6	acl:relcl	_	_
 21	vítimas	vítima	NOUN	NOUN	_	20	obj	_	SpaceAfter=No
@@ -162,7 +162,7 @@
 
 # sent_id = train-s3053
 # text = A atleta, que está solteira, ressaltou que está em busca dum companheiro: "Então, garotos, vocês podem contatar meu agente e dizer que preciso dum encontro.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	atleta	atleta	NOUN	NOUN	_	8	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	5	punct	_	_
 4	que	_	PRON	PRON	_	5	nsubj	_	_
@@ -201,12 +201,12 @@
 
 # sent_id = train-s3054
 # text = A principal recomendação é que os estudantes cheguem cedo aos locais de provas.
-1	A	o	DET	DET	_	3	det	_	_
+1	A	o	DET	DET	PronType=Art	3	det	_	_
 2	principal	principal	ADJ	ADJ	_	3	amod	_	_
 3	recomendação	recomendação	NOUN	NOUN	_	0	root	_	_
 4	é	ser	AUX	AUX	_	3	cop	_	_
 5	que	que	CCONJ	CONJ	_	8	mark	_	_
-6	os	o	DET	DET	_	7	det	_	_
+6	os	o	DET	DET	PronType=Art	7	det	_	_
 7	estudantes	estudante	NOUN	NOUN	_	8	nsubj	_	_
 8	cheguem	chegar	VERB	VERB	_	3	csubj	_	_
 9	cedo	cedo	ADV	ADV	_	8	advmod	_	_
@@ -230,7 +230,7 @@
 2	em	em	ADP	ADP	_	3	case	_	_
 3	outras	_	PRON	PRON	_	8	nmod	_	_
 4	,	,	PUNCT	.	_	3	punct	_	_
-5	o	o	DET	DET	_	6	det	_	_
+5	o	o	DET	DET	PronType=Art	6	det	_	_
 6	sacerdócio	sacerdócio	NOUN	NOUN	_	8	nsubj:pass	_	_
 7	é	ser	AUX	AUX	_	8	aux:pass	_	_
 8	herdado	herdar	VERB	VERB	_	0	root	_	_

@@ -1,6 +1,6 @@
 # sent_id = train-s1589
 # text = A proposta prevê aumentos que variam entre 25 % e 40 % sobre os salários de março, já reajustados, a serem pagos em 2013, 2014 e 2015, na proporção de 50 %, 30 % e 20 %.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	proposta	_	NOUN	NOUN	_	3	nsubj	_	_
 3	prevê	prever	VERB	VERB	_	0	root	_	_
 4	aumentos	aumento	NOUN	NOUN	_	3	obj	_	_
@@ -13,7 +13,7 @@
 11	40	_	NUM	NUM	NumType=Card	12	nummod	_	_
 12	%	_	SYM	SYM	_	9	conj	_	_
 13	sobre	_	ADP	ADP	_	15	case	_	_
-14	os	o	DET	DET	_	15	det	_	_
+14	os	o	DET	DET	PronType=Art	15	det	_	_
 15	salários	salário	NOUN	NOUN	_	9	nmod	_	_
 16	de	de	ADP	ADP	_	17	case	_	_
 17	março	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
@@ -52,7 +52,7 @@
 2	torcedores	torcedor	NOUN	NOUN	_	4	nsubj	_	_
 3	tem	ter	AUX	AUX	_	4	aux	_	_
 4	questionado	questionar	VERB	VERB	_	0	root	_	_
-5	o	o	DET	DET	_	6	det	_	_
+5	o	o	DET	DET	PronType=Art	6	det	_	_
 6	fato	fato	NOUN	NOUN	_	4	obj	_	_
 7-8	dalguns	_	_	_	_	_	_	_	_
 7	de	_	ADP	ADP	_	14	mark	_	_
@@ -85,17 +85,17 @@
 9	suas	_	DET	DET	_	10	det:poss	_	_
 10	gentes	gente	NOUN	NOUN	_	6	conj	_	_
 11	contra	_	ADP	ADP	_	13	case	_	_
-12	os	o	DET	DET	_	13	det	_	_
+12	os	o	DET	DET	PronType=Art	13	det	_	_
 13	gentios	gentio	NOUN	NOUN	_	2	nmod	_	_
 14	e	e	CCONJ	CONJ	_	16	cc	_	_
-15	os	o	DET	DET	_	16	det	_	_
+15	os	o	DET	DET	PronType=Art	16	det	_	_
 16	corsários	corsário	NOUN	NOUN	_	13	conj	_	SpaceAfter=No
 17	,	,	PUNCT	.	_	2	punct	_	_
 18	a	_	ADP	ADP	_	19	mark	_	_
 19	partir	partir	VERB	VERB	_	24	nmod	_	_
 20	de	de	ADP	ADP	_	21	case	_	_
 21	1536	_	NUM	NUM	NumType=Card	19	nmod	_	_
-22	o	o	DET	DET	_	23	det	_	_
+22	o	o	DET	DET	PronType=Art	23	det	_	_
 23	donatário	donatário	NOUN	NOUN	_	24	nsubj	_	_
 24	faz	fazer	VERB	VERB	_	0	root	_	_
 25	levantar	levantar	VERB	VERB	_	24	xcomp	_	_
@@ -139,7 +139,7 @@
 57	século	século	NOUN	NOUN	_	54	nmod	_	_
 58	XVI	_	NUM	NUM	NumType=Card	57	appos	_	_
 59	--	_	PUNCT	.	_	62	punct	_	_
-60	o	o	DET	DET	_	62	det	_	_
+60	o	o	DET	DET	PronType=Art	62	det	_	_
 61	chamado	chamado	ADJ	ADJ	_	62	amod	_	_
 62	Castelo	_	PROPN	PNOUN	_	24	parataxis	_	_
 63	de	de	ADP	ADP	_	64	case	_	_
@@ -156,13 +156,13 @@
 
 # sent_id = train-s1592
 # text = Os alvos já não são apenas os caminhoneiros que transportam cargas de valor.
-1	Os	o	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	PronType=Art	2	det	_	_
 2	alvos	alvo	NOUN	NOUN	_	8	nsubj	_	_
 3	já	já	ADV	ADV	_	8	advmod	_	_
 4	não	não	ADV	ADV	Polarity=Neg	8	advmod	_	_
 5	são	ser	AUX	AUX	_	8	cop	_	_
 6	apenas	apenas	ADV	ADV	_	8	advmod	_	_
-7	os	o	DET	DET	_	8	det	_	_
+7	os	o	DET	DET	PronType=Art	8	det	_	_
 8	caminhoneiros	caminhoneiro	NOUN	NOUN	_	0	root	_	_
 9	que	_	PRON	PRON	_	10	nsubj	_	_
 10	transportam	transportar	VERB	VERB	_	8	acl:relcl	_	_
@@ -173,7 +173,7 @@
 
 # sent_id = train-s1593
 # text = As cantoras estiveram num estúdio em Fortaleza, para gravação da música que tem arranjos e influências do forró eletrônico.
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	PronType=Art	2	det	_	_
 2	cantoras	cantor	NOUN	NOUN	_	3	nsubj	_	_
 3	estiveram	estar	VERB	VERB	_	0	root	_	_
 4-5	num	_	_	_	_	_	_	_	_
@@ -225,7 +225,7 @@
 17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	governo	governo	NOUN	NOUN	_	15	nmod	_	_
 19	para	para	ADP	ADP	_	21	case	_	_
-20	o	o	DET	DET	_	21	det	_	_
+20	o	o	DET	DET	PronType=Art	21	det	_	_
 21	setor	setor	NOUN	NOUN	_	15	nmod	_	_
 22	de	de	ADP	ADP	_	23	case	_	_
 23	automóveis	automóvel	NOUN	NOUN	_	21	nmod	_	_
@@ -276,12 +276,12 @@
 2	Desde	_	ADP	ADP	_	4	mark	_	_
 3	que	_	CCONJ	CONJ	_	2	fixed	_	_
 4	assumi	assumir	VERB	VERB	_	8	advcl	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	PronType=Art	6	det	_	_
 6	delegacia	delegacia	NOUN	NOUN	_	4	obj	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	4	punct	_	_
 8	observei	observar	VERB	VERB	_	35	ccomp	_	_
 9	que	que	CCONJ	CONJ	_	16	mark	_	_
-10	os	o	DET	DET	_	11	det	_	_
+10	os	o	DET	DET	PronType=Art	11	det	_	_
 11	tabletes	tablete	NOUN	NOUN	_	16	nsubj	_	_
 12-13	da	_	_	_	_	_	_	_	_
 12	de	de	ADP	ADP	_	14	case	_	_
@@ -297,26 +297,26 @@
 21	tipo	tipo	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	.	_	23	punct	_	_
 23	tinham	ter	VERB	VERB	_	16	conj	_	_
-24	a	o	DET	DET	_	26	det	_	_
+24	a	o	DET	DET	PronType=Art	26	det	_	_
 25	mesma	mesmo	ADJ	ADJ	_	26	amod	_	_
 26	forma	forma	NOUN	NOUN	_	23	obj	_	_
 27	de	de	ADP	ADP	_	28	case	_	_
 28	embalagem	embalagem	NOUN	NOUN	_	26	nmod	_	_
 29	e	e	CCONJ	CONJ	_	32	cc	_	_
-30	a	o	DET	DET	_	32	det	_	_
+30	a	o	DET	DET	PronType=Art	32	det	_	_
 31	mesma	mesmo	ADJ	ADJ	_	32	amod	_	_
 32	textura	textura	NOUN	NOUN	_	26	conj	_	SpaceAfter=No
 33	"	"	PUNCT	.	_	8	punct	_	SpaceAfter=No
 34	,	,	PUNCT	.	_	35	punct	_	_
 35	informou	informar	VERB	VERB	_	0	root	_	_
-36	o	o	DET	DET	_	37	det	_	_
+36	o	o	DET	DET	PronType=Art	37	det	_	_
 37	policial	policial	NOUN	NOUN	_	35	nsubj	_	_
 38	civil	civil	ADJ	ADJ	_	37	amod	_	SpaceAfter=No
 39	.	.	PUNCT	.	_	35	punct	_	_
 
 # sent_id = train-s1597
 # text = O acerto já era esperado há algumas semanas, quando o jogador de 23 anos passou por exames médicos no novo clube.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	acerto	acerto	NOUN	NOUN	_	5	nsubj:pass	_	_
 3	já	já	ADV	ADV	_	5	advmod	_	_
 4	era	_	AUX	AUX	_	5	aux:pass	_	_
@@ -326,7 +326,7 @@
 8	semanas	semana	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	16	punct	_	_
 10	quando	quando	ADV	ADV	_	16	advmod	_	_
-11	o	o	DET	DET	_	12	det	_	_
+11	o	o	DET	DET	PronType=Art	12	det	_	_
 12	jogador	jogador	NOUN	NOUN	_	16	nsubj	_	_
 13	de	de	ADP	ADP	_	15	case	_	_
 14	23	_	NUM	NUM	NumType=Card	15	nummod	_	_
@@ -344,7 +344,7 @@
 
 # sent_id = train-s1598
 # text = O texto aguarda votação pelo Plenário, juntamente com outras propostas da reforma política que tratam da suplência de senador, das coligações partidárias, da fidelidade partidária, e do financiamento público exclusivo de campanha.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	texto	texto	NOUN	NOUN	_	4	nsubj	_	_
 3	aguarda	_	ADJ	ADJ	_	4	case	_	_
 4	votação	votação	NOUN	NOUN	_	0	root	_	_

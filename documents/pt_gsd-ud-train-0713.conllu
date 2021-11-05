@@ -24,7 +24,7 @@
 # sent_id = train-s7077
 # text = Dentre os produtos mais procurados pelos consumidores, se destaca o aparelho de televisão, com 18,7 % das respostas citadas pelos participantes da pesquisa.
 1	Dentre	_	ADP	ADP	_	3	case	_	_
-2	os	o	DET	DET	_	3	det	_	_
+2	os	o	DET	DET	PronType=Art	3	det	_	_
 3	produtos	produto	NOUN	NOUN	_	11	nmod	_	_
 4	mais	mais	ADV	ADV	_	5	advmod	_	_
 5	procurados	procurar	VERB	VERB	_	3	acl	_	_
@@ -35,7 +35,7 @@
 9	,	,	PUNCT	.	_	3	punct	_	_
 10	se	_	PRON	PRON	_	11	expl:pv	_	_
 11	destaca	destacar	VERB	VERB	_	0	root	_	_
-12	o	o	DET	DET	_	13	det	_	_
+12	o	o	DET	DET	PronType=Art	13	det	_	_
 13	aparelho	aparelho	NOUN	NOUN	_	11	nsubj	_	_
 14	de	de	ADP	ADP	_	15	case	_	_
 15	televisão	televisão	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
@@ -60,14 +60,14 @@
 
 # sent_id = train-s7078
 # text = O crescimento dos gastos acompanha o aumento das internações, que passou de 39.480 para 77.113 hospitalizados no período.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	crescimento	crescimento	NOUN	NOUN	_	6	nsubj	_	_
 3-4	dos	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
 4	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
 5	gastos	gasto	NOUN	NOUN	_	2	nmod	_	_
 6	acompanha	acompanhar	VERB	VERB	_	0	root	_	_
-7	o	o	DET	DET	_	8	det	_	_
+7	o	o	DET	DET	PronType=Art	8	det	_	_
 8	aumento	aumento	NOUN	NOUN	_	6	obj	_	_
 9-10	das	_	_	_	_	_	_	_	_
 9	de	de	ADP	ADP	_	11	case	_	_
@@ -146,7 +146,7 @@
 6	primeiro	primeiro	ADJ	ADJ	_	7	amod	_	_
 7	turno	turno	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	3	punct	_	_
-9	a	o	DET	DET	_	10	det	_	_
+9	a	o	DET	DET	PronType=Art	10	det	_	_
 10	presidente	presidente	NOUN	NOUN	_	11	nsubj	_	_
 11	participou	participar	VERB	VERB	_	0	root	_	_
 12-13	dum	_	_	_	_	_	_	_	_
@@ -217,7 +217,7 @@
 
 # sent_id = train-s7083
 # text = O príncipe - herdeiro acabou casando - se com a princesa Margarida de Saboia, sua prima em primeiro grau, em 21 de abril de 1868.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	príncipe	príncipe	NOUN	NOUN	_	6	nsubj	_	_
 3	-	-	PUNCT	.	_	2	punct	_	_
 4	herdeiro	herdeiro	NOUN	NOUN	_	2	flat	_	_
@@ -226,7 +226,7 @@
 7	-	-	PUNCT	.	_	6	punct	_	_
 8	se	_	PRON	PRON	_	6	obj	_	_
 9	com	com	ADP	ADP	_	11	case	_	_
-10	a	o	DET	DET	_	11	det	_	_
+10	a	o	DET	DET	PronType=Art	11	det	_	_
 11	princesa	_	NOUN	NOUN	_	6	nmod	_	_
 12	Margarida	_	PROPN	PNOUN	_	11	appos	_	_
 13	de	de	ADP	ADP	_	14	case	_	_
@@ -248,13 +248,13 @@
 
 # sent_id = train-s7084
 # text = Os resultados estão fazendo com que o modelo seja referência.
-1	Os	o	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	PronType=Art	2	det	_	_
 2	resultados	resultado	NOUN	NOUN	_	4	nsubj	_	_
 3	estão	estar	AUX	AUX	_	4	aux	_	_
 4	fazendo	fazer	VERB	VERB	_	0	root	_	_
 5	com	_	ADP	ADP	_	10	mark	_	_
 6	que	que	CCONJ	CONJ	_	10	mark	_	_
-7	o	o	DET	DET	_	8	det	_	_
+7	o	o	DET	DET	PronType=Art	8	det	_	_
 8	modelo	modelo	NOUN	NOUN	_	10	nsubj	_	_
 9	seja	ser	AUX	AUX	_	10	cop	_	_
 10	referência	referência	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
@@ -262,7 +262,7 @@
 
 # sent_id = train-s7085
 # text = Os desabrigados de Belford Roxo, também na baixada, Petrópolis, região serrana, Angra dos Reis e Mangaratiba, no litoral sul fluminense, receberão neste domingo kits com água, cestas básicas e colchonetes.
-1	Os	o	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	PronType=Art	2	det	_	_
 2	desabrigados	_	NOUN	NOUN	_	30	nsubj	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	Belford	_	PROPN	PNOUN	_	2	nmod	_	_

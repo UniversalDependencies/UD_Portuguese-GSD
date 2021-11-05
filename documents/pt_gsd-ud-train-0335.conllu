@@ -33,14 +33,14 @@
 9	para	_	ADP	ADP	_	11	mark	_	_
 10	ele	_	PRON	PRON	_	11	nsubj	_	_
 11	readquirir	readquirir	VERB	VERB	_	8	nmod	_	_
-12	o	o	DET	DET	_	13	det	_	_
+12	o	o	DET	DET	PronType=Art	13	det	_	_
 13	ritmo	ritmo	NOUN	NOUN	_	11	obj	_	_
 14	forte	forte	ADJ	ADJ	_	13	amod	_	_
 15	porque	_	CCONJ	CONJ	_	18	mark	_	_
 16	ele	_	PRON	PRON	_	18	nsubj	_	_
 17	pode	_	AUX	AUX	_	18	aux	_	_
 18	fazer	fazer	VERB	VERB	_	7	advcl	_	_
-19	a	o	DET	DET	_	20	det	_	_
+19	a	o	DET	DET	PronType=Art	20	det	_	_
 20	diferença	diferença	NOUN	NOUN	_	18	obj	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
 22	"	"	PUNCT	.	_	1	punct	_	_
@@ -110,7 +110,7 @@
 
 # sent_id = train-s3326
 # text = A modalidade somou R $ 8,6 milhões no período.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	modalidade	modalidade	NOUN	NOUN	_	3	nsubj	_	_
 3	somou	somar	VERB	VERB	_	0	root	_	_
 4	R	r	NOUN	NOUN	_	3	obj	_	_
@@ -134,10 +134,10 @@
 5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	caminho	caminho	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	3	punct	_	_
-8	o	o	DET	DET	_	9	det	_	_
+8	o	o	DET	DET	PronType=Art	9	det	_	_
 9	projeto	projeto	NOUN	NOUN	_	10	nsubj	_	_
 10	prevê	prever	VERB	VERB	_	0	root	_	_
-11	a	o	DET	DET	_	12	det	_	_
+11	a	o	DET	DET	PronType=Art	12	det	_	_
 12	construção	construção	NOUN	NOUN	_	10	obj	_	_
 13	de	de	ADP	ADP	_	15	case	_	_
 14	nove	_	NUM	NUM	NumType=Card	15	nummod	_	_
@@ -160,7 +160,7 @@
 8	viajante	viajante	ADJ	ADJ	_	7	amod	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	10	punct	_	_
 10	percorrendo	percorrer	VERB	VERB	_	7	acl	_	_
-11	o	o	DET	DET	_	12	det	_	_
+11	o	o	DET	DET	PronType=Art	12	det	_	_
 12	território	território	NOUN	NOUN	_	10	obj	_	_
 13	americano	americano	ADJ	ADJ	_	12	amod	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	17	punct	_	_
@@ -221,7 +221,7 @@
 
 # sent_id = train-s3330
 # text = O judoca brasileiro Bruno Mendonça foi eliminado na categoria até 73 kg dos Jogos Olímpicos de Londres nas oitavas de final pelo holandês Dex Elmont.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	judoca	judoca	NOUN	NOUN	_	7	nsubj:pass	_	_
 3	brasileiro	brasileiro	ADJ	ADJ	_	2	amod	_	_
 4	Bruno	_	PROPN	PNOUN	_	2	appos	_	_

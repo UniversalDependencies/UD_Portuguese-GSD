@@ -7,7 +7,7 @@
 
 # sent_id = train-s1440
 # text = A proporção é pior nos estados de Alagoas (2,6), Pernambuco (2,4) e do Acre (2,2), com déficit de 2,085 mil, 15,283 mil e 2,045 mil vagas, respectivamente.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	proporção	proporção	NOUN	NOUN	_	3	nsubj	_	_
 3	é	ser	VERB	VERB	_	0	root	_	_
 4	pior	pior	ADJ	ADJ	_	3	xcomp	_	_
@@ -52,7 +52,7 @@
 
 # sent_id = train-s1441
 # text = O lançamento dos três primeiros editais foi feito nesta sexta - feira (22).
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	lançamento	lançamento	NOUN	NOUN	_	9	nsubj:pass	_	_
 3-4	dos	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	7	case	_	_
@@ -75,7 +75,7 @@
 # text = Inclusive para o Botafogo, que soma 50 pontos e está embalado por três vitórias consecutivas, mas só se alimenta de chances matemáticas de disputar a próxima Libertadores.
 1	Inclusive	inclusive	ADV	ADV	_	4	advmod	_	_
 2	para	para	ADP	ADP	_	4	case	_	_
-3	o	o	DET	DET	_	4	det	_	_
+3	o	o	DET	DET	PronType=Art	4	det	_	_
 4	Botafogo	_	PROPN	PNOUN	_	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	7	punct	_	_
 6	que	_	PRON	PRON	_	7	nsubj	_	_
@@ -99,7 +99,7 @@
 24	matemáticas	matemático	ADJ	ADJ	_	23	amod	_	_
 25	de	_	ADP	ADP	_	26	mark	_	_
 26	disputar	disputar	VERB	VERB	_	23	nmod	_	_
-27	a	o	DET	DET	_	29	det	_	_
+27	a	o	DET	DET	PronType=Art	29	det	_	_
 28	próxima	próximo	ADJ	ADJ	_	29	amod	_	_
 29	Libertadores	_	PROPN	PNOUN	_	26	obj	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	4	punct	_	_
@@ -107,14 +107,14 @@
 # sent_id = train-s1443
 # text = Após a fuga dos invasores, o dono da casa conseguiu avisar a polícia.
 1	Após	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	fuga	fuga	NOUN	NOUN	_	13	nmod	_	_
 4-5	dos	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
 5	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
 6	invasores	invasor	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	3	punct	_	_
-8	o	o	DET	DET	_	9	det	_	_
+8	o	o	DET	DET	PronType=Art	9	det	_	_
 9	dono	dono	NOUN	NOUN	_	13	nsubj	_	_
 10-11	da	_	_	_	_	_	_	_	_
 10	de	de	ADP	ADP	_	12	case	_	_
@@ -122,7 +122,7 @@
 12	casa	casa	NOUN	NOUN	_	9	nmod	_	_
 13	conseguiu	conseguir	VERB	VERB	_	0	root	_	_
 14	avisar	avisar	VERB	VERB	_	13	xcomp	_	_
-15	a	o	DET	DET	_	16	det	_	_
+15	a	o	DET	DET	PronType=Art	16	det	_	_
 16	polícia	polícia	NOUN	NOUN	_	14	obj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	13	punct	_	_
 
@@ -136,11 +136,11 @@
 6	que	que	CCONJ	CONJ	_	8	mark	_	_
 7	estava	estar	AUX	AUX	_	8	aux	_	_
 8	reassumindo	reassumir	VERB	VERB	_	5	ccomp	_	_
-9	a	o	DET	DET	_	10	det	_	_
+9	a	o	DET	DET	PronType=Art	10	det	_	_
 10	candidatura	candidatura	NOUN	NOUN	_	8	obj	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	5	punct	_	_
 12	deixando	deixar	VERB	VERB	_	21	acl	_	_
-13	os	o	DET	DET	_	14	det	_	_
+13	os	o	DET	DET	PronType=Art	14	det	_	_
 14	parceiros	parceiro	NOUN	NOUN	_	15	nsubj	_	_
 15	desorientados	desorientado	ADJ	ADJ	_	12	xcomp	_	_
 16	e	_	CCONJ	CONJ	_	21	dep	_	_
@@ -150,7 +150,7 @@
 20	,	,	PUNCT	.	_	19	punct	_	_
 21	disse	dizer	VERB	VERB	_	0	root	_	_
 22	que	que	CCONJ	CONJ	_	30	mark	_	_
-23	as	o	DET	DET	_	24	det	_	_
+23	as	o	DET	DET	PronType=Art	24	det	_	_
 24	razões	razão	NOUN	NOUN	_	30	obj	_	_
 25-26	da	_	_	_	_	_	_	_	_
 25	de	de	ADP	ADP	_	27	case	_	_
@@ -200,7 +200,7 @@
 13	grande	grande	ADJ	ADJ	_	14	amod	_	_
 14	desafio	desafio	NOUN	NOUN	_	22	ccomp	_	_
 15	que	_	PRON	PRON	_	18	obj	_	_
-16	o	o	DET	DET	_	17	det	_	_
+16	o	o	DET	DET	PronType=Art	17	det	_	_
 17	Ministério	_	PROPN	PNOUN	_	18	nsubj	_	_
 18	busca	buscar	VERB	VERB	_	14	acl:relcl	_	_
 19	constantemente	constantemente	ADV	ADV	_	18	advmod	_	SpaceAfter=No
@@ -250,7 +250,7 @@
 18	,	,	PUNCT	.	_	16	punct	_	_
 19	a	_	ADP	ADP	_	20	mark	_	_
 20	acompanhar	acompanhar	VERB	VERB	_	8	nmod	_	_
-21	a	o	DET	DET	_	22	det	_	_
+21	a	o	DET	DET	PronType=Art	22	det	_	_
 22	entrega	entrega	NOUN	NOUN	_	20	obj	_	_
 23-24	do	_	_	_	_	_	_	_	_
 23	de	de	ADP	ADP	_	25	case	_	_
@@ -287,7 +287,7 @@
 4	processo	processo	NOUN	NOUN	_	10	advcl	_	_
 5	novo	novo	ADJ	ADJ	_	4	amod	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	4	punct	_	_
-7	a	o	DET	DET	_	8	det	_	_
+7	a	o	DET	DET	PronType=Art	8	det	_	_
 8	ação	ação	NOUN	NOUN	_	10	nsubj	_	_
 9	cautelar	cautelar	ADJ	ADJ	_	8	amod	_	_
 10	está	estar	VERB	VERB	_	0	root	_	_
@@ -301,7 +301,7 @@
 18	e	e	CCONJ	CONJ	_	20	cc	_	_
 19	que	_	PRON	PRON	_	20	nsubj	_	_
 20	tem	ter	VERB	VERB	_	15	conj	_	_
-21	o	o	DET	DET	_	22	det	_	_
+21	o	o	DET	DET	PronType=Art	22	det	_	_
 22	número	número	NOUN	NOUN	_	20	obj	_	_
 23	18026-35.2011.4.01.3900	_	NUM	NUM	NumType=Card	22	appos	_	SpaceAfter=No
 24	,	,	PUNCT	.	_	27	punct	_	_

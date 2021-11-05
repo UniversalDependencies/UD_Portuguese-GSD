@@ -24,7 +24,7 @@
 21	Peter	_	PROPN	PNOUN	_	17	nmod	_	_
 22	Franks	_	PROPN	PNOUN	_	21	flat	_	SpaceAfter=No
 23	,	,	PUNCT	.	_	25	punct	_	_
-24	o	o	DET	DET	_	25	det	_	_
+24	o	o	DET	DET	PronType=Art	25	det	_	_
 25	contato	contato	NOUN	NOUN	_	21	appos	_	_
 26	de	de	ADP	ADP	_	27	case	_	_
 27	Case	_	PROPN	PNOUN	_	25	nmod	_	_
@@ -54,7 +54,7 @@
 48	,	,	PUNCT	.	_	17	punct	_	_
 49	ele	_	PRON	PRON	_	50	nsubj	_	_
 50	descobre	descobrir	VERB	VERB	_	13	acl:relcl	_	_
-51	a	o	DET	DET	_	52	det	_	_
+51	a	o	DET	DET	PronType=Art	52	det	_	_
 52	rede	rede	NOUN	NOUN	_	50	obj	_	_
 53	de	de	ADP	ADP	_	54	case	_	_
 54	contrabando	contrabando	NOUN	NOUN	_	52	nmod	_	_
@@ -80,7 +80,7 @@
 3	sentido	sentido	NOUN	NOUN	_	8	nmod	_	_
 4	litoral	litoral	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	3	punct	_	_
-6	o	o	DET	DET	_	7	det	_	_
+6	o	o	DET	DET	PronType=Art	7	det	_	_
 7	fluxo	fluxo	NOUN	NOUN	_	8	nsubj	_	_
 8	chega	chegar	VERB	VERB	_	0	root	_	_
 9	a	_	ADP	ADP	_	11	case	_	_
@@ -92,7 +92,7 @@
 
 # sent_id = train-s7568
 # text = O crime aconteceu na quadra 04, na Vila Buritis I.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	crime	crime	NOUN	NOUN	_	3	nsubj	_	_
 3	aconteceu	acontecer	VERB	VERB	_	0	root	_	_
 4-5	na	_	_	_	_	_	_	_	_
@@ -110,7 +110,7 @@
 
 # sent_id = train-s7569
 # text = O ator Vince Vaughn, mais conhecido por comédias como "Penetras Bons de Bico" (2005), vai estrelar e produzir "Gunslingers", filme que será escrito por Randall Wallace, roteirista de "Coração Valente" (1995).
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	ator	ator	NOUN	NOUN	_	22	nsubj	_	_
 3	Vince	_	PROPN	PNOUN	_	2	appos	_	_
 4	Vaughn	_	PROPN	PNOUN	_	3	flat	_	SpaceAfter=No
@@ -159,7 +159,7 @@
 
 # sent_id = train-s7570
 # text = Os vídeos possuem legendas em português.
-1	Os	o	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	PronType=Art	2	det	_	_
 2	vídeos	vídeo	NOUN	NOUN	_	3	nsubj	_	_
 3	possuem	possuir	VERB	VERB	_	0	root	_	_
 4	legendas	legenda	NOUN	NOUN	_	3	obj	_	_
@@ -170,13 +170,13 @@
 # sent_id = train-s7571
 # text = Como a corte está em recesso, os pedidos foram conclusos à presidência, mas poderão ser apreciados a partir desta quarta - feira, quando o STF volta a funcionar normalmente.
 1	Como	_	CCONJ	CONJ	_	4	mark	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	PronType=Art	3	det	_	_
 3	corte	corte	NOUN	NOUN	_	4	nsubj	_	_
 4	está	estar	VERB	VERB	_	11	advcl	_	_
 5	em	em	ADP	ADP	_	6	case	_	_
 6	recesso	recesso	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	4	punct	_	_
-8	os	o	DET	DET	_	9	det	_	_
+8	os	o	DET	DET	PronType=Art	9	det	_	_
 9	pedidos	pedido	NOUN	NOUN	_	11	nsubj:pass	_	_
 10	foram	_	AUX	AUX	_	11	aux:pass	_	_
 11	conclusos	_	VERB	VERB	_	0	root	_	_
@@ -197,7 +197,7 @@
 25	feira	_	PROPN	PNOUN	_	21	nmod	_	SpaceAfter=No
 26	,	,	PUNCT	.	_	32	punct	_	_
 27	quando	quando	ADV	ADV	_	32	advmod	_	_
-28	o	o	DET	DET	_	29	det	_	_
+28	o	o	DET	DET	PronType=Art	29	det	_	_
 29	STF	_	PROPN	PNOUN	_	32	nsubj	_	_
 30	volta	voltar	AUX	AUX	_	32	aux	_	_
 31	a	_	ADP	ADP	_	32	mark	_	_
@@ -207,7 +207,7 @@
 
 # sent_id = train-s7572
 # text = O Flamengo deu mais um passo em busca da contratação do meia Renato Augusto, do Bayer Leverkusen.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	Flamengo	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	deu	dar	VERB	VERB	_	0	root	_	_
 4	mais	mais	ADV	ADV	_	5	advmod	_	_
@@ -253,7 +253,7 @@
 15	logo	logo	ADV	ADV	_	16	advmod	_	_
 16	após	_	ADP	ADP	_	17	mark	_	_
 17	gravar	gravar	VERB	VERB	_	30	advcl	_	_
-18	a	o	DET	DET	_	19	det	_	_
+18	a	o	DET	DET	PronType=Art	19	det	_	_
 19	marcha	marcha	NOUN	NOUN	_	17	obj	_	_
 20	Querido	_	PROPN	PNOUN	_	21	amod	_	_
 21	Adão	_	PROPN	PNOUN	_	19	appos	_	_
@@ -267,13 +267,13 @@
 29	,	,	PUNCT	.	_	17	punct	_	_
 30	viajou	viajar	VERB	VERB	_	7	advcl	_	_
 31	para	para	ADP	ADP	_	33	case	_	_
-32	a	o	DET	DET	_	33	det	_	_
+32	a	o	DET	DET	PronType=Art	33	det	_	_
 33	Argentina	_	PROPN	PNOUN	_	30	nmod	_	SpaceAfter=No
 34	,	,	PUNCT	.	_	37	punct	_	_
 35	não	não	ADV	ADV	Polarity=Neg	37	advmod	_	_
 36	podendo	poder	AUX	AUX	_	37	aux	_	_
 37	lançar	lançar	VERB	VERB	_	30	acl	_	_
-38	a	o	DET	DET	_	39	det	_	_
+38	a	o	DET	DET	PronType=Art	39	det	_	_
 39	música	_	NOUN	NOUN	_	37	obj	_	_
 40-41	no	_	_	_	_	_	_	_	_
 40	em	em	ADP	ADP	_	42	case	_	_
@@ -283,7 +283,7 @@
 
 # sent_id = train-s7574
 # text = As altas no preço ante junho chegaram a 121,34 %, em Belo Horizonte;
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	PronType=Art	2	det	_	_
 2	altas	_	NOUN	NOUN	_	8	nsubj	_	_
 3-4	no	_	_	_	_	_	_	_	_
 3	em	em	ADP	ADP	_	5	case	_	_
@@ -303,7 +303,7 @@
 
 # sent_id = train-s7575
 # text = O efeito é praticamente nulo ", alertou.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	efeito	efeito	NOUN	NOUN	_	3	nsubj	_	_
 3	é	ser	VERB	VERB	_	8	ccomp	_	_
 4	praticamente	praticamente	ADV	ADV	_	5	advmod	_	_

@@ -2,7 +2,7 @@
 # text = Em Aracaju a hipertensão 22,7 % da população.
 1	Em	em	ADP	ADP	_	2	case	_	_
 2	Aracaju	_	PROPN	PNOUN	_	4	nmod	_	_
-3	a	o	DET	DET	_	4	det	_	_
+3	a	o	DET	DET	PronType=Art	4	det	_	_
 4	hipertensão	hipertensão	NOUN	NOUN	_	0	root	_	_
 5	22,7	_	NUM	NUM	NumType=Card	6	nummod	_	_
 6	%	_	SYM	SYM	_	4	dep	_	_
@@ -17,7 +17,7 @@
 1	Outra	_	DET	DET	_	2	det	_	_
 2	expectativa	expectativa	NOUN	NOUN	_	5	nsubj	_	_
 3	é	ser	AUX	AUX	_	5	cop	_	_
-4	o	o	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	PronType=Art	5	det	_	_
 5	Projeto	_	PROPN	PNOUN	_	0	root	_	_
 6	de	de	ADP	ADP	_	7	case	_	_
 7	Lei	_	PROPN	PNOUN	_	5	nmod	_	_
@@ -44,7 +44,7 @@
 26	,	,	PUNCT	.	_	28	punct	_	_
 27	que	_	PRON	PRON	_	28	nsubj	_	_
 28	prevê	prever	VERB	VERB	_	5	acl:relcl	_	_
-29	o	o	DET	DET	_	30	det	_	_
+29	o	o	DET	DET	PronType=Art	30	det	_	_
 30	licenciamento	licenciamento	NOUN	NOUN	_	28	obj	_	_
 31	de	de	ADP	ADP	_	32	case	_	_
 32	obras	obra	NOUN	NOUN	_	30	nmod	_	_
@@ -74,7 +74,7 @@
 
 # sent_id = train-s2286
 # text = O PSDB e o PSD saíram das urnas com o mesmo número de municípios sob controle até 2016.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	PSDB	_	PROPN	PNOUN	_	6	nsubj	_	_
 3	e	e	CCONJ	CONJ	_	5	cc	_	_
 4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -85,7 +85,7 @@
 8	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
 9	urnas	urna	NOUN	NOUN	_	6	nmod	_	_
 10	com	com	ADP	ADP	_	13	case	_	_
-11	o	o	DET	DET	_	13	det	_	_
+11	o	o	DET	DET	PronType=Art	13	det	_	_
 12	mesmo	mesmo	ADJ	ADJ	_	13	amod	_	_
 13	número	número	NOUN	NOUN	_	6	nmod	_	_
 14	de	de	ADP	ADP	_	15	case	_	_
@@ -98,7 +98,7 @@
 
 # sent_id = train-s2287
 # text = A decisão, que afetava milionários interesses da multinacional estadunidense, havia sido comunicada pelo Serviço Nacional de Qualidade e Saúde Vegetal e de Sementes (Senave), uma vez que a liberação não tinha o parecer do Ministério da Saúde e da Secretaria do Meio Ambiente.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	PronType=Art	2	det	_	_
 2	decisão	decisão	NOUN	NOUN	_	15	nsubj:pass	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	5	punct	_	_
 4	que	_	PRON	PRON	_	5	nsubj	_	_
@@ -134,11 +134,11 @@
 32	uma	_	DET	DET	_	38	mark	_	_
 33	vez	vez	NOUN	NOUN	_	32	fixed	_	_
 34	que	_	CCONJ	CONJ	_	32	fixed	_	_
-35	a	o	DET	DET	_	36	det	_	_
+35	a	o	DET	DET	PronType=Art	36	det	_	_
 36	liberação	liberação	NOUN	NOUN	_	38	nsubj	_	_
 37	não	não	ADV	ADV	Polarity=Neg	38	advmod	_	_
 38	tinha	ter	VERB	VERB	_	15	advcl	_	_
-39	o	o	DET	DET	_	40	det	_	_
+39	o	o	DET	DET	PronType=Art	40	det	_	_
 40	parecer	parecer	NOUN	NOUN	_	38	obj	_	_
 41-42	do	_	_	_	_	_	_	_	_
 41	de	de	ADP	ADP	_	43	case	_	_
@@ -165,7 +165,7 @@
 1	Nesta	_	ADP	ADP	_	2	case	_	_
 2	imagem	imagem	NOUN	NOUN	_	3	nmod	_	_
 3	vemos	ver	VERB	VERB	_	0	root	_	_
-4	o	o	DET	DET	_	6	det	_	_
+4	o	o	DET	DET	PronType=Art	6	det	_	_
 5	seu	_	DET	DET	_	6	det:poss	_	_
 6	Zico	_	PROPN	PNOUN	_	3	obj	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	8	punct	_	_
@@ -175,11 +175,11 @@
 10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 11	seu	_	DET	DET	_	12	det:poss	_	_
 12	lado	_	VERB	VERB	_	8	nmod	_	_
-13	o	o	DET	DET	_	14	det	_	_
+13	o	o	DET	DET	PronType=Art	14	det	_	_
 14	filho	filho	NOUN	NOUN	_	8	obj	_	_
 15	Mito	_	PROPN	PNOUN	_	14	appos	_	SpaceAfter=No
 16	,	,	PUNCT	.	_	18	punct	_	_
-17	a	o	DET	DET	_	18	det	_	_
+17	a	o	DET	DET	PronType=Art	18	det	_	_
 18	nora	nora	NOUN	NOUN	_	14	conj	_	_
 19	Soledad	_	PROPN	PNOUN	_	18	appos	_	_
 20	e	e	CCONJ	CONJ	_	22	cc	_	_
@@ -190,7 +190,7 @@
 
 # sent_id = train-s2289
 # text = O prefeito reeleito de Cansanção, Ranulfo Gomes (PSD), contratou por diversos meios de licitação a empresa GS Informática -- de nome empresarial GS de Oliveira ME -- para prestar uma série de serviços à administração municipal, desde o fornecimento de material de expediente ou didático até aparelhos de ar condicionado, ou mesmo suprimentos de informática.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	PronType=Art	2	det	_	_
 2	prefeito	prefeito	NOUN	NOUN	_	13	nsubj	_	_
 3	reeleito	reeleito	ADJ	ADJ	_	2	amod	_	_
 4	de	de	ADP	ADP	_	5	case	_	_
@@ -208,7 +208,7 @@
 16	meios	_	NOUN	NOUN	_	13	nmod	_	_
 17	de	de	ADP	ADP	_	18	case	_	_
 18	licitação	licitação	NOUN	NOUN	_	16	nmod	_	_
-19	a	o	DET	DET	_	20	det	_	_
+19	a	o	DET	DET	PronType=Art	20	det	_	_
 20	empresa	empresa	NOUN	NOUN	_	13	obj	_	_
 21	GS	_	PROPN	PNOUN	_	20	appos	_	_
 22	Informática	_	PROPN	PNOUN	_	21	flat	_	_
@@ -234,7 +234,7 @@
 41	municipal	municipal	ADJ	ADJ	_	40	amod	_	SpaceAfter=No
 42	,	,	PUNCT	.	_	45	punct	_	_
 43	desde	_	ADP	ADP	_	45	case	_	_
-44	o	o	DET	DET	_	45	det	_	_
+44	o	o	DET	DET	PronType=Art	45	det	_	_
 45	fornecimento	fornecimento	NOUN	NOUN	_	33	nmod	_	_
 46	de	de	ADP	ADP	_	47	case	_	_
 47	material	material	NOUN	NOUN	_	45	nmod	_	_
@@ -271,7 +271,7 @@
 12	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	14	punct	_	_
 14	promete	prometer	VERB	VERB	_	0	root	_	_
-15	a	o	DET	DET	_	16	det	_	_
+15	a	o	DET	DET	PronType=Art	16	det	_	_
 16	chef	_	NOUN	NOUN	_	14	nsubj	_	_
 17	de	de	ADP	ADP	_	18	case	_	_
 18	cozinha	cozinha	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
@@ -279,7 +279,7 @@
 
 # sent_id = train-s2291
 # text = Os médicos não podem mais indicar e divulgar que os pacientes utilizem pílulas, hormônios ou qualquer outra substância que prevena ou até reverta o envelhecimento.
-1	Os	o	DET	DET	_	2	det	_	_
+1	Os	o	DET	DET	PronType=Art	2	det	_	_
 2	médicos	médico	NOUN	NOUN	_	6	nsubj	_	_
 3	não	não	ADV	ADV	Polarity=Neg	6	advmod	_	_
 4	podem	_	AUX	AUX	_	6	aux	_	_
@@ -288,7 +288,7 @@
 7	e	e	CCONJ	CONJ	_	8	cc	_	_
 8	divulgar	divulgar	VERB	VERB	_	6	conj	_	_
 9	que	que	CCONJ	CONJ	_	12	mark	_	_
-10	os	o	DET	DET	_	11	det	_	_
+10	os	o	DET	DET	PronType=Art	11	det	_	_
 11	pacientes	paciente	NOUN	NOUN	_	12	nsubj	_	_
 12	utilizem	utilizar	VERB	VERB	_	6	ccomp	_	_
 13	pílulas	pílula	NOUN	NOUN	_	12	obj	_	SpaceAfter=No
@@ -303,7 +303,7 @@
 22	ou	ou	CCONJ	CONJ	_	24	cc	_	_
 23	até	até	ADV	ADV	_	24	advmod	_	_
 24	reverta	reverter	VERB	VERB	_	21	conj	_	_
-25	o	o	DET	DET	_	26	det	_	_
+25	o	o	DET	DET	PronType=Art	26	det	_	_
 26	envelhecimento	envelhecimento	NOUN	NOUN	_	21	obj	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	6	punct	_	_
 
