@@ -195,29 +195,29 @@
 11	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s8593
-# text = Garotinho tem acusado Cabral de, num primeiro momento, boicotar a manifestação desta segunda - feira e, depois, querer "passar por líder da passeata".
+# text = Garotinho tem acusado Cabral de, num primeiro momento, boicotar a manifestação desta segunda-feira e, depois, querer "passar por líder da passeata".
 1	Garotinho	_	PROPN	PNOUN	_	3	nsubj	_	_
 2	tem	ter	AUX	AUX	_	3	aux	_	_
 3	acusado	acusar	VERB	VERB	_	0	root	_	_
 4	Cabral	_	PROPN	PNOUN	_	3	obj	_	_
 5	de	_	ADP	ADP	_	12	mark	_	SpaceAfter=No
-6	,	_	PUNCT	.	_	10	punct	_	_
+6	,	,	PUNCT	_	_	10	punct	_	_
 7-8	num	_	_	_	_	_	_	_	_
-7	em	em	ADP	ADP	_	6	case	_	_
+7	em	em	ADP	ADP	_	10	case	_	_
 8	um	um	DET	DET	_	10	det	_	_
 9	primeiro	primeiro	ADJ	ADJ	_	10	amod	_	_
-10	momento	momento	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
-11	,	,	PUNCT	.	_	6	punct	_	_
+10	momento	momento	NOUN	NOUN	_	12	obl	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	10	punct	_	_
 12	boicotar	boicotar	VERB	VERB	_	3	nmod	_	_
 13	a	o	DET	DET	_	14	det	_	_
 14	manifestação	manifestação	NOUN	NOUN	_	12	obj	_	_
 15	desta	_	ADP	ADP	_	18	case	_	_
-16	segunda	segundo	ADJ	ADJ	_	18	amod	_	_
-17	-	-	PUNCT	.	_	18	punct	_	_
+16	segunda	segundo	ADJ	ADJ	_	18	amod	_	SpaceAfter=No
+17	-	-	PUNCT	.	_	18	punct	_	SpaceAfter=No
 18	feira	_	PROPN	PNOUN	_	14	nmod	_	_
 19	e	e	CCONJ	CONJ	_	23	cc	_	SpaceAfter=No
 20	,	,	PUNCT	.	_	21	punct	_	_
-21	depois	_	NUM	NUM	NumType=Card	12	advmod	_	SpaceAfter=No
+21	depois	depois	ADV	NUM	_	23	advmod	_	SpaceAfter=No
 22	,	,	PUNCT	.	_	21	punct	_	_
 23	querer	querer	VERB	VERB	_	12	conj	_	_
 24	"	"	PUNCT	.	_	25	punct	_	SpaceAfter=No
