@@ -1,6 +1,6 @@
 # sent_id = train-s4505
 # text = Os quatro objetos foram furtados neste domingo da igreja evangélica A Palavra de Cristo Verdadeira, que fica no bairro Lageado, em Campo Grande.
-1	Os	o	DET	DET	PronType=Art	3	det	_	_
+1	Os	o	DET	DET	_	3	det	_	_
 2	quatro	_	NUM	NUM	NumType=Card	3	nummod	_	_
 3	objetos	objeto	NOUN	NOUN	_	5	nsubj:pass	_	_
 4	foram	_	AUX	AUX	_	5	aux:pass	_	_
@@ -47,7 +47,7 @@
 
 # sent_id = train-s4507
 # text = O lucro líquido ajustado, livre de efeitos extraordinários, encerrou o semestre em R $ 5.690 milhões, disse o banco.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	lucro	lucro	NOUN	NOUN	_	11	nsubj	_	_
 3	líquido	líquido	ADJ	ADJ	_	2	amod	_	_
 4	ajustado	ajustado	ADJ	ADJ	_	2	amod	_	SpaceAfter=No
@@ -58,7 +58,7 @@
 9	extraordinários	extraordinário	ADJ	ADJ	_	8	amod	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	6	punct	_	_
 11	encerrou	encerrar	VERB	VERB	_	20	ccomp	_	_
-12	o	o	DET	DET	PronType=Art	13	det	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	semestre	semestre	NOUN	NOUN	_	11	obj	_	_
 14	em	em	ADP	ADP	_	15	case	_	_
 15	R	r	NOUN	NOUN	_	11	nmod	_	_
@@ -67,7 +67,7 @@
 18	milhões	_	NUM	NUM	NumType=Card	15	nummod	_	SpaceAfter=No
 19	,	,	PUNCT	.	_	20	punct	_	_
 20	disse	dizer	VERB	VERB	_	0	root	_	_
-21	o	o	DET	DET	PronType=Art	22	det	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	banco	banco	NOUN	NOUN	_	20	nsubj	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	20	punct	_	_
 
@@ -81,7 +81,7 @@
 6	Reuters	_	PROPN	PNOUN	_	1	appos	_	SpaceAfter=No
 7	)	)	PUNCT	.	_	6	punct	_	_
 8	--	_	PUNCT	.	_	31	punct	_	_
-9	O	o	DET	DET	PronType=Art	10	det	_	_
+9	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	revisor	revisor	NOUN	NOUN	_	31	nsubj	_	_
 11-12	da	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	13	case	_	_
@@ -170,7 +170,7 @@
 
 # sent_id = train-s4509
 # text = O Palhaço Pessebe conta que ficou muito feliz com a premiação e já sonha com o seu circo de cara nova.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Palhaço	_	PROPN	PNOUN	_	4	nsubj	_	_
 3	Pessebe	_	PROPN	PNOUN	_	2	flat	_	_
 4	conta	contar	VERB	VERB	_	0	root	_	_
@@ -179,13 +179,13 @@
 7	muito	muito	ADV	ADV	_	8	advmod	_	_
 8	feliz	feliz	ADJ	ADJ	_	6	xcomp	_	_
 9	com	com	ADP	ADP	_	11	case	_	_
-10	a	o	DET	DET	PronType=Art	11	det	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	premiação	premiação	NOUN	NOUN	_	8	nmod	_	_
 12	e	e	CCONJ	CONJ	_	14	cc	_	_
 13	já	já	ADV	ADV	_	14	advmod	_	_
 14	sonha	sonhar	VERB	VERB	_	6	conj	_	_
 15	com	com	ADP	ADP	_	18	case	_	_
-16	o	o	DET	DET	PronType=Art	18	det	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 17	seu	_	DET	DET	_	18	det:poss	_	_
 18	circo	circo	NOUN	NOUN	_	14	nmod	_	_
 19	de	de	ADP	ADP	_	20	case	_	_
@@ -202,10 +202,10 @@
 5	meninas	menino	NOUN	NOUN	_	3	obj	_	_
 6	a	_	ADP	ADP	_	7	mark	_	_
 7	bordarem	bordar	VERB	VERB	_	3	nmod	_	_
-8	o	o	DET	DET	PronType=Art	9	det	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	manto	manto	NOUN	NOUN	_	7	obj	_	_
 10	para	para	ADP	ADP	_	12	case	_	_
-11	a	o	DET	DET	PronType=Art	12	det	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	procissão	procissão	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -214,7 +214,7 @@
 1	Sinalizar	sinalizar	VERB	VERB	_	0	root	_	_
 2	intenções	intenção	NOUN	NOUN	_	1	obj	_	_
 3	usando	usar	VERB	VERB	_	1	acl	_	_
-4	as	o	DET	DET	PronType=Art	5	det	_	_
+4	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 5	luzes	_	NOUN	NOUN	_	3	obj	_	_
 6	indicadoras	indicador	ADJ	ADJ	_	5	amod	_	_
 7	de	de	ADP	ADP	_	8	case	_	_
@@ -224,7 +224,7 @@
 # sent_id = train-s4512
 # text = II as ações que envolvam exercício do direito de greve;
 1	II	_	NUM	NUM	NumType=Card	3	parataxis	_	_
-2	as	o	DET	DET	PronType=Art	3	det	_	_
+2	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	ações	ação	NOUN	NOUN	_	0	root	_	_
 4	que	_	PRON	PRON	_	5	nsubj	_	_
 5	envolvam	envolver	VERB	VERB	_	3	acl:relcl	_	_
@@ -240,7 +240,7 @@
 # sent_id = train-s4513
 # text = Durante o período de incerteza que se apoderou de Roma entre a morte de Nero e a chegada de Galba á capital do Império, Ninfídio organizou a "demissão" de Tigelino e se proclamou como único comandante das forças pretorianas.
 1	Durante	_	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	PronType=Art	3	det	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	período	período	NOUN	NOUN	_	28	nmod	_	_
 4	de	de	ADP	ADP	_	5	case	_	_
 5	incerteza	incerteza	NOUN	NOUN	_	3	nmod	_	_
@@ -250,12 +250,12 @@
 9	de	de	ADP	ADP	_	10	case	_	_
 10	Roma	_	PROPN	PNOUN	_	8	nmod	_	_
 11	entre	_	ADP	ADP	_	13	case	_	_
-12	a	o	DET	DET	PronType=Art	13	det	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	morte	morte	NOUN	NOUN	_	8	nmod	_	_
 14	de	de	ADP	ADP	_	15	case	_	_
 15	Nero	_	PROPN	PNOUN	_	13	nmod	_	_
 16	e	e	CCONJ	CONJ	_	18	cc	_	_
-17	a	o	DET	DET	PronType=Art	18	det	_	_
+17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	chegada	chegada	NOUN	NOUN	_	13	conj	_	_
 19	de	de	ADP	ADP	_	20	case	_	_
 20	Galba	_	PROPN	PNOUN	_	18	nmod	_	_
@@ -268,7 +268,7 @@
 26	,	,	PUNCT	.	_	3	punct	_	_
 27	Ninfídio	_	PROPN	PNOUN	_	28	nsubj	_	_
 28	organizou	organizar	VERB	VERB	_	0	root	_	_
-29	a	o	DET	DET	PronType=Art	31	det	_	_
+29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 30	"	"	PUNCT	.	_	31	punct	_	SpaceAfter=No
 31	demissão	demissão	NOUN	NOUN	_	28	obj	_	SpaceAfter=No
 32	"	"	PUNCT	.	_	31	punct	_	_

@@ -3,7 +3,7 @@
 1	Outra	_	DET	DET	_	2	det	_	_
 2	medida	medida	NOUN	NOUN	_	5	nsubj	_	_
 3	seria	_	AUX	AUX	_	5	cop	_	_
-4	a	o	DET	DET	PronType=Art	5	det	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	adoção	adoção	NOUN	NOUN	_	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	9	punct	_	_
 7-8	pelo	_	_	_	_	_	_	_	_
@@ -41,7 +41,7 @@
 # text = Foi votado o texto original do projeto, já que na última semana, as 24 emendas foram rejeitadas pela comissão mista.
 1	Foi	_	AUX	AUX	_	2	aux:pass	_	_
 2	votado	votar	VERB	VERB	_	0	root	_	_
-3	o	o	DET	DET	PronType=Art	4	det	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	texto	texto	NOUN	NOUN	_	2	nsubj:pass	_	_
 5	original	original	ADJ	ADJ	_	4	amod	_	_
 6-7	do	_	_	_	_	_	_	_	_
@@ -57,7 +57,7 @@
 14	última	último	ADJ	ADJ	_	15	amod	_	_
 15	semana	semana	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	.	_	15	punct	_	_
-17	as	o	DET	DET	PronType=Art	19	det	_	_
+17	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
 18	24	_	NUM	NUM	NumType=Card	19	nummod	_	_
 19	emendas	emenda	NOUN	NOUN	_	21	nsubj:pass	_	_
 20	foram	_	AUX	AUX	_	21	aux:pass	_	_
@@ -86,7 +86,7 @@
 13	buscando	buscar	VERB	VERB	_	10	conj	_	_
 14	a	_	ADP	ADP	_	17	case	_	_
 15	todo	_	DET	DET	_	17	det	_	_
-16	o	o	DET	DET	PronType=Art	17	det	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	instante	instante	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	.	_	13	punct	_	_
 19	com	com	ADP	ADP	_	20	case	_	_
@@ -106,7 +106,7 @@
 31	"	"	PUNCT	.	_	10	punct	_	SpaceAfter=No
 32	,	,	PUNCT	.	_	10	punct	_	_
 33	afirmou	afirmar	VERB	VERB	_	0	root	_	_
-34	o	o	DET	DET	PronType=Art	35	det	_	_
+34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	Governador	governador	NOUN	NOUN	_	33	nsubj	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	33	punct	_	_
 
@@ -143,7 +143,7 @@
 
 # sent_id = train-s7331
 # text = Os primeiros indícios estão apontando para uma retomada do crescimento no segundo semestre, disse hoje (6) o presidente do BNDES, Luciano Coutinho.
-1	Os	o	DET	DET	PronType=Art	3	det	_	_
+1	Os	o	DET	DET	_	3	det	_	_
 2	primeiros	primeiro	ADJ	ADJ	_	3	amod	_	_
 3	indícios	indício	NOUN	NOUN	_	5	nsubj	_	_
 4	estão	estar	AUX	AUX	_	5	aux	_	_
@@ -166,7 +166,7 @@
 19	(	(	PUNCT	.	_	20	punct	_	SpaceAfter=No
 20	6	_	NUM	NUM	NumType=Card	18	nmod	_	SpaceAfter=No
 21	)	)	PUNCT	.	_	20	punct	_	_
-22	o	o	DET	DET	PronType=Art	23	det	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	presidente	presidente	NOUN	NOUN	_	17	nsubj	_	_
 24-25	do	_	_	_	_	_	_	_	_
 24	de	de	ADP	ADP	_	26	case	_	_
@@ -180,7 +180,7 @@
 # sent_id = train-s7332
 # text = "O Gian só tem um imóvel onde mora com a família.
 1	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
-2	O	o	DET	DET	PronType=Art	3	det	_	_
+2	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Gian	_	PROPN	PNOUN	_	5	nsubj	_	_
 4	só	só	ADV	ADV	_	5	advmod	_	_
 5	tem	ter	VERB	VERB	_	0	root	_	_
@@ -189,13 +189,13 @@
 8	onde	onde	ADV	ADV	_	9	advmod	_	_
 9	mora	morar	VERB	VERB	_	7	acl:relcl	_	_
 10	com	com	ADP	ADP	_	12	case	_	_
-11	a	o	DET	DET	PronType=Art	12	det	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	família	família	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s7333
 # text = A promessa do reajuste foi repassada à presidente da Petrobras, Graça Foster, antes da aprovação do plano de investimentos da estatal, de US $ 236,5 bilhões até 2016 -- 5,2 % mais do que o anterior, que previa investimentos de US $ 224,7 bilhões entre 2011 e 2015.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	promessa	promessa	NOUN	NOUN	_	7	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -246,7 +246,7 @@
 42	de	de	ADP	ADP	_	46	case	_	_
 43	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
 44	que	_	ADP	ADP	_	42	fixed	_	_
-45	o	o	DET	DET	PronType=Art	46	det	_	_
+45	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
 46	anterior	_	NOUN	NOUN	_	40	nmod	_	SpaceAfter=No
 47	,	,	PUNCT	.	_	49	punct	_	_
 48	que	_	PRON	PRON	_	49	nsubj	_	_

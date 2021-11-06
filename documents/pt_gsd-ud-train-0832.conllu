@@ -31,7 +31,7 @@
 8	que	_	PRON	PRON	_	9	obj	_	_
 9	enfrenta	enfrentar	VERB	VERB	_	7	acl:relcl	_	_
 10	hoje	hoje	ADV	ADV	_	9	advmod	_	_
-11	a	o	DET	DET	PronType=Art	12	det	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	CSN	_	PROPN	PNOUN	_	9	nsubj	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	15	punct	_	_
 14	que	_	PRON	PRON	_	15	nsubj	_	_
@@ -98,7 +98,7 @@
 # text = O que a senhora diz sobre isso?
 1	O	o	DET	DET	_	2	det	_	_
 2	que	_	PRON	PRON	_	5	obj	_	_
-3	a	o	DET	DET	PronType=Art	4	det	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	senhora	senhor	NOUN	NOUN	_	5	nsubj	_	_
 5	diz	dizer	VERB	VERB	_	0	root	_	_
 6	sobre	_	ADP	ADP	_	7	case	_	_
@@ -110,18 +110,18 @@
 1	Aumentando	aumentar	VERB	VERB	_	13	acl	_	_
 2	um	um	DET	DET	_	3	det	_	_
 3	pouco	pouco	NOUN	NOUN	_	1	nmod	_	_
-4	o	o	DET	DET	PronType=Art	5	det	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	nível	nível	NOUN	NOUN	_	1	obj	_	_
 6	de	de	ADP	ADP	_	7	case	_	_
 7	acabamento	acabamento	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	1	punct	_	_
-9	o	o	DET	DET	PronType=Art	10	det	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	Punto	_	PROPN	PNOUN	_	13	nsubj	_	_
 11	Essence	_	PROPN	PNOUN	_	10	flat	_	_
 12	1.6	_	NUM	NUM	NumType=Card	10	appos	_	_
 13	vem	vir	VERB	VERB	_	0	root	_	_
 14	com	com	ADP	ADP	_	16	case	_	_
-15	os	o	DET	DET	PronType=Art	16	det	_	_
+15	os	o	DET	DET	_	16	det	_	_
 16	conteúdos	conteúdo	NOUN	NOUN	_	13	nmod	_	_
 17	de	de	ADP	ADP	_	18	case	_	_
 18	série	série	NOUN	NOUN	_	16	nmod	_	_
@@ -158,7 +158,7 @@
 
 # sent_id = train-s8264
 # text = O aeroporto de Viracopos opera normalmente, mas alguns pousos estão atrasando por conta do aumento da demanda decorrente do redirecionamento dos voos para o terminal.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	aeroporto	aeroporto	NOUN	NOUN	_	5	nsubj	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	Viracopos	_	PROPN	PNOUN	_	2	nmod	_	_
@@ -190,13 +190,13 @@
 26	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
 27	voos	voo	NOUN	NOUN	_	24	nmod	_	_
 28	para	para	ADP	ADP	_	30	case	_	_
-29	o	o	DET	DET	PronType=Art	30	det	_	_
+29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	terminal	terminal	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
 31	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s8265
 # text = A unica igreja católica do lugar é uma maravilha a parte, construção provavelmente da decada de 80 para 90 se mantem intacta e muito bem conservada pelos moradores, igreja que tem como padroeira Nossa Senhora da Luz.
-1	A	o	DET	DET	PronType=Art	3	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	unica	_	ADJ	ADJ	_	3	amod	_	_
 3	igreja	igreja	NOUN	NOUN	_	10	nsubj	_	_
 4	católica	católico	ADJ	ADJ	_	3	amod	_	_
@@ -246,7 +246,7 @@
 
 # sent_id = train-s8266
 # text = Os ovos, quando são postos são de cor amarelo - esverdeada, tornando - se, depois, dum preto brilhante e aparecem agrupados em grande quantidade, o que não costuma acontecer entre muitas espécies de afídios.
-1	Os	o	DET	DET	PronType=Art	2	det	_	_
+1	Os	o	DET	DET	_	2	det	_	_
 2	ovos	ovo	NOUN	NOUN	_	7	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	6	punct	_	_
 4	quando	_	CCONJ	CONJ	_	6	mark	_	_
@@ -311,7 +311,7 @@
 
 # sent_id = train-s8268
 # text = O CEO da Bohemia Interactive já tinha comentado sobre a detenção dos seus funcionários na Grécia, esclarecendo que tudo não passava dum mal - entendido, mas agora, partilhou uma declaração oficial sobre a situação.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	CEO	_	PROPN	PNOUN	_	9	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -322,7 +322,7 @@
 8	tinha	ter	AUX	AUX	_	9	aux	_	_
 9	comentado	comentar	VERB	VERB	_	0	root	_	_
 10	sobre	_	ADP	ADP	_	12	case	_	_
-11	a	o	DET	DET	PronType=Art	12	det	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	detenção	detenção	NOUN	NOUN	_	9	nmod	_	_
 13-14	dos	_	_	_	_	_	_	_	_
 13	de	de	ADP	ADP	_	16	case	_	_
@@ -354,7 +354,7 @@
 37	declaração	declaração	NOUN	NOUN	_	35	obj	_	_
 38	oficial	oficial	ADJ	ADJ	_	37	amod	_	_
 39	sobre	_	ADP	ADP	_	41	case	_	_
-40	a	o	DET	DET	PronType=Art	41	det	_	_
+40	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
 41	situação	situação	NOUN	NOUN	_	37	nmod	_	SpaceAfter=No
 42	.	.	PUNCT	.	_	9	punct	_	_
 

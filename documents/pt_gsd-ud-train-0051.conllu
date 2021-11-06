@@ -14,7 +14,7 @@
 11	deste	_	ADP	ADP	_	12	case	_	_
 12	Semanário	_	PROPN	PNOUN	_	9	nmod	_	_
 13	sobre	_	ADP	ADP	_	15	case	_	_
-14	a	o	DET	DET	PronType=Art	15	det	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	Colônia	_	PROPN	PNOUN	_	9	nmod	_	_
 16	Japonesa	_	PROPN	PNOUN	_	15	amod	_	SpaceAfter=No
 17	,	,	PUNCT	.	_	20	punct	_	_
@@ -45,7 +45,7 @@
 
 # sent_id = train-s502
 # text = A nomeação para este alto cargo concedia nobreza automática e hereditária àqueles poucos, raros, que a não detinham já ao entrarem na privança dos negócios públicos pela confiança régia que assim lhes era demonstrada.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	nomeação	nomeação	NOUN	NOUN	_	7	nsubj	_	_
 3	para	para	ADP	ADP	_	6	case	_	_
 4	este	_	DET	DET	_	6	det	_	_
@@ -177,7 +177,7 @@
 14	iniciativa	iniciativa	NOUN	NOUN	_	10	nmod	_	_
 15	privada	privado	ADJ	ADJ	_	14	amod	_	SpaceAfter=No
 16	,	,	PUNCT	.	_	4	punct	_	_
-17	a	o	DET	DET	PronType=Art	19	det	_	_
+17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 18	contínua	contínuo	ADJ	ADJ	_	19	amod	_	_
 19	redução	redução	NOUN	NOUN	_	25	nsubj:pass	_	_
 20-21	da	_	_	_	_	_	_	_	_
@@ -231,7 +231,7 @@
 63	de	de	ADP	ADP	_	64	case	_	_
 64	acordo	acordo	NOUN	NOUN	_	25	nmod	_	_
 65	com	com	ADP	ADP	_	67	case	_	_
-66	o	o	DET	DET	PronType=Art	67	det	_	_
+66	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	67	det	_	_
 67	boletim	boletim	NOUN	NOUN	_	64	nmod	_	_
 68	Focus	_	PROPN	PNOUN	_	67	appos	_	_
 69	divulgado	divulgar	VERB	VERB	_	67	acl	_	_
@@ -271,7 +271,7 @@
 17	e	e	CCONJ	CONJ	_	19	cc	_	_
 18	depois	depois	ADV	ADV	_	19	advmod	_	_
 19	jogou	jogar	VERB	VERB	_	2	conj	_	_
-20	os	o	DET	DET	PronType=Art	22	det	_	_
+20	os	o	DET	DET	_	22	det	_	_
 21	dois	_	NUM	NUM	NumType=Card	22	nummod	_	_
 22	anos	ano	NOUN	NOUN	_	19	nmod	_	_
 23	seguintes	seguinte	ADJ	ADJ	_	22	amod	_	_
@@ -292,7 +292,7 @@
 # sent_id = train-s506
 # text = "A mulher dizia que não conseguia sentir nenhum dos membros, então eu os levei ao barco e em seguida para a marina", disse Hertz.
 1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
-2	A	o	DET	DET	PronType=Art	3	det	_	_
+2	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	mulher	mulher	NOUN	NOUN	_	4	nsubj	_	_
 4	dizia	dizer	VERB	VERB	_	29	ccomp	_	_
 5	que	que	CCONJ	CONJ	_	7	mark	_	_
@@ -317,7 +317,7 @@
 22	em	em	ADP	ADP	_	23	case	_	_
 23	seguida	_	NOUN	NOUN	_	26	nmod	_	_
 24	para	para	ADP	ADP	_	26	case	_	_
-25	a	o	DET	DET	PronType=Art	26	det	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	marina	marina	NOUN	NOUN	_	20	conj	_	SpaceAfter=No
 27	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
 28	,	,	PUNCT	.	_	29	punct	_	_
@@ -403,7 +403,7 @@
 
 # sent_id = train-s509
 # text = O material foi apreendido e levado ao conhecimento da autoridade policial na 2 ª Delegacia de Polícia Civil, bairro Boa Vista, onde deverá tramitar procedimento para investigar como o entorpecente foi parar na garrafa, quem o teria colocado e qual o destino final da droga.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	material	material	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foi	_	AUX	AUX	_	4	aux:pass	_	_
 4	apreendido	apreender	VERB	VERB	_	0	root	_	_
@@ -439,7 +439,7 @@
 31	para	_	ADP	ADP	_	32	mark	_	_
 32	investigar	investigar	VERB	VERB	_	30	nmod	_	_
 33	como	como	ADV	ADV	_	36	advmod	_	_
-34	o	o	DET	DET	PronType=Art	35	det	_	_
+34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	entorpecente	_	NOUN	NOUN	_	36	nsubj	_	_
 36	foi	_	VERB	VERB	_	32	ccomp	_	_
 37	parar	parar	VERB	VERB	_	36	xcomp	_	_
@@ -454,7 +454,7 @@
 45	colocado	colocar	VERB	VERB	_	36	conj	_	_
 46	e	e	CCONJ	CONJ	_	49	cc	_	_
 47	qual	_	DET	DET	_	49	det	_	_
-48	o	o	DET	DET	PronType=Art	49	det	_	_
+48	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
 49	destino	destino	NOUN	NOUN	_	36	conj	_	_
 50	final	final	ADJ	ADJ	_	49	amod	_	_
 51-52	da	_	_	_	_	_	_	_	_
@@ -468,7 +468,7 @@
 1	Desta	_	ADP	ADP	_	2	case	_	_
 2	vez	vez	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
-4	o	o	DET	DET	PronType=Art	5	det	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	reconhecimento	reconhecimento	NOUN	NOUN	_	7	nsubj	_	_
 6	se	_	PRON	PRON	_	7	expl:pv	_	_
 7	deu	dar	VERB	VERB	_	0	root	_	_
@@ -522,7 +522,7 @@
 49	finalidade	finalidade	NOUN	NOUN	_	47	fixed	_	_
 50	de	_	ADP	ADP	_	47	fixed	_	_
 51	incentivar	incentivar	VERB	VERB	_	28	advcl	_	_
-52	os	o	DET	DET	PronType=Art	53	det	_	_
+52	os	o	DET	DET	_	53	det	_	_
 53	serventuários	serventuário	NOUN	NOUN	_	51	obj	_	_
 54	a	_	ADP	ADP	_	55	mark	_	_
 55	cuidar	cuidar	VERB	VERB	_	51	nmod	_	_
@@ -543,7 +543,7 @@
 69	forma	forma	NOUN	NOUN	_	68	fixed	_	_
 70	de	_	ADP	ADP	_	68	fixed	_	_
 71	prevenir	prevenir	VERB	VERB	_	55	advcl	_	_
-72	o	o	DET	DET	PronType=Art	73	det	_	_
+72	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	73	det	_	_
 73	sedentarismo	sedentarismo	NOUN	NOUN	_	71	obj	_	SpaceAfter=No
 74	.	.	PUNCT	.	_	7	punct	_	_
 

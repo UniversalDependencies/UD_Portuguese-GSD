@@ -1,6 +1,6 @@
 # sent_id = train-s3997
 # text = O velório estará aberto ao público das 16h até às 20h.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	velório	velório	NOUN	NOUN	_	3	nsubj	_	_
 3	estará	estar	VERB	VERB	_	0	root	_	_
 4	aberto	aberto	ADJ	ADJ	_	3	xcomp	_	_
@@ -20,7 +20,7 @@
 # sent_id = train-s3998
 # text = "A Rede Globo sempre promove esse encontro com gente que, às vezes, não vemos há um tempão.
 1	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
-2	A	o	DET	DET	PronType=Art	3	det	_	_
+2	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Rede	_	PROPN	PNOUN	_	6	nsubj	_	_
 4	Globo	_	PROPN	PNOUN	_	3	flat	_	_
 5	sempre	sempre	ADV	ADV	_	6	advmod	_	_
@@ -45,11 +45,11 @@
 
 # sent_id = train-s3999
 # text = A preocupação é que a Aids vem aumentando entre essa população.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	preocupação	preocupação	NOUN	NOUN	_	0	root	_	_
 3	é	ser	AUX	AUX	_	2	cop	_	_
 4	que	que	CCONJ	CONJ	_	8	mark	_	_
-5	a	o	DET	DET	PronType=Art	6	det	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Aids	_	PROPN	PNOUN	_	8	nsubj	_	_
 7	vem	vir	AUX	AUX	_	8	aux	_	_
 8	aumentando	aumentar	VERB	VERB	_	2	csubj	_	_
@@ -72,12 +72,12 @@
 9	plano	plano	NOUN	NOUN	_	7	obj	_	_
 10	coletivo	coletivo	ADJ	ADJ	_	9	amod	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	7	punct	_	_
-12	o	o	DET	DET	PronType=Art	13	det	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	consumidor	consumidor	NOUN	NOUN	_	15	nsubj	_	_
 14	deve	dever	AUX	AUX	_	15	aux	_	_
 15	buscar	buscar	VERB	VERB	_	0	root	_	_
 16	saber	saber	VERB	VERB	_	15	xcomp	_	_
-17	os	o	DET	DET	PronType=Art	18	det	_	_
+17	os	o	DET	DET	_	18	det	_	_
 18	percentuais	_	NOUN	NOUN	_	16	obj	_	_
 19	de	de	ADP	ADP	_	20	case	_	_
 20	reajustes	reajuste	NOUN	NOUN	_	18	nmod	_	_
@@ -91,7 +91,7 @@
 27	quanto	_	PRON	PRON	_	29	nmod	_	_
 28	deverá	dever	AUX	AUX	_	29	aux	_	_
 29	ser	ser	VERB	VERB	_	18	conj	_	_
-30	o	o	DET	DET	PronType=Art	32	det	_	_
+30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 31	próximo	próximo	ADJ	ADJ	_	32	amod	_	_
 32	aumento	aumento	NOUN	NOUN	_	29	nsubj	_	SpaceAfter=No
 33	,	,	PUNCT	.	_	29	punct	_	_
@@ -123,7 +123,7 @@
 8	Pessoa	_	PROPN	PNOUN	_	7	flat	_	SpaceAfter=No
 9	)	)	PUNCT	.	_	5	punct	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	2	punct	_	_
-11	as	o	DET	DET	PronType=Art	12	det	_	_
+11	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
 12	escolas	escola	NOUN	NOUN	_	13	nsubj	_	_
 13	usam	usar	VERB	VERB	_	0	root	_	_
 14	água	água	NOUN	NOUN	_	13	obj	_	_
@@ -159,7 +159,7 @@
 13	ele	_	PRON	PRON	_	15	nsubj	_	_
 14	vai	ir	AUX	AUX	_	15	aux	_	_
 15	fazer	fazer	VERB	VERB	_	10	acl:relcl	_	_
-16	a	o	DET	DET	PronType=Art	17	det	_	_
+16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	diferença	diferença	NOUN	NOUN	_	15	obj	_	_
 18	por	_	ADP	ADP	_	21	mark	_	_
 19	ser	ser	AUX	AUX	_	21	cop	_	_
@@ -175,13 +175,13 @@
 
 # sent_id = train-s4003
 # text = A Cepal revisou para 3,2 % a previsão de crescimento do Produto Interno Bruto (PIB) dos países latino - americanos e caribenhos em 2012.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Cepal	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	revisou	revisar	VERB	VERB	_	0	root	_	_
 4	para	para	ADP	ADP	_	6	case	_	_
 5	3,2	_	NUM	NUM	NumType=Card	6	nummod	_	_
 6	%	_	SYM	SYM	_	3	nmod	_	_
-7	a	o	DET	DET	PronType=Art	8	det	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	previsão	previsão	NOUN	NOUN	_	3	obj	_	_
 9	de	de	ADP	ADP	_	10	case	_	_
 10	crescimento	crescimento	NOUN	NOUN	_	8	nmod	_	_
@@ -209,7 +209,7 @@
 
 # sent_id = train-s4004
 # text = O médico teria sido indiciado em inquérito policial presidido pela Delegacia de Polícia de Jacarezinho.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	médico	médico	NOUN	NOUN	_	5	nsubj:pass	_	_
 3	teria	ter	AUX	AUX	_	5	aux	_	_
 4	sido	ser	AUX	AUX	_	5	aux:pass	_	_
@@ -240,11 +240,11 @@
 
 # sent_id = train-s4006
 # text = Os rebeldes também tomaram o lado sírio do posto de fronteira com a cidade iraquiana de Rabiya, segundo informou Atheel al - Nujaifi, governador da província de Ninevah, no Iraque.
-1	Os	o	DET	DET	PronType=Art	2	det	_	_
+1	Os	o	DET	DET	_	2	det	_	_
 2	rebeldes	rebelde	NOUN	NOUN	_	4	nsubj	_	_
 3	também	também	ADV	ADV	_	4	advmod	_	_
 4	tomaram	tomar	VERB	VERB	_	0	root	_	_
-5	o	o	DET	DET	PronType=Art	6	det	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	lado	lado	NOUN	NOUN	_	4	obj	_	_
 7	sírio	sírio	ADJ	ADJ	_	6	amod	_	_
 8-9	do	_	_	_	_	_	_	_	_
@@ -254,7 +254,7 @@
 11	de	de	ADP	ADP	_	12	case	_	_
 12	fronteira	_	NOUN	NOUN	_	10	nmod	_	_
 13	com	com	ADP	ADP	_	15	case	_	_
-14	a	o	DET	DET	PronType=Art	15	det	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	cidade	cidade	NOUN	NOUN	_	12	nmod	_	_
 16	iraquiana	iraquiano	ADJ	ADJ	_	15	amod	_	_
 17	de	de	ADP	ADP	_	18	case	_	_

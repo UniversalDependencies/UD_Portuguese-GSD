@@ -14,7 +14,7 @@
 12	"	"	PUNCT	.	_	10	punct	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	14	punct	_	_
 14	declarou	declarar	VERB	VERB	_	0	root	_	_
-15	o	o	DET	DET	PronType=Art	16	det	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	argentino	argentino	NOUN	NOUN	_	14	nsubj	_	SpaceAfter=No
 17	,	,	PUNCT	.	_	18	punct	_	_
 18	um	_	PRON	PRON	_	16	appos	_	_
@@ -48,7 +48,7 @@
 2	aqui	aqui	ADV	ADV	_	1	advmod	_	_
 3	para	_	ADP	ADP	_	4	mark	_	_
 4	ler	ler	VERB	VERB	_	1	advcl	_	_
-5	o	o	DET	DET	PronType=Art	6	det	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	discurso	discurso	NOUN	NOUN	_	4	obj	_	_
 7-8	do	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
@@ -74,7 +74,7 @@
 9	de	de	ADP	ADP	_	10	case	_	_
 10	provas	prova	NOUN	NOUN	_	8	nmod	_	_
 11	para	para	ADP	ADP	_	13	case	_	_
-12	a	o	DET	DET	PronType=Art	13	det	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	confecção	confecção	NOUN	NOUN	_	8	nmod	_	_
 14	de	de	ADP	ADP	_	15	case	_	_
 15	carteira	_	NOUN	NOUN	_	13	nmod	_	_
@@ -114,7 +114,7 @@
 
 # sent_id = dev-s275
 # text = O grupo do Araxá foi dividido em dois.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	grupo	grupo	NOUN	NOUN	_	7	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -129,12 +129,12 @@
 # sent_id = dev-s276
 # text = Até o momento era incerto se o traje disponível para DLC seria mesmo baseado na arte colaborativa acima, mas recentemente a concept art desse traje foi revelada no evento New York Comic Con 2012, e as suposições se confirmaram.
 1	Até	_	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	PronType=Art	3	det	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	momento	momento	NOUN	NOUN	_	4	nmod	_	_
 4	era	_	VERB	VERB	_	0	root	_	_
 5	incerto	incerto	ADJ	ADJ	_	4	xcomp	_	_
 6	se	_	CCONJ	CONJ	_	14	mark	_	_
-7	o	o	DET	DET	PronType=Art	8	det	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	traje	traje	NOUN	NOUN	_	14	nsubj:pass	_	_
 9	disponível	disponível	ADJ	ADJ	_	8	amod	_	_
 10	para	para	ADP	ADP	_	11	case	_	_
@@ -151,7 +151,7 @@
 20	,	,	PUNCT	.	_	29	punct	_	_
 21	mas	mas	CCONJ	CONJ	_	29	cc	_	_
 22	recentemente	recentemente	ADV	ADV	_	29	advmod	_	_
-23	a	o	DET	DET	PronType=Art	24	det	_	_
+23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	concept	_	NOUN	NOUN	_	29	nsubj:pass	_	_
 25	art	_	NOUN	NOUN	_	24	flat	_	_
 26	desse	_	ADP	ADP	_	27	case	_	_
@@ -169,7 +169,7 @@
 37	2012	_	NUM	NUM	NumType=Card	34	nmod	_	SpaceAfter=No
 38	,	,	PUNCT	.	_	43	punct	_	_
 39	e	e	CCONJ	CONJ	_	43	cc	_	_
-40	as	o	DET	DET	PronType=Art	41	det	_	_
+40	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
 41	suposições	suposição	NOUN	NOUN	_	43	nsubj	_	_
 42	se	_	PRON	PRON	_	43	expl:pv	_	_
 43	confirmaram	confirmar	VERB	VERB	_	4	conj	_	SpaceAfter=No
@@ -195,7 +195,7 @@
 
 # sent_id = dev-s278
 # text = Os estudantes que não forem selecionados nas duas primeiras convocações podem aderir à lista de espera para concorrer a vagas remanescentes.
-1	Os	o	DET	DET	PronType=Art	2	det	_	_
+1	Os	o	DET	DET	_	2	det	_	_
 2	estudantes	estudante	NOUN	NOUN	_	13	nsubj	_	_
 3	que	_	PRON	PRON	_	6	nsubj:pass	_	_
 4	não	não	ADV	ADV	Polarity=Neg	6	advmod	_	_
@@ -232,21 +232,21 @@
 6	esportes	esporte	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	10	punct	_	_
 8	como	como	ADP	ADP	_	10	case	_	_
-9	o	o	DET	DET	PronType=Art	10	det	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	povo	povo	NOUN	NOUN	_	4	nmod	_	_
 11	de	de	ADP	ADP	_	12	case	_	_
 12	Londres	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	15	punct	_	_
 14	pois	_	CCONJ	CONJ	_	15	mark	_	_
 15	sentem	_	VERB	VERB	_	4	advcl	_	_
-16	o	o	DET	DET	PronType=Art	17	det	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	esporte	esporte	NOUN	NOUN	_	15	obj	_	_
 18	em	em	ADP	ADP	_	20	case	_	_
 19	suas	_	DET	DET	_	20	det:poss	_	_
 20	veias	veia	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
 21	,	,	PUNCT	.	_	24	punct	_	_
 22	como	como	ADP	ADP	_	24	case	_	_
-23	o	o	DET	DET	PronType=Art	24	det	_	_
+23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	povo	povo	NOUN	NOUN	_	15	nmod	_	_
 25	de	de	ADP	ADP	_	26	case	_	_
 26	Madrid	_	PROPN	PNOUN	_	24	nmod	_	SpaceAfter=No

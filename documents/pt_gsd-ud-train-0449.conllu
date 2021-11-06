@@ -1,6 +1,6 @@
 # sent_id = train-s4455
 # text = Os lacres eletrônicos que serão usados para aumentar a segurança na aplicação do Enem (Exame Nacional do Ensino Médio) terão um custo unitário de R $ 187.
-1	Os	o	DET	DET	PronType=Art	2	det	_	_
+1	Os	o	DET	DET	_	2	det	_	_
 2	lacres	lacre	NOUN	NOUN	_	25	nsubj	_	_
 3	eletrônicos	eletrônico	ADJ	ADJ	_	2	amod	_	_
 4	que	_	PRON	PRON	_	6	nsubj:pass	_	_
@@ -8,7 +8,7 @@
 6	usados	usar	VERB	VERB	_	2	acl:relcl	_	_
 7	para	_	ADP	ADP	_	8	mark	_	_
 8	aumentar	aumentar	VERB	VERB	_	6	advcl	_	_
-9	a	o	DET	DET	PronType=Art	10	det	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	segurança	segurança	NOUN	NOUN	_	8	obj	_	_
 11-12	na	_	_	_	_	_	_	_	_
 11	em	em	ADP	ADP	_	13	case	_	_
@@ -39,19 +39,19 @@
 
 # sent_id = train-s4456
 # text = O mandatário lamentou os últimos resultados, em especial o empate com o Boa Esporte, nesta terça - feira, no Presidente Vargas.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	mandatário	mandatário	NOUN	NOUN	_	3	nsubj	_	_
 3	lamentou	lamentar	VERB	VERB	_	0	root	_	_
-4	os	o	DET	DET	PronType=Art	6	det	_	_
+4	os	o	DET	DET	_	6	det	_	_
 5	últimos	último	ADJ	ADJ	_	6	amod	_	_
 6	resultados	resultado	NOUN	NOUN	_	3	obj	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	11	punct	_	_
 8	em	_	ADP	ADP	_	9	mark	_	_
 9	especial	especial	ADJ	ADJ	_	11	nmod	_	_
-10	o	o	DET	DET	PronType=Art	11	det	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	empate	empate	NOUN	NOUN	_	6	appos	_	_
 12	com	com	ADP	ADP	_	14	case	_	_
-13	o	o	DET	DET	PronType=Art	14	det	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	Boa	_	PROPN	PNOUN	_	11	nmod	_	_
 15	Esporte	_	PROPN	PNOUN	_	14	flat	_	SpaceAfter=No
 16	,	,	PUNCT	.	_	20	punct	_	_
@@ -73,7 +73,7 @@
 2	não	não	ADV	ADV	Polarity=Neg	3	advmod	_	_
 3	conseguiu	conseguir	VERB	VERB	_	0	root	_	_
 4	equalizar	_	VERB	VERB	_	3	xcomp	_	_
-5	as	o	DET	DET	PronType=Art	6	det	_	_
+5	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
 6	desigualdades	desigualdade	NOUN	NOUN	_	4	obj	_	_
 7	socioeconômicas	socioeconômico	ADJ	ADJ	_	6	amod	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	10	punct	_	_
@@ -92,7 +92,7 @@
 
 # sent_id = train-s4458
 # text = A semana será uma oportunidade para realização de formações, trocas de experiências entre os participantes e articulação entre os movimentos juvenis da região.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	semana	semana	NOUN	NOUN	_	5	nsubj	_	_
 3	será	ser	AUX	AUX	_	5	cop	_	_
 4	uma	um	DET	DET	_	5	det	_	_
@@ -106,12 +106,12 @@
 12	de	de	ADP	ADP	_	13	case	_	_
 13	experiências	experiência	NOUN	NOUN	_	11	nmod	_	_
 14	entre	_	ADP	ADP	_	16	case	_	_
-15	os	o	DET	DET	PronType=Art	16	det	_	_
+15	os	o	DET	DET	_	16	det	_	_
 16	participantes	participante	NOUN	NOUN	_	11	nmod	_	_
 17	e	e	CCONJ	CONJ	_	18	cc	_	_
 18	articulação	articulação	NOUN	NOUN	_	7	conj	_	_
 19	entre	_	ADP	ADP	_	21	case	_	_
-20	os	o	DET	DET	PronType=Art	21	det	_	_
+20	os	o	DET	DET	_	21	det	_	_
 21	movimentos	movimento	NOUN	NOUN	_	18	nmod	_	_
 22	juvenis	juvenil	ADJ	ADJ	_	21	amod	_	_
 23-24	da	_	_	_	_	_	_	_	_
@@ -155,7 +155,7 @@
 
 # sent_id = train-s4460
 # text = O recall ocorre por causa de riscos detectados nos flexíveis de freio dianteiro.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	recall	_	NOUN	NOUN	_	3	nsubj	_	_
 3	ocorre	ocorrer	VERB	VERB	_	0	root	_	_
 4	por	por	ADP	ADP	_	7	case	_	_
@@ -174,7 +174,7 @@
 
 # sent_id = train-s4461
 # text = A voz que pôde ser ouvida das urnas nestas eleições é o grito dum povo que clama por mudanças, por uma São Luís melhor ", externou o comunista.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	voz	voz	NOUN	NOUN	_	14	nsubj	_	_
 3	que	_	PRON	PRON	_	6	nsubj:pass	_	_
 4	pôde	poder	AUX	AUX	_	6	aux	_	_
@@ -187,7 +187,7 @@
 10	nestas	_	ADP	ADP	_	11	case	_	_
 11	eleições	eleição	NOUN	NOUN	_	6	nmod	_	_
 12	é	ser	AUX	AUX	_	14	cop	_	_
-13	o	o	DET	DET	PronType=Art	14	det	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	grito	grito	NOUN	NOUN	_	30	ccomp	_	_
 15-16	dum	_	_	_	_	_	_	_	_
 15	de	de	ADP	ADP	_	17	case	_	_
@@ -206,7 +206,7 @@
 28	"	"	PUNCT	.	_	14	punct	_	SpaceAfter=No
 29	,	,	PUNCT	.	_	30	punct	_	_
 30	externou	externar	VERB	VERB	_	0	root	_	_
-31	o	o	DET	DET	PronType=Art	32	det	_	_
+31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	comunista	comunista	NOUN	NOUN	_	30	nsubj	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	30	punct	_	_
 
@@ -236,11 +236,11 @@
 
 # sent_id = train-s4463
 # text = O objetivo é evitar o desgaste físico de Lula no deslocamento a estúdios de produtoras.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	objetivo	objetivo	NOUN	NOUN	_	0	root	_	_
 3	é	ser	AUX	AUX	_	2	cop	_	_
 4	evitar	evitar	VERB	VERB	_	2	csubj	_	_
-5	o	o	DET	DET	PronType=Art	6	det	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	desgaste	desgaste	NOUN	NOUN	_	4	obj	_	_
 7	físico	físico	ADJ	ADJ	_	6	amod	_	_
 8	de	de	ADP	ADP	_	9	case	_	_
@@ -258,7 +258,7 @@
 # sent_id = train-s4464
 # text = Para o ministro, Simone Vasconcelos, então diretora da agência SMP &amp; B, foi fundamental e teve papel relevante do ponto de vista operacional, uma vez que foi responsável direta pelas ordens internas e pelos repasses de recursos realizados.
 1	Para	_	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	PronType=Art	3	det	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	ministro	ministro	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
 5	Simone	_	PROPN	PNOUN	_	17	nsubj	_	_

@@ -6,7 +6,7 @@
 4	por	por	ADP	ADP	_	5	case	_	_
 5	Zanetti	_	PROPN	PNOUN	_	3	nmod	_	_
 6	foi	_	AUX	AUX	_	8	cop	_	_
-7	o	o	DET	DET	PronType=Art	8	det	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	compartilhamento	compartilhamento	NOUN	NOUN	_	0	root	_	_
 9	de	de	ADP	ADP	_	10	case	_	_
 10	provas	prova	NOUN	NOUN	_	8	nmod	_	_
@@ -34,7 +34,7 @@
 # sent_id = dev-s555
 # text = Com o uso de alto - falantes, voluntários chegaram a alertar os residentes do perigo de deslizamentos durante as chuvas.
 1	Com	_	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	PronType=Art	3	det	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	uso	uso	NOUN	NOUN	_	12	nmod	_	_
 4	de	de	ADP	ADP	_	7	case	_	_
 5	alto	alto	ADJ	ADJ	_	7	amod	_	_
@@ -45,7 +45,7 @@
 10	chegaram	chegar	AUX	AUX	_	12	aux	_	_
 11	a	_	ADP	ADP	_	12	mark	_	_
 12	alertar	alertar	VERB	VERB	_	0	root	_	_
-13	os	o	DET	DET	PronType=Art	14	det	_	_
+13	os	o	DET	DET	_	14	det	_	_
 14	residentes	residente	NOUN	NOUN	_	12	obj	_	_
 15-16	do	_	_	_	_	_	_	_	_
 15	de	de	ADP	ADP	_	17	case	_	_
@@ -54,7 +54,7 @@
 18	de	de	ADP	ADP	_	19	case	_	_
 19	deslizamentos	deslizamento	NOUN	NOUN	_	17	nmod	_	_
 20	durante	_	ADP	ADP	_	22	case	_	_
-21	as	o	DET	DET	PronType=Art	22	det	_	_
+21	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
 22	chuvas	chuva	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	12	punct	_	_
 
@@ -76,13 +76,13 @@
 14	Cardinal	_	PROPN	PNOUN	_	15	nsubj	_	_
 15	empatou	empatar	VERB	VERB	_	0	root	_	_
 16	para	para	ADP	ADP	_	18	case	_	_
-17	os	o	DET	DET	PronType=Art	18	det	_	_
+17	os	o	DET	DET	_	18	det	_	_
 18	portugueses	português	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = dev-s557
 # text = O aumento de consumo à base de crédito e bolsas governamentais estimula expansões cíclicas de fôlego curto, mas não o crescimento econômico de longo prazo.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	aumento	aumento	NOUN	NOUN	_	13	nsubj	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	consumo	consumo	NOUN	NOUN	_	2	nmod	_	_
@@ -104,7 +104,7 @@
 19	,	,	PUNCT	.	_	23	punct	_	_
 20	mas	mas	CCONJ	CONJ	_	23	cc	_	_
 21	não	não	ADV	ADV	Polarity=Neg	23	advmod	_	_
-22	o	o	DET	DET	PronType=Art	23	det	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	crescimento	crescimento	NOUN	NOUN	_	14	conj	_	_
 24	econômico	econômico	ADJ	ADJ	_	23	amod	_	_
 25	de	de	ADP	ADP	_	27	case	_	_
@@ -114,7 +114,7 @@
 
 # sent_id = dev-s558
 # text = A Leroy Merlin abrirá sua 2 º loja em Curitiba - PR, no bairro de Atuba.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Leroy	_	PROPN	PNOUN	_	4	nsubj	_	_
 3	Merlin	_	PROPN	PNOUN	_	2	flat	_	_
 4	abrirá	abrir	VERB	VERB	_	0	root	_	_
@@ -148,7 +148,7 @@
 
 # sent_id = dev-s560
 # text = O jornalista grego Costas Vaxevanis, que publicou uma polêmica lista de seus compatriotas que mantêm contas bancárias na Suíça, compareceu nesta quinta - feira a um tribunal de Atenas para a primeira audiência de seu julgamento.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	jornalista	jornalista	NOUN	NOUN	_	23	nsubj	_	_
 3	grego	grego	ADJ	ADJ	_	2	amod	_	_
 4	Costas	_	PROPN	PNOUN	_	2	appos	_	_
@@ -182,7 +182,7 @@
 31	de	de	ADP	ADP	_	32	case	_	_
 32	Atenas	_	PROPN	PNOUN	_	30	nmod	_	_
 33	para	para	ADP	ADP	_	36	case	_	_
-34	a	o	DET	DET	PronType=Art	36	det	_	_
+34	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 35	primeira	primeiro	ADJ	ADJ	_	36	amod	_	_
 36	audiência	audiência	NOUN	NOUN	_	23	nmod	_	_
 37	de	de	ADP	ADP	_	39	case	_	_
@@ -192,7 +192,7 @@
 
 # sent_id = dev-s561
 # text = O treinador negou que tenha se arrependido duma declaração que deu depois da derrota para o Sport, quando disse que o grupo estava numa "zona de conforto".
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	treinador	treinador	NOUN	NOUN	_	3	nsubj	_	_
 3	negou	negar	VERB	VERB	_	0	root	_	_
 4	que	que	CCONJ	CONJ	_	7	mark	_	_
@@ -211,13 +211,13 @@
 15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 16	derrota	derrota	NOUN	NOUN	_	12	nmod	_	_
 17	para	para	ADP	ADP	_	19	case	_	_
-18	o	o	DET	DET	PronType=Art	19	det	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	Sport	_	PROPN	PNOUN	_	16	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	.	_	22	punct	_	_
 21	quando	_	CCONJ	CONJ	_	22	mark	_	_
 22	disse	dizer	VERB	VERB	_	12	advcl	_	_
 23	que	que	CCONJ	CONJ	_	26	mark	_	_
-24	o	o	DET	DET	PronType=Art	25	det	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	grupo	grupo	NOUN	NOUN	_	26	nsubj	_	_
 26	estava	estar	VERB	VERB	_	22	ccomp	_	_
 27	numa	_	ADP	ADP	_	29	case	_	_
@@ -239,21 +239,21 @@
 6	muito	muito	ADV	ADV	_	7	advmod	_	_
 7	mais	mais	ADV	ADV	_	8	advmod	_	_
 8	valorizado	valorizar	VERB	VERB	_	0	root	_	_
-9	o	o	DET	DET	PronType=Art	10	det	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	entendimento	entendimento	NOUN	NOUN	_	8	nsubj:pass	_	_
 11-12	do	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	13	case	_	_
 12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	jogo	jogo	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	16	punct	_	_
-15	os	o	DET	DET	PronType=Art	16	det	_	_
+15	os	o	DET	DET	_	16	det	_	_
 16	conceitos	conceito	NOUN	NOUN	_	10	conj	_	SpaceAfter=No
 17	,	,	PUNCT	.	_	20	punct	_	_
-18	a	o	DET	DET	PronType=Art	20	det	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 19	própria	próprio	ADJ	ADJ	_	20	amod	_	_
 20	tática	tática	NOUN	NOUN	_	10	conj	_	SpaceAfter=No
 21	,	,	PUNCT	.	_	23	punct	_	_
-22	a	o	DET	DET	PronType=Art	23	det	_	_
+22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	técnica	_	NOUN	NOUN	_	10	conj	_	_
 24	individual	individual	ADJ	ADJ	_	23	amod	_	SpaceAfter=No
 25	,	,	PUNCT	.	_	28	punct	_	_
@@ -269,14 +269,14 @@
 35	ao	_	X	ADPPRON	_	34	nmod	_	_
 36	que	_	PRON	PRON	_	39	nsubj	_	_
 37	é	ser	AUX	AUX	_	39	cop	_	_
-38	o	o	DET	DET	PronType=Art	39	det	_	_
+38	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
 39	físico	físico	NOUN	NOUN	_	35	acl:relcl	_	_
 40	e	e	CCONJ	CONJ	_	42	cc	_	_
 41	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
 42	jogo	jogo	NOUN	NOUN	_	39	conj	_	_
 43	individualista	individualista	ADJ	ADJ	_	42	amod	_	_
 44	que	_	PRON	PRON	_	48	obj	_	_
-45	a	o	DET	DET	PronType=Art	46	det	_	_
+45	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
 46	gente	gente	NOUN	NOUN	_	48	nsubj	_	_
 47	acaba	acabar	AUX	AUX	_	48	aux	_	_
 48	vendo	_	VERB	VERB	_	42	acl:relcl	_	_

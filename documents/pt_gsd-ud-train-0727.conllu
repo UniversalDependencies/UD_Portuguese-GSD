@@ -74,11 +74,11 @@
 # sent_id = train-s7218
 # text = Já a MAN, como as outras fabricantes de veículos pesados, não poderá usar a habilitação para abatimento do IPI, afinal o imposto está zerado há quatro anos para as vendas de caminhões no País.
 1	Já	já	ADV	ADV	_	15	advmod	_	_
-2	a	o	DET	DET	PronType=Art	3	det	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	MAN	_	PROPN	PNOUN	_	15	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	8	punct	_	_
 5	como	como	ADP	ADP	_	8	case	_	_
-6	as	o	DET	DET	PronType=Art	8	det	_	_
+6	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
 7	outras	_	DET	DET	_	8	det	_	_
 8	fabricantes	fabricante	NOUN	NOUN	_	3	nmod	_	_
 9	de	de	ADP	ADP	_	10	case	_	_
@@ -88,7 +88,7 @@
 13	não	não	ADV	ADV	Polarity=Neg	15	advmod	_	_
 14	poderá	poder	AUX	AUX	_	15	aux	_	_
 15	usar	usar	VERB	VERB	_	0	root	_	_
-16	a	o	DET	DET	PronType=Art	17	det	_	_
+16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	habilitação	habilitação	NOUN	NOUN	_	15	obj	_	_
 18	para	para	ADP	ADP	_	19	case	_	_
 19	abatimento	abatimento	NOUN	NOUN	_	15	nmod	_	_
@@ -98,7 +98,7 @@
 22	IPI	_	PROPN	PNOUN	_	19	nmod	_	SpaceAfter=No
 23	,	,	PUNCT	.	_	27	punct	_	_
 24	afinal	afinal	ADV	ADV	_	27	advmod	_	_
-25	o	o	DET	DET	PronType=Art	26	det	_	_
+25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	imposto	imposto	NOUN	NOUN	_	27	nsubj	_	_
 27	está	estar	VERB	VERB	_	15	parataxis	_	_
 28	zerado	zerado	ADJ	ADJ	_	27	xcomp	_	_
@@ -106,7 +106,7 @@
 30	quatro	_	NUM	NUM	NumType=Card	31	nummod	_	_
 31	anos	ano	NOUN	NOUN	_	29	nmod	_	_
 32	para	para	ADP	ADP	_	34	case	_	_
-33	as	o	DET	DET	PronType=Art	34	det	_	_
+33	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
 34	vendas	venda	NOUN	NOUN	_	27	nmod	_	_
 35	de	de	ADP	ADP	_	36	case	_	_
 36	caminhões	caminhão	NOUN	NOUN	_	34	nmod	_	_
@@ -122,7 +122,7 @@
 2	delas	_	X	ADPPRON	_	1	nmod	_	_
 3	é	ser	AUX	AUX	_	1	cop	_	_
 4	quando	quando	ADV	ADV	_	11	advmod	_	_
-5	os	o	DET	DET	PronType=Art	6	det	_	_
+5	os	o	DET	DET	_	6	det	_	_
 6	dados	dado	NOUN	NOUN	_	11	nsubj:pass	_	_
 7-8	da	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
@@ -146,20 +146,20 @@
 24	uma	um	DET	DET	_	25	det	_	_
 25	tag	_	NOUN	NOUN	_	22	nmod	_	_
 26	aumenta	aumentar	VERB	VERB	_	19	advcl	_	_
-27	os	o	DET	DET	PronType=Art	28	det	_	_
+27	os	o	DET	DET	_	28	det	_	_
 28	gastos	gasto	NOUN	NOUN	_	26	obj	_	_
 29	com	com	ADP	ADP	_	30	case	_	_
 30	espaço	espaço	NOUN	NOUN	_	28	nmod	_	_
 31	e	e	CCONJ	CONJ	_	34	cc	_	_
 32	com	com	ADP	ADP	_	34	case	_	_
-33	os	o	DET	DET	PronType=Art	34	det	_	_
+33	os	o	DET	DET	_	34	det	_	_
 34	circuitos	circuito	NOUN	NOUN	_	30	conj	_	SpaceAfter=No
 35	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s7220
 # text = Entre os brasileiros, Felipe Massa fazia uma boa prova até disputar posição com Mark Webber;
 1	Entre	_	ADP	ADP	_	3	case	_	_
-2	os	o	DET	DET	PronType=Art	3	det	_	_
+2	os	o	DET	DET	_	3	det	_	_
 3	brasileiros	brasileiro	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
 5	Felipe	_	PROPN	PNOUN	_	7	nsubj	_	_
@@ -178,10 +178,10 @@
 
 # sent_id = train-s7221
 # text = A medida atesta a vocação curitibana de buscar soluções simples e eficientes, uma vez que desalinhando as estações é possível alargar a canaleta sem redução de calçadas e de faixas destinada aos carros.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	medida	medida	NOUN	NOUN	_	3	nsubj	_	_
 3	atesta	atestar	VERB	VERB	_	0	root	_	_
-4	a	o	DET	DET	PronType=Art	5	det	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	vocação	vocação	NOUN	NOUN	_	3	obj	_	_
 6	curitibana	curitibano	ADJ	ADJ	_	5	amod	_	_
 7	de	_	ADP	ADP	_	8	mark	_	_
@@ -195,12 +195,12 @@
 15	vez	vez	NOUN	NOUN	_	14	fixed	_	_
 16	que	_	CCONJ	CONJ	_	14	fixed	_	_
 17	desalinhando	desalinhar	VERB	VERB	_	20	acl	_	_
-18	as	o	DET	DET	PronType=Art	19	det	_	_
+18	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
 19	estações	estação	NOUN	NOUN	_	17	obj	_	_
 20	é	ser	VERB	VERB	_	3	advcl	_	_
 21	possível	possível	ADJ	ADJ	_	20	xcomp	_	_
 22	alargar	alargar	VERB	VERB	_	20	csubj	_	_
-23	a	o	DET	DET	PronType=Art	24	det	_	_
+23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	canaleta	_	NOUN	NOUN	_	22	obj	_	_
 25	sem	_	ADP	ADP	_	26	case	_	_
 26	redução	redução	NOUN	NOUN	_	22	nmod	_	_
@@ -232,12 +232,12 @@
 11	e	e	CCONJ	CONJ	_	12	cc	_	_
 12	alimenta	alimentar	VERB	VERB	_	7	conj	_	_
 13	quem	_	PRON	PRON	_	17	obj	_	_
-14	a	o	DET	DET	PronType=Art	15	det	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	gente	gente	NOUN	NOUN	_	17	nsubj	_	_
 16	menos	menos	ADV	ADV	_	17	advmod	_	_
 17	imagina	imaginar	VERB	VERB	_	12	ccomp	_	SpaceAfter=No
 18	:	:	PUNCT	.	_	13	punct	_	_
-19	os	o	DET	DET	PronType=Art	20	det	_	_
+19	os	o	DET	DET	_	20	det	_	_
 20	morcegos	morcego	NOUN	NOUN	_	13	appos	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	7	punct	_	_
 
@@ -260,13 +260,13 @@
 13	de	de	ADP	ADP	_	14	case	_	_
 14	Governo	_	PROPN	PNOUN	_	12	nmod	_	_
 15	para	para	ADP	ADP	_	18	case	_	_
-16	o	o	DET	DET	PronType=Art	18	det	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 17	próximo	próximo	ADJ	ADJ	_	18	amod	_	_
 18	mandato	mandato	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	.	_	24	punct	_	_
 20	assim	assim	ADV	ADV	_	24	case	_	_
 21	como	_	ADP	ADP	_	20	fixed	_	_
-22	as	o	DET	DET	PronType=Art	24	det	_	_
+22	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
 23	importantes	importante	ADJ	ADJ	_	24	amod	_	_
 24	ações	ação	NOUN	NOUN	_	8	nmod	_	_
 25	desenvolvidas	desenvolver	VERB	VERB	_	24	acl	_	_
@@ -276,7 +276,7 @@
 28	atual	atual	ADJ	ADJ	_	29	amod	_	_
 29	gestão	gestão	NOUN	NOUN	_	25	nmod	_	_
 30	e	e	CCONJ	CONJ	_	32	cc	_	_
-31	as	o	DET	DET	PronType=Art	32	det	_	_
+31	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
 32	obras	obra	NOUN	NOUN	_	24	conj	_	_
 33	em	em	ADP	ADP	_	34	case	_	_
 34	andamento	andamento	NOUN	NOUN	_	32	nmod	_	_
@@ -291,7 +291,7 @@
 1	Eu	_	PRON	PRON	_	2	nsubj	_	_
 2	estou	estar	VERB	VERB	_	18	ccomp	_	_
 3	com	com	ADP	ADP	_	5	case	_	_
-4	a	o	DET	DET	PronType=Art	5	det	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	pulga	_	NOUN	NOUN	_	2	nmod	_	_
 6	atrás	atrás	ADV	ADV	_	5	advmod	_	_
 7-8	da	_	_	_	_	_	_	_	_
@@ -311,7 +311,7 @@
 
 # sent_id = train-s7225
 # text = O Submarino (www.submarino.com.br) faz campanha criada pela DM9Rio para celebrar o Dia Mundial do Rock.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Submarino	_	PROPN	PNOUN	_	6	nsubj	_	_
 3	(	(	PUNCT	.	_	4	punct	_	SpaceAfter=No
 4	www.submarino.com.br	_	X	X	_	2	appos	_	SpaceAfter=No
@@ -325,7 +325,7 @@
 11	DM9Rio	_	PROPN	PNOUN	_	8	nmod	_	_
 12	para	_	ADP	ADP	_	13	mark	_	_
 13	celebrar	celebrar	VERB	VERB	_	8	advcl	_	_
-14	o	o	DET	DET	PronType=Art	15	det	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	Dia	_	PROPN	PNOUN	_	13	obj	_	_
 16	Mundial	_	PROPN	PNOUN	_	15	amod	_	_
 17-18	do	_	_	_	_	_	_	_	_

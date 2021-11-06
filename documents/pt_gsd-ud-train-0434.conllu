@@ -4,12 +4,12 @@
 2	Em	em	ADP	ADP	_	3	case	_	_
 3	2005	_	NUM	NUM	NumType=Card	8	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
-5	a	o	DET	DET	PronType=Art	6	det	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Secretaria	_	PROPN	PNOUN	_	8	nsubj:pass	_	_
 7	foi	_	AUX	AUX	_	8	aux:pass	_	_
 8	resgatada	resgatar	VERB	VERB	_	0	root	_	_
 9	e	e	CCONJ	CONJ	_	12	cc	_	_
-10	as	o	DET	DET	PronType=Art	11	det	_	_
+10	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
 11	transformações	transformação	NOUN	NOUN	_	12	nsubj	_	_
 12	começaram	começar	VERB	VERB	_	8	conj	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	8	punct	_	_
@@ -17,7 +17,7 @@
 # sent_id = train-s4307
 # text = Durante os anos seguintes, van Leeuwenhoek publicou suas descobertas numa série de cartas e manuscritos que enviou a Royal Society de Londres.
 1	Durante	_	ADP	ADP	_	3	case	_	_
-2	os	o	DET	DET	PronType=Art	3	det	_	_
+2	os	o	DET	DET	_	3	det	_	_
 3	anos	ano	NOUN	NOUN	_	8	nmod	_	_
 4	seguintes	seguinte	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	3	punct	_	_
@@ -47,7 +47,7 @@
 # text = Se somarmos o valor médio da camisa oficial -- de R $ 80,00 à R $ 100,00 -- os descontos podem chegar aos 40 %.
 1	Se	_	CCONJ	CONJ	_	2	mark	_	_
 2	somarmos	somar	VERB	VERB	_	24	advcl	_	_
-3	o	o	DET	DET	PronType=Art	4	det	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	valor	valor	NOUN	NOUN	_	2	obj	_	_
 5	médio	médio	ADJ	ADJ	_	4	amod	_	_
 6-7	da	_	_	_	_	_	_	_	_
@@ -67,7 +67,7 @@
 18	$	_	SYM	SYM	_	17	flat	_	_
 19	100,00	_	NUM	NUM	NumType=Card	17	nummod	_	_
 20	--	_	PUNCT	.	_	12	punct	_	_
-21	os	o	DET	DET	PronType=Art	22	det	_	_
+21	os	o	DET	DET	_	22	det	_	_
 22	descontos	desconto	NOUN	NOUN	_	24	nsubj	_	_
 23	podem	_	AUX	AUX	_	24	aux	_	_
 24	chegar	chegar	VERB	VERB	_	0	root	_	_
@@ -83,7 +83,7 @@
 1	Franco	_	PROPN	PNOUN	_	2	nsubj	_	_
 2	afirmou	afirmar	VERB	VERB	_	0	root	_	_
 3	que	que	CCONJ	CONJ	_	27	mark	_	_
-4	o	o	DET	DET	PronType=Art	5	det	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Paraguai	_	PROPN	PNOUN	_	27	nsubj	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	8	punct	_	_
 7	um	um	DET	DET	_	8	det	_	_
@@ -125,14 +125,14 @@
 42	estender	estender	VERB	VERB	_	39	ccomp	_	_
 43	muito	muito	ADV	ADV	_	42	advmod	_	_
 44	sobre	_	ADP	ADP	_	46	case	_	_
-45	a	o	DET	DET	PronType=Art	46	det	_	_
+45	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
 46	questão	questão	NOUN	NOUN	_	42	nmod	_	_
 47	porque	_	CCONJ	CONJ	_	53	mark	_	_
 48	"	"	PUNCT	.	_	53	punct	_	SpaceAfter=No
 49	esse	_	PRON	PRON	_	53	nsubj	_	_
 50	é	ser	AUX	AUX	_	53	cop	_	_
 51	exatamente	exatamente	ADV	ADV	_	53	advmod	_	_
-52	o	o	DET	DET	PronType=Art	53	det	_	_
+52	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
 53	jogo	jogo	NOUN	NOUN	_	42	advcl	_	SpaceAfter=No
 54	"	"	PUNCT	.	_	53	punct	_	_
 55	no	_	X	ADPPRON	_	56	case	_	_
@@ -148,7 +148,7 @@
 
 # sent_id = train-s4310
 # text = O vereador eleito Nabil Bonduk (PT) é citado para a Secretaria de Desenvolvimento Urbano, mas Haddad pode deixá - lo na Câmara Municipal, para articular a aprovação do novo Plano Diretor.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	vereador	vereador	NOUN	NOUN	_	10	nsubj:pass	_	_
 3	eleito	eleger	VERB	VERB	_	2	acl	_	_
 4	Nabil	_	PROPN	PNOUN	_	2	appos	_	_
@@ -159,7 +159,7 @@
 9	é	ser	AUX	AUX	_	10	aux:pass	_	_
 10	citado	citar	VERB	VERB	_	0	root	_	_
 11	para	para	ADP	ADP	_	13	case	_	_
-12	a	o	DET	DET	PronType=Art	13	det	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	Secretaria	_	PROPN	PNOUN	_	10	nmod	_	_
 14	de	de	ADP	ADP	_	15	case	_	_
 15	Desenvolvimento	_	PROPN	PNOUN	_	13	nmod	_	_
@@ -179,7 +179,7 @@
 28	,	,	PUNCT	.	_	30	punct	_	_
 29	para	_	ADP	ADP	_	30	mark	_	_
 30	articular	articular	VERB	VERB	_	21	advcl	_	_
-31	a	o	DET	DET	PronType=Art	32	det	_	_
+31	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	aprovação	aprovação	NOUN	NOUN	_	30	obj	_	_
 33-34	do	_	_	_	_	_	_	_	_
 33	de	de	ADP	ADP	_	36	case	_	_
@@ -193,14 +193,14 @@
 # text = Para minimizar os efeitos da estiagem, o governo federal colocou em prática algumas ações como a Operação Carro - Pipa, Bolsa Estiagem, Garantia - Safra, dentre outras.
 1	Para	_	ADP	ADP	_	2	mark	_	_
 2	minimizar	minimizar	VERB	VERB	_	12	advcl	_	_
-3	os	o	DET	DET	PronType=Art	4	det	_	_
+3	os	o	DET	DET	_	4	det	_	_
 4	efeitos	efeito	NOUN	NOUN	_	2	obj	_	_
 5-6	da	_	_	_	_	_	_	_	_
 5	de	de	ADP	ADP	_	7	case	_	_
 6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	estiagem	estiagem	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	2	punct	_	_
-9	o	o	DET	DET	PronType=Art	10	det	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	governo	governo	NOUN	NOUN	_	12	nsubj	_	_
 11	federal	federal	ADJ	ADJ	_	10	amod	_	_
 12	colocou	colocar	VERB	VERB	_	0	root	_	_
@@ -209,7 +209,7 @@
 15	algumas	_	DET	DET	_	16	det	_	_
 16	ações	ação	NOUN	NOUN	_	12	obj	_	_
 17	como	como	ADP	ADP	_	19	case	_	_
-18	a	o	DET	DET	PronType=Art	19	det	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	Operação	_	PROPN	PNOUN	_	16	nmod	_	_
 20	Carro	_	PROPN	PNOUN	_	19	flat	_	_
 21	-	-	PUNCT	.	_	24	punct	_	_
@@ -228,7 +228,7 @@
 
 # sent_id = train-s4312
 # text = A presidente do Ipea, Vanessa Petrelli, foi escolhida pela ONU para integrar painel que vai criar Objetivos de Desenvolvimento Sustentável.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	presidente	presidente	NOUN	NOUN	_	11	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -270,7 +270,7 @@
 # sent_id = train-s4314
 # text = Com a decisão do Fed em manter a compra de títulos, o mercado reagiu e a divisa encerrou em queda.
 1	Com	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	PronType=Art	3	det	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	decisão	decisão	NOUN	NOUN	_	16	nmod	_	_
 4-5	do	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
@@ -278,12 +278,12 @@
 6	Fed	_	PROPN	PNOUN	_	3	nmod	_	_
 7	em	_	ADP	ADP	_	8	mark	_	_
 8	manter	manter	VERB	VERB	_	3	nmod	_	_
-9	a	o	DET	DET	PronType=Art	10	det	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	compra	compra	NOUN	NOUN	_	8	obj	_	_
 11	de	de	ADP	ADP	_	12	case	_	_
 12	títulos	título	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	3	punct	_	_
-14	o	o	DET	DET	PronType=Art	15	det	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	mercado	mercado	NOUN	NOUN	_	16	nsubj	_	_
 16	reagiu	reagir	VERB	VERB	_	0	root	_	_
 17	e	e	CCONJ	CONJ	_	20	cc	_	_

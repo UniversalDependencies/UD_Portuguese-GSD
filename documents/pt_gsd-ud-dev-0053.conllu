@@ -16,11 +16,11 @@
 
 # sent_id = dev-s516
 # text = O governo federal lançou o "Pacto Nacional pela Alfabetização na Idade Certa".
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	governo	governo	NOUN	NOUN	_	4	nsubj	_	_
 3	federal	federal	ADJ	ADJ	_	2	amod	_	_
 4	lançou	lançar	VERB	VERB	_	0	root	_	_
-5	o	o	DET	DET	PronType=Art	7	det	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
 7	Pacto	_	PROPN	PNOUN	_	4	obj	_	_
 8	Nacional	_	PROPN	PNOUN	_	7	amod	_	_
@@ -50,7 +50,7 @@
 9	de	de	ADP	ADP	_	10	case	_	_
 10	Itapevi	_	PROPN	PNOUN	_	7	nmod	_	_
 11	--	_	PUNCT	.	_	2	punct	_	_
-12	o	o	DET	DET	PronType=Art	13	det	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	prazo	prazo	NOUN	NOUN	_	18	nsubj	_	_
 14	dessa	_	ADP	ADP	_	15	case	_	_
 15	ordem	ordem	NOUN	NOUN	_	13	nmod	_	_
@@ -67,7 +67,7 @@
 # sent_id = dev-s518
 # text = Segundo a assessoria da CDL foram repassadas 20 perguntas para cada candidato, destas somente cinco serão escolhidas no início do evento para que os dois candidatos possam expor suas propostas.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	PronType=Art	3	det	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	assessoria	assessoria	NOUN	NOUN	_	8	nmod	_	_
 4-5	da	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
@@ -96,7 +96,7 @@
 25	evento	evento	NOUN	NOUN	_	22	nmod	_	_
 26	para	_	ADP	ADP	_	32	mark	_	_
 27	que	_	CCONJ	CONJ	_	26	fixed	_	_
-28	os	o	DET	DET	PronType=Art	30	det	_	_
+28	os	o	DET	DET	_	30	det	_	_
 29	dois	_	NUM	NUM	NumType=Card	30	nummod	_	_
 30	candidatos	candidato	NOUN	NOUN	_	32	nsubj	_	_
 31	possam	_	AUX	AUX	_	32	aux	_	_
@@ -107,14 +107,14 @@
 
 # sent_id = dev-s519
 # text = A América do Sul detém a maior participação nas exportações brasileiras, com 46,8 %.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	América	_	NOUN	NOUN	_	6	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
 4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Sul	_	PROPN	PNOUN	_	2	nmod	_	_
 6	detém	deter	VERB	VERB	_	0	root	_	_
-7	a	o	DET	DET	PronType=Art	9	det	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 8	maior	maior	ADJ	ADJ	_	9	amod	_	_
 9	participação	participação	NOUN	NOUN	_	6	obj	_	_
 10-11	nas	_	_	_	_	_	_	_	_
@@ -149,7 +149,7 @@
 
 # sent_id = dev-s521
 # text = Os projetos poderão ser enviados até dia 14 de dezembro.
-1	Os	o	DET	DET	PronType=Art	2	det	_	_
+1	Os	o	DET	DET	_	2	det	_	_
 2	projetos	projeto	NOUN	NOUN	_	5	nsubj:pass	_	_
 3	poderão	poder	AUX	AUX	_	5	aux	_	_
 4	ser	ser	AUX	AUX	_	5	aux:pass	_	_
@@ -163,7 +163,7 @@
 
 # sent_id = dev-s522
 # text = A Federação do Comércio de Bens, Serviços e Turismo (Fecomércio) de Santa Catarina divulgou nesta segunda - feira (24) mais uma pesquisa sobre os serviços públicos em cidades catarinenses.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Federação	federação	NOUN	NOUN	_	18	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -193,7 +193,7 @@
 27	uma	_	NUM	NUM	NumType=Card	28	nummod	_	_
 28	pesquisa	pesquisa	NOUN	NOUN	_	18	obj	_	_
 29	sobre	_	ADP	ADP	_	31	case	_	_
-30	os	o	DET	DET	PronType=Art	31	det	_	_
+30	os	o	DET	DET	_	31	det	_	_
 31	serviços	serviço	NOUN	NOUN	_	28	nmod	_	_
 32	públicos	público	ADJ	ADJ	_	31	amod	_	_
 33	em	em	ADP	ADP	_	34	case	_	_
@@ -203,7 +203,7 @@
 
 # sent_id = dev-s523
 # text = O impacto das batidas lançou o recém - nascido, mesmo com o assento infantil, para dentro do porta - malas.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	impacto	impacto	NOUN	NOUN	_	6	nsubj	_	_
 3-4	das	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -217,7 +217,7 @@
 11	,	,	PUNCT	.	_	12	punct	_	_
 12	mesmo	mesmo	ADV	ADV	_	6	advmod	_	_
 13	com	com	ADP	ADP	_	15	case	_	_
-14	o	o	DET	DET	PronType=Art	15	det	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	assento	assento	NOUN	NOUN	_	12	nmod	_	_
 16	infantil	infantil	ADJ	ADJ	_	15	amod	_	SpaceAfter=No
 17	,	,	PUNCT	.	_	12	punct	_	_
@@ -235,10 +235,10 @@
 # text = -- Para a Fifa, a quantia paga aos clubes como indenização é uma migalha.
 1	--	_	PUNCT	.	_	16	punct	_	_
 2	Para	_	ADP	ADP	_	4	case	_	_
-3	a	o	DET	DET	PronType=Art	4	det	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Fifa	_	PROPN	PNOUN	_	16	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	4	punct	_	_
-6	a	o	DET	DET	PronType=Art	7	det	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	quantia	quantia	NOUN	NOUN	_	16	nsubj	_	_
 8	paga	pagar	VERB	VERB	_	7	acl	_	_
 9-10	aos	_	_	_	_	_	_	_	_

@@ -9,16 +9,16 @@
 7	atraente	atraente	ADJ	ADJ	_	5	amod	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	11	punct	_	_
 9	dado	dado	ADJ	ADJ	_	11	case	_	_
-10	o	o	DET	DET	PronType=Art	11	det	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	contraste	contraste	NOUN	NOUN	_	3	nmod	_	_
 12	entre	_	ADP	ADP	_	14	case	_	_
-13	a	o	DET	DET	PronType=Art	14	det	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	casca	casca	NOUN	NOUN	_	11	nmod	_	_
 15	laranja	_	ADJ	ADJ	_	14	amod	_	_
 16	com	com	ADP	ADP	_	17	case	_	_
 17	espinhos	espinho	NOUN	NOUN	_	14	nmod	_	_
 18	e	e	CCONJ	CONJ	_	20	cc	_	_
-19	o	o	DET	DET	PronType=Art	20	det	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	verde	verde	NOUN	NOUN	_	14	conj	_	_
 21	translúcido	translúcido	ADJ	ADJ	_	20	amod	_	_
 22-23	da	_	_	_	_	_	_	_	_
@@ -39,7 +39,7 @@
 8	semente	semente	NOUN	NOUN	_	6	nmod	_	_
 9	por	por	ADP	ADP	_	12	case	_	_
 10	todos	_	DET	DET	_	12	det	_	_
-11	os	o	DET	DET	PronType=Art	12	det	_	_
+11	os	o	DET	DET	_	12	det	_	_
 12	dias	dia	NOUN	NOUN	_	6	nmod	_	_
 13	de	de	ADP	ADP	_	15	case	_	_
 14	sua	_	DET	DET	_	15	det:poss	_	_
@@ -76,7 +76,7 @@
 3	uma	um	DET	DET	_	4	det	_	_
 4	música	_	NOUN	NOUN	_	2	obj	_	_
 5	com	com	ADP	ADP	_	7	case	_	_
-6	o	o	DET	DET	PronType=Art	7	det	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Ponto	_	PROPN	PNOUN	_	2	nmod	_	_
 8	de	de	ADP	ADP	_	9	case	_	_
 9	Equilíbrio	_	PROPN	PNOUN	_	7	nmod	_	_
@@ -91,7 +91,7 @@
 # sent_id = train-s5263
 # text = Já a presidente do Sindicato dos Trabalhadores Federais da Saúde, Trabalho e Previdência do Rio de Janeiro (Sindisprev - RJ), Cristiana Gerardo, disse que o governo não tem dado assistência à saúde, refletindo no atendimento ao usuário e nas condições de trabalho.
 1	Já	já	ADV	ADV	_	32	advmod	_	_
-2	a	o	DET	DET	PronType=Art	3	det	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	presidente	presidente	NOUN	NOUN	_	32	nsubj	_	_
 4-5	do	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
@@ -127,7 +127,7 @@
 31	,	,	PUNCT	.	_	29	punct	_	_
 32	disse	dizer	VERB	VERB	_	0	root	_	_
 33	que	que	CCONJ	CONJ	_	38	mark	_	_
-34	o	o	DET	DET	PronType=Art	35	det	_	_
+34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	governo	governo	NOUN	NOUN	_	38	nsubj	_	_
 36	não	não	ADV	ADV	Polarity=Neg	38	advmod	_	_
 37	tem	ter	AUX	AUX	_	38	aux	_	_
@@ -158,7 +158,7 @@
 
 # sent_id = train-s5264
 # text = A secretária de Estado americana, Hillary Clinton, que ficou hospitalizada durante alguns dias no início da semana e ausente da vida pública desde 7 de dezembro devido a problemas de saúde, está "ansiosa" para voltar ao trabalho na próxima semana, indicou nesta quinta - feira o departamento de Estado.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	secretária	_	NOUN	NOUN	_	38	nsubj	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	Estado	_	PROPN	PNOUN	_	2	nmod	_	_
@@ -219,7 +219,7 @@
 54	quinta	_	PROPN	PNOUN	_	56	amod	_	_
 55	-	-	PUNCT	.	_	56	punct	_	_
 56	feira	_	PROPN	PNOUN	_	52	nmod	_	_
-57	o	o	DET	DET	PronType=Art	58	det	_	_
+57	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	58	det	_	_
 58	departamento	_	PROPN	PNOUN	_	52	nsubj	_	_
 59	de	de	ADP	ADP	_	60	case	_	_
 60	Estado	_	PROPN	PNOUN	_	58	nmod	_	SpaceAfter=No
@@ -242,7 +242,7 @@
 
 # sent_id = train-s5266
 # text = Os sobreviventes, em boas condições de saúde, explicaram que o barco no qual viajavam, com 150 pessoas, incluindo mulheres e crianças, teve um problema no motor.
-1	Os	o	DET	DET	PronType=Art	2	det	_	_
+1	Os	o	DET	DET	_	2	det	_	_
 2	sobreviventes	sobrevivente	NOUN	NOUN	_	10	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	6	punct	_	_
 4	em	em	ADP	ADP	_	6	case	_	_
@@ -253,7 +253,7 @@
 9	,	,	PUNCT	.	_	6	punct	_	_
 10	explicaram	explicar	VERB	VERB	_	0	root	_	_
 11	que	que	CCONJ	CONJ	_	28	mark	_	_
-12	o	o	DET	DET	PronType=Art	13	det	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	barco	barco	NOUN	NOUN	_	28	nsubj	_	_
 14-15	no	_	_	_	_	_	_	_	_
 14	em	em	ADP	ADP	_	16	case	_	_
@@ -281,7 +281,7 @@
 
 # sent_id = train-s5267
 # text = O objetivo do programa é preparar os jovens estudantes para criar novas tecnologias que serão aproveitadas no Brasil quando voltarem.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	objetivo	objetivo	NOUN	NOUN	_	0	root	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -289,7 +289,7 @@
 5	programa	programa	NOUN	NOUN	_	2	nmod	_	_
 6	é	ser	AUX	AUX	_	2	cop	_	_
 7	preparar	preparar	VERB	VERB	_	2	csubj	_	_
-8	os	o	DET	DET	PronType=Art	10	det	_	_
+8	os	o	DET	DET	_	10	det	_	_
 9	jovens	jovem	ADJ	ADJ	_	10	amod	_	_
 10	estudantes	estudante	NOUN	NOUN	_	7	obj	_	_
 11	para	_	ADP	ADP	_	12	mark	_	_

@@ -3,7 +3,7 @@
 1	De	_	VERB	VERB	_	2	case	_	_
 2	acordo	acordo	NOUN	NOUN	_	11	nmod	_	_
 3	com	com	ADP	ADP	_	5	case	_	_
-4	a	o	DET	DET	PronType=Art	5	det	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	BHTrans	_	PROPN	PNOUN	_	2	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	2	punct	_	_
 7	cerca	cerca	ADV	ADV	_	9	advmod	_	_
@@ -49,7 +49,7 @@
 # sent_id = train-s3938
 # text = É a minha prova.
 1	É	ser	AUX	AUX	_	4	cop	_	_
-2	a	o	DET	DET	PronType=Art	4	det	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	minha	_	DET	DET	_	4	det:poss	_	_
 4	prova	prova	NOUN	NOUN	_	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	.	_	4	punct	_	_
@@ -83,7 +83,7 @@
 # sent_id = train-s3940
 # text = Sendo a proposta do ambiente um dormitório para um casal na melhor idade, o elefante representa longevidade, prosperidade e sabedoria ", justifica.
 1	Sendo	ser	AUX	AUX	_	8	cop	_	_
-2	a	o	DET	DET	PronType=Art	3	det	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	proposta	_	NOUN	NOUN	_	8	nsubj	_	_
 4-5	do	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
@@ -100,7 +100,7 @@
 14	melhor	melhor	ADJ	ADJ	_	15	amod	_	_
 15	idade	idade	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	.	_	8	punct	_	_
-17	o	o	DET	DET	PronType=Art	18	det	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	elefante	elefante	NOUN	NOUN	_	19	nsubj	_	_
 19	representa	representar	VERB	VERB	_	27	ccomp	_	_
 20	longevidade	longevidade	NOUN	NOUN	_	19	obj	_	SpaceAfter=No
@@ -115,7 +115,7 @@
 
 # sent_id = train-s3941
 # text = O alerta é da Coordenadoria Estadual de Defesa Civil (Cedec / MS).
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	alerta	alerta	NOUN	NOUN	_	3	nsubj	_	_
 3	é	ser	VERB	VERB	_	0	root	_	_
 4-5	da	_	_	_	_	_	_	_	_
@@ -167,18 +167,18 @@
 7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Olimpíada	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	5	punct	_	_
-10	a	o	DET	DET	PronType=Art	11	det	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	competição	competição	NOUN	NOUN	_	12	nsubj	_	_
 12	é	ser	VERB	VERB	_	0	root	_	_
 13	de	de	ADP	ADP	_	14	case	_	_
 14	hóquei	hóquei	NOUN	NOUN	_	12	nmod	_	_
 15	sobre	_	ADP	ADP	_	17	case	_	_
-16	a	o	DET	DET	PronType=Art	17	det	_	_
+16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	grama	grama	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	.	_	23	punct	_	_
 19	em	em	ADP	ADP	_	20	case	_	_
 20	que	_	PRON	PRON	_	23	nmod	_	_
-21	os	o	DET	DET	PronType=Art	22	det	_	_
+21	os	o	DET	DET	_	22	det	_	_
 22	atletas	atleta	NOUN	NOUN	_	23	nsubj	_	_
 23	jogam	jogar	VERB	VERB	_	14	acl:relcl	_	_
 24	com	com	ADP	ADP	_	25	case	_	_
@@ -210,14 +210,14 @@
 
 # sent_id = train-s3945
 # text = As informações são do jornal O Estado de S. Paulo.
-1	As	o	DET	DET	PronType=Art	2	det	_	_
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	informações	informação	NOUN	NOUN	_	3	nsubj	_	_
 3	são	ser	VERB	VERB	_	0	root	_	_
 4-5	do	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
 5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	jornal	jornal	NOUN	NOUN	_	3	nmod	_	_
-7	O	o	DET	_	PronType=Art	8	det	_	_
+7	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	Estado	_	PROPN	PNOUN	_	6	appos	_	_
 9	de	de	ADP	ADP	_	10	case	_	_
 10	S.	São	PROPN	_	Abbr=Yes	8	nmod	_	_

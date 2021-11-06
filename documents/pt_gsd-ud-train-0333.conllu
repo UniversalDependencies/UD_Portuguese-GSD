@@ -1,10 +1,10 @@
 # sent_id = train-s3302
 # text = Após o empate, o Brasil seguiu pressionando, mas chegou ao limite de cinco faltas e passou a, consequentemente, marcar os rivais com mais cautela.
 1	Após	_	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	PronType=Art	3	det	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	empate	empate	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
-5	o	o	DET	DET	PronType=Art	6	det	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Brasil	_	PROPN	PNOUN	_	8	nsubj	_	_
 7	seguiu	seguir	AUX	AUX	_	8	aux	_	_
 8	pressionando	pressionar	VERB	VERB	_	0	root	_	SpaceAfter=No
@@ -25,7 +25,7 @@
 22	consequentemente	consequentemente	ADV	ADV	_	24	advmod	_	SpaceAfter=No
 23	,	,	PUNCT	.	_	22	punct	_	_
 24	marcar	marcar	VERB	VERB	_	8	conj	_	_
-25	os	o	DET	DET	PronType=Art	26	det	_	_
+25	os	o	DET	DET	_	26	det	_	_
 26	rivais	rival	NOUN	NOUN	_	24	obj	_	_
 27	com	com	ADP	ADP	_	29	case	_	_
 28	mais	_	DET	DET	_	29	det	_	_
@@ -37,7 +37,7 @@
 1	De	_	ADP	ADP	_	2	case	_	_
 2	acordo	acordo	NOUN	NOUN	_	21	nmod	_	_
 3	com	com	ADP	ADP	_	5	case	_	_
-4	a	o	DET	DET	PronType=Art	5	det	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Associação	_	PROPN	PNOUN	_	2	nmod	_	_
 6	Brasileira	_	PROPN	PNOUN	_	5	amod	_	_
 7	de	de	ADP	ADP	_	8	case	_	_
@@ -48,7 +48,7 @@
 12	Alshop	_	PROPN	PNOUN	_	5	appos	_	SpaceAfter=No
 13	)	)	PUNCT	.	_	12	punct	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	2	punct	_	_
-15	a	o	DET	DET	PronType=Art	16	det	_	_
+15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	maioria	maioria	NOUN	NOUN	_	21	nsubj	_	_
 17-18	dos	_	_	_	_	_	_	_	_
 17	de	de	ADP	ADP	_	19	case	_	_
@@ -73,14 +73,14 @@
 4	convencido	convencido	ADJ	ADJ	_	3	xcomp	_	_
 5	de	_	ADP	ADP	_	10	mark	_	_
 6	que	que	CCONJ	CONJ	_	10	mark	_	_
-7	o	o	DET	DET	PronType=Art	8	det	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	conjunto	conjunto	NOUN	NOUN	_	10	nsubj	_	_
 9	me	_	PRON	PRON	_	10	iobj	_	_
 10	parecesse	parecer	VERB	VERB	_	4	nmod	_	_
 11	capaz	capaz	ADJ	ADJ	_	10	xcomp	_	_
 12	de	_	ADP	ADP	_	13	mark	_	_
 13	fazer	fazer	VERB	VERB	_	11	nmod	_	_
-14	a	o	DET	DET	PronType=Art	15	det	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	diferença	diferença	NOUN	NOUN	_	13	obj	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
 17	"	"	PUNCT	.	_	3	punct	_	_
@@ -97,7 +97,7 @@
 7	de	de	ADP	ADP	_	8	case	_	_
 8	2011	_	NUM	NUM	NumType=Card	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	3	punct	_	_
-10	o	o	DET	DET	PronType=Art	11	det	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	piloto	piloto	NOUN	NOUN	_	15	nsubj	_	_
 12	de	de	ADP	ADP	_	14	case	_	_
 13	27	_	NUM	NUM	NumType=Card	14	nummod	_	_
@@ -135,7 +135,7 @@
 
 # sent_id = train-s3306
 # text = O álbum produziu dois singles oficiais: "Come Back to Me", lançada em 2006, e "Say OK", lançada em 2007.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	álbum	álbum	NOUN	NOUN	_	3	nsubj	_	_
 3	produziu	produzir	VERB	VERB	_	0	root	_	_
 4	dois	_	NUM	NUM	NumType=Card	5	nummod	_	_
@@ -170,7 +170,7 @@
 2	em	em	ADP	ADP	_	3	case	_	_
 3	outubro	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
-5	o	o	DET	DET	PronType=Art	6	det	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	sistema	sistema	NOUN	NOUN	_	8	nsubj:pass	_	_
 7	foi	_	AUX	AUX	_	8	aux:pass	_	_
 8	usado	usar	VERB	VERB	_	0	root	_	_
@@ -184,7 +184,7 @@
 
 # sent_id = train-s3308
 # text = O brasileiro Felipe Massa, da Ferrari, foi o sexto.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	brasileiro	brasileiro	NOUN	NOUN	_	12	nsubj	_	_
 3	Felipe	_	PROPN	PNOUN	_	2	appos	_	_
 4	Massa	_	PROPN	PNOUN	_	3	flat	_	SpaceAfter=No
@@ -195,13 +195,13 @@
 8	Ferrari	_	PROPN	PNOUN	_	2	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	8	punct	_	_
 10	foi	_	AUX	AUX	_	12	cop	_	_
-11	o	o	DET	DET	PronType=Art	12	det	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	sexto	sexto	NOUN	NOUN	_	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = train-s3309
 # text = O Rei do Baião, Luiz Gonzaga, vai ganhar homenagem especial nesta segunda - feira (3) no Salão Negro do Senado Federal.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Rei	_	PROPN	PNOUN	_	11	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -248,7 +248,7 @@
 9	divergir	divergir	VERB	VERB	_	0	root	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	14	punct	_	_
 11	porém	_	ADV	ADV	_	14	advmod	_	_
-12	o	o	DET	DET	PronType=Art	13	det	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	tom	tom	NOUN	NOUN	_	14	nsubj	_	_
 14	foi	_	VERB	VERB	_	9	conj	_	_
 15	mais	mais	ADV	ADV	_	16	advmod	_	_

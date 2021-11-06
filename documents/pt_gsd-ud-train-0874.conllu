@@ -1,6 +1,6 @@
 # sent_id = train-s8674
 # text = O contrato de 940 funcionários da General Motors terão seus contratos de trabalho suspensos a partir da próxima segunda - feira, segundo informações divulgadas pelo Sindicato dos Metalúrgicos de São José dos Campos nesta quinta - feira.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	contrato	contrato	NOUN	NOUN	_	10	nsubj	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
 4	940	_	NUM	NUM	NumType=Card	5	nummod	_	_
@@ -68,7 +68,7 @@
 
 # sent_id = train-s8676
 # text = O título também vale dinheiro".
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	título	título	NOUN	NOUN	_	4	nsubj	_	_
 3	também	também	ADV	ADV	_	4	advmod	_	_
 4	vale	_	VERB	VERB	_	0	root	_	_
@@ -86,10 +86,10 @@
 # sent_id = train-s8678
 # text = "Os suspeitos procuravam os pacientes que precisavam dum transplante de órgãos nos hospitais e na internet e buscavam os doadores correspondentes", segundo a mesma fonte.
 1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
-2	Os	o	DET	DET	PronType=Art	3	det	_	_
+2	Os	o	DET	DET	_	3	det	_	_
 3	suspeitos	suspeito	NOUN	NOUN	_	4	nsubj	_	_
 4	procuravam	procurar	VERB	VERB	_	0	root	_	_
-5	os	o	DET	DET	PronType=Art	6	det	_	_
+5	os	o	DET	DET	_	6	det	_	_
 6	pacientes	paciente	NOUN	NOUN	_	4	obj	_	_
 7	que	_	PRON	PRON	_	8	nsubj	_	_
 8	precisavam	precisar	VERB	VERB	_	6	acl:relcl	_	_
@@ -110,13 +110,13 @@
 20	internet	_	PROPN	PNOUN	_	16	conj	_	_
 21	e	e	CCONJ	CONJ	_	22	cc	_	_
 22	buscavam	buscar	VERB	VERB	_	4	conj	_	_
-23	os	o	DET	DET	PronType=Art	24	det	_	_
+23	os	o	DET	DET	_	24	det	_	_
 24	doadores	doador	NOUN	NOUN	_	22	obj	_	_
 25	correspondentes	correspondente	ADJ	ADJ	_	24	amod	_	SpaceAfter=No
 26	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
 27	,	,	PUNCT	.	_	31	punct	_	_
 28	segundo	_	ADP	ADP	_	31	case	_	_
-29	a	o	DET	DET	PronType=Art	31	det	_	_
+29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 30	mesma	mesmo	ADJ	ADJ	_	31	amod	_	_
 31	fonte	fonte	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	4	punct	_	_
@@ -152,12 +152,12 @@
 27	em	em	ADP	ADP	_	28	case	_	_
 28	1910	_	NUM	NUM	NumType=Card	25	nmod	_	SpaceAfter=No
 29	,	,	PUNCT	.	_	28	punct	_	_
-30	a	o	DET	DET	PronType=Art	31	det	_	_
+30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	General	_	PROPN	PNOUN	_	25	obj	_	_
 32	Bakelite	_	PROPN	PNOUN	_	31	flat	_	_
 33	Company	_	PROPN	PNOUN	_	31	flat	_	_
 34	para	para	ADP	ADP	_	36	case	_	_
-35	a	o	DET	DET	PronType=Art	36	det	_	_
+35	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 36	exploração	exploração	NOUN	NOUN	_	25	nmod	_	_
 37	industrial	industrial	ADJ	ADJ	_	36	amod	_	_
 38	de	de	ADP	ADP	_	40	case	_	_
@@ -185,7 +185,7 @@
 
 # sent_id = train-s8681
 # text = As reservas de petróleo recuaram em 5,4 milhões de barris durante a semana terminada em 17 de agosto, para 360,7 milhões de barris.
-1	As	o	DET	DET	PronType=Art	2	det	_	_
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	reservas	reserva	NOUN	NOUN	_	5	nsubj	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	petróleo	petróleo	NOUN	NOUN	_	2	nmod	_	_
@@ -196,7 +196,7 @@
 9	de	_	ADP	ADP	_	10	nmod	_	_
 10	barris	barril	NOUN	NOUN	_	5	nmod	_	_
 11	durante	_	ADP	ADP	_	13	case	_	_
-12	a	o	DET	DET	PronType=Art	13	det	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	semana	semana	NOUN	NOUN	_	10	nmod	_	_
 14	terminada	terminar	VERB	VERB	_	13	acl	_	_
 15	em	em	ADP	ADP	_	16	case	_	_
@@ -246,7 +246,7 @@
 2	de	de	ADP	ADP	_	3	case	_	_
 3	Janeiro	_	PROPN	PNOUN	_	1	nmod	_	_
 4	--	_	PUNCT	.	_	17	punct	_	_
-5	O	o	DET	DET	PronType=Art	6	det	_	_
+5	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Programa	_	PROPN	PNOUN	_	17	nsubj	_	_
 7-8	das	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
@@ -254,7 +254,7 @@
 9	Nações	_	PROPN	PNOUN	_	6	nmod	_	_
 10	Unidas	_	PROPN	PNOUN	_	9	amod	_	_
 11	para	para	ADP	ADP	_	13	case	_	_
-12	o	o	DET	DET	PronType=Art	13	det	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	Desenvolvimento	_	PROPN	PNOUN	_	6	nmod	_	_
 14	(	(	PUNCT	.	_	15	punct	_	SpaceAfter=No
 15	Pnud	_	PROPN	PNOUN	_	6	appos	_	SpaceAfter=No
@@ -264,7 +264,7 @@
 19	quarta	_	PROPN	PNOUN	_	21	amod	_	_
 20	-	-	PUNCT	.	_	21	punct	_	_
 21	feira	_	PROPN	PNOUN	_	17	nmod	_	_
-22	a	o	DET	DET	PronType=Art	23	det	_	_
+22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	criação	criação	NOUN	NOUN	_	17	obj	_	_
 24-25	dum	_	_	_	_	_	_	_	_
 24	de	de	ADP	ADP	_	26	case	_	_
@@ -276,7 +276,7 @@
 30	humano	humano	ADJ	ADJ	_	28	amod	_	_
 31	que	_	PRON	PRON	_	32	nsubj	_	_
 32	substitua	substituir	VERB	VERB	_	26	acl:relcl	_	_
-33	o	o	DET	DET	PronType=Art	34	det	_	_
+33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
 34	Produto	_	PROPN	PNOUN	_	32	obj	_	_
 35	Interno	_	PROPN	PNOUN	_	34	amod	_	_
 36	Bruto	_	PROPN	PNOUN	_	34	amod	_	_

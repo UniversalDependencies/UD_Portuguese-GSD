@@ -20,7 +20,7 @@
 15	três	_	NUM	NUM	NumType=Card	16	nummod	_	_
 16	rodadas	_	NOUN	NOUN	_	14	obj	_	SpaceAfter=No
 17	,	,	PUNCT	.	_	14	punct	_	_
-18	o	o	DET	DET	PronType=Art	19	det	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	Brasileirão	_	PROPN	PNOUN	_	23	nsubj	_	_
 20	2012	_	NUM	NUM	NumType=Card	19	nmod	_	_
 21	não	não	ADV	ADV	Polarity=Neg	23	advmod	_	_
@@ -43,13 +43,13 @@
 # text = Primeiro veio o (goleiro) Rafael, o (lateral - esquerdo) Léo, todo mundo veio me cumprimentar.
 1	Primeiro	primeiro	ADV	ADV	_	2	advmod	_	_
 2	veio	_	VERB	VERB	_	0	root	_	_
-3	o	o	DET	DET	PronType=Art	5	det	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 4	(	(	PUNCT	.	_	5	punct	_	SpaceAfter=No
 5	goleiro	goleiro	NOUN	NOUN	_	2	nsubj	_	SpaceAfter=No
 6	)	)	PUNCT	.	_	11	punct	_	_
 7	Rafael	_	PROPN	PNOUN	_	5	appos	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	11	punct	_	_
-9	o	o	DET	DET	PronType=Art	11	det	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 10	(	(	PUNCT	.	_	11	punct	_	SpaceAfter=No
 11	lateral	lateral	NOUN	NOUN	_	5	conj	_	_
 12	-	-	PUNCT	.	_	11	punct	_	_
@@ -70,7 +70,7 @@
 2	e	e	CCONJ	CONJ	_	3	cc	_	_
 3	Rodrigo	_	PROPN	PNOUN	_	1	conj	_	_
 4	encontram	encontrar	VERB	VERB	_	0	root	_	_
-5	a	o	DET	DET	PronType=Art	6	det	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	ficha	ficha	NOUN	NOUN	_	4	obj	_	_
 7-8	duma	_	_	_	_	_	_	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
@@ -97,7 +97,7 @@
 8	de	de	ADP	ADP	_	9	case	_	_
 9	degraus	degrau	NOUN	NOUN	_	7	nmod	_	_
 10	e	e	CCONJ	CONJ	_	16	cc	_	_
-11	a	o	DET	DET	PronType=Art	12	det	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	largura	largura	NOUN	NOUN	_	16	nsubj	_	_
 13	de	de	ADP	ADP	_	15	case	_	_
 14	cada	_	DET	DET	_	15	det	_	_
@@ -113,7 +113,7 @@
 1	Em	em	ADP	ADP	_	2	case	_	_
 2	campo	campo	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
-4	o	o	DET	DET	PronType=Art	5	det	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Partizan	_	PROPN	PNOUN	_	7	nsubj	_	_
 6	deve	dever	AUX	AUX	_	7	aux	_	_
 7	causar	causar	VERB	VERB	_	0	root	_	_
@@ -121,7 +121,7 @@
 9	menos	menos	ADV	ADV	_	10	advmod	_	_
 10	problemas	problema	NOUN	NOUN	_	7	obj	_	_
 11	para	para	ADP	ADP	_	13	case	_	_
-12	o	o	DET	DET	PronType=Art	13	det	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	Inter	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	7	punct	_	_
 
@@ -130,7 +130,7 @@
 1	De	_	ADP	ADP	_	2	case	_	_
 2	acordo	acordo	NOUN	NOUN	_	16	nmod	_	_
 3	com	com	ADP	ADP	_	5	case	_	_
-4	as	o	DET	DET	PronType=Art	5	det	_	_
+4	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 5	informações	informação	NOUN	NOUN	_	2	nmod	_	_
 6-7	da	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	8	case	_	_
@@ -142,7 +142,7 @@
 11	município	município	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	.	_	2	punct	_	_
 13	entre	_	ADP	ADP	_	15	case	_	_
-14	os	o	DET	DET	PronType=Art	15	det	_	_
+14	os	o	DET	DET	_	15	det	_	_
 15	presos	preso	NOUN	NOUN	_	16	nmod	_	_
 16	estavam	estar	VERB	VERB	_	0	root	_	_
 17	dois	_	NUM	NUM	NumType=Card	18	nummod	_	_
@@ -201,19 +201,19 @@
 # sent_id = test-s644
 # text = Foi a minha escolha vir para o PSG".
 1	Foi	_	AUX	AUX	_	4	cop	_	_
-2	a	o	DET	DET	PronType=Art	4	det	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	minha	_	DET	DET	_	4	det:poss	_	_
 4	escolha	escolha	NOUN	NOUN	_	0	root	_	_
 5	vir	_	VERB	VERB	_	4	csubj	_	_
 6	para	para	ADP	ADP	_	8	case	_	_
-7	o	o	DET	DET	PronType=Art	8	det	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	PSG	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
 9	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = test-s645
 # text = O destino mais procurado pelos turistas é o Distrito do Pontalete, por causa da Represa de Furnas.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	destino	destino	NOUN	NOUN	_	10	nsubj	_	_
 3	mais	mais	ADV	ADV	_	4	advmod	_	_
 4	procurado	procurar	VERB	VERB	_	2	acl	_	_
@@ -222,7 +222,7 @@
 6	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	turistas	turista	NOUN	NOUN	_	4	nmod	_	_
 8	é	ser	AUX	AUX	_	10	cop	_	_
-9	o	o	DET	DET	PronType=Art	10	det	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	Distrito	_	PROPN	PNOUN	_	0	root	_	_
 11-12	do	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	13	case	_	_

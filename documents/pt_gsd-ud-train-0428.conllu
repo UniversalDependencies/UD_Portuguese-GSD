@@ -1,10 +1,10 @@
 # sent_id = train-s4246
 # text = O Iraque atualmente ocupa a 80 ª colocação do ranking e está longe duma vaga na Copa do Mundo do Brasil, em 2014.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Iraque	_	NOUN	NOUN	_	4	nsubj	_	_
 3	atualmente	atualmente	ADV	ADV	_	4	advmod	_	_
 4	ocupa	ocupar	VERB	VERB	_	0	root	_	_
-5	a	o	DET	DET	PronType=Art	8	det	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 6	80	_	ADJ	ADJ	_	8	amod	_	_
 7	ª	_	PUNCT	.	_	6	punct	_	_
 8	colocação	colocação	NOUN	NOUN	_	4	obj	_	_
@@ -51,12 +51,12 @@
 # sent_id = train-s4248
 # text = Já os sem - terra reprovaram o impeachment do presidente Fernando Lugo, responsável pela implantação duma escola no acampamento.
 1	Já	já	ADV	ADV	_	6	advmod	_	_
-2	os	o	DET	DET	PronType=Art	5	det	_	_
+2	os	o	DET	DET	_	5	det	_	_
 3	sem	_	ADV	ADV	_	5	advmod	_	_
 4	-	-	PUNCT	.	_	5	punct	_	_
 5	terra	terra	NOUN	NOUN	_	6	nsubj	_	_
 6	reprovaram	reprovar	VERB	VERB	_	0	root	_	_
-7	o	o	DET	DET	PronType=Art	8	det	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	impeachment	impeachment	NOUN	NOUN	_	6	obj	_	_
 9-10	do	_	_	_	_	_	_	_	_
 9	de	de	ADP	ADP	_	11	case	_	_
@@ -86,23 +86,23 @@
 2	Geralmente	geralmente	ADV	ADV	_	11	advmod	_	_
 3	quem	_	PRON	PRON	_	4	nsubj	_	_
 4	ver	ver	VERB	VERB	_	11	csubj	_	_
-5	o	o	DET	DET	PronType=Art	6	det	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	produto	produto	NOUN	NOUN	_	4	obj	_	_
 7	e	e	CCONJ	CONJ	_	8	cc	_	_
 8	espalha	espalhar	VERB	VERB	_	4	conj	_	_
-9	a	o	DET	DET	PronType=Art	10	det	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	história	história	NOUN	NOUN	_	8	obj	_	_
 11	compra	comprar	VERB	VERB	_	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s4250
 # text = O relator apontou também que o núcleo publicitário - financeiro do suposto esquema era composto pelo empresário Marcos Valério e seus sócios (Ramon Cardoso, Cristiano Paz e Rogério Tolentino), além das funcionárias da agência SMP &amp; B Simone Vasconcelos e Geiza Dias.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	relator	relator	NOUN	NOUN	_	3	nsubj	_	_
 3	apontou	apontar	VERB	VERB	_	0	root	_	_
 4	também	também	ADV	ADV	_	3	advmod	_	_
 5	que	que	CCONJ	CONJ	_	16	mark	_	_
-6	o	o	DET	DET	PronType=Art	7	det	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	núcleo	núcleo	NOUN	NOUN	_	16	nsubj:pass	_	_
 8	publicitário	publicitário	ADJ	ADJ	_	10	amod	_	_
 9	-	-	PUNCT	.	_	10	punct	_	_
@@ -198,7 +198,7 @@
 
 # sent_id = train-s4253
 # text = O procurador do atleta, Gilvan Costa, conversou com os dirigentes santistas e pediu algumas alterações na última proposta feita pelo clube.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	procurador	procurador	NOUN	NOUN	_	10	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -210,7 +210,7 @@
 9	,	,	PUNCT	.	_	7	punct	_	_
 10	conversou	conversar	VERB	VERB	_	0	root	_	_
 11	com	com	ADP	ADP	_	13	case	_	_
-12	os	o	DET	DET	PronType=Art	13	det	_	_
+12	os	o	DET	DET	_	13	det	_	_
 13	dirigentes	dirigente	NOUN	NOUN	_	10	nmod	_	_
 14	santistas	santista	ADJ	ADJ	_	13	amod	_	_
 15	e	e	CCONJ	CONJ	_	16	cc	_	_
@@ -231,7 +231,7 @@
 
 # sent_id = train-s4254
 # text = O sistema de ebuilds do FreeBSD é integrado à árvore principal do portage, mas esta portabilididade está longe de estar completa devido a quantidade de pacotes que ainda precisam ser portados e a falta dum Live CD próprio, atualmente o Live CD do FreeSBIE é utilizado para o processo de instalação e configuração inicial do sistema.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	sistema	sistema	NOUN	NOUN	_	9	nsubj:pass	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	ebuilds	_	NOUN	NOUN	_	2	nmod	_	_
@@ -280,7 +280,7 @@
 43	próprio	próprio	ADJ	ADJ	_	42	amod	_	SpaceAfter=No
 44	,	,	PUNCT	.	_	53	punct	_	_
 45	atualmente	atualmente	ADV	ADV	_	53	advmod	_	_
-46	o	o	DET	DET	PronType=Art	48	det	_	_
+46	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
 47	Live	_	PROPN	PNOUN	_	48	amod	_	_
 48	CD	_	PROPN	PNOUN	_	53	nsubj:pass	_	_
 49-50	do	_	_	_	_	_	_	_	_
@@ -290,7 +290,7 @@
 52	é	ser	AUX	AUX	_	53	aux:pass	_	_
 53	utilizado	utilizar	VERB	VERB	_	38	parataxis	_	_
 54	para	para	ADP	ADP	_	56	case	_	_
-55	o	o	DET	DET	PronType=Art	56	det	_	_
+55	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
 56	processo	processo	NOUN	NOUN	_	53	nmod	_	_
 57	de	de	ADP	ADP	_	58	case	_	_
 58	instalação	instalação	NOUN	NOUN	_	56	nmod	_	_
@@ -305,14 +305,14 @@
 
 # sent_id = train-s4255
 # text = O Planalto das Cezaredas deve o seu nome ao facto de no seu centro geográfico, se encontrar uma pequena povoação chamada Casal das Cesaredas, clara reminiscência da colonização Romana.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Planalto	_	PROPN	PNOUN	_	6	nsubj	_	_
 3-4	das	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
 4	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 5	Cezaredas	_	PROPN	PNOUN	_	2	nmod	_	_
 6	deve	dever	VERB	VERB	_	0	root	_	_
-7	o	o	DET	DET	PronType=Art	9	det	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 8	seu	_	DET	DET	_	9	det:poss	_	_
 9	nome	nome	NOUN	NOUN	_	6	obj	_	_
 10-11	ao	_	_	_	_	_	_	_	_

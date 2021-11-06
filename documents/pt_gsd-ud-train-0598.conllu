@@ -12,13 +12,13 @@
 
 # sent_id = train-s5938
 # text = A língua oficial nesta comuna é o Alemão.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	língua	língua	NOUN	NOUN	_	8	nsubj	_	_
 3	oficial	oficial	ADJ	ADJ	_	2	amod	_	_
 4	nesta	_	ADP	ADP	_	5	case	_	_
 5	comuna	comuna	NOUN	NOUN	_	8	nmod	_	_
 6	é	ser	AUX	AUX	_	8	cop	_	_
-7	o	o	DET	DET	PronType=Art	8	det	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	Alemão	alemão	NOUN	NOUN	_	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	8	punct	_	_
 
@@ -29,7 +29,7 @@
 3	chamar	chamar	VERB	VERB	_	1	csubj	_	_
 4	atenção	atenção	NOUN	NOUN	_	3	obj	_	_
 5	para	para	ADP	ADP	_	7	case	_	_
-6	o	o	DET	DET	PronType=Art	7	det	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	papel	papel	NOUN	NOUN	_	4	nmod	_	_
 8-9	do	_	_	_	_	_	_	_	_
 8	de	de	ADP	ADP	_	10	case	_	_
@@ -42,10 +42,10 @@
 15	bem	bem	ADV	ADV	_	16	advmod	_	_
 16	definido	definir	VERB	VERB	_	7	acl:relcl	_	_
 17	desde	_	ADP	ADP	_	19	case	_	_
-18	a	o	DET	DET	PronType=Art	19	det	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	Constituição	constituição	NOUN	NOUN	_	16	nmod	_	_
 20	até	_	ADP	ADP	_	22	case	_	_
-21	as	o	DET	DET	PronType=Art	22	det	_	_
+21	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
 22	regulamentações	regulamentação	NOUN	NOUN	_	16	nmod	_	_
 23-24	do	_	_	_	_	_	_	_	_
 23	de	de	ADP	ADP	_	26	case	_	_
@@ -56,7 +56,7 @@
 
 # sent_id = train-s5940
 # text = O evento fica em cartaz de 3 de novembro a 31 de janeiro de 2013.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	evento	evento	NOUN	NOUN	_	3	nsubj	_	_
 3	fica	ficar	VERB	VERB	_	0	root	_	_
 4	em	em	ADP	ADP	_	5	case	_	_
@@ -75,7 +75,7 @@
 
 # sent_id = train-s5941
 # text = O pai nunca acreditou na versão dada pela polícia para a morte do filho.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	pai	pai	NOUN	NOUN	_	4	nsubj	_	_
 3	nunca	nunca	ADV	ADV	_	4	advmod	_	_
 4	acreditou	acreditar	VERB	VERB	_	0	root	_	_
@@ -89,7 +89,7 @@
 10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	polícia	polícia	NOUN	NOUN	_	8	nmod	_	_
 12	para	para	ADP	ADP	_	14	case	_	_
-13	a	o	DET	DET	PronType=Art	14	det	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	morte	morte	NOUN	NOUN	_	8	nmod	_	_
 15-16	do	_	_	_	_	_	_	_	_
 15	de	de	ADP	ADP	_	17	case	_	_
@@ -101,7 +101,7 @@
 # text = Mesmo sem os recursos da tecnologia, mas precocemente politizada, aos 12 anos Winona já pensava em ser atriz.
 1	Mesmo	mesmo	ADV	ADV	_	4	advmod	_	_
 2	sem	_	ADP	ADP	_	4	case	_	_
-3	os	o	DET	DET	PronType=Art	4	det	_	_
+3	os	o	DET	DET	_	4	det	_	_
 4	recursos	recurso	NOUN	NOUN	_	19	nmod	_	_
 5-6	da	_	_	_	_	_	_	_	_
 5	de	de	ADP	ADP	_	7	case	_	_
@@ -128,7 +128,7 @@
 # sent_id = train-s5943
 # text = Embora a vitória tenha sido do Limeira, os destaques individuais do confronto ficaram por conta da Liga Sorocabana.
 1	Embora	_	CCONJ	CONJ	_	5	mark	_	_
-2	a	o	DET	DET	PronType=Art	3	det	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	vitória	vitória	NOUN	NOUN	_	5	nsubj	_	_
 4	tenha	ter	AUX	AUX	_	5	aux	_	_
 5	sido	ser	VERB	VERB	_	16	advcl	_	_
@@ -137,7 +137,7 @@
 7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	Limeira	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	5	punct	_	_
-10	os	o	DET	DET	PronType=Art	11	det	_	_
+10	os	o	DET	DET	_	11	det	_	_
 11	destaques	destaque	NOUN	NOUN	_	16	nsubj	_	_
 12	individuais	individual	ADJ	ADJ	_	11	amod	_	_
 13-14	do	_	_	_	_	_	_	_	_
@@ -182,7 +182,7 @@
 20	Desenvolvimento	_	PROPN	PNOUN	_	14	nmod	_	_
 21	Sustentável	_	PROPN	PNOUN	_	20	amod	_	SpaceAfter=No
 22	,	,	PUNCT	.	_	24	punct	_	_
-23	a	o	DET	DET	PronType=Art	24	det	_	_
+23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	Rio	_	PROPN	PNOUN	_	14	appos	_	_
 25	+20	_	NUM	NUM	NumType=Card	24	appos	_	SpaceAfter=No
 26	,	,	PUNCT	.	_	1	punct	_	_
@@ -198,7 +198,7 @@
 36	PA	_	PROPN	PNOUN	_	34	appos	_	SpaceAfter=No
 37	)	)	PUNCT	.	_	36	punct	_	SpaceAfter=No
 38	,	,	PUNCT	.	_	34	punct	_	_
-39	o	o	DET	DET	PronType=Art	40	det	_	_
+39	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
 40	encontro	encontro	NOUN	NOUN	_	27	nsubj	_	_
 41	Xingu	_	PROPN	PNOUN	_	40	appos	_	_
 42	+23	_	NUM	NUM	NumType=Card	41	appos	_	SpaceAfter=No
@@ -206,7 +206,7 @@
 
 # sent_id = train-s5945
 # text = O GP da Alemanha será antecipado numa semana e uma outra corrida europeia acontecerá duas semanas depois.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	GP	_	PROPN	PNOUN	_	7	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_

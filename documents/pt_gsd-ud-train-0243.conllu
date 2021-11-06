@@ -1,7 +1,7 @@
 # sent_id = train-s2413
 # text = Durante a visita realizada ao CT do São Paulo, em Cotia, na manhã dessa sexta - feira, para a apresentação das instalações que a Seleção Brasileira ficará hospedada, para os amistosos do dia 07 e 11 de setembro, os "ex - desafetos" brincaram sobre a chegada do Corinthians à final da Copa Santander Libertadores, após eliminar o Santos, na semifinal.
 1	Durante	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	PronType=Art	3	det	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	visita	visita	NOUN	NOUN	_	55	nmod	_	_
 4	realizada	realizar	VERB	VERB	_	3	acl	_	_
 5-6	ao	_	_	_	_	_	_	_	_
@@ -27,21 +27,21 @@
 22	feira	_	PROPN	PNOUN	_	18	nmod	_	SpaceAfter=No
 23	,	,	PUNCT	.	_	26	punct	_	_
 24	para	para	ADP	ADP	_	26	case	_	_
-25	a	o	DET	DET	PronType=Art	26	det	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	apresentação	apresentação	NOUN	NOUN	_	4	nmod	_	_
 27-28	das	_	_	_	_	_	_	_	_
 27	de	de	ADP	ADP	_	29	case	_	_
 28	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
 29	instalações	instalação	NOUN	NOUN	_	26	nmod	_	_
 30	que	_	PRON	PRON	_	34	dep	_	_
-31	a	o	DET	DET	PronType=Art	32	det	_	_
+31	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	Seleção	_	PROPN	PNOUN	_	34	nsubj	_	_
 33	Brasileira	_	PROPN	PNOUN	_	32	amod	_	_
 34	ficará	ficar	VERB	VERB	_	29	acl:relcl	_	_
 35	hospedada	hospedado	ADJ	ADJ	_	34	xcomp	_	SpaceAfter=No
 36	,	,	PUNCT	.	_	39	punct	_	_
 37	para	para	ADP	ADP	_	39	case	_	_
-38	os	o	DET	DET	PronType=Art	39	det	_	_
+38	os	o	DET	DET	_	39	det	_	_
 39	amistosos	_	NOUN	NOUN	_	34	nmod	_	_
 40-41	do	_	_	_	_	_	_	_	_
 40	de	de	ADP	ADP	_	42	case	_	_
@@ -61,7 +61,7 @@
 54	"	"	PUNCT	.	_	51	punct	_	_
 55	brincaram	brincar	VERB	VERB	_	0	root	_	_
 56	sobre	_	ADP	ADP	_	58	case	_	_
-57	a	o	DET	DET	PronType=Art	58	det	_	_
+57	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	58	det	_	_
 58	chegada	chegada	NOUN	NOUN	_	55	nmod	_	_
 59-60	do	_	_	_	_	_	_	_	_
 59	de	de	ADP	ADP	_	61	case	_	_
@@ -80,7 +80,7 @@
 70	,	,	PUNCT	.	_	72	punct	_	_
 71	após	_	ADP	ADP	_	72	mark	_	_
 72	eliminar	eliminar	VERB	VERB	_	58	advcl	_	_
-73	o	o	DET	DET	PronType=Art	74	det	_	_
+73	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	74	det	_	_
 74	Santos	_	PROPN	PNOUN	_	72	obj	_	SpaceAfter=No
 75	,	,	PUNCT	.	_	78	punct	_	_
 76-77	na	_	_	_	_	_	_	_	_
@@ -93,7 +93,7 @@
 # text = Em contraste a teoria quântica descreve forças duma escala muito menor à escala de moléculas individuais, implicando que o tecido do espaço é granuloso como areia.
 1	Em	em	ADP	ADP	_	2	case	_	_
 2	contraste	contraste	NOUN	NOUN	_	6	nmod	_	_
-3	a	o	DET	DET	PronType=Art	4	det	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	teoria	teoria	NOUN	NOUN	_	6	nsubj	_	_
 5	quântica	quântico	ADJ	ADJ	_	4	amod	_	_
 6	descreve	descrever	VERB	VERB	_	0	root	_	_
@@ -114,7 +114,7 @@
 19	,	,	PUNCT	.	_	20	punct	_	_
 20	implicando	implicar	VERB	VERB	_	6	acl	_	_
 21	que	que	CCONJ	CONJ	_	27	mark	_	_
-22	o	o	DET	DET	PronType=Art	23	det	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	tecido	tecido	NOUN	NOUN	_	27	nsubj	_	_
 24-25	do	_	_	_	_	_	_	_	_
 24	de	de	ADP	ADP	_	26	case	_	_
@@ -169,7 +169,7 @@
 1	Ja	_	ADV	ADV	_	3	advmod	_	_
 2	não	não	ADV	ADV	Polarity=Neg	3	advmod	_	_
 3	bastasse	bastar	VERB	VERB	_	9	advcl	_	_
-4	os	o	DET	DET	PronType=Art	5	det	_	_
+4	os	o	DET	DET	_	5	det	_	_
 5	anuncios	_	NOUN	NOUN	_	3	nsubj	_	_
 6	anteriores	anterior	ADJ	ADJ	_	5	amod	_	_
 7	ainda	ainda	ADV	ADV	_	9	advmod	_	_
@@ -204,17 +204,17 @@
 7	de	de	ADP	ADP	_	8	case	_	_
 8	acordo	acordo	NOUN	NOUN	_	3	nmod	_	_
 9	com	com	ADP	ADP	_	11	case	_	_
-10	o	o	DET	DET	PronType=Art	11	det	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	IBGE	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s2419
 # text = O Rota CineMS, o cinema itinerante da Fundação de Cultura, tem como objetivo difundir o cinema brasileiro e regional.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Rota	_	PROPN	PNOUN	_	14	nsubj	_	_
 3	CineMS	_	PROPN	PNOUN	_	2	flat	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	6	punct	_	_
-5	o	o	DET	DET	PronType=Art	6	det	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	cinema	cinema	NOUN	NOUN	_	2	appos	_	_
 7	itinerante	itinerante	ADJ	ADJ	_	6	amod	_	_
 8-9	da	_	_	_	_	_	_	_	_
@@ -228,7 +228,7 @@
 15	como	como	ADP	ADP	_	16	case	_	_
 16	objetivo	objetivo	NOUN	NOUN	_	14	nmod	_	_
 17	difundir	difundir	VERB	VERB	_	14	xcomp	_	_
-18	o	o	DET	DET	PronType=Art	19	det	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	cinema	cinema	NOUN	NOUN	_	17	obj	_	_
 20	brasileiro	brasileiro	ADJ	ADJ	_	19	amod	_	_
 21	e	e	CCONJ	CONJ	_	20	cc	_	_
@@ -244,7 +244,7 @@
 4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	hospital	hospital	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	2	punct	_	_
-7	o	o	DET	DET	PronType=Art	8	det	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	homem	homem	NOUN	NOUN	_	9	nsubj	_	_
 9	chegou	chegar	VERB	VERB	_	0	root	_	_
 10-11	ao	_	_	_	_	_	_	_	_
@@ -287,7 +287,7 @@
 
 # sent_id = train-s2422
 # text = A CMN entra em recesso por trinta dias.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	CMN	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	entra	entrar	VERB	VERB	_	0	root	_	_
 4	em	em	ADP	ADP	_	5	case	_	_

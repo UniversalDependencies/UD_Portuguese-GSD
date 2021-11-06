@@ -26,7 +26,7 @@
 20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	país	país	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	.	_	2	punct	_	_
-23	a	o	DET	DET	PronType=Art	24	det	_	_
+23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	Next	_	PROPN	PNOUN	_	34	nsubj	_	_
 25	Global	_	PROPN	PNOUN	_	24	flat	_	SpaceAfter=No
 26	,	,	PUNCT	.	_	27	punct	_	_
@@ -48,7 +48,7 @@
 41	importadora	importador	NOUN	NOUN	_	34	xcomp	_	_
 42	voltada	voltar	VERB	VERB	_	41	acl	_	_
 43	para	para	ADP	ADP	_	45	case	_	_
-44	os	o	DET	DET	PronType=Art	45	det	_	_
+44	os	o	DET	DET	_	45	det	_	_
 45	setores	setor	NOUN	NOUN	_	42	nmod	_	_
 46	de	de	ADP	ADP	_	47	case	_	_
 47	varejo	varejo	NOUN	NOUN	_	45	nmod	_	_
@@ -59,7 +59,7 @@
 52	alimentos	alimento	NOUN	NOUN	_	49	conj	_	_
 53	e	e	CCONJ	CONJ	_	56	cc	_	_
 54	para	para	ADP	ADP	_	56	case	_	_
-55	a	o	DET	DET	PronType=Art	56	det	_	_
+55	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
 56	indústria	indústria	NOUN	NOUN	_	45	conj	_	_
 57-58	da	_	_	_	_	_	_	_	_
 57	de	de	ADP	ADP	_	59	case	_	_
@@ -79,7 +79,7 @@
 6	Norte	_	PROPN	PNOUN	_	5	amod	_	_
 7	ficou	ficar	VERB	VERB	_	0	root	_	_
 8	entre	_	ADP	ADP	_	11	case	_	_
-9	as	o	DET	DET	PronType=Art	11	det	_	_
+9	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
 10	100	_	NUM	NUM	NumType=Card	11	nummod	_	_
 11	melhores	melhor	NOUN	NOUN	_	7	nmod	_	_
 12-13	na	_	_	_	_	_	_	_	_
@@ -96,13 +96,13 @@
 
 # sent_id = train-s1242
 # text = A AIE, que avalia periodicamente o mercado energético para seus 28 Estados - membros, afirma que o país árabe tem recursos para duplicar a produção até 2020, chegando a 6 milhões de barris diários.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	AIE	_	PROPN	PNOUN	_	17	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	5	punct	_	_
 4	que	_	PRON	PRON	_	5	nsubj	_	_
 5	avalia	avaliar	VERB	VERB	_	2	acl:relcl	_	_
 6	periodicamente	periodicamente	ADV	ADV	_	5	advmod	_	_
-7	o	o	DET	DET	PronType=Art	8	det	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	mercado	mercado	NOUN	NOUN	_	5	obj	_	_
 9	energético	energético	ADJ	ADJ	_	8	amod	_	_
 10	para	para	ADP	ADP	_	13	case	_	_
@@ -114,14 +114,14 @@
 16	,	,	PUNCT	.	_	5	punct	_	_
 17	afirma	afirmar	VERB	VERB	_	0	root	_	_
 18	que	que	CCONJ	CONJ	_	22	mark	_	_
-19	o	o	DET	DET	PronType=Art	20	det	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	país	país	NOUN	NOUN	_	22	nsubj	_	_
 21	árabe	árabe	ADJ	ADJ	_	20	amod	_	_
 22	tem	ter	VERB	VERB	_	17	ccomp	_	_
 23	recursos	recurso	NOUN	NOUN	_	22	obj	_	_
 24	para	_	ADP	ADP	_	25	mark	_	_
 25	duplicar	duplicar	VERB	VERB	_	23	nmod	_	_
-26	a	o	DET	DET	PronType=Art	27	det	_	_
+26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	produção	produção	NOUN	NOUN	_	25	obj	_	_
 28	até	_	ADP	ADP	_	29	case	_	_
 29	2020	_	NUM	NUM	NumType=Card	25	nmod	_	SpaceAfter=No
@@ -137,7 +137,7 @@
 
 # sent_id = train-s1243
 # text = O Fundo Europeu de Estabilidade Financeira (FEEF) e o Mecanismo Europeu de Estabilidade (MEE), que ainda não entrou em vigor, poderão participar diretamente da recapitalização dos bancos da zona do euro e comprar dívida pública dos países em dificuldades, conforme decidiram os responsáveis políticos europeus na sexta - feira passada em Bruxelas.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Fundo	_	PROPN	PNOUN	_	28	nsubj	_	_
 3	Europeu	_	PROPN	PNOUN	_	2	amod	_	_
 4	de	de	ADP	ADP	_	5	case	_	_
@@ -195,7 +195,7 @@
 51	,	,	PUNCT	.	_	53	punct	_	_
 52	conforme	_	CCONJ	CONJ	_	53	mark	_	_
 53	decidiram	decidir	VERB	VERB	_	28	advcl	_	_
-54	os	o	DET	DET	PronType=Art	55	det	_	_
+54	os	o	DET	DET	_	55	det	_	_
 55	responsáveis	responsável	NOUN	NOUN	_	53	nsubj	_	_
 56	políticos	político	ADJ	ADJ	_	55	amod	_	_
 57	europeus	europeu	ADJ	ADJ	_	55	amod	_	_
@@ -237,7 +237,7 @@
 21	,	,	PUNCT	.	_	29	punct	_	_
 22	já	já	ADV	ADV	_	29	mark	_	_
 23	que	_	CCONJ	CONJ	_	22	fixed	_	_
-24	a	o	DET	DET	PronType=Art	26	det	_	_
+24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 25	maior	maior	ADJ	ADJ	_	26	amod	_	_
 26	parte	parte	NOUN	NOUN	_	29	nsubj	_	_
 27	deles	_	X	ADPPRON	_	26	nmod	_	_
@@ -259,7 +259,7 @@
 2	Hoje	hoje	ADV	ADV	_	4	advmod	_	_
 3	estamos	estar	AUX	AUX	_	4	aux	_	_
 4	superando	superar	VERB	VERB	_	13	ccomp	_	_
-5	a	o	DET	DET	PronType=Art	7	det	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 6	longa	longo	ADJ	ADJ	_	7	amod	_	_
 7	noite	noite	NOUN	NOUN	_	4	obj	_	_
 8-9	do	_	_	_	_	_	_	_	_
@@ -269,7 +269,7 @@
 11	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
 12	,	,	PUNCT	.	_	13	punct	_	_
 13	declarou	declarar	VERB	VERB	_	0	root	_	_
-14	o	o	DET	DET	PronType=Art	15	det	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	secretário	secretário	NOUN	NOUN	_	13	nsubj	_	_
 16	-	-	PUNCT	.	_	15	punct	_	_
 17	executivo	executivo	ADJ	ADJ	_	15	amod	_	_
@@ -281,13 +281,13 @@
 22	São	_	PROPN	PNOUN	_	20	nmod	_	_
 23	Paulo	_	PROPN	PNOUN	_	22	flat	_	SpaceAfter=No
 24	,	,	PUNCT	.	_	26	punct	_	_
-25	o	o	DET	DET	PronType=Art	26	det	_	_
+25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	brasileiro	brasileiro	NOUN	NOUN	_	15	appos	_	_
 27	Valter	_	PROPN	PNOUN	_	26	appos	_	_
 28	Pomar	_	PROPN	PNOUN	_	27	flat	_	SpaceAfter=No
 29	,	,	PUNCT	.	_	32	punct	_	_
 30	durante	_	ADP	ADP	_	32	case	_	_
-31	o	o	DET	DET	PronType=Art	32	det	_	_
+31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	ato	ato	NOUN	NOUN	_	13	nmod	_	_
 33	de	de	ADP	ADP	_	34	case	_	_
 34	abertura	abertura	NOUN	NOUN	_	32	nmod	_	_
@@ -300,14 +300,14 @@
 
 # sent_id = train-s1246
 # text = O agente dele, Jorge Guimarães, o Joinha, chegou a declarar que assim que teve a notícia do corte, ligou para Dana White para "oferecer" o cliente.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	agente	agente	NOUN	NOUN	_	13	nsubj	_	_
 3	dele	_	X	ADPPRON	_	2	det:poss	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	5	punct	_	_
 5	Jorge	_	PROPN	PNOUN	_	2	appos	_	_
 6	Guimarães	_	PROPN	PNOUN	_	5	flat	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	9	punct	_	_
-8	o	o	DET	DET	PronType=Art	9	det	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Joinha	_	PROPN	PNOUN	_	5	appos	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	9	punct	_	_
 11	chegou	chegar	AUX	AUX	_	13	aux	_	_
@@ -317,7 +317,7 @@
 15	assim	assim	ADV	ADV	_	17	mark	_	_
 16	que	_	CCONJ	CONJ	_	15	fixed	_	_
 17	teve	ter	VERB	VERB	_	24	advcl	_	_
-18	a	o	DET	DET	PronType=Art	19	det	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	notícia	notícia	NOUN	NOUN	_	17	obj	_	_
 20-21	do	_	_	_	_	_	_	_	_
 20	de	de	ADP	ADP	_	22	case	_	_
@@ -332,7 +332,7 @@
 29	"	"	PUNCT	.	_	30	punct	_	SpaceAfter=No
 30	oferecer	oferecer	VERB	VERB	_	24	advcl	_	SpaceAfter=No
 31	"	"	PUNCT	.	_	30	punct	_	_
-32	o	o	DET	DET	PronType=Art	33	det	_	_
+32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	cliente	cliente	NOUN	NOUN	_	30	obj	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	13	punct	_	_
 
@@ -365,7 +365,7 @@
 1	Jade	_	PROPN	PNOUN	_	2	nsubj	_	_
 2	conquistou	conquistar	VERB	VERB	_	0	root	_	_
 3	ainda	ainda	ADV	ADV	_	2	advmod	_	_
-4	o	o	DET	DET	PronType=Art	5	det	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	título	título	NOUN	NOUN	_	2	obj	_	_
 6-7	nos	_	_	_	_	_	_	_	_
 6	em	em	ADP	ADP	_	8	case	_	_
@@ -387,7 +387,7 @@
 21	e	e	CCONJ	CONJ	_	22	cc	_	_
 22	ficou	ficar	VERB	VERB	_	2	conj	_	_
 23	com	com	ADP	ADP	_	25	case	_	_
-24	a	o	DET	DET	PronType=Art	25	det	_	_
+24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	prata	prata	NOUN	NOUN	_	22	nmod	_	_
 26-27	na	_	_	_	_	_	_	_	_
 26	em	em	ADP	ADP	_	28	case	_	_
@@ -397,13 +397,13 @@
 
 # sent_id = train-s1249
 # text = O suposto esquema fraudulento, segundo o Ministério Público, criou tentáculos e estava presente em vários setores do governo municipal.
-1	O	o	DET	DET	PronType=Art	3	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	suposto	suposto	ADJ	ADJ	_	3	amod	_	_
 3	esquema	esquema	NOUN	NOUN	_	11	nsubj	_	_
 4	fraudulento	fraudulento	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	8	punct	_	_
 6	segundo	_	ADP	ADP	_	8	case	_	_
-7	o	o	DET	DET	PronType=Art	8	det	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	Ministério	_	PROPN	PNOUN	_	11	nmod	_	_
 9	Público	_	PROPN	PNOUN	_	8	amod	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	8	punct	_	_

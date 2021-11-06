@@ -16,7 +16,7 @@
 14	a	_	ADP	ADP	_	15	case	_	_
 15	comandos	comando	NOUN	NOUN	_	13	nmod	_	_
 16	para	para	ADP	ADP	_	18	case	_	_
-17	os	o	DET	DET	PronType=Art	18	det	_	_
+17	os	o	DET	DET	_	18	det	_	_
 18	soldados	soldado	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -26,11 +26,11 @@
 2	já	já	ADV	ADV	_	3	advmod	_	_
 3	rebaixado	rebaixar	VERB	VERB	_	6	acl	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
-5	o	o	DET	DET	PronType=Art	6	det	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Grêmio	_	PROPN	PNOUN	_	8	nsubj	_	_
 7	Barueri	_	PROPN	PNOUN	_	6	flat	_	_
 8	começou	começar	VERB	VERB	_	0	root	_	_
-9	o	o	DET	DET	PronType=Art	10	det	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	jogo	jogo	NOUN	NOUN	_	8	obj	_	_
 11	com	com	ADP	ADP	_	12	case	_	_
 12	tudo	_	PRON	PRON	_	8	nmod	_	SpaceAfter=No
@@ -41,12 +41,12 @@
 1	Por	_	ADP	ADP	_	2	case	_	_
 2	isso	_	PRON	PRON	_	15	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
-4	a	o	DET	DET	PronType=Art	5	det	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	palavra	palavra	NOUN	NOUN	_	15	nsubj	_	_
 6	grega	grego	ADJ	ADJ	_	5	amod	_	_
 7	que	_	PRON	PRON	_	8	nsubj	_	_
 8	designa	designar	VERB	VERB	_	5	acl:relcl	_	_
-9	o	o	DET	DET	PronType=Art	10	det	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	fenômeno	fenômeno	NOUN	NOUN	_	8	obj	_	_
 11-12	da	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	13	case	_	_
@@ -58,7 +58,7 @@
 
 # sent_id = train-s4847
 # text = O espetáculo "Doce Encanto" remeteu à musicalidade da flauta doce e do coral.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	espetáculo	espetáculo	NOUN	NOUN	_	7	nsubj	_	_
 3	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
 4	Doce	_	PROPN	PNOUN	_	5	amod	_	_
@@ -83,13 +83,13 @@
 
 # sent_id = train-s4848
 # text = O processo foi aberto depois que o MP denunciou Carlos Augusto de Almeida Ramos, o Carlinhos Cachoeira, e mais sete pessoas -- entre elas o ex - diretor da Delta Construções Cláudio Abreu -- por tráfico de influência e formação de quadrilha.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	processo	processo	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foi	_	AUX	AUX	_	4	aux:pass	_	_
 4	aberto	abrir	VERB	VERB	_	0	root	_	_
 5	depois	depois	ADV	ADV	_	9	mark	_	_
 6	que	_	CCONJ	CONJ	_	5	fixed	_	_
-7	o	o	DET	DET	PronType=Art	8	det	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	MP	_	PROPN	PNOUN	_	9	nsubj	_	_
 9	denunciou	denunciar	VERB	VERB	_	4	advcl	_	_
 10	Carlos	_	PROPN	PNOUN	_	9	obj	_	_
@@ -98,7 +98,7 @@
 13	Almeida	_	PROPN	PNOUN	_	10	nmod	_	_
 14	Ramos	_	PROPN	PNOUN	_	13	flat	_	SpaceAfter=No
 15	,	,	PUNCT	.	_	17	punct	_	_
-16	o	o	DET	DET	PronType=Art	17	det	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	Carlinhos	_	PROPN	PNOUN	_	10	appos	_	_
 18	Cachoeira	_	PROPN	PNOUN	_	17	flat	_	SpaceAfter=No
 19	,	,	PUNCT	.	_	17	punct	_	_
@@ -177,7 +177,7 @@
 
 # sent_id = train-s4851
 # text = Os casos foram registrados em vários estados do país.
-1	Os	o	DET	DET	PronType=Art	2	det	_	_
+1	Os	o	DET	DET	_	2	det	_	_
 2	casos	caso	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foram	_	AUX	AUX	_	4	aux:pass	_	_
 4	registrados	registrar	VERB	VERB	_	0	root	_	_
@@ -239,7 +239,7 @@
 
 # sent_id = train-s4853
 # text = A apresentação faz parte do projeto "A Hora do Riso", idealizado por Luciano Feitosa, e outros shows já estão previstos.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	apresentação	apresentação	NOUN	NOUN	_	3	nsubj	_	_
 3	faz	fazer	VERB	VERB	_	0	root	_	_
 4	parte	parte	NOUN	NOUN	_	3	obj	_	_
@@ -248,7 +248,7 @@
 6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	projeto	projeto	NOUN	NOUN	_	4	nmod	_	_
 8	"	"	PUNCT	.	_	10	punct	_	SpaceAfter=No
-9	A	o	DET	DET	PronType=Art	10	det	_	_
+9	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Hora	_	PROPN	PNOUN	_	7	appos	_	_
 11-12	do	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	13	case	_	_

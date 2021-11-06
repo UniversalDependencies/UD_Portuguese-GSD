@@ -11,7 +11,7 @@
 8	,	,	PUNCT	.	_	9	punct	_	_
 9	ontem	ontem	ADV	ADV	_	7	advmod	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	9	punct	_	_
-11	o	o	DET	DET	PronType=Art	12	det	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	guichê	guichê	NOUN	NOUN	_	7	obj	_	_
 13-14	da	_	_	_	_	_	_	_	_
 13	de	de	ADP	ADP	_	15	case	_	_
@@ -27,7 +27,7 @@
 22	e	e	CCONJ	CONJ	_	23	cc	_	_
 23	impediram	impedir	VERB	VERB	_	7	conj	_	_
 24	que	que	CCONJ	CONJ	_	29	mark	_	_
-25	o	o	DET	DET	PronType=Art	26	det	_	_
+25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	serviço	serviço	NOUN	NOUN	_	29	nsubj	_	_
 27	continuasse	continuar	AUX	AUX	_	29	aux	_	_
 28	a	_	ADP	ADP	_	29	mark	_	_
@@ -41,7 +41,7 @@
 3	descobrir	descobrir	VERB	VERB	_	2	xcomp	_	_
 4	onde	onde	ADV	ADV	_	5	advmod	_	_
 5	estão	estar	VERB	VERB	_	3	ccomp	_	_
-6	os	o	DET	DET	PronType=Art	7	det	_	_
+6	os	o	DET	DET	_	7	det	_	_
 7	gargalos	gargalo	NOUN	NOUN	_	5	nsubj	_	SpaceAfter=No
 8	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	10	punct	_	_
@@ -59,14 +59,14 @@
 # sent_id = train-s5123
 # text = Venceu a Dinamarca por 3 a 1 e os Estados Unidos por 4 a 1.
 1	Venceu	vencer	VERB	VERB	_	0	root	_	_
-2	a	o	DET	DET	PronType=Art	3	det	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Dinamarca	_	PROPN	PNOUN	_	1	obj	_	_
 4	por	por	ADP	ADP	_	5	case	_	_
 5	3	_	NUM	NUM	NumType=Card	3	nmod	_	_
 6	a	_	ADP	ADP	_	7	case	_	_
 7	1	_	NUM	NUM	NumType=Card	5	nmod	_	_
 8	e	e	CCONJ	CONJ	_	10	cc	_	_
-9	os	o	DET	DET	PronType=Art	10	det	_	_
+9	os	o	DET	DET	_	10	det	_	_
 10	Estados	_	PROPN	PNOUN	_	3	conj	_	_
 11	Unidos	_	PROPN	PNOUN	_	10	amod	_	_
 12	por	por	ADP	ADP	_	13	case	_	_
@@ -82,7 +82,7 @@
 3	internado	internado	ADJ	ADJ	_	2	xcomp	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	10	punct	_	_
 5	desde	_	ADP	ADP	_	10	case	_	_
-6	a	o	DET	DET	PronType=Art	10	det	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 7	última	último	ADJ	ADJ	_	10	amod	_	_
 8	sexta	_	PROPN	PNOUN	_	10	amod	_	_
 9	-	-	PUNCT	.	_	10	punct	_	_
@@ -126,7 +126,7 @@
 11	finalmente	finalmente	ADV	ADV	_	13	advmod	_	_
 12	serão	ser	AUX	AUX	_	13	aux:pass	_	_
 13	selecionados	selecionar	VERB	VERB	_	8	acl:relcl	_	_
-14	os	o	DET	DET	PronType=Art	15	det	_	_
+14	os	o	DET	DET	_	15	det	_	_
 15	clubes	clube	NOUN	NOUN	_	13	nsubj:pass	_	_
 16	que	_	PRON	PRON	_	18	nsubj	_	_
 17	se	_	PRON	PRON	_	18	obj	_	_
@@ -158,7 +158,7 @@
 11	Santa	_	PROPN	PNOUN	_	9	conj	_	_
 12	Helena	_	PROPN	PNOUN	_	11	flat	_	_
 13	disputarão	disputar	VERB	VERB	_	0	root	_	_
-14	o	o	DET	DET	PronType=Art	15	det	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	acesso	acesso	NOUN	NOUN	_	13	obj	_	_
 16	e	e	CCONJ	CONJ	_	18	cc	_	_
 17	uma	um	DET	DET	_	18	det	_	_
@@ -220,17 +220,17 @@
 9	com	_	ADP	ADP	_	11	mark	_	_
 10	quem	_	PRON	PRON	_	11	nsubj	_	_
 11	maltrata	maltratar	VERB	VERB	_	8	nmod	_	_
-12	as	o	DET	DET	PronType=Art	13	det	_	_
+12	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
 13	crianças	criança	NOUN	NOUN	_	11	obj	_	_
 14	e	e	CCONJ	CONJ	_	16	cc	_	_
-15	os	o	DET	DET	PronType=Art	16	det	_	_
+15	os	o	DET	DET	_	16	det	_	_
 16	adolescentes	adolescente	NOUN	NOUN	_	13	conj	_	_
 17-18	no	_	_	_	_	_	_	_	_
 17	em	em	ADP	ADP	_	19	case	_	_
 18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	país	país	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	.	_	3	punct	_	_
-21	a	o	DET	DET	PronType=Art	22	det	_	_
+21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	menina	menino	NOUN	NOUN	_	23	nsubj	_	_
 23	respondeu	responder	VERB	VERB	_	0	root	_	_
 24	que	que	CCONJ	CONJ	_	26	mark	_	_
@@ -245,7 +245,7 @@
 1	De	_	ADP	ADP	_	2	case	_	_
 2	acordo	acordo	NOUN	NOUN	_	10	nmod	_	_
 3	com	com	ADP	ADP	_	5	case	_	_
-4	o	o	DET	DET	PronType=Art	5	det	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	delegado	delegado	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	2	punct	_	_
 7	uma	um	DET	DET	_	8	det	_	_
@@ -253,11 +253,11 @@
 9	foi	_	AUX	AUX	_	10	aux:pass	_	_
 10	encontrada	encontrar	VERB	VERB	_	0	root	_	_
 11	com	com	ADP	ADP	_	13	case	_	_
-12	a	o	DET	DET	PronType=Art	13	det	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	vítima	vítima	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	17	punct	_	_
 15	com	com	ADP	ADP	_	17	case	_	_
-16	o	o	DET	DET	PronType=Art	17	det	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	nome	nome	NOUN	NOUN	_	10	nmod	_	_
 18	Marcelo	_	PROPN	PNOUN	_	17	appos	_	_
 19-20	dos	_	_	_	_	_	_	_	_
@@ -268,12 +268,12 @@
 
 # sent_id = train-s5130
 # text = A série de participações receberá os dez candidatos a vice - prefeito.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	série	série	NOUN	NOUN	_	5	nsubj	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	participações	participação	NOUN	NOUN	_	2	nmod	_	_
 5	receberá	receber	VERB	VERB	_	0	root	_	_
-6	os	o	DET	DET	PronType=Art	8	det	_	_
+6	os	o	DET	DET	_	8	det	_	_
 7	dez	_	NUM	NUM	NumType=Card	8	nummod	_	_
 8	candidatos	candidato	NOUN	NOUN	_	5	obj	_	_
 9	a	_	ADP	ADP	_	10	case	_	_

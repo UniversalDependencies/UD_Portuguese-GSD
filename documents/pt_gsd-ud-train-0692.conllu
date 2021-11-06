@@ -33,7 +33,7 @@
 8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	evento	evento	NOUN	NOUN	_	4	nmod	_	_
 10	ser	ser	AUX	AUX	_	12	cop	_	_
-11	o	o	DET	DET	PronType=Art	12	det	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	Rio	_	PROPN	PNOUN	_	25	advcl	_	_
 13	de	de	ADP	ADP	_	14	case	_	_
 14	Janeiro	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
@@ -71,7 +71,7 @@
 43	Nova	_	PROPN	PNOUN	_	42	amod	_	SpaceAfter=No
 44	,	,	PUNCT	.	_	45	punct	_	_
 45	aproveitando	aproveitar	VERB	VERB	_	38	acl	_	_
-46	os	o	DET	DET	PronType=Art	47	det	_	_
+46	os	o	DET	DET	_	47	det	_	_
 47	investimentos	investimento	NOUN	NOUN	_	45	obj	_	_
 48-49	da	_	_	_	_	_	_	_	_
 48	de	de	ADP	ADP	_	50	case	_	_
@@ -85,10 +85,10 @@
 
 # sent_id = train-s6869
 # text = O tema será a possível retomada do controle da Viavarejo pelos antigos donos
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	tema	tema	NOUN	NOUN	_	6	nsubj	_	_
 3	será	ser	AUX	AUX	_	6	cop	_	_
-4	a	o	DET	DET	PronType=Art	6	det	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 5	possível	possível	ADJ	ADJ	_	6	amod	_	_
 6	retomada	retomada	NOUN	NOUN	_	0	root	_	_
 7-8	do	_	_	_	_	_	_	_	_
@@ -110,7 +110,7 @@
 1	Foram	_	AUX	AUX	_	2	aux:pass	_	_
 2	rejeitados	rejeitar	VERB	VERB	_	0	root	_	_
 3	todos	_	DET	DET	_	5	det	_	_
-4	os	o	DET	DET	PronType=Art	5	det	_	_
+4	os	o	DET	DET	_	5	det	_	_
 5	destaques	destaque	NOUN	NOUN	_	2	nsubj:pass	_	_
 6	e	e	CCONJ	CONJ	_	7	cc	_	_
 7	emendas	emenda	NOUN	NOUN	_	5	conj	_	_
@@ -160,7 +160,7 @@
 45	a	_	ADP	ADP	_	46	mark	_	_
 46	ter	ter	VERB	VERB	_	41	acl:relcl	_	_
 47	aberto	aberto	ADJ	ADJ	_	46	xcomp	_	_
-48	o	o	DET	DET	PronType=Art	49	det	_	_
+48	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
 49	processo	processo	NOUN	NOUN	_	47	nsubj	_	_
 50	de	de	ADP	ADP	_	51	case	_	_
 51	votação	votação	NOUN	NOUN	_	49	nmod	_	SpaceAfter=No
@@ -168,7 +168,7 @@
 
 # sent_id = train-s6871
 # text = O primeiro - ministro do Catar, o xeque Hamad bin Jassim Al Thani, acusou o governo do presidente sírio Bashar Assad de conduzir uma guerra de extermínio contra o próprio povo.
-1	O	o	DET	DET	PronType=Art	4	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 2	primeiro	primeiro	ADJ	ADJ	_	4	amod	_	_
 3	-	-	PUNCT	.	_	4	punct	_	_
 4	ministro	ministro	NOUN	NOUN	_	17	nsubj	_	_
@@ -177,7 +177,7 @@
 6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Catar	_	PROPN	PNOUN	_	4	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	10	punct	_	_
-9	o	o	DET	DET	PronType=Art	10	det	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	xeque	xeque	NOUN	NOUN	_	4	appos	_	_
 11	Hamad	_	PROPN	PNOUN	_	10	appos	_	_
 12	bin	_	PROPN	PNOUN	_	11	flat	_	_
@@ -186,7 +186,7 @@
 15	Thani	_	PROPN	PNOUN	_	11	flat	_	SpaceAfter=No
 16	,	,	PUNCT	.	_	10	punct	_	_
 17	acusou	acusar	VERB	VERB	_	0	root	_	_
-18	o	o	DET	DET	PronType=Art	19	det	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	governo	governo	NOUN	NOUN	_	17	obj	_	_
 20-21	do	_	_	_	_	_	_	_	_
 20	de	de	ADP	ADP	_	22	case	_	_
@@ -202,14 +202,14 @@
 30	de	de	ADP	ADP	_	31	case	_	_
 31	extermínio	extermínio	NOUN	NOUN	_	29	nmod	_	_
 32	contra	_	ADP	ADP	_	35	case	_	_
-33	o	o	DET	DET	PronType=Art	35	det	_	_
+33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 34	próprio	próprio	ADJ	ADJ	_	35	amod	_	_
 35	povo	povo	NOUN	NOUN	_	29	nmod	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	17	punct	_	_
 
 # sent_id = train-s6872
 # text = A empresa, maior operadora de parques eólicos do mundo, deve se focar em futuros investidores nos Estados Unidos e no Brasil, assim como em seu negócio global de energias renováveis, e deve vender ativos de energia regulados ou participações em empresas.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	empresa	empresa	NOUN	NOUN	_	15	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	5	punct	_	_
 4	maior	maior	ADJ	ADJ	_	5	amod	_	_
@@ -280,7 +280,7 @@
 
 # sent_id = train-s6875
 # text = A presença dum treinador renomado e com longo currículo olímpico animou os atletas da equipe carioca.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	presença	presença	NOUN	NOUN	_	12	nsubj	_	_
 3-4	dum	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -293,7 +293,7 @@
 10	currículo	currículo	NOUN	NOUN	_	6	conj	_	_
 11	olímpico	olímpico	ADJ	ADJ	_	10	amod	_	_
 12	animou	animar	VERB	VERB	_	0	root	_	_
-13	os	o	DET	DET	PronType=Art	14	det	_	_
+13	os	o	DET	DET	_	14	det	_	_
 14	atletas	atleta	NOUN	NOUN	_	12	obj	_	_
 15-16	da	_	_	_	_	_	_	_	_
 15	de	de	ADP	ADP	_	17	case	_	_
@@ -304,7 +304,7 @@
 
 # sent_id = train-s6876
 # text = A música da Abertura desse seriado é uma versão em Hip - Hop da música Somente o Necessário cantada pelo urso Baloo no filme The Jungle Book.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	música	_	NOUN	NOUN	_	10	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -324,7 +324,7 @@
 16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	música	_	NOUN	NOUN	_	10	nmod	_	_
 18	Somente	_	PROPN	PNOUN	_	20	advmod	_	_
-19	o	o	DET	DET	PronType=Art	20	det	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	Necessário	_	PROPN	PNOUN	_	17	appos	_	_
 21	cantada	cantar	VERB	VERB	_	17	acl	_	_
 22-23	pelo	_	_	_	_	_	_	_	_

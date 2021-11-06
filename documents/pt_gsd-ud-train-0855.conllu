@@ -1,6 +1,6 @@
 # sent_id = train-s8487
 # text = O Tribunal de Justiça de Pernambuco (TJPE) inaugurou, na noite desta terça - feira, a iluminação de Natal do Palácio da Justiça, no bairro de Santo Antônio.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Tribunal	_	PROPN	PNOUN	_	10	nsubj	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	Justiça	_	PROPN	PNOUN	_	2	nmod	_	_
@@ -20,7 +20,7 @@
 17	-	-	PUNCT	.	_	18	punct	_	_
 18	feira	_	PROPN	PNOUN	_	14	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	.	_	14	punct	_	_
-20	a	o	DET	DET	PronType=Art	21	det	_	_
+20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	iluminação	iluminação	NOUN	NOUN	_	10	obj	_	_
 22	de	de	ADP	ADP	_	23	case	_	_
 23	Natal	_	PROPN	PNOUN	_	21	nmod	_	_
@@ -45,7 +45,7 @@
 # sent_id = train-s8488
 # text = Entre os assuntos abordados estão Alimento seguro: o que significa, Higienização de alimentos: um benefício para sua saúde!
 1	Entre	_	ADP	ADP	_	3	case	_	_
-2	os	o	DET	DET	PronType=Art	3	det	_	_
+2	os	o	DET	DET	_	3	det	_	_
 3	assuntos	assunto	NOUN	NOUN	_	5	nmod	_	_
 4	abordados	abordado	ADJ	ADJ	_	3	amod	_	_
 5	estão	estar	VERB	VERB	_	0	root	_	_
@@ -70,7 +70,7 @@
 # sent_id = train-s8489
 # text = Sobre a prisão dos policiais da UPP da Mangueira, denunciados por suposta extorsão a um traficante local, Frederico Caldas disse que os militares serão investigados e, se comprovada a denúncia, os militares serão punidos.
 1	Sobre	_	ADP	ADP	_	25	nmod	_	_
-2	a	o	DET	DET	PronType=Art	3	det	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	prisão	prisão	NOUN	NOUN	_	1	obj	_	_
 4-5	dos	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
@@ -98,7 +98,7 @@
 24	Caldas	_	PROPN	PNOUN	_	23	flat	_	_
 25	disse	dizer	VERB	VERB	_	0	root	_	_
 26	que	que	CCONJ	CONJ	_	30	mark	_	_
-27	os	o	DET	DET	PronType=Art	28	det	_	_
+27	os	o	DET	DET	_	28	det	_	_
 28	militares	militar	NOUN	NOUN	_	30	nsubj:pass	_	_
 29	serão	ser	AUX	AUX	_	30	aux:pass	_	_
 30	investigados	investigar	VERB	VERB	_	25	ccomp	_	_
@@ -106,10 +106,10 @@
 32	,	,	PUNCT	.	_	34	punct	_	_
 33	se	_	CCONJ	CONJ	_	34	mark	_	_
 34	comprovada	comprovar	VERB	VERB	_	41	acl	_	_
-35	a	o	DET	DET	PronType=Art	36	det	_	_
+35	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 36	denúncia	denúncia	NOUN	NOUN	_	34	nsubj	_	SpaceAfter=No
 37	,	,	PUNCT	.	_	34	punct	_	_
-38	os	o	DET	DET	PronType=Art	39	det	_	_
+38	os	o	DET	DET	_	39	det	_	_
 39	militares	militar	NOUN	NOUN	_	41	nsubj:pass	_	_
 40	serão	ser	AUX	AUX	_	41	aux:pass	_	_
 41	punidos	punir	VERB	VERB	_	30	conj	_	SpaceAfter=No
@@ -123,14 +123,14 @@
 3	coletiva	coletiva	NOUN	NOUN	_	28	nmod	_	_
 4	de	de	ADP	ADP	_	7	case	_	_
 5	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
-6	Os	o	DET	DET	PronType=Art	7	det	_	_
+6	Os	o	DET	DET	_	7	det	_	_
 7	Infratores	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
 8	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	11	punct	_	_
 10	em	em	ADP	ADP	_	11	case	_	_
 11	Cannes	_	PROPN	PNOUN	_	3	nmod	_	_
 12	--	_	PUNCT	.	_	15	punct	_	_
-13	o	o	DET	DET	PronType=Art	14	det	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	filme	filme	NOUN	NOUN	_	15	nsubj	_	_
 15	estreou	estrear	VERB	VERB	_	28	parataxis	_	_
 16-17	na	_	_	_	_	_	_	_	_
@@ -142,7 +142,7 @@
 21	Fortaleza	_	PROPN	PNOUN	_	15	nmod	_	_
 22	--	_	PUNCT	.	_	15	punct	_	SpaceAfter=No
 23	,	,	PUNCT	.	_	15	punct	_	_
-24	o	o	DET	DET	PronType=Art	25	det	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	diretor	diretor	NOUN	NOUN	_	28	nsubj	_	_
 26	John	_	PROPN	PNOUN	_	25	appos	_	_
 27	Hillcoat	_	PROPN	PNOUN	_	26	flat	_	_
@@ -164,12 +164,12 @@
 
 # sent_id = train-s8491
 # text = O volante Jackson já vestiu a camisa do Sousa, enquanto que o atacante Somália, além de também já ter atuado pelo Sousa, jogou na equipe do Paraíba que conquistou o vice - campeonato da Segunda Divisão do Estadual em 2011.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	volante	volante	NOUN	NOUN	_	5	nsubj	_	_
 3	Jackson	_	PROPN	PNOUN	_	2	appos	_	_
 4	já	já	ADV	ADV	_	5	advmod	_	_
 5	vestiu	vestir	VERB	VERB	_	0	root	_	_
-6	a	o	DET	DET	PronType=Art	7	det	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	camisa	camisa	NOUN	NOUN	_	5	obj	_	_
 8-9	do	_	_	_	_	_	_	_	_
 8	de	de	ADP	ADP	_	10	case	_	_
@@ -178,7 +178,7 @@
 11	,	,	PUNCT	.	_	28	punct	_	_
 12	enquanto	_	CCONJ	CONJ	_	28	mark	_	_
 13	que	_	CCONJ	CONJ	_	12	fixed	_	_
-14	o	o	DET	DET	PronType=Art	15	det	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	atacante	atacante	NOUN	NOUN	_	28	nsubj	_	_
 16	Somália	_	PROPN	PNOUN	_	15	appos	_	SpaceAfter=No
 17	,	,	PUNCT	.	_	18	punct	_	_
@@ -226,7 +226,7 @@
 1	Chris	_	PROPN	PNOUN	_	3	nsubj	_	_
 2	Weidman	_	PROPN	PNOUN	_	1	flat	_	_
 3	venceu	vencer	VERB	VERB	_	0	root	_	_
-4	as	o	DET	DET	PronType=Art	6	det	_	_
+4	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
 5	oito	_	NUM	NUM	NumType=Card	6	nummod	_	_
 6	lutas	luta	NOUN	NOUN	_	3	obj	_	_
 7	que	_	PRON	PRON	_	8	obj	_	_
@@ -239,7 +239,7 @@
 13	UFC	_	PROPN	PNOUN	_	10	nmod	_	_
 14	--	_	PUNCT	.	_	10	punct	_	SpaceAfter=No
 15	,	,	PUNCT	.	_	17	punct	_	_
-16	a	o	DET	DET	PronType=Art	17	det	_	_
+16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	última	_	NOUN	NOUN	_	6	appos	_	_
 18	diante	diante	ADV	ADV	_	17	advmod	_	_
 19-20	do	_	_	_	_	_	_	_	_
@@ -274,7 +274,7 @@
 # text = Miranda: A rivalidade é muito grande.
 1	Miranda	_	PROPN	PNOUN	_	5	parataxis	_	SpaceAfter=No
 2	:	:	PUNCT	.	_	1	punct	_	_
-3	A	o	DET	DET	PronType=Art	4	det	_	_
+3	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	rivalidade	rivalidade	NOUN	NOUN	_	5	nsubj	_	_
 5	é	ser	VERB	VERB	_	0	root	_	_
 6	muito	muito	ADV	ADV	_	7	advmod	_	_
@@ -283,7 +283,7 @@
 
 # sent_id = train-s8494
 # text = A veterinária Adriana Leão da Clínica Veterinária e pet shop Petit Pet alerta para que essas análises sejam feitas em clínicas especializadas em cães.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	veterinária	_	NOUN	NOUN	_	14	nsubj	_	_
 3	Adriana	_	PROPN	PNOUN	_	2	appos	_	_
 4	Leão	_	PROPN	PNOUN	_	3	flat	_	_
@@ -324,13 +324,13 @@
 8	de	de	ADP	ADP	_	9	case	_	_
 9	competições	competição	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	7	punct	_	_
-11	a	o	DET	DET	PronType=Art	12	det	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	seleção	seleção	NOUN	NOUN	_	16	nsubj	_	_
 13	de	de	ADP	ADP	_	14	case	_	_
 14	vôlei	vôlei	NOUN	NOUN	_	12	nmod	_	_
 15	feminina	feminino	ADJ	ADJ	_	12	amod	_	_
 16	pega	pegar	VERB	VERB	_	0	root	_	_
-17	a	o	DET	DET	PronType=Art	18	det	_	_
+17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	Rússia	_	PROPN	PNOUN	_	16	obj	_	SpaceAfter=No
 19	,	,	PUNCT	.	_	23	punct	_	_
 20-21	às	_	_	_	_	_	_	_	_
@@ -357,7 +357,7 @@
 1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
 2	Eu	_	PRON	PRON	_	3	nsubj	_	_
 3	confio	confiar	VERB	VERB	_	0	root	_	_
-4	a	o	DET	DET	PronType=Art	5	det	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	vida	vida	NOUN	NOUN	_	3	obj	_	_
 6-7	do	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	9	case	_	_

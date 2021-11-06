@@ -1,7 +1,7 @@
 # sent_id = train-s9577
 # text = -- O euro abriu nesta quarta - feira em baixa no mercado de divisas de Frankfurt e era cotado a US $ 1,2759, frente aos US $ 1,2801 da sessão anterior.
 1	--	_	PUNCT	.	_	4	punct	_	_
-2	O	o	DET	DET	PronType=Art	3	det	_	_
+2	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	euro	euro	NOUN	NOUN	_	4	nsubj	_	_
 4	abriu	abrir	VERB	VERB	_	0	root	_	_
 5	nesta	_	ADP	ADP	_	8	case	_	_
@@ -42,7 +42,7 @@
 
 # sent_id = train-s9578
 # text = O delegado Rafael Schimidt reforçou que o ex - policial foi expulso da corporação devido o envolvimento dele com o tráfico de drogas.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	delegado	delegado	NOUN	NOUN	_	5	nsubj	_	_
 3	Rafael	_	PROPN	PNOUN	_	2	appos	_	_
 4	Schimidt	_	PROPN	PNOUN	_	3	flat	_	_
@@ -59,11 +59,11 @@
 14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	corporação	corporação	NOUN	NOUN	_	12	nmod	_	_
 16	devido	dever	VERB	VERB	_	12	acl	_	_
-17	o	o	DET	DET	PronType=Art	18	det	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	envolvimento	envolvimento	NOUN	NOUN	_	16	obj	_	_
 19	dele	_	X	ADPPRON	_	18	det:poss	_	_
 20	com	com	ADP	ADP	_	22	case	_	_
-21	o	o	DET	DET	PronType=Art	22	det	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	tráfico	tráfico	NOUN	NOUN	_	18	nmod	_	_
 23	de	de	ADP	ADP	_	24	case	_	_
 24	drogas	droga	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
@@ -73,7 +73,7 @@
 # text = Será que as lojas vão mesmo lotar em Porto Velho e em todo o interior, neste penúltimo sábado antes do Natal?
 1	Será	ser	VERB	VERB	_	0	root	_	_
 2	que	que	CCONJ	CONJ	_	7	mark	_	_
-3	as	o	DET	DET	PronType=Art	4	det	_	_
+3	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
 4	lojas	loja	NOUN	NOUN	_	7	nsubj	_	_
 5	vão	ir	AUX	AUX	_	7	aux	_	_
 6	mesmo	mesmo	ADV	ADV	_	7	advmod	_	_
@@ -84,7 +84,7 @@
 11	e	e	CCONJ	CONJ	_	15	cc	_	_
 12	em	em	ADP	ADP	_	15	case	_	_
 13	todo	_	DET	DET	_	15	det	_	_
-14	o	o	DET	DET	PronType=Art	15	det	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	interior	interior	NOUN	NOUN	_	9	conj	_	SpaceAfter=No
 16	,	,	PUNCT	.	_	19	punct	_	_
 17	neste	_	ADP	ADP	_	19	case	_	_
@@ -100,7 +100,7 @@
 # sent_id = train-s9580
 # text = Já o Flamengo entrou em campo no ritmo da torcida.
 1	Já	já	ADV	ADV	_	4	advmod	_	_
-2	o	o	DET	DET	PronType=Art	3	det	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Flamengo	_	PROPN	PNOUN	_	4	nsubj	_	_
 4	entrou	entrar	VERB	VERB	_	0	root	_	_
 5	em	em	ADP	ADP	_	6	case	_	_
@@ -117,7 +117,7 @@
 
 # sent_id = train-s9581
 # text = O coágulo, que teria origem, segundo os médicos, numa má - formação de vasos sanguíneos, interrompeu o fluxo de sangue para um parte do seu cérebro, fazendo com que o local ficasse temporariamente sem oxigênio e sem nutrientes.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	coágulo	coágulo	NOUN	NOUN	_	21	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	5	punct	_	_
 4	que	_	PRON	PRON	_	5	nsubj	_	_
@@ -125,7 +125,7 @@
 6	origem	origem	NOUN	NOUN	_	5	obj	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	10	punct	_	_
 8	segundo	_	ADP	ADP	_	10	case	_	_
-9	os	o	DET	DET	PronType=Art	10	det	_	_
+9	os	o	DET	DET	_	10	det	_	_
 10	médicos	médico	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	10	punct	_	_
 12-13	numa	_	_	_	_	_	_	_	_
@@ -139,7 +139,7 @@
 19	sanguíneos	sanguíneo	ADJ	ADJ	_	18	amod	_	SpaceAfter=No
 20	,	,	PUNCT	.	_	5	punct	_	_
 21	interrompeu	interromper	VERB	VERB	_	0	root	_	_
-22	o	o	DET	DET	PronType=Art	23	det	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	fluxo	fluxo	NOUN	NOUN	_	21	obj	_	_
 24	de	de	ADP	ADP	_	25	case	_	_
 25	sangue	sangue	NOUN	NOUN	_	23	nmod	_	_
@@ -155,7 +155,7 @@
 34	fazendo	fazer	VERB	VERB	_	21	acl	_	_
 35	com	_	ADP	ADP	_	39	mark	_	_
 36	que	que	CCONJ	CONJ	_	39	mark	_	_
-37	o	o	DET	DET	PronType=Art	38	det	_	_
+37	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 38	local	local	NOUN	NOUN	_	39	nsubj	_	_
 39	ficasse	ficar	VERB	VERB	_	34	nmod	_	_
 40	temporariamente	temporariamente	ADV	ADV	_	39	advmod	_	_
@@ -174,7 +174,7 @@
 4	Rosário	_	PROPN	PNOUN	_	5	nsubj	_	_
 5	decide	decidir	VERB	VERB	_	0	root	_	_
 6	criar	criar	VERB	VERB	_	5	xcomp	_	_
-7	a	o	DET	DET	PronType=Art	8	det	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	menina	menino	NOUN	NOUN	_	6	obj	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	14	punct	_	_
 10	a	_	ADP	ADP	_	11	case	_	_
@@ -186,7 +186,7 @@
 
 # sent_id = train-s9583
 # text = O sonho ainda é possível, Raposa.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	sonho	sonho	NOUN	NOUN	_	4	nsubj	_	_
 3	ainda	ainda	ADV	ADV	_	4	advmod	_	_
 4	é	ser	VERB	VERB	_	0	root	_	_
@@ -318,7 +318,7 @@
 56	vergonha	vergonha	NOUN	NOUN	_	55	obj	_	_
 57	de	_	ADP	ADP	_	58	mark	_	_
 58	assumir	assumir	VERB	VERB	_	56	nmod	_	_
-59	as	o	DET	DET	PronType=Art	60	det	_	_
+59	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	60	det	_	_
 60	influências	influência	NOUN	NOUN	_	58	obj	_	_
 61	de	de	ADP	ADP	_	62	case	_	_
 62	pop	pop	NOUN	NOUN	_	60	nmod	_	_
@@ -335,7 +335,7 @@
 73	anos	ano	NOUN	NOUN	_	69	nmod	_	_
 74	buscam	buscar	VERB	VERB	_	55	conj	_	_
 75	construir	construir	VERB	VERB	_	74	xcomp	_	_
-76	a	o	DET	DET	PronType=Art	77	det	_	_
+76	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	77	det	_	_
 77	identidade	identidade	NOUN	NOUN	_	75	obj	_	_
 78	própria	próprio	ADJ	ADJ	_	77	amod	_	_
 79-80	do	_	_	_	_	_	_	_	_

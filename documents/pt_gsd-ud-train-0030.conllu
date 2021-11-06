@@ -13,7 +13,7 @@
 10	essa	_	DET	DET	_	11	det	_	_
 11	conquista	conquista	NOUN	NOUN	_	9	obj	_	_
 12	com	com	ADP	ADP	_	15	case	_	_
-13	os	o	DET	DET	PronType=Art	15	det	_	_
+13	os	o	DET	DET	_	15	det	_	_
 14	demais	_	DET	DET	_	15	det	_	_
 15	deputados	deputado	NOUN	NOUN	_	9	nmod	_	_
 16	estaduais	estadual	ADJ	ADJ	_	15	amod	_	_
@@ -26,7 +26,7 @@
 
 # sent_id = train-s292
 # text = O IML do Rio realiza exames de identificação.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	IML	_	PROPN	PNOUN	_	6	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -66,7 +66,7 @@
 
 # sent_id = train-s294
 # text = A atleta de 29 anos, que já havia revelado que iria se retirar da natação ao fim da temporada, conseguiu neste sábado avançar para a final dos 50m livre no Mundial de Piscina Curta de Istambul, na Turquia.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	atleta	atleta	NOUN	NOUN	_	25	nsubj	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
 4	29	_	NUM	NUM	NumType=Card	5	nummod	_	_
@@ -98,7 +98,7 @@
 27	sábado	_	PROPN	PNOUN	_	25	nmod	_	_
 28	avançar	avançar	VERB	VERB	_	25	xcomp	_	_
 29	para	para	ADP	ADP	_	31	case	_	_
-30	a	o	DET	DET	PronType=Art	31	det	_	_
+30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	final	final	NOUN	NOUN	_	28	nmod	_	_
 32-33	dos	_	_	_	_	_	_	_	_
 32	de	de	ADP	ADP	_	34	case	_	_
@@ -155,17 +155,17 @@
 # sent_id = train-s296
 # text = Segundo o promotor, o Grupo investiga a denúncia de que os proprietários do terreno teriam comprado a área por um valor, divido em lotes menores e revendido sem autorização da Prefeitura -- informação confirmada pela assessoria da administração municipal.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	PronType=Art	3	det	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	promotor	promotor	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
-5	o	o	DET	DET	PronType=Art	6	det	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Grupo	_	PROPN	PNOUN	_	7	nsubj	_	_
 7	investiga	investigar	VERB	VERB	_	0	root	_	_
-8	a	o	DET	DET	PronType=Art	9	det	_	_
+8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	denúncia	denúncia	NOUN	NOUN	_	7	obj	_	_
 10	de	_	ADP	ADP	_	18	mark	_	_
 11	que	que	CCONJ	CONJ	_	18	mark	_	_
-12	os	o	DET	DET	PronType=Art	13	det	_	_
+12	os	o	DET	DET	_	13	det	_	_
 13	proprietários	proprietário	NOUN	NOUN	_	18	nsubj	_	_
 14-15	do	_	_	_	_	_	_	_	_
 14	de	de	ADP	ADP	_	16	case	_	_
@@ -173,7 +173,7 @@
 16	terreno	terreno	NOUN	NOUN	_	13	nmod	_	_
 17	teriam	ter	AUX	AUX	_	18	aux	_	_
 18	comprado	comprar	VERB	VERB	_	9	nmod	_	_
-19	a	o	DET	DET	PronType=Art	20	det	_	_
+19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	área	área	NOUN	NOUN	_	18	obj	_	_
 21	por	por	ADP	ADP	_	23	case	_	_
 22	um	um	DET	DET	_	23	det	_	_
@@ -208,19 +208,19 @@
 # sent_id = train-s297
 # text = Para a jornalista YD, ter o hábito de pensar em sexo é o segredo para ter uma vida sexual mais ativa e com qualidade.
 1	Para	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	PronType=Art	3	det	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	jornalista	jornalista	NOUN	NOUN	_	15	nmod	_	_
 4	YD	_	PROPN	PNOUN	_	3	appos	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	3	punct	_	_
 6	ter	ter	VERB	VERB	_	15	csubj	_	_
-7	o	o	DET	DET	PronType=Art	8	det	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	hábito	hábito	NOUN	NOUN	_	6	obj	_	_
 9	de	_	ADP	ADP	_	10	mark	_	_
 10	pensar	pensar	VERB	VERB	_	8	nmod	_	_
 11	em	em	ADP	ADP	_	12	case	_	_
 12	sexo	sexo	NOUN	NOUN	_	10	nmod	_	_
 13	é	ser	AUX	AUX	_	15	cop	_	_
-14	o	o	DET	DET	PronType=Art	15	det	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	segredo	segredo	NOUN	NOUN	_	0	root	_	_
 16	para	_	ADP	ADP	_	17	mark	_	_
 17	ter	ter	VERB	VERB	_	15	nmod	_	_
@@ -237,7 +237,7 @@
 # sent_id = train-s298
 # text = Mas o tempo gasto fazendo lançamentos surtiu efeito: os US $ 880 mil (cerca de R $ 1,7 milhão) que o garoto vai receber em seis temporadas, na maior transação dum jogador brasileiro para um time da Major League Baseball (MLB), dariam para manter a produção de ovos da cidade, popularmente conhecida como a "capital do ovo", por mais dum ano.
 1	Mas	_	CCONJ	CONJ	_	7	cc	_	_
-2	o	o	DET	DET	PronType=Art	3	det	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	tempo	tempo	NOUN	NOUN	_	7	nsubj	_	_
 4	gasto	gastar	VERB	VERB	_	3	acl	_	_
 5	fazendo	fazer	VERB	VERB	_	3	acl	_	_
@@ -245,7 +245,7 @@
 7	surtiu	surtir	VERB	VERB	_	0	root	_	_
 8	efeito	efeito	NOUN	NOUN	_	7	obj	_	SpaceAfter=No
 9	:	:	PUNCT	.	_	7	punct	_	_
-10	os	o	DET	DET	PronType=Art	11	det	_	_
+10	os	o	DET	DET	_	11	det	_	_
 11	US	_	PROPN	PNOUN	_	52	nsubj	_	_
 12	$	_	SYM	SYM	_	11	flat	_	_
 13	880	_	NUM	NUM	NumType=Card	14	nummod	_	_
@@ -259,7 +259,7 @@
 21	milhão	_	NUM	NUM	NumType=Card	18	nummod	_	SpaceAfter=No
 22	)	)	PUNCT	.	_	18	punct	_	_
 23	que	_	PRON	PRON	_	27	obj	_	_
-24	o	o	DET	DET	PronType=Art	25	det	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	garoto	garoto	NOUN	NOUN	_	27	nsubj	_	_
 26	vai	ir	AUX	AUX	_	27	aux	_	_
 27	receber	receber	VERB	VERB	_	11	acl:relcl	_	_
@@ -293,7 +293,7 @@
 52	dariam	dar	VERB	VERB	_	7	parataxis	_	_
 53	para	_	ADP	ADP	_	54	mark	_	_
 54	manter	manter	VERB	VERB	_	52	nmod	_	_
-55	a	o	DET	DET	PronType=Art	56	det	_	_
+55	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
 56	produção	produção	NOUN	NOUN	_	54	obj	_	_
 57	de	de	ADP	ADP	_	58	case	_	_
 58	ovos	ovo	NOUN	NOUN	_	56	nmod	_	_
@@ -305,7 +305,7 @@
 63	popularmente	popularmente	ADV	ADV	_	64	advmod	_	_
 64	conhecida	conhecer	VERB	VERB	_	61	acl	_	_
 65	como	como	ADP	ADP	_	68	case	_	_
-66	a	o	DET	DET	PronType=Art	68	det	_	_
+66	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	68	det	_	_
 67	"	"	PUNCT	.	_	68	punct	_	SpaceAfter=No
 68	capital	capital	NOUN	NOUN	_	64	nmod	_	_
 69-70	do	_	_	_	_	_	_	_	_
@@ -327,17 +327,17 @@
 1	São	_	PROPN	PNOUN	_	7	parataxis	_	_
 2	Paulo	_	PROPN	PNOUN	_	1	flat	_	_
 3	--	_	PUNCT	.	_	7	punct	_	_
-4	A	o	DET	DET	PronType=Art	5	det	_	_
+4	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	TV	_	PROPN	PNOUN	_	7	nsubj	_	_
 6	Record	_	PROPN	PNOUN	_	5	flat	_	_
 7	cancelou	cancelar	VERB	VERB	_	0	root	_	_
-8	o	o	DET	DET	PronType=Art	9	det	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	debate	debate	NOUN	NOUN	_	7	obj	_	_
 10	que	_	PRON	PRON	_	12	nsubj:pass	_	_
 11	seria	_	AUX	AUX	_	12	aux:pass	_	_
 12	realizado	realizar	VERB	VERB	_	9	acl:relcl	_	_
 13	entre	_	ADP	ADP	_	16	case	_	_
-14	os	o	DET	DET	PronType=Art	16	det	_	_
+14	os	o	DET	DET	_	16	det	_	_
 15	principais	principal	ADJ	ADJ	_	16	amod	_	_
 16	candidatos	candidato	NOUN	NOUN	_	12	nmod	_	_
 17	a	_	ADP	ADP	_	18	case	_	_
@@ -362,7 +362,7 @@
 
 # sent_id = train-s300
 # text = O desafio do 7 º jogo no Nacional é contra o time de Celso Roth, em Minas Gerais.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	desafio	desafio	NOUN	NOUN	_	11	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	7	case	_	_
@@ -376,7 +376,7 @@
 10	Nacional	_	PROPN	PNOUN	_	7	nmod	_	_
 11	é	ser	VERB	VERB	_	0	root	_	_
 12	contra	_	ADP	ADP	_	14	case	_	_
-13	o	o	DET	DET	PronType=Art	14	det	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	time	time	NOUN	NOUN	_	11	nmod	_	_
 15	de	de	ADP	ADP	_	16	case	_	_
 16	Celso	_	PROPN	PNOUN	_	14	nmod	_	_

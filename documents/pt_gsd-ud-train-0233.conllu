@@ -8,7 +8,7 @@
 6	onde	onde	ADV	ADV	_	7	advmod	_	_
 7	treina	treinar	VERB	VERB	_	4	acl:relcl	_	_
 8	com	com	ADP	ADP	_	10	case	_	_
-9	a	o	DET	DET	PronType=Art	10	det	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	seleção	seleção	NOUN	NOUN	_	7	nmod	_	_
 11	brasileira	brasileiro	ADJ	ADJ	_	10	amod	_	_
 12-13	na	_	_	_	_	_	_	_	_
@@ -20,7 +20,7 @@
 
 # sent_id = train-s2314
 # text = O Buffet Infantil Week encerrou no dia 23 de setembro e a segunda edição deve ocorrer em Março de 2013, pois o planejamento é que o evento seja realizado pelo menos duas vezes ao ano, se estendendo também para o ABC paulista e outras cidades do Brasil.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Buffet	_	PROPN	PNOUN	_	5	nsubj	_	_
 3	Infantil	_	PROPN	PNOUN	_	2	amod	_	_
 4	Week	_	PROPN	PNOUN	_	2	appos	_	_
@@ -44,11 +44,11 @@
 21	2013	_	NUM	NUM	NumType=Card	19	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	.	_	25	punct	_	_
 23	pois	_	CCONJ	CONJ	_	25	mark	_	_
-24	o	o	DET	DET	PronType=Art	25	det	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	planejamento	planejamento	NOUN	NOUN	_	17	advcl	_	_
 26	é	ser	AUX	AUX	_	25	cop	_	_
 27	que	que	CCONJ	CONJ	_	31	mark	_	_
-28	o	o	DET	DET	PronType=Art	29	det	_	_
+28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	evento	evento	NOUN	NOUN	_	31	nsubj:pass	_	_
 30	seja	ser	AUX	AUX	_	31	aux:pass	_	_
 31	realizado	realizar	VERB	VERB	_	25	csubj	_	_
@@ -67,7 +67,7 @@
 42	estendendo	estender	VERB	VERB	_	31	acl	_	_
 43	também	também	ADV	ADV	_	42	advmod	_	_
 44	para	para	ADP	ADP	_	46	case	_	_
-45	o	o	DET	DET	PronType=Art	46	det	_	_
+45	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
 46	ABC	_	PROPN	PNOUN	_	42	nmod	_	_
 47	paulista	_	PROPN	PNOUN	_	46	amod	_	_
 48	e	e	CCONJ	CONJ	_	50	cc	_	_
@@ -96,7 +96,7 @@
 12	ele	_	PRON	PRON	_	9	nmod	_	_
 13	estar	estar	AUX	AUX	_	14	aux	_	_
 14	representando	representar	VERB	VERB	_	9	csubj	_	_
-15	o	o	DET	DET	PronType=Art	16	det	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	País	_	PROPN	PNOUN	_	14	obj	_	_
 17	em	em	ADP	ADP	_	20	case	_	_
 18	sua	_	DET	DET	_	20	det:poss	_	_
@@ -105,13 +105,13 @@
 21	e	e	CCONJ	CONJ	_	22	cc	_	_
 22	afirmou	afirmar	VERB	VERB	_	3	conj	_	_
 23	que	que	CCONJ	CONJ	_	27	mark	_	_
-24	a	o	DET	DET	PronType=Art	25	det	_	_
+24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	seleção	seleção	NOUN	NOUN	_	27	nsubj	_	_
 26	irá	_	AUX	AUX	_	27	aux	_	_
 27	brigar	brigar	VERB	VERB	_	22	ccomp	_	_
 28	com	com	ADP	ADP	_	31	case	_	_
 29	todas	_	DET	DET	_	31	det	_	_
-30	as	o	DET	DET	PronType=Art	31	det	_	_
+30	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
 31	forças	força	NOUN	NOUN	_	27	nmod	_	_
 32-33	pela	_	_	_	_	_	_	_	_
 32	por	por	ADP	ADP	_	34	case	_	_
@@ -123,20 +123,20 @@
 # text = Mas com o público jogando junto com as atletas, a equipe melhorou e igualou o jogo.
 1	Mas	_	CCONJ	CONJ	_	13	cc	_	_
 2	com	com	ADP	ADP	_	4	case	_	_
-3	o	o	DET	DET	PronType=Art	4	det	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	público	público	NOUN	NOUN	_	13	nmod	_	_
 5	jogando	jogar	VERB	VERB	_	4	acl	_	_
 6	junto	junto	ADV	ADV	_	5	advmod	_	_
 7	com	com	ADP	ADP	_	9	case	_	_
-8	as	o	DET	DET	PronType=Art	9	det	_	_
+8	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
 9	atletas	atleta	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	4	punct	_	_
-11	a	o	DET	DET	PronType=Art	12	det	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	equipe	equipe	NOUN	NOUN	_	13	nsubj	_	_
 13	melhorou	melhorar	VERB	VERB	_	0	root	_	_
 14	e	e	CCONJ	CONJ	_	15	cc	_	_
 15	igualou	igualar	VERB	VERB	_	13	conj	_	_
-16	o	o	DET	DET	PronType=Art	17	det	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	jogo	jogo	NOUN	NOUN	_	15	obj	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	13	punct	_	_
 
@@ -161,7 +161,7 @@
 
 # sent_id = train-s2318
 # text = O Outlook ajuda você a encontrar e organizar informações para que se possa trabalhar sem falhas com aplicativos do Office.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Outlook	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	ajuda	ajudar	VERB	VERB	_	0	root	_	_
 4	você	_	PRON	PRON	_	3	obj	_	_
@@ -227,7 +227,7 @@
 15	Russo	_	PROPN	PNOUN	_	14	amod	_	SpaceAfter=No
 16	)	)	PUNCT	.	_	11	punct	_	_
 17	durante	_	ADP	ADP	_	19	case	_	_
-18	o	o	DET	DET	PronType=Art	19	det	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	posto	posto	NOUN	NOUN	_	2	nmod	_	_
 20	de	de	ADP	ADP	_	22	case	_	_
 21	seu	_	DET	DET	_	22	det:poss	_	_
@@ -240,13 +240,13 @@
 
 # sent_id = train-s2322
 # text = O São Paulo voltará a enfrentar a La U na próxima quarta - feira no Pacaembu.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	São	_	PROPN	PNOUN	_	6	nsubj	_	_
 3	Paulo	_	PROPN	PNOUN	_	2	flat	_	_
 4	voltará	voltar	AUX	AUX	_	6	aux	_	_
 5	a	_	ADP	ADP	_	6	mark	_	_
 6	enfrentar	enfrentar	VERB	VERB	_	0	root	_	_
-7	a	o	DET	DET	PronType=Art	8	det	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	La	_	PROPN	PNOUN	_	6	obj	_	_
 9	U	_	PROPN	PNOUN	_	8	flat	_	_
 10-11	na	_	_	_	_	_	_	_	_

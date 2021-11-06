@@ -32,7 +32,7 @@
 29	em	em	ADP	ADP	_	30	case	_	_
 30	conjunto	conjunto	NOUN	NOUN	_	22	nmod	_	_
 31	com	com	ADP	ADP	_	33	case	_	_
-32	a	o	DET	DET	PronType=Art	33	det	_	_
+32	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
 33	Polícia	_	PROPN	PNOUN	_	30	nmod	_	_
 34	Militar	_	PROPN	PNOUN	_	33	amod	_	SpaceAfter=No
 35	,	,	PUNCT	.	_	30	punct	_	_
@@ -59,10 +59,10 @@
 
 # sent_id = test-s817
 # text = Os acusados realizaram a contratação ilegal duma empresa de consultoria em dois momentos distintos, causando prejuízo ao erário que chega a R $ 1,045 milhão (um milhão e quarenta e cinco mil reais).
-1	Os	o	DET	DET	PronType=Art	2	det	_	_
+1	Os	o	DET	DET	_	2	det	_	_
 2	acusados	acusado	NOUN	NOUN	_	3	nsubj	_	_
 3	realizaram	realizar	VERB	VERB	_	0	root	_	_
-4	a	o	DET	DET	PronType=Art	5	det	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	contratação	contratação	NOUN	NOUN	_	3	obj	_	_
 6	ilegal	ilegal	ADJ	ADJ	_	5	amod	_	_
 7-8	duma	_	_	_	_	_	_	_	_
@@ -105,7 +105,7 @@
 # text = Ele teve os direitos políticos suspensos por oito anos devido a uma condenação criminal transitada em julgado.
 1	Ele	_	PRON	PRON	_	2	nsubj	_	_
 2	teve	ter	VERB	VERB	_	0	root	_	_
-3	os	o	DET	DET	PronType=Art	4	det	_	_
+3	os	o	DET	DET	_	4	det	_	_
 4	direitos	direito	NOUN	NOUN	_	6	nsubj	_	_
 5	políticos	político	ADJ	ADJ	_	4	amod	_	_
 6	suspensos	suspenso	ADJ	ADJ	_	2	xcomp	_	_
@@ -124,10 +124,10 @@
 
 # sent_id = test-s819
 # text = O Brasil inicia a sua caminhada em busca do inédito ouro olímpico no dia 26, contra o Egito, na cidade de Cardiff, no País de Gales.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Brasil	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	inicia	iniciar	VERB	VERB	_	0	root	_	_
-4	a	o	DET	DET	PronType=Art	6	det	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 5	sua	_	DET	DET	_	6	det:poss	_	_
 6	caminhada	caminhada	NOUN	NOUN	_	3	obj	_	_
 7	em	em	ADP	ADP	_	8	case	_	_
@@ -145,7 +145,7 @@
 17	26	_	NUM	NUM	NumType=Card	16	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	.	_	21	punct	_	_
 19	contra	_	ADP	ADP	_	21	case	_	_
-20	o	o	DET	DET	PronType=Art	21	det	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	Egito	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	.	_	25	punct	_	_
 23-24	na	_	_	_	_	_	_	_	_
@@ -236,7 +236,7 @@
 5	Ecuador	_	NOUN	NOUN	_	3	appos	_	SpaceAfter=No
 6	)	)	PUNCT	.	_	3	punct	_	_
 7	é	ser	AUX	AUX	_	9	cop	_	_
-8	o	o	DET	DET	PronType=Art	9	det	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	código	código	NOUN	NOUN	_	0	root	_	_
 10	TLD	_	PROPN	PNOUN	_	9	appos	_	_
 11	(	(	PUNCT	.	_	12	punct	_	SpaceAfter=No
@@ -247,16 +247,16 @@
 15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	Internet	_	PROPN	PNOUN	_	9	nmod	_	_
 17	para	para	ADP	ADP	_	19	case	_	_
-18	o	o	DET	DET	PronType=Art	19	det	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	Equador	equador	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = test-s824
 # text = O Grêmio começou o jogo com muita disposição e nalguns momentos até exagerou nas faltas.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Grêmio	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	começou	começar	VERB	VERB	_	0	root	_	_
-4	o	o	DET	DET	PronType=Art	5	det	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	jogo	jogo	NOUN	NOUN	_	3	obj	_	_
 6	com	com	ADP	ADP	_	8	case	_	_
 7	muita	_	DET	DET	_	8	det	_	_
@@ -280,7 +280,7 @@
 2	Eu	_	PRON	PRON	_	4	nsubj	_	_
 3	estou	estar	AUX	AUX	_	4	aux	_	_
 4	curtindo	curtir	VERB	VERB	_	0	root	_	_
-5	o	o	DET	DET	PronType=Art	7	det	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	meu	_	DET	DET	_	7	det:poss	_	_
 7	filhote	filhote	NOUN	NOUN	_	4	obj	_	_
 8-9	no	_	_	_	_	_	_	_	_

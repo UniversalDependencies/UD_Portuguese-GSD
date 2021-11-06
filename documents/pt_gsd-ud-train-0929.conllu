@@ -1,7 +1,7 @@
 # sent_id = train-s9217
 # text = Conforme as investigações da Polícia Civil e a denúncia feita pelo Ministério Público da Paraíba, cinco mulheres foram estupradas e duas delas assassinadas durante uma festa.
 1	Conforme	_	ADP	ADP	_	3	case	_	_
-2	as	o	DET	DET	PronType=Art	3	det	_	_
+2	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	investigações	investigação	NOUN	NOUN	_	23	nmod	_	_
 4-5	da	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
@@ -37,7 +37,7 @@
 
 # sent_id = train-s9218
 # text = O ambiente tem que ser muito bem higienizado para evitar infecções.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	ambiente	ambiente	NOUN	NOUN	_	8	nsubj	_	_
 3	tem	ter	AUX	AUX	_	8	aux	_	_
 4	que	que	CCONJ	CONJ	_	8	mark	_	_
@@ -52,7 +52,7 @@
 
 # sent_id = train-s9219
 # text = A medalha de ouro olímpica será minha, declarou um exultante Lewis, Ben Johnson nunca mais me derrotará.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	medalha	medalha	NOUN	NOUN	_	7	nsubj	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	ouro	ouro	NOUN	NOUN	_	2	nmod	_	_
@@ -75,7 +75,7 @@
 
 # sent_id = train-s9220
 # text = O tucano aparece com 30 % das intenções de voto, contra 29 % de Haddad e 23 % de Russomano.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	tucano	tucano	NOUN	NOUN	_	3	nsubj	_	_
 3	aparece	aparecer	VERB	VERB	_	0	root	_	_
 4	com	com	ADP	ADP	_	6	case	_	_
@@ -102,12 +102,12 @@
 
 # sent_id = train-s9221
 # text = O advogado logo pensou que a punição fosse em razão do atraso das mulheres para realizar as tarefas.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	advogado	advogado	NOUN	NOUN	_	4	nsubj	_	_
 3	logo	logo	ADV	ADV	_	4	advmod	_	_
 4	pensou	pensar	VERB	VERB	_	0	root	_	_
 5	que	_	SCONJ	CONJ	_	8	mark	_	_
-6	a	o	DET	DET	PronType=Art	7	det	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	punição	punição	NOUN	NOUN	_	8	nsubj	_	_
 8	fosse	_	VERB	VERB	_	4	ccomp	_	_
 9	em	em	ADP	ADP	_	10	case	_	_
@@ -122,13 +122,13 @@
 16	mulheres	mulher	NOUN	NOUN	_	13	nmod	_	_
 17	para	_	ADP	ADP	_	18	mark	_	_
 18	realizar	realizar	VERB	VERB	_	13	acl	_	_
-19	as	o	DET	DET	PronType=Art	20	det	_	_
+19	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
 20	tarefas	tarefa	NOUN	NOUN	_	18	obj	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s9222
 # text = As chaves roubadas dão acesso a um restaurante, salas de conferências e dum cadeado duma ponte levadiça.
-1	As	o	DET	DET	PronType=Art	2	det	_	_
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	chaves	chave	NOUN	NOUN	_	4	nsubj	_	_
 3	roubadas	roubar	VERB	VERB	_	2	acl	_	_
 4	dão	dar	VERB	VERB	_	0	root	_	_
@@ -189,7 +189,7 @@
 9	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
 10	EUA	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	3	punct	_	_
-12	o	o	DET	DET	PronType=Art	13	det	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	democrata	democrata	NOUN	NOUN	_	20	nsubj	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	15	punct	_	_
 15	candidato	candidato	NOUN	NOUN	_	13	appos	_	_
@@ -224,7 +224,7 @@
 # text = Quase todo o volante é em madeira.
 1	Quase	quase	ADV	ADV	_	2	advmod	_	_
 2	todo	todo	ADJ	ADJ	_	4	amod	_	_
-3	o	o	DET	DET	PronType=Art	4	det	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	volante	volante	NOUN	NOUN	_	5	nsubj	_	_
 5	é	ser	VERB	VERB	_	0	root	_	_
 6	em	em	ADP	ADP	_	7	case	_	_
@@ -253,7 +253,7 @@
 16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	eleitor	eleitor	NOUN	NOUN	_	14	iobj	_	_
 18	saber	saber	VERB	VERB	_	14	ccomp	_	_
-19	o	o	DET	DET	PronType=Art	20	det	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	destino	destino	NOUN	NOUN	_	18	obj	_	_
 21-22	das	_	_	_	_	_	_	_	_
 21	de	de	ADP	ADP	_	23	case	_	_

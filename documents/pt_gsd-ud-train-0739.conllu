@@ -4,7 +4,7 @@
 2	Gomez	_	PROPN	PNOUN	_	1	flat	_	_
 3	ousou	ousar	VERB	VERB	_	0	root	_	_
 4	com	com	ADP	ADP	_	6	case	_	_
-5	o	o	DET	DET	PronType=Art	6	det	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	vestido	vestido	NOUN	NOUN	_	3	nmod	_	_
 7	de	de	ADP	ADP	_	8	case	_	_
 8	tecido	tecido	NOUN	NOUN	_	6	nmod	_	_
@@ -21,7 +21,7 @@
 
 # sent_id = train-s7337
 # text = A última sessão do Legislativo Municipal antes do segundo turno da eleição majoritária, que acontece no próximo domingo (28), foi esvaziada pelos vereadores.
-1	A	o	DET	DET	PronType=Art	3	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	última	último	ADJ	ADJ	_	3	amod	_	_
 3	sessão	sessão	NOUN	NOUN	_	29	nsubj:pass	_	_
 4-5	do	_	_	_	_	_	_	_	_
@@ -62,7 +62,7 @@
 
 # sent_id = train-s7338
 # text = O artista morreu num hospital em Paris, na França, aos 91 anos, e sua morte foi anunciada pela família.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	artista	artista	NOUN	NOUN	_	3	nsubj	_	_
 3	morreu	morrer	VERB	VERB	_	0	root	_	_
 4-5	num	_	_	_	_	_	_	_	_
@@ -108,7 +108,7 @@
 
 # sent_id = train-s7340
 # text = A AEB indicou que todos seus membros assumiram na quinta - feira passada este compromisso por razões humanitárias e dentro de sua política de responsabilidade social de paralisar as expulsões durnte os dois próximos anos nos casos de extrema necessidade.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	AEB	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	indicou	indicar	VERB	VERB	_	0	root	_	_
 4	que	que	CCONJ	CONJ	_	8	mark	_	_
@@ -138,10 +138,10 @@
 27	social	social	ADJ	ADJ	_	26	amod	_	_
 28	de	_	ADP	ADP	_	29	mark	_	_
 29	paralisar	paralisar	VERB	VERB	_	24	nmod	_	_
-30	as	o	DET	DET	PronType=Art	31	det	_	_
+30	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
 31	expulsões	expulsão	NOUN	NOUN	_	29	obj	_	_
 32	durnte	_	ADP	ADP	_	36	case	_	_
-33	os	o	DET	DET	PronType=Art	36	det	_	_
+33	os	o	DET	DET	_	36	det	_	_
 34	dois	_	NUM	NUM	NumType=Card	36	nummod	_	_
 35	próximos	próximo	ADJ	ADJ	_	36	amod	_	_
 36	anos	ano	NOUN	NOUN	_	29	nmod	_	_
@@ -161,7 +161,7 @@
 3	faremos	_	VERB	VERB	_	0	root	_	_
 4	com	_	ADP	ADP	_	15	mark	_	_
 5	que	que	CCONJ	CONJ	_	15	mark	_	_
-6	as	o	DET	DET	PronType=Art	7	det	_	_
+6	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
 7	filas	fila	NOUN	NOUN	_	15	nsubj	_	_
 8	de	de	ADP	ADP	_	9	case	_	_
 9	espera	espera	NOUN	NOUN	_	7	nmod	_	_
@@ -183,7 +183,7 @@
 5	,	,	PUNCT	.	_	6	punct	_	_
 6	moram	morar	VERB	VERB	_	1	conj	_	_
 7	com	com	ADP	ADP	_	9	case	_	_
-8	os	o	DET	DET	PronType=Art	9	det	_	_
+8	os	o	DET	DET	_	9	det	_	_
 9	pais	_	NOUN	NOUN	_	6	nmod	_	_
 10	(	(	PUNCT	.	_	11	punct	_	SpaceAfter=No
 11	ou	ou	CCONJ	CONJ	_	12	cc	_	_
@@ -250,7 +250,7 @@
 # text = "Se a licença não sair nalguns dias, eu terei de paralisar as máquinas."
 1	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
 2	Se	_	CCONJ	CONJ	_	6	mark	_	_
-3	a	o	DET	DET	PronType=Art	4	det	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	licença	licença	NOUN	NOUN	_	6	nsubj	_	_
 5	não	não	ADV	ADV	Polarity=Neg	6	advmod	_	_
 6	sair	sair	VERB	VERB	_	14	advcl	_	_
@@ -263,7 +263,7 @@
 12	terei	ter	AUX	AUX	_	14	aux	_	_
 13	de	_	ADP	ADP	_	14	mark	_	_
 14	paralisar	paralisar	VERB	VERB	_	0	root	_	_
-15	as	o	DET	DET	PronType=Art	16	det	_	_
+15	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
 16	máquinas	máquina	NOUN	NOUN	_	14	obj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	14	punct	_	SpaceAfter=No
 18	"	"	PUNCT	.	_	14	punct	_	_

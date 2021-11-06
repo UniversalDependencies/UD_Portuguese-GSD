@@ -17,7 +17,7 @@
 
 # sent_id = train-s2444
 # text = Os resultados são enviados aos órgãos ambientais competentes, na forma determinada pelo Instituto Estadual de Ambiente (INEA) ", diz em nota.
-1	Os	o	DET	DET	PronType=Art	2	det	_	_
+1	Os	o	DET	DET	_	2	det	_	_
 2	resultados	resultado	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	são	ser	AUX	AUX	_	4	aux:pass	_	_
 4	enviados	enviar	VERB	VERB	_	26	ccomp	_	_
@@ -52,7 +52,7 @@
 
 # sent_id = train-s2445
 # text = As pesquisas mostram que não.
-1	As	o	DET	DET	PronType=Art	2	det	_	_
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	pesquisas	pesquisa	NOUN	NOUN	_	3	nsubj	_	_
 3	mostram	mostrar	VERB	VERB	_	0	root	_	_
 4	que	_	CCONJ	CONJ	_	3	dep	_	_
@@ -65,10 +65,10 @@
 2	para	para	ADP	ADP	_	4	case	_	_
 3	a	o	DET	DET	_	4	det	_	_
 4	qual	_	PRON	PRON	_	7	nmod	_	_
-5	os	o	DET	DET	PronType=Art	6	det	_	_
+5	os	o	DET	DET	_	6	det	_	_
 6	moradores	morador	NOUN	NOUN	_	7	nsubj	_	_
 7	torcem	torcer	VERB	VERB	_	1	acl:relcl	_	_
-8	o	o	DET	DET	PronType=Art	9	det	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	nariz	nariz	NOUN	NOUN	_	7	obj	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	1	punct	_	_
 
@@ -77,12 +77,12 @@
 1	Não	não	ADV	ADV	Polarity=Neg	2	advmod	_	_
 2	foi	_	VERB	VERB	_	0	root	_	_
 3	merecido	merecido	ADJ	ADJ	_	2	xcomp	_	_
-4	o	o	DET	DET	PronType=Art	5	det	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Palmeiras	_	PROPN	PNOUN	_	7	nsubj	_	_
 6	ter	ter	AUX	AUX	_	7	aux	_	_
 7	ido	ir	VERB	VERB	_	2	csubj	_	_
 8	para	para	ADP	ADP	_	10	case	_	_
-9	a	o	DET	DET	PronType=Art	10	det	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Série	_	PROPN	PNOUN	_	7	nmod	_	_
 11	B.	_	PROPN	PNOUN	_	10	flat	_	_
 
@@ -98,7 +98,7 @@
 1	Horas	hora	NOUN	NOUN	_	10	nmod	_	_
 2	depois	depois	ADV	ADV	_	1	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	1	punct	_	_
-4	o	o	DET	DET	PronType=Art	5	det	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	corpo	corpo	NOUN	NOUN	_	10	nsubj:pass	_	_
 6-7	do	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	8	case	_	_
@@ -128,7 +128,7 @@
 
 # sent_id = train-s2449
 # text = A confirmação, feita nesta sexta - feira pelo grupo francês Dassault, da incorporação dos avançados radares RBE2 AESA à proposta de fornecimento de 36 novos jatos de uso múltiplo Rafale para a Força Aérea Brasileira (FAB) causou reações entre os finalistas na escolha -- a americana Boeing, com o F - 18 Super Hornet, e a sueca Saab, com o Gripen NG.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	confirmação	confirmação	NOUN	NOUN	_	45	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	4	punct	_	_
 4	feita	_	VERB	VERB	_	2	acl	_	_
@@ -169,7 +169,7 @@
 35	múltiplo	múltiplo	ADJ	ADJ	_	34	amod	_	_
 36	Rafale	_	PROPN	PNOUN	_	32	appos	_	_
 37	para	para	ADP	ADP	_	39	case	_	_
-38	a	o	DET	DET	PronType=Art	39	det	_	_
+38	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
 39	Força	_	PROPN	PNOUN	_	28	nmod	_	_
 40	Aérea	_	PROPN	PNOUN	_	39	amod	_	_
 41	Brasileira	_	PROPN	PNOUN	_	39	amod	_	_
@@ -179,19 +179,19 @@
 45	causou	causar	VERB	VERB	_	0	root	_	_
 46	reações	reação	NOUN	NOUN	_	45	obj	_	_
 47	entre	_	ADP	ADP	_	49	case	_	_
-48	os	o	DET	DET	PronType=Art	49	det	_	_
+48	os	o	DET	DET	_	49	det	_	_
 49	finalistas	finalista	NOUN	NOUN	_	45	nmod	_	_
 50-51	na	_	_	_	_	_	_	_	_
 50	em	em	ADP	ADP	_	52	case	_	_
 51	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
 52	escolha	escolha	NOUN	NOUN	_	49	nmod	_	_
 53	--	_	PUNCT	.	_	56	punct	_	_
-54	a	o	DET	DET	PronType=Art	56	det	_	_
+54	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
 55	americana	americano	ADJ	ADJ	_	56	amod	_	_
 56	Boeing	_	PROPN	PNOUN	_	49	appos	_	SpaceAfter=No
 57	,	,	PUNCT	.	_	60	punct	_	_
 58	com	com	ADP	ADP	_	60	case	_	_
-59	o	o	DET	DET	PronType=Art	60	det	_	_
+59	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	60	det	_	_
 60	F	_	PROPN	PNOUN	_	56	nmod	_	_
 61	-	-	PUNCT	.	_	60	punct	_	_
 62	18	_	NUM	NUM	NumType=Card	60	appos	_	_
@@ -199,12 +199,12 @@
 64	Hornet	_	PROPN	PNOUN	_	60	appos	_	SpaceAfter=No
 65	,	,	PUNCT	.	_	69	punct	_	_
 66	e	e	CCONJ	CONJ	_	69	cc	_	_
-67	a	o	DET	DET	PronType=Art	69	det	_	_
+67	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	69	det	_	_
 68	sueca	sueco	ADJ	ADJ	_	69	amod	_	_
 69	Saab	_	PROPN	PNOUN	_	56	conj	_	SpaceAfter=No
 70	,	,	PUNCT	.	_	73	punct	_	_
 71	com	com	ADP	ADP	_	73	case	_	_
-72	o	o	DET	DET	PronType=Art	73	det	_	_
+72	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	73	det	_	_
 73	Gripen	_	PROPN	PNOUN	_	69	nmod	_	_
 74	NG	_	PROPN	PNOUN	_	73	flat	_	SpaceAfter=No
 75	.	.	PUNCT	.	_	45	punct	_	_
@@ -213,7 +213,7 @@
 # text = Atualmente, os lingüistas têm inventado sistemas de escrita para línguas orais, a meta geralmente tem sido produzir alfabetos perfeitamente fonológicos.
 1	Atualmente	atualmente	ADV	ADV	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	.	_	1	punct	_	_
-3	os	o	DET	DET	PronType=Art	4	det	_	_
+3	os	o	DET	DET	_	4	det	_	_
 4	lingüistas	lingüista	NOUN	NOUN	_	6	nsubj	_	_
 5	têm	ter	AUX	AUX	_	6	aux	_	_
 6	inventado	inventar	VERB	VERB	_	0	root	_	_
@@ -224,7 +224,7 @@
 11	línguas	língua	NOUN	NOUN	_	6	nmod	_	_
 12	orais	oral	ADJ	ADJ	_	11	amod	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	15	punct	_	_
-14	a	o	DET	DET	PronType=Art	15	det	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	meta	meta	NOUN	NOUN	_	6	conj	_	_
 16	geralmente	geralmente	ADV	ADV	_	15	advmod	_	_
 17	tem	ter	AUX	AUX	_	15	aux	_	_
@@ -237,7 +237,7 @@
 
 # sent_id = train-s2451
 # text = A coluna Zapping, do jornal Agora São Paulo, informa nesta terça - feira que a TV Globo liberou Tiago Abravanel, neto de Silvio Santos que atua em Salve Jorge, para participar do Teleton 2012.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	coluna	coluna	NOUN	NOUN	_	12	nsubj	_	_
 3	Zapping	_	PROPN	PNOUN	_	2	appos	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	7	punct	_	_
@@ -255,7 +255,7 @@
 15	-	-	PUNCT	.	_	16	punct	_	_
 16	feira	_	PROPN	PNOUN	_	12	nmod	_	_
 17	que	que	CCONJ	CONJ	_	21	mark	_	_
-18	a	o	DET	DET	PronType=Art	19	det	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	TV	_	PROPN	PNOUN	_	21	nsubj	_	_
 20	Globo	_	PROPN	PNOUN	_	19	flat	_	_
 21	liberou	liberar	VERB	VERB	_	12	ccomp	_	_

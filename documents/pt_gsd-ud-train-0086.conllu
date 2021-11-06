@@ -1,6 +1,6 @@
 # sent_id = train-s850
 # text = O futebol não profissionalizado, sendo disputado apenas na categoria amador.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	futebol	futebol	NOUN	NOUN	_	0	root	_	_
 3	não	não	ADV	ADV	Polarity=Neg	4	advmod	_	_
 4	profissionalizado	profissionalizado	ADJ	ADJ	_	2	amod	_	SpaceAfter=No
@@ -38,7 +38,7 @@
 3	tudo	_	PRON	PRON	_	2	obj	_	_
 4	de	de	ADP	ADP	_	7	case	_	_
 5	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
-6	O	o	DET	DET	PronType=Art	7	det	_	_
+6	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Jardineiro	_	PROPN	PNOUN	_	3	nmod	_	_
 8	Fiel	_	PROPN	PNOUN	_	7	amod	_	SpaceAfter=No
 9	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
@@ -60,14 +60,14 @@
 
 # sent_id = train-s853
 # text = O montante de pessoas ocupadas também foi o maior já registrado: 23,5 milhões.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	montante	montante	NOUN	NOUN	_	9	nsubj	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	pessoas	pessoa	NOUN	NOUN	_	2	nmod	_	_
 5	ocupadas	ocupado	ADJ	ADJ	_	4	amod	_	_
 6	também	também	ADV	ADV	_	9	advmod	_	_
 7	foi	_	AUX	AUX	_	9	cop	_	_
-8	o	o	DET	DET	PronType=Art	9	det	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	maior	maior	NOUN	NOUN	_	0	root	_	_
 10	já	já	ADV	ADV	_	11	advmod	_	_
 11	registrado	registrar	VERB	VERB	_	9	acl	_	SpaceAfter=No
@@ -78,7 +78,7 @@
 
 # sent_id = train-s854
 # text = A banda filarmónica desfilou pela primeira vez no dia 16 de Abril de 2012.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	banda	banda	NOUN	NOUN	_	4	nsubj	_	_
 3	filarmónica	filarmónico	ADJ	ADJ	_	2	amod	_	_
 4	desfilou	desfilar	VERB	VERB	_	0	root	_	_
@@ -111,7 +111,7 @@
 8	exemplo	exemplo	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	8	punct	_	_
 10	entre	_	ADP	ADP	_	13	case	_	_
-11	os	o	DET	DET	PronType=Art	13	det	_	_
+11	os	o	DET	DET	_	13	det	_	_
 12	cinco	_	NUM	NUM	NumType=Card	13	nummod	_	_
 13	povos	_	NOUN	NOUN	_	20	nmod	_	_
 14	indígenas	indígena	ADJ	ADJ	_	13	amod	_	_
@@ -124,7 +124,7 @@
 21	área	área	NOUN	NOUN	_	20	obj	_	_
 22	registrada	_	ADJ	ADJ	_	21	amod	_	_
 23	e	e	CCONJ	CONJ	_	25	cc	_	_
-24	os	o	DET	DET	PronType=Art	25	det	_	_
+24	os	o	DET	DET	_	25	det	_	_
 25	demais	_	NOUN	NOUN	_	20	conj	_	_
 26	com	com	ADP	ADP	_	27	case	_	_
 27	reivindicações	reivindicação	NOUN	NOUN	_	25	nmod	_	_
@@ -186,7 +186,7 @@
 # sent_id = train-s858
 # text = Segundo os Correios, não há terceirização nesse setor e só há contratação de trabalhadores temporários em períodos específicos, quando há mais demanda pelo serviço, como no Dia das Mães e no Natal.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	os	o	DET	DET	PronType=Art	3	det	_	_
+2	os	o	DET	DET	_	3	det	_	_
 3	Correios	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
 5	não	não	ADV	ADV	Polarity=Neg	6	advmod	_	_
@@ -233,14 +233,14 @@
 # sent_id = train-s859
 # text = Sobre o Código Florestal, Barroso disse que o partido é contrário à proposta atual, não só no que diz respeito à MP do executivo sobre o tema como também com relação ao texto que saiu do Congresso.
 1	Sobre	_	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	PronType=Art	3	det	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Código	_	PROPN	PNOUN	_	7	nmod	_	_
 4	Florestal	_	PROPN	PNOUN	_	3	amod	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	3	punct	_	_
 6	Barroso	_	PROPN	PNOUN	_	7	nsubj	_	_
 7	disse	dizer	VERB	VERB	_	0	root	_	_
 8	que	que	CCONJ	CONJ	_	11	mark	_	_
-9	o	o	DET	DET	PronType=Art	10	det	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	partido	partido	NOUN	NOUN	_	11	nsubj	_	_
 11	é	ser	VERB	VERB	_	7	ccomp	_	_
 12	contrário	contrário	ADJ	ADJ	_	11	xcomp	_	_
@@ -265,7 +265,7 @@
 28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	executivo	executivo	NOUN	NOUN	_	26	nmod	_	_
 30	sobre	_	ADP	ADP	_	32	case	_	_
-31	o	o	DET	DET	PronType=Art	32	det	_	_
+31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	tema	tema	NOUN	NOUN	_	26	nmod	_	_
 33	como	_	CCONJ	CONJ	_	36	cc	_	_
 34	também	também	ADV	ADV	_	36	advmod	_	_

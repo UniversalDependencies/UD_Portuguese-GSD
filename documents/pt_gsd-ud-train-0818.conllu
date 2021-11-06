@@ -20,7 +20,7 @@
 
 # sent_id = train-s8121
 # text = Os diretores Peter Farrelly (Antes Só do Que Mal Casado), Mike Judge (Como Enlouquecer Seu Chefe), Todd Phillips (Starsky &amp; Hutch -- Justiça em Dobro), Brett Ratner (trilogia A Hora do Rush) e a dupla Josh Gordon e Will Speck (Escorregando Para a Glória) irão se juntar para um projeto de comédia ainda sem título e, segundo a Empire Online, estes são apenas os primeiros nomes a serem anunciados.
-1	Os	o	DET	DET	PronType=Art	2	det	_	_
+1	Os	o	DET	DET	_	2	det	_	_
 2	diretores	diretor	NOUN	NOUN	_	62	nsubj	_	_
 3	Peter	_	PROPN	PNOUN	_	2	appos	_	_
 4	Farrelly	_	PROPN	PNOUN	_	3	flat	_	_
@@ -78,7 +78,7 @@
 54	(	(	PUNCT	.	_	55	punct	_	SpaceAfter=No
 55	Escorregando	_	PROPN	PNOUN	_	48	appos	_	_
 56	Para	_	ADP	ADP	_	58	case	_	_
-57	a	o	DET	DET	PronType=Art	58	det	_	_
+57	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	58	det	_	_
 58	Glória	_	PROPN	PNOUN	_	55	nmod	_	SpaceAfter=No
 59	)	)	PUNCT	.	_	55	punct	_	_
 60	irão	ir	AUX	AUX	_	62	aux	_	_
@@ -95,14 +95,14 @@
 71	e	e	CCONJ	CONJ	_	83	cc	_	SpaceAfter=No
 72	,	,	PUNCT	.	_	75	punct	_	_
 73	segundo	_	ADP	ADP	_	75	case	_	_
-74	a	o	DET	DET	PronType=Art	75	det	_	_
+74	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	75	det	_	_
 75	Empire	_	PROPN	PNOUN	_	83	nmod	_	_
 76	Online	_	PROPN	PNOUN	_	75	flat	_	SpaceAfter=No
 77	,	,	PUNCT	.	_	75	punct	_	_
 78	estes	_	PRON	PRON	_	83	nsubj	_	_
 79	são	ser	AUX	AUX	_	83	cop	_	_
 80	apenas	apenas	ADV	ADV	_	83	advmod	_	_
-81	os	o	DET	DET	PronType=Art	83	det	_	_
+81	os	o	DET	DET	_	83	det	_	_
 82	primeiros	primeiro	ADJ	ADJ	_	83	amod	_	_
 83	nomes	nome	NOUN	NOUN	_	62	conj	_	_
 84	a	_	ADP	ADP	_	86	mark	_	_
@@ -115,18 +115,18 @@
 1	Já	já	ADV	ADV	_	2	advmod	_	_
 2	tomei	tomar	VERB	VERB	_	0	root	_	_
 3	todas	_	DET	DET	_	5	det	_	_
-4	as	o	DET	DET	PronType=Art	5	det	_	_
+4	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 5	providências	providência	NOUN	NOUN	_	2	obj	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	8	punct	_	_
 7	com	com	ADP	ADP	_	8	case	_	_
 8	advogado	advogado	NOUN	NOUN	_	2	nmod	_	_
 9	e	e	CCONJ	CONJ	_	12	cc	_	_
 10	contra	_	ADP	ADP	_	12	case	_	_
-11	os	o	DET	DET	PronType=Art	12	det	_	_
+11	os	o	DET	DET	_	12	det	_	_
 12	sites	site	NOUN	NOUN	_	8	conj	_	_
 13	que	_	PRON	PRON	_	14	nsubj	_	_
 14	vazaram	vazar	VERB	VERB	_	12	acl:relcl	_	_
-15	o	o	DET	DET	PronType=Art	16	det	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	vídeo	vídeo	NOUN	NOUN	_	14	obj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -181,7 +181,7 @@
 # text = Homer estranha o comportamento de Marge e quando ele vê, a "Marge não tem rosto".
 1	Homer	_	PROPN	PNOUN	_	2	nsubj	_	_
 2	estranha	estranhar	VERB	VERB	_	0	root	_	_
-3	o	o	DET	DET	PronType=Art	4	det	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	comportamento	comportamento	NOUN	NOUN	_	2	obj	_	_
 5	de	de	ADP	ADP	_	6	case	_	_
 6	Marge	_	PROPN	PNOUN	_	4	nmod	_	_
@@ -190,7 +190,7 @@
 9	ele	_	PRON	PRON	_	10	nsubj	_	_
 10	vê	ver	VERB	VERB	_	16	advcl	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	10	punct	_	_
-12	a	o	DET	DET	PronType=Art	14	det	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 13	"	"	PUNCT	.	_	16	punct	_	SpaceAfter=No
 14	Marge	_	PROPN	PNOUN	_	16	nsubj	_	_
 15	não	não	ADV	ADV	Polarity=Neg	16	advmod	_	_
@@ -201,12 +201,12 @@
 
 # sent_id = train-s8125
 # text = A Adidas está envolvida com as Olimpíadas há mais de oito décadas, mas fazer os jogos em casa é algo realmente especial para nós ", afirmou Nick Craggs, diretor de marketing da marca no Reino Unido.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Adidas	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	está	estar	VERB	VERB	_	28	ccomp	_	_
 4	envolvida	envolvido	ADJ	ADJ	_	3	xcomp	_	_
 5	com	com	ADP	ADP	_	7	case	_	_
-6	as	o	DET	DET	PronType=Art	7	det	_	_
+6	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
 7	Olimpíadas	_	PROPN	PNOUN	_	4	nmod	_	_
 8	há	haver	VERB	VERB	_	3	advcl	_	_
 9	mais	mais	ADV	ADV	_	11	advmod	_	_
@@ -216,7 +216,7 @@
 13	,	,	PUNCT	.	_	21	punct	_	_
 14	mas	mas	CCONJ	CONJ	_	21	cc	_	_
 15	fazer	fazer	VERB	VERB	_	21	csubj	_	_
-16	os	o	DET	DET	PronType=Art	17	det	_	_
+16	os	o	DET	DET	_	17	det	_	_
 17	jogos	jogo	NOUN	NOUN	_	15	obj	_	_
 18	em	em	ADP	ADP	_	19	case	_	_
 19	casa	casa	NOUN	NOUN	_	15	nmod	_	_
@@ -251,7 +251,7 @@
 1	Alguns	_	PRON	PRON	_	2	nsubj	_	_
 2	disseram	dizer	VERB	VERB	_	0	root	_	_
 3	que	que	CCONJ	CONJ	_	7	mark	_	_
-4	o	o	DET	DET	PronType=Art	5	det	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Homem	homem	NOUN	NOUN	_	7	nsubj	_	_
 6	não	não	ADV	ADV	Polarity=Neg	7	advmod	_	_
 7	conseguiria	conseguir	VERB	VERB	_	2	ccomp	_	_
@@ -281,7 +281,7 @@
 13	abriram	abrir	VERB	VERB	_	0	root	_	_
 14	fogo	fogo	NOUN	NOUN	_	13	obj	_	_
 15	contra	_	ADP	ADP	_	17	case	_	_
-16	o	o	DET	DET	PronType=Art	17	det	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	torcedor	torcedor	NOUN	NOUN	_	13	nmod	_	_
 18-19	do	_	_	_	_	_	_	_	_
 18	de	de	ADP	ADP	_	20	case	_	_
@@ -304,10 +304,10 @@
 
 # sent_id = train-s8128
 # text = A vinda e a posterior saída conturbada de Adriano Imperador fez com que o clima no clube ficasse ainda mais taxado como desorganizado e ruim para se trabalhar.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	vinda	vinda	NOUN	NOUN	_	11	nsubj	_	_
 3	e	e	CCONJ	CONJ	_	6	cc	_	_
-4	a	o	DET	DET	PronType=Art	6	det	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 5	posterior	posterior	ADJ	ADJ	_	6	amod	_	_
 6	saída	saída	NOUN	NOUN	_	2	conj	_	_
 7	conturbada	conturbado	ADJ	ADJ	_	6	amod	_	_
@@ -317,7 +317,7 @@
 11	fez	fazer	VERB	VERB	_	0	root	_	_
 12	com	_	ADP	ADP	_	19	mark	_	_
 13	que	que	CCONJ	CONJ	_	19	mark	_	_
-14	o	o	DET	DET	PronType=Art	15	det	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	clima	clima	NOUN	NOUN	_	19	nsubj	_	_
 16-17	no	_	_	_	_	_	_	_	_
 16	em	em	ADP	ADP	_	18	case	_	_
@@ -338,7 +338,7 @@
 
 # sent_id = train-s8129
 # text = O montante dos empréstimos renegociados já chega a 28,8 bilhões de reais.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	montante	montante	NOUN	NOUN	_	8	nsubj	_	_
 3-4	dos	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_

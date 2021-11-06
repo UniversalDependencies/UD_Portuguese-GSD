@@ -43,7 +43,7 @@
 
 # sent_id = train-s8499
 # text = A pivô Duda não resistiu às lágrimas e lamentou a atuação do time no segundo tempo, mas deixou a quadra satisfeita com o conjunto da obra.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	pivô	pivô	NOUN	NOUN	_	5	nsubj	_	_
 3	Duda	_	PROPN	PNOUN	_	2	appos	_	_
 4	não	não	ADV	ADV	Polarity=Neg	5	advmod	_	_
@@ -54,7 +54,7 @@
 8	lágrimas	lágrima	NOUN	NOUN	_	5	iobj	_	_
 9	e	e	CCONJ	CONJ	_	10	cc	_	_
 10	lamentou	lamentar	VERB	VERB	_	5	conj	_	_
-11	a	o	DET	DET	PronType=Art	12	det	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	atuação	atuação	NOUN	NOUN	_	10	obj	_	_
 13-14	do	_	_	_	_	_	_	_	_
 13	de	de	ADP	ADP	_	15	case	_	_
@@ -68,11 +68,11 @@
 20	,	,	PUNCT	.	_	22	punct	_	_
 21	mas	mas	CCONJ	CONJ	_	22	cc	_	_
 22	deixou	deixar	VERB	VERB	_	5	conj	_	_
-23	a	o	DET	DET	PronType=Art	24	det	_	_
+23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	quadra	quadra	NOUN	NOUN	_	22	obj	_	_
 25	satisfeita	satisfeito	ADJ	ADJ	_	22	xcomp	_	_
 26	com	com	ADP	ADP	_	28	case	_	_
-27	o	o	DET	DET	PronType=Art	28	det	_	_
+27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	conjunto	conjunto	NOUN	NOUN	_	25	nmod	_	_
 29-30	da	_	_	_	_	_	_	_	_
 29	de	de	ADP	ADP	_	31	case	_	_
@@ -94,7 +94,7 @@
 # sent_id = train-s8501
 # text = Segundo o técnico, Roberto Fernandes, o zagueiro, Zé Antônio, tem vem mais entrosado com o grupo e isso tem pesado para que ele faça a opção pela prata da casa.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	PronType=Art	3	det	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	técnico	técnico	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	5	punct	_	_
 5	Roberto	_	PROPN	PNOUN	_	3	appos	_	_
@@ -111,7 +111,7 @@
 16	mais	mais	ADV	ADV	_	17	advmod	_	_
 17	entrosado	_	ADJ	ADJ	_	15	xcomp	_	_
 18	com	com	ADP	ADP	_	20	case	_	_
-19	o	o	DET	DET	PronType=Art	20	det	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	grupo	grupo	NOUN	NOUN	_	17	nmod	_	_
 21	e	e	CCONJ	CONJ	_	24	cc	_	_
 22	isso	_	PRON	PRON	_	24	nsubj	_	_
@@ -121,7 +121,7 @@
 26	que	_	CCONJ	CONJ	_	25	fixed	_	_
 27	ele	_	PRON	PRON	_	28	nsubj	_	_
 28	faça	fazer	VERB	VERB	_	24	advcl	_	_
-29	a	o	DET	DET	PronType=Art	30	det	_	_
+29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	opção	opção	NOUN	NOUN	_	28	obj	_	_
 31-32	pela	_	_	_	_	_	_	_	_
 31	por	por	ADP	ADP	_	33	case	_	_
@@ -149,12 +149,12 @@
 11	10	_	NUM	NUM	NumType=Card	9	nmod	_	SpaceAfter=No
 12	)	)	PUNCT	.	_	9	punct	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	3	punct	_	_
-14	o	o	DET	DET	PronType=Art	16	det	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 15	Pronto	_	PROPN	PNOUN	_	16	amod	_	_
 16	Socorro	_	PROPN	PNOUN	_	18	nsubj	_	_
 17	Municipal	_	PROPN	PNOUN	_	16	amod	_	_
 18	recebeu	receber	VERB	VERB	_	0	root	_	_
-19	os	o	DET	DET	PronType=Art	20	det	_	_
+19	os	o	DET	DET	_	20	det	_	_
 20	presentes	_	NOUN	NOUN	_	18	obj	_	_
 21	arrecadados	arrecadar	VERB	VERB	_	20	acl	_	_
 22-23	pela	_	_	_	_	_	_	_	_
@@ -169,7 +169,7 @@
 30	em	em	ADP	ADP	_	31	case	_	_
 31	parceria	parceria	NOUN	NOUN	_	21	nmod	_	_
 32	com	com	ADP	ADP	_	34	case	_	_
-33	os	o	DET	DET	PronType=Art	34	det	_	_
+33	os	o	DET	DET	_	34	det	_	_
 34	Anjos	_	PROPN	PNOUN	_	31	nmod	_	_
 35-36	da	_	_	_	_	_	_	_	_
 35	de	de	ADP	ADP	_	37	case	_	_
@@ -179,7 +179,7 @@
 
 # sent_id = train-s8503
 # text = O casamento foi anulado pela Justiça, em agosto de 1794, por causa do Ato de Casamentos Reais de 1772.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	casamento	casamento	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foi	_	AUX	AUX	_	4	aux:pass	_	_
 4	anulado	anular	VERB	VERB	_	0	root	_	_
@@ -208,14 +208,14 @@
 
 # sent_id = train-s8504
 # text = A mensagem é assinada em conjunto com o Fundo das Nações Unidas para a Infância (Unicef) e a Organização Internacional do Trabalho (OIT).
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	mensagem	mensagem	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	é	ser	AUX	AUX	_	4	aux:pass	_	_
 4	assinada	assinar	VERB	VERB	_	0	root	_	_
 5	em	em	ADP	ADP	_	6	case	_	_
 6	conjunto	conjunto	NOUN	NOUN	_	4	nmod	_	_
 7	com	com	ADP	ADP	_	9	case	_	_
-8	o	o	DET	DET	PronType=Art	9	det	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Fundo	_	PROPN	PNOUN	_	6	nmod	_	_
 10-11	das	_	_	_	_	_	_	_	_
 10	de	de	ADP	ADP	_	12	case	_	_
@@ -223,13 +223,13 @@
 12	Nações	_	PROPN	PNOUN	_	9	nmod	_	_
 13	Unidas	_	PROPN	PNOUN	_	12	amod	_	_
 14	para	para	ADP	ADP	_	16	case	_	_
-15	a	o	DET	DET	PronType=Art	16	det	_	_
+15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	Infância	_	PROPN	PNOUN	_	9	nmod	_	_
 17	(	(	PUNCT	.	_	18	punct	_	SpaceAfter=No
 18	Unicef	_	PROPN	PNOUN	_	9	appos	_	SpaceAfter=No
 19	)	)	PUNCT	.	_	18	punct	_	_
 20	e	e	CCONJ	CONJ	_	22	cc	_	_
-21	a	o	DET	DET	PronType=Art	22	det	_	_
+21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	Organização	_	PROPN	PNOUN	_	9	conj	_	_
 23	Internacional	_	PROPN	PNOUN	_	22	amod	_	_
 24-25	do	_	_	_	_	_	_	_	_
@@ -243,7 +243,7 @@
 
 # sent_id = train-s8505
 # text = O "Tributo a Batatinha" promete reunir a família, os amigos e parceiros do compositor cantando suas canções e aplaudindo o filme "Batatinha, Poeta do Samba", dirigido por Marcelo Rabelo.
-1	O	o	DET	DET	PronType=Art	3	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
 3	Tributo	_	PROPN	PNOUN	_	7	nsubj	_	_
 4	a	_	ADP	ADP	_	5	case	_	_
@@ -251,10 +251,10 @@
 6	"	"	PUNCT	.	_	3	punct	_	_
 7	promete	prometer	VERB	VERB	_	0	root	_	_
 8	reunir	reunir	VERB	VERB	_	7	xcomp	_	_
-9	a	o	DET	DET	PronType=Art	10	det	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	família	família	NOUN	NOUN	_	8	obj	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	13	punct	_	_
-12	os	o	DET	DET	PronType=Art	13	det	_	_
+12	os	o	DET	DET	_	13	det	_	_
 13	amigos	amigo	NOUN	NOUN	_	10	conj	_	_
 14	e	e	CCONJ	CONJ	_	15	cc	_	_
 15	parceiros	parceiro	NOUN	NOUN	_	10	conj	_	_
@@ -267,7 +267,7 @@
 21	canções	canção	NOUN	NOUN	_	19	obj	_	_
 22	e	e	CCONJ	CONJ	_	23	cc	_	_
 23	aplaudindo	aplaudir	VERB	VERB	_	19	conj	_	_
-24	o	o	DET	DET	PronType=Art	25	det	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	filme	filme	NOUN	NOUN	_	23	obj	_	_
 26	"	"	PUNCT	.	_	27	punct	_	SpaceAfter=No
 27	Batatinha	_	PROPN	PNOUN	_	25	appos	_	SpaceAfter=No
@@ -288,10 +288,10 @@
 # sent_id = train-s8506
 # text = "As pessoas procuram os planos empresariais atraídas pelo preço mais baixo.
 1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
-2	As	o	DET	DET	PronType=Art	3	det	_	_
+2	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	pessoas	pessoa	NOUN	NOUN	_	4	nsubj	_	_
 4	procuram	procurar	VERB	VERB	_	0	root	_	_
-5	os	o	DET	DET	PronType=Art	6	det	_	_
+5	os	o	DET	DET	_	6	det	_	_
 6	planos	plano	NOUN	NOUN	_	4	obj	_	_
 7	empresariais	empresarial	ADJ	ADJ	_	6	amod	_	_
 8	atraídas	atraído	ADJ	ADJ	_	4	xcomp	_	_

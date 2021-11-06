@@ -6,10 +6,10 @@
 4	liberar	liberar	VERB	VERB	_	2	nmod	_	_
 5	capital	capital	NOUN	NOUN	_	4	obj	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	2	punct	_	_
-7	a	o	DET	DET	PronType=Art	8	det	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	transação	transação	NOUN	NOUN	_	9	nsubj	_	_
 9	preserva	preservar	VERB	VERB	_	39	ccomp	_	_
-10	a	o	DET	DET	PronType=Art	11	det	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	capacidade	capacidade	NOUN	NOUN	_	9	obj	_	_
 12-13	da	_	_	_	_	_	_	_	_
 12	de	de	ADP	ADP	_	14	case	_	_
@@ -24,7 +24,7 @@
 21	ferro	ferro	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	.	_	25	punct	_	_
 23	com	com	ADP	ADP	_	25	case	_	_
-24	os	o	DET	DET	PronType=Art	25	det	_	_
+24	os	o	DET	DET	_	25	det	_	_
 25	navios	navio	NOUN	NOUN	_	9	nmod	_	_
 26-27	à	_	_	_	_	_	_	_	_
 26	a	a	ADP	ADP	_	28	case	_	_
@@ -32,7 +32,7 @@
 28	disposição	disposição	NOUN	NOUN	_	25	nmod	_	_
 29	mas	mas	CCONJ	CONJ	_	30	cc	_	_
 30	eliminando	eliminar	VERB	VERB	_	9	conj	_	_
-31	os	o	DET	DET	PronType=Art	32	det	_	_
+31	os	o	DET	DET	_	32	det	_	_
 32	riscos	risco	NOUN	NOUN	_	30	obj	_	_
 33	de	de	ADP	ADP	_	34	case	_	_
 34	propriedade	propriedade	NOUN	NOUN	_	32	nmod	_	_
@@ -41,7 +41,7 @@
 37	"	"	PUNCT	.	_	9	punct	_	SpaceAfter=No
 38	,	,	PUNCT	.	_	39	punct	_	_
 39	afirmou	afirmar	VERB	VERB	_	0	root	_	_
-40	a	o	DET	DET	PronType=Art	41	det	_	_
+40	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
 41	companhia	companhia	NOUN	NOUN	_	39	nsubj	_	_
 42	em	em	ADP	ADP	_	43	case	_	_
 43	nota	nota	NOUN	NOUN	_	39	nmod	_	SpaceAfter=No
@@ -52,7 +52,7 @@
 1	Juninho	_	PROPN	PNOUN	_	3	nsubj	_	_
 2	Pernambucano	_	PROPN	PNOUN	_	1	flat	_	_
 3	reforçou	reforçar	VERB	VERB	_	0	root	_	_
-4	o	o	DET	DET	PronType=Art	5	det	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	discurso	discurso	NOUN	NOUN	_	3	obj	_	_
 6	de	de	ADP	ADP	_	7	case	_	_
 7	Bastos	_	PROPN	PNOUN	_	5	nmod	_	_
@@ -71,11 +71,11 @@
 1	Uma	_	DET	DET	_	3	mark	_	_
 2	vez	vez	NOUN	NOUN	_	1	fixed	_	_
 3	completada	completar	VERB	VERB	_	12	advcl	_	_
-4	a	o	DET	DET	PronType=Art	6	det	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 5	primeira	primeiro	ADJ	ADJ	_	6	amod	_	_
 6	aventura	aventura	NOUN	NOUN	_	3	nsubj	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	3	punct	_	_
-8	o	o	DET	DET	PronType=Art	9	det	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	modo	modo	NOUN	NOUN	_	12	nsubj:pass	_	_
 10	online	online	ADJ	ADJ	_	9	amod	_	_
 11	é	ser	AUX	AUX	_	12	aux:pass	_	_
@@ -112,7 +112,7 @@
 4	fala	_	VERB	VERB	_	0	root	_	_
 5	diretamente	diretamente	ADV	ADV	_	4	advmod	_	_
 6	com	com	ADP	ADP	_	9	case	_	_
-7	as	o	DET	DET	PronType=Art	9	det	_	_
+7	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
 8	belas	belo	ADJ	ADJ	_	9	amod	_	_
 9	vozes	voz	NOUN	NOUN	_	4	nmod	_	_
 10	desconhecidas	desconhecido	ADJ	ADJ	_	9	amod	_	_
@@ -142,14 +142,14 @@
 # text = Assim como a busca da unanimidade, o culto às tradições baianas, o horror aos conflitos ", analisou o professor da UFBA.
 1	Assim	assim	ADV	ADV	_	4	case	_	_
 2	como	_	ADP	ADP	_	1	fixed	_	_
-3	a	o	DET	DET	PronType=Art	4	det	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	busca	busca	NOUN	NOUN	_	23	dep	_	_
 5-6	da	_	_	_	_	_	_	_	_
 5	de	de	ADP	ADP	_	7	case	_	_
 6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	unanimidade	unanimidade	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	10	punct	_	_
-9	o	o	DET	DET	PronType=Art	10	det	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	culto	culto	NOUN	NOUN	_	4	conj	_	_
 11-12	às	_	_	_	_	_	_	_	_
 11	a	a	ADP	ADP	_	13	case	_	_
@@ -157,7 +157,7 @@
 13	tradições	tradição	NOUN	NOUN	_	10	nmod	_	_
 14	baianas	baiano	ADJ	ADJ	_	13	amod	_	SpaceAfter=No
 15	,	,	PUNCT	.	_	17	punct	_	_
-16	o	o	DET	DET	PronType=Art	17	det	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	horror	horror	NOUN	NOUN	_	4	conj	_	_
 18-19	aos	_	_	_	_	_	_	_	_
 18	a	a	ADP	ADP	_	20	case	_	_
@@ -166,7 +166,7 @@
 21	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
 22	,	,	PUNCT	.	_	23	punct	_	_
 23	analisou	analisar	VERB	VERB	_	0	root	_	_
-24	o	o	DET	DET	PronType=Art	25	det	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	professor	professor	NOUN	NOUN	_	23	nsubj	_	_
 26-27	da	_	_	_	_	_	_	_	_
 26	de	de	ADP	ADP	_	28	case	_	_
@@ -177,7 +177,7 @@
 # sent_id = test-s674
 # text = "O objetivo da audiência é regularizar a situação promovendo a identificação dos valores depositados, nomes de trabalhadores e municípios beneficiados," esclarece o procurador - chefe do MPT / RN.
 1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
-2	O	o	DET	DET	PronType=Art	3	det	_	_
+2	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	objetivo	objetivo	NOUN	NOUN	_	27	ccomp	_	_
 4-5	da	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
@@ -185,10 +185,10 @@
 6	audiência	audiência	NOUN	NOUN	_	3	nmod	_	_
 7	é	ser	AUX	AUX	_	3	cop	_	_
 8	regularizar	regularizar	VERB	VERB	_	3	csubj	_	_
-9	a	o	DET	DET	PronType=Art	10	det	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	situação	situação	NOUN	NOUN	_	8	obj	_	_
 11	promovendo	promover	VERB	VERB	_	8	acl	_	_
-12	a	o	DET	DET	PronType=Art	13	det	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	identificação	identificação	NOUN	NOUN	_	11	obj	_	_
 14-15	dos	_	_	_	_	_	_	_	_
 14	de	de	ADP	ADP	_	16	case	_	_
@@ -205,7 +205,7 @@
 25	,	,	PUNCT	.	_	27	punct	_	SpaceAfter=No
 26	"	"	PUNCT	.	_	3	punct	_	_
 27	esclarece	esclarecer	VERB	VERB	_	0	root	_	_
-28	o	o	DET	DET	PronType=Art	29	det	_	_
+28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	procurador	procurador	NOUN	NOUN	_	27	nsubj	_	_
 30	-	-	PUNCT	.	_	29	punct	_	_
 31	chefe	chefe	NOUN	NOUN	_	29	flat	_	_
@@ -239,10 +239,10 @@
 18	agora	agora	ADV	ADV	_	19	advmod	_	_
 19	vem	vir	VERB	VERB	_	7	parataxis	_	_
 20	com	com	ADP	ADP	_	22	case	_	_
-21	o	o	DET	DET	PronType=Art	22	det	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	rabinho	rabo	NOUN	NOUN	_	19	nmod	_	_
 23	entre	_	ADP	ADP	_	25	case	_	_
-24	as	o	DET	DET	PronType=Art	25	det	_	_
+24	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
 25	pernas	perna	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	7	punct	_	_
 

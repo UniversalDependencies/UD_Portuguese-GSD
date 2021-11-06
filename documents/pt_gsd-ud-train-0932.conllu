@@ -35,7 +35,7 @@
 30	,	,	PUNCT	.	_	32	punct	_	_
 31	por	_	ADP	ADP	_	32	mark	_	_
 32	mostrar	mostrar	VERB	VERB	_	11	advcl	_	_
-33	o	o	DET	DET	PronType=Art	34	det	_	_
+33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
 34	pavor	pavor	NOUN	NOUN	_	32	obj	_	_
 35-36	da	_	_	_	_	_	_	_	_
 35	de	de	ADP	ADP	_	37	case	_	_
@@ -45,7 +45,7 @@
 39	comum	comum	ADJ	ADJ	_	34	amod	_	_
 40	a	_	ADP	ADP	_	43	case	_	_
 41	todos	_	DET	DET	_	43	det	_	_
-42	os	o	DET	DET	PronType=Art	43	det	_	_
+42	os	o	DET	DET	_	43	det	_	_
 43	mortais	_	NOUN	NOUN	_	39	nmod	_	SpaceAfter=No
 44	.	.	PUNCT	.	_	11	punct	_	_
 
@@ -64,7 +64,7 @@
 # sent_id = train-s9249
 # text = Já o trigo sofreu elevação de 11,8 % em setembro por reflexo duma quebra de safra na Rússia.
 1	Já	já	ADV	ADV	_	4	advmod	_	_
-2	o	o	DET	DET	PronType=Art	3	det	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	trigo	trigo	NOUN	NOUN	_	4	nsubj	_	_
 4	sofreu	sofrer	VERB	VERB	_	0	root	_	_
 5	elevação	elevação	NOUN	NOUN	_	4	obj	_	_
@@ -102,7 +102,7 @@
 10	,	,	PUNCT	.	_	9	punct	_	_
 11	estão	estar	AUX	AUX	_	12	aux	_	_
 12	realizando	realizar	VERB	VERB	_	0	root	_	_
-13	a	o	DET	DET	PronType=Art	14	det	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	segurança	segurança	NOUN	NOUN	_	12	obj	_	_
 15-16	no	_	_	_	_	_	_	_	_
 15	em	em	ADP	ADP	_	17	case	_	_
@@ -114,7 +114,7 @@
 21	e	e	CCONJ	CONJ	_	22	cc	_	_
 22	dando	dar	VERB	VERB	_	19	conj	_	_
 23	todo	_	DET	DET	_	25	det	_	_
-24	o	o	DET	DET	PronType=Art	25	det	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	apoio	apoio	NOUN	NOUN	_	22	obj	_	_
 26	necessário	necessário	ADJ	ADJ	_	25	amod	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	12	punct	_	_
@@ -133,7 +133,7 @@
 # sent_id = train-s9252
 # text = Era o fim da ditadura militar com a abertura democrática, a campanha Diretas Já, a eleição indireta de Tancredo Neves e sua morte, a posse de José Sarney e o Plano Cruzado.
 1	Era	_	AUX	AUX	_	3	cop	_	_
-2	o	o	DET	DET	PronType=Art	3	det	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	fim	fim	NOUN	NOUN	_	0	root	_	_
 4-5	da	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
@@ -141,16 +141,16 @@
 6	ditadura	ditadura	NOUN	NOUN	_	3	nmod	_	_
 7	militar	militar	ADJ	ADJ	_	6	amod	_	_
 8	com	com	ADP	ADP	_	10	case	_	_
-9	a	o	DET	DET	PronType=Art	10	det	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	abertura	abertura	NOUN	NOUN	_	3	nmod	_	_
 11	democrática	democrático	ADJ	ADJ	_	10	amod	_	SpaceAfter=No
 12	,	,	PUNCT	.	_	14	punct	_	_
-13	a	o	DET	DET	PronType=Art	14	det	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	campanha	campanha	NOUN	NOUN	_	10	conj	_	_
 15	Diretas	_	PROPN	PNOUN	_	14	appos	_	_
 16	Já	_	PROPN	PNOUN	_	15	advmod	_	SpaceAfter=No
 17	,	,	PUNCT	.	_	19	punct	_	_
-18	a	o	DET	DET	PronType=Art	19	det	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	eleição	eleição	NOUN	NOUN	_	10	conj	_	_
 20	indireta	indireto	ADJ	ADJ	_	19	amod	_	_
 21	de	de	ADP	ADP	_	22	case	_	_
@@ -160,20 +160,20 @@
 25	sua	_	DET	DET	_	26	det:poss	_	_
 26	morte	morte	NOUN	NOUN	_	19	conj	_	SpaceAfter=No
 27	,	,	PUNCT	.	_	29	punct	_	_
-28	a	o	DET	DET	PronType=Art	29	det	_	_
+28	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	posse	posse	NOUN	NOUN	_	10	conj	_	_
 30	de	de	ADP	ADP	_	31	case	_	_
 31	José	_	PROPN	PNOUN	_	29	nmod	_	_
 32	Sarney	_	PROPN	PNOUN	_	31	flat	_	_
 33	e	e	CCONJ	CONJ	_	35	cc	_	_
-34	o	o	DET	DET	PronType=Art	35	det	_	_
+34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	Plano	_	PROPN	PNOUN	_	10	conj	_	_
 36	Cruzado	_	PROPN	PNOUN	_	35	amod	_	SpaceAfter=No
 37	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s9253
 # text = O Nuci (Nível de Utilização da Capacidade Instalada) da indústria cresceu de 83,7 % para 84,0 % na passagem de julho para o mês de agosto, na série com ajuste sazonal.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Nuci	_	PROPN	PNOUN	_	15	nsubj	_	_
 3	(	(	PUNCT	.	_	4	punct	_	SpaceAfter=No
 4	Nível	_	PROPN	PNOUN	_	2	appos	_	_
@@ -203,7 +203,7 @@
 25	de	de	ADP	ADP	_	26	case	_	_
 26	julho	_	PROPN	PNOUN	_	24	nmod	_	_
 27	para	para	ADP	ADP	_	29	case	_	_
-28	o	o	DET	DET	PronType=Art	29	det	_	_
+28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	mês	mês	NOUN	NOUN	_	24	nmod	_	_
 30	de	de	ADP	ADP	_	31	case	_	_
 31	agosto	_	PROPN	PNOUN	_	29	nmod	_	SpaceAfter=No
@@ -232,20 +232,20 @@
 9	sua	_	DET	DET	_	10	det:poss	_	_
 10	equipe	equipe	NOUN	NOUN	_	1	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	13	punct	_	_
-12	a	o	DET	DET	PronType=Art	13	det	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	RadioShack	_	PROPN	PNOUN	_	10	appos	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	13	punct	_	_
-15	o	o	DET	DET	PronType=Art	16	det	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	ciclista	ciclista	NOUN	NOUN	_	20	nsubj	_	_
 17	de	de	ADP	ADP	_	19	case	_	_
 18	32	_	NUM	NUM	NumType=Card	19	nummod	_	_
 19	anos	ano	NOUN	NOUN	_	16	nmod	_	_
 20	exige	exigir	VERB	VERB	_	0	root	_	_
-21	o	o	DET	DET	PronType=Art	22	det	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	direito	direito	NOUN	NOUN	_	20	obj	_	_
 23	de	_	ADP	ADP	_	24	mark	_	_
 24	realizar	realizar	VERB	VERB	_	22	nmod	_	_
-25	a	o	DET	DET	PronType=Art	27	det	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 26	chamada	chamado	ADJ	ADJ	_	27	amod	_	_
 27	contraprova	contraprova	NOUN	NOUN	_	24	obj	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	20	punct	_	_

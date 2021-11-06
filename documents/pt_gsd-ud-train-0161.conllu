@@ -1,6 +1,6 @@
 # sent_id = train-s1599
 # text = A Mercedez - Bens lançou três modelos no evento -- o novo SLS AMG Coupé Black Series, inspirado na versão de competição do SLS AMG GT3.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Mercedez	_	PROPN	PNOUN	_	5	nsubj	_	_
 3	-	-	PUNCT	.	_	2	punct	_	_
 4	Bens	_	PROPN	PNOUN	_	2	flat	_	_
@@ -12,7 +12,7 @@
 9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	evento	evento	NOUN	NOUN	_	5	nmod	_	_
 11	--	_	PUNCT	.	_	14	punct	_	_
-12	o	o	DET	DET	PronType=Art	14	det	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 13	novo	novo	ADJ	ADJ	_	14	amod	_	_
 14	SLS	_	PROPN	PNOUN	_	7	appos	_	_
 15	AMG	_	PROPN	PNOUN	_	14	flat	_	_
@@ -37,7 +37,7 @@
 
 # sent_id = train-s1600
 # text = A empresa oferece quatro modelos de franquias: quiosque, loja pequena, média e grande.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	empresa	empresa	NOUN	NOUN	_	3	nsubj	_	_
 3	oferece	oferecer	VERB	VERB	_	0	root	_	_
 4	quatro	_	NUM	NUM	NumType=Card	5	nummod	_	_
@@ -57,7 +57,7 @@
 
 # sent_id = train-s1601
 # text = O nome peculiar da aldeia tem origem na barbárie babilônica do povo, que os monges encontraram no local, por volta dos séculos VIII e IX, ao difundirem o Cristianismo.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	nome	nome	NOUN	NOUN	_	7	nsubj	_	_
 3	peculiar	peculiar	ADJ	ADJ	_	2	amod	_	_
 4-5	da	_	_	_	_	_	_	_	_
@@ -77,7 +77,7 @@
 15	povo	povo	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	.	_	20	punct	_	_
 17	que	_	PRON	PRON	_	20	obj	_	_
-18	os	o	DET	DET	PronType=Art	19	det	_	_
+18	os	o	DET	DET	_	19	det	_	_
 19	monges	monge	NOUN	NOUN	_	20	nsubj	_	_
 20	encontraram	encontrar	VERB	VERB	_	11	acl:relcl	_	_
 21-22	no	_	_	_	_	_	_	_	_
@@ -99,7 +99,7 @@
 34	a	a	ADP	ADP	_	36	case	_	_
 35	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 36	difundirem	difundir	VERB	VERB	_	20	advcl	_	_
-37	o	o	DET	DET	PronType=Art	38	det	_	_
+37	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 38	Cristianismo	_	PROPN	PNOUN	_	36	obj	_	SpaceAfter=No
 39	.	.	PUNCT	.	_	7	punct	_	_
 
@@ -108,7 +108,7 @@
 1	De	_	ADP	ADP	_	2	case	_	_
 2	acordo	acordo	NOUN	NOUN	_	10	nmod	_	_
 3	com	com	ADP	ADP	_	5	case	_	_
-4	o	o	DET	DET	PronType=Art	5	det	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	ministro	ministro	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	2	punct	_	_
 7	outras	_	DET	DET	_	9	det	_	_
@@ -117,10 +117,10 @@
 10	ficaram	ficar	VERB	VERB	_	0	root	_	_
 11	feridas	ferido	ADJ	ADJ	_	10	xcomp	_	_
 12	e	e	CCONJ	CONJ	_	15	cc	_	_
-13	os	o	DET	DET	PronType=Art	14	det	_	_
+13	os	o	DET	DET	_	14	det	_	_
 14	bombeiros	bombeiro	NOUN	NOUN	_	15	nsubj	_	_
 15	continuam	continuar	VERB	VERB	_	10	conj	_	_
-16	as	o	DET	DET	PronType=Art	17	det	_	_
+16	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
 17	buscas	busca	NOUN	NOUN	_	15	obj	_	_
 18-19	no	_	_	_	_	_	_	_	_
 18	em	em	ADP	ADP	_	20	case	_	_
@@ -149,7 +149,7 @@
 
 # sent_id = train-s1604
 # text = Os seus habitats naturais são: florestas subtropicais ou tropicais húmidas de baixa altitude, regiões subtropicais ou tropicais húmidas de alta altitude e rios.
-1	Os	o	DET	DET	PronType=Art	3	det	_	_
+1	Os	o	DET	DET	_	3	det	_	_
 2	seus	_	DET	DET	_	3	det:poss	_	_
 3	habitats	habitat	NOUN	NOUN	_	7	nsubj	_	_
 4	naturais	natural	ADJ	ADJ	_	3	amod	_	_
@@ -192,7 +192,7 @@
 9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	temporada	temporada	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	3	punct	_	_
-12	os	o	DET	DET	PronType=Art	14	det	_	_
+12	os	o	DET	DET	_	14	det	_	_
 13	dois	_	NUM	NUM	NumType=Card	14	nummod	_	_
 14	protótipos	protótipo	NOUN	NOUN	_	21	nsubj	_	_
 15-16	da	_	_	_	_	_	_	_	_
@@ -237,7 +237,7 @@
 1	Ela	_	PRON	PRON	_	2	nsubj	_	_
 2	está	estar	VERB	VERB	_	0	root	_	_
 3	com	com	ADP	ADP	_	5	case	_	_
-4	o	o	DET	DET	PronType=Art	5	det	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	peso	peso	NOUN	NOUN	_	2	nmod	_	_
 6-7	duma	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	8	case	_	_
@@ -248,7 +248,7 @@
 # sent_id = train-s1608
 # text = Mas o governo central também enfrenta dificuldades.
 1	Mas	_	CCONJ	CONJ	_	6	cc	_	_
-2	o	o	DET	DET	PronType=Art	3	det	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	governo	governo	NOUN	NOUN	_	6	nsubj	_	_
 4	central	central	ADJ	ADJ	_	3	amod	_	_
 5	também	também	ADV	ADV	_	6	advmod	_	_

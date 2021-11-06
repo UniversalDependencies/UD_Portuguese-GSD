@@ -1,13 +1,13 @@
 # sent_id = train-s2839
 # text = A presidente Dilma Rousseff elogiou neste sábado a cerimônia de abertura dos Jogos Olímpicos de Londres, mas disse que a que será realizada no Rio de Janeiro em 2016 será ainda "melhor".
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	presidente	presidente	NOUN	NOUN	_	5	nsubj	_	_
 3	Dilma	_	PROPN	PNOUN	_	2	appos	_	_
 4	Rousseff	_	PROPN	PNOUN	_	3	flat	_	_
 5	elogiou	elogiar	VERB	VERB	_	0	root	_	_
 6	neste	_	ADP	ADP	_	7	case	_	_
 7	sábado	_	PROPN	PNOUN	_	5	nmod	_	_
-8	a	o	DET	DET	PronType=Art	9	det	_	_
+8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	cerimônia	cerimônia	NOUN	NOUN	_	5	obj	_	_
 10	de	de	ADP	ADP	_	11	case	_	_
 11	abertura	abertura	NOUN	NOUN	_	9	nmod	_	_
@@ -46,7 +46,7 @@
 1	De	_	ADP	ADP	_	2	case	_	_
 2	acordo	acordo	NOUN	NOUN	_	18	nmod	_	_
 3	com	com	ADP	ADP	_	5	case	_	_
-4	o	o	DET	DET	PronType=Art	5	det	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	diretor	diretor	NOUN	NOUN	_	2	nmod	_	_
 6-7	do	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	8	case	_	_
@@ -60,7 +60,7 @@
 13	Guilherme	_	PROPN	PNOUN	_	5	appos	_	_
 14	Biserra	_	PROPN	PNOUN	_	13	flat	_	SpaceAfter=No
 15	,	,	PUNCT	.	_	13	punct	_	_
-16	os	o	DET	DET	PronType=Art	17	det	_	_
+16	os	o	DET	DET	_	17	det	_	_
 17	motoristas	motorista	NOUN	NOUN	_	18	nsubj	_	_
 18	estão	estar	VERB	VERB	_	0	root	_	_
 19	reunidos	reunido	ADJ	ADJ	_	18	xcomp	_	_
@@ -107,13 +107,13 @@
 55	,	,	PUNCT	.	_	53	punct	_	_
 56	onde	onde	ADV	ADV	_	57	advmod	_	_
 57	estacionarão	estacionar	VERB	VERB	_	46	acl:relcl	_	_
-58	os	o	DET	DET	PronType=Art	59	det	_	_
+58	os	o	DET	DET	_	59	det	_	_
 59	veículos	veículo	NOUN	NOUN	_	57	obj	_	SpaceAfter=No
 60	.	.	PUNCT	.	_	18	punct	_	_
 
 # sent_id = train-s2841
 # text = Os vestibulandos poderão entrar nas salas a partir das 13h30, portando a cédula de identidade original e uma foto 3x4, e as provas começam às 14h.
-1	Os	o	DET	DET	PronType=Art	2	det	_	_
+1	Os	o	DET	DET	_	2	det	_	_
 2	vestibulandos	vestibulando	NOUN	NOUN	_	4	nsubj	_	_
 3	poderão	poder	AUX	AUX	_	4	aux	_	_
 4	entrar	entrar	VERB	VERB	_	0	root	_	_
@@ -129,7 +129,7 @@
 12	13h30	_	NUM	NUM	NumType=Card	9	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	14	punct	_	_
 14	portando	portar	VERB	VERB	_	2	acl	_	_
-15	a	o	DET	DET	PronType=Art	16	det	_	_
+15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	cédula	cédula	NOUN	NOUN	_	14	obj	_	_
 17	de	de	ADP	ADP	_	18	case	_	_
 18	identidade	identidade	NOUN	NOUN	_	16	nmod	_	_
@@ -140,7 +140,7 @@
 23	3x4	_	NUM	NUM	NumType=Card	22	appos	_	SpaceAfter=No
 24	,	,	PUNCT	.	_	28	punct	_	_
 25	e	e	CCONJ	CONJ	_	28	cc	_	_
-26	as	o	DET	DET	PronType=Art	27	det	_	_
+26	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
 27	provas	prova	NOUN	NOUN	_	28	nsubj	_	_
 28	começam	_	VERB	VERB	_	4	conj	_	_
 29-30	às	_	_	_	_	_	_	_	_
@@ -151,7 +151,7 @@
 
 # sent_id = train-s2842
 # text = A FARGS tem dois campi, um no Centro da cidade e outro na Zona Norte, e 1.100 alunos matriculados, podendo ofertar por ano até 1.680 vagas.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	FARGS	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	tem	ter	VERB	VERB	_	0	root	_	_
 4	dois	_	NUM	NUM	NumType=Card	5	nummod	_	_
@@ -244,7 +244,7 @@
 
 # sent_id = train-s2845
 # text = O sol aparece no norte do Espírito Santo, mas tem condições de chuva fraca a qualquer hora do dia.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	sol	sol	NOUN	NOUN	_	3	nsubj	_	_
 3	aparece	aparecer	VERB	VERB	_	0	root	_	_
 4-5	no	_	_	_	_	_	_	_	_
@@ -313,10 +313,10 @@
 1	Procuro	procurar	VERB	VERB	_	0	root	_	_
 2	evitar	evitar	VERB	VERB	_	1	xcomp	_	_
 3	que	que	CCONJ	CONJ	_	6	mark	_	_
-4	as	o	DET	DET	PronType=Art	5	det	_	_
+4	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 5	pessoas	pessoa	NOUN	NOUN	_	6	nsubj	_	_
 6	usem	usar	VERB	VERB	_	2	ccomp	_	_
-7	o	o	DET	DET	PronType=Art	8	det	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	fato	fato	NOUN	NOUN	_	6	obj	_	_
 9	de	_	ADP	ADP	_	10	mark	_	_
 10	ter	ter	VERB	VERB	_	8	nmod	_	_
@@ -325,7 +325,7 @@
 13	pessoal	pessoal	ADJ	ADJ	_	12	amod	_	_
 14	tanto	tanto	ADV	ADV	_	17	cc	_	_
 15	com	com	ADP	ADP	_	17	case	_	_
-16	a	o	DET	DET	PronType=Art	17	det	_	_
+16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	Dilma	_	PROPN	PNOUN	_	12	nmod	_	_
 18	quanto	_	CCONJ	CONJ	_	20	cc	_	_
 19	com	com	ADP	ADP	_	20	case	_	_

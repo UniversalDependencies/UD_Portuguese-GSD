@@ -1,6 +1,6 @@
 # sent_id = train-s8310
 # text = A maioria das cenas foram interpretadas pelos próprios músicos e seus amigos.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	maioria	maioria	NOUN	NOUN	_	7	nsubj:pass	_	_
 3-4	das	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -20,7 +20,7 @@
 
 # sent_id = train-s8311
 # text = O valor dos salários não foi divulgado.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	valor	valor	NOUN	NOUN	_	8	nsubj:pass	_	_
 3-4	dos	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -49,13 +49,13 @@
 
 # sent_id = train-s8313
 # text = O árbitro, porém, marcou a mão do atacante do Timão.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	árbitro	árbitro	NOUN	NOUN	_	6	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	4	punct	_	_
 4	porém	_	ADV	ADV	_	6	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	4	punct	_	_
 6	marcou	marcar	VERB	VERB	_	0	root	_	_
-7	a	o	DET	DET	PronType=Art	8	det	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	mão	mão	NOUN	NOUN	_	6	obj	_	_
 9-10	do	_	_	_	_	_	_	_	_
 9	de	de	ADP	ADP	_	11	case	_	_
@@ -72,7 +72,7 @@
 1	Uma	_	DET	DET	_	2	det	_	_
 2	parceria	parceria	NOUN	NOUN	_	10	nsubj:pass	_	_
 3	entre	_	ADP	ADP	_	6	case	_	_
-4	as	o	DET	DET	PronType=Art	6	det	_	_
+4	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
 5	duas	_	NUM	NUM	NumType=Card	6	nummod	_	_
 6	esferas	esfera	NOUN	NOUN	_	2	nmod	_	_
 7	de	de	ADP	ADP	_	8	case	_	_
@@ -91,13 +91,13 @@
 19	)	)	PUNCT	.	_	18	punct	_	SpaceAfter=No
 20	,	,	PUNCT	.	_	26	punct	_	_
 21	quando	quando	ADV	ADV	_	26	advmod	_	_
-22	a	o	DET	DET	PronType=Art	23	det	_	_
+22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	presidenta	_	NOUN	NOUN	_	26	nsubj	_	_
 24	Dilma	_	PROPN	PNOUN	_	23	appos	_	_
 25	Rousseff	_	PROPN	PNOUN	_	24	flat	_	_
 26	telefonou	telefonar	VERB	VERB	_	16	acl:relcl	_	_
 27	para	para	ADP	ADP	_	29	case	_	_
-28	o	o	DET	DET	PronType=Art	29	det	_	_
+28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	governador	governador	NOUN	NOUN	_	26	nmod	_	_
 30	de	de	ADP	ADP	_	31	case	_	_
 31	São	_	PROPN	PNOUN	_	29	nmod	_	_
@@ -111,7 +111,7 @@
 39	apoio	apoio	NOUN	NOUN	_	38	obj	_	_
 40	para	_	ADP	ADP	_	41	mark	_	_
 41	conter	conter	VERB	VERB	_	39	nmod	_	_
-42	a	o	DET	DET	PronType=Art	43	det	_	_
+42	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
 43	onda	onda	NOUN	NOUN	_	41	obj	_	_
 44	de	de	ADP	ADP	_	45	case	_	_
 45	assassinatos	assassinato	NOUN	NOUN	_	43	nmod	_	_
@@ -127,7 +127,7 @@
 # text = "Escutei as alegrias e mazelas do povo", indicou esta experiente política conservadora de 60 anos que, após oferecer incenso aos sul - coreanos caídos em combate, se comprometeu a "construir uma Coreia onde todos sejam felizes".
 1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
 2	Escutei	escutar	VERB	VERB	_	12	ccomp	_	_
-3	as	o	DET	DET	PronType=Art	4	det	_	_
+3	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
 4	alegrias	alegria	NOUN	NOUN	_	2	obj	_	_
 5	e	e	CCONJ	CONJ	_	6	cc	_	_
 6	mazelas	mazela	NOUN	NOUN	_	4	conj	_	_
@@ -176,7 +176,7 @@
 
 # sent_id = train-s8316
 # text = A Polícia Militar (PM) prendeu na tarde desta quinta - feira (8), em Araxá, no Alto Paranaíba, um homem de 43 anos, suspeito de ter esfaqueado a esposa, de 36 anos.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Polícia	_	PROPN	PNOUN	_	7	nsubj	_	_
 3	Militar	_	PROPN	PNOUN	_	2	amod	_	_
 4	(	(	PUNCT	.	_	5	punct	_	SpaceAfter=No
@@ -214,7 +214,7 @@
 34	de	_	ADP	ADP	_	36	mark	_	_
 35	ter	ter	AUX	AUX	_	36	aux	_	_
 36	esfaqueado	esfaquear	VERB	VERB	_	33	nmod	_	_
-37	a	o	DET	DET	PronType=Art	38	det	_	_
+37	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
 38	esposa	esposo	NOUN	NOUN	_	36	obj	_	SpaceAfter=No
 39	,	,	PUNCT	.	_	42	punct	_	_
 40	de	de	ADP	ADP	_	42	case	_	_
@@ -225,7 +225,7 @@
 # sent_id = train-s8317
 # text = Com a economia eminentemente baseada na pecuária, Oscar acredita que a cidade tem um potencial agrícola que pode ser explorado, conferindo mais uma força econômica para cidade.
 1	Com	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	PronType=Art	3	det	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	economia	economia	NOUN	NOUN	_	11	nmod	_	_
 4	eminentemente	eminentemente	ADV	ADV	_	5	advmod	_	_
 5	baseada	baseado	ADJ	ADJ	_	3	amod	_	_
@@ -237,7 +237,7 @@
 10	Oscar	_	PROPN	PNOUN	_	11	nsubj	_	_
 11	acredita	acreditar	VERB	VERB	_	0	root	_	_
 12	que	que	CCONJ	CONJ	_	15	mark	_	_
-13	a	o	DET	DET	PronType=Art	14	det	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	cidade	cidade	NOUN	NOUN	_	15	nsubj	_	_
 15	tem	ter	VERB	VERB	_	11	ccomp	_	_
 16	um	um	DET	DET	_	17	det	_	_
@@ -276,7 +276,7 @@
 14	mandatário	mandatário	NOUN	NOUN	_	7	nmod	_	_
 15	teriam	ter	AUX	AUX	_	16	aux	_	_
 16	praticados	praticar	VERB	VERB	_	0	root	_	_
-17	os	o	DET	DET	PronType=Art	20	det	_	_
+17	os	o	DET	DET	_	20	det	_	_
 18	mais	mais	ADV	ADV	_	19	advmod	_	_
 19	escabrosos	escabroso	ADJ	ADJ	_	20	amod	_	_
 20	furtos	furto	NOUN	NOUN	_	16	obj	_	_
@@ -289,7 +289,7 @@
 
 # sent_id = train-s8319
 # text = A primeira internação aconteceu em 2009, quando ele sofreu um distúrbio no Aeroporto de Congonhas e ficou três dias no hospital e em 2011 enfrentou novos problemas, dessa vez numa academia.
-1	A	o	DET	DET	PronType=Art	3	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	primeira	primeiro	ADJ	ADJ	_	3	amod	_	_
 3	internação	internação	NOUN	NOUN	_	4	nsubj	_	_
 4	aconteceu	acontecer	VERB	VERB	_	0	root	_	_

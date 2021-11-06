@@ -15,7 +15,7 @@
 12	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	14	punct	_	_
 14	afirmou	afirmar	VERB	VERB	_	0	root	_	_
-15	o	o	DET	DET	PronType=Art	16	det	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	veterinário	veterinário	NOUN	NOUN	_	14	nsubj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	14	punct	_	_
 
@@ -34,7 +34,7 @@
 
 # sent_id = train-s5233
 # text = A demonstração de Fifa 13 mostra bastante do novo jogo, apesar de ser limitada em conteúdo quando comparada ao game completo.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	demonstração	demonstração	NOUN	NOUN	_	6	nsubj	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	Fifa	_	PROPN	PNOUN	_	2	nmod	_	_
@@ -65,7 +65,7 @@
 # sent_id = train-s5234
 # text = Segundo o cantor agora tudo será resolvido na justiça.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	PronType=Art	3	det	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	cantor	cantor	NOUN	NOUN	_	7	nmod	_	_
 4	agora	agora	ADV	ADV	_	7	advmod	_	_
 5	tudo	_	PRON	PRON	_	7	nsubj:pass	_	_
@@ -84,7 +84,7 @@
 3	,	,	PUNCT	.	_	2	punct	_	_
 4	vim	vir	VERB	VERB	_	0	root	_	_
 5	para	para	ADP	ADP	_	7	case	_	_
-6	a	o	DET	DET	PronType=Art	7	det	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Rádio	_	PROPN	PNOUN	_	4	nmod	_	_
 8	Difusora	_	PROPN	PNOUN	_	7	amod	_	_
 9	SP	_	PROPN	PNOUN	_	7	appos	_	SpaceAfter=No
@@ -95,7 +95,7 @@
 14	58	_	NUM	NUM	NumType=Card	11	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	.	_	14	punct	_	_
 16	para	para	ADP	ADP	_	18	case	_	_
-17	a	o	DET	DET	PronType=Art	18	det	_	_
+17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	Rádio	_	PROPN	PNOUN	_	11	nmod	_	_
 19	Bandeirtantes	_	PROPN	PNOUN	_	18	flat	_	_
 20	a	_	ADP	ADP	_	21	case	_	_
@@ -150,24 +150,24 @@
 4	estados	estado	NOUN	NOUN	_	16	nmod	_	_
 5	que	_	PRON	PRON	_	6	nsubj	_	_
 6	compõe	compor	VERB	VERB	_	4	acl:relcl	_	_
-7	os	o	DET	DET	PronType=Art	8	det	_	_
+7	os	o	DET	DET	_	8	det	_	_
 8	Estados	_	PROPN	PNOUN	_	6	obj	_	_
 9	Unidos	_	PROPN	PNOUN	_	8	amod	_	_
 10	continental	continental	ADJ	ADJ	_	8	amod	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	4	punct	_	_
-12	a	o	DET	DET	PronType=Art	13	det	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	Luisiana	_	PROPN	PNOUN	_	16	nsubj	_	_
 14	é	ser	AUX	AUX	_	16	cop	_	_
-15	a	o	DET	DET	PronType=Art	16	det	_	_
+15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	única	único	NOUN	NOUN	_	0	root	_	_
 17	que	_	PRON	PRON	_	19	nsubj	_	_
 18	não	não	ADV	ADV	Polarity=Neg	19	advmod	_	_
 19	usa	usar	VERB	VERB	_	16	acl:relcl	_	_
-20	o	o	DET	DET	PronType=Art	21	det	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	termo	termo	NOUN	NOUN	_	19	obj	_	_
 22	condado	condado	NOUN	NOUN	_	21	appos	_	_
 23	como	como	ADP	ADP	_	25	case	_	_
-24	a	o	DET	DET	PronType=Art	25	det	_	_
+24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	definição	definição	NOUN	NOUN	_	19	nmod	_	_
 26-27	duma	_	_	_	_	_	_	_	_
 26	de	de	ADP	ADP	_	28	case	_	_
@@ -204,23 +204,23 @@
 
 # sent_id = train-s5239
 # text = A doença pode afetar o fígado, os rins, a bexiga, os pulmões, a medula e o cérebro e levar à morte.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	doença	doença	NOUN	NOUN	_	4	nsubj	_	_
 3	pode	_	AUX	AUX	_	4	aux	_	_
 4	afetar	afetar	VERB	VERB	_	0	root	_	_
-5	o	o	DET	DET	PronType=Art	6	det	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	fígado	fígado	NOUN	NOUN	_	4	obj	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	9	punct	_	_
-8	os	o	DET	DET	PronType=Art	9	det	_	_
+8	os	o	DET	DET	_	9	det	_	_
 9	rins	_	NOUN	NOUN	_	6	conj	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	12	punct	_	_
-11	a	o	DET	DET	PronType=Art	12	det	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	bexiga	bexiga	NOUN	NOUN	_	6	conj	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	15	punct	_	_
-14	os	o	DET	DET	PronType=Art	15	det	_	_
+14	os	o	DET	DET	_	15	det	_	_
 15	pulmões	pulmão	NOUN	NOUN	_	6	conj	_	SpaceAfter=No
 16	,	,	PUNCT	.	_	18	punct	_	_
-17	a	o	DET	DET	PronType=Art	18	det	_	_
+17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	medula	medula	NOUN	NOUN	_	6	conj	_	_
 19	e	e	CCONJ	CONJ	_	21	cc	_	_
 20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_

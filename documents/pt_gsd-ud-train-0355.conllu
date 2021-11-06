@@ -1,9 +1,9 @@
 # sent_id = train-s3520
 # text = O recital comemora os 15 anos da série "Música no Museu" e, com dois anos de atraso, por conta de problemas de agenda, os 60 anos da estreia profissional de Freire, naquela noite de maio, aqui mesmo nesse palco construído em 1893.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	recital	recital	NOUN	NOUN	_	3	nsubj	_	_
 3	comemora	comemorar	VERB	VERB	_	0	root	_	_
-4	os	o	DET	DET	PronType=Art	6	det	_	_
+4	os	o	DET	DET	_	6	det	_	_
 5	15	_	NUM	NUM	NumType=Card	6	nummod	_	_
 6	anos	ano	NOUN	NOUN	_	3	obj	_	_
 7-8	da	_	_	_	_	_	_	_	_
@@ -32,7 +32,7 @@
 28	de	de	ADP	ADP	_	29	case	_	_
 29	agenda	agenda	NOUN	NOUN	_	27	nmod	_	SpaceAfter=No
 30	,	,	PUNCT	.	_	27	punct	_	_
-31	os	o	DET	DET	PronType=Art	33	det	_	_
+31	os	o	DET	DET	_	33	det	_	_
 32	60	_	NUM	NUM	NumType=Card	33	nummod	_	_
 33	anos	ano	NOUN	NOUN	_	6	conj	_	_
 34-35	da	_	_	_	_	_	_	_	_
@@ -62,7 +62,7 @@
 1	"	"	PUNCT	.	_	10	punct	_	SpaceAfter=No
 2	Agora	agora	ADV	ADV	_	8	mark	_	_
 3	que	_	CCONJ	CONJ	_	2	fixed	_	_
-4	o	o	DET	DET	PronType=Art	5	det	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	cartão	cartão	NOUN	NOUN	_	8	nsubj	_	_
 6	de	de	ADP	ADP	_	7	case	_	_
 7	crédito	crédito	NOUN	NOUN	_	5	nmod	_	_
@@ -93,7 +93,7 @@
 8	atrasou	atrasar	VERB	VERB	_	5	conj	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	13	punct	_	_
 10	mas	mas	CCONJ	CONJ	_	13	cc	_	_
-11	a	o	DET	DET	PronType=Art	12	det	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	maioria	maioria	NOUN	NOUN	_	13	nsubj	_	_
 13	compreendeu	compreender	VERB	VERB	_	5	conj	_	_
 14	e	e	CCONJ	CONJ	_	16	cc	_	_
@@ -103,7 +103,7 @@
 18	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
 19	,	,	PUNCT	.	_	20	punct	_	_
 20	disse	dizer	VERB	VERB	_	0	root	_	_
-21	o	o	DET	DET	PronType=Art	22	det	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	líder	líder	NOUN	NOUN	_	20	nsubj	_	_
 23	sindical	sindical	ADJ	ADJ	_	22	amod	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	20	punct	_	_
@@ -155,11 +155,11 @@
 # sent_id = train-s3525
 # text = Já a Itália não tem o mesmo conjunto por viver uma fase de renovação de elenco.
 1	Já	já	ADV	ADV	_	5	advmod	_	_
-2	a	o	DET	DET	PronType=Art	3	det	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Itália	_	PROPN	PNOUN	_	5	nsubj	_	_
 4	não	não	ADV	ADV	Polarity=Neg	5	advmod	_	_
 5	tem	ter	VERB	VERB	_	0	root	_	_
-6	o	o	DET	DET	PronType=Art	8	det	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 7	mesmo	mesmo	ADJ	ADJ	_	8	amod	_	_
 8	conjunto	conjunto	NOUN	NOUN	_	5	obj	_	_
 9	por	_	ADP	ADP	_	10	mark	_	_
@@ -204,7 +204,7 @@
 
 # sent_id = train-s3527
 # text = A camisa verde, destinada ao líder por pontos, está com o eslovaco Peter Sagan, da Liquigas - Cannondale, que soma 356.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	camisa	camisa	NOUN	NOUN	_	12	nsubj	_	_
 3	verde	verde	ADJ	ADJ	_	2	amod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	5	punct	_	_
@@ -218,7 +218,7 @@
 11	,	,	PUNCT	.	_	5	punct	_	_
 12	está	estar	VERB	VERB	_	0	root	_	_
 13	com	com	ADP	ADP	_	15	case	_	_
-14	o	o	DET	DET	PronType=Art	15	det	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	eslovaco	eslovaco	NOUN	NOUN	_	12	nmod	_	_
 16	Peter	_	PROPN	PNOUN	_	15	appos	_	_
 17	Sagan	_	PROPN	PNOUN	_	16	flat	_	SpaceAfter=No
@@ -251,7 +251,7 @@
 11	Londres	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	.	_	16	punct	_	_
 13	onde	onde	ADV	ADV	_	16	advmod	_	_
-14	a	o	DET	DET	PronType=Art	15	det	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	trilogia	trilogia	NOUN	NOUN	_	16	nsubj	_	_
 16	ocupa	ocupar	VERB	VERB	_	8	acl:relcl	_	_
 17	uma	um	DET	DET	_	18	det	_	_
@@ -290,7 +290,7 @@
 25	-	-	PUNCT	.	_	24	punct	_	_
 26	los	_	PRON	PRON	_	27	nsubj	_	_
 27	flexíveis	flexível	ADJ	ADJ	_	24	xcomp	_	_
-28	o	o	DET	DET	PronType=Art	29	det	_	_
+28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	suficiente	suficiente	NOUN	NOUN	_	27	nmod	_	_
 30	para	para	ADP	ADP	_	31	case	_	_
 31	uso	uso	NOUN	NOUN	_	29	nmod	_	_

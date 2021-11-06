@@ -22,7 +22,7 @@
 6	como	como	ADP	ADP	_	7	case	_	_
 7	alferes	alferes	NOUN	NOUN	_	5	nmod	_	_
 8	aluno	aluno	NOUN	NOUN	_	7	flat	_	_
-9	o	o	DET	DET	PronType=Art	10	det	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	curso	curso	NOUN	NOUN	_	5	obj	_	_
 11	preparatório	preparatório	ADJ	ADJ	_	10	amod	_	_
 12-13	da	_	_	_	_	_	_	_	_
@@ -58,7 +58,7 @@
 8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	elenco	elenco	NOUN	NOUN	_	6	nmod	_	_
 10	--	_	PUNCT	.	_	12	punct	_	_
-11	os	o	DET	DET	PronType=Art	12	det	_	_
+11	os	o	DET	DET	_	12	det	_	_
 12	atacantes	atacante	NOUN	NOUN	_	6	appos	_	_
 13	Robinho	_	PROPN	PNOUN	_	12	appos	_	_
 14	e	e	CCONJ	CONJ	_	15	cc	_	_
@@ -66,7 +66,7 @@
 16	Pato	_	PROPN	PNOUN	_	15	flat	_	_
 17	--	_	PUNCT	.	_	12	punct	_	SpaceAfter=No
 18	,	,	PUNCT	.	_	3	punct	_	_
-19	o	o	DET	DET	PronType=Art	21	det	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 20	principal	principal	ADJ	ADJ	_	21	amod	_	_
 21	indício	indício	NOUN	NOUN	_	0	root	_	_
 22	dado	dar	VERB	VERB	_	21	acl	_	_
@@ -90,7 +90,7 @@
 39	Pato	_	PROPN	PNOUN	_	30	nmod	_	_
 40	provavelmente	provavelmente	ADV	ADV	_	41	advmod	_	_
 41	começando	começar	VERB	VERB	_	39	acl	_	_
-42	a	o	DET	DET	PronType=Art	43	det	_	_
+42	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
 43	partida	partida	NOUN	NOUN	_	41	obj	_	SpaceAfter=No
 44	.	.	PUNCT	.	_	21	punct	_	_
 
@@ -105,7 +105,7 @@
 
 # sent_id = train-s8618
 # text = Os brasiguaios relatam que sofreram perseguição nos últimos anos e ficaram impedidos de trabalhar.
-1	Os	o	DET	DET	PronType=Art	2	det	_	_
+1	Os	o	DET	DET	_	2	det	_	_
 2	brasiguaios	_	NOUN	NOUN	_	3	nsubj	_	_
 3	relatam	relatar	VERB	VERB	_	0	root	_	_
 4	que	que	CCONJ	CONJ	_	5	mark	_	_
@@ -172,7 +172,7 @@
 2	Raider	_	PROPN	PNOUN	_	1	flat	_	_
 3	II	_	NUM	NUM	NumType=Card	1	appos	_	_
 4	é	ser	AUX	AUX	_	7	cop	_	_
-5	o	o	DET	DET	PronType=Art	7	det	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	segundo	segundo	ADJ	ADJ	_	7	amod	_	_
 7	jogo	jogo	NOUN	NOUN	_	0	root	_	_
 8	de	de	ADP	ADP	_	9	case	_	_
@@ -189,12 +189,12 @@
 
 # sent_id = train-s8621
 # text = O gol deu confiança para os donos da casa, que passaram a dominar as ações contra um Corinthians que deu sinais de falta de entrosamento nalgumas jogadas, mas sempre que conseguiu encaixar os passes ameaçou os celestes.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	gol	gol	NOUN	NOUN	_	3	nsubj	_	_
 3	deu	dar	VERB	VERB	_	0	root	_	_
 4	confiança	confiança	NOUN	NOUN	_	3	obj	_	_
 5	para	para	ADP	ADP	_	7	case	_	_
-6	os	o	DET	DET	PronType=Art	7	det	_	_
+6	os	o	DET	DET	_	7	det	_	_
 7	donos	dono	NOUN	NOUN	_	3	nmod	_	_
 8-9	da	_	_	_	_	_	_	_	_
 8	de	de	ADP	ADP	_	10	case	_	_
@@ -205,7 +205,7 @@
 13	passaram	passar	AUX	AUX	_	15	aux	_	_
 14	a	_	ADP	ADP	_	15	mark	_	_
 15	dominar	dominar	VERB	VERB	_	7	acl:relcl	_	_
-16	as	o	DET	DET	PronType=Art	17	det	_	_
+16	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
 17	ações	ação	NOUN	NOUN	_	15	obj	_	_
 18	contra	_	ADP	ADP	_	20	case	_	_
 19	um	um	DET	DET	_	20	det	_	_
@@ -227,16 +227,16 @@
 34	que	_	CCONJ	CONJ	_	33	fixed	_	_
 35	conseguiu	conseguir	VERB	VERB	_	39	advcl	_	_
 36	encaixar	encaixar	VERB	VERB	_	35	xcomp	_	_
-37	os	o	DET	DET	PronType=Art	38	det	_	_
+37	os	o	DET	DET	_	38	det	_	_
 38	passes	passe	NOUN	NOUN	_	36	obj	_	_
 39	ameaçou	ameaçar	VERB	VERB	_	22	conj	_	_
-40	os	o	DET	DET	PronType=Art	41	det	_	_
+40	os	o	DET	DET	_	41	det	_	_
 41	celestes	_	NOUN	NOUN	_	39	obj	_	SpaceAfter=No
 42	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s8622
 # text = O brasileiro defendeu - se dos ataques de Kimi Raikkonen na última volta e ajudou a Ferrari no mundial de construtores.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	brasileiro	brasileiro	NOUN	NOUN	_	3	nsubj	_	_
 3	defendeu	defender	VERB	VERB	_	0	root	_	_
 4	-	-	PUNCT	.	_	17	punct	_	_
@@ -255,7 +255,7 @@
 15	volta	_	ADJ	ADJ	_	3	nmod	_	_
 16	e	e	CCONJ	CONJ	_	17	cc	_	_
 17	ajudou	ajudar	VERB	VERB	_	3	conj	_	_
-18	a	o	DET	DET	PronType=Art	19	det	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	Ferrari	_	PROPN	PNOUN	_	17	obj	_	_
 20-21	no	_	_	_	_	_	_	_	_
 20	em	em	ADP	ADP	_	22	case	_	_

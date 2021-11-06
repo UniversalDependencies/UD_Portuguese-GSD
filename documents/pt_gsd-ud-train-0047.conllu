@@ -15,7 +15,7 @@
 12	,	,	PUNCT	.	_	14	punct	_	_
 13	entre	_	ADP	ADP	_	14	case	_	_
 14	elas	_	PRON	PRON	_	16	nmod	_	_
-15	o	o	DET	DET	PronType=Art	16	det	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	site	site	NOUN	NOUN	_	11	appos	_	_
 17	de	de	ADP	ADP	_	18	case	_	_
 18	compras	compra	NOUN	NOUN	_	16	nmod	_	_
@@ -28,16 +28,16 @@
 1	--	_	PUNCT	.	_	2	punct	_	_
 2	Queremos	querer	VERB	VERB	_	0	root	_	_
 3	votar	votar	VERB	VERB	_	2	xcomp	_	_
-4	as	o	DET	DET	PronType=Art	5	det	_	_
+4	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 5	MPs	_	PROPN	PNOUN	_	3	obj	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s463
 # text = O prazo para as alegações finais da defesa, de três dias úteis, também foi aberto, e os advogados de Demóstenes poderão se manifestar até sexta - feira (15).
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	prazo	prazo	NOUN	NOUN	_	18	nsubj:pass	_	_
 3	para	para	ADP	ADP	_	5	case	_	_
-4	as	o	DET	DET	PronType=Art	5	det	_	_
+4	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 5	alegações	alegação	NOUN	NOUN	_	2	nmod	_	_
 6	finais	final	ADJ	ADJ	_	5	amod	_	_
 7-8	da	_	_	_	_	_	_	_	_
@@ -55,7 +55,7 @@
 18	aberto	abrir	VERB	VERB	_	0	root	_	SpaceAfter=No
 19	,	,	PUNCT	.	_	27	punct	_	_
 20	e	e	CCONJ	CONJ	_	27	cc	_	_
-21	os	o	DET	DET	PronType=Art	22	det	_	_
+21	os	o	DET	DET	_	22	det	_	_
 22	advogados	advogado	NOUN	NOUN	_	27	nsubj	_	_
 23	de	de	ADP	ADP	_	24	case	_	_
 24	Demóstenes	_	PROPN	PNOUN	_	22	nmod	_	_
@@ -80,16 +80,16 @@
 4	Nordeste	_	PROPN	PNOUN	_	3	amod	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	9	punct	_	_
 6	onde	onde	ADV	ADV	_	9	advmod	_	_
-7	a	o	DET	DET	PronType=Art	8	det	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	população	população	NOUN	NOUN	_	9	nsubj	_	_
 9	sofre	sofrer	VERB	VERB	_	3	acl:relcl	_	_
 10	com	com	ADP	ADP	_	12	case	_	_
-11	a	o	DET	DET	PronType=Art	12	det	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	falta	_	NOUN	NOUN	_	9	nmod	_	_
 13	de	de	ADP	ADP	_	14	case	_	_
 14	chuvas	chuva	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	.	_	3	punct	_	_
-16	a	o	DET	DET	PronType=Art	17	det	_	_
+16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	seca	_	NOUN	NOUN	_	19	nsubj	_	_
 18	deve	dever	AUX	AUX	_	19	aux	_	_
 19	persistir	persistir	VERB	VERB	_	0	root	_	SpaceAfter=No
@@ -101,11 +101,11 @@
 2	Formigli	_	PROPN	PNOUN	_	4	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
 4	pesa	pesar	VERB	VERB	_	0	root	_	_
-5	o	o	DET	DET	PronType=Art	6	det	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	fato	fato	NOUN	NOUN	_	4	nsubj	_	_
 7-8	da	_	_	_	_	_	_	_	_
 7	de	_	ADP	ADP	_	11	mark	_	_
-8	a	o	DET	DET	PronType=Art	9	det	_	_
+8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Petrobras	_	PROPN	PNOUN	_	11	nsubj	_	_
 10	ter	ter	AUX	AUX	_	11	aux	_	_
 11	contratado	contratar	VERB	VERB	_	6	nmod	_	_
@@ -148,7 +148,7 @@
 19	a	_	ADP	ADP	_	20	case	_	_
 20	dor	dor	NOUN	NOUN	_	18	nmod	_	_
 21	que	_	PRON	PRON	_	24	obj	_	_
-22	os	o	DET	DET	PronType=Art	23	det	_	_
+22	os	o	DET	DET	_	23	det	_	_
 23	homens	homem	NOUN	NOUN	_	24	nsubj	_	_
 24	têm	ter	VERB	VERB	_	18	acl:relcl	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	3	punct	_	_
@@ -171,7 +171,7 @@
 14	-	-	PUNCT	.	_	15	punct	_	_
 15	feira	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	.	_	19	punct	_	_
-17	o	o	DET	DET	PronType=Art	19	det	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 18	novo	novo	ADJ	ADJ	_	19	amod	_	_
 19	ministro	ministro	NOUN	NOUN	_	31	nsubj	_	_
 20-21	do	_	_	_	_	_	_	_	_
@@ -194,7 +194,7 @@
 36	"	"	PUNCT	.	_	37	punct	_	SpaceAfter=No
 37	nula	nulo	ADJ	ADJ	_	35	xcomp	_	SpaceAfter=No
 38	"	"	PUNCT	.	_	37	punct	_	_
-39	a	o	DET	DET	PronType=Art	40	det	_	_
+39	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
 40	chance	chance	NOUN	NOUN	_	35	nsubj	_	_
 41	de	_	ADP	ADP	_	42	mark	_	_
 42	votar	votar	VERB	VERB	_	40	nmod	_	_
@@ -226,7 +226,7 @@
 
 # sent_id = train-s468
 # text = Os dados referem - se a novembro e comprovam a demanda de turistas pelo 'Destino Paraíba' em 2012, em relação ao ano passado.
-1	Os	o	DET	DET	PronType=Art	2	det	_	_
+1	Os	o	DET	DET	_	2	det	_	_
 2	dados	dado	NOUN	NOUN	_	3	nsubj	_	_
 3	referem	referir	VERB	VERB	_	0	root	_	_
 4	-	-	PUNCT	.	_	9	punct	_	_
@@ -235,7 +235,7 @@
 7	novembro	_	PROPN	PNOUN	_	3	nmod	_	_
 8	e	e	CCONJ	CONJ	_	9	cc	_	_
 9	comprovam	comprovar	VERB	VERB	_	3	conj	_	_
-10	a	o	DET	DET	PronType=Art	11	det	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	demanda	demanda	NOUN	NOUN	_	9	obj	_	_
 12	de	de	ADP	ADP	_	13	case	_	_
 13	turistas	turista	NOUN	NOUN	_	11	nmod	_	_
@@ -267,7 +267,7 @@
 5	se	_	CCONJ	CONJ	_	7	mark	_	_
 6	ele	_	PRON	PRON	_	7	nsubj	_	_
 7	devolveu	devolver	VERB	VERB	_	13	advcl	_	_
-8	o	o	DET	DET	PronType=Art	9	det	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	dinheiro	dinheiro	NOUN	NOUN	_	7	obj	_	_
 10	de	de	ADP	ADP	_	11	case	_	_
 11	coração	coração	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
@@ -303,7 +303,7 @@
 # sent_id = train-s470
 # text = Começa o julgamento do Caso Eliza Samudio, que envolve o ex - goleiro Bruno.
 1	Começa	_	VERB	VERB	_	0	root	_	_
-2	o	o	DET	DET	PronType=Art	3	det	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	julgamento	julgamento	NOUN	NOUN	_	1	nsubj	_	_
 4-5	do	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	3	case	_	_

@@ -3,7 +3,7 @@
 1	Em	em	ADP	ADP	_	2	case	_	_
 2	nota	nota	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
-4	o	o	DET	DET	PronType=Art	5	det	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Detran	_	PROPN	PNOUN	_	8	nsubj	_	_
 6	-	-	PUNCT	.	_	5	punct	_	_
 7	RJ	_	PROPN	PNOUN	_	5	flat	_	_
@@ -18,11 +18,11 @@
 16	ter	ter	AUX	AUX	_	18	aux	_	_
 17	sido	ser	AUX	AUX	_	18	aux:pass	_	_
 18	concluído	concluir	VERB	VERB	_	49	advcl	_	_
-19	o	o	DET	DET	PronType=Art	20	det	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	processo	processo	NOUN	NOUN	_	18	nsubj:pass	_	_
 21	licitatório	licitatório	ADJ	ADJ	_	20	amod	_	_
 22	para	para	ADP	ADP	_	24	case	_	_
-23	a	o	DET	DET	PronType=Art	24	det	_	_
+23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	escolha	escolha	NOUN	NOUN	_	20	nmod	_	_
 25-26	da	_	_	_	_	_	_	_	_
 25	de	de	ADP	ADP	_	27	case	_	_
@@ -36,7 +36,7 @@
 33	-	-	PUNCT	.	_	32	punct	_	_
 34	atendimento	atendimento	NOUN	NOUN	_	32	flat	_	SpaceAfter=No
 35	,	,	PUNCT	.	_	18	punct	_	_
-36	os	o	DET	DET	PronType=Art	37	det	_	_
+36	os	o	DET	DET	_	37	det	_	_
 37	agendamentos	agendamento	NOUN	NOUN	_	49	nsubj:pass	_	_
 38-39	dos	_	_	_	_	_	_	_	_
 38	de	de	ADP	ADP	_	40	case	_	_
@@ -69,11 +69,11 @@
 # sent_id = train-s9160
 # text = "A experiência de abrir a loja vai ser mais ou menos como montar um perfil numa rede social.
 1	"	"	PUNCT	.	_	9	punct	_	SpaceAfter=No
-2	A	o	DET	DET	PronType=Art	3	det	_	_
+2	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	experiência	experiência	NOUN	NOUN	_	9	nsubj	_	_
 4	de	_	ADP	ADP	_	5	mark	_	_
 5	abrir	abrir	VERB	VERB	_	3	nmod	_	_
-6	a	o	DET	DET	PronType=Art	7	det	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	loja	loja	NOUN	NOUN	_	5	obj	_	_
 8	vai	ir	AUX	AUX	_	9	aux	_	_
 9	ser	ser	VERB	VERB	_	0	root	_	_
@@ -93,7 +93,7 @@
 
 # sent_id = train-s9161
 # text = Os pesquisadores ficaram 12 dias acampados na esperança de capturar o animal e conseguiram realizar o objetivo no dia 13 de dezembro.
-1	Os	o	DET	DET	PronType=Art	2	det	_	_
+1	Os	o	DET	DET	_	2	det	_	_
 2	pesquisadores	pesquisador	NOUN	NOUN	_	3	nsubj	_	_
 3	ficaram	ficar	VERB	VERB	_	0	root	_	_
 4	12	_	NUM	NUM	NumType=Card	5	nummod	_	_
@@ -105,12 +105,12 @@
 9	esperança	esperança	NOUN	NOUN	_	3	nmod	_	_
 10	de	_	ADP	ADP	_	11	mark	_	_
 11	capturar	capturar	VERB	VERB	_	9	nmod	_	_
-12	o	o	DET	DET	PronType=Art	13	det	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	animal	animal	NOUN	NOUN	_	11	obj	_	_
 14	e	e	CCONJ	CONJ	_	15	cc	_	_
 15	conseguiram	conseguir	VERB	VERB	_	3	conj	_	_
 16	realizar	realizar	VERB	VERB	_	15	xcomp	_	_
-17	o	o	DET	DET	PronType=Art	18	det	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	objetivo	objetivo	NOUN	NOUN	_	16	obj	_	_
 19-20	no	_	_	_	_	_	_	_	_
 19	em	em	ADP	ADP	_	21	case	_	_
@@ -124,7 +124,7 @@
 # sent_id = train-s9162
 # text = Mas a base da Fúria vem da equipe catalã.
 1	Mas	_	CCONJ	CONJ	_	7	cc	_	_
-2	a	o	DET	DET	PronType=Art	3	det	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	base	base	NOUN	NOUN	_	7	nsubj	_	_
 4-5	da	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
@@ -145,7 +145,7 @@
 3	o	_	PRON	PRON	_	0	root	_	_
 4	que	_	PRON	PRON	_	5	obj	_	_
 5	promete	prometer	VERB	VERB	_	3	acl:relcl	_	_
-6	o	o	DET	DET	PronType=Art	7	det	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Parador	_	PROPN	PNOUN	_	5	nsubj	_	_
 8	Casa	_	PROPN	PNOUN	_	7	flat	_	_
 9-10	da	_	_	_	_	_	_	_	_
@@ -163,7 +163,7 @@
 
 # sent_id = train-s9164
 # text = O Lago Trousers é um lago de água doce localizado no Condado de York, província de New Brunswick, no Canadá.
-1	O	o	DET	DET	PronType=Art	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Lago	_	PROPN	PNOUN	_	6	nsubj	_	_
 3	Trousers	_	PROPN	PNOUN	_	2	flat	_	_
 4	é	ser	AUX	AUX	_	6	cop	_	_
@@ -198,7 +198,7 @@
 3	provável	provável	ADJ	ADJ	_	4	xcomp	_	_
 4	é	ser	VERB	VERB	_	0	root	_	_
 5	que	que	CCONJ	CONJ	_	10	mark	_	_
-6	o	o	DET	DET	PronType=Art	7	det	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	véu	véu	NOUN	NOUN	_	10	nsubj	_	_
 8	tenha	ter	AUX	AUX	_	10	aux	_	_
 9	que	que	CCONJ	CONJ	_	10	mark	_	_
@@ -227,7 +227,7 @@
 1	Helena	_	PROPN	PNOUN	_	2	nsubj	_	_
 2	explica	explicar	VERB	VERB	_	0	root	_	_
 3	que	que	CCONJ	CONJ	_	10	mark	_	_
-4	o	o	DET	DET	PronType=Art	5	det	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	filhote	filhote	NOUN	NOUN	_	10	nsubj	_	_
 6	de	de	ADP	ADP	_	7	case	_	_
 7	Gavião	_	PROPN	PNOUN	_	5	nmod	_	_
@@ -240,12 +240,12 @@
 14	meio	meio	NOUN	NOUN	_	11	conj	_	_
 15	para	_	ADP	ADP	_	16	mark	_	_
 16	abandonar	abandonar	VERB	VERB	_	10	nmod	_	_
-17	o	o	DET	DET	PronType=Art	18	det	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	ninho	ninho	NOUN	NOUN	_	16	obj	_	SpaceAfter=No
 19	,	,	PUNCT	.	_	25	punct	_	_
 20	nesse	_	ADP	ADP	_	21	case	_	_
 21	período	período	NOUN	NOUN	_	25	nmod	_	_
-22	os	o	DET	DET	PronType=Art	23	det	_	_
+22	os	o	DET	DET	_	23	det	_	_
 23	pais	_	NOUN	NOUN	_	25	nsubj	_	_
 24	continuam	continuar	AUX	AUX	_	25	aux	_	_
 25	trazendo	trazer	VERB	VERB	_	10	conj	_	_
@@ -267,7 +267,7 @@
 
 # sent_id = train-s9168
 # text = A faixa "Going Home" e seus mais de 11 minutos também é um destaque.
-1	A	o	DET	DET	PronType=Art	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	faixa	faixa	NOUN	NOUN	_	16	nsubj	_	_
 3	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
 4	Going	_	PROPN	PNOUN	_	2	appos	_	_
