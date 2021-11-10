@@ -59,7 +59,7 @@
 # sent_id = test-s988
 # text = "A triplicação (dos valores pagos) está em vigor há poucos meses", acrescentou.
 1	"	"	PUNCT	.	_	10	punct	_	SpaceAfter=No
-2	A	o	DET	DET	_	3	det	_	_
+2	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	triplicação	triplicação	NOUN	NOUN	_	10	nsubj	_	_
 4	(	(	PUNCT	.	_	7	punct	_	SpaceAfter=No
 5-6	dos	_	_	_	_	_	_	_	_
@@ -82,10 +82,10 @@
 # sent_id = test-s989
 # text = Segundo a família, o pequeno Pablo nasceu no hospital de Terenos, no sexto mês de gestação, tendo sido encaminhado para a Santa Casa, em Campo Grande.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	família	família	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
-5	o	o	DET	DET	_	7	det	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	pequeno	pequeno	ADJ	ADJ	_	7	amod	_	_
 7	Pablo	_	PROPN	PNOUN	_	8	nsubj	_	_
 8	nasceu	nascer	VERB	VERB	_	0	root	_	_
@@ -108,7 +108,7 @@
 23	sido	ser	AUX	AUX	_	24	aux:pass	_	_
 24	encaminhado	encaminhar	VERB	VERB	_	8	conj	_	_
 25	para	para	ADP	ADP	_	28	case	_	_
-26	a	o	DET	DET	_	28	det	_	_
+26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 27	Santa	_	PROPN	PNOUN	_	28	amod	_	_
 28	Casa	_	PROPN	PNOUN	_	24	nmod	_	SpaceAfter=No
 29	,	,	PUNCT	.	_	31	punct	_	_
@@ -122,16 +122,16 @@
 1	Em	em	ADP	ADP	_	2	case	_	_
 2	resposta	resposta	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
-4	o	o	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	tucano	tucano	NOUN	NOUN	_	6	nsubj	_	_
 6	afirmou	afirmar	VERB	VERB	_	0	root	_	_
 7	que	que	CCONJ	CONJ	_	12	mark	_	_
-8	o	o	DET	DET	_	9	det	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	petista	petista	NOUN	NOUN	_	12	nsubj	_	_
 10	"	"	PUNCT	.	_	12	punct	_	SpaceAfter=No
 11	está	estar	AUX	AUX	_	12	aux	_	_
 12	seguindo	seguir	VERB	VERB	_	6	ccomp	_	_
-13	as	o	DET	DET	_	14	det	_	_
+13	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
 14	lições	lição	NOUN	NOUN	_	12	obj	_	SpaceAfter=No
 15	"	"	PUNCT	.	_	12	punct	_	_
 16-17	do	_	_	_	_	_	_	_	_
@@ -173,7 +173,7 @@
 
 # sent_id = test-s991
 # text = O evento é destinado à divulgação científica dos membros do Programa de Apoio a Núcleos de Excelência (Pronex), uma parceria da Fundação Amazônia Paraense, UFPA, Fundação de Amparo e Desenvolvimento da Pesquisa (Fadesp) e Secretaria de Estado de Ciência, Tecnologia e Inovação (Secti).
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	evento	evento	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	é	ser	AUX	AUX	_	4	aux:pass	_	_
 4	destinado	destinar	VERB	VERB	_	0	root	_	_
@@ -240,7 +240,7 @@
 
 # sent_id = test-s992
 # text = O resultado do Prêmio Jabuti 2012 deve ser divulgado no dia 18 de outubro.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	resultado	resultado	NOUN	NOUN	_	10	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -279,7 +279,7 @@
 13	,	,	PUNCT	.	_	12	punct	_	_
 14	que	_	PRON	PRON	_	15	nsubj	_	_
 15	acompanha	acompanhar	VERB	VERB	_	8	acl:relcl	_	_
-16	a	o	DET	DET	_	17	det	_	_
+16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	carreira	_	NOUN	NOUN	_	15	obj	_	_
 18-19	da	_	_	_	_	_	_	_	_
 18	de	de	ADP	ADP	_	20	case	_	_

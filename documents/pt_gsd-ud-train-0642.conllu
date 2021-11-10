@@ -18,7 +18,7 @@
 2	Neste	_	ADP	ADP	_	3	case	_	_
 3	caso	caso	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
-5	o	o	DET	DET	_	6	det	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	investimento	investimento	NOUN	NOUN	_	10	nsubj	_	_
 7	é	ser	AUX	AUX	_	10	cop	_	_
 8	uma	um	DET	DET	_	10	det	_	_
@@ -49,7 +49,7 @@
 # text = É comum o cidadão ser acusado de não se lembrar do vereador ou deputado no qual votou na última eleição.
 1	É	ser	VERB	VERB	_	0	root	_	_
 2	comum	comum	ADJ	ADJ	_	1	xcomp	_	_
-3	o	o	DET	DET	_	4	det	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	cidadão	cidadão	NOUN	NOUN	_	6	nsubj:pass	_	_
 5	ser	ser	AUX	AUX	_	6	aux:pass	_	_
 6	acusado	acusar	VERB	VERB	_	1	csubj	_	_
@@ -91,7 +91,7 @@
 11	17	_	NUM	NUM	NumType=Card	9	nmod	_	SpaceAfter=No
 12	)	)	PUNCT	.	_	11	punct	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	2	punct	_	_
-14	o	o	DET	DET	_	15	det	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	trecho	trecho	NOUN	NOUN	_	37	nsubj	_	_
 16-17	da	_	_	_	_	_	_	_	_
 16	de	de	ADP	ADP	_	18	case	_	_
@@ -105,7 +105,7 @@
 23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	cruzamento	cruzamento	NOUN	NOUN	_	21	nmod	_	_
 25	com	com	ADP	ADP	_	27	case	_	_
-26	a	o	DET	DET	_	27	det	_	_
+26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	avenida	avenida	NOUN	NOUN	_	24	nmod	_	_
 28	Rogaciano	_	PROPN	PNOUN	_	27	appos	_	_
 29	Leite	_	PROPN	PNOUN	_	28	flat	_	SpaceAfter=No
@@ -119,7 +119,7 @@
 36	será	ser	AUX	AUX	_	37	aux:pass	_	_
 37	interditado	interditar	VERB	VERB	_	0	root	_	_
 38	para	para	ADP	ADP	_	40	case	_	_
-39	a	o	DET	DET	_	40	det	_	_
+39	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
 40	construção	construção	NOUN	NOUN	_	37	nmod	_	_
 41	de	de	ADP	ADP	_	44	case	_	_
 42	dois	_	NUM	NUM	NumType=Card	44	nummod	_	_
@@ -146,14 +146,14 @@
 2	temos	ter	AUX	AUX	_	4	aux	_	_
 3	de	_	ADP	ADP	_	4	mark	_	_
 4	observar	observar	VERB	VERB	_	0	root	_	_
-5	a	o	DET	DET	_	6	det	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	pessoa	pessoa	NOUN	NOUN	_	4	obj	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	8	punct	_	_
 8	o	_	PRON	PRON	_	6	conj	_	_
 9	que	_	PRON	PRON	_	16	obj	_	_
 10	é	ser	VERB	VERB	_	8	acl:relcl	_	_
 11	possível	possível	ADJ	ADJ	_	10	xcomp	_	_
-12	o	o	DET	DET	_	13	det	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	profissional	profissional	NOUN	NOUN	_	16	nsubj	_	_
 14	com	com	ADP	ADP	_	15	case	_	_
 15	deficiência	deficiência	NOUN	NOUN	_	13	nmod	_	_
@@ -162,7 +162,7 @@
 
 # sent_id = train-s6379
 # text = A criatividade e a ousadia são armas importantes para combater a concorrência, e com isso garantem a sobrevivência da empresa, tornando - a forte para, enfim, ter lucros.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	criatividade	criatividade	NOUN	NOUN	_	7	nsubj	_	_
 3	e	e	CCONJ	CONJ	_	5	cc	_	_
 4	a	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -172,14 +172,14 @@
 8	importantes	importante	ADJ	ADJ	_	7	amod	_	_
 9	para	_	ADP	ADP	_	10	mark	_	_
 10	combater	combater	VERB	VERB	_	7	nmod	_	_
-11	a	o	DET	DET	_	12	det	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	concorrência	concorrência	NOUN	NOUN	_	10	obj	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	17	punct	_	_
 14	e	e	CCONJ	CONJ	_	17	cc	_	_
 15	com	com	ADP	ADP	_	16	case	_	_
 16	isso	_	PRON	PRON	_	17	nmod	_	_
 17	garantem	garantir	VERB	VERB	_	7	conj	_	_
-18	a	o	DET	DET	_	19	det	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	sobrevivência	sobrevivência	NOUN	NOUN	_	17	obj	_	_
 20-21	da	_	_	_	_	_	_	_	_
 20	de	de	ADP	ADP	_	22	case	_	_

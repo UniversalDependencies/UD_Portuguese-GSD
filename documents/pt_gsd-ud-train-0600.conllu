@@ -26,14 +26,14 @@
 # sent_id = train-s5958
 # text = "O Brasil tem possibilidade de expandir muito as suas vendas na área do agronegócio, porque somos de fato competitivos".
 1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
-2	O	o	DET	DET	_	3	det	_	_
+2	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Brasil	_	PROPN	PNOUN	_	4	nsubj	_	_
 4	tem	ter	VERB	VERB	_	0	root	_	_
 5	possibilidade	possibilidade	NOUN	NOUN	_	4	obj	_	_
 6	de	_	ADP	ADP	_	7	mark	_	_
 7	expandir	expandir	VERB	VERB	_	5	nmod	_	_
 8	muito	muito	ADV	ADV	_	7	advmod	_	_
-9	as	o	DET	DET	_	11	det	_	_
+9	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
 10	suas	_	DET	DET	_	11	det:poss	_	_
 11	vendas	venda	NOUN	NOUN	_	7	obj	_	_
 12-13	na	_	_	_	_	_	_	_	_
@@ -66,7 +66,7 @@
 9	lotes	lote	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	2	punct	_	_
 11	todas	_	DET	DET	_	13	det	_	_
-12	as	o	DET	DET	_	13	det	_	_
+12	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
 13	maquinas	_	NOUN	NOUN	_	14	nsubj	_	_
 14	tinham	ter	VERB	VERB	_	0	root	_	_
 15	aparência	aparência	NOUN	NOUN	_	14	obj	_	_
@@ -75,7 +75,7 @@
 18	,	,	PUNCT	.	_	23	punct	_	_
 19	sendo	ser	AUX	AUX	_	23	aux:pass	_	_
 20	com	com	ADP	ADP	_	22	case	_	_
-21	o	o	DET	DET	_	22	det	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	tempo	tempo	NOUN	NOUN	_	23	nmod	_	_
 23	modernizados	modernizar	VERB	VERB	_	14	acl	_	_
 24	os	o	DET	DET	_	25	det	_	_
@@ -90,7 +90,7 @@
 # text = Dilma aproveitou o pronunciamento em comemoração ao aniversário da Independência do Brasil para fazer uma dura cobrança às administradoras.
 1	Dilma	_	PROPN	PNOUN	_	2	nsubj	_	_
 2	aproveitou	aproveitar	VERB	VERB	_	0	root	_	_
-3	o	o	DET	DET	_	4	det	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	pronunciamento	pronunciamento	NOUN	NOUN	_	2	obj	_	_
 5	em	em	ADP	ADP	_	6	case	_	_
 6	comemoração	comemoração	NOUN	NOUN	_	4	nmod	_	_
@@ -144,7 +144,7 @@
 22	oficial	oficial	ADJ	ADJ	_	21	amod	_	_
 23	onde	onde	ADV	ADV	_	40	advmod	_	_
 24	todas	_	DET	DET	_	26	det	_	_
-25	as	o	DET	DET	_	26	det	_	_
+25	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
 26	atividades	atividade	NOUN	NOUN	_	40	nsubj:pass	_	SpaceAfter=No
 27	,	,	PUNCT	.	_	29	punct	_	_
 28	desde	_	ADP	ADP	_	29	case	_	_
@@ -152,10 +152,10 @@
 30	até	_	ADP	ADP	_	31	case	_	_
 31	colheita	colheita	NOUN	NOUN	_	29	nmod	_	_
 32	incluindo	incluir	VERB	VERB	_	26	acl	_	_
-33	o	o	DET	DET	_	34	det	_	_
+33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
 34	processamento	processamento	NOUN	NOUN	_	32	obj	_	_
 35	e	e	CCONJ	CONJ	_	37	cc	_	_
-36	a	o	DET	DET	_	37	det	_	_
+36	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
 37	entrega	entrega	NOUN	NOUN	_	34	conj	_	SpaceAfter=No
 38	,	,	PUNCT	.	_	40	punct	_	_
 39	são	ser	AUX	AUX	_	40	aux:pass	_	_
@@ -227,7 +227,7 @@
 
 # sent_id = train-s5963
 # text = O repasse depende do "crescimento da economia" e da capacidade do consumidor de "suportar" aumentos de tarifas, mas o executivo manifestou otimismo com a possibilidade duma taxa de expansão do PIB em torno de 4 %, no fim do ano.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	repasse	repasse	NOUN	NOUN	_	3	nsubj	_	_
 3	depende	depender	VERB	VERB	_	0	root	_	_
 4-5	do	_	_	_	_	_	_	_	_
@@ -258,12 +258,12 @@
 25	tarifas	tarifa	NOUN	NOUN	_	23	nmod	_	SpaceAfter=No
 26	,	,	PUNCT	.	_	30	punct	_	_
 27	mas	mas	CCONJ	CONJ	_	30	cc	_	_
-28	o	o	DET	DET	_	29	det	_	_
+28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	executivo	executivo	NOUN	NOUN	_	30	nsubj	_	_
 30	manifestou	manifestar	VERB	VERB	_	3	conj	_	_
 31	otimismo	otimismo	NOUN	NOUN	_	30	obj	_	_
 32	com	com	ADP	ADP	_	34	case	_	_
-33	a	o	DET	DET	_	34	det	_	_
+33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	possibilidade	possibilidade	NOUN	NOUN	_	31	nmod	_	_
 35-36	duma	_	_	_	_	_	_	_	_
 35	de	de	ADP	ADP	_	37	case	_	_
@@ -336,7 +336,7 @@
 38	(	(	PUNCT	.	_	39	punct	_	SpaceAfter=No
 39	20	_	NUM	NUM	NumType=Card	37	nmod	_	SpaceAfter=No
 40	)	)	PUNCT	.	_	39	punct	_	_
-41	o	o	DET	DET	_	43	det	_	_
+41	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
 42	último	último	ADJ	ADJ	_	43	amod	_	_
 43	registro	registro	NOUN	NOUN	_	33	nsubj	_	_
 44-45	do	_	_	_	_	_	_	_	_
@@ -355,7 +355,7 @@
 5	ano	ano	NOUN	NOUN	_	2	nmod	_	_
 6	passado	passado	ADJ	ADJ	_	5	amod	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	2	punct	_	_
-8	a	o	DET	DET	_	9	det	_	_
+8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	prefeitura	prefeitura	NOUN	NOUN	_	10	nsubj	_	_
 10	rompeu	romper	VERB	VERB	_	0	root	_	_
 11	contrato	contrato	NOUN	NOUN	_	10	obj	_	_
@@ -369,7 +369,7 @@
 18	5,8	_	NUM	NUM	NumType=Card	19	nummod	_	_
 19	milhões	_	NUM	NUM	NumType=Card	16	nummod	_	_
 20	com	com	ADP	ADP	_	22	case	_	_
-21	a	o	DET	DET	_	22	det	_	_
+21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	Spins	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
 23	,	,	PUNCT	.	_	24	punct	_	_
 24	responsável	responsável	ADJ	ADJ	_	22	amod	_	_
@@ -389,7 +389,7 @@
 6	e	e	CCONJ	CONJ	_	7	cc	_	_
 7	entrou	entrar	VERB	VERB	_	4	conj	_	_
 8	para	para	ADP	ADP	_	10	case	_	_
-9	a	o	DET	DET	_	10	det	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	política	_	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	14	punct	_	_
 12	sendo	ser	AUX	AUX	_	14	aux:pass	_	_

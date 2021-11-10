@@ -45,7 +45,7 @@
 26	,	,	PUNCT	.	_	30	punct	_	_
 27	tanto	tanto	ADV	ADV	_	30	cc	_	_
 28	para	para	ADP	ADP	_	30	case	_	_
-29	o	o	DET	DET	_	30	det	_	_
+29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	modelo	modelo	NOUN	NOUN	_	21	nmod	_	_
 31	convencional	convencional	ADJ	ADJ	_	30	amod	_	_
 32	quanto	_	CCONJ	CONJ	_	34	cc	_	_
@@ -64,7 +64,7 @@
 4	trimestre	trimestre	NOUN	NOUN	_	15	nmod	_	_
 5	para	para	ADP	ADP	_	6	case	_	_
 6	outro	_	PRON	PRON	_	4	nmod	_	_
-7	a	o	DET	DET	_	8	det	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	prioridade	prioridade	NOUN	NOUN	_	15	nsubj	_	_
 9	de	de	ADP	ADP	_	10	case	_	_
 10	gasto	gasto	NOUN	NOUN	_	8	nmod	_	_
@@ -76,7 +76,7 @@
 15	modificou	modificar	VERB	VERB	_	31	ccomp	_	SpaceAfter=No
 16	,	,	PUNCT	.	_	15	punct	_	_
 17	acompanhando	acompanhar	VERB	VERB	_	15	acl	_	_
-18	a	o	DET	DET	_	19	det	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	recuperação	recuperação	NOUN	NOUN	_	17	obj	_	_
 20	de	de	ADP	ADP	_	22	case	_	_
 21	curto	curto	ADJ	ADJ	_	22	amod	_	_
@@ -95,7 +95,7 @@
 
 # sent_id = train-s4399
 # text = A cidade é capital de Etólia e Acarnânia e também é sua segunda maior cidade.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	cidade	cidade	NOUN	NOUN	_	4	nsubj	_	_
 3	é	ser	AUX	AUX	_	4	cop	_	_
 4	capital	capital	NOUN	NOUN	_	0	root	_	_
@@ -136,13 +136,13 @@
 19	não	não	ADV	ADV	Polarity=Neg	21	advmod	_	_
 20	vai	ir	AUX	AUX	_	21	aux	_	_
 21	resolver	resolver	VERB	VERB	_	5	conj	_	_
-22	o	o	DET	DET	_	23	det	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	problema	problema	NOUN	NOUN	_	21	obj	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s4401
 # text = As pessoas têm que trabalhar no dia seguinte, e não acho que um horário desses seja bom para as crianças irem ao estádio.
-1	As	o	DET	DET	_	2	det	_	_
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	pessoas	pessoa	NOUN	NOUN	_	5	nsubj	_	_
 3	têm	ter	AUX	AUX	_	5	aux	_	_
 4	que	_	ADP	ADP	_	5	mark	_	_
@@ -163,7 +163,7 @@
 18	seja	ser	VERB	VERB	_	13	ccomp	_	_
 19	bom	bom	ADJ	ADJ	_	18	xcomp	_	_
 20	para	_	ADP	ADP	_	23	mark	_	_
-21	as	o	DET	DET	_	22	det	_	_
+21	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
 22	crianças	criança	NOUN	NOUN	_	23	nsubj	_	_
 23	irem	_	VERB	VERB	_	18	nmod	_	_
 24-25	ao	_	_	_	_	_	_	_	_
@@ -192,7 +192,7 @@
 16	fazem	fazer	VERB	VERB	_	14	acl:relcl	_	_
 17	fronteira	_	NOUN	NOUN	_	16	obj	_	_
 18	com	com	ADP	ADP	_	20	case	_	_
-19	o	o	DET	DET	_	20	det	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	território	território	NOUN	NOUN	_	17	nmod	_	_
 21	boliviano	boliviano	ADJ	ADJ	_	20	amod	_	_
 
@@ -215,7 +215,7 @@
 15	,	,	PUNCT	.	_	17	punct	_	_
 16	ou	ou	CCONJ	CONJ	_	17	cc	_	_
 17	variando	variar	VERB	VERB	_	11	conj	_	_
-18	o	o	DET	DET	_	19	det	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	tamanho	tamanho	NOUN	NOUN	_	17	obj	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -262,7 +262,7 @@
 2	-	-	PUNCT	.	_	12	punct	_	_
 3	se	_	PRON	PRON	_	1	obj	_	_
 4	com	com	ADP	ADP	_	6	case	_	_
-5	o	o	DET	DET	_	6	det	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	compositor	compositor	NOUN	NOUN	_	1	nmod	_	_
 7	Edward	_	PROPN	PNOUN	_	6	appos	_	_
 8	Solomon	_	PROPN	PNOUN	_	7	flat	_	_

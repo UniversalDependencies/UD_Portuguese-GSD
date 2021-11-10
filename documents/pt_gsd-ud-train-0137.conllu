@@ -93,7 +93,7 @@
 # sent_id = train-s1361
 # text = "A ré Geiza Dias exercia mera função burocrática e subalterna na empresa, e não de caráter de direção.
 1	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
-2	A	o	DET	DET	_	3	det	_	_
+2	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	ré	_	NOUN	NOUN	_	6	nsubj	_	_
 4	Geiza	_	PROPN	PNOUN	_	3	appos	_	_
 5	Dias	_	PROPN	PNOUN	_	4	flat	_	_
@@ -121,16 +121,16 @@
 1	Além	além	ADV	ADV	_	6	advmod	_	_
 2	disso	_	X	ADPPRON	_	1	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	1	punct	_	_
-4	o	o	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	projeto	projeto	NOUN	NOUN	_	6	nsubj	_	_
 6	visa	visar	VERB	VERB	_	0	root	_	_
 7	grandes	grande	ADJ	ADJ	_	8	amod	_	_
 8	eventos	evento	NOUN	NOUN	_	6	obj	_	_
 9	como	como	ADP	ADP	_	11	case	_	_
-10	as	o	DET	DET	_	11	det	_	_
+10	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
 11	Olimpíadas	_	PROPN	PNOUN	_	8	nmod	_	_
 12	e	e	CCONJ	CONJ	_	14	cc	_	_
-13	a	o	DET	DET	_	14	det	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	Copa	_	PROPN	PNOUN	_	11	conj	_	_
 15-16	do	_	_	_	_	_	_	_	_
 15	de	de	ADP	ADP	_	17	case	_	_
@@ -244,7 +244,7 @@
 52	,	,	PUNCT	.	_	45	punct	_	_
 53	que	_	PRON	PRON	_	54	nsubj	_	_
 54	impede	impedir	VERB	VERB	_	41	acl:relcl	_	_
-55	a	o	DET	DET	_	56	det	_	_
+55	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
 56	candidatura	candidatura	NOUN	NOUN	_	54	obj	_	_
 57	de	de	ADP	ADP	_	58	case	_	_
 58	políticos	político	NOUN	NOUN	_	56	nmod	_	_
@@ -256,12 +256,12 @@
 
 # sent_id = train-s1365
 # text = A Continental se fundiu com a United em 2010.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Continental	_	PROPN	PNOUN	_	4	nsubj	_	_
 3	se	_	PRON	PRON	_	4	expl:pv	_	_
 4	fundiu	fundir	VERB	VERB	_	0	root	_	_
 5	com	com	ADP	ADP	_	7	case	_	_
-6	a	o	DET	DET	_	7	det	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	United	_	PROPN	PNOUN	_	4	nmod	_	_
 8	em	em	ADP	ADP	_	9	case	_	_
 9	2010	_	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
@@ -305,19 +305,19 @@
 
 # sent_id = train-s1367
 # text = O brasileiro ficou impressionado com o francês Yannick Agnel, que fechou o 4x100m livre e roubou dos americanos a medalha de ouro.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	brasileiro	brasileiro	NOUN	NOUN	_	3	nsubj	_	_
 3	ficou	ficar	VERB	VERB	_	0	root	_	_
 4	impressionado	impressionado	ADJ	ADJ	_	3	xcomp	_	_
 5	com	com	ADP	ADP	_	7	case	_	_
-6	o	o	DET	DET	_	7	det	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	francês	francês	NOUN	NOUN	_	4	nmod	_	_
 8	Yannick	_	PROPN	PNOUN	_	7	appos	_	_
 9	Agnel	_	PROPN	PNOUN	_	8	flat	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	12	punct	_	_
 11	que	_	PRON	PRON	_	12	nsubj	_	_
 12	fechou	fechar	VERB	VERB	_	7	acl:relcl	_	_
-13	o	o	DET	DET	_	14	det	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	4x100m	_	NOUN	NOUN	_	12	obj	_	_
 15	livre	livre	ADJ	ADJ	_	14	amod	_	_
 16	e	e	CCONJ	CONJ	_	17	cc	_	_
@@ -326,7 +326,7 @@
 18	de	de	ADP	ADP	_	20	case	_	_
 19	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
 20	americanos	americano	NOUN	NOUN	_	17	nmod	_	_
-21	a	o	DET	DET	_	22	det	_	_
+21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	medalha	medalha	NOUN	NOUN	_	17	obj	_	_
 23	de	de	ADP	ADP	_	24	case	_	_
 24	ouro	ouro	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
@@ -334,7 +334,7 @@
 
 # sent_id = train-s1368
 # text = O porta - voz ministerial britânico fez um pedido ao país sul - americano para que 'retome, o mais rápido possível, o diálogo construtivo' que mantiveram até o momento sobre este assunto.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	porta	porta	NOUN	NOUN	_	7	nsubj	_	_
 3	-	-	PUNCT	.	_	2	punct	_	_
 4	voz	voz	NOUN	NOUN	_	2	flat	_	_
@@ -360,14 +360,14 @@
 23	rápido	_	VERB	VERB	_	19	advmod	_	_
 24	possível	_	ADV	ADV	_	23	advmod	_	SpaceAfter=No
 25	,	,	PUNCT	.	_	23	punct	_	_
-26	o	o	DET	DET	_	27	det	_	_
+26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	diálogo	diálogo	NOUN	NOUN	_	19	obj	_	_
 28	construtivo	construtivo	ADJ	ADJ	_	27	amod	_	SpaceAfter=No
 29	'	_	PUNCT	.	_	19	punct	_	_
 30	que	_	PRON	PRON	_	31	obj	_	_
 31	mantiveram	manter	VERB	VERB	_	27	acl:relcl	_	_
 32	até	_	ADP	ADP	_	34	case	_	_
-33	o	o	DET	DET	_	34	det	_	_
+33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
 34	momento	momento	NOUN	NOUN	_	31	nmod	_	_
 35	sobre	_	ADP	ADP	_	37	case	_	_
 36	este	_	DET	DET	_	37	det	_	_

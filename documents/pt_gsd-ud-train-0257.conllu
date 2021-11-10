@@ -1,6 +1,6 @@
 # sent_id = train-s2551
 # text = O Gladiador marcou seis vezes na casa do rival e o boliviano, cinco.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Gladiador	gladiador	NOUN	NOUN	_	3	nsubj	_	_
 3	marcou	marcar	VERB	VERB	_	0	root	_	_
 4	seis	_	NUM	NUM	NumType=Card	5	nummod	_	_
@@ -27,7 +27,7 @@
 3	se	_	PART	PRT	_	1	expl:pv	_	_
 4	de	_	ADP	ADP	_	5	mark	_	_
 5	alterar	alterar	VERB	VERB	_	1	nmod	_	_
-6	a	o	DET	DET	_	7	det	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	poção	poção	NOUN	NOUN	_	5	obj	_	_
 8	de	de	ADP	ADP	_	10	case	_	_
 9	várias	_	DET	DET	_	10	det	_	_
@@ -52,7 +52,7 @@
 5	muito	muito	ADV	ADV	_	6	advmod	_	_
 6	feliz	feliz	ADJ	ADJ	_	3	conj	_	_
 7	com	com	ADP	ADP	_	9	case	_	_
-8	o	o	DET	DET	_	9	det	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	convite	convite	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -83,7 +83,7 @@
 # text = O que a Globo quiser de mim, eu quero ", diz.
 1	O	_	PRON	PRON	_	10	obj	_	_
 2	que	_	PRON	PRON	_	5	obj	_	_
-3	a	o	DET	DET	_	4	det	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Globo	_	PROPN	PNOUN	_	5	nsubj	_	_
 5	quiser	querer	VERB	VERB	_	1	acl:relcl	_	_
 6	de	de	ADP	ADP	_	7	case	_	_
@@ -98,13 +98,13 @@
 
 # sent_id = train-s2556
 # text = O advogado Raimundo Júnior declarou para a TV Cidade Verde que vai buscar sustar os efeitos da decisão.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	advogado	advogado	NOUN	NOUN	_	5	nsubj	_	_
 3	Raimundo	_	PROPN	PNOUN	_	2	appos	_	_
 4	Júnior	_	PROPN	PNOUN	_	3	flat	_	_
 5	declarou	declarar	VERB	VERB	_	0	root	_	_
 6	para	para	ADP	ADP	_	8	case	_	_
-7	a	o	DET	DET	_	8	det	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	TV	tv	NOUN	NOUN	_	5	nmod	_	_
 9	Cidade	_	PROPN	PNOUN	_	8	appos	_	_
 10	Verde	_	PROPN	PNOUN	_	9	amod	_	_
@@ -122,19 +122,19 @@
 
 # sent_id = train-s2557
 # text = O primeiro a se interessar foi o Botafogo, que desistiu após a negociação ser vetada pelo técnico Oswaldo de Oliveira, que não via o centroavante como o nome ideal para o ataque do time.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	primeiro	primeiro	NOUN	NOUN	_	0	root	_	_
 3	a	_	ADP	ADP	_	5	mark	_	_
 4	se	_	PRON	PRON	_	5	obj	_	_
 5	interessar	interessar	VERB	VERB	_	2	nmod	_	_
 6	foi	_	AUX	AUX	_	2	cop	_	_
-7	o	o	DET	DET	_	8	det	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	Botafogo	_	PROPN	PNOUN	_	2	nsubj	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	11	punct	_	_
 10	que	_	PRON	PRON	_	11	nsubj	_	_
 11	desistiu	desistir	VERB	VERB	_	8	acl:relcl	_	_
 12	após	_	ADP	ADP	_	16	mark	_	_
-13	a	o	DET	DET	_	14	det	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	negociação	negociação	NOUN	NOUN	_	16	nsubj:pass	_	_
 15	ser	ser	AUX	AUX	_	16	aux:pass	_	_
 16	vetada	vetar	VERB	VERB	_	11	advcl	_	_
@@ -149,14 +149,14 @@
 24	que	_	PRON	PRON	_	26	nsubj	_	_
 25	não	não	ADV	ADV	Polarity=Neg	26	advmod	_	_
 26	via	ver	VERB	VERB	_	19	acl:relcl	_	_
-27	o	o	DET	DET	_	28	det	_	_
+27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	centroavante	centroavante	NOUN	NOUN	_	26	obj	_	_
 29	como	como	ADP	ADP	_	31	case	_	_
-30	o	o	DET	DET	_	31	det	_	_
+30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	nome	nome	NOUN	NOUN	_	26	nmod	_	_
 32	ideal	ideal	ADJ	ADJ	_	31	amod	_	_
 33	para	para	ADP	ADP	_	35	case	_	_
-34	o	o	DET	DET	_	35	det	_	_
+34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	ataque	ataque	NOUN	NOUN	_	32	nmod	_	_
 36-37	do	_	_	_	_	_	_	_	_
 36	de	de	ADP	ADP	_	38	case	_	_
@@ -166,7 +166,7 @@
 
 # sent_id = train-s2558
 # text = O Shopping 26 de Agosto fica na região central da Capital e prestes a completar um ano de atividades, já comemora o aumento no número de visitantes e clientes do local.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Shopping	shopping	NOUN	NOUN	_	6	nsubj	_	_
 3	26	_	NUM	NUM	NumType=Card	2	appos	_	_
 4	de	de	ADP	ADP	_	5	case	_	_
@@ -192,7 +192,7 @@
 22	,	,	PUNCT	.	_	24	punct	_	_
 23	já	já	ADV	ADV	_	24	advmod	_	_
 24	comemora	comemorar	VERB	VERB	_	6	conj	_	_
-25	o	o	DET	DET	_	26	det	_	_
+25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	aumento	aumento	NOUN	NOUN	_	24	obj	_	_
 27-28	no	_	_	_	_	_	_	_	_
 27	em	em	ADP	ADP	_	29	case	_	_
@@ -259,7 +259,7 @@
 1	Depois	depois	ADV	ADV	_	3	mark	_	_
 2	de	_	ADP	ADP	_	1	fixed	_	_
 3	trabalhar	trabalhar	VERB	VERB	_	29	advcl	_	_
-4	o	o	DET	DET	_	5	det	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	dia	dia	NOUN	NOUN	_	3	nmod	_	_
 6	inteiro	inteiro	ADJ	ADJ	_	5	amod	_	_
 7	em	em	ADP	ADP	_	8	case	_	_
@@ -272,7 +272,7 @@
 13	McDia	_	PROPN	PNOUN	_	11	appos	_	_
 14	Feliz	_	PROPN	PNOUN	_	13	amod	_	SpaceAfter=No
 15	,	,	PUNCT	.	_	3	punct	_	_
-16	a	o	DET	DET	_	17	det	_	_
+16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	modelo	modelo	NOUN	NOUN	_	29	nsubj	_	SpaceAfter=No
 18	,	,	PUNCT	.	_	19	punct	_	_
 19	conhecida	conhecer	VERB	VERB	_	17	acl	_	_

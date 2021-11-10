@@ -11,7 +11,7 @@
 7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	ABC	_	PROPN	PNOUN	_	5	nmod	_	_
 9	foi	_	AUX	AUX	_	2	cop	_	_
-10	o	o	DET	DET	_	11	det	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	goleiro	goleiro	NOUN	NOUN	_	2	nsubj	_	_
 12	Rafael	_	PROPN	PNOUN	_	11	appos	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	2	punct	_	_
@@ -28,7 +28,7 @@
 7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	dia	dia	NOUN	NOUN	_	3	nmod	_	_
 9	para	para	ADP	ADP	_	11	case	_	_
-10	a	o	DET	DET	_	11	det	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	noite	noite	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -61,14 +61,14 @@
 24	mas	mas	CCONJ	CONJ	_	39	cc	_	_
 25	tão	tão	ADV	ADV	_	26	advmod	_	_
 26	logo	logo	ADV	ADV	_	32	mark	_	_
-27	as	o	DET	DET	_	28	det	_	_
+27	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
 28	placas	placa	NOUN	NOUN	_	32	nsubj:pass	_	_
 29	começam	_	AUX	AUX	_	32	aux	_	_
 30	a	_	ADP	ADP	_	32	mark	_	_
 31	ser	ser	AUX	AUX	_	32	aux:pass	_	_
 32	formadas	formar	VERB	VERB	_	39	advcl	_	SpaceAfter=No
 33	,	,	PUNCT	.	_	32	punct	_	_
-34	o	o	DET	DET	_	35	det	_	_
+34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	período	período	NOUN	NOUN	_	39	nsubj:pass	_	_
 36	de	de	ADP	ADP	_	37	case	_	_
 37	sono	sono	NOUN	NOUN	_	35	nmod	_	_
@@ -81,7 +81,7 @@
 
 # sent_id = train-s4688
 # text = O Shopping Várzea Grande terá 90 mil metros quadrados, entre hotel e shopping, distribuídos em cinco pavimentos.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Shopping	_	PROPN	PNOUN	_	5	nsubj	_	_
 3	Várzea	_	PROPN	PNOUN	_	2	flat	_	_
 4	Grande	_	PROPN	PNOUN	_	2	amod	_	_
@@ -105,13 +105,13 @@
 # sent_id = train-s4689
 # text = Segundo o censo americano de 2000, a sua população era de 4726 habitantes.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	censo	censo	NOUN	NOUN	_	11	nmod	_	_
 4	americano	americano	ADJ	ADJ	_	3	amod	_	_
 5	de	de	ADP	ADP	_	6	case	_	_
 6	2000	_	NUM	NUM	NumType=Card	3	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	3	punct	_	_
-8	a	o	DET	DET	_	10	det	_	_
+8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 9	sua	_	DET	DET	_	10	det:poss	_	_
 10	população	população	NOUN	NOUN	_	11	nsubj	_	_
 11	era	_	VERB	VERB	_	0	root	_	_
@@ -122,7 +122,7 @@
 
 # sent_id = train-s4690
 # text = O artilheiro Laércio aos 33 minutos e Luizinho Neto aos 38 tornaram as coisas difíceis para o Iguaçu conseguir manter a vantagem.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	artilheiro	artilheiro	NOUN	NOUN	_	14	nsubj	_	_
 3	Laércio	_	PROPN	PNOUN	_	2	appos	_	_
 4-5	aos	_	_	_	_	_	_	_	_
@@ -138,15 +138,15 @@
 12	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 13	38	_	NUM	NUM	NumType=Card	9	nmod	_	_
 14	tornaram	tornar	VERB	VERB	_	0	root	_	_
-15	as	o	DET	DET	_	16	det	_	_
+15	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
 16	coisas	coisa	NOUN	NOUN	_	17	nsubj	_	_
 17	difíceis	difícil	ADJ	ADJ	_	14	xcomp	_	_
 18	para	_	ADP	ADP	_	21	mark	_	_
-19	o	o	DET	DET	_	20	det	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	Iguaçu	_	PROPN	PNOUN	_	21	nsubj	_	_
 21	conseguir	conseguir	VERB	VERB	_	17	nmod	_	_
 22	manter	manter	VERB	VERB	_	21	xcomp	_	_
-23	a	o	DET	DET	_	24	det	_	_
+23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	vantagem	vantagem	NOUN	NOUN	_	22	obj	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	14	punct	_	_
 
@@ -160,7 +160,7 @@
 6	e	e	CCONJ	CONJ	_	7	cc	_	_
 7	1850	_	NUM	NUM	NumType=Card	5	conj	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	3	punct	_	_
-9	o	o	DET	DET	_	10	det	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	arquitecto	arquitecto	NOUN	NOUN	_	13	nsubj	_	_
 11	August	_	PROPN	PNOUN	_	10	appos	_	_
 12	Gersdorff	_	PROPN	PNOUN	_	11	flat	_	_
@@ -177,7 +177,7 @@
 
 # sent_id = train-s4692
 # text = O motorista do caminhão não se feriu.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	motorista	motorista	NOUN	NOUN	_	8	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -199,7 +199,7 @@
 7	10	_	NUM	NUM	NumType=Card	5	nmod	_	SpaceAfter=No
 8	)	)	PUNCT	.	_	7	punct	_	_
 9	durante	_	ADP	ADP	_	13	case	_	_
-10	o	o	DET	DET	_	13	det	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 11	3	_	ADJ	ADJ	_	13	amod	_	_
 12	º	_	PUNCT	.	_	11	punct	_	_
 13	Fórum	_	PROPN	PNOUN	_	3	nmod	_	_
@@ -242,7 +242,7 @@
 
 # sent_id = train-s4694
 # text = O diretor Marcio Tavolari está trabalhando em cima delas.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	diretor	diretor	NOUN	NOUN	_	6	nsubj	_	_
 3	Marcio	_	PROPN	PNOUN	_	2	appos	_	_
 4	Tavolari	_	PROPN	PNOUN	_	3	flat	_	_

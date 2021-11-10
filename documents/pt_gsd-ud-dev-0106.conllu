@@ -8,7 +8,7 @@
 6	Reuters	_	PROPN	PNOUN	_	1	appos	_	SpaceAfter=No
 7	)	)	PUNCT	.	_	6	punct	_	_
 8	--	_	PUNCT	.	_	16	punct	_	_
-9	O	o	DET	DET	_	10	det	_	_
+9	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	embaixador	embaixador	NOUN	NOUN	_	16	nsubj	_	_
 11-12	da	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	13	case	_	_
@@ -55,12 +55,12 @@
 
 # sent_id = dev-s1043
 # text = A entidade tem como intuito a formação de jovens lideranças empresariais que se comprometam com um modelo de organização social e política para o Brasil, baseado no ideal democrático de liberdades individuais e orientados na defesa e manutenção dos valores da economia de mercado e da livre iniciativa.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	entidade	entidade	NOUN	NOUN	_	3	nsubj	_	_
 3	tem	ter	VERB	VERB	_	0	root	_	_
 4	como	como	ADP	ADP	_	5	case	_	_
 5	intuito	intuito	NOUN	NOUN	_	3	nmod	_	_
-6	a	o	DET	DET	_	7	det	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	formação	formação	NOUN	NOUN	_	3	obj	_	_
 8	de	de	ADP	ADP	_	10	case	_	_
 9	jovens	jovem	ADJ	ADJ	_	10	amod	_	_
@@ -78,7 +78,7 @@
 21	e	e	CCONJ	CONJ	_	22	cc	_	_
 22	política	político	ADJ	ADJ	_	20	conj	_	_
 23	para	para	ADP	ADP	_	25	case	_	_
-24	o	o	DET	DET	_	25	det	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	Brasil	_	PROPN	PNOUN	_	17	nmod	_	SpaceAfter=No
 26	,	,	PUNCT	.	_	27	punct	_	_
 27	baseado	basear	VERB	VERB	_	17	acl	_	_
@@ -160,7 +160,7 @@
 2	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	jogos	jogo	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
-5	a	o	DET	DET	_	7	det	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 6	maior	maior	ADJ	ADJ	_	7	amod	_	_
 7	variação	variação	NOUN	NOUN	_	14	nsubj	_	_
 8	de	de	ADP	ADP	_	9	case	_	_
@@ -213,7 +213,7 @@
 
 # sent_id = dev-s1046
 # text = O estilo chamado art nouveau ("arte nova" em português) foi típico da Belle Époque.
-1	O	o	DET	DET	_	2	det	_	_
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	estilo	estilo	NOUN	NOUN	_	3	nsubj	_	_
 3	chamado	chamar	VERB	AUX	_	15	csubj	_	_
 4	art	art	NOUN	NOUN	_	3	obj	_	_
@@ -256,18 +256,18 @@
 17	os	o	DET	DET	_	18	det	_	_
 18	cátaros	cátaro	NOUN	NOUN	_	14	conj	_	SpaceAfter=No
 19	,	,	PUNCT	.	_	21	punct	_	_
-20	o	o	DET	DET	_	21	det	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	gnosticismo	gnosticismo	NOUN	NOUN	_	14	conj	_	SpaceAfter=No
 22	,	,	PUNCT	.	_	25	punct	_	_
-23	o	o	DET	DET	_	25	det	_	_
+23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 24	Santo	_	PROPN	PNOUN	_	25	amod	_	_
 25	Graal	_	PROPN	PNOUN	_	14	conj	_	_
 26	e	e	CCONJ	CONJ	_	28	cc	_	_
-27	as	o	DET	DET	_	28	det	_	_
+27	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
 28	lendas	lenda	NOUN	NOUN	_	14	conj	_	_
 29	relacionadas	relacionado	ADJ	ADJ	_	28	amod	_	_
 30	com	com	ADP	ADP	_	32	case	_	_
-31	o	o	DET	DET	_	32	det	_	_
+31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	sul	sul	NOUN	NOUN	_	29	nmod	_	_
 33-34	da	_	_	_	_	_	_	_	_
 33	de	de	ADP	ADP	_	35	case	_	_
@@ -277,7 +277,7 @@
 37	e	e	CCONJ	CONJ	_	39	cc	_	_
 38	em	em	ADP	ADP	_	39	case	_	_
 39	particular	particular	NOUN	NOUN	_	32	conj	_	_
-40	a	o	DET	DET	_	41	det	_	_
+40	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
 41	cidade	cidade	NOUN	NOUN	_	39	conj	_	_
 42	de	de	ADP	ADP	_	43	case	_	_
 43	Rennes	_	PROPN	PNOUN	_	41	nmod	_	_
@@ -290,47 +290,47 @@
 # sent_id = dev-s1048
 # text = Como a explosão cósmica inicial, que gerou o espaço, o tempo, a estrela, o planeta, o homem, o gato, a formiga, o pintor, a tela, o cavalete.
 1	Como	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	_	3	det	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	explosão	explosão	NOUN	NOUN	_	0	root	_	_
 4	cósmica	cósmico	ADJ	ADJ	_	3	amod	_	_
 5	inicial	inicial	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	8	punct	_	_
 7	que	_	PRON	PRON	_	8	nsubj	_	_
 8	gerou	gerar	VERB	VERB	_	3	acl:relcl	_	_
-9	o	o	DET	DET	_	10	det	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	espaço	espaço	NOUN	NOUN	_	8	obj	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	13	punct	_	_
-12	o	o	DET	DET	_	13	det	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	tempo	tempo	NOUN	NOUN	_	10	conj	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	16	punct	_	_
-15	a	o	DET	DET	_	16	det	_	_
+15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	estrela	estrela	NOUN	NOUN	_	10	conj	_	SpaceAfter=No
 17	,	,	PUNCT	.	_	19	punct	_	_
-18	o	o	DET	DET	_	19	det	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	planeta	planeta	NOUN	NOUN	_	10	conj	_	SpaceAfter=No
 20	,	,	PUNCT	.	_	22	punct	_	_
-21	o	o	DET	DET	_	22	det	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	homem	homem	NOUN	NOUN	_	10	conj	_	SpaceAfter=No
 23	,	,	PUNCT	.	_	25	punct	_	_
-24	o	o	DET	DET	_	25	det	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	gato	gato	NOUN	NOUN	_	10	conj	_	SpaceAfter=No
 26	,	,	PUNCT	.	_	28	punct	_	_
-27	a	o	DET	DET	_	28	det	_	_
+27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	formiga	formiga	NOUN	NOUN	_	10	conj	_	SpaceAfter=No
 29	,	,	PUNCT	.	_	31	punct	_	_
-30	o	o	DET	DET	_	31	det	_	_
+30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	pintor	pintor	NOUN	NOUN	_	10	conj	_	SpaceAfter=No
 32	,	,	PUNCT	.	_	34	punct	_	_
-33	a	o	DET	DET	_	34	det	_	_
+33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	tela	tela	NOUN	NOUN	_	10	conj	_	SpaceAfter=No
 35	,	,	PUNCT	.	_	37	punct	_	_
-36	o	o	DET	DET	_	37	det	_	_
+36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
 37	cavalete	cavalete	NOUN	NOUN	_	10	conj	_	SpaceAfter=No
 38	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = dev-s1049
 # text = A empresa chinesa é a mesma dos novos vagões do metrô.
-1	A	o	DET	DET	_	2	det	_	_
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	empresa	empresa	NOUN	NOUN	_	6	nsubj	_	_
 3	chinesa	chinês	ADJ	ADJ	_	2	amod	_	_
 4	é	ser	AUX	AUX	_	6	cop	_	_
@@ -350,7 +350,7 @@
 # sent_id = dev-s1050
 # text = Segundo o secretário de Coordenação e Planejamento, Paulo Cuchiara, a estrada é via reconhecida do município, é pública.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	_	3	det	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	secretário	secretário	NOUN	NOUN	_	15	nmod	_	_
 4	de	de	ADP	ADP	_	5	case	_	_
 5	Coordenação	_	PROPN	PNOUN	_	3	nmod	_	_
@@ -360,7 +360,7 @@
 9	Paulo	_	PROPN	PNOUN	_	3	appos	_	_
 10	Cuchiara	_	PROPN	PNOUN	_	9	flat	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	9	punct	_	_
-12	a	o	DET	DET	_	13	det	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	estrada	estrada	NOUN	NOUN	_	15	nsubj	_	_
 14	é	ser	AUX	AUX	_	15	cop	_	_
 15	via	via	NOUN	NOUN	_	0	root	_	_
@@ -382,7 +382,7 @@
 3	segunda	segundo	ADJ	ADJ	_	4	amod	_	_
 4	partida	partida	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	4	punct	_	_
-6	a	o	DET	DET	_	7	det	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	equipe	equipe	NOUN	NOUN	_	13	nsubj	_	_
 8-9	da	_	_	_	_	_	_	_	_
 8	de	de	ADP	ADP	_	10	case	_	_
@@ -391,7 +391,7 @@
 11	de	de	ADP	ADP	_	12	case	_	_
 12	Apucarana	_	PROPN	PNOUN	_	10	nmod	_	_
 13	bateu	bater	VERB	VERB	_	0	root	_	_
-14	o	o	DET	DET	_	15	det	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	Punk	_	PROPN	PNOUN	_	13	obj	_	_
 16	's	_	PROPN	PNOUN	_	15	det:poss	_	_
 17	por	por	ADP	ADP	_	18	case	_	_
