@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_Portuguese-GSD:
-commit 365f5d4ec9bedbc407d9d2db820213938a3f49ed
-Merge: f618cdf 545351b
+commit 7d17663cc5ebdf4376139226304a4b1c3e62842a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Wed Nov 3 16:52:55 2021 +0100
 Size: counted 318922 of 318922 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.5298931175596.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,7 +25,17 @@ Udapi: found 62984 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 318922 words.
 Genres: found 2 out of 17 known.
 validate.py --lang pt --max-err=10 UD_Portuguese-GSD/pt_gsd-ud-dev.conllu
+[Line 1247 Sent dev-s43 Node 7]: [L5 Morpho aux-lemma] 'começar' is not an auxiliary verb in language [pt]
+[Line 1450 Sent dev-s50 Node 10]: [L5 Morpho aux-lemma] 'passar' is not an auxiliary verb in language [pt]
+[Line 1571 Sent dev-s53 Node 19]: [L5 Morpho aux-lemma] 'passar' is not an auxiliary verb in language [pt]
+[Line 1824 Sent dev-s61 Node 13]: [L5 Morpho aux-lemma] 'deixar' is not an auxiliary verb in language [pt]
+[Line 2528 Sent dev-s81 Node 25]: [L5 Morpho aux-lemma] 'passar' is not an auxiliary verb in language [pt]
+[Line 4940 Sent dev-s155 Node 4]: [L5 Morpho aux-lemma] 'voltar' is not an auxiliary verb in language [pt]
+[Line 7861 Sent dev-s246 Node 13]: [L5 Morpho aux-lemma] 'voltar' is not an auxiliary verb in language [pt]
+[Line 8505 Sent dev-s269 Node 3]: [L5 Morpho aux-lemma] 'acabar' is not an auxiliary verb in language [pt]
+[Line 9365 Sent dev-s299 Node 6]: [L5 Morpho aux-lemma] 'voltar' is not an auxiliary verb in language [pt]
 [Line 9872 Sent dev-s313 Node 41]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'X'
+...suppressing further errors regarding Morpho
 [Line 10142 Sent dev-s322 Node 9]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (9:por:case --> 11:de:case)
 [Line 10143 Sent dev-s322 Node 9]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (9:por:case --> 12:a:det)
 [Line 10146 Sent dev-s322 Node 15]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'X'
@@ -35,16 +45,9 @@ validate.py --lang pt --max-err=10 UD_Portuguese-GSD/pt_gsd-ud-dev.conllu
 [Line 13363 Sent dev-s412 Node 10]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [11, 12]
 [Line 13655 Sent dev-s422 Node 29]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [30, 31, 32, 33]
 ...suppressing further errors regarding Syntax
-[Line 15039 Sent dev-s465 Node 3]: [L5 Morpho aux-lemma] 'terminar' is not an auxiliary verb in language [pt]
-[Line 15205 Sent dev-s470b Node 1]: [L5 Morpho aux-lemma] 'denominar' is not an auxiliary verb in language [pt]
-[Line 22249 Sent dev-s685 Node 36]: [L5 Morpho aux-lemma] 'chamar' is not an auxiliary verb in language [pt]
-[Line 24553 Sent dev-s767 Node 14]: [L5 Morpho aux-lemma] 'intitular' is not an auxiliary verb in language [pt]
-[Line 25026 Sent dev-s782 Node 13]: [L5 Morpho aux-lemma] 'eleger' is not an auxiliary verb in language [pt]
-[Line 25088 Sent dev-s785 Node 8]: [L5 Morpho aux-lemma] 'conseguir' is not an auxiliary verb in language [pt]
-[Line 25500 Sent dev-s800 Node 48]: [L5 Morpho aux-lemma] 'seguir' is not an auxiliary verb in language [pt]
-Morpho errors: 7
-Syntax errors: 99
-*** FAILED *** with 106 errors
+Morpho errors: 30
+Syntax errors: 97
+*** FAILED *** with 127 errors
 Exit code: 1
 validate.py --lang pt --max-err=10 UD_Portuguese-GSD/pt_gsd-ud-test.conllu
 [Line 289 Sent test-s12a Node 1]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (1:Face:case --> 2:a:case)
@@ -52,27 +55,29 @@ validate.py --lang pt --max-err=10 UD_Portuguese-GSD/pt_gsd-ud-test.conllu
 [Line 718 Sent test-s22 Node 2]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [3]
 [Line 1101 Sent test-s35 Node 15]: [L5 Morpho aux-lemma] 'chamar' is not an auxiliary verb in language [pt]
 [Line 1101 Sent test-s35 Node 15]: [L5 Syntax cop-lemma] 'chamar' is not a copula in language [pt]
+[Line 1106 Sent test-s35 Node 20]: [L5 Morpho aux-lemma] 'passar' is not an auxiliary verb in language [pt]
 [Line 1109 Sent test-s35 Node 23]: [L5 Morpho aux-lemma] 'chamar' is not an auxiliary verb in language [pt]
 [Line 1109 Sent test-s35 Node 23]: [L5 Syntax cop-lemma] 'chamar' is not a copula in language [pt]
+[Line 1446 Sent test-s45 Node 7]: [L5 Morpho aux-lemma] 'passar' is not an auxiliary verb in language [pt]
 [Line 2106 Sent test-s65 Node 14]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (14:devido:case --> 15:a:case)
 [Line 2107 Sent test-s65 Node 14]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (14:devido:case --> 16:as:det)
 [Line 2246 Sent test-s68 Node 26]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (26:apesar:case --> 27:de:case)
 [Line 2247 Sent test-s68 Node 26]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (26:apesar:case --> 28:as:det)
+[Line 2271 Sent test-s68 Node 51]: [L5 Morpho aux-lemma] 'voltar' is not an auxiliary verb in language [pt]
+[Line 2277 Sent test-s68 Node 57]: [L5 Morpho aux-lemma] 'costumar' is not an auxiliary verb in language [pt]
 ...suppressing further errors regarding Syntax
-[Line 7205 Sent test-s228 Node 7]: [L5 Morpho aux-lemma] 'considerar' is not an auxiliary verb in language [pt]
-[Line 10576 Sent test-s344a Node 5]: [L5 Morpho aux-lemma] 'vencer' is not an auxiliary verb in language [pt]
-[Line 12983 Sent test-s421 Node 30]: [L5 Morpho aux-lemma] 'denominar' is not an auxiliary verb in language [pt]
-[Line 13224 Sent test-s428 Node 9]: [L5 Morpho aux-lemma] 'considerar' is not an auxiliary verb in language [pt]
-[Line 15414 Sent test-s499 Node 29]: [L5 Morpho aux-lemma] 'considerar' is not an auxiliary verb in language [pt]
-[Line 16912 Sent test-s544 Node 15]: [L5 Morpho aux-lemma] 'significar' is not an auxiliary verb in language [pt]
-[Line 33299 Sent test-s1064 Node 28]: [L5 Morpho aux-lemma] 'configurar' is not an auxiliary verb in language [pt]
+[Line 2698 Sent test-s85 Node 9]: [L5 Morpho aux-lemma] 'passar' is not an auxiliary verb in language [pt]
+[Line 2745 Sent test-s87 Node 13]: [L5 Morpho aux-lemma] 'chegar' is not an auxiliary verb in language [pt]
+[Line 3429 Sent test-s109 Node 17]: [L5 Morpho aux-lemma] 'chegar' is not an auxiliary verb in language [pt]
 ...suppressing further errors regarding Morpho
-Morpho errors: 10
-Syntax errors: 148
-*** FAILED *** with 158 errors
+Morpho errors: 53
+Syntax errors: 147
+*** FAILED *** with 200 errors
 Exit code: 1
 validate.py --lang pt --max-err=10 UD_Portuguese-GSD/pt_gsd-ud-train.conllu
 [Line 251 Sent train-s5 Node 17]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'PROPN'
+[Line 295 Sent train-s7 Node 10]: [L5 Morpho aux-lemma] 'passar' is not an auxiliary verb in language [pt]
+[Line 453 Sent train-s11 Node 10]: [L5 Morpho aux-lemma] 'voltar' is not an auxiliary verb in language [pt]
 [Line 730 Sent train-s21 Node 9]: [L3 Syntax rel-upos-mark] 'mark' should not be 'PRON'
 [Line 940 Sent train-s27 Node 1]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (1:Apesar:case --> 2:de:case)
 [Line 941 Sent train-s27 Node 1]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (1:Apesar:case --> 3:o:det)
@@ -80,21 +85,19 @@ validate.py --lang pt --max-err=10 UD_Portuguese-GSD/pt_gsd-ud-train.conllu
 [Line 1464 Sent train-s45 Node 30]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'PROPN'
 [Line 1573 Sent train-s49 Node 4]: [L5 Morpho aux-lemma] 'considerar' is not an auxiliary verb in language [pt]
 [Line 1573 Sent train-s49 Node 4]: [L5 Syntax cop-lemma] 'considerar' is not a copula in language [pt]
+[Line 1611 Sent train-s50 Node 8]: [L5 Morpho aux-lemma] 'acabar' is not an auxiliary verb in language [pt]
+[Line 1775 Sent train-s57 Node 9]: [L5 Morpho aux-lemma] 'voltar' is not an auxiliary verb in language [pt]
 [Line 2138 Sent train-s71 Node 6]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (6:depois:mark --> 5:dias:nmod)
+[Line 2677 Sent train-s85 Node 10]: [L5 Morpho aux-lemma] 'continuar' is not an auxiliary verb in language [pt]
 [Line 2767 Sent train-s88 Node 4]: [L5 Morpho aux-lemma] 'nomear' is not an auxiliary verb in language [pt]
 [Line 2767 Sent train-s88 Node 4]: [L5 Syntax cop-lemma] 'nomear' is not a copula in language [pt]
+[Line 3366 Sent train-s111 Node 3]: [L5 Morpho aux-lemma] 'começar' is not an auxiliary verb in language [pt]
 [Line 3526 Sent train-s118 Node 25]: [L3 Syntax rel-upos-case] 'case' should not be 'PROPN'
 ...suppressing further errors regarding Syntax
-[Line 4252 Sent train-s144 Node 7]: [L5 Morpho aux-lemma] 'denominar' is not an auxiliary verb in language [pt]
-[Line 6132 Sent train-s201 Node 16]: [L5 Morpho aux-lemma] 'denominar' is not an auxiliary verb in language [pt]
-[Line 6396 Sent train-s211 Node 8]: [L5 Morpho aux-lemma] 'considerar' is not an auxiliary verb in language [pt]
-[Line 7789 Sent train-s254 Node 8]: [L5 Morpho aux-lemma] 'virar' is not an auxiliary verb in language [pt]
-[Line 8232 Sent train-s270 Node 17]: [L5 Morpho aux-lemma] 'tocar' is not an auxiliary verb in language [pt]
-[Line 11279 Sent train-s363 Node 13]: [L5 Morpho aux-lemma] 'chamar' is not an auxiliary verb in language [pt]
 ...suppressing further errors regarding Morpho
-Morpho errors: 112
-Syntax errors: 1326
-*** FAILED *** with 1438 errors
+Morpho errors: 451
+Syntax errors: 1315
+*** FAILED *** with 1766 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.12) = 0.00923076923076923
