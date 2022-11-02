@@ -51,9 +51,9 @@
 # text = WASHINGTON, 18 Set 2012 (AFP) - Apesar da forte polêmica em torno das relações com a China na campanha eleitoral americana, a maioria dos cidadãos apoia a manutenção dum vínculo estreito com a potência asiática e não percebe sua intensificação como um problema, indica uma pesquisa divulgada nesta terça - feira.
 1	WASHINGTON	_	PROPN	PNOUN	_	34	parataxis	_	SpaceAfter=No
 2	,	,	PUNCT	.	_	3	punct	_	_
-3	18	_	NUM	NUM	NumType=Card	1	nmod	_	_
+3	18	18	NUM	NUM	NumType=Card	1	nmod	_	_
 4	Set	_	PROPN	PNOUN	_	3	nmod	_	_
-5	2012	_	NUM	NUM	NumType=Card	4	nmod	_	_
+5	2012	2012	NUM	NUM	NumType=Card	4	nmod	_	_
 6	(	(	PUNCT	.	_	7	punct	_	SpaceAfter=No
 7	AFP	_	PROPN	PNOUN	_	1	appos	_	SpaceAfter=No
 8	)	)	PUNCT	.	_	7	punct	_	_
@@ -129,7 +129,7 @@
 # sent_id = train-s873
 # text = São 23 de diferença num campeonato que ainda tem quatro corridas para serem disputadas e 212 pontos em jogo.
 1	São	ser	AUX	AUX	_	2	cop	_	_
-2	23	_	NUM	NUM	NumType=Card	0	root	_	_
+2	23	23	NUM	NUM	NumType=Card	0	root	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	diferença	diferença	NOUN	NOUN	_	2	nmod	_	_
 5-6	num	_	_	_	_	_	_	_	_
@@ -145,7 +145,7 @@
 14	serem	ser	AUX	AUX	_	15	aux:pass	_	_
 15	disputadas	disputar	VERB	VERB	_	12	nmod	_	_
 16	e	e	CCONJ	CONJ	_	18	cc	_	_
-17	212	_	NUM	NUM	NumType=Card	18	nummod	_	_
+17	212	212	NUM	NUM	NumType=Card	18	nummod	_	_
 18	pontos	ponto	NOUN	NOUN	_	12	conj	_	_
 19	em	em	ADP	ADP	_	20	case	_	_
 20	jogo	jogo	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
@@ -187,7 +187,7 @@
 5	segunda	segundo	ADJ	ADJ	_	6	amod	_	_
 6	chamada	_	NOUN	NOUN	_	1	nsubj	_	_
 7	para	para	ADP	ADP	_	8	case	_	_
-8	20	_	NUM	NUM	NumType=Card	2	nmod	_	_
+8	20	20	NUM	NUM	NumType=Card	2	nmod	_	_
 9	de	de	ADP	ADP	_	10	case	_	_
 10	julho	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	1	punct	_	_
@@ -239,7 +239,7 @@
 3	a	a	ADP	ADP	_	8	case	_	_
 4	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 5	quase	quase	ADV	ADV	_	7	advmod	_	_
-6	250	_	NUM	NUM	NumType=Card	7	nummod	_	_
+6	250	250	NUM	NUM	NumType=Card	7	nummod	_	_
 7	mil	_	NUM	NUM	NumType=Card	8	nummod	_	_
 8	recifenses	recifense	NOUN	NOUN	_	2	iobj	_	_
 9	que	_	PRON	PRON	_	10	nsubj	_	_

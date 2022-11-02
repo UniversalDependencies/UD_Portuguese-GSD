@@ -38,7 +38,7 @@
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Furacão	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	detinha	deter	VERB	VERB	_	0	root	_	_
-4	40	_	NUM	NUM	NumType=Card	5	nummod	_	_
+4	40	40	NUM	NUM	NumType=Card	5	nummod	_	_
 5	%	_	SYM	SYM	_	3	obj	_	_
 6-7	dos	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	8	case	_	_
@@ -85,7 +85,7 @@
 5	a	_	ADP	ADP	_	6	mark	_	_
 6	partir	partir	VERB	VERB	_	4	nmod	_	_
 7	de	de	ADP	ADP	_	8	case	_	_
-8	1	_	NUM	NUM	NumType=Card	6	nmod	_	_
+8	1	1	NUM	NUM	NumType=Card	6	nmod	_	_
 9	º	_	PUNCT	.	_	8	punct	_	_
 10	de	de	ADP	ADP	_	11	case	_	_
 11	setembro	_	PROPN	PNOUN	_	8	nmod	_	_
@@ -148,9 +148,9 @@
 16	de	de	ADP	ADP	_	18	case	_	_
 17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	Lei	_	PROPN	PNOUN	_	15	nmod	_	_
-19	6613	_	NUM	NUM	NumType=Card	18	appos	_	_
+19	6613	6613	NUM	NUM	NumType=Card	18	appos	_	_
 20	/	/	PUNCT	.	_	19	punct	_	_
-21	2009	_	NUM	NUM	NumType=Card	19	nmod	_	SpaceAfter=No
+21	2009	2009	NUM	NUM	NumType=Card	19	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	.	_	24	punct	_	_
 23	que	_	PRON	PRON	_	24	nsubj	_	_
 24	trata	tratar	VERB	VERB	_	18	acl:relcl	_	_
@@ -317,7 +317,7 @@
 # sent_id = train-s939
 # text = Em 1964 é lançado no mercado o DKW - Vemag Fissore e o Lubrimat.
 1	Em	em	ADP	ADP	_	2	case	_	_
-2	1964	_	NUM	NUM	NumType=Card	4	nmod	_	_
+2	1964	1964	NUM	NUM	NumType=Card	4	nmod	_	_
 3	é	ser	AUX	AUX	_	4	aux:pass	_	_
 4	lançado	lançar	VERB	VERB	_	0	root	_	_
 5-6	no	_	_	_	_	_	_	_	_

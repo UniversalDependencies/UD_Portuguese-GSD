@@ -77,7 +77,7 @@
 4	de	de	ADP	ADP	_	5	case	_	_
 5	US	_	PROPN	PNOUN	_	3	nmod	_	_
 6	$	_	SYM	SYM	_	5	flat	_	_
-7	13,56	_	NUM	NUM	NumType=Card	8	nummod	_	_
+7	13,56	13,56	NUM	NUM	NumType=Card	8	nummod	_	_
 8	bilhões	_	NUM	NUM	NumType=Card	5	nummod	_	_
 9	para	para	ADP	ADP	_	12	case	_	_
 10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
@@ -87,7 +87,7 @@
 14	de	de	ADP	ADP	_	15	case	_	_
 15	US	_	PROPN	PNOUN	_	5	conj	_	_
 16	$	_	SYM	SYM	_	15	flat	_	_
-17	14,6	_	NUM	NUM	NumType=Card	18	nummod	_	_
+17	14,6	14,6	NUM	NUM	NumType=Card	18	nummod	_	_
 18	bilhões	_	NUM	NUM	NumType=Card	15	nummod	_	_
 19	para	para	ADP	ADP	_	21	case	_	_
 20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
@@ -119,11 +119,11 @@
 6	sido	ser	AUX	AUX	_	7	aux:pass	_	_
 7	eleito	eleger	VERB	VERB	_	0	root	_	_
 8	em	em	ADP	ADP	_	9	case	_	_
-9	17	_	NUM	NUM	NumType=Card	7	nmod	_	_
+9	17	17	NUM	NUM	NumType=Card	7	nmod	_	_
 10	de	de	ADP	ADP	_	11	case	_	_
 11	Fevereiro	_	PROPN	PNOUN	_	9	nmod	_	_
 12	de	de	ADP	ADP	_	13	case	_	_
-13	1590	_	NUM	NUM	NumType=Card	11	nmod	_	SpaceAfter=No
+13	1590	1590	NUM	NUM	NumType=Card	11	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	16	punct	_	_
 15	e	e	CCONJ	CONJ	_	16	cc	_	_
 16	chegara	chegar	VERB	VERB	_	7	conj	_	_
@@ -132,7 +132,7 @@
 18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	ilha	ilha	NOUN	NOUN	_	16	nmod	_	_
 20	em	em	ADP	ADP	_	21	case	_	_
-21	1592	_	NUM	NUM	NumType=Card	16	nmod	_	SpaceAfter=No
+21	1592	1592	NUM	NUM	NumType=Card	16	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	.	_	23	punct	_	_
 23	assumindo	assumir	VERB	VERB	_	16	acl	_	_
 24	interinamente	interinamente	ADV	ADV	_	23	advmod	_	_
@@ -196,11 +196,11 @@
 
 # sent_id = train-s797
 # text = 28 de setembro de 2011: com dúvidas em torno do seu trabalho, Mano pode ao menos comemorar um título na temporada.
-1	28	_	NUM	NUM	NumType=Card	21	nmod	_	_
+1	28	28	NUM	NUM	NumType=Card	21	nmod	_	_
 2	de	de	ADP	ADP	_	3	case	_	_
 3	setembro	_	PROPN	PNOUN	_	1	nmod	_	_
 4	de	de	ADP	ADP	_	5	case	_	_
-5	2011	_	NUM	NUM	NumType=Card	3	nmod	_	SpaceAfter=No
+5	2011	2011	NUM	NUM	NumType=Card	3	nmod	_	SpaceAfter=No
 6	:	:	PUNCT	.	_	1	punct	_	_
 7	com	com	ADP	ADP	_	8	case	_	_
 8	dúvidas	dúvida	NOUN	NOUN	_	21	nmod	_	_
@@ -261,7 +261,7 @@
 28	Marcelândia	_	PROPN	PNOUN	_	25	nmod	_	SpaceAfter=No
 29	,	,	PUNCT	.	_	32	punct	_	_
 30	a	_	ADP	ADP	_	32	case	_	_
-31	712	_	NUM	NUM	NumType=Card	32	nummod	_	_
+31	712	712	NUM	NUM	NumType=Card	32	nummod	_	_
 32	quilômetros	quilômetro	NOUN	NOUN	_	28	nmod	_	_
 33	de	de	ADP	ADP	_	34	case	_	_
 34	Cuiabá	_	PROPN	PNOUN	_	32	nmod	_	SpaceAfter=No
@@ -276,7 +276,7 @@
 42	-	-	PUNCT	.	_	43	punct	_	_
 43	feira	_	PROPN	PNOUN	_	39	nmod	_	_
 44	(	(	PUNCT	.	_	45	punct	_	SpaceAfter=No
-45	7	_	NUM	NUM	NumType=Card	43	nmod	_	SpaceAfter=No
+45	7	7	NUM	NUM	NumType=Card	43	nmod	_	SpaceAfter=No
 46	)	)	PUNCT	.	_	45	punct	_	_
 47	dentro	dentro	ADV	ADV	_	36	advmod	_	_
 48-49	da	_	_	_	_	_	_	_	_
@@ -302,7 +302,7 @@
 2	grande	grande	ADJ	ADJ	_	3	amod	_	_
 3	campeão	campeão	NOUN	NOUN	_	9	nsubj	_	_
 4	de	de	ADP	ADP	_	5	case	_	_
-5	2012	_	NUM	NUM	NumType=Card	3	nmod	_	_
+5	2012	2012	NUM	NUM	NumType=Card	3	nmod	_	_
 6	não	não	ADV	ADV	Polarity=Neg	9	advmod	_	_
 7	poderia	poder	AUX	AUX	_	9	aux	_	_
 8	ser	ser	AUX	AUX	_	9	cop	_	_
@@ -374,7 +374,7 @@
 15	em	em	ADP	ADP	_	17	case	_	_
 16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	dia	dia	NOUN	NOUN	_	3	nmod	_	_
-18	4	_	NUM	NUM	NumType=Card	17	nmod	_	_
+18	4	4	NUM	NUM	NumType=Card	17	nmod	_	_
 19	de	de	ADP	ADP	_	20	case	_	_
 20	julho	_	PROPN	PNOUN	_	18	nmod	_	SpaceAfter=No
 21	,	,	PUNCT	.	_	23	punct	_	_

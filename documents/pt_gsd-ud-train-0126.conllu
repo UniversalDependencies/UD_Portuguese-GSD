@@ -150,7 +150,7 @@
 1	Ou	_	CCONJ	CONJ	_	5	cc	_	_
 2	seja	ser	VERB	VERB	_	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	1	punct	_	_
-4	0,32	_	NUM	NUM	NumType=Card	5	nummod	_	_
+4	0,32	0,32	NUM	NUM	NumType=Card	5	nummod	_	_
 5	ponto	ponto	NOUN	NOUN	_	0	root	_	_
 6	percentual	percentual	ADJ	ADJ	_	5	amod	_	_
 7	abaixo	abaixo	ADV	ADV	_	5	advmod	_	_
@@ -304,13 +304,13 @@
 # text = Atual número 2 do Brasil e 100 do mundo, Rogerinho foi derrotado logo na estreia por 2 sets a 0, com parciais de 6-1 e 6-4.
 1	Atual	atual	ADJ	ADJ	_	2	amod	_	_
 2	número	número	NOUN	NOUN	_	15	nsubj:pass	_	_
-3	2	_	NUM	NUM	NumType=Card	2	appos	_	_
+3	2	2	NUM	NUM	NumType=Card	2	appos	_	_
 4-5	do	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
 5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Brasil	_	PROPN	PNOUN	_	3	nmod	_	_
 7	e	e	CCONJ	CONJ	_	8	cc	_	_
-8	100	_	NUM	NUM	NumType=Card	3	conj	_	_
+8	100	100	NUM	NUM	NumType=Card	3	conj	_	_
 9-10	do	_	_	_	_	_	_	_	_
 9	de	de	ADP	ADP	_	11	case	_	_
 10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -325,10 +325,10 @@
 18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	estreia	estreia	NOUN	NOUN	_	16	nmod	_	_
 20	por	por	ADP	ADP	_	22	case	_	_
-21	2	_	NUM	NUM	NumType=Card	22	nummod	_	_
+21	2	2	NUM	NUM	NumType=Card	22	nummod	_	_
 22	sets	set	NOUN	NOUN	_	15	nmod	_	_
 23	a	_	ADP	ADP	_	24	case	_	_
-24	0	_	NUM	NUM	NumType=Card	22	nmod	_	SpaceAfter=No
+24	0	0	NUM	NUM	NumType=Card	22	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	.	_	15	punct	_	_
 26	com	com	ADP	ADP	_	27	case	_	_
 27	parciais	_	NOUN	NOUN	_	15	nmod	_	_

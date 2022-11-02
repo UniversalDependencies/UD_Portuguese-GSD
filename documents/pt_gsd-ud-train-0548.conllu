@@ -58,7 +58,7 @@
 53	rodada	_	NOUN	NOUN	_	50	nmod	_	_
 54	de	de	ADP	ADP	_	55	case	_	_
 55	número	número	NOUN	NOUN	_	53	nmod	_	_
-56	30	_	NUM	NUM	NumType=Card	55	appos	_	_
+56	30	30	NUM	NUM	NumType=Card	55	appos	_	_
 57-58	do	_	_	_	_	_	_	_	_
 57	de	de	ADP	ADP	_	59	case	_	_
 58	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
@@ -232,7 +232,7 @@
 1	Um	_	DET	DET	_	2	det	_	_
 2	tapeceiro	tapeceiro	NOUN	NOUN	_	7	nsubj:pass	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
-4	34	_	NUM	NUM	NumType=Card	5	nummod	_	_
+4	34	34	NUM	NUM	NumType=Card	5	nummod	_	_
 5	anos	ano	NOUN	NOUN	_	2	nmod	_	_
 6	foi	_	AUX	AUX	_	7	aux:pass	_	_
 7	preso	_	VERB	VERB	_	0	root	_	_
@@ -248,7 +248,7 @@
 16	-	-	PUNCT	.	_	17	punct	_	_
 17	feira	_	PROPN	PNOUN	_	13	nmod	_	_
 18	(	(	PUNCT	.	_	19	punct	_	SpaceAfter=No
-19	25	_	NUM	NUM	NumType=Card	17	nmod	_	SpaceAfter=No
+19	25	25	NUM	NUM	NumType=Card	17	nmod	_	SpaceAfter=No
 20	)	)	PUNCT	.	_	19	punct	_	SpaceAfter=No
 21	,	,	PUNCT	.	_	23	punct	_	_
 22	após	_	ADP	ADP	_	23	mark	_	_
@@ -305,11 +305,11 @@
 # sent_id = train-s5448
 # text = A 30 de agosto de 1994, é lançado o álbum de estreia, "Definitely Maybe", que obteve o primeiro lugar nas vendas do Reino Unido, tornando - se no álbum de estreia que mais depressa vendeu no Reino Unido até àquela altura.
 1	A	_	ADP	ADP	_	2	case	_	_
-2	30	_	NUM	NUM	NumType=Card	9	nmod	_	_
+2	30	30	NUM	NUM	NumType=Card	9	nmod	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	agosto	_	PROPN	PNOUN	_	2	nmod	_	_
 5	de	de	ADP	ADP	_	6	case	_	_
-6	1994	_	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
+6	1994	1994	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	2	punct	_	_
 8	é	ser	AUX	AUX	_	9	aux:pass	_	_
 9	lançado	lançar	VERB	VERB	_	0	root	_	_

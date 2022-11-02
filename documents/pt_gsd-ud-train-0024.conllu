@@ -24,9 +24,9 @@
 # sent_id = train-s232
 # text = De 1943 até 1952 jogou para CR Vasco da Gama, ganhando cinco vezes o Campeonato Carioca e como destaque o Campeonato Sul - Americano de Campeões de 1948, o antecessor histórico da Copa Libertadores.
 1	De	_	ADP	ADP	_	2	case	_	_
-2	1943	_	NUM	NUM	NumType=Card	5	nmod	_	_
+2	1943	1943	NUM	NUM	NumType=Card	5	nmod	_	_
 3	até	_	ADP	ADP	_	4	case	_	_
-4	1952	_	NUM	NUM	NumType=Card	2	nmod	_	_
+4	1952	1952	NUM	NUM	NumType=Card	2	nmod	_	_
 5	jogou	jogar	VERB	VERB	_	0	root	_	_
 6	para	para	ADP	ADP	_	7	case	_	_
 7	CR	_	PROPN	PNOUN	_	5	nmod	_	_
@@ -53,7 +53,7 @@
 27	de	de	ADP	ADP	_	28	case	_	_
 28	Campeões	_	PROPN	PNOUN	_	23	nmod	_	_
 29	de	de	ADP	ADP	_	30	case	_	_
-30	1948	_	NUM	NUM	NumType=Card	23	nmod	_	SpaceAfter=No
+30	1948	1948	NUM	NUM	NumType=Card	23	nmod	_	SpaceAfter=No
 31	,	,	PUNCT	.	_	33	punct	_	_
 32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	antecessor	antecessor	NOUN	NOUN	_	23	appos	_	_
@@ -81,9 +81,9 @@
 12	nesta	_	ADP	ADP	_	13	case	_	_
 13	quinta	_	PROPN	PNOUN	_	9	nmod	_	_
 14	(	(	PUNCT	.	_	15	punct	_	SpaceAfter=No
-15	13	_	NUM	NUM	NumType=Card	13	nmod	_	_
+15	13	13	NUM	NUM	NumType=Card	13	nmod	_	_
 16	/	/	PUNCT	.	_	15	punct	_	_
-17	12	_	NUM	NUM	NumType=Card	15	nmod	_	SpaceAfter=No
+17	12	12	NUM	NUM	NumType=Card	15	nmod	_	SpaceAfter=No
 18	)	)	PUNCT	.	_	15	punct	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	9	punct	_	_
 
@@ -173,7 +173,7 @@
 6	Brasil	_	PROPN	PNOUN	_	12	nsubj	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	9	punct	_	_
 8	em	em	ADP	ADP	_	9	case	_	_
-9	2013	_	NUM	NUM	NumType=Card	12	nmod	_	SpaceAfter=No
+9	2013	2013	NUM	NUM	NumType=Card	12	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	9	punct	_	_
 11	vai	ir	AUX	AUX	_	12	aux	_	_
 12	crescer	crescer	VERB	VERB	_	3	ccomp	_	_
@@ -216,7 +216,7 @@
 46	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
 47	ascensão	ascensão	NOUN	NOUN	_	41	conj	_	_
 48	de	de	ADP	ADP	_	52	case	_	_
-49	40	_	NUM	NUM	NumType=Card	50	nummod	_	_
+49	40	40	NUM	NUM	NumType=Card	50	nummod	_	_
 50	milhões	_	NUM	NUM	NumType=Card	52	nummod	_	_
 51	de	de	ADP	ADP	_	52	case	_	_
 52	pessoas	pessoa	NOUN	NOUN	_	47	nmod	_	_
@@ -226,7 +226,7 @@
 55	classe	classe	NOUN	NOUN	_	47	nmod	_	_
 56	média	médio	ADJ	ADJ	_	55	amod	_	_
 57	desde	_	ADP	ADP	_	58	case	_	_
-58	2003	_	NUM	NUM	NumType=Card	47	nmod	_	SpaceAfter=No
+58	2003	2003	NUM	NUM	NumType=Card	47	nmod	_	SpaceAfter=No
 59	.	.	PUNCT	.	_	16	punct	_	_
 
 # sent_id = train-s238
@@ -251,7 +251,7 @@
 16	polêmico	polêmico	ADJ	ADJ	_	17	amod	_	_
 17	atacante	atacante	NOUN	NOUN	_	13	nmod	_	_
 18	de	de	ADP	ADP	_	20	case	_	_
-19	24	_	NUM	NUM	NumType=Card	20	nummod	_	_
+19	24	24	NUM	NUM	NumType=Card	20	nummod	_	_
 20	anos	ano	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	11	punct	_	_
 
@@ -313,7 +313,7 @@
 19	-	-	PUNCT	.	_	20	punct	_	_
 20	feira	_	PROPN	PNOUN	_	16	nmod	_	_
 21	(	(	PUNCT	.	_	22	punct	_	SpaceAfter=No
-22	19	_	NUM	NUM	NumType=Card	20	nmod	_	SpaceAfter=No
+22	19	19	NUM	NUM	NumType=Card	20	nmod	_	SpaceAfter=No
 23	)	)	PUNCT	.	_	22	punct	_	SpaceAfter=No
 24	,	,	PUNCT	.	_	13	punct	_	_
 25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_

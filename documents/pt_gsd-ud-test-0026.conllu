@@ -6,7 +6,7 @@
 4	-	-	PUNCT	.	_	3	punct	_	_
 5	se	_	PART	PRT	_	3	expl:pv	_	_
 6	em	em	ADP	ADP	_	8	case	_	_
-7	500	_	NUM	NUM	NumType=Card	8	nummod	_	_
+7	500	500	NUM	NUM	NumType=Card	8	nummod	_	_
 8	habitantes	habitante	NOUN	NOUN	_	3	nmod	_	_
 
 # sent_id = test-s250b
@@ -23,7 +23,7 @@
 10	uma	um	DET	DET	_	11	det	_	_
 11	área	área	NOUN	NOUN	_	9	obj	_	_
 12	de	de	ADP	ADP	_	14	case	_	_
-13	2,7	_	NUM	NUM	NumType=Card	14	nummod	_	_
+13	2,7	2,7	NUM	NUM	NumType=Card	14	nummod	_	_
 14	km	km	NOUN	NOUN	_	11	nmod	_	_
 15	²	_	PUNCT	.	_	14	punct	_	SpaceAfter=No
 16	,	,	PUNCT	.	_	23	punct	_	_
@@ -31,14 +31,14 @@
 17	de	de	ADP	ADP	_	19	case	_	_
 18	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
 19	quais	_	PRON	PRON	_	23	nmod	_	_
-20	2,7	_	NUM	NUM	NumType=Card	21	nummod	_	_
+20	2,7	2,7	NUM	NUM	NumType=Card	21	nummod	_	_
 21	km	km	NOUN	NOUN	_	23	nsubj:pass	_	_
 22	²	_	PUNCT	.	_	21	punct	_	_
 23	cobertos	cobrir	VERB	VERB	_	14	acl:relcl	_	_
 24	por	por	ADP	ADP	_	25	case	_	_
 25	terra	terra	NOUN	NOUN	_	23	nmod	_	_
 26	e	e	CCONJ	CONJ	_	30	cc	_	_
-27	0,0	_	NUM	NUM	NumType=Card	28	nummod	_	_
+27	0,0	0,0	NUM	NUM	NumType=Card	28	nummod	_	_
 28	km	km	NOUN	NOUN	_	30	nsubj:pass	_	_
 29	²	_	PUNCT	.	_	28	punct	_	_
 30	cobertos	cobrir	VERB	VERB	_	23	conj	_	_
@@ -127,7 +127,7 @@
 11	em	em	ADP	ADP	_	12	case	_	_
 12	dezembro	_	PROPN	PNOUN	_	9	nmod	_	_
 13	de	de	ADP	ADP	_	14	case	_	_
-14	1239	_	NUM	NUM	NumType=Card	12	nmod	_	SpaceAfter=No
+14	1239	1239	NUM	NUM	NumType=Card	12	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = test-s255
@@ -181,7 +181,7 @@
 5	neste	_	ADP	ADP	_	6	case	_	_
 6	domingo	_	PROPN	PNOUN	_	3	nmod	_	_
 7	(	(	PUNCT	.	_	8	punct	_	SpaceAfter=No
-8	21	_	NUM	NUM	NumType=Card	6	nmod	_	SpaceAfter=No
+8	21	21	NUM	NUM	NumType=Card	6	nmod	_	SpaceAfter=No
 9	)	)	PUNCT	.	_	8	punct	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	13	punct	_	_
 11	após	_	ADP	ADP	_	13	mark	_	_

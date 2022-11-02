@@ -65,13 +65,13 @@
 4	devem	_	AUX	AUX	_	6	aux	_	_
 5	ter	ter	AUX	AUX	_	6	aux	_	_
 6	completado	completar	VERB	VERB	_	0	root	_	_
-7	50	_	NUM	NUM	NumType=Card	14	nummod	_	SpaceAfter=No
+7	50	50	NUM	NUM	NumType=Card	14	nummod	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	9	punct	_	_
-9	30	_	NUM	NUM	NumType=Card	7	conj	_	SpaceAfter=No
+9	30	30	NUM	NUM	NumType=Card	7	conj	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	11	punct	_	_
-11	20	_	NUM	NUM	NumType=Card	7	conj	_	_
+11	20	20	NUM	NUM	NumType=Card	7	conj	_	_
 12	ou	ou	CCONJ	CONJ	_	13	cc	_	_
-13	15	_	NUM	NUM	NumType=Card	7	conj	_	_
+13	15	15	NUM	NUM	NumType=Card	7	conj	_	_
 14	anos	ano	NOUN	NOUN	_	6	obj	_	_
 15	de	de	ADP	ADP	_	16	case	_	_
 16	atividades	atividade	NOUN	NOUN	_	14	nmod	_	_
@@ -79,11 +79,11 @@
 18	até	_	ADP	ADP	_	20	case	_	_
 19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	dia	dia	NOUN	NOUN	_	6	nmod	_	_
-21	31	_	NUM	NUM	NumType=Card	20	nmod	_	_
+21	31	31	NUM	NUM	NumType=Card	20	nmod	_	_
 22	de	de	ADP	ADP	_	23	case	_	_
 23	julho	_	PROPN	PNOUN	_	21	nmod	_	_
 24	de	de	ADP	ADP	_	25	case	_	_
-25	2012	_	NUM	NUM	NumType=Card	23	nmod	_	SpaceAfter=No
+25	2012	2012	NUM	NUM	NumType=Card	23	nmod	_	SpaceAfter=No
 26	,	,	PUNCT	.	_	27	punct	_	_
 27	ano	ano	NOUN	NOUN	_	25	appos	_	_
 28-29	da	_	_	_	_	_	_	_	_
@@ -104,7 +104,7 @@
 4	até	_	ADP	ADP	_	5	case	_	_
 5	segunda-feira	_	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
 6	(	(	PUNCT	.	_	7	punct	_	SpaceAfter=No
-7	1	_	NUM	NUM	NumType=Card	5	appos	_	SpaceAfter=No
+7	1	1	NUM	NUM	NumType=Card	5	appos	_	SpaceAfter=No
 8	)	)	PUNCT	.	_	7	punct	_	_
 9	para	_	ADP	ADP	_	10	mark	_	_
 10	definir	definir	VERB	VERB	_	3	ccomp	_	_
@@ -155,7 +155,7 @@
 
 # sent_id = dev-s1038
 # text = 17 pessoas foram presas.
-1	17	_	NUM	NUM	NumType=Card	2	nummod	_	_
+1	17	17	NUM	NUM	NumType=Card	2	nummod	_	_
 2	pessoas	pessoa	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foram	_	AUX	AUX	_	4	aux:pass	_	_
 4	presas	_	VERB	VERB	_	0	root	_	SpaceAfter=No
@@ -173,7 +173,7 @@
 8	e	e	CCONJ	CONJ	_	9	cc	_	_
 9	iOS	_	PROPN	PNOUN	_	7	conj	_	_
 10	equiparam	_	VERB	VERB	_	0	root	_	_
-11	85	_	NUM	NUM	NumType=Card	12	nummod	_	_
+11	85	85	NUM	NUM	NumType=Card	12	nummod	_	_
 12	%	_	SYM	SYM	_	10	obj	_	_
 13-14	dos	_	_	_	_	_	_	_	_
 13	de	de	ADP	ADP	_	15	case	_	_
@@ -186,7 +186,7 @@
 19	segundo	segundo	ADJ	ADJ	_	20	amod	_	_
 20	trimestre	trimestre	NOUN	NOUN	_	16	obl	_	_
 21	de	de	ADP	ADP	_	22	case	_	_
-22	2012	_	NUM	NUM	NumType=Card	20	nmod	_	_
+22	2012	2012	NUM	NUM	NumType=Card	20	nmod	_	_
 23-24	no	_	_	_	_	_	_	_	_
 23	em	em	ADP	ADP	_	25	case	_	_
 24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
@@ -225,7 +225,7 @@
 20	eleições	eleição	NOUN	NOUN	_	17	nmod	_	_
 21	legislativas	legislativo	ADJ	ADJ	_	20	amod	_	_
 22	de	de	ADP	ADP	_	23	case	_	_
-23	2015	_	NUM	NUM	NumType=Card	20	nmod	_	SpaceAfter=No
+23	2015	2015	NUM	NUM	NumType=Card	20	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	17	punct	_	_
 
 # sent_id = dev-s1041
@@ -264,18 +264,18 @@
 30	vem	vir	AUX	AUX	_	31	aux	_	_
 31	diminuindo	diminuir	VERB	VERB	_	25	ccomp	_	_
 32	desde	_	ADP	ADP	_	33	case	_	_
-33	2003	_	NUM	NUM	NumType=Card	31	nmod	_	_
+33	2003	2003	NUM	NUM	NumType=Card	31	nmod	_	_
 34	e	e	CCONJ	CONJ	_	42	cc	_	_
 35	que	que	CCONJ	CONJ	_	42	mark	_	_
 36	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
 37	meta	meta	NOUN	NOUN	_	42	nsubj:pass	_	_
 38	prevista	prever	VERB	VERB	_	37	acl	_	_
 39	para	para	ADP	ADP	_	40	case	_	_
-40	2015	_	NUM	NUM	NumType=Card	38	nmod	_	_
+40	2015	2015	NUM	NUM	NumType=Card	38	nmod	_	_
 41	foi	_	AUX	AUX	_	42	aux:pass	_	_
 42	alcançada	alcançar	VERB	VERB	_	31	conj	_	_
 43	ainda	ainda	ADV	ADV	_	45	advmod	_	_
 44	em	em	ADP	ADP	_	45	case	_	_
-45	2006	_	NUM	NUM	NumType=Card	42	nmod	_	SpaceAfter=No
+45	2006	2006	NUM	NUM	NumType=Card	42	nmod	_	SpaceAfter=No
 46	.	.	PUNCT	.	_	3	punct	_	_
 

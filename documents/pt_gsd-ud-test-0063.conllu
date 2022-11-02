@@ -1,8 +1,8 @@
 # sent_id = test-s617
 # text = 1911 -- 4 de setembro -- O nascimento em Santa Fé, Província de Granada, Espanha.
-1	1911	_	NUM	NUM	NumType=Card	8	parataxis	_	_
+1	1911	1911	NUM	NUM	NumType=Card	8	parataxis	_	_
 2	--	_	PUNCT	.	_	3	punct	_	_
-3	4	_	NUM	NUM	NumType=Card	1	nmod	_	_
+3	4	4	NUM	NUM	NumType=Card	1	nmod	_	_
 4	de	de	ADP	ADP	_	5	case	_	_
 5	setembro	_	PROPN	PNOUN	_	3	nmod	_	_
 6	--	_	PUNCT	.	_	8	punct	_	_
@@ -58,7 +58,7 @@
 34	novo	novo	ADJ	ADJ	_	35	amod	_	_
 35	processo	processo	NOUN	NOUN	_	32	nmod	_	_
 36	seletivo	seletivo	ADJ	ADJ	_	35	amod	_	_
-37	2013	_	NUM	NUM	NumType=Card	35	nmod	_	SpaceAfter=No
+37	2013	2013	NUM	NUM	NumType=Card	35	nmod	_	SpaceAfter=No
 38	.	.	PUNCT	.	_	29	punct	_	_
 
 # sent_id = test-s619
@@ -181,7 +181,7 @@
 8	e	e	CCONJ	CONJ	_	9	cc	_	_
 9	BR	_	PROPN	PNOUN	_	1	conj	_	_
 10	-	-	PUNCT	.	_	9	punct	_	_
-11	101	_	NUM	NUM	NumType=Card	9	appos	_	SpaceAfter=No
+11	101	101	NUM	NUM	NumType=Card	9	appos	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = test-s623
@@ -189,7 +189,7 @@
 1	Em	em	ADP	ADP	_	2	case	_	_
 2	maio	_	PROPN	PNOUN	_	6	nmod	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
-4	1974	_	NUM	NUM	NumType=Card	2	nmod	_	_
+4	1974	1974	NUM	NUM	NumType=Card	2	nmod	_	_
 5	foi	_	AUX	AUX	_	6	aux:pass	_	_
 6	criada	criar	VERB	VERB	_	0	root	_	_
 7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_

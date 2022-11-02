@@ -38,7 +38,7 @@
 32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	exercício	exercício	NOUN	NOUN	_	22	nmod	_	_
 34	de	de	ADP	ADP	_	35	case	_	_
-35	2011	_	NUM	NUM	NumType=Card	33	nmod	_	_
+35	2011	2011	NUM	NUM	NumType=Card	33	nmod	_	_
 36	fez	fazer	VERB	VERB	_	3	ccomp	_	_
 37	recomendações	recomendação	NOUN	NOUN	_	36	obj	_	_
 38	referentes	referente	ADJ	ADJ	_	37	amod	_	_
@@ -122,20 +122,20 @@
 # sent_id = train-s8421
 # text = Em 2003, a Raposa tinha feito 29 gols em 11 jogos, contra 23 do Galo.
 1	Em	em	ADP	ADP	_	2	case	_	_
-2	2003	_	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
+2	2003	2003	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
 4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Raposa	_	PROPN	PNOUN	_	7	nsubj	_	_
 6	tinha	ter	AUX	AUX	_	7	aux	_	_
 7	feito	_	VERB	VERB	_	0	root	_	_
-8	29	_	NUM	NUM	NumType=Card	9	nummod	_	_
+8	29	29	NUM	NUM	NumType=Card	9	nummod	_	_
 9	gols	gol	NOUN	NOUN	_	7	obj	_	_
 10	em	em	ADP	ADP	_	12	case	_	_
-11	11	_	NUM	NUM	NumType=Card	12	nummod	_	_
+11	11	11	NUM	NUM	NumType=Card	12	nummod	_	_
 12	jogos	jogo	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	15	punct	_	_
 14	contra	_	ADP	ADP	_	15	case	_	_
-15	23	_	NUM	NUM	NumType=Card	7	nmod	_	_
+15	23	23	NUM	NUM	NumType=Card	7	nmod	_	_
 16-17	do	_	_	_	_	_	_	_	_
 16	de	de	ADP	ADP	_	18	case	_	_
 17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
@@ -204,12 +204,12 @@
 7	Paulo	_	PROPN	PNOUN	_	6	flat	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	10	punct	_	_
 9	em	em	ADP	ADP	_	10	case	_	_
-10	1	_	NUM	NUM	NumType=Card	4	nmod	_	_
+10	1	1	NUM	NUM	NumType=Card	4	nmod	_	_
 11	º	_	PUNCT	.	_	10	punct	_	_
 12	de	de	ADP	ADP	_	13	case	_	_
 13	março	_	PROPN	PNOUN	_	10	nmod	_	_
 14	de	de	ADP	ADP	_	15	case	_	_
-15	1951	_	NUM	NUM	NumType=Card	13	nmod	_	SpaceAfter=No
+15	1951	1951	NUM	NUM	NumType=Card	13	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	.	_	19	punct	_	_
 17	e	e	CCONJ	CONJ	_	19	cc	_	_
 18	foi	_	AUX	AUX	_	19	aux:pass	_	_
@@ -251,7 +251,7 @@
 12	-	-	PUNCT	.	_	13	punct	_	_
 13	feira	_	PROPN	PNOUN	_	5	nmod	_	_
 14	(	(	PUNCT	.	_	15	punct	_	SpaceAfter=No
-15	23	_	NUM	NUM	NumType=Card	13	nmod	_	SpaceAfter=No
+15	23	23	NUM	NUM	NumType=Card	13	nmod	_	SpaceAfter=No
 16	)	)	PUNCT	.	_	15	punct	_	SpaceAfter=No
 17	,	,	PUNCT	.	_	18	punct	_	_
 18	totalizando	totalizar	VERB	VERB	_	5	acl	_	_

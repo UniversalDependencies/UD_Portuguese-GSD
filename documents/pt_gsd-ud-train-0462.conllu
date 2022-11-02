@@ -14,7 +14,7 @@
 12	PRE	_	PROPN	PNOUN	_	9	appos	_	SpaceAfter=No
 13	)	)	PUNCT	.	_	12	punct	_	_
 14	registraram	registrar	VERB	VERB	_	0	root	_	_
-15	25	_	NUM	NUM	NumType=Card	16	nummod	_	_
+15	25	25	NUM	NUM	NumType=Card	16	nummod	_	_
 16	acidentes	acidente	NOUN	NOUN	_	14	obj	_	_
 17-18	no	_	_	_	_	_	_	_	_
 17	em	em	ADP	ADP	_	19	case	_	_
@@ -26,7 +26,7 @@
 23	desta	_	ADP	ADP	_	24	case	_	_
 24	segunda	_	PROPN	PNOUN	_	22	nmod	_	_
 25	(	(	PUNCT	.	_	26	punct	_	SpaceAfter=No
-26	9	_	NUM	NUM	NumType=Card	24	nmod	_	SpaceAfter=No
+26	9	9	NUM	NUM	NumType=Card	24	nmod	_	SpaceAfter=No
 27	)	)	PUNCT	.	_	26	punct	_	_
 28	e	e	CCONJ	CONJ	_	29	cc	_	_
 29	7h	_	NUM	NUM	NumType=Card	22	conj	_	_
@@ -35,7 +35,7 @@
 32	-	-	PUNCT	.	_	33	punct	_	_
 33	feira	_	PROPN	PNOUN	_	29	nmod	_	_
 34	(	(	PUNCT	.	_	35	punct	_	SpaceAfter=No
-35	10	_	NUM	NUM	NumType=Card	33	nmod	_	SpaceAfter=No
+35	10	10	NUM	NUM	NumType=Card	33	nmod	_	SpaceAfter=No
 36	)	)	PUNCT	.	_	35	punct	_	SpaceAfter=No
 37	.	.	PUNCT	.	_	14	punct	_	_
 
@@ -132,14 +132,14 @@
 # text = "Essas 12 unidades serão entregues a partir de 2016 e serão destinadas principalmente à perfuração de poços no pré - sal da Bacia de Santos -- incluídas as áreas da cessão onerosa."
 1	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
 2	Essas	_	DET	DET	_	4	det	_	_
-3	12	_	NUM	NUM	NumType=Card	4	nummod	_	_
+3	12	12	NUM	NUM	NumType=Card	4	nummod	_	_
 4	unidades	unidade	NOUN	NOUN	_	6	nsubj:pass	_	_
 5	serão	ser	AUX	AUX	_	6	aux:pass	_	_
 6	entregues	entregar	VERB	VERB	_	0	root	_	_
 7	a	_	ADP	ADP	_	8	mark	_	_
 8	partir	partir	VERB	VERB	_	6	nmod	_	_
 9	de	de	ADP	ADP	_	10	case	_	_
-10	2016	_	NUM	NUM	NumType=Card	8	nmod	_	_
+10	2016	2016	NUM	NUM	NumType=Card	8	nmod	_	_
 11	e	e	CCONJ	CONJ	_	13	cc	_	_
 12	serão	ser	AUX	AUX	_	13	aux:pass	_	_
 13	destinadas	destinar	VERB	VERB	_	6	conj	_	_
@@ -183,11 +183,11 @@
 4	em	em	ADP	ADP	_	6	case	_	_
 5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	dia	dia	NOUN	NOUN	_	3	nmod	_	_
-7	29	_	NUM	NUM	NumType=Card	6	nmod	_	_
+7	29	29	NUM	NUM	NumType=Card	6	nmod	_	_
 8	de	de	ADP	ADP	_	9	case	_	_
 9	outubro	_	PROPN	PNOUN	_	7	nmod	_	_
 10	de	de	ADP	ADP	_	11	case	_	_
-11	1960	_	NUM	NUM	NumType=Card	9	nmod	_	SpaceAfter=No
+11	1960	1960	NUM	NUM	NumType=Card	9	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	.	_	15	punct	_	_
 13-14	numa	_	_	_	_	_	_	_	_
 13	em	em	ADP	ADP	_	15	case	_	_
@@ -298,7 +298,7 @@
 14	e	e	CCONJ	CONJ	_	15	cc	_	_
 15	R	r	NOUN	NOUN	_	7	conj	_	_
 16	$	_	SYM	SYM	_	15	flat	_	_
-17	430,78	_	NUM	NUM	NumType=Card	15	nummod	_	_
+17	430,78	430,78	NUM	NUM	NumType=Card	15	nummod	_	_
 18	de	de	ADP	ADP	_	19	case	_	_
 19	previdência	previdência	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
 20	)	)	PUNCT	.	_	7	punct	_	SpaceAfter=No

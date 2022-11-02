@@ -176,7 +176,7 @@
 13	-	-	PUNCT	.	_	14	punct	_	_
 14	feira	_	PROPN	PNOUN	_	10	nmod	_	_
 15	(	(	PUNCT	.	_	16	punct	_	SpaceAfter=No
-16	21	_	NUM	NUM	NumType=Card	14	nmod	_	SpaceAfter=No
+16	21	21	NUM	NUM	NumType=Card	14	nmod	_	SpaceAfter=No
 17	)	)	PUNCT	.	_	16	punct	_	_
 18	foi	_	AUX	AUX	_	19	aux:pass	_	_
 19	adiada	adiar	VERB	VERB	_	26	ccomp	_	_
@@ -203,7 +203,7 @@
 # text = Ele somou 273 tacadas.
 1	Ele	_	PRON	PRON	_	2	nsubj	_	_
 2	somou	somar	VERB	VERB	_	0	root	_	_
-3	273	_	NUM	NUM	NumType=Card	4	nummod	_	_
+3	273	273	NUM	NUM	NumType=Card	4	nummod	_	_
 4	tacadas	tacada	NOUN	NOUN	_	2	obj	_	SpaceAfter=No
 5	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -225,7 +225,7 @@
 13	de	de	ADP	ADP	_	14	case	_	_
 14	conclusão	conclusão	NOUN	NOUN	_	12	nmod	_	_
 15	em	em	ADP	ADP	_	17	case	_	_
-16	30	_	NUM	NUM	NumType=Card	17	nummod	_	_
+16	30	30	NUM	NUM	NumType=Card	17	nummod	_	_
 17	meses	mês	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	.	_	21	punct	_	_
 19	e	e	CCONJ	CONJ	_	21	cc	_	_
@@ -235,7 +235,7 @@
 23	de	de	ADP	ADP	_	24	case	_	_
 24	R	r	NOUN	NOUN	_	21	nmod	_	_
 25	$	_	SYM	SYM	_	24	flat	_	_
-26	84,7	_	NUM	NUM	NumType=Card	27	nummod	_	_
+26	84,7	84,7	NUM	NUM	NumType=Card	27	nummod	_	_
 27	milhões	_	NUM	NUM	NumType=Card	24	nummod	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	11	punct	_	_
 
@@ -313,14 +313,14 @@
 18	reajuste	reajuste	NOUN	NOUN	_	15	nmod	_	_
 19	salarial	salarial	ADJ	ADJ	_	18	amod	_	_
 20	de	de	ADP	ADP	_	22	case	_	_
-21	15,8	_	NUM	NUM	NumType=Card	22	nummod	_	_
+21	15,8	15,8	NUM	NUM	NumType=Card	22	nummod	_	_
 22	%	_	SYM	SYM	_	18	nmod	_	_
 23	até	_	ADP	ADP	_	24	case	_	_
-24	2015	_	NUM	NUM	NumType=Card	18	nmod	_	SpaceAfter=No
+24	2015	2015	NUM	NUM	NumType=Card	18	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	.	_	27	punct	_	_
 26	a	_	ADP	ADP	_	27	mark	_	_
 27	partir	partir	VERB	VERB	_	18	nmod	_	_
 28	de	de	ADP	ADP	_	29	case	_	_
-29	2013	_	NUM	NUM	NumType=Card	27	nmod	_	SpaceAfter=No
+29	2013	2013	NUM	NUM	NumType=Card	27	nmod	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	15	punct	_	_
 

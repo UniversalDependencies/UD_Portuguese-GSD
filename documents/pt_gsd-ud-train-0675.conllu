@@ -1,7 +1,7 @@
 # sent_id = train-s6702
 # text = Em 2010, ocorreu no Golfo do México o maior vazamento de petróleo da história.
 1	Em	em	ADP	ADP	_	2	case	_	_
-2	2010	_	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
+2	2010	2010	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
 4	ocorreu	ocorrer	VERB	VERB	_	0	root	_	_
 5-6	no	_	_	_	_	_	_	_	_
@@ -94,7 +94,7 @@
 42	também	também	ADV	ADV	_	41	advmod	_	_
 43	os	o	DET	DET	_	46	det	_	_
 44	outros	_	DET	DET	_	46	det	_	_
-45	11	_	NUM	NUM	NumType=Card	46	nummod	_	_
+45	11	11	NUM	NUM	NumType=Card	46	nummod	_	_
 46	estádios	estádio	NOUN	NOUN	_	41	obj	_	_
 47-48	da	_	_	_	_	_	_	_	_
 47	de	de	ADP	ADP	_	49	case	_	_
@@ -109,7 +109,7 @@
 2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	quarta	_	PROPN	PNOUN	_	18	nmod	_	_
 4	(	(	PUNCT	.	_	5	punct	_	SpaceAfter=No
-5	17	_	NUM	NUM	NumType=Card	3	nmod	_	SpaceAfter=No
+5	17	17	NUM	NUM	NumType=Card	3	nmod	_	SpaceAfter=No
 6	)	)	PUNCT	.	_	5	punct	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	3	punct	_	_
 8-9	às	_	_	_	_	_	_	_	_
@@ -120,7 +120,7 @@
 12-13	às	_	_	_	_	_	_	_	_
 12	a	a	ADP	ADP	_	15	case	_	_
 13	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
-14	15	_	NUM	NUM	NumType=Card	15	nummod	_	_
+14	15	15	NUM	NUM	NumType=Card	15	nummod	_	_
 15	horas	hora	NOUN	NOUN	_	10	conj	_	SpaceAfter=No
 16	,	,	PUNCT	.	_	10	punct	_	_
 17	deve	dever	AUX	AUX	_	18	aux	_	_
@@ -144,7 +144,7 @@
 5	e	e	CCONJ	CONJ	_	6	cc	_	_
 6	lubrificantes	lubrificante	NOUN	NOUN	_	4	conj	_	_
 7	recuaram	recuar	VERB	VERB	_	0	root	_	_
-8	2,4	_	NUM	NUM	NumType=Card	9	nummod	_	_
+8	2,4	2,4	NUM	NUM	NumType=Card	9	nummod	_	_
 9	%	_	SYM	SYM	_	7	nmod	_	_
 10-11	no	_	_	_	_	_	_	_	_
 10	em	em	ADP	ADP	_	12	case	_	_
@@ -154,7 +154,7 @@
 14	para	para	ADP	ADP	_	15	case	_	_
 15	US	_	PROPN	PNOUN	_	7	nmod	_	_
 16	$	_	SYM	SYM	_	15	flat	_	_
-17	35,312	_	NUM	NUM	NumType=Card	18	nummod	_	_
+17	35,312	35,312	NUM	NUM	NumType=Card	18	nummod	_	_
 18	bilhões	_	NUM	NUM	NumType=Card	15	nummod	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	7	punct	_	_
 
@@ -181,7 +181,7 @@
 
 # sent_id = train-s6708
 # text = 56 % dos entrevistados esperam que Obama terá melhor desempenho, contra 38 % que acreditam em Romney.
-1	56	_	NUM	NUM	NumType=Card	2	nummod	_	_
+1	56	56	NUM	NUM	NumType=Card	2	nummod	_	_
 2	%	_	SYM	SYM	_	6	nsubj	_	_
 3-4	dos	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -195,7 +195,7 @@
 11	desempenho	desempenho	NOUN	NOUN	_	9	obj	_	SpaceAfter=No
 12	,	,	PUNCT	.	_	15	punct	_	_
 13	contra	_	ADP	ADP	_	15	case	_	_
-14	38	_	NUM	NUM	NumType=Card	15	nummod	_	_
+14	38	38	NUM	NUM	NumType=Card	15	nummod	_	_
 15	%	_	SYM	SYM	_	6	nmod	_	_
 16	que	_	PRON	PRON	_	17	nsubj	_	_
 17	acreditam	acreditar	VERB	VERB	_	15	acl:relcl	_	_
@@ -246,7 +246,7 @@
 15	contamina	contaminar	VERB	VERB	_	2	advcl	_	_
 16	cerca	cerca	ADV	ADV	_	19	advmod	_	_
 17	de	_	ADP	ADP	_	16	fixed	_	_
-18	1	_	NUM	NUM	NumType=Card	19	nummod	_	_
+18	1	1	NUM	NUM	NumType=Card	19	nummod	_	_
 19	milhão	_	NUM	NUM	NumType=Card	21	nummod	_	_
 20	de	de	ADP	ADP	_	21	case	_	_
 21	litros	litro	NOUN	NOUN	_	15	obj	_	_
@@ -268,7 +268,7 @@
 34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	período	período	NOUN	NOUN	_	29	nmod	_	_
 36	de	de	ADP	ADP	_	38	case	_	_
-37	14	_	NUM	NUM	NumType=Card	38	nummod	_	_
+37	14	14	NUM	NUM	NumType=Card	38	nummod	_	_
 38	anos	_	NUM	NUM	NumType=Card	35	nmod	_	SpaceAfter=No
 39	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -279,7 +279,7 @@
 3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	publicação	publicação	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	4	punct	_	_
-6	1	_	NUM	NUM	NumType=Card	7	nummod	_	_
+6	1	1	NUM	NUM	NumType=Card	7	nummod	_	_
 7	bilhão	_	NUM	NUM	NumType=Card	9	nummod	_	_
 8	de	de	ADP	ADP	_	9	case	_	_
 9	reais	real	NOUN	NOUN	_	11	nsubj:pass	_	_

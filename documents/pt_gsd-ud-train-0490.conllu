@@ -30,7 +30,7 @@
 18	-	-	PUNCT	.	_	19	punct	_	_
 19	feira	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	.	_	21	punct	_	_
-21	26	_	NUM	NUM	NumType=Card	19	nmod	_	SpaceAfter=No
+21	26	26	NUM	NUM	NumType=Card	19	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	.	_	21	punct	_	_
 23	durante	_	ADP	ADP	_	25	case	_	_
 24	uma	um	DET	DET	_	25	det	_	_
@@ -73,7 +73,7 @@
 24	só	só	ADV	ADV	_	26	advmod	_	_
 25	foi	_	AUX	AUX	_	26	aux:pass	_	_
 26	aberta	abrir	VERB	VERB	_	7	advcl	_	_
-27	50	_	NUM	NUM	NumType=Card	28	nummod	_	_
+27	50	50	NUM	NUM	NumType=Card	28	nummod	_	_
 28	anos	ano	NOUN	NOUN	_	29	nmod	_	_
 29	depois	depois	ADV	ADV	_	33	mark	_	_
 30	de	_	ADP	ADP	_	29	fixed	_	_
@@ -175,11 +175,11 @@
 3	foi	_	AUX	AUX	_	4	aux:pass	_	_
 4	descoberto	descobrir	VERB	VERB	_	0	root	_	_
 5	em	em	ADP	ADP	_	6	case	_	_
-6	27	_	NUM	NUM	NumType=Card	4	nmod	_	_
+6	27	27	NUM	NUM	NumType=Card	4	nmod	_	_
 7	de	de	ADP	ADP	_	8	case	_	_
 8	Janeiro	_	PROPN	PNOUN	_	6	nmod	_	_
 9	de	de	ADP	ADP	_	10	case	_	_
-10	1993	_	NUM	NUM	NumType=Card	8	nmod	_	_
+10	1993	1993	NUM	NUM	NumType=Card	8	nmod	_	_
 11	por	por	ADP	ADP	_	12	case	_	_
 12	E.	_	PROPN	PNOUN	_	4	nmod	_	_
 13	Elst	_	PROPN	PNOUN	_	12	flat	_	SpaceAfter=No
@@ -188,7 +188,7 @@
 # sent_id = train-s4870
 # text = Serão 48 toalhas pretas, copos coloridos (metade vermelhos e metade pretos), louça chinesa e bandejas de prata.
 1	Serão	ser	VERB	VERB	_	0	root	_	_
-2	48	_	NUM	NUM	NumType=Card	3	nummod	_	_
+2	48	48	NUM	NUM	NumType=Card	3	nummod	_	_
 3	toalhas	toalha	NOUN	NOUN	_	1	nsubj	_	_
 4	pretas	preto	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	6	punct	_	_

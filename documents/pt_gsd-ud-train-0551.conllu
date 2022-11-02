@@ -96,19 +96,19 @@
 # sent_id = train-s5473
 # text = Em 2006, foi estimada uma população de 97, um decréscimo de 19 (-16.4 %).
 1	Em	em	ADP	ADP	_	2	case	_	_
-2	2006	_	NUM	NUM	NumType=Card	5	nmod	_	SpaceAfter=No
+2	2006	2006	NUM	NUM	NumType=Card	5	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
 4	foi	_	AUX	AUX	_	5	aux:pass	_	_
 5	estimada	estimar	VERB	VERB	_	0	root	_	_
 6	uma	um	DET	DET	_	7	det	_	_
 7	população	população	NOUN	NOUN	_	5	nsubj:pass	_	_
 8	de	de	ADP	ADP	_	9	case	_	_
-9	97	_	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
+9	97	97	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	12	punct	_	_
 11	um	um	DET	DET	_	12	det	_	_
 12	decréscimo	decréscimo	NOUN	NOUN	_	5	parataxis	_	_
 13	de	de	ADP	ADP	_	14	case	_	_
-14	19	_	NUM	NUM	NumType=Card	12	nmod	_	_
+14	19	19	NUM	NUM	NumType=Card	12	nmod	_	_
 15	(	(	PUNCT	.	_	17	punct	_	SpaceAfter=No
 16	-16.4	_	NUM	NUM	NumType=Card	17	nummod	_	_
 17	%	_	SYM	SYM	_	12	appos	_	SpaceAfter=No
@@ -226,7 +226,7 @@
 48	de	de	ADP	ADP	_	50	case	_	_
 49	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	50	det	_	_
 50	anos	ano	NOUN	NOUN	_	47	nmod	_	_
-51	1990	_	NUM	NUM	NumType=Card	50	nmod	_	_
+51	1990	1990	NUM	NUM	NumType=Card	50	nmod	_	_
 52	e	e	CCONJ	CONJ	_	53	cc	_	_
 53	provocou	provocar	VERB	VERB	_	37	conj	_	_
 54	perdas	perda	NOUN	NOUN	_	53	obj	_	_

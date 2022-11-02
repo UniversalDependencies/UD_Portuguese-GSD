@@ -7,7 +7,7 @@
 5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	compra	compra	NOUN	NOUN	_	4	obj	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
-8	100	_	NUM	NUM	NumType=Card	9	nummod	_	_
+8	100	100	NUM	NUM	NumType=Card	9	nummod	_	_
 9	%	_	SYM	SYM	_	6	nmod	_	_
 10-11	dos	_	_	_	_	_	_	_	_
 10	de	de	ADP	ADP	_	12	case	_	_
@@ -49,7 +49,7 @@
 7	de	de	ADP	ADP	_	9	case	_	_
 8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	iPhone	_	PROPN	PNOUN	_	6	nmod	_	_
-10	5	_	NUM	NUM	NumType=Card	9	appos	_	_
+10	5	5	NUM	NUM	NumType=Card	9	appos	_	_
 11	e	e	CCONJ	CONJ	_	9	cc	_	_
 12-13	dos	_	_	_	_	_	_	_	_
 12	de	de	ADP	ADP	_	15	case	_	_
@@ -58,7 +58,7 @@
 15	produtos	produto	NOUN	NOUN	_	9	nmod	_	_
 16	começariam	começar	VERB	VERB	_	0	root	_	_
 17	em	em	ADP	ADP	_	18	case	_	_
-18	21	_	NUM	NUM	NumType=Card	16	nmod	_	_
+18	21	21	NUM	NUM	NumType=Card	16	nmod	_	_
 19	de	de	ADP	ADP	_	20	case	_	_
 20	setembro	_	PROPN	PNOUN	_	18	nmod	_	SpaceAfter=No
 21	,	,	PUNCT	.	_	25	punct	_	_
@@ -188,7 +188,7 @@
 13	marca	marca	NOUN	NOUN	_	11	appos	_	_
 14	que	_	PRON	PRON	_	15	nsubj	_	_
 15	detém	deter	VERB	VERB	_	13	acl:relcl	_	_
-16	80	_	NUM	NUM	NumType=Card	17	nummod	_	_
+16	80	80	NUM	NUM	NumType=Card	17	nummod	_	_
 17	%	_	SYM	SYM	_	15	obj	_	_
 18-19	do	_	_	_	_	_	_	_	_
 18	de	de	ADP	ADP	_	20	case	_	_
@@ -215,7 +215,7 @@
 36	liberar	liberar	VERB	VERB	_	0	root	_	_
 37	R	r	NOUN	NOUN	_	36	obj	_	_
 38	$	_	SYM	SYM	_	37	flat	_	_
-39	3	_	NUM	NUM	NumType=Card	40	nummod	_	_
+39	3	3	NUM	NUM	NumType=Card	40	nummod	_	_
 40	bilhões	_	NUM	NUM	NumType=Card	37	nummod	_	_
 41	em	em	ADP	ADP	_	42	case	_	_
 42	crédito	crédito	NOUN	NOUN	_	37	nmod	_	_
@@ -252,9 +252,9 @@
 16	final	final	NOUN	NOUN	_	14	nmod	_	_
 17	de	de	ADP	ADP	_	18	case	_	_
 18	placa	placa	NOUN	NOUN	_	16	nmod	_	_
-19	5	_	NUM	NUM	NumType=Card	16	appos	_	_
+19	5	5	NUM	NUM	NumType=Card	16	appos	_	_
 20	ou	ou	CCONJ	CONJ	_	21	cc	_	_
-21	6	_	NUM	NUM	NumType=Card	19	conj	_	SpaceAfter=No
+21	6	6	NUM	NUM	NumType=Card	19	conj	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = test-s207
@@ -310,7 +310,7 @@
 # text = "Em 1970, mais ou menos, a área começou a ter um pouco de notoriedade e comecei a dar uma olhada e ver o que a TI fazia.
 1	"	"	PUNCT	.	_	13	punct	_	SpaceAfter=No
 2	Em	em	ADP	ADP	_	3	case	_	_
-3	1970	_	NUM	NUM	NumType=Card	13	nmod	_	SpaceAfter=No
+3	1970	1970	NUM	NUM	NumType=Card	13	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	5	punct	_	_
 5	mais	mais	ADV	ADV	_	3	advmod	_	_
 6	ou	ou	CCONJ	CONJ	_	7	cc	_	_

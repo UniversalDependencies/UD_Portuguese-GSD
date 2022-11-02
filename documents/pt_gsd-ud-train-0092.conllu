@@ -19,7 +19,7 @@
 16	hoje	hoje	ADV	ADV	_	15	advmod	_	SpaceAfter=No
 17	,	,	PUNCT	.	_	18	punct	_	_
 18	dia	dia	NOUN	NOUN	_	16	nmod	_	_
-19	7	_	NUM	NUM	NumType=Card	18	appos	_	SpaceAfter=No
+19	7	7	NUM	NUM	NumType=Card	18	appos	_	SpaceAfter=No
 20	,	,	PUNCT	.	_	18	punct	_	_
 21	em	em	ADP	ADP	_	22	case	_	_
 22	Interlaken	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
@@ -39,7 +39,7 @@
 5	uma	um	DET	DET	_	6	det	_	_
 6	área	área	NOUN	NOUN	_	1	nmod	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
-8	40,7	_	NUM	NUM	NumType=Card	9	nummod	_	_
+8	40,7	40,7	NUM	NUM	NumType=Card	9	nummod	_	_
 9	km	km	NOUN	NOUN	_	6	nmod	_	_
 10	²	_	PUNCT	.	_	9	punct	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	1	punct	_	_
@@ -88,7 +88,7 @@
 12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	governo	governo	NOUN	NOUN	_	10	nmod	_	_
 14	desde	_	ADP	ADP	_	15	case	_	_
-15	2011	_	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
+15	2011	2011	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	.	_	2	punct	_	_
 17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	MP	_	PROPN	PNOUN	_	21	nsubj	_	_
@@ -157,7 +157,7 @@
 
 # sent_id = train-s916
 # text = 10 dias sem custos ** Após este período, custo de R $ 0,31 + imp.
-1	10	_	NUM	NUM	NumType=Card	2	nummod	_	_
+1	10	10	NUM	NUM	NumType=Card	2	nummod	_	_
 2	dias	dia	NOUN	NOUN	_	10	parataxis	_	_
 3	sem	_	ADP	ADP	_	4	case	_	_
 4	custos	custo	NOUN	NOUN	_	2	nmod	_	_
@@ -170,7 +170,7 @@
 11	de	de	ADP	ADP	_	12	case	_	_
 12	R	r	NOUN	NOUN	_	10	nmod	_	_
 13	$	_	SYM	SYM	_	12	flat	_	_
-14	0,31	_	NUM	NUM	NumType=Card	12	nummod	_	_
+14	0,31	0,31	NUM	NUM	NumType=Card	12	nummod	_	_
 15	+	_	X	X	_	16	cc	_	_
 16	imp	_	NOUN	NOUN	_	12	conj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	10	punct	_	_

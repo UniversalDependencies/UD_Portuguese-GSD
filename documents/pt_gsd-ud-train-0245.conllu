@@ -26,7 +26,7 @@
 # text = Jungle Fight 45 foi um evento de MMA, ocorrido dia 15 de Novembro de 2012 no ginásio da UEPA (Universidade Estadual do Pará) Belém, Pará.
 1	Jungle	_	PROPN	PNOUN	_	6	nsubj	_	_
 2	Fight	_	PROPN	PNOUN	_	1	flat	_	_
-3	45	_	NUM	NUM	NumType=Card	1	appos	_	_
+3	45	45	NUM	NUM	NumType=Card	1	appos	_	_
 4	foi	_	AUX	AUX	_	6	cop	_	_
 5	um	um	DET	DET	_	6	det	_	_
 6	evento	evento	NOUN	NOUN	_	0	root	_	_
@@ -35,11 +35,11 @@
 9	,	,	PUNCT	.	_	10	punct	_	_
 10	ocorrido	ocorrer	VERB	VERB	_	6	acl	_	_
 11	dia	dia	NOUN	NOUN	_	10	nmod	_	_
-12	15	_	NUM	NUM	NumType=Card	11	appos	_	_
+12	15	15	NUM	NUM	NumType=Card	11	appos	_	_
 13	de	de	ADP	ADP	_	14	case	_	_
 14	Novembro	_	PROPN	PNOUN	_	12	nmod	_	_
 15	de	de	ADP	ADP	_	16	case	_	_
-16	2012	_	NUM	NUM	NumType=Card	14	nmod	_	_
+16	2012	2012	NUM	NUM	NumType=Card	14	nmod	_	_
 17-18	no	_	_	_	_	_	_	_	_
 17	em	em	ADP	ADP	_	19	case	_	_
 18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
@@ -118,7 +118,7 @@
 18	pesquisa	pesquisa	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	.	_	22	punct	_	_
 20	com	com	ADP	ADP	_	22	case	_	_
-21	13	_	NUM	NUM	NumType=Card	22	nummod	_	_
+21	13	13	NUM	NUM	NumType=Card	22	nummod	_	_
 22	%	_	SYM	SYM	_	11	nmod	_	_
 23-24	dos	_	_	_	_	_	_	_	_
 23	de	de	ADP	ADP	_	25	case	_	_
@@ -131,7 +131,7 @@
 30	pequena	pequeno	ADJ	ADJ	_	31	amod	_	_
 31	vantagem	vantagem	NOUN	NOUN	_	28	obj	_	_
 32	de	de	ADP	ADP	_	34	case	_	_
-33	2	_	NUM	NUM	NumType=Card	34	nummod	_	_
+33	2	2	NUM	NUM	NumType=Card	34	nummod	_	_
 34	%	_	SYM	SYM	_	31	nmod	_	SpaceAfter=No
 35	,	,	PUNCT	.	_	37	punct	_	_
 36	em	em	ADP	ADP	_	37	case	_	_
@@ -155,7 +155,7 @@
 53	última	último	ADJ	ADJ	_	54	amod	_	_
 54	pesquisa	pesquisa	NOUN	NOUN	_	51	nmod	_	_
 55	com	com	ADP	ADP	_	57	case	_	_
-56	11	_	NUM	NUM	NumType=Card	57	nummod	_	_
+56	11	11	NUM	NUM	NumType=Card	57	nummod	_	_
 57	%	_	SYM	SYM	_	51	nmod	_	_
 58-59	dos	_	_	_	_	_	_	_	_
 58	de	de	ADP	ADP	_	60	case	_	_

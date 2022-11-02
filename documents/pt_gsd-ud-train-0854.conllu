@@ -34,7 +34,7 @@
 2	mínimas	_	NOUN	NOUN	_	4	nsubj	_	_
 3	devem	_	AUX	AUX	_	4	aux	_	_
 4	atingir	atingir	VERB	VERB	_	0	root	_	_
-5	5	_	NUM	NUM	NumType=Card	6	nummod	_	_
+5	5	5	NUM	NUM	NumType=Card	6	nummod	_	_
 6	°	_	NOUN	NOUN	_	4	obj	_	_
 7	C	c	NOUN	NOUN	_	6	flat	_	_
 8	em	em	ADP	ADP	_	9	case	_	_
@@ -90,7 +90,7 @@
 4	bônus	bônus	NOUN	NOUN	_	2	obj	_	_
 5	de	de	ADP	ADP	_	6	case	_	_
 6	$	_	SYM	SYM	_	4	nmod	_	_
-7	75,000	_	NUM	NUM	NumType=Card	6	nummod	_	SpaceAfter=No
+7	75,000	75,000	NUM	NUM	NumType=Card	6	nummod	_	SpaceAfter=No
 8	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s8482
@@ -99,7 +99,7 @@
 2	reunião	reunião	NOUN	NOUN	_	12	nmod	_	_
 3	ontem	ontem	ADV	ADV	_	12	advmod	_	_
 4	(	(	PUNCT	.	_	5	punct	_	SpaceAfter=No
-5	15	_	NUM	NUM	NumType=Card	3	nmod	_	SpaceAfter=No
+5	15	15	NUM	NUM	NumType=Card	3	nmod	_	SpaceAfter=No
 6	)	)	PUNCT	.	_	5	punct	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	3	punct	_	_
 8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -210,7 +210,7 @@
 # sent_id = train-s8486a
 # text = Em 16 de agosto, a Organização da Conferência Islâmica (OCI) suspendeu a Síria como Estado membro do grupo, apesar da oposição do presidente do Irã.
 1	Em	em	ADP	ADP	_	2	case	_	_
-2	16	_	NUM	NUM	NumType=Card	15	nmod	_	_
+2	16	16	NUM	NUM	NumType=Card	15	nmod	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	agosto	_	PROPN	PNOUN	_	2	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	2	punct	_	_

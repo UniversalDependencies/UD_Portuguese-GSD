@@ -75,10 +75,10 @@
 35-36	dos	_	_	_	_	_	_	_	_
 35	de	de	ADP	ADP	_	38	case	_	_
 36	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
-37	25	_	NUM	NUM	NumType=Card	38	nummod	_	_
+37	25	25	NUM	NUM	NumType=Card	38	nummod	_	_
 38	internos	interno	NOUN	NOUN	_	42	nmod	_	SpaceAfter=No
 39	,	,	PUNCT	.	_	38	punct	_	_
-40	12	_	NUM	NUM	NumType=Card	42	nsubj:pass	_	_
+40	12	12	NUM	NUM	NumType=Card	42	nsubj:pass	_	_
 41	serão	ser	AUX	AUX	_	42	aux:pass	_	_
 42	internados	internar	VERB	VERB	_	32	csubj	_	_
 43-44	na	_	_	_	_	_	_	_	_
@@ -90,7 +90,7 @@
 48	e	e	CCONJ	CONJ	_	53	cc	_	_
 49	os	o	DET	DET	_	51	det	_	_
 50	outros	_	DET	DET	_	51	det	_	_
-51	13	_	NUM	NUM	NumType=Card	53	nsubj	_	_
+51	13	13	NUM	NUM	NumType=Card	53	nsubj	_	_
 52	devem	_	AUX	AUX	_	53	aux	_	_
 53	retornar	retornar	VERB	VERB	_	42	conj	_	_
 54	para	para	ADP	ADP	_	56	case	_	_
@@ -231,16 +231,16 @@
 # sent_id = train-s5
 # text = Em 2 de outubro de 2009, no 10 º aniversário da SmackDown, The Rock fez uma aparição especial num vídeo pré - gravado.
 1	Em	em	ADP	ADP	_	2	case	_	_
-2	2	_	NUM	NUM	NumType=Card	19	nmod	_	_
+2	2	2	NUM	NUM	NumType=Card	19	nmod	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	outubro	_	PROPN	PNOUN	_	2	nmod	_	_
 5	de	de	ADP	ADP	_	6	case	_	_
-6	2009	_	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
+6	2009	2009	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	12	punct	_	_
 8-9	no	_	_	_	_	_	_	_	_
 8	em	em	ADP	ADP	_	12	case	_	_
 9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-10	10	_	NUM	NUM	NumType=Card	12	amod	_	_
+10	10	10	NUM	NUM	NumType=Card	12	amod	_	_
 11	º	_	PUNCT	.	_	10	punct	_	_
 12	aniversário	aniversário	NOUN	NOUN	_	2	nmod	_	_
 13-14	da	_	_	_	_	_	_	_	_
@@ -368,14 +368,14 @@
 30	em	em	ADP	ADP	_	31	case	_	_
 31	torno	torno	NOUN	NOUN	_	29	nmod	_	_
 32	de	de	ADP	ADP	_	34	case	_	_
-33	1	_	NUM	NUM	NumType=Card	34	nummod	_	_
+33	1	1	NUM	NUM	NumType=Card	34	nummod	_	_
 34	%	_	SYM	SYM	_	31	nmod	_	_
 35	a	_	ADP	ADP	_	37	case	_	_
-36	1,1	_	NUM	NUM	NumType=Card	37	nummod	_	_
+36	1,1	1,1	NUM	NUM	NumType=Card	37	nummod	_	_
 37	%	_	SYM	SYM	_	31	nmod	_	SpaceAfter=No
 38	,	,	PUNCT	.	_	41	punct	_	_
 39	contra	_	ADP	ADP	_	41	case	_	_
-40	0,5	_	NUM	NUM	NumType=Card	41	nummod	_	_
+40	0,5	0,5	NUM	NUM	NumType=Card	41	nummod	_	_
 41	%	_	SYM	SYM	_	29	nmod	_	_
 42-43	no	_	_	_	_	_	_	_	_
 42	em	em	ADP	ADP	_	44	case	_	_
@@ -399,7 +399,7 @@
 58	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	59	det	_	_
 59	economia	economia	NOUN	NOUN	_	56	nmod	_	_
 60	em	em	ADP	ADP	_	61	case	_	_
-61	2013	_	NUM	NUM	NumType=Card	56	nmod	_	SpaceAfter=No
+61	2013	2013	NUM	NUM	NumType=Card	56	nmod	_	SpaceAfter=No
 62	.	.	PUNCT	.	_	53	punct	_	_
 
 # sent_id = train-s10

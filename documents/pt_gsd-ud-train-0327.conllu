@@ -57,9 +57,9 @@
 29	Pittsburgh	_	PROPN	PNOUN	_	18	nmod	_	_
 30	Steelers	_	PROPN	PNOUN	_	29	flat	_	SpaceAfter=No
 31	,	,	PUNCT	.	_	32	punct	_	_
-32	31	_	NUM	NUM	NumType=Card	18	appos	_	_
+32	31	31	NUM	NUM	NumType=Card	18	appos	_	_
 33	a	_	ADP	ADP	_	34	case	_	_
-34	19	_	NUM	NUM	NumType=Card	32	nmod	_	SpaceAfter=No
+34	19	19	NUM	NUM	NumType=Card	32	nmod	_	SpaceAfter=No
 35	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = train-s3244
@@ -161,7 +161,7 @@
 # sent_id = train-s3249
 # text = Em 2007, a ONU (Organização das Nações Unidas) abraçou a causa e incluiu oficialmente essa data no seu calendário.
 1	Em	em	ADP	ADP	_	2	case	_	_
-2	2007	_	NUM	NUM	NumType=Card	13	nmod	_	SpaceAfter=No
+2	2007	2007	NUM	NUM	NumType=Card	13	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
 4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	ONU	_	PROPN	PNOUN	_	13	nsubj	_	_

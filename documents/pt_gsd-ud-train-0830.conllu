@@ -58,11 +58,11 @@
 10	de	de	ADP	ADP	_	11	case	_	_
 11	Gaia	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	.	_	13	punct	_	_
-13	16	_	NUM	NUM	NumType=Card	8	nmod	_	_
+13	16	16	NUM	NUM	NumType=Card	8	nmod	_	_
 14	de	de	ADP	ADP	_	15	case	_	_
 15	maio	_	PROPN	PNOUN	_	13	nmod	_	_
 16	de	de	ADP	ADP	_	17	case	_	_
-17	1981	_	NUM	NUM	NumType=Card	15	nmod	_	SpaceAfter=No
+17	1981	1981	NUM	NUM	NumType=Card	15	nmod	_	SpaceAfter=No
 18	)	)	PUNCT	.	_	8	punct	_	_
 19	é	ser	AUX	AUX	_	21	cop	_	_
 20	um	um	DET	DET	_	21	det	_	_
@@ -167,15 +167,15 @@
 13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	Granada	_	PROPN	PNOUN	_	12	obj	_	_
 15	por	por	ADP	ADP	_	16	case	_	_
-16	3	_	NUM	NUM	NumType=Card	12	nmod	_	_
+16	3	3	NUM	NUM	NumType=Card	12	nmod	_	_
 17	a	_	ADP	ADP	_	18	case	_	_
-18	1	_	NUM	NUM	NumType=Card	16	nmod	_	_
+18	1	1	NUM	NUM	NumType=Card	16	nmod	_	_
 19	e	e	CCONJ	CONJ	_	20	cc	_	_
 20	chegar	chegar	VERB	VERB	_	12	conj	_	_
 21-22	aos	_	_	_	_	_	_	_	_
 21	a	a	ADP	ADP	_	24	case	_	_
 22	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
-23	16	_	NUM	NUM	NumType=Card	24	nummod	_	_
+23	16	16	NUM	NUM	NumType=Card	24	nummod	_	_
 24	pontos	ponto	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	6	punct	_	_
 
@@ -230,7 +230,7 @@
 # sent_id = train-s8248
 # text = Até 25 de junho, o governo pagou cerca de R $ 1,5 bi.
 1	Até	_	ADP	ADP	_	2	case	_	_
-2	25	_	NUM	NUM	NumType=Card	8	nmod	_	_
+2	25	25	NUM	NUM	NumType=Card	8	nmod	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	junho	_	PROPN	PNOUN	_	2	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	2	punct	_	_
@@ -241,7 +241,7 @@
 10	de	de	ADP	ADP	_	9	case	_	_
 11	R	r	NOUN	NOUN	_	8	obj	_	_
 12	$	_	SYM	SYM	_	11	flat	_	_
-13	1,5	_	NUM	NUM	NumType=Card	14	nummod	_	_
+13	1,5	1,5	NUM	NUM	NumType=Card	14	nummod	_	_
 14	bi	_	NUM	NUM	NumType=Card	11	nummod	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	8	punct	_	_
 

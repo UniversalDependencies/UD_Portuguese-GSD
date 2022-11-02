@@ -2,7 +2,7 @@
 # text = Entretanto, 61,1 % desse mercado, que representou R $ 94,3 bilhões, foi ocupado por produtos importados.
 1	Entretanto	entretanto	ADV	ADV	_	16	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	.	_	1	punct	_	_
-3	61,1	_	NUM	NUM	NumType=Card	4	nummod	_	_
+3	61,1	61,1	NUM	NUM	NumType=Card	4	nummod	_	_
 4	%	_	SYM	SYM	_	16	nsubj:pass	_	_
 5	desse	_	ADP	ADP	_	6	case	_	_
 6	mercado	mercado	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
@@ -11,7 +11,7 @@
 9	representou	representar	VERB	VERB	_	4	acl:relcl	_	_
 10	R	r	NOUN	NOUN	_	9	obj	_	_
 11	$	_	SYM	SYM	_	10	flat	_	_
-12	94,3	_	NUM	NUM	NumType=Card	13	nummod	_	_
+12	94,3	94,3	NUM	NUM	NumType=Card	13	nummod	_	_
 13	bilhões	_	NUM	NUM	NumType=Card	10	nummod	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	9	punct	_	_
 15	foi	_	AUX	AUX	_	16	aux:pass	_	_
@@ -102,11 +102,11 @@
 # sent_id = train-s8403
 # text = Em 28 de dezembro de 1984, uma nota da coluna Roda Viva, do jornal O Dia, anunciava que a Secretaria de Educação do Piauí pretendia montar já no ano seguinte "a TV Educativa até o mês de setembro".
 1	Em	em	ADP	ADP	_	2	case	_	_
-2	28	_	NUM	NUM	NumType=Card	22	nmod	_	_
+2	28	28	NUM	NUM	NumType=Card	22	nmod	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	dezembro	_	PROPN	PNOUN	_	2	nmod	_	_
 5	de	de	ADP	ADP	_	6	case	_	_
-6	1984	_	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
+6	1984	1984	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	2	punct	_	_
 8	uma	um	DET	DET	_	9	det	_	_
 9	nota	nota	NOUN	NOUN	_	22	nsubj	_	_
@@ -293,7 +293,7 @@
 45	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
 46	bloco	bloco	NOUN	NOUN	_	40	nmod	_	_
 47	em	em	ADP	ADP	_	48	case	_	_
-48	31	_	NUM	NUM	NumType=Card	38	nmod	_	_
+48	31	31	NUM	NUM	NumType=Card	38	nmod	_	_
 49	de	de	ADP	ADP	_	50	case	_	_
 50	julho	_	PROPN	PNOUN	_	48	nmod	_	_
 51	--	_	PUNCT	.	_	55	punct	_	_

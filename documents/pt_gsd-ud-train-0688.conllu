@@ -70,7 +70,7 @@
 36	de	de	ADP	ADP	_	38	case	_	_
 37	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
 38	emenda	emenda	NOUN	NOUN	_	35	nmod	_	_
-39	58	_	NUM	NUM	NumType=Card	38	appos	_	SpaceAfter=No
+39	58	58	NUM	NUM	NumType=Card	38	appos	_	SpaceAfter=No
 40	,	,	PUNCT	.	_	32	punct	_	_
 41	redefiniu	redefinir	VERB	VERB	_	26	acl:relcl	_	_
 42	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
@@ -97,7 +97,7 @@
 # sent_id = train-s6829
 # text = As 40 maiores cidades produzem um PIB anual de US $ 842 bilhões, mas há uma tendência de desconcentração da geração de riqueza para cidades menores, de acordo com o relatório "Estado das Cidades da América Latina e Caribe - 2012", apresentado pela agência ONU - Habitat nesta terça - feira.
 1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
-2	40	_	NUM	NUM	NumType=Card	4	nummod	_	_
+2	40	40	NUM	NUM	NumType=Card	4	nummod	_	_
 3	maiores	maior	ADJ	ADJ	_	4	amod	_	_
 4	cidades	cidade	NOUN	NOUN	_	5	nsubj	_	_
 5	produzem	produzir	VERB	VERB	_	0	root	_	_
@@ -107,7 +107,7 @@
 9	de	de	ADP	ADP	_	10	case	_	_
 10	US	_	PROPN	PNOUN	_	7	nmod	_	_
 11	$	_	SYM	SYM	_	10	flat	_	_
-12	842	_	NUM	NUM	NumType=Card	13	nummod	_	_
+12	842	842	NUM	NUM	NumType=Card	13	nummod	_	_
 13	bilhões	_	NUM	NUM	NumType=Card	10	nummod	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	16	punct	_	_
 15	mas	mas	CCONJ	CONJ	_	16	cc	_	_
@@ -145,7 +145,7 @@
 44	e	e	CCONJ	CONJ	_	45	cc	_	_
 45	Caribe	_	PROPN	PNOUN	_	42	conj	_	_
 46	-	-	PUNCT	.	_	47	punct	_	_
-47	2012	_	NUM	NUM	NumType=Card	36	nmod	_	SpaceAfter=No
+47	2012	2012	NUM	NUM	NumType=Card	36	nmod	_	SpaceAfter=No
 48	"	"	PUNCT	.	_	36	punct	_	SpaceAfter=No
 49	,	,	PUNCT	.	_	50	punct	_	_
 50	apresentado	apresentar	VERB	VERB	_	34	acl	_	_
@@ -191,7 +191,7 @@
 # sent_id = train-s6831
 # text = Desde 2006, quadruplicou uma iniciativa da ONU de replantar pelo menos um bilhão de árvores ao ano.
 1	Desde	_	ADP	ADP	_	2	case	_	_
-2	2006	_	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
+2	2006	2006	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
 4	quadruplicou	quadruplicar	VERB	VERB	_	0	root	_	_
 5	uma	um	DET	DET	_	6	det	_	_
@@ -225,11 +225,11 @@
 5	entre	_	ADP	ADP	_	7	case	_	_
 6	os	o	DET	DET	_	7	det	_	_
 7	dias	dia	NOUN	NOUN	_	4	nmod	_	_
-8	23	_	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
+8	23	23	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	10	punct	_	_
-10	24	_	NUM	NUM	NumType=Card	8	conj	_	_
+10	24	24	NUM	NUM	NumType=Card	8	conj	_	_
 11	e	e	CCONJ	CONJ	_	12	cc	_	_
-12	25	_	NUM	NUM	NumType=Card	8	conj	_	_
+12	25	25	NUM	NUM	NumType=Card	8	conj	_	_
 13	de	de	ADP	ADP	_	14	case	_	_
 14	novembro	_	PROPN	PNOUN	_	8	nmod	_	_
 15	e	e	CCONJ	CONJ	_	17	cc	_	_
@@ -237,7 +237,7 @@
 17	reunir	reunir	VERB	VERB	_	4	conj	_	_
 18	cerca	cerca	ADV	ADV	_	21	advmod	_	_
 19	de	de	ADP	ADP	_	18	case	_	_
-20	100	_	NUM	NUM	NumType=Card	21	nummod	_	_
+20	100	100	NUM	NUM	NumType=Card	21	nummod	_	_
 21	mil	_	NUM	NUM	NumType=Card	22	nummod	_	_
 22	pessoas	pessoa	NOUN	NOUN	_	17	obj	_	_
 23	em	em	ADP	ADP	_	25	case	_	_
@@ -256,7 +256,7 @@
 3	este	_	DET	DET	_	4	det	_	_
 4	número	número	NOUN	NOUN	_	5	nsubj	_	_
 5	é	ser	VERB	VERB	_	20	ccomp	_	_
-6	50	_	NUM	NUM	NumType=Card	7	nummod	_	_
+6	50	50	NUM	NUM	NumType=Card	7	nummod	_	_
 7	%	_	SYM	SYM	_	8	nmod	_	_
 8	maior	maior	ADJ	ADJ	_	5	xcomp	_	_
 9	e	e	CCONJ	CONJ	_	17	cc	_	_
@@ -264,7 +264,7 @@
 11	déficit	déficit	NOUN	NOUN	_	17	nsubj	_	_
 12	real	real	ADJ	ADJ	_	11	amod	_	_
 13	são	ser	AUX	AUX	_	17	cop	_	_
-14	30	_	NUM	NUM	NumType=Card	15	nummod	_	_
+14	30	30	NUM	NUM	NumType=Card	15	nummod	_	_
 15	milhões	_	NUM	NUM	NumType=Card	17	nummod	_	_
 16	de	de	ADP	ADP	_	17	case	_	_
 17	toneladas	tonelada	NOUN	NOUN	_	5	conj	_	_
@@ -282,7 +282,7 @@
 29	,	,	PUNCT	.	_	28	punct	_	_
 30	cerca	cerca	ADV	ADV	_	33	advmod	_	_
 31	de	de	ADP	ADP	_	30	case	_	_
-32	10	_	NUM	NUM	NumType=Card	33	nummod	_	_
+32	10	10	NUM	NUM	NumType=Card	33	nummod	_	_
 33	milhões	_	NUM	NUM	NumType=Card	35	nummod	_	_
 34	de	de	ADP	ADP	_	35	case	_	_
 35	toneladas	tonelada	NOUN	NOUN	_	43	nsubj	_	_
@@ -337,7 +337,7 @@
 22	neste	_	ADP	ADP	_	23	case	_	_
 23	domingo	_	PROPN	PNOUN	_	21	nmod	_	_
 24	(	(	PUNCT	.	_	25	punct	_	SpaceAfter=No
-25	23	_	NUM	NUM	NumType=Card	23	nmod	_	SpaceAfter=No
+25	23	23	NUM	NUM	NumType=Card	23	nmod	_	SpaceAfter=No
 26	)	)	PUNCT	.	_	25	punct	_	_
 27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	espetáculo	espetáculo	NOUN	NOUN	_	21	obj	_	_
@@ -429,6 +429,6 @@
 36	Baltimore	_	PROPN	PNOUN	_	35	flat	_	SpaceAfter=No
 37	,	,	PUNCT	.	_	39	punct	_	_
 38	em	em	ADP	ADP	_	39	case	_	_
-39	1971	_	NUM	NUM	NumType=Card	33	nmod	_	SpaceAfter=No
+39	1971	1971	NUM	NUM	NumType=Card	33	nmod	_	SpaceAfter=No
 40	.	.	PUNCT	.	_	8	punct	_	_
 

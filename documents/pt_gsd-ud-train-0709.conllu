@@ -8,7 +8,7 @@
 6	--	_	PUNCT	.	_	12	punct	_	_
 7	Cerca	cerca	ADV	ADV	_	10	advmod	_	_
 8	de	de	ADP	ADP	_	7	case	_	_
-9	1,5	_	NUM	NUM	NumType=Card	10	nummod	_	_
+9	1,5	1,5	NUM	NUM	NumType=Card	10	nummod	_	_
 10	mil	_	NUM	NUM	NumType=Card	11	nummod	_	_
 11	eleitores	eleitor	NOUN	NOUN	_	12	nsubj	_	_
 12	participaram	participar	VERB	VERB	_	0	root	_	_
@@ -28,12 +28,12 @@
 24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	equivalente	_	NOUN	NOUN	_	11	appos	_	_
 26	a	_	ADP	ADP	_	28	case	_	_
-27	26,5	_	NUM	NUM	NumType=Card	28	nummod	_	_
+27	26,5	26,5	NUM	NUM	NumType=Card	28	nummod	_	_
 28	%	_	SYM	SYM	_	25	nmod	_	_
 29-30	dos	_	_	_	_	_	_	_	_
 29	de	de	ADP	ADP	_	33	case	_	_
 30	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
-31	5,9	_	NUM	NUM	NumType=Card	32	nummod	_	_
+31	5,9	5,9	NUM	NUM	NumType=Card	32	nummod	_	_
 32	mil	_	NUM	NUM	NumType=Card	33	nummod	_	_
 33	convidados	convidado	NOUN	NOUN	_	28	nmod	_	_
 34	por	por	ADP	ADP	_	35	case	_	_
@@ -92,10 +92,10 @@
 3	não	não	ADV	ADV	Polarity=Neg	4	advmod	_	_
 4	sabem	saber	VERB	VERB	_	1	acl:relcl	_	_
 5	somaram	somar	VERB	VERB	_	0	root	_	_
-6	31,6	_	NUM	NUM	NumType=Card	7	nummod	_	_
+6	31,6	31,6	NUM	NUM	NumType=Card	7	nummod	_	_
 7	%	_	SYM	SYM	_	5	obj	_	_
 8	(	(	PUNCT	.	_	10	punct	_	SpaceAfter=No
-9	54,5	_	NUM	NUM	NumType=Card	10	nummod	_	_
+9	54,5	54,5	NUM	NUM	NumType=Card	10	nummod	_	_
 10	%	_	SYM	SYM	_	7	appos	_	SpaceAfter=No
 11	)	)	PUNCT	.	_	10	punct	_	SpaceAfter=No
 12	;	_	PUNCT	.	_	5	punct	_	_
@@ -113,7 +113,7 @@
 8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	recontagem	recontagem	NOUN	NOUN	_	7	obj	_	_
 10	de	de	ADP	ADP	_	12	case	_	_
-11	54,5	_	NUM	NUM	NumType=Card	12	nummod	_	_
+11	54,5	54,5	NUM	NUM	NumType=Card	12	nummod	_	_
 12	%	_	SYM	SYM	_	9	nmod	_	_
 13-14	dos	_	_	_	_	_	_	_	_
 13	de	de	ADP	ADP	_	15	case	_	_
@@ -134,7 +134,7 @@
 8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Campeonato	_	PROPN	PNOUN	_	3	nmod	_	_
 10	Brasileiro	_	PROPN	PNOUN	_	9	amod	_	_
-11	2012	_	NUM	NUM	NumType=Card	9	nmod	_	SpaceAfter=No
+11	2012	2012	NUM	NUM	NumType=Card	9	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s7041
@@ -148,7 +148,7 @@
 6	animada	animado	ADJ	ADJ	_	5	amod	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	9	punct	_	_
 8	em	em	ADP	ADP	_	9	case	_	_
-9	2006	_	NUM	NUM	NumType=Card	11	nmod	_	SpaceAfter=No
+9	2006	2006	NUM	NUM	NumType=Card	11	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	9	punct	_	_
 11	permitiu	permitir	VERB	VERB	_	0	root	_	_
 12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
@@ -269,7 +269,7 @@
 6	Revisão	_	PROPN	PNOUN	_	4	nsubj:pass	_	_
 7	Constitucional	_	PROPN	PNOUN	_	6	amod	_	_
 8	de	de	ADP	ADP	_	9	case	_	_
-9	1982	_	NUM	NUM	NumType=Card	6	nmod	_	_
+9	1982	1982	NUM	NUM	NumType=Card	6	nmod	_	_
 10	que	_	PRON	PRON	_	11	nsubj	_	_
 11	extinguiu	extinguir	VERB	VERB	_	6	acl:relcl	_	_
 12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
@@ -346,7 +346,7 @@
 41	de	de	ADP	ADP	_	42	case	_	_
 42	Souza	_	PROPN	PNOUN	_	38	nmod	_	SpaceAfter=No
 43	,	,	PUNCT	.	_	44	punct	_	_
-44	243	_	NUM	NUM	NumType=Card	38	appos	_	SpaceAfter=No
+44	243	243	NUM	NUM	NumType=Card	38	appos	_	SpaceAfter=No
 45	,	,	PUNCT	.	_	46	punct	_	_
 46	Vila	_	PROPN	PNOUN	_	38	appos	_	_
 47	Mocó	_	PROPN	PNOUN	_	46	flat	_	_

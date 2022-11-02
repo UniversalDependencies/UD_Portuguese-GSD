@@ -12,7 +12,7 @@
 10	uma	um	DET	DET	_	11	det	_	_
 11	área	área	NOUN	NOUN	_	9	obj	_	_
 12	de	de	ADP	ADP	_	14	case	_	_
-13	2,4	_	NUM	NUM	NumType=Card	14	nummod	_	_
+13	2,4	2,4	NUM	NUM	NumType=Card	14	nummod	_	_
 14	km	km	NOUN	NOUN	_	11	nmod	_	_
 15	²	_	PUNCT	.	_	14	punct	_	SpaceAfter=No
 16	,	,	PUNCT	.	_	21	punct	_	_
@@ -20,14 +20,14 @@
 17	de	de	ADP	ADP	_	19	case	_	_
 18	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
 19	quais	_	PRON	PRON	_	21	nmod	_	_
-20	2,4	_	NUM	NUM	NumType=Card	21	nummod	_	_
+20	2,4	2,4	NUM	NUM	NumType=Card	21	nummod	_	_
 21	km	km	NOUN	NOUN	_	14	appos	_	_
 22	²	_	PUNCT	.	_	28	punct	_	_
 23	cobertos	cobrir	VERB	VERB	_	21	acl	_	_
 24	por	por	ADP	ADP	_	25	case	_	_
 25	terra	terra	NOUN	NOUN	_	23	nmod	_	_
 26	e	e	CCONJ	CONJ	_	28	cc	_	_
-27	0,0	_	NUM	NUM	NumType=Card	28	nummod	_	_
+27	0,0	0,0	NUM	NUM	NumType=Card	28	nummod	_	_
 28	km	km	NOUN	NOUN	_	21	conj	_	_
 29	²	_	PUNCT	.	_	28	punct	_	_
 30	cobertos	cobrir	VERB	VERB	_	28	acl	_	_
@@ -104,7 +104,7 @@
 3	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	9	punct	_	_
 5	com	com	ADP	ADP	_	9	case	_	_
-6	4	_	NUM	NUM	NumType=Card	7	nummod	_	_
+6	4	4	NUM	NUM	NumType=Card	7	nummod	_	_
 7	milhões	_	NUM	NUM	NumType=Card	9	nummod	_	_
 8	de	de	ADP	ADP	_	9	case	_	_
 9	usuários	usuário	NOUN	NOUN	_	2	nmod	_	_
@@ -113,7 +113,7 @@
 12	foi	_	VERB	VERB	_	0	root	_	_
 13	responsável	responsável	ADJ	ADJ	_	12	xcomp	_	_
 14	por	por	ADP	ADP	_	16	case	_	_
-15	29	_	NUM	NUM	NumType=Card	16	nummod	_	_
+15	29	29	NUM	NUM	NumType=Card	16	nummod	_	_
 16	%	_	SYM	SYM	_	13	nmod	_	_
 17-18	do	_	_	_	_	_	_	_	_
 17	de	de	ADP	ADP	_	19	case	_	_
@@ -281,7 +281,7 @@
 # text = -- Joguei 17 minutos.
 1	--	_	PUNCT	.	_	2	punct	_	_
 2	Joguei	jogar	VERB	VERB	_	0	root	_	_
-3	17	_	NUM	NUM	NumType=Card	4	nummod	_	_
+3	17	17	NUM	NUM	NumType=Card	4	nummod	_	_
 4	minutos	minuto	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
 5	.	.	PUNCT	.	_	2	punct	_	_
 

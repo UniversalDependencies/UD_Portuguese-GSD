@@ -67,7 +67,7 @@
 12	outros	_	DET	DET	_	13	det	_	_
 13	contos	conto	NOUN	NOUN	_	2	conj	_	_
 14	(	(	PUNCT	.	_	15	punct	_	SpaceAfter=No
-15	2000	_	NUM	NUM	NumType=Card	2	nmod	_	SpaceAfter=No
+15	2000	2000	NUM	NUM	NumType=Card	2	nmod	_	SpaceAfter=No
 16	)	)	PUNCT	.	_	15	punct	_	_
 17	e	e	CCONJ	CONJ	_	19	cc	_	_
 18	Um	um	DET	_	_	19	det	_	MWEPOS=PROPN
@@ -82,9 +82,9 @@
 27	duas	_	NUM	NUM	NumType=Card	28	nummod	_	_
 28	edições	edição	NOUN	NOUN	_	25	nmod	_	_
 29	em	em	ADP	ADP	_	30	case	_	_
-30	1981	_	NUM	NUM	NumType=Card	25	nmod	_	_
+30	1981	1981	NUM	NUM	NumType=Card	25	nmod	_	_
 31	e	e	CCONJ	CONJ	_	32	cc	_	_
-32	2001	_	NUM	NUM	NumType=Card	30	conj	_	SpaceAfter=No
+32	2001	2001	NUM	NUM	NumType=Card	30	conj	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s8044
@@ -139,7 +139,7 @@
 1	Em	em	ADP	ADP	_	2	case	_	_
 2	outubro	_	PROPN	PNOUN	_	12	nmod	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
-4	2006	_	NUM	NUM	NumType=Card	2	nmod	_	SpaceAfter=No
+4	2006	2006	NUM	NUM	NumType=Card	2	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	6	punct	_	_
 6	Teotônio	_	PROPN	PNOUN	_	12	nsubj:pass	_	_
 7	Vilela	_	PROPN	PNOUN	_	6	flat:name	_	_
@@ -160,10 +160,10 @@
 21	em	em	ADP	ADP	_	22	case	_	_
 22	outubro	_	PROPN	PNOUN	_	19	obl	_	_
 23	de	de	ADP	ADP	_	24	case	_	_
-24	2010	_	NUM	NUM	NumType=Card	22	nmod	_	SpaceAfter=No
+24	2010	2010	NUM	NUM	NumType=Card	22	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	.	_	28	punct	_	_
 26	com	com	ADP	ADP	_	28	case	_	_
-27	52,74	_	NUM	NUM	NumType=Card	28	nummod	_	SpaceAfter=No
+27	52,74	52,74	NUM	NUM	NumType=Card	28	nummod	_	SpaceAfter=No
 28	%	_	SYM	SYM	_	19	obl	_	_
 29-30	dos	_	_	_	_	_	_	_	_
 29	de	de	ADP	ADP	_	31	case	_	_
@@ -190,7 +190,7 @@
 50	que	_	PRON	PRON	_	51	nsubj	_	_
 51	ficou	ficar	VERB	VERB	_	43	acl:relcl	_	_
 52	com	com	ADP	ADP	_	54	case	_	_
-53	47,26	_	NUM	NUM	NumType=Card	54	nummod	_	SpaceAfter=No
+53	47,26	47,26	NUM	NUM	NumType=Card	54	nummod	_	SpaceAfter=No
 54	%	_	SYM	SYM	_	51	nmod	_	SpaceAfter=No
 55	.	.	PUNCT	.	_	12	punct	_	_
 
@@ -223,10 +223,10 @@
 5	juros	juro	NOUN	NOUN	_	2	nmod	_	_
 6	passa	passar	VERB	VERB	_	0	root	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
-8	6,18	_	NUM	NUM	NumType=Card	9	nummod	_	_
+8	6,18	6,18	NUM	NUM	NumType=Card	9	nummod	_	_
 9	%	_	SYM	SYM	_	6	nmod	_	_
 10	para	para	ADP	ADP	_	12	case	_	_
-11	6,14	_	NUM	NUM	NumType=Card	12	nummod	_	_
+11	6,14	6,14	NUM	NUM	NumType=Card	12	nummod	_	_
 12	%	_	SYM	SYM	_	6	nmod	_	_
 13-14	ao	_	_	_	_	_	_	_	_
 13	a	a	ADP	ADP	_	15	case	_	_
@@ -244,7 +244,7 @@
 6	,	,	PUNCT	.	_	7	punct	_	_
 7	vencedora	_	NOUN	NOUN	_	3	appos	_	_
 8	de	de	ADP	ADP	_	10	case	_	_
-9	19	_	NUM	NUM	NumType=Card	10	nummod	_	_
+9	19	19	NUM	NUM	NumType=Card	10	nummod	_	_
 10	títulos	título	NOUN	NOUN	_	7	nmod	_	_
 11	de	de	ADP	ADP	_	13	case	_	_
 12	Grand	_	PROPN	PNOUN	_	13	amod	_	_
@@ -281,11 +281,11 @@
 14	são	ser	AUX	AUX	_	15	cop	_	_
 15	titulares	titular	NOUN	NOUN	_	0	root	_	_
 16	de	de	ADP	ADP	_	18	case	_	_
-17	2012	_	NUM	NUM	NumType=Card	18	nummod	_	_
+17	2012	2012	NUM	NUM	NumType=Card	18	nummod	_	_
 18	candidatos	candidato	NOUN	NOUN	_	15	nmod	_	_
 19	a	_	ADP	ADP	_	20	case	_	_
 20	vagas	vaga	NOUN	NOUN	_	18	nmod	_	_
 21	em	em	ADP	ADP	_	22	case	_	_
-22	2013	_	NUM	NUM	NumType=Card	15	nmod	_	SpaceAfter=No
+22	2013	2013	NUM	NUM	NumType=Card	15	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	15	punct	_	_
 

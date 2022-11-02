@@ -31,7 +31,7 @@
 28	é	ser	AUX	AUX	_	27	cop	_	_
 29	crescer	crescer	VERB	VERB	_	27	csubj	_	_
 30	em	em	ADP	ADP	_	32	case	_	_
-31	10	_	NUM	NUM	NumType=Card	32	nummod	_	_
+31	10	10	NUM	NUM	NumType=Card	32	nummod	_	_
 32	%	_	SYM	SYM	_	29	nmod	_	_
 33-34	nas	_	_	_	_	_	_	_	_
 33	em	em	ADP	ADP	_	35	case	_	_
@@ -42,7 +42,7 @@
 # sent_id = test-s31
 # text = "2013 será um ano desafiador.
 1	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
-2	2013	_	NUM	NUM	NumType=Card	5	nsubj	_	_
+2	2013	2013	NUM	NUM	NumType=Card	5	nsubj	_	_
 3	será	ser	AUX	AUX	_	5	cop	_	_
 4	um	um	DET	DET	_	5	det	_	_
 5	ano	ano	NOUN	NOUN	_	0	root	_	_
@@ -144,7 +144,7 @@
 1	Foi	_	AUX	AUX	_	2	aux:pass	_	_
 2	fundado	fundar	VERB	VERB	_	0	root	_	_
 3	em	em	ADP	ADP	_	4	case	_	_
-4	1946	_	NUM	NUM	NumType=Card	2	nmod	_	SpaceAfter=No
+4	1946	1946	NUM	NUM	NumType=Card	2	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	8	punct	_	_
 6	com	com	ADP	ADP	_	8	case	_	_
 7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -153,13 +153,13 @@
 10	Dínamo	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	16	punct	_	_
 12	em	em	ADP	ADP	_	13	case	_	_
-13	1948	_	NUM	NUM	NumType=Card	16	nmod	_	_
+13	1948	1948	NUM	NUM	NumType=Card	16	nmod	_	_
 14	se	_	PART	PRT	_	16	expl:pv	_	_
 15	chamou	chamar	AUX	AUX	_	16	cop	_	_
 16	Neftyanik	_	PROPN	PNOUN	_	2	conj	_	_
 17	e	e	CCONJ	CONJ	_	24	cc	_	_
 18	em	em	ADP	ADP	_	19	case	_	_
-19	1958	_	NUM	NUM	NumType=Card	24	nmod	_	_
+19	1958	1958	NUM	NUM	NumType=Card	24	nmod	_	_
 20	passou	passar	AUX	AUX	_	24	aux	_	_
 21	a	_	ADP	ADP	_	24	mark	_	_
 22	se	_	PART	PRT	_	24	expl:pv	_	_

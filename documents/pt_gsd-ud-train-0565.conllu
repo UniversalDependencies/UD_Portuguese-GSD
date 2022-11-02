@@ -167,9 +167,9 @@
 18	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
 19	gaúchos	gaúcho	NOUN	NOUN	_	16	nmod	_	_
 20	por	por	ADP	ADP	_	21	case	_	_
-21	3	_	NUM	NUM	NumType=Card	16	nmod	_	_
+21	3	3	NUM	NUM	NumType=Card	16	nmod	_	_
 22	a	_	ADP	ADP	_	23	case	_	_
-23	0	_	NUM	NUM	NumType=Card	21	nmod	_	SpaceAfter=No
+23	0	0	NUM	NUM	NumType=Card	21	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s5615
@@ -262,7 +262,7 @@
 # text = Exibido em 1966, foi o embrião do programa "Os Trapalhões", um dos maiores sucessos da televisão brasileira em todos os tempos.
 1	Exibido	exibir	VERB	VERB	_	7	acl	_	_
 2	em	em	ADP	ADP	_	3	case	_	_
-3	1966	_	NUM	NUM	NumType=Card	1	nmod	_	SpaceAfter=No
+3	1966	1966	NUM	NUM	NumType=Card	1	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	1	punct	_	_
 5	foi	_	AUX	AUX	_	7	cop	_	_
 6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -337,7 +337,7 @@
 4	foram	_	AUX	AUX	_	5	aux:pass	_	_
 5	detidos	deter	VERB	VERB	_	0	root	_	_
 6	em	em	ADP	ADP	_	7	case	_	_
-7	10	_	NUM	NUM	NumType=Card	5	nmod	_	_
+7	10	10	NUM	NUM	NumType=Card	5	nmod	_	_
 8	de	de	ADP	ADP	_	9	case	_	_
 9	julho	_	PROPN	PNOUN	_	7	nmod	_	_
 10	quando	quando	ADV	ADV	_	24	advmod	_	_
@@ -351,7 +351,7 @@
 17	,	,	PUNCT	.	_	19	punct	_	_
 18	um	um	DET	DET	_	19	det	_	_
 19	Bell	_	PROPN	PNOUN	_	12	appos	_	_
-20	206	_	NUM	NUM	NumType=Card	21	nummod	_	_
+20	206	206	NUM	NUM	NumType=Card	21	nummod	_	_
 21	L3	_	NUM	NUM	NumType=Card	19	appos	_	_
 22	teve	ter	AUX	AUX	_	24	aux	_	_
 23	que	que	CCONJ	CONJ	_	24	mark	_	_

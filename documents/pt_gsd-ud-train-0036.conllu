@@ -41,9 +41,9 @@
 11	-	-	PUNCT	.	_	12	punct	_	_
 12	feira	_	PROPN	PNOUN	_	6	nmod	_	_
 13	(	(	PUNCT	.	_	14	punct	_	SpaceAfter=No
-14	11	_	NUM	NUM	NumType=Card	12	nmod	_	_
+14	11	11	NUM	NUM	NumType=Card	12	nmod	_	_
 15	e	e	CCONJ	CONJ	_	16	cc	_	_
-16	12	_	NUM	NUM	NumType=Card	14	conj	_	_
+16	12	12	NUM	NUM	NumType=Card	14	conj	_	_
 17	de	de	ADP	ADP	_	18	case	_	_
 18	dezembro	_	PROPN	PNOUN	_	14	nmod	_	SpaceAfter=No
 19	)	)	PUNCT	.	_	14	punct	_	_
@@ -116,7 +116,7 @@
 26	há	haver	VERB	VERB	_	25	dep	_	_
 27	mais	mais	ADV	ADV	_	29	advmod	_	_
 28	de	de	ADP	ADP	_	27	case	_	_
-29	20	_	NUM	NUM	NumType=Card	30	nummod	_	_
+29	20	20	NUM	NUM	NumType=Card	30	nummod	_	_
 30	anos	ano	NOUN	NOUN	_	26	nmod	_	_
 31-32	na	_	_	_	_	_	_	_	_
 31	em	em	ADP	ADP	_	33	case	_	_
@@ -222,7 +222,7 @@
 16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	emprego	emprego	NOUN	NOUN	_	18	nsubj	_	_
 18	cresceu	crescer	VERB	VERB	_	4	ccomp	_	_
-19	2	_	NUM	NUM	NumType=Card	18	nmod	_	_
+19	2	2	NUM	NUM	NumType=Card	18	nmod	_	_
 20	por	por	ADP	ADP	_	21	case	_	_
 21	cento	cento	NOUN	NOUN	_	19	nmod	_	_
 22	em	em	ADP	ADP	_	23	case	_	_
@@ -236,7 +236,7 @@
 29	mesmo	mesmo	ADJ	ADJ	_	30	amod	_	_
 30	mês	mês	NOUN	NOUN	_	26	nmod	_	_
 31	de	de	ADP	ADP	_	32	case	_	_
-32	2011	_	NUM	NUM	NumType=Card	30	nmod	_	SpaceAfter=No
+32	2011	2011	NUM	NUM	NumType=Card	30	nmod	_	SpaceAfter=No
 33	,	,	PUNCT	.	_	35	punct	_	_
 34	como	como	ADP	ADP	_	35	case	_	_
 35	reflexo	reflexo	NOUN	NOUN	_	18	nmod	_	_
@@ -274,7 +274,7 @@
 # sent_id = train-s357
 # text = Em 1991, Celebrity Home Entertainment lançou uma dublagem americana da série em VHS sob o título Battle for Moon Station Dallos.
 1	Em	em	ADP	ADP	_	2	case	_	_
-2	1991	_	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
+2	1991	1991	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
 4	Celebrity	_	PROPN	PNOUN	_	7	nsubj	_	_
 5	Home	_	PROPN	PNOUN	_	4	flat	_	_

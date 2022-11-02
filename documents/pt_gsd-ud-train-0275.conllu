@@ -98,7 +98,7 @@
 # sent_id = train-s2734
 # text = Em 2002, retornou ao Brasil, agora para jogar pelo Vitória, onde fez dupla de ataque com André, marcando, juntos, mais de 60 gols na temporada.
 1	Em	em	ADP	ADP	_	2	case	_	_
-2	2002	_	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
+2	2002	2002	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
 4	retornou	retornar	VERB	VERB	_	0	root	_	_
 5-6	ao	_	_	_	_	_	_	_	_
@@ -128,7 +128,7 @@
 27	,	,	PUNCT	.	_	26	punct	_	_
 28	mais	mais	ADV	ADV	_	30	advmod	_	_
 29	de	de	ADP	ADP	_	28	case	_	_
-30	60	_	NUM	NUM	NumType=Card	31	nummod	_	_
+30	60	60	NUM	NUM	NumType=Card	31	nummod	_	_
 31	gols	gol	NOUN	NOUN	_	24	obj	_	_
 32-33	na	_	_	_	_	_	_	_	_
 32	em	em	ADP	ADP	_	34	case	_	_
@@ -167,11 +167,11 @@
 # sent_id = train-s2735b
 # text = Em 19 de julho de 1870 teve início a Guerra Franco - prussiana, que levou à queda do Segundo Império Francês.
 1	Em	_	PROPN	PNOUN	_	2	case	_	_
-2	19	_	NUM	NUM	NumType=Card	0	root	_	_
+2	19	19	NUM	NUM	NumType=Card	0	root	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	julho	_	PROPN	PNOUN	_	2	nmod	_	_
 5	de	de	ADP	ADP	_	6	case	_	_
-6	1870	_	NUM	NUM	NumType=Card	4	nmod	_	_
+6	1870	1870	NUM	NUM	NumType=Card	4	nmod	_	_
 7	teve	ter	VERB	VERB	_	2	case	_	_
 8	início	início	NOUN	NOUN	_	2	obj	_	_
 9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -252,7 +252,7 @@
 6	-	-	PUNCT	.	_	7	punct	_	_
 7	feira	_	PROPN	PNOUN	_	3	nmod	_	_
 8	(	(	PUNCT	.	_	9	punct	_	SpaceAfter=No
-9	2	_	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
+9	2	2	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
 10	)	)	PUNCT	.	_	9	punct	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	3	punct	_	_
 12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_

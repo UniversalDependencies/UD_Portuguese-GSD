@@ -12,7 +12,7 @@
 10	uma	um	DET	DET	_	11	det	_	_
 11	área	área	NOUN	NOUN	_	9	obj	_	_
 12	de	de	ADP	ADP	_	14	case	_	_
-13	1,3	_	NUM	NUM	NumType=Card	14	nummod	_	_
+13	1,3	1,3	NUM	NUM	NumType=Card	14	nummod	_	_
 14	km	km	NOUN	NOUN	_	11	nmod	_	_
 15	²	_	PUNCT	.	_	14	punct	_	SpaceAfter=No
 16	,	,	PUNCT	.	_	21	punct	_	_
@@ -20,14 +20,14 @@
 17	de	de	ADP	ADP	_	19	case	_	_
 18	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
 19	quais	_	PRON	PRON	_	21	nmod	_	_
-20	1,1	_	NUM	NUM	NumType=Card	21	nummod	_	_
+20	1,1	1,1	NUM	NUM	NumType=Card	21	nummod	_	_
 21	km	km	NOUN	NOUN	_	14	appos	_	_
 22	²	_	PUNCT	.	_	28	punct	_	_
 23	cobertos	cobrir	VERB	VERB	_	21	acl	_	_
 24	por	por	ADP	ADP	_	25	case	_	_
 25	terra	terra	NOUN	NOUN	_	23	nmod	_	_
 26	e	e	CCONJ	CONJ	_	28	cc	_	_
-27	0,2	_	NUM	NUM	NumType=Card	28	nummod	_	_
+27	0,2	0,2	NUM	NUM	NumType=Card	28	nummod	_	_
 28	km	km	NOUN	NOUN	_	21	conj	_	_
 29	²	_	PUNCT	.	_	28	punct	_	_
 30	cobertos	cobrir	VERB	VERB	_	28	acl	_	_
@@ -90,7 +90,7 @@
 18	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
 19	sonhos	sonho	NOUN	NOUN	_	16	nmod	_	_
 20	até	_	ADP	ADP	_	21	case	_	_
-21	2040	_	NUM	NUM	NumType=Card	11	nmod	_	SpaceAfter=No
+21	2040	2040	NUM	NUM	NumType=Card	11	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = dev-s547
@@ -158,17 +158,17 @@
 9	tinha	ter	VERB	VERB	_	1	acl:relcl	_	_
 10	cerca	cerca	ADV	ADV	_	12	advmod	_	_
 11	de	de	ADP	ADP	_	10	case	_	_
-12	25	_	NUM	NUM	NumType=Card	13	nummod	_	_
+12	25	25	NUM	NUM	NumType=Card	13	nummod	_	_
 13	anos	ano	NOUN	NOUN	_	9	obj	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	9	punct	_	_
 15	foi	_	AUX	AUX	_	16	aux:pass	_	_
 16	alvejado	alvejar	VERB	VERB	_	0	root	_	_
 17	com	com	ADP	ADP	_	19	case	_	_
-18	7	_	NUM	NUM	NumType=Card	19	nummod	_	_
+18	7	7	NUM	NUM	NumType=Card	19	nummod	_	_
 19	tiros	tiro	NOUN	NOUN	_	16	nmod	_	_
 20	de	de	ADP	ADP	_	21	case	_	_
 21	calibre	calibre	NOUN	NOUN	_	19	nmod	_	_
-22	380	_	NUM	NUM	NumType=Card	21	appos	_	_
+22	380	380	NUM	NUM	NumType=Card	21	appos	_	_
 23-24	na	_	_	_	_	_	_	_	_
 23	em	em	ADP	ADP	_	25	case	_	_
 24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
@@ -220,7 +220,7 @@
 2	capacidade	capacidade	NOUN	NOUN	_	3	nsubj	_	_
 3	é	ser	VERB	VERB	_	0	root	_	_
 4	de	de	ADP	ADP	_	7	case	_	_
-5	10	_	NUM	NUM	NumType=Card	6	nummod	_	_
+5	10	10	NUM	NUM	NumType=Card	6	nummod	_	_
 6	mil	_	NUM	NUM	NumType=Card	7	nummod	_	_
 7	pessoas	pessoa	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
 8	.	.	PUNCT	.	_	3	punct	_	_
@@ -296,7 +296,7 @@
 7	-	-	PUNCT	.	_	8	punct	_	_
 8	feira	_	PROPN	PNOUN	_	4	nmod	_	_
 9	(	(	PUNCT	.	_	10	punct	_	SpaceAfter=No
-10	21	_	NUM	NUM	NumType=Card	8	nmod	_	SpaceAfter=No
+10	21	21	NUM	NUM	NumType=Card	8	nmod	_	SpaceAfter=No
 11	)	)	PUNCT	.	_	10	punct	_	_
 12	em	em	ADP	ADP	_	13	case	_	_
 13	operação	operação	NOUN	NOUN	_	4	nmod	_	_
@@ -311,7 +311,7 @@
 21	de	de	ADP	ADP	_	22	case	_	_
 22	fraudes	fraude	NOUN	NOUN	_	20	nmod	_	_
 23	em	em	ADP	ADP	_	25	case	_	_
-24	36	_	NUM	NUM	NumType=Card	25	nummod	_	_
+24	36	36	NUM	NUM	NumType=Card	25	nummod	_	_
 25	prefeituras	prefeitura	NOUN	NOUN	_	13	nmod	_	_
 26-27	no	_	_	_	_	_	_	_	_
 26	em	em	ADP	ADP	_	28	case	_	_
@@ -342,7 +342,7 @@
 15	-	-	PUNCT	.	_	16	punct	_	_
 16	feira	_	PROPN	PNOUN	_	10	nmod	_	_
 17	(	(	PUNCT	.	_	18	punct	_	SpaceAfter=No
-18	3	_	NUM	NUM	NumType=Card	16	nmod	_	SpaceAfter=No
+18	3	3	NUM	NUM	NumType=Card	16	nmod	_	SpaceAfter=No
 19	)	)	PUNCT	.	_	18	punct	_	SpaceAfter=No
 20	,	,	PUNCT	.	_	16	punct	_	_
 21	quatro	_	NUM	NUM	NumType=Card	22	nummod	_	_

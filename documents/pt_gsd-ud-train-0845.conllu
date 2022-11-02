@@ -17,7 +17,7 @@
 15	Globo	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	.	_	8	punct	_	_
 17	deu	dar	VERB	VERB	_	0	root	_	_
-18	35	_	NUM	NUM	NumType=Card	19	nummod	_	_
+18	35	35	NUM	NUM	NumType=Card	19	nummod	_	_
 19	%	_	SYM	SYM	_	17	obj	_	_
 20	de	de	ADP	ADP	_	21	case	_	_
 21	aumento	aumento	NOUN	NOUN	_	19	nmod	_	_
@@ -68,11 +68,11 @@
 # text = População: 4 485 000 (1999)
 1	População	população	NOUN	NOUN	_	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	.	_	1	punct	_	_
-3	4	_	NUM	NUM	NumType=Card	4	nummod	_	_
-4	485	_	NUM	NUM	NumType=Card	5	nummod	_	_
-5	000	_	NUM	NUM	NumType=Card	1	appos	_	_
+3	4	4	NUM	NUM	NumType=Card	4	nummod	_	_
+4	485	485	NUM	NUM	NumType=Card	5	nummod	_	_
+5	000	000	NUM	NUM	NumType=Card	1	appos	_	_
 6	(	(	PUNCT	.	_	7	punct	_	SpaceAfter=No
-7	1999	_	NUM	NUM	NumType=Card	1	nmod	_	SpaceAfter=No
+7	1999	1999	NUM	NUM	NumType=Card	1	nmod	_	SpaceAfter=No
 8	)	)	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s8393

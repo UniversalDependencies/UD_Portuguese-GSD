@@ -2,7 +2,7 @@
 # text = "Em 2005, a Secretaria foi resgatada e as transformações começaram.
 1	"	"	PUNCT	.	_	8	punct	_	SpaceAfter=No
 2	Em	em	ADP	ADP	_	3	case	_	_
-3	2005	_	NUM	NUM	NumType=Card	8	nmod	_	SpaceAfter=No
+3	2005	2005	NUM	NUM	NumType=Card	8	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
 5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Secretaria	_	PROPN	PNOUN	_	8	nsubj:pass	_	_
@@ -59,13 +59,13 @@
 11	de	de	ADP	ADP	_	12	case	_	_
 12	R	r	NOUN	NOUN	_	4	nmod	_	_
 13	$	_	SYM	SYM	_	12	flat	_	_
-14	80,00	_	NUM	NUM	NumType=Card	12	nummod	_	_
+14	80,00	80,00	NUM	NUM	NumType=Card	12	nummod	_	_
 15-16	à	_	_	_	_	_	_	_	_
 15	a	a	ADP	ADP	_	17	case	_	_
 16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	R	r	NOUN	NOUN	_	12	nmod	_	_
 18	$	_	SYM	SYM	_	17	flat	_	_
-19	100,00	_	NUM	NUM	NumType=Card	17	nummod	_	_
+19	100,00	100,00	NUM	NUM	NumType=Card	17	nummod	_	_
 20	--	_	PUNCT	.	_	12	punct	_	_
 21	os	o	DET	DET	_	22	det	_	_
 22	descontos	desconto	NOUN	NOUN	_	24	nsubj	_	_
@@ -74,7 +74,7 @@
 25-26	aos	_	_	_	_	_	_	_	_
 25	a	a	ADP	ADP	_	28	case	_	_
 26	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
-27	40	_	NUM	NUM	NumType=Card	28	nummod	_	_
+27	40	40	NUM	NUM	NumType=Card	28	nummod	_	_
 28	%	_	SYM	SYM	_	24	nmod	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	24	punct	_	_
 

@@ -161,7 +161,7 @@
 # sent_id = dev-s129
 # text = SN 1054 (ou Supernova do Caranguejo) foi uma supernova amplamente vista da Terra a partir de de 4 de julho de 1054.
 1	SN	_	PROPN	PNOUN	_	12	nsubj	_	_
-2	1054	_	NUM	NUM	NumType=Card	1	appos	_	_
+2	1054	1054	NUM	NUM	NumType=Card	1	appos	_	_
 3	(	(	PUNCT	.	_	5	punct	_	SpaceAfter=No
 4	ou	ou	CCONJ	CONJ	_	5	cc	_	_
 5	Supernova	_	PROPN	PNOUN	_	1	appos	_	_
@@ -183,11 +183,11 @@
 19	partir	partir	VERB	VERB	_	14	nmod	_	_
 20	de	de	ADP	ADP	_	22	case	_	_
 21	de	_	ADP	ADP	_	22	dep	_	_
-22	4	_	NUM	NUM	NumType=Card	19	nmod	_	_
+22	4	4	NUM	NUM	NumType=Card	19	nmod	_	_
 23	de	de	ADP	ADP	_	24	case	_	_
 24	julho	_	PROPN	PNOUN	_	22	nmod	_	_
 25	de	de	ADP	ADP	_	26	case	_	_
-26	1054	_	NUM	NUM	NumType=Card	24	nmod	_	SpaceAfter=No
+26	1054	1054	NUM	NUM	NumType=Card	24	nmod	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = dev-s130
@@ -198,7 +198,7 @@
 4	tem	ter	VERB	VERB	_	0	root	_	_
 5	mais	mais	ADV	ADV	_	7	advmod	_	_
 6	de	_	ADP	ADP	_	5	fixed	_	_
-7	800	_	NUM	NUM	NumType=Card	8	nummod	_	_
+7	800	800	NUM	NUM	NumType=Card	8	nummod	_	_
 8	artigos	artigo	NOUN	NOUN	_	4	obj	_	_
 9	publicados	publicar	VERB	VERB	_	8	acl	_	_
 10-11	no	_	_	_	_	_	_	_	_

@@ -172,11 +172,11 @@
 10	,	,	PUNCT	.	_	11	punct	_	_
 11	Pernambuco	_	PROPN	PNOUN	_	6	appos	_	SpaceAfter=No
 12	,	,	PUNCT	.	_	11	punct	_	_
-13	21	_	NUM	NUM	NumType=Card	6	nmod	_	_
+13	21	21	NUM	NUM	NumType=Card	6	nmod	_	_
 14	de	de	ADP	ADP	_	15	case	_	_
 15	janeiro	_	PROPN	PNOUN	_	13	nmod	_	_
 16	de	de	ADP	ADP	_	17	case	_	_
-17	1900	_	NUM	NUM	NumType=Card	15	nmod	_	_
+17	1900	1900	NUM	NUM	NumType=Card	15	nmod	_	_
 18	--	_	PUNCT	.	_	19	punct	_	_
 19	São	_	PROPN	PNOUN	_	6	conj	_	_
 20	Paulo	_	PROPN	PNOUN	_	19	flat	_	SpaceAfter=No
@@ -184,11 +184,11 @@
 22	São	_	PROPN	PNOUN	_	19	appos	_	_
 23	Paulo	_	PROPN	PNOUN	_	22	flat	_	SpaceAfter=No
 24	,	,	PUNCT	.	_	22	punct	_	_
-25	9	_	NUM	NUM	NumType=Card	19	nmod	_	_
+25	9	9	NUM	NUM	NumType=Card	19	nmod	_	_
 26	de	de	ADP	ADP	_	27	case	_	_
 27	agosto	_	PROPN	PNOUN	_	25	nmod	_	_
 28	de	de	ADP	ADP	_	29	case	_	_
-29	1973	_	NUM	NUM	NumType=Card	27	nmod	_	SpaceAfter=No
+29	1973	1973	NUM	NUM	NumType=Card	27	nmod	_	SpaceAfter=No
 30	)	)	PUNCT	.	_	6	punct	_	_
 31	foi	_	AUX	AUX	_	33	cop	_	_
 32	um	um	DET	DET	_	33	det	_	_
@@ -319,7 +319,7 @@
 9	,	,	PUNCT	.	_	10	punct	_	_
 10	disputada	disputar	VERB	VERB	_	8	acl	_	_
 11	desde	_	ADP	ADP	_	12	case	_	_
-12	1989	_	NUM	NUM	NumType=Card	10	nmod	_	SpaceAfter=No
+12	1989	1989	NUM	NUM	NumType=Card	10	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	10	punct	_	_
 14-15	na	_	_	_	_	_	_	_	_
 14	em	em	ADP	ADP	_	16	case	_	_
@@ -335,7 +335,7 @@
 # text = Mais de 200 pessoas foram mortas ontem no vilarejo de Tremseh, na província síria de Hama, de acordo com informações da oposição síria.
 1	Mais	mais	ADV	ADV	_	3	advmod	_	_
 2	de	de	ADP	ADP	_	1	case	_	_
-3	200	_	NUM	NUM	NumType=Card	4	nummod	_	_
+3	200	200	NUM	NUM	NumType=Card	4	nummod	_	_
 4	pessoas	pessoa	NOUN	NOUN	_	6	nsubj:pass	_	_
 5	foram	_	AUX	AUX	_	6	aux:pass	_	_
 6	mortas	_	VERB	VERB	_	0	root	_	_

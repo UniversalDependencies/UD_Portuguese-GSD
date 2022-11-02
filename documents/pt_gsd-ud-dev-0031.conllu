@@ -13,7 +13,7 @@
 11	)	)	PUNCT	.	_	9	punct	_	SpaceAfter=No
 12	,	,	PUNCT	.	_	13	punct	_	_
 13	sendo	ser	VERB	VERB	_	5	acl	_	_
-14	10	_	NUM	NUM	NumType=Card	15	nummod	_	_
+14	10	10	NUM	NUM	NumType=Card	15	nummod	_	_
 15	%	_	SYM	SYM	_	13	nsubj	_	_
 16	ou	ou	CCONJ	CONJ	_	17	cc	_	_
 17	R	r	NOUN	NOUN	_	15	conj	_	_
@@ -220,9 +220,9 @@
 14	resultado	resultado	NOUN	NOUN	_	15	nsubj	_	_
 15	foi	_	VERB	VERB	_	0	root	_	_
 16	de	de	ADP	ADP	_	17	case	_	_
-17	1	_	NUM	NUM	NumType=Card	15	nmod	_	_
+17	1	1	NUM	NUM	NumType=Card	15	nmod	_	_
 18	a	_	ADP	ADP	_	19	case	_	_
-19	1	_	NUM	NUM	NumType=Card	17	nmod	_	SpaceAfter=No
+19	1	1	NUM	NUM	NumType=Card	17	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	.	_	22	punct	_	_
 21	com	com	ADP	ADP	_	22	case	_	_
 22	Junai	_	PROPN	PNOUN	_	15	nmod	_	_
@@ -314,9 +314,9 @@
 # sent_id = dev-s309
 # text = Entre 1985 e 1991, publicou diversos trabalhos da linha erótica e terror em editoras de São Paulo, como Press / Maciota, Nova Sampa e ICEA.
 1	Entre	_	ADP	ADP	_	2	case	_	_
-2	1985	_	NUM	NUM	NumType=Card	6	nmod	_	_
+2	1985	1985	NUM	NUM	NumType=Card	6	nmod	_	_
 3	e	e	CCONJ	CONJ	_	4	cc	_	_
-4	1991	_	NUM	NUM	NumType=Card	2	conj	_	SpaceAfter=No
+4	1991	1991	NUM	NUM	NumType=Card	2	conj	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	2	punct	_	_
 6	publicou	publicar	VERB	VERB	_	0	root	_	_
 7	diversos	_	DET	DET	_	8	det	_	_

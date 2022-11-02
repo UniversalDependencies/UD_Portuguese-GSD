@@ -56,7 +56,7 @@
 1-2	Aos	_	_	_	_	_	_	_	_
 1	A	a	ADP	ADP	_	3	case	_	_
 2	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
-3	19	_	NUM	NUM	NumType=Card	6	nmod	_	SpaceAfter=No
+3	19	19	NUM	NUM	NumType=Card	6	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
 5	Fred	_	PROPN	PNOUN	_	6	nsubj	_	_
 6	lançou	lançar	VERB	VERB	_	0	root	_	_
@@ -89,13 +89,13 @@
 16	-	-	PUNCT	.	_	17	punct	_	_
 17	feira	_	PROPN	PNOUN	_	2	nmod	_	_
 18	(	(	PUNCT	.	_	19	punct	_	SpaceAfter=No
-19	29	_	NUM	NUM	NumType=Card	17	nmod	_	SpaceAfter=No
+19	29	29	NUM	NUM	NumType=Card	17	nmod	_	SpaceAfter=No
 20	)	)	PUNCT	.	_	19	punct	_	_
 21	mostram	mostrar	VERB	VERB	_	0	root	_	_
 22	que	que	CCONJ	CONJ	_	37	mark	_	SpaceAfter=No
 23	,	,	PUNCT	.	_	25	punct	_	_
 24	em	em	ADP	ADP	_	25	case	_	_
-25	2011	_	NUM	NUM	NumType=Card	37	nmod	_	SpaceAfter=No
+25	2011	2011	NUM	NUM	NumType=Card	37	nmod	_	SpaceAfter=No
 26	,	,	PUNCT	.	_	25	punct	_	_
 27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	esperança	esperança	NOUN	NOUN	_	37	nsubj	_	_
@@ -111,24 +111,24 @@
 36	Brasil	_	PROPN	PNOUN	_	28	nmod	_	_
 37	era	_	VERB	VERB	_	21	ccomp	_	_
 38	de	de	ADP	ADP	_	40	case	_	_
-39	74	_	NUM	NUM	NumType=Card	40	nummod	_	_
+39	74	74	NUM	NUM	NumType=Card	40	nummod	_	_
 40	anos	ano	NOUN	NOUN	_	37	nmod	_	_
 41	e	e	CCONJ	CONJ	_	43	cc	_	_
-42	29	_	NUM	NUM	NumType=Card	43	nummod	_	_
+42	29	29	NUM	NUM	NumType=Card	43	nummod	_	_
 43	dias	dia	NOUN	NOUN	_	40	conj	_	_
 44	--	_	PUNCT	.	_	46	punct	_	_
 45	um	um	DET	DET	_	46	det	_	_
 46	aumento	aumento	NOUN	NOUN	_	40	appos	_	_
 47	de	de	ADP	ADP	_	49	case	_	_
-48	3	_	NUM	NUM	NumType=Card	49	nummod	_	_
+48	3	3	NUM	NUM	NumType=Card	49	nummod	_	_
 49	meses	mês	NOUN	NOUN	_	46	nmod	_	_
 50	e	e	CCONJ	CONJ	_	52	cc	_	_
-51	22	_	NUM	NUM	NumType=Card	52	nummod	_	_
+51	22	22	NUM	NUM	NumType=Card	52	nummod	_	_
 52	dias	dia	NOUN	NOUN	_	49	conj	_	_
 53	em	em	ADP	ADP	_	54	case	_	_
 54	relação	relação	NOUN	NOUN	_	46	nmod	_	_
 55	a	_	ADP	ADP	_	56	case	_	_
-56	2010	_	NUM	NUM	NumType=Card	54	nmod	_	SpaceAfter=No
+56	2010	2010	NUM	NUM	NumType=Card	54	nmod	_	SpaceAfter=No
 57	,	,	PUNCT	.	_	66	punct	_	_
 58	quando	quando	ADV	ADV	_	66	advmod	_	_
 59	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	60	det	_	_
@@ -141,10 +141,10 @@
 65	brasileiro	brasileiro	NOUN	NOUN	_	60	nmod	_	_
 66	era	_	VERB	VERB	_	56	acl:relcl	_	_
 67	de	de	ADP	ADP	_	69	case	_	_
-68	73	_	NUM	NUM	NumType=Card	69	nummod	_	_
+68	73	73	NUM	NUM	NumType=Card	69	nummod	_	_
 69	anos	ano	NOUN	NOUN	_	66	nmod	_	_
 70	e	e	CCONJ	CONJ	_	72	cc	_	_
-71	277	_	NUM	NUM	NumType=Card	72	nummod	_	_
+71	277	277	NUM	NUM	NumType=Card	72	nummod	_	_
 72	dias	dia	NOUN	NOUN	_	69	conj	_	SpaceAfter=No
 73	.	.	PUNCT	.	_	21	punct	_	_
 
@@ -198,7 +198,7 @@
 7	um	um	DET	DET	_	8	det	_	_
 8	título	título	NOUN	NOUN	_	5	nmod	_	_
 9	em	em	ADP	ADP	_	10	case	_	_
-10	2012	_	NUM	NUM	NumType=Card	8	nmod	_	_
+10	2012	2012	NUM	NUM	NumType=Card	8	nmod	_	_
 11	nesta	_	ADP	ADP	_	14	case	_	_
 12	terça	_	PROPN	PNOUN	_	14	amod	_	_
 13	-	-	PUNCT	.	_	14	punct	_	_
@@ -249,7 +249,7 @@
 # sent_id = train-s5506
 # text = Em 2011, o time foi eliminado já nas oitavas de final, quando perdeu para o Libertad do Paraguai.
 1	Em	em	ADP	ADP	_	2	case	_	_
-2	2011	_	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
+2	2011	2011	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
 4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	time	time	NOUN	NOUN	_	7	nsubj:pass	_	_
@@ -286,12 +286,12 @@
 7	Google	_	PROPN	PNOUN	_	4	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	9	punct	_	_
 9	há	haver	VERB	VERB	_	4	conj	_	_
-10	13	_	NUM	NUM	NumType=Card	11	nummod	_	_
+10	13	13	NUM	NUM	NumType=Card	11	nummod	_	_
 11	anos	ano	NOUN	NOUN	_	9	nmod	_	_
 12	como	como	ADP	ADP	_	13	case	_	_
 13	empregada	empregado	NOUN	NOUN	_	4	nmod	_	_
 14	número	número	NOUN	NOUN	_	13	appos	_	_
-15	20	_	NUM	NUM	NumType=Card	14	appos	_	SpaceAfter=No
+15	20	20	NUM	NUM	NumType=Card	14	appos	_	SpaceAfter=No
 16	,	,	PUNCT	.	_	13	punct	_	_
 17	Marissa	_	PROPN	PNOUN	_	20	nsubj	_	_
 18	foi	_	AUX	AUX	_	20	cop	_	_
@@ -334,7 +334,7 @@
 18	(	(	PUNCT	.	_	19	punct	_	SpaceAfter=No
 19	R	r	NOUN	NOUN	_	15	appos	_	_
 20	$	_	SYM	SYM	_	19	flat	_	_
-21	6,032	_	NUM	NUM	NumType=Card	22	nummod	_	_
+21	6,032	6,032	NUM	NUM	NumType=Card	22	nummod	_	_
 22	bilhões	_	NUM	NUM	NumType=Card	19	nummod	_	SpaceAfter=No
 23	)	)	PUNCT	.	_	19	punct	_	SpaceAfter=No
 24	,	,	PUNCT	.	_	25	punct	_	_
@@ -347,7 +347,7 @@
 30	(	(	PUNCT	.	_	31	punct	_	SpaceAfter=No
 31	R	r	NOUN	NOUN	_	29	appos	_	_
 32	$	_	SYM	SYM	_	31	flat	_	_
-33	1,143	_	NUM	NUM	NumType=Card	34	nummod	_	_
+33	1,143	1,143	NUM	NUM	NumType=Card	34	nummod	_	_
 34	bilhões	_	NUM	NUM	NumType=Card	31	nummod	_	SpaceAfter=No
 35	)	)	PUNCT	.	_	31	punct	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	12	punct	_	_

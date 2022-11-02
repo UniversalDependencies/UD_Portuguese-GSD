@@ -137,7 +137,7 @@
 # sent_id = train-s1104
 # text = O 19 de novembro foi instituído Dia da Bandeira em 1889, logo depois da Proclamação da República.
 1	O	o	DET	DET	_	2	det	_	_
-2	19	_	NUM	NUM	NumType=Card	7	nsubj:pass	_	_
+2	19	19	NUM	NUM	NumType=Card	7	nsubj:pass	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	novembro	_	PROPN	PNOUN	_	2	nmod	_	_
 5	foi	_	AUX	AUX	_	7	aux:pass	_	_
@@ -148,7 +148,7 @@
 9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Bandeira	_	PROPN	PNOUN	_	7	nmod	_	_
 11	em	em	ADP	ADP	_	12	case	_	_
-12	1889	_	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
+12	1889	1889	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	18	punct	_	_
 14	logo	logo	ADV	ADV	_	15	advmod	_	_
 15	depois	depois	ADV	ADV	_	18	case	_	_
@@ -182,7 +182,7 @@
 15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	lucro	lucro	NOUN	NOUN	_	17	nsubj	_	_
 17	cresça	crescer	VERB	VERB	_	12	nmod	_	_
-18	16	_	NUM	NUM	NumType=Card	19	nummod	_	_
+18	16	16	NUM	NUM	NumType=Card	19	nummod	_	_
 19	%	_	SYM	SYM	_	17	nmod	_	_
 20-21	no	_	_	_	_	_	_	_	_
 20	em	em	ADP	ADP	_	22	case	_	_
@@ -195,11 +195,11 @@
 27	contraste	contraste	NOUN	NOUN	_	17	nmod	_	_
 28	com	com	ADP	ADP	_	31	case	_	_
 29	os	o	DET	DET	_	31	det	_	_
-30	73	_	NUM	NUM	NumType=Card	31	nummod	_	_
+30	73	73	NUM	NUM	NumType=Card	31	nummod	_	_
 31	%	_	SYM	SYM	_	27	nmod	_	_
 32	esperados	esperar	VERB	VERB	_	31	acl	_	_
 33	para	para	ADP	ADP	_	34	case	_	_
-34	2012	_	NUM	NUM	NumType=Card	32	nmod	_	SpaceAfter=No
+34	2012	2012	NUM	NUM	NumType=Card	32	nmod	_	SpaceAfter=No
 35	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = train-s1106

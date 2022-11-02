@@ -28,7 +28,7 @@
 12	de	de	ADP	ADP	_	14	case	_	_
 13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	dia	dia	NOUN	NOUN	_	11	nmod	_	_
-15	5	_	NUM	NUM	NumType=Card	14	nmod	_	_
+15	5	5	NUM	NUM	NumType=Card	14	nmod	_	_
 16	de	de	ADP	ADP	_	17	case	_	_
 17	dezembro	_	PROPN	PNOUN	_	15	nmod	_	_
 18	para	para	ADP	ADP	_	19	case	_	_
@@ -90,18 +90,18 @@
 
 # sent_id = dev-s390
 # text = 1847 -- Belém (Pará), 20 de janeiro de 1903) foi um fotógrafo português radicado no Brasil.
-1	1847	_	NUM	NUM	NumType=Card	3	nmod	_	_
+1	1847	1847	NUM	NUM	NumType=Card	3	nmod	_	_
 2	--	_	PUNCT	.	_	3	punct	_	_
 3	Belém	_	PROPN	PNOUN	_	16	parataxis	_	_
 4	(	(	PUNCT	.	_	5	punct	_	SpaceAfter=No
 5	Pará	_	PROPN	PNOUN	_	3	appos	_	SpaceAfter=No
 6	)	)	PUNCT	.	_	5	punct	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	8	punct	_	_
-8	20	_	NUM	NUM	NumType=Card	3	nmod	_	_
+8	20	20	NUM	NUM	NumType=Card	3	nmod	_	_
 9	de	de	ADP	ADP	_	10	case	_	_
 10	janeiro	_	PROPN	PNOUN	_	8	nmod	_	_
 11	de	de	ADP	ADP	_	12	case	_	_
-12	1903	_	NUM	NUM	NumType=Card	10	nmod	_	SpaceAfter=No
+12	1903	1903	NUM	NUM	NumType=Card	10	nmod	_	SpaceAfter=No
 13	)	)	PUNCT	.	_	3	punct	_	_
 14	foi	_	AUX	AUX	_	16	cop	_	_
 15	um	um	DET	DET	_	16	det	_	_
@@ -122,12 +122,12 @@
 4	,	,	PUNCT	.	_	5	punct	_	_
 5	ele	_	PRON	PRON	_	1	appos	_	_
 6	subiu	subir	VERB	VERB	_	0	root	_	_
-7	20	_	NUM	NUM	NumType=Card	8	nummod	_	_
+7	20	20	NUM	NUM	NumType=Card	8	nummod	_	_
 8	posições	posição	NOUN	NOUN	_	6	nmod	_	_
 9	e	e	CCONJ	CONJ	_	10	cc	_	_
 10	assumiu	assumir	VERB	VERB	_	6	conj	_	_
 11	o	o	DET	DET	_	12	det	_	_
-12	40	_	NUM	NUM	NumType=Card	10	obj	_	SpaceAfter=No
+12	40	40	NUM	NUM	NumType=Card	10	obj	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = dev-s392
@@ -139,7 +139,7 @@
 5	orbital	orbital	ADJ	ADJ	_	4	amod	_	_
 6	média	_	NOUN	NOUN	_	4	amod	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
-8	18,00247858	_	NUM	NUM	NumType=Card	9	nummod	_	_
+8	18,00247858	18,00247858	NUM	NUM	NumType=Card	9	nummod	_	_
 9	km	km	NOUN	NOUN	_	4	nmod	_	_
 10	/	/	PUNCT	.	_	11	punct	_	_
 11	s	s	NOUN	NOUN	_	9	appos	_	_
@@ -147,7 +147,7 @@
 13	uma	um	DET	DET	_	14	det	_	_
 14	inclinação	inclinação	NOUN	NOUN	_	4	conj	_	_
 15	de	de	ADP	ADP	_	17	case	_	_
-16	6,8107	_	NUM	NUM	NumType=Card	17	nummod	_	_
+16	6,8107	6,8107	NUM	NUM	NumType=Card	17	nummod	_	_
 17	º	_	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -263,7 +263,7 @@
 25	abertura	abertura	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
 26	,	,	PUNCT	.	_	28	punct	_	_
 27	em	em	ADP	ADP	_	28	case	_	_
-28	2009	_	NUM	NUM	NumType=Card	25	nmod	_	SpaceAfter=No
+28	2009	2009	NUM	NUM	NumType=Card	25	nmod	_	SpaceAfter=No
 29	,	,	PUNCT	.	_	28	punct	_	_
 30-31	do	_	_	_	_	_	_	_	_
 30	de	de	ADP	ADP	_	32	case	_	_
@@ -282,7 +282,7 @@
 43	em	em	ADP	ADP	_	44	case	_	_
 44	dezembro	_	PROPN	PNOUN	_	48	nmod	_	_
 45	de	de	ADP	ADP	_	46	case	_	_
-46	2011	_	NUM	NUM	NumType=Card	44	nmod	_	SpaceAfter=No
+46	2011	2011	NUM	NUM	NumType=Card	44	nmod	_	SpaceAfter=No
 47	,	,	PUNCT	.	_	44	punct	_	_
 48	o	_	PRON	PRON	_	32	conj	_	_
 49	de	de	ADP	ADP	_	50	case	_	_

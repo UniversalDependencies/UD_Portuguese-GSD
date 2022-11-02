@@ -3,7 +3,7 @@
 1	Para	_	ADP	ADP	_	5	case	_	_
 2	os	o	DET	DET	_	5	det	_	_
 3	próximos	próximo	ADJ	ADJ	_	5	amod	_	_
-4	12	_	NUM	NUM	NumType=Card	5	nummod	_	_
+4	12	12	NUM	NUM	NumType=Card	5	nummod	_	_
 5	meses	mês	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	5	punct	_	_
 7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -15,10 +15,10 @@
 12	IPCA	_	PROPN	PNOUN	_	8	nmod	_	_
 13	subiu	subir	VERB	VERB	_	0	root	_	_
 14	de	de	ADP	ADP	_	16	case	_	_
-15	5,44	_	NUM	NUM	NumType=Card	16	nummod	_	_
+15	5,44	5,44	NUM	NUM	NumType=Card	16	nummod	_	_
 16	%	_	SYM	SYM	_	13	nmod	_	_
 17	para	para	ADP	ADP	_	19	case	_	_
-18	5,46	_	NUM	NUM	NumType=Card	19	nummod	_	_
+18	5,46	5,46	NUM	NUM	NumType=Card	19	nummod	_	_
 19	%	_	SYM	SYM	_	13	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	.	_	22	punct	_	_
 21	quinta	_	ADJ	ADJ	_	22	amod	_	_
@@ -120,7 +120,7 @@
 # sent_id = dev-s966
 # text = Em 2002, o nosso projeto TV UERJ Online, a primeira TV universitária brasileira na internet (ver aqui), teve a honra e o privilégio de receber o Prêmio Luiz Beltrão para Grupos Inovadores no Congresso da Intercom em Salvador, BA.
 1	Em	em	ADP	ADP	_	2	case	_	_
-2	2002	_	NUM	NUM	NumType=Card	24	nmod	_	SpaceAfter=No
+2	2002	2002	NUM	NUM	NumType=Card	24	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
 4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 5	nosso	_	DET	DET	_	6	det:poss	_	_
@@ -217,7 +217,7 @@
 7	de	de	ADP	ADP	_	8	case	_	_
 8	cruzeiro	cruzeiro	NOUN	NOUN	_	6	nmod	_	_
 9	e	e	CCONJ	CONJ	_	11	cc	_	_
-10	250	_	NUM	NUM	NumType=Card	11	nummod	_	_
+10	250	250	NUM	NUM	NumType=Card	11	nummod	_	_
 11	barcos	barco	NOUN	NOUN	_	6	conj	_	_
 12	menores	menor	ADJ	ADJ	_	11	amod	_	_
 13	deverão	dever	AUX	AUX	_	14	aux	_	_
@@ -255,7 +255,7 @@
 11	,	,	PUNCT	.	_	10	punct	_	_
 12	até	_	ADP	ADP	_	15	case	_	_
 13	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
-14	22	_	NUM	NUM	NumType=Card	15	nummod	_	_
+14	22	22	NUM	NUM	NumType=Card	15	nummod	_	_
 15	horas	hora	NOUN	NOUN	_	6	nmod	_	_
 16	e	e	CCONJ	CONJ	_	44	cc	_	_
 17	segundo	_	ADP	ADP	_	19	case	_	_
@@ -291,7 +291,7 @@
 44	expectativa	expectativa	NOUN	NOUN	_	6	conj	_	_
 45	é	ser	AUX	AUX	_	44	cop	_	_
 46	que	que	CCONJ	CONJ	_	53	mark	_	_
-47	64	_	NUM	NUM	NumType=Card	48	nummod	_	_
+47	64	64	NUM	NUM	NumType=Card	48	nummod	_	_
 48	%	_	SYM	SYM	_	53	nsubj	_	_
 49-50	da	_	_	_	_	_	_	_	_
 49	de	de	ADP	ADP	_	51	case	_	_
@@ -323,7 +323,7 @@
 72	de	de	ADP	ADP	_	71	case	_	_
 73	R	r	NOUN	NOUN	_	70	obj	_	_
 74	$	_	SYM	SYM	_	73	flat	_	_
-75	39,6	_	NUM	NUM	NumType=Card	76	nummod	_	_
+75	39,6	39,6	NUM	NUM	NumType=Card	76	nummod	_	_
 76	milhões	_	NUM	NUM	NumType=Card	73	nummod	_	_
 77-78	na	_	_	_	_	_	_	_	_
 77	em	em	ADP	ADP	_	79	case	_	_
@@ -336,7 +336,7 @@
 # text = A versão 4 já veio mais pesadinha.
 1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	versão	versão	NOUN	NOUN	_	5	nsubj	_	_
-3	4	_	NUM	NUM	NumType=Card	2	appos	_	_
+3	4	4	NUM	NUM	NumType=Card	2	appos	_	_
 4	já	já	ADV	ADV	_	5	advmod	_	_
 5	veio	_	VERB	VERB	_	0	root	_	_
 6	mais	mais	ADV	ADV	_	7	advmod	_	_

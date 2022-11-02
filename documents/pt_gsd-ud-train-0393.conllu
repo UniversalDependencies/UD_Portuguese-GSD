@@ -15,7 +15,7 @@
 12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	prazo	prazo	NOUN	NOUN	_	9	nmod	_	_
 14	de	de	ADP	ADP	_	16	case	_	_
-15	48	_	NUM	NUM	NumType=Card	16	nummod	_	_
+15	48	48	NUM	NUM	NumType=Card	16	nummod	_	_
 16	horas	hora	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	.	_	13	punct	_	_
 18	de	de	ADP	ADP	_	19	case	_	_
@@ -23,7 +23,7 @@
 20	não	não	ADV	ADV	Polarity=Neg	21	advmod	_	_
 21	inferior	inferior	ADJ	ADJ	_	19	amod	_	_
 22	a	_	ADP	ADP	_	24	case	_	_
-23	50	_	NUM	NUM	NumType=Card	24	nummod	_	_
+23	50	50	NUM	NUM	NumType=Card	24	nummod	_	_
 24	pacientes	paciente	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	.	_	27	punct	_	_
 26	atualmente	atualmente	ADV	ADV	_	27	advmod	_	_
@@ -107,7 +107,7 @@
 9	-	-	PUNCT	.	_	8	punct	_	_
 10	GT	_	PROPN	PNOUN	_	8	flat	_	_
 11	em	em	ADP	ADP	_	13	case	_	_
-12	10	_	NUM	NUM	NumType=Card	13	nummod	_	_
+12	10	10	NUM	NUM	NumType=Card	13	nummod	_	_
 13	%	_	SYM	SYM	_	5	nmod	_	_
 14-15	do	_	_	_	_	_	_	_	_
 14	de	de	ADP	ADP	_	16	case	_	_
@@ -138,7 +138,7 @@
 36	instalada	instalado	ADJ	ADJ	_	35	amod	_	_
 37	próxima	próximo	ADJ	ADJ	_	35	amod	_	_
 38	de	de	ADP	ADP	_	40	case	_	_
-39	200	_	NUM	NUM	NumType=Card	40	nummod	_	_
+39	200	200	NUM	NUM	NumType=Card	40	nummod	_	_
 40	MW	_	PROPN	PNOUN	_	37	nmod	_	SpaceAfter=No
 41	)	)	PUNCT	.	_	35	punct	_	_
 42	e	e	CCONJ	CONJ	_	44	cc	_	_
@@ -146,7 +146,7 @@
 44	Osório	_	PROPN	PNOUN	_	29	conj	_	_
 45	(	(	PUNCT	.	_	48	punct	_	SpaceAfter=No
 46	com	com	ADP	ADP	_	48	case	_	_
-47	302,9	_	NUM	NUM	NumType=Card	48	nummod	_	_
+47	302,9	302,9	NUM	NUM	NumType=Card	48	nummod	_	_
 48	MW	_	PROPN	PNOUN	_	44	nmod	_	SpaceAfter=No
 49	)	)	PUNCT	.	_	48	punct	_	SpaceAfter=No
 50	.	.	PUNCT	.	_	3	punct	_	_
@@ -208,9 +208,9 @@
 9	em	em	ADP	ADP	_	11	case	_	_
 10	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
 11	dias	dia	NOUN	NOUN	_	8	nmod	_	_
-12	21	_	NUM	NUM	NumType=Card	11	nmod	_	_
+12	21	21	NUM	NUM	NumType=Card	11	nmod	_	_
 13	e	e	CCONJ	CONJ	_	14	cc	_	_
-14	22	_	NUM	NUM	NumType=Card	12	conj	_	_
+14	22	22	NUM	NUM	NumType=Card	12	conj	_	_
 15	de	de	ADP	ADP	_	16	case	_	_
 16	agosto	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	.	_	8	punct	_	_
@@ -253,7 +253,7 @@
 20	-	-	PUNCT	.	_	19	punct	_	_
 21	americanos	_	PROPN	PNOUN	_	19	flat	_	_
 22	Rio	_	PROPN	PNOUN	_	18	appos	_	_
-23	2007	_	NUM	NUM	NumType=Card	22	nmod	_	SpaceAfter=No
+23	2007	2007	NUM	NUM	NumType=Card	22	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s3905
@@ -320,11 +320,11 @@
 8	em	em	ADP	ADP	_	10	case	_	_
 9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	AnimeHero	_	PROPN	PNOUN	_	7	nmod	_	_
-11	2009	_	NUM	NUM	NumType=Card	10	nmod	_	SpaceAfter=No
+11	2009	2009	NUM	NUM	NumType=Card	10	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	.	_	13	punct	_	_
 13	voltando	voltar	VERB	VERB	_	5	acl	_	_
 14	em	em	ADP	ADP	_	15	case	_	_
-15	2011	_	NUM	NUM	NumType=Card	13	nmod	_	_
+15	2011	2011	NUM	NUM	NumType=Card	13	nmod	_	_
 16	onde	onde	ADV	ADV	_	17	advmod	_	_
 17	fez	fazer	VERB	VERB	_	15	acl:relcl	_	_
 18	apresentação	apresentação	NOUN	NOUN	_	17	obj	_	_
@@ -334,6 +334,6 @@
 21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	Anime	_	PROPN	PNOUN	_	17	nmod	_	_
 23	Friends	_	PROPN	PNOUN	_	22	flat	_	_
-24	2011	_	NUM	NUM	NumType=Card	22	appos	_	SpaceAfter=No
+24	2011	2011	NUM	NUM	NumType=Card	22	appos	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	5	punct	_	_
 

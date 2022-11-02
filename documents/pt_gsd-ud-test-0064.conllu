@@ -176,7 +176,7 @@
 14-15	dos	_	_	_	_	_	_	_	_
 14	de	de	ADP	ADP	_	17	case	_	_
 15	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
-16	30	_	NUM	NUM	NumType=Card	17	nummod	_	_
+16	30	30	NUM	NUM	NumType=Card	17	nummod	_	_
 17	º	_	NOUN	NOUN	_	13	nmod	_	_
 18	C	c	NOUN	NOUN	_	17	flat	_	SpaceAfter=No
 19	,	,	PUNCT	.	_	23	punct	_	_
@@ -272,11 +272,11 @@
 
 # sent_id = test-s634
 # text = 1998 QA100 (asteróide 74159) é um asteróide da cintura principal, a 2,5838462 UA.
-1	1998	_	NUM	NUM	NumType=Card	9	nsubj	_	_
+1	1998	1998	NUM	NUM	NumType=Card	9	nsubj	_	_
 2	QA100	_	PROPN	PNOUN	_	1	flat	_	_
 3	(	(	PUNCT	.	_	4	punct	_	SpaceAfter=No
 4	asteróide	_	NOUN	NOUN	_	1	appos	_	_
-5	74159	_	NUM	NUM	NumType=Card	4	appos	_	SpaceAfter=No
+5	74159	74159	NUM	NUM	NumType=Card	4	appos	_	SpaceAfter=No
 6	)	)	PUNCT	.	_	4	punct	_	_
 7	é	ser	AUX	AUX	_	9	cop	_	_
 8	um	um	DET	DET	_	9	det	_	_
@@ -288,7 +288,7 @@
 13	principal	principal	ADJ	ADJ	_	12	amod	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	17	punct	_	_
 15	a	_	ADP	ADP	_	17	case	_	_
-16	2,5838462	_	NUM	NUM	NumType=Card	17	nummod	_	_
+16	2,5838462	2,5838462	NUM	NUM	NumType=Card	17	nummod	_	_
 17	UA	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	9	punct	_	_
 
@@ -322,16 +322,16 @@
 22	a	a	ADP	ADP	_	24	case	_	_
 23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	retrair	retrair	VERB	VERB	_	18	advcl	_	_
-25	8,4	_	NUM	NUM	NumType=Card	26	nummod	_	_
+25	8,4	8,4	NUM	NUM	NumType=Card	26	nummod	_	_
 26	%	_	SYM	SYM	_	24	nmod	_	_
 27	sobre	_	ADP	ADP	_	28	case	_	_
-28	2010	_	NUM	NUM	NumType=Card	26	nmod	_	SpaceAfter=No
+28	2010	2010	NUM	NUM	NumType=Card	26	nmod	_	SpaceAfter=No
 29	,	,	PUNCT	.	_	30	punct	_	_
 30	diminuindo	diminuir	VERB	VERB	_	24	acl	_	_
 31	de	de	ADP	ADP	_	32	case	_	_
-32	119	_	NUM	NUM	NumType=Card	30	nmod	_	_
+32	119	119	NUM	NUM	NumType=Card	30	nmod	_	_
 33	para	para	ADP	ADP	_	35	case	_	_
-34	109	_	NUM	NUM	NumType=Card	35	nummod	_	_
+34	109	109	NUM	NUM	NumType=Card	35	nummod	_	_
 35	mortos	morto	NOUN	NOUN	_	30	nmod	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	18	punct	_	_
 
@@ -354,7 +354,7 @@
 14	-	-	PUNCT	.	_	15	punct	_	_
 15	feira	_	PROPN	PNOUN	_	11	nmod	_	_
 16	(	(	PUNCT	.	_	17	punct	_	SpaceAfter=No
-17	12	_	NUM	NUM	NumType=Card	15	nmod	_	SpaceAfter=No
+17	12	12	NUM	NUM	NumType=Card	15	nmod	_	SpaceAfter=No
 18	)	)	PUNCT	.	_	17	punct	_	_
 19	provoca	provocar	VERB	VERB	_	0	root	_	_
 20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_

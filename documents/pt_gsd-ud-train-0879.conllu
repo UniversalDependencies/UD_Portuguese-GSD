@@ -98,7 +98,7 @@
 26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	Fozhair	_	PROPN	PNOUN	_	22	nmod	_	_
 28	Internacional	_	PROPN	PNOUN	_	27	amod	_	_
-29	2012	_	NUM	NUM	NumType=Card	27	nmod	_	SpaceAfter=No
+29	2012	2012	NUM	NUM	NumType=Card	27	nmod	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	16	punct	_	_
 
 # sent_id = train-s8727
@@ -136,7 +136,7 @@
 29	em	em	ADP	ADP	_	30	case	_	_
 30	dezembro	_	PROPN	PNOUN	_	28	nmod	_	_
 31	de	de	ADP	ADP	_	32	case	_	_
-32	2014	_	NUM	NUM	NumType=Card	30	nmod	_	SpaceAfter=No
+32	2014	2014	NUM	NUM	NumType=Card	30	nmod	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s8728
@@ -239,9 +239,9 @@
 # text = Kharkov, 13 Jun 2012 (AFP) - A seleção alemã deu um grande passo rumo à classificação para as quartas de final da Eurocopa - 2012 derrotar a Holanda por 2 a 1, nesta terça - feira em Kharkov, pela segunda rodada da chave B, considerada o '' grupo da morte '', e mantém 100 % de aproveitamento, após ter superado Portugal por 1 a 0 na estreia.
 1	Kharkov	_	PROPN	PNOUN	_	13	parataxis	_	SpaceAfter=No
 2	,	,	PUNCT	.	_	1	punct	_	_
-3	13	_	NUM	NUM	NumType=Card	1	nmod	_	_
+3	13	13	NUM	NUM	NumType=Card	1	nmod	_	_
 4	Jun	_	PROPN	PNOUN	_	3	nmod	_	_
-5	2012	_	NUM	NUM	NumType=Card	4	nmod	_	_
+5	2012	2012	NUM	NUM	NumType=Card	4	nmod	_	_
 6	(	(	PUNCT	.	_	7	punct	_	SpaceAfter=No
 7	AFP	_	PROPN	PNOUN	_	1	appos	_	SpaceAfter=No
 8	)	)	PUNCT	.	_	7	punct	_	_
@@ -268,14 +268,14 @@
 27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	Eurocopa	_	PROPN	PNOUN	_	23	nmod	_	_
 29	-	-	PUNCT	.	_	28	punct	_	_
-30	2012	_	NUM	NUM	NumType=Card	28	nmod	_	_
+30	2012	2012	NUM	NUM	NumType=Card	28	nmod	_	_
 31	derrotar	derrotar	VERB	VERB	_	13	parataxis	_	_
 32	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
 33	Holanda	_	PROPN	PNOUN	_	31	obj	_	_
 34	por	por	ADP	ADP	_	35	case	_	_
-35	2	_	NUM	NUM	NumType=Card	31	nmod	_	_
+35	2	2	NUM	NUM	NumType=Card	31	nmod	_	_
 36	a	_	ADP	ADP	_	37	case	_	_
-37	1	_	NUM	NUM	NumType=Card	35	nmod	_	SpaceAfter=No
+37	1	1	NUM	NUM	NumType=Card	35	nmod	_	SpaceAfter=No
 38	,	,	PUNCT	.	_	42	punct	_	_
 39	nesta	_	ADP	ADP	_	42	case	_	_
 40	terça	_	PROPN	PNOUN	_	42	amod	_	_
@@ -307,7 +307,7 @@
 63	,	,	PUNCT	.	_	58	punct	_	_
 64	e	e	CCONJ	CONJ	_	65	cc	_	_
 65	mantém	manter	VERB	VERB	_	13	conj	_	_
-66	100	_	NUM	NUM	NumType=Card	67	nummod	_	_
+66	100	100	NUM	NUM	NumType=Card	67	nummod	_	_
 67	%	_	SYM	SYM	_	65	obj	_	_
 68	de	de	ADP	ADP	_	69	case	_	_
 69	aproveitamento	aproveitamento	NOUN	NOUN	_	67	nmod	_	SpaceAfter=No
@@ -317,9 +317,9 @@
 73	superado	superar	VERB	VERB	_	65	advcl	_	_
 74	Portugal	_	PROPN	PNOUN	_	73	obj	_	_
 75	por	por	ADP	ADP	_	76	case	_	_
-76	1	_	NUM	NUM	NumType=Card	73	nmod	_	_
+76	1	1	NUM	NUM	NumType=Card	73	nmod	_	_
 77	a	_	ADP	ADP	_	78	case	_	_
-78	0	_	NUM	NUM	NumType=Card	76	nmod	_	_
+78	0	0	NUM	NUM	NumType=Card	76	nmod	_	_
 79-80	na	_	_	_	_	_	_	_	_
 79	em	em	ADP	ADP	_	81	case	_	_
 80	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	81	det	_	_

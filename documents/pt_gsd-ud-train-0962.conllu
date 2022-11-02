@@ -66,7 +66,7 @@
 8	seis	_	NUM	NUM	NumType=Card	9	nummod	_	_
 9	tiros	tiro	NOUN	NOUN	_	6	nmod	_	_
 10	em	em	ADP	ADP	_	11	case	_	_
-11	2005	_	NUM	NUM	NumType=Card	6	nmod	_	SpaceAfter=No
+11	2005	2005	NUM	NUM	NumType=Card	6	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s9549
@@ -200,9 +200,9 @@
 23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	vitória	vitória	NOUN	NOUN	_	12	nmod	_	_
 25	por	por	ADP	ADP	_	26	case	_	_
-26	1	_	NUM	NUM	NumType=Card	24	nmod	_	_
+26	1	1	NUM	NUM	NumType=Card	24	nmod	_	_
 27	a	_	ADP	ADP	_	28	case	_	_
-28	0	_	NUM	NUM	NumType=Card	26	nmod	_	_
+28	0	0	NUM	NUM	NumType=Card	26	nmod	_	_
 29-30	no	_	_	_	_	_	_	_	_
 29	em	em	ADP	ADP	_	32	case	_	_
 30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
@@ -219,53 +219,53 @@
 40	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s9554
-# text = Registre - se que não se tem notícia de ação judicial que tenha por objeto essa temática.
+# text = Registre-se que não se tem notícia de ação judicial que tenha por objeto essa temática.
+1-2	Registre-se	_	_	_	_	_	_	_	_
 1	Registre	registrar	VERB	VERB	_	0	root	_	_
-2	-	-	PUNCT	.	_	1	punct	_	_
-3	se	_	PRON	PRON	_	1	obj	_	_
-4	que	que	CCONJ	CONJ	_	7	mark	_	_
-5	não	não	ADV	ADV	Polarity=Neg	7	advmod	_	_
-6	se	_	PART	PRT	_	7	expl:pv	_	_
-7	tem	ter	VERB	VERB	_	1	advcl	_	_
-8	notícia	notícia	NOUN	NOUN	_	7	obj	_	_
-9	de	de	ADP	ADP	_	10	case	_	_
-10	ação	ação	NOUN	NOUN	_	8	nmod	_	_
-11	judicial	judicial	ADJ	ADJ	_	10	amod	_	_
-12	que	_	PRON	PRON	_	13	nsubj	_	_
-13	tenha	ter	VERB	VERB	_	10	acl:relcl	_	_
-14	por	por	ADP	ADP	_	15	case	_	_
-15	objeto	objeto	NOUN	NOUN	_	13	nmod	_	_
-16	essa	_	DET	DET	_	17	det	_	_
-17	temática	_	NOUN	NOUN	_	13	obj	_	SpaceAfter=No
-18	.	.	PUNCT	.	_	1	punct	_	_
+2	se	_	PRON	PRON	_	1	obj	_	_
+3	que	que	CCONJ	CONJ	_	6	mark	_	_
+4	não	não	ADV	ADV	Polarity=Neg	6	advmod	_	_
+5	se	_	PART	PRT	_	6	expl:pv	_	_
+6	tem	ter	VERB	VERB	_	1	advcl	_	_
+7	notícia	notícia	NOUN	NOUN	_	6	obj	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
+9	ação	ação	NOUN	NOUN	_	7	nmod	_	_
+10	judicial	judicial	ADJ	ADJ	_	9	amod	_	_
+11	que	_	PRON	PRON	_	12	nsubj	_	_
+12	tenha	ter	VERB	VERB	_	9	acl:relcl	_	_
+13	por	por	ADP	ADP	_	14	case	_	_
+14	objeto	objeto	NOUN	NOUN	_	12	nmod	_	_
+15	essa	_	DET	DET	_	16	det	_	_
+16	temática	_	NOUN	NOUN	_	12	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s9555
-# text = Ajudou - o a conseguir um visto para os Estados Unidos e casaram - se em março de 1934, e tiveram três filhos.
+# text = Ajudou-o a conseguir um visto para os Estados Unidos e casaram-se em março de 1934, e tiveram três filhos.
+1-2	Ajudou-o	_	_	_	_	_	_	_	_
 1	Ajudou	ajudar	VERB	VERB	_	0	root	_	_
-2	-	-	PUNCT	.	_	13	punct	_	_
-3	o	_	PRON	PRON	_	1	obj	_	_
-4	a	_	ADP	ADP	_	5	mark	_	_
-5	conseguir	conseguir	VERB	VERB	_	1	nmod	_	_
-6	um	um	DET	DET	_	7	det	_	_
-7	visto	visto	NOUN	NOUN	_	5	obj	_	_
-8	para	para	ADP	ADP	_	10	case	_	_
-9	os	o	DET	DET	_	10	det	_	_
-10	Estados	_	PROPN	PNOUN	_	7	nmod	_	_
-11	Unidos	_	PROPN	PNOUN	_	10	amod	_	_
-12	e	e	CCONJ	CONJ	_	13	cc	_	_
-13	casaram	casar	VERB	VERB	_	1	conj	_	_
-14	-	-	PUNCT	.	_	22	punct	_	_
-15	se	_	PRON	PRON	_	13	obj	_	_
-16	em	em	ADP	ADP	_	17	case	_	_
-17	março	_	PROPN	PNOUN	_	13	nmod	_	_
-18	de	de	ADP	ADP	_	19	case	_	_
-19	1934	_	NUM	NUM	NumType=Card	17	nmod	_	SpaceAfter=No
-20	,	,	PUNCT	.	_	22	punct	_	_
-21	e	e	CCONJ	CONJ	_	22	cc	_	_
-22	tiveram	ter	VERB	VERB	_	13	conj	_	_
-23	três	_	NUM	NUM	NumType=Card	24	nummod	_	_
-24	filhos	filho	NOUN	NOUN	_	22	obj	_	SpaceAfter=No
-25	.	.	PUNCT	.	_	1	punct	_	_
+2	o	_	PRON	PRON	_	1	obj	_	_
+3	a	_	ADP	ADP	_	4	mark	_	_
+4	conseguir	conseguir	VERB	VERB	_	1	nmod	_	_
+5	um	um	DET	DET	_	6	det	_	_
+6	visto	visto	NOUN	NOUN	_	4	obj	_	_
+7	para	para	ADP	ADP	_	9	case	_	_
+8	os	o	DET	DET	_	9	det	_	_
+9	Estados	_	PROPN	PNOUN	_	6	nmod	_	_
+10	Unidos	_	PROPN	PNOUN	_	9	amod	_	_
+11	e	e	CCONJ	CONJ	_	12	cc	_	_
+12-13	casaram-se	_	_	_	_	_	_	_	_
+12	casaram	casar	VERB	VERB	_	1	conj	_	_
+13	se	_	PRON	PRON	_	12	obj	_	_
+14	em	em	ADP	ADP	_	15	case	_	_
+15	março	_	PROPN	PNOUN	_	12	nmod	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
+17	1934	1934	NUM	NUM	NumType=Card	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	.	_	20	punct	_	_
+19	e	e	CCONJ	CONJ	_	20	cc	_	_
+20	tiveram	ter	VERB	VERB	_	12	conj	_	_
+21	três	_	NUM	NUM	NumType=Card	22	nummod	_	_
+22	filhos	filho	NOUN	NOUN	_	20	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s9556
 # text = Além disso, a internet tem sido usada por meio das mídias sociais.

@@ -1,9 +1,9 @@
 # sent_id = dev-s664
 # text = Entre 2010 e 2012, os gastos do governo federal com assistência oncológica aumentaram 26 %, passando de R $ 1,9 bilhão (em 2010) para R $ 2,4 bilhões (estimativa de 2012).
 1	Entre	_	ADP	ADP	_	2	case	_	_
-2	2010	_	NUM	NUM	NumType=Card	15	nmod	_	_
+2	2010	2010	NUM	NUM	NumType=Card	15	nmod	_	_
 3	e	e	CCONJ	CONJ	_	4	cc	_	_
-4	2012	_	NUM	NUM	NumType=Card	2	conj	_	SpaceAfter=No
+4	2012	2012	NUM	NUM	NumType=Card	2	conj	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	2	punct	_	_
 6	os	o	DET	DET	_	7	det	_	_
 7	gastos	gasto	NOUN	NOUN	_	15	nsubj	_	_
@@ -16,28 +16,28 @@
 13	assistência	assistência	NOUN	NOUN	_	7	nmod	_	_
 14	oncológica	oncológico	ADJ	ADJ	_	13	amod	_	_
 15	aumentaram	aumentar	VERB	VERB	_	0	root	_	_
-16	26	_	NUM	NUM	NumType=Card	17	nummod	_	_
+16	26	26	NUM	NUM	NumType=Card	17	nummod	_	_
 17	%	_	SYM	SYM	_	15	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	.	_	19	punct	_	_
 19	passando	passar	VERB	VERB	_	15	acl	_	_
 20	de	de	ADP	ADP	_	21	case	_	_
 21	R	r	NOUN	NOUN	_	19	nmod	_	_
 22	$	_	SYM	SYM	_	21	flat	_	_
-23	1,9	_	NUM	NUM	NumType=Card	24	nummod	_	_
+23	1,9	1,9	NUM	NUM	NumType=Card	24	nummod	_	_
 24	bilhão	_	NUM	NUM	NumType=Card	21	nummod	_	_
 25	(	(	PUNCT	.	_	27	punct	_	SpaceAfter=No
 26	em	em	ADP	ADP	_	27	case	_	_
-27	2010	_	NUM	NUM	NumType=Card	21	nmod	_	SpaceAfter=No
+27	2010	2010	NUM	NUM	NumType=Card	21	nmod	_	SpaceAfter=No
 28	)	)	PUNCT	.	_	27	punct	_	_
 29	para	para	ADP	ADP	_	30	case	_	_
 30	R	r	NOUN	NOUN	_	19	nmod	_	_
 31	$	_	SYM	SYM	_	30	flat	_	_
-32	2,4	_	NUM	NUM	NumType=Card	33	nummod	_	_
+32	2,4	2,4	NUM	NUM	NumType=Card	33	nummod	_	_
 33	bilhões	_	NUM	NUM	NumType=Card	30	nummod	_	_
 34	(	(	PUNCT	.	_	35	punct	_	SpaceAfter=No
 35	estimativa	_	NOUN	NOUN	_	30	appos	_	_
 36	de	de	ADP	ADP	_	37	case	_	_
-37	2012	_	NUM	NUM	NumType=Card	35	nmod	_	SpaceAfter=No
+37	2012	2012	NUM	NUM	NumType=Card	35	nmod	_	SpaceAfter=No
 38	)	)	PUNCT	.	_	35	punct	_	SpaceAfter=No
 39	.	.	PUNCT	.	_	15	punct	_	_
 
@@ -117,7 +117,7 @@
 # sent_id = dev-s669
 # text = Em 1885, após a derrota na Guerra Sino - Francesa, o imperador Hàm Nghi foi obrigado a aceitar o protetorado francês sobre o império.
 1	Em	em	ADP	ADP	_	2	case	_	_
-2	1885	_	NUM	NUM	NumType=Card	19	nmod	_	SpaceAfter=No
+2	1885	1885	NUM	NUM	NumType=Card	19	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
 4	após	_	ADP	ADP	_	6	case	_	_
 5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -198,12 +198,12 @@
 32	oito	_	NUM	NUM	NumType=Card	33	nummod	_	_
 33	meses	mês	NOUN	NOUN	_	30	conj	_	_
 34	e	e	CCONJ	CONJ	_	36	cc	_	_
-35	210	_	NUM	NUM	NumType=Card	36	nummod	_	_
+35	210	210	NUM	NUM	NumType=Card	36	nummod	_	_
 36	dias	dia	NOUN	NOUN	_	30	conj	_	_
 37	-	-	PUNCT	.	_	38	punct	_	_
 38	multa	multa	NOUN	NOUN	_	30	conj	_	_
 39	de	de	ADP	ADP	_	41	case	_	_
-40	10	_	NUM	NUM	NumType=Card	41	nummod	_	_
+40	10	10	NUM	NUM	NumType=Card	41	nummod	_	_
 41	salários	salário	NOUN	NOUN	_	38	nmod	_	_
 42	mínimos	mínimo	ADJ	ADJ	_	41	amod	_	SpaceAfter=No
 43	)	)	PUNCT	.	_	30	punct	_	SpaceAfter=No

@@ -13,7 +13,7 @@
 10	Munique	_	PROPN	PNOUN	_	8	nmod	_	_
 11	lidera	liderar	VERB	VERB	_	0	root	_	_
 12	com	com	ADP	ADP	_	14	case	_	_
-13	15	_	NUM	NUM	NumType=Card	14	nummod	_	_
+13	15	15	NUM	NUM	NumType=Card	14	nummod	_	_
 14	pontos	ponto	NOUN	NOUN	_	11	nmod	_	_
 15	ganhos	ganhar	VERB	VERB	_	14	acl	_	SpaceAfter=No
 16	,	,	PUNCT	.	_	17	punct	_	_
@@ -70,9 +70,9 @@
 16	uma	um	DET	DET	_	17	det	_	_
 17	vitória	vitória	NOUN	NOUN	_	15	obj	_	_
 18	por	por	ADP	ADP	_	19	case	_	_
-19	87	_	NUM	NUM	NumType=Card	15	nmod	_	_
+19	87	87	NUM	NUM	NumType=Card	15	nmod	_	_
 20	a	_	ADP	ADP	_	21	case	_	_
-21	81	_	NUM	NUM	NumType=Card	19	nmod	_	_
+21	81	81	NUM	NUM	NumType=Card	19	nmod	_	_
 22	sobre	_	ADP	ADP	_	24	case	_	_
 23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	Paulistano	_	PROPN	PNOUN	_	15	nmod	_	_
@@ -112,7 +112,7 @@
 1	Bibee	_	PROPN	PNOUN	_	8	nsubj	_	_
 2	(	(	PUNCT	.	_	3	punct	_	SpaceAfter=No
 3	asteróide	_	NOUN	NOUN	_	1	appos	_	_
-4	11206	_	NUM	NUM	NumType=Card	3	appos	_	SpaceAfter=No
+4	11206	11206	NUM	NUM	NumType=Card	3	appos	_	SpaceAfter=No
 5	)	)	PUNCT	.	_	3	punct	_	_
 6	é	ser	AUX	AUX	_	8	cop	_	_
 7	um	um	DET	DET	_	8	det	_	_
@@ -124,7 +124,7 @@
 12	principal	principal	ADJ	ADJ	_	11	amod	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	16	punct	_	_
 14	a	_	ADP	ADP	_	16	case	_	_
-15	2,2243884	_	NUM	NUM	NumType=Card	16	nummod	_	_
+15	2,2243884	2,2243884	NUM	NUM	NumType=Card	16	nummod	_	_
 16	UA	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	8	punct	_	_
 
@@ -178,11 +178,11 @@
 # sent_id = train-s3348
 # text = Os 5 % restantes (118 milhões de CHF) corre por efeitos de câmbios de divisas e juros.
 1	Os	o	DET	DET	_	3	det	_	_
-2	5	_	NUM	NUM	NumType=Card	3	nummod	_	_
+2	5	5	NUM	NUM	NumType=Card	3	nummod	_	_
 3	%	_	SYM	SYM	_	11	nsubj	_	_
 4	restantes	restante	ADJ	ADJ	_	3	amod	_	_
 5	(	(	PUNCT	.	_	7	punct	_	SpaceAfter=No
-6	118	_	NUM	NUM	NumType=Card	7	nummod	_	_
+6	118	118	NUM	NUM	NumType=Card	7	nummod	_	_
 7	milhões	_	NUM	NUM	NumType=Card	3	appos	_	_
 8	de	de	ADP	ADP	_	9	case	_	_
 9	CHF	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No

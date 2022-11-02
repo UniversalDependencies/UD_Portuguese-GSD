@@ -101,7 +101,7 @@
 # sent_id = test-s343
 # text = Em 2000, as doenças do sistema nervoso representaram 1,2 % do total de mortes desta faixa etária e do aparelho geniturinário 2,1 %.
 1	Em	em	ADP	ADP	_	2	case	_	_
-2	2000	_	NUM	NUM	NumType=Card	10	nmod	_	SpaceAfter=No
+2	2000	2000	NUM	NUM	NumType=Card	10	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
 4	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 5	doenças	doença	NOUN	NOUN	_	10	nsubj	_	_
@@ -111,7 +111,7 @@
 8	sistema	sistema	NOUN	NOUN	_	5	nmod	_	_
 9	nervoso	nervoso	ADJ	ADJ	_	8	amod	_	_
 10	representaram	representar	VERB	VERB	_	0	root	_	_
-11	1,2	_	NUM	NUM	NumType=Card	12	nummod	_	_
+11	1,2	1,2	NUM	NUM	NumType=Card	12	nummod	_	_
 12	%	_	SYM	SYM	_	10	obj	_	_
 13-14	do	_	_	_	_	_	_	_	_
 13	de	de	ADP	ADP	_	15	case	_	_
@@ -128,7 +128,7 @@
 23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	aparelho	aparelho	NOUN	NOUN	_	27	nmod	_	_
 25	geniturinário	geniturinário	ADJ	ADJ	_	24	amod	_	_
-26	2,1	_	NUM	NUM	NumType=Card	27	nummod	_	_
+26	2,1	2,1	NUM	NUM	NumType=Card	27	nummod	_	_
 27	%	_	SYM	SYM	_	12	conj	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	10	punct	_	_
 
@@ -187,7 +187,7 @@
 7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	Estado	_	PROPN	PNOUN	_	5	nmod	_	_
 9	em	em	ADP	ADP	_	10	case	_	_
-10	2010	_	NUM	NUM	NumType=Card	3	nmod	_	SpaceAfter=No
+10	2010	2010	NUM	NUM	NumType=Card	3	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	32	punct	_	_
 12	mas	mas	CCONJ	CONJ	_	32	cc	_	_
 13	por	por	ADP	ADP	_	14	case	_	_

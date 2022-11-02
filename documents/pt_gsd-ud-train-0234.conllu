@@ -1,7 +1,7 @@
 # sent_id = train-s2323
 # text = Em 2010, o número de óbitos subiu para 151.
 1	Em	em	ADP	ADP	_	2	case	_	_
-2	2010	_	NUM	NUM	NumType=Card	8	nmod	_	SpaceAfter=No
+2	2010	2010	NUM	NUM	NumType=Card	8	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
 4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	número	número	NOUN	NOUN	_	8	nsubj	_	_
@@ -9,7 +9,7 @@
 7	óbitos	óbito	NOUN	NOUN	_	5	nmod	_	_
 8	subiu	subir	VERB	VERB	_	0	root	_	_
 9	para	para	ADP	ADP	_	10	case	_	_
-10	151	_	NUM	NUM	NumType=Card	8	nmod	_	SpaceAfter=No
+10	151	151	NUM	NUM	NumType=Card	8	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s2324
@@ -156,7 +156,7 @@
 19	Biomanguinhos	_	PROPN	PNOUN	_	18	appos	_	_
 20	--	_	PUNCT	.	_	18	punct	_	_
 21	desde	_	ADP	ADP	_	22	case	_	_
-22	2010	_	NUM	NUM	NumType=Card	4	nmod	_	_
+22	2010	2010	NUM	NUM	NumType=Card	4	nmod	_	_
 23	para	para	ADP	ADP	_	24	case	_	_
 24	produção	produção	NOUN	NOUN	_	7	nmod	_	_
 25-26	da	_	_	_	_	_	_	_	_
@@ -204,10 +204,10 @@
 2	de	de	ADP	ADP	_	3	case	_	_
 3	Dilam	_	PROPN	PNOUN	_	1	nmod	_	_
 4	(	(	PUNCT	.	_	5	punct	_	SpaceAfter=No
-5	1903	_	NUM	NUM	NumType=Card	1	nmod	_	SpaceAfter=No
+5	1903	1903	NUM	NUM	NumType=Card	1	nmod	_	SpaceAfter=No
 6	)	)	PUNCT	.	_	5	punct	_	_
 7	--	_	PUNCT	.	_	9	punct	_	_
-8	410	_	NUM	NUM	NumType=Card	9	nummod	_	_
+8	410	410	NUM	NUM	NumType=Card	9	nummod	_	_
 9	mortes	morte	NOUN	NOUN	_	1	appos	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	1	punct	_	_
 
@@ -287,7 +287,7 @@
 16	que	que	CCONJ	CONJ	_	25	mark	_	_
 17	mais	mais	ADV	ADV	_	20	advmod	_	_
 18	de	de	ADP	ADP	_	17	case	_	_
-19	5	_	NUM	NUM	NumType=Card	20	nummod	_	_
+19	5	5	NUM	NUM	NumType=Card	20	nummod	_	_
 20	milhões	_	NUM	NUM	NumType=Card	22	nummod	_	_
 21	de	de	ADP	ADP	_	22	case	_	_
 22	votos	voto	NOUN	NOUN	_	25	nsubj:pass	_	_
@@ -312,7 +312,7 @@
 40	Nieto	_	PROPN	PNOUN	_	38	flat	_	_
 41	presidente	presidente	NOUN	NOUN	_	37	xcomp	_	_
 42	com	com	ADP	ADP	_	44	case	_	_
-43	38,21	_	NUM	NUM	NumType=Card	44	nummod	_	_
+43	38,21	38,21	NUM	NUM	NumType=Card	44	nummod	_	_
 44	%	_	SYM	SYM	_	37	nmod	_	_
 45-46	dos	_	_	_	_	_	_	_	_
 45	de	de	ADP	ADP	_	47	case	_	_

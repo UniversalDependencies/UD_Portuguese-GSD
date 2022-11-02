@@ -20,11 +20,11 @@
 17	com	com	ADP	ADP	_	18	case	_	_
 18	Deus	_	PROPN	PNOUN	_	16	nmod	_	_
 19	(	(	PUNCT	.	_	21	punct	_	SpaceAfter=No
-20	1	_	NUM	NUM	NumType=Card	21	nummod	_	_
+20	1	1	NUM	NUM	NumType=Card	21	nummod	_	_
 21	Rs	_	PROPN	PNOUN	_	4	parataxis	_	_
-22	19	_	NUM	NUM	NumType=Card	21	appos	_	SpaceAfter=No
+22	19	19	NUM	NUM	NumType=Card	21	appos	_	SpaceAfter=No
 23	,	,	PUNCT	.	_	24	punct	_	_
-24	8	_	NUM	NUM	NumType=Card	22	conj	_	SpaceAfter=No
+24	8	8	NUM	NUM	NumType=Card	22	conj	_	SpaceAfter=No
 25	)	)	PUNCT	.	_	21	punct	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	4	punct	_	_
 
@@ -55,7 +55,7 @@
 21	primeiro	primeiro	ADJ	ADJ	_	22	amod	_	_
 22	semestre	semestre	NOUN	NOUN	_	18	nmod	_	_
 23	de	de	ADP	ADP	_	24	case	_	_
-24	2013	_	NUM	NUM	NumType=Card	22	nmod	_	SpaceAfter=No
+24	2013	2013	NUM	NUM	NumType=Card	22	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = train-s2007
@@ -186,7 +186,7 @@
 6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	TRF	_	PROPN	PNOUN	_	4	nmod	_	_
 8	-	-	PUNCT	.	_	7	punct	_	_
-9	2	_	NUM	NUM	NumType=Card	7	appos	_	_
+9	2	2	NUM	NUM	NumType=Card	7	appos	_	_
 10	(	(	PUNCT	.	_	11	punct	_	SpaceAfter=No
 11	Tribunal	_	PROPN	PNOUN	_	7	appos	_	_
 12	Regional	_	PROPN	PNOUN	_	11	amod	_	_
@@ -281,7 +281,7 @@
 6	turnê	turnê	NOUN	NOUN	_	3	nmod	_	_
 7	com	com	ADP	ADP	_	8	case	_	_
 8	Blink	_	PROPN	PNOUN	_	6	nmod	_	_
-9	182	_	NUM	NUM	NumType=Card	8	appos	_	_
+9	182	182	NUM	NUM	NumType=Card	8	appos	_	_
 10-11	na	_	_	_	_	_	_	_	_
 10	em	em	ADP	ADP	_	12	case	_	_
 11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
@@ -296,7 +296,7 @@
 19	de	de	ADP	ADP	_	21	case	_	_
 20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	Blink	_	PROPN	PNOUN	_	18	nmod	_	_
-22	182	_	NUM	NUM	NumType=Card	21	appos	_	_
+22	182	182	NUM	NUM	NumType=Card	21	appos	_	_
 23	Mark	_	PROPN	PNOUN	_	18	appos	_	_
 24	Hoppus	_	PROPN	PNOUN	_	23	flat	_	_
 25	falando	falar	VERB	VERB	_	18	acl	_	_

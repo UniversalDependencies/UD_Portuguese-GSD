@@ -7,7 +7,7 @@
 5	foram	_	AUX	AUX	_	6	aux:pass	_	_
 6	confirmados	confirmar	VERB	VERB	_	0	root	_	_
 7	em	em	ADP	ADP	_	9	case	_	_
-8	113	_	NUM	NUM	NumType=Card	9	nummod	_	_
+8	113	113	NUM	NUM	NumType=Card	9	nummod	_	_
 9	municípios	município	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	6	punct	_	_
 
@@ -21,9 +21,9 @@
 5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Lei	_	PROPN	PNOUN	_	1	nmod	_	_
 7	Municipal	_	PROPN	PNOUN	_	6	amod	_	_
-8	217	_	NUM	NUM	NumType=Card	6	appos	_	_
+8	217	217	NUM	NUM	NumType=Card	6	appos	_	_
 9	/	/	PUNCT	.	_	8	punct	_	_
-10	2009	_	NUM	NUM	NumType=Card	8	nmod	_	SpaceAfter=No
+10	2009	2009	NUM	NUM	NumType=Card	8	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	13	punct	_	_
 12	que	_	PRON	PRON	_	13	nsubj	_	_
 13	obriga	obrigar	VERB	VERB	_	6	acl:relcl	_	_
@@ -112,7 +112,7 @@
 # sent_id = train-s5205
 # text = Em 1975 foi eleito Deputado Estadual, mandato que repetiu por mais duas vezes até 1986.
 1	Em	em	ADP	ADP	_	2	case	_	_
-2	1975	_	NUM	NUM	NumType=Card	4	obl	_	_
+2	1975	1975	NUM	NUM	NumType=Card	4	obl	_	_
 3	foi	_	AUX	AUX	_	4	aux:pass	_	_
 4	eleito	eleger	VERB	_	_	0	root	_	_
 5	Deputado	_	PROPN	PNOUN	_	4	obj	_	_
@@ -126,7 +126,7 @@
 13	duas	_	NUM	NUM	NumType=Card	14	nummod	_	_
 14	vezes	vez	NOUN	NOUN	_	10	nmod	_	_
 15	até	_	ADP	ADP	_	16	case	_	_
-16	1986	_	NUM	NUM	NumType=Card	10	nmod	_	SpaceAfter=No
+16	1986	1986	NUM	NUM	NumType=Card	10	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s5206

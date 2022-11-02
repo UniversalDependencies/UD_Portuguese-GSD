@@ -5,9 +5,9 @@
 3	de	de	ADP	ADP	_	4	case	_	_
 4	virada	_	NOUN	NOUN	_	2	nmod	_	_
 5	por	por	ADP	ADP	_	6	case	_	_
-6	4	_	NUM	NUM	NumType=Card	2	nmod	_	_
+6	4	4	NUM	NUM	NumType=Card	2	nmod	_	_
 7	a	_	ADP	ADP	_	8	case	_	_
-8	3	_	NUM	NUM	NumType=Card	6	nmod	_	_
+8	3	3	NUM	NUM	NumType=Card	6	nmod	_	_
 9	sobre	_	ADP	ADP	_	11	case	_	_
 10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	Joinville	_	PROPN	PNOUN	_	2	nmod	_	_
@@ -34,7 +34,7 @@
 2	partida	partida	NOUN	NOUN	_	4	nsubj	_	_
 3	será	ser	AUX	AUX	_	4	cop	_	_
 4	dia	dia	NOUN	NOUN	_	0	root	_	_
-5	15	_	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
+5	15	15	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	8	punct	_	_
 7	um	um	DET	DET	_	8	det	_	_
 8	sábado	_	PROPN	PNOUN	_	4	appos	_	SpaceAfter=No
@@ -71,7 +71,7 @@
 # sent_id = train-s5243
 # text = Desde 2007, ele, conhecido pelos mexicanos como "Chapulín" (Gafanhoto, em inglês), participa da American Le Mans Series, com um LMP2 Lola B06/42-Acura da Fernández Racing, equipe do ex - piloto Adrián Fernández.
 1	Desde	_	ADP	ADP	_	2	case	_	_
-2	2007	_	NUM	NUM	NumType=Card	21	nmod	_	SpaceAfter=No
+2	2007	2007	NUM	NUM	NumType=Card	21	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
 4	ele	_	PRON	PRON	_	21	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	6	punct	_	_
@@ -163,7 +163,7 @@
 36	ativista	ativista	NOUN	NOUN	_	34	nsubj	_	SpaceAfter=No
 37	,	,	PUNCT	.	_	40	punct	_	_
 38	de	de	ADP	ADP	_	40	case	_	_
-39	41	_	NUM	NUM	NumType=Card	40	nummod	_	_
+39	41	41	NUM	NUM	NumType=Card	40	nummod	_	_
 40	anos	ano	NOUN	NOUN	_	36	nmod	_	SpaceAfter=No
 41	.	.	PUNCT	.	_	34	punct	_	_
 

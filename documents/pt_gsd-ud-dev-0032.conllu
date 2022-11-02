@@ -18,7 +18,7 @@
 3	-	-	PUNCT	.	_	4	punct	_	_
 4	Bretanha	_	PROPN	PNOUN	_	5	nsubj	_	_
 5	mandou	mandar	VERB	VERB	_	0	root	_	_
-6	42	_	NUM	NUM	NumType=Card	7	nummod	_	_
+6	42	42	NUM	NUM	NumType=Card	7	nummod	_	_
 7	competidores	competidor	NOUN	NOUN	_	5	obj	_	_
 8	que	_	PRON	PRON	_	9	nsubj	_	_
 9	disputaram	disputar	VERB	VERB	_	7	acl:relcl	_	_
@@ -32,7 +32,7 @@
 16	de	de	ADP	ADP	_	17	case	_	_
 17	Inverno	_	PROPN	PNOUN	_	14	nmod	_	_
 18	de	de	ADP	ADP	_	19	case	_	_
-19	1976	_	NUM	NUM	NumType=Card	14	nmod	_	SpaceAfter=No
+19	1976	1976	NUM	NUM	NumType=Card	14	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	.	_	22	punct	_	_
 21	em	em	ADP	ADP	_	22	case	_	_
 22	Innsbruck	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
@@ -257,11 +257,11 @@
 
 # sent_id = dev-s317
 # text = 2002 NX12 (asteróide 73446) é um asteróide da cintura principal, a 2,6748322 UA.
-1	2002	_	NUM	NUM	NumType=Card	9	nsubj	_	_
+1	2002	2002	NUM	NUM	NumType=Card	9	nsubj	_	_
 2	NX12	_	PROPN	PNOUN	_	1	flat	_	_
 3	(	(	PUNCT	.	_	4	punct	_	SpaceAfter=No
 4	asteróide	_	NOUN	NOUN	_	1	appos	_	_
-5	73446	_	NUM	NUM	NumType=Card	4	appos	_	SpaceAfter=No
+5	73446	73446	NUM	NUM	NumType=Card	4	appos	_	SpaceAfter=No
 6	)	)	PUNCT	.	_	4	punct	_	_
 7	é	ser	AUX	AUX	_	9	cop	_	_
 8	um	um	DET	DET	_	9	det	_	_
@@ -273,7 +273,7 @@
 13	principal	principal	ADJ	ADJ	_	12	amod	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	17	punct	_	_
 15	a	_	ADP	ADP	_	17	case	_	_
-16	2,6748322	_	NUM	NUM	NumType=Card	17	nummod	_	_
+16	2,6748322	2,6748322	NUM	NUM	NumType=Card	17	nummod	_	_
 17	UA	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	9	punct	_	_
 

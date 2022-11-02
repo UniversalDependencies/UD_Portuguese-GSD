@@ -51,7 +51,7 @@
 45	-	-	PUNCT	.	_	46	punct	_	_
 46	feira	_	PROPN	PNOUN	_	31	nmod	_	_
 47	(	(	PUNCT	.	_	48	punct	_	SpaceAfter=No
-48	13	_	NUM	NUM	NumType=Card	46	nmod	_	SpaceAfter=No
+48	13	13	NUM	NUM	NumType=Card	46	nmod	_	SpaceAfter=No
 49	)	)	PUNCT	.	_	48	punct	_	SpaceAfter=No
 50	.	.	PUNCT	.	_	31	punct	_	_
 
@@ -68,7 +68,7 @@
 9	é	ser	VERB	VERB	_	0	root	_	_
 10	equivalente	equivalente	ADJ	ADJ	_	9	xcomp	_	_
 11	a	_	ADP	ADP	_	13	case	_	_
-12	5	_	NUM	NUM	NumType=Card	13	nummod	_	_
+12	5	5	NUM	NUM	NumType=Card	13	nummod	_	_
 13	%	_	SYM	SYM	_	10	nmod	_	_
 14-15	do	_	_	_	_	_	_	_	_
 14	de	de	ADP	ADP	_	16	case	_	_
@@ -78,7 +78,7 @@
 18	,	,	PUNCT	.	_	19	punct	_	_
 19	R	r	NOUN	NOUN	_	13	appos	_	_
 20	$	_	SYM	SYM	_	19	flat	_	_
-21	32,00	_	NUM	NUM	NumType=Card	19	nummod	_	SpaceAfter=No
+21	32,00	32,00	NUM	NUM	NumType=Card	19	nummod	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s1641
@@ -196,7 +196,7 @@
 # sent_id = train-s1645
 # text = Em 2007, o STF aceitou denúncia contra os 40 suspeitos de envolvimento no suposto esquema denunciado em 2005 pelo então deputado federal Roberto Jefferson (PTB) e que ficou conhecido como mensalão.
 1	Em	em	ADP	ADP	_	2	case	_	_
-2	2007	_	NUM	NUM	NumType=Card	6	nmod	_	SpaceAfter=No
+2	2007	2007	NUM	NUM	NumType=Card	6	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
 4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	STF	_	PROPN	PNOUN	_	6	nsubj	_	_
@@ -204,7 +204,7 @@
 7	denúncia	denúncia	NOUN	NOUN	_	6	obj	_	_
 8	contra	_	ADP	ADP	_	11	case	_	_
 9	os	o	DET	DET	_	11	det	_	_
-10	40	_	NUM	NUM	NumType=Card	11	nummod	_	_
+10	40	40	NUM	NUM	NumType=Card	11	nummod	_	_
 11	suspeitos	suspeito	NOUN	NOUN	_	7	nmod	_	_
 12	de	de	ADP	ADP	_	13	case	_	_
 13	envolvimento	envolvimento	NOUN	NOUN	_	11	nmod	_	_
@@ -215,7 +215,7 @@
 17	esquema	esquema	NOUN	NOUN	_	13	nmod	_	_
 18	denunciado	denunciar	VERB	VERB	_	17	acl	_	_
 19	em	em	ADP	ADP	_	20	case	_	_
-20	2005	_	NUM	NUM	NumType=Card	18	nmod	_	_
+20	2005	2005	NUM	NUM	NumType=Card	18	nmod	_	_
 21	pelo	pelo	NOUN	NOUN	_	23	case	_	_
 22	então	então	ADV	ADV	_	23	advmod	_	_
 23	deputado	deputado	NOUN	NOUN	_	18	nmod	_	_
@@ -248,12 +248,12 @@
 11	,	,	PUNCT	.	_	13	punct	_	_
 12	que	_	PRON	PRON	_	13	nsubj	_	_
 13	sobe	subir	VERB	VERB	_	6	acl:relcl	_	_
-14	1	_	NUM	NUM	NumType=Card	15	nummod	_	_
+14	1	1	NUM	NUM	NumType=Card	15	nummod	_	_
 15	ponto	ponto	NOUN	NOUN	_	13	nmod	_	_
 16	e	e	CCONJ	CONJ	_	17	cc	_	_
 17	fica	ficar	VERB	VERB	_	13	conj	_	_
 18	com	com	ADP	ADP	_	20	case	_	_
-19	8	_	NUM	NUM	NumType=Card	20	nummod	_	_
+19	8	8	NUM	NUM	NumType=Card	20	nummod	_	_
 20	%	_	SYM	SYM	_	17	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	5	punct	_	_
 
@@ -263,7 +263,7 @@
 2	Barcelona	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	5	punct	_	_
 4	em	em	ADP	ADP	_	5	case	_	_
-5	1992	_	NUM	NUM	NumType=Card	10	nmod	_	SpaceAfter=No
+5	1992	1992	NUM	NUM	NumType=Card	10	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	5	punct	_	_
 7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	jornal	jornal	NOUN	NOUN	_	10	nsubj	_	_

@@ -105,13 +105,13 @@
 # sent_id = train-s4488
 # text = Em 1976, no dia 28 de junho, foi inaugurada e aberta ao tráfego a Rodovia dos Imigrantes.
 1	Em	em	ADP	ADP	_	2	case	_	_
-2	1976	_	NUM	NUM	NumType=Card	12	nmod	_	SpaceAfter=No
+2	1976	1976	NUM	NUM	NumType=Card	12	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
 4-5	no	_	_	_	_	_	_	_	_
 4	em	em	ADP	ADP	_	6	case	_	_
 5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	dia	dia	NOUN	NOUN	_	12	nmod	_	_
-7	28	_	NUM	NUM	NumType=Card	6	nmod	_	_
+7	28	28	NUM	NUM	NumType=Card	6	nmod	_	_
 8	de	de	ADP	ADP	_	9	case	_	_
 9	junho	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	6	punct	_	_
@@ -163,7 +163,7 @@
 4	ser	ser	AUX	AUX	_	5	aux:pass	_	_
 5	aquecido	aquecer	VERB	VERB	_	0	root	_	_
 6	em	em	ADP	ADP	_	7	case	_	_
-7	2013	_	NUM	NUM	NumType=Card	5	nmod	_	SpaceAfter=No
+7	2013	2013	NUM	NUM	NumType=Card	5	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	9	punct	_	_
 9	antevéspera	antevéspera	NOUN	NOUN	_	7	appos	_	_
 10-11	das	_	_	_	_	_	_	_	_
@@ -171,7 +171,7 @@
 11	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
 12	eleições	eleição	NOUN	NOUN	_	9	nmod	_	_
 13	em	em	ADP	ADP	_	14	case	_	_
-14	2014	_	NUM	NUM	NumType=Card	12	nmod	_	SpaceAfter=No
+14	2014	2014	NUM	NUM	NumType=Card	12	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s4491
@@ -186,7 +186,7 @@
 7	de	de	ADP	ADP	_	9	case	_	_
 8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Windows	_	PROPN	PNOUN	_	6	nmod	_	_
-10	8	_	NUM	NUM	NumType=Card	9	appos	_	_
+10	8	8	NUM	NUM	NumType=Card	9	appos	_	_
 11	dentro	dentro	ADV	ADV	_	6	advmod	_	_
 12-13	das	_	_	_	_	_	_	_	_
 12	de	de	ADP	ADP	_	14	case	_	_
@@ -279,7 +279,7 @@
 4	dessas	_	ADP	ADP	_	5	case	_	_
 5	pessoas	pessoa	NOUN	NOUN	_	3	nmod	_	_
 6	--	_	PUNCT	.	_	8	punct	_	_
-7	1,542	_	NUM	NUM	NumType=Card	8	nummod	_	_
+7	1,542	1,542	NUM	NUM	NumType=Card	8	nummod	_	_
 8	milhão	_	NUM	NUM	NumType=Card	3	appos	_	_
 9	--	_	PUNCT	.	_	8	punct	_	_
 10	está	estar	AUX	AUX	_	11	aux	_	_
@@ -291,13 +291,13 @@
 15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	exercício	exercício	NOUN	NOUN	_	13	nmod	_	_
 17	de	de	ADP	ADP	_	18	case	_	_
-18	2012	_	NUM	NUM	NumType=Card	16	nmod	_	SpaceAfter=No
+18	2012	2012	NUM	NUM	NumType=Card	16	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	.	_	21	punct	_	_
 20	que	_	PRON	PRON	_	21	nsubj	_	_
 21	totaliza	totalizar	VERB	VERB	_	13	acl:relcl	_	_
 22	R	r	NOUN	NOUN	_	21	obj	_	_
 23	$	_	SYM	SYM	_	22	flat	_	_
-24	1,4	_	NUM	NUM	NumType=Card	25	nummod	_	_
+24	1,4	1,4	NUM	NUM	NumType=Card	25	nummod	_	_
 25	bilhão	_	NUM	NUM	NumType=Card	22	nummod	_	SpaceAfter=No
 26	,	,	PUNCT	.	_	27	punct	_	_
 27	valor	valor	NOUN	NOUN	_	22	appos	_	_
@@ -309,7 +309,7 @@
 32	taxa	taxa	NOUN	NOUN	_	29	nmod	_	_
 33	Selic	_	PROPN	PNOUN	_	32	appos	_	_
 34	de	de	ADP	ADP	_	36	case	_	_
-35	4,29	_	NUM	NUM	NumType=Card	36	nummod	_	_
+35	4,29	4,29	NUM	NUM	NumType=Card	36	nummod	_	_
 36	%	_	SYM	SYM	_	32	nmod	_	SpaceAfter=No
 37	,	,	PUNCT	.	_	38	punct	_	_
 38	referente	_	VERB	VERB	_	32	acl	_	_
@@ -322,6 +322,6 @@
 44	a	_	ADP	ADP	_	45	case	_	_
 45	outubro	_	PROPN	PNOUN	_	41	nmod	_	_
 46	de	de	ADP	ADP	_	47	case	_	_
-47	2012	_	NUM	NUM	NumType=Card	41	nmod	_	SpaceAfter=No
+47	2012	2012	NUM	NUM	NumType=Card	41	nmod	_	SpaceAfter=No
 48	.	.	PUNCT	.	_	11	punct	_	_
 

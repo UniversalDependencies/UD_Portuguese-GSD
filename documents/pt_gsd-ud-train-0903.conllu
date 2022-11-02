@@ -147,7 +147,7 @@
 17	rodovia	rodovia	NOUN	NOUN	_	3	nmod	_	_
 18	A	_	PROPN	PNOUN	_	17	appos	_	_
 19	-	-	PUNCT	.	_	18	punct	_	_
-20	04	_	NUM	NUM	NumType=Card	18	appos	_	SpaceAfter=No
+20	04	04	NUM	NUM	NumType=Card	18	appos	_	SpaceAfter=No
 21	,	,	PUNCT	.	_	22	punct	_	_
 22	via	via	NOUN	NOUN	_	17	appos	_	_
 23	perimetral	perimetral	ADJ	ADJ	_	22	amod	_	_
@@ -180,7 +180,7 @@
 46	-	-	PUNCT	.	_	47	punct	_	_
 47	feira	_	PROPN	PNOUN	_	43	nmod	_	_
 48	(	(	PUNCT	.	_	49	punct	_	SpaceAfter=No
-49	30	_	NUM	NUM	NumType=Card	47	nmod	_	SpaceAfter=No
+49	30	30	NUM	NUM	NumType=Card	47	nmod	_	SpaceAfter=No
 50	)	)	PUNCT	.	_	49	punct	_	SpaceAfter=No
 51	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -255,11 +255,11 @@
 # sent_id = train-s8968
 # text = Em 1 de outubro de 2008 foi lançada a versão 2.6, já visando a transição para a versão 3.0 da linguagem.
 1	Em	em	ADP	ADP	_	2	case	_	_
-2	1	_	NUM	NUM	NumType=Card	8	nmod	_	_
+2	1	1	NUM	NUM	NumType=Card	8	nmod	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	outubro	_	PROPN	PNOUN	_	2	nmod	_	_
 5	de	de	ADP	ADP	_	6	case	_	_
-6	2008	_	NUM	NUM	NumType=Card	4	nmod	_	_
+6	2008	2008	NUM	NUM	NumType=Card	4	nmod	_	_
 7	foi	_	AUX	AUX	_	8	aux:pass	_	_
 8	lançada	lançar	VERB	VERB	_	0	root	_	_
 9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_

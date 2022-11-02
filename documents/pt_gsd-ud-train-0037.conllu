@@ -51,7 +51,7 @@
 8	de	de	ADP	ADP	_	9	case	_	_
 9	arrombamentos	arrombamento	NOUN	NOUN	_	7	nmod	_	_
 10	(	(	PUNCT	.	_	11	punct	_	SpaceAfter=No
-11	190	_	NUM	NUM	NumType=Card	7	appos	_	SpaceAfter=No
+11	190	190	NUM	NUM	NumType=Card	7	appos	_	SpaceAfter=No
 12	)	)	PUNCT	.	_	11	punct	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	4	punct	_	_
 
@@ -140,13 +140,13 @@
 8	a	_	ADP	ADP	_	9	mark	_	_
 9	partir	partir	VERB	VERB	_	7	nmod	_	_
 10	de	de	ADP	ADP	_	11	case	_	_
-11	2005	_	NUM	NUM	NumType=Card	9	nmod	_	SpaceAfter=No
+11	2005	2005	NUM	NUM	NumType=Card	9	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s367
 # text = Para 2013, no entanto, a projeção caiu de 5,54 % para 5,50 %, mesmo porcentual verificado há quatro semanas.
 1	Para	_	ADP	ADP	_	2	case	_	_
-2	2013	_	NUM	NUM	NumType=Card	10	nmod	_	SpaceAfter=No
+2	2013	2013	NUM	NUM	NumType=Card	10	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
 4-5	no	_	_	_	_	_	_	_	_
 4	em	em	ADP	ADP	_	6	case	_	_
@@ -157,10 +157,10 @@
 9	projeção	projeção	NOUN	NOUN	_	10	nsubj	_	_
 10	caiu	cair	VERB	VERB	_	0	root	_	_
 11	de	de	ADP	ADP	_	13	case	_	_
-12	5,54	_	NUM	NUM	NumType=Card	13	nummod	_	_
+12	5,54	5,54	NUM	NUM	NumType=Card	13	nummod	_	_
 13	%	_	SYM	SYM	_	10	nmod	_	_
 14	para	para	ADP	ADP	_	16	case	_	_
-15	5,50	_	NUM	NUM	NumType=Card	16	nummod	_	_
+15	5,50	5,50	NUM	NUM	NumType=Card	16	nummod	_	_
 16	%	_	SYM	SYM	_	10	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	.	_	19	punct	_	_
 18	mesmo	mesmo	ADJ	ADJ	_	19	amod	_	_
@@ -175,7 +175,7 @@
 # text = Ela tem 53 pontos de vantagem sobre a McLaren e 54 sobre a Lotus.
 1	Ela	_	PRON	PRON	_	2	nsubj	_	_
 2	tem	ter	VERB	VERB	_	0	root	_	_
-3	53	_	NUM	NUM	NumType=Card	4	nummod	_	_
+3	53	53	NUM	NUM	NumType=Card	4	nummod	_	_
 4	pontos	ponto	NOUN	NOUN	_	2	obj	_	_
 5	de	de	ADP	ADP	_	6	case	_	_
 6	vantagem	vantagem	NOUN	NOUN	_	4	nmod	_	_
@@ -183,7 +183,7 @@
 8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	McLaren	_	PROPN	PNOUN	_	4	nmod	_	_
 10	e	e	CCONJ	CONJ	_	11	cc	_	_
-11	54	_	NUM	NUM	NumType=Card	2	conj	_	_
+11	54	54	NUM	NUM	NumType=Card	2	conj	_	_
 12	sobre	_	ADP	ADP	_	14	case	_	_
 13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	Lotus	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No

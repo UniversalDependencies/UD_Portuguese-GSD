@@ -53,7 +53,7 @@
 
 # sent_id = train-s2354
 # text = 7 º, I, da CRFB, fica vedada a dispensa da empregada gestante desde a confirmação da gravidez até cinco meses após o parto, independente do desconhecimento do estado gravídico pelo empregador.
-1	7	_	NUM	NUM	NumType=Card	10	parataxis	_	_
+1	7	7	NUM	NUM	NumType=Card	10	parataxis	_	_
 2	º	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	4	punct	_	_
 4	I	_	NUM	NUM	NumType=Card	1	conj	_	SpaceAfter=No
@@ -128,17 +128,17 @@
 21	por	por	ADP	ADP	_	22	case	_	_
 22	volta	volta	NOUN	NOUN	_	5	nmod	_	_
 23	de	de	ADP	ADP	_	24	case	_	_
-24	624	_	NUM	NUM	NumType=Card	22	nmod	_	_
+24	624	624	NUM	NUM	NumType=Card	22	nmod	_	_
 25	ou	ou	CCONJ	CONJ	_	26	cc	_	_
-26	625	_	NUM	NUM	NumType=Card	24	conj	_	_
+26	625	625	NUM	NUM	NumType=Card	24	conj	_	_
 27	a.C.	_	PUNCT	.	_	24	punct	_	_
 28	e	e	CCONJ	CONJ	_	29	cc	_	_
 29	faleceu	falecer	VERB	VERB	_	5	conj	_	_
 30	aproximadamente	aproximadamente	ADV	ADV	_	29	advmod	_	_
 31	em	em	ADP	ADP	_	32	case	_	_
-32	556	_	NUM	NUM	NumType=Card	29	nmod	_	_
+32	556	556	NUM	NUM	NumType=Card	29	nmod	_	_
 33	ou	ou	CCONJ	CONJ	_	34	cc	_	_
-34	558	_	NUM	NUM	NumType=Card	32	conj	_	_
+34	558	558	NUM	NUM	NumType=Card	32	conj	_	_
 35	a.C.	_	PUNCT	.	_	32	punct	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	5	punct	_	_
 
@@ -155,7 +155,7 @@
 9-10	aos	_	_	_	_	_	_	_	_
 9	a	a	ADP	ADP	_	12	case	_	_
 10	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
-11	38	_	NUM	NUM	NumType=Card	12	nummod	_	_
+11	38	38	NUM	NUM	NumType=Card	12	nummod	_	_
 12	minutos	minuto	NOUN	NOUN	_	5	nmod	_	_
 13-14	do	_	_	_	_	_	_	_	_
 13	de	de	ADP	ADP	_	16	case	_	_
@@ -224,7 +224,7 @@
 18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 19	redor	redor	NOUN	NOUN	_	17	fixed	_	_
 20	de	_	ADP	ADP	_	17	fixed	_	_
-21	3	_	NUM	NUM	NumType=Card	22	nummod	_	_
+21	3	3	NUM	NUM	NumType=Card	22	nummod	_	_
 22	%	_	SYM	SYM	_	13	appos	_	SpaceAfter=No
 23	,	,	PUNCT	.	_	11	punct	_	_
 24	conseguiria	conseguir	VERB	VERB	_	0	root	_	SpaceAfter=No
@@ -285,9 +285,9 @@
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	dia	dia	NOUN	NOUN	_	12	nmod	_	_
-4	12	_	NUM	NUM	NumType=Card	3	nmod	_	_
+4	12	12	NUM	NUM	NumType=Card	3	nmod	_	_
 5	/	/	PUNCT	.	_	4	punct	_	_
-6	9	_	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
+6	9	9	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	3	punct	_	_
 8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Clube	_	PROPN	PNOUN	_	12	nsubj	_	_
@@ -304,7 +304,7 @@
 19	Prêmio	_	PROPN	PNOUN	_	16	nmod	_	_
 20	Master	_	PROPN	PNOUN	_	19	flat	_	_
 21	Imobiliário	_	PROPN	PNOUN	_	19	amod	_	_
-22	2012	_	NUM	NUM	NumType=Card	19	nmod	_	SpaceAfter=No
+22	2012	2012	NUM	NUM	NumType=Card	19	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = train-s2361

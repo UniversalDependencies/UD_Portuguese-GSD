@@ -27,9 +27,9 @@
 21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	placar	placar	NOUN	NOUN	_	7	nmod	_	_
 23	de	de	ADP	ADP	_	24	case	_	_
-24	4	_	NUM	NUM	NumType=Card	22	nmod	_	_
+24	4	4	NUM	NUM	NumType=Card	22	nmod	_	_
 25	a	_	ADP	ADP	_	26	case	_	_
-26	2	_	NUM	NUM	NumType=Card	24	nmod	_	_
+26	2	2	NUM	NUM	NumType=Card	24	nmod	_	_
 27	e	e	CCONJ	CONJ	_	28	cc	_	_
 28	garantiu	garantir	VERB	VERB	_	7	conj	_	_
 29	vaga	vaga	NOUN	NOUN	_	28	obj	_	_
@@ -144,7 +144,7 @@
 8	de	de	ADP	ADP	_	9	case	_	_
 9	Lima	_	PROPN	PNOUN	_	7	nmod	_	_
 10	de	de	ADP	ADP	_	12	case	_	_
-11	34	_	NUM	NUM	NumType=Card	12	nummod	_	_
+11	34	34	NUM	NUM	NumType=Card	12	nummod	_	_
 12	anos	ano	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	12	punct	_	_
 14	morreu	morrer	VERB	VERB	_	0	root	_	_
@@ -194,7 +194,7 @@
 32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	valor	valor	NOUN	NOUN	_	17	nmod	_	_
 34	de	de	ADP	ADP	_	37	case	_	_
-35	453	_	NUM	NUM	NumType=Card	36	nummod	_	_
+35	453	453	NUM	NUM	NumType=Card	36	nummod	_	_
 36	mil	_	NUM	NUM	NumType=Card	37	nummod	_	_
 37	reais	real	NOUN	NOUN	_	33	nmod	_	SpaceAfter=No
 38	.	.	PUNCT	.	_	2	punct	_	_
@@ -329,8 +329,8 @@
 # text = Eldorado (18 302,68 hectares) e Cajati, totalizando uma área de 150 000 hectares e um perímetro de 369 000 metros.
 1	Eldorado	_	PROPN	PNOUN	_	0	root	_	_
 2	(	(	PUNCT	.	_	5	punct	_	SpaceAfter=No
-3	18	_	NUM	NUM	NumType=Card	4	nummod	_	_
-4	302,68	_	NUM	NUM	NumType=Card	5	nummod	_	_
+3	18	18	NUM	NUM	NumType=Card	4	nummod	_	_
+4	302,68	302,68	NUM	NUM	NumType=Card	5	nummod	_	_
 5	hectares	hectare	NOUN	NOUN	_	1	appos	_	SpaceAfter=No
 6	)	)	PUNCT	.	_	5	punct	_	_
 7	e	e	CCONJ	CONJ	_	8	cc	_	_
@@ -340,15 +340,15 @@
 11	uma	um	DET	DET	_	12	det	_	_
 12	área	área	NOUN	NOUN	_	10	obj	_	_
 13	de	de	ADP	ADP	_	16	case	_	_
-14	150	_	NUM	NUM	NumType=Card	15	nummod	_	_
-15	000	_	NUM	NUM	NumType=Card	16	nummod	_	_
+14	150	150	NUM	NUM	NumType=Card	15	nummod	_	_
+15	000	000	NUM	NUM	NumType=Card	16	nummod	_	_
 16	hectares	hectare	NOUN	NOUN	_	12	nmod	_	_
 17	e	e	CCONJ	CONJ	_	19	cc	_	_
 18	um	um	DET	DET	_	19	det	_	_
 19	perímetro	perímetro	NOUN	NOUN	_	12	conj	_	_
 20	de	de	ADP	ADP	_	23	case	_	_
-21	369	_	NUM	NUM	NumType=Card	22	nummod	_	_
-22	000	_	NUM	NUM	NumType=Card	23	nummod	_	_
+21	369	369	NUM	NUM	NumType=Card	22	nummod	_	_
+22	000	000	NUM	NUM	NumType=Card	23	nummod	_	_
 23	metros	metro	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	1	punct	_	_
 

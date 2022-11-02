@@ -16,14 +16,14 @@
 13-14	das	_	_	_	_	_	_	_	_
 13	de	de	ADP	ADP	_	16	case	_	_
 14	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
-15	20	_	NUM	NUM	NumType=Card	16	nummod	_	_
+15	20	20	NUM	NUM	NumType=Card	16	nummod	_	_
 16	horas	hora	NOUN	NOUN	_	12	nmod	_	_
 17	de	de	ADP	ADP	_	20	case	_	_
 18	segunda	_	PROPN	PNOUN	_	20	amod	_	_
 19	-	-	PUNCT	.	_	20	punct	_	_
 20	feira	_	PROPN	PNOUN	_	16	nmod	_	_
 21	(	(	PUNCT	.	_	22	punct	_	SpaceAfter=No
-22	2	_	NUM	NUM	NumType=Card	20	nmod	_	SpaceAfter=No
+22	2	2	NUM	NUM	NumType=Card	20	nmod	_	SpaceAfter=No
 23	)	)	PUNCT	.	_	22	punct	_	SpaceAfter=No
 24	,	,	PUNCT	.	_	27	punct	_	_
 25	e	e	CCONJ	CONJ	_	27	cc	_	_
@@ -36,7 +36,7 @@
 31	desta	_	ADP	ADP	_	32	case	_	_
 32	terça	_	PROPN	PNOUN	_	30	nmod	_	_
 33	(	(	PUNCT	.	_	34	punct	_	SpaceAfter=No
-34	3	_	NUM	NUM	NumType=Card	32	nmod	_	SpaceAfter=No
+34	3	3	NUM	NUM	NumType=Card	32	nmod	_	SpaceAfter=No
 35	)	)	PUNCT	.	_	34	punct	_	_
 36	após	_	ADP	ADP	_	39	mark	_	_
 37	os	o	DET	DET	_	38	det	_	_
@@ -72,7 +72,7 @@
 5	câmera	câmera	NOUN	NOUN	_	2	obj	_	_
 6	frontal	frontal	ADJ	ADJ	_	5	amod	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
-8	1,3	_	NUM	NUM	NumType=Card	9	nummod	_	_
+8	1,3	1,3	NUM	NUM	NumType=Card	9	nummod	_	_
 9	megapixel	megapixel	NOUN	NOUN	_	5	nmod	_	_
 10	e	e	CCONJ	CONJ	_	9	cc	_	_
 11	que	_	PRON	PRON	_	12	nsubj	_	_
@@ -87,7 +87,7 @@
 19	uma	um	DET	DET	_	20	det	_	_
 20	traseira	_	NOUN	NOUN	_	17	nmod	_	_
 21	de	de	ADP	ADP	_	23	case	_	_
-22	8	_	NUM	NUM	NumType=Card	23	nummod	_	_
+22	8	8	NUM	NUM	NumType=Card	23	nummod	_	_
 23	megapixels	megapixel	NOUN	NOUN	_	20	nmod	_	_
 24	com	com	ADP	ADP	_	25	case	_	_
 25	vídeo	vídeo	NOUN	NOUN	_	20	nmod	_	_
@@ -167,7 +167,7 @@
 # text = QUITO, 7 AGO (ANSA) -- A revista equatoriana Vanguardia, de linha crítica ao governo e cujos computadores foram apreendidos na semana passada, anunciou que voltará a circular novamente nos próximos dias.
 1	QUITO	_	PROPN	PNOUN	_	30	parataxis	_	SpaceAfter=No
 2	,	,	PUNCT	.	_	1	punct	_	_
-3	7	_	NUM	NUM	NumType=Card	1	nmod	_	_
+3	7	7	NUM	NUM	NumType=Card	1	nmod	_	_
 4	AGO	_	PROPN	PNOUN	_	3	nmod	_	_
 5	(	(	PUNCT	.	_	6	punct	_	SpaceAfter=No
 6	ANSA	_	PROPN	PNOUN	_	1	appos	_	SpaceAfter=No

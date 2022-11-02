@@ -61,7 +61,7 @@
 2	aposentado	aposentado	ADJ	ADJ	_	21	dep	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
 4	em	em	ADP	ADP	_	5	case	_	_
-5	1999	_	NUM	NUM	NumType=Card	21	nmod	_	SpaceAfter=No
+5	1999	1999	NUM	NUM	NumType=Card	21	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	5	punct	_	_
 7-8	na	_	_	_	_	_	_	_	_
 7	em	em	ADP	ADP	_	9	case	_	_
@@ -100,14 +100,14 @@
 14	montante	montante	NOUN	NOUN	_	13	nsubj:pass	_	_
 15	equivalente	equivalente	ADJ	ADJ	_	14	amod	_	_
 16	a	_	ADP	ADP	_	18	case	_	_
-17	10	_	NUM	NUM	NumType=Card	18	nummod	_	_
+17	10	10	NUM	NUM	NumType=Card	18	nummod	_	_
 18	%	_	SYM	SYM	_	15	nmod	_	_
 19-20	dos	_	_	_	_	_	_	_	_
 19	de	de	ADP	ADP	_	21	case	_	_
 20	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
 21	R	r	NOUN	NOUN	_	18	nmod	_	_
 22	$	_	SYM	SYM	_	21	flat	_	_
-23	18	_	NUM	NUM	NumType=Card	24	nummod	_	_
+23	18	18	NUM	NUM	NumType=Card	24	nummod	_	_
 24	bilhões	_	NUM	NUM	NumType=Card	21	nummod	_	_
 25	já	já	ADV	ADV	_	26	advmod	_	_
 26	disponibilizados	disponibilizado	ADJ	ADJ	_	24	amod	_	_
@@ -156,7 +156,7 @@
 12	até	_	ADP	ADP	_	14	case	_	_
 13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	dia	dia	NOUN	NOUN	_	11	nmod	_	_
-15	14	_	NUM	NUM	NumType=Card	14	nmod	_	SpaceAfter=No
+15	14	14	NUM	NUM	NumType=Card	14	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = dev-s771
@@ -170,7 +170,7 @@
 7	,	,	PUNCT	.	_	2	punct	_	_
 8	foi	_	VERB	VERB	_	0	root	_	_
 9	a	_	ADP	ADP	_	10	case	_	_
-10	40	_	NUM	NUM	NumType=Card	8	nmod	_	SpaceAfter=No
+10	40	40	NUM	NUM	NumType=Card	8	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	8	punct	_	_
 12	afastando	afastar	VERB	VERB	_	8	acl	_	_
 13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -196,9 +196,9 @@
 # text = Amanhã (23 / 08) será realizado um workshop para cerca de 80 agentes de viagens, onde será feita a capacitação, que contará com a presença da principal operadora das Bahamas, a Majestic Tours, além dos hotéis Atlantis, Grand Lucayan e Sandals, que vão apresentar seus empreendimentos.
 1	Amanhã	amanhã	ADV	ADV	_	8	advmod	_	_
 2	(	(	PUNCT	.	_	3	punct	_	SpaceAfter=No
-3	23	_	NUM	NUM	NumType=Card	1	nmod	_	_
+3	23	23	NUM	NUM	NumType=Card	1	nmod	_	_
 4	/	/	PUNCT	.	_	3	punct	_	_
-5	08	_	NUM	NUM	NumType=Card	3	nmod	_	SpaceAfter=No
+5	08	08	NUM	NUM	NumType=Card	3	nmod	_	SpaceAfter=No
 6	)	)	PUNCT	.	_	3	punct	_	_
 7	será	ser	AUX	AUX	_	8	aux:pass	_	_
 8	realizado	realizar	VERB	VERB	_	0	root	_	_
@@ -207,7 +207,7 @@
 11	para	para	ADP	ADP	_	15	case	_	_
 12	cerca	cerca	ADV	ADV	_	14	advmod	_	_
 13	de	_	ADP	ADP	_	12	fixed	_	_
-14	80	_	NUM	NUM	NumType=Card	15	nummod	_	_
+14	80	80	NUM	NUM	NumType=Card	15	nummod	_	_
 15	agentes	agente	NOUN	NOUN	_	10	nmod	_	_
 16	de	de	ADP	ADP	_	17	case	_	_
 17	viagens	viagem	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No

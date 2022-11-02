@@ -67,7 +67,7 @@
 8	de	_	ADP	ADP	_	9	mark	_	_
 9	hoje	hoje	ADV	ADV	_	7	nmod	_	_
 10	(	(	PUNCT	.	_	11	punct	_	SpaceAfter=No
-11	24	_	NUM	NUM	NumType=Card	9	nmod	_	SpaceAfter=No
+11	24	24	NUM	NUM	NumType=Card	9	nmod	_	SpaceAfter=No
 12	)	)	PUNCT	.	_	11	punct	_	_
 13-14	do	_	_	_	_	_	_	_	_
 13	de	de	ADP	ADP	_	15	case	_	_
@@ -80,12 +80,12 @@
 19	União	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	.	_	21	punct	_	_
 21	Seção	_	PROPN	PNOUN	_	15	appos	_	_
-22	1	_	NUM	NUM	NumType=Card	21	appos	_	SpaceAfter=No
+22	1	1	NUM	NUM	NumType=Card	21	appos	_	SpaceAfter=No
 23	,	,	PUNCT	.	_	24	punct	_	_
 24	páginas	página	NOUN	NOUN	_	21	appos	_	_
-25	1	_	NUM	NUM	NumType=Card	24	appos	_	_
+25	1	1	NUM	NUM	NumType=Card	24	appos	_	_
 26	e	e	CCONJ	CONJ	_	27	cc	_	_
-27	2	_	NUM	NUM	NumType=Card	25	conj	_	SpaceAfter=No
+27	2	2	NUM	NUM	NumType=Card	25	conj	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = test-s62
@@ -122,7 +122,7 @@
 28	de	de	ADP	ADP	_	29	case	_	_
 29	R	r	NOUN	NOUN	_	27	nmod	_	_
 30	$	_	SYM	SYM	_	29	flat	_	_
-31	26,7	_	NUM	NUM	NumType=Card	32	nummod	_	_
+31	26,7	26,7	NUM	NUM	NumType=Card	32	nummod	_	_
 32	mil	_	NUM	NUM	NumType=Card	29	nummod	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	5	punct	_	_
 
@@ -190,7 +190,7 @@
 3	,	,	PUNCT	.	_	2	punct	_	_
 4	foram	_	AUX	AUX	_	5	aux:pass	_	_
 5	arrecadadas	arrecadar	VERB	VERB	_	0	root	_	_
-6	2	_	NUM	NUM	NumType=Card	7	nummod	_	_
+6	2	2	NUM	NUM	NumType=Card	7	nummod	_	_
 7	toneladas	tonelada	NOUN	NOUN	_	5	nsubj:pass	_	_
 8	de	de	ADP	ADP	_	9	case	_	_
 9	alimentos	alimento	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No

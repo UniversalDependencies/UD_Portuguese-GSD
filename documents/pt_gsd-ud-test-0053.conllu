@@ -40,7 +40,7 @@
 13	a	a	ADP	ADP	_	15	case	_	_
 14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	menos	menos	ADV	ADV	_	18	nmod	_	_
-16	12	_	NUM	NUM	NumType=Card	17	nummod	_	_
+16	12	12	NUM	NUM	NumType=Card	17	nummod	_	_
 17	pessoas	pessoa	NOUN	NOUN	_	18	nsubj	_	_
 18	estejam	estar	VERB	VERB	_	11	ccomp	_	_
 19	desaparecidas	desaparecido	ADJ	ADJ	_	18	xcomp	_	_
@@ -62,19 +62,19 @@
 34	-	-	PUNCT	.	_	35	punct	_	_
 35	feira	_	PROPN	PNOUN	_	25	nmod	_	_
 36	(	(	PUNCT	.	_	37	punct	_	SpaceAfter=No
-37	3	_	NUM	NUM	NumType=Card	35	nmod	_	SpaceAfter=No
+37	3	3	NUM	NUM	NumType=Card	35	nmod	_	SpaceAfter=No
 38	)	)	PUNCT	.	_	37	punct	_	SpaceAfter=No
 39	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = test-s519
 # text = Contém 225 apartamentos e mais de 23 mil metros quadrados de espaço de escritórios e lojas.
 1	Contém	conter	VERB	VERB	_	0	root	_	_
-2	225	_	NUM	NUM	NumType=Card	3	nummod	_	_
+2	225	225	NUM	NUM	NumType=Card	3	nummod	_	_
 3	apartamentos	apartamento	NOUN	NOUN	_	1	obj	_	_
 4	e	e	CCONJ	CONJ	_	9	cc	_	_
 5	mais	mais	ADV	ADV	_	8	advmod	_	_
 6	de	de	ADP	ADP	_	5	case	_	_
-7	23	_	NUM	NUM	NumType=Card	8	nummod	_	_
+7	23	23	NUM	NUM	NumType=Card	8	nummod	_	_
 8	mil	_	NUM	NUM	NumType=Card	9	nummod	_	_
 9	metros	metro	NOUN	NOUN	_	3	conj	_	_
 10	quadrados	quadrado	ADJ	ADJ	_	9	amod	_	_
@@ -239,7 +239,7 @@
 8	até	_	ADP	ADP	_	10	case	_	_
 9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	dia	dia	NOUN	NOUN	_	7	nmod	_	_
-11	23	_	NUM	NUM	NumType=Card	10	nmod	_	SpaceAfter=No
+11	23	23	NUM	NUM	NumType=Card	10	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = test-s524
@@ -292,7 +292,7 @@
 23	ensino	ensino	NOUN	NOUN	_	20	nmod	_	_
 24	superior	superior	ADJ	ADJ	_	23	amod	_	_
 25	reservem	reservar	VERB	VERB	_	17	ccomp	_	_
-26	12,5	_	NUM	NUM	NumType=Card	27	nummod	_	_
+26	12,5	12,5	NUM	NUM	NumType=Card	27	nummod	_	_
 27	%	_	SYM	SYM	_	25	obj	_	_
 28-29	das	_	_	_	_	_	_	_	_
 28	de	de	ADP	ADP	_	30	case	_	_

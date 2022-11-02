@@ -49,7 +49,7 @@
 11	(	(	PUNCT	.	_	12	punct	_	SpaceAfter=No
 12	R	r	NOUN	NOUN	_	9	appos	_	_
 13	$	_	SYM	SYM	_	12	flat	_	_
-14	31,9	_	NUM	NUM	NumType=Card	15	nummod	_	_
+14	31,9	31,9	NUM	NUM	NumType=Card	15	nummod	_	_
 15	milhões	_	NUM	NUM	NumType=Card	12	nummod	_	SpaceAfter=No
 16	)	)	PUNCT	.	_	12	punct	_	SpaceAfter=No
 17	,	,	PUNCT	.	_	19	punct	_	_
@@ -61,7 +61,7 @@
 23	(	(	PUNCT	.	_	24	punct	_	SpaceAfter=No
 24	R	r	NOUN	NOUN	_	21	appos	_	_
 25	$	_	SYM	SYM	_	24	flat	_	_
-26	66,9	_	NUM	NUM	NumType=Card	27	nummod	_	_
+26	66,9	66,9	NUM	NUM	NumType=Card	27	nummod	_	_
 27	milhões	_	NUM	NUM	NumType=Card	24	nummod	_	SpaceAfter=No
 28	)	)	PUNCT	.	_	24	punct	_	SpaceAfter=No
 29	,	,	PUNCT	.	_	31	punct	_	_
@@ -74,7 +74,7 @@
 36	(	(	PUNCT	.	_	37	punct	_	SpaceAfter=No
 37	R	r	NOUN	NOUN	_	33	appos	_	_
 38	$	_	SYM	SYM	_	37	flat	_	_
-39	179,7	_	NUM	NUM	NumType=Card	40	nummod	_	_
+39	179,7	179,7	NUM	NUM	NumType=Card	40	nummod	_	_
 40	milhões	_	NUM	NUM	NumType=Card	37	nummod	_	SpaceAfter=No
 41	)	)	PUNCT	.	_	37	punct	_	SpaceAfter=No
 42	,	,	PUNCT	.	_	44	punct	_	_
@@ -89,7 +89,7 @@
 51	(	(	PUNCT	.	_	52	punct	_	SpaceAfter=No
 52	R	r	NOUN	NOUN	_	48	appos	_	_
 53	$	_	SYM	SYM	_	52	flat	_	_
-54	81	_	NUM	NUM	NumType=Card	55	nummod	_	_
+54	81	81	NUM	NUM	NumType=Card	55	nummod	_	_
 55	milhões	_	NUM	NUM	NumType=Card	52	nummod	_	SpaceAfter=No
 56	)	)	PUNCT	.	_	52	punct	_	SpaceAfter=No
 57	,	,	PUNCT	.	_	59	punct	_	_
@@ -116,7 +116,7 @@
 13	-	-	PUNCT	.	_	14	punct	_	_
 14	feira	_	PROPN	PNOUN	_	10	nmod	_	_
 15	(	(	PUNCT	.	_	16	punct	_	SpaceAfter=No
-16	4	_	NUM	NUM	NumType=Card	14	nmod	_	SpaceAfter=No
+16	4	4	NUM	NUM	NumType=Card	14	nmod	_	SpaceAfter=No
 17	)	)	PUNCT	.	_	16	punct	_	_
 18	seguir	seguir	VERB	VERB	_	10	xcomp	_	_
 19	os	o	DET	DET	_	20	det	_	_
@@ -163,15 +163,15 @@
 # sent_id = train-s3384
 # text = Em 5 de novembro de 1997, foram vendidas 60,7 % das ações ordinárias da Companhia Paulista de Força e Luz (CPFL), controlada pela CESP desde 1975.
 1	Em	em	ADP	ADP	_	2	case	_	_
-2	5	_	NUM	NUM	NumType=Card	9	nmod	_	_
+2	5	5	NUM	NUM	NumType=Card	9	nmod	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	novembro	_	PROPN	PNOUN	_	2	nmod	_	_
 5	de	de	ADP	ADP	_	6	case	_	_
-6	1997	_	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
+6	1997	1997	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	2	punct	_	_
 8	foram	_	AUX	AUX	_	9	aux:pass	_	_
 9	vendidas	vender	VERB	VERB	_	0	root	_	_
-10	60,7	_	NUM	NUM	NumType=Card	11	nummod	_	_
+10	60,7	60,7	NUM	NUM	NumType=Card	11	nummod	_	_
 11	%	_	SYM	SYM	_	9	nsubj:pass	_	_
 12-13	das	_	_	_	_	_	_	_	_
 12	de	de	ADP	ADP	_	14	case	_	_
@@ -197,7 +197,7 @@
 30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	CESP	_	PROPN	PNOUN	_	28	nmod	_	_
 32	desde	_	ADP	ADP	_	33	case	_	_
-33	1975	_	NUM	NUM	NumType=Card	28	nmod	_	SpaceAfter=No
+33	1975	1975	NUM	NUM	NumType=Card	28	nmod	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s3385
@@ -205,7 +205,7 @@
 1	Assim	assim	ADV	ADV	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	.	_	4	punct	_	_
 3	em	em	ADP	ADP	_	4	case	_	_
-4	1996	_	NUM	NUM	NumType=Card	6	nmod	_	SpaceAfter=No
+4	1996	1996	NUM	NUM	NumType=Card	6	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	4	punct	_	_
 6	adquiriu	adquirir	VERB	VERB	_	0	root	_	_
 7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_

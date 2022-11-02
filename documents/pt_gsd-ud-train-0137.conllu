@@ -52,7 +52,7 @@
 # text = ROMA, 30 Jun (Reuters) -- Quatro mergulhadores morreram neste sábado enquanto exploravam um sistema subaquático de cavernas em Palinuro, perto de Salerno, no sul da Itália, informaram autoridades.
 1	ROMA	_	PROPN	PNOUN	_	35	parataxis	_	SpaceAfter=No
 2	,	,	PUNCT	.	_	1	punct	_	_
-3	30	_	NUM	NUM	NumType=Card	4	nmod	_	_
+3	30	30	NUM	NUM	NumType=Card	4	nmod	_	_
 4	Jun	_	PROPN	PNOUN	_	1	nmod	_	_
 5	(	(	PUNCT	.	_	6	punct	_	SpaceAfter=No
 6	Reuters	_	PROPN	PNOUN	_	1	appos	_	SpaceAfter=No
@@ -147,7 +147,7 @@
 # sent_id = train-s1363
 # text = Soyuz 20 foi uma nave espacial não - tripulada lançada pela USSR, como um teste de longa duração do veículo de transporte que acoplou na estação espacial Salyut 4.
 1	Soyuz	_	PROPN	PNOUN	_	5	nsubj	_	_
-2	20	_	NUM	NUM	NumType=Card	1	appos	_	_
+2	20	20	NUM	NUM	NumType=Card	1	appos	_	_
 3	foi	_	AUX	AUX	_	5	cop	_	_
 4	uma	um	DET	DET	_	5	det	_	_
 5	nave	nave	NOUN	NOUN	_	0	root	_	_
@@ -181,7 +181,7 @@
 30	estação	estação	NOUN	NOUN	_	27	nmod	_	_
 31	espacial	espacial	ADJ	ADJ	_	30	amod	_	_
 32	Salyut	_	PROPN	PNOUN	_	30	appos	_	_
-33	4	_	NUM	NUM	NumType=Card	32	appos	_	SpaceAfter=No
+33	4	4	NUM	NUM	NumType=Card	32	appos	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s1364
@@ -204,19 +204,19 @@
 15	-	-	PUNCT	.	_	16	punct	_	_
 16	feira	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	.	_	18	punct	_	_
-18	13	_	NUM	NUM	NumType=Card	16	nmod	_	_
+18	13	13	NUM	NUM	NumType=Card	16	nmod	_	_
 19	de	de	ADP	ADP	_	20	case	_	_
 20	setembro	_	PROPN	PNOUN	_	18	nmod	_	SpaceAfter=No
 21	,	,	PUNCT	.	_	18	punct	_	_
 22	demonstra	demonstrar	VERB	VERB	_	0	root	_	_
 23	que	que	CCONJ	CONJ	_	30	mark	_	_
-24	35	_	NUM	NUM	NumType=Card	25	nummod	_	_
+24	35	35	NUM	NUM	NumType=Card	25	nummod	_	_
 25	candidatos	candidato	NOUN	NOUN	_	30	nsubj	_	_
 26-27	nas	_	_	_	_	_	_	_	_
 26	em	em	ADP	ADP	_	28	case	_	_
 27	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
 28	eleições	eleição	NOUN	NOUN	_	30	nmod	_	_
-29	2012	_	NUM	NUM	NumType=Card	28	nmod	_	_
+29	2012	2012	NUM	NUM	NumType=Card	28	nmod	_	_
 30	tiveram	ter	VERB	VERB	_	22	ccomp	_	_
 31	suas	_	DET	DET	_	32	det:poss	_	_
 32	candidaturas	candidatura	NOUN	NOUN	_	33	nsubj	_	_
@@ -231,7 +231,7 @@
 40	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
 41	Lei	_	PROPN	PNOUN	_	38	nmod	_	_
 42	Complementar	_	PROPN	PNOUN	_	41	amod	_	_
-43	135	_	NUM	NUM	NumType=Card	41	appos	_	SpaceAfter=No
+43	135	135	NUM	NUM	NumType=Card	41	appos	_	SpaceAfter=No
 44	,	,	PUNCT	.	_	45	punct	_	_
 45	conhecida	conhecer	VERB	VERB	_	41	acl	_	_
 46	como	como	ADP	ADP	_	47	case	_	_
@@ -264,7 +264,7 @@
 6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	United	_	PROPN	PNOUN	_	4	nmod	_	_
 8	em	em	ADP	ADP	_	9	case	_	_
-9	2010	_	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
+9	2010	2010	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s1366

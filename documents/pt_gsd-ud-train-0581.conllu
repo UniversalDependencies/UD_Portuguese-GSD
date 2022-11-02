@@ -17,7 +17,7 @@
 14	ventos	vento	NOUN	NOUN	_	4	nmod	_	_
 15	de	_	ADP	ADP	_	14	nmod	_	_
 16	até	até	ADV	ADV	_	17	advmod	_	_
-17	165	_	NUM	NUM	NumType=Card	18	nummod	_	_
+17	165	165	NUM	NUM	NumType=Card	18	nummod	_	_
 18	km	km	NOUN	NOUN	_	15	flat	_	_
 19	/	/	PUNCT	.	_	18	punct	_	_
 20	he	_	CCONJ	CONJ	_	22	cc	_	_
@@ -140,11 +140,11 @@
 # text = Morreu em 22 de Fevereiro de 1589 em Breslau e foi sepultado na Igreja Luterana de Santa Elisabeth.
 1	Morreu	morrer	VERB	VERB	_	0	root	_	_
 2	em	em	ADP	ADP	_	3	case	_	_
-3	22	_	NUM	NUM	NumType=Card	1	nmod	_	_
+3	22	22	NUM	NUM	NumType=Card	1	nmod	_	_
 4	de	de	ADP	ADP	_	5	case	_	_
 5	Fevereiro	_	PROPN	PNOUN	_	3	nmod	_	_
 6	de	de	ADP	ADP	_	7	case	_	_
-7	1589	_	NUM	NUM	NumType=Card	5	nmod	_	_
+7	1589	1589	NUM	NUM	NumType=Card	5	nmod	_	_
 8	em	em	ADP	ADP	_	9	case	_	_
 9	Breslau	_	PROPN	PNOUN	_	1	nmod	_	_
 10	e	e	CCONJ	CONJ	_	12	cc	_	_
@@ -264,7 +264,7 @@
 8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	IPCA	_	PROPN	PNOUN	_	6	nmod	_	_
 10	em	em	ADP	ADP	_	11	case	_	_
-11	2012	_	NUM	NUM	NumType=Card	12	nmod	_	_
+11	2012	2012	NUM	NUM	NumType=Card	12	nmod	_	_
 12	recuou	recuar	VERB	VERB	_	0	root	_	_
 13-14	pela	_	_	_	_	_	_	_	_
 13	por	por	ADP	ADP	_	16	case	_	_
@@ -275,10 +275,10 @@
 18	e	e	CCONJ	CONJ	_	19	cc	_	_
 19	passou	passar	VERB	VERB	_	12	conj	_	_
 20	de	de	ADP	ADP	_	22	case	_	_
-21	4,95	_	NUM	NUM	NumType=Card	22	nummod	_	_
+21	4,95	4,95	NUM	NUM	NumType=Card	22	nummod	_	_
 22	%	_	SYM	SYM	_	19	nmod	_	_
 23	para	para	ADP	ADP	_	25	case	_	_
-24	4,93	_	NUM	NUM	NumType=Card	25	nummod	_	_
+24	4,93	4,93	NUM	NUM	NumType=Card	25	nummod	_	_
 25	%	_	SYM	SYM	_	19	nmod	_	SpaceAfter=No
 26	;	_	PUNCT	.	_	12	punct	_	_
 

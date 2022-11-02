@@ -7,7 +7,7 @@
 5	ideia	ideia	NOUN	NOUN	_	3	nsubj	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	3	punct	_	_
 7	em	em	ADP	ADP	_	8	case	_	_
-8	2009	_	NUM	NUM	NumType=Card	45	nmod	_	SpaceAfter=No
+8	2009	2009	NUM	NUM	NumType=Card	45	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	11	punct	_	_
 10	quando	quando	ADV	ADV	_	11	advmod	_	_
 11	conseguiu	conseguir	VERB	VERB	_	8	acl:relcl	_	_
@@ -220,9 +220,9 @@
 # sent_id = test-s186
 # text = Entre 2010 e 2011, os recursos arrecadados pela Receita Federal por meio dos parcelamentos saltaram R $ 14,3 bilhões, totalizando R $ 27 bilhões no ano passado.
 1	Entre	_	ADP	ADP	_	2	case	_	_
-2	2010	_	NUM	NUM	NumType=Card	18	nmod	_	_
+2	2010	2010	NUM	NUM	NumType=Card	18	nmod	_	_
 3	e	e	CCONJ	CONJ	_	4	cc	_	_
-4	2011	_	NUM	NUM	NumType=Card	2	conj	_	SpaceAfter=No
+4	2011	2011	NUM	NUM	NumType=Card	2	conj	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	2	punct	_	_
 6	os	o	DET	DET	_	7	det	_	_
 7	recursos	recurso	NOUN	NOUN	_	18	nsubj	_	_
@@ -241,13 +241,13 @@
 18	saltaram	saltar	VERB	VERB	_	0	root	_	_
 19	R	r	NOUN	NOUN	_	18	nmod	_	_
 20	$	_	SYM	SYM	_	19	flat	_	_
-21	14,3	_	NUM	NUM	NumType=Card	22	nummod	_	_
+21	14,3	14,3	NUM	NUM	NumType=Card	22	nummod	_	_
 22	bilhões	_	NUM	NUM	NumType=Card	19	nummod	_	SpaceAfter=No
 23	,	,	PUNCT	.	_	24	punct	_	_
 24	totalizando	totalizar	VERB	VERB	_	18	acl	_	_
 25	R	r	NOUN	NOUN	_	24	obj	_	_
 26	$	_	SYM	SYM	_	25	flat	_	_
-27	27	_	NUM	NUM	NumType=Card	28	nummod	_	_
+27	27	27	NUM	NUM	NumType=Card	28	nummod	_	_
 28	bilhões	_	NUM	NUM	NumType=Card	25	nummod	_	_
 29-30	no	_	_	_	_	_	_	_	_
 29	em	em	ADP	ADP	_	31	case	_	_
@@ -259,7 +259,7 @@
 # sent_id = test-s187
 # text = Em 2005 o grupo foi introduzido no Rock and Roll Hall of Fame.
 1	Em	em	ADP	ADP	_	2	case	_	_
-2	2005	_	NUM	NUM	NumType=Card	6	nmod	_	_
+2	2005	2005	NUM	NUM	NumType=Card	6	nmod	_	_
 3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	grupo	grupo	NOUN	NOUN	_	6	nsubj:pass	_	_
 5	foi	_	AUX	AUX	_	6	aux:pass	_	_

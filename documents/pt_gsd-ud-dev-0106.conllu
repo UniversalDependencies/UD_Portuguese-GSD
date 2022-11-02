@@ -2,7 +2,7 @@
 # text = MOSCOU, 14 Jun (Reuters) -- O embaixador da Síria em Moscou disse nesta quinta - feira que seu país não está recebendo helicópteros militares da Rússia, negando acusação feita esta semana pela secretária de Estado norte - americana, Hillary Clinton.
 1	MOSCOU	_	PROPN	PNOUN	_	16	parataxis	_	SpaceAfter=No
 2	,	,	PUNCT	.	_	1	punct	_	_
-3	14	_	NUM	NUM	NumType=Card	1	nmod	_	_
+3	14	14	NUM	NUM	NumType=Card	1	nmod	_	_
 4	Jun	_	PROPN	PNOUN	_	3	nmod	_	_
 5	(	(	PUNCT	.	_	6	punct	_	SpaceAfter=No
 6	Reuters	_	PROPN	PNOUN	_	1	appos	_	SpaceAfter=No
@@ -184,7 +184,7 @@
 23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	Graw	_	PROPN	PNOUN	_	17	nmod	_	_
 25	(	(	PUNCT	.	_	27	punct	_	SpaceAfter=No
-26	36,49	_	NUM	NUM	NumType=Card	27	nummod	_	_
+26	36,49	36,49	NUM	NUM	NumType=Card	27	nummod	_	_
 27	%	_	SYM	SYM	_	17	appos	_	SpaceAfter=No
 28	)	)	PUNCT	.	_	27	punct	_	SpaceAfter=No
 29	,	,	PUNCT	.	_	31	punct	_	_
@@ -195,7 +195,7 @@
 34	de	de	ADP	ADP	_	35	case	_	_
 35	R	r	NOUN	NOUN	_	33	nmod	_	_
 36	$	_	SYM	SYM	_	35	flat	_	_
-37	109,90	_	NUM	NUM	NumType=Card	35	nummod	_	_
+37	109,90	109,90	NUM	NUM	NumType=Card	35	nummod	_	_
 38	(	(	PUNCT	.	_	39	punct	_	SpaceAfter=No
 39	PB	_	PROPN	PNOUN	_	35	appos	_	_
 40	Toys	_	PROPN	PNOUN	_	39	flat	_	SpaceAfter=No
@@ -204,7 +204,7 @@
 43	a	_	ADP	ADP	_	44	case	_	_
 44	R	r	NOUN	NOUN	_	33	nmod	_	_
 45	$	_	SYM	SYM	_	44	flat	_	_
-46	150	_	NUM	NUM	NumType=Card	44	nummod	_	_
+46	150	150	NUM	NUM	NumType=Card	44	nummod	_	_
 47	(	(	PUNCT	.	_	48	punct	_	SpaceAfter=No
 48	Ri	_	PROPN	PNOUN	_	44	appos	_	_
 49	Happy	_	PROPN	PNOUN	_	48	amod	_	SpaceAfter=No
@@ -395,9 +395,9 @@
 15	Punk	_	PROPN	PNOUN	_	13	obj	_	_
 16	's	_	PROPN	PNOUN	_	15	det:poss	_	_
 17	por	por	ADP	ADP	_	18	case	_	_
-18	6	_	NUM	NUM	NumType=Card	13	nmod	_	_
+18	6	6	NUM	NUM	NumType=Card	13	nmod	_	_
 19	a	_	ADP	ADP	_	20	case	_	_
-20	1	_	NUM	NUM	NumType=Card	18	nmod	_	SpaceAfter=No
+20	1	1	NUM	NUM	NumType=Card	18	nmod	_	SpaceAfter=No
 21	,	,	PUNCT	.	_	23	punct	_	_
 22	com	com	ADP	ADP	_	23	case	_	_
 23	gols	gol	NOUN	NOUN	_	13	nmod	_	_
@@ -405,13 +405,13 @@
 25	Rafael	_	PROPN	PNOUN	_	23	nmod	_	_
 26	Silva	_	PROPN	PNOUN	_	25	flat	_	_
 27	(	(	PUNCT	.	_	28	punct	_	SpaceAfter=No
-28	3	_	NUM	NUM	NumType=Card	25	appos	_	SpaceAfter=No
+28	3	3	NUM	NUM	NumType=Card	25	appos	_	SpaceAfter=No
 29	)	)	PUNCT	.	_	28	punct	_	SpaceAfter=No
 30	,	,	PUNCT	.	_	31	punct	_	_
 31	Juliano	_	PROPN	PNOUN	_	25	conj	_	_
 32	Tamya	_	PROPN	PNOUN	_	31	flat	_	_
 33	(	(	PUNCT	.	_	34	punct	_	SpaceAfter=No
-34	2	_	NUM	NUM	NumType=Card	31	appos	_	SpaceAfter=No
+34	2	2	NUM	NUM	NumType=Card	31	appos	_	SpaceAfter=No
 35	)	)	PUNCT	.	_	34	punct	_	_
 36	e	e	CCONJ	CONJ	_	37	cc	_	_
 37	Serginho	_	PROPN	PNOUN	_	25	conj	_	SpaceAfter=No

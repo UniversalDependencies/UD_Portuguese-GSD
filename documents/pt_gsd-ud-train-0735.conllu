@@ -96,15 +96,15 @@
 6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	sábado	_	PROPN	PNOUN	_	4	nmod	_	_
 8	(	(	PUNCT	.	_	9	punct	_	SpaceAfter=No
-9	13	_	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
+9	13	13	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
 10	)	)	PUNCT	.	_	9	punct	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	7	punct	_	_
-12	33	_	NUM	NUM	NumType=Card	13	nummod	_	_
+12	33	33	NUM	NUM	NumType=Card	13	nummod	_	_
 13	trouxinhas	trouxa	NOUN	NOUN	_	4	obj	_	_
 14	de	de	ADP	ADP	_	15	case	_	_
 15	maconha	maconha	NOUN	NOUN	_	13	nmod	_	_
 16	e	e	CCONJ	CONJ	_	18	cc	_	_
-17	11	_	NUM	NUM	NumType=Card	18	nummod	_	_
+17	11	11	NUM	NUM	NumType=Card	18	nummod	_	_
 18	sacolés	_	NOUN	NOUN	_	13	conj	_	_
 19	de	de	ADP	ADP	_	20	case	_	_
 20	cocaína	cocaína	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
@@ -172,7 +172,7 @@
 33-34	nos	_	_	_	_	_	_	_	_
 33	em	em	ADP	ADP	_	36	case	_	_
 34	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
-35	100	_	NUM	NUM	NumType=Card	36	nummod	_	_
+35	100	100	NUM	NUM	NumType=Card	36	nummod	_	_
 36	m	m	NOUN	NOUN	_	27	nmod	_	_
 37	livre	livre	ADJ	ADJ	_	36	amod	_	SpaceAfter=No
 38	,	,	PUNCT	.	_	39	punct	_	_
@@ -239,7 +239,7 @@
 1	SÃO	_	PROPN	PNOUN	_	12	parataxis	_	_
 2	PAULO	_	PROPN	PNOUN	_	1	flat	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	4	punct	_	_
-4	5	_	NUM	NUM	NumType=Card	1	nmod	_	_
+4	5	5	NUM	NUM	NumType=Card	1	nmod	_	_
 5	Dez	_	PROPN	PNOUN	_	4	nmod	_	_
 6	(	(	PUNCT	.	_	7	punct	_	SpaceAfter=No
 7	Reuters	_	PROPN	PNOUN	_	1	appos	_	SpaceAfter=No
@@ -287,16 +287,16 @@
 47	que	_	PRON	PRON	_	48	nsubj	_	_
 48	vencem	vencer	VERB	VERB	_	46	acl:relcl	_	_
 49	entre	_	ADP	ADP	_	50	case	_	_
-50	2015	_	NUM	NUM	NumType=Card	48	nmod	_	_
+50	2015	2015	NUM	NUM	NumType=Card	48	nmod	_	_
 51	e	e	CCONJ	CONJ	_	52	cc	_	_
-52	2017	_	NUM	NUM	NumType=Card	50	conj	_	SpaceAfter=No
+52	2017	2017	NUM	NUM	NumType=Card	50	conj	_	SpaceAfter=No
 53	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = train-s7304
 # text = Foram premiadas 18 quadrilhas, que receberam uma ajuda financeira de R $ 4 mil (valor bruto).
 1	Foram	_	AUX	AUX	_	2	aux:pass	_	_
 2	premiadas	premiar	VERB	VERB	_	0	root	_	_
-3	18	_	NUM	NUM	NumType=Card	4	nummod	_	_
+3	18	18	NUM	NUM	NumType=Card	4	nummod	_	_
 4	quadrilhas	quadrilha	NOUN	NOUN	_	2	nsubj:pass	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	7	punct	_	_
 6	que	_	PRON	PRON	_	7	nsubj	_	_
@@ -307,7 +307,7 @@
 11	de	de	ADP	ADP	_	12	case	_	_
 12	R	r	NOUN	NOUN	_	9	nmod	_	_
 13	$	_	SYM	SYM	_	12	flat	_	_
-14	4	_	NUM	NUM	NumType=Card	15	nummod	_	_
+14	4	4	NUM	NUM	NumType=Card	15	nummod	_	_
 15	mil	_	NUM	NUM	NumType=Card	12	nummod	_	_
 16	(	(	PUNCT	.	_	17	punct	_	SpaceAfter=No
 17	valor	valor	NOUN	NOUN	_	12	appos	_	_

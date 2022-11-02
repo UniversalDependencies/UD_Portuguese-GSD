@@ -2,7 +2,7 @@
 # text = TÓQUIO, 11 Jul (Reuters) -- Um panda nascido no Zoológico Ueno, em Tóquio, morreu de pneumonia nesta quarta - feira, menos duma semana após seu nascimento, que foi comemorado com grande entusiasmo.
 1	TÓQUIO	_	PROPN	PNOUN	_	20	parataxis	_	SpaceAfter=No
 2	,	,	PUNCT	.	_	3	punct	_	_
-3	11	_	NUM	NUM	NumType=Card	1	nmod	_	_
+3	11	11	NUM	NUM	NumType=Card	1	nmod	_	_
 4	Jul	_	PROPN	PNOUN	_	3	nmod	_	_
 5	(	(	PUNCT	.	_	6	punct	_	SpaceAfter=No
 6	Reuters	_	PROPN	PNOUN	_	1	appos	_	SpaceAfter=No
@@ -49,7 +49,7 @@
 # text = Ainda em 2002 é lançado um single com "Somos Benfica", o hino que Paulo Gonzo compôs em parceria com António Melo e Rui Fingers.
 1	Ainda	ainda	ADV	ADV	_	3	advmod	_	_
 2	em	em	ADP	ADP	_	3	case	_	_
-3	2002	_	NUM	NUM	NumType=Card	5	nmod	_	_
+3	2002	2002	NUM	NUM	NumType=Card	5	nmod	_	_
 4	é	ser	AUX	AUX	_	5	aux:pass	_	_
 5	lançado	lançar	VERB	VERB	_	0	root	_	_
 6	um	um	DET	DET	_	7	det	_	_
@@ -217,9 +217,9 @@
 20	Projeto	_	PROPN	PNOUN	_	17	nmod	_	_
 21	de	de	ADP	ADP	_	22	case	_	_
 22	Lei	_	PROPN	PNOUN	_	20	nmod	_	_
-23	2137	_	NUM	NUM	NumType=Card	20	appos	_	_
+23	2137	2137	NUM	NUM	NumType=Card	20	appos	_	_
 24	/	/	PUNCT	.	_	23	punct	_	_
-25	12	_	NUM	NUM	NumType=Card	23	nmod	_	_
+25	12	12	NUM	NUM	NumType=Card	23	nmod	_	_
 26	de	de	ADP	ADP	_	27	case	_	_
 27	autoria	autoria	NOUN	NOUN	_	20	nmod	_	_
 28-29	do	_	_	_	_	_	_	_	_
@@ -243,11 +243,11 @@
 # sent_id = train-s7998
 # text = Entre 427 títulos -- em 40 locais de exibição --, não faltam bons filmes.
 1	Entre	_	ADP	ADP	_	3	case	_	_
-2	427	_	NUM	NUM	NumType=Card	3	nummod	_	_
+2	427	427	NUM	NUM	NumType=Card	3	nummod	_	_
 3	títulos	título	NOUN	NOUN	_	13	nmod	_	_
 4	--	_	PUNCT	.	_	7	punct	_	_
 5	em	em	ADP	ADP	_	7	case	_	_
-6	40	_	NUM	NUM	NumType=Card	7	nummod	_	_
+6	40	40	NUM	NUM	NumType=Card	7	nummod	_	_
 7	locais	local	NOUN	NOUN	_	3	nmod	_	_
 8	de	de	ADP	ADP	_	9	case	_	_
 9	exibição	exibição	NOUN	NOUN	_	7	nmod	_	_

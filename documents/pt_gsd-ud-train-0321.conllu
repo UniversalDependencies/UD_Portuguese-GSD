@@ -6,7 +6,7 @@
 4	divulgados	divulgar	VERB	VERB	_	2	acl	_	_
 5	hoje	hoje	ADV	ADV	_	4	advmod	_	_
 6	(	(	PUNCT	.	_	7	punct	_	SpaceAfter=No
-7	4	_	NUM	NUM	NumType=Card	5	nmod	_	SpaceAfter=No
+7	4	4	NUM	NUM	NumType=Card	5	nmod	_	SpaceAfter=No
 8	)	)	PUNCT	.	_	7	punct	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	4	punct	_	_
 10	são	ser	VERB	VERB	_	0	root	_	_
@@ -88,14 +88,14 @@
 18	haviam	haver	AUX	AUX	_	20	aux	_	_
 19	sido	ser	AUX	AUX	_	20	aux:pass	_	_
 20	vendidos	vender	VERB	VERB	_	11	parataxis	_	_
-21	16	_	NUM	NUM	NumType=Card	22	nummod	_	_
+21	16	16	NUM	NUM	NumType=Card	22	nummod	_	_
 22	mil	_	NOUN	NOUN	_	20	nsubj:pass	_	_
 23-24	dos	_	_	_	_	_	_	_	_
 23	de	de	ADP	ADP	_	29	case	_	_
 24	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
 25	cerca	cerca	ADV	ADV	_	28	advmod	_	_
 26	de	de	ADP	ADP	_	25	case	_	_
-27	24	_	NUM	NUM	NumType=Card	28	nummod	_	_
+27	24	24	NUM	NUM	NumType=Card	28	nummod	_	_
 28	mil	_	NUM	NUM	NumType=Card	29	nummod	_	_
 29	bilhetes	bilhete	NOUN	NOUN	_	22	nmod	_	_
 30	disponíveis	disponível	ADJ	ADJ	_	29	amod	_	SpaceAfter=No
@@ -130,7 +130,7 @@
 3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Filmagem	_	PROPN	PNOUN	_	1	nmod	_	SpaceAfter=No
 5	:	:	PUNCT	.	_	1	punct	_	_
-6	1999	_	NUM	NUM	NumType=Card	1	nmod	_	_
+6	1999	1999	NUM	NUM	NumType=Card	1	nmod	_	_
 
 # sent_id = train-s3189d
 # text = Ano da Produção: 2002
@@ -140,7 +140,7 @@
 3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Produção	_	PROPN	PNOUN	_	1	nmod	_	SpaceAfter=No
 5	:	:	PUNCT	.	_	1	punct	_	_
-6	2002	_	NUM	NUM	NumType=Card	1	nmod	_	_
+6	2002	2002	NUM	NUM	NumType=Card	1	nmod	_	_
 
 # sent_id = train-s3189e
 # text = Ano de Lançamento: 2003
@@ -148,7 +148,7 @@
 2	de	de	ADP	ADP	_	3	case	_	_
 3	Lançamento	_	PROPN	PNOUN	_	1	nmod	_	SpaceAfter=No
 4	:	:	PUNCT	.	_	1	punct	_	_
-5	2003	_	NUM	NUM	NumType=Card	1	nmod	_	_
+5	2003	2003	NUM	NUM	NumType=Card	1	nmod	_	_
 
 # sent_id = train-s3190
 # text = Espera - se que a eleição se realize ainda nesta semana.
@@ -185,8 +185,8 @@
 15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	parcial	_	NOUN	NOUN	_	14	obj	_	_
 17	em	em	ADP	ADP	_	18	case	_	_
-18	25	_	NUM	NUM	NumType=Card	14	nmod	_	_
+18	25	25	NUM	NUM	NumType=Card	14	nmod	_	_
 19	/	/	PUNCT	.	_	20	punct	_	_
-20	19	_	NUM	NUM	NumType=Card	18	conj	_	SpaceAfter=No
+20	19	19	NUM	NUM	NumType=Card	18	conj	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	4	punct	_	_
 

@@ -26,7 +26,7 @@
 
 # sent_id = dev-s251
 # text = 9 -- É comum as pessoas usarem os recursos dum editor de imagens para deixar a celebridade bem magra na foto.
-1	9	_	NUM	NUM	NumType=Card	3	parataxis	_	_
+1	9	9	NUM	NUM	NumType=Card	3	parataxis	_	_
 2	--	_	PUNCT	.	_	3	punct	_	_
 3	É	ser	VERB	VERB	_	0	root	_	_
 4	comum	comum	ADJ	ADJ	_	3	xcomp	_	_
@@ -54,38 +54,38 @@
 24	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = dev-s252
-# text = Reutilizá - los não é uma boa idéia mesmo porque os cílios sempre ficam com vestígios de colas, podendo acumular fungos e assim causar irritações nos olhos.
-1	Reutilizá	_	VERB	VERB	_	8	csubj	_	_
-2	-	-	PUNCT	.	_	1	punct	_	_
-3	los	_	PRON	PRON	_	1	obj	_	_
-4	não	não	ADV	ADV	Polarity=Neg	8	advmod	_	_
-5	é	ser	AUX	AUX	_	8	cop	_	_
-6	uma	um	DET	DET	_	8	det	_	_
-7	boa	bom	ADJ	ADJ	_	8	amod	_	_
-8	idéia	_	NOUN	NOUN	_	0	root	_	_
-9	mesmo	mesmo	ADV	ADV	_	10	advmod	_	_
-10	porque	_	CCONJ	CONJ	_	14	mark	_	_
-11	os	o	DET	DET	_	12	det	_	_
-12	cílios	cílio	NOUN	NOUN	_	14	nsubj	_	_
-13	sempre	sempre	ADV	ADV	_	14	advmod	_	_
-14	ficam	ficar	VERB	VERB	_	8	advcl	_	_
-15	com	com	ADP	ADP	_	16	case	_	_
-16	vestígios	vestígio	NOUN	NOUN	_	14	nmod	_	_
-17	de	de	ADP	ADP	_	18	case	_	_
-18	colas	cola	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	21	punct	_	_
-20	podendo	poder	AUX	AUX	_	21	aux	_	_
-21	acumular	acumular	VERB	VERB	_	14	acl	_	_
-22	fungos	fungo	NOUN	NOUN	_	21	obj	_	_
-23	e	e	CCONJ	CONJ	_	25	cc	_	_
-24	assim	assim	ADV	ADV	_	25	advmod	_	_
-25	causar	causar	VERB	VERB	_	21	conj	_	_
-26	irritações	irritação	NOUN	NOUN	_	25	obj	_	_
-27-28	nos	_	_	_	_	_	_	_	_
-27	em	em	ADP	ADP	_	29	case	_	_
-28	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
-29	olhos	olho	NOUN	NOUN	_	26	nmod	_	SpaceAfter=No
-30	.	.	PUNCT	.	_	8	punct	_	_
+# text = Reutilizá-los não é uma boa idéia mesmo porque os cílios sempre ficam com vestígios de colas, podendo acumular fungos e assim causar irritações nos olhos.
+1-2	Reutilizá-los	_	_	_	_	_	_	_	_
+1	Reutilizá	_	VERB	VERB	_	7	csubj	_	_
+2	los	_	PRON	PRON	_	1	obj	_	_
+3	não	não	ADV	ADV	Polarity=Neg	7	advmod	_	_
+4	é	ser	AUX	AUX	_	7	cop	_	_
+5	uma	um	DET	DET	_	7	det	_	_
+6	boa	bom	ADJ	ADJ	_	7	amod	_	_
+7	idéia	_	NOUN	NOUN	_	0	root	_	_
+8	mesmo	mesmo	ADV	ADV	_	9	advmod	_	_
+9	porque	_	CCONJ	CONJ	_	13	mark	_	_
+10	os	o	DET	DET	_	11	det	_	_
+11	cílios	cílio	NOUN	NOUN	_	13	nsubj	_	_
+12	sempre	sempre	ADV	ADV	_	13	advmod	_	_
+13	ficam	ficar	VERB	VERB	_	7	advcl	_	_
+14	com	com	ADP	ADP	_	15	case	_	_
+15	vestígios	vestígio	NOUN	NOUN	_	13	nmod	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
+17	colas	cola	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	.	_	20	punct	_	_
+19	podendo	poder	AUX	AUX	_	20	aux	_	_
+20	acumular	acumular	VERB	VERB	_	13	acl	_	_
+21	fungos	fungo	NOUN	NOUN	_	20	obj	_	_
+22	e	e	CCONJ	CONJ	_	24	cc	_	_
+23	assim	assim	ADV	ADV	_	24	advmod	_	_
+24	causar	causar	VERB	VERB	_	20	conj	_	_
+25	irritações	irritação	NOUN	NOUN	_	24	obj	_	_
+26-27	nos	_	_	_	_	_	_	_	_
+26	em	em	ADP	ADP	_	28	case	_	_
+27	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	olhos	olho	NOUN	NOUN	_	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = dev-s253
 # text = Hamdan virou motorista que transportava armas e outras mercadorias entre algumas bases da Al - Qaeda no Afeganistão, e mais tarde motorista pessoal e guarda - costas de Bin Laden, de acordo com documentos do tribunal americano.

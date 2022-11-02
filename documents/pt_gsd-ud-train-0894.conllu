@@ -24,23 +24,23 @@
 22	demasiado	demasiado	ADV	ADV	_	23	advmod	_	_
 23	importantes	importante	ADJ	ADJ	_	20	xcomp	_	SpaceAfter=No
 24	:	:	PUNCT	.	_	20	punct	_	_
-25	34700	_	NUM	NUM	NumType=Card	26	nummod	_	_
+25	34700	34700	NUM	NUM	NumType=Card	26	nummod	_	_
 26	perdas	perda	NOUN	NOUN	_	20	appos	_	_
 27	canado	_	ADJ	ADJ	_	29	amod	_	_
 28	-	-	PUNCT	.	_	29	punct	_	_
 29	britânicas	britânico	ADJ	ADJ	_	26	amod	_	SpaceAfter=No
 30	,	,	PUNCT	.	_	33	punct	_	_
 31	com	com	ADP	ADP	_	33	case	_	_
-32	6010	_	NUM	NUM	NumType=Card	33	nummod	_	_
+32	6010	6010	NUM	NUM	NumType=Card	33	nummod	_	_
 33	mortos	morto	NOUN	NOUN	_	26	nmod	_	SpaceAfter=No
 34	,	,	PUNCT	.	_	33	punct	_	_
 35	e	e	CCONJ	CONJ	_	37	cc	_	_
-36	62028	_	NUM	NUM	NumType=Card	37	nummod	_	_
+36	62028	62028	NUM	NUM	NumType=Card	37	nummod	_	_
 37	perdas	perda	NOUN	NOUN	_	26	conj	_	_
 38	americanas	americano	ADJ	ADJ	_	37	amod	_	SpaceAfter=No
 39	,	,	PUNCT	.	_	42	punct	_	_
 40	com	com	ADP	ADP	_	42	case	_	_
-41	10641	_	NUM	NUM	NumType=Card	42	nummod	_	_
+41	10641	10641	NUM	NUM	NumType=Card	42	nummod	_	_
 42	mortos	morto	NOUN	NOUN	_	37	nmod	_	SpaceAfter=No
 43	.	.	PUNCT	.	_	7	punct	_	_
 
@@ -112,7 +112,7 @@
 19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	PMDB	_	PROPN	PNOUN	_	17	nmod	_	_
 21	em	em	ADP	ADP	_	22	case	_	_
-22	1980	_	NUM	NUM	NumType=Card	17	nmod	_	_
+22	1980	1980	NUM	NUM	NumType=Card	17	nmod	_	_
 23	com	com	ADP	ADP	_	24	case	_	_
 24	passagens	passagem	NOUN	NOUN	_	17	nmod	_	_
 25-26	pelo	_	_	_	_	_	_	_	_
@@ -140,7 +140,7 @@
 44	deputado	deputado	NOUN	NOUN	_	42	nmod	_	_
 45	estadual	estadual	ADJ	ADJ	_	44	amod	_	_
 46	em	em	ADP	ADP	_	47	case	_	_
-47	1982	_	NUM	NUM	NumType=Card	39	nmod	_	SpaceAfter=No
+47	1982	1982	NUM	NUM	NumType=Card	39	nmod	_	SpaceAfter=No
 48	.	.	PUNCT	.	_	17	punct	_	_
 
 # sent_id = train-s8874
@@ -163,7 +163,7 @@
 14	com	com	ADP	ADP	_	19	case	_	_
 15	cerca	cerca	ADV	ADV	_	18	advmod	_	_
 16	de	de	ADP	ADP	_	15	case	_	_
-17	84	_	NUM	NUM	NumType=Card	18	nummod	_	_
+17	84	84	NUM	NUM	NumType=Card	18	nummod	_	_
 18	mil	_	NUM	NUM	NumType=Card	19	nummod	_	_
 19	votos	voto	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	3	punct	_	_
@@ -174,15 +174,15 @@
 2	-	-	PUNCT	.	_	3	punct	_	_
 3	feira	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	5	punct	_	_
-5	31	_	NUM	NUM	NumType=Card	3	nmod	_	_
+5	31	31	NUM	NUM	NumType=Card	3	nmod	_	_
 6	/	/	PUNCT	.	_	5	punct	_	_
-7	10	_	NUM	NUM	NumType=Card	5	nmod	_	_
+7	10	10	NUM	NUM	NumType=Card	5	nmod	_	_
 8	--	_	PUNCT	.	_	3	punct	_	_
 9	variação	variação	NOUN	NOUN	_	0	root	_	_
 10	entre	_	ADP	ADP	_	14	case	_	_
-11	21	_	NUM	NUM	NumType=Card	14	nummod	_	_
+11	21	21	NUM	NUM	NumType=Card	14	nummod	_	_
 12	e	e	CCONJ	CONJ	_	13	cc	_	_
-13	34	_	NUM	NUM	NumType=Card	11	conj	_	_
+13	34	34	NUM	NUM	NumType=Card	11	conj	_	_
 14	º	_	NOUN	NOUN	_	9	nmod	_	_
 15	C.	_	NOUN	NOUN	_	14	flat	_	_
 
@@ -232,7 +232,7 @@
 
 # sent_id = train-s8877
 # text = 225, CF, caput: Todos tem direito ao meio ambiente ecologicamente equilibrado, bem de uso comum do povo e essencial à sadia qualidade de vida, impondo - se ao poder público e à coletividade o dever de defendê - lo e preservá - lo para as presentes e futuras gerações."
-1	225	_	NUM	NUM	NumType=Card	8	parataxis	_	SpaceAfter=No
+1	225	225	NUM	NUM	NumType=Card	8	parataxis	_	SpaceAfter=No
 2	,	,	PUNCT	.	_	3	punct	_	_
 3	CF	_	PROPN	PNOUN	_	1	appos	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	5	punct	_	_

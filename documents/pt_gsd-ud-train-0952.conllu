@@ -1,11 +1,11 @@
 # sent_id = train-s9447
 # text = Em 22 de abril de 1995, no 30 º Congresso do ÖVP, Schüssel foi eleito líder nacional.
 1	Em	em	ADP	ADP	_	2	case	_	_
-2	22	_	NUM	NUM	NumType=Card	20	nmod	_	_
+2	22	22	NUM	NUM	NumType=Card	20	nmod	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	abril	_	PROPN	PNOUN	_	2	nmod	_	_
 5	de	de	ADP	ADP	_	6	case	_	_
-6	1995	_	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
+6	1995	1995	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	2	punct	_	_
 8-9	no	_	_	_	_	_	_	_	_
 8	em	em	ADP	ADP	_	12	case	_	_
@@ -81,7 +81,7 @@
 33	teste	teste	NOUN	NOUN	_	31	nmod	_	_
 34	mais	mais	ADV	ADV	_	36	advmod	_	_
 35	de	de	ADP	ADP	_	34	case	_	_
-36	200	_	NUM	NUM	NumType=Card	37	nummod	_	_
+36	200	200	NUM	NUM	NumType=Card	37	nummod	_	_
 37	jogos	jogo	NOUN	NOUN	_	31	obj	_	_
 38	desenvolvidos	desenvolver	VERB	VERB	_	37	acl	_	_
 39	por	por	ADP	ADP	_	40	case	_	_
@@ -281,7 +281,7 @@
 2	IPA	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	passou	passar	VERB	VERB	_	0	root	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
-5	0,01	_	NUM	NUM	NumType=Card	6	nummod	_	_
+5	0,01	0,01	NUM	NUM	NumType=Card	6	nummod	_	_
 6	%	_	SYM	SYM	_	3	nmod	_	_
 7	para	para	ADP	ADP	_	9	case	_	_
 8	-0,35	_	NUM	NUM	NumType=Card	9	nummod	_	_
@@ -297,7 +297,7 @@
 5	para	para	ADP	ADP	_	7	case	_	_
 6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	dia	dia	NOUN	NOUN	_	4	nmod	_	_
-8	3	_	NUM	NUM	NumType=Card	7	nmod	_	_
+8	3	3	NUM	NUM	NumType=Card	7	nmod	_	_
 9	de	de	ADP	ADP	_	10	case	_	_
 10	setembro	_	PROPN	PNOUN	_	8	nmod	_	_
 11	e	e	CCONJ	CONJ	_	16	cc	_	_
