@@ -5,8 +5,11 @@ Treebank v2.0 (legacy)](https://github.com/ryanmcd/uni-dep-tb).
 
 # Changelog
 
-* 2021-05-01 v2.8
+* 2022-11-01 v2.11
+ * added missing lemmas of NUM tokens
+ * start to fix the enclitics tokenization
 
+* 2021-05-01 v2.8
  * Fixed verbs that are not AUX in PT 
  * Fixed some cases of missing MWT (contractions)
  * Fixed some other erros in validation. 
@@ -104,7 +107,7 @@ UPOS: converted from manual
 XPOS: manual native
 Features: not available
 Relations: converted from manual
-Contributors: Rademaker, Alexandre; McDonald, Ryan; Nivre, Joakim; Zeman, Daniel; Chalub, Fabricio; Ramisch, Carlos
+Contributors: Rademaker, Alexandre; McDonald, Ryan; Nivre, Joakim; Zeman, Daniel; Chalub, Fabricio; Ramisch, Carlos; Belieni, Juan; Wille, Vanessa Berwanger; Pintucci, Rodrigo 
 Contributing: here
 Contact: arademaker@gmail.com
 ===============================================================================
