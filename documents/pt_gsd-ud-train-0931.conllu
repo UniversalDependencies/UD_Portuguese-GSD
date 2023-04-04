@@ -106,7 +106,7 @@
 38	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s9241
-# text = O templo mantém os traços originais, apesar do estragos que sofreu aquando do terramoto de 1 de Janeiro de 1980, já que na sua reparação se optou pelo respeito pela traça pré - existente.
+# text = O templo mantém os traços originais, apesar dos estragos que sofreu aquando do terramoto de 1 de Janeiro de 1980, já que na sua reparação se optou pelo respeito pela traça pré - existente.
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	templo	templo	NOUN	NOUN	_	3	nsubj	_	_
 3	mantém	manter	VERB	VERB	_	0	root	_	_
@@ -114,10 +114,10 @@
 5	traços	traço	NOUN	NOUN	_	3	obj	_	_
 6	originais	original	ADJ	ADJ	_	5	amod	_	SpaceAfter=No
 7	,	,	PUNCT	.	_	11	punct	_	_
-8	apesar	apesar	ADV	ADV	_	11	case	_	_
+8	apesar	apesar	ADV	_	ExtPos=ADP	11	case	_	_
 9-10	do	_	_	_	_	_	_	_	_
-9	de	de	ADP	ADP	_	8	case	_	_
-10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+9	de	de	ADP	ADP	_	8	fixed	_	_
+10	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
 11	estragos	estrago	NOUN	NOUN	_	5	nmod	_	_
 12	que	_	PRON	PRON	_	13	obj	_	_
 13	sofreu	sofrer	VERB	VERB	_	11	acl:relcl	_	_
