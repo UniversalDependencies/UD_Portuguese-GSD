@@ -85,18 +85,18 @@
 23	.	.	PUNCT	.	_	16	punct	_	_
 
 # sent_id = train-s4140
-# text = Estende - se por uma área de 52,08 km ².
+# text = Estende-se por uma área de 52,08 km ².
+1-2	Estende-se	_	_	_	_	_	_	_	_
 1	Estende	estender	VERB	VERB	_	0	root	_	_
-2	-	-	PUNCT	.	_	1	punct	_	_
-3	se	_	PART	PRT	_	1	expl:pv	_	_
-4	por	por	ADP	ADP	_	6	case	_	_
-5	uma	um	DET	DET	_	6	det	_	_
-6	área	área	NOUN	NOUN	_	1	nmod	_	_
-7	de	de	ADP	ADP	_	9	case	_	_
-8	52,08	52,08	NUM	NUM	NumType=Card	9	nummod	_	_
-9	km	km	NOUN	NOUN	_	6	nmod	_	_
-10	²	_	PUNCT	.	_	9	punct	_	SpaceAfter=No
-11	.	.	PUNCT	.	_	1	punct	_	_
+2	se	_	PART	PRT	_	1	expl:pv	_	_
+3	por	por	ADP	ADP	_	5	case	_	_
+4	uma	um	DET	DET	_	5	det	_	_
+5	área	área	NOUN	NOUN	_	1	nmod	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	52,08	52,08	NUM	NUM	NumType=Card	8	nummod	_	_
+8	km	km	NOUN	NOUN	_	5	nmod	_	_
+9	²	_	PUNCT	.	_	8	punct	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s4141
 # text = Em 1939, veio a Belo Horizonte, Frei Canísio Mulderman, Provincial dos Carmelitas atendendo ao convite do Arcebispo Dom Antônio dos Santos Cabral, para decidir sobre a fundação duma nova paróquia sob a orientação da Ordem Carmelita.
@@ -305,7 +305,7 @@
 10	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s4146
-# text = O presidente Café Filho esteve no município, desfilando pela Avenida Paraná, assim como a futura deputada federal Edna Lott, em campanha pelo pai à presidência da República, apresentando - se na Arol, a Associação Recreativa e Operária Londrinense, um clube de afrodescendentes.
+# text = O presidente Café Filho esteve no município, desfilando pela Avenida Paraná, assim como a futura deputada federal Edna Lott, em campanha pelo pai à presidência da República, apresentando-se na Arol, a Associação Recreativa e Operária Londrinense, um clube de afrodescendentes.
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	presidente	presidente	NOUN	NOUN	_	5	nsubj	_	_
 3	Café	_	PROPN	PNOUN	_	2	appos	_	_
@@ -347,24 +347,24 @@
 34	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	República	_	PROPN	PNOUN	_	32	nmod	_	SpaceAfter=No
 36	,	,	PUNCT	.	_	37	punct	_	_
+37-38	apresentando-se	_	_	_	_	_	_	_	_
 37	apresentando	apresentar	VERB	VERB	_	20	acl	_	_
-38	-	-	PUNCT	.	_	37	punct	_	_
-39	se	_	PRON	PRON	_	37	obj	_	_
-40-41	na	_	_	_	_	_	_	_	_
-40	em	em	ADP	ADP	_	42	case	_	_
-41	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
-42	Arol	_	PROPN	PNOUN	_	37	nmod	_	SpaceAfter=No
-43	,	,	PUNCT	.	_	45	punct	_	_
-44	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
-45	Associação	_	PROPN	PNOUN	_	42	appos	_	_
-46	Recreativa	_	PROPN	PNOUN	_	45	amod	_	_
-47	e	e	CCONJ	CONJ	_	48	cc	_	_
-48	Operária	_	PROPN	PNOUN	_	46	conj	_	_
-49	Londrinense	_	PROPN	PNOUN	_	45	amod	_	SpaceAfter=No
-50	,	,	PUNCT	.	_	52	punct	_	_
-51	um	um	DET	DET	_	52	det	_	_
-52	clube	clube	NOUN	NOUN	_	42	appos	_	_
-53	de	de	ADP	ADP	_	54	case	_	_
-54	afrodescendentes	_	NOUN	NOUN	_	52	nmod	_	SpaceAfter=No
-55	.	.	PUNCT	.	_	5	punct	_	_
+38	se	_	PRON	PRON	_	37	obj	_	_
+39-40	na	_	_	_	_	_	_	_	_
+39	em	em	ADP	ADP	_	41	case	_	_
+40	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	Arol	_	PROPN	PNOUN	_	37	nmod	_	SpaceAfter=No
+42	,	,	PUNCT	.	_	44	punct	_	_
+43	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	Associação	_	PROPN	PNOUN	_	41	appos	_	_
+45	Recreativa	_	PROPN	PNOUN	_	44	amod	_	_
+46	e	e	CCONJ	CONJ	_	47	cc	_	_
+47	Operária	_	PROPN	PNOUN	_	45	conj	_	_
+48	Londrinense	_	PROPN	PNOUN	_	44	amod	_	SpaceAfter=No
+49	,	,	PUNCT	.	_	51	punct	_	_
+50	um	um	DET	DET	_	51	det	_	_
+51	clube	clube	NOUN	NOUN	_	41	appos	_	_
+52	de	de	ADP	ADP	_	53	case	_	_
+53	afrodescendentes	_	NOUN	NOUN	_	51	nmod	_	SpaceAfter=No
+54	.	.	PUNCT	.	_	5	punct	_	_
 
