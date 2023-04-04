@@ -3131,7 +3131,7 @@
 19	.	.	PUNCT	.	_	18	punct	_	_
 
 # sent_id = test-s99
-# text = A grande maioria dos casos de gripe é leve e cura - se espontaneamente.
+# text = A grande maioria dos casos de gripe é leve e cura-se espontaneamente.
 1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	grande	grande	ADJ	ADJ	_	3	amod	_	_
 3	maioria	maioria	NOUN	NOUN	_	9	nsubj	_	_
@@ -3144,11 +3144,11 @@
 9	é	ser	VERB	VERB	_	0	root	_	_
 10	leve	leve	ADJ	ADJ	_	9	xcomp	_	_
 11	e	e	CCONJ	CONJ	_	12	cc	_	_
+12-13	cura-se	_	_	_	_	_	_	_	_
 12	cura	curar	VERB	VERB	_	9	conj	_	_
-13	-	-	PUNCT	.	_	12	punct	_	_
-14	se	_	PRON	PRON	_	12	expl:pv	_	_
-15	espontaneamente	espontaneamente	ADV	ADV	_	12	advmod	_	SpaceAfter=No
-16	.	.	PUNCT	.	_	9	punct	_	_
+13	se	_	PRON	PRON	_	12	expl:pv	_	_
+14	espontaneamente	espontaneamente	ADV	ADV	_	12	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = test-s100
 # text = Foi ali.
@@ -6047,7 +6047,7 @@
 25	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = test-s194
-# text = Ao descobri - los juntos, o marido vinga - se, matando - os.
+# text = Ao descobri - los juntos, o marido vinga-se, matando-os.
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	ADP	ADP	_	3	case	_	_
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -6058,14 +6058,14 @@
 7	,	,	PUNCT	.	_	3	punct	_	_
 8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	marido	marido	NOUN	NOUN	_	10	nsubj	_	_
+10-11	vinga-se	_	_	_	_	_	_	_	SpaceAfter=No
 10	vinga	vingar	VERB	VERB	_	0	root	_	_
-11	-	-	PUNCT	.	_	14	punct	_	_
-12	se	_	PRON	PRON	_	10	obj	_	SpaceAfter=No
-13	,	,	PUNCT	.	_	14	punct	_	_
-14	matando	matar	VERB	VERB	_	10	conj	_	_
-15	-	-	PUNCT	.	_	14	punct	_	_
-16	os	_	PRON	PRON	_	14	obj	_	SpaceAfter=No
-17	.	.	PUNCT	.	_	10	punct	_	_
+11	se	_	PRON	PRON	_	10	obj	_	_
+12	,	,	PUNCT	.	_	13	punct	_	_
+13-14	matando-os	_	_	_	_	_	_	_	SpaceAfter=No
+13	matando	matar	VERB	VERB	_	10	conj	_	_
+14	os	_	PRON	PRON	_	13	obj	_	_
+15	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = test-s195
 # text = Para a cobertura dos Jogos, uma novidade: a ESPN Brasil HD, canal que trará toda a programação olímpica da ESPN Brasil em alta definição.
@@ -7802,15 +7802,15 @@
 18	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = test-s250a
-# text = Atualmente, fala - se em 500 habitantes
+# text = Atualmente, fala-se em 500 habitantes
 1	Atualmente	atualmente	ADV	ADV	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	.	_	1	punct	_	_
+3-4	fala-se	_	_	_	_	_	_	_	_
 3	fala	_	VERB	VERB	_	0	root	_	_
-4	-	-	PUNCT	.	_	3	punct	_	_
-5	se	_	PART	PRT	_	3	expl:pv	_	_
-6	em	em	ADP	ADP	_	8	case	_	_
-7	500	500	NUM	NUM	NumType=Card	8	nummod	_	_
-8	habitantes	habitante	NOUN	NOUN	_	3	nmod	_	_
+4	se	_	PART	PRT	_	3	expl:pv	_	_
+5	em	em	ADP	ADP	_	7	case	_	_
+6	500	500	NUM	NUM	NumType=Card	7	nummod	_	_
+7	habitantes	habitante	NOUN	NOUN	_	3	nmod	_	_
 
 # sent_id = test-s250b
 # text = De acordo com o United States Census Bureau tem uma área de 2,7 km ², dos quais 2,7 km ² cobertos por terra e 0,0 km ² cobertos por água.
@@ -8604,43 +8604,43 @@
 21	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = test-s278
-# text = "Ainda não está confirmado, mas a inscrição calcula - se no máximo até R $ 53,00 para nível médio e R $ 75,00 para nível superior", mensurou Carlos Sérgio.
+# text = "Ainda não está confirmado, mas a inscrição calcula-se no máximo até R $ 53,00 para nível médio e R $ 75,00 para nível superior", mensurou Carlos Sérgio.
 1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
 2	Ainda	ainda	ADV	ADV	_	4	advmod	_	_
 3	não	não	ADV	ADV	Polarity=Neg	4	advmod	_	_
-4	está	estar	VERB	VERB	_	32	ccomp	_	_
+4	está	estar	VERB	VERB	_	31	ccomp	_	_
 5	confirmado	confirmado	ADJ	ADJ	_	4	xcomp	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	10	punct	_	_
 7	mas	mas	CCONJ	CONJ	_	10	cc	_	_
 8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	inscrição	inscrição	NOUN	NOUN	_	10	nsubj	_	_
+10-11	calcula-se	_	_	_	_	_	_	_	_
 10	calcula	calcular	VERB	VERB	_	4	conj	_	_
-11	-	-	PUNCT	.	_	10	punct	_	_
-12	se	_	PRON	PRON	_	10	expl:pv	_	_
-13-14	no	_	_	_	_	_	_	_	_
-13	em	em	ADP	ADP	_	15	case	_	_
-14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	máximo	máximo	NOUN	NOUN	_	19	advmod	_	_
-16	até	_	ADP	ADP	_	17	case	_	_
-17	R	r	NOUN	NOUN	_	10	nmod	_	_
-18	$	_	SYM	SYM	_	17	flat	_	_
-19	53,00	53,00	NUM	NUM	NumType=Card	17	nummod	_	_
-20	para	para	ADP	ADP	_	21	case	_	_
-21	nível	nível	NOUN	NOUN	_	17	nmod	_	_
-22	médio	médio	ADJ	ADJ	_	21	amod	_	_
-23	e	e	CCONJ	CONJ	_	24	cc	_	_
-24	R	r	NOUN	NOUN	_	17	conj	_	_
-25	$	_	SYM	SYM	_	24	flat	_	_
-26	75,00	75,00	NUM	NUM	NumType=Card	24	nummod	_	_
-27	para	para	ADP	ADP	_	28	case	_	_
-28	nível	nível	NOUN	NOUN	_	24	nmod	_	_
-29	superior	superior	ADJ	ADJ	_	28	amod	_	SpaceAfter=No
-30	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
-31	,	,	PUNCT	.	_	32	punct	_	_
-32	mensurou	mensurar	VERB	VERB	_	0	root	_	_
-33	Carlos	_	PROPN	PNOUN	_	32	nsubj	_	_
-34	Sérgio	_	PROPN	PNOUN	_	33	flat	_	SpaceAfter=No
-35	.	.	PUNCT	.	_	32	punct	_	_
+11	se	_	PRON	PRON	_	10	expl:pv	_	_
+12-13	no	_	_	_	_	_	_	_	_
+12	em	em	ADP	ADP	_	14	case	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	máximo	máximo	NOUN	NOUN	_	18	advmod	_	_
+15	até	_	ADP	ADP	_	16	case	_	_
+16	R	r	NOUN	NOUN	_	10	nmod	_	_
+17	$	_	SYM	SYM	_	16	flat	_	_
+18	53,00	53,00	NUM	NUM	NumType=Card	16	nummod	_	_
+19	para	para	ADP	ADP	_	20	case	_	_
+20	nível	nível	NOUN	NOUN	_	16	nmod	_	_
+21	médio	médio	ADJ	ADJ	_	20	amod	_	_
+22	e	e	CCONJ	CONJ	_	23	cc	_	_
+23	R	r	NOUN	NOUN	_	16	conj	_	_
+24	$	_	SYM	SYM	_	23	flat	_	_
+25	75,00	75,00	NUM	NUM	NumType=Card	23	nummod	_	_
+26	para	para	ADP	ADP	_	27	case	_	_
+27	nível	nível	NOUN	NOUN	_	23	nmod	_	_
+28	superior	superior	ADJ	ADJ	_	27	amod	_	SpaceAfter=No
+29	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
+30	,	,	PUNCT	.	_	31	punct	_	_
+31	mensurou	mensurar	VERB	VERB	_	0	root	_	_
+32	Carlos	_	PROPN	PNOUN	_	31	nsubj	_	_
+33	Sérgio	_	PROPN	PNOUN	_	32	flat	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	31	punct	_	_
 
 # sent_id = test-s279
 # text = Num estudo filhos em idade escolar de mães que sofriam com violência conjugal tinham 21 % de exercer comportamentos antissociais.
@@ -9406,27 +9406,27 @@
 33	.	.	PUNCT	.	_	28	punct	_	_
 
 # sent_id = test-s306
-# text = Inicia - se na avenida Afonso Pena e termina na avenida do Contorno.
+# text = Inicia-se na avenida Afonso Pena e termina na avenida do Contorno.
+1-2	Inicia-se	_	_	_	_	_	_	_	_
 1	Inicia	iniciar	VERB	VERB	_	0	root	_	_
-2	-	-	PUNCT	.	_	10	punct	_	_
-3	se	_	PART	PRT	_	1	expl:pv	_	_
-4-5	na	_	_	_	_	_	_	_	_
-4	em	em	ADP	ADP	_	6	case	_	_
-5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	avenida	avenida	NOUN	NOUN	_	1	nmod	_	_
-7	Afonso	_	PROPN	PNOUN	_	6	appos	_	_
-8	Pena	_	PROPN	PNOUN	_	7	flat	_	_
-9	e	e	CCONJ	CONJ	_	10	cc	_	_
-10	termina	terminar	VERB	VERB	_	1	conj	_	_
-11-12	na	_	_	_	_	_	_	_	_
-11	em	em	ADP	ADP	_	13	case	_	_
-12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	avenida	avenida	NOUN	NOUN	_	10	nmod	_	_
-14-15	do	_	_	_	_	_	_	_	_
-14	de	de	ADP	ADP	_	16	case	_	_
-15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	Contorno	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
-17	.	.	PUNCT	.	_	1	punct	_	_
+2	se	_	PART	PRT	_	1	expl:pv	_	_
+3-4	na	_	_	_	_	_	_	_	_
+3	em	em	ADP	ADP	_	5	case	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	avenida	avenida	NOUN	NOUN	_	1	nmod	_	_
+6	Afonso	_	PROPN	PNOUN	_	5	appos	_	_
+7	Pena	_	PROPN	PNOUN	_	6	flat	_	_
+8	e	e	CCONJ	CONJ	_	9	cc	_	_
+9	termina	terminar	VERB	VERB	_	1	conj	_	_
+10-11	na	_	_	_	_	_	_	_	_
+10	em	em	ADP	ADP	_	12	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	avenida	avenida	NOUN	NOUN	_	9	nmod	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Contorno	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = test-s307
 # text = Segundo o elaborador do estudo, o pesquisador Juciano Martins Rodrigues, foram analisadas informações de 253 municípios.
@@ -9813,18 +9813,18 @@
 11	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = test-s320
-# text = Estende - se por uma área de 7,45 km ².
+# text = Estende-se por uma área de 7,45 km ².
+1-2	Estende-se	_	_	_	_	_	_	_	_
 1	Estende	estender	VERB	VERB	_	0	root	_	_
-2	-	-	PUNCT	.	_	1	punct	_	_
-3	se	_	PART	PRT	_	1	expl:pv	_	_
-4	por	por	ADP	ADP	_	6	case	_	_
-5	uma	um	DET	DET	_	6	det	_	_
-6	área	área	NOUN	NOUN	_	1	nmod	_	_
-7	de	de	ADP	ADP	_	9	case	_	_
-8	7,45	7,45	NUM	NUM	NumType=Card	9	nummod	_	_
-9	km	km	NOUN	NOUN	_	6	nmod	_	_
-10	²	_	PUNCT	.	_	9	punct	_	SpaceAfter=No
-11	.	.	PUNCT	.	_	1	punct	_	_
+2	se	_	PART	PRT	_	1	expl:pv	_	_
+3	por	por	ADP	ADP	_	5	case	_	_
+4	uma	um	DET	DET	_	5	det	_	_
+5	área	área	NOUN	NOUN	_	1	nmod	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	7,45	7,45	NUM	NUM	NumType=Card	8	nummod	_	_
+8	km	km	NOUN	NOUN	_	5	nmod	_	_
+9	²	_	PUNCT	.	_	8	punct	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = test-s321
 # text = Apesar da nova lei ter entrado em vigor no dia 21 dezembro, muitos policiais militares encontram dificuldades para que infratores fossem autuados nas delegacias por causa da falta de policias civis durante o feriadão de natal.
@@ -10161,7 +10161,7 @@
 11	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = test-s330
-# text = E em 2006, após uma votação para a independência do Montenegro, consumou - se enfim a dissolução formal da federação.
+# text = E em 2006, após uma votação para a independência do Montenegro, consumou-se enfim a dissolução formal da federação.
 1	E	_	CCONJ	CONJ	_	15	cc	_	_
 2	em	em	ADP	ADP	_	3	case	_	_
 3	2006	2006	NUM	NUM	NumType=Card	15	nmod	_	SpaceAfter=No
@@ -10177,18 +10177,18 @@
 12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	Montenegro	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	7	punct	_	_
+15-16	consumou-se	_	_	_	_	_	_	_	_
 15	consumou	consumar	VERB	VERB	_	0	root	_	_
-16	-	-	PUNCT	.	_	15	punct	_	_
-17	se	_	PART	PRT	_	15	expl:pv	_	_
-18	enfim	enfim	ADV	ADV	_	15	advmod	_	_
-19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	dissolução	dissolução	NOUN	NOUN	_	15	nsubj	_	_
-21	formal	formal	ADJ	ADJ	_	20	amod	_	_
-22-23	da	_	_	_	_	_	_	_	_
-22	de	de	ADP	ADP	_	24	case	_	_
-23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-24	federação	federação	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
-25	.	.	PUNCT	.	_	15	punct	_	_
+16	se	_	PART	PRT	_	15	expl:pv	_	_
+17	enfim	enfim	ADV	ADV	_	15	advmod	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	dissolução	dissolução	NOUN	NOUN	_	15	nsubj	_	_
+20	formal	formal	ADJ	ADJ	_	19	amod	_	_
+21-22	da	_	_	_	_	_	_	_	_
+21	de	de	ADP	ADP	_	23	case	_	_
+22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	federação	federação	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = test-s331
 # text = Mas quem não têm experiência pode compensar demonstrando vontade de aprender.
@@ -11247,17 +11247,17 @@
 47	.	.	PUNCT	.	_	33	punct	_	_
 
 # sent_id = test-s366
-# text = Registre - se primeiro e depois complete sua assinatura.
+# text = Registre-se primeiro e depois complete sua assinatura.
+1-2	Registre-se	_	_	_	_	_	_	_	_
 1	Registre	registrar	VERB	VERB	_	0	root	_	_
-2	-	-	PUNCT	.	_	7	punct	_	_
-3	se	_	PRON	PRON	_	1	obj	_	_
-4	primeiro	primeiro	ADV	ADV	_	1	advmod	_	_
-5	e	e	CCONJ	CONJ	_	7	cc	_	_
-6	depois	depois	ADV	ADV	_	7	advmod	_	_
-7	complete	completar	VERB	VERB	_	1	conj	_	_
-8	sua	_	DET	DET	_	9	det:poss	_	_
-9	assinatura	assinatura	NOUN	NOUN	_	7	obj	_	SpaceAfter=No
-10	.	.	PUNCT	.	_	1	punct	_	_
+2	se	_	PRON	PRON	_	1	obj	_	_
+3	primeiro	primeiro	ADV	ADV	_	1	advmod	_	_
+4	e	e	CCONJ	CONJ	_	6	cc	_	_
+5	depois	depois	ADV	ADV	_	6	advmod	_	_
+6	complete	completar	VERB	VERB	_	1	conj	_	_
+7	sua	_	DET	DET	_	8	det:poss	_	_
+8	assinatura	assinatura	NOUN	NOUN	_	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = test-s367
 # text = O caso começou com a falência da ISL em 2000 e a descoberta pelo síndico da massa falida de pagamentos não justificados a diversos dirigentes da Fifa.
@@ -12583,40 +12583,40 @@
 9	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = test-s408
-# text = Desconhece - se onde Boécio aprendeu a língua grega com tamanha proficiência e profundidade e onde adquiriu os profundos conhecimentos sobre os autores clássicos greco - latinos que a sua obra demonstra.
+# text = Desconhece-se onde Boécio aprendeu a língua grega com tamanha proficiência e profundidade e onde adquiriu os profundos conhecimentos sobre os autores clássicos greco - latinos que a sua obra demonstra.
+1-2	Desconhece-se	_	_	_	_	_	_	_	_
 1	Desconhece	desconhecer	VERB	VERB	_	0	root	_	_
-2	-	-	PUNCT	.	_	1	punct	_	_
-3	se	_	PART	PRT	_	1	expl:pv	_	_
-4	onde	onde	ADV	ADV	_	6	advmod	_	_
-5	Boécio	_	PROPN	PNOUN	_	6	nsubj	_	_
-6	aprendeu	aprender	VERB	VERB	_	1	ccomp	_	_
-7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	língua	língua	NOUN	NOUN	_	6	obj	_	_
-9	grega	grego	ADJ	ADJ	_	8	amod	_	_
-10	com	com	ADP	ADP	_	12	case	_	_
-11	tamanha	tamanho	ADJ	ADJ	_	12	amod	_	_
-12	proficiência	proficiência	NOUN	NOUN	_	6	nmod	_	_
-13	e	e	CCONJ	CONJ	_	14	cc	_	_
-14	profundidade	profundidade	NOUN	NOUN	_	12	conj	_	_
-15	e	e	CCONJ	CONJ	_	17	cc	_	_
-16	onde	onde	ADV	ADV	_	17	advmod	_	_
-17	adquiriu	adquirir	VERB	VERB	_	6	conj	_	_
-18	os	o	DET	DET	_	20	det	_	_
-19	profundos	profundo	ADJ	ADJ	_	20	amod	_	_
-20	conhecimentos	conhecimento	NOUN	NOUN	_	17	obj	_	_
-21	sobre	_	ADP	ADP	_	23	case	_	_
-22	os	o	DET	DET	_	23	det	_	_
-23	autores	autor	NOUN	NOUN	_	20	nmod	_	_
-24	clássicos	clássico	ADJ	ADJ	_	23	amod	_	_
-25	greco	_	PART	PRT	_	27	amod	_	_
-26	-	-	PUNCT	.	_	27	punct	_	_
-27	latinos	latino	ADJ	ADJ	_	23	amod	_	_
-28	que	_	PRON	PRON	_	32	obj	_	_
-29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-30	sua	_	DET	DET	_	31	det:poss	_	_
-31	obra	obra	NOUN	NOUN	_	32	nsubj	_	_
-32	demonstra	demonstrar	VERB	VERB	_	20	acl:relcl	_	SpaceAfter=No
-33	.	.	PUNCT	.	_	1	punct	_	_
+2	se	_	PART	PRT	_	1	expl:pv	_	_
+3	onde	onde	ADV	ADV	_	5	advmod	_	_
+4	Boécio	_	PROPN	PNOUN	_	5	nsubj	_	_
+5	aprendeu	aprender	VERB	VERB	_	1	ccomp	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	língua	língua	NOUN	NOUN	_	5	obj	_	_
+8	grega	grego	ADJ	ADJ	_	7	amod	_	_
+9	com	com	ADP	ADP	_	11	case	_	_
+10	tamanha	tamanho	ADJ	ADJ	_	11	amod	_	_
+11	proficiência	proficiência	NOUN	NOUN	_	5	nmod	_	_
+12	e	e	CCONJ	CONJ	_	13	cc	_	_
+13	profundidade	profundidade	NOUN	NOUN	_	11	conj	_	_
+14	e	e	CCONJ	CONJ	_	16	cc	_	_
+15	onde	onde	ADV	ADV	_	16	advmod	_	_
+16	adquiriu	adquirir	VERB	VERB	_	5	conj	_	_
+17	os	o	DET	DET	_	19	det	_	_
+18	profundos	profundo	ADJ	ADJ	_	19	amod	_	_
+19	conhecimentos	conhecimento	NOUN	NOUN	_	16	obj	_	_
+20	sobre	_	ADP	ADP	_	22	case	_	_
+21	os	o	DET	DET	_	22	det	_	_
+22	autores	autor	NOUN	NOUN	_	19	nmod	_	_
+23	clássicos	clássico	ADJ	ADJ	_	22	amod	_	_
+24	greco	_	PART	PRT	_	26	amod	_	_
+25	-	-	PUNCT	.	_	26	punct	_	_
+26	latinos	latino	ADJ	ADJ	_	22	amod	_	_
+27	que	_	PRON	PRON	_	31	obj	_	_
+28	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+29	sua	_	DET	DET	_	30	det:poss	_	_
+30	obra	obra	NOUN	NOUN	_	31	nsubj	_	_
+31	demonstra	demonstrar	VERB	VERB	_	19	acl:relcl	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = test-s409
 # text = Os participantes do evento são convidados pela Duratex a doar 1 kg de alimento não perecível e para cada quilo arrecadado a empresa doa mais um, dobrando assim o número de mantimentos obtidos no evento, que serão doados à APAE.
@@ -16610,11 +16610,11 @@
 33	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = test-s535
-# text = Embora já fosse previsto havia alguns anos (em janeiro de 1976 divulgou - se que o terminal seria instalado já no mês seguinte), o Terminal Intermunicipal do Jabaquara foi criado por meio de decreto assinado pelo prefeito Olavo Setúbal em 21 de janeiro de 1977.
+# text = Embora já fosse previsto havia alguns anos (em janeiro de 1976 divulgou-se que o terminal seria instalado já no mês seguinte), o Terminal Intermunicipal do Jabaquara foi criado por meio de decreto assinado pelo prefeito Olavo Setúbal em 21 de janeiro de 1977.
 1	Embora	_	CCONJ	CONJ	_	4	mark	_	_
 2	já	já	ADV	ADV	_	4	advmod	_	_
 3	fosse	_	AUX	AUX	_	4	aux:pass	_	_
-4	previsto	prever	VERB	VERB	_	35	advcl	_	_
+4	previsto	prever	VERB	VERB	_	34	advcl	_	_
 5	havia	haver	VERB	VERB	_	4	advcl	_	_
 6	alguns	_	DET	DET	_	7	det	_	_
 7	anos	ano	NOUN	NOUN	_	5	nmod	_	_
@@ -16623,52 +16623,52 @@
 10	janeiro	_	PROPN	PNOUN	_	13	nmod	_	_
 11	de	de	ADP	ADP	_	12	case	_	_
 12	1976	1976	NUM	NUM	NumType=Card	10	nmod	_	_
+13-14	divulgou-se	_	_	_	_	_	_	_	_
 13	divulgou	divulgar	VERB	VERB	_	5	parataxis	_	_
-14	-	-	PUNCT	.	_	13	punct	_	_
-15	se	_	PART	PRT	_	13	expl:pv	_	_
-16	que	_	PRON	PRON	_	20	mark	_	_
-17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	terminal	terminal	NOUN	NOUN	_	20	nsubj:pass	_	_
-19	seria	_	AUX	AUX	_	20	aux:pass	_	_
-20	instalado	instalar	VERB	VERB	_	13	ccomp	_	_
-21	já	já	ADV	ADV	_	24	advmod	_	_
-22-23	no	_	_	_	_	_	_	_	_
-22	em	em	ADP	ADP	_	24	case	_	_
-23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	mês	mês	NOUN	NOUN	_	20	nmod	_	_
-25	seguinte	seguinte	ADJ	ADJ	_	24	amod	_	SpaceAfter=No
-26	)	)	PUNCT	.	_	13	punct	_	SpaceAfter=No
-27	,	,	PUNCT	.	_	4	punct	_	_
-28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-29	Terminal	_	PROPN	PNOUN	_	35	nsubj:pass	_	_
-30	Intermunicipal	_	PROPN	PNOUN	_	29	amod	_	_
-31-32	do	_	_	_	_	_	_	_	_
-31	de	de	ADP	ADP	_	33	case	_	_
-32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
-33	Jabaquara	_	PROPN	PNOUN	_	29	nmod	_	_
-34	foi	_	AUX	AUX	_	35	aux:pass	_	_
-35	criado	criar	VERB	VERB	_	0	root	_	_
-36	por	por	ADP	ADP	_	37	case	_	_
-37	meio	meio	NOUN	NOUN	_	35	nmod	_	_
-38	de	de	ADP	ADP	_	39	case	_	_
-39	decreto	decreto	NOUN	NOUN	_	37	nmod	_	_
-40	assinado	assinar	VERB	VERB	_	39	acl	_	_
-41-42	pelo	_	_	_	_	_	_	_	_
-41	por	por	ADP	ADP	_	43	case	_	_
-42	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
-43	prefeito	prefeito	NOUN	NOUN	_	40	nmod	_	_
-44	Olavo	_	PROPN	PNOUN	_	43	appos	_	_
-45	Setúbal	_	PROPN	PNOUN	_	44	flat	_	_
-46	em	em	ADP	ADP	_	47	case	_	_
-47	21	21	NUM	NUM	NumType=Card	40	nmod	_	_
-48	de	de	ADP	ADP	_	49	case	_	_
-49	janeiro	_	PROPN	PNOUN	_	47	nmod	_	_
-50	de	de	ADP	ADP	_	51	case	_	_
-51	1977	1977	NUM	NUM	NumType=Card	49	nmod	_	SpaceAfter=No
-52	.	.	PUNCT	.	_	35	punct	_	_
+14	se	_	PART	PRT	_	13	expl:pv	_	_
+15	que	_	PRON	PRON	_	19	mark	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	terminal	terminal	NOUN	NOUN	_	19	nsubj:pass	_	_
+18	seria	_	AUX	AUX	_	19	aux:pass	_	_
+19	instalado	instalar	VERB	VERB	_	13	ccomp	_	_
+20	já	já	ADV	ADV	_	23	advmod	_	_
+21-22	no	_	_	_	_	_	_	_	_
+21	em	em	ADP	ADP	_	23	case	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	mês	mês	NOUN	NOUN	_	19	nmod	_	_
+24	seguinte	seguinte	ADJ	ADJ	_	23	amod	_	SpaceAfter=No
+25	)	)	PUNCT	.	_	13	punct	_	SpaceAfter=No
+26	,	,	PUNCT	.	_	4	punct	_	_
+27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	Terminal	_	PROPN	PNOUN	_	34	nsubj:pass	_	_
+29	Intermunicipal	_	PROPN	PNOUN	_	28	amod	_	_
+30-31	do	_	_	_	_	_	_	_	_
+30	de	de	ADP	ADP	_	32	case	_	_
+31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	Jabaquara	_	PROPN	PNOUN	_	28	nmod	_	_
+33	foi	_	AUX	AUX	_	34	aux:pass	_	_
+34	criado	criar	VERB	VERB	_	0	root	_	_
+35	por	por	ADP	ADP	_	36	case	_	_
+36	meio	meio	NOUN	NOUN	_	34	nmod	_	_
+37	de	de	ADP	ADP	_	38	case	_	_
+38	decreto	decreto	NOUN	NOUN	_	36	nmod	_	_
+39	assinado	assinar	VERB	VERB	_	38	acl	_	_
+40-41	pelo	_	_	_	_	_	_	_	_
+40	por	por	ADP	ADP	_	42	case	_	_
+41	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	prefeito	prefeito	NOUN	NOUN	_	39	nmod	_	_
+43	Olavo	_	PROPN	PNOUN	_	42	appos	_	_
+44	Setúbal	_	PROPN	PNOUN	_	43	flat	_	_
+45	em	em	ADP	ADP	_	46	case	_	_
+46	21	21	NUM	NUM	NumType=Card	39	nmod	_	_
+47	de	de	ADP	ADP	_	48	case	_	_
+48	janeiro	_	PROPN	PNOUN	_	46	nmod	_	_
+49	de	de	ADP	ADP	_	50	case	_	_
+50	1977	1977	NUM	NUM	NumType=Card	48	nmod	_	SpaceAfter=No
+51	.	.	PUNCT	.	_	34	punct	_	_
 
 # sent_id = test-s536
-# text = Com o decreto do GDF, entretanto, tornou - se regular, favorecendo os interesses da quadrilha.
+# text = Com o decreto do GDF, entretanto, tornou-se regular, favorecendo os interesses da quadrilha.
 1	Com	_	ADP	ADP	_	3	case	_	_
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	decreto	decreto	NOUN	NOUN	_	10	nmod	_	_
@@ -16679,19 +16679,19 @@
 7	,	,	PUNCT	.	_	8	punct	_	_
 8	entretanto	entretanto	ADV	ADV	_	10	advmod	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	8	punct	_	_
+10-11	tornou-se	_	_	_	_	_	_	_	_
 10	tornou	tornar	VERB	VERB	_	0	root	_	_
-11	-	-	PUNCT	.	_	10	punct	_	_
-12	se	_	PRON	PRON	_	10	expl:pv	_	_
-13	regular	regular	ADJ	ADJ	_	10	xcomp	_	SpaceAfter=No
-14	,	,	PUNCT	.	_	15	punct	_	_
-15	favorecendo	favorecer	VERB	VERB	_	10	acl	_	_
-16	os	o	DET	DET	_	17	det	_	_
-17	interesses	interesse	NOUN	NOUN	_	15	obj	_	_
-18-19	da	_	_	_	_	_	_	_	_
-18	de	de	ADP	ADP	_	20	case	_	_
-19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	quadrilha	quadrilha	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
-21	.	.	PUNCT	.	_	10	punct	_	_
+11	se	_	PRON	PRON	_	10	expl:pv	_	_
+12	regular	regular	ADJ	ADJ	_	10	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	.	_	14	punct	_	_
+14	favorecendo	favorecer	VERB	VERB	_	10	acl	_	_
+15	os	o	DET	DET	_	16	det	_	_
+16	interesses	interesse	NOUN	NOUN	_	14	obj	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	ADP	_	19	case	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	quadrilha	quadrilha	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = test-s537
 # text = Com extrema habilidade na perna esquerda e uma visão de jogo fora do comum, Ganso foi se firmando aos poucos na equipe alvinegra.
@@ -22525,33 +22525,33 @@
 15	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = test-s719
-# text = Considerar - se - á somente o parâmetro [W], que indica a força ou trabalho mecânico, necessário para expandir a massa.
+# text = Considerar-se - á somente o parâmetro [W], que indica a força ou trabalho mecânico, necessário para expandir a massa.
+1-2	Considerar-se	_	_	_	_	_	_	_	_
 1	Considerar	considerar	VERB	VERB	_	0	root	_	_
-2	-	-	PUNCT	.	_	1	punct	_	_
-3	se	_	PART	PRT	_	1	expl:pv	_	_
-4	-	-	PUNCT	.	_	1	punct	_	_
-5	á	_	PART	PRT	_	1	expl:pv	_	_
-6	somente	somente	ADV	ADV	_	8	advmod	_	_
-7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	parâmetro	parâmetro	NOUN	NOUN	_	1	obj	_	_
-9	[	_	PUNCT	.	_	10	punct	_	SpaceAfter=No
-10	W	_	PROPN	PNOUN	_	8	appos	_	SpaceAfter=No
-11	]	_	PUNCT	.	_	10	punct	_	SpaceAfter=No
-12	,	,	PUNCT	.	_	14	punct	_	_
-13	que	_	PRON	PRON	_	14	nsubj	_	_
-14	indica	indicar	VERB	VERB	_	8	acl:relcl	_	_
-15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	força	força	NOUN	NOUN	_	14	obj	_	_
-17	ou	ou	CCONJ	CONJ	_	18	cc	_	_
-18	trabalho	trabalho	NOUN	NOUN	_	16	conj	_	_
-19	mecânico	mecânico	ADJ	ADJ	_	18	amod	_	SpaceAfter=No
-20	,	,	PUNCT	.	_	21	punct	_	_
-21	necessário	necessário	ADJ	ADJ	_	18	amod	_	_
-22	para	_	ADP	ADP	_	23	mark	_	_
-23	expandir	expandir	VERB	VERB	_	21	nmod	_	_
-24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-25	massa	massa	NOUN	NOUN	_	23	obj	_	SpaceAfter=No
-26	.	.	PUNCT	.	_	1	punct	_	_
+2	se	_	PART	PRT	_	1	expl:pv	_	_
+3	-	-	PUNCT	.	_	1	punct	_	_
+4	á	_	PART	PRT	_	1	expl:pv	_	_
+5	somente	somente	ADV	ADV	_	7	advmod	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	parâmetro	parâmetro	NOUN	NOUN	_	1	obj	_	_
+8	[	_	PUNCT	.	_	9	punct	_	SpaceAfter=No
+9	W	_	PROPN	PNOUN	_	7	appos	_	SpaceAfter=No
+10	]	_	PUNCT	.	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	13	punct	_	_
+12	que	_	PRON	PRON	_	13	nsubj	_	_
+13	indica	indicar	VERB	VERB	_	7	acl:relcl	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	força	força	NOUN	NOUN	_	13	obj	_	_
+16	ou	ou	CCONJ	CONJ	_	17	cc	_	_
+17	trabalho	trabalho	NOUN	NOUN	_	15	conj	_	_
+18	mecânico	mecânico	ADJ	ADJ	_	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	.	_	20	punct	_	_
+20	necessário	necessário	ADJ	ADJ	_	17	amod	_	_
+21	para	_	ADP	ADP	_	22	mark	_	_
+22	expandir	expandir	VERB	VERB	_	20	nmod	_	_
+23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	massa	massa	NOUN	NOUN	_	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = test-s720
 # text = Amanhã, completa uma semana do início da operação de desocupação.
@@ -24436,7 +24436,7 @@
 26	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = test-s776
-# text = Depois do anúncio feito pelo Governo equatoriano, o Partido Verde da Austrália indicou que considerava que a decisão de Quito de conceder asilo diplomático a Assange supunha oferecer - lhe a proteção que o Governo de seu país não lhe deu.
+# text = Depois do anúncio feito pelo Governo equatoriano, o Partido Verde da Austrália indicou que considerava que a decisão de Quito de conceder asilo diplomático a Assange supunha oferecer-lhe a proteção que o Governo de seu país não lhe deu.
 1	Depois	depois	ADV	ADV	_	4	case	_	_
 2-3	do	_	_	_	_	_	_	_	_
 2	de	de	ADP	ADP	_	1	case	_	_
@@ -24471,21 +24471,21 @@
 29	a	_	ADP	ADP	_	30	case	_	_
 30	Assange	_	PROPN	PNOUN	_	26	iobj	_	_
 31	supunha	supor	VERB	VERB	_	19	ccomp	_	_
+32-33	oferecer-lhe	_	_	_	_	_	_	_	_
 32	oferecer	oferecer	VERB	VERB	_	31	xcomp	_	_
-33	-	-	PUNCT	.	_	32	punct	_	_
-34	lhe	_	PRON	PRON	_	32	iobj	_	_
-35	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-36	proteção	proteção	NOUN	NOUN	_	32	obj	_	_
-37	que	_	PRON	PRON	_	45	obj	_	_
-38	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
-39	Governo	_	PROPN	PNOUN	_	45	nsubj	_	_
-40	de	de	ADP	ADP	_	42	case	_	_
-41	seu	_	DET	DET	_	42	det:poss	_	_
-42	país	país	NOUN	NOUN	_	39	nmod	_	_
-43	não	não	ADV	ADV	Polarity=Neg	45	advmod	_	_
-44	lhe	_	PRON	PRON	_	45	iobj	_	_
-45	deu	dar	VERB	VERB	_	36	acl:relcl	_	SpaceAfter=No
-46	.	.	PUNCT	.	_	17	punct	_	_
+33	lhe	_	PRON	PRON	_	32	iobj	_	_
+34	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	proteção	proteção	NOUN	NOUN	_	32	obj	_	_
+36	que	_	PRON	PRON	_	44	obj	_	_
+37	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	Governo	_	PROPN	PNOUN	_	44	nsubj	_	_
+39	de	de	ADP	ADP	_	41	case	_	_
+40	seu	_	DET	DET	_	41	det:poss	_	_
+41	país	país	NOUN	NOUN	_	38	nmod	_	_
+42	não	não	ADV	ADV	Polarity=Neg	44	advmod	_	_
+43	lhe	_	PRON	PRON	_	44	iobj	_	_
+44	deu	dar	VERB	VERB	_	35	acl:relcl	_	SpaceAfter=No
+45	.	.	PUNCT	.	_	17	punct	_	_
 
 # sent_id = test-s777
 # text = "Mas isso nunca me preocupou", garante.
@@ -24967,52 +24967,52 @@
 19	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = test-s796
-# text = Trata - se das termoeléctricas Pecém I, Pecém II e Itaqui, sendo a primeira compartilhada em partes iguais por EDP e MPX, e as duas últimas de propriedade integral da empresa controlada por Eike.
+# text = Trata-se das termoeléctricas Pecém I, Pecém II e Itaqui, sendo a primeira compartilhada em partes iguais por EDP e MPX, e as duas últimas de propriedade integral da empresa controlada por Eike.
+1-2	Trata-se	_	_	_	_	_	_	_	_
 1	Trata	tratar	VERB	VERB	_	0	root	_	_
-2	-	-	PUNCT	.	_	1	punct	_	_
-3	se	_	PART	PRT	_	1	expl:pv	_	_
-4-5	das	_	_	_	_	_	_	_	_
-4	de	de	ADP	ADP	_	6	case	_	_
-5	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
-6	termoeléctricas	_	NOUN	NOUN	_	1	nmod	_	_
-7	Pecém	_	PROPN	PNOUN	_	6	appos	_	_
-8	I	_	NUM	NUM	NumType=Card	7	appos	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	10	punct	_	_
-10	Pecém	_	PROPN	PNOUN	_	7	conj	_	_
-11	II	_	NUM	NUM	NumType=Card	10	appos	_	_
-12	e	e	CCONJ	CONJ	_	13	cc	_	_
-13	Itaqui	_	PROPN	PNOUN	_	7	conj	_	SpaceAfter=No
-14	,	,	PUNCT	.	_	18	punct	_	_
-15	sendo	ser	AUX	AUX	_	18	aux:pass	_	_
-16	a	o	DET	DET	_	17	det	_	_
-17	primeira	_	NUM	NUM	NumType=Card	18	nsubj:pass	_	_
-18	compartilhada	compartilhar	VERB	VERB	_	1	acl	_	_
-19	em	em	ADP	ADP	_	20	case	_	_
-20	partes	_	PROPN	PNOUN	_	18	nmod	_	_
-21	iguais	igual	ADJ	ADJ	_	20	amod	_	_
-22	por	por	ADP	ADP	_	23	case	_	_
-23	EDP	_	PROPN	PNOUN	_	18	nmod	_	_
-24	e	e	CCONJ	CONJ	_	25	cc	_	_
-25	MPX	_	PROPN	PNOUN	_	23	conj	_	SpaceAfter=No
-26	,	,	PUNCT	.	_	29	punct	_	_
-27	e	e	CCONJ	CONJ	_	29	cc	_	_
-28	as	o	DET	DET	_	29	det	_	_
-29	duas	_	NUM	NUM	NumType=Card	18	conj	_	_
-30	últimas	último	ADJ	ADJ	_	29	amod	_	_
-31	de	de	ADP	ADP	_	32	case	_	_
-32	propriedade	propriedade	NOUN	NOUN	_	29	nmod	_	_
-33	integral	integral	ADJ	ADJ	_	32	amod	_	_
-34-35	da	_	_	_	_	_	_	_	_
-34	de	de	ADP	ADP	_	36	case	_	_
-35	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-36	empresa	empresa	NOUN	NOUN	_	32	nmod	_	_
-37	controlada	controlar	VERB	VERB	_	36	acl	_	_
-38	por	por	ADP	ADP	_	39	case	_	_
-39	Eike	_	PROPN	PNOUN	_	37	nmod	_	SpaceAfter=No
-40	.	.	PUNCT	.	_	1	punct	_	_
+2	se	_	PART	PRT	_	1	expl:pv	_	_
+3-4	das	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	termoeléctricas	_	NOUN	NOUN	_	1	nmod	_	_
+6	Pecém	_	PROPN	PNOUN	_	5	appos	_	_
+7	I	_	NUM	NUM	NumType=Card	6	appos	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	9	punct	_	_
+9	Pecém	_	PROPN	PNOUN	_	6	conj	_	_
+10	II	_	NUM	NUM	NumType=Card	9	appos	_	_
+11	e	e	CCONJ	CONJ	_	12	cc	_	_
+12	Itaqui	_	PROPN	PNOUN	_	6	conj	_	SpaceAfter=No
+13	,	,	PUNCT	.	_	17	punct	_	_
+14	sendo	ser	AUX	AUX	_	17	aux:pass	_	_
+15	a	o	DET	DET	_	16	det	_	_
+16	primeira	_	NUM	NUM	NumType=Card	17	nsubj:pass	_	_
+17	compartilhada	compartilhar	VERB	VERB	_	1	acl	_	_
+18	em	em	ADP	ADP	_	19	case	_	_
+19	partes	_	PROPN	PNOUN	_	17	nmod	_	_
+20	iguais	igual	ADJ	ADJ	_	19	amod	_	_
+21	por	por	ADP	ADP	_	22	case	_	_
+22	EDP	_	PROPN	PNOUN	_	17	nmod	_	_
+23	e	e	CCONJ	CONJ	_	24	cc	_	_
+24	MPX	_	PROPN	PNOUN	_	22	conj	_	SpaceAfter=No
+25	,	,	PUNCT	.	_	28	punct	_	_
+26	e	e	CCONJ	CONJ	_	28	cc	_	_
+27	as	o	DET	DET	_	28	det	_	_
+28	duas	_	NUM	NUM	NumType=Card	17	conj	_	_
+29	últimas	último	ADJ	ADJ	_	28	amod	_	_
+30	de	de	ADP	ADP	_	31	case	_	_
+31	propriedade	propriedade	NOUN	NOUN	_	28	nmod	_	_
+32	integral	integral	ADJ	ADJ	_	31	amod	_	_
+33-34	da	_	_	_	_	_	_	_	_
+33	de	de	ADP	ADP	_	35	case	_	_
+34	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	empresa	empresa	NOUN	NOUN	_	31	nmod	_	_
+36	controlada	controlar	VERB	VERB	_	35	acl	_	_
+37	por	por	ADP	ADP	_	38	case	_	_
+38	Eike	_	PROPN	PNOUN	_	36	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = test-s797
-# text = O costume de comer a chistorra com talo em vez de pão branco começou a arreigar - se durante os últimos anos do franquismo, alegadamente por ser mais fiel à tradição.
+# text = O costume de comer a chistorra com talo em vez de pão branco começou a arreigar-se durante os últimos anos do franquismo, alegadamente por ser mais fiel à tradição.
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	costume	costume	NOUN	NOUN	_	16	nsubj	_	_
 3	de	_	ADP	ADP	_	4	mark	_	_
@@ -25028,31 +25028,31 @@
 13	branco	branco	ADJ	ADJ	_	12	amod	_	_
 14	começou	começar	AUX	AUX	_	16	aux	_	_
 15	a	_	ADP	ADP	_	16	mark	_	_
+16-17	arreigar-se	_	_	_	_	_	_	_	_
 16	arreigar	arreigar	VERB	VERB	_	0	root	_	_
-17	-	-	PUNCT	.	_	16	punct	_	_
-18	se	_	PART	PRT	_	16	expl:pv	_	_
-19	durante	_	ADP	ADP	_	22	case	_	_
-20	os	o	DET	DET	_	22	det	_	_
-21	últimos	último	ADJ	ADJ	_	22	amod	_	_
-22	anos	ano	NOUN	NOUN	_	16	nmod	_	_
-23-24	do	_	_	_	_	_	_	_	_
-23	de	de	ADP	ADP	_	25	case	_	_
-24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	franquismo	franquismo	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
-26	,	,	PUNCT	.	_	29	punct	_	_
-27	alegadamente	alegadamente	ADV	ADV	_	29	advmod	_	_
-28	por	_	ADP	ADP	_	29	mark	_	_
-29	ser	ser	VERB	VERB	_	16	advcl	_	_
-30	mais	mais	ADV	ADV	_	31	advmod	_	_
-31	fiel	fiel	ADJ	ADJ	_	29	xcomp	_	_
-32-33	à	_	_	_	_	_	_	_	_
-32	a	a	ADP	ADP	_	34	case	_	_
-33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
-34	tradição	tradição	NOUN	NOUN	_	31	nmod	_	SpaceAfter=No
-35	.	.	PUNCT	.	_	16	punct	_	_
+17	se	_	PART	PRT	_	16	expl:pv	_	_
+18	durante	_	ADP	ADP	_	21	case	_	_
+19	os	o	DET	DET	_	21	det	_	_
+20	últimos	último	ADJ	ADJ	_	21	amod	_	_
+21	anos	ano	NOUN	NOUN	_	16	nmod	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	ADP	_	24	case	_	_
+23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	franquismo	franquismo	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	.	_	28	punct	_	_
+26	alegadamente	alegadamente	ADV	ADV	_	28	advmod	_	_
+27	por	_	ADP	ADP	_	28	mark	_	_
+28	ser	ser	VERB	VERB	_	16	advcl	_	_
+29	mais	mais	ADV	ADV	_	30	advmod	_	_
+30	fiel	fiel	ADJ	ADJ	_	28	xcomp	_	_
+31-32	à	_	_	_	_	_	_	_	_
+31	a	a	ADP	ADP	_	33	case	_	_
+32	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	tradição	tradição	NOUN	NOUN	_	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	16	punct	_	_
 
 # sent_id = test-s798
-# text = Com o término das festividades, a Comissão de japoneses deveria ser dissolvida, mas revelando - se a união conseguida, resolveu criar - se uma entidade representativa, que mais tarde passou a ser denominada de Sociedade Brasileira de Cultura Japonesa.
+# text = Com o término das festividades, a Comissão de japoneses deveria ser dissolvida, mas revelando-se a união conseguida, resolveu criar-se uma entidade representativa, que mais tarde passou a ser denominada de Sociedade Brasileira de Cultura Japonesa.
 1	Com	_	ADP	ADP	_	3	case	_	_
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	término	término	NOUN	NOUN	_	14	nmod	_	_
@@ -25068,37 +25068,37 @@
 12	deveria	dever	AUX	AUX	_	14	aux	_	_
 13	ser	ser	AUX	AUX	_	14	aux:pass	_	_
 14	dissolvida	dissolver	VERB	VERB	_	0	root	_	SpaceAfter=No
-15	,	,	PUNCT	.	_	24	punct	_	_
-16	mas	mas	CCONJ	CONJ	_	24	cc	_	_
-17	revelando	revelar	VERB	VERB	_	24	acl	_	_
-18	-	-	PUNCT	.	_	17	punct	_	_
-19	se	_	PART	PRT	_	17	expl:pv	_	_
-20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-21	união	união	NOUN	NOUN	_	17	nsubj	_	_
-22	conseguida	conseguido	ADJ	ADJ	_	17	xcomp	_	SpaceAfter=No
-23	,	,	PUNCT	.	_	17	punct	_	_
-24	resolveu	resolver	VERB	VERB	_	14	conj	_	_
-25	criar	criar	VERB	VERB	_	24	xcomp	_	_
-26	-	-	PUNCT	.	_	25	punct	_	_
-27	se	_	PART	PRT	_	25	expl:pv	_	_
-28	uma	um	DET	DET	_	29	det	_	_
-29	entidade	entidade	NOUN	NOUN	_	25	obj	_	_
-30	representativa	representativo	ADJ	ADJ	_	29	amod	_	SpaceAfter=No
-31	,	,	PUNCT	.	_	38	punct	_	_
-32	que	_	PRON	PRON	_	38	nsubj:pass	_	_
-33	mais	mais	ADV	ADV	_	34	advmod	_	_
-34	tarde	tarde	ADV	ADV	_	38	advmod	_	_
-35	passou	passar	AUX	AUX	_	38	aux	_	_
-36	a	_	ADP	ADP	_	38	mark	_	_
-37	ser	ser	AUX	AUX	_	38	aux:pass	_	_
-38	denominada	denominar	VERB	VERB	_	29	acl:relcl	_	_
-39	de	de	ADP	ADP	_	40	case	_	_
-40	Sociedade	_	PROPN	PNOUN	_	38	nmod	_	_
-41	Brasileira	_	PROPN	PNOUN	_	40	amod	_	_
-42	de	de	ADP	ADP	_	43	case	_	_
-43	Cultura	_	PROPN	PNOUN	_	40	nmod	_	_
-44	Japonesa	_	PROPN	PNOUN	_	43	amod	_	SpaceAfter=No
-45	.	.	PUNCT	.	_	14	punct	_	_
+15	,	,	PUNCT	.	_	23	punct	_	_
+16	mas	mas	CCONJ	CONJ	_	23	cc	_	_
+17-18	revelando-se	_	_	_	_	_	_	_	_
+17	revelando	revelar	VERB	VERB	_	23	acl	_	_
+18	se	_	PART	PRT	_	17	expl:pv	_	_
+19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	união	união	NOUN	NOUN	_	17	nsubj	_	_
+21	conseguida	conseguido	ADJ	ADJ	_	17	xcomp	_	SpaceAfter=No
+22	,	,	PUNCT	.	_	17	punct	_	_
+23	resolveu	resolver	VERB	VERB	_	14	conj	_	_
+24-25	criar-se	_	_	_	_	_	_	_	_
+24	criar	criar	VERB	VERB	_	23	xcomp	_	_
+25	se	_	PART	PRT	_	24	expl:pv	_	_
+26	uma	um	DET	DET	_	27	det	_	_
+27	entidade	entidade	NOUN	NOUN	_	24	obj	_	_
+28	representativa	representativo	ADJ	ADJ	_	27	amod	_	SpaceAfter=No
+29	,	,	PUNCT	.	_	36	punct	_	_
+30	que	_	PRON	PRON	_	36	nsubj:pass	_	_
+31	mais	mais	ADV	ADV	_	32	advmod	_	_
+32	tarde	tarde	ADV	ADV	_	36	advmod	_	_
+33	passou	passar	AUX	AUX	_	36	aux	_	_
+34	a	_	ADP	ADP	_	36	mark	_	_
+35	ser	ser	AUX	AUX	_	36	aux:pass	_	_
+36	denominada	denominar	VERB	VERB	_	27	acl:relcl	_	_
+37	de	de	ADP	ADP	_	38	case	_	_
+38	Sociedade	_	PROPN	PNOUN	_	36	nmod	_	_
+39	Brasileira	_	PROPN	PNOUN	_	38	amod	_	_
+40	de	de	ADP	ADP	_	41	case	_	_
+41	Cultura	_	PROPN	PNOUN	_	38	nmod	_	_
+42	Japonesa	_	PROPN	PNOUN	_	41	amod	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = test-s799
 # text = Todas as atenções da liderança política europeia e dos mercados financeiros estarão voltadas para o resultado das eleições gregas.
@@ -25130,7 +25130,7 @@
 23	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = test-s800
-# text = Durante a competição, é muito importante que os atletas mantenham - se hidratados, pois o esforço físico é grande e há muito perda de líquido.
+# text = Durante a competição, é muito importante que os atletas mantenham-se hidratados, pois o esforço físico é grande e há muito perda de líquido.
 1	Durante	_	ADP	ADP	_	3	case	_	_
 2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	competição	competição	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
@@ -25141,24 +25141,24 @@
 8	que	que	CCONJ	CONJ	_	11	mark	_	_
 9	os	o	DET	DET	_	10	det	_	_
 10	atletas	atleta	NOUN	NOUN	_	11	nsubj	_	_
+11-12	mantenham-se	_	_	_	_	_	_	_	_
 11	mantenham	manter	VERB	VERB	_	5	csubj	_	_
-12	-	-	PUNCT	.	_	11	punct	_	_
-13	se	_	PRON	PRON	_	14	nsubj	_	_
-14	hidratados	hidratado	ADJ	ADJ	_	11	xcomp	_	SpaceAfter=No
-15	,	,	PUNCT	.	_	20	punct	_	_
-16	pois	_	CCONJ	CONJ	_	20	mark	_	_
-17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	esforço	esforço	NOUN	NOUN	_	20	nsubj	_	_
-19	físico	físico	ADJ	ADJ	_	18	amod	_	_
-20	é	ser	VERB	VERB	_	11	advcl	_	_
-21	grande	grande	ADJ	ADJ	_	20	xcomp	_	_
-22	e	e	CCONJ	CONJ	_	23	cc	_	_
-23	há	haver	VERB	VERB	_	20	conj	_	_
-24	muito	muito	ADV	ADV	_	23	advmod	_	_
-25	perda	perda	NOUN	NOUN	_	23	obj	_	_
-26	de	de	ADP	ADP	_	27	case	_	_
-27	líquido	líquido	NOUN	NOUN	_	25	nmod	_	SpaceAfter=No
-28	.	.	PUNCT	.	_	5	punct	_	_
+12	se	_	PRON	PRON	_	13	nsubj	_	_
+13	hidratados	hidratado	ADJ	ADJ	_	11	xcomp	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	19	punct	_	_
+15	pois	_	CCONJ	CONJ	_	19	mark	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	esforço	esforço	NOUN	NOUN	_	19	nsubj	_	_
+18	físico	físico	ADJ	ADJ	_	17	amod	_	_
+19	é	ser	VERB	VERB	_	11	advcl	_	_
+20	grande	grande	ADJ	ADJ	_	19	xcomp	_	_
+21	e	e	CCONJ	CONJ	_	22	cc	_	_
+22	há	haver	VERB	VERB	_	19	conj	_	_
+23	muito	muito	ADV	ADV	_	22	advmod	_	_
+24	perda	perda	NOUN	NOUN	_	22	obj	_	_
+25	de	de	ADP	ADP	_	26	case	_	_
+26	líquido	líquido	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = test-s801
 # text = A espécie foi nomeada em homenagem ao naturalista e explorador francês Pierre - Médard Diard, no século XIX, as duas espécies de panteras - nebulosas eram designadas como Felis diardii e, coloquialmente, como Gato de Diardi.
@@ -27872,7 +27872,7 @@
 26	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = test-s890
-# text = Segundo o senador com a complementação da BR - 235, na região Nordeste, passando pelo município de Jeremoabo na Bahia, torna - se necessário a remoção da Unidade.
+# text = Segundo o senador com a complementação da BR - 235, na região Nordeste, passando pelo município de Jeremoabo na Bahia, torna-se necessário a remoção da Unidade.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	senador	senador	NOUN	NOUN	_	28	nmod	_	_
@@ -27904,17 +27904,17 @@
 25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	Bahia	_	PROPN	PNOUN	_	21	nmod	_	SpaceAfter=No
 27	,	,	PUNCT	.	_	18	punct	_	_
+28-29	torna-se	_	_	_	_	_	_	_	_
 28	torna	tornar	VERB	VERB	_	0	root	_	_
-29	-	-	PUNCT	.	_	28	punct	_	_
-30	se	_	PRON	PRON	_	28	expl:pv	_	_
-31	necessário	necessário	ADJ	ADJ	_	28	xcomp	_	_
-32	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
-33	remoção	remoção	NOUN	NOUN	_	28	nsubj	_	_
-34-35	da	_	_	_	_	_	_	_	_
-34	de	de	ADP	ADP	_	36	case	_	_
-35	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-36	Unidade	_	PROPN	PNOUN	_	33	nmod	_	SpaceAfter=No
-37	.	.	PUNCT	.	_	28	punct	_	_
+29	se	_	PRON	PRON	_	28	expl:pv	_	_
+30	necessário	necessário	ADJ	ADJ	_	28	xcomp	_	_
+31	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	remoção	remoção	NOUN	NOUN	_	28	nsubj	_	_
+33-34	da	_	_	_	_	_	_	_	_
+33	de	de	ADP	ADP	_	35	case	_	_
+34	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	Unidade	_	PROPN	PNOUN	_	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	28	punct	_	_
 
 # sent_id = test-s891
 # text = A empresa também possui o selo verde Ecolabelling, conferido pelo programa de Rotulagem Ambiental da ABNT, que atesta a excelência ambiental para a promoção e melhoria dos produtos e processos de forma a atender às preferências dos consumidores.
@@ -30161,7 +30161,7 @@
 31	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = test-s967
-# text = Os policiais encontraram o homem próximo ao motel Dolce Cabana, onde foi perguntado ao mesmo o que teria acontecido em sua casa, ele disse que sua mulher o teria agredido com tapas e unhadas sem motivo e o mesmo para não revidar as agressões, segurou - a pelos braços e saiu de casa.
+# text = Os policiais encontraram o homem próximo ao motel Dolce Cabana, onde foi perguntado ao mesmo o que teria acontecido em sua casa, ele disse que sua mulher o teria agredido com tapas e unhadas sem motivo e o mesmo para não revidar as agressões, segurou-a pelos braços e saiu de casa.
 1	Os	o	DET	DET	_	2	det	_	_
 2	policiais	policial	NOUN	NOUN	_	3	nsubj	_	_
 3	encontraram	encontrar	VERB	VERB	_	0	root	_	_
@@ -30213,18 +30213,18 @@
 47	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	48	det	_	_
 48	agressões	agressão	NOUN	NOUN	_	46	obj	_	SpaceAfter=No
 49	,	,	PUNCT	.	_	46	punct	_	_
+50-51	segurou-a	_	_	_	_	_	_	_	_
 50	segurou	segurar	VERB	VERB	_	28	conj	_	_
-51	-	-	PUNCT	.	_	57	punct	_	_
-52	a	_	PRON	PRON	_	50	obj	_	_
-53-54	pelos	_	_	_	_	_	_	_	_
-53	por	por	ADP	ADP	_	55	case	_	_
-54	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	55	det	_	_
-55	braços	braço	NOUN	NOUN	_	50	nmod	_	_
-56	e	e	CCONJ	CONJ	_	57	cc	_	_
-57	saiu	sair	VERB	VERB	_	50	conj	_	_
-58	de	de	ADP	ADP	_	59	case	_	_
-59	casa	casa	NOUN	NOUN	_	57	nmod	_	SpaceAfter=No
-60	.	.	PUNCT	.	_	3	punct	_	_
+51	a	_	PRON	PRON	_	50	obj	_	_
+52-53	pelos	_	_	_	_	_	_	_	_
+52	por	por	ADP	ADP	_	54	case	_	_
+53	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	54	det	_	_
+54	braços	braço	NOUN	NOUN	_	50	nmod	_	_
+55	e	e	CCONJ	CONJ	_	56	cc	_	_
+56	saiu	sair	VERB	VERB	_	50	conj	_	_
+57	de	de	ADP	ADP	_	58	case	_	_
+58	casa	casa	NOUN	NOUN	_	56	nmod	_	SpaceAfter=No
+59	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = test-s968
 # text = Desde que foi lançado o pacto nacional, a meta do governo é promover campanhas e ações continuadas, não só nos períodos mais críticos, mas durante todo o ano, para diminuir o número de mortes no trânsito.
@@ -31328,7 +31328,7 @@
 26	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = test-s1004
-# text = Bloomberg enumera o que pode ser feito: Obama deve garantir que leis existentes sejam aplicadas com maior rigor por exemplo, processando - se aqueles que faltem com a verdade ao requerer uma licença para uso e porte de armas.
+# text = Bloomberg enumera o que pode ser feito: Obama deve garantir que leis existentes sejam aplicadas com maior rigor por exemplo, processando-se aqueles que faltem com a verdade ao requerer uma licença para uso e porte de armas.
 1	Bloomberg	_	PROPN	PNOUN	_	2	nsubj	_	_
 2	enumera	enumerar	VERB	VERB	_	0	root	_	_
 3	o	_	PRON	PRON	_	2	obj	_	_
@@ -31351,28 +31351,28 @@
 20	por	por	ADP	ADP	_	21	case	_	_
 21	exemplo	exemplo	NOUN	NOUN	_	23	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	.	_	23	punct	_	_
+23-24	processando-se	_	_	_	_	_	_	_	_
 23	processando	processar	VERB	VERB	_	16	acl	_	_
-24	-	-	PUNCT	.	_	23	punct	_	_
-25	se	_	PRON	PRON	_	23	expl:pv	_	_
-26	aqueles	_	PRON	PRON	_	23	obj	_	_
-27	que	_	PRON	PRON	_	28	nsubj	_	_
-28	faltem	faltar	VERB	VERB	_	26	acl:relcl	_	_
-29	com	com	ADP	ADP	_	31	case	_	_
-30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-31	verdade	verdade	NOUN	NOUN	_	28	nmod	_	_
-32-33	ao	_	_	_	_	_	_	_	_
-32	a	a	ADP	ADP	_	34	case	_	_
-33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
-34	requerer	requerer	VERB	VERB	_	28	advcl	_	_
-35	uma	um	DET	DET	_	36	det	_	_
-36	licença	licença	NOUN	NOUN	_	34	obj	_	_
-37	para	para	ADP	ADP	_	38	case	_	_
-38	uso	uso	NOUN	NOUN	_	36	nmod	_	_
-39	e	e	CCONJ	CONJ	_	40	cc	_	_
-40	porte	porte	NOUN	NOUN	_	38	conj	_	_
-41	de	de	ADP	ADP	_	42	case	_	_
-42	armas	arma	NOUN	NOUN	_	38	nmod	_	SpaceAfter=No
-43	.	.	PUNCT	.	_	2	punct	_	_
+24	se	_	PRON	PRON	_	23	expl:pv	_	_
+25	aqueles	_	PRON	PRON	_	23	obj	_	_
+26	que	_	PRON	PRON	_	27	nsubj	_	_
+27	faltem	faltar	VERB	VERB	_	25	acl:relcl	_	_
+28	com	com	ADP	ADP	_	30	case	_	_
+29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	verdade	verdade	NOUN	NOUN	_	27	nmod	_	_
+31-32	ao	_	_	_	_	_	_	_	_
+31	a	a	ADP	ADP	_	33	case	_	_
+32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	requerer	requerer	VERB	VERB	_	27	advcl	_	_
+34	uma	um	DET	DET	_	35	det	_	_
+35	licença	licença	NOUN	NOUN	_	33	obj	_	_
+36	para	para	ADP	ADP	_	37	case	_	_
+37	uso	uso	NOUN	NOUN	_	35	nmod	_	_
+38	e	e	CCONJ	CONJ	_	39	cc	_	_
+39	porte	porte	NOUN	NOUN	_	37	conj	_	_
+40	de	de	ADP	ADP	_	41	case	_	_
+41	armas	arma	NOUN	NOUN	_	37	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = test-s1005
 # text = Cortina de fumaça encobriu aas imediações
@@ -32958,7 +32958,7 @@
 19	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = test-s1053
-# text = A TIM em 2012 também é a operadora menos demandada nos Procons integrados ao SINDEC, posição assumida desde julho de 2011 ", relata a TIM, referindo - se ao Sistema Nacional de Informações de Defesa do Consumidor, do Ministério da Justiça.
+# text = A TIM em 2012 também é a operadora menos demandada nos Procons integrados ao SINDEC, posição assumida desde julho de 2011 ", relata a TIM, referindo-se ao Sistema Nacional de Informações de Defesa do Consumidor, do Ministério da Justiça.
 1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	TIM	_	NOUN	NOUN	_	8	nsubj	_	_
 3	em	em	ADP	ADP	_	4	case	_	_
@@ -32991,32 +32991,32 @@
 28	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	TIM	_	NOUN	NOUN	_	27	nsubj	_	SpaceAfter=No
 30	,	,	PUNCT	.	_	31	punct	_	_
+31-32	referindo-se	_	_	_	_	_	_	_	_
 31	referindo	referir	VERB	VERB	_	27	acl	_	_
-32	-	-	PUNCT	.	_	31	punct	_	_
-33	se	_	PRON	PRON	_	31	expl:pv	_	_
-34-35	ao	_	_	_	_	_	_	_	_
-34	a	a	ADP	ADP	_	36	case	_	_
-35	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
-36	Sistema	_	PROPN	PNOUN	_	31	nmod	_	_
-37	Nacional	_	PROPN	PNOUN	_	36	amod	_	_
-38	de	de	ADP	ADP	_	39	case	_	_
-39	Informações	_	PROPN	PNOUN	_	36	nmod	_	_
-40	de	de	ADP	ADP	_	41	case	_	_
-41	Defesa	_	PROPN	PNOUN	_	39	nmod	_	_
-42-43	do	_	_	_	_	_	_	_	_
-42	de	de	ADP	ADP	_	44	case	_	_
-43	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
-44	Consumidor	_	PROPN	PNOUN	_	41	nmod	_	SpaceAfter=No
-45	,	,	PUNCT	.	_	48	punct	_	_
-46-47	do	_	_	_	_	_	_	_	_
-46	de	de	ADP	ADP	_	48	case	_	_
-47	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
-48	Ministério	_	PROPN	PNOUN	_	36	nmod	_	_
-49-50	da	_	_	_	_	_	_	_	_
-49	de	de	ADP	ADP	_	51	case	_	_
-50	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
-51	Justiça	_	PROPN	PNOUN	_	48	nmod	_	SpaceAfter=No
-52	.	.	PUNCT	.	_	27	punct	_	_
+32	se	_	PRON	PRON	_	31	expl:pv	_	_
+33-34	ao	_	_	_	_	_	_	_	_
+33	a	a	ADP	ADP	_	35	case	_	_
+34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	Sistema	_	PROPN	PNOUN	_	31	nmod	_	_
+36	Nacional	_	PROPN	PNOUN	_	35	amod	_	_
+37	de	de	ADP	ADP	_	38	case	_	_
+38	Informações	_	PROPN	PNOUN	_	35	nmod	_	_
+39	de	de	ADP	ADP	_	40	case	_	_
+40	Defesa	_	PROPN	PNOUN	_	38	nmod	_	_
+41-42	do	_	_	_	_	_	_	_	_
+41	de	de	ADP	ADP	_	43	case	_	_
+42	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	Consumidor	_	PROPN	PNOUN	_	40	nmod	_	SpaceAfter=No
+44	,	,	PUNCT	.	_	47	punct	_	_
+45-46	do	_	_	_	_	_	_	_	_
+45	de	de	ADP	ADP	_	47	case	_	_
+46	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+47	Ministério	_	PROPN	PNOUN	_	35	nmod	_	_
+48-49	da	_	_	_	_	_	_	_	_
+48	de	de	ADP	ADP	_	50	case	_	_
+49	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+50	Justiça	_	PROPN	PNOUN	_	47	nmod	_	SpaceAfter=No
+51	.	.	PUNCT	.	_	27	punct	_	_
 
 # sent_id = test-s1054
 # text = Após troca de passes pelo meio, Angellott encheu o pé e Tiago espalmou para a linha de fundo.
@@ -34693,7 +34693,7 @@
 22	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = test-s1111
-# text = O ex - presidente Luiz Inácio Lula da Silva disse nesta quinta - feira que o programa brasileiro de biodiesel não tem retorno e que a grande aposta de matéria - prima é o dendê, referindo - se à palma, hoje plantada em regiões do Pará pela Petrobras Biocombustível.
+# text = O ex - presidente Luiz Inácio Lula da Silva disse nesta quinta - feira que o programa brasileiro de biodiesel não tem retorno e que a grande aposta de matéria - prima é o dendê, referindo-se à palma, hoje plantada em regiões do Pará pela Petrobras Biocombustível.
 1	O	o	DET	DET	_	2	det	_	_
 2	ex	_	PART	PRT	_	11	nsubj	_	_
 3	-	-	PUNCT	.	_	2	punct	_	_
@@ -34732,28 +34732,28 @@
 35	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 36	dendê	dendê	NOUN	NOUN	_	23	conj	_	SpaceAfter=No
 37	,	,	PUNCT	.	_	38	punct	_	_
+38-39	referindo-se	_	_	_	_	_	_	_	_
 38	referindo	referir	VERB	VERB	_	36	acl	_	_
-39	-	-	PUNCT	.	_	38	punct	_	_
-40	se	_	PART	PRT	_	38	expl:pv	_	_
-41-42	à	_	_	_	_	_	_	_	_
-41	a	a	ADP	ADP	_	43	case	_	_
-42	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
-43	palma	palma	NOUN	NOUN	_	38	nmod	_	SpaceAfter=No
-44	,	,	PUNCT	.	_	46	punct	_	_
-45	hoje	hoje	ADV	ADV	_	46	advmod	_	_
-46	plantada	plantar	VERB	VERB	_	43	acl	_	_
-47	em	em	ADP	ADP	_	48	case	_	_
-48	regiões	região	NOUN	NOUN	_	46	nmod	_	_
-49-50	do	_	_	_	_	_	_	_	_
-49	de	de	ADP	ADP	_	51	case	_	_
-50	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
-51	Pará	_	PROPN	PNOUN	_	48	nmod	_	_
-52-53	pela	_	_	_	_	_	_	_	_
-52	por	por	ADP	ADP	_	54	case	_	_
-53	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
-54	Petrobras	_	PROPN	PNOUN	_	46	nmod	_	_
-55	Biocombustível	_	PROPN	PNOUN	_	54	flat	_	SpaceAfter=No
-56	.	.	PUNCT	.	_	11	punct	_	_
+39	se	_	PART	PRT	_	38	expl:pv	_	_
+40-41	à	_	_	_	_	_	_	_	_
+40	a	a	ADP	ADP	_	42	case	_	_
+41	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	palma	palma	NOUN	NOUN	_	38	nmod	_	SpaceAfter=No
+43	,	,	PUNCT	.	_	45	punct	_	_
+44	hoje	hoje	ADV	ADV	_	45	advmod	_	_
+45	plantada	plantar	VERB	VERB	_	42	acl	_	_
+46	em	em	ADP	ADP	_	47	case	_	_
+47	regiões	região	NOUN	NOUN	_	45	nmod	_	_
+48-49	do	_	_	_	_	_	_	_	_
+48	de	de	ADP	ADP	_	50	case	_	_
+49	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	Pará	_	PROPN	PNOUN	_	47	nmod	_	_
+51-52	pela	_	_	_	_	_	_	_	_
+51	por	por	ADP	ADP	_	53	case	_	_
+52	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
+53	Petrobras	_	PROPN	PNOUN	_	45	nmod	_	_
+54	Biocombustível	_	PROPN	PNOUN	_	53	flat	_	SpaceAfter=No
+55	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = test-s1112
 # text = O petista disse que a busca duma aliança com o PDT está nos seus planos desde que começou a trabalhar a pré - candidatura.
@@ -36118,7 +36118,7 @@
 25	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = test-s1160
-# text = A ideia é fornecer um meio de comunicação direto para que as pequenas empresas comuniquem - se com potenciais parceiros, fornecedores e clientes.
+# text = A ideia é fornecer um meio de comunicação direto para que as pequenas empresas comuniquem-se com potenciais parceiros, fornecedores e clientes.
 1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	ideia	ideia	NOUN	NOUN	_	0	root	_	_
 3	é	ser	AUX	AUX	_	2	cop	_	_
@@ -36133,17 +36133,17 @@
 12	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
 13	pequenas	pequeno	ADJ	ADJ	_	14	amod	_	_
 14	empresas	empresa	NOUN	NOUN	_	15	nsubj	_	_
+15-16	comuniquem-se	_	_	_	_	_	_	_	_
 15	comuniquem	comunicar	VERB	VERB	_	2	advcl	_	_
-16	-	-	PUNCT	.	_	15	punct	_	_
-17	se	_	PRON	PRON	_	15	expl:pv	_	_
-18	com	com	ADP	ADP	_	20	case	_	_
-19	potenciais	potencial	ADJ	ADJ	_	20	amod	_	_
-20	parceiros	parceiro	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
-21	,	,	PUNCT	.	_	22	punct	_	_
-22	fornecedores	fornecedor	NOUN	NOUN	_	20	conj	_	_
-23	e	e	CCONJ	CONJ	_	24	cc	_	_
-24	clientes	cliente	NOUN	NOUN	_	20	conj	_	SpaceAfter=No
-25	.	.	PUNCT	.	_	2	punct	_	_
+16	se	_	PRON	PRON	_	15	expl:pv	_	_
+17	com	com	ADP	ADP	_	19	case	_	_
+18	potenciais	potencial	ADJ	ADJ	_	19	amod	_	_
+19	parceiros	parceiro	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	.	_	21	punct	_	_
+21	fornecedores	fornecedor	NOUN	NOUN	_	19	conj	_	_
+22	e	e	CCONJ	CONJ	_	23	cc	_	_
+23	clientes	cliente	NOUN	NOUN	_	19	conj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = test-s1161
 # text = Tudo é poder.
@@ -36277,24 +36277,24 @@
 10	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = test-s1168
-# text = Quando procura - se conhecer a organização política duma comunidade, analisa - se:
+# text = Quando procura-se conhecer a organização política duma comunidade, analisa-se:
 1	Quando	_	CCONJ	CONJ	_	2	mark	_	_
-2	procura	procurar	VERB	VERB	_	13	advcl	_	_
-3	-	-	PUNCT	.	_	2	punct	_	_
-4	se	_	PART	PRT	_	2	expl:pv	_	_
-5	conhecer	conhecer	VERB	VERB	_	2	ccomp	_	_
-6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	organização	organização	NOUN	NOUN	_	5	obj	_	_
-8	política	político	ADJ	ADJ	_	7	amod	_	_
-9-10	duma	_	_	_	_	_	_	_	_
-9	de	de	ADP	ADP	_	11	case	_	_
-10	uma	um	DET	DET	_	11	det	_	_
-11	comunidade	comunidade	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-12	,	,	PUNCT	.	_	13	punct	_	_
-13	analisa	analisar	VERB	VERB	_	0	root	_	_
-14	-	-	PUNCT	.	_	13	punct	_	_
-15	se	_	PART	PRT	_	13	expl:pv	_	SpaceAfter=No
-16	:	:	PUNCT	.	_	13	punct	_	_
+2-3	procura-se	_	_	_	_	_	_	_	_
+2	procura	procurar	VERB	VERB	_	12	advcl	_	_
+3	se	_	PART	PRT	_	2	expl:pv	_	_
+4	conhecer	conhecer	VERB	VERB	_	2	ccomp	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	organização	organização	NOUN	NOUN	_	4	obj	_	_
+7	política	político	ADJ	ADJ	_	6	amod	_	_
+8-9	duma	_	_	_	_	_	_	_	_
+8	de	de	ADP	ADP	_	10	case	_	_
+9	uma	um	DET	DET	_	10	det	_	_
+10	comunidade	comunidade	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	12	punct	_	_
+12-13	analisa-se	_	_	_	_	_	_	_	SpaceAfter=No
+12	analisa	analisar	VERB	VERB	_	0	root	_	_
+13	se	_	PART	PRT	_	12	expl:pv	_	_
+14	:	:	PUNCT	.	_	12	punct	_	_
 
 # sent_id = test-s1169
 # text = Ela foi gravada no Electric Lady Studios no dia 22 de agosto de 1970.
@@ -37035,7 +37035,7 @@
 34	.	.	PUNCT	.	_	16	punct	_	_
 
 # sent_id = test-s1194
-# text = Em Calahorra de Ribas, o Canal cruza o rio Carrión por meio duma ponte - canal, e em Serrón, em Grijota, separam - se os ramais de Campos e Sul.
+# text = Em Calahorra de Ribas, o Canal cruza o rio Carrión por meio duma ponte - canal, e em Serrón, em Grijota, separam-se os ramais de Campos e Sul.
 1	Em	em	ADP	ADP	_	2	case	_	_
 2	Calahorra	_	PROPN	PNOUN	_	8	nmod	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
@@ -37063,15 +37063,15 @@
 24	em	em	ADP	ADP	_	25	case	_	_
 25	Grijota	_	PROPN	PNOUN	_	22	nmod	_	SpaceAfter=No
 26	,	,	PUNCT	.	_	25	punct	_	_
+27-28	separam-se	_	_	_	_	_	_	_	_
 27	separam	separar	VERB	VERB	_	8	conj	_	_
-28	-	-	PUNCT	.	_	27	punct	_	_
-29	se	_	PART	PRT	_	27	expl:pv	_	_
-30	os	o	DET	DET	_	31	det	_	_
-31	ramais	ramal	NOUN	NOUN	_	27	nsubj	_	_
-32	de	de	ADP	ADP	_	33	case	_	_
-33	Campos	_	PROPN	PNOUN	_	31	nmod	_	_
-34	e	e	CCONJ	CONJ	_	35	cc	_	_
-35	Sul.	_	PROPN	PNOUN	_	33	conj	_	_
+28	se	_	PART	PRT	_	27	expl:pv	_	_
+29	os	o	DET	DET	_	30	det	_	_
+30	ramais	ramal	NOUN	NOUN	_	27	nsubj	_	_
+31	de	de	ADP	ADP	_	32	case	_	_
+32	Campos	_	PROPN	PNOUN	_	30	nmod	_	_
+33	e	e	CCONJ	CONJ	_	34	cc	_	_
+34	Sul.	_	PROPN	PNOUN	_	32	conj	_	_
 
 # sent_id = test-s1195
 # text = A primeira aparição pública de Knut atraiu jornalistas de todas as partes do mundo e gerou milhões de dólares para o Zoo de Berlim.
