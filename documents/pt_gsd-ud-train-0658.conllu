@@ -1,5 +1,5 @@
 # sent_id = train-s6532
-# text = Em seu filme de estreia A Experiência, Henstridge interpretou "Sil", a engenharia genética alienígena / híbrido humano criado a partir duma mensagem recebida pela SETI, que foge do cativeiro dum laboratório quando seus criadores tentam "sacrificá - la".
+# text = Em seu filme de estreia A Experiência, Henstridge interpretou "Sil", a engenharia genética alienígena / híbrido humano criado a partir duma mensagem recebida pela SETI, que foge do cativeiro dum laboratório quando seus criadores tentam "sacrificá-la".
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	seu	_	DET	DET	_	3	det:poss	_	_
 3	filme	filme	NOUN	NOUN	_	10	nmod	_	_
@@ -49,11 +49,11 @@
 43	criadores	criador	NOUN	NOUN	_	44	nsubj	_	_
 44	tentam	tentar	VERB	VERB	_	34	advcl	_	_
 45	"	"	PUNCT	.	_	46	punct	_	SpaceAfter=No
+46-47	sacrificá-la	_	_	_	_	_	_	_	SpaceAfter=No
 46	sacrificá	sacrificar	VERB	VERB	_	44	xcomp	_	_
-47	-	-	PUNCT	.	_	46	punct	_	_
-48	la	_	PRON	PRON	_	46	obj	_	SpaceAfter=No
-49	"	"	PUNCT	.	_	46	punct	_	SpaceAfter=No
-50	.	.	PUNCT	.	_	10	punct	_	_
+47	la	_	PRON	PRON	_	46	obj	_	_
+48	"	"	PUNCT	.	_	46	punct	_	SpaceAfter=No
+49	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s6533
 # text = Foi com essa ideia, aliada a um projeto produtivo, que jovens agricultores familiares do Rio Grande do Sul mudaram paradigmas, superaram dificuldades e se tornaram prósperos.
@@ -93,7 +93,7 @@
 32	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s6534
-# text = Rio -- Um acidente entre uma moto e um carro de passeio complicou o trânsito na Avenida Ayrton Senna, altura do acesso para a Avenida Abelardo Bueno, no sentido Orla, em Jacarepaguá, Zona Oeste, na tarde desta quarta - feira.
+# text = Rio -- Um acidente entre uma moto e um carro de passeio complicou o trânsito na Avenida Ayrton Senna, altura do acesso para a Avenida Abelardo Bueno, no sentido Orla, em Jacarepaguá, Zona Oeste, na tarde desta quarta-feira.
 1	Rio	_	PROPN	PNOUN	_	13	parataxis	_	_
 2	--	_	PUNCT	.	_	13	punct	_	_
 3	Um	_	DET	DET	_	4	det	_	_
@@ -143,11 +143,11 @@
 43	em	em	ADP	ADP	_	45	case	_	_
 44	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
 45	tarde	tarde	NOUN	NOUN	_	13	nmod	_	_
-46	desta	_	ADP	ADP	_	49	case	_	_
-47	quarta	_	PROPN	PNOUN	_	49	amod	_	_
-48	-	-	PUNCT	.	_	49	punct	_	_
-49	feira	_	PROPN	PNOUN	_	45	nmod	_	SpaceAfter=No
-50	.	.	PUNCT	.	_	13	punct	_	_
+46	desta	_	ADP	ADP	_	48	case	_	_
+47-48	quarta-feira	_	_	_	_	_	_	_	SpaceAfter=No
+47	quarta	_	PROPN	PNOUN	_	48	amod	_	_
+48	feira	_	PROPN	PNOUN	_	45	nmod	_	_
+49	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = train-s6535
 # text = O jogo termina no domingo.
@@ -273,7 +273,7 @@
 21	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s6540
-# text = Roissard é uma comuna francesa na região administrativa de Ródano - Alpes, no departamento de Isère.
+# text = Roissard é uma comuna francesa na região administrativa de Ródano-Alpes, no departamento de Isère.
 1	Roissard	_	PROPN	PNOUN	_	4	nsubj	_	_
 2	é	ser	AUX	AUX	_	4	cop	_	_
 3	uma	um	DET	DET	_	4	det	_	_
@@ -285,17 +285,17 @@
 8	região	região	NOUN	NOUN	_	4	nmod	_	_
 9	administrativa	administrativo	ADJ	ADJ	_	8	amod	_	_
 10	de	de	ADP	ADP	_	11	case	_	_
+11-12	Ródano-Alpes	_	_	_	_	_	_	_	SpaceAfter=No
 11	Ródano	_	PROPN	PNOUN	_	8	nmod	_	_
-12	-	-	PUNCT	.	_	11	punct	_	_
-13	Alpes	_	PROPN	PNOUN	_	11	flat	_	SpaceAfter=No
-14	,	,	PUNCT	.	_	17	punct	_	_
-15-16	no	_	_	_	_	_	_	_	_
-15	em	em	ADP	ADP	_	17	case	_	_
-16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	departamento	departamento	NOUN	NOUN	_	8	nmod	_	_
-18	de	de	ADP	ADP	_	19	case	_	_
-19	Isère	_	PROPN	PNOUN	_	17	nmod	_	SpaceAfter=No
-20	.	.	PUNCT	.	_	4	punct	_	_
+12	Alpes	_	PROPN	PNOUN	_	11	flat	_	_
+13	,	,	PUNCT	.	_	16	punct	_	_
+14-15	no	_	_	_	_	_	_	_	_
+14	em	em	ADP	ADP	_	16	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	departamento	departamento	NOUN	NOUN	_	8	nmod	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
+18	Isère	_	PROPN	PNOUN	_	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s6541
 # text = O Palmeiras entrou em campo para enfrentar o Figueirense, neste domingo, na Arena Barueri, com o pensamento na final da Copa do Brasil contra o Coritiba.

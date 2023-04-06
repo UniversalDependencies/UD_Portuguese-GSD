@@ -1,5 +1,5 @@
 # sent_id = train-s4425
-# text = Rodovia João Ribeiro de Barros (trecho da SP - 294);
+# text = Rodovia João Ribeiro de Barros (trecho da SP-294);
 1	Rodovia	_	PROPN	PNOUN	_	0	root	_	_
 2	João	_	PROPN	PNOUN	_	1	flat	_	_
 3	Ribeiro	_	PROPN	PNOUN	_	1	flat	_	_
@@ -10,14 +10,14 @@
 8-9	da	_	_	_	_	_	_	_	_
 8	de	de	ADP	ADP	_	10	case	_	_
 9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10-11	SP-294	_	_	_	_	_	_	_	SpaceAfter=No
 10	SP	_	PROPN	PNOUN	_	7	nmod	_	_
-11	-	-	PUNCT	.	_	10	punct	_	_
-12	294	294	NUM	NUM	NumType=Card	10	appos	_	SpaceAfter=No
-13	)	)	PUNCT	.	_	7	punct	_	SpaceAfter=No
-14	;	_	PUNCT	.	_	1	punct	_	_
+11	294	294	NUM	NUM	NumType=Card	10	appos	_	_
+12	)	)	PUNCT	.	_	7	punct	_	SpaceAfter=No
+13	;	_	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s4426
-# text = Sem alarde, a Câmara dos Deputados aprovou projeto do ex - deputado Eduardo Cardozo, atual Ministro da Justiça, descriminalizando a vadiagem - ou seja, pode vadiar à vontade.
+# text = Sem alarde, a Câmara dos Deputados aprovou projeto do ex-deputado Eduardo Cardozo, atual Ministro da Justiça, descriminalizando a vadiagem - ou seja, pode vadiar à vontade.
 1	Sem	_	ADP	ADP	_	2	case	_	_
 2	alarde	alarde	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
@@ -32,33 +32,33 @@
 11-12	do	_	_	_	_	_	_	_	_
 11	de	de	ADP	ADP	_	13	case	_	_
 12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13-14	ex-deputado	_	_	_	_	_	_	_	_
 13	ex	_	PART	PRT	_	10	nmod	_	_
-14	-	-	PUNCT	.	_	13	punct	_	_
-15	deputado	deputado	NOUN	NOUN	_	13	flat	_	_
-16	Eduardo	_	PROPN	PNOUN	_	13	appos	_	_
-17	Cardozo	_	PROPN	PNOUN	_	16	flat	_	SpaceAfter=No
-18	,	,	PUNCT	.	_	20	punct	_	_
-19	atual	atual	ADJ	ADJ	_	20	amod	_	_
-20	Ministro	_	PROPN	PNOUN	_	13	appos	_	_
-21-22	da	_	_	_	_	_	_	_	_
-21	de	de	ADP	ADP	_	23	case	_	_
-22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-23	Justiça	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
-24	,	,	PUNCT	.	_	25	punct	_	_
-25	descriminalizando	_	VERB	VERB	_	9	acl	_	_
-26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	vadiagem	vadiagem	NOUN	NOUN	_	25	obj	_	_
-28	-	-	PUNCT	.	_	33	punct	_	_
-29	ou	ou	CCONJ	CONJ	_	33	cc	_	_
-30	seja	ser	VERB	VERB	_	29	fixed	_	SpaceAfter=No
-31	,	,	PUNCT	.	_	33	punct	_	_
-32	pode	_	AUX	AUX	_	33	aux	_	_
-33	vadiar	vadiar	VERB	VERB	_	9	conj	_	_
-34-35	à	_	_	_	_	_	_	_	_
-34	a	a	ADP	ADP	_	36	case	_	_
-35	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-36	vontade	vontade	NOUN	NOUN	_	33	nmod	_	SpaceAfter=No
-37	.	.	PUNCT	.	_	9	punct	_	_
+14	deputado	deputado	NOUN	NOUN	_	13	flat	_	_
+15	Eduardo	_	PROPN	PNOUN	_	13	appos	_	_
+16	Cardozo	_	PROPN	PNOUN	_	15	flat	_	SpaceAfter=No
+17	,	,	PUNCT	.	_	19	punct	_	_
+18	atual	atual	ADJ	ADJ	_	19	amod	_	_
+19	Ministro	_	PROPN	PNOUN	_	13	appos	_	_
+20-21	da	_	_	_	_	_	_	_	_
+20	de	de	ADP	ADP	_	22	case	_	_
+21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Justiça	_	PROPN	PNOUN	_	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	.	_	24	punct	_	_
+24	descriminalizando	_	VERB	VERB	_	9	acl	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	vadiagem	vadiagem	NOUN	NOUN	_	24	obj	_	ToDo=NonCatenaCompound
+27	-	-	PUNCT	.	_	32	punct	_	ToDo=NonCatenaCompound
+28	ou	ou	CCONJ	CONJ	_	32	cc	_	ToDo=NonCatenaCompound
+29	seja	ser	VERB	VERB	_	28	fixed	_	SpaceAfter=No
+30	,	,	PUNCT	.	_	32	punct	_	_
+31	pode	_	AUX	AUX	_	32	aux	_	_
+32	vadiar	vadiar	VERB	VERB	_	9	conj	_	_
+33-34	à	_	_	_	_	_	_	_	_
+33	a	a	ADP	ADP	_	35	case	_	_
+34	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	vontade	vontade	NOUN	NOUN	_	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s4427
 # text = O afastamento do assistente Emerson Augusto de Carvalho depois do erro no clássico contra o Santos, no último domingo, repercutiu no Corinthians.
@@ -250,7 +250,7 @@
 28	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s4433
-# text = As competições acontecem na tarde desta quinta - feira (30), a partir das 15h52 (horário de Brasília).
+# text = As competições acontecem na tarde desta quinta-feira (30), a partir das 15h52 (horário de Brasília).
 1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	competições	competição	NOUN	NOUN	_	3	nsubj	_	_
 3	acontecem	acontecer	VERB	VERB	_	0	root	_	_
@@ -258,26 +258,26 @@
 4	em	em	ADP	ADP	_	6	case	_	_
 5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	tarde	tarde	NOUN	NOUN	_	3	nmod	_	_
-7	desta	_	ADP	ADP	_	10	case	_	_
-8	quinta	_	PROPN	PNOUN	_	10	amod	_	_
-9	-	-	PUNCT	.	_	10	punct	_	_
-10	feira	_	PROPN	PNOUN	_	6	nmod	_	_
-11	(	(	PUNCT	.	_	12	punct	_	SpaceAfter=No
-12	30	30	NUM	NUM	NumType=Card	10	nmod	_	SpaceAfter=No
-13	)	)	PUNCT	.	_	12	punct	_	SpaceAfter=No
-14	,	,	PUNCT	.	_	16	punct	_	_
-15	a	_	ADP	ADP	_	16	mark	_	_
-16	partir	partir	VERB	VERB	_	3	nmod	_	_
-17-18	das	_	_	_	_	_	_	_	_
-17	de	de	ADP	ADP	_	19	case	_	_
-18	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
-19	15h52	_	PROPN	PNOUN	_	16	nmod	_	_
-20	(	(	PUNCT	.	_	21	punct	_	SpaceAfter=No
-21	horário	horário	NOUN	NOUN	_	19	appos	_	_
-22	de	de	ADP	ADP	_	23	case	_	_
-23	Brasília	_	PROPN	PNOUN	_	21	nmod	_	SpaceAfter=No
-24	)	)	PUNCT	.	_	21	punct	_	SpaceAfter=No
-25	.	.	PUNCT	.	_	3	punct	_	_
+7	desta	_	ADP	ADP	_	9	case	_	_
+8-9	quinta-feira	_	_	_	_	_	_	_	_
+8	quinta	_	PROPN	PNOUN	_	9	amod	_	_
+9	feira	_	PROPN	PNOUN	_	6	nmod	_	_
+10	(	(	PUNCT	.	_	11	punct	_	SpaceAfter=No
+11	30	30	NUM	NUM	NumType=Card	9	nmod	_	SpaceAfter=No
+12	)	)	PUNCT	.	_	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	.	_	15	punct	_	_
+14	a	_	ADP	ADP	_	15	mark	_	_
+15	partir	partir	VERB	VERB	_	3	nmod	_	_
+16-17	das	_	_	_	_	_	_	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
+17	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	15h52	_	PROPN	PNOUN	_	15	nmod	_	_
+19	(	(	PUNCT	.	_	20	punct	_	SpaceAfter=No
+20	horário	horário	NOUN	NOUN	_	18	appos	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
+22	Brasília	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
+23	)	)	PUNCT	.	_	20	punct	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s4434
 # text = Por ora, a Google não pretende lançar um app oficial do YouTube e não vai facilitar o acesso ao Gmail e ao Drive em dispositivos com o Windows Phone 8.

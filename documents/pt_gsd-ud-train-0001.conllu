@@ -229,7 +229,7 @@
 25	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = train-s5
-# text = Em 2 de outubro de 2009, no 10 º aniversário da SmackDown, The Rock fez uma aparição especial num vídeo pré - gravado.
+# text = Em 2 de outubro de 2009, no 10 º aniversário da SmackDown, The Rock fez uma aparição especial num vídeo pré-gravado.
 1	Em	em	ADP	ADP	_	2	case	_	_
 2	2	2	NUM	NUM	NumType=Card	19	nmod	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
@@ -258,13 +258,13 @@
 23	em	em	ADP	ADP	_	25	case	_	_
 24	um	um	DET	DET	_	25	det	_	_
 25	vídeo	vídeo	NOUN	NOUN	_	19	nmod	_	_
-26	pré	_	PART	PRT	_	28	amod	_	_
-27	-	-	PUNCT	.	_	28	punct	_	_
-28	gravado	gravado	ADJ	ADJ	_	25	amod	_	SpaceAfter=No
-29	.	.	PUNCT	.	_	19	punct	_	_
+26-27	pré-gravado	_	_	_	_	_	_	_	SpaceAfter=No
+26	pré	_	PART	PRT	_	27	amod	_	_
+27	gravado	gravado	ADJ	ADJ	_	25	amod	_	_
+28	.	.	PUNCT	.	_	19	punct	_	_
 
 # sent_id = train-s6
-# text = A Gol comprou a Webjet e, em novembro, decidiu fechá - la.
+# text = A Gol comprou a Webjet e, em novembro, decidiu fechá-la.
 1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Gol	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	comprou	comprar	VERB	VERB	_	0	root	_	_
@@ -276,10 +276,10 @@
 9	novembro	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	.	_	9	punct	_	_
 11	decidiu	decidir	VERB	VERB	_	3	conj	_	_
+12-13	fechá-la	_	_	_	_	_	_	_	SpaceAfter=No
 12	fechá	fechar	VERB	VERB	_	11	xcomp	_	_
-13	-	-	PUNCT	.	_	12	punct	_	_
-14	la	_	PRON	PRON	_	12	obj	_	SpaceAfter=No
-15	.	.	PUNCT	.	_	3	punct	_	_
+13	la	_	PRON	PRON	_	12	obj	_	_
+14	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s7
 # text = O cantor só precisou vê-la nadar para passar a acreditar na nadadora.

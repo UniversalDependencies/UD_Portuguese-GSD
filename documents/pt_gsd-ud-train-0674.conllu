@@ -11,7 +11,7 @@
 9	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s6694
-# text = As inundações que atingem várias regiões da Coreia do Norte há várias semanas já deixaram um saldo de 169 pessoas mortas e outras 400 desaparecidas, afirmou neste sábado a agência estatal de notícias norte - coreana, aumentando drasticamente o balanço divulgado anteriormente.
+# text = As inundações que atingem várias regiões da Coreia do Norte há várias semanas já deixaram um saldo de 169 pessoas mortas e outras 400 desaparecidas, afirmou neste sábado a agência estatal de notícias norte-coreana, aumentando drasticamente o balanço divulgado anteriormente.
 1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	inundações	inundação	NOUN	NOUN	_	17	nsubj	_	_
 3	que	_	PRON	PRON	_	4	nsubj	_	_
@@ -50,17 +50,17 @@
 34	estatal	estatal	ADJ	ADJ	_	33	amod	_	_
 35	de	de	ADP	ADP	_	36	case	_	_
 36	notícias	notícia	NOUN	NOUN	_	33	nmod	_	_
-37	norte	norte	ADJ	ADJ	_	39	amod	_	_
-38	-	-	PUNCT	.	_	39	punct	_	_
-39	coreana	coreano	ADJ	ADJ	_	33	amod	_	SpaceAfter=No
-40	,	,	PUNCT	.	_	41	punct	_	_
-41	aumentando	aumentar	VERB	VERB	_	29	conj	_	_
-42	drasticamente	drasticamente	ADV	ADV	_	41	advmod	_	_
-43	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
-44	balanço	balanço	NOUN	NOUN	_	41	obj	_	_
-45	divulgado	divulgar	VERB	VERB	_	44	acl	_	_
-46	anteriormente	anteriormente	ADV	ADV	_	45	advmod	_	SpaceAfter=No
-47	.	.	PUNCT	.	_	29	punct	_	_
+37-38	norte-coreana	_	_	_	_	_	_	_	SpaceAfter=No
+37	norte	norte	ADJ	ADJ	_	38	amod	_	_
+38	coreana	coreano	ADJ	ADJ	_	33	amod	_	_
+39	,	,	PUNCT	.	_	40	punct	_	_
+40	aumentando	aumentar	VERB	VERB	_	29	conj	_	_
+41	drasticamente	drasticamente	ADV	ADV	_	40	advmod	_	_
+42	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	balanço	balanço	NOUN	NOUN	_	40	obj	_	_
+44	divulgado	divulgar	VERB	VERB	_	43	acl	_	_
+45	anteriormente	anteriormente	ADV	ADV	_	44	advmod	_	SpaceAfter=No
+46	.	.	PUNCT	.	_	29	punct	_	_
 
 # sent_id = train-s6695
 # text = Possui uma declinação de +07 ° 20 '20 "e uma ascensão recta de 4 horas, 40 minutos e 09,8 segundos.
@@ -188,7 +188,7 @@
 22	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = train-s6699
-# text = Anthony Hopkins no novo trailer de Hitchcock Publicada em 10/11/2012 Foi divulgado um novo trailer de Hitchcock, do diretor Sacha Gervasi (co - roteirista do Terminal), onde o diretor Hitchcock (Anthony Hopkins) ...
+# text = Anthony Hopkins no novo trailer de Hitchcock Publicada em 10/11/2012 Foi divulgado um novo trailer de Hitchcock, do diretor Sacha Gervasi (co-roteirista do Terminal), onde o diretor Hitchcock (Anthony Hopkins) ...
 1	Anthony	_	PROPN	PNOUN	_	13	parataxis	_	_
 2	Hopkins	_	PROPN	PNOUN	_	1	flat	_	_
 3-4	no	_	_	_	_	_	_	_	_
@@ -216,24 +216,24 @@
 23	Sacha	_	PROPN	PNOUN	_	22	appos	_	_
 24	Gervasi	_	PROPN	PNOUN	_	23	flat	_	_
 25	(	(	PUNCT	.	_	26	punct	_	SpaceAfter=No
+26-27	co-roteirista	_	_	_	_	_	_	_	_
 26	co	_	PART	PRT	_	23	appos	_	_
-27	-	-	PUNCT	.	_	26	punct	_	_
-28	roteirista	roteirista	NOUN	NOUN	_	26	flat	_	_
-29-30	do	_	_	_	_	_	_	_	_
-29	de	de	ADP	ADP	_	31	case	_	_
-30	O	_	PROPN	PNOUN	_	31	det	_	_
-31	Terminal	_	PROPN	PNOUN	_	26	nmod	_	SpaceAfter=No
-32	)	)	PUNCT	.	_	26	punct	_	SpaceAfter=No
-33	,	,	PUNCT	.	_	36	punct	_	_
-34	onde	onde	ADV	ADV	_	36	advmod	_	_
-35	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
-36	diretor	diretor	NOUN	NOUN	_	16	dep	_	_
-37	Hitchcock	_	PROPN	PNOUN	_	36	appos	_	_
-38	(	(	PUNCT	.	_	39	punct	_	SpaceAfter=No
-39	Anthony	_	PROPN	PNOUN	_	36	appos	_	_
-40	Hopkins	_	PROPN	PNOUN	_	39	flat	_	SpaceAfter=No
-41	)	)	PUNCT	.	_	39	punct	_	_
-42	...	_	PUNCT	.	_	13	punct	_	_
+27	roteirista	roteirista	NOUN	NOUN	_	26	flat	_	_
+28-29	do	_	_	_	_	_	_	_	_
+28	de	de	ADP	ADP	_	30	case	_	_
+29	O	_	PROPN	PNOUN	_	30	det	_	_
+30	Terminal	_	PROPN	PNOUN	_	26	nmod	_	SpaceAfter=No
+31	)	)	PUNCT	.	_	26	punct	_	SpaceAfter=No
+32	,	,	PUNCT	.	_	35	punct	_	_
+33	onde	onde	ADV	ADV	_	35	advmod	_	_
+34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	diretor	diretor	NOUN	NOUN	_	16	dep	_	_
+36	Hitchcock	_	PROPN	PNOUN	_	35	appos	_	_
+37	(	(	PUNCT	.	_	38	punct	_	SpaceAfter=No
+38	Anthony	_	PROPN	PNOUN	_	35	appos	_	_
+39	Hopkins	_	PROPN	PNOUN	_	38	flat	_	SpaceAfter=No
+40	)	)	PUNCT	.	_	38	punct	_	_
+41	...	_	PUNCT	.	_	13	punct	_	_
 
 # sent_id = train-s6700
 # text = O treinador, aliás, chegou a declarar que iria 'consertar' o novato quando ele retornasse ao país.

@@ -43,7 +43,7 @@
 37	.	.	PUNCT	.	_	29	punct	_	_
 
 # sent_id = train-s7097
-# text = O momento mais crítico na via expressa foi entre as 6h30 e 8h30 da manhã, o que já era esperado, segundo a presidente da CET - Rio, Cláudia Secin.
+# text = O momento mais crítico na via expressa foi entre as 6h30 e 8h30 da manhã, o que já era esperado, segundo a presidente da CET-Rio, Cláudia Secin.
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	momento	momento	NOUN	NOUN	_	9	nsubj	_	_
 3	mais	mais	ADV	ADV	_	4	advmod	_	_
@@ -76,13 +76,13 @@
 28-29	da	_	_	_	_	_	_	_	_
 28	de	de	ADP	ADP	_	30	case	_	_
 29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30-31	CET-Rio	_	_	_	_	_	_	_	SpaceAfter=No
 30	CET	_	PROPN	PNOUN	_	27	nmod	_	_
-31	-	-	PUNCT	.	_	30	punct	_	_
-32	Rio	_	PROPN	PNOUN	_	30	flat	_	SpaceAfter=No
-33	,	,	PUNCT	.	_	34	punct	_	_
-34	Cláudia	_	PROPN	PNOUN	_	27	appos	_	_
-35	Secin	_	PROPN	PNOUN	_	34	flat	_	SpaceAfter=No
-36	.	.	PUNCT	.	_	9	punct	_	_
+31	Rio	_	PROPN	PNOUN	_	30	flat	_	_
+32	,	,	PUNCT	.	_	33	punct	_	_
+33	Cláudia	_	PROPN	PNOUN	_	27	appos	_	_
+34	Secin	_	PROPN	PNOUN	_	33	flat	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s7098
 # text = Que segredo tão cabeludo será esse que ronda o passado deles?
@@ -126,9 +126,9 @@
 21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	Mundial	_	PROPN	PNOUN	_	19	nmod	_	_
 23	de	de	ADP	ADP	_	24	case	_	_
-24	Daegu	_	PROPN	PNOUN	_	22	nmod	_	_
-25	-	-	PUNCT	.	_	31	punct	_	_
-26	2011	2011	NUM	NUM	NumType=Card	22	nmod	_	SpaceAfter=No
+24	Daegu	_	PROPN	PNOUN	_	22	nmod	_	ToDo=NonCatenaCompound
+25	-	-	PUNCT	.	_	31	punct	_	ToDo=NonCatenaCompound
+26	2011	2011	NUM	NUM	NumType=Card	22	nmod	_	SpaceAfter=No|ToDo=NonCatenaCompound
 27	,	,	PUNCT	.	_	31	punct	_	_
 28	quando	quando	ADV	ADV	_	31	advmod	_	_
 29	Bolt	_	PROPN	PNOUN	_	31	nsubj:pass	_	_
@@ -169,12 +169,12 @@
 23	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s7101
-# text = No último dia 26 de julho, no projeto Cena Som, realizado no Centro Cultural José Octávio Guizzo, o Eae - Jow apresentou o espetáculo "Só na Vibe".
+# text = No último dia 26 de julho, no projeto Cena Som, realizado no Centro Cultural José Octávio Guizzo, o Eae-Jow apresentou o espetáculo "Só na Vibe".
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	ADP	_	4	case	_	_
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	último	último	ADJ	ADJ	_	4	amod	_	_
-4	dia	dia	NOUN	NOUN	_	28	nmod	_	_
+4	dia	dia	NOUN	NOUN	_	27	nmod	_	_
 5	26	26	NUM	NUM	NumType=Card	4	nmod	_	_
 6	de	de	ADP	ADP	_	7	case	_	_
 7	julho	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
@@ -182,7 +182,7 @@
 9-10	no	_	_	_	_	_	_	_	_
 9	em	em	ADP	ADP	_	11	case	_	_
 10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	projeto	projeto	NOUN	NOUN	_	28	nmod	_	_
+11	projeto	projeto	NOUN	NOUN	_	27	nmod	_	_
 12	Cena	_	PROPN	PNOUN	_	11	appos	_	_
 13	Som	_	PROPN	PNOUN	_	12	flat	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	15	punct	_	_
@@ -197,20 +197,20 @@
 22	Guizzo	_	PROPN	PNOUN	_	20	flat	_	SpaceAfter=No
 23	,	,	PUNCT	.	_	15	punct	_	_
 24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	Eae	_	PROPN	PNOUN	_	28	nsubj	_	_
-26	-	-	PUNCT	.	_	25	punct	_	_
-27	Jow	_	PROPN	PNOUN	_	25	flat	_	_
-28	apresentou	apresentar	VERB	VERB	_	0	root	_	_
-29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
-30	espetáculo	espetáculo	NOUN	NOUN	_	28	obj	_	_
-31	"	"	PUNCT	.	_	32	punct	_	SpaceAfter=No
-32	Só	_	PROPN	PNOUN	_	30	appos	_	_
-33-34	na	_	_	_	_	_	_	_	_
-33	em	em	ADP	ADP	_	35	case	_	_
-34	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
-35	Vibe	_	PROPN	PNOUN	_	32	nmod	_	SpaceAfter=No
-36	"	"	PUNCT	.	_	32	punct	_	SpaceAfter=No
-37	.	.	PUNCT	.	_	28	punct	_	_
+25-26	Eae-Jow	_	_	_	_	_	_	_	_
+25	Eae	_	PROPN	PNOUN	_	27	nsubj	_	_
+26	Jow	_	PROPN	PNOUN	_	25	flat	_	_
+27	apresentou	apresentar	VERB	VERB	_	0	root	_	_
+28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	espetáculo	espetáculo	NOUN	NOUN	_	27	obj	_	_
+30	"	"	PUNCT	.	_	31	punct	_	SpaceAfter=No
+31	Só	_	PROPN	PNOUN	_	29	appos	_	_
+32-33	na	_	_	_	_	_	_	_	_
+32	em	em	ADP	ADP	_	34	case	_	_
+33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	Vibe	_	PROPN	PNOUN	_	31	nmod	_	SpaceAfter=No
+35	"	"	PUNCT	.	_	31	punct	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	27	punct	_	_
 
 # sent_id = train-s7102
 # text = Já nas BRs que cortam o Estado, a PRF registrou um total de 10 acidentes, com dois feridos e nenhuma morte.

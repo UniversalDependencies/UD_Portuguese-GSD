@@ -41,17 +41,17 @@
 14	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = test-s569
-# text = BEIRUTE, 18 Jul (Reuters) -- O ataque suicida que matou membros do círculo íntimo do presidente Bashar al - Assad, num momento em que os combates tomaram nesta quarta - feira a capital síria, Damasco, aumenta a urgência por ações mais firmes da ONU, disseram líderes ocidentais.
-1	BEIRUTE	_	PROPN	PNOUN	_	55	parataxis	_	SpaceAfter=No
+# text = BEIRUTE, 18 Jul (Reuters) -- O ataque suicida que matou membros do círculo íntimo do presidente Bashar al - Assad, num momento em que os combates tomaram nesta quarta-feira a capital síria, Damasco, aumenta a urgência por ações mais firmes da ONU, disseram líderes ocidentais.
+1	BEIRUTE	_	PROPN	PNOUN	_	54	parataxis	_	SpaceAfter=No
 2	,	,	PUNCT	.	_	3	punct	_	_
 3	18	18	NUM	NUM	NumType=Card	1	nmod	_	_
 4	Jul	_	PROPN	PNOUN	_	3	nmod	_	_
 5	(	(	PUNCT	.	_	6	punct	_	SpaceAfter=No
 6	Reuters	_	PROPN	PNOUN	_	1	appos	_	SpaceAfter=No
 7	)	)	PUNCT	.	_	6	punct	_	_
-8	--	_	PUNCT	.	_	55	punct	_	_
+8	--	_	PUNCT	.	_	54	punct	_	_
 9	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	ataque	ataque	NOUN	NOUN	_	44	nsubj	_	_
+10	ataque	ataque	NOUN	NOUN	_	43	nsubj	_	_
 11	suicida	suicida	ADJ	ADJ	_	10	amod	_	_
 12	que	_	PRON	PRON	_	13	nsubj	_	_
 13	matou	matar	VERB	VERB	_	10	acl:relcl	_	_
@@ -77,32 +77,32 @@
 31	os	o	DET	DET	_	32	det	_	_
 32	combates	combate	NOUN	NOUN	_	33	nsubj	_	_
 33	tomaram	tomar	VERB	VERB	_	28	acl:relcl	_	_
-34	nesta	_	ADP	ADP	_	37	case	_	_
-35	quarta	_	PROPN	PNOUN	_	37	amod	_	_
-36	-	-	PUNCT	.	_	37	punct	_	_
-37	feira	_	PROPN	PNOUN	_	33	nmod	_	_
-38	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
-39	capital	capital	NOUN	NOUN	_	33	obj	_	_
-40	síria	sírio	ADJ	ADJ	_	39	amod	_	SpaceAfter=No
-41	,	,	PUNCT	.	_	42	punct	_	_
-42	Damasco	_	PROPN	PNOUN	_	39	appos	_	SpaceAfter=No
-43	,	,	PUNCT	.	_	28	punct	_	_
-44	aumenta	aumentar	VERB	VERB	_	55	ccomp	_	_
-45	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
-46	urgência	urgência	NOUN	NOUN	_	44	obj	_	_
-47	por	por	ADP	ADP	_	48	case	_	_
-48	ações	ação	NOUN	NOUN	_	46	nmod	_	_
-49	mais	mais	ADV	ADV	_	50	advmod	_	_
-50	firmes	firme	ADJ	ADJ	_	48	amod	_	_
-51-52	da	_	_	_	_	_	_	_	_
-51	de	de	ADP	ADP	_	53	case	_	_
-52	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
-53	ONU	_	PROPN	PNOUN	_	48	nmod	_	SpaceAfter=No
-54	,	,	PUNCT	.	_	44	punct	_	_
-55	disseram	dizer	VERB	VERB	_	0	root	_	_
-56	líderes	líder	NOUN	NOUN	_	55	nsubj	_	_
-57	ocidentais	ocidental	ADJ	ADJ	_	56	amod	_	SpaceAfter=No
-58	.	.	PUNCT	.	_	55	punct	_	_
+34	nesta	_	ADP	ADP	_	36	case	_	_
+35-36	quarta-feira	_	_	_	_	_	_	_	_
+35	quarta	_	PROPN	PNOUN	_	36	amod	_	_
+36	feira	_	PROPN	PNOUN	_	33	nmod	_	_
+37	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	capital	capital	NOUN	NOUN	_	33	obj	_	_
+39	síria	sírio	ADJ	ADJ	_	38	amod	_	SpaceAfter=No
+40	,	,	PUNCT	.	_	41	punct	_	_
+41	Damasco	_	PROPN	PNOUN	_	38	appos	_	SpaceAfter=No
+42	,	,	PUNCT	.	_	28	punct	_	_
+43	aumenta	aumentar	VERB	VERB	_	54	ccomp	_	_
+44	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	urgência	urgência	NOUN	NOUN	_	43	obj	_	_
+46	por	por	ADP	ADP	_	47	case	_	_
+47	ações	ação	NOUN	NOUN	_	45	nmod	_	_
+48	mais	mais	ADV	ADV	_	49	advmod	_	_
+49	firmes	firme	ADJ	ADJ	_	47	amod	_	_
+50-51	da	_	_	_	_	_	_	_	_
+50	de	de	ADP	ADP	_	52	case	_	_
+51	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
+52	ONU	_	PROPN	PNOUN	_	47	nmod	_	SpaceAfter=No
+53	,	,	PUNCT	.	_	43	punct	_	_
+54	disseram	dizer	VERB	VERB	_	0	root	_	_
+55	líderes	líder	NOUN	NOUN	_	54	nsubj	_	_
+56	ocidentais	ocidental	ADJ	ADJ	_	55	amod	_	SpaceAfter=No
+57	.	.	PUNCT	.	_	54	punct	_	_
 
 # sent_id = test-s570
 # text = Na cobrança, o goleiro croata não conseguiu parar o chute magistral do camisa 21, que finalizou com o capricho que lhe é peculiar.
@@ -231,7 +231,7 @@
 20	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = test-s574
-# text = "A lei prevê que o ministro pode decidir casos específicos, por provocação ou de ofício, o que abre possibilidade de diálogo", disse o advogado em palestra nesta sexta - feira (14 / 12) no IX Congresso Nacional de Estudos Tributários organizado pelo Instituto Brasileiro de Estudos Tributários (Ibet).
+# text = "A lei prevê que o ministro pode decidir casos específicos, por provocação ou de ofício, o que abre possibilidade de diálogo", disse o advogado em palestra nesta sexta-feira (14 / 12) no IX Congresso Nacional de Estudos Tributários organizado pelo Instituto Brasileiro de Estudos Tributários (Ibet).
 1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
 2	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	lei	lei	NOUN	NOUN	_	4	nsubj	_	_
@@ -263,37 +263,37 @@
 29	advogado	advogado	NOUN	NOUN	_	27	nsubj	_	_
 30	em	em	ADP	ADP	_	31	case	_	_
 31	palestra	palestra	NOUN	NOUN	_	27	nmod	_	_
-32	nesta	_	ADP	ADP	_	35	case	_	_
-33	sexta	_	PROPN	PNOUN	_	35	amod	_	_
-34	-	-	PUNCT	.	_	35	punct	_	_
-35	feira	_	PROPN	PNOUN	_	27	nmod	_	_
-36	(	(	PUNCT	.	_	37	punct	_	SpaceAfter=No
-37	14	14	NUM	NUM	NumType=Card	35	nmod	_	_
-38	/	/	PUNCT	.	_	37	punct	_	_
-39	12	12	NUM	NUM	NumType=Card	37	nmod	_	SpaceAfter=No
-40	)	)	PUNCT	.	_	37	punct	_	_
-41-42	no	_	_	_	_	_	_	_	_
-41	em	em	ADP	ADP	_	44	case	_	_
-42	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
-43	IX	_	ADJ	ADJ	_	44	amod	_	_
-44	Congresso	_	PROPN	PNOUN	_	27	nmod	_	_
-45	Nacional	_	PROPN	PNOUN	_	44	amod	_	_
-46	de	de	ADP	ADP	_	47	case	_	_
-47	Estudos	_	PROPN	PNOUN	_	44	nmod	_	_
-48	Tributários	_	PROPN	PNOUN	_	47	amod	_	_
-49	organizado	organizar	VERB	VERB	_	44	acl	_	_
-50-51	pelo	_	_	_	_	_	_	_	_
-50	por	por	ADP	ADP	_	52	case	_	_
-51	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
-52	Instituto	_	PROPN	PNOUN	_	49	nmod	_	_
-53	Brasileiro	_	PROPN	PNOUN	_	52	amod	_	_
-54	de	de	ADP	ADP	_	55	case	_	_
-55	Estudos	_	PROPN	PNOUN	_	52	nmod	_	_
-56	Tributários	_	PROPN	PNOUN	_	55	amod	_	_
-57	(	(	PUNCT	.	_	58	punct	_	SpaceAfter=No
-58	Ibet	_	PROPN	PNOUN	_	52	appos	_	SpaceAfter=No
-59	)	)	PUNCT	.	_	58	punct	_	SpaceAfter=No
-60	.	.	PUNCT	.	_	27	punct	_	_
+32	nesta	_	ADP	ADP	_	34	case	_	_
+33-34	sexta-feira	_	_	_	_	_	_	_	_
+33	sexta	_	PROPN	PNOUN	_	34	amod	_	_
+34	feira	_	PROPN	PNOUN	_	27	nmod	_	_
+35	(	(	PUNCT	.	_	36	punct	_	SpaceAfter=No
+36	14	14	NUM	NUM	NumType=Card	34	nmod	_	_
+37	/	/	PUNCT	.	_	36	punct	_	_
+38	12	12	NUM	NUM	NumType=Card	36	nmod	_	SpaceAfter=No
+39	)	)	PUNCT	.	_	36	punct	_	_
+40-41	no	_	_	_	_	_	_	_	_
+40	em	em	ADP	ADP	_	43	case	_	_
+41	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+42	IX	_	ADJ	ADJ	_	43	amod	_	_
+43	Congresso	_	PROPN	PNOUN	_	27	nmod	_	_
+44	Nacional	_	PROPN	PNOUN	_	43	amod	_	_
+45	de	de	ADP	ADP	_	46	case	_	_
+46	Estudos	_	PROPN	PNOUN	_	43	nmod	_	_
+47	Tributários	_	PROPN	PNOUN	_	46	amod	_	_
+48	organizado	organizar	VERB	VERB	_	43	acl	_	_
+49-50	pelo	_	_	_	_	_	_	_	_
+49	por	por	ADP	ADP	_	51	case	_	_
+50	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	Instituto	_	PROPN	PNOUN	_	48	nmod	_	_
+52	Brasileiro	_	PROPN	PNOUN	_	51	amod	_	_
+53	de	de	ADP	ADP	_	54	case	_	_
+54	Estudos	_	PROPN	PNOUN	_	51	nmod	_	_
+55	Tributários	_	PROPN	PNOUN	_	54	amod	_	_
+56	(	(	PUNCT	.	_	57	punct	_	SpaceAfter=No
+57	Ibet	_	PROPN	PNOUN	_	51	appos	_	SpaceAfter=No
+58	)	)	PUNCT	.	_	57	punct	_	SpaceAfter=No
+59	.	.	PUNCT	.	_	27	punct	_	_
 
 # sent_id = test-s575
 # text = Segundo o censo americano de 2000, a sua população era de 97 habitantes.
@@ -314,29 +314,29 @@
 15	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = test-s576
-# text = O ato de assinatura ocorreu quarta - feira (25.07), na Secretaria de Estado de Educação (Seduc).
+# text = O ato de assinatura ocorreu quarta-feira (25.07), na Secretaria de Estado de Educação (Seduc).
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	ato	ato	NOUN	NOUN	_	5	nsubj	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	assinatura	assinatura	NOUN	NOUN	_	2	nmod	_	_
 5	ocorreu	ocorrer	VERB	VERB	_	0	root	_	_
-6	quarta	_	PROPN	PNOUN	_	8	amod	_	_
-7	-	-	PUNCT	.	_	8	punct	_	_
-8	feira	_	PROPN	PNOUN	_	5	nmod	_	_
-9	(	(	PUNCT	.	_	10	punct	_	SpaceAfter=No
-10	25.07	_	NUM	NUM	NumType=Card	8	nmod	_	SpaceAfter=No
-11	)	)	PUNCT	.	_	10	punct	_	SpaceAfter=No
-12	,	,	PUNCT	.	_	15	punct	_	_
-13-14	na	_	_	_	_	_	_	_	_
-13	em	em	ADP	ADP	_	15	case	_	_
-14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	Secretaria	_	PROPN	PNOUN	_	5	nmod	_	_
-16	de	de	ADP	ADP	_	17	case	_	_
-17	Estado	_	PROPN	PNOUN	_	15	nmod	_	_
-18	de	de	ADP	ADP	_	19	case	_	_
-19	Educação	_	PROPN	PNOUN	_	15	nmod	_	_
-20	(	(	PUNCT	.	_	21	punct	_	SpaceAfter=No
-21	Seduc	_	PROPN	PNOUN	_	15	appos	_	SpaceAfter=No
-22	)	)	PUNCT	.	_	21	punct	_	SpaceAfter=No
-23	.	.	PUNCT	.	_	5	punct	_	_
+6-7	quarta-feira	_	_	_	_	_	_	_	_
+6	quarta	_	PROPN	PNOUN	_	7	amod	_	_
+7	feira	_	PROPN	PNOUN	_	5	nmod	_	_
+8	(	(	PUNCT	.	_	9	punct	_	SpaceAfter=No
+9	25.07	_	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
+10	)	)	PUNCT	.	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	14	punct	_	_
+12-13	na	_	_	_	_	_	_	_	_
+12	em	em	ADP	ADP	_	14	case	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Secretaria	_	PROPN	PNOUN	_	5	nmod	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
+16	Estado	_	PROPN	PNOUN	_	14	nmod	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
+18	Educação	_	PROPN	PNOUN	_	14	nmod	_	_
+19	(	(	PUNCT	.	_	20	punct	_	SpaceAfter=No
+20	Seduc	_	PROPN	PNOUN	_	14	appos	_	SpaceAfter=No
+21	)	)	PUNCT	.	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	5	punct	_	_
 

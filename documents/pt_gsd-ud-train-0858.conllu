@@ -174,7 +174,7 @@
 12	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s8523
-# text = Ele foi professor de educação física da Universidade Federal de São Carlos (UFSCar) e era vice - presidente da Confederação Brasileira de Atletismo (CBAt).
+# text = Ele foi professor de educação física da Universidade Federal de São Carlos (UFSCar) e era vice-presidente da Confederação Brasileira de Atletismo (CBAt).
 1	Ele	_	PRON	PRON	_	3	nsubj	_	_
 2	foi	_	AUX	AUX	_	3	cop	_	_
 3	professor	professor	NOUN	NOUN	_	0	root	_	_
@@ -194,20 +194,20 @@
 16	)	)	PUNCT	.	_	15	punct	_	_
 17	e	e	CCONJ	CONJ	_	19	cc	_	_
 18	era	_	AUX	AUX	_	19	cop	_	_
+19-20	vice-presidente	_	_	_	_	_	_	_	_
 19	vice	_	PART	PRT	_	3	conj	_	_
-20	-	-	PUNCT	.	_	19	punct	_	_
-21	presidente	presidente	NOUN	NOUN	_	19	flat	_	_
-22-23	da	_	_	_	_	_	_	_	_
-22	de	de	ADP	ADP	_	24	case	_	_
-23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-24	Confederação	_	PROPN	PNOUN	_	19	nmod	_	_
-25	Brasileira	_	PROPN	PNOUN	_	24	amod	_	_
-26	de	de	ADP	ADP	_	27	case	_	_
-27	Atletismo	_	PROPN	PNOUN	_	24	nmod	_	_
-28	(	(	PUNCT	.	_	29	punct	_	SpaceAfter=No
-29	CBAt	_	PROPN	PNOUN	_	24	appos	_	SpaceAfter=No
-30	)	)	PUNCT	.	_	29	punct	_	SpaceAfter=No
-31	.	.	PUNCT	.	_	3	punct	_	_
+20	presidente	presidente	NOUN	NOUN	_	19	flat	_	_
+21-22	da	_	_	_	_	_	_	_	_
+21	de	de	ADP	ADP	_	23	case	_	_
+22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Confederação	_	PROPN	PNOUN	_	19	nmod	_	_
+24	Brasileira	_	PROPN	PNOUN	_	23	amod	_	_
+25	de	de	ADP	ADP	_	26	case	_	_
+26	Atletismo	_	PROPN	PNOUN	_	23	nmod	_	_
+27	(	(	PUNCT	.	_	28	punct	_	SpaceAfter=No
+28	CBAt	_	PROPN	PNOUN	_	23	appos	_	SpaceAfter=No
+29	)	)	PUNCT	.	_	28	punct	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s8524
 # text = O jogo utilizava um cartucho de 4KB, escolhido por ser mais barato que o de 8KB, disponível na época.
@@ -257,10 +257,10 @@
 16	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s8526
-# text = "Nossa expectativa era que a situação estivesse mais tranquila nesta sexta - feira, mas surgiram diversos focos de incêndio em pontos de difícil acesso", contou o Major.
+# text = "Nossa expectativa era que a situação estivesse mais tranquila nesta sexta-feira, mas surgiram diversos focos de incêndio em pontos de difícil acesso", contou o Major.
 1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
 2	Nossa	_	DET	DET	_	3	det:poss	_	_
-3	expectativa	expectativa	NOUN	NOUN	_	29	ccomp	_	_
+3	expectativa	expectativa	NOUN	NOUN	_	28	ccomp	_	_
 4	era	_	AUX	AUX	_	3	cop	_	_
 5	que	que	CCONJ	CONJ	_	8	mark	_	_
 6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -268,26 +268,26 @@
 8	estivesse	estar	VERB	VERB	_	3	csubj	_	_
 9	mais	mais	ADV	ADV	_	10	advmod	_	_
 10	tranquila	tranquilo	ADJ	ADJ	_	8	xcomp	_	_
-11	nesta	_	ADP	ADP	_	14	case	_	_
-12	sexta	_	ADJ	ADJ	_	14	amod	_	_
-13	-	-	PUNCT	.	_	14	punct	_	_
-14	feira	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
-15	,	,	PUNCT	.	_	17	punct	_	_
-16	mas	mas	CCONJ	CONJ	_	17	cc	_	_
-17	surgiram	surgir	VERB	VERB	_	3	conj	_	_
-18	diversos	_	DET	DET	_	19	det	_	_
-19	focos	foco	NOUN	NOUN	_	17	nsubj	_	_
-20	de	de	ADP	ADP	_	21	case	_	_
-21	incêndio	incêndio	NOUN	NOUN	_	19	nmod	_	_
-22	em	em	ADP	ADP	_	23	case	_	_
-23	pontos	ponto	NOUN	NOUN	_	19	nmod	_	_
-24	de	de	ADP	ADP	_	26	case	_	_
-25	difícil	difícil	ADJ	ADJ	_	26	amod	_	_
-26	acesso	acesso	NOUN	NOUN	_	23	nmod	_	SpaceAfter=No
-27	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
-28	,	,	PUNCT	.	_	29	punct	_	_
-29	contou	contar	VERB	VERB	_	0	root	_	_
-30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-31	Major	_	PROPN	PNOUN	_	29	nsubj	_	SpaceAfter=No
-32	.	.	PUNCT	.	_	29	punct	_	_
+11	nesta	_	ADP	ADP	_	13	case	_	_
+12-13	sexta-feira	_	_	_	_	_	_	_	SpaceAfter=No
+12	sexta	_	ADJ	ADJ	_	13	amod	_	_
+13	feira	_	PROPN	PNOUN	_	8	nmod	_	_
+14	,	,	PUNCT	.	_	16	punct	_	_
+15	mas	mas	CCONJ	CONJ	_	16	cc	_	_
+16	surgiram	surgir	VERB	VERB	_	3	conj	_	_
+17	diversos	_	DET	DET	_	18	det	_	_
+18	focos	foco	NOUN	NOUN	_	16	nsubj	_	_
+19	de	de	ADP	ADP	_	20	case	_	_
+20	incêndio	incêndio	NOUN	NOUN	_	18	nmod	_	_
+21	em	em	ADP	ADP	_	22	case	_	_
+22	pontos	ponto	NOUN	NOUN	_	18	nmod	_	_
+23	de	de	ADP	ADP	_	25	case	_	_
+24	difícil	difícil	ADJ	ADJ	_	25	amod	_	_
+25	acesso	acesso	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
+26	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
+27	,	,	PUNCT	.	_	28	punct	_	_
+28	contou	contar	VERB	VERB	_	0	root	_	_
+29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	Major	_	PROPN	PNOUN	_	28	nsubj	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	28	punct	_	_
 

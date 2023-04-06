@@ -23,23 +23,23 @@
 19	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = dev-s933
-# text = O telefone 3431-2686 e o e - mail cpae@unesc.net também estão disponíveis para mais informações.
+# text = O telefone 3431-2686 e o e-mail cpae@unesc.net também estão disponíveis para mais informações.
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	telefone	telefone	NOUN	NOUN	_	11	nsubj	_	_
+2	telefone	telefone	NOUN	NOUN	_	10	nsubj	_	_
 3	3431-2686	_	NUM	NUM	NumType=Card	2	appos	_	_
-4	e	e	CCONJ	CONJ	_	8	cc	_	_
-5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-6	e	_	ADJ	ADJ	_	8	amod	_	_
-7	-	-	PUNCT	.	_	8	punct	_	_
-8	mail	mail	NOUN	NOUN	_	2	conj	_	_
-9	cpae@unesc.net	_	X	X	_	8	appos	_	_
-10	também	também	ADV	ADV	_	11	advmod	_	_
-11	estão	estar	VERB	VERB	_	0	root	_	_
-12	disponíveis	disponível	ADJ	ADJ	_	11	xcomp	_	_
-13	para	para	ADP	ADP	_	15	case	_	_
-14	mais	_	DET	DET	_	15	det	_	_
-15	informações	informação	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
-16	.	.	PUNCT	.	_	11	punct	_	_
+4	e	e	CCONJ	CONJ	_	7	cc	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6-7	e-mail	_	_	_	_	_	_	_	_
+6	e	_	ADJ	ADJ	_	7	amod	_	_
+7	mail	mail	NOUN	NOUN	_	2	conj	_	_
+8	cpae@unesc.net	_	X	X	_	7	appos	_	_
+9	também	também	ADV	ADV	_	10	advmod	_	_
+10	estão	estar	VERB	VERB	_	0	root	_	_
+11	disponíveis	disponível	ADJ	ADJ	_	10	xcomp	_	_
+12	para	para	ADP	ADP	_	14	case	_	_
+13	mais	_	DET	DET	_	14	det	_	_
+14	informações	informação	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = dev-s934
 # text = Na ocasião, ele denunciou o aterro dum córrego com mais de quatro metros pela empresa registrada no nome de Dailton Perim, de CNPJ 450141837-00, com licença apenas para atividade de pátio de estocagem, armazém ou depósito de material de construção.
@@ -203,7 +203,7 @@
 15	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = dev-s940
-# text = Cerca de mil pessoas já estão inscritas para participar do encontro, entre prefeitos, vice - prefeitos, secretários municipais, secretários, dirigentes e técnicos do governo estadual, entre outros.
+# text = Cerca de mil pessoas já estão inscritas para participar do encontro, entre prefeitos, vice-prefeitos, secretários municipais, secretários, dirigentes e técnicos do governo estadual, entre outros.
 1	Cerca	cerca	ADV	ADV	_	3	advmod	_	_
 2	de	de	ADP	ADP	_	1	case	_	_
 3	mil	_	NUM	NUM	NumType=Card	4	nummod	_	_
@@ -221,27 +221,27 @@
 14	entre	_	ADP	ADP	_	15	case	_	_
 15	prefeitos	prefeito	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	.	_	17	punct	_	_
+17-18	vice-prefeitos	_	_	_	_	_	_	_	SpaceAfter=No
 17	vice	_	PART	PRT	_	15	conj	_	_
-18	-	-	PUNCT	.	_	17	punct	_	_
-19	prefeitos	prefeito	NOUN	NOUN	_	17	flat	_	SpaceAfter=No
-20	,	,	PUNCT	.	_	21	punct	_	_
-21	secretários	secretário	NOUN	NOUN	_	15	conj	_	_
-22	municipais	municipal	ADJ	ADJ	_	21	amod	_	SpaceAfter=No
-23	,	,	PUNCT	.	_	24	punct	_	_
-24	secretários	secretário	NOUN	NOUN	_	15	conj	_	SpaceAfter=No
-25	,	,	PUNCT	.	_	26	punct	_	_
-26	dirigentes	dirigente	NOUN	NOUN	_	15	conj	_	_
-27	e	e	CCONJ	CONJ	_	28	cc	_	_
-28	técnicos	técnico	NOUN	NOUN	_	15	conj	_	_
-29-30	do	_	_	_	_	_	_	_	_
-29	de	de	ADP	ADP	_	31	case	_	_
-30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-31	governo	governo	NOUN	NOUN	_	28	nmod	_	_
-32	estadual	estadual	ADJ	ADJ	_	31	amod	_	SpaceAfter=No
-33	,	,	PUNCT	.	_	35	punct	_	_
-34	entre	_	ADP	ADP	_	35	case	_	_
-35	outros	_	PRON	PRON	_	15	nmod	_	SpaceAfter=No
-36	.	.	PUNCT	.	_	6	punct	_	_
+18	prefeitos	prefeito	NOUN	NOUN	_	17	flat	_	_
+19	,	,	PUNCT	.	_	20	punct	_	_
+20	secretários	secretário	NOUN	NOUN	_	15	conj	_	_
+21	municipais	municipal	ADJ	ADJ	_	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	.	_	23	punct	_	_
+23	secretários	secretário	NOUN	NOUN	_	15	conj	_	SpaceAfter=No
+24	,	,	PUNCT	.	_	25	punct	_	_
+25	dirigentes	dirigente	NOUN	NOUN	_	15	conj	_	_
+26	e	e	CCONJ	CONJ	_	27	cc	_	_
+27	técnicos	técnico	NOUN	NOUN	_	15	conj	_	_
+28-29	do	_	_	_	_	_	_	_	_
+28	de	de	ADP	ADP	_	30	case	_	_
+29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	governo	governo	NOUN	NOUN	_	27	nmod	_	_
+31	estadual	estadual	ADJ	ADJ	_	30	amod	_	SpaceAfter=No
+32	,	,	PUNCT	.	_	34	punct	_	_
+33	entre	_	ADP	ADP	_	34	case	_	_
+34	outros	_	PRON	PRON	_	15	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = dev-s941
 # text = A estrada está interrompida.

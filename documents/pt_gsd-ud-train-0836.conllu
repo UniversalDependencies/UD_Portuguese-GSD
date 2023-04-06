@@ -1,5 +1,5 @@
 # sent_id = train-s8300
-# text = Kwak Tae Hwi e Lee Dong Gook mexeram no placar para os sul - coreanos.
+# text = Kwak Tae Hwi e Lee Dong Gook mexeram no placar para os sul-coreanos.
 1	Kwak	_	PROPN	PNOUN	_	8	nsubj	_	_
 2	Tae	_	PROPN	PNOUN	_	1	flat	_	_
 3	Hwi	_	PROPN	PNOUN	_	1	flat	_	_
@@ -12,12 +12,12 @@
 9	em	em	ADP	ADP	_	11	case	_	_
 10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	placar	placar	NOUN	NOUN	_	8	nmod	_	_
-12	para	para	ADP	ADP	_	16	case	_	_
-13	os	o	DET	DET	_	16	det	_	_
-14	sul	sul	ADJ	ADJ	_	16	amod	_	_
-15	-	-	PUNCT	.	_	16	punct	_	_
-16	coreanos	coreano	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-17	.	.	PUNCT	.	_	8	punct	_	_
+12	para	para	ADP	ADP	_	15	case	_	_
+13	os	o	DET	DET	_	15	det	_	_
+14-15	sul-coreanos	_	_	_	_	_	_	_	SpaceAfter=No
+14	sul	sul	ADJ	ADJ	_	15	amod	_	_
+15	coreanos	coreano	NOUN	NOUN	_	8	nmod	_	_
+16	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s8301
 # text = O quadro de Avellaneda voltará a campo no próximo domingo, quando enfrentará o Belgrano fora de casa.
@@ -164,7 +164,7 @@
 10	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s8306
-# text = O princípio da história de Sabará está ligado à descoberta de ouro na região, então conhecida como Sabarabuçu, em finais do século XVII e à presença de Borba Gato, que ali permaneceu após a morte de Fernão Dias e que veio a ser o seu primeiro guarda - mor.
+# text = O princípio da história de Sabará está ligado à descoberta de ouro na região, então conhecida como Sabarabuçu, em finais do século XVII e à presença de Borba Gato, que ali permaneceu após a morte de Fernão Dias e que veio a ser o seu primeiro guarda-mor.
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	princípio	princípio	NOUN	NOUN	_	8	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -224,10 +224,10 @@
 52	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
 53	seu	_	DET	DET	_	55	det:poss	_	_
 54	primeiro	primeiro	ADJ	ADJ	_	55	amod	_	_
+55-56	guarda-mor	_	_	_	_	_	_	_	SpaceAfter=No
 55	guarda	guarda	NOUN	NOUN	_	40	conj	_	_
-56	-	-	PUNCT	.	_	55	punct	_	_
-57	mor	mor	ADJ	ADJ	_	55	amod	_	SpaceAfter=No
-58	.	.	PUNCT	.	_	8	punct	_	_
+56	mor	mor	ADJ	ADJ	_	55	amod	_	_
+57	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s8307
 # text = Para obter a percepção da verdadeira realidade, o discípulo deve aprender técnicas de concentração e meditação, que proporcionam um estado de percepção elevado.

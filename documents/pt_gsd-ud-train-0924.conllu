@@ -32,7 +32,7 @@
 18	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = train-s9171
-# text = Cadastre-se e receba as matérias por e - mail.
+# text = Cadastre-se e receba as matérias por e-mail.
 1-2	Cadastre-se	_	_	_	_	_	_	_	_
 1	Cadastre	cadastrar	VERB	VERB	_	0	root	_	_
 2	se	_	PRON	PRON	_	1	obj	_	_
@@ -40,14 +40,14 @@
 4	receba	receber	VERB	VERB	_	1	conj	_	_
 5	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
 6	matérias	matéria	NOUN	NOUN	_	4	obj	_	_
-7	por	por	ADP	ADP	_	10	case	_	_
-8	e	_	ADJ	ADJ	_	10	amod	_	_
-9	-	-	PUNCT	.	_	10	punct	_	_
-10	mail	mail	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
-11	.	.	PUNCT	.	_	1	punct	_	_
+7	por	por	ADP	ADP	_	9	case	_	_
+8-9	e-mail	_	_	_	_	_	_	_	SpaceAfter=No
+8	e	_	ADJ	ADJ	_	9	amod	_	_
+9	mail	mail	NOUN	NOUN	_	4	nmod	_	_
+10	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s9172
-# text = Jones, de seu lado, expressou toda a sua admiração por Belfort ao defini - lo como um dos grandes de todos os tempos:
+# text = Jones, de seu lado, expressou toda a sua admiração por Belfort ao defini-lo como um dos grandes de todos os tempos:
 1	Jones	_	PROPN	PNOUN	_	7	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	.	_	5	punct	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -64,20 +64,20 @@
 14-15	ao	_	_	_	_	_	_	_	_
 14	a	a	ADP	ADP	_	16	case	_	_
 15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16-17	defini-lo	_	_	_	_	_	_	_	_
 16	defini	definir	VERB	VERB	_	7	advcl	_	_
-17	-	-	PUNCT	.	_	16	punct	_	_
-18	lo	_	PRON	PRON	_	16	obj	_	_
-19	como	como	ADP	ADP	_	20	case	_	_
-20	um	_	PRON	PRON	_	16	nmod	_	_
-21-22	dos	_	_	_	_	_	_	_	_
-21	de	de	ADP	ADP	_	23	case	_	_
-22	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
-23	grandes	grande	NOUN	NOUN	_	20	nmod	_	_
-24	de	de	ADP	ADP	_	27	case	_	_
-25	todos	_	DET	DET	_	27	det	_	_
-26	os	o	DET	DET	_	27	det	_	_
-27	tempos	tempo	NOUN	NOUN	_	23	nmod	_	SpaceAfter=No
-28	:	:	PUNCT	.	_	7	punct	_	_
+17	lo	_	PRON	PRON	_	16	obj	_	_
+18	como	como	ADP	ADP	_	19	case	_	_
+19	um	_	PRON	PRON	_	16	nmod	_	_
+20-21	dos	_	_	_	_	_	_	_	_
+20	de	de	ADP	ADP	_	22	case	_	_
+21	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	grandes	grande	NOUN	NOUN	_	19	nmod	_	_
+23	de	de	ADP	ADP	_	26	case	_	_
+24	todos	_	DET	DET	_	26	det	_	_
+25	os	o	DET	DET	_	26	det	_	_
+26	tempos	tempo	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
+27	:	:	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s9173
 # text = O leite materno é um dos maiores aliados no combate à mortalidade infantil.
@@ -138,7 +138,7 @@
 31	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = train-s9175
-# text = Rei da Escócia em 12 de novembro de 1094 em conjunto com o tio (dizia-se primos, na época) Donaldo III, pois com ajuda inglesa e normanda o ajudou a depor o meio - irmão Duncan II.
+# text = Rei da Escócia em 12 de novembro de 1094 em conjunto com o tio (dizia-se primos, na época) Donaldo III, pois com ajuda inglesa e normanda o ajudou a depor o meio-irmão Duncan II.
 1	Rei	_	PROPN	PNOUN	_	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	ADP	_	4	case	_	_
@@ -179,13 +179,13 @@
 35	ajudou	ajudar	VERB	VERB	_	1	advcl	_	_
 36	a	_	ADP	ADP	_	37	mark	_	_
 37	depor	depor	VERB	VERB	_	35	nmod	_	_
-38	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
-39	meio	meio	ADJ	ADJ	_	41	amod	_	_
-40	-	-	PUNCT	.	_	41	punct	_	_
-41	irmão	irmão	NOUN	NOUN	_	37	obj	_	_
-42	Duncan	_	PROPN	PNOUN	_	41	appos	_	_
-43	II	_	PROPN	PNOUN	_	42	amod	_	SpaceAfter=No
-44	.	.	PUNCT	.	_	1	punct	_	_
+38	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+39-40	meio-irmão	_	_	_	_	_	_	_	_
+39	meio	meio	ADJ	ADJ	_	40	amod	_	_
+40	irmão	irmão	NOUN	NOUN	_	37	obj	_	_
+41	Duncan	_	PROPN	PNOUN	_	40	appos	_	_
+42	II	_	PROPN	PNOUN	_	41	amod	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s9176
 # text = Esse tempo é necessário e fundamental para o time ganhar corpo e evoluir ", garantiu Tite, que terá pela frente nas semifinais do Mundial Auckland City, da Nova Zelândia, um representante africano ou o campeão japonês, sendo que os dois últimos seguem indefinidos.

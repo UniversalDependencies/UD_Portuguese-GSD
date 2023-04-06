@@ -23,22 +23,22 @@
 20	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s2075
-# text = Melhor procurá - lo em locais com bastante verde ", assegurou o diretor.
+# text = Melhor procurá-lo em locais com bastante verde ", assegurou o diretor.
 1	Melhor	melhor	ADJ	ADJ	_	2	dep	_	_
-2	procurá	procurar	VERB	VERB	_	12	ccomp	_	_
-3	-	-	PUNCT	.	_	2	punct	_	_
-4	lo	_	PRON	PRON	_	2	obj	_	_
-5	em	em	ADP	ADP	_	6	case	_	_
-6	locais	local	NOUN	NOUN	_	2	nmod	_	_
-7	com	com	ADP	ADP	_	9	case	_	_
-8	bastante	_	DET	DET	_	9	det	_	_
-9	verde	verde	NOUN	NOUN	_	6	nmod	_	_
-10	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
-11	,	,	PUNCT	.	_	2	punct	_	_
-12	assegurou	assegurar	VERB	VERB	_	0	root	_	_
-13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	diretor	diretor	NOUN	NOUN	_	12	nsubj	_	SpaceAfter=No
-15	.	.	PUNCT	.	_	12	punct	_	_
+2-3	procurá-lo	_	_	_	_	_	_	_	_
+2	procurá	procurar	VERB	VERB	_	11	ccomp	_	_
+3	lo	_	PRON	PRON	_	2	obj	_	_
+4	em	em	ADP	ADP	_	5	case	_	_
+5	locais	local	NOUN	NOUN	_	2	nmod	_	_
+6	com	com	ADP	ADP	_	8	case	_	_
+7	bastante	_	DET	DET	_	8	det	_	_
+8	verde	verde	NOUN	NOUN	_	5	nmod	_	_
+9	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	2	punct	_	_
+11	assegurou	assegurar	VERB	VERB	_	0	root	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	diretor	diretor	NOUN	NOUN	_	11	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s2076
 # text = Essa situação agora estava do outro lado.
@@ -136,7 +136,7 @@
 72	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s2078
-# text = O candidato do PPS à prefeitura de Vitória, Luciano Rezende, foi entrevistado ao vivo nesta sexta - feira (21), no ESTV 1 ª Edição, pelos apresentadores Philipe Lemos e Mário Bonella.
+# text = O candidato do PPS à prefeitura de Vitória, Luciano Rezende, foi entrevistado ao vivo nesta sexta-feira (21), no ESTV 1 ª Edição, pelos apresentadores Philipe Lemos e Mário Bonella.
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	candidato	candidato	NOUN	NOUN	_	16	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -159,32 +159,32 @@
 17	a	a	ADP	ADP	_	19	case	_	_
 18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	vivo	vivo	ADJ	ADJ	_	16	nmod	_	_
-20	nesta	_	ADP	ADP	_	23	case	_	_
-21	sexta	_	PROPN	PNOUN	_	23	amod	_	_
-22	-	-	PUNCT	.	_	23	punct	_	_
-23	feira	_	PROPN	PNOUN	_	16	nmod	_	_
-24	(	(	PUNCT	.	_	25	punct	_	SpaceAfter=No
-25	21	21	NUM	NUM	NumType=Card	23	nmod	_	SpaceAfter=No
-26	)	)	PUNCT	.	_	25	punct	_	SpaceAfter=No
-27	,	,	PUNCT	.	_	30	punct	_	_
-28-29	no	_	_	_	_	_	_	_	_
-28	em	em	ADP	ADP	_	30	case	_	_
-29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
-30	ESTV	_	PROPN	PNOUN	_	16	nmod	_	_
-31	1	_	ADJ	ADJ	_	33	amod	_	_
-32	ª	_	PUNCT	.	_	31	punct	_	_
-33	Edição	_	PROPN	PNOUN	_	30	appos	_	SpaceAfter=No
-34	,	,	PUNCT	.	_	37	punct	_	_
-35-36	pelos	_	_	_	_	_	_	_	_
-35	por	por	ADP	ADP	_	37	case	_	_
-36	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
-37	apresentadores	apresentador	NOUN	NOUN	_	16	nmod	_	_
-38	Philipe	_	PROPN	PNOUN	_	37	appos	_	_
-39	Lemos	_	PROPN	PNOUN	_	38	flat	_	_
-40	e	e	CCONJ	CONJ	_	41	cc	_	_
-41	Mário	_	PROPN	PNOUN	_	38	conj	_	_
-42	Bonella	_	PROPN	PNOUN	_	41	flat	_	SpaceAfter=No
-43	.	.	PUNCT	.	_	16	punct	_	_
+20	nesta	_	ADP	ADP	_	22	case	_	_
+21-22	sexta-feira	_	_	_	_	_	_	_	_
+21	sexta	_	PROPN	PNOUN	_	22	amod	_	_
+22	feira	_	PROPN	PNOUN	_	16	nmod	_	_
+23	(	(	PUNCT	.	_	24	punct	_	SpaceAfter=No
+24	21	21	NUM	NUM	NumType=Card	22	nmod	_	SpaceAfter=No
+25	)	)	PUNCT	.	_	24	punct	_	SpaceAfter=No
+26	,	,	PUNCT	.	_	29	punct	_	_
+27-28	no	_	_	_	_	_	_	_	_
+27	em	em	ADP	ADP	_	29	case	_	_
+28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	ESTV	_	PROPN	PNOUN	_	16	nmod	_	_
+30	1	_	ADJ	ADJ	_	32	amod	_	_
+31	ª	_	PUNCT	.	_	30	punct	_	_
+32	Edição	_	PROPN	PNOUN	_	29	appos	_	SpaceAfter=No
+33	,	,	PUNCT	.	_	36	punct	_	_
+34-35	pelos	_	_	_	_	_	_	_	_
+34	por	por	ADP	ADP	_	36	case	_	_
+35	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	apresentadores	apresentador	NOUN	NOUN	_	16	nmod	_	_
+37	Philipe	_	PROPN	PNOUN	_	36	appos	_	_
+38	Lemos	_	PROPN	PNOUN	_	37	flat	_	_
+39	e	e	CCONJ	CONJ	_	40	cc	_	_
+40	Mário	_	PROPN	PNOUN	_	37	conj	_	_
+41	Bonella	_	PROPN	PNOUN	_	40	flat	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	16	punct	_	_
 
 # sent_id = train-s2079
 # text = Para isso, tenho de continuar fazendo o meu melhor no Santos -- comemorou.

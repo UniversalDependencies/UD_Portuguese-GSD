@@ -69,7 +69,7 @@
 61	.	.	PUNCT	.	_	27	punct	_	_
 
 # sent_id = train-s6423
-# text = Mas nada de desespero, a cantora, que dia desses postou foto em que aparentava estar mais cheinha, voltou nesta terça - feira, 25, para a academia.
+# text = Mas nada de desespero, a cantora, que dia desses postou foto em que aparentava estar mais cheinha, voltou nesta terça-feira, 25, para a academia.
 1	Mas	_	CCONJ	CONJ	_	21	cc	_	_
 2	nada	_	PRON	PRON	_	21	dep	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
@@ -91,17 +91,17 @@
 19	cheinha	cheio	ADJ	ADJ	_	17	xcomp	_	SpaceAfter=No
 20	,	,	PUNCT	.	_	12	punct	_	_
 21	voltou	voltar	VERB	VERB	_	0	root	_	_
-22	nesta	_	ADP	ADP	_	25	case	_	_
-23	terça	_	PROPN	PNOUN	_	25	amod	_	_
-24	-	-	PUNCT	.	_	25	punct	_	_
-25	feira	_	PROPN	PNOUN	_	21	nmod	_	SpaceAfter=No
-26	,	,	PUNCT	.	_	27	punct	_	_
-27	25	25	NUM	NUM	NumType=Card	25	nmod	_	SpaceAfter=No
-28	,	,	PUNCT	.	_	27	punct	_	_
-29	para	para	ADP	ADP	_	31	case	_	_
-30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-31	academia	academia	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
-32	.	.	PUNCT	.	_	21	punct	_	_
+22	nesta	_	ADP	ADP	_	24	case	_	_
+23-24	terça-feira	_	_	_	_	_	_	_	SpaceAfter=No
+23	terça	_	PROPN	PNOUN	_	24	amod	_	_
+24	feira	_	PROPN	PNOUN	_	21	nmod	_	_
+25	,	,	PUNCT	.	_	26	punct	_	_
+26	25	25	NUM	NUM	NumType=Card	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	.	_	26	punct	_	_
+28	para	para	ADP	ADP	_	30	case	_	_
+29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	academia	academia	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	21	punct	_	_
 
 # sent_id = train-s6424
 # text = Segundo Mejía, embora nalguns centros arqueológicos os sacerdotes concordem com as atividades oficiais, não participam delas, e nalguns sítios como Kaminal Juyu, a oeste da capital, coordenaram com as autoridades para alternar seu uso.
@@ -251,9 +251,9 @@
 12	de	de	ADP	ADP	_	14	case	_	_
 13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	SPA	_	PROPN	PNOUN	_	10	nmod	_	_
-15	Brasil	_	PROPN	PNOUN	_	14	flat	_	_
-16	-	-	PUNCT	.	_	14	punct	_	_
-17	RJ	_	PROPN	PNOUN	_	14	flat	_	SpaceAfter=No
+15	Brasil	_	PROPN	PNOUN	_	14	flat	_	ToDo=NonCatenaCompound
+16	-	-	PUNCT	.	_	14	punct	_	ToDo=NonCatenaCompound
+17	RJ	_	PROPN	PNOUN	_	14	flat	_	SpaceAfter=No|ToDo=NonCatenaCompound
 18	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s6428

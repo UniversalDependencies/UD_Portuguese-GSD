@@ -46,7 +46,7 @@
 15	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = test-s877
-# text = Outra grande esperança do cinema português é o talento dos jovens cineastas, caso de Miguel Gomes, diretor de Tabu, que abriu a mostra na noite desta quarta - feira (03).
+# text = Outra grande esperança do cinema português é o talento dos jovens cineastas, caso de Miguel Gomes, diretor de Tabu, que abriu a mostra na noite desta quarta-feira (03).
 1	Outra	_	DET	DET	_	3	det	_	_
 2	grande	grande	ADJ	ADJ	_	3	amod	_	_
 3	esperança	esperança	NOUN	NOUN	_	10	nsubj	_	_
@@ -81,14 +81,14 @@
 29	em	em	ADP	ADP	_	31	case	_	_
 30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	noite	noite	NOUN	NOUN	_	26	nmod	_	_
-32	desta	_	ADP	ADP	_	35	case	_	_
-33	quarta	_	PROPN	PNOUN	_	35	amod	_	_
-34	-	-	PUNCT	.	_	35	punct	_	_
-35	feira	_	PROPN	PNOUN	_	31	nmod	_	_
-36	(	(	PUNCT	.	_	37	punct	_	SpaceAfter=No
-37	03	03	NUM	NUM	NumType=Card	35	nmod	_	SpaceAfter=No
-38	)	)	PUNCT	.	_	37	punct	_	SpaceAfter=No
-39	.	.	PUNCT	.	_	10	punct	_	_
+32	desta	_	ADP	ADP	_	34	case	_	_
+33-34	quarta-feira	_	_	_	_	_	_	_	_
+33	quarta	_	PROPN	PNOUN	_	34	amod	_	_
+34	feira	_	PROPN	PNOUN	_	31	nmod	_	_
+35	(	(	PUNCT	.	_	36	punct	_	SpaceAfter=No
+36	03	03	NUM	NUM	NumType=Card	34	nmod	_	SpaceAfter=No
+37	)	)	PUNCT	.	_	36	punct	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = test-s878
 # text = Daí nasceu o livro de 1960 "Dimensions de la conscience historique" (ou Dimensões da Consciência Histórica).
@@ -117,23 +117,23 @@
 22	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = test-s879
-# text = O mistério sobre o ganhador da Mega - Sena de Curitiba foi desfeito.
+# text = O mistério sobre o ganhador da Mega-Sena de Curitiba foi desfeito.
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	mistério	mistério	NOUN	NOUN	_	14	nsubj:pass	_	_
+2	mistério	mistério	NOUN	NOUN	_	13	nsubj:pass	_	_
 3	sobre	_	ADP	ADP	_	5	case	_	_
 4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	ganhador	ganhador	NOUN	NOUN	_	2	nmod	_	_
 6-7	da	_	_	_	_	_	_	_	_
-6	de	de	ADP	ADP	_	10	case	_	_
-7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-8	Mega	_	PROPN	PNOUN	_	10	amod	_	_
-9	-	-	PUNCT	.	_	10	punct	_	_
-10	Sena	_	PROPN	PNOUN	_	5	nmod	_	_
-11	de	de	ADP	ADP	_	12	case	_	_
-12	Curitiba	_	PROPN	PNOUN	_	10	nmod	_	_
-13	foi	_	AUX	AUX	_	14	aux:pass	_	_
-14	desfeito	desfazer	VERB	VERB	_	0	root	_	SpaceAfter=No
-15	.	.	PUNCT	.	_	14	punct	_	_
+6	de	de	ADP	ADP	_	9	case	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8-9	Mega-Sena	_	_	_	_	_	_	_	_
+8	Mega	_	PROPN	PNOUN	_	9	amod	_	_
+9	Sena	_	PROPN	PNOUN	_	5	nmod	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
+11	Curitiba	_	PROPN	PNOUN	_	9	nmod	_	_
+12	foi	_	AUX	AUX	_	13	aux:pass	_	_
+13	desfeito	desfazer	VERB	VERB	_	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = test-s880
 # text = "Um alvo são as estruturas que propiciam a resistência a antibióticos", afirma.
@@ -155,38 +155,38 @@
 16	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = test-s881
-# text = A função desta pré - fusão é tornar quaisquer componentes solúveis ou tóxicos em componentes insolúveis, através da sua combinação com a sílica e outros óxidos adicionados.
+# text = A função desta pré-fusão é tornar quaisquer componentes solúveis ou tóxicos em componentes insolúveis, através da sua combinação com a sílica e outros óxidos adicionados.
 1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	função	função	NOUN	NOUN	_	0	root	_	_
 3	desta	_	ADP	ADP	_	4	case	_	_
+4-5	pré-fusão	_	_	_	_	_	_	_	_
 4	pré	_	PART	PRT	_	2	nmod	_	_
-5	-	-	PUNCT	.	_	4	punct	_	_
-6	fusão	fusão	NOUN	NOUN	_	4	flat	_	_
-7	é	ser	AUX	AUX	_	2	cop	_	_
-8	tornar	tornar	VERB	VERB	_	2	csubj	_	_
-9	quaisquer	_	DET	DET	_	10	det	_	_
-10	componentes	componente	NOUN	NOUN	_	8	obj	_	_
-11	solúveis	solúvel	ADJ	ADJ	_	10	amod	_	_
-12	ou	ou	CCONJ	CONJ	_	13	cc	_	_
-13	tóxicos	tóxico	ADJ	ADJ	_	11	conj	_	_
-14	em	em	ADP	ADP	_	15	case	_	_
-15	componentes	componente	NOUN	NOUN	_	8	nmod	_	_
-16	insolúveis	insolúvel	ADJ	ADJ	_	15	amod	_	SpaceAfter=No
-17	,	,	PUNCT	.	_	18	punct	_	_
-18	através	através	ADV	ADV	_	8	advmod	_	_
-19-20	da	_	_	_	_	_	_	_	_
-19	de	de	ADP	ADP	_	22	case	_	_
-20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-21	sua	_	DET	DET	_	22	det:poss	_	_
-22	combinação	combinação	NOUN	NOUN	_	18	nmod	_	_
-23	com	com	ADP	ADP	_	25	case	_	_
-24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-25	sílica	sílica	NOUN	NOUN	_	22	nmod	_	_
-26	e	e	CCONJ	CONJ	_	28	cc	_	_
-27	outros	_	DET	DET	_	28	det	_	_
-28	óxidos	óxido	NOUN	NOUN	_	25	conj	_	_
-29	adicionados	adicionar	VERB	VERB	_	28	acl	_	SpaceAfter=No
-30	.	.	PUNCT	.	_	2	punct	_	_
+5	fusão	fusão	NOUN	NOUN	_	4	flat	_	_
+6	é	ser	AUX	AUX	_	2	cop	_	_
+7	tornar	tornar	VERB	VERB	_	2	csubj	_	_
+8	quaisquer	_	DET	DET	_	9	det	_	_
+9	componentes	componente	NOUN	NOUN	_	7	obj	_	_
+10	solúveis	solúvel	ADJ	ADJ	_	9	amod	_	_
+11	ou	ou	CCONJ	CONJ	_	12	cc	_	_
+12	tóxicos	tóxico	ADJ	ADJ	_	10	conj	_	_
+13	em	em	ADP	ADP	_	14	case	_	_
+14	componentes	componente	NOUN	NOUN	_	7	nmod	_	_
+15	insolúveis	insolúvel	ADJ	ADJ	_	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	.	_	17	punct	_	_
+17	através	através	ADV	ADV	_	7	advmod	_	_
+18-19	da	_	_	_	_	_	_	_	_
+18	de	de	ADP	ADP	_	21	case	_	_
+19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	sua	_	DET	DET	_	21	det:poss	_	_
+21	combinação	combinação	NOUN	NOUN	_	17	nmod	_	_
+22	com	com	ADP	ADP	_	24	case	_	_
+23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	sílica	sílica	NOUN	NOUN	_	21	nmod	_	_
+25	e	e	CCONJ	CONJ	_	27	cc	_	_
+26	outros	_	DET	DET	_	27	det	_	_
+27	óxidos	óxido	NOUN	NOUN	_	24	conj	_	_
+28	adicionados	adicionar	VERB	VERB	_	27	acl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = test-s882
 # text = Ambos os governos defendem a busca pelo diálogo e medidas pacíficas como solução para impasses.

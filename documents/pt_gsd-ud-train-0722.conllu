@@ -173,7 +173,7 @@
 29	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s7172
-# text = Vale ressaltar que, de acordo com participantes do DA em São Paulo, a maior parte dos que procuram ajuda são pessoas bem - sucedidas, de classes sociais elevadas.
+# text = Vale ressaltar que, de acordo com participantes do DA em São Paulo, a maior parte dos que procuram ajuda são pessoas bem-sucedidas, de classes sociais elevadas.
 1	Vale	_	VERB	VERB	_	0	root	_	_
 2	ressaltar	ressaltar	VERB	VERB	_	1	csubj	_	_
 3	que	que	CCONJ	CONJ	_	24	mark	_	SpaceAfter=No
@@ -199,15 +199,15 @@
 22	ajuda	ajuda	NOUN	NOUN	_	21	obj	_	_
 23	são	ser	AUX	AUX	_	24	cop	_	_
 24	pessoas	pessoa	NOUN	NOUN	_	2	ccomp	_	_
-25	bem	bem	ADV	ADV	_	27	advmod	_	_
-26	-	-	PUNCT	.	_	27	punct	_	_
-27	sucedidas	sucedido	ADJ	ADJ	_	24	amod	_	SpaceAfter=No
-28	,	,	PUNCT	.	_	30	punct	_	_
-29	de	de	ADP	ADP	_	30	case	_	_
-30	classes	classe	NOUN	NOUN	_	24	nmod	_	_
-31	sociais	social	ADJ	ADJ	_	30	amod	_	_
-32	elevadas	elevado	ADJ	ADJ	_	30	amod	_	SpaceAfter=No
-33	.	.	PUNCT	.	_	1	punct	_	_
+25-26	bem-sucedidas	_	_	_	_	_	_	_	SpaceAfter=No
+25	bem	bem	ADV	ADV	_	26	advmod	_	_
+26	sucedidas	sucedido	ADJ	ADJ	_	24	amod	_	_
+27	,	,	PUNCT	.	_	29	punct	_	_
+28	de	de	ADP	ADP	_	29	case	_	_
+29	classes	classe	NOUN	NOUN	_	24	nmod	_	_
+30	sociais	social	ADJ	ADJ	_	29	amod	_	_
+31	elevadas	elevado	ADJ	ADJ	_	29	amod	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s7173
 # text = Já o atleta do Inter foi escalado oito vezes e balançou a rede uma única vez.
@@ -235,9 +235,9 @@
 # text = O Paris Saint - Germain prepara uma oferta tentadora para tirar Cristiano Ronaldo do Real Madrid.
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Paris	_	PROPN	PNOUN	_	6	nsubj	_	_
-3	Saint	_	PROPN	PNOUN	_	2	flat	_	_
-4	-	-	PUNCT	.	_	2	punct	_	_
-5	Germain	_	PROPN	PNOUN	_	2	flat	_	_
+3	Saint	_	PROPN	PNOUN	_	2	flat	_	ToDo=NonCatenaCompound
+4	-	-	PUNCT	.	_	2	punct	_	ToDo=NonCatenaCompound
+5	Germain	_	PROPN	PNOUN	_	2	flat	_	ToDo=NonCatenaCompound
 6	prepara	preparar	VERB	VERB	_	0	root	_	_
 7	uma	um	DET	DET	_	8	det	_	_
 8	oferta	oferta	NOUN	NOUN	_	6	obj	_	_

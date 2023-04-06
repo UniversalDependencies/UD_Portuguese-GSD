@@ -14,7 +14,7 @@
 11	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s4088
-# text = No mesmo ano em que parou de jogar, tornou-se técnico da Seleção Iugoslava, permanecendo no cargo, até 2003, já da Seleção Servo - Montenegrina.
+# text = No mesmo ano em que parou de jogar, tornou-se técnico da Seleção Iugoslava, permanecendo no cargo, até 2003, já da Seleção Servo-Montenegrina.
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	ADP	_	4	case	_	_
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -50,10 +50,10 @@
 28	de	de	ADP	ADP	_	30	case	_	_
 29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	Seleção	_	PROPN	PNOUN	_	19	nmod	_	_
-31	Servo	_	PROPN	PNOUN	_	33	amod	_	_
-32	-	-	PUNCT	.	_	33	punct	_	_
-33	Montenegrina	_	PROPN	PNOUN	_	30	amod	_	SpaceAfter=No
-34	.	.	PUNCT	.	_	13	punct	_	_
+31-32	Servo-Montenegrina	_	_	_	_	_	_	_	SpaceAfter=No
+31	Servo	_	PROPN	PNOUN	_	32	amod	_	_
+32	Montenegrina	_	PROPN	PNOUN	_	30	amod	_	_
+33	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = train-s4089
 # text = A segunda deve ser aplicada 30 dias após a aplicação da primeira para a completa imunização contra a influenza.
@@ -233,7 +233,7 @@
 34	.	.	PUNCT	.	_	21	punct	_	_
 
 # sent_id = train-s4096
-# text = Ela vai atrás do mistério e, após descobrir, procurou o namorado e disse que gostaria de ajuda - lo a superar o trauma.
+# text = Ela vai atrás do mistério e, após descobrir, procurou o namorado e disse que gostaria de ajuda-lo a superar o trauma.
 1	Ela	_	PRON	PRON	_	2	nsubj	_	_
 2	vai	ir	VERB	VERB	_	0	root	_	_
 3	atrás	atrás	ADV	ADV	_	2	advmod	_	_
@@ -254,12 +254,12 @@
 17	que	que	CCONJ	CONJ	_	18	mark	_	_
 18	gostaria	gostar	VERB	VERB	_	16	ccomp	_	_
 19	de	_	ADP	ADP	_	20	mark	_	_
+20-21	ajuda-lo	_	_	_	_	_	_	_	_
 20	ajuda	ajuda	NOUN	NOUN	_	18	nmod	_	_
-21	-	-	PUNCT	.	_	20	punct	_	_
-22	lo	_	PRON	PRON	_	20	obj	_	_
-23	a	_	ADP	ADP	_	24	mark	_	_
-24	superar	superar	VERB	VERB	_	20	nmod	_	_
-25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	trauma	trauma	NOUN	NOUN	_	24	obj	_	SpaceAfter=No
-27	.	.	PUNCT	.	_	2	punct	_	_
+21	lo	_	PRON	PRON	_	20	obj	_	_
+22	a	_	ADP	ADP	_	23	mark	_	_
+23	superar	superar	VERB	VERB	_	20	nmod	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	trauma	trauma	NOUN	NOUN	_	23	obj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	2	punct	_	_
 

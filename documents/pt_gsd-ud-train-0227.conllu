@@ -66,7 +66,7 @@
 61	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s2254
-# text = A extremidade supérior de cada rim é coberta por uma glândula edócrina, a glândula supra - rena.
+# text = A extremidade supérior de cada rim é coberta por uma glândula edócrina, a glândula supra-rena.
 1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	extremidade	extremidade	NOUN	NOUN	_	8	nsubj:pass	_	_
 3	supérior	_	ADJ	ADJ	_	2	amod	_	_
@@ -82,10 +82,10 @@
 13	,	,	PUNCT	.	_	15	punct	_	_
 14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	glândula	glândula	NOUN	NOUN	_	11	appos	_	_
-16	supra	_	PART	PRT	_	18	amod	_	_
-17	-	-	PUNCT	.	_	18	punct	_	_
-18	rena	_	ADJ	ADJ	_	15	amod	_	SpaceAfter=No
-19	.	.	PUNCT	.	_	8	punct	_	_
+16-17	supra-rena	_	_	_	_	_	_	_	SpaceAfter=No
+16	supra	_	PART	PRT	_	17	amod	_	_
+17	rena	_	ADJ	ADJ	_	15	amod	_	_
+18	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s2255
 # text = E diziam que a rádio morreria com a chegada da TV.
@@ -230,30 +230,30 @@
 26	.	.	PUNCT	.	_	21	punct	_	_
 
 # sent_id = train-s2259
-# text = Cientistas franceses e norte - americanos construíram uma balança capaz de medir a massa de moléculas individuais, uma de cada vez.
-1	Cientistas	cientista	NOUN	NOUN	_	7	nsubj	_	_
+# text = Cientistas franceses e norte-americanos construíram uma balança capaz de medir a massa de moléculas individuais, uma de cada vez.
+1	Cientistas	cientista	NOUN	NOUN	_	6	nsubj	_	_
 2	franceses	francês	ADJ	ADJ	_	1	amod	_	_
-3	e	e	CCONJ	CONJ	_	6	cc	_	_
-4	norte	norte	ADJ	ADJ	_	6	amod	_	_
-5	-	-	PUNCT	.	_	6	punct	_	_
-6	americanos	americano	ADJ	ADJ	_	2	conj	_	_
-7	construíram	construir	VERB	VERB	_	0	root	_	_
-8	uma	um	DET	DET	_	9	det	_	_
-9	balança	balança	NOUN	NOUN	_	7	obj	_	_
-10	capaz	capaz	ADJ	ADJ	_	9	amod	_	_
-11	de	_	ADP	ADP	_	12	mark	_	_
-12	medir	medir	VERB	VERB	_	10	nmod	_	_
-13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	massa	massa	NOUN	NOUN	_	12	obj	_	_
-15	de	de	ADP	ADP	_	16	case	_	_
-16	moléculas	molécula	NOUN	NOUN	_	14	nmod	_	_
-17	individuais	individual	ADJ	ADJ	_	16	amod	_	SpaceAfter=No
-18	,	,	PUNCT	.	_	19	punct	_	_
-19	uma	_	NUM	NUM	NumType=Card	16	appos	_	_
-20	de	de	ADP	ADP	_	22	case	_	_
-21	cada	_	DET	DET	_	22	det	_	_
-22	vez	vez	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
-23	.	.	PUNCT	.	_	7	punct	_	_
+3	e	e	CCONJ	CONJ	_	5	cc	_	_
+4-5	norte-americanos	_	_	_	_	_	_	_	_
+4	norte	norte	ADJ	ADJ	_	5	amod	_	_
+5	americanos	americano	ADJ	ADJ	_	2	conj	_	_
+6	construíram	construir	VERB	VERB	_	0	root	_	_
+7	uma	um	DET	DET	_	8	det	_	_
+8	balança	balança	NOUN	NOUN	_	6	obj	_	_
+9	capaz	capaz	ADJ	ADJ	_	8	amod	_	_
+10	de	_	ADP	ADP	_	11	mark	_	_
+11	medir	medir	VERB	VERB	_	9	nmod	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	massa	massa	NOUN	NOUN	_	11	obj	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
+15	moléculas	molécula	NOUN	NOUN	_	13	nmod	_	_
+16	individuais	individual	ADJ	ADJ	_	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	.	_	18	punct	_	_
+18	uma	_	NUM	NUM	NumType=Card	15	appos	_	_
+19	de	de	ADP	ADP	_	21	case	_	_
+20	cada	_	DET	DET	_	21	det	_	_
+21	vez	vez	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s2260
 # text = Esse é o César que eu guardo no meu coração ", disse Daniel Estáquio de Oliveira.
@@ -279,33 +279,33 @@
 19	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = train-s2261
-# text = Os doze jogadores que defenderão o Brasil em Londres - 2012 embarcam ainda hoje para Washington, onde enfrentam os Estados Unidos, nesta segunda.
+# text = Os doze jogadores que defenderão o Brasil em Londres-2012 embarcam ainda hoje para Washington, onde enfrentam os Estados Unidos, nesta segunda.
 1	Os	o	DET	DET	_	3	det	_	_
 2	doze	_	NUM	NUM	NumType=Card	3	nummod	_	_
-3	jogadores	jogador	NOUN	NOUN	_	12	nsubj	_	_
+3	jogadores	jogador	NOUN	NOUN	_	11	nsubj	_	_
 4	que	_	PRON	PRON	_	5	nsubj	_	_
 5	defenderão	defender	VERB	VERB	_	3	acl:relcl	_	_
 6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Brasil	_	PROPN	PNOUN	_	5	obj	_	_
 8	em	em	ADP	ADP	_	9	case	_	_
+9-10	Londres-2012	_	_	_	_	_	_	_	_
 9	Londres	_	PROPN	PNOUN	_	5	nmod	_	_
-10	-	-	PUNCT	.	_	9	punct	_	_
-11	2012	2012	NUM	NUM	NumType=Card	9	nmod	_	_
-12	embarcam	embarcar	VERB	VERB	_	0	root	_	_
-13	ainda	ainda	ADV	ADV	_	14	advmod	_	_
-14	hoje	hoje	ADV	ADV	_	12	advmod	_	_
-15	para	para	ADP	ADP	_	16	case	_	_
-16	Washington	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
-17	,	,	PUNCT	.	_	19	punct	_	_
-18	onde	onde	ADV	ADV	_	19	advmod	_	_
-19	enfrentam	enfrentar	VERB	VERB	_	16	acl:relcl	_	_
-20	os	o	DET	DET	_	21	det	_	_
-21	Estados	_	PROPN	PNOUN	_	19	obj	_	_
-22	Unidos	_	PROPN	PNOUN	_	21	amod	_	SpaceAfter=No
-23	,	,	PUNCT	.	_	25	punct	_	_
-24	nesta	_	ADP	ADP	_	25	case	_	_
-25	segunda	_	PROPN	PNOUN	_	19	nmod	_	SpaceAfter=No
-26	.	.	PUNCT	.	_	12	punct	_	_
+10	2012	2012	NUM	NUM	NumType=Card	9	nmod	_	_
+11	embarcam	embarcar	VERB	VERB	_	0	root	_	_
+12	ainda	ainda	ADV	ADV	_	13	advmod	_	_
+13	hoje	hoje	ADV	ADV	_	11	advmod	_	_
+14	para	para	ADP	ADP	_	15	case	_	_
+15	Washington	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	.	_	18	punct	_	_
+17	onde	onde	ADV	ADV	_	18	advmod	_	_
+18	enfrentam	enfrentar	VERB	VERB	_	15	acl:relcl	_	_
+19	os	o	DET	DET	_	20	det	_	_
+20	Estados	_	PROPN	PNOUN	_	18	obj	_	_
+21	Unidos	_	PROPN	PNOUN	_	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	.	_	24	punct	_	_
+23	nesta	_	ADP	ADP	_	24	case	_	_
+24	segunda	_	PROPN	PNOUN	_	18	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s2262
 # text = Logo aos dois minutos, o Braga fez o seu gol em lance polêmico.

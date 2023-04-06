@@ -284,9 +284,9 @@
 26	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s4225
-# text = A Fazenda da Rainha Carlota Joaquina, além do engenho de cana - de - açúcar, tinha também plantação de café e a mão - de - obra escrava era a responsável pela economia rural.
+# text = A Fazenda da Rainha Carlota Joaquina, além do engenho de cana-de-açúcar, tinha também plantação de café e a mão-de-obra escrava era a responsável pela economia rural.
 1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	Fazenda	_	PROPN	PNOUN	_	20	nsubj	_	_
+2	Fazenda	_	PROPN	PNOUN	_	18	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
 4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -294,40 +294,38 @@
 6	Carlota	_	PROPN	PNOUN	_	5	flat	_	_
 7	Joaquina	_	PROPN	PNOUN	_	5	flat	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	9	punct	_	_
-9	além	além	ADV	ADV	_	20	advmod	_	_
+9	além	além	ADV	ADV	_	18	advmod	_	_
 10-11	do	_	_	_	_	_	_	_	_
 10	de	de	ADP	ADP	_	12	case	_	_
 11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	engenho	engenho	NOUN	NOUN	_	9	nmod	_	_
 13	de	de	ADP	ADP	_	14	case	_	_
+14-16	cana-de-açúcar	_	_	_	_	_	_	_	SpaceAfter=No
 14	cana	cana	NOUN	NOUN	_	12	nmod	_	_
-15	-	-	PUNCT	.	_	14	punct	_	_
-16	de	de	ADP	ADP	_	18	case	_	_
-17	-	-	PUNCT	.	_	18	punct	_	_
-18	açúcar	açúcar	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	9	punct	_	_
-20	tinha	ter	VERB	VERB	_	0	root	_	_
-21	também	também	ADV	ADV	_	20	advmod	_	_
-22	plantação	plantação	NOUN	NOUN	_	20	obj	_	_
-23	de	de	ADP	ADP	_	24	case	_	_
-24	café	café	NOUN	NOUN	_	22	nmod	_	_
-25	e	e	CCONJ	CONJ	_	35	cc	_	_
-26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	mão	mão	NOUN	NOUN	_	35	nsubj	_	_
-28	-	-	PUNCT	.	_	27	punct	_	_
-29	de	de	ADP	ADP	_	31	case	_	_
-30	-	-	PUNCT	.	_	31	punct	_	_
-31	obra	obra	NOUN	NOUN	_	27	nmod	_	_
-32	escrava	escravo	ADJ	ADJ	_	27	amod	_	_
-33	era	_	AUX	AUX	_	35	cop	_	_
-34	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
-35	responsável	responsável	NOUN	NOUN	_	20	conj	_	_
-36-37	pela	_	_	_	_	_	_	_	_
-36	por	por	ADP	ADP	_	38	case	_	_
-37	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
-38	economia	economia	NOUN	NOUN	_	35	nmod	_	_
-39	rural	rural	ADJ	ADJ	_	38	amod	_	SpaceAfter=No
-40	.	.	PUNCT	.	_	20	punct	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
+16	açúcar	açúcar	NOUN	NOUN	_	14	nmod	_	_
+17	,	,	PUNCT	.	_	9	punct	_	_
+18	tinha	ter	VERB	VERB	_	0	root	_	_
+19	também	também	ADV	ADV	_	18	advmod	_	_
+20	plantação	plantação	NOUN	NOUN	_	18	obj	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
+22	café	café	NOUN	NOUN	_	20	nmod	_	_
+23	e	e	CCONJ	CONJ	_	31	cc	_	_
+24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25-27	mão-de-obra	_	_	_	_	_	_	_	_
+25	mão	mão	NOUN	NOUN	_	31	nsubj	_	_
+26	de	de	ADP	ADP	_	27	case	_	_
+27	obra	obra	NOUN	NOUN	_	25	nmod	_	_
+28	escrava	escravo	ADJ	ADJ	_	25	amod	_	_
+29	era	_	AUX	AUX	_	31	cop	_	_
+30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	responsável	responsável	NOUN	NOUN	_	18	conj	_	_
+32-33	pela	_	_	_	_	_	_	_	_
+32	por	por	ADP	ADP	_	34	case	_	_
+33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	economia	economia	NOUN	NOUN	_	31	nmod	_	_
+35	rural	rural	ADJ	ADJ	_	34	amod	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	18	punct	_	_
 
 # sent_id = train-s4226
 # text = Além da eficiência energética, o consumo de água e a capacidade de lavagem também serão monitorados.

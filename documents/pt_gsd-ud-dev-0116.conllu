@@ -36,9 +36,9 @@
 15	equipe	equipe	NOUN	NOUN	_	12	nmod	_	_
 16	de	de	ADP	ADP	_	17	case	_	_
 17	André	_	PROPN	PNOUN	_	15	nmod	_	_
-18	Villas	_	PROPN	PNOUN	_	17	flat	_	_
-19	-	-	PUNCT	.	_	17	punct	_	_
-20	Boas	_	PROPN	PNOUN	_	17	flat	_	SpaceAfter=No
+18	Villas	_	PROPN	PNOUN	_	17	flat	_	ToDo=NonCatenaCompound
+19	-	-	PUNCT	.	_	17	punct	_	ToDo=NonCatenaCompound
+20	Boas	_	PROPN	PNOUN	_	17	flat	_	SpaceAfter=No|ToDo=NonCatenaCompound
 21	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = dev-s1143
@@ -240,9 +240,9 @@
 41	.	.	PUNCT	.	_	18	punct	_	_
 
 # sent_id = dev-s1148
-# text = "Estávamos na cozinha de Lance quando ele explicou o plano: pagaria a Philippe para seguir o Tour com sua moto, levando garrafas térmicas cheias de EPO e um telefone pré - pago", explica Hamilton, que havia feito acusações similares no ano passado numa entrevista ao canal americano CBS.
+# text = "Estávamos na cozinha de Lance quando ele explicou o plano: pagaria a Philippe para seguir o Tour com sua moto, levando garrafas térmicas cheias de EPO e um telefone pré-pago", explica Hamilton, que havia feito acusações similares no ano passado numa entrevista ao canal americano CBS.
 1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
-2	Estávamos	estar	VERB	VERB	_	39	ccomp	_	_
+2	Estávamos	estar	VERB	VERB	_	38	ccomp	_	_
 3-4	na	_	_	_	_	_	_	_	_
 3	em	em	ADP	ADP	_	5	case	_	_
 4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -275,35 +275,35 @@
 31	e	e	CCONJ	CONJ	_	33	cc	_	_
 32	um	um	DET	DET	_	33	det	_	_
 33	telefone	telefone	NOUN	NOUN	_	27	conj	_	_
-34	pré	_	PART	PRT	_	36	amod	_	_
-35	-	-	PUNCT	.	_	36	punct	_	_
-36	pago	pago	ADJ	ADJ	_	33	amod	_	SpaceAfter=No
-37	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
-38	,	,	PUNCT	.	_	39	punct	_	_
-39	explica	explicar	VERB	VERB	_	0	root	_	_
-40	Hamilton	_	PROPN	PNOUN	_	39	nsubj	_	SpaceAfter=No
-41	,	,	PUNCT	.	_	44	punct	_	_
-42	que	_	PRON	PRON	_	44	nsubj	_	_
-43	havia	haver	AUX	AUX	_	44	aux	_	_
-44	feito	_	VERB	VERB	_	40	acl:relcl	_	_
-45	acusações	acusação	NOUN	NOUN	_	44	obj	_	_
-46	similares	similar	ADJ	ADJ	_	45	amod	_	_
-47-48	no	_	_	_	_	_	_	_	_
-47	em	em	ADP	ADP	_	49	case	_	_
-48	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
-49	ano	ano	NOUN	NOUN	_	44	nmod	_	_
-50	passado	passado	ADJ	ADJ	_	49	amod	_	_
-51-52	numa	_	_	_	_	_	_	_	_
-51	em	em	ADP	ADP	_	53	case	_	_
-52	uma	um	DET	DET	_	53	det	_	_
-53	entrevista	entrevista	NOUN	NOUN	_	44	nmod	_	_
-54-55	ao	_	_	_	_	_	_	_	_
-54	a	a	ADP	ADP	_	56	case	_	_
-55	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
-56	canal	canal	NOUN	NOUN	_	53	nmod	_	_
-57	americano	americano	ADJ	ADJ	_	56	amod	_	_
-58	CBS	_	PROPN	PNOUN	_	56	appos	_	SpaceAfter=No
-59	.	.	PUNCT	.	_	39	punct	_	_
+34-35	pré-pago	_	_	_	_	_	_	_	SpaceAfter=No
+34	pré	_	PART	PRT	_	35	amod	_	_
+35	pago	pago	ADJ	ADJ	_	33	amod	_	_
+36	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
+37	,	,	PUNCT	.	_	38	punct	_	_
+38	explica	explicar	VERB	VERB	_	0	root	_	_
+39	Hamilton	_	PROPN	PNOUN	_	38	nsubj	_	SpaceAfter=No
+40	,	,	PUNCT	.	_	43	punct	_	_
+41	que	_	PRON	PRON	_	43	nsubj	_	_
+42	havia	haver	AUX	AUX	_	43	aux	_	_
+43	feito	_	VERB	VERB	_	39	acl:relcl	_	_
+44	acusações	acusação	NOUN	NOUN	_	43	obj	_	_
+45	similares	similar	ADJ	ADJ	_	44	amod	_	_
+46-47	no	_	_	_	_	_	_	_	_
+46	em	em	ADP	ADP	_	48	case	_	_
+47	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	ano	ano	NOUN	NOUN	_	43	nmod	_	_
+49	passado	passado	ADJ	ADJ	_	48	amod	_	_
+50-51	numa	_	_	_	_	_	_	_	_
+50	em	em	ADP	ADP	_	52	case	_	_
+51	uma	um	DET	DET	_	52	det	_	_
+52	entrevista	entrevista	NOUN	NOUN	_	43	nmod	_	_
+53-54	ao	_	_	_	_	_	_	_	_
+53	a	a	ADP	ADP	_	55	case	_	_
+54	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
+55	canal	canal	NOUN	NOUN	_	52	nmod	_	_
+56	americano	americano	ADJ	ADJ	_	55	amod	_	_
+57	CBS	_	PROPN	PNOUN	_	55	appos	_	SpaceAfter=No
+58	.	.	PUNCT	.	_	38	punct	_	_
 
 # sent_id = dev-s1149
 # text = Para o sindicato, a decisão confirma a intenção da empresa de fechar a unidade e acabar com até 2.000 postos de trabalho.

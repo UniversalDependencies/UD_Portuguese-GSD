@@ -50,7 +50,7 @@
 23	.	.	PUNCT	.	_	22	punct	_	_
 
 # sent_id = train-s4647
-# text = Em 1963, a Costa Rica ingressou nesta organização, geralmente chamada de Mercado Comum Centro - Americano.
+# text = Em 1963, a Costa Rica ingressou nesta organização, geralmente chamada de Mercado Comum Centro-Americano.
 1	Em	em	ADP	ADP	_	2	case	_	_
 2	1963	1963	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
@@ -66,13 +66,13 @@
 13	de	de	ADP	ADP	_	14	case	_	_
 14	Mercado	_	PROPN	PNOUN	_	12	nmod	_	_
 15	Comum	_	PROPN	PNOUN	_	14	amod	_	_
-16	Centro	_	PROPN	PNOUN	_	18	amod	_	_
-17	-	-	PUNCT	.	_	18	punct	_	_
-18	Americano	_	PROPN	PNOUN	_	14	amod	_	SpaceAfter=No
-19	.	.	PUNCT	.	_	7	punct	_	_
+16-17	Centro-Americano	_	_	_	_	_	_	_	SpaceAfter=No
+16	Centro	_	PROPN	PNOUN	_	17	amod	_	_
+17	Americano	_	PROPN	PNOUN	_	14	amod	_	_
+18	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s4648
-# text = A organização do maior e mais prestigiado festival mundial de reconhecimento da excelência criativa em comunicação de marcas definiu que a Coca - Cola receberá o troféu Creative Marketer of the Year em 2013.
+# text = A organização do maior e mais prestigiado festival mundial de reconhecimento da excelência criativa em comunicação de marcas definiu que a Coca-Cola receberá o troféu Creative Marketer of the Year em 2013.
 1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	organização	organização	NOUN	NOUN	_	21	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -96,22 +96,22 @@
 19	de	de	ADP	ADP	_	20	case	_	_
 20	marcas	marca	NOUN	NOUN	_	18	nmod	_	_
 21	definiu	definir	VERB	VERB	_	0	root	_	_
-22	que	que	CCONJ	CONJ	_	27	mark	_	_
+22	que	que	CCONJ	CONJ	_	26	mark	_	_
 23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-24	Coca	_	PROPN	PNOUN	_	27	nsubj	_	_
-25	-	-	PUNCT	.	_	24	punct	_	_
-26	Cola	_	PROPN	PNOUN	_	24	flat	_	_
-27	receberá	receber	VERB	VERB	_	21	ccomp	_	_
-28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-29	troféu	troféu	NOUN	NOUN	_	27	obj	_	_
-30	Creative	_	PROPN	PNOUN	_	31	amod	_	_
-31	Marketer	_	PROPN	PNOUN	_	29	appos	_	_
-32	of	_	ADP	ADP	_	34	case	_	_
-33	the	_	DET	DET	_	34	det	_	_
-34	Year	_	PROPN	PNOUN	_	31	nmod	_	_
-35	em	em	ADP	ADP	_	36	case	_	_
-36	2013	2013	NUM	NUM	NumType=Card	27	nmod	_	SpaceAfter=No
-37	.	.	PUNCT	.	_	21	punct	_	_
+24-25	Coca-Cola	_	_	_	_	_	_	_	_
+24	Coca	_	PROPN	PNOUN	_	26	nsubj	_	_
+25	Cola	_	PROPN	PNOUN	_	24	flat	_	_
+26	receberá	receber	VERB	VERB	_	21	ccomp	_	_
+27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	troféu	troféu	NOUN	NOUN	_	26	obj	_	_
+29	Creative	_	PROPN	PNOUN	_	30	amod	_	_
+30	Marketer	_	PROPN	PNOUN	_	28	appos	_	_
+31	of	_	ADP	ADP	_	33	case	_	_
+32	the	_	DET	DET	_	33	det	_	_
+33	Year	_	PROPN	PNOUN	_	30	nmod	_	_
+34	em	em	ADP	ADP	_	35	case	_	_
+35	2013	2013	NUM	NUM	NumType=Card	26	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	21	punct	_	_
 
 # sent_id = train-s4649
 # text = "Nós costumamos dizer que o álcool e o cigarro, que são as drogas legais, são a porta de entrada para as drogas ilegais", destacou Leandra Iglesias.
@@ -170,7 +170,7 @@
 18	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = train-s4651
-# text = Foram eles precisamente quem colocou na posição - chave -- a vice - presidência -- Federico Franco, o Judas que agora se apropriou do poder em consequência do golpe parlamentar, militar, judicial y eclesiástico.
+# text = Foram eles precisamente quem colocou na posição-chave -- a vice-presidência -- Federico Franco, o Judas que agora se apropriou do poder em consequência do golpe parlamentar, militar, judicial y eclesiástico.
 1	Foram	_	AUX	AUX	_	2	cop	_	_
 2	eles	_	PRON	PRON	_	0	root	_	_
 3	precisamente	precisamente	ADV	ADV	_	2	advmod	_	_
@@ -179,45 +179,45 @@
 6-7	na	_	_	_	_	_	_	_	_
 6	em	em	ADP	ADP	_	8	case	_	_
 7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8-9	posição-chave	_	_	_	_	_	_	_	_
 8	posição	posição	NOUN	NOUN	_	5	nmod	_	_
-9	-	-	PUNCT	.	_	8	punct	_	_
-10	chave	chave	NOUN	NOUN	_	8	flat	_	_
-11	--	_	PUNCT	.	_	13	punct	_	_
-12	a	o	DET	DET	_	13	det	_	_
-13	vice	_	PART	PRT	_	8	appos	_	_
-14	-	-	PUNCT	.	_	13	punct	_	_
-15	presidência	presidência	NOUN	NOUN	_	13	flat	_	_
-16	--	_	PUNCT	.	_	17	punct	_	_
-17	Federico	_	PROPN	PNOUN	_	5	obj	_	_
-18	Franco	_	PROPN	PNOUN	_	17	flat	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	21	punct	_	_
-20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	Judas	_	PROPN	PNOUN	_	17	appos	_	_
-22	que	_	PRON	PRON	_	25	nsubj	_	_
-23	agora	agora	ADV	ADV	_	25	advmod	_	_
-24	se	_	PRON	PRON	_	25	expl:pv	_	_
-25	apropriou	apropriar	VERB	VERB	_	21	acl:relcl	_	_
-26-27	do	_	_	_	_	_	_	_	_
-26	de	de	ADP	ADP	_	28	case	_	_
-27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
-28	poder	poder	NOUN	NOUN	_	25	nmod	_	_
-29	em	em	ADP	ADP	_	30	case	_	_
-30	consequência	consequência	NOUN	NOUN	_	25	nmod	_	_
-31-32	do	_	_	_	_	_	_	_	_
-31	de	de	ADP	ADP	_	33	case	_	_
-32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
-33	golpe	golpe	NOUN	NOUN	_	30	nmod	_	_
-34	parlamentar	parlamentar	ADJ	ADJ	_	33	amod	_	SpaceAfter=No
+9	chave	chave	NOUN	NOUN	_	8	flat	_	_
+10	--	_	PUNCT	.	_	12	punct	_	_
+11	a	o	DET	DET	_	12	det	_	_
+12-13	vice-presidência	_	_	_	_	_	_	_	_
+12	vice	_	PART	PRT	_	8	appos	_	_
+13	presidência	presidência	NOUN	NOUN	_	12	flat	_	_
+14	--	_	PUNCT	.	_	15	punct	_	_
+15	Federico	_	PROPN	PNOUN	_	5	obj	_	_
+16	Franco	_	PROPN	PNOUN	_	15	flat	_	SpaceAfter=No
+17	,	,	PUNCT	.	_	19	punct	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Judas	_	PROPN	PNOUN	_	15	appos	_	_
+20	que	_	PRON	PRON	_	23	nsubj	_	_
+21	agora	agora	ADV	ADV	_	23	advmod	_	_
+22	se	_	PRON	PRON	_	23	expl:pv	_	_
+23	apropriou	apropriar	VERB	VERB	_	19	acl:relcl	_	_
+24-25	do	_	_	_	_	_	_	_	_
+24	de	de	ADP	ADP	_	26	case	_	_
+25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	poder	poder	NOUN	NOUN	_	23	nmod	_	_
+27	em	em	ADP	ADP	_	28	case	_	_
+28	consequência	consequência	NOUN	NOUN	_	23	nmod	_	_
+29-30	do	_	_	_	_	_	_	_	_
+29	de	de	ADP	ADP	_	31	case	_	_
+30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	golpe	golpe	NOUN	NOUN	_	28	nmod	_	_
+32	parlamentar	parlamentar	ADJ	ADJ	_	31	amod	_	SpaceAfter=No
+33	,	,	PUNCT	.	_	34	punct	_	_
+34	militar	militar	ADJ	ADJ	_	32	conj	_	SpaceAfter=No
 35	,	,	PUNCT	.	_	36	punct	_	_
-36	militar	militar	ADJ	ADJ	_	34	conj	_	SpaceAfter=No
-37	,	,	PUNCT	.	_	38	punct	_	_
-38	judicial	judicial	ADJ	ADJ	_	34	conj	_	_
-39	y	_	CCONJ	CONJ	_	40	cc	_	_
-40	eclesiástico	eclesiástico	ADJ	ADJ	_	34	conj	_	SpaceAfter=No
-41	.	.	PUNCT	.	_	2	punct	_	_
+36	judicial	judicial	ADJ	ADJ	_	32	conj	_	_
+37	y	_	CCONJ	CONJ	_	38	cc	_	_
+38	eclesiástico	eclesiástico	ADJ	ADJ	_	32	conj	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s4652
-# text = De acordo com a Prefeitura de Duque de Caxias, 400 pessoas estavam desabrigadas até as 21h20 de quinta - feira, e 200 casas foram destruídas pela enxurrada.
+# text = De acordo com a Prefeitura de Duque de Caxias, 400 pessoas estavam desabrigadas até as 21h20 de quinta-feira, e 200 casas foram destruídas pela enxurrada.
 1	De	_	ADP	ADP	_	2	case	_	_
 2	acordo	acordo	NOUN	NOUN	_	13	nmod	_	_
 3	com	com	ADP	ADP	_	5	case	_	_
@@ -235,21 +235,21 @@
 15	até	_	ADP	ADP	_	17	case	_	_
 16	as	o	DET	DET	_	17	det	_	_
 17	21h20	_	NUM	NUM	NumType=Card	13	nmod	_	_
-18	de	de	ADP	ADP	_	21	case	_	_
-19	quinta	_	PROPN	PNOUN	_	21	amod	_	_
-20	-	-	PUNCT	.	_	21	punct	_	_
-21	feira	_	PROPN	PNOUN	_	17	nmod	_	SpaceAfter=No
-22	,	,	PUNCT	.	_	27	punct	_	_
-23	e	e	CCONJ	CONJ	_	27	cc	_	_
-24	200	200	NUM	NUM	NumType=Card	25	nummod	_	_
-25	casas	casa	NOUN	NOUN	_	27	nsubj:pass	_	_
-26	foram	_	AUX	AUX	_	27	aux:pass	_	_
-27	destruídas	destruir	VERB	VERB	_	13	conj	_	_
-28-29	pela	_	_	_	_	_	_	_	_
-28	por	por	ADP	ADP	_	30	case	_	_
-29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
-30	enxurrada	enxurrada	NOUN	NOUN	_	27	nmod	_	SpaceAfter=No
-31	.	.	PUNCT	.	_	13	punct	_	_
+18	de	de	ADP	ADP	_	20	case	_	_
+19-20	quinta-feira	_	_	_	_	_	_	_	SpaceAfter=No
+19	quinta	_	PROPN	PNOUN	_	20	amod	_	_
+20	feira	_	PROPN	PNOUN	_	17	nmod	_	_
+21	,	,	PUNCT	.	_	26	punct	_	_
+22	e	e	CCONJ	CONJ	_	26	cc	_	_
+23	200	200	NUM	NUM	NumType=Card	24	nummod	_	_
+24	casas	casa	NOUN	NOUN	_	26	nsubj:pass	_	_
+25	foram	_	AUX	AUX	_	26	aux:pass	_	_
+26	destruídas	destruir	VERB	VERB	_	13	conj	_	_
+27-28	pela	_	_	_	_	_	_	_	_
+27	por	por	ADP	ADP	_	29	case	_	_
+28	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	enxurrada	enxurrada	NOUN	NOUN	_	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = train-s4653
 # text = Campinas, SP, 04 (AFI) -- Os clubes mandantes "deram as cartas" na rodada deste sábado à tarde.

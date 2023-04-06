@@ -1,5 +1,5 @@
 # sent_id = train-s7861
-# text = A entrada da fazenda se localiza a cerca de 40 quilômetros da curva do "S" da rodovia PA - 150, local onde 19 trabalhadores rurais sem - terra foram assassinados em 17 de abril de 1996.
+# text = A entrada da fazenda se localiza a cerca de 40 quilômetros da curva do "S" da rodovia PA-150, local onde 19 trabalhadores rurais sem-terra foram assassinados em 17 de abril de 1996.
 1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	entrada	entrada	NOUN	NOUN	_	7	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -27,27 +27,27 @@
 21	de	de	ADP	ADP	_	23	case	_	_
 22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	rodovia	rodovia	NOUN	NOUN	_	15	nmod	_	_
+24-25	PA-150	_	_	_	_	_	_	_	SpaceAfter=No
 24	PA	_	PROPN	PNOUN	_	23	appos	_	_
-25	-	-	PUNCT	.	_	24	punct	_	_
-26	150	150	NUM	NUM	NumType=Card	24	appos	_	SpaceAfter=No
-27	,	,	PUNCT	.	_	28	punct	_	_
-28	local	local	NOUN	NOUN	_	23	appos	_	_
-29	onde	onde	ADV	ADV	_	37	advmod	_	_
-30	19	19	NUM	NUM	NumType=Card	31	nummod	_	_
-31	trabalhadores	trabalhador	NOUN	NOUN	_	37	nsubj:pass	_	_
-32	rurais	rural	ADJ	ADJ	_	31	amod	_	_
-33	sem	_	ADP	ADP	_	35	case	_	_
-34	-	-	PUNCT	.	_	35	punct	_	_
-35	terra	terra	NOUN	NOUN	_	31	nmod	_	_
-36	foram	_	AUX	AUX	_	37	aux:pass	_	_
-37	assassinados	assassinar	VERB	VERB	_	28	acl:relcl	_	_
-38	em	em	ADP	ADP	_	39	case	_	_
-39	17	17	NUM	NUM	NumType=Card	37	nmod	_	_
+25	150	150	NUM	NUM	NumType=Card	24	appos	_	_
+26	,	,	PUNCT	.	_	27	punct	_	_
+27	local	local	NOUN	NOUN	_	23	appos	_	_
+28	onde	onde	ADV	ADV	_	35	advmod	_	_
+29	19	19	NUM	NUM	NumType=Card	30	nummod	_	_
+30	trabalhadores	trabalhador	NOUN	NOUN	_	35	nsubj:pass	_	_
+31	rurais	rural	ADJ	ADJ	_	30	amod	_	_
+32-33	sem-terra	_	_	_	_	_	_	_	_
+32	sem	_	ADP	ADP	_	33	case	_	_
+33	terra	terra	NOUN	NOUN	_	30	nmod	_	_
+34	foram	_	AUX	AUX	_	35	aux:pass	_	_
+35	assassinados	assassinar	VERB	VERB	_	27	acl:relcl	_	_
+36	em	em	ADP	ADP	_	37	case	_	_
+37	17	17	NUM	NUM	NumType=Card	35	nmod	_	_
+38	de	de	ADP	ADP	_	39	case	_	_
+39	abril	_	PROPN	PNOUN	_	37	nmod	_	_
 40	de	de	ADP	ADP	_	41	case	_	_
-41	abril	_	PROPN	PNOUN	_	39	nmod	_	_
-42	de	de	ADP	ADP	_	43	case	_	_
-43	1996	1996	NUM	NUM	NumType=Card	41	nmod	_	SpaceAfter=No
-44	.	.	PUNCT	.	_	7	punct	_	_
+41	1996	1996	NUM	NUM	NumType=Card	39	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s7862
 # text = "É por causa de James que eu acho que o filme vai funcionar", disse Whedon.
@@ -96,15 +96,13 @@
 4	uma	um	DET	DET	_	5	det	_	_
 5	revolução	revolução	NOUN	NOUN	_	3	obj	_	_
 6	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
-7	ofereça	_	NOUN	NOUN	_	5	appos	_	SpaceAfter=No
-8	-	-	PUNCT	.	_	9	punct	_	SpaceAfter=No
-9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
-10	-	-	PUNCT	.	_	11	punct	_	SpaceAfter=No
-11	outra	_	DET	DET	_	13	det	_	SpaceAfter=No
-12	-	-	PUNCT	.	_	13	punct	_	SpaceAfter=No
-13	face	face	NOUN	NOUN	_	7	obj	_	SpaceAfter=No
-14	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
-15	.	.	PUNCT	.	_	3	punct	_	_
+7-10	ofereça-a-outra-face	_	_	_	_	_	_	_	SpaceAfter=No
+7	ofereça	_	NOUN	NOUN	_	5	appos	_	_
+8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	outra	_	DET	DET	_	10	det	_	_
+10	face	face	NOUN	NOUN	_	7	obj	_	_
+11	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s7865
 # text = Um analista ouvido pelo O Globo destacou que a situação financeira da companhia vem se agravando nos últimos três anos, quando aumentou seu endividamento em cerca de US $ 60 bilhões, sem conseguir elevar a produção de petróleo.

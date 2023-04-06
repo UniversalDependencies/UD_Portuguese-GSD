@@ -125,10 +125,10 @@
 26	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s9054
-# text = Com a inauguração de sua fábrica de polietileno derivado de etanol de cana - de - açúcar, com capacidade anual de 200 mil toneladas, tornou-se a maior produtora de biopolímeros do mundo.
+# text = Com a inauguração de sua fábrica de polietileno derivado de etanol de cana-de-açúcar, com capacidade anual de 200 mil toneladas, tornou-se a maior produtora de biopolímeros do mundo.
 1	Com	_	ADP	ADP	_	3	case	_	_
 2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	inauguração	inauguração	NOUN	NOUN	_	31	nmod	_	_
+3	inauguração	inauguração	NOUN	NOUN	_	29	nmod	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
 5	sua	_	DET	DET	_	6	det:poss	_	_
 6	fábrica	fábrica	NOUN	NOUN	_	3	nmod	_	_
@@ -138,33 +138,32 @@
 10	de	de	ADP	ADP	_	11	case	_	_
 11	etanol	etanol	NOUN	NOUN	_	9	nmod	_	_
 12	de	de	ADP	ADP	_	13	case	_	_
+13-15	cana-de-açúcar	_	_	_	_	_	_	_	SpaceAfter=No
 13	cana	cana	NOUN	NOUN	_	11	nmod	_	_
-14	-	-	PUNCT	.	_	13	punct	_	_
-15	de	_	ADP	ADP	_	17	mark	_	_
-16	-	-	PUNCT	.	_	17	punct	_	_
-17	açúcar	_	VERB	VERB	_	13	nmod	_	SpaceAfter=No
-18	,	,	PUNCT	.	_	20	punct	_	_
-19	com	com	ADP	ADP	_	20	case	_	_
-20	capacidade	capacidade	NOUN	NOUN	_	6	nmod	_	_
-21	anual	anual	ADJ	ADJ	_	20	amod	_	_
-22	de	de	ADP	ADP	_	25	case	_	_
-23	200	200	NUM	NUM	NumType=Card	24	nummod	_	_
-24	mil	_	NUM	NUM	NumType=Card	25	nummod	_	_
-25	toneladas	tonelada	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
-26	,	,	PUNCT	.	_	3	punct	_	_
-27-28	tornou-se	_	_	_	_	_	_	_	_
-27	tornou	tornar	AUX	AUX	_	31	cop	_	_
-28	se	_	PRON	PRON	_	31	expl:pv	_	_
-29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-30	maior	maior	ADJ	ADJ	_	31	amod	_	_
-31	produtora	produtor	NOUN	NOUN	_	0	root	_	_
-32	de	de	ADP	ADP	_	33	case	_	_
-33	biopolímeros	_	NOUN	NOUN	_	31	nmod	_	_
-34-35	do	_	_	_	_	_	_	_	_
-34	de	de	ADP	ADP	_	36	case	_	_
-35	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
-36	mundo	mundo	NOUN	NOUN	_	31	nmod	_	SpaceAfter=No
-37	.	.	PUNCT	.	_	31	punct	_	_
+14	de	_	ADP	ADP	_	15	mark	_	_
+15	açúcar	_	VERB	VERB	_	13	nmod	_	_
+16	,	,	PUNCT	.	_	18	punct	_	_
+17	com	com	ADP	ADP	_	18	case	_	_
+18	capacidade	capacidade	NOUN	NOUN	_	6	nmod	_	_
+19	anual	anual	ADJ	ADJ	_	18	amod	_	_
+20	de	de	ADP	ADP	_	23	case	_	_
+21	200	200	NUM	NUM	NumType=Card	22	nummod	_	_
+22	mil	_	NUM	NUM	NumType=Card	23	nummod	_	_
+23	toneladas	tonelada	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	.	_	3	punct	_	_
+25-26	tornou-se	_	_	_	_	_	_	_	_
+25	tornou	tornar	AUX	AUX	_	29	cop	_	_
+26	se	_	PRON	PRON	_	29	expl:pv	_	_
+27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	maior	maior	ADJ	ADJ	_	29	amod	_	_
+29	produtora	produtor	NOUN	NOUN	_	0	root	_	_
+30	de	de	ADP	ADP	_	31	case	_	_
+31	biopolímeros	_	NOUN	NOUN	_	29	nmod	_	_
+32-33	do	_	_	_	_	_	_	_	_
+32	de	de	ADP	ADP	_	34	case	_	_
+33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	mundo	mundo	NOUN	NOUN	_	29	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	29	punct	_	_
 
 # sent_id = train-s9055
 # text = O meia Zé Roberto, suspenso pelo terceiro cartão amarelo, é o único jogador considerado titular que ficará de fora.

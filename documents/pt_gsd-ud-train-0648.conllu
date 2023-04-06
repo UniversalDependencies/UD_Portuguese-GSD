@@ -91,24 +91,24 @@
 21	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s6435
-# text = Integram esse circuito as rodovias BR - 267, MG - 135 e MG - 338.
+# text = Integram esse circuito as rodovias BR - 267, MG-135 e MG-338.
 1	Integram	integrar	VERB	VERB	_	0	root	_	_
 2	esse	_	DET	DET	_	3	det	_	_
 3	circuito	circuito	NOUN	NOUN	_	1	obj	_	_
 4	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 5	rodovias	rodovia	NOUN	NOUN	_	1	nsubj	_	_
-6	BR	_	PROPN	PNOUN	_	5	appos	_	_
-7	-	-	PUNCT	.	_	10	punct	_	_
+6	BR	_	PROPN	PNOUN	_	5	appos	_	ToDo=NonCatenaCompound
+7	-	-	PUNCT	.	_	10	punct	_	ToDo=NonCatenaCompound
 8	267	267	NUM	NUM	NumType=Card	6	appos	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	10	punct	_	_
+10-11	MG-135	_	_	_	_	_	_	_	_
 10	MG	_	PROPN	PNOUN	_	6	conj	_	_
-11	-	-	PUNCT	.	_	10	punct	_	_
-12	135	135	NUM	NUM	NumType=Card	10	appos	_	_
-13	e	e	CCONJ	CONJ	_	14	cc	_	_
-14	MG	_	PROPN	PNOUN	_	6	conj	_	_
-15	-	-	PUNCT	.	_	14	punct	_	_
-16	338	338	NUM	NUM	NumType=Card	14	appos	_	SpaceAfter=No
-17	.	.	PUNCT	.	_	1	punct	_	_
+11	135	135	NUM	NUM	NumType=Card	10	appos	_	_
+12	e	e	CCONJ	CONJ	_	13	cc	_	_
+13-14	MG-338	_	_	_	_	_	_	_	SpaceAfter=No
+13	MG	_	PROPN	PNOUN	_	6	conj	_	_
+14	338	338	NUM	NUM	NumType=Card	13	appos	_	_
+15	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s6436
 # text = As cidades também precisão investir."

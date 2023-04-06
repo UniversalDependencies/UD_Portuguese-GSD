@@ -1,19 +1,19 @@
 # sent_id = train-s2452
-# text = A Sanepar realiza obras nesta segunda - feira (25) em Curitiba.
+# text = A Sanepar realiza obras nesta segunda-feira (25) em Curitiba.
 1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Sanepar	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	realiza	realizar	VERB	VERB	_	0	root	_	_
 4	obras	obra	NOUN	NOUN	_	3	obj	_	_
-5	nesta	_	ADP	ADP	_	8	case	_	_
-6	segunda	_	PROPN	PNOUN	_	8	amod	_	_
-7	-	-	PUNCT	.	_	8	punct	_	_
-8	feira	_	PROPN	PNOUN	_	3	nmod	_	_
-9	(	(	PUNCT	.	_	10	punct	_	SpaceAfter=No
-10	25	25	NUM	NUM	NumType=Card	8	nmod	_	SpaceAfter=No
-11	)	)	PUNCT	.	_	10	punct	_	_
-12	em	em	ADP	ADP	_	13	case	_	_
-13	Curitiba	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
-14	.	.	PUNCT	.	_	3	punct	_	_
+5	nesta	_	ADP	ADP	_	7	case	_	_
+6-7	segunda-feira	_	_	_	_	_	_	_	_
+6	segunda	_	PROPN	PNOUN	_	7	amod	_	_
+7	feira	_	PROPN	PNOUN	_	3	nmod	_	_
+8	(	(	PUNCT	.	_	9	punct	_	SpaceAfter=No
+9	25	25	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
+10	)	)	PUNCT	.	_	9	punct	_	_
+11	em	em	ADP	ADP	_	12	case	_	_
+12	Curitiba	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s2453
 # text = O programa tem como objetivo contribuir com o entendimento das responsabilidades da Organização em relação aos riscos, demonstrar através de normativos as mudanças e suas aplicabilidades na organização elaborando matrizes e fatores de riscos.
@@ -134,7 +134,7 @@
 19	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s2456
-# text = São usados no transporte 14 ônibus, 41 kombis e 05 micro - ônibus das empresas contratadas, além de 03 vans e 01 micro - ônibus de propriedade da administração municipal.
+# text = São usados no transporte 14 ônibus, 41 kombis e 05 micro-ônibus das empresas contratadas, além de 03 vans e 01 micro-ônibus de propriedade da administração municipal.
 1	São	ser	AUX	AUX	_	2	aux:pass	_	_
 2	usados	usar	VERB	VERB	_	0	root	_	_
 3-4	no	_	_	_	_	_	_	_	_
@@ -148,32 +148,32 @@
 10	kombis	_	NOUN	NOUN	_	7	conj	_	_
 11	e	e	CCONJ	CONJ	_	13	cc	_	_
 12	05	05	NUM	NUM	NumType=Card	13	nummod	_	_
+13-14	micro-ônibus	_	_	_	_	_	_	_	_
 13	micro	_	PART	PRT	_	7	conj	_	_
-14	-	-	PUNCT	.	_	13	punct	_	_
-15	ônibus	ônibus	NOUN	NOUN	_	13	flat	_	_
-16-17	das	_	_	_	_	_	_	_	_
-16	de	de	ADP	ADP	_	18	case	_	_
-17	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
-18	empresas	empresa	NOUN	NOUN	_	7	nmod	_	_
-19	contratadas	contratar	VERB	VERB	_	18	acl	_	SpaceAfter=No
-20	,	,	PUNCT	.	_	21	punct	_	_
-21	além	além	ADV	ADV	_	2	advmod	_	_
-22	de	de	ADP	ADP	_	24	case	_	_
-23	03	03	NUM	NUM	NumType=Card	24	nummod	_	_
-24	vans	_	NOUN	NOUN	_	21	nmod	_	_
-25	e	e	CCONJ	CONJ	_	27	cc	_	_
-26	01	01	NUM	NUM	NumType=Card	27	nummod	_	_
-27	micro	_	PART	PRT	_	24	conj	_	_
-28	-	-	PUNCT	.	_	27	punct	_	_
-29	ônibus	ônibus	NOUN	NOUN	_	27	flat	_	_
-30	de	de	ADP	ADP	_	31	case	_	_
-31	propriedade	propriedade	NOUN	NOUN	_	24	nmod	_	_
-32-33	da	_	_	_	_	_	_	_	_
-32	de	de	ADP	ADP	_	34	case	_	_
-33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
-34	administração	administração	NOUN	NOUN	_	31	nmod	_	_
-35	municipal	municipal	ADJ	ADJ	_	34	amod	_	SpaceAfter=No
-36	.	.	PUNCT	.	_	2	punct	_	_
+14	ônibus	ônibus	NOUN	NOUN	_	13	flat	_	_
+15-16	das	_	_	_	_	_	_	_	_
+15	de	de	ADP	ADP	_	17	case	_	_
+16	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	empresas	empresa	NOUN	NOUN	_	7	nmod	_	_
+18	contratadas	contratar	VERB	VERB	_	17	acl	_	SpaceAfter=No
+19	,	,	PUNCT	.	_	20	punct	_	_
+20	além	além	ADV	ADV	_	2	advmod	_	_
+21	de	de	ADP	ADP	_	23	case	_	_
+22	03	03	NUM	NUM	NumType=Card	23	nummod	_	_
+23	vans	_	NOUN	NOUN	_	20	nmod	_	_
+24	e	e	CCONJ	CONJ	_	26	cc	_	_
+25	01	01	NUM	NUM	NumType=Card	26	nummod	_	_
+26-27	micro-ônibus	_	_	_	_	_	_	_	_
+26	micro	_	PART	PRT	_	23	conj	_	_
+27	ônibus	ônibus	NOUN	NOUN	_	26	flat	_	_
+28	de	de	ADP	ADP	_	29	case	_	_
+29	propriedade	propriedade	NOUN	NOUN	_	23	nmod	_	_
+30-31	da	_	_	_	_	_	_	_	_
+30	de	de	ADP	ADP	_	32	case	_	_
+31	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	administração	administração	NOUN	NOUN	_	29	nmod	_	_
+33	municipal	municipal	ADJ	ADJ	_	32	amod	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s2457
 # text = "Dedé é um jogador de alto nível e que vem sendo observado por muitos clubes.

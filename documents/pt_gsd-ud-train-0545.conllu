@@ -45,41 +45,41 @@
 18	veículos	veículo	NOUN	NOUN	_	16	nmod	_	_
 
 # sent_id = train-s5412
-# text = A vice - líder foi Giulia Mallmann, com 257 tacadas (88/86/83), seguida por Célia Luz, com 259 tacadas (85/87/87).
+# text = A vice-líder foi Giulia Mallmann, com 257 tacadas (88/86/83), seguida por Célia Luz, com 259 tacadas (85/87/87).
 1	A	o	DET	DET	_	2	det	_	_
-2	vice	_	PART	PRT	_	6	nsubj	_	_
-3	-	-	PUNCT	.	_	2	punct	_	_
-4	líder	líder	NOUN	NOUN	_	2	flat	_	_
-5	foi	_	AUX	AUX	_	6	cop	_	_
-6	Giulia	_	PROPN	PNOUN	_	0	root	_	_
-7	Mallmann	_	PROPN	PNOUN	_	6	flat	_	SpaceAfter=No
-8	,	,	PUNCT	.	_	11	punct	_	_
-9	com	com	ADP	ADP	_	11	case	_	_
-10	257	257	NUM	NUM	NumType=Card	11	nummod	_	_
-11	tacadas	tacada	NOUN	NOUN	_	6	nmod	_	_
-12	(	(	PUNCT	.	_	13	punct	_	SpaceAfter=No
-13	88/86/83	_	NUM	NUM	NumType=Card	11	appos	_	SpaceAfter=No
-14	)	)	PUNCT	.	_	13	punct	_	SpaceAfter=No
-15	,	,	PUNCT	.	_	11	punct	_	_
-16	seguida	seguir	VERB	VERB	_	6	acl	_	_
-17	por	por	ADP	ADP	_	18	case	_	_
-18	Célia	_	PROPN	PNOUN	_	16	nmod	_	_
-19	Luz	_	PROPN	PNOUN	_	18	flat	_	SpaceAfter=No
-20	,	,	PUNCT	.	_	23	punct	_	_
-21	com	com	ADP	ADP	_	23	case	_	_
-22	259	259	NUM	NUM	NumType=Card	23	nummod	_	_
-23	tacadas	tacada	NOUN	NOUN	_	18	nmod	_	_
-24	(	(	PUNCT	.	_	25	punct	_	SpaceAfter=No
-25	85/87/87	_	NUM	NUM	NumType=Card	23	appos	_	SpaceAfter=No
-26	)	)	PUNCT	.	_	25	punct	_	SpaceAfter=No
-27	.	.	PUNCT	.	_	6	punct	_	_
+2-3	vice-líder	_	_	_	_	_	_	_	_
+2	vice	_	PART	PRT	_	5	nsubj	_	_
+3	líder	líder	NOUN	NOUN	_	2	flat	_	_
+4	foi	_	AUX	AUX	_	5	cop	_	_
+5	Giulia	_	PROPN	PNOUN	_	0	root	_	_
+6	Mallmann	_	PROPN	PNOUN	_	5	flat	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	10	punct	_	_
+8	com	com	ADP	ADP	_	10	case	_	_
+9	257	257	NUM	NUM	NumType=Card	10	nummod	_	_
+10	tacadas	tacada	NOUN	NOUN	_	5	nmod	_	_
+11	(	(	PUNCT	.	_	12	punct	_	SpaceAfter=No
+12	88/86/83	_	NUM	NUM	NumType=Card	10	appos	_	SpaceAfter=No
+13	)	)	PUNCT	.	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	10	punct	_	_
+15	seguida	seguir	VERB	VERB	_	5	acl	_	_
+16	por	por	ADP	ADP	_	17	case	_	_
+17	Célia	_	PROPN	PNOUN	_	15	nmod	_	_
+18	Luz	_	PROPN	PNOUN	_	17	flat	_	SpaceAfter=No
+19	,	,	PUNCT	.	_	22	punct	_	_
+20	com	com	ADP	ADP	_	22	case	_	_
+21	259	259	NUM	NUM	NumType=Card	22	nummod	_	_
+22	tacadas	tacada	NOUN	NOUN	_	17	nmod	_	_
+23	(	(	PUNCT	.	_	24	punct	_	SpaceAfter=No
+24	85/87/87	_	NUM	NUM	NumType=Card	22	appos	_	SpaceAfter=No
+25	)	)	PUNCT	.	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s5413
-# text = Depois de ter deixado o jogador mais vez no banco do Corinthians, na noite desta quarta - feira, contra o Flamengo, o treinador explicou que espera apenas o momento adequado para utilizar o chinês.
+# text = Depois de ter deixado o jogador mais vez no banco do Corinthians, na noite desta quarta-feira, contra o Flamengo, o treinador explicou que espera apenas o momento adequado para utilizar o chinês.
 1	Depois	depois	ADV	ADV	_	4	mark	_	_
 2	de	_	ADP	ADP	_	1	fixed	_	_
 3	ter	ter	AUX	AUX	_	4	aux	_	_
-4	deixado	deixar	VERB	VERB	_	30	advcl	_	_
+4	deixado	deixar	VERB	VERB	_	29	advcl	_	_
 5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	jogador	jogador	NOUN	NOUN	_	4	obj	_	_
 7	mais	_	DET	DET	_	8	det	_	_
@@ -97,29 +97,29 @@
 16	em	em	ADP	ADP	_	18	case	_	_
 17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	noite	noite	NOUN	NOUN	_	4	nmod	_	_
-19	desta	_	ADP	ADP	_	22	case	_	_
-20	quarta	_	PROPN	PNOUN	_	22	amod	_	_
-21	-	-	PUNCT	.	_	22	punct	_	_
-22	feira	_	PROPN	PNOUN	_	18	nmod	_	SpaceAfter=No
-23	,	,	PUNCT	.	_	26	punct	_	_
-24	contra	_	ADP	ADP	_	26	case	_	_
-25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	Flamengo	_	PROPN	PNOUN	_	4	nmod	_	SpaceAfter=No
-27	,	,	PUNCT	.	_	4	punct	_	_
-28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-29	treinador	treinador	NOUN	NOUN	_	30	nsubj	_	_
-30	explicou	explicar	VERB	VERB	_	0	root	_	_
-31	que	que	CCONJ	CONJ	_	32	mark	_	_
-32	espera	esperar	VERB	VERB	_	30	ccomp	_	_
-33	apenas	apenas	ADV	ADV	_	32	advmod	_	_
-34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
-35	momento	momento	NOUN	NOUN	_	32	obj	_	_
-36	adequado	adequado	ADJ	ADJ	_	35	amod	_	_
-37	para	_	ADP	ADP	_	38	mark	_	_
-38	utilizar	utilizar	VERB	VERB	_	36	nmod	_	_
-39	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
-40	chinês	chinês	NOUN	NOUN	_	38	obj	_	SpaceAfter=No
-41	.	.	PUNCT	.	_	30	punct	_	_
+19	desta	_	ADP	ADP	_	21	case	_	_
+20-21	quarta-feira	_	_	_	_	_	_	_	SpaceAfter=No
+20	quarta	_	PROPN	PNOUN	_	21	amod	_	_
+21	feira	_	PROPN	PNOUN	_	18	nmod	_	_
+22	,	,	PUNCT	.	_	25	punct	_	_
+23	contra	_	ADP	ADP	_	25	case	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Flamengo	_	PROPN	PNOUN	_	4	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	.	_	4	punct	_	_
+27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	treinador	treinador	NOUN	NOUN	_	29	nsubj	_	_
+29	explicou	explicar	VERB	VERB	_	0	root	_	_
+30	que	que	CCONJ	CONJ	_	31	mark	_	_
+31	espera	esperar	VERB	VERB	_	29	ccomp	_	_
+32	apenas	apenas	ADV	ADV	_	31	advmod	_	_
+33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	momento	momento	NOUN	NOUN	_	31	obj	_	_
+35	adequado	adequado	ADJ	ADJ	_	34	amod	_	_
+36	para	_	ADP	ADP	_	37	mark	_	_
+37	utilizar	utilizar	VERB	VERB	_	35	nmod	_	_
+38	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	chinês	chinês	NOUN	NOUN	_	37	obj	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	29	punct	_	_
 
 # sent_id = train-s5414
 # text = Por outro lado, a esperança vem da certeza de que a equipe pode se recuperar no Campeonato Brasileiro, um dos poucos títulos que ainda faltam à geração de Neymar.

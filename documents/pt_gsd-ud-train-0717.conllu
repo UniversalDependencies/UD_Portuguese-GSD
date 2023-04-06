@@ -16,9 +16,9 @@
 12	,	,	PUNCT	.	_	15	punct	_	_
 13	depois	depois	ADV	ADV	_	15	mark	_	_
 14	de	_	ADP	ADP	_	13	fixed	_	_
-15	deixá	deixar	VERB	VERB	_	4	advcl	_	_
+15	deixá	deixar	VERB	VERB	_	4	advcl	_	ToDo=NonCatenaCompound
 16	-	-	PUNCT	.	_	15	punct	_	_
-17	los	_	PRON	PRON	_	18	nsubj	_	_
+17	los	_	PRON	PRON	_	18	nsubj	_	ToDo=NonCatenaCompound
 18	cansados	cansado	ADJ	ADJ	_	15	xcomp	_	_
 19	com	com	ADP	ADP	_	20	case	_	_
 20	correrias	correria	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
@@ -93,7 +93,7 @@
 34	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s7119
-# text = Entre as primeiras destacam-se as reservas florestais, representadas especialmente pelos pinheirais, apesar de sua intensa exploração, e os ervais, que permitem ao estado manter-se como grande produtor da erva - mate.
+# text = Entre as primeiras destacam-se as reservas florestais, representadas especialmente pelos pinheirais, apesar de sua intensa exploração, e os ervais, que permitem ao estado manter-se como grande produtor da erva-mate.
 1	Entre	_	ADP	ADP	_	3	case	_	_
 2	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	primeiras	primeiro	NOUN	NOUN	_	4	nmod	_	_
@@ -136,10 +136,10 @@
 36-37	da	_	_	_	_	_	_	_	_
 36	de	de	ADP	ADP	_	38	case	_	_
 37	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38-39	erva-mate	_	_	_	_	_	_	_	SpaceAfter=No
 38	erva	erva	NOUN	NOUN	_	35	nmod	_	_
-39	-	-	PUNCT	.	_	38	punct	_	_
-40	mate	mate	NOUN	NOUN	_	38	flat	_	SpaceAfter=No
-41	.	.	PUNCT	.	_	4	punct	_	_
+39	mate	mate	NOUN	NOUN	_	38	flat	_	_
+40	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s7120
 # text = Todos esses episódios, com a exceção de Seeing the Light, que encerra a 2 ª temporada, foram baseados em contos curtos de Jennings.

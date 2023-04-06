@@ -89,10 +89,10 @@
 15	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s5263
-# text = Já a presidente do Sindicato dos Trabalhadores Federais da Saúde, Trabalho e Previdência do Rio de Janeiro (Sindisprev - RJ), Cristiana Gerardo, disse que o governo não tem dado assistência à saúde, refletindo no atendimento ao usuário e nas condições de trabalho.
-1	Já	já	ADV	ADV	_	32	advmod	_	_
+# text = Já a presidente do Sindicato dos Trabalhadores Federais da Saúde, Trabalho e Previdência do Rio de Janeiro (Sindisprev-RJ), Cristiana Gerardo, disse que o governo não tem dado assistência à saúde, refletindo no atendimento ao usuário e nas condições de trabalho.
+1	Já	já	ADV	ADV	_	31	advmod	_	_
 2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	presidente	presidente	NOUN	NOUN	_	32	nsubj	_	_
+3	presidente	presidente	NOUN	NOUN	_	31	nsubj	_	_
 4-5	do	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
 5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -117,47 +117,47 @@
 21	de	de	ADP	ADP	_	22	case	_	_
 22	Janeiro	_	PROPN	PNOUN	_	20	nmod	_	_
 23	(	(	PUNCT	.	_	24	punct	_	SpaceAfter=No
+24-25	Sindisprev-RJ	_	_	_	_	_	_	_	SpaceAfter=No
 24	Sindisprev	_	PROPN	PNOUN	_	6	appos	_	_
-25	-	-	PUNCT	.	_	24	punct	_	_
-26	RJ	_	PROPN	PNOUN	_	24	flat	_	SpaceAfter=No
-27	)	)	PUNCT	.	_	24	punct	_	SpaceAfter=No
-28	,	,	PUNCT	.	_	29	punct	_	_
-29	Cristiana	_	PROPN	PNOUN	_	3	appos	_	_
-30	Gerardo	_	PROPN	PNOUN	_	29	flat	_	SpaceAfter=No
-31	,	,	PUNCT	.	_	29	punct	_	_
-32	disse	dizer	VERB	VERB	_	0	root	_	_
-33	que	que	CCONJ	CONJ	_	38	mark	_	_
-34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
-35	governo	governo	NOUN	NOUN	_	38	nsubj	_	_
-36	não	não	ADV	ADV	Polarity=Neg	38	advmod	_	_
-37	tem	ter	AUX	AUX	_	38	aux	_	_
-38	dado	dar	VERB	VERB	_	32	ccomp	_	_
-39	assistência	assistência	NOUN	NOUN	_	38	obj	_	_
-40-41	à	_	_	_	_	_	_	_	_
-40	a	a	ADP	ADP	_	42	case	_	_
-41	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
-42	saúde	saúde	NOUN	NOUN	_	38	iobj	_	SpaceAfter=No
-43	,	,	PUNCT	.	_	44	punct	_	_
-44	refletindo	refletir	VERB	VERB	_	38	acl	_	_
-45-46	no	_	_	_	_	_	_	_	_
-45	em	em	ADP	ADP	_	47	case	_	_
-46	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
-47	atendimento	atendimento	NOUN	NOUN	_	44	nmod	_	_
-48-49	ao	_	_	_	_	_	_	_	_
-48	a	a	ADP	ADP	_	50	case	_	_
-49	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
-50	usuário	usuário	NOUN	NOUN	_	47	nmod	_	_
-51	e	e	CCONJ	CONJ	_	54	cc	_	_
-52-53	nas	_	_	_	_	_	_	_	_
-52	em	em	ADP	ADP	_	54	case	_	_
-53	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	54	det	_	_
-54	condições	condição	NOUN	NOUN	_	47	conj	_	_
-55	de	de	ADP	ADP	_	56	case	_	_
-56	trabalho	trabalho	NOUN	NOUN	_	54	nmod	_	SpaceAfter=No
-57	.	.	PUNCT	.	_	32	punct	_	_
+25	RJ	_	PROPN	PNOUN	_	24	flat	_	_
+26	)	)	PUNCT	.	_	24	punct	_	SpaceAfter=No
+27	,	,	PUNCT	.	_	28	punct	_	_
+28	Cristiana	_	PROPN	PNOUN	_	3	appos	_	_
+29	Gerardo	_	PROPN	PNOUN	_	28	flat	_	SpaceAfter=No
+30	,	,	PUNCT	.	_	28	punct	_	_
+31	disse	dizer	VERB	VERB	_	0	root	_	_
+32	que	que	CCONJ	CONJ	_	37	mark	_	_
+33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	governo	governo	NOUN	NOUN	_	37	nsubj	_	_
+35	não	não	ADV	ADV	Polarity=Neg	37	advmod	_	_
+36	tem	ter	AUX	AUX	_	37	aux	_	_
+37	dado	dar	VERB	VERB	_	31	ccomp	_	_
+38	assistência	assistência	NOUN	NOUN	_	37	obj	_	_
+39-40	à	_	_	_	_	_	_	_	_
+39	a	a	ADP	ADP	_	41	case	_	_
+40	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	saúde	saúde	NOUN	NOUN	_	37	iobj	_	SpaceAfter=No
+42	,	,	PUNCT	.	_	43	punct	_	_
+43	refletindo	refletir	VERB	VERB	_	37	acl	_	_
+44-45	no	_	_	_	_	_	_	_	_
+44	em	em	ADP	ADP	_	46	case	_	_
+45	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	atendimento	atendimento	NOUN	NOUN	_	43	nmod	_	_
+47-48	ao	_	_	_	_	_	_	_	_
+47	a	a	ADP	ADP	_	49	case	_	_
+48	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	usuário	usuário	NOUN	NOUN	_	46	nmod	_	_
+50	e	e	CCONJ	CONJ	_	53	cc	_	_
+51-52	nas	_	_	_	_	_	_	_	_
+51	em	em	ADP	ADP	_	53	case	_	_
+52	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	53	det	_	_
+53	condições	condição	NOUN	NOUN	_	46	conj	_	_
+54	de	de	ADP	ADP	_	55	case	_	_
+55	trabalho	trabalho	NOUN	NOUN	_	53	nmod	_	SpaceAfter=No
+56	.	.	PUNCT	.	_	31	punct	_	_
 
 # sent_id = train-s5264
-# text = A secretária de Estado americana, Hillary Clinton, que ficou hospitalizada durante alguns dias no início da semana e ausente da vida pública desde 7 de dezembro devido a problemas de saúde, está "ansiosa" para voltar ao trabalho na próxima semana, indicou nesta quinta - feira o departamento de Estado.
+# text = A secretária de Estado americana, Hillary Clinton, que ficou hospitalizada durante alguns dias no início da semana e ausente da vida pública desde 7 de dezembro devido a problemas de saúde, está "ansiosa" para voltar ao trabalho na próxima semana, indicou nesta quinta-feira o departamento de Estado.
 1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	secretária	_	NOUN	NOUN	_	38	nsubj	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
@@ -215,15 +215,15 @@
 50	semana	semana	NOUN	NOUN	_	43	nmod	_	SpaceAfter=No
 51	,	,	PUNCT	.	_	52	punct	_	_
 52	indicou	indicar	VERB	VERB	_	0	root	_	_
-53	nesta	_	ADP	ADP	_	56	case	_	_
-54	quinta	_	PROPN	PNOUN	_	56	amod	_	_
-55	-	-	PUNCT	.	_	56	punct	_	_
-56	feira	_	PROPN	PNOUN	_	52	nmod	_	_
-57	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	58	det	_	_
-58	departamento	_	PROPN	PNOUN	_	52	nsubj	_	_
-59	de	de	ADP	ADP	_	60	case	_	_
-60	Estado	_	PROPN	PNOUN	_	58	nmod	_	SpaceAfter=No
-61	.	.	PUNCT	.	_	52	punct	_	_
+53	nesta	_	ADP	ADP	_	55	case	_	_
+54-55	quinta-feira	_	_	_	_	_	_	_	_
+54	quinta	_	PROPN	PNOUN	_	55	amod	_	_
+55	feira	_	PROPN	PNOUN	_	52	nmod	_	_
+56	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
+57	departamento	_	PROPN	PNOUN	_	52	nsubj	_	_
+58	de	de	ADP	ADP	_	59	case	_	_
+59	Estado	_	PROPN	PNOUN	_	57	nmod	_	SpaceAfter=No
+60	.	.	PUNCT	.	_	52	punct	_	_
 
 # sent_id = train-s5265
 # text = Foi aprovada pelo Comitê Mundial da organização.

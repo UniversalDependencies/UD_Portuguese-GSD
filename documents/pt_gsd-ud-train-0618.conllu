@@ -231,7 +231,7 @@
 33	(	(	PUNCT	.	_	34	punct	_	SpaceAfter=No
 34	Châtel	_	PROPN	PNOUN	_	32	appos	_	_
 35	-	-	PUNCT	.	_	36	punct	_	_
-36	Saint	_	PROPN	PNOUN	_	34	appos	_	_
+36	Saint	_	PROPN	PNOUN	_	34	appos	_	ToDo=HasChildrenOutsideCompound
 37	Denis	_	PROPN	PNOUN	_	36	flat	_	SpaceAfter=No
 38	)	)	PUNCT	.	_	34	punct	_	_
 39	e	e	CCONJ	CONJ	_	40	cc	_	_
@@ -254,7 +254,7 @@
 7	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s6143
-# text = Rio -- Rajadas de vento de 61 km / h, considerada forte, foram registradas no Aeroporto do Galeão, na Ilha do Governador, às 17h15 da tarde desta terça - feira.
+# text = Rio -- Rajadas de vento de 61 km / h, considerada forte, foram registradas no Aeroporto do Galeão, na Ilha do Governador, às 17h15 da tarde desta terça-feira.
 1	Rio	_	PROPN	PNOUN	_	16	parataxis	_	_
 2	--	_	PUNCT	.	_	16	punct	_	_
 3	Rajadas	_	PROPN	PNOUN	_	16	nsubj:pass	_	_
@@ -297,11 +297,11 @@
 34	de	de	ADP	ADP	_	36	case	_	_
 35	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 36	tarde	tarde	NOUN	NOUN	_	33	nmod	_	_
-37	desta	_	ADP	ADP	_	40	case	_	_
-38	terça	_	PROPN	PNOUN	_	40	amod	_	_
-39	-	-	PUNCT	.	_	40	punct	_	_
-40	feira	_	PROPN	PNOUN	_	36	nmod	_	SpaceAfter=No
-41	.	.	PUNCT	.	_	16	punct	_	_
+37	desta	_	ADP	ADP	_	39	case	_	_
+38-39	terça-feira	_	_	_	_	_	_	_	SpaceAfter=No
+38	terça	_	PROPN	PNOUN	_	39	amod	_	_
+39	feira	_	PROPN	PNOUN	_	36	nmod	_	_
+40	.	.	PUNCT	.	_	16	punct	_	_
 
 # sent_id = train-s6144
 # text = Aos 38 anos, o príncipe Guilherme faleceu em seu apartamento, próximo à Ópera Garnier, de tifo, com o fígado enfermo e de total exaustão.

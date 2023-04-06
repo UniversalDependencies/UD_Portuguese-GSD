@@ -33,7 +33,7 @@
 30	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s5043
-# text = Alguns usuários, inclusive brasileiros, relataram a modificação nesta terça - feira (8).
+# text = Alguns usuários, inclusive brasileiros, relataram a modificação nesta terça-feira (8).
 1	Alguns	_	DET	DET	_	2	det	_	_
 2	usuários	usuário	NOUN	NOUN	_	7	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	5	punct	_	_
@@ -43,14 +43,14 @@
 7	relataram	relatar	VERB	VERB	_	0	root	_	_
 8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	modificação	modificação	NOUN	NOUN	_	7	obj	_	_
-10	nesta	_	ADP	ADP	_	13	case	_	_
-11	terça	_	PROPN	PNOUN	_	13	amod	_	_
-12	-	-	PUNCT	.	_	13	punct	_	_
-13	feira	_	PROPN	PNOUN	_	7	nmod	_	_
-14	(	(	PUNCT	.	_	15	punct	_	SpaceAfter=No
-15	8	8	NUM	NUM	NumType=Card	13	nmod	_	SpaceAfter=No
-16	)	)	PUNCT	.	_	15	punct	_	SpaceAfter=No
-17	.	.	PUNCT	.	_	7	punct	_	_
+10	nesta	_	ADP	ADP	_	12	case	_	_
+11-12	terça-feira	_	_	_	_	_	_	_	_
+11	terça	_	PROPN	PNOUN	_	12	amod	_	_
+12	feira	_	PROPN	PNOUN	_	7	nmod	_	_
+13	(	(	PUNCT	.	_	14	punct	_	SpaceAfter=No
+14	8	8	NUM	NUM	NumType=Card	12	nmod	_	SpaceAfter=No
+15	)	)	PUNCT	.	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s5044
 # text = Dessa nova fase de sua carreira destacam-se as canções "Vai ser assim", de sua autoria e lançada em 1970, e "Pouco a pouco", em parceria com César Augusto, sucesso de 1983.
@@ -136,30 +136,30 @@
 18	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s5047
-# text = Desde sua descoberta Naasa - Hablood tornou-se uma importante atração tourística e um ponto de referência na Somália.
+# text = Desde sua descoberta Naasa-Hablood tornou-se uma importante atração tourística e um ponto de referência na Somália.
 1	Desde	_	ADP	ADP	_	3	case	_	_
 2	sua	_	DET	DET	_	3	det:poss	_	_
-3	descoberta	_	NOUN	NOUN	_	11	nmod	_	_
-4	Naasa	_	PROPN	PNOUN	_	11	nsubj	_	_
-5	-	-	PUNCT	.	_	4	punct	_	_
-6	Hablood	_	PROPN	PNOUN	_	4	flat	_	_
-7-8	tornou-se	_	_	_	_	_	_	_	_
-7	tornou	tornar	AUX	AUX	_	11	cop	_	_
-8	se	_	PART	PRT	_	11	expl:pv	_	_
-9	uma	um	DET	DET	_	11	det	_	_
-10	importante	importante	ADJ	ADJ	_	11	amod	_	_
-11	atração	atração	NOUN	NOUN	_	0	root	_	_
-12	tourística	_	ADJ	ADJ	_	11	amod	_	_
-13	e	e	CCONJ	CONJ	_	15	cc	_	_
-14	um	_	NUM	NUM	NumType=Card	15	nummod	_	_
-15	ponto	ponto	NOUN	NOUN	_	11	conj	_	_
-16	de	de	ADP	ADP	_	17	case	_	_
-17	referência	referência	NOUN	NOUN	_	15	nmod	_	_
-18-19	na	_	_	_	_	_	_	_	_
-18	em	em	ADP	ADP	_	20	case	_	_
-19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	Somália	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
-21	.	.	PUNCT	.	_	11	punct	_	_
+3	descoberta	_	NOUN	NOUN	_	10	nmod	_	_
+4-5	Naasa-Hablood	_	_	_	_	_	_	_	_
+4	Naasa	_	PROPN	PNOUN	_	10	nsubj	_	_
+5	Hablood	_	PROPN	PNOUN	_	4	flat	_	_
+6-7	tornou-se	_	_	_	_	_	_	_	_
+6	tornou	tornar	AUX	AUX	_	10	cop	_	_
+7	se	_	PART	PRT	_	10	expl:pv	_	_
+8	uma	um	DET	DET	_	10	det	_	_
+9	importante	importante	ADJ	ADJ	_	10	amod	_	_
+10	atração	atração	NOUN	NOUN	_	0	root	_	_
+11	tourística	_	ADJ	ADJ	_	10	amod	_	_
+12	e	e	CCONJ	CONJ	_	14	cc	_	_
+13	um	_	NUM	NUM	NumType=Card	14	nummod	_	_
+14	ponto	ponto	NOUN	NOUN	_	10	conj	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
+16	referência	referência	NOUN	NOUN	_	14	nmod	_	_
+17-18	na	_	_	_	_	_	_	_	_
+17	em	em	ADP	ADP	_	19	case	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Somália	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s5048
 # text = Criou mais de 600 projetos ao redor do mundo em 70 anos de carreira.
@@ -184,7 +184,7 @@
 17	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s5049
-# text = A vitória da equipe gaulesa foi de virada por 2 a 1 em Glasgow, na Escócia, nesta sexta - feira.
+# text = A vitória da equipe gaulesa foi de virada por 2 a 1 em Glasgow, na Escócia, nesta sexta-feira.
 1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	vitória	vitória	NOUN	NOUN	_	7	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -207,14 +207,14 @@
 18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	Escócia	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	.	_	19	punct	_	_
-21	nesta	_	ADP	ADP	_	24	case	_	_
-22	sexta	_	PROPN	PNOUN	_	24	amod	_	_
-23	-	-	PUNCT	.	_	24	punct	_	_
-24	feira	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
-25	.	.	PUNCT	.	_	7	punct	_	_
+21	nesta	_	ADP	ADP	_	23	case	_	_
+22-23	sexta-feira	_	_	_	_	_	_	_	SpaceAfter=No
+22	sexta	_	PROPN	PNOUN	_	23	amod	_	_
+23	feira	_	PROPN	PNOUN	_	7	nmod	_	_
+24	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s5050
-# text = Serafim tinha negócios desde a década de 30 na cidade de Andradina, e se auto - proclamava em tom de brincadeira "a única pessoa lúcida", que é pioneira da cidade.
+# text = Serafim tinha negócios desde a década de 30 na cidade de Andradina, e se auto-proclamava em tom de brincadeira "a única pessoa lúcida", que é pioneira da cidade.
 1	Serafim	_	PROPN	PNOUN	_	2	nsubj	_	_
 2	tinha	ter	VERB	VERB	_	0	root	_	_
 3	negócios	negócio	NOUN	NOUN	_	2	obj	_	_
@@ -231,29 +231,29 @@
 13	Andradina	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	17	punct	_	_
 15	e	e	CCONJ	CONJ	_	17	cc	_	_
-16	se	_	PRON	PRON	_	27	nsubj	_	_
+16	se	_	PRON	PRON	_	26	nsubj	_	_
+17-18	auto-proclamava	_	_	_	_	_	_	_	_
 17	auto	_	PART	PRT	_	2	conj	_	_
-18	-	-	PUNCT	.	_	17	punct	_	_
-19	proclamava	proclamar	VERB	VERB	_	17	flat	_	_
-20	em	em	ADP	ADP	_	21	case	_	_
-21	tom	tom	NOUN	NOUN	_	17	nmod	_	_
-22	de	de	ADP	ADP	_	23	case	_	_
-23	brincadeira	brincadeira	NOUN	NOUN	_	21	nmod	_	_
-24	"	"	PUNCT	.	_	27	punct	_	SpaceAfter=No
-25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-26	única	único	ADJ	ADJ	_	27	amod	_	_
-27	pessoa	pessoa	NOUN	NOUN	_	17	xcomp	_	_
-28	lúcida	lúcido	ADJ	ADJ	_	27	amod	_	SpaceAfter=No
-29	"	"	PUNCT	.	_	27	punct	_	SpaceAfter=No
-30	,	,	PUNCT	.	_	32	punct	_	_
-31	que	_	PRON	PRON	_	32	nsubj:pass	_	_
-32	é	ser	VERB	VERB	_	27	acl:relcl	_	_
-33	pioneira	pioneiro	ADJ	ADJ	_	32	xcomp	_	_
-34-35	da	_	_	_	_	_	_	_	_
-34	de	de	ADP	ADP	_	36	case	_	_
-35	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-36	cidade	cidade	NOUN	NOUN	_	33	nmod	_	SpaceAfter=No
-37	.	.	PUNCT	.	_	2	punct	_	_
+18	proclamava	proclamar	VERB	VERB	_	17	flat	_	_
+19	em	em	ADP	ADP	_	20	case	_	_
+20	tom	tom	NOUN	NOUN	_	17	nmod	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
+22	brincadeira	brincadeira	NOUN	NOUN	_	20	nmod	_	_
+23	"	"	PUNCT	.	_	26	punct	_	SpaceAfter=No
+24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	única	único	ADJ	ADJ	_	26	amod	_	_
+26	pessoa	pessoa	NOUN	NOUN	_	17	xcomp	_	_
+27	lúcida	lúcido	ADJ	ADJ	_	26	amod	_	SpaceAfter=No
+28	"	"	PUNCT	.	_	26	punct	_	SpaceAfter=No
+29	,	,	PUNCT	.	_	31	punct	_	_
+30	que	_	PRON	PRON	_	31	nsubj:pass	_	_
+31	é	ser	VERB	VERB	_	26	acl:relcl	_	_
+32	pioneira	pioneiro	ADJ	ADJ	_	31	xcomp	_	_
+33-34	da	_	_	_	_	_	_	_	_
+33	de	de	ADP	ADP	_	35	case	_	_
+34	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	cidade	cidade	NOUN	NOUN	_	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s5051
 # text = O caso de Rafa tem certa semelhança com o que os argentinos vivenciaram com Lionel Messi em 2005.

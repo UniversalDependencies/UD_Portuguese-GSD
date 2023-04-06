@@ -71,7 +71,7 @@
 18	;	_	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s7390
-# text = Gurgel ressaltou ainda que há provas documentais que incriminam os ex - dirigentes do Banco Rural citados no processo.
+# text = Gurgel ressaltou ainda que há provas documentais que incriminam os ex-dirigentes do Banco Rural citados no processo.
 1	Gurgel	_	PROPN	PNOUN	_	2	nsubj	_	_
 2	ressaltou	ressaltar	VERB	VERB	_	0	root	_	_
 3	ainda	ainda	ADV	ADV	_	2	advmod	_	_
@@ -82,20 +82,20 @@
 8	que	_	PRON	PRON	_	9	nsubj	_	_
 9	incriminam	incriminar	VERB	VERB	_	6	acl:relcl	_	_
 10	os	o	DET	DET	_	11	det	_	_
+11-12	ex-dirigentes	_	_	_	_	_	_	_	_
 11	ex	_	PART	PRT	_	9	obj	_	_
-12	-	-	PUNCT	.	_	11	punct	_	_
-13	dirigentes	dirigente	NOUN	NOUN	_	11	flat	_	_
-14-15	do	_	_	_	_	_	_	_	_
-14	de	de	ADP	ADP	_	16	case	_	_
-15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	Banco	_	PROPN	PNOUN	_	11	nmod	_	_
-17	Rural	_	PROPN	PNOUN	_	16	amod	_	_
-18	citados	citar	VERB	VERB	_	11	acl	_	_
-19-20	no	_	_	_	_	_	_	_	_
-19	em	em	ADP	ADP	_	21	case	_	_
-20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	processo	processo	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
-22	.	.	PUNCT	.	_	2	punct	_	_
+12	dirigentes	dirigente	NOUN	NOUN	_	11	flat	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Banco	_	PROPN	PNOUN	_	11	nmod	_	_
+16	Rural	_	PROPN	PNOUN	_	15	amod	_	_
+17	citados	citar	VERB	VERB	_	11	acl	_	_
+18-19	no	_	_	_	_	_	_	_	_
+18	em	em	ADP	ADP	_	20	case	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	processo	processo	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s7391
 # text = Restará o profissional que atuará nos micro - ônibus, linhas intermunicipais e também interestaduais.
@@ -107,8 +107,8 @@
 6-7	nos	_	_	_	_	_	_	_	_
 6	em	em	ADP	ADP	_	8	case	_	_
 7	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
-8	micro	_	PART	PRT	_	5	nmod	_	_
-9	-	-	PUNCT	.	_	12	punct	_	_
+8	micro	_	PART	PRT	_	5	nmod	_	ToDo=NonCatenaCompound
+9	-	-	PUNCT	.	_	12	punct	_	ToDo=NonCatenaCompound
 10	ônibus	ônibus	NOUN	NOUN	_	8	flat	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	12	punct	_	_
 12	linhas	_	NOUN	NOUN	_	8	conj	_	_

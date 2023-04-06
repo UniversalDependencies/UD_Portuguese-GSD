@@ -105,9 +105,9 @@
 37	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s7059
-# text = O Tribunal Regional Federal da Primeira Região (TRF - 1) determinou na terça - feira passada que as obras da usina no Pará sejam suspensas, acatando pedido do Ministério Público Federal no Estado.
+# text = O Tribunal Regional Federal da Primeira Região (TRF-1) determinou na terça-feira passada que as obras da usina no Pará sejam suspensas, acatando pedido do Ministério Público Federal no Estado.
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	Tribunal	_	PROPN	PNOUN	_	14	nsubj	_	_
+2	Tribunal	_	PROPN	PNOUN	_	13	nsubj	_	_
 3	Regional	_	PROPN	PNOUN	_	2	amod	_	_
 4	Federal	_	PROPN	PNOUN	_	2	amod	_	_
 5-6	da	_	_	_	_	_	_	_	_
@@ -116,45 +116,45 @@
 7	Primeira	_	PROPN	PNOUN	_	8	amod	_	_
 8	Região	_	PROPN	PNOUN	_	2	nmod	_	_
 9	(	(	PUNCT	.	_	10	punct	_	SpaceAfter=No
+10-11	TRF-1	_	_	_	_	_	_	_	SpaceAfter=No
 10	TRF	_	PROPN	PNOUN	_	2	appos	_	_
-11	-	-	PUNCT	.	_	10	punct	_	_
-12	1	1	NUM	NUM	NumType=Card	10	appos	_	SpaceAfter=No
-13	)	)	PUNCT	.	_	10	punct	_	_
-14	determinou	determinar	VERB	VERB	_	0	root	_	_
-15-16	na	_	_	_	_	_	_	_	_
-15	em	em	ADP	ADP	_	19	case	_	_
-16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-17	terça	_	PROPN	PNOUN	_	19	amod	_	_
-18	-	-	PUNCT	.	_	19	punct	_	_
-19	feira	_	PROPN	PNOUN	_	14	nmod	_	_
-20	passada	passado	ADJ	ADJ	_	19	amod	_	_
-21	que	que	CCONJ	CONJ	_	31	mark	_	_
-22	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
-23	obras	obra	NOUN	NOUN	_	31	nsubj:pass	_	_
-24-25	da	_	_	_	_	_	_	_	_
-24	de	de	ADP	ADP	_	26	case	_	_
-25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	usina	usina	NOUN	NOUN	_	23	nmod	_	_
-27-28	no	_	_	_	_	_	_	_	_
-27	em	em	ADP	ADP	_	29	case	_	_
-28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-29	Pará	_	PROPN	PNOUN	_	23	nmod	_	_
-30	sejam	ser	AUX	AUX	_	31	aux:pass	_	_
-31	suspensas	suspender	VERB	VERB	_	14	ccomp	_	SpaceAfter=No
-32	,	,	PUNCT	.	_	33	punct	_	_
-33	acatando	acatar	VERB	VERB	_	31	acl	_	_
-34	pedido	pedido	NOUN	NOUN	_	33	obj	_	_
-35-36	do	_	_	_	_	_	_	_	_
-35	de	de	ADP	ADP	_	37	case	_	_
-36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
-37	Ministério	_	PROPN	PNOUN	_	34	nmod	_	_
-38	Público	_	PROPN	PNOUN	_	37	amod	_	_
-39	Federal	_	PROPN	PNOUN	_	37	amod	_	_
-40-41	no	_	_	_	_	_	_	_	_
-40	em	em	ADP	ADP	_	42	case	_	_
-41	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
-42	Estado	_	PROPN	PNOUN	_	37	nmod	_	SpaceAfter=No
-43	.	.	PUNCT	.	_	31	punct	_	_
+11	1	1	NUM	NUM	NumType=Card	10	appos	_	_
+12	)	)	PUNCT	.	_	10	punct	_	_
+13	determinou	determinar	VERB	VERB	_	0	root	_	_
+14-15	na	_	_	_	_	_	_	_	_
+14	em	em	ADP	ADP	_	17	case	_	_
+15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16-17	terça-feira	_	_	_	_	_	_	_	_
+16	terça	_	PROPN	PNOUN	_	17	amod	_	_
+17	feira	_	PROPN	PNOUN	_	13	nmod	_	_
+18	passada	passado	ADJ	ADJ	_	17	amod	_	_
+19	que	que	CCONJ	CONJ	_	29	mark	_	_
+20	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	obras	obra	NOUN	NOUN	_	29	nsubj:pass	_	_
+22-23	da	_	_	_	_	_	_	_	_
+22	de	de	ADP	ADP	_	24	case	_	_
+23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	usina	usina	NOUN	NOUN	_	21	nmod	_	_
+25-26	no	_	_	_	_	_	_	_	_
+25	em	em	ADP	ADP	_	27	case	_	_
+26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Pará	_	PROPN	PNOUN	_	21	nmod	_	_
+28	sejam	ser	AUX	AUX	_	29	aux:pass	_	_
+29	suspensas	suspender	VERB	VERB	_	13	ccomp	_	SpaceAfter=No
+30	,	,	PUNCT	.	_	31	punct	_	_
+31	acatando	acatar	VERB	VERB	_	29	acl	_	_
+32	pedido	pedido	NOUN	NOUN	_	31	obj	_	_
+33-34	do	_	_	_	_	_	_	_	_
+33	de	de	ADP	ADP	_	35	case	_	_
+34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	Ministério	_	PROPN	PNOUN	_	32	nmod	_	_
+36	Público	_	PROPN	PNOUN	_	35	amod	_	_
+37	Federal	_	PROPN	PNOUN	_	35	amod	_	_
+38-39	no	_	_	_	_	_	_	_	_
+38	em	em	ADP	ADP	_	40	case	_	_
+39	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	Estado	_	PROPN	PNOUN	_	35	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	.	_	29	punct	_	_
 
 # sent_id = train-s7060
 # text = Não sei se o poder aquisitivo melhorou, mas no sábado chegou a acabar as coisas para vender na barraca.
@@ -202,41 +202,41 @@
 12	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s7062
-# text = Conforme a resolução, a gigante norte - americana de tecnologia pagou US $ 60 milhões em troca do direito de uso da marca iPad na China.
+# text = Conforme a resolução, a gigante norte-americana de tecnologia pagou US $ 60 milhões em troca do direito de uso da marca iPad na China.
 1	Conforme	_	ADP	ADP	_	3	case	_	_
 2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	resolução	resolução	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
+3	resolução	resolução	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
 5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	gigante	gigante	NOUN	NOUN	_	12	nsubj	_	_
-7	norte	norte	ADJ	ADJ	_	9	amod	_	_
-8	-	-	PUNCT	.	_	9	punct	_	_
-9	americana	americano	ADJ	ADJ	_	6	amod	_	_
-10	de	de	ADP	ADP	_	11	case	_	_
-11	tecnologia	tecnologia	NOUN	NOUN	_	6	nmod	_	_
-12	pagou	pagar	VERB	VERB	_	0	root	_	_
-13	US	_	PROPN	PNOUN	_	12	obj	_	_
-14	$	_	SYM	SYM	_	13	flat	_	_
-15	60	60	NUM	NUM	NumType=Card	16	nummod	_	_
-16	milhões	_	NUM	NUM	NumType=Card	13	nummod	_	_
-17	em	em	ADP	ADP	_	18	case	_	_
-18	troca	_	NOUN	NOUN	_	12	nmod	_	_
-19-20	do	_	_	_	_	_	_	_	_
-19	de	de	ADP	ADP	_	21	case	_	_
-20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	direito	direito	NOUN	NOUN	_	18	nmod	_	_
-22	de	de	ADP	ADP	_	23	case	_	_
-23	uso	uso	NOUN	NOUN	_	21	nmod	_	_
-24-25	da	_	_	_	_	_	_	_	_
-24	de	de	ADP	ADP	_	27	case	_	_
-25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-26	marca	marca	NOUN	NOUN	_	27	case	_	_
-27	iPad	_	PROPN	PNOUN	_	23	nmod	_	_
-28-29	na	_	_	_	_	_	_	_	_
-28	em	em	ADP	ADP	_	30	case	_	_
-29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
-30	China	_	PROPN	PNOUN	_	23	nmod	_	SpaceAfter=No
-31	.	.	PUNCT	.	_	12	punct	_	_
+6	gigante	gigante	NOUN	NOUN	_	11	nsubj	_	_
+7-8	norte-americana	_	_	_	_	_	_	_	_
+7	norte	norte	ADJ	ADJ	_	8	amod	_	_
+8	americana	americano	ADJ	ADJ	_	6	amod	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
+10	tecnologia	tecnologia	NOUN	NOUN	_	6	nmod	_	_
+11	pagou	pagar	VERB	VERB	_	0	root	_	_
+12	US	_	PROPN	PNOUN	_	11	obj	_	_
+13	$	_	SYM	SYM	_	12	flat	_	_
+14	60	60	NUM	NUM	NumType=Card	15	nummod	_	_
+15	milhões	_	NUM	NUM	NumType=Card	12	nummod	_	_
+16	em	em	ADP	ADP	_	17	case	_	_
+17	troca	_	NOUN	NOUN	_	11	nmod	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	ADP	_	20	case	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	direito	direito	NOUN	NOUN	_	17	nmod	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
+22	uso	uso	NOUN	NOUN	_	20	nmod	_	_
+23-24	da	_	_	_	_	_	_	_	_
+23	de	de	ADP	ADP	_	26	case	_	_
+24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	marca	marca	NOUN	NOUN	_	26	case	_	_
+26	iPad	_	PROPN	PNOUN	_	22	nmod	_	_
+27-28	na	_	_	_	_	_	_	_	_
+27	em	em	ADP	ADP	_	29	case	_	_
+28	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	China	_	PROPN	PNOUN	_	22	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s7063
 # text = A etapa brasileira será a oitava rodada dupla do calendário de 24 provas.

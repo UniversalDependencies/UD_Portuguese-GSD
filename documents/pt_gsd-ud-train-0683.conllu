@@ -50,7 +50,7 @@
 14	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s6782
-# text = No pleito em questão, ela concorreu ao cargo de vice - governadora na chapa de Nelson Júnior (PSOL).
+# text = No pleito em questão, ela concorreu ao cargo de vice-governadora na chapa de Nelson Júnior (PSOL).
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -65,20 +65,20 @@
 10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	cargo	cargo	NOUN	NOUN	_	8	nmod	_	_
 12	de	de	ADP	ADP	_	13	case	_	_
+13-14	vice-governadora	_	_	_	_	_	_	_	_
 13	vice	_	PART	PRT	_	11	nmod	_	_
-14	-	-	PUNCT	.	_	13	punct	_	_
-15	governadora	governador	NOUN	NOUN	_	13	flat	_	_
-16-17	na	_	_	_	_	_	_	_	_
-16	em	em	ADP	ADP	_	18	case	_	_
-17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	chapa	chapa	NOUN	NOUN	_	8	nmod	_	_
-19	de	de	ADP	ADP	_	20	case	_	_
-20	Nelson	_	PROPN	PNOUN	_	18	nmod	_	_
-21	Júnior	_	PROPN	PNOUN	_	20	flat	_	_
-22	(	(	PUNCT	.	_	23	punct	_	SpaceAfter=No
-23	PSOL	_	PROPN	PNOUN	_	18	appos	_	SpaceAfter=No
-24	)	)	PUNCT	.	_	23	punct	_	SpaceAfter=No
-25	.	.	PUNCT	.	_	8	punct	_	_
+14	governadora	governador	NOUN	NOUN	_	13	flat	_	_
+15-16	na	_	_	_	_	_	_	_	_
+15	em	em	ADP	ADP	_	17	case	_	_
+16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	chapa	chapa	NOUN	NOUN	_	8	nmod	_	_
+18	de	de	ADP	ADP	_	19	case	_	_
+19	Nelson	_	PROPN	PNOUN	_	17	nmod	_	_
+20	Júnior	_	PROPN	PNOUN	_	19	flat	_	_
+21	(	(	PUNCT	.	_	22	punct	_	SpaceAfter=No
+22	PSOL	_	PROPN	PNOUN	_	17	appos	_	SpaceAfter=No
+23	)	)	PUNCT	.	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s6783
 # text = O motivo da decisão é evitar uma sobrecarga ainda maior aos ministros.
@@ -236,51 +236,51 @@
 9	;	_	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s6789
-# text = Nesta sexta - feira, às 15h45m (de Brasília), no Morumbi, os candidatos brasileiros estarão frente a frente com o jogador que, mesmo com salário e fama bem mais modestos, já entrou para a história.
-1	Nesta	_	ADP	ADP	_	4	case	_	_
-2	sexta	_	PROPN	PNOUN	_	4	amod	_	_
-3	-	-	PUNCT	.	_	4	punct	_	_
-4	feira	_	PROPN	PNOUN	_	21	nmod	_	SpaceAfter=No
-5	,	,	PUNCT	.	_	4	punct	_	_
-6-7	às	_	_	_	_	_	_	_	_
-6	a	a	ADP	ADP	_	8	case	_	_
-7	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
-8	15h45m	_	NOUN	NOUN	_	21	nmod	_	_
-9	(	(	PUNCT	.	_	11	punct	_	SpaceAfter=No
-10	de	de	ADP	ADP	_	11	case	_	_
-11	Brasília	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
-12	)	)	PUNCT	.	_	11	punct	_	SpaceAfter=No
-13	,	,	PUNCT	.	_	16	punct	_	_
-14-15	no	_	_	_	_	_	_	_	_
-14	em	em	ADP	ADP	_	16	case	_	_
-15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	Morumbi	_	PROPN	PNOUN	_	21	nmod	_	SpaceAfter=No
-17	,	,	PUNCT	.	_	16	punct	_	_
-18	os	o	DET	DET	_	19	det	_	_
-19	candidatos	candidato	NOUN	NOUN	_	21	nsubj	_	_
-20	brasileiros	brasileiro	ADJ	ADJ	_	19	amod	_	_
-21	estarão	estar	VERB	VERB	_	0	root	_	_
-22	frente	frente	NOUN	NOUN	_	21	nmod	_	_
-23	a	_	ADP	ADP	_	24	case	_	_
-24	frente	frente	NOUN	NOUN	_	22	nmod	_	_
-25	com	com	ADP	ADP	_	27	case	_	_
-26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	jogador	jogador	NOUN	NOUN	_	24	nmod	_	_
-28	que	_	PRON	PRON	_	40	nsubj	_	SpaceAfter=No
-29	,	,	PUNCT	.	_	32	punct	_	_
-30	mesmo	mesmo	ADV	ADV	_	32	advmod	_	_
-31	com	com	ADP	ADP	_	32	case	_	_
-32	salário	salário	NOUN	NOUN	_	40	nmod	_	_
-33	e	e	CCONJ	CONJ	_	34	cc	_	_
-34	fama	fama	NOUN	NOUN	_	32	conj	_	_
-35	bem	bem	ADV	ADV	_	36	advmod	_	_
-36	mais	mais	ADV	ADV	_	37	advmod	_	_
-37	modestos	modesto	ADJ	ADJ	_	32	amod	_	SpaceAfter=No
-38	,	,	PUNCT	.	_	32	punct	_	_
-39	já	já	ADV	ADV	_	40	advmod	_	_
-40	entrou	entrar	VERB	VERB	_	27	acl:relcl	_	_
-41	para	para	ADP	ADP	_	43	case	_	_
-42	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
-43	história	história	NOUN	NOUN	_	40	nmod	_	SpaceAfter=No
-44	.	.	PUNCT	.	_	21	punct	_	_
+# text = Nesta sexta-feira, às 15h45m (de Brasília), no Morumbi, os candidatos brasileiros estarão frente a frente com o jogador que, mesmo com salário e fama bem mais modestos, já entrou para a história.
+1	Nesta	_	ADP	ADP	_	3	case	_	_
+2-3	sexta-feira	_	_	_	_	_	_	_	SpaceAfter=No
+2	sexta	_	PROPN	PNOUN	_	3	amod	_	_
+3	feira	_	PROPN	PNOUN	_	20	nmod	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
+5-6	às	_	_	_	_	_	_	_	_
+5	a	a	ADP	ADP	_	7	case	_	_
+6	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	15h45m	_	NOUN	NOUN	_	20	nmod	_	_
+8	(	(	PUNCT	.	_	10	punct	_	SpaceAfter=No
+9	de	de	ADP	ADP	_	10	case	_	_
+10	Brasília	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
+11	)	)	PUNCT	.	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	.	_	15	punct	_	_
+13-14	no	_	_	_	_	_	_	_	_
+13	em	em	ADP	ADP	_	15	case	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Morumbi	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	.	_	15	punct	_	_
+17	os	o	DET	DET	_	18	det	_	_
+18	candidatos	candidato	NOUN	NOUN	_	20	nsubj	_	_
+19	brasileiros	brasileiro	ADJ	ADJ	_	18	amod	_	_
+20	estarão	estar	VERB	VERB	_	0	root	_	_
+21	frente	frente	NOUN	NOUN	_	20	nmod	_	_
+22	a	_	ADP	ADP	_	23	case	_	_
+23	frente	frente	NOUN	NOUN	_	21	nmod	_	_
+24	com	com	ADP	ADP	_	26	case	_	_
+25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	jogador	jogador	NOUN	NOUN	_	23	nmod	_	_
+27	que	_	PRON	PRON	_	39	nsubj	_	SpaceAfter=No
+28	,	,	PUNCT	.	_	31	punct	_	_
+29	mesmo	mesmo	ADV	ADV	_	31	advmod	_	_
+30	com	com	ADP	ADP	_	31	case	_	_
+31	salário	salário	NOUN	NOUN	_	39	nmod	_	_
+32	e	e	CCONJ	CONJ	_	33	cc	_	_
+33	fama	fama	NOUN	NOUN	_	31	conj	_	_
+34	bem	bem	ADV	ADV	_	35	advmod	_	_
+35	mais	mais	ADV	ADV	_	36	advmod	_	_
+36	modestos	modesto	ADJ	ADJ	_	31	amod	_	SpaceAfter=No
+37	,	,	PUNCT	.	_	31	punct	_	_
+38	já	já	ADV	ADV	_	39	advmod	_	_
+39	entrou	entrar	VERB	VERB	_	26	acl:relcl	_	_
+40	para	para	ADP	ADP	_	42	case	_	_
+41	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	história	história	NOUN	NOUN	_	39	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	20	punct	_	_
 

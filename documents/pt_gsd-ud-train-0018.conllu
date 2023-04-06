@@ -225,7 +225,7 @@
 27	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s179
-# text = Isto é, são defeitos ou não conformidades que a execução pode produzi - los, reproduzi - los ou eliminá - los.
+# text = Isto é, são defeitos ou não conformidades que a execução pode produzi - los, reproduzi-los ou eliminá-los.
 1	Isto	_	PRON	PRON	_	5	cc	_	_
 2	é	ser	VERB	VERB	_	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	1	punct	_	_
@@ -238,18 +238,18 @@
 10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	execução	execução	NOUN	NOUN	_	13	nsubj	_	_
 12	pode	_	AUX	AUX	_	13	aux	_	_
-13	produzi	produzir	VERB	VERB	_	5	acl:relcl	_	_
-14	-	-	PUNCT	.	_	17	punct	_	_
+13	produzi	produzir	VERB	VERB	_	5	acl:relcl	_	ToDo=NonCatenaCompound
+14	-	-	PUNCT	.	_	17	punct	_	ToDo=NonCatenaCompound
 15	los	_	PRON	PRON	_	13	obj	_	SpaceAfter=No
 16	,	,	PUNCT	.	_	17	punct	_	_
+17-18	reproduzi-los	_	_	_	_	_	_	_	_
 17	reproduzi	reproduzir	VERB	VERB	_	13	conj	_	_
-18	-	-	PUNCT	.	_	17	punct	_	_
-19	los	_	PRON	PRON	_	17	obj	_	_
-20	ou	ou	CCONJ	CONJ	_	21	cc	_	_
-21	eliminá	eliminar	VERB	VERB	_	13	conj	_	_
-22	-	-	PUNCT	.	_	21	punct	_	_
-23	los	_	PRON	PRON	_	21	obj	_	SpaceAfter=No
-24	.	.	PUNCT	.	_	5	punct	_	_
+18	los	_	PRON	PRON	_	17	obj	_	_
+19	ou	ou	CCONJ	CONJ	_	20	cc	_	_
+20-21	eliminá-los	_	_	_	_	_	_	_	SpaceAfter=No
+20	eliminá	eliminar	VERB	VERB	_	13	conj	_	_
+21	los	_	PRON	PRON	_	20	obj	_	_
+22	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s180
 # text = Desta forma, cortava cruzamentos altos, tomava as bolas nos pés dos atacantes e bloquear-lhe os ângulos.

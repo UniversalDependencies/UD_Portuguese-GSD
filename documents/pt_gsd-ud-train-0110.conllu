@@ -123,7 +123,7 @@
 10	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s1096
-# text = Ele usa SVGALib ou X11 como sua interface gráfica API em sistemas Unix, com uma variedade de versões nativas em plataformas não - Unix.
+# text = Ele usa SVGALib ou X11 como sua interface gráfica API em sistemas Unix, com uma variedade de versões nativas em plataformas não-Unix.
 1	Ele	_	PRON	PRON	_	2	nsubj	_	_
 2	usa	usar	VERB	VERB	_	0	root	_	_
 3	SVGALib	_	PROPN	PNOUN	_	2	obj	_	_
@@ -146,10 +146,10 @@
 20	nativas	nativo	ADJ	ADJ	_	19	amod	_	_
 21	em	em	ADP	ADP	_	22	case	_	_
 22	plataformas	plataforma	NOUN	NOUN	_	17	nmod	_	_
-23	não	não	ADV	ADV	Polarity=Neg	25	advmod	_	_
-24	-	-	PUNCT	.	_	25	punct	_	_
-25	Unix	_	PROPN	PNOUN	_	22	appos	_	SpaceAfter=No
-26	.	.	PUNCT	.	_	2	punct	_	_
+23-24	não-Unix	_	_	_	_	_	_	_	SpaceAfter=No
+23	não	não	ADV	ADV	Polarity=Neg	24	advmod	_	_
+24	Unix	_	PROPN	PNOUN	_	22	appos	_	_
+25	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s1097
 # text = Numa noite de Junho de 1940, na zona portuária de Lisboa, um francês é abatido a tiro e lançado ao Tejo.
@@ -183,7 +183,7 @@
 26	.	.	PUNCT	.	_	18	punct	_	_
 
 # sent_id = train-s1098
-# text = Ele foi seguido por dois britânicos (Jamieson e Willis), dois japoneses (Tateishi e Kitajima) e dois norte - americanos (Burckle e Weltz).
+# text = Ele foi seguido por dois britânicos (Jamieson e Willis), dois japoneses (Tateishi e Kitajima) e dois norte-americanos (Burckle e Weltz).
 1	Ele	_	PRON	PRON	_	3	nsubj:pass	_	_
 2	foi	_	AUX	AUX	_	3	aux:pass	_	_
 3	seguido	seguir	VERB	VERB	_	0	root	_	_
@@ -203,17 +203,17 @@
 17	e	e	CCONJ	CONJ	_	18	cc	_	_
 18	Kitajima	_	PROPN	PNOUN	_	16	conj	_	SpaceAfter=No
 19	)	)	PUNCT	.	_	16	punct	_	_
-20	e	e	CCONJ	CONJ	_	24	cc	_	_
-21	dois	_	NUM	NUM	NumType=Card	24	nummod	_	_
-22	norte	norte	ADJ	ADJ	_	24	amod	_	_
-23	-	-	PUNCT	.	_	24	punct	_	_
-24	americanos	americano	NOUN	NOUN	_	6	conj	_	_
-25	(	(	PUNCT	.	_	26	punct	_	SpaceAfter=No
-26	Burckle	_	PROPN	PNOUN	_	24	appos	_	_
-27	e	e	CCONJ	CONJ	_	28	cc	_	_
-28	Weltz	_	PROPN	PNOUN	_	26	conj	_	SpaceAfter=No
-29	)	)	PUNCT	.	_	26	punct	_	SpaceAfter=No
-30	.	.	PUNCT	.	_	3	punct	_	_
+20	e	e	CCONJ	CONJ	_	23	cc	_	_
+21	dois	_	NUM	NUM	NumType=Card	23	nummod	_	_
+22-23	norte-americanos	_	_	_	_	_	_	_	_
+22	norte	norte	ADJ	ADJ	_	23	amod	_	_
+23	americanos	americano	NOUN	NOUN	_	6	conj	_	_
+24	(	(	PUNCT	.	_	25	punct	_	SpaceAfter=No
+25	Burckle	_	PROPN	PNOUN	_	23	appos	_	_
+26	e	e	CCONJ	CONJ	_	27	cc	_	_
+27	Weltz	_	PROPN	PNOUN	_	25	conj	_	SpaceAfter=No
+28	)	)	PUNCT	.	_	25	punct	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s1099
 # text = Mas, segundo sua assessoria de imprensa, a causa da morte ainda é desconhecida.

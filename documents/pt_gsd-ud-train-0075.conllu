@@ -144,7 +144,7 @@
 30	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s746
-# text = Eu tenho alguns brancos na minha vida, mas vou resgatá - los".
+# text = Eu tenho alguns brancos na minha vida, mas vou resgatá-los".
 1	Eu	_	PRON	PRON	_	2	nsubj	_	_
 2	tenho	ter	VERB	VERB	_	0	root	_	_
 3	alguns	_	DET	DET	_	4	det	_	_
@@ -157,11 +157,11 @@
 9	,	,	PUNCT	.	_	12	punct	_	_
 10	mas	mas	CCONJ	CONJ	_	12	cc	_	_
 11	vou	ir	AUX	AUX	_	12	aux	_	_
+12-13	resgatá-los	_	_	_	_	_	_	_	SpaceAfter=No
 12	resgatá	resgatar	VERB	VERB	_	2	conj	_	_
-13	-	-	PUNCT	.	_	12	punct	_	_
-14	los	_	PRON	PRON	_	12	obj	_	SpaceAfter=No
-15	"	"	PUNCT	.	_	12	punct	_	SpaceAfter=No
-16	.	.	PUNCT	.	_	2	punct	_	_
+13	los	_	PRON	PRON	_	12	obj	_	_
+14	"	"	PUNCT	.	_	12	punct	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s747
 # text = Com esse panorama, foi fácil convencer a sede a investir em novos produtos no Rio ", disse Marc Bailliart.
@@ -258,7 +258,7 @@
 41	.	.	PUNCT	.	_	16	punct	_	_
 
 # sent_id = train-s750
-# text = Serão 40 homens subordinados diretamente ao CPI - 1 (Comando de Policiamento do Interior), cuja sede fica em São José, e atuando em operações especiais.
+# text = Serão 40 homens subordinados diretamente ao CPI-1 (Comando de Policiamento do Interior), cuja sede fica em São José, e atuando em operações especiais.
 1	Serão	ser	AUX	AUX	_	3	cop	_	_
 2	40	40	NUM	NUM	NumType=Card	3	nummod	_	_
 3	homens	homem	NOUN	NOUN	_	0	root	_	_
@@ -267,30 +267,30 @@
 6-7	ao	_	_	_	_	_	_	_	_
 6	a	a	ADP	ADP	_	8	case	_	_
 7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8-9	CPI-1	_	_	_	_	_	_	_	_
 8	CPI	_	PROPN	PNOUN	_	4	nmod	_	_
-9	-	-	PUNCT	.	_	8	punct	_	_
-10	1	1	NUM	NUM	NumType=Card	8	appos	_	_
-11	(	(	PUNCT	.	_	12	punct	_	SpaceAfter=No
-12	Comando	_	PROPN	PNOUN	_	8	appos	_	_
-13	de	de	ADP	ADP	_	14	case	_	_
-14	Policiamento	_	PROPN	PNOUN	_	12	nmod	_	_
-15-16	do	_	_	_	_	_	_	_	_
-15	de	de	ADP	ADP	_	17	case	_	_
-16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	Interior	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
-18	)	)	PUNCT	.	_	12	punct	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	22	punct	_	_
-20	cuja	_	DET	DET	_	21	det	_	_
-21	sede	sede	NOUN	NOUN	_	22	nsubj	_	_
-22	fica	ficar	VERB	VERB	_	8	acl:relcl	_	_
-23	em	em	ADP	ADP	_	24	case	_	_
-24	São	_	PROPN	PNOUN	_	22	nmod	_	_
-25	José	_	PROPN	PNOUN	_	24	flat	_	SpaceAfter=No
-26	,	,	PUNCT	.	_	22	punct	_	_
-27	e	e	CCONJ	CONJ	_	28	cc	_	_
-28	atuando	atuar	VERB	VERB	_	3	conj	_	_
-29	em	em	ADP	ADP	_	30	case	_	_
-30	operações	operação	NOUN	NOUN	_	28	nmod	_	_
-31	especiais	especial	ADJ	ADJ	_	30	amod	_	SpaceAfter=No
-32	.	.	PUNCT	.	_	3	punct	_	_
+9	1	1	NUM	NUM	NumType=Card	8	appos	_	_
+10	(	(	PUNCT	.	_	11	punct	_	SpaceAfter=No
+11	Comando	_	PROPN	PNOUN	_	8	appos	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
+13	Policiamento	_	PROPN	PNOUN	_	11	nmod	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	ADP	_	16	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Interior	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
+17	)	)	PUNCT	.	_	11	punct	_	SpaceAfter=No
+18	,	,	PUNCT	.	_	21	punct	_	_
+19	cuja	_	DET	DET	_	20	det	_	_
+20	sede	sede	NOUN	NOUN	_	21	nsubj	_	_
+21	fica	ficar	VERB	VERB	_	8	acl:relcl	_	_
+22	em	em	ADP	ADP	_	23	case	_	_
+23	São	_	PROPN	PNOUN	_	21	nmod	_	_
+24	José	_	PROPN	PNOUN	_	23	flat	_	SpaceAfter=No
+25	,	,	PUNCT	.	_	21	punct	_	_
+26	e	e	CCONJ	CONJ	_	27	cc	_	_
+27	atuando	atuar	VERB	VERB	_	3	conj	_	_
+28	em	em	ADP	ADP	_	29	case	_	_
+29	operações	operação	NOUN	NOUN	_	27	nmod	_	_
+30	especiais	especial	ADJ	ADJ	_	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	3	punct	_	_
 

@@ -230,11 +230,11 @@
 34	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = train-s2381
-# text = BIODIVERSIDADE: a Convenção sobre Diversidade Biológica (CBD), outra herança da Eco - 92, não conseguiu conter a extinção de espécies.
-1	BIODIVERSIDADE	biodiversidade	NOUN	NOUN	_	21	parataxis	_	SpaceAfter=No
+# text = BIODIVERSIDADE: a Convenção sobre Diversidade Biológica (CBD), outra herança da Eco-92, não conseguiu conter a extinção de espécies.
+1	BIODIVERSIDADE	biodiversidade	NOUN	NOUN	_	20	parataxis	_	SpaceAfter=No
 2	:	:	PUNCT	.	_	1	punct	_	_
 3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	Convenção	_	PROPN	PNOUN	_	21	nsubj	_	_
+4	Convenção	_	PROPN	PNOUN	_	20	nsubj	_	_
 5	sobre	_	ADP	ADP	_	6	case	_	_
 6	Diversidade	_	PROPN	PNOUN	_	4	nmod	_	_
 7	Biológica	_	PROPN	PNOUN	_	6	amod	_	_
@@ -247,21 +247,21 @@
 14-15	da	_	_	_	_	_	_	_	_
 14	de	de	ADP	ADP	_	16	case	_	_
 15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16-17	Eco-92	_	_	_	_	_	_	_	SpaceAfter=No
 16	Eco	_	PROPN	PNOUN	_	13	nmod	_	_
-17	-	-	PUNCT	.	_	16	punct	_	_
-18	92	92	NUM	NUM	NumType=Card	16	appos	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	13	punct	_	_
-20	não	não	ADV	ADV	Polarity=Neg	21	advmod	_	_
-21	conseguiu	conseguir	VERB	VERB	_	0	root	_	_
-22	conter	conter	VERB	VERB	_	21	xcomp	_	_
-23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-24	extinção	extinção	NOUN	NOUN	_	22	obj	_	_
-25	de	de	ADP	ADP	_	26	case	_	_
-26	espécies	espécie	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
-27	.	.	PUNCT	.	_	21	punct	_	_
+17	92	92	NUM	NUM	NumType=Card	16	appos	_	_
+18	,	,	PUNCT	.	_	13	punct	_	_
+19	não	não	ADV	ADV	Polarity=Neg	20	advmod	_	_
+20	conseguiu	conseguir	VERB	VERB	_	0	root	_	_
+21	conter	conter	VERB	VERB	_	20	xcomp	_	_
+22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	extinção	extinção	NOUN	NOUN	_	21	obj	_	_
+24	de	de	ADP	ADP	_	25	case	_	_
+25	espécies	espécie	NOUN	NOUN	_	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	20	punct	_	_
 
 # sent_id = train-s2382
-# text = Na reunião, que será realizada na sede do Ministério do Público do Estado, o governo gaúcho deve apresentar o andamento do plano de desocupação do Central, compromisso assumido em maio, quando a ministra dos Direitos Humanos Maria do Rosário vistoriou a cadeia porto - alegrense.
+# text = Na reunião, que será realizada na sede do Ministério do Público do Estado, o governo gaúcho deve apresentar o andamento do plano de desocupação do Central, compromisso assumido em maio, quando a ministra dos Direitos Humanos Maria do Rosário vistoriou a cadeia porto-alegrense.
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -326,8 +326,8 @@
 53	vistoriou	vistoriar	VERB	VERB	_	40	acl:relcl	_	_
 54	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
 55	cadeia	cadeia	NOUN	NOUN	_	53	obj	_	_
-56	porto	porto	NOUN	NOUN	_	58	amod	_	_
-57	-	-	PUNCT	.	_	58	punct	_	_
-58	alegrense	alegrense	ADJ	ADJ	_	55	amod	_	SpaceAfter=No
-59	.	.	PUNCT	.	_	25	punct	_	_
+56-57	porto-alegrense	_	_	_	_	_	_	_	SpaceAfter=No
+56	porto	porto	NOUN	NOUN	_	57	amod	_	_
+57	alegrense	alegrense	ADJ	ADJ	_	55	amod	_	_
+58	.	.	PUNCT	.	_	25	punct	_	_
 

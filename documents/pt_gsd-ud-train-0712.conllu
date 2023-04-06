@@ -95,7 +95,7 @@
 15	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s7069
-# text = Ao longo da história, vai descobrir várias coisas que os personagens escondem, incluindo o famoso 'segredo' que Francesca salvou com grande desconfiança, e que só sabe Nelly, Bruno Picasso (ex - marido de Francesca) e ela mesma.
+# text = Ao longo da história, vai descobrir várias coisas que os personagens escondem, incluindo o famoso 'segredo' que Francesca salvou com grande desconfiança, e que só sabe Nelly, Bruno Picasso (ex-marido de Francesca) e ela mesma.
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	ADP	ADP	_	3	case	_	_
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -136,16 +136,16 @@
 36	Bruno	_	PROPN	PNOUN	_	34	conj	_	_
 37	Picasso	_	PROPN	PNOUN	_	36	flat	_	_
 38	(	(	PUNCT	.	_	39	punct	_	SpaceAfter=No
+39-40	ex-marido	_	_	_	_	_	_	_	_
 39	ex	_	PART	PRT	_	36	appos	_	_
-40	-	-	PUNCT	.	_	39	punct	_	_
-41	marido	marido	NOUN	NOUN	_	39	flat	_	_
-42	de	de	ADP	ADP	_	43	case	_	_
-43	Francesca	_	PROPN	PNOUN	_	39	nmod	_	SpaceAfter=No
-44	)	)	PUNCT	.	_	39	punct	_	_
-45	e	e	CCONJ	CONJ	_	46	cc	_	_
-46	ela	_	PRON	PRON	_	34	conj	_	_
-47	mesma	mesmo	ADJ	ADJ	_	46	amod	_	SpaceAfter=No
-48	.	.	PUNCT	.	_	9	punct	_	_
+40	marido	marido	NOUN	NOUN	_	39	flat	_	_
+41	de	de	ADP	ADP	_	42	case	_	_
+42	Francesca	_	PROPN	PNOUN	_	39	nmod	_	SpaceAfter=No
+43	)	)	PUNCT	.	_	39	punct	_	_
+44	e	e	CCONJ	CONJ	_	45	cc	_	_
+45	ela	_	PRON	PRON	_	34	conj	_	_
+46	mesma	mesmo	ADJ	ADJ	_	45	amod	_	SpaceAfter=No
+47	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s7070
 # text = Todo mundo queria saber quem era ele e eu disse: é o prínicpe Harry ", contou Carrie.
@@ -307,61 +307,61 @@
 10	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s7075
-# text = Rosinha (PT - PR) pretende apresentar na reunião de terça - feira (14) da Comissão Parlamentar Mista de Inquérito (CPMI) do Cachoeira requerimento de convocação do diretor da sucursal da revista Veja em Brasília, Policarpo Júnior.
-1	Rosinha	_	PROPN	PNOUN	_	7	nsubj	_	_
+# text = Rosinha (PT-PR) pretende apresentar na reunião de terça-feira (14) da Comissão Parlamentar Mista de Inquérito (CPMI) do Cachoeira requerimento de convocação do diretor da sucursal da revista Veja em Brasília, Policarpo Júnior.
+1	Rosinha	_	PROPN	PNOUN	_	6	nsubj	_	_
 2	(	(	PUNCT	.	_	3	punct	_	SpaceAfter=No
+3-4	PT-PR	_	_	_	_	_	_	_	SpaceAfter=No
 3	PT	_	PROPN	PNOUN	_	1	appos	_	_
-4	-	-	PUNCT	.	_	3	punct	_	_
-5	PR	_	PROPN	PNOUN	_	3	flat	_	SpaceAfter=No
-6	)	)	PUNCT	.	_	3	punct	_	_
-7	pretende	pretender	VERB	VERB	_	0	root	_	_
-8	apresentar	apresentar	VERB	VERB	_	7	xcomp	_	_
-9-10	na	_	_	_	_	_	_	_	_
-9	em	em	ADP	ADP	_	11	case	_	_
-10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	reunião	reunião	NOUN	NOUN	_	8	nmod	_	_
-12	de	de	ADP	ADP	_	15	case	_	_
-13	terça	_	PROPN	PNOUN	_	15	amod	_	_
-14	-	-	PUNCT	.	_	15	punct	_	_
-15	feira	_	PROPN	PNOUN	_	11	nmod	_	_
-16	(	(	PUNCT	.	_	17	punct	_	SpaceAfter=No
-17	14	14	NUM	NUM	NumType=Card	15	nmod	_	SpaceAfter=No
-18	)	)	PUNCT	.	_	17	punct	_	_
-19-20	da	_	_	_	_	_	_	_	_
-19	de	de	ADP	ADP	_	21	case	_	_
-20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-21	Comissão	_	PROPN	PNOUN	_	11	nmod	_	_
-22	Parlamentar	_	PROPN	PNOUN	_	21	amod	_	_
-23	Mista	_	PROPN	PNOUN	_	21	amod	_	_
-24	de	de	ADP	ADP	_	25	case	_	_
-25	Inquérito	_	PROPN	PNOUN	_	21	nmod	_	_
-26	(	(	PUNCT	.	_	27	punct	_	SpaceAfter=No
-27	CPMI	_	PROPN	PNOUN	_	21	appos	_	SpaceAfter=No
-28	)	)	PUNCT	.	_	27	punct	_	_
-29-30	do	_	_	_	_	_	_	_	_
-29	de	de	ADP	ADP	_	31	case	_	_
-30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-31	Cachoeira	_	PROPN	PNOUN	_	21	nmod	_	_
-32	requerimento	requerimento	NOUN	NOUN	_	8	obj	_	_
-33	de	de	ADP	ADP	_	34	case	_	_
-34	convocação	convocação	NOUN	NOUN	_	32	nmod	_	_
-35-36	do	_	_	_	_	_	_	_	_
-35	de	de	ADP	ADP	_	37	case	_	_
-36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
-37	diretor	diretor	NOUN	NOUN	_	34	nmod	_	_
-38-39	da	_	_	_	_	_	_	_	_
-38	de	de	ADP	ADP	_	40	case	_	_
-39	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
-40	sucursal	sucursal	NOUN	NOUN	_	37	nmod	_	_
-41-42	da	_	_	_	_	_	_	_	_
-41	de	de	ADP	ADP	_	43	case	_	_
-42	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
-43	revista	revista	NOUN	NOUN	_	40	nmod	_	_
-44	Veja	_	PROPN	PNOUN	_	43	appos	_	_
-45	em	em	ADP	ADP	_	46	case	_	_
-46	Brasília	_	PROPN	PNOUN	_	40	nmod	_	SpaceAfter=No
-47	,	,	PUNCT	.	_	48	punct	_	_
-48	Policarpo	_	PROPN	PNOUN	_	37	appos	_	_
-49	Júnior	_	PROPN	PNOUN	_	48	flat	_	SpaceAfter=No
-50	.	.	PUNCT	.	_	7	punct	_	_
+4	PR	_	PROPN	PNOUN	_	3	flat	_	_
+5	)	)	PUNCT	.	_	3	punct	_	_
+6	pretende	pretender	VERB	VERB	_	0	root	_	_
+7	apresentar	apresentar	VERB	VERB	_	6	xcomp	_	_
+8-9	na	_	_	_	_	_	_	_	_
+8	em	em	ADP	ADP	_	10	case	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	reunião	reunião	NOUN	NOUN	_	7	nmod	_	_
+11	de	de	ADP	ADP	_	13	case	_	_
+12-13	terça-feira	_	_	_	_	_	_	_	_
+12	terça	_	PROPN	PNOUN	_	13	amod	_	_
+13	feira	_	PROPN	PNOUN	_	10	nmod	_	_
+14	(	(	PUNCT	.	_	15	punct	_	SpaceAfter=No
+15	14	14	NUM	NUM	NumType=Card	13	nmod	_	SpaceAfter=No
+16	)	)	PUNCT	.	_	15	punct	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	ADP	_	19	case	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Comissão	_	PROPN	PNOUN	_	10	nmod	_	_
+20	Parlamentar	_	PROPN	PNOUN	_	19	amod	_	_
+21	Mista	_	PROPN	PNOUN	_	19	amod	_	_
+22	de	de	ADP	ADP	_	23	case	_	_
+23	Inquérito	_	PROPN	PNOUN	_	19	nmod	_	_
+24	(	(	PUNCT	.	_	25	punct	_	SpaceAfter=No
+25	CPMI	_	PROPN	PNOUN	_	19	appos	_	SpaceAfter=No
+26	)	)	PUNCT	.	_	25	punct	_	_
+27-28	do	_	_	_	_	_	_	_	_
+27	de	de	ADP	ADP	_	29	case	_	_
+28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	Cachoeira	_	PROPN	PNOUN	_	19	nmod	_	_
+30	requerimento	requerimento	NOUN	NOUN	_	7	obj	_	_
+31	de	de	ADP	ADP	_	32	case	_	_
+32	convocação	convocação	NOUN	NOUN	_	30	nmod	_	_
+33-34	do	_	_	_	_	_	_	_	_
+33	de	de	ADP	ADP	_	35	case	_	_
+34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	diretor	diretor	NOUN	NOUN	_	32	nmod	_	_
+36-37	da	_	_	_	_	_	_	_	_
+36	de	de	ADP	ADP	_	38	case	_	_
+37	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	sucursal	sucursal	NOUN	NOUN	_	35	nmod	_	_
+39-40	da	_	_	_	_	_	_	_	_
+39	de	de	ADP	ADP	_	41	case	_	_
+40	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	revista	revista	NOUN	NOUN	_	38	nmod	_	_
+42	Veja	_	PROPN	PNOUN	_	41	appos	_	_
+43	em	em	ADP	ADP	_	44	case	_	_
+44	Brasília	_	PROPN	PNOUN	_	38	nmod	_	SpaceAfter=No
+45	,	,	PUNCT	.	_	46	punct	_	_
+46	Policarpo	_	PROPN	PNOUN	_	35	appos	_	_
+47	Júnior	_	PROPN	PNOUN	_	46	flat	_	SpaceAfter=No
+48	.	.	PUNCT	.	_	6	punct	_	_
 

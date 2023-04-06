@@ -1,5 +1,5 @@
 # sent_id = train-s6085
-# text = CLIQUE AQUI e cadastre-se gratuitamente no Alertas do Google para receber as últimas notícias do Capital News por e - mail.
+# text = CLIQUE AQUI e cadastre-se gratuitamente no Alertas do Google para receber as últimas notícias do Capital News por e-mail.
 1	CLIQUE	clicar	VERB	VERB	_	0	root	_	_
 2	AQUI	aqui	ADV	ADV	_	1	advmod	_	_
 3	e	e	CCONJ	CONJ	_	4	cc	_	_
@@ -25,11 +25,11 @@
 19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	Capital	_	PROPN	PNOUN	_	17	nmod	_	_
 21	News	_	PROPN	PNOUN	_	20	flat	_	_
-22	por	por	ADP	ADP	_	25	case	_	_
-23	e	_	X	X	_	25	amod	_	_
-24	-	-	PUNCT	.	_	25	punct	_	_
-25	mail	mail	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
-26	.	.	PUNCT	.	_	1	punct	_	_
+22	por	por	ADP	ADP	_	24	case	_	_
+23-24	e-mail	_	_	_	_	_	_	_	SpaceAfter=No
+23	e	_	X	X	_	24	amod	_	_
+24	mail	mail	NOUN	NOUN	_	14	nmod	_	_
+25	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s6086
 # text = O BPRv mobilizou cerca de 670 policiais no feriado, reforçando o patrulhamento nas rodovias.
@@ -198,7 +198,7 @@
 25	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s6091
-# text = Survivor Series (1992) foi o 6 º evento anual do Survivor Series, promovido pela World Wrestling Federation e transmitido por pay - per - view.
+# text = Survivor Series (1992) foi o 6 º evento anual do Survivor Series, promovido pela World Wrestling Federation e transmitido por pay-per-view.
 1	Survivor	_	PROPN	PNOUN	_	10	nsubj	_	_
 2	Series	_	PROPN	PNOUN	_	1	flat	_	_
 3	(	(	PUNCT	.	_	4	punct	_	SpaceAfter=No
@@ -226,12 +226,11 @@
 23	e	e	CCONJ	CONJ	_	24	cc	_	_
 24	transmitido	transmitir	VERB	VERB	_	17	conj	_	_
 25	por	por	ADP	ADP	_	26	case	_	_
+26-28	pay-per-view	_	_	_	_	_	_	_	SpaceAfter=No
 26	pay	_	NOUN	NOUN	_	24	nmod	_	_
-27	-	-	PUNCT	.	_	26	punct	_	_
-28	per	_	ADP	ADP	_	30	case	_	_
-29	-	-	PUNCT	.	_	30	punct	_	_
-30	view	_	NOUN	NOUN	_	26	nmod	_	SpaceAfter=No
-31	.	.	PUNCT	.	_	10	punct	_	_
+27	per	_	ADP	ADP	_	28	case	_	_
+28	view	_	NOUN	NOUN	_	26	nmod	_	_
+29	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s6092
 # text = O novo item funciona a partir de acionamento elétrico e tem as posições fechado, parcialmente aberto, totalmente aberto ou na posição de ventilação.

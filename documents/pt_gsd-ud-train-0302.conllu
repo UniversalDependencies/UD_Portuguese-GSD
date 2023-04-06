@@ -23,32 +23,32 @@
 21	.	.	PUNCT	.	_	17	punct	_	_
 
 # sent_id = train-s2999
-# text = Maia explicou que a Secretaria - Geral da Mesa fará uma "análise técnica sobre qual procedimento a Câmara deverá tomar".
+# text = Maia explicou que a Secretaria-Geral da Mesa fará uma "análise técnica sobre qual procedimento a Câmara deverá tomar".
 1	Maia	_	PROPN	PNOUN	_	2	nsubj	_	_
 2	explicou	explicar	VERB	VERB	_	0	root	_	_
-3	que	que	CCONJ	CONJ	_	11	mark	_	_
+3	que	que	CCONJ	CONJ	_	10	mark	_	_
 4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	Secretaria	_	PROPN	PNOUN	_	11	nsubj	_	_
-6	-	-	PUNCT	.	_	5	punct	_	_
-7	Geral	_	PROPN	PNOUN	_	5	amod	_	_
-8-9	da	_	_	_	_	_	_	_	_
-8	de	de	ADP	ADP	_	10	case	_	_
-9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	Mesa	_	PROPN	PNOUN	_	5	nmod	_	_
-11	fará	_	VERB	VERB	_	2	ccomp	_	_
-12	uma	um	DET	DET	_	14	det	_	_
-13	"	"	PUNCT	.	_	14	punct	_	SpaceAfter=No
-14	análise	análise	NOUN	NOUN	_	11	obj	_	_
-15	técnica	técnico	ADJ	ADJ	_	14	amod	_	_
-16	sobre	_	ADP	ADP	_	22	mark	_	_
-17	qual	_	DET	DET	_	18	det	_	_
-18	procedimento	procedimento	NOUN	NOUN	_	22	obj	_	_
-19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	Câmara	_	PROPN	PNOUN	_	22	nsubj	_	_
-21	deverá	dever	AUX	AUX	_	22	aux	_	_
-22	tomar	tomar	VERB	VERB	_	14	nmod	_	SpaceAfter=No
-23	"	"	PUNCT	.	_	14	punct	_	SpaceAfter=No
-24	.	.	PUNCT	.	_	2	punct	_	_
+5-6	Secretaria-Geral	_	_	_	_	_	_	_	_
+5	Secretaria	_	PROPN	PNOUN	_	10	nsubj	_	_
+6	Geral	_	PROPN	PNOUN	_	5	amod	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
+8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Mesa	_	PROPN	PNOUN	_	5	nmod	_	_
+10	fará	_	VERB	VERB	_	2	ccomp	_	_
+11	uma	um	DET	DET	_	13	det	_	_
+12	"	"	PUNCT	.	_	13	punct	_	SpaceAfter=No
+13	análise	análise	NOUN	NOUN	_	10	obj	_	_
+14	técnica	técnico	ADJ	ADJ	_	13	amod	_	_
+15	sobre	_	ADP	ADP	_	21	mark	_	_
+16	qual	_	DET	DET	_	17	det	_	_
+17	procedimento	procedimento	NOUN	NOUN	_	21	obj	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Câmara	_	PROPN	PNOUN	_	21	nsubj	_	_
+20	deverá	dever	AUX	AUX	_	21	aux	_	_
+21	tomar	tomar	VERB	VERB	_	13	nmod	_	SpaceAfter=No
+22	"	"	PUNCT	.	_	13	punct	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s3000
 # text = * Luiz Amorim Tavares inicialmente terminou em 2 º, mas testou positivo para a substância metilprednisolona e, embora não tenha sido suspenso pela UCI, recebeu um aviso oficial desta.
@@ -146,7 +146,7 @@
 48	.	.	PUNCT	.	_	19	punct	_	_
 
 # sent_id = train-s3002
-# text = O Grêmio não sentiu tanto a ausência de Elano, seu principal meio - campista e autor do gol da vitória no último Gre - Nal.
+# text = O Grêmio não sentiu tanto a ausência de Elano, seu principal meio - campista e autor do gol da vitória no último Gre-Nal.
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Grêmio	_	PROPN	PNOUN	_	4	nsubj	_	_
 3	não	não	ADV	ADV	Polarity=Neg	4	advmod	_	_
@@ -159,8 +159,8 @@
 10	,	,	PUNCT	.	_	13	punct	_	_
 11	seu	_	DET	DET	_	13	det:poss	_	_
 12	principal	principal	ADJ	ADJ	_	13	amod	_	_
-13	meio	meio	NOUN	NOUN	_	9	appos	_	_
-14	-	-	PUNCT	.	_	17	punct	_	_
+13	meio	meio	NOUN	NOUN	_	9	appos	_	ToDo=NonCatenaCompound
+14	-	-	PUNCT	.	_	17	punct	_	ToDo=NonCatenaCompound
 15	campista	campista	ADJ	ADJ	_	13	amod	_	_
 16	e	e	CCONJ	CONJ	_	17	cc	_	_
 17	autor	autor	NOUN	NOUN	_	13	conj	_	_
@@ -176,10 +176,10 @@
 24	em	em	ADP	ADP	_	27	case	_	_
 25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 26	último	último	ADJ	ADJ	_	27	amod	_	_
+27-28	Gre-Nal	_	_	_	_	_	_	_	SpaceAfter=No
 27	Gre	_	PROPN	PNOUN	_	20	nmod	_	_
-28	-	-	PUNCT	.	_	27	punct	_	_
-29	Nal	_	PROPN	PNOUN	_	27	flat	_	SpaceAfter=No
-30	.	.	PUNCT	.	_	4	punct	_	_
+28	Nal	_	PROPN	PNOUN	_	27	flat	_	_
+29	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s3003
 # text = O motorista foi encaminhado ao PS Central da cidade.
@@ -309,24 +309,24 @@
 49	.	.	PUNCT	.	_	26	punct	_	_
 
 # sent_id = train-s3007
-# text = Está suspenso, a partir desta sexta - feira, o rodízio municipal de veículos em São Paulo.
+# text = Está suspenso, a partir desta sexta-feira, o rodízio municipal de veículos em São Paulo.
 1	Está	estar	VERB	VERB	_	0	root	_	_
 2	suspenso	suspenso	ADJ	ADJ	_	1	xcomp	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	5	punct	_	_
 4	a	_	ADP	ADP	_	5	mark	_	_
 5	partir	partir	VERB	VERB	_	1	nmod	_	_
-6	desta	_	ADP	ADP	_	9	case	_	_
-7	sexta	_	PROPN	PNOUN	_	9	amod	_	_
-8	-	-	PUNCT	.	_	9	punct	_	_
-9	feira	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
-10	,	,	PUNCT	.	_	5	punct	_	_
-11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	rodízio	rodízio	NOUN	NOUN	_	1	nsubj	_	_
-13	municipal	municipal	ADJ	ADJ	_	12	amod	_	_
-14	de	de	ADP	ADP	_	15	case	_	_
-15	veículos	veículo	NOUN	NOUN	_	12	nmod	_	_
-16	em	em	ADP	ADP	_	17	case	_	_
-17	São	_	PROPN	PNOUN	_	12	nmod	_	_
-18	Paulo	_	PROPN	PNOUN	_	17	flat	_	SpaceAfter=No
-19	.	.	PUNCT	.	_	1	punct	_	_
+6	desta	_	ADP	ADP	_	8	case	_	_
+7-8	sexta-feira	_	_	_	_	_	_	_	SpaceAfter=No
+7	sexta	_	PROPN	PNOUN	_	8	amod	_	_
+8	feira	_	PROPN	PNOUN	_	5	nmod	_	_
+9	,	,	PUNCT	.	_	5	punct	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	rodízio	rodízio	NOUN	NOUN	_	1	nsubj	_	_
+12	municipal	municipal	ADJ	ADJ	_	11	amod	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
+14	veículos	veículo	NOUN	NOUN	_	11	nmod	_	_
+15	em	em	ADP	ADP	_	16	case	_	_
+16	São	_	PROPN	PNOUN	_	11	nmod	_	_
+17	Paulo	_	PROPN	PNOUN	_	16	flat	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	1	punct	_	_
 

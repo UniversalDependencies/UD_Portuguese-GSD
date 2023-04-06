@@ -113,7 +113,7 @@
 27	.	.	PUNCT	.	_	19	punct	_	_
 
 # sent_id = train-s6456
-# text = No dia 12 de Fevereiro de 1742 Carlos Alberto foi coroado, em Frankfurt, como Imperador Carlos VII do Sacro Império Romano - Germânico.
+# text = No dia 12 de Fevereiro de 1742 Carlos Alberto foi coroado, em Frankfurt, como Imperador Carlos VII do Sacro Império Romano-Germânico.
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -140,10 +140,10 @@
 22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 23	Sacro	_	PROPN	PNOUN	_	24	amod	_	_
 24	Império	_	PROPN	PNOUN	_	19	nmod	_	_
-25	Romano	_	PROPN	PNOUN	_	27	amod	_	_
-26	-	-	PUNCT	.	_	27	punct	_	_
-27	Germânico	_	PROPN	PNOUN	_	24	amod	_	SpaceAfter=No
-28	.	.	PUNCT	.	_	12	punct	_	_
+25-26	Romano-Germânico	_	_	_	_	_	_	_	SpaceAfter=No
+25	Romano	_	PROPN	PNOUN	_	26	amod	_	_
+26	Germânico	_	PROPN	PNOUN	_	24	amod	_	_
+27	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = train-s6457
 # text = Uma mulher foi encontrada viva cinco dias depois de ficar presa dentro dum freezer em Tulsa, no estado de Oklahoma (EUA).

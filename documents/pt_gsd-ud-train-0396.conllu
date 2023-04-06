@@ -55,7 +55,7 @@
 25	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s3929
-# text = Numa situação de emergência, toda oferta era bem - vinda".
+# text = Numa situação de emergência, toda oferta era bem-vinda".
 1-2	Numa	_	_	_	_	_	_	_	_
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	uma	um	DET	DET	_	3	det	_	_
@@ -66,11 +66,11 @@
 7	toda	_	DET	DET	_	8	det	_	_
 8	oferta	oferta	NOUN	NOUN	_	9	nsubj	_	_
 9	era	_	VERB	VERB	_	0	root	_	_
-10	bem	bem	ADV	ADV	_	12	advmod	_	_
-11	-	-	PUNCT	.	_	12	punct	_	_
-12	vinda	_	ADJ	ADJ	_	9	xcomp	_	SpaceAfter=No
-13	"	"	PUNCT	.	_	12	punct	_	SpaceAfter=No
-14	.	.	PUNCT	.	_	9	punct	_	_
+10-11	bem-vinda	_	_	_	_	_	_	_	SpaceAfter=No
+10	bem	bem	ADV	ADV	_	11	advmod	_	_
+11	vinda	_	ADJ	ADJ	_	9	xcomp	_	_
+12	"	"	PUNCT	.	_	11	punct	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s3930
 # text = Não precisa tanto de novidade e aparelho, temos fios cirúrgicos e algumas são por videoscopia, mas são poucas.
@@ -97,7 +97,7 @@
 21	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s3931
-# text = O Complexo do Alemão vai receber nesta quinta - feira, às 15h30, o projeto COB na Comunidade.
+# text = O Complexo do Alemão vai receber nesta quinta-feira, às 15h30, o projeto COB na Comunidade.
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Complexo	_	PROPN	PNOUN	_	7	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -106,24 +106,24 @@
 5	Alemão	_	PROPN	PNOUN	_	2	nmod	_	_
 6	vai	ir	AUX	AUX	_	7	aux	_	_
 7	receber	receber	VERB	VERB	_	0	root	_	_
-8	nesta	_	ADP	ADP	_	11	case	_	_
-9	quinta	_	PROPN	PNOUN	_	11	amod	_	_
-10	-	-	PUNCT	.	_	11	punct	_	_
-11	feira	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
-12	,	,	PUNCT	.	_	15	punct	_	_
-13-14	às	_	_	_	_	_	_	_	_
-13	a	a	ADP	ADP	_	15	case	_	_
-14	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
-15	15h30	_	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
-16	,	,	PUNCT	.	_	15	punct	_	_
-17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	projeto	projeto	NOUN	NOUN	_	7	obj	_	_
-19	COB	_	PROPN	PNOUN	_	18	appos	_	_
-20-21	na	_	_	_	_	_	_	_	_
-20	em	em	ADP	ADP	_	22	case	_	_
-21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	Comunidade	_	PROPN	PNOUN	_	19	nmod	_	SpaceAfter=No
-23	.	.	PUNCT	.	_	7	punct	_	_
+8	nesta	_	ADP	ADP	_	10	case	_	_
+9-10	quinta-feira	_	_	_	_	_	_	_	SpaceAfter=No
+9	quinta	_	PROPN	PNOUN	_	10	amod	_	_
+10	feira	_	PROPN	PNOUN	_	7	nmod	_	_
+11	,	,	PUNCT	.	_	14	punct	_	_
+12-13	às	_	_	_	_	_	_	_	_
+12	a	a	ADP	ADP	_	14	case	_	_
+13	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	15h30	_	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	.	_	14	punct	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	projeto	projeto	NOUN	NOUN	_	7	obj	_	_
+18	COB	_	PROPN	PNOUN	_	17	appos	_	_
+19-20	na	_	_	_	_	_	_	_	_
+19	em	em	ADP	ADP	_	21	case	_	_
+20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Comunidade	_	PROPN	PNOUN	_	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s3932
 # text = Cogitou-se a princípio que era utilizado para realizar contagens, porque há uma série de traços talhados, divididos em três colunas, ao longo de todo o comprimento da ferramenta.

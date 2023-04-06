@@ -189,7 +189,7 @@
 17	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = test-s176
-# text = No dia 3 de setembro, trabalhadores protestaram em frente à mina de Springs, controlada pela empresa Gold One, e foram reprimidos pela polícia sul - africana.
+# text = No dia 3 de setembro, trabalhadores protestaram em frente à mina de Springs, controlada pela empresa Gold One, e foram reprimidos pela polícia sul-africana.
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -224,10 +224,10 @@
 28	por	por	ADP	ADP	_	30	case	_	_
 29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	polícia	polícia	NOUN	NOUN	_	27	nmod	_	_
-31	sul	sul	ADJ	ADJ	_	33	amod	_	_
-32	-	-	PUNCT	.	_	33	punct	_	_
-33	africana	africano	ADJ	ADJ	_	30	amod	_	SpaceAfter=No
-34	.	.	PUNCT	.	_	9	punct	_	_
+31-32	sul-africana	_	_	_	_	_	_	_	SpaceAfter=No
+31	sul	sul	ADJ	ADJ	_	32	amod	_	_
+32	africana	africano	ADJ	ADJ	_	30	amod	_	_
+33	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = test-s177
 # text = Por último, adoptou uma atitude servil em relação a Alexandre I, Rei da Polónia e Czar da Rússia, que lhe deu o título de duque em 1818.

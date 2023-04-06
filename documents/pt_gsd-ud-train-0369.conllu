@@ -12,7 +12,7 @@
 10	;	_	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s3659
-# text = Uma das mulheres mais vaidosas desta edição, a estudante escolheu um biquíni tomara - que - caia florido para a ocasião.
+# text = Uma das mulheres mais vaidosas desta edição, a estudante escolheu um biquíni tomara-que-caia florido para a ocasião.
 1	Uma	_	PRON	PRON	_	12	nsubj	_	_
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	ADP	_	4	case	_	_
@@ -28,16 +28,15 @@
 12	escolheu	escolher	VERB	VERB	_	0	root	_	_
 13	um	um	DET	DET	_	14	det	_	_
 14	biquíni	biquíni	NOUN	NOUN	_	12	obj	_	_
+15-17	tomara-que-caia	_	_	_	_	_	_	_	_
 15	tomara	_	NOUN	NOUN	_	14	appos	_	_
-16	-	-	PUNCT	.	_	15	punct	_	_
-17	que	_	NOUN	NOUN	_	15	flat	_	_
-18	-	-	PUNCT	.	_	15	punct	_	_
-19	caia	_	NOUN	NOUN	_	15	flat	_	_
-20	florido	florido	ADJ	ADJ	_	14	amod	_	_
-21	para	para	ADP	ADP	_	23	case	_	_
-22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-23	ocasião	ocasião	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
-24	.	.	PUNCT	.	_	12	punct	_	_
+16	que	_	NOUN	NOUN	_	15	flat	_	_
+17	caia	_	NOUN	NOUN	_	15	flat	_	_
+18	florido	florido	ADJ	ADJ	_	14	amod	_	_
+19	para	para	ADP	ADP	_	21	case	_	_
+20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	ocasião	ocasião	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = train-s3660
 # text = E alguns municípios, como Sinop, estão a 500 quilômetros.
@@ -148,7 +147,7 @@
 16	;	_	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s3664
-# text = Os advogados, Silvia Fiszman e Fábio Falkenburger, do Machado Meyer, serão palestrantes do evento que acontece na sede do Shearman &amp; Sterling LLP, no dia 28 de junho (quinta - feira).
+# text = Os advogados, Silvia Fiszman e Fábio Falkenburger, do Machado Meyer, serão palestrantes do evento que acontece na sede do Shearman &amp; Sterling LLP, no dia 28 de junho (quinta-feira).
 1	Os	o	DET	DET	_	2	det	_	_
 2	advogados	advogado	NOUN	NOUN	_	16	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	4	punct	_	_
@@ -191,12 +190,12 @@
 35	28	28	NUM	NUM	NumType=Card	34	nmod	_	_
 36	de	de	ADP	ADP	_	37	case	_	_
 37	junho	_	PROPN	PNOUN	_	35	nmod	_	_
-38	(	(	PUNCT	.	_	41	punct	_	SpaceAfter=No
-39	quinta	_	PROPN	PNOUN	_	41	amod	_	_
-40	-	-	PUNCT	.	_	41	punct	_	_
-41	feira	_	PROPN	PNOUN	_	34	appos	_	SpaceAfter=No
-42	)	)	PUNCT	.	_	41	punct	_	SpaceAfter=No
-43	.	.	PUNCT	.	_	16	punct	_	_
+38	(	(	PUNCT	.	_	40	punct	_	SpaceAfter=No
+39-40	quinta-feira	_	_	_	_	_	_	_	SpaceAfter=No
+39	quinta	_	PROPN	PNOUN	_	40	amod	_	_
+40	feira	_	PROPN	PNOUN	_	34	appos	_	_
+41	)	)	PUNCT	.	_	40	punct	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	16	punct	_	_
 
 # sent_id = train-s3665
 # text = Frizzo se reuniu com o elenco para uma conversa nesta terça, mas, segundo ele, não foi para falar sobre o tal ato de indisciplina.
@@ -279,7 +278,7 @@
 41	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s3667
-# text = Mas ele acredita que exista uma rivalidade sadia, e que sua ausência na pré - temporada não foi determinante para a condição.
+# text = Mas ele acredita que exista uma rivalidade sadia, e que sua ausência na pré-temporada não foi determinante para a condição.
 1	Mas	_	CCONJ	CONJ	_	3	cc	_	_
 2	ele	_	PRON	PRON	_	3	nsubj	_	_
 3	acredita	acreditar	VERB	VERB	_	0	root	_	_
@@ -288,22 +287,22 @@
 6	uma	um	DET	DET	_	7	det	_	_
 7	rivalidade	rivalidade	NOUN	NOUN	_	5	nsubj	_	_
 8	sadia	sadio	ADJ	ADJ	_	7	amod	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	20	punct	_	_
-10	e	e	CCONJ	CONJ	_	20	cc	_	_
-11	que	que	CCONJ	CONJ	_	20	mark	_	_
+9	,	,	PUNCT	.	_	19	punct	_	_
+10	e	e	CCONJ	CONJ	_	19	cc	_	_
+11	que	que	CCONJ	CONJ	_	19	mark	_	_
 12	sua	_	DET	DET	_	13	det:poss	_	_
-13	ausência	ausência	NOUN	NOUN	_	20	nsubj	_	_
+13	ausência	ausência	NOUN	NOUN	_	19	nsubj	_	_
 14-15	na	_	_	_	_	_	_	_	_
 14	em	em	ADP	ADP	_	16	case	_	_
 15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16-17	pré-temporada	_	_	_	_	_	_	_	_
 16	pré	_	PART	PRT	_	13	nmod	_	_
-17	-	-	PUNCT	.	_	16	punct	_	_
-18	temporada	temporada	NOUN	NOUN	_	16	flat	_	_
-19	não	não	ADV	ADV	Polarity=Neg	20	advmod	_	_
-20	foi	_	VERB	VERB	_	5	conj	_	_
-21	determinante	determinante	ADJ	ADJ	_	20	xcomp	_	_
-22	para	para	ADP	ADP	_	24	case	_	_
-23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-24	condição	condição	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
-25	.	.	PUNCT	.	_	3	punct	_	_
+17	temporada	temporada	NOUN	NOUN	_	16	flat	_	_
+18	não	não	ADV	ADV	Polarity=Neg	19	advmod	_	_
+19	foi	_	VERB	VERB	_	5	conj	_	_
+20	determinante	determinante	ADJ	ADJ	_	19	xcomp	_	_
+21	para	para	ADP	ADP	_	23	case	_	_
+22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	condição	condição	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	_	_
 

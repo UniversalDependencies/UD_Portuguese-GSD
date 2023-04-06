@@ -69,8 +69,8 @@
 12	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s5502
-# text = Números divulgados pelo Instituto Brasileiro de Geografia e Estatística (IBGE) nesta quinta - feira (29) mostram que, em 2011, a esperança de vida ao nascer no Brasil era de 74 anos e 29 dias -- um aumento de 3 meses e 22 dias em relação a 2010, quando a expectativa de vida do brasileiro era de 73 anos e 277 dias.
-1	Números	número	NOUN	NOUN	_	21	nsubj	_	_
+# text = Números divulgados pelo Instituto Brasileiro de Geografia e Estatística (IBGE) nesta quinta-feira (29) mostram que, em 2011, a esperança de vida ao nascer no Brasil era de 74 anos e 29 dias -- um aumento de 3 meses e 22 dias em relação a 2010, quando a expectativa de vida do brasileiro era de 73 anos e 277 dias.
+1	Números	número	NOUN	NOUN	_	20	nsubj	_	_
 2	divulgados	divulgar	VERB	VERB	_	1	acl	_	_
 3-4	pelo	_	_	_	_	_	_	_	_
 3	por	por	ADP	ADP	_	5	case	_	_
@@ -84,69 +84,69 @@
 11	(	(	PUNCT	.	_	12	punct	_	SpaceAfter=No
 12	IBGE	_	PROPN	PNOUN	_	5	appos	_	SpaceAfter=No
 13	)	)	PUNCT	.	_	12	punct	_	_
-14	nesta	_	ADP	ADP	_	17	case	_	_
-15	quinta	_	PROPN	PNOUN	_	17	amod	_	_
-16	-	-	PUNCT	.	_	17	punct	_	_
-17	feira	_	PROPN	PNOUN	_	2	nmod	_	_
-18	(	(	PUNCT	.	_	19	punct	_	SpaceAfter=No
-19	29	29	NUM	NUM	NumType=Card	17	nmod	_	SpaceAfter=No
-20	)	)	PUNCT	.	_	19	punct	_	_
-21	mostram	mostrar	VERB	VERB	_	0	root	_	_
-22	que	que	CCONJ	CONJ	_	37	mark	_	SpaceAfter=No
-23	,	,	PUNCT	.	_	25	punct	_	_
-24	em	em	ADP	ADP	_	25	case	_	_
-25	2011	2011	NUM	NUM	NumType=Card	37	nmod	_	SpaceAfter=No
-26	,	,	PUNCT	.	_	25	punct	_	_
-27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
-28	esperança	esperança	NOUN	NOUN	_	37	nsubj	_	_
-29	de	de	ADP	ADP	_	30	case	_	_
-30	vida	vida	NOUN	NOUN	_	28	nmod	_	_
-31-32	ao	_	_	_	_	_	_	_	_
-31	a	a	ADP	ADP	_	33	case	_	_
-32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
-33	nascer	nascer	VERB	VERB	_	28	advcl	_	_
-34-35	no	_	_	_	_	_	_	_	_
-34	em	em	ADP	ADP	_	36	case	_	_
-35	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
-36	Brasil	_	PROPN	PNOUN	_	28	nmod	_	_
-37	era	_	VERB	VERB	_	21	ccomp	_	_
-38	de	de	ADP	ADP	_	40	case	_	_
-39	74	74	NUM	NUM	NumType=Card	40	nummod	_	_
-40	anos	ano	NOUN	NOUN	_	37	nmod	_	_
-41	e	e	CCONJ	CONJ	_	43	cc	_	_
-42	29	29	NUM	NUM	NumType=Card	43	nummod	_	_
-43	dias	dia	NOUN	NOUN	_	40	conj	_	_
-44	--	_	PUNCT	.	_	46	punct	_	_
-45	um	um	DET	DET	_	46	det	_	_
-46	aumento	aumento	NOUN	NOUN	_	40	appos	_	_
-47	de	de	ADP	ADP	_	49	case	_	_
-48	3	3	NUM	NUM	NumType=Card	49	nummod	_	_
-49	meses	mês	NOUN	NOUN	_	46	nmod	_	_
-50	e	e	CCONJ	CONJ	_	52	cc	_	_
-51	22	22	NUM	NUM	NumType=Card	52	nummod	_	_
-52	dias	dia	NOUN	NOUN	_	49	conj	_	_
-53	em	em	ADP	ADP	_	54	case	_	_
-54	relação	relação	NOUN	NOUN	_	46	nmod	_	_
-55	a	_	ADP	ADP	_	56	case	_	_
-56	2010	2010	NUM	NUM	NumType=Card	54	nmod	_	SpaceAfter=No
-57	,	,	PUNCT	.	_	66	punct	_	_
-58	quando	quando	ADV	ADV	_	66	advmod	_	_
-59	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	60	det	_	_
-60	expectativa	expectativa	NOUN	NOUN	_	66	nsubj	_	_
-61	de	de	ADP	ADP	_	62	case	_	_
-62	vida	vida	NOUN	NOUN	_	60	nmod	_	_
-63-64	do	_	_	_	_	_	_	_	_
-63	de	de	ADP	ADP	_	65	case	_	_
-64	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	65	det	_	_
-65	brasileiro	brasileiro	NOUN	NOUN	_	60	nmod	_	_
-66	era	_	VERB	VERB	_	56	acl:relcl	_	_
-67	de	de	ADP	ADP	_	69	case	_	_
-68	73	73	NUM	NUM	NumType=Card	69	nummod	_	_
-69	anos	ano	NOUN	NOUN	_	66	nmod	_	_
-70	e	e	CCONJ	CONJ	_	72	cc	_	_
-71	277	277	NUM	NUM	NumType=Card	72	nummod	_	_
-72	dias	dia	NOUN	NOUN	_	69	conj	_	SpaceAfter=No
-73	.	.	PUNCT	.	_	21	punct	_	_
+14	nesta	_	ADP	ADP	_	16	case	_	_
+15-16	quinta-feira	_	_	_	_	_	_	_	_
+15	quinta	_	PROPN	PNOUN	_	16	amod	_	_
+16	feira	_	PROPN	PNOUN	_	2	nmod	_	_
+17	(	(	PUNCT	.	_	18	punct	_	SpaceAfter=No
+18	29	29	NUM	NUM	NumType=Card	16	nmod	_	SpaceAfter=No
+19	)	)	PUNCT	.	_	18	punct	_	_
+20	mostram	mostrar	VERB	VERB	_	0	root	_	_
+21	que	que	CCONJ	CONJ	_	36	mark	_	SpaceAfter=No
+22	,	,	PUNCT	.	_	24	punct	_	_
+23	em	em	ADP	ADP	_	24	case	_	_
+24	2011	2011	NUM	NUM	NumType=Card	36	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	.	_	24	punct	_	_
+26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	esperança	esperança	NOUN	NOUN	_	36	nsubj	_	_
+28	de	de	ADP	ADP	_	29	case	_	_
+29	vida	vida	NOUN	NOUN	_	27	nmod	_	_
+30-31	ao	_	_	_	_	_	_	_	_
+30	a	a	ADP	ADP	_	32	case	_	_
+31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	nascer	nascer	VERB	VERB	_	27	advcl	_	_
+33-34	no	_	_	_	_	_	_	_	_
+33	em	em	ADP	ADP	_	35	case	_	_
+34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	Brasil	_	PROPN	PNOUN	_	27	nmod	_	_
+36	era	_	VERB	VERB	_	20	ccomp	_	_
+37	de	de	ADP	ADP	_	39	case	_	_
+38	74	74	NUM	NUM	NumType=Card	39	nummod	_	_
+39	anos	ano	NOUN	NOUN	_	36	nmod	_	_
+40	e	e	CCONJ	CONJ	_	42	cc	_	_
+41	29	29	NUM	NUM	NumType=Card	42	nummod	_	_
+42	dias	dia	NOUN	NOUN	_	39	conj	_	_
+43	--	_	PUNCT	.	_	45	punct	_	_
+44	um	um	DET	DET	_	45	det	_	_
+45	aumento	aumento	NOUN	NOUN	_	39	appos	_	_
+46	de	de	ADP	ADP	_	48	case	_	_
+47	3	3	NUM	NUM	NumType=Card	48	nummod	_	_
+48	meses	mês	NOUN	NOUN	_	45	nmod	_	_
+49	e	e	CCONJ	CONJ	_	51	cc	_	_
+50	22	22	NUM	NUM	NumType=Card	51	nummod	_	_
+51	dias	dia	NOUN	NOUN	_	48	conj	_	_
+52	em	em	ADP	ADP	_	53	case	_	_
+53	relação	relação	NOUN	NOUN	_	45	nmod	_	_
+54	a	_	ADP	ADP	_	55	case	_	_
+55	2010	2010	NUM	NUM	NumType=Card	53	nmod	_	SpaceAfter=No
+56	,	,	PUNCT	.	_	65	punct	_	_
+57	quando	quando	ADV	ADV	_	65	advmod	_	_
+58	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	59	det	_	_
+59	expectativa	expectativa	NOUN	NOUN	_	65	nsubj	_	_
+60	de	de	ADP	ADP	_	61	case	_	_
+61	vida	vida	NOUN	NOUN	_	59	nmod	_	_
+62-63	do	_	_	_	_	_	_	_	_
+62	de	de	ADP	ADP	_	64	case	_	_
+63	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
+64	brasileiro	brasileiro	NOUN	NOUN	_	59	nmod	_	_
+65	era	_	VERB	VERB	_	55	acl:relcl	_	_
+66	de	de	ADP	ADP	_	68	case	_	_
+67	73	73	NUM	NUM	NumType=Card	68	nummod	_	_
+68	anos	ano	NOUN	NOUN	_	65	nmod	_	_
+69	e	e	CCONJ	CONJ	_	71	cc	_	_
+70	277	277	NUM	NUM	NumType=Card	71	nummod	_	_
+71	dias	dia	NOUN	NOUN	_	68	conj	_	SpaceAfter=No
+72	.	.	PUNCT	.	_	20	punct	_	_
 
 # sent_id = train-s5503
 # text = Após três jogos sem vitórias, o time de Campinas entra em campo pressionado para encerrar este jejum contra o Santos, neste domingo, às 18h30, na Vila Belmiro.
@@ -188,7 +188,7 @@
 34	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s5504
-# text = O Grêmio segue a busca por um título em 2012 nesta terça - feira.
+# text = O Grêmio segue a busca por um título em 2012 nesta terça-feira.
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Grêmio	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	segue	_	VERB	VERB	_	0	root	_	_
@@ -199,11 +199,11 @@
 8	título	título	NOUN	NOUN	_	5	nmod	_	_
 9	em	em	ADP	ADP	_	10	case	_	_
 10	2012	2012	NUM	NUM	NumType=Card	8	nmod	_	_
-11	nesta	_	ADP	ADP	_	14	case	_	_
-12	terça	_	PROPN	PNOUN	_	14	amod	_	_
-13	-	-	PUNCT	.	_	14	punct	_	_
-14	feira	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
-15	.	.	PUNCT	.	_	3	punct	_	_
+11	nesta	_	ADP	ADP	_	13	case	_	_
+12-13	terça-feira	_	_	_	_	_	_	_	SpaceAfter=No
+12	terça	_	PROPN	PNOUN	_	13	amod	_	_
+13	feira	_	PROPN	PNOUN	_	3	nmod	_	_
+14	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s5505
 # text = Alguns dos papéis notáveis que estrelou incluem Alice Munro em The Last of the Mohicans (O Último dos Moicanos), de Michael Mann, como Lea Papin em Sister My Sister;

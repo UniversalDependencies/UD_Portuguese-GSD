@@ -74,7 +74,7 @@
 17	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = train-s5820
-# text = São Paulo -- Com o time já definido, o técnico Mano Menezes comandou ontem apenas um treino leve na preparação da Seleção Brasileira masculina para a estreia dos Jogos Olímpicos de Londres, quando irá enfrentar o Egito nesta quinta - feira, em Cardiff, pelo grupo C.
+# text = São Paulo -- Com o time já definido, o técnico Mano Menezes comandou ontem apenas um treino leve na preparação da Seleção Brasileira masculina para a estreia dos Jogos Olímpicos de Londres, quando irá enfrentar o Egito nesta quinta-feira, em Cardiff, pelo grupo C.
 1	São	_	PROPN	PNOUN	_	14	parataxis	_	_
 2	Paulo	_	PROPN	PNOUN	_	1	flat	_	_
 3	--	_	PUNCT	.	_	14	punct	_	_
@@ -120,19 +120,19 @@
 40	enfrentar	enfrentar	VERB	VERB	_	33	acl:relcl	_	_
 41	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
 42	Egito	_	PROPN	PNOUN	_	40	obj	_	_
-43	nesta	_	ADP	ADP	_	46	case	_	_
-44	quinta	_	PROPN	PNOUN	_	46	amod	_	_
-45	-	-	PUNCT	.	_	46	punct	_	_
-46	feira	_	PROPN	PNOUN	_	40	nmod	_	SpaceAfter=No
-47	,	,	PUNCT	.	_	49	punct	_	_
-48	em	em	ADP	ADP	_	49	case	_	_
-49	Cardiff	_	PROPN	PNOUN	_	40	conj	_	SpaceAfter=No
-50	,	,	PUNCT	.	_	53	punct	_	_
-51-52	pelo	_	_	_	_	_	_	_	_
-51	por	por	ADP	ADP	_	53	case	_	_
-52	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
-53	grupo	grupo	NOUN	NOUN	_	40	nmod	_	_
-54	C.	_	PROPN	PNOUN	_	53	appos	_	_
+43	nesta	_	ADP	ADP	_	45	case	_	_
+44-45	quinta-feira	_	_	_	_	_	_	_	SpaceAfter=No
+44	quinta	_	PROPN	PNOUN	_	45	amod	_	_
+45	feira	_	PROPN	PNOUN	_	40	nmod	_	_
+46	,	,	PUNCT	.	_	48	punct	_	_
+47	em	em	ADP	ADP	_	48	case	_	_
+48	Cardiff	_	PROPN	PNOUN	_	40	conj	_	SpaceAfter=No
+49	,	,	PUNCT	.	_	52	punct	_	_
+50-51	pelo	_	_	_	_	_	_	_	_
+50	por	por	ADP	ADP	_	52	case	_	_
+51	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+52	grupo	grupo	NOUN	NOUN	_	40	nmod	_	_
+53	C.	_	PROPN	PNOUN	_	52	appos	_	_
 
 # sent_id = train-s5821
 # text = O futebol de cinco para cegos e deficientes visuais é praticado com máscara que tampam os olhos.
@@ -167,7 +167,7 @@
 8	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s5823
-# text = Do lado heróico, o motivo para a discussão é a presença de Magneto, o arquiinimigo dos X - Men, que não é bem recebido para lutar do lado de Capitão América e companhia, por mais que Charles Xavier, o principal antagonista do mestre do magnetismo, defenda sua presença no grupo.
+# text = Do lado heróico, o motivo para a discussão é a presença de Magneto, o arquiinimigo dos X-Men, que não é bem recebido para lutar do lado de Capitão América e companhia, por mais que Charles Xavier, o principal antagonista do mestre do magnetismo, defenda sua presença no grupo.
 1-2	Do	_	_	_	_	_	_	_	_
 1	De	de	ADP	ADP	_	3	case	_	_
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -190,53 +190,53 @@
 19-20	dos	_	_	_	_	_	_	_	_
 19	de	de	ADP	ADP	_	21	case	_	_
 20	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21-22	X-Men	_	_	_	_	_	_	_	SpaceAfter=No
 21	X	_	PROPN	PNOUN	_	18	nmod	_	_
-22	-	-	PUNCT	.	_	21	punct	_	_
-23	Men	_	PROPN	PNOUN	_	21	flat	_	SpaceAfter=No
-24	,	,	PUNCT	.	_	29	punct	_	_
-25	que	_	PRON	PRON	_	29	nsubj:pass	_	_
-26	não	não	ADV	ADV	Polarity=Neg	29	advmod	_	_
-27	é	ser	AUX	AUX	_	29	aux:pass	_	_
-28	bem	bem	ADV	ADV	_	29	advmod	_	_
-29	recebido	receber	VERB	VERB	_	15	acl:relcl	_	_
-30	para	_	ADP	ADP	_	31	mark	_	_
-31	lutar	lutar	VERB	VERB	_	29	advcl	_	_
-32-33	do	_	_	_	_	_	_	_	_
-32	de	de	ADP	ADP	_	34	case	_	_
-33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
-34	lado	lado	NOUN	NOUN	_	31	nmod	_	_
-35	de	de	ADP	ADP	_	36	case	_	_
-36	Capitão	_	PROPN	PNOUN	_	34	nmod	_	_
-37	América	_	PROPN	PNOUN	_	36	flat	_	_
-38	e	e	CCONJ	CONJ	_	39	cc	_	_
-39	companhia	companhia	NOUN	NOUN	_	36	conj	_	SpaceAfter=No
-40	,	,	PUNCT	.	_	57	punct	_	_
-41	por	_	ADP	ADP	_	57	mark	_	_
-42	mais	mais	ADV	ADV	_	41	fixed	_	_
-43	que	_	CCONJ	CONJ	_	41	fixed	_	_
-44	Charles	_	PROPN	PNOUN	_	57	nsubj	_	_
-45	Xavier	_	PROPN	PNOUN	_	44	flat	_	SpaceAfter=No
-46	,	,	PUNCT	.	_	49	punct	_	_
-47	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
-48	principal	principal	ADJ	ADJ	_	49	amod	_	_
-49	antagonista	antagonista	NOUN	NOUN	_	44	appos	_	_
-50-51	do	_	_	_	_	_	_	_	_
-50	de	de	ADP	ADP	_	52	case	_	_
-51	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
-52	mestre	mestre	NOUN	NOUN	_	49	nmod	_	_
-53-54	do	_	_	_	_	_	_	_	_
-53	de	de	ADP	ADP	_	55	case	_	_
-54	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
-55	magnetismo	magnetismo	NOUN	NOUN	_	52	nmod	_	SpaceAfter=No
-56	,	,	PUNCT	.	_	49	punct	_	_
-57	defenda	defender	VERB	VERB	_	29	advcl	_	_
-58	sua	_	DET	DET	_	59	det:poss	_	_
-59	presença	presença	NOUN	NOUN	_	57	obj	_	_
-60-61	no	_	_	_	_	_	_	_	_
-60	em	em	ADP	ADP	_	62	case	_	_
-61	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
-62	grupo	grupo	NOUN	NOUN	_	59	nmod	_	SpaceAfter=No
-63	.	.	PUNCT	.	_	13	punct	_	_
+22	Men	_	PROPN	PNOUN	_	21	flat	_	_
+23	,	,	PUNCT	.	_	28	punct	_	_
+24	que	_	PRON	PRON	_	28	nsubj:pass	_	_
+25	não	não	ADV	ADV	Polarity=Neg	28	advmod	_	_
+26	é	ser	AUX	AUX	_	28	aux:pass	_	_
+27	bem	bem	ADV	ADV	_	28	advmod	_	_
+28	recebido	receber	VERB	VERB	_	15	acl:relcl	_	_
+29	para	_	ADP	ADP	_	30	mark	_	_
+30	lutar	lutar	VERB	VERB	_	28	advcl	_	_
+31-32	do	_	_	_	_	_	_	_	_
+31	de	de	ADP	ADP	_	33	case	_	_
+32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	lado	lado	NOUN	NOUN	_	30	nmod	_	_
+34	de	de	ADP	ADP	_	35	case	_	_
+35	Capitão	_	PROPN	PNOUN	_	33	nmod	_	_
+36	América	_	PROPN	PNOUN	_	35	flat	_	_
+37	e	e	CCONJ	CONJ	_	38	cc	_	_
+38	companhia	companhia	NOUN	NOUN	_	35	conj	_	SpaceAfter=No
+39	,	,	PUNCT	.	_	56	punct	_	_
+40	por	_	ADP	ADP	_	56	mark	_	_
+41	mais	mais	ADV	ADV	_	40	fixed	_	_
+42	que	_	CCONJ	CONJ	_	40	fixed	_	_
+43	Charles	_	PROPN	PNOUN	_	56	nsubj	_	_
+44	Xavier	_	PROPN	PNOUN	_	43	flat	_	SpaceAfter=No
+45	,	,	PUNCT	.	_	48	punct	_	_
+46	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+47	principal	principal	ADJ	ADJ	_	48	amod	_	_
+48	antagonista	antagonista	NOUN	NOUN	_	43	appos	_	_
+49-50	do	_	_	_	_	_	_	_	_
+49	de	de	ADP	ADP	_	51	case	_	_
+50	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	mestre	mestre	NOUN	NOUN	_	48	nmod	_	_
+52-53	do	_	_	_	_	_	_	_	_
+52	de	de	ADP	ADP	_	54	case	_	_
+53	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	magnetismo	magnetismo	NOUN	NOUN	_	51	nmod	_	SpaceAfter=No
+55	,	,	PUNCT	.	_	48	punct	_	_
+56	defenda	defender	VERB	VERB	_	28	advcl	_	_
+57	sua	_	DET	DET	_	58	det:poss	_	_
+58	presença	presença	NOUN	NOUN	_	56	obj	_	_
+59-60	no	_	_	_	_	_	_	_	_
+59	em	em	ADP	ADP	_	61	case	_	_
+60	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	61	det	_	_
+61	grupo	grupo	NOUN	NOUN	_	58	nmod	_	SpaceAfter=No
+62	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = train-s5824
 # text = A entojada se aproxima de Conrado bem na hora que ele está admirando a ex.

@@ -20,7 +20,7 @@
 16	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s4446
-# text = O Serviço de Limpeza Urbana (SLU) será reponsável pela elaboração do edital e a Companhia de Abastecimento Ambiental do DF (Caesb) pela construção da estação de pré - tratamento do aterro.
+# text = O Serviço de Limpeza Urbana (SLU) será reponsável pela elaboração do edital e a Companhia de Abastecimento Ambiental do DF (Caesb) pela construção da estação de pré-tratamento do aterro.
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Serviço	_	PROPN	PNOUN	_	9	nsubj	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
@@ -61,14 +61,14 @@
 33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	estação	estação	NOUN	NOUN	_	31	nmod	_	_
 35	de	de	ADP	ADP	_	36	case	_	_
+36-37	pré-tratamento	_	_	_	_	_	_	_	_
 36	pré	_	PART	PRT	_	34	nmod	_	_
-37	-	-	PUNCT	.	_	36	punct	_	_
-38	tratamento	tratamento	NOUN	NOUN	_	36	flat	_	_
-39-40	do	_	_	_	_	_	_	_	_
-39	de	de	ADP	ADP	_	41	case	_	_
-40	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
-41	aterro	aterro	NOUN	NOUN	_	36	nmod	_	SpaceAfter=No
-42	.	.	PUNCT	.	_	9	punct	_	_
+37	tratamento	tratamento	NOUN	NOUN	_	36	flat	_	_
+38-39	do	_	_	_	_	_	_	_	_
+38	de	de	ADP	ADP	_	40	case	_	_
+39	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	aterro	aterro	NOUN	NOUN	_	36	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s4447
 # text = Os interessados devem comparecer para a entrevista na Funtrab, amanhã (28), às 08h30, com Carteira de Trabalho e documentos pessoais.
@@ -181,8 +181,8 @@
 29	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = train-s4450
-# text = Obama e Calderón, anfitrião da reunião que começará na segunda - feira em Los Cabos, se reunirão antes do início da cúpula para revisar os progressos na relação bilateral, explicou em entrevista coletiva o conselheiro adjunto de Segurança Nacional da Casa Branca, Ben Rhodes.
-1	Obama	_	PROPN	PNOUN	_	21	nsubj	_	_
+# text = Obama e Calderón, anfitrião da reunião que começará na segunda-feira em Los Cabos, se reunirão antes do início da cúpula para revisar os progressos na relação bilateral, explicou em entrevista coletiva o conselheiro adjunto de Segurança Nacional da Casa Branca, Ben Rhodes.
+1	Obama	_	PROPN	PNOUN	_	20	nsubj	_	_
 2	e	e	CCONJ	CONJ	_	3	cc	_	_
 3	Calderón	_	PROPN	PNOUN	_	1	conj	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	5	punct	_	_
@@ -194,55 +194,55 @@
 9	que	_	PRON	PRON	_	10	nsubj	_	_
 10	começará	começar	VERB	VERB	_	8	acl:relcl	_	_
 11-12	na	_	_	_	_	_	_	_	_
-11	em	em	ADP	ADP	_	15	case	_	_
-12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-13	segunda	_	PROPN	PNOUN	_	15	amod	_	_
-14	-	-	PUNCT	.	_	15	punct	_	_
-15	feira	_	PROPN	PNOUN	_	10	nmod	_	_
-16	em	em	ADP	ADP	_	18	case	_	_
-17	Los	_	PROPN	PNOUN	_	18	det	_	_
-18	Cabos	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	10	punct	_	_
-20	se	_	PRON	PRON	_	21	obj	_	_
-21	reunirão	reunir	VERB	VERB	_	38	ccomp	_	_
-22	antes	antes	ADV	ADV	_	25	case	_	_
-23-24	do	_	_	_	_	_	_	_	_
-23	de	de	ADP	ADP	_	22	case	_	_
-24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-25	início	início	NOUN	NOUN	_	21	nmod	_	_
-26-27	da	_	_	_	_	_	_	_	_
-26	de	de	ADP	ADP	_	28	case	_	_
-27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
-28	cúpula	cúpula	NOUN	NOUN	_	25	nmod	_	_
-29	para	_	ADP	ADP	_	30	mark	_	_
-30	revisar	revisar	VERB	VERB	_	21	advcl	_	_
-31	os	o	DET	DET	_	32	det	_	_
-32	progressos	progresso	NOUN	NOUN	_	30	obj	_	_
-33-34	na	_	_	_	_	_	_	_	_
-33	em	em	ADP	ADP	_	35	case	_	_
-34	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
-35	relação	relação	NOUN	NOUN	_	32	nmod	_	_
-36	bilateral	bilateral	ADJ	ADJ	_	35	amod	_	SpaceAfter=No
-37	,	,	PUNCT	.	_	30	punct	_	_
-38	explicou	explicar	VERB	VERB	_	0	root	_	_
-39	em	em	ADP	ADP	_	40	case	_	_
-40	entrevista	entrevista	NOUN	NOUN	_	38	nmod	_	_
-41	coletiva	coletivo	ADJ	ADJ	_	40	amod	_	_
-42	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
-43	conselheiro	conselheiro	NOUN	NOUN	_	38	nsubj	_	_
-44	adjunto	adjunto	NOUN	NOUN	_	43	flat	_	_
-45	de	de	ADP	ADP	_	46	case	_	_
-46	Segurança	_	PROPN	PNOUN	_	43	nmod	_	_
-47	Nacional	_	PROPN	PNOUN	_	46	amod	_	_
-48-49	da	_	_	_	_	_	_	_	_
-48	de	de	ADP	ADP	_	50	case	_	_
-49	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
-50	Casa	_	PROPN	PNOUN	_	46	nmod	_	_
-51	Branca	_	PROPN	PNOUN	_	50	amod	_	SpaceAfter=No
-52	,	,	PUNCT	.	_	53	punct	_	_
-53	Ben	_	PROPN	PNOUN	_	43	appos	_	_
-54	Rhodes	_	PROPN	PNOUN	_	53	flat	_	SpaceAfter=No
-55	.	.	PUNCT	.	_	38	punct	_	_
+11	em	em	ADP	ADP	_	14	case	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13-14	segunda-feira	_	_	_	_	_	_	_	_
+13	segunda	_	PROPN	PNOUN	_	14	amod	_	_
+14	feira	_	PROPN	PNOUN	_	10	nmod	_	_
+15	em	em	ADP	ADP	_	17	case	_	_
+16	Los	_	PROPN	PNOUN	_	17	det	_	_
+17	Cabos	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	.	_	10	punct	_	_
+19	se	_	PRON	PRON	_	20	obj	_	_
+20	reunirão	reunir	VERB	VERB	_	37	ccomp	_	_
+21	antes	antes	ADV	ADV	_	24	case	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	ADP	_	21	case	_	_
+23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+24	início	início	NOUN	NOUN	_	20	nmod	_	_
+25-26	da	_	_	_	_	_	_	_	_
+25	de	de	ADP	ADP	_	27	case	_	_
+26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	cúpula	cúpula	NOUN	NOUN	_	24	nmod	_	_
+28	para	_	ADP	ADP	_	29	mark	_	_
+29	revisar	revisar	VERB	VERB	_	20	advcl	_	_
+30	os	o	DET	DET	_	31	det	_	_
+31	progressos	progresso	NOUN	NOUN	_	29	obj	_	_
+32-33	na	_	_	_	_	_	_	_	_
+32	em	em	ADP	ADP	_	34	case	_	_
+33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	relação	relação	NOUN	NOUN	_	31	nmod	_	_
+35	bilateral	bilateral	ADJ	ADJ	_	34	amod	_	SpaceAfter=No
+36	,	,	PUNCT	.	_	29	punct	_	_
+37	explicou	explicar	VERB	VERB	_	0	root	_	_
+38	em	em	ADP	ADP	_	39	case	_	_
+39	entrevista	entrevista	NOUN	NOUN	_	37	nmod	_	_
+40	coletiva	coletivo	ADJ	ADJ	_	39	amod	_	_
+41	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	conselheiro	conselheiro	NOUN	NOUN	_	37	nsubj	_	_
+43	adjunto	adjunto	NOUN	NOUN	_	42	flat	_	_
+44	de	de	ADP	ADP	_	45	case	_	_
+45	Segurança	_	PROPN	PNOUN	_	42	nmod	_	_
+46	Nacional	_	PROPN	PNOUN	_	45	amod	_	_
+47-48	da	_	_	_	_	_	_	_	_
+47	de	de	ADP	ADP	_	49	case	_	_
+48	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+49	Casa	_	PROPN	PNOUN	_	45	nmod	_	_
+50	Branca	_	PROPN	PNOUN	_	49	amod	_	SpaceAfter=No
+51	,	,	PUNCT	.	_	52	punct	_	_
+52	Ben	_	PROPN	PNOUN	_	42	appos	_	_
+53	Rhodes	_	PROPN	PNOUN	_	52	flat	_	SpaceAfter=No
+54	.	.	PUNCT	.	_	37	punct	_	_
 
 # sent_id = train-s4451
 # text = Namorar com 81 anos?
@@ -253,8 +253,8 @@
 5	?	?	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s4452
-# text = Presentes, ainda, na abertura do evento, na última sexta - feira, a vereadora Raquel Picelli, autora da lei que instituiu a Festa do Produtor, seus colegas Julinho Lopes e Maria do Carmo Guilherme.
-1	Presentes	presente	ADJ	ADJ	_	20	amod	_	SpaceAfter=No
+# text = Presentes, ainda, na abertura do evento, na última sexta-feira, a vereadora Raquel Picelli, autora da lei que instituiu a Festa do Produtor, seus colegas Julinho Lopes e Maria do Carmo Guilherme.
+1	Presentes	presente	ADJ	ADJ	_	19	amod	_	SpaceAfter=No
 2	,	,	PUNCT	.	_	3	punct	_	_
 3	ainda	ainda	ADV	ADV	_	1	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
@@ -266,46 +266,46 @@
 8	de	de	ADP	ADP	_	10	case	_	_
 9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	evento	evento	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-11	,	,	PUNCT	.	_	17	punct	_	_
+11	,	,	PUNCT	.	_	16	punct	_	_
 12-13	na	_	_	_	_	_	_	_	_
-12	em	em	ADP	ADP	_	17	case	_	_
-13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-14	última	último	ADJ	ADJ	_	17	amod	_	_
-15	sexta	_	PROPN	PNOUN	_	17	amod	_	_
-16	-	-	PUNCT	.	_	17	punct	_	_
-17	feira	_	PROPN	PNOUN	_	1	nmod	_	SpaceAfter=No
-18	,	,	PUNCT	.	_	17	punct	_	_
-19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	vereadora	vereador	NOUN	NOUN	_	0	root	_	_
-21	Raquel	_	PROPN	PNOUN	_	20	appos	_	_
-22	Picelli	_	PROPN	PNOUN	_	21	flat	_	SpaceAfter=No
-23	,	,	PUNCT	.	_	24	punct	_	_
-24	autora	autor	NOUN	NOUN	_	20	appos	_	_
-25-26	da	_	_	_	_	_	_	_	_
-25	de	de	ADP	ADP	_	27	case	_	_
-26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	lei	lei	NOUN	NOUN	_	24	nmod	_	_
-28	que	_	PRON	PRON	_	29	nsubj	_	_
-29	instituiu	instituir	VERB	VERB	_	27	acl:relcl	_	_
-30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-31	Festa	festa	NOUN	NOUN	_	29	obj	_	_
-32-33	do	_	_	_	_	_	_	_	_
-32	de	de	ADP	ADP	_	34	case	_	_
-33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
-34	Produtor	_	PROPN	PNOUN	_	31	nmod	_	SpaceAfter=No
-35	,	,	PUNCT	.	_	37	punct	_	_
-36	seus	_	DET	DET	_	37	det:poss	_	_
-37	colegas	colega	NOUN	NOUN	_	20	conj	_	_
-38	Julinho	_	PROPN	PNOUN	_	37	appos	_	_
-39	Lopes	_	PROPN	PNOUN	_	38	flat	_	_
-40	e	e	CCONJ	CONJ	_	41	cc	_	_
-41	Maria	_	PROPN	PNOUN	_	38	conj	_	_
-42-43	do	_	_	_	_	_	_	_	_
-42	de	de	ADP	ADP	_	44	case	_	_
-43	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
-44	Carmo	_	PROPN	PNOUN	_	41	nmod	_	_
-45	Guilherme	_	PROPN	PNOUN	_	44	flat	_	SpaceAfter=No
-46	.	.	PUNCT	.	_	20	punct	_	_
+12	em	em	ADP	ADP	_	16	case	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+14	última	último	ADJ	ADJ	_	16	amod	_	_
+15-16	sexta-feira	_	_	_	_	_	_	_	SpaceAfter=No
+15	sexta	_	PROPN	PNOUN	_	16	amod	_	_
+16	feira	_	PROPN	PNOUN	_	1	nmod	_	_
+17	,	,	PUNCT	.	_	16	punct	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	vereadora	vereador	NOUN	NOUN	_	0	root	_	_
+20	Raquel	_	PROPN	PNOUN	_	19	appos	_	_
+21	Picelli	_	PROPN	PNOUN	_	20	flat	_	SpaceAfter=No
+22	,	,	PUNCT	.	_	23	punct	_	_
+23	autora	autor	NOUN	NOUN	_	19	appos	_	_
+24-25	da	_	_	_	_	_	_	_	_
+24	de	de	ADP	ADP	_	26	case	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	lei	lei	NOUN	NOUN	_	23	nmod	_	_
+27	que	_	PRON	PRON	_	28	nsubj	_	_
+28	instituiu	instituir	VERB	VERB	_	26	acl:relcl	_	_
+29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	Festa	festa	NOUN	NOUN	_	28	obj	_	_
+31-32	do	_	_	_	_	_	_	_	_
+31	de	de	ADP	ADP	_	33	case	_	_
+32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	Produtor	_	PROPN	PNOUN	_	30	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	.	_	36	punct	_	_
+35	seus	_	DET	DET	_	36	det:poss	_	_
+36	colegas	colega	NOUN	NOUN	_	19	conj	_	_
+37	Julinho	_	PROPN	PNOUN	_	36	appos	_	_
+38	Lopes	_	PROPN	PNOUN	_	37	flat	_	_
+39	e	e	CCONJ	CONJ	_	40	cc	_	_
+40	Maria	_	PROPN	PNOUN	_	37	conj	_	_
+41-42	do	_	_	_	_	_	_	_	_
+41	de	de	ADP	ADP	_	43	case	_	_
+42	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	Carmo	_	PROPN	PNOUN	_	40	nmod	_	_
+44	Guilherme	_	PROPN	PNOUN	_	43	flat	_	SpaceAfter=No
+45	.	.	PUNCT	.	_	19	punct	_	_
 
 # sent_id = train-s4453
 # text = De fato, um dos pilares duma república democrática é o da tripartição de poderes, que devem ser totalmente independentes e autônomos.

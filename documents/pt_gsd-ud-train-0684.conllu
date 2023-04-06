@@ -95,24 +95,24 @@
 17	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s6793
-# text = Ratinho e o diretor - geral Walter Scaramuzzi também vão ter espaço no livro.
-1	Ratinho	_	PROPN	PNOUN	_	11	nsubj	_	_
+# text = Ratinho e o diretor-geral Walter Scaramuzzi também vão ter espaço no livro.
+1	Ratinho	_	PROPN	PNOUN	_	10	nsubj	_	_
 2	e	e	CCONJ	CONJ	_	4	cc	_	_
 3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4-5	diretor-geral	_	_	_	_	_	_	_	_
 4	diretor	diretor	NOUN	NOUN	_	1	conj	_	_
-5	-	-	PUNCT	.	_	4	punct	_	_
-6	geral	geral	ADJ	ADJ	_	4	amod	_	_
-7	Walter	_	PROPN	PNOUN	_	4	appos	_	_
-8	Scaramuzzi	_	PROPN	PNOUN	_	7	flat	_	_
-9	também	também	ADV	ADV	_	11	advmod	_	_
-10	vão	ir	AUX	AUX	_	11	aux	_	_
-11	ter	ter	VERB	VERB	_	0	root	_	_
-12	espaço	espaço	NOUN	NOUN	_	11	obj	_	_
-13-14	no	_	_	_	_	_	_	_	_
-13	em	em	ADP	ADP	_	15	case	_	_
-14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	livro	livro	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
-16	.	.	PUNCT	.	_	11	punct	_	_
+5	geral	geral	ADJ	ADJ	_	4	amod	_	_
+6	Walter	_	PROPN	PNOUN	_	4	appos	_	_
+7	Scaramuzzi	_	PROPN	PNOUN	_	6	flat	_	_
+8	também	também	ADV	ADV	_	10	advmod	_	_
+9	vão	ir	AUX	AUX	_	10	aux	_	_
+10	ter	ter	VERB	VERB	_	0	root	_	_
+11	espaço	espaço	NOUN	NOUN	_	10	obj	_	_
+12-13	no	_	_	_	_	_	_	_	_
+12	em	em	ADP	ADP	_	14	case	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	livro	livro	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s6794
 # text = É minha última chance, se errar, vou falar com a minha família e amigos: "Gente, parei, acabou."
@@ -163,9 +163,9 @@
 
 # sent_id = train-s6796
 # text = 4 - E vós sabeis o caminho para onde eu vou.
-1	4	4	NUM	NUM	NumType=Card	5	parataxis	_	_
-2	-	-	PUNCT	.	_	5	punct	_	_
-3	E	_	CCONJ	CONJ	_	5	cc	_	_
+1	4	4	NUM	NUM	NumType=Card	5	parataxis	_	ToDo=NonCatenaCompound
+2	-	-	PUNCT	.	_	5	punct	_	ToDo=NonCatenaCompound
+3	E	_	CCONJ	CONJ	_	5	cc	_	ToDo=NonCatenaCompound
 4	vós	_	PRON	PRON	_	5	nsubj	_	_
 5	sabeis	saber	VERB	VERB	_	0	root	_	_
 6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_

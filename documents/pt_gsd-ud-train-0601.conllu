@@ -186,7 +186,7 @@
 40	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s5973
-# text = Já as aulas de dança acontecem de segunda a quinta - feira, tendo a inserção de atividades de ginástica às sextas - feiras.
+# text = Já as aulas de dança acontecem de segunda a quinta - feira, tendo a inserção de atividades de ginástica às sextas-feiras.
 1	Já	já	ADV	ADV	_	6	advmod	_	_
 2	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	aulas	aula	NOUN	NOUN	_	6	nsubj	_	_
@@ -196,9 +196,9 @@
 7	de	de	ADP	ADP	_	12	case	_	_
 8	segunda	_	PROPN	PNOUN	_	12	amod	_	_
 9	a	_	ADP	ADP	_	10	case	_	_
-10	quinta	_	PROPN	PNOUN	_	8	nmod	_	_
+10	quinta	_	PROPN	PNOUN	_	8	nmod	_	ToDo=NonCatenaCompound
 11	-	-	PUNCT	.	_	12	punct	_	_
-12	feira	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
+12	feira	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No|ToDo=NonCatenaCompound
 13	,	,	PUNCT	.	_	14	punct	_	_
 14	tendo	_	VERB	VERB	_	6	acl	_	_
 15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -208,12 +208,12 @@
 19	de	de	ADP	ADP	_	20	case	_	_
 20	ginástica	_	NOUN	NOUN	_	18	nmod	_	_
 21-22	às	_	_	_	_	_	_	_	_
-21	a	a	ADP	ADP	_	25	case	_	_
-22	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
-23	sextas	_	ADJ	ADJ	_	25	amod	_	_
-24	-	-	PUNCT	.	_	25	punct	_	_
-25	feiras	_	PROPN	PNOUN	_	14	nmod	_	SpaceAfter=No
-26	.	.	PUNCT	.	_	6	punct	_	_
+21	a	a	ADP	ADP	_	24	case	_	_
+22	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+23-24	sextas-feiras	_	_	_	_	_	_	_	SpaceAfter=No
+23	sextas	_	ADJ	ADJ	_	24	amod	_	_
+24	feiras	_	PROPN	PNOUN	_	14	nmod	_	_
+25	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s5974
 # text = Para aprovação do convênio, o projeto de lei complementar estabelece que é necessária a concordância de três quintos das unidades federação e dum terço dos Estados integrantes de cada uma das cinco regiões do País.

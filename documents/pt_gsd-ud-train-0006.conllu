@@ -138,20 +138,20 @@
 11	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s57
-# text = No Twitter, a ex - BBB voltou a comentar.
+# text = No Twitter, a ex-BBB voltou a comentar.
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	Twitter	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
+3	Twitter	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	3	punct	_	_
 5	a	o	DET	DET	_	6	det	_	_
-6	ex	_	PART	PRT	_	11	nsubj	_	_
-7	-	-	PUNCT	.	_	6	punct	_	_
-8	BBB	_	PROPN	PNOUN	_	6	flat	_	_
-9	voltou	voltar	AUX	AUX	_	11	aux	_	_
-10	a	_	ADP	ADP	_	11	mark	_	_
-11	comentar	comentar	VERB	VERB	_	0	root	_	SpaceAfter=No
-12	.	.	PUNCT	.	_	11	punct	_	_
+6-7	ex-BBB	_	_	_	_	_	_	_	_
+6	ex	_	PART	PRT	_	10	nsubj	_	_
+7	BBB	_	PROPN	PNOUN	_	6	flat	_	_
+8	voltou	voltar	AUX	AUX	_	10	aux	_	_
+9	a	_	ADP	ADP	_	10	mark	_	_
+10	comentar	comentar	VERB	VERB	_	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s58
 # text = Hoje a avenida Barão de Mauá não tem mais como circular em horário de pico.

@@ -69,7 +69,7 @@
 19	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s5243
-# text = Desde 2007, ele, conhecido pelos mexicanos como "Chapulín" (Gafanhoto, em inglês), participa da American Le Mans Series, com um LMP2 Lola B06/42-Acura da Fernández Racing, equipe do ex - piloto Adrián Fernández.
+# text = Desde 2007, ele, conhecido pelos mexicanos como "Chapulín" (Gafanhoto, em inglês), participa da American Le Mans Series, com um LMP2 Lola B06/42-Acura da Fernández Racing, equipe do ex-piloto Adrián Fernández.
 1	Desde	_	ADP	ADP	_	2	case	_	_
 2	2007	2007	NUM	NUM	NumType=Card	21	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
@@ -115,18 +115,18 @@
 40-41	do	_	_	_	_	_	_	_	_
 40	de	de	ADP	ADP	_	42	case	_	_
 41	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42-43	ex-piloto	_	_	_	_	_	_	_	_
 42	ex	_	PART	PRT	_	39	nmod	_	_
-43	-	-	PUNCT	.	_	42	punct	_	_
-44	piloto	piloto	NOUN	NOUN	_	42	flat	_	_
-45	Adrián	_	PROPN	PNOUN	_	42	appos	_	_
-46	Fernández	_	PROPN	PNOUN	_	45	flat	_	SpaceAfter=No
-47	.	.	PUNCT	.	_	21	punct	_	_
+43	piloto	piloto	NOUN	NOUN	_	42	flat	_	_
+44	Adrián	_	PROPN	PNOUN	_	42	appos	_	_
+45	Fernández	_	PROPN	PNOUN	_	44	flat	_	SpaceAfter=No
+46	.	.	PUNCT	.	_	21	punct	_	_
 
 # sent_id = train-s5244
-# text = "Não foi nem o Reino Unido nem meu país natal, a Austrália, que decidiu me proteger da perseguição, mas uma valente nação independente latino - americana", disse o ativista, de 41 anos.
+# text = "Não foi nem o Reino Unido nem meu país natal, a Austrália, que decidiu me proteger da perseguição, mas uma valente nação independente latino-americana", disse o ativista, de 41 anos.
 1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
 2	Não	não	ADV	ADV	Polarity=Neg	3	advmod	_	_
-3	foi	_	VERB	VERB	_	34	ccomp	_	_
+3	foi	_	VERB	VERB	_	33	ccomp	_	_
 4	nem	_	CCONJ	CONJ	_	6	cc	_	_
 5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Reino	_	PROPN	PNOUN	_	3	nsubj	_	_
@@ -153,19 +153,19 @@
 26	valente	valente	ADJ	ADJ	_	27	amod	_	_
 27	nação	nação	NOUN	NOUN	_	6	conj	_	_
 28	independente	independente	ADJ	ADJ	_	27	amod	_	_
-29	latino	_	PART	PRT	_	31	amod	_	_
-30	-	-	PUNCT	.	_	31	punct	_	_
-31	americana	americano	ADJ	ADJ	_	27	amod	_	SpaceAfter=No
-32	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
-33	,	,	PUNCT	.	_	34	punct	_	_
-34	disse	dizer	VERB	VERB	_	0	root	_	_
-35	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
-36	ativista	ativista	NOUN	NOUN	_	34	nsubj	_	SpaceAfter=No
-37	,	,	PUNCT	.	_	40	punct	_	_
-38	de	de	ADP	ADP	_	40	case	_	_
-39	41	41	NUM	NUM	NumType=Card	40	nummod	_	_
-40	anos	ano	NOUN	NOUN	_	36	nmod	_	SpaceAfter=No
-41	.	.	PUNCT	.	_	34	punct	_	_
+29-30	latino-americana	_	_	_	_	_	_	_	SpaceAfter=No
+29	latino	_	PART	PRT	_	30	amod	_	_
+30	americana	americano	ADJ	ADJ	_	27	amod	_	_
+31	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
+32	,	,	PUNCT	.	_	33	punct	_	_
+33	disse	dizer	VERB	VERB	_	0	root	_	_
+34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	ativista	ativista	NOUN	NOUN	_	33	nsubj	_	SpaceAfter=No
+36	,	,	PUNCT	.	_	39	punct	_	_
+37	de	de	ADP	ADP	_	39	case	_	_
+38	41	41	NUM	NUM	NumType=Card	39	nummod	_	_
+39	anos	ano	NOUN	NOUN	_	35	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	33	punct	_	_
 
 # sent_id = train-s5245
 # text = A polícia constatou que nenhuma porta tinha sido arrombada e que o alarme não tido sido acionado, o que levou aos policiais a suspeitarem da facilitação para o furto.

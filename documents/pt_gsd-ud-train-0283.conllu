@@ -94,9 +94,9 @@
 4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	francesa	francês	NOUN	NOUN	_	0	root	_	_
 6	Marie	_	PROPN	PNOUN	_	5	appos	_	_
-7	Marchand	_	PROPN	PNOUN	_	6	flat	_	_
-8	-	-	PUNCT	.	_	6	punct	_	_
-9	Arvier	_	PROPN	PNOUN	_	6	flat	_	SpaceAfter=No
+7	Marchand	_	PROPN	PNOUN	_	6	flat	_	ToDo=NonCatenaCompound
+8	-	-	PUNCT	.	_	6	punct	_	ToDo=NonCatenaCompound
+9	Arvier	_	PROPN	PNOUN	_	6	flat	_	SpaceAfter=No|ToDo=NonCatenaCompound
 10	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s2813
@@ -199,7 +199,7 @@
 17	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s2817
-# text = A LG Electronics foi a primeira companhia a apresentar novos produtos para o ano corrente durante o pré - show da CES.
+# text = A LG Electronics foi a primeira companhia a apresentar novos produtos para o ano corrente durante o pré-show da CES.
 1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	LG	_	PROPN	PNOUN	_	7	nsubj	_	_
 3	Electronics	_	PROPN	PNOUN	_	2	flat	_	_
@@ -217,14 +217,14 @@
 15	corrente	corrente	ADJ	ADJ	_	14	amod	_	_
 16	durante	_	ADP	ADP	_	18	case	_	_
 17	o	o	DET	DET	_	18	det	_	_
+18-19	pré-show	_	_	_	_	_	_	_	_
 18	pré	_	PART	PRT	_	7	nmod	_	_
-19	-	-	PUNCT	.	_	18	punct	_	_
-20	show	show	NOUN	NOUN	_	18	flat	_	_
-21-22	da	_	_	_	_	_	_	_	_
-21	de	de	ADP	ADP	_	23	case	_	_
-22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-23	CES	_	PROPN	PNOUN	_	18	nmod	_	SpaceAfter=No
-24	.	.	PUNCT	.	_	7	punct	_	_
+19	show	show	NOUN	NOUN	_	18	flat	_	_
+20-21	da	_	_	_	_	_	_	_	_
+20	de	de	ADP	ADP	_	22	case	_	_
+21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	CES	_	PROPN	PNOUN	_	18	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s2818
 # text = Comalcalco é uma cidade do México, localizada na região noroeste do estado de Tabasco e no sul do país.

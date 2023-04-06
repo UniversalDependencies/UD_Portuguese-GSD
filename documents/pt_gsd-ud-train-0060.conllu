@@ -101,7 +101,7 @@
 22	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s595
-# text = Não se tem relato nem se vê estampado em manchetes diárias qualquer notícia de que o FBI, a NYPD (polícia de Nova York), a Swat ou qualquer outro ramo da polícia americana tenha subido as ruas do Bronx em carros blindados, ou atirado para tudo quanto é lado no Brooklyn, bairros nova - iorquinos.
+# text = Não se tem relato nem se vê estampado em manchetes diárias qualquer notícia de que o FBI, a NYPD (polícia de Nova York), a Swat ou qualquer outro ramo da polícia americana tenha subido as ruas do Bronx em carros blindados, ou atirado para tudo quanto é lado no Brooklyn, bairros nova-iorquinos.
 1	Não	não	ADV	ADV	Polarity=Neg	3	advmod	_	_
 2	se	_	PRON	PRON	_	3	expl:pv	_	_
 3	tem	ter	VERB	VERB	_	0	root	_	_
@@ -165,10 +165,10 @@
 58	Brooklyn	_	PROPN	PNOUN	_	50	nmod	_	SpaceAfter=No
 59	,	,	PUNCT	.	_	60	punct	_	_
 60	bairros	bairro	NOUN	NOUN	_	58	appos	_	_
-61	nova	novo	ADJ	ADJ	_	63	amod	_	_
-62	-	-	PUNCT	.	_	63	punct	_	_
-63	iorquinos	iorquino	ADJ	ADJ	_	60	amod	_	SpaceAfter=No
-64	.	.	PUNCT	.	_	3	punct	_	_
+61-62	nova-iorquinos	_	_	_	_	_	_	_	SpaceAfter=No
+61	nova	novo	ADJ	ADJ	_	62	amod	_	_
+62	iorquinos	iorquino	ADJ	ADJ	_	60	amod	_	_
+63	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s596
 # text = Ganhei identidade aqui, agora eu sou um deles ", explicou Farofa.
@@ -224,19 +224,19 @@
 29	Sul.	_	PROPN	PNOUN	_	25	nmod	_	_
 
 # sent_id = train-s598
-# text = As aulas devem reiniciar na próxima terça - feira.
+# text = As aulas devem reiniciar na próxima terça-feira.
 1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	aulas	aula	NOUN	NOUN	_	4	nsubj	_	_
 3	devem	_	AUX	AUX	_	4	aux	_	_
 4	reiniciar	reiniciar	VERB	VERB	_	0	root	_	_
 5-6	na	_	_	_	_	_	_	_	_
-5	em	em	ADP	ADP	_	10	case	_	_
-6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-7	próxima	próximo	ADJ	ADJ	_	10	amod	_	_
-8	terça	_	PROPN	PNOUN	_	10	amod	_	_
-9	-	-	PUNCT	.	_	10	punct	_	_
-10	feira	_	PROPN	PNOUN	_	4	nmod	_	SpaceAfter=No
-11	.	.	PUNCT	.	_	4	punct	_	_
+5	em	em	ADP	ADP	_	9	case	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+7	próxima	próximo	ADJ	ADJ	_	9	amod	_	_
+8-9	terça-feira	_	_	_	_	_	_	_	SpaceAfter=No
+8	terça	_	PROPN	PNOUN	_	9	amod	_	_
+9	feira	_	PROPN	PNOUN	_	4	nmod	_	_
+10	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s599
 # text = A Manchester and Leeds Railway foi uma companhia ferroviária do Reino Unido, que foi inaugurada em 1839, ligando Manchester com Leeds através da North Midland Railway, que juntava-se em Normanton.

@@ -146,7 +146,7 @@
 19	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s3082
-# text = Essa multa é a segunda infligida a um banco depois da do britânico HSBC, que aceitou pagar 1,920 bilhão de dólares para por fim às acusações das autoridades norte - americanas de lavagem de dinheiro ..
+# text = Essa multa é a segunda infligida a um banco depois da do britânico HSBC, que aceitou pagar 1,920 bilhão de dólares para por fim às acusações das autoridades norte-americanas de lavagem de dinheiro ..
 1	Essa	_	DET	DET	_	2	det	_	_
 2	multa	multa	NOUN	NOUN	_	5	nsubj	_	_
 3	é	ser	AUX	AUX	_	5	cop	_	_
@@ -182,17 +182,17 @@
 30	de	de	ADP	ADP	_	32	case	_	_
 31	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
 32	autoridades	autoridade	NOUN	NOUN	_	29	nmod	_	_
-33	norte	norte	ADJ	ADJ	_	35	amod	_	_
-34	-	-	PUNCT	.	_	35	punct	_	_
-35	americanas	americano	ADJ	ADJ	_	32	amod	_	_
-36	de	de	ADP	ADP	_	37	case	_	_
-37	lavagem	lavagem	NOUN	NOUN	_	29	nmod	_	_
-38	de	de	ADP	ADP	_	39	case	_	_
-39	dinheiro	dinheiro	NOUN	NOUN	_	37	nmod	_	_
-40	..	_	PUNCT	.	_	5	punct	_	_
+33-34	norte-americanas	_	_	_	_	_	_	_	_
+33	norte	norte	ADJ	ADJ	_	34	amod	_	_
+34	americanas	americano	ADJ	ADJ	_	32	amod	_	_
+35	de	de	ADP	ADP	_	36	case	_	_
+36	lavagem	lavagem	NOUN	NOUN	_	29	nmod	_	_
+37	de	de	ADP	ADP	_	38	case	_	_
+38	dinheiro	dinheiro	NOUN	NOUN	_	36	nmod	_	_
+39	..	_	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s3083
-# text = "Hoje, ao idealizar uma cozinha, já se pensa em deixá - la aos olhos das visitas", explica.
+# text = "Hoje, ao idealizar uma cozinha, já se pensa em deixá-la aos olhos das visitas", explica.
 1	"	"	PUNCT	.	_	12	punct	_	SpaceAfter=No
 2	Hoje	hoje	ADV	ADV	_	12	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
@@ -205,26 +205,26 @@
 9	,	,	PUNCT	.	_	12	punct	_	_
 10	já	já	ADV	ADV	_	12	advmod	_	_
 11	se	_	PART	PRT	_	12	expl:pv	_	_
-12	pensa	pensar	VERB	VERB	_	25	ccomp	_	_
+12	pensa	pensar	VERB	VERB	_	24	ccomp	_	_
 13	em	_	ADP	ADP	_	14	mark	_	_
+14-15	deixá-la	_	_	_	_	_	_	_	_
 14	deixá	deixar	VERB	VERB	_	12	nmod	_	_
-15	-	-	PUNCT	.	_	14	punct	_	_
-16	la	_	PRON	PRON	_	14	obj	_	_
-17-18	aos	_	_	_	_	_	_	_	_
-17	a	a	ADP	ADP	_	19	case	_	_
-18	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
-19	olhos	olho	NOUN	NOUN	_	14	nmod	_	_
-20-21	das	_	_	_	_	_	_	_	_
-20	de	de	ADP	ADP	_	22	case	_	_
-21	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
-22	visitas	visita	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
-23	"	"	PUNCT	.	_	12	punct	_	SpaceAfter=No
-24	,	,	PUNCT	.	_	25	punct	_	_
-25	explica	explicar	VERB	VERB	_	0	root	_	SpaceAfter=No
-26	.	.	PUNCT	.	_	25	punct	_	_
+15	la	_	PRON	PRON	_	14	obj	_	_
+16-17	aos	_	_	_	_	_	_	_	_
+16	a	a	ADP	ADP	_	18	case	_	_
+17	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	olhos	olho	NOUN	NOUN	_	14	nmod	_	_
+19-20	das	_	_	_	_	_	_	_	_
+19	de	de	ADP	ADP	_	21	case	_	_
+20	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	visitas	visita	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
+22	"	"	PUNCT	.	_	12	punct	_	SpaceAfter=No
+23	,	,	PUNCT	.	_	24	punct	_	_
+24	explica	explicar	VERB	VERB	_	0	root	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	24	punct	_	_
 
 # sent_id = train-s3084
-# text = é uma frase do poeta Iuri Kuznetsov, também um dos poetas russos fundamentais -- ele morreu alguns anos atrás, ainda jovem, mas um pedaço da poesia que escreveu está virando um clássico, por isso é bom lembrá - lo, mesmo que com uma citação isolada.
+# text = é uma frase do poeta Iuri Kuznetsov, também um dos poetas russos fundamentais -- ele morreu alguns anos atrás, ainda jovem, mas um pedaço da poesia que escreveu está virando um clássico, por isso é bom lembrá-lo, mesmo que com uma citação isolada.
 1	é	ser	AUX	AUX	_	3	cop	_	_
 2	uma	um	DET	DET	_	3	det	_	_
 3	frase	frase	NOUN	NOUN	_	0	root	_	_
@@ -271,17 +271,17 @@
 41	isso	_	PRON	PRON	_	42	nmod	_	_
 42	é	ser	VERB	VERB	_	38	conj	_	_
 43	bom	bom	ADJ	ADJ	_	42	xcomp	_	_
+44-45	lembrá-lo	_	_	_	_	_	_	_	SpaceAfter=No
 44	lembrá	lembrar	VERB	VERB	_	42	csubj	_	_
-45	-	-	PUNCT	.	_	44	punct	_	_
-46	lo	_	PRON	PRON	_	44	obj	_	SpaceAfter=No
-47	,	,	PUNCT	.	_	48	punct	_	_
-48	mesmo	mesmo	ADV	ADV	_	44	nmod	_	_
-49	que	_	ADP	ADP	_	48	fixed	_	_
-50	com	com	ADP	ADP	_	52	case	_	_
-51	uma	um	DET	DET	_	52	det	_	_
-52	citação	citação	NOUN	NOUN	_	48	nmod	_	_
-53	isolada	isolado	ADJ	ADJ	_	52	amod	_	SpaceAfter=No
-54	.	.	PUNCT	.	_	3	punct	_	_
+45	lo	_	PRON	PRON	_	44	obj	_	_
+46	,	,	PUNCT	.	_	47	punct	_	_
+47	mesmo	mesmo	ADV	ADV	_	44	nmod	_	_
+48	que	_	ADP	ADP	_	47	fixed	_	_
+49	com	com	ADP	ADP	_	51	case	_	_
+50	uma	um	DET	DET	_	51	det	_	_
+51	citação	citação	NOUN	NOUN	_	47	nmod	_	_
+52	isolada	isolado	ADJ	ADJ	_	51	amod	_	SpaceAfter=No
+53	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s3085
 # text = Já a moradora Elen Fabricio da Costa perdeu tudo no incêndio.
