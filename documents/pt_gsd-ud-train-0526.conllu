@@ -135,38 +135,38 @@
 25	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = train-s5225
-# text = Depois que Jurandir arranjou um emprego de faz - tudo, ele decidiu cobrar pelos consertos que fazia de graça para a namorada, Veruska.
+# text = Depois que Jurandir arranjou um emprego de faz-tudo, ele decidiu cobrar pelos consertos que fazia de graça para a namorada, Veruska.
 1	Depois	depois	ADV	ADV	_	4	mark	_	_
 2	que	_	CCONJ	CONJ	_	1	fixed	_	_
 3	Jurandir	_	PROPN	PNOUN	_	4	nsubj	_	_
-4	arranjou	arranjar	VERB	VERB	_	13	advcl	_	_
+4	arranjou	arranjar	VERB	VERB	_	12	advcl	_	_
 5	um	um	DET	DET	_	6	det	_	_
 6	emprego	emprego	NOUN	NOUN	_	4	obj	_	_
 7	de	_	ADP	ADP	_	8	mark	_	_
+8-9	faz-tudo	_	_	_	_	_	_	_	SpaceAfter=No
 8	faz	fazer	VERB	VERB	_	6	nmod	_	_
-9	-	-	PUNCT	.	_	8	punct	_	_
-10	tudo	_	PRON	PRON	_	8	obj	_	SpaceAfter=No
-11	,	,	PUNCT	.	_	4	punct	_	_
-12	ele	_	PRON	PRON	_	13	nsubj	_	_
-13	decidiu	decidir	VERB	VERB	_	0	root	_	_
-14	cobrar	cobrar	VERB	VERB	_	13	xcomp	_	_
-15-16	pelos	_	_	_	_	_	_	_	_
-15	por	por	ADP	ADP	_	17	case	_	_
-16	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
-17	consertos	conserto	NOUN	NOUN	_	14	nmod	_	_
-18	que	_	PRON	PRON	_	19	obj	_	_
-19	fazia	fazer	VERB	VERB	_	17	acl:relcl	_	_
-20	de	de	ADP	ADP	_	21	case	_	_
-21	graça	graça	NOUN	NOUN	_	19	nmod	_	_
-22	para	para	ADP	ADP	_	24	case	_	_
-23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-24	namorada	_	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
-25	,	,	PUNCT	.	_	26	punct	_	_
-26	Veruska	_	PROPN	PNOUN	_	24	appos	_	SpaceAfter=No
-27	.	.	PUNCT	.	_	13	punct	_	_
+9	tudo	_	PRON	PRON	_	8	obj	_	_
+10	,	,	PUNCT	.	_	4	punct	_	_
+11	ele	_	PRON	PRON	_	12	nsubj	_	_
+12	decidiu	decidir	VERB	VERB	_	0	root	_	_
+13	cobrar	cobrar	VERB	VERB	_	12	xcomp	_	_
+14-15	pelos	_	_	_	_	_	_	_	_
+14	por	por	ADP	ADP	_	16	case	_	_
+15	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	consertos	conserto	NOUN	NOUN	_	13	nmod	_	_
+17	que	_	PRON	PRON	_	18	obj	_	_
+18	fazia	fazer	VERB	VERB	_	16	acl:relcl	_	_
+19	de	de	ADP	ADP	_	20	case	_	_
+20	graça	graça	NOUN	NOUN	_	18	nmod	_	_
+21	para	para	ADP	ADP	_	23	case	_	_
+22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	namorada	_	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	.	_	25	punct	_	_
+25	Veruska	_	PROPN	PNOUN	_	23	appos	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = train-s5226
-# text = Gilberto Tavares da Silva e o policial militar Sérgio Henrique dos Santos, que fazia a segurança particular do contraventor, foram mortos com tiros de pistola calibre 380 em frente à sede do jogo - do - bicho de propriedade de Gilberto, no Alecrim.
+# text = Gilberto Tavares da Silva e o policial militar Sérgio Henrique dos Santos, que fazia a segurança particular do contraventor, foram mortos com tiros de pistola calibre 380 em frente à sede do jogo-do-bicho de propriedade de Gilberto, no Alecrim.
 1	Gilberto	_	PROPN	PNOUN	_	26	nsubj:pass	_	_
 2	Tavares	_	PROPN	PNOUN	_	1	flat	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -211,23 +211,21 @@
 38-39	do	_	_	_	_	_	_	_	_
 38	de	de	ADP	ADP	_	40	case	_	_
 39	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40-43	jogo-do-bicho	_	_	_	_	_	_	_	_
 40	jogo	jogo	NOUN	NOUN	_	37	nmod	_	_
-41	-	-	PUNCT	.	_	40	punct	_	_
-42-43	do	_	_	_	_	_	_	_	_
-42	de	de	ADP	ADP	_	45	case	_	_
-43	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
-44	-	-	PUNCT	.	_	45	punct	_	_
-45	bicho	bicho	NOUN	NOUN	_	40	nmod	_	_
+41	de	de	ADP	ADP	_	43	case	_	_
+42	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	bicho	bicho	NOUN	NOUN	_	40	nmod	_	_
+44	de	de	ADP	ADP	_	45	case	_	_
+45	propriedade	propriedade	NOUN	NOUN	_	37	nmod	_	_
 46	de	de	ADP	ADP	_	47	case	_	_
-47	propriedade	propriedade	NOUN	NOUN	_	37	nmod	_	_
-48	de	de	ADP	ADP	_	49	case	_	_
-49	Gilberto	_	PROPN	PNOUN	_	47	nmod	_	SpaceAfter=No
-50	,	,	PUNCT	.	_	53	punct	_	_
-51-52	no	_	_	_	_	_	_	_	_
-51	em	em	ADP	ADP	_	53	case	_	_
-52	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
-53	Alecrim	_	PROPN	PNOUN	_	37	nmod	_	SpaceAfter=No
-54	.	.	PUNCT	.	_	26	punct	_	_
+47	Gilberto	_	PROPN	PNOUN	_	45	nmod	_	SpaceAfter=No
+48	,	,	PUNCT	.	_	51	punct	_	_
+49-50	no	_	_	_	_	_	_	_	_
+49	em	em	ADP	ADP	_	51	case	_	_
+50	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	Alecrim	_	PROPN	PNOUN	_	37	nmod	_	SpaceAfter=No
+52	.	.	PUNCT	.	_	26	punct	_	_
 
 # sent_id = train-s5227
 # text = A expectativa do Chefe da Unidade em Niterói, Delegado de Polícia Federal Hylton Coelho, é de triplicar o número de emissão de passaportes, atualmente cerca de 100 por dia, no novo espaço, que terá link exclusivo de acesso à internet.
@@ -358,40 +356,39 @@
 65	.	.	PUNCT	.	_	39	punct	_	_
 
 # sent_id = train-s5229
-# text = Mais de 6,2 mil contribuintes sul - mato - grossenses terão direito a R $ 11,1 milhões em restituições que serão depositadas no dia 16 pela Receita Federal.
+# text = Mais de 6,2 mil contribuintes sul-mato-grossenses terão direito a R $ 11,1 milhões em restituições que serão depositadas no dia 16 pela Receita Federal.
 1	Mais	mais	ADV	ADV	_	4	advmod	_	_
 2	de	de	ADP	ADP	_	1	case	_	_
 3	6,2	6,2	NUM	NUM	NumType=Card	4	nummod	_	_
 4	mil	_	NUM	NUM	NumType=Card	5	nummod	_	_
-5	contribuintes	contribuinte	NOUN	NOUN	_	11	nsubj	_	_
-6	sul	sul	ADJ	ADJ	_	10	amod	_	_
-7	-	-	PUNCT	.	_	10	punct	_	_
-8	mato	_	ADJ	ADJ	_	10	amod	_	_
-9	-	-	PUNCT	.	_	10	punct	_	_
-10	grossenses	grossense	ADJ	ADJ	_	5	amod	_	_
-11	terão	ter	VERB	VERB	_	0	root	_	_
-12	direito	direito	NOUN	NOUN	_	11	obj	_	_
-13	a	_	ADP	ADP	_	14	case	_	_
-14	R	r	NOUN	NOUN	_	12	nmod	_	_
-15	$	_	SYM	SYM	_	14	flat	_	_
-16	11,1	11,1	NUM	NUM	NumType=Card	17	nummod	_	_
-17	milhões	_	NUM	NUM	NumType=Card	14	nummod	_	_
-18	em	em	ADP	ADP	_	19	case	_	_
-19	restituições	restituição	NOUN	NOUN	_	11	nmod	_	_
-20	que	_	PRON	PRON	_	22	nsubj:pass	_	_
-21	serão	ser	AUX	AUX	_	22	aux:pass	_	_
-22	depositadas	depositar	VERB	VERB	_	19	acl:relcl	_	_
-23-24	no	_	_	_	_	_	_	_	_
-23	em	em	ADP	ADP	_	25	case	_	_
-24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	dia	dia	NOUN	NOUN	_	22	nmod	_	_
-26	16	16	NUM	NUM	NumType=Card	25	nmod	_	_
-27-28	pela	_	_	_	_	_	_	_	_
-27	por	por	ADP	ADP	_	29	case	_	_
-28	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-29	Receita	_	PROPN	PNOUN	_	22	nmod	_	_
-30	Federal	_	PROPN	PNOUN	_	29	amod	_	SpaceAfter=No
-31	.	.	PUNCT	.	_	11	punct	_	_
+5	contribuintes	contribuinte	NOUN	NOUN	_	9	nsubj	_	_
+6-8	sul-mato-grossenses	_	_	_	_	_	_	_	_
+6	sul	sul	ADJ	ADJ	_	8	amod	_	_
+7	mato	_	ADJ	ADJ	_	8	amod	_	_
+8	grossenses	grossense	ADJ	ADJ	_	5	amod	_	_
+9	terão	ter	VERB	VERB	_	0	root	_	_
+10	direito	direito	NOUN	NOUN	_	9	obj	_	_
+11	a	_	ADP	ADP	_	12	case	_	_
+12	R	r	NOUN	NOUN	_	10	nmod	_	_
+13	$	_	SYM	SYM	_	12	flat	_	_
+14	11,1	11,1	NUM	NUM	NumType=Card	15	nummod	_	_
+15	milhões	_	NUM	NUM	NumType=Card	12	nummod	_	_
+16	em	em	ADP	ADP	_	17	case	_	_
+17	restituições	restituição	NOUN	NOUN	_	9	nmod	_	_
+18	que	_	PRON	PRON	_	20	nsubj:pass	_	_
+19	serão	ser	AUX	AUX	_	20	aux:pass	_	_
+20	depositadas	depositar	VERB	VERB	_	17	acl:relcl	_	_
+21-22	no	_	_	_	_	_	_	_	_
+21	em	em	ADP	ADP	_	23	case	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	dia	dia	NOUN	NOUN	_	20	nmod	_	_
+24	16	16	NUM	NUM	NumType=Card	23	nmod	_	_
+25-26	pela	_	_	_	_	_	_	_	_
+25	por	por	ADP	ADP	_	27	case	_	_
+26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	Receita	_	PROPN	PNOUN	_	20	nmod	_	_
+28	Federal	_	PROPN	PNOUN	_	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s5230
 # text = 12h40 -- Acho que ele vai descer e ele está em dois.

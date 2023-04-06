@@ -16,9 +16,9 @@
 12	de	de	ADP	ADP	_	14	case	_	_
 13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	Corredor	corredor	NOUN	NOUN	_	5	nmod	_	_
-15	Leste	_	PROPN	PNOUN	_	14	flat	_	_
-16	-	-	PUNCT	.	_	14	punct	_	_
-17	Oeste	_	PROPN	PNOUN	_	14	flat	_	_
+15	Leste	_	PROPN	PNOUN	_	14	flat	_	ToDo=NonCatenaCompound
+16	-	-	PUNCT	.	_	14	punct	_	ToDo=NonCatenaCompound
+17	Oeste	_	PROPN	PNOUN	_	14	flat	_	ToDo=NonCatenaCompound
 18	já	já	ADV	ADV	_	20	advmod	_	_
 19	está	estar	AUX	AUX	_	20	aux	_	_
 20	deixando	deixar	VERB	VERB	_	0	root	_	_
@@ -125,11 +125,11 @@
 25	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s9491
-# text = "É um elenco forte, com jogadores que já atuaram pelas séries A e B do Campeonato Brasileiro e até no exterior, além de jogador que já passou pela seleção sub - 20 (se referindo a Tiago Marabá)", disse.
+# text = "É um elenco forte, com jogadores que já atuaram pelas séries A e B do Campeonato Brasileiro e até no exterior, além de jogador que já passou pela seleção sub-20 (se referindo a Tiago Marabá)", disse.
 1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
 2	É	ser	AUX	AUX	_	4	cop	_	_
 3	um	um	DET	DET	_	4	det	_	_
-4	elenco	elenco	NOUN	NOUN	_	49	ccomp	_	_
+4	elenco	elenco	NOUN	NOUN	_	48	ccomp	_	_
 5	forte	forte	ADJ	ADJ	_	4	amod	_	SpaceAfter=No
 6	,	,	PUNCT	.	_	8	punct	_	_
 7	com	com	ADP	ADP	_	8	case	_	_
@@ -166,20 +166,20 @@
 34	por	por	ADP	ADP	_	36	case	_	_
 35	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 36	seleção	seleção	NOUN	NOUN	_	33	nmod	_	_
-37	sub	_	ADP	ADP	_	39	case	_	_
-38	-	-	PUNCT	.	_	39	punct	_	_
-39	20	20	NUM	NUM	NumType=Card	36	nmod	_	_
-40	(	(	PUNCT	.	_	42	punct	_	SpaceAfter=No
-41	se	_	PRON	PRON	_	42	expl:pv	_	_
-42	referindo	referir	VERB	VERB	_	33	parataxis	_	_
-43	a	_	ADP	ADP	_	44	case	_	_
-44	Tiago	_	PROPN	PNOUN	_	42	nmod	_	_
-45	Marabá	_	PROPN	PNOUN	_	44	flat	_	SpaceAfter=No
-46	)	)	PUNCT	.	_	42	punct	_	SpaceAfter=No
-47	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
-48	,	,	PUNCT	.	_	49	punct	_	_
-49	disse	dizer	VERB	VERB	_	0	root	_	SpaceAfter=No
-50	.	.	PUNCT	.	_	49	punct	_	_
+37-38	sub-20	_	_	_	_	_	_	_	_
+37	sub	_	ADP	ADP	_	38	case	_	_
+38	20	20	NUM	NUM	NumType=Card	36	nmod	_	_
+39	(	(	PUNCT	.	_	41	punct	_	SpaceAfter=No
+40	se	_	PRON	PRON	_	41	expl:pv	_	_
+41	referindo	referir	VERB	VERB	_	33	parataxis	_	_
+42	a	_	ADP	ADP	_	43	case	_	_
+43	Tiago	_	PROPN	PNOUN	_	41	nmod	_	_
+44	Marabá	_	PROPN	PNOUN	_	43	flat	_	SpaceAfter=No
+45	)	)	PUNCT	.	_	41	punct	_	SpaceAfter=No
+46	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
+47	,	,	PUNCT	.	_	48	punct	_	_
+48	disse	dizer	VERB	VERB	_	0	root	_	SpaceAfter=No
+49	.	.	PUNCT	.	_	48	punct	_	_
 
 # sent_id = train-s9492
 # text = Segundo a assessoria de comunicação da Câmara de São Paulo, existe apenas um contrato de locação de veículos no valor fixo de R $ 2.331 para cada parlamentar.

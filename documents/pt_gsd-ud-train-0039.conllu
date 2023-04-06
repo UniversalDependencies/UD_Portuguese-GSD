@@ -35,7 +35,7 @@
 11	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s383
-# text = Ela foi criada num bairro irlandês - americano, na zona sul de Indianápolis.
+# text = Ela foi criada num bairro irlandês-americano, na zona sul de Indianápolis.
 1	Ela	_	PRON	PRON	_	3	nsubj:pass	_	_
 2	foi	_	AUX	AUX	_	3	aux:pass	_	_
 3	criada	criar	VERB	VERB	_	0	root	_	_
@@ -43,18 +43,18 @@
 4	em	em	ADP	ADP	_	6	case	_	_
 5	um	um	DET	DET	_	6	det	_	_
 6	bairro	bairro	NOUN	NOUN	_	3	nmod	_	_
-7	irlandês	irlandês	ADJ	ADJ	_	9	amod	_	_
-8	-	-	PUNCT	.	_	9	punct	_	_
-9	americano	americano	ADJ	ADJ	_	6	amod	_	SpaceAfter=No
-10	,	,	PUNCT	.	_	13	punct	_	_
-11-12	na	_	_	_	_	_	_	_	_
-11	em	em	ADP	ADP	_	13	case	_	_
-12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	zona	zona	NOUN	NOUN	_	3	nmod	_	_
-14	sul	sul	ADJ	ADJ	_	13	amod	_	_
-15	de	de	ADP	ADP	_	16	case	_	_
-16	Indianápolis	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
-17	.	.	PUNCT	.	_	3	punct	_	_
+7-8	irlandês-americano	_	_	_	_	_	_	_	SpaceAfter=No
+7	irlandês	irlandês	ADJ	ADJ	_	8	amod	_	_
+8	americano	americano	ADJ	ADJ	_	6	amod	_	_
+9	,	,	PUNCT	.	_	12	punct	_	_
+10-11	na	_	_	_	_	_	_	_	_
+10	em	em	ADP	ADP	_	12	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	zona	zona	NOUN	NOUN	_	3	nmod	_	_
+13	sul	sul	ADJ	ADJ	_	12	amod	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
+15	Indianápolis	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s384
 # text = Hollande ressaltou que, desde sua posse no último dia 15 de maio, após vencer seu antecessor, o conservador Nicolas Sarkozy, "foram cumpridos muitos compromissos" que assumiu durante a campanha eleitoral, e mencionou especialmente os relacionados com "o restabelecimento das contas públicas".
@@ -230,7 +230,7 @@
 24	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s389
-# text = Apresentado em Doha com pompas de grande astro e principal reforço do PSG para 2013, o brasileiro Lucas, que inclusive já fez sua estreia pelo novo clube na vitória de 5 a 1 diante do Lekhwiya, do Catar, recebeu as boas vindas especiais da ex - atriz pornô Virginie Caprice.
+# text = Apresentado em Doha com pompas de grande astro e principal reforço do PSG para 2013, o brasileiro Lucas, que inclusive já fez sua estreia pelo novo clube na vitória de 5 a 1 diante do Lekhwiya, do Catar, recebeu as boas vindas especiais da ex-atriz pornô Virginie Caprice.
 1	Apresentado	apresentar	VERB	VERB	_	19	acl	_	_
 2	em	em	ADP	ADP	_	3	case	_	_
 3	Doha	_	PROPN	PNOUN	_	1	nmod	_	_
@@ -291,16 +291,16 @@
 53-54	da	_	_	_	_	_	_	_	_
 53	de	de	ADP	ADP	_	55	case	_	_
 54	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
+55-56	ex-atriz	_	_	_	_	_	_	_	_
 55	ex	_	PART	PRT	_	51	nmod	_	_
-56	-	-	PUNCT	.	_	55	punct	_	_
-57	atriz	_	NOUN	NOUN	_	55	flat	_	_
-58	pornô	pornô	ADJ	ADJ	_	55	amod	_	_
-59	Virginie	_	PROPN	PNOUN	_	55	appos	_	_
-60	Caprice	_	PROPN	PNOUN	_	59	flat	_	SpaceAfter=No
-61	.	.	PUNCT	.	_	48	punct	_	_
+56	atriz	_	NOUN	NOUN	_	55	flat	_	_
+57	pornô	pornô	ADJ	ADJ	_	55	amod	_	_
+58	Virginie	_	PROPN	PNOUN	_	55	appos	_	_
+59	Caprice	_	PROPN	PNOUN	_	58	flat	_	SpaceAfter=No
+60	.	.	PUNCT	.	_	48	punct	_	_
 
 # sent_id = train-s390
-# text = "Desde o primeiro dia de meu governo cumpri a obrigação constitucional de buscar a paz", lembrou na segunda - feira o mandatário.
+# text = "Desde o primeiro dia de meu governo cumpri a obrigação constitucional de buscar a paz", lembrou na segunda-feira o mandatário.
 1	"	"	PUNCT	.	_	9	punct	_	SpaceAfter=No
 2	Desde	_	ADP	ADP	_	5	case	_	_
 3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -321,12 +321,12 @@
 18	,	,	PUNCT	.	_	19	punct	_	_
 19	lembrou	lembrar	VERB	VERB	_	0	root	_	_
 20-21	na	_	_	_	_	_	_	_	_
-20	em	em	ADP	ADP	_	24	case	_	_
-21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-22	segunda	_	PROPN	PNOUN	_	24	amod	_	_
-23	-	-	PUNCT	.	_	24	punct	_	_
-24	feira	_	PROPN	PNOUN	_	19	nmod	_	_
-25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	mandatário	mandatário	NOUN	NOUN	_	19	nsubj	_	SpaceAfter=No
-27	.	.	PUNCT	.	_	19	punct	_	_
+20	em	em	ADP	ADP	_	23	case	_	_
+21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22-23	segunda-feira	_	_	_	_	_	_	_	_
+22	segunda	_	PROPN	PNOUN	_	23	amod	_	_
+23	feira	_	PROPN	PNOUN	_	19	nmod	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	mandatário	mandatário	NOUN	NOUN	_	19	nsubj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	19	punct	_	_
 

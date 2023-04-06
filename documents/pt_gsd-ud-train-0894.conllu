@@ -1,5 +1,5 @@
 # sent_id = train-s8870
-# text = O general Dwight David Eisenhower não tinha a opinião de Montgomery e achava o avanço demasiado lento e as perdas humanas demasiado importantes: 34700 perdas canado - britânicas, com 6010 mortos, e 62028 perdas americanas, com 10641 mortos.
+# text = O general Dwight David Eisenhower não tinha a opinião de Montgomery e achava o avanço demasiado lento e as perdas humanas demasiado importantes: 34700 perdas canado-britânicas, com 6010 mortos, e 62028 perdas americanas, com 10641 mortos.
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	general	general	NOUN	NOUN	_	7	nsubj	_	_
 3	Dwight	_	PROPN	PNOUN	_	2	appos	_	_
@@ -26,23 +26,23 @@
 24	:	:	PUNCT	.	_	20	punct	_	_
 25	34700	34700	NUM	NUM	NumType=Card	26	nummod	_	_
 26	perdas	perda	NOUN	NOUN	_	20	appos	_	_
-27	canado	_	ADJ	ADJ	_	29	amod	_	_
-28	-	-	PUNCT	.	_	29	punct	_	_
-29	britânicas	britânico	ADJ	ADJ	_	26	amod	_	SpaceAfter=No
-30	,	,	PUNCT	.	_	33	punct	_	_
-31	com	com	ADP	ADP	_	33	case	_	_
-32	6010	6010	NUM	NUM	NumType=Card	33	nummod	_	_
-33	mortos	morto	NOUN	NOUN	_	26	nmod	_	SpaceAfter=No
-34	,	,	PUNCT	.	_	33	punct	_	_
-35	e	e	CCONJ	CONJ	_	37	cc	_	_
-36	62028	62028	NUM	NUM	NumType=Card	37	nummod	_	_
-37	perdas	perda	NOUN	NOUN	_	26	conj	_	_
-38	americanas	americano	ADJ	ADJ	_	37	amod	_	SpaceAfter=No
-39	,	,	PUNCT	.	_	42	punct	_	_
-40	com	com	ADP	ADP	_	42	case	_	_
-41	10641	10641	NUM	NUM	NumType=Card	42	nummod	_	_
-42	mortos	morto	NOUN	NOUN	_	37	nmod	_	SpaceAfter=No
-43	.	.	PUNCT	.	_	7	punct	_	_
+27-28	canado-britânicas	_	_	_	_	_	_	_	SpaceAfter=No
+27	canado	_	ADJ	ADJ	_	28	amod	_	_
+28	britânicas	britânico	ADJ	ADJ	_	26	amod	_	_
+29	,	,	PUNCT	.	_	32	punct	_	_
+30	com	com	ADP	ADP	_	32	case	_	_
+31	6010	6010	NUM	NUM	NumType=Card	32	nummod	_	_
+32	mortos	morto	NOUN	NOUN	_	26	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	.	_	32	punct	_	_
+34	e	e	CCONJ	CONJ	_	36	cc	_	_
+35	62028	62028	NUM	NUM	NumType=Card	36	nummod	_	_
+36	perdas	perda	NOUN	NOUN	_	26	conj	_	_
+37	americanas	americano	ADJ	ADJ	_	36	amod	_	SpaceAfter=No
+38	,	,	PUNCT	.	_	41	punct	_	_
+39	com	com	ADP	ADP	_	41	case	_	_
+40	10641	10641	NUM	NUM	NumType=Card	41	nummod	_	_
+41	mortos	morto	NOUN	NOUN	_	36	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s8871
 # text = Venetianer conta que, por pouco, escapou do destino reservado a vários de seus familiares.
@@ -169,22 +169,22 @@
 20	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s8875a
-# text = Quarta - feira, 31 / 10 -- variação entre 21 e 34 º C.
-1	Quarta	_	PROPN	PNOUN	_	3	amod	_	_
-2	-	-	PUNCT	.	_	3	punct	_	_
-3	feira	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
-4	,	,	PUNCT	.	_	5	punct	_	_
-5	31	31	NUM	NUM	NumType=Card	3	nmod	_	_
-6	/	/	PUNCT	.	_	5	punct	_	_
-7	10	10	NUM	NUM	NumType=Card	5	nmod	_	_
-8	--	_	PUNCT	.	_	3	punct	_	_
-9	variação	variação	NOUN	NOUN	_	0	root	_	_
-10	entre	_	ADP	ADP	_	14	case	_	_
-11	21	21	NUM	NUM	NumType=Card	14	nummod	_	_
-12	e	e	CCONJ	CONJ	_	13	cc	_	_
-13	34	34	NUM	NUM	NumType=Card	11	conj	_	_
-14	º	_	NOUN	NOUN	_	9	nmod	_	_
-15	C.	_	NOUN	NOUN	_	14	flat	_	_
+# text = Quarta-feira, 31 / 10 -- variação entre 21 e 34 º C.
+1-2	Quarta-feira	_	_	_	_	_	_	_	SpaceAfter=No
+1	Quarta	_	PROPN	PNOUN	_	2	amod	_	_
+2	feira	_	PROPN	PNOUN	_	8	nmod	_	_
+3	,	,	PUNCT	.	_	4	punct	_	_
+4	31	31	NUM	NUM	NumType=Card	2	nmod	_	_
+5	/	/	PUNCT	.	_	4	punct	_	_
+6	10	10	NUM	NUM	NumType=Card	4	nmod	_	_
+7	--	_	PUNCT	.	_	2	punct	_	_
+8	variação	variação	NOUN	NOUN	_	0	root	_	_
+9	entre	_	ADP	ADP	_	13	case	_	_
+10	21	21	NUM	NUM	NumType=Card	13	nummod	_	_
+11	e	e	CCONJ	CONJ	_	12	cc	_	_
+12	34	34	NUM	NUM	NumType=Card	10	conj	_	_
+13	º	_	NOUN	NOUN	_	8	nmod	_	_
+14	C.	_	NOUN	NOUN	_	13	flat	_	_
 
 # sent_id = train-s8875b
 # text = Sol e aumento de nuvens de manhã.
@@ -231,7 +231,7 @@
 27	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s8877
-# text = 225, CF, caput: Todos tem direito ao meio ambiente ecologicamente equilibrado, bem de uso comum do povo e essencial à sadia qualidade de vida, impondo-se ao poder público e à coletividade o dever de defendê - lo e preservá - lo para as presentes e futuras gerações."
+# text = 225, CF, caput: Todos tem direito ao meio ambiente ecologicamente equilibrado, bem de uso comum do povo e essencial à sadia qualidade de vida, impondo-se ao poder público e à coletividade o dever de defendê - lo e preservá-lo para as presentes e futuras gerações."
 1	225	225	NUM	NUM	NumType=Card	8	parataxis	_	SpaceAfter=No
 2	,	,	PUNCT	.	_	3	punct	_	_
 3	CF	_	PROPN	PNOUN	_	1	appos	_	SpaceAfter=No
@@ -283,21 +283,21 @@
 43	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
 44	dever	dever	NOUN	NOUN	_	33	nsubj	_	_
 45	de	_	ADP	ADP	_	46	mark	_	_
-46	defendê	defender	VERB	VERB	_	44	nmod	_	_
-47	-	-	PUNCT	.	_	50	punct	_	_
+46	defendê	defender	VERB	VERB	_	44	nmod	_	ToDo=NonCatenaCompound
+47	-	-	PUNCT	.	_	50	punct	_	ToDo=NonCatenaCompound
 48	lo	_	PRON	PRON	_	46	obj	_	_
 49	e	e	CCONJ	CONJ	_	50	cc	_	_
+50-51	preservá-lo	_	_	_	_	_	_	_	_
 50	preservá	preservar	VERB	VERB	_	46	conj	_	_
-51	-	-	PUNCT	.	_	50	punct	_	_
-52	lo	_	PRON	PRON	_	50	obj	_	_
-53	para	_	ADP	ADP	_	46	nmod	_	_
-54	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	58	det	_	_
-55	presentes	presente	ADJ	ADJ	_	58	amod	_	_
-56	e	e	CCONJ	CONJ	_	55	cc	_	_
-57	futuras	futuro	ADJ	ADJ	_	55	amod	_	_
-58	gerações	geração	NOUN	NOUN	_	53	conj	_	SpaceAfter=No
-59	.	.	PUNCT	.	_	8	punct	_	SpaceAfter=No
-60	"	"	PUNCT	.	_	8	punct	_	_
+51	lo	_	PRON	PRON	_	50	obj	_	_
+52	para	_	ADP	ADP	_	46	nmod	_	_
+53	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	57	det	_	_
+54	presentes	presente	ADJ	ADJ	_	57	amod	_	_
+55	e	e	CCONJ	CONJ	_	54	cc	_	_
+56	futuras	futuro	ADJ	ADJ	_	54	amod	_	_
+57	gerações	geração	NOUN	NOUN	_	52	conj	_	SpaceAfter=No
+58	.	.	PUNCT	.	_	8	punct	_	SpaceAfter=No
+59	"	"	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s8878
 # text = Por isso, imagino que eles terão de inventar personagens e prolongar a vida doutros.

@@ -154,7 +154,7 @@
 18	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = test-s1172
-# text = Scheila Carvalho voltou à infância postou fotos em seu Twitter com fantasias de princesas e barbies nesta quarta - feira (13).
+# text = Scheila Carvalho voltou à infância postou fotos em seu Twitter com fantasias de princesas e barbies nesta quarta-feira (13).
 1	Scheila	_	PROPN	PNOUN	_	3	nsubj	_	_
 2	Carvalho	_	PROPN	PNOUN	_	1	flat	_	_
 3	voltou	voltar	VERB	VERB	_	0	root	_	_
@@ -173,44 +173,44 @@
 15	princesas	_	NOUN	NOUN	_	13	nmod	_	_
 16	e	e	CCONJ	CONJ	_	17	cc	_	_
 17	barbies	_	NOUN	NOUN	_	15	conj	_	_
-18	nesta	_	ADP	ADP	_	21	case	_	_
-19	quarta	_	PROPN	PNOUN	_	21	amod	_	_
-20	-	-	PUNCT	.	_	21	punct	_	_
-21	feira	_	PROPN	PNOUN	_	7	nmod	_	_
-22	(	(	PUNCT	.	_	23	punct	_	SpaceAfter=No
-23	13	13	NUM	NUM	NumType=Card	21	nmod	_	SpaceAfter=No
-24	)	)	PUNCT	.	_	23	punct	_	SpaceAfter=No
-25	.	.	PUNCT	.	_	3	punct	_	_
+18	nesta	_	ADP	ADP	_	20	case	_	_
+19-20	quarta-feira	_	_	_	_	_	_	_	_
+19	quarta	_	PROPN	PNOUN	_	20	amod	_	_
+20	feira	_	PROPN	PNOUN	_	7	nmod	_	_
+21	(	(	PUNCT	.	_	22	punct	_	SpaceAfter=No
+22	13	13	NUM	NUM	NumType=Card	20	nmod	_	SpaceAfter=No
+23	)	)	PUNCT	.	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = test-s1173
-# text = Ex - casal, Edson e Claudia chegaram separados, mas sentaram lado a lado no teatro para aplaudir Sophia, de 9 anos.
-1	Ex	_	PART	PRT	_	8	nsubj	_	_
-2	-	-	PUNCT	.	_	1	punct	_	_
-3	casal	casal	NOUN	NOUN	_	1	flat	_	SpaceAfter=No
-4	,	,	PUNCT	.	_	5	punct	_	_
-5	Edson	_	PROPN	PNOUN	_	1	appos	_	_
-6	e	e	CCONJ	CONJ	_	7	cc	_	_
-7	Claudia	_	PROPN	PNOUN	_	5	conj	_	_
-8	chegaram	chegar	VERB	VERB	_	0	root	_	_
-9	separados	separado	ADJ	ADJ	_	8	xcomp	_	SpaceAfter=No
-10	,	,	PUNCT	.	_	12	punct	_	_
-11	mas	mas	CCONJ	CONJ	_	12	cc	_	_
-12	sentaram	sentar	VERB	VERB	_	8	conj	_	_
-13	lado	lado	NOUN	NOUN	_	12	nmod	_	_
-14	a	_	ADP	ADP	_	15	case	_	_
-15	lado	lado	NOUN	NOUN	_	13	nmod	_	_
-16-17	no	_	_	_	_	_	_	_	_
-16	em	em	ADP	ADP	_	18	case	_	_
-17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	teatro	teatro	NOUN	NOUN	_	12	nmod	_	_
-19	para	_	ADP	ADP	_	20	mark	_	_
-20	aplaudir	aplaudir	VERB	VERB	_	12	advcl	_	_
-21	Sophia	_	PROPN	PNOUN	_	20	obj	_	SpaceAfter=No
-22	,	,	PUNCT	.	_	25	punct	_	_
-23	de	de	ADP	ADP	_	25	case	_	_
-24	9	9	NUM	NUM	NumType=Card	25	nummod	_	_
-25	anos	ano	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
-26	.	.	PUNCT	.	_	8	punct	_	_
+# text = Ex-casal, Edson e Claudia chegaram separados, mas sentaram lado a lado no teatro para aplaudir Sophia, de 9 anos.
+1-2	Ex-casal	_	_	_	_	_	_	_	SpaceAfter=No
+1	Ex	_	PART	PRT	_	7	nsubj	_	_
+2	casal	casal	NOUN	NOUN	_	1	flat	_	_
+3	,	,	PUNCT	.	_	4	punct	_	_
+4	Edson	_	PROPN	PNOUN	_	1	appos	_	_
+5	e	e	CCONJ	CONJ	_	6	cc	_	_
+6	Claudia	_	PROPN	PNOUN	_	4	conj	_	_
+7	chegaram	chegar	VERB	VERB	_	0	root	_	_
+8	separados	separado	ADJ	ADJ	_	7	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	11	punct	_	_
+10	mas	mas	CCONJ	CONJ	_	11	cc	_	_
+11	sentaram	sentar	VERB	VERB	_	7	conj	_	_
+12	lado	lado	NOUN	NOUN	_	11	nmod	_	_
+13	a	_	ADP	ADP	_	14	case	_	_
+14	lado	lado	NOUN	NOUN	_	12	nmod	_	_
+15-16	no	_	_	_	_	_	_	_	_
+15	em	em	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	teatro	teatro	NOUN	NOUN	_	11	nmod	_	_
+18	para	_	ADP	ADP	_	19	mark	_	_
+19	aplaudir	aplaudir	VERB	VERB	_	11	advcl	_	_
+20	Sophia	_	PROPN	PNOUN	_	19	obj	_	SpaceAfter=No
+21	,	,	PUNCT	.	_	24	punct	_	_
+22	de	de	ADP	ADP	_	24	case	_	_
+23	9	9	NUM	NUM	NumType=Card	24	nummod	_	_
+24	anos	ano	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = test-s1174
 # text = Atuar como visitante é mais duro nas partidas das Eliminatórias.

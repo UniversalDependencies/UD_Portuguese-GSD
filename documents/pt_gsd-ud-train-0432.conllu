@@ -187,9 +187,9 @@
 31	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s4293
-# text = O Sindicato das Agências de Propaganda de São Paulo -- Sinapro - SP, lança nesta semana o concurso cultural Sinapro - SP -- Logomarca 70 anos, que irá escolher a logomarca comemorativa dos 70 anos da entidade.
+# text = O Sindicato das Agências de Propaganda de São Paulo -- Sinapro-SP, lança nesta semana o concurso cultural Sinapro-SP -- Logomarca 70 anos, que irá escolher a logomarca comemorativa dos 70 anos da entidade.
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	Sindicato	_	PROPN	PNOUN	_	16	nsubj	_	_
+2	Sindicato	_	PROPN	PNOUN	_	15	nsubj	_	_
 3-4	das	_	_	_	_	_	_	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
 4	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
@@ -200,40 +200,40 @@
 9	São	_	PROPN	PNOUN	_	2	nmod	_	_
 10	Paulo	_	PROPN	PNOUN	_	9	flat	_	_
 11	--	_	PUNCT	.	_	12	punct	_	_
+12-13	Sinapro-SP	_	_	_	_	_	_	_	SpaceAfter=No
 12	Sinapro	_	PROPN	PNOUN	_	2	appos	_	_
-13	-	-	PUNCT	.	_	12	punct	_	_
-14	SP	_	PROPN	PNOUN	_	12	flat	_	SpaceAfter=No
-15	,	,	PUNCT	.	_	12	punct	_	_
-16	lança	lançar	VERB	VERB	_	0	root	_	_
-17	nesta	_	ADP	ADP	_	18	case	_	_
-18	semana	semana	NOUN	NOUN	_	16	nmod	_	_
-19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	concurso	concurso	NOUN	NOUN	_	16	obj	_	_
-21	cultural	cultural	ADJ	ADJ	_	20	amod	_	_
-22	Sinapro	_	PROPN	PNOUN	_	20	appos	_	_
-23	-	-	PUNCT	.	_	22	punct	_	_
-24	SP	_	PROPN	PNOUN	_	22	flat	_	_
-25	--	_	PUNCT	.	_	22	punct	_	_
-26	Logomarca	_	PROPN	PNOUN	_	22	flat	_	_
-27	70	70	NUM	NUM	NumType=Card	28	nummod	_	_
-28	anos	ano	NOUN	NOUN	_	22	appos	_	SpaceAfter=No
-29	,	,	PUNCT	.	_	32	punct	_	_
-30	que	_	PRON	PRON	_	32	nsubj	_	_
-31	irá	_	AUX	AUX	_	32	aux	_	_
-32	escolher	escolher	VERB	VERB	_	20	acl:relcl	_	_
-33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
-34	logomarca	logomarca	NOUN	NOUN	_	32	obj	_	_
-35	comemorativa	comemorativo	ADJ	ADJ	_	34	amod	_	_
-36-37	dos	_	_	_	_	_	_	_	_
-36	de	de	ADP	ADP	_	39	case	_	_
-37	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
-38	70	70	NUM	NUM	NumType=Card	39	nummod	_	_
-39	anos	ano	NOUN	NOUN	_	35	nmod	_	_
-40-41	da	_	_	_	_	_	_	_	_
-40	de	de	ADP	ADP	_	42	case	_	_
-41	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
-42	entidade	entidade	NOUN	NOUN	_	39	nmod	_	SpaceAfter=No
-43	.	.	PUNCT	.	_	16	punct	_	_
+13	SP	_	PROPN	PNOUN	_	12	flat	_	_
+14	,	,	PUNCT	.	_	12	punct	_	_
+15	lança	lançar	VERB	VERB	_	0	root	_	_
+16	nesta	_	ADP	ADP	_	17	case	_	_
+17	semana	semana	NOUN	NOUN	_	15	nmod	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	concurso	concurso	NOUN	NOUN	_	15	obj	_	_
+20	cultural	cultural	ADJ	ADJ	_	19	amod	_	_
+21-22	Sinapro-SP	_	_	_	_	_	_	_	_
+21	Sinapro	_	PROPN	PNOUN	_	19	appos	_	_
+22	SP	_	PROPN	PNOUN	_	21	flat	_	_
+23	--	_	PUNCT	.	_	21	punct	_	_
+24	Logomarca	_	PROPN	PNOUN	_	21	flat	_	_
+25	70	70	NUM	NUM	NumType=Card	26	nummod	_	_
+26	anos	ano	NOUN	NOUN	_	21	appos	_	SpaceAfter=No
+27	,	,	PUNCT	.	_	30	punct	_	_
+28	que	_	PRON	PRON	_	30	nsubj	_	_
+29	irá	_	AUX	AUX	_	30	aux	_	_
+30	escolher	escolher	VERB	VERB	_	19	acl:relcl	_	_
+31	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	logomarca	logomarca	NOUN	NOUN	_	30	obj	_	_
+33	comemorativa	comemorativo	ADJ	ADJ	_	32	amod	_	_
+34-35	dos	_	_	_	_	_	_	_	_
+34	de	de	ADP	ADP	_	37	case	_	_
+35	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+36	70	70	NUM	NUM	NumType=Card	37	nummod	_	_
+37	anos	ano	NOUN	NOUN	_	33	nmod	_	_
+38-39	da	_	_	_	_	_	_	_	_
+38	de	de	ADP	ADP	_	40	case	_	_
+39	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	entidade	entidade	NOUN	NOUN	_	37	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = train-s4294
 # text = A vítima sofreu ferimentos leves e foi atendida pelo Serviço de Atendimento Móvel de Urgência (Samu).
@@ -260,11 +260,11 @@
 20	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s4295
-# text = Essas são as receitas da nossa regularidade e estamos conseguindo mantê - las rodada após rodada ", afirmou.
+# text = Essas são as receitas da nossa regularidade e estamos conseguindo mantê-las rodada após rodada ", afirmou.
 1	Essas	_	PRON	PRON	_	4	nsubj	_	_
 2	são	ser	AUX	AUX	_	4	cop	_	_
 3	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
-4	receitas	receita	NOUN	NOUN	_	20	ccomp	_	_
+4	receitas	receita	NOUN	NOUN	_	19	ccomp	_	_
 5-6	da	_	_	_	_	_	_	_	_
 5	de	de	ADP	ADP	_	8	case	_	_
 6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -273,14 +273,14 @@
 9	e	e	CCONJ	CONJ	_	11	cc	_	_
 10	estamos	estar	AUX	AUX	_	11	aux	_	_
 11	conseguindo	conseguir	VERB	VERB	_	4	conj	_	_
+12-13	mantê-las	_	_	_	_	_	_	_	_
 12	mantê	manter	VERB	VERB	_	11	xcomp	_	_
-13	-	-	PUNCT	.	_	12	punct	_	_
-14	las	_	PRON	PRON	_	12	obj	_	_
-15	rodada	_	NOUN	NOUN	_	12	nmod	_	_
-16	após	_	ADP	ADP	_	17	case	_	_
-17	rodada	_	NOUN	NOUN	_	15	nmod	_	_
-18	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	20	punct	_	_
-20	afirmou	afirmar	VERB	VERB	_	0	root	_	SpaceAfter=No
-21	.	.	PUNCT	.	_	20	punct	_	_
+13	las	_	PRON	PRON	_	12	obj	_	_
+14	rodada	_	NOUN	NOUN	_	12	nmod	_	_
+15	após	_	ADP	ADP	_	16	case	_	_
+16	rodada	_	NOUN	NOUN	_	14	nmod	_	_
+17	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
+18	,	,	PUNCT	.	_	19	punct	_	_
+19	afirmou	afirmar	VERB	VERB	_	0	root	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	19	punct	_	_
 

@@ -98,7 +98,7 @@
 25	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = test-s1109
-# text = O Corpo de Bombeiros foi informado sobre o incêndio na residência à Rua das Andorinhas, no Conjunto Floresta por volta da 0h30 desta terça - feira (1 º).
+# text = O Corpo de Bombeiros foi informado sobre o incêndio na residência à Rua das Andorinhas, no Conjunto Floresta por volta da 0h30 desta terça-feira (1 º).
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Corpo	_	PROPN	PNOUN	_	6	nsubj:pass	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
@@ -132,15 +132,15 @@
 26	de	de	ADP	ADP	_	28	case	_	_
 27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	0h30	_	NUM	NUM	NumType=Card	25	nmod	_	_
-29	desta	_	ADP	ADP	_	32	case	_	_
-30	terça	_	PROPN	PNOUN	_	32	amod	_	_
-31	-	-	PUNCT	.	_	32	punct	_	_
-32	feira	_	PROPN	PNOUN	_	28	nmod	_	_
-33	(	(	PUNCT	.	_	34	punct	_	SpaceAfter=No
-34	1	1	NUM	NUM	NumType=Card	32	nmod	_	_
-35	º	_	PUNCT	.	_	34	punct	_	SpaceAfter=No
-36	)	)	PUNCT	.	_	34	punct	_	SpaceAfter=No
-37	.	.	PUNCT	.	_	6	punct	_	_
+29	desta	_	ADP	ADP	_	31	case	_	_
+30-31	terça-feira	_	_	_	_	_	_	_	_
+30	terça	_	PROPN	PNOUN	_	31	amod	_	_
+31	feira	_	PROPN	PNOUN	_	28	nmod	_	_
+32	(	(	PUNCT	.	_	33	punct	_	SpaceAfter=No
+33	1	1	NUM	NUM	NumType=Card	31	nmod	_	_
+34	º	_	PUNCT	.	_	33	punct	_	SpaceAfter=No
+35	)	)	PUNCT	.	_	33	punct	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = test-s1110
 # text = Elas vão garantir a segurança alimentar das futuras gerações e estarão também no Banco de Sementes da Embrapa.
@@ -171,70 +171,70 @@
 22	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = test-s1111
-# text = O ex - presidente Luiz Inácio Lula da Silva disse nesta quinta - feira que o programa brasileiro de biodiesel não tem retorno e que a grande aposta de matéria - prima é o dendê, referindo-se à palma, hoje plantada em regiões do Pará pela Petrobras Biocombustível.
+# text = O ex-presidente Luiz Inácio Lula da Silva disse nesta quinta-feira que o programa brasileiro de biodiesel não tem retorno e que a grande aposta de matéria-prima é o dendê, referindo-se à palma, hoje plantada em regiões do Pará pela Petrobras Biocombustível.
 1	O	o	DET	DET	_	2	det	_	_
-2	ex	_	PART	PRT	_	11	nsubj	_	_
-3	-	-	PUNCT	.	_	2	punct	_	_
-4	presidente	presidente	NOUN	NOUN	_	2	flat	_	_
-5	Luiz	_	PROPN	PNOUN	_	2	appos	_	_
-6	Inácio	_	PROPN	PNOUN	_	5	flat	_	_
-7	Lula	_	PROPN	PNOUN	_	5	flat	_	_
-8-9	da	_	_	_	_	_	_	_	_
-8	de	de	ADP	ADP	_	10	case	_	_
-9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	Silva	_	PROPN	PNOUN	_	5	nmod	_	_
-11	disse	dizer	VERB	VERB	_	0	root	_	_
-12	nesta	_	ADP	ADP	_	15	case	_	_
-13	quinta	_	PROPN	PNOUN	_	15	amod	_	_
-14	-	-	PUNCT	.	_	15	punct	_	_
-15	feira	_	PROPN	PNOUN	_	11	nmod	_	_
-16	que	que	CCONJ	CONJ	_	23	mark	_	_
-17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	programa	programa	NOUN	NOUN	_	23	nsubj	_	_
-19	brasileiro	brasileiro	ADJ	ADJ	_	18	amod	_	_
-20	de	de	ADP	ADP	_	21	case	_	_
-21	biodiesel	_	NOUN	NOUN	_	18	nmod	_	_
-22	não	não	ADV	ADV	Polarity=Neg	23	advmod	_	_
-23	tem	ter	VERB	VERB	_	11	ccomp	_	_
-24	retorno	retorno	NOUN	NOUN	_	23	obj	_	_
-25	e	e	CCONJ	CONJ	_	36	cc	_	_
-26	que	que	CCONJ	CONJ	_	36	mark	_	_
-27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-28	grande	grande	ADJ	ADJ	_	29	amod	_	_
-29	aposta	aposta	NOUN	NOUN	_	36	nsubj	_	_
-30	de	de	ADP	ADP	_	31	case	_	_
-31	matéria	matéria	NOUN	NOUN	_	29	nmod	_	_
-32	-	-	PUNCT	.	_	31	punct	_	_
-33	prima	primo	ADJ	ADJ	_	31	amod	_	_
-34	é	ser	AUX	AUX	_	36	cop	_	_
-35	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
-36	dendê	dendê	NOUN	NOUN	_	23	conj	_	SpaceAfter=No
-37	,	,	PUNCT	.	_	38	punct	_	_
-38-39	referindo-se	_	_	_	_	_	_	_	_
-38	referindo	referir	VERB	VERB	_	36	acl	_	_
-39	se	_	PART	PRT	_	38	expl:pv	_	_
-40-41	à	_	_	_	_	_	_	_	_
-40	a	a	ADP	ADP	_	42	case	_	_
-41	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
-42	palma	palma	NOUN	NOUN	_	38	nmod	_	SpaceAfter=No
-43	,	,	PUNCT	.	_	45	punct	_	_
-44	hoje	hoje	ADV	ADV	_	45	advmod	_	_
-45	plantada	plantar	VERB	VERB	_	42	acl	_	_
-46	em	em	ADP	ADP	_	47	case	_	_
-47	regiões	região	NOUN	NOUN	_	45	nmod	_	_
-48-49	do	_	_	_	_	_	_	_	_
-48	de	de	ADP	ADP	_	50	case	_	_
-49	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
-50	Pará	_	PROPN	PNOUN	_	47	nmod	_	_
-51-52	pela	_	_	_	_	_	_	_	_
-51	por	por	ADP	ADP	_	53	case	_	_
-52	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
-53	Petrobras	_	PROPN	PNOUN	_	45	nmod	_	_
-54	Biocombustível	_	PROPN	PNOUN	_	53	flat	_	SpaceAfter=No
-55	.	.	PUNCT	.	_	11	punct	_	_
+2-3	ex-presidente	_	_	_	_	_	_	_	_
+2	ex	_	PART	PRT	_	10	nsubj	_	_
+3	presidente	presidente	NOUN	NOUN	_	2	flat	_	_
+4	Luiz	_	PROPN	PNOUN	_	2	appos	_	_
+5	Inácio	_	PROPN	PNOUN	_	4	flat	_	_
+6	Lula	_	PROPN	PNOUN	_	4	flat	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
+8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Silva	_	PROPN	PNOUN	_	4	nmod	_	_
+10	disse	dizer	VERB	VERB	_	0	root	_	_
+11	nesta	_	ADP	ADP	_	13	case	_	_
+12-13	quinta-feira	_	_	_	_	_	_	_	_
+12	quinta	_	PROPN	PNOUN	_	13	amod	_	_
+13	feira	_	PROPN	PNOUN	_	10	nmod	_	_
+14	que	que	CCONJ	CONJ	_	21	mark	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	programa	programa	NOUN	NOUN	_	21	nsubj	_	_
+17	brasileiro	brasileiro	ADJ	ADJ	_	16	amod	_	_
+18	de	de	ADP	ADP	_	19	case	_	_
+19	biodiesel	_	NOUN	NOUN	_	16	nmod	_	_
+20	não	não	ADV	ADV	Polarity=Neg	21	advmod	_	_
+21	tem	ter	VERB	VERB	_	10	ccomp	_	_
+22	retorno	retorno	NOUN	NOUN	_	21	obj	_	_
+23	e	e	CCONJ	CONJ	_	33	cc	_	_
+24	que	que	CCONJ	CONJ	_	33	mark	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	grande	grande	ADJ	ADJ	_	27	amod	_	_
+27	aposta	aposta	NOUN	NOUN	_	33	nsubj	_	_
+28	de	de	ADP	ADP	_	29	case	_	_
+29-30	matéria-prima	_	_	_	_	_	_	_	_
+29	matéria	matéria	NOUN	NOUN	_	27	nmod	_	_
+30	prima	primo	ADJ	ADJ	_	29	amod	_	_
+31	é	ser	AUX	AUX	_	33	cop	_	_
+32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	dendê	dendê	NOUN	NOUN	_	21	conj	_	SpaceAfter=No
+34	,	,	PUNCT	.	_	35	punct	_	_
+35-36	referindo-se	_	_	_	_	_	_	_	_
+35	referindo	referir	VERB	VERB	_	33	acl	_	_
+36	se	_	PART	PRT	_	35	expl:pv	_	_
+37-38	à	_	_	_	_	_	_	_	_
+37	a	a	ADP	ADP	_	39	case	_	_
+38	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	palma	palma	NOUN	NOUN	_	35	nmod	_	SpaceAfter=No
+40	,	,	PUNCT	.	_	42	punct	_	_
+41	hoje	hoje	ADV	ADV	_	42	advmod	_	_
+42	plantada	plantar	VERB	VERB	_	39	acl	_	_
+43	em	em	ADP	ADP	_	44	case	_	_
+44	regiões	região	NOUN	NOUN	_	42	nmod	_	_
+45-46	do	_	_	_	_	_	_	_	_
+45	de	de	ADP	ADP	_	47	case	_	_
+46	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+47	Pará	_	PROPN	PNOUN	_	44	nmod	_	_
+48-49	pela	_	_	_	_	_	_	_	_
+48	por	por	ADP	ADP	_	50	case	_	_
+49	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+50	Petrobras	_	PROPN	PNOUN	_	42	nmod	_	_
+51	Biocombustível	_	PROPN	PNOUN	_	50	flat	_	SpaceAfter=No
+52	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = test-s1112
-# text = O petista disse que a busca duma aliança com o PDT está nos seus planos desde que começou a trabalhar a pré - candidatura.
+# text = O petista disse que a busca duma aliança com o PDT está nos seus planos desde que começou a trabalhar a pré-candidatura.
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	petista	petista	NOUN	NOUN	_	3	nsubj	_	_
 3	disse	dizer	VERB	VERB	_	0	root	_	_
@@ -260,10 +260,10 @@
 21	a	_	ADP	ADP	_	22	mark	_	_
 22	trabalhar	trabalhar	VERB	VERB	_	13	advcl	_	_
 23	a	o	DET	DET	_	24	det	_	_
+24-25	pré-candidatura	_	_	_	_	_	_	_	SpaceAfter=No
 24	pré	_	PART	PRT	_	22	obj	_	_
-25	-	-	PUNCT	.	_	24	punct	_	_
-26	candidatura	candidatura	NOUN	NOUN	_	24	flat	_	SpaceAfter=No
-27	.	.	PUNCT	.	_	3	punct	_	_
+25	candidatura	candidatura	NOUN	NOUN	_	24	flat	_	_
+26	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = test-s1113
 # text = Ela discursará por cerca de dez minutos na sessão plenária da conferência e concederá entrevista coletiva.

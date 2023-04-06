@@ -106,7 +106,7 @@
 18	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s574
-# text = Na Mongólia, por exemplo, os pequenos geradores são, na maioria das vezes, a única fonte de energia dos nômades, e os cata - ventos são tão pequenos que podem ser transportados a cavalo.
+# text = Na Mongólia, por exemplo, os pequenos geradores são, na maioria das vezes, a única fonte de energia dos nômades, e os cata-ventos são tão pequenos que podem ser transportados a cavalo.
 1-2	Na	_	_	_	_	_	_	_	_
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -138,22 +138,22 @@
 25	de	de	ADP	ADP	_	27	case	_	_
 26	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
 27	nômades	nômade	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
-28	,	,	PUNCT	.	_	34	punct	_	_
-29	e	e	CCONJ	CONJ	_	34	cc	_	_
+28	,	,	PUNCT	.	_	33	punct	_	_
+29	e	e	CCONJ	CONJ	_	33	cc	_	_
 30	os	o	DET	DET	_	31	det	_	_
-31	cata	cata	NOUN	NOUN	_	34	nsubj	_	_
-32	-	-	PUNCT	.	_	31	punct	_	_
-33	ventos	vento	NOUN	NOUN	_	31	flat	_	_
-34	são	ser	VERB	VERB	_	22	conj	_	_
-35	tão	tão	ADV	ADV	_	36	advmod	_	_
-36	pequenos	pequeno	ADJ	ADJ	_	34	xcomp	_	_
-37	que	que	CCONJ	CONJ	_	40	mark	_	_
-38	podem	_	AUX	AUX	_	40	aux	_	_
-39	ser	ser	AUX	AUX	_	40	aux:pass	_	_
-40	transportados	transportar	VERB	VERB	_	34	advcl	_	_
-41	a	_	ADP	ADP	_	42	case	_	_
-42	cavalo	cavalo	NOUN	NOUN	_	40	nmod	_	SpaceAfter=No
-43	.	.	PUNCT	.	_	22	punct	_	_
+31-32	cata-ventos	_	_	_	_	_	_	_	_
+31	cata	cata	NOUN	NOUN	_	33	nsubj	_	_
+32	ventos	vento	NOUN	NOUN	_	31	flat	_	_
+33	são	ser	VERB	VERB	_	22	conj	_	_
+34	tão	tão	ADV	ADV	_	35	advmod	_	_
+35	pequenos	pequeno	ADJ	ADJ	_	33	xcomp	_	_
+36	que	que	CCONJ	CONJ	_	39	mark	_	_
+37	podem	_	AUX	AUX	_	39	aux	_	_
+38	ser	ser	AUX	AUX	_	39	aux:pass	_	_
+39	transportados	transportar	VERB	VERB	_	33	advcl	_	_
+40	a	_	ADP	ADP	_	41	case	_	_
+41	cavalo	cavalo	NOUN	NOUN	_	39	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	22	punct	_	_
 
 # sent_id = train-s575
 # text = É mais fácil consertar o erro do que punir ", disse o treinador, que ainda lembrou dum atraso duma hora do zagueiro João Filipe no dia anterior.
@@ -246,9 +246,9 @@
 14	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s579
-# text = O petista Costa, com apoio direto do ex - presidente Luiz Inácio Lula da Silva, tinha 35 % na pesquisa de julho e caiu seis pontos.
+# text = O petista Costa, com apoio direto do ex-presidente Luiz Inácio Lula da Silva, tinha 35 % na pesquisa de julho e caiu seis pontos.
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	petista	petista	NOUN	NOUN	_	20	nsubj	_	_
+2	petista	petista	NOUN	NOUN	_	19	nsubj	_	_
 3	Costa	_	PROPN	PNOUN	_	2	appos	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	6	punct	_	_
 5	com	com	ADP	ADP	_	6	case	_	_
@@ -257,31 +257,31 @@
 8-9	do	_	_	_	_	_	_	_	_
 8	de	de	ADP	ADP	_	10	case	_	_
 9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10-11	ex-presidente	_	_	_	_	_	_	_	_
 10	ex	_	PART	PRT	_	6	nmod	_	_
-11	-	-	PUNCT	.	_	10	punct	_	_
-12	presidente	presidente	NOUN	NOUN	_	10	flat	_	_
-13	Luiz	_	PROPN	PNOUN	_	10	appos	_	_
-14	Inácio	_	PROPN	PNOUN	_	13	flat	_	_
-15	Lula	_	PROPN	PNOUN	_	13	flat	_	_
-16-17	da	_	_	_	_	_	_	_	_
-16	de	de	ADP	ADP	_	18	case	_	_
-17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	Silva	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	6	punct	_	_
-20	tinha	ter	VERB	VERB	_	0	root	_	_
-21	35	35	NUM	NUM	NumType=Card	22	nummod	_	_
-22	%	_	SYM	SYM	_	20	obj	_	_
-23-24	na	_	_	_	_	_	_	_	_
-23	em	em	ADP	ADP	_	25	case	_	_
-24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-25	pesquisa	pesquisa	NOUN	NOUN	_	20	nmod	_	_
-26	de	de	ADP	ADP	_	27	case	_	_
-27	julho	_	PROPN	PNOUN	_	25	nmod	_	_
-28	e	e	CCONJ	CONJ	_	29	cc	_	_
-29	caiu	cair	VERB	VERB	_	20	conj	_	_
-30	seis	_	NUM	NUM	NumType=Card	31	nummod	_	_
-31	pontos	ponto	NOUN	NOUN	_	29	nmod	_	SpaceAfter=No
-32	.	.	PUNCT	.	_	20	punct	_	_
+11	presidente	presidente	NOUN	NOUN	_	10	flat	_	_
+12	Luiz	_	PROPN	PNOUN	_	10	appos	_	_
+13	Inácio	_	PROPN	PNOUN	_	12	flat	_	_
+14	Lula	_	PROPN	PNOUN	_	12	flat	_	_
+15-16	da	_	_	_	_	_	_	_	_
+15	de	de	ADP	ADP	_	17	case	_	_
+16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Silva	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	.	_	6	punct	_	_
+19	tinha	ter	VERB	VERB	_	0	root	_	_
+20	35	35	NUM	NUM	NumType=Card	21	nummod	_	_
+21	%	_	SYM	SYM	_	19	obj	_	_
+22-23	na	_	_	_	_	_	_	_	_
+22	em	em	ADP	ADP	_	24	case	_	_
+23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	pesquisa	pesquisa	NOUN	NOUN	_	19	nmod	_	_
+25	de	de	ADP	ADP	_	26	case	_	_
+26	julho	_	PROPN	PNOUN	_	24	nmod	_	_
+27	e	e	CCONJ	CONJ	_	28	cc	_	_
+28	caiu	cair	VERB	VERB	_	19	conj	_	_
+29	seis	_	NUM	NUM	NumType=Card	30	nummod	_	_
+30	pontos	ponto	NOUN	NOUN	_	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	19	punct	_	_
 
 # sent_id = train-s580
 # text = A oportunidade é para contratação imediata e oferece como benefícios: plano de saúde e odontológico para o funcionário e dependentes, 14 º salário, ticket refeição, seguro de vida, previdência privada, bolsa de estudo, material escolar e bônus individual por metas alcançadas.

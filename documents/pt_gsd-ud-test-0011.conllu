@@ -65,7 +65,7 @@
 20	.	.	PUNCT	.	_	16	punct	_	_
 
 # sent_id = test-s103
-# text = Composta por nove irmãos que juntos somam mais de 818 anos, 105 dos quais correspondentes à mais velha, a família Melis, residente na Sardenha, ostenta o recorde mundial de longevidade, certificado pelo Guinness, informaram nesta terça - feira vários jornais italianos.
+# text = Composta por nove irmãos que juntos somam mais de 818 anos, 105 dos quais correspondentes à mais velha, a família Melis, residente na Sardenha, ostenta o recorde mundial de longevidade, certificado pelo Guinness, informaram nesta terça-feira vários jornais italianos.
 1	Composta	compor	VERB	VERB	_	23	acl	_	_
 2	por	por	ADP	ADP	_	4	case	_	_
 3	nove	_	NUM	NUM	NumType=Card	4	nummod	_	_
@@ -112,14 +112,14 @@
 41	Guinness	_	PROPN	PNOUN	_	38	nmod	_	SpaceAfter=No
 42	,	,	PUNCT	.	_	43	punct	_	_
 43	informaram	informar	VERB	VERB	_	0	root	_	_
-44	nesta	_	ADP	ADP	_	47	case	_	_
-45	terça	_	PROPN	PNOUN	_	47	amod	_	_
-46	-	-	PUNCT	.	_	47	punct	_	_
-47	feira	_	PROPN	PNOUN	_	43	nmod	_	_
-48	vários	_	DET	DET	_	49	det	_	_
-49	jornais	jornal	NOUN	NOUN	_	43	nsubj	_	_
-50	italianos	italiano	ADJ	ADJ	_	49	amod	_	SpaceAfter=No
-51	.	.	PUNCT	.	_	43	punct	_	_
+44	nesta	_	ADP	ADP	_	46	case	_	_
+45-46	terça-feira	_	_	_	_	_	_	_	_
+45	terça	_	PROPN	PNOUN	_	46	amod	_	_
+46	feira	_	PROPN	PNOUN	_	43	nmod	_	_
+47	vários	_	DET	DET	_	48	det	_	_
+48	jornais	jornal	NOUN	NOUN	_	43	nsubj	_	_
+49	italianos	italiano	ADJ	ADJ	_	48	amod	_	SpaceAfter=No
+50	.	.	PUNCT	.	_	43	punct	_	_
 
 # sent_id = test-s104
 # text = Vejo nesses jogadores atuais nomes que poderão ser bons técnicos para o futuro, para levar isso adiante.
@@ -169,7 +169,7 @@
 20	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = test-s106
-# text = SÃO PAULO, 26 Nov (Reuters) -- Os contratos de juros futuros encerraram em queda nesta segunda - feira, com investidores aguardando a liberação da próxima parcela de ajuda para a Grécia e ainda preocupados com a questão do abismo fiscal nos Estados Unidos.
+# text = SÃO PAULO, 26 Nov (Reuters) -- Os contratos de juros futuros encerraram em queda nesta segunda-feira, com investidores aguardando a liberação da próxima parcela de ajuda para a Grécia e ainda preocupados com a questão do abismo fiscal nos Estados Unidos.
 1	SÃO	_	PROPN	PNOUN	_	15	parataxis	_	_
 2	PAULO	_	PROPN	PNOUN	_	1	flat	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	4	punct	_	_
@@ -187,43 +187,43 @@
 15	encerraram	encerrar	VERB	VERB	_	0	root	_	_
 16	em	em	ADP	ADP	_	17	case	_	_
 17	queda	queda	NOUN	NOUN	_	15	nmod	_	_
-18	nesta	_	ADP	ADP	_	21	case	_	_
-19	segunda	_	PROPN	PNOUN	_	21	amod	_	_
-20	-	-	PUNCT	.	_	21	punct	_	_
-21	feira	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
-22	,	,	PUNCT	.	_	24	punct	_	_
-23	com	com	ADP	ADP	_	24	case	_	_
-24	investidores	investidor	NOUN	NOUN	_	15	nmod	_	_
-25	aguardando	aguardar	VERB	VERB	_	24	acl	_	_
-26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	liberação	liberação	NOUN	NOUN	_	25	obj	_	_
-28-29	da	_	_	_	_	_	_	_	_
-28	de	de	ADP	ADP	_	31	case	_	_
-29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-30	próxima	próximo	ADJ	ADJ	_	31	amod	_	_
-31	parcela	parcela	NOUN	NOUN	_	27	nmod	_	_
-32	de	de	ADP	ADP	_	33	case	_	_
-33	ajuda	ajuda	NOUN	NOUN	_	31	nmod	_	_
-34	para	para	ADP	ADP	_	36	case	_	_
-35	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-36	Grécia	_	PROPN	PNOUN	_	27	nmod	_	_
-37	e	e	CCONJ	CONJ	_	39	cc	_	_
-38	ainda	ainda	ADV	ADV	_	39	advmod	_	_
-39	preocupados	preocupado	ADJ	ADJ	_	25	conj	_	_
-40	com	com	ADP	ADP	_	42	case	_	_
-41	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
-42	questão	questão	NOUN	NOUN	_	39	nmod	_	_
-43-44	do	_	_	_	_	_	_	_	_
-43	de	de	ADP	ADP	_	45	case	_	_
-44	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
-45	abismo	abismo	NOUN	NOUN	_	42	nmod	_	_
-46	fiscal	fiscal	ADJ	ADJ	_	45	amod	_	_
-47-48	nos	_	_	_	_	_	_	_	_
-47	em	em	ADP	ADP	_	49	case	_	_
-48	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	49	det	_	_
-49	Estados	_	PROPN	PNOUN	_	42	nmod	_	_
-50	Unidos	_	PROPN	PNOUN	_	49	amod	_	SpaceAfter=No
-51	.	.	PUNCT	.	_	15	punct	_	_
+18	nesta	_	ADP	ADP	_	20	case	_	_
+19-20	segunda-feira	_	_	_	_	_	_	_	SpaceAfter=No
+19	segunda	_	PROPN	PNOUN	_	20	amod	_	_
+20	feira	_	PROPN	PNOUN	_	15	nmod	_	_
+21	,	,	PUNCT	.	_	23	punct	_	_
+22	com	com	ADP	ADP	_	23	case	_	_
+23	investidores	investidor	NOUN	NOUN	_	15	nmod	_	_
+24	aguardando	aguardar	VERB	VERB	_	23	acl	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	liberação	liberação	NOUN	NOUN	_	24	obj	_	_
+27-28	da	_	_	_	_	_	_	_	_
+27	de	de	ADP	ADP	_	30	case	_	_
+28	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+29	próxima	próximo	ADJ	ADJ	_	30	amod	_	_
+30	parcela	parcela	NOUN	NOUN	_	26	nmod	_	_
+31	de	de	ADP	ADP	_	32	case	_	_
+32	ajuda	ajuda	NOUN	NOUN	_	30	nmod	_	_
+33	para	para	ADP	ADP	_	35	case	_	_
+34	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	Grécia	_	PROPN	PNOUN	_	26	nmod	_	_
+36	e	e	CCONJ	CONJ	_	38	cc	_	_
+37	ainda	ainda	ADV	ADV	_	38	advmod	_	_
+38	preocupados	preocupado	ADJ	ADJ	_	24	conj	_	_
+39	com	com	ADP	ADP	_	41	case	_	_
+40	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	questão	questão	NOUN	NOUN	_	38	nmod	_	_
+42-43	do	_	_	_	_	_	_	_	_
+42	de	de	ADP	ADP	_	44	case	_	_
+43	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	abismo	abismo	NOUN	NOUN	_	41	nmod	_	_
+45	fiscal	fiscal	ADJ	ADJ	_	44	amod	_	_
+46-47	nos	_	_	_	_	_	_	_	_
+46	em	em	ADP	ADP	_	48	case	_	_
+47	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	48	det	_	_
+48	Estados	_	PROPN	PNOUN	_	41	nmod	_	_
+49	Unidos	_	PROPN	PNOUN	_	48	amod	_	SpaceAfter=No
+50	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = test-s107
 # text = Mas o lance não passou dum acidente de percurso.

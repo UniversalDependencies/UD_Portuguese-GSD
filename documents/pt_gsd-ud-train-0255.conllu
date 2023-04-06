@@ -55,7 +55,7 @@
 36	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = train-s2533
-# text = A restauração custou R $ 6 milhões e foi realizada e custeada pela Ferrovia Centro - Atlântica (FCA).
+# text = A restauração custou R $ 6 milhões e foi realizada e custeada pela Ferrovia Centro-Atlântica (FCA).
 1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	restauração	restauração	NOUN	NOUN	_	3	nsubj	_	_
 3	custou	custar	VERB	VERB	_	0	root	_	_
@@ -72,13 +72,13 @@
 13	por	por	ADP	ADP	_	15	case	_	_
 14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	Ferrovia	_	PROPN	PNOUN	_	10	nmod	_	_
-16	Centro	_	PROPN	PNOUN	_	18	amod	_	_
-17	-	-	PUNCT	.	_	18	punct	_	_
-18	Atlântica	_	PROPN	PNOUN	_	15	amod	_	_
-19	(	(	PUNCT	.	_	20	punct	_	SpaceAfter=No
-20	FCA	_	PROPN	PNOUN	_	15	appos	_	SpaceAfter=No
-21	)	)	PUNCT	.	_	20	punct	_	SpaceAfter=No
-22	.	.	PUNCT	.	_	3	punct	_	_
+16-17	Centro-Atlântica	_	_	_	_	_	_	_	_
+16	Centro	_	PROPN	PNOUN	_	17	amod	_	_
+17	Atlântica	_	PROPN	PNOUN	_	15	amod	_	_
+18	(	(	PUNCT	.	_	19	punct	_	SpaceAfter=No
+19	FCA	_	PROPN	PNOUN	_	15	appos	_	SpaceAfter=No
+20	)	)	PUNCT	.	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s2534
 # text = A cobertura, feita de telhas de eternit, não resistiu e caiu.
@@ -218,7 +218,7 @@
 10	?	?	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s2540
-# text = O contrato do produto com entrega em dezembro avançou 6,50 %, fechando a 173,65 centavos de dólar por libra - peso.
+# text = O contrato do produto com entrega em dezembro avançou 6,50 %, fechando a 173,65 centavos de dólar por libra-peso.
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	contrato	contrato	NOUN	NOUN	_	10	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -240,8 +240,8 @@
 18	de	de	ADP	ADP	_	19	case	_	_
 19	dólar	dólar	NOUN	NOUN	_	17	nmod	_	_
 20	por	por	ADP	ADP	_	21	case	_	_
+21-22	libra-peso	_	_	_	_	_	_	_	SpaceAfter=No
 21	libra	libra	NOUN	NOUN	_	17	nmod	_	_
-22	-	-	PUNCT	.	_	21	punct	_	_
-23	peso	peso	NOUN	NOUN	_	21	flat	_	SpaceAfter=No
-24	.	.	PUNCT	.	_	10	punct	_	_
+22	peso	peso	NOUN	NOUN	_	21	flat	_	_
+23	.	.	PUNCT	.	_	10	punct	_	_
 

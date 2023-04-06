@@ -65,35 +65,35 @@
 45	.	.	PUNCT	.	_	42	punct	_	_
 
 # sent_id = train-s623
-# text = Segundo a agência espacial norte - americana, o astronauta irá contar em seu programa as experiências que teve no laboratório espacial.
+# text = Segundo a agência espacial norte-americana, o astronauta irá contar em seu programa as experiências que teve no laboratório espacial.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
 2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	agência	agência	NOUN	NOUN	_	12	nmod	_	_
+3	agência	agência	NOUN	NOUN	_	11	nmod	_	_
 4	espacial	espacial	ADJ	ADJ	_	3	amod	_	_
-5	norte	norte	ADJ	ADJ	_	7	amod	_	_
-6	-	-	PUNCT	.	_	7	punct	_	_
-7	americana	americano	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
-8	,	,	PUNCT	.	_	3	punct	_	_
-9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	astronauta	astronauta	NOUN	NOUN	_	12	nsubj	_	_
-11	irá	_	AUX	AUX	_	12	aux	_	_
-12	contar	contar	VERB	VERB	_	0	root	_	_
-13	em	em	ADP	ADP	_	15	case	_	_
-14	seu	_	DET	DET	_	15	det:poss	_	_
-15	programa	programa	NOUN	NOUN	_	12	nmod	_	_
-16	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
-17	experiências	experiência	NOUN	NOUN	_	12	obj	_	_
-18	que	_	PRON	PRON	_	19	obj	_	_
-19	teve	ter	VERB	VERB	_	17	acl:relcl	_	_
-20-21	no	_	_	_	_	_	_	_	_
-20	em	em	ADP	ADP	_	22	case	_	_
-21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-22	laboratório	laboratório	NOUN	NOUN	_	19	nmod	_	_
-23	espacial	espacial	ADJ	ADJ	_	22	amod	_	SpaceAfter=No
-24	.	.	PUNCT	.	_	12	punct	_	_
+5-6	norte-americana	_	_	_	_	_	_	_	SpaceAfter=No
+5	norte	norte	ADJ	ADJ	_	6	amod	_	_
+6	americana	americano	ADJ	ADJ	_	3	amod	_	_
+7	,	,	PUNCT	.	_	3	punct	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	astronauta	astronauta	NOUN	NOUN	_	11	nsubj	_	_
+10	irá	_	AUX	AUX	_	11	aux	_	_
+11	contar	contar	VERB	VERB	_	0	root	_	_
+12	em	em	ADP	ADP	_	14	case	_	_
+13	seu	_	DET	DET	_	14	det:poss	_	_
+14	programa	programa	NOUN	NOUN	_	11	nmod	_	_
+15	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	experiências	experiência	NOUN	NOUN	_	11	obj	_	_
+17	que	_	PRON	PRON	_	18	obj	_	_
+18	teve	ter	VERB	VERB	_	16	acl:relcl	_	_
+19-20	no	_	_	_	_	_	_	_	_
+19	em	em	ADP	ADP	_	21	case	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	laboratório	laboratório	NOUN	NOUN	_	18	nmod	_	_
+22	espacial	espacial	ADJ	ADJ	_	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s624
-# text = "Nas últimas eleições foram por volta de 30 candidatos a vereador, esse ano temos um número muito maior, isso só mostra a evolução que Zoinho vem tendo com esse tempo e ainda existe a chance desse número aumentar e existe mais partidos que possam se unir a nós" explicou o candidato a vice - prefeito, que falou também da necessidade de renovação que o município precisa.
+# text = "Nas últimas eleições foram por volta de 30 candidatos a vereador, esse ano temos um número muito maior, isso só mostra a evolução que Zoinho vem tendo com esse tempo e ainda existe a chance desse número aumentar e existe mais partidos que possam se unir a nós" explicou o candidato a vice-prefeito, que falou também da necessidade de renovação que o município precisa.
 1	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
 2-3	Nas	_	_	_	_	_	_	_	_
 2	Em	em	ADP	ADP	_	5	case	_	_
@@ -152,24 +152,24 @@
 55	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
 56	candidato	candidato	NOUN	NOUN	_	54	nsubj	_	_
 57	a	_	ADP	ADP	_	58	case	_	_
+58-59	vice-prefeito	_	_	_	_	_	_	_	SpaceAfter=No
 58	vice	_	PART	PRT	_	56	nmod	_	_
-59	-	-	PUNCT	.	_	58	punct	_	_
-60	prefeito	prefeito	NOUN	NOUN	_	58	flat	_	SpaceAfter=No
-61	,	,	PUNCT	.	_	63	punct	_	_
-62	que	_	PRON	PRON	_	63	nsubj	_	_
-63	falou	falar	VERB	VERB	_	56	acl:relcl	_	_
-64	também	também	ADV	ADV	_	63	advmod	_	_
-65-66	da	_	_	_	_	_	_	_	_
-65	de	de	ADP	ADP	_	67	case	_	_
-66	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	67	det	_	_
-67	necessidade	necessidade	NOUN	NOUN	_	63	nmod	_	_
-68	de	de	ADP	ADP	_	69	case	_	_
-69	renovação	renovação	NOUN	NOUN	_	67	nmod	_	_
-70	que	_	PRON	PRON	_	73	obj	_	_
-71	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	72	det	_	_
-72	município	município	NOUN	NOUN	_	73	nsubj	_	_
-73	precisa	precisar	VERB	VERB	_	69	acl:relcl	_	SpaceAfter=No
-74	.	.	PUNCT	.	_	54	punct	_	_
+59	prefeito	prefeito	NOUN	NOUN	_	58	flat	_	_
+60	,	,	PUNCT	.	_	62	punct	_	_
+61	que	_	PRON	PRON	_	62	nsubj	_	_
+62	falou	falar	VERB	VERB	_	56	acl:relcl	_	_
+63	também	também	ADV	ADV	_	62	advmod	_	_
+64-65	da	_	_	_	_	_	_	_	_
+64	de	de	ADP	ADP	_	66	case	_	_
+65	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	66	det	_	_
+66	necessidade	necessidade	NOUN	NOUN	_	62	nmod	_	_
+67	de	de	ADP	ADP	_	68	case	_	_
+68	renovação	renovação	NOUN	NOUN	_	66	nmod	_	_
+69	que	_	PRON	PRON	_	72	obj	_	_
+70	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	71	det	_	_
+71	município	município	NOUN	NOUN	_	72	nsubj	_	_
+72	precisa	precisar	VERB	VERB	_	68	acl:relcl	_	SpaceAfter=No
+73	.	.	PUNCT	.	_	54	punct	_	_
 
 # sent_id = train-s625
 # text = Repito, ganhar e perder faz parte do futebol ", completou.

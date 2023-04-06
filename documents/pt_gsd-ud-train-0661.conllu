@@ -182,7 +182,7 @@
 36	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s6566
-# text = Jogo futsal, e nas paralimpíadas vou representar Sergipe no para - atletismo.
+# text = Jogo futsal, e nas paralimpíadas vou representar Sergipe no para-atletismo.
 1	Jogo	jogar	VERB	VERB	_	0	root	_	_
 2	futsal	_	NOUN	NOUN	_	1	obj	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	9	punct	_	_
@@ -197,10 +197,10 @@
 11-12	no	_	_	_	_	_	_	_	_
 11	em	em	ADP	ADP	_	13	case	_	_
 12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13-14	para-atletismo	_	_	_	_	_	_	_	SpaceAfter=No
 13	para	_	PART	PRT	_	9	nmod	_	_
-14	-	-	PUNCT	.	_	13	punct	_	_
-15	atletismo	atletismo	NOUN	NOUN	_	13	flat	_	SpaceAfter=No
-16	.	.	PUNCT	.	_	1	punct	_	_
+14	atletismo	atletismo	NOUN	NOUN	_	13	flat	_	_
+15	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s6567
 # text = O menino gritou para a mãe jogar a chave, do terceiro andar do prédio onde morava, quando foi surpreendido por policiais e baleado.
@@ -324,45 +324,45 @@
 10	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s6571
-# text = A soprano Lys Nardoto será Ottone, o contratenor sírio Razek - François Bitar será Roberto, o contratenor Johan Christensson como Gualtiero, a soprano Juliana Franco será Costanza e a mezzo - soprano Carolina Faria será Corrado.
+# text = A soprano Lys Nardoto será Ottone, o contratenor sírio Razek-François Bitar será Roberto, o contratenor Johan Christensson como Gualtiero, a soprano Juliana Franco será Costanza e a mezzo-soprano Carolina Faria será Corrado.
 1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	soprano	soprano	NOUN	NOUN	_	6	nsubj	_	_
 3	Lys	_	PROPN	PNOUN	_	2	appos	_	_
 4	Nardoto	_	PROPN	PNOUN	_	3	flat	_	_
 5	será	ser	AUX	AUX	_	6	cop	_	_
 6	Ottone	_	PROPN	PNOUN	_	0	root	_	SpaceAfter=No
-7	,	,	PUNCT	.	_	16	punct	_	_
+7	,	,	PUNCT	.	_	15	punct	_	_
 8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	contratenor	_	NOUN	NOUN	_	16	nsubj	_	_
+9	contratenor	_	NOUN	NOUN	_	15	nsubj	_	_
 10	sírio	sírio	ADJ	ADJ	_	9	amod	_	_
+11-12	Razek-François	_	_	_	_	_	_	_	_
 11	Razek	_	PROPN	PNOUN	_	9	appos	_	_
-12	-	-	PUNCT	.	_	11	punct	_	_
-13	François	_	PROPN	PNOUN	_	11	flat	_	_
-14	Bitar	_	PROPN	PNOUN	_	11	flat	_	_
-15	será	ser	AUX	AUX	_	16	cop	_	_
-16	Roberto	_	PROPN	PNOUN	_	6	conj	_	SpaceAfter=No
-17	,	,	PUNCT	.	_	19	punct	_	_
-18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	contratenor	_	NOUN	NOUN	_	6	conj	_	_
-20	Johan	_	PROPN	PNOUN	_	19	appos	_	_
-21	Christensson	_	PROPN	PNOUN	_	20	flat	_	_
-22	como	como	ADP	ADP	_	23	case	_	_
-23	Gualtiero	_	PROPN	PNOUN	_	19	nmod	_	SpaceAfter=No
-24	,	,	PUNCT	.	_	30	punct	_	_
-25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	soprano	soprano	NOUN	NOUN	_	30	nsubj	_	_
-27	Juliana	_	PROPN	PNOUN	_	26	appos	_	_
-28	Franco	_	PROPN	PNOUN	_	27	flat	_	_
-29	será	ser	AUX	AUX	_	30	cop	_	_
-30	Costanza	_	PROPN	PNOUN	_	6	conj	_	_
-31	e	e	CCONJ	CONJ	_	39	cc	_	_
-32	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
-33	mezzo	_	NOUN	NOUN	_	39	nsubj	_	_
-34	-	-	PUNCT	.	_	33	punct	_	_
-35	soprano	soprano	NOUN	NOUN	_	33	flat	_	_
-36	Carolina	_	PROPN	PNOUN	_	33	appos	_	_
-37	Faria	_	PROPN	PNOUN	_	36	flat	_	_
-38	será	ser	AUX	AUX	_	39	cop	_	_
-39	Corrado	_	PROPN	PNOUN	_	6	conj	_	SpaceAfter=No
-40	.	.	PUNCT	.	_	6	punct	_	_
+12	François	_	PROPN	PNOUN	_	11	flat	_	_
+13	Bitar	_	PROPN	PNOUN	_	11	flat	_	_
+14	será	ser	AUX	AUX	_	15	cop	_	_
+15	Roberto	_	PROPN	PNOUN	_	6	conj	_	SpaceAfter=No
+16	,	,	PUNCT	.	_	18	punct	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	contratenor	_	NOUN	NOUN	_	6	conj	_	_
+19	Johan	_	PROPN	PNOUN	_	18	appos	_	_
+20	Christensson	_	PROPN	PNOUN	_	19	flat	_	_
+21	como	como	ADP	ADP	_	22	case	_	_
+22	Gualtiero	_	PROPN	PNOUN	_	18	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	.	_	29	punct	_	_
+24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	soprano	soprano	NOUN	NOUN	_	29	nsubj	_	_
+26	Juliana	_	PROPN	PNOUN	_	25	appos	_	_
+27	Franco	_	PROPN	PNOUN	_	26	flat	_	_
+28	será	ser	AUX	AUX	_	29	cop	_	_
+29	Costanza	_	PROPN	PNOUN	_	6	conj	_	_
+30	e	e	CCONJ	CONJ	_	37	cc	_	_
+31	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+32-33	mezzo-soprano	_	_	_	_	_	_	_	_
+32	mezzo	_	NOUN	NOUN	_	37	nsubj	_	_
+33	soprano	soprano	NOUN	NOUN	_	32	flat	_	_
+34	Carolina	_	PROPN	PNOUN	_	32	appos	_	_
+35	Faria	_	PROPN	PNOUN	_	34	flat	_	_
+36	será	ser	AUX	AUX	_	37	cop	_	_
+37	Corrado	_	PROPN	PNOUN	_	6	conj	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	6	punct	_	_
 

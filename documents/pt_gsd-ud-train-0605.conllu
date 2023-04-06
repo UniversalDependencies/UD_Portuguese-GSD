@@ -77,7 +77,7 @@
 47	"	"	PUNCT	.	_	20	punct	_	_
 
 # sent_id = train-s6009
-# text = Duas pessoas morreram e três ficaram feridas num acidente envolvendo um veículo de transporte alternativo e um ônibus na rodovia PE - 158, em Calçado, Agreste de Pernambuco, na tarde do sábado (1 º).
+# text = Duas pessoas morreram e três ficaram feridas num acidente envolvendo um veículo de transporte alternativo e um ônibus na rodovia PE-158, em Calçado, Agreste de Pernambuco, na tarde do sábado (1 º).
 1	Duas	_	NUM	NUM	NumType=Card	2	nummod	_	_
 2	pessoas	pessoa	NOUN	NOUN	_	3	nsubj	_	_
 3	morreram	morrer	VERB	VERB	_	0	root	_	_
@@ -102,30 +102,30 @@
 20	em	em	ADP	ADP	_	22	case	_	_
 21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	rodovia	rodovia	NOUN	NOUN	_	3	nmod	_	_
+23-24	PE-158	_	_	_	_	_	_	_	SpaceAfter=No
 23	PE	_	PROPN	PNOUN	_	22	appos	_	_
-24	-	-	PUNCT	.	_	23	punct	_	_
-25	158	158	NUM	NUM	NumType=Card	23	appos	_	SpaceAfter=No
-26	,	,	PUNCT	.	_	28	punct	_	_
-27	em	em	ADP	ADP	_	28	case	_	_
-28	Calçado	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
-29	,	,	PUNCT	.	_	30	punct	_	_
-30	Agreste	_	PROPN	PNOUN	_	28	appos	_	_
-31	de	de	ADP	ADP	_	32	case	_	_
-32	Pernambuco	_	PROPN	PNOUN	_	30	nmod	_	SpaceAfter=No
-33	,	,	PUNCT	.	_	36	punct	_	_
-34-35	na	_	_	_	_	_	_	_	_
-34	em	em	ADP	ADP	_	36	case	_	_
-35	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-36	tarde	tarde	NOUN	NOUN	_	3	nmod	_	_
-37-38	do	_	_	_	_	_	_	_	_
-37	de	de	ADP	ADP	_	39	case	_	_
-38	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
-39	sábado	_	PROPN	PNOUN	_	36	nmod	_	_
-40	(	(	PUNCT	.	_	41	punct	_	SpaceAfter=No
-41	1	1	NUM	NUM	NumType=Card	39	nmod	_	_
-42	º	_	PUNCT	.	_	41	punct	_	SpaceAfter=No
-43	)	)	PUNCT	.	_	41	punct	_	SpaceAfter=No
-44	.	.	PUNCT	.	_	3	punct	_	_
+24	158	158	NUM	NUM	NumType=Card	23	appos	_	_
+25	,	,	PUNCT	.	_	27	punct	_	_
+26	em	em	ADP	ADP	_	27	case	_	_
+27	Calçado	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	.	_	29	punct	_	_
+29	Agreste	_	PROPN	PNOUN	_	27	appos	_	_
+30	de	de	ADP	ADP	_	31	case	_	_
+31	Pernambuco	_	PROPN	PNOUN	_	29	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	.	_	35	punct	_	_
+33-34	na	_	_	_	_	_	_	_	_
+33	em	em	ADP	ADP	_	35	case	_	_
+34	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	tarde	tarde	NOUN	NOUN	_	3	nmod	_	_
+36-37	do	_	_	_	_	_	_	_	_
+36	de	de	ADP	ADP	_	38	case	_	_
+37	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	sábado	_	PROPN	PNOUN	_	35	nmod	_	_
+39	(	(	PUNCT	.	_	40	punct	_	SpaceAfter=No
+40	1	1	NUM	NUM	NumType=Card	38	nmod	_	_
+41	º	_	PUNCT	.	_	40	punct	_	SpaceAfter=No
+42	)	)	PUNCT	.	_	40	punct	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s6010
 # text = "A Feira das Américas inovou e teve uma presença maciça e representativa de todos os segmentos do turismo.
@@ -212,7 +212,7 @@
 53	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s6012
-# text = O procedimento foi realizado pela equipe de cirurgia da Comissão Intra - hospitalar de Doação de Órgãos e Tecidos para Transplantes (CIHDOTT).
+# text = O procedimento foi realizado pela equipe de cirurgia da Comissão Intra-hospitalar de Doação de Órgãos e Tecidos para Transplantes (CIHDOTT).
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	procedimento	procedimento	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foi	_	AUX	AUX	_	4	aux:pass	_	_
@@ -227,21 +227,21 @@
 10	de	de	ADP	ADP	_	12	case	_	_
 11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	Comissão	_	PROPN	PNOUN	_	7	nmod	_	_
-13	Intra	_	PART	PRT	_	15	advmod	_	_
-14	-	-	PUNCT	.	_	15	punct	_	_
-15	hospitalar	_	PROPN	PNOUN	_	12	amod	_	_
-16	de	de	ADP	ADP	_	17	case	_	_
-17	Doação	_	PROPN	PNOUN	_	12	nmod	_	_
-18	de	de	ADP	ADP	_	19	case	_	_
-19	Órgãos	_	PROPN	PNOUN	_	17	nmod	_	_
-20	e	e	CCONJ	CONJ	_	21	cc	_	_
-21	Tecidos	_	PROPN	PNOUN	_	19	conj	_	_
-22	para	para	ADP	ADP	_	23	case	_	_
-23	Transplantes	_	PROPN	PNOUN	_	19	nmod	_	_
-24	(	(	PUNCT	.	_	25	punct	_	SpaceAfter=No
-25	CIHDOTT	_	PROPN	PNOUN	_	12	appos	_	SpaceAfter=No
-26	)	)	PUNCT	.	_	25	punct	_	SpaceAfter=No
-27	.	.	PUNCT	.	_	4	punct	_	_
+13-14	Intra-hospitalar	_	_	_	_	_	_	_	_
+13	Intra	_	PART	PRT	_	14	advmod	_	_
+14	hospitalar	_	PROPN	PNOUN	_	12	amod	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
+16	Doação	_	PROPN	PNOUN	_	12	nmod	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
+18	Órgãos	_	PROPN	PNOUN	_	16	nmod	_	_
+19	e	e	CCONJ	CONJ	_	20	cc	_	_
+20	Tecidos	_	PROPN	PNOUN	_	18	conj	_	_
+21	para	para	ADP	ADP	_	22	case	_	_
+22	Transplantes	_	PROPN	PNOUN	_	18	nmod	_	_
+23	(	(	PUNCT	.	_	24	punct	_	SpaceAfter=No
+24	CIHDOTT	_	PROPN	PNOUN	_	12	appos	_	SpaceAfter=No
+25	)	)	PUNCT	.	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s6013
 # text = "Com universidades do Brasil, México e Chile atualmente entre as 200 melhores colocadas, o ranking sinaliza para América Latina como uma das regiões mais dinâmicas e de mais rápido crescimento", afirma Ben Sowter, coordenador de pesquisa da QS.

@@ -88,8 +88,8 @@
 21	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s7815
-# text = Tem muita gente boa no outro lado preparada para recebê - la ", disse uma amiga de Berenice.
-1	Tem	ter	VERB	VERB	_	16	ccomp	_	_
+# text = Tem muita gente boa no outro lado preparada para recebê-la ", disse uma amiga de Berenice.
+1	Tem	ter	VERB	VERB	_	15	ccomp	_	_
 2	muita	_	DET	DET	_	3	det	_	_
 3	gente	gente	NOUN	NOUN	_	1	obj	_	_
 4	boa	bom	ADJ	ADJ	_	3	amod	_	_
@@ -100,17 +100,17 @@
 8	lado	lado	NOUN	NOUN	_	3	nmod	_	_
 9	preparada	preparar	VERB	VERB	_	3	acl	_	_
 10	para	_	ADP	ADP	_	11	mark	_	_
+11-12	recebê-la	_	_	_	_	_	_	_	_
 11	recebê	receber	VERB	VERB	_	9	nmod	_	_
-12	-	-	PUNCT	.	_	11	punct	_	_
-13	la	_	PRON	PRON	_	11	obj	_	_
-14	"	"	PUNCT	.	_	1	punct	_	SpaceAfter=No
-15	,	,	PUNCT	.	_	16	punct	_	_
-16	disse	dizer	VERB	VERB	_	0	root	_	_
-17	uma	um	DET	DET	_	18	det	_	_
-18	amiga	amigo	NOUN	NOUN	_	16	nsubj	_	_
-19	de	de	ADP	ADP	_	20	case	_	_
-20	Berenice	_	PROPN	PNOUN	_	18	nmod	_	SpaceAfter=No
-21	.	.	PUNCT	.	_	16	punct	_	_
+12	la	_	PRON	PRON	_	11	obj	_	_
+13	"	"	PUNCT	.	_	1	punct	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	15	punct	_	_
+15	disse	dizer	VERB	VERB	_	0	root	_	_
+16	uma	um	DET	DET	_	17	det	_	_
+17	amiga	amigo	NOUN	NOUN	_	15	nsubj	_	_
+18	de	de	ADP	ADP	_	19	case	_	_
+19	Berenice	_	PROPN	PNOUN	_	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = train-s7816
 # text = Agora, com a inauguração do centro cirúrgico, será possível promover cirurgias de grande porte ", comemorou Roberta Almeida, diretora médica do HSA.
@@ -147,7 +147,7 @@
 29	.	.	PUNCT	.	_	20	punct	_	_
 
 # sent_id = train-s7817
-# text = A Funvic enfrenta o Vivo / Minas, nesta terça - feira (4), a partir das 20 horas, no ginásio Juca Moreira, com entrada gratuita.
+# text = A Funvic enfrenta o Vivo / Minas, nesta terça-feira (4), a partir das 20 horas, no ginásio Juca Moreira, com entrada gratuita.
 1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Funvic	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	enfrenta	enfrentar	VERB	VERB	_	0	root	_	_
@@ -155,37 +155,37 @@
 5	Vivo	_	PROPN	PNOUN	_	3	obj	_	_
 6	/	/	PUNCT	.	_	5	punct	_	_
 7	Minas	_	PROPN	PNOUN	_	5	flat	_	SpaceAfter=No
-8	,	,	PUNCT	.	_	12	punct	_	_
-9	nesta	_	ADP	ADP	_	12	case	_	_
-10	terça	_	PROPN	PNOUN	_	12	amod	_	_
-11	-	-	PUNCT	.	_	12	punct	_	_
-12	feira	_	PROPN	PNOUN	_	3	nmod	_	_
-13	(	(	PUNCT	.	_	14	punct	_	SpaceAfter=No
-14	4	4	NUM	NUM	NumType=Card	12	nmod	_	SpaceAfter=No
-15	)	)	PUNCT	.	_	14	punct	_	SpaceAfter=No
-16	,	,	PUNCT	.	_	18	punct	_	_
-17	a	_	ADP	ADP	_	18	mark	_	_
-18	partir	partir	VERB	VERB	_	3	nmod	_	_
-19-20	das	_	_	_	_	_	_	_	_
-19	de	de	ADP	ADP	_	22	case	_	_
-20	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
-21	20	20	NUM	NUM	NumType=Card	22	nummod	_	_
-22	horas	hora	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
-23	,	,	PUNCT	.	_	26	punct	_	_
-24-25	no	_	_	_	_	_	_	_	_
-24	em	em	ADP	ADP	_	26	case	_	_
-25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	ginásio	ginásio	NOUN	NOUN	_	3	nmod	_	_
-27	Juca	_	PROPN	PNOUN	_	26	appos	_	_
-28	Moreira	_	PROPN	PNOUN	_	27	flat	_	SpaceAfter=No
-29	,	,	PUNCT	.	_	31	punct	_	_
-30	com	com	ADP	ADP	_	31	case	_	_
-31	entrada	entrada	NOUN	NOUN	_	3	nmod	_	_
-32	gratuita	gratuito	ADJ	ADJ	_	31	amod	_	SpaceAfter=No
-33	.	.	PUNCT	.	_	3	punct	_	_
+8	,	,	PUNCT	.	_	11	punct	_	_
+9	nesta	_	ADP	ADP	_	11	case	_	_
+10-11	terça-feira	_	_	_	_	_	_	_	_
+10	terça	_	PROPN	PNOUN	_	11	amod	_	_
+11	feira	_	PROPN	PNOUN	_	3	nmod	_	_
+12	(	(	PUNCT	.	_	13	punct	_	SpaceAfter=No
+13	4	4	NUM	NUM	NumType=Card	11	nmod	_	SpaceAfter=No
+14	)	)	PUNCT	.	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	.	_	17	punct	_	_
+16	a	_	ADP	ADP	_	17	mark	_	_
+17	partir	partir	VERB	VERB	_	3	nmod	_	_
+18-19	das	_	_	_	_	_	_	_	_
+18	de	de	ADP	ADP	_	21	case	_	_
+19	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+20	20	20	NUM	NUM	NumType=Card	21	nummod	_	_
+21	horas	hora	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	.	_	25	punct	_	_
+23-24	no	_	_	_	_	_	_	_	_
+23	em	em	ADP	ADP	_	25	case	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	ginásio	ginásio	NOUN	NOUN	_	3	nmod	_	_
+26	Juca	_	PROPN	PNOUN	_	25	appos	_	_
+27	Moreira	_	PROPN	PNOUN	_	26	flat	_	SpaceAfter=No
+28	,	,	PUNCT	.	_	30	punct	_	_
+29	com	com	ADP	ADP	_	30	case	_	_
+30	entrada	entrada	NOUN	NOUN	_	3	nmod	_	_
+31	gratuita	gratuito	ADJ	ADJ	_	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s7818
-# text = O vídeo será julgado de acordo com a exploração do tema "Zona Leste: presente, passado e futuro", podendo participar de duas categorias: animação ou curta - metragem.
+# text = O vídeo será julgado de acordo com a exploração do tema "Zona Leste: presente, passado e futuro", podendo participar de duas categorias: animação ou curta-metragem.
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	vídeo	vídeo	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	será	ser	AUX	AUX	_	4	aux:pass	_	_
@@ -217,11 +217,11 @@
 28	categorias	categoria	NOUN	NOUN	_	25	nmod	_	SpaceAfter=No
 29	:	:	PUNCT	.	_	28	punct	_	_
 30	animação	animação	NOUN	NOUN	_	28	appos	_	_
-31	ou	ou	CCONJ	CONJ	_	34	cc	_	_
-32	curta	curto	ADJ	ADJ	_	34	amod	_	_
-33	-	-	PUNCT	.	_	34	punct	_	_
-34	metragem	metragem	NOUN	NOUN	_	30	conj	_	SpaceAfter=No
-35	.	.	PUNCT	.	_	4	punct	_	_
+31	ou	ou	CCONJ	CONJ	_	33	cc	_	_
+32-33	curta-metragem	_	_	_	_	_	_	_	SpaceAfter=No
+32	curta	curto	ADJ	ADJ	_	33	amod	_	_
+33	metragem	metragem	NOUN	NOUN	_	30	conj	_	_
+34	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s7819
 # text = De acordo com o United States Census Bureau tem uma área de 21,8 km ², dos quais 11,8 km ² cobertos por terra e 10,0 km ² cobertos por água.

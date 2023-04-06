@@ -1,5 +1,5 @@
 # sent_id = train-s6986
-# text = As disputas começaram em 1991, quando a Costa Rica expressou preocupação de que as políticas para exportar banana para a Europa poderiam prejudicar as nações latino - americanas.
+# text = As disputas começaram em 1991, quando a Costa Rica expressou preocupação de que as políticas para exportar banana para a Europa poderiam prejudicar as nações latino-americanas.
 1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	disputas	disputa	NOUN	NOUN	_	3	nsubj	_	_
 3	começaram	começar	VERB	VERB	_	0	root	_	_
@@ -26,10 +26,10 @@
 24	prejudicar	prejudicar	VERB	VERB	_	12	nmod	_	_
 25	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
 26	nações	nação	NOUN	NOUN	_	24	obj	_	_
-27	latino	_	PART	PRT	_	29	amod	_	_
-28	-	-	PUNCT	.	_	29	punct	_	_
-29	americanas	americano	ADJ	ADJ	_	26	amod	_	SpaceAfter=No
-30	.	.	PUNCT	.	_	3	punct	_	_
+27-28	latino-americanas	_	_	_	_	_	_	_	SpaceAfter=No
+27	latino	_	PART	PRT	_	28	amod	_	_
+28	americanas	americano	ADJ	ADJ	_	26	amod	_	_
+29	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s6987
 # text = Por isso mesmo, a ausência de ambos nas listas de Mano é até festejada nas Laranjeiras.
@@ -57,7 +57,7 @@
 20	.	.	PUNCT	.	_	16	punct	_	_
 
 # sent_id = train-s6988
-# text = O governo com certeza vai ficar preocupado ", disse o economista - chefe do Espírito Santo Investment Bank, Jankiel Santos.
+# text = O governo com certeza vai ficar preocupado ", disse o economista-chefe do Espírito Santo Investment Bank, Jankiel Santos.
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	governo	governo	NOUN	NOUN	_	6	nsubj	_	_
 3	com	com	ADP	ADP	_	4	case	_	_
@@ -69,59 +69,59 @@
 9	,	,	PUNCT	.	_	10	punct	_	_
 10	disse	dizer	VERB	VERB	_	0	root	_	_
 11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12-13	economista-chefe	_	_	_	_	_	_	_	_
 12	economista	economista	NOUN	NOUN	_	10	nsubj	_	_
-13	-	-	PUNCT	.	_	12	punct	_	_
-14	chefe	chefe	NOUN	NOUN	_	12	flat	_	_
-15-16	do	_	_	_	_	_	_	_	_
-15	de	de	ADP	ADP	_	18	case	_	_
-16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-17	Espírito	_	PROPN	PNOUN	_	18	amod	_	_
-18	Santo	_	PROPN	PNOUN	_	12	nmod	_	_
-19	Investment	_	PROPN	PNOUN	_	18	appos	_	_
-20	Bank	_	PROPN	PNOUN	_	19	flat	_	SpaceAfter=No
-21	,	,	PUNCT	.	_	22	punct	_	_
-22	Jankiel	_	PROPN	PNOUN	_	12	appos	_	_
-23	Santos	_	PROPN	PNOUN	_	22	flat	_	SpaceAfter=No
-24	.	.	PUNCT	.	_	10	punct	_	_
+13	chefe	chefe	NOUN	NOUN	_	12	flat	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	ADP	_	17	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	Espírito	_	PROPN	PNOUN	_	17	amod	_	_
+17	Santo	_	PROPN	PNOUN	_	12	nmod	_	_
+18	Investment	_	PROPN	PNOUN	_	17	appos	_	_
+19	Bank	_	PROPN	PNOUN	_	18	flat	_	SpaceAfter=No
+20	,	,	PUNCT	.	_	21	punct	_	_
+21	Jankiel	_	PROPN	PNOUN	_	12	appos	_	_
+22	Santos	_	PROPN	PNOUN	_	21	flat	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s6989
-# text = O deputado Vanderlei Macris (PSDB - SP) vai sugerir a quebra dos sigilos bancário, fiscal e telefônico da esposa de Raul Filho, a deputada estadual Solange Duailibe;
+# text = O deputado Vanderlei Macris (PSDB-SP) vai sugerir a quebra dos sigilos bancário, fiscal e telefônico da esposa de Raul Filho, a deputada estadual Solange Duailibe;
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	deputado	deputado	NOUN	NOUN	_	11	nsubj	_	_
+2	deputado	deputado	NOUN	NOUN	_	10	nsubj	_	_
 3	Vanderlei	_	PROPN	PNOUN	_	2	appos	_	_
 4	Macris	_	PROPN	PNOUN	_	3	flat	_	_
 5	(	(	PUNCT	.	_	6	punct	_	SpaceAfter=No
+6-7	PSDB-SP	_	_	_	_	_	_	_	SpaceAfter=No
 6	PSDB	_	PROPN	PNOUN	_	2	appos	_	_
-7	-	-	PUNCT	.	_	6	punct	_	_
-8	SP	_	PROPN	PNOUN	_	6	flat	_	SpaceAfter=No
-9	)	)	PUNCT	.	_	6	punct	_	_
-10	vai	ir	AUX	AUX	_	11	aux	_	_
-11	sugerir	sugerir	VERB	VERB	_	0	root	_	_
-12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	quebra	quebra	NOUN	NOUN	_	11	obj	_	_
-14-15	dos	_	_	_	_	_	_	_	_
-14	de	de	ADP	ADP	_	16	case	_	_
-15	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
-16	sigilos	sigilo	NOUN	NOUN	_	13	nmod	_	_
-17	bancário	bancário	ADJ	ADJ	_	16	amod	_	SpaceAfter=No
-18	,	,	PUNCT	.	_	19	punct	_	_
-19	fiscal	fiscal	ADJ	ADJ	_	17	conj	_	_
-20	e	e	CCONJ	CONJ	_	21	cc	_	_
-21	telefônico	telefônico	ADJ	ADJ	_	17	conj	_	_
-22-23	da	_	_	_	_	_	_	_	_
-22	de	de	ADP	ADP	_	24	case	_	_
-23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-24	esposa	esposo	NOUN	NOUN	_	16	nmod	_	_
-25	de	de	ADP	ADP	_	26	case	_	_
-26	Raul	_	PROPN	PNOUN	_	24	nmod	_	_
-27	Filho	_	PROPN	PNOUN	_	26	flat	_	SpaceAfter=No
-28	,	,	PUNCT	.	_	30	punct	_	_
-29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
-30	deputada	deputado	NOUN	NOUN	_	24	appos	_	_
-31	estadual	estadual	ADJ	ADJ	_	30	amod	_	_
-32	Solange	_	PROPN	PNOUN	_	30	appos	_	_
-33	Duailibe	_	PROPN	PNOUN	_	32	flat	_	SpaceAfter=No
-34	;	_	PUNCT	.	_	11	punct	_	_
+7	SP	_	PROPN	PNOUN	_	6	flat	_	_
+8	)	)	PUNCT	.	_	6	punct	_	_
+9	vai	ir	AUX	AUX	_	10	aux	_	_
+10	sugerir	sugerir	VERB	VERB	_	0	root	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	quebra	quebra	NOUN	NOUN	_	10	obj	_	_
+13-14	dos	_	_	_	_	_	_	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
+14	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	sigilos	sigilo	NOUN	NOUN	_	12	nmod	_	_
+16	bancário	bancário	ADJ	ADJ	_	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	.	_	18	punct	_	_
+18	fiscal	fiscal	ADJ	ADJ	_	16	conj	_	_
+19	e	e	CCONJ	CONJ	_	20	cc	_	_
+20	telefônico	telefônico	ADJ	ADJ	_	16	conj	_	_
+21-22	da	_	_	_	_	_	_	_	_
+21	de	de	ADP	ADP	_	23	case	_	_
+22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	esposa	esposo	NOUN	NOUN	_	15	nmod	_	_
+24	de	de	ADP	ADP	_	25	case	_	_
+25	Raul	_	PROPN	PNOUN	_	23	nmod	_	_
+26	Filho	_	PROPN	PNOUN	_	25	flat	_	SpaceAfter=No
+27	,	,	PUNCT	.	_	29	punct	_	_
+28	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	deputada	deputado	NOUN	NOUN	_	23	appos	_	_
+30	estadual	estadual	ADJ	ADJ	_	29	amod	_	_
+31	Solange	_	PROPN	PNOUN	_	29	appos	_	_
+32	Duailibe	_	PROPN	PNOUN	_	31	flat	_	SpaceAfter=No
+33	;	_	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s6990
 # text = O procedimento, autorizado pela Juíza Rosaura Marques Borba, da 2 ª Vara da Infância e Juventude, foi realizado no final de setembro no próprio Hospital e tem uma vida útil de três anos.

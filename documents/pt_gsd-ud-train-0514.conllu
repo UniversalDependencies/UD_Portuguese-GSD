@@ -1,24 +1,24 @@
 # sent_id = train-s5102
-# text = Wilder Pedro de Morais (DEM - GO) assinou o termo de posse e fez o juramento.
-1	Wilder	_	PROPN	PNOUN	_	10	nsubj	_	_
+# text = Wilder Pedro de Morais (DEM-GO) assinou o termo de posse e fez o juramento.
+1	Wilder	_	PROPN	PNOUN	_	9	nsubj	_	_
 2	Pedro	_	PROPN	PNOUN	_	1	flat	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
 4	Morais	_	PROPN	PNOUN	_	1	nmod	_	_
 5	(	(	PUNCT	.	_	6	punct	_	SpaceAfter=No
+6-7	DEM-GO	_	_	_	_	_	_	_	SpaceAfter=No
 6	DEM	_	PROPN	PNOUN	_	1	appos	_	_
-7	-	-	PUNCT	.	_	6	punct	_	_
-8	GO	_	PROPN	PNOUN	_	6	flat	_	SpaceAfter=No
-9	)	)	PUNCT	.	_	6	punct	_	_
-10	assinou	assinar	VERB	VERB	_	0	root	_	_
-11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	termo	termo	NOUN	NOUN	_	10	obj	_	_
-13	de	de	ADP	ADP	_	14	case	_	_
-14	posse	posse	NOUN	NOUN	_	12	nmod	_	_
-15	e	e	CCONJ	CONJ	_	16	cc	_	_
-16	fez	fazer	VERB	VERB	_	10	conj	_	_
-17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	juramento	juramento	NOUN	NOUN	_	16	obj	_	SpaceAfter=No
-19	.	.	PUNCT	.	_	10	punct	_	_
+7	GO	_	PROPN	PNOUN	_	6	flat	_	_
+8	)	)	PUNCT	.	_	6	punct	_	_
+9	assinou	assinar	VERB	VERB	_	0	root	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	termo	termo	NOUN	NOUN	_	9	obj	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
+13	posse	posse	NOUN	NOUN	_	11	nmod	_	_
+14	e	e	CCONJ	CONJ	_	15	cc	_	_
+15	fez	fazer	VERB	VERB	_	9	conj	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	juramento	juramento	NOUN	NOUN	_	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s5103
 # text = A Prefeitura de Montes Claros, através da Secretaria Municipal de Agropecuária e Abastecimento, está reformando diversas estradas da zona rural, beneficiando várias comunidades e centenas de famílias de produtores.
@@ -187,7 +187,7 @@
 30	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s5107
-# text = "Manuela possui um carisma muito grande, conhece os problemas de Porto Alegre e sabe defendê - los junto à população.
+# text = "Manuela possui um carisma muito grande, conhece os problemas de Porto Alegre e sabe defendê-los junto à população.
 1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
 2	Manuela	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	possui	possuir	VERB	VERB	_	0	root	_	_
@@ -204,15 +204,15 @@
 14	Alegre	_	PROPN	PNOUN	_	13	amod	_	_
 15	e	e	CCONJ	CONJ	_	16	cc	_	_
 16	sabe	saber	VERB	VERB	_	3	conj	_	_
+17-18	defendê-los	_	_	_	_	_	_	_	_
 17	defendê	defender	VERB	VERB	_	16	xcomp	_	_
-18	-	-	PUNCT	.	_	17	punct	_	_
-19	los	_	PRON	PRON	_	17	obj	_	_
-20	junto	junto	ADV	ADV	_	17	advmod	_	_
-21-22	à	_	_	_	_	_	_	_	_
-21	a	a	ADP	ADP	_	23	case	_	_
-22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-23	população	população	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
-24	.	.	PUNCT	.	_	3	punct	_	_
+18	los	_	PRON	PRON	_	17	obj	_	_
+19	junto	junto	ADV	ADV	_	17	advmod	_	_
+20-21	à	_	_	_	_	_	_	_	_
+20	a	a	ADP	ADP	_	22	case	_	_
+21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	população	população	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s5108
 # text = Um dos momentos mais emocionantes vividos com o animal, conta Bárbara, foi tê - lo encontrado esperando por ela na clínica, de pé e cheio de faixas, após a cirurgia.
@@ -232,9 +232,9 @@
 13	Bárbara	_	PROPN	PNOUN	_	12	nsubj	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	12	punct	_	_
 15	foi	_	VERB	VERB	_	0	root	_	_
-16	tê	ter	AUX	AUX	_	19	aux	_	_
-17	-	-	PUNCT	.	_	19	punct	_	_
-18	lo	_	PRON	PRON	_	19	obj	_	_
+16	tê	ter	AUX	AUX	_	19	aux	_	ToDo=NonCatenaCompound
+17	-	-	PUNCT	.	_	19	punct	_	ToDo=NonCatenaCompound
+18	lo	_	PRON	PRON	_	19	obj	_	ToDo=NonCatenaCompound
 19	encontrado	encontrar	VERB	VERB	_	15	csubj	_	_
 20	esperando	esperar	VERB	VERB	_	19	acl	_	_
 21	por	por	ADP	ADP	_	22	case	_	_

@@ -1,22 +1,22 @@
 # sent_id = train-s6721
-# text = Segundo o censo norte - americano de 2000, a sua população era de 3312 habitantes.
+# text = Segundo o censo norte-americano de 2000, a sua população era de 3312 habitantes.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	censo	censo	NOUN	NOUN	_	13	nmod	_	_
-4	norte	norte	ADJ	ADJ	_	6	amod	_	_
-5	-	-	PUNCT	.	_	6	punct	_	_
-6	americano	americano	ADJ	ADJ	_	3	amod	_	_
-7	de	de	ADP	ADP	_	8	case	_	_
-8	2000	2000	NUM	NUM	NumType=Card	3	nmod	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	3	punct	_	_
-10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-11	sua	_	DET	DET	_	12	det:poss	_	_
-12	população	população	NOUN	NOUN	_	13	nsubj	_	_
-13	era	_	VERB	VERB	_	0	root	_	_
-14	de	de	ADP	ADP	_	16	case	_	_
-15	3312	3312	NUM	NUM	NumType=Card	16	nummod	_	_
-16	habitantes	habitante	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
-17	.	.	PUNCT	.	_	13	punct	_	_
+3	censo	censo	NOUN	NOUN	_	12	nmod	_	_
+4-5	norte-americano	_	_	_	_	_	_	_	_
+4	norte	norte	ADJ	ADJ	_	5	amod	_	_
+5	americano	americano	ADJ	ADJ	_	3	amod	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
+7	2000	2000	NUM	NUM	NumType=Card	3	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	3	punct	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	sua	_	DET	DET	_	11	det:poss	_	_
+11	população	população	NOUN	NOUN	_	12	nsubj	_	_
+12	era	_	VERB	VERB	_	0	root	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
+14	3312	3312	NUM	NUM	NumType=Card	15	nummod	_	_
+15	habitantes	habitante	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = train-s6722
 # text = O trabalhador foi levado para o Hospital Samuel Libânio, mas não resistiu.
@@ -137,23 +137,23 @@
 37	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s6725
-# text = Nosso abre - alas será coreografado, assim como outras 3 alas ", contou.
+# text = Nosso abre-alas será coreografado, assim como outras 3 alas ", contou.
 1	Nosso	_	DET	DET	_	2	det:poss	_	_
-2	abre	_	NOUN	NOUN	_	6	nsubj:pass	_	_
-3	-	-	PUNCT	.	_	2	punct	_	_
-4	alas	ala	NOUN	NOUN	_	2	flat	_	_
-5	será	ser	AUX	AUX	_	6	aux:pass	_	_
-6	coreografado	coreografar	VERB	VERB	_	15	ccomp	_	SpaceAfter=No
-7	,	,	PUNCT	.	_	12	punct	_	_
-8	assim	assim	ADV	ADV	_	12	case	_	_
-9	como	_	ADP	ADP	_	8	fixed	_	_
-10	outras	_	DET	DET	_	12	det	_	_
-11	3	3	NUM	NUM	NumType=Card	12	nummod	_	_
-12	alas	ala	NOUN	NOUN	_	6	nmod	_	_
-13	"	"	PUNCT	.	_	12	punct	_	SpaceAfter=No
-14	,	,	PUNCT	.	_	15	punct	_	_
-15	contou	contar	VERB	VERB	_	0	root	_	SpaceAfter=No
-16	.	.	PUNCT	.	_	15	punct	_	_
+2-3	abre-alas	_	_	_	_	_	_	_	_
+2	abre	_	NOUN	NOUN	_	5	nsubj:pass	_	_
+3	alas	ala	NOUN	NOUN	_	2	flat	_	_
+4	será	ser	AUX	AUX	_	5	aux:pass	_	_
+5	coreografado	coreografar	VERB	VERB	_	14	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	.	_	11	punct	_	_
+7	assim	assim	ADV	ADV	_	11	case	_	_
+8	como	_	ADP	ADP	_	7	fixed	_	_
+9	outras	_	DET	DET	_	11	det	_	_
+10	3	3	NUM	NUM	NumType=Card	11	nummod	_	_
+11	alas	ala	NOUN	NOUN	_	5	nmod	_	_
+12	"	"	PUNCT	.	_	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	.	_	14	punct	_	_
+14	contou	contar	VERB	VERB	_	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = train-s6726
 # text = Villehardouin registou que Marie "era uma mulher graciosa e virtuosa e muito honrada".
@@ -215,7 +215,7 @@
 16	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s6729
-# text = No sentido que vocês noticiam e no sentido de tentar tirar de perto dela quem pode ajudá - la.
+# text = No sentido que vocês noticiam e no sentido de tentar tirar de perto dela quem pode ajudá-la.
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -236,10 +236,10 @@
 16	dela	_	X	ADPPRON	_	15	nmod	_	_
 17	quem	_	PRON	PRON	_	19	nsubj	_	_
 18	pode	_	AUX	AUX	_	19	aux	_	_
+19-20	ajudá-la	_	_	_	_	_	_	_	SpaceAfter=No
 19	ajudá	ajudar	VERB	VERB	_	13	ccomp	_	_
-20	-	-	PUNCT	.	_	19	punct	_	_
-21	la	_	PRON	PRON	_	19	obj	_	SpaceAfter=No
-22	.	.	PUNCT	.	_	3	punct	_	_
+20	la	_	PRON	PRON	_	19	obj	_	_
+21	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s6730
 # text = Ministros, autoridades e pessoas que trabalham em organizações governamentais aprendem sobre tópicos como estruturas e procedimentos legislativos da União Europeia, nacionais e conflitos entre a Constituição, responsabilidade civil e negligência, Direito do Trabalho e Direito de Propriedade.

@@ -23,7 +23,7 @@
 21	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = test-s518
-# text = O prefeito de Duque de Caxias, Alexandre Cardoso, estima que ao menos 12 pessoas estejam desaparecidas após as fortes chuvas que provocaram destruição no distrito de Xerém nesta quinta - feira (3).
+# text = O prefeito de Duque de Caxias, Alexandre Cardoso, estima que ao menos 12 pessoas estejam desaparecidas após as fortes chuvas que provocaram destruição no distrito de Xerém nesta quinta-feira (3).
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	prefeito	prefeito	NOUN	NOUN	_	11	nsubj	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
@@ -57,14 +57,14 @@
 29	distrito	distrito	NOUN	NOUN	_	25	nmod	_	_
 30	de	de	ADP	ADP	_	31	case	_	_
 31	Xerém	_	PROPN	PNOUN	_	29	nmod	_	_
-32	nesta	_	ADP	ADP	_	35	case	_	_
-33	quinta	_	ADJ	ADJ	_	35	amod	_	_
-34	-	-	PUNCT	.	_	35	punct	_	_
-35	feira	_	PROPN	PNOUN	_	25	nmod	_	_
-36	(	(	PUNCT	.	_	37	punct	_	SpaceAfter=No
-37	3	3	NUM	NUM	NumType=Card	35	nmod	_	SpaceAfter=No
-38	)	)	PUNCT	.	_	37	punct	_	SpaceAfter=No
-39	.	.	PUNCT	.	_	11	punct	_	_
+32	nesta	_	ADP	ADP	_	34	case	_	_
+33-34	quinta-feira	_	_	_	_	_	_	_	_
+33	quinta	_	ADJ	ADJ	_	34	amod	_	_
+34	feira	_	PROPN	PNOUN	_	25	nmod	_	_
+35	(	(	PUNCT	.	_	36	punct	_	SpaceAfter=No
+36	3	3	NUM	NUM	NumType=Card	34	nmod	_	SpaceAfter=No
+37	)	)	PUNCT	.	_	36	punct	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = test-s519
 # text = Contém 225 apartamentos e mais de 23 mil metros quadrados de espaço de escritórios e lojas.
@@ -138,7 +138,7 @@
 44	.	.	PUNCT	.	_	33	punct	_	_
 
 # sent_id = test-s521
-# text = Um novo terremoto, de intensidade moderada, foi registrado no Irã na terça - feira e derrubou uma ponte que ligava os dois povoados mais atingidos pelo tremor de sábado, Varzagan e Ahar, informou a agência oficial Irna.
+# text = Um novo terremoto, de intensidade moderada, foi registrado no Irã na terça-feira e derrubou uma ponte que ligava os dois povoados mais atingidos pelo tremor de sábado, Varzagan e Ahar, informou a agência oficial Irna.
 1	Um	_	DET	DET	_	3	det	_	_
 2	novo	novo	ADJ	ADJ	_	3	amod	_	_
 3	terremoto	terremoto	NOUN	NOUN	_	10	nsubj:pass	_	SpaceAfter=No
@@ -148,45 +148,45 @@
 7	moderada	moderado	ADJ	ADJ	_	6	amod	_	SpaceAfter=No
 8	,	,	PUNCT	.	_	6	punct	_	_
 9	foi	_	AUX	AUX	_	10	aux:pass	_	_
-10	registrado	registrar	VERB	VERB	_	40	ccomp	_	_
+10	registrado	registrar	VERB	VERB	_	39	ccomp	_	_
 11-12	no	_	_	_	_	_	_	_	_
 11	em	em	ADP	ADP	_	13	case	_	_
 12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	Irã	_	PROPN	PNOUN	_	10	nmod	_	_
 14-15	na	_	_	_	_	_	_	_	_
-14	em	em	ADP	ADP	_	18	case	_	_
-15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-16	terça	_	PROPN	PNOUN	_	18	amod	_	_
-17	-	-	PUNCT	.	_	18	punct	_	_
-18	feira	_	PROPN	PNOUN	_	10	nmod	_	_
-19	e	e	CCONJ	CONJ	_	20	cc	_	_
-20	derrubou	derrubar	VERB	VERB	_	10	conj	_	_
-21	uma	um	DET	DET	_	22	det	_	_
-22	ponte	ponte	NOUN	NOUN	_	20	obj	_	_
-23	que	_	PRON	PRON	_	24	nsubj	_	_
-24	ligava	ligar	VERB	VERB	_	22	acl:relcl	_	_
-25	os	o	DET	DET	_	27	det	_	_
-26	dois	_	NUM	NUM	NumType=Card	27	nummod	_	_
-27	povoados	povoado	NOUN	NOUN	_	24	obj	_	_
-28	mais	mais	ADV	ADV	_	29	advmod	_	_
-29	atingidos	atingir	VERB	VERB	_	27	acl	_	_
-30-31	pelo	_	_	_	_	_	_	_	_
-30	por	por	ADP	ADP	_	32	case	_	_
-31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
-32	tremor	tremor	NOUN	NOUN	_	29	nmod	_	_
-33	de	de	ADP	ADP	_	34	case	_	_
-34	sábado	_	PROPN	PNOUN	_	32	nmod	_	SpaceAfter=No
-35	,	,	PUNCT	.	_	36	punct	_	_
-36	Varzagan	_	PROPN	PNOUN	_	27	appos	_	_
-37	e	e	CCONJ	CONJ	_	38	cc	_	_
-38	Ahar	_	PROPN	PNOUN	_	36	conj	_	SpaceAfter=No
-39	,	,	PUNCT	.	_	40	punct	_	_
-40	informou	informar	VERB	VERB	_	0	root	_	_
-41	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
-42	agência	agência	NOUN	NOUN	_	40	nsubj	_	_
-43	oficial	oficial	ADJ	ADJ	_	42	amod	_	_
-44	Irna	_	PROPN	PNOUN	_	42	appos	_	SpaceAfter=No
-45	.	.	PUNCT	.	_	40	punct	_	_
+14	em	em	ADP	ADP	_	17	case	_	_
+15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16-17	terça-feira	_	_	_	_	_	_	_	_
+16	terça	_	PROPN	PNOUN	_	17	amod	_	_
+17	feira	_	PROPN	PNOUN	_	10	nmod	_	_
+18	e	e	CCONJ	CONJ	_	19	cc	_	_
+19	derrubou	derrubar	VERB	VERB	_	10	conj	_	_
+20	uma	um	DET	DET	_	21	det	_	_
+21	ponte	ponte	NOUN	NOUN	_	19	obj	_	_
+22	que	_	PRON	PRON	_	23	nsubj	_	_
+23	ligava	ligar	VERB	VERB	_	21	acl:relcl	_	_
+24	os	o	DET	DET	_	26	det	_	_
+25	dois	_	NUM	NUM	NumType=Card	26	nummod	_	_
+26	povoados	povoado	NOUN	NOUN	_	23	obj	_	_
+27	mais	mais	ADV	ADV	_	28	advmod	_	_
+28	atingidos	atingir	VERB	VERB	_	26	acl	_	_
+29-30	pelo	_	_	_	_	_	_	_	_
+29	por	por	ADP	ADP	_	31	case	_	_
+30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	tremor	tremor	NOUN	NOUN	_	28	nmod	_	_
+32	de	de	ADP	ADP	_	33	case	_	_
+33	sábado	_	PROPN	PNOUN	_	31	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	.	_	35	punct	_	_
+35	Varzagan	_	PROPN	PNOUN	_	26	appos	_	_
+36	e	e	CCONJ	CONJ	_	37	cc	_	_
+37	Ahar	_	PROPN	PNOUN	_	35	conj	_	SpaceAfter=No
+38	,	,	PUNCT	.	_	39	punct	_	_
+39	informou	informar	VERB	VERB	_	0	root	_	_
+40	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	agência	agência	NOUN	NOUN	_	39	nsubj	_	_
+42	oficial	oficial	ADJ	ADJ	_	41	amod	_	_
+43	Irna	_	PROPN	PNOUN	_	41	appos	_	SpaceAfter=No
+44	.	.	PUNCT	.	_	39	punct	_	_
 
 # sent_id = test-s522
 # text = Segundo a Polícia Civil, o mandado de prisão preventiva foi expedido na Bahia, após a prisão dum grupo especializado na cidade de Porto Seguro (BA).
@@ -320,9 +320,9 @@
 4	arquiteta	_	NOUN	NOUN	_	2	obj	_	_
 5	Maria	_	PROPN	PNOUN	_	4	appos	_	_
 6	Madalena	_	PROPN	PNOUN	_	5	flat	_	_
-7	San	_	PROPN	PNOUN	_	5	flat	_	_
-8	-	-	PUNCT	.	_	5	punct	_	_
-9	Martin	_	PROPN	PNOUN	_	5	flat	_	_
+7	San	_	PROPN	PNOUN	_	5	flat	_	ToDo=NonCatenaCompound
+8	-	-	PUNCT	.	_	5	punct	_	ToDo=NonCatenaCompound
+9	Martin	_	PROPN	PNOUN	_	5	flat	_	ToDo=NonCatenaCompound
 10	como	como	ADP	ADP	_	11	case	_	_
 11	secretária	_	NOUN	NOUN	_	2	nmod	_	_
 12	de	de	ADP	ADP	_	13	case	_	_

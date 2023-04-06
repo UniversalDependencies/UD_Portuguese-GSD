@@ -34,7 +34,7 @@
 19	.	.	PUNCT	.	_	16	punct	_	_
 
 # sent_id = train-s932
-# text = O Furacão detinha 40 % dos direitos econômicos do jogador e afirmou, na publicação, que aceitou vende - lo por conta duma série de episódios de indisciplina de Guerrón.
+# text = O Furacão detinha 40 % dos direitos econômicos do jogador e afirmou, na publicação, que aceitou vende-lo por conta duma série de episódios de indisciplina de Guerrón.
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Furacão	_	PROPN	PNOUN	_	3	nsubj	_	_
 3	detinha	deter	VERB	VERB	_	0	root	_	_
@@ -59,22 +59,22 @@
 19	,	,	PUNCT	.	_	18	punct	_	_
 20	que	que	CCONJ	CONJ	_	21	mark	_	_
 21	aceitou	aceitar	VERB	VERB	_	14	ccomp	_	_
+22-23	vende-lo	_	_	_	_	_	_	_	_
 22	vende	_	VERB	VERB	_	21	xcomp	_	_
-23	-	-	PUNCT	.	_	22	punct	_	_
-24	lo	_	PRON	PRON	_	22	obj	_	_
-25	por	por	ADP	ADP	_	29	case	_	_
-26	conta	conta	NOUN	NOUN	_	25	fixed	_	_
-27-28	duma	_	_	_	_	_	_	_	_
-27	de	_	ADP	ADP	_	25	fixed	_	_
-28	uma	um	DET	DET	_	29	det	_	_
-29	série	série	NOUN	NOUN	_	21	nmod	_	_
-30	de	de	ADP	ADP	_	31	case	_	_
-31	episódios	episódio	NOUN	NOUN	_	29	nmod	_	_
-32	de	de	ADP	ADP	_	33	case	_	_
-33	indisciplina	indisciplina	NOUN	NOUN	_	31	nmod	_	_
-34	de	de	ADP	ADP	_	35	case	_	_
-35	Guerrón	_	PROPN	PNOUN	_	29	nmod	_	SpaceAfter=No
-36	.	.	PUNCT	.	_	3	punct	_	_
+23	lo	_	PRON	PRON	_	22	obj	_	_
+24	por	por	ADP	ADP	_	28	case	_	_
+25	conta	conta	NOUN	NOUN	_	24	fixed	_	_
+26-27	duma	_	_	_	_	_	_	_	_
+26	de	_	ADP	ADP	_	24	fixed	_	_
+27	uma	um	DET	DET	_	28	det	_	_
+28	série	série	NOUN	NOUN	_	21	nmod	_	_
+29	de	de	ADP	ADP	_	30	case	_	_
+30	episódios	episódio	NOUN	NOUN	_	28	nmod	_	_
+31	de	de	ADP	ADP	_	32	case	_	_
+32	indisciplina	indisciplina	NOUN	NOUN	_	30	nmod	_	_
+33	de	de	ADP	ADP	_	34	case	_	_
+34	Guerrón	_	PROPN	PNOUN	_	28	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s933
 # text = Os fatos geradores ocorridos a partir de 1 º de setembro já estarão submetidos à alíquota normal, independentemente se o financiamento, eventual entrada ou pagamento antecipado tenham ocorrido até o dia anterior ", informou a área técnica da Receita.
@@ -325,8 +325,8 @@
 6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	mercado	mercado	NOUN	NOUN	_	4	nmod	_	_
 8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	DKW	_	PROPN	PNOUN	_	4	nsubj:pass	_	_
-10	-	-	PUNCT	.	_	15	punct	_	_
+9	DKW	_	PROPN	PNOUN	_	4	nsubj:pass	_	ToDo=NonCatenaCompound
+10	-	-	PUNCT	.	_	15	punct	_	ToDo=NonCatenaCompound
 11	Vemag	_	PROPN	PNOUN	_	9	flat	_	_
 12	Fissore	_	PROPN	PNOUN	_	9	flat	_	_
 13	e	e	CCONJ	CONJ	_	15	cc	_	_

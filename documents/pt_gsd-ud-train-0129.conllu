@@ -27,7 +27,7 @@
 24	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s1280
-# text = À base de voluntariado, a ONG provê serviços, entretenimento, cultura e uma oportunidade de socialização saudável para cerca de 300 jovens carentes em comunidades como esta -- onde 97 % da população é afro - americana.
+# text = À base de voluntariado, a ONG provê serviços, entretenimento, cultura e uma oportunidade de socialização saudável para cerca de 300 jovens carentes em comunidades como esta -- onde 97 % da população é afro-americana.
 1-2	À	_	_	_	_	_	_	_	_
 1	A	a	ADP	ADP	_	3	case	_	_
 2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -68,10 +68,10 @@
 36	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
 37	população	população	NOUN	NOUN	_	34	nmod	_	_
 38	é	ser	VERB	VERB	_	28	acl:relcl	_	_
-39	afro	_	PART	PRT	_	41	amod	_	_
-40	-	-	PUNCT	.	_	41	punct	_	_
-41	americana	americano	ADJ	ADJ	_	38	xcomp	_	SpaceAfter=No
-42	.	.	PUNCT	.	_	9	punct	_	_
+39-40	afro-americana	_	_	_	_	_	_	_	SpaceAfter=No
+39	afro	_	PART	PRT	_	40	amod	_	_
+40	americana	americano	ADJ	ADJ	_	38	xcomp	_	_
+41	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s1281
 # text = Segundo, a turma de Mark Zuckerberg mantém parcerias com alguns fabricantes para que os aparelhos tenham acesso fácil à rede social.
@@ -164,41 +164,41 @@
 17	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = train-s1284
-# text = A previsão é que o próximo concurso da Mega - Sena, que será realizado nesta quarta - feira, pague um prêmio de R $ 9 milhões.
+# text = A previsão é que o próximo concurso da Mega-Sena, que será realizado nesta quarta-feira, pague um prêmio de R $ 9 milhões.
 1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	previsão	previsão	NOUN	NOUN	_	0	root	_	_
 3	é	ser	AUX	AUX	_	2	cop	_	_
-4	que	que	CCONJ	CONJ	_	22	mark	_	_
+4	que	que	CCONJ	CONJ	_	20	mark	_	_
 5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	próximo	próximo	ADJ	ADJ	_	7	amod	_	_
-7	concurso	concurso	NOUN	NOUN	_	22	nsubj	_	_
+7	concurso	concurso	NOUN	NOUN	_	20	nsubj	_	_
 8-9	da	_	_	_	_	_	_	_	_
 8	de	de	ADP	ADP	_	10	case	_	_
 9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10-11	Mega-Sena	_	_	_	_	_	_	_	SpaceAfter=No
 10	Mega	_	PROPN	PNOUN	_	7	nmod	_	_
-11	-	-	PUNCT	.	_	10	punct	_	_
-12	Sena	_	PROPN	PNOUN	_	10	flat	_	SpaceAfter=No
-13	,	,	PUNCT	.	_	16	punct	_	_
-14	que	_	PRON	PRON	_	16	nsubj:pass	_	_
-15	será	ser	AUX	AUX	_	16	aux:pass	_	_
-16	realizado	realizar	VERB	VERB	_	7	acl:relcl	_	_
-17	nesta	_	ADP	ADP	_	20	case	_	_
-18	quarta	_	PROPN	PNOUN	_	20	amod	_	_
-19	-	-	PUNCT	.	_	20	punct	_	_
-20	feira	_	PROPN	PNOUN	_	16	nmod	_	SpaceAfter=No
-21	,	,	PUNCT	.	_	16	punct	_	_
-22	pague	pagar	VERB	VERB	_	2	csubj	_	_
-23	um	um	DET	DET	_	24	det	_	_
-24	prêmio	prêmio	NOUN	NOUN	_	22	obj	_	_
-25	de	de	ADP	ADP	_	26	case	_	_
-26	R	r	NOUN	NOUN	_	24	nmod	_	_
-27	$	_	SYM	SYM	_	26	flat	_	_
-28	9	9	NUM	NUM	NumType=Card	29	nummod	_	_
-29	milhões	_	NUM	NUM	NumType=Card	26	nummod	_	SpaceAfter=No
-30	.	.	PUNCT	.	_	2	punct	_	_
+11	Sena	_	PROPN	PNOUN	_	10	flat	_	_
+12	,	,	PUNCT	.	_	15	punct	_	_
+13	que	_	PRON	PRON	_	15	nsubj:pass	_	_
+14	será	ser	AUX	AUX	_	15	aux:pass	_	_
+15	realizado	realizar	VERB	VERB	_	7	acl:relcl	_	_
+16	nesta	_	ADP	ADP	_	18	case	_	_
+17-18	quarta-feira	_	_	_	_	_	_	_	SpaceAfter=No
+17	quarta	_	PROPN	PNOUN	_	18	amod	_	_
+18	feira	_	PROPN	PNOUN	_	15	nmod	_	_
+19	,	,	PUNCT	.	_	15	punct	_	_
+20	pague	pagar	VERB	VERB	_	2	csubj	_	_
+21	um	um	DET	DET	_	22	det	_	_
+22	prêmio	prêmio	NOUN	NOUN	_	20	obj	_	_
+23	de	de	ADP	ADP	_	24	case	_	_
+24	R	r	NOUN	NOUN	_	22	nmod	_	_
+25	$	_	SYM	SYM	_	24	flat	_	_
+26	9	9	NUM	NUM	NumType=Card	27	nummod	_	_
+27	milhões	_	NUM	NUM	NumType=Card	24	nummod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s1285
-# text = Essa informação foi confirmada agora pelo diretor - executivo da Agerba, Eduardo Pessoa, durante audiência na Assembleia Legislativa da Bahia.
+# text = Essa informação foi confirmada agora pelo diretor-executivo da Agerba, Eduardo Pessoa, durante audiência na Assembleia Legislativa da Bahia.
 1	Essa	_	DET	DET	_	2	det	_	_
 2	informação	informação	NOUN	NOUN	_	4	nsubj:pass	_	_
 3	foi	_	AUX	AUX	_	4	aux:pass	_	_
@@ -207,29 +207,29 @@
 6-7	pelo	_	_	_	_	_	_	_	_
 6	por	por	ADP	ADP	_	8	case	_	_
 7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8-9	diretor-executivo	_	_	_	_	_	_	_	_
 8	diretor	diretor	NOUN	NOUN	_	4	nmod	_	_
-9	-	-	PUNCT	.	_	8	punct	_	_
-10	executivo	executivo	ADJ	ADJ	_	8	amod	_	_
-11-12	da	_	_	_	_	_	_	_	_
-11	de	de	ADP	ADP	_	13	case	_	_
-12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	Agerba	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
-14	,	,	PUNCT	.	_	15	punct	_	_
-15	Eduardo	_	PROPN	PNOUN	_	8	appos	_	_
-16	Pessoa	_	PROPN	PNOUN	_	15	flat	_	SpaceAfter=No
-17	,	,	PUNCT	.	_	19	punct	_	_
-18	durante	_	ADP	ADP	_	19	case	_	_
-19	audiência	audiência	NOUN	NOUN	_	4	nmod	_	_
-20-21	na	_	_	_	_	_	_	_	_
-20	em	em	ADP	ADP	_	22	case	_	_
-21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	Assembleia	_	PROPN	PNOUN	_	19	nmod	_	_
-23	Legislativa	_	PROPN	PNOUN	_	22	amod	_	_
-24-25	da	_	_	_	_	_	_	_	_
-24	de	de	ADP	ADP	_	26	case	_	_
-25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	Bahia	_	PROPN	PNOUN	_	22	nmod	_	SpaceAfter=No
-27	.	.	PUNCT	.	_	4	punct	_	_
+9	executivo	executivo	ADJ	ADJ	_	8	amod	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	ADP	_	12	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Agerba	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	.	_	14	punct	_	_
+14	Eduardo	_	PROPN	PNOUN	_	8	appos	_	_
+15	Pessoa	_	PROPN	PNOUN	_	14	flat	_	SpaceAfter=No
+16	,	,	PUNCT	.	_	18	punct	_	_
+17	durante	_	ADP	ADP	_	18	case	_	_
+18	audiência	audiência	NOUN	NOUN	_	4	nmod	_	_
+19-20	na	_	_	_	_	_	_	_	_
+19	em	em	ADP	ADP	_	21	case	_	_
+20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Assembleia	_	PROPN	PNOUN	_	18	nmod	_	_
+22	Legislativa	_	PROPN	PNOUN	_	21	amod	_	_
+23-24	da	_	_	_	_	_	_	_	_
+23	de	de	ADP	ADP	_	25	case	_	_
+24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	Bahia	_	PROPN	PNOUN	_	21	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s1286
 # text = "Nesse caso o processo é focado nesta transição, para que a pessoa se encontre, ache a carreira correta para ela", diz França, lembrando que mudanças de departamento e de área na mesma empresa também levam profissionais às sessões de coaching.

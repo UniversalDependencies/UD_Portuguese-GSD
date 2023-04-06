@@ -1,30 +1,30 @@
 # sent_id = dev-s952
-# text = Uma colisão transversal entre um carro de placa OEO - 4618 e uma moto de placa NVL - 1920 deixou um motociclista bastante ferido.
+# text = Uma colisão transversal entre um carro de placa OEO-4618 e uma moto de placa NVL-1920 deixou um motociclista bastante ferido.
 1	Uma	_	DET	DET	_	2	det	_	_
-2	colisão	colisão	NOUN	NOUN	_	20	nsubj	_	_
+2	colisão	colisão	NOUN	NOUN	_	18	nsubj	_	_
 3	transversal	transversal	ADJ	ADJ	_	2	amod	_	_
 4	entre	_	ADP	ADP	_	6	case	_	_
 5	um	um	DET	DET	_	6	det	_	_
 6	carro	carro	NOUN	NOUN	_	2	nmod	_	_
 7	de	de	ADP	ADP	_	8	case	_	_
 8	placa	placa	NOUN	NOUN	_	6	nmod	_	_
+9-10	OEO-4618	_	_	_	_	_	_	_	_
 9	OEO	_	PROPN	PNOUN	_	8	appos	_	_
-10	-	-	PUNCT	.	_	9	punct	_	_
-11	4618	4618	NUM	NUM	NumType=Card	9	appos	_	_
-12	e	e	CCONJ	CONJ	_	14	cc	_	_
-13	uma	um	DET	DET	_	14	det	_	_
-14	moto	moto	NOUN	NOUN	_	6	conj	_	_
-15	de	de	ADP	ADP	_	16	case	_	_
-16	placa	placa	NOUN	NOUN	_	14	nmod	_	_
-17	NVL	_	PROPN	PNOUN	_	16	appos	_	_
-18	-	-	PUNCT	.	_	17	punct	_	_
-19	1920	1920	NUM	NUM	NumType=Card	17	appos	_	_
-20	deixou	deixar	VERB	VERB	_	0	root	_	_
-21	um	um	DET	DET	_	22	det	_	_
-22	motociclista	motociclista	NOUN	NOUN	_	24	nsubj	_	_
-23	bastante	bastante	ADV	ADV	_	24	advmod	_	_
-24	ferido	ferido	ADJ	ADJ	_	20	xcomp	_	SpaceAfter=No
-25	.	.	PUNCT	.	_	20	punct	_	_
+10	4618	4618	NUM	NUM	NumType=Card	9	appos	_	_
+11	e	e	CCONJ	CONJ	_	13	cc	_	_
+12	uma	um	DET	DET	_	13	det	_	_
+13	moto	moto	NOUN	NOUN	_	6	conj	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
+15	placa	placa	NOUN	NOUN	_	13	nmod	_	_
+16-17	NVL-1920	_	_	_	_	_	_	_	_
+16	NVL	_	PROPN	PNOUN	_	15	appos	_	_
+17	1920	1920	NUM	NUM	NumType=Card	16	appos	_	_
+18	deixou	deixar	VERB	VERB	_	0	root	_	_
+19	um	um	DET	DET	_	20	det	_	_
+20	motociclista	motociclista	NOUN	NOUN	_	22	nsubj	_	_
+21	bastante	bastante	ADV	ADV	_	22	advmod	_	_
+22	ferido	ferido	ADJ	ADJ	_	18	xcomp	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	18	punct	_	_
 
 # sent_id = dev-s953
 # text = Os locais de prova estarão disponíveis para consulta a partir das 10h de amanhã (10).
@@ -50,38 +50,37 @@
 19	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = dev-s954
-# text = Abe apontou o ex - primeiro - ministro Taro Aso, de 72 anos, como ministro das Finanças, que também recebeu o portfólio de serviços financeiros.
+# text = Abe apontou o ex-primeiro-ministro Taro Aso, de 72 anos, como ministro das Finanças, que também recebeu o portfólio de serviços financeiros.
 1	Abe	_	PROPN	PNOUN	_	2	nsubj	_	_
 2	apontou	apontar	VERB	VERB	_	0	root	_	_
 3	o	o	DET	DET	_	4	det	_	_
+4-6	ex-primeiro-ministro	_	_	_	_	_	_	_	_
 4	ex	_	PART	PRT	_	2	obj	_	_
-5	-	-	PUNCT	.	_	4	punct	_	_
-6	primeiro	primeiro	ADJ	ADJ	_	4	amod	_	_
-7	-	-	PUNCT	.	_	4	punct	_	_
-8	ministro	ministro	NOUN	NOUN	_	4	flat	_	_
-9	Taro	_	PROPN	PNOUN	_	4	appos	_	_
-10	Aso	_	PROPN	PNOUN	_	9	flat	_	SpaceAfter=No
-11	,	,	PUNCT	.	_	14	punct	_	_
-12	de	de	ADP	ADP	_	14	case	_	_
-13	72	72	NUM	NUM	NumType=Card	14	nummod	_	_
-14	anos	ano	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
-15	,	,	PUNCT	.	_	14	punct	_	_
-16	como	como	ADP	ADP	_	17	case	_	_
-17	ministro	ministro	NOUN	NOUN	_	2	nmod	_	_
-18-19	das	_	_	_	_	_	_	_	_
-18	de	de	ADP	ADP	_	20	case	_	_
-19	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
-20	Finanças	_	PROPN	PNOUN	_	17	nmod	_	SpaceAfter=No
-21	,	,	PUNCT	.	_	24	punct	_	_
-22	que	_	PRON	PRON	_	24	nsubj	_	_
-23	também	também	ADV	ADV	_	24	advmod	_	_
-24	recebeu	receber	VERB	VERB	_	17	acl:relcl	_	_
-25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	portfólio	portfólio	NOUN	NOUN	_	24	obj	_	_
-27	de	de	ADP	ADP	_	28	case	_	_
-28	serviços	serviço	NOUN	NOUN	_	26	nmod	_	_
-29	financeiros	financeiro	ADJ	ADJ	_	28	amod	_	SpaceAfter=No
-30	.	.	PUNCT	.	_	2	punct	_	_
+5	primeiro	primeiro	ADJ	ADJ	_	4	amod	_	_
+6	ministro	ministro	NOUN	NOUN	_	4	flat	_	_
+7	Taro	_	PROPN	PNOUN	_	4	appos	_	_
+8	Aso	_	PROPN	PNOUN	_	7	flat	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	12	punct	_	_
+10	de	de	ADP	ADP	_	12	case	_	_
+11	72	72	NUM	NUM	NumType=Card	12	nummod	_	_
+12	anos	ano	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	.	_	12	punct	_	_
+14	como	como	ADP	ADP	_	15	case	_	_
+15	ministro	ministro	NOUN	NOUN	_	2	nmod	_	_
+16-17	das	_	_	_	_	_	_	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
+17	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	Finanças	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	.	_	22	punct	_	_
+20	que	_	PRON	PRON	_	22	nsubj	_	_
+21	também	também	ADV	ADV	_	22	advmod	_	_
+22	recebeu	receber	VERB	VERB	_	15	acl:relcl	_	_
+23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	portfólio	portfólio	NOUN	NOUN	_	22	obj	_	_
+25	de	de	ADP	ADP	_	26	case	_	_
+26	serviços	serviço	NOUN	NOUN	_	24	nmod	_	_
+27	financeiros	financeiro	ADJ	ADJ	_	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = dev-s955
 # text = Assim como no primeiro debate entre os candidatos a prefeito de Santo André, que ocorreu no dia 8, o postulante ao Paço andreense pelo Psol, Marcelo Reina, manteve discurso ferino.

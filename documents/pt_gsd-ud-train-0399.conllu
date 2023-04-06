@@ -26,8 +26,8 @@
 21	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
 22	eliminações	eliminação	NOUN	NOUN	_	19	nmod	_	_
 23	de	de	ADP	ADP	_	24	case	_	_
-24	Dong	_	PROPN	PNOUN	_	22	nmod	_	_
-25	-	-	PUNCT	.	_	28	punct	_	_
+24	Dong	_	PROPN	PNOUN	_	22	nmod	_	ToDo=NonCatenaCompound
+25	-	-	PUNCT	.	_	28	punct	_	ToDo=NonCatenaCompound
 26	Hyun	_	PROPN	PNOUN	_	24	flat	_	_
 27	e	e	CCONJ	CONJ	_	28	cc	_	_
 28	Kim	_	PROPN	PNOUN	_	24	conj	_	_
@@ -223,31 +223,31 @@
 41	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s3962
-# text = Agora, a notícia de que a vice - direção ficará com o professor Tonico Esteves, reforça ainda mais essa expectativa positiva.
-1	Agora	agora	ADV	ADV	_	18	advmod	_	SpaceAfter=No
+# text = Agora, a notícia de que a vice-direção ficará com o professor Tonico Esteves, reforça ainda mais essa expectativa positiva.
+1	Agora	agora	ADV	ADV	_	17	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	.	_	1	punct	_	_
 3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	notícia	notícia	NOUN	NOUN	_	18	nsubj	_	_
-5	de	_	ADP	ADP	_	11	mark	_	_
-6	que	que	CCONJ	CONJ	_	11	mark	_	_
+4	notícia	notícia	NOUN	NOUN	_	17	nsubj	_	_
+5	de	_	ADP	ADP	_	10	mark	_	_
+6	que	que	CCONJ	CONJ	_	10	mark	_	_
 7	a	o	DET	DET	_	8	det	_	_
-8	vice	_	PART	PRT	_	11	nsubj	_	_
-9	-	-	PUNCT	.	_	8	punct	_	_
-10	direção	direção	NOUN	NOUN	_	8	flat	_	_
-11	ficará	ficar	VERB	VERB	_	4	nmod	_	_
-12	com	com	ADP	ADP	_	14	case	_	_
-13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	professor	professor	NOUN	NOUN	_	11	nmod	_	_
-15	Tonico	_	PROPN	PNOUN	_	14	appos	_	_
-16	Esteves	_	PROPN	PNOUN	_	15	flat	_	SpaceAfter=No
-17	,	,	PUNCT	.	_	4	punct	_	_
-18	reforça	reforçar	VERB	VERB	_	0	root	_	_
-19	ainda	ainda	ADV	ADV	_	20	advmod	_	_
-20	mais	mais	ADV	ADV	_	18	advmod	_	_
-21	essa	_	DET	DET	_	22	det	_	_
-22	expectativa	expectativa	NOUN	NOUN	_	18	obj	_	_
-23	positiva	positivo	ADJ	ADJ	_	22	amod	_	SpaceAfter=No
-24	.	.	PUNCT	.	_	18	punct	_	_
+8-9	vice-direção	_	_	_	_	_	_	_	_
+8	vice	_	PART	PRT	_	10	nsubj	_	_
+9	direção	direção	NOUN	NOUN	_	8	flat	_	_
+10	ficará	ficar	VERB	VERB	_	4	nmod	_	_
+11	com	com	ADP	ADP	_	13	case	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	professor	professor	NOUN	NOUN	_	10	nmod	_	_
+14	Tonico	_	PROPN	PNOUN	_	13	appos	_	_
+15	Esteves	_	PROPN	PNOUN	_	14	flat	_	SpaceAfter=No
+16	,	,	PUNCT	.	_	4	punct	_	_
+17	reforça	reforçar	VERB	VERB	_	0	root	_	_
+18	ainda	ainda	ADV	ADV	_	19	advmod	_	_
+19	mais	mais	ADV	ADV	_	17	advmod	_	_
+20	essa	_	DET	DET	_	21	det	_	_
+21	expectativa	expectativa	NOUN	NOUN	_	17	obj	_	_
+22	positiva	positivo	ADJ	ADJ	_	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	17	punct	_	_
 
 # sent_id = train-s3963
 # text = A dívida espanhola, que em 2011 terminou num nível relativamente baixo na União Europeia (68,5 % do PIB), vai aumentar fortemente em 2012 devido principalmente às necessidades de financiamento bruto de 207,173 bilhões em 2012 (48,02 bilhões líquidos), num contexto de tensão nos mercados, que estão esperando que a Espanha peça um resgate da Europa.

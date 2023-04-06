@@ -134,9 +134,9 @@
 24	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
 25	segundas	_	PROPN	PNOUN	_	29	amod	_	_
 26	e	e	CCONJ	CONJ	_	27	cc	_	_
-27	sextas	_	PROPN	PNOUN	_	25	conj	_	_
+27	sextas	_	PROPN	PNOUN	_	25	conj	_	ToDo=NonCatenaCompound
 28	-	-	PUNCT	.	_	29	punct	_	_
-29	feiras	_	PROPN	PNOUN	_	33	nmod	_	_
+29	feiras	_	PROPN	PNOUN	_	33	nmod	_	ToDo=NonCatenaCompound
 30	normalmente	normalmente	ADV	ADV	_	33	advmod	_	_
 31	não	não	ADV	ADV	Polarity=Neg	33	advmod	_	_
 32	se	_	PRON	PRON	_	33	expl:pv	_	_
@@ -277,7 +277,7 @@
 21	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s9326
-# text = O ministro da Fazenda, Guido Mantega, indicou o vice - presidente executivo da companhia aérea Gol, Leonardo Gomes Pereira, para a presidência da Comissão de Valores Mobiliários (CVM).
+# text = O ministro da Fazenda, Guido Mantega, indicou o vice-presidente executivo da companhia aérea Gol, Leonardo Gomes Pereira, para a presidência da Comissão de Valores Mobiliários (CVM).
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	ministro	ministro	NOUN	NOUN	_	10	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -290,33 +290,33 @@
 9	,	,	PUNCT	.	_	7	punct	_	_
 10	indicou	indicar	VERB	VERB	_	0	root	_	_
 11	o	o	DET	DET	_	12	det	_	_
+12-13	vice-presidente	_	_	_	_	_	_	_	_
 12	vice	_	PART	PRT	_	10	obj	_	_
-13	-	-	PUNCT	.	_	12	punct	_	_
-14	presidente	presidente	NOUN	NOUN	_	12	flat	_	_
-15	executivo	executivo	ADJ	ADJ	_	12	amod	_	_
-16-17	da	_	_	_	_	_	_	_	_
-16	de	de	ADP	ADP	_	18	case	_	_
-17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	companhia	companhia	NOUN	NOUN	_	12	nmod	_	_
-19	aérea	aéreo	ADJ	ADJ	_	18	amod	_	_
-20	Gol	_	PROPN	PNOUN	_	18	appos	_	SpaceAfter=No
-21	,	,	PUNCT	.	_	22	punct	_	_
-22	Leonardo	_	PROPN	PNOUN	_	12	appos	_	_
-23	Gomes	_	PROPN	PNOUN	_	22	flat	_	_
-24	Pereira	_	PROPN	PNOUN	_	22	flat	_	SpaceAfter=No
-25	,	,	PUNCT	.	_	22	punct	_	_
-26	para	para	ADP	ADP	_	28	case	_	_
-27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
-28	presidência	presidência	NOUN	NOUN	_	10	nmod	_	_
-29-30	da	_	_	_	_	_	_	_	_
-29	de	de	ADP	ADP	_	31	case	_	_
-30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-31	Comissão	_	PROPN	PNOUN	_	28	nmod	_	_
-32	de	de	ADP	ADP	_	33	case	_	_
-33	Valores	_	PROPN	PNOUN	_	31	nmod	_	_
-34	Mobiliários	_	PROPN	PNOUN	_	33	amod	_	_
-35	(	(	PUNCT	.	_	36	punct	_	SpaceAfter=No
-36	CVM	_	PROPN	PNOUN	_	31	appos	_	SpaceAfter=No
-37	)	)	PUNCT	.	_	36	punct	_	SpaceAfter=No
-38	.	.	PUNCT	.	_	10	punct	_	_
+13	presidente	presidente	NOUN	NOUN	_	12	flat	_	_
+14	executivo	executivo	ADJ	ADJ	_	12	amod	_	_
+15-16	da	_	_	_	_	_	_	_	_
+15	de	de	ADP	ADP	_	17	case	_	_
+16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	companhia	companhia	NOUN	NOUN	_	12	nmod	_	_
+18	aérea	aéreo	ADJ	ADJ	_	17	amod	_	_
+19	Gol	_	PROPN	PNOUN	_	17	appos	_	SpaceAfter=No
+20	,	,	PUNCT	.	_	21	punct	_	_
+21	Leonardo	_	PROPN	PNOUN	_	12	appos	_	_
+22	Gomes	_	PROPN	PNOUN	_	21	flat	_	_
+23	Pereira	_	PROPN	PNOUN	_	21	flat	_	SpaceAfter=No
+24	,	,	PUNCT	.	_	21	punct	_	_
+25	para	para	ADP	ADP	_	27	case	_	_
+26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	presidência	presidência	NOUN	NOUN	_	10	nmod	_	_
+28-29	da	_	_	_	_	_	_	_	_
+28	de	de	ADP	ADP	_	30	case	_	_
+29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	Comissão	_	PROPN	PNOUN	_	27	nmod	_	_
+31	de	de	ADP	ADP	_	32	case	_	_
+32	Valores	_	PROPN	PNOUN	_	30	nmod	_	_
+33	Mobiliários	_	PROPN	PNOUN	_	32	amod	_	_
+34	(	(	PUNCT	.	_	35	punct	_	SpaceAfter=No
+35	CVM	_	PROPN	PNOUN	_	30	appos	_	SpaceAfter=No
+36	)	)	PUNCT	.	_	35	punct	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	10	punct	_	_
 

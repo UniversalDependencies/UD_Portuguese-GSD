@@ -76,7 +76,7 @@
 26	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s4527
-# text = Rio -- Policias da 119 ª DP (Rio Bonito) prenderam, nesta quinta - feira, Diogo Bertone Mello e Régis de Arruda.
+# text = Rio -- Policias da 119 ª DP (Rio Bonito) prenderam, nesta quinta-feira, Diogo Bertone Mello e Régis de Arruda.
 1	Rio	_	PROPN	PNOUN	_	13	parataxis	_	_
 2	--	_	PUNCT	.	_	13	punct	_	_
 3	Policias	_	NOUN	NOUN	_	13	nsubj	_	_
@@ -91,20 +91,20 @@
 11	Bonito	_	PROPN	PNOUN	_	10	amod	_	SpaceAfter=No
 12	)	)	PUNCT	.	_	10	punct	_	_
 13	prenderam	prender	VERB	VERB	_	0	root	_	SpaceAfter=No
-14	,	,	PUNCT	.	_	18	punct	_	_
-15	nesta	_	ADP	ADP	_	18	case	_	_
-16	quinta	_	PROPN	PNOUN	_	18	amod	_	_
-17	-	-	PUNCT	.	_	18	punct	_	_
-18	feira	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	18	punct	_	_
-20	Diogo	_	PROPN	PNOUN	_	13	obj	_	_
-21	Bertone	_	PROPN	PNOUN	_	20	flat	_	_
-22	Mello	_	PROPN	PNOUN	_	20	flat	_	_
-23	e	e	CCONJ	CONJ	_	24	cc	_	_
-24	Régis	_	PROPN	PNOUN	_	20	conj	_	_
-25	de	de	ADP	ADP	_	26	case	_	_
-26	Arruda	_	PROPN	PNOUN	_	24	nmod	_	SpaceAfter=No
-27	.	.	PUNCT	.	_	13	punct	_	_
+14	,	,	PUNCT	.	_	17	punct	_	_
+15	nesta	_	ADP	ADP	_	17	case	_	_
+16-17	quinta-feira	_	_	_	_	_	_	_	SpaceAfter=No
+16	quinta	_	PROPN	PNOUN	_	17	amod	_	_
+17	feira	_	PROPN	PNOUN	_	13	nmod	_	_
+18	,	,	PUNCT	.	_	17	punct	_	_
+19	Diogo	_	PROPN	PNOUN	_	13	obj	_	_
+20	Bertone	_	PROPN	PNOUN	_	19	flat	_	_
+21	Mello	_	PROPN	PNOUN	_	19	flat	_	_
+22	e	e	CCONJ	CONJ	_	23	cc	_	_
+23	Régis	_	PROPN	PNOUN	_	19	conj	_	_
+24	de	de	ADP	ADP	_	25	case	_	_
+25	Arruda	_	PROPN	PNOUN	_	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = train-s4528
 # text = Do aeroporto, o meia seguiu para o hotel em Ipanema, onde se encontrou com o presidente do clube, Maurício Assumpção.
@@ -162,54 +162,54 @@
 21	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s4530
-# text = Três deputados federais, João Paulo Cunha (PT - SP), Pedro Henry (PP - MT) e Valdemar Costa Neto (PR - SP), foram condenados pelo STF, mas ainda aguardam a definição das penas.
+# text = Três deputados federais, João Paulo Cunha (PT-SP), Pedro Henry (PP-MT) e Valdemar Costa Neto (PR-SP), foram condenados pelo STF, mas ainda aguardam a definição das penas.
 1	Três	_	NUM	NUM	NumType=Card	2	nummod	_	_
-2	deputados	deputado	NOUN	NOUN	_	32	nsubj:pass	_	_
+2	deputados	deputado	NOUN	NOUN	_	29	nsubj:pass	_	_
 3	federais	federal	ADJ	ADJ	_	2	amod	_	SpaceAfter=No
 4	,	,	PUNCT	.	_	5	punct	_	_
 5	João	_	PROPN	PNOUN	_	2	appos	_	_
 6	Paulo	_	PROPN	PNOUN	_	5	flat	_	_
 7	Cunha	_	PROPN	PNOUN	_	5	flat	_	_
 8	(	(	PUNCT	.	_	9	punct	_	SpaceAfter=No
+9-10	PT-SP	_	_	_	_	_	_	_	SpaceAfter=No
 9	PT	_	PROPN	PNOUN	_	5	appos	_	_
-10	-	-	PUNCT	.	_	9	punct	_	_
-11	SP	_	PROPN	PNOUN	_	9	flat	_	SpaceAfter=No
-12	)	)	PUNCT	.	_	9	punct	_	SpaceAfter=No
-13	,	,	PUNCT	.	_	14	punct	_	_
-14	Pedro	_	PROPN	PNOUN	_	5	conj	_	_
-15	Henry	_	PROPN	PNOUN	_	14	flat	_	_
-16	(	(	PUNCT	.	_	17	punct	_	SpaceAfter=No
-17	PP	_	PROPN	PNOUN	_	14	appos	_	_
-18	-	-	PUNCT	.	_	17	punct	_	_
-19	MT	_	PROPN	PNOUN	_	17	flat	_	SpaceAfter=No
-20	)	)	PUNCT	.	_	17	punct	_	_
-21	e	e	CCONJ	CONJ	_	22	cc	_	_
-22	Valdemar	_	PROPN	PNOUN	_	5	conj	_	_
-23	Costa	_	PROPN	PNOUN	_	22	flat	_	_
-24	Neto	_	PROPN	PNOUN	_	22	flat	_	_
-25	(	(	PUNCT	.	_	26	punct	_	SpaceAfter=No
-26	PR	_	PROPN	PNOUN	_	22	appos	_	_
-27	-	-	PUNCT	.	_	26	punct	_	_
-28	SP	_	PROPN	PNOUN	_	26	flat	_	SpaceAfter=No
-29	)	)	PUNCT	.	_	26	punct	_	SpaceAfter=No
-30	,	,	PUNCT	.	_	2	punct	_	_
-31	foram	_	AUX	AUX	_	32	aux:pass	_	_
-32	condenados	condenar	VERB	VERB	_	0	root	_	_
-33-34	pelo	_	_	_	_	_	_	_	_
-33	por	por	ADP	ADP	_	35	case	_	_
-34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
-35	STF	_	PROPN	PNOUN	_	32	nmod	_	SpaceAfter=No
-36	,	,	PUNCT	.	_	39	punct	_	_
-37	mas	mas	CCONJ	CONJ	_	39	cc	_	_
-38	ainda	ainda	ADV	ADV	_	39	advmod	_	_
-39	aguardam	aguardar	VERB	VERB	_	32	conj	_	_
-40	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
-41	definição	definição	NOUN	NOUN	_	39	obj	_	_
-42-43	das	_	_	_	_	_	_	_	_
-42	de	de	ADP	ADP	_	44	case	_	_
-43	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	44	det	_	_
-44	penas	_	NOUN	NOUN	_	41	nmod	_	SpaceAfter=No
-45	.	.	PUNCT	.	_	32	punct	_	_
+10	SP	_	PROPN	PNOUN	_	9	flat	_	_
+11	)	)	PUNCT	.	_	9	punct	_	SpaceAfter=No
+12	,	,	PUNCT	.	_	13	punct	_	_
+13	Pedro	_	PROPN	PNOUN	_	5	conj	_	_
+14	Henry	_	PROPN	PNOUN	_	13	flat	_	_
+15	(	(	PUNCT	.	_	16	punct	_	SpaceAfter=No
+16-17	PP-MT	_	_	_	_	_	_	_	SpaceAfter=No
+16	PP	_	PROPN	PNOUN	_	13	appos	_	_
+17	MT	_	PROPN	PNOUN	_	16	flat	_	_
+18	)	)	PUNCT	.	_	16	punct	_	_
+19	e	e	CCONJ	CONJ	_	20	cc	_	_
+20	Valdemar	_	PROPN	PNOUN	_	5	conj	_	_
+21	Costa	_	PROPN	PNOUN	_	20	flat	_	_
+22	Neto	_	PROPN	PNOUN	_	20	flat	_	_
+23	(	(	PUNCT	.	_	24	punct	_	SpaceAfter=No
+24-25	PR-SP	_	_	_	_	_	_	_	SpaceAfter=No
+24	PR	_	PROPN	PNOUN	_	20	appos	_	_
+25	SP	_	PROPN	PNOUN	_	24	flat	_	_
+26	)	)	PUNCT	.	_	24	punct	_	SpaceAfter=No
+27	,	,	PUNCT	.	_	2	punct	_	_
+28	foram	_	AUX	AUX	_	29	aux:pass	_	_
+29	condenados	condenar	VERB	VERB	_	0	root	_	_
+30-31	pelo	_	_	_	_	_	_	_	_
+30	por	por	ADP	ADP	_	32	case	_	_
+31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	STF	_	PROPN	PNOUN	_	29	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	.	_	36	punct	_	_
+34	mas	mas	CCONJ	CONJ	_	36	cc	_	_
+35	ainda	ainda	ADV	ADV	_	36	advmod	_	_
+36	aguardam	aguardar	VERB	VERB	_	29	conj	_	_
+37	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	definição	definição	NOUN	NOUN	_	36	obj	_	_
+39-40	das	_	_	_	_	_	_	_	_
+39	de	de	ADP	ADP	_	41	case	_	_
+40	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
+41	penas	_	NOUN	NOUN	_	38	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	29	punct	_	_
 
 # sent_id = train-s4531
 # text = Brasil, 2012.
@@ -219,7 +219,7 @@
 4	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s4532
-# text = O ombré é um estilo de cor que aparece roupas em efeito degradê, digamos que ele é um primo próximo de tye - dye, só que mais "arrumadinho", umas vez que as marcas das divisões da cor são bem mais retas e uniformes.
+# text = O ombré é um estilo de cor que aparece roupas em efeito degradê, digamos que ele é um primo próximo de tye-dye, só que mais "arrumadinho", umas vez que as marcas das divisões da cor são bem mais retas e uniformes.
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	ombré	_	NOUN	NOUN	_	5	nsubj	_	_
 3	é	ser	AUX	AUX	_	5	cop	_	_
@@ -242,37 +242,37 @@
 20	primo	primo	ADJ	ADJ	_	18	xcomp	_	_
 21	próximo	próximo	ADJ	ADJ	_	20	xcomp	_	_
 22	de	de	ADP	ADP	_	23	case	_	_
+23-24	tye-dye	_	_	_	_	_	_	_	SpaceAfter=No
 23	tye	_	NOUN	NOUN	_	20	nmod	_	_
-24	-	-	PUNCT	.	_	23	punct	_	_
-25	dye	_	NOUN	NOUN	_	23	flat	_	SpaceAfter=No
-26	,	,	PUNCT	.	_	23	punct	_	_
-27	só	só	ADV	ADV	_	31	mark	_	_
-28	que	_	ADP	ADP	_	27	fixed	_	_
-29	mais	mais	ADV	ADV	_	31	advmod	_	_
-30	"	"	PUNCT	.	_	31	punct	_	SpaceAfter=No
-31	arrumadinho	arrumado	ADJ	ADJ	_	20	nmod	_	SpaceAfter=No
-32	"	"	PUNCT	.	_	31	punct	_	SpaceAfter=No
-33	,	,	PUNCT	.	_	45	punct	_	_
-34	umas	_	DET	DET	_	45	mark	_	_
-35	vez	vez	NOUN	NOUN	_	34	fixed	_	_
-36	que	_	CCONJ	CONJ	_	34	fixed	_	_
-37	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	38	det	_	_
-38	marcas	marca	NOUN	NOUN	_	45	nsubj	_	_
-39-40	das	_	_	_	_	_	_	_	_
-39	de	de	ADP	ADP	_	41	case	_	_
-40	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
-41	divisões	divisão	NOUN	NOUN	_	38	nmod	_	_
-42-43	da	_	_	_	_	_	_	_	_
-42	de	de	ADP	ADP	_	44	case	_	_
-43	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
-44	cor	cor	NOUN	NOUN	_	41	nmod	_	_
-45	são	ser	VERB	VERB	_	18	advcl	_	_
-46	bem	bem	ADV	ADV	_	47	advmod	_	_
-47	mais	mais	ADV	ADV	_	48	advmod	_	_
-48	retas	reto	ADJ	ADJ	_	45	xcomp	_	_
-49	e	e	CCONJ	CONJ	_	50	cc	_	_
-50	uniformes	uniforme	ADJ	ADJ	_	48	conj	_	SpaceAfter=No
-51	.	.	PUNCT	.	_	5	punct	_	_
+24	dye	_	NOUN	NOUN	_	23	flat	_	_
+25	,	,	PUNCT	.	_	23	punct	_	_
+26	só	só	ADV	ADV	_	30	mark	_	_
+27	que	_	ADP	ADP	_	26	fixed	_	_
+28	mais	mais	ADV	ADV	_	30	advmod	_	_
+29	"	"	PUNCT	.	_	30	punct	_	SpaceAfter=No
+30	arrumadinho	arrumado	ADJ	ADJ	_	20	nmod	_	SpaceAfter=No
+31	"	"	PUNCT	.	_	30	punct	_	SpaceAfter=No
+32	,	,	PUNCT	.	_	44	punct	_	_
+33	umas	_	DET	DET	_	44	mark	_	_
+34	vez	vez	NOUN	NOUN	_	33	fixed	_	_
+35	que	_	CCONJ	CONJ	_	33	fixed	_	_
+36	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
+37	marcas	marca	NOUN	NOUN	_	44	nsubj	_	_
+38-39	das	_	_	_	_	_	_	_	_
+38	de	de	ADP	ADP	_	40	case	_	_
+39	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	40	det	_	_
+40	divisões	divisão	NOUN	NOUN	_	37	nmod	_	_
+41-42	da	_	_	_	_	_	_	_	_
+41	de	de	ADP	ADP	_	43	case	_	_
+42	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	cor	cor	NOUN	NOUN	_	40	nmod	_	_
+44	são	ser	VERB	VERB	_	18	advcl	_	_
+45	bem	bem	ADV	ADV	_	46	advmod	_	_
+46	mais	mais	ADV	ADV	_	47	advmod	_	_
+47	retas	reto	ADJ	ADJ	_	44	xcomp	_	_
+48	e	e	CCONJ	CONJ	_	49	cc	_	_
+49	uniformes	uniforme	ADJ	ADJ	_	47	conj	_	SpaceAfter=No
+50	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s4533
 # text = Organizar uma Olimpíada é um enorme desafio para uma cidade que tem trânsito caótico, serviços públicos deficientes e níveis preocupantes de violência, mas as autoridades do Rio garantem estar à altura do evento.

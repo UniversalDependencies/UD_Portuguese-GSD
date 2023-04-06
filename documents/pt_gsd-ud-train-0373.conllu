@@ -38,7 +38,7 @@
 15	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s3700
-# text = São Paulo: com desconforto muscular, Denilson e Rhodolfo foram poupados pela comissão técnica para evitar lesão antes das finais da Copa Sul - Americana.
+# text = São Paulo: com desconforto muscular, Denilson e Rhodolfo foram poupados pela comissão técnica para evitar lesão antes das finais da Copa Sul-Americana.
 1	São	_	PROPN	PNOUN	_	12	parataxis	_	_
 2	Paulo	_	PROPN	PNOUN	_	1	flat	_	SpaceAfter=No
 3	:	:	PUNCT	.	_	12	punct	_	_
@@ -68,10 +68,10 @@
 24	de	de	ADP	ADP	_	26	case	_	_
 25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	Copa	_	PROPN	PNOUN	_	23	nmod	_	_
-27	Sul	_	PROPN	PNOUN	_	29	amod	_	_
-28	-	-	PUNCT	.	_	29	punct	_	_
-29	Americana	_	PROPN	PNOUN	_	26	amod	_	SpaceAfter=No
-30	.	.	PUNCT	.	_	12	punct	_	_
+27-28	Sul-Americana	_	_	_	_	_	_	_	SpaceAfter=No
+27	Sul	_	PROPN	PNOUN	_	28	amod	_	_
+28	Americana	_	PROPN	PNOUN	_	26	amod	_	_
+29	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = train-s3701
 # text = Em junho, antes que a atual onda de violência fosse deflagrada, a Polícia Federal avisou o governo de São Paulo que os líderes do PCC estavam preparando ataques a policiais, segundo informam os repórteres Marco Antônio Martins e Rogério Pagnan, na "Folha".
@@ -139,7 +139,7 @@
 6	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s3703
-# text = O plano comercial foi apresentado na tarde desta terça - feira 25, durante almoço para agências e anunciantes, por Illan Kow, diretor de projetos do Grupo Estado.
+# text = O plano comercial foi apresentado na tarde desta terça-feira 25, durante almoço para agências e anunciantes, por Illan Kow, diretor de projetos do Grupo Estado.
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	plano	plano	NOUN	NOUN	_	5	nsubj:pass	_	_
 3	comercial	comercial	ADJ	ADJ	_	2	amod	_	_
@@ -149,32 +149,32 @@
 6	em	em	ADP	ADP	_	8	case	_	_
 7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	tarde	tarde	NOUN	NOUN	_	5	nmod	_	_
-9	desta	_	ADP	ADP	_	12	case	_	_
-10	terça	_	PROPN	PNOUN	_	12	amod	_	_
-11	-	-	PUNCT	.	_	12	punct	_	_
-12	feira	_	PROPN	PNOUN	_	8	nmod	_	_
-13	25	25	NUM	NUM	NumType=Card	12	nmod	_	SpaceAfter=No
-14	,	,	PUNCT	.	_	16	punct	_	_
-15	durante	_	ADP	ADP	_	16	case	_	_
-16	almoço	almoço	NOUN	NOUN	_	5	nmod	_	_
-17	para	para	ADP	ADP	_	18	case	_	_
-18	agências	agência	NOUN	NOUN	_	16	nmod	_	_
-19	e	e	CCONJ	CONJ	_	20	cc	_	_
-20	anunciantes	anunciante	NOUN	NOUN	_	18	conj	_	SpaceAfter=No
-21	,	,	PUNCT	.	_	16	punct	_	_
-22	por	por	ADP	ADP	_	23	case	_	_
-23	Illan	_	PROPN	PNOUN	_	5	nmod	_	_
-24	Kow	_	PROPN	PNOUN	_	23	flat	_	SpaceAfter=No
-25	,	,	PUNCT	.	_	26	punct	_	_
-26	diretor	diretor	NOUN	NOUN	_	23	appos	_	_
-27	de	de	ADP	ADP	_	28	case	_	_
-28	projetos	projeto	NOUN	NOUN	_	26	nmod	_	_
-29-30	do	_	_	_	_	_	_	_	_
-29	de	de	ADP	ADP	_	31	case	_	_
-30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-31	Grupo	_	PROPN	PNOUN	_	26	nmod	_	_
-32	Estado	_	PROPN	PNOUN	_	31	flat	_	SpaceAfter=No
-33	.	.	PUNCT	.	_	5	punct	_	_
+9	desta	_	ADP	ADP	_	11	case	_	_
+10-11	terça-feira	_	_	_	_	_	_	_	_
+10	terça	_	PROPN	PNOUN	_	11	amod	_	_
+11	feira	_	PROPN	PNOUN	_	8	nmod	_	_
+12	25	25	NUM	NUM	NumType=Card	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	.	_	15	punct	_	_
+14	durante	_	ADP	ADP	_	15	case	_	_
+15	almoço	almoço	NOUN	NOUN	_	5	nmod	_	_
+16	para	para	ADP	ADP	_	17	case	_	_
+17	agências	agência	NOUN	NOUN	_	15	nmod	_	_
+18	e	e	CCONJ	CONJ	_	19	cc	_	_
+19	anunciantes	anunciante	NOUN	NOUN	_	17	conj	_	SpaceAfter=No
+20	,	,	PUNCT	.	_	15	punct	_	_
+21	por	por	ADP	ADP	_	22	case	_	_
+22	Illan	_	PROPN	PNOUN	_	5	nmod	_	_
+23	Kow	_	PROPN	PNOUN	_	22	flat	_	SpaceAfter=No
+24	,	,	PUNCT	.	_	25	punct	_	_
+25	diretor	diretor	NOUN	NOUN	_	22	appos	_	_
+26	de	de	ADP	ADP	_	27	case	_	_
+27	projetos	projeto	NOUN	NOUN	_	25	nmod	_	_
+28-29	do	_	_	_	_	_	_	_	_
+28	de	de	ADP	ADP	_	30	case	_	_
+29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	Grupo	_	PROPN	PNOUN	_	25	nmod	_	_
+31	Estado	_	PROPN	PNOUN	_	30	flat	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s3704
 # text = De acordo com o estudo, a demanda aquecida em 2009 e 2010 permitiu que o setor aplicasse reajustes nos preços acima dos praticados pelos fornecedores, o que aumentou a rentabilidade no biênio, mas levou à estabilização das vendas em 2011.
@@ -259,7 +259,7 @@
 20	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s3706
-# text = Além disso, o recuo do dólar foi favorecido pelo leilão de swap cambial (que equivale à venda de dólares no mercado futuro) -- o terceiro sequencial -- e pela remoção da regra que impedia que os exportadores fizessem operações de pré - pagamento com instituições financeiras e outras empresas que não fossem os importadores de seus produtos.
+# text = Além disso, o recuo do dólar foi favorecido pelo leilão de swap cambial (que equivale à venda de dólares no mercado futuro) -- o terceiro sequencial -- e pela remoção da regra que impedia que os exportadores fizessem operações de pré-pagamento com instituições financeiras e outras empresas que não fossem os importadores de seus produtos.
 1	Além	além	ADV	ADV	_	10	advmod	_	_
 2	disso	_	X	ADPPRON	_	1	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	1	punct	_	_
@@ -315,24 +315,24 @@
 47	fizessem	fazer	VERB	VERB	_	43	ccomp	_	_
 48	operações	operação	NOUN	NOUN	_	47	obj	_	_
 49	de	de	ADP	ADP	_	50	case	_	_
+50-51	pré-pagamento	_	_	_	_	_	_	_	_
 50	pré	_	PART	PRT	_	48	nmod	_	_
-51	-	-	PUNCT	.	_	50	punct	_	_
-52	pagamento	pagamento	NOUN	NOUN	_	50	flat	_	_
-53	com	com	ADP	ADP	_	54	case	_	_
-54	instituições	instituição	NOUN	NOUN	_	48	nmod	_	_
-55	financeiras	financeiro	ADJ	ADJ	_	54	amod	_	_
-56	e	e	CCONJ	CONJ	_	58	cc	_	_
-57	outras	_	DET	DET	_	58	det	_	_
-58	empresas	empresa	NOUN	NOUN	_	54	conj	_	_
-59	que	_	PRON	PRON	_	63	nsubj	_	_
-60	não	não	ADV	ADV	Polarity=Neg	63	advmod	_	_
-61	fossem	_	AUX	AUX	_	63	cop	_	_
-62	os	o	DET	DET	_	63	det	_	_
-63	importadores	importador	NOUN	NOUN	_	54	acl:relcl	_	_
-64	de	de	ADP	ADP	_	66	case	_	_
-65	seus	_	DET	DET	_	66	det:poss	_	_
-66	produtos	produto	NOUN	NOUN	_	63	nmod	_	SpaceAfter=No
-67	.	.	PUNCT	.	_	10	punct	_	_
+51	pagamento	pagamento	NOUN	NOUN	_	50	flat	_	_
+52	com	com	ADP	ADP	_	53	case	_	_
+53	instituições	instituição	NOUN	NOUN	_	48	nmod	_	_
+54	financeiras	financeiro	ADJ	ADJ	_	53	amod	_	_
+55	e	e	CCONJ	CONJ	_	57	cc	_	_
+56	outras	_	DET	DET	_	57	det	_	_
+57	empresas	empresa	NOUN	NOUN	_	53	conj	_	_
+58	que	_	PRON	PRON	_	62	nsubj	_	_
+59	não	não	ADV	ADV	Polarity=Neg	62	advmod	_	_
+60	fossem	_	AUX	AUX	_	62	cop	_	_
+61	os	o	DET	DET	_	62	det	_	_
+62	importadores	importador	NOUN	NOUN	_	53	acl:relcl	_	_
+63	de	de	ADP	ADP	_	65	case	_	_
+64	seus	_	DET	DET	_	65	det:poss	_	_
+65	produtos	produto	NOUN	NOUN	_	62	nmod	_	SpaceAfter=No
+66	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s3707
 # text = É o maior aeroporto da região do Tirol.

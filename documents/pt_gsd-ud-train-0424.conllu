@@ -188,9 +188,9 @@
 16	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s4214
-# text = O atleta que entrou para a história ao conquistar três ouros no atletismo em Londres - 2012, repetindo a façanha de Pequim - 2008 (confira no quadro abaixo), quer repetir o feito -- e a pose -- daqui a quatro anos em terras brasileiras.
+# text = O atleta que entrou para a história ao conquistar três ouros no atletismo em Londres-2012, repetindo a façanha de Pequim-2008 (confira no quadro abaixo), quer repetir o feito -- e a pose -- daqui a quatro anos em terras brasileiras.
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	atleta	atleta	NOUN	NOUN	_	36	nsubj	_	_
+2	atleta	atleta	NOUN	NOUN	_	34	nsubj	_	_
 3	que	_	PRON	PRON	_	4	nsubj	_	_
 4	entrou	entrar	VERB	VERB	_	2	acl:relcl	_	_
 5	para	para	ADP	ADP	_	7	case	_	_
@@ -207,46 +207,46 @@
 14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	atletismo	atletismo	NOUN	NOUN	_	10	nmod	_	_
 16	em	em	ADP	ADP	_	17	case	_	_
+17-18	Londres-2012	_	_	_	_	_	_	_	SpaceAfter=No
 17	Londres	_	PROPN	PNOUN	_	10	nmod	_	_
-18	-	-	PUNCT	.	_	17	punct	_	_
-19	2012	2012	NUM	NUM	NumType=Card	17	nmod	_	SpaceAfter=No
-20	,	,	PUNCT	.	_	21	punct	_	_
-21	repetindo	repetir	VERB	VERB	_	10	acl	_	_
-22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-23	façanha	façanha	NOUN	NOUN	_	21	obj	_	_
-24	de	de	ADP	ADP	_	25	case	_	_
-25	Pequim	_	PROPN	PNOUN	_	23	nmod	_	_
-26	-	-	PUNCT	.	_	25	punct	_	_
-27	2008	2008	NUM	NUM	NumType=Card	25	nmod	_	_
-28	(	(	PUNCT	.	_	29	punct	_	SpaceAfter=No
-29	confira	conferir	VERB	VERB	_	21	parataxis	_	_
-30-31	no	_	_	_	_	_	_	_	_
-30	em	em	ADP	ADP	_	32	case	_	_
-31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
-32	quadro	quadro	NOUN	NOUN	_	29	nmod	_	_
-33	abaixo	abaixo	ADV	ADV	_	32	advmod	_	SpaceAfter=No
-34	)	)	PUNCT	.	_	29	punct	_	SpaceAfter=No
-35	,	,	PUNCT	.	_	21	punct	_	_
-36	quer	querer	VERB	VERB	_	0	root	_	_
-37	repetir	repetir	VERB	VERB	_	36	xcomp	_	_
-38	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
-39	feito	feito	NOUN	NOUN	_	37	obj	_	_
-40	--	_	PUNCT	.	_	43	punct	_	_
-41	e	e	CCONJ	CONJ	_	43	cc	_	_
-42	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
-43	pose	pose	NOUN	NOUN	_	39	conj	_	_
-44	--	_	PUNCT	.	_	39	punct	_	_
-45	daqui	_	ADP	ADP	_	37	nmod	_	_
-46	a	_	ADP	ADP	_	48	case	_	_
-47	quatro	_	NUM	NUM	NumType=Card	48	nummod	_	_
-48	anos	ano	NOUN	NOUN	_	45	nmod	_	_
-49	em	em	ADP	ADP	_	50	case	_	_
-50	terras	terra	NOUN	NOUN	_	45	nmod	_	_
-51	brasileiras	brasileiro	ADJ	ADJ	_	50	amod	_	SpaceAfter=No
-52	.	.	PUNCT	.	_	36	punct	_	_
+18	2012	2012	NUM	NUM	NumType=Card	17	nmod	_	_
+19	,	,	PUNCT	.	_	20	punct	_	_
+20	repetindo	repetir	VERB	VERB	_	10	acl	_	_
+21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	façanha	façanha	NOUN	NOUN	_	20	obj	_	_
+23	de	de	ADP	ADP	_	24	case	_	_
+24-25	Pequim-2008	_	_	_	_	_	_	_	_
+24	Pequim	_	PROPN	PNOUN	_	22	nmod	_	_
+25	2008	2008	NUM	NUM	NumType=Card	24	nmod	_	_
+26	(	(	PUNCT	.	_	27	punct	_	SpaceAfter=No
+27	confira	conferir	VERB	VERB	_	20	parataxis	_	_
+28-29	no	_	_	_	_	_	_	_	_
+28	em	em	ADP	ADP	_	30	case	_	_
+29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	quadro	quadro	NOUN	NOUN	_	27	nmod	_	_
+31	abaixo	abaixo	ADV	ADV	_	30	advmod	_	SpaceAfter=No
+32	)	)	PUNCT	.	_	27	punct	_	SpaceAfter=No
+33	,	,	PUNCT	.	_	20	punct	_	_
+34	quer	querer	VERB	VERB	_	0	root	_	_
+35	repetir	repetir	VERB	VERB	_	34	xcomp	_	_
+36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	feito	feito	NOUN	NOUN	_	35	obj	_	_
+38	--	_	PUNCT	.	_	41	punct	_	_
+39	e	e	CCONJ	CONJ	_	41	cc	_	_
+40	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	pose	pose	NOUN	NOUN	_	37	conj	_	_
+42	--	_	PUNCT	.	_	37	punct	_	_
+43	daqui	_	ADP	ADP	_	35	nmod	_	_
+44	a	_	ADP	ADP	_	46	case	_	_
+45	quatro	_	NUM	NUM	NumType=Card	46	nummod	_	_
+46	anos	ano	NOUN	NOUN	_	43	nmod	_	_
+47	em	em	ADP	ADP	_	48	case	_	_
+48	terras	terra	NOUN	NOUN	_	43	nmod	_	_
+49	brasileiras	brasileiro	ADJ	ADJ	_	48	amod	_	SpaceAfter=No
+50	.	.	PUNCT	.	_	34	punct	_	_
 
 # sent_id = train-s4215
-# text = Já sobre Tolentino, o advogado da agência de Valério, Lewandowski considerou a denúncia como frágil, uma vez que o Ministério Público não denunciou a lavagem de dinheiro a partir do empréstimo tomando pelo réu ante o BMG no valor de R $ 10 milhões, e portanto, não haveria como condená - lo pelo crime.
+# text = Já sobre Tolentino, o advogado da agência de Valério, Lewandowski considerou a denúncia como frágil, uma vez que o Ministério Público não denunciou a lavagem de dinheiro a partir do empréstimo tomando pelo réu ante o BMG no valor de R $ 10 milhões, e portanto, não haveria como condená-lo pelo crime.
 1	Já	já	ADV	ADV	_	14	advmod	_	_
 2	sobre	_	ADP	ADP	_	3	case	_	_
 3	Tolentino	_	PROPN	PNOUN	_	14	nmod	_	SpaceAfter=No
@@ -309,14 +309,14 @@
 56	não	não	ADV	ADV	Polarity=Neg	57	advmod	_	_
 57	haveria	haver	VERB	VERB	_	27	conj	_	_
 58	como	como	ADV	ADV	_	59	advmod	_	_
+59-60	condená-lo	_	_	_	_	_	_	_	_
 59	condená	condenar	VERB	VERB	_	57	ccomp	_	_
-60	-	-	PUNCT	.	_	59	punct	_	_
-61	lo	_	PRON	PRON	_	59	obj	_	_
-62-63	pelo	_	_	_	_	_	_	_	_
-62	por	por	ADP	ADP	_	64	case	_	_
-63	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
-64	crime	crime	NOUN	NOUN	_	59	nmod	_	SpaceAfter=No
-65	.	.	PUNCT	.	_	14	punct	_	_
+60	lo	_	PRON	PRON	_	59	obj	_	_
+61-62	pelo	_	_	_	_	_	_	_	_
+61	por	por	ADP	ADP	_	63	case	_	_
+62	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	63	det	_	_
+63	crime	crime	NOUN	NOUN	_	59	nmod	_	SpaceAfter=No
+64	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = train-s4216
 # text = No ano de 2007, porém, perdeu sua autonomia administraviva, subordinando-se ao Batalhão de Choque, onde atualmente constitui é companhia.

@@ -1,5 +1,5 @@
 # sent_id = test-s259
-# text = Giovanni de Médici não teve filhos pelo que, antes de morrer, deixou a villa ao jovem sobrinho - neto Giuliano de Médici.
+# text = Giovanni de Médici não teve filhos pelo que, antes de morrer, deixou a villa ao jovem sobrinho-neto Giuliano de Médici.
 1	Giovanni	_	PROPN	PNOUN	_	5	nsubj	_	_
 2	de	de	ADP	ADP	_	3	case	_	_
 3	Médici	_	PROPN	PNOUN	_	1	nmod	_	_
@@ -22,13 +22,13 @@
 18	a	a	ADP	ADP	_	21	case	_	_
 19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 20	jovem	jovem	ADJ	ADJ	_	21	amod	_	_
+21-22	sobrinho-neto	_	_	_	_	_	_	_	_
 21	sobrinho	_	NOUN	NOUN	_	15	iobj	_	_
-22	-	-	PUNCT	.	_	21	punct	_	_
-23	neto	neto	NOUN	NOUN	_	21	flat	_	_
-24	Giuliano	_	PROPN	PNOUN	_	21	appos	_	_
-25	de	de	ADP	ADP	_	26	case	_	_
-26	Médici	_	PROPN	PNOUN	_	24	nmod	_	SpaceAfter=No
-27	.	.	PUNCT	.	_	5	punct	_	_
+22	neto	neto	NOUN	NOUN	_	21	flat	_	_
+23	Giuliano	_	PROPN	PNOUN	_	21	appos	_	_
+24	de	de	ADP	ADP	_	25	case	_	_
+25	Médici	_	PROPN	PNOUN	_	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = test-s260
 # text = Fogo toma conta de barracos na região central de São Paulo.
@@ -120,37 +120,37 @@
 34	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = test-s264
-# text = Conforme Só Notícias informou, a fase Centro - Oeste corresponde ao grupo 3 dos 5 formados (cada região do país).
+# text = Conforme Só Notícias informou, a fase Centro-Oeste corresponde ao grupo 3 dos 5 formados (cada região do país).
 1	Conforme	_	CCONJ	CONJ	_	4	mark	_	_
 2	Só	_	PROPN	PNOUN	_	3	advmod	_	_
 3	Notícias	_	PROPN	PNOUN	_	4	nsubj	_	_
-4	informou	informar	VERB	VERB	_	11	advcl	_	SpaceAfter=No
+4	informou	informar	VERB	VERB	_	10	advcl	_	SpaceAfter=No
 5	,	,	PUNCT	.	_	4	punct	_	_
 6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	fase	fase	NOUN	NOUN	_	11	nsubj	_	_
+7	fase	fase	NOUN	NOUN	_	10	nsubj	_	_
+8-9	Centro-Oeste	_	_	_	_	_	_	_	_
 8	Centro	_	PROPN	PNOUN	_	7	appos	_	_
-9	-	-	PUNCT	.	_	8	punct	_	_
-10	Oeste	_	PROPN	PNOUN	_	8	flat	_	_
-11	corresponde	corresponder	VERB	VERB	_	0	root	_	_
-12-13	ao	_	_	_	_	_	_	_	_
-12	a	a	ADP	ADP	_	14	case	_	_
-13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	grupo	grupo	NOUN	NOUN	_	11	nmod	_	_
-15	3	3	NUM	NUM	NumType=Card	14	appos	_	_
-16-17	dos	_	_	_	_	_	_	_	_
-16	de	de	ADP	ADP	_	18	case	_	_
-17	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
-18	5	5	NUM	NUM	NumType=Card	15	nmod	_	_
-19	formados	formar	VERB	VERB	_	18	acl	_	_
-20	(	(	PUNCT	.	_	22	punct	_	SpaceAfter=No
-21	cada	_	DET	DET	_	22	det	_	_
-22	região	região	NOUN	NOUN	_	18	appos	_	_
-23-24	do	_	_	_	_	_	_	_	_
-23	de	de	ADP	ADP	_	25	case	_	_
-24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	país	país	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
-26	)	)	PUNCT	.	_	22	punct	_	SpaceAfter=No
-27	.	.	PUNCT	.	_	11	punct	_	_
+9	Oeste	_	PROPN	PNOUN	_	8	flat	_	_
+10	corresponde	corresponder	VERB	VERB	_	0	root	_	_
+11-12	ao	_	_	_	_	_	_	_	_
+11	a	a	ADP	ADP	_	13	case	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	grupo	grupo	NOUN	NOUN	_	10	nmod	_	_
+14	3	3	NUM	NUM	NumType=Card	13	appos	_	_
+15-16	dos	_	_	_	_	_	_	_	_
+15	de	de	ADP	ADP	_	17	case	_	_
+16	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	5	5	NUM	NUM	NumType=Card	14	nmod	_	_
+18	formados	formar	VERB	VERB	_	17	acl	_	_
+19	(	(	PUNCT	.	_	21	punct	_	SpaceAfter=No
+20	cada	_	DET	DET	_	21	det	_	_
+21	região	região	NOUN	NOUN	_	17	appos	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	ADP	_	24	case	_	_
+23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	país	país	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
+25	)	)	PUNCT	.	_	21	punct	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = test-s265
 # text = Com isso, poderei trazer empresas para cá.

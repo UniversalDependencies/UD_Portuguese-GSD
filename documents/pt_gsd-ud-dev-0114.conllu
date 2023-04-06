@@ -140,7 +140,7 @@
 77	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = dev-s1124
-# text = Mais medidas Coordenador do Movimento de Associações de Bairros contra o Trânsito de Carretas na Avenida Nossa Senhora do Carmo, o engenheiro Aloísio de Araújo Prince avalia que as ações de Dnit e BHTrans são importantes, mas não bastam para regular o trânsito na rodovia federal e na avenida da Região Centro - Sul.
+# text = Mais medidas Coordenador do Movimento de Associações de Bairros contra o Trânsito de Carretas na Avenida Nossa Senhora do Carmo, o engenheiro Aloísio de Araújo Prince avalia que as ações de Dnit e BHTrans são importantes, mas não bastam para regular o trânsito na rodovia federal e na avenida da Região Centro-Sul.
 1	Mais	_	DET	DET	_	2	det	_	_
 2	medidas	medida	NOUN	NOUN	_	31	parataxis	_	_
 3	Coordenador	coordenador	NOUN	NOUN	_	31	nsubj	_	_
@@ -206,10 +206,10 @@
 57	de	de	ADP	ADP	_	59	case	_	_
 58	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	59	det	_	_
 59	Região	_	PROPN	PNOUN	_	56	nmod	_	_
-60	Centro	_	PROPN	PNOUN	_	62	amod	_	_
-61	-	-	PUNCT	.	_	62	punct	_	_
-62	Sul	_	PROPN	PNOUN	_	59	amod	_	SpaceAfter=No
-63	.	.	PUNCT	.	_	31	punct	_	_
+60-61	Centro-Sul	_	_	_	_	_	_	_	SpaceAfter=No
+60	Centro	_	PROPN	PNOUN	_	61	amod	_	_
+61	Sul	_	PROPN	PNOUN	_	59	amod	_	_
+62	.	.	PUNCT	.	_	31	punct	_	_
 
 # sent_id = dev-s1125
 # text = Conheça nossa história completa aqui e nossa equipe aqui.
@@ -225,7 +225,7 @@
 10	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = dev-s1126
-# text = O Ministério de Ambiente, Vida Selvagem e Turismo do país africano fez a declaração nesta quinta - feira, alegando que a decisão surge depois do presidente Ian Kkama afirmar que a caça deve ser interrompida para salvar os animais de grande porte.
+# text = O Ministério de Ambiente, Vida Selvagem e Turismo do país africano fez a declaração nesta quinta-feira, alegando que a decisão surge depois do presidente Ian Kkama afirmar que a caça deve ser interrompida para salvar os animais de grande porte.
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Ministério	_	PROPN	PNOUN	_	14	nsubj	_	_
 3	de	de	ADP	ADP	_	4	case	_	_
@@ -243,38 +243,38 @@
 14	fez	fazer	VERB	VERB	_	0	root	_	_
 15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	declaração	declaração	NOUN	NOUN	_	14	obj	_	_
-17	nesta	_	ADP	ADP	_	20	case	_	_
-18	quinta	_	PROPN	PNOUN	_	20	amod	_	_
-19	-	-	PUNCT	.	_	20	punct	_	_
-20	feira	_	PROPN	PNOUN	_	14	nmod	_	SpaceAfter=No
-21	,	,	PUNCT	.	_	22	punct	_	_
-22	alegando	alegar	VERB	VERB	_	14	acl	_	_
-23	que	que	CCONJ	CONJ	_	26	mark	_	_
-24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-25	decisão	decisão	NOUN	NOUN	_	26	nsubj	_	_
-26	surge	surgir	VERB	VERB	_	22	ccomp	_	_
-27	depois	depois	ADV	ADV	_	33	mark	_	_
-28-29	do	_	_	_	_	_	_	_	_
-28	de	de	ADP	ADP	_	27	case	_	_
-29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-30	presidente	presidente	NOUN	NOUN	_	33	nsubj	_	_
-31	Ian	_	PROPN	PNOUN	_	30	appos	_	_
-32	Kkama	_	PROPN	PNOUN	_	31	flat	_	_
-33	afirmar	afirmar	VERB	VERB	_	26	advcl	_	_
-34	que	que	CCONJ	CONJ	_	39	mark	_	_
-35	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-36	caça	caça	NOUN	NOUN	_	39	nsubj:pass	_	_
-37	deve	dever	AUX	AUX	_	39	aux	_	_
-38	ser	ser	AUX	AUX	_	39	aux:pass	_	_
-39	interrompida	interromper	VERB	VERB	_	33	ccomp	_	_
-40	para	_	ADP	ADP	_	41	mark	_	_
-41	salvar	salvar	VERB	VERB	_	39	advcl	_	_
-42	os	o	DET	DET	_	43	det	_	_
-43	animais	animal	NOUN	NOUN	_	41	obj	_	_
-44	de	de	ADP	ADP	_	46	case	_	_
-45	grande	grande	ADJ	ADJ	_	46	amod	_	_
-46	porte	porte	NOUN	NOUN	_	43	nmod	_	SpaceAfter=No
-47	.	.	PUNCT	.	_	14	punct	_	_
+17	nesta	_	ADP	ADP	_	19	case	_	_
+18-19	quinta-feira	_	_	_	_	_	_	_	SpaceAfter=No
+18	quinta	_	PROPN	PNOUN	_	19	amod	_	_
+19	feira	_	PROPN	PNOUN	_	14	nmod	_	_
+20	,	,	PUNCT	.	_	21	punct	_	_
+21	alegando	alegar	VERB	VERB	_	14	acl	_	_
+22	que	que	CCONJ	CONJ	_	25	mark	_	_
+23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	decisão	decisão	NOUN	NOUN	_	25	nsubj	_	_
+25	surge	surgir	VERB	VERB	_	21	ccomp	_	_
+26	depois	depois	ADV	ADV	_	32	mark	_	_
+27-28	do	_	_	_	_	_	_	_	_
+27	de	de	ADP	ADP	_	26	case	_	_
+28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+29	presidente	presidente	NOUN	NOUN	_	32	nsubj	_	_
+30	Ian	_	PROPN	PNOUN	_	29	appos	_	_
+31	Kkama	_	PROPN	PNOUN	_	30	flat	_	_
+32	afirmar	afirmar	VERB	VERB	_	25	advcl	_	_
+33	que	que	CCONJ	CONJ	_	38	mark	_	_
+34	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	caça	caça	NOUN	NOUN	_	38	nsubj:pass	_	_
+36	deve	dever	AUX	AUX	_	38	aux	_	_
+37	ser	ser	AUX	AUX	_	38	aux:pass	_	_
+38	interrompida	interromper	VERB	VERB	_	32	ccomp	_	_
+39	para	_	ADP	ADP	_	40	mark	_	_
+40	salvar	salvar	VERB	VERB	_	38	advcl	_	_
+41	os	o	DET	DET	_	42	det	_	_
+42	animais	animal	NOUN	NOUN	_	40	obj	_	_
+43	de	de	ADP	ADP	_	45	case	_	_
+44	grande	grande	ADJ	ADJ	_	45	amod	_	_
+45	porte	porte	NOUN	NOUN	_	42	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = dev-s1127
 # text = Em caso de revezamento, a jornada adotada não poderá ser superior a seis horas diárias.

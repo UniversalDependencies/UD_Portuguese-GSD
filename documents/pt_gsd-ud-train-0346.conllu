@@ -1,5 +1,5 @@
 # sent_id = train-s3431
-# text = Segundo o Instituto Médico Legal (IML), o crime ocorreu na Rua Rio Madeira, no bairro Adrianópolis, zona centro - sul, por volta das 21h.
+# text = Segundo o Instituto Médico Legal (IML), o crime ocorreu na Rua Rio Madeira, no bairro Adrianópolis, zona centro-sul, por volta das 21h.
 1	Segundo	_	ADP	ADP	_	3	case	_	_
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Instituto	_	PROPN	PNOUN	_	12	nmod	_	_
@@ -24,19 +24,19 @@
 20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	bairro	bairro	NOUN	NOUN	_	12	nmod	_	_
 22	Adrianópolis	_	PROPN	PNOUN	_	21	appos	_	SpaceAfter=No
-23	,	,	PUNCT	.	_	27	punct	_	_
-24	zona	zona	NOUN	NOUN	_	27	mark	_	_
-25	centro	_	ADJ	ADJ	_	27	amod	_	_
-26	-	-	PUNCT	.	_	27	punct	_	_
-27	sul	sul	ADJ	ADJ	_	21	appos	_	SpaceAfter=No
-28	,	,	PUNCT	.	_	30	punct	_	_
-29	por	por	ADP	ADP	_	30	case	_	_
-30	volta	volta	NOUN	NOUN	_	12	nmod	_	_
-31-32	das	_	_	_	_	_	_	_	_
-31	de	de	ADP	ADP	_	33	case	_	_
-32	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
-33	21h	_	NUM	NUM	NumType=Card	30	nmod	_	SpaceAfter=No
-34	.	.	PUNCT	.	_	12	punct	_	_
+23	,	,	PUNCT	.	_	26	punct	_	_
+24	zona	zona	NOUN	NOUN	_	26	mark	_	_
+25-26	centro-sul	_	_	_	_	_	_	_	SpaceAfter=No
+25	centro	_	ADJ	ADJ	_	26	amod	_	_
+26	sul	sul	ADJ	ADJ	_	21	appos	_	_
+27	,	,	PUNCT	.	_	29	punct	_	_
+28	por	por	ADP	ADP	_	29	case	_	_
+29	volta	volta	NOUN	NOUN	_	12	nmod	_	_
+30-31	das	_	_	_	_	_	_	_	_
+30	de	de	ADP	ADP	_	32	case	_	_
+31	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	21h	_	NUM	NUM	NumType=Card	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = train-s3432
 # text = A finalização nos primeiros minutos da etapa complementar empolgou Riquelme e motivou novas investidas do temido camisa 10 do Boca Juniors.
@@ -140,7 +140,7 @@
 30	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s3435
-# text = No total, serão ministradas oito horas - aula.
+# text = No total, serão ministradas oito horas-aula.
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -149,10 +149,10 @@
 5	serão	ser	AUX	AUX	_	6	aux:pass	_	_
 6	ministradas	ministrar	VERB	VERB	_	0	root	_	_
 7	oito	_	NUM	NUM	NumType=Card	8	nummod	_	_
+8-9	horas-aula	_	_	_	_	_	_	_	SpaceAfter=No
 8	horas	hora	NOUN	NOUN	_	6	nsubj:pass	_	_
-9	-	-	PUNCT	.	_	8	punct	_	_
-10	aula	aula	NOUN	NOUN	_	8	flat	_	SpaceAfter=No
-11	.	.	PUNCT	.	_	6	punct	_	_
+9	aula	aula	NOUN	NOUN	_	8	flat	_	_
+10	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s3436
 # text = Há quem diga que uma superesportiva de 1000 cm ³ tem que deixar a "eletrônica" para a sensibilidade do piloto.

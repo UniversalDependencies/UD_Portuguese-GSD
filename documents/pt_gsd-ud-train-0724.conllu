@@ -161,7 +161,7 @@
 12	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s7191
-# text = Segundo a rádio Banda B uma aluna da Associação de Pais e Amigos dos Excepcionais (APAE) da cidade de Laranjeiras do Sul, região central do estado, foi estuprada na noite de sexta - feira (23).
+# text = Segundo a rádio Banda B uma aluna da Associação de Pais e Amigos dos Excepcionais (APAE) da cidade de Laranjeiras do Sul, região central do estado, foi estuprada na noite de sexta-feira (23).
 1	Segundo	_	ADP	ADP	_	3	case	_	_
 2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	rádio	rádio	NOUN	NOUN	_	37	nmod	_	_
@@ -208,14 +208,14 @@
 38	em	em	ADP	ADP	_	40	case	_	_
 39	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
 40	noite	noite	NOUN	NOUN	_	37	nmod	_	_
-41	de	de	ADP	ADP	_	44	case	_	_
-42	sexta	_	PROPN	PNOUN	_	44	amod	_	_
-43	-	-	PUNCT	.	_	44	punct	_	_
-44	feira	_	PROPN	PNOUN	_	40	nmod	_	_
-45	(	(	PUNCT	.	_	46	punct	_	SpaceAfter=No
-46	23	23	NUM	NUM	NumType=Card	44	nmod	_	SpaceAfter=No
-47	)	)	PUNCT	.	_	46	punct	_	SpaceAfter=No
-48	.	.	PUNCT	.	_	37	punct	_	_
+41	de	de	ADP	ADP	_	43	case	_	_
+42-43	sexta-feira	_	_	_	_	_	_	_	_
+42	sexta	_	PROPN	PNOUN	_	43	amod	_	_
+43	feira	_	PROPN	PNOUN	_	40	nmod	_	_
+44	(	(	PUNCT	.	_	45	punct	_	SpaceAfter=No
+45	23	23	NUM	NUM	NumType=Card	43	nmod	_	SpaceAfter=No
+46	)	)	PUNCT	.	_	45	punct	_	SpaceAfter=No
+47	.	.	PUNCT	.	_	37	punct	_	_
 
 # sent_id = train-s7192
 # text = A medalha de ouro para o brasileiro Arthur Zanetti nas argolas da ginástica artística nos Jogos Olímpicos de Londres, há dois dias, revoltou o técnico do chinês Chen Yibing, que acabou com a prata por 0,1 ponto.
@@ -320,29 +320,28 @@
 17	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s7195
-# text = Roville - aux - Chênes é uma comuna francesa na região administrativa de Lorena, no departamento de Vosges.
-1	Roville	_	PROPN	PNOUN	_	8	nsubj	_	_
-2	-	-	PUNCT	.	_	1	punct	_	_
-3	aux	_	ADP	ADP	_	5	case	_	_
-4	-	-	PUNCT	.	_	5	punct	_	_
-5	Chênes	_	PROPN	PNOUN	_	1	nmod	_	_
-6	é	ser	AUX	AUX	_	8	cop	_	_
-7	uma	um	DET	DET	_	8	det	_	_
-8	comuna	comuna	NOUN	NOUN	_	0	root	_	_
-9	francesa	francês	ADJ	ADJ	_	8	amod	_	_
-10-11	na	_	_	_	_	_	_	_	_
-10	em	em	ADP	ADP	_	12	case	_	_
-11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	região	região	NOUN	NOUN	_	8	nmod	_	_
-13	administrativa	administrativo	ADJ	ADJ	_	12	amod	_	_
-14	de	de	ADP	ADP	_	15	case	_	_
-15	Lorena	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
-16	,	,	PUNCT	.	_	19	punct	_	_
-17-18	no	_	_	_	_	_	_	_	_
-17	em	em	ADP	ADP	_	19	case	_	_
-18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	departamento	departamento	NOUN	NOUN	_	8	nmod	_	_
-20	de	de	ADP	ADP	_	21	case	_	_
-21	Vosges	_	PROPN	PNOUN	_	19	nmod	_	SpaceAfter=No
-22	.	.	PUNCT	.	_	8	punct	_	_
+# text = Roville-aux-Chênes é uma comuna francesa na região administrativa de Lorena, no departamento de Vosges.
+1-3	Roville-aux-Chênes	_	_	_	_	_	_	_	_
+1	Roville	_	PROPN	PNOUN	_	6	nsubj	_	_
+2	aux	_	ADP	ADP	_	3	case	_	_
+3	Chênes	_	PROPN	PNOUN	_	1	nmod	_	_
+4	é	ser	AUX	AUX	_	6	cop	_	_
+5	uma	um	DET	DET	_	6	det	_	_
+6	comuna	comuna	NOUN	NOUN	_	0	root	_	_
+7	francesa	francês	ADJ	ADJ	_	6	amod	_	_
+8-9	na	_	_	_	_	_	_	_	_
+8	em	em	ADP	ADP	_	10	case	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	região	região	NOUN	NOUN	_	6	nmod	_	_
+11	administrativa	administrativo	ADJ	ADJ	_	10	amod	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
+13	Lorena	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	17	punct	_	_
+15-16	no	_	_	_	_	_	_	_	_
+15	em	em	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	departamento	departamento	NOUN	NOUN	_	6	nmod	_	_
+18	de	de	ADP	ADP	_	19	case	_	_
+19	Vosges	_	PROPN	PNOUN	_	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	6	punct	_	_
 

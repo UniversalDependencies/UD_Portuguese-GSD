@@ -63,7 +63,7 @@
 19	.	.	PUNCT	.	_	18	punct	_	_
 
 # sent_id = test-s709
-# text = Uma moto com placas de Passa Sete saía do Bairro Progresso e, ao tentar ingressar na BR - 471, acabou cortando a frente doutra moto, de Rio Pardo, que vinha pela BR no sentido bairro - Centro.
+# text = Uma moto com placas de Passa Sete saía do Bairro Progresso e, ao tentar ingressar na BR-471, acabou cortando a frente doutra moto, de Rio Pardo, que vinha pela BR no sentido bairro-Centro.
 1	Uma	_	DET	DET	_	2	det	_	_
 2	moto	moto	NOUN	NOUN	_	8	nsubj	_	_
 3	com	com	ADP	ADP	_	4	case	_	_
@@ -77,47 +77,47 @@
 10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	Bairro	_	PROPN	PNOUN	_	8	nmod	_	_
 12	Progresso	_	PROPN	PNOUN	_	11	flat	_	_
-13	e	e	CCONJ	CONJ	_	26	cc	_	SpaceAfter=No
+13	e	e	CCONJ	CONJ	_	25	cc	_	SpaceAfter=No
 14	,	,	PUNCT	.	_	17	punct	_	_
 15-16	ao	_	_	_	_	_	_	_	_
 15	a	a	ADP	ADP	_	17	case	_	_
 16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	tentar	tentar	VERB	VERB	_	26	advcl	_	_
+17	tentar	tentar	VERB	VERB	_	25	advcl	_	_
 18	ingressar	ingressar	VERB	VERB	_	17	xcomp	_	_
 19-20	na	_	_	_	_	_	_	_	_
 19	em	em	ADP	ADP	_	21	case	_	_
 20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21-22	BR-471	_	_	_	_	_	_	_	SpaceAfter=No
 21	BR	_	NOUN	NOUN	_	18	nmod	_	_
-22	-	-	PUNCT	.	_	21	punct	_	_
-23	471	471	NUM	NUM	NumType=Card	21	appos	_	SpaceAfter=No
-24	,	,	PUNCT	.	_	17	punct	_	_
-25	acabou	acabar	AUX	AUX	_	26	aux	_	_
-26	cortando	cortar	VERB	VERB	_	8	conj	_	_
-27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
-28	frente	frente	NOUN	NOUN	_	26	obj	_	_
-29-30	doutra	_	_	_	_	_	_	_	_
-29	de	de	ADP	ADP	_	31	case	_	_
-30	outra	_	DET	DET	_	31	det	_	_
-31	moto	moto	NOUN	NOUN	_	28	nmod	_	SpaceAfter=No
-32	,	,	PUNCT	.	_	34	punct	_	_
-33	de	de	ADP	ADP	_	34	case	_	_
-34	Rio	_	PROPN	PNOUN	_	31	nmod	_	_
-35	Pardo	_	PROPN	PNOUN	_	34	amod	_	SpaceAfter=No
-36	,	,	PUNCT	.	_	34	punct	_	_
-37	que	_	PRON	PRON	_	38	nsubj	_	_
-38	vinha	vir	VERB	VERB	_	31	acl:relcl	_	_
-39-40	pela	_	_	_	_	_	_	_	_
-39	por	por	ADP	ADP	_	41	case	_	_
-40	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
-41	BR	_	PROPN	PNOUN	_	38	nmod	_	_
-42-43	no	_	_	_	_	_	_	_	_
-42	em	em	ADP	ADP	_	44	case	_	_
-43	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
-44	sentido	sentido	NOUN	NOUN	_	38	nmod	_	_
-45	bairro	bairro	NOUN	NOUN	_	44	appos	_	_
-46	-	-	PUNCT	.	_	45	punct	_	_
-47	Centro	_	PROPN	PNOUN	_	45	flat	_	SpaceAfter=No
-48	.	.	PUNCT	.	_	8	punct	_	_
+22	471	471	NUM	NUM	NumType=Card	21	appos	_	_
+23	,	,	PUNCT	.	_	17	punct	_	_
+24	acabou	acabar	AUX	AUX	_	25	aux	_	_
+25	cortando	cortar	VERB	VERB	_	8	conj	_	_
+26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	frente	frente	NOUN	NOUN	_	25	obj	_	_
+28-29	doutra	_	_	_	_	_	_	_	_
+28	de	de	ADP	ADP	_	30	case	_	_
+29	outra	_	DET	DET	_	30	det	_	_
+30	moto	moto	NOUN	NOUN	_	27	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	.	_	33	punct	_	_
+32	de	de	ADP	ADP	_	33	case	_	_
+33	Rio	_	PROPN	PNOUN	_	30	nmod	_	_
+34	Pardo	_	PROPN	PNOUN	_	33	amod	_	SpaceAfter=No
+35	,	,	PUNCT	.	_	33	punct	_	_
+36	que	_	PRON	PRON	_	37	nsubj	_	_
+37	vinha	vir	VERB	VERB	_	30	acl:relcl	_	_
+38-39	pela	_	_	_	_	_	_	_	_
+38	por	por	ADP	ADP	_	40	case	_	_
+39	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	BR	_	PROPN	PNOUN	_	37	nmod	_	_
+41-42	no	_	_	_	_	_	_	_	_
+41	em	em	ADP	ADP	_	43	case	_	_
+42	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	sentido	sentido	NOUN	NOUN	_	37	nmod	_	_
+44-45	bairro-Centro	_	_	_	_	_	_	_	SpaceAfter=No
+44	bairro	bairro	NOUN	NOUN	_	43	appos	_	_
+45	Centro	_	PROPN	PNOUN	_	44	flat	_	_
+46	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = test-s710
 # text = A bacia hidrográfica é limitada a nordeste pela bacia do Sebou, ao sul pela do Morbeia (Oum Er - Rbia), a sudoeste pelas bacias dos uádis costeiros de Cherrat, N'Fifikh e Malleh, e desagua a oeste, no Oceano Atlântico.
@@ -150,9 +150,9 @@
 22	Morbeia	_	PROPN	PNOUN	_	18	nmod	_	_
 23	(	(	PUNCT	.	_	24	punct	_	SpaceAfter=No
 24	Oum	_	PROPN	PNOUN	_	22	appos	_	_
-25	Er	_	PROPN	PNOUN	_	24	flat	_	_
-26	-	-	PUNCT	.	_	24	punct	_	_
-27	Rbia	_	PROPN	PNOUN	_	24	flat	_	SpaceAfter=No
+25	Er	_	PROPN	PNOUN	_	24	flat	_	ToDo=NonCatenaCompound
+26	-	-	PUNCT	.	_	24	punct	_	ToDo=NonCatenaCompound
+27	Rbia	_	PROPN	PNOUN	_	24	flat	_	SpaceAfter=No|ToDo=NonCatenaCompound
 28	)	)	PUNCT	.	_	24	punct	_	SpaceAfter=No
 29	,	,	PUNCT	.	_	31	punct	_	_
 30	a	_	ADP	ADP	_	31	case	_	_

@@ -1,5 +1,5 @@
 # sent_id = train-s1569
-# text = O efetivo policial está previsto para chegar à cidade na manhã da próxima segunda - feira (25).
+# text = O efetivo policial está previsto para chegar à cidade na manhã da próxima segunda-feira (25).
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	efetivo	efetivo	NOUN	NOUN	_	4	nsubj	_	_
 3	policial	policial	ADJ	ADJ	_	2	amod	_	_
@@ -16,16 +16,16 @@
 12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	manhã	manhã	NOUN	NOUN	_	7	nmod	_	_
 14-15	da	_	_	_	_	_	_	_	_
-14	de	de	ADP	ADP	_	19	case	_	_
-15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-16	próxima	próximo	ADJ	ADJ	_	19	amod	_	_
-17	segunda	_	PROPN	PNOUN	_	19	amod	_	_
-18	-	-	PUNCT	.	_	19	punct	_	_
-19	feira	_	PROPN	PNOUN	_	13	nmod	_	_
-20	(	(	PUNCT	.	_	21	punct	_	SpaceAfter=No
-21	25	25	NUM	NUM	NumType=Card	19	nmod	_	SpaceAfter=No
-22	)	)	PUNCT	.	_	21	punct	_	SpaceAfter=No
-23	.	.	PUNCT	.	_	4	punct	_	_
+14	de	de	ADP	ADP	_	18	case	_	_
+15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+16	próxima	próximo	ADJ	ADJ	_	18	amod	_	_
+17-18	segunda-feira	_	_	_	_	_	_	_	_
+17	segunda	_	PROPN	PNOUN	_	18	amod	_	_
+18	feira	_	PROPN	PNOUN	_	13	nmod	_	_
+19	(	(	PUNCT	.	_	20	punct	_	SpaceAfter=No
+20	25	25	NUM	NUM	NumType=Card	18	nmod	_	SpaceAfter=No
+21	)	)	PUNCT	.	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s1570
 # text = Eu disse que a captura de Leningrado não era o nosso objectivo e que nós não faríamos parte da ofensiva.
@@ -141,9 +141,9 @@
 24	bispo	bispo	NOUN	NOUN	_	21	nmod	_	_
 25	Jaime	_	PROPN	PNOUN	_	24	appos	_	_
 26	de	de	ADP	ADP	_	27	case	_	_
-27	Nevares	_	PROPN	PNOUN	_	25	nmod	_	_
-28	-	-	PUNCT	.	_	21	punct	_	_
-29	conseguiu	conseguir	VERB	VERB	_	5	acl:relcl	_	_
+27	Nevares	_	PROPN	PNOUN	_	25	nmod	_	ToDo=NonCatenaCompound
+28	-	-	PUNCT	.	_	21	punct	_	ToDo=NonCatenaCompound
+29	conseguiu	conseguir	VERB	VERB	_	5	acl:relcl	_	ToDo=NonCatenaCompound
 30	reunir	reunir	VERB	VERB	_	29	xcomp	_	_
 31	por	por	ADP	ADP	_	32	case	_	_
 32	doações	doação	NOUN	NOUN	_	30	nmod	_	_

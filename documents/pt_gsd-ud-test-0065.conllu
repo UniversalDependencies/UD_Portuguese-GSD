@@ -40,7 +40,7 @@
 33	.	.	PUNCT	.	_	23	punct	_	_
 
 # sent_id = test-s638
-# text = Primeiro veio o (goleiro) Rafael, o (lateral - esquerdo) Léo, todo mundo veio me cumprimentar.
+# text = Primeiro veio o (goleiro) Rafael, o (lateral-esquerdo) Léo, todo mundo veio me cumprimentar.
 1	Primeiro	primeiro	ADV	ADV	_	2	advmod	_	_
 2	veio	_	VERB	VERB	_	0	root	_	_
 3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -51,18 +51,18 @@
 8	,	,	PUNCT	.	_	11	punct	_	_
 9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 10	(	(	PUNCT	.	_	11	punct	_	SpaceAfter=No
+11-12	lateral-esquerdo	_	_	_	_	_	_	_	SpaceAfter=No
 11	lateral	lateral	NOUN	NOUN	_	5	conj	_	_
-12	-	-	PUNCT	.	_	11	punct	_	_
-13	esquerdo	esquerdo	ADJ	ADJ	_	11	amod	_	SpaceAfter=No
-14	)	)	PUNCT	.	_	11	punct	_	_
-15	Léo	_	PROPN	PNOUN	_	11	appos	_	SpaceAfter=No
-16	,	,	PUNCT	.	_	19	punct	_	_
-17	todo	_	DET	DET	_	18	det	_	_
-18	mundo	mundo	NOUN	NOUN	_	19	nsubj	_	_
-19	veio	_	VERB	VERB	_	2	parataxis	_	_
-20	me	_	PRON	PRON	_	21	obj	_	_
-21	cumprimentar	cumprimentar	VERB	VERB	_	19	ccomp	_	SpaceAfter=No
-22	.	.	PUNCT	.	_	2	punct	_	_
+12	esquerdo	esquerdo	ADJ	ADJ	_	11	amod	_	_
+13	)	)	PUNCT	.	_	11	punct	_	_
+14	Léo	_	PROPN	PNOUN	_	11	appos	_	SpaceAfter=No
+15	,	,	PUNCT	.	_	18	punct	_	_
+16	todo	_	DET	DET	_	17	det	_	_
+17	mundo	mundo	NOUN	NOUN	_	18	nsubj	_	_
+18	veio	_	VERB	VERB	_	2	parataxis	_	_
+19	me	_	PRON	PRON	_	20	obj	_	_
+20	cumprimentar	cumprimentar	VERB	VERB	_	18	ccomp	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = test-s639
 # text = Pedro e Rodrigo encontram a ficha duma funcionária que pode saber algo sobre Angélica.
@@ -157,7 +157,7 @@
 26	.	.	PUNCT	.	_	16	punct	_	_
 
 # sent_id = test-s643
-# text = Os dois ainda teriam brincado ao telefone e Brad Pitt desejou felicidades à ex - mulher, o que ela teria retribuído, já que Pitt também vai se casar em breve com Angelina.
+# text = Os dois ainda teriam brincado ao telefone e Brad Pitt desejou felicidades à ex-mulher, o que ela teria retribuído, já que Pitt também vai se casar em breve com Angelina.
 1	Os	o	DET	DET	_	2	det	_	_
 2	dois	_	NUM	NUM	NumType=Card	5	nsubj	_	_
 3	ainda	ainda	ADV	ADV	_	5	advmod	_	_
@@ -175,28 +175,28 @@
 14-15	à	_	_	_	_	_	_	_	_
 14	a	a	ADP	ADP	_	16	case	_	_
 15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16-17	ex-mulher	_	_	_	_	_	_	_	SpaceAfter=No
 16	ex	_	PART	PRT	_	12	iobj	_	_
-17	-	-	PUNCT	.	_	16	punct	_	_
-18	mulher	mulher	NOUN	NOUN	_	16	flat	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	12	punct	_	_
-20	o	o	DET	DET	_	21	det	_	_
-21	que	_	PRON	PRON	_	24	nsubj	_	_
-22	ela	_	PRON	PRON	_	24	nsubj	_	_
-23	teria	ter	AUX	AUX	_	24	aux	_	_
-24	retribuído	retribuir	VERB	VERB	_	12	parataxis	_	SpaceAfter=No
-25	,	,	PUNCT	.	_	32	punct	_	_
-26	já	já	ADV	ADV	_	32	mark	_	_
-27	que	_	CCONJ	CONJ	_	26	fixed	_	_
-28	Pitt	_	PROPN	PNOUN	_	32	nsubj	_	_
-29	também	também	ADV	ADV	_	32	advmod	_	_
-30	vai	ir	AUX	AUX	_	32	aux	_	_
-31	se	_	PRON	PRON	_	32	obj	_	_
-32	casar	casar	VERB	VERB	_	24	advcl	_	_
-33	em	_	ADP	ADP	_	34	mark	_	_
-34	breve	breve	ADJ	ADJ	_	32	nmod	_	_
-35	com	com	ADP	ADP	_	36	case	_	_
-36	Angelina	_	PROPN	PNOUN	_	32	nmod	_	SpaceAfter=No
-37	.	.	PUNCT	.	_	5	punct	_	_
+17	mulher	mulher	NOUN	NOUN	_	16	flat	_	_
+18	,	,	PUNCT	.	_	12	punct	_	_
+19	o	o	DET	DET	_	20	det	_	_
+20	que	_	PRON	PRON	_	23	nsubj	_	_
+21	ela	_	PRON	PRON	_	23	nsubj	_	_
+22	teria	ter	AUX	AUX	_	23	aux	_	_
+23	retribuído	retribuir	VERB	VERB	_	12	parataxis	_	SpaceAfter=No
+24	,	,	PUNCT	.	_	31	punct	_	_
+25	já	já	ADV	ADV	_	31	mark	_	_
+26	que	_	CCONJ	CONJ	_	25	fixed	_	_
+27	Pitt	_	PROPN	PNOUN	_	31	nsubj	_	_
+28	também	também	ADV	ADV	_	31	advmod	_	_
+29	vai	ir	AUX	AUX	_	31	aux	_	_
+30	se	_	PRON	PRON	_	31	obj	_	_
+31	casar	casar	VERB	VERB	_	23	advcl	_	_
+32	em	_	ADP	ADP	_	33	mark	_	_
+33	breve	breve	ADJ	ADJ	_	31	nmod	_	_
+34	com	com	ADP	ADP	_	35	case	_	_
+35	Angelina	_	PROPN	PNOUN	_	31	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = test-s644
 # text = Foi a minha escolha vir para o PSG".

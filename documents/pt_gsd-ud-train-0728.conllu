@@ -6,9 +6,9 @@
 4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 5	maior	maior	ADJ	ADJ	_	6	amod	_	_
 6	empresa	empresa	NOUN	NOUN	_	2	appos	_	_
-7	latino	latino	ADJ	ADJ	_	6	amod	_	_
+7	latino	latino	ADJ	ADJ	_	6	amod	_	ToDo=NonCatenaCompound
 8	-	-	PUNCT	.	_	7	punct	_	_
-9	americana	americano	ADJ	ADJ	_	6	amod	_	_
+9	americana	americano	ADJ	ADJ	_	6	amod	_	ToDo=NonCatenaCompound
 10	de	de	ADP	ADP	_	11	case	_	_
 11	mídia	mídia	NOUN	NOUN	_	6	nmod	_	_
 12	digital	digital	ADJ	ADJ	_	11	amod	_	SpaceAfter=No
@@ -41,42 +41,42 @@
 37	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = train-s7227
-# text = Na terça - feira, a transmissora de energia Cteep havia informado que vai propor aos acionistas que rejeitem a renovação antecipada da concessão que vence em 2015.
+# text = Na terça-feira, a transmissora de energia Cteep havia informado que vai propor aos acionistas que rejeitem a renovação antecipada da concessão que vence em 2015.
 1-2	Na	_	_	_	_	_	_	_	_
-1	Em	em	ADP	ADP	_	5	case	_	_
-2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-3	terça	_	ADJ	ADJ	_	5	amod	_	_
-4	-	-	PUNCT	.	_	5	punct	_	_
-5	feira	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
-6	,	,	PUNCT	.	_	5	punct	_	_
-7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	transmissora	transmissor	NOUN	NOUN	_	13	nsubj	_	_
-9	de	de	ADP	ADP	_	10	case	_	_
-10	energia	energia	NOUN	NOUN	_	8	nmod	_	_
-11	Cteep	_	PROPN	PNOUN	_	8	appos	_	_
-12	havia	haver	AUX	AUX	_	13	aux	_	_
-13	informado	informar	VERB	VERB	_	0	root	_	_
-14	que	que	CCONJ	CONJ	_	16	mark	_	_
-15	vai	ir	AUX	AUX	_	16	aux	_	_
-16	propor	propor	VERB	VERB	_	13	ccomp	_	_
-17-18	aos	_	_	_	_	_	_	_	_
-17	a	a	ADP	ADP	_	19	case	_	_
-18	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
-19	acionistas	_	NOUN	NOUN	_	16	iobj	_	_
-20	que	que	CCONJ	CONJ	_	21	mark	_	_
-21	rejeitem	rejeitar	VERB	VERB	_	16	ccomp	_	_
-22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-23	renovação	renovação	NOUN	NOUN	_	21	obj	_	_
-24	antecipada	antecipado	ADJ	ADJ	_	23	amod	_	_
-25-26	da	_	_	_	_	_	_	_	_
-25	de	de	ADP	ADP	_	27	case	_	_
-26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	concessão	concessão	NOUN	NOUN	_	23	nmod	_	_
-28	que	_	PRON	PRON	_	29	nsubj	_	_
-29	vence	vencer	VERB	VERB	_	27	acl:relcl	_	_
-30	em	em	ADP	ADP	_	31	case	_	_
-31	2015	2015	NUM	NUM	NumType=Card	29	nmod	_	SpaceAfter=No
-32	.	.	PUNCT	.	_	13	punct	_	_
+1	Em	em	ADP	ADP	_	4	case	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3-4	terça-feira	_	_	_	_	_	_	_	SpaceAfter=No
+3	terça	_	ADJ	ADJ	_	4	amod	_	_
+4	feira	_	PROPN	PNOUN	_	12	nmod	_	_
+5	,	,	PUNCT	.	_	4	punct	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	transmissora	transmissor	NOUN	NOUN	_	12	nsubj	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
+9	energia	energia	NOUN	NOUN	_	7	nmod	_	_
+10	Cteep	_	PROPN	PNOUN	_	7	appos	_	_
+11	havia	haver	AUX	AUX	_	12	aux	_	_
+12	informado	informar	VERB	VERB	_	0	root	_	_
+13	que	que	CCONJ	CONJ	_	15	mark	_	_
+14	vai	ir	AUX	AUX	_	15	aux	_	_
+15	propor	propor	VERB	VERB	_	12	ccomp	_	_
+16-17	aos	_	_	_	_	_	_	_	_
+16	a	a	ADP	ADP	_	18	case	_	_
+17	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	acionistas	_	NOUN	NOUN	_	15	iobj	_	_
+19	que	que	CCONJ	CONJ	_	20	mark	_	_
+20	rejeitem	rejeitar	VERB	VERB	_	15	ccomp	_	_
+21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	renovação	renovação	NOUN	NOUN	_	20	obj	_	_
+23	antecipada	antecipado	ADJ	ADJ	_	22	amod	_	_
+24-25	da	_	_	_	_	_	_	_	_
+24	de	de	ADP	ADP	_	26	case	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	concessão	concessão	NOUN	NOUN	_	22	nmod	_	_
+27	que	_	PRON	PRON	_	28	nsubj	_	_
+28	vence	vencer	VERB	VERB	_	26	acl:relcl	_	_
+29	em	em	ADP	ADP	_	30	case	_	_
+30	2015	2015	NUM	NUM	NumType=Card	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = train-s7228
 # text = O resultado é um empobrecimento dramático da biodiversidade local ", disse Sumida.
@@ -198,7 +198,7 @@
 35	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s7232
-# text = Já foi chamado de Dínamo Yakutsk (1991-1996), Montazhnik Yakutsk (1997-2003), FC Yakutsk (2004-2007), Fakel - ShVSM (2008-2009) e ShVSM (2010).
+# text = Já foi chamado de Dínamo Yakutsk (1991-1996), Montazhnik Yakutsk (1997-2003), FC Yakutsk (2004-2007), Fakel-ShVSM (2008-2009) e ShVSM (2010).
 1	Já	já	ADV	ADV	_	3	advmod	_	_
 2	foi	_	AUX	AUX	_	3	aux:pass	_	_
 3	chamado	chamar	VERB	VERB	_	0	root	_	_
@@ -221,18 +221,18 @@
 20	2004-2007	_	NUM	NUM	NumType=Card	17	nmod	_	SpaceAfter=No
 21	)	)	PUNCT	.	_	20	punct	_	SpaceAfter=No
 22	,	,	PUNCT	.	_	23	punct	_	_
+23-24	Fakel-ShVSM	_	_	_	_	_	_	_	_
 23	Fakel	_	PROPN	PNOUN	_	5	conj	_	_
-24	-	-	PUNCT	.	_	23	punct	_	_
-25	ShVSM	_	PROPN	PNOUN	_	23	flat	_	_
-26	(	(	PUNCT	.	_	27	punct	_	SpaceAfter=No
-27	2008-2009	_	NUM	NUM	NumType=Card	23	nmod	_	SpaceAfter=No
-28	)	)	PUNCT	.	_	27	punct	_	_
-29	e	e	CCONJ	CONJ	_	30	cc	_	_
-30	ShVSM	_	PROPN	PNOUN	_	5	conj	_	_
-31	(	(	PUNCT	.	_	32	punct	_	SpaceAfter=No
-32	2010	2010	NUM	NUM	NumType=Card	30	nmod	_	SpaceAfter=No
-33	)	)	PUNCT	.	_	32	punct	_	SpaceAfter=No
-34	.	.	PUNCT	.	_	3	punct	_	_
+24	ShVSM	_	PROPN	PNOUN	_	23	flat	_	_
+25	(	(	PUNCT	.	_	26	punct	_	SpaceAfter=No
+26	2008-2009	_	NUM	NUM	NumType=Card	23	nmod	_	SpaceAfter=No
+27	)	)	PUNCT	.	_	26	punct	_	_
+28	e	e	CCONJ	CONJ	_	29	cc	_	_
+29	ShVSM	_	PROPN	PNOUN	_	5	conj	_	_
+30	(	(	PUNCT	.	_	31	punct	_	SpaceAfter=No
+31	2010	2010	NUM	NUM	NumType=Card	29	nmod	_	SpaceAfter=No
+32	)	)	PUNCT	.	_	31	punct	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s7233
 # text = Maria diz que Otávio (Martim) quer acabar com o casamento.

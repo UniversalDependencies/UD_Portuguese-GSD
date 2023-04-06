@@ -70,7 +70,7 @@
 12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	Paris	_	PROPN	PNOUN	_	18	nsubj	_	_
 14	-	-	PUNCT	.	_	13	punct	_	_
-15	Saint	_	PROPN	PNOUN	_	13	appos	_	_
+15	Saint	_	PROPN	PNOUN	_	13	appos	_	ToDo=HasChildrenOutsideCompound
 16	Germain	_	PROPN	PNOUN	_	15	flat	_	_
 17	vai	ir	AUX	AUX	_	18	aux	_	_
 18	focar	focar	VERB	VERB	_	0	root	_	_
@@ -120,7 +120,7 @@
 19	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s3913
-# text = Ao todo, 1,1 milhão de espectadores foram aos cinemas assistir ao longa - metragem.
+# text = Ao todo, 1,1 milhão de espectadores foram aos cinemas assistir ao longa-metragem.
 1-2	Ao	_	_	_	_	_	_	_	_
 1	A	a	ADP	ADP	_	3	case	_	_
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -137,12 +137,12 @@
 12	cinemas	cinema	NOUN	NOUN	_	9	nmod	_	_
 13	assistir	assistir	VERB	VERB	_	9	xcomp	_	_
 14-15	ao	_	_	_	_	_	_	_	_
-14	a	a	ADP	ADP	_	18	case	_	_
-15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-16	longa	longo	ADJ	ADJ	_	18	amod	_	_
-17	-	-	PUNCT	.	_	18	punct	_	_
-18	metragem	metragem	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
-19	.	.	PUNCT	.	_	9	punct	_	_
+14	a	a	ADP	ADP	_	17	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16-17	longa-metragem	_	_	_	_	_	_	_	SpaceAfter=No
+16	longa	longo	ADJ	ADJ	_	17	amod	_	_
+17	metragem	metragem	NOUN	NOUN	_	13	nmod	_	_
+18	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s3914
 # text = Teve dois filhos e uma filha:

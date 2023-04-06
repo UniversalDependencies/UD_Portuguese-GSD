@@ -141,7 +141,7 @@
 51	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = test-s661
-# text = A premiação dos Jogos da Reme e a abertura da Exposição Artística do Grupo Maturidade, formado pelos mestres da música, do artesanato, da poesia e da decoração de Ladário, marcam a largada das festividades no dia 31 de agosto, sexta - feira.
+# text = A premiação dos Jogos da Reme e a abertura da Exposição Artística do Grupo Maturidade, formado pelos mestres da música, do artesanato, da poesia e da decoração de Ladário, marcam a largada das festividades no dia 31 de agosto, sexta-feira.
 1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	premiação	premiação	NOUN	NOUN	_	43	nsubj	_	_
 3-4	dos	_	_	_	_	_	_	_	_
@@ -207,11 +207,11 @@
 52	31	31	NUM	NUM	NumType=Card	51	nmod	_	_
 53	de	de	ADP	ADP	_	54	case	_	_
 54	agosto	_	PROPN	PNOUN	_	52	nmod	_	SpaceAfter=No
-55	,	,	PUNCT	.	_	58	punct	_	_
-56	sexta	_	PROPN	PNOUN	_	58	amod	_	_
-57	-	-	PUNCT	.	_	58	punct	_	_
-58	feira	_	PROPN	PNOUN	_	51	appos	_	SpaceAfter=No
-59	.	.	PUNCT	.	_	43	punct	_	_
+55	,	,	PUNCT	.	_	57	punct	_	_
+56-57	sexta-feira	_	_	_	_	_	_	_	SpaceAfter=No
+56	sexta	_	PROPN	PNOUN	_	57	amod	_	_
+57	feira	_	PROPN	PNOUN	_	51	appos	_	_
+58	.	.	PUNCT	.	_	43	punct	_	_
 
 # sent_id = test-s662
 # text = O estado sobre a geração de empregos formais no setor extrativo mineral no Pará e demais estados do Norte foi elaborado e analisado com base em informações oficiais do Ministério do Trabalho, segundo os dados do Cadastro Geral de Empregados e Desempregados -- Caged.
@@ -315,10 +315,10 @@
 35	7	7	NUM	NUM	NumType=Card	36	nummod	_	_
 36	m	m	NOUN	NOUN	_	31	nmod	_	_
 37	até	_	ADP	ADP	_	38	case	_	_
-38	quarta	_	NOUN	PNOUN	_	23	obl	_	SpaceAfter=No
-39	-	-	PUNCT	.	_	40	punct	_	SpaceAfter=No
-40	feira	_	NOUN	PNOUN	_	38	flat:name	_	SpaceAfter=No
-41	.	.	PUNCT	.	_	4	punct	_	_
+38-39	quarta-feira	_	_	_	_	_	_	_	SpaceAfter=No
+38	quarta	_	NOUN	PNOUN	_	23	obl	_	_
+39	feira	_	NOUN	PNOUN	_	38	flat:name	_	_
+40	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = test-s664
 # text = José Aldo foi cortado do evento, em decorrência duma lesão no pé.
@@ -355,7 +355,7 @@
 8	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = test-s666
-# text = O francês derrotou o cipriota Marcos Baghdatis por 2 a 0 (6 / 2 e 7 / 6) e agora terá pela frente o tenista tcheco Tomas Berdych, que teve um pouco de dificuldade, mas conseguiu vencer o norte - americano Sam Queerey por 2 a 1 (6 / 2, 6 / 7 e 6 / 4).
+# text = O francês derrotou o cipriota Marcos Baghdatis por 2 a 0 (6 / 2 e 7 / 6) e agora terá pela frente o tenista tcheco Tomas Berdych, que teve um pouco de dificuldade, mas conseguiu vencer o norte-americano Sam Queerey por 2 a 1 (6 / 2, 6 / 7 e 6 / 4).
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	francês	francês	NOUN	NOUN	_	3	nsubj	_	_
 3	derrotou	derrotar	VERB	VERB	_	0	root	_	_
@@ -399,28 +399,28 @@
 40	mas	mas	CCONJ	CONJ	_	41	cc	_	_
 41	conseguiu	conseguir	VERB	VERB	_	34	conj	_	_
 42	vencer	vencer	VERB	VERB	_	41	xcomp	_	_
-43	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
-44	norte	norte	ADJ	ADJ	_	46	amod	_	_
-45	-	-	PUNCT	.	_	46	punct	_	_
-46	americano	americano	NOUN	NOUN	_	42	obj	_	_
-47	Sam	_	PROPN	PNOUN	_	46	appos	_	_
-48	Queerey	_	PROPN	PNOUN	_	47	flat	_	_
-49	por	por	ADP	ADP	_	50	case	_	_
-50	2	2	NUM	NUM	NumType=Card	42	nmod	_	_
-51	a	_	ADP	ADP	_	52	case	_	_
-52	1	1	NUM	NUM	NumType=Card	50	nmod	_	_
-53	(	(	PUNCT	.	_	54	punct	_	SpaceAfter=No
-54	6	6	NUM	NUM	NumType=Card	50	appos	_	_
-55	/	/	PUNCT	.	_	56	punct	_	_
-56	2	2	NUM	NUM	NumType=Card	54	conj	_	SpaceAfter=No
-57	,	,	PUNCT	.	_	58	punct	_	_
-58	6	6	NUM	NUM	NumType=Card	54	conj	_	_
-59	/	/	PUNCT	.	_	60	punct	_	_
-60	7	7	NUM	NUM	NumType=Card	58	conj	_	_
-61	e	e	CCONJ	CONJ	_	62	cc	_	_
-62	6	6	NUM	NUM	NumType=Card	54	conj	_	_
-63	/	/	PUNCT	.	_	64	punct	_	_
-64	4	4	NUM	NUM	NumType=Card	62	conj	_	SpaceAfter=No
-65	)	)	PUNCT	.	_	62	punct	_	SpaceAfter=No
-66	.	.	PUNCT	.	_	3	punct	_	_
+43	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+44-45	norte-americano	_	_	_	_	_	_	_	_
+44	norte	norte	ADJ	ADJ	_	45	amod	_	_
+45	americano	americano	NOUN	NOUN	_	42	obj	_	_
+46	Sam	_	PROPN	PNOUN	_	45	appos	_	_
+47	Queerey	_	PROPN	PNOUN	_	46	flat	_	_
+48	por	por	ADP	ADP	_	49	case	_	_
+49	2	2	NUM	NUM	NumType=Card	42	nmod	_	_
+50	a	_	ADP	ADP	_	51	case	_	_
+51	1	1	NUM	NUM	NumType=Card	49	nmod	_	_
+52	(	(	PUNCT	.	_	53	punct	_	SpaceAfter=No
+53	6	6	NUM	NUM	NumType=Card	49	appos	_	_
+54	/	/	PUNCT	.	_	55	punct	_	_
+55	2	2	NUM	NUM	NumType=Card	53	conj	_	SpaceAfter=No
+56	,	,	PUNCT	.	_	57	punct	_	_
+57	6	6	NUM	NUM	NumType=Card	53	conj	_	_
+58	/	/	PUNCT	.	_	59	punct	_	_
+59	7	7	NUM	NUM	NumType=Card	57	conj	_	_
+60	e	e	CCONJ	CONJ	_	61	cc	_	_
+61	6	6	NUM	NUM	NumType=Card	53	conj	_	_
+62	/	/	PUNCT	.	_	63	punct	_	_
+63	4	4	NUM	NUM	NumType=Card	61	conj	_	SpaceAfter=No
+64	)	)	PUNCT	.	_	61	punct	_	SpaceAfter=No
+65	.	.	PUNCT	.	_	3	punct	_	_
 

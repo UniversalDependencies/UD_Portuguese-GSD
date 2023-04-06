@@ -42,12 +42,12 @@
 23	?	?	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s9081
-# text = Quando começava a se recuperar do trauma do gol - relâmpago, o Chelsea sofreu novo revés.
+# text = Quando começava a se recuperar do trauma do gol-relâmpago, o Chelsea sofreu novo revés.
 1	Quando	_	CCONJ	CONJ	_	5	mark	_	_
 2	começava	começar	AUX	AUX	_	5	aux	_	_
 3	a	_	ADP	ADP	_	5	mark	_	_
 4	se	_	PRON	PRON	_	5	obj	_	_
-5	recuperar	recuperar	VERB	VERB	_	17	advcl	_	_
+5	recuperar	recuperar	VERB	VERB	_	16	advcl	_	_
 6-7	do	_	_	_	_	_	_	_	_
 6	de	de	ADP	ADP	_	8	case	_	_
 7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -55,16 +55,16 @@
 9-10	do	_	_	_	_	_	_	_	_
 9	de	de	ADP	ADP	_	11	case	_	_
 10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11-12	gol-relâmpago	_	_	_	_	_	_	_	SpaceAfter=No
 11	gol	gol	NOUN	NOUN	_	8	nmod	_	_
-12	-	-	PUNCT	.	_	11	punct	_	_
-13	relâmpago	relâmpago	NOUN	NOUN	_	11	flat	_	SpaceAfter=No
-14	,	,	PUNCT	.	_	5	punct	_	_
-15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	Chelsea	_	PROPN	PNOUN	_	17	nsubj	_	_
-17	sofreu	sofrer	VERB	VERB	_	0	root	_	_
-18	novo	novo	ADJ	ADJ	_	19	amod	_	_
-19	revés	revés	NOUN	NOUN	_	17	obj	_	SpaceAfter=No
-20	.	.	PUNCT	.	_	17	punct	_	_
+12	relâmpago	relâmpago	NOUN	NOUN	_	11	flat	_	_
+13	,	,	PUNCT	.	_	5	punct	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Chelsea	_	PROPN	PNOUN	_	16	nsubj	_	_
+16	sofreu	sofrer	VERB	VERB	_	0	root	_	_
+17	novo	novo	ADJ	ADJ	_	18	amod	_	_
+18	revés	revés	NOUN	NOUN	_	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	16	punct	_	_
 
 # sent_id = train-s9082
 # text = Com mais de 80 filmes no catálogo, como Final Fantasy VII: Advent Children, Terror em Silent Hill, e animações como Transformers: Beast Machines, o usuário não gastará nenhum centavo, mas terá que assistir anúncios também.
@@ -185,27 +185,27 @@
 8	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s9086
-# text = Atualmente, a BR - 153, está privatizada no trecho paulista cuja concessão pertence a BRVias.
-1	Atualmente	atualmente	ADV	ADV	_	8	advmod	_	SpaceAfter=No
+# text = Atualmente, a BR-153, está privatizada no trecho paulista cuja concessão pertence a BRVias.
+1	Atualmente	atualmente	ADV	ADV	_	7	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	.	_	1	punct	_	_
 3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	BR	_	PROPN	PNOUN	_	8	nsubj	_	_
-5	-	-	PUNCT	.	_	4	punct	_	_
-6	153	153	NUM	NUM	NumType=Card	4	appos	_	SpaceAfter=No
-7	,	,	PUNCT	.	_	4	punct	_	_
-8	está	estar	VERB	VERB	_	0	root	_	_
-9	privatizada	privatizado	ADJ	ADJ	_	8	xcomp	_	_
-10-11	no	_	_	_	_	_	_	_	_
-10	em	em	ADP	ADP	_	12	case	_	_
-11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	trecho	trecho	NOUN	NOUN	_	8	nmod	_	_
-13	paulista	paulista	ADJ	ADJ	_	12	amod	_	_
-14	cuja	_	DET	DET	_	15	det	_	_
-15	concessão	concessão	NOUN	NOUN	_	16	nsubj	_	_
-16	pertence	pertencer	VERB	VERB	_	12	acl:relcl	_	_
-17	a	_	ADP	ADP	_	18	case	_	_
-18	BRVias	_	NOUN	NOUN	_	16	iobj	_	SpaceAfter=No
-19	.	.	PUNCT	.	_	8	punct	_	_
+4-5	BR-153	_	_	_	_	_	_	_	SpaceAfter=No
+4	BR	_	PROPN	PNOUN	_	7	nsubj	_	_
+5	153	153	NUM	NUM	NumType=Card	4	appos	_	_
+6	,	,	PUNCT	.	_	4	punct	_	_
+7	está	estar	VERB	VERB	_	0	root	_	_
+8	privatizada	privatizado	ADJ	ADJ	_	7	xcomp	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	ADP	_	11	case	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	trecho	trecho	NOUN	NOUN	_	7	nmod	_	_
+12	paulista	paulista	ADJ	ADJ	_	11	amod	_	_
+13	cuja	_	DET	DET	_	14	det	_	_
+14	concessão	concessão	NOUN	NOUN	_	15	nsubj	_	_
+15	pertence	pertencer	VERB	VERB	_	11	acl:relcl	_	_
+16	a	_	ADP	ADP	_	17	case	_	_
+17	BRVias	_	NOUN	NOUN	_	15	iobj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s9087
 # text = O pior é que na cidade os comentários, extra oficiais, é que grande parte desses auxiliares pertencem a família da Prefeita".

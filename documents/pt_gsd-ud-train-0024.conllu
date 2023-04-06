@@ -22,7 +22,7 @@
 18	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s232
-# text = De 1943 até 1952 jogou para CR Vasco da Gama, ganhando cinco vezes o Campeonato Carioca e como destaque o Campeonato Sul - Americano de Campeões de 1948, o antecessor histórico da Copa Libertadores.
+# text = De 1943 até 1952 jogou para CR Vasco da Gama, ganhando cinco vezes o Campeonato Carioca e como destaque o Campeonato Sul-Americano de Campeões de 1948, o antecessor histórico da Copa Libertadores.
 1	De	_	ADP	ADP	_	2	case	_	_
 2	1943	1943	NUM	NUM	NumType=Card	5	nmod	_	_
 3	até	_	ADP	ADP	_	4	case	_	_
@@ -47,23 +47,23 @@
 21	destaque	destaque	NOUN	NOUN	_	23	nmod	_	_
 22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	Campeonato	_	PROPN	PNOUN	_	13	conj	_	_
-24	Sul	_	PROPN	PNOUN	_	26	amod	_	_
-25	-	-	PUNCT	.	_	26	punct	_	_
-26	Americano	_	PROPN	PNOUN	_	23	amod	_	_
-27	de	de	ADP	ADP	_	28	case	_	_
-28	Campeões	_	PROPN	PNOUN	_	23	nmod	_	_
-29	de	de	ADP	ADP	_	30	case	_	_
-30	1948	1948	NUM	NUM	NumType=Card	23	nmod	_	SpaceAfter=No
-31	,	,	PUNCT	.	_	33	punct	_	_
-32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
-33	antecessor	antecessor	NOUN	NOUN	_	23	appos	_	_
-34	histórico	histórico	ADJ	ADJ	_	33	amod	_	_
-35-36	da	_	_	_	_	_	_	_	_
-35	de	de	ADP	ADP	_	37	case	_	_
-36	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
-37	Copa	_	PROPN	PNOUN	_	33	nmod	_	_
-38	Libertadores	_	PROPN	PNOUN	_	37	flat	_	SpaceAfter=No
-39	.	.	PUNCT	.	_	5	punct	_	_
+24-25	Sul-Americano	_	_	_	_	_	_	_	_
+24	Sul	_	PROPN	PNOUN	_	25	amod	_	_
+25	Americano	_	PROPN	PNOUN	_	23	amod	_	_
+26	de	de	ADP	ADP	_	27	case	_	_
+27	Campeões	_	PROPN	PNOUN	_	23	nmod	_	_
+28	de	de	ADP	ADP	_	29	case	_	_
+29	1948	1948	NUM	NUM	NumType=Card	23	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	.	_	32	punct	_	_
+31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	antecessor	antecessor	NOUN	NOUN	_	23	appos	_	_
+33	histórico	histórico	ADJ	ADJ	_	32	amod	_	_
+34-35	da	_	_	_	_	_	_	_	_
+34	de	de	ADP	ADP	_	36	case	_	_
+35	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	Copa	_	PROPN	PNOUN	_	32	nmod	_	_
+37	Libertadores	_	PROPN	PNOUN	_	36	flat	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s233
 # text = A chanceler alemã, Angela Merkel, também elogiu a decisão nesta quinta (13 / 12).
@@ -164,7 +164,7 @@
 18	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s237
-# text = "Eu acho que o Brasil, em 2013, vai crescer mais", disse o presidente na sexta - feira, com os olhos voltados para a maior conquista do PT no governo: a luta contra a pobreza e a ascensão de 40 milhões de pessoas à classe média desde 2003.
+# text = "Eu acho que o Brasil, em 2013, vai crescer mais", disse o presidente na sexta-feira, com os olhos voltados para a maior conquista do PT no governo: a luta contra a pobreza e a ascensão de 40 milhões de pessoas à classe média desde 2003.
 1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
 2	Eu	_	PRON	PRON	_	3	nsubj	_	_
 3	acho	achar	VERB	VERB	_	16	ccomp	_	_
@@ -184,50 +184,50 @@
 17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	presidente	presidente	NOUN	NOUN	_	16	nsubj	_	_
 19-20	na	_	_	_	_	_	_	_	_
-19	em	em	ADP	ADP	_	23	case	_	_
-20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-21	sexta	_	PROPN	PNOUN	_	23	amod	_	_
-22	-	-	PUNCT	.	_	23	punct	_	_
-23	feira	_	PROPN	PNOUN	_	16	nmod	_	SpaceAfter=No
-24	,	,	PUNCT	.	_	27	punct	_	_
-25	com	com	ADP	ADP	_	27	case	_	_
-26	os	o	DET	DET	_	27	det	_	_
-27	olhos	olho	NOUN	NOUN	_	18	nmod	_	_
-28	voltados	voltar	VERB	VERB	_	27	acl	_	_
-29	para	para	ADP	ADP	_	32	case	_	_
-30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
-31	maior	maior	ADJ	ADJ	_	32	amod	_	_
-32	conquista	conquista	NOUN	NOUN	_	28	nmod	_	_
-33-34	do	_	_	_	_	_	_	_	_
-33	de	de	ADP	ADP	_	35	case	_	_
-34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
-35	PT	_	PROPN	PNOUN	_	32	nmod	_	_
-36-37	no	_	_	_	_	_	_	_	_
-36	em	em	ADP	ADP	_	38	case	_	_
-37	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
-38	governo	governo	NOUN	NOUN	_	32	nmod	_	SpaceAfter=No
-39	:	:	PUNCT	.	_	32	punct	_	_
-40	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
-41	luta	luta	NOUN	NOUN	_	32	appos	_	_
-42	contra	_	ADP	ADP	_	44	case	_	_
-43	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
-44	pobreza	pobreza	NOUN	NOUN	_	41	nmod	_	_
-45	e	e	CCONJ	CONJ	_	47	cc	_	_
-46	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
-47	ascensão	ascensão	NOUN	NOUN	_	41	conj	_	_
-48	de	de	ADP	ADP	_	52	case	_	_
-49	40	40	NUM	NUM	NumType=Card	50	nummod	_	_
-50	milhões	_	NUM	NUM	NumType=Card	52	nummod	_	_
-51	de	de	ADP	ADP	_	52	case	_	_
-52	pessoas	pessoa	NOUN	NOUN	_	47	nmod	_	_
-53-54	à	_	_	_	_	_	_	_	_
-53	a	a	ADP	ADP	_	55	case	_	_
-54	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
-55	classe	classe	NOUN	NOUN	_	47	nmod	_	_
-56	média	médio	ADJ	ADJ	_	55	amod	_	_
-57	desde	_	ADP	ADP	_	58	case	_	_
-58	2003	2003	NUM	NUM	NumType=Card	47	nmod	_	SpaceAfter=No
-59	.	.	PUNCT	.	_	16	punct	_	_
+19	em	em	ADP	ADP	_	22	case	_	_
+20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21-22	sexta-feira	_	_	_	_	_	_	_	SpaceAfter=No
+21	sexta	_	PROPN	PNOUN	_	22	amod	_	_
+22	feira	_	PROPN	PNOUN	_	16	nmod	_	_
+23	,	,	PUNCT	.	_	26	punct	_	_
+24	com	com	ADP	ADP	_	26	case	_	_
+25	os	o	DET	DET	_	26	det	_	_
+26	olhos	olho	NOUN	NOUN	_	18	nmod	_	_
+27	voltados	voltar	VERB	VERB	_	26	acl	_	_
+28	para	para	ADP	ADP	_	31	case	_	_
+29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+30	maior	maior	ADJ	ADJ	_	31	amod	_	_
+31	conquista	conquista	NOUN	NOUN	_	27	nmod	_	_
+32-33	do	_	_	_	_	_	_	_	_
+32	de	de	ADP	ADP	_	34	case	_	_
+33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	PT	_	PROPN	PNOUN	_	31	nmod	_	_
+35-36	no	_	_	_	_	_	_	_	_
+35	em	em	ADP	ADP	_	37	case	_	_
+36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	governo	governo	NOUN	NOUN	_	31	nmod	_	SpaceAfter=No
+38	:	:	PUNCT	.	_	31	punct	_	_
+39	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	luta	luta	NOUN	NOUN	_	31	appos	_	_
+41	contra	_	ADP	ADP	_	43	case	_	_
+42	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	pobreza	pobreza	NOUN	NOUN	_	40	nmod	_	_
+44	e	e	CCONJ	CONJ	_	46	cc	_	_
+45	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	ascensão	ascensão	NOUN	NOUN	_	40	conj	_	_
+47	de	de	ADP	ADP	_	51	case	_	_
+48	40	40	NUM	NUM	NumType=Card	49	nummod	_	_
+49	milhões	_	NUM	NUM	NumType=Card	51	nummod	_	_
+50	de	de	ADP	ADP	_	51	case	_	_
+51	pessoas	pessoa	NOUN	NOUN	_	46	nmod	_	_
+52-53	à	_	_	_	_	_	_	_	_
+52	a	a	ADP	ADP	_	54	case	_	_
+53	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
+54	classe	classe	NOUN	NOUN	_	46	nmod	_	_
+55	média	médio	ADJ	ADJ	_	54	amod	_	_
+56	desde	_	ADP	ADP	_	57	case	_	_
+57	2003	2003	NUM	NUM	NumType=Card	46	nmod	_	SpaceAfter=No
+58	.	.	PUNCT	.	_	16	punct	_	_
 
 # sent_id = train-s238
 # text = No meio deste ano, o Leão chegou a anunciar a contratação do polêmico atacante de 24 anos.
@@ -288,7 +288,7 @@
 26	.	.	PUNCT	.	_	23	punct	_	_
 
 # sent_id = train-s240
-# text = O desembargador Luis Carlos da Costa afastou liminarmente, no final da tarde desta quarta - feira (19), o presidente da Assembléia Legislativa, deputado José Riva (PSD), de suas funções administrativas da Mesa Diretora.
+# text = O desembargador Luis Carlos da Costa afastou liminarmente, no final da tarde desta quarta-feira (19), o presidente da Assembléia Legislativa, deputado José Riva (PSD), de suas funções administrativas da Mesa Diretora.
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	desembargador	desembargador	NOUN	NOUN	_	8	nsubj	_	_
 3	Luis	_	PROPN	PNOUN	_	2	appos	_	_
@@ -308,37 +308,37 @@
 14	de	de	ADP	ADP	_	16	case	_	_
 15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	tarde	tarde	NOUN	NOUN	_	13	nmod	_	_
-17	desta	_	ADP	ADP	_	20	case	_	_
-18	quarta	_	PROPN	PNOUN	_	20	amod	_	_
-19	-	-	PUNCT	.	_	20	punct	_	_
-20	feira	_	PROPN	PNOUN	_	16	nmod	_	_
-21	(	(	PUNCT	.	_	22	punct	_	SpaceAfter=No
-22	19	19	NUM	NUM	NumType=Card	20	nmod	_	SpaceAfter=No
-23	)	)	PUNCT	.	_	22	punct	_	SpaceAfter=No
-24	,	,	PUNCT	.	_	13	punct	_	_
-25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	presidente	presidente	NOUN	NOUN	_	8	obj	_	_
-27-28	da	_	_	_	_	_	_	_	_
-27	de	de	ADP	ADP	_	29	case	_	_
-28	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-29	Assembléia	_	PROPN	PNOUN	_	26	nmod	_	_
-30	Legislativa	_	PROPN	PNOUN	_	29	amod	_	SpaceAfter=No
-31	,	,	PUNCT	.	_	32	punct	_	_
-32	deputado	deputado	NOUN	NOUN	_	26	appos	_	_
-33	José	_	PROPN	PNOUN	_	32	appos	_	_
-34	Riva	_	PROPN	PNOUN	_	33	flat	_	_
-35	(	(	PUNCT	.	_	36	punct	_	SpaceAfter=No
-36	PSD	_	PROPN	PNOUN	_	32	appos	_	SpaceAfter=No
-37	)	)	PUNCT	.	_	36	punct	_	SpaceAfter=No
-38	,	,	PUNCT	.	_	41	punct	_	_
-39	de	de	ADP	ADP	_	41	case	_	_
-40	suas	_	DET	DET	_	41	det:poss	_	_
-41	funções	função	NOUN	NOUN	_	8	nmod	_	_
-42	administrativas	administrativo	ADJ	ADJ	_	41	amod	_	_
-43-44	da	_	_	_	_	_	_	_	_
-43	de	de	ADP	ADP	_	45	case	_	_
-44	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
-45	Mesa	_	PROPN	PNOUN	_	41	nmod	_	_
-46	Diretora	_	PROPN	PNOUN	_	45	amod	_	SpaceAfter=No
-47	.	.	PUNCT	.	_	8	punct	_	_
+17	desta	_	ADP	ADP	_	19	case	_	_
+18-19	quarta-feira	_	_	_	_	_	_	_	_
+18	quarta	_	PROPN	PNOUN	_	19	amod	_	_
+19	feira	_	PROPN	PNOUN	_	16	nmod	_	_
+20	(	(	PUNCT	.	_	21	punct	_	SpaceAfter=No
+21	19	19	NUM	NUM	NumType=Card	19	nmod	_	SpaceAfter=No
+22	)	)	PUNCT	.	_	21	punct	_	SpaceAfter=No
+23	,	,	PUNCT	.	_	13	punct	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	presidente	presidente	NOUN	NOUN	_	8	obj	_	_
+26-27	da	_	_	_	_	_	_	_	_
+26	de	de	ADP	ADP	_	28	case	_	_
+27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Assembléia	_	PROPN	PNOUN	_	25	nmod	_	_
+29	Legislativa	_	PROPN	PNOUN	_	28	amod	_	SpaceAfter=No
+30	,	,	PUNCT	.	_	31	punct	_	_
+31	deputado	deputado	NOUN	NOUN	_	25	appos	_	_
+32	José	_	PROPN	PNOUN	_	31	appos	_	_
+33	Riva	_	PROPN	PNOUN	_	32	flat	_	_
+34	(	(	PUNCT	.	_	35	punct	_	SpaceAfter=No
+35	PSD	_	PROPN	PNOUN	_	31	appos	_	SpaceAfter=No
+36	)	)	PUNCT	.	_	35	punct	_	SpaceAfter=No
+37	,	,	PUNCT	.	_	40	punct	_	_
+38	de	de	ADP	ADP	_	40	case	_	_
+39	suas	_	DET	DET	_	40	det:poss	_	_
+40	funções	função	NOUN	NOUN	_	8	nmod	_	_
+41	administrativas	administrativo	ADJ	ADJ	_	40	amod	_	_
+42-43	da	_	_	_	_	_	_	_	_
+42	de	de	ADP	ADP	_	44	case	_	_
+43	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	Mesa	_	PROPN	PNOUN	_	40	nmod	_	_
+45	Diretora	_	PROPN	PNOUN	_	44	amod	_	SpaceAfter=No
+46	.	.	PUNCT	.	_	8	punct	_	_
 

@@ -203,7 +203,7 @@
 30	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s6913
-# text = Ele hipnotiza ela temporariamente, fazendo-a esquecer de Stefan, mas quando ele se inclina para beijá - la, ela se lembra de seu amor por Stefan, e se afasta dele.
+# text = Ele hipnotiza ela temporariamente, fazendo-a esquecer de Stefan, mas quando ele se inclina para beijá-la, ela se lembra de seu amor por Stefan, e se afasta dele.
 1	Ele	_	PRON	PRON	_	2	nsubj	_	_
 2	hipnotiza	hipnotizar	VERB	VERB	_	0	root	_	_
 3	ela	_	PRON	PRON	_	2	obj	_	_
@@ -216,30 +216,30 @@
 9	de	de	ADP	ADP	_	10	case	_	_
 10	Stefan	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	.	_	6	punct	_	_
-12	mas	mas	CCONJ	CONJ	_	24	cc	_	_
+12	mas	mas	CCONJ	CONJ	_	23	cc	_	_
 13	quando	_	CCONJ	CONJ	_	16	mark	_	_
 14	ele	_	PRON	PRON	_	16	nsubj	_	_
 15	se	_	PRON	PRON	_	16	obj	_	_
-16	inclina	inclinar	VERB	VERB	_	24	advcl	_	_
+16	inclina	inclinar	VERB	VERB	_	23	advcl	_	_
 17	para	_	ADP	ADP	_	18	mark	_	_
+18-19	beijá-la	_	_	_	_	_	_	_	SpaceAfter=No
 18	beijá	beijar	VERB	VERB	_	16	advcl	_	_
-19	-	-	PUNCT	.	_	18	punct	_	_
-20	la	_	PRON	PRON	_	18	obj	_	SpaceAfter=No
-21	,	,	PUNCT	.	_	16	punct	_	_
-22	ela	_	PRON	PRON	_	24	nsubj	_	_
-23	se	_	PART	PRT	_	24	expl:pv	_	_
-24	lembra	lembrar	VERB	VERB	_	2	conj	_	_
-25	de	de	ADP	ADP	_	27	case	_	_
-26	seu	_	DET	DET	_	27	det:poss	_	_
-27	amor	amor	NOUN	NOUN	_	24	nmod	_	_
-28	por	por	ADP	ADP	_	29	case	_	_
-29	Stefan	_	PROPN	PNOUN	_	27	nmod	_	SpaceAfter=No
-30	,	,	PUNCT	.	_	33	punct	_	_
-31	e	e	CCONJ	CONJ	_	33	cc	_	_
-32	se	_	PRON	PRON	_	33	obj	_	_
-33	afasta	afastar	VERB	VERB	_	24	conj	_	_
-34	dele	_	X	ADPPRON	_	33	nmod	_	SpaceAfter=No
-35	.	.	PUNCT	.	_	2	punct	_	_
+19	la	_	PRON	PRON	_	18	obj	_	_
+20	,	,	PUNCT	.	_	16	punct	_	_
+21	ela	_	PRON	PRON	_	23	nsubj	_	_
+22	se	_	PART	PRT	_	23	expl:pv	_	_
+23	lembra	lembrar	VERB	VERB	_	2	conj	_	_
+24	de	de	ADP	ADP	_	26	case	_	_
+25	seu	_	DET	DET	_	26	det:poss	_	_
+26	amor	amor	NOUN	NOUN	_	23	nmod	_	_
+27	por	por	ADP	ADP	_	28	case	_	_
+28	Stefan	_	PROPN	PNOUN	_	26	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	.	_	32	punct	_	_
+30	e	e	CCONJ	CONJ	_	32	cc	_	_
+31	se	_	PRON	PRON	_	32	obj	_	_
+32	afasta	afastar	VERB	VERB	_	23	conj	_	_
+33	dele	_	X	ADPPRON	_	32	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s6914
 # text = Dr. Marc van Roosmalen (Tilburg, 24 de julho de 1947) é um primatólogo neerlandês naturalizado brasileiro, radicado na Floresta Amazônica.
@@ -272,25 +272,25 @@
 26	.	.	PUNCT	.	_	16	punct	_	_
 
 # sent_id = train-s6915
-# text = O veterano, ouro em Atenas - 04 e bronze em Pequim - 08, disputa sua quinta Olimpíada.
+# text = O veterano, ouro em Atenas-04 e bronze em Pequim-08, disputa sua quinta Olimpíada.
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	veterano	veterano	NOUN	NOUN	_	16	nsubj	_	SpaceAfter=No
+2	veterano	veterano	NOUN	NOUN	_	14	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	4	punct	_	_
 4	ouro	ouro	NOUN	NOUN	_	2	appos	_	_
 5	em	em	ADP	ADP	_	6	case	_	_
+6-7	Atenas-04	_	_	_	_	_	_	_	_
 6	Atenas	_	PROPN	PNOUN	_	4	nmod	_	_
-7	-	-	PUNCT	.	_	6	punct	_	_
-8	04	04	NUM	NUM	NumType=Card	6	nmod	_	_
-9	e	e	CCONJ	CONJ	_	10	cc	_	_
-10	bronze	bronze	NOUN	NOUN	_	4	conj	_	_
-11	em	em	ADP	ADP	_	12	case	_	_
-12	Pequim	_	PROPN	PNOUN	_	10	nmod	_	_
-13	-	-	PUNCT	.	_	12	punct	_	_
-14	08	08	NUM	NUM	NumType=Card	12	nmod	_	SpaceAfter=No
-15	,	,	PUNCT	.	_	2	punct	_	_
-16	disputa	disputar	VERB	VERB	_	0	root	_	_
-17	sua	_	DET	DET	_	19	det:poss	_	_
-18	quinta	_	ADJ	ADJ	_	19	amod	_	_
-19	Olimpíada	_	PROPN	PNOUN	_	16	obj	_	SpaceAfter=No
-20	.	.	PUNCT	.	_	16	punct	_	_
+7	04	04	NUM	NUM	NumType=Card	6	nmod	_	_
+8	e	e	CCONJ	CONJ	_	9	cc	_	_
+9	bronze	bronze	NOUN	NOUN	_	4	conj	_	_
+10	em	em	ADP	ADP	_	11	case	_	_
+11-12	Pequim-08	_	_	_	_	_	_	_	SpaceAfter=No
+11	Pequim	_	PROPN	PNOUN	_	9	nmod	_	_
+12	08	08	NUM	NUM	NumType=Card	11	nmod	_	_
+13	,	,	PUNCT	.	_	2	punct	_	_
+14	disputa	disputar	VERB	VERB	_	0	root	_	_
+15	sua	_	DET	DET	_	17	det:poss	_	_
+16	quinta	_	ADJ	ADJ	_	17	amod	_	_
+17	Olimpíada	_	PROPN	PNOUN	_	14	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	14	punct	_	_
 

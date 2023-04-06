@@ -115,36 +115,36 @@
 21	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = dev-s669
-# text = Em 1885, após a derrota na Guerra Sino - Francesa, o imperador Hàm Nghi foi obrigado a aceitar o protetorado francês sobre o império.
+# text = Em 1885, após a derrota na Guerra Sino-Francesa, o imperador Hàm Nghi foi obrigado a aceitar o protetorado francês sobre o império.
 1	Em	em	ADP	ADP	_	2	case	_	_
-2	1885	1885	NUM	NUM	NumType=Card	19	nmod	_	SpaceAfter=No
+2	1885	1885	NUM	NUM	NumType=Card	18	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	.	_	2	punct	_	_
 4	após	_	ADP	ADP	_	6	case	_	_
 5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	derrota	derrota	NOUN	NOUN	_	19	nmod	_	_
+6	derrota	derrota	NOUN	NOUN	_	18	nmod	_	_
 7-8	na	_	_	_	_	_	_	_	_
 7	em	em	ADP	ADP	_	9	case	_	_
 8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Guerra	_	PROPN	PNOUN	_	6	nmod	_	_
-10	Sino	_	PROPN	PNOUN	_	12	amod	_	_
-11	-	-	PUNCT	.	_	12	punct	_	_
-12	Francesa	_	PROPN	PNOUN	_	9	amod	_	SpaceAfter=No
-13	,	,	PUNCT	.	_	6	punct	_	_
-14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	imperador	imperador	NOUN	NOUN	_	19	nsubj:pass	_	_
-16	Hàm	_	PROPN	PNOUN	_	15	appos	_	_
-17	Nghi	_	PROPN	PNOUN	_	16	flat	_	_
-18	foi	_	AUX	AUX	_	19	aux:pass	_	_
-19	obrigado	obrigar	VERB	VERB	_	0	root	_	_
-20	a	_	ADP	ADP	_	21	mark	_	_
-21	aceitar	aceitar	VERB	VERB	_	19	nmod	_	_
-22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	protetorado	protetorado	NOUN	NOUN	_	21	obj	_	_
-24	francês	francês	ADJ	ADJ	_	23	amod	_	_
-25	sobre	_	ADP	ADP	_	27	case	_	_
-26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	império	império	NOUN	NOUN	_	23	nmod	_	SpaceAfter=No
-28	.	.	PUNCT	.	_	19	punct	_	_
+10-11	Sino-Francesa	_	_	_	_	_	_	_	SpaceAfter=No
+10	Sino	_	PROPN	PNOUN	_	11	amod	_	_
+11	Francesa	_	PROPN	PNOUN	_	9	amod	_	_
+12	,	,	PUNCT	.	_	6	punct	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	imperador	imperador	NOUN	NOUN	_	18	nsubj:pass	_	_
+15	Hàm	_	PROPN	PNOUN	_	14	appos	_	_
+16	Nghi	_	PROPN	PNOUN	_	15	flat	_	_
+17	foi	_	AUX	AUX	_	18	aux:pass	_	_
+18	obrigado	obrigar	VERB	VERB	_	0	root	_	_
+19	a	_	ADP	ADP	_	20	mark	_	_
+20	aceitar	aceitar	VERB	VERB	_	18	nmod	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	protetorado	protetorado	NOUN	NOUN	_	20	obj	_	_
+23	francês	francês	ADJ	ADJ	_	22	amod	_	_
+24	sobre	_	ADP	ADP	_	26	case	_	_
+25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	império	império	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	18	punct	_	_
 
 # sent_id = dev-s670
 # text = Moradores foram completamente desalojados e alguns deles receberam seus pertences.
@@ -199,9 +199,9 @@
 33	meses	mês	NOUN	NOUN	_	30	conj	_	_
 34	e	e	CCONJ	CONJ	_	36	cc	_	_
 35	210	210	NUM	NUM	NumType=Card	36	nummod	_	_
-36	dias	dia	NOUN	NOUN	_	30	conj	_	_
+36	dias	dia	NOUN	NOUN	_	30	conj	_	ToDo=NonCatenaCompound
 37	-	-	PUNCT	.	_	38	punct	_	_
-38	multa	multa	NOUN	NOUN	_	30	conj	_	_
+38	multa	multa	NOUN	NOUN	_	30	conj	_	ToDo=NonCatenaCompound
 39	de	de	ADP	ADP	_	41	case	_	_
 40	10	10	NUM	NUM	NumType=Card	41	nummod	_	_
 41	salários	salário	NOUN	NOUN	_	38	nmod	_	_

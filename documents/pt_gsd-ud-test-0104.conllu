@@ -210,7 +210,7 @@
 19	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = test-s1032
-# text = Além da duplicação, o projeto prevê a implantação de vias marginais, melhorias nas interseções da rodovia com a PR - 424 e a PRC - 272 e implantação da interseção do Saltinho, no município de Siqueira Campos.
+# text = Além da duplicação, o projeto prevê a implantação de vias marginais, melhorias nas interseções da rodovia com a PR - 424 e a PRC-272 e implantação da interseção do Saltinho, no município de Siqueira Campos.
 1	Além	além	ADV	ADV	_	8	advmod	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	ADP	_	4	case	_	_
@@ -237,55 +237,55 @@
 21	rodovia	rodovia	NOUN	NOUN	_	18	nmod	_	_
 22	com	com	ADP	ADP	_	24	case	_	_
 23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-24	PR	_	PROPN	PNOUN	_	18	nmod	_	_
-25	-	-	PUNCT	.	_	29	punct	_	_
+24	PR	_	PROPN	PNOUN	_	18	nmod	_	ToDo=NonCatenaCompound
+25	-	-	PUNCT	.	_	29	punct	_	ToDo=NonCatenaCompound
 26	424	424	NUM	NUM	NumType=Card	24	appos	_	_
 27	e	e	CCONJ	CONJ	_	29	cc	_	_
 28	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29-30	PRC-272	_	_	_	_	_	_	_	_
 29	PRC	_	PROPN	PNOUN	_	24	conj	_	_
-30	-	-	PUNCT	.	_	29	punct	_	_
-31	272	272	NUM	NUM	NumType=Card	29	appos	_	_
-32	e	e	CCONJ	CONJ	_	33	cc	_	_
-33	implantação	implantação	NOUN	NOUN	_	10	conj	_	_
-34-35	da	_	_	_	_	_	_	_	_
-34	de	de	ADP	ADP	_	36	case	_	_
-35	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-36	interseção	interseção	NOUN	NOUN	_	33	nmod	_	_
-37-38	do	_	_	_	_	_	_	_	_
-37	de	de	ADP	ADP	_	39	case	_	_
-38	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
-39	Saltinho	_	PROPN	PNOUN	_	36	nmod	_	SpaceAfter=No
-40	,	,	PUNCT	.	_	43	punct	_	_
-41-42	no	_	_	_	_	_	_	_	_
-41	em	em	ADP	ADP	_	43	case	_	_
-42	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
-43	município	município	NOUN	NOUN	_	8	nmod	_	_
-44	de	de	ADP	ADP	_	45	case	_	_
-45	Siqueira	_	PROPN	PNOUN	_	43	nmod	_	_
-46	Campos	_	PROPN	PNOUN	_	45	flat	_	SpaceAfter=No
-47	.	.	PUNCT	.	_	8	punct	_	_
+30	272	272	NUM	NUM	NumType=Card	29	appos	_	_
+31	e	e	CCONJ	CONJ	_	32	cc	_	_
+32	implantação	implantação	NOUN	NOUN	_	10	conj	_	_
+33-34	da	_	_	_	_	_	_	_	_
+33	de	de	ADP	ADP	_	35	case	_	_
+34	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	interseção	interseção	NOUN	NOUN	_	32	nmod	_	_
+36-37	do	_	_	_	_	_	_	_	_
+36	de	de	ADP	ADP	_	38	case	_	_
+37	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	Saltinho	_	PROPN	PNOUN	_	35	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	.	_	42	punct	_	_
+40-41	no	_	_	_	_	_	_	_	_
+40	em	em	ADP	ADP	_	42	case	_	_
+41	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	município	município	NOUN	NOUN	_	8	nmod	_	_
+43	de	de	ADP	ADP	_	44	case	_	_
+44	Siqueira	_	PROPN	PNOUN	_	42	nmod	_	_
+45	Campos	_	PROPN	PNOUN	_	44	flat	_	SpaceAfter=No
+46	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = test-s1034
-# text = Agora, o ex - senador deverá dar explicações à Corregedoria - Geral do MP estadual.
-1	Agora	agora	ADV	ADV	_	8	advmod	_	SpaceAfter=No
+# text = Agora, o ex-senador deverá dar explicações à Corregedoria-Geral do MP estadual.
+1	Agora	agora	ADV	ADV	_	7	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	.	_	1	punct	_	_
 3	o	o	DET	DET	_	4	det	_	_
-4	ex	_	PART	PRT	_	8	nsubj	_	_
-5	-	-	PUNCT	.	_	4	punct	_	_
-6	senador	senador	NOUN	NOUN	_	4	flat	_	_
-7	deverá	dever	AUX	AUX	_	8	aux	_	_
-8	dar	dar	VERB	VERB	_	0	root	_	_
-9	explicações	explicação	NOUN	NOUN	_	8	obj	_	_
-10-11	à	_	_	_	_	_	_	_	_
-10	a	a	ADP	ADP	_	12	case	_	_
-11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	Corregedoria	_	PROPN	PNOUN	_	8	iobj	_	_
-13	-	-	PUNCT	.	_	12	punct	_	_
-14	Geral	_	PROPN	PNOUN	_	12	amod	_	_
-15-16	do	_	_	_	_	_	_	_	_
-15	de	de	ADP	ADP	_	17	case	_	_
-16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	MP	_	PROPN	PNOUN	_	12	nmod	_	_
-18	estadual	estadual	ADJ	ADJ	_	17	amod	_	SpaceAfter=No
-19	.	.	PUNCT	.	_	8	punct	_	_
+4-5	ex-senador	_	_	_	_	_	_	_	_
+4	ex	_	PART	PRT	_	7	nsubj	_	_
+5	senador	senador	NOUN	NOUN	_	4	flat	_	_
+6	deverá	dever	AUX	AUX	_	7	aux	_	_
+7	dar	dar	VERB	VERB	_	0	root	_	_
+8	explicações	explicação	NOUN	NOUN	_	7	obj	_	_
+9-10	à	_	_	_	_	_	_	_	_
+9	a	a	ADP	ADP	_	11	case	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11-12	Corregedoria-Geral	_	_	_	_	_	_	_	_
+11	Corregedoria	_	PROPN	PNOUN	_	7	iobj	_	_
+12	Geral	_	PROPN	PNOUN	_	11	amod	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	MP	_	PROPN	PNOUN	_	11	nmod	_	_
+16	estadual	estadual	ADJ	ADJ	_	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	7	punct	_	_
 

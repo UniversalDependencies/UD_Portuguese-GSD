@@ -1,5 +1,5 @@
 # sent_id = train-s1200
-# text = De acordo com integrantes do governo, uma das razões de Dilma para preterir Castro Mendes foi o fato do juiz contar com o apoio do deputado Jair Bolsonaro (PP - RJ).
+# text = De acordo com integrantes do governo, uma das razões de Dilma para preterir Castro Mendes foi o fato do juiz contar com o apoio do deputado Jair Bolsonaro (PP-RJ).
 1	De	_	ADP	ADP	_	2	case	_	_
 2	acordo	acordo	NOUN	NOUN	_	21	nmod	_	_
 3	com	com	ADP	ADP	_	4	case	_	_
@@ -38,11 +38,11 @@
 32	Jair	_	PROPN	PNOUN	_	31	appos	_	_
 33	Bolsonaro	_	PROPN	PNOUN	_	32	flat	_	_
 34	(	(	PUNCT	.	_	35	punct	_	SpaceAfter=No
+35-36	PP-RJ	_	_	_	_	_	_	_	SpaceAfter=No
 35	PP	_	PROPN	PNOUN	_	31	appos	_	_
-36	-	-	PUNCT	.	_	35	punct	_	_
-37	RJ	_	PROPN	PNOUN	_	35	flat	_	SpaceAfter=No
-38	)	)	PUNCT	.	_	35	punct	_	SpaceAfter=No
-39	.	.	PUNCT	.	_	21	punct	_	_
+36	RJ	_	PROPN	PNOUN	_	35	flat	_	_
+37	)	)	PUNCT	.	_	35	punct	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	21	punct	_	_
 
 # sent_id = train-s1201
 # text = Não podemos ter piorado tanto duma sessão para outra ", falou o brasileiro.
@@ -147,7 +147,7 @@
 9	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s1205
-# text = "Uri Landesman, presidente do fundo de hedge Platinum Partners, qualificou o comportamento do mercado nesta sexta - feira como" um rali de alívio, um pouco de 'comprar na má notícia'".
+# text = "Uri Landesman, presidente do fundo de hedge Platinum Partners, qualificou o comportamento do mercado nesta sexta-feira como" um rali de alívio, um pouco de 'comprar na má notícia'".
 1	"	"	PUNCT	.	_	14	punct	_	SpaceAfter=No
 2	Uri	_	PROPN	PNOUN	_	14	nsubj	_	_
 3	Landesman	_	PROPN	PNOUN	_	2	flat	_	SpaceAfter=No
@@ -169,30 +169,30 @@
 17	de	de	ADP	ADP	_	19	case	_	_
 18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	mercado	mercado	NOUN	NOUN	_	16	nmod	_	_
-20	nesta	_	ADP	ADP	_	23	case	_	_
-21	sexta	_	PROPN	PNOUN	_	23	amod	_	_
-22	-	-	PUNCT	.	_	23	punct	_	_
-23	feira	_	PROPN	PNOUN	_	14	nmod	_	_
-24	como	como	ADP	ADP	_	27	case	_	SpaceAfter=No
-25	"	"	PUNCT	.	_	27	punct	_	_
-26	um	um	DET	DET	_	27	det	_	_
-27	rali	rali	NOUN	NOUN	_	14	nmod	_	_
-28	de	de	ADP	ADP	_	29	case	_	_
-29	alívio	alívio	NOUN	NOUN	_	27	nmod	_	SpaceAfter=No
-30	,	,	PUNCT	.	_	32	punct	_	_
-31	um	um	DET	DET	_	32	det	_	_
-32	pouco	pouco	NOUN	NOUN	_	27	conj	_	_
-33	de	_	ADP	ADP	_	35	mark	_	_
-34	'	_	PUNCT	.	_	35	punct	_	SpaceAfter=No
-35	comprar	comprar	VERB	VERB	_	32	nmod	_	_
-36-37	na	_	_	_	_	_	_	_	_
-36	em	em	ADP	ADP	_	39	case	_	_
-37	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
-38	má	mau	ADJ	ADJ	_	39	amod	_	_
-39	notícia	notícia	NOUN	NOUN	_	35	nmod	_	SpaceAfter=No
-40	'	_	PUNCT	.	_	35	punct	_	SpaceAfter=No
-41	"	"	PUNCT	.	_	27	punct	_	SpaceAfter=No
-42	.	.	PUNCT	.	_	14	punct	_	_
+20	nesta	_	ADP	ADP	_	22	case	_	_
+21-22	sexta-feira	_	_	_	_	_	_	_	_
+21	sexta	_	PROPN	PNOUN	_	22	amod	_	_
+22	feira	_	PROPN	PNOUN	_	14	nmod	_	_
+23	como	como	ADP	ADP	_	26	case	_	SpaceAfter=No
+24	"	"	PUNCT	.	_	26	punct	_	_
+25	um	um	DET	DET	_	26	det	_	_
+26	rali	rali	NOUN	NOUN	_	14	nmod	_	_
+27	de	de	ADP	ADP	_	28	case	_	_
+28	alívio	alívio	NOUN	NOUN	_	26	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	.	_	31	punct	_	_
+30	um	um	DET	DET	_	31	det	_	_
+31	pouco	pouco	NOUN	NOUN	_	26	conj	_	_
+32	de	_	ADP	ADP	_	34	mark	_	_
+33	'	_	PUNCT	.	_	34	punct	_	SpaceAfter=No
+34	comprar	comprar	VERB	VERB	_	31	nmod	_	_
+35-36	na	_	_	_	_	_	_	_	_
+35	em	em	ADP	ADP	_	38	case	_	_
+36	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+37	má	mau	ADJ	ADJ	_	38	amod	_	_
+38	notícia	notícia	NOUN	NOUN	_	34	nmod	_	SpaceAfter=No
+39	'	_	PUNCT	.	_	34	punct	_	SpaceAfter=No
+40	"	"	PUNCT	.	_	26	punct	_	SpaceAfter=No
+41	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = train-s1206
 # text = Tivemos a baixa performance dalguns jogadores, suspensões e perda de atletas no meio disso tudo ", frisou.

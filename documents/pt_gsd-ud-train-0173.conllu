@@ -19,7 +19,7 @@
 9	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s1720
-# text = Assista ao vídeo e confira tudo o que rolou no programa desta quinta - feira (13).
+# text = Assista ao vídeo e confira tudo o que rolou no programa desta quinta-feira (13).
 1	Assista	assistir	VERB	VERB	_	0	root	_	_
 2-3	ao	_	_	_	_	_	_	_	_
 2	a	a	ADP	ADP	_	4	case	_	_
@@ -35,14 +35,14 @@
 11	em	em	ADP	ADP	_	13	case	_	_
 12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	programa	programa	NOUN	NOUN	_	10	nmod	_	_
-14	desta	_	ADP	ADP	_	17	case	_	_
-15	quinta	_	PROPN	PNOUN	_	17	amod	_	_
-16	-	-	PUNCT	.	_	17	punct	_	_
-17	feira	_	PROPN	PNOUN	_	13	nmod	_	_
-18	(	(	PUNCT	.	_	19	punct	_	SpaceAfter=No
-19	13	13	NUM	NUM	NumType=Card	17	nmod	_	SpaceAfter=No
-20	)	)	PUNCT	.	_	19	punct	_	SpaceAfter=No
-21	.	.	PUNCT	.	_	1	punct	_	_
+14	desta	_	ADP	ADP	_	16	case	_	_
+15-16	quinta-feira	_	_	_	_	_	_	_	_
+15	quinta	_	PROPN	PNOUN	_	16	amod	_	_
+16	feira	_	PROPN	PNOUN	_	13	nmod	_	_
+17	(	(	PUNCT	.	_	18	punct	_	SpaceAfter=No
+18	13	13	NUM	NUM	NumType=Card	16	nmod	_	SpaceAfter=No
+19	)	)	PUNCT	.	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s1721
 # text = O que está em jogo não é apenas mais uma taça para a vasta coleção alviverde, mas o resgate do orgulho palmeirense e a volta dum gigante ao topo do futebol brasileiro.
@@ -160,7 +160,7 @@
 62	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = train-s1723
-# text = Participaram da caminhada o senador Sérgio Peteção, os ex - candidato a prefeito de Rio Branco Fernando Melo e Leôncio Castro, os deputados federais Márcio Bittar e Gladson Cameli, e os vereadores eleitos de Rio Branco no 1 ° turno, Roselane e Rabelo Góes.
+# text = Participaram da caminhada o senador Sérgio Peteção, os ex-candidato a prefeito de Rio Branco Fernando Melo e Leôncio Castro, os deputados federais Márcio Bittar e Gladson Cameli, e os vereadores eleitos de Rio Branco no 1 ° turno, Roselane e Rabelo Góes.
 1	Participaram	participar	VERB	VERB	_	0	root	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	ADP	_	4	case	_	_
@@ -172,48 +172,48 @@
 8	Peteção	_	PROPN	PNOUN	_	7	flat	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	11	punct	_	_
 10	os	o	DET	DET	_	11	det	_	_
+11-12	ex-candidato	_	_	_	_	_	_	_	_
 11	ex	_	PART	PRT	_	6	conj	_	_
-12	-	-	PUNCT	.	_	11	punct	_	_
-13	candidato	candidato	NOUN	NOUN	_	11	flat	_	_
-14	a	_	ADP	ADP	_	15	case	_	_
-15	prefeito	prefeito	NOUN	NOUN	_	11	nmod	_	_
-16	de	de	ADP	ADP	_	17	case	_	_
-17	Rio	_	PROPN	PNOUN	_	15	nmod	_	_
-18	Branco	_	PROPN	PNOUN	_	17	amod	_	_
-19	Fernando	_	PROPN	PNOUN	_	11	appos	_	_
-20	Melo	_	PROPN	PNOUN	_	19	flat	_	_
-21	e	e	CCONJ	CONJ	_	22	cc	_	_
-22	Leôncio	_	PROPN	PNOUN	_	19	conj	_	_
-23	Castro	_	PROPN	PNOUN	_	22	flat	_	SpaceAfter=No
-24	,	,	PUNCT	.	_	26	punct	_	_
-25	os	o	DET	DET	_	26	det	_	_
-26	deputados	deputado	NOUN	NOUN	_	6	conj	_	_
-27	federais	federal	ADJ	ADJ	_	26	amod	_	_
-28	Márcio	_	PROPN	PNOUN	_	26	appos	_	_
-29	Bittar	_	PROPN	PNOUN	_	28	flat	_	_
-30	e	e	CCONJ	CONJ	_	31	cc	_	_
-31	Gladson	_	PROPN	PNOUN	_	28	conj	_	_
-32	Cameli	_	PROPN	PNOUN	_	31	flat	_	SpaceAfter=No
-33	,	,	PUNCT	.	_	36	punct	_	_
-34	e	e	CCONJ	CONJ	_	36	cc	_	_
-35	os	o	DET	DET	_	36	det	_	_
-36	vereadores	vereador	NOUN	NOUN	_	6	conj	_	_
-37	eleitos	eleger	VERB	VERB	_	36	acl	_	_
-38	de	de	ADP	ADP	_	39	case	_	_
-39	Rio	_	PROPN	PNOUN	_	37	nmod	_	_
-40	Branco	_	PROPN	PNOUN	_	39	amod	_	_
-41-42	no	_	_	_	_	_	_	_	_
-41	em	em	ADP	ADP	_	45	case	_	_
-42	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
-43	1	_	ADJ	ADJ	_	45	amod	_	_
-44	°	_	PUNCT	.	_	43	punct	_	_
-45	turno	turno	NOUN	NOUN	_	37	nmod	_	SpaceAfter=No
-46	,	,	PUNCT	.	_	47	punct	_	_
-47	Roselane	_	PROPN	PNOUN	_	36	appos	_	_
-48	e	e	CCONJ	CONJ	_	49	cc	_	_
-49	Rabelo	_	PROPN	PNOUN	_	47	conj	_	_
-50	Góes	_	PROPN	PNOUN	_	49	flat	_	SpaceAfter=No
-51	.	.	PUNCT	.	_	1	punct	_	_
+12	candidato	candidato	NOUN	NOUN	_	11	flat	_	_
+13	a	_	ADP	ADP	_	14	case	_	_
+14	prefeito	prefeito	NOUN	NOUN	_	11	nmod	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
+16	Rio	_	PROPN	PNOUN	_	14	nmod	_	_
+17	Branco	_	PROPN	PNOUN	_	16	amod	_	_
+18	Fernando	_	PROPN	PNOUN	_	11	appos	_	_
+19	Melo	_	PROPN	PNOUN	_	18	flat	_	_
+20	e	e	CCONJ	CONJ	_	21	cc	_	_
+21	Leôncio	_	PROPN	PNOUN	_	18	conj	_	_
+22	Castro	_	PROPN	PNOUN	_	21	flat	_	SpaceAfter=No
+23	,	,	PUNCT	.	_	25	punct	_	_
+24	os	o	DET	DET	_	25	det	_	_
+25	deputados	deputado	NOUN	NOUN	_	6	conj	_	_
+26	federais	federal	ADJ	ADJ	_	25	amod	_	_
+27	Márcio	_	PROPN	PNOUN	_	25	appos	_	_
+28	Bittar	_	PROPN	PNOUN	_	27	flat	_	_
+29	e	e	CCONJ	CONJ	_	30	cc	_	_
+30	Gladson	_	PROPN	PNOUN	_	27	conj	_	_
+31	Cameli	_	PROPN	PNOUN	_	30	flat	_	SpaceAfter=No
+32	,	,	PUNCT	.	_	35	punct	_	_
+33	e	e	CCONJ	CONJ	_	35	cc	_	_
+34	os	o	DET	DET	_	35	det	_	_
+35	vereadores	vereador	NOUN	NOUN	_	6	conj	_	_
+36	eleitos	eleger	VERB	VERB	_	35	acl	_	_
+37	de	de	ADP	ADP	_	38	case	_	_
+38	Rio	_	PROPN	PNOUN	_	36	nmod	_	_
+39	Branco	_	PROPN	PNOUN	_	38	amod	_	_
+40-41	no	_	_	_	_	_	_	_	_
+40	em	em	ADP	ADP	_	44	case	_	_
+41	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+42	1	_	ADJ	ADJ	_	44	amod	_	_
+43	°	_	PUNCT	.	_	42	punct	_	_
+44	turno	turno	NOUN	NOUN	_	36	nmod	_	SpaceAfter=No
+45	,	,	PUNCT	.	_	46	punct	_	_
+46	Roselane	_	PROPN	PNOUN	_	35	appos	_	_
+47	e	e	CCONJ	CONJ	_	48	cc	_	_
+48	Rabelo	_	PROPN	PNOUN	_	46	conj	_	_
+49	Góes	_	PROPN	PNOUN	_	48	flat	_	SpaceAfter=No
+50	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s1724
 # text = Já o coordenador de projetos Ângelo Michelin, de 29 anos, e a engenheira agrônoma Márcia Petter, de 31 anos, levaram a pequena Sofia, às vésperas de completar um ano, para se vacinar pela primeira vez durante uma campanha nacional.

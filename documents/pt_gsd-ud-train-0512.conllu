@@ -35,7 +35,7 @@
 31	.	.	PUNCT	.	_	17	punct	_	_
 
 # sent_id = train-s5083
-# text = Analistas esperam que o dólar se mantenha mais estável neste início de mês, após variações mais acentuadas no final de agosto devido à expectativa de que o Banco Central não rolasse contratos de swap cambial que vencem nesta segunda - feira.
+# text = Analistas esperam que o dólar se mantenha mais estável neste início de mês, após variações mais acentuadas no final de agosto devido à expectativa de que o Banco Central não rolasse contratos de swap cambial que vencem nesta segunda-feira.
 1	Analistas	analista	NOUN	NOUN	_	2	nsubj	_	_
 2	esperam	esperar	VERB	VERB	_	0	root	_	_
 3	que	que	CCONJ	CONJ	_	7	mark	_	_
@@ -78,11 +78,11 @@
 38	cambial	cambial	ADJ	ADJ	_	37	amod	_	_
 39	que	_	PRON	PRON	_	40	nsubj	_	_
 40	vencem	vencer	VERB	VERB	_	35	acl:relcl	_	_
-41	nesta	_	ADP	ADP	_	44	case	_	_
-42	segunda	segundo	ADJ	ADJ	_	44	amod	_	_
-43	-	-	PUNCT	.	_	44	punct	_	_
-44	feira	_	PROPN	PNOUN	_	40	nmod	_	SpaceAfter=No
-45	.	.	PUNCT	.	_	2	punct	_	_
+41	nesta	_	ADP	ADP	_	43	case	_	_
+42-43	segunda-feira	_	_	_	_	_	_	_	SpaceAfter=No
+42	segunda	segundo	ADJ	ADJ	_	43	amod	_	_
+43	feira	_	PROPN	PNOUN	_	40	nmod	_	_
+44	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s5084
 # text = A lei estabelece que o atendimento nos caixas dos bancos deve ser feito de, no máximo, 20 minutos em dias normais, 30 minutos em dias de pagamento e de até 35 minutos na véspera ou após feriados.
@@ -189,54 +189,54 @@
 42	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s5086
-# text = A linha Bloor - Danforth é uma das quatro linhas de metrô de Toronto, possuindo 31 estações e 26,2 quilômetros de comprimento, correndo em sua maior parte ao longo da Bloor Street e da Danforth Avenue.
+# text = A linha Bloor-Danforth é uma das quatro linhas de metrô de Toronto, possuindo 31 estações e 26,2 quilômetros de comprimento, correndo em sua maior parte ao longo da Bloor Street e da Danforth Avenue.
 1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	linha	_	NOUN	NOUN	_	7	nsubj	_	_
+2	linha	_	NOUN	NOUN	_	6	nsubj	_	_
+3-4	Bloor-Danforth	_	_	_	_	_	_	_	_
 3	Bloor	_	PROPN	PNOUN	_	2	appos	_	_
-4	-	-	PUNCT	.	_	3	punct	_	_
-5	Danforth	_	PROPN	PNOUN	_	3	flat	_	_
-6	é	ser	AUX	AUX	_	7	cop	_	_
-7	uma	_	PRON	PRON	_	0	root	_	_
-8-9	das	_	_	_	_	_	_	_	_
-8	de	de	ADP	ADP	_	11	case	_	_
-9	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
-10	quatro	_	NUM	NUM	NumType=Card	11	nummod	_	_
-11	linhas	_	NOUN	NOUN	_	7	nmod	_	_
-12	de	de	ADP	ADP	_	13	case	_	_
-13	metrô	metrô	NOUN	NOUN	_	11	nmod	_	_
-14	de	de	ADP	ADP	_	15	case	_	_
-15	Toronto	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
-16	,	,	PUNCT	.	_	17	punct	_	_
-17	possuindo	possuir	VERB	VERB	_	7	acl	_	_
-18	31	31	NUM	NUM	NumType=Card	19	nummod	_	_
-19	estações	estação	NOUN	NOUN	_	17	obj	_	_
-20	e	e	CCONJ	CONJ	_	22	cc	_	_
-21	26,2	26,2	NUM	NUM	NumType=Card	22	nummod	_	_
-22	quilômetros	quilômetro	NOUN	NOUN	_	19	conj	_	_
-23	de	de	ADP	ADP	_	24	case	_	_
-24	comprimento	comprimento	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
-25	,	,	PUNCT	.	_	26	punct	_	_
-26	correndo	correr	VERB	VERB	_	17	conj	_	_
-27	em	em	ADP	ADP	_	30	case	_	_
-28	sua	_	DET	DET	_	30	det:poss	_	_
-29	maior	maior	ADJ	ADJ	_	30	amod	_	_
-30	parte	parte	NOUN	NOUN	_	26	nmod	_	_
-31-32	ao	_	_	_	_	_	_	_	_
-31	a	a	ADP	ADP	_	33	case	_	_
-32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
-33	longo	longo	NOUN	NOUN	_	26	nmod	_	_
-34-35	da	_	_	_	_	_	_	_	_
-34	de	de	ADP	ADP	_	36	case	_	_
-35	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-36	Bloor	_	PROPN	PNOUN	_	33	nmod	_	_
-37	Street	_	PROPN	PNOUN	_	36	flat	_	_
-38	e	e	CCONJ	CONJ	_	41	cc	_	_
-39-40	da	_	_	_	_	_	_	_	_
-39	de	de	ADP	ADP	_	41	case	_	_
-40	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
-41	Danforth	_	PROPN	PNOUN	_	36	conj	_	_
-42	Avenue	_	PROPN	PNOUN	_	41	flat	_	SpaceAfter=No
-43	.	.	PUNCT	.	_	7	punct	_	_
+4	Danforth	_	PROPN	PNOUN	_	3	flat	_	_
+5	é	ser	AUX	AUX	_	6	cop	_	_
+6	uma	_	PRON	PRON	_	0	root	_	_
+7-8	das	_	_	_	_	_	_	_	_
+7	de	de	ADP	ADP	_	10	case	_	_
+8	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	quatro	_	NUM	NUM	NumType=Card	10	nummod	_	_
+10	linhas	_	NOUN	NOUN	_	6	nmod	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
+12	metrô	metrô	NOUN	NOUN	_	10	nmod	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
+14	Toronto	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	.	_	16	punct	_	_
+16	possuindo	possuir	VERB	VERB	_	6	acl	_	_
+17	31	31	NUM	NUM	NumType=Card	18	nummod	_	_
+18	estações	estação	NOUN	NOUN	_	16	obj	_	_
+19	e	e	CCONJ	CONJ	_	21	cc	_	_
+20	26,2	26,2	NUM	NUM	NumType=Card	21	nummod	_	_
+21	quilômetros	quilômetro	NOUN	NOUN	_	18	conj	_	_
+22	de	de	ADP	ADP	_	23	case	_	_
+23	comprimento	comprimento	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	.	_	25	punct	_	_
+25	correndo	correr	VERB	VERB	_	16	conj	_	_
+26	em	em	ADP	ADP	_	29	case	_	_
+27	sua	_	DET	DET	_	29	det:poss	_	_
+28	maior	maior	ADJ	ADJ	_	29	amod	_	_
+29	parte	parte	NOUN	NOUN	_	25	nmod	_	_
+30-31	ao	_	_	_	_	_	_	_	_
+30	a	a	ADP	ADP	_	32	case	_	_
+31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	longo	longo	NOUN	NOUN	_	25	nmod	_	_
+33-34	da	_	_	_	_	_	_	_	_
+33	de	de	ADP	ADP	_	35	case	_	_
+34	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	Bloor	_	PROPN	PNOUN	_	32	nmod	_	_
+36	Street	_	PROPN	PNOUN	_	35	flat	_	_
+37	e	e	CCONJ	CONJ	_	40	cc	_	_
+38-39	da	_	_	_	_	_	_	_	_
+38	de	de	ADP	ADP	_	40	case	_	_
+39	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	Danforth	_	PROPN	PNOUN	_	35	conj	_	_
+41	Avenue	_	PROPN	PNOUN	_	40	flat	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s5087
 # text = O que, a rigor, jamais poderia ocorrer, porque evidentemente nenhum texto pode ser utilizado de qualquer jeito: precisa ser citado de acordo com a sua própria coerência interna, conforme o contexto em que foi escrito.

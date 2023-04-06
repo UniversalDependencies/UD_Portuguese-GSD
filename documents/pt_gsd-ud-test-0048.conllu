@@ -16,7 +16,7 @@
 14	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = test-s468
-# text = Os autores da CPI argumentam que as empresas, apesar de cobrarem do consumidor, não usam os recursos dessa tarifa para investimentos no sistema, como explica o deputado Ronaldo Nogueira (PTB - RS).
+# text = Os autores da CPI argumentam que as empresas, apesar de cobrarem do consumidor, não usam os recursos dessa tarifa para investimentos no sistema, como explica o deputado Ronaldo Nogueira (PTB-RS).
 1	Os	o	DET	DET	_	2	det	_	_
 2	autores	autor	NOUN	NOUN	_	6	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -56,11 +56,11 @@
 34	Ronaldo	_	PROPN	PNOUN	_	33	appos	_	_
 35	Nogueira	_	PROPN	PNOUN	_	34	flat	_	_
 36	(	(	PUNCT	.	_	37	punct	_	SpaceAfter=No
+37-38	PTB-RS	_	_	_	_	_	_	_	SpaceAfter=No
 37	PTB	_	PROPN	PNOUN	_	34	appos	_	_
-38	-	-	PUNCT	.	_	37	punct	_	_
-39	RS	_	PROPN	PNOUN	_	37	flat	_	SpaceAfter=No
-40	)	)	PUNCT	.	_	37	punct	_	SpaceAfter=No
-41	.	.	PUNCT	.	_	6	punct	_	_
+38	RS	_	PROPN	PNOUN	_	37	flat	_	_
+39	)	)	PUNCT	.	_	37	punct	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = test-s469
 # text = O meia era conhecido por não aguentar jogar uma partida inteira, já que tinha alguns problemas físicos que o impossibilitavam.
@@ -88,7 +88,7 @@
 22	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = test-s470
-# text = Bruxelas -- A Comissão de Indústria do Parlamento Europeu deu nesta segunda - feira sinal verde à renovação do acordo de cooperação científica e tecnológica assinado entre a União Europeia (UE) e o Brasil.
+# text = Bruxelas -- A Comissão de Indústria do Parlamento Europeu deu nesta segunda-feira sinal verde à renovação do acordo de cooperação científica e tecnológica assinado entre a União Europeia (UE) e o Brasil.
 1	Bruxelas	_	PROPN	PNOUN	_	11	parataxis	_	_
 2	--	_	PUNCT	.	_	11	punct	_	_
 3	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -101,37 +101,37 @@
 9	Parlamento	_	PROPN	PNOUN	_	4	nmod	_	_
 10	Europeu	_	PROPN	PNOUN	_	9	amod	_	_
 11	deu	dar	VERB	VERB	_	0	root	_	_
-12	nesta	_	ADP	ADP	_	15	case	_	_
-13	segunda	_	PROPN	PNOUN	_	15	amod	_	_
-14	-	-	PUNCT	.	_	15	punct	_	_
-15	feira	_	PROPN	PNOUN	_	11	nmod	_	_
-16	sinal	sinal	NOUN	NOUN	_	11	obj	_	_
-17	verde	verde	ADJ	ADJ	_	16	amod	_	_
-18-19	à	_	_	_	_	_	_	_	_
-18	a	a	ADP	ADP	_	20	case	_	_
-19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	renovação	renovação	NOUN	NOUN	_	11	iobj	_	_
-21-22	do	_	_	_	_	_	_	_	_
-21	de	de	ADP	ADP	_	23	case	_	_
-22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	acordo	acordo	NOUN	NOUN	_	20	nmod	_	_
-24	de	de	ADP	ADP	_	25	case	_	_
-25	cooperação	cooperação	NOUN	NOUN	_	23	nmod	_	_
-26	científica	científico	ADJ	ADJ	_	25	amod	_	_
-27	e	e	CCONJ	CONJ	_	28	cc	_	_
-28	tecnológica	tecnológico	ADJ	ADJ	_	26	conj	_	_
-29	assinado	assinar	VERB	VERB	_	23	acl	_	_
-30	entre	_	ADP	ADP	_	32	case	_	_
-31	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
-32	União	_	PROPN	PNOUN	_	29	nmod	_	_
-33	Europeia	_	PROPN	PNOUN	_	32	amod	_	_
-34	(	(	PUNCT	.	_	35	punct	_	SpaceAfter=No
-35	UE	_	PROPN	PNOUN	_	32	appos	_	SpaceAfter=No
-36	)	)	PUNCT	.	_	35	punct	_	_
-37	e	e	CCONJ	CONJ	_	39	cc	_	_
-38	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
-39	Brasil	_	PROPN	PNOUN	_	32	conj	_	SpaceAfter=No
-40	.	.	PUNCT	.	_	11	punct	_	_
+12	nesta	_	ADP	ADP	_	14	case	_	_
+13-14	segunda-feira	_	_	_	_	_	_	_	_
+13	segunda	_	PROPN	PNOUN	_	14	amod	_	_
+14	feira	_	PROPN	PNOUN	_	11	nmod	_	_
+15	sinal	sinal	NOUN	NOUN	_	11	obj	_	_
+16	verde	verde	ADJ	ADJ	_	15	amod	_	_
+17-18	à	_	_	_	_	_	_	_	_
+17	a	a	ADP	ADP	_	19	case	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	renovação	renovação	NOUN	NOUN	_	11	iobj	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	ADP	_	22	case	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	acordo	acordo	NOUN	NOUN	_	19	nmod	_	_
+23	de	de	ADP	ADP	_	24	case	_	_
+24	cooperação	cooperação	NOUN	NOUN	_	22	nmod	_	_
+25	científica	científico	ADJ	ADJ	_	24	amod	_	_
+26	e	e	CCONJ	CONJ	_	27	cc	_	_
+27	tecnológica	tecnológico	ADJ	ADJ	_	25	conj	_	_
+28	assinado	assinar	VERB	VERB	_	22	acl	_	_
+29	entre	_	ADP	ADP	_	31	case	_	_
+30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	União	_	PROPN	PNOUN	_	28	nmod	_	_
+32	Europeia	_	PROPN	PNOUN	_	31	amod	_	_
+33	(	(	PUNCT	.	_	34	punct	_	SpaceAfter=No
+34	UE	_	PROPN	PNOUN	_	31	appos	_	SpaceAfter=No
+35	)	)	PUNCT	.	_	34	punct	_	_
+36	e	e	CCONJ	CONJ	_	38	cc	_	_
+37	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	Brasil	_	PROPN	PNOUN	_	31	conj	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = test-s471
 # text = A preguiça é um dos seus piores defeitos.
@@ -192,7 +192,7 @@
 30	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = test-s474
-# text = Entretanto, o retorno ao clube não deve ocorrer como muitos rubro - negros desejam.
+# text = Entretanto, o retorno ao clube não deve ocorrer como muitos rubro-negros desejam.
 1	Entretanto	entretanto	ADV	ADV	_	10	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	.	_	1	punct	_	_
 3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -204,13 +204,13 @@
 8	não	não	ADV	ADV	Polarity=Neg	10	advmod	_	_
 9	deve	dever	AUX	AUX	_	10	aux	_	_
 10	ocorrer	ocorrer	VERB	VERB	_	0	root	_	_
-11	como	_	CCONJ	CONJ	_	16	mark	_	_
-12	muitos	_	DET	DET	_	15	det	_	_
-13	rubro	rubro	ADJ	ADJ	_	15	amod	_	_
-14	-	-	PUNCT	.	_	15	punct	_	_
-15	negros	negro	NOUN	NOUN	_	16	nsubj	_	_
-16	desejam	desejar	VERB	VERB	_	10	advcl	_	SpaceAfter=No
-17	.	.	PUNCT	.	_	10	punct	_	_
+11	como	_	CCONJ	CONJ	_	15	mark	_	_
+12	muitos	_	DET	DET	_	14	det	_	_
+13-14	rubro-negros	_	_	_	_	_	_	_	_
+13	rubro	rubro	ADJ	ADJ	_	14	amod	_	_
+14	negros	negro	NOUN	NOUN	_	15	nsubj	_	_
+15	desejam	desejar	VERB	VERB	_	10	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = test-s475
 # text = De lá, um helicóptero levou a rainha até Enniskillen para assistir a uma missa na catedral protestante de Saint Macartin, muito próxima ao palco dum dos atentados mais sangrentos cometidos pelo IRA, que acabou com a vida de 11 pessoas em 1987.
@@ -272,7 +272,7 @@
 51	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = test-s476
-# text = O atacante do Ceará, Misael, foi liberado pelo Departamento Médico para dar início aos trabalhos físicos já a partir da tarde desta segunda - feira (09).
+# text = O atacante do Ceará, Misael, foi liberado pelo Departamento Médico para dar início aos trabalhos físicos já a partir da tarde desta segunda-feira (09).
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	atacante	atacante	NOUN	NOUN	_	10	nsubj:pass	_	_
 3-4	do	_	_	_	_	_	_	_	_
@@ -304,12 +304,12 @@
 25	de	de	ADP	ADP	_	27	case	_	_
 26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	tarde	tarde	NOUN	NOUN	_	24	nmod	_	_
-28	desta	_	ADP	ADP	_	31	case	_	_
-29	segunda	_	PROPN	PNOUN	_	31	amod	_	_
-30	-	-	PUNCT	.	_	31	punct	_	_
-31	feira	_	PROPN	PNOUN	_	27	nmod	_	_
-32	(	(	PUNCT	.	_	33	punct	_	SpaceAfter=No
-33	09	09	NUM	NUM	NumType=Card	31	nmod	_	SpaceAfter=No
-34	)	)	PUNCT	.	_	33	punct	_	SpaceAfter=No
-35	.	.	PUNCT	.	_	10	punct	_	_
+28	desta	_	ADP	ADP	_	30	case	_	_
+29-30	segunda-feira	_	_	_	_	_	_	_	_
+29	segunda	_	PROPN	PNOUN	_	30	amod	_	_
+30	feira	_	PROPN	PNOUN	_	27	nmod	_	_
+31	(	(	PUNCT	.	_	32	punct	_	SpaceAfter=No
+32	09	09	NUM	NUM	NumType=Card	30	nmod	_	SpaceAfter=No
+33	)	)	PUNCT	.	_	32	punct	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	10	punct	_	_
 

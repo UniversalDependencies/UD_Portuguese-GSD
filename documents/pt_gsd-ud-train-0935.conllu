@@ -269,11 +269,11 @@
 31	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s9283
-# text = No início da tarde, logo após rápida sessão do Congresso, marcada por muita controvérsia, a 1 ª vice - presidente da Câmara e vice - presidente do Congresso, deputada Rose de Freitas (PMDB - ES), disse que o Congresso só deliberaria sobre os vetos se houvesse acordo.
+# text = No início da tarde, logo após rápida sessão do Congresso, marcada por muita controvérsia, a 1 ª vice - presidente da Câmara e vice-presidente do Congresso, deputada Rose de Freitas (PMDB-ES), disse que o Congresso só deliberaria sobre os vetos se houvesse acordo.
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	ADP	_	3	case	_	_
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	início	início	NOUN	NOUN	_	48	nmod	_	_
+3	início	início	NOUN	NOUN	_	46	nmod	_	_
 4-5	da	_	_	_	_	_	_	_	_
 4	de	de	ADP	ADP	_	6	case	_	_
 5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -282,7 +282,7 @@
 8	logo	logo	ADV	ADV	_	11	advmod	_	_
 9	após	_	ADP	ADP	_	11	case	_	_
 10	rápida	rápido	ADJ	ADJ	_	11	amod	_	_
-11	sessão	sessão	NOUN	NOUN	_	48	nmod	_	_
+11	sessão	sessão	NOUN	NOUN	_	46	nmod	_	_
 12-13	do	_	_	_	_	_	_	_	_
 12	de	de	ADP	ADP	_	14	case	_	_
 13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -296,45 +296,45 @@
 21	a	o	DET	DET	_	24	det	_	_
 22	1	_	ADJ	ADJ	_	24	amod	_	_
 23	ª	_	PUNCT	.	_	22	punct	_	_
-24	vice	_	PART	PRT	_	48	nsubj	_	_
-25	-	-	PUNCT	.	_	31	punct	_	_
+24	vice	_	PART	PRT	_	46	nsubj	_	ToDo=NonCatenaCompound
+25	-	-	PUNCT	.	_	31	punct	_	ToDo=NonCatenaCompound
 26	presidente	presidente	NOUN	NOUN	_	24	flat	_	_
 27-28	da	_	_	_	_	_	_	_	_
 27	de	de	ADP	ADP	_	29	case	_	_
 28	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	Câmara	_	PROPN	PNOUN	_	24	nmod	_	_
 30	e	e	CCONJ	CONJ	_	31	cc	_	_
+31-32	vice-presidente	_	_	_	_	_	_	_	_
 31	vice	_	PART	PRT	_	24	conj	_	_
-32	-	-	PUNCT	.	_	31	punct	_	_
-33	presidente	presidente	NOUN	NOUN	_	31	flat	_	_
-34-35	do	_	_	_	_	_	_	_	_
-34	de	de	ADP	ADP	_	36	case	_	_
-35	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
-36	Congresso	_	PROPN	PNOUN	_	31	nmod	_	SpaceAfter=No
-37	,	,	PUNCT	.	_	38	punct	_	_
-38	deputada	deputado	NOUN	NOUN	_	24	appos	_	_
-39	Rose	_	PROPN	PNOUN	_	38	appos	_	_
-40	de	de	ADP	ADP	_	41	case	_	_
-41	Freitas	_	PROPN	PNOUN	_	39	nmod	_	_
-42	(	(	PUNCT	.	_	43	punct	_	SpaceAfter=No
-43	PMDB	_	PROPN	PNOUN	_	38	appos	_	_
-44	-	-	PUNCT	.	_	43	punct	_	_
-45	ES	_	PROPN	PNOUN	_	43	flat	_	SpaceAfter=No
-46	)	)	PUNCT	.	_	43	punct	_	SpaceAfter=No
-47	,	,	PUNCT	.	_	38	punct	_	_
-48	disse	dizer	VERB	VERB	_	0	root	_	_
-49	que	que	CCONJ	CONJ	_	53	mark	_	_
-50	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
-51	Congresso	_	PROPN	PNOUN	_	53	nsubj	_	_
-52	só	só	ADV	ADV	_	53	advmod	_	_
-53	deliberaria	deliberar	VERB	VERB	_	48	ccomp	_	_
-54	sobre	_	ADP	ADP	_	56	case	_	_
-55	os	o	DET	DET	_	56	det	_	_
-56	vetos	veto	NOUN	NOUN	_	53	nmod	_	_
-57	se	_	CCONJ	CONJ	_	58	mark	_	_
-58	houvesse	haver	VERB	VERB	_	53	advcl	_	_
-59	acordo	acordo	NOUN	NOUN	_	58	obj	_	SpaceAfter=No
-60	.	.	PUNCT	.	_	48	punct	_	_
+32	presidente	presidente	NOUN	NOUN	_	31	flat	_	_
+33-34	do	_	_	_	_	_	_	_	_
+33	de	de	ADP	ADP	_	35	case	_	_
+34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	Congresso	_	PROPN	PNOUN	_	31	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	.	_	37	punct	_	_
+37	deputada	deputado	NOUN	NOUN	_	24	appos	_	_
+38	Rose	_	PROPN	PNOUN	_	37	appos	_	_
+39	de	de	ADP	ADP	_	40	case	_	_
+40	Freitas	_	PROPN	PNOUN	_	38	nmod	_	_
+41	(	(	PUNCT	.	_	42	punct	_	SpaceAfter=No
+42-43	PMDB-ES	_	_	_	_	_	_	_	SpaceAfter=No
+42	PMDB	_	PROPN	PNOUN	_	37	appos	_	_
+43	ES	_	PROPN	PNOUN	_	42	flat	_	_
+44	)	)	PUNCT	.	_	42	punct	_	SpaceAfter=No
+45	,	,	PUNCT	.	_	37	punct	_	_
+46	disse	dizer	VERB	VERB	_	0	root	_	_
+47	que	que	CCONJ	CONJ	_	51	mark	_	_
+48	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	Congresso	_	PROPN	PNOUN	_	51	nsubj	_	_
+50	só	só	ADV	ADV	_	51	advmod	_	_
+51	deliberaria	deliberar	VERB	VERB	_	46	ccomp	_	_
+52	sobre	_	ADP	ADP	_	54	case	_	_
+53	os	o	DET	DET	_	54	det	_	_
+54	vetos	veto	NOUN	NOUN	_	51	nmod	_	_
+55	se	_	CCONJ	CONJ	_	56	mark	_	_
+56	houvesse	haver	VERB	VERB	_	51	advcl	_	_
+57	acordo	acordo	NOUN	NOUN	_	56	obj	_	SpaceAfter=No
+58	.	.	PUNCT	.	_	46	punct	_	_
 
 # sent_id = train-s9284
 # text = A última versão do WAIS consiste em 14 subtestes destinados a avaliar diferentes faculdades cognitivas.

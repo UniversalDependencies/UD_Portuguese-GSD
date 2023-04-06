@@ -58,7 +58,7 @@
 53	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s3521
-# text = "Agora que o cartão de crédito acabou, quero ver quem vai lá visitá - lo", provoca.
+# text = "Agora que o cartão de crédito acabou, quero ver quem vai lá visitá-lo", provoca.
 1	"	"	PUNCT	.	_	10	punct	_	SpaceAfter=No
 2	Agora	agora	ADV	ADV	_	8	mark	_	_
 3	que	_	CCONJ	CONJ	_	2	fixed	_	_
@@ -68,18 +68,18 @@
 7	crédito	crédito	NOUN	NOUN	_	5	nmod	_	_
 8	acabou	acabar	VERB	VERB	_	10	advcl	_	SpaceAfter=No
 9	,	,	PUNCT	.	_	8	punct	_	_
-10	quero	querer	VERB	VERB	_	20	ccomp	_	_
+10	quero	querer	VERB	VERB	_	19	ccomp	_	_
 11	ver	ver	VERB	VERB	_	10	xcomp	_	_
 12	quem	_	PRON	PRON	_	15	nsubj	_	_
 13	vai	ir	AUX	AUX	_	15	aux	_	_
 14	lá	lá	ADV	ADV	_	15	advmod	_	_
+15-16	visitá-lo	_	_	_	_	_	_	_	SpaceAfter=No
 15	visitá	visitar	VERB	VERB	_	11	ccomp	_	_
-16	-	-	PUNCT	.	_	15	punct	_	_
-17	lo	_	PRON	PRON	_	15	obj	_	SpaceAfter=No
-18	"	"	PUNCT	.	_	10	punct	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	20	punct	_	_
-20	provoca	provocar	VERB	VERB	_	0	root	_	SpaceAfter=No
-21	.	.	PUNCT	.	_	20	punct	_	_
+16	lo	_	PRON	PRON	_	15	obj	_	_
+17	"	"	PUNCT	.	_	10	punct	_	SpaceAfter=No
+18	,	,	PUNCT	.	_	19	punct	_	_
+19	provoca	provocar	VERB	VERB	_	0	root	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	19	punct	_	_
 
 # sent_id = train-s3522
 # text = "Muita gente foi afetada, se atrasou, mas a maioria compreendeu e nos deu apoio", disse o líder sindical.
@@ -173,37 +173,37 @@
 17	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s3526
-# text = Paramount Television foi uma empresa norte - americana de produção e distribuição de televisão, iniciada em 1967 e fechada em 17 de janeiro de 2005.
+# text = Paramount Television foi uma empresa norte-americana de produção e distribuição de televisão, iniciada em 1967 e fechada em 17 de janeiro de 2005.
 1	Paramount	_	PROPN	PNOUN	_	5	nsubj	_	_
 2	Television	_	PROPN	PNOUN	_	1	flat	_	_
 3	foi	_	AUX	AUX	_	5	cop	_	_
 4	uma	um	DET	DET	_	5	det	_	_
 5	empresa	empresa	NOUN	NOUN	_	0	root	_	_
-6	norte	norte	ADJ	ADJ	_	8	amod	_	_
-7	-	-	PUNCT	.	_	8	punct	_	_
-8	americana	americano	ADJ	ADJ	_	5	amod	_	_
-9	de	de	ADP	ADP	_	10	case	_	_
-10	produção	produção	NOUN	NOUN	_	5	nmod	_	_
-11	e	e	CCONJ	CONJ	_	12	cc	_	_
-12	distribuição	distribuição	NOUN	NOUN	_	10	conj	_	_
-13	de	de	ADP	ADP	_	14	case	_	_
-14	televisão	televisão	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
-15	,	,	PUNCT	.	_	16	punct	_	_
-16	iniciada	iniciar	VERB	VERB	_	5	acl	_	_
-17	em	em	ADP	ADP	_	18	case	_	_
-18	1967	1967	NUM	NUM	NumType=Card	16	nmod	_	_
-19	e	e	CCONJ	CONJ	_	16	cc	_	_
-20	fechada	fechar	VERB	VERB	_	16	acl	_	_
-21	em	em	ADP	ADP	_	22	case	_	_
-22	17	17	NUM	NUM	NumType=Card	20	nmod	_	_
-23	de	de	ADP	ADP	_	24	case	_	_
-24	janeiro	_	PROPN	PNOUN	_	22	nmod	_	_
-25	de	de	ADP	ADP	_	26	case	_	_
-26	2005	2005	NUM	NUM	NumType=Card	24	nmod	_	SpaceAfter=No
-27	.	.	PUNCT	.	_	5	punct	_	_
+6-7	norte-americana	_	_	_	_	_	_	_	_
+6	norte	norte	ADJ	ADJ	_	7	amod	_	_
+7	americana	americano	ADJ	ADJ	_	5	amod	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
+9	produção	produção	NOUN	NOUN	_	5	nmod	_	_
+10	e	e	CCONJ	CONJ	_	11	cc	_	_
+11	distribuição	distribuição	NOUN	NOUN	_	9	conj	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
+13	televisão	televisão	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	15	punct	_	_
+15	iniciada	iniciar	VERB	VERB	_	5	acl	_	_
+16	em	em	ADP	ADP	_	17	case	_	_
+17	1967	1967	NUM	NUM	NumType=Card	15	nmod	_	_
+18	e	e	CCONJ	CONJ	_	15	cc	_	_
+19	fechada	fechar	VERB	VERB	_	15	acl	_	_
+20	em	em	ADP	ADP	_	21	case	_	_
+21	17	17	NUM	NUM	NumType=Card	19	nmod	_	_
+22	de	de	ADP	ADP	_	23	case	_	_
+23	janeiro	_	PROPN	PNOUN	_	21	nmod	_	_
+24	de	de	ADP	ADP	_	25	case	_	_
+25	2005	2005	NUM	NUM	NumType=Card	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s3527
-# text = A camisa verde, destinada ao líder por pontos, está com o eslovaco Peter Sagan, da Liquigas - Cannondale, que soma 356.
+# text = A camisa verde, destinada ao líder por pontos, está com o eslovaco Peter Sagan, da Liquigas-Cannondale, que soma 356.
 1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	camisa	camisa	NOUN	NOUN	_	12	nsubj	_	_
 3	verde	verde	ADJ	ADJ	_	2	amod	_	SpaceAfter=No
@@ -226,14 +226,14 @@
 19-20	da	_	_	_	_	_	_	_	_
 19	de	de	ADP	ADP	_	21	case	_	_
 20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21-22	Liquigas-Cannondale	_	_	_	_	_	_	_	SpaceAfter=No
 21	Liquigas	_	PROPN	PNOUN	_	15	nmod	_	_
-22	-	-	PUNCT	.	_	21	punct	_	_
-23	Cannondale	_	PROPN	PNOUN	_	21	flat	_	SpaceAfter=No
-24	,	,	PUNCT	.	_	26	punct	_	_
-25	que	_	PRON	PRON	_	26	nsubj	_	_
-26	soma	somar	VERB	VERB	_	15	acl:relcl	_	_
-27	356	356	NUM	NUM	NumType=Card	26	obj	_	SpaceAfter=No
-28	.	.	PUNCT	.	_	12	punct	_	_
+22	Cannondale	_	PROPN	PNOUN	_	21	flat	_	_
+23	,	,	PUNCT	.	_	25	punct	_	_
+24	que	_	PRON	PRON	_	25	nsubj	_	_
+25	soma	somar	VERB	VERB	_	15	acl:relcl	_	_
+26	356	356	NUM	NUM	NumType=Card	25	obj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = train-s3528
 # text = , exclamou Jon Howells, da livraria Waterstones em Londres, onde a trilogia ocupa uma estante muito visitada.
@@ -286,9 +286,9 @@
 21	polivinila	_	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	.	_	19	punct	_	_
 23	para	_	ADP	ADP	_	24	mark	_	_
-24	torná	tornar	VERB	VERB	_	12	advcl	_	_
+24	torná	tornar	VERB	VERB	_	12	advcl	_	ToDo=NonCatenaCompound
 25	-	-	PUNCT	.	_	24	punct	_	_
-26	los	_	PRON	PRON	_	27	nsubj	_	_
+26	los	_	PRON	PRON	_	27	nsubj	_	ToDo=NonCatenaCompound
 27	flexíveis	flexível	ADJ	ADJ	_	24	xcomp	_	_
 28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	suficiente	suficiente	NOUN	NOUN	_	27	nmod	_	_

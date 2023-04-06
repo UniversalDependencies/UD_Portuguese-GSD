@@ -1,5 +1,5 @@
 # sent_id = train-s5072
-# text = São Paulo -- A presidenta Dilma Rousseff chegou, há pouco, ao Hospital Sírio - Libanês.
+# text = São Paulo -- A presidenta Dilma Rousseff chegou, há pouco, ao Hospital Sírio-Libanês.
 1	São	_	PROPN	PNOUN	_	8	parataxis	_	_
 2	Paulo	_	PROPN	PNOUN	_	1	flat	_	_
 3	--	_	PUNCT	.	_	8	punct	_	_
@@ -16,10 +16,10 @@
 13	a	a	ADP	ADP	_	15	case	_	_
 14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	Hospital	_	PROPN	PNOUN	_	8	nmod	_	_
-16	Sírio	_	PROPN	PNOUN	_	18	amod	_	_
-17	-	-	PUNCT	.	_	18	punct	_	_
-18	Libanês	_	PROPN	PNOUN	_	15	amod	_	SpaceAfter=No
-19	.	.	PUNCT	.	_	8	punct	_	_
+16-17	Sírio-Libanês	_	_	_	_	_	_	_	SpaceAfter=No
+16	Sírio	_	PROPN	PNOUN	_	17	amod	_	_
+17	Libanês	_	PROPN	PNOUN	_	15	amod	_	_
+18	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = train-s5073
 # text = Não dá para acreditar que eles desconhecem a permanência de traficantes no parque.
@@ -80,7 +80,7 @@
 34	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s5075
-# text = O governo adiou para dezembro o leilão de compra de energia elétrica proveniente de novos empreendimentos de geração, denominado Leilão "A - 3".
+# text = O governo adiou para dezembro o leilão de compra de energia elétrica proveniente de novos empreendimentos de geração, denominado Leilão "A-3".
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	governo	governo	NOUN	NOUN	_	3	nsubj	_	_
 3	adiou	adiar	VERB	VERB	_	0	root	_	_
@@ -103,11 +103,11 @@
 20	denominado	denominar	AUX	AUX	_	21	cop	_	_
 21	Leilão	_	PROPN	PNOUN	_	7	acl	_	_
 22	"	"	PUNCT	.	_	23	punct	_	SpaceAfter=No
+23-24	A-3	_	_	_	_	_	_	_	SpaceAfter=No
 23	A	_	PROPN	PNOUN	_	21	appos	_	_
-24	-	-	PUNCT	.	_	23	punct	_	_
-25	3	3	NUM	NUM	NumType=Card	23	appos	_	SpaceAfter=No
-26	"	"	PUNCT	.	_	23	punct	_	SpaceAfter=No
-27	.	.	PUNCT	.	_	3	punct	_	_
+24	3	3	NUM	NUM	NumType=Card	23	appos	_	_
+25	"	"	PUNCT	.	_	23	punct	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s5076
 # text = Segundo Donninson, parte da população teme que se as condições econômicas não melhorarem, a relativa estabilidade da região poderia ficar ameaçada.

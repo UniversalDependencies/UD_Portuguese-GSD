@@ -37,7 +37,7 @@
 20	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = train-s113
-# text = A assessoria da concessionária disse que câmeras captaram o veículo em zigue - zague.
+# text = A assessoria da concessionária disse que câmeras captaram o veículo em zigue-zague.
 1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	assessoria	assessoria	NOUN	NOUN	_	6	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -51,10 +51,10 @@
 10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	veículo	veículo	NOUN	NOUN	_	9	obj	_	_
 12	em	em	ADP	ADP	_	13	case	_	_
+13-14	zigue-zague	_	_	_	_	_	_	_	SpaceAfter=No
 13	zigue	_	NOUN	NOUN	_	11	nmod	_	_
-14	-	-	PUNCT	.	_	13	punct	_	_
-15	zague	_	NOUN	NOUN	_	13	flat	_	SpaceAfter=No
-16	.	.	PUNCT	.	_	6	punct	_	_
+14	zague	_	NOUN	NOUN	_	13	flat	_	_
+15	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s114
 # text = O Arsenal busca desesperadamente reforçar seu sistema ofensivo.
@@ -170,9 +170,9 @@
 30	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = train-s119
-# text = De acordo com o Instituto Nacional do Câncer (Inca), a medula óssea, constituída por tecido líquido - gelatinoso e encontrada no interior dos ossos e produz os componentes do sangue, incluindo as hemácias ou células vermelhas.
+# text = De acordo com o Instituto Nacional do Câncer (Inca), a medula óssea, constituída por tecido líquido-gelatinoso e encontrada no interior dos ossos e produz os componentes do sangue, incluindo as hemácias ou células vermelhas.
 1	De	_	ADP	ADP	_	2	case	_	_
-2	acordo	acordo	NOUN	NOUN	_	25	nmod	_	_
+2	acordo	acordo	NOUN	NOUN	_	24	nmod	_	_
 3	com	com	ADP	ADP	_	5	case	_	_
 4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Instituto	_	PROPN	PNOUN	_	2	nmod	_	_
@@ -186,44 +186,44 @@
 12	)	)	PUNCT	.	_	11	punct	_	SpaceAfter=No
 13	,	,	PUNCT	.	_	2	punct	_	_
 14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	medula	medula	NOUN	NOUN	_	25	nsubj:pass	_	_
+15	medula	medula	NOUN	NOUN	_	24	nsubj:pass	_	_
 16	óssea	ósseo	ADJ	ADJ	_	15	amod	_	SpaceAfter=No
 17	,	,	PUNCT	.	_	18	punct	_	_
 18	constituída	constituir	VERB	VERB	_	15	acl	_	_
 19	por	por	ADP	ADP	_	20	case	_	_
 20	tecido	tecido	NOUN	NOUN	_	18	nmod	_	_
-21	líquido	líquido	ADJ	ADJ	_	23	amod	_	_
-22	-	-	PUNCT	.	_	23	punct	_	_
-23	gelatinoso	gelatinoso	ADJ	ADJ	_	20	amod	_	_
-24	e	_	AUX	AUX	_	25	aux:pass	_	_
-25	encontrada	encontrar	VERB	VERB	_	0	root	_	_
-26-27	no	_	_	_	_	_	_	_	_
-26	em	em	ADP	ADP	_	28	case	_	_
-27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
-28	interior	interior	NOUN	NOUN	_	25	nmod	_	_
-29-30	dos	_	_	_	_	_	_	_	_
-29	de	de	ADP	ADP	_	31	case	_	_
-30	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
-31	ossos	osso	NOUN	NOUN	_	28	nmod	_	_
-32	e	e	CCONJ	CONJ	_	33	cc	_	_
-33	produz	produzir	VERB	VERB	_	25	conj	_	_
-34	os	o	DET	DET	_	35	det	_	_
-35	componentes	componente	NOUN	NOUN	_	33	obj	_	_
-36-37	do	_	_	_	_	_	_	_	_
-36	de	de	ADP	ADP	_	38	case	_	_
-37	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
-38	sangue	sangue	NOUN	NOUN	_	35	nmod	_	SpaceAfter=No
-39	,	,	PUNCT	.	_	40	punct	_	_
-40	incluindo	incluir	VERB	VERB	_	35	acl	_	_
-41	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	42	det	_	_
-42	hemácias	hemácia	NOUN	NOUN	_	40	obj	_	_
-43	ou	ou	CCONJ	CONJ	_	44	cc	_	_
-44	células	célula	NOUN	NOUN	_	42	conj	_	_
-45	vermelhas	vermelho	ADJ	ADJ	_	44	amod	_	SpaceAfter=No
-46	.	.	PUNCT	.	_	25	punct	_	_
+21-22	líquido-gelatinoso	_	_	_	_	_	_	_	_
+21	líquido	líquido	ADJ	ADJ	_	22	amod	_	_
+22	gelatinoso	gelatinoso	ADJ	ADJ	_	20	amod	_	_
+23	e	_	AUX	AUX	_	24	aux:pass	_	_
+24	encontrada	encontrar	VERB	VERB	_	0	root	_	_
+25-26	no	_	_	_	_	_	_	_	_
+25	em	em	ADP	ADP	_	27	case	_	_
+26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	interior	interior	NOUN	NOUN	_	24	nmod	_	_
+28-29	dos	_	_	_	_	_	_	_	_
+28	de	de	ADP	ADP	_	30	case	_	_
+29	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	ossos	osso	NOUN	NOUN	_	27	nmod	_	_
+31	e	e	CCONJ	CONJ	_	32	cc	_	_
+32	produz	produzir	VERB	VERB	_	24	conj	_	_
+33	os	o	DET	DET	_	34	det	_	_
+34	componentes	componente	NOUN	NOUN	_	32	obj	_	_
+35-36	do	_	_	_	_	_	_	_	_
+35	de	de	ADP	ADP	_	37	case	_	_
+36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	sangue	sangue	NOUN	NOUN	_	34	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	.	_	39	punct	_	_
+39	incluindo	incluir	VERB	VERB	_	34	acl	_	_
+40	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
+41	hemácias	hemácia	NOUN	NOUN	_	39	obj	_	_
+42	ou	ou	CCONJ	CONJ	_	43	cc	_	_
+43	células	célula	NOUN	NOUN	_	41	conj	_	_
+44	vermelhas	vermelho	ADJ	ADJ	_	43	amod	_	SpaceAfter=No
+45	.	.	PUNCT	.	_	24	punct	_	_
 
 # sent_id = train-s120
-# text = A Prefeitura de Santa Cruz do Sul anunciou na manhã desta sexta - feira, 6, que o edital de licitação do transporte coletivo urbano já está pronto.
+# text = A Prefeitura de Santa Cruz do Sul anunciou na manhã desta sexta-feira, 6, que o edital de licitação do transporte coletivo urbano já está pronto.
 1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Prefeitura	_	PROPN	PNOUN	_	9	nsubj	_	_
 3	de	de	ADP	ADP	_	5	case	_	_
@@ -238,26 +238,26 @@
 10	em	em	ADP	ADP	_	12	case	_	_
 11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	manhã	manhã	NOUN	NOUN	_	9	nmod	_	_
-13	desta	_	ADP	ADP	_	16	case	_	_
-14	sexta	_	PROPN	PNOUN	_	16	amod	_	_
-15	-	-	PUNCT	.	_	16	punct	_	_
-16	feira	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
-17	,	,	PUNCT	.	_	16	punct	_	_
-18	6	6	NUM	NUM	NumType=Card	16	nmod	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	18	punct	_	_
-20	que	_	PRON	PRON	_	31	mark	_	_
-21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-22	edital	edital	NOUN	NOUN	_	31	nsubj	_	_
-23	de	de	ADP	ADP	_	24	case	_	_
-24	licitação	licitação	NOUN	NOUN	_	22	nmod	_	_
-25-26	do	_	_	_	_	_	_	_	_
-25	de	de	ADP	ADP	_	27	case	_	_
-26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	transporte	transporte	NOUN	NOUN	_	22	nmod	_	_
-28	coletivo	coletivo	ADJ	ADJ	_	27	amod	_	_
-29	urbano	urbano	ADJ	ADJ	_	27	amod	_	_
-30	já	já	ADV	ADV	_	31	advmod	_	_
-31	está	estar	VERB	VERB	_	9	ccomp	_	_
-32	pronto	pronto	ADJ	ADJ	_	31	xcomp	_	SpaceAfter=No
-33	.	.	PUNCT	.	_	9	punct	_	_
+13	desta	_	ADP	ADP	_	15	case	_	_
+14-15	sexta-feira	_	_	_	_	_	_	_	SpaceAfter=No
+14	sexta	_	PROPN	PNOUN	_	15	amod	_	_
+15	feira	_	PROPN	PNOUN	_	12	nmod	_	_
+16	,	,	PUNCT	.	_	15	punct	_	_
+17	6	6	NUM	NUM	NumType=Card	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	.	_	17	punct	_	_
+19	que	_	PRON	PRON	_	30	mark	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	edital	edital	NOUN	NOUN	_	30	nsubj	_	_
+22	de	de	ADP	ADP	_	23	case	_	_
+23	licitação	licitação	NOUN	NOUN	_	21	nmod	_	_
+24-25	do	_	_	_	_	_	_	_	_
+24	de	de	ADP	ADP	_	26	case	_	_
+25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	transporte	transporte	NOUN	NOUN	_	21	nmod	_	_
+27	coletivo	coletivo	ADJ	ADJ	_	26	amod	_	_
+28	urbano	urbano	ADJ	ADJ	_	26	amod	_	_
+29	já	já	ADV	ADV	_	30	advmod	_	_
+30	está	estar	VERB	VERB	_	9	ccomp	_	_
+31	pronto	pronto	ADJ	ADJ	_	30	xcomp	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	9	punct	_	_
 

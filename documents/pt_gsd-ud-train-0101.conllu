@@ -203,7 +203,7 @@
 16	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s1005
-# text = Ela deve avaliar e cobrar bons serviços das companhias ", afirmou o presidente da OAB - RS, Claudio Lamachia.
+# text = Ela deve avaliar e cobrar bons serviços das companhias ", afirmou o presidente da OAB-RS, Claudio Lamachia.
 1	Ela	_	PRON	PRON	_	3	nsubj	_	_
 2	deve	dever	AUX	AUX	_	3	aux	_	_
 3	avaliar	avaliar	VERB	VERB	_	13	ccomp	_	_
@@ -223,24 +223,24 @@
 16-17	da	_	_	_	_	_	_	_	_
 16	de	de	ADP	ADP	_	18	case	_	_
 17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18-19	OAB-RS	_	_	_	_	_	_	_	SpaceAfter=No
 18	OAB	_	PROPN	PNOUN	_	15	nmod	_	_
-19	-	-	PUNCT	.	_	18	punct	_	_
-20	RS	_	PROPN	PNOUN	_	18	flat	_	SpaceAfter=No
-21	,	,	PUNCT	.	_	22	punct	_	_
-22	Claudio	_	PROPN	PNOUN	_	15	appos	_	_
-23	Lamachia	_	PROPN	PNOUN	_	22	flat	_	SpaceAfter=No
-24	.	.	PUNCT	.	_	13	punct	_	_
+19	RS	_	PROPN	PNOUN	_	18	flat	_	_
+20	,	,	PUNCT	.	_	21	punct	_	_
+21	Claudio	_	PROPN	PNOUN	_	15	appos	_	_
+22	Lamachia	_	PROPN	PNOUN	_	21	flat	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = train-s1006
-# text = Já o lateral Fernandinho disse que a postura do Tricolor, por enfrentar o vice - lanterna do Brasileirão, atrapalhou a equipe e os pontos perdidos vão fazer falta na sequência da competição.
+# text = Já o lateral Fernandinho disse que a postura do Tricolor, por enfrentar o vice-lanterna do Brasileirão, atrapalhou a equipe e os pontos perdidos vão fazer falta na sequência da competição.
 1	Já	já	ADV	ADV	_	5	advmod	_	_
 2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	lateral	lateral	NOUN	NOUN	_	5	nsubj	_	_
 4	Fernandinho	_	PROPN	PNOUN	_	3	appos	_	_
 5	disse	dizer	VERB	VERB	_	0	root	_	_
-6	que	que	CCONJ	CONJ	_	23	mark	_	_
+6	que	que	CCONJ	CONJ	_	22	mark	_	_
 7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	postura	postura	NOUN	NOUN	_	23	nsubj	_	_
+8	postura	postura	NOUN	NOUN	_	22	nsubj	_	_
 9-10	do	_	_	_	_	_	_	_	_
 9	de	de	ADP	ADP	_	11	case	_	_
 10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -249,36 +249,36 @@
 13	por	_	ADP	ADP	_	14	mark	_	_
 14	enfrentar	enfrentar	VERB	VERB	_	8	advcl	_	_
 15	o	o	DET	DET	_	16	det	_	_
+16-17	vice-lanterna	_	_	_	_	_	_	_	_
 16	vice	_	PART	PRT	_	14	obj	_	_
-17	-	-	PUNCT	.	_	16	punct	_	_
-18	lanterna	lanterna	NOUN	NOUN	_	16	flat	_	_
-19-20	do	_	_	_	_	_	_	_	_
-19	de	de	ADP	ADP	_	21	case	_	_
-20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	Brasileirão	_	PROPN	PNOUN	_	16	nmod	_	SpaceAfter=No
-22	,	,	PUNCT	.	_	14	punct	_	_
-23	atrapalhou	atrapalhar	VERB	VERB	_	5	ccomp	_	_
-24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-25	equipe	equipe	NOUN	NOUN	_	23	obj	_	_
-26	e	e	CCONJ	CONJ	_	31	cc	_	_
-27	os	o	DET	DET	_	28	det	_	_
-28	pontos	ponto	NOUN	NOUN	_	31	nsubj	_	_
-29	perdidos	perdido	ADJ	ADJ	_	28	amod	_	_
-30	vão	ir	AUX	AUX	_	31	aux	_	_
-31	fazer	fazer	VERB	VERB	_	23	conj	_	_
-32	falta	_	NOUN	NOUN	_	31	obj	_	_
-33-34	na	_	_	_	_	_	_	_	_
-33	em	em	ADP	ADP	_	35	case	_	_
-34	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
-35	sequência	sequência	NOUN	NOUN	_	31	nmod	_	_
-36-37	da	_	_	_	_	_	_	_	_
-36	de	de	ADP	ADP	_	38	case	_	_
-37	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
-38	competição	competição	NOUN	NOUN	_	35	nmod	_	SpaceAfter=No
-39	.	.	PUNCT	.	_	5	punct	_	_
+17	lanterna	lanterna	NOUN	NOUN	_	16	flat	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	ADP	_	20	case	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Brasileirão	_	PROPN	PNOUN	_	16	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	.	_	14	punct	_	_
+22	atrapalhou	atrapalhar	VERB	VERB	_	5	ccomp	_	_
+23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	equipe	equipe	NOUN	NOUN	_	22	obj	_	_
+25	e	e	CCONJ	CONJ	_	30	cc	_	_
+26	os	o	DET	DET	_	27	det	_	_
+27	pontos	ponto	NOUN	NOUN	_	30	nsubj	_	_
+28	perdidos	perdido	ADJ	ADJ	_	27	amod	_	_
+29	vão	ir	AUX	AUX	_	30	aux	_	_
+30	fazer	fazer	VERB	VERB	_	22	conj	_	_
+31	falta	_	NOUN	NOUN	_	30	obj	_	_
+32-33	na	_	_	_	_	_	_	_	_
+32	em	em	ADP	ADP	_	34	case	_	_
+33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	sequência	sequência	NOUN	NOUN	_	30	nmod	_	_
+35-36	da	_	_	_	_	_	_	_	_
+35	de	de	ADP	ADP	_	37	case	_	_
+36	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	competição	competição	NOUN	NOUN	_	34	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = train-s1007
-# text = O objetivo da campanha, de acordo com a Diretoria de Vigilância Epidemiológica da SES - DF, é manter o Brasil na condição de país certificado internacionalmente para a erradicação da poliomielite, estabelecendo proteção coletiva e a disseminação do vírus vacinal no meio ambiente.
+# text = O objetivo da campanha, de acordo com a Diretoria de Vigilância Epidemiológica da SES-DF, é manter o Brasil na condição de país certificado internacionalmente para a erradicação da poliomielite, estabelecendo proteção coletiva e a disseminação do vírus vacinal no meio ambiente.
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	objetivo	objetivo	NOUN	NOUN	_	0	root	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -297,47 +297,47 @@
 15-16	da	_	_	_	_	_	_	_	_
 15	de	de	ADP	ADP	_	17	case	_	_
 16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17-18	SES-DF	_	_	_	_	_	_	_	SpaceAfter=No
 17	SES	_	PROPN	PNOUN	_	11	nmod	_	_
-18	-	-	PUNCT	.	_	17	punct	_	_
-19	DF	_	PROPN	PNOUN	_	17	flat	_	SpaceAfter=No
-20	,	,	PUNCT	.	_	8	punct	_	_
-21	é	ser	AUX	AUX	_	2	cop	_	_
-22	manter	manter	VERB	VERB	_	2	csubj	_	_
-23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	Brasil	_	PROPN	PNOUN	_	22	obj	_	_
-25-26	na	_	_	_	_	_	_	_	_
-25	em	em	ADP	ADP	_	27	case	_	_
-26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	condição	condição	NOUN	NOUN	_	22	nmod	_	_
-28	de	de	ADP	ADP	_	29	case	_	_
-29	país	país	NOUN	NOUN	_	27	nmod	_	_
-30	certificado	certificar	VERB	VERB	_	29	acl	_	_
-31	internacionalmente	internacionalmente	ADV	ADV	_	30	advmod	_	_
-32	para	para	ADP	ADP	_	34	case	_	_
-33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
-34	erradicação	erradicação	NOUN	NOUN	_	30	nmod	_	_
-35-36	da	_	_	_	_	_	_	_	_
-35	de	de	ADP	ADP	_	37	case	_	_
-36	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
-37	poliomielite	poliomielite	NOUN	NOUN	_	34	nmod	_	SpaceAfter=No
-38	,	,	PUNCT	.	_	39	punct	_	_
-39	estabelecendo	estabelecer	VERB	VERB	_	22	acl	_	_
-40	proteção	proteção	NOUN	NOUN	_	39	obj	_	_
-41	coletiva	coletivo	ADJ	ADJ	_	40	amod	_	_
-42	e	e	CCONJ	CONJ	_	44	cc	_	_
-43	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
-44	disseminação	disseminação	NOUN	NOUN	_	40	conj	_	_
-45-46	do	_	_	_	_	_	_	_	_
-45	de	de	ADP	ADP	_	47	case	_	_
-46	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
-47	vírus	vírus	NOUN	NOUN	_	44	nmod	_	_
-48	vacinal	vacinal	ADJ	ADJ	_	47	amod	_	_
-49-50	no	_	_	_	_	_	_	_	_
-49	em	em	ADP	ADP	_	51	case	_	_
-50	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
-51	meio	meio	NOUN	NOUN	_	44	nmod	_	_
-52	ambiente	ambiente	NOUN	NOUN	_	51	flat	_	SpaceAfter=No
-53	.	.	PUNCT	.	_	2	punct	_	_
+18	DF	_	PROPN	PNOUN	_	17	flat	_	_
+19	,	,	PUNCT	.	_	8	punct	_	_
+20	é	ser	AUX	AUX	_	2	cop	_	_
+21	manter	manter	VERB	VERB	_	2	csubj	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Brasil	_	PROPN	PNOUN	_	21	obj	_	_
+24-25	na	_	_	_	_	_	_	_	_
+24	em	em	ADP	ADP	_	26	case	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	condição	condição	NOUN	NOUN	_	21	nmod	_	_
+27	de	de	ADP	ADP	_	28	case	_	_
+28	país	país	NOUN	NOUN	_	26	nmod	_	_
+29	certificado	certificar	VERB	VERB	_	28	acl	_	_
+30	internacionalmente	internacionalmente	ADV	ADV	_	29	advmod	_	_
+31	para	para	ADP	ADP	_	33	case	_	_
+32	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	erradicação	erradicação	NOUN	NOUN	_	29	nmod	_	_
+34-35	da	_	_	_	_	_	_	_	_
+34	de	de	ADP	ADP	_	36	case	_	_
+35	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	poliomielite	poliomielite	NOUN	NOUN	_	33	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	.	_	38	punct	_	_
+38	estabelecendo	estabelecer	VERB	VERB	_	21	acl	_	_
+39	proteção	proteção	NOUN	NOUN	_	38	obj	_	_
+40	coletiva	coletivo	ADJ	ADJ	_	39	amod	_	_
+41	e	e	CCONJ	CONJ	_	43	cc	_	_
+42	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	disseminação	disseminação	NOUN	NOUN	_	39	conj	_	_
+44-45	do	_	_	_	_	_	_	_	_
+44	de	de	ADP	ADP	_	46	case	_	_
+45	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	vírus	vírus	NOUN	NOUN	_	43	nmod	_	_
+47	vacinal	vacinal	ADJ	ADJ	_	46	amod	_	_
+48-49	no	_	_	_	_	_	_	_	_
+48	em	em	ADP	ADP	_	50	case	_	_
+49	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	meio	meio	NOUN	NOUN	_	43	nmod	_	_
+51	ambiente	ambiente	NOUN	NOUN	_	50	flat	_	SpaceAfter=No
+52	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s1008
 # text = Repórter: Ok, há sempre muita gente nos lugares que você vai.

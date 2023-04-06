@@ -283,7 +283,7 @@
 24	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = train-s6164
-# text = O atacante tem 24 anos, 1,88 m e já passou pelo Tupi - MG, América - MG, Ferroviária - SP, Ponte Preta, Cruzeiro, Bahia e Goiás.
+# text = O atacante tem 24 anos, 1,88 m e já passou pelo Tupi - MG, América-MG, Ferroviária-SP, Ponte Preta, Cruzeiro, Bahia e Goiás.
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	atacante	atacante	NOUN	NOUN	_	3	nsubj	_	_
 3	tem	ter	VERB	VERB	_	0	root	_	_
@@ -298,25 +298,25 @@
 12-13	pelo	_	_	_	_	_	_	_	_
 12	por	por	ADP	ADP	_	14	case	_	_
 13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	Tupi	_	PROPN	PNOUN	_	11	nmod	_	_
-15	-	-	PUNCT	.	_	18	punct	_	_
+14	Tupi	_	PROPN	PNOUN	_	11	nmod	_	ToDo=NonCatenaCompound
+15	-	-	PUNCT	.	_	18	punct	_	ToDo=NonCatenaCompound
 16	MG	_	PROPN	PNOUN	_	14	flat	_	SpaceAfter=No
 17	,	,	PUNCT	.	_	18	punct	_	_
+18-19	América-MG	_	_	_	_	_	_	_	SpaceAfter=No
 18	América	_	PROPN	PNOUN	_	14	conj	_	_
-19	-	-	PUNCT	.	_	18	punct	_	_
-20	MG	_	PROPN	PNOUN	_	18	flat	_	SpaceAfter=No
-21	,	,	PUNCT	.	_	22	punct	_	_
-22	Ferroviária	_	PROPN	PNOUN	_	14	conj	_	_
-23	-	-	PUNCT	.	_	22	punct	_	_
-24	SP	_	PROPN	PNOUN	_	22	flat	_	SpaceAfter=No
-25	,	,	PUNCT	.	_	26	punct	_	_
-26	Ponte	_	PROPN	PNOUN	_	14	conj	_	_
-27	Preta	_	PROPN	PNOUN	_	26	amod	_	SpaceAfter=No
+19	MG	_	PROPN	PNOUN	_	18	flat	_	_
+20	,	,	PUNCT	.	_	21	punct	_	_
+21-22	Ferroviária-SP	_	_	_	_	_	_	_	SpaceAfter=No
+21	Ferroviária	_	PROPN	PNOUN	_	14	conj	_	_
+22	SP	_	PROPN	PNOUN	_	21	flat	_	_
+23	,	,	PUNCT	.	_	24	punct	_	_
+24	Ponte	_	PROPN	PNOUN	_	14	conj	_	_
+25	Preta	_	PROPN	PNOUN	_	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	.	_	27	punct	_	_
+27	Cruzeiro	_	PROPN	PNOUN	_	14	conj	_	SpaceAfter=No
 28	,	,	PUNCT	.	_	29	punct	_	_
-29	Cruzeiro	_	PROPN	PNOUN	_	14	conj	_	SpaceAfter=No
-30	,	,	PUNCT	.	_	31	punct	_	_
-31	Bahia	_	PROPN	PNOUN	_	14	conj	_	_
-32	e	e	CCONJ	CONJ	_	33	cc	_	_
-33	Goiás	_	PROPN	PNOUN	_	14	conj	_	SpaceAfter=No
-34	.	.	PUNCT	.	_	3	punct	_	_
+29	Bahia	_	PROPN	PNOUN	_	14	conj	_	_
+30	e	e	CCONJ	CONJ	_	31	cc	_	_
+31	Goiás	_	PROPN	PNOUN	_	14	conj	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	3	punct	_	_
 

@@ -97,8 +97,8 @@
 8	,	,	PUNCT	.	_	9	punct	_	_
 9	além	além	ADV	ADV	_	3	advmod	_	_
 10	de	de	ADP	ADP	_	11	case	_	_
-11	vale	vale	NOUN	NOUN	_	9	nmod	_	_
-12	-	-	PUNCT	.	_	15	punct	_	_
+11	vale	vale	NOUN	NOUN	_	9	nmod	_	ToDo=NonCatenaCompound
+12	-	-	PUNCT	.	_	15	punct	_	ToDo=NonCatenaCompound
 13	transporte	transporte	NOUN	NOUN	_	11	flat	_	_
 14	e	e	CCONJ	CONJ	_	15	cc	_	_
 15	R	r	NOUN	NOUN	_	11	conj	_	_
@@ -164,7 +164,7 @@
 41	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = train-s2277
-# text = A pena é de 7 anos e 2 meses, mais multa de R $ 932 mil, o equivalente a 370 dias - multa.
+# text = A pena é de 7 anos e 2 meses, mais multa de R $ 932 mil, o equivalente a 370 dias-multa.
 1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	pena	_	NOUN	NOUN	_	3	nsubj	_	_
 3	é	ser	VERB	VERB	_	0	root	_	_
@@ -187,10 +187,10 @@
 20	equivalente	_	NOUN	NOUN	_	12	appos	_	_
 21	a	_	ADP	ADP	_	23	case	_	_
 22	370	370	NUM	NUM	NumType=Card	23	nummod	_	_
+23-24	dias-multa	_	_	_	_	_	_	_	SpaceAfter=No
 23	dias	dia	NOUN	NOUN	_	20	nmod	_	_
-24	-	-	PUNCT	.	_	23	punct	_	_
-25	multa	multa	NOUN	NOUN	_	23	flat	_	SpaceAfter=No
-26	.	.	PUNCT	.	_	3	punct	_	_
+24	multa	multa	NOUN	NOUN	_	23	flat	_	_
+25	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s2278
 # text = De acordo com Cicinho, o treinador fez com que seu rendimento crescesse.
@@ -228,7 +228,7 @@
 15	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = train-s2280
-# text = O Petit 2 inclui as versões super deformadas de todos os personagens da versão do arcade, exceto por Baiken, Dizzy e Robo - Ky.
+# text = O Petit 2 inclui as versões super deformadas de todos os personagens da versão do arcade, exceto por Baiken, Dizzy e Robo-Ky.
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Petit	_	PROPN	PNOUN	_	4	nsubj	_	_
 3	2	2	NUM	NUM	NumType=Card	2	appos	_	_
@@ -256,10 +256,10 @@
 23	,	,	PUNCT	.	_	24	punct	_	_
 24	Dizzy	_	PROPN	PNOUN	_	22	conj	_	_
 25	e	e	CCONJ	CONJ	_	26	cc	_	_
+26-27	Robo-Ky	_	_	_	_	_	_	_	SpaceAfter=No
 26	Robo	_	PROPN	PNOUN	_	22	conj	_	_
-27	-	-	PUNCT	.	_	26	punct	_	_
-28	Ky	_	PROPN	PNOUN	_	26	flat	_	SpaceAfter=No
-29	.	.	PUNCT	.	_	4	punct	_	_
+27	Ky	_	PROPN	PNOUN	_	26	flat	_	_
+28	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = train-s2281
 # text = Cinco minutos depois, Rafael bateu de canhota, pela direita, e marcou um belo.
