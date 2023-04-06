@@ -30,47 +30,46 @@
 
 # sent_id = train-s7438
 # text = Leão -- O Sol passa a favorecer suas novas iniciativas, tanto familiar como afetivas.
-1	Leão	_	PROPN	PNOUN	_	7	parataxis	_	_
-2	--	_	PUNCT	.	_	7	punct	_	_
-3	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	Sol	_	PROPN	PNOUN	_	7	nsubj	_	_
-5	passa	passar	AUX	AUX	_	7	aux	_	_
-6	a	_	ADP	ADP	_	7	mark	_	_
-7	favorecer	favorecer	VERB	VERB	_	0	root	_	_
-8	suas	_	DET	DET	_	10	det:poss	_	_
-9	novas	novo	ADJ	ADJ	_	10	amod	_	_
-10	iniciativas	iniciativa	NOUN	NOUN	_	7	obj	_	SpaceAfter=No
-11	,	,	PUNCT	.	_	10	punct	_	_
-12	tanto	tanto	ADV	ADV	_	13	cc	_	_
-13	familiar	familiar	ADJ	ADJ	_	10	amod	_	_
-14	como	_	CCONJ	CONJ	_	15	cc	_	_
-15	afetivas	afetivo	ADJ	ADJ	_	13	conj	_	SpaceAfter=No
-16	.	.	PUNCT	.	_	7	punct	_	_
+1	Leão	Leão	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	--	--	PUNCT	_	_	1	punct	_	_
+3	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Sol	Sol	PROPN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+5	passa	passar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+6	a	a	SCONJ	_	_	7	mark	_	_
+7	favorecer	favorecer	VERB	_	VerbForm=Inf	5	xcomp	_	_
+8	suas	seu	DET	_	Gender=Fem|Number=Plur|PronType=Prs	10	det	_	_
+9	novas	novo	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
+10	iniciativas	iniciativa	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	tanto	tanto	ADV	_	_	13	cc	_	_
+13	familiar	familiar	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+14	como	como	ADV	_	_	15	cc	_	_
+15	afetivas	afetivo	ADJ	_	Gender=Fem|Number=Plur	13	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = train-s7439
-# text = Britânica Claire Culverwell teve de gastar R $ 7,1 mil devido ao vício de retirar pelos durante a infância.
-1	Britânica	britânico	NOUN	NOUN	_	6	nsubj	_	_
-2	Claire	_	PROPN	PNOUN	_	1	appos	_	_
-3	Culverwell	_	PROPN	PNOUN	_	2	flat	_	_
-4	teve	ter	AUX	AUX	_	6	aux	_	_
-5	de	_	ADP	ADP	_	6	mark	_	_
-6	gastar	gastar	VERB	VERB	_	0	root	_	_
-7	R	r	NOUN	NOUN	_	6	obj	_	_
-8	$	_	SYM	SYM	_	7	flat	_	_
-9	7,1	7,1	NUM	NUM	NumType=Card	10	nummod	_	_
-10	mil	_	NUM	NUM	NumType=Card	7	nummod	_	_
-11	devido	dever	VERB	VERB	_	14	case	_	_
-12-13	ao	_	_	_	_	_	_	_	_
-12	a	a	ADP	ADP	_	11	case	_	_
-13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-14	vício	vício	NOUN	NOUN	_	6	nmod	_	_
-15	de	_	ADP	ADP	_	16	mark	_	_
-16	retirar	retirar	VERB	VERB	_	14	nmod	_	_
-17	pelos	pelo	NOUN	NOUN	_	16	obj	_	_
-18	durante	_	ADP	ADP	_	20	case	_	_
-19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	infância	infância	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
-21	.	.	PUNCT	.	_	6	punct	_	_
+# text = Britânica Claire Culverwell teve de gastar R$ 7,1 mil devido ao vício de retirar pelos durante a infância.
+1	Britânica	britânica	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+2	Claire	Claire	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	1	appos	_	_
+3	Culverwell	Culverwell	PROPN	_	Number=Sing	2	flat:name	_	_
+4	teve	ter	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	de	de	SCONJ	_	_	6	mark	_	_
+6	gastar	gastar	VERB	_	VerbForm=Inf	4	xcomp	_	_
+7	R$	real	SYM	_	_	6	obj	_	_
+8	7,1	7,1	NUM	_	NumType=Card	7	nummod	_	_
+9	mil	mil	NUM	_	NumType=Card	8	flat	_	_
+10	devido	devido	ADV	_	_	6	advmod	_	_
+11-12	ao	_	_	_	_	_	_	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	vício	vício	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+14	de	de	SCONJ	_	_	15	mark	_	_
+15	retirar	retirar	VERB	_	VerbForm=Inf	13	acl	_	_
+16	pelos	pelo	NOUN	_	Gender=Masc|Number=Plur	15	obj	_	_
+17	durante	durante	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	infância	infância	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
 # sent_id = train-s7440
 # text = Ele não resistiu à prisão.

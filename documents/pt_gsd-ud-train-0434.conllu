@@ -258,14 +258,14 @@
 
 # sent_id = train-s4313
 # text = Quem não gosta, passa a gostar.
-1	Quem	_	PRON	PRON	_	3	nsubj	_	_
-2	não	não	ADV	ADV	Polarity=Neg	3	advmod	_	_
-3	gosta	gostar	VERB	VERB	_	7	csubj	_	SpaceAfter=No
-4	,	,	PUNCT	.	_	3	punct	_	_
-5	passa	passar	AUX	AUX	_	7	aux	_	_
-6	a	_	ADP	ADP	_	7	mark	_	_
-7	gostar	gostar	VERB	VERB	_	0	root	_	SpaceAfter=No
-8	.	.	PUNCT	.	_	7	punct	_	_
+1	Quem	quem	PRON	_	Number=Sing|PronType=Rel	3	nsubj	_	_
+2	não	não	ADV	_	Polarity=Neg	3	advmod	_	_
+3	gosta	gostar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	csubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	passa	passar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	a	a	SCONJ	_	_	7	mark	_	_
+7	gostar	gostar	VERB	_	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = train-s4314
 # text = Com a decisão do Fed em manter a compra de títulos, o mercado reagiu e a divisa encerrou em queda.

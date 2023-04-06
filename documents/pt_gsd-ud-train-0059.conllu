@@ -48,31 +48,31 @@
 
 # sent_id = train-s583
 # text = Cuido bastante para não acabar magoando aqueles que não atingiram o maior número de livros, pois só os primeiros quinze colocados recebem premiação.
-1	Cuido	cuidar	VERB	VERB	_	0	root	_	_
-2	bastante	bastante	ADV	ADV	_	1	advmod	_	_
-3	para	_	ADP	ADP	_	6	mark	_	_
-4	não	não	ADV	ADV	Polarity=Neg	6	advmod	_	_
-5	acabar	acabar	AUX	AUX	_	6	aux	_	_
-6	magoando	magoar	VERB	VERB	_	1	advcl	_	_
-7	aqueles	_	PRON	PRON	_	6	obj	_	_
-8	que	_	PRON	PRON	_	10	nsubj	_	_
-9	não	não	ADV	ADV	Polarity=Neg	10	advmod	_	_
-10	atingiram	atingir	VERB	VERB	_	7	acl:relcl	_	_
-11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-12	maior	maior	ADJ	ADJ	_	13	amod	_	_
-13	número	número	NOUN	NOUN	_	10	obj	_	_
-14	de	de	ADP	ADP	_	15	case	_	_
-15	livros	livro	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
-16	,	,	PUNCT	.	_	23	punct	_	_
-17	pois	_	CCONJ	CONJ	_	23	mark	_	_
-18	só	só	ADV	ADV	_	21	advmod	_	_
-19	os	o	DET	DET	_	22	det	_	_
-20	primeiros	primeiro	ADJ	ADJ	_	22	amod	_	_
-21	quinze	_	NUM	NUM	NumType=Card	22	nummod	_	_
-22	colocados	_	NOUN	NOUN	_	23	nsubj	_	_
-23	recebem	receber	VERB	VERB	_	6	advcl	_	_
-24	premiação	premiação	NOUN	NOUN	_	23	obj	_	SpaceAfter=No
-25	.	.	PUNCT	.	_	1	punct	_	_
+1	Cuido	cuidar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	bastante	bastante	ADV	_	_	1	advmod	_	_
+3	para	para	SCONJ	_	_	5	mark	_	_
+4	não	não	ADV	_	Polarity=Neg	5	advmod	_	_
+5	acabar	acabar	VERB	_	VerbForm=Inf	1	advcl	_	_
+6	magoando	magoar	VERB	_	VerbForm=Ger	5	xcomp	_	_
+7	aqueles	aquele	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	6	obj	_	_
+8	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	10	nsubj	_	_
+9	não	não	ADV	_	Polarity=Neg	10	advmod	_	_
+10	atingiram	atingir	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	7	acl:relcl	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	maior	grande	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
+13	número	número	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	livros	livro	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	23	punct	_	_
+17	pois	pois	SCONJ	_	_	23	mark	_	_
+18	só	só	ADV	_	_	22	advmod	_	_
+19	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+20	primeiros	primeiro	ADJ	_	Gender=Masc|Number=Plur|NumType=Ord	22	amod	_	_
+21	quinze	quinze	NUM	_	NumType=Card	22	nummod	_	_
+22	colocados	colocado	NOUN	_	Gender=Masc|Number=Plur	23	nsubj	_	_
+23	recebem	receber	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+24	premiação	premiação	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = train-s584
 # text = Pedidos de apoio financeiro dirigidos ao município e ao Estado ficaram sem resposta.
@@ -239,10 +239,10 @@
 
 # sent_id = train-s588
 # text = Andou se machucando.
-1	Andou	andar	AUX	AUX	_	3	aux	_	_
-2	se	_	PRON	PRON	_	3	obj	_	_
-3	machucando	machucar	VERB	VERB	_	0	root	_	SpaceAfter=No
-4	.	.	PUNCT	.	_	3	punct	_	_
+1	Andou	andar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+3	machucando	machucar	VERB	_	VerbForm=Ger	1	xcomp	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = train-s589
 # text = "2012 foi um ano de muito trabalho, mas também de resultados positivos", definiu Lenz César.

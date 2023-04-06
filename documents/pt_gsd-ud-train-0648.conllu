@@ -9,8 +9,8 @@
 6	era	_	VERB	VERB	_	0	root	_	_
 7	de	de	ADP	ADP	_	9	case	_	_
 8	12,5	12,5	NUM	NUM	NumType=Card	9	nummod	_	_
-9	º	_	NOUN	NOUN	_	6	nmod	_	_
-10	C	c	NOUN	NOUN	_	9	flat	_	_
+9	º	grau	NOUN	NOUN	_	6	nmod	_	_
+10	C	celsius	NOUN	NOUN	_	9	flat	_	_
 11-12	na	_	_	_	_	_	_	_	_
 11	em	em	ADP	ADP	_	13	case	_	_
 12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -51,8 +51,8 @@
 10	e	e	CCONJ	CONJ	_	11	cc	_	_
 11	28	28	NUM	NUM	NumType=Card	9	conj	_	_
 12	os	o	DET	DET	_	14	det	_	_
-13	GREAT	_	PROPN	PNOUN	_	14	appos	_	_
-14	workshops	workshop	NOUN	NOUN	_	7	obj	_	SpaceAfter=No
+13	GREAT	_	PROPN	_	_	7	obj	_	_
+14	workshops	workshop	NOUN	NOUN	_	13	appos	_	SpaceAfter=No
 15	,	,	PUNCT	.	_	17	punct	_	_
 16	com	com	ADP	ADP	_	17	case	_	_
 17	autoridades	autoridade	NOUN	NOUN	_	14	nmod	_	_
@@ -67,48 +67,42 @@
 # sent_id = train-s6434
 # text = na semifinal de 14 de Junho, Paul cantou alguns versos da ária "Con te partirò".
 1-2	na	_	_	_	_	_	_	_	_
-1	em	em	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	semifinal	semifinal	NOUN	NOUN	_	10	nmod	_	_
-4	de	de	ADP	ADP	_	5	case	_	_
-5	14	14	NUM	NUM	NumType=Card	3	nmod	_	_
-6	de	de	ADP	ADP	_	7	case	_	_
-7	Junho	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
-8	,	,	PUNCT	.	_	3	punct	_	_
-9	Paul	_	PROPN	PNOUN	_	10	nsubj	_	_
-10	cantou	cantar	VERB	VERB	_	0	root	_	_
-11	alguns	_	DET	DET	_	12	det	_	_
-12	versos	verso	NOUN	NOUN	_	10	obj	_	_
+1	em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	semifinal	semifinal	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	14	14	NUM	_	NumType=Card	3	nmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Junho	junho	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	3	punct	_	_
+9	Paul	Paul	PROPN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+10	cantou	cantar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	12	det	_	_
+12	versos	verso	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
 13-14	da	_	_	_	_	_	_	_	_
-13	de	de	ADP	ADP	_	15	case	_	_
-14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	ária	ária	NOUN	NOUN	_	12	nmod	_	_
-16	"	"	PUNCT	.	_	19	punct	_	SpaceAfter=No
-17	Con	_	PROPN	PNOUN	_	18	case	_	_
-18	te	_	PRON	PRON	_	19	nmod	_	_
-19	partirò	_	PROPN	PNOUN	_	15	appos	_	SpaceAfter=No
-20	"	"	PUNCT	.	_	19	punct	_	SpaceAfter=No
-21	.	.	PUNCT	.	_	10	punct	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	ária	ária	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	Con	Con	PROPN	_	ExtPos=PROPN|Foreign=Yes|Gender=Fem|Number=Sing	15	appos	_	_
+18	te	te	PROPN	_	Foreign=Yes|Number=Sing	17	flat:name	_	_
+19	partirò	partirò	PROPN	_	Foreign=Yes|Number=Sing	17	flat:name	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = train-s6435
-# text = Integram esse circuito as rodovias BR - 267, MG - 135 e MG - 338.
-1	Integram	integrar	VERB	VERB	_	0	root	_	_
-2	esse	_	DET	DET	_	3	det	_	_
-3	circuito	circuito	NOUN	NOUN	_	1	obj	_	_
-4	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
-5	rodovias	rodovia	NOUN	NOUN	_	1	nsubj	_	_
-6	BR	_	PROPN	PNOUN	_	5	appos	_	_
-7	-	-	PUNCT	.	_	10	punct	_	_
-8	267	267	NUM	NUM	NumType=Card	6	appos	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	10	punct	_	_
-10	MG	_	PROPN	PNOUN	_	6	conj	_	_
-11	-	-	PUNCT	.	_	10	punct	_	_
-12	135	135	NUM	NUM	NumType=Card	10	appos	_	_
-13	e	e	CCONJ	CONJ	_	14	cc	_	_
-14	MG	_	PROPN	PNOUN	_	6	conj	_	_
-15	-	-	PUNCT	.	_	14	punct	_	_
-16	338	338	NUM	NUM	NumType=Card	14	appos	_	SpaceAfter=No
-17	.	.	PUNCT	.	_	1	punct	_	_
+# text = Integram esse circuito as rodovias BR-267, MG-135 e MG-338.
+1	Integram	integrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	circuito	circuito	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+4	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	rodovias	rodovia	NOUN	_	Gender=Fem|Number=Plur	1	nsubj	_	_
+6	BR-267	BR-267	PROPN	_	Gender=Fem|Number=Sing	5	appos	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	MG-135	MG-135	PROPN	_	Gender=Fem|Number=Sing	6	conj	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	MG-338	MG-338	PROPN	_	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = train-s6436
 # text = As cidades também precisão investir."

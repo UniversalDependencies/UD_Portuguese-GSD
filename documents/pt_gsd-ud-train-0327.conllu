@@ -64,34 +64,34 @@
 
 # sent_id = train-s3244
 # text = O discurso, na verdade, é apenas para encobrir o cansaço de ter de ficar despistando o tempo todo seu rígido editor Perry White.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	discurso	discurso	NOUN	NOUN	_	8	nsubj	_	SpaceAfter=No
-3	,	,	PUNCT	.	_	6	punct	_	_
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	discurso	discurso	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
 4-5	na	_	_	_	_	_	_	_	_
-4	em	em	ADP	ADP	_	6	case	_	_
-5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	verdade	verdade	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-7	,	,	PUNCT	.	_	6	punct	_	_
-8	é	ser	VERB	VERB	_	0	root	_	_
-9	apenas	apenas	ADV	ADV	_	11	advmod	_	_
-10	para	_	ADP	ADP	_	11	mark	_	_
-11	encobrir	encobrir	VERB	VERB	_	8	advcl	_	_
-12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	cansaço	cansaço	NOUN	NOUN	_	11	obj	_	_
-14	de	_	ADP	ADP	_	18	mark	_	_
-15	ter	ter	AUX	AUX	_	18	aux	_	_
-16	de	_	ADP	ADP	_	18	mark	_	_
-17	ficar	ficar	AUX	AUX	_	18	aux	_	_
-18	despistando	despistar	VERB	VERB	_	13	nmod	_	_
-19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	tempo	tempo	NOUN	NOUN	_	18	nmod	_	_
-21	todo	todo	ADJ	ADJ	_	20	amod	_	_
-22	seu	_	DET	DET	_	24	det:poss	_	_
-23	rígido	rígido	ADJ	ADJ	_	24	amod	_	_
-24	editor	editor	NOUN	NOUN	_	18	obj	_	_
-25	Perry	_	PROPN	PNOUN	_	24	appos	_	_
-26	White	_	PROPN	PNOUN	_	25	flat	_	SpaceAfter=No
-27	.	.	PUNCT	.	_	8	punct	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	verdade	verdade	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	é	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	apenas	apenas	ADV	_	_	11	advmod	_	_
+10	para	para	SCONJ	_	_	11	mark	_	_
+11	encobrir	encobrir	VERB	_	VerbForm=Inf	8	advcl	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	cansaço	cansaço	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+14	de	de	SCONJ	_	_	15	mark	_	_
+15	ter	ter	VERB	_	ExtPos=AUX|VerbForm=Inf	13	acl	_	_
+16	de	de	SCONJ	_	_	17	mark	_	_
+17	ficar	ficar	VERB	_	VerbForm=Inf	15	xcomp	_	_
+18	despistando	despistar	VERB	_	VerbForm=Ger	17	xcomp	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
+21	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Tot	20	det	_	_
+22	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	24	det	_	_
+23	rígido	rígido	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
+24	editor	editor	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
+25	Perry	Perry	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	24	appos	_	_
+26	White	White	PROPN	_	Number=Sing	25	flat:name	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = train-s3245
 # text = E, como sempre, sempre o mesmo: em Gaza, cem a um.
@@ -130,19 +130,19 @@
 
 # sent_id = train-s3247
 # text = Quando saímos para conversar na praia, acabou acontecendo naturalmente.
-1	Quando	_	CCONJ	CONJ	_	2	mark	_	_
-2	saímos	sair	VERB	VERB	_	10	advcl	_	_
-3	para	_	ADP	ADP	_	4	mark	_	_
-4	conversar	conversar	VERB	VERB	_	2	advcl	_	_
+1	Quando	quando	SCONJ	_	_	2	mark	_	_
+2	saímos	sair	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	9	advcl	_	_
+3	para	para	SCONJ	_	_	4	mark	_	_
+4	conversar	conversar	VERB	_	VerbForm=Inf	2	advcl	_	_
 5-6	na	_	_	_	_	_	_	_	_
-5	em	em	ADP	ADP	_	7	case	_	_
-6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	praia	praia	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
-8	,	,	PUNCT	.	_	2	punct	_	_
-9	acabou	acabar	AUX	AUX	_	10	aux	_	_
-10	acontecendo	acontecer	VERB	VERB	_	0	root	_	_
-11	naturalmente	naturalmente	ADV	ADV	_	10	advmod	_	SpaceAfter=No
-12	.	.	PUNCT	.	_	10	punct	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	praia	praia	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	4	punct	_	_
+9	acabou	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	acontecendo	acontecer	VERB	_	VerbForm=Ger	9	xcomp	_	_
+11	naturalmente	naturalmente	ADV	_	_	10	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = train-s3248
 # text = Todos os centros pertencem à DRM - I.
@@ -214,50 +214,50 @@
 
 # sent_id = train-s3251
 # text = Qualquer escorregada de Paulo Preto na CPI pode complicar a campanha de Serra, que já não vai tão bem desde que o tucano passou a dividir as atenções com Celso Russomanno (PRB) nas pesquisas de intenção de voto.
-1	Qualquer	_	DET	DET	_	2	det	_	_
-2	escorregada	_	NOUN	NOUN	_	10	nsubj	_	_
-3	de	de	ADP	ADP	_	4	case	_	_
-4	Paulo	_	PROPN	PNOUN	_	2	nmod	_	_
-5	Preto	_	PROPN	PNOUN	_	4	flat	_	_
+1	Qualquer	qualquer	DET	_	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	escorregada	escorregada	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Paulo	Paulo	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	2	nmod	_	_
+5	Preto	Preto	PROPN	_	Number=Sing	4	flat:name	_	_
 6-7	na	_	_	_	_	_	_	_	_
-6	em	em	ADP	ADP	_	8	case	_	_
-7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	CPI	_	PROPN	PNOUN	_	2	nmod	_	_
-9	pode	_	AUX	AUX	_	10	aux	_	_
-10	complicar	complicar	VERB	VERB	_	0	root	_	_
-11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	campanha	campanha	NOUN	NOUN	_	10	obj	_	_
-13	de	de	ADP	ADP	_	14	case	_	_
-14	Serra	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
-15	,	,	PUNCT	.	_	19	punct	_	_
-16	que	_	PRON	PRON	_	19	nsubj	_	_
-17	já	já	ADV	ADV	_	19	advmod	_	_
-18	não	não	ADV	ADV	Polarity=Neg	19	advmod	_	_
-19	vai	ir	VERB	VERB	_	12	acl:relcl	_	_
-20	tão	tão	ADV	ADV	_	21	advmod	_	_
-21	bem	bem	ADV	ADV	_	19	advmod	_	_
-22	desde	_	ADP	ADP	_	28	mark	_	_
-23	que	_	CCONJ	CONJ	_	22	fixed	_	_
-24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	tucano	tucano	NOUN	NOUN	_	28	nsubj	_	_
-26	passou	passar	AUX	AUX	_	28	aux	_	_
-27	a	_	ADP	ADP	_	28	mark	_	_
-28	dividir	dividir	VERB	VERB	_	19	advcl	_	_
-29	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
-30	atenções	atenção	NOUN	NOUN	_	28	obj	_	_
-31	com	com	ADP	ADP	_	32	case	_	_
-32	Celso	_	PROPN	PNOUN	_	28	nmod	_	_
-33	Russomanno	_	PROPN	PNOUN	_	32	flat	_	_
-34	(	(	PUNCT	.	_	35	punct	_	SpaceAfter=No
-35	PRB	_	PROPN	PNOUN	_	32	appos	_	SpaceAfter=No
-36	)	)	PUNCT	.	_	35	punct	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	CPI	CPI	PROPN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+9	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	complicar	complicar	VERB	_	VerbForm=Inf	9	xcomp	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	Serra	Serra	PROPN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	19	punct	_	_
+16	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	19	nsubj	_	_
+17	já	já	ADV	_	_	19	advmod	_	_
+18	não	não	ADV	_	Polarity=Neg	19	advmod	_	_
+19	vai	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+20	tão	tão	ADV	_	_	21	advmod	_	_
+21	bem	bem	ADV	_	_	19	advmod	_	_
+22	desde	desde	SCONJ	_	_	26	mark	_	_
+23	que	que	SCONJ	_	_	22	fixed	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	tucano	tucano	NOUN	_	Gender=Masc|Number=Sing	26	nsubj	_	_
+26	passou	passar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	advcl	_	_
+27	a	a	SCONJ	_	_	28	mark	_	_
+28	dividir	dividir	VERB	_	VerbForm=Inf	26	xcomp	_	_
+29	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	atenções	atenção	NOUN	_	Gender=Fem|Number=Plur	28	obj	_	_
+31	com	com	ADP	_	_	32	case	_	_
+32	Celso	Celso	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	28	obl	_	_
+33	Russomanno	Russomanno	PROPN	_	Number=Sing	32	flat:name	_	_
+34	(	(	PUNCT	_	_	35	punct	_	SpaceAfter=No
+35	PRB	PRB	PROPN	_	Gender=Masc|Number=Sing	32	parataxis	_	SpaceAfter=No
+36	)	)	PUNCT	_	_	35	punct	_	_
 37-38	nas	_	_	_	_	_	_	_	_
-37	em	em	ADP	ADP	_	39	case	_	_
-38	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
-39	pesquisas	pesquisa	NOUN	NOUN	_	28	nmod	_	_
-40	de	de	ADP	ADP	_	41	case	_	_
-41	intenção	intenção	NOUN	NOUN	_	39	nmod	_	_
-42	de	de	ADP	ADP	_	43	case	_	_
-43	voto	voto	NOUN	NOUN	_	41	nmod	_	SpaceAfter=No
-44	.	.	PUNCT	.	_	10	punct	_	_
+37	em	em	ADP	_	_	39	case	_	_
+38	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
+39	pesquisas	pesquisa	NOUN	_	Gender=Fem|Number=Plur	28	obl	_	_
+40	de	de	ADP	_	_	41	case	_	_
+41	intenção	intenção	NOUN	_	Gender=Fem|Number=Sing	39	nmod	_	_
+42	de	de	ADP	_	_	43	case	_	_
+43	voto	voto	NOUN	_	Gender=Masc|Number=Sing	41	nmod	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	9	punct	_	_
 

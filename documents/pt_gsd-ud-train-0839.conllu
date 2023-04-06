@@ -1,45 +1,45 @@
 # sent_id = train-s8330
 # text = Por causa do natal, mega sena faz nesta semana três sorteios.
-1	Por	_	ADP	ADP	_	5	case	_	_
-2	causa	causa	NOUN	NOUN	_	1	fixed	_	_
+1	Por	por	ADP	_	_	2	case	_	_
+2	causa	causa	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
 3-4	do	_	_	_	_	_	_	_	_
-3	de	de	ADP	ADP	_	1	case	_	_
-4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
-5	natal	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
-6	,	,	PUNCT	.	_	5	punct	_	_
-7	mega	_	PROPN	PNOUN	_	8	amod	_	_
-8	sena	_	PROPN	PNOUN	_	9	nsubj	_	_
-9	faz	fazer	VERB	VERB	_	0	root	_	_
-10	nesta	_	ADP	ADP	_	11	case	_	_
-11	semana	semana	NOUN	NOUN	_	9	nmod	_	_
-12	três	_	NUM	NUM	NumType=Card	13	nummod	_	_
-13	sorteios	sorteio	NOUN	NOUN	_	9	obj	_	SpaceAfter=No
-14	.	.	PUNCT	.	_	9	punct	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	natal	natal	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	mega	Mega	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	9	nsubj	_	_
+8	sena	Sena	PROPN	_	Number=Sing	7	flat:name	_	_
+9	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10-11	nesta	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	semana	semana	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+13	três	três	NUM	_	NumType=Card	14	nummod	_	_
+14	sorteios	sorteio	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = train-s8331
-# text = Americas 'Cosmic Courtyard -- exposição coletiva, co - autoria Ary Perez, The Art Institute of Chicago, Chicago;
-1	Americas	_	PROPN	PNOUN	_	0	root	_	_
-2	'	_	PUNCT	.	_	1	det:poss	_	SpaceAfter=No
-3	Cosmic	_	PROPN	PNOUN	_	1	amod	_	_
-4	Courtyard	_	PROPN	PNOUN	_	1	flat	_	_
-5	--	_	PUNCT	.	_	1	punct	_	_
-6	exposição	exposição	NOUN	NOUN	_	1	appos	_	_
-7	coletiva	coletivo	ADJ	ADJ	_	6	amod	_	SpaceAfter=No
-8	,	,	PUNCT	.	_	9	punct	_	_
-9	co	_	PART	PRT	_	6	appos	_	_
-10	-	-	PUNCT	.	_	9	punct	_	_
-11	autoria	autoria	NOUN	NOUN	_	9	flat	_	_
-12	Ary	_	PROPN	PNOUN	_	9	appos	_	_
-13	Perez	_	PROPN	PNOUN	_	12	flat	_	SpaceAfter=No
-14	,	,	PUNCT	.	_	16	punct	_	_
-15	The	_	PROPN	PNOUN	_	16	det	_	_
-16	Art	_	PROPN	PNOUN	_	12	appos	_	_
-17	Institute	_	PROPN	PNOUN	_	16	flat	_	_
-18	of	_	ADP	ADP	_	19	case	_	_
-19	Chicago	_	PROPN	PNOUN	_	16	nmod	_	SpaceAfter=No
-20	,	,	PUNCT	.	_	21	punct	_	_
-21	Chicago	_	PROPN	PNOUN	_	16	appos	_	SpaceAfter=No
-22	;	_	PUNCT	.	_	1	punct	_	_
+# text = Americas' Cosmic Courtyard -- exposição coletiva, co-autoria Ary Perez, The Art Institute of Chicago, Chicago;
+1	Americas	Americas	PROPN	_	ExtPos=PROPN|Number=Sing	4	nmod	_	SpaceAfter=No
+2	'	's	PART	_	_	1	case	_	_
+3	Cosmic	Cosmic	ADJ	_	Foreign=Yes|Number=Sing	4	amod	_	_
+4	Courtyard	Courtyard	PROPN	_	Foreign=Yes|Number=Sing	0	root	_	_
+5	--	--	PUNCT	_	_	4	punct	_	_
+6	exposição	exposição	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
+7	coletiva	coletivo	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	co-autoria	co-autoria	NOUN	_	Gender=Fem|Number=Sing	6	appos	_	_
+10	Ary	Ary	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	9	appos	_	_
+11	Perez	Perez	PROPN	_	Number=Sing	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	The	the	DET	_	Definite=Def|Foreign=Yes|PronType=Art	15	det	_	_
+14	Art	Art	PROPN	_	Foreign=Yes|Number=Sing	15	compound	_	_
+15	Institute	Institute	PROPN	_	Foreign=Yes|Number=Sing	10	appos	_	_
+16	of	of	ADP	_	Foreign=Yes	17	case	_	_
+17	Chicago	Chicago	PROPN	_	Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	Chicago	Chicago	PROPN	_	Gender=Masc|Number=Sing	13	appos	_	SpaceAfter=No
+20	;	;	PUNCT	_	_	4	punct	_	_
 
 # sent_id = train-s8332
 # text = Os investigadores disseram que, em nenhum momento, os passageiros a bordo correram perigo.
@@ -138,30 +138,30 @@
 
 # sent_id = train-s8335
 # text = Guilherme, que já havia sentido dores durante a semana passada, teve que abandonar o jogo ainda antes do intervalo.
-1	Guilherme	_	PROPN	PNOUN	_	15	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	.	_	6	punct	_	_
-3	que	_	PRON	PRON	_	6	nsubj	_	_
-4	já	já	ADV	ADV	_	6	advmod	_	_
-5	havia	haver	AUX	AUX	_	6	aux	_	_
-6	sentido	sentir	VERB	VERB	_	1	acl:relcl	_	_
-7	dores	dor	NOUN	NOUN	_	6	obj	_	_
-8	durante	_	ADP	ADP	_	10	case	_	_
-9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	semana	semana	NOUN	NOUN	_	6	nmod	_	_
-11	passada	passado	ADJ	ADJ	_	10	amod	_	SpaceAfter=No
-12	,	,	PUNCT	.	_	6	punct	_	_
-13	teve	ter	AUX	AUX	_	15	aux	_	_
-14	que	_	ADP	ADP	_	15	mark	_	_
-15	abandonar	abandonar	VERB	VERB	_	0	root	_	_
-16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	jogo	jogo	NOUN	NOUN	_	15	obj	_	_
-18	ainda	ainda	ADV	ADV	_	19	advmod	_	_
-19	antes	antes	ADV	ADV	_	22	case	_	_
+1	Guilherme	Guilherme	PROPN	_	Gender=Masc|Number=Sing	15	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	6	punct	_	_
+3	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	6	nsubj	_	_
+4	já	já	ADV	_	_	6	advmod	_	_
+5	havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	sentido	sentir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl:relcl	_	_
+7	dores	dor	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
+8	durante	durante	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	semana	semana	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+11	passada	passado	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	6	punct	_	_
+13	teve	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux	_	_
+14	que	que	SCONJ	_	_	15	mark	_	_
+15	abandonar	abandonar	VERB	_	VerbForm=Inf	0	root	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	jogo	jogo	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
+18	ainda	ainda	ADV	_	_	19	advmod	_	_
+19	antes	antes	ADV	_	_	15	advmod	_	_
 20-21	do	_	_	_	_	_	_	_	_
-20	de	de	ADP	ADP	_	19	case	_	_
-21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-22	intervalo	intervalo	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
-23	.	.	PUNCT	.	_	15	punct	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	intervalo	intervalo	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = train-s8336
 # text = Parte de sua obra continua inédita.

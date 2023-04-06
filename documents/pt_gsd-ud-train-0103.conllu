@@ -58,29 +58,29 @@
 
 # sent_id = train-s1021
 # text = A guerra foi extremamente sangrenta, massacrou ambas as partes por três anos e acabou sendo vencida pelo Exército Vermelho.
-1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	guerra	guerra	NOUN	NOUN	_	3	nsubj	_	_
-3	foi	_	VERB	VERB	_	0	root	_	_
-4	extremamente	extremamente	ADV	ADV	_	5	advmod	_	_
-5	sangrenta	sangrento	ADJ	ADJ	_	3	xcomp	_	SpaceAfter=No
-6	,	,	PUNCT	.	_	7	punct	_	_
-7	massacrou	massacrar	VERB	VERB	_	3	conj	_	_
-8	ambas	_	DET	DET	_	10	det	_	_
-9	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
-10	partes	_	NOUN	NOUN	_	7	obj	_	_
-11	por	por	ADP	ADP	_	13	case	_	_
-12	três	_	NUM	NUM	NumType=Card	13	nummod	_	_
-13	anos	ano	NOUN	NOUN	_	7	nmod	_	_
-14	e	e	CCONJ	CONJ	_	17	cc	_	_
-15	acabou	acabar	AUX	AUX	_	17	aux	_	_
-16	sendo	ser	AUX	AUX	_	17	aux:pass	_	_
-17	vencida	vencer	VERB	VERB	_	3	conj	_	_
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	guerra	guerra	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	extremamente	extremamente	ADV	_	_	5	advmod	_	_
+5	sangrenta	sangrento	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	massacrou	massacrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+8	ambas	ambos	DET	_	Gender=Fem|Number=Plur|PronType=Tot	10	det	_	_
+9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	partes	parte	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
+11	por	por	ADP	_	_	13	case	_	_
+12	três	três	NUM	_	NumType=Card	13	nummod	_	_
+13	anos	ano	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	acabou	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+16	sendo	ser	AUX	_	VerbForm=Ger	17	aux:pass	_	_
+17	vencida	vencer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	15	xcomp	_	_
 18-19	pelo	_	_	_	_	_	_	_	_
-18	por	por	ADP	ADP	_	20	case	_	_
-19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	Exército	_	PROPN	PNOUN	_	17	nmod	_	_
-21	Vermelho	_	PROPN	PNOUN	_	20	amod	_	SpaceAfter=No
-22	.	.	PUNCT	.	_	3	punct	_	_
+18	por	por	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Exército	Exército	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	17	obl:agent	_	_
+21	Vermelho	Vermelho	PROPN	_	Number=Sing	20	flat:name	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = train-s1022
 # text = Porém, a Gradual mudou a prticipação dalguns papéis: reduziu a participação de Banco do Brasil (BBAS3) e Sul América (SULA11), de 10 % para 5 %, e aumentou a participação de Bematech (BEMA3) e Saraiva (SLED4), ambas passando de 5 % para 10 %.
@@ -282,39 +282,39 @@
 
 # sent_id = train-s1028
 # text = Ela explica que está tentando organizar tudo e que se Áurea ficar mexendo em tudo, ela não saberá onde estão as suas coisas na hora em que ela precisar.
-1	Ela	_	PRON	PRON	_	2	nsubj	_	_
-2	explica	explicar	VERB	VERB	_	0	root	_	_
-3	que	que	CCONJ	CONJ	_	5	mark	_	_
-4	está	estar	AUX	AUX	_	5	aux	_	_
-5	tentando	tentar	VERB	VERB	_	2	ccomp	_	_
-6	organizar	organizar	VERB	VERB	_	5	xcomp	_	_
-7	tudo	_	PRON	PRON	_	6	obj	_	_
-8	e	e	CCONJ	CONJ	_	19	cc	_	_
-9	que	que	CCONJ	CONJ	_	19	mark	_	_
-10	se	_	CCONJ	CONJ	_	13	mark	_	_
-11	Áurea	_	PROPN	PNOUN	_	13	nsubj	_	_
-12	ficar	ficar	AUX	AUX	_	13	aux:pass	_	_
-13	mexendo	mexer	VERB	VERB	_	19	advcl	_	_
-14	em	em	ADP	ADP	_	15	case	_	_
-15	tudo	_	PRON	PRON	_	13	nmod	_	SpaceAfter=No
-16	,	,	PUNCT	.	_	13	punct	_	_
-17	ela	_	PRON	PRON	_	19	nsubj	_	_
-18	não	não	ADV	ADV	Polarity=Neg	19	advmod	_	_
-19	saberá	saber	VERB	VERB	_	5	conj	_	_
-20	onde	onde	ADV	ADV	_	21	advmod	_	_
-21	estão	estar	VERB	VERB	_	19	ccomp	_	_
-22	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
-23	suas	_	DET	DET	_	24	det:poss	_	_
-24	coisas	coisa	NOUN	NOUN	_	21	nsubj	_	_
+1	Ela	ela	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	explica	explicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	5	mark	_	_
+4	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	tentando	tentar	VERB	_	VerbForm=Ger	2	ccomp	_	_
+6	organizar	organizar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	tudo	tudo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	6	obj	_	_
+8	e	e	CCONJ	_	_	19	cc	_	_
+9	que	que	SCONJ	_	_	19	mark	_	_
+10	se	se	SCONJ	_	_	12	mark	_	_
+11	Áurea	Áurea	PROPN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
+12	ficar	ficar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	19	advcl	_	_
+13	mexendo	mexer	VERB	_	VerbForm=Ger	12	xcomp	_	_
+14	em	em	ADP	_	_	15	case	_	_
+15	tudo	tudo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	19	punct	_	_
+17	ela	ela	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+18	não	não	ADV	_	Polarity=Neg	19	advmod	_	_
+19	saberá	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	conj	_	_
+20	onde	onde	ADV	_	_	21	advmod	_	_
+21	estão	estar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
+22	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+23	suas	seu	DET	_	Gender=Fem|Number=Plur|PronType=Prs	24	det	_	_
+24	coisas	coisa	NOUN	_	Gender=Fem|Number=Plur	21	nsubj	_	_
 25-26	na	_	_	_	_	_	_	_	_
-25	em	em	ADP	ADP	_	27	case	_	_
-26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	hora	hora	NOUN	NOUN	_	19	nmod	_	_
-28	em	em	ADP	ADP	_	29	case	_	_
-29	que	_	PRON	PRON	_	31	nmod	_	_
-30	ela	_	PRON	PRON	_	31	nsubj	_	_
-31	precisar	precisar	VERB	VERB	_	27	acl:relcl	_	SpaceAfter=No
-32	.	.	PUNCT	.	_	2	punct	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	hora	hora	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	_
+28	em	em	ADP	_	_	29	case	_	_
+29	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	31	obl	_	_
+30	ela	ela	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
+31	precisar	precisar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	27	acl:relcl	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = train-s1029
 # text = Durante os séculos V e VI d.C. a cidade de Antália cresceu para fora das muralhas.

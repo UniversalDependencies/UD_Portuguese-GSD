@@ -55,31 +55,31 @@
 23	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = train-s6018
-# text = "quando chegar no " chão "não haverá mais chão, continuará caindo em direção ao horizonte."
-1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
-2	quando	_	CCONJ	CONJ	_	3	mark	_	_
-3	chegar	chegar	VERB	VERB	_	10	advcl	_	_
+# text = "quando chegar no "chão" não haverá mais chão, continuará caindo em direção ao horizonte."
+1	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+2	quando	quando	SCONJ	_	_	3	mark	_	_
+3	chegar	chegar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	advcl	_	_
 4-5	no	_	_	_	_	_	_	_	_
-4	em	em	ADP	ADP	_	7	case	_	_
-5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-6	"	"	PUNCT	.	_	7	punct	_	_
-7	chão	chão	NOUN	NOUN	_	3	nmod	_	_
-8	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
-9	não	não	ADV	ADV	Polarity=Neg	10	advmod	_	_
-10	haverá	haver	VERB	VERB	_	0	root	_	_
-11	mais	_	DET	DET	_	12	det	_	_
-12	chão	chão	NOUN	NOUN	_	10	obj	_	SpaceAfter=No
-13	,	,	PUNCT	.	_	15	punct	_	_
-14	continuará	continuar	AUX	AUX	_	15	aux	_	_
-15	caindo	cair	VERB	VERB	_	10	conj	_	_
-16	em	em	ADP	ADP	_	17	case	_	_
-17	direção	direção	NOUN	NOUN	_	15	nmod	_	_
+4	em	em	ADP	_	_	7	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	chão	chão	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	_
+9	não	não	ADV	_	Polarity=Neg	10	advmod	_	_
+10	haverá	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+11	mais	mais	DET	_	Gender=Masc|Number=Sing|PronType=Ind	12	det	_	_
+12	chão	chão	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	continuará	continuar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	conj	_	_
+15	caindo	cair	VERB	_	VerbForm=Ger	14	xcomp	_	_
+16	em	em	ADP	_	_	17	case	_	_
+17	direção	direção	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
 18-19	ao	_	_	_	_	_	_	_	_
-18	a	a	ADP	ADP	_	20	case	_	_
-19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	horizonte	horizonte	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
-21	.	.	PUNCT	.	_	10	punct	_	SpaceAfter=No
-22	"	"	PUNCT	.	_	10	punct	_	_
+18	a	a	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	horizonte	horizonte	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
 
 # sent_id = train-s6019
 # text = Uma nova estação de captação deve ficar pronta em janeiro.

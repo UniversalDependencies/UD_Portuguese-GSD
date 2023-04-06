@@ -62,27 +62,27 @@
 
 # sent_id = train-s4608
 # text = "As pessoas deixam de contribuir, porque passa a ser uma necessidade estar o tempo inteiro aparecendo e trocando.
-1	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
-2	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
-3	pessoas	pessoa	NOUN	NOUN	_	6	nsubj	_	_
-4	deixam	deixar	AUX	AUX	_	6	aux	_	_
-5	de	_	ADP	ADP	_	6	mark	_	_
-6	contribuir	contribuir	VERB	VERB	_	0	root	_	SpaceAfter=No
-7	,	,	PUNCT	.	_	6	punct	_	_
-8	porque	_	CCONJ	CONJ	_	13	mark	_	_
-9	passa	passar	AUX	AUX	_	13	aux	_	_
-10	a	_	ADP	ADP	_	13	mark	_	_
-11	ser	ser	AUX	AUX	_	13	cop	_	_
-12	uma	um	DET	DET	_	13	det	_	_
-13	necessidade	necessidade	NOUN	NOUN	_	6	advcl	_	_
-14	estar	estar	VERB	VERB	_	13	csubj	_	_
-15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	tempo	tempo	NOUN	NOUN	_	14	nmod	_	_
-17	inteiro	inteiro	ADJ	ADJ	_	16	amod	_	_
-18	aparecendo	aparecer	VERB	VERB	_	14	acl	_	_
-19	e	e	CCONJ	CONJ	_	20	cc	_	_
-20	trocando	trocar	VERB	VERB	_	18	conj	_	SpaceAfter=No
-21	.	.	PUNCT	.	_	6	punct	_	_
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
+4	deixam	deixar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	de	de	SCONJ	_	_	6	mark	_	_
+6	contribuir	contribuir	VERB	_	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	porque	porque	SCONJ	_	_	9	mark	_	_
+9	passa	passar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+10	a	a	SCONJ	_	_	13	mark	_	_
+11	ser	ser	AUX	_	VerbForm=Inf	13	cop	_	_
+12	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	necessidade	necessidade	NOUN	_	Gender=Fem|Number=Sing	9	xcomp	_	_
+14	estar	estar	VERB	_	VerbForm=Inf	13	csubj	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
+17	inteiro	inteiro	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
+18	aparecendo	aparecer	VERB	_	VerbForm=Ger	14	advcl	_	_
+19	e	e	CCONJ	_	_	20	cc	_	_
+20	trocando	trocar	VERB	_	VerbForm=Ger	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = train-s4609
 # text = No trabalho, conte com a ajuda dos colegas para alcançar os resultados desejados.

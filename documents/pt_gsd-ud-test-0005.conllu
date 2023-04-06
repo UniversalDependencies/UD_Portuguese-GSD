@@ -215,20 +215,22 @@
 
 # sent_id = test-s45
 # text = O governo precisa se organizar e passar a atuar em função de disso.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	governo	governo	NOUN	NOUN	_	3	nsubj	_	_
-3	precisa	precisar	VERB	VERB	_	0	root	_	_
-4	se	_	PRON	PRON	_	5	obj	_	_
-5	organizar	organizar	VERB	VERB	_	3	xcomp	_	_
-6	e	e	CCONJ	CONJ	_	9	cc	_	_
-7	passar	passar	AUX	AUX	_	9	aux	_	_
-8	a	_	ADP	ADP	_	9	mark	_	_
-9	atuar	atuar	VERB	VERB	_	3	conj	_	_
-10	em	em	ADP	ADP	_	11	case	_	_
-11	função	função	NOUN	NOUN	_	9	nmod	_	_
-12	de	_	ADP	ADP	_	11	dep	_	_
-13	disso	_	X	ADPPRON	_	11	nmod	_	SpaceAfter=No
-14	.	.	PUNCT	.	_	3	punct	_	_
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	governo	governo	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	precisa	precisar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+5	organizar	organizar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	passar	passar	VERB	_	ExtPos=AUX|VerbForm=Inf	5	conj	_	_
+8	a	a	SCONJ	_	_	9	mark	_	_
+9	atuar	atuar	VERB	_	VerbForm=Inf	7	xcomp	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	função	função	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13-14	disso	_	_	_	_	_	_	_	SpaceAfter=No
+13	de	de	ADP	_	_	14	case	_	_
+14	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	11	nmod	_	_
+15	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = test-s46
 # text = Este teorema afirma que as únicas funções que podem ter argumentos dimensionais são produtos de potências das grandezas de base dum determinado sistema de unidades:

@@ -316,7 +316,7 @@
 26	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = dev-s484
-# text = O show da cantora de "Poker Face" e "Bad Romance" na capital paulista acontecerá no estádio do Morumbi no domingo - os ingressos custam de R $ 95 a R $ 750.
+# text = O show da cantora de "Poker Face" e "Bad Romance" na capital paulista acontecerá no estádio do Morumbi no domingo - os ingressos custam de R$ 95 a R$ 750.
 1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	show	show	NOUN	NOUN	_	20	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -356,12 +356,10 @@
 32	ingressos	ingresso	NOUN	NOUN	_	33	nsubj	_	_
 33	custam	custar	VERB	VERB	_	20	parataxis	_	_
 34	de	de	ADP	ADP	_	35	case	_	_
-35	R	r	NOUN	NOUN	_	33	nmod	_	_
-36	$	_	SYM	SYM	_	35	flat	_	_
-37	95	95	NUM	NUM	NumType=Card	35	nummod	_	_
-38	a	_	ADP	ADP	_	39	case	_	_
-39	R	r	NOUN	NOUN	_	33	nmod	_	_
-40	$	_	SYM	SYM	_	39	flat	_	_
-41	750	750	NUM	NUM	NumType=Card	39	nummod	_	SpaceAfter=No
-42	.	.	PUNCT	.	_	20	punct	_	_
+35	R$	reais	NOUN	NOUN	Abbr=Yes	33	nmod	_	_
+36	95	95	NUM	NUM	NumType=Card	35	nummod	_	_
+37	a	_	ADP	ADP	_	38	case	_	_
+38	R$	reais	NOUN	NOUN	Abbr=Yes	33	nmod	_	_
+39	750	750	NUM	NUM	NumType=Card	38	nummod	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	20	punct	_	_
 
