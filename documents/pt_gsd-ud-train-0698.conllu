@@ -280,14 +280,14 @@
 
 # sent_id = train-s6934
 # text = Conquistaram identidade própria: passaram a existir.
-1	Conquistaram	conquistar	VERB	VERB	_	0	root	_	_
-2	identidade	identidade	NOUN	NOUN	_	1	obj	_	_
-3	própria	próprio	ADJ	ADJ	_	2	amod	_	SpaceAfter=No
-4	:	:	PUNCT	.	_	1	punct	_	_
-5	passaram	passar	AUX	AUX	_	7	aux	_	_
-6	a	_	ADP	ADP	_	7	mark	_	_
-7	existir	existir	VERB	VERB	_	1	parataxis	_	SpaceAfter=No
-8	.	.	PUNCT	.	_	1	punct	_	_
+1	Conquistaram	conquistar	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+2	identidade	identidade	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+3	própria	próprio	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	1	punct	_	_
+5	passaram	passar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	parataxis	_	_
+6	a	a	SCONJ	_	_	7	mark	_	_
+7	existir	existir	VERB	_	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = train-s6935
 # text = Os desfalques, no entanto, em nada prejudicaram o clube catalão que, como de praxe, impunha seu toque de bola diante dum fechado Spartak Moscou.

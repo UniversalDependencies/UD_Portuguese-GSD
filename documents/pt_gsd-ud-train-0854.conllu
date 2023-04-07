@@ -181,19 +181,19 @@
 
 # sent_id = train-s8484
 # text = Por casamento, o forte passou a pertencer a Thimoléon de Cossé.
-1	Por	_	ADP	ADP	_	2	case	_	_
-2	casamento	casamento	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-3	,	,	PUNCT	.	_	2	punct	_	_
-4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	forte	forte	NOUN	NOUN	_	8	nsubj	_	_
-6	passou	passar	AUX	AUX	_	8	aux	_	_
-7	a	_	ADP	ADP	_	8	mark	_	_
-8	pertencer	pertencer	VERB	VERB	_	0	root	_	_
-9	a	_	ADP	ADP	_	10	case	_	_
-10	Thimoléon	_	PROPN	PNOUN	_	8	iobj	_	_
-11	de	de	ADP	ADP	_	12	case	_	_
-12	Cossé	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
-13	.	.	PUNCT	.	_	8	punct	_	_
+1	Por	por	ADP	_	_	2	case	_	_
+2	casamento	casamento	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	forte	forte	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	passou	passar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	a	a	SCONJ	_	_	8	mark	_	_
+8	pertencer	pertencer	VERB	_	VerbForm=Inf	6	xcomp	_	_
+9	a	a	ADP	_	_	10	case	_	_
+10	Thimoléon	Thimoléon	PROPN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	Cossé	Cossé	PROPN	_	Number=Sing	10	flat:name	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
 # sent_id = train-s8485
 # text = Jéssica se arrumará para ir até a boate.
