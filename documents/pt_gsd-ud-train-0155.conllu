@@ -169,53 +169,53 @@
 15	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = train-s1547
-# text = Macy Gray (Nasceu Natalie Renee McIntyre em Canton, Ohio, 6 de setembro de 1967) é uma cantora e atriz estadunidense.
-1	Macy	_	PROPN	PNOUN	_	21	nsubj	_	_
-2	Gray	_	PROPN	PNOUN	_	1	flat	_	_
-3	(	(	PUNCT	.	_	5	punct	_	SpaceAfter=No
-4	Nasceu	nascer	AUX	AUX	_	5	cop	_	_
-5	Natalie	_	PROPN	PNOUN	_	1	parataxis	_	_
-6	Renee	_	PROPN	PNOUN	_	5	flat	_	_
-7	McIntyre	_	PROPN	PNOUN	_	5	flat	_	_
-8	em	em	ADP	ADP	_	9	case	_	_
-9	Canton	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
-10	,	,	PUNCT	.	_	11	punct	_	_
-11	Ohio	_	PROPN	PNOUN	_	9	appos	_	SpaceAfter=No
-12	,	,	PUNCT	.	_	13	punct	_	_
-13	6	6	NUM	NUM	NumType=Card	5	nmod	_	_
-14	de	de	ADP	ADP	_	15	case	_	_
-15	setembro	_	PROPN	PNOUN	_	13	nmod	_	_
-16	de	de	ADP	ADP	_	17	case	_	_
-17	1967	1967	NUM	NUM	NumType=Card	15	nmod	_	SpaceAfter=No
-18	)	)	PUNCT	.	_	5	punct	_	_
-19	é	ser	AUX	AUX	_	21	cop	_	_
-20	uma	um	DET	DET	_	21	det	_	_
-21	cantora	cantor	NOUN	NOUN	_	0	root	_	_
-22	e	e	CCONJ	CONJ	_	23	cc	_	_
-23	atriz	_	NOUN	NOUN	_	21	conj	_	_
-24	estadunidense	estadunidense	ADJ	ADJ	_	21	amod	_	SpaceAfter=No
-25	.	.	PUNCT	.	_	21	punct	_	_
+# text = Macy Gray (nasceu Natalie Renee McIntyre em Canton, Ohio, 6 de setembro de 1967) é uma cantora e atriz estadunidense.
+1	Macy	Macy	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	21	nsubj	_	_
+2	Gray	Gray	PROPN	_	Number=Sing	1	flat:name	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	nasceu	nascer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	parataxis	_	_
+5	Natalie	Natalie	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	4	obj	_	_
+6	Renee	Renee	PROPN	_	Number=Sing	5	flat:name	_	_
+7	McIntyre	McIntyre	PROPN	_	Number=Sing	5	flat:name	_	_
+8	em	em	ADP	_	_	9	case	_	_
+9	Canton	Canton	PROPN	_	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	Ohio	Ohio	PROPN	_	Gender=Masc|Number=Sing	9	appos	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	6	6	NUM	_	NumType=Card	4	obl	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	setembro	setembro	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	1967	1967	NUM	_	NumType=Card	15	nmod	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	4	punct	_	_
+19	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+20	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	cantora	cantora	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	atriz	atriz	NOUN	_	Gender=Fem|Number=Sing	21	conj	_	_
+24	estadunidense	estadunidense	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	21	punct	_	_
 
 # sent_id = train-s1548
 # text = Com isso, João de Lucca passa a fazer parte da delegação brasileira nos Jogos.
-1	Com	_	ADP	ADP	_	2	case	_	_
-2	isso	_	PRON	PRON	_	9	nmod	_	SpaceAfter=No
-3	,	,	PUNCT	.	_	2	punct	_	_
-4	João	_	PROPN	PNOUN	_	9	nsubj	_	_
-5	de	de	ADP	ADP	_	6	case	_	_
-6	Lucca	_	PROPN	PNOUN	_	4	nmod	_	_
-7	passa	passar	AUX	AUX	_	9	aux	_	_
-8	a	_	ADP	ADP	_	9	mark	_	_
-9	fazer	fazer	VERB	VERB	_	0	root	_	_
-10	parte	parte	NOUN	NOUN	_	9	obj	_	_
+1	Com	com	ADP	_	_	2	case	_	_
+2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	João	João	PROPN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Lucca	Lucca	PROPN	_	Number=Sing	4	flat:name	_	_
+7	passa	passar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	a	a	SCONJ	_	_	9	mark	_	_
+9	fazer	fazer	VERB	_	VerbForm=Inf	7	xcomp	_	_
+10	parte	parte	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
 11-12	da	_	_	_	_	_	_	_	_
-11	de	de	ADP	ADP	_	13	case	_	_
-12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	delegação	delegação	NOUN	NOUN	_	10	nmod	_	_
-14	brasileira	brasileiro	ADJ	ADJ	_	13	amod	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	delegação	delegação	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+14	brasileira	brasileiro	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
 15-16	nos	_	_	_	_	_	_	_	_
-15	em	em	ADP	ADP	_	17	case	_	_
-16	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
-17	Jogos	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
-18	.	.	PUNCT	.	_	9	punct	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	Jogos	Jogos	PROPN	_	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	9	punct	_	_
 

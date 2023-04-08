@@ -82,37 +82,37 @@
 53	.	.	PUNCT	.	_	52	punct	_	_
 
 # sent_id = dev-s53
-# text = A partir de 2008, a parcela do governo federal foi dividida com as centrais, que passaram a embolsar 10 % do total arrecadado.
-1	A	_	ADP	ADP	_	2	case	_	_
-2	partir	partir	VERB	VERB	_	13	nmod	_	_
-3	de	de	ADP	ADP	_	4	case	_	_
-4	2008	2008	NUM	NUM	NumType=Card	2	nmod	_	SpaceAfter=No
-5	,	,	PUNCT	.	_	2	punct	_	_
-6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	parcela	parcela	NOUN	NOUN	_	13	nsubj:pass	_	_
+# text = A partir de 2008, a parcela do governo federal foi dividida com as centrais, que passaram a embolsar 10% do total arrecadado.
+1	A	a	ADP	_	ExtPos=ADP	4	case	_	_
+2	partir	partir	NOUN	_	_	1	fixed	_	_
+3	de	de	ADP	_	_	1	fixed	_	_
+4	2008	2008	NUM	_	NumType=Card	13	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	parcela	parcela	NOUN	_	Gender=Fem|Number=Sing	13	nsubj:pass	_	_
 8-9	do	_	_	_	_	_	_	_	_
-8	de	de	ADP	ADP	_	10	case	_	_
-9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	governo	governo	NOUN	NOUN	_	7	nmod	_	_
-11	federal	federal	ADJ	ADJ	_	10	amod	_	_
-12	foi	_	AUX	AUX	_	13	aux:pass	_	_
-13	dividida	dividir	VERB	VERB	_	0	root	_	_
-14	com	com	ADP	ADP	_	16	case	_	_
-15	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
-16	centrais	central	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
-17	,	,	PUNCT	.	_	16	punct	_	_
-18	que	_	PRON	PRON	_	21	nsubj	_	_
-19	passaram	passar	AUX	AUX	_	21	aux	_	_
-20	a	_	ADP	ADP	_	21	mark	_	_
-21	embolsar	embolsar	VERB	VERB	_	16	acl:relcl	_	_
-22	10	10	NUM	NUM	NumType=Card	23	nummod	_	_
-23	%	_	SYM	SYM	_	21	obj	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	governo	governo	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11	federal	federal	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
+12	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
+13	dividida	dividir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+14	com	com	ADP	_	_	16	case	_	_
+15	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	centrais	central	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	19	nsubj	_	_
+19	passaram	passar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	acl:relcl	_	_
+20	a	a	SCONJ	_	_	21	mark	_	_
+21	embolsar	embolsar	VERB	_	VerbForm=Inf	19	xcomp	_	_
+22	10	10	NUM	_	NumType=Card	23	nummod	_	SpaceAfter=No
+23	%	%	SYM	_	_	21	obj	_	_
 24-25	do	_	_	_	_	_	_	_	_
-24	de	de	ADP	ADP	_	26	case	_	_
-25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	total	total	NOUN	NOUN	_	23	nmod	_	_
-27	arrecadado	arrecadar	VERB	VERB	_	26	acl	_	SpaceAfter=No
-28	.	.	PUNCT	.	_	13	punct	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	total	total	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+27	arrecadado	arrecadar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	26	acl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = dev-s54
 # text = Depois do depoimento de Reimão, a juíza Ludmila Lins da Silva está tomando um novo depoimento dos quatro réus, que podem ser levados a júri popular.
