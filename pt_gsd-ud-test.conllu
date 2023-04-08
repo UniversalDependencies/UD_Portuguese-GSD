@@ -19648,35 +19648,35 @@
 
 # sent_id = test-s633
 # text = Caso, posteriormente, obtenha decisão favorável do TSE, os votos passam a ser contatos e podem alterar o resultado da disputa eleitoral.
-1	Caso	_	CCONJ	CONJ	_	5	mark	_	SpaceAfter=No
-2	,	,	PUNCT	.	_	3	punct	_	_
-3	posteriormente	posteriormente	ADV	ADV	_	5	advmod	_	SpaceAfter=No
-4	,	,	PUNCT	.	_	3	punct	_	_
-5	obtenha	obter	VERB	VERB	_	17	advcl	_	_
-6	decisão	decisão	NOUN	NOUN	_	5	obj	_	_
-7	favorável	favorável	ADJ	ADJ	_	6	amod	_	_
+1	Caso	caso	SCONJ	_	_	5	mark	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	posteriormente	posteriormente	ADV	_	_	5	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	obtenha	obter	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+6	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+7	favorável	favorável	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
 8-9	do	_	_	_	_	_	_	_	_
-8	de	de	ADP	ADP	_	10	case	_	_
-9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	TSE	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
-11	,	,	PUNCT	.	_	5	punct	_	_
-12	os	o	DET	DET	_	13	det	_	_
-13	votos	voto	NOUN	NOUN	_	17	nsubj:pass	_	_
-14	passam	passar	AUX	AUX	_	17	aux	_	_
-15	a	_	ADP	ADP	_	17	mark	_	_
-16	ser	ser	AUX	AUX	_	17	aux:pass	_	_
-17	contatos	_	VERB	VERB	_	0	root	_	_
-18	e	e	CCONJ	CONJ	_	20	cc	_	_
-19	podem	_	AUX	AUX	_	20	aux	_	_
-20	alterar	alterar	VERB	VERB	_	17	conj	_	_
-21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-22	resultado	resultado	NOUN	NOUN	_	20	obj	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	TSE	TSE	PROPN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	5	punct	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	votos	voto	NOUN	_	Gender=Masc|Number=Plur	14	nsubj:pass	_	_
+14	passam	passar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	a	a	SCONJ	_	_	17	mark	_	_
+16	ser	ser	AUX	_	VerbForm=Inf	17	aux:pass	_	_
+17	contatos	contato	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	14	xcomp	_	_
+18	e	e	CCONJ	_	_	19	cc	_	_
+19	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+20	alterar	alterar	VERB	_	VerbForm=Inf	19	xcomp	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
 23-24	da	_	_	_	_	_	_	_	_
-23	de	de	ADP	ADP	_	25	case	_	_
-24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-25	disputa	disputa	NOUN	NOUN	_	22	nmod	_	_
-26	eleitoral	eleitoral	ADJ	ADJ	_	25	amod	_	SpaceAfter=No
-27	.	.	PUNCT	.	_	17	punct	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	disputa	disputa	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
+26	eleitoral	eleitoral	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = test-s634
 # text = 1998 QA100 (asteróide 74159) é um asteróide da cintura principal, a 2,5838462 UA.
@@ -36618,32 +36618,32 @@
 
 # sent_id = test-s1181
 # text = Em 2009, foi criado o Grêmio Mangaratibense, que passou a disputar o Campeonato Estadual da Terceira Divisão de Profissionais em 2010.
-1	Em	em	ADP	ADP	_	2	case	_	_
-2	2009	2009	NUM	NUM	NumType=Card	5	nmod	_	SpaceAfter=No
-3	,	,	PUNCT	.	_	2	punct	_	_
-4	foi	_	AUX	AUX	_	5	aux:pass	_	_
-5	criado	criar	VERB	VERB	_	0	root	_	_
-6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	Grêmio	_	PROPN	PNOUN	_	5	nsubj:pass	_	_
-8	Mangaratibense	_	PROPN	PNOUN	_	7	amod	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	13	punct	_	_
-10	que	_	PRON	PRON	_	13	nsubj	_	_
-11	passou	passar	AUX	AUX	_	13	aux	_	_
-12	a	_	ADP	ADP	_	13	mark	_	_
-13	disputar	disputar	VERB	VERB	_	7	acl:relcl	_	_
-14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	Campeonato	_	PROPN	PNOUN	_	13	obj	_	_
-16	Estadual	_	PROPN	PNOUN	_	15	amod	_	_
+1	Em	em	ADP	_	_	2	case	_	_
+2	2009	2009	NUM	_	NumType=Card	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	criado	criar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Grêmio	Grêmio	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+8	Mangaratibense	Mangaratibense	PROPN	_	Number=Sing	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	11	nsubj	_	_
+11	passou	passar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+12	a	a	SCONJ	_	_	13	mark	_	_
+13	disputar	disputar	VERB	_	VerbForm=Inf	11	xcomp	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Campeonato	Campeonato	PROPN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16	Estadual	Estadual	PROPN	_	Number=Sing	15	flat:name	_	_
 17-18	da	_	_	_	_	_	_	_	_
-17	de	de	ADP	ADP	_	20	case	_	_
-18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-19	Terceira	_	PROPN	PNOUN	_	20	amod	_	_
-20	Divisão	_	PROPN	PNOUN	_	15	nmod	_	_
-21	de	de	ADP	ADP	_	22	case	_	_
-22	Profissionais	_	PROPN	PNOUN	_	20	nmod	_	_
-23	em	em	ADP	ADP	_	24	case	_	_
-24	2010	2010	NUM	NUM	NumType=Card	13	nmod	_	SpaceAfter=No
-25	.	.	PUNCT	.	_	5	punct	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Terceira	Terceira	PROPN	_	ExtPos=PROPN|Number=Sing	15	nmod	_	_
+20	Divisão	Divisão	PROPN	_	Number=Sing	19	flat:name	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	Profissionais	Profissionais	PROPN	_	Number=Sing	19	nmod	_	_
+23	em	em	ADP	_	_	24	case	_	_
+24	2010	2010	NUM	_	NumType=Card	11	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = test-s1182
 # text = A mãe afirmou que, após a recuperação de João, pretende voltar com as campanhas e criar uma ONG.
