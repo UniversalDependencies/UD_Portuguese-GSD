@@ -7054,21 +7054,21 @@
 
 # sent_id = test-s223
 # text = Comprava remédios e sprays para afugentar as moscas, mas meu gado continuava morrendo.
-1	Comprava	comprar	VERB	VERB	_	0	root	_	_
-2	remédios	remédio	NOUN	NOUN	_	1	obj	_	_
-3	e	e	CCONJ	CONJ	_	4	cc	_	_
-4	sprays	spray	NOUN	NOUN	_	2	conj	_	_
-5	para	_	ADP	ADP	_	6	mark	_	_
-6	afugentar	afugentar	VERB	VERB	_	1	advcl	_	_
-7	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
-8	moscas	_	NOUN	NOUN	_	6	obj	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	14	punct	_	_
-10	mas	mas	CCONJ	CONJ	_	14	cc	_	_
-11	meu	_	DET	DET	_	12	det:poss	_	_
-12	gado	gado	NOUN	NOUN	_	14	nsubj	_	_
-13	continuava	continuar	AUX	AUX	_	14	aux	_	_
-14	morrendo	morrer	VERB	VERB	_	1	conj	_	SpaceAfter=No
-15	.	.	PUNCT	.	_	1	punct	_	_
+1	Comprava	comprar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	remédios	remédio	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
+3	e	e	CCONJ	_	_	4	cc	_	_
+4	sprays	spray	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	_
+5	para	para	SCONJ	_	_	6	mark	_	_
+6	afugentar	afugentar	VERB	_	VerbForm=Inf	1	advcl	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	moscas	mosca	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	13	punct	_	_
+10	mas	mas	CCONJ	_	_	13	cc	_	_
+11	meu	meu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	12	det	_	_
+12	gado	gado	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+13	continuava	continuar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+14	morrendo	morrer	VERB	_	VerbForm=Ger	13	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = test-s224
 # text = Atualmente, para o setor, Vadão conta somente com Felipe Azevedo e Gilsinho, uma vez que as situações de Gilberto e Henrique seguem indefinidas.
@@ -11903,40 +11903,40 @@
 
 # sent_id = test-s389
 # text = "É preciso ter um padrão mínimo de qualidade e as instituições que não evoluíram para o nível mínimo satisfatório, não podem simplesmente continuar abrindo vagas como se nada tivesse acontecido".
-1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
-2	É	ser	VERB	VERB	_	0	root	_	_
-3	preciso	preciso	ADJ	ADJ	_	2	xcomp	_	_
-4	ter	ter	VERB	VERB	_	2	csubj	_	_
-5	um	um	DET	DET	_	6	det	_	_
-6	padrão	padrão	NOUN	NOUN	_	4	obj	_	_
-7	mínimo	mínimo	ADJ	ADJ	_	6	amod	_	_
-8	de	de	ADP	ADP	_	9	case	_	_
-9	qualidade	qualidade	NOUN	NOUN	_	6	nmod	_	_
-10	e	e	CCONJ	CONJ	_	26	cc	_	_
-11	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
-12	instituições	instituição	NOUN	NOUN	_	26	nsubj	_	_
-13	que	_	PRON	PRON	_	15	nsubj	_	_
-14	não	não	ADV	ADV	Polarity=Neg	15	advmod	_	_
-15	evoluíram	evoluir	VERB	VERB	_	12	acl:relcl	_	_
-16	para	para	ADP	ADP	_	18	case	_	_
-17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	nível	nível	NOUN	NOUN	_	15	nmod	_	_
-19	mínimo	mínimo	ADJ	ADJ	_	18	amod	_	_
-20	satisfatório	satisfatório	ADJ	ADJ	_	18	amod	_	SpaceAfter=No
-21	,	,	PUNCT	.	_	26	punct	_	_
-22	não	não	ADV	ADV	Polarity=Neg	26	advmod	_	_
-23	podem	_	AUX	AUX	_	26	aux	_	_
-24	simplesmente	simplesmente	ADV	ADV	_	26	advmod	_	_
-25	continuar	continuar	AUX	AUX	_	26	aux	_	_
-26	abrindo	abrir	VERB	VERB	_	2	conj	_	_
-27	vagas	vaga	NOUN	NOUN	_	26	obj	_	_
-28	como	_	CCONJ	CONJ	_	32	mark	_	_
-29	se	_	CCONJ	CONJ	_	28	fixed	_	_
-30	nada	_	PRON	PRON	_	32	nsubj	_	_
-31	tivesse	ter	AUX	AUX	_	32	aux	_	_
-32	acontecido	acontecer	VERB	VERB	_	26	advcl	_	SpaceAfter=No
-33	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
-34	.	.	PUNCT	.	_	2	punct	_	_
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	preciso	preciso	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+4	ter	ter	VERB	_	VerbForm=Inf	3	csubj	_	_
+5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	padrão	padrão	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	mínimo	mínimo	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	qualidade	qualidade	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+10	e	e	CCONJ	_	_	23	cc	_	_
+11	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	instituições	instituição	NOUN	_	Gender=Fem|Number=Plur	23	nsubj	_	_
+13	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	15	nsubj	_	_
+14	não	não	ADV	_	Polarity=Neg	15	advmod	_	_
+15	evoluíram	evoluir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	acl:relcl	_	_
+16	para	para	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	nível	nível	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+19	mínimo	mínimo	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
+20	satisfatório	satisfatório	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	15	punct	_	_
+22	não	não	ADV	_	Polarity=Neg	23	advmod	_	_
+23	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+24	simplesmente	simplesmente	ADV	_	_	26	advmod	_	_
+25	continuar	continuar	VERB	_	VerbForm=Inf	23	xcomp	_	_
+26	abrindo	abrir	VERB	_	VerbForm=Ger	25	xcomp	_	_
+27	vagas	vaga	NOUN	_	Gender=Fem|Number=Plur	26	obj	_	_
+28	como	como	SCONJ	_	_	32	mark	_	_
+29	se	se	SCONJ	_	_	28	fixed	_	_
+30	nada	nada	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	32	nsubj	_	_
+31	tivesse	ter	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	aux	_	_
+32	acontecido	acontecer	VERB	_	VerbForm=Part	26	advcl	_	SpaceAfter=No
+33	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = test-s390
 # text = "Não vislumbramos nenhum instrumento que socorra a Petrobras senão o aumento."
@@ -12091,36 +12091,36 @@
 
 # sent_id = test-s396
 # text = As qualidades imbatíveis do PPO HyperChannel quanto à função, velocidade e precisão permitiram as amplas aplicações de uso e continuarão a provocar mais inovações.
-1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
-2	qualidades	qualidade	NOUN	NOUN	_	16	nsubj	_	_
-3	imbatíveis	imbatível	ADJ	ADJ	_	2	amod	_	_
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	qualidades	qualidade	NOUN	_	Gender=Fem|Number=Plur	16	nsubj	_	_
+3	imbatíveis	imbatível	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
 4-5	do	_	_	_	_	_	_	_	_
-4	de	de	ADP	ADP	_	6	case	_	_
-5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	PPO	_	PROPN	PNOUN	_	2	nmod	_	_
-7	HyperChannel	_	PROPN	PNOUN	_	6	flat	_	_
-8	quanto	quanto	ADV	ADV	_	2	advmod	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	PPO	PPO	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	2	nmod	_	_
+7	HyperChannel	HyperCHannel	PROPN	_	Number=Sing	6	flat:name	_	_
+8	quanto	quanto	ADV	_	_	2	advmod	_	_
 9-10	à	_	_	_	_	_	_	_	_
-9	a	a	ADP	ADP	_	11	case	_	_
-10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	função	função	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-12	,	,	PUNCT	.	_	13	punct	_	_
-13	velocidade	velocidade	NOUN	NOUN	_	11	conj	_	_
-14	e	e	CCONJ	CONJ	_	15	cc	_	_
-15	precisão	precisão	NOUN	NOUN	_	11	conj	_	_
-16	permitiram	permitir	VERB	VERB	_	0	root	_	_
-17	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
-18	amplas	amplo	ADJ	ADJ	_	19	amod	_	_
-19	aplicações	aplicação	NOUN	NOUN	_	16	obj	_	_
-20	de	de	ADP	ADP	_	21	case	_	_
-21	uso	uso	NOUN	NOUN	_	19	nmod	_	_
-22	e	e	CCONJ	CONJ	_	25	cc	_	_
-23	continuarão	continuar	AUX	AUX	_	25	aux	_	_
-24	a	_	ADP	ADP	_	25	mark	_	_
-25	provocar	provocar	VERB	VERB	_	16	conj	_	_
-26	mais	_	DET	DET	_	27	det	_	_
-27	inovações	inovação	NOUN	NOUN	_	25	obj	_	SpaceAfter=No
-28	.	.	PUNCT	.	_	16	punct	_	_
+9	a	a	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	função	função	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	velocidade	velocidade	NOUN	_	Gender=Fem|Number=Sing	11	conj	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	precisão	precisão	NOUN	_	Gender=Fem|Number=Sing	11	conj	_	_
+16	permitiram	permitir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+18	amplas	amplo	ADJ	_	Gender=Fem|Number=Plur	19	amod	_	_
+19	aplicações	aplicação	NOUN	_	Gender=Fem|Number=Plur	16	obj	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	uso	uso	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	continuarão	continuar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	16	conj	_	_
+24	a	a	SCONJ	_	_	25	mark	_	_
+25	provocar	provocar	VERB	_	VerbForm=Inf	23	xcomp	_	_
+26	mais	mais	DET	_	Gender=Fem|Number=Plur|PronType=Ind	27	det	_	_
+27	inovações	inovação	NOUN	_	Gender=Fem|Number=Plur	25	obj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
 
 # sent_id = test-s397
 # text = Estamos tristes, são pessoas que, acima de tudo, nos ajudaram muito.
@@ -35647,13 +35647,13 @@
 
 # sent_id = test-s1141
 # text = A gente tem que continuar trabalhando.
-1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	gente	gente	NOUN	NOUN	_	6	nsubj	_	_
-3	tem	ter	AUX	AUX	_	6	aux	_	_
-4	que	que	CCONJ	CONJ	_	6	mark	_	_
-5	continuar	continuar	AUX	AUX	_	6	aux	_	_
-6	trabalhando	trabalhar	VERB	VERB	_	0	root	_	SpaceAfter=No
-7	.	.	PUNCT	.	_	6	punct	_	_
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	gente	gente	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	tem	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	que	que	SCONJ	_	_	5	mark	_	_
+5	continuar	continuar	VERB	_	VerbForm=Inf	0	root	_	_
+6	trabalhando	trabalhar	VERB	_	VerbForm=Ger	5	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
 # sent_id = test-s1142
 # text = Ainda assim, oito dos 12 candidatos terminaram a faculdade -- em 2008, nove dos 11 pleiteantes a prefeito era graduado em 3 ° grau.

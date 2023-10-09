@@ -19,40 +19,40 @@
 
 # sent_id = dev-s42
 # text = Ministro afirma que já esperava "incompreensões" pelo fato de ter absolvido o petista João Paulo Cunha.
-1	Ministro	ministro	NOUN	NOUN	_	2	nsubj	_	_
-2	afirma	afirmar	VERB	VERB	_	0	root	_	_
-3	que	que	CCONJ	CONJ	_	5	mark	_	_
-4	já	já	ADV	ADV	_	5	advmod	_	_
-5	esperava	esperar	VERB	VERB	_	2	ccomp	_	_
-6	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
-7	incompreensões	incompreensão	NOUN	NOUN	_	5	obj	_	SpaceAfter=No
-8	"	"	PUNCT	.	_	7	punct	_	_
+1	Ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	afirma	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	5	mark	_	_
+4	já	já	ADV	_	_	5	advmod	_	_
+5	esperava	esperar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	incompreensões	incompreensão	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	_
 9-10	pelo	_	_	_	_	_	_	_	_
-9	por	por	ADP	ADP	_	14	case	_	_
-10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-11	fato	fato	NOUN	NOUN	_	9	fixed	_	_
-12	de	_	ADP	ADP	_	9	fixed	_	_
-13	ter	ter	AUX	AUX	_	14	aux	_	_
-14	absolvido	absolver	VERB	VERB	_	5	advcl	_	_
-15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	petista	petista	NOUN	NOUN	_	14	obj	_	_
-17	João	_	PROPN	PNOUN	_	16	appos	_	_
-18	Paulo	_	PROPN	PNOUN	_	17	flat	_	_
-19	Cunha	_	PROPN	PNOUN	_	17	flat	_	SpaceAfter=No
-20	.	.	PUNCT	.	_	2	punct	_	_
+9	por	por	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	fato	fato	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+12	de	de	SCONJ	_	_	14	mark	_	_
+13	ter	ter	AUX	_	VerbForm=Inf	14	aux	_	_
+14	absolvido	absolver	VERB	_	VerbForm=Part	11	acl	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	petista	petista	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+17	João	João	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	16	appos	_	_
+18	Paulo	Paulo	PROPN	_	Number=Sing	17	flat:name	_	_
+19	Cunha	Cunha	PROPN	_	Number=Sing	17	flat:name	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = dev-s43
 # text = Sob a camisa, a barriga começava a despontar.
-1	Sob	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	camisa	camisa	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
-4	,	,	PUNCT	.	_	3	punct	_	_
-5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	barriga	barriga	NOUN	NOUN	_	9	nsubj	_	_
-7	começava	começar	AUX	AUX	_	9	aux	_	_
-8	a	_	ADP	ADP	_	9	mark	_	_
-9	despontar	despontar	VERB	VERB	_	0	root	_	SpaceAfter=No
-10	.	.	PUNCT	.	_	9	punct	_	_
+1	Sob	sob	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	camisa	camisa	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	barriga	barriga	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+7	começava	começar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+8	a	a	SCONJ	_	_	9	mark	_	_
+9	despontar	despontar	VERB	_	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
 # sent_id = dev-s44
 # text = A ideia é de que todos desliguem seus celulares.
@@ -243,29 +243,29 @@
 # sent_id = dev-s50
 # text = No entanto, o número de pessoas que passaram a integrar a força de trabalho aumentou em proporção maior (691 mil).
 1-2	No	_	_	_	_	_	_	_	_
-1	Em	em	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	entanto	entanto	ADV	ADV	_	17	nmod	_	SpaceAfter=No
-4	,	,	PUNCT	.	_	3	punct	_	_
-5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	número	número	NOUN	NOUN	_	17	nsubj	_	_
-7	de	de	ADP	ADP	_	8	case	_	_
-8	pessoas	pessoa	NOUN	NOUN	_	6	nmod	_	_
-9	que	_	PRON	PRON	_	12	nsubj	_	_
-10	passaram	passar	AUX	AUX	_	12	aux	_	_
-11	a	_	ADP	ADP	_	12	mark	_	_
-12	integrar	integrar	VERB	VERB	_	8	acl:relcl	_	_
-13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	força	força	NOUN	NOUN	_	12	obj	_	_
-15	de	de	ADP	ADP	_	16	case	_	_
-16	trabalho	trabalho	NOUN	NOUN	_	14	nmod	_	_
-17	aumentou	aumentar	VERB	VERB	_	0	root	_	_
-18	em	em	ADP	ADP	_	19	case	_	_
-19	proporção	proporção	NOUN	NOUN	_	17	nmod	_	_
-20	maior	maior	ADJ	ADJ	_	19	amod	_	_
-21	(	(	PUNCT	.	_	23	punct	_	SpaceAfter=No
-22	691	691	NUM	NUM	NumType=Card	23	nummod	_	_
-23	mil	_	NUM	NUM	NumType=Card	6	appos	_	SpaceAfter=No
-24	)	)	PUNCT	.	_	23	punct	_	SpaceAfter=No
-25	.	.	PUNCT	.	_	17	punct	_	_
+1	Em	em	ADP	_	ExtPos=CCONJ	17	cc	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
+3	entanto	entanto	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	número	número	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
+9	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	10	nsubj	_	_
+10	passaram	passar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
+11	a	a	SCONJ	_	_	12	mark	_	_
+12	integrar	integrar	VERB	_	VerbForm=Inf	10	xcomp	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	força	força	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+17	aumentou	aumentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+18	em	em	ADP	_	_	19	case	_	_
+19	proporção	proporção	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+20	maior	maior	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	691	691	NUM	_	NumType=Card	19	appos	_	_
+23	mil	mil	NUM	_	NumType=Card	22	flat	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
 
