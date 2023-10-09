@@ -1,0 +1,238 @@
+# sent_id = test-s1145
+# text = "Decidimos vender nossas ações remanescentes porque nosso investimento não era mais de natureza estratégica", completa, dizendo ter confiança no futuro da holding.
+1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
+2	Decidimos	decidir	VERB	VERB	_	18	ccomp	_	_
+3	vender	vender	VERB	VERB	_	2	xcomp	_	_
+4	nossas	_	DET	DET	_	5	det:poss	_	_
+5	ações	ação	NOUN	NOUN	_	3	obj	_	_
+6	remanescentes	remanescente	ADJ	ADJ	_	5	amod	_	_
+7	porque	_	CCONJ	CONJ	_	11	mark	_	_
+8	nosso	_	DET	DET	_	9	det	_	_
+9	investimento	investimento	NOUN	NOUN	_	11	nsubj	_	_
+10	não	não	ADV	ADV	Polarity=Neg	11	advmod	_	_
+11	era	_	VERB	VERB	_	2	advcl	_	_
+12	mais	mais	ADV	ADV	_	11	advmod	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
+14	natureza	natureza	NOUN	NOUN	_	11	nmod	_	_
+15	estratégica	estratégico	ADJ	ADJ	_	14	amod	_	SpaceAfter=No
+16	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
+17	,	,	PUNCT	.	_	18	punct	_	_
+18	completa	completar	VERB	VERB	_	0	root	_	SpaceAfter=No
+19	,	,	PUNCT	.	_	20	punct	_	_
+20	dizendo	dizer	VERB	VERB	_	18	acl	_	_
+21	ter	ter	VERB	VERB	_	20	xcomp	_	_
+22	confiança	confiança	NOUN	NOUN	_	21	obj	_	_
+23-24	no	_	_	_	_	_	_	_	_
+23	em	em	ADP	ADP	_	25	case	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	futuro	futuro	NOUN	NOUN	_	22	nmod	_	_
+26-27	da	_	_	_	_	_	_	_	_
+26	de	de	ADP	ADP	_	28	case	_	_
+27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	holding	holding	NOUN	NOUN	_	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = test-s1146
+# text = "A cidade precisa duma reflexão mais profunda sobre os seus problemas.
+1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
+2	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	cidade	cidade	NOUN	NOUN	_	4	nsubj	_	_
+4	precisa	precisar	VERB	VERB	_	0	root	_	_
+5-6	duma	_	_	_	_	_	_	_	_
+5	de	de	ADP	ADP	_	7	case	_	_
+6	uma	um	DET	DET	_	7	det	_	_
+7	reflexão	reflexão	NOUN	NOUN	_	4	nmod	_	_
+8	mais	mais	ADV	ADV	_	9	advmod	_	_
+9	profunda	profundo	ADJ	ADJ	_	7	amod	_	_
+10	sobre	_	ADP	ADP	_	13	case	_	_
+11	os	o	DET	DET	_	13	det	_	_
+12	seus	_	DET	DET	_	13	det:poss	_	_
+13	problemas	problema	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = test-s1147
+# text = Na altura, a conversa durou duas horas e já tinha sido positiva.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	ADP	_	3	case	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	altura	altura	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	conversa	_	NOUN	NOUN	_	7	nsubj	_	_
+7	durou	durar	VERB	VERB	_	0	root	_	_
+8	duas	_	NUM	NUM	NumType=Card	9	nummod	_	_
+9	horas	hora	NOUN	NOUN	_	7	nmod	_	_
+10	e	e	CCONJ	CONJ	_	13	cc	_	_
+11	já	já	ADV	ADV	_	13	advmod	_	_
+12	tinha	ter	AUX	AUX	_	13	aux	_	_
+13	sido	ser	VERB	VERB	_	7	conj	_	_
+14	positiva	positivo	ADJ	ADJ	_	13	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = test-s1148
+# text = A data de sua visita à Síria será determinada uma vez que os detalhes finais forem acertados, segundo Fawzi.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	data	data	NOUN	NOUN	_	10	nsubj:pass	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	sua	_	DET	DET	_	5	det:poss	_	_
+5	visita	visita	NOUN	NOUN	_	2	nmod	_	_
+6-7	à	_	_	_	_	_	_	_	_
+6	a	a	ADP	ADP	_	8	case	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Síria	_	PROPN	PNOUN	_	5	nmod	_	_
+9	será	ser	AUX	AUX	_	10	aux:pass	_	_
+10	determinada	determinar	VERB	VERB	_	0	root	_	_
+11	uma	_	DET	DET	_	18	mark	_	_
+12	vez	vez	NOUN	NOUN	_	11	fixed	_	_
+13	que	_	CCONJ	CONJ	_	11	fixed	_	_
+14	os	o	DET	DET	_	15	det	_	_
+15	detalhes	detalhe	NOUN	NOUN	_	18	nsubj:pass	_	_
+16	finais	final	ADJ	ADJ	_	15	amod	_	_
+17	forem	_	AUX	AUX	_	18	aux:pass	_	_
+18	acertados	acertar	VERB	VERB	_	10	advcl	_	SpaceAfter=No
+19	,	,	PUNCT	.	_	21	punct	_	_
+20	segundo	_	ADP	ADP	_	21	case	_	_
+21	Fawzi	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = test-s1149
+# text = "Eu sou tarado por trabalho, faço tudo com o mesmo empenho.
+1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
+2	Eu	_	PRON	PRON	_	3	nsubj	_	_
+3	sou	ser	VERB	VERB	_	0	root	_	_
+4	tarado	tarado	ADJ	ADJ	_	3	xcomp	_	_
+5	por	por	ADP	ADP	_	6	case	_	_
+6	trabalho	trabalho	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	8	punct	_	_
+8	faço	fazer	VERB	VERB	_	3	conj	_	_
+9	tudo	_	PRON	PRON	_	8	obj	_	_
+10	com	com	ADP	ADP	_	13	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	mesmo	mesmo	ADJ	ADJ	_	13	amod	_	_
+13	empenho	empenho	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = test-s1150
+# text = A história menciona duas vezes que "hikikomori" são necessários na sociedade para que outros tenham a quem desprezar e assim se sentirem superiores.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	história	história	NOUN	NOUN	_	3	nsubj	_	_
+3	menciona	mencionar	VERB	VERB	_	0	root	_	_
+4	duas	_	NUM	NUM	NumType=Card	5	nummod	_	_
+5	vezes	vez	NOUN	NOUN	_	3	nmod	_	_
+6	que	que	CCONJ	CONJ	_	10	mark	_	_
+7	"	"	PUNCT	.	_	8	punct	_	SpaceAfter=No
+8	hikikomori	_	NOUN	NOUN	_	10	nsubj	_	SpaceAfter=No
+9	"	"	PUNCT	.	_	8	punct	_	_
+10	são	ser	VERB	VERB	_	3	ccomp	_	_
+11	necessários	necessário	ADJ	ADJ	_	10	xcomp	_	_
+12-13	na	_	_	_	_	_	_	_	_
+12	em	em	ADP	ADP	_	14	case	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	sociedade	sociedade	NOUN	NOUN	_	10	nmod	_	_
+15	para	_	ADP	ADP	_	18	mark	_	_
+16	que	_	CCONJ	CONJ	_	15	fixed	_	_
+17	outros	_	PRON	PRON	_	18	nsubj	_	_
+18	tenham	ter	VERB	VERB	_	10	advcl	_	_
+19	a	_	ADP	ADP	_	20	case	_	_
+20	quem	_	PRON	PRON	_	21	nmod	_	_
+21	desprezar	desprezar	VERB	VERB	_	18	ccomp	_	_
+22	e	e	CCONJ	CONJ	_	25	cc	_	_
+23	assim	assim	ADV	ADV	_	25	advmod	_	_
+24	se	_	PART	PRT	_	25	expl:pv	_	_
+25	sentirem	sentir	VERB	VERB	_	21	conj	_	_
+26	superiores	superior	ADJ	ADJ	_	25	xcomp	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = test-s1151
+# text = Nas listas de bens há ainda joias, roupas, calçados, alimentos, bebidas, maquinário, coleções de facas, obras de arte, animais e até 200 metros lineares de eucalipto.
+1-2	Nas	_	_	_	_	_	_	_	_
+1	Em	em	ADP	ADP	_	3	case	_	_
+2	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	listas	lista	NOUN	NOUN	_	6	nmod	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
+5	bens	bem	NOUN	NOUN	_	3	nmod	_	_
+6	há	haver	VERB	VERB	_	0	root	_	_
+7	ainda	ainda	ADV	ADV	_	6	advmod	_	_
+8	joias	joia	NOUN	NOUN	_	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	10	punct	_	_
+10	roupas	roupa	NOUN	NOUN	_	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	12	punct	_	_
+12	calçados	calçado	NOUN	NOUN	_	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	.	_	14	punct	_	_
+14	alimentos	alimento	NOUN	NOUN	_	8	conj	_	SpaceAfter=No
+15	,	,	PUNCT	.	_	16	punct	_	_
+16	bebidas	bebida	NOUN	NOUN	_	8	conj	_	SpaceAfter=No
+17	,	,	PUNCT	.	_	18	punct	_	_
+18	maquinário	maquinário	NOUN	NOUN	_	8	conj	_	SpaceAfter=No
+19	,	,	PUNCT	.	_	20	punct	_	_
+20	coleções	coleção	NOUN	NOUN	_	8	conj	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
+22	facas	faca	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	.	_	24	punct	_	_
+24	obras	obra	NOUN	NOUN	_	8	conj	_	_
+25	de	de	ADP	ADP	_	26	case	_	_
+26	arte	arte	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	.	_	28	punct	_	_
+28	animais	animal	ADJ	ADJ	_	8	conj	_	_
+29	e	e	CCONJ	CONJ	_	32	cc	_	_
+30	até	até	ADV	ADV	_	32	advmod	_	_
+31	200	200	NUM	NUM	NumType=Card	32	nummod	_	_
+32	metros	metro	NOUN	NOUN	_	8	conj	_	_
+33	lineares	linear	ADJ	ADJ	_	32	amod	_	_
+34	de	de	ADP	ADP	_	35	case	_	_
+35	eucalipto	eucalipto	NOUN	NOUN	_	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = test-s1152
+# text = Fereydun Abbassi Davani, atual diretor do programa nuclear iraniano, escapou duma tentativa de assassinato.
+1	Fereydun	_	PROPN	PNOUN	_	13	nsubj	_	_
+2	Abbassi	_	PROPN	PNOUN	_	1	flat	_	_
+3	Davani	_	PROPN	PNOUN	_	1	flat	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	6	punct	_	_
+5	atual	atual	ADJ	ADJ	_	6	amod	_	_
+6	diretor	diretor	NOUN	NOUN	_	1	appos	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	programa	programa	NOUN	NOUN	_	6	nmod	_	_
+10	nuclear	nuclear	ADJ	ADJ	_	9	amod	_	_
+11	iraniano	iraniano	ADJ	ADJ	_	9	amod	_	SpaceAfter=No
+12	,	,	PUNCT	.	_	6	punct	_	_
+13	escapou	escapar	VERB	VERB	_	0	root	_	_
+14-15	duma	_	_	_	_	_	_	_	_
+14	de	de	ADP	ADP	_	16	case	_	_
+15	uma	um	DET	DET	_	16	det	_	_
+16	tentativa	_	NOUN	NOUN	_	13	nmod	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
+18	assassinato	assassinato	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = test-s1153
+# text = Dependendo da companhia, sai até por R $ 1,6 mil ", conta Ariadna.
+1	Dependendo	depender	VERB	VERB	_	6	acl	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	ADP	_	4	case	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	companhia	companhia	NOUN	NOUN	_	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	.	_	1	punct	_	_
+6	sai	sair	VERB	VERB	_	15	ccomp	_	_
+7	até	até	ADV	ADV	_	9	advmod	_	_
+8	por	por	ADP	ADP	_	9	case	_	_
+9	R	r	NOUN	NOUN	_	6	nmod	_	_
+10	$	_	SYM	SYM	_	9	flat	_	_
+11	1,6	1,6	NUM	NUM	NumType=Card	12	nummod	_	_
+12	mil	_	NUM	NUM	NumType=Card	9	nummod	_	_
+13	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	15	punct	_	_
+15	conta	contar	VERB	VERB	_	0	root	_	_
+16	Ariadna	_	PROPN	PNOUN	_	15	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = test-s1154
+# text = Indecisos somaram 6 %.
+1	Indecisos	_	NOUN	NOUN	_	2	nsubj	_	_
+2	somaram	somar	VERB	VERB	_	0	root	_	_
+3	6	6	NUM	NUM	NumType=Card	4	nummod	_	_
+4	%	_	SYM	SYM	_	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+

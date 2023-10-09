@@ -1,0 +1,245 @@
+# sent_id = train-s3047
+# text = Os poloneses demonstraram reação (19 / 15) e Bernardinho pediu tempo.
+1	Os	o	DET	DET	_	2	det	_	_
+2	poloneses	polonês	NOUN	NOUN	_	3	nsubj	_	_
+3	demonstraram	demonstrar	VERB	VERB	_	0	root	_	_
+4	reação	reação	NOUN	NOUN	_	3	obj	_	_
+5	(	(	PUNCT	.	_	6	punct	_	SpaceAfter=No
+6	19	19	NUM	NUM	NumType=Card	4	appos	_	_
+7	/	/	PUNCT	.	_	8	punct	_	_
+8	15	15	NUM	NUM	NumType=Card	6	conj	_	SpaceAfter=No
+9	)	)	PUNCT	.	_	6	punct	_	_
+10	e	e	CCONJ	CONJ	_	12	cc	_	_
+11	Bernardinho	_	PROPN	PNOUN	_	12	nsubj	_	_
+12	pediu	pedir	VERB	VERB	_	3	conj	_	_
+13	tempo	tempo	NOUN	NOUN	_	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s3048
+# text = O aeroporto conta com uma área patrimonial de 60 hectares e quando em funcionamento servirá de alternativa para vôos nacionais e internacionais.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	aeroporto	aeroporto	NOUN	NOUN	_	3	nsubj	_	_
+3	conta	contar	VERB	VERB	_	0	root	_	_
+4	com	com	ADP	ADP	_	6	case	_	_
+5	uma	um	DET	DET	_	6	det	_	_
+6	área	área	NOUN	NOUN	_	3	nmod	_	_
+7	patrimonial	patrimonial	ADJ	ADJ	_	6	amod	_	_
+8	de	de	ADP	ADP	_	10	case	_	_
+9	60	60	NUM	NUM	NumType=Card	10	nummod	_	_
+10	hectares	hectare	NOUN	NOUN	_	6	nmod	_	_
+11	e	e	CCONJ	CONJ	_	15	cc	_	_
+12	quando	_	CCONJ	CONJ	_	14	dep	_	_
+13	em	em	ADP	ADP	_	14	case	_	_
+14	funcionamento	funcionamento	NOUN	NOUN	_	15	nmod	_	_
+15	servirá	servir	VERB	VERB	_	3	conj	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
+17	alternativa	_	NOUN	NOUN	_	15	nmod	_	_
+18	para	para	ADP	ADP	_	19	case	_	_
+19	vôos	vôo	NOUN	NOUN	_	17	nmod	_	_
+20	nacionais	nacional	ADJ	ADJ	_	19	amod	_	_
+21	e	e	CCONJ	CONJ	_	22	cc	_	_
+22	internacionais	internacional	ADJ	ADJ	_	20	conj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s3049
+# text = "Todos os processos são importantes, mas o mais importante de todos é a governança", defende Gerdau.
+1	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
+2	Todos	_	DET	DET	_	4	det	_	_
+3	os	o	DET	DET	_	4	det	_	_
+4	processos	processo	NOUN	NOUN	_	5	nsubj	_	_
+5	são	ser	VERB	VERB	_	19	ccomp	_	_
+6	importantes	importante	ADJ	ADJ	_	5	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	11	punct	_	_
+8	mas	mas	CCONJ	CONJ	_	11	cc	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	mais	mais	ADV	ADV	_	11	advmod	_	_
+11	importante	importante	NOUN	NOUN	_	5	conj	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
+13	todos	_	PRON	PRON	_	11	nmod	_	_
+14	é	ser	AUX	AUX	_	11	cop	_	_
+15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	governança	governança	NOUN	NOUN	_	11	nsubj	_	SpaceAfter=No
+17	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
+18	,	,	PUNCT	.	_	19	punct	_	_
+19	defende	defender	VERB	VERB	_	0	root	_	_
+20	Gerdau	_	PROPN	PNOUN	_	19	nsubj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	19	punct	_	_
+
+# sent_id = train-s3050
+# text = A investida minuciosamente planejada foi levada a cabo justamente antes do empossamento de Barack, assim ele pôde dizer que era hora de vislumbrar o futuro, não o passado.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	investida	_	NOUN	NOUN	_	6	nsubj:pass	_	_
+3	minuciosamente	minuciosamente	ADV	ADV	_	4	advmod	_	_
+4	planejada	planejar	VERB	VERB	_	2	acl	_	_
+5	foi	_	AUX	AUX	_	6	aux:pass	_	_
+6	levada	levar	VERB	VERB	_	0	root	_	_
+7	a	_	ADP	ADP	_	8	case	_	_
+8	cabo	cabo	NOUN	NOUN	_	6	nmod	_	_
+9	justamente	justamente	ADV	ADV	_	10	advmod	_	_
+10	antes	antes	ADV	ADV	_	13	case	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	ADP	_	10	case	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+13	empossamento	empossamento	NOUN	NOUN	_	6	nmod	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
+15	Barack	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	.	_	20	punct	_	_
+17	assim	assim	ADV	ADV	_	20	advmod	_	_
+18	ele	_	PRON	PRON	_	20	nsubj	_	_
+19	pôde	poder	AUX	AUX	_	20	aux	_	_
+20	dizer	dizer	VERB	VERB	_	6	conj	_	_
+21	que	que	CCONJ	CONJ	_	23	mark	_	_
+22	era	_	AUX	AUX	_	23	cop	_	_
+23	hora	hora	NOUN	NOUN	_	20	ccomp	_	_
+24	de	_	ADP	ADP	_	25	mark	_	_
+25	vislumbrar	vislumbrar	VERB	VERB	_	23	nmod	_	_
+26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	futuro	futuro	NOUN	NOUN	_	25	obj	_	SpaceAfter=No
+28	,	,	PUNCT	.	_	31	punct	_	_
+29	não	não	ADV	ADV	Polarity=Neg	31	advmod	_	_
+30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	passado	passado	NOUN	NOUN	_	27	conj	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s3051
+# text = Trinta minutos antes do horário previsto, dezenas de atores já encenavam numa fazenda montada no centro do gramado.
+1	Trinta	_	NUM	NUM	NumType=Card	2	nummod	_	_
+2	minutos	minuto	NOUN	NOUN	_	3	nmod	_	_
+3	antes	antes	ADV	ADV	_	6	case	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	ADP	_	3	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+6	horário	horário	NOUN	NOUN	_	13	nmod	_	_
+7	previsto	previsto	ADJ	ADJ	_	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	6	punct	_	_
+9	dezenas	dezena	NOUN	NOUN	_	13	nsubj	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
+11	atores	ator	NOUN	NOUN	_	9	nmod	_	_
+12	já	já	ADV	ADV	_	13	advmod	_	_
+13	encenavam	encenar	VERB	VERB	_	0	root	_	_
+14-15	numa	_	_	_	_	_	_	_	_
+14	em	em	ADP	ADP	_	16	case	_	_
+15	uma	um	DET	DET	_	16	det	_	_
+16	fazenda	fazenda	NOUN	NOUN	_	13	nmod	_	_
+17	montada	montar	VERB	VERB	_	16	acl	_	_
+18-19	no	_	_	_	_	_	_	_	_
+18	em	em	ADP	ADP	_	20	case	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	centro	centro	NOUN	NOUN	_	17	nmod	_	_
+21-22	do	_	_	_	_	_	_	_	_
+21	de	de	ADP	ADP	_	23	case	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	gramado	gramado	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = train-s3052
+# text = Há manifestações organizadas no Cairo, capital do Egito, onde na semana passada os protestos provocaram vítimas.
+1	Há	haver	VERB	VERB	_	0	root	_	_
+2	manifestações	manifestação	NOUN	NOUN	_	1	obj	_	_
+3	organizadas	organizar	VERB	VERB	_	2	acl	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Cairo	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	8	punct	_	_
+8	capital	capital	NOUN	NOUN	_	6	appos	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	ADP	_	11	case	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Egito	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	.	_	8	punct	_	_
+13	onde	onde	ADV	ADV	_	20	advmod	_	_
+14-15	na	_	_	_	_	_	_	_	_
+14	em	em	ADP	ADP	_	16	case	_	_
+15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	semana	semana	NOUN	NOUN	_	20	nmod	_	_
+17	passada	passado	ADJ	ADJ	_	16	amod	_	_
+18	os	o	DET	DET	_	19	det	_	_
+19	protestos	protesto	NOUN	NOUN	_	20	nsubj	_	_
+20	provocaram	provocar	VERB	VERB	_	6	acl:relcl	_	_
+21	vítimas	vítima	NOUN	NOUN	_	20	obj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s3053
+# text = A atleta, que está solteira, ressaltou que está em busca dum companheiro: "Então, garotos, vocês podem contatar meu agente e dizer que preciso dum encontro.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	atleta	atleta	NOUN	NOUN	_	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	.	_	5	punct	_	_
+4	que	_	PRON	PRON	_	5	nsubj	_	_
+5	está	estar	VERB	VERB	_	2	acl:relcl	_	_
+6	solteira	solteiro	ADJ	ADJ	_	5	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	5	punct	_	_
+8	ressaltou	ressaltar	VERB	VERB	_	0	root	_	_
+9	que	que	CCONJ	CONJ	_	10	mark	_	_
+10	está	estar	VERB	VERB	_	8	ccomp	_	_
+11	em	em	ADP	ADP	_	12	case	_	_
+12	busca	busca	NOUN	NOUN	_	10	nmod	_	_
+13-14	dum	_	_	_	_	_	_	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
+14	um	um	DET	DET	_	15	det	_	_
+15	companheiro	companheiro	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
+16	:	:	PUNCT	.	_	8	punct	_	_
+17	"	"	PUNCT	.	_	24	punct	_	SpaceAfter=No
+18	Então	_	PART	PRT	_	24	dep	_	SpaceAfter=No
+19	,	,	PUNCT	.	_	20	punct	_	_
+20	garotos	garoto	NOUN	NOUN	_	24	dep	_	SpaceAfter=No
+21	,	,	PUNCT	.	_	20	punct	_	_
+22	vocês	_	PRON	PRON	_	24	nsubj	_	_
+23	podem	_	AUX	AUX	_	24	aux	_	_
+24	contatar	contatar	VERB	VERB	_	8	parataxis	_	_
+25	meu	_	DET	DET	_	26	det:poss	_	_
+26	agente	agente	NOUN	NOUN	_	24	obj	_	_
+27	e	e	CCONJ	CONJ	_	28	cc	_	_
+28	dizer	dizer	VERB	VERB	_	24	conj	_	_
+29	que	que	CCONJ	CONJ	_	30	mark	_	_
+30	preciso	precisar	VERB	VERB	_	28	ccomp	_	_
+31-32	dum	_	_	_	_	_	_	_	_
+31	de	de	ADP	ADP	_	33	case	_	_
+32	um	um	DET	DET	_	33	det	_	_
+33	encontro	encontro	NOUN	NOUN	_	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s3054
+# text = A principal recomendação é que os estudantes cheguem cedo aos locais de provas.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	principal	principal	ADJ	ADJ	_	3	amod	_	_
+3	recomendação	recomendação	NOUN	NOUN	_	0	root	_	_
+4	é	ser	AUX	AUX	_	3	cop	_	_
+5	que	que	CCONJ	CONJ	_	8	mark	_	_
+6	os	o	DET	DET	_	7	det	_	_
+7	estudantes	estudante	NOUN	NOUN	_	8	nsubj	_	_
+8	cheguem	chegar	VERB	VERB	_	3	csubj	_	_
+9	cedo	cedo	ADV	ADV	_	8	advmod	_	_
+10-11	aos	_	_	_	_	_	_	_	_
+10	a	a	ADP	ADP	_	12	case	_	_
+11	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	locais	local	NOUN	NOUN	_	8	nmod	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
+14	provas	prova	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s3055
+# text = Jô.
+1	Jô	_	PROPN	PNOUN	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s3056
+# text = enquanto noutras, o sacerdócio é herdado em linhas familiares, como um casta.
+1	enquanto	_	CCONJ	CONJ	_	8	mark	_	_
+2-3	noutras	_	_	_	_	_	_	_	SpaceAfter=No
+2	em	em	ADP	ADP	_	3	case	_	_
+3	outras	_	PRON	PRON	_	8	nmod	_	_
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	sacerdócio	sacerdócio	NOUN	NOUN	_	8	nsubj:pass	_	_
+7	é	ser	AUX	AUX	_	8	aux:pass	_	_
+8	herdado	herdar	VERB	VERB	_	0	root	_	_
+9	em	em	ADP	ADP	_	10	case	_	_
+10	linhas	_	NOUN	NOUN	_	8	nmod	_	_
+11	familiares	familiar	ADJ	ADJ	_	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	.	_	15	punct	_	_
+13	como	como	ADP	ADP	_	15	case	_	_
+14	um	um	DET	DET	_	15	det	_	_
+15	casta	_	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	8	punct	_	_
+

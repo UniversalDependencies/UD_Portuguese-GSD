@@ -1,0 +1,255 @@
+# sent_id = train-s4685
+# text = Outra novidade na concentração do ABC foi o goleiro Rafael.
+1	Outra	_	DET	DET	_	2	det	_	_
+2	novidade	novidade	NOUN	NOUN	_	0	root	_	_
+3-4	na	_	_	_	_	_	_	_	_
+3	em	em	ADP	ADP	_	5	case	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	concentração	concentração	NOUN	NOUN	_	2	nmod	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	ABC	_	PROPN	PNOUN	_	5	nmod	_	_
+9	foi	_	AUX	AUX	_	2	cop	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	goleiro	goleiro	NOUN	NOUN	_	2	nsubj	_	_
+12	Rafael	_	PROPN	PNOUN	_	11	appos	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s4686
+# text = Nenhum prefeito mudará essa realidade do dia para a noite.
+1	Nenhum	_	DET	DET	_	2	det	_	_
+2	prefeito	prefeito	NOUN	NOUN	_	3	nsubj	_	_
+3	mudará	mudar	VERB	VERB	_	0	root	_	_
+4	essa	_	DET	DET	_	5	det	_	_
+5	realidade	realidade	NOUN	NOUN	_	3	obj	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	dia	dia	NOUN	NOUN	_	3	nmod	_	_
+9	para	para	ADP	ADP	_	11	case	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	noite	noite	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s4687
+# text = Na pesquisa conduzida em Washington, os pesquisadores afirmaram que camundongos de hábitos noturnos costumam dormir 40 minutos a cada hora, mas tão logo as placas começam a ser formadas, o período de sono é reduzido para 30 minutos.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	ADP	_	3	case	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	pesquisa	pesquisa	NOUN	NOUN	_	10	nmod	_	_
+4	conduzida	conduzir	VERB	VERB	_	3	acl	_	_
+5	em	em	ADP	ADP	_	6	case	_	_
+6	Washington	_	PROPN	PNOUN	_	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	3	punct	_	_
+8	os	o	DET	DET	_	9	det	_	_
+9	pesquisadores	pesquisador	NOUN	NOUN	_	10	nsubj	_	_
+10	afirmaram	afirmar	VERB	VERB	_	0	root	_	_
+11	que	que	CCONJ	CONJ	_	16	mark	_	_
+12	camundongos	camundongo	NOUN	NOUN	_	16	nsubj	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
+14	hábitos	hábito	NOUN	NOUN	_	12	nmod	_	_
+15	noturnos	noturno	ADJ	ADJ	_	14	amod	_	_
+16	costumam	costumar	VERB	VERB	_	10	ccomp	_	_
+17	dormir	dormir	VERB	VERB	_	16	xcomp	_	_
+18	40	40	NUM	NUM	NumType=Card	19	nummod	_	_
+19	minutos	minuto	NOUN	NOUN	_	17	nmod	_	_
+20	a	_	ADP	ADP	_	22	case	_	_
+21	cada	_	DET	DET	_	22	det	_	_
+22	hora	hora	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	.	_	39	punct	_	_
+24	mas	mas	CCONJ	CONJ	_	39	cc	_	_
+25	tão	tão	ADV	ADV	_	26	advmod	_	_
+26	logo	logo	ADV	ADV	_	32	mark	_	_
+27	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	placas	placa	NOUN	NOUN	_	32	nsubj:pass	_	_
+29	começam	_	AUX	AUX	_	32	aux	_	_
+30	a	_	ADP	ADP	_	32	mark	_	_
+31	ser	ser	AUX	AUX	_	32	aux:pass	_	_
+32	formadas	formar	VERB	VERB	_	39	advcl	_	SpaceAfter=No
+33	,	,	PUNCT	.	_	32	punct	_	_
+34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	período	período	NOUN	NOUN	_	39	nsubj:pass	_	_
+36	de	de	ADP	ADP	_	37	case	_	_
+37	sono	sono	NOUN	NOUN	_	35	nmod	_	_
+38	é	ser	AUX	AUX	_	39	aux:pass	_	_
+39	reduzido	reduzir	VERB	VERB	_	16	conj	_	_
+40	para	para	ADP	ADP	_	42	case	_	_
+41	30	30	NUM	NUM	NumType=Card	42	nummod	_	_
+42	minutos	minuto	NOUN	NOUN	_	39	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = train-s4688
+# text = O Shopping Várzea Grande terá 90 mil metros quadrados, entre hotel e shopping, distribuídos em cinco pavimentos.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Shopping	_	PROPN	PNOUN	_	5	nsubj	_	_
+3	Várzea	_	PROPN	PNOUN	_	2	flat	_	_
+4	Grande	_	PROPN	PNOUN	_	2	amod	_	_
+5	terá	ter	VERB	VERB	_	0	root	_	_
+6	90	90	NUM	NUM	NumType=Card	7	nummod	_	_
+7	mil	_	NUM	NUM	NumType=Card	8	nummod	_	_
+8	metros	metro	NOUN	NOUN	_	5	obj	_	_
+9	quadrados	quadrado	ADJ	ADJ	_	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	12	punct	_	_
+11	entre	_	ADP	ADP	_	12	case	_	_
+12	hotel	hotel	NOUN	NOUN	_	5	nmod	_	_
+13	e	e	CCONJ	CONJ	_	14	cc	_	_
+14	shopping	shopping	NOUN	NOUN	_	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	.	_	16	punct	_	_
+16	distribuídos	distribuir	VERB	VERB	_	8	acl	_	_
+17	em	em	ADP	ADP	_	19	case	_	_
+18	cinco	_	NUM	NUM	NumType=Card	19	nummod	_	_
+19	pavimentos	pavimento	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s4689
+# text = Segundo o censo americano de 2000, a sua população era de 4726 habitantes.
+1	Segundo	_	ADP	ADP	_	3	case	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	censo	censo	NOUN	NOUN	_	11	nmod	_	_
+4	americano	americano	ADJ	ADJ	_	3	amod	_	_
+5	de	de	ADP	ADP	_	6	case	_	_
+6	2000	2000	NUM	NUM	NumType=Card	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	3	punct	_	_
+8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	sua	_	DET	DET	_	10	det:poss	_	_
+10	população	população	NOUN	NOUN	_	11	nsubj	_	_
+11	era	_	VERB	VERB	_	0	root	_	_
+12	de	de	ADP	ADP	_	14	case	_	_
+13	4726	4726	NUM	NUM	NumType=Card	14	nummod	_	_
+14	habitantes	habitante	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = train-s4690
+# text = O artilheiro Laércio aos 33 minutos e Luizinho Neto aos 38 tornaram as coisas difíceis para o Iguaçu conseguir manter a vantagem.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	artilheiro	artilheiro	NOUN	NOUN	_	14	nsubj	_	_
+3	Laércio	_	PROPN	PNOUN	_	2	appos	_	_
+4-5	aos	_	_	_	_	_	_	_	_
+4	a	a	ADP	ADP	_	7	case	_	_
+5	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	33	33	NUM	NUM	NumType=Card	7	nummod	_	_
+7	minutos	minuto	NOUN	NOUN	_	2	nmod	_	_
+8	e	e	CCONJ	CONJ	_	2	cc	_	_
+9	Luizinho	_	PROPN	PNOUN	_	8	conj	_	_
+10	Neto	_	PROPN	PNOUN	_	9	flat	_	_
+11-12	aos	_	_	_	_	_	_	_	_
+11	a	a	ADP	ADP	_	13	case	_	_
+12	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	38	38	NUM	NUM	NumType=Card	9	nmod	_	_
+14	tornaram	tornar	VERB	VERB	_	0	root	_	_
+15	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	coisas	coisa	NOUN	NOUN	_	17	nsubj	_	_
+17	difíceis	difícil	ADJ	ADJ	_	14	xcomp	_	_
+18	para	_	ADP	ADP	_	21	mark	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Iguaçu	_	PROPN	PNOUN	_	21	nsubj	_	_
+21	conseguir	conseguir	VERB	VERB	_	17	nmod	_	_
+22	manter	manter	VERB	VERB	_	21	xcomp	_	_
+23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	vantagem	vantagem	NOUN	NOUN	_	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = train-s4691
+# text = Entre os anos de 1819 e 1850, o arquitecto August Gersdorff dirigiu os trabalhos de reestruturação do castelo.
+1	Entre	_	ADP	ADP	_	3	case	_	_
+2	os	o	DET	DET	_	3	det	_	_
+3	anos	ano	NOUN	NOUN	_	13	nmod	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
+5	1819	1819	NUM	NUM	NumType=Card	3	nmod	_	_
+6	e	e	CCONJ	CONJ	_	7	cc	_	_
+7	1850	1850	NUM	NUM	NumType=Card	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	3	punct	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	arquitecto	arquitecto	NOUN	NOUN	_	13	nsubj	_	_
+11	August	_	PROPN	PNOUN	_	10	appos	_	_
+12	Gersdorff	_	PROPN	PNOUN	_	11	flat	_	_
+13	dirigiu	dirigir	VERB	VERB	_	0	root	_	_
+14	os	o	DET	DET	_	15	det	_	_
+15	trabalhos	trabalho	NOUN	NOUN	_	13	obj	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
+17	reestruturação	reestruturação	NOUN	NOUN	_	15	nmod	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	ADP	_	20	case	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	castelo	castelo	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = train-s4692
+# text = O motorista do caminhão não se feriu.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	motorista	motorista	NOUN	NOUN	_	8	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	caminhão	caminhão	NOUN	NOUN	_	2	nmod	_	_
+6	não	não	ADV	ADV	Polarity=Neg	8	advmod	_	_
+7	se	_	PRON	PRON	_	8	obj	_	_
+8	feriu	ferir	VERB	VERB	_	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s4693
+# text = Elas foram homenageadas neste sábado (10) durante o 3 º Fórum de Empreendedores promovido pelo Lide (Grupo de Líderes Empresariais), que ocorre em Águas de São Pedro (SP) entre os dias 9 e encerram neste domingo (11).
+1	Elas	_	PRON	PRON	_	3	nsubj:pass	_	_
+2	foram	_	AUX	AUX	_	3	aux:pass	_	_
+3	homenageadas	homenagear	VERB	VERB	_	0	root	_	_
+4	neste	_	ADP	ADP	_	5	case	_	_
+5	sábado	_	PROPN	PNOUN	_	3	nmod	_	_
+6	(	(	PUNCT	.	_	7	punct	_	SpaceAfter=No
+7	10	10	NUM	NUM	NumType=Card	5	nmod	_	SpaceAfter=No
+8	)	)	PUNCT	.	_	7	punct	_	_
+9	durante	_	ADP	ADP	_	13	case	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+11	3	_	ADJ	ADJ	_	13	amod	_	_
+12	º	_	PUNCT	.	_	11	punct	_	_
+13	Fórum	_	PROPN	PNOUN	_	3	nmod	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
+15	Empreendedores	_	PROPN	PNOUN	_	13	nmod	_	_
+16	promovido	promover	VERB	VERB	_	13	acl	_	_
+17-18	pelo	_	_	_	_	_	_	_	_
+17	por	por	ADP	ADP	_	19	case	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Lide	_	PROPN	PNOUN	_	16	nmod	_	_
+20	(	(	PUNCT	.	_	21	punct	_	SpaceAfter=No
+21	Grupo	_	PROPN	PNOUN	_	19	appos	_	_
+22	de	de	ADP	ADP	_	23	case	_	_
+23	Líderes	_	PROPN	PNOUN	_	21	nmod	_	_
+24	Empresariais	_	PROPN	PNOUN	_	23	amod	_	SpaceAfter=No
+25	)	)	PUNCT	.	_	21	punct	_	SpaceAfter=No
+26	,	,	PUNCT	.	_	28	punct	_	_
+27	que	_	PRON	PRON	_	28	nsubj	_	_
+28	ocorre	ocorrer	VERB	VERB	_	13	acl:relcl	_	_
+29	em	em	ADP	ADP	_	30	case	_	_
+30	Águas	_	PROPN	PNOUN	_	28	nmod	_	_
+31	de	de	ADP	ADP	_	32	case	_	_
+32	São	_	PROPN	PNOUN	_	30	nmod	_	_
+33	Pedro	_	PROPN	PNOUN	_	32	flat	_	_
+34	(	(	PUNCT	.	_	35	punct	_	SpaceAfter=No
+35	SP	_	PROPN	PNOUN	_	30	appos	_	SpaceAfter=No
+36	)	)	PUNCT	.	_	35	punct	_	_
+37	entre	_	ADP	ADP	_	39	case	_	_
+38	os	o	DET	DET	_	39	det	_	_
+39	dias	dia	NOUN	NOUN	_	28	nmod	_	_
+40	9	9	NUM	NUM	NumType=Card	39	nmod	_	_
+41	e	e	CCONJ	CONJ	_	42	cc	_	_
+42	encerram	encerrar	VERB	VERB	_	28	conj	_	_
+43	neste	_	ADP	ADP	_	44	case	_	_
+44	domingo	_	PROPN	PNOUN	_	42	nmod	_	_
+45	(	(	PUNCT	.	_	46	punct	_	SpaceAfter=No
+46	11	11	NUM	NUM	NumType=Card	44	nmod	_	SpaceAfter=No
+47	)	)	PUNCT	.	_	46	punct	_	SpaceAfter=No
+48	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s4694
+# text = O diretor Marcio Tavolari está trabalhando em cima delas.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	diretor	diretor	NOUN	NOUN	_	6	nsubj	_	_
+3	Marcio	_	PROPN	PNOUN	_	2	appos	_	_
+4	Tavolari	_	PROPN	PNOUN	_	3	flat	_	_
+5	está	estar	AUX	AUX	_	6	aux	_	_
+6	trabalhando	trabalhar	VERB	VERB	_	0	root	_	_
+7	em	em	ADP	ADP	_	8	case	_	_
+8	cima	cima	NOUN	NOUN	_	6	nmod	_	_
+9	delas	_	X	ADPPRON	_	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	_
+

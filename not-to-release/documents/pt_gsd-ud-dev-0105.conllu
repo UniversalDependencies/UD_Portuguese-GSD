@@ -1,0 +1,281 @@
+# sent_id = dev-s1032
+# text = A rodovia Transamazônica é a mais extensa do mundo!
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	rodovia	rodovia	NOUN	NOUN	_	4	nsubj	_	_
+3	Transamazônica	_	PROPN	PNOUN	_	2	appos	_	_
+4	é	ser	VERB	VERB	_	0	root	_	_
+5	a	o	DET	DET	_	6	det	_	_
+6	mais	mais	ADV	ADV	_	7	advmod	_	_
+7	extensa	extenso	ADJ	ADJ	_	4	xcomp	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	ADP	_	10	case	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	mundo	mundo	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
+11	!	!	PUNCT	.	_	4	punct	_	_
+
+# sent_id = dev-s1033
+# text = A direção do Cruzeiro não soube informar quem representa atualmente o ex - presidente, assim como José Maria Fialho.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	direção	direção	NOUN	NOUN	_	7	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Cruzeiro	_	PROPN	PNOUN	_	2	nmod	_	_
+6	não	não	ADV	ADV	Polarity=Neg	7	advmod	_	_
+7	soube	saber	VERB	VERB	_	0	root	_	_
+8	informar	informar	VERB	VERB	_	7	xcomp	_	_
+9	quem	_	PRON	PRON	_	10	nsubj	_	_
+10	representa	representar	VERB	VERB	_	8	ccomp	_	_
+11	atualmente	atualmente	ADV	ADV	_	10	advmod	_	_
+12	o	o	DET	DET	_	13	det	_	_
+13	ex	_	PART	PRT	_	10	obj	_	_
+14	-	-	PUNCT	.	_	13	punct	_	_
+15	presidente	presidente	NOUN	NOUN	_	13	flat	_	SpaceAfter=No
+16	,	,	PUNCT	.	_	19	punct	_	_
+17	assim	assim	ADV	ADV	_	19	case	_	_
+18	como	_	ADP	ADP	_	17	fixed	_	_
+19	José	_	PROPN	PNOUN	_	10	nmod	_	_
+20	Maria	_	PROPN	PNOUN	_	19	flat	_	_
+21	Fialho	_	PROPN	PNOUN	_	19	flat	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = dev-s1034
+# text = Policiais militares e bombeiros foram ao local e o convenceram a descer.
+1	Policiais	policial	NOUN	NOUN	_	5	nsubj	_	_
+2	militares	militar	ADJ	ADJ	_	1	amod	_	_
+3	e	e	CCONJ	CONJ	_	4	cc	_	_
+4	bombeiros	bombeiro	NOUN	NOUN	_	1	conj	_	_
+5	foram	_	VERB	VERB	_	0	root	_	_
+6-7	ao	_	_	_	_	_	_	_	_
+6	a	a	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	local	local	NOUN	NOUN	_	5	nmod	_	_
+9	e	e	CCONJ	CONJ	_	11	cc	_	_
+10	o	o	DET	DET	_	11	det	_	_
+11	convenceram	convencer	VERB	VERB	_	5	conj	_	_
+12	a	_	ADP	ADP	_	13	mark	_	_
+13	descer	descer	VERB	VERB	_	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = dev-s1035
+# text = As empresas inscritas devem ter completado 50, 30, 20 ou 15 anos de atividades ininterruptas até o dia 31 de julho de 2012, ano da concessão do prêmio.
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	empresas	empresa	NOUN	NOUN	_	6	nsubj	_	_
+3	inscritas	inscrever	VERB	VERB	_	2	acl	_	_
+4	devem	_	AUX	AUX	_	6	aux	_	_
+5	ter	ter	AUX	AUX	_	6	aux	_	_
+6	completado	completar	VERB	VERB	_	0	root	_	_
+7	50	50	NUM	NUM	NumType=Card	14	nummod	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	9	punct	_	_
+9	30	30	NUM	NUM	NumType=Card	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	11	punct	_	_
+11	20	20	NUM	NUM	NumType=Card	7	conj	_	_
+12	ou	ou	CCONJ	CONJ	_	13	cc	_	_
+13	15	15	NUM	NUM	NumType=Card	7	conj	_	_
+14	anos	ano	NOUN	NOUN	_	6	obj	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
+16	atividades	atividade	NOUN	NOUN	_	14	nmod	_	_
+17	ininterruptas	ininterrupto	ADJ	ADJ	_	16	amod	_	_
+18	até	_	ADP	ADP	_	20	case	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	dia	dia	NOUN	NOUN	_	6	nmod	_	_
+21	31	31	NUM	NUM	NumType=Card	20	nmod	_	_
+22	de	de	ADP	ADP	_	23	case	_	_
+23	julho	_	PROPN	PNOUN	_	21	nmod	_	_
+24	de	de	ADP	ADP	_	25	case	_	_
+25	2012	2012	NUM	NUM	NumType=Card	23	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	.	_	27	punct	_	_
+27	ano	ano	NOUN	NOUN	_	25	appos	_	_
+28-29	da	_	_	_	_	_	_	_	_
+28	de	de	ADP	ADP	_	30	case	_	_
+29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	concessão	concessão	NOUN	NOUN	_	27	nmod	_	_
+31-32	do	_	_	_	_	_	_	_	_
+31	de	de	ADP	ADP	_	33	case	_	_
+32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	prêmio	prêmio	NOUN	NOUN	_	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = dev-s1036
+# text = O juiz tem até segunda-feira (1) para definir se acata as alegações ou se mantém o Google como responsável no caso.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	juiz	juiz	NOUN	NOUN	_	3	nsubj	_	_
+3	tem	ter	VERB	VERB	_	0	root	_	_
+4	até	_	ADP	ADP	_	5	case	_	_
+5	segunda-feira	_	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+6	(	(	PUNCT	.	_	7	punct	_	SpaceAfter=No
+7	1	1	NUM	NUM	NumType=Card	5	appos	_	SpaceAfter=No
+8	)	)	PUNCT	.	_	7	punct	_	_
+9	para	_	ADP	ADP	_	10	mark	_	_
+10	definir	definir	VERB	VERB	_	3	ccomp	_	_
+11	se	_	CCONJ	CONJ	_	12	mark	_	_
+12	acata	acatar	VERB	VERB	_	10	ccomp	_	_
+13	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	alegações	alegação	NOUN	NOUN	_	12	obj	_	_
+15	ou	ou	CCONJ	CONJ	_	17	cc	_	_
+16	se	_	CCONJ	PRON	_	17	mark	_	_
+17	mantém	manter	VERB	VERB	_	12	conj	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Google	_	PROPN	PNOUN	_	17	obj	_	_
+20	como	como	ADP	ADP	_	21	case	_	_
+21	responsável	responsável	NOUN	NOUN	_	19	nmod	_	_
+22-23	no	_	_	_	_	_	_	_	_
+22	em	em	ADP	ADP	_	24	case	_	_
+23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	caso	caso	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = dev-s1037
+# text = Um dos campos que chama atenção do Twitter -- e isso em escala mundial -- é a chamada segunda tela.
+1	Um	_	PRON	PRON	_	22	nsubj	_	_
+2-3	dos	_	_	_	_	_	_	_	_
+2	de	de	ADP	ADP	_	4	case	_	_
+3	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	campos	campo	NOUN	NOUN	_	1	nmod	_	_
+5	que	_	PRON	PRON	_	6	nsubj	_	_
+6	chama	chamar	VERB	VERB	_	4	acl:relcl	_	_
+7	atenção	atenção	NOUN	NOUN	_	6	obj	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	ADP	_	10	case	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Twitter	_	PROPN	PNOUN	_	4	nmod	_	_
+11	--	_	PUNCT	.	_	13	punct	_	_
+12	e	e	CCONJ	CONJ	_	13	cc	_	_
+13	isso	_	PRON	PRON	_	22	parataxis	_	_
+14	em	em	ADP	ADP	_	15	case	_	_
+15	escala	escala	NOUN	NOUN	_	13	nmod	_	_
+16	mundial	mundial	ADJ	ADJ	_	15	amod	_	_
+17	--	_	PUNCT	.	_	13	punct	_	_
+18	é	ser	AUX	AUX	_	22	cop	_	_
+19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+20	chamada	chamado	ADJ	ADJ	_	22	amod	_	_
+21	segunda	segundo	ADJ	ADJ	_	22	amod	_	_
+22	tela	tela	NOUN	NOUN	_	0	root	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	22	punct	_	_
+
+# sent_id = dev-s1038
+# text = 17 pessoas foram presas.
+1	17	17	NUM	NUM	NumType=Card	2	nummod	_	_
+2	pessoas	pessoa	NOUN	NOUN	_	4	nsubj:pass	_	_
+3	foram	_	AUX	AUX	_	4	aux:pass	_	_
+4	presas	_	VERB	VERB	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = dev-s1039
+# text = São Paulo -- Os sistemas operacionais Android e iOS equiparam 85 % dos smartphones vendidos no segundo trimestre de 2012 no mundo, segundo dados da consultoria IDC.
+1	São	_	PROPN	PNOUN	_	10	parataxis	_	_
+2	Paulo	_	PROPN	PNOUN	_	1	flat	_	_
+3	--	_	PUNCT	.	_	10	punct	_	_
+4	Os	o	DET	DET	_	5	det	_	_
+5	sistemas	sistema	NOUN	NOUN	_	10	nsubj	_	_
+6	operacionais	operacional	ADJ	ADJ	_	5	amod	_	_
+7	Android	_	PROPN	PNOUN	_	5	appos	_	_
+8	e	e	CCONJ	CONJ	_	9	cc	_	_
+9	iOS	_	PROPN	PNOUN	_	7	conj	_	_
+10	equiparam	_	VERB	VERB	_	0	root	_	_
+11	85	85	NUM	NUM	NumType=Card	12	nummod	_	_
+12	%	_	SYM	SYM	_	10	obj	_	_
+13-14	dos	_	_	_	_	_	_	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
+14	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	smartphones	_	NOUN	NOUN	_	12	nmod	_	_
+16	vendidos	vender	VERB	.	_	15	acl	_	_
+17-18	no	_	_	_	_	_	_	_	_
+17	em	em	ADP	ADP	_	20	case	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	segundo	segundo	ADJ	ADJ	_	20	amod	_	_
+20	trimestre	trimestre	NOUN	NOUN	_	16	obl	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
+22	2012	2012	NUM	NUM	NumType=Card	20	nmod	_	_
+23-24	no	_	_	_	_	_	_	_	_
+23	em	em	ADP	ADP	_	25	case	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	mundo	mundo	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	.	_	28	punct	_	_
+27	segundo	_	ADP	ADP	_	28	case	_	_
+28	dados	dado	NOUN	NOUN	_	10	nmod	_	_
+29-30	da	_	_	_	_	_	_	_	_
+29	de	de	ADP	ADP	_	31	case	_	_
+30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	consultoria	consultoria	NOUN	NOUN	_	28	nmod	_	_
+32	IDC	_	PROPN	PNOUN	_	31	appos	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = dev-s1040
+# text = A LND (Liga Nacional para a Democracia), partido de Suu Kyi, é favorita para as eleições legislativas de 2015.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	LND	_	PROPN	PNOUN	_	17	nsubj	_	_
+3	(	(	PUNCT	.	_	4	punct	_	SpaceAfter=No
+4	Liga	_	PROPN	PNOUN	_	2	appos	_	_
+5	Nacional	_	PROPN	PNOUN	_	4	amod	_	_
+6	para	para	ADP	ADP	_	8	case	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Democracia	_	PROPN	PNOUN	_	4	nmod	_	SpaceAfter=No
+9	)	)	PUNCT	.	_	4	punct	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	11	punct	_	_
+11	partido	partido	NOUN	NOUN	_	2	appos	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
+13	Suu	_	PROPN	PNOUN	_	11	nmod	_	_
+14	Kyi	_	PROPN	PNOUN	_	13	flat	_	SpaceAfter=No
+15	,	,	PUNCT	.	_	11	punct	_	_
+16	é	ser	AUX	AUX	_	17	cop	_	_
+17	favorita	favorito	NOUN	NOUN	_	0	root	_	_
+18	para	para	ADP	ADP	_	20	case	_	_
+19	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	eleições	eleição	NOUN	NOUN	_	17	nmod	_	_
+21	legislativas	legislativo	ADJ	ADJ	_	20	amod	_	_
+22	de	de	ADP	ADP	_	23	case	_	_
+23	2015	2015	NUM	NUM	NumType=Card	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = dev-s1041
+# text = Tereza Campello explicou que a orientação da presidenta Dilma Rousseff é "antecipar e acelerar a redução das desigualdades sociais" e ressaltou que a pobreza extrema vem diminuindo desde 2003 e que a meta prevista para 2015 foi alcançada ainda em 2006.
+1	Tereza	_	PROPN	PNOUN	_	3	nsubj	_	_
+2	Campello	_	PROPN	PNOUN	_	1	flat	_	_
+3	explicou	explicar	VERB	VERB	_	0	root	_	_
+4	que	que	CCONJ	CONJ	_	6	mark	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	orientação	orientação	NOUN	NOUN	_	3	ccomp	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
+8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	presidenta	_	NOUN	NOUN	_	6	nmod	_	_
+10	Dilma	_	PROPN	PNOUN	_	9	appos	_	_
+11	Rousseff	_	PROPN	PNOUN	_	10	flat	_	_
+12	é	ser	AUX	AUX	_	6	cop	_	_
+13	"	"	PUNCT	.	_	14	punct	_	SpaceAfter=No
+14	antecipar	antecipar	VERB	VERB	_	6	csubj	_	_
+15	e	e	CCONJ	CONJ	_	16	cc	_	_
+16	acelerar	acelerar	VERB	VERB	_	14	conj	_	_
+17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	redução	redução	NOUN	NOUN	_	14	obj	_	_
+19-20	das	_	_	_	_	_	_	_	_
+19	de	de	ADP	ADP	_	21	case	_	_
+20	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	desigualdades	desigualdade	NOUN	NOUN	_	18	nmod	_	_
+22	sociais	social	ADJ	ADJ	_	21	amod	_	SpaceAfter=No
+23	"	"	PUNCT	.	_	14	punct	_	_
+24	e	e	CCONJ	CONJ	_	25	cc	_	_
+25	ressaltou	ressaltar	VERB	VERB	_	3	conj	_	_
+26	que	que	CCONJ	CONJ	_	31	mark	_	_
+27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	pobreza	pobreza	NOUN	NOUN	_	31	nsubj	_	_
+29	extrema	extremo	ADJ	ADJ	_	28	amod	_	_
+30	vem	vir	AUX	AUX	_	31	aux	_	_
+31	diminuindo	diminuir	VERB	VERB	_	25	ccomp	_	_
+32	desde	_	ADP	ADP	_	33	case	_	_
+33	2003	2003	NUM	NUM	NumType=Card	31	nmod	_	_
+34	e	e	CCONJ	CONJ	_	42	cc	_	_
+35	que	que	CCONJ	CONJ	_	42	mark	_	_
+36	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	meta	meta	NOUN	NOUN	_	42	nsubj:pass	_	_
+38	prevista	prever	VERB	VERB	_	37	acl	_	_
+39	para	para	ADP	ADP	_	40	case	_	_
+40	2015	2015	NUM	NUM	NumType=Card	38	nmod	_	_
+41	foi	_	AUX	AUX	_	42	aux:pass	_	_
+42	alcançada	alcançar	VERB	VERB	_	31	conj	_	_
+43	ainda	ainda	ADV	ADV	_	45	advmod	_	_
+44	em	em	ADP	ADP	_	45	case	_	_
+45	2006	2006	NUM	NUM	NumType=Card	42	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	.	_	3	punct	_	_
+

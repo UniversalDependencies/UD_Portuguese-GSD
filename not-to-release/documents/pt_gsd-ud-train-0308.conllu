@@ -1,0 +1,235 @@
+# sent_id = train-s3057
+# text = Fica feio e "fake".
+1	Fica	ficar	VERB	VERB	_	0	root	_	_
+2	feio	feio	ADJ	ADJ	_	1	xcomp	_	_
+3	e	e	CCONJ	CONJ	_	5	cc	_	_
+4	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
+5	fake	_	X	X	_	2	conj	_	SpaceAfter=No
+6	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s3058
+# text = "Ela não tinha dor de cabeça, não sentia nada.
+1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
+2	Ela	_	PRON	PRON	_	4	nsubj	_	_
+3	não	não	ADV	ADV	Polarity=Neg	4	advmod	_	_
+4	tinha	ter	VERB	VERB	_	0	root	_	_
+5	dor	dor	NOUN	NOUN	_	4	obj	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
+7	cabeça	cabeça	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	10	punct	_	_
+9	não	não	ADV	ADV	Polarity=Neg	10	advmod	_	_
+10	sentia	sentir	VERB	VERB	_	4	conj	_	_
+11	nada	_	PRON	PRON	_	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s3059
+# text = No exterior, o lateral esquerdo Rojo assinou com o Benfica por 4 milhões de euros.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	ADP	_	3	case	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	exterior	exterior	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	lateral	lateral	NOUN	NOUN	_	9	nsubj	_	_
+7	esquerdo	esquerdo	ADJ	ADJ	_	6	amod	_	_
+8	Rojo	_	PROPN	PNOUN	_	6	appos	_	_
+9	assinou	assinar	VERB	VERB	_	0	root	_	_
+10	com	com	ADP	ADP	_	12	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Benfica	_	PROPN	PNOUN	_	9	nmod	_	_
+13	por	por	ADP	ADP	_	17	case	_	_
+14	4	4	NUM	NUM	NumType=Card	15	nummod	_	_
+15	milhões	_	NUM	NUM	NumType=Card	17	nummod	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
+17	euros	euro	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = train-s3060
+# text = Patterson serviu como Procurador - geral no Condado de Shelby de 1894 a 1900, onde foi eleito para a Câmara dos Representantes dos Estados Unidos.
+1	Patterson	_	PROPN	PNOUN	_	2	nsubj	_	_
+2	serviu	servir	VERB	VERB	_	0	root	_	_
+3	como	como	ADP	ADP	_	4	case	_	_
+4	Procurador	_	PROPN	PNOUN	_	2	nmod	_	_
+5	-	-	PUNCT	.	_	4	punct	_	_
+6	geral	geral	ADJ	ADJ	_	4	amod	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Condado	_	PROPN	PNOUN	_	2	nmod	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
+11	Shelby	_	PROPN	PNOUN	_	9	nmod	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
+13	1894	1894	NUM	NUM	NumType=Card	2	nmod	_	_
+14	a	_	ADP	ADP	_	15	case	_	_
+15	1900	1900	NUM	NUM	NumType=Card	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	.	_	19	punct	_	_
+17	onde	onde	ADV	ADV	_	19	advmod	_	_
+18	foi	_	AUX	AUX	_	19	aux:pass	_	_
+19	eleito	eleger	VERB	VERB	_	9	acl:relcl	_	_
+20	para	para	ADP	ADP	_	22	case	_	_
+21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Câmara	_	PROPN	PNOUN	_	19	nmod	_	_
+23-24	dos	_	_	_	_	_	_	_	_
+23	de	de	ADP	ADP	_	25	case	_	_
+24	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	Representantes	_	PROPN	PNOUN	_	22	nmod	_	_
+26-27	dos	_	_	_	_	_	_	_	_
+26	de	de	ADP	ADP	_	28	case	_	_
+27	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	Estados	_	PROPN	PNOUN	_	22	nmod	_	_
+29	Unidos	_	PROPN	PNOUN	_	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s3061
+# text = Transformando dados obtidos dos experimentos em informações, os pesquisadores apresentarão sistemas de produção inovadores.
+1	Transformando	transformar	VERB	VERB	_	12	acl	_	_
+2	dados	dado	NOUN	NOUN	_	1	obj	_	_
+3	obtidos	obter	VERB	VERB	_	2	acl	_	_
+4-5	dos	_	_	_	_	_	_	_	_
+4	de	de	ADP	ADP	_	6	case	_	_
+5	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	experimentos	experimento	NOUN	NOUN	_	3	nmod	_	_
+7	em	em	ADP	ADP	_	8	case	_	_
+8	informações	informação	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	1	punct	_	_
+10	os	o	DET	DET	_	11	det	_	_
+11	pesquisadores	pesquisador	NOUN	NOUN	_	12	nsubj	_	_
+12	apresentarão	apresentar	VERB	VERB	_	0	root	_	_
+13	sistemas	sistema	NOUN	NOUN	_	12	obj	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
+15	produção	produção	NOUN	NOUN	_	13	nmod	_	_
+16	inovadores	inovador	ADJ	ADJ	_	13	amod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = train-s3062
+# text = Antes, com uma empresa estatal à frente da gestão, não cabia a cobrança da taxa.
+1	Antes	antes	ADV	ADV	_	15	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	.	_	5	punct	_	_
+3	com	com	ADP	ADP	_	5	case	_	_
+4	uma	um	DET	DET	_	5	det	_	_
+5	empresa	empresa	NOUN	NOUN	_	15	nmod	_	_
+6	estatal	estatal	ADJ	ADJ	_	5	amod	_	_
+7-8	à	_	_	_	_	_	_	_	_
+7	a	a	ADP	ADP	_	9	case	_	_
+8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	frente	frente	NOUN	NOUN	_	5	nmod	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	ADP	_	12	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	gestão	gestão	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	.	_	5	punct	_	_
+14	não	não	ADV	ADV	Polarity=Neg	15	advmod	_	_
+15	cabia	caber	VERB	VERB	_	0	root	_	_
+16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	cobrança	cobrança	NOUN	NOUN	_	15	nsubj	_	_
+18-19	da	_	_	_	_	_	_	_	_
+18	de	de	ADP	ADP	_	20	case	_	_
+19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	taxa	taxa	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = train-s3063
+# text = Mas nem tudo o que se vê na propaganda eleitoral deles está de acordo com a lei.
+1	Mas	_	CCONJ	CONJ	_	13	cc	_	_
+2	nem	_	ADV	ADV	_	3	advmod	_	_
+3	tudo	_	PRON	PRON	_	4	det	_	_
+4	o	_	PRON	PRON	_	13	nsubj	_	_
+5	que	_	PRON	PRON	_	7	nsubj	_	_
+6	se	_	PRON	PRON	_	7	expl:pv	_	_
+7	vê	ver	VERB	VERB	_	4	acl:relcl	_	_
+8-9	na	_	_	_	_	_	_	_	_
+8	em	em	ADP	ADP	_	10	case	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	propaganda	propaganda	NOUN	NOUN	_	7	nmod	_	_
+11	eleitoral	eleitoral	ADJ	ADJ	_	10	amod	_	_
+12	deles	_	X	ADPPRON	_	10	det:poss	_	_
+13	está	estar	VERB	VERB	_	0	root	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
+15	acordo	acordo	NOUN	NOUN	_	13	nmod	_	_
+16	com	com	ADP	ADP	_	18	case	_	_
+17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	lei	lei	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = train-s3064
+# text = "A Hyundai não quer dividir a fábrica, eles precisam duma grande produção para atender o quinto maior mercado do mundo", disse.
+1	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
+2	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Hyundai	_	PROPN	PNOUN	_	5	nsubj	_	_
+4	não	não	ADV	ADV	Polarity=Neg	5	advmod	_	_
+5	quer	querer	VERB	VERB	_	27	ccomp	_	_
+6	dividir	dividir	VERB	VERB	_	5	xcomp	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	fábrica	fábrica	NOUN	NOUN	_	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	5	punct	_	_
+10	eles	_	PRON	PRON	_	11	nsubj	_	_
+11	precisam	precisar	VERB	VERB	_	5	parataxis	_	_
+12-13	duma	_	_	_	_	_	_	_	_
+12	de	de	ADP	ADP	_	15	case	_	_
+13	uma	um	DET	DET	_	15	det	_	_
+14	grande	grande	ADJ	ADJ	_	15	amod	_	_
+15	produção	produção	NOUN	NOUN	_	11	nmod	_	_
+16	para	_	ADP	ADP	_	17	mark	_	_
+17	atender	atender	VERB	VERB	_	11	advcl	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+19	quinto	_	ADJ	ADJ	_	21	amod	_	_
+20	maior	maior	ADJ	ADJ	_	21	amod	_	_
+21	mercado	mercado	NOUN	NOUN	_	17	obj	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	ADP	_	24	case	_	_
+23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	mundo	mundo	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
+25	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
+26	,	,	PUNCT	.	_	27	punct	_	_
+27	disse	dizer	VERB	VERB	_	0	root	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	27	punct	_	_
+
+# sent_id = train-s3065
+# text = Além do controle emocional, Jô atribui a queda de rendimento do Galo à forte marcação dos adversários.
+1	Além	além	ADV	ADV	_	8	advmod	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	ADP	_	4	case	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	controle	_	NOUN	NOUN	_	1	nmod	_	_
+5	emocional	emocional	ADJ	ADJ	_	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	.	_	1	punct	_	_
+7	Jô	_	PROPN	PNOUN	_	8	nsubj	_	_
+8	atribui	atribuir	VERB	VERB	_	0	root	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	queda	queda	NOUN	NOUN	_	8	obj	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
+12	rendimento	rendimento	NOUN	NOUN	_	10	nmod	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Galo	_	PROPN	PNOUN	_	12	nmod	_	_
+16-17	à	_	_	_	_	_	_	_	_
+16	a	a	ADP	ADP	_	19	case	_	_
+17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	forte	forte	ADJ	ADJ	_	19	amod	_	_
+19	marcação	marcação	NOUN	NOUN	_	8	iobj	_	_
+20-21	dos	_	_	_	_	_	_	_	_
+20	de	de	ADP	ADP	_	22	case	_	_
+21	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	adversários	adversário	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s3066
+# text = Outro problema apontado por ele são os barulhos fora do horário permitido.
+1	Outro	_	DET	DET	_	2	det	_	_
+2	problema	problema	NOUN	NOUN	_	8	nsubj	_	_
+3	apontado	apontar	VERB	VERB	_	2	acl	_	_
+4	por	por	ADP	ADP	_	5	case	_	_
+5	ele	_	PRON	PRON	_	3	nmod	_	_
+6	são	ser	AUX	AUX	_	8	cop	_	_
+7	os	o	DET	DET	_	8	det	_	_
+8	barulhos	barulho	NOUN	NOUN	_	0	root	_	_
+9	fora	fora	ADV	ADV	_	8	advmod	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	ADP	_	12	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	horário	horário	NOUN	NOUN	_	9	nmod	_	_
+13	permitido	permitir	VERB	VERB	_	12	acl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	8	punct	_	_
+

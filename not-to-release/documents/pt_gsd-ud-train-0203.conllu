@@ -1,0 +1,244 @@
+# sent_id = train-s2015
+# text = Fonte: Imprensa Diretriz
+1	Fonte	fonte	NOUN	NOUN	_	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	.	_	1	punct	_	_
+3	Imprensa	_	PROPN	PNOUN	_	1	appos	_	_
+4	Diretriz	_	PROPN	PNOUN	_	3	flat	_	_
+
+# sent_id = train-s2016
+# text = A ação é movida contra a Agência Nacional de Aviação Civil (Anac), responsável pela regulamentação dos voos no país.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ação	ação	NOUN	NOUN	_	4	nsubj:pass	_	_
+3	é	ser	AUX	AUX	_	4	aux:pass	_	_
+4	movida	mover	VERB	VERB	_	0	root	_	_
+5	contra	_	ADP	ADP	_	7	case	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Agência	_	PROPN	PNOUN	_	4	nmod	_	_
+8	Nacional	_	PROPN	PNOUN	_	7	amod	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
+10	Aviação	_	PROPN	PNOUN	_	7	nmod	_	_
+11	Civil	_	PROPN	PNOUN	_	10	amod	_	_
+12	(	(	PUNCT	.	_	13	punct	_	SpaceAfter=No
+13	Anac	_	PROPN	PNOUN	_	7	appos	_	SpaceAfter=No
+14	)	)	PUNCT	.	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	.	_	16	punct	_	_
+16	responsável	responsável	ADJ	ADJ	_	7	amod	_	_
+17-18	pela	_	_	_	_	_	_	_	_
+17	por	por	ADP	ADP	_	19	case	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	regulamentação	regulamentação	NOUN	NOUN	_	16	nmod	_	_
+20-21	dos	_	_	_	_	_	_	_	_
+20	de	de	ADP	ADP	_	22	case	_	_
+21	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	voos	voo	NOUN	NOUN	_	19	nmod	_	_
+23-24	no	_	_	_	_	_	_	_	_
+23	em	em	ADP	ADP	_	25	case	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	país	país	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s2017
+# text = Serão feitas duas perícias, dos bombeiros e da defesa civil, que já chegou ao clube.
+1	Serão	ser	AUX	AUX	_	2	aux:pass	_	_
+2	feitas	_	VERB	VERB	_	0	root	_	_
+3	duas	_	NUM	NUM	NumType=Card	4	nummod	_	_
+4	perícias	perícia	NOUN	NOUN	_	2	nsubj:pass	_	SpaceAfter=No
+5	,	,	PUNCT	.	_	4	punct	_	_
+6-7	dos	_	_	_	_	_	_	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	bombeiros	bombeiro	NOUN	NOUN	_	4	nmod	_	_
+9	e	e	CCONJ	CONJ	_	12	cc	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	ADP	_	12	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	defesa	_	NOUN	NOUN	_	8	conj	_	_
+13	civil	civil	ADJ	ADJ	_	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	12	punct	_	_
+15	que	_	PRON	PRON	_	17	nsubj	_	_
+16	já	já	ADV	ADV	_	17	advmod	_	_
+17	chegou	chegar	VERB	VERB	_	12	acl:relcl	_	_
+18-19	ao	_	_	_	_	_	_	_	_
+18	a	a	ADP	ADP	_	20	case	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	clube	clube	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s2018
+# text = Conforme relatou o primo, ele foi a pé para a empresa.
+1	Conforme	_	ADP	ADP	_	2	mark	_	_
+2	relatou	relatar	VERB	VERB	_	7	advcl	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	primo	primo	NOUN	NOUN	_	2	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	.	_	2	punct	_	_
+6	ele	_	PRON	PRON	_	7	nsubj	_	_
+7	foi	_	VERB	VERB	_	0	root	_	_
+8	a	_	ADP	ADP	_	9	case	_	_
+9	pé	pé	NOUN	NOUN	_	7	nmod	_	_
+10	para	para	ADP	ADP	_	12	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	empresa	empresa	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s2019
+# text = Dos 25 focas (nome dado a profissionais recém - formados em jornalismo) selecionados para o curso, 16 vieram doutras cidades do País para a capital paulista.
+1-2	Dos	_	_	_	_	_	_	_	_
+1	De	de	ADP	ADP	_	4	case	_	_
+2	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	25	25	NUM	NUM	NumType=Card	4	nummod	_	_
+4	focas	foca	NOUN	NOUN	_	22	nmod	_	_
+5	(	(	PUNCT	.	_	6	punct	_	SpaceAfter=No
+6	nome	nome	NOUN	NOUN	_	4	appos	_	_
+7	dado	dar	VERB	VERB	_	6	acl	_	_
+8	a	_	ADP	ADP	_	9	case	_	_
+9	profissionais	profissional	NOUN	NOUN	_	7	nmod	_	_
+10	recém	_	PART	PRT	_	12	amod	_	_
+11	-	-	PUNCT	.	_	12	punct	_	_
+12	formados	formado	ADJ	ADJ	_	9	amod	_	_
+13	em	em	ADP	ADP	_	14	case	_	_
+14	jornalismo	jornalismo	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
+15	)	)	PUNCT	.	_	6	punct	_	_
+16	selecionados	selecionar	VERB	VERB	_	4	acl	_	_
+17	para	para	ADP	ADP	_	19	case	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	curso	curso	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	.	_	4	punct	_	_
+21	16	16	NUM	NUM	NumType=Card	22	nsubj	_	_
+22	vieram	vir	VERB	VERB	_	0	root	_	_
+23-24	doutras	_	_	_	_	_	_	_	_
+23	de	de	ADP	ADP	_	25	case	_	_
+24	outras	_	DET	DET	_	25	det	_	_
+25	cidades	cidade	NOUN	NOUN	_	22	nmod	_	_
+26-27	do	_	_	_	_	_	_	_	_
+26	de	de	ADP	ADP	_	28	case	_	_
+27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	País	_	PROPN	PNOUN	_	25	nmod	_	_
+29	para	para	ADP	ADP	_	31	case	_	_
+30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	capital	capital	NOUN	NOUN	_	22	nmod	_	_
+32	paulista	paulista	ADJ	ADJ	_	31	amod	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	22	punct	_	_
+
+# sent_id = train-s2020
+# text = O senador Randolfe Rodrigues (PSOL - AP) foi um dos que reclamaram.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	senador	senador	NOUN	NOUN	_	11	nsubj	_	_
+3	Randolfe	_	PROPN	PNOUN	_	2	appos	_	_
+4	Rodrigues	_	PROPN	PNOUN	_	3	flat	_	_
+5	(	(	PUNCT	.	_	6	punct	_	SpaceAfter=No
+6	PSOL	_	PROPN	PNOUN	_	2	appos	_	_
+7	-	-	PUNCT	.	_	6	punct	_	_
+8	AP	_	PROPN	PNOUN	_	6	flat	_	SpaceAfter=No
+9	)	)	PUNCT	.	_	6	punct	_	_
+10	foi	_	AUX	AUX	_	11	cop	_	_
+11	um	_	PRON	PRON	_	0	root	_	_
+12	dos	_	X	ADPPRON	_	11	nmod	_	_
+13	que	_	PRON	PRON	_	14	nsubj	_	_
+14	reclamaram	reclamar	VERB	VERB	_	12	acl:relcl	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = train-s2021
+# text = Estende-se por uma área de 14,74 km ².
+1-2	Estende-se	_	_	_	_	_	_	_	_
+1	Estende	estender	VERB	VERB	_	0	root	_	_
+2	se	_	PART	PRT	_	1	expl:pv	_	_
+3	por	por	ADP	ADP	_	5	case	_	_
+4	uma	um	DET	DET	_	5	det	_	_
+5	área	área	NOUN	NOUN	_	1	nmod	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	14,74	14,74	NUM	NUM	NumType=Card	8	nummod	_	_
+8	km	km	NOUN	NOUN	_	5	nmod	_	_
+9	²	_	PUNCT	.	_	8	punct	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s2022
+# text = Então, olhar para um smartphone que está no colo, pode significar que o pescoço está segurando uma cabeça que parece ter 20 ou 30 quilos.
+1	Então	então	ADV	ADV	_	14	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	.	_	1	punct	_	_
+3	olhar	olhar	VERB	VERB	_	14	csubj	_	_
+4	para	para	ADP	ADP	_	6	case	_	_
+5	um	um	DET	DET	_	6	det	_	_
+6	smartphone	_	NOUN	NOUN	_	3	nmod	_	_
+7	que	_	PRON	PRON	_	8	nsubj	_	_
+8	está	estar	VERB	VERB	_	6	acl:relcl	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	ADP	_	11	case	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	colo	colo	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	.	_	3	punct	_	_
+13	pode	_	AUX	AUX	_	14	aux	_	_
+14	significar	significar	VERB	VERB	_	0	root	_	_
+15	que	que	CCONJ	CONJ	_	19	mark	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	pescoço	pescoço	NOUN	NOUN	_	19	nsubj	_	_
+18	está	estar	AUX	AUX	_	19	aux	_	_
+19	segurando	segurar	VERB	VERB	_	14	ccomp	_	_
+20	uma	um	DET	DET	_	21	det	_	_
+21	cabeça	cabeça	NOUN	NOUN	_	19	obj	_	_
+22	que	_	PRON	PRON	_	23	nsubj	_	_
+23	parece	parecer	VERB	VERB	_	21	acl:relcl	_	_
+24	ter	ter	VERB	VERB	_	23	xcomp	_	_
+25	20	20	NUM	NUM	NumType=Card	28	nummod	_	_
+26	ou	ou	CCONJ	CONJ	_	27	cc	_	_
+27	30	30	NUM	NUM	NumType=Card	25	conj	_	_
+28	quilos	quilo	NOUN	NOUN	_	24	obj	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = train-s2023
+# text = Após ser vendida para um homem desconhecido, Morena (Nanda Costa) vai para um quarto, do leilão, trocar de roupa.
+1	Após	_	ADP	ADP	_	3	mark	_	_
+2	ser	ser	AUX	AUX	_	3	aux:pass	_	_
+3	vendida	vender	VERB	VERB	_	14	advcl	_	_
+4	para	para	ADP	ADP	_	6	case	_	_
+5	um	um	DET	DET	_	6	det	_	_
+6	homem	homem	NOUN	NOUN	_	3	nmod	_	_
+7	desconhecido	desconhecido	ADJ	ADJ	_	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	3	punct	_	_
+9	Morena	_	PROPN	PNOUN	_	14	nsubj	_	_
+10	(	(	PUNCT	.	_	11	punct	_	SpaceAfter=No
+11	Nanda	_	PROPN	PNOUN	_	9	appos	_	_
+12	Costa	_	PROPN	PNOUN	_	11	flat	_	SpaceAfter=No
+13	)	)	PUNCT	.	_	11	punct	_	_
+14	vai	ir	VERB	VERB	_	0	root	_	_
+15	para	para	ADP	ADP	_	17	case	_	_
+16	um	um	DET	DET	_	17	det	_	_
+17	quarto	quarto	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	.	_	21	punct	_	_
+19-20	do	_	_	_	_	_	_	_	_
+19	de	de	ADP	ADP	_	21	case	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	leilão	leilão	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	.	_	21	punct	_	_
+23	trocar	trocar	VERB	VERB	_	14	xcomp	_	_
+24	de	de	ADP	ADP	_	25	case	_	_
+25	roupa	roupa	NOUN	NOUN	_	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = train-s2024
+# text = Durante os quatro anos de luta contra o câncer, o menino só conseguiu frequentar o primeiro ano da pré - escola.
+1	Durante	_	ADP	ADP	_	4	case	_	_
+2	os	o	DET	DET	_	4	det	_	_
+3	quatro	_	NUM	NUM	NumType=Card	4	nummod	_	_
+4	anos	ano	NOUN	NOUN	_	14	nmod	_	_
+5	de	de	ADP	ADP	_	6	case	_	_
+6	luta	luta	NOUN	NOUN	_	4	nmod	_	_
+7	contra	_	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	câncer	câncer	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	4	punct	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	menino	menino	NOUN	NOUN	_	14	nsubj	_	_
+13	só	só	ADV	ADV	_	14	advmod	_	_
+14	conseguiu	conseguir	VERB	VERB	_	0	root	_	_
+15	frequentar	frequentar	VERB	VERB	_	14	xcomp	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	primeiro	primeiro	ADJ	ADJ	_	18	amod	_	_
+18	ano	ano	NOUN	NOUN	_	15	obj	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	ADP	_	21	case	_	_
+20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	pré	_	PART	PRT	_	18	nmod	_	_
+22	-	-	PUNCT	.	_	21	punct	_	_
+23	escola	escola	NOUN	NOUN	_	21	flat	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	14	punct	_	_
+

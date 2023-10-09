@@ -1,0 +1,252 @@
+# sent_id = test-s220
+# text = '' Não houve negociação com o governo e, com isso, decidimos paralisar os trabalhos para forçar um início de conversa '', afirma.
+1	''	_	PUNCT	.	_	3	punct	_	_
+2	Não	não	ADV	ADV	Polarity=Neg	3	advmod	_	_
+3	houve	haver	VERB	VERB	_	25	ccomp	_	_
+4	negociação	negociação	NOUN	NOUN	_	3	obj	_	_
+5	com	com	ADP	ADP	_	7	case	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	governo	governo	NOUN	NOUN	_	4	nmod	_	_
+8	e	e	CCONJ	CONJ	_	13	cc	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	11	punct	_	_
+10	com	com	ADP	ADP	_	11	case	_	_
+11	isso	_	PRON	PRON	_	13	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	.	_	11	punct	_	_
+13	decidimos	decidir	VERB	VERB	_	3	conj	_	_
+14	paralisar	paralisar	VERB	VERB	_	13	xcomp	_	_
+15	os	o	DET	DET	_	16	det	_	_
+16	trabalhos	trabalho	NOUN	NOUN	_	14	obj	_	_
+17	para	_	ADP	ADP	_	18	mark	_	_
+18	forçar	forçar	VERB	VERB	_	13	advcl	_	_
+19	um	um	DET	DET	_	20	det	_	_
+20	início	início	NOUN	NOUN	_	18	obj	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
+22	conversa	_	NOUN	NOUN	_	20	nmod	_	_
+23	''	_	PUNCT	.	_	3	punct	_	SpaceAfter=No
+24	,	,	PUNCT	.	_	25	punct	_	_
+25	afirma	afirmar	VERB	VERB	_	0	root	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	25	punct	_	_
+
+# sent_id = test-s221
+# text = No ano de 1980, a terra foi vendida para a empresa petrolífera italiana Agip.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	ADP	_	3	case	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	ano	ano	NOUN	NOUN	_	10	nmod	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
+5	1980	1980	NUM	NUM	NumType=Card	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	.	_	3	punct	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	terra	terra	NOUN	NOUN	_	10	nsubj:pass	_	_
+9	foi	_	AUX	AUX	_	10	aux:pass	_	_
+10	vendida	vender	VERB	VERB	_	0	root	_	_
+11	para	para	ADP	ADP	_	13	case	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	empresa	empresa	NOUN	NOUN	_	10	nmod	_	_
+14	petrolífera	petrolífero	ADJ	ADJ	_	13	amod	_	_
+15	italiana	italiano	ADJ	ADJ	_	13	amod	_	_
+16	Agip	_	PROPN	PNOUN	_	13	appos	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = test-s222
+# text = Os ingressos estão esgotados desde o sábado, com venda apenas para sócios - torcedores.
+1	Os	o	DET	DET	_	2	det	_	_
+2	ingressos	ingresso	NOUN	NOUN	_	3	nsubj	_	_
+3	estão	estar	VERB	VERB	_	0	root	_	_
+4	esgotados	esgotado	ADJ	ADJ	_	3	xcomp	_	_
+5	desde	_	ADP	ADP	_	7	case	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	sábado	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	10	punct	_	_
+9	com	com	ADP	ADP	_	10	case	_	_
+10	venda	venda	NOUN	NOUN	_	3	nmod	_	_
+11	apenas	apenas	ADV	ADV	_	13	advmod	_	_
+12	para	para	ADP	ADP	_	13	case	_	_
+13	sócios	sócio	NOUN	NOUN	_	10	nmod	_	_
+14	-	-	PUNCT	.	_	15	punct	_	_
+15	torcedores	torcedor	NOUN	NOUN	_	13	conj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = test-s223
+# text = Comprava remédios e sprays para afugentar as moscas, mas meu gado continuava morrendo.
+1	Comprava	comprar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	remédios	remédio	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
+3	e	e	CCONJ	_	_	4	cc	_	_
+4	sprays	spray	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	_
+5	para	para	SCONJ	_	_	6	mark	_	_
+6	afugentar	afugentar	VERB	_	VerbForm=Inf	1	advcl	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	moscas	mosca	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	13	punct	_	_
+10	mas	mas	CCONJ	_	_	13	cc	_	_
+11	meu	meu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	12	det	_	_
+12	gado	gado	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+13	continuava	continuar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+14	morrendo	morrer	VERB	_	VerbForm=Ger	13	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = test-s224
+# text = Atualmente, para o setor, Vadão conta somente com Felipe Azevedo e Gilsinho, uma vez que as situações de Gilberto e Henrique seguem indefinidas.
+1	Atualmente	atualmente	ADV	ADV	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	.	_	1	punct	_	_
+3	para	para	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	setor	setor	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	.	_	5	punct	_	_
+7	Vadão	_	PROPN	PNOUN	_	8	nsubj	_	_
+8	conta	contar	VERB	VERB	_	0	root	_	_
+9	somente	somente	ADV	ADV	_	8	advmod	_	_
+10	com	com	ADP	ADP	_	11	case	_	_
+11	Felipe	_	PROPN	PNOUN	_	8	nmod	_	_
+12	Azevedo	_	PROPN	PNOUN	_	11	flat	_	_
+13	e	e	CCONJ	CONJ	_	14	cc	_	_
+14	Gilsinho	_	PROPN	PNOUN	_	11	conj	_	SpaceAfter=No
+15	,	,	PUNCT	.	_	25	punct	_	_
+16	uma	_	DET	DET	_	25	mark	_	_
+17	vez	vez	NOUN	NOUN	_	16	fixed	_	_
+18	que	_	CCONJ	CONJ	_	16	fixed	_	_
+19	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	situações	situação	NOUN	NOUN	_	25	nsubj	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
+22	Gilberto	_	PROPN	PNOUN	_	20	nmod	_	_
+23	e	e	CCONJ	CONJ	_	24	cc	_	_
+24	Henrique	_	PROPN	PNOUN	_	22	conj	_	_
+25	seguem	_	VERB	VERB	_	8	advcl	_	_
+26	indefinidas	indefinido	ADJ	ADJ	_	25	xcomp	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = test-s225
+# text = Esse horário estendido é que vai permitir que as pessoas comprem seus presentes com a segunda parcela.
+1	Esse	_	DET	DET	_	2	det	_	_
+2	horário	horário	NOUN	NOUN	_	4	nsubj	_	_
+3	estendido	estendido	ADJ	ADJ	_	2	amod	_	_
+4	é	ser	VERB	VERB	_	0	root	_	_
+5	que	_	PRON	PRON	_	7	nsubj	_	_
+6	vai	ir	AUX	AUX	_	7	aux	_	_
+7	permitir	permitir	VERB	VERB	_	2	acl:relcl	_	_
+8	que	que	CCONJ	CONJ	_	11	mark	_	_
+9	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	pessoas	pessoa	NOUN	NOUN	_	11	nsubj	_	_
+11	comprem	comprar	VERB	VERB	_	7	ccomp	_	_
+12	seus	_	DET	DET	_	13	det:poss	_	_
+13	presentes	_	NOUN	NOUN	_	11	obj	_	_
+14	com	com	ADP	ADP	_	17	case	_	_
+15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	segunda	segundo	ADJ	ADJ	_	17	amod	_	_
+17	parcela	parcela	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = test-s226
+# text = PAC -- Para 2013, segundo a LDO, a meta do superávit primário foi mantida em 3,1 % do Produto Interno Bruto (PIB) estimado para o ano, o que representa uma economia de R $ 155,9 bilhões, sendo R $ 108,1 bilhões de responsabilidade do governo central.
+1	PAC	_	PROPN	PNOUN	_	17	parataxis	_	_
+2	--	_	PUNCT	.	_	17	punct	_	_
+3	Para	_	ADP	ADP	_	4	case	_	_
+4	2013	2013	NUM	NUM	NumType=Card	17	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	.	_	4	punct	_	_
+6	segundo	_	ADP	ADP	_	8	case	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	LDO	_	PROPN	PNOUN	_	17	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	8	punct	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	meta	meta	NOUN	NOUN	_	17	nsubj:pass	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	ADP	_	14	case	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	superávit	superávit	NOUN	NOUN	_	11	nmod	_	_
+15	primário	primário	ADJ	ADJ	_	14	amod	_	_
+16	foi	_	AUX	AUX	_	17	aux:pass	_	_
+17	mantida	manter	VERB	VERB	_	0	root	_	_
+18	em	em	ADP	ADP	_	20	case	_	_
+19	3,1	3,1	NUM	NUM	NumType=Card	20	nummod	_	_
+20	%	_	SYM	SYM	_	17	nmod	_	_
+21-22	do	_	_	_	_	_	_	_	_
+21	de	de	ADP	ADP	_	23	case	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Produto	_	PROPN	PNOUN	_	20	nmod	_	_
+24	Interno	_	PROPN	PNOUN	_	23	amod	_	_
+25	Bruto	_	PROPN	PNOUN	_	23	amod	_	_
+26	(	(	PUNCT	.	_	27	punct	_	SpaceAfter=No
+27	PIB	_	PROPN	PNOUN	_	23	appos	_	SpaceAfter=No
+28	)	)	PUNCT	.	_	27	punct	_	_
+29	estimado	estimar	VERB	VERB	_	23	acl	_	_
+30	para	para	ADP	ADP	_	32	case	_	_
+31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	ano	ano	NOUN	NOUN	_	29	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	.	_	36	punct	_	_
+34	o	o	DET	DET	_	35	det	_	_
+35	que	_	PRON	PRON	_	36	nsubj	_	_
+36	representa	representar	VERB	VERB	_	17	acl:relcl	_	_
+37	uma	um	DET	DET	_	38	det	_	_
+38	economia	economia	NOUN	NOUN	_	36	obj	_	_
+39	de	de	ADP	ADP	_	40	case	_	_
+40	R	r	NOUN	NOUN	_	38	nmod	_	_
+41	$	_	SYM	SYM	_	40	flat	_	_
+42	155,9	155,9	NUM	NUM	NumType=Card	43	nummod	_	_
+43	bilhões	_	NUM	NUM	NumType=Card	40	nummod	_	SpaceAfter=No
+44	,	,	PUNCT	.	_	45	punct	_	_
+45	sendo	ser	VERB	VERB	_	40	acl	_	_
+46	R	r	NOUN	NOUN	_	45	nsubj	_	_
+47	$	_	SYM	SYM	_	46	flat	_	_
+48	108,1	108,1	NUM	NUM	NumType=Card	49	nummod	_	_
+49	bilhões	_	NUM	NUM	NumType=Card	46	nummod	_	_
+50	de	de	ADP	ADP	_	51	case	_	_
+51	responsabilidade	responsabilidade	NOUN	NOUN	_	46	nmod	_	_
+52-53	do	_	_	_	_	_	_	_	_
+52	de	de	ADP	ADP	_	54	case	_	_
+53	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	governo	governo	NOUN	NOUN	_	51	nmod	_	_
+55	central	central	ADJ	ADJ	_	54	amod	_	SpaceAfter=No
+56	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = test-s227
+# text = Em 10 dias, ele deve receber a resposta.
+1	Em	em	ADP	ADP	_	3	case	_	_
+2	10	10	NUM	NUM	NumType=Card	3	nummod	_	_
+3	dias	dia	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	ele	_	PRON	PRON	_	7	nsubj	_	_
+6	deve	dever	AUX	AUX	_	7	aux	_	_
+7	receber	receber	VERB	VERB	_	0	root	_	_
+8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	resposta	resposta	NOUN	NOUN	_	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = test-s228
+# text = Apesar de livre, é hoje considerado um dissidente.
+1	Apesar	apesar	ADV	ADV	_	3	mark	_	_
+2	de	_	ADP	ADP	_	1	fixed	_	_
+3	livre	livre	ADJ	ADJ	_	9	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	é	ser	AUX	AUX	_	9	aux:pass	_	_
+6	hoje	hoje	ADV	ADV	_	9	advmod	_	_
+7	considerado	considerar	AUX	AUX	_	9	cop	_	_
+8	um	um	DET	DET	_	9	det	_	_
+9	dissidente	dissidente	NOUN	NOUN	_	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = test-s229
+# text = Outra palestra que chamou a atenção dos líderes presentes no congresso foi a do Murali Dharan.
+1	Outra	_	DET	DET	_	2	det	_	_
+2	palestra	palestra	NOUN	NOUN	_	0	root	_	_
+3	que	_	PRON	PRON	_	4	nsubj	_	_
+4	chamou	chamar	VERB	VERB	_	2	acl:relcl	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	atenção	atenção	NOUN	NOUN	_	4	obj	_	_
+7-8	dos	_	_	_	_	_	_	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
+8	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	líderes	líder	NOUN	NOUN	_	6	nmod	_	_
+10	presentes	presente	ADJ	ADJ	_	9	amod	_	_
+11-12	no	_	_	_	_	_	_	_	_
+11	em	em	ADP	ADP	_	13	case	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	congresso	congresso	NOUN	NOUN	_	10	nmod	_	_
+14	foi	_	AUX	AUX	_	2	cop	_	_
+15	a	_	PRON	PRON	_	2	nsubj	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Murali	_	PROPN	PNOUN	_	15	nmod	_	_
+19	Dharan	_	PROPN	PNOUN	_	18	flat	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	_
+

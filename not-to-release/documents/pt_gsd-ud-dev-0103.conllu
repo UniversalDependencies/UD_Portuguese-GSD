@@ -1,0 +1,257 @@
+# sent_id = dev-s1012
+# text = O Estádio Eduardo José Farah, no entanto, recepcionará o elenco palestrino com uma lembrança não muito agradável: o famoso "gol do alambrado" marcado por Ronaldo no clássico diante do Corinthians.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Estádio	_	PROPN	PNOUN	_	11	nsubj	_	_
+3	Eduardo	_	PROPN	PNOUN	_	2	flat	_	_
+4	José	_	PROPN	PNOUN	_	2	flat	_	_
+5	Farah	_	PROPN	PNOUN	_	2	flat	_	SpaceAfter=No
+6	,	,	PUNCT	.	_	9	punct	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	entanto	entanto	ADV	ADV	_	11	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	9	punct	_	_
+11	recepcionará	recepcionar	VERB	VERB	_	0	root	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	elenco	elenco	NOUN	NOUN	_	11	obj	_	_
+14	palestrino	_	ADJ	ADJ	_	13	amod	_	_
+15	com	com	ADP	ADP	_	17	case	_	_
+16	uma	um	DET	DET	_	17	det	_	_
+17	lembrança	lembrança	NOUN	NOUN	_	11	nmod	_	_
+18	não	não	ADV	ADV	Polarity=Neg	20	advmod	_	_
+19	muito	muito	ADV	ADV	_	20	advmod	_	_
+20	agradável	agradável	ADJ	ADJ	_	17	amod	_	SpaceAfter=No
+21	:	:	PUNCT	.	_	17	punct	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+23	famoso	famoso	ADJ	ADJ	_	25	amod	_	_
+24	"	"	PUNCT	.	_	25	punct	_	SpaceAfter=No
+25	gol	gol	NOUN	NOUN	_	17	appos	_	_
+26-27	do	_	_	_	_	_	_	_	_
+26	de	de	ADP	ADP	_	28	case	_	_
+27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	alambrado	alambrado	NOUN	NOUN	_	25	nmod	_	SpaceAfter=No
+29	"	"	PUNCT	.	_	25	punct	_	_
+30	marcado	marcar	VERB	VERB	_	25	acl	_	_
+31	por	por	ADP	ADP	_	32	case	_	_
+32	Ronaldo	_	PROPN	PNOUN	_	30	nmod	_	_
+33-34	no	_	_	_	_	_	_	_	_
+33	em	em	ADP	ADP	_	35	case	_	_
+34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	clássico	clássico	NOUN	NOUN	_	30	nmod	_	_
+36	diante	diante	ADV	ADV	_	35	advmod	_	_
+37-38	do	_	_	_	_	_	_	_	_
+37	de	de	ADP	ADP	_	39	case	_	_
+38	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	Corinthians	_	PROPN	PNOUN	_	36	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = dev-s1013
+# text = Esse ano 11 alunos das últimas séries da Escola Bolshoi já foram aprovados em audições.
+1	Esse	_	DET	DET	_	2	det	_	_
+2	ano	ano	NOUN	NOUN	_	15	nmod	_	_
+3	11	11	NUM	NUM	NumType=Card	4	nummod	_	_
+4	alunos	aluno	NOUN	NOUN	_	15	nsubj:pass	_	_
+5-6	das	_	_	_	_	_	_	_	_
+5	de	de	ADP	ADP	_	8	case	_	_
+6	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	últimas	último	ADJ	ADJ	_	8	amod	_	_
+8	séries	série	NOUN	NOUN	_	4	nmod	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	ADP	_	11	case	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Escola	_	PROPN	PNOUN	_	4	nmod	_	_
+12	Bolshoi	_	PROPN	PNOUN	_	11	amod	_	_
+13	já	já	ADV	ADV	_	15	advmod	_	_
+14	foram	_	AUX	AUX	_	15	aux:pass	_	_
+15	aprovados	aprovar	VERB	VERB	_	0	root	_	_
+16	em	em	ADP	ADP	_	17	case	_	_
+17	audições	audição	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = dev-s1014
+# text = Apesar do treino, a maior parte dos garotos deve apenas compor o banco de reservas, pois os suplentes imediatos estão ansiosos por oportunidades, como nos casos de Román e Leandro Amaro, além de Felipe, Cicinho e Maikon Leite.
+1	Apesar	apesar	ADV	ADV	_	4	case	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	ADP	_	1	case	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+4	treino	treino	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	.	_	4	punct	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	maior	maior	ADJ	ADJ	_	8	amod	_	_
+8	parte	parte	NOUN	NOUN	_	14	nsubj	_	_
+9-10	dos	_	_	_	_	_	_	_	_
+9	de	de	ADP	ADP	_	11	case	_	_
+10	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	garotos	garoto	NOUN	NOUN	_	8	nmod	_	_
+12	deve	dever	AUX	AUX	_	14	aux	_	_
+13	apenas	apenas	ADV	ADV	_	14	advmod	_	_
+14	compor	compor	VERB	VERB	_	0	root	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	banco	banco	NOUN	NOUN	_	14	obj	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
+18	reservas	reserva	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	.	_	25	punct	_	_
+20	pois	_	CCONJ	CONJ	_	25	mark	_	_
+21	os	o	DET	DET	_	22	det	_	_
+22	suplentes	suplente	NOUN	NOUN	_	25	nsubj	_	_
+23	imediatos	imediato	ADJ	ADJ	_	22	amod	_	_
+24	estão	estar	AUX	AUX	_	25	cop	_	_
+25	ansiosos	_	NOUN	NOUN	_	14	advcl	_	_
+26	por	por	ADP	ADP	_	27	case	_	_
+27	oportunidades	oportunidade	NOUN	NOUN	_	25	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	.	_	29	punct	_	_
+29	como	_	ADP	ADP	_	25	nmod	_	_
+30-31	nos	_	_	_	_	_	_	_	_
+30	em	em	ADP	ADP	_	32	case	_	_
+31	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	casos	caso	NOUN	NOUN	_	29	nmod	_	_
+33	de	de	ADP	ADP	_	34	case	_	_
+34	Román	_	PROPN	PNOUN	_	32	nmod	_	_
+35	e	e	CCONJ	CONJ	_	36	cc	_	_
+36	Leandro	_	PROPN	PNOUN	_	34	conj	_	_
+37	Amaro	_	PROPN	PNOUN	_	36	flat	_	SpaceAfter=No
+38	,	,	PUNCT	.	_	39	punct	_	_
+39	além	além	ADV	ADV	_	34	advmod	_	_
+40	de	de	ADP	ADP	_	41	case	_	_
+41	Felipe	_	PROPN	PNOUN	_	39	nmod	_	SpaceAfter=No
+42	,	,	PUNCT	.	_	43	punct	_	_
+43	Cicinho	_	PROPN	PNOUN	_	41	conj	_	_
+44	e	e	CCONJ	CONJ	_	45	cc	_	_
+45	Maikon	_	PROPN	PNOUN	_	41	conj	_	_
+46	Leite	_	PROPN	PNOUN	_	45	flat	_	SpaceAfter=No
+47	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = dev-s1015
+# text = "Era muito interessante jogar em Bauru.
+1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
+2	Era	_	VERB	VERB	_	0	root	_	_
+3	muito	muito	ADV	ADV	_	4	advmod	_	_
+4	interessante	interessante	ADJ	ADJ	_	2	xcomp	_	_
+5	jogar	jogar	VERB	VERB	_	2	csubj	_	_
+6	em	em	ADP	ADP	_	7	case	_	_
+7	Bauru	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = dev-s1016
+# text = O estudo foi divulgado nesta semana pela revista científica "PNAS", da Academia Americana de Ciências.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	estudo	estudo	NOUN	NOUN	_	4	nsubj:pass	_	_
+3	foi	_	AUX	AUX	_	4	aux:pass	_	_
+4	divulgado	divulgar	VERB	VERB	_	0	root	_	_
+5	nesta	_	ADP	ADP	_	6	case	_	_
+6	semana	semana	NOUN	NOUN	_	4	nmod	_	_
+7-8	pela	_	_	_	_	_	_	_	_
+7	por	por	ADP	ADP	_	9	case	_	_
+8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	revista	revista	NOUN	NOUN	_	4	nmod	_	_
+10	científica	científico	ADJ	ADJ	_	9	amod	_	_
+11	"	"	PUNCT	.	_	12	punct	_	SpaceAfter=No
+12	PNAS	_	PROPN	PNOUN	_	9	appos	_	SpaceAfter=No
+13	"	"	PUNCT	.	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	17	punct	_	_
+15-16	da	_	_	_	_	_	_	_	_
+15	de	de	ADP	ADP	_	17	case	_	_
+16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Academia	academia	NOUN	NOUN	_	9	nmod	_	_
+18	Americana	_	PROPN	PNOUN	_	17	amod	_	_
+19	de	de	ADP	ADP	_	20	case	_	_
+20	Ciências	_	PROPN	PNOUN	_	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = dev-s1017
+# text = Flor de Xaraés;
+1	Flor	flor	NOUN	NOUN	_	0	root	_	_
+2	de	de	ADP	ADP	_	3	case	_	_
+3	Xaraés	_	PROPN	PNOUN	_	1	nmod	_	SpaceAfter=No
+4	;	_	PUNCT	.	_	1	punct	_	_
+
+# sent_id = dev-s1018
+# text = A atuação administrativa regia-se, dessa maneira, de forma distinta da qual se paira nos dias atuais.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	atuação	atuação	NOUN	NOUN	_	4	nsubj	_	_
+3	administrativa	administrativo	ADJ	ADJ	_	2	amod	_	_
+4-5	regia-se	_	_	_	_	_	_	_	SpaceAfter=No
+4	regia	reger	VERB	VERB	_	0	root	_	_
+5	se	_	PRON	PRON	_	4	obj	_	_
+6	,	,	PUNCT	.	_	8	punct	_	_
+7	dessa	_	ADP	ADP	_	8	case	_	_
+8	maneira	maneira	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	8	punct	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
+11	forma	forma	NOUN	NOUN	_	4	nmod	_	_
+12	distinta	distinto	ADJ	ADJ	_	11	amod	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	qual	_	PRON	PRON	_	17	nmod	_	_
+16	se	_	PRON	PRON	_	17	obj	_	_
+17	paira	_	VERB	VERB	_	11	acl:relcl	_	_
+18-19	nos	_	_	_	_	_	_	_	_
+18	em	em	ADP	ADP	_	20	case	_	_
+19	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	dias	dia	NOUN	NOUN	_	17	nmod	_	_
+21	atuais	atual	ADJ	ADJ	_	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = dev-s1019
+# text = "Estando mais flexionadas ou dobradas, as pernas podem voltar mais rapidamente para o chão para a passada seguinte."
+1	"	"	PUNCT	.	_	11	punct	_	SpaceAfter=No
+2	Estando	estar	VERB	VERB	_	9	acl	_	_
+3	mais	mais	ADV	ADV	_	4	advmod	_	_
+4	flexionadas	_	ADJ	ADJ	_	2	xcomp	_	_
+5	ou	ou	CCONJ	CONJ	_	6	cc	_	_
+6	dobradas	dobrado	ADJ	ADJ	_	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	2	punct	_	_
+8	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	pernas	perna	NOUN	NOUN	_	11	nsubj	_	_
+10	podem	_	AUX	AUX	_	11	aux	_	_
+11	voltar	voltar	VERB	VERB	_	0	root	_	_
+12	mais	mais	ADV	ADV	_	13	advmod	_	_
+13	rapidamente	rapidamente	ADV	ADV	_	11	advmod	_	_
+14	para	para	ADP	ADP	_	16	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	chão	chão	NOUN	NOUN	_	11	nmod	_	_
+17	para	para	ADP	ADP	_	19	case	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	passada	_	NOUN	NOUN	_	11	nmod	_	_
+20	seguinte	seguinte	ADJ	ADJ	_	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	11	punct	_	SpaceAfter=No
+22	"	"	PUNCT	.	_	11	punct	_	_
+
+# sent_id = dev-s1020
+# text = O mesmo acontece no terceiro filme, porém, ao contrário de visões, o personagem possui fotos.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	mesmo	mesmo	NOUN	NOUN	_	3	nsubj	_	_
+3	acontece	acontecer	VERB	VERB	_	0	root	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	ADP	_	7	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	terceiro	_	ADJ	ADJ	_	7	amod	_	_
+7	filme	filme	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	19	punct	_	_
+9	porém	_	ADV	ADV	_	19	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	9	punct	_	_
+11-12	ao	_	_	_	_	_	_	_	_
+11	a	a	ADP	ADP	_	13	case	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	contrário	contrário	NOUN	NOUN	_	19	nmod	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
+15	visões	visão	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	.	_	13	punct	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	personagem	personagem	NOUN	NOUN	_	19	nsubj	_	_
+19	possui	possuir	VERB	VERB	_	3	conj	_	_
+20	fotos	foto	NOUN	NOUN	_	19	obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = dev-s1021
+# text = -- Fagocitose de gametas danificados e restos celulares
+1	--	_	PUNCT	.	_	2	punct	_	_
+2	Fagocitose	fagocitose	NOUN	NOUN	_	0	root	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
+4	gametas	gameta	NOUN	NOUN	_	2	nmod	_	_
+5	danificados	danificado	ADJ	ADJ	_	4	amod	_	_
+6	e	e	CCONJ	CONJ	_	7	cc	_	_
+7	restos	resto	NOUN	NOUN	_	4	conj	_	_
+8	celulares	celular	ADJ	ADJ	_	7	amod	_	_
+

@@ -1,0 +1,278 @@
+# sent_id = train-s910
+# text = A 71 ª reunião plenária do International Cotton Advisory Committee (ICAC) começa hoje, dia 7, em Interlaken, na Suíça.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+2	71	_	ADJ	ADJ	_	4	amod	_	_
+3	ª	_	PUNCT	.	_	2	punct	_	_
+4	reunião	reunião	NOUN	NOUN	_	15	nsubj	_	_
+5	plenária	plenário	ADJ	ADJ	_	4	amod	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	ADP	_	9	case	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	International	_	PROPN	PNOUN	_	9	amod	_	_
+9	Cotton	_	PROPN	PNOUN	_	4	nmod	_	_
+10	Advisory	_	PROPN	PNOUN	_	9	amod	_	_
+11	Committee	_	PROPN	PNOUN	_	9	flat	_	_
+12	(	(	PUNCT	.	_	13	punct	_	SpaceAfter=No
+13	ICAC	_	PROPN	PNOUN	_	9	appos	_	SpaceAfter=No
+14	)	)	PUNCT	.	_	13	punct	_	_
+15	começa	_	VERB	VERB	_	0	root	_	_
+16	hoje	hoje	ADV	ADV	_	15	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	.	_	18	punct	_	_
+18	dia	dia	NOUN	NOUN	_	16	nmod	_	_
+19	7	7	NUM	NUM	NumType=Card	18	appos	_	SpaceAfter=No
+20	,	,	PUNCT	.	_	18	punct	_	_
+21	em	em	ADP	ADP	_	22	case	_	_
+22	Interlaken	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	.	_	26	punct	_	_
+24-25	na	_	_	_	_	_	_	_	_
+24	em	em	ADP	ADP	_	26	case	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	Suíça	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = train-s911
+# text = Estende-se por uma área de 40,7 km ².
+1-2	Estende-se	_	_	_	_	_	_	_	_
+1	Estende	estender	VERB	VERB	_	0	root	_	_
+2	se	_	PART	PRT	_	1	expl:pv	_	_
+3	por	por	ADP	ADP	_	5	case	_	_
+4	uma	um	DET	DET	_	5	det	_	_
+5	área	área	NOUN	NOUN	_	1	nmod	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	40,7	40,7	NUM	NUM	NumType=Card	8	nummod	_	_
+8	km	km	NOUN	NOUN	_	5	nmod	_	_
+9	²	_	PUNCT	.	_	8	punct	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s912
+# text = O galês já obteve a Licença A da Uefa para formação de técnicos, restando apenas a etapa de profissionalização.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	galês	galês	NOUN	NOUN	_	4	nsubj	_	_
+3	já	já	ADV	ADV	_	4	advmod	_	_
+4	obteve	obter	VERB	VERB	_	0	root	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Licença	_	PROPN	PNOUN	_	4	obj	_	_
+7	A	_	PROPN	PNOUN	_	6	flat	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	ADP	_	10	case	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Uefa	_	PROPN	PNOUN	_	6	nmod	_	_
+11	para	para	ADP	ADP	_	12	case	_	_
+12	formação	formação	NOUN	NOUN	_	6	nmod	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
+14	técnicos	técnico	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	.	_	16	punct	_	_
+16	restando	restar	VERB	VERB	_	4	acl	_	_
+17	apenas	apenas	ADV	ADV	_	16	advmod	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	etapa	etapa	NOUN	NOUN	_	16	nsubj	_	_
+20	de	de	ADP	ADP	_	21	case	_	_
+21	profissionalização	profissionalização	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s913
+# text = Em função de todos os problemas causados nos contratos do governo desde 2011, o MP passou a olhar com lupa todas as compras e contratações feitas pela administração pública.
+1	Em	em	ADP	_	_	2	case	_	_
+2	função	função	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	_
+3	de	de	ADP	_	_	6	case	_	_
+4	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	6	det	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	problemas	problema	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+7	causados	causar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	6	acl	_	_
+8-9	nos	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	contratos	contrato	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	governo	governo	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+14	desde	desde	ADP	_	_	15	case	_	_
+15	2011	2011	NUM	_	NumType=Card	7	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	2	punct	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	MP	MP	PROPN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
+19	passou	passar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20	a	a	SCONJ	_	_	21	mark	_	_
+21	olhar	olhar	VERB	_	VerbForm=Inf	19	xcomp	_	_
+22	com	com	ADP	_	_	23	case	_	_
+23	lupa	lupa	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	_
+24	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Tot	26	det	_	_
+25	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	compras	compra	NOUN	_	Gender=Fem|Number=Plur	21	obj	_	_
+27	e	e	CCONJ	_	_	28	cc	_	_
+28	contratações	contratação	NOUN	_	Gender=Fem|Number=Plur	26	conj	_	_
+29	feitas	fazer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	26	acl	_	_
+30-31	pela	_	_	_	_	_	_	_	_
+30	por	por	ADP	_	_	32	case	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	administração	administração	NOUN	_	Gender=Fem|Number=Sing	29	obl:agent	_	_
+33	pública	público	ADJ	_	Gender=Fem|Number=Sing	32	amod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = train-s914
+# text = (Meus lindos fãs estão usando couro e bandanas no sol, sorrisos maravilhosos e punhos para o alto.
+1	(	(	PUNCT	.	_	6	punct	_	SpaceAfter=No
+2	Meus	_	DET	DET	_	4	det:poss	_	_
+3	lindos	lindo	ADJ	ADJ	_	4	amod	_	_
+4	fãs	fã	NOUN	NOUN	_	6	nsubj	_	_
+5	estão	estar	AUX	AUX	_	6	aux	_	_
+6	usando	usar	VERB	VERB	_	0	root	_	_
+7	couro	couro	NOUN	NOUN	_	6	obj	_	_
+8	e	e	CCONJ	CONJ	_	9	cc	_	_
+9	bandanas	_	NOUN	NOUN	_	7	conj	_	_
+10-11	no	_	_	_	_	_	_	_	_
+10	em	em	ADP	ADP	_	12	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	sol	sol	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	.	_	14	punct	_	_
+14	sorrisos	sorriso	NOUN	NOUN	_	7	conj	_	_
+15	maravilhosos	maravilhoso	ADJ	ADJ	_	14	amod	_	_
+16	e	e	CCONJ	CONJ	_	17	cc	_	_
+17	punhos	punho	NOUN	NOUN	_	7	conj	_	_
+18	para	para	ADP	ADP	_	20	case	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	alto	alto	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s915
+# text = A cor berinjela é muito chique e o brilho completa a elegância do modelo.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	cor	cor	NOUN	NOUN	_	4	nsubj	_	_
+3	berinjela	berinjela	NOUN	NOUN	_	2	flat	_	_
+4	é	ser	VERB	VERB	_	0	root	_	_
+5	muito	muito	ADV	ADV	_	6	advmod	_	_
+6	chique	chique	ADJ	ADJ	_	4	xcomp	_	_
+7	e	e	CCONJ	CONJ	_	10	cc	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	brilho	brilho	NOUN	NOUN	_	10	nsubj	_	_
+10	completa	completar	VERB	VERB	_	4	conj	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	elegância	elegância	NOUN	NOUN	_	10	obj	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	modelo	modelo	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s916
+# text = 10 dias sem custos ** Após este período, custo de R $ 0,31 + imp.
+1	10	10	NUM	NUM	NumType=Card	2	nummod	_	_
+2	dias	dia	NOUN	NOUN	_	10	parataxis	_	_
+3	sem	_	ADP	ADP	_	4	case	_	_
+4	custos	custo	NOUN	NOUN	_	2	nmod	_	_
+5	**	_	PUNCT	.	_	10	punct	_	_
+6	Após	_	ADP	ADP	_	8	case	_	_
+7	este	_	DET	DET	_	8	det	_	_
+8	período	período	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	8	punct	_	_
+10	custo	custo	NOUN	NOUN	_	0	root	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
+12	R	r	NOUN	NOUN	_	10	nmod	_	_
+13	$	_	SYM	SYM	_	12	flat	_	_
+14	0,31	0,31	NUM	NUM	NumType=Card	12	nummod	_	_
+15	+	_	X	X	_	16	cc	_	_
+16	imp	_	NOUN	NOUN	_	12	conj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = train-s917
+# text = De acordo com as informações fornecidas por Marli Sampaio, que é a presidente da entidade conhecida como SOS Consumidores, assim que a decisão for publicada no Diário Oficial do Estado de São Paulo, as multas já poderão começar a serem aplicadas aos estabelecimento comerciais que não fornecerem as embalagens biodegradáveis ou de papel.
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	43	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	informações	informação	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
+6	fornecidas	fornecer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	5	acl	_	_
+7	por	por	ADP	_	_	8	case	_	_
+8	Marli	Marli	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	6	obl:agent	_	_
+9	Sampaio	Sampaio	PROPN	_	Number=Sing	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	14	punct	_	_
+11	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	14	nsubj	_	_
+12	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	presidente	presidente	NOUN	_	Gender=Fem|Number=Sing	8	acl:relcl	_	_
+15-16	da	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	entidade	entidade	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+18	conhecida	conhecer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	17	acl	_	_
+19	como	como	ADP	_	_	20	case	_	_
+20	SOS	SOS	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	18	xcomp	_	_
+21	Consumidores	Consumidores	PROPN	_	Number=Sing	20	flat:name	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	28	punct	_	_
+23	assim	assim	SCONJ	_	ExtPos=SCONJ	28	mark	_	_
+24	que	que	SCONJ	_	_	23	fixed	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	28	nsubj:pass	_	_
+27	for	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	28	aux:pass	_	_
+28	publicada	publicar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	43	advcl	_	_
+29-30	no	_	_	_	_	_	_	_	_
+29	em	em	ADP	_	_	31	case	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	Diário	diário	NOUN	_	Gender=Masc|Number=Sing	28	obl	_	_
+32	Oficial	oficial	NOUN	_	Number=Sing	31	flat:name	_	_
+33-34	do	_	_	_	_	_	_	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	Estado	estado	NOUN	_	Number=Sing	31	nmod	_	_
+36	de	de	ADP	_	_	37	case	_	_
+37	São	São	PROPN	_	ExtPos=PROPN|Number=Sing	35	nmod	_	_
+38	Paulo	Paulo	PROPN	_	Number=Sing	37	flat:name	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	28	punct	_	_
+40	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
+41	multas	multa	NOUN	_	Gender=Fem|Number=Plur	43	nsubj:pass	_	_
+42	já	já	ADV	_	_	43	advmod	_	_
+43	poderão	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+44	começar	começar	VERB	_	ExtPos=AUX|VerbForm=Inf	43	xcomp	_	_
+45	a	a	SCONJ	_	_	47	mark	_	_
+46	serem	ser	AUX	_	Number=Plur|Person=3|VerbForm=Inf	47	aux:pass	_	_
+47	aplicadas	aplicar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	44	xcomp	_	_
+48-49	aos	_	_	_	_	_	_	_	_
+48	a	a	ADP	_	_	50	case	_	_
+49	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	50	det	_	_
+50	estabelecimento	estabelecimento	NOUN	_	Gender=Masc|Number=Plur	47	obj	_	_
+51	comerciais	comercial	ADJ	_	Gender=Masc|Number=Plur	50	amod	_	_
+52	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	54	nsubj	_	_
+53	não	não	ADV	_	Polarity=Neg	54	advmod	_	_
+54	fornecerem	fornecer	VERB	_	Number=Plur|Person=3|VerbForm=Inf	50	acl:relcl	_	_
+55	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	56	det	_	_
+56	embalagens	embalagem	NOUN	_	Gender=Fem|Number=Plur	54	obj	_	_
+57	biodegradáveis	biodegradável	ADJ	_	Gender=Fem|Number=Plur	56	amod	_	_
+58	ou	ou	CCONJ	_	_	60	cc	_	_
+59	de	de	ADP	_	_	60	case	_	_
+60	papel	papel	NOUN	_	Gender=Masc|Number=Sing	57	conj	_	SpaceAfter=No
+61	.	.	PUNCT	_	_	43	punct	_	SpaceAfter=No
+
+# sent_id = train-s918
+# text = A grande porção é da chamada "linha seca".
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	grande	grande	ADJ	ADJ	_	3	amod	_	_
+3	porção	porção	NOUN	NOUN	_	4	nsubj	_	_
+4	é	ser	VERB	VERB	_	0	root	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	ADP	_	9	case	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+7	chamada	chamado	ADJ	ADJ	_	9	amod	_	_
+8	"	"	PUNCT	.	_	9	punct	_	SpaceAfter=No
+9	linha	_	NOUN	NOUN	_	4	nmod	_	_
+10	seca	seco	ADJ	ADJ	_	9	amod	_	SpaceAfter=No
+11	"	"	PUNCT	.	_	9	punct	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s919
+# text = Nas transações financeiras, os números seguem no azul.
+1-2	Nas	_	_	_	_	_	_	_	_
+1	Em	em	ADP	ADP	_	3	case	_	_
+2	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	transações	transação	NOUN	NOUN	_	8	nmod	_	_
+4	financeiras	financeiro	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	.	_	3	punct	_	_
+6	os	o	DET	DET	_	7	det	_	_
+7	números	número	NOUN	NOUN	_	8	nsubj	_	_
+8	seguem	_	VERB	VERB	_	0	root	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	ADP	_	11	case	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	azul	azul	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	8	punct	_	_
+

@@ -1,0 +1,229 @@
+# sent_id = test-s955
+# text = Um norueguês bebeu "todas" durante uma viagem para a Itália e acabou dormindo no aeroporto de Fiumicino, em Roma.
+1	Um	_	DET	DET	_	2	det	_	_
+2	norueguês	norueguês	NOUN	NOUN	_	3	nsubj	_	_
+3	bebeu	beber	VERB	VERB	_	0	root	_	_
+4	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
+5	todas	_	PRON	PRON	_	3	obj	_	SpaceAfter=No
+6	"	"	PUNCT	.	_	5	punct	_	_
+7	durante	_	ADP	ADP	_	9	case	_	_
+8	uma	um	DET	DET	_	9	det	_	_
+9	viagem	viagem	NOUN	NOUN	_	3	nmod	_	_
+10	para	para	ADP	ADP	_	12	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Itália	_	PROPN	PNOUN	_	9	nmod	_	_
+13	e	e	CCONJ	CONJ	_	15	cc	_	_
+14	acabou	acabar	AUX	AUX	_	15	aux	_	_
+15	dormindo	dormir	VERB	VERB	_	3	conj	_	_
+16-17	no	_	_	_	_	_	_	_	_
+16	em	em	ADP	ADP	_	18	case	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	aeroporto	aeroporto	NOUN	NOUN	_	15	nmod	_	_
+19	de	de	ADP	ADP	_	20	case	_	_
+20	Fiumicino	_	PROPN	PNOUN	_	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	.	_	23	punct	_	_
+22	em	em	ADP	ADP	_	23	case	_	_
+23	Roma	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = test-s956
+# text = O último a votar foi o presidente da Corte, Carlos Ayres Britto, que destacou a existência de "provas robustas".
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	último	último	NOUN	NOUN	_	0	root	_	_
+3	a	_	ADP	ADP	_	4	mark	_	_
+4	votar	votar	VERB	VERB	_	2	acl:inf	_	_
+5	foi	_	AUX	AUX	_	2	cop	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	presidente	presidente	NOUN	NOUN	_	2	nsubj	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	ADP	_	10	case	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Corte	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	12	punct	_	_
+12	Carlos	_	PROPN	PNOUN	_	7	appos	_	_
+13	Ayres	_	PROPN	PNOUN	_	12	flat	_	_
+14	Britto	_	PROPN	PNOUN	_	12	flat	_	SpaceAfter=No
+15	,	,	PUNCT	.	_	12	punct	_	_
+16	que	_	PRON	PRON	_	17	nsubj	_	_
+17	destacou	destacar	VERB	VERB	_	7	acl:relcl	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	existência	existência	NOUN	NOUN	_	17	obj	_	_
+20	de	de	ADP	ADP	_	22	case	_	_
+21	"	"	PUNCT	.	_	22	punct	_	SpaceAfter=No
+22	provas	prova	NOUN	NOUN	_	19	nmod	_	_
+23	robustas	robusto	ADJ	ADJ	_	22	amod	_	SpaceAfter=No
+24	"	"	PUNCT	.	_	22	punct	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = test-s957
+# text = "A batata - doce que nós lançamos é cor de abóbora.
+1	"	"	PUNCT	.	_	10	punct	_	SpaceAfter=No
+2	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	batata	batata	NOUN	NOUN	_	10	nsubj	_	_
+4	-	-	PUNCT	.	_	3	punct	_	_
+5	doce	doce	ADJ	ADJ	_	3	amod	_	_
+6	que	_	PRON	PRON	_	8	obj	_	_
+7	nós	_	PRON	PRON	_	8	nsubj	_	_
+8	lançamos	lançar	VERB	VERB	_	3	acl:relcl	_	_
+9	é	ser	AUX	AUX	_	10	cop	_	_
+10	cor	cor	NOUN	NOUN	_	0	root	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
+12	abóbora	abóbora	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = test-s958
+# text = Mas nem só de alegria foi feita a festa palmeirense.
+1	Mas	_	CCONJ	CONJ	_	7	cc	_	_
+2	nem	_	ADV	ADV	_	5	advmod	_	_
+3	só	só	ADV	ADV	_	5	advmod	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
+5	alegria	alegria	NOUN	NOUN	_	7	nmod	_	_
+6	foi	_	AUX	AUX	_	7	aux:pass	_	_
+7	feita	_	VERB	VERB	_	0	root	_	_
+8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	festa	festa	NOUN	NOUN	_	7	nsubj:pass	_	_
+10	palmeirense	palmeirense	ADJ	ADJ	_	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = test-s959
+# text = A expectativa do governo federal é fazer o leilão das duas em janeiro e iniciar as obras ainda no primeiro semestre do ano que vem.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	expectativa	expectativa	NOUN	NOUN	_	0	root	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	governo	governo	NOUN	NOUN	_	2	nmod	_	_
+6	federal	federal	ADJ	ADJ	_	5	amod	_	_
+7	é	ser	AUX	AUX	_	2	cop	_	_
+8	fazer	fazer	VERB	VERB	_	2	csubj	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	leilão	leilão	NOUN	NOUN	_	8	obj	_	_
+11-12	das	_	_	_	_	_	_	_	_
+11	de	de	ADP	ADP	_	13	case	_	_
+12	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	duas	_	NUM	NUM	NumType=Card	10	nmod	_	_
+14	em	em	ADP	ADP	_	15	case	_	_
+15	janeiro	_	PROPN	PNOUN	_	8	nmod	_	_
+16	e	e	CCONJ	CONJ	_	17	cc	_	_
+17	iniciar	iniciar	VERB	VERB	_	8	conj	_	_
+18	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	obras	obra	NOUN	NOUN	_	17	obj	_	_
+20	ainda	ainda	ADV	ADV	_	24	advmod	_	_
+21-22	no	_	_	_	_	_	_	_	_
+21	em	em	ADP	ADP	_	24	case	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	primeiro	primeiro	ADJ	ADJ	_	24	amod	_	_
+24	semestre	semestre	NOUN	NOUN	_	17	nmod	_	_
+25-26	do	_	_	_	_	_	_	_	_
+25	de	de	ADP	ADP	_	27	case	_	_
+26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	ano	ano	NOUN	NOUN	_	24	nmod	_	_
+28	que	_	PRON	PRON	_	29	nsubj	_	_
+29	vem	vir	VERB	VERB	_	27	acl:relcl	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = test-s960
+# text = E o PCdoB está preparado para defender o seus projetos e dar continuidade ao processo de mudanças inaugurado por Lula e Dilma".
+1	E	_	CCONJ	CONJ	_	4	cc	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	PCdoB	_	PROPN	PNOUN	_	4	nsubj	_	_
+4	está	estar	VERB	VERB	_	0	root	_	_
+5	preparado	preparado	ADJ	ADJ	_	4	xcomp	_	_
+6	para	_	ADP	ADP	_	7	mark	_	_
+7	defender	defender	VERB	VERB	_	5	nmod	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	seus	_	DET	DET	_	10	det:poss	_	_
+10	projetos	projeto	NOUN	NOUN	_	7	obj	_	_
+11	e	e	CCONJ	CONJ	_	12	cc	_	_
+12	dar	dar	VERB	VERB	_	7	conj	_	_
+13	continuidade	continuidade	NOUN	NOUN	_	12	obj	_	_
+14-15	ao	_	_	_	_	_	_	_	_
+14	a	a	ADP	ADP	_	16	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	processo	processo	NOUN	NOUN	_	12	iobj	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
+18	mudanças	mudança	NOUN	NOUN	_	16	nmod	_	_
+19	inaugurado	inaugurar	VERB	VERB	_	16	acl	_	_
+20	por	por	ADP	ADP	_	21	case	_	_
+21	Lula	_	PROPN	PNOUN	_	19	nmod	_	_
+22	e	e	CCONJ	CONJ	_	23	cc	_	_
+23	Dilma	_	PROPN	PNOUN	_	21	conj	_	SpaceAfter=No
+24	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = test-s961
+# text = Os não produtores alegam que os recursos devem ser divididos entre todos os Estados e municípios, enquanto os produtores alegam que terão perdas financeiras com esse método de divisão.
+1	Os	o	DET	DET	_	3	det	_	_
+2	não	não	ADV	ADV	Polarity=Neg	3	advmod	_	_
+3	produtores	produtor	NOUN	NOUN	_	4	nsubj	_	_
+4	alegam	alegar	VERB	VERB	_	0	root	_	_
+5	que	que	CCONJ	CONJ	_	10	mark	_	_
+6	os	o	DET	DET	_	7	det	_	_
+7	recursos	recurso	NOUN	NOUN	_	10	nsubj:pass	_	_
+8	devem	_	AUX	AUX	_	10	aux	_	_
+9	ser	ser	AUX	AUX	_	10	aux:pass	_	_
+10	divididos	dividir	VERB	VERB	_	4	ccomp	_	_
+11	entre	_	ADP	ADP	_	14	case	_	_
+12	todos	_	DET	DET	_	14	det	_	_
+13	os	o	DET	DET	_	14	det	_	_
+14	Estados	_	PROPN	PNOUN	_	10	nmod	_	_
+15	e	e	CCONJ	CONJ	_	16	cc	_	_
+16	municípios	município	NOUN	NOUN	_	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	.	_	21	punct	_	_
+18	enquanto	_	CCONJ	CONJ	_	21	mark	_	_
+19	os	o	DET	DET	_	20	det	_	_
+20	produtores	produtor	NOUN	NOUN	_	21	nsubj	_	_
+21	alegam	alegar	VERB	VERB	_	4	advcl	_	_
+22	que	que	CCONJ	CONJ	_	23	mark	_	_
+23	terão	ter	VERB	VERB	_	21	ccomp	_	_
+24	perdas	perda	NOUN	NOUN	_	23	obj	_	_
+25	financeiras	financeiro	ADJ	ADJ	_	24	amod	_	_
+26	com	com	ADP	ADP	_	28	case	_	_
+27	esse	_	DET	DET	_	28	det	_	_
+28	método	método	NOUN	NOUN	_	23	nmod	_	_
+29	de	de	ADP	ADP	_	30	case	_	_
+30	divisão	divisão	NOUN	NOUN	_	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = test-s962
+# text = "Ele está fora do campeonato.
+1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
+2	Ele	_	PRON	PRON	_	3	nsubj	_	_
+3	está	estar	VERB	VERB	_	0	root	_	_
+4	fora	fora	ADV	ADV	_	3	advmod	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	ADP	_	7	case	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	campeonato	campeonato	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = test-s963
+# text = Juninho parecia aliviado com a decisão e explicou que o juiz optou por uma medida pedagógica.
+1	Juninho	_	PROPN	PNOUN	_	2	nsubj	_	_
+2	parecia	parecer	VERB	VERB	_	0	root	_	_
+3	aliviado	aliviado	ADJ	ADJ	_	2	xcomp	_	_
+4	com	com	ADP	ADP	_	6	case	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	decisão	decisão	NOUN	NOUN	_	3	nmod	_	_
+7	e	e	CCONJ	CONJ	_	8	cc	_	_
+8	explicou	explicar	VERB	VERB	_	2	conj	_	_
+9	que	que	CCONJ	CONJ	_	12	mark	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	juiz	juiz	NOUN	NOUN	_	12	nsubj	_	_
+12	optou	optar	VERB	VERB	_	8	ccomp	_	_
+13	por	por	ADP	ADP	_	15	case	_	_
+14	uma	um	DET	DET	_	15	det	_	_
+15	medida	medida	NOUN	NOUN	_	12	nmod	_	_
+16	pedagógica	pedagógico	ADJ	ADJ	_	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = test-s964
+# text = Inclusive ele se acidentou com uma.
+1	Inclusive	inclusive	ADV	ADV	_	4	advmod	_	_
+2	ele	_	PRON	PRON	_	4	nsubj	_	_
+3	se	_	PART	PRT	_	4	expl:pv	_	_
+4	acidentou	acidentar	VERB	VERB	_	0	root	_	_
+5	com	com	ADP	ADP	_	6	case	_	_
+6	uma	_	PRON	PRON	_	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+

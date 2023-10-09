@@ -1,0 +1,253 @@
+# sent_id = train-s3262
+# text = Há também uma corte constitucional (Corte Costituzionale), uma inovação pós - segunda guerra mundial.
+1	Há	haver	VERB	VERB	_	0	root	_	_
+2	também	também	ADV	ADV	_	1	advmod	_	_
+3	uma	um	DET	DET	_	4	det	_	_
+4	corte	corte	NOUN	NOUN	_	1	obj	_	_
+5	constitucional	constitucional	ADJ	ADJ	_	4	amod	_	_
+6	(	(	PUNCT	.	_	7	punct	_	SpaceAfter=No
+7	Corte	_	PROPN	PNOUN	_	4	appos	_	_
+8	Costituzionale	_	PROPN	PNOUN	_	7	amod	_	SpaceAfter=No
+9	)	)	PUNCT	.	_	7	punct	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	12	punct	_	_
+11	uma	um	DET	DET	_	12	det	_	_
+12	inovação	inovação	NOUN	NOUN	_	4	appos	_	_
+13	pós	_	PART	PRT	_	16	amod	_	_
+14	-	-	PUNCT	.	_	16	punct	_	_
+15	segunda	segundo	ADJ	ADJ	_	16	amod	_	_
+16	guerra	guerra	NOUN	NOUN	_	12	appos	_	_
+17	mundial	mundial	ADJ	ADJ	_	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s3263
+# text = "Os bancos emergentes não estão apenas substancialmente grandes;
+1	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
+2	Os	o	DET	DET	_	3	det	_	_
+3	bancos	banco	NOUN	NOUN	_	6	nsubj	_	_
+4	emergentes	emergente	ADJ	ADJ	_	3	amod	_	_
+5	não	não	ADV	ADV	Polarity=Neg	6	advmod	_	_
+6	estão	estar	VERB	VERB	_	0	root	_	_
+7	apenas	apenas	ADV	ADV	_	6	advmod	_	_
+8	substancialmente	substancialmente	ADV	ADV	_	9	advmod	_	_
+9	grandes	grande	ADJ	ADJ	_	6	xcomp	_	SpaceAfter=No
+10	;	_	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s3264
+# text = O PTB também teve baixas no número de vereadores e prefeitos eleitos para 2013 em relação ao pleito anterior.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	PTB	_	PROPN	PNOUN	_	4	nsubj	_	_
+3	também	também	ADV	ADV	_	4	advmod	_	_
+4	teve	ter	VERB	VERB	_	0	root	_	_
+5	baixas	_	NOUN	NOUN	_	4	obj	_	_
+6-7	no	_	_	_	_	_	_	_	_
+6	em	em	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	número	número	NOUN	NOUN	_	5	nmod	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
+10	vereadores	vereador	NOUN	NOUN	_	8	nmod	_	_
+11	e	e	CCONJ	CONJ	_	12	cc	_	_
+12	prefeitos	prefeito	NOUN	NOUN	_	10	conj	_	_
+13	eleitos	eleger	VERB	VERB	_	10	acl	_	_
+14	para	para	ADP	ADP	_	15	case	_	_
+15	2013	2013	NUM	NUM	NumType=Card	13	nmod	_	_
+16	em	em	ADP	ADP	_	17	case	_	_
+17	relação	relação	NOUN	NOUN	_	4	nmod	_	_
+18-19	ao	_	_	_	_	_	_	_	_
+18	a	a	ADP	ADP	_	20	case	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	pleito	pleito	NOUN	NOUN	_	17	nmod	_	_
+21	anterior	anterior	ADJ	ADJ	_	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s3266
+# text = Não serão permitidos textos com ofensas, comentários preconceituosos, racistas, ofensivos, com palavrões ou qualquer termo que desrespeite a moral, os bons costumes, a lei ou o viole os direitos de terceiros.
+1	Não	não	ADV	ADV	Polarity=Neg	3	advmod	_	_
+2	serão	ser	AUX	AUX	_	3	aux:pass	_	_
+3	permitidos	permitir	VERB	VERB	_	0	root	_	_
+4	textos	texto	NOUN	NOUN	_	3	nsubj:pass	_	_
+5	com	com	ADP	ADP	_	6	case	_	_
+6	ofensas	ofensa	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	8	punct	_	_
+8	comentários	comentário	NOUN	NOUN	_	6	conj	_	_
+9	preconceituosos	preconceituoso	ADJ	ADJ	_	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	11	punct	_	_
+11	racistas	racista	ADJ	ADJ	_	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	.	_	13	punct	_	_
+13	ofensivos	ofensivo	ADJ	ADJ	_	9	conj	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	16	punct	_	_
+15	com	com	ADP	ADP	_	16	case	_	_
+16	palavrões	palavrão	NOUN	NOUN	_	6	conj	_	_
+17	ou	ou	CCONJ	CONJ	_	19	cc	_	_
+18	qualquer	_	DET	DET	_	19	det	_	_
+19	termo	termo	NOUN	NOUN	_	16	conj	_	_
+20	que	_	PRON	PRON	_	21	nsubj	_	_
+21	desrespeite	desrespeitar	VERB	VERB	_	19	acl:relcl	_	_
+22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	moral	moral	NOUN	NOUN	_	21	obj	_	SpaceAfter=No
+24	,	,	PUNCT	.	_	27	punct	_	_
+25	os	o	DET	DET	_	27	det	_	_
+26	bons	bom	ADJ	ADJ	_	27	amod	_	_
+27	costumes	costume	NOUN	NOUN	_	23	conj	_	SpaceAfter=No
+28	,	,	PUNCT	.	_	30	punct	_	_
+29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	lei	lei	NOUN	NOUN	_	23	conj	_	_
+31	ou	ou	CCONJ	CONJ	_	33	cc	_	_
+32	o	_	DET	DET	_	35	dep	_	_
+33	viole	violar	VERB	VERB	_	21	conj	_	_
+34	os	o	DET	DET	_	35	det	_	_
+35	direitos	direito	NOUN	NOUN	_	33	obj	_	_
+36	de	de	ADP	ADP	_	37	case	_	_
+37	terceiros	terceiro	NOUN	NOUN	_	35	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s3267
+# text = Está indo muito bem, e espero que possa.
+1	Está	estar	AUX	AUX	_	2	aux	_	_
+2	indo	ir	VERB	VERB	_	0	root	_	_
+3	muito	muito	ADV	ADV	_	4	advmod	_	_
+4	bem	bem	ADV	ADV	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	.	_	7	punct	_	_
+6	e	e	CCONJ	CONJ	_	7	cc	_	_
+7	espero	esperar	VERB	VERB	_	2	conj	_	_
+8	que	que	CCONJ	CONJ	_	9	mark	_	_
+9	possa	_	VERB	VERB	_	7	ccomp	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s3268
+# text = Ninguém deve abdicar dos seus sonhos, sejam humildes, majestáticos, pequenos, grandiosos.
+1	Ninguém	_	PRON	PRON	_	3	nsubj	_	_
+2	deve	dever	AUX	AUX	_	3	aux	_	_
+3	abdicar	abdicar	VERB	VERB	_	0	root	_	_
+4-5	dos	_	_	_	_	_	_	_	_
+4	de	de	ADP	ADP	_	7	case	_	_
+5	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	seus	_	DET	DET	_	7	det:poss	_	_
+7	sonhos	sonho	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	10	punct	_	_
+9	sejam	ser	VERB	VERB	_	10	cc	_	_
+10	humildes	humilde	ADJ	ADJ	_	7	amod	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	12	punct	_	_
+12	majestáticos	majestático	ADJ	ADJ	_	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	.	_	14	punct	_	_
+14	pequenos	pequeno	ADJ	ADJ	_	10	conj	_	SpaceAfter=No
+15	,	,	PUNCT	.	_	16	punct	_	_
+16	grandiosos	grandioso	ADJ	ADJ	_	10	conj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s3269
+# text = "Eu tenho um passaporte russo, mas sou francês e com certeza terei também a nacionalidade belga", disse o ator, negando ter aceito o novo passaporte como meio de escapar da receita federal.
+1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
+2	Eu	_	PRON	PRON	_	3	nsubj	_	_
+3	tenho	ter	VERB	VERB	_	21	ccomp	_	_
+4	um	um	DET	DET	_	5	det	_	_
+5	passaporte	passaporte	NOUN	NOUN	_	3	obj	_	_
+6	russo	russo	ADJ	ADJ	_	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	9	punct	_	_
+8	mas	mas	CCONJ	CONJ	_	9	cc	_	_
+9	sou	ser	VERB	VERB	_	3	conj	_	_
+10	francês	francês	ADJ	ADJ	_	9	xcomp	_	_
+11	e	e	CCONJ	CONJ	_	14	cc	_	_
+12	com	com	ADP	ADP	_	13	case	_	_
+13	certeza	certeza	NOUN	NOUN	_	14	nmod	_	_
+14	terei	ter	VERB	VERB	_	9	conj	_	_
+15	também	também	ADV	ADV	_	14	advmod	_	_
+16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	nacionalidade	nacionalidade	NOUN	NOUN	_	14	obj	_	_
+18	belga	belga	ADJ	ADJ	_	17	amod	_	SpaceAfter=No
+19	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
+20	,	,	PUNCT	.	_	21	punct	_	_
+21	disse	dizer	VERB	VERB	_	0	root	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	ator	ator	NOUN	NOUN	_	21	nsubj	_	SpaceAfter=No
+24	,	,	PUNCT	.	_	25	punct	_	_
+25	negando	negar	VERB	VERB	_	21	acl	_	_
+26	ter	ter	AUX	AUX	_	27	aux	_	_
+27	aceito	aceitar	VERB	VERB	_	25	xcomp	_	_
+28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	novo	novo	ADJ	ADJ	_	30	amod	_	_
+30	passaporte	passaporte	NOUN	NOUN	_	27	obj	_	_
+31	como	_	ADP	ADP	_	34	mark	_	_
+32	meio	meio	NOUN	NOUN	_	31	fixed	_	_
+33	de	_	ADP	ADP	_	31	fixed	_	_
+34	escapar	escapar	VERB	VERB	_	27	advcl	_	_
+35-36	da	_	_	_	_	_	_	_	_
+35	de	de	ADP	ADP	_	37	case	_	_
+36	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	receita	receita	NOUN	NOUN	_	34	nmod	_	_
+38	federal	federal	ADJ	ADJ	_	37	amod	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	21	punct	_	_
+
+# sent_id = train-s3270
+# text = A mãe precisou ficar na UTI durante 24 horas para estabilizar a pressão, mas já foi encaminhada para o quarto.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mãe	mãe	NOUN	NOUN	_	3	nsubj	_	_
+3	precisou	precisar	VERB	VERB	_	0	root	_	_
+4	ficar	ficar	VERB	VERB	_	3	xcomp	_	_
+5-6	na	_	_	_	_	_	_	_	_
+5	em	em	ADP	ADP	_	7	case	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	UTI	_	NOUN	NOUN	_	4	nmod	_	_
+8	durante	_	ADP	ADP	_	10	case	_	_
+9	24	24	NUM	NUM	NumType=Card	10	nummod	_	_
+10	horas	hora	NOUN	NOUN	_	4	nmod	_	_
+11	para	_	ADP	ADP	_	12	mark	_	_
+12	estabilizar	estabilizar	VERB	VERB	_	4	advcl	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	pressão	pressão	NOUN	NOUN	_	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	.	_	19	punct	_	_
+16	mas	mas	CCONJ	CONJ	_	19	cc	_	_
+17	já	já	ADV	ADV	_	19	advmod	_	_
+18	foi	_	AUX	AUX	_	19	aux:pass	_	_
+19	encaminhada	encaminhar	VERB	VERB	_	3	conj	_	_
+20	para	para	ADP	ADP	_	22	case	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	quarto	quarto	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s3271
+# text = Se ao longo da vida política (ou seja, a vida toda, pois o político morre político) ele ter e vivenciar a sua missão, cada vez mais ele fortalecerá a sua imagem perante a população.
+1	Se	_	CCONJ	CONJ	_	24	mark	_	_
+2-3	ao	_	_	_	_	_	_	_	_
+2	a	a	ADP	ADP	_	4	case	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	longo	longo	NOUN	NOUN	_	24	nmod	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	ADP	_	7	case	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	vida	vida	NOUN	NOUN	_	4	nmod	_	_
+8	política	político	ADJ	ADJ	_	7	amod	_	_
+9	(	(	PUNCT	.	_	10	punct	_	SpaceAfter=No
+10	ou	ou	CCONJ	CONJ	_	14	cc	_	_
+11	seja	ser	VERB	VERB	_	10	fixed	_	SpaceAfter=No
+12	,	,	PUNCT	.	_	10	punct	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	vida	vida	NOUN	NOUN	_	7	conj	_	_
+15	toda	todo	ADJ	ADJ	_	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	.	_	20	punct	_	_
+17	pois	_	CCONJ	CONJ	_	20	mark	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	político	político	NOUN	NOUN	_	20	nsubj	_	_
+20	morre	morrer	VERB	VERB	_	14	advcl	_	_
+21	político	político	ADJ	ADJ	_	20	xcomp	_	SpaceAfter=No
+22	)	)	PUNCT	.	_	20	punct	_	_
+23	ele	_	PRON	PRON	_	24	nsubj	_	_
+24	ter	ter	VERB	VERB	_	35	advcl	_	_
+25	e	e	CCONJ	CONJ	_	26	cc	_	_
+26	vivenciar	vivenciar	VERB	VERB	_	24	conj	_	_
+27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	sua	_	DET	DET	_	29	det:poss	_	_
+29	missão	missão	NOUN	NOUN	_	24	obj	_	SpaceAfter=No
+30	,	,	PUNCT	.	_	24	punct	_	_
+31	cada	_	DET	DET	_	32	det	_	_
+32	vez	vez	NOUN	NOUN	_	33	nmod	_	_
+33	mais	mais	ADV	ADV	_	35	advmod	_	_
+34	ele	_	PRON	PRON	_	35	nsubj	_	_
+35	fortalecerá	fortalecer	VERB	VERB	_	0	root	_	_
+36	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+37	sua	_	DET	DET	_	38	det:poss	_	_
+38	imagem	imagem	NOUN	NOUN	_	35	obj	_	_
+39	perante	_	ADP	ADP	_	41	case	_	_
+40	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	população	população	NOUN	NOUN	_	35	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	35	punct	_	_
+

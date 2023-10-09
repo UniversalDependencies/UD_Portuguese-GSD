@@ -1,0 +1,261 @@
+# sent_id = test-s826
+# text = No total, foram 14 jogos, com seis vitórias, dois empates e seis derrotas.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	ADP	_	3	case	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	total	total	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	foram	_	VERB	VERB	_	0	root	_	_
+6	14	14	NUM	NUM	NumType=Card	7	nummod	_	_
+7	jogos	jogo	NOUN	NOUN	_	5	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	11	punct	_	_
+9	com	com	ADP	ADP	_	11	case	_	_
+10	seis	_	NUM	NUM	NumType=Card	11	nummod	_	_
+11	vitórias	vitória	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	.	_	14	punct	_	_
+13	dois	_	NUM	NUM	NumType=Card	14	nummod	_	_
+14	empates	empate	NOUN	NOUN	_	11	conj	_	_
+15	e	e	CCONJ	CONJ	_	17	cc	_	_
+16	seis	_	NUM	NUM	NumType=Card	17	nummod	_	_
+17	derrotas	derrota	NOUN	NOUN	_	11	conj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = test-s827
+# text = Em Barcelona 1992, ficou em 5 º lugar nos 200 metros costas.
+1	Em	em	ADP	ADP	_	2	case	_	_
+2	Barcelona	_	PROPN	PNOUN	_	5	nmod	_	_
+3	1992	1992	NUM	NUM	NumType=Card	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	2	punct	_	_
+5	ficou	ficar	VERB	VERB	_	0	root	_	_
+6	em	em	ADP	ADP	_	9	case	_	_
+7	5	_	ADJ	ADJ	_	9	amod	_	_
+8	º	_	PUNCT	.	_	7	punct	_	_
+9	lugar	lugar	NOUN	NOUN	_	5	nmod	_	_
+10-11	nos	_	_	_	_	_	_	_	_
+10	em	em	ADP	ADP	_	13	case	_	_
+11	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	200	200	NUM	NUM	NumType=Card	13	nummod	_	_
+13	metros	metro	NOUN	NOUN	_	5	nmod	_	_
+14	costas	_	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = test-s828a
+# text = A fase final teve como país anfitrião a Antígua e Barbuda
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	fase	fase	NOUN	NOUN	_	4	nsubj	_	_
+3	final	final	ADJ	ADJ	_	2	amod	_	_
+4	teve	ter	VERB	VERB	_	0	root	_	_
+5	como	como	ADP	ADP	_	6	case	_	_
+6	país	país	NOUN	NOUN	_	4	nmod	_	_
+7	anfitrião	anfitrião	NOUN	NOUN	_	6	flat	_	_
+8	a	_	ADP	ADP	_	9	case	_	_
+9	Antígua	_	PROPN	PNOUN	_	4	obj	_	_
+10	e	e	CCONJ	CONJ	_	11	cc	_	_
+11	Barbuda	_	PROPN	PNOUN	_	9	conj	_	_
+
+# sent_id = test-s828b
+# text = Os quatro primeiros colocados disputarão a Copa Ouro da CONCACAF de 2013.
+1	Os	o	DET	DET	_	4	det	_	_
+2	quatro	_	NUM	NUM	NumType=Card	4	nummod	_	_
+3	primeiros	primeiro	ADJ	ADJ	_	4	amod	_	_
+4	colocados	_	NOUN	NOUN	_	5	nsubj	_	_
+5	disputarão	disputar	VERB	VERB	_	0	root	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Copa	_	PROPN	PNOUN	_	5	obj	_	_
+8	Ouro	_	PROPN	PNOUN	_	7	flat	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	ADP	_	11	case	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	CONCACAF	_	PROPN	PNOUN	_	7	nmod	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
+13	2013	2013	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = test-s829
+# text = Os gastos com as desapropriações e obras -- tocadas pela empreiteira Araribóia -- chegam à ordem de R $ 24,9 milhões.
+1	Os	o	DET	DET	_	2	det	_	_
+2	gastos	gasto	NOUN	NOUN	_	15	nsubj	_	_
+3	com	com	ADP	ADP	_	5	case	_	_
+4	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	desapropriações	desapropriação	NOUN	NOUN	_	2	nmod	_	_
+6	e	e	CCONJ	CONJ	_	7	cc	_	_
+7	obras	obra	NOUN	NOUN	_	5	conj	_	_
+8	--	_	PUNCT	.	_	9	punct	_	_
+9	tocadas	tocar	VERB	VERB	_	7	acl	_	_
+10-11	pela	_	_	_	_	_	_	_	_
+10	por	por	ADP	ADP	_	12	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	empreiteira	empreiteiro	NOUN	NOUN	_	9	nmod	_	_
+13	Araribóia	_	PROPN	PNOUN	_	12	appos	_	_
+14	--	_	PUNCT	.	_	9	punct	_	_
+15	chegam	chegar	VERB	VERB	_	0	root	_	_
+16-17	à	_	_	_	_	_	_	_	_
+16	a	a	ADP	ADP	_	18	case	_	_
+17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	ordem	ordem	NOUN	NOUN	_	15	nmod	_	_
+19	de	de	ADP	ADP	_	20	case	_	_
+20	R	r	NOUN	NOUN	_	18	nmod	_	_
+21	$	_	SYM	SYM	_	20	flat	_	_
+22	24,9	24,9	NUM	NUM	NumType=Card	23	nummod	_	_
+23	milhões	_	NUM	NUM	NumType=Card	20	nummod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = test-s830
+# text = São Paulo -- O dólar registrava ligeira queda ante o real nos primeiros negócios desta quinta - feira, revertendo o movimento da sessão anterior, após o Federal Reserve (banco central norte - americano) anunciar na véspera medidas de incentivo aquém do esperado e a China e Alemanha trazerem mais dados econômicos fracos.
+1	São	_	PROPN	PNOUN	_	6	parataxis	_	_
+2	Paulo	_	PROPN	PNOUN	_	1	flat	_	_
+3	--	_	PUNCT	.	_	6	punct	_	_
+4	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	dólar	dólar	NOUN	NOUN	_	6	nsubj	_	_
+6	registrava	registrar	VERB	VERB	_	0	root	_	_
+7	ligeira	ligeiro	ADJ	ADJ	_	8	amod	_	_
+8	queda	queda	NOUN	NOUN	_	6	obj	_	_
+9	ante	_	ADP	ADP	_	11	case	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	real	real	NOUN	NOUN	_	6	nmod	_	_
+12-13	nos	_	_	_	_	_	_	_	_
+12	em	em	ADP	ADP	_	15	case	_	_
+13	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	primeiros	primeiro	ADJ	ADJ	_	15	amod	_	_
+15	negócios	negócio	NOUN	NOUN	_	6	nmod	_	_
+16	desta	_	ADP	ADP	_	19	case	_	_
+17	quinta	_	PROPN	PNOUN	_	19	amod	_	_
+18	-	-	PUNCT	.	_	19	punct	_	_
+19	feira	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	.	_	21	punct	_	_
+21	revertendo	reverter	VERB	VERB	_	6	acl	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	movimento	movimento	NOUN	NOUN	_	21	obj	_	_
+24-25	da	_	_	_	_	_	_	_	_
+24	de	de	ADP	ADP	_	26	case	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	sessão	sessão	NOUN	NOUN	_	23	nmod	_	_
+27	anterior	anterior	ADJ	ADJ	_	26	amod	_	SpaceAfter=No
+28	,	,	PUNCT	.	_	40	punct	_	_
+29	após	_	ADP	ADP	_	40	mark	_	_
+30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+31	Federal	_	PROPN	PNOUN	_	32	amod	_	_
+32	Reserve	_	PROPN	PNOUN	_	40	nsubj	_	_
+33	(	(	PUNCT	.	_	34	punct	_	SpaceAfter=No
+34	banco	banco	NOUN	NOUN	_	32	appos	_	_
+35	central	central	ADJ	ADJ	_	34	amod	_	_
+36	norte	norte	ADJ	ADJ	_	38	amod	_	_
+37	-	-	PUNCT	.	_	38	punct	_	_
+38	americano	americano	ADJ	ADJ	_	34	amod	_	SpaceAfter=No
+39	)	)	PUNCT	.	_	34	punct	_	_
+40	anunciar	anunciar	VERB	VERB	_	6	advcl	_	_
+41-42	na	_	_	_	_	_	_	_	_
+41	em	em	ADP	ADP	_	43	case	_	_
+42	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	véspera	véspera	NOUN	NOUN	_	40	nmod	_	_
+44	medidas	medida	NOUN	NOUN	_	40	obj	_	_
+45	de	de	ADP	ADP	_	46	case	_	_
+46	incentivo	incentivo	NOUN	NOUN	_	44	nmod	_	_
+47	aquém	aquém	ADV	ADV	_	44	advmod	_	_
+48-49	do	_	_	_	_	_	_	_	_
+48	de	de	ADP	ADP	_	50	case	_	_
+49	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	esperado	_	NOUN	NOUN	_	47	nmod	_	_
+51	e	e	CCONJ	CONJ	_	53	cc	_	_
+52	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
+53	China	_	PROPN	PNOUN	_	56	nsubj	_	_
+54	e	e	CCONJ	CONJ	_	55	cc	_	_
+55	Alemanha	_	PROPN	PNOUN	_	53	conj	_	_
+56	trazerem	trazer	VERB	VERB	_	40	acl	_	_
+57	mais	_	DET	DET	_	58	det	_	_
+58	dados	dado	NOUN	NOUN	_	56	obj	_	_
+59	econômicos	econômico	ADJ	ADJ	_	58	amod	_	_
+60	fracos	fraco	ADJ	ADJ	_	58	amod	_	SpaceAfter=No
+61	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = test-s831
+# text = Você tinha quantos anos mais ou menos?
+1	Você	_	PRON	PRON	_	2	nsubj	_	_
+2	tinha	ter	VERB	VERB	_	0	root	_	_
+3	quantos	_	DET	DET	_	4	det	_	_
+4	anos	ano	NOUN	NOUN	_	2	obj	_	_
+5	mais	mais	ADV	ADV	_	2	advmod	_	_
+6	ou	ou	CCONJ	CONJ	_	7	cc	_	_
+7	menos	menos	ADV	ADV	_	5	conj	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = test-s832
+# text = Eles ficam muito agressivos.
+1	Eles	_	PRON	PRON	_	2	nsubj	_	_
+2	ficam	ficar	VERB	VERB	_	0	root	_	_
+3	muito	muito	ADV	ADV	_	4	advmod	_	_
+4	agressivos	agressivo	ADJ	ADJ	_	2	xcomp	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = test-s833
+# text = Jogou sua última temporada no Lecce, contribuindo para a equipe -- que também é giallorossa -- subir à divisão de elite.
+1	Jogou	jogar	VERB	VERB	_	0	root	_	_
+2	sua	_	DET	DET	_	4	det:poss	_	_
+3	última	último	ADJ	ADJ	_	4	amod	_	_
+4	temporada	temporada	NOUN	NOUN	_	1	obj	_	_
+5-6	no	_	_	_	_	_	_	_	_
+5	em	em	ADP	ADP	_	7	case	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Lecce	_	PROPN	PNOUN	_	1	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	9	punct	_	_
+9	contribuindo	contribuir	VERB	VERB	_	1	acl	_	_
+10	para	_	ADP	ADP	_	19	mark	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	equipe	equipe	NOUN	NOUN	_	19	nsubj	_	_
+13	--	_	PUNCT	.	_	16	punct	_	_
+14	que	_	PRON	PRON	_	16	nsubj	_	_
+15	também	também	ADV	ADV	_	16	advmod	_	_
+16	é	ser	VERB	VERB	_	12	acl:relcl	_	_
+17	giallorossa	_	ADJ	ADJ	_	16	xcomp	_	_
+18	--	_	PUNCT	.	_	16	punct	_	_
+19	subir	subir	VERB	VERB	_	9	nmod	_	_
+20-21	à	_	_	_	_	_	_	_	_
+20	a	a	ADP	ADP	_	22	case	_	_
+21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	divisão	divisão	NOUN	NOUN	_	19	nmod	_	_
+23	de	de	ADP	ADP	_	24	case	_	_
+24	elite	elite	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = test-s834
+# text = O coronel da 5 ª RPM, Laércio dos Reis Gomes, juntamente com o superintendente regional de Ensino de Uberaba, Eduardo Fernandes Callegari, vão recepcionar as autoridades no evento.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	coronel	coronel	NOUN	NOUN	_	30	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	7	case	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+5	5	_	ADJ	ADJ	_	7	amod	_	_
+6	ª	_	PUNCT	.	_	5	punct	_	_
+7	RPM	_	PROPN	PNOUN	_	2	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	9	punct	_	_
+9	Laércio	_	PROPN	PNOUN	_	2	appos	_	_
+10-11	dos	_	_	_	_	_	_	_	_
+10	de	de	ADP	ADP	_	12	case	_	_
+11	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	Reis	_	PROPN	PNOUN	_	9	nmod	_	_
+13	Gomes	_	PROPN	PNOUN	_	12	flat	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	18	punct	_	_
+15	juntamente	juntamente	ADV	ADV	_	18	advmod	_	_
+16	com	com	ADP	ADP	_	18	case	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	superintendente	superintendente	NOUN	NOUN	_	2	nmod	_	_
+19	regional	regional	ADJ	ADJ	_	18	amod	_	_
+20	de	de	ADP	ADP	_	21	case	_	_
+21	Ensino	_	PROPN	PNOUN	_	18	nmod	_	_
+22	de	de	ADP	ADP	_	23	case	_	_
+23	Uberaba	_	PROPN	PNOUN	_	18	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	.	_	25	punct	_	_
+25	Eduardo	_	PROPN	PNOUN	_	18	appos	_	_
+26	Fernandes	_	PROPN	PNOUN	_	25	flat	_	_
+27	Callegari	_	PROPN	PNOUN	_	25	flat	_	SpaceAfter=No
+28	,	,	PUNCT	.	_	30	punct	_	_
+29	vão	ir	AUX	AUX	_	30	aux	_	_
+30	recepcionar	recepcionar	VERB	VERB	_	0	root	_	_
+31	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	autoridades	autoridade	NOUN	NOUN	_	30	obj	_	_
+33-34	no	_	_	_	_	_	_	_	_
+33	em	em	ADP	ADP	_	35	case	_	_
+34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	evento	evento	NOUN	NOUN	_	30	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	30	punct	_	_
+

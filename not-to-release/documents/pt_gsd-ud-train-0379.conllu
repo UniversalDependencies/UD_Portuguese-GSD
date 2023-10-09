@@ -1,0 +1,275 @@
+# sent_id = train-s3758
+# text = Seu primeiro single "5,6,7,8" seguiu a linha de dança tecno.
+1	Seu	_	DET	DET	_	3	det	_	_
+2	primeiro	primeiro	ADJ	ADJ	_	3	amod	_	_
+3	single	single	NOUN	NOUN	_	7	nsubj	_	_
+4	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
+5	5,6,7,8	_	PROPN	PNOUN	_	3	appos	_	SpaceAfter=No
+6	"	"	PUNCT	.	_	5	punct	_	_
+7	seguiu	seguir	VERB	VERB	_	0	root	_	_
+8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	linha	_	NOUN	NOUN	_	7	obj	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
+11	dança	dança	NOUN	NOUN	_	9	nmod	_	_
+12	tecno	_	NOUN	NOUN	_	9	appos	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s3759
+# text = Cerca de 90 moradores de rua devem ser beneficiados com o projeto e suas atividades.
+1	Cerca	cerca	ADV	ADV	_	3	advmod	_	_
+2	de	de	ADP	ADP	_	1	case	_	_
+3	90	90	NUM	NUM	NumType=Card	4	nummod	_	_
+4	moradores	morador	NOUN	NOUN	_	9	nsubj:pass	_	_
+5	de	de	ADP	ADP	_	6	case	_	_
+6	rua	rua	NOUN	NOUN	_	4	nmod	_	_
+7	devem	_	AUX	AUX	_	9	aux	_	_
+8	ser	ser	AUX	AUX	_	9	aux:pass	_	_
+9	beneficiados	beneficiar	VERB	VERB	_	0	root	_	_
+10	com	com	ADP	ADP	_	12	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	projeto	projeto	NOUN	NOUN	_	9	nmod	_	_
+13	e	e	CCONJ	CONJ	_	15	cc	_	_
+14	suas	_	DET	DET	_	15	det:poss	_	_
+15	atividades	atividade	NOUN	NOUN	_	12	conj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = train-s3760
+# text = O valor da base de ativos proposto pela Sabesp à Arsesp é de R $ 33,851 bilhões.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	valor	valor	NOUN	NOUN	_	15	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	base	base	NOUN	NOUN	_	2	nmod	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
+7	ativos	ativo	NOUN	NOUN	_	2	nmod	_	_
+8	proposto	propor	VERB	VERB	_	2	acl	_	_
+9-10	pela	_	_	_	_	_	_	_	_
+9	por	por	ADP	ADP	_	11	case	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Sabesp	_	PROPN	PNOUN	_	8	nmod	_	_
+12-13	à	_	_	_	_	_	_	_	_
+12	a	a	ADP	ADP	_	14	case	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Arsesp	_	PROPN	PNOUN	_	8	nmod	_	_
+15	é	ser	VERB	VERB	_	0	root	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
+17	R	r	NOUN	NOUN	_	15	nmod	_	_
+18	$	_	SYM	SYM	_	17	flat	_	_
+19	33,851	33,851	NUM	NUM	NumType=Card	20	nummod	_	_
+20	bilhões	_	NUM	NUM	NumType=Card	17	nummod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = train-s3761
+# text = Apenas em Pernambuco há uma bonificação social.
+1	Apenas	apenas	ADV	ADV	_	3	advmod	_	_
+2	em	em	ADP	ADP	_	3	case	_	_
+3	Pernambuco	_	PROPN	PNOUN	_	4	nmod	_	_
+4	há	haver	VERB	VERB	_	0	root	_	_
+5	uma	um	DET	DET	_	6	det	_	_
+6	bonificação	bonificação	NOUN	NOUN	_	4	obj	_	_
+7	social	social	ADJ	ADJ	_	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s3762
+# text = "Um dos pontos fortes desta aliança é que ela congrega cientistas, usuários dos dados das pesquisas e as agências de fomento, que irão decidir pelo financiamento dos projetos.
+1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
+2	Um	_	PRON	PRON	_	0	root	_	_
+3-4	dos	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	pontos	ponto	NOUN	NOUN	_	2	nmod	_	_
+6	fortes	forte	ADJ	ADJ	_	5	amod	_	_
+7	desta	_	ADP	ADP	_	8	case	_	_
+8	aliança	aliança	NOUN	NOUN	_	5	nmod	_	_
+9	é	ser	AUX	AUX	_	2	cop	_	_
+10	que	que	CCONJ	CONJ	_	12	mark	_	_
+11	ela	_	PRON	PRON	_	12	nsubj	_	_
+12	congrega	congregar	VERB	VERB	_	2	csubj	_	_
+13	cientistas	cientista	NOUN	NOUN	_	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	15	punct	_	_
+15	usuários	usuário	NOUN	NOUN	_	13	conj	_	_
+16-17	dos	_	_	_	_	_	_	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
+17	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	dados	dado	NOUN	NOUN	_	15	nmod	_	_
+19-20	das	_	_	_	_	_	_	_	_
+19	de	de	ADP	ADP	_	21	case	_	_
+20	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	pesquisas	pesquisa	NOUN	NOUN	_	18	nmod	_	_
+22	e	e	CCONJ	CONJ	_	24	cc	_	_
+23	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	agências	agência	NOUN	NOUN	_	13	conj	_	_
+25	de	de	ADP	ADP	_	26	case	_	_
+26	fomento	fomento	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	.	_	30	punct	_	_
+28	que	_	PRON	PRON	_	30	nsubj	_	_
+29	irão	ir	AUX	AUX	_	30	aux	_	_
+30	decidir	decidir	VERB	VERB	_	24	acl:relcl	_	_
+31-32	pelo	_	_	_	_	_	_	_	_
+31	por	por	ADP	ADP	_	33	case	_	_
+32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	financiamento	financiamento	NOUN	NOUN	_	30	nmod	_	_
+34-35	dos	_	_	_	_	_	_	_	_
+34	de	de	ADP	ADP	_	36	case	_	_
+35	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	projetos	projeto	NOUN	NOUN	_	33	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s3763
+# text = Há um mês no poder, Hollande gastou boa parte da sua agenda ontem para convencer o governo brasileiro a retomar as conversas sobre a compra dos caças.
+1	Há	haver	VERB	VERB	_	9	advcl	_	_
+2	um	_	NUM	NUM	NumType=Card	3	nummod	_	_
+3	mês	mês	NOUN	NOUN	_	1	nmod	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	poder	poder	NOUN	NOUN	_	1	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	1	punct	_	_
+8	Hollande	_	PROPN	PNOUN	_	9	nsubj	_	_
+9	gastou	gastar	VERB	VERB	_	0	root	_	_
+10	boa	bom	ADJ	ADJ	_	11	amod	_	_
+11	parte	parte	NOUN	NOUN	_	9	obj	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	ADP	_	15	case	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	sua	_	DET	DET	_	15	det:poss	_	_
+15	agenda	agenda	NOUN	NOUN	_	11	nmod	_	_
+16	ontem	ontem	ADV	ADV	_	9	advmod	_	_
+17	para	_	ADP	ADP	_	18	mark	_	_
+18	convencer	convencer	VERB	VERB	_	9	advcl	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	governo	governo	NOUN	NOUN	_	18	obj	_	_
+21	brasileiro	brasileiro	ADJ	ADJ	_	20	amod	_	_
+22	a	_	ADP	ADP	_	23	mark	_	_
+23	retomar	retomar	VERB	VERB	_	18	nmod	_	_
+24	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	conversas	_	NOUN	NOUN	_	23	obj	_	_
+26	sobre	_	ADP	ADP	_	28	case	_	_
+27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	compra	compra	NOUN	NOUN	_	25	nmod	_	_
+29-30	dos	_	_	_	_	_	_	_	_
+29	de	de	ADP	ADP	_	31	case	_	_
+30	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	caças	caça	NOUN	NOUN	_	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = train-s3764
+# text = Filmou ao lado das atrizes mais famosas de todos os tempos, como Greta Garbo, nas You Desire Me (1932), Ninotchka (1939) e Two - Faced Woman (1941);
+1	Filmou	filmar	VERB	VERB	_	0	root	_	_
+2-3	ao	_	_	_	_	_	_	_	_
+2	a	a	ADP	ADP	_	4	case	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	lado	lado	NOUN	NOUN	_	1	nmod	_	_
+5-6	das	_	_	_	_	_	_	_	_
+5	de	de	ADP	ADP	_	7	case	_	_
+6	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	atrizes	_	NOUN	NOUN	_	4	nmod	_	_
+8	mais	mais	ADV	ADV	_	9	advmod	_	_
+9	famosas	famoso	ADJ	ADJ	_	7	amod	_	_
+10	de	de	ADP	ADP	_	13	case	_	_
+11	todos	_	DET	DET	_	13	det	_	_
+12	os	o	DET	DET	_	13	det	_	_
+13	tempos	tempo	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	16	punct	_	_
+15	como	como	ADP	ADP	_	16	case	_	_
+16	Greta	_	PROPN	PNOUN	_	7	nmod	_	_
+17	Garbo	_	PROPN	PNOUN	_	16	flat	_	SpaceAfter=No
+18	,	,	PUNCT	.	_	16	punct	_	_
+19-20	nas	_	_	_	_	_	_	_	_
+19	em	_	ADP	ADP	_	22	mark	_	_
+20	As	_	PROPN	PNOUN	_	22	cc	_	_
+21	You	_	PROPN	PNOUN	_	22	nsubj	_	_
+22	Desire	_	PROPN	PNOUN	_	1	nmod	_	_
+23	Me	_	PROPN	PNOUN	_	22	obj	_	_
+24	(	(	PUNCT	.	_	25	punct	_	SpaceAfter=No
+25	1932	1932	NUM	NUM	NumType=Card	22	nmod	_	SpaceAfter=No
+26	)	)	PUNCT	.	_	25	punct	_	SpaceAfter=No
+27	,	,	PUNCT	.	_	28	punct	_	_
+28	Ninotchka	_	PROPN	PNOUN	_	22	conj	_	_
+29	(	(	PUNCT	.	_	30	punct	_	SpaceAfter=No
+30	1939	1939	NUM	NUM	NumType=Card	28	nmod	_	SpaceAfter=No
+31	)	)	PUNCT	.	_	30	punct	_	_
+32	e	e	CCONJ	CONJ	_	36	cc	_	_
+33	Two	_	PROPN	PNOUN	_	35	amod	_	_
+34	-	-	PUNCT	.	_	35	punct	_	_
+35	Faced	_	PROPN	PNOUN	_	36	amod	_	_
+36	Woman	_	PROPN	PNOUN	_	22	conj	_	_
+37	(	(	PUNCT	.	_	38	punct	_	SpaceAfter=No
+38	1941	1941	NUM	NUM	NumType=Card	36	nmod	_	SpaceAfter=No
+39	)	)	PUNCT	.	_	38	punct	_	SpaceAfter=No
+40	;	_	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s3765
+# text = Esta tarde, estudantes da UFPE reunem-se na Praça do Derby.
+1	Esta	_	DET	DET	_	2	det	_	_
+2	tarde	tarde	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	.	_	2	punct	_	_
+4	estudantes	estudante	NOUN	NOUN	_	8	nsubj	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	ADP	_	7	case	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	UFPE	_	PROPN	PNOUN	_	4	nmod	_	_
+8-9	reunem-se	_	_	_	_	_	_	_	_
+8	reunem	_	VERB	VERB	_	0	root	_	_
+9	se	_	PRON	PRON	_	8	obj	_	_
+10-11	na	_	_	_	_	_	_	_	_
+10	em	em	ADP	ADP	_	12	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Praça	_	PROPN	PNOUN	_	8	nmod	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Derby	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s3766
+# text = O caso foi registrado na 20 ª DP (Vila Isabel).
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	caso	caso	NOUN	NOUN	_	4	nsubj:pass	_	_
+3	foi	_	AUX	AUX	_	4	aux:pass	_	_
+4	registrado	registrar	VERB	VERB	_	0	root	_	_
+5-6	na	_	_	_	_	_	_	_	_
+5	em	em	ADP	ADP	_	9	case	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+7	20	_	ADJ	ADJ	_	9	amod	_	_
+8	ª	_	PUNCT	.	_	7	punct	_	_
+9	DP	_	PROPN	PNOUN	_	4	nmod	_	_
+10	(	(	PUNCT	.	_	11	punct	_	SpaceAfter=No
+11	Vila	_	PROPN	PNOUN	_	9	appos	_	_
+12	Isabel	_	PROPN	PNOUN	_	11	flat	_	SpaceAfter=No
+13	)	)	PUNCT	.	_	11	punct	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s3767
+# text = Na provável final contra o representante da Europa no Mundial, Riquelme garante confiar sempre em vitória de times sul - americanos.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	ADP	_	4	case	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	provável	provável	ADJ	ADJ	_	4	amod	_	_
+4	final	final	NOUN	NOUN	_	16	nmod	_	_
+5	contra	_	ADP	ADP	_	7	case	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	representante	representante	NOUN	NOUN	_	4	nmod	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	ADP	_	10	case	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Europa	_	PROPN	PNOUN	_	7	nmod	_	_
+11-12	no	_	_	_	_	_	_	_	_
+11	em	em	ADP	ADP	_	13	case	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Mundial	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	4	punct	_	_
+15	Riquelme	_	PROPN	PNOUN	_	16	nsubj	_	_
+16	garante	garantir	VERB	VERB	_	0	root	_	_
+17	confiar	confiar	VERB	VERB	_	16	xcomp	_	_
+18	sempre	sempre	ADV	ADV	_	17	advmod	_	_
+19	em	em	ADP	ADP	_	20	case	_	_
+20	vitória	vitória	NOUN	NOUN	_	17	nmod	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
+22	times	time	NOUN	NOUN	_	20	nmod	_	_
+23	sul	sul	ADJ	ADJ	_	25	amod	_	_
+24	-	-	PUNCT	.	_	25	punct	_	_
+25	americanos	americano	ADJ	ADJ	_	22	amod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	16	punct	_	_
+

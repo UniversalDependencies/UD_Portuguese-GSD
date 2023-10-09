@@ -1,0 +1,292 @@
+# sent_id = train-s6721
+# text = Segundo o censo norte - americano de 2000, a sua população era de 3312 habitantes.
+1	Segundo	_	ADP	ADP	_	3	case	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	censo	censo	NOUN	NOUN	_	13	nmod	_	_
+4	norte	norte	ADJ	ADJ	_	6	amod	_	_
+5	-	-	PUNCT	.	_	6	punct	_	_
+6	americano	americano	ADJ	ADJ	_	3	amod	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
+8	2000	2000	NUM	NUM	NumType=Card	3	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	3	punct	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	sua	_	DET	DET	_	12	det:poss	_	_
+12	população	população	NOUN	NOUN	_	13	nsubj	_	_
+13	era	_	VERB	VERB	_	0	root	_	_
+14	de	de	ADP	ADP	_	16	case	_	_
+15	3312	3312	NUM	NUM	NumType=Card	16	nummod	_	_
+16	habitantes	habitante	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = train-s6722
+# text = O trabalhador foi levado para o Hospital Samuel Libânio, mas não resistiu.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	trabalhador	trabalhador	NOUN	NOUN	_	4	nsubj:pass	_	_
+3	foi	_	AUX	AUX	_	4	aux:pass	_	_
+4	levado	levar	VERB	VERB	_	0	root	_	_
+5	para	para	ADP	ADP	_	7	case	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Hospital	hospital	NOUN	NOUN	_	4	nmod	_	_
+8	Samuel	_	PROPN	PNOUN	_	7	flat	_	_
+9	Libânio	_	PROPN	PNOUN	_	7	flat	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	13	punct	_	_
+11	mas	mas	CCONJ	CONJ	_	13	cc	_	_
+12	não	não	ADV	ADV	Polarity=Neg	13	advmod	_	_
+13	resistiu	resistir	VERB	VERB	_	4	conj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s6723
+# text = Outro caso complicado é o dos irmãos Endrews e Tamiris Diniz Barbosa, hoje com 13 e 12 anos, e a mãe Maria do Socorro Lima Diniz, que em outubro de 2004 foram ao shopping comprar presente para o Dia das Crianças e não voltaram.
+1	Outro	_	DET	DET	_	2	det	_	_
+2	caso	caso	NOUN	NOUN	_	5	nsubj	_	_
+3	complicado	complicado	ADJ	ADJ	_	2	amod	_	_
+4	é	ser	AUX	AUX	_	5	cop	_	_
+5	o	_	PRON	PRON	_	0	root	_	_
+6-7	dos	_	_	_	_	_	_	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	irmãos	irmão	NOUN	NOUN	_	5	nmod	_	_
+9	Endrews	_	PROPN	PNOUN	_	8	appos	_	_
+10	e	e	CCONJ	CONJ	_	11	cc	_	_
+11	Tamiris	_	PROPN	PNOUN	_	9	conj	_	_
+12	Diniz	_	PROPN	PNOUN	_	9	appos	_	_
+13	Barbosa	_	PROPN	PNOUN	_	12	flat	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	20	punct	_	_
+15	hoje	hoje	ADV	ADV	_	20	advmod	_	_
+16	com	com	ADP	ADP	_	20	case	_	_
+17	13	13	NUM	NUM	NumType=Card	20	nummod	_	_
+18	e	e	CCONJ	CONJ	_	19	cc	_	_
+19	12	12	NUM	NUM	NumType=Card	17	conj	_	_
+20	anos	ano	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	.	_	24	punct	_	_
+22	e	e	CCONJ	CONJ	_	24	cc	_	_
+23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	mãe	mãe	NOUN	NOUN	_	8	conj	_	_
+25	Maria	_	PROPN	PNOUN	_	24	appos	_	_
+26-27	do	_	_	_	_	_	_	_	_
+26	de	de	ADP	ADP	_	28	case	_	_
+27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	Socorro	_	PROPN	PNOUN	_	25	nmod	_	_
+29	Lima	_	PROPN	PNOUN	_	28	flat	_	_
+30	Diniz	_	PROPN	PNOUN	_	28	flat	_	SpaceAfter=No
+31	,	,	PUNCT	.	_	37	punct	_	_
+32	que	_	PRON	PRON	_	37	nsubj	_	_
+33	em	em	ADP	ADP	_	34	case	_	_
+34	outubro	_	PROPN	PNOUN	_	37	nmod	_	_
+35	de	de	ADP	ADP	_	36	case	_	_
+36	2004	2004	NUM	NUM	NumType=Card	34	nmod	_	_
+37	foram	_	VERB	VERB	_	8	acl:relcl	_	_
+38-39	ao	_	_	_	_	_	_	_	_
+38	a	a	ADP	ADP	_	40	case	_	_
+39	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	shopping	shopping	NOUN	NOUN	_	37	nmod	_	_
+41	comprar	comprar	VERB	VERB	_	37	xcomp	_	_
+42	presente	presente	NOUN	NOUN	_	41	obj	_	_
+43	para	para	ADP	ADP	_	45	case	_	_
+44	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	Dia	_	PROPN	PNOUN	_	42	nmod	_	_
+46-47	das	_	_	_	_	_	_	_	_
+46	de	de	ADP	ADP	_	48	case	_	_
+47	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	48	det	_	_
+48	Crianças	_	PROPN	PNOUN	_	45	nmod	_	_
+49	e	e	CCONJ	CONJ	_	51	cc	_	_
+50	não	não	ADV	ADV	Polarity=Neg	51	advmod	_	_
+51	voltaram	voltar	VERB	VERB	_	37	conj	_	SpaceAfter=No
+52	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s6724
+# text = O texto aponta que em caso de "sinais de racismo, intolerância ou antissemitismo", o árbitro pedirá ao quarto árbitro que consulte a polícia sobre a suspensão ou não da partida.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	texto	texto	NOUN	NOUN	_	3	nsubj	_	_
+3	aponta	apontar	VERB	VERB	_	0	root	_	_
+4	que	que	CCONJ	CONJ	_	20	mark	_	_
+5	em	em	ADP	ADP	_	6	case	_	_
+6	caso	caso	NOUN	NOUN	_	20	nmod	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
+8	"	"	PUNCT	.	_	9	punct	_	SpaceAfter=No
+9	sinais	_	NOUN	NOUN	_	6	nmod	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
+11	racismo	racismo	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	.	_	13	punct	_	_
+13	intolerância	intolerância	NOUN	NOUN	_	11	conj	_	_
+14	ou	ou	CCONJ	CONJ	_	15	cc	_	_
+15	antissemitismo	antissemitismo	NOUN	NOUN	_	11	conj	_	SpaceAfter=No
+16	"	"	PUNCT	.	_	9	punct	_	SpaceAfter=No
+17	,	,	PUNCT	.	_	6	punct	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	árbitro	árbitro	NOUN	NOUN	_	20	nsubj	_	_
+20	pedirá	pedir	VERB	VERB	_	3	ccomp	_	_
+21-22	ao	_	_	_	_	_	_	_	_
+21	a	a	ADP	ADP	_	24	case	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	quarto	_	ADJ	ADJ	_	24	amod	_	_
+24	árbitro	árbitro	NOUN	NOUN	_	20	iobj	_	_
+25	que	que	CCONJ	CONJ	_	26	mark	_	_
+26	consulte	consultar	VERB	VERB	_	20	ccomp	_	_
+27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	polícia	polícia	NOUN	NOUN	_	26	obj	_	_
+29	sobre	_	ADP	ADP	_	31	case	_	_
+30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	suspensão	suspensão	NOUN	NOUN	_	26	nmod	_	_
+32	ou	ou	CCONJ	CONJ	_	33	cc	_	_
+33	não	não	ADV	ADV	Polarity=Neg	31	conj	_	_
+34-35	da	_	_	_	_	_	_	_	_
+34	de	de	ADP	ADP	_	36	case	_	_
+35	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	partida	partida	NOUN	NOUN	_	31	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s6725
+# text = Nosso abre - alas será coreografado, assim como outras 3 alas ", contou.
+1	Nosso	_	DET	DET	_	2	det:poss	_	_
+2	abre	_	NOUN	NOUN	_	6	nsubj:pass	_	_
+3	-	-	PUNCT	.	_	2	punct	_	_
+4	alas	ala	NOUN	NOUN	_	2	flat	_	_
+5	será	ser	AUX	AUX	_	6	aux:pass	_	_
+6	coreografado	coreografar	VERB	VERB	_	15	ccomp	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	12	punct	_	_
+8	assim	assim	ADV	ADV	_	12	case	_	_
+9	como	_	ADP	ADP	_	8	fixed	_	_
+10	outras	_	DET	DET	_	12	det	_	_
+11	3	3	NUM	NUM	NumType=Card	12	nummod	_	_
+12	alas	ala	NOUN	NOUN	_	6	nmod	_	_
+13	"	"	PUNCT	.	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	15	punct	_	_
+15	contou	contar	VERB	VERB	_	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = train-s6726
+# text = Villehardouin registou que Marie "era uma mulher graciosa e virtuosa e muito honrada".
+1	Villehardouin	_	PROPN	PNOUN	_	2	nsubj	_	_
+2	registou	registar	VERB	VERB	_	0	root	_	_
+3	que	que	CCONJ	CONJ	_	8	mark	_	_
+4	Marie	_	PROPN	PNOUN	_	8	nsubj	_	_
+5	"	"	PUNCT	.	_	8	punct	_	SpaceAfter=No
+6	era	_	AUX	AUX	_	8	cop	_	_
+7	uma	um	DET	DET	_	8	det	_	_
+8	mulher	mulher	NOUN	NOUN	_	2	ccomp	_	_
+9	graciosa	gracioso	ADJ	ADJ	_	8	amod	_	_
+10	e	e	CCONJ	CONJ	_	11	cc	_	_
+11	virtuosa	virtuoso	ADJ	ADJ	_	9	conj	_	_
+12	e	e	CCONJ	CONJ	_	14	cc	_	_
+13	muito	muito	ADV	ADV	_	14	advmod	_	_
+14	honrada	honrado	ADJ	ADJ	_	9	conj	_	SpaceAfter=No
+15	"	"	PUNCT	.	_	8	punct	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s6727
+# text = As propostas chegaram a ser enviadas ao Congresso, mas não foram votadas a tempo.
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	propostas	_	NOUN	NOUN	_	6	nsubj:pass	_	_
+3	chegaram	chegar	AUX	AUX	_	6	aux	_	_
+4	a	_	ADP	ADP	_	6	mark	_	_
+5	ser	ser	AUX	AUX	_	6	aux:pass	_	_
+6	enviadas	enviar	VERB	VERB	_	0	root	_	_
+7-8	ao	_	_	_	_	_	_	_	_
+7	a	a	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Congresso	_	PROPN	PNOUN	_	6	iobj	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	14	punct	_	_
+11	mas	mas	CCONJ	CONJ	_	14	cc	_	_
+12	não	não	ADV	ADV	Polarity=Neg	14	advmod	_	_
+13	foram	_	AUX	AUX	_	14	aux:pass	_	_
+14	votadas	votar	VERB	VERB	_	6	conj	_	_
+15	a	_	ADP	ADP	_	16	case	_	_
+16	tempo	tempo	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s6728
+# text = Escrevo sobre o que me emociona, enraivece ou o que eu gostaria de entender.
+1	Escrevo	escrever	VERB	VERB	_	0	root	_	_
+2	sobre	_	ADP	ADP	_	3	case	_	_
+3	o	_	PRON	PRON	_	1	nmod	_	_
+4	que	_	PRON	PRON	_	6	nsubj	_	_
+5	me	_	PRON	PRON	_	6	obj	_	_
+6	emociona	emocionar	VERB	VERB	_	3	acl:relcl	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	8	punct	_	_
+8	enraivece	enraivecer	VERB	VERB	_	6	conj	_	_
+9	ou	ou	CCONJ	CONJ	_	10	cc	_	_
+10	o	_	PRON	PRON	_	3	conj	_	_
+11	que	_	PRON	PRON	_	15	obj	_	_
+12	eu	_	PRON	PRON	_	13	nsubj	_	_
+13	gostaria	gostar	VERB	VERB	_	10	acl:relcl	_	_
+14	de	_	ADP	ADP	_	15	mark	_	_
+15	entender	entender	VERB	VERB	_	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s6729
+# text = No sentido que vocês noticiam e no sentido de tentar tirar de perto dela quem pode ajudá - la.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	ADP	_	3	case	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sentido	sentido	NOUN	NOUN	_	0	root	_	_
+4	que	_	PRON	PRON	_	6	obj	_	_
+5	vocês	_	PRON	PRON	_	6	nsubj	_	_
+6	noticiam	noticiar	VERB	VERB	_	3	acl:relcl	_	_
+7	e	e	CCONJ	CONJ	_	10	cc	_	_
+8-9	no	_	_	_	_	_	_	_	_
+8	em	em	ADP	ADP	_	10	case	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	sentido	sentido	NOUN	NOUN	_	3	conj	_	_
+11	de	_	ADP	ADP	_	12	mark	_	_
+12	tentar	tentar	VERB	VERB	_	10	nmod	_	_
+13	tirar	tirar	VERB	VERB	_	12	xcomp	_	_
+14	de	_	ADP	ADP	_	15	mark	_	_
+15	perto	perto	ADV	ADV	_	13	nmod	_	_
+16	dela	_	X	ADPPRON	_	15	nmod	_	_
+17	quem	_	PRON	PRON	_	19	nsubj	_	_
+18	pode	_	AUX	AUX	_	19	aux	_	_
+19	ajudá	ajudar	VERB	VERB	_	13	ccomp	_	_
+20	-	-	PUNCT	.	_	19	punct	_	_
+21	la	_	PRON	PRON	_	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s6730
+# text = Ministros, autoridades e pessoas que trabalham em organizações governamentais aprendem sobre tópicos como estruturas e procedimentos legislativos da União Europeia, nacionais e conflitos entre a Constituição, responsabilidade civil e negligência, Direito do Trabalho e Direito de Propriedade.
+1	Ministros	ministro	NOUN	NOUN	_	11	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	.	_	3	punct	_	_
+3	autoridades	autoridade	NOUN	NOUN	_	1	conj	_	_
+4	e	e	CCONJ	CONJ	_	5	cc	_	_
+5	pessoas	pessoa	NOUN	NOUN	_	1	conj	_	_
+6	que	_	PRON	PRON	_	7	nsubj	_	_
+7	trabalham	trabalhar	VERB	VERB	_	5	acl:relcl	_	_
+8	em	em	ADP	ADP	_	9	case	_	_
+9	organizações	organização	NOUN	NOUN	_	7	nmod	_	_
+10	governamentais	governamental	ADJ	ADJ	_	9	amod	_	_
+11	aprendem	aprender	VERB	VERB	_	0	root	_	_
+12	sobre	_	ADP	ADP	_	13	case	_	_
+13	tópicos	tópico	NOUN	NOUN	_	11	nmod	_	_
+14	como	como	ADP	ADP	_	15	case	_	_
+15	estruturas	estrutura	NOUN	NOUN	_	13	nmod	_	_
+16	e	e	CCONJ	CONJ	_	17	cc	_	_
+17	procedimentos	procedimento	NOUN	NOUN	_	15	conj	_	_
+18	legislativos	legislativo	ADJ	ADJ	_	17	amod	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	ADP	_	21	case	_	_
+20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	União	_	PROPN	PNOUN	_	17	nmod	_	_
+22	Europeia	_	PROPN	PNOUN	_	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	.	_	24	punct	_	_
+24	nacionais	nacional	NOUN	NOUN	_	15	conj	_	_
+25	e	e	CCONJ	CONJ	_	26	cc	_	_
+26	conflitos	conflito	NOUN	NOUN	_	24	conj	_	_
+27	entre	_	ADP	ADP	_	29	case	_	_
+28	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	Constituição	constituição	NOUN	NOUN	_	26	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	.	_	31	punct	_	_
+31	responsabilidade	responsabilidade	NOUN	NOUN	_	15	conj	_	_
+32	civil	civil	ADJ	ADJ	_	31	amod	_	_
+33	e	e	CCONJ	CONJ	_	34	cc	_	_
+34	negligência	negligência	NOUN	NOUN	_	31	conj	_	SpaceAfter=No
+35	,	,	PUNCT	.	_	36	punct	_	_
+36	Direito	_	PROPN	PNOUN	_	15	conj	_	_
+37-38	do	_	_	_	_	_	_	_	_
+37	de	de	ADP	ADP	_	39	case	_	_
+38	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	Trabalho	_	PROPN	PNOUN	_	36	nmod	_	_
+40	e	e	CCONJ	CONJ	_	41	cc	_	_
+41	Direito	_	PROPN	PNOUN	_	36	conj	_	_
+42	de	de	ADP	ADP	_	43	case	_	_
+43	Propriedade	_	PROPN	PNOUN	_	41	nmod	_	SpaceAfter=No
+44	.	.	PUNCT	.	_	11	punct	_	_
+

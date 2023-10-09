@@ -1,0 +1,249 @@
+# sent_id = train-s4326
+# text = De acordo com Vanessa Soldatelli, a dose é contraindicada para crianças menores de nove anos que nunca tomaram a vacina.
+1	De	_	ADP	ADP	_	2	case	_	_
+2	acordo	acordo	NOUN	NOUN	_	9	nmod	_	_
+3	com	com	ADP	ADP	_	4	case	_	_
+4	Vanessa	_	PROPN	PNOUN	_	2	nmod	_	_
+5	Soldatelli	_	PROPN	PNOUN	_	4	flat	_	SpaceAfter=No
+6	,	,	PUNCT	.	_	2	punct	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	dose	dose	NOUN	NOUN	_	9	nsubj	_	_
+9	é	ser	VERB	VERB	_	0	root	_	_
+10	contraindicada	contraindicado	ADJ	ADJ	_	9	xcomp	_	_
+11	para	para	ADP	ADP	_	12	case	_	_
+12	crianças	criança	NOUN	NOUN	_	10	nmod	_	_
+13	menores	menor	ADJ	ADJ	_	12	amod	_	_
+14	de	de	ADP	ADP	_	16	case	_	_
+15	nove	_	NUM	NUM	NumType=Card	16	nummod	_	_
+16	anos	ano	NOUN	NOUN	_	13	nmod	_	_
+17	que	_	PRON	PRON	_	19	nsubj	_	_
+18	nunca	nunca	ADV	ADV	_	19	advmod	_	_
+19	tomaram	tomar	VERB	VERB	_	12	acl:relcl	_	_
+20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	vacina	vacina	NOUN	NOUN	_	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = train-s4327
+# text = As japonesas vão enfrentar a França na semifinal.
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	japonesas	_	NOUN	NOUN	_	4	nsubj	_	_
+3	vão	ir	AUX	AUX	_	4	aux	_	_
+4	enfrentar	enfrentar	VERB	VERB	_	0	root	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	França	_	PROPN	PNOUN	_	4	obj	_	_
+7-8	na	_	_	_	_	_	_	_	_
+7	em	em	ADP	ADP	_	9	case	_	_
+8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	semifinal	semifinal	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s4328
+# text = Segundo os dados oferecidos pela Crescente Vermelho Síria à ONU, entre os principais focos de violência no país aparecem as cidades de Homs e Idlib, sendo que nesta última a ajuda humanitária chega a beneficiar 350 mil pessoas, menos da metade da população.
+1	Segundo	_	ADP	ADP	_	3	case	_	_
+2	os	o	DET	DET	_	3	det	_	_
+3	dados	dado	NOUN	NOUN	_	23	nmod	_	_
+4	oferecidos	oferecer	VERB	VERB	_	3	acl	_	_
+5-6	pela	_	_	_	_	_	_	_	_
+5	por	por	ADP	ADP	_	7	case	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Crescente	_	PROPN	PNOUN	_	4	nmod	_	_
+8	Vermelho	_	PROPN	PNOUN	_	7	amod	_	_
+9	Síria	_	PROPN	PNOUN	_	7	appos	_	_
+10-11	à	_	_	_	_	_	_	_	_
+10	a	a	ADP	ADP	_	12	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	ONU	_	PROPN	PNOUN	_	4	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	.	_	3	punct	_	_
+14	entre	_	ADP	ADP	_	17	case	_	_
+15	os	o	DET	DET	_	17	det	_	_
+16	principais	principal	ADJ	ADJ	_	17	amod	_	_
+17	focos	foco	NOUN	NOUN	_	23	nmod	_	_
+18	de	de	ADP	ADP	_	19	case	_	_
+19	violência	violência	NOUN	NOUN	_	17	nmod	_	_
+20-21	no	_	_	_	_	_	_	_	_
+20	em	em	ADP	ADP	_	22	case	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	país	país	NOUN	NOUN	_	17	nmod	_	_
+23	aparecem	aparecer	VERB	VERB	_	0	root	_	_
+24	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	cidades	cidade	NOUN	NOUN	_	23	nsubj	_	_
+26	de	de	ADP	ADP	_	27	case	_	_
+27	Homs	_	PROPN	PNOUN	_	25	nmod	_	_
+28	e	e	CCONJ	CONJ	_	29	cc	_	_
+29	Idlib	_	PROPN	PNOUN	_	27	conj	_	SpaceAfter=No
+30	,	,	PUNCT	.	_	31	punct	_	_
+31	sendo	ser	VERB	VERB	_	23	acl	_	_
+32	que	que	CCONJ	CONJ	_	40	mark	_	_
+33	nesta	_	ADP	ADP	_	34	case	_	_
+34	última	_	NOUN	NOUN	_	40	nmod	_	_
+35	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	ajuda	ajuda	NOUN	NOUN	_	40	nsubj	_	_
+37	humanitária	humanitário	ADJ	ADJ	_	36	amod	_	_
+38	chega	chegar	AUX	AUX	_	40	aux	_	_
+39	a	_	ADP	ADP	_	40	mark	_	_
+40	beneficiar	beneficiar	VERB	VERB	_	31	csubj	_	_
+41	350	350	NUM	NUM	NumType=Card	42	nummod	_	_
+42	mil	_	NUM	NUM	NumType=Card	43	nummod	_	_
+43	pessoas	pessoa	NOUN	NOUN	_	40	obj	_	SpaceAfter=No
+44	,	,	PUNCT	.	_	48	punct	_	_
+45	menos	menos	ADV	ADV	_	48	advmod	_	_
+46-47	da	_	_	_	_	_	_	_	_
+46	de	de	ADP	ADP	_	45	case	_	_
+47	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+48	metade	metade	NOUN	NOUN	_	43	appos	_	_
+49-50	da	_	_	_	_	_	_	_	_
+49	de	de	ADP	ADP	_	51	case	_	_
+50	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
+51	população	população	NOUN	NOUN	_	48	nmod	_	SpaceAfter=No
+52	.	.	PUNCT	.	_	23	punct	_	_
+
+# sent_id = train-s4329
+# text = O velório de Oscar Niemeyer será o terceiro realizado na história Palácio do Planalto.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	velório	velório	NOUN	NOUN	_	8	nsubj	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
+4	Oscar	_	PROPN	PNOUN	_	2	nmod	_	_
+5	Niemeyer	_	PROPN	PNOUN	_	4	flat	_	_
+6	será	ser	AUX	AUX	_	8	cop	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	terceiro	terceiro	NOUN	NOUN	_	0	root	_	_
+9	realizado	realizar	VERB	VERB	_	8	acl	_	_
+10-11	na	_	_	_	_	_	_	_	_
+10	em	em	ADP	ADP	_	12	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	história	história	NOUN	NOUN	_	9	nmod	_	_
+13	Palácio	_	PROPN	PNOUN	_	12	appos	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	ADP	_	16	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Planalto	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s4330
+# text = "Só esperamos que essas medidas sejam temporárias e não prejudiquem o consumidor com o aumento de preços", concluiu Giannetti da Fonseca.
+1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
+2	Só	só	ADV	ADV	_	3	advmod	_	_
+3	esperamos	esperar	VERB	VERB	_	21	ccomp	_	_
+4	que	que	CCONJ	CONJ	_	7	mark	_	_
+5	essas	_	DET	DET	_	6	det	_	_
+6	medidas	medida	NOUN	NOUN	_	7	nsubj	_	_
+7	sejam	ser	VERB	VERB	_	3	ccomp	_	_
+8	temporárias	temporário	ADJ	ADJ	_	7	xcomp	_	_
+9	e	e	CCONJ	CONJ	_	11	cc	_	_
+10	não	não	ADV	ADV	Polarity=Neg	11	advmod	_	_
+11	prejudiquem	prejudicar	VERB	VERB	_	7	conj	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	consumidor	consumidor	NOUN	NOUN	_	11	obj	_	_
+14	com	com	ADP	ADP	_	16	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	aumento	aumento	NOUN	NOUN	_	11	nmod	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
+18	preços	preço	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
+19	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
+20	,	,	PUNCT	.	_	21	punct	_	_
+21	concluiu	concluir	VERB	VERB	_	0	root	_	_
+22	Giannetti	_	PROPN	PNOUN	_	21	nsubj	_	_
+23-24	da	_	_	_	_	_	_	_	_
+23	de	de	ADP	ADP	_	25	case	_	_
+24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	Fonseca	_	PROPN	PNOUN	_	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	21	punct	_	_
+
+# sent_id = train-s4331
+# text = A ministra minimizou o número de ocorrências realizadas, que para ela "não têm nada absolutamente de anormal".
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ministra	_	NOUN	NOUN	_	3	nsubj	_	_
+3	minimizou	minimizar	VERB	VERB	_	0	root	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	número	número	NOUN	NOUN	_	3	obj	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
+7	ocorrências	ocorrência	NOUN	NOUN	_	5	nmod	_	_
+8	realizadas	realizar	VERB	VERB	_	7	acl	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	15	punct	_	_
+10	que	_	PRON	PRON	_	15	nsubj	_	_
+11	para	para	ADP	ADP	_	12	case	_	_
+12	ela	_	PRON	PRON	_	15	nmod	_	_
+13	"	"	PUNCT	.	_	12	punct	_	SpaceAfter=No
+14	não	não	ADV	ADV	Polarity=Neg	15	advmod	_	_
+15	têm	ter	VERB	VERB	_	7	acl:relcl	_	_
+16	nada	_	PRON	PRON	_	15	obj	_	_
+17	absolutamente	absolutamente	ADV	ADV	_	16	advmod	_	_
+18	de	de	ADP	ADP	_	19	case	_	_
+19	anormal	anormal	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
+20	"	"	PUNCT	.	_	15	punct	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s4332
+# text = O Choro da Guanabara
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Choro	_	PROPN	PNOUN	_	0	root	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Guanabara	_	PROPN	PNOUN	_	2	nmod	_	_
+
+# sent_id = train-s4333
+# text = As autoridades informaram ainda que 100 mil pessoas estão desabrigadas e que ao menos 20 mil habitações foram afetadas.
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	autoridades	autoridade	NOUN	NOUN	_	3	nsubj	_	_
+3	informaram	informar	VERB	VERB	_	0	root	_	_
+4	ainda	ainda	ADV	ADV	_	3	advmod	_	_
+5	que	que	CCONJ	CONJ	_	9	mark	_	_
+6	100	100	NUM	NUM	NumType=Card	7	nummod	_	_
+7	mil	_	NUM	NUM	NumType=Card	8	nummod	_	_
+8	pessoas	pessoa	NOUN	NOUN	_	9	nsubj	_	_
+9	estão	estar	VERB	VERB	_	3	ccomp	_	_
+10	desabrigadas	desabrigado	ADJ	ADJ	_	9	xcomp	_	_
+11	e	e	CCONJ	CONJ	_	20	cc	_	_
+12	que	que	CCONJ	CONJ	_	20	mark	_	_
+13-14	ao	_	_	_	_	_	_	_	_
+13	a	a	ADP	ADP	_	15	case	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	menos	menos	ADV	ADV	_	17	advmod	_	_
+16	20	20	NUM	NUM	NumType=Card	17	nummod	_	_
+17	mil	_	NUM	NUM	NumType=Card	18	nummod	_	_
+18	habitações	habitação	NOUN	NOUN	_	20	nsubj:pass	_	_
+19	foram	_	AUX	AUX	_	20	aux:pass	_	_
+20	afetadas	afetar	VERB	VERB	_	9	conj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s4334
+# text = Mas, se teve lance do Barcos, julguem - no também.
+1	Mas	_	CCONJ	CONJ	_	10	cc	_	SpaceAfter=No
+2	,	,	PUNCT	.	_	4	punct	_	_
+3	se	_	CCONJ	CONJ	_	4	mark	_	_
+4	teve	ter	VERB	VERB	_	10	advcl	_	_
+5	lance	lance	NOUN	NOUN	_	4	obj	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Barcos	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	4	punct	_	_
+10	julguem	julgar	VERB	VERB	_	0	root	_	_
+11	-	-	PUNCT	.	_	10	punct	_	_
+12	no	_	PRON	PRON	_	10	obj	_	_
+13	também	também	ADV	ADV	_	10	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = train-s4335
+# text = A seleção será realizada por meio do desempenho dos candidatos no Enem.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	seleção	seleção	NOUN	NOUN	_	4	nsubj:pass	_	_
+3	será	ser	AUX	AUX	_	4	aux:pass	_	_
+4	realizada	realizar	VERB	VERB	_	0	root	_	_
+5	por	por	ADP	ADP	_	6	case	_	_
+6	meio	meio	NOUN	NOUN	_	4	nmod	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	desempenho	desempenho	NOUN	NOUN	_	6	nmod	_	_
+10-11	dos	_	_	_	_	_	_	_	_
+10	de	de	ADP	ADP	_	12	case	_	_
+11	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	candidatos	candidato	NOUN	NOUN	_	9	nmod	_	_
+13-14	no	_	_	_	_	_	_	_	_
+13	em	em	ADP	ADP	_	15	case	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Enem	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+

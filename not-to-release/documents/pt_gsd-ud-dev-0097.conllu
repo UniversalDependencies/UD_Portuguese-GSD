@@ -1,0 +1,288 @@
+# sent_id = dev-s952
+# text = Uma colisão transversal entre um carro de placa OEO - 4618 e uma moto de placa NVL - 1920 deixou um motociclista bastante ferido.
+1	Uma	_	DET	DET	_	2	det	_	_
+2	colisão	colisão	NOUN	NOUN	_	20	nsubj	_	_
+3	transversal	transversal	ADJ	ADJ	_	2	amod	_	_
+4	entre	_	ADP	ADP	_	6	case	_	_
+5	um	um	DET	DET	_	6	det	_	_
+6	carro	carro	NOUN	NOUN	_	2	nmod	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
+8	placa	placa	NOUN	NOUN	_	6	nmod	_	_
+9	OEO	_	PROPN	PNOUN	_	8	appos	_	_
+10	-	-	PUNCT	.	_	9	punct	_	_
+11	4618	4618	NUM	NUM	NumType=Card	9	appos	_	_
+12	e	e	CCONJ	CONJ	_	14	cc	_	_
+13	uma	um	DET	DET	_	14	det	_	_
+14	moto	moto	NOUN	NOUN	_	6	conj	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
+16	placa	placa	NOUN	NOUN	_	14	nmod	_	_
+17	NVL	_	PROPN	PNOUN	_	16	appos	_	_
+18	-	-	PUNCT	.	_	17	punct	_	_
+19	1920	1920	NUM	NUM	NumType=Card	17	appos	_	_
+20	deixou	deixar	VERB	VERB	_	0	root	_	_
+21	um	um	DET	DET	_	22	det	_	_
+22	motociclista	motociclista	NOUN	NOUN	_	24	nsubj	_	_
+23	bastante	bastante	ADV	ADV	_	24	advmod	_	_
+24	ferido	ferido	ADJ	ADJ	_	20	xcomp	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	20	punct	_	_
+
+# sent_id = dev-s953
+# text = Os locais de prova estarão disponíveis para consulta a partir das 10h de amanhã (10).
+1	Os	o	DET	DET	_	2	det	_	_
+2	locais	local	NOUN	NOUN	_	5	nsubj	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
+4	prova	prova	NOUN	NOUN	_	2	nmod	_	_
+5	estarão	estar	VERB	VERB	_	0	root	_	_
+6	disponíveis	disponível	ADJ	ADJ	_	5	xcomp	_	_
+7	para	para	ADP	ADP	_	8	case	_	_
+8	consulta	consulta	NOUN	NOUN	_	6	nmod	_	_
+9	a	_	ADP	ADP	_	10	mark	_	_
+10	partir	partir	VERB	VERB	_	5	nmod	_	_
+11-12	das	_	_	_	_	_	_	_	_
+11	de	de	ADP	ADP	_	13	case	_	_
+12	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	10h	_	NUM	NUM	NumType=Card	10	nmod	_	_
+14	de	_	ADP	ADP	_	15	mark	_	_
+15	amanhã	amanhã	ADV	ADV	_	13	nmod	_	_
+16	(	(	PUNCT	.	_	17	punct	_	SpaceAfter=No
+17	10	10	NUM	NUM	NumType=Card	15	nmod	_	SpaceAfter=No
+18	)	)	PUNCT	.	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = dev-s954
+# text = Abe apontou o ex - primeiro - ministro Taro Aso, de 72 anos, como ministro das Finanças, que também recebeu o portfólio de serviços financeiros.
+1	Abe	_	PROPN	PNOUN	_	2	nsubj	_	_
+2	apontou	apontar	VERB	VERB	_	0	root	_	_
+3	o	o	DET	DET	_	4	det	_	_
+4	ex	_	PART	PRT	_	2	obj	_	_
+5	-	-	PUNCT	.	_	4	punct	_	_
+6	primeiro	primeiro	ADJ	ADJ	_	4	amod	_	_
+7	-	-	PUNCT	.	_	4	punct	_	_
+8	ministro	ministro	NOUN	NOUN	_	4	flat	_	_
+9	Taro	_	PROPN	PNOUN	_	4	appos	_	_
+10	Aso	_	PROPN	PNOUN	_	9	flat	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	14	punct	_	_
+12	de	de	ADP	ADP	_	14	case	_	_
+13	72	72	NUM	NUM	NumType=Card	14	nummod	_	_
+14	anos	ano	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	.	_	14	punct	_	_
+16	como	como	ADP	ADP	_	17	case	_	_
+17	ministro	ministro	NOUN	NOUN	_	2	nmod	_	_
+18-19	das	_	_	_	_	_	_	_	_
+18	de	de	ADP	ADP	_	20	case	_	_
+19	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	Finanças	_	PROPN	PNOUN	_	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	.	_	24	punct	_	_
+22	que	_	PRON	PRON	_	24	nsubj	_	_
+23	também	também	ADV	ADV	_	24	advmod	_	_
+24	recebeu	receber	VERB	VERB	_	17	acl:relcl	_	_
+25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	portfólio	portfólio	NOUN	NOUN	_	24	obj	_	_
+27	de	de	ADP	ADP	_	28	case	_	_
+28	serviços	serviço	NOUN	NOUN	_	26	nmod	_	_
+29	financeiros	financeiro	ADJ	ADJ	_	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = dev-s955
+# text = Assim como no primeiro debate entre os candidatos a prefeito de Santo André, que ocorreu no dia 8, o postulante ao Paço andreense pelo Psol, Marcelo Reina, manteve discurso ferino.
+1	Assim	assim	ADV	ADV	_	36	advmod	_	_
+2	como	_	ADP	ADP	_	1	fixed	_	_
+3-4	no	_	_	_	_	_	_	_	_
+3	em	em	ADP	ADP	_	6	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	primeiro	primeiro	ADJ	ADJ	_	6	amod	_	_
+6	debate	debate	NOUN	NOUN	_	1	nmod	_	_
+7	entre	_	ADP	ADP	_	9	case	_	_
+8	os	o	DET	DET	_	9	det	_	_
+9	candidatos	candidato	NOUN	NOUN	_	6	nmod	_	_
+10	a	_	ADP	ADP	_	11	case	_	_
+11	prefeito	prefeito	NOUN	NOUN	_	9	nmod	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
+13	Santo	_	PROPN	PNOUN	_	11	nmod	_	_
+14	André	_	PROPN	PNOUN	_	13	flat	_	SpaceAfter=No
+15	,	,	PUNCT	.	_	17	punct	_	_
+16	que	_	PRON	PRON	_	17	nsubj	_	_
+17	ocorreu	ocorrer	VERB	VERB	_	6	acl:relcl	_	_
+18-19	no	_	_	_	_	_	_	_	_
+18	em	em	ADP	ADP	_	20	case	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	dia	dia	NOUN	NOUN	_	17	nmod	_	_
+21	8	8	NUM	NUM	NumType=Card	20	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	.	_	17	punct	_	_
+23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	postulante	_	NOUN	NOUN	_	36	nsubj	_	_
+25-26	ao	_	_	_	_	_	_	_	_
+25	a	a	ADP	ADP	_	27	case	_	_
+26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Paço	_	PROPN	PNOUN	_	24	nmod	_	_
+28	andreense	andreense	ADJ	ADJ	_	27	amod	_	_
+29-30	pelo	_	_	_	_	_	_	_	_
+29	por	por	ADP	ADP	_	31	case	_	_
+30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	Psol	_	PROPN	PNOUN	_	24	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	.	_	33	punct	_	_
+33	Marcelo	_	PROPN	PNOUN	_	24	appos	_	_
+34	Reina	_	PROPN	PNOUN	_	33	flat	_	SpaceAfter=No
+35	,	,	PUNCT	.	_	33	punct	_	_
+36	manteve	manter	VERB	VERB	_	0	root	_	_
+37	discurso	discurso	NOUN	NOUN	_	36	obj	_	_
+38	ferino	ferino	ADJ	ADJ	_	37	amod	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	36	punct	_	_
+
+# sent_id = dev-s956
+# text = Alguns passageiros de ônibus desceram e completaram a travessia a pé na tentativa de chegar a tempo ao trabalho.
+1	Alguns	_	DET	DET	_	2	det	_	_
+2	passageiros	passageiro	NOUN	NOUN	_	5	nsubj	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
+4	ônibus	ônibus	NOUN	NOUN	_	2	nmod	_	_
+5	desceram	descer	VERB	VERB	_	0	root	_	_
+6	e	e	CCONJ	CONJ	_	7	cc	_	_
+7	completaram	completar	VERB	VERB	_	5	conj	_	_
+8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	travessia	travessia	NOUN	NOUN	_	7	obj	_	_
+10	a	_	ADP	ADP	_	11	case	_	_
+11	pé	pé	NOUN	NOUN	_	7	nmod	_	_
+12-13	na	_	_	_	_	_	_	_	_
+12	em	em	ADP	ADP	_	14	case	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	tentativa	_	NOUN	NOUN	_	7	nmod	_	_
+15	de	_	ADP	ADP	_	16	mark	_	_
+16	chegar	chegar	VERB	VERB	_	14	nmod	_	_
+17	a	_	ADP	ADP	_	18	case	_	_
+18	tempo	tempo	NOUN	NOUN	_	16	nmod	_	_
+19-20	ao	_	_	_	_	_	_	_	_
+19	a	a	ADP	ADP	_	21	case	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	trabalho	trabalho	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = dev-s957
+# text = É endêmica do Equador e do Peru.
+1	É	ser	VERB	VERB	_	0	root	_	_
+2	endêmica	endêmico	ADJ	ADJ	_	1	xcomp	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Equador	_	PROPN	PNOUN	_	2	nmod	_	_
+6	e	e	CCONJ	CONJ	_	9	cc	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Peru	_	PROPN	PNOUN	_	5	conj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = dev-s958
+# text = Tão bárbara que muitas vezes se passa por ficção, mas é realidade.
+1	Tão	tão	ADV	ADV	_	2	advmod	_	_
+2	bárbara	bárbaro	ADJ	ADJ	_	0	root	_	_
+3	que	que	CCONJ	CONJ	_	7	mark	_	_
+4	muitas	_	DET	DET	_	5	det	_	_
+5	vezes	vez	NOUN	NOUN	_	7	nmod	_	_
+6	se	_	PRON	PRON	_	7	obj	_	_
+7	passa	passar	VERB	VERB	_	2	advcl	_	_
+8	por	por	ADP	ADP	_	9	case	_	_
+9	ficção	ficção	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	13	punct	_	_
+11	mas	mas	CCONJ	CONJ	_	13	cc	_	_
+12	é	ser	AUX	AUX	_	13	cop	_	_
+13	realidade	realidade	NOUN	NOUN	_	7	conj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = dev-s959
+# text = Na mostra, os desenhos de Heller são sobrepostos a fotografias atuais, feitas com o mesmo ângulo das ilustrações pelo fotógrafo Hermano Taruma.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	ADP	_	3	case	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	mostra	mostra	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	os	o	DET	DET	_	6	det	_	_
+6	desenhos	desenho	NOUN	NOUN	_	10	nsubj:pass	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
+8	Heller	_	PROPN	PNOUN	_	6	nmod	_	_
+9	são	ser	AUX	AUX	_	10	aux:pass	_	_
+10	sobrepostos	sobrepor	VERB	VERB	_	0	root	_	_
+11	a	_	ADP	ADP	_	12	case	_	_
+12	fotografias	fotografia	NOUN	NOUN	_	10	nmod	_	_
+13	atuais	atual	ADJ	ADJ	_	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	15	punct	_	_
+15	feitas	_	VERB	VERB	_	12	acl	_	_
+16	com	com	ADP	ADP	_	19	case	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	mesmo	mesmo	ADJ	ADJ	_	19	amod	_	_
+19	ângulo	ângulo	NOUN	NOUN	_	15	nmod	_	_
+20-21	das	_	_	_	_	_	_	_	_
+20	de	de	ADP	ADP	_	22	case	_	_
+21	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	ilustrações	ilustração	NOUN	NOUN	_	19	nmod	_	_
+23-24	pelo	_	_	_	_	_	_	_	_
+23	por	por	ADP	ADP	_	25	case	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	fotógrafo	fotógrafo	NOUN	NOUN	_	15	nmod	_	_
+26	Hermano	_	PROPN	PNOUN	_	25	appos	_	_
+27	Taruma	_	PROPN	PNOUN	_	26	flat	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = dev-s960
+# text = Falando sobre sua próxima sequência de trabalho, o francês acabou revelando o período em que o novo carro da Lotus deverá ser lançado.
+1	Falando	falar	VERB	VERB	_	10	acl	_	_
+2	sobre	_	ADP	ADP	_	5	case	_	_
+3	sua	_	DET	DET	_	5	det:poss	_	_
+4	próxima	próximo	ADJ	ADJ	_	5	amod	_	_
+5	sequência	sequência	NOUN	NOUN	_	1	nmod	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
+7	trabalho	trabalho	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	1	punct	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	francês	francês	NOUN	NOUN	_	12	nsubj	_	_
+11	acabou	acabar	AUX	AUX	_	12	aux	_	_
+12	revelando	revelar	VERB	VERB	_	0	root	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	período	período	NOUN	NOUN	_	12	obj	_	_
+15	em	em	ADP	ADP	_	16	case	_	_
+16	que	_	PRON	PRON	_	25	nmod	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	novo	novo	ADJ	ADJ	_	19	amod	_	_
+19	carro	carro	NOUN	NOUN	_	25	nsubj	_	_
+20-21	da	_	_	_	_	_	_	_	_
+20	de	de	ADP	ADP	_	22	case	_	_
+21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Lotus	_	PROPN	PNOUN	_	19	nmod	_	_
+23	deverá	dever	AUX	AUX	_	25	aux	_	_
+24	ser	ser	AUX	AUX	_	25	aux:pass	_	_
+25	lançado	lançar	VERB	VERB	_	14	acl:relcl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = dev-s961
+# text = A pedido das várias redes televisivas do mundo, o CTV pode estabelecer uma ligação por satélite para fazer chegar o sinal a todos os continentes.
+1	A	_	ADP	ADP	_	2	case	_	_
+2	pedido	pedido	NOUN	NOUN	_	15	nmod	_	_
+3-4	das	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	6	case	_	_
+4	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	várias	_	DET	DET	_	6	det	_	_
+6	redes	rede	NOUN	NOUN	_	2	nmod	_	_
+7	televisivas	televisivo	ADJ	ADJ	_	6	amod	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	ADP	_	10	case	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	mundo	mundo	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	2	punct	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	CTV	_	PROPN	PNOUN	_	15	nsubj	_	_
+14	pode	_	AUX	AUX	_	15	aux	_	_
+15	estabelecer	estabelecer	VERB	VERB	_	0	root	_	_
+16	uma	um	DET	DET	_	17	det	_	_
+17	ligação	ligação	NOUN	NOUN	_	15	obj	_	_
+18	por	por	ADP	ADP	_	19	case	_	_
+19	satélite	satélite	NOUN	NOUN	_	17	nmod	_	_
+20	para	_	ADP	ADP	_	21	mark	_	_
+21	fazer	fazer	VERB	VERB	_	15	advcl	_	_
+22	chegar	chegar	VERB	VERB	_	21	ccomp	_	_
+23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	sinal	sinal	NOUN	NOUN	_	22	nsubj	_	_
+25	a	_	ADP	ADP	_	28	case	_	_
+26	todos	_	DET	DET	_	28	det	_	_
+27	os	o	DET	DET	_	28	det	_	_
+28	continentes	continente	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	15	punct	_	_
+
