@@ -123,18 +123,18 @@
 # sent_id = train-s8569a
 # text = A nível nacional e global é considerada uma espécie Pouco Preocupante (LC)
 1	A	_	ADP	ADP	_	2	case	_	_
-2	nível	nível	NOUN	NOUN	_	9	nmod	_	_
+2	nível	nível	NOUN	NOUN	_	7	obl	_	_
 3	nacional	nacional	ADJ	ADJ	_	2	amod	_	_
 4	e	e	CCONJ	CONJ	_	5	cc	_	_
 5	global	global	ADJ	ADJ	_	3	conj	_	_
-6	é	ser	AUX	AUX	_	9	aux:pass	_	_
-7	considerada	considerar	AUX	AUX	_	9	cop	_	_
+6	é	ser	AUX	AUX	_	7	aux:pass	_	_
+7	considerada	considerar	VERB	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	_	0	root	_	_
 8	uma	um	DET	DET	_	9	det	_	_
-9	espécie	espécie	NOUN	NOUN	_	0	root	_	_
+9	espécie	espécie	NOUN	NOUN	_	7	xcomp	_	_
 10	Pouco	pouco	ADV	ADV	_	11	advmod	_	_
-11	Preocupante	_	ADV	ADV	_	9	advmod	_	_
+11	Preocupante	preocupante	ADJ	_	_	9	amod	_	_
 12	(	(	PUNCT	.	_	13	punct	_	SpaceAfter=No
-13	LC	_	PROPN	PNOUN	_	9	appos	_	SpaceAfter=No
+13	LC	_	PROPN	_	_	9	appos	_	SpaceAfter=No
 14	)	)	PUNCT	.	_	13	punct	_	_
 
 # sent_id = train-s8569b
@@ -252,10 +252,10 @@
 # text = À medida que o xadrez se espalhava pelo restante da Europa, a Espanha contribuiu com as principais literaturas sobre o xadrez do período, culminando com o Libro de los juegos (1283), encomendado por no.
 # sent_id = train-s8571
 1-2	À	_	_	_	_	_	_	_	_
-1	A	a	ADP	_	_	8	mark	_	_
-2	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	fixed	_	_
-3	medida	medida	ADP	_	_	4	case	_	_
-4	que	que	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
+1	A	a	ADP	_	_	3	mark	_	_
+2	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	medida	medida	NOUN	_	_	8	obl	_	_
+4	que	que	NOUN	_	Gender=Masc|Number=Sing	3	fixed	_	_
 5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	xadrez	xadrez	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 7	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	expl	_	_

@@ -160,49 +160,47 @@
 
 # udpipe_model = portuguese-bosque-ud-2.12-230717
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# text = Escreveu os livros "Com Esperança no Coração: Os Imigrantes Brasileiros nos Estados Unidos", "Sabor de Mar" e "Pelé" (Official Biography, Simon &amp; Schuster).
+# text = Escreveu os livros "Com Esperança no Coração: Os Imigrantes Brasileiros nos Estados Unidos", "Sabor de Mar" e "Pelé" (Official Biography, Simon & Schuster).
 # sent_id = dev-s688
 1	Escreveu	escrever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	livros	livro	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
-4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
-5	Com	Com	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	3	appos	_	_
-6	Esperança	Esperança	PROPN	_	Number=Sing	5	flat:name	_	_
+4	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+5	Com	com	ADP	_	_	6	case	_	_
+6	Esperança	esperança	NOUN	_	Gender=Fem|Number=Sing	3	appos	_	_
 7-8	no	_	_	_	_	_	_	_	_
 7	em	em	ADP	_	_	9	case	_	_
 8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	Coração	Coração	PROPN	_	Number=Sing	5	nmod	_	SpaceAfter=No
-10	:	:	PUNCT	_	_	5	punct	_	_
-11	Os	Os	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	appos	_	_
-12	Imigrantes	Imigrantes	PROPN	_	Number=Sing	5	flat:name	_	_
-13	Brasileiros	Brasileiros	PROPN	_	Number=Sing	11	flat:name	_	_
+9	Coração	coração	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	12	punct	_	_
+11	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	Imigrantes	imigrante	NOUN	_	Gender=Masc|Number=Plur	9	appos	_	_
+13	Brasileiros	brasileiro	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	_
 14-15	nos	_	_	_	_	_	_	_	_
 14	em	em	ADP	_	_	16	case	_	_
 15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
-16	Estados	Estados	PROPN	_	Gender=Masc|Number=Plur	11	nmod	_	_
+16	Estados	Estados	PROPN	_	Gender=Masc|Number=Plur	12	nmod	_	_
 17	Unidos	Unidos	PROPN	_	Number=Sing	16	flat:name	_	SpaceAfter=No
-18	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	21	punct	_	_
 20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
-21	Sabor	Sabor	PROPN	_	Gender=Masc|Number=Sing	5	conj	_	_
+21	Sabor	Sabor	PROPN	_	Gender=Masc|Number=Sing	6	conj	_	_
 22	de	de	ADP	_	_	23	case	_	_
 23	Mar	Mar	PROPN	_	Number=Sing	21	nmod	_	SpaceAfter=No
 24	"	"	PUNCT	_	_	21	punct	_	_
 25	e	e	CCONJ	_	_	27	cc	_	_
 26	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
-27	Pelé	Pelé	PROPN	_	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+27	Pelé	Pelé	PROPN	_	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
 28	"	"	PUNCT	_	_	27	punct	_	_
 29	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
 30	Official	Official	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	27	parataxis	_	_
 31	Biography	Biography	PROPN	_	Number=Sing	30	flat:name	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	33	punct	_	_
-33	Simon	Simon	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	30	appos	_	_
-34	&	&	PROPN	_	Number=Sing	33	flat:name	_	SpaceAfter=No
-35	amp	amp	PROPN	_	Number=Sing	33	flat:name	_	SpaceAfter=No
-36	;	;	PUNCT	_	_	37	punct	_	_
-37	Schuster	Schuster	PROPN	_	Gender=Masc|Number=Sing	30	conj	_	SpaceAfter=No
-38	)	)	PUNCT	_	_	30	punct	_	SpaceAfter=No
-39	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
+33	Simon	Simon	PROPN	_	Gender=Masc|Number=Sing	30	appos	_	_
+34	&	&	CCONJ	_	_	35	cc	_	_
+35	Schuster	Schuster	PROPN	_	Gender=Masc|Number=Sing	33	conj	_	SpaceAfter=No
+36	)	)	PUNCT	_	_	30	punct	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = dev-s689
 # text = Embora algumas petições legais acusando Shafik de corrupção foram apresentadas em abril, "não há absolutamente nenhuma processo judicial pendentes contra meu cliente", disse Elsayed.

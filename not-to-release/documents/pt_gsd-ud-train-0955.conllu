@@ -18,7 +18,7 @@
 14	entre	entre	ADP	_	_	15	case	_	_
 15	eles	ele	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	obl	_	SpaceAfter=No
 16	:	:	PUNCT	_	_	17	punct	_	_
-17	Campo	Campo	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	12	appos	_	_
+17	Campo	Campo	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	15	appos	_	_
 18	Ampliado	Ampliado	PROPN	_	Number=Sing	17	flat:name	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	Absorção	Absorção	PROPN	_	ExtPos=PROPN|Number=Sing	17	conj	_	_
@@ -27,8 +27,8 @@
 23	em	em	ADP	_	_	24	case	_	_
 24	Volpi	Volpi	PROPN	_	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	27	punct	_	_
-26	O	O	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	conj	_	_
-27	Olhar	Olhar	PROPN	_	Number=Sing	17	conj	_	_
+26	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Olhar	olhar	NOUN	_	Gender=Masc|Number=Sing	17	conj	_	_
 28-29	do	_	_	_	_	_	_	_	_
 28	de	de	ADP	_	_	30	case	_	_
 29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
@@ -251,7 +251,7 @@
 
 # udpipe_model = portuguese-bosque-ud-2.12-230717
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# text = Essa dívida, que permanceu depois da negociação entre Galo e Vasco, era de 900 mil euros, algo em torno de R $ 2,221,816,77 milhões, se convertido atualmente.
+# text = Essa dívida, que permanceu depois da negociação entre Galo e Vasco, era de 900 mil euros, algo em torno de R$ 2,221,816,77 milhões, se convertido atualmente.
 # sent_id = train-s9484
 1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	dívida	dívida	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	SpaceAfter=No
@@ -278,15 +278,14 @@
 22	em	em	ADP	_	_	25	case	_	_
 23	torno	torno	NOUN	_	Gender=Masc|Number=Sing	22	fixed	_	_
 24	de	de	ADP	_	_	22	fixed	_	_
-25	R	R	SYM	_	_	21	nmod	_	_
-26	$	$	SYM	_	_	25	nmod	_	_
-27	2,221,816,77	2,221,816,77	NUM	_	NumType=Card	26	nummod	_	_
-28	milhões	milhão	NUM	_	NumType=Card	27	flat	_	SpaceAfter=No
-29	,	,	PUNCT	_	_	31	punct	_	_
-30	se	se	PRON	_	_	31	mark	_	_
-31	convertido	converter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	25	acl	_	_
-32	atualmente	atualmente	ADV	_	_	31	advmod	_	SpaceAfter=No
-33	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+25	R$	R$	SYM	_	_	21	nmod	_	_
+26	2,221,816,77	2,221,816,77	NUM	_	NumType=Card	25	nummod	_	_
+27	milhões	milhão	NUM	_	NumType=Card	26	flat	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	30	punct	_	_
+29	se	se	SCONJ	_	_	30	mark	_	_
+30	convertido	converter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	25	acl	_	_
+31	atualmente	atualmente	ADV	_	_	30	advmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
 
 # sent_id = train-s9485
 # text = O Brasil tem problemas imensos e grandes dificuldades para enfrentá - los.
