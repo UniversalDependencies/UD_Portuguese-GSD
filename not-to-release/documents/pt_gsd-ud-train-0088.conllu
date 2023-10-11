@@ -49,15 +49,17 @@
 
 # udpipe_model = portuguese-bosque-ud-2.12-230717
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# text = Washington, 18 Set 2012 (AFP) - Apesar da forte polêmica em torno das relações com a China na campanha eleitoral americana, a maioria dos cidadãos apoia a manutenção dum vínculo estreito com a potência asiática e não percebe sua intensificação como um problema, indica uma pesquisa divulgada nesta terça-feira.
 # sent_id = train-s871
-1	WASHINGTON	WASHINGTON	PROPN	_	Gender=Masc|Number=Sing	54	nsubj	_	SpaceAfter=No
+# text = Washington, 18 Set 2012 (AFP) - Apesar da forte polêmica em torno das relações com a China na campanha eleitoral americana, a maioria dos cidadãos apoia a manutenção dum vínculo estreito com a potência asiática e não percebe sua intensificação como um problema, indica uma pesquisa divulgada nesta terça-feira.
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+1	Washington	Washington	PROPN	_	Gender=Masc|Number=Sing	54	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	4	punct	_	_
 3	18	18	NUM	_	NumType=Card	4	nummod	_	_
 4	Set	Set	PROPN	_	Gender=Masc|Number=Plur	1	appos	_	_
 5	2012	2012	NUM	_	NumType=Card	4	nummod	_	_
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	AFP	AFP	PROPN	_	Gender=Fem|Number=Sing	4	appos	_	SpaceAfter=No
+7	AFP	AFP	PROPN	_	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
 8	)	)	PUNCT	_	_	7	punct	_	_
 9	-	-	PUNCT	_	_	34	punct	_	_
 10	Apesar	apesar	ADV	_	ExtPos=ADP	14	case	_	_
@@ -116,10 +118,8 @@
 58-59	nesta	_	_	_	_	_	_	_	_
 58	em	em	ADP	_	_	60	case	_	_
 59	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	60	det	_	_
-60	terça	terça	NOUN	_	Gender=Fem|Number=Sing	57	obl	_	_
-61	-	-	PUNCT	_	_	62	punct	_	_
-62	feira	feira	NOUN	_	Gender=Fem|Number=Sing	60	appos	_	SpaceAfter=No
-63	.	.	PUNCT	_	_	54	punct	_	SpaceAfter=No
+60	terça-feira	terça-feira	NOUN	_	Gender=Fem|Number=Sing	57	obl	_	SpaceAfter=No
+61	.	.	PUNCT	_	_	54	punct	_	SpaceAfter=No
 
 # sent_id = train-s872
 # text = Como está sendo a preperação?
