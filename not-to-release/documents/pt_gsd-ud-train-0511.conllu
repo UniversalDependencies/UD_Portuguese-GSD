@@ -79,35 +79,37 @@
 33	países	país	NOUN	NOUN	_	30	nmod	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s5075
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O governo adiou para dezembro o leilão de compra de energia elétrica proveniente de novos empreendimentos de geração, denominado Leilão "A - 3".
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	governo	governo	NOUN	NOUN	_	3	nsubj	_	_
-3	adiou	adiar	VERB	VERB	_	0	root	_	_
-4	para	para	ADP	ADP	_	5	case	_	_
-5	dezembro	_	PROPN	PNOUN	_	3	nmod	_	_
-6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	leilão	leilão	NOUN	NOUN	_	3	obj	_	_
-8	de	de	ADP	ADP	_	9	case	_	_
-9	compra	compra	NOUN	NOUN	_	7	nmod	_	_
-10	de	de	ADP	ADP	_	11	case	_	_
-11	energia	energia	NOUN	NOUN	_	9	nmod	_	_
-12	elétrica	elétrico	ADJ	ADJ	_	11	amod	_	_
-13	proveniente	proveniente	ADJ	ADJ	_	11	amod	_	_
-14	de	de	ADP	ADP	_	16	case	_	_
-15	novos	novo	ADJ	ADJ	_	16	amod	_	_
-16	empreendimentos	empreendimento	NOUN	NOUN	_	13	nmod	_	_
-17	de	de	ADP	ADP	_	18	case	_	_
-18	geração	geração	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	21	punct	_	_
-20	denominado	denominar	AUX	AUX	_	21	cop	_	_
-21	Leilão	_	PROPN	PNOUN	_	7	acl	_	_
-22	"	"	PUNCT	.	_	23	punct	_	SpaceAfter=No
-23	A	_	PROPN	PNOUN	_	21	appos	_	_
-24	-	-	PUNCT	.	_	23	punct	_	_
-25	3	3	NUM	NUM	NumType=Card	23	appos	_	SpaceAfter=No
-26	"	"	PUNCT	.	_	23	punct	_	SpaceAfter=No
-27	.	.	PUNCT	.	_	3	punct	_	_
+# sent_id = train-s5075
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	governo	governo	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	adiou	adiar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	para	para	ADP	_	_	5	case	_	_
+5	dezembro	dezembro	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	leilão	leilão	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	compra	compra	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	energia	energia	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+12	elétrica	elétrico	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+13	proveniente	proveniente	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	novos	novo	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	_
+16	empreendimentos	empreendimento	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	geração	geração	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	denominado	denominar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	7	acl	_	_
+21	Leilão	leilão	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
+22	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	A	A	PROPN	_	Gender=Masc|Number=Sing	21	appos	_	_
+24	-	-	PUNCT	_	_	25	punct	_	_
+25	3	3	NUM	_	NumType=Card	23	nmod	_	SpaceAfter=No
+26	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = train-s5076
 # text = Segundo Donninson, parte da população teme que se as condições econômicas não melhorarem, a relativa estabilidade da região poderia ficar ameaçada.

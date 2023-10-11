@@ -147,28 +147,30 @@
 6	los	eles	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	obj	_	_
 7	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = train-s5883
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Vitória merecida em casa para o Timbu, e melhor ainda para os 15.013 torcedores nos Aflitos.
-1	Vitória	vitória	NOUN	NOUN	_	0	root	_	_
-2	merecida	merecido	ADJ	ADJ	_	1	amod	_	_
-3	em	em	ADP	ADP	_	4	case	_	_
-4	casa	casa	NOUN	NOUN	_	1	nmod	_	_
-5	para	para	ADP	ADP	_	7	case	_	_
-6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	Timbu	_	PROPN	PNOUN	_	1	nmod	_	SpaceAfter=No
-8	,	,	PUNCT	.	_	15	punct	_	_
-9	e	e	CCONJ	CONJ	_	15	cc	_	_
-10	melhor	melhor	ADJ	ADJ	_	1	amod	_	_
-11	ainda	ainda	ADV	ADV	_	10	advmod	_	_
-12	para	para	ADP	ADP	_	15	case	_	_
-13	os	o	DET	DET	_	15	det	_	_
-14	15.013	_	NUM	NUM	NumType=Card	15	nummod	_	_
-15	torcedores	torcedor	NOUN	NOUN	_	7	conj	_	_
+# sent_id = train-s5883
+1	Vitória	vitória	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	merecida	merecer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	1	acl	_	_
+3	em	em	ADP	_	_	4	case	_	_
+4	casa	casa	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+5	para	para	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Timbu	Timbu	PROPN	_	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	melhor	melhor	ADJ	_	Gender=Fem|Number=Sing	1	conj	_	_
+11	ainda	ainda	ADV	_	_	15	advmod	_	_
+12	para	para	ADP	_	_	15	case	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	15.013	15.013	NUM	_	NumType=Card	15	nummod	_	_
+15	torcedores	torcedor	NOUN	_	Gender=Masc|Number=Plur	10	obl	_	_
 16-17	nos	_	_	_	_	_	_	_	_
-16	em	em	ADP	ADP	_	18	case	_	_
-17	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
-18	Aflitos	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
-19	.	.	PUNCT	.	_	1	punct	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	Aflitos	Aflitos	PROPN	_	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = train-s5884
 # text = Quando completou 13 anos já morava no Rio de Janeiro e foi quando ganhou a sua primeira sanfona entregue das mãos do Rei do Baião.
@@ -238,30 +240,32 @@
 24	operadoras	operador	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s5886
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Quando ele desceu do seu cavalo e começou a atirar com arco, Optila e seus amigos o atacaram.
-1	Quando	_	CCONJ	CONJ	_	3	mark	_	_
-2	ele	_	PRON	PRON	_	3	nsubj	_	_
-3	desceu	descer	VERB	VERB	_	20	advcl	_	_
+# sent_id = train-s5886
+1	Quando	quando	SCONJ	_	_	3	mark	_	_
+2	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	desceu	descer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	advcl	_	_
 4-5	do	_	_	_	_	_	_	_	_
-4	de	de	ADP	ADP	_	7	case	_	_
-5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-6	seu	_	DET	DET	_	7	det:poss	_	_
-7	cavalo	cavalo	NOUN	NOUN	_	3	nmod	_	_
-8	e	e	CCONJ	CONJ	_	11	cc	_	_
-9	começou	começar	AUX	AUX	_	11	aux	_	_
-10	a	_	ADP	ADP	_	11	mark	_	_
-11	atirar	atirar	VERB	VERB	_	3	conj	_	_
-12	com	com	ADP	ADP	_	13	case	_	_
-13	arco	arco	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
-14	,	,	PUNCT	.	_	3	punct	_	_
-15	Optila	_	PROPN	PNOUN	_	0	root	_	_
-16	e	e	CCONJ	CONJ	_	18	cc	_	_
-17	seus	_	DET	DET	_	18	det:poss	_	_
-18	amigos	amigo	NOUN	NOUN	_	15	conj	_	_
-19	o	_	PRON	PRON	_	20	obj	_	_
-20	atacaram	atacar	VERB	VERB	_	15	conj	_	SpaceAfter=No
-21	.	.	PUNCT	.	_	15	punct	_	_
+4	de	de	ADP	_	_	7	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	7	det	_	_
+7	cavalo	cavalo	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	começou	começar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+10	a	a	SCONJ	_	_	11	mark	_	_
+11	atirar	atirar	VERB	_	VerbForm=Inf	9	xcomp	_	_
+12	com	com	ADP	_	_	13	case	_	_
+13	arco	arco	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	11	punct	_	_
+15	Optila	Optila	PROPN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
+16	e	e	CCONJ	_	_	18	cc	_	_
+17	seus	seu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	18	det	_	_
+18	amigos	amigo	NOUN	_	Gender=Masc|Number=Plur	15	conj	_	_
+19	o	ele	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+20	atacaram	atacar	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
 
 # sent_id = train-s5887
 # text = Ainda segundo a presidenta, "da sinuosidade da curva, Niemeyer desenhou casas, palácios e cidades.

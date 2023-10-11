@@ -333,38 +333,42 @@
 19	povo	povo	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = train-s2957
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = 'O Fluminense é um time muito forte, um dos melhores da competição, mas sabemos que o ponto forte deles é o Fred.
-1	'	_	PUNCT	.	_	6	punct	_	SpaceAfter=No
-2	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	Fluminense	_	PROPN	PNOUN	_	6	nsubj	_	_
-4	é	ser	AUX	AUX	_	6	cop	_	_
-5	um	um	DET	DET	_	6	det	_	_
-6	time	time	NOUN	NOUN	_	0	root	_	_
-7	muito	muito	ADV	ADV	_	8	advmod	_	_
-8	forte	forte	ADJ	ADJ	_	6	amod	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	10	punct	_	_
-10	um	_	PRON	PRON	_	6	appos	_	_
+# sent_id = train-s2957
+1	'	'	PUNCT	_	_	6	punct	_	SpaceAfter=No
+2	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Fluminense	Fluminense	PROPN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	time	time	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+7	muito	muito	ADV	_	_	8	advmod	_	_
+8	forte	forte	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	um	um	NUM	_	NumType=Card	6	appos	_	_
 11-12	dos	_	_	_	_	_	_	_	_
-11	de	de	ADP	ADP	_	13	case	_	_
-12	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
-13	melhores	melhor	NOUN	NOUN	_	10	nmod	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	melhores	bom	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
 14-15	da	_	_	_	_	_	_	_	_
-14	de	de	ADP	ADP	_	16	case	_	_
-15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	competição	competição	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
-17	,	,	PUNCT	.	_	19	punct	_	_
-18	mas	mas	CCONJ	CONJ	_	19	cc	_	_
-19	sabemos	saber	VERB	VERB	_	6	conj	_	_
-20	que	que	CCONJ	CONJ	_	27	mark	_	_
-21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-22	ponto	ponto	NOUN	NOUN	_	27	nsubj	_	_
-23	forte	forte	ADJ	ADJ	_	22	amod	_	_
-24	deles	_	X	ADPPRON	_	22	det:poss	_	_
-25	é	ser	AUX	AUX	_	27	cop	_	_
-26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	Fred	_	PROPN	PNOUN	_	19	ccomp	_	SpaceAfter=No
-28	.	.	PUNCT	.	_	6	punct	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	competição	competição	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	mas	mas	CCONJ	_	_	19	cc	_	_
+19	sabemos	saber	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	conj	_	_
+20	que	que	SCONJ	_	_	28	mark	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	28	nsubj	_	_
+23	forte	forte	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
+24-25	deles	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	eles	eles	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	22	nmod	_	_
+26	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	Fred	Fred	PROPN	_	Gender=Masc|Number=Sing	19	ccomp	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
 # sent_id = train-s2958
 # text = Fundada em 1836, foi um dos três primeiros liceus criados no país.

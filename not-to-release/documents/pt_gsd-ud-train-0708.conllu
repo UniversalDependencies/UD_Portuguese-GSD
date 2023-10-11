@@ -79,36 +79,40 @@
 20	Scorsese	_	PROPN	PNOUN	_	19	nsubj	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	19	punct	_	_
 
-# sent_id = train-s7029
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = No início dessa semana, fotos postadas pelo Instagram deixaram de ser integradas aos tweets, o que desagradou vários internautas.
+# sent_id = train-s7029
 1-2	No	_	_	_	_	_	_	_	_
-1	Em	em	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	início	início	NOUN	NOUN	_	15	nmod	_	_
-4	dessa	_	ADP	ADP	_	5	case	_	_
-5	semana	semana	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
-6	,	,	PUNCT	.	_	3	punct	_	_
-7	fotos	foto	NOUN	NOUN	_	15	nsubj	_	_
-8	postadas	postar	VERB	VERB	_	7	acl	_	_
-9-10	pelo	_	_	_	_	_	_	_	_
-9	por	por	ADP	ADP	_	11	case	_	_
-10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	Instagram	_	PROPN	PNOUN	_	8	nmod	_	_
-12	deixaram	deixar	AUX	AUX	_	15	aux	_	_
-13	de	_	ADP	ADP	_	15	mark	_	_
-14	ser	ser	AUX	AUX	_	15	aux:pass	_	_
-15	integradas	integrar	VERB	VERB	_	0	root	_	_
-16-17	aos	_	_	_	_	_	_	_	_
-16	a	a	ADP	ADP	_	18	case	_	_
-17	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
-18	tweets	_	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	22	punct	_	_
-20	o	o	DET	DET	_	21	det	_	_
-21	que	_	PRON	PRON	_	22	nsubj	_	_
-22	desagradou	desagradar	VERB	VERB	_	15	parataxis	_	_
-23	vários	_	DET	DET	_	24	det	_	_
-24	internautas	internauta	NOUN	NOUN	_	22	obj	_	SpaceAfter=No
-25	.	.	PUNCT	.	_	15	punct	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	início	início	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+4-5	dessa	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	semana	semana	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	fotos	foto	NOUN	_	Gender=Fem|Number=Plur	13	nsubj:pass	_	_
+9	postadas	postar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	8	acl	_	_
+10-11	pelo	_	_	_	_	_	_	_	_
+10	por	por	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Instagram	Instagram	PROPN	_	Gender=Masc|Number=Sing	9	obl:agent	_	_
+13	deixaram	deixar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	de	de	SCONJ	_	_	16	mark	_	_
+15	ser	ser	AUX	_	VerbForm=Inf	16	aux:pass	_	_
+16	integradas	integrar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	13	xcomp	_	_
+17-18	aos	_	_	_	_	_	_	_	_
+17	a	a	ADP	_	_	19	case	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	tweets	tweet	NOUN	_	Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	16	punct	_	_
+21	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	16	appos	_	_
+22	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	23	nsubj	_	_
+23	desagradou	desagradar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	acl:relcl	_	_
+24	vários	vários	DET	_	Gender=Masc|Number=Plur|PronType=Ind	25	det	_	_
+25	internautas	internauta	NOUN	_	Gender=Masc|Number=Plur	23	obj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
 
 # sent_id = train-s7030
 # text = Jogador caro, de passagem por times grandes.

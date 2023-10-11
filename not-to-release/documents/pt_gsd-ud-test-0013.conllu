@@ -316,64 +316,72 @@
 26	"	"	PUNCT	.	_	21	punct	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = test-s128
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = José Airton faz o lançamento do pato vaidoso nesta quarta - feira, no Colégio Boa Viagem.
-1	José	_	PROPN	PNOUN	_	3	nsubj	_	_
-2	Airton	_	PROPN	PNOUN	_	1	flat	_	_
-3	faz	fazer	VERB	VERB	_	0	root	_	_
-4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	lançamento	lançamento	NOUN	NOUN	_	3	obj	_	_
+# sent_id = test-s128
+1	José	José	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	Airton	Airton	PROPN	_	Number=Sing	1	flat:name	_	_
+3	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	lançamento	lançamento	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
 6-7	do	_	_	_	_	_	_	_	_
-6	de	de	ADP	ADP	_	8	case	_	_
-7	O	_	PROPN	PNOUN	_	8	det	_	_
-8	pato	pato	NOUN	NOUN	_	5	nmod	_	_
-9	vaidoso	vaidoso	ADJ	ADJ	_	8	amod	_	_
-10	nesta	_	ADP	ADP	_	13	case	_	_
-11	quarta	_	PROPN	PNOUN	_	13	amod	_	_
-12	-	-	PUNCT	.	_	13	punct	_	_
-13	feira	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
-14	,	,	PUNCT	.	_	17	punct	_	_
-15-16	no	_	_	_	_	_	_	_	_
-15	em	em	ADP	ADP	_	17	case	_	_
-16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	Colégio	_	PROPN	PNOUN	_	3	nmod	_	_
-18	Boa	_	PROPN	PNOUN	_	17	amod	_	_
-19	Viagem	_	PROPN	PNOUN	_	17	flat	_	SpaceAfter=No
-20	.	.	PUNCT	.	_	3	punct	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	pato	pato	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9	vaidoso	vaidoso	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+10-11	nesta	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	quarta	quarta	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+13	-	-	PUNCT	_	_	14	punct	_	_
+14	feira	feira	NOUN	_	Gender=Fem|Number=Sing	12	appos	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	3	punct	_	_
+16-17	no	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Colégio	Colégio	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	3	obl	_	_
+19	Boa	Boa	PROPN	_	Number=Sing	18	flat:name	_	_
+20	Viagem	Viagem	PROPN	_	Number=Sing	18	flat:name	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
-# sent_id = test-s129
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = As horas extras, muito comuns nessa época de final de ano, devem ser remuneradas com um adicional de, no mínimo, 50 %, acrescentou a magistrada.
-1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
-2	horas	hora	NOUN	NOUN	_	16	nsubj:pass	_	_
-3	extras	extra	ADJ	ADJ	_	2	amod	_	SpaceAfter=No
-4	,	,	PUNCT	.	_	6	punct	_	_
-5	muito	muito	ADV	ADV	_	6	advmod	_	_
-6	comuns	comum	ADJ	ADJ	_	2	amod	_	_
-7	nessa	_	ADP	ADP	_	8	case	_	_
-8	época	época	NOUN	NOUN	_	6	nmod	_	_
-9	de	de	ADP	ADP	_	10	case	_	_
-10	final	final	NOUN	NOUN	_	8	nmod	_	_
-11	de	de	ADP	ADP	_	12	case	_	_
-12	ano	ano	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
-13	,	,	PUNCT	.	_	6	punct	_	_
-14	devem	_	AUX	AUX	_	16	aux	_	_
-15	ser	ser	AUX	AUX	_	16	aux:pass	_	_
-16	remuneradas	remunerar	VERB	VERB	_	29	ccomp	_	_
-17	com	com	ADP	ADP	_	19	case	_	_
-18	um	um	DET	DET	_	19	det	_	_
-19	adicional	_	NOUN	NOUN	_	16	nmod	_	_
-20	de	de	ADP	ADP	_	27	case	_	SpaceAfter=No
-21	,	,	PUNCT	.	_	24	punct	_	_
-22-23	no	_	_	_	_	_	_	_	_
-22	em	em	ADP	ADP	_	24	case	_	_
-23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	mínimo	mínimo	NOUN	NOUN	_	26	advmod	_	SpaceAfter=No
-25	,	,	PUNCT	.	_	24	punct	_	_
-26	50	50	NUM	NUM	NumType=Card	27	nummod	_	_
-27	%	_	SYM	SYM	_	19	nmod	_	SpaceAfter=No
-28	,	,	PUNCT	.	_	29	punct	_	_
-29	acrescentou	acrescentar	VERB	VERB	_	0	root	_	_
-30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-31	magistrada	magistrado	NOUN	NOUN	_	29	nsubj	_	SpaceAfter=No
-32	.	.	PUNCT	.	_	29	punct	_	_
+# sent_id = test-s129
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	horas	hora	NOUN	_	Gender=Fem|Number=Plur	15	nsubj:pass	_	_
+3	extras	extra	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	muito	muito	ADV	_	_	6	advmod	_	_
+6	comuns	comum	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
+7-8	nessa	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	época	época	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	final	final	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	ano	ano	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	6	punct	_	_
+15	devem	dever	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	ser	ser	AUX	_	VerbForm=Inf	17	aux:pass	_	_
+17	remuneradas	remunerar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	15	xcomp	_	_
+18	com	com	ADP	_	_	20	case	_	_
+19	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	adicional	adicional	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+21	de	de	SCONJ	_	_	28	case	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	25	punct	_	_
+23-24	no	_	_	_	_	_	_	_	_
+23	em	em	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	mínimo	mínimo	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	50	50	NUM	_	NumType=Card	28	nummod	_	_
+28	%	%	SYM	_	_	20	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	30	punct	_	_
+30	acrescentou	acrescentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	acl:relcl	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	magistrada	magistrada	NOUN	_	Gender=Fem|Number=Sing	30	obj	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
 

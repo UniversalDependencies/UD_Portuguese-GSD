@@ -206,55 +206,58 @@
 19	específica	específico	ADJ	ADJ	_	18	amod	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = train-s3015
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = No Volume 1, Edição 6 da Broken Records Magazine Glen Power diz "Foi muito bom, partilhar o mesmo palco com Paul McCartney e assistir ao show dele ... mas o meu favorito sempre foi Ringo Starr."
+# sent_id = train-s3015
 1-2	No	_	_	_	_	_	_	_	_
-1	Em	em	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	Volume	_	PROPN	PNOUN	_	15	nmod	_	_
-4	1	1	NUM	NUM	NumType=Card	3	appos	_	SpaceAfter=No
-5	,	,	PUNCT	.	_	6	punct	_	_
-6	Edição	_	PROPN	PNOUN	_	3	appos	_	_
-7	6	6	NUM	NUM	NumType=Card	6	appos	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Volume	volume	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+4	1	1	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	Edição	edição	NOUN	_	Gender=Fem|Number=Sing	3	appos	_	_
+7	6	6	NUM	_	NumType=Card	6	nummod	_	_
 8-9	da	_	_	_	_	_	_	_	_
-8	de	de	ADP	ADP	_	11	case	_	_
-9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-10	Broken	_	PROPN	PNOUN	_	11	amod	_	_
-11	Records	_	PROPN	PNOUN	_	3	nmod	_	_
-12	Magazine	_	PROPN	PNOUN	_	11	flat	_	_
-13	Glen	_	PROPN	PNOUN	_	15	nsubj	_	_
-14	Power	_	PROPN	PNOUN	_	13	flat	_	_
-15	diz	dizer	VERB	VERB	_	0	root	_	_
-16	"	"	PUNCT	.	_	17	punct	_	SpaceAfter=No
-17	Foi	_	VERB	VERB	_	15	ccomp	_	_
-18	muito	muito	ADV	ADV	_	19	advmod	_	_
-19	bom	bom	ADJ	ADJ	_	17	xcomp	_	SpaceAfter=No
-20	,	,	PUNCT	.	_	21	punct	_	_
-21	partilhar	partilhar	VERB	VERB	_	17	csubj	_	_
-22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-23	mesmo	mesmo	ADJ	ADJ	_	24	amod	_	_
-24	palco	palco	NOUN	NOUN	_	21	obj	_	_
-25	com	com	ADP	ADP	_	26	case	_	_
-26	Paul	_	PROPN	PNOUN	_	21	nmod	_	_
-27	McCartney	_	PROPN	PNOUN	_	26	flat	_	_
-28	e	e	CCONJ	CONJ	_	29	cc	_	_
-29	assistir	assistir	VERB	VERB	_	21	conj	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Broken	Broken	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	6	nmod	_	_
+11	Records	Records	PROPN	_	Number=Sing	10	flat:name	_	_
+12	Magazine	Magazine	PROPN	_	Number=Sing	10	flat:name	_	_
+13	Glen	Glen	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	15	nsubj	_	_
+14	Power	Power	PROPN	_	Number=Sing	10	flat:name	_	_
+15	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+17	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	cop	_	_
+18	muito	muito	ADV	_	_	19	advmod	_	_
+19	bom	bom	ADJ	_	Gender=Masc|Number=Sing	15	ccomp	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	partilhar	partilhar	VERB	_	VerbForm=Inf	19	conj	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	mesmo	mesmo	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
+24	palco	palco	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	_
+25	com	com	ADP	_	_	26	case	_	_
+26	Paul	Paul	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	24	nmod	_	_
+27	McCartney	McCartney	PROPN	_	Number=Sing	26	flat:name	_	_
+28	e	e	CCONJ	_	_	29	cc	_	_
+29	assistir	assistir	VERB	_	VerbForm=Inf	21	conj	_	_
 30-31	ao	_	_	_	_	_	_	_	_
-30	a	a	ADP	ADP	_	32	case	_	_
-31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
-32	show	show	NOUN	NOUN	_	29	nmod	_	_
-33	dele	_	X	ADPPRON	_	32	det:poss	_	_
-34	...	_	PUNCT	.	_	21	punct	_	_
-35	mas	mas	CCONJ	CONJ	_	41	cc	_	_
-36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
-37	meu	_	DET	DET	_	38	det:poss	_	_
-38	favorito	favorito	NOUN	NOUN	_	41	nsubj	_	_
-39	sempre	sempre	ADV	ADV	_	41	advmod	_	_
-40	foi	_	AUX	AUX	_	41	cop	_	_
-41	Ringo	_	PROPN	PNOUN	_	17	conj	_	_
-42	Starr	_	PROPN	PNOUN	_	41	flat	_	SpaceAfter=No
-43	.	.	PUNCT	.	_	15	punct	_	SpaceAfter=No
-44	"	"	PUNCT	.	_	15	punct	_	_
+30	a	a	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	show	show	NOUN	_	Gender=Masc|Number=Sing	29	obj	_	_
+33-34	dele	_	_	_	_	_	_	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	ele	ele	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nmod	_	_
+35	...	...	PUNCT	_	_	42	punct	_	_
+36	mas	mas	CCONJ	_	_	42	cc	_	_
+37	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+38	meu	meu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	39	det	_	_
+39	favorito	favorito	NOUN	_	Gender=Masc|Number=Sing	42	nsubj	_	_
+40	sempre	sempre	ADV	_	_	42	advmod	_	_
+41	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	42	cop	_	_
+42	Ringo	Ringo	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	15	conj	_	_
+43	Starr.	Starr.	PROPN	_	Number=Sing	42	flat:name	_	SpaceAfter=No
+44	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
 
 # sent_id = train-s3016
 # text = Na véspera de São João, o estabelecimento abre normalmente, com horário reduzido, das 9h às 18h.

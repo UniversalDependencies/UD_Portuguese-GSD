@@ -89,24 +89,26 @@
 15	comemora	comemorar	VERB	VERB	_	0	root	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	15	punct	_	_
 
-# sent_id = train-s5353
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = "Sessenta e quatro por cento do dinheiro liberado estão indo para investimento.
-1	"	"	PUNCT	.	_	12	punct	_	SpaceAfter=No
-2	Sessenta	_	NUM	NUM	NumType=Card	3	nummod	_	_
-3	e	_	CCONJ	CONJ	_	4	nummod	_	_
-4	quatro	_	NUM	NUM	NumType=Card	12	nsubj	_	_
-5	por	por	ADP	ADP	_	6	case	_	_
-6	cento	cento	NOUN	NOUN	_	4	nmod	_	_
+# sent_id = train-s5353
+1	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+2	Sessenta	sessenta	NUM	_	NumType=Card	5	nummod	_	_
+3	e	e	CCONJ	_	_	4	cc	_	_
+4	quatro	quatro	NUM	_	NumType=Card	2	conj	_	_
+5	por	por	ADP	_	ExtPos=NOUN	12	nsubj	_	_
+6	cento	cento	NUM	_	Gender=Masc|Number=Sing|NumType=Mult	5	compound	_	_
 7-8	do	_	_	_	_	_	_	_	_
-7	de	de	ADP	ADP	_	9	case	_	_
-8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	dinheiro	dinheiro	NOUN	NOUN	_	4	nmod	_	_
-10	liberado	liberar	VERB	VERB	_	9	acl	_	_
-11	estão	estar	AUX	AUX	_	12	aux	_	_
-12	indo	ir	VERB	VERB	_	0	root	_	_
-13	para	para	ADP	ADP	_	14	case	_	_
-14	investimento	investimento	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
-15	.	.	PUNCT	.	_	12	punct	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+10	liberado	liberar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	9	acl	_	_
+11	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	indo	ir	VERB	_	VerbForm=Ger	0	root	_	_
+13	para	para	ADP	_	_	14	case	_	_
+14	investimento	investimento	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
 
 # sent_id = train-s5354
 # text = Por fim, durante a noite, o craque disputará no estádio Andrés Quintana Roo, uma partida entre as estrelas da América e as estrelas do México.
@@ -166,38 +168,40 @@
 16	jogador	jogador	NOUN	NOUN	_	14	nsubj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	14	punct	_	_
 
-# sent_id = train-s5356
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Apesar do bom resultado conseguido fora de casa, o La Equidad aumentou para o seis o número de jogos consecutivos sem vencer na temporada.
-1	Apesar	apesar	ADV	ADV	_	5	case	_	_
+# sent_id = train-s5356
+1	Apesar	apesar	ADV	_	ExtPos=ADP	5	case	_	_
 2-3	do	_	_	_	_	_	_	_	_
-2	de	de	ADP	ADP	_	1	case	_	_
-3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
-4	bom	bom	ADJ	ADJ	_	5	amod	_	_
-5	resultado	resultado	NOUN	NOUN	_	14	nmod	_	_
-6	conseguido	conseguir	VERB	VERB	_	5	acl	_	_
-7	fora	fora	ADV	ADV	_	6	advmod	_	_
-8	de	de	ADP	ADP	_	9	case	_	_
-9	casa	casa	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-10	,	,	PUNCT	.	_	5	punct	_	_
-11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-12	La	_	PROPN	PNOUN	_	13	det	_	_
-13	Equidad	_	PROPN	PNOUN	_	14	nsubj	_	_
-14	aumentou	aumentar	VERB	VERB	_	0	root	_	_
-15	para	para	ADP	ADP	_	17	case	_	_
-16	o	o	DET	DET	_	17	det	_	_
-17	seis	_	NUM	NUM	NumType=Card	14	nmod	_	_
-18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	número	número	NOUN	NOUN	_	14	obj	_	_
-20	de	de	ADP	ADP	_	21	case	_	_
-21	jogos	jogo	NOUN	NOUN	_	19	nmod	_	_
-22	consecutivos	consecutivo	ADJ	ADJ	_	21	amod	_	_
-23	sem	_	ADP	ADP	_	24	mark	_	_
-24	vencer	vencer	VERB	VERB	_	21	nmod	_	_
+2	de	de	ADP	_	_	1	fixed	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	bom	bom	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+5	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+6	conseguido	conseguir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	5	acl	_	_
+7	fora	fora	ADV	_	_	6	advmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	casa	casa	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	6	punct	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	La	La	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	14	nsubj	_	_
+13	Equidad	Equidad	PROPN	_	Number=Sing	12	flat:name	_	_
+14	aumentou	aumentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	para	para	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	seis	seis	NUM	_	NumType=Card	14	obl	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	número	número	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	jogos	jogo	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	_
+22	consecutivos	consecutivo	ADJ	_	Gender=Masc|Number=Plur	21	amod	_	_
+23	sem	sem	SCONJ	_	_	24	mark	_	_
+24	vencer	vencer	VERB	_	VerbForm=Inf	14	advcl	_	_
 25-26	na	_	_	_	_	_	_	_	_
-25	em	em	ADP	ADP	_	27	case	_	_
-26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	temporada	temporada	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
-28	.	.	PUNCT	.	_	14	punct	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	temporada	temporada	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
 
 # sent_id = train-s5357
 # text = Juntos, os projetos somam mais de R $ 3,2 bilhões.

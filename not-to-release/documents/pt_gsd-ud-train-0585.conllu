@@ -48,108 +48,116 @@
 1	Vince	_	PROPN	PNOUN	_	0	root	_	_
 2	Bucci-11.fev.2012/AP	_	PROPN	PNOUN	_	1	flat	_	_
 
-# sent_id = train-s5811
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = "The Tall Man" chega aos cinemas americanos em 31 de agosto.
-1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
-2	The	_	PROPN	PNOUN	_	4	det	_	_
-3	Tall	_	PROPN	PNOUN	_	4	amod	_	_
-4	Man	_	PROPN	PNOUN	_	6	nsubj	_	SpaceAfter=No
-5	"	"	PUNCT	.	_	4	punct	_	_
-6	chega	chegar	VERB	VERB	_	0	root	_	_
+# sent_id = train-s5811
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	The	The	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	6	nsubj	_	_
+3	Tall	Tall	PROPN	_	Number=Sing	2	flat:name	_	_
+4	Man	Man	PROPN	_	Number=Sing	2	flat:name	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	2	punct	_	_
+6	chega	chegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7-8	aos	_	_	_	_	_	_	_	_
-7	a	a	ADP	ADP	_	9	case	_	_
-8	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
-9	cinemas	cinema	NOUN	NOUN	_	6	nmod	_	_
-10	americanos	americano	ADJ	ADJ	_	9	amod	_	_
-11	em	em	ADP	ADP	_	12	case	_	_
-12	31	31	NUM	NUM	NumType=Card	6	nmod	_	_
-13	de	de	ADP	ADP	_	14	case	_	_
-14	agosto	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
-15	.	.	PUNCT	.	_	6	punct	_	_
+7	a	a	ADP	_	_	9	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	cinemas	cinema	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
+10	americanos	americano	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
+11	em	em	ADP	_	_	12	case	_	_
+12	31	31	NUM	_	NumType=Card	6	obl	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	agosto	agosto	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
-# sent_id = train-s5812
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Dessa fase, destacam-se Sally (1925), Irene, Ella Cinders e It May Be Love, todos de 1926.
-1	Dessa	_	ADP	ADP	_	2	case	_	_
-2	fase	fase	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
-3	,	,	PUNCT	.	_	2	punct	_	_
-4-5	destacam-se	_	_	_	_	_	_	_	_
-4	destacam	destacar	VERB	VERB	_	0	root	_	_
-5	se	_	PART	PRT	_	4	expl:pv	_	_
-6	Sally	_	PROPN	PNOUN	_	4	nsubj	_	_
-7	(	(	PUNCT	.	_	8	punct	_	SpaceAfter=No
-8	1925	1925	NUM	NUM	NumType=Card	6	nmod	_	SpaceAfter=No
-9	)	)	PUNCT	.	_	8	punct	_	SpaceAfter=No
-10	,	,	PUNCT	.	_	11	punct	_	_
-11	Irene	_	PROPN	PNOUN	_	6	conj	_	SpaceAfter=No
-12	,	,	PUNCT	.	_	13	punct	_	_
-13	Ella	_	PROPN	PNOUN	_	11	conj	_	_
-14	Cinders	_	PROPN	PNOUN	_	13	flat	_	_
-15	e	e	CCONJ	CONJ	_	19	cc	_	_
-16	It	_	PROPN	PNOUN	_	19	nsubj	_	_
-17	May	_	PROPN	PNOUN	_	19	aux	_	_
-18	Be	_	PROPN	PNOUN	_	19	cop	_	_
-19	Love	_	PROPN	PNOUN	_	11	conj	_	SpaceAfter=No
-20	,	,	PUNCT	.	_	21	punct	_	_
-21	todos	_	PRON	PRON	_	11	appos	_	_
-22	de	de	ADP	ADP	_	23	case	_	_
-23	1926	1926	NUM	NUM	NumType=Card	21	nmod	_	SpaceAfter=No
-24	.	.	PUNCT	.	_	4	punct	_	_
+# sent_id = train-s5812
+1-2	Dessa	_	_	_	_	_	_	_	_
+1	De	de	ADP	_	_	3	case	_	_
+2	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	fase	fase	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5-6	destacam-se	_	_	_	_	_	_	_	_
+5	destacam	destacar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	5	expl	_	_
+7	Sally	Sally	PROPN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	1925	1925	NUM	_	NumType=Card	7	nmod	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	Irene	Irene	PROPN	_	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	Ella	Ella	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	7	conj	_	_
+15	Cinders	Cinders	PROPN	_	Number=Sing	14	flat:name	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	It	It	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	7	conj	_	_
+18	May	May	PROPN	_	Number=Sing	17	flat:name	_	_
+19	Be	Be	PROPN	_	Number=Sing	17	flat:name	_	_
+20	Love	Love	PROPN	_	Number=Sing	17	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	todos	todo	PRON	_	Gender=Masc|Number=Plur|PronType=Tot	7	appos	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	1926	1926	NUM	_	NumType=Card	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
-# sent_id = train-s5813
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = "Os eletrocenters são pré - fabricados e incluem todas as soluções necessárias de energia para aplicações onshore -- refinarias, unidades termoelétricas, geração de energia, estações de bombeamento em terra entre outros", pontua o engenheiro sênior do Grupo Elétrico Power Distribuition, Luiz Felipe Costa.
-1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
-2	Os	o	DET	DET	_	3	det	_	_
-3	eletrocenters	_	NOUN	NOUN	_	4	nsubj	_	_
-4	são	ser	VERB	VERB	_	38	ccomp	_	_
-5	pré	_	PART	PRT	_	7	amod	_	_
-6	-	-	PUNCT	.	_	7	punct	_	_
-7	fabricados	fabricado	ADJ	ADJ	_	4	xcomp	_	_
-8	e	e	CCONJ	CONJ	_	9	cc	_	_
-9	incluem	incluir	VERB	VERB	_	4	conj	_	_
-10	todas	_	DET	DET	_	12	det	_	_
-11	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
-12	soluções	solução	NOUN	NOUN	_	9	obj	_	_
-13	necessárias	necessário	ADJ	ADJ	_	12	amod	_	_
-14	de	de	ADP	ADP	_	15	case	_	_
-15	energia	energia	NOUN	NOUN	_	12	nmod	_	_
-16	para	para	ADP	ADP	_	17	case	_	_
-17	aplicações	aplicação	NOUN	NOUN	_	12	nmod	_	_
-18	onshore	_	NOUN	NOUN	_	17	flat	_	_
-19	--	_	PUNCT	.	_	20	punct	_	_
-20	refinarias	refinaria	NOUN	NOUN	_	17	appos	_	SpaceAfter=No
-21	,	,	PUNCT	.	_	22	punct	_	_
-22	unidades	unidade	NOUN	NOUN	_	20	conj	_	_
-23	termoelétricas	termoelétrico	ADJ	ADJ	_	22	amod	_	SpaceAfter=No
-24	,	,	PUNCT	.	_	25	punct	_	_
-25	geração	geração	NOUN	NOUN	_	20	conj	_	_
-26	de	de	ADP	ADP	_	27	case	_	_
-27	energia	energia	NOUN	NOUN	_	25	nmod	_	SpaceAfter=No
-28	,	,	PUNCT	.	_	29	punct	_	_
-29	estações	estação	NOUN	NOUN	_	20	conj	_	_
-30	de	de	ADP	ADP	_	31	case	_	_
-31	bombeamento	bombeamento	NOUN	NOUN	_	29	nmod	_	_
-32	em	em	ADP	ADP	_	33	case	_	_
-33	terra	terra	NOUN	NOUN	_	29	nmod	_	_
-34	entre	_	ADP	ADP	_	35	case	_	_
-35	outros	_	PRON	PRON	_	20	nmod	_	SpaceAfter=No
-36	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
-37	,	,	PUNCT	.	_	38	punct	_	_
-38	pontua	pontuar	VERB	VERB	_	0	root	_	_
-39	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
-40	engenheiro	engenheiro	NOUN	NOUN	_	38	nsubj	_	_
-41	sênior	sênior	ADJ	ADJ	_	40	amod	_	_
+# sent_id = train-s5813
+1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+2	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	eletrocenters	eletrocenter	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	pré	pré	ADV	_	_	38	parataxis	_	_
+6	-	-	PUNCT	_	_	7	punct	_	_
+7	fabricados	fabricar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	5	conj	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	incluem	incluir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+10	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Tot	12	det	_	_
+11	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	soluções	solução	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	_
+13	necessárias	necessário	ADJ	_	Gender=Fem|Number=Plur	12	amod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	energia	energia	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+16	para	para	ADP	_	_	17	case	_	_
+17	aplicações	aplicação	NOUN	_	Gender=Fem|Number=Plur	15	nmod	_	_
+18	onshore	onshore	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
+19	--	--	PUNCT	_	_	20	punct	_	_
+20	refinarias	refinaria	NOUN	_	Gender=Fem|Number=Plur	17	appos	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	unidades	unidade	NOUN	_	Gender=Fem|Number=Plur	20	conj	_	_
+23	termoelétricas	termoelétrico	ADJ	_	Gender=Fem|Number=Plur	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	geração	geração	NOUN	_	Gender=Fem|Number=Sing	20	conj	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	energia	energia	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	_
+29	estações	estação	NOUN	_	Gender=Fem|Number=Plur	20	conj	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	bombeamento	bombeamento	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
+32	em	em	ADP	_	_	33	case	_	_
+33	terra	terra	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	_
+34	entre	entre	ADP	_	_	35	case	_	_
+35	outros	outro	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	29	nmod	_	SpaceAfter=No
+36	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	38	punct	_	_
+38	pontua	pontuar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+39	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	engenheiro	engenheiro	NOUN	_	Gender=Masc|Number=Sing	38	nsubj	_	_
+41	sênior	sênior	ADJ	_	Gender=Masc|Number=Sing	40	amod	_	_
 42-43	do	_	_	_	_	_	_	_	_
-42	de	de	ADP	ADP	_	40	case	_	_
-43	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
-44	Grupo	_	PROPN	PNOUN	_	42	flat	_	_
-45	Elétrico	_	PROPN	PNOUN	_	44	amod	_	_
-46	Power	_	PROPN	PNOUN	_	44	appos	_	_
-47	Distribuition	_	PROPN	PNOUN	_	46	flat	_	SpaceAfter=No
-48	,	,	PUNCT	.	_	49	punct	_	_
-49	Luiz	_	PROPN	PNOUN	_	40	appos	_	_
-50	Felipe	_	PROPN	PNOUN	_	49	flat	_	_
-51	Costa	_	PROPN	PNOUN	_	49	flat	_	SpaceAfter=No
-52	.	.	PUNCT	.	_	38	punct	_	_
+42	de	de	ADP	_	_	44	case	_	_
+43	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	Grupo	Grupo	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	40	nmod	_	_
+45	Elétrico	Elétrico	PROPN	_	Number=Sing	44	flat:name	_	_
+46	Power	Power	PROPN	_	Number=Sing	44	flat:name	_	_
+47	Distribuition	Distribuition	PROPN	_	Number=Sing	44	flat:name	_	SpaceAfter=No
+48	,	,	PUNCT	_	_	49	punct	_	_
+49	Luiz	Luiz	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	40	appos	_	_
+50	Felipe	Felipe	PROPN	_	Number=Sing	49	flat:name	_	_
+51	Costa	Costa	PROPN	_	Number=Sing	49	flat:name	_	SpaceAfter=No
+52	.	.	PUNCT	_	_	38	punct	_	SpaceAfter=No
 
 # sent_id = train-s5814
 # text = O gadget só deve chegar às prateleiras em meados de 2013.
@@ -168,33 +176,35 @@
 12	2013	2013	NUM	NUM	NumType=Card	10	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = train-s5815
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O Slaviero Slim da Avenida das Torres já começou a ser construído e tem previsão de inauguração já em 2013.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	Slaviero	_	PROPN	PNOUN	_	14	nsubj:pass	_	_
-3	Slim	_	PROPN	PNOUN	_	2	flat	_	_
+# sent_id = train-s5815
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Slaviero	Slaviero	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+3	Slim	Slim	PROPN	_	Number=Sing	2	flat:name	_	_
 4-5	da	_	_	_	_	_	_	_	_
-4	de	de	ADP	ADP	_	6	case	_	_
-5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	Avenida	avenida	NOUN	NOUN	_	2	nmod	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Avenida	Avenida	PROPN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 7-8	das	_	_	_	_	_	_	_	_
-7	de	de	ADP	ADP	_	9	case	_	_
-8	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
-9	Torres	_	PROPN	PNOUN	_	6	nmod	_	_
-10	já	já	ADV	ADV	_	14	advmod	_	_
-11	começou	começar	AUX	AUX	_	14	aux	_	_
-12	a	_	ADP	ADP	_	14	mark	_	_
-13	ser	ser	AUX	AUX	_	14	aux:pass	_	_
-14	construído	construir	VERB	VERB	_	0	root	_	_
-15	e	e	CCONJ	CONJ	_	16	cc	_	_
-16	tem	ter	VERB	VERB	_	14	conj	_	_
-17	previsão	previsão	NOUN	NOUN	_	16	obj	_	_
-18	de	de	ADP	ADP	_	19	case	_	_
-19	inauguração	inauguração	NOUN	NOUN	_	17	nmod	_	_
-20	já	já	ADV	ADV	_	19	advmod	_	_
-21	em	em	ADP	ADP	_	22	case	_	_
-22	2013	2013	NUM	NUM	NumType=Card	20	nmod	_	SpaceAfter=No
-23	.	.	PUNCT	.	_	14	punct	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	Torres	Torres	PROPN	_	Number=Sing	6	nmod	_	_
+10	já	já	ADV	_	_	14	advmod	_	_
+11	começou	começar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	a	a	SCONJ	_	_	14	mark	_	_
+13	ser	ser	AUX	_	VerbForm=Inf	14	aux:pass	_	_
+14	construído	construir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	11	xcomp	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+17	previsão	previsão	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	inauguração	inauguração	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+20	já	já	ADV	_	_	22	advmod	_	_
+21	em	em	ADP	_	_	22	case	_	_
+22	2013	2013	NUM	_	NumType=Card	16	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
 
 # sent_id = train-s5816
 # text = Votos válidos e primeiro turno -- No cálculo dos votos válidos, na modalidade estimulada, em que são excluídos os percentuais de indecisos brancos e nulos, o candidato Lúdio Cabral soma 48,9 %, e Mauro Mendes 42,4 %.

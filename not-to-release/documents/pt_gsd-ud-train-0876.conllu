@@ -7,33 +7,37 @@
 5	aconselho	aconselhar	VERB	VERB	_	1	conj	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	1	punct	_	_
 
-# sent_id = train-s8695
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Eu fico feliz, orgulhoso, acho ela linda, adoro a espontaneidade dela, não fico com ciúmes porque são oito anos juntos.
-1	Eu	_	PRON	PRON	_	2	nsubj	_	_
-2	fico	ficar	VERB	VERB	_	0	root	_	_
-3	feliz	feliz	ADJ	ADJ	_	2	xcomp	_	SpaceAfter=No
-4	,	,	PUNCT	.	_	5	punct	_	_
-5	orgulhoso	orgulhoso	ADJ	ADJ	_	3	conj	_	SpaceAfter=No
-6	,	,	PUNCT	.	_	7	punct	_	_
-7	acho	achar	VERB	VERB	_	2	conj	_	_
-8	ela	_	PRON	PRON	_	9	nsubj	_	_
-9	linda	lindo	ADJ	ADJ	_	7	xcomp	_	SpaceAfter=No
-10	,	,	PUNCT	.	_	11	punct	_	_
-11	adoro	adorar	VERB	VERB	_	2	conj	_	_
-12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	espontaneidade	espontaneidade	NOUN	NOUN	_	11	obj	_	_
-14	dela	_	X	ADPPRON	_	13	det:poss	_	SpaceAfter=No
-15	,	,	PUNCT	.	_	17	punct	_	_
-16	não	não	ADV	ADV	Polarity=Neg	17	advmod	_	_
-17	fico	ficar	VERB	VERB	_	2	conj	_	_
-18	com	com	ADP	ADP	_	19	case	_	_
-19	ciúmes	ciúme	NOUN	NOUN	_	17	nmod	_	_
-20	porque	_	CCONJ	CONJ	_	21	mark	_	_
-21	são	ser	VERB	VERB	_	17	acl:relcl	_	_
-22	oito	_	NUM	NUM	NumType=Card	23	nummod	_	_
-23	anos	ano	NOUN	NOUN	_	21	nsubj	_	_
-24	juntos	junto	ADJ	ADJ	_	21	xcomp	_	SpaceAfter=No
-25	.	.	PUNCT	.	_	2	punct	_	_
+# sent_id = train-s8695
+1	Eu	eu	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	fico	ficar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	feliz	feliz	ADJ	_	Gender=Masc|Number=Sing	2	xcomp	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	orgulhoso	orgulhoso	ADJ	_	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	acho	achar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+8	ela	ela	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	linda	lindo	ADJ	_	Gender=Fem|Number=Sing	7	xcomp	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	adoro	adorar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	espontaneidade	espontaneidade	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14-15	dela	_	_	_	_	_	_	_	SpaceAfter=No
+14	de	de	ADP	_	_	15	case	_	_
+15	ela	ela	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nmod	_	_
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	não	não	ADV	_	Polarity=Neg	18	advmod	_	_
+18	fico	ficar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+19	com	com	ADP	_	_	20	case	_	_
+20	ciúmes	ciúme	NOUN	_	Gender=Masc|Number=Plur	18	obj	_	_
+21	porque	porque	SCONJ	_	_	24	mark	_	_
+22	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+23	oito	oito	NUM	_	NumType=Card	24	nummod	_	_
+24	anos	ano	NOUN	_	Gender=Masc|Number=Plur	18	advcl	_	_
+25	juntos	junto	ADJ	_	Gender=Masc|Number=Plur	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = train-s8696
 # text = Oferecer para os vizinhos, nem pensar, pois todos também tinham porco gordo para vender.
@@ -184,64 +188,68 @@
 47	entorno	_	NOUN	NOUN	_	43	conj	_	SpaceAfter=No
 48	.	.	PUNCT	.	_	18	punct	_	_
 
-# sent_id = train-s8701
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Este é o retrato delas traçado pelo Ipea (Instituto de Pesquisa Econômica Aplicada), por meio do cruzamento de dados da Pnad (Pesquisa Nacional por Amostra de Domicílio) 2009, divulgados este ano pelo IBGE (Instituto Brasileiro de Geografia e Estatística).
-1	Este	_	PRON	PRON	_	4	nsubj	_	_
-2	é	ser	AUX	AUX	_	4	cop	_	_
-3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	retrato	retrato	NOUN	NOUN	_	0	root	_	_
-5	delas	_	X	ADPPRON	_	4	det:poss	_	_
-6	traçado	traçar	VERB	VERB	_	4	acl	_	_
-7-8	pelo	_	_	_	_	_	_	_	_
-7	por	por	ADP	ADP	_	9	case	_	_
-8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	Ipea	_	PROPN	PNOUN	_	6	nmod	_	_
-10	(	(	PUNCT	.	_	11	punct	_	SpaceAfter=No
-11	Instituto	_	PROPN	PNOUN	_	9	appos	_	_
-12	de	de	ADP	ADP	_	13	case	_	_
-13	Pesquisa	_	PROPN	PNOUN	_	11	nmod	_	_
-14	Econômica	_	PROPN	PNOUN	_	13	amod	_	_
-15	Aplicada	_	PROPN	PNOUN	_	13	amod	_	SpaceAfter=No
-16	)	)	PUNCT	.	_	11	punct	_	SpaceAfter=No
-17	,	,	PUNCT	.	_	19	punct	_	_
-18	por	por	ADP	ADP	_	19	case	_	_
-19	meio	meio	NOUN	NOUN	_	6	nmod	_	_
-20-21	do	_	_	_	_	_	_	_	_
-20	de	de	ADP	ADP	_	22	case	_	_
-21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-22	cruzamento	cruzamento	NOUN	NOUN	_	19	nmod	_	_
-23	de	de	ADP	ADP	_	24	case	_	_
-24	dados	dado	NOUN	NOUN	_	22	nmod	_	_
-25-26	da	_	_	_	_	_	_	_	_
-25	de	de	ADP	ADP	_	27	case	_	_
-26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	Pnad	_	PROPN	PNOUN	_	24	nmod	_	_
-28	(	(	PUNCT	.	_	29	punct	_	SpaceAfter=No
-29	Pesquisa	_	PROPN	PNOUN	_	27	appos	_	_
-30	Nacional	_	PROPN	PNOUN	_	29	amod	_	_
-31	por	por	ADP	ADP	_	32	case	_	_
-32	Amostra	_	PROPN	PNOUN	_	29	nmod	_	_
-33	de	de	ADP	ADP	_	34	case	_	_
-34	Domicílio	_	PROPN	PNOUN	_	32	nmod	_	SpaceAfter=No
-35	)	)	PUNCT	.	_	29	punct	_	_
-36	2009	2009	NUM	NUM	NumType=Card	29	nmod	_	SpaceAfter=No
-37	,	,	PUNCT	.	_	38	punct	_	_
-38	divulgados	divulgar	VERB	VERB	_	24	acl	_	_
-39	este	_	DET	DET	_	40	det	_	_
-40	ano	ano	NOUN	NOUN	_	38	nmod	_	_
-41-42	pelo	_	_	_	_	_	_	_	_
-41	por	por	ADP	ADP	_	43	case	_	_
-42	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
-43	IBGE	_	PROPN	PNOUN	_	38	nmod	_	_
-44	(	(	PUNCT	.	_	45	punct	_	SpaceAfter=No
-45	Instituto	_	PROPN	PNOUN	_	43	appos	_	_
-46	Brasileiro	_	PROPN	PNOUN	_	45	amod	_	_
-47	de	de	ADP	ADP	_	48	case	_	_
-48	Geografia	_	PROPN	PNOUN	_	45	nmod	_	_
-49	e	e	CCONJ	CONJ	_	50	cc	_	_
-50	Estatística	_	PROPN	PNOUN	_	48	conj	_	SpaceAfter=No
-51	)	)	PUNCT	.	_	45	punct	_	SpaceAfter=No
-52	.	.	PUNCT	.	_	4	punct	_	_
+# sent_id = train-s8701
+1	Este	este	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	retrato	retrato	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+5-6	delas	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	elas	ele	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	4	nmod	_	_
+7	traçado	traçar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	acl	_	_
+8-9	pelo	_	_	_	_	_	_	_	_
+8	por	por	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Ipea	Ipea	PROPN	_	Gender=Masc|Number=Sing	7	obl:agent	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	Instituto	Instituto	PROPN	_	Gender=Masc|Number=Sing	10	appos	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	Pesquisa	Pesquisa	PROPN	_	ExtPos=PROPN|Number=Sing	12	nmod	_	_
+15	Econômica	Econômica	PROPN	_	Number=Sing	14	flat:name	_	_
+16	Aplicada	Aplicada	PROPN	_	Number=Sing	14	flat:name	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	7	punct	_	_
+19	por	por	ADP	_	_	23	case	_	_
+20	meio	meio	NOUN	_	Gender=Masc|Number=Sing	19	fixed	_	_
+21-22	do	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	19	fixed	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	cruzamento	cruzamento	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	dados	dado	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	_
+26-27	da	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Pnad	Pnad	PROPN	_	Gender=Fem|Number=Sing	25	nmod	_	_
+29	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
+30	Pesquisa	Pesquisa	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	28	appos	_	_
+31	Nacional	Nacional	PROPN	_	Number=Sing	30	flat:name	_	_
+32	por	por	ADP	_	_	33	case	_	_
+33	Amostra	Amostra	PROPN	_	Number=Sing	30	nmod	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	Domicílio	Domicílio	PROPN	_	Number=Sing	33	nmod	_	SpaceAfter=No
+36	)	)	PUNCT	_	_	30	punct	_	_
+37	2009	2009	NUM	_	NumType=Card	28	nummod	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	39	punct	_	_
+39	divulgados	divulgar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	25	acl	_	_
+40	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	41	det	_	_
+41	ano	ano	NOUN	_	Gender=Masc|Number=Sing	39	obl	_	_
+42-43	pelo	_	_	_	_	_	_	_	_
+42	por	por	ADP	_	_	44	case	_	_
+43	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	IBGE	IBGE	PROPN	_	Gender=Masc|Number=Sing	39	obl:agent	_	_
+45	(	(	PUNCT	_	_	46	punct	_	SpaceAfter=No
+46	Instituto	Instituto	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	44	appos	_	_
+47	Brasileiro	Brasileiro	PROPN	_	Number=Sing	46	flat:name	_	_
+48	de	de	ADP	_	_	49	case	_	_
+49	Geografia	Geografia	PROPN	_	ExtPos=PROPN|Number=Sing	46	nmod	_	_
+50	e	e	CCONJ	_	_	49	flat:name	_	_
+51	Estatística	Estatística	PROPN	_	Number=Sing	49	flat:name	_	SpaceAfter=No
+52	)	)	PUNCT	_	_	46	punct	_	SpaceAfter=No
+53	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # sent_id = train-s8702
 # text = Euclides Naliato, diretor da Regional São Paulo e Capital, e Leandro Alves Domingues, gerente da filial do ABC -- representantes da HDI Seguros -- farão a entrega da chave ao ganhador, José Elieudo de Oliveira, corretor seguros que atua na região de Diadema (SP). [2]

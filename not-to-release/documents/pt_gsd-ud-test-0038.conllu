@@ -51,39 +51,41 @@
 23	Católica	_	PROPN	PNOUN	_	22	amod	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	12	punct	_	_
 
-# sent_id = test-s370
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Ao invés de recuar, o que seria esperado quando a oferta é maior do que a procura, os valores da locação avançam.
+# sent_id = test-s370
 1-2	Ao	_	_	_	_	_	_	_	_
-1	A	a	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	invés	invés	NOUN	NOUN	_	27	nmod	_	_
-4	de	_	ADP	ADP	_	5	mark	_	_
-5	recuar	recuar	VERB	VERB	_	3	nmod	_	SpaceAfter=No
-6	,	,	PUNCT	.	_	10	punct	_	_
-7	o	_	PRON	PRON	_	8	det	_	_
-8	que	_	PRON	PRON	_	10	nsubj:pass	_	_
-9	seria	_	AUX	AUX	_	10	aux:pass	_	_
-10	esperado	esperar	VERB	VERB	_	5	parataxis	_	_
-11	quando	_	CCONJ	CONJ	_	14	mark	_	_
-12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	oferta	oferta	NOUN	NOUN	_	14	nsubj	_	_
-14	é	ser	VERB	VERB	_	10	advcl	_	_
-15	maior	maior	ADJ	ADJ	_	14	xcomp	_	_
+1	A	a	ADP	_	ExtPos=CCONJ	5	mark	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
+3	invés	invés	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
+4	de	de	ADP	_	_	1	fixed	_	_
+5	recuar	recuar	VERB	_	VerbForm=Inf	27	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	5	appos	_	_
+8	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	10	nsubj:pass	_	_
+9	seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	10	aux:pass	_	_
+10	esperado	esperar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	7	acl:relcl	_	_
+11	quando	quando	ADV	_	_	15	advmod	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	oferta	oferta	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
+14	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	maior	maior	ADJ	_	Gender=Fem|Number=Sing	10	advcl	_	_
 16-17	do	_	_	_	_	_	_	_	_
-16	de	de	ADP	ADP	_	20	case	_	_
-17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-18	que	_	ADP	ADP	_	16	fixed	_	_
-19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	procura	procura	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
-21	,	,	PUNCT	.	_	10	punct	_	_
-22	os	o	DET	DET	_	23	det	_	_
-23	valores	_	NOUN	NOUN	_	27	nsubj	_	_
+16	de	de	ADP	_	_	20	mark	_	_
+17	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	16	fixed	_	_
+18	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	16	fixed	_	_
+19	a	ela	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+20	procura	procurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	valores	valor	NOUN	_	Gender=Masc|Number=Plur	27	nsubj	_	_
 24-25	da	_	_	_	_	_	_	_	_
-24	de	de	ADP	ADP	_	26	case	_	_
-25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	locação	locação	NOUN	NOUN	_	23	nmod	_	_
-27	avançam	avançar	VERB	VERB	_	0	root	_	SpaceAfter=No
-28	.	.	PUNCT	.	_	27	punct	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	locação	locação	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
+27	avançam	avançar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
 
 # sent_id = test-s371
 # text = Na última sexta - feira (17), uma assembleia com a participação de cerca de 250 professores decidiu interromper a paralisação, que durava quase três meses.

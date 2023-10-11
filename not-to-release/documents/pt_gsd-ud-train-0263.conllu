@@ -99,23 +99,25 @@
 29	alimentos	alimento	NOUN	NOUN	_	27	nmod	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = train-s2615
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Navarro, Perkins e Chaney eram membros da banda Jane 's Addiction;
-1	Navarro	_	PROPN	PNOUN	_	7	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	.	_	3	punct	_	_
-3	Perkins	_	PROPN	PNOUN	_	1	conj	_	_
-4	e	e	CCONJ	CONJ	_	5	cc	_	_
-5	Chaney	_	PROPN	PNOUN	_	1	conj	_	_
-6	eram	_	AUX	AUX	_	7	cop	_	_
-7	membros	membro	NOUN	NOUN	_	0	root	_	_
+# sent_id = train-s2615
+1	Navarro	Navarro	PROPN	_	Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	Perkins	Perkins	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	Chaney	Chaney	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	_
+6	eram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+7	membros	membro	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 8-9	da	_	_	_	_	_	_	_	_
-8	de	de	ADP	ADP	_	10	case	_	_
-9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	banda	banda	NOUN	NOUN	_	7	nmod	_	_
-11	Jane	_	PROPN	PNOUN	_	10	appos	_	_
-12	's	_	PROPN	PNOUN	_	11	det:poss	_	_
-13	Addiction	_	PROPN	PNOUN	_	11	flat	_	SpaceAfter=No
-14	;	_	PUNCT	.	_	7	punct	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	banda	banda	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+11	Jane	Jane	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	10	appos	_	_
+12	's	's	PUNCT	_	_	11	punct	_	_
+13	Addiction	Addiction	PROPN	_	Number=Sing	11	flat:name	_	SpaceAfter=No
+14	;	;	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
 # sent_id = train-s2616
 # text = Só na zona de Gelendzhik mais de 700 soldados e 100 veículos trabalham no resgate de vítimas.
@@ -173,42 +175,44 @@
 24	elétrica	elétrico	ADJ	ADJ	_	23	amod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s2618
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O Jogo Contra a Pobreza, que chega a sua décima edição, será realizado na Arena do Grêmio a partir das 21h (de Brasília).
-1	O	_	PROPN	PNOUN	_	2	det	_	_
-2	Jogo	_	PROPN	PNOUN	_	15	nsubj:pass	_	_
-3	Contra	_	PROPN	PNOUN	_	5	case	_	_
-4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	Pobreza	_	PROPN	PNOUN	_	2	nmod	_	SpaceAfter=No
-6	,	,	PUNCT	.	_	8	punct	_	_
-7	que	_	PRON	PRON	_	8	nsubj	_	_
-8	chega	chegar	VERB	VERB	_	2	acl:relcl	_	_
-9	a	_	ADP	ADP	_	12	case	_	_
-10	sua	_	DET	DET	_	12	det:poss	_	_
-11	décima	_	ADJ	ADJ	_	12	amod	_	_
-12	edição	edição	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-13	,	,	PUNCT	.	_	8	punct	_	_
-14	será	ser	AUX	AUX	_	15	aux:pass	_	_
-15	realizado	realizar	VERB	VERB	_	0	root	_	_
+# sent_id = train-s2618
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Jogo	Jogo	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	15	nsubj:pass	_	_
+3	Contra	Contra	ADP	_	Number=Sing	2	flat:name	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	flat:name	_	_
+5	Pobreza	Pobreza	PROPN	_	Number=Sing	2	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	8	nsubj	_	_
+8	chega	chegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+10	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	12	det	_	_
+11	décima	décimo	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	12	amod	_	_
+12	edição	edição	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	8	punct	_	_
+14	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	aux:pass	_	_
+15	realizado	realizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 16-17	na	_	_	_	_	_	_	_	_
-16	em	em	ADP	ADP	_	18	case	_	_
-17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	Arena	_	PROPN	PNOUN	_	15	nmod	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Arena	Arena	PROPN	_	Gender=Fem|Number=Sing	15	obl	_	_
 19-20	do	_	_	_	_	_	_	_	_
-19	de	de	ADP	ADP	_	21	case	_	_
-20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	Grêmio	_	PROPN	PNOUN	_	18	nmod	_	_
-22	a	_	ADP	ADP	_	23	mark	_	_
-23	partir	partir	VERB	VERB	_	15	nmod	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Grêmio	Grêmio	PROPN	_	Number=Sing	18	nmod	_	_
+22	a	a	ADP	_	_	23	case	_	_
+23	partir	partir	VERB	_	VerbForm=Inf	15	obl	_	_
 24-25	das	_	_	_	_	_	_	_	_
-24	de	de	ADP	ADP	_	26	case	_	_
-25	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
-26	21h	_	NUM	NUM	NumType=Card	23	nmod	_	_
-27	(	(	PUNCT	.	_	29	punct	_	SpaceAfter=No
-28	de	de	ADP	ADP	_	29	case	_	_
-29	Brasília	_	PROPN	PNOUN	_	26	nmod	_	SpaceAfter=No
-30	)	)	PUNCT	.	_	29	punct	_	SpaceAfter=No
-31	.	.	PUNCT	.	_	15	punct	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	21h	21h	NOUN	_	Gender=Fem|Number=Plur	23	nmod	_	_
+27	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
+28	de	de	ADP	_	_	29	case	_	_
+29	Brasília	Brasília	PROPN	_	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+30	)	)	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
 
 # sent_id = train-s2619
 # text = O ex - goleiro Gordon Banks voltou nesta quarta ao palco da conquista do título da Copa do Mundo de 1966, o único no currículo inglês, até o momento.

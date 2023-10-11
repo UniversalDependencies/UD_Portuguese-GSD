@@ -77,38 +77,40 @@
 10	justiça	justiça	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = train-s5235
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Em 57, vim para a Rádio Difusora SP, passando, em 58, para a Rádio Bandeirtantes a convite do saudoso (e fantástico!)
-1	Em	em	ADP	ADP	_	2	case	_	_
-2	57	57	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
-3	,	,	PUNCT	.	_	2	punct	_	_
-4	vim	vir	VERB	VERB	_	0	root	_	_
-5	para	para	ADP	ADP	_	7	case	_	_
-6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	Rádio	_	PROPN	PNOUN	_	4	nmod	_	_
-8	Difusora	_	PROPN	PNOUN	_	7	amod	_	_
-9	SP	_	PROPN	PNOUN	_	7	appos	_	SpaceAfter=No
-10	,	,	PUNCT	.	_	11	punct	_	_
-11	passando	passar	VERB	VERB	_	4	acl	_	SpaceAfter=No
-12	,	,	PUNCT	.	_	14	punct	_	_
-13	em	em	ADP	ADP	_	14	case	_	_
-14	58	58	NUM	NUM	NumType=Card	11	nmod	_	SpaceAfter=No
-15	,	,	PUNCT	.	_	14	punct	_	_
-16	para	para	ADP	ADP	_	18	case	_	_
-17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	Rádio	_	PROPN	PNOUN	_	11	nmod	_	_
-19	Bandeirtantes	_	PROPN	PNOUN	_	18	flat	_	_
-20	a	_	ADP	ADP	_	21	case	_	_
-21	convite	convite	NOUN	NOUN	_	11	nmod	_	_
+# sent_id = train-s5235
+1	Em	em	ADP	_	_	2	case	_	_
+2	57	57	NUM	_	NumType=Card	4	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	vim	vir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+5	para	para	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Rádio	Rádio	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	4	obl	_	_
+8	Difusora	Difusora	PROPN	_	Number=Sing	7	flat:name	_	_
+9	SP	SP	PROPN	_	Number=Sing	7	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	passando	passar	VERB	_	VerbForm=Ger	4	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	em	em	ADP	_	_	14	case	_	_
+14	58	58	NUM	_	NumType=Card	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	11	punct	_	_
+16	para	para	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Rádio	Rádio	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	11	obl	_	_
+19	Bandeirtantes	Bandeirtantes	PROPN	_	Number=Sing	18	flat:name	_	_
+20	a	a	ADP	_	_	21	case	_	_
+21	convite	convite	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
 22-23	do	_	_	_	_	_	_	_	_
-22	de	de	ADP	ADP	_	24	case	_	_
-23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	saudoso	saudoso	ADJ	ADJ	_	21	nmod	_	_
-25	(	(	PUNCT	.	_	26	punct	_	SpaceAfter=No
-26	e	e	CCONJ	CONJ	_	27	cc	_	_
-27	fantástico	fantástico	ADJ	ADJ	_	24	conj	_	SpaceAfter=No
-28	!	!	PUNCT	.	_	26	punct	_	SpaceAfter=No
-29	)	)	PUNCT	.	_	26	punct	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	saudoso	saudoso	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+25	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+26	e	e	CCONJ	_	_	27	cc	_	_
+27	fantástico	fantástico	ADJ	_	Gender=Masc|Number=Sing	24	conj	_	SpaceAfter=No
+28	!	!	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
 
 # sent_id = train-s5236
 # text = Ficou como se estivesse tudo bem ", disse Gomes que, apesar de frustrado, vai participar do Rio + 20 em atividades paralelas.

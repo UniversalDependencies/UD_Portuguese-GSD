@@ -106,29 +106,33 @@
 20	esforços	esforço	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = train-s2167
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Nos últimos anos houve um avanço significativo neste tipo de atividade devido ao apoio de empresas.
+# sent_id = train-s2167
 1-2	Nos	_	_	_	_	_	_	_	_
-1	Em	em	ADP	ADP	_	4	case	_	_
-2	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
-3	últimos	último	ADJ	ADJ	_	4	amod	_	_
-4	anos	ano	NOUN	NOUN	_	5	nmod	_	_
-5	houve	haver	VERB	VERB	_	0	root	_	_
-6	um	um	DET	DET	_	7	det	_	_
-7	avanço	avanço	NOUN	NOUN	_	5	obj	_	_
-8	significativo	significativo	ADJ	ADJ	_	7	amod	_	_
-9	neste	_	ADP	ADP	_	10	case	_	_
-10	tipo	tipo	NOUN	NOUN	_	5	nmod	_	_
-11	de	de	ADP	ADP	_	12	case	_	_
-12	atividade	atividade	NOUN	NOUN	_	10	nmod	_	_
-13	devido	dever	VERB	VERB	_	16	case	_	_
-14-15	ao	_	_	_	_	_	_	_	_
-14	a	a	ADP	ADP	_	13	case	_	_
-15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-16	apoio	apoio	NOUN	NOUN	_	5	nmod	_	_
-17	de	de	ADP	ADP	_	18	case	_	_
-18	empresas	empresa	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
-19	.	.	PUNCT	.	_	5	punct	_	_
+1	Em	em	ADP	_	_	4	case	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	últimos	último	ADJ	_	Gender=Masc|Number=Plur|NumType=Ord	4	amod	_	_
+4	anos	ano	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	_
+5	houve	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	avanço	avanço	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8	significativo	significativo	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+9-10	neste	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+14	devido	devido	ADV	_	_	17	case	_	_
+15-16	ao	_	_	_	_	_	_	_	_
+15	a	a	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	apoio	apoio	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	empresas	empresa	NOUN	_	Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # sent_id = train-s2168
 # text = Em geografia, um estreito é um canal de água que une dois corpos aquosos (oceanos, mares) e separa duas massas de terra.
@@ -174,31 +178,35 @@
 10	empresário	empresário	NOUN	NOUN	_	8	conj	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = train-s2170
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = "Ele costumava dizer: não provoque, menino, vai botando devagarinho ele sabedor do que você sabe (...).
-1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
-2	Ele	_	PRON	PRON	_	4	nsubj	_	_
-3	costumava	costumar	AUX	AUX	_	4	aux	_	_
-4	dizer	dizer	VERB	VERB	_	0	root	_	SpaceAfter=No
-5	:	:	PUNCT	.	_	4	punct	_	_
-6	não	não	ADV	ADV	Polarity=Neg	7	advmod	_	_
-7	provoque	provocar	VERB	VERB	_	4	ccomp	_	SpaceAfter=No
-8	,	,	PUNCT	.	_	9	punct	_	_
-9	menino	menino	NOUN	NOUN	_	7	dep	_	SpaceAfter=No
-10	,	,	PUNCT	.	_	12	punct	_	_
-11	vai	ir	AUX	AUX	_	12	aux	_	_
-12	botando	botar	VERB	VERB	_	7	conj	_	_
-13	devagarinho	devagar	ADV	ADV	_	12	advmod	_	_
-14	ele	_	PRON	PRON	_	15	nsubj	_	_
-15	sabedor	sabedor	ADJ	ADJ	_	12	xcomp	_	_
-16	do	_	X	ADPPRON	_	15	nmod	_	_
-17	que	_	PRON	PRON	_	19	obj	_	_
-18	você	_	PRON	PRON	_	19	nsubj	_	_
-19	sabe	saber	VERB	VERB	_	16	acl:relcl	_	_
-20	(	(	PUNCT	.	_	21	punct	_	SpaceAfter=No
-21	...	_	PUNCT	.	_	7	punct	_	SpaceAfter=No
-22	)	)	PUNCT	.	_	21	punct	_	SpaceAfter=No
-23	.	.	PUNCT	.	_	4	punct	_	_
+# sent_id = train-s2170
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	costumava	costumar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	dizer	dizer	VERB	_	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	7	punct	_	_
+6	não	não	ADV	_	Polarity=Neg	7	advmod	_	_
+7	provoque	provocar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	menino	menino	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	botando	botar	VERB	_	VerbForm=Ger	7	conj	_	_
+13	devagarinho	devagarinho	ADV	_	Gender=Masc|Number=Sing	12	advmod	_	_
+14	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+15	sabedor	sabedor	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	15	obl	_	_
+18	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	20	obj	_	_
+19	você	você	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+20	sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	...	...	PUNCT	_	_	3	punct	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = train-s2171
 # text = Estende-se por uma área de 4,65 km ².

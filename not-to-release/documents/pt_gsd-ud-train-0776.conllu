@@ -56,23 +56,25 @@
 22	tempo	tempo	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	1	punct	_	_
 
-# sent_id = train-s7705
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = La Entrada é uma cidade de Honduras localizada no departamento de Copán.
-1	La	_	PROPN	PNOUN	_	2	det	_	_
-2	Entrada	_	PROPN	PNOUN	_	5	nsubj	_	_
-3	é	ser	AUX	AUX	_	5	cop	_	_
-4	uma	um	DET	DET	_	5	det	_	_
-5	cidade	cidade	NOUN	NOUN	_	0	root	_	_
-6	de	de	ADP	ADP	_	7	case	_	_
-7	Honduras	_	PROPN	PNOUN	_	5	nmod	_	_
-8	localizada	localizar	VERB	VERB	_	5	acl	_	_
+# sent_id = train-s7705
+1	La	La	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	Entrada	Entrada	PROPN	_	Number=Sing	1	flat:name	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	cidade	cidade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Honduras	Honduras	PROPN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+8	localizada	localizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	5	acl	_	_
 9-10	no	_	_	_	_	_	_	_	_
-9	em	em	ADP	ADP	_	11	case	_	_
-10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	departamento	departamento	NOUN	NOUN	_	8	nmod	_	_
-12	de	de	ADP	ADP	_	13	case	_	_
-13	Copán	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
-14	.	.	PUNCT	.	_	5	punct	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	departamento	departamento	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Copán	Copán	PROPN	_	Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # sent_id = train-s7706
 # text = É detentor do prémio da Casa da Imprensa Portuguesa.
@@ -220,32 +222,34 @@
 40	completou	completar	VERB	VERB	_	0	root	_	SpaceAfter=No
 41	.	.	PUNCT	.	_	40	punct	_	_
 
-# sent_id = train-s7711
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Foram realizados 33 resgates, número 73 % maior do que o registrado no mesmo período do ano passado.
-1	Foram	_	AUX	AUX	_	2	aux:pass	_	_
-2	realizados	realizar	VERB	VERB	_	0	root	_	_
-3	33	33	NUM	NUM	NumType=Card	4	nummod	_	_
-4	resgates	resgate	NOUN	NOUN	_	2	nsubj:pass	_	SpaceAfter=No
-5	,	,	PUNCT	.	_	6	punct	_	_
-6	número	número	NOUN	NOUN	_	4	appos	_	_
-7	73	73	NUM	NUM	NumType=Card	8	nummod	_	_
-8	%	_	SYM	SYM	_	9	nmod	_	_
-9	maior	maior	ADJ	ADJ	_	6	amod	_	_
+# sent_id = train-s7711
+1	Foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	2	aux:pass	_	_
+2	realizados	realizar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+3	33	33	NUM	_	NumType=Card	4	nummod	_	_
+4	resgates	resgate	NOUN	_	Gender=Masc|Number=Plur	2	nsubj:pass	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	número	número	NOUN	_	Gender=Masc|Number=Sing	4	appos	_	_
+7	73	73	NUM	_	NumType=Card	8	nummod	_	_
+8	%	%	SYM	_	_	6	nmod	_	_
+9	maior	maior	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
 10-11	do	_	_	_	_	_	_	_	_
-10	de	de	ADP	ADP	_	14	case	_	_
-11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-12	que	_	ADP	ADP	_	10	fixed	_	_
-13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	registrado	_	NOUN	NOUN	_	9	nmod	_	_
+10	de	de	ADP	_	ExtPos=SCONJ	13	case	_	_
+11	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	10	fixed	_	_
+12	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	10	fixed	_	_
+13	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	9	obl	_	_
+14	registrado	registrar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	13	acl	_	_
 15-16	no	_	_	_	_	_	_	_	_
-15	em	em	ADP	ADP	_	18	case	_	_
-16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-17	mesmo	mesmo	ADJ	ADJ	_	18	amod	_	_
-18	período	período	NOUN	NOUN	_	14	nmod	_	_
+15	em	em	ADP	_	_	18	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	mesmo	mesmo	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
+18	período	período	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
 19-20	do	_	_	_	_	_	_	_	_
-19	de	de	ADP	ADP	_	21	case	_	_
-20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	ano	ano	NOUN	NOUN	_	18	nmod	_	_
-22	passado	passado	ADJ	ADJ	_	21	amod	_	SpaceAfter=No
-23	.	.	PUNCT	.	_	2	punct	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	ano	ano	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+22	passado	passado	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 

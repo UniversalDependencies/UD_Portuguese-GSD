@@ -55,25 +55,27 @@
 12	)	)	PUNCT	.	_	11	punct	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s363
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Com a afiliação à Record, a emissora passou a se chamar RIC TV.
-1	Com	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	afiliação	afiliação	NOUN	NOUN	_	14	nmod	_	_
+# sent_id = train-s363
+1	Com	com	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	afiliação	afiliação	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
 4-5	à	_	_	_	_	_	_	_	_
-4	a	a	ADP	ADP	_	6	case	_	_
-5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	Record	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
-7	,	,	PUNCT	.	_	3	punct	_	_
-8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	emissora	_	NOUN	NOUN	_	14	nsubj	_	_
-10	passou	passar	AUX	AUX	_	14	aux	_	_
-11	a	_	ADP	ADP	_	14	mark	_	_
-12	se	_	PART	PRT	_	14	expl:pv	_	_
-13	chamar	chamar	AUX	AUX	_	14	cop	_	_
-14	RIC	_	PROPN	PNOUN	_	0	root	_	_
-15	TV	_	PROPN	PNOUN	_	14	flat	_	SpaceAfter=No
-16	.	.	PUNCT	.	_	14	punct	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Record	Record	PROPN	_	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	emissora	emissora	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+10	passou	passar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	a	a	SCONJ	_	_	13	mark	_	_
+12	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	expl	_	_
+13	chamar	chamar	VERB	_	VerbForm=Inf	10	xcomp	_	_
+14	RIC	RIC	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	13	obj	_	_
+15	TV	TV	PROPN	_	Number=Sing	14	flat:name	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
 
 # sent_id = train-s364
 # text = Essa dinastia tinha contado com o apoio dos saduceus.

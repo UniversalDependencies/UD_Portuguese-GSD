@@ -192,53 +192,55 @@
 23	condenação	condenação	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	20	punct	_	_
 
-# sent_id = train-s5254
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = • The Terrible Truth About Lawyers: How Lawyers Really Work and How to Deal With Them Successfully, Harper Collins, 1987 (também publicado noutra edição como What They Didn't Teach Me at Yale Law School, Fontana Press 1988)
-1	•	_	PUNCT	.	_	4	punct	_	_
-2	The	_	PROPN	PNOUN	_	4	det	_	_
-3	Terrible	_	PROPN	PNOUN	_	4	amod	_	_
-4	Truth	_	PROPN	PNOUN	_	0	root	_	_
-5	About	_	PROPN	PNOUN	_	6	case	_	_
-6	Lawyers	_	PROPN	PNOUN	_	4	nmod	_	SpaceAfter=No
-7	:	:	PUNCT	.	_	11	punct	_	_
-8	How	_	PROPN	PNOUN	_	11	advmod	_	_
-9	Lawyers	_	PROPN	PNOUN	_	11	nsubj	_	_
-10	Really	_	PROPN	PNOUN	_	11	advmod	_	_
-11	Work	_	PROPN	PNOUN	_	4	parataxis	_	_
-12	and	_	CCONJ	CONJ	_	15	cc	_	_
-13	How	_	PROPN	PNOUN	_	15	advmod	_	_
-14	to	_	PROPN	PNOUN	_	15	case	_	_
-15	Deal	_	PROPN	PNOUN	_	11	conj	_	_
-16	With	_	PROPN	PNOUN	_	17	case	_	_
-17	Them	_	PROPN	PNOUN	_	15	nmod	_	_
-18	Successfully	_	PROPN	PNOUN	_	15	advmod	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	20	punct	_	_
-20	Harper	_	PROPN	PNOUN	_	11	appos	_	_
-21	Collins	_	PROPN	PNOUN	_	20	flat	_	SpaceAfter=No
-22	,	,	PUNCT	.	_	23	punct	_	_
-23	1987	1987	NUM	NUM	NumType=Card	20	nmod	_	_
-24	(	(	PUNCT	.	_	26	punct	_	SpaceAfter=No
-25	também	também	ADV	ADV	_	26	advmod	_	_
-26	publicado	publicar	VERB	VERB	_	4	acl	_	_
+# sent_id = train-s5254
+1	•	•	PUNCT	_	_	2	punct	_	_
+2	The	The	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	0	root	_	_
+3	Terrible	Terrible	PROPN	_	Number=Sing	2	flat:name	_	_
+4	Truth	Truth	PROPN	_	Number=Sing	2	flat:name	_	_
+5	About	About	PROPN	_	Number=Sing	2	flat:name	_	_
+6	Lawyers	Lawyers	PROPN	_	Number=Sing	2	flat:name	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	2	punct	_	_
+8	How	How	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	2	appos	_	_
+9	Lawyers	Lawyers	PROPN	_	Number=Sing	8	flat:name	_	_
+10	Really	Really	PROPN	_	Number=Sing	8	flat:name	_	_
+11	Work	Work	PROPN	_	Number=Sing	8	flat:name	_	_
+12	and	and	PROPN	_	Number=Sing	8	flat:name	_	_
+13	How	How	PROPN	_	Number=Sing	8	flat:name	_	_
+14	to	to	PROPN	_	Number=Sing	8	flat:name	_	_
+15	Deal	Deal	PROPN	_	Number=Sing	8	flat:name	_	_
+16	With	With	PROPN	_	Number=Sing	8	flat:name	_	_
+17	Them	Them	PROPN	_	Number=Sing	8	flat:name	_	_
+18	Successfully	Successfully	PROPN	_	Number=Sing	8	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	Harper	Harper	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	8	appos	_	_
+21	Collins	Collins	PROPN	_	Number=Sing	20	flat:name	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	1987	1987	NUM	_	NumType=Card	2	appos	_	_
+24	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
+25	também	também	ADV	_	_	26	advmod	_	_
+26	publicado	publicar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	acl	_	_
 27-28	noutra	_	_	_	_	_	_	_	_
-27	em	em	ADP	ADP	_	29	case	_	_
-28	outra	_	DET	DET	_	29	det	_	_
-29	edição	edição	NOUN	NOUN	_	26	nmod	_	_
-30	como	_	ADP	ADP	_	34	mark	_	_
-31	What	_	PROPN	PNOUN	_	34	obj	_	_
-32	They	_	PROPN	PNOUN	_	34	nsubj	_	_
-33	Didn't	_	PROPN	PNOUN	_	34	aux	_	_
-34	Teach	_	PROPN	PNOUN	_	26	nmod	_	_
-35	Me	_	PROPN	PNOUN	_	34	iobj	_	_
-36	at	_	ADP	ADP	_	37	case	_	_
-37	Yale	_	PROPN	PNOUN	_	34	nmod	_	_
-38	Law	_	PROPN	PNOUN	_	37	flat	_	_
-39	School	_	PROPN	PNOUN	_	37	flat	_	SpaceAfter=No
-40	,	,	PUNCT	.	_	41	punct	_	_
-41	Fontana	_	PROPN	PNOUN	_	34	appos	_	_
-42	Press	_	PROPN	PNOUN	_	41	flat	_	_
-43	1988	1988	NUM	NUM	NumType=Card	41	nmod	_	SpaceAfter=No
-44	)	)	PUNCT	.	_	26	punct	_	_
+27	em	em	ADP	_	_	29	case	_	_
+28	outra	outro	DET	_	Gender=Fem|Number=Sing|PronType=Ind	29	det	_	_
+29	edição	edição	NOUN	_	Gender=Fem|Number=Sing	26	obl	_	_
+30	como	como	ADP	_	_	31	case	_	_
+31	What	What	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	26	xcomp	_	_
+32	They	They	PROPN	_	Number=Sing	31	flat:name	_	_
+33	Didn't	Didn't	PROPN	_	Number=Sing	31	flat:name	_	_
+34	Teach	Teach	PROPN	_	Number=Sing	31	flat:name	_	_
+35	Me	Me	PROPN	_	Number=Sing	31	flat:name	_	_
+36	at	at	ADP	_	_	31	case	_	_
+37	Yale	Yale	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	31	nmod	_	_
+38	Law	Law	PROPN	_	Number=Sing	37	flat:name	_	_
+39	School	School	PROPN	_	Number=Sing	37	flat:name	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	41	punct	_	_
+41	Fontana	Fontana	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	31	appos	_	_
+42	Press	Press	PROPN	_	Number=Sing	41	flat:name	_	_
+43	1988	1988	NUM	_	NumType=Card	41	flat:name	_	SpaceAfter=No
+44	)	)	PUNCT	_	_	26	punct	_	SpaceAfter=No
 
 # sent_id = train-s5255
 # text = Os setores que mais sofrem são as indústrias de bens de capital (22,69 %), construção (20,88 %) e mineração (14,63 %), que estão acima da média ponderada de custo logístico para o agregado de setores.

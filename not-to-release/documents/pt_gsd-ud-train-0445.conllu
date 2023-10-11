@@ -105,55 +105,57 @@
 25	Alemão	_	PROPN	PNOUN	_	22	nmod	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s4419
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Ano passado, após queda para o Avaí, também na Copa do Brasil, Jean chegou a ter seu carro chutado na porta do CT da Barra Funda, quando pipocas e ovos foram levados.
-1	Ano	ano	NOUN	NOUN	_	21	nmod	_	_
-2	passado	passado	ADJ	ADJ	_	1	amod	_	SpaceAfter=No
-3	,	,	PUNCT	.	_	5	punct	_	_
-4	após	_	ADP	ADP	_	5	case	_	_
-5	queda	queda	NOUN	NOUN	_	21	nmod	_	_
-6	para	para	ADP	ADP	_	8	case	_	_
-7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	Avaí	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	13	punct	_	_
-10	também	também	ADV	ADV	_	13	advmod	_	_
+# sent_id = train-s4419
+1	Ano	ano	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
+2	passado	passado	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	após	após	ADP	_	_	5	case	_	_
+5	queda	queda	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	_
+6	para	para	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Avaí	Avaí	PROPN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	5	punct	_	_
+10	também	também	ADV	_	_	13	advmod	_	_
 11-12	na	_	_	_	_	_	_	_	_
-11	em	em	ADP	ADP	_	13	case	_	_
-12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	Copa	_	PROPN	PNOUN	_	21	nmod	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Copa	Copa	PROPN	_	Gender=Fem|Number=Sing	5	nmod	_	_
 14-15	do	_	_	_	_	_	_	_	_
-14	de	de	ADP	ADP	_	16	case	_	_
-15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	Brasil	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
-17	,	,	PUNCT	.	_	13	punct	_	_
-18	Jean	_	PROPN	PNOUN	_	21	nsubj	_	_
-19	chegou	chegar	AUX	AUX	_	21	aux	_	_
-20	a	_	ADP	ADP	_	21	mark	_	_
-21	ter	ter	VERB	VERB	_	0	root	_	_
-22	seu	_	DET	DET	_	23	det:poss	_	_
-23	carro	carro	NOUN	NOUN	_	24	nsubj	_	_
-24	chutado	chutado	ADJ	ADJ	_	21	xcomp	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Brasil	Brasil	PROPN	_	Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	13	punct	_	_
+18	Jean	Jean	PROPN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
+19	chegou	chegar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20	a	a	SCONJ	_	_	21	mark	_	_
+21	ter	ter	VERB	_	VerbForm=Inf	19	xcomp	_	_
+22	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	23	det	_	_
+23	carro	carro	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	_
+24	chutado	chutar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	23	acl	_	_
 25-26	na	_	_	_	_	_	_	_	_
-25	em	em	ADP	ADP	_	27	case	_	_
-26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	porta	porta	NOUN	NOUN	_	21	nmod	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	porta	porta	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
 28-29	do	_	_	_	_	_	_	_	_
-28	de	de	ADP	ADP	_	30	case	_	_
-29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
-30	CT	_	PROPN	PNOUN	_	27	nmod	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	CT	CT	PROPN	_	Gender=Masc|Number=Sing	27	nmod	_	_
 31-32	da	_	_	_	_	_	_	_	_
-31	de	de	ADP	ADP	_	33	case	_	_
-32	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
-33	Barra	_	PROPN	PNOUN	_	30	nmod	_	_
-34	Funda	_	PROPN	PNOUN	_	33	amod	_	SpaceAfter=No
-35	,	,	PUNCT	.	_	41	punct	_	_
-36	quando	_	CCONJ	CONJ	_	41	mark	_	_
-37	pipocas	pipoca	NOUN	NOUN	_	41	nsubj:pass	_	_
-38	e	e	CCONJ	CONJ	_	39	cc	_	_
-39	ovos	ovo	NOUN	NOUN	_	37	conj	_	_
-40	foram	_	AUX	AUX	_	41	aux:pass	_	_
-41	levados	levar	VERB	VERB	_	21	advcl	_	SpaceAfter=No
-42	.	.	PUNCT	.	_	21	punct	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	Barra	Barra	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	30	nmod	_	_
+34	Funda	Funda	PROPN	_	Number=Sing	33	flat:name	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	24	punct	_	_
+36	quando	quando	ADV	_	_	41	advmod	_	_
+37	pipocas	pipoca	NOUN	_	Gender=Masc|Number=Plur	41	nsubj:pass	_	_
+38	e	e	CCONJ	_	_	39	cc	_	_
+39	ovos	ovo	NOUN	_	Gender=Masc|Number=Plur	37	conj	_	_
+40	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	41	aux:pass	_	_
+41	levados	levar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	21	advcl	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
 
 # sent_id = train-s4420
 # text = O Santos descia com velocidade e assustava os gaúchos.
@@ -227,21 +229,23 @@
 6	Fortaleza	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s4424
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O gol animou o Gansinho que voltou a ser melhor na partida.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	gol	gol	NOUN	NOUN	_	3	nsubj	_	_
-3	animou	animar	VERB	VERB	_	0	root	_	_
-4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	Gansinho	_	PROPN	PNOUN	_	3	obj	_	_
-6	que	_	PRON	PRON	_	9	nsubj	_	_
-7	voltou	voltar	AUX	AUX	_	9	aux	_	_
-8	a	_	ADP	ADP	_	9	mark	_	_
-9	ser	ser	VERB	VERB	_	5	acl:relcl	_	_
-10	melhor	melhor	ADJ	ADJ	_	9	xcomp	_	_
+# sent_id = train-s4424
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	gol	gol	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	animou	animar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Gansinho	Gansinho	PROPN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	7	nsubj	_	_
+7	voltou	voltar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+8	a	a	SCONJ	_	_	10	mark	_	_
+9	ser	ser	AUX	_	VerbForm=Inf	10	cop	_	_
+10	melhor	melhor	ADJ	_	Gender=Masc|Number=Sing	7	xcomp	_	_
 11-12	na	_	_	_	_	_	_	_	_
-11	em	em	ADP	ADP	_	13	case	_	_
-12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	partida	partida	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
-14	.	.	PUNCT	.	_	3	punct	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	partida	partida	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 

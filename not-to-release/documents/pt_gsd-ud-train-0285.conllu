@@ -252,38 +252,40 @@
 24	impostos	imposto	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	14	punct	_	_
 
-# sent_id = train-s2836
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Militantes vêm argumentando, há bastante tempo, que manter os animais no templo é uma forma de abuso e viola os direitos dos animais.
-1	Militantes	militante	NOUN	NOUN	_	3	nsubj	_	_
-2	vêm	vir	AUX	AUX	_	3	aux	_	_
-3	argumentando	argumentar	VERB	VERB	_	0	root	_	SpaceAfter=No
-4	,	,	PUNCT	.	_	5	punct	_	_
-5	há	haver	VERB	VERB	_	3	advcl	_	_
-6	bastante	_	DET	DET	_	7	det	_	_
-7	tempo	tempo	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
-8	,	,	PUNCT	.	_	5	punct	_	_
-9	que	_	PRON	PRON	_	18	mark	_	_
-10	manter	manter	VERB	VERB	_	18	csubj	_	_
-11	os	o	DET	DET	_	12	det	_	_
-12	animais	animal	NOUN	NOUN	_	10	obj	_	_
+# sent_id = train-s2836
+1	Militantes	militante	NOUN	_	Gender=Masc|Number=Plur	2	nsubj	_	_
+2	vêm	vir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	argumentando	argumentar	VERB	_	VerbForm=Ger	2	xcomp	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+6	bastante	bastante	DET	_	Gender=Masc|Number=Sing|PronType=Ind	7	det	_	_
+7	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	3	punct	_	_
+9	que	que	SCONJ	_	_	18	mark	_	_
+10	manter	manter	VERB	_	VerbForm=Inf	18	csubj	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	animais	animal	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
 13-14	no	_	_	_	_	_	_	_	_
-13	em	em	ADP	ADP	_	15	case	_	_
-14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	templo	templo	NOUN	NOUN	_	10	nmod	_	_
-16	é	ser	AUX	AUX	_	18	cop	_	_
-17	uma	um	DET	DET	_	18	det	_	_
-18	forma	forma	NOUN	NOUN	_	3	ccomp	_	_
-19	de	de	ADP	ADP	_	20	case	_	_
-20	abuso	abuso	NOUN	NOUN	_	18	nmod	_	_
-21	e	e	CCONJ	CONJ	_	22	cc	_	_
-22	viola	violar	VERB	VERB	_	18	conj	_	_
-23	os	o	DET	DET	_	24	det	_	_
-24	direitos	direito	NOUN	NOUN	_	22	obj	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	templo	templo	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+16	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	forma	forma	NOUN	_	Gender=Fem|Number=Sing	3	ccomp	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	abuso	abuso	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+21	e	e	CCONJ	_	_	22	cc	_	_
+22	viola	violar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
+23	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	direitos	direito	NOUN	_	Gender=Masc|Number=Plur	22	obj	_	_
 25-26	dos	_	_	_	_	_	_	_	_
-25	de	de	ADP	ADP	_	27	case	_	_
-26	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
-27	animais	animal	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
-28	.	.	PUNCT	.	_	3	punct	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	animais	animal	NOUN	_	Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = train-s2837
 # text = Manter a união e o foco.
@@ -295,21 +297,25 @@
 6	foco	foco	NOUN	NOUN	_	3	conj	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	1	punct	_	_
 
-# sent_id = train-s2838
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = A brasileira Eldorado inaugura neste mês uma fábrica em Três Lagoas (MS).
-1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-2	brasileira	brasileiro	ADJ	ADJ	_	3	amod	_	_
-3	Eldorado	_	PROPN	PNOUN	_	4	nsubj	_	_
-4	inaugura	inaugurar	VERB	VERB	_	0	root	_	_
-5	neste	_	ADP	ADP	_	6	case	_	_
-6	mês	mês	NOUN	NOUN	_	4	nmod	_	_
-7	uma	um	DET	DET	_	8	det	_	_
-8	fábrica	fábrica	NOUN	NOUN	_	4	obj	_	_
-9	em	em	ADP	ADP	_	11	case	_	_
-10	Três	_	PROPN	PNOUN	_	11	nummod	_	_
-11	Lagoas	_	PROPN	PNOUN	_	4	nmod	_	_
-12	(	(	PUNCT	.	_	13	punct	_	SpaceAfter=No
-13	MS	_	PROPN	PNOUN	_	11	appos	_	SpaceAfter=No
-14	)	)	PUNCT	.	_	13	punct	_	SpaceAfter=No
-15	.	.	PUNCT	.	_	4	punct	_	_
+# sent_id = train-s2838
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	brasileira	brasileira	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	Eldorado	Eldorado	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
+4	inaugura	inaugurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5-6	neste	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	mês	mês	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+8	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	fábrica	fábrica	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	Três	Três	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	4	obl	_	_
+12	Lagoas	Lagoas	PROPN	_	Number=Sing	11	flat:name	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	MS	MS	PROPN	_	Gender=Masc|Number=Sing	11	parataxis	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
 

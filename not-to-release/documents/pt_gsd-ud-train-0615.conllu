@@ -47,100 +47,104 @@
 44	multa	multa	NOUN	NOUN	_	39	conj	_	SpaceAfter=No
 45	.	.	PUNCT	.	_	12	punct	_	_
 
-# sent_id = train-s6106
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = "Foi muito importante porque conseguimos um empate com gols", chegou a afirmar o atleta, que foi titular na campanha do título brasileiro do ano passado e caiu de rendimento em 2012, inclusive sendo alvo de especulações de que não renovará.
-1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
-2	Foi	_	VERB	VERB	_	15	ccomp	_	_
-3	muito	muito	ADV	ADV	_	4	advmod	_	_
-4	importante	importante	ADJ	ADJ	_	2	xcomp	_	_
-5	porque	_	CCONJ	CONJ	_	6	mark	_	_
-6	conseguimos	conseguir	VERB	VERB	_	2	advcl	_	_
-7	um	um	DET	DET	_	8	det	_	_
-8	empate	empate	NOUN	NOUN	_	6	obj	_	_
-9	com	com	ADP	ADP	_	10	case	_	_
-10	gols	gol	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-11	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
-12	,	,	PUNCT	.	_	15	punct	_	_
-13	chegou	chegar	AUX	AUX	_	15	aux	_	_
-14	a	_	ADP	ADP	_	15	mark	_	_
-15	afirmar	afirmar	VERB	VERB	_	0	root	_	_
-16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	atleta	atleta	NOUN	NOUN	_	15	nsubj	_	SpaceAfter=No
-18	,	,	PUNCT	.	_	21	punct	_	_
-19	que	_	PRON	PRON	_	21	nsubj	_	_
-20	foi	_	AUX	AUX	_	21	cop	_	_
-21	titular	titular	NOUN	NOUN	_	17	acl:relcl	_	_
+# sent_id = train-s6106
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	muito	muito	ADV	_	_	4	advmod	_	_
+4	importante	importante	ADJ	_	Gender=Masc|Number=Sing	13	parataxis	_	_
+5	porque	porque	SCONJ	_	_	6	mark	_	_
+6	conseguimos	conseguir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+7	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	empate	empate	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+9	com	com	ADP	_	_	10	case	_	_
+10	gols	gol	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	4	punct	_	_
+13	chegou	chegar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	a	a	SCONJ	_	_	15	mark	_	_
+15	afirmar	afirmar	VERB	_	VerbForm=Inf	13	xcomp	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	atleta	atleta	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	21	punct	_	_
+19	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	21	nsubj	_	_
+20	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	cop	_	_
+21	titular	titular	NOUN	_	Gender=Masc|Number=Sing	17	acl:relcl	_	_
 22-23	na	_	_	_	_	_	_	_	_
-22	em	em	ADP	ADP	_	24	case	_	_
-23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-24	campanha	campanha	NOUN	NOUN	_	21	nmod	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
 25-26	do	_	_	_	_	_	_	_	_
-25	de	de	ADP	ADP	_	27	case	_	_
-26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	título	título	NOUN	NOUN	_	24	nmod	_	_
-28	brasileiro	brasileiro	ADJ	ADJ	_	27	amod	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	título	título	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
+28	brasileiro	brasileiro	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	_
 29-30	do	_	_	_	_	_	_	_	_
-29	de	de	ADP	ADP	_	31	case	_	_
-30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-31	ano	ano	NOUN	NOUN	_	24	nmod	_	_
-32	passado	passado	ADJ	ADJ	_	31	amod	_	_
-33	e	e	CCONJ	CONJ	_	34	cc	_	_
-34	caiu	cair	VERB	VERB	_	21	conj	_	_
-35	de	de	ADP	ADP	_	36	case	_	_
-36	rendimento	rendimento	NOUN	NOUN	_	34	nmod	_	_
-37	em	em	ADP	ADP	_	38	case	_	_
-38	2012	2012	NUM	NUM	NumType=Card	34	nmod	_	SpaceAfter=No
-39	,	,	PUNCT	.	_	42	punct	_	_
-40	inclusive	inclusive	ADV	ADV	_	42	advmod	_	_
-41	sendo	ser	AUX	AUX	_	42	cop	_	_
-42	alvo	alvo	NOUN	NOUN	_	34	acl	_	_
-43	de	de	ADP	ADP	_	44	case	_	_
-44	especulações	especulação	NOUN	NOUN	_	42	nmod	_	_
-45	de	_	ADP	ADP	_	48	mark	_	_
-46	que	que	CCONJ	CONJ	_	48	mark	_	_
-47	não	não	ADV	ADV	Polarity=Neg	48	advmod	_	_
-48	renovará	renovar	VERB	VERB	_	44	nmod	_	SpaceAfter=No
-49	.	.	PUNCT	.	_	15	punct	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	ano	ano	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
+32	passado	passado	ADJ	_	Gender=Masc|Number=Sing	31	amod	_	_
+33	e	e	CCONJ	_	_	34	cc	_	_
+34	caiu	cair	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	conj	_	_
+35	de	de	ADP	_	_	36	case	_	_
+36	rendimento	rendimento	NOUN	_	Gender=Masc|Number=Sing	34	obl	_	_
+37	em	em	ADP	_	_	38	case	_	_
+38	2012	2012	NUM	_	NumType=Card	34	obl	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	42	punct	_	_
+40	inclusive	inclusive	ADV	_	_	42	advmod	_	_
+41	sendo	ser	AUX	_	VerbForm=Ger	42	cop	_	_
+42	alvo	alvo	NOUN	_	Gender=Masc|Number=Sing	34	advcl	_	_
+43	de	de	ADP	_	_	44	case	_	_
+44	especulações	especulação	NOUN	_	Gender=Fem|Number=Plur	42	nmod	_	_
+45	de	de	SCONJ	_	_	48	mark	_	_
+46	que	que	SCONJ	_	_	48	mark	_	_
+47	não	não	ADV	_	Polarity=Neg	48	advmod	_	_
+48	renovará	renovar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	44	acl	_	SpaceAfter=No
+49	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
 
-# sent_id = train-s6107
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = A menina, que vem sendo ainda mais assediada pelos paparazzi após a separação dos pais, estava fofíssima com um vestido florido e não desgrudou dum boneco de pelúcia.
-1	A	o	DET	DET	_	9	det	_	_
-2	menina	menino	NOUN	NOUN	_	9	cop	_	SpaceAfter=No
-3	,	,	PUNCT	.	_	9	punct	_	_
-4	que	_	PRON	PRON	_	9	nsubj	_	_
-5	vem	vir	AUX	AUX	_	9	aux	_	_
-6	sendo	ser	AUX	AUX	_	9	aux:pass	_	_
-7	ainda	ainda	ADV	ADV	_	8	advmod	_	_
-8	mais	mais	ADV	ADV	_	9	advmod	_	_
-9	assediada	assediar	VERB	VERB	_	20	nsubj	_	_
+# sent_id = train-s6107
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	menina	menina	NOUN	_	Gender=Fem|Number=Sing	21	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	5	nsubj:pass	_	_
+5	vem	vir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	sendo	ser	AUX	_	VerbForm=Ger	9	aux:pass	_	_
+7	ainda	ainda	ADV	_	_	8	advmod	_	_
+8	mais	mais	ADV	_	_	9	advmod	_	_
+9	assediada	assediado	ADJ	_	Gender=Fem|Number=Sing	5	xcomp	_	_
 10-11	pelos	_	_	_	_	_	_	_	_
-10	por	por	ADP	ADP	_	12	case	_	_
-11	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
-12	paparazzi	_	NOUN	NOUN	_	9	nmod	_	_
-13	após	_	ADP	ADP	_	15	case	_	_
-14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	separação	separação	NOUN	NOUN	_	9	nmod	_	_
+10	por	por	ADP	_	_	12	case	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	paparazzi	paparazzi	NOUN	_	Gender=Masc|Number=Plur	9	obl:agent	_	_
+13	após	após	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	separação	separação	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
 16-17	dos	_	_	_	_	_	_	_	_
-16	de	de	ADP	ADP	_	18	case	_	_
-17	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
-18	pais	_	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	9	punct	_	_
-20	estava	estar	VERB	VERB	_	0	root	_	_
-21	fofíssima	fofo	ADJ	ADJ	_	20	xcomp	_	_
-22	com	com	ADP	ADP	_	24	case	_	_
-23	um	um	DET	DET	_	24	det	_	_
-24	vestido	vestido	NOUN	NOUN	_	20	nmod	_	_
-25	florido	florido	ADJ	ADJ	_	24	amod	_	_
-26	e	e	CCONJ	CONJ	_	28	cc	_	_
-27	não	não	ADV	ADV	Polarity=Neg	28	advmod	_	_
-28	desgrudou	desgrudar	VERB	VERB	_	20	conj	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	pais	pai	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	9	punct	_	_
+20	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	cop	_	_
+21	fofíssima	fofo	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+22	com	com	ADP	_	_	24	case	_	_
+23	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	vestido	vestido	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
+25	florido	florir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	24	acl	_	_
+26	e	e	CCONJ	_	_	28	cc	_	_
+27	não	não	ADV	_	Polarity=Neg	28	advmod	_	_
+28	desgrudou	desgrudar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	conj	_	_
 29-30	dum	_	_	_	_	_	_	_	_
-29	de	de	ADP	ADP	_	31	case	_	_
-30	um	um	DET	DET	_	31	det	_	_
-31	boneco	boneco	NOUN	NOUN	_	28	nmod	_	_
-32	de	de	ADP	ADP	_	33	case	_	_
-33	pelúcia	pelúcia	NOUN	NOUN	_	31	nmod	_	SpaceAfter=No
-34	.	.	PUNCT	.	_	20	punct	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	boneco	boneco	NOUN	_	Gender=Masc|Number=Sing	28	obj	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	pelúcia	pelúcia	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
 
 # sent_id = train-s6108
 # text = Ela terá a mesma largura da atual, que também tem 640 pixels.
@@ -223,29 +227,31 @@
 10	Devillers	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s6111
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Foi ele quem convidou Ichigo para estudar na academia devido ao seu incrível paladar para doces.
-1	Foi	_	VERB	VERB	_	0	root	_	_
-2	ele	_	PRON	PRON	_	1	nsubj	_	_
-3	quem	_	PRON	PRON	_	4	nsubj	_	_
-4	convidou	convidar	VERB	VERB	_	2	acl:relcl	_	_
-5	Ichigo	_	PROPN	PNOUN	_	4	obj	_	_
-6	para	_	ADP	ADP	_	7	mark	_	_
-7	estudar	estudar	VERB	VERB	_	4	nmod	_	_
+# sent_id = train-s6111
+1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	_
+2	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+3	quem	quem	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	4	nsubj	_	_
+4	convidou	convidar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+5	Ichigo	Ichigo	PROPN	_	Gender=Masc|Number=Sing	4	obj	_	_
+6	para	para	SCONJ	_	_	7	mark	_	_
+7	estudar	estudar	VERB	_	VerbForm=Inf	4	advcl	_	_
 8-9	na	_	_	_	_	_	_	_	_
-8	em	em	ADP	ADP	_	10	case	_	_
-9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	academia	academia	NOUN	NOUN	_	7	nmod	_	_
-11	devido	dever	VERB	VERB	_	16	case	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	academia	academia	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+11	devido	devido	ADV	_	_	7	advmod	_	_
 12-13	ao	_	_	_	_	_	_	_	_
-12	a	a	ADP	ADP	_	11	case	_	_
-13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-14	seu	_	DET	DET	_	16	det:poss	_	_
-15	incrível	incrível	ADJ	ADJ	_	16	amod	_	_
-16	paladar	paladar	NOUN	NOUN	_	4	nmod	_	_
-17	para	para	ADP	ADP	_	18	case	_	_
-18	doces	doce	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
-19	.	.	PUNCT	.	_	1	punct	_	_
+12	a	a	ADP	_	_	16	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+14	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	16	det	_	_
+15	incrível	incrível	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
+16	paladar	paladar	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+17	para	para	ADP	_	_	18	case	_	_
+18	doces	doce	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = train-s6112
 # text = Trabalhar com um sistema de marcas também ajuda a alocação dos recursos, porque isto torna claro que cada marca cria valor auxiliando as outras marcas, além de gerar sua própria proposta de valor.
@@ -288,57 +294,59 @@
 36	valor	valor	NOUN	NOUN	_	34	nmod	_	SpaceAfter=No
 37	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = train-s6113
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Ela indica também a superação de dúvidas, revigoradas entre os oposicionistas, de que o pleito presidencial abriria caminho para Shafiq, cuja candidatura, que havia sido proibida, acabou sendo autorizada pela Corte do país dias antes da eleição.
-1	Ela	_	PRON	PRON	_	2	nsubj	_	_
-2	indica	indicar	VERB	VERB	_	0	root	_	_
-3	também	também	ADV	ADV	_	2	advmod	_	_
-4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	superação	superação	NOUN	NOUN	_	2	obj	_	_
-6	de	de	ADP	ADP	_	7	case	_	_
-7	dúvidas	dúvida	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
-8	,	,	PUNCT	.	_	9	punct	_	_
-9	revigoradas	revigorar	VERB	VERB	_	7	acl	_	_
-10	entre	_	ADP	ADP	_	12	case	_	_
-11	os	o	DET	DET	_	12	det	_	_
-12	oposicionistas	oposicionista	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
-13	,	,	PUNCT	.	_	9	punct	_	_
-14	de	_	ADP	ADP	_	19	mark	_	_
-15	que	que	CCONJ	CONJ	_	19	mark	_	_
-16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	pleito	pleito	NOUN	NOUN	_	19	nsubj	_	_
-18	presidencial	presidencial	ADJ	ADJ	_	17	amod	_	_
-19	abriria	abrir	VERB	VERB	_	7	nmod	_	_
-20	caminho	caminho	NOUN	NOUN	_	19	obj	_	_
-21	para	para	ADP	ADP	_	22	case	_	_
-22	Shafiq	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
-23	,	,	PUNCT	.	_	34	punct	_	_
-24	cuja	_	DET	DET	_	25	det	_	_
-25	candidatura	candidatura	NOUN	NOUN	_	34	nsubj:pass	_	SpaceAfter=No
-26	,	,	PUNCT	.	_	30	punct	_	_
-27	que	_	PRON	PRON	_	30	nsubj:pass	_	_
-28	havia	haver	AUX	AUX	_	30	aux	_	_
-29	sido	ser	AUX	AUX	_	30	aux:pass	_	_
-30	proibida	proibir	VERB	VERB	_	25	acl:relcl	_	SpaceAfter=No
-31	,	,	PUNCT	.	_	30	punct	_	_
-32	acabou	acabar	AUX	AUX	_	34	aux	_	_
-33	sendo	ser	AUX	AUX	_	34	aux:pass	_	_
-34	autorizada	autorizar	VERB	VERB	_	22	acl:relcl	_	_
+# sent_id = train-s6113
+1	Ela	ela	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	indica	indicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	também	também	ADV	_	_	2	advmod	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	superação	superação	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	dúvidas	dúvida	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	revigoradas	revigorar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	7	acl	_	_
+10	entre	entre	ADP	_	_	12	case	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	oposicionistas	oposicionista	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	9	punct	_	_
+14	de	de	SCONJ	_	_	19	mark	_	_
+15	que	que	SCONJ	_	_	19	mark	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	pleito	pleito	NOUN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
+18	presidencial	presidencial	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
+19	abriria	abrir	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	5	acl:relcl	_	_
+20	caminho	caminho	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
+21	para	para	ADP	_	_	22	case	_	_
+22	Shafiq	Shafiq	PROPN	_	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	32	punct	_	_
+24	cuja	cujo	DET	_	Gender=Fem|Number=Sing|PronType=Rel	25	det	_	_
+25	candidatura	candidatura	NOUN	_	Gender=Fem|Number=Sing	32	nsubj:pass	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	30	punct	_	_
+27	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	30	nsubj:pass	_	_
+28	havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	aux	_	_
+29	sido	ser	AUX	_	VerbForm=Part	30	aux:pass	_	_
+30	proibida	proibir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	25	acl:relcl	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	acabou	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	acl:relcl	_	_
+33	sendo	ser	AUX	_	VerbForm=Ger	34	aux:pass	_	_
+34	autorizada	autorizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	32	xcomp	_	_
 35-36	pela	_	_	_	_	_	_	_	_
-35	por	por	ADP	ADP	_	37	case	_	_
-36	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
-37	Corte	corte	NOUN	NOUN	_	34	nmod	_	_
+35	por	por	ADP	_	_	37	case	_	_
+36	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	Corte	corte	NOUN	_	Gender=Fem|Number=Sing	34	obl:agent	_	_
 38-39	do	_	_	_	_	_	_	_	_
-38	de	de	ADP	ADP	_	40	case	_	_
-39	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
-40	país	país	NOUN	NOUN	_	37	nmod	_	_
-41	dias	dia	NOUN	NOUN	_	34	nmod	_	_
-42	antes	antes	ADV	ADV	_	45	case	_	_
+38	de	de	ADP	_	_	40	case	_	_
+39	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	país	país	NOUN	_	Gender=Masc|Number=Sing	37	nmod	_	_
+41	dias	dia	NOUN	_	Gender=Masc|Number=Plur	34	obl	_	_
+42	antes	antes	ADV	_	_	34	advmod	_	_
 43-44	da	_	_	_	_	_	_	_	_
-43	de	de	ADP	ADP	_	42	case	_	_
-44	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
-45	eleição	eleição	NOUN	NOUN	_	41	nmod	_	SpaceAfter=No
-46	.	.	PUNCT	.	_	2	punct	_	_
+43	de	de	ADP	_	_	45	case	_	_
+44	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	eleição	eleição	NOUN	_	Gender=Fem|Number=Sing	42	obl	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = train-s6114
 # text = O mestrado articula os elementos de pesquisa e ensino para a atuação profissional nos mercados globais, regionais, nacionais e setoriais.

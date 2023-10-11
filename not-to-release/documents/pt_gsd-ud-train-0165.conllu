@@ -81,43 +81,45 @@
 21	32,00	32,00	NUM	NUM	NumType=Card	19	nummod	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = train-s1641
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Alan White começou a ter aulas de piano aos três anos de idade, mas, encorajado por um tio que era baterista, resolveu dedicar-se à bateria.
-1	Alan	_	PROPN	PNOUN	_	5	nsubj	_	_
-2	White	_	PROPN	PNOUN	_	1	flat	_	_
-3	começou	começar	AUX	AUX	_	5	aux	_	_
-4	a	_	ADP	ADP	_	5	mark	_	_
-5	ter	ter	VERB	VERB	_	0	root	_	_
-6	aulas	aula	NOUN	NOUN	_	5	obj	_	_
-7	de	de	ADP	ADP	_	8	case	_	_
-8	piano	piano	NOUN	NOUN	_	6	nmod	_	_
+# sent_id = train-s1641
+1	Alan	Alan	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	White	White	PROPN	_	Number=Sing	1	flat:name	_	_
+3	começou	começar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	SCONJ	_	_	5	mark	_	_
+5	ter	ter	VERB	_	VerbForm=Inf	3	xcomp	_	_
+6	aulas	aula	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	piano	piano	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 9-10	aos	_	_	_	_	_	_	_	_
-9	a	a	ADP	ADP	_	12	case	_	_
-10	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
-11	três	_	NUM	NUM	NumType=Card	12	nummod	_	_
-12	anos	ano	NOUN	NOUN	_	5	nmod	_	_
-13	de	de	ADP	ADP	_	14	case	_	_
-14	idade	idade	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
-15	,	,	PUNCT	.	_	26	punct	_	_
-16	mas	mas	CCONJ	CONJ	_	26	cc	_	SpaceAfter=No
-17	,	,	PUNCT	.	_	18	punct	_	_
-18	encorajado	encorajar	VERB	VERB	_	26	acl	_	_
-19	por	por	ADP	ADP	_	21	case	_	_
-20	um	um	DET	DET	_	21	det	_	_
-21	tio	tio	NOUN	NOUN	_	18	nmod	_	_
-22	que	_	PRON	PRON	_	24	nsubj	_	_
-23	era	_	AUX	AUX	_	24	cop	_	_
-24	baterista	baterista	NOUN	NOUN	_	21	acl:relcl	_	SpaceAfter=No
-25	,	,	PUNCT	.	_	18	punct	_	_
-26	resolveu	resolver	VERB	VERB	_	5	conj	_	_
+9	a	a	ADP	_	_	12	case	_	_
+10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	três	três	NUM	_	NumType=Card	12	nummod	_	_
+12	anos	ano	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	idade	idade	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	mas	mas	CCONJ	_	_	26	cc	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	encorajado	encorajar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	26	advcl	_	_
+19	por	por	ADP	_	_	21	case	_	_
+20	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	tio	tio	NOUN	_	Gender=Masc|Number=Sing	18	obl:agent	_	_
+22	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	24	nsubj	_	_
+23	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	cop	_	_
+24	baterista	baterista	NOUN	_	Gender=Masc|Number=Sing	21	acl:relcl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	18	punct	_	_
+26	resolveu	resolver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
 27-28	dedicar-se	_	_	_	_	_	_	_	_
-27	dedicar	dedicar	VERB	VERB	_	26	xcomp	_	_
-28	se	_	PART	PRT	_	27	expl:pv	_	_
+27	dedicar	dedicar	VERB	_	VerbForm=Inf	26	xcomp	_	_
+28	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	expl	_	_
 29-30	à	_	_	_	_	_	_	_	_
-29	a	a	ADP	ADP	_	31	case	_	_
-30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-31	bateria	bateria	NOUN	NOUN	_	27	nmod	_	SpaceAfter=No
-32	.	.	PUNCT	.	_	5	punct	_	_
+29	a	a	ADP	_	_	31	case	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	bateria	bateria	NOUN	_	Gender=Fem|Number=Sing	27	obj	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # sent_id = train-s1642
 # text = Nós teremos um jogador com mais características de centroavante, que precisará resolver problemas diferentes, por iniciativa nossa.
@@ -292,48 +294,49 @@
 28	Paraná	_	PROPN	PNOUN	_	25	nmod	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	10	punct	_	_
 
-# sent_id = train-s1648
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = A estrela do programa, John D. LeMay, também apareceu posteriormente em Jason Goes to Hell: The Final Friday, e o ator convidado John Shepherd interpretou Tommy Jarvis em Friday the 13th: A New Beginning.
-1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	estrela	estrela	NOUN	NOUN	_	12	nsubj	_	_
+# sent_id = train-s1648
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	estrela	estrela	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
-3	de	de	ADP	ADP	_	5	case	_	_
-4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	programa	programa	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
-6	,	,	PUNCT	.	_	7	punct	_	_
-7	John	_	PROPN	PNOUN	_	2	appos	_	_
-8	D.	_	PROPN	PNOUN	_	7	flat	_	_
-9	LeMay	_	PROPN	PNOUN	_	7	flat	_	SpaceAfter=No
-10	,	,	PUNCT	.	_	7	punct	_	_
-11	também	também	ADV	ADV	_	12	advmod	_	_
-12	apareceu	aparecer	VERB	VERB	_	0	root	_	_
-13	posteriormente	posteriormente	ADV	ADV	_	12	advmod	_	_
-14	em	em	ADP	ADP	_	16	case	_	_
-15	Jason	_	PROPN	PNOUN	_	16	nsubj	_	_
-16	Goes	_	PROPN	PNOUN	_	12	nmod	_	_
-17	to	_	ADP	ADP	_	18	case	_	_
-18	Hell	_	PROPN	PNOUN	_	16	nmod	_	SpaceAfter=No
-19	:	:	PUNCT	.	_	16	punct	_	_
-20	The	_	PROPN	PNOUN	_	22	det	_	_
-21	Final	_	PROPN	PNOUN	_	22	amod	_	_
-22	Friday	_	PROPN	PNOUN	_	16	appos	_	SpaceAfter=No
-23	,	,	PUNCT	.	_	30	punct	_	_
-24	e	e	CCONJ	CONJ	_	30	cc	_	_
-25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	ator	ator	NOUN	NOUN	_	30	nsubj	_	_
-27	convidado	convidado	ADJ	ADJ	_	26	amod	_	_
-28	John	_	PROPN	PNOUN	_	26	appos	_	_
-29	Shepherd	_	PROPN	PNOUN	_	28	flat	_	_
-30	interpretou	interpretar	VERB	VERB	_	12	conj	_	_
-31	Tommy	_	PROPN	PNOUN	_	30	obj	_	_
-32	Jarvis	_	PROPN	PNOUN	_	31	flat	_	_
-33	em	em	ADP	ADP	_	34	case	_	_
-34	Friday	_	PROPN	PNOUN	_	30	nmod	_	_
-35	the	_	PROPN	PNOUN	_	36	det	_	_
-36	13th	_	NUM	NUM	NumType=Card	34	nmod	_	SpaceAfter=No
-37	:	:	PUNCT	.	_	34	punct	_	_
-38	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
-39	New	_	PROPN	PNOUN	_	40	amod	_	_
-40	Beginning	_	PROPN	PNOUN	_	34	appos	_	SpaceAfter=No
-41	.	.	PUNCT	.	_	12	punct	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	programa	programa	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	John	John	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	2	appos	_	_
+8	D.	D.	PROPN	_	Number=Sing	7	flat:name	_	_
+9	LeMay	LeMay	PROPN	_	Number=Sing	7	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	7	punct	_	_
+11	também	também	ADV	_	_	12	advmod	_	_
+12	apareceu	aparecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	posteriormente	posteriormente	ADV	_	_	12	advmod	_	_
+14	em	em	ADP	_	_	15	case	_	_
+15	Jason	Jason	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	12	obl	_	_
+16	Goes	Goes	PROPN	_	Number=Sing	15	flat:name	_	_
+17	to	to	PROPN	_	Number=Sing	15	flat:name	_	_
+18	Hell:	Hell:	PROPN	_	Number=Sing	15	flat:name	_	_
+19	The	The	PROPN	_	Number=Sing	15	flat:name	_	_
+20	Final	Final	PROPN	_	Number=Sing	15	flat:name	_	_
+21	Friday	Friday	PROPN	_	Number=Sing	15	flat:name	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	29	punct	_	_
+23	e	e	CCONJ	_	_	29	cc	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	ator	ator	NOUN	_	Gender=Masc|Number=Sing	29	nsubj	_	_
+26	convidado	convidar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	25	acl	_	_
+27	John	John	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	25	appos	_	_
+28	Shepherd	Shepherd	PROPN	_	Number=Sing	27	flat:name	_	_
+29	interpretou	interpretar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	conj	_	_
+30	Tommy	Tommy	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	29	obj	_	_
+31	Jarvis	Jarvis	PROPN	_	Number=Sing	30	flat:name	_	_
+32	em	em	ADP	_	_	33	case	_	_
+33	Friday	Friday	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	29	obl	_	_
+34	the	the	PROPN	_	Number=Sing	33	flat:name	_	_
+35	13th	13th	PROPN	_	Number=Sing	33	flat:name	_	SpaceAfter=No
+36	:	:	PUNCT	_	_	37	punct	_	_
+37	A	A	PROPN	_	Number=Sing	33	appos	_	_
+38	New	New	PROPN	_	Number=Sing	37	flat:name	_	_
+39	Beginning	Beginning	PROPN	_	Number=Sing	37	flat:name	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
 

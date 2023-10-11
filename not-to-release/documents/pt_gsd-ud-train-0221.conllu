@@ -8,20 +8,22 @@
 6	goradas	gorar	VERB	VERB	_	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = train-s2195
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Eisner então se tornou Ministro - presidente da Baviera.
-1	Eisner	_	PROPN	PNOUN	_	5	nsubj	_	_
-2	então	então	ADV	ADV	_	5	advmod	_	_
-3	se	_	PART	PRT	_	5	expl:pv	_	_
-4	tornou	tornar	AUX	AUX	_	5	cop	_	_
-5	Ministro	_	PROPN	PNOUN	_	0	root	_	_
-6	-	-	PUNCT	.	_	5	punct	_	_
-7	presidente	_	PROPN	PNOUN	_	5	flat	_	_
+# sent_id = train-s2195
+1	Eisner	Eisner	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+2	então	então	ADV	_	_	4	advmod	_	_
+3	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+4	tornou	tornar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	Ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	4	xcomp	_	_
+6	-	-	PUNCT	_	_	7	punct	_	_
+7	presidente	presidente	NOUN	_	Gender=Masc|Number=Sing	5	appos	_	_
 8-9	da	_	_	_	_	_	_	_	_
-8	de	de	ADP	ADP	_	10	case	_	_
-9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	Baviera	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
-11	.	.	PUNCT	.	_	5	punct	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Baviera	Baviera	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # sent_id = train-s2196
 # text = A pintura foi comprada por uma mulher, na Virgínia, como parte dum lote que incluiu uma boneca e uma vaca de plástico.

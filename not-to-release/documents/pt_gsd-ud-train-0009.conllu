@@ -200,30 +200,32 @@
 63	gasolina	gasolina	NOUN	NOUN	_	61	nmod	_	SpaceAfter=No
 64	.	.	PUNCT	.	_	11	punct	_	_
 
-# sent_id = train-s85
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Ele comentou ainda que, após as eleições, continuará sendo membro do Parlamento italiano, como senador vitalício.
-1	Ele	_	PRON	PRON	_	2	nsubj	_	_
-2	comentou	comentar	VERB	VERB	_	0	root	_	_
-3	ainda	ainda	ADV	ADV	_	2	advmod	_	_
-4	que	que	CCONJ	CONJ	_	12	mark	_	SpaceAfter=No
-5	,	,	PUNCT	.	_	8	punct	_	_
-6	após	_	ADP	ADP	_	8	case	_	_
-7	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
-8	eleições	eleição	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	8	punct	_	_
-10	continuará	continuar	AUX	AUX	_	12	aux	_	_
-11	sendo	ser	AUX	AUX	_	12	cop	_	_
-12	membro	membro	NOUN	NOUN	_	2	ccomp	_	_
+# sent_id = train-s85
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	comentou	comentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	ainda	ainda	ADV	_	_	2	advmod	_	_
+4	que	que	SCONJ	_	_	10	mark	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	_
+6	após	após	ADP	_	_	8	case	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	continuará	continuar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	ccomp	_	_
+11	sendo	ser	AUX	_	VerbForm=Ger	12	cop	_	_
+12	membro	membro	NOUN	_	Gender=Masc|Number=Sing	10	xcomp	_	_
 13-14	do	_	_	_	_	_	_	_	_
-13	de	de	ADP	ADP	_	15	case	_	_
-14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	Parlamento	_	PROPN	PNOUN	_	12	nmod	_	_
-16	italiano	italiano	ADJ	ADJ	_	15	amod	_	SpaceAfter=No
-17	,	,	PUNCT	.	_	19	punct	_	_
-18	como	como	ADP	ADP	_	19	case	_	_
-19	senador	senador	NOUN	NOUN	_	12	nmod	_	_
-20	vitalício	vitalício	ADJ	ADJ	_	19	amod	_	SpaceAfter=No
-21	.	.	PUNCT	.	_	2	punct	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Parlamento	parlamento	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+16	italiano	italiano	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	como	como	ADP	_	_	19	case	_	_
+19	senador	senador	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+20	vitalício	vitalício	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = train-s86
 # text = [Esses dados] nos garantem que o aspecto fiscal permanecerá sólido nos próximos anos.
@@ -296,24 +298,26 @@
 44	natural	natural	ADJ	ADJ	_	43	amod	_	SpaceAfter=No
 45	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = train-s88
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Em 1820 foi nomeado professor pensionista substituto na Academia Imperial de Belas Artes.
-1	Em	em	ADP	ADP	_	2	case	_	_
-2	1820	1820	NUM	NUM	NumType=Card	5	nmod	_	_
-3	foi	_	AUX	AUX	_	5	aux:pass	_	_
-4	nomeado	nomear	AUX	AUX	_	5	cop	_	_
-5	professor	professor	NOUN	NOUN	_	0	root	_	_
-6	pensionista	pensionista	ADJ	ADJ	_	5	amod	_	_
-7	substituto	substituto	NOUN	NOUN	_	5	amod	_	_
+# sent_id = train-s88
+1	Em	em	ADP	_	_	2	case	_	_
+2	1820	1820	NUM	_	NumType=Card	4	obl	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	nomeado	nomear	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+5	professor	professor	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+6	pensionista	pensionista	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7	substituto	substituto	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
 8-9	na	_	_	_	_	_	_	_	_
-8	em	em	ADP	ADP	_	10	case	_	_
-9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	Academia	academia	NOUN	NOUN	_	5	nmod	_	_
-11	Imperial	_	PROPN	PNOUN	_	10	amod	_	_
-12	de	de	ADP	ADP	_	14	case	_	_
-13	Belas	_	PROPN	PNOUN	_	14	amod	_	_
-14	Artes	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
-15	.	.	PUNCT	.	_	5	punct	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Academia	Academia	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	4	obl	_	_
+11	Imperial	Imperial	PROPN	_	Number=Sing	10	flat:name	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Belas	Belas	PROPN	_	ExtPos=PROPN|Number=Sing	10	nmod	_	_
+14	Artes	Artes	PROPN	_	Number=Sing	13	flat:name	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # sent_id = train-s89
 # text = Mas a atleta também poderá, de acordo com o técnico, se deparar com obstáculos 'naturais', como os patos que habitam o Serpentine.

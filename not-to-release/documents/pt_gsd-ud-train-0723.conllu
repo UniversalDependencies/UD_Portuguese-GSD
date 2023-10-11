@@ -84,37 +84,39 @@
 22	globalização	globalização	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s7180
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Quatro novas imagens do Hobbit: Uma Jornada Inesperada Publicada em 11/09/2012 Confira abaixo quatro novas fotos do Hobbit: Uma Jornada Inesperada: ...
-1	Quatro	_	NUM	NUM	NumType=Card	3	nummod	_	_
-2	novas	novo	ADJ	ADJ	_	3	amod	_	_
-3	imagens	imagem	NOUN	NOUN	_	14	parataxis	_	_
+# sent_id = train-s7180
+1	Quatro	quatro	NUM	_	NumType=Card	3	nummod	_	_
+2	novas	novo	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	_
+3	imagens	imagem	NOUN	_	Gender=Fem|Number=Plur	14	nsubj	_	_
 4-5	do	_	_	_	_	_	_	_	_
-4	de	de	ADP	ADP	_	6	case	_	_
-5	O	_	PROPN	PNOUN	_	6	det	_	_
-6	Hobbit	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
-7	:	:	PUNCT	.	_	6	punct	_	_
-8	Uma	_	PROPN	PNOUN	_	9	det	_	_
-9	Jornada	_	PROPN	PNOUN	_	6	appos	_	_
-10	Inesperada	_	PROPN	PNOUN	_	9	amod	_	_
-11	Publicada	publicar	VERB	VERB	_	14	parataxis	_	_
-12	em	em	ADP	ADP	_	13	case	_	_
-13	11/09/2012	_	NUM	NUM	NumType=Card	11	nmod	_	_
-14	Confira	conferir	VERB	VERB	_	0	root	_	_
-15	abaixo	abaixo	ADV	ADV	_	14	advmod	_	_
-16	quatro	_	NUM	NUM	NumType=Card	18	nummod	_	_
-17	novas	novo	ADJ	ADJ	_	18	amod	_	_
-18	fotos	foto	NOUN	NOUN	_	14	obj	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Hobbit	Hobbit	PROPN	_	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	8	punct	_	_
+8	Uma	Uma	PROPN	_	Number=Sing	6	appos	_	_
+9	Jornada	Jornada	PROPN	_	Number=Sing	8	flat:name	_	_
+10	Inesperada	Inesperada	PROPN	_	Number=Sing	8	flat:name	_	_
+11	Publicada	publicar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	3	acl	_	_
+12	em	em	ADP	_	_	13	case	_	_
+13	11/09/2012	11/09/2012	NUM	_	NumType=Card	11	obl	_	_
+14	Confira	conferir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	abaixo	abaixo	ADV	_	_	14	advmod	_	_
+16	quatro	quatro	NUM	_	NumType=Card	18	nummod	_	_
+17	novas	novo	ADJ	_	Gender=Fem|Number=Plur	18	amod	_	_
+18	fotos	foto	NOUN	_	Gender=Fem|Number=Plur	14	obj	_	_
 19-20	do	_	_	_	_	_	_	_	_
-19	de	de	ADP	ADP	_	21	case	_	_
-20	O	_	PROPN	PNOUN	_	21	det	_	_
-21	Hobbit	_	PROPN	PNOUN	_	18	nmod	_	SpaceAfter=No
-22	:	:	PUNCT	.	_	21	punct	_	_
-23	Uma	_	PROPN	PNOUN	_	24	det	_	_
-24	Jornada	_	PROPN	PNOUN	_	21	appos	_	_
-25	Inesperada	_	PROPN	PNOUN	_	24	amod	_	SpaceAfter=No
-26	:	:	PUNCT	.	_	14	punct	_	_
-27	...	_	PUNCT	.	_	14	punct	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Hobbit	Hobbit	PROPN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+22	:	:	PUNCT	_	_	23	punct	_	_
+23	Uma	Uma	PROPN	_	Number=Sing	21	appos	_	_
+24	Jornada	Jornada	PROPN	_	Number=Sing	23	flat:name	_	_
+25	Inesperada	Inesperada	PROPN	_	Number=Sing	23	flat:name	_	SpaceAfter=No
+26	:	:	PUNCT	_	_	14	punct	_	_
+27	...	...	PUNCT	_	_	14	punct	_	SpaceAfter=No
 
 # sent_id = train-s7181
 # text = Angélica postou foto do seu barrigão nesta terça - feira, 21.

@@ -61,62 +61,64 @@
 2	verdade	verdade	NOUN	NOUN	_	0	root	_	SpaceAfter=No
 3	?	?	PUNCT	.	_	2	punct	_	_
 
-# sent_id = test-s421
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O canal, no trecho lagunar sul, além de estreito, possui vinte e duas ilhotas, sem contar a do Linguado (às vezes denominada João Dias), que é a maior em todo o braço de mar, com quatro quilômetros de comprimento.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	canal	canal	NOUN	NOUN	_	14	nsubj	_	SpaceAfter=No
-3	,	,	PUNCT	.	_	6	punct	_	_
+# sent_id = test-s421
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	canal	canal	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
 4-5	no	_	_	_	_	_	_	_	_
-4	em	em	ADP	ADP	_	6	case	_	_
-5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	trecho	trecho	NOUN	NOUN	_	14	nmod	_	_
-7	lagunar	lagunar	ADJ	ADJ	_	6	amod	_	_
-8	sul	sul	ADJ	ADJ	_	6	amod	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	6	punct	_	_
-10	além	além	ADV	ADV	_	14	advmod	_	_
-11	de	_	ADP	ADP	_	12	mark	_	_
-12	estreito	estreito	ADJ	ADJ	_	10	nmod	_	SpaceAfter=No
-13	,	,	PUNCT	.	_	10	punct	_	_
-14	possui	possuir	VERB	VERB	_	0	root	_	_
-15	vinte	_	NUM	NUM	NumType=Card	16	nummod	_	_
-16	e	_	CCONJ	CONJ	_	17	nummod	_	_
-17	duas	_	NUM	NUM	NumType=Card	18	nummod	_	_
-18	ilhotas	_	NOUN	NOUN	_	14	obj	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	21	punct	_	_
-20	sem	_	ADP	ADP	_	21	mark	_	_
-21	contar	contar	VERB	VERB	_	14	advcl	_	_
-22	a	_	PRON	PRON	_	21	obj	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	trecho	trecho	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+7	lagunar	lagunar	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+8	sul	sul	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	6	punct	_	_
+10	além	além	ADV	_	_	6	advmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	estreito	estreito	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	6	punct	_	_
+14	possui	possuir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	vinte	vinte	NUM	_	NumType=Card	18	nummod	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	duas	dois	NUM	_	NumType=Card	15	conj	_	_
+18	ilhotas	ilhota	NOUN	_	Gender=Fem|Number=Plur	14	obj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	21	punct	_	_
+20	sem	sem	SCONJ	_	_	21	mark	_	_
+21	contar	contar	VERB	_	VerbForm=Inf	14	advcl	_	_
+22	a	o	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	21	obj	_	_
 23-24	do	_	_	_	_	_	_	_	_
-23	de	de	ADP	ADP	_	25	case	_	_
-24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	Linguado	_	PROPN	PNOUN	_	22	nmod	_	_
-26	(	(	PUNCT	.	_	31	punct	_	SpaceAfter=No
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Linguado	Linguado	PROPN	_	Gender=Masc|Number=Sing	22	nmod	_	_
+26	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
 27-28	às	_	_	_	_	_	_	_	_
-27	a	a	ADP	ADP	_	29	case	_	_
-28	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
-29	vezes	vez	NOUN	NOUN	_	31	nmod	_	_
-30	denominada	denominar	AUX	AUX	_	31	cop	_	_
-31	João	_	PROPN	PNOUN	_	22	acl	_	_
-32	Dias	_	PROPN	PNOUN	_	31	flat	_	SpaceAfter=No
-33	)	)	PUNCT	.	_	31	punct	_	SpaceAfter=No
-34	,	,	PUNCT	.	_	38	punct	_	_
-35	que	_	PRON	PRON	_	38	nsubj	_	_
-36	é	ser	AUX	AUX	_	38	cop	_	_
-37	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
-38	maior	maior	NOUN	NOUN	_	22	acl:relcl	_	_
-39	em	em	ADP	ADP	_	42	case	_	_
-40	todo	_	DET	DET	_	42	det	_	_
-41	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
-42	braço	braço	NOUN	NOUN	_	38	nmod	_	_
-43	de	de	ADP	ADP	_	44	case	_	_
-44	mar	mar	NOUN	NOUN	_	42	nmod	_	SpaceAfter=No
-45	,	,	PUNCT	.	_	48	punct	_	_
-46	com	com	ADP	ADP	_	48	case	_	_
-47	quatro	_	NUM	NUM	NumType=Card	48	nummod	_	_
-48	quilômetros	quilômetro	NOUN	NOUN	_	38	nmod	_	_
-49	de	de	ADP	ADP	_	50	case	_	_
-50	comprimento	comprimento	NOUN	NOUN	_	48	nmod	_	SpaceAfter=No
-51	.	.	PUNCT	.	_	14	punct	_	_
+27	a	a	ADP	_	_	30	advmod	_	_
+28	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	30	obl	_	_
+30	denominada	denominar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	25	acl	_	_
+31	João	João	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	30	obj	_	_
+32	Dias	Dias	PROPN	_	Number=Sing	31	flat:name	_	SpaceAfter=No
+33	)	)	PUNCT	_	_	30	punct	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	38	punct	_	_
+35	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	38	nsubj	_	_
+36	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	cop	_	_
+37	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	maior	maior	ADJ	_	Gender=Fem|Number=Sing	25	acl:relcl	_	_
+39	em	em	ADP	_	_	42	case	_	_
+40	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Tot	42	det	_	_
+41	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	braço	braço	NOUN	_	Gender=Masc|Number=Sing	38	obl	_	_
+43	de	de	ADP	_	_	44	case	_	_
+44	mar	mar	NOUN	_	Gender=Masc|Number=Sing	42	nmod	_	SpaceAfter=No
+45	,	,	PUNCT	_	_	38	punct	_	_
+46	com	com	ADP	_	_	48	case	_	_
+47	quatro	quatro	NUM	_	NumType=Card	48	nummod	_	_
+48	quilômetros	quilômetro	NOUN	_	Gender=Masc|Number=Plur	38	obl	_	_
+49	de	de	ADP	_	_	50	case	_	_
+50	comprimento	comprimento	NOUN	_	Gender=Masc|Number=Sing	48	nmod	_	SpaceAfter=No
+51	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
 
 # sent_id = test-s422
 # text = Dado o polinómio p (x) = \ sum_ {i = 0} ^ n a_i x ^ i = a_0 + a_1 x + a_2 x ^ 2 + a_3 x ^ 3 + \ cdots + a_n x ^ n, em que a_0, \ ldots, a_n sào números reais, nós queremos estimar o polinómio num específico valor de x, digamos x0.
@@ -194,37 +196,39 @@
 71	x0	_	NUM	NUM	NumType=Card	70	obj	_	SpaceAfter=No
 72	.	.	PUNCT	.	_	59	punct	_	_
 
-# sent_id = test-s423
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Depois da sua saída de Guimarães para o Porto no inicio da época 2003 / 2004 não voltou mais a ser chamado.
-1	Depois	depois	ADV	ADV	_	5	case	_	_
+# sent_id = test-s423
+1	Depois	depois	ADV	_	_	25	advmod	_	_
 2-3	da	_	_	_	_	_	_	_	_
-2	de	de	ADP	ADP	_	1	case	_	_
-3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
-4	sua	_	DET	DET	_	5	det:poss	_	_
-5	saída	saída	NOUN	NOUN	_	25	nmod	_	_
-6	de	de	ADP	ADP	_	7	case	_	_
-7	Guimarães	_	PROPN	PNOUN	_	5	nmod	_	_
-8	para	para	ADP	ADP	_	10	case	_	_
-9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	Porto	_	PROPN	PNOUN	_	5	nmod	_	_
+2	de	de	ADP	_	_	5	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	5	det	_	_
+5	saída	saída	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Guimarães	Guimarães	PROPN	_	Number=Sing	5	nmod	_	_
+8	para	para	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Porto	Porto	PROPN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 11-12	no	_	_	_	_	_	_	_	_
-11	em	em	ADP	ADP	_	13	case	_	_
-12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	inicio	_	NOUN	NOUN	_	5	nmod	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	inicio	inicio	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 14-15	da	_	_	_	_	_	_	_	_
-14	de	de	ADP	ADP	_	16	case	_	_
-15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	época	época	NOUN	NOUN	_	13	nmod	_	_
-17	2003	2003	NUM	NUM	NumType=Card	16	nmod	_	_
-18	/	/	PUNCT	.	_	19	punct	_	_
-19	2004	2004	NUM	NUM	NumType=Card	17	conj	_	_
-20	não	não	ADV	ADV	Polarity=Neg	25	advmod	_	_
-21	voltou	voltar	AUX	AUX	_	25	aux	_	_
-22	mais	mais	ADV	ADV	_	25	advmod	_	_
-23	a	_	ADP	ADP	_	25	mark	_	_
-24	ser	ser	AUX	AUX	_	25	aux:pass	_	_
-25	chamado	chamar	VERB	VERB	_	0	root	_	SpaceAfter=No
-26	.	.	PUNCT	.	_	25	punct	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	época	época	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+17	2003	2003	NUM	_	NumType=Card	16	nummod	_	_
+18	/	/	PUNCT	_	_	19	punct	_	_
+19	2004	2004	NUM	_	NumType=Card	17	conj	_	_
+20	não	não	ADV	_	Polarity=Neg	25	advmod	_	_
+21	voltou	voltar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+22	mais	mais	ADV	_	_	25	advmod	_	_
+23	a	a	SCONJ	_	_	25	mark	_	_
+24	ser	ser	AUX	_	VerbForm=Inf	25	aux:pass	_	_
+25	chamado	chamar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	21	xcomp	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
 
 # sent_id = test-s424
 # text = Orgulhoso, Cláudio lembra que ele, Paulo Caldas e Lírio Ferreira (digamos, os mais veteranos da cena) sempre lutaram pelo cinema em sua terra.

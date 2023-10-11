@@ -1,46 +1,50 @@
-# sent_id = train-s2491
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Com um belo desempenho no carnaval 2009 a Acadêmicos de São Francisco conquistou o título do carnaval sebastianense sagrando se penta campeão num desfile perfeito, com belas esculturas dando inicio a um nivel de campeã.
-1	Com	_	ADP	ADP	_	4	case	_	_
-2	um	um	DET	DET	_	4	det	_	_
-3	belo	belo	ADJ	ADJ	_	4	amod	_	_
-4	desempenho	desempenho	NOUN	NOUN	_	14	nmod	_	_
+# sent_id = train-s2491
+1	Com	com	ADP	_	_	4	case	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	belo	belo	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+4	desempenho	desempenho	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
 5-6	no	_	_	_	_	_	_	_	_
-5	em	em	ADP	ADP	_	7	case	_	_
-6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	carnaval	carnaval	NOUN	NOUN	_	4	nmod	_	_
-8	2009	2009	NUM	NUM	NumType=Card	7	nmod	_	_
-9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	Acadêmicos	_	PROPN	PNOUN	_	14	nsubj	_	_
-11	de	de	ADP	ADP	_	12	case	_	_
-12	São	_	PROPN	PNOUN	_	10	nmod	_	_
-13	Francisco	_	PROPN	PNOUN	_	12	flat	_	_
-14	conquistou	conquistar	VERB	VERB	_	0	root	_	_
-15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	título	título	NOUN	NOUN	_	14	obj	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	carnaval	carnaval	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+8	2009	2009	NUM	_	NumType=Card	7	nummod	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Acadêmicos	Acadêmicos	PROPN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	São	São	PROPN	_	ExtPos=PROPN|Number=Sing	10	nmod	_	_
+13	Francisco	Francisco	PROPN	_	Number=Sing	12	flat:name	_	_
+14	conquistou	conquistar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	título	título	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
 17-18	do	_	_	_	_	_	_	_	_
-17	de	de	ADP	ADP	_	19	case	_	_
-18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	carnaval	carnaval	NOUN	NOUN	_	16	nmod	_	_
-20	sebastianense	sebastianense	ADJ	ADJ	_	19	amod	_	_
-21	sagrando	sagrar	AUX	AUX	_	24	cop	_	_
-22	se	_	PART	PRT	_	24	expl:pv	_	_
-23	penta	penta	ADJ	ADJ	_	24	amod	_	_
-24	campeão	campeão	NOUN	NOUN	_	14	acl	_	_
-25	num	_	ADP	ADP	_	26	case	_	_
-26	desfile	desfile	NOUN	NOUN	_	24	nmod	_	_
-27	perfeito	perfeito	ADJ	ADJ	_	26	amod	_	SpaceAfter=No
-28	,	,	PUNCT	.	_	31	punct	_	_
-29	com	com	ADP	ADP	_	31	case	_	_
-30	belas	belo	ADJ	ADJ	_	31	amod	_	_
-31	esculturas	escultura	NOUN	NOUN	_	26	nmod	_	_
-32	dando	dar	VERB	VERB	_	31	acl	_	_
-33	inicio	_	NOUN	NOUN	_	32	obj	_	_
-34	a	_	ADP	ADP	_	36	case	_	_
-35	um	um	DET	DET	_	36	det	_	_
-36	nivel	_	NOUN	NOUN	_	32	nmod	_	_
-37	de	de	ADP	ADP	_	38	case	_	_
-38	campeã	campeão	NOUN	NOUN	_	36	nmod	_	SpaceAfter=No
-39	.	.	PUNCT	.	_	14	punct	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	carnaval	carnaval	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+20	sebastianense	sebastianense	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
+21	sagrando	sagrar	VERB	_	VerbForm=Ger	14	advcl	_	_
+22	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	expl	_	_
+23	penta	pento	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
+24	campeão	campeão	NOUN	_	Gender=Masc|Number=Sing	21	xcomp	_	_
+25-26	num	_	_	_	_	_	_	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	desfile	desfile	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
+28	perfeito	perfeito	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	32	punct	_	_
+30	com	com	ADP	_	_	32	case	_	_
+31	belas	belo	ADJ	_	Gender=Fem|Number=Plur	32	amod	_	_
+32	esculturas	escultura	NOUN	_	Gender=Fem|Number=Plur	27	nmod	_	_
+33	dando	dar	VERB	_	VerbForm=Ger	21	advcl	_	_
+34	inicio	inicio	NOUN	_	Gender=Masc|Number=Sing	33	obj	_	_
+35	a	a	ADP	_	_	37	case	_	_
+36	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	nivel	nivel	NOUN	_	Gender=Masc|Number=Sing	33	iobj	_	_
+38	de	de	ADP	_	_	39	case	_	_
+39	campeã	campeã	NOUN	_	Gender=Fem|Number=Sing	37	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
 
 # sent_id = train-s2492
 # text = Hoje, a escola que recebeu as cópias das últimas duas edições, foi a EMEB Belo Ramo.
@@ -66,71 +70,77 @@
 19	Ramo	_	PROPN	PNOUN	_	17	flat	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s2493
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O campus principal encontra-se em Baton Rouge, a capital daquele estado, e é considerado um dos campi mais bonitos dos Estados Unidos, com grandes carvalhos seculares -- muitos deles "adotados" por famílias que contribuem para a sua consevação -- e magnólias, que é a flor símbolo da Louisiana.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	campus	campus	NOUN	NOUN	_	4	nsubj	_	_
-3	principal	principal	ADJ	ADJ	_	2	amod	_	_
+# sent_id = train-s2493
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	campus	campus	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	principal	principal	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 4-5	encontra-se	_	_	_	_	_	_	_	_
-4	encontra	encontrar	VERB	VERB	_	0	root	_	_
-5	se	_	PART	PRT	_	4	expl:pv	_	_
-6	em	em	ADP	ADP	_	7	case	_	_
-7	Baton	_	PROPN	PNOUN	_	4	nmod	_	_
-8	Rouge	_	PROPN	PNOUN	_	7	amod	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	11	punct	_	_
-10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	capital	capital	NOUN	NOUN	_	7	appos	_	_
-12	daquele	_	ADP	ADP	_	13	case	_	_
-13	estado	estado	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
-14	,	,	PUNCT	.	_	11	punct	_	_
-15	e	e	CCONJ	CONJ	_	18	cc	_	_
-16	é	ser	AUX	AUX	_	18	aux:pass	_	_
-17	considerado	considerar	AUX	AUX	_	18	cop	_	_
-18	um	_	PRON	PRON	_	4	conj	_	_
-19-20	dos	_	_	_	_	_	_	_	_
-19	de	de	ADP	ADP	_	21	case	_	_
-20	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
-21	campi	campus	NOUN	NOUN	_	18	nmod	_	_
-22	mais	mais	ADV	ADV	_	23	advmod	_	_
-23	bonitos	bonito	ADJ	ADJ	_	21	amod	_	_
-24-25	dos	_	_	_	_	_	_	_	_
-24	de	de	ADP	ADP	_	26	case	_	_
-25	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
-26	Estados	_	PROPN	PNOUN	_	21	nmod	_	_
-27	Unidos	_	PROPN	PNOUN	_	26	amod	_	SpaceAfter=No
-28	,	,	PUNCT	.	_	31	punct	_	_
-29	com	com	ADP	ADP	_	31	case	_	_
-30	grandes	grande	ADJ	ADJ	_	31	amod	_	_
-31	carvalhos	carvalho	NOUN	NOUN	_	18	nmod	_	_
-32	seculares	secular	ADJ	ADJ	_	31	amod	_	_
-33	--	_	PUNCT	.	_	34	punct	_	_
-34	muitos	_	PRON	PRON	_	31	appos	_	_
-35	deles	_	X	ADPPRON	_	34	nmod	_	_
-36	"	"	PUNCT	.	_	37	punct	_	SpaceAfter=No
-37	adotados	adotar	VERB	VERB	_	34	acl	_	SpaceAfter=No
-38	"	"	PUNCT	.	_	37	punct	_	_
-39	por	por	ADP	ADP	_	40	case	_	_
-40	famílias	família	NOUN	NOUN	_	37	nmod	_	_
-41	que	_	PRON	PRON	_	42	nsubj	_	_
-42	contribuem	contribuir	VERB	VERB	_	40	acl:relcl	_	_
-43	para	para	ADP	ADP	_	46	case	_	_
-44	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
-45	sua	_	DET	DET	_	46	det:poss	_	_
-46	consevação	_	NOUN	NOUN	_	42	nmod	_	_
-47	--	_	PUNCT	.	_	34	punct	_	_
-48	e	e	CCONJ	CONJ	_	49	cc	_	_
-49	magnólias	magnólia	NOUN	NOUN	_	31	conj	_	SpaceAfter=No
-50	,	,	PUNCT	.	_	54	punct	_	_
-51	que	_	PRON	PRON	_	54	nsubj	_	_
-52	é	ser	AUX	AUX	_	54	cop	_	_
-53	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
-54	flor	flor	NOUN	NOUN	_	49	acl:relcl	_	_
-55	símbolo	símbolo	NOUN	NOUN	_	54	flat	_	_
-56-57	da	_	_	_	_	_	_	_	_
-56	de	de	ADP	ADP	_	58	case	_	_
-57	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	58	det	_	_
-58	Louisiana	_	PROPN	PNOUN	_	54	nmod	_	SpaceAfter=No
-59	.	.	PUNCT	.	_	4	punct	_	_
+4	encontra	encontrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	Baton	Baton	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	4	obl	_	_
+8	Rouge	Rouge	PROPN	_	Number=Sing	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	capital	capital	NOUN	_	Gender=Fem|Number=Sing	7	appos	_	_
+12-13	daquele	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	aquele	aquele	DET	_	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	estado	estado	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	11	punct	_	_
+16	e	e	CCONJ	_	_	18	cc	_	_
+17	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
+18	considerado	considerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	conj	_	_
+19	um	um	NUM	_	NumType=Card	18	xcomp	_	_
+20-21	dos	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	campi	campi	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	_
+23	mais	mais	ADV	_	_	24	advmod	_	_
+24	bonitos	bonito	ADJ	_	Gender=Masc|Number=Plur	22	amod	_	_
+25-26	dos	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	Estados	Estados	PROPN	_	Gender=Masc|Number=Plur	22	nmod	_	_
+28	Unidos	Unidos	PROPN	_	Number=Sing	27	flat:name	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	32	punct	_	_
+30	com	com	ADP	_	_	32	case	_	_
+31	grandes	grande	ADJ	_	Gender=Masc|Number=Plur	32	amod	_	_
+32	carvalhos	carvalho	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	_
+33	seculares	secular	ADJ	_	Gender=Masc|Number=Plur	32	amod	_	_
+34	--	--	PUNCT	_	_	35	punct	_	_
+35	muitos	muito	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	32	appos	_	_
+36-37	deles	_	_	_	_	_	_	_	_
+36	de	de	ADP	_	_	37	case	_	_
+37	eles	ele	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	35	nmod	_	_
+38	"	"	PUNCT	_	_	39	punct	_	SpaceAfter=No
+39	adotados	adotar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	35	acl	_	SpaceAfter=No
+40	"	"	PUNCT	_	_	39	punct	_	_
+41	por	por	ADP	_	_	42	case	_	_
+42	famílias	família	NOUN	_	Gender=Fem|Number=Plur	39	obl:agent	_	_
+43	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	44	nsubj	_	_
+44	contribuem	contribuir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	42	acl:relcl	_	_
+45	para	para	ADP	_	_	48	case	_	_
+46	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+47	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	48	det	_	_
+48	consevação	consevação	NOUN	_	Gender=Fem|Number=Sing	44	obj	_	_
+49	--	--	PUNCT	_	_	39	punct	_	_
+50	e	e	CCONJ	_	_	51	cc	_	_
+51	magnólias	magnólia	NOUN	_	Gender=Fem|Number=Plur	32	conj	_	SpaceAfter=No
+52	,	,	PUNCT	_	_	56	punct	_	_
+53	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	56	nsubj	_	_
+54	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	cop	_	_
+55	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
+56	flor	flor	NOUN	_	Gender=Fem|Number=Sing	51	acl:relcl	_	_
+57	símbolo	símbolo	NOUN	_	Gender=Fem|Number=Sing	56	nmod	_	_
+58-59	da	_	_	_	_	_	_	_	_
+58	de	de	ADP	_	_	60	case	_	_
+59	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	60	det	_	_
+60	Louisiana	Louisiana	PROPN	_	Gender=Fem|Number=Sing	56	nmod	_	SpaceAfter=No
+61	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # sent_id = train-s2494
 # text = Distância sempre vai dar m ... ", escreveu Benedetti no Twitter.
@@ -245,16 +255,20 @@
 37	feira	_	PROPN	PNOUN	_	22	nmod	_	SpaceAfter=No
 38	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = train-s2497
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O estado de saúde deles é estável.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	estado	estado	NOUN	NOUN	_	6	nsubj	_	_
-3	de	de	ADP	ADP	_	4	case	_	_
-4	saúde	saúde	NOUN	NOUN	_	2	nmod	_	_
-5	deles	_	X	ADPPRON	_	2	det:poss	_	_
-6	é	ser	VERB	VERB	_	0	root	_	_
-7	estável	estável	ADJ	ADJ	_	6	xcomp	_	SpaceAfter=No
-8	.	.	PUNCT	.	_	6	punct	_	_
+# sent_id = train-s2497
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	estado	estado	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	saúde	saúde	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5-6	deles	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	eles	ele	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	nmod	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	estável	estável	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
 
 # sent_id = train-s2498
 # text = , quando o mercado do sexo tem tanta oferta boa e a preços muito mais competitivos?"

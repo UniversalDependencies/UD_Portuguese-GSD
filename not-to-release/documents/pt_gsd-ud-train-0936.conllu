@@ -225,38 +225,41 @@
 25	tiros	tiro	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	11	punct	_	_
 
-# sent_id = train-s9294
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = "Nothing Gold Can Stay" também é retratado no romance de 1967 The Outsiders de Susan E. Hinton e sua adaptação para o cinema em 1983.
-1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
-2	Nothing	_	PROPN	PNOUN	_	9	nsubj:pass	_	_
-3	Gold	_	PROPN	PNOUN	_	5	nsubj	_	_
-4	Can	_	PROPN	PNOUN	_	5	aux	_	_
-5	Stay	_	PROPN	PNOUN	_	2	acl:relcl	_	SpaceAfter=No
-6	"	"	PUNCT	.	_	2	punct	_	_
-7	também	também	ADV	ADV	_	9	advmod	_	_
-8	é	ser	AUX	AUX	_	9	aux:pass	_	_
-9	retratado	retratar	VERB	VERB	_	0	root	_	_
+# sent_id = train-s9294
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Nothing	Nothing	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+3	Gold	Gold	PROPN	_	Number=Sing	2	flat:name	_	_
+4	Can	Can	PROPN	_	Number=Sing	2	flat:name	_	_
+5	Stay	Stay	PROPN	_	Number=Sing	2	flat:name	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	2	punct	_	_
+7	também	também	ADV	_	_	9	advmod	_	_
+8	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	retratado	retratar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 10-11	no	_	_	_	_	_	_	_	_
-10	em	em	ADP	ADP	_	12	case	_	_
-11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	romance	romance	NOUN	NOUN	_	9	nmod	_	_
-13	de	de	ADP	ADP	_	14	case	_	_
-14	1967	1967	NUM	NUM	NumType=Card	12	nmod	_	_
-15	The	_	PROPN	PNOUN	_	16	det	_	_
-16	Outsiders	_	PROPN	PNOUN	_	12	appos	_	_
-17	de	de	ADP	ADP	_	18	case	_	_
-18	Susan	_	PROPN	PNOUN	_	12	nmod	_	_
-19	E.	_	PROPN	PNOUN	_	18	flat	_	_
-20	Hinton	_	PROPN	PNOUN	_	18	flat	_	_
-21	e	e	CCONJ	CONJ	_	23	cc	_	_
-22	sua	_	DET	DET	_	23	det:poss	_	_
-23	adaptação	adaptação	NOUN	NOUN	_	12	conj	_	_
-24	para	para	ADP	ADP	_	26	case	_	_
-25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	cinema	cinema	NOUN	NOUN	_	23	nmod	_	_
-27	em	em	ADP	ADP	_	28	case	_	_
-28	1983	1983	NUM	NUM	NumType=Card	23	nmod	_	SpaceAfter=No
-29	.	.	PUNCT	.	_	9	punct	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	romance	romance	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	1967	1967	NUM	_	NumType=Card	12	nmod	_	_
+15	The	The	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	12	appos	_	_
+16	Outsiders	Outsiders	PROPN	_	Number=Sing	15	flat:name	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	Susan	Susan	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	12	nmod	_	_
+19	E	E	PROPN	_	Number=Sing	18	flat:name	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	21	punct	_	_
+21	Hinton	Hinton	PROPN	_	Gender=Masc|Number=Sing	18	appos	_	_
+22	e	e	CCONJ	_	_	24	cc	_	_
+23	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	24	det	_	_
+24	adaptação	adaptação	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	_
+25	para	para	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	cinema	cinema	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
+28	em	em	ADP	_	_	29	case	_	_
+29	1983	1983	NUM	_	NumType=Card	24	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
 
 # sent_id = train-s9295
 # text = O próprio Fernandão, hoje técnico, quando diretor executivo, teve uma conversa preliminar com o argentino, para sondar sobre a situação.

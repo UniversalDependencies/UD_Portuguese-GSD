@@ -1,32 +1,34 @@
-# sent_id = train-s631
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Para a Organização Mundial da Saúde (OMS), é considerado índice aceitável de mortalidade materna 20 mortes para cada 100 mil partos.
-1	Para	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	Organização	_	PROPN	PNOUN	_	14	nmod	_	_
-4	Mundial	_	PROPN	PNOUN	_	3	amod	_	_
+# sent_id = train-s631
+1	Para	para	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Organização	Organização	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	13	obl	_	_
+4	Mundial	Mundial	PROPN	_	Number=Sing	3	flat:name	_	_
 5-6	da	_	_	_	_	_	_	_	_
-5	de	de	ADP	ADP	_	7	case	_	_
-6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	Saúde	_	PROPN	PNOUN	_	3	nmod	_	_
-8	(	(	PUNCT	.	_	9	punct	_	SpaceAfter=No
-9	OMS	_	PROPN	PNOUN	_	3	appos	_	SpaceAfter=No
-10	)	)	PUNCT	.	_	9	punct	_	SpaceAfter=No
-11	,	,	PUNCT	.	_	3	punct	_	_
-12	é	ser	AUX	AUX	_	14	aux:pass	_	_
-13	considerado	considerar	AUX	AUX	_	14	cop	_	_
-14	índice	índice	NOUN	NOUN	_	0	root	_	_
-15	aceitável	aceitável	ADJ	ADJ	_	14	amod	_	_
-16	de	de	ADP	ADP	_	17	case	_	_
-17	mortalidade	mortalidade	NOUN	NOUN	_	14	nmod	_	_
-18	materna	materno	ADJ	ADJ	_	17	amod	_	_
-19	20	20	NUM	NUM	NumType=Card	20	nummod	_	_
-20	mortes	morte	NOUN	NOUN	_	14	nsubj:pass	_	_
-21	para	para	ADP	ADP	_	25	case	_	_
-22	cada	_	DET	DET	_	25	det	_	_
-23	100	100	NUM	NUM	NumType=Card	24	nummod	_	_
-24	mil	_	NUM	NUM	NumType=Card	25	nummod	_	_
-25	partos	parto	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
-26	.	.	PUNCT	.	_	14	punct	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Saúde	Saúde	PROPN	_	Number=Sing	3	nmod	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	OMS	OMS	PROPN	_	Gender=Fem|Number=Sing	3	appos	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	3	punct	_	_
+12	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+13	considerado	considerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+14	índice	índice	NOUN	_	Gender=Masc|Number=Sing	13	nsubj:pass	_	_
+15	aceitável	aceitável	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	mortalidade	mortalidade	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+18	materna	materno	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
+19	20	20	NUM	_	NumType=Card	20	nummod	_	_
+20	mortes	morte	NOUN	_	Gender=Fem|Number=Plur	17	nmod	_	_
+21	para	para	ADP	_	_	25	case	_	_
+22	cada	cada	DET	_	Gender=Masc|Number=Sing|PronType=Tot	25	det	_	_
+23	100	100	NUM	_	NumType=Card	25	nummod	_	_
+24	mil	mil	NUM	_	NumType=Card	23	flat	_	_
+25	partos	parto	NOUN	_	Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
 
 # sent_id = train-s632
 # text = Ciro colocou então todos os seus meios à disposição de Lisandro na guerra do Peloponeso, mas negou-os ao seu sucessor Calicrátidas.

@@ -228,40 +228,42 @@
 24	concessão	concessão	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	14	punct	_	_
 
-# sent_id = train-s5
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Em 2 de outubro de 2009, no 10 º aniversário da SmackDown, The Rock fez uma aparição especial num vídeo pré - gravado.
-1	Em	em	ADP	ADP	_	2	case	_	_
-2	2	2	NUM	NUM	NumType=Card	19	nmod	_	_
-3	de	de	ADP	ADP	_	4	case	_	_
-4	outubro	_	PROPN	PNOUN	_	2	nmod	_	_
-5	de	de	ADP	ADP	_	6	case	_	_
-6	2009	2009	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
-7	,	,	PUNCT	.	_	12	punct	_	_
+# sent_id = train-s5
+1	Em	em	ADP	_	_	2	case	_	_
+2	2	2	NUM	_	NumType=Card	19	obl	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	outubro	outubro	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	2009	2009	NUM	_	NumType=Card	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	2	punct	_	_
 8-9	no	_	_	_	_	_	_	_	_
-8	em	em	ADP	ADP	_	12	case	_	_
-9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-10	10	10	NUM	NUM	NumType=Card	12	amod	_	_
-11	º	_	PUNCT	.	_	10	punct	_	_
-12	aniversário	aniversário	NOUN	NOUN	_	2	nmod	_	_
+8	em	em	ADP	_	_	12	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+10	10	10	NUM	_	NumType=Card	12	nummod	_	_
+11	º	º	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	12	amod	_	_
+12	aniversário	aniversário	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
 13-14	da	_	_	_	_	_	_	_	_
-13	de	de	ADP	ADP	_	15	case	_	_
-14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	SmackDown	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
-16	,	,	PUNCT	.	_	12	punct	_	_
-17	The	_	PROPN	PNOUN	_	18	det	_	_
-18	Rock	_	PROPN	PNOUN	_	19	nsubj	_	_
-19	fez	fazer	VERB	VERB	_	0	root	_	_
-20	uma	um	DET	DET	_	21	det	_	_
-21	aparição	aparição	NOUN	NOUN	_	19	obj	_	_
-22	especial	especial	ADJ	ADJ	_	21	amod	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	SmackDown	SmackDown	PROPN	_	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	12	punct	_	_
+17	The	The	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	19	nsubj	_	_
+18	Rock	Rock	PROPN	_	Number=Sing	17	flat:name	_	_
+19	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	aparição	aparição	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
+22	especial	especial	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
 23-24	num	_	_	_	_	_	_	_	_
-23	em	em	ADP	ADP	_	25	case	_	_
-24	um	um	DET	DET	_	25	det	_	_
-25	vídeo	vídeo	NOUN	NOUN	_	19	nmod	_	_
-26	pré	_	PART	PRT	_	28	amod	_	_
-27	-	-	PUNCT	.	_	28	punct	_	_
-28	gravado	gravado	ADJ	ADJ	_	25	amod	_	SpaceAfter=No
-29	.	.	PUNCT	.	_	19	punct	_	_
+23	em	em	ADP	_	_	25	case	_	_
+24	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
+26	pré	pré	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
+27	-	-	PUNCT	_	_	28	punct	_	_
+28	gravado	gravar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	25	acl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
 
 # sent_id = train-s6
 # text = A Gol comprou a Webjet e, em novembro, decidiu fechá - la.

@@ -154,51 +154,53 @@
 31	caças	caça	NOUN	NOUN	_	28	nmod	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = train-s3764
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Filmou ao lado das atrizes mais famosas de todos os tempos, como Greta Garbo, nas You Desire Me (1932), Ninotchka (1939) e Two - Faced Woman (1941);
-1	Filmou	filmar	VERB	VERB	_	0	root	_	_
+# sent_id = train-s3764
+1	Filmou	filmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2-3	ao	_	_	_	_	_	_	_	_
-2	a	a	ADP	ADP	_	4	case	_	_
-3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	lado	lado	NOUN	NOUN	_	1	nmod	_	_
+2	a	a	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	lado	lado	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
 5-6	das	_	_	_	_	_	_	_	_
-5	de	de	ADP	ADP	_	7	case	_	_
-6	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
-7	atrizes	_	NOUN	NOUN	_	4	nmod	_	_
-8	mais	mais	ADV	ADV	_	9	advmod	_	_
-9	famosas	famoso	ADJ	ADJ	_	7	amod	_	_
-10	de	de	ADP	ADP	_	13	case	_	_
-11	todos	_	DET	DET	_	13	det	_	_
-12	os	o	DET	DET	_	13	det	_	_
-13	tempos	tempo	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-14	,	,	PUNCT	.	_	16	punct	_	_
-15	como	como	ADP	ADP	_	16	case	_	_
-16	Greta	_	PROPN	PNOUN	_	7	nmod	_	_
-17	Garbo	_	PROPN	PNOUN	_	16	flat	_	SpaceAfter=No
-18	,	,	PUNCT	.	_	16	punct	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	atrizes	atriz	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
+8	mais	mais	ADV	_	_	9	advmod	_	_
+9	famosas	famoso	ADJ	_	Gender=Fem|Number=Plur	7	amod	_	_
+10	de	de	ADP	_	_	13	case	_	_
+11	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	13	det	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	fixed	_	_
+13	tempos	tempo	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	como	como	ADP	_	_	16	case	_	_
+16	Greta	Greta	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	7	nmod	_	_
+17	Garbo	Garbo	PROPN	_	Number=Sing	16	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	16	punct	_	_
 19-20	nas	_	_	_	_	_	_	_	_
-19	em	_	ADP	ADP	_	22	mark	_	_
-20	As	_	PROPN	PNOUN	_	22	cc	_	_
-21	You	_	PROPN	PNOUN	_	22	nsubj	_	_
-22	Desire	_	PROPN	PNOUN	_	1	nmod	_	_
-23	Me	_	PROPN	PNOUN	_	22	obj	_	_
-24	(	(	PUNCT	.	_	25	punct	_	SpaceAfter=No
-25	1932	1932	NUM	NUM	NumType=Card	22	nmod	_	SpaceAfter=No
-26	)	)	PUNCT	.	_	25	punct	_	SpaceAfter=No
-27	,	,	PUNCT	.	_	28	punct	_	_
-28	Ninotchka	_	PROPN	PNOUN	_	22	conj	_	_
-29	(	(	PUNCT	.	_	30	punct	_	SpaceAfter=No
-30	1939	1939	NUM	NUM	NumType=Card	28	nmod	_	SpaceAfter=No
-31	)	)	PUNCT	.	_	30	punct	_	_
-32	e	e	CCONJ	CONJ	_	36	cc	_	_
-33	Two	_	PROPN	PNOUN	_	35	amod	_	_
-34	-	-	PUNCT	.	_	35	punct	_	_
-35	Faced	_	PROPN	PNOUN	_	36	amod	_	_
-36	Woman	_	PROPN	PNOUN	_	22	conj	_	_
-37	(	(	PUNCT	.	_	38	punct	_	SpaceAfter=No
-38	1941	1941	NUM	NUM	NumType=Card	36	nmod	_	SpaceAfter=No
-39	)	)	PUNCT	.	_	38	punct	_	SpaceAfter=No
-40	;	_	PUNCT	.	_	1	punct	_	_
+19	em	em	ADP	_	_	20	case	_	_
+20	as	o	PROPN	_	Gender=Fem|Number=Plur	16	nmod	_	_
+21	You	You	PROPN	_	Number=Sing	20	flat:name	_	_
+22	Desire	Desire	PROPN	_	Number=Sing	20	flat:name	_	_
+23	Me	Me	PROPN	_	Number=Sing	20	flat:name	_	_
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	1932	1932	NUM	_	NumType=Card	20	nmod	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	28	punct	_	_
+28	Ninotchka	Ninotchka	PROPN	_	Gender=Fem|Number=Sing	20	conj	_	_
+29	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
+30	1939	1939	NUM	_	NumType=Card	28	nmod	_	SpaceAfter=No
+31	)	)	PUNCT	_	_	30	punct	_	_
+32	e	e	CCONJ	_	_	33	cc	_	_
+33	Two	Two	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	20	conj	_	_
+34	-	-	PUNCT	_	_	33	punct	_	_
+35	Faced	Faced	PROPN	_	Number=Sing	33	flat:name	_	_
+36	Woman	Woman	PROPN	_	Number=Sing	33	flat:name	_	_
+37	(	(	PUNCT	_	_	38	punct	_	SpaceAfter=No
+38	1941	1941	NUM	_	NumType=Card	33	nmod	_	SpaceAfter=No
+39	)	)	PUNCT	_	_	38	punct	_	SpaceAfter=No
+40	;	;	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = train-s3765
 # text = Esta tarde, estudantes da UFPE reunem-se na Praça do Derby.

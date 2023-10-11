@@ -75,57 +75,59 @@
 21	ausência	ausência	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = train-s9469
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = A informação de que Gurgel teria pedido investigação sobre as denúncias e remetido a documentação à primeira instância, uma vez que Lula não tem mais foro privilegiado, foi publicada na edição de hoje do jornal O Estado de S. Paulo.
-1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	informação	informação	NOUN	NOUN	_	32	nsubj:pass	_	_
-3	de	_	ADP	ADP	_	7	mark	_	_
-4	que	que	CCONJ	CONJ	_	7	mark	_	_
-5	Gurgel	_	PROPN	PNOUN	_	7	nsubj	_	_
-6	teria	ter	AUX	AUX	_	7	aux	_	_
-7	pedido	pedir	VERB	VERB	_	2	nmod	_	_
-8	investigação	investigação	NOUN	NOUN	_	7	obj	_	_
-9	sobre	_	ADP	ADP	_	11	case	_	_
-10	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
-11	denúncias	denúncia	NOUN	NOUN	_	8	nmod	_	_
-12	e	e	CCONJ	CONJ	_	13	cc	_	_
-13	remetido	remeter	VERB	VERB	_	7	conj	_	_
-14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	documentação	documentação	NOUN	NOUN	_	13	obj	_	_
+# sent_id = train-s9469
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	informação	informação	NOUN	_	Gender=Fem|Number=Sing	32	nsubj:pass	_	_
+3	de	de	SCONJ	_	_	7	mark	_	_
+4	que	que	SCONJ	_	_	7	mark	_	_
+5	Gurgel	Gurgel	PROPN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+6	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	7	aux	_	_
+7	pedido	pedir	VERB	_	VerbForm=Part	2	acl	_	_
+8	investigação	investigação	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+9	sobre	sobre	ADP	_	_	11	case	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	denúncias	denúncia	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	remetido	remeter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	7	conj	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	documentação	documentação	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
 16-17	à	_	_	_	_	_	_	_	_
-16	a	a	ADP	ADP	_	19	case	_	_
-17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-18	primeira	primeiro	ADJ	ADJ	_	19	amod	_	_
-19	instância	instância	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
-20	,	,	PUNCT	.	_	26	punct	_	_
-21	uma	_	DET	DET	_	26	mark	_	_
-22	vez	vez	NOUN	NOUN	_	21	fixed	_	_
-23	que	_	CCONJ	CONJ	_	21	fixed	_	_
-24	Lula	_	PROPN	PNOUN	_	26	nsubj	_	_
-25	não	não	ADV	ADV	Polarity=Neg	26	advmod	_	_
-26	tem	ter	VERB	VERB	_	7	advcl	_	_
-27	mais	mais	ADV	ADV	_	26	advmod	_	_
-28	foro	foro	NOUN	NOUN	_	26	obj	_	_
-29	privilegiado	privilegiado	ADJ	ADJ	_	28	amod	_	SpaceAfter=No
-30	,	,	PUNCT	.	_	26	punct	_	_
-31	foi	_	AUX	AUX	_	32	aux:pass	_	_
-32	publicada	publicar	VERB	VERB	_	0	root	_	_
+16	a	a	ADP	_	_	19	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	19	amod	_	_
+19	instância	instância	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	13	punct	_	_
+21	uma	uma	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	mark	_	_
+22	vez	vez	NOUN	_	Gender=Fem|Number=Sing	21	fixed	_	_
+23	que	que	SCONJ	_	_	21	fixed	_	_
+24	Lula	Lula	PROPN	_	Gender=Masc|Number=Sing	26	nsubj	_	_
+25	não	não	ADV	_	Polarity=Neg	26	advmod	_	_
+26	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+27	mais	mais	DET	_	Gender=Masc|Number=Sing|PronType=Ind	28	det	_	_
+28	foro	foro	NOUN	_	Gender=Masc|Number=Sing	26	obj	_	_
+29	privilegiado	privilegiar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	28	acl	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	26	punct	_	_
+31	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	32	aux:pass	_	_
+32	publicada	publicar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 33-34	na	_	_	_	_	_	_	_	_
-33	em	em	ADP	ADP	_	35	case	_	_
-34	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
-35	edição	edição	NOUN	NOUN	_	32	nmod	_	_
-36	de	_	ADP	ADP	_	37	mark	_	_
-37	hoje	hoje	ADV	ADV	_	35	nmod	_	_
+33	em	em	ADP	_	_	35	case	_	_
+34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	edição	edição	NOUN	_	Gender=Fem|Number=Sing	32	obl	_	_
+36	de	de	ADP	_	_	37	case	_	_
+37	hoje	hoje	ADV	_	_	35	advmod	_	_
 38-39	do	_	_	_	_	_	_	_	_
-38	de	de	ADP	ADP	_	40	case	_	_
-39	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
-40	jornal	jornal	NOUN	NOUN	_	35	nmod	_	_
-41	O	_	PROPN	PNOUN	_	42	det	_	_
-42	Estado	_	PROPN	PNOUN	_	40	appos	_	_
-43	de	de	ADP	ADP	_	44	case	_	_
-44	S.	_	PROPN	PNOUN	_	42	nmod	_	_
-45	Paulo	_	PROPN	PNOUN	_	44	flat	_	SpaceAfter=No
-46	.	.	PUNCT	.	_	32	punct	_	_
+38	de	de	ADP	_	_	40	case	_	_
+39	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	jornal	jornal	NOUN	_	Gender=Masc|Number=Sing	35	nmod	_	_
+41	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	Estado	estado	NOUN	_	Gender=Masc|Number=Sing	40	appos	_	_
+43	de	de	ADP	_	_	44	case	_	_
+44	S.	São	PROPN	_	Abbr=Yes|Gender=Masc|Number=Sing	40	nmod	_	_
+45	Paulo	Paulo	PROPN	_	Number=Sing	44	flat:name	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
 
 # sent_id = train-s9470
 # text = A perda desse financiamento contribuiu para a redução da cultura, mas ainda há famílias que a mantém."
@@ -245,81 +247,87 @@
 41	Andalus	_	PROPN	PNOUN	_	39	flat	_	SpaceAfter=No
 42	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = train-s9474
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = De acordo com a chefe do Núcleo de Aquisições da SEE, Janaína Albuquerque, 5.521 carteiras foram distribuídas em mais de 20 escolas localizadas nas 1 ª, 12 ª, 13 ª e 14 ª CRE 's.
-1	De	_	ADP	ADP	_	2	case	_	_
-2	acordo	acordo	NOUN	NOUN	_	21	nmod	_	_
-3	com	com	ADP	ADP	_	5	case	_	_
-4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	chefe	chefe	NOUN	NOUN	_	2	nmod	_	_
+# sent_id = train-s9474
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	chefe	chefe	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 6-7	do	_	_	_	_	_	_	_	_
-6	de	de	ADP	ADP	_	8	case	_	_
-7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	Núcleo	_	PROPN	PNOUN	_	5	nmod	_	_
-9	de	de	ADP	ADP	_	10	case	_	_
-10	Aquisições	_	PROPN	PNOUN	_	8	nmod	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Núcleo	Núcleo	PROPN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Aquisições	Aquisições	PROPN	_	Number=Sing	8	nmod	_	_
 11-12	da	_	_	_	_	_	_	_	_
-11	de	de	ADP	ADP	_	13	case	_	_
-12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	SEE	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
-14	,	,	PUNCT	.	_	15	punct	_	_
-15	Janaína	_	PROPN	PNOUN	_	5	appos	_	_
-16	Albuquerque	_	PROPN	PNOUN	_	15	flat	_	SpaceAfter=No
-17	,	,	PUNCT	.	_	15	punct	_	_
-18	5.521	_	NUM	NUM	NumType=Card	19	nummod	_	_
-19	carteiras	_	NOUN	NOUN	_	21	nsubj:pass	_	_
-20	foram	_	AUX	AUX	_	21	aux:pass	_	_
-21	distribuídas	distribuir	VERB	VERB	_	0	root	_	_
-22	em	em	ADP	ADP	_	26	case	_	_
-23	mais	mais	ADV	ADV	_	25	advmod	_	_
-24	de	de	ADP	ADP	_	23	case	_	_
-25	20	20	NUM	NUM	NumType=Card	26	nummod	_	_
-26	escolas	escola	NOUN	NOUN	_	21	nmod	_	_
-27	localizadas	localizar	VERB	VERB	_	26	acl	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	SEE	SEE	PROPN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	Janaína	Janaína	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	5	appos	_	_
+16	Albuquerque	Albuquerque	PROPN	_	Number=Sing	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	15	punct	_	_
+18	5.521	5.521	NUM	_	NumType=Card	19	nummod	_	_
+19	carteiras	carteira	NOUN	_	Gender=Fem|Number=Plur	21	nsubj:pass	_	_
+20	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	21	aux:pass	_	_
+21	distribuídas	distribuir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+22	em	em	ADP	_	_	26	case	_	_
+23	mais	mais	ADV	_	_	25	advmod	_	_
+24	de	de	ADP	_	_	23	fixed	_	_
+25	20	20	NUM	_	NumType=Card	26	nummod	_	_
+26	escolas	escola	NOUN	_	Gender=Fem|Number=Plur	21	obl	_	_
+27	localizadas	localizar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	26	acl	_	_
 28-29	nas	_	_	_	_	_	_	_	_
-28	em	em	ADP	ADP	_	27	case	_	_
-29	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
-30	1	_	ADJ	ADJ	_	41	amod	_	_
-31	ª	_	PUNCT	.	_	33	punct	_	SpaceAfter=No
-32	,	,	PUNCT	.	_	33	punct	_	_
-33	12	_	ADJ	ADJ	_	30	conj	_	_
-34	ª	_	PUNCT	.	_	33	punct	_	SpaceAfter=No
-35	,	,	PUNCT	.	_	36	punct	_	_
-36	13	_	ADJ	ADJ	_	30	conj	_	_
-37	ª	_	PUNCT	.	_	36	punct	_	_
-38	e	e	CCONJ	CONJ	_	39	cc	_	_
-39	14	_	ADJ	ADJ	_	30	conj	_	_
-40	ª	_	PUNCT	.	_	39	punct	_	_
-41	CRE	_	PROPN	PNOUN	_	28	flat	_	_
-42	's	_	PROPN	PNOUN	_	41	appos	_	SpaceAfter=No
-43	.	.	PUNCT	.	_	21	punct	_	_
+28	em	em	ADP	_	_	31	case	_	_
+29	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+30	1	1	NUM	_	NumType=Card	31	nummod	_	_
+31	ª	ª	NOUN	_	Gender=Fem|Number=Plur	27	obl	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	34	punct	_	_
+33	12	12	NUM	_	NumType=Card	34	nummod	_	_
+34	ª	ª	NOUN	_	Gender=Fem|Number=Sing	31	conj	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	37	punct	_	_
+36	13	13	NUM	_	NumType=Card	37	nummod	_	_
+37	ª	ª	NOUN	_	Gender=Masc|Number=Plur	31	conj	_	_
+38	e	e	CCONJ	_	_	40	cc	_	_
+39	14	14	NUM	_	NumType=Card	41	nummod	_	_
+40	ª	ª	ADJ	_	_	31	conj	_	_
+41	CRE	CRE	PROPN	_	Gender=Masc|Number=Sing	31	conj	_	_
+42	's	's	PUNCT	_	_	21	punct	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
 
-# sent_id = train-s9475
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Essa foi a quarta etapa da Volta da França vencida por Millar, sendo a primeira delas desde 2003.
-1	Essa	_	PRON	PRON	_	5	nsubj	_	_
-2	foi	_	AUX	AUX	_	5	cop	_	_
-3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-4	quarta	_	ADJ	ADJ	_	5	amod	_	_
-5	etapa	etapa	NOUN	NOUN	_	0	root	_	_
+# sent_id = train-s9475
+1	Essa	esse	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	5	nsubj	_	_
+2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	quarta	quarto	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	5	amod	_	_
+5	etapa	etapa	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 6-7	da	_	_	_	_	_	_	_	_
-6	de	de	ADP	ADP	_	8	case	_	_
-7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	Volta	_	PROPN	PNOUN	_	5	nmod	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Volta	Volta	PROPN	_	Gender=Fem|Number=Sing	5	nmod	_	_
 9-10	da	_	_	_	_	_	_	_	_
-9	de	de	ADP	ADP	_	11	case	_	_
-10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	França	_	PROPN	PNOUN	_	8	nmod	_	_
-12	vencida	vencer	VERB	VERB	_	5	acl	_	_
-13	por	por	ADP	ADP	_	14	case	_	_
-14	Millar	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
-15	,	,	PUNCT	.	_	16	punct	_	_
-16	sendo	ser	VERB	VERB	_	5	acl	_	_
-17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	primeira	primeiro	NOUN	NOUN	_	16	nsubj	_	_
-19	delas	_	X	ADPPRON	_	18	det:poss	_	_
-20	desde	_	ADP	ADP	_	21	case	_	_
-21	2003	2003	NUM	NUM	NumType=Card	16	nmod	_	SpaceAfter=No
-22	.	.	PUNCT	.	_	5	punct	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	França	França	PROPN	_	Number=Sing	8	nmod	_	_
+12	vencida	vencer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	5	acl	_	_
+13	por	por	ADP	_	_	14	case	_	_
+14	Millar	Millar	PROPN	_	Gender=Masc|Number=Sing	12	obl:agent	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	sendo	ser	AUX	_	VerbForm=Ger	18	cop	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	5	advcl	_	_
+19-20	delas	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	elas	ele	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	18	obl	_	_
+21	desde	desde	ADP	_	_	22	case	_	_
+22	2003	2003	NUM	_	NumType=Card	18	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # sent_id = train-s9476
 # text = Assim, aquando do planeamento da capa, foi pedido à equipa gráfica que fosse ao encontro do tema geral do disco: a mudança.

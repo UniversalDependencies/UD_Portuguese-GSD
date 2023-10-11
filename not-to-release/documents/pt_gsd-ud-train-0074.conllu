@@ -16,53 +16,55 @@
 14	zero	zero	NOUN	NOUN	_	13	obj	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	13	punct	_	_
 
-# sent_id = train-s732
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O Brasil produz música muito boa e diferente, prefiro mil vezes alguém que chegue cantando Gal Costa, Marisa Monte do que alguém que cante Alicia Keys, até por que, só quem pode cantar Keys é a própria Alicia.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	Brasil	_	PROPN	PNOUN	_	3	nsubj	_	_
-3	produz	produzir	VERB	VERB	_	0	root	_	_
-4	música	_	NOUN	NOUN	_	3	obj	_	_
-5	muito	muito	ADV	ADV	_	6	advmod	_	_
-6	boa	bom	ADJ	ADJ	_	4	amod	_	_
-7	e	e	CCONJ	CONJ	_	8	cc	_	_
-8	diferente	diferente	ADJ	ADJ	_	6	conj	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	10	punct	_	_
-10	prefiro	preferir	VERB	VERB	_	3	conj	_	_
-11	mil	_	NUM	NUM	NumType=Card	12	nummod	_	_
-12	vezes	vez	NOUN	NOUN	_	10	nmod	_	_
-13	alguém	_	PRON	PRON	_	10	obj	_	_
-14	que	_	PRON	PRON	_	15	nsubj	_	_
-15	chegue	chegar	VERB	VERB	_	13	acl:relcl	_	_
-16	cantando	cantar	VERB	VERB	_	15	acl	_	_
-17	Gal	_	PROPN	PNOUN	_	16	obj	_	_
-18	Costa	_	PROPN	PNOUN	_	17	flat	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	20	punct	_	_
-20	Marisa	_	PROPN	PNOUN	_	17	conj	_	_
-21	Monte	_	PROPN	PNOUN	_	20	flat	_	_
+# sent_id = train-s732
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Brasil	Brasil	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	produz	produzir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	música	música	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+5	muito	muito	ADV	_	_	6	advmod	_	_
+6	boa	bom	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	diferente	diferente	ADJ	_	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	prefiro	preferir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+11	mil	mil	NUM	_	NumType=Card	12	nummod	_	_
+12	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	10	obl	_	_
+13	alguém	alguém	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	10	obj	_	_
+14	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	15	nsubj	_	_
+15	chegue	chegar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+16	cantando	cantar	VERB	_	VerbForm=Ger	15	advcl	_	_
+17	Gal	Gal	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	16	obj	_	_
+18	Costa	Costa	PROPN	_	Number=Sing	17	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	Marisa	Marisa	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	17	conj	_	_
+21	Monte	Monte	PROPN	_	Number=Sing	20	flat:name	_	_
 22-23	do	_	_	_	_	_	_	_	_
-22	de	de	ADP	ADP	_	25	case	_	_
-23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-24	que	_	ADP	ADP	_	22	fixed	_	_
-25	alguém	_	PRON	PRON	_	10	nmod	_	_
-26	que	_	PRON	PRON	_	27	nsubj	_	_
-27	cante	cantar	VERB	VERB	_	25	acl:relcl	_	_
-28	Alicia	_	PROPN	PNOUN	_	27	obj	_	_
-29	Keys	_	PROPN	PNOUN	_	28	flat	_	SpaceAfter=No
-30	,	,	PUNCT	.	_	43	punct	_	_
-31	até	até	ADV	ADV	_	43	advmod	_	_
-32	por	_	ADP	ADP	_	33	dep	_	_
-33	que	que	CCONJ	CONJ	_	43	mark	_	SpaceAfter=No
-34	,	,	PUNCT	.	_	38	punct	_	_
-35	só	só	ADV	ADV	_	38	advmod	_	_
-36	quem	_	PRON	PRON	_	38	nsubj	_	_
-37	pode	_	AUX	AUX	_	38	aux	_	_
-38	cantar	cantar	VERB	VERB	_	43	csubj	_	_
-39	Keys	_	PROPN	PNOUN	_	38	obj	_	_
-40	é	ser	AUX	AUX	_	43	cop	_	_
-41	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
-42	própria	próprio	ADJ	ADJ	_	43	amod	_	_
-43	Alicia	_	PROPN	PNOUN	_	10	advcl	_	SpaceAfter=No
-44	.	.	PUNCT	.	_	3	punct	_	_
+22	de	de	ADP	_	_	25	case	_	_
+23	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	22	fixed	_	_
+24	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	22	fixed	_	_
+25	alguém	alguém	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	20	nmod	_	_
+26	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	27	nsubj	_	_
+27	cante	canter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+28	Alicia	Alicia	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	27	obj	_	_
+29	Keys	Keys	PROPN	_	Number=Sing	28	flat:name	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	43	punct	_	_
+31	até	até	ADV	_	_	43	advmod	_	_
+32	por	por	ADP	_	_	33	case	_	_
+33	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	43	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	só	só	ADV	_	_	37	advmod	_	_
+36	quem	quem	PRON	_	Number=Sing|PronType=Rel	37	nsubj	_	_
+37	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	advcl	_	_
+38	cantar	cantar	VERB	_	VerbForm=Inf	37	xcomp	_	_
+39	Keys	Keys	PROPN	_	Gender=Masc|Number=Sing	38	obj	_	_
+40	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	cop	_	_
+41	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+42	própria	próprio	DET	_	Gender=Fem|Number=Sing|PronType=Emp	43	det	_	_
+43	Alicia	Alicia	PROPN	_	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = train-s733
 # text = Segundo a Polícia Militar, a moradora contou que saiu por volta das 13h e, ao retornar às 19h, notou que as portas da cozinha e da sala haviam sido arrombadas.
@@ -214,76 +216,80 @@
 16	informado	informar	VERB	VERB	_	13	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = train-s739
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Depois do Tahiti, eu pensei sobre isso, mas você não pode pensar muito porque vai tirar seu foco e te arruinar na bateria.
-1	Depois	depois	ADV	ADV	_	4	case	_	_
+# sent_id = train-s739
+1	Depois	depois	ADV	_	_	7	advmod	_	_
 2-3	do	_	_	_	_	_	_	_	_
-2	de	de	ADP	ADP	_	1	case	_	_
-3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
-4	Tahiti	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
-5	,	,	PUNCT	.	_	4	punct	_	_
-6	eu	_	PRON	PRON	_	7	nsubj	_	_
-7	pensei	pensar	VERB	VERB	_	0	root	_	_
-8	sobre	_	ADP	ADP	_	9	case	_	_
-9	isso	_	PRON	PRON	_	7	nmod	_	SpaceAfter=No
-10	,	,	PUNCT	.	_	15	punct	_	_
-11	mas	mas	CCONJ	CONJ	_	15	cc	_	_
-12	você	_	PRON	PRON	_	15	nsubj	_	_
-13	não	não	ADV	ADV	Polarity=Neg	15	advmod	_	_
-14	pode	_	AUX	AUX	_	15	aux	_	_
-15	pensar	pensar	VERB	VERB	_	7	conj	_	_
-16	muito	muito	ADV	ADV	_	15	advmod	_	_
-17	porque	_	CCONJ	CONJ	_	19	mark	_	_
-18	vai	ir	AUX	AUX	_	19	aux	_	_
-19	tirar	tirar	VERB	VERB	_	15	advcl	_	_
-20	seu	_	DET	DET	_	21	det:poss	_	_
-21	foco	foco	NOUN	NOUN	_	19	obj	_	_
-22	e	e	CCONJ	CONJ	_	24	cc	_	_
-23	te	_	PRON	PRON	_	24	obj	_	_
-24	arruinar	arruinar	VERB	VERB	_	19	conj	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Tahiti	Tahiti	PROPN	_	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	1	punct	_	_
+6	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	pensei	pensar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+8	sobre	sobre	ADP	_	_	9	case	_	_
+9	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	14	punct	_	_
+11	mas	mas	CCONJ	_	_	14	cc	_	_
+12	você	você	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+13	não	não	ADV	_	Polarity=Neg	14	advmod	_	_
+14	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+15	pensar	pensar	VERB	_	VerbForm=Inf	14	xcomp	_	_
+16	muito	muito	ADV	_	_	15	advmod	_	_
+17	porque	porque	SCONJ	_	_	19	mark	_	_
+18	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	tirar	tirar	VERB	_	VerbForm=Inf	15	advcl	_	_
+20	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	21	det	_	_
+21	foco	foco	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
+22	e	e	CCONJ	_	_	24	cc	_	_
+23	te	tu	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	24	obj	_	_
+24	arruinar	arruinar	VERB	_	VerbForm=Inf	19	conj	_	_
 25-26	na	_	_	_	_	_	_	_	_
-25	em	em	ADP	ADP	_	27	case	_	_
-26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	bateria	bateria	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
-28	.	.	PUNCT	.	_	7	punct	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	bateria	bateria	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
-# sent_id = train-s740
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Quem não for convocado em nenhuma das duas chamadas poderá participar duma lista de espera que será usada pelas universidades para selecionar os alunos em caso de sobra de vagas.
-1	Quem	_	PRON	PRON	_	4	nsubj:pass	_	_
-2	não	não	ADV	ADV	Polarity=Neg	4	advmod	_	_
-3	for	_	AUX	AUX	_	4	nsubj:pass	_	_
-4	convocado	convocar	VERB	VERB	_	12	csubj	_	_
-5	em	em	ADP	ADP	_	6	case	_	_
-6	nenhuma	_	PRON	PRON	_	4	nmod	_	_
+# sent_id = train-s740
+1	Quem	quem	PRON	_	Number=Sing|PronType=Rel	4	nsubj:pass	_	_
+2	não	não	ADV	_	Polarity=Neg	4	advmod	_	_
+3	for	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	aux:pass	_	_
+4	convocado	convocar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	11	xcomp	_	_
+5	em	em	ADP	_	_	6	case	_	_
+6	nenhuma	nenhum	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	4	obl	_	_
 7-8	das	_	_	_	_	_	_	_	_
-7	de	de	ADP	ADP	_	10	case	_	_
-8	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
-9	duas	_	NUM	NUM	NumType=Card	10	nummod	_	_
-10	chamadas	_	NOUN	NOUN	_	6	nmod	_	_
-11	poderá	poder	AUX	AUX	_	12	aux	_	_
-12	participar	participar	VERB	VERB	_	0	root	_	_
+7	de	de	ADP	_	_	10	case	_	_
+8	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	duas	dois	NUM	_	NumType=Card	10	nummod	_	_
+10	chamadas	chamada	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
+11	poderá	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+12	participar	participar	VERB	_	VerbForm=Inf	11	xcomp	_	_
 13-14	duma	_	_	_	_	_	_	_	_
-13	de	de	ADP	ADP	_	15	case	_	_
-14	uma	um	DET	DET	_	15	det	_	_
-15	lista	lista	NOUN	NOUN	_	12	nmod	_	_
-16	de	de	ADP	ADP	_	17	case	_	_
-17	espera	espera	NOUN	NOUN	_	15	nmod	_	_
-18	que	_	PRON	PRON	_	20	nsubj:pass	_	_
-19	será	ser	AUX	AUX	_	20	aux:pass	_	_
-20	usada	usar	VERB	VERB	_	15	acl:relcl	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	lista	lista	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	espera	espera	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+18	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	20	nsubj:pass	_	_
+19	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	20	aux:pass	_	_
+20	usada	usar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	15	acl:relcl	_	_
 21-22	pelas	_	_	_	_	_	_	_	_
-21	por	por	ADP	ADP	_	23	case	_	_
-22	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
-23	universidades	universidade	NOUN	NOUN	_	20	nmod	_	_
-24	para	_	ADP	ADP	_	25	mark	_	_
-25	selecionar	selecionar	VERB	VERB	_	20	advcl	_	_
-26	os	o	DET	DET	_	27	det	_	_
-27	alunos	aluno	NOUN	NOUN	_	25	obj	_	_
-28	em	em	ADP	ADP	_	29	case	_	_
-29	caso	caso	NOUN	NOUN	_	25	nmod	_	_
-30	de	de	ADP	ADP	_	31	case	_	_
-31	sobra	sobra	NOUN	NOUN	_	29	nmod	_	_
-32	de	de	ADP	ADP	_	33	case	_	_
-33	vagas	vaga	NOUN	NOUN	_	31	nmod	_	SpaceAfter=No
-34	.	.	PUNCT	.	_	12	punct	_	_
+21	por	por	ADP	_	_	23	case	_	_
+22	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	universidades	universidade	NOUN	_	Gender=Fem|Number=Plur	20	obl:agent	_	_
+24	para	para	SCONJ	_	_	25	mark	_	_
+25	selecionar	selecionar	VERB	_	VerbForm=Inf	20	advcl	_	_
+26	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	alunos	aluno	NOUN	_	Gender=Masc|Number=Plur	25	obj	_	_
+28	em	em	ADP	_	_	29	case	_	_
+29	caso	caso	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	sobra	sobra	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	vagas	vaga	NOUN	_	Gender=Fem|Number=Plur	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
 

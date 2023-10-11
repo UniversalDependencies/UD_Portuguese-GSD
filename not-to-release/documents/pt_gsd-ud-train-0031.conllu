@@ -348,39 +348,43 @@
 55	cozinha	cozinha	NOUN	NOUN	_	53	nmod	_	SpaceAfter=No
 56	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = train-s310
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Numa entrevista coletiva posterior, Bolt disse que não considera que deva correr contra Blake, seu colega de treinos, mais do que uma ou duas vezes por ano.
-1	Numa	_	ADP	ADP	_	2	case	_	_
-2	entrevista	entrevista	NOUN	NOUN	_	7	nmod	_	_
-3	coletiva	coletivo	ADJ	ADJ	_	2	amod	_	_
-4	posterior	posterior	ADJ	ADJ	_	2	amod	_	SpaceAfter=No
-5	,	,	PUNCT	.	_	2	punct	_	_
-6	Bolt	_	PROPN	PNOUN	_	7	nsubj	_	_
-7	disse	dizer	VERB	VERB	_	0	root	_	_
-8	que	que	CCONJ	CONJ	_	10	mark	_	_
-9	não	não	ADV	ADV	Polarity=Neg	10	advmod	_	_
-10	considera	considerar	VERB	VERB	_	7	ccomp	_	_
-11	que	que	CCONJ	CONJ	_	13	mark	_	_
-12	deva	dever	AUX	AUX	_	13	aux	_	_
-13	correr	correr	VERB	VERB	_	10	ccomp	_	_
-14	contra	_	ADP	ADP	_	15	case	_	_
-15	Blake	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
-16	,	,	PUNCT	.	_	18	punct	_	_
-17	seu	_	DET	DET	_	18	det:poss	_	_
-18	colega	colega	NOUN	NOUN	_	15	appos	_	_
-19	de	de	ADP	ADP	_	20	case	_	_
-20	treinos	treino	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
-21	,	,	PUNCT	.	_	22	punct	_	_
-22	mais	mais	ADV	ADV	_	13	advmod	_	_
-23-24	do	_	_	_	_	_	_	_	_
-23	de	de	ADP	ADP	_	29	case	_	_
-24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-25	que	_	ADP	ADP	_	23	fixed	_	_
-26	uma	_	NUM	NUM	NumType=Card	29	nummod	_	_
-27	ou	ou	CCONJ	CONJ	_	28	cc	_	_
-28	duas	_	NUM	NUM	NumType=Card	26	conj	_	_
-29	vezes	vez	NOUN	NOUN	_	22	case	_	_
-30	por	por	ADP	ADP	_	31	case	_	_
-31	ano	ano	NOUN	NOUN	_	29	nmod	_	SpaceAfter=No
-32	.	.	PUNCT	.	_	7	punct	_	_
+# sent_id = train-s310
+1-2	Numa	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	entrevista	entrevista	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+4	coletiva	coletivo	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+5	posterior	posterior	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	Bolt	Bolt	PROPN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+8	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	que	que	SCONJ	_	_	11	mark	_	_
+10	não	não	ADV	_	Polarity=Neg	11	advmod	_	_
+11	considera	considerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+12	que	que	SCONJ	_	_	14	mark	_	_
+13	deva	dever	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+14	correr	correr	VERB	_	VerbForm=Inf	13	xcomp	_	_
+15	contra	contra	ADP	_	_	16	case	_	_
+16	Blake	Blake	PROPN	_	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	19	det	_	_
+19	colega	colega	NOUN	_	Gender=Masc|Number=Sing	16	appos	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	treinos	treino	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	19	punct	_	_
+23	mais	mais	ADV	_	_	14	advmod	_	_
+24-25	do	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	30	case	_	_
+25	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	24	fixed	_	_
+26	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	24	fixed	_	_
+27	uma	um	NUM	_	NumType=Card	30	nummod	_	_
+28	ou	ou	CCONJ	_	_	29	cc	_	_
+29	duas	dois	NUM	_	NumType=Card	27	conj	_	_
+30	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	23	obl	_	_
+31	por	por	ADP	_	_	32	case	_	_
+32	ano	ano	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
 

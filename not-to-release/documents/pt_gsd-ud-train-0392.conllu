@@ -35,16 +35,18 @@
 31	analisou	analisar	VERB	VERB	_	0	root	_	_
 32	Huertas	_	PROPN	PNOUN	_	31	nsubj	_	_
 
-# sent_id = train-s3888
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Mas já estão começando a usar celular.
-1	Mas	_	CCONJ	CONJ	_	6	cc	_	_
-2	já	já	ADV	ADV	_	6	advmod	_	_
-3	estão	estar	AUX	AUX	_	6	aux	_	_
-4	começando	começar	AUX	AUX	_	6	aux	_	_
-5	a	_	ADP	ADP	_	6	mark	_	_
-6	usar	usar	VERB	VERB	_	0	root	_	_
-7	celular	_	NOUN	NOUN	_	6	obj	_	SpaceAfter=No
-8	.	.	PUNCT	.	_	6	punct	_	_
+# sent_id = train-s3888
+1	Mas	mas	CCONJ	_	_	4	cc	_	_
+2	já	já	ADV	_	_	4	advmod	_	_
+3	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	começando	começar	VERB	_	VerbForm=Ger	0	root	_	_
+5	a	a	SCONJ	_	_	6	mark	_	_
+6	usar	usar	VERB	_	VerbForm=Inf	4	xcomp	_	_
+7	celular	celular	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # sent_id = train-s3889
 # text = Os medicamentos biológicos, usados no tratamento de doenças como câncer e artrite reumatoide, podem demorar mais dum ano para terem a comercialização liberada pela Anvisa.
@@ -90,45 +92,47 @@
 3	suficiente	suficiente	ADJ	ADJ	_	2	xcomp	_	SpaceAfter=No
 4	?	?	PUNCT	.	_	2	punct	_	_
 
-# sent_id = train-s3891
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = A Nikon vai continuar atendendo às exigências e expectativas profissionais, com os mais avançados recursos fotográficos e formas de expressão, lançando lentes de alto desempenho para ampliar e fortalecer a linha NIKKOR.
-1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	Nikon	_	PROPN	PNOUN	_	5	nsubj	_	_
-3	vai	ir	AUX	AUX	_	5	aux	_	_
-4	continuar	continuar	AUX	AUX	_	5	aux	_	_
-5	atendendo	atender	VERB	VERB	_	0	root	_	_
+# sent_id = train-s3891
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Nikon	Nikon	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	continuar	continuar	VERB	_	VerbForm=Inf	0	root	_	_
+5	atendendo	atender	VERB	_	VerbForm=Ger	4	xcomp	_	_
 6-7	às	_	_	_	_	_	_	_	_
-6	a	a	ADP	ADP	_	8	case	_	_
-7	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
-8	exigências	exigência	NOUN	NOUN	_	5	nmod	_	_
-9	e	e	CCONJ	CONJ	_	10	cc	_	_
-10	expectativas	expectativa	NOUN	NOUN	_	8	conj	_	_
-11	profissionais	profissional	ADJ	ADJ	_	8	amod	_	SpaceAfter=No
-12	,	,	PUNCT	.	_	17	punct	_	_
-13	com	com	ADP	ADP	_	17	case	_	_
-14	os	o	DET	DET	_	17	det	_	_
-15	mais	mais	ADV	ADV	_	16	advmod	_	_
-16	avançados	avançado	ADJ	ADJ	_	17	amod	_	_
-17	recursos	recurso	NOUN	NOUN	_	5	nmod	_	_
-18	fotográficos	fotográfico	ADJ	ADJ	_	17	amod	_	_
-19	e	e	CCONJ	CONJ	_	20	cc	_	_
-20	formas	forma	NOUN	NOUN	_	17	conj	_	_
-21	de	de	ADP	ADP	_	22	case	_	_
-22	expressão	expressão	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
-23	,	,	PUNCT	.	_	24	punct	_	_
-24	lançando	lançar	VERB	VERB	_	5	acl	_	_
-25	lentes	lente	NOUN	NOUN	_	24	obj	_	_
-26	de	de	ADP	ADP	_	28	case	_	_
-27	alto	alto	ADJ	ADJ	_	28	amod	_	_
-28	desempenho	desempenho	NOUN	NOUN	_	25	nmod	_	_
-29	para	_	ADP	ADP	_	30	mark	_	_
-30	ampliar	ampliar	VERB	VERB	_	24	advcl	_	_
-31	e	e	CCONJ	CONJ	_	32	cc	_	_
-32	fortalecer	fortalecer	VERB	VERB	_	30	conj	_	_
-33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
-34	linha	_	NOUN	NOUN	_	30	obj	_	_
-35	NIKKOR	_	PROPN	PNOUN	_	34	appos	_	SpaceAfter=No
-36	.	.	PUNCT	.	_	5	punct	_	_
+6	a	a	ADP	_	_	8	case	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	exigências	exigência	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	expectativas	expectativa	NOUN	_	Gender=Fem|Number=Plur	8	conj	_	_
+11	profissionais	profissional	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	17	punct	_	_
+13	com	com	ADP	_	_	17	case	_	_
+14	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+15	mais	mais	ADV	_	_	16	advmod	_	_
+16	avançados	avançado	ADJ	_	Gender=Masc|Number=Plur	17	acl	_	_
+17	recursos	recurso	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+18	fotográficos	fotográfico	ADJ	_	Gender=Masc|Number=Plur	17	amod	_	_
+19	e	e	CCONJ	_	_	20	cc	_	_
+20	formas	forma	NOUN	_	Gender=Fem|Number=Plur	17	conj	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	expressão	expressão	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	lançando	lançar	VERB	_	VerbForm=Ger	5	advcl	_	_
+25	lentes	lente	NOUN	_	Gender=Fem|Number=Plur	24	obj	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	alto	alto	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	_
+28	desempenho	desempenho	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
+29	para	para	SCONJ	_	_	30	mark	_	_
+30	ampliar	ampliar	VERB	_	VerbForm=Inf	24	advcl	_	_
+31	e	e	CCONJ	_	_	32	cc	_	_
+32	fortalecer	fortalecer	VERB	_	VerbForm=Inf	30	conj	_	_
+33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	linha	linha	NOUN	_	Gender=Fem|Number=Sing	30	obj	_	_
+35	NIKKOR	NIKKOR	PROPN	_	Gender=Fem|Number=Sing	34	appos	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # sent_id = train-s3892
 # text = Haddad disse que colocou os dois coordenadores de sua campanha, Antonio Donato e Chico Macena, para tratar do assunto, mas a decisão final será tomada por ele.
@@ -202,31 +206,35 @@
 9	extravagantes	extravagante	ADJ	ADJ	_	8	amod	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = train-s3895
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O grupo só teria parado de dar socos e chutes em Vitor, que ficou desacordado, quando um amigo dele interferiu.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	grupo	grupo	NOUN	NOUN	_	7	nsubj	_	_
-3	só	só	ADV	ADV	_	7	advmod	_	_
-4	teria	ter	AUX	AUX	_	7	aux	_	_
-5	parado	parar	AUX	AUX	_	7	aux	_	_
-6	de	_	ADP	ADP	_	7	mark	_	_
-7	dar	dar	VERB	VERB	_	0	root	_	_
-8	socos	soco	NOUN	NOUN	_	7	obj	_	_
-9	e	e	CCONJ	CONJ	_	10	cc	_	_
-10	chutes	chute	NOUN	NOUN	_	8	conj	_	_
-11	em	em	ADP	ADP	_	12	case	_	_
-12	Vitor	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
-13	,	,	PUNCT	.	_	15	punct	_	_
-14	que	_	PRON	PRON	_	15	nsubj	_	_
-15	ficou	ficar	VERB	VERB	_	12	acl:relcl	_	_
-16	desacordado	desacordado	ADJ	ADJ	_	15	xcomp	_	SpaceAfter=No
-17	,	,	PUNCT	.	_	22	punct	_	_
-18	quando	_	CCONJ	CONJ	_	22	mark	_	_
-19	um	um	DET	DET	_	20	det	_	_
-20	amigo	amigo	NOUN	NOUN	_	22	nsubj	_	_
-21	dele	_	X	ADPPRON	_	20	det:poss	_	_
-22	interferiu	interferir	VERB	VERB	_	7	advcl	_	SpaceAfter=No
-23	.	.	PUNCT	.	_	7	punct	_	_
+# sent_id = train-s3895
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	grupo	grupo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	só	só	ADV	_	_	5	advmod	_	_
+4	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	5	aux	_	_
+5	parado	parar	VERB	_	VerbForm=Part	0	root	_	_
+6	de	de	SCONJ	_	_	7	mark	_	_
+7	dar	dar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+8	socos	soco	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	chutes	chute	NOUN	_	Gender=Masc|Number=Plur	8	conj	_	_
+11	em	em	ADP	_	_	12	case	_	_
+12	Vitor	Vitor	PROPN	_	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	15	nsubj	_	_
+15	ficou	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	acl:relcl	_	_
+16	desacordado	desacordado	ADJ	_	Gender=Masc|Number=Sing	15	xcomp	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	15	punct	_	_
+18	quando	quando	ADV	_	_	23	advmod	_	_
+19	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	amigo	amigo	NOUN	_	Gender=Masc|Number=Sing	23	nsubj	_	_
+21-22	dele	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	ele	ele	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nmod	_	_
+23	interferiu	interferir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	advcl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # sent_id = train-s3896
 # text = "É aconselhável pedir uma planilha do banco com a projeção de todas as parcelas do financiamento, incluindo as taxas extras e os seguros que compõem a prestação.

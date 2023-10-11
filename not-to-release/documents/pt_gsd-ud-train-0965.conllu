@@ -40,62 +40,70 @@
 35	anterior	anterior	ADJ	ADJ	_	34	amod	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s9578
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O delegado Rafael Schimidt reforçou que o ex - policial foi expulso da corporação devido o envolvimento dele com o tráfico de drogas.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	delegado	delegado	NOUN	NOUN	_	5	nsubj	_	_
-3	Rafael	_	PROPN	PNOUN	_	2	appos	_	_
-4	Schimidt	_	PROPN	PNOUN	_	3	flat	_	_
-5	reforçou	reforçar	VERB	VERB	_	0	root	_	_
-6	que	que	CCONJ	CONJ	_	12	mark	_	_
-7	o	o	DET	DET	_	8	det	_	_
-8	ex	_	PART	PRT	_	12	nsubj:pass	_	_
-9	-	-	PUNCT	.	_	8	punct	_	_
-10	policial	policial	NOUN	NOUN	_	8	flat	_	_
-11	foi	_	AUX	AUX	_	12	aux:pass	_	_
-12	expulso	expulsar	VERB	VERB	_	5	ccomp	_	_
+# sent_id = train-s9578
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	delegado	delegado	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	Rafael	Rafael	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	2	appos	_	_
+4	Schimidt	Schimidt	PROPN	_	Number=Sing	3	flat:name	_	_
+5	reforçou	reforçar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	que	que	SCONJ	_	_	12	mark	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	ex	ex	ADJ	_	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+9	-	-	PUNCT	_	_	10	punct	_	_
+10	policial	policial	NOUN	_	Gender=Masc|Number=Sing	8	amod	_	_
+11	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
+12	expulso	expulr	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	ccomp	_	_
 13-14	da	_	_	_	_	_	_	_	_
-13	de	de	ADP	ADP	_	15	case	_	_
-14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	corporação	corporação	NOUN	NOUN	_	12	nmod	_	_
-16	devido	dever	VERB	VERB	_	12	acl	_	_
-17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	envolvimento	envolvimento	NOUN	NOUN	_	16	obj	_	_
-19	dele	_	X	ADPPRON	_	18	det:poss	_	_
-20	com	com	ADP	ADP	_	22	case	_	_
-21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-22	tráfico	tráfico	NOUN	NOUN	_	18	nmod	_	_
-23	de	de	ADP	ADP	_	24	case	_	_
-24	drogas	droga	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
-25	.	.	PUNCT	.	_	5	punct	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	corporação	corporação	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+16	devido	devido	ADV	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	envolvimento	envolvimento	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+19-20	dele	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	ele	ele	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nmod	_	_
+21	com	com	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	tráfico	tráfico	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	drogas	droga	NOUN	_	Gender=Fem|Number=Plur	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
-# sent_id = train-s9579
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Será que as lojas vão mesmo lotar em Porto Velho e em todo o interior, neste penúltimo sábado antes do Natal?
-1	Será	ser	VERB	VERB	_	0	root	_	_
-2	que	que	CCONJ	CONJ	_	7	mark	_	_
-3	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
-4	lojas	loja	NOUN	NOUN	_	7	nsubj	_	_
-5	vão	ir	AUX	AUX	_	7	aux	_	_
-6	mesmo	mesmo	ADV	ADV	_	7	advmod	_	_
-7	lotar	lotar	VERB	VERB	_	1	csubj	_	_
-8	em	em	ADP	ADP	_	9	case	_	_
-9	Porto	_	PROPN	PNOUN	_	7	nmod	_	_
-10	Velho	_	PROPN	PNOUN	_	9	amod	_	_
-11	e	e	CCONJ	CONJ	_	15	cc	_	_
-12	em	em	ADP	ADP	_	15	case	_	_
-13	todo	_	DET	DET	_	15	det	_	_
-14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	interior	interior	NOUN	NOUN	_	9	conj	_	SpaceAfter=No
-16	,	,	PUNCT	.	_	19	punct	_	_
-17	neste	_	ADP	ADP	_	19	case	_	_
-18	penúltimo	penúltimo	ADJ	ADJ	_	19	amod	_	_
-19	sábado	_	PROPN	PNOUN	_	7	nmod	_	_
-20	antes	antes	ADV	ADV	_	23	case	_	_
-21-22	do	_	_	_	_	_	_	_	_
-21	de	de	ADP	ADP	_	20	case	_	_
-22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-23	Natal	_	PROPN	PNOUN	_	19	nmod	_	SpaceAfter=No
-24	?	?	PUNCT	.	_	1	punct	_	_
+# sent_id = train-s9579
+1	Será	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	que	que	SCONJ	_	_	7	mark	_	_
+3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	lojas	loja	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
+5	vão	ir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	mesmo	mesmo	ADV	_	_	7	advmod	_	_
+7	lotar	lotar	VERB	_	VerbForm=Inf	1	ccomp	_	_
+8	em	em	ADP	_	_	9	case	_	_
+9	Porto	Porto	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	7	obl	_	_
+10	Velho	Velho	PROPN	_	Number=Sing	9	flat:name	_	_
+11	e	e	CCONJ	_	_	15	cc	_	_
+12	em	em	ADP	_	_	15	case	_	_
+13	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Tot	15	det	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	interior	interior	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	7	punct	_	_
+17-18	neste	_	_	_	_	_	_	_	_
+17	em	em	ADP	_	_	20	case	_	_
+18	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	20	det	_	_
+19	penúltimo	penúltimo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	20	amod	_	_
+20	sábado	sábado	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+21	antes	antes	ADV	_	_	20	advmod	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Natal	Natal	PROPN	_	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+25	?	?	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = train-s9580
 # text = Já o Flamengo entrou em campo no ritmo da torcida.
@@ -166,23 +174,25 @@
 45	nutrientes	nutriente	NOUN	NOUN	_	42	conj	_	SpaceAfter=No
 46	.	.	PUNCT	.	_	21	punct	_	_
 
-# sent_id = train-s9582
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Sem saída, Rosário decide criar a menina, a quem acaba se apegando.
-1	Sem	_	ADP	ADP	_	2	case	_	_
-2	saída	saída	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
-3	,	,	PUNCT	.	_	2	punct	_	_
-4	Rosário	_	PROPN	PNOUN	_	5	nsubj	_	_
-5	decide	decidir	VERB	VERB	_	0	root	_	_
-6	criar	criar	VERB	VERB	_	5	xcomp	_	_
-7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	menina	menino	NOUN	NOUN	_	6	obj	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	14	punct	_	_
-10	a	_	ADP	ADP	_	11	case	_	_
-11	quem	_	PRON	PRON	_	14	iobj	_	_
-12	acaba	acabar	AUX	AUX	_	14	aux	_	_
-13	se	_	PART	PRT	_	14	expl:pv	_	_
-14	apegando	apegar	VERB	VERB	_	8	acl:relcl	_	SpaceAfter=No
-15	.	.	PUNCT	.	_	5	punct	_	_
+# sent_id = train-s9582
+1	Sem	sem	ADP	_	_	2	case	_	_
+2	saída	saída	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	Rosário	Rosário	PROPN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+5	decide	decidir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	criar	criar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	menina	menina	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10	a	a	ADP	_	_	11	case	_	_
+11	quem	quem	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	12	nsubj	_	_
+12	acaba	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+13	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	expl	_	_
+14	apegando	apegar	VERB	_	VerbForm=Ger	12	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # sent_id = train-s9583
 # text = O sonho ainda é possível, Raposa.

@@ -30,34 +30,36 @@
 19	eficiência	eficiência	NOUN	NOUN	_	18	obj	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = dev-s1054
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Os dados indicam que a redução da classe baixa foi mais intensa do que a expansão da classe alta.
-1	Os	o	DET	DET	_	2	det	_	_
-2	dados	dado	NOUN	NOUN	_	3	nsubj	_	_
-3	indicam	indicar	VERB	VERB	_	0	root	_	_
-4	que	que	CCONJ	CONJ	_	11	mark	_	_
-5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	redução	redução	NOUN	NOUN	_	11	nsubj	_	_
+# sent_id = dev-s1054
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	dados	dado	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	indicam	indicar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	13	mark	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	redução	redução	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
 7-8	da	_	_	_	_	_	_	_	_
-7	de	de	ADP	ADP	_	9	case	_	_
-8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	classe	classe	NOUN	NOUN	_	6	nmod	_	_
-10	baixa	baixo	ADJ	ADJ	_	9	amod	_	_
-11	foi	_	VERB	VERB	_	3	ccomp	_	_
-12	mais	mais	ADV	ADV	_	13	advmod	_	_
-13	intensa	intenso	ADJ	ADJ	_	11	xcomp	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	classe	classe	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+10	baixa	baixo	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+11	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+12	mais	mais	ADV	_	_	13	advmod	_	_
+13	intensa	intenso	ADJ	_	Gender=Fem|Number=Sing	3	ccomp	_	_
 14-15	do	_	_	_	_	_	_	_	_
-14	de	de	ADP	ADP	_	18	case	_	_
-15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-16	que	_	ADP	ADP	_	14	fixed	_	_
-17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	expansão	expansão	NOUN	NOUN	_	11	nmod	_	_
+14	de	de	ADP	_	_	18	case	_	_
+15	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	14	fixed	_	_
+16	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	14	fixed	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	expansão	expansão	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
 19-20	da	_	_	_	_	_	_	_	_
-19	de	de	ADP	ADP	_	21	case	_	_
-20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-21	classe	classe	NOUN	NOUN	_	18	nmod	_	_
-22	alta	alto	ADJ	ADJ	_	21	amod	_	SpaceAfter=No
-23	.	.	PUNCT	.	_	3	punct	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	classe	classe	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+22	alta	alto	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = dev-s1055
 # text = Participarão diversos núcleos de orquidófilos existentes no Estado, além de representantes de Santa Catarina, Paraná, São Paulo e Rio de Janeiro.

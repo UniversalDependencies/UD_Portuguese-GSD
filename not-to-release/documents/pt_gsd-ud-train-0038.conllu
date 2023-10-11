@@ -1,41 +1,45 @@
-# sent_id = train-s371
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Com o programa Enem, Chego Junto, Chego Bem, lançado neste ano, o governo distribuiu apostilas com questões de todas as provas anteriores do exame e organizou aulas e simulados.
-1	Com	_	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	programa	programa	NOUN	NOUN	_	18	nmod	_	_
-4	Enem	_	PROPN	PNOUN	_	3	appos	_	SpaceAfter=No
-5	,	,	PUNCT	.	_	4	punct	_	_
-6	Chego	_	PROPN	PNOUN	_	4	parataxis	_	_
-7	Junto	_	PROPN	PNOUN	_	6	advmod	_	SpaceAfter=No
-8	,	,	PUNCT	.	_	9	punct	_	_
-9	Chego	_	PROPN	PNOUN	_	6	conj	_	_
-10	Bem	_	PROPN	PNOUN	_	9	advmod	_	SpaceAfter=No
-11	,	,	PUNCT	.	_	12	punct	_	_
-12	lançado	lançar	VERB	VERB	_	3	acl	_	_
-13	neste	_	ADP	ADP	_	14	case	_	_
-14	ano	ano	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
-15	,	,	PUNCT	.	_	12	punct	_	_
-16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	governo	governo	NOUN	NOUN	_	18	nsubj	_	_
-18	distribuiu	distribuir	VERB	VERB	_	0	root	_	_
-19	apostilas	apostila	NOUN	NOUN	_	18	obj	_	_
-20	com	com	ADP	ADP	_	21	case	_	_
-21	questões	questão	NOUN	NOUN	_	19	nmod	_	_
-22	de	de	ADP	ADP	_	25	case	_	_
-23	todas	_	DET	DET	_	25	det	_	_
-24	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
-25	provas	prova	NOUN	NOUN	_	21	nmod	_	_
-26	anteriores	anterior	ADJ	ADJ	_	25	amod	_	_
-27-28	do	_	_	_	_	_	_	_	_
-27	de	de	ADP	ADP	_	29	case	_	_
-28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-29	exame	exame	NOUN	NOUN	_	25	nmod	_	_
-30	e	e	CCONJ	CONJ	_	31	cc	_	_
-31	organizou	organizar	VERB	VERB	_	18	conj	_	_
-32	aulas	aula	NOUN	NOUN	_	31	obj	_	_
-33	e	e	CCONJ	CONJ	_	34	cc	_	_
-34	simulados	_	NOUN	NOUN	_	32	conj	_	SpaceAfter=No
-35	.	.	PUNCT	.	_	18	punct	_	_
+# sent_id = train-s371
+1	Com	com	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	programa	programa	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
+4	Enem	Enem	PROPN	_	Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	Chego	Chego	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	4	conj	_	_
+7	Junto	Junto	PROPN	_	Number=Sing	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	Chego	Chego	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	4	conj	_	_
+10	Bem	Bem	PROPN	_	Number=Sing	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	lançado	lançar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	3	acl	_	_
+13-14	neste	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+15	ano	ano	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	12	punct	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	governo	governo	NOUN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
+19	distribuiu	distribuir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20	apostilas	apostila	NOUN	_	Gender=Fem|Number=Plur	19	obj	_	_
+21	com	com	ADP	_	_	22	case	_	_
+22	questões	questão	NOUN	_	Gender=Fem|Number=Plur	20	nmod	_	_
+23	de	de	ADP	_	_	26	case	_	_
+24	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Tot	26	det	_	_
+25	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	provas	prova	NOUN	_	Gender=Fem|Number=Plur	22	nmod	_	_
+27	anteriores	anterior	ADJ	_	Gender=Fem|Number=Plur	26	amod	_	_
+28-29	do	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	exame	exame	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
+31	e	e	CCONJ	_	_	32	cc	_	_
+32	organizou	organizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	conj	_	_
+33	aulas	aula	NOUN	_	Gender=Fem|Number=Plur	32	obj	_	_
+34	e	e	CCONJ	_	_	35	cc	_	_
+35	simulados	simulado	NOUN	_	Gender=Masc|Number=Plur	33	conj	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
 
 # sent_id = train-s372
 # text = Estou aqui e espero seguir por todo o tempo em que assinei.
@@ -229,40 +233,42 @@
 21	destacou	destacar	VERB	VERB	_	0	root	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	21	punct	_	_
 
-# sent_id = train-s380
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Mesmo assim, o Brasil sofreu uma "pane" quando vencia por 13 a 10 e chegou a ter seis matchpoints contra antes de fechar de forma heróica em 21 / 19.
-1	Mesmo	mesmo	ADV	ADV	_	6	advmod	_	_
-2	assim	assim	ADV	ADV	_	1	advmod	_	SpaceAfter=No
-3	,	,	PUNCT	.	_	1	punct	_	_
-4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	Brasil	_	PROPN	PNOUN	_	6	nsubj	_	_
-6	sofreu	sofrer	VERB	VERB	_	0	root	_	_
-7	uma	um	DET	DET	_	9	det	_	_
-8	"	"	PUNCT	.	_	9	punct	_	SpaceAfter=No
-9	pane	pane	NOUN	NOUN	_	6	obj	_	SpaceAfter=No
-10	"	"	PUNCT	.	_	9	punct	_	_
-11	quando	_	CCONJ	CONJ	_	12	mark	_	_
-12	vencia	vencer	VERB	VERB	_	6	advcl	_	_
-13	por	por	ADP	ADP	_	14	case	_	_
-14	13	13	NUM	NUM	NumType=Card	12	nmod	_	_
-15	a	_	ADP	ADP	_	16	case	_	_
-16	10	10	NUM	NUM	NumType=Card	14	nmod	_	_
-17	e	e	CCONJ	CONJ	_	20	cc	_	_
-18	chegou	chegar	AUX	AUX	_	20	aux	_	_
-19	a	_	ADP	ADP	_	20	mark	_	_
-20	ter	ter	VERB	VERB	_	6	conj	_	_
-21	seis	_	NUM	NUM	NumType=Card	22	nummod	_	_
-22	matchpoints	_	NOUN	NOUN	_	20	obj	_	_
-23	contra	contra	ADJ	ADJ	_	22	amod	_	_
-24	antes	antes	ADV	ADV	_	26	mark	_	_
-25	de	_	ADP	ADP	_	24	fixed	_	_
-26	fechar	fechar	VERB	VERB	_	20	advcl	_	_
-27	de	de	ADP	ADP	_	28	case	_	_
-28	forma	forma	NOUN	NOUN	_	26	nmod	_	_
-29	heróica	heróico	ADJ	ADJ	_	28	amod	_	_
-30	em	em	ADP	ADP	_	31	case	_	_
-31	21	21	NUM	NUM	NumType=Card	26	nmod	_	_
-32	/	/	PUNCT	.	_	33	punct	_	_
-33	19	19	NUM	NUM	NumType=Card	31	conj	_	SpaceAfter=No
-34	.	.	PUNCT	.	_	6	punct	_	_
+# sent_id = train-s380
+1	Mesmo	mesmo	ADV	_	ExtPos=ADV	6	advmod	_	_
+2	assim	assim	ADV	_	_	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Brasil	Brasil	PROPN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	sofreu	sofrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	uma	um	NUM	_	NumType=Card	9	nummod	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	pane	pane	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	_
+11	quando	quando	ADV	_	_	12	advmod	_	_
+12	vencia	vencer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	advcl	_	_
+13	por	por	ADP	_	_	14	case	_	_
+14	13	13	NUM	_	NumType=Card	12	obl	_	_
+15	a	a	ADP	_	_	16	case	_	_
+16	10	10	NUM	_	NumType=Card	14	nmod	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	chegou	chegar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
+19	a	a	SCONJ	_	_	20	mark	_	_
+20	ter	ter	VERB	_	VerbForm=Inf	18	xcomp	_	_
+21	seis	seis	NUM	_	NumType=Card	22	nummod	_	_
+22	matchpoints	matchpoint	NOUN	_	Gender=Masc|Number=Plur	20	obj	_	_
+23	contra	contra	ADP	_	_	26	mark	_	_
+24	antes	antes	ADV	_	ExtPos=SCONJ	26	mark	_	_
+25	de	de	ADP	_	_	24	fixed	_	_
+26	fechar	fechar	VERB	_	VerbForm=Inf	20	advcl	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	forma	forma	NOUN	_	Gender=Fem|Number=Sing	26	obl	_	_
+29	heróica	heróico	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	_
+30	em	em	ADP	_	_	31	case	_	_
+31	21	21	NUM	_	NumType=Card	26	obl	_	_
+32	/	/	PUNCT	_	_	33	punct	_	_
+33	19	19	NUM	_	NumType=Card	31	conj	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 

@@ -179,48 +179,52 @@
 26	necessário	necessário	ADJ	ADJ	_	24	nmod	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = train-s8176
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Durante o Feirão a meta é recolher pelo menos 23,2 mil em Santa Catarina para o MBE, que precisa de 1,4 milhão de assinaturas para propor um projeto de lei nesse sentido, de iniciativa popular.
-1	Durante	_	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	Feirão	_	PROPN	PNOUN	_	5	nmod	_	_
-4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	meta	meta	NOUN	NOUN	_	0	root	_	_
-6	é	ser	AUX	AUX	_	5	cop	_	_
-7	recolher	recolher	VERB	VERB	_	5	csubj	_	_
+# sent_id = train-s8176
+1	Durante	durante	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Feirão	Feirão	PROPN	_	Gender=Masc|Number=Sing	7	obl	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	meta	meta	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	recolher	recolher	VERB	_	VerbForm=Inf	0	root	_	_
 8-9	pelo	_	_	_	_	_	_	_	_
-8	por	por	ADP	ADP	_	10	case	_	_
-9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	menos	menos	ADV	ADV	_	12	advmod	_	_
-11	23,2	23,2	NUM	NUM	NumType=Card	12	nummod	_	_
-12	mil	_	NUM	NUM	NumType=Card	7	obj	_	_
-13	em	em	ADP	ADP	_	14	case	_	_
-14	Santa	_	PROPN	PNOUN	_	7	nmod	_	_
-15	Catarina	_	PROPN	PNOUN	_	14	flat	_	_
-16	para	para	ADP	ADP	_	18	case	_	_
-17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	MBE	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	5	punct	_	_
-20	que	_	PRON	PRON	_	21	nsubj	_	_
-21	precisa	precisar	VERB	VERB	_	18	acl:relcl	_	_
-22	de	de	ADP	ADP	_	26	case	_	_
-23	1,4	1,4	NUM	NUM	NumType=Card	24	nummod	_	_
-24	milhão	_	NUM	NUM	NumType=Card	26	nummod	_	_
-25	de	de	ADP	ADP	_	26	case	_	_
-26	assinaturas	assinatura	NOUN	NOUN	_	21	nmod	_	_
-27	para	_	ADP	ADP	_	28	mark	_	_
-28	propor	propor	VERB	VERB	_	21	advcl	_	_
-29	um	um	DET	DET	_	30	det	_	_
-30	projeto	projeto	NOUN	NOUN	_	28	obj	_	_
-31	de	de	ADP	ADP	_	32	case	_	_
-32	lei	lei	NOUN	NOUN	_	30	nmod	_	_
-33	nesse	_	ADP	ADP	_	34	case	_	_
-34	sentido	sentido	NOUN	NOUN	_	30	nmod	_	SpaceAfter=No
-35	,	,	PUNCT	.	_	37	punct	_	_
-36	de	de	ADP	ADP	_	37	case	_	_
-37	iniciativa	iniciativa	NOUN	NOUN	_	30	nmod	_	_
-38	popular	popular	ADJ	ADJ	_	37	amod	_	SpaceAfter=No
-39	.	.	PUNCT	.	_	5	punct	_	_
+8	por	por	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	menos	menos	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+11	23,2	23,2	NUM	_	NumType=Card	7	obj	_	_
+12	mil	mil	NUM	_	NumType=Card	11	flat	_	_
+13	em	em	ADP	_	_	14	case	_	_
+14	Santa	Santa	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	7	obl	_	_
+15	Catarina	Catarina	PROPN	_	Number=Sing	14	flat:name	_	_
+16	para	para	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	MBE	MBE	PROPN	_	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	21	punct	_	_
+20	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	21	nsubj	_	_
+21	precisa	precisar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	1,4	1,4	NUM	_	NumType=Card	21	obj	_	_
+24	milhão	milhão	NUM	_	NumType=Card	23	flat	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	assinaturas	assinatura	NOUN	_	Gender=Fem|Number=Plur	23	nmod	_	_
+27	para	para	SCONJ	_	_	28	mark	_	_
+28	propor	propor	VERB	_	VerbForm=Inf	21	advcl	_	_
+29	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	projeto	projeto	NOUN	_	Gender=Masc|Number=Sing	28	obj	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	lei	lei	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
+33-34	nesse	_	_	_	_	_	_	_	_
+33	em	em	ADP	_	_	35	case	_	_
+34	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	35	det	_	_
+35	sentido	sentido	NOUN	_	Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	38	punct	_	_
+37	de	de	ADP	_	_	38	case	_	_
+38	iniciativa	iniciativa	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
+39	popular	popular	ADJ	_	Gender=Fem|Number=Sing	38	amod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
 # sent_id = train-s8177
 # text = Após a guerra, em 1951, foi nomeado para a cadeira de Filosofia Moral de Sorbonne, onde lecionou até 1978.
@@ -265,36 +269,38 @@
 13	aeroportos	aeroporto	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = train-s8179
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Após a colisão com a mulher, a motocicleta acabou batendo violentamente contra um poste no canteiro central e o rapaz acabou morrendo no local.
-1	Após	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	colisão	colisão	NOUN	NOUN	_	11	nmod	_	_
-4	com	com	ADP	ADP	_	6	case	_	_
-5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	mulher	mulher	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
-7	,	,	PUNCT	.	_	3	punct	_	_
-8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	motocicleta	motocicleta	NOUN	NOUN	_	11	nsubj	_	_
-10	acabou	acabar	AUX	AUX	_	11	aux	_	_
-11	batendo	bater	VERB	VERB	_	0	root	_	_
-12	violentamente	violentamente	ADV	ADV	_	11	advmod	_	_
-13	contra	_	ADP	ADP	_	15	case	_	_
-14	um	um	DET	DET	_	15	det	_	_
-15	poste	poste	NOUN	NOUN	_	11	nmod	_	_
+# sent_id = train-s8179
+1	Após	após	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	colisão	colisão	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+4	com	com	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	mulher	mulher	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	motocicleta	motocicleta	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+10	acabou	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	batendo	bater	VERB	_	VerbForm=Ger	10	xcomp	_	_
+12	violentamente	violentamente	ADV	_	_	11	advmod	_	_
+13	contra	contra	ADP	_	_	15	case	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	poste	poste	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
 16-17	no	_	_	_	_	_	_	_	_
-16	em	em	ADP	ADP	_	18	case	_	_
-17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	canteiro	canteiro	NOUN	NOUN	_	11	nmod	_	_
-19	central	central	ADJ	ADJ	_	18	amod	_	_
-20	e	e	CCONJ	CONJ	_	24	cc	_	_
-21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-22	rapaz	rapaz	NOUN	NOUN	_	24	nsubj	_	_
-23	acabou	acabar	AUX	AUX	_	24	aux	_	_
-24	morrendo	morrer	VERB	VERB	_	11	conj	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	canteiro	canteiro	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+19	central	central	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
+20	e	e	CCONJ	_	_	23	cc	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	rapaz	rapaz	NOUN	_	Gender=Masc|Number=Sing	23	nsubj	_	_
+23	acabou	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	_
+24	morrendo	morrer	VERB	_	VerbForm=Ger	23	xcomp	_	_
 25-26	no	_	_	_	_	_	_	_	_
-25	em	em	ADP	ADP	_	27	case	_	_
-26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	local	local	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
-28	.	.	PUNCT	.	_	11	punct	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	local	local	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
 

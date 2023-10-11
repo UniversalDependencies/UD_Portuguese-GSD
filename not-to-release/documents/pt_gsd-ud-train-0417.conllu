@@ -17,72 +17,76 @@
 14	noturnos	noturno	ADJ	ADJ	_	13	amod	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = train-s4138
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Segundo Alá Gül, encarregado administrativo do lugar, o pior é no inverno, quando o bairro fica praticamente incomunicável devido à má qualidade dos acessos.
-1	Segundo	_	ADP	ADP	_	2	case	_	_
-2	Alá	_	PROPN	PNOUN	_	13	nmod	_	_
-3	Gül	_	PROPN	PNOUN	_	2	flat	_	SpaceAfter=No
-4	,	,	PUNCT	.	_	5	punct	_	_
-5	encarregado	encarregado	NOUN	NOUN	_	2	appos	_	_
-6	administrativo	administrativo	ADJ	ADJ	_	5	amod	_	_
+# sent_id = train-s4138
+1	Segundo	segundo	ADP	_	_	2	case	_	_
+2	Alá	Alá	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	16	nmod	_	_
+3	Gül	Gül	PROPN	_	Number=Sing	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	encarregado	encarregado	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
+6	administrativo	administrativo	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
 7-8	do	_	_	_	_	_	_	_	_
-7	de	de	ADP	ADP	_	9	case	_	_
-8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	lugar	lugar	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
-10	,	,	PUNCT	.	_	2	punct	_	_
-11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	pior	_	NOUN	NOUN	_	13	nsubj	_	_
-13	é	ser	VERB	VERB	_	0	root	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	lugar	lugar	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	5	punct	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	pior	pior	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
+13	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
 14-15	no	_	_	_	_	_	_	_	_
-14	em	em	ADP	ADP	_	16	case	_	_
-15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	inverno	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
-17	,	,	PUNCT	.	_	21	punct	_	_
-18	quando	quando	ADV	ADV	_	21	advmod	_	_
-19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	bairro	bairro	NOUN	NOUN	_	21	nsubj	_	_
-21	fica	ficar	VERB	VERB	_	16	acl:relcl	_	_
-22	praticamente	praticamente	ADV	ADV	_	23	advmod	_	_
-23	incomunicável	incomunicável	ADJ	ADJ	_	21	xcomp	_	_
-24	devido	dever	VERB	VERB	_	28	case	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	inverno	inverno	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	quando	quando	ADV	_	_	21	advmod	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	bairro	bairro	NOUN	_	Gender=Masc|Number=Sing	21	nsubj	_	_
+21	fica	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+22	praticamente	praticamente	ADV	_	_	23	advmod	_	_
+23	incomunicável	incomunicável	ADJ	_	Gender=Masc|Number=Sing	21	xcomp	_	_
+24	devido	devido	ADV	_	_	21	advmod	_	_
 25-26	à	_	_	_	_	_	_	_	_
-25	a	a	ADP	ADP	_	24	case	_	_
-26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-27	má	mau	ADJ	ADJ	_	28	amod	_	_
-28	qualidade	qualidade	NOUN	NOUN	_	21	nmod	_	_
+25	a	a	ADP	_	_	28	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+27	má	má	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	_
+28	qualidade	qualidade	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
 29-30	dos	_	_	_	_	_	_	_	_
-29	de	de	ADP	ADP	_	31	case	_	_
-30	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
-31	acessos	acesso	NOUN	NOUN	_	28	nmod	_	SpaceAfter=No
-32	.	.	PUNCT	.	_	13	punct	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	acessos	acesso	NOUN	_	Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
 
-# sent_id = train-s4139
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Depois do ataque a Tel - Aviv, a ala militar do Hamas disse ter disparado um foguete contra Jerusalém.
-1	Depois	depois	ADV	ADV	_	4	case	_	_
+# sent_id = train-s4139
+1	Depois	depois	ADV	_	_	16	advmod	_	_
 2-3	do	_	_	_	_	_	_	_	_
-2	de	de	ADP	ADP	_	1	case	_	_
-3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
-4	ataque	ataque	NOUN	NOUN	_	16	nmod	_	_
-5	a	_	ADP	ADP	_	6	case	_	_
-6	Tel	_	PROPN	PNOUN	_	4	nmod	_	_
-7	-	-	PUNCT	.	_	6	punct	_	_
-8	Aviv	_	PROPN	PNOUN	_	6	flat	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	4	punct	_	_
-10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	ala	ala	NOUN	NOUN	_	16	nsubj	_	_
-12	militar	militar	ADJ	ADJ	_	11	amod	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	ataque	ataque	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
+5	a	a	ADP	_	_	6	case	_	_
+6	Tel	Tel	PROPN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+7	-	-	PUNCT	_	_	8	punct	_	_
+8	Aviv	Aviv	PROPN	_	Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	1	punct	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	ala	ala	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
+12	militar	militar	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
 13-14	do	_	_	_	_	_	_	_	_
-13	de	de	ADP	ADP	_	15	case	_	_
-14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	Hamas	_	PROPN	PNOUN	_	11	nmod	_	_
-16	disse	dizer	VERB	VERB	_	0	root	_	_
-17	ter	ter	AUX	AUX	_	18	aux	_	_
-18	disparado	disparar	VERB	VERB	_	16	xcomp	_	_
-19	um	um	DET	DET	_	20	det	_	_
-20	foguete	foguete	NOUN	NOUN	_	18	obj	_	_
-21	contra	_	ADP	ADP	_	22	case	_	_
-22	Jerusalém	_	PROPN	PNOUN	_	18	nmod	_	SpaceAfter=No
-23	.	.	PUNCT	.	_	16	punct	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Hamas	Hamas	PROPN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+16	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	ter	ter	AUX	_	VerbForm=Inf	18	aux	_	_
+18	disparado	disparar	VERB	_	VerbForm=Part	16	xcomp	_	_
+19	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	foguete	foguete	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
+21	contra	contra	ADP	_	_	22	case	_	_
+22	Jerusalém	Jerusalém	PROPN	_	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
 
 # sent_id = train-s4140
 # text = Estende-se por uma área de 52,08 km ².
@@ -154,67 +158,72 @@
 46	Carmelita	_	PROPN	PNOUN	_	45	amod	_	SpaceAfter=No
 47	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s4142
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = A segunda parte nos proporcionou maravilhas como Polk Salad Annie, You've Lost That Loving Feeling, You Don't Have To Say You Love Me, I Got a Woman, Bridge Over Troubled Water e Suspicious Minds, sendo esta última a canção que mais agitou e mais arrancou aplausos por parte do público presente.
-1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-2	segunda	segundo	ADJ	ADJ	_	3	amod	_	_
-3	parte	parte	NOUN	NOUN	_	5	nsubj	_	_
-4	nos	_	PRON	PRON	_	5	iobj	_	_
-5	proporcionou	proporcionar	VERB	VERB	_	0	root	_	_
-6	maravilhas	maravilha	NOUN	NOUN	_	5	obj	_	_
-7	como	como	ADP	ADP	_	8	case	_	_
-8	Polk	_	PROPN	PNOUN	_	6	nmod	_	_
-9	Salad	_	PROPN	PNOUN	_	8	flat	_	_
-10	Annie	_	PROPN	PNOUN	_	8	flat	_	SpaceAfter=No
-11	,	,	PUNCT	.	_	13	punct	_	_
-12	You've	_	PROPN	PNOUN	_	13	nsubj	_	_
-13	Lost	_	PROPN	PNOUN	_	8	conj	_	_
-14	That	_	PROPN	PNOUN	_	16	det	_	_
-15	Loving	_	PROPN	PNOUN	_	16	amod	_	_
-16	Feeling	_	PROPN	PNOUN	_	13	obj	_	SpaceAfter=No
-17	,	,	PUNCT	.	_	20	punct	_	_
-18	You	_	PROPN	PNOUN	_	20	nsubj	_	_
-19	Don't	_	PROPN	PNOUN	_	20	aux	_	_
-20	Have	_	PROPN	PNOUN	_	8	conj	_	_
-21	To	_	PROPN	PNOUN	_	22	case	_	_
-22	Say	_	PROPN	PNOUN	_	20	acl:inf	_	_
-23	You	_	PROPN	PNOUN	_	24	nsubj	_	_
-24	Love	_	PROPN	PNOUN	_	22	ccomp	_	_
-25	Me	_	PROPN	PNOUN	_	24	obj	_	SpaceAfter=No
-26	,	,	PUNCT	.	_	28	punct	_	_
-27	I	_	PROPN	PNOUN	_	28	nsubj	_	_
-28	Got	_	PROPN	PNOUN	_	8	conj	_	_
-29	a	_	PROPN	PNOUN	_	30	det	_	_
-30	Woman	_	PROPN	PNOUN	_	28	obj	_	SpaceAfter=No
-31	,	,	PUNCT	.	_	32	punct	_	_
-32	Bridge	_	PROPN	PNOUN	_	8	conj	_	_
-33	Over	_	PROPN	PNOUN	_	35	case	_	_
-34	Troubled	_	PROPN	PNOUN	_	35	amod	_	_
-35	Water	_	PROPN	PNOUN	_	32	nmod	_	_
-36	e	e	CCONJ	CONJ	_	38	cc	_	_
-37	Suspicious	_	PROPN	PNOUN	_	38	amod	_	_
-38	Minds	_	PROPN	PNOUN	_	8	conj	_	SpaceAfter=No
-39	,	,	PUNCT	.	_	42	punct	_	_
-40	sendo	ser	AUX	AUX	_	42	cop	_	_
-41	esta	_	DET	DET	_	42	det	_	_
-42	última	_	NOUN	NOUN	_	5	acl	_	_
-43	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
-44	canção	canção	NOUN	NOUN	_	42	nsubj	_	_
-45	que	_	PRON	PRON	_	47	nsubj	_	_
-46	mais	mais	ADV	ADV	_	47	advmod	_	_
-47	agitou	agitar	VERB	VERB	_	44	acl:relcl	_	_
-48	e	e	CCONJ	CONJ	_	50	cc	_	_
-49	mais	mais	ADV	ADV	_	50	advmod	_	_
-50	arrancou	arrancar	VERB	VERB	_	47	conj	_	_
-51	aplausos	aplauso	NOUN	NOUN	_	50	obj	_	_
-52	por	por	ADP	ADP	_	53	case	_	_
-53	parte	parte	NOUN	NOUN	_	50	nmod	_	_
-54-55	do	_	_	_	_	_	_	_	_
-54	de	de	ADP	ADP	_	56	case	_	_
-55	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
-56	público	público	NOUN	NOUN	_	53	nmod	_	_
-57	presente	presente	ADJ	ADJ	_	56	amod	_	SpaceAfter=No
-58	.	.	PUNCT	.	_	5	punct	_	_
+# sent_id = train-s4142
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	segunda	segundo	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	parte	parte	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+4-5	nos	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	os	o	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nmod	_	_
+6	proporcionou	proporcionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	maravilhas	maravilha	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
+8	como	como	ADP	_	_	9	case	_	_
+9	Polk	Polk	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	7	nmod	_	_
+10	Salad	Salad	PROPN	_	Number=Sing	9	flat:name	_	_
+11	Annie	Annie	PROPN	_	Number=Sing	9	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	You'	You'	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+14	ve	ve	PROPN	_	Number=Sing	13	flat:name	_	_
+15	Lost	Lost	PROPN	_	Number=Sing	13	flat:name	_	_
+16	That	That	PROPN	_	Number=Sing	13	flat:name	_	_
+17	Loving	Loving	PROPN	_	Number=Sing	13	flat:name	_	_
+18	Feeling	Feeling	PROPN	_	Number=Sing	13	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	You	You	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	9	conj	_	_
+21	Don't	Don't	PROPN	_	Number=Sing	20	flat:name	_	_
+22	Have	Have	PROPN	_	Number=Sing	20	flat:name	_	_
+23	To	To	PROPN	_	Number=Sing	20	flat:name	_	_
+24	Say	Say	PROPN	_	Number=Sing	20	flat:name	_	_
+25	You	You	PROPN	_	Number=Sing	20	flat:name	_	_
+26	Love	Love	PROPN	_	Number=Sing	20	flat:name	_	_
+27	Me	Me	PROPN	_	Number=Sing	20	flat:name	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	_
+29	I	I	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	9	conj	_	_
+30	Got	Got	PROPN	_	Number=Sing	29	flat:name	_	_
+31	a	a	PROPN	_	Number=Sing	29	flat:name	_	_
+32	Woman	Woman	PROPN	_	Number=Sing	29	flat:name	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	34	punct	_	_
+34	Bridge	Bridge	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	9	conj	_	_
+35	Over	Over	PROPN	_	Number=Sing	34	flat:name	_	_
+36	Troubled	Troubled	PROPN	_	Number=Sing	34	flat:name	_	_
+37	Water	Water	PROPN	_	Number=Sing	34	flat:name	_	_
+38	e	e	CCONJ	_	_	39	cc	_	_
+39	Suspicious	Suspicious	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	9	conj	_	_
+40	Minds	Minds	PROPN	_	Number=Sing	39	flat:name	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	46	punct	_	_
+42	sendo	ser	AUX	_	VerbForm=Ger	46	cop	_	_
+43	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	44	det	_	_
+44	última	último	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	46	amod	_	_
+45	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	canção	canção	NOUN	_	Gender=Fem|Number=Sing	6	advcl	_	_
+47	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	49	nsubj	_	_
+48	mais	mais	ADV	_	_	49	advmod	_	_
+49	agitou	agitar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	46	acl:relcl	_	_
+50	e	e	CCONJ	_	_	52	cc	_	_
+51	mais	mais	ADV	_	_	52	advmod	_	_
+52	arrancou	arrancar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	49	conj	_	_
+53	aplausos	aplauso	NOUN	_	Gender=Masc|Number=Plur	52	obj	_	_
+54	por	por	ADP	_	_	55	case	_	_
+55	parte	parte	NOUN	_	Gender=Fem|Number=Sing	52	obl	_	_
+56-57	do	_	_	_	_	_	_	_	_
+56	de	de	ADP	_	_	58	case	_	_
+57	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	58	det	_	_
+58	público	público	NOUN	_	Gender=Masc|Number=Sing	55	nmod	_	_
+59	presente	presente	ADJ	_	Gender=Masc|Number=Sing	58	amod	_	SpaceAfter=No
+60	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
 # sent_id = train-s4143
 # text = Doriva rouba a bola no meio - campo, pedala para cima do adversário e arrisca de fora da área.

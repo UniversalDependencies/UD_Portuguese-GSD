@@ -130,28 +130,30 @@
 17	St	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = test-s1011
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = "Estamos acertando as datas, vendo conveniências (no plantão durante o período de recesso).
-1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
-2	Estamos	estar	AUX	AUX	_	3	aux	_	_
-3	acertando	acertar	VERB	VERB	_	0	root	_	_
-4	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
-5	datas	data	NOUN	NOUN	_	3	obj	_	SpaceAfter=No
-6	,	,	PUNCT	.	_	7	punct	_	_
-7	vendo	_	VERB	VERB	_	3	conj	_	_
-8	conveniências	conveniência	NOUN	NOUN	_	7	obj	_	_
-9	(	(	PUNCT	.	_	12	punct	_	SpaceAfter=No
+# sent_id = test-s1011
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Estamos	estar	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	acertando	acertar	VERB	_	VerbForm=Ger	0	root	_	_
+4	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	datas	data	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	vendo	ver	VERB	_	VerbForm=Ger	3	advcl	_	_
+8	conveniências	conveniência	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
+9	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
 10-11	no	_	_	_	_	_	_	_	_
-10	em	em	ADP	ADP	_	12	case	_	_
-11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	plantão	plantão	NOUN	NOUN	_	3	nmod	_	_
-13	durante	_	ADP	ADP	_	15	case	_	_
-14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	período	período	NOUN	NOUN	_	3	nmod	_	_
-16	de	de	ADP	ADP	_	17	case	_	_
-17	recesso	recesso	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
-18	)	)	PUNCT	.	_	12	punct	_	SpaceAfter=No
-19	.	.	PUNCT	.	_	3	punct	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	plantão	plantão	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+13	durante	durante	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	período	período	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	recesso	recesso	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = test-s1012
 # text = Quatro helicópteros de ataque SH - 60B Seahawk foram encomendados, e também está em estudo a modernização dos helicópteros de ataque Super Lynx do acervo da Marinha.
@@ -251,48 +253,50 @@
 49	Legislativa	_	PROPN	PNOUN	_	48	amod	_	SpaceAfter=No
 50	.	.	PUNCT	.	_	29	punct	_	_
 
-# sent_id = test-s1014
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Jane Godfrey, comissária da Suprema Corte de Los Angeles, marcou outra audiência para 15 de fevereiro, quando determinará se a atriz, que não foi à audiência, violou os termos de sua condicional.
-1	Jane	_	PROPN	PNOUN	_	13	nsubj	_	_
-2	Godfrey	_	PROPN	PNOUN	_	1	flat	_	SpaceAfter=No
-3	,	,	PUNCT	.	_	4	punct	_	_
-4	comissária	comissário	NOUN	NOUN	_	1	appos	_	_
+# sent_id = test-s1014
+1	Jane	Jane	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	13	nsubj	_	_
+2	Godfrey	Godfrey	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	comissária	comissária	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
 5-6	da	_	_	_	_	_	_	_	_
-5	de	de	ADP	ADP	_	8	case	_	_
-6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-7	Suprema	_	PROPN	PNOUN	_	8	amod	_	_
-8	Corte	_	PROPN	PNOUN	_	4	nmod	_	_
-9	de	de	ADP	ADP	_	11	case	_	_
-10	Los	_	PROPN	PNOUN	_	11	det	_	_
-11	Angeles	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
-12	,	,	PUNCT	.	_	4	punct	_	_
-13	marcou	marcar	VERB	VERB	_	0	root	_	_
-14	outra	_	DET	DET	_	15	det	_	_
-15	audiência	audiência	NOUN	NOUN	_	13	obj	_	_
-16	para	para	ADP	ADP	_	17	case	_	_
-17	15	15	NUM	NUM	NumType=Card	13	nmod	_	_
-18	de	de	ADP	ADP	_	19	case	_	_
-19	fevereiro	_	PROPN	PNOUN	_	17	nmod	_	SpaceAfter=No
-20	,	,	PUNCT	.	_	22	punct	_	_
-21	quando	quando	ADV	ADV	_	22	advmod	_	_
-22	determinará	determinar	VERB	VERB	_	17	acl:relcl	_	_
-23	se	_	CCONJ	CONJ	_	34	mark	_	_
-24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-25	atriz	_	NOUN	NOUN	_	34	nsubj	_	SpaceAfter=No
-26	,	,	PUNCT	.	_	29	punct	_	_
-27	que	_	PRON	PRON	_	29	nsubj	_	_
-28	não	não	ADV	ADV	Polarity=Neg	29	advmod	_	_
-29	foi	_	VERB	VERB	_	25	acl:relcl	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Suprema	Suprema	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	4	nmod	_	_
+8	Corte	Corte	PROPN	_	Number=Sing	7	flat:name	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Los	Los	PROPN	_	ExtPos=PROPN|Number=Sing	7	nmod	_	_
+11	Angeles	Angeles	PROPN	_	Number=Sing	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	4	punct	_	_
+13	marcou	marcar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	outra	outro	DET	_	Gender=Fem|Number=Sing|PronType=Ind	15	det	_	_
+15	audiência	audiência	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+16	para	para	ADP	_	_	17	case	_	_
+17	15	15	NUM	_	NumType=Card	13	obl	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	fevereiro	fevereiro	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	13	punct	_	_
+21	quando	quando	ADV	_	_	22	advmod	_	_
+22	determinará	determinar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	advcl	_	_
+23	se	se	SCONJ	_	_	34	mark	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	atriz	atriz	NOUN	_	Gender=Fem|Number=Sing	34	nsubj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	29	punct	_	_
+27	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	29	nsubj	_	_
+28	não	não	ADV	_	Polarity=Neg	29	advmod	_	_
+29	foi	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	acl:relcl	_	_
 30-31	à	_	_	_	_	_	_	_	_
-30	a	a	ADP	ADP	_	32	case	_	_
-31	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
-32	audiência	audiência	NOUN	NOUN	_	29	nmod	_	SpaceAfter=No
-33	,	,	PUNCT	.	_	29	punct	_	_
-34	violou	violar	VERB	VERB	_	22	ccomp	_	_
-35	os	o	DET	DET	_	36	det	_	_
-36	termos	termo	NOUN	NOUN	_	34	obj	_	_
-37	de	de	ADP	ADP	_	39	case	_	_
-38	sua	_	DET	DET	_	39	det:poss	_	_
-39	condicional	condicional	NOUN	NOUN	_	36	nmod	_	SpaceAfter=No
-40	.	.	PUNCT	.	_	13	punct	_	_
+30	a	a	ADP	_	_	32	case	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	audiência	audiência	NOUN	_	Gender=Fem|Number=Sing	29	obl	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	29	punct	_	_
+34	violou	violar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	ccomp	_	_
+35	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+36	termos	termo	NOUN	_	Gender=Masc|Number=Plur	34	obj	_	_
+37	de	de	ADP	_	_	39	case	_	_
+38	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	39	det	_	_
+39	condicional	condicional	NOUN	_	Gender=Fem|Number=Sing	36	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
 

@@ -66,39 +66,41 @@
 30	Barcelona	_	PROPN	PNOUN	_	28	conj	_	SpaceAfter=No
 31	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = train-s1977
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = "O temor se tornou realidade: a Irmandade Muçulmana está no poder no Egito", afirma na primeira página o jornal Maariv.
-1	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
-2	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	temor	temor	NOUN	NOUN	_	6	nsubj	_	_
-4	se	_	PART	PRT	_	6	expl:pv	_	_
-5	tornou	tornar	AUX	AUX	_	6	cop	_	_
-6	realidade	realidade	NOUN	NOUN	_	20	ccomp	_	SpaceAfter=No
-7	:	:	PUNCT	.	_	6	punct	_	_
-8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	Irmandade	_	PROPN	PNOUN	_	11	nsubj	_	_
-10	Muçulmana	_	PROPN	PNOUN	_	9	amod	_	_
-11	está	estar	VERB	VERB	_	6	parataxis	_	_
+# sent_id = train-s1977
+1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+2	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	temor	temor	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
+5	tornou	tornar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	parataxis	_	_
+6	realidade	realidade	NOUN	_	Gender=Fem|Number=Sing	5	xcomp	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	14	punct	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Irmandade	Irmandade	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	14	nsubj	_	_
+10	Muçulmana	Muçulmana	PROPN	_	Number=Sing	9	flat:name	_	_
+11	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 12-13	no	_	_	_	_	_	_	_	_
-12	em	em	ADP	ADP	_	14	case	_	_
-13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	poder	poder	NOUN	NOUN	_	11	nmod	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	poder	poder	NOUN	_	Gender=Masc|Number=Sing	5	parataxis	_	_
 15-16	no	_	_	_	_	_	_	_	_
-15	em	em	ADP	ADP	_	17	case	_	_
-16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	Egito	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
-18	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	20	punct	_	_
-20	afirma	afirmar	VERB	VERB	_	0	root	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Egito	Egito	PROPN	_	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	afirma	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 21-22	na	_	_	_	_	_	_	_	_
-21	em	em	ADP	ADP	_	24	case	_	_
-22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-23	primeira	primeiro	ADJ	ADJ	_	24	amod	_	_
-24	página	página	NOUN	NOUN	_	20	nmod	_	_
-25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	jornal	jornal	NOUN	NOUN	_	20	nsubj	_	_
-27	Maariv	_	PROPN	PNOUN	_	26	appos	_	SpaceAfter=No
-28	.	.	PUNCT	.	_	20	punct	_	_
+21	em	em	ADP	_	_	24	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	24	amod	_	_
+24	página	página	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	jornal	jornal	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
+27	Maariv	Maariv	PROPN	_	Gender=Masc|Number=Sing	26	appos	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
 
 # sent_id = train-s1978
 # text = Os mais apontados foram local de espera lotado (67 %), demora para atendimento (51 %), demora para realização de exames (12 %), locais inadequados para medicação (12 %) e negativa de atendimento (5 %).
@@ -252,46 +254,47 @@
 8	romance	romance	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s1983
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Como p (z) não tem zeros, este caminho nunca passa por 0 à medida que vai sendo deformado, pelo que o seu índice relativamente a 0 não pode mudar.
-1	Como	_	CCONJ	CONJ	_	7	mark	_	_
-2	p	_	X	X	_	7	nsubj	_	_
-3	(	(	PUNCT	.	_	4	punct	_	SpaceAfter=No
-4	z	_	X	X	_	2	appos	_	SpaceAfter=No
-5	)	)	PUNCT	.	_	4	punct	_	_
-6	não	não	ADV	ADV	Polarity=Neg	7	advmod	_	_
-7	tem	ter	VERB	VERB	_	13	advcl	_	_
-8	zeros	zero	NOUN	NOUN	_	7	obj	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	7	punct	_	_
-10	este	_	DET	DET	_	11	det	_	_
-11	caminho	caminho	NOUN	NOUN	_	13	nsubj	_	_
-12	nunca	nunca	ADV	ADV	_	13	advmod	_	_
-13	passa	passar	VERB	VERB	_	0	root	_	_
-14	por	por	ADP	ADP	_	15	case	_	_
-15	0	0	NUM	NUM	NumType=Card	13	nmod	_	_
-16-17	à	_	_	_	_	_	_	_	_
-16	a	a	ADP	ADP	_	22	case	_	_
-17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-18	medida	medida	NOUN	NOUN	_	16	fixed	_	_
-19	que	_	CCONJ	CONJ	_	16	fixed	_	_
-20	vai	ir	AUX	AUX	_	22	aux	_	_
-21	sendo	ser	AUX	AUX	_	22	aux:pass	_	_
-22	deformado	deformar	VERB	VERB	_	13	advcl	_	SpaceAfter=No
-23	,	,	PUNCT	.	_	35	punct	_	_
-24-25	pelo	_	_	_	_	_	_	_	_
-24	por	por	ADP	ADP	_	35	case	_	_
-25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
-26	que	_	CCONJ	CONJ	_	24	fixed	_	_
-27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-28	seu	_	DET	DET	_	29	det:poss	_	_
-29	índice	índice	NOUN	NOUN	_	35	nsubj	_	_
-30	relativamente	relativamente	ADV	ADV	_	29	advmod	_	_
-31	a	_	ADP	ADP	_	32	case	_	_
-32	0	0	NUM	NUM	NumType=Card	30	nmod	_	_
-33	não	não	ADV	ADV	Polarity=Neg	35	advmod	_	_
-34	pode	_	AUX	AUX	_	35	aux	_	_
-35	mudar	mudar	VERB	VERB	_	13	advcl	_	SpaceAfter=No
-36	.	.	PUNCT	.	_	13	punct	_	_
+# sent_id = train-s1983
+1	Como	como	ADP	_	_	6	mark	_	_
+2	p	p	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+3	(z	(z	NOUN	_	Gender=Masc|Number=Sing	2	flat:name	_	SpaceAfter=No
+4	)	)	PUNCT	_	_	2	punct	_	_
+5	não	não	ADV	_	Polarity=Neg	6	advmod	_	_
+6	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+7	zeros	zero	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	6	punct	_	_
+9	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+10	caminho	caminho	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+11	nunca	nunca	ADV	_	_	12	advmod	_	_
+12	passa	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	por	por	ADP	_	_	14	case	_	_
+14	0	0	NUM	_	NumType=Card	12	obl	_	_
+15-16	à	_	_	_	_	_	_	_	_
+15	a	a	ADP	_	_	21	mark	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	obl	_	_
+17	medida	medida	ADP	_	_	18	case	_	_
+18	que	que	NOUN	_	Gender=Masc|Number=Sing	15	fixed	_	_
+19	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+20	sendo	ser	AUX	_	VerbForm=Ger	21	aux:pass	_	_
+21	deformado	deformar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	12	advcl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23-24	pelo	_	_	_	_	_	_	_	_
+23	por	por	ADP	_	ExtPos=SCONJ	33	mark	_	_
+24	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	23	fixed	_	_
+25	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	23	fixed	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	28	det	_	_
+28	índice	índice	NOUN	_	Gender=Masc|Number=Sing	33	nsubj	_	_
+29	relativamente	relativamente	ADV	_	_	28	advmod	_	_
+30	a	a	ADP	_	_	31	case	_	_
+31	0	0	NUM	_	NumType=Card	28	nmod	_	_
+32	não	não	ADV	_	Polarity=Neg	33	advmod	_	_
+33	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+34	mudar	mudar	VERB	_	VerbForm=Inf	33	xcomp	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
 
 # sent_id = train-s1984
 # text = Personagens principais apresentados, vamos ao episódio de hoje?

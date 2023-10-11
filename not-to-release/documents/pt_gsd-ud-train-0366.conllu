@@ -152,37 +152,39 @@
 10	porcada	porcada	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s3632
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Considerado um dos mais conceituados DJ 's da Black Music de São Paulo, iniciou sua carreira em 1987 na equipe Kaskatas.
-1	Considerado	considerar	AUX	AUX	_	2	cop	_	_
-2	um	_	PRON	PRON	_	17	acl	_	_
+# sent_id = train-s3632
+1	Considerado	considerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	17	advcl	_	_
+2	um	um	NUM	_	NumType=Card	1	obj	_	_
 3-4	dos	_	_	_	_	_	_	_	_
-3	de	de	ADP	ADP	_	7	case	_	_
-4	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
-5	mais	mais	ADV	ADV	_	6	advmod	_	_
-6	conceituados	conceituado	ADJ	ADJ	_	7	amod	_	_
-7	DJ	_	PROPN	PNOUN	_	2	nmod	_	_
-8	's	_	PART	PRT	_	7	expl:pv	_	_
+3	de	de	ADP	_	_	7	case	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+5	mais	mais	ADV	_	_	6	advmod	_	_
+6	conceituados	conceituado	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	_
+7	DJ	DJ	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+8	's	's	PUNCT	_	_	7	punct	_	_
 9-10	da	_	_	_	_	_	_	_	_
-9	de	de	ADP	ADP	_	7	case	_	_
-10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-11	Black	_	PROPN	PNOUN	_	12	amod	_	_
-12	Music	_	PROPN	PNOUN	_	9	amod	_	_
-13	de	de	ADP	ADP	_	14	case	_	_
-14	São	_	PROPN	PNOUN	_	12	nmod	_	_
-15	Paulo	_	PROPN	PNOUN	_	14	flat	_	SpaceAfter=No
-16	,	,	PUNCT	.	_	2	punct	_	_
-17	iniciou	iniciar	VERB	VERB	_	0	root	_	_
-18	sua	_	DET	DET	_	19	det:poss	_	_
-19	carreira	_	NOUN	NOUN	_	17	obj	_	_
-20	em	em	ADP	ADP	_	21	case	_	_
-21	1987	1987	NUM	NUM	NumType=Card	17	nmod	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|PronType=Art	11	det	_	_
+11	Black	Black	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	7	nmod	_	_
+12	Music	Music	PROPN	_	Number=Sing	11	flat:name	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	São	São	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	11	nmod	_	_
+15	Paulo	Paulo	PROPN	_	Number=Sing	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	1	punct	_	_
+17	iniciou	iniciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+18	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	19	det	_	_
+19	carreira	carreira	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+20	em	em	ADP	_	_	21	case	_	_
+21	1987	1987	NUM	_	NumType=Card	17	obl	_	_
 22-23	na	_	_	_	_	_	_	_	_
-22	em	em	ADP	ADP	_	24	case	_	_
-23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-24	equipe	equipe	NOUN	NOUN	_	17	nmod	_	_
-25	Kaskatas	_	PROPN	PNOUN	_	24	appos	_	SpaceAfter=No
-26	.	.	PUNCT	.	_	17	punct	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	equipe	equipe	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+25	Kaskatas	Kaskatas	PROPN	_	Gender=Fem|Number=Sing	24	appos	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
 
 # sent_id = train-s3633
 # text = Não posso dizer que eu não aceitaria ", ressaltou.
@@ -210,33 +212,35 @@
 8	prisão	prisão	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s3635
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Imediatamente após o parto a criança passa por extensas modificações fisiológicas à medida que se habitua à sua respiração independente.
-1	Imediatamente	imediatamente	ADV	ADV	_	4	advmod	_	_
-2	após	_	ADP	ADP	_	4	case	_	_
-3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	parto	parto	NOUN	NOUN	_	7	nmod	_	_
-5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	criança	criança	NOUN	NOUN	_	7	nsubj	_	_
-7	passa	passar	VERB	VERB	_	0	root	_	_
-8	por	por	ADP	ADP	_	10	case	_	_
-9	extensas	extenso	ADJ	ADJ	_	10	amod	_	_
-10	modificações	modificação	NOUN	NOUN	_	7	nmod	_	_
-11	fisiológicas	fisiológico	ADJ	ADJ	_	10	amod	_	_
+# sent_id = train-s3635
+1	Imediatamente	imediatamente	ADV	_	_	7	advmod	_	_
+2	após	após	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	parto	parto	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	criança	criança	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+7	passa	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	por	por	ADP	_	_	10	case	_	_
+9	extensas	extenso	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
+10	modificações	modificação	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
+11	fisiológicas	fisiológico	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
 12-13	à	_	_	_	_	_	_	_	_
-12	a	a	ADP	ADP	_	17	case	_	_
-13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-14	medida	medida	NOUN	NOUN	_	12	fixed	_	_
-15	que	_	CCONJ	CONJ	_	12	fixed	_	_
-16	se	_	PRON	PRON	_	17	obj	_	_
-17	habitua	habituar	VERB	VERB	_	7	advcl	_	_
+12	a	a	ADP	_	ExtPos=SCONJ	17	mark	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	fixed	_	_
+14	medida	medida	ADP	_	_	15	case	_	_
+15	que	que	NOUN	_	Gender=Masc|Number=Sing	12	fixed	_	_
+16	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	expl	_	_
+17	habitua	habituar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
 18-19	à	_	_	_	_	_	_	_	_
-18	a	a	ADP	ADP	_	21	case	_	_
-19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-20	sua	_	DET	DET	_	21	det:poss	_	_
-21	respiração	respiração	NOUN	NOUN	_	17	nmod	_	_
-22	independente	independente	ADJ	ADJ	_	21	amod	_	SpaceAfter=No
-23	.	.	PUNCT	.	_	7	punct	_	_
+18	a	a	ADP	_	_	21	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	21	det	_	_
+21	respiração	respiração	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+22	independente	independente	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
 # sent_id = train-s3636
 # text = O candidato do PDT governou a cidade entre 2002 e 2008.

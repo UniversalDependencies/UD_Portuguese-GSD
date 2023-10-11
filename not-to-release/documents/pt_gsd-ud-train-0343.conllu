@@ -1,22 +1,26 @@
-# sent_id = train-s3401
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Depois disto, ela continua a procurar a ajuda de Rick em relação a ocorrências paranormais.
-1	Depois	depois	ADV	ADV	_	7	nmod	_	_
-2	disto	_	X	ADPPRON	_	1	fixed	_	SpaceAfter=No
-3	,	,	PUNCT	.	_	1	punct	_	_
-4	ela	_	PRON	PRON	_	7	nsubj	_	_
-5	continua	continuar	AUX	AUX	_	7	aux	_	_
-6	a	_	ADP	ADP	_	7	mark	_	_
-7	procurar	procurar	VERB	VERB	_	0	root	_	_
-8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	ajuda	ajuda	NOUN	NOUN	_	7	obj	_	_
-10	de	de	ADP	ADP	_	11	case	_	_
-11	Rick	_	PROPN	PNOUN	_	9	nmod	_	_
-12	em	em	ADP	ADP	_	13	case	_	_
-13	relação	relação	NOUN	NOUN	_	9	nmod	_	_
-14	a	_	ADP	ADP	_	15	case	_	_
-15	ocorrências	ocorrência	NOUN	NOUN	_	13	nmod	_	_
-16	paranormais	paranormal	ADJ	ADJ	_	15	amod	_	SpaceAfter=No
-17	.	.	PUNCT	.	_	7	punct	_	_
+# sent_id = train-s3401
+1	Depois	depois	ADV	_	_	8	advmod	_	_
+2-3	disto	_	_	_	_	_	_	_	SpaceAfter=No
+2	de	de	ADP	_	_	3	case	_	_
+3	isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	obl	_	_
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	ela	ela	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	continua	continuar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	a	a	SCONJ	_	_	8	mark	_	_
+8	procurar	procurar	VERB	_	VerbForm=Inf	6	xcomp	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	ajuda	ajuda	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	Rick	Rick	PROPN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+13	em	em	ADP	_	_	14	case	_	_
+14	relação	relação	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+15	a	a	ADP	_	_	16	case	_	_
+16	ocorrências	ocorrência	NOUN	_	Gender=Fem|Number=Plur	14	nmod	_	_
+17	paranormais	paranormal	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
 
 # sent_id = train-s3402
 # text = As adequações do Autódromo Ayrton Senna são as que devem ter custo maior para a administração municipal.
@@ -75,76 +79,78 @@
 27	paulistano	paulistano	ADJ	ADJ	_	26	amod	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	19	punct	_	_
 
-# sent_id = train-s3404
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = A nomeação do catarinense Ary Joel Lanzarin para presidir o BNB pegou de surpresa os integrantes da bancada cearense no Congresso Nacional, que não escondem a preocupação com o fato de Ary Abreu desconhecer a realidade nordestina e de até o momento, ter dirigido o setor de micros e pequenas empresas do Banco do Brasil.
-1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	nomeação	nomeação	NOUN	NOUN	_	13	nsubj	_	_
+# sent_id = train-s3404
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	nomeação	nomeação	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
-3	de	de	ADP	ADP	_	5	case	_	_
-4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	catarinense	catarinense	NOUN	NOUN	_	2	nmod	_	_
-6	Ary	_	PROPN	PNOUN	_	5	appos	_	_
-7	Joel	_	PROPN	PNOUN	_	6	flat	_	_
-8	Lanzarin	_	PROPN	PNOUN	_	6	flat	_	_
-9	para	_	ADP	ADP	_	10	mark	_	_
-10	presidir	presidir	VERB	VERB	_	2	nmod	_	_
-11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	BNB	_	PROPN	PNOUN	_	10	obj	_	_
-13	pegou	pegar	VERB	VERB	_	0	root	_	_
-14	de	de	ADP	ADP	_	15	case	_	_
-15	surpresa	surpresa	NOUN	NOUN	_	13	nmod	_	_
-16	os	o	DET	DET	_	17	det	_	_
-17	integrantes	_	NOUN	NOUN	_	13	obj	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	catarinense	catarinense	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	Ary	Ary	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	5	appos	_	_
+7	Joel	Joel	PROPN	_	Number=Sing	6	flat:name	_	_
+8	Lanzarin	Lanzarin	PROPN	_	Number=Sing	6	flat:name	_	_
+9	para	para	SCONJ	_	_	10	mark	_	_
+10	presidir	presidir	VERB	_	VerbForm=Inf	2	acl	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	BNB	BNB	PROPN	_	Gender=Masc|Number=Sing	10	obj	_	_
+13	pegou	pegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	surpresa	surpresa	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+16	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	integrantes	integrante	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	_
 18-19	da	_	_	_	_	_	_	_	_
-18	de	de	ADP	ADP	_	20	case	_	_
-19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	bancada	bancada	NOUN	NOUN	_	17	nmod	_	_
-21	cearense	cearense	ADJ	ADJ	_	20	amod	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	bancada	bancada	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+21	cearense	cearense	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
 22-23	no	_	_	_	_	_	_	_	_
-22	em	em	ADP	ADP	_	24	case	_	_
-23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	Congresso	_	PROPN	PNOUN	_	17	nmod	_	_
-25	Nacional	_	PROPN	PNOUN	_	24	amod	_	SpaceAfter=No
-26	,	,	PUNCT	.	_	29	punct	_	_
-27	que	_	PRON	PRON	_	29	nsubj	_	_
-28	não	não	ADV	ADV	Polarity=Neg	29	advmod	_	_
-29	escondem	esconder	VERB	VERB	_	17	acl:relcl	_	_
-30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-31	preocupação	preocupação	NOUN	NOUN	_	29	obj	_	_
-32	com	com	ADP	ADP	_	34	case	_	_
-33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
-34	fato	fato	NOUN	NOUN	_	31	nmod	_	_
-35	de	_	ADP	ADP	_	38	mark	_	_
-36	Ary	_	PROPN	PNOUN	_	38	nsubj	_	_
-37	Abreu	_	PROPN	PNOUN	_	36	flat	_	_
-38	desconhecer	desconhecer	VERB	VERB	_	34	nmod	_	_
-39	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
-40	realidade	realidade	NOUN	NOUN	_	38	obj	_	_
-41	nordestina	nordestino	ADJ	ADJ	_	40	amod	_	_
-42	e	e	CCONJ	CONJ	_	49	cc	_	_
-43	de	_	VERB	VERB	_	49	mark	_	_
-44	até	_	ADP	ADP	_	46	case	_	_
-45	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
-46	momento	momento	NOUN	NOUN	_	49	nmod	_	SpaceAfter=No
-47	,	,	PUNCT	.	_	29	punct	_	_
-48	ter	ter	AUX	AUX	_	49	aux	_	_
-49	dirigido	dirigir	VERB	VERB	_	38	conj	_	_
-50	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
-51	setor	setor	NOUN	NOUN	_	49	obj	_	_
-52	de	de	ADP	ADP	_	56	case	_	_
-53	micros	_	ADJ	ADJ	_	56	amod	_	_
-54	e	e	CCONJ	CONJ	_	55	cc	_	_
-55	pequenas	pequeno	ADJ	ADJ	_	53	conj	_	_
-56	empresas	empresa	NOUN	NOUN	_	51	nmod	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Congresso	Congresso	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	13	obl	_	_
+25	Nacional	Nacional	PROPN	_	Number=Sing	24	flat:name	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	29	punct	_	_
+27	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	29	nsubj	_	_
+28	não	não	ADV	_	Polarity=Neg	29	advmod	_	_
+29	escondem	esconder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	preocupação	preocupação	NOUN	_	Gender=Fem|Number=Sing	29	obj	_	_
+32	com	com	ADP	_	_	34	case	_	_
+33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	fato	fato	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	_
+35	de	de	SCONJ	_	_	38	mark	_	_
+36	Ary	Ary	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	38	nsubj	_	_
+37	Abreu	Abreu	PROPN	_	Number=Sing	36	flat:name	_	_
+38	desconhecer	desconhecer	VERB	_	Number=Sing|Person=3|VerbForm=Inf	34	acl	_	_
+39	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	realidade	realidade	NOUN	_	Gender=Fem|Number=Sing	38	obj	_	_
+41	nordestina	nordestino	ADJ	_	Gender=Fem|Number=Sing	40	amod	_	_
+42	e	e	CCONJ	_	_	49	cc	_	_
+43	de	de	SCONJ	_	_	46	case	_	_
+44	até	até	ADP	_	_	46	case	_	_
+45	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	momento	momento	NOUN	_	Gender=Masc|Number=Sing	40	nmod	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	46	punct	_	_
+48	ter	ter	AUX	_	VerbForm=Inf	49	aux	_	_
+49	dirigido	dirigir	VERB	_	VerbForm=Part	38	conj	_	_
+50	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	setor	setor	NOUN	_	Gender=Masc|Number=Sing	49	obj	_	_
+52	de	de	ADP	_	_	56	case	_	_
+53	micros	micro	ADJ	_	Gender=Masc|Number=Plur	56	amod	_	_
+54	e	e	CCONJ	_	_	55	cc	_	_
+55	pequenas	pequeno	ADJ	_	Gender=Fem|Number=Plur	53	conj	_	_
+56	empresas	empresa	NOUN	_	Gender=Fem|Number=Plur	51	nmod	_	_
 57-58	do	_	_	_	_	_	_	_	_
-57	de	de	ADP	ADP	_	59	case	_	_
-58	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
-59	Banco	_	PROPN	PNOUN	_	51	nmod	_	_
+57	de	de	ADP	_	_	59	case	_	_
+58	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
+59	Banco	Banco	PROPN	_	Gender=Masc|Number=Sing	56	nmod	_	_
 60-61	do	_	_	_	_	_	_	_	_
-60	de	de	ADP	ADP	_	62	case	_	_
-61	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
-62	Brasil	_	PROPN	PNOUN	_	59	nmod	_	SpaceAfter=No
-63	.	.	PUNCT	.	_	13	punct	_	_
+60	de	de	ADP	_	_	62	case	_	_
+61	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
+62	Brasil	Brasil	PROPN	_	Number=Sing	59	nmod	_	SpaceAfter=No
+63	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
 
 # sent_id = train-s3405
 # text = Madri afirmou na semana passada que o déficit público alcançará 7,4 % em 2012, mas que isso incluiria elementos extraordinários da recapitalização de bancos com a qual a Comissão Europeia concordou em não levar em consideração quando avaliar os esforços da Espanha.
@@ -321,52 +327,54 @@
 35	Assumpção	_	PROPN	PNOUN	_	34	flat	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	33	punct	_	_
 
-# sent_id = train-s3409
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Em 1954, depois da sua derrota na Batalha de Dien Bien Phu, a França reconheceu formalmente este país na Conferência de Genebra, ao mesmo tempo que o país era dividido em dois.
-1	Em	em	ADP	ADP	_	2	case	_	_
-2	1954	1954	NUM	NUM	NumType=Card	19	nmod	_	SpaceAfter=No
-3	,	,	PUNCT	.	_	2	punct	_	_
-4	depois	depois	ADV	ADV	_	8	case	_	_
+# sent_id = train-s3409
+1	Em	em	ADP	_	_	2	case	_	_
+2	1954	1954	NUM	_	NumType=Card	19	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	depois	depois	ADV	_	_	19	advmod	_	_
 5-6	da	_	_	_	_	_	_	_	_
-5	de	de	ADP	ADP	_	4	case	_	_
-6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-7	sua	_	DET	DET	_	8	det:poss	_	_
-8	derrota	derrota	NOUN	NOUN	_	19	nmod	_	_
+5	de	de	ADP	_	_	8	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	8	det	_	_
+8	derrota	derrota	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
 9-10	na	_	_	_	_	_	_	_	_
-9	em	em	ADP	ADP	_	11	case	_	_
-10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	Batalha	_	PROPN	PNOUN	_	8	nmod	_	_
-12	de	de	ADP	ADP	_	13	case	_	_
-13	Dien	_	PROPN	PNOUN	_	11	nmod	_	_
-14	Bien	_	PROPN	PNOUN	_	13	flat	_	_
-15	Phu	_	PROPN	PNOUN	_	13	flat	_	SpaceAfter=No
-16	,	,	PUNCT	.	_	8	punct	_	_
-17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	França	_	PROPN	PNOUN	_	19	nsubj	_	_
-19	reconheceu	reconhecer	VERB	VERB	_	0	root	_	_
-20	formalmente	formalmente	ADV	ADV	_	19	advmod	_	_
-21	este	_	DET	DET	_	22	det	_	_
-22	país	país	NOUN	NOUN	_	19	obj	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Batalha	Batalha	PROPN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Dien	Dien	PROPN	_	ExtPos=PROPN|Number=Sing	11	nmod	_	_
+14	Bien	Bien	PROPN	_	Number=Sing	13	flat:name	_	_
+15	Phu	Phu	PROPN	_	Number=Sing	13	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	4	punct	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	França	França	PROPN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
+19	reconheceu	reconhecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20	formalmente	formalmente	ADV	_	_	19	advmod	_	_
+21	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
+22	país	país	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
 23-24	na	_	_	_	_	_	_	_	_
-23	em	em	ADP	ADP	_	25	case	_	_
-24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-25	Conferência	_	PROPN	PNOUN	_	19	nmod	_	_
-26	de	de	ADP	ADP	_	27	case	_	_
-27	Genebra	_	PROPN	PNOUN	_	25	nmod	_	SpaceAfter=No
-28	,	,	PUNCT	.	_	37	punct	_	_
+23	em	em	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	Conferência	Conferência	PROPN	_	Gender=Fem|Number=Sing	19	obl	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	Genebra	Genebra	PROPN	_	Number=Sing	25	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	19	punct	_	_
 29-30	ao	_	_	_	_	_	_	_	_
-29	a	a	ADP	ADP	_	37	case	_	_
-30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
-31	mesmo	mesmo	ADJ	ADJ	_	29	fixed	_	_
-32	tempo	tempo	NOUN	NOUN	_	29	fixed	_	_
-33	que	_	CCONJ	CONJ	_	29	fixed	_	_
-34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
-35	país	país	NOUN	NOUN	_	37	nsubj:pass	_	_
-36	era	_	AUX	AUX	_	37	aux:pass	_	_
-37	dividido	dividir	VERB	VERB	_	19	advcl	_	_
-38	em	em	ADP	ADP	_	39	case	_	_
-39	dois	_	NUM	NUM	NumType=Card	37	nmod	_	SpaceAfter=No
-40	.	.	PUNCT	.	_	19	punct	_	_
+29	a	a	ADP	_	_	32	case	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+31	mesmo	mesmo	ADJ	_	Gender=Masc|Number=Sing	32	amod	_	_
+32	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
+33	que	que	SCONJ	_	_	37	mark	_	_
+34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	país	país	NOUN	_	Gender=Masc|Number=Sing	37	nsubj:pass	_	_
+36	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	37	aux:pass	_	_
+37	dividido	dividir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	19	advcl	_	_
+38	em	em	ADP	_	_	39	case	_	_
+39	dois	dois	NUM	_	NumType=Card	37	obl	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
 
 # sent_id = train-s3410
 # text = Um jovem cantor italiano também fará uma participação especial no concerto de quinta - feira.

@@ -49,73 +49,77 @@
 19	sectile	_	NOUN	NOUN	_	18	flat	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s1083
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Na TV, a campanha mostrará obras e serviços que beneficiaram a população mais pobre na atual gestão, defendida pelo tucano.
+# sent_id = train-s1083
 1-2	Na	_	_	_	_	_	_	_	_
-1	Em	em	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	TV	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
-4	,	,	PUNCT	.	_	3	punct	_	_
-5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	campanha	campanha	NOUN	NOUN	_	7	nsubj	_	_
-7	mostrará	mostrar	VERB	VERB	_	0	root	_	_
-8	obras	obra	NOUN	NOUN	_	7	obj	_	_
-9	e	e	CCONJ	CONJ	_	10	cc	_	_
-10	serviços	serviço	NOUN	NOUN	_	8	conj	_	_
-11	que	_	PRON	PRON	_	12	nsubj	_	_
-12	beneficiaram	beneficiar	VERB	VERB	_	8	acl:relcl	_	_
-13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	população	população	NOUN	NOUN	_	12	obj	_	_
-15	mais	mais	ADV	ADV	_	16	advmod	_	_
-16	pobre	pobre	ADJ	ADJ	_	14	amod	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	TV	tv	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+7	mostrará	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+8	obras	obra	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	serviços	serviço	NOUN	_	Gender=Masc|Number=Plur	8	conj	_	_
+11	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	12	nsubj	_	_
+12	beneficiaram	beneficiar	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	8	acl:relcl	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	população	população	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+15	mais	mais	ADV	_	_	16	advmod	_	_
+16	pobre	pobre	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
 17-18	na	_	_	_	_	_	_	_	_
-17	em	em	ADP	ADP	_	20	case	_	_
-18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-19	atual	atual	ADJ	ADJ	_	20	amod	_	_
-20	gestão	gestão	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
-21	,	,	PUNCT	.	_	7	punct	_	_
-22	defendida	defender	VERB	VERB	_	20	acl	_	_
+17	em	em	ADP	_	_	20	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	atual	atual	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
+20	gestão	gestão	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	defendida	defender	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	14	acl	_	_
 23-24	pelo	_	_	_	_	_	_	_	_
-23	por	por	ADP	ADP	_	25	case	_	_
-24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	tucano	tucano	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
-26	.	.	PUNCT	.	_	7	punct	_	_
+23	por	por	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	tucano	tucano	NOUN	_	Gender=Masc|Number=Sing	22	obl:agent	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
-# sent_id = train-s1084
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = E, enquanto não tomar conhecimento mais aprofundado do assunto, a UCI anunciou que no momento não tem "mais nada a comentar" sobre o mesmo.
-1	E	_	CCONJ	CONJ	_	15	cc	_	SpaceAfter=No
-2	,	,	PUNCT	.	_	5	punct	_	_
-3	enquanto	_	CCONJ	CONJ	_	5	mark	_	_
-4	não	não	ADV	ADV	Polarity=Neg	5	advmod	_	_
-5	tomar	tomar	VERB	VERB	_	15	advcl	_	_
-6	conhecimento	conhecimento	NOUN	NOUN	_	5	obj	_	_
-7	mais	mais	ADV	ADV	_	8	advmod	_	_
-8	aprofundado	aprofundado	ADJ	ADJ	_	6	amod	_	_
+# sent_id = train-s1084
+1	E	e	CCONJ	_	_	15	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	5	punct	_	_
+3	enquanto	enquanto	SCONJ	_	_	5	mark	_	_
+4	não	não	ADV	_	Polarity=Neg	5	advmod	_	_
+5	tomar	tomar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	advcl	_	_
+6	conhecimento	conhecimento	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+7	mais	mais	ADV	_	_	8	advmod	_	_
+8	aprofundado	aprofundado	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
 9-10	do	_	_	_	_	_	_	_	_
-9	de	de	ADP	ADP	_	11	case	_	_
-10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	assunto	assunto	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
-12	,	,	PUNCT	.	_	5	punct	_	_
-13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	UCI	_	PROPN	PNOUN	_	15	nsubj	_	_
-15	anunciou	anunciar	VERB	VERB	_	0	root	_	_
-16	que	que	CCONJ	CONJ	_	21	mark	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	assunto	assunto	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	5	punct	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	UCI	UCI	PROPN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
+15	anunciou	anunciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16	que	que	SCONJ	_	_	21	mark	_	_
 17-18	no	_	_	_	_	_	_	_	_
-17	em	em	ADP	ADP	_	19	case	_	_
-18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	momento	momento	NOUN	NOUN	_	21	nmod	_	_
-20	não	não	ADV	ADV	Polarity=Neg	21	advmod	_	_
-21	tem	ter	VERB	VERB	_	15	ccomp	_	_
-22	"	"	PUNCT	.	_	24	punct	_	SpaceAfter=No
-23	mais	_	DET	DET	_	24	det	_	_
-24	nada	_	PRON	PRON	_	21	obj	_	_
-25	a	_	ADP	ADP	_	26	mark	_	_
-26	comentar	comentar	VERB	VERB	_	24	acl:inf	_	SpaceAfter=No
-27	"	"	PUNCT	.	_	24	punct	_	_
-28	sobre	_	ADP	ADP	_	30	case	_	_
-29	o	o	DET	DET	_	30	det	_	_
-30	mesmo	_	PRON	PRON	_	26	nmod	_	SpaceAfter=No
-31	.	.	PUNCT	.	_	15	punct	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	momento	momento	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
+20	não	não	ADV	_	Polarity=Neg	21	advmod	_	_
+21	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
+22	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+23	mais	mais	ADV	_	_	24	advmod	_	_
+24	nada	nada	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	21	obj	_	_
+25	a	a	SCONJ	_	_	26	mark	_	_
+26	comentar	comentar	VERB	_	VerbForm=Inf	24	acl	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	24	punct	_	_
+28	sobre	sobre	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	mesmo	mesmo	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	26	obl	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
 
 # sent_id = train-s1085
 # text = A tampa de ferro atingiu mais de 20 metros de altura e caiu num carro.
@@ -158,55 +162,57 @@
 15	semana	semana	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = train-s1087
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = A vigência do contrato será de 25 anos, contados a partir da assinatura da ordem de serviço, sendo que o prazo de amortização dos investimentos será no máximo de 16 anos, sem prorrogação.
-1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	vigência	vigência	NOUN	NOUN	_	6	nsubj	_	_
+# sent_id = train-s1087
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	vigência	vigência	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
-3	de	de	ADP	ADP	_	5	case	_	_
-4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	contrato	contrato	NOUN	NOUN	_	2	nmod	_	_
-6	será	ser	VERB	VERB	_	0	root	_	_
-7	de	de	ADP	ADP	_	9	case	_	_
-8	25	25	NUM	NUM	NumType=Card	9	nummod	_	_
-9	anos	ano	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
-10	,	,	PUNCT	.	_	11	punct	_	_
-11	contados	contar	VERB	VERB	_	9	acl	_	_
-12	a	_	ADP	ADP	_	13	mark	_	_
-13	partir	partir	VERB	VERB	_	11	nmod	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	contrato	contrato	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	cop	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	25	25	NUM	_	NumType=Card	9	nummod	_	_
+9	anos	ano	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	contados	contar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	9	acl	_	_
+12	a	a	ADP	_	_	13	case	_	_
+13	partir	partir	VERB	_	VerbForm=Inf	11	obl	_	_
 14-15	da	_	_	_	_	_	_	_	_
-14	de	de	ADP	ADP	_	16	case	_	_
-15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	assinatura	assinatura	NOUN	NOUN	_	13	nmod	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	assinatura	assinatura	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
 17-18	da	_	_	_	_	_	_	_	_
-17	de	de	ADP	ADP	_	19	case	_	_
-18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	ordem	ordem	NOUN	NOUN	_	16	nmod	_	_
-20	de	de	ADP	ADP	_	21	case	_	_
-21	serviço	serviço	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
-22	,	,	PUNCT	.	_	11	punct	_	_
-23	sendo	ser	VERB	VERB	_	6	acl	_	_
-24	que	que	CCONJ	CONJ	_	32	mark	_	_
-25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	prazo	prazo	NOUN	NOUN	_	32	nsubj	_	_
-27	de	de	ADP	ADP	_	28	case	_	_
-28	amortização	amortização	NOUN	NOUN	_	26	nmod	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	ordem	ordem	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	serviço	serviço	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	11	punct	_	_
+23	sendo	ser	AUX	_	VerbForm=Ger	35	mark	_	_
+24	que	que	SCONJ	_	_	23	fixed	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	prazo	prazo	NOUN	_	Gender=Masc|Number=Sing	35	nsubj	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	amortização	amortização	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
 29-30	dos	_	_	_	_	_	_	_	_
-29	de	de	ADP	ADP	_	31	case	_	_
-30	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
-31	investimentos	investimento	NOUN	NOUN	_	28	nmod	_	_
-32	será	ser	VERB	VERB	_	23	csubj	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	investimentos	investimento	NOUN	_	Gender=Masc|Number=Plur	28	nmod	_	_
+32	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	35	cop	_	_
 33-34	no	_	_	_	_	_	_	_	_
-33	em	em	ADP	ADP	_	35	case	_	_
-34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
-35	máximo	máximo	NOUN	NOUN	_	37	advmod	_	_
-36	de	de	ADP	ADP	_	38	case	_	_
-37	16	16	NUM	NUM	NumType=Card	38	nummod	_	_
-38	anos	ano	NOUN	NOUN	_	32	nmod	_	SpaceAfter=No
-39	,	,	PUNCT	.	_	41	punct	_	_
-40	sem	_	ADP	ADP	_	41	case	_	_
-41	prorrogação	prorrogação	NOUN	NOUN	_	38	nmod	_	SpaceAfter=No
-42	.	.	PUNCT	.	_	6	punct	_	_
+33	em	em	ADP	_	_	35	case	_	_
+34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	máximo	máximo	NOUN	_	Gender=Masc|Number=Sing	9	advcl	_	_
+36	de	de	ADP	_	_	38	case	_	_
+37	16	16	NUM	_	NumType=Card	38	nummod	_	_
+38	anos	ano	NOUN	_	Gender=Masc|Number=Plur	35	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	41	punct	_	_
+40	sem	sem	ADP	_	_	41	case	_	_
+41	prorrogação	prorrogação	NOUN	_	Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
 
 # sent_id = train-s1088
 # text = O Palmeiras está na penúltima colocação do campeonato com apenas dois pontos somados.

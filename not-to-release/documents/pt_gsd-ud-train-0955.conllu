@@ -1,46 +1,48 @@
-# sent_id = train-s9477
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O Instituto de Arte Contemporânea também publicou vários catálogos registrando suas exposições, entre eles: Campo Ampliado, Absorção e Intimismo em Volpi, O Olhar do Colecionador -- Coleção Tuiuiu, Sergio Camargo -- Claro Enigma.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	Instituto	_	PROPN	PNOUN	_	7	nsubj	_	_
-3	de	de	ADP	ADP	_	4	case	_	_
-4	Arte	_	PROPN	PNOUN	_	2	nmod	_	_
-5	Contemporânea	_	PROPN	PNOUN	_	4	amod	_	_
-6	também	também	ADV	ADV	_	7	advmod	_	_
-7	publicou	publicar	VERB	VERB	_	0	root	_	_
-8	vários	_	DET	DET	_	9	det	_	_
-9	catálogos	catálogo	NOUN	NOUN	_	7	obj	_	_
-10	registrando	registrar	VERB	VERB	_	9	acl	_	_
-11	suas	_	DET	DET	_	12	det:poss	_	_
-12	exposições	exposição	NOUN	NOUN	_	10	obj	_	SpaceAfter=No
-13	,	,	PUNCT	.	_	17	punct	_	_
-14	entre	_	ADP	ADP	_	15	case	_	_
-15	eles	_	PRON	PRON	_	17	nmod	_	SpaceAfter=No
-16	:	:	PUNCT	.	_	9	punct	_	_
-17	Campo	_	PROPN	PNOUN	_	9	appos	_	_
-18	Ampliado	_	PROPN	PNOUN	_	17	amod	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	20	punct	_	_
-20	Absorção	_	PROPN	PNOUN	_	17	conj	_	_
-21	e	e	CCONJ	CONJ	_	22	cc	_	_
-22	Intimismo	_	PROPN	PNOUN	_	20	conj	_	_
-23	em	em	ADP	ADP	_	24	case	_	_
-24	Volpi	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
-25	,	,	PUNCT	.	_	27	punct	_	_
-26	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	Olhar	_	PROPN	PNOUN	_	17	conj	_	_
+# sent_id = train-s9477
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Instituto	Instituto	PROPN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Arte	Arte	PROPN	_	ExtPos=PROPN|Number=Sing	2	nmod	_	_
+5	Contemporânea	Contemporânea	PROPN	_	Number=Sing	4	flat:name	_	_
+6	também	também	ADV	_	_	7	advmod	_	_
+7	publicou	publicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	vários	vários	DET	_	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
+9	catálogos	catálogo	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
+10	registrando	registrar	VERB	_	VerbForm=Ger	7	advcl	_	_
+11	suas	seu	DET	_	Gender=Fem|Number=Plur|PronType=Prs	12	det	_	_
+12	exposições	exposição	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	entre	entre	ADP	_	_	15	case	_	_
+15	eles	ele	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	obl	_	SpaceAfter=No
+16	:	:	PUNCT	_	_	17	punct	_	_
+17	Campo	Campo	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	12	appos	_	_
+18	Ampliado	Ampliado	PROPN	_	Number=Sing	17	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	Absorção	Absorção	PROPN	_	ExtPos=PROPN|Number=Sing	17	conj	_	_
+21	e	e	CCONJ	_	_	20	flat:name	_	_
+22	Intimismo	Intimismo	PROPN	_	Number=Sing	20	flat:name	_	_
+23	em	em	ADP	_	_	24	case	_	_
+24	Volpi	Volpi	PROPN	_	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	27	punct	_	_
+26	O	O	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	conj	_	_
+27	Olhar	Olhar	PROPN	_	Number=Sing	17	conj	_	_
 28-29	do	_	_	_	_	_	_	_	_
-28	de	de	ADP	ADP	_	30	case	_	_
-29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
-30	Colecionador	_	PROPN	PNOUN	_	27	nmod	_	_
-31	--	_	PUNCT	.	_	32	punct	_	_
-32	Coleção	_	PROPN	PNOUN	_	27	appos	_	_
-33	Tuiuiu	_	PROPN	PNOUN	_	32	flat	_	SpaceAfter=No
-34	,	,	PUNCT	.	_	35	punct	_	_
-35	Sergio	_	PROPN	PNOUN	_	17	conj	_	_
-36	Camargo	_	PROPN	PNOUN	_	35	flat	_	_
-37	--	_	PUNCT	.	_	39	punct	_	_
-38	Claro	_	PROPN	PNOUN	_	39	amod	_	_
-39	Enigma	_	PROPN	PNOUN	_	35	appos	_	SpaceAfter=No
-40	.	.	PUNCT	.	_	7	punct	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	Colecionador	Colecionador	PROPN	_	Number=Sing	27	nmod	_	_
+31	--	--	PUNCT	_	_	32	punct	_	_
+32	Coleção	Coleção	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	17	appos	_	_
+33	Tuiuiu	Tuiuiu	PROPN	_	Number=Sing	32	flat:name	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	35	punct	_	_
+35	Sergio	Sergio	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	17	conj	_	_
+36	Camargo	Camargo	PROPN	_	Number=Sing	35	flat:name	_	_
+37	--	--	PUNCT	_	_	38	punct	_	_
+38	Claro	Claro	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	17	conj	_	_
+39	Enigma	Enigma	PROPN	_	Number=Sing	38	flat:name	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
 # sent_id = train-s9478
 # text = Anaciaeschna é um género de libelinha da família Aeshnidae.
@@ -74,68 +76,70 @@
 13	Manaus	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = train-s9480
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = "Estou realmente impressionado com a quantidade de serviços sob demanda disponíveis pela AWS", diz Aaron Kenny, antes engenheiro da McAfee e agora CTO da startup eMeals.com, um site completamente hospedado na nuvem da AWS e que ajuda os usuários com planos de alimentação saudáveis.
-1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
-2	Estou	estar	VERB	VERB	_	18	ccomp	_	_
-3	realmente	realmente	ADV	ADV	_	2	advmod	_	_
-4	impressionado	impressionado	ADJ	ADJ	_	2	xcomp	_	_
-5	com	com	ADP	ADP	_	7	case	_	_
-6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	quantidade	quantidade	NOUN	NOUN	_	4	nmod	_	_
-8	de	de	ADP	ADP	_	9	case	_	_
-9	serviços	serviço	NOUN	NOUN	_	7	nmod	_	_
-10	sob	_	ADP	ADP	_	11	case	_	_
-11	demanda	demanda	NOUN	NOUN	_	9	nmod	_	_
-12	disponíveis	disponível	ADJ	ADJ	_	9	amod	_	_
+# sent_id = train-s9480
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	Estou	estar	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	realmente	realmente	ADV	_	_	4	advmod	_	_
+4	impressionado	impressionar,impressionado	ADJ	_	Gender=Masc|Number=Sing	18	parataxis	_	_
+5	com	com	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	serviços	serviço	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
+10	sob	sob	ADP	_	_	11	case	_	_
+11	demanda	demanda	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+12	disponíveis	disponível	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	_
 13-14	pela	_	_	_	_	_	_	_	_
-13	por	por	ADP	ADP	_	15	case	_	_
-14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	AWS	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
-16	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
-17	,	,	PUNCT	.	_	18	punct	_	_
-18	diz	dizer	VERB	VERB	_	0	root	_	_
-19	Aaron	_	PROPN	PNOUN	_	18	nsubj	_	_
-20	Kenny	_	PROPN	PNOUN	_	19	flat	_	SpaceAfter=No
-21	,	,	PUNCT	.	_	23	punct	_	_
-22	antes	antes	ADV	ADV	_	23	advmod	_	_
-23	engenheiro	engenheiro	NOUN	NOUN	_	19	appos	_	_
+13	por	por	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	AWS	AWS	PROPN	_	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	4	punct	_	_
+18	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	Aaron	Aaron	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	18	nsubj	_	_
+20	Kenny	Kenny	PROPN	_	Number=Sing	19	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	_
+22	antes	antes	ADV	_	_	23	advmod	_	_
+23	engenheiro	engenheiro	NOUN	_	Gender=Masc|Number=Sing	19	appos	_	_
 24-25	da	_	_	_	_	_	_	_	_
-24	de	de	ADP	ADP	_	26	case	_	_
-25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	McAfee	_	PROPN	PNOUN	_	23	nmod	_	_
-27	e	e	CCONJ	CONJ	_	29	cc	_	_
-28	agora	agora	ADV	ADV	_	29	advmod	_	_
-29	CTO	_	PROPN	PNOUN	_	23	conj	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	McAfee	McAfee	PROPN	_	Gender=Fem|Number=Sing	23	nmod	_	_
+27	e	e	CCONJ	_	_	29	cc	_	_
+28	agora	agora	ADV	_	_	29	advmod	_	_
+29	CTO	CTO	PROPN	_	Gender=Masc|Number=Sing	23	conj	_	_
 30-31	da	_	_	_	_	_	_	_	_
-30	de	de	ADP	ADP	_	32	case	_	_
-31	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
-32	startup	_	NOUN	NOUN	_	29	nmod	_	_
-33	eMeals.com	_	PROPN	PNOUN	_	32	appos	_	SpaceAfter=No
-34	,	,	PUNCT	.	_	23	punct	_	_
-35	um	um	DET	DET	_	36	det	_	_
-36	site	site	NOUN	NOUN	_	33	appos	_	_
-37	completamente	completamente	ADV	ADV	_	38	advmod	_	_
-38	hospedado	hospedado	ADJ	ADJ	_	36	amod	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	startup	startup	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
+33	eMeals.com	eMeals.com	PROPN	_	Gender=Fem|Number=Sing	32	appos	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	36	punct	_	_
+35	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	site	site	NOUN	_	Gender=Masc|Number=Sing	32	appos	_	_
+37	completamente	completamente	ADV	_	_	38	advmod	_	_
+38	hospedado	hospedar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	36	acl	_	_
 39-40	na	_	_	_	_	_	_	_	_
-39	em	em	ADP	ADP	_	41	case	_	_
-40	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
-41	nuvem	nuvem	NOUN	NOUN	_	38	nmod	_	_
+39	em	em	ADP	_	_	41	case	_	_
+40	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	nuvem	nuvem	NOUN	_	Gender=Fem|Number=Sing	38	obl	_	_
 42-43	da	_	_	_	_	_	_	_	_
-42	de	de	ADP	ADP	_	44	case	_	_
-43	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
-44	AWS	_	PROPN	PNOUN	_	41	nmod	_	_
-45	e	e	CCONJ	CONJ	_	47	cc	_	_
-46	que	_	PRON	PRON	_	47	nsubj	_	_
-47	ajuda	ajudar	VERB	VERB	_	38	conj	_	_
-48	os	o	DET	DET	_	49	det	_	_
-49	usuários	usuário	NOUN	NOUN	_	47	obj	_	_
-50	com	com	ADP	ADP	_	51	case	_	_
-51	planos	plano	NOUN	NOUN	_	47	nmod	_	_
-52	de	de	ADP	ADP	_	53	case	_	_
-53	alimentação	alimentação	NOUN	NOUN	_	51	nmod	_	_
-54	saudáveis	saudável	ADJ	ADJ	_	51	amod	_	SpaceAfter=No
-55	.	.	PUNCT	.	_	18	punct	_	_
+42	de	de	ADP	_	_	44	case	_	_
+43	a	o	DET	_	Definite=Def|PronType=Art	44	det	_	_
+44	AWS	AWS	PROPN	_	Gender=Fem|Number=Sing	41	nmod	_	_
+45	e	e	CCONJ	_	_	47	cc	_	_
+46	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	47	nsubj	_	_
+47	ajuda	ajudar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	conj	_	_
+48	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	49	det	_	_
+49	usuários	usuário	NOUN	_	Gender=Masc|Number=Plur	47	obj	_	_
+50	com	com	ADP	_	_	51	case	_	_
+51	planos	plano	NOUN	_	Gender=Masc|Number=Plur	47	iobj	_	_
+52	de	de	ADP	_	_	53	case	_	_
+53	alimentação	alimentação	NOUN	_	Gender=Fem|Number=Sing	51	nmod	_	_
+54	saudáveis	saudável	ADJ	_	Gender=Fem|Number=Plur	53	amod	_	SpaceAfter=No
+55	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
 
 # sent_id = train-s9481
 # text = A magistrada é titular da 3 ª Vara de Fazenda Pública e Registros Públicos da Comarca de Campo Grande e assume a vaga deixada pela Desa.
@@ -245,42 +249,44 @@
 33	essa	_	PRON	PRON	_	17	nsubj	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = train-s9484
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Essa dívida, que permanceu depois da negociação entre Galo e Vasco, era de 900 mil euros, algo em torno de R $ 2,221,816,77 milhões, se convertido atualmente.
-1	Essa	_	DET	DET	_	2	det	_	_
-2	dívida	dívida	NOUN	NOUN	_	15	nsubj	_	SpaceAfter=No
-3	,	,	PUNCT	.	_	5	punct	_	_
-4	que	_	PRON	PRON	_	5	nsubj	_	_
-5	permanceu	_	VERB	VERB	_	2	acl:relcl	_	_
-6	depois	depois	ADV	ADV	_	9	case	_	_
+# sent_id = train-s9484
+1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	dívida	dívida	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	5	nsubj	_	_
+5	permanceu	permancer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+6	depois	depois	ADV	_	_	5	advmod	_	_
 7-8	da	_	_	_	_	_	_	_	_
-7	de	de	ADP	ADP	_	6	case	_	_
-8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-9	negociação	negociação	NOUN	NOUN	_	5	nmod	_	_
-10	entre	_	ADP	ADP	_	11	case	_	_
-11	Galo	_	PROPN	PNOUN	_	9	nmod	_	_
-12	e	e	CCONJ	CONJ	_	13	cc	_	_
-13	Vasco	_	PROPN	PNOUN	_	11	conj	_	SpaceAfter=No
-14	,	,	PUNCT	.	_	5	punct	_	_
-15	era	_	VERB	VERB	_	0	root	_	_
-16	de	de	ADP	ADP	_	19	case	_	_
-17	900	900	NUM	NUM	NumType=Card	18	nummod	_	_
-18	mil	_	NUM	NUM	NumType=Card	19	nummod	_	_
-19	euros	euro	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
-20	,	,	PUNCT	.	_	21	punct	_	_
-21	algo	_	PRON	PRON	_	19	appos	_	_
-22	em	_	ADP	ADP	_	28	advmod	_	_
-23	torno	torno	NOUN	NOUN	_	22	fixed	_	_
-24	de	_	ADP	ADP	_	22	fixed	_	_
-25	R	r	NOUN	NOUN	_	21	appos	_	_
-26	$	_	SYM	SYM	_	25	flat	_	_
-27	2,221,816,77	2,221,816,77	NUM	NUM	NumType=Card	28	nummod	_	_
-28	milhões	_	NUM	NUM	NumType=Card	25	nummod	_	SpaceAfter=No
-29	,	,	PUNCT	.	_	31	punct	_	_
-30	se	_	CCONJ	CONJ	_	31	mark	_	_
-31	convertido	converter	VERB	VERB	_	15	advcl	_	_
-32	atualmente	atualmente	ADV	ADV	_	31	advmod	_	SpaceAfter=No
-33	.	.	PUNCT	.	_	15	punct	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	negociação	negociação	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+10	entre	entre	ADP	_	_	11	case	_	_
+11	Galo	Galo	PROPN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	Vasco	Vasco	PROPN	_	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	5	punct	_	_
+15	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	cop	_	_
+16	de	de	ADP	_	_	19	case	_	_
+17	900	900	NUM	_	NumType=Card	19	nummod	_	_
+18	mil	mil	NUM	_	NumType=Card	17	flat	_	_
+19	euros	euro	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	algo	algo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	19	appos	_	_
+22	em	em	ADP	_	_	25	case	_	_
+23	torno	torno	NOUN	_	Gender=Masc|Number=Sing	22	fixed	_	_
+24	de	de	ADP	_	_	22	fixed	_	_
+25	R	R	SYM	_	_	21	nmod	_	_
+26	$	$	SYM	_	_	25	nmod	_	_
+27	2,221,816,77	2,221,816,77	NUM	_	NumType=Card	26	nummod	_	_
+28	milhões	milhão	NUM	_	NumType=Card	27	flat	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	31	punct	_	_
+30	se	se	PRON	_	_	31	mark	_	_
+31	convertido	converter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	25	acl	_	_
+32	atualmente	atualmente	ADV	_	_	31	advmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
 
 # sent_id = train-s9485
 # text = O Brasil tem problemas imensos e grandes dificuldades para enfrentá - los.

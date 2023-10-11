@@ -1,42 +1,44 @@
-# sent_id = train-s3431
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Segundo o Instituto Médico Legal (IML), o crime ocorreu na Rua Rio Madeira, no bairro Adrianópolis, zona centro - sul, por volta das 21h.
-1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	Instituto	_	PROPN	PNOUN	_	12	nmod	_	_
-4	Médico	_	PROPN	PNOUN	_	3	amod	_	_
-5	Legal	_	PROPN	PNOUN	_	3	amod	_	_
-6	(	(	PUNCT	.	_	7	punct	_	SpaceAfter=No
-7	IML	_	PROPN	PNOUN	_	3	appos	_	SpaceAfter=No
-8	)	)	PUNCT	.	_	7	punct	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	3	punct	_	_
-10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	crime	crime	NOUN	NOUN	_	12	nsubj	_	_
-12	ocorreu	ocorrer	VERB	VERB	_	0	root	_	_
+# sent_id = train-s3431
+1	Segundo	segundo	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Instituto	Instituto	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	12	obl	_	_
+4	Médico	Médico	PROPN	_	Number=Sing	3	flat:name	_	_
+5	Legal	Legal	PROPN	_	Number=Sing	3	flat:name	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	IML	IML	PROPN	_	Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	3	punct	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	crime	crime	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+12	ocorreu	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 13-14	na	_	_	_	_	_	_	_	_
-13	em	em	ADP	ADP	_	15	case	_	_
-14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	Rua	rua	NOUN	NOUN	_	12	nmod	_	_
-16	Rio	_	PROPN	PNOUN	_	15	flat	_	_
-17	Madeira	_	PROPN	PNOUN	_	15	flat	_	SpaceAfter=No
-18	,	,	PUNCT	.	_	21	punct	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Rua	Rua	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	12	obl	_	_
+16	Rio	Rio	PROPN	_	Number=Sing	15	flat:name	_	_
+17	Madeira	Madeira	PROPN	_	Number=Sing	15	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	12	punct	_	_
 19-20	no	_	_	_	_	_	_	_	_
-19	em	em	ADP	ADP	_	21	case	_	_
-20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	bairro	bairro	NOUN	NOUN	_	12	nmod	_	_
-22	Adrianópolis	_	PROPN	PNOUN	_	21	appos	_	SpaceAfter=No
-23	,	,	PUNCT	.	_	27	punct	_	_
-24	zona	zona	NOUN	NOUN	_	27	mark	_	_
-25	centro	_	ADJ	ADJ	_	27	amod	_	_
-26	-	-	PUNCT	.	_	27	punct	_	_
-27	sul	sul	ADJ	ADJ	_	21	appos	_	SpaceAfter=No
-28	,	,	PUNCT	.	_	30	punct	_	_
-29	por	por	ADP	ADP	_	30	case	_	_
-30	volta	volta	NOUN	NOUN	_	12	nmod	_	_
+19	em	em	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	bairro	bairro	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+22	Adrianópolis	Adrianópolis	PROPN	_	Gender=Masc|Number=Sing	21	appos	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	zona	zona	NOUN	_	Gender=Fem|Number=Sing	21	appos	_	_
+25	centro	centro	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
+26	-	-	PUNCT	_	_	27	punct	_	_
+27	sul	sul	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	12	punct	_	_
+29	por	por	ADP	_	_	30	case	_	_
+30	volta	volta	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
 31-32	das	_	_	_	_	_	_	_	_
-31	de	de	ADP	ADP	_	33	case	_	_
-32	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
-33	21h	_	NUM	NUM	NumType=Card	30	nmod	_	SpaceAfter=No
-34	.	.	PUNCT	.	_	12	punct	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	21h	21h	NOUN	_	Gender=Fem|Number=Plur	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
 
 # sent_id = train-s3432
 # text = A finalização nos primeiros minutos da etapa complementar empolgou Riquelme e motivou novas investidas do temido camisa 10 do Boca Juniors.
@@ -104,40 +106,42 @@
 28	ano	ano	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = train-s3434
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Recebeu o Prêmio Chauvenet em 1972, pela publicação on local solvability of linear partial differential equations, Bulletin da American Mathematical Society, 76:552, 1970.
-1	Recebeu	receber	VERB	VERB	_	0	root	_	_
-2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	Prêmio	_	PROPN	PNOUN	_	1	obj	_	_
-4	Chauvenet	_	PROPN	PNOUN	_	3	flat	_	_
-5	em	em	ADP	ADP	_	6	case	_	_
-6	1972	1972	NUM	NUM	NumType=Card	1	nmod	_	SpaceAfter=No
-7	,	,	PUNCT	.	_	10	punct	_	_
+# sent_id = train-s3434
+1	Recebeu	receber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Prêmio	Prêmio	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	1	obj	_	_
+4	Chauvenet	Chauvenet	PROPN	_	Number=Sing	3	flat:name	_	_
+5	em	em	ADP	_	_	6	case	_	_
+6	1972	1972	NUM	_	NumType=Card	1	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	1	punct	_	_
 8-9	pela	_	_	_	_	_	_	_	_
-8	por	por	ADP	ADP	_	10	case	_	_
-9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	publicação	publicação	NOUN	NOUN	_	1	nmod	_	_
-11	on	_	PROPN	PNOUN	_	13	case	_	_
-12	local	local	ADJ	ADJ	_	13	amod	_	_
-13	solvability	_	NOUN	NOUN	_	10	appos	_	_
-14	of	_	ADP	ADP	_	18	case	_	_
-15	linear	linear	ADJ	ADJ	_	18	amod	_	_
-16	partial	_	ADJ	ADJ	_	18	amod	_	_
-17	differential	_	ADJ	ADJ	_	18	amod	_	_
-18	equations	_	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	20	punct	_	_
-20	Bulletin	_	PROPN	PNOUN	_	10	appos	_	_
+8	por	por	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	publicação	publicação	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
+11	on	on	X	_	Gender=Fem|Number=Sing	10	nmod	_	_
+12	local	local	ADJ	_	_	11	amod	_	_
+13	solvability	solvability	X	_	_	11	flat:foreign	_	_
+14	of	of	X	_	_	11	flat:foreign	_	_
+15	linear	linear	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
+16	partial	partial	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+17	differential	differential	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
+18	equations	equations	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	Bulletin	Bulletin	PROPN	_	Gender=Masc|Number=Sing	10	appos	_	_
 21-22	da	_	_	_	_	_	_	_	_
-21	de	de	ADP	ADP	_	25	case	_	_
-22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-23	American	_	PROPN	PNOUN	_	25	amod	_	_
-24	Mathematical	_	PROPN	PNOUN	_	25	amod	_	_
-25	Society	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
-26	,	,	PUNCT	.	_	27	punct	_	_
-27	76:552	_	NUM	NUM	NumType=Card	20	appos	_	SpaceAfter=No
-28	,	,	PUNCT	.	_	29	punct	_	_
-29	1970	1970	NUM	NUM	NumType=Card	20	nmod	_	SpaceAfter=No
-30	.	.	PUNCT	.	_	1	punct	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	American	American	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	20	nmod	_	_
+24	Mathematical	Mathematical	PROPN	_	Number=Sing	23	flat:name	_	_
+25	Society	Society	PROPN	_	Number=Sing	23	flat:name	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	76:552	76:552	NUM	_	NumType=Card	23	appos	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	_
+29	1970	1970	NUM	_	NumType=Card	23	appos	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = train-s3435
 # text = No total, serão ministradas oito horas - aula.

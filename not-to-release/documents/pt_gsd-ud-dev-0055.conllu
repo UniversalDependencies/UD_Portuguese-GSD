@@ -185,44 +185,46 @@
 20	funcionário	funcionário	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	15	punct	_	_
 
-# sent_id = dev-s540
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Antes da chegada do novo ano haverá um show no qual se apresentarão, entre outros, a cantora americana Taylor Swift e o rapper sul - coreano Psy.
-1	Antes	antes	ADV	ADV	_	4	case	_	_
+# sent_id = dev-s540
+1	Antes	antes	ADV	_	_	9	advmod	_	_
 2-3	da	_	_	_	_	_	_	_	_
-2	de	de	ADP	ADP	_	1	case	_	_
-3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
-4	chegada	chegada	NOUN	NOUN	_	9	nmod	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	chegada	chegada	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
 5-6	do	_	_	_	_	_	_	_	_
-5	de	de	ADP	ADP	_	8	case	_	_
-6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-7	novo	novo	ADJ	ADJ	_	8	amod	_	_
-8	ano	ano	NOUN	NOUN	_	4	nmod	_	_
-9	haverá	haver	VERB	VERB	_	0	root	_	_
-10	um	um	DET	DET	_	11	det	_	_
-11	show	show	NOUN	NOUN	_	9	obj	_	_
+5	de	de	ADP	_	_	8	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	novo	novo	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+8	ano	ano	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+9	haverá	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+10	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	show	show	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
 12-13	no	_	_	_	_	_	_	_	_
-12	em	em	ADP	ADP	_	14	case	_	_
-13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	qual	_	PRON	PRON	_	16	nmod	_	_
-15	se	_	PRON	PRON	_	16	obj	_	_
-16	apresentarão	apresentar	VERB	VERB	_	11	acl:relcl	_	SpaceAfter=No
-17	,	,	PUNCT	.	_	19	punct	_	_
-18	entre	_	ADP	ADP	_	19	case	_	_
-19	outros	_	PRON	PRON	_	16	nmod	_	SpaceAfter=No
-20	,	,	PUNCT	.	_	19	punct	_	_
-21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	cantora	cantor	NOUN	NOUN	_	16	nsubj	_	_
-23	americana	americano	ADJ	ADJ	_	22	amod	_	_
-24	Taylor	_	PROPN	PNOUN	_	22	appos	_	_
-25	Swift	_	PROPN	PNOUN	_	24	flat	_	_
-26	e	e	CCONJ	CONJ	_	28	cc	_	_
-27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
-28	rapper	rapper	NOUN	NOUN	_	22	conj	_	_
-29	sul	sul	ADJ	ADJ	_	31	amod	_	_
-30	-	-	PUNCT	.	_	31	punct	_	_
-31	coreano	coreano	ADJ	ADJ	_	28	amod	_	_
-32	Psy	_	PROPN	PNOUN	_	28	appos	_	SpaceAfter=No
-33	.	.	PUNCT	.	_	9	punct	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	qual	qual	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	16	obl	_	_
+15	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	expl	_	_
+16	apresentarão	apresentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	11	acl:relcl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	entre	entre	ADP	_	_	19	case	_	_
+19	outros	outro	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	16	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	16	punct	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	cantora	cantora	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
+23	americana	americano	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
+24	Taylor	Taylor	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	22	appos	_	_
+25	Swift	Swift	PROPN	_	Number=Sing	24	flat:name	_	_
+26	e	e	CCONJ	_	_	28	cc	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	rapper	rapper	NOUN	_	Gender=Masc|Number=Sing	22	conj	_	_
+29	sul	sul	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	_
+30	-	-	PUNCT	_	_	31	punct	_	_
+31	coreano	coreano	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	_
+32	Psy	Psy	PROPN	_	Gender=Masc|Number=Sing	28	appos	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
 
 # sent_id = dev-s541
 # text = Também é pensar, pela primeira vez, não que o nosso acervo constrói a história da Bienal de São Paulo, mas que a Bienal de São Paulo é que construiu a história do nosso acervo modernista -- destacou Ana Magalhães.

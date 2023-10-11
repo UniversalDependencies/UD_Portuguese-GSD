@@ -16,48 +16,50 @@
 13	deformada	deformado	ADJ	ADJ	_	12	xcomp	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = dev-s635
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Desde 2005 estas remessas vêm crescendo 16 % ao ano, e muitos países que são devedores internacionais ficariam em melhor situação caso o dinheiro enviado para fora fosse taxado e usado para pagar a dívida externa.
-1	Desde	_	ADP	ADP	_	2	case	_	_
-2	2005	2005	NUM	NUM	NumType=Card	6	nmod	_	_
-3	estas	_	DET	DET	_	4	det	_	_
-4	remessas	remessa	NOUN	NOUN	_	6	nsubj	_	_
-5	vêm	vir	AUX	AUX	_	6	aux	_	_
-6	crescendo	crescer	VERB	VERB	_	0	root	_	_
-7	16	16	NUM	NUM	NumType=Card	8	nummod	_	_
-8	%	_	SYM	SYM	_	6	nmod	_	_
+# sent_id = dev-s635
+1	Desde	desde	ADP	_	_	2	case	_	_
+2	2005	2005	NUM	_	NumType=Card	6	obl	_	_
+3	estas	este	DET	_	Gender=Fem|Number=Plur|PronType=Dem	4	det	_	_
+4	remessas	remessa	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
+5	vêm	vir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	crescendo	crescer	VERB	_	VerbForm=Ger	0	root	_	_
+7	16	16	NUM	_	NumType=Card	8	nummod	_	_
+8	%	%	SYM	_	_	6	obj	_	_
 9-10	ao	_	_	_	_	_	_	_	_
-9	a	a	ADP	ADP	_	11	case	_	_
-10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	ano	ano	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-12	,	,	PUNCT	.	_	31	punct	_	_
-13	e	e	CCONJ	CONJ	_	31	cc	_	_
-14	muitos	_	DET	DET	_	15	det	_	_
-15	países	país	NOUN	NOUN	_	31	nsubj	_	_
-16	que	_	PRON	PRON	_	18	nsubj	_	_
-17	são	ser	AUX	AUX	_	18	cop	_	_
-18	devedores	devedor	NOUN	NOUN	_	15	acl:relcl	_	_
-19	internacionais	internacional	ADJ	ADJ	_	18	amod	_	_
-20	ficariam	ficar	VERB	VERB	_	31	mark	_	_
-21	em	em	ADP	ADP	_	23	case	_	_
-22	melhor	melhor	ADJ	ADJ	_	23	amod	_	_
-23	situação	situação	NOUN	NOUN	_	31	nmod	_	_
-24	caso	caso	NOUN	NOUN	_	31	mark	_	_
-25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	dinheiro	dinheiro	NOUN	NOUN	_	31	nsubj:pass	_	_
-27	enviado	enviar	VERB	VERB	_	26	acl	_	_
-28	para	_	ADP	ADP	_	29	mark	_	_
-29	fora	fora	ADV	ADV	_	27	nmod	_	_
-30	fosse	_	AUX	AUX	_	31	aux:pass	_	_
-31	taxado	taxar	VERB	VERB	_	6	conj	_	_
-32	e	e	CCONJ	CONJ	_	33	cc	_	_
-33	usado	usar	VERB	VERB	_	31	conj	_	_
-34	para	_	ADP	ADP	_	35	mark	_	_
-35	pagar	pagar	VERB	VERB	_	33	advcl	_	_
-36	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
-37	dívida	dívida	NOUN	NOUN	_	35	obj	_	_
-38	externa	externo	ADJ	ADJ	_	37	amod	_	SpaceAfter=No
-39	.	.	PUNCT	.	_	6	punct	_	_
+9	a	a	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	ano	ano	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	20	punct	_	_
+13	e	e	CCONJ	_	_	20	cc	_	_
+14	muitos	muito	DET	_	Gender=Masc|Number=Plur|PronType=Ind	15	det	_	_
+15	países	país	NOUN	_	Gender=Masc|Number=Plur	20	nsubj	_	_
+16	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	18	nsubj	_	_
+17	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	devedores	devedor	NOUN	_	Gender=Masc|Number=Plur	15	acl:relcl	_	_
+19	internacionais	internacional	ADJ	_	Gender=Masc|Number=Plur	18	amod	_	_
+20	ficariam	ficar	VERB	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	6	conj	_	_
+21	em	em	ADP	_	_	23	case	_	_
+22	melhor	melhor	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
+23	situação	situação	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	_
+24	caso	caso	SCONJ	_	_	31	mark	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	31	nsubj:pass	_	_
+27	enviado	enviar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	26	acl	_	_
+28	para	para	ADP	_	_	29	case	_	_
+29	fora	fora	ADV	_	_	27	advmod	_	_
+30	fosse	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	aux:pass	_	_
+31	taxado	taxar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	20	advcl	_	_
+32	e	e	CCONJ	_	_	33	cc	_	_
+33	usado	usar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	31	conj	_	_
+34	para	para	SCONJ	_	_	35	mark	_	_
+35	pagar	pagar	VERB	_	VerbForm=Inf	33	advcl	_	_
+36	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	dívida	dívida	NOUN	_	Gender=Fem|Number=Sing	35	obj	_	_
+38	externa	externo	ADJ	_	Gender=Fem|Number=Sing	37	amod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
 # sent_id = dev-s636
 # text = A Universidade Federal de Mato Grosso (UFMT) já integra o Sisu.

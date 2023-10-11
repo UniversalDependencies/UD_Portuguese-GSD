@@ -1,46 +1,48 @@
-# sent_id = test-s676
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Michelangelo deveria receber pela obra um salário anual de 1 200 ducados -- dez vezes mais do que outro artista receberia -- e mais um pagamento final de 10 mil ducados, uma quantia bastante expressiva.
-1	Michelangelo	_	PROPN	PNOUN	_	3	nsubj	_	_
-2	deveria	dever	AUX	AUX	_	3	aux	_	_
-3	receber	receber	VERB	VERB	_	0	root	_	_
+# sent_id = test-s676
+1	Michelangelo	Michelangelo	PROPN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	deveria	dever	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	receber	receber	VERB	_	VerbForm=Inf	2	xcomp	_	_
 4-5	pela	_	_	_	_	_	_	_	_
-4	por	por	ADP	ADP	_	6	case	_	_
-5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	obra	obra	NOUN	NOUN	_	3	nmod	_	_
-7	um	um	DET	DET	_	8	det	_	_
-8	salário	salário	NOUN	NOUN	_	3	obj	_	_
-9	anual	anual	ADJ	ADJ	_	8	amod	_	_
-10	de	de	ADP	ADP	_	13	case	_	_
-11	1	1	NUM	NUM	NumType=Card	12	nummod	_	_
-12	200	200	NUM	NUM	NumType=Card	13	nummod	_	_
-13	ducados	ducado	NOUN	NOUN	_	8	nmod	_	_
-14	--	_	PUNCT	.	_	17	punct	_	_
-15	dez	_	NUM	NUM	NumType=Card	16	nummod	_	_
-16	vezes	vez	NOUN	NOUN	_	17	nmod	_	_
-17	mais	mais	ADV	ADV	_	8	advmod	_	_
+4	por	por	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	obra	obra	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+7	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	salário	salário	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+9	anual	anual	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+10	de	de	ADP	_	_	13	case	_	_
+11	1	1	NUM	_	NumType=Card	13	nummod	_	_
+12	200	200	NUM	_	NumType=Card	13	nummod	_	_
+13	ducados	ducado	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+14	--	--	PUNCT	_	_	16	punct	_	_
+15	dez	dez	NUM	_	NumType=Card	16	nummod	_	_
+16	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	8	appos	_	_
+17	mais	mais	ADV	_	_	16	advmod	_	_
 18-19	do	_	_	_	_	_	_	_	_
-18	de	de	ADP	ADP	_	23	case	_	_
-19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-20	que	_	CCONJ	CONJ	_	18	fixed	_	_
-21	outro	_	DET	DET	_	22	det	_	_
-22	artista	artista	NOUN	NOUN	_	23	nsubj	_	_
-23	receberia	receber	VERB	VERB	_	17	advcl	_	_
-24	--	_	PUNCT	.	_	17	punct	_	_
-25	e	e	CCONJ	CONJ	_	28	cc	_	_
-26	mais	mais	ADV	ADV	_	27	advmod	_	_
-27	um	_	NUM	NUM	NumType=Card	28	nummod	_	_
-28	pagamento	pagamento	NOUN	NOUN	_	8	conj	_	_
-29	final	final	ADJ	ADJ	_	28	amod	_	_
-30	de	de	ADP	ADP	_	33	case	_	_
-31	10	10	NUM	NUM	NumType=Card	32	nummod	_	_
-32	mil	_	NUM	NUM	NumType=Card	33	nummod	_	_
-33	ducados	ducado	NOUN	NOUN	_	28	nmod	_	SpaceAfter=No
-34	,	,	PUNCT	.	_	36	punct	_	_
-35	uma	um	DET	DET	_	36	det	_	_
-36	quantia	quantia	NOUN	NOUN	_	33	appos	_	_
-37	bastante	bastante	ADV	ADV	_	38	advmod	_	_
-38	expressiva	expressivo	ADJ	ADJ	_	36	amod	_	SpaceAfter=No
-39	.	.	PUNCT	.	_	3	punct	_	_
+18	de	de	ADP	_	_	22	case	_	_
+19	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	18	fixed	_	_
+20	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	18	fixed	_	_
+21	outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	22	det	_	_
+22	artista	artista	NOUN	_	Gender=Masc|Number=Sing	23	nsubj	_	_
+23	receberia	receber	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	8	acl:relcl	_	_
+24	--	--	PUNCT	_	_	23	punct	_	_
+25	e	e	CCONJ	_	_	28	cc	_	_
+26	mais	mais	ADV	_	_	27	advmod	_	_
+27	um	um	NUM	_	NumType=Card	28	nummod	_	_
+28	pagamento	pagamento	NOUN	_	Gender=Masc|Number=Sing	8	conj	_	_
+29	final	final	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	_
+30	de	de	ADP	_	_	33	case	_	_
+31	10	10	NUM	_	NumType=Card	33	nummod	_	_
+32	mil	mil	NUM	_	NumType=Card	31	flat	_	_
+33	ducados	ducado	NOUN	_	Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	36	punct	_	_
+35	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	quantia	quantia	NOUN	_	Gender=Fem|Number=Sing	28	appos	_	_
+37	bastante	bastante	ADV	_	_	38	advmod	_	_
+38	expressiva	expressivo	ADJ	_	Gender=Fem|Number=Sing	36	amod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = test-s677
 # text = De acordo com os censos de 2004, a comuna tem 5923 habitantes, com uma densidade 43,9 hab / km ².
@@ -169,35 +171,37 @@
 47	Ferrari	_	PROPN	PNOUN	_	44	nmod	_	SpaceAfter=No
 48	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = test-s680
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Maquiavelismo é a denominação que se dá à doutrina política emanada do livro O Príncipe, escrito por Nicolau Maquiavel em 1513.
-1	Maquiavelismo	maquiavelismo	NOUN	NOUN	_	4	nsubj	_	_
-2	é	ser	AUX	AUX	_	4	cop	_	_
-3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	denominação	denominação	NOUN	NOUN	_	0	root	_	_
-5	que	_	PRON	PRON	_	7	obj	_	_
-6	se	_	PART	PRT	_	7	expl:pv	_	_
-7	dá	dar	VERB	VERB	_	4	acl:relcl	_	_
+# sent_id = test-s680
+1	Maquiavelismo	Maquiavelismo	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	denominação	denominação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+5	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	7	nsubj	_	_
+6	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	expl	_	_
+7	dá	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
 8-9	à	_	_	_	_	_	_	_	_
-8	a	a	ADP	ADP	_	10	case	_	_
-9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	doutrina	doutrina	NOUN	NOUN	_	7	nmod	_	_
-11	política	político	ADJ	ADJ	_	10	amod	_	_
-12	emanada	emanar	VERB	VERB	_	10	acl	_	_
+8	a	a	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	doutrina	doutrina	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+11	política	político	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+12	emanada	emanar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	10	acl	_	_
 13-14	do	_	_	_	_	_	_	_	_
-13	de	de	ADP	ADP	_	15	case	_	_
-14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	livro	livro	NOUN	NOUN	_	12	nmod	_	_
-16	O	_	PROPN	PNOUN	_	17	det	_	_
-17	Príncipe	_	PROPN	PNOUN	_	15	appos	_	SpaceAfter=No
-18	,	,	PUNCT	.	_	19	punct	_	_
-19	escrito	escrever	VERB	VERB	_	15	acl	_	_
-20	por	por	ADP	ADP	_	21	case	_	_
-21	Nicolau	_	PROPN	PNOUN	_	19	nmod	_	_
-22	Maquiavel	_	PROPN	PNOUN	_	21	flat	_	_
-23	em	em	ADP	ADP	_	24	case	_	_
-24	1513	1513	NUM	NUM	NumType=Card	19	nmod	_	SpaceAfter=No
-25	.	.	PUNCT	.	_	4	punct	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	livro	livro	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
+16	O	O	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing|PronType=Art	15	appos	_	_
+17	Príncipe	Príncipe	PROPN	_	Number=Sing	16	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	escrito	escrever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	15	acl	_	_
+20	por	por	ADP	_	_	21	case	_	_
+21	Nicolau	Nicolau	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	19	obl:agent	_	_
+22	Maquiavel	Maquiavel	PROPN	_	Number=Sing	21	flat:name	_	_
+23	em	em	ADP	_	_	24	case	_	_
+24	1513	1513	NUM	_	NumType=Card	19	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # sent_id = test-s681
 # text = Este é o caso do Centro Federal de Educação Tecnológica (Cefet - RJ), que no ano passado ofereceu cerca de 1,2 mil vagas, sem cotas, em cursos de graduação na área de exatas, e da Universidade Federal Rural do Rio de Janeiro (UFRRJ), que aguarda definição do Conselho de Ensino e Pesquisa da universidade quanto ao percentual a ser aplicado no próximo ano em relação às quase 3,5 mil vagas disponíveis.

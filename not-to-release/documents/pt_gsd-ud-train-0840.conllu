@@ -92,29 +92,35 @@
 24	prata	prata	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = train-s8343
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Os bancos voltaram a ser mais flexíveis.
-1	Os	o	DET	DET	_	2	det	_	_
-2	bancos	banco	NOUN	NOUN	_	5	nsubj	_	_
-3	voltaram	voltar	AUX	AUX	_	5	aux	_	_
-4	a	_	ADP	ADP	_	5	mark	_	_
-5	ser	ser	VERB	VERB	_	0	root	_	_
-6	mais	mais	ADV	ADV	_	7	advmod	_	_
-7	flexíveis	flexível	ADJ	ADJ	_	5	xcomp	_	SpaceAfter=No
-8	.	.	PUNCT	.	_	5	punct	_	_
+# sent_id = train-s8343
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	bancos	banco	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	voltaram	voltar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	SCONJ	_	_	7	mark	_	_
+5	ser	ser	AUX	_	VerbForm=Inf	7	cop	_	_
+6	mais	mais	ADV	_	_	7	advmod	_	_
+7	flexíveis	flexível	ADJ	_	Gender=Masc|Number=Plur	3	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
-# sent_id = train-s8345
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = A fazenda dele foi invadida duas vezes em 2012.
-1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	fazenda	fazenda	NOUN	NOUN	_	5	nsubj:pass	_	_
-3	dele	_	X	ADPPRON	_	2	det:poss	_	_
-4	foi	_	AUX	AUX	_	5	aux:pass	_	_
-5	invadida	invadir	VERB	VERB	_	0	root	_	_
-6	duas	_	NUM	NUM	NumType=Card	7	nummod	_	_
-7	vezes	vez	NOUN	NOUN	_	5	nmod	_	_
-8	em	em	ADP	ADP	_	9	case	_	_
-9	2012	2012	NUM	NUM	NumType=Card	5	nmod	_	SpaceAfter=No
-10	.	.	PUNCT	.	_	5	punct	_	_
+# sent_id = train-s8345
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	fazenda	fazenda	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+3-4	dele	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	ele	ele	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nmod	_	_
+5	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+6	invadida	invadir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+7	duas	dois	NUM	_	NumType=Card	8	nummod	_	_
+8	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	_
+9	em	em	ADP	_	_	10	case	_	_
+10	2012	2012	NUM	_	NumType=Card	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
 # sent_id = train-s8346
 # text = As mudanças passariam também pela conscientização dos usuários, e principalmente das empresas, que têm, muitas vezes, sistemas que funcionam ininterruptamente, mas não têm a proteção necessária para perceber atividades estranhas nos sistemas.

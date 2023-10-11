@@ -1,58 +1,64 @@
-# sent_id = train-s2531
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Apenas convidados dele puderam entrar na festa.
-1	Apenas	apenas	ADV	ADV	_	2	advmod	_	_
-2	convidados	convidado	NOUN	NOUN	_	5	nsubj	_	_
-3	dele	_	X	ADPPRON	_	2	det:poss	_	_
-4	puderam	poder	AUX	AUX	_	5	aux	_	_
-5	entrar	entrar	VERB	VERB	_	0	root	_	_
-6-7	na	_	_	_	_	_	_	_	_
-6	em	em	ADP	ADP	_	8	case	_	_
-7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	festa	festa	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
-9	.	.	PUNCT	.	_	5	punct	_	_
+# sent_id = train-s2531
+1	Apenas	apenas	ADV	_	_	2	advmod	_	_
+2	convidados	convidado	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
+3-4	dele	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	ele	ele	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nmod	_	_
+5	puderam	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+6	entrar	entrar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7-8	na	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	festa	festa	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
-# sent_id = train-s2532
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = WesleyA contratação mais cara da temporada (R $ 14,4 milhões) sofreu grave lesão no joelho direito logo no quarto jogo e só voltou a atuar nas últimas duas partidas.
-1	WesleyA	_	DET	DET	_	2	det	_	_
-2	contratação	contratação	NOUN	NOUN	_	14	nsubj	_	_
-3	mais	mais	ADV	ADV	_	4	advmod	_	_
-4	cara	caro	ADJ	ADJ	_	2	amod	_	_
+# sent_id = train-s2532
+1	WesleyA	wesleya	PROPN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
+2	contratação	contratação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+3	mais	mais	ADV	_	_	4	advmod	_	_
+4	cara	caro	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 5-6	da	_	_	_	_	_	_	_	_
-5	de	de	ADP	ADP	_	7	case	_	_
-6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	temporada	temporada	NOUN	NOUN	_	2	nmod	_	_
-8	(	(	PUNCT	.	_	9	punct	_	SpaceAfter=No
-9	R	r	NOUN	NOUN	_	2	appos	_	_
-10	$	_	SYM	SYM	_	9	flat	_	_
-11	14,4	14,4	NUM	NUM	NumType=Card	12	nummod	_	_
-12	milhões	_	NUM	NUM	NumType=Card	9	nummod	_	SpaceAfter=No
-13	)	)	PUNCT	.	_	9	punct	_	_
-14	sofreu	sofrer	VERB	VERB	_	0	root	_	_
-15	grave	grave	ADJ	ADJ	_	16	amod	_	_
-16	lesão	lesão	NOUN	NOUN	_	14	obj	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	temporada	temporada	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	R	R	SYM	_	_	2	appos	_	_
+10	$	$	SYM	_	_	9	appos	_	_
+11	14,4	14,4	NUM	_	NumType=Card	10	nummod	_	_
+12	milhões	milhão	NUM	_	NumType=Card	11	flat	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	9	punct	_	_
+14	sofreu	sofrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	grave	grave	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
+16	lesão	lesão	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
 17-18	no	_	_	_	_	_	_	_	_
-17	em	em	ADP	ADP	_	19	case	_	_
-18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	joelho	joelho	NOUN	NOUN	_	16	nmod	_	_
-20	direito	direito	ADJ	ADJ	_	19	amod	_	_
-21	logo	logo	ADV	ADV	_	25	advmod	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	joelho	joelho	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+20	direito	direito	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
+21	logo	logo	ADV	_	_	14	advmod	_	_
 22-23	no	_	_	_	_	_	_	_	_
-22	em	em	ADP	ADP	_	25	case	_	_
-23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-24	quarto	_	ADJ	ADJ	_	25	amod	_	_
-25	jogo	jogo	NOUN	NOUN	_	14	nmod	_	_
-26	e	e	CCONJ	CONJ	_	30	cc	_	_
-27	só	só	ADV	ADV	_	30	advmod	_	_
-28	voltou	voltar	AUX	AUX	_	30	aux	_	_
-29	a	_	ADP	ADP	_	30	mark	_	_
-30	atuar	atuar	VERB	VERB	_	14	conj	_	_
+22	em	em	ADP	_	_	25	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	quarto	quarto	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	25	amod	_	_
+25	jogo	jogo	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+26	e	e	CCONJ	_	_	28	cc	_	_
+27	só	só	ADV	_	_	28	advmod	_	_
+28	voltou	voltar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	conj	_	_
+29	a	a	SCONJ	_	_	30	mark	_	_
+30	atuar	atuar	VERB	_	VerbForm=Inf	28	xcomp	_	_
 31-32	nas	_	_	_	_	_	_	_	_
-31	em	em	ADP	ADP	_	35	case	_	_
-32	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
-33	últimas	último	ADJ	ADJ	_	35	amod	_	_
-34	duas	_	NUM	NUM	NumType=Card	35	nummod	_	_
-35	partidas	partida	NOUN	NOUN	_	30	nmod	_	SpaceAfter=No
-36	.	.	PUNCT	.	_	14	punct	_	_
+31	em	em	ADP	_	_	35	case	_	_
+32	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+33	últimas	último	ADJ	_	Gender=Fem|Number=Plur|NumType=Ord	35	amod	_	_
+34	duas	dois	NUM	_	NumType=Card	35	nummod	_	_
+35	partidas	partida	NOUN	_	Gender=Fem|Number=Plur	30	obl	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
 
 # sent_id = train-s2533
 # text = A restauração custou R $ 6 milhões e foi realizada e custeada pela Ferrovia Centro - Atlântica (FCA).
@@ -172,50 +178,54 @@
 16	inimigo	inimigo	NOUN	NOUN	_	14	obj	_	SpaceAfter=No
 17	;	_	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s2538
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = "Ao tornar-se uma das empresas signatárias fundadores dos PSI, a SulAmérica reforça seu compromisso com o desenvolvimento sustentável.
-1	"	"	PUNCT	.	_	18	punct	_	SpaceAfter=No
+# sent_id = train-s2538
+1	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
 2-3	Ao	_	_	_	_	_	_	_	_
-2	A	a	ADP	ADP	_	6	case	_	_
-3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+2	A	a	SCONJ	_	_	4	mark	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4-5	tornar-se	_	_	_	_	_	_	_	_
-4	tornar	tornar	AUX	AUX	_	6	cop	_	_
-5	se	_	PRON	PRON	_	6	expl:pv	_	_
-6	uma	_	PRON	PRON	_	18	advcl	_	_
+4	tornar	tornar	VERB	_	VerbForm=Inf	18	advcl	_	_
+5	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+6	uma	um	NUM	_	NumType=Card	4	xcomp	_	_
 7-8	das	_	_	_	_	_	_	_	_
-7	de	de	ADP	ADP	_	9	case	_	_
-8	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
-9	empresas	empresa	NOUN	NOUN	_	6	nmod	_	_
-10	signatárias	signatário	ADJ	ADJ	_	9	amod	_	_
-11	fundadores	fundador	ADJ	ADJ	_	9	amod	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	empresas	empresa	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
+10	signatárias	signatário	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	_
+11	fundadores	fundador	NOUN	_	Gender=Masc|Number=Plur	9	amod	_	_
 12-13	dos	_	_	_	_	_	_	_	_
-12	de	de	ADP	ADP	_	14	case	_	_
-13	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
-14	PSI	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
-15	,	,	PUNCT	.	_	6	punct	_	_
-16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	SulAmérica	_	PROPN	PNOUN	_	18	nsubj	_	_
-18	reforça	reforçar	VERB	VERB	_	0	root	_	_
-19	seu	_	DET	DET	_	20	det:poss	_	_
-20	compromisso	compromisso	NOUN	NOUN	_	18	obj	_	_
-21	com	com	ADP	ADP	_	23	case	_	_
-22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	desenvolvimento	desenvolvimento	NOUN	NOUN	_	20	nmod	_	_
-24	sustentável	sustentável	ADJ	ADJ	_	23	amod	_	SpaceAfter=No
-25	.	.	PUNCT	.	_	18	punct	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	PSI	PSI	PROPN	_	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	4	punct	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	SulAmérica	SulaMérica	PROPN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
+18	reforça	reforçar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	20	det	_	_
+20	compromisso	compromisso	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
+21	com	com	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	desenvolvimento	desenvolvimento	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+24	sustentável	sustentável	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
 
-# sent_id = train-s2539
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = E, pois bem, quem era Jack Riley?
-1	E	_	CCONJ	CONJ	_	6	cc	_	SpaceAfter=No
-2	,	,	PUNCT	.	_	3	punct	_	_
-3	pois	_	PART	PRT	_	6	dep	_	_
-4	bem	_	PART	PRT	_	6	dep	_	SpaceAfter=No
-5	,	,	PUNCT	.	_	3	punct	_	_
-6	quem	_	PRON	PRON	_	0	root	_	_
-7	era	_	AUX	AUX	_	6	cop	_	_
-8	Jack	_	PROPN	PNOUN	_	6	nsubj	_	_
-9	Riley	_	PROPN	PNOUN	_	8	flat	_	SpaceAfter=No
-10	?	?	PUNCT	.	_	6	punct	_	_
+# sent_id = train-s2539
+1	E	e	CCONJ	_	_	8	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	4	punct	_	_
+3	pois	pois	ADV	_	_	6	advmod	_	_
+4	bem	bem	ADV	_	_	6	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	quem	quem	PRON	_	Number=Sing|PronType=Rel	8	nsubj	_	_
+7	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+8	Jack	Jack	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	0	root	_	_
+9	Riley	Riley	PROPN	_	Number=Sing	8	flat:name	_	SpaceAfter=No
+10	?	?	PUNCT	_	_	8	punct	_	SpaceAfter=No
 
 # sent_id = train-s2540
 # text = O contrato do produto com entrega em dezembro avançou 6,50 %, fechando a 173,65 centavos de dólar por libra - peso.

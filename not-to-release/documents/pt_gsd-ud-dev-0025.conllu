@@ -206,25 +206,27 @@
 5	Jr	_	PROPN	PNOUN	_	4	flat	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = dev-s246
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Em duas semanas, no mais tardar 20 dias, posso voltar a jogar.
-1	Em	em	ADP	ADP	_	3	case	_	_
-2	duas	_	NUM	NUM	NumType=Card	3	nummod	_	_
-3	semanas	semana	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
-4	,	,	PUNCT	.	_	10	punct	_	_
+# sent_id = dev-s246
+1	Em	em	ADP	_	_	3	case	_	_
+2	duas	dois	NUM	_	NumType=Card	3	nummod	_	_
+3	semanas	semana	NOUN	_	Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
 5-6	no	_	_	_	_	_	_	_	_
-5	em	em	ADP	ADP	_	8	case	_	_
-6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-7	mais	_	DET	DET	_	8	det	_	_
-8	tardar	_	NOUN	NOUN	_	10	nmod	_	_
-9	20	20	NUM	NUM	NumType=Card	10	nummod	_	_
-10	dias	dia	NOUN	NOUN	_	3	conj	_	SpaceAfter=No
-11	,	,	PUNCT	.	_	10	punct	_	_
-12	posso	_	AUX	AUX	_	15	aux	_	_
-13	voltar	voltar	AUX	AUX	_	15	aux	_	_
-14	a	_	ADP	ADP	_	15	mark	_	_
-15	jogar	jogar	VERB	VERB	_	0	root	_	SpaceAfter=No
-16	.	.	PUNCT	.	_	15	punct	_	_
+5	em	em	SCONJ	_	_	8	mark	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	mais	mais	ADV	_	_	8	advmod	_	_
+8	tardar	tardar	VERB	_	VerbForm=Inf	12	advcl	_	_
+9	20	20	NUM	_	NumType=Card	10	nummod	_	_
+10	dias	dia	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	8	punct	_	_
+12	posso	poder	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	voltar	voltar	VERB	_	ExtPos=AUX|VerbForm=Inf	12	xcomp	_	_
+14	a	a	SCONJ	_	_	15	mark	_	_
+15	jogar	jogar	VERB	_	VerbForm=Inf	13	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
 
 # sent_id = dev-s247
 # text = Marcelo Oliveira afirma que não teme que o trauma da derrota atrapalhe a equipe.

@@ -162,41 +162,43 @@
 17	indevida	indevido	ADJ	ADJ	_	16	amod	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s1920
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Assim foi o último treino do Inter antes da viagem para Recife, ontem pela manhã, no CT do Parque Gigante.
-1	Assim	assim	ADV	ADV	_	2	advmod	_	_
-2	foi	_	VERB	VERB	_	0	root	_	_
-3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-4	último	último	ADJ	ADJ	_	5	amod	_	_
-5	treino	treino	NOUN	NOUN	_	2	nsubj	_	_
+# sent_id = train-s1920
+1	Assim	assim	ADV	_	_	5	advmod	_	_
+2	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	último	último	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	_
+5	treino	treino	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 6-7	do	_	_	_	_	_	_	_	_
-6	de	de	ADP	ADP	_	8	case	_	_
-7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	Inter	_	PROPN	PNOUN	_	5	nmod	_	_
-9	antes	antes	ADV	ADV	_	12	case	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Inter	Inter	PROPN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9	antes	antes	ADV	_	_	5	advmod	_	_
 10-11	da	_	_	_	_	_	_	_	_
-10	de	de	ADP	ADP	_	9	case	_	_
-11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-12	viagem	viagem	NOUN	NOUN	_	2	nmod	_	_
-13	para	para	ADP	ADP	_	14	case	_	_
-14	Recife	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
-15	,	,	PUNCT	.	_	16	punct	_	_
-16	ontem	ontem	ADV	ADV	_	2	advmod	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	viagem	viagem	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+13	para	para	ADP	_	_	14	case	_	_
+14	Recife	Recife	PROPN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	ontem	ontem	ADV	_	_	5	advmod	_	_
 17-18	pela	_	_	_	_	_	_	_	_
-17	por	por	ADP	ADP	_	19	case	_	_
-18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	manhã	manhã	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
-20	,	,	PUNCT	.	_	23	punct	_	_
+17	por	por	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	manhã	manhã	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	16	punct	_	_
 21-22	no	_	_	_	_	_	_	_	_
-21	em	em	ADP	ADP	_	23	case	_	_
-22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	CT	_	NOUN	NOUN	_	2	nmod	_	_
+21	em	em	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	CT	CT	PROPN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 24-25	do	_	_	_	_	_	_	_	_
-24	de	de	ADP	ADP	_	26	case	_	_
-25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	Parque	_	PROPN	PNOUN	_	23	nmod	_	_
-27	Gigante	_	PROPN	PNOUN	_	26	amod	_	SpaceAfter=No
-28	.	.	PUNCT	.	_	2	punct	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Parque	Parque	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	23	nmod	_	_
+27	Gigante	Gigante	PROPN	_	Number=Sing	26	flat:name	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # sent_id = train-s1921
 # text = O profissional Rafael Taiar é o novo diretor de clientes e negócios da agência TV1.com.

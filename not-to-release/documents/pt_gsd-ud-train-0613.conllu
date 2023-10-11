@@ -133,69 +133,76 @@
 34	chuvas	chuva	NOUN	NOUN	_	31	nmod	_	SpaceAfter=No
 35	.	.	PUNCT	.	_	13	punct	_	_
 
-# sent_id = train-s6089
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = É uma edificação cilíndrica, com área de 433m2, onde se podem admirar os trabalhos (painéis, desenhos e fotos) que representam as obras deste arquiteto.
-1	É	ser	AUX	AUX	_	3	cop	_	_
-2	uma	um	DET	DET	_	3	det	_	_
-3	edificação	edificação	NOUN	NOUN	_	0	root	_	_
-4	cilíndrica	cilíndrico	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
-5	,	,	PUNCT	.	_	7	punct	_	_
-6	com	com	ADP	ADP	_	7	case	_	_
-7	área	área	NOUN	NOUN	_	3	nmod	_	_
-8	de	de	ADP	ADP	_	9	case	_	_
-9	433m2	_	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
-10	,	,	PUNCT	.	_	14	punct	_	_
-11	onde	onde	ADV	ADV	_	14	advmod	_	_
-12	se	_	PART	PRT	_	14	expl:pv	_	_
-13	podem	_	AUX	AUX	_	14	aux	_	_
-14	admirar	admirar	VERB	VERB	_	7	acl:relcl	_	_
-15	os	o	DET	DET	_	16	det	_	_
-16	trabalhos	trabalho	NOUN	NOUN	_	14	nsubj	_	_
-17	(	(	PUNCT	.	_	18	punct	_	SpaceAfter=No
-18	painéis	painel	NOUN	NOUN	_	16	appos	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	20	punct	_	_
-20	desenhos	desenho	NOUN	NOUN	_	18	conj	_	_
-21	e	e	CCONJ	CONJ	_	22	cc	_	_
-22	fotos	foto	NOUN	NOUN	_	18	conj	_	SpaceAfter=No
-23	)	)	PUNCT	.	_	18	punct	_	_
-24	que	_	PRON	PRON	_	27	nsubj	_	_
-25	representam	representar	AUX	AUX	_	27	cop	_	_
-26	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
-27	obras	obra	NOUN	NOUN	_	16	acl:relcl	_	_
-28	deste	_	ADP	ADP	_	29	case	_	_
-29	arquiteto	arquiteto	NOUN	NOUN	_	27	nmod	_	SpaceAfter=No
-30	.	.	PUNCT	.	_	3	punct	_	_
+# sent_id = train-s6089
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	edificação	edificação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+4	cilíndrica	cilíndrico	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	com	com	ADP	_	_	7	case	_	_
+7	área	área	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	433	433	NUM	_	NumType=Card	10	nummod	_	SpaceAfter=No
+10	m2	m2	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	7	punct	_	_
+12	onde	onde	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	14	obl	_	_
+13	se	se	PRON	_	Case=Acc|PronType=Prs	14	expl	_	_
+14	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+15	admirar	admirar	VERB	_	VerbForm=Inf	14	xcomp	_	_
+16	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	trabalhos	trabalho	NOUN	_	Gender=Masc|Number=Plur	15	obj	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	painéis	painel	NOUN	_	Gender=Masc|Number=Plur	17	appos	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	desenhos	desenho	NOUN	_	Gender=Masc|Number=Plur	19	conj	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	fotos	foto	NOUN	_	Gender=Fem|Number=Plur	19	conj	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	19	punct	_	_
+25	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	26	nsubj	_	_
+26	representam	representar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+27	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	obras	obra	NOUN	_	Gender=Fem|Number=Plur	26	obj	_	_
+29-30	deste	_	_	_	_	_	_	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	31	det	_	_
+31	arquiteto	arquiteto	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
-# sent_id = train-s6090
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = A partir de 2007, tornou-se comentarista de futebol nos canais ESPN e na Rádio Eldorado, em jogos de futebol.
-1	A	_	ADP	ADP	_	2	mark	_	_
-2	partir	partir	VERB	VERB	_	8	nmod	_	_
-3	de	de	ADP	ADP	_	4	case	_	_
-4	2007	2007	NUM	NUM	NumType=Card	2	nmod	_	SpaceAfter=No
-5	,	,	PUNCT	.	_	2	punct	_	_
+# sent_id = train-s6090
+1	A	a	ADP	_	ExtPos=ADP	4	case	_	_
+2	partir	partir	NOUN	_	_	1	fixed	_	_
+3	de	de	ADP	_	_	1	fixed	_	_
+4	2007	2007	NUM	_	NumType=Card	6	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
 6-7	tornou-se	_	_	_	_	_	_	_	_
-6	tornou	tornar	AUX	AUX	_	8	cop	_	_
-7	se	_	PART	PRT	_	8	expl:pv	_	_
-8	comentarista	comentarista	NOUN	NOUN	_	0	root	_	_
-9	de	de	ADP	ADP	_	10	case	_	_
-10	futebol	futebol	NOUN	NOUN	_	8	nmod	_	_
+6	tornou	tornar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl	_	_
+8	comentarista	comentarista	NOUN	_	Gender=Masc|Number=Sing	6	xcomp	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	futebol	futebol	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 11-12	nos	_	_	_	_	_	_	_	_
-11	em	em	ADP	ADP	_	13	case	_	_
-12	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
-13	canais	canal	NOUN	NOUN	_	8	nmod	_	_
-14	ESPN	_	PROPN	PNOUN	_	13	appos	_	_
-15	e	e	CCONJ	CONJ	_	18	cc	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	canais	canal	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
+14	ESPN	ESPN	PROPN	_	Gender=Masc|Number=Sing	13	appos	_	_
+15	e	e	CCONJ	_	_	18	cc	_	_
 16-17	na	_	_	_	_	_	_	_	_
-16	em	em	ADP	ADP	_	18	case	_	_
-17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	Rádio	_	PROPN	PNOUN	_	13	conj	_	_
-19	Eldorado	_	PROPN	PNOUN	_	18	flat	_	SpaceAfter=No
-20	,	,	PUNCT	.	_	22	punct	_	_
-21	em	em	ADP	ADP	_	22	case	_	_
-22	jogos	jogo	NOUN	NOUN	_	8	nmod	_	_
-23	de	de	ADP	ADP	_	24	case	_	_
-24	futebol	futebol	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
-25	.	.	PUNCT	.	_	8	punct	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Rádio	Rádio	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	14	conj	_	_
+19	Eldorado	Eldorado	PROPN	_	Number=Sing	18	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	_
+21	em	em	ADP	_	_	22	case	_	_
+22	jogos	jogo	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	futebol	futebol	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
 # sent_id = train-s6091
 # text = Survivor Series (1992) foi o 6 º evento anual do Survivor Series, promovido pela World Wrestling Federation e transmitido por pay - per - view.

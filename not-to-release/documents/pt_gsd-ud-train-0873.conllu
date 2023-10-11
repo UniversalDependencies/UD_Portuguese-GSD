@@ -51,38 +51,42 @@
 17	período	período	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = train-s8667
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Foi bom porque vencemos e desse jeito -- disse o meio - campo Lincoln, do Coritiba - Tentamos, mas não conseguimos o resultado que gostaríamos.
-1	Foi	_	VERB	VERB	_	0	root	_	_
-2	bom	bom	ADJ	ADJ	_	1	xcomp	_	_
-3	porque	_	CCONJ	CONJ	_	4	mark	_	_
-4	vencemos	vencer	VERB	VERB	_	1	advcl	_	_
-5	e	e	CCONJ	CONJ	_	20	cc	_	_
-6	desse	_	ADP	ADP	_	7	case	_	_
-7	jeito	jeito	NOUN	NOUN	_	20	nmod	_	_
-8	--	_	PUNCT	.	_	9	punct	_	_
-9	disse	dizer	VERB	VERB	_	1	parataxis	_	_
-10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	meio	meio	NOUN	NOUN	_	9	nsubj	_	_
-12	-	-	PUNCT	.	_	11	punct	_	_
-13	campo	campo	NOUN	NOUN	_	11	flat	_	_
-14	Lincoln	_	PROPN	PNOUN	_	11	appos	_	SpaceAfter=No
-15	,	,	PUNCT	.	_	18	punct	_	_
-16-17	do	_	_	_	_	_	_	_	_
-16	de	de	ADP	ADP	_	18	case	_	_
-17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	Coritiba	_	PROPN	PNOUN	_	11	nmod	_	_
-19	-	-	PUNCT	.	_	9	punct	_	_
-20	Tentamos	tentar	VERB	VERB	_	1	conj	_	SpaceAfter=No
-21	,	,	PUNCT	.	_	18	punct	_	_
-22	mas	mas	CCONJ	CONJ	_	24	cc	_	_
-23	não	não	ADV	ADV	Polarity=Neg	24	advmod	_	_
-24	conseguimos	conseguir	VERB	VERB	_	20	conj	_	_
-25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	resultado	resultado	NOUN	NOUN	_	24	obj	_	_
-27	que	_	PRON	PRON	_	28	obj	_	_
-28	gostaríamos	gostar	VERB	VERB	_	26	acl:relcl	_	SpaceAfter=No
-29	.	.	PUNCT	.	_	1	punct	_	_
+# sent_id = train-s8667
+1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	cop	_	_
+2	bom	bom	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+3	porque	porque	SCONJ	_	_	4	mark	_	_
+4	vencemos	vencer	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+5	e	e	CCONJ	_	_	10	cc	_	_
+6-7	desse	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	jeito	jeito	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+9	--	--	PUNCT	_	_	10	punct	_	_
+10	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	meio	meio	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+13	-	-	PUNCT	_	_	14	punct	_	_
+14	campo	campo	NOUN	_	Gender=Masc|Number=Sing	12	conj	_	_
+15	Lincoln	Lincoln	PROPN	_	Gender=Masc|Number=Sing	12	appos	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	19	punct	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Coritiba	Coritiba	PROPN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+20	-	-	PUNCT	_	_	19	punct	_	_
+21	Tentamos	tentar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	25	punct	_	_
+23	mas	mas	CCONJ	_	_	25	cc	_	_
+24	não	não	ADV	_	Polarity=Neg	25	advmod	_	_
+25	conseguimos	conseguir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	21	conj	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	25	obj	_	_
+28	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	29	obj	_	_
+29	gostaríamos	gostar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	27	acl:relcl	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = train-s8668
 # text = Paradoxalmente, busca-se o equilíbrio entre o doce e o ácido.
@@ -101,40 +105,44 @@
 12	ácido	ácido	NOUN	NOUN	_	9	conj	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s8669
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Quanto ao destino deles, Ramalho disse que alguns vão ter de ser desligados da empresa, com exceção dos concursados da CEA.
-1	Quanto	quanto	ADV	ADV	_	8	advmod	_	_
+# sent_id = train-s8669
+1	Quanto	quanto	ADV	_	ExtPos=ADP	4	case	_	_
 2-3	ao	_	_	_	_	_	_	_	_
-2	a	a	ADP	ADP	_	4	case	_	_
-3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	destino	destino	NOUN	NOUN	_	1	nmod	_	_
-5	deles	_	X	ADPPRON	_	4	det:poss	_	SpaceAfter=No
-6	,	,	PUNCT	.	_	1	punct	_	_
-7	Ramalho	_	PROPN	PNOUN	_	8	nsubj	_	_
-8	disse	dizer	VERB	VERB	_	0	root	_	_
-9	que	que	CCONJ	CONJ	_	15	mark	_	_
-10	alguns	_	PRON	PRON	_	15	nsubj:pass	_	_
-11	vão	ir	AUX	AUX	_	15	aux	_	_
-12	ter	ter	AUX	AUX	_	15	aux	_	_
-13	de	_	ADP	ADP	_	15	mark	_	_
-14	ser	ser	AUX	AUX	_	15	aux:pass	_	_
-15	desligados	desligar	VERB	VERB	_	8	ccomp	_	_
-16-17	da	_	_	_	_	_	_	_	_
-16	de	de	ADP	ADP	_	18	case	_	_
-17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	empresa	empresa	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	21	punct	_	_
-20	com	com	ADP	ADP	_	21	case	_	_
-21	exceção	exceção	NOUN	NOUN	_	15	nmod	_	_
-22-23	dos	_	_	_	_	_	_	_	_
-22	de	de	ADP	ADP	_	24	case	_	_
-23	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
-24	concursados	_	NOUN	NOUN	_	21	nmod	_	_
-25-26	da	_	_	_	_	_	_	_	_
-25	de	de	ADP	ADP	_	27	case	_	_
-26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	CEA	_	PROPN	PNOUN	_	24	nmod	_	SpaceAfter=No
-28	.	.	PUNCT	.	_	8	punct	_	_
+2	a	a	ADP	_	_	1	fixed	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	destino	destino	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+5-6	deles	_	_	_	_	_	_	_	SpaceAfter=No
+5	de	de	ADP	_	_	6	case	_	_
+6	eles	ele	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	nmod	_	_
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	Ramalho	Ramalho	PROPN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+9	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	que	que	SCONJ	_	_	16	mark	_	_
+11	alguns	algum	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	13	nsubj:pass	_	_
+12	vão	ir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+13	ter	ter	VERB	_	ExtPos=AUX|VerbForm=Inf	9	ccomp	_	_
+14	de	de	SCONJ	_	_	16	mark	_	_
+15	ser	ser	AUX	_	VerbForm=Inf	16	aux:pass	_	_
+16	desligados	desligar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	13	xcomp	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	16	punct	_	_
+21	com	com	ADP	_	_	22	case	_	_
+22	exceção	exceção	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
+23-24	dos	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	concursados	concursado	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	_
+26-27	da	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|PronType=Art	28	det	_	_
+28	CEA	CEA	PROPN	_	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
 
 # sent_id = train-s8670
 # text = De acordo com a assessoria de comunicação da PRF em Alagoas, o carregamento estava sem o carimbo de inspeção da Vigilância Sanitária, não possuía nota fiscal e estava sendo transportado sem qualquer refrigeração.

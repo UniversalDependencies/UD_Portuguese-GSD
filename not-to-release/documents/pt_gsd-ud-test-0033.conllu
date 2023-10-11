@@ -27,54 +27,56 @@
 9	²	_	PUNCT	.	_	8	punct	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	1	punct	_	_
 
-# sent_id = test-s321
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Apesar da nova lei ter entrado em vigor no dia 21 dezembro, muitos policiais militares encontram dificuldades para que infratores fossem autuados nas delegacias por causa da falta de policias civis durante o feriadão de natal.
-1	Apesar	apesar	ADV	ADV	_	7	mark	_	_
+# sent_id = test-s321
+1	Apesar	apesar	ADV	_	ExtPos=SCONJ	7	mark	_	_
 2-3	da	_	_	_	_	_	_	_	_
-2	de	de	ADP	ADP	_	1	case	_	_
-3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
-4	nova	novo	ADJ	ADJ	_	5	amod	_	_
-5	lei	lei	NOUN	NOUN	_	7	nsubj	_	_
-6	ter	ter	AUX	AUX	_	7	aux	_	_
-7	entrado	entrar	VERB	VERB	_	19	advcl	_	_
-8	em	em	ADP	ADP	_	9	case	_	_
-9	vigor	vigor	NOUN	NOUN	_	7	nmod	_	_
+2	de	de	ADP	_	_	1	fixed	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	nova	novo	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+5	lei	lei	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	ter	ter	AUX	_	Number=Sing|Person=3|VerbForm=Inf	7	aux	_	_
+7	entrado	entrar	VERB	_	VerbForm=Part	19	advcl	_	_
+8	em	em	ADP	_	_	9	case	_	_
+9	vigor	vigor	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
 10-11	no	_	_	_	_	_	_	_	_
-10	em	em	ADP	ADP	_	12	case	_	_
-11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	dia	dia	NOUN	NOUN	_	7	nmod	_	_
-13	21	21	NUM	NUM	NumType=Card	12	nmod	_	_
-14	dezembro	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
-15	,	,	PUNCT	.	_	7	punct	_	_
-16	muitos	_	DET	DET	_	17	det	_	_
-17	policiais	policial	NOUN	NOUN	_	19	nsubj	_	_
-18	militares	militar	ADJ	ADJ	_	17	amod	_	_
-19	encontram	encontrar	VERB	VERB	_	0	root	_	_
-20	dificuldades	dificuldade	NOUN	NOUN	_	19	obj	_	_
-21	para	_	ADP	ADP	_	25	mark	_	_
-22	que	que	CCONJ	CONJ	_	25	mark	_	_
-23	infratores	infrator	NOUN	NOUN	_	25	nsubj:pass	_	_
-24	fossem	_	AUX	AUX	_	25	aux	_	_
-25	autuados	autuar	VERB	VERB	_	20	nmod	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	dia	dia	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+13	21	21	NUM	_	NumType=Card	14	nummod	_	_
+14	dezembro	dezembro	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	7	punct	_	_
+16	muitos	muito	DET	_	Gender=Masc|Number=Plur|PronType=Ind	17	det	_	_
+17	policiais	policial	NOUN	_	Gender=Masc|Number=Plur	19	nsubj	_	_
+18	militares	militar	ADJ	_	Gender=Masc|Number=Plur	17	amod	_	_
+19	encontram	encontrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	dificuldades	dificuldade	NOUN	_	Gender=Fem|Number=Plur	19	obj	_	_
+21	para	para	SCONJ	_	_	25	mark	_	_
+22	que	que	SCONJ	_	_	25	mark	_	_
+23	infratores	infrator	NOUN	_	Gender=Masc|Number=Plur	25	nsubj:pass	_	_
+24	fossem	ser	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	25	aux:pass	_	_
+25	autuados	autuar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	20	acl	_	_
 26-27	nas	_	_	_	_	_	_	_	_
-26	em	em	ADP	ADP	_	28	case	_	_
-27	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
-28	delegacias	delegacia	NOUN	NOUN	_	25	nmod	_	_
-29	por	por	ADP	ADP	_	33	case	_	_
-30	causa	causa	NOUN	NOUN	_	29	fixed	_	_
+26	em	em	ADP	_	_	28	case	_	_
+27	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	delegacias	delegacia	NOUN	_	Gender=Fem|Number=Plur	25	obl	_	_
+29	por	por	ADP	_	_	30	case	_	_
+30	causa	causa	NOUN	_	Gender=Fem|Number=Sing	25	obl	_	_
 31-32	da	_	_	_	_	_	_	_	_
-31	de	de	ADP	ADP	_	29	case	_	_
-32	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-33	falta	_	NOUN	NOUN	_	19	nmod	_	_
-34	de	de	ADP	ADP	_	35	case	_	_
-35	policias	_	NOUN	NOUN	_	33	nmod	_	_
-36	civis	civil	ADJ	ADJ	_	35	amod	_	_
-37	durante	_	ADP	ADP	_	39	case	_	_
-38	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
-39	feriadão	feriado	NOUN	NOUN	_	33	nmod	_	_
-40	de	de	ADP	ADP	_	41	case	_	_
-41	natal	_	PROPN	PNOUN	_	39	nmod	_	SpaceAfter=No
-42	.	.	PUNCT	.	_	19	punct	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	falta	falta	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	policias	policia	NOUN	_	Gender=Fem|Number=Plur	33	nmod	_	_
+36	civis	civil	ADJ	_	Gender=Fem|Number=Plur	35	amod	_	_
+37	durante	durante	ADP	_	_	39	case	_	_
+38	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	feriadão	feriadão	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	_
+40	de	de	ADP	_	_	41	case	_	_
+41	natal	natal	NOUN	_	Gender=Masc|Number=Sing	39	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
 
 # sent_id = test-s322
 # text = Para as regiões onde se passava a edição de rede, foi criada a Agência GE que concentra material dos reporteres da rede, editado com o padrão das edições paulista e carioca, via satélite, variando de acordo com a necessidade do estado.

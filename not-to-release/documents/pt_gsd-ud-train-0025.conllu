@@ -89,33 +89,35 @@
 15	040	040	NUM	NUM	NumType=Card	13	appos	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = train-s244
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = No giro 52 ele chegou a abrir a asa móvel para tentar passar o piloto da casa mas não conseguiu.
+# sent_id = train-s244
 1-2	No	_	_	_	_	_	_	_	_
-1	Em	em	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	giro	giro	NOUN	NOUN	_	8	nmod	_	_
-4	52	52	NUM	NUM	NumType=Card	3	appos	_	_
-5	ele	_	PRON	PRON	_	8	nsubj	_	_
-6	chegou	chegar	AUX	AUX	_	8	aux	_	_
-7	a	_	ADP	ADP	_	8	mark	_	_
-8	abrir	abrir	VERB	VERB	_	0	root	_	_
-9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	asa	asa	NOUN	NOUN	_	8	obj	_	_
-11	móvel	móvel	ADJ	ADJ	_	10	amod	_	_
-12	para	_	ADP	ADP	_	13	mark	_	_
-13	tentar	tentar	VERB	VERB	_	8	advcl	_	_
-14	passar	passar	VERB	VERB	_	13	xcomp	_	_
-15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	piloto	piloto	NOUN	NOUN	_	14	obj	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	giro	giro	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+4	52	52	NUM	_	NumType=Card	3	nummod	_	_
+5	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	chegou	chegar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	a	a	SCONJ	_	_	8	mark	_	_
+8	abrir	abrir	VERB	_	VerbForm=Inf	6	xcomp	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	asa	asa	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	móvel	móvel	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+12	para	para	SCONJ	_	_	13	mark	_	_
+13	tentar	tentar	VERB	_	VerbForm=Inf	8	advcl	_	_
+14	passar	passar	VERB	_	VerbForm=Inf	13	xcomp	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	piloto	piloto	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
 17-18	da	_	_	_	_	_	_	_	_
-17	de	de	ADP	ADP	_	19	case	_	_
-18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	casa	casa	NOUN	NOUN	_	16	nmod	_	_
-20	mas	mas	CCONJ	CONJ	_	22	cc	_	_
-21	não	não	ADV	ADV	Polarity=Neg	22	advmod	_	_
-22	conseguiu	conseguir	VERB	VERB	_	14	conj	_	SpaceAfter=No
-23	.	.	PUNCT	.	_	8	punct	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	casa	casa	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+20	mas	mas	CCONJ	_	_	22	cc	_	_
+21	não	não	ADV	_	Polarity=Neg	22	advmod	_	_
+22	conseguiu	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
 
 # sent_id = train-s245
 # text = Nunca o apelo da união faz a força foi tão exposto como hoje no encontro dos produtores de Goiás contra a cartelização da carne.

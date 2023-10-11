@@ -89,55 +89,55 @@
 22	%	_	SYM	SYM	_	19	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	11	punct	_	_
 
-# sent_id = train-s1214
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O setor doutros equipamentos de transporte (principalmente equipamentos da indústria naval, como navios e plataformas) foi responsável pelo resultado negativo, com desempenho de -46,25 %, devido ao fechamento de encomendas de grande porte.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	setor	setor	NOUN	NOUN	_	21	nsubj	_	_
-3-4	doutros	_	_	_	_	_	_	_	_
-3	de	de	ADP	ADP	_	5	case	_	_
-4	Outros	_	DET	DET	_	5	det	_	_
-5	equipamentos	equipamento	NOUN	NOUN	_	2	nmod	_	_
-6	de	de	ADP	ADP	_	7	case	_	_
-7	transporte	transporte	NOUN	NOUN	_	5	nmod	_	_
-8	(	(	PUNCT	.	_	10	punct	_	SpaceAfter=No
-9	principalmente	principalmente	ADV	ADV	_	10	advmod	_	_
-10	equipamentos	equipamento	NOUN	NOUN	_	5	appos	_	_
-11-12	da	_	_	_	_	_	_	_	_
-11	de	de	ADP	ADP	_	13	case	_	_
-12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	indústria	indústria	NOUN	NOUN	_	10	nmod	_	_
-14	naval	naval	ADJ	ADJ	_	13	amod	_	SpaceAfter=No
-15	,	,	PUNCT	.	_	17	punct	_	_
-16	como	como	ADP	ADP	_	17	case	_	_
-17	navios	navio	NOUN	NOUN	_	10	nmod	_	_
-18	e	e	CCONJ	CONJ	_	19	cc	_	_
-19	plataformas	plataforma	NOUN	NOUN	_	17	conj	_	SpaceAfter=No
-20	)	)	PUNCT	.	_	10	punct	_	_
-21	foi	_	VERB	VERB	_	0	root	_	_
-22	responsável	responsável	ADJ	ADJ	_	21	xcomp	_	_
-23-24	pelo	_	_	_	_	_	_	_	_
-23	por	por	ADP	ADP	_	25	case	_	_
-24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	resultado	resultado	NOUN	NOUN	_	22	nmod	_	_
-26	negativo	negativo	ADJ	ADJ	_	25	amod	_	SpaceAfter=No
-27	,	,	PUNCT	.	_	29	punct	_	_
-28	com	com	ADP	ADP	_	29	case	_	_
-29	desempenho	desempenho	NOUN	NOUN	_	21	nmod	_	_
-30	de	de	ADP	ADP	_	32	case	_	_
-31	-46,25	_	NUM	NUM	NumType=Card	32	nummod	_	_
-32	%	_	SYM	SYM	_	29	nmod	_	SpaceAfter=No
-33	,	,	PUNCT	.	_	37	punct	_	_
-34	devido	dever	VERB	VERB	_	37	case	_	_
-35-36	ao	_	_	_	_	_	_	_	_
-35	a	a	ADP	ADP	_	34	case	_	_
-36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
-37	fechamento	fechamento	NOUN	NOUN	_	29	nmod	_	_
-38	de	de	ADP	ADP	_	39	case	_	_
-39	encomendas	encomenda	NOUN	NOUN	_	37	nmod	_	_
-40	de	de	ADP	ADP	_	42	case	_	_
-41	grande	grande	ADJ	ADJ	_	42	amod	_	_
-42	porte	porte	NOUN	NOUN	_	39	nmod	_	SpaceAfter=No
-43	.	.	PUNCT	.	_	21	punct	_	_
+# sent_id = train-s1214
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	setor	setor	NOUN	_	Gender=Masc|Number=Sing	21	nsubj	_	_
+3	doutros	doutro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
+4	equipamentos	equipamento	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	transporte	transporte	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+7	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+8	principalmente	principalmente	ADV	_	_	9	advmod	_	_
+9	equipamentos	equipamento	NOUN	_	Gender=Masc|Number=Plur	4	appos	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	indústria	indústria	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+13	naval	naval	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	como	como	ADP	_	_	16	case	_	_
+16	navios	navio	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	plataformas	plataforma	NOUN	_	Gender=Fem|Number=Plur	16	conj	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	9	punct	_	_
+20	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	cop	_	_
+21	responsável	responsável	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+22-23	pelo	_	_	_	_	_	_	_	_
+22	por	por	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
+25	negativo	negativo	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	28	punct	_	_
+27	com	com	ADP	_	_	28	case	_	_
+28	desempenho	desempenho	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	-46,25	-46,25	NUM	_	NumType=Card	31	nummod	_	_
+31	%	%	SYM	_	_	28	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	28	punct	_	_
+33	devido	devido	ADV	_	_	21	advmod	_	_
+34-35	ao	_	_	_	_	_	_	_	_
+34	a	a	ADP	_	_	36	case	_	_
+35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	fechamento	fechamento	NOUN	_	Gender=Masc|Number=Sing	33	obl	_	_
+37	de	de	ADP	_	_	38	case	_	_
+38	encomendas	encomenda	NOUN	_	Gender=Fem|Number=Plur	36	nmod	_	_
+39	de	de	ADP	_	_	41	case	_	_
+40	grande	grande	ADJ	_	Gender=Masc|Number=Sing	41	amod	_	_
+41	porte	porte	NOUN	_	Gender=Masc|Number=Sing	38	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
 
 # sent_id = train-s1215
 # text = O protesto demorou uma hora e foi interrompida com a chegada da Polícia Militar.

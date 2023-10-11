@@ -120,50 +120,52 @@
 31	negras	negro	ADJ	ADJ	_	28	amod	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = train-s3821
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O 'A Cidade' se reserva o direito de, a seu próprio critério, armazenar as informações de usuários que se conectarem ao sistema de comentários, como forma de viabilizar eventuais identificações que se façam necessárias.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-2	'	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
-3	A	_	PROPN	PNOUN	_	4	det	_	_
-4	Cidade	_	PROPN	PNOUN	_	7	nsubj	_	SpaceAfter=No
-5	'	_	PUNCT	.	_	4	punct	_	_
-6	se	_	PRON	PRON	_	7	iobj	_	_
-7	reserva	reservar	VERB	VERB	_	0	root	_	_
-8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	direito	direito	NOUN	NOUN	_	7	obj	_	_
-10	de	_	ADP	ADP	_	17	mark	_	SpaceAfter=No
-11	,	,	PUNCT	.	_	15	punct	_	_
-12	a	_	ADP	ADP	_	15	case	_	_
-13	seu	_	DET	DET	_	15	det:poss	_	_
-14	próprio	próprio	ADJ	ADJ	_	15	amod	_	_
-15	critério	critério	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
-16	,	,	PUNCT	.	_	15	punct	_	_
-17	armazenar	armazenar	VERB	VERB	_	9	nmod	_	_
-18	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
-19	informações	informação	NOUN	NOUN	_	17	obj	_	_
-20	de	de	ADP	ADP	_	21	case	_	_
-21	usuários	usuário	NOUN	NOUN	_	19	nmod	_	_
-22	que	_	PRON	PRON	_	24	nsubj	_	_
-23	se	_	PRON	PRON	_	24	obj	_	_
-24	conectarem	conectar	VERB	VERB	_	21	acl:relcl	_	_
+# sent_id = train-s3821
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	'	'	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	A	A	PROPN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+4	Cidade	Cidade	PROPN	_	Number=Sing	3	flat:name	_	SpaceAfter=No
+5	'	'	PUNCT	_	_	3	punct	_	_
+6	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl	_	_
+7	reserva	reservar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	direito	direito	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	de	de	SCONJ	_	_	17	mark	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	15	punct	_	_
+12	a	a	ADP	_	_	15	case	_	_
+13	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	15	det	_	_
+14	próprio	próprio	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+15	critério	critério	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	armazenar	armazenar	VERB	_	VerbForm=Inf	9	acl	_	_
+18	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	informações	informação	NOUN	_	Gender=Fem|Number=Plur	17	obj	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	usuários	usuário	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	_
+22	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	24	nsubj	_	_
+23	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	24	expl	_	_
+24	conectarem	conectar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	21	acl:relcl	_	_
 25-26	ao	_	_	_	_	_	_	_	_
-25	a	a	ADP	ADP	_	27	case	_	_
-26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	sistema	sistema	NOUN	NOUN	_	24	nmod	_	_
-28	de	de	ADP	ADP	_	29	case	_	_
-29	comentários	comentário	NOUN	NOUN	_	27	nmod	_	SpaceAfter=No
-30	,	,	PUNCT	.	_	34	punct	_	_
-31	como	_	ADP	ADP	_	34	mark	_	_
-32	forma	forma	NOUN	NOUN	_	31	fixed	_	_
-33	de	_	ADP	ADP	_	31	fixed	_	_
-34	viabilizar	viabilizar	VERB	VERB	_	17	advcl	_	_
-35	eventuais	eventual	ADJ	ADJ	_	36	amod	_	_
-36	identificações	identificação	NOUN	NOUN	_	34	obj	_	_
-37	que	_	PRON	PRON	_	39	nsubj	_	_
-38	se	_	PART	PRT	_	39	expl:pv	_	_
-39	façam	fazer	VERB	VERB	_	36	acl:relcl	_	_
-40	necessárias	necessário	ADJ	ADJ	_	39	xcomp	_	SpaceAfter=No
-41	.	.	PUNCT	.	_	7	punct	_	_
+25	a	a	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	24	obj	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	comentários	comentário	NOUN	_	Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	32	punct	_	_
+31	como	como	ADP	_	_	32	case	_	_
+32	forma	forma	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+33	de	de	SCONJ	_	_	34	mark	_	_
+34	viabilizar	viabilizar	VERB	_	VerbForm=Inf	32	acl	_	_
+35	eventuais	eventual	ADJ	_	Gender=Fem|Number=Plur	36	amod	_	_
+36	identificações	identificação	NOUN	_	Gender=Fem|Number=Plur	34	obj	_	_
+37	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	39	nsubj	_	_
+38	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	39	expl	_	_
+39	façam	fazer	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	36	acl:relcl	_	_
+40	necessárias	necessário	ADJ	_	Gender=Fem|Number=Plur	39	xcomp	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
 # sent_id = train-s3822
 # text = Mostramos muita disposição.

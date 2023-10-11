@@ -182,25 +182,27 @@
 48	)	)	PUNCT	.	_	39	punct	_	SpaceAfter=No
 49	.	.	PUNCT	.	_	12	punct	_	_
 
-# sent_id = train-s835
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Ele é membro do grupo The LOX, junto com Jadakiss e Sheek Louch.
-1	Ele	_	PRON	PRON	_	3	nsubj	_	_
-2	é	ser	AUX	AUX	_	3	cop	_	_
-3	membro	membro	NOUN	NOUN	_	0	root	_	_
+# sent_id = train-s835
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	membro	membro	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 4-5	do	_	_	_	_	_	_	_	_
-4	de	de	ADP	ADP	_	6	case	_	_
-5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	grupo	grupo	NOUN	NOUN	_	3	nmod	_	_
-7	The	_	PROPN	PNOUN	_	8	det	_	_
-8	LOX	_	PROPN	PNOUN	_	6	appos	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	10	punct	_	_
-10	junto	junto	ADV	ADV	_	3	advmod	_	_
-11	com	com	ADP	ADP	_	12	case	_	_
-12	Jadakiss	_	PROPN	PNOUN	_	10	nmod	_	_
-13	e	e	CCONJ	CONJ	_	14	cc	_	_
-14	Sheek	_	PROPN	PNOUN	_	12	conj	_	_
-15	Louch	_	PROPN	PNOUN	_	14	flat	_	SpaceAfter=No
-16	.	.	PUNCT	.	_	3	punct	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	grupo	grupo	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+7	The	The	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	6	appos	_	_
+8	LOX	LOX	PROPN	_	Number=Sing	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	junto	junto	ADV	_	_	3	advmod	_	_
+11	com	com	ADP	_	_	12	case	_	_
+12	Jadakiss	Jadakiss	PROPN	_	Gender=Masc|Number=Sing	10	obl	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	Sheek	Sheek	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	12	conj	_	_
+15	Louch	Louch	PROPN	_	Number=Sing	14	flat:name	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = train-s836
 # text = "Se as leis ficarem mais frouxas em relação ao uso da maconha, o maior prejudicado vai ser o adolescente.

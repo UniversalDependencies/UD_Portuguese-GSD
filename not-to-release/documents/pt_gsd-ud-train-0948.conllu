@@ -103,31 +103,33 @@
 28	www.ingresso.com	_	X	X	_	27	appos	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s9410
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = @ jabisbusqueti É COM IMENSO PESAR QUE FIQUEI SABENDO DO FALECIMENTO DO AMIGO ABDIEL -- EX ASSESSOR DEP.
-1	@	_	X	X	_	2	dep	_	_
-2	jabisbusqueti	_	X	X	_	3	parataxis	_	_
-3	É	ser	VERB	VERB	_	0	root	_	_
-4	COM	_	ADP	ADP	_	6	case	_	_
-5	IMENSO	imenso	ADJ	ADJ	_	6	amod	_	_
-6	PESAR	pesar	NOUN	NOUN	_	3	nmod	_	_
-7	QUE	_	CCONJ	CONJ	_	9	mark	_	_
-8	FIQUEI	ficar	AUX	AUX	_	9	aux	_	_
-9	SABENDO	saber	VERB	VERB	_	3	csubj	_	_
+# sent_id = train-s9410
+1	@	@	PUNCT	_	_	6	punct	_	_
+2	jabisbusqueti	jabisbusqueti	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	É	é	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	COM	com	ADP	_	_	6	case	_	_
+5	IMENSO	IMENSO	PROPN	_	Gender=Masc|Number=Sing	6	amod	_	_
+6	PESAR	PESAR	PROPN	_	Number=Sing	8	obl	_	_
+7	QUE	que	SCONJ	_	_	9	mark	_	_
+8	FIQUEI	fiqueer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+9	SABENDO	saber	VERB	_	VerbForm=Ger	8	xcomp	_	_
 10-11	DO	_	_	_	_	_	_	_	_
-10	DE	de	ADP	ADP	_	12	case	_	_
-11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	FALECIMENTO	falecimento	NOUN	NOUN	_	9	nmod	_	_
+10	DE	de	ADP	_	_	12	case	_	_
+11	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	FALECIMENTO	falecimento	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
 13-14	DO	_	_	_	_	_	_	_	_
-13	DE	de	ADP	ADP	_	15	case	_	_
-14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	AMIGO	amigo	NOUN	NOUN	_	12	nmod	_	_
-16	ABDIEL	_	PROPN	PNOUN	_	15	appos	_	_
-17	--	_	PUNCT	.	_	18	punct	_	_
-18	EX	_	PART	PRT	_	15	appos	_	_
-19	ASSESSOR	assessor	NOUN	NOUN	_	18	flat	_	_
-20	DEP	_	PROPN	PNOUN	_	18	appos	_	SpaceAfter=No
-21	.	.	PUNCT	.	_	3	punct	_	_
+13	DE	de	ADP	_	_	15	case	_	_
+14	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	AMIGO	Amigo	PROPN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+16	ABDIEL	ABDIEL	PROPN	_	Gender=Masc|Number=Sing	15	appos	_	_
+17	--	--	PUNCT	_	_	18	punct	_	_
+18	EX	ex	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	15	appos	_	_
+19	ASSESSOR	ASSESSOR	PROPN	_	Number=Sing	18	flat:name	_	_
+20	DEP	DEP	PROPN	_	Number=Sing	18	flat:name	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
 
 # sent_id = train-s9411
 # text = Segundo ele, parlamentares da base aliada recebiam pagamentos periódicos para votar de acordo com os interesses do governo Luiz Inácio Lula da Silva.

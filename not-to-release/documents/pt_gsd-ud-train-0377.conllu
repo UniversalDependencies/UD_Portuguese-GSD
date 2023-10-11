@@ -44,51 +44,53 @@
 23	Paulo	_	PROPN	PNOUN	_	22	flat	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s3740
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Lin Zixu disse à emissora independente NTDTV que as atividades recentes são um desafio ousado aos 'Oito Regulamentos' de Xi Jinping, que avisam os oficiais a manterem distância da publicidade e teatralidade política.
-1	Lin	_	PROPN	PNOUN	_	3	nsubj	_	_
-2	Zixu	_	PROPN	PNOUN	_	1	flat	_	_
-3	disse	dizer	VERB	VERB	_	0	root	_	_
+# sent_id = train-s3740
+1	Lin	Lin	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	Zixu	Zixu	PROPN	_	Number=Sing	1	flat:name	_	_
+3	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4-5	à	_	_	_	_	_	_	_	_
-4	a	a	ADP	ADP	_	6	case	_	_
-5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	emissora	_	NOUN	NOUN	_	3	iobj	_	_
-7	independente	independente	ADJ	ADJ	_	6	amod	_	_
-8	NTDTV	_	PROPN	PNOUN	_	6	appos	_	_
-9	que	que	CCONJ	CONJ	_	15	mark	_	_
-10	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
-11	atividades	atividade	NOUN	NOUN	_	15	nsubj	_	_
-12	recentes	recente	ADJ	ADJ	_	11	amod	_	_
-13	são	ser	AUX	AUX	_	15	cop	_	_
-14	um	um	DET	DET	_	15	det	_	_
-15	desafio	desafio	NOUN	NOUN	_	3	ccomp	_	_
-16	ousado	ousado	ADJ	ADJ	_	15	amod	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	emissora	emissora	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+7	independente	independente	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+8	NTDTV	NTDTV	PROPN	_	Gender=Fem|Number=Sing	6	appos	_	_
+9	que	que	SCONJ	_	_	15	mark	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	atividades	atividade	NOUN	_	Gender=Fem|Number=Plur	15	nsubj	_	_
+12	recentes	recente	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	_
+13	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	desafio	desafio	NOUN	_	Gender=Masc|Number=Sing	3	ccomp	_	_
+16	ousado	ousar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	15	acl	_	_
 17-18	aos	_	_	_	_	_	_	_	_
-17	a	a	ADP	ADP	_	21	case	_	_
-18	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
-19	'	_	PUNCT	.	_	21	punct	_	SpaceAfter=No
-20	Oito	_	PROPN	PNOUN	_	21	nummod	_	_
-21	Regulamentos	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
-22	'	_	PUNCT	.	_	21	punct	_	_
-23	de	de	ADP	ADP	_	24	case	_	_
-24	Xi	_	PROPN	PNOUN	_	21	nmod	_	_
-25	Jinping	_	PROPN	PNOUN	_	24	flat	_	SpaceAfter=No
-26	,	,	PUNCT	.	_	28	punct	_	_
-27	que	_	PRON	PRON	_	28	nsubj	_	_
-28	avisam	avisar	VERB	VERB	_	21	acl:relcl	_	_
-29	os	o	DET	DET	_	30	det	_	_
-30	oficiais	oficial	NOUN	NOUN	_	28	obj	_	_
-31	a	_	ADP	ADP	_	32	mark	_	_
-32	manterem	manter	VERB	VERB	_	28	nmod	_	_
-33	distância	distância	NOUN	NOUN	_	32	obj	_	_
+17	a	a	ADP	_	_	20	case	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+19	'	'	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	Oito	Oito	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Plur	16	obl	_	_
+21	Regulamentos	Regulamentos	PROPN	_	Number=Sing	20	flat:name	_	SpaceAfter=No
+22	'	'	PUNCT	_	_	20	punct	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	Xi	Xi	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	20	nmod	_	_
+25	Jinping	Jinping	PROPN	_	Number=Sing	24	flat:name	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	28	punct	_	_
+27	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	28	nsubj	_	_
+28	avisam	avisar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+29	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	oficiais	oficial	NOUN	_	Gender=Masc|Number=Plur	28	obj	_	_
+31	a	a	SCONJ	_	_	32	mark	_	_
+32	manterem	manter	VERB	_	Number=Plur|Person=3|VerbForm=Inf	28	xcomp	_	_
+33	distância	distância	NOUN	_	Gender=Fem|Number=Sing	32	obj	_	_
 34-35	da	_	_	_	_	_	_	_	_
-34	de	de	ADP	ADP	_	36	case	_	_
-35	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-36	publicidade	publicidade	NOUN	NOUN	_	33	nmod	_	_
-37	e	e	CCONJ	CONJ	_	38	cc	_	_
-38	teatralidade	teatralidade	NOUN	NOUN	_	36	conj	_	_
-39	política	político	ADJ	ADJ	_	38	amod	_	SpaceAfter=No
-40	.	.	PUNCT	.	_	3	punct	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	publicidade	publicidade	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	_
+37	e	e	CCONJ	_	_	38	cc	_	_
+38	teatralidade	teatralidade	NOUN	_	Gender=Fem|Number=Sing	36	conj	_	_
+39	política	político	ADJ	_	Gender=Fem|Number=Sing	38	amod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = train-s3741
 # text = O sinal é o mesmo que já foi usado por Lula.

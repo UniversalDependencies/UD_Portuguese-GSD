@@ -102,32 +102,34 @@
 51	)	)	PUNCT	.	_	49	punct	_	SpaceAfter=No
 52	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = train-s9430
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O ex - presidente fez questão de dizer que Serra é um homem cujo "coração pulsa no momento necessário".
-1	O	o	DET	DET	_	2	det	_	_
-2	ex	_	PART	PRT	_	5	nsubj	_	_
-3	-	-	PUNCT	.	_	2	punct	_	_
-4	presidente	presidente	NOUN	NOUN	_	2	flat	_	_
-5	fez	fazer	VERB	VERB	_	0	root	_	_
-6	questão	questão	NOUN	NOUN	_	5	obj	_	_
-7	de	_	ADP	ADP	_	8	mark	_	_
-8	dizer	dizer	VERB	VERB	_	6	nmod	_	_
-9	que	que	CCONJ	CONJ	_	13	mark	_	_
-10	Serra	_	PROPN	PNOUN	_	13	nsubj	_	_
-11	é	ser	AUX	AUX	_	13	cop	_	_
-12	um	um	DET	DET	_	13	det	_	_
-13	homem	homem	NOUN	NOUN	_	8	ccomp	_	_
-14	cujo	_	DET	DET	_	16	det	_	_
-15	"	"	PUNCT	.	_	17	punct	_	SpaceAfter=No
-16	coração	coração	NOUN	NOUN	_	17	nsubj	_	_
-17	pulsa	pulsar	VERB	VERB	_	13	acl:relcl	_	_
+# sent_id = train-s9430
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ex	ex	ADJ	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	-	-	PUNCT	_	_	4	punct	_	_
+4	presidente	presidente	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
+5	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	questão	questão	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+7	de	de	SCONJ	_	_	8	mark	_	_
+8	dizer	dizer	VERB	_	VerbForm=Inf	6	acl	_	_
+9	que	que	SCONJ	_	_	13	mark	_	_
+10	Serra	Serra	PROPN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+11	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	homem	homem	NOUN	_	Gender=Masc|Number=Sing	8	ccomp	_	_
+14	cujo	cujo	DET	_	Gender=Masc|Number=Sing|PronType=Rel	16	det	_	_
+15	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+16	coração	coração	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
+17	pulsa	pulsar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
 18-19	no	_	_	_	_	_	_	_	_
-18	em	em	ADP	ADP	_	20	case	_	_
-19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	momento	momento	NOUN	NOUN	_	17	nmod	_	_
-21	necessário	necessário	ADJ	ADJ	_	20	amod	_	SpaceAfter=No
-22	"	"	PUNCT	.	_	17	punct	_	SpaceAfter=No
-23	.	.	PUNCT	.	_	5	punct	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	momento	momento	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+21	necessário	necessário	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # sent_id = train-s9431
 # text = Após o choque com o avião, o helicóptero atingiu o sul de Douma, subúrbio da capital do país onde nos últimos dias ocorreram confrontos entre rebeldes e as forças do presidente Bashar Assad.
@@ -176,41 +178,43 @@
 39	Assad	_	PROPN	PNOUN	_	38	flat	_	SpaceAfter=No
 40	.	.	PUNCT	.	_	10	punct	_	_
 
-# sent_id = train-s9432
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Para Renato, a melhora dentro das quatro linhas foi fruto dos treinamentos, não sendo a hora de se empolgar para a sequência de trabalho aparecer naturalmente.
-1	Para	_	ADP	ADP	_	2	case	_	_
-2	Renato	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
-3	,	,	PUNCT	.	_	2	punct	_	_
-4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	melhora	melhora	NOUN	NOUN	_	12	nsubj	_	_
-6	dentro	dentro	ADV	ADV	_	5	advmod	_	_
+# sent_id = train-s9432
+1	Para	para	ADP	_	_	2	case	_	_
+2	Renato	Renato	PROPN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	melhora	melhora	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
+6	dentro	dentro	ADV	_	_	5	advmod	_	_
 7-8	das	_	_	_	_	_	_	_	_
-7	de	de	ADP	ADP	_	10	case	_	_
-8	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
-9	quatro	_	NUM	NUM	NumType=Card	10	nummod	_	_
-10	linhas	_	NOUN	NOUN	_	6	nmod	_	_
-11	foi	_	PART	PRT	_	12	cop	_	_
-12	fruto	fruto	NOUN	NOUN	_	0	root	_	_
+7	de	de	ADP	_	_	10	case	_	_
+8	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	quatro	quatro	NUM	_	NumType=Card	10	nummod	_	_
+10	linhas	linha	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	_
+11	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
+12	fruto	fruto	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 13-14	dos	_	_	_	_	_	_	_	_
-13	de	de	ADP	ADP	_	15	case	_	_
-14	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
-15	treinamentos	treinamento	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
-16	,	,	PUNCT	.	_	20	punct	_	_
-17	não	não	ADV	ADV	Polarity=Neg	20	advmod	_	_
-18	sendo	ser	AUX	AUX	_	20	cop	_	_
-19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	hora	hora	NOUN	NOUN	_	12	acl	_	_
-21	de	_	ADP	ADP	_	23	mark	_	_
-22	se	_	PRON	PRON	_	23	obj	_	_
-23	empolgar	empolgar	VERB	VERB	_	20	nmod	_	_
-24	para	_	ADP	ADP	_	29	mark	_	_
-25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	sequência	sequência	NOUN	NOUN	_	29	nsubj	_	_
-27	de	de	ADP	ADP	_	28	case	_	_
-28	trabalho	trabalho	NOUN	NOUN	_	26	nmod	_	_
-29	aparecer	aparecer	VERB	VERB	_	20	advcl	_	_
-30	naturalmente	naturalmente	ADV	ADV	_	29	advmod	_	SpaceAfter=No
-31	.	.	PUNCT	.	_	12	punct	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	treinamentos	treinamento	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	20	punct	_	_
+17	não	não	ADV	_	Polarity=Neg	20	advmod	_	_
+18	sendo	ser	AUX	_	VerbForm=Ger	20	cop	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	hora	hora	NOUN	_	Gender=Fem|Number=Sing	12	advcl	_	_
+21	de	de	SCONJ	_	_	23	mark	_	_
+22	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	expl	_	_
+23	empolgar	empolgar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	20	acl	_	_
+24	para	para	ADP	_	_	26	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	sequência	sequência	NOUN	_	Gender=Fem|Number=Sing	23	obl	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
+29	aparecer	aparecer	VERB	_	Number=Sing|Person=3|VerbForm=Inf	20	acl	_	_
+30	naturalmente	naturalmente	ADV	_	_	29	advmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
 
 # sent_id = train-s9433
 # text = A composição entre o metal dourado e a textura tartaruga faz do SP68382R um item que prima pela elegância.
@@ -261,27 +265,29 @@
 18	especialista	especialista	NOUN	NOUN	_	16	nsubj	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	16	punct	_	_
 
-# sent_id = train-s9435
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Santos afirmou ter ficado sabendo que a faculdade demorou cerca de 15 minutos para ligar para o Samu.
-1	Santos	_	PROPN	PNOUN	_	2	nsubj	_	_
-2	afirmou	afirmar	VERB	VERB	_	0	root	_	_
-3	ter	ter	AUX	AUX	_	5	aux	_	_
-4	ficado	ficar	AUX	AUX	_	5	aux	_	_
-5	sabendo	saber	VERB	VERB	_	2	xcomp	_	_
-6	que	que	CCONJ	CONJ	_	9	mark	_	_
-7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	faculdade	faculdade	NOUN	NOUN	_	9	nsubj	_	_
-9	demorou	demorar	VERB	VERB	_	5	ccomp	_	_
-10	cerca	cerca	ADV	ADV	_	12	advmod	_	_
-11	de	de	ADP	ADP	_	10	case	_	_
-12	15	15	NUM	NUM	NumType=Card	13	nummod	_	_
-13	minutos	minuto	NOUN	NOUN	_	9	nmod	_	_
-14	para	_	ADP	ADP	_	15	mark	_	_
-15	ligar	ligar	VERB	VERB	_	9	nmod	_	_
-16	para	para	ADP	ADP	_	18	case	_	_
-17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	Samu	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
-19	.	.	PUNCT	.	_	2	punct	_	_
+# sent_id = train-s9435
+1	Santos	Santos	PROPN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	ter	ter	AUX	_	VerbForm=Inf	4	aux	_	_
+4	ficado	ficar	VERB	_	VerbForm=Part	2	xcomp	_	_
+5	sabendo	saber	VERB	_	VerbForm=Ger	4	advcl	_	_
+6	que	que	SCONJ	_	_	9	mark	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	faculdade	faculdade	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+9	demorou	demorar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	ccomp	_	_
+10	cerca	cerca	ADV	_	ExtPos=ADV	13	advmod	_	_
+11	de	de	ADP	_	_	10	fixed	_	_
+12	15	15	NUM	_	NumType=Card	13	nummod	_	_
+13	minutos	minuto	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	_
+14	para	para	SCONJ	_	_	15	mark	_	_
+15	ligar	ligar	VERB	_	VerbForm=Inf	9	advcl	_	_
+16	para	para	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Samu	Samu	PROPN	_	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = train-s9436
 # text = A partida no Estádio João Havelange, no Rio de Janeiro, começou com saída do Santos.

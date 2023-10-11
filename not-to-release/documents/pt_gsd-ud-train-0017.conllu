@@ -1,37 +1,39 @@
-# sent_id = train-s161
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Quem acompanhou os episódios da primeira temporada do TUF (The Ultimate Fighter) Brasil percebeu que o clima entre Gasparzinho e Rodrigo Damm nunca foi amistoso.
-1	Quem	_	PRON	PRON	_	2	nsubj	_	_
-2	acompanhou	acompanhar	VERB	VERB	_	18	csubj	_	_
-3	os	o	DET	DET	_	4	det	_	_
-4	episódios	episódio	NOUN	NOUN	_	2	obj	_	_
+# sent_id = train-s161
+1	Quem	quem	PRON	_	Number=Sing|PronType=Rel	2	nsubj	_	_
+2	acompanhou	acompanhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	ccomp	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	episódios	episódio	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
 5-6	da	_	_	_	_	_	_	_	_
-5	de	de	ADP	ADP	_	8	case	_	_
-6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-7	primeira	primeiro	ADJ	ADJ	_	8	amod	_	_
-8	temporada	temporada	NOUN	NOUN	_	4	nmod	_	_
+5	de	de	ADP	_	_	8	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	8	amod	_	_
+8	temporada	temporada	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 9-10	do	_	_	_	_	_	_	_	_
-9	de	de	ADP	ADP	_	11	case	_	_
-10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	TUF	_	PROPN	PNOUN	_	8	nmod	_	_
-12	(	(	PUNCT	.	_	15	punct	_	SpaceAfter=No
-13	The	_	PROPN	PNOUN	_	15	det	_	_
-14	Ultimate	_	PROPN	PNOUN	_	15	amod	_	_
-15	Fighter	_	PROPN	PNOUN	_	11	appos	_	SpaceAfter=No
-16	)	)	PUNCT	.	_	15	punct	_	_
-17	Brasil	_	PROPN	PNOUN	_	11	flat	_	_
-18	percebeu	perceber	VERB	VERB	_	0	root	_	_
-19	que	que	CCONJ	CONJ	_	28	mark	_	_
-20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	clima	clima	NOUN	NOUN	_	28	nsubj	_	_
-22	entre	_	ADP	ADP	_	23	case	_	_
-23	Gasparzinho	_	PROPN	PNOUN	_	21	nmod	_	_
-24	e	e	CCONJ	CONJ	_	25	cc	_	_
-25	Rodrigo	_	PROPN	PNOUN	_	23	conj	_	_
-26	Damm	_	PROPN	PNOUN	_	25	flat	_	_
-27	nunca	nunca	ADV	ADV	_	28	advmod	_	_
-28	foi	_	VERB	VERB	_	18	ccomp	_	_
-29	amistoso	amistoso	ADJ	ADJ	_	28	xcomp	_	SpaceAfter=No
-30	.	.	PUNCT	.	_	18	punct	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	TUF	TUF	PROPN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	The	The	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	11	appos	_	_
+14	Ultimate	Ultimate	PROPN	_	Number=Sing	13	flat:name	_	_
+15	Fighter	Fighter	PROPN	_	Number=Sing	13	flat:name	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	13	punct	_	_
+17	Brasil	Brasil	PROPN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
+18	percebeu	perceber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+19	que	que	SCONJ	_	_	29	mark	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	clima	clima	NOUN	_	Gender=Masc|Number=Sing	29	nsubj	_	_
+22	entre	entre	ADP	_	_	23	case	_	_
+23	Gasparzinho	Gasparzinho	PROPN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+24	e	e	CCONJ	_	_	25	cc	_	_
+25	Rodrigo	Rodrigo	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	23	conj	_	_
+26	Damm	Damm	PROPN	_	Number=Sing	25	flat:name	_	_
+27	nunca	nunca	ADV	_	_	29	advmod	_	_
+28	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	cop	_	_
+29	amistoso	amistoso	ADJ	_	Gender=Masc|Number=Sing	18	ccomp	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
 
 # sent_id = train-s162
 # text = O gasto mensal com o armazenamento dos processos é de cerca de R $ 400 mil, um total de R $ 4,8 milhões ao ano.
@@ -241,57 +243,63 @@
 16	Paixão	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	11	punct	_	_
 
-# sent_id = train-s168
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = No No Mercy venceram a Lance Storm e The Hurricane mantendo o campeonato mundial de duplas da WCW, porém em 23 de Outubro o perderam frente aos Dudley Boyz (Bubba Ray) &amp; D - Von na Raw.
+# sent_id = train-s168
 1-2	No	_	_	_	_	_	_	_	_
-1	Em	em	ADP	ADP	_	5	case	_	_
-2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-3	No	_	PROPN	PNOUN	_	4	advmod	_	_
-4	Mercy	_	PROPN	PNOUN	_	1	nsubj	_	_
-5	venceram	vencer	VERB	VERB	_	0	root	_	_
-6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	Lance	_	PROPN	PNOUN	_	5	obj	_	_
-8	Storm	_	PROPN	PNOUN	_	7	flat	_	_
-9	e	e	CCONJ	CONJ	_	11	cc	_	_
-10	The	_	PROPN	PNOUN	_	11	det	_	_
-11	Hurricane	_	PROPN	PNOUN	_	7	conj	_	_
-12	mantendo	manter	VERB	VERB	_	5	acl	_	_
-13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	campeonato	campeonato	NOUN	NOUN	_	12	obj	_	_
-15	mundial	mundial	ADJ	ADJ	_	14	amod	_	_
-16	de	de	ADP	ADP	_	17	case	_	_
-17	duplas	_	NOUN	NOUN	_	14	nmod	_	_
-18-19	da	_	_	_	_	_	_	_	_
-18	de	de	ADP	ADP	_	20	case	_	_
-19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	WCW	_	PROPN	PNOUN	_	14	nmod	_	SpaceAfter=No
-21	,	,	PUNCT	.	_	28	punct	_	_
-22	porém	_	ADV	ADV	_	28	advmod	_	_
-23	em	em	ADP	ADP	_	24	case	_	_
-24	23	23	NUM	NUM	NumType=Card	28	nmod	_	_
-25	de	de	ADP	ADP	_	26	case	_	_
-26	Outubro	_	PROPN	PNOUN	_	24	nmod	_	_
-27	o	_	PRON	PRON	_	28	obj	_	_
-28	perderam	perder	VERB	VERB	_	5	conj	_	_
-29	frente	_	ADV	ADV	_	28	advmod	_	_
-30-31	aos	_	_	_	_	_	_	_	_
-30	a	a	ADP	ADP	_	32	case	_	_
-31	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
-32	Dudley	_	PROPN	PNOUN	_	29	nmod	_	_
-33	Boyz	_	PROPN	PNOUN	_	32	flat	_	_
-34	(	(	PUNCT	.	_	35	punct	_	SpaceAfter=No
-35	Bubba	_	PROPN	PNOUN	_	32	appos	_	_
-36	Ray	_	PROPN	PNOUN	_	35	flat	_	SpaceAfter=No
-37	)	)	PUNCT	.	_	35	punct	_	_
-38	&amp;	_	CCONJ	CONJ	_	39	cc	_	_
-39	D	_	PROPN	PNOUN	_	32	conj	_	_
-40	-	-	PUNCT	.	_	39	punct	_	_
-41	Von	_	PROPN	PNOUN	_	39	flat	_	_
-42-43	na	_	_	_	_	_	_	_	_
-42	em	em	ADP	ADP	_	44	case	_	_
-43	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
-44	Raw	_	PROPN	PNOUN	_	28	nmod	_	SpaceAfter=No
-45	.	.	PUNCT	.	_	5	punct	_	_
+1	Em	em	ADP	_	_	5	case	_	_
+2	o	o	PRON	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	obl	_	_
+3-4	No	_	_	_	_	_	_	_	_
+3	Em	em	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Mercy	Mercy	PROPN	_	Gender=Masc|Number=Sing	6	obl	_	_
+6	venceram	vencer	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+7	a	a	ADP	_	_	8	case	_	_
+8	Lance	Lance	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	6	obl	_	_
+9	Storm	Storm	PROPN	_	Number=Sing	8	flat:name	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	The	The	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	8	conj	_	_
+12	Hurricane	Hurricane	PROPN	_	Number=Sing	11	flat:name	_	_
+13	mantendo	manter	VERB	_	VerbForm=Ger	6	advcl	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	campeonato	campeonato	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16	mundial	mundial	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	duplas	dupla	NOUN	_	Gender=Fem|Number=Plur	15	nmod	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	WCW	WCW	PROPN	_	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	29	punct	_	_
+23	porém	porém	CCONJ	_	_	29	cc	_	_
+24	em	em	ADP	_	_	25	case	_	_
+25	23	23	NUM	_	NumType=Card	29	obl	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	Outubro	outubro	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
+28	o	ele	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	obj	_	_
+29	perderam	perder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
+30	frente	frente	ADV	_	_	29	advmod	_	_
+31-32	aos	_	_	_	_	_	_	_	_
+31	a	a	ADP	_	_	33	case	_	_
+32	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	Dudley	Dudley	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	30	obl	_	_
+34	Boyz	Boyz	PROPN	_	Number=Sing	33	flat:name	_	_
+35	(	(	PUNCT	_	_	36	punct	_	SpaceAfter=No
+36	Bubba	Bubba	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	33	appos	_	_
+37	Ray	Ray	PROPN	_	Number=Sing	36	flat:name	_	SpaceAfter=No
+38	)	)	PUNCT	_	_	36	punct	_	_
+39	&	&	CCONJ	_	_	40	cc	_	SpaceAfter=No
+40	amp	amp	NOUN	_	Gender=Masc|Number=Sing	33	conj	_	SpaceAfter=No
+41	;	;	PUNCT	_	_	42	punct	_	_
+42	D	D	PROPN	_	Gender=Masc|Number=Sing	33	conj	_	_
+43	-	-	PUNCT	_	_	42	punct	_	_
+44	Von	Von	PROPN	_	Gender=Masc|Number=Sing	42	flat:name	_	_
+45-46	na	_	_	_	_	_	_	_	_
+45	em	em	ADP	_	_	47	case	_	_
+46	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
+47	Raw	Raw	PROPN	_	Gender=Fem|Number=Sing	29	obl	_	SpaceAfter=No
+48	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
 # sent_id = train-s169
 # text = Mas o que ele criou ficará entre nós como a lembrança dum grande carioca que fez a diferença ", concluiu o prefeito em seu comunicado.

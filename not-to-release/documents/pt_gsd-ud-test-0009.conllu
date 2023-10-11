@@ -127,40 +127,42 @@
 21	liderança	liderança	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = test-s87
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = A Carta ao Pai foi escrita em 1919, mas nunca chegou a ser enviada a seu pai, embora houvesse cogitado como revela em carta a Milena Jesenská.
-1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	Carta	_	PROPN	PNOUN	_	7	nsubj:pass	_	_
+# sent_id = test-s87
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Carta	carta	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3-4	ao	_	_	_	_	_	_	_	_
-3	a	a	ADP	ADP	_	5	case	_	_
-4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	Pai	_	PROPN	PNOUN	_	2	nmod	_	_
-6	foi	_	AUX	AUX	_	7	aux:pass	_	_
-7	escrita	escrever	VERB	VERB	_	0	root	_	_
-8	em	em	ADP	ADP	_	9	case	_	_
-9	1919	1919	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
-10	,	,	PUNCT	.	_	16	punct	_	_
-11	mas	mas	CCONJ	CONJ	_	16	cc	_	_
-12	nunca	nunca	ADV	ADV	_	16	advmod	_	_
-13	chegou	chegar	AUX	AUX	_	16	aux	_	_
-14	a	_	ADP	ADP	_	16	mark	_	_
-15	ser	ser	AUX	AUX	_	16	aux:pass	_	_
-16	enviada	enviar	VERB	VERB	_	7	conj	_	_
-17	a	_	ADP	ADP	_	19	case	_	_
-18	seu	_	DET	DET	_	19	det:poss	_	_
-19	pai	pai	NOUN	NOUN	_	16	iobj	_	SpaceAfter=No
-20	,	,	PUNCT	.	_	23	punct	_	_
-21	embora	_	CCONJ	CONJ	_	23	mark	_	_
-22	houvesse	haver	AUX	AUX	_	23	aux	_	_
-23	cogitado	cogitar	VERB	VERB	_	16	advcl	_	_
-24	como	_	CCONJ	CONJ	_	25	mark	_	_
-25	revela	revelar	VERB	VERB	_	23	advcl	_	_
-26	em	em	ADP	ADP	_	27	case	_	_
-27	carta	carta	NOUN	NOUN	_	25	nmod	_	_
-28	a	_	ADP	ADP	_	29	case	_	_
-29	Milena	_	PROPN	PNOUN	_	27	nmod	_	_
-30	Jesenská	_	PROPN	PNOUN	_	29	flat	_	SpaceAfter=No
-31	.	.	PUNCT	.	_	7	punct	_	_
+3	a	a	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Pai	Pai	PROPN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+7	escrita	escrever	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+8	em	em	ADP	_	_	9	case	_	_
+9	1919	1919	NUM	_	NumType=Card	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	_
+11	mas	mas	CCONJ	_	_	13	cc	_	_
+12	nunca	nunca	ADV	_	_	13	advmod	_	_
+13	chegou	chegar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+14	a	a	SCONJ	_	_	16	mark	_	_
+15	ser	ser	AUX	_	VerbForm=Inf	16	aux:pass	_	_
+16	enviada	enviar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	13	xcomp	_	_
+17	a	a	ADP	_	_	19	case	_	_
+18	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	19	det	_	_
+19	pai	pai	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	16	punct	_	_
+21	embora	embora	SCONJ	_	_	23	mark	_	_
+22	houvesse	haver	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
+23	cogitado	cogitar	VERB	_	VerbForm=Part	16	advcl	_	_
+24	como	como	SCONJ	_	_	25	mark	_	_
+25	revela	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	ccomp	_	_
+26	em	em	ADP	_	_	27	case	_	_
+27	carta	carta	NOUN	_	Gender=Fem|Number=Sing	25	obl	_	_
+28	a	a	ADP	_	_	29	case	_	_
+29	Milena	Milena	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	27	nmod	_	_
+30	Jesenská	Jesenská	PROPN	_	Number=Sing	29	flat:name	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
 # sent_id = test-s88
 # text = A produção de coca é livre naquele país por ser algo "cultural".

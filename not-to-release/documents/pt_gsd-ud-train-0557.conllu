@@ -72,36 +72,38 @@
 32	ações	ação	NOUN	NOUN	_	28	conj	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	13	punct	_	_
 
-# sent_id = train-s5531
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = "Temos interesse que esse plano seja aprovado o quanto antes para que as operações da empresa voltem à normalidade", afirmou.
-1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
-2	Temos	ter	VERB	VERB	_	25	ccomp	_	_
-3	interesse	interesse	NOUN	NOUN	_	2	obj	_	_
-4	que	_	PRON	PRON	_	8	mark	_	_
-5	esse	_	DET	DET	_	6	det	_	_
-6	plano	plano	NOUN	NOUN	_	8	nsubj:pass	_	_
-7	seja	ser	AUX	AUX	_	8	aux:pass	_	_
-8	aprovado	aprovar	VERB	VERB	_	3	dep	_	_
-9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	quanto	quantum	NOUN	NOUN	_	11	nmod	_	_
-11	antes	antes	ADV	ADV	_	8	advmod	_	_
-12	para	_	ADP	ADP	_	19	mark	_	_
-13	que	que	CCONJ	CONJ	_	19	mark	_	_
-14	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
-15	operações	operação	NOUN	NOUN	_	19	nsubj	_	_
+# sent_id = train-s5531
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	25	parataxis	_	_
+3	interesse	interesse	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+4	que	que	SCONJ	_	_	8	mark	_	_
+5	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	plano	plano	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+7	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	aprovado	aprovar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	acl	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+10	quanto	quanto	ADV	_	Gender=Masc|Number=Sing|PronType=Rel	11	advmod	_	_
+11	antes	antes	ADV	_	_	8	advmod	_	_
+12	para	para	SCONJ	_	_	19	mark	_	_
+13	que	que	SCONJ	_	_	19	mark	_	_
+14	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	operações	operação	NOUN	_	Gender=Fem|Number=Plur	19	nsubj	_	_
 16-17	da	_	_	_	_	_	_	_	_
-16	de	de	ADP	ADP	_	18	case	_	_
-17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	empresa	empresa	NOUN	NOUN	_	15	nmod	_	_
-19	voltem	voltar	VERB	VERB	_	8	advcl	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+19	voltem	voltar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
 20-21	à	_	_	_	_	_	_	_	_
-20	a	a	ADP	ADP	_	22	case	_	_
-21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	normalidade	normalidade	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
-23	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
-24	,	,	PUNCT	.	_	25	punct	_	_
-25	afirmou	afirmar	VERB	VERB	_	0	root	_	SpaceAfter=No
-26	.	.	PUNCT	.	_	25	punct	_	_
+20	a	a	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	normalidade	normalidade	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
 
 # sent_id = train-s5532
 # text = Foi o 17.

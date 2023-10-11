@@ -8,65 +8,69 @@
 6	times	time	NOUN	NOUN	_	4	obj	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s532
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O centro de compras que inicialmente se chamava Megacenter Salvador foi rebatizado em para Shopping Metrô Santa Cruz Salvador em março de 2008, e em setembro de 2008 teve o seu nome novamente alterado, dessa vez passando a se chamar Shopping Bela Vista Salvador, e o novo bairro se chamará Horto Bela Vista.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	centro	centro	NOUN	NOUN	_	21	nsubj:pass	_	_
-3	de	de	ADP	ADP	_	4	case	_	_
-4	compras	compra	NOUN	NOUN	_	2	nmod	_	_
-5	que	_	PRON	PRON	_	9	nsubj	_	_
-6	inicialmente	inicialmente	ADV	ADV	_	9	advmod	_	_
-7	se	_	PART	PRT	_	9	expl:pv	_	_
-8	chamava	chamar	AUX	AUX	_	9	cop	_	_
-9	Megacenter	_	PROPN	PNOUN	_	2	acl:relcl	_	_
-10	Salvador	_	PROPN	PNOUN	_	9	flat	_	_
-11	foi	_	AUX	AUX	_	21	aux:pass	_	_
-12	rebatizado	rebatizar	VERB	VERB	_	21	case	_	_
-13	em	_	ADP	ADP	_	21	dep	_	_
-14	para	para	ADP	ADP	_	15	case	_	_
-15	Shopping	_	PROPN	PNOUN	_	21	nmod	_	_
-16	Metrô	_	PROPN	PNOUN	_	15	flat	_	_
-17	Santa	_	PROPN	PNOUN	_	18	amod	_	_
-18	Cruz	_	PROPN	PNOUN	_	15	flat	_	_
-19	Salvador	_	PROPN	PNOUN	_	15	flat	_	_
-20	em	em	ADP	ADP	_	21	case	_	_
-21	março	_	PROPN	PNOUN	_	0	root	_	_
-22	de	de	ADP	ADP	_	23	case	_	_
-23	2008	2008	NUM	NUM	NumType=Card	21	nmod	_	SpaceAfter=No
-24	,	,	PUNCT	.	_	30	punct	_	_
-25	e	e	CCONJ	CONJ	_	30	cc	_	_
-26	em	em	ADP	ADP	_	27	case	_	_
-27	setembro	_	PROPN	PNOUN	_	30	nmod	_	_
-28	de	de	ADP	ADP	_	29	case	_	_
-29	2008	2008	NUM	NUM	NumType=Card	27	nmod	_	_
-30	teve	ter	VERB	VERB	_	21	conj	_	_
-31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
-32	seu	_	DET	DET	_	33	det:poss	_	_
-33	nome	nome	NOUN	NOUN	_	35	nsubj	_	_
-34	novamente	novamente	ADV	ADV	_	35	advmod	_	_
-35	alterado	alterado	ADJ	ADJ	_	30	xcomp	_	SpaceAfter=No
-36	,	,	PUNCT	.	_	43	punct	_	_
-37	dessa	_	ADP	ADP	_	38	case	_	_
-38	vez	vez	NOUN	NOUN	_	43	nmod	_	_
-39	passando	passar	AUX	AUX	_	43	aux	_	_
-40	a	_	ADP	ADP	_	43	mark	_	_
-41	se	_	PART	PRT	_	43	expl:pv	_	_
-42	chamar	chamar	AUX	AUX	_	43	cop	_	_
-43	Shopping	_	PROPN	PNOUN	_	30	acl	_	_
-44	Bela	_	PROPN	PNOUN	_	45	amod	_	_
-45	Vista	_	PROPN	PNOUN	_	43	flat	_	_
-46	Salvador	_	PROPN	PNOUN	_	43	flat	_	SpaceAfter=No
-47	,	,	PUNCT	.	_	54	punct	_	_
-48	e	e	CCONJ	CONJ	_	54	cc	_	_
-49	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
-50	novo	novo	ADJ	ADJ	_	51	amod	_	_
-51	bairro	bairro	NOUN	NOUN	_	54	nsubj	_	_
-52	se	_	PART	PRT	_	54	expl:pv	_	_
-53	chamará	chamar	AUX	AUX	_	54	cop	_	_
-54	Horto	_	PROPN	PNOUN	_	43	conj	_	_
-55	Bela	_	PROPN	PNOUN	_	54	amod	_	_
-56	Vista	_	PROPN	PNOUN	_	54	flat	_	SpaceAfter=No
-57	.	.	PUNCT	.	_	21	punct	_	_
+# sent_id = train-s532
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	centro	centro	NOUN	_	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	compras	compra	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
+5	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	8	nsubj	_	_
+6	inicialmente	inicialmente	ADV	_	_	8	advmod	_	_
+7	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	expl	_	_
+8	chamava	chamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+9	Megacenter	Megacenter	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	8	xcomp	_	_
+10	Salvador	Salvador	PROPN	_	Number=Sing	9	flat:name	_	_
+11	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
+12	rebatizado	rebatizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	para	para	ADP	_	_	15	case	_	_
+15	Shopping	Shopping	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	12	obl	_	_
+16	Metrô	Metrô	PROPN	_	Number=Sing	15	flat:name	_	_
+17	Santa	Santa	PROPN	_	Number=Sing	15	flat:name	_	_
+18	Cruz	Cruz	PROPN	_	Number=Sing	15	flat:name	_	_
+19	Salvador	Salvador	PROPN	_	Number=Sing	15	flat:name	_	_
+20	em	em	ADP	_	_	21	case	_	_
+21	março	março	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	2008	2008	NUM	_	NumType=Card	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	30	punct	_	_
+25	e	e	CCONJ	_	_	30	cc	_	_
+26	em	em	ADP	_	_	27	case	_	_
+27	setembro	setembro	NOUN	_	Gender=Masc|Number=Sing	30	obl	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	2008	2008	NUM	_	NumType=Card	27	nmod	_	_
+30	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	conj	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+32	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	33	det	_	_
+33	nome	nome	NOUN	_	Gender=Masc|Number=Sing	30	obj	_	_
+34	novamente	novamente	ADV	_	_	35	advmod	_	_
+35	alterado	alterar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	33	acl	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	40	punct	_	_
+37-38	dessa	_	_	_	_	_	_	_	_
+37	de	de	ADP	_	_	39	case	_	_
+38	essa	esse	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	vez	vez	NOUN	_	Gender=Fem|Number=Sing	40	obl	_	_
+40	passando	passar	VERB	_	ExtPos=AUX|VerbForm=Ger	30	advcl	_	_
+41	a	a	SCONJ	_	_	43	mark	_	_
+42	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	43	expl	_	_
+43	chamar	chamar	VERB	_	VerbForm=Inf	40	xcomp	_	_
+44	Shopping	Shopping	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	43	obj	_	_
+45	Bela	Bela	PROPN	_	Number=Sing	44	flat:name	_	_
+46	Vista	Vista	PROPN	_	Number=Sing	44	flat:name	_	_
+47	Salvador	Salvador	PROPN	_	Number=Sing	44	flat:name	_	SpaceAfter=No
+48	,	,	PUNCT	_	_	54	punct	_	_
+49	e	e	CCONJ	_	_	54	cc	_	_
+50	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+51	novo	novo	ADJ	_	Gender=Masc|Number=Sing	52	amod	_	_
+52	bairro	bairro	NOUN	_	Gender=Masc|Number=Sing	54	nsubj	_	_
+53	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	54	expl	_	_
+54	chamará	chamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	40	conj	_	_
+55	Horto	Horto	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	54	obj	_	_
+56	Bela	Bela	PROPN	_	Number=Sing	55	flat:name	_	_
+57	Vista	Vista	PROPN	_	Number=Sing	55	flat:name	_	SpaceAfter=No
+58	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
 
 # sent_id = train-s533
 # text = Nesta sexta - feira (dia 2), Preta Gil sobe ao palco.
@@ -186,43 +190,45 @@
 16	cirurgia	cirurgia	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s539
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Já o tom da reunião entre FMI e Banco Mundial foi estabelecido, após as projeções mais sombrias para a economia mundial, divulgadas no começo da semana.
-1	Já	já	ADV	ADV	_	13	advmod	_	_
-2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	tom	tom	NOUN	NOUN	_	13	nsubj:pass	_	_
+# sent_id = train-s539
+1	Já	já	ADV	_	_	13	advmod	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tom	tom	NOUN	_	Gender=Masc|Number=Sing	13	nsubj:pass	_	_
 4-5	da	_	_	_	_	_	_	_	_
-4	de	de	ADP	ADP	_	6	case	_	_
-5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	reunião	reunião	NOUN	NOUN	_	3	nmod	_	_
-7	entre	_	ADP	ADP	_	8	case	_	_
-8	FMI	_	PROPN	PNOUN	_	6	nmod	_	_
-9	e	e	CCONJ	CONJ	_	10	cc	_	_
-10	Banco	_	PROPN	PNOUN	_	8	conj	_	_
-11	Mundial	_	PROPN	PNOUN	_	10	amod	_	_
-12	foi	_	AUX	AUX	_	13	aux:pass	_	_
-13	estabelecido	estabelecer	VERB	VERB	_	0	root	_	SpaceAfter=No
-14	,	,	PUNCT	.	_	3	punct	_	_
-15	após	_	ADP	ADP	_	17	case	_	_
-16	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
-17	projeções	projeção	NOUN	NOUN	_	13	nmod	_	_
-18	mais	mais	ADV	ADV	_	19	advmod	_	_
-19	sombrias	sombrio	ADJ	ADJ	_	17	amod	_	_
-20	para	para	ADP	ADP	_	22	case	_	_
-21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	economia	economia	NOUN	NOUN	_	17	nmod	_	_
-23	mundial	mundial	ADJ	ADJ	_	22	amod	_	SpaceAfter=No
-24	,	,	PUNCT	.	_	25	punct	_	_
-25	divulgadas	divulgar	VERB	VERB	_	17	acl	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	reunião	reunião	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+7	entre	entre	ADP	_	_	8	case	_	_
+8	FMI	FMI	PROPN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	Banco	Banco	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	8	conj	_	_
+11	Mundial	Mundial	PROPN	_	Number=Sing	10	flat:name	_	_
+12	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
+13	estabelecido	estabelecer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	após	após	ADP	_	_	17	case	_	_
+16	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	projeções	projeção	NOUN	_	Gender=Fem|Number=Plur	13	obl	_	_
+18	mais	mais	ADV	_	_	19	advmod	_	_
+19	sombrias	sombrio	ADJ	_	Gender=Fem|Number=Plur	17	amod	_	_
+20	para	para	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	economia	economia	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+23	mundial	mundial	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	divulgadas	divulgar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	17	acl	_	_
 26-27	no	_	_	_	_	_	_	_	_
-26	em	em	ADP	ADP	_	28	case	_	_
-27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
-28	começo	começo	NOUN	NOUN	_	25	nmod	_	_
+26	em	em	ADP	_	_	28	case	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	começo	começo	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	_
 29-30	da	_	_	_	_	_	_	_	_
-29	de	de	ADP	ADP	_	31	case	_	_
-30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-31	semana	semana	NOUN	NOUN	_	28	nmod	_	SpaceAfter=No
-32	.	.	PUNCT	.	_	13	punct	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	semana	semana	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
 
 # sent_id = train-s540
 # text = Aos 29 anos, Huntelaar agradeceu ao apoio recebido dentro do clube de Gelsenkirchen e disse estar completamente focado para justificar o investimento de sua equipe nas oitavas de final da Liga dos Campeões.

@@ -1,19 +1,21 @@
-# sent_id = dev-s1141
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Depois do passe de Rodríguez, Cuadrado chuta cruzado com firmeza.
-1	Depois	depois	ADV	ADV	_	4	case	_	_
+# sent_id = dev-s1141
+1	Depois	depois	ADV	_	_	9	advmod	_	_
 2-3	do	_	_	_	_	_	_	_	_
-2	de	de	ADP	ADP	_	1	case	_	_
-3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
-4	passe	passe	NOUN	NOUN	_	9	nmod	_	_
-5	de	de	ADP	ADP	_	6	case	_	_
-6	Rodríguez	_	PROPN	PNOUN	_	4	nmod	_	SpaceAfter=No
-7	,	,	PUNCT	.	_	4	punct	_	_
-8	Cuadrado	_	PROPN	PNOUN	_	9	nsubj	_	_
-9	chuta	chutar	VERB	VERB	_	0	root	_	_
-10	cruzado	_	ADV	ADV	_	9	advmod	_	_
-11	com	com	ADP	ADP	_	12	case	_	_
-12	firmeza	firmeza	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
-13	.	.	PUNCT	.	_	9	punct	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	passe	passe	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Rodríguez	Rodríguez	PROPN	_	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	1	punct	_	_
+8	Cuadrado	Cuadrado	PROPN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+9	chuta	chutar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	cruzado	cruzado	ADJ	_	Gender=Masc|Number=Sing	9	xcomp	_	_
+11	com	com	ADP	_	_	12	case	_	_
+12	firmeza	firmeza	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
 
 # sent_id = dev-s1142
 # text = O negócio, no entanto, não iria envolver o astro da equipe de André Villas - Boas.
@@ -334,73 +336,75 @@
 24	trabalho	trabalho	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = dev-s1150
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Com todos no limite da categoria, a encarada de Anderson e Sonnen era o fato mais esperado da noite, devido aos atritos entre ambos nos últimos dois anos e as ameaças feitas pelo brasileiro ao americano durante a encarada na entrevista coletiva, onde foram apartados por segurança.
-1	Com	_	ADP	ADP	_	2	case	_	_
-2	todos	_	PRON	PRON	_	18	nmod	_	_
+# sent_id = dev-s1150
+1	Com	com	ADP	_	_	2	case	_	_
+2	todos	todo	PRON	_	Gender=Masc|Number=Plur|PronType=Tot	18	nmod	_	_
 3-4	no	_	_	_	_	_	_	_	_
-3	em	em	ADP	ADP	_	5	case	_	_
-4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	limite	limite	NOUN	NOUN	_	2	nmod	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	limite	limite	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 6-7	da	_	_	_	_	_	_	_	_
-6	de	de	ADP	ADP	_	8	case	_	_
-7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	categoria	categoria	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	2	punct	_	_
-10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	encarada	_	NOUN	NOUN	_	18	nsubj	_	_
-12	de	de	ADP	ADP	_	13	case	_	_
-13	Anderson	_	PROPN	PNOUN	_	11	nmod	_	_
-14	e	e	CCONJ	CONJ	_	15	cc	_	_
-15	Sonnen	_	PROPN	PNOUN	_	13	conj	_	_
-16	era	_	AUX	AUX	_	18	cop	_	_
-17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	fato	fato	NOUN	NOUN	_	0	root	_	_
-19	mais	mais	ADV	ADV	_	20	advmod	_	_
-20	esperado	esperado	ADJ	ADJ	_	18	amod	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	categoria	categoria	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	2	punct	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	encarada	encarar,encarado	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Anderson	Anderson	PROPN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	Sonnen	Sonnen	PROPN	_	Gender=Masc|Number=Sing	13	conj	_	_
+16	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	cop	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	fato	fato	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+19	mais	mais	ADV	_	_	20	advmod	_	_
+20	esperado	esperar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	18	acl	_	_
 21-22	da	_	_	_	_	_	_	_	_
-21	de	de	ADP	ADP	_	23	case	_	_
-22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-23	noite	noite	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
-24	,	,	PUNCT	.	_	28	punct	_	_
-25	devido	dever	VERB	VERB	_	28	case	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	noite	noite	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	18	punct	_	_
+25	devido	devido	ADV	_	_	18	advmod	_	_
 26-27	aos	_	_	_	_	_	_	_	_
-26	a	a	ADP	ADP	_	25	case	_	_
-27	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
-28	atritos	atrito	NOUN	NOUN	_	18	nmod	_	_
-29	entre	_	ADP	ADP	_	30	case	_	_
-30	ambos	_	PRON	PRON	_	28	nmod	_	_
+26	a	a	ADP	_	_	28	case	_	_
+27	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	atritos	atrito	NOUN	_	Gender=Masc|Number=Plur	25	obl	_	_
+29	entre	entre	ADP	_	_	30	case	_	_
+30	ambos	ambos	PRON	_	Gender=Masc|Number=Plur|PronType=Tot	28	nmod	_	_
 31-32	nos	_	_	_	_	_	_	_	_
-31	em	em	ADP	ADP	_	35	case	_	_
-32	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
-33	últimos	último	ADJ	ADJ	_	35	amod	_	_
-34	dois	_	NUM	NUM	NumType=Card	35	nummod	_	_
-35	anos	ano	NOUN	NOUN	_	28	nmod	_	_
-36	e	e	CCONJ	CONJ	_	38	cc	_	_
-37	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	38	det	_	_
-38	ameaças	ameaça	NOUN	NOUN	_	28	conj	_	_
-39	feitas	_	VERB	VERB	_	38	acl	_	_
+31	em	em	ADP	_	_	35	case	_	_
+32	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+33	últimos	último	ADJ	_	Gender=Masc|Number=Plur|NumType=Ord	35	amod	_	_
+34	dois	dois	NUM	_	NumType=Card	35	nummod	_	_
+35	anos	ano	NOUN	_	Gender=Masc|Number=Plur	30	nmod	_	_
+36	e	e	CCONJ	_	_	38	cc	_	_
+37	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	38	det	_	_
+38	ameaças	ameaça	NOUN	_	Gender=Fem|Number=Plur	28	conj	_	_
+39	feitas	fazer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	38	acl	_	_
 40-41	pelo	_	_	_	_	_	_	_	_
-40	por	por	ADP	ADP	_	42	case	_	_
-41	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
-42	brasileiro	brasileiro	NOUN	NOUN	_	39	nmod	_	_
+40	por	por	ADP	_	_	42	case	_	_
+41	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	brasileiro	brasileiro	NOUN	_	Gender=Masc|Number=Sing	39	obl:agent	_	_
 43-44	ao	_	_	_	_	_	_	_	_
-43	a	a	ADP	ADP	_	45	case	_	_
-44	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
-45	americano	americano	NOUN	NOUN	_	39	nmod	_	_
-46	durante	_	ADP	ADP	_	48	case	_	_
-47	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
-48	encarada	_	NOUN	NOUN	_	39	nmod	_	_
+43	a	a	ADP	_	_	45	case	_	_
+44	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	americano	americano	NOUN	_	Gender=Masc|Number=Sing	39	obl	_	_
+46	durante	durante	ADP	_	_	48	case	_	_
+47	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	encarada	encarar,encarado	NOUN	_	Gender=Fem|Number=Sing	39	obl	_	_
 49-50	na	_	_	_	_	_	_	_	_
-49	em	em	ADP	ADP	_	51	case	_	_
-50	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
-51	entrevista	entrevista	NOUN	NOUN	_	48	nmod	_	_
-52	coletiva	coletivo	ADJ	ADJ	_	51	amod	_	SpaceAfter=No
-53	,	,	PUNCT	.	_	56	punct	_	_
-54	onde	onde	ADV	ADV	_	56	advmod	_	_
-55	foram	_	AUX	AUX	_	56	aux:pass	_	_
-56	apartados	apartar	VERB	VERB	_	51	acl:relcl	_	_
-57	por	por	ADP	ADP	_	58	case	_	_
-58	segurança	segurança	NOUN	NOUN	_	56	nmod	_	SpaceAfter=No
-59	.	.	PUNCT	.	_	18	punct	_	_
+49	em	em	ADP	_	_	51	case	_	_
+50	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
+51	entrevista	entrevista	NOUN	_	Gender=Fem|Number=Sing	48	nmod	_	_
+52	coletiva	coletivo	ADJ	_	Gender=Fem|Number=Sing	51	amod	_	SpaceAfter=No
+53	,	,	PUNCT	_	_	56	punct	_	_
+54	onde	onde	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	56	obl	_	_
+55	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	56	aux:pass	_	_
+56	apartados	apartar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	51	acl:relcl	_	_
+57	por	por	ADP	_	_	58	case	_	_
+58	segurança	segurança	NOUN	_	Gender=Fem|Number=Sing	56	obl:agent	_	SpaceAfter=No
+59	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
 

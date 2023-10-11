@@ -1,41 +1,43 @@
-# sent_id = train-s7536
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O dinheiro da "fiança perpétua" de Henderson ainda tem sido usado para financiar a Charles Henderson High School, Charles Henderson Middle School e The Charles Henderson Child Health Care Center.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	dinheiro	dinheiro	NOUN	NOUN	_	14	nsubj:pass	_	_
+# sent_id = train-s7536
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	14	nsubj:pass	_	_
 3-4	da	_	_	_	_	_	_	_	_
-3	de	de	ADP	ADP	_	6	case	_	_
-4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-5	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
-6	fiança	fiança	NOUN	NOUN	_	2	nmod	_	_
-7	perpétua	perpétuo	ADJ	ADJ	_	6	amod	_	SpaceAfter=No
-8	"	"	PUNCT	.	_	6	punct	_	_
-9	de	de	ADP	ADP	_	10	case	_	_
-10	Henderson	_	PROPN	PNOUN	_	6	nmod	_	_
-11	ainda	ainda	ADV	ADV	_	14	advmod	_	_
-12	tem	ter	AUX	AUX	_	14	aux	_	_
-13	sido	ser	AUX	AUX	_	14	aux:pass	_	_
-14	usado	usar	VERB	VERB	_	0	root	_	_
-15	para	_	ADP	ADP	_	16	mark	_	_
-16	financiar	financiar	VERB	VERB	_	14	advcl	_	_
-17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	Charles	_	PROPN	PNOUN	_	16	obj	_	_
-19	Henderson	_	PROPN	PNOUN	_	18	flat	_	_
-20	High	_	PROPN	PNOUN	_	18	amod	_	_
-21	School	_	PROPN	PNOUN	_	18	flat	_	SpaceAfter=No
-22	,	,	PUNCT	.	_	23	punct	_	_
-23	Charles	_	PROPN	PNOUN	_	18	conj	_	_
-24	Henderson	_	PROPN	PNOUN	_	23	flat	_	_
-25	Middle	_	PROPN	PNOUN	_	23	amod	_	_
-26	School	_	PROPN	PNOUN	_	23	flat	_	_
-27	e	e	CCONJ	CONJ	_	29	cc	_	_
-28	The	_	PROPN	PNOUN	_	29	det	_	_
-29	Charles	_	PROPN	PNOUN	_	18	conj	_	_
-30	Henderson	_	PROPN	PNOUN	_	29	flat	_	_
-31	Child	_	PROPN	PNOUN	_	29	flat	_	_
-32	Health	_	PROPN	PNOUN	_	29	flat	_	_
-33	Care	_	PROPN	PNOUN	_	29	flat	_	_
-34	Center	_	PROPN	PNOUN	_	29	flat	_	SpaceAfter=No
-35	.	.	PUNCT	.	_	14	punct	_	_
+3	de	de	ADP	_	_	6	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	fiança	fiança	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+7	perpétua	perpétu	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	6	punct	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Henderson	Henderson	PROPN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+11	ainda	ainda	ADV	_	_	14	advmod	_	_
+12	tem	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	sido	ser	AUX	_	VerbForm=Part	14	aux:pass	_	_
+14	usado	usar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+15	para	para	SCONJ	_	_	16	mark	_	_
+16	financiar	financiar	VERB	_	VerbForm=Inf	14	advcl	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Charles	Charles	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	16	obj	_	_
+19	Henderson	Henderson	PROPN	_	Number=Sing	18	flat:name	_	_
+20	High	High	PROPN	_	Number=Sing	18	flat:name	_	_
+21	School	School	PROPN	_	Number=Sing	18	flat:name	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	Charles	Charles	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	18	conj	_	_
+24	Henderson	Henderson	PROPN	_	Number=Sing	23	flat:name	_	_
+25	Middle	Middle	PROPN	_	Number=Sing	23	flat:name	_	_
+26	School	School	PROPN	_	Number=Sing	23	flat:name	_	_
+27	e	e	CCONJ	_	_	28	cc	_	_
+28	The	The	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	18	conj	_	_
+29	Charles	Charles	PROPN	_	Number=Sing	28	flat:name	_	_
+30	Henderson	Henderson	PROPN	_	Number=Sing	28	flat:name	_	_
+31	Child	Child	PROPN	_	Number=Sing	28	flat:name	_	_
+32	Health	Health	PROPN	_	Number=Sing	28	flat:name	_	_
+33	Care	Care	PROPN	_	Number=Sing	28	flat:name	_	_
+34	Center	Center	PROPN	_	Number=Sing	28	flat:name	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
 
 # sent_id = train-s7537
 # text = O goleiro foi convidado a participar do encontro pelo vereador Marco Aurélio Cunha, ex - superintendente do São Paulo.
@@ -140,25 +142,27 @@
 29	Sarah	_	PROPN	PNOUN	_	25	conj	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = train-s7540
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = -- É o reconhecimento do trabalho, nada mais do que isso.
-1	--	_	PUNCT	.	_	4	punct	_	_
-2	É	ser	AUX	AUX	_	4	cop	_	_
-3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	reconhecimento	reconhecimento	NOUN	NOUN	_	0	root	_	_
+# sent_id = train-s7540
+1	--	--	PUNCT	_	_	4	punct	_	_
+2	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	reconhecimento	reconhecimento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 5-6	do	_	_	_	_	_	_	_	_
-5	de	de	ADP	ADP	_	7	case	_	_
-6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	trabalho	trabalho	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
-8	,	,	PUNCT	.	_	9	punct	_	_
-9	nada	_	PRON	PRON	_	4	appos	_	_
-10	mais	_	DET	DET	_	9	det	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	nada	nada	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	4	appos	_	_
+10	mais	mais	ADV	_	_	9	advmod	_	_
 11-12	do	_	_	_	_	_	_	_	_
-11	de	de	ADP	ADP	_	14	case	_	_
-12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-13	que	_	ADP	ADP	_	11	fixed	_	_
-14	isso	_	PRON	PRON	_	9	nmod	_	SpaceAfter=No
-15	.	.	PUNCT	.	_	4	punct	_	_
+11	de	de	ADP	_	_	14	case	_	_
+12	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	11	fixed	_	_
+13	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	11	fixed	_	_
+14	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # sent_id = train-s7541
 # text = No Catar, o clube do Al Rayyan dava como certa a chegada do jogador, mas ficaram surpresos com a recusa do São Paulo.

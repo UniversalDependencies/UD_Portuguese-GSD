@@ -187,51 +187,53 @@
 23	Federal	_	PROPN	PNOUN	_	22	amod	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = train-s3645
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O acesso ao Centro - Norte de Timóteo (região mais desenvolvida da cidade vizinha) pela linha Fabriciano - Acesita é mais barato do que qualquer ônibus interno das duas cidades.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	acesso	acesso	NOUN	NOUN	_	25	nsubj	_	_
+# sent_id = train-s3645
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	acesso	acesso	NOUN	_	Gender=Masc|Number=Sing	27	nsubj	_	_
 3-4	ao	_	_	_	_	_	_	_	_
-3	a	a	ADP	ADP	_	5	case	_	_
-4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	Centro	_	PROPN	PNOUN	_	2	nmod	_	_
-6	-	-	PUNCT	.	_	5	punct	_	_
-7	Norte	_	PROPN	PNOUN	_	5	flat	_	_
-8	de	de	ADP	ADP	_	9	case	_	_
-9	Timóteo	_	PROPN	PNOUN	_	5	nmod	_	_
-10	(	(	PUNCT	.	_	11	punct	_	SpaceAfter=No
-11	região	região	NOUN	NOUN	_	5	appos	_	_
-12	mais	mais	ADV	ADV	_	13	advmod	_	_
-13	desenvolvida	desenvolvido	ADJ	ADJ	_	11	amod	_	_
+3	a	a	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Centro	Centro	PROPN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	-	-	PUNCT	_	_	7	punct	_	_
+7	Norte	Norte	PROPN	_	Gender=Masc|Number=Sing	5	appos	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Timóteo	Timóteo	PROPN	_	Number=Sing	7	nmod	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	região	região	NOUN	_	Gender=Fem|Number=Sing	5	appos	_	_
+12	mais	mais	ADV	_	_	13	advmod	_	_
+13	desenvolvida	desenvolvido	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
 14-15	da	_	_	_	_	_	_	_	_
-14	de	de	ADP	ADP	_	16	case	_	_
-15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	cidade	cidade	NOUN	NOUN	_	11	nmod	_	_
-17	vizinha	vizinho	ADJ	ADJ	_	16	amod	_	SpaceAfter=No
-18	)	)	PUNCT	.	_	11	punct	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	cidade	cidade	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+17	vizinha	vizinho	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	11	punct	_	_
 19-20	pela	_	_	_	_	_	_	_	_
-19	por	por	ADP	ADP	_	21	case	_	_
-20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-21	linha	_	NOUN	NOUN	_	2	nmod	_	_
-22	Fabriciano	_	PROPN	PNOUN	_	21	appos	_	_
-23	-	-	PUNCT	.	_	22	punct	_	_
-24	Acesita	_	PROPN	PNOUN	_	22	flat	_	_
-25	é	ser	VERB	VERB	_	0	root	_	_
-26	mais	mais	ADV	ADV	_	27	advmod	_	_
-27	barato	barato	ADJ	ADJ	_	25	xcomp	_	_
+19	por	por	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	linha	linha	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+22	Fabriciano	Fabriciano	PROPN	_	Gender=Fem|Number=Sing	21	appos	_	_
+23	-	-	PUNCT	_	_	24	punct	_	_
+24	Acesita	Acesita	PROPN	_	Gender=Fem|Number=Sing	22	conj	_	_
+25	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+26	mais	mais	ADV	_	_	27	advmod	_	_
+27	barato	barato	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 28-29	do	_	_	_	_	_	_	_	_
-28	de	de	ADP	ADP	_	32	case	_	_
-29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
-30	que	_	ADP	ADP	_	28	fixed	_	_
-31	qualquer	_	DET	DET	_	32	det	_	_
-32	ônibus	ônibus	NOUN	NOUN	_	25	nmod	_	_
-33	interno	interno	ADJ	ADJ	_	32	amod	_	_
+28	de	de	ADP	_	_	32	case	_	_
+29	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	28	fixed	_	_
+30	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	28	fixed	_	_
+31	qualquer	qualquer	DET	_	Gender=Masc|Number=Sing|PronType=Ind	32	det	_	_
+32	ônibus	ônibus	NOUN	_	Gender=Masc|Number=Sing	27	obl	_	_
+33	interno	interno	ADJ	_	Gender=Masc|Number=Sing	32	amod	_	_
 34-35	das	_	_	_	_	_	_	_	_
-34	de	de	ADP	ADP	_	37	case	_	_
-35	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
-36	duas	_	NUM	NUM	NumType=Card	37	nummod	_	_
-37	cidades	cidade	NOUN	NOUN	_	32	nmod	_	SpaceAfter=No
-38	.	.	PUNCT	.	_	25	punct	_	_
+34	de	de	ADP	_	_	37	case	_	_
+35	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
+36	duas	dois	NUM	_	NumType=Card	37	nummod	_	_
+37	cidades	cidade	NOUN	_	Gender=Fem|Number=Plur	32	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
 
 # sent_id = train-s3646
 # text = No Bar Valentino, a noite é voltado à filantropia, com o show do grupo Terra Celta, de Londrina.

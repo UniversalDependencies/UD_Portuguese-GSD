@@ -158,47 +158,51 @@
 51	Argentina	_	PROPN	PNOUN	_	41	nmod	_	SpaceAfter=No
 52	.	.	PUNCT	.	_	10	punct	_	_
 
-# sent_id = dev-s688
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Escreveu os livros "Com Esperança no Coração: Os Imigrantes Brasileiros nos Estados Unidos", "Sabor de Mar" e "Pelé" (Official Biography, Simon &amp; Schuster).
-1	Escreveu	escrever	VERB	VERB	_	0	root	_	_
-2	os	o	DET	DET	_	3	det	_	_
-3	livros	livro	NOUN	NOUN	_	1	obj	_	_
-4	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
-5	Com	_	PROPN	PNOUN	_	6	case	_	_
-6	Esperança	_	PROPN	PNOUN	_	3	appos	_	_
+# sent_id = dev-s688
+1	Escreveu	escrever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	livros	livro	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	Com	Com	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	3	appos	_	_
+6	Esperança	Esperança	PROPN	_	Number=Sing	5	flat:name	_	_
 7-8	no	_	_	_	_	_	_	_	_
-7	em	em	ADP	ADP	_	9	case	_	_
-8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	Coração	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
-10	:	:	PUNCT	.	_	21	punct	_	_
-11	Os	_	PROPN	PNOUN	_	12	det	_	_
-12	Imigrantes	_	PROPN	PNOUN	_	6	appos	_	_
-13	Brasileiros	_	PROPN	PNOUN	_	12	amod	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Coração	Coração	PROPN	_	Number=Sing	5	nmod	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	5	punct	_	_
+11	Os	Os	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	appos	_	_
+12	Imigrantes	Imigrantes	PROPN	_	Number=Sing	5	flat:name	_	_
+13	Brasileiros	Brasileiros	PROPN	_	Number=Sing	11	flat:name	_	_
 14-15	nos	_	_	_	_	_	_	_	_
-14	em	em	ADP	ADP	_	16	case	_	_
-15	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
-16	Estados	_	PROPN	PNOUN	_	12	nmod	_	_
-17	Unidos	_	PROPN	PNOUN	_	16	amod	_	SpaceAfter=No
-18	"	"	PUNCT	.	_	21	punct	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	21	punct	_	_
-20	"	"	PUNCT	.	_	21	punct	_	SpaceAfter=No
-21	Sabor	_	PROPN	PNOUN	_	6	conj	_	_
-22	de	de	ADP	ADP	_	23	case	_	_
-23	Mar	_	PROPN	PNOUN	_	21	nmod	_	SpaceAfter=No
-24	"	"	PUNCT	.	_	21	punct	_	_
-25	e	e	CCONJ	CONJ	_	27	cc	_	_
-26	"	"	PUNCT	.	_	27	punct	_	SpaceAfter=No
-27	Pelé	_	PROPN	PNOUN	_	6	conj	_	SpaceAfter=No
-28	"	"	PUNCT	.	_	27	punct	_	_
-29	(	(	PUNCT	.	_	31	punct	_	SpaceAfter=No
-30	Official	_	PROPN	PNOUN	_	31	amod	_	_
-31	Biography	_	PROPN	PNOUN	_	27	appos	_	SpaceAfter=No
-32	,	,	PUNCT	.	_	33	punct	_	_
-33	Simon	_	PROPN	PNOUN	_	31	appos	_	_
-34	&amp;	_	CCONJ	CONJ	_	35	cc	_	_
-35	Schuster	_	PROPN	PNOUN	_	33	conj	_	SpaceAfter=No
-36	)	)	PUNCT	.	_	31	punct	_	SpaceAfter=No
-37	.	.	PUNCT	.	_	1	punct	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	Estados	Estados	PROPN	_	Gender=Masc|Number=Plur	11	nmod	_	_
+17	Unidos	Unidos	PROPN	_	Number=Sing	16	flat:name	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	21	punct	_	_
+20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	Sabor	Sabor	PROPN	_	Gender=Masc|Number=Sing	5	conj	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	Mar	Mar	PROPN	_	Number=Sing	21	nmod	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	21	punct	_	_
+25	e	e	CCONJ	_	_	27	cc	_	_
+26	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	Pelé	Pelé	PROPN	_	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	27	punct	_	_
+29	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
+30	Official	Official	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	27	parataxis	_	_
+31	Biography	Biography	PROPN	_	Number=Sing	30	flat:name	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	33	punct	_	_
+33	Simon	Simon	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	30	appos	_	_
+34	&	&	PROPN	_	Number=Sing	33	flat:name	_	SpaceAfter=No
+35	amp	amp	PROPN	_	Number=Sing	33	flat:name	_	SpaceAfter=No
+36	;	;	PUNCT	_	_	37	punct	_	_
+37	Schuster	Schuster	PROPN	_	Gender=Masc|Number=Sing	30	conj	_	SpaceAfter=No
+38	)	)	PUNCT	_	_	30	punct	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = dev-s689
 # text = Embora algumas petições legais acusando Shafik de corrupção foram apresentadas em abril, "não há absolutamente nenhuma processo judicial pendentes contra meu cliente", disse Elsayed.
@@ -232,31 +236,33 @@
 28	Elsayed	_	PROPN	PNOUN	_	27	nsubj	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	27	punct	_	_
 
-# sent_id = dev-s690
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Elas também acham que Ganso vai fazer mais falta (72,5 %) do que eles (67,4 %).
-1	Elas	_	PRON	PRON	_	3	nsubj	_	_
-2	também	também	ADV	ADV	_	3	advmod	_	_
-3	acham	achar	VERB	VERB	_	0	root	_	_
-4	que	que	CCONJ	CONJ	_	7	mark	_	_
-5	Ganso	_	PROPN	PNOUN	_	7	nsubj	_	_
-6	vai	ir	AUX	AUX	_	7	aux	_	_
-7	fazer	fazer	VERB	VERB	_	3	ccomp	_	_
-8	mais	mais	ADV	ADV	_	3	advmod	_	_
-9	falta	_	NOUN	NOUN	_	7	obj	_	_
-10	(	(	PUNCT	.	_	12	punct	_	SpaceAfter=No
-11	72,5	72,5	NUM	NUM	NumType=Card	12	nummod	_	_
-12	%	_	SYM	SYM	_	1	appos	_	SpaceAfter=No
-13	)	)	PUNCT	.	_	12	punct	_	_
+# sent_id = dev-s690
+1	Elas	elas	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	também	também	ADV	_	_	3	advmod	_	_
+3	acham	achar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	7	mark	_	_
+5	Ganso	Ganso	PROPN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+6	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	fazer	fazer	VERB	_	VerbForm=Inf	3	ccomp	_	_
+8	mais	mais	DET	_	Gender=Fem|Number=Sing|PronType=Ind	9	det	_	_
+9	falta	falta	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+11	72,5	72,5	NUM	_	NumType=Card	12	nummod	_	_
+12	%	%	SYM	_	_	9	appos	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	12	punct	_	_
 14-15	do	_	_	_	_	_	_	_	_
-14	de	de	ADP	ADP	_	17	case	_	_
-15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-16	que	_	ADP	ADP	_	14	fixed	_	_
-17	eles	_	PRON	PRON	_	3	nmod	_	_
-18	(	(	PUNCT	.	_	20	punct	_	SpaceAfter=No
-19	67,4	67,4	NUM	NUM	NumType=Card	20	nummod	_	_
-20	%	_	SYM	SYM	_	17	appos	_	SpaceAfter=No
-21	)	)	PUNCT	.	_	20	punct	_	SpaceAfter=No
-22	.	.	PUNCT	.	_	3	punct	_	_
+14	de	de	ADP	_	_	17	case	_	_
+15	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	14	fixed	_	_
+16	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	14	fixed	_	_
+17	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	nmod	_	_
+18	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+19	67,4	67,4	NUM	_	NumType=Card	20	nummod	_	_
+20	%	%	SYM	_	_	17	appos	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = dev-s691
 # text = As autoridades russas mantêm confidencialidade sobre os contratos com os turistas.

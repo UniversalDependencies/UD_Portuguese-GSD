@@ -1,48 +1,50 @@
-# sent_id = dev-s81
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Quando a bicicleta está fora de uso, o Taga diminui de tamanho, com a roda traseira, utilizada na bicicleta, passando a ficar à frente, perto dos pés do bebê.
-1	Quando	_	CCONJ	CONJ	_	4	mark	_	_
-2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	bicicleta	bicicleta	NOUN	NOUN	_	4	nsubj	_	_
-4	está	estar	VERB	VERB	_	11	advcl	_	_
-5	fora	fora	ADV	ADV	_	4	advmod	_	_
-6	de	de	ADP	ADP	_	7	case	_	_
-7	uso	uso	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
-8	,	,	PUNCT	.	_	4	punct	_	_
-9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	Taga	_	PROPN	PNOUN	_	11	nsubj	_	_
-11	diminui	diminuir	VERB	VERB	_	0	root	_	_
-12	de	de	ADP	ADP	_	13	case	_	_
-13	tamanho	tamanho	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
-14	,	,	PUNCT	.	_	17	punct	_	_
-15	com	com	ADP	ADP	_	17	case	_	_
-16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	roda	roda	NOUN	NOUN	_	11	nmod	_	_
-18	traseira	traseiro	ADJ	ADJ	_	17	amod	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	20	punct	_	_
-20	utilizada	utilizar	VERB	VERB	_	17	acl	_	_
+# sent_id = dev-s81
+1	Quando	quando	SCONJ	_	_	5	mark	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	bicicleta	bicicleta	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	fora	fora	ADV	_	_	11	advcl	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	uso	uso	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	5	punct	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Taga	taga	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+11	diminui	diminuir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	tamanho	tamanho	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	17	punct	_	_
+15	com	com	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	roda	roda	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+18	traseira	traseiro	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	utilizada	utilizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	17	acl	_	_
 21-22	na	_	_	_	_	_	_	_	_
-21	em	em	ADP	ADP	_	23	case	_	_
-22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-23	bicicleta	bicicleta	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
-24	,	,	PUNCT	.	_	20	punct	_	_
-25	passando	passar	AUX	AUX	_	27	aux	_	_
-26	a	_	ADP	ADP	_	27	mark	_	_
-27	ficar	ficar	VERB	VERB	_	17	acl	_	_
+21	em	em	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	bicicleta	bicicleta	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	passando	passar	VERB	_	ExtPos=AUX|VerbForm=Ger	11	advcl	_	_
+26	a	a	SCONJ	_	_	27	mark	_	_
+27	ficar	ficar	VERB	_	VerbForm=Inf	25	xcomp	_	_
 28-29	à	_	_	_	_	_	_	_	_
-28	a	a	ADP	ADP	_	30	case	_	_
-29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
-30	frente	frente	NOUN	NOUN	_	27	nmod	_	SpaceAfter=No
-31	,	,	PUNCT	.	_	32	punct	_	_
-32	perto	perto	ADV	ADV	_	27	advmod	_	_
+28	a	a	ADP	_	_	30	case	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	frente	frente	NOUN	_	Gender=Fem|Number=Sing	27	obl	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	27	punct	_	_
+32	perto	perto	ADV	_	_	27	advmod	_	_
 33-34	dos	_	_	_	_	_	_	_	_
-33	de	de	ADP	ADP	_	35	case	_	_
-34	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
-35	pés	pé	NOUN	NOUN	_	32	nmod	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+35	pés	pé	NOUN	_	Gender=Masc|Number=Plur	32	obl	_	_
 36-37	do	_	_	_	_	_	_	_	_
-36	de	de	ADP	ADP	_	38	case	_	_
-37	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
-38	bebê	bebê	NOUN	NOUN	_	35	nmod	_	SpaceAfter=No
-39	.	.	PUNCT	.	_	11	punct	_	_
+36	de	de	ADP	_	_	38	case	_	_
+37	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	bebê	bebê	NOUN	_	Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
 
 # sent_id = dev-s82
 # text = Graça destacou que o aumento dos preços dos combustíveis é uma decisão que cabe à Petrobras.

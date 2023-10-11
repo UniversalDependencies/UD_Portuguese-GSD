@@ -211,18 +211,20 @@
 9	resposta	resposta	NOUN	NOUN	_	7	obj	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = test-s228
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Apesar de livre, é hoje considerado um dissidente.
-1	Apesar	apesar	ADV	ADV	_	3	mark	_	_
-2	de	_	ADP	ADP	_	1	fixed	_	_
-3	livre	livre	ADJ	ADJ	_	9	nmod	_	SpaceAfter=No
-4	,	,	PUNCT	.	_	3	punct	_	_
-5	é	ser	AUX	AUX	_	9	aux:pass	_	_
-6	hoje	hoje	ADV	ADV	_	9	advmod	_	_
-7	considerado	considerar	AUX	AUX	_	9	cop	_	_
-8	um	um	DET	DET	_	9	det	_	_
-9	dissidente	dissidente	NOUN	NOUN	_	0	root	_	SpaceAfter=No
-10	.	.	PUNCT	.	_	9	punct	_	_
+# sent_id = test-s228
+1	Apesar	apesar	ADV	_	ExtPos=ADP	3	case	_	_
+2	de	de	ADP	_	_	1	fixed	_	_
+3	livre	livre	ADJ	_	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+6	hoje	hoje	ADV	_	_	7	advmod	_	_
+7	considerado	considerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	dissidente	dissidente	NOUN	_	Gender=Masc|Number=Sing	7	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
 # sent_id = test-s229
 # text = Outra palestra que chamou a atenção dos líderes presentes no congresso foi a do Murali Dharan.

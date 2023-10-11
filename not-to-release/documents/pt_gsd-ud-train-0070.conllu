@@ -119,23 +119,27 @@
 14	ganhos	ganhar	VERB	VERB	_	13	acl	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s696
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Ela pede que às meninas parem de brigar e que elas façam as pazes.
-1	Ela	_	PRON	PRON	_	8	nsubj	_	_
-2	pede	pedir	VERB	VERB	_	8	mark	_	_
-3	que	que	CCONJ	CONJ	_	8	mark	_	_
-4	às	_	DET	DET	_	5	det	_	_
-5	meninas	menino	NOUN	NOUN	_	8	nsubj	_	_
-6	parem	_	AUX	AUX	_	8	aux	_	_
-7	de	_	ADP	ADP	_	8	mark	_	_
-8	brigar	brigar	VERB	VERB	_	0	root	_	_
-9	e	e	CCONJ	CONJ	_	12	cc	_	_
-10	que	que	CCONJ	CONJ	_	12	mark	_	_
-11	elas	_	PRON	PRON	_	12	nsubj	_	_
-12	façam	fazer	VERB	VERB	_	8	conj	_	_
-13	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
-14	pazes	paz	NOUN	NOUN	_	12	obj	_	SpaceAfter=No
-15	.	.	PUNCT	.	_	8	punct	_	_
+# sent_id = train-s696
+1	Ela	ela	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	pede	pedir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	7	mark	_	_
+4-5	às	_	_	_	_	_	_	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	meninas	menino	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	_
+7	parem	par	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+8	de	de	SCONJ	_	_	9	mark	_	_
+9	brigar	brigar	VERB	_	VerbForm=Inf	7	xcomp	_	_
+10	e	e	CCONJ	_	_	13	cc	_	_
+11	que	que	SCONJ	_	_	13	mark	_	_
+12	elas	elas	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
+13	façam	fazer	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+14	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	pazes	paz	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = train-s697
 # text = O entretenimento pode ir para além da simples gratificação e ser um veículo de transmissão de elementos culturais na audiência.

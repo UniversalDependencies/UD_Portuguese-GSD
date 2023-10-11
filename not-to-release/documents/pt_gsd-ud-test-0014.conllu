@@ -257,42 +257,44 @@
 25	ano	ano	NOUN	NOUN	_	23	nmod	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = test-s139
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Mas o que chamava atenção no atleta não era sua qualidade com a bola nos pés, e sim o nome de batismo: Hermenegildo da Costa Paulo Bartolomeu.
-1	Mas	_	CCONJ	CONJ	_	12	cc	_	_
-2	o	_	PRON	PRON	_	12	nsubj	_	_
-3	que	_	PRON	PRON	_	4	nsubj	_	_
-4	chamava	chamar	VERB	VERB	_	2	acl:relcl	_	_
-5	atenção	atenção	NOUN	NOUN	_	4	obj	_	_
+# sent_id = test-s139
+1	Mas	mas	CCONJ	_	_	12	cc	_	_
+2	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	12	nsubj	_	_
+3	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	4	nsubj	_	_
+4	chamava	chamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+5	atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
 6-7	no	_	_	_	_	_	_	_	_
-6	em	em	ADP	ADP	_	8	case	_	_
-7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	atleta	atleta	NOUN	NOUN	_	4	nmod	_	_
-9	não	não	ADV	ADV	Polarity=Neg	12	advmod	_	_
-10	era	_	AUX	AUX	_	12	cop	_	_
-11	sua	_	DET	DET	_	12	det:poss	_	_
-12	qualidade	qualidade	NOUN	NOUN	_	0	root	_	_
-13	com	com	ADP	ADP	_	15	case	_	_
-14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	bola	bola	NOUN	NOUN	_	12	nmod	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	atleta	atleta	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+9	não	não	ADV	_	Polarity=Neg	12	advmod	_	_
+10	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
+11	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	12	det	_	_
+12	qualidade	qualidade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+13	com	com	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	bola	bola	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
 16-17	nos	_	_	_	_	_	_	_	_
-16	em	em	ADP	ADP	_	18	case	_	_
-17	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
-18	pés	pé	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	23	punct	_	_
-20	e	e	CCONJ	CONJ	_	23	cc	_	_
-21	sim	sim	ADV	ADV	_	12	advmod	_	_
-22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	nome	nome	NOUN	NOUN	_	12	conj	_	_
-24	de	de	ADP	ADP	_	25	case	_	_
-25	batismo	batismo	NOUN	NOUN	_	23	nmod	_	SpaceAfter=No
-26	:	:	PUNCT	.	_	23	punct	_	_
-27	Hermenegildo	_	PROPN	PNOUN	_	23	appos	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	pés	pé	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	23	punct	_	_
+20	e	e	CCONJ	_	_	23	cc	_	_
+21	sim	sim	ADV	_	_	23	advmod	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	nome	nome	NOUN	_	Gender=Masc|Number=Sing	12	conj	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	batismo	batismo	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+26	:	:	PUNCT	_	_	27	punct	_	_
+27	Hermenegildo	Hermenegildo	PROPN	_	Gender=Masc|Number=Sing	23	appos	_	_
 28-29	da	_	_	_	_	_	_	_	_
-28	de	de	ADP	ADP	_	30	case	_	_
-29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
-30	Costa	_	PROPN	PNOUN	_	27	nmod	_	_
-31	Paulo	_	PROPN	PNOUN	_	30	flat	_	_
-32	Bartolomeu	_	PROPN	PNOUN	_	30	flat	_	SpaceAfter=No
-33	.	.	PUNCT	.	_	12	punct	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	Costa	Costa	PROPN	_	Number=Sing	27	nmod	_	_
+31	Paulo	Paulo	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	27	appos	_	_
+32	Bartolomeu	Bartolomeu	PROPN	_	Number=Sing	31	flat:name	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
 

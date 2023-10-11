@@ -140,85 +140,93 @@
 90	comunicado	comunicado	NOUN	NOUN	_	86	nmod	_	SpaceAfter=No
 91	.	.	PUNCT	.	_	86	punct	_	_
 
-# sent_id = train-s7159
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = A mando dos vilões, um traficante irá se infiltrar na festa de Nina e colocar a droga na bolsa dela.
-1	A	_	ADP	ADP	_	2	case	_	_
-2	mando	mando	NOUN	NOUN	_	11	nmod	_	_
+# sent_id = train-s7159
+1	A	a	ADP	_	_	2	case	_	_
+2	mando	mando	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
 3-4	dos	_	_	_	_	_	_	_	_
-3	de	de	ADP	ADP	_	5	case	_	_
-4	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
-5	vilões	vilão	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
-6	,	,	PUNCT	.	_	2	punct	_	_
-7	um	um	DET	DET	_	8	det	_	_
-8	traficante	traficante	NOUN	NOUN	_	11	nsubj	_	_
-9	irá	_	AUX	AUX	_	11	aux	_	_
-10	se	_	PRON	PRON	_	11	obj	_	_
-11	infiltrar	infiltrar	VERB	VERB	_	0	root	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	vilões	vilão	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	traficante	traficante	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+9	irá	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	aux	_	_
+10	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	expl	_	_
+11	infiltrar	infiltrar	VERB	_	VerbForm=Inf	0	root	_	_
 12-13	na	_	_	_	_	_	_	_	_
-12	em	em	ADP	ADP	_	14	case	_	_
-13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	festa	festa	NOUN	NOUN	_	11	nmod	_	_
-15	de	de	ADP	ADP	_	16	case	_	_
-16	Nina	_	PROPN	PNOUN	_	14	nmod	_	_
-17	e	e	CCONJ	CONJ	_	18	cc	_	_
-18	colocar	colocar	VERB	VERB	_	11	conj	_	_
-19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	droga	droga	NOUN	NOUN	_	18	obj	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	festa	festa	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	Nina	Nina	PROPN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	colocar	colocar	VERB	_	VerbForm=Inf	11	conj	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	droga	droga	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	_
 21-22	na	_	_	_	_	_	_	_	_
-21	em	em	ADP	ADP	_	23	case	_	_
-22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-23	bolsa	bolsa	NOUN	NOUN	_	18	nmod	_	_
-24	dela	_	X	ADPPRON	_	23	det:poss	_	SpaceAfter=No
-25	.	.	PUNCT	.	_	11	punct	_	_
+21	em	em	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	bolsa	bolsa	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
+24-25	dela	_	_	_	_	_	_	_	SpaceAfter=No
+24	de	de	ADP	_	_	25	case	_	_
+25	ela	ela	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nmod	_	_
+26	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
 
-# sent_id = train-s7160
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Autor do primeiro gol do Atlético - GO sobre o Atlético - MG nesta tarde de domingo, no Estádio Independência, em jogo que terminou 2 x 2, o meia Rayllan lamentou o resultado em Minas Gerais.
-1	Autor	autor	NOUN	NOUN	_	37	nsubj	_	_
+# sent_id = train-s7160
+1	Autor	autor	NOUN	_	Gender=Masc|Number=Sing	38	obl	_	_
 2-3	do	_	_	_	_	_	_	_	_
-2	de	de	ADP	ADP	_	5	case	_	_
-3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-4	primeiro	primeiro	ADJ	ADJ	_	5	amod	_	_
-5	gol	gol	NOUN	NOUN	_	1	nmod	_	_
+2	de	de	ADP	_	_	5	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	primeiro	primeiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	_
+5	gol	gol	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 6-7	do	_	_	_	_	_	_	_	_
-6	de	de	ADP	ADP	_	8	case	_	_
-7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	Atlético	_	PROPN	PNOUN	_	5	nmod	_	_
-9	-	-	PUNCT	.	_	8	punct	_	_
-10	GO	_	PROPN	PNOUN	_	8	flat	_	_
-11	sobre	_	ADP	ADP	_	13	case	_	_
-12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	Atlético	_	PROPN	PNOUN	_	5	nmod	_	_
-14	-	-	PUNCT	.	_	13	punct	_	_
-15	MG	_	PROPN	PNOUN	_	13	flat	_	_
-16	nesta	_	ADP	ADP	_	17	case	_	_
-17	tarde	tarde	NOUN	NOUN	_	5	nmod	_	_
-18	de	de	ADP	ADP	_	19	case	_	_
-19	domingo	_	PROPN	PNOUN	_	17	nmod	_	SpaceAfter=No
-20	,	,	PUNCT	.	_	23	punct	_	_
-21-22	no	_	_	_	_	_	_	_	_
-21	em	em	ADP	ADP	_	23	case	_	_
-22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	Estádio	_	PROPN	PNOUN	_	5	nmod	_	_
-24	Independência	_	PROPN	PNOUN	_	23	flat	_	SpaceAfter=No
-25	,	,	PUNCT	.	_	23	punct	_	_
-26	em	em	ADP	ADP	_	27	case	_	_
-27	jogo	jogo	NOUN	NOUN	_	5	nmod	_	_
-28	que	_	PRON	PRON	_	29	nsubj	_	_
-29	terminou	terminar	VERB	VERB	_	27	acl:relcl	_	_
-30	2	2	NUM	NUM	NumType=Card	29	nmod	_	_
-31	x	_	PUNCT	.	_	30	punct	_	_
-32	2	2	NUM	NUM	NumType=Card	30	cc	_	SpaceAfter=No
-33	,	,	PUNCT	.	_	35	punct	_	_
-34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
-35	meia	_	NOUN	NOUN	_	1	appos	_	_
-36	Rayllan	_	PROPN	PNOUN	_	35	appos	_	_
-37	lamentou	lamentar	VERB	VERB	_	0	root	_	_
-38	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
-39	resultado	resultado	NOUN	NOUN	_	37	obj	_	_
-40	em	em	ADP	ADP	_	41	case	_	_
-41	Minas	_	PROPN	PNOUN	_	37	nmod	_	_
-42	Gerais	_	PROPN	PNOUN	_	41	amod	_	SpaceAfter=No
-43	.	.	PUNCT	.	_	37	punct	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Atlético	Atlético	PROPN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9	-	-	PUNCT	_	_	10	punct	_	_
+10	GO	GO	PROPN	_	Gender=Masc|Number=Sing	8	conj	_	_
+11	sobre	sobre	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Atlético	Atlético	PROPN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+14	-	-	PUNCT	_	_	15	punct	_	_
+15	MG	MG	PROPN	_	Gender=Masc|Number=Sing	13	conj	_	_
+16-17	nesta	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	18	det	_	_
+18	tarde	tarde	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	domingo	domingo	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	24	punct	_	_
+22-23	no	_	_	_	_	_	_	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Estádio	Estádio	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	5	nmod	_	_
+25	Independência	Independência	PROPN	_	Number=Sing	24	flat:name	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	24	punct	_	_
+27	em	em	ADP	_	_	28	case	_	_
+28	jogo	jogo	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
+29	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	30	nsubj	_	_
+30	terminou	terminar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	acl:relcl	_	_
+31	2	2	NUM	_	NumType=Card	30	obj	_	_
+32	x	x	ADP	_	_	33	case	_	_
+33	2	2	NUM	_	NumType=Card	31	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	30	punct	_	_
+35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	meia	meia	NOUN	_	Gender=Masc|Number=Sing	38	nsubj	_	_
+37	Rayllan	Rayllan	PROPN	_	Gender=Masc|Number=Sing	36	appos	_	_
+38	lamentou	lamentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+39	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	38	obj	_	_
+41	em	em	ADP	_	_	42	case	_	_
+42	Minas	Minas	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	38	obl	_	_
+43	Gerais	Gerais	PROPN	_	Number=Sing	42	flat:name	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	38	punct	_	SpaceAfter=No
 
 # sent_id = train-s7161
 # text = De repente, ele assumiu a palavra e surpreendeu o colegiado expondo uma tese que os ministros consideraram "brilhante", mas inócua.

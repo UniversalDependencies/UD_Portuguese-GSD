@@ -57,80 +57,82 @@
 6	Helena	_	PROPN	PNOUN	_	5	appos	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s4818
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O que eu vi hoje foi um desrespeito sem limites "Com essas palavras o deputado Benedito de Lira (PP - AL) definiu a ação de integrantes do Movimento Sem Terra (MST) que bloquearam a BR - 314, em protesto contra a proibição de se manifestarem em Marechal Deodoro, município alagoano onde a presidente Dilma inaugurou uma nova fábrica da Braskem.
-1	O	_	PRON	PRON	_	8	nsubj	_	_
-2	que	_	PRON	PRON	_	4	obj	_	_
-3	eu	_	PRON	PRON	_	4	nsubj	_	_
-4	vi	_	VERB	VERB	_	1	acl:relcl	_	_
-5	hoje	hoje	ADV	ADV	_	4	advmod	_	_
-6	foi	_	AUX	AUX	_	8	cop	_	_
-7	um	um	DET	DET	_	8	det	_	_
-8	desrespeito	desrespeito	NOUN	NOUN	_	0	root	_	_
-9	sem	_	ADP	ADP	_	10	case	_	_
-10	limites	limite	NOUN	NOUN	_	8	nmod	_	_
-11	"	"	PUNCT	.	_	8	punct	_	SpaceAfter=No
-12	Com	_	ADP	ADP	_	14	case	_	_
-13	essas	_	DET	DET	_	14	det	_	_
-14	palavras	palavra	NOUN	NOUN	_	25	nmod	_	_
-15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	deputado	deputado	NOUN	NOUN	_	25	nsubj	_	_
-17	Benedito	_	PROPN	PNOUN	_	16	appos	_	_
-18	de	de	ADP	ADP	_	19	case	_	_
-19	Lira	_	PROPN	PNOUN	_	17	nmod	_	_
-20	(	(	PUNCT	.	_	21	punct	_	SpaceAfter=No
-21	PP	_	PROPN	PNOUN	_	16	appos	_	_
-22	-	-	PUNCT	.	_	21	punct	_	_
-23	AL	_	PROPN	PNOUN	_	21	appos	_	SpaceAfter=No
-24	)	)	PUNCT	.	_	21	punct	_	_
-25	definiu	definir	VERB	VERB	_	8	parataxis	_	_
-26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	ação	ação	NOUN	NOUN	_	25	obj	_	_
-28	de	de	ADP	ADP	_	29	case	_	_
-29	integrantes	_	NOUN	NOUN	_	27	nmod	_	_
+# sent_id = train-s4818
+1	O	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	8	nsubj	_	_
+2	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	4	obj	_	_
+3	eu	eu	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	vi	ver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
+5	hoje	hoje	ADV	_	_	4	advmod	_	_
+6	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+7	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	desrespeito	desrespeito	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+9	sem	sem	ADP	_	_	10	case	_	_
+10	limites	limite	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+11	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+12	Com	com	ADP	_	_	14	case	_	_
+13	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	14	det	_	_
+14	palavras	palavra	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	25	nsubj	_	_
+17	Benedito	Benedito	PROPN	_	Gender=Masc|Number=Sing	16	appos	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	Lira	Lira	PROPN	_	Number=Sing	17	nmod	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	PP	PP	PROPN	_	Gender=Masc|Number=Sing	16	appos	_	_
+22	-	-	PUNCT	_	_	23	punct	_	_
+23	AL	AL	PROPN	_	Gender=Masc|Number=Sing	21	conj	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	21	punct	_	_
+25	definiu	definir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	parataxis	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	ação	ação	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	integrantes	integrante	NOUN	_	Gender=Masc|Number=Plur	27	nmod	_	_
 30-31	do	_	_	_	_	_	_	_	_
-30	de	de	ADP	ADP	_	32	case	_	_
-31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
-32	Movimento	_	PROPN	PNOUN	_	29	nmod	_	_
-33	Sem	_	PROPN	PNOUN	_	34	case	_	_
-34	Terra	_	PROPN	PNOUN	_	32	nmod	_	_
-35	(	(	PUNCT	.	_	36	punct	_	SpaceAfter=No
-36	MST	_	PROPN	PNOUN	_	32	appos	_	SpaceAfter=No
-37	)	)	PUNCT	.	_	36	punct	_	_
-38	que	_	PRON	PRON	_	39	nsubj	_	_
-39	bloquearam	bloquear	VERB	VERB	_	29	acl:relcl	_	_
-40	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
-41	BR	_	NOUN	NOUN	_	39	obj	_	_
-42	-	-	PUNCT	.	_	41	punct	_	_
-43	314	314	NUM	NUM	NumType=Card	41	appos	_	SpaceAfter=No
-44	,	,	PUNCT	.	_	25	punct	_	_
-45	em	em	ADP	ADP	_	46	case	_	_
-46	protesto	protesto	NOUN	NOUN	_	39	nmod	_	_
-47	contra	_	ADP	ADP	_	49	case	_	_
-48	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
-49	proibição	proibição	NOUN	NOUN	_	46	nmod	_	_
-50	de	_	ADP	ADP	_	52	mark	_	_
-51	se	_	PRON	PRON	_	52	obj	_	_
-52	manifestarem	manifestar	VERB	VERB	_	49	nmod	_	_
-53	em	em	ADP	ADP	_	54	case	_	_
-54	Marechal	_	PROPN	PNOUN	_	52	nmod	_	_
-55	Deodoro	_	PROPN	PNOUN	_	54	flat	_	SpaceAfter=No
-56	,	,	PUNCT	.	_	57	punct	_	_
-57	município	município	NOUN	NOUN	_	54	appos	_	_
-58	alagoano	alagoano	ADJ	ADJ	_	57	amod	_	_
-59	onde	onde	ADV	ADV	_	63	advmod	_	_
-60	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	61	det	_	_
-61	presidente	presidente	NOUN	NOUN	_	63	nsubj	_	_
-62	Dilma	_	PROPN	PNOUN	_	61	appos	_	_
-63	inaugurou	inaugurar	VERB	VERB	_	57	acl:relcl	_	_
-64	uma	um	DET	DET	_	66	det	_	_
-65	nova	novo	ADJ	ADJ	_	66	amod	_	_
-66	fábrica	fábrica	NOUN	NOUN	_	63	obj	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	Movimento	Movimento	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	29	nmod	_	_
+33	Sem	Sem	PROPN	_	Number=Sing	32	flat:name	_	_
+34	Terra	Terra	PROPN	_	Number=Sing	32	flat:name	_	_
+35	(	(	PUNCT	_	_	36	punct	_	SpaceAfter=No
+36	MST	MST	PROPN	_	Gender=Masc|Number=Sing	32	appos	_	SpaceAfter=No
+37	)	)	PUNCT	_	_	36	punct	_	_
+38	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	39	nsubj	_	_
+39	bloquearam	bloquear	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	29	acl:relcl	_	_
+40	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	BR	BR	PROPN	_	Gender=Fem|Number=Sing	39	obj	_	_
+42	-	-	PUNCT	_	_	43	punct	_	_
+43	314	314	NUM	_	NumType=Card	41	conj	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	39	punct	_	_
+45	em	em	ADP	_	_	46	case	_	_
+46	protesto	protesto	NOUN	_	Gender=Masc|Number=Sing	39	obl	_	_
+47	contra	contra	ADP	_	_	49	case	_	_
+48	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+49	proibição	proibição	NOUN	_	Gender=Fem|Number=Sing	46	nmod	_	_
+50	de	de	SCONJ	_	_	52	mark	_	_
+51	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	52	expl	_	_
+52	manifestarem	manifestar	VERB	_	Number=Plur|Person=3|VerbForm=Inf	49	acl	_	_
+53	em	em	ADP	_	_	54	case	_	_
+54	Marechal	Marechal	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	52	obl	_	_
+55	Deodoro	Deodoro	PROPN	_	Number=Sing	54	flat:name	_	SpaceAfter=No
+56	,	,	PUNCT	_	_	57	punct	_	_
+57	município	município	NOUN	_	Gender=Masc|Number=Sing	54	appos	_	_
+58	alagoano	alagoano	ADJ	_	Gender=Masc|Number=Sing	57	amod	_	_
+59	onde	onde	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	63	obl	_	_
+60	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	61	det	_	_
+61	presidente	presidente	NOUN	_	Gender=Fem|Number=Sing	63	nsubj	_	_
+62	Dilma	Dilma	PROPN	_	Gender=Fem|Number=Sing	61	appos	_	_
+63	inaugurou	inaugurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	57	acl:relcl	_	_
+64	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	66	det	_	_
+65	nova	novo	ADJ	_	Gender=Fem|Number=Sing	66	amod	_	_
+66	fábrica	fábrica	NOUN	_	Gender=Fem|Number=Sing	63	obj	_	_
 67-68	da	_	_	_	_	_	_	_	_
-67	de	de	ADP	ADP	_	69	case	_	_
-68	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	69	det	_	_
-69	Braskem	_	PROPN	PNOUN	_	66	nmod	_	SpaceAfter=No
-70	.	.	PUNCT	.	_	8	punct	_	_
+67	de	de	ADP	_	_	69	case	_	_
+68	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	69	det	_	_
+69	Braskem	Braskem	PROPN	_	Gender=Fem|Number=Sing	66	nmod	_	SpaceAfter=No
+70	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
 
 # sent_id = train-s4819
 # text = Para 2013, a estimativa dos analistas para o aporte de investimentos estrangeiros permaneceu em US $ 59,5 bilhões na última semana.
@@ -175,51 +177,55 @@
 9	chegar	chegar	VERB	VERB	_	6	csubj	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s4821
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Ocasionalmente se organizam passeios fluviais que partem de "Las Flores" até a ponte Pumarejo e voltão até Bocas de Ceniza para terminar sua viagem no ponto de partida.
-1	Ocasionalmente	ocasionalmente	ADV	ADV	_	3	advmod	_	_
-2	se	_	PRON	PRON	_	3	expl:pv	_	_
-3	organizam	organizar	VERB	VERB	_	0	root	_	_
-4	passeios	passeio	NOUN	NOUN	_	3	nsubj	_	_
-5	fluviais	fluvial	ADJ	ADJ	_	4	amod	_	_
-6	que	_	PRON	PRON	_	7	nsubj	_	_
-7	partem	partir	VERB	VERB	_	4	acl:relcl	_	_
-8	de	de	ADP	ADP	_	11	case	_	_
-9	"	"	PUNCT	.	_	11	punct	_	SpaceAfter=No
-10	Las	_	PROPN	PNOUN	_	11	det	_	_
-11	Flores	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
-12	"	"	PUNCT	.	_	11	punct	_	_
-13	até	_	ADP	ADP	_	15	case	_	_
-14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	ponte	ponte	NOUN	NOUN	_	7	nmod	_	_
-16	Pumarejo	_	PROPN	PNOUN	_	15	appos	_	_
-17	e	e	CCONJ	CONJ	_	18	cc	_	_
-18	voltão	_	VERB	VERB	_	7	conj	_	_
-19	até	_	ADP	ADP	_	20	case	_	_
-20	Bocas	_	PROPN	PNOUN	_	18	nmod	_	_
-21	de	de	ADP	ADP	_	22	case	_	_
-22	Ceniza	_	PROPN	PNOUN	_	20	nmod	_	_
-23	para	_	ADP	ADP	_	24	mark	_	_
-24	terminar	terminar	VERB	VERB	_	18	advcl	_	_
-25	sua	_	DET	DET	_	26	det:poss	_	_
-26	viagem	viagem	NOUN	NOUN	_	24	obj	_	_
+# sent_id = train-s4821
+1	Ocasionalmente	ocasionalmente	ADV	_	_	3	advmod	_	_
+2	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	expl	_	_
+3	organizam	organizar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	passeios	passeio	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+5	fluviais	fluvial	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
+6	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	7	nsubj	_	_
+7	partem	partir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	Las	Las	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	7	obl	_	_
+11	Flores	Flores	PROPN	_	Number=Sing	10	flat:name	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	10	punct	_	_
+13	até	até	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	ponte	ponte	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+16	Pumarejo	Pumarejo	PROPN	_	Gender=Fem|Number=Sing	15	appos	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	voltão	voltãar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+19	até	até	ADP	_	_	20	case	_	_
+20	Bocas	Bocas	PROPN	_	Gender=Masc|Number=Sing	18	obl	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	Ceniza	Ceniza	PROPN	_	Number=Sing	20	nmod	_	_
+23	para	para	SCONJ	_	_	24	mark	_	_
+24	terminar	terminar	VERB	_	VerbForm=Inf	18	advcl	_	_
+25	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	26	det	_	_
+26	viagem	viagem	NOUN	_	Gender=Fem|Number=Sing	24	obj	_	_
 27-28	no	_	_	_	_	_	_	_	_
-27	em	em	ADP	ADP	_	29	case	_	_
-28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-29	ponto	ponto	NOUN	NOUN	_	24	nmod	_	_
-30	de	de	ADP	ADP	_	31	case	_	_
-31	partida	partida	NOUN	NOUN	_	29	nmod	_	SpaceAfter=No
-32	.	.	PUNCT	.	_	3	punct	_	_
+27	em	em	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	partida	partida	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
-# sent_id = train-s4822
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = "Não adianta ficar lamentando ausências.
-1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
-2	Não	não	ADV	ADV	Polarity=Neg	3	advmod	_	_
-3	adianta	adiantar	VERB	VERB	_	0	root	_	_
-4	ficar	ficar	AUX	AUX	_	5	aux	_	_
-5	lamentando	lamentar	VERB	VERB	_	3	csubj	_	_
-6	ausências	ausência	NOUN	NOUN	_	5	obj	_	SpaceAfter=No
-7	.	.	PUNCT	.	_	3	punct	_	_
+# sent_id = train-s4822
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Não	não	ADV	_	Polarity=Neg	3	advmod	_	_
+3	adianta	adiantar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ficar	ficar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	lamentando	lamentar	VERB	_	VerbForm=Ger	4	xcomp	_	_
+6	ausências	ausência	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = train-s4823
 # text = Alguns dos degraus que davam acesso ao cavea ainda são visíveis.

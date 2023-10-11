@@ -1,78 +1,86 @@
-# sent_id = train-s1549
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Em seguida, a sensual coach afirma que você pode tirar a venda dos olhos dele, pegar a vela que se torna um hidratante e pingar em todo o tórax dele, de maneira bem devagar.
-1	Em	em	ADP	ADP	_	2	case	_	_
-2	seguida	_	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-3	,	,	PUNCT	.	_	2	punct	_	_
-4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-5	sensual	sensual	ADJ	ADJ	_	6	amod	_	_
-6	coach	_	NOUN	NOUN	_	7	nsubj	_	_
-7	afirma	afirmar	VERB	VERB	_	0	root	_	_
-8	que	que	CCONJ	CONJ	_	11	mark	_	_
-9	você	_	PRON	PRON	_	11	nsubj	_	_
-10	pode	_	AUX	AUX	_	11	aux	_	_
-11	tirar	tirar	VERB	VERB	_	7	ccomp	_	_
-12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	venda	venda	NOUN	NOUN	_	11	obj	_	_
+# sent_id = train-s1549
+1	Em	em	ADP	_	_	2	case	_	_
+2	seguida	seguida	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	sensual	sensual	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+6	coach	coach	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+7	afirma	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	que	que	SCONJ	_	_	11	mark	_	_
+9	você	você	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+11	tirar	tirar	VERB	_	VerbForm=Inf	10	xcomp	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	venda	venda	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
 14-15	dos	_	_	_	_	_	_	_	_
-14	de	de	ADP	ADP	_	16	case	_	_
-15	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
-16	olhos	olho	NOUN	NOUN	_	11	nmod	_	_
-17	dele	_	X	ADPPRON	_	16	det:poss	_	SpaceAfter=No
-18	,	,	PUNCT	.	_	19	punct	_	_
-19	pegar	pegar	VERB	VERB	_	11	conj	_	_
-20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-21	vela	vela	NOUN	NOUN	_	19	obj	_	_
-22	que	_	PRON	PRON	_	26	nsubj	_	_
-23	se	_	PRON	PRON	_	26	expl:pv	_	_
-24	torna	tornar	AUX	AUX	_	26	cop	_	_
-25	um	um	DET	DET	_	26	det	_	_
-26	hidratante	hidratante	NOUN	NOUN	_	21	acl:relcl	_	_
-27	e	e	CCONJ	CONJ	_	28	cc	_	_
-28	pingar	pingar	VERB	VERB	_	11	conj	_	_
-29	em	em	ADP	ADP	_	32	case	_	_
-30	todo	_	DET	DET	_	32	det	_	_
-31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
-32	tórax	tórax	NOUN	NOUN	_	28	nmod	_	_
-33	dele	_	X	ADPPRON	_	32	det:poss	_	SpaceAfter=No
-34	,	,	PUNCT	.	_	36	punct	_	_
-35	de	de	ADP	ADP	_	36	case	_	_
-36	maneira	maneira	NOUN	NOUN	_	28	nmod	_	_
-37	bem	bem	ADV	ADV	_	38	advmod	_	_
-38	devagar	devagar	ADV	ADV	_	36	advmod	_	SpaceAfter=No
-39	.	.	PUNCT	.	_	7	punct	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	olhos	olho	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
+17-18	dele	_	_	_	_	_	_	_	SpaceAfter=No
+17	de	de	ADP	_	_	18	case	_	_
+18	ele	ele	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nmod	_	_
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	pegar	pegar	VERB	_	VerbForm=Inf	11	conj	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	vela	vela	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	_
+23	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	25	nsubj	_	_
+24	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	expl	_	_
+25	torna	tornar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+26	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	hidratante	hidratante	NOUN	_	Gender=Masc|Number=Sing	25	xcomp	_	_
+28	e	e	CCONJ	_	_	29	cc	_	_
+29	pingar	pingar	VERB	_	VerbForm=Inf	25	conj	_	_
+30	em	em	ADP	_	_	33	case	_	_
+31	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Tot	33	det	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	tórax	tórax	NOUN	_	Gender=Masc|Number=Sing	29	obl	_	_
+34-35	dele	_	_	_	_	_	_	_	SpaceAfter=No
+34	de	de	ADP	_	_	35	case	_	_
+35	ele	ele	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	nmod	_	_
+36	,	,	PUNCT	_	_	38	punct	_	_
+37	de	de	ADP	_	_	38	case	_	_
+38	maneira	maneira	NOUN	_	Gender=Fem|Number=Sing	29	obl	_	_
+39	bem	bem	ADV	_	_	40	advmod	_	_
+40	devagar	devagar	ADV	_	_	38	advmod	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
-# sent_id = train-s1550
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Ela fica sabendo da notícia através de sites de fofoca e se questiona por qual motivo Rosário não contou a verdade para ela e também para Cida.
-1	Ela	_	PRON	PRON	_	3	nsubj	_	_
-2	fica	ficar	AUX	AUX	_	3	aux	_	_
-3	sabendo	saber	VERB	VERB	_	0	root	_	_
+# sent_id = train-s1550
+1	Ela	ela	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	fica	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sabendo	saber	VERB	_	VerbForm=Ger	2	xcomp	_	_
 4-5	da	_	_	_	_	_	_	_	_
-4	de	de	ADP	ADP	_	6	case	_	_
-5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	notícia	notícia	NOUN	NOUN	_	3	nmod	_	_
-7	através	através	ADV	ADV	_	3	advmod	_	_
-8	de	de	ADP	ADP	_	9	case	_	_
-9	sites	site	NOUN	NOUN	_	7	nmod	_	_
-10	de	de	ADP	ADP	_	11	case	_	_
-11	fofoca	fofoca	NOUN	NOUN	_	9	nmod	_	_
-12	e	e	CCONJ	CONJ	_	14	cc	_	_
-13	se	_	PRON	PRON	_	14	obj	_	_
-14	questiona	questionar	VERB	VERB	_	3	conj	_	_
-15	por	por	ADP	ADP	_	17	case	_	_
-16	qual	_	DET	DET	_	17	det	_	_
-17	motivo	motivo	NOUN	NOUN	_	20	nmod	_	_
-18	Rosário	_	PROPN	PNOUN	_	20	nsubj	_	_
-19	não	não	ADV	ADV	Polarity=Neg	20	advmod	_	_
-20	contou	contar	VERB	VERB	_	14	ccomp	_	_
-21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	verdade	verdade	NOUN	NOUN	_	20	obj	_	_
-23	para	para	ADP	ADP	_	24	case	_	_
-24	ela	_	PRON	PRON	_	20	nmod	_	_
-25	e	e	CCONJ	CONJ	_	20	cc	_	_
-26	também	também	ADV	ADV	_	20	advmod	_	_
-27	para	para	ADP	ADP	_	28	case	_	_
-28	Cida	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
-29	.	.	PUNCT	.	_	3	punct	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	notícia	notícia	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+7	através	através	ADV	_	_	3	advmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	sites	site	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	fofoca	fofoca	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+12	e	e	CCONJ	_	_	14	cc	_	_
+13	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	expl	_	_
+14	questiona	questionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+15	por	por	ADP	_	_	17	case	_	_
+16	qual	qual	DET	_	Gender=Masc|Number=Sing|PronType=Int	17	det	_	_
+17	motivo	motivo	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+18	Rosário	Rosário	PROPN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
+19	não	não	ADV	_	Polarity=Neg	20	advmod	_	_
+20	contou	contar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	ccomp	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	verdade	verdade	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	_
+23	para	para	ADP	_	_	24	case	_	_
+24	ela	ela	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obl	_	_
+25	e	e	CCONJ	_	_	28	cc	_	_
+26	também	também	ADV	_	_	28	advmod	_	_
+27	para	para	ADP	_	_	28	case	_	_
+28	Cida	Cida	PROPN	_	Gender=Fem|Number=Sing	24	conj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = train-s1551
 # text = Viajo bastante, tenho horários loucos.
@@ -215,38 +223,40 @@
 28	Hoffman	_	PROPN	PNOUN	_	27	flat	_	SpaceAfter=No
 29	;	_	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s1555
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Após mudar-se do Texas para Nova York, a atriz interpretou Michelle Bauer Santos em The Guiding Light, uma produção da CBS.
-1	Após	_	ADP	ADP	_	2	mark	_	_
+# sent_id = train-s1555
+1	Após	após	SCONJ	_	_	2	mark	_	_
 2-3	mudar-se	_	_	_	_	_	_	_	_
-2	mudar	mudar	VERB	VERB	_	13	advcl	_	_
-3	se	_	PART	PRT	_	2	expl:pv	_	_
+2	mudar	mudar	VERB	_	VerbForm=Inf	13	advcl	_	_
+3	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
 4-5	do	_	_	_	_	_	_	_	_
-4	de	de	ADP	ADP	_	6	case	_	_
-5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	Texas	_	PROPN	PNOUN	_	2	nmod	_	_
-7	para	para	ADP	ADP	_	9	case	_	_
-8	Nova	_	PROPN	PNOUN	_	9	amod	_	_
-9	York	_	PROPN	PNOUN	_	2	nmod	_	SpaceAfter=No
-10	,	,	PUNCT	.	_	2	punct	_	_
-11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	atriz	_	NOUN	NOUN	_	13	nsubj	_	_
-13	interpretou	interpretar	VERB	VERB	_	0	root	_	_
-14	Michelle	_	PROPN	PNOUN	_	13	obj	_	_
-15	Bauer	_	PROPN	PNOUN	_	14	flat	_	_
-16	Santos	_	PROPN	PNOUN	_	14	flat	_	_
-17	em	em	ADP	ADP	_	20	case	_	_
-18	The	_	PROPN	PNOUN	_	20	det	_	_
-19	Guiding	_	PROPN	PNOUN	_	20	amod	_	_
-20	Light	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
-21	,	,	PUNCT	.	_	23	punct	_	_
-22	uma	um	DET	DET	_	23	det	_	_
-23	produção	produção	NOUN	NOUN	_	20	appos	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Texas	Texas	PROPN	_	Gender=Masc|Number=Sing	2	obl	_	_
+7	para	para	ADP	_	_	8	case	_	_
+8	Nova	Nova	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	2	obl	_	_
+9	York	York	PROPN	_	Number=Sing	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	2	punct	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	atriz	atriz	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+13	interpretou	interpretar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	Michelle	Michelle	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	13	obj	_	_
+15	Bauer	Bauer	PROPN	_	Number=Sing	14	flat:name	_	_
+16	Santos	Santos	PROPN	_	Number=Sing	14	flat:name	_	_
+17	em	em	ADP	_	_	18	case	_	_
+18	The	The	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	13	obl	_	_
+19	Guiding	Guiding	PROPN	_	Number=Sing	18	flat:name	_	_
+20	Light	Light	PROPN	_	Number=Sing	18	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	_
+22	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	produção	produção	NOUN	_	Gender=Fem|Number=Sing	18	appos	_	_
 24-25	da	_	_	_	_	_	_	_	_
-24	de	de	ADP	ADP	_	26	case	_	_
-25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	CBS	_	PROPN	PNOUN	_	23	nmod	_	SpaceAfter=No
-27	.	.	PUNCT	.	_	13	punct	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	CBS	CBS	PROPN	_	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
 
 # sent_id = train-s1556
 # text = Deyse ajudou a vítima a recolher todo o material.
@@ -293,28 +303,30 @@
 26	9111-1858	_	NUM	NUM	NumType=Card	24	conj	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s1558
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = De acordo com a Defesa Civil Estadual, 320 pessoas ficaram desalojadas, 160 estão desabrigadas e 2.380 precisaram ser removidas.
-1	De	_	ADP	ADP	_	2	case	_	_
-2	acordo	acordo	NOUN	NOUN	_	11	nmod	_	_
-3	com	com	ADP	ADP	_	5	case	_	_
-4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	Defesa	_	PROPN	PNOUN	_	2	nmod	_	_
-6	Civil	_	PROPN	PNOUN	_	5	amod	_	_
-7	Estadual	_	PROPN	PNOUN	_	5	amod	_	SpaceAfter=No
-8	,	,	PUNCT	.	_	2	punct	_	_
-9	320	320	NUM	NUM	NumType=Card	10	nummod	_	_
-10	pessoas	pessoa	NOUN	NOUN	_	11	nsubj	_	_
-11	ficaram	ficar	VERB	VERB	_	0	root	_	_
-12	desalojadas	desalojado	ADJ	ADJ	_	11	xcomp	_	SpaceAfter=No
-13	,	,	PUNCT	.	_	15	punct	_	_
-14	160	160	NUM	NUM	NumType=Card	15	nsubj	_	_
-15	estão	estar	VERB	VERB	_	11	conj	_	_
-16	desabrigadas	desabrigado	ADJ	ADJ	_	15	xcomp	_	_
-17	e	e	CCONJ	CONJ	_	21	cc	_	_
-18	2.380	_	NUM	NUM	NumType=Card	21	nsubj:pass	_	_
-19	precisaram	precisar	AUX	AUX	_	21	aux	_	_
-20	ser	ser	AUX	AUX	_	21	aux:pass	_	_
-21	removidas	remover	VERB	VERB	_	11	conj	_	SpaceAfter=No
-22	.	.	PUNCT	.	_	11	punct	_	_
+# sent_id = train-s1558
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Defesa	Defesa	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	2	nmod	_	_
+6	Civil	Civil	PROPN	_	Number=Sing	5	flat:name	_	_
+7	Estadual	Estadual	PROPN	_	Number=Sing	5	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	2	punct	_	_
+9	320	320	NUM	_	NumType=Card	10	nummod	_	_
+10	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	11	nsubj	_	_
+11	ficaram	ficar	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+12	desalojadas	desalojado	ADJ	_	Gender=Fem|Number=Plur	11	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	_
+14	160	160	NUM	_	NumType=Card	16	nsubj	_	_
+15	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	desabrigadas	desabrigado	ADJ	_	Gender=Fem|Number=Plur	11	conj	_	_
+17	e	e	CCONJ	_	_	19	cc	_	_
+18	2.380	2.380	NUM	_	NumType=Card	19	nsubj	_	_
+19	precisaram	precisar	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	11	conj	_	_
+20	ser	ser	AUX	_	VerbForm=Inf	21	aux:pass	_	_
+21	removidas	remover	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	19	xcomp	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
 

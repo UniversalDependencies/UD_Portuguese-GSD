@@ -37,42 +37,44 @@
 30	FPE	_	PROPN	PNOUN	_	27	nmod	_	SpaceAfter=No
 31	.	.	PUNCT	.	_	23	punct	_	_
 
-# sent_id = train-s1261
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Apesar do alívio, o lateral - esquerdo Paulo Vitor não quer saber de acomodação por parte da equipe na última partida da primeira fase.
-1	Apesar	apesar	ADV	ADV	_	4	case	_	_
+# sent_id = train-s1261
+1	Apesar	apesar	ADV	_	ExtPos=ADP	4	case	_	_
 2-3	do	_	_	_	_	_	_	_	_
-2	de	de	ADP	ADP	_	1	case	_	_
-3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
-4	alívio	alívio	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
-5	,	,	PUNCT	.	_	4	punct	_	_
-6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	lateral	lateral	NOUN	NOUN	_	13	nsubj	_	_
-8	-	-	PUNCT	.	_	7	punct	_	_
-9	esquerdo	esquerdo	ADJ	ADJ	_	7	amod	_	_
-10	Paulo	_	PROPN	PNOUN	_	7	appos	_	_
-11	Vitor	_	PROPN	PNOUN	_	10	flat	_	_
-12	não	não	ADV	ADV	Polarity=Neg	13	advmod	_	_
-13	quer	querer	VERB	VERB	_	0	root	_	_
-14	saber	saber	VERB	VERB	_	13	xcomp	_	_
-15	de	de	ADP	ADP	_	16	case	_	_
-16	acomodação	acomodação	NOUN	NOUN	_	14	nmod	_	_
-17	por	por	ADP	ADP	_	18	case	_	_
-18	parte	parte	NOUN	NOUN	_	16	nmod	_	_
+2	de	de	ADP	_	_	1	fixed	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	alívio	alívio	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	lateral	lateral	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+8	-	-	PUNCT	_	_	10	punct	_	_
+9	esquerdo	esquerdo	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+10	Paulo	Paulo	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	7	appos	_	_
+11	Vitor	Vitor	PROPN	_	Number=Sing	10	flat:name	_	_
+12	não	não	ADV	_	Polarity=Neg	13	advmod	_	_
+13	quer	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	saber	saber	VERB	_	VerbForm=Inf	13	xcomp	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	acomodação	acomodação	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+17	por	por	ADP	_	_	18	case	_	_
+18	parte	parte	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
 19-20	da	_	_	_	_	_	_	_	_
-19	de	de	ADP	ADP	_	21	case	_	_
-20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-21	equipe	equipe	NOUN	NOUN	_	18	nmod	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	equipe	equipe	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
 22-23	na	_	_	_	_	_	_	_	_
-22	em	em	ADP	ADP	_	25	case	_	_
-23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-24	última	último	ADJ	ADJ	_	25	amod	_	_
-25	partida	partida	NOUN	NOUN	_	16	nmod	_	_
+22	em	em	ADP	_	_	25	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	última	último	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	25	amod	_	_
+25	partida	partida	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
 26-27	da	_	_	_	_	_	_	_	_
-26	de	de	ADP	ADP	_	29	case	_	_
-27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-28	primeira	primeiro	ADJ	ADJ	_	29	amod	_	_
-29	fase	fase	NOUN	NOUN	_	25	nmod	_	SpaceAfter=No
-30	.	.	PUNCT	.	_	13	punct	_	_
+26	de	de	ADP	_	_	29	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	29	amod	_	_
+29	fase	fase	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
 
 # sent_id = train-s1262
 # text = Segundo o censo norte - americano de 2000, a sua população era de 5813 habitantes.

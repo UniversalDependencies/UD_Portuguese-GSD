@@ -1,24 +1,26 @@
-# sent_id = train-s4844
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Um novo sistema de esquadrões de combate, chamado Strykeforce, com direito a comandos para os soldados.
-1	Um	_	DET	DET	_	3	det	_	_
-2	novo	novo	ADJ	ADJ	_	3	amod	_	_
-3	sistema	sistema	NOUN	NOUN	_	0	root	_	_
-4	de	de	ADP	ADP	_	5	case	_	_
-5	esquadrões	esquadrão	NOUN	NOUN	_	3	nmod	_	_
-6	de	de	ADP	ADP	_	7	case	_	_
-7	combate	combate	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
-8	,	,	PUNCT	.	_	10	punct	_	_
-9	chamado	chamar	AUX	AUX	_	10	cop	_	_
-10	Strykeforce	_	PROPN	PNOUN	_	3	acl	_	SpaceAfter=No
-11	,	,	PUNCT	.	_	10	punct	_	_
-12	com	com	ADP	ADP	_	13	case	_	_
-13	direito	direito	NOUN	NOUN	_	3	nmod	_	_
-14	a	_	ADP	ADP	_	15	case	_	_
-15	comandos	comando	NOUN	NOUN	_	13	nmod	_	_
-16	para	para	ADP	ADP	_	18	case	_	_
-17	os	o	DET	DET	_	18	det	_	_
-18	soldados	soldado	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
-19	.	.	PUNCT	.	_	3	punct	_	_
+# sent_id = train-s4844
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	novo	novo	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
+3	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	esquadrões	esquadrão	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	combate	combate	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	chamado	chamar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	3	acl	_	_
+10	Strykeforce	Strykeforce	PROPN	_	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	com	com	ADP	_	_	13	case	_	_
+13	direito	direito	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+14	a	a	ADP	_	_	15	case	_	_
+15	comandos	comando	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
+16	para	para	ADP	_	_	18	case	_	_
+17	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	soldados	soldado	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = train-s4845
 # text = Mesmo já rebaixado, o Grêmio Barueri começou o jogo com tudo.
@@ -190,52 +192,56 @@
 10	país	país	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s4852
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Das oito empresas que se credenciaram para participar da licitação, apenas quatro foram habilitadas, sendo que uma delas entrou com recurso e conseguiu parecer favorável para que apenas três empreiteiras continuem participando da concorrência pública.
+# sent_id = train-s4852
 1-2	Das	_	_	_	_	_	_	_	_
-1	De	de	ADP	ADP	_	4	case	_	_
-2	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
-3	oito	_	NUM	NUM	NumType=Card	4	nummod	_	_
-4	empresas	empresa	NOUN	NOUN	_	17	nmod	_	_
-5	que	_	PRON	PRON	_	7	nsubj	_	_
-6	se	_	PRON	PRON	_	7	obj	_	_
-7	credenciaram	_	VERB	VERB	_	4	acl:relcl	_	_
-8	para	_	ADP	ADP	_	9	mark	_	_
-9	participar	participar	VERB	VERB	_	7	advcl	_	_
+1	De	de	ADP	_	_	4	case	_	_
+2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	oito	oito	NUM	_	NumType=Card	4	nummod	_	_
+4	empresas	empresa	NOUN	_	Gender=Fem|Number=Plur	17	obl	_	_
+5	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	7	nsubj	_	_
+6	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	7	expl	_	_
+7	credenciaram	credenciar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+8	para	para	SCONJ	_	_	9	mark	_	_
+9	participar	participar	VERB	_	VerbForm=Inf	7	advcl	_	_
 10-11	da	_	_	_	_	_	_	_	_
-10	de	de	ADP	ADP	_	12	case	_	_
-11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	licitação	licitação	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
-13	,	,	PUNCT	.	_	4	punct	_	_
-14	apenas	apenas	ADV	ADV	_	15	advmod	_	_
-15	quatro	_	NUM	NUM	NumType=Card	17	nsubj:pass	_	_
-16	foram	_	AUX	AUX	_	17	aux:pass	_	_
-17	habilitadas	habilitar	VERB	VERB	_	0	root	_	SpaceAfter=No
-18	,	,	PUNCT	.	_	19	punct	_	_
-19	sendo	ser	VERB	VERB	_	17	acl	_	_
-20	que	que	CCONJ	CONJ	_	23	mark	_	_
-21	uma	_	NUM	NUM	NumType=Card	23	nsubj	_	_
-22	delas	_	X	ADPPRON	_	21	nmod	_	_
-23	entrou	entrar	VERB	VERB	_	19	csubj	_	_
-24	com	com	ADP	ADP	_	25	case	_	_
-25	recurso	recurso	NOUN	NOUN	_	23	nmod	_	_
-26	e	e	CCONJ	CONJ	_	27	cc	_	_
-27	conseguiu	conseguir	VERB	VERB	_	23	conj	_	_
-28	parecer	parecer	NOUN	NOUN	_	27	obj	_	_
-29	favorável	favorável	ADJ	ADJ	_	28	amod	_	_
-30	para	_	ADP	ADP	_	36	mark	_	_
-31	que	que	CCONJ	CONJ	_	36	mark	_	_
-32	apenas	apenas	ADV	ADV	_	33	advmod	_	_
-33	três	_	NUM	NUM	NumType=Card	34	nummod	_	_
-34	empreiteiras	empreiteiro	NOUN	NOUN	_	36	nsubj	_	_
-35	continuem	continuar	AUX	AUX	_	36	aux	_	_
-36	participando	participar	VERB	VERB	_	28	nmod	_	_
-37-38	da	_	_	_	_	_	_	_	_
-37	de	de	ADP	ADP	_	39	case	_	_
-38	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
-39	concorrência	concorrência	NOUN	NOUN	_	36	nmod	_	_
-40	pública	público	ADJ	ADJ	_	39	amod	_	SpaceAfter=No
-41	.	.	PUNCT	.	_	17	punct	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	licitação	licitação	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	9	punct	_	_
+14	apenas	apenas	ADV	_	_	15	advmod	_	_
+15	quatro	quatro	NUM	_	NumType=Card	17	nsubj:pass	_	_
+16	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	17	aux:pass	_	_
+17	habilitadas	habilitar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	sendo	ser	AUX	_	VerbForm=Ger	24	mark	_	_
+20	que	que	SCONJ	_	_	19	fixed	_	_
+21	uma	um	NUM	_	NumType=Card	24	nsubj	_	_
+22-23	delas	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	elas	ele	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	21	nmod	_	_
+24	entrou	entrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	advcl	_	_
+25	com	com	ADP	_	_	26	case	_	_
+26	recurso	recurso	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	_
+27	e	e	CCONJ	_	_	28	cc	_	_
+28	conseguiu	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	conj	_	_
+29	parecer	parecer	VERB	_	VerbForm=Inf	28	xcomp	_	_
+30	favorável	favorável	ADJ	_	Gender=Masc|Number=Sing	29	xcomp	_	_
+31	para	para	SCONJ	_	_	36	mark	_	_
+32	que	que	SCONJ	_	_	36	mark	_	_
+33	apenas	apenas	ADV	_	_	34	advmod	_	_
+34	três	três	NUM	_	NumType=Card	35	nummod	_	_
+35	empreiteiras	empreiteira	NOUN	_	Gender=Fem|Number=Plur	36	nsubj	_	_
+36	continuem	continuar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	advcl	_	_
+37	participando	participar	VERB	_	VerbForm=Ger	36	xcomp	_	_
+38-39	da	_	_	_	_	_	_	_	_
+38	de	de	ADP	_	_	40	case	_	_
+39	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	concorrência	concorrência	NOUN	_	Gender=Fem|Number=Sing	37	obj	_	_
+41	pública	público	ADJ	_	Gender=Fem|Number=Sing	40	amod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
 
 # sent_id = train-s4853
 # text = A apresentação faz parte do projeto "A Hora do Riso", idealizado por Luciano Feitosa, e outros shows já estão previstos.

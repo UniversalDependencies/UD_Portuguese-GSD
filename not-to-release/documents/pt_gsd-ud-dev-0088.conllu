@@ -1,22 +1,24 @@
-# sent_id = dev-s864
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Foram investidos 8 milhões e 700 mil reais na aquisição dos automóveis.
-1	Foram	_	AUX	AUX	_	2	aux:pass	_	_
-2	investidos	investir	VERB	VERB	_	0	root	_	_
-3	8	8	NUM	NUM	NumType=Card	4	nummod	_	_
-4	milhões	_	NUM	NUM	NumType=Card	5	nummod	_	_
-5	e	_	CCONJ	CONJ	_	6	nummod	_	_
-6	700	700	NUM	NUM	NumType=Card	7	nummod	_	_
-7	mil	_	NOUN	NOUN	_	8	nummod	_	_
-8	reais	real	NOUN	NOUN	_	2	nsubj:pass	_	_
+# sent_id = dev-s864
+1	Foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	2	aux:pass	_	_
+2	investidos	investir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+3	8	8	NUM	_	NumType=Card	8	nummod	_	_
+4	milhões	milhão	NUM	_	NumType=Card	3	flat	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	700	700	NUM	_	NumType=Card	3	conj	_	_
+7	mil	mil	NUM	_	NumType=Card	6	flat	_	_
+8	reais	real	NOUN	_	Gender=Masc|Number=Plur	2	nsubj:pass	_	_
 9-10	na	_	_	_	_	_	_	_	_
-9	em	em	ADP	ADP	_	11	case	_	_
-10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	aquisição	aquisição	NOUN	NOUN	_	2	nmod	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	aquisição	aquisição	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
 12-13	dos	_	_	_	_	_	_	_	_
-12	de	de	ADP	ADP	_	14	case	_	_
-13	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
-14	automóveis	automóvel	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
-15	.	.	PUNCT	.	_	2	punct	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	automóveis	automóvel	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = dev-s865
 # text = O álbum vendeu 5 milhão de cópias mundialmente.

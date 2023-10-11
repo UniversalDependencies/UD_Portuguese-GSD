@@ -69,31 +69,33 @@
 26	)	)	PUNCT	.	_	25	punct	_	SpaceAfter=No
 27	;	_	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s3079
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Não podemos mais desperdiçar pontos em casa para se manter no pelotão da frente ", continuou ensinando.
-1	Não	não	ADV	ADV	Polarity=Neg	4	advmod	_	_
-2	podemos	_	AUX	AUX	_	4	aux	_	_
-3	mais	mais	ADV	ADV	_	4	advmod	_	_
-4	desperdiçar	desperdiçar	VERB	VERB	_	20	ccomp	_	_
-5	pontos	ponto	NOUN	NOUN	_	4	obj	_	_
-6	em	em	ADP	ADP	_	7	case	_	_
-7	casa	casa	NOUN	NOUN	_	4	nmod	_	_
-8	para	_	ADP	ADP	_	10	mark	_	_
-9	se	_	PRON	PRON	_	10	obj	_	_
-10	manter	manter	VERB	VERB	_	4	advcl	_	_
+# sent_id = train-s3079
+1	Não	não	ADV	_	Polarity=Neg	4	advmod	_	_
+2	podemos	poder	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	parataxis	_	_
+3	mais	mais	ADV	_	_	4	advmod	_	_
+4	desperdiçar	desperdiçar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+5	pontos	ponto	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	casa	casa	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+8	para	para	SCONJ	_	_	10	mark	_	_
+9	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	expl	_	_
+10	manter	manter	VERB	_	Number=Sing|Person=3|VerbForm=Inf	4	advcl	_	_
 11-12	no	_	_	_	_	_	_	_	_
-11	em	em	ADP	ADP	_	13	case	_	_
-12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	pelotão	pelotão	NOUN	NOUN	_	10	nmod	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	pelotão	pelotão	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
 14-15	da	_	_	_	_	_	_	_	_
-14	de	de	ADP	ADP	_	16	case	_	_
-15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	frente	frente	NOUN	NOUN	_	13	nmod	_	_
-17	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
-18	,	,	PUNCT	.	_	20	punct	_	_
-19	continuou	continuar	AUX	AUX	_	20	aux	_	_
-20	ensinando	ensinar	VERB	VERB	_	0	root	_	SpaceAfter=No
-21	.	.	PUNCT	.	_	20	punct	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	frente	frente	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+17	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	continuou	continuar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20	ensinando	ensinar	VERB	_	VerbForm=Ger	19	xcomp	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
 
 # sent_id = train-s3080
 # text = Outros questionamentos, reclamações, etc, devem ser encaminhados à redação pelo "Espaço do Leitor";
@@ -223,65 +225,67 @@
 25	explica	explicar	VERB	VERB	_	0	root	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	25	punct	_	_
 
-# sent_id = train-s3084
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = é uma frase do poeta Iuri Kuznetsov, também um dos poetas russos fundamentais -- ele morreu alguns anos atrás, ainda jovem, mas um pedaço da poesia que escreveu está virando um clássico, por isso é bom lembrá - lo, mesmo que com uma citação isolada.
-1	é	ser	AUX	AUX	_	3	cop	_	_
-2	uma	um	DET	DET	_	3	det	_	_
-3	frase	frase	NOUN	NOUN	_	0	root	_	_
+# sent_id = train-s3084
+1	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	frase	frase	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 4-5	do	_	_	_	_	_	_	_	_
-4	de	de	ADP	ADP	_	6	case	_	_
-5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	poeta	poeta	NOUN	NOUN	_	3	nmod	_	_
-7	Iuri	_	PROPN	PNOUN	_	6	appos	_	_
-8	Kuznetsov	_	PROPN	PNOUN	_	7	flat	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	11	punct	_	_
-10	também	também	ADV	ADV	_	11	advmod	_	_
-11	um	_	PRON	PRON	_	6	appos	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	poeta	poeta	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+7	Iuri	Iuri	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	6	appos	_	_
+8	Kuznetsov	Kuznetsov	PROPN	_	Number=Sing	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	também	também	ADV	_	_	11	advmod	_	_
+11	um	um	NUM	_	NumType=Card	6	appos	_	_
 12-13	dos	_	_	_	_	_	_	_	_
-12	de	de	ADP	ADP	_	14	case	_	_
-13	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
-14	poetas	poeta	NOUN	NOUN	_	11	nmod	_	_
-15	russos	russo	ADJ	ADJ	_	14	amod	_	_
-16	fundamentais	fundamental	ADJ	ADJ	_	14	amod	_	_
-17	--	_	PUNCT	.	_	3	punct	_	_
-18	ele	_	PRON	PRON	_	19	nsubj	_	_
-19	morreu	morrer	VERB	VERB	_	3	parataxis	_	_
-20	alguns	_	DET	DET	_	21	det	_	_
-21	anos	ano	NOUN	NOUN	_	22	nmod	_	_
-22	atrás	atrás	ADV	ADV	_	19	advmod	_	SpaceAfter=No
-23	,	,	PUNCT	.	_	25	punct	_	_
-24	ainda	ainda	ADV	ADV	_	25	advmod	_	_
-25	jovem	jovem	ADJ	ADJ	_	19	xcomp	_	SpaceAfter=No
-26	,	,	PUNCT	.	_	25	punct	_	_
-27	mas	mas	CCONJ	CONJ	_	38	cc	_	_
-28	um	um	DET	DET	_	29	det	_	_
-29	pedaço	pedaço	NOUN	NOUN	_	38	nsubj	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	poetas	poeta	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
+15	russos	russo	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	_
+16	fundamentais	fundamental	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	_
+17	--	--	PUNCT	_	_	19	punct	_	_
+18	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	morreu	morrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+20	alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	21	det	_	_
+21	anos	ano	NOUN	_	Gender=Masc|Number=Plur	19	obl	_	_
+22	atrás	atrás	ADV	_	_	19	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	25	punct	_	_
+24	ainda	ainda	ADV	_	_	25	advmod	_	_
+25	jovem	jovem	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	36	punct	_	_
+27	mas	mas	CCONJ	_	_	36	cc	_	_
+28	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	pedaço	pedaço	NOUN	_	Gender=Masc|Number=Sing	36	nsubj	_	_
 30-31	da	_	_	_	_	_	_	_	_
-30	de	de	ADP	ADP	_	32	case	_	_
-31	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
-32	poesia	poesia	NOUN	NOUN	_	29	nmod	_	_
-33	que	_	PRON	PRON	_	34	obj	_	_
-34	escreveu	escrever	VERB	VERB	_	32	acl:relcl	_	_
-35	está	estar	AUX	AUX	_	38	aux	_	_
-36	virando	virar	AUX	AUX	_	38	cop	_	_
-37	um	um	DET	DET	_	38	det	_	_
-38	clássico	clássico	NOUN	NOUN	_	19	conj	_	SpaceAfter=No
-39	,	,	PUNCT	.	_	42	punct	_	_
-40	por	por	ADP	ADP	_	41	case	_	_
-41	isso	_	PRON	PRON	_	42	nmod	_	_
-42	é	ser	VERB	VERB	_	38	conj	_	_
-43	bom	bom	ADJ	ADJ	_	42	xcomp	_	_
-44	lembrá	lembrar	VERB	VERB	_	42	csubj	_	_
-45	-	-	PUNCT	.	_	44	punct	_	_
-46	lo	_	PRON	PRON	_	44	obj	_	SpaceAfter=No
-47	,	,	PUNCT	.	_	48	punct	_	_
-48	mesmo	mesmo	ADV	ADV	_	44	nmod	_	_
-49	que	_	ADP	ADP	_	48	fixed	_	_
-50	com	com	ADP	ADP	_	52	case	_	_
-51	uma	um	DET	DET	_	52	det	_	_
-52	citação	citação	NOUN	NOUN	_	48	nmod	_	_
-53	isolada	isolado	ADJ	ADJ	_	52	amod	_	SpaceAfter=No
-54	.	.	PUNCT	.	_	3	punct	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	poesia	poesia	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
+33	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	34	obj	_	_
+34	escreveu	escrever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	32	acl:relcl	_	_
+35	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+36	virando	virar	VERB	_	VerbForm=Ger	3	conj	_	_
+37	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	clássico	clássico	ADJ	_	Gender=Masc|Number=Sing	36	xcomp	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	43	punct	_	_
+40	por	por	ADP	_	_	41	case	_	_
+41	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	43	obl	_	_
+42	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	cop	_	_
+43	bom	bom	ADJ	_	Gender=Masc|Number=Sing	36	conj	_	_
+44	lembrá	lembrar	VERB	_	VerbForm=Inf	43	csubj	_	_
+45	-	-	PRON	_	_	44	obj	_	_
+46	lo	ele	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	44	obj	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	44	punct	_	_
+48	mesmo	mesmo	ADV	_	_	52	case	_	_
+49	que	que	SCONJ	_	_	48	fixed	_	_
+50	com	com	ADP	_	_	52	case	_	_
+51	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
+52	citação	citação	NOUN	_	Gender=Fem|Number=Sing	44	obl	_	_
+53	isolada	isolar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	52	acl	_	SpaceAfter=No
+54	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = train-s3085
 # text = Já a moradora Elen Fabricio da Costa perdeu tudo no incêndio.

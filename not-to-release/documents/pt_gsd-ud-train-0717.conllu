@@ -141,35 +141,37 @@
 40	mate	mate	NOUN	NOUN	_	38	flat	_	SpaceAfter=No
 41	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s7120
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Todos esses episódios, com a exceção de Seeing the Light, que encerra a 2 ª temporada, foram baseados em contos curtos de Jennings.
-1	Todos	_	DET	DET	_	3	det	_	_
-2	esses	_	DET	DET	_	3	det	_	_
-3	episódios	episódio	NOUN	NOUN	_	21	nsubj:pass	_	SpaceAfter=No
-4	,	,	PUNCT	.	_	7	punct	_	_
-5	com	com	ADP	ADP	_	7	case	_	_
-6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	exceção	exceção	NOUN	NOUN	_	3	nmod	_	_
-8	de	_	ADP	ADP	_	9	mark	_	_
-9	Seeing	_	PROPN	PNOUN	_	7	nmod	_	_
-10	the	_	PROPN	PNOUN	_	11	det	_	_
-11	Light	_	PROPN	PNOUN	_	9	obj	_	SpaceAfter=No
-12	,	,	PUNCT	.	_	14	punct	_	_
-13	que	_	PRON	PRON	_	14	nsubj	_	_
-14	encerra	encerrar	VERB	VERB	_	9	acl:relcl	_	_
-15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-16	2	_	ADJ	ADJ	_	18	amod	_	_
-17	ª	_	PUNCT	.	_	16	punct	_	_
-18	temporada	temporada	NOUN	NOUN	_	14	obj	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	7	punct	_	_
-20	foram	_	AUX	AUX	_	21	aux:pass	_	_
-21	baseados	basear	VERB	VERB	_	0	root	_	_
-22	em	em	ADP	ADP	_	23	case	_	_
-23	contos	conto	NOUN	NOUN	_	21	nmod	_	_
-24	curtos	curto	ADJ	ADJ	_	23	amod	_	_
-25	de	de	ADP	ADP	_	26	case	_	_
-26	Jennings	_	PROPN	PNOUN	_	23	nmod	_	SpaceAfter=No
-27	.	.	PUNCT	.	_	21	punct	_	_
+# sent_id = train-s7120
+1	Todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	3	det	_	_
+2	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+3	episódios	episódio	NOUN	_	Gender=Masc|Number=Plur	21	nsubj:pass	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	com	com	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	exceção	exceção	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Seeing	Seeing	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	7	nmod	_	_
+10	the	the	PROPN	_	Number=Sing	9	flat:name	_	_
+11	Light	Light	PROPN	_	Number=Sing	9	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	14	nsubj	_	_
+14	encerra	encerrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+16	2	2	NUM	_	NumType=Card	18	nummod	_	_
+17	ª	ª	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	18	amod	_	_
+18	temporada	temporada	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	14	punct	_	_
+20	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	21	aux:pass	_	_
+21	baseados	basear	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+22	em	em	ADP	_	_	23	case	_	_
+23	contos	conto	NOUN	_	Gender=Masc|Number=Plur	21	obj	_	_
+24	curtos	curto	ADJ	_	Gender=Masc|Number=Plur	23	amod	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	Jennings	Jennings	PROPN	_	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
 
 # sent_id = train-s7121
 # text = Devido a esta tendência, o Procon de Mato Grosso do Sul dá algumas dicas aos consumidores para não se prejudicarem.
@@ -233,46 +235,50 @@
 26	RN	_	PROPN	PNOUN	_	23	nmod	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = train-s7123
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Espaço para interação entre os usuários e o PB Agora.
-1	Espaço	espaço	NOUN	NOUN	_	0	root	_	_
-2	para	para	ADP	ADP	_	3	case	_	_
-3	interação	interação	NOUN	NOUN	_	1	nmod	_	_
-4	entre	_	ADP	ADP	_	6	case	_	_
-5	os	o	DET	DET	_	6	det	_	_
-6	usuários	usuário	NOUN	NOUN	_	3	nmod	_	_
-7	e	e	CCONJ	CONJ	_	9	cc	_	_
-8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	PB	_	PROPN	PNOUN	_	6	conj	_	_
-10	Agora	_	PROPN	PNOUN	_	9	advmod	_	SpaceAfter=No
-11	.	.	PUNCT	.	_	1	punct	_	_
+# sent_id = train-s7123
+1	Espaço	espaço	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	para	para	ADP	_	_	3	case	_	_
+3	interação	interação	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+4	entre	entre	ADP	_	_	6	case	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	usuários	usuário	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
+7	e	e	CCONJ	_	_	9	cc	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	PB	PB	PROPN	_	Gender=Masc|Number=Sing	6	conj	_	_
+10	Agora	agora	ADV	_	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
-# sent_id = train-s7124
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Depois dalgumas partidas, Renier parou definitivamente de jogar no final de 2006, aos 35 anos.
-1	Depois	depois	ADV	ADV	_	4	case	_	_
+# sent_id = train-s7124
+1	Depois	depois	ADV	_	_	7	advmod	_	_
 2-3	dalgumas	_	_	_	_	_	_	_	_
-2	de	_	ADP	ADP	_	1	fixed	_	_
-3	algumas	_	DET	DET	_	4	det	_	_
-4	partidas	partida	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
-5	,	,	PUNCT	.	_	4	punct	_	_
-6	Renier	_	PROPN	PNOUN	_	10	nsubj	_	_
-7	parou	parar	AUX	AUX	_	10	aux	_	_
-8	definitivamente	definitivamente	ADV	ADV	_	10	advmod	_	_
-9	de	_	ADP	ADP	_	10	mark	_	_
-10	jogar	jogar	VERB	VERB	_	0	root	_	_
+2	dm	dm	ADP	_	_	4	case	_	_
+3	algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
+4	partidas	partida	NOUN	_	Gender=Fem|Number=Plur	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	1	punct	_	_
+6	Renier	Renier	PROPN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	parou	parar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	definitivamente	definitivamente	ADV	_	_	10	advmod	_	_
+9	de	de	SCONJ	_	_	10	mark	_	_
+10	jogar	jogar	VERB	_	VerbForm=Inf	7	xcomp	_	_
 11-12	no	_	_	_	_	_	_	_	_
-11	em	em	ADP	ADP	_	13	case	_	_
-12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	final	final	NOUN	NOUN	_	10	nmod	_	_
-14	de	de	ADP	ADP	_	15	case	_	_
-15	2006	2006	NUM	NUM	NumType=Card	13	nmod	_	SpaceAfter=No
-16	,	,	PUNCT	.	_	20	punct	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	final	final	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	2006	2006	NUM	_	NumType=Card	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	10	punct	_	_
 17-18	aos	_	_	_	_	_	_	_	_
-17	a	a	ADP	ADP	_	20	case	_	_
-18	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
-19	35	35	NUM	NUM	NumType=Card	20	nummod	_	_
-20	anos	ano	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
-21	.	.	PUNCT	.	_	10	punct	_	_
+17	a	a	ADP	_	_	20	case	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+19	35	35	NUM	_	NumType=Card	20	nummod	_	_
+20	anos	ano	NOUN	_	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
 
 # sent_id = train-s7125
 # text = Segundo ele, ritmos como este ajudam e reconhecer e a guardar informações na memória.

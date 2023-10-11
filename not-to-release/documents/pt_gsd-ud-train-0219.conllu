@@ -96,35 +96,39 @@
 12	programa	programa	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s2178
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Novas ideias, diversidade de iniciativas, troca de informações, tudo ocorre num espaço mais amplo e arejado do que as máquinas partidárias.
-1	Novas	novo	ADJ	ADJ	_	2	amod	_	_
-2	ideias	ideia	NOUN	NOUN	_	13	nsubj	_	SpaceAfter=No
-3	,	,	PUNCT	.	_	4	punct	_	_
-4	diversidade	diversidade	NOUN	NOUN	_	2	conj	_	_
-5	de	de	ADP	ADP	_	6	case	_	_
-6	iniciativas	iniciativa	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
-7	,	,	PUNCT	.	_	8	punct	_	_
-8	troca	_	NOUN	NOUN	_	2	conj	_	_
-9	de	de	ADP	ADP	_	10	case	_	_
-10	informações	informação	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-11	,	,	PUNCT	.	_	12	punct	_	_
-12	tudo	_	PRON	PRON	_	2	appos	_	_
-13	ocorre	ocorrer	VERB	VERB	_	0	root	_	_
-14	num	_	ADP	ADP	_	15	case	_	_
-15	espaço	espaço	NOUN	NOUN	_	13	nmod	_	_
-16	mais	mais	ADV	ADV	_	17	advmod	_	_
-17	amplo	amplo	ADJ	ADJ	_	15	amod	_	_
-18	e	e	CCONJ	CONJ	_	19	cc	_	_
-19	arejado	arejado	ADJ	ADJ	_	17	conj	_	_
-20-21	do	_	_	_	_	_	_	_	_
-20	de	de	ADP	ADP	_	24	case	_	_
-21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-22	que	_	ADP	ADP	_	20	fixed	_	_
-23	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
-24	máquinas	máquina	NOUN	NOUN	_	17	nmod	_	_
-25	partidárias	partidário	ADJ	ADJ	_	24	amod	_	SpaceAfter=No
-26	.	.	PUNCT	.	_	13	punct	_	_
+# sent_id = train-s2178
+1	Novas	novo	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
+2	ideias	ideia	NOUN	_	Gender=Fem|Number=Plur	13	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	diversidade	diversidade	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	iniciativas	iniciativa	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	troca	troca	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	informações	informação	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	2	punct	_	_
+12	tudo	tudo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	13	nsubj	_	_
+13	ocorre	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14-15	num	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	espaço	espaço	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+17	mais	mais	ADV	_	_	18	advmod	_	_
+18	amplo	amplo	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
+19	e	e	CCONJ	_	_	20	cc	_	_
+20	arejado	arejar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	18	conj	_	_
+21-22	do	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	25	case	_	_
+22	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	21	fixed	_	_
+23	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	21	fixed	_	_
+24	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	máquinas	máquina	NOUN	_	Gender=Fem|Number=Plur	18	obl	_	_
+26	partidárias	partidário	ADJ	_	Gender=Fem|Number=Plur	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
 
 # sent_id = train-s2179
 # text = Se cultivarmos esse tipo de filosofia, entendendo sempre que o mais importante é SER e não TER, é um bom caminho para frearmos essa sociedade consumista que vemos estampadas todos os dias por aí.

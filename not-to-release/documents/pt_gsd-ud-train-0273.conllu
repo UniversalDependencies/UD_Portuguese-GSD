@@ -11,38 +11,40 @@
 9	sincero	sincero	ADJ	ADJ	_	7	advmod	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = train-s2712
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Na visão do maranhense, o time não tem chutado tanto a gol nos últimos jogos, o que tem atrapalhado a equipe.
+# sent_id = train-s2712
 1-2	Na	_	_	_	_	_	_	_	_
-1	Em	em	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	visão	visão	NOUN	NOUN	_	12	nmod	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	visão	visão	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
 4-5	do	_	_	_	_	_	_	_	_
-4	de	de	ADP	ADP	_	6	case	_	_
-5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	maranhense	maranhense	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
-7	,	,	PUNCT	.	_	3	punct	_	_
-8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	time	time	NOUN	NOUN	_	12	nsubj	_	_
-10	não	não	ADV	ADV	Polarity=Neg	12	advmod	_	_
-11	tem	ter	AUX	AUX	_	12	aux	_	_
-12	chutado	chutar	VERB	VERB	_	0	root	_	_
-13	tanto	tanto	ADV	ADV	_	12	advmod	_	_
-14	a	_	DET	DET	_	15	case	_	_
-15	gol	gol	NOUN	NOUN	_	12	nmod	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	maranhense	maranhense	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	time	time	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+10	não	não	ADV	_	Polarity=Neg	12	advmod	_	_
+11	tem	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	chutado	chutar	VERB	_	VerbForm=Part	0	root	_	_
+13	tanto	tanto	ADV	_	_	12	advmod	_	_
+14	a	a	ADP	_	_	15	case	_	_
+15	gol	gol	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
 16-17	nos	_	_	_	_	_	_	_	_
-16	em	em	ADP	ADP	_	19	case	_	_
-17	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
-18	últimos	último	ADJ	ADJ	_	19	amod	_	_
-19	jogos	jogo	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
-20	,	,	PUNCT	.	_	24	punct	_	_
-21	o	o	DET	DET	_	22	det	_	_
-22	que	_	PRON	PRON	_	24	nsubj	_	_
-23	tem	ter	AUX	AUX	_	24	aux	_	_
-24	atrapalhado	atrapalhar	VERB	VERB	_	12	parataxis	_	_
-25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	equipe	equipe	NOUN	NOUN	_	24	obj	_	SpaceAfter=No
-27	.	.	PUNCT	.	_	12	punct	_	_
+16	em	em	ADP	_	_	19	case	_	_
+17	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	últimos	último	ADJ	_	Gender=Masc|Number=Plur|NumType=Ord	19	amod	_	_
+19	jogos	jogo	NOUN	_	Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	12	punct	_	_
+21	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	12	appos	_	_
+22	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	24	nsubj	_	_
+23	tem	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	atrapalhado	atrapalhar	VERB	_	VerbForm=Part	21	acl:relcl	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	equipe	equipe	NOUN	_	Gender=Fem|Number=Sing	24	obj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
 
 # sent_id = train-s2713
 # text = Segue abaixo a última alteração de cenários por regiões: Atualmente o MGTV é ancorado apenas na sede de Cel.

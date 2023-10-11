@@ -189,42 +189,44 @@
 37	Diretor	_	PROPN	PNOUN	_	36	flat	_	SpaceAfter=No
 38	.	.	PUNCT	.	_	10	punct	_	_
 
-# sent_id = train-s4311
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Para minimizar os efeitos da estiagem, o governo federal colocou em prática algumas ações como a Operação Carro - Pipa, Bolsa Estiagem, Garantia - Safra, dentre outras.
-1	Para	_	ADP	ADP	_	2	mark	_	_
-2	minimizar	minimizar	VERB	VERB	_	12	advcl	_	_
-3	os	o	DET	DET	_	4	det	_	_
-4	efeitos	efeito	NOUN	NOUN	_	2	obj	_	_
+# sent_id = train-s4311
+1	Para	para	SCONJ	_	_	2	mark	_	_
+2	minimizar	minimizar	VERB	_	VerbForm=Inf	12	advcl	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	efeitos	efeito	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
 5-6	da	_	_	_	_	_	_	_	_
-5	de	de	ADP	ADP	_	7	case	_	_
-6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	estiagem	estiagem	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
-8	,	,	PUNCT	.	_	2	punct	_	_
-9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	governo	governo	NOUN	NOUN	_	12	nsubj	_	_
-11	federal	federal	ADJ	ADJ	_	10	amod	_	_
-12	colocou	colocar	VERB	VERB	_	0	root	_	_
-13	em	em	ADP	ADP	_	14	case	_	_
-14	prática	_	NOUN	NOUN	_	12	nmod	_	_
-15	algumas	_	DET	DET	_	16	det	_	_
-16	ações	ação	NOUN	NOUN	_	12	obj	_	_
-17	como	como	ADP	ADP	_	19	case	_	_
-18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	Operação	_	PROPN	PNOUN	_	16	nmod	_	_
-20	Carro	_	PROPN	PNOUN	_	19	flat	_	_
-21	-	-	PUNCT	.	_	24	punct	_	_
-22	Pipa	_	PROPN	PNOUN	_	19	flat	_	SpaceAfter=No
-23	,	,	PUNCT	.	_	24	punct	_	_
-24	Bolsa	_	PROPN	PNOUN	_	19	conj	_	_
-25	Estiagem	_	PROPN	PNOUN	_	24	flat	_	SpaceAfter=No
-26	,	,	PUNCT	.	_	27	punct	_	_
-27	Garantia	_	PROPN	PNOUN	_	19	conj	_	_
-28	-	-	PUNCT	.	_	27	punct	_	_
-29	Safra	_	PROPN	PNOUN	_	27	flat	_	SpaceAfter=No
-30	,	,	PUNCT	.	_	32	punct	_	_
-31	dentre	_	ADP	ADP	_	32	case	_	_
-32	outras	_	PRON	PRON	_	19	nmod	_	SpaceAfter=No
-33	.	.	PUNCT	.	_	12	punct	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	estiagem	estiagem	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	2	punct	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	governo	governo	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+11	federal	federal	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
+12	colocou	colocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	em	em	ADP	_	_	14	case	_	_
+14	prática	prática	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+15	algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	16	det	_	_
+16	ações	ação	NOUN	_	Gender=Fem|Number=Plur	12	obj	_	_
+17	como	como	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Operação	Operação	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	16	nmod	_	_
+20	Carro	Carro	PROPN	_	Number=Sing	19	flat:name	_	_
+21	-	-	PUNCT	_	_	19	punct	_	_
+22	Pipa	Pipa	PROPN	_	Number=Sing	19	flat:name	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	Bolsa	Bolsa	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	19	conj	_	_
+25	Estiagem	Estiagem	PROPN	_	Number=Sing	24	flat:name	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	Garantia	Garantia	PROPN	_	Gender=Fem|Number=Sing	19	conj	_	_
+28	-	-	PUNCT	_	_	27	punct	_	_
+29	Safra	Safra	PROPN	_	Gender=Fem|Number=Sing	27	flat:name	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	32	punct	_	_
+31	dentre	dentre	ADP	_	_	32	case	_	_
+32	outras	outro	PRON	_	Gender=Fem|Number=Plur|PronType=Ind	19	conj	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
 
 # sent_id = train-s4312
 # text = A presidente do Ipea, Vanessa Petrelli, foi escolhida pela ONU para integrar painel que vai criar Objetivos de Desenvolvimento Sustentável.

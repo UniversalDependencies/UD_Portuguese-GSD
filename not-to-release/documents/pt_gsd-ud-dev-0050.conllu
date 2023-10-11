@@ -176,54 +176,58 @@
 22	semestre	semestre	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = dev-s491
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Numa entrevista publicada na fase final da sua vida no diário madrileno El País, Torrente Ballester afirmou: "Nunca nenhum romance me deu tanta satisfação como ver crescer sãos cada um dos meus filhos."
-1	Numa	_	ADP	ADP	_	2	case	_	_
-2	entrevista	entrevista	NOUN	NOUN	_	21	nmod	_	_
-3	publicada	publicar	VERB	VERB	_	2	acl	_	_
-4-5	na	_	_	_	_	_	_	_	_
-4	em	em	ADP	ADP	_	6	case	_	_
-5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	fase	fase	NOUN	NOUN	_	3	nmod	_	_
-7	final	final	ADJ	ADJ	_	6	amod	_	_
-8-9	da	_	_	_	_	_	_	_	_
-8	de	de	ADP	ADP	_	11	case	_	_
-9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-10	sua	_	DET	DET	_	11	det:poss	_	_
-11	vida	vida	NOUN	NOUN	_	6	nmod	_	_
-12-13	no	_	_	_	_	_	_	_	_
-12	em	em	ADP	ADP	_	14	case	_	_
-13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	diário	diário	NOUN	NOUN	_	3	nmod	_	_
-15	madrileno	madrileno	ADJ	ADJ	_	14	amod	_	_
-16	El	_	PROPN	PNOUN	_	17	det	_	_
-17	País	_	PROPN	PNOUN	_	14	appos	_	SpaceAfter=No
-18	,	,	PUNCT	.	_	21	punct	_	_
-19	Torrente	_	PROPN	PNOUN	_	21	nsubj	_	_
-20	Ballester	_	PROPN	PNOUN	_	19	flat	_	_
-21	afirmou	afirmar	VERB	VERB	_	0	root	_	SpaceAfter=No
-22	:	:	PUNCT	.	_	21	punct	_	_
-23	"	"	PUNCT	.	_	28	punct	_	SpaceAfter=No
-24	Nunca	nunca	ADV	ADV	_	28	advmod	_	_
-25	nenhum	_	DET	DET	_	26	det	_	_
-26	romance	romance	NOUN	NOUN	_	28	nsubj	_	_
-27	me	_	PRON	PRON	_	28	iobj	_	_
-28	deu	dar	VERB	VERB	_	21	ccomp	_	_
-29	tanta	_	DET	DET	_	30	det	_	_
-30	satisfação	satisfação	NOUN	NOUN	_	28	obj	_	_
-31	como	_	CCONJ	CONJ	_	32	mark	_	_
-32	ver	ver	VERB	VERB	_	28	advcl	_	_
-33	crescer	crescer	VERB	VERB	_	32	ccomp	_	_
-34	sãos	são	ADJ	ADJ	_	33	xcomp	_	_
-35	cada	_	DET	DET	_	36	det	_	_
-36	um	_	PRON	PRON	_	33	nsubj	_	_
-37-38	dos	_	_	_	_	_	_	_	_
-37	de	de	ADP	ADP	_	40	case	_	_
-38	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
-39	meus	_	DET	DET	_	40	det:poss	_	_
-40	filhos	filho	NOUN	NOUN	_	36	nmod	_	SpaceAfter=No
-41	.	.	PUNCT	.	_	28	punct	_	SpaceAfter=No
-42	"	"	PUNCT	.	_	28	punct	_	_
+# sent_id = dev-s491
+1-2	Numa	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	entrevista	entrevista	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
+4	publicada	publicar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	3	acl	_	_
+5-6	na	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	fase	fase	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+8	final	final	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	12	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	12	det	_	_
+12	vida	vida	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+13-14	no	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	diário	diário	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+16	madrileno	madrileno	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+17	El	El	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	15	appos	_	_
+18	País	País	PROPN	_	Number=Sing	17	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	4	punct	_	_
+20	Torrente	Torrente	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	22	nsubj	_	_
+21	Ballester	Ballester	PROPN	_	Number=Sing	20	flat:name	_	_
+22	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+23	:	:	PUNCT	_	_	29	punct	_	_
+24	"	"	PUNCT	_	_	29	punct	_	SpaceAfter=No
+25	Nunca	nunca	ADV	_	_	29	advmod	_	_
+26	nenhum	nenhum	DET	_	Gender=Masc|Number=Sing|PronType=Neg	27	det	_	_
+27	romance	romance	NOUN	_	Gender=Masc|Number=Sing	29	nsubj	_	_
+28	me	eu	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	29	obj	_	_
+29	deu	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	ccomp	_	_
+30	tanta	tanto	DET	_	Gender=Fem|Number=Sing|PronType=Ind	31	det	_	_
+31	satisfação	satisfação	NOUN	_	Gender=Fem|Number=Sing	29	obj	_	_
+32	como	como	SCONJ	_	_	33	mark	_	_
+33	ver	ver	VERB	_	VerbForm=Inf	29	advcl	_	_
+34	crescer	crescer	VERB	_	VerbForm=Inf	33	xcomp	_	_
+35	sãos	são	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	36	cop	_	_
+36	cada	cada	DET	_	Gender=Masc|Number=Sing	33	nsubj	_	_
+37	um	um	NUM	_	NumType=Card	36	fixed	_	_
+38-39	dos	_	_	_	_	_	_	_	_
+38	de	de	ADP	_	_	41	case	_	_
+39	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	_
+40	meus	meu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	41	det	_	_
+41	filhos	filho	NOUN	_	Gender=Masc|Number=Plur	36	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+43	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
 
 # sent_id = dev-s492
 # text = "Ficar à frente de Guarulhos foi um feito para ser muito comemorado.
@@ -244,33 +248,35 @@
 14	comemorado	comemorar	VERB	VERB	_	10	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	10	punct	_	_
 
-# sent_id = dev-s493
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Apesar da boa vontade e do afeto, nem todas as diferenças podem ser negociadas a ponto de coexistirem pacificamente.
-1	Apesar	apesar	ADV	ADV	_	5	case	_	_
+# sent_id = dev-s493
+1	Apesar	apesar	ADV	_	ExtPos=ADP	5	case	_	_
 2-3	da	_	_	_	_	_	_	_	_
-2	de	de	ADP	ADP	_	1	case	_	_
-3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
-4	boa	bom	ADJ	ADJ	_	5	amod	_	_
-5	vontade	vontade	NOUN	NOUN	_	17	nmod	_	_
-6	e	e	CCONJ	CONJ	_	9	cc	_	_
+2	de	de	ADP	_	_	1	fixed	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	boa	bom	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+5	vontade	vontade	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+6	e	e	CCONJ	_	_	9	cc	_	_
 7-8	do	_	_	_	_	_	_	_	_
-7	de	de	ADP	ADP	_	9	case	_	_
-8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	afeto	afeto	NOUN	NOUN	_	5	conj	_	SpaceAfter=No
-10	,	,	PUNCT	.	_	5	punct	_	_
-11	nem	_	ADV	ADV	_	14	advmod	_	_
-12	todas	_	DET	DET	_	14	det	_	_
-13	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
-14	diferenças	diferença	NOUN	NOUN	_	17	nsubj:pass	_	_
-15	podem	_	AUX	AUX	_	17	aux	_	_
-16	ser	ser	AUX	AUX	_	17	aux:pass	_	_
-17	negociadas	negociar	VERB	VERB	_	0	root	_	_
-18	a	_	ADP	ADP	_	19	case	_	_
-19	ponto	ponto	NOUN	NOUN	_	17	nmod	_	_
-20	de	_	ADP	ADP	_	21	mark	_	_
-21	coexistirem	coexistir	VERB	VERB	_	19	nmod	_	_
-22	pacificamente	pacificamente	ADV	ADV	_	21	advmod	_	SpaceAfter=No
-23	.	.	PUNCT	.	_	17	punct	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	afeto	afeto	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	5	punct	_	_
+11	nem	nem	ADV	_	_	14	advmod	_	_
+12	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Tot	14	det	_	_
+13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	diferenças	diferença	NOUN	_	Gender=Fem|Number=Plur	15	nsubj:pass	_	_
+15	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	ser	ser	AUX	_	VerbForm=Inf	17	aux:pass	_	_
+17	negociadas	negociar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	15	xcomp	_	_
+18	a	a	ADP	_	ExtPos=SCONJ	21	mark	_	_
+19	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	18	fixed	_	_
+20	de	de	ADP	_	_	18	fixed	_	_
+21	coexistirem	coexistir	VERB	_	Number=Plur|Person=3|VerbForm=Inf	17	advcl	_	_
+22	pacificamente	pacificamente	ADV	_	_	21	advmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
 
 # sent_id = dev-s494
 # text = Com isso, as ações, de fato, ganharam novo ritmo.

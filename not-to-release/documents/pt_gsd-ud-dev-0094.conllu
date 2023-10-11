@@ -1,44 +1,46 @@
-# sent_id = dev-s922
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Não se admitirá a emenda da mora se o locatário já houver utilizado essa faculdade nos 24 (vinte e quatro) meses imediatamente anteriores à propositura da ação."
-1	Não	não	ADV	ADV	Polarity=Neg	3	advmod	_	_
-2	se	_	PRON	PRON	_	3	expl:pv	_	_
-3	admitirá	admitir	VERB	VERB	_	0	root	_	_
-4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	emenda	emenda	NOUN	NOUN	_	3	obj	_	_
+# sent_id = dev-s922
+1	Não	não	ADV	_	Polarity=Neg	3	advmod	_	_
+2	se	se	PRON	_	Case=Acc|PronType=Prs	3	nsubj	_	_
+3	admitirá	admitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	emenda	emenda	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
 6-7	da	_	_	_	_	_	_	_	_
-6	de	de	ADP	ADP	_	8	case	_	_
-7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	mora	mora	NOUN	NOUN	_	5	nmod	_	_
-9	se	_	CCONJ	CONJ	_	14	mark	_	_
-10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	locatário	locatário	NOUN	NOUN	_	14	nsubj	_	_
-12	já	já	ADV	ADV	_	14	advmod	_	_
-13	houver	haver	AUX	AUX	_	14	aux	_	_
-14	utilizado	utilizar	VERB	VERB	_	3	advcl	_	_
-15	essa	_	DET	DET	_	16	det	_	_
-16	faculdade	faculdade	NOUN	NOUN	_	14	obj	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	mora	mora	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+9	se	se	SCONJ	_	_	14	mark	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	locatário	locatário	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
+12	já	já	ADV	_	_	14	advmod	_	_
+13	houver	haver	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	aux	_	_
+14	utilizado	utilizar	VERB	_	VerbForm=Part	3	advcl	_	_
+15	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	16	det	_	_
+16	faculdade	faculdade	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
 17-18	nos	_	_	_	_	_	_	_	_
-17	em	em	ADP	ADP	_	25	case	_	_
-18	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
-19	24	24	NUM	NUM	NumType=Card	25	nummod	_	_
-20	(	(	PUNCT	.	_	23	punct	_	SpaceAfter=No
-21	vinte	_	NUM	NUM	NumType=Card	22	nummod	_	_
-22	e	_	CCONJ	CONJ	_	23	nummod	_	_
-23	quatro	_	NUM	NUM	NumType=Card	19	appos	_	SpaceAfter=No
-24	)	)	PUNCT	.	_	23	punct	_	_
-25	meses	mês	NOUN	NOUN	_	14	nmod	_	_
-26	imediatamente	imediatamente	ADV	ADV	_	27	advmod	_	_
-27	anteriores	anterior	ADJ	ADJ	_	25	amod	_	_
+17	em	em	ADP	_	_	25	case	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+19	24	24	NUM	_	NumType=Card	25	nummod	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	vinte	vinte	NUM	_	NumType=Card	25	nummod	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	quatro	quatro	NUM	_	NumType=Card	21	conj	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	21	punct	_	_
+25	meses	mês	NOUN	_	Gender=Masc|Number=Plur	14	obl	_	_
+26	imediatamente	imediatamente	ADV	_	_	27	advmod	_	_
+27	anteriores	anterior	ADJ	_	Gender=Masc|Number=Plur	25	amod	_	_
 28-29	à	_	_	_	_	_	_	_	_
-28	a	a	ADP	ADP	_	30	case	_	_
-29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
-30	propositura	propositura	NOUN	NOUN	_	27	nmod	_	_
+28	a	a	ADP	_	_	30	case	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	propositura	propositura	NOUN	_	Gender=Fem|Number=Sing	27	obl	_	_
 31-32	da	_	_	_	_	_	_	_	_
-31	de	de	ADP	ADP	_	33	case	_	_
-32	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
-33	ação	ação	NOUN	NOUN	_	30	nmod	_	SpaceAfter=No
-34	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
-35	"	"	PUNCT	.	_	3	punct	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	ação	ação	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+35	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = dev-s923
 # text = De todo o PIB da cidade mil reais é o valor adicionado bruto da agropecuária.

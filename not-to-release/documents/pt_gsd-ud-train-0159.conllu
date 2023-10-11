@@ -1,43 +1,47 @@
-# sent_id = train-s1579
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Ainda assim, o desempenho do Fluminense é considerado satisfatório, ainda mais pelo fato dos três rivais terem brigado contra o rebaixamento naquele ano -- em que o Botafogo caiu.
-1	Ainda	ainda	ADV	ADV	_	2	advmod	_	_
-2	assim	assim	ADV	ADV	_	10	advmod	_	SpaceAfter=No
-3	,	,	PUNCT	.	_	2	punct	_	_
-4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	desempenho	desempenho	NOUN	NOUN	_	10	nsubj:pass	_	_
+# sent_id = train-s1579
+1	Ainda	ainda	ADV	_	ExtPos=CCONJ	10	cc	_	_
+2	assim	assim	ADV	_	_	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	desempenho	desempenho	NOUN	_	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
 6-7	do	_	_	_	_	_	_	_	_
-6	de	de	ADP	ADP	_	8	case	_	_
-7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	Fluminense	_	PROPN	PNOUN	_	5	nmod	_	_
-9	é	ser	AUX	AUX	_	10	aux:pass	_	_
-10	considerado	considerar	VERB	VERB	_	0	root	_	_
-11	satisfatório	satisfatório	ADJ	ADJ	_	10	xcomp	_	SpaceAfter=No
-12	,	,	PUNCT	.	_	23	punct	_	_
-13	ainda	ainda	ADV	ADV	_	14	advmod	_	_
-14	mais	mais	ADV	ADV	_	23	advmod	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Fluminense	Fluminense	PROPN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	considerado	considerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+11	satisfatório	satisfatório	ADJ	_	Gender=Masc|Number=Sing	10	xcomp	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	10	punct	_	_
+13	ainda	ainda	ADV	_	_	17	advmod	_	_
+14	mais	mais	ADV	_	_	13	fixed	_	_
 15-16	pelo	_	_	_	_	_	_	_	_
-15	por	por	ADP	ADP	_	23	case	_	_
-16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-17	fato	fato	NOUN	NOUN	_	15	fixed	_	_
+15	por	por	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	fato	fato	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
 18-19	dos	_	_	_	_	_	_	_	_
-18	de	_	ADP	ADP	_	15	fixed	_	_
-19	os	o	DET	DET	_	21	det	_	_
-20	três	_	NUM	NUM	NumType=Card	21	nummod	_	_
-21	rivais	rival	NOUN	NOUN	_	23	nsubj	_	_
-22	terem	ter	AUX	AUX	_	23	aux	_	_
-23	brigado	brigar	VERB	VERB	_	10	advcl	_	_
-24	contra	_	ADP	ADP	_	26	case	_	_
-25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	rebaixamento	rebaixamento	NOUN	NOUN	_	23	nmod	_	_
-27	naquele	_	ADP	ADP	_	28	case	_	_
-28	ano	ano	NOUN	NOUN	_	23	nmod	_	_
-29	--	_	PUNCT	.	_	34	punct	_	_
-30	em	em	ADP	ADP	_	31	case	_	_
-31	que	_	PRON	PRON	_	34	nmod	_	_
-32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
-33	Botafogo	_	PROPN	PNOUN	_	34	nsubj	_	_
-34	caiu	cair	VERB	VERB	_	28	acl:relcl	_	SpaceAfter=No
-35	.	.	PUNCT	.	_	10	punct	_	_
+18	de	de	SCONJ	_	_	23	mark	_	_
+19	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+20	três	três	NUM	_	NumType=Card	21	nummod	_	_
+21	rivais	rival	NOUN	_	Gender=Masc|Number=Plur	23	nsubj	_	_
+22	terem	ter	AUX	_	Number=Plur|Person=3|VerbForm=Inf	23	aux	_	_
+23	brigado	brigar	VERB	_	VerbForm=Part	17	acl	_	_
+24	contra	contra	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	rebaixamento	rebaixamento	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	_
+27-28	naquele	_	_	_	_	_	_	_	_
+27	em	em	ADP	_	_	29	case	_	_
+28	aquele	aquele	DET	_	Gender=Masc|Number=Sing|PronType=Dem	29	det	_	_
+29	ano	ano	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
+30	--	--	PUNCT	_	_	35	punct	_	_
+31	em	em	ADP	_	_	32	case	_	_
+32	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	35	obl	_	_
+33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	Botafogo	Botafogo	PROPN	_	Gender=Masc|Number=Sing	35	nsubj	_	_
+35	caiu	cair	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	acl:relcl	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
 
 # sent_id = train-s1580
 # text = O setor destacou principalmente a falta de soldadores para atender à demanda dos estaleiros e de oficiais de Marinha Mercante.

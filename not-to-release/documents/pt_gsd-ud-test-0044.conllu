@@ -8,49 +8,51 @@
 6	13	13	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = test-s428
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Sob esse status, porto - riquenhos são considerados cidadãos dos Estados Unidos, mas não podem votar para presidente, e só mantêm um representante sem direito a voto na Câmara dos Deputados.
-1	Sob	_	ADP	ADP	_	3	case	_	_
-2	esse	_	DET	DET	_	3	det	_	_
-3	status	status	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
-4	,	,	PUNCT	.	_	3	punct	_	_
-5	porto	porto	NOUN	NOUN	_	10	nsubj:pass	_	_
-6	-	-	PUNCT	.	_	5	punct	_	_
-7	riquenhos	riquenho	NOUN	NOUN	_	5	flat	_	_
-8	são	ser	AUX	AUX	_	10	aux:pass	_	_
-9	considerados	considerar	AUX	AUX	_	10	cop	_	_
-10	cidadãos	cidadão	NOUN	NOUN	_	0	root	_	_
+# sent_id = test-s428
+1	Sob	sob	ADP	_	_	3	case	_	_
+2	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	status	status	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	porto	porto	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+6	-	-	PUNCT	_	_	7	punct	_	_
+7	riquenhos	riquenho	NOUN	_	Gender=Masc|Number=Plur	5	appos	_	_
+8	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	considerados	considerar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+10	cidadãos	cidadão	NOUN	_	Gender=Masc|Number=Plur	9	xcomp	_	_
 11-12	dos	_	_	_	_	_	_	_	_
-11	de	de	ADP	ADP	_	13	case	_	_
-12	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
-13	Estados	_	PROPN	PNOUN	_	10	nmod	_	_
-14	Unidos	_	PROPN	PNOUN	_	13	amod	_	SpaceAfter=No
-15	,	,	PUNCT	.	_	19	punct	_	_
-16	mas	mas	CCONJ	CONJ	_	19	cc	_	_
-17	não	não	ADV	ADV	Polarity=Neg	19	advmod	_	_
-18	podem	_	AUX	AUX	_	19	aux	_	_
-19	votar	votar	VERB	VERB	_	10	conj	_	_
-20	para	para	ADP	ADP	_	21	case	_	_
-21	presidente	presidente	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
-22	,	,	PUNCT	.	_	25	punct	_	_
-23	e	e	CCONJ	CONJ	_	25	cc	_	_
-24	só	só	ADV	ADV	_	25	advmod	_	_
-25	mantêm	manter	VERB	VERB	_	19	conj	_	_
-26	um	um	DET	DET	_	27	det	_	_
-27	representante	representante	NOUN	NOUN	_	25	obj	_	_
-28	sem	_	ADP	ADP	_	29	case	_	_
-29	direito	direito	NOUN	NOUN	_	27	nmod	_	_
-30	a	_	ADP	ADP	_	31	case	_	_
-31	voto	voto	NOUN	NOUN	_	29	nmod	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	Estados	Estados	PROPN	_	Gender=Masc|Number=Plur	10	nmod	_	_
+14	Unidos	Unidos	PROPN	_	Number=Sing	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	mas	mas	CCONJ	_	_	18	cc	_	_
+17	não	não	ADV	_	Polarity=Neg	18	advmod	_	_
+18	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+19	votar	votar	VERB	_	VerbForm=Inf	18	xcomp	_	_
+20	para	para	ADP	_	_	21	case	_	_
+21	presidente	presidente	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	25	punct	_	_
+23	e	e	CCONJ	_	_	25	cc	_	_
+24	só	só	ADV	_	_	25	advmod	_	_
+25	mantêm	manter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+26	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	representante	representante	NOUN	_	Gender=Masc|Number=Sing	25	obj	_	_
+28	sem	sem	ADP	_	_	29	case	_	_
+29	direito	direito	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
+30	a	a	ADP	_	_	31	case	_	_
+31	voto	voto	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
 32-33	na	_	_	_	_	_	_	_	_
-32	em	em	ADP	ADP	_	34	case	_	_
-33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
-34	Câmara	_	PROPN	PNOUN	_	25	nmod	_	_
+32	em	em	ADP	_	_	34	case	_	_
+33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	Câmara	câmara	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
 35-36	dos	_	_	_	_	_	_	_	_
-35	de	de	ADP	ADP	_	37	case	_	_
-36	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
-37	Deputados	_	PROPN	PNOUN	_	34	nmod	_	SpaceAfter=No
-38	.	.	PUNCT	.	_	10	punct	_	_
+35	de	de	ADP	_	_	37	case	_	_
+36	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	Deputados	Deputados	NOUN	_	Number=Sing	34	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
 
 # sent_id = test-s429
 # text = "Nossa intenção é fazer com que as crianças entendam o trabalho e as atribuições de vereador e possam levar esta informação para os seus pais.
@@ -116,51 +118,53 @@
 29	"	"	PUNCT	.	_	26	punct	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	10	punct	_	_
 
-# sent_id = test-s431
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Durante o julgamento, foi indicado Teori Zavascki para integrar o tribunal, cujo nome precisa ainda ser aprovado pelo plenário do Senado, o que ocorrerá depois do segundo turno das eleições municipais.
-1	Durante	_	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	julgamento	julgamento	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
-4	,	,	PUNCT	.	_	3	punct	_	_
-5	foi	_	AUX	AUX	_	6	aux:pass	_	_
-6	indicado	indicar	VERB	VERB	_	0	root	_	_
-7	Teori	_	PROPN	PNOUN	_	6	nsubj:pass	_	_
-8	Zavascki	_	PROPN	PNOUN	_	7	flat	_	_
-9	para	_	ADP	ADP	_	10	mark	_	_
-10	integrar	integrar	VERB	VERB	_	6	nmod	_	_
-11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	tribunal	tribunal	NOUN	NOUN	_	10	obj	_	SpaceAfter=No
-13	,	,	PUNCT	.	_	16	punct	_	_
-14	cujo	_	DET	DET	_	15	det	_	_
-15	nome	nome	NOUN	NOUN	_	16	nsubj	_	_
-16	precisa	precisar	VERB	VERB	_	7	acl:relcl	_	_
-17	ainda	ainda	ADV	ADV	_	16	advmod	_	_
-18	ser	ser	AUX	AUX	_	19	aux:pass	_	_
-19	aprovado	aprovar	VERB	VERB	_	16	xcomp	_	_
+# sent_id = test-s431
+1	Durante	durante	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	julgamento	julgamento	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+6	indicado	indicar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+7	Teori	Teori	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+8	Zavascki	Zavascki	PROPN	_	Number=Sing	7	flat:name	_	_
+9	para	para	SCONJ	_	_	10	mark	_	_
+10	integrar	integrar	VERB	_	VerbForm=Inf	6	advcl	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	tribunal	tribunal	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	_
+14	cujo	cujo	DET	_	Gender=Masc|Number=Sing|PronType=Rel	15	det	_	_
+15	nome	nome	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
+16	precisa	precisar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+17	ainda	ainda	ADV	_	_	19	advmod	_	_
+18	ser	ser	AUX	_	VerbForm=Inf	19	aux:pass	_	_
+19	aprovado	aprovar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	16	xcomp	_	_
 20-21	pelo	_	_	_	_	_	_	_	_
-20	por	por	ADP	ADP	_	22	case	_	_
-21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-22	plenário	plenário	NOUN	NOUN	_	19	nmod	_	_
+20	por	por	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	plenário	plenário	NOUN	_	Gender=Masc|Number=Sing	19	obl:agent	_	_
 23-24	do	_	_	_	_	_	_	_	_
-23	de	de	ADP	ADP	_	25	case	_	_
-24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	Senado	_	PROPN	PNOUN	_	22	nmod	_	SpaceAfter=No
-26	,	,	PUNCT	.	_	29	punct	_	_
-27	o	o	DET	DET	_	28	det	_	_
-28	que	_	PRON	PRON	_	29	nsubj	_	_
-29	ocorrerá	ocorrer	VERB	VERB	_	19	parataxis	_	_
-30	depois	depois	ADV	ADV	_	34	case	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Senado	senado	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	19	punct	_	_
+27	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	19	appos	_	_
+28	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	29	nsubj	_	_
+29	ocorrerá	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	27	acl:relcl	_	_
+30	depois	depois	ADV	_	_	29	advmod	_	_
 31-32	do	_	_	_	_	_	_	_	_
-31	de	de	ADP	ADP	_	30	case	_	_
-32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
-33	segundo	segundo	ADJ	ADJ	_	34	amod	_	_
-34	turno	turno	NOUN	NOUN	_	29	nmod	_	_
+31	de	de	ADP	_	_	34	case	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+33	segundo	segundo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	34	amod	_	_
+34	turno	turno	NOUN	_	Gender=Masc|Number=Sing	30	obl	_	_
 35-36	das	_	_	_	_	_	_	_	_
-35	de	de	ADP	ADP	_	37	case	_	_
-36	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
-37	eleições	eleição	NOUN	NOUN	_	34	nmod	_	_
-38	municipais	municipal	ADJ	ADJ	_	37	amod	_	SpaceAfter=No
-39	.	.	PUNCT	.	_	6	punct	_	_
+35	de	de	ADP	_	_	37	case	_	_
+36	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
+37	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	34	nmod	_	_
+38	municipais	municipal	ADJ	_	Gender=Fem|Number=Plur	37	amod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
 # sent_id = test-s432
 # text = O norte e nordeste de Minas Gerais e o norte do Espírito Santo têm sol forte.

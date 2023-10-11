@@ -181,65 +181,67 @@
 13	tempo	tempo	NOUN	NOUN	_	1	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	1	punct	_	_
 
-# sent_id = train-s3566
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O Tocantins não se destaca apenas por estar entre os 40 estandes instalados no campus da UFRGS (o segundo, a partir da entrada para o evento) pelos , mas, sobretudo pelos trabalhos importantes que retratam as experiências vividas no Estado.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	Tocantins	tocantim	NOUN	NOUN	_	5	nsubj	_	_
-3	não	não	ADV	ADV	Polarity=Neg	5	advmod	_	_
-4	se	_	PRON	PRON	_	5	obj	_	_
-5	destaca	destacar	VERB	VERB	_	0	root	_	_
-6	apenas	apenas	ADV	ADV	_	5	advmod	_	_
-7	por	_	ADP	ADP	_	8	mark	_	_
-8	estar	estar	VERB	VERB	_	5	advcl	_	_
-9	entre	_	ADP	ADP	_	12	case	_	_
-10	os	o	DET	DET	_	12	det	_	_
-11	40	40	NUM	NUM	NumType=Card	12	nummod	_	_
-12	estandes	estande	NOUN	NOUN	_	8	nmod	_	_
-13	instalados	instalado	ADJ	ADJ	_	12	amod	_	_
+# sent_id = train-s3566
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Tocantins	Tocantins	PROPN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	não	não	ADV	_	Polarity=Neg	5	advmod	_	_
+4	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
+5	destaca	destacar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	apenas	apenas	ADV	_	_	12	advmod	_	_
+7	por	por	SCONJ	_	_	12	mark	_	_
+8	estar	estar	AUX	_	VerbForm=Inf	12	cop	_	_
+9	entre	entre	ADP	_	_	12	case	_	_
+10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	40	40	NUM	_	NumType=Card	12	nummod	_	_
+12	estandes	estande	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	_
+13	instalados	instalar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	12	acl	_	_
 14-15	no	_	_	_	_	_	_	_	_
-14	em	em	ADP	ADP	_	16	case	_	_
-15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	campus	campus	NOUN	NOUN	_	13	nmod	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	campus	campus	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
 17-18	da	_	_	_	_	_	_	_	_
-17	de	de	ADP	ADP	_	19	case	_	_
-18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	UFRGS	_	PROPN	PNOUN	_	16	nmod	_	_
-20	(	(	PUNCT	.	_	22	punct	_	SpaceAfter=No
-21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-22	segundo	segundo	NOUN	NOUN	_	12	appos	_	SpaceAfter=No
-23	,	,	PUNCT	.	_	25	punct	_	_
-24	a	_	ADP	ADP	_	25	mark	_	_
-25	partir	partir	VERB	VERB	_	22	nmod	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	UFRGS	UFRGS	PROPN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+20	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	segundo	segundo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	19	appos	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	25	punct	_	_
+24	a	a	ADP	_	_	25	case	_	_
+25	partir	partir	VERB	_	VerbForm=Inf	22	obl	_	_
 26-27	da	_	_	_	_	_	_	_	_
-26	de	de	ADP	ADP	_	28	case	_	_
-27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
-28	entrada	entrada	NOUN	NOUN	_	25	nmod	_	_
-29	para	para	ADP	ADP	_	31	case	_	_
-30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-31	evento	evento	NOUN	NOUN	_	28	nmod	_	SpaceAfter=No
-32	)	)	PUNCT	.	_	22	punct	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	entrada	entrada	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
+29	para	para	ADP	_	_	31	case	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	evento	evento	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+32	)	)	PUNCT	_	_	22	punct	_	_
 33-34	pelos	_	_	_	_	_	_	_	_
-33	por	por	ADP	ADP	_	5	case	_	_
-34	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
-35	,	,	PUNCT	.	_	33	punct	_	_
-36	mas	mas	CCONJ	CONJ	_	5	cc	_	SpaceAfter=No
-37	,	,	PUNCT	.	_	38	punct	_	_
-38	sobretudo	sobretudo	ADV	ADV	_	5	advmod	_	_
+33	por	por	ADP	_	_	34	case	_	_
+34	os	o	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	12	nmod	_	_
+35	,	,	PUNCT	_	_	41	punct	_	_
+36	mas	mas	CCONJ	_	_	41	cc	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	41	punct	_	_
+38	sobretudo	sobretudo	ADV	_	_	41	advmod	_	_
 39-40	pelos	_	_	_	_	_	_	_	_
-39	por	por	ADP	ADP	_	41	case	_	_
-40	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	_
-41	trabalhos	trabalho	NOUN	NOUN	_	5	nmod	_	_
-42	importantes	importante	ADJ	ADJ	_	41	amod	_	_
-43	que	_	PRON	PRON	_	44	nsubj	_	_
-44	retratam	retratar	VERB	VERB	_	41	acl:relcl	_	_
-45	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	46	det	_	_
-46	experiências	experiência	NOUN	NOUN	_	44	obj	_	_
-47	vividas	viver	VERB	VERB	_	46	acl	_	_
+39	por	por	ADP	_	_	41	case	_	_
+40	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	_
+41	trabalhos	trabalho	NOUN	_	Gender=Masc|Number=Plur	12	conj	_	_
+42	importantes	importante	ADJ	_	Gender=Masc|Number=Plur	41	amod	_	_
+43	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	44	nsubj	_	_
+44	retratam	retratar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	41	acl:relcl	_	_
+45	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	46	det	_	_
+46	experiências	experiência	NOUN	_	Gender=Fem|Number=Plur	44	obj	_	_
+47	vividas	viver	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	46	acl	_	_
 48-49	no	_	_	_	_	_	_	_	_
-48	em	em	ADP	ADP	_	50	case	_	_
-49	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
-50	Estado	_	PROPN	PNOUN	_	47	nmod	_	SpaceAfter=No
-51	.	.	PUNCT	.	_	5	punct	_	_
+48	em	em	ADP	_	_	50	case	_	_
+49	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	Estado	estado	NOUN	_	Gender=Masc|Number=Sing	47	obl	_	SpaceAfter=No
+51	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # sent_id = train-s3567
 # text = Em muitas pale ales inglesas, o colarinho é atenuado e, nalguns casos, inexistente.
@@ -263,30 +265,34 @@
 17	inexistente	inexistente	ADJ	ADJ	_	10	conj	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = train-s3568
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Foi nessa época que a seleção conquistou uma das três vagas do continente às Olimpíadas de Atenas.
-1	Foi	_	VERB	VERB	_	0	root	_	_
-2	nessa	_	ADP	ADP	_	3	case	_	_
-3	época	época	NOUN	NOUN	_	1	nmod	_	_
-4	que	_	PRON	PRON	_	7	mark	_	_
-5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	seleção	seleção	NOUN	NOUN	_	7	nsubj	_	_
-7	conquistou	conquistar	VERB	VERB	_	1	csubj	_	_
-8	uma	_	PRON	PRON	_	7	obj	_	_
-9-10	das	_	_	_	_	_	_	_	_
-9	de	de	ADP	ADP	_	12	case	_	_
-10	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
-11	três	_	NUM	NUM	NumType=Card	12	nummod	_	_
-12	vagas	vaga	NOUN	NOUN	_	8	nmod	_	_
-13-14	do	_	_	_	_	_	_	_	_
-13	de	de	ADP	ADP	_	15	case	_	_
-14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	continente	continente	NOUN	NOUN	_	12	nmod	_	_
-16-17	às	_	_	_	_	_	_	_	_
-16	a	a	ADP	ADP	_	18	case	_	_
-17	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
-18	Olimpíadas	_	PROPN	PNOUN	_	12	nmod	_	_
-19	de	de	ADP	ADP	_	20	case	_	_
-20	Atenas	_	PROPN	PNOUN	_	18	nmod	_	SpaceAfter=No
-21	.	.	PUNCT	.	_	1	punct	_	_
+# sent_id = train-s3568
+1	Foi	foi	SCONJ	_	_	8	mark	_	_
+2-3	nessa	_	_	_	_	_	_	_	_
+2	em	em	ADP	_	_	4	case	_	_
+3	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	época	época	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+5	que	que	SCONJ	_	_	8	mark	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	seleção	seleção	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+8	conquistou	conquistar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	uma	um	NUM	_	NumType=Card	8	obj	_	_
+10-11	das	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	13	case	_	_
+11	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+12	três	três	NUM	_	NumType=Card	13	nummod	_	_
+13	vagas	vaga	NOUN	_	Gender=Fem|Number=Plur	9	nmod	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	continente	continente	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+17-18	às	_	_	_	_	_	_	_	_
+17	a	a	ADP	_	_	19	case	_	_
+18	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	Olimpíadas	olimpíada	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	Atenas	Atenas	PROPN	_	Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
 

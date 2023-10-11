@@ -72,27 +72,29 @@
 39	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
 40	"	"	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s3780
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = No caso de decorar elementos do jardim, as coloridas podem render efeitos lúdicos.
+# sent_id = train-s3780
 1-2	No	_	_	_	_	_	_	_	_
-1	Em	em	ADP	ADP	_	5	case	_	_
-2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-3	caso	caso	NOUN	NOUN	_	1	fixed	_	_
-4	de	_	ADP	ADP	_	1	fixed	_	_
-5	decorar	decorar	VERB	VERB	_	14	advcl	_	_
-6	elementos	elemento	NOUN	NOUN	_	5	obj	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	caso	caso	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+4	de	de	SCONJ	_	_	5	mark	_	_
+5	decorar	decorar	VERB	_	VerbForm=Inf	3	acl	_	_
+6	elementos	elemento	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
 7-8	do	_	_	_	_	_	_	_	_
-7	de	de	ADP	ADP	_	9	case	_	_
-8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	jardim	jardim	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
-10	,	,	PUNCT	.	_	5	punct	_	_
-11	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
-12	coloridas	colorido	NOUN	NOUN	_	14	nsubj	_	_
-13	podem	_	AUX	AUX	_	14	aux	_	_
-14	render	render	VERB	VERB	_	0	root	_	_
-15	efeitos	efeito	NOUN	NOUN	_	14	obj	_	_
-16	lúdicos	lúdico	ADJ	ADJ	_	15	amod	_	SpaceAfter=No
-17	.	.	PUNCT	.	_	14	punct	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	jardim	jardim	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	5	punct	_	_
+11	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	coloridas	colorida	NOUN	_	Gender=Fem|Number=Plur	13	nsubj	_	_
+13	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	render	render	VERB	_	VerbForm=Inf	13	xcomp	_	_
+15	efeitos	efeito	NOUN	_	Gender=Masc|Number=Plur	14	obj	_	_
+16	lúdicos	lúdico	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
 
 # sent_id = train-s3781
 # text = Afastando este, considerados os mesmos fatos, resultem afastados aqueles.
@@ -200,55 +202,57 @@
 10	eufóricos	eufórico	ADJ	ADJ	_	8	xcomp	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = train-s3786
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Na ocasição, após subir na estrutura, que fica na parte externa do aeroporto, no cruzamento das avenidas Washington Luís e Bandeirantes, o homem chegou a soltar rojões para o alto.
+# sent_id = train-s3786
 1-2	Na	_	_	_	_	_	_	_	_
-1	Em	em	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	ocasição	_	NOUN	NOUN	_	36	nmod	_	SpaceAfter=No
-4	,	,	PUNCT	.	_	3	punct	_	_
-5	após	_	ADP	ADP	_	6	mark	_	_
-6	subir	subir	VERB	VERB	_	36	advcl	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	ocasição	ocasição	NOUN	_	Gender=Fem|Number=Sing	36	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	após	após	SCONJ	_	_	6	mark	_	_
+6	subir	subir	VERB	_	VerbForm=Inf	36	advcl	_	_
 7-8	na	_	_	_	_	_	_	_	_
-7	em	em	ADP	ADP	_	9	case	_	_
-8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	estrutura	estrutura	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
-10	,	,	PUNCT	.	_	6	punct	_	_
-11	que	_	PRON	PRON	_	12	nsubj	_	_
-12	fica	ficar	VERB	VERB	_	9	acl:relcl	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	estrutura	estrutura	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	12	nsubj	_	_
+12	fica	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
 13-14	na	_	_	_	_	_	_	_	_
-13	em	em	ADP	ADP	_	15	case	_	_
-14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	parte	parte	NOUN	NOUN	_	12	nmod	_	_
-16	externa	externo	ADJ	ADJ	_	15	amod	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	parte	parte	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+16	externa	externo	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
 17-18	do	_	_	_	_	_	_	_	_
-17	de	de	ADP	ADP	_	19	case	_	_
-18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	aeroporto	aeroporto	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
-20	,	,	PUNCT	.	_	12	punct	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	aeroporto	aeroporto	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	12	punct	_	_
 21-22	no	_	_	_	_	_	_	_	_
-21	em	em	ADP	ADP	_	23	case	_	_
-22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	cruzamento	cruzamento	NOUN	NOUN	_	12	nmod	_	_
+21	em	em	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	cruzamento	cruzamento	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
 24-25	das	_	_	_	_	_	_	_	_
-24	de	de	ADP	ADP	_	26	case	_	_
-25	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
-26	avenidas	avenida	NOUN	NOUN	_	23	nmod	_	_
-27	Washington	_	PROPN	PNOUN	_	26	appos	_	_
-28	Luís	_	PROPN	PNOUN	_	27	flat	_	_
-29	e	e	CCONJ	CONJ	_	30	cc	_	_
-30	Bandeirantes	_	PROPN	PNOUN	_	27	conj	_	SpaceAfter=No
-31	,	,	PUNCT	.	_	6	punct	_	_
-32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
-33	homem	homem	NOUN	NOUN	_	36	nsubj	_	_
-34	chegou	chegar	AUX	AUX	_	36	aux	_	_
-35	a	_	ADP	ADP	_	36	mark	_	_
-36	soltar	soltar	VERB	VERB	_	0	root	_	_
-37	rojões	rojão	NOUN	NOUN	_	36	obj	_	_
-38	para	para	ADP	ADP	_	40	case	_	_
-39	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
-40	alto	alto	NOUN	NOUN	_	36	nmod	_	SpaceAfter=No
-41	.	.	PUNCT	.	_	36	punct	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	avenidas	avenida	NOUN	_	Gender=Fem|Number=Plur	23	nmod	_	_
+27	Washington	Washington	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	26	appos	_	_
+28	Luís	Luís	PROPN	_	Number=Sing	27	flat:name	_	_
+29	e	e	CCONJ	_	_	30	cc	_	_
+30	Bandeirantes	Bandeirantes	PROPN	_	Gender=Masc|Number=Sing	27	conj	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	12	punct	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	homem	homem	NOUN	_	Gender=Masc|Number=Sing	34	nsubj	_	_
+34	chegou	chegar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+35	a	a	SCONJ	_	_	36	mark	_	_
+36	soltar	soltar	VERB	_	VerbForm=Inf	34	xcomp	_	_
+37	rojões	rojão	NOUN	_	Gender=Masc|Number=Plur	36	obj	_	_
+38	para	para	ADP	_	_	40	case	_	_
+39	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	alto	alto	NOUN	_	Gender=Masc|Number=Sing	36	obl	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	36	punct	_	SpaceAfter=No
 
 # sent_id = train-s3787
 # text = Foi o 78.

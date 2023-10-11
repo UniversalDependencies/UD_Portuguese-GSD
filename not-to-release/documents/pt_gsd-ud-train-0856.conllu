@@ -177,34 +177,36 @@
 37	Enfermagem	_	PROPN	PNOUN	_	34	nmod	_	SpaceAfter=No
 38	.	.	PUNCT	.	_	18	punct	_	_
 
-# sent_id = train-s8503
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O casamento foi anulado pela Justiça, em agosto de 1794, por causa do Ato de Casamentos Reais de 1772.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	casamento	casamento	NOUN	NOUN	_	4	nsubj:pass	_	_
-3	foi	_	AUX	AUX	_	4	aux:pass	_	_
-4	anulado	anular	VERB	VERB	_	0	root	_	_
+# sent_id = train-s8503
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	casamento	casamento	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	anulado	anular	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 5-6	pela	_	_	_	_	_	_	_	_
-5	por	por	ADP	ADP	_	7	case	_	_
-6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	Justiça	_	PROPN	PNOUN	_	4	nmod	_	SpaceAfter=No
-8	,	,	PUNCT	.	_	10	punct	_	_
-9	em	em	ADP	ADP	_	10	case	_	_
-10	agosto	_	PROPN	PNOUN	_	4	nmod	_	_
-11	de	de	ADP	ADP	_	12	case	_	_
-12	1794	1794	NUM	NUM	NumType=Card	10	nmod	_	SpaceAfter=No
-13	,	,	PUNCT	.	_	18	punct	_	_
-14	por	por	ADP	ADP	_	18	case	_	_
-15	causa	causa	NOUN	NOUN	_	14	fixed	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Justiça	justiça	NOUN	_	Gender=Fem|Number=Sing	4	obl:agent	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	4	punct	_	_
+9	em	em	ADP	_	_	10	case	_	_
+10	agosto	agosto	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	1794	1794	NUM	_	NumType=Card	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	4	punct	_	_
+14	por	por	ADP	_	_	15	case	_	_
+15	causa	causa	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
 16-17	do	_	_	_	_	_	_	_	_
-16	de	de	ADP	ADP	_	14	case	_	_
-17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-18	Ato	_	PROPN	PNOUN	_	4	nmod	_	_
-19	de	de	ADP	ADP	_	20	case	_	_
-20	Casamentos	_	PROPN	PNOUN	_	18	nmod	_	_
-21	Reais	_	PROPN	PNOUN	_	20	amod	_	_
-22	de	de	ADP	ADP	_	23	case	_	_
-23	1772	1772	NUM	NUM	NumType=Card	18	nmod	_	SpaceAfter=No
-24	.	.	PUNCT	.	_	4	punct	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Ato	Ato	PROPN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	Casamentos	Casamentos	PROPN	_	ExtPos=PROPN|Number=Sing	18	nmod	_	_
+21	Reais	Reais	PROPN	_	Number=Sing	20	flat:name	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	1772	1772	NUM	_	NumType=Card	18	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # sent_id = train-s8504
 # text = A mensagem é assinada em conjunto com o Fundo das Nações Unidas para a Infância (Unicef) e a Organização Internacional do Trabalho (OIT).

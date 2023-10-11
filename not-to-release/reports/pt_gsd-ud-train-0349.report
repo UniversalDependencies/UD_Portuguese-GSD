@@ -1,3 +1,7 @@
-[Line 149 Sent train-s3465 Node 28]: [L3 Syntax rel-upos-cc] 'cc' should not be 'NOUN'
-Syntax errors: 1
-*** FAILED *** with 1 errors
+[Line 141 Sent train-s3465 Node 18]: [L3 Syntax too-many-subjects] Multiple subjects [2, 9] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 150 Sent train-s3465 Node 27]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [28]
+[Line 165 Sent train-s3465 Node 42]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'conj'
+[Line 197 Sent train-s3465 Node 73]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'conj'
+[Line 200 Sent train-s3465 Node 76]: [L3 Syntax rel-upos-punct] 'punct' must be 'PUNCT' but it is 'X'
+Syntax errors: 5
+*** FAILED *** with 5 errors

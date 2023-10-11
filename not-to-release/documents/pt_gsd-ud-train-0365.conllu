@@ -211,26 +211,28 @@
 69	"	"	PUNCT	.	_	32	punct	_	SpaceAfter=No
 70	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s3622
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Ainda segundo os operários, algumas aves estão se alimentando das espécies que ficaram boiando.
-1	Ainda	ainda	ADV	ADV	_	4	advmod	_	_
-2	segundo	_	ADP	ADP	_	4	case	_	_
-3	os	o	DET	DET	_	4	det	_	_
-4	operários	operário	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
-5	,	,	PUNCT	.	_	4	punct	_	_
-6	algumas	_	DET	DET	_	7	det	_	_
-7	aves	ave	NOUN	NOUN	_	10	nsubj	_	_
-8	estão	estar	AUX	AUX	_	10	aux	_	_
-9	se	_	PRON	PRON	_	10	obj	_	_
-10	alimentando	alimentar	VERB	VERB	_	0	root	_	_
+# sent_id = train-s3622
+1	Ainda	ainda	ADV	_	_	4	advmod	_	_
+2	segundo	segundo	ADP	_	_	4	case	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	operários	operário	NOUN	_	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	7	det	_	_
+7	aves	ave	NOUN	_	Gender=Fem|Number=Plur	10	nsubj	_	_
+8	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	10	expl	_	_
+10	alimentando	alimentar	VERB	_	VerbForm=Ger	0	root	_	_
 11-12	das	_	_	_	_	_	_	_	_
-11	de	de	ADP	ADP	_	13	case	_	_
-12	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
-13	espécies	espécie	NOUN	NOUN	_	10	nmod	_	_
-14	que	_	PRON	PRON	_	16	nsubj	_	_
-15	ficaram	ficar	AUX	AUX	_	16	aux	_	_
-16	boiando	boiar	VERB	VERB	_	13	acl:relcl	_	SpaceAfter=No
-17	.	.	PUNCT	.	_	10	punct	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	espécies	espécie	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	_
+14	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	15	nsubj	_	_
+15	ficaram	ficar	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	13	acl:relcl	_	_
+16	boiando	boiar	VERB	_	VerbForm=Ger	15	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
 
 # sent_id = train-s3623
 # text = Walter Kaminsky (Hamburgo,) é um químico alemão.
@@ -246,27 +248,29 @@
 10	alemão	alemão	ADJ	ADJ	_	9	amod	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = train-s3624
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = As montadoras culpam o aumento de 30 pontos percentuais no Imposto Sobre Produtos Industrializados (IPI)
-1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
-2	montadoras	montador	NOUN	NOUN	_	3	nsubj	_	_
-3	culpam	culpar	VERB	VERB	_	0	root	_	_
-4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	aumento	aumento	NOUN	NOUN	_	3	obj	_	_
-6	de	de	ADP	ADP	_	8	case	_	_
-7	30	30	NUM	NUM	NumType=Card	8	nummod	_	_
-8	pontos	ponto	NOUN	NOUN	_	5	nmod	_	_
-9	percentuais	percentual	ADJ	ADJ	_	8	amod	_	_
+# sent_id = train-s3624
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	montadoras	montador	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	culpam	culpar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	30	30	NUM	_	NumType=Card	8	nummod	_	_
+8	pontos	ponto	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
+9	percentuais	percentual	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
 10-11	no	_	_	_	_	_	_	_	_
-10	em	em	ADP	ADP	_	12	case	_	_
-11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	Imposto	_	PROPN	PNOUN	_	5	nmod	_	_
-13	Sobre	_	PROPN	PNOUN	_	14	case	_	_
-14	Produtos	_	PROPN	PNOUN	_	12	nmod	_	_
-15	Industrializados	_	PROPN	PNOUN	_	14	amod	_	_
-16	(	(	PUNCT	.	_	17	punct	_	SpaceAfter=No
-17	IPI	_	PROPN	PNOUN	_	12	appos	_	SpaceAfter=No
-18	)	)	PUNCT	.	_	17	punct	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Imposto	Imposto	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	5	nmod	_	_
+13	Sobre	Sobre	PROPN	_	Number=Sing	12	flat:name	_	_
+14	Produtos	Produtos	PROPN	_	Number=Sing	12	flat:name	_	_
+15	Industrializados	Industrializados	PROPN	_	Number=Sing	12	flat:name	_	_
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	IPI	IPI	PROPN	_	Gender=Masc|Number=Sing	12	appos	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
 
 # sent_id = train-s3625
 # text = Mantido pelo empresariado, sua atuação se pauta pela legislação específica: a Lei 11.788/2008 para o estágio e a Lei 10.097/2000 para a aprendizagem.

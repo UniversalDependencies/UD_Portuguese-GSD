@@ -1,46 +1,48 @@
-# sent_id = train-s2661
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Dois dias antes da escolha do novo presidente, que será feita apenas por conselheiros do clube, um plebiscito com os sócios deve referendar a implantação das eleições diretas para 2015.
-1	Dois	_	NUM	NUM	NumType=Card	2	nummod	_	_
-2	dias	dia	NOUN	NOUN	_	28	nmod	_	_
-3	antes	antes	ADV	ADV	_	6	case	_	_
+# sent_id = train-s2661
+1	Dois	dois	NUM	_	NumType=Card	2	nummod	_	_
+2	dias	dia	NOUN	_	Gender=Masc|Number=Plur	28	obl	_	_
+3	antes	antes	ADV	_	_	2	advmod	_	_
 4-5	da	_	_	_	_	_	_	_	_
-4	de	de	ADP	ADP	_	3	case	_	_
-5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-6	escolha	escolha	NOUN	NOUN	_	2	nmod	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	escolha	escolha	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
 7-8	do	_	_	_	_	_	_	_	_
-7	de	de	ADP	ADP	_	10	case	_	_
-8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-9	novo	novo	ADJ	ADJ	_	10	amod	_	_
-10	presidente	presidente	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
-11	,	,	PUNCT	.	_	14	punct	_	_
-12	que	_	PRON	PRON	_	14	nsubj:pass	_	_
-13	será	ser	AUX	AUX	_	14	aux:pass	_	_
-14	feita	_	VERB	VERB	_	6	acl:relcl	_	_
-15	apenas	apenas	ADV	ADV	_	14	advmod	_	_
-16	por	por	ADP	ADP	_	17	case	_	_
-17	conselheiros	conselheiro	NOUN	NOUN	_	14	nmod	_	_
+7	de	de	ADP	_	_	10	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	novo	novo	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
+10	presidente	presidente	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	14	nsubj:pass	_	_
+13	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	aux:pass	_	_
+14	feita	fazer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	10	acl:relcl	_	_
+15	apenas	apenas	ADV	_	_	17	advmod	_	_
+16	por	por	ADP	_	_	17	case	_	_
+17	conselheiros	conselheiro	NOUN	_	Gender=Masc|Number=Plur	14	obl:agent	_	_
 18-19	do	_	_	_	_	_	_	_	_
-18	de	de	ADP	ADP	_	20	case	_	_
-19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	clube	clube	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
-21	,	,	PUNCT	.	_	14	punct	_	_
-22	um	um	DET	DET	_	23	det	_	_
-23	plebiscito	plebiscito	NOUN	NOUN	_	28	nsubj	_	_
-24	com	com	ADP	ADP	_	26	case	_	_
-25	os	o	DET	DET	_	26	det	_	_
-26	sócios	sócio	NOUN	NOUN	_	23	nmod	_	_
-27	deve	dever	AUX	AUX	_	28	aux	_	_
-28	referendar	referendar	VERB	VERB	_	0	root	_	_
-29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
-30	implantação	implantação	NOUN	NOUN	_	28	obj	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	clube	clube	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	14	punct	_	_
+22	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	plebiscito	plebiscito	NOUN	_	Gender=Masc|Number=Sing	27	nsubj	_	_
+24	com	com	ADP	_	_	26	case	_	_
+25	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	sócios	sócio	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	_
+27	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+28	referendar	referendar	VERB	_	VerbForm=Inf	27	xcomp	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	implantação	implantação	NOUN	_	Gender=Fem|Number=Sing	28	obj	_	_
 31-32	das	_	_	_	_	_	_	_	_
-31	de	de	ADP	ADP	_	33	case	_	_
-32	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
-33	eleições	eleição	NOUN	NOUN	_	30	nmod	_	_
-34	diretas	direto	ADJ	ADJ	_	33	amod	_	_
-35	para	para	ADP	ADP	_	36	case	_	_
-36	2015	2015	NUM	NUM	NumType=Card	30	nmod	_	SpaceAfter=No
-37	.	.	PUNCT	.	_	28	punct	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	30	nmod	_	_
+34	diretas	direto	ADJ	_	Gender=Fem|Number=Plur	33	amod	_	_
+35	para	para	ADP	_	_	36	case	_	_
+36	2015	2015	NUM	_	NumType=Card	33	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
 
 # sent_id = train-s2662
 # text = Os forcados são grupos amadores de vários homens que numa corrida de touros pegam o touro.
@@ -62,57 +64,58 @@
 16	touro	touro	NOUN	NOUN	_	14	obj	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s2663
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Num programa de televisão, Berlusconi disse: "Eu pretendo fazer o que é certo para o meu país e se for preciso que eu saia de cena para que se forme uma frente unida contra a esquerda, eu vou fazê - lo."
+# sent_id = train-s2663
 1-2	Num	_	_	_	_	_	_	_	_
-1	Em	em	ADP	ADP	_	3	case	_	_
-2	um	um	DET	DET	_	3	det	_	_
-3	programa	programa	NOUN	NOUN	_	8	nmod	_	_
-4	de	de	ADP	ADP	_	5	case	_	_
-5	televisão	televisão	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
-6	,	,	PUNCT	.	_	3	punct	_	_
-7	Berlusconi	_	PROPN	PNOUN	_	8	nsubj	_	_
-8	disse	dizer	VERB	VERB	_	0	root	_	SpaceAfter=No
-9	:	:	PUNCT	.	_	8	punct	_	_
-10	"	"	PUNCT	.	_	12	punct	_	SpaceAfter=No
-11	Eu	_	PRON	PRON	_	12	nsubj	_	_
-12	pretendo	pretender	VERB	VERB	_	8	ccomp	_	_
-13	fazer	fazer	VERB	VERB	_	12	xcomp	_	_
-14	o	_	PRON	PRON	_	13	obj	_	_
-15	que	_	PRON	PRON	_	16	nsubj	_	_
-16	é	ser	VERB	VERB	_	14	acl:relcl	_	_
-17	certo	certo	ADJ	ADJ	_	16	xcomp	_	_
-18	para	para	ADP	ADP	_	21	case	_	_
-19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-20	meu	_	DET	DET	_	21	det:poss	_	_
-21	país	país	NOUN	NOUN	_	17	nmod	_	_
-22	e	e	CCONJ	CONJ	_	44	cc	_	_
-23	se	_	CCONJ	CONJ	_	24	mark	_	_
-24	for	_	VERB	VERB	_	44	advcl	_	_
-25	preciso	preciso	ADJ	ADJ	_	24	xcomp	_	_
-26	que	que	CCONJ	CONJ	_	28	mark	_	_
-27	eu	_	PRON	PRON	_	28	nsubj	_	_
-28	saia	sair	VERB	VERB	_	24	csubj	_	_
-29	de	de	ADP	ADP	_	30	case	_	_
-30	cena	cena	NOUN	NOUN	_	28	nmod	_	_
-31	para	_	ADP	ADP	_	34	mark	_	_
-32	que	_	CCONJ	CONJ	_	31	fixed	_	_
-33	se	_	PRON	PRON	_	34	expl:pv	_	_
-34	forme	formar	VERB	VERB	_	24	advcl	_	_
-35	uma	um	DET	DET	_	36	det	_	_
-36	frente	frente	NOUN	NOUN	_	34	nsubj	_	_
-37	unida	unido	ADJ	ADJ	_	36	amod	_	_
-38	contra	_	ADP	ADP	_	40	case	_	_
-39	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
-40	esquerda	esquerda	NOUN	NOUN	_	36	nmod	_	SpaceAfter=No
-41	,	,	PUNCT	.	_	34	punct	_	_
-42	eu	_	PRON	PRON	_	44	nsubj	_	_
-43	vou	ir	AUX	AUX	_	44	aux	_	_
-44	fazê	fazer	VERB	VERB	_	12	conj	_	_
-45	-	-	PUNCT	.	_	44	punct	_	_
-46	lo	_	PRON	PRON	_	44	obj	_	SpaceAfter=No
-47	.	.	PUNCT	.	_	8	punct	_	SpaceAfter=No
-48	"	"	PUNCT	.	_	12	punct	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	programa	programa	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	televisão	televisão	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	Berlusconi	Berlusconi	PROPN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+8	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	12	punct	_	_
+10	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+11	Eu	eu	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	pretendo	pretender	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+13	fazer	fazer	VERB	_	VerbForm=Inf	12	xcomp	_	_
+14	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	13	obj	_	_
+15	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	17	nsubj	_	_
+16	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	certo	certo	ADJ	_	Gender=Masc|Number=Sing	14	acl:relcl	_	_
+18	para	para	ADP	_	_	21	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	meu	meu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	21	det	_	_
+21	país	país	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+22	e	e	CCONJ	_	_	25	cc	_	_
+23	se	se	SCONJ	_	_	25	mark	_	_
+24	for	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	25	cop	_	_
+25	preciso	preciso	ADJ	_	Gender=Masc|Number=Sing	44	advcl	_	_
+26	que	que	SCONJ	_	_	28	mark	_	_
+27	eu	eu	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	_
+28	saia	sair	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	csubj	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	cena	cena	NOUN	_	Gender=Fem|Number=Sing	28	obl	_	_
+31	para	para	SCONJ	_	_	34	mark	_	_
+32	que	que	SCONJ	_	_	34	mark	_	_
+33	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	34	expl	_	_
+34	forme	formar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	advcl	_	_
+35	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	frente	frente	NOUN	_	Gender=Fem|Number=Sing	34	nsubj	_	_
+37	unida	unir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	36	acl	_	_
+38	contra	contra	ADP	_	_	40	case	_	_
+39	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	esquerda	esquerda	NOUN	_	Gender=Fem|Number=Sing	36	nmod	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	44	punct	_	_
+42	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	44	nsubj	_	_
+43	vou	ir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	44	aux	_	_
+44	fazê	fazer	VERB	_	VerbForm=Inf	8	ccomp	_	_
+45	-	-	PRON	_	_	44	obj	_	_
+46	lo.	lo.	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	44	obj	_	SpaceAfter=No
+47	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
 
 # sent_id = train-s2664
 # text = As meninas vão à casa abandonada.
@@ -209,43 +212,47 @@
 21	vestir	vestir	VERB	VERB	_	17	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	13	punct	_	_
 
-# sent_id = train-s2669
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = "Se essa partida for remarcada, quem vai apitar?
-1	"	"	PUNCT	.	_	10	punct	_	SpaceAfter=No
-2	Se	_	CCONJ	CONJ	_	6	mark	_	_
-3	essa	_	DET	DET	_	4	det	_	_
-4	partida	partida	NOUN	NOUN	_	6	nsubj:pass	_	_
-5	for	_	VERB	VERB	_	6	aux:pass	_	_
-6	remarcada	remarcar	VERB	VERB	_	10	advcl	_	SpaceAfter=No
-7	,	,	PUNCT	.	_	6	punct	_	_
-8	quem	_	PRON	PRON	_	10	nsubj	_	_
-9	vai	ir	AUX	AUX	_	10	aux	_	_
-10	apitar	apitar	VERB	VERB	_	0	root	_	SpaceAfter=No
-11	?	?	PUNCT	.	_	10	punct	_	_
+# sent_id = train-s2669
+1	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+2	Se	se	SCONJ	_	_	6	mark	_	_
+3	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	partida	partida	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+5	for	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	aux:pass	_	_
+6	remarcada	remarcar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	10	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	quem	quem	PRON	_	Number=Sing|PronType=Rel	10	nsubj	_	_
+9	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	apitar	apitar	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No
+11	?	?	PUNCT	_	_	10	punct	_	SpaceAfter=No
 
-# sent_id = train-s2670
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Segundo a gerência do aeroporto, apenas 20 % da obra chegou a ser finalizada até o momento.
-1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	gerência	gerência	NOUN	NOUN	_	17	nmod	_	_
+# sent_id = train-s2670
+1	Segundo	segundo	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	gerência	gerência	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
 4-5	do	_	_	_	_	_	_	_	_
-4	de	de	ADP	ADP	_	6	case	_	_
-5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	aeroporto	aeroporto	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
-7	,	,	PUNCT	.	_	3	punct	_	_
-8	apenas	apenas	ADV	ADV	_	9	advmod	_	_
-9	20	20	NUM	NUM	NumType=Card	10	nummod	_	_
-10	%	_	SYM	SYM	_	17	nsubj:pass	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	aeroporto	aeroporto	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	apenas	apenas	ADV	_	_	9	advmod	_	_
+9	20	20	NUM	_	NumType=Card	10	nummod	_	_
+10	%	%	SYM	_	_	14	nsubj:pass	_	_
 11-12	da	_	_	_	_	_	_	_	_
-11	de	de	ADP	ADP	_	13	case	_	_
-12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	obra	obra	NOUN	NOUN	_	10	nmod	_	_
-14	chegou	chegar	AUX	AUX	_	17	aux	_	_
-15	a	_	ADP	ADP	_	17	mark	_	_
-16	ser	ser	AUX	AUX	_	17	aux:pass	_	_
-17	finalizada	finalizar	VERB	VERB	_	0	root	_	_
-18	até	_	ADP	ADP	_	20	case	_	_
-19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	momento	momento	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
-21	.	.	PUNCT	.	_	17	punct	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	obra	obra	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+14	chegou	chegar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	a	a	SCONJ	_	_	17	mark	_	_
+16	ser	ser	AUX	_	VerbForm=Inf	17	aux:pass	_	_
+17	finalizada	finalizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	14	xcomp	_	_
+18	até	até	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	momento	momento	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
 

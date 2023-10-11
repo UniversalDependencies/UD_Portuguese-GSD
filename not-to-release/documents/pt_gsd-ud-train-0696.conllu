@@ -1,22 +1,24 @@
-# sent_id = train-s6906
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = É proibido impor ao consumidor que utilize todo o valor do ticket.
-1	É	ser	VERB	VERB	_	0	root	_	_
-2	proibido	proibido	ADJ	ADJ	_	1	xcomp	_	_
-3	impor	impor	VERB	VERB	_	1	csubj	_	_
+# sent_id = train-s6906
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
+2	proibido	proibir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+3	impor	impor	VERB	_	VerbForm=Inf	2	csubj	_	_
 4-5	ao	_	_	_	_	_	_	_	_
-4	a	a	ADP	ADP	_	3	case	_	_
-5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-6	consumidor	consumidor	NOUN	NOUN	_	4	case	_	_
-7	que	que	CCONJ	CONJ	_	8	mark	_	_
-8	utilize	utilizar	VERB	VERB	_	3	ccomp	_	_
-9	todo	_	DET	DET	_	11	det	_	_
-10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	valor	valor	NOUN	NOUN	_	8	obj	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	consumidor	consumidor	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+7	que	que	SCONJ	_	_	8	mark	_	_
+8	utilize	utilizar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+9	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Tot	11	det	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	valor	valor	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
 12-13	do	_	_	_	_	_	_	_	_
-12	de	de	ADP	ADP	_	14	case	_	_
-13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	ticket	ticket	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
-15	.	.	PUNCT	.	_	1	punct	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	ticket	ticket	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = train-s6907
 # text = Ambos vêm trocando farpas durante o julgamento da Ação Penal 470 como relator e revisor, mas garantem que as divergências estão restritas ao processo e não chegam ao nível pessoal ou institucional.

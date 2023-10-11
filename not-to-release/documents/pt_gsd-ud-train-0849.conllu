@@ -1,35 +1,39 @@
-# sent_id = train-s8428
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O "animalzinho" vive com Michael Jamison e sua namorada Jackie Smith na casa deles em Brakpan, na África do Sul.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-2	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
-3	animalzinho	animal	NOUN	NOUN	_	5	nsubj	_	SpaceAfter=No
-4	"	"	PUNCT	.	_	3	punct	_	_
-5	vive	_	VERB	VERB	_	0	root	_	_
-6	com	com	ADP	ADP	_	7	case	_	_
-7	Michael	_	PROPN	PNOUN	_	5	nmod	_	_
-8	Jamison	_	PROPN	PNOUN	_	7	flat	_	_
-9	e	e	CCONJ	CONJ	_	11	cc	_	_
-10	sua	_	DET	DET	_	11	det:poss	_	_
-11	namorada	_	NOUN	NOUN	_	7	conj	_	_
-12	Jackie	_	PROPN	PNOUN	_	11	appos	_	_
-13	Smith	_	PROPN	PNOUN	_	12	flat	_	_
+# sent_id = train-s8428
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	animalzinho	animal	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	3	punct	_	_
+5	vive	viver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	com	com	ADP	_	_	7	case	_	_
+7	Michael	Michael	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	5	obl	_	_
+8	Jamison	Jamison	PROPN	_	Number=Sing	7	flat:name	_	_
+9	e	e	CCONJ	_	_	11	cc	_	_
+10	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	11	det	_	_
+11	namorada	namorado	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
+12	Jackie	Jackie	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	11	appos	_	_
+13	Smith	Smith	PROPN	_	Number=Sing	12	flat:name	_	_
 14-15	na	_	_	_	_	_	_	_	_
-14	em	em	ADP	ADP	_	16	case	_	_
-15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	casa	casa	NOUN	NOUN	_	5	nmod	_	_
-17	deles	_	X	ADPPRON	_	16	det:poss	_	_
-18	em	em	ADP	ADP	_	19	case	_	_
-19	Brakpan	_	PROPN	PNOUN	_	16	nmod	_	SpaceAfter=No
-20	,	,	PUNCT	.	_	23	punct	_	_
-21-22	na	_	_	_	_	_	_	_	_
-21	em	em	ADP	ADP	_	23	case	_	_
-22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-23	África	_	PROPN	PNOUN	_	16	nmod	_	_
-24-25	do	_	_	_	_	_	_	_	_
-24	de	de	ADP	ADP	_	26	case	_	_
-25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	Sul	_	PROPN	PNOUN	_	23	nmod	_	SpaceAfter=No
-27	.	.	PUNCT	.	_	5	punct	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	casa	casa	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+17-18	deles	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	eles	ele	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	nmod	_	_
+19	em	em	ADP	_	_	20	case	_	_
+20	Brakpan	Brakpan	PROPN	_	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	24	punct	_	_
+22-23	na	_	_	_	_	_	_	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	África	África	PROPN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+25-26	do	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Sul	Sul	PROPN	_	Number=Sing	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # sent_id = train-s8429
 # text = Nós pedimos para que não se leve o celular, mas para quem levar nós pedimos que desligue ou deixe na mesa do presidente da seção, para evitar qualquer tipo de problema.
@@ -95,45 +99,47 @@
 16	Nacional	_	PROPN	PNOUN	_	14	amod	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s8431
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Rio -- O vídeo de cães sendo espancados em pet shop no Engenho de Dentro, na Zona Norte, ganhou destaque nos tabloides britânicos Daily Mail e The Sun.
-1	Rio	_	PROPN	PNOUN	_	23	parataxis	_	_
-2	--	_	PUNCT	.	_	23	punct	_	_
-3	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	vídeo	vídeo	NOUN	NOUN	_	23	nsubj	_	_
-5	de	de	ADP	ADP	_	6	case	_	_
-6	cães	cão	NOUN	NOUN	_	4	nmod	_	_
-7	sendo	ser	AUX	AUX	_	8	aux:pass	_	_
-8	espancados	espancar	VERB	VERB	_	6	acl	_	_
-9	em	em	ADP	ADP	_	10	case	_	_
-10	pet	_	NOUN	NOUN	_	8	nmod	_	_
-11	shop	_	NOUN	NOUN	_	10	flat	_	_
+# sent_id = train-s8431
+1	Rio	Rio	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	--	--	PUNCT	_	_	1	punct	_	_
+3	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	23	nsubj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	cães	cão	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
+7	sendo	ser	AUX	_	VerbForm=Ger	8	aux:pass	_	_
+8	espancados	espancar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	6	acl	_	_
+9	em	em	ADP	_	_	10	case	_	_
+10	pet	pet	X	_	ExtPos=NOUN	8	obl	_	_
+11	shop	shop	X	_	_	10	flat:foreign	_	_
 12-13	no	_	_	_	_	_	_	_	_
-12	em	em	ADP	ADP	_	14	case	_	_
-13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	Engenho	_	PROPN	PNOUN	_	8	nmod	_	_
-15	de	_	ADP	ADP	_	16	mark	_	_
-16	Dentro	_	PROPN	PNOUN	_	14	nmod	_	SpaceAfter=No
-17	,	,	PUNCT	.	_	20	punct	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Engenho	Engenho	PROPN	_	Gender=Masc|Number=Sing	8	obl	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	Dentro	Dentro	PROPN	_	Number=Sing	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	20	punct	_	_
 18-19	na	_	_	_	_	_	_	_	_
-18	em	em	ADP	ADP	_	20	case	_	_
-19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	Zona	_	PROPN	PNOUN	_	8	nmod	_	_
-21	Norte	_	PROPN	PNOUN	_	20	amod	_	SpaceAfter=No
-22	,	,	PUNCT	.	_	20	punct	_	_
-23	ganhou	ganhar	VERB	VERB	_	0	root	_	_
-24	destaque	destaque	NOUN	NOUN	_	23	obj	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Zona	Zona	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	14	nmod	_	_
+21	Norte	Norte	PROPN	_	Number=Sing	20	flat:name	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	20	punct	_	_
+23	ganhou	ganhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	parataxis	_	_
+24	destaque	destaque	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
 25-26	nos	_	_	_	_	_	_	_	_
-25	em	em	ADP	ADP	_	27	case	_	_
-26	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
-27	tabloides	tabloide	NOUN	NOUN	_	24	nmod	_	_
-28	britânicos	britânico	ADJ	ADJ	_	27	amod	_	_
-29	Daily	_	PROPN	PNOUN	_	30	amod	_	_
-30	Mail	_	PROPN	PNOUN	_	27	appos	_	_
-31	e	e	CCONJ	CONJ	_	33	cc	_	_
-32	The	_	PROPN	PNOUN	_	33	det	_	_
-33	Sun	_	PROPN	PNOUN	_	30	conj	_	SpaceAfter=No
-34	.	.	PUNCT	.	_	23	punct	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	tabloides	tabloide	NOUN	_	Gender=Masc|Number=Plur	23	obl	_	_
+28	britânicos	britânico	ADJ	_	Gender=Masc|Number=Plur	27	amod	_	_
+29	Daily	Daily	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	27	appos	_	_
+30	Mail	Mail	PROPN	_	Number=Sing	29	flat:name	_	_
+31	e	e	CCONJ	_	_	32	cc	_	_
+32	The	The	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	29	conj	_	_
+33	Sun	Sun	PROPN	_	Number=Sing	32	flat:name	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = train-s8432
 # text = Desde o ano passado, Portugal emitiu 30 novas autorizações de lavra, que deverão trazer investimentos iniciais em torno de US $ 400 milhões.

@@ -66,21 +66,23 @@
 11	final	final	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
 12	!	!	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s3169
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Temos de seguir trabalhando para corrigir isso ", comenta o técnico.
-1	Temos	ter	AUX	AUX	_	4	aux	_	_
-2	de	_	ADP	ADP	_	4	mark	_	_
-3	seguir	seguir	AUX	AUX	_	4	aux	_	_
-4	trabalhando	trabalhar	VERB	VERB	_	10	ccomp	_	_
-5	para	_	ADP	ADP	_	6	mark	_	_
-6	corrigir	corrigir	VERB	VERB	_	4	advcl	_	_
-7	isso	_	PRON	PRON	_	6	obj	_	_
-8	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	10	punct	_	_
-10	comenta	comentar	VERB	VERB	_	0	root	_	_
-11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	técnico	técnico	NOUN	NOUN	_	10	nsubj	_	SpaceAfter=No
-13	.	.	PUNCT	.	_	10	punct	_	_
+# sent_id = train-s3169
+1	Temos	ter	VERB	_	ExtPos=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
+2	de	de	SCONJ	_	_	3	mark	_	_
+3	seguir	seguir	VERB	_	VerbForm=Inf	1	xcomp	_	_
+4	trabalhando	trabalhar	VERB	_	VerbForm=Ger	3	xcomp	_	_
+5	para	para	SCONJ	_	_	6	mark	_	_
+6	corrigir	corrigir	VERB	_	VerbForm=Inf	4	advcl	_	_
+7	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	6	obj	_	_
+8	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	comenta	comentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	técnico	técnico	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
 
 # sent_id = train-s3170
 # text = Estes incentivos hoje formam a base de arrecadação de muitos estados, e sendo cortados poderão causar um grande desequilíbrio na arrecadação destes estados.

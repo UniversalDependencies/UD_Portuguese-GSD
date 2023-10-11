@@ -1,37 +1,38 @@
-# sent_id = train-s6283
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = A locadora também postou fotomontagens divertidas em sua página do facebook com o seguinte alerta "Vamos continuar postando essas coisas até você devolver nossos DVDs, Nic."
-1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	locadora	locador	NOUN	NOUN	_	4	nsubj	_	_
-3	também	também	ADV	ADV	_	4	advmod	_	_
-4	postou	postar	VERB	VERB	_	0	root	_	_
-5	fotomontagens	fotomontagem	NOUN	NOUN	_	4	obj	_	_
-6	divertidas	divertido	ADJ	ADJ	_	5	amod	_	_
-7	em	em	ADP	ADP	_	9	case	_	_
-8	sua	_	DET	DET	_	9	det:poss	_	_
-9	página	página	NOUN	NOUN	_	4	nmod	_	_
+# sent_id = train-s6283
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	locadora	locadora	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	também	também	ADV	_	_	4	advmod	_	_
+4	postou	postar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	fotomontagens	fotomontagem	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
+6	divertidas	diverter	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	5	acl	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	9	det	_	_
+9	página	página	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
 10-11	do	_	_	_	_	_	_	_	_
-10	de	de	ADP	ADP	_	12	case	_	_
-11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	facebook	_	PROPN	PNOUN	_	9	nmod	_	_
-13	com	com	ADP	ADP	_	16	case	_	_
-14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-15	seguinte	seguinte	ADJ	ADJ	_	16	amod	_	_
-16	alerta	alerta	NOUN	NOUN	_	4	nmod	_	_
-17	"	"	PUNCT	.	_	20	punct	_	SpaceAfter=No
-18	Vamos	ir	AUX	AUX	_	20	aux	_	_
-19	continuar	continuar	AUX	AUX	_	20	aux	_	_
-20	postando	postar	VERB	VERB	_	4	parataxis	_	_
-21	essas	_	DET	DET	_	22	det	_	_
-22	coisas	coisa	NOUN	NOUN	_	20	obj	_	_
-23	até	_	ADP	ADP	_	25	mark	_	_
-24	você	_	PRON	PRON	_	25	nsubj	_	_
-25	devolver	devolver	VERB	VERB	_	20	advcl	_	_
-26	nossos	_	DET	DET	_	27	det:poss	_	_
-27	DVDs	_	NOUN	NOUN	_	25	obj	_	SpaceAfter=No
-28	,	,	PUNCT	.	_	29	punct	_	_
-29	Nic	_	PROPN	PNOUN	_	20	dep	_	SpaceAfter=No
-30	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
-31	"	"	PUNCT	.	_	20	punct	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	facebook	facebook	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+13	com	com	ADP	_	_	16	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	seguinte	seguinte	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
+16	alerta	alerta	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+17	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+18	Vamos	ir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	continuar	continuar	VERB	_	VerbForm=Inf	16	acl:relcl	_	_
+20	postando	postar	VERB	_	VerbForm=Ger	19	xcomp	_	_
+21	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	22	det	_	_
+22	coisas	coisa	NOUN	_	Gender=Fem|Number=Plur	20	obj	_	_
+23	até	até	SCONJ	_	_	25	mark	_	_
+24	você	você	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+25	devolver	devolver	VERB	_	VerbForm=Inf	20	advcl	_	_
+26	nossos	nosso	DET	_	Gender=Masc|Number=Plur|PronType=Prs	27	det	_	_
+27	DVDs	dvd	NOUN	_	Gender=Masc|Number=Plur	25	obj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	_
+29	Nic.	nic.	PROPN	_	_	4	parataxis	_	SpaceAfter=No
+30	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # sent_id = train-s6284
 # text = A Concessionária Rota das Bandeiras S..
@@ -209,38 +210,40 @@
 11	canivete	canivete	NOUN	NOUN	_	5	conj	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = train-s6291
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Carla Diaz, que renovou seu contrato com a TV Record, está em cartaz no Rio de Janeiro com a peça Um Chorinho Pra Dona Baratinha.
-1	Carla	_	PROPN	PNOUN	_	13	nsubj	_	_
-2	Diaz	_	PROPN	PNOUN	_	1	flat	_	SpaceAfter=No
-3	,	,	PUNCT	.	_	5	punct	_	_
-4	que	_	PRON	PRON	_	5	nsubj	_	_
-5	renovou	renovar	VERB	VERB	_	1	acl:relcl	_	_
-6	seu	_	DET	DET	_	7	det:poss	_	_
-7	contrato	contrato	NOUN	NOUN	_	5	obj	_	_
-8	com	com	ADP	ADP	_	10	case	_	_
-9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	TV	_	PROPN	PNOUN	_	5	nmod	_	_
-11	Record	_	PROPN	PNOUN	_	10	flat	_	SpaceAfter=No
-12	,	,	PUNCT	.	_	5	punct	_	_
-13	está	estar	VERB	VERB	_	0	root	_	_
-14	em	em	ADP	ADP	_	15	case	_	_
-15	cartaz	cartaz	NOUN	NOUN	_	13	nmod	_	_
+# sent_id = train-s6291
+1	Carla	Carla	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	15	nsubj	_	_
+2	Diaz	Diaz	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	5	nsubj	_	_
+5	renovou	renovar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
+6	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	7	det	_	_
+7	contrato	contrato	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8	com	com	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	TV	tv	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	7	nmod	_	_
+11	Record	Record	PROPN	_	Number=Sing	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	5	punct	_	_
+13	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	em	em	ADP	_	_	15	case	_	_
+15	cartaz	cartaz	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 16-17	no	_	_	_	_	_	_	_	_
-16	em	em	ADP	ADP	_	18	case	_	_
-17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	Rio	_	PROPN	PNOUN	_	13	nmod	_	_
-19	de	de	ADP	ADP	_	20	case	_	_
-20	Janeiro	_	PROPN	PNOUN	_	18	nmod	_	_
-21	com	com	ADP	ADP	_	23	case	_	_
-22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-23	peça	peça	NOUN	NOUN	_	13	nmod	_	_
-24	Um	_	PROPN	PNOUN	_	25	det	_	_
-25	Chorinho	_	PROPN	PNOUN	_	23	appos	_	_
-26	Pra	_	PROPN	PNOUN	_	27	case	_	_
-27	Dona	_	PROPN	PNOUN	_	25	nmod	_	_
-28	Baratinha	_	PROPN	PNOUN	_	27	flat	_	SpaceAfter=No
-29	.	.	PUNCT	.	_	13	punct	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Rio	Rio	PROPN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	Janeiro	Janeiro	PROPN	_	Number=Sing	18	nmod	_	_
+21	com	com	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	peça	peça	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+24	Um	Um	PROPN	_	Gender=Masc|Number=Sing	23	appos	_	_
+25	Chorinho	Chorinho	PROPN	_	Number=Sing	24	flat:name	_	_
+26	Pra	Pra	ADP	_	Number=Sing	27	case	_	_
+27	Dona	Dona	PROPN	_	ExtPos=PROPN|Number=Sing	24	nmod	_	_
+28	Baratinha	Baratinha	PROPN	_	Number=Sing	27	flat:name	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
 
 # sent_id = train-s6292
 # text = Muitas vezes as pessoas acham que entenderam ou que foram entendidas.

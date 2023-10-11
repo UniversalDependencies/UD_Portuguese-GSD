@@ -1,21 +1,23 @@
-# sent_id = train-s6542
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Na última semana inaugurou o restaurante II Tartufo (trufa em italiano).
+# sent_id = train-s6542
 1-2	Na	_	_	_	_	_	_	_	_
-1	Em	em	ADP	ADP	_	4	case	_	_
-2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-3	última	último	ADJ	ADJ	_	4	amod	_	_
-4	semana	semana	NOUN	NOUN	_	5	nmod	_	_
-5	inaugurou	inaugurar	VERB	VERB	_	0	root	_	_
-6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	restaurante	restaurante	NOUN	NOUN	_	5	obj	_	_
-8	II	_	PROPN	PNOUN	_	9	det	_	_
-9	Tartufo	_	PROPN	PNOUN	_	7	appos	_	_
-10	(	(	PUNCT	.	_	11	punct	_	SpaceAfter=No
-11	trufa	trufa	NOUN	NOUN	_	9	appos	_	_
-12	em	em	ADP	ADP	_	13	case	_	_
-13	italiano	italiano	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
-14	)	)	PUNCT	.	_	11	punct	_	SpaceAfter=No
-15	.	.	PUNCT	.	_	5	punct	_	_
+1	Em	em	ADP	_	_	4	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	última	último	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
+4	semana	semana	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+5	inaugurou	inaugurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	restaurante	restaurante	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8	II	II	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	7	appos	_	_
+9	Tartufo	Tartufo	PROPN	_	Number=Sing	8	flat:name	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	trufa	trufa	NOUN	_	Gender=Fem|Number=Sing	7	parataxis	_	_
+12	em	em	ADP	_	_	13	case	_	_
+13	italiano	italiano	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # sent_id = train-s6543
 # text = Na noite de ontem, durante inauguração de mais um comitê da candidata governista ao Palácio da Ceramica, Regina Maura (PTB), no bairro Barcelona, o prefeito José Auricchio Jr.
@@ -132,72 +134,74 @@
 59	local	local	ADJ	ADJ	_	56	amod	_	SpaceAfter=No
 60	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s6545
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = "O resultado da Peic em agosto ainda mostra que a redução do Imposto sobre Produtos Industrializados (IPI) para os setores de linha branca, carros, móveis, materiais de construção, somado à redução das taxas de juros, continuam impulsionando o consumo das famílias paulistanas", diz.
-1	"	"	PUNCT	.	_	10	punct	_	SpaceAfter=No
-2	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	resultado	resultado	NOUN	NOUN	_	10	nsubj	_	_
+# sent_id = train-s6545
+1	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+2	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	resultado	resultado	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 4-5	da	_	_	_	_	_	_	_	_
-4	de	de	ADP	ADP	_	6	case	_	_
-5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	Peic	_	PROPN	PNOUN	_	3	nmod	_	_
-7	em	em	ADP	ADP	_	8	case	_	_
-8	agosto	_	PROPN	PNOUN	_	3	nmod	_	_
-9	ainda	ainda	ADV	ADV	_	10	advmod	_	_
-10	mostra	mostrar	VERB	VERB	_	58	ccomp	_	_
-11	que	que	CCONJ	CONJ	_	49	mark	_	_
-12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	redução	redução	NOUN	NOUN	_	49	nsubj	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Peic	Peic	PROPN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+7	em	em	ADP	_	_	8	case	_	_
+8	agosto	agosto	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+9	ainda	ainda	ADV	_	_	10	advmod	_	_
+10	mostra	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	58	parataxis	_	_
+11	que	que	SCONJ	_	_	48	mark	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	redução	redução	NOUN	_	Gender=Fem|Number=Sing	48	nsubj	_	_
 14-15	do	_	_	_	_	_	_	_	_
-14	de	de	ADP	ADP	_	16	case	_	_
-15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	Imposto	_	PROPN	PNOUN	_	13	nmod	_	_
-17	sobre	_	ADP	ADP	_	18	case	_	_
-18	Produtos	_	PROPN	PNOUN	_	16	nmod	_	_
-19	Industrializados	_	PROPN	PNOUN	_	18	amod	_	_
-20	(	(	PUNCT	.	_	21	punct	_	SpaceAfter=No
-21	IPI	_	PROPN	PNOUN	_	16	appos	_	SpaceAfter=No
-22	)	)	PUNCT	.	_	21	punct	_	_
-23	para	para	ADP	ADP	_	25	case	_	_
-24	os	o	DET	DET	_	25	det	_	_
-25	setores	setor	NOUN	NOUN	_	13	nmod	_	_
-26	de	de	ADP	ADP	_	27	case	_	_
-27	linha	_	NOUN	NOUN	_	25	nmod	_	_
-28	branca	branco	ADJ	ADJ	_	27	amod	_	SpaceAfter=No
-29	,	,	PUNCT	.	_	30	punct	_	_
-30	carros	carro	NOUN	NOUN	_	25	conj	_	SpaceAfter=No
-31	,	,	PUNCT	.	_	32	punct	_	_
-32	móveis	_	NOUN	NOUN	_	25	conj	_	SpaceAfter=No
-33	,	,	PUNCT	.	_	34	punct	_	_
-34	materiais	material	NOUN	NOUN	_	25	conj	_	_
-35	de	de	ADP	ADP	_	36	case	_	_
-36	construção	construção	NOUN	NOUN	_	34	nmod	_	SpaceAfter=No
-37	,	,	PUNCT	.	_	38	punct	_	_
-38	somado	somar	VERB	VERB	_	13	acl	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Imposto	Imposto	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	13	nmod	_	_
+17	sobre	sobre	ADP	_	_	16	flat:name	_	_
+18	Produtos	Produtos	PROPN	_	Number=Sing	16	flat:name	_	_
+19	Industrializados	Industrializados	PROPN	_	Number=Sing	16	flat:name	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	IPI	IPI	PROPN	_	Gender=Masc|Number=Sing	16	appos	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	_
+23	para	para	ADP	_	_	25	case	_	_
+24	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	setores	setor	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	linha	linha	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
+28	branca	branco	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	30	punct	_	_
+30	carros	carro	NOUN	_	Gender=Masc|Number=Plur	27	conj	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	32	punct	_	_
+32	móveis	móvel	NOUN	_	Gender=Masc|Number=Plur	27	conj	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	34	punct	_	_
+34	materiais	material	NOUN	_	Gender=Masc|Number=Plur	27	conj	_	_
+35	de	de	ADP	_	_	36	case	_	_
+36	construção	construção	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	38	punct	_	_
+38	somado	somar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	13	acl	_	_
 39-40	à	_	_	_	_	_	_	_	_
-39	a	a	ADP	ADP	_	41	case	_	_
-40	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
-41	redução	redução	NOUN	NOUN	_	38	nmod	_	_
+39	a	a	ADP	_	_	41	case	_	_
+40	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	redução	redução	NOUN	_	Gender=Fem|Number=Sing	38	obj	_	_
 42-43	das	_	_	_	_	_	_	_	_
-42	de	de	ADP	ADP	_	44	case	_	_
-43	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	44	det	_	_
-44	taxas	taxa	NOUN	NOUN	_	41	nmod	_	_
-45	de	de	ADP	ADP	_	46	case	_	_
-46	juros	juro	NOUN	NOUN	_	44	nmod	_	SpaceAfter=No
-47	,	,	PUNCT	.	_	38	punct	_	_
-48	continuam	continuar	AUX	AUX	_	49	aux	_	_
-49	impulsionando	impulsionar	VERB	VERB	_	10	ccomp	_	_
-50	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
-51	consumo	consumo	NOUN	NOUN	_	49	obj	_	_
+42	de	de	ADP	_	_	44	case	_	_
+43	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	44	det	_	_
+44	taxas	taxa	NOUN	_	Gender=Fem|Number=Plur	41	nmod	_	_
+45	de	de	ADP	_	_	46	case	_	_
+46	juros	juro	NOUN	_	Gender=Masc|Number=Plur	44	nmod	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	38	punct	_	_
+48	continuam	continuar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+49	impulsionando	impulsionar	VERB	_	VerbForm=Ger	48	xcomp	_	_
+50	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	consumo	consumo	NOUN	_	Gender=Masc|Number=Sing	49	obj	_	_
 52-53	das	_	_	_	_	_	_	_	_
-52	de	de	ADP	ADP	_	54	case	_	_
-53	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	54	det	_	_
-54	famílias	família	NOUN	NOUN	_	51	nmod	_	_
-55	paulistanas	paulistano	ADJ	ADJ	_	54	amod	_	SpaceAfter=No
-56	"	"	PUNCT	.	_	10	punct	_	SpaceAfter=No
-57	,	,	PUNCT	.	_	58	punct	_	_
-58	diz	dizer	VERB	VERB	_	0	root	_	SpaceAfter=No
-59	.	.	PUNCT	.	_	58	punct	_	_
+52	de	de	ADP	_	_	54	case	_	_
+53	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	54	det	_	_
+54	famílias	família	NOUN	_	Gender=Fem|Number=Plur	51	nmod	_	_
+55	paulistanas	paulistano	ADJ	_	Gender=Fem|Number=Plur	54	amod	_	SpaceAfter=No
+56	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+57	,	,	PUNCT	_	_	58	punct	_	_
+58	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+59	.	.	PUNCT	_	_	58	punct	_	SpaceAfter=No
 
 # sent_id = train-s6546
 # text = Thierry da Alsácia ou Teodorico da Alsácia (c. 1110 -- 17 de janeiro de 1168) foi conde de Flandres de 1128 a 1168.

@@ -85,34 +85,36 @@
 37	adversários	adversário	NOUN	NOUN	_	33	nmod	_	SpaceAfter=No
 38	.	.	PUNCT	.	_	27	punct	_	_
 
-# sent_id = train-s2275
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O salário corresponde a R $ 580,00, além de vale - transporte e R $ 480,00, divididos em três parcelas, por ano.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	salário	salário	NOUN	NOUN	_	3	nsubj	_	_
-3	corresponde	corresponder	VERB	VERB	_	0	root	_	_
-4	a	_	ADP	ADP	_	5	case	_	_
-5	R	r	NOUN	NOUN	_	3	nmod	_	_
-6	$	_	SYM	SYM	_	5	flat	_	_
-7	580,00	580,00	NUM	NUM	NumType=Card	5	nummod	_	SpaceAfter=No
-8	,	,	PUNCT	.	_	9	punct	_	_
-9	além	além	ADV	ADV	_	3	advmod	_	_
-10	de	de	ADP	ADP	_	11	case	_	_
-11	vale	vale	NOUN	NOUN	_	9	nmod	_	_
-12	-	-	PUNCT	.	_	15	punct	_	_
-13	transporte	transporte	NOUN	NOUN	_	11	flat	_	_
-14	e	e	CCONJ	CONJ	_	15	cc	_	_
-15	R	r	NOUN	NOUN	_	11	conj	_	_
-16	$	_	SYM	SYM	_	15	flat	_	_
-17	480,00	480,00	NUM	NUM	NumType=Card	15	nummod	_	SpaceAfter=No
-18	,	,	PUNCT	.	_	19	punct	_	_
-19	divididos	dividir	VERB	VERB	_	15	acl	_	_
-20	em	em	ADP	ADP	_	22	case	_	_
-21	três	_	NUM	NUM	NumType=Card	22	nummod	_	_
-22	parcelas	parcela	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
-23	,	,	PUNCT	.	_	25	punct	_	_
-24	por	por	ADP	ADP	_	25	case	_	_
-25	ano	ano	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
-26	.	.	PUNCT	.	_	3	punct	_	_
+# sent_id = train-s2275
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	salário	salário	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	corresponde	corresponder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	_	_	5	case	_	_
+5	R	R	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+6	$	$	SYM	_	_	5	nmod	_	_
+7	580,00	580,00	NUM	_	NumType=Card	6	nummod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	_
+9	além	além	ADV	_	_	11	cc	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	vale	vale	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	_
+12	-	-	PUNCT	_	_	13	punct	_	_
+13	transporte	transporte	NOUN	_	Gender=Masc|Number=Sing	11	conj	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	R	R	PROPN	_	Gender=Masc|Number=Sing	11	conj	_	_
+16	$	$	SYM	_	_	15	nmod	_	_
+17	480,00	480,00	NUM	_	NumType=Card	15	nummod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	divididos	dividir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	15	acl	_	_
+20	em	em	ADP	_	_	22	case	_	_
+21	três	três	NUM	_	NumType=Card	22	nummod	_	_
+22	parcelas	parcela	NOUN	_	Gender=Fem|Number=Plur	19	obl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	19	punct	_	_
+24	por	por	ADP	_	_	25	case	_	_
+25	ano	ano	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = train-s2276
 # text = Ao apresentar o recurso eleitoral, a coligação apresentou a substituição da candidata desistente por Rejane Almeida da Cruz Silva, cumprindo desta forma o preenchimento do percentual mínimo de 30 % dentro da coligação.
@@ -283,32 +285,34 @@
 17	belo	belo	NOUN	NOUN	_	15	obj	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = train-s2282
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Franco governa com amplo apoio do Congresso desde a posse em 22 de junho, horas depois da deposição de Lugo.
-1	Franco	_	PROPN	PNOUN	_	2	nsubj	_	_
-2	governa	governar	VERB	VERB	_	0	root	_	_
-3	com	com	ADP	ADP	_	5	case	_	_
-4	amplo	amplo	ADJ	ADJ	_	5	amod	_	_
-5	apoio	apoio	NOUN	NOUN	_	2	nmod	_	_
+# sent_id = train-s2282
+1	Franco	Franco	PROPN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	governa	governar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	amplo	amplo	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+5	apoio	apoio	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
 6-7	do	_	_	_	_	_	_	_	_
-6	de	de	ADP	ADP	_	8	case	_	_
-7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	Congresso	_	PROPN	PNOUN	_	5	nmod	_	_
-9	desde	_	ADP	ADP	_	11	case	_	_
-10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	posse	posse	NOUN	NOUN	_	2	nmod	_	_
-12	em	em	ADP	ADP	_	13	case	_	_
-13	22	22	NUM	NUM	NumType=Card	11	nmod	_	_
-14	de	de	ADP	ADP	_	15	case	_	_
-15	junho	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
-16	,	,	PUNCT	.	_	21	punct	_	_
-17	horas	hora	NOUN	NOUN	_	18	nmod	_	_
-18	depois	depois	ADV	ADV	_	21	case	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Congresso	congresso	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9	desde	desde	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	posse	posse	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+12	em	em	ADP	_	_	13	case	_	_
+13	22	22	NUM	_	NumType=Card	2	obl	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	junho	junho	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	2	punct	_	_
+17	horas	hora	NOUN	_	Gender=Fem|Number=Plur	2	obl	_	_
+18	depois	depois	ADV	_	_	17	advmod	_	_
 19-20	da	_	_	_	_	_	_	_	_
-19	de	de	ADP	ADP	_	18	case	_	_
-20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-21	deposição	deposição	NOUN	NOUN	_	11	nmod	_	_
-22	de	de	ADP	ADP	_	23	case	_	_
-23	Lugo	_	PROPN	PNOUN	_	21	nmod	_	SpaceAfter=No
-24	.	.	PUNCT	.	_	2	punct	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	deposição	deposição	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	Lugo	Lugo	PROPN	_	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 

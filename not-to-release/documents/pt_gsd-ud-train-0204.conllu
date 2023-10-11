@@ -54,39 +54,42 @@
 13	pessoa	pessoa	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s2027
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Foram divulgadas, nesta segunda - feira (8), as produções de entretenimento indicadas ao Emmy Internacional, considerado o Oscar na televisão mundial.
-1	Foram	_	AUX	AUX	_	2	aux:pass	_	_
-2	divulgadas	divulgar	VERB	VERB	_	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	.	_	7	punct	_	_
-4	nesta	_	ADP	ADP	_	7	case	_	_
-5	segunda	_	PROPN	PNOUN	_	7	amod	_	_
-6	-	-	PUNCT	.	_	7	punct	_	_
-7	feira	_	PROPN	PNOUN	_	2	nmod	_	_
-8	(	(	PUNCT	.	_	9	punct	_	SpaceAfter=No
-9	8	8	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
-10	)	)	PUNCT	.	_	9	punct	_	SpaceAfter=No
-11	,	,	PUNCT	.	_	7	punct	_	_
-12	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
-13	produções	produção	NOUN	NOUN	_	2	nsubj:pass	_	_
-14	de	de	ADP	ADP	_	15	case	_	_
-15	entretenimento	entretenimento	NOUN	NOUN	_	13	nmod	_	_
-16	indicadas	indicar	VERB	VERB	_	13	acl	_	_
+# sent_id = train-s2027
+1	Foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	2	aux:pass	_	_
+2	divulgadas	divulgar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4-5	nesta	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	segunda	segundo	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	2	obl	_	_
+7	-	-	PUNCT	_	_	6	punct	_	_
+8	feira	feira	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+9	(8	(8	NUM	_	NumType=Card	8	nummod	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	2	punct	_	_
+12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	produções	produção	NOUN	_	Gender=Fem|Number=Plur	2	nsubj:pass	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	entretenimento	entretenimento	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+16	indicadas	indicar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	13	acl	_	_
 17-18	ao	_	_	_	_	_	_	_	_
-17	a	a	ADP	ADP	_	19	case	_	_
-18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	Emmy	_	PROPN	PNOUN	_	16	nmod	_	_
-20	Internacional	_	PROPN	PNOUN	_	19	amod	_	SpaceAfter=No
-21	,	,	PUNCT	.	_	24	punct	_	_
-22	considerado	considerar	AUX	AUX	_	24	cop	_	_
-23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	Oscar	_	PROPN	PNOUN	_	19	acl	_	_
+17	a	a	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Emmy	Emmy	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	16	obl	_	_
+20	Internacional	Internacional	PROPN	_	Number=Sing	19	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	considerado	considerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	19	acl	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Oscar	oscar	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
 25-26	na	_	_	_	_	_	_	_	_
-25	em	em	ADP	ADP	_	27	case	_	_
-26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	televisão	televisão	NOUN	NOUN	_	24	nmod	_	_
-28	mundial	mundial	ADJ	ADJ	_	27	amod	_	SpaceAfter=No
-29	.	.	PUNCT	.	_	2	punct	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	televisão	televisão	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
+28	mundial	mundial	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = train-s2028
 # text = Estava localizado na região de Chemnitz, no estado da Saxônia.
@@ -213,48 +216,50 @@
 36	Tarquínios	_	PROPN	PNOUN	_	35	appos	_	SpaceAfter=No
 37	.	.	PUNCT	.	_	27	punct	_	_
 
-# sent_id = train-s2033
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Na relargada da prova, com 30 voltas para o fim, Ron Hornaday deu um incrível "pulo - do - gato" e saiu de quarto para primeiro com muita vontade.
+# sent_id = train-s2033
 1-2	Na	_	_	_	_	_	_	_	_
-1	Em	em	ADP	ADP	_	17	case	_	_
-2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-3	relargada	_	NOUN	NOUN	_	1	nsubj	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	relargada	relargada	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
 4-5	da	_	_	_	_	_	_	_	_
-4	de	de	ADP	ADP	_	6	case	_	_
-5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	prova	prova	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
-7	,	,	PUNCT	.	_	10	punct	_	_
-8	com	com	ADP	ADP	_	10	case	_	_
-9	30	30	NUM	NUM	NumType=Card	10	nummod	_	_
-10	voltas	volta	NOUN	NOUN	_	3	nmod	_	_
-11	para	para	ADP	ADP	_	13	case	_	_
-12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	fim	fim	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
-14	,	,	PUNCT	.	_	1	punct	_	_
-15	Ron	_	PROPN	PNOUN	_	17	nsubj	_	_
-16	Hornaday	_	PROPN	PNOUN	_	15	flat	_	_
-17	deu	dar	VERB	VERB	_	0	root	_	_
-18	um	um	DET	DET	_	21	det	_	_
-19	incrível	incrível	ADJ	ADJ	_	21	amod	_	_
-20	"	"	PUNCT	.	_	21	punct	_	SpaceAfter=No
-21	pulo	pulo	NOUN	NOUN	_	17	obj	_	_
-22	-	-	PUNCT	.	_	21	punct	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	prova	prova	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	com	com	ADP	_	_	10	case	_	_
+9	30	30	NUM	_	NumType=Card	10	nummod	_	_
+10	voltas	volta	NOUN	_	Gender=Fem|Number=Plur	17	obl	_	_
+11	para	para	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	fim	fim	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	10	punct	_	_
+15	Ron	Ron	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	17	nsubj	_	_
+16	Hornaday	Hornaday	PROPN	_	Number=Sing	15	flat:name	_	_
+17	deu	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+18	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+19	incrível	incrível	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
+20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	pulo	pulo	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+22	-	-	PUNCT	_	_	21	punct	_	_
 23-24	do	_	_	_	_	_	_	_	_
-23	de	de	ADP	ADP	_	26	case	_	_
-24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-25	-	-	PUNCT	.	_	26	punct	_	_
-26	gato	gato	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
-27	"	"	PUNCT	.	_	21	punct	_	_
-28	e	e	CCONJ	CONJ	_	29	cc	_	_
-29	saiu	sair	VERB	VERB	_	17	conj	_	_
-30	de	de	ADP	ADP	_	31	case	_	_
-31	quarto	quarto	NOUN	NOUN	_	29	nmod	_	_
-32	para	para	ADP	ADP	_	33	case	_	_
-33	primeiro	primeiro	NOUN	NOUN	_	29	nmod	_	_
-34	com	com	ADP	ADP	_	36	case	_	_
-35	muita	_	DET	DET	_	36	det	_	_
-36	vontade	vontade	NOUN	NOUN	_	29	nmod	_	SpaceAfter=No
-37	.	.	PUNCT	.	_	17	punct	_	_
+23	de	de	ADP	_	_	26	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	-	-	PUNCT	_	_	26	punct	_	_
+26	gato	gato	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	21	punct	_	_
+28	e	e	CCONJ	_	_	29	cc	_	_
+29	saiu	sair	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	conj	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	quarto	quarto	NOUN	_	Gender=Masc|Number=Sing	29	obl	_	_
+32	para	para	ADP	_	_	33	case	_	_
+33	primeiro	primeiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	31	nmod	_	_
+34	com	com	ADP	_	_	36	case	_	_
+35	muita	muito	DET	_	Gender=Fem|Number=Sing|PronType=Ind	36	det	_	_
+36	vontade	vontade	NOUN	_	Gender=Fem|Number=Sing	29	obl	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
 
 # sent_id = train-s2034
 # text = Apesar disso, o relatório aponta o Brasil no grupo de países "que fizeram os maiores progressos no tocante ao desenvolvimento das TICs" -- ao lado de Bahrein, Gana, Quênia, Ruanda e Arábia Saudita.

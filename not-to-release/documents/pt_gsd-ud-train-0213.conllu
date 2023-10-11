@@ -1,62 +1,68 @@
-# sent_id = train-s2114
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O Blu - Ray dos Vingadores será lançado no dia 25 de setembro deste ano.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	Blu	_	PROPN	PNOUN	_	9	nsubj:pass	_	_
-3	-	-	PUNCT	.	_	2	punct	_	_
-4	Ray	_	PROPN	PNOUN	_	2	flat	_	_
+# sent_id = train-s2114
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Blu	Blu	PROPN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+3	-	-	PUNCT	_	_	2	punct	_	_
+4	Ray	Ray	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
 5-6	dos	_	_	_	_	_	_	_	_
-5	de	de	ADP	ADP	_	7	case	_	_
-6	Os	_	PROPN	PNOUN	_	7	det	_	_
-7	Vingadores	_	PROPN	PNOUN	_	2	nmod	_	_
-8	será	ser	AUX	AUX	_	9	aux:pass	_	_
-9	lançado	lançar	VERB	VERB	_	0	root	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	Vingadores	Vingadores	PROPN	_	Number=Sing	2	nmod	_	_
+8	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	aux:pass	_	_
+9	lançado	lançar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 10-11	no	_	_	_	_	_	_	_	_
-10	em	em	ADP	ADP	_	12	case	_	_
-11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	dia	dia	NOUN	NOUN	_	9	nmod	_	_
-13	25	25	NUM	NUM	NumType=Card	12	nmod	_	_
-14	de	de	ADP	ADP	_	15	case	_	_
-15	setembro	_	PROPN	PNOUN	_	13	nmod	_	_
-16	deste	_	ADP	ADP	_	17	case	_	_
-17	ano	ano	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
-18	.	.	PUNCT	.	_	9	punct	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	dia	dia	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+13	25	25	NUM	_	NumType=Card	12	nummod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	setembro	setembro	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+16-17	deste	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
+18	ano	ano	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
 
-# sent_id = train-s2115
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = De acordo com o Unied States Census Bureau tem uma área de 1,7 km ², dos quais 1,7 km ² cobertos por terra e 0,0 km ² cobertos por água.
-1	De	_	ADP	ADP	_	2	case	_	_
-2	acordo	acordo	NOUN	NOUN	_	9	nmod	_	_
-3	com	com	ADP	ADP	_	6	case	_	_
-4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-5	Unied	_	PROPN	PNOUN	_	6	amod	_	_
-6	States	_	PROPN	PNOUN	_	2	nmod	_	_
-7	Census	_	PROPN	PNOUN	_	6	flat	_	_
-8	Bureau	_	PROPN	PNOUN	_	6	flat	_	_
-9	tem	ter	VERB	VERB	_	0	root	_	_
-10	uma	um	DET	DET	_	11	det	_	_
-11	área	área	NOUN	NOUN	_	9	obj	_	_
-12	de	de	ADP	ADP	_	14	case	_	_
-13	1,7	1,7	NUM	NUM	NumType=Card	14	nummod	_	_
-14	km	km	NOUN	NOUN	_	11	nmod	_	_
-15	²	_	PUNCT	.	_	14	punct	_	SpaceAfter=No
-16	,	,	PUNCT	.	_	21	punct	_	_
+# sent_id = train-s2115
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Unied	Unied	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	2	nmod	_	_
+6	States	States	PROPN	_	Number=Sing	5	flat:name	_	_
+7	Census	Census	PROPN	_	Number=Sing	5	flat:name	_	_
+8	Bureau	Bureau	PROPN	_	Number=Sing	5	flat:name	_	_
+9	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	área	área	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	1,7	1,7	NUM	_	NumType=Card	14	nummod	_	_
+14	km	km	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
+15	²	²	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	21	punct	_	_
 17-18	dos	_	_	_	_	_	_	_	_
-17	de	de	ADP	ADP	_	19	case	_	_
-18	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
-19	quais	_	PRON	PRON	_	21	nmod	_	_
-20	1,7	1,7	NUM	NUM	NumType=Card	21	nummod	_	_
-21	km	km	NOUN	NOUN	_	14	appos	_	_
-22	²	_	PUNCT	.	_	28	punct	_	_
-23	cobertos	cobrir	VERB	VERB	_	21	acl	_	_
-24	por	por	ADP	ADP	_	25	case	_	_
-25	terra	terra	NOUN	NOUN	_	23	nmod	_	_
-26	e	e	CCONJ	CONJ	_	28	cc	_	_
-27	0,0	0,0	NUM	NUM	NumType=Card	28	nummod	_	_
-28	km	km	NOUN	NOUN	_	21	conj	_	_
-29	²	_	PUNCT	.	_	28	punct	_	_
-30	cobertos	cobrir	VERB	VERB	_	28	acl	_	_
-31	por	por	ADP	ADP	_	32	case	_	_
-32	água	água	NOUN	NOUN	_	30	nmod	_	SpaceAfter=No
-33	.	.	PUNCT	.	_	9	punct	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	os	o	DET	_	Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	quais	qual	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	21	nmod	_	_
+20	1,7	1,7	NUM	_	NumType=Card	21	nummod	_	_
+21	km	km	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
+22	²	²	PUNCT	_	_	21	punct	_	_
+23	cobertos	cobrir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	21	acl	_	_
+24	por	por	ADP	_	_	25	case	_	_
+25	terra	terra	NOUN	_	Gender=Fem|Number=Sing	23	obl:agent	_	_
+26	e	e	CCONJ	_	_	28	cc	_	_
+27	0,0	0,0	NUM	_	NumType=Card	28	nummod	_	_
+28	km	km	NOUN	_	Gender=Masc|Number=Plur	21	conj	_	_
+29	²	²	PUNCT	_	_	30	punct	_	_
+30	cobertos	cobrir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	28	acl	_	_
+31	por	por	ADP	_	_	32	case	_	_
+32	água	água	NOUN	_	Gender=Fem|Number=Sing	30	obl:agent	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
 
 # sent_id = train-s2116
 # text = Isso quer dizer, no geral, em que os homens recorrem a uma conduta "não tão ética" quanto estão prestes a "perder uma batalha", e essa perda é vista como uma "ameaça a sua masculinidade".
@@ -131,33 +137,33 @@
 19	diminua	diminuir	VERB	VERB	_	4	csubj	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s2118
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Obama sempre deixou claro que se opõe à lei, aprovada em 2010, e que ganhou versões noutros estados.
-1	Obama	_	PROPN	PNOUN	_	3	nsubj	_	_
-2	sempre	sempre	ADV	ADV	_	3	advmod	_	_
-3	deixou	deixar	VERB	VERB	_	0	root	_	_
-4	claro	claro	ADJ	ADJ	_	3	xcomp	_	_
-5	que	que	CCONJ	CONJ	_	7	mark	_	_
-6	se	_	PRON	PRON	_	7	obj	_	_
-7	opõe	opor	VERB	VERB	_	3	ccomp	_	_
+# sent_id = train-s2118
+1	Obama	Obama	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+2	sempre	sempre	ADV	_	_	3	advmod	_	_
+3	deixou	deixar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	claro	claro	ADV	_	_	3	advmod	_	_
+5	que	que	SCONJ	_	_	7	mark	_	_
+6	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl	_	_
+7	opõe	opor	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
 8-9	à	_	_	_	_	_	_	_	_
-8	a	a	ADP	ADP	_	10	case	_	_
-9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	lei	lei	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-11	,	,	PUNCT	.	_	7	punct	_	_
-12	aprovada	aprovar	VERB	VERB	_	10	acl	_	_
-13	em	em	ADP	ADP	_	14	case	_	_
-14	2010	2010	NUM	NUM	NumType=Card	12	nmod	_	SpaceAfter=No
-15	,	,	PUNCT	.	_	18	punct	_	_
-16	e	e	CCONJ	CONJ	_	18	cc	_	_
-17	que	_	PRON	PRON	_	18	nsubj	_	_
-18	ganhou	ganhar	VERB	VERB	_	12	conj	_	_
-19	versões	versão	NOUN	NOUN	_	18	obj	_	_
-20-21	noutros	_	_	_	_	_	_	_	_
-20	em	em	ADP	ADP	_	22	case	_	_
-21	outros	_	DET	DET	_	22	det	_	_
-22	estados	estado	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
-23	.	.	PUNCT	.	_	3	punct	_	_
+8	a	a	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	lei	lei	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	aprovada	aprovar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	10	acl	_	_
+13	em	em	ADP	_	_	14	case	_	_
+14	2010	2010	NUM	_	NumType=Card	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	12	punct	_	_
+16	e	e	CCONJ	_	_	18	cc	_	_
+17	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	18	nsubj	_	_
+18	ganhou	ganhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+19	versões	versão	NOUN	_	Gender=Fem|Number=Plur	18	obj	_	_
+20	noutros	noutro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	21	det	_	_
+21	estados	estado	NOUN	_	Gender=Masc|Number=Plur	18	obj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = train-s2119
 # text = A ida de Loureiro para o segundo turno foi uma surpresa, já que todas as pesquisas de intenção de voto indicavam que ele ficaria em terceiro lugar.
@@ -224,34 +230,36 @@
 27	Amín	_	PROPN	PNOUN	_	26	nsubj	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	26	punct	_	_
 
-# sent_id = train-s2121
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Além dos preços, o ministério quer detalhes sobre o volume de investimentos nos laboratórios brasileiros que cada proposta irá demandar.
-1	Além	além	NOUN	NOUN	_	4	case	_	_
+# sent_id = train-s2121
+1	Além	além	ADV	_	_	8	advmod	_	_
 2-3	dos	_	_	_	_	_	_	_	_
-2	de	de	ADP	ADP	_	1	case	_	_
-3	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	1	det	_	_
-4	preços	preço	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-5	,	,	PUNCT	.	_	4	punct	_	_
-6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	ministério	ministério	NOUN	NOUN	_	8	nsubj	_	_
-8	quer	querer	VERB	VERB	_	0	root	_	_
-9	detalhes	detalhe	NOUN	NOUN	_	8	obj	_	_
-10	sobre	_	ADP	ADP	_	12	case	_	_
-11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	volume	volume	NOUN	NOUN	_	9	nmod	_	_
-13	de	de	ADP	ADP	_	14	case	_	_
-14	investimentos	investimento	NOUN	NOUN	_	12	nmod	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	preços	preço	NOUN	_	Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	1	punct	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ministério	ministério	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+8	quer	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	detalhes	detalhe	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	_
+10	sobre	sobre	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	volume	volume	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	investimentos	investimento	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
 15-16	nos	_	_	_	_	_	_	_	_
-15	em	em	ADP	ADP	_	17	case	_	_
-16	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
-17	laboratórios	laboratório	NOUN	NOUN	_	14	nmod	_	_
-18	brasileiros	brasileiro	ADJ	ADJ	_	17	amod	_	_
-19	que	_	PRON	PRON	_	23	obj	_	_
-20	cada	_	DET	DET	_	21	det	_	_
-21	proposta	_	NOUN	NOUN	_	23	nsubj	_	_
-22	irá	_	AUX	AUX	_	23	aux	_	_
-23	demandar	demandar	VERB	VERB	_	14	acl:relcl	_	SpaceAfter=No
-24	.	.	PUNCT	.	_	8	punct	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	laboratórios	laboratório	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
+18	brasileiros	brasileiro	ADJ	_	Gender=Masc|Number=Plur	17	amod	_	_
+19	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	23	obj	_	_
+20	cada	cada	DET	_	Gender=Fem|Number=Sing|PronType=Tot	21	det	_	_
+21	proposta	proposta	NOUN	_	Gender=Fem|Number=Sing	23	nsubj	_	_
+22	irá	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	23	aux	_	_
+23	demandar	demandar	VERB	_	VerbForm=Inf	12	acl:relcl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
 
 # sent_id = train-s2122
 # text = Com inchaço no rosto e deformação, ela já passou por seis especialistas desde 2010 e luta para conseguir uma cirurgia reparatória.

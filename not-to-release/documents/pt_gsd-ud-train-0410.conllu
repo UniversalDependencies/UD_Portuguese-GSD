@@ -221,22 +221,24 @@
 10	novas	novo	ADJ	ADJ	_	9	amod	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s4075
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Candidatos a vereador de diferentes partidos e de correntes opostas abraçaram a causa.
-1	Candidatos	candidato	NOUN	NOUN	_	11	nsubj	_	_
-2	a	_	DET	DET	_	3	case	_	_
-3	vereador	vereador	NOUN	NOUN	_	1	nmod	_	_
-4	de	de	ADP	ADP	_	6	case	_	_
-5	diferentes	_	DET	DET	_	6	det	_	_
-6	partidos	partido	NOUN	NOUN	_	1	nmod	_	_
-7	e	e	CCONJ	CONJ	_	9	cc	_	_
-8	de	de	ADP	ADP	_	9	case	_	_
-9	correntes	corrente	NOUN	NOUN	_	6	conj	_	_
-10	opostas	oposto	ADJ	ADJ	_	9	amod	_	_
-11	abraçaram	abraçar	VERB	VERB	_	0	root	_	_
-12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	causa	causa	NOUN	NOUN	_	11	obj	_	SpaceAfter=No
-14	.	.	PUNCT	.	_	11	punct	_	_
+# sent_id = train-s4075
+1	Candidatos	candidato	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
+2	a	a	ADP	_	_	3	case	_	_
+3	vereador	vereador	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	diferentes	diferente	ADJ	_	Gender=Masc|Number=Plur	6	amod	_	_
+6	partidos	partido	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
+7	e	e	CCONJ	_	_	9	cc	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	correntes	corrente	NOUN	_	Gender=Fem|Number=Plur	6	conj	_	_
+10	opostas	oposto	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	_
+11	abraçaram	abraçar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	causa	causa	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
 
 # sent_id = train-s4076
 # text = Para questões disciplinares, com valores e penas a serem estipuladas pela direção, ficava o aviso de que a consequência poderia ser pesada.

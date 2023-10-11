@@ -57,49 +57,51 @@
 53	Rondonópolis	_	PROPN	PNOUN	_	51	nmod	_	SpaceAfter=No
 54	.	.	PUNCT	.	_	17	punct	_	_
 
-# sent_id = test-s817
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Os acusados realizaram a contratação ilegal duma empresa de consultoria em dois momentos distintos, causando prejuízo ao erário que chega a R $ 1,045 milhão (um milhão e quarenta e cinco mil reais).
-1	Os	o	DET	DET	_	2	det	_	_
-2	acusados	acusado	NOUN	NOUN	_	3	nsubj	_	_
-3	realizaram	realizar	VERB	VERB	_	0	root	_	_
-4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	contratação	contratação	NOUN	NOUN	_	3	obj	_	_
-6	ilegal	ilegal	ADJ	ADJ	_	5	amod	_	_
+# sent_id = test-s817
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	acusados	acusado	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	realizaram	realizar	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	contratação	contratação	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	ilegal	ilegal	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
 7-8	duma	_	_	_	_	_	_	_	_
-7	de	de	ADP	ADP	_	9	case	_	_
-8	uma	um	DET	DET	_	9	det	_	_
-9	empresa	empresa	NOUN	NOUN	_	5	nmod	_	_
-10	de	de	ADP	ADP	_	11	case	_	_
-11	consultoria	consultoria	NOUN	NOUN	_	9	nmod	_	_
-12	em	em	ADP	ADP	_	14	case	_	_
-13	dois	_	NUM	NUM	NumType=Card	14	nummod	_	_
-14	momentos	momento	NOUN	NOUN	_	3	nmod	_	_
-15	distintos	distinto	ADJ	ADJ	_	14	amod	_	SpaceAfter=No
-16	,	,	PUNCT	.	_	17	punct	_	_
-17	causando	causar	VERB	VERB	_	3	acl	_	_
-18	prejuízo	prejuízo	NOUN	NOUN	_	17	obj	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	consultoria	consultoria	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	dois	dois	NUM	_	NumType=Card	14	nummod	_	_
+14	momentos	momento	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	_
+15	distintos	distinto	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	causando	causar	VERB	_	VerbForm=Ger	3	advcl	_	_
+18	prejuízo	prejuízo	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
 19-20	ao	_	_	_	_	_	_	_	_
-19	a	a	ADP	ADP	_	21	case	_	_
-20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	erário	erário	NOUN	NOUN	_	17	iobj	_	_
-22	que	_	PRON	PRON	_	23	nsubj	_	_
-23	chega	chegar	VERB	VERB	_	18	acl:relcl	_	_
-24	a	_	ADP	ADP	_	25	case	_	_
-25	R	r	NOUN	NOUN	_	23	nmod	_	_
-26	$	_	SYM	SYM	_	25	flat	_	_
-27	1,045	1,045	NUM	NUM	NumType=Card	28	nummod	_	_
-28	milhão	_	NUM	NUM	NumType=Card	25	nummod	_	_
-29	(	(	PUNCT	.	_	37	punct	_	SpaceAfter=No
-30	um	_	NUM	NUM	NumType=Card	31	nummod	_	_
-31	milhão	_	NUM	NUM	NumType=Card	32	nummod	_	_
-32	e	_	CCONJ	CONJ	_	33	nummod	_	_
-33	quarenta	_	NUM	NUM	NumType=Card	34	nummod	_	_
-34	e	_	CCONJ	CONJ	_	35	nummod	_	_
-35	cinco	_	NUM	NUM	NumType=Card	36	nummod	_	_
-36	mil	_	NUM	NUM	NumType=Card	37	nummod	_	_
-37	reais	real	NOUN	NOUN	_	25	appos	_	SpaceAfter=No
-38	)	)	PUNCT	.	_	37	punct	_	SpaceAfter=No
-39	.	.	PUNCT	.	_	3	punct	_	_
+19	a	a	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	erário	erário	NOUN	_	Gender=Masc|Number=Sing	17	iobj	_	_
+22	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	23	nsubj	_	_
+23	chega	chegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+24	a	a	ADP	_	_	25	case	_	_
+25	R	R	PROPN	_	Gender=Masc|Number=Sing	23	obl	_	_
+26	$	$	SYM	_	_	25	nmod	_	_
+27	1,045	1,045	NUM	_	NumType=Card	26	nummod	_	_
+28	milhão	milhão	NUM	_	NumType=Card	27	flat	_	_
+29	(	(	PUNCT	_	_	37	punct	_	SpaceAfter=No
+30	um	um	NUM	_	NumType=Card	37	nummod	_	_
+31	milhão	milhão	NUM	_	NumType=Card	30	flat	_	_
+32	e	e	CCONJ	_	_	33	cc	_	_
+33	quarenta	quarenta	NUM	_	NumType=Card	30	conj	_	_
+34	e	e	CCONJ	_	_	33	cc	_	_
+35	cinco	cinco	NUM	_	NumType=Card	30	conj	_	_
+36	mil	mil	NUM	_	NumType=Card	30	flat	_	_
+37	reais	real	NOUN	_	Gender=Masc|Number=Plur	26	appos	_	SpaceAfter=No
+38	)	)	PUNCT	_	_	37	punct	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = test-s818
 # text = Ele teve os direitos políticos suspensos por oito anos devido a uma condenação criminal transitada em julgado.

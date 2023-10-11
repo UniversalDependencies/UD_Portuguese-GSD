@@ -14,24 +14,26 @@
 12	Mandelli	_	PROPN	PNOUN	_	11	flat	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = train-s9268
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Para Luiz Filho, apesar da pouca violência, foi uma experiência terrível.
-1	Para	_	ADP	ADP	_	2	case	_	_
-2	Luiz	_	PROPN	PNOUN	_	13	nmod	_	_
-3	Filho	_	PROPN	PNOUN	_	2	flat	_	SpaceAfter=No
-4	,	,	PUNCT	.	_	2	punct	_	_
-5	apesar	apesar	ADV	ADV	_	9	case	_	_
+# sent_id = train-s9268
+1	Para	para	ADP	_	_	2	case	_	_
+2	Luiz	Luiz	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	13	nmod	_	_
+3	Filho	Filho	PROPN	_	Number=Sing	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	apesar	apesar	ADV	_	ExtPos=ADP	9	case	_	_
 6-7	da	_	_	_	_	_	_	_	_
-6	de	de	ADP	ADP	_	5	case	_	_
-7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-8	pouca	_	DET	DET	_	9	det	_	_
-9	violência	violência	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
-10	,	,	PUNCT	.	_	9	punct	_	_
-11	foi	_	AUX	AUX	_	13	cop	_	_
-12	uma	um	DET	DET	_	13	det	_	_
-13	experiência	experiência	NOUN	NOUN	_	0	root	_	_
-14	terrível	terrível	ADJ	ADJ	_	13	amod	_	SpaceAfter=No
-15	.	.	PUNCT	.	_	13	punct	_	_
+6	de	de	ADP	_	_	5	fixed	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	pouca	pouco	DET	_	Gender=Fem|Number=Sing|PronType=Ind	9	det	_	_
+9	violência	violência	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+12	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	experiência	experiência	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+14	terrível	terrível	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
 
 # sent_id = train-s9269
 # text = Homenagem a D. João VI, da Casa Real de Portugal, família de Bragança, em cuja honra nossa cidade tomou o nome que hoje ostenta.
@@ -66,43 +68,45 @@
 28	ostenta	ostentar	VERB	VERB	_	25	acl:relcl	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	1	punct	_	_
 
-# sent_id = train-s9270
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Em sua primeira Olimpíada, o ponteiro Matthew Anderson também sabe da força da seleção brasileira, mas vê uma equipe menos consistente do que em anos anteriores.
-1	Em	em	ADP	ADP	_	4	case	_	_
-2	sua	_	DET	DET	_	4	det:poss	_	_
-3	primeira	primeiro	ADJ	ADJ	_	4	amod	_	_
-4	Olimpíada	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
-5	,	,	PUNCT	.	_	4	punct	_	_
-6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	ponteiro	ponteiro	NOUN	NOUN	_	11	nsubj	_	_
-8	Matthew	_	PROPN	PNOUN	_	7	appos	_	_
-9	Anderson	_	PROPN	PNOUN	_	8	flat	_	_
-10	também	também	ADV	ADV	_	11	advmod	_	_
-11	sabe	saber	VERB	VERB	_	0	root	_	_
+# sent_id = train-s9270
+1	Em	em	ADP	_	_	4	case	_	_
+2	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	4	det	_	_
+3	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
+4	Olimpíada	olimpíada	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ponteiro	ponteiro	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+8	Matthew	Matthew	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	7	appos	_	_
+9	Anderson	Anderson	PROPN	_	Number=Sing	8	flat:name	_	_
+10	também	também	ADV	_	_	11	advmod	_	_
+11	sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12-13	da	_	_	_	_	_	_	_	_
-12	de	de	ADP	ADP	_	14	case	_	_
-13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	força	força	NOUN	NOUN	_	11	nmod	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	força	força	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
 15-16	da	_	_	_	_	_	_	_	_
-15	de	de	ADP	ADP	_	17	case	_	_
-16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	seleção	seleção	NOUN	NOUN	_	14	nmod	_	_
-18	brasileira	brasileiro	ADJ	ADJ	_	17	amod	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	21	punct	_	_
-20	mas	mas	CCONJ	CONJ	_	21	cc	_	_
-21	vê	ver	VERB	VERB	_	11	conj	_	_
-22	uma	um	DET	DET	_	23	det	_	_
-23	equipe	equipe	NOUN	NOUN	_	21	obj	_	_
-24	menos	menos	ADV	ADV	_	25	advmod	_	_
-25	consistente	consistente	ADJ	ADJ	_	23	amod	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	seleção	seleção	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+18	brasileira	brasileiro	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	21	punct	_	_
+20	mas	mas	CCONJ	_	_	21	cc	_	_
+21	vê	ver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+22	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	equipe	equipe	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
+24	menos	menos	ADV	_	_	25	advmod	_	_
+25	consistente	consistente	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
 26-27	do	_	_	_	_	_	_	_	_
-26	de	de	ADP	ADP	_	25	case	_	_
-27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-28	que	_	ADP	ADP	_	26	fixed	_	_
-29	em	em	ADP	ADP	_	30	case	_	_
-30	anos	_	PROPN	PNOUN	_	26	nmod	_	_
-31	anteriores	anterior	ADJ	ADJ	_	30	amod	_	SpaceAfter=No
-32	.	.	PUNCT	.	_	11	punct	_	_
+26	de	de	ADP	_	_	30	case	_	_
+27	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	26	fixed	_	_
+28	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	26	fixed	_	_
+29	em	em	ADP	_	_	30	case	_	_
+30	anos	ano	NOUN	_	Gender=Masc|Number=Plur	25	obl	_	_
+31	anteriores	anterior	ADJ	_	Gender=Masc|Number=Plur	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
 
 # sent_id = train-s9271
 # text = A sociedade no período açúcar era marcada pela grande diferenciação social.

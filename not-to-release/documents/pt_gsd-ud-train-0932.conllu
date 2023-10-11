@@ -49,17 +49,19 @@
 43	mortais	_	NOUN	NOUN	_	39	nmod	_	SpaceAfter=No
 44	.	.	PUNCT	.	_	11	punct	_	_
 
-# sent_id = train-s9248
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Seja uma raquete de tênis ou uma bicicleta.
-1	Seja	ser	VERB	VERB	_	3	cc	_	_
-2	uma	um	DET	DET	_	3	det	_	_
-3	raquete	raquete	NOUN	NOUN	_	0	root	_	_
-4	de	de	ADP	ADP	_	5	case	_	_
-5	tênis	tênis	NOUN	NOUN	_	3	nmod	_	_
-6	ou	ou	CCONJ	CONJ	_	8	cc	_	_
-7	uma	um	DET	DET	_	8	det	_	_
-8	bicicleta	bicicleta	NOUN	NOUN	_	3	conj	_	SpaceAfter=No
-9	.	.	PUNCT	.	_	3	punct	_	_
+# sent_id = train-s9248
+1	Seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	raquete	raquete	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	tênis	tênis	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+6	ou	ou	CCONJ	_	_	8	cc	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	bicicleta	bicicleta	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = train-s9249
 # text = Já o trigo sofreu elevação de 11,8 % em setembro por reflexo duma quebra de safra na Rússia.
@@ -130,46 +132,48 @@
 6	frente	frente	NOUN	NOUN	_	1	nmod	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	1	punct	_	_
 
-# sent_id = train-s9252
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Era o fim da ditadura militar com a abertura democrática, a campanha Diretas Já, a eleição indireta de Tancredo Neves e sua morte, a posse de José Sarney e o Plano Cruzado.
-1	Era	_	AUX	AUX	_	3	cop	_	_
-2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	fim	fim	NOUN	NOUN	_	0	root	_	_
+# sent_id = train-s9252
+1	Era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	fim	fim	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 4-5	da	_	_	_	_	_	_	_	_
-4	de	de	ADP	ADP	_	6	case	_	_
-5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	ditadura	ditadura	NOUN	NOUN	_	3	nmod	_	_
-7	militar	militar	ADJ	ADJ	_	6	amod	_	_
-8	com	com	ADP	ADP	_	10	case	_	_
-9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	abertura	abertura	NOUN	NOUN	_	3	nmod	_	_
-11	democrática	democrático	ADJ	ADJ	_	10	amod	_	SpaceAfter=No
-12	,	,	PUNCT	.	_	14	punct	_	_
-13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	campanha	campanha	NOUN	NOUN	_	10	conj	_	_
-15	Diretas	_	PROPN	PNOUN	_	14	appos	_	_
-16	Já	_	PROPN	PNOUN	_	15	advmod	_	SpaceAfter=No
-17	,	,	PUNCT	.	_	19	punct	_	_
-18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	eleição	eleição	NOUN	NOUN	_	10	conj	_	_
-20	indireta	indireto	ADJ	ADJ	_	19	amod	_	_
-21	de	de	ADP	ADP	_	22	case	_	_
-22	Tancredo	_	PROPN	PNOUN	_	19	nmod	_	_
-23	Neves	_	PROPN	PNOUN	_	22	flat	_	_
-24	e	e	CCONJ	CONJ	_	26	cc	_	_
-25	sua	_	DET	DET	_	26	det:poss	_	_
-26	morte	morte	NOUN	NOUN	_	19	conj	_	SpaceAfter=No
-27	,	,	PUNCT	.	_	29	punct	_	_
-28	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-29	posse	posse	NOUN	NOUN	_	10	conj	_	_
-30	de	de	ADP	ADP	_	31	case	_	_
-31	José	_	PROPN	PNOUN	_	29	nmod	_	_
-32	Sarney	_	PROPN	PNOUN	_	31	flat	_	_
-33	e	e	CCONJ	CONJ	_	35	cc	_	_
-34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
-35	Plano	_	PROPN	PNOUN	_	10	conj	_	_
-36	Cruzado	_	PROPN	PNOUN	_	35	amod	_	SpaceAfter=No
-37	.	.	PUNCT	.	_	3	punct	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	ditadura	ditadura	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+7	militar	militar	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+8	com	com	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	abertura	abertura	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+11	democrática	democrático	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	_
+15	Diretas	Diretas	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+16	Já	já	ADV	_	_	14	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	eleição	eleição	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	_
+20	indireta	indireto	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	Tancredo	Tancredo	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	19	nmod	_	_
+23	Neves	Neves	PROPN	_	Number=Sing	22	flat:name	_	_
+24	e	e	CCONJ	_	_	26	cc	_	_
+25	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	26	det	_	_
+26	morte	morte	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	29	punct	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	posse	posse	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	José	José	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	29	nmod	_	_
+32	Sarney	Sarney	PROPN	_	Number=Sing	31	flat:name	_	_
+33	e	e	CCONJ	_	_	35	cc	_	_
+34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	Plano	Plano	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	10	conj	_	_
+36	Cruzado	Cruzado	PROPN	_	Number=Sing	35	flat:name	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = train-s9253
 # text = O Nuci (Nível de Utilização da Capacidade Instalada) da indústria cresceu de 83,7 % para 84,0 % na passagem de julho para o mês de agosto, na série com ajuste sazonal.

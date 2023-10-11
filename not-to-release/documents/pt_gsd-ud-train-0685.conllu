@@ -86,38 +86,40 @@
 48	grupo	grupo	NOUN	NOUN	_	46	nsubj	_	SpaceAfter=No
 49	.	.	PUNCT	.	_	46	punct	_	_
 
-# sent_id = train-s6802
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Considerado o maior evento do segmento na América Latina, a edição trouxe este ano profissionais reconhecidos mundialmente, além de debates e cases internacionais.
-1	Considerado	considerar	AUX	AUX	_	4	cop	_	_
-2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-3	maior	maior	ADJ	ADJ	_	4	amod	_	_
-4	evento	evento	NOUN	NOUN	_	14	acl	_	_
+# sent_id = train-s6802
+1	Considerado	considerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	15	advcl	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	maior	maior	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+4	evento	evento	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
 5-6	do	_	_	_	_	_	_	_	_
-5	de	de	ADP	ADP	_	7	case	_	_
-6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	segmento	segmento	NOUN	NOUN	_	4	nmod	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	segmento	segmento	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 8-9	na	_	_	_	_	_	_	_	_
-8	em	em	ADP	ADP	_	10	case	_	_
-9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	América	_	PROPN	PNOUN	_	4	nmod	_	_
-11	Latina	_	PROPN	PNOUN	_	10	amod	_	SpaceAfter=No
-12	,	,	PUNCT	.	_	4	punct	_	_
-13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	edição	edição	NOUN	NOUN	_	15	nsubj	_	_
-15	trouxe	trazer	VERB	VERB	_	0	root	_	_
-16	este	_	DET	DET	_	17	det	_	_
-17	ano	ano	NOUN	NOUN	_	15	nmod	_	_
-18	profissionais	profissional	NOUN	NOUN	_	15	obj	_	_
-19	reconhecidos	reconhecido	ADJ	ADJ	_	18	amod	_	_
-20	mundialmente	mundialmente	ADV	ADV	_	19	advmod	_	SpaceAfter=No
-21	,	,	PUNCT	.	_	22	punct	_	_
-22	além	além	ADV	ADV	_	15	advmod	_	_
-23	de	de	ADP	ADP	_	24	case	_	_
-24	debates	debate	NOUN	NOUN	_	22	nmod	_	_
-25	e	e	CCONJ	CONJ	_	26	cc	_	_
-26	cases	_	NOUN	NOUN	_	24	conj	_	_
-27	internacionais	internacional	ADJ	ADJ	_	26	amod	_	SpaceAfter=No
-28	.	.	PUNCT	.	_	15	punct	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|PronType=Art	10	det	_	_
+10	América	América	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	4	nmod	_	_
+11	Latina	Latina	PROPN	_	Number=Sing	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	1	punct	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	edição	edição	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
+15	trouxe	trazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+17	ano	ano	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+18	profissionais	profissional	NOUN	_	Gender=Masc|Number=Plur	15	obj	_	_
+19	reconhecidos	reconhecer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	18	acl	_	_
+20	mundialmente	mundialmente	ADV	_	_	19	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	19	punct	_	_
+22	além	além	ADV	_	_	24	cc	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	debates	debate	NOUN	_	Gender=Masc|Number=Plur	18	conj	_	_
+25	e	e	CCONJ	_	_	26	cc	_	_
+26	cases	case	NOUN	_	Gender=Masc|Number=Plur	24	conj	_	_
+27	internacionais	internacional	ADJ	_	Gender=Masc|Number=Plur	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
 
 # sent_id = train-s6803
 # text = Leandro fica mal por causa de Roni e Suelen.
@@ -158,25 +160,29 @@
 21	"	"	PUNCT	.	_	18	punct	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = train-s6805
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Quando ela for adolescente e quiser, ai tudo bem, a decisão é dela".
-1	Quando	_	CCONJ	CONJ	_	3	mark	_	_
-2	ela	_	PRON	PRON	_	3	nsubj	_	_
-3	for	_	VERB	VERB	_	14	advcl	_	_
-4	adolescente	adolescente	ADJ	ADJ	_	3	xcomp	_	_
-5	e	e	CCONJ	CONJ	_	6	cc	_	_
-6	quiser	querer	VERB	VERB	_	3	conj	_	SpaceAfter=No
-7	,	,	PUNCT	.	_	8	punct	_	_
-8	ai	_	ADV	ADV	_	14	advmod	_	_
-9	tudo	_	PRON	PRON	_	14	dep	_	_
-10	bem	bem	ADV	ADV	_	14	advmod	_	SpaceAfter=No
-11	,	,	PUNCT	.	_	10	punct	_	_
-12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	decisão	decisão	NOUN	NOUN	_	14	nsubj	_	_
-14	é	ser	VERB	VERB	_	0	root	_	_
-15	dela	_	X	ADPPRON	_	14	det:poss	_	SpaceAfter=No
-16	"	"	PUNCT	.	_	14	punct	_	SpaceAfter=No
-17	.	.	PUNCT	.	_	14	punct	_	_
+# sent_id = train-s6805
+1	Quando	quando	SCONJ	_	_	4	mark	_	_
+2	ela	ela	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	for	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	cop	_	_
+4	adolescente	adolescente	ADJ	_	Gender=Fem|Number=Sing	8	advcl	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	quiser	querer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	ai	air	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	tudo	tudo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	8	obj	_	_
+10	bem	bem	ADV	_	_	8	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	8	punct	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
+14	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15-16	dela	_	_	_	_	_	_	_	SpaceAfter=No
+15	de	de	ADP	_	_	16	case	_	_
+16	ela	ela	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	parataxis	_	_
+17	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
 
 # sent_id = train-s6806
 # text = O Goytacaz caiu para penúltimo no grupo E, com cinco pontos ganhos, um a mais que o lanterna Audax.

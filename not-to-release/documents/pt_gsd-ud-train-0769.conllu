@@ -31,36 +31,38 @@
 28	colo	colo	NOUN	NOUN	_	25	nmod	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s7634
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Pouco tempo depois, alguns baderneiros conseguiram a entrada pelo portão 8 e começaram a agredir verbalmente os atletas que já estavam iniciando seu trabalho.
-1	Pouco	_	DET	DET	_	2	det	_	_
-2	tempo	tempo	NOUN	NOUN	_	3	nmod	_	_
-3	depois	depois	ADV	ADV	_	7	advmod	_	SpaceAfter=No
-4	,	,	PUNCT	.	_	3	punct	_	_
-5	alguns	_	DET	DET	_	6	det	_	_
-6	baderneiros	_	NOUN	NOUN	_	7	nsubj	_	_
-7	conseguiram	conseguir	VERB	VERB	_	0	root	_	_
-8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	entrada	entrada	NOUN	NOUN	_	7	obj	_	_
+# sent_id = train-s7634
+1	Pouco	pouco	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+3	depois	depois	ADV	_	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	6	det	_	_
+6	baderneiros	baderneiro	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
+7	conseguiram	conseguir	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	entrada	entrada	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
 10-11	pelo	_	_	_	_	_	_	_	_
-10	por	por	ADP	ADP	_	12	case	_	_
-11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	portão	portão	NOUN	NOUN	_	9	nmod	_	_
-13	8	8	NUM	NUM	NumType=Card	12	appos	_	_
-14	e	e	CCONJ	CONJ	_	17	cc	_	_
-15	começaram	começar	AUX	AUX	_	17	aux	_	_
-16	a	_	ADP	ADP	_	17	mark	_	_
-17	agredir	agredir	VERB	VERB	_	7	conj	_	_
-18	verbalmente	verbalmente	ADV	ADV	_	17	advmod	_	_
-19	os	o	DET	DET	_	20	det	_	_
-20	atletas	atleta	NOUN	NOUN	_	17	obj	_	_
-21	que	_	PRON	PRON	_	24	nsubj	_	_
-22	já	já	ADV	ADV	_	24	advmod	_	_
-23	estavam	estar	AUX	AUX	_	24	aux	_	_
-24	iniciando	iniciar	VERB	VERB	_	20	acl:relcl	_	_
-25	seu	_	DET	DET	_	26	det:poss	_	_
-26	trabalho	trabalho	NOUN	NOUN	_	24	obj	_	SpaceAfter=No
-27	.	.	PUNCT	.	_	7	punct	_	_
+10	por	por	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	portão	portão	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+13	8	8	NUM	_	NumType=Card	12	nummod	_	_
+14	e	e	CCONJ	_	_	17	cc	_	_
+15	começaram	começar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+16	a	a	SCONJ	_	_	17	mark	_	_
+17	agredir	agredir	VERB	_	VerbForm=Inf	15	xcomp	_	_
+18	verbalmente	verbalmente	ADV	_	_	17	advmod	_	_
+19	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	atletas	atleta	NOUN	_	Gender=Masc|Number=Plur	17	obj	_	_
+21	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	24	nsubj	_	_
+22	já	já	ADV	_	_	24	advmod	_	_
+23	estavam	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	24	aux	_	_
+24	iniciando	iniciar	VERB	_	VerbForm=Ger	20	acl:relcl	_	_
+25	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	26	det	_	_
+26	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	24	obj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
 # sent_id = train-s7635
 # text = Já o faturamento com manutenção de software foi de 167 milhões de reais em receita líquida, 11,9 % acima do mesmo período de 2011.
@@ -177,90 +179,94 @@
 23	Posidão	_	PROPN	PNOUN	_	22	flat	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = train-s7638
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Com o empate, o Palmeiras voltou a buscar mais toque de bola no meio, com a entrada de Daniel Carvalho no lugar de Obina, que não funcionou muito bem ao lado de Barcos desde o início.
-1	Com	_	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	empate	empate	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
-4	,	,	PUNCT	.	_	3	punct	_	_
-5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	Palmeiras	_	PROPN	PNOUN	_	9	nsubj	_	_
-7	voltou	voltar	AUX	AUX	_	9	aux	_	_
-8	a	_	ADP	ADP	_	9	mark	_	_
-9	buscar	buscar	VERB	VERB	_	0	root	_	_
-10	mais	_	DET	DET	_	11	det	_	_
-11	toque	toque	NOUN	NOUN	_	9	obj	_	_
-12	de	de	ADP	ADP	_	13	case	_	_
-13	bola	bola	NOUN	NOUN	_	11	nmod	_	_
+# sent_id = train-s7638
+1	Com	com	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	empate	empate	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Palmeiras	Palmeiras	PROPN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	voltou	voltar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	a	a	SCONJ	_	_	9	mark	_	_
+9	buscar	buscar	VERB	_	VerbForm=Inf	7	xcomp	_	_
+10	mais	mais	DET	_	Gender=Masc|Number=Sing|PronType=Ind	11	det	_	_
+11	toque	toque	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	bola	bola	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
 14-15	no	_	_	_	_	_	_	_	_
-14	em	em	ADP	ADP	_	16	case	_	_
-15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	meio	meio	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
-17	,	,	PUNCT	.	_	20	punct	_	_
-18	com	com	ADP	ADP	_	20	case	_	_
-19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	entrada	entrada	NOUN	NOUN	_	9	nmod	_	_
-21	de	de	ADP	ADP	_	22	case	_	_
-22	Daniel	_	PROPN	PNOUN	_	20	nmod	_	_
-23	Carvalho	_	PROPN	PNOUN	_	22	flat	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	meio	meio	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	20	punct	_	_
+18	com	com	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	entrada	entrada	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	Daniel	Daniel	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	20	nmod	_	_
+23	Carvalho	Carvalho	PROPN	_	Number=Sing	22	flat:name	_	_
 24-25	no	_	_	_	_	_	_	_	_
-24	em	em	ADP	ADP	_	26	case	_	_
-25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	lugar	lugar	NOUN	NOUN	_	20	nmod	_	_
-27	de	de	ADP	ADP	_	28	case	_	_
-28	Obina	_	PROPN	PNOUN	_	26	nmod	_	SpaceAfter=No
-29	,	,	PUNCT	.	_	32	punct	_	_
-30	que	_	PRON	PRON	_	32	nsubj	_	_
-31	não	não	ADV	ADV	Polarity=Neg	32	advmod	_	_
-32	funcionou	funcionar	VERB	VERB	_	28	acl:relcl	_	_
-33	muito	muito	ADV	ADV	_	34	advmod	_	_
-34	bem	bem	ADV	ADV	_	32	advmod	_	_
+24	em	em	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	lugar	lugar	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	Obina	Obina	PROPN	_	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	32	punct	_	_
+30	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	32	nsubj	_	_
+31	não	não	ADV	_	Polarity=Neg	32	advmod	_	_
+32	funcionou	funcionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	acl:relcl	_	_
+33	muito	muito	ADV	_	_	34	advmod	_	_
+34	bem	bem	ADV	_	_	32	advmod	_	_
 35-36	ao	_	_	_	_	_	_	_	_
-35	a	a	ADP	ADP	_	37	case	_	_
-36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
-37	lado	lado	NOUN	NOUN	_	32	nmod	_	_
-38	de	de	ADP	ADP	_	39	case	_	_
-39	Barcos	_	PROPN	PNOUN	_	37	nmod	_	_
-40	desde	_	ADP	ADP	_	42	case	_	_
-41	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
-42	início	início	NOUN	NOUN	_	32	nmod	_	SpaceAfter=No
-43	.	.	PUNCT	.	_	9	punct	_	_
+35	a	a	ADP	_	_	37	case	_	_
+36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	lado	lado	NOUN	_	Gender=Masc|Number=Sing	32	obl	_	_
+38	de	de	ADP	_	_	39	case	_	_
+39	Barcos	Barcos	PROPN	_	Gender=Masc|Number=Sing	37	nmod	_	_
+40	desde	desde	ADP	_	_	42	case	_	_
+41	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	início	início	NOUN	_	Gender=Masc|Number=Sing	32	obl	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
 
-# sent_id = train-s7639
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = A quem falta a iluminação da fé, o perigo de se voltar contra a excelência do ser humano, é um escolho a surpreender a qualquer momento.
-1	A	_	ADP	ADP	_	25	nmod	_	_
-2	quem	_	PRON	PRON	_	3	nsubj	_	_
-3	falta	faltar	VERB	VERB	_	1	acl:relcl	_	_
-4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	iluminação	iluminação	NOUN	NOUN	_	3	nsubj	_	_
+# sent_id = train-s7639
+1	A	a	SCONJ	_	_	3	mark	_	_
+2	quem	quem	PRON	_	Number=Sing|PronType=Rel	3	nsubj	_	_
+3	falta	faltar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	advcl	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	iluminação	iluminação	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 6-7	da	_	_	_	_	_	_	_	_
-6	de	de	ADP	ADP	_	8	case	_	_
-7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	fé	fé	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	1	punct	_	_
-10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	perigo	perigo	NOUN	NOUN	_	25	nsubj	_	_
-12	de	_	ADP	ADP	_	14	mark	_	_
-13	se	_	PRON	PRON	_	14	obj	_	_
-14	voltar	voltar	VERB	VERB	_	11	nmod	_	_
-15	contra	_	ADP	ADP	_	17	case	_	_
-16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	excelência	excelência	NOUN	NOUN	_	14	nmod	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	fé	fé	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	perigo	perigo	NOUN	_	Gender=Masc|Number=Sing	5	appos	_	_
+12	de	de	SCONJ	_	_	14	mark	_	_
+13	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	expl	_	_
+14	voltar	voltar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	11	acl	_	_
+15	contra	contra	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	excelência	excelência	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
 18-19	do	_	_	_	_	_	_	_	_
-18	de	de	ADP	ADP	_	20	case	_	_
-19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	ser	ser	NOUN	NOUN	_	17	nmod	_	_
-21	humano	humano	ADJ	ADJ	_	20	amod	_	SpaceAfter=No
-22	,	,	PUNCT	.	_	11	punct	_	_
-23	é	ser	AUX	AUX	_	25	cop	_	_
-24	um	um	DET	DET	_	25	det	_	_
-25	escolho	escolho	NOUN	NOUN	_	0	root	_	_
-26	a	_	ADP	ADP	_	27	mark	_	_
-27	surpreender	surpreender	VERB	VERB	_	25	acl:inf	_	_
-28	a	_	ADP	ADP	_	30	case	_	_
-29	qualquer	_	DET	DET	_	30	det	_	_
-30	momento	momento	NOUN	NOUN	_	27	nmod	_	SpaceAfter=No
-31	.	.	PUNCT	.	_	25	punct	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	ser	ser	NOUN	_	ExtPos=NOUN|Gender=Masc|Number=Sing	17	nmod	_	_
+21	humano	humano	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	14	punct	_	_
+23	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+24	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	escolho	escolho	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+26	a	a	SCONJ	_	_	27	mark	_	_
+27	surpreender	surpreender	VERB	_	VerbForm=Inf	25	acl	_	_
+28	a	a	ADP	_	_	30	case	_	_
+29	qualquer	qualquer	DET	_	Gender=Masc|Number=Sing|PronType=Ind	30	det	_	_
+30	momento	momento	NOUN	_	Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
 
 # sent_id = train-s7640
 # text = Lebanon é uma cidade localizada no estado norte - americano de Ohio, no Condado de Warren.

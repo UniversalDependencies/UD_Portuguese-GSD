@@ -89,55 +89,57 @@
 34	aeroportos	aeroporto	NOUN	NOUN	_	31	nmod	_	SpaceAfter=No
 35	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s1371
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O Presidente Jacob Zuma disse que passados 18 anos depois do fim do apartheid (acabou e 1994, antes só a minoria branca governava a África do Sul), o negro sul - africano continua em último lugar.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	Presidente	presidente	NOUN	NOUN	_	5	nsubj	_	_
-3	Jacob	_	PROPN	PNOUN	_	2	appos	_	_
-4	Zuma	_	PROPN	PNOUN	_	3	flat	_	_
-5	disse	dizer	VERB	VERB	_	0	root	_	_
-6	que	que	CCONJ	CONJ	_	40	mark	_	_
-7	passados	passar	VERB	VERB	_	40	acl	_	_
-8	18	18	NUM	NUM	NumType=Card	9	nummod	_	_
-9	anos	ano	NOUN	NOUN	_	7	nsubj	_	_
-10	depois	depois	ADV	ADV	_	13	case	_	_
+# sent_id = train-s1371
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Presidente	presidente	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	Jacob	Jacob	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	2	appos	_	_
+4	Zuma	Zuma	PROPN	_	Number=Sing	3	flat:name	_	_
+5	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	que	que	SCONJ	_	_	40	mark	_	_
+7	passados	passar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	9	acl	_	_
+8	18	18	NUM	_	NumType=Card	9	nummod	_	_
+9	anos	ano	NOUN	_	Gender=Masc|Number=Plur	40	obl	_	_
+10	depois	depois	ADV	_	_	9	advmod	_	_
 11-12	do	_	_	_	_	_	_	_	_
-11	de	de	ADP	ADP	_	10	case	_	_
-12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-13	fim	fim	NOUN	NOUN	_	7	nmod	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	fim	fim	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
 14-15	do	_	_	_	_	_	_	_	_
-14	de	de	ADP	ADP	_	16	case	_	_
-15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	apartheid	apartheid	NOUN	NOUN	_	13	nmod	_	_
-17	(	(	PUNCT	.	_	18	punct	_	SpaceAfter=No
-18	acabou	acabar	VERB	VERB	_	7	parataxis	_	_
-19	e	_	ADP	ADP	_	20	case	_	_
-20	1994	1994	NUM	NUM	NumType=Card	18	nmod	_	SpaceAfter=No
-21	,	,	PUNCT	.	_	27	punct	_	_
-22	antes	antes	ADV	ADV	_	27	advmod	_	_
-23	só	só	ADV	ADV	_	25	advmod	_	_
-24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-25	minoria	minoria	NOUN	NOUN	_	27	nsubj	_	_
-26	branca	branco	ADJ	ADJ	_	25	amod	_	_
-27	governava	governar	VERB	VERB	_	18	conj	_	_
-28	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-29	África	_	NOUN	NOUN	_	27	obj	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	apartheid	apartheid	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	acabou	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	acl:relcl	_	_
+19	e	e	CCONJ	_	_	20	cc	_	_
+20	1994	1994	NUM	_	NumType=Card	18	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	18	punct	_	_
+22	antes	antes	ADV	_	_	27	advmod	_	_
+23	só	só	ADV	_	_	25	advmod	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	minoria	minoria	NOUN	_	Gender=Fem|Number=Sing	27	nsubj	_	_
+26	branca	branco	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	_
+27	governava	governar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	advcl	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	África	África	PROPN	_	Gender=Fem|Number=Sing	27	obj	_	_
 30-31	do	_	_	_	_	_	_	_	_
-30	de	de	ADP	ADP	_	32	case	_	_
-31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
-32	Sul	_	PROPN	PNOUN	_	29	nmod	_	SpaceAfter=No
-33	)	)	PUNCT	.	_	18	punct	_	SpaceAfter=No
-34	,	,	PUNCT	.	_	7	punct	_	_
-35	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
-36	negro	negro	NOUN	NOUN	_	40	nsubj	_	_
-37	sul	sul	ADJ	ADJ	_	39	amod	_	_
-38	-	-	PUNCT	.	_	39	punct	_	_
-39	africano	africano	ADJ	ADJ	_	36	amod	_	_
-40	continua	continuar	VERB	VERB	_	5	ccomp	_	_
-41	em	em	ADP	ADP	_	43	case	_	_
-42	último	último	ADJ	ADJ	_	43	amod	_	_
-43	lugar	lugar	NOUN	NOUN	_	40	nmod	_	SpaceAfter=No
-44	.	.	PUNCT	.	_	5	punct	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	Sul	Sul	PROPN	_	Number=Sing	29	nmod	_	SpaceAfter=No
+33	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	40	punct	_	_
+35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	negro	negro	NOUN	_	Gender=Masc|Number=Sing	40	nsubj	_	_
+37	sul	sul	ADJ	_	Gender=Masc|Number=Sing	36	amod	_	_
+38	-	-	PUNCT	_	_	36	punct	_	_
+39	africano	africano	ADJ	_	Gender=Masc|Number=Sing	36	amod	_	_
+40	continua	continuar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+41	em	em	ADP	_	_	43	case	_	_
+42	último	último	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	43	amod	_	_
+43	lugar	lugar	NOUN	_	Gender=Masc|Number=Sing	40	obl	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # sent_id = train-s1372
 # text = Diversos estudos já deixaram claro que a fraude eleitoral não tem sido um problema sério nos EUA nas décadas recentes.
@@ -167,21 +169,23 @@
 22	recentes	recente	ADJ	ADJ	_	21	amod	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s1373
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Banda de São Paulo presta homenagem a Arctic Monkeys e The Strokes.
-1	Banda	banda	NOUN	NOUN	_	5	nsubj	_	_
-2	de	de	ADP	ADP	_	3	case	_	_
-3	São	_	PROPN	PNOUN	_	1	nmod	_	_
-4	Paulo	_	PROPN	PNOUN	_	3	flat	_	_
-5	presta	prestar	VERB	VERB	_	0	root	_	_
-6	homenagem	homenagem	NOUN	NOUN	_	5	obj	_	_
-7	a	_	ADP	ADP	_	8	case	_	_
-8	Arctic	_	PROPN	PNOUN	_	5	iobj	_	_
-9	Monkeys	_	PROPN	PNOUN	_	8	flat	_	_
-10	e	e	CCONJ	CONJ	_	12	cc	_	_
-11	The	_	PROPN	PNOUN	_	12	det	_	_
-12	Strokes	_	PROPN	PNOUN	_	8	conj	_	SpaceAfter=No
-13	.	.	PUNCT	.	_	5	punct	_	_
+# sent_id = train-s1373
+1	Banda	banda	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	São	São	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	1	nmod	_	_
+4	Paulo	Paulo	PROPN	_	Number=Sing	3	flat:name	_	_
+5	presta	prestar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	homenagem	homenagem	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+7	a	a	ADP	_	_	8	case	_	_
+8	Arctic	Arctic	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	5	obl	_	_
+9	Monkeys	Monkeys	PROPN	_	Number=Sing	8	flat:name	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	The	The	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	8	conj	_	_
+12	Strokes	Strokes	PROPN	_	Number=Sing	11	flat:name	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # sent_id = train-s1374
 # text = Segundo o presidente da Abiape, Mário Menel, a emenda à MP 579 é a solução para um impasse que vem há anos preocupando grandes grupos que investem na autoprodução de energia e enfrentam dificuldades em competir no mercado internacional justamente pelo alto custo da eletricidade no País.

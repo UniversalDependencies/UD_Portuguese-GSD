@@ -231,31 +231,33 @@
 34	político	político	NOUN	NOUN	_	32	nsubj	_	SpaceAfter=No
 35	.	.	PUNCT	.	_	32	punct	_	_
 
-# sent_id = test-s1001
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Apesar da idade, ela vestiu as luvas e pegou o saco de lixo para participar da ação.
-1	Apesar	apesar	ADV	ADV	_	4	case	_	_
+# sent_id = test-s1001
+1	Apesar	apesar	ADV	_	ExtPos=ADP	4	case	_	_
 2-3	da	_	_	_	_	_	_	_	_
-2	de	de	ADP	ADP	_	1	case	_	_
-3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
-4	idade	idade	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-5	,	,	PUNCT	.	_	4	punct	_	_
-6	ela	_	PRON	PRON	_	7	nsubj	_	_
-7	vestiu	vestir	VERB	VERB	_	0	root	_	_
-8	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
-9	luvas	_	NOUN	NOUN	_	7	obj	_	_
-10	e	e	CCONJ	CONJ	_	11	cc	_	_
-11	pegou	pegar	VERB	VERB	_	7	conj	_	_
-12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	saco	saco	NOUN	NOUN	_	11	obj	_	_
-14	de	de	ADP	ADP	_	15	case	_	_
-15	lixo	lixo	NOUN	NOUN	_	13	nmod	_	_
-16	para	_	ADP	ADP	_	17	mark	_	_
-17	participar	participar	VERB	VERB	_	7	advcl	_	_
+2	de	de	ADP	_	_	1	fixed	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	idade	idade	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	ela	ela	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	vestiu	vestir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	luvas	luva	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	pegou	pegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	saco	saco	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	lixo	lixo	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+16	para	para	SCONJ	_	_	17	mark	_	_
+17	participar	participar	VERB	_	VerbForm=Inf	11	advcl	_	_
 18-19	da	_	_	_	_	_	_	_	_
-18	de	de	ADP	ADP	_	20	case	_	_
-19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	ação	ação	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
-21	.	.	PUNCT	.	_	7	punct	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	ação	ação	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
 # sent_id = test-s1002
 # text = A imprudência e as más condições de segurança ocasionaram a morte de mais de duas centenas de pessoas.

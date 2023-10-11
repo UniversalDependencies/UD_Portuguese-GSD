@@ -175,29 +175,31 @@
 20	premiadas	premiar	VERB	VERB	_	4	conj	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s2069
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Questionado se Célio apoiaria o rompimento, Patrus limitou-se a dizer que o ex - prefeito era petista.
-1	Questionado	questionar	VERB	VERB	_	8	acl	_	_
-2	se	_	CCONJ	CONJ	_	4	mark	_	_
-3	Célio	_	PROPN	PNOUN	_	4	nsubj	_	_
-4	apoiaria	apoiar	VERB	VERB	_	1	ccomp	_	_
-5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	rompimento	rompimento	NOUN	NOUN	_	4	obj	_	SpaceAfter=No
-7	,	,	PUNCT	.	_	1	punct	_	_
-8	Patrus	_	PROPN	PNOUN	_	9	nsubj	_	_
+# sent_id = train-s2069
+1	Questionado	questionar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	9	advcl	_	_
+2	se	se	SCONJ	_	_	4	mark	_	_
+3	Célio	Célio	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	apoiaria	apoiar	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	1	ccomp	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	rompimento	rompimento	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	Patrus	Patrus	PROPN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 9-10	limitou-se	_	_	_	_	_	_	_	_
-9	limitou	limitar	VERB	VERB	_	0	root	_	_
-10	se	_	PRON	PRON	_	9	obj	_	_
-11	a	_	DET	DET	_	12	mark	_	_
-12	dizer	dizer	VERB	VERB	_	9	nmod	_	_
-13	que	que	CCONJ	CONJ	_	19	mark	_	_
-14	o	o	DET	DET	_	15	det	_	_
-15	ex	_	PART	PRT	_	19	nsubj	_	_
-16	-	-	PUNCT	.	_	15	punct	_	_
-17	prefeito	prefeito	NOUN	NOUN	_	15	flat	_	_
-18	era	_	AUX	AUX	_	19	cop	_	_
-19	petista	petista	NOUN	NOUN	_	12	ccomp	_	SpaceAfter=No
-20	.	.	PUNCT	.	_	9	punct	_	_
+9	limitou	limitar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	expl	_	_
+11	a	a	SCONJ	_	_	12	mark	_	_
+12	dizer	dizer	VERB	_	VerbForm=Inf	9	xcomp	_	_
+13	que	que	SCONJ	_	_	19	mark	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	ex	ex	ADJ	_	Gender=Masc|Number=Sing	19	nsubj	_	_
+16	-	-	PUNCT	_	_	17	punct	_	_
+17	prefeito	prefeito	NOUN	_	Gender=Masc|Number=Sing	15	appos	_	_
+18	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	cop	_	_
+19	petista	petista	ADJ	_	Gender=Masc|Number=Sing	12	ccomp	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
 
 # sent_id = train-s2070
 # text = Sobre o seu momento no futebol inglês, o brasileiro disse estar muito feliz no Tottenham e afirmou que o pensamento do clube é ficar entre os três primeiros colocados e garantir a classificação direta para a UEFA Champions League da próxima temporada.
@@ -320,23 +322,25 @@
 35	cada	_	DET	DET	_	29	det	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = train-s2073
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Todo empresário que quer crescer deve buscar orientação antes de começar a empreender ", avalia.
-1	Todo	_	DET	DET	_	2	det	_	_
-2	empresário	empresário	NOUN	NOUN	_	7	nsubj	_	_
-3	que	_	PRON	PRON	_	4	nsubj	_	_
-4	quer	querer	VERB	VERB	_	2	acl:relcl	_	_
-5	crescer	crescer	VERB	VERB	_	4	xcomp	_	_
-6	deve	dever	AUX	AUX	_	7	aux	_	_
-7	buscar	buscar	VERB	VERB	_	16	ccomp	_	_
-8	orientação	orientação	NOUN	NOUN	_	7	obj	_	_
-9	antes	antes	ADV	ADV	_	13	mark	_	_
-10	de	_	ADP	ADP	_	9	fixed	_	_
-11	começar	começar	AUX	AUX	_	13	aux	_	_
-12	a	_	ADP	ADP	_	13	mark	_	_
-13	empreender	empreender	VERB	VERB	_	7	advcl	_	_
-14	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
-15	,	,	PUNCT	.	_	16	punct	_	_
-16	avalia	avaliar	VERB	VERB	_	0	root	_	SpaceAfter=No
-17	.	.	PUNCT	.	_	16	punct	_	_
+# sent_id = train-s2073
+1	Todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Tot	2	det	_	_
+2	empresário	empresário	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	4	nsubj	_	_
+4	quer	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	crescer	crescer	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	parataxis	_	_
+7	buscar	buscar	VERB	_	VerbForm=Inf	6	xcomp	_	_
+8	orientação	orientação	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+9	antes	antes	ADV	_	ExtPos=SCONJ	11	mark	_	_
+10	de	de	ADP	_	_	9	fixed	_	_
+11	começar	começar	VERB	_	ExtPos=AUX|VerbForm=Inf	7	advcl	_	_
+12	a	a	SCONJ	_	_	13	mark	_	_
+13	empreender	empreender	VERB	_	VerbForm=Inf	11	xcomp	_	_
+14	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	avalia	avaliar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
 

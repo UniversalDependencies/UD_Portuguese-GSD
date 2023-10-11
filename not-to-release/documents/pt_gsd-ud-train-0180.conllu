@@ -1,33 +1,35 @@
-# sent_id = train-s1787
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Make Some Noise é o terceiro álbum de estúdio da cantora cristã Krystal Meyers, lançado no dia 9 de setembro de 2008.
-1	Make	_	PROPN	PNOUN	_	7	csubj	_	_
-2	Some	_	PROPN	PNOUN	_	3	det	_	_
-3	Noise	_	PROPN	PNOUN	_	1	obj	_	_
-4	é	ser	AUX	AUX	_	7	cop	_	_
-5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-6	terceiro	_	ADJ	ADJ	_	7	amod	_	_
-7	álbum	álbum	NOUN	NOUN	_	0	root	_	_
-8	de	de	ADP	ADP	_	9	case	_	_
-9	estúdio	estúdio	NOUN	NOUN	_	7	nmod	_	_
+# sent_id = train-s1787
+1	Make	Make	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	7	nsubj	_	_
+2	Some	Some	PROPN	_	Number=Sing	1	flat:name	_	_
+3	Noise	Noise	PROPN	_	Number=Sing	1	flat:name	_	_
+4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	terceiro	terceiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	7	amod	_	_
+7	álbum	álbum	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	estúdio	estúdio	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 10-11	da	_	_	_	_	_	_	_	_
-10	de	de	ADP	ADP	_	12	case	_	_
-11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	cantora	cantor	NOUN	NOUN	_	7	nmod	_	_
-13	cristã	cristão	ADJ	ADJ	_	12	amod	_	_
-14	Krystal	_	PROPN	PNOUN	_	12	appos	_	_
-15	Meyers	_	PROPN	PNOUN	_	14	flat	_	SpaceAfter=No
-16	,	,	PUNCT	.	_	17	punct	_	_
-17	lançado	lançar	VERB	VERB	_	7	acl	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	cantora	cantora	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+13	cristã	cristão	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
+14	Krystal	Krystal	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	12	appos	_	_
+15	Meyers	Meyers	PROPN	_	Number=Sing	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	lançado	lançar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	7	acl	_	_
 18-19	no	_	_	_	_	_	_	_	_
-18	em	em	ADP	ADP	_	20	case	_	_
-19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	dia	dia	NOUN	NOUN	_	17	nmod	_	_
-21	9	9	NUM	NUM	NumType=Card	20	nmod	_	_
-22	de	de	ADP	ADP	_	23	case	_	_
-23	setembro	_	PROPN	PNOUN	_	21	nmod	_	_
-24	de	de	ADP	ADP	_	25	case	_	_
-25	2008	2008	NUM	NUM	NumType=Card	23	nmod	_	SpaceAfter=No
-26	.	.	PUNCT	.	_	7	punct	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	dia	dia	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+21	9	9	NUM	_	NumType=Card	20	nummod	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	setembro	setembro	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	2008	2008	NUM	_	NumType=Card	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
 # sent_id = train-s1788
 # text = "Poucos países conseguiram reduzir substancialmente a informalidade", diz o relatório.
@@ -140,39 +142,41 @@
 30	afora	afora	ADV	ADV	_	29	advmod	_	SpaceAfter=No
 31	.	.	PUNCT	.	_	1	punct	_	_
 
-# sent_id = train-s1792
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = De acordo com o periódico, o jogador não pretende renovar o contrato, que termina em 31 de dezembro, com o Los Angeles Galaxy, seu atual time.
-1	De	_	ADP	ADP	_	2	case	_	_
-2	acordo	acordo	NOUN	NOUN	_	10	nmod	_	_
-3	com	com	ADP	ADP	_	5	case	_	_
-4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	periódico	periódico	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
-6	,	,	PUNCT	.	_	2	punct	_	_
-7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	jogador	jogador	NOUN	NOUN	_	10	nsubj	_	_
-9	não	não	ADV	ADV	Polarity=Neg	10	advmod	_	_
-10	pretende	pretender	VERB	VERB	_	0	root	_	_
-11	renovar	renovar	VERB	VERB	_	10	xcomp	_	_
-12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	contrato	contrato	NOUN	NOUN	_	11	obj	_	SpaceAfter=No
-14	,	,	PUNCT	.	_	16	punct	_	_
-15	que	_	PRON	PRON	_	16	nsubj	_	_
-16	termina	terminar	VERB	VERB	_	13	acl:relcl	_	_
-17	em	em	ADP	ADP	_	18	case	_	_
-18	31	31	NUM	NUM	NumType=Card	16	nmod	_	_
-19	de	de	ADP	ADP	_	20	case	_	_
-20	dezembro	_	PROPN	PNOUN	_	18	nmod	_	SpaceAfter=No
-21	,	,	PUNCT	.	_	16	punct	_	_
-22	com	com	ADP	ADP	_	25	case	_	_
-23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-24	Los	_	PROPN	PNOUN	_	25	det	_	_
-25	Angeles	_	PROPN	PNOUN	_	13	nmod	_	_
-26	Galaxy	_	PROPN	PNOUN	_	25	flat	_	SpaceAfter=No
-27	,	,	PUNCT	.	_	30	punct	_	_
-28	seu	_	DET	DET	_	30	det:poss	_	_
-29	atual	atual	ADJ	ADJ	_	30	amod	_	_
-30	time	time	NOUN	NOUN	_	25	appos	_	SpaceAfter=No
-31	.	.	PUNCT	.	_	10	punct	_	_
+# sent_id = train-s1792
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	periódico	periódico	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	jogador	jogador	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+9	não	não	ADV	_	Polarity=Neg	10	advmod	_	_
+10	pretende	pretender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	renovar	renovar	VERB	_	VerbForm=Inf	10	xcomp	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	contrato	contrato	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	16	nsubj	_	_
+16	termina	terminar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+17	em	em	ADP	_	_	18	case	_	_
+18	31	31	NUM	_	NumType=Card	16	obl	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	dezembro	dezembro	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	16	punct	_	_
+22	com	com	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Los	Los	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	16	obl	_	_
+25	Angeles	Angeles	PROPN	_	Number=Sing	24	flat:name	_	_
+26	Galaxy	Galaxy	PROPN	_	Number=Sing	24	flat:name	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	30	punct	_	_
+28	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	30	det	_	_
+29	atual	atual	ADJ	_	Gender=Masc|Number=Sing	30	amod	_	_
+30	time	time	NOUN	_	Gender=Masc|Number=Sing	24	appos	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
 
 # sent_id = train-s1793
 # text = De acordo com a Receita, outros tipos de mensagens fraudulentas pedem a regularização do Cadastro de Pessoa Física (CPF) ou alegam valores residuais na restituição do Imposto de Renda a serem recebidos pelo contribuinte.

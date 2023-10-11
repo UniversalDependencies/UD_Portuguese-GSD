@@ -19,46 +19,48 @@
 16	costas	_	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s7337
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = A última sessão do Legislativo Municipal antes do segundo turno da eleição majoritária, que acontece no próximo domingo (28), foi esvaziada pelos vereadores.
-1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-2	última	último	ADJ	ADJ	_	3	amod	_	_
-3	sessão	sessão	NOUN	NOUN	_	29	nsubj:pass	_	_
+# sent_id = train-s7337
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	última	último	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	sessão	sessão	NOUN	_	Gender=Fem|Number=Sing	29	nsubj:pass	_	_
 4-5	do	_	_	_	_	_	_	_	_
-4	de	de	ADP	ADP	_	6	case	_	_
-5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	Legislativo	_	PROPN	PNOUN	_	3	nmod	_	_
-7	Municipal	_	PROPN	PNOUN	_	6	amod	_	_
-8	antes	antes	ADV	ADV	_	12	case	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Legislativo	legislativo	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+7	Municipal	municipal	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+8	antes	antes	ADV	_	_	3	advmod	_	_
 9-10	do	_	_	_	_	_	_	_	_
-9	de	de	ADP	ADP	_	8	case	_	_
-10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-11	segundo	segundo	ADJ	ADJ	_	12	amod	_	_
-12	turno	turno	NOUN	NOUN	_	3	nmod	_	_
+9	de	de	ADP	_	_	12	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	segundo	segundo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	12	amod	_	_
+12	turno	turno	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
 13-14	da	_	_	_	_	_	_	_	_
-13	de	de	ADP	ADP	_	15	case	_	_
-14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	eleição	eleição	NOUN	NOUN	_	12	nmod	_	_
-16	majoritária	majoritário	ADJ	ADJ	_	15	amod	_	SpaceAfter=No
-17	,	,	PUNCT	.	_	19	punct	_	_
-18	que	_	PRON	PRON	_	19	nsubj	_	_
-19	acontece	acontecer	VERB	VERB	_	12	acl:relcl	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	eleição	eleição	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+16	majoritária	majoritário	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	19	nsubj	_	_
+19	acontece	acontecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
 20-21	no	_	_	_	_	_	_	_	_
-20	em	em	ADP	ADP	_	23	case	_	_
-21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-22	próximo	próximo	ADJ	ADJ	_	23	amod	_	_
-23	domingo	_	PROPN	PNOUN	_	19	nmod	_	_
-24	(	(	PUNCT	.	_	25	punct	_	SpaceAfter=No
-25	28	28	NUM	NUM	NumType=Card	23	nmod	_	SpaceAfter=No
-26	)	)	PUNCT	.	_	25	punct	_	SpaceAfter=No
-27	,	,	PUNCT	.	_	19	punct	_	_
-28	foi	_	AUX	AUX	_	29	aux:pass	_	_
-29	esvaziada	esvaziar	VERB	VERB	_	0	root	_	_
+20	em	em	ADP	_	_	23	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	próximo	próximo	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	_
+23	domingo	domingo	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	28	28	NUM	_	NumType=Card	23	appos	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	19	punct	_	_
+28	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	aux:pass	_	_
+29	esvaziada	esvaziar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 30-31	pelos	_	_	_	_	_	_	_	_
-30	por	por	ADP	ADP	_	32	case	_	_
-31	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
-32	vereadores	vereador	NOUN	NOUN	_	29	nmod	_	SpaceAfter=No
-33	.	.	PUNCT	.	_	29	punct	_	_
+30	por	por	ADP	_	_	32	case	_	_
+31	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	vereadores	vereador	NOUN	_	Gender=Masc|Number=Plur	29	obl:agent	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
 
 # sent_id = train-s7338
 # text = O artista morreu num hospital em Paris, na França, aos 91 anos, e sua morte foi anunciada pela família.
@@ -174,59 +176,65 @@
 15	diminuam	diminuir	VERB	VERB	_	3	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s7342
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Tem um carro popular, moram com os pais (ou tios, avós etc) e pagam cursos de faculdade do próprio bolso.
-1	Tem	ter	VERB	VERB	_	0	root	_	_
-2	um	um	DET	DET	_	3	det	_	_
-3	carro	carro	NOUN	NOUN	_	1	obj	_	_
-4	popular	popular	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
-5	,	,	PUNCT	.	_	6	punct	_	_
-6	moram	morar	VERB	VERB	_	1	conj	_	_
-7	com	com	ADP	ADP	_	9	case	_	_
-8	os	o	DET	DET	_	9	det	_	_
-9	pais	_	NOUN	NOUN	_	6	nmod	_	_
-10	(	(	PUNCT	.	_	11	punct	_	SpaceAfter=No
-11	ou	ou	CCONJ	CONJ	_	12	cc	_	_
-12	tios	tio	NOUN	NOUN	_	9	conj	_	SpaceAfter=No
-13	,	,	PUNCT	.	_	14	punct	_	_
-14	avós	avô	NOUN	NOUN	_	9	conj	_	_
-15	etc	_	X	X	_	9	conj	_	SpaceAfter=No
-16	)	)	PUNCT	.	_	11	punct	_	_
-17	e	e	CCONJ	CONJ	_	18	cc	_	_
-18	pagam	pagar	VERB	VERB	_	1	conj	_	_
-19	cursos	curso	NOUN	NOUN	_	18	obj	_	_
-20	de	de	ADP	ADP	_	21	case	_	_
-21	faculdade	faculdade	NOUN	NOUN	_	19	nmod	_	_
+# sent_id = train-s7342
+1	Tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	carro	carro	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+4	popular	popular	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	moram	morar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+7	com	com	ADP	_	_	9	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	pais	pai	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
+10	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+11	ou	ou	CCONJ	_	_	12	cc	_	_
+12	tios	tio	NOUN	_	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	avós	avó	NOUN	_	Gender=Masc|Number=Plur	12	conj	_	_
+15	etc	etc	ADV	_	_	12	advmod	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	12	punct	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	pagam	pagar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+19	cursos	curso	NOUN	_	Gender=Masc|Number=Plur	18	obj	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	faculdade	faculdade	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
 22-23	do	_	_	_	_	_	_	_	_
-22	de	de	ADP	ADP	_	25	case	_	_
-23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-24	próprio	próprio	ADJ	ADJ	_	25	amod	_	_
-25	bolso	bolso	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
-26	.	.	PUNCT	.	_	1	punct	_	_
+22	de	de	ADP	_	_	25	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	próprio	próprio	DET	_	Gender=Masc|Number=Sing|PronType=Emp	25	det	_	_
+25	bolso	bolso	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
-# sent_id = train-s7343
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Segundo ela, foi convidada a morar na residência do embaixador pela mulher dele.
-1	Segundo	_	ADP	ADP	_	2	case	_	_
-2	ela	_	PRON	PRON	_	5	nmod	_	SpaceAfter=No
-3	,	,	PUNCT	.	_	2	punct	_	_
-4	foi	_	AUX	AUX	_	5	aux:pass	_	_
-5	convidada	convidar	VERB	VERB	_	0	root	_	_
-6	a	_	ADP	ADP	_	7	mark	_	_
-7	morar	morar	VERB	VERB	_	5	nmod	_	_
+# sent_id = train-s7343
+1	Segundo	segundo	ADP	_	_	2	case	_	_
+2	ela	ela	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	convidada	convidar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+6	a	a	SCONJ	_	_	7	mark	_	_
+7	morar	morar	VERB	_	VerbForm=Inf	5	xcomp	_	_
 8-9	na	_	_	_	_	_	_	_	_
-8	em	em	ADP	ADP	_	10	case	_	_
-9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	residência	residência	NOUN	NOUN	_	7	nmod	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	residência	residência	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
 11-12	do	_	_	_	_	_	_	_	_
-11	de	de	ADP	ADP	_	13	case	_	_
-12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	embaixador	embaixador	NOUN	NOUN	_	10	nmod	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	embaixador	embaixador	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
 14-15	pela	_	_	_	_	_	_	_	_
-14	por	por	ADP	ADP	_	16	case	_	_
-15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	mulher	mulher	NOUN	NOUN	_	5	nmod	_	_
-17	dele	_	X	ADPPRON	_	16	det:poss	_	SpaceAfter=No
-18	.	.	PUNCT	.	_	5	punct	_	_
+14	por	por	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	mulher	mulher	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+17-18	dele	_	_	_	_	_	_	_	SpaceAfter=No
+17	de	de	ADP	_	_	18	case	_	_
+18	ele	ele	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nmod	_	_
+19	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # sent_id = train-s7344
 # text = Úrsula Peres (Finanças) e Luís Fernando Massonetto são nomes dados como certos.

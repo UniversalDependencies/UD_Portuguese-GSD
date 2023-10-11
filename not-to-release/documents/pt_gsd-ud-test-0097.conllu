@@ -1,30 +1,32 @@
-# sent_id = test-s955
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Um norueguês bebeu "todas" durante uma viagem para a Itália e acabou dormindo no aeroporto de Fiumicino, em Roma.
-1	Um	_	DET	DET	_	2	det	_	_
-2	norueguês	norueguês	NOUN	NOUN	_	3	nsubj	_	_
-3	bebeu	beber	VERB	VERB	_	0	root	_	_
-4	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
-5	todas	_	PRON	PRON	_	3	obj	_	SpaceAfter=No
-6	"	"	PUNCT	.	_	5	punct	_	_
-7	durante	_	ADP	ADP	_	9	case	_	_
-8	uma	um	DET	DET	_	9	det	_	_
-9	viagem	viagem	NOUN	NOUN	_	3	nmod	_	_
-10	para	para	ADP	ADP	_	12	case	_	_
-11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	Itália	_	PROPN	PNOUN	_	9	nmod	_	_
-13	e	e	CCONJ	CONJ	_	15	cc	_	_
-14	acabou	acabar	AUX	AUX	_	15	aux	_	_
-15	dormindo	dormir	VERB	VERB	_	3	conj	_	_
+# sent_id = test-s955
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	norueguês	norueguês	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	bebeu	beber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Tot	3	obj	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	5	punct	_	_
+7	durante	durante	ADP	_	_	9	case	_	_
+8	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	viagem	viagem	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+10	para	para	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Itália	Itália	PROPN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	acabou	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+15	dormindo	dormir	VERB	_	VerbForm=Ger	14	xcomp	_	_
 16-17	no	_	_	_	_	_	_	_	_
-16	em	em	ADP	ADP	_	18	case	_	_
-17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	aeroporto	aeroporto	NOUN	NOUN	_	15	nmod	_	_
-19	de	de	ADP	ADP	_	20	case	_	_
-20	Fiumicino	_	PROPN	PNOUN	_	18	nmod	_	SpaceAfter=No
-21	,	,	PUNCT	.	_	23	punct	_	_
-22	em	em	ADP	ADP	_	23	case	_	_
-23	Roma	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
-24	.	.	PUNCT	.	_	3	punct	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	aeroporto	aeroporto	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	Fiumicino	Fiumicino	PROPN	_	Number=Sing	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	_
+22	em	em	ADP	_	_	23	case	_	_
+23	Roma	Roma	PROPN	_	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = test-s956
 # text = O último a votar foi o presidente da Corte, Carlos Ayres Britto, que destacou a existência de "provas robustas".

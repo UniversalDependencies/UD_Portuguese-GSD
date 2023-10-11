@@ -1,28 +1,30 @@
-# sent_id = train-s6936
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = No meio do ano a pedida foi de 15 milhões (cerca de R $ 40 milhões).
+# sent_id = train-s6936
 1-2	No	_	_	_	_	_	_	_	_
-1	Em	em	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	meio	meio	NOUN	NOUN	_	8	nmod	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	meio	meio	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
 4-5	do	_	_	_	_	_	_	_	_
-4	de	de	ADP	ADP	_	6	case	_	_
-5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	ano	ano	NOUN	NOUN	_	3	nmod	_	_
-7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	pedida	pedido	NOUN	NOUN	_	0	root	_	_
-9	foi	_	VERB	VERB	_	8	case	_	_
-10	de	de	ADP	ADP	_	16	case	_	_
-11	15	15	NUM	NUM	NumType=Card	16	nummod	_	_
-12	milhões	_	NUM	NUM	NumType=Card	16	case	_	_
-13	(	(	PUNCT	.	_	16	punct	_	SpaceAfter=No
-14	cerca	cerca	ADV	ADV	_	19	advmod	_	_
-15	de	de	ADP	ADP	_	14	case	_	_
-16	R	r	NOUN	NOUN	_	8	nmod	_	_
-17	$	_	SYM	SYM	_	16	flat	_	_
-18	40	40	NUM	NUM	NumType=Card	19	nummod	_	_
-19	milhões	_	NUM	NUM	NumType=Card	16	nummod	_	SpaceAfter=No
-20	)	)	PUNCT	.	_	16	punct	_	SpaceAfter=No
-21	.	.	PUNCT	.	_	8	punct	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ano	ano	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	pedida	pedida	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+9	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	15	15	NUM	_	NumType=Card	0	root	_	_
+12	milhões	milhão	NUM	_	NumType=Card	11	flat	_	_
+13	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+14	cerca	cerca	ADV	_	ExtPos=ADV	16	advmod	_	_
+15	de	de	ADP	_	_	14	fixed	_	_
+16	R	r	SYM	_	_	11	appos	_	_
+17	$	$	SYM	_	_	16	nmod	_	_
+18	40	40	NUM	_	NumType=Card	17	nummod	_	_
+19	milhões	milhão	NUM	_	NumType=Card	18	flat	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
 
 # sent_id = train-s6937
 # text = Nessa classe ele tem dois modos a de combate manual e outro com a Grandark.
@@ -209,46 +211,48 @@
 20	inglesa	inglês	ADJ	ADJ	_	19	amod	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = train-s6944
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Apesar das quedas sucessivas nos últimos anos, a região apresentou em 2011 uma taxa que atinge quase o dobro da média nacional (16,9 %, ante 8,6 %).
-1	Apesar	apesar	ADV	ADV	_	4	case	_	_
+# sent_id = train-s6944
+1	Apesar	apesar	ADV	_	ExtPos=ADP	4	case	_	_
 2-3	das	_	_	_	_	_	_	_	_
-2	de	de	ADP	ADP	_	1	case	_	_
-3	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	1	det	_	_
-4	quedas	queda	NOUN	NOUN	_	13	nmod	_	_
-5	sucessivas	sucessivo	ADJ	ADJ	_	4	amod	_	_
+2	de	de	ADP	_	_	1	fixed	_	_
+3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	quedas	queda	NOUN	_	Gender=Fem|Number=Plur	13	obl	_	_
+5	sucessivas	sucessivo	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	_
 6-7	nos	_	_	_	_	_	_	_	_
-6	em	em	ADP	ADP	_	9	case	_	_
-7	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
-8	últimos	último	ADJ	ADJ	_	9	amod	_	_
-9	anos	ano	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
-10	,	,	PUNCT	.	_	4	punct	_	_
-11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	região	região	NOUN	NOUN	_	13	nsubj	_	_
-13	apresentou	apresentar	VERB	VERB	_	0	root	_	_
-14	em	em	ADP	ADP	_	15	case	_	_
-15	2011	2011	NUM	NUM	NumType=Card	13	nmod	_	_
-16	uma	um	DET	DET	_	17	det	_	_
-17	taxa	taxa	NOUN	NOUN	_	13	obj	_	_
-18	que	_	PRON	PRON	_	19	nsubj	_	_
-19	atinge	atingir	VERB	VERB	_	17	acl:relcl	_	_
-20	quase	quase	ADV	ADV	_	22	advmod	_	_
-21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-22	dobro	dobro	NOUN	NOUN	_	19	obj	_	_
+6	em	em	ADP	_	_	9	case	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	últimos	último	ADJ	_	Gender=Masc|Number=Plur|NumType=Ord	9	amod	_	_
+9	anos	ano	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	4	punct	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	região	região	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+13	apresentou	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	em	em	ADP	_	_	15	case	_	_
+15	2011	2011	NUM	_	NumType=Card	13	obl	_	_
+16	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	taxa	taxa	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+18	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	19	nsubj	_	_
+19	atinge	atingir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+20	quase	quase	ADV	_	_	22	advmod	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	dobro	dobro	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
 23-24	da	_	_	_	_	_	_	_	_
-23	de	de	ADP	ADP	_	25	case	_	_
-24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-25	média	_	NOUN	NOUN	_	22	nmod	_	_
-26	nacional	nacional	ADJ	ADJ	_	25	amod	_	_
-27	(	(	PUNCT	.	_	29	punct	_	SpaceAfter=No
-28	16,9	16,9	NUM	NUM	NumType=Card	29	nummod	_	_
-29	%	_	SYM	SYM	_	22	appos	_	SpaceAfter=No
-30	,	,	PUNCT	.	_	33	punct	_	_
-31	ante	_	ADP	ADP	_	33	case	_	_
-32	8,6	8,6	NUM	NUM	NumType=Card	33	nummod	_	_
-33	%	_	SYM	SYM	_	29	nmod	_	SpaceAfter=No
-34	)	)	PUNCT	.	_	29	punct	_	SpaceAfter=No
-35	.	.	PUNCT	.	_	13	punct	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	média	média	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
+26	nacional	nacional	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	_
+27	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
+28	16,9	16,9	NUM	_	NumType=Card	29	nummod	_	_
+29	%	%	SYM	_	_	25	appos	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	33	punct	_	_
+31	ante	ante	ADP	_	_	33	case	_	_
+32	8,6	8,6	NUM	_	NumType=Card	33	nummod	_	_
+33	%	%	SYM	_	_	29	nmod	_	SpaceAfter=No
+34	)	)	PUNCT	_	_	29	punct	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
 
 # sent_id = train-s6945
 # text = Mas nada de indicação do José Sarney.

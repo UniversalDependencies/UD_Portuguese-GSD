@@ -24,35 +24,37 @@
 21	ele	_	PRON	PRON	_	20	nsubj	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	20	punct	_	_
 
-# sent_id = test-s161
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O IBGE divulgou, no último dia 19, que o nível de ocupação feminina subiu 24 % nos últimos dez anos.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	IBGE	_	PROPN	PNOUN	_	3	nsubj	_	_
-3	divulgou	divulgar	VERB	VERB	_	0	root	_	SpaceAfter=No
-4	,	,	PUNCT	.	_	8	punct	_	_
+# sent_id = test-s161
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	IBGE	IBGE	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	divulgou	divulgar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
 5-6	no	_	_	_	_	_	_	_	_
-5	em	em	ADP	ADP	_	8	case	_	_
-6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-7	último	último	ADJ	ADJ	_	8	amod	_	_
-8	dia	dia	NOUN	NOUN	_	3	nmod	_	_
-9	19	19	NUM	NUM	NumType=Card	8	nmod	_	SpaceAfter=No
-10	,	,	PUNCT	.	_	8	punct	_	_
-11	que	_	PRON	PRON	_	17	mark	_	_
-12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	nível	nível	NOUN	NOUN	_	17	nsubj	_	_
-14	de	de	ADP	ADP	_	15	case	_	_
-15	ocupação	ocupação	NOUN	NOUN	_	13	nmod	_	_
-16	feminina	feminino	ADJ	ADJ	_	15	amod	_	_
-17	subiu	subir	VERB	VERB	_	3	ccomp	_	_
-18	24	24	NUM	NUM	NumType=Card	19	nummod	_	_
-19	%	_	SYM	SYM	_	17	nmod	_	_
+5	em	em	ADP	_	_	8	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	último	último	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	8	amod	_	_
+8	dia	dia	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+9	19	19	NUM	_	NumType=Card	8	nummod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	3	punct	_	_
+11	que	que	SCONJ	_	_	17	mark	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	nível	nível	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	ocupação	ocupação	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+16	feminina	feminino	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+17	subiu	subir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+18	24	24	NUM	_	NumType=Card	19	nummod	_	_
+19	%	%	SYM	_	_	17	obj	_	_
 20-21	nos	_	_	_	_	_	_	_	_
-20	em	em	ADP	ADP	_	24	case	_	_
-21	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
-22	últimos	último	ADJ	ADJ	_	24	amod	_	_
-23	dez	_	NUM	NUM	NumType=Card	24	nummod	_	_
-24	anos	ano	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
-25	.	.	PUNCT	.	_	3	punct	_	_
+20	em	em	ADP	_	_	24	case	_	_
+21	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+22	últimos	último	ADJ	_	Gender=Masc|Number=Plur|NumType=Ord	24	amod	_	_
+23	dez	dez	NUM	_	NumType=Card	24	nummod	_	_
+24	anos	ano	NOUN	_	Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = test-s162
 # text = Derivados do isopentano ou metilbutano (CH3) 2-CH-CH2-CH3.

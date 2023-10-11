@@ -155,58 +155,60 @@
 24	Transporte	_	PROPN	PNOUN	_	21	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s2516
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = A Universidade voltou a ameaçar no primeiro minuto do segundo tempo, com Cereceda, que recebeu um passe aéreo no meio da área, de frente para o gol, mas foi desarmado por Durval no último instante.
-1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	Universidade	_	PROPN	PNOUN	_	5	nsubj	_	_
-3	voltou	voltar	AUX	AUX	_	5	aux	_	_
-4	a	_	ADP	ADP	_	5	mark	_	_
-5	ameaçar	ameaçar	VERB	VERB	_	0	root	_	_
+# sent_id = train-s2516
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Universidade	Universidade	PROPN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	voltou	voltar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	SCONJ	_	_	5	mark	_	_
+5	ameaçar	ameaçar	VERB	_	VerbForm=Inf	3	xcomp	_	_
 6-7	no	_	_	_	_	_	_	_	_
-6	em	em	ADP	ADP	_	9	case	_	_
-7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-8	primeiro	primeiro	ADJ	ADJ	_	9	amod	_	_
-9	minuto	minuto	NOUN	NOUN	_	5	nmod	_	_
+6	em	em	ADP	_	_	9	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	primeiro	primeiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	9	amod	_	_
+9	minuto	minuto	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
 10-11	do	_	_	_	_	_	_	_	_
-10	de	de	ADP	ADP	_	13	case	_	_
-11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-12	segundo	segundo	ADJ	ADJ	_	13	amod	_	_
-13	tempo	tempo	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
-14	,	,	PUNCT	.	_	16	punct	_	_
-15	com	com	ADP	ADP	_	16	case	_	_
-16	Cereceda	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
-17	,	,	PUNCT	.	_	16	punct	_	_
-18	que	_	PRON	PRON	_	19	nsubj	_	_
-19	recebeu	receber	VERB	VERB	_	16	acl:relcl	_	_
-20	um	um	DET	DET	_	21	det	_	_
-21	passe	passe	NOUN	NOUN	_	19	obj	_	_
-22	aéreo	aéreo	ADJ	ADJ	_	21	amod	_	_
+10	de	de	ADP	_	_	13	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	segundo	segundo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	13	amod	_	_
+13	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	com	com	ADP	_	_	16	case	_	_
+16	Cereceda	Cereceda	PROPN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	19	nsubj	_	_
+19	recebeu	receber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	acl:relcl	_	_
+20	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	passe	passe	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
+22	aéreo	aéreo	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
 23-24	no	_	_	_	_	_	_	_	_
-23	em	em	ADP	ADP	_	25	case	_	_
-24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	meio	meio	NOUN	NOUN	_	19	nmod	_	_
+23	em	em	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	meio	meio	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
 26-27	da	_	_	_	_	_	_	_	_
-26	de	de	ADP	ADP	_	28	case	_	_
-27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
-28	área	área	NOUN	NOUN	_	25	nmod	_	SpaceAfter=No
-29	,	,	PUNCT	.	_	31	punct	_	_
-30	de	de	ADP	ADP	_	31	case	_	_
-31	frente	frente	NOUN	NOUN	_	19	nmod	_	_
-32	para	para	ADP	ADP	_	34	case	_	_
-33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
-34	gol	gol	NOUN	NOUN	_	31	nmod	_	SpaceAfter=No
-35	,	,	PUNCT	.	_	38	punct	_	_
-36	mas	mas	CCONJ	CONJ	_	38	cc	_	_
-37	foi	_	AUX	AUX	_	38	aux:pass	_	_
-38	desarmado	desarmar	VERB	VERB	_	19	conj	_	_
-39	por	por	ADP	ADP	_	40	case	_	_
-40	Durval	_	PROPN	PNOUN	_	38	nmod	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	área	área	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	31	punct	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	frente	frente	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	_
+32	para	para	ADP	_	_	34	case	_	_
+33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	gol	gol	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	38	punct	_	_
+36	mas	mas	CCONJ	_	_	38	cc	_	_
+37	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	38	aux:pass	_	_
+38	desarmado	desarmar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	19	conj	_	_
+39	por	por	ADP	_	_	40	case	_	_
+40	Durval	Durval	PROPN	_	Gender=Masc|Number=Sing	38	obl:agent	_	_
 41-42	no	_	_	_	_	_	_	_	_
-41	em	em	ADP	ADP	_	44	case	_	_
-42	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
-43	último	último	ADJ	ADJ	_	44	amod	_	_
-44	instante	instante	NOUN	NOUN	_	38	nmod	_	SpaceAfter=No
-45	.	.	PUNCT	.	_	5	punct	_	_
+41	em	em	ADP	_	_	44	case	_	_
+42	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+43	último	último	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	44	amod	_	_
+44	instante	instante	NOUN	_	Gender=Masc|Number=Sing	38	obl	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # sent_id = train-s2517
 # text = enquanto na memória Flash o acesso é direto;
@@ -301,33 +303,37 @@
 29	pedofilia	pedofilia	NOUN	NOUN	_	27	nmod	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	12	punct	_	_
 
-# sent_id = train-s2520
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Logo que a imagem circulou pelo mundo, diversos internautas ficaram comparando a coitada com outras artistas flagradas nesse estado natural de sua higiene.
-1	Logo	logo	ADV	ADV	_	5	mark	_	_
-2	que	_	CCONJ	CONJ	_	1	fixed	_	_
-3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	imagem	imagem	NOUN	NOUN	_	5	nsubj	_	_
-5	circulou	circular	VERB	VERB	_	13	advcl	_	_
+# sent_id = train-s2520
+1	Logo	logo	ADV	_	_	5	advmod	_	_
+2	que	que	SCONJ	_	_	1	fixed	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	imagem	imagem	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+5	circulou	circular	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	advcl	_	_
 6-7	pelo	_	_	_	_	_	_	_	_
-6	por	por	ADP	ADP	_	8	case	_	_
-7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	mundo	mundo	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	5	punct	_	_
-10	diversos	_	DET	DET	_	11	det	_	_
-11	internautas	internauta	NOUN	NOUN	_	13	nsubj	_	_
-12	ficaram	ficar	AUX	AUX	_	13	aux	_	_
-13	comparando	comparar	VERB	VERB	_	0	root	_	_
-14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	coitada	_	NOUN	NOUN	_	13	obj	_	_
-16	com	com	ADP	ADP	_	18	case	_	_
-17	outras	_	DET	DET	_	18	det	_	_
-18	artistas	artista	NOUN	NOUN	_	13	nmod	_	_
-19	flagradas	flagrar	VERB	VERB	_	18	acl	_	_
-20	nesse	_	ADP	ADP	_	21	case	_	_
-21	estado	estado	NOUN	NOUN	_	19	nmod	_	_
-22	natural	natural	ADJ	ADJ	_	21	amod	_	_
-23	de	de	ADP	ADP	_	25	case	_	_
-24	sua	_	DET	DET	_	25	det:poss	_	_
-25	higiene	higiene	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
-26	.	.	PUNCT	.	_	13	punct	_	_
+6	por	por	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	5	punct	_	_
+10	diversos	diverso	DET	_	Gender=Masc|Number=Plur|PronType=Ind	11	det	_	_
+11	internautas	internauta	NOUN	_	Gender=Masc|Number=Plur	12	nsubj	_	_
+12	ficaram	ficar	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+13	comparando	comparar	VERB	_	VerbForm=Ger	12	xcomp	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	coitada	coitada	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+16	com	com	ADP	_	_	18	case	_	_
+17	outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	18	det	_	_
+18	artistas	artista	NOUN	_	Gender=Fem|Number=Plur	13	iobj	_	_
+19	flagradas	flagrar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	18	acl	_	_
+20-21	nesse	_	_	_	_	_	_	_	_
+20	em	em	ADP	_	_	22	case	_	_
+21	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
+22	estado	estado	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
+23	natural	natural	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	26	det	_	_
+26	higiene	higiene	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
 

@@ -323,35 +323,37 @@
 35	Família	_	PROPN	PNOUN	_	34	flat	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	13	punct	_	_
 
-# sent_id = train-s4704
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Dom Airton reitera, no documento, que o candidato deve ter compromisso com a "defesa da família e seus direitos inalienáveis".
-1	Dom	_	PROPN	PNOUN	_	3	nsubj	_	_
-2	Airton	_	PROPN	PNOUN	_	1	flat	_	_
-3	reitera	reiterar	VERB	VERB	_	0	root	_	SpaceAfter=No
-4	,	,	PUNCT	.	_	7	punct	_	_
+# sent_id = train-s4704
+1	Dom	Dom	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	Airton	Airton	PROPN	_	Number=Sing	1	flat:name	_	_
+3	reitera	reiterar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
 5-6	no	_	_	_	_	_	_	_	_
-5	em	em	ADP	ADP	_	7	case	_	_
-6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	documento	documento	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
-8	,	,	PUNCT	.	_	7	punct	_	_
-9	que	_	PRON	PRON	_	13	mark	_	_
-10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	candidato	candidato	NOUN	NOUN	_	13	nsubj	_	_
-12	deve	dever	AUX	AUX	_	13	aux	_	_
-13	ter	ter	VERB	VERB	_	3	ccomp	_	_
-14	compromisso	compromisso	NOUN	NOUN	_	13	obj	_	_
-15	com	com	ADP	ADP	_	18	case	_	_
-16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-17	"	"	PUNCT	.	_	18	punct	_	SpaceAfter=No
-18	defesa	_	NOUN	NOUN	_	14	nmod	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	documento	documento	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	3	punct	_	_
+9	que	que	SCONJ	_	_	13	mark	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	candidato	candidato	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+12	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+13	ter	ter	VERB	_	VerbForm=Inf	12	xcomp	_	_
+14	compromisso	compromisso	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+15	com	com	ADP	_	_	18	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	defesa	defesa	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
 19-20	da	_	_	_	_	_	_	_	_
-19	de	de	ADP	ADP	_	21	case	_	_
-20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-21	família	família	NOUN	NOUN	_	18	nmod	_	_
-22	e	e	CCONJ	CONJ	_	24	cc	_	_
-23	seus	_	DET	DET	_	24	det:poss	_	_
-24	direitos	direito	NOUN	NOUN	_	21	conj	_	_
-25	inalienáveis	inalienável	ADJ	ADJ	_	24	amod	_	SpaceAfter=No
-26	"	"	PUNCT	.	_	18	punct	_	SpaceAfter=No
-27	.	.	PUNCT	.	_	3	punct	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	família	família	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+22	e	e	CCONJ	_	_	24	cc	_	_
+23	seus	seu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	24	det	_	_
+24	direitos	direito	NOUN	_	Gender=Masc|Number=Plur	18	conj	_	_
+25	inalienáveis	inalienável	ADJ	_	Gender=Masc|Number=Plur	24	amod	_	SpaceAfter=No
+26	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 

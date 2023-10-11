@@ -170,83 +170,87 @@
 22	americana	americano	ADJ	ADJ	_	21	amod	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	13	punct	_	_
 
-# sent_id = train-s7796
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O ex - governador do Distrito Federal Joaquim Roriz, que à época era senador, chegou a ser citado, mas não foi denunciado porque sua idade avançada impediria a punição.
-1	O	o	DET	DET	_	2	det	_	_
-2	ex	_	PART	PRT	_	22	nsubj:pass	_	_
-3	-	-	PUNCT	.	_	2	punct	_	_
-4	governador	governador	NOUN	NOUN	_	2	flat	_	_
+# sent_id = train-s7796
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+2	ex	ex	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+3	-	-	PUNCT	_	_	4	punct	_	_
+4	governador	governador	NOUN	_	Gender=Masc|Number=Sing	19	nsubj:pass	_	_
 5-6	do	_	_	_	_	_	_	_	_
-5	de	de	ADP	ADP	_	7	case	_	_
-6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	Distrito	_	PROPN	PNOUN	_	2	nmod	_	_
-8	Federal	_	PROPN	PNOUN	_	7	amod	_	_
-9	Joaquim	_	PROPN	PNOUN	_	2	appos	_	_
-10	Roriz	_	PROPN	PNOUN	_	9	flat	_	SpaceAfter=No
-11	,	,	PUNCT	.	_	17	punct	_	_
-12	que	_	PRON	PRON	_	17	nsubj	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Distrito	distrito	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+8	Federal	federal	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+9	Joaquim	Joaquim	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	7	appos	_	_
+10	Roriz	Roriz	PROPN	_	Number=Sing	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	17	punct	_	_
+12	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	17	nsubj	_	_
 13-14	à	_	_	_	_	_	_	_	_
-13	a	a	ADP	ADP	_	15	case	_	_
-14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	época	época	NOUN	NOUN	_	17	nmod	_	_
-16	era	_	AUX	AUX	_	17	cop	_	_
-17	senador	senador	NOUN	NOUN	_	2	acl:relcl	_	SpaceAfter=No
-18	,	,	PUNCT	.	_	17	punct	_	_
-19	chegou	chegar	AUX	AUX	_	22	aux	_	_
-20	a	_	ADP	ADP	_	22	mark	_	_
-21	ser	ser	AUX	AUX	_	22	aux:pass	_	_
-22	citado	citar	VERB	VERB	_	0	root	_	SpaceAfter=No
-23	,	,	PUNCT	.	_	27	punct	_	_
-24	mas	mas	CCONJ	CONJ	_	27	cc	_	_
-25	não	não	ADV	ADV	Polarity=Neg	27	advmod	_	_
-26	foi	_	AUX	AUX	_	27	aux:pass	_	_
-27	denunciado	denunciar	VERB	VERB	_	22	conj	_	_
-28	porque	_	CCONJ	CONJ	_	32	mark	_	_
-29	sua	_	DET	DET	_	30	det:poss	_	_
-30	idade	idade	NOUN	NOUN	_	32	nsubj	_	_
-31	avançada	avançado	ADJ	ADJ	_	30	amod	_	_
-32	impediria	impedir	VERB	VERB	_	27	advcl	_	_
-33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
-34	punição	punição	NOUN	NOUN	_	32	obj	_	SpaceAfter=No
-35	.	.	PUNCT	.	_	22	punct	_	_
+13	a	a	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	época	época	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+16	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	cop	_	_
+17	senador	senador	NOUN	_	Gender=Masc|Number=Sing	7	acl:relcl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	chegou	chegar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20	a	a	SCONJ	_	_	22	mark	_	_
+21	ser	ser	AUX	_	VerbForm=Inf	22	aux:pass	_	_
+22	citado	citar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	19	xcomp	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	27	punct	_	_
+24	mas	mas	CCONJ	_	_	27	cc	_	_
+25	não	não	ADV	_	Polarity=Neg	27	advmod	_	_
+26	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	aux:pass	_	_
+27	denunciado	denunciar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	22	conj	_	_
+28	porque	porque	SCONJ	_	_	32	mark	_	_
+29	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	30	det	_	_
+30	idade	idade	NOUN	_	Gender=Fem|Number=Sing	32	nsubj	_	_
+31	avançada	avançar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	30	acl	_	_
+32	impediria	impedir	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	27	advcl	_	_
+33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	punição	punição	NOUN	_	Gender=Fem|Number=Sing	32	obj	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
 
-# sent_id = train-s7797
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Doutorando em Comunicação e Semiótica (PUC / SP) e mestre em Dança (PPGDanca / UFBA), com formação artística pelo Centro Em Movimento (cem / Lisboa).
-1	Doutorando	doutorando	NOUN	NOUN	_	0	root	_	_
-2	em	em	ADP	ADP	_	3	case	_	_
-3	Comunicação	_	PROPN	PNOUN	_	1	nmod	_	_
-4	e	e	CCONJ	CONJ	_	5	cc	_	_
-5	Semiótica	_	PROPN	PNOUN	_	3	conj	_	_
-6	(	(	PUNCT	.	_	7	punct	_	SpaceAfter=No
-7	PUC	_	PROPN	PNOUN	_	3	appos	_	_
-8	/	/	PUNCT	.	_	9	punct	_	_
-9	SP	_	PROPN	PNOUN	_	7	appos	_	SpaceAfter=No
-10	)	)	PUNCT	.	_	7	punct	_	_
-11	e	e	CCONJ	CONJ	_	12	cc	_	_
-12	mestre	mestre	NOUN	NOUN	_	1	conj	_	_
-13	em	em	ADP	ADP	_	14	case	_	_
-14	Dança	_	PROPN	PNOUN	_	12	nmod	_	_
-15	(	(	PUNCT	.	_	16	punct	_	SpaceAfter=No
-16	PPGDanca	_	PROPN	PNOUN	_	14	appos	_	_
-17	/	/	PUNCT	.	_	18	punct	_	_
-18	UFBA	_	PROPN	PNOUN	_	16	appos	_	SpaceAfter=No
-19	)	)	PUNCT	.	_	16	punct	_	SpaceAfter=No
-20	,	,	PUNCT	.	_	22	punct	_	_
-21	com	com	ADP	ADP	_	22	case	_	_
-22	formação	formação	NOUN	NOUN	_	1	nmod	_	_
-23	artística	artístico	ADJ	ADJ	_	22	amod	_	_
+# sent_id = train-s7797
+1	Doutorando	doutorar	VERB	_	VerbForm=Ger	0	root	_	_
+2	em	em	ADP	_	_	3	case	_	_
+3	Comunicação	Comunicação	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	1	obl	_	_
+4	e	e	CCONJ	_	_	3	flat:name	_	_
+5	Semiótica	Semiótica	PROPN	_	Number=Sing	3	flat:name	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	PUC	PUC	PROPN	_	Gender=Masc|Number=Sing	3	appos	_	_
+8	/	/	PUNCT	_	_	9	punct	_	_
+9	SP	SP	PROPN	_	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	7	punct	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	mestre	mestre	NOUN	_	Gender=Masc|Number=Sing	3	conj	_	_
+13	em	em	ADP	_	_	14	case	_	_
+14	Dança	Dança	PROPN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	PPGDanca	ppgdanca	PROPN	_	Gender=Fem|Number=Sing	12	appos	_	_
+17	/	/	PUNCT	_	_	18	punct	_	_
+18	UFBA	UFBA	PROPN	_	Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	_
+21	com	com	ADP	_	_	22	case	_	_
+22	formação	formação	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
+23	artística	artístico	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
 24-25	pelo	_	_	_	_	_	_	_	_
-24	por	por	ADP	ADP	_	26	case	_	_
-25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	Centro	_	PROPN	PNOUN	_	22	nmod	_	_
-27	Em	_	PROPN	PNOUN	_	28	case	_	_
-28	Movimento	_	PROPN	PNOUN	_	26	nmod	_	_
-29	(	(	PUNCT	.	_	30	punct	_	SpaceAfter=No
-30	cem	_	PROPN	PNOUN	_	26	appos	_	_
-31	/	/	PUNCT	.	_	32	punct	_	_
-32	Lisboa	_	PROPN	PNOUN	_	30	appos	_	SpaceAfter=No
-33	)	)	PUNCT	.	_	30	punct	_	SpaceAfter=No
-34	.	.	PUNCT	.	_	1	punct	_	_
+24	por	por	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Centro	Centro	PROPN	_	Gender=Masc|Number=Sing	22	nmod	_	_
+27	Em	em	ADP	_	_	28	case	_	_
+28	Movimento	Movimento	PROPN	_	Number=Sing	26	nmod	_	_
+29	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
+30	cem	cem	NUM	_	Gender=Masc|Number=Sing	26	parataxis	_	_
+31	/	/	PUNCT	_	_	32	punct	_	_
+32	Lisboa	Lisboa	PROPN	_	Gender=Fem|Number=Sing	30	conj	_	SpaceAfter=No
+33	)	)	PUNCT	_	_	30	punct	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = train-s7798
 # text = Os partidos têm até a meia - noite deste sábado para apresentar outro nome para a disputa.

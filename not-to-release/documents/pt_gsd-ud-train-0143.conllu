@@ -22,43 +22,45 @@
 20	agrícola	agrícola	ADJ	ADJ	_	19	amod	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s1420
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O ator confirmou que não vive mais na mansão que dividia com a ex - namorada, Kristen Stewart, em Los Feliz, Califórnia, e ainda brincou com o fato.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	ator	ator	NOUN	NOUN	_	3	nsubj	_	_
-3	confirmou	confirmar	VERB	VERB	_	0	root	_	_
-4	que	que	CCONJ	CONJ	_	6	mark	_	_
-5	não	não	ADV	ADV	Polarity=Neg	6	advmod	_	_
-6	vive	_	VERB	VERB	_	3	ccomp	_	_
-7	mais	mais	ADV	ADV	_	6	advmod	_	_
+# sent_id = train-s1420
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ator	ator	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	confirmou	confirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	6	mark	_	_
+5	não	não	ADV	_	Polarity=Neg	6	advmod	_	_
+6	vive	viver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+7	mais	mais	ADV	_	_	6	advmod	_	_
 8-9	na	_	_	_	_	_	_	_	_
-8	em	em	ADP	ADP	_	10	case	_	_
-9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	mansão	mansão	NOUN	NOUN	_	6	nmod	_	_
-11	que	_	PRON	PRON	_	12	obj	_	_
-12	dividia	dividir	VERB	VERB	_	10	acl:relcl	_	_
-13	com	com	ADP	ADP	_	15	case	_	_
-14	a	o	DET	DET	_	15	det	_	_
-15	ex	_	PART	PRT	_	12	nmod	_	_
-16	-	-	PUNCT	.	_	15	punct	_	_
-17	namorada	_	NOUN	NOUN	_	15	flat	_	SpaceAfter=No
-18	,	,	PUNCT	.	_	19	punct	_	_
-19	Kristen	_	PROPN	PNOUN	_	15	appos	_	_
-20	Stewart	_	PROPN	PNOUN	_	19	flat	_	SpaceAfter=No
-21	,	,	PUNCT	.	_	19	punct	_	_
-22	em	em	ADP	ADP	_	24	case	_	_
-23	Los	_	PROPN	PNOUN	_	24	det	_	_
-24	Feliz	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
-25	,	,	PUNCT	.	_	26	punct	_	_
-26	Califórnia	_	PROPN	PNOUN	_	24	appos	_	SpaceAfter=No
-27	,	,	PUNCT	.	_	26	punct	_	_
-28	e	e	CCONJ	CONJ	_	30	cc	_	_
-29	ainda	ainda	ADV	ADV	_	30	advmod	_	_
-30	brincou	brincar	VERB	VERB	_	3	conj	_	_
-31	com	com	ADP	ADP	_	33	case	_	_
-32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
-33	fato	fato	NOUN	NOUN	_	30	nmod	_	SpaceAfter=No
-34	.	.	PUNCT	.	_	3	punct	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	mansão	mansão	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+11	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	12	obj	_	_
+12	dividia	dividir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	_
+13	com	com	ADP	_	_	17	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+15	ex	ex	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
+16	-	-	PUNCT	_	_	17	punct	_	_
+17	namorada	namorada	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	Kristen	Kristen	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	17	appos	_	_
+20	Stewart	Stewart	PROPN	_	Number=Sing	19	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	19	punct	_	_
+22	em	em	ADP	_	_	23	case	_	_
+23	Los	Los	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	12	obl	_	_
+24	Feliz	Feliz	PROPN	_	Number=Sing	23	flat:name	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	Califórnia	Califórnia	PROPN	_	Gender=Fem|Number=Sing	23	appos	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	e	e	CCONJ	_	_	30	cc	_	_
+29	ainda	ainda	ADV	_	_	30	advmod	_	_
+30	brincou	brincar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+31	com	com	ADP	_	_	33	case	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	fato	fato	NOUN	_	Gender=Masc|Number=Sing	30	obj	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = train-s1421
 # text = A cidade é linda e adorei jogar em 2009, quando ganhei o título.
@@ -78,24 +80,26 @@
 14	título	título	NOUN	NOUN	_	12	obj	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s1422
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Lady Gaga voltou a chamar atenção na terça - feira (25).
-1	Lady	_	PROPN	PNOUN	_	5	nsubj	_	_
-2	Gaga	_	PROPN	PNOUN	_	1	flat	_	_
-3	voltou	voltar	AUX	AUX	_	5	aux	_	_
-4	a	_	ADP	ADP	_	5	mark	_	_
-5	chamar	chamar	VERB	VERB	_	0	root	_	_
-6	atenção	atenção	NOUN	NOUN	_	5	obj	_	_
+# sent_id = train-s1422
+1	Lady	Lady	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	Gaga	Gaga	PROPN	_	Number=Sing	1	flat:name	_	_
+3	voltou	voltar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	SCONJ	_	_	5	mark	_	_
+5	chamar	chamar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+6	atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
 7-8	na	_	_	_	_	_	_	_	_
-7	em	em	ADP	ADP	_	11	case	_	_
-8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-9	terça	_	PROPN	PNOUN	_	11	amod	_	_
-10	-	-	PUNCT	.	_	11	punct	_	_
-11	feira	_	PROPN	PNOUN	_	5	nmod	_	_
-12	(	(	PUNCT	.	_	13	punct	_	SpaceAfter=No
-13	25	25	NUM	NUM	NumType=Card	11	nmod	_	SpaceAfter=No
-14	)	)	PUNCT	.	_	13	punct	_	SpaceAfter=No
-15	.	.	PUNCT	.	_	5	punct	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	terça	terça	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+10	-	-	PUNCT	_	_	11	punct	_	_
+11	feira	feira	NOUN	_	Gender=Fem|Number=Sing	9	appos	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	25	25	NUM	_	NumType=Card	9	appos	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # sent_id = train-s1423
 # text = Nos últimos dias, aumentaram as deserções no governo Assad.

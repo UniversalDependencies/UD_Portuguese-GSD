@@ -115,30 +115,32 @@
 21	mental	mental	ADJ	ADJ	_	19	conj	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	11	punct	_	_
 
-# sent_id = train-s1674
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Os seus habitats naturais são: florestas subtropicais ou tropicais húmidas de baixa altitude e florestas de mangal tropicais ou subtropicais.
-1	Os	o	DET	DET	_	3	det	_	_
-2	seus	_	DET	DET	_	3	det:poss	_	_
-3	habitats	habitat	NOUN	NOUN	_	7	nsubj	_	_
-4	naturais	natural	ADJ	ADJ	_	3	amod	_	_
-5	são	ser	VERB	VERB	_	7	cop	_	SpaceAfter=No
-6	:	:	PUNCT	.	_	7	punct	_	_
-7	florestas	floresta	NOUN	NOUN	_	0	root	_	_
-8	subtropicais	subtropical	ADJ	ADJ	_	7	amod	_	_
-9	ou	ou	CCONJ	CONJ	_	10	cc	_	_
-10	tropicais	tropical	ADJ	ADJ	_	8	conj	_	_
-11	húmidas	húmido	ADJ	ADJ	_	7	amod	_	_
-12	de	de	ADP	ADP	_	14	case	_	_
-13	baixa	baixo	ADJ	ADJ	_	14	amod	_	_
-14	altitude	altitude	NOUN	NOUN	_	7	nmod	_	_
-15	e	e	CCONJ	CONJ	_	16	cc	_	_
-16	florestas	floresta	NOUN	NOUN	_	7	conj	_	_
-17	de	de	ADP	ADP	_	18	case	_	_
-18	mangal	mangal	NOUN	NOUN	_	16	nmod	_	_
-19	tropicais	tropical	ADJ	ADJ	_	16	amod	_	_
-20	ou	ou	CCONJ	CONJ	_	21	cc	_	_
-21	subtropicais	subtropical	ADJ	ADJ	_	19	conj	_	SpaceAfter=No
-22	.	.	PUNCT	.	_	7	punct	_	_
+# sent_id = train-s1674
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	seus	seu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	3	det	_	_
+3	habitats	habital	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
+4	naturais	natural	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
+5	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	7	punct	_	_
+7	florestas	floresta	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+8	subtropicais	subtropical	ADJ	_	Gender=Fem|Number=Plur	7	amod	_	_
+9	ou	ou	CCONJ	_	_	10	cc	_	_
+10	tropicais	tropical	ADJ	_	Gender=Fem|Number=Plur	8	conj	_	_
+11	húmidas	húmido	ADJ	_	Gender=Fem|Number=Plur	7	amod	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	baixa	baixo	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+14	altitude	altitude	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	florestas	floresta	NOUN	_	Gender=Fem|Number=Plur	7	conj	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	mangal	mangal	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+19	tropicais	tropical	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	_
+20	ou	ou	CCONJ	_	_	21	cc	_	_
+21	subtropicais	subtropical	ADJ	_	Gender=Masc|Number=Plur	19	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
 # sent_id = train-s1675
 # text = O ramal do Matadouro de Santa Cruz foi inaugurado em 1884, com uma única estação construída ao lado do prédio do Matadouro Municipal, para o transporte de carnes e de gado de corte.

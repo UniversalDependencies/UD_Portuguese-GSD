@@ -203,33 +203,35 @@
 13	Serasa	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	1	punct	_	_
 
-# sent_id = train-s8641
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = A gente falou depois do clássico com o Atlético - MG que tínhamos de vir a Goiânia para buscar os três pontos.
-1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	gente	gente	NOUN	NOUN	_	3	nsubj	_	_
-3	falou	falar	VERB	VERB	_	0	root	_	_
-4	depois	depois	ADV	ADV	_	7	case	_	_
+# sent_id = train-s8641
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	gente	gente	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	falou	falar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	depois	depois	ADV	_	_	3	advmod	_	_
 5-6	do	_	_	_	_	_	_	_	_
-5	de	de	ADP	ADP	_	4	case	_	_
-6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-7	clássico	clássico	NOUN	NOUN	_	3	nmod	_	_
-8	com	com	ADP	ADP	_	10	case	_	_
-9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	Atlético	_	PROPN	PNOUN	_	7	nmod	_	_
-11	-	-	PUNCT	.	_	10	punct	_	_
-12	MG	_	PROPN	PNOUN	_	10	flat	_	_
-13	que	que	CCONJ	CONJ	_	16	mark	_	_
-14	tínhamos	ter	AUX	AUX	_	16	aux	_	_
-15	de	_	ADP	ADP	_	16	mark	_	_
-16	vir	_	VERB	VERB	_	3	ccomp	_	_
-17	a	_	ADP	ADP	_	18	case	_	_
-18	Goiânia	_	PROPN	PNOUN	_	16	nmod	_	_
-19	para	_	ADP	ADP	_	20	mark	_	_
-20	buscar	buscar	VERB	VERB	_	16	advcl	_	_
-21	os	o	DET	DET	_	23	det	_	_
-22	três	_	NUM	NUM	NumType=Card	23	nummod	_	_
-23	pontos	ponto	NOUN	NOUN	_	20	obj	_	SpaceAfter=No
-24	.	.	PUNCT	.	_	3	punct	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	clássico	clássico	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+8	com	com	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Atlético	Atlético	PROPN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11	-	-	PUNCT	_	_	12	punct	_	_
+12	MG	MG	PROPN	_	Gender=Masc|Number=Sing	10	appos	_	_
+13	que	que	SCONJ	_	_	16	mark	_	_
+14	tínhamos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	3	ccomp	_	_
+15	de	de	SCONJ	_	_	16	mark	_	_
+16	vir	vir	VERB	_	VerbForm=Inf	14	xcomp	_	_
+17	a	a	ADP	_	_	18	case	_	_
+18	Goiânia	Goiânia	PROPN	_	Gender=Fem|Number=Sing	16	obl	_	_
+19	para	para	SCONJ	_	_	20	mark	_	_
+20	buscar	buscar	VERB	_	VerbForm=Inf	16	advcl	_	_
+21	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+22	três	três	NUM	_	NumType=Card	23	nummod	_	_
+23	pontos	ponto	NOUN	_	Gender=Masc|Number=Plur	20	obj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = train-s8642
 # text = A equipe da coligação preparou uma carreata e percorreram diversas ruas de Caracol, onde muitos cidadãos se juntaram ao grupo aumentando ainda mais o número de pessoas que desejam uma Caracol cada vez melhor.

@@ -165,28 +165,30 @@
 10	semana	semana	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	1	punct	_	_
 
-# sent_id = train-s3191
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O Brasil ainda conseguiu salvar três set points antes da seleção cubana fechar a parcial em 25 / 19.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	Brasil	_	PROPN	PNOUN	_	4	nsubj	_	_
-3	ainda	ainda	ADV	ADV	_	4	advmod	_	_
-4	conseguiu	conseguir	VERB	VERB	_	0	root	_	_
-5	salvar	salvar	VERB	VERB	_	4	xcomp	_	_
-6	três	_	NUM	NUM	NumType=Card	7	nummod	_	_
-7	set	set	NOUN	NOUN	_	5	obj	_	_
-8	points	_	NOUN	NOUN	_	7	flat	_	_
-9	antes	antes	ADV	ADV	_	14	mark	_	_
+# sent_id = train-s3191
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Brasil	Brasil	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	ainda	ainda	ADV	_	_	4	advmod	_	_
+4	conseguiu	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	salvar	salvar	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	três	três	NUM	_	NumType=Card	7	nummod	_	_
+7	set	set	NUM	_	NumType=Card	5	obj	_	_
+8	points	points	NOUN	_	Gender=Masc|Number=Plur	7	flat:foreign	_	_
+9	antes	antes	ADV	_	ExtPos=SCONJ	14	mark	_	_
 10-11	da	_	_	_	_	_	_	_	_
-10	de	de	ADP	ADP	_	9	case	_	_
-11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-12	seleção	seleção	NOUN	NOUN	_	14	nsubj	_	_
-13	cubana	cubano	ADJ	ADJ	_	12	amod	_	_
-14	fechar	fechar	VERB	VERB	_	5	advcl	_	_
-15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	parcial	_	NOUN	NOUN	_	14	obj	_	_
-17	em	em	ADP	ADP	_	18	case	_	_
-18	25	25	NUM	NUM	NumType=Card	14	nmod	_	_
-19	/	/	PUNCT	.	_	20	punct	_	_
-20	19	19	NUM	NUM	NumType=Card	18	conj	_	SpaceAfter=No
-21	.	.	PUNCT	.	_	4	punct	_	_
+10	de	de	ADP	_	_	9	fixed	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	seleção	seleção	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
+13	cubana	cubano	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
+14	fechar	fechar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	5	advcl	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	parcial	parcial	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+17	em	em	ADP	_	_	18	case	_	_
+18	25	25	NUM	_	NumType=Card	14	obl	_	_
+19	/	/	PUNCT	_	_	20	punct	_	_
+20	19	19	NUM	_	NumType=Card	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
 

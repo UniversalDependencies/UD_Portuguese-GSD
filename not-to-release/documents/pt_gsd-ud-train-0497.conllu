@@ -20,24 +20,26 @@
 18	derrota	derrota	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	10	punct	_	_
 
-# sent_id = train-s4934
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Ele permanece em custódia na delegacia de Aberystwyth onde continua a ser interrogado.
-1	Ele	_	PRON	PRON	_	2	nsubj	_	_
-2	permanece	permanecer	VERB	VERB	_	0	root	_	_
-3	em	em	ADP	ADP	_	4	case	_	_
-4	custódia	_	NOUN	NOUN	_	2	nmod	_	_
+# sent_id = train-s4934
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	permanece	permanecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	em	em	ADP	_	_	4	case	_	_
+4	custódia	custódia	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
 5-6	na	_	_	_	_	_	_	_	_
-5	em	em	ADP	ADP	_	7	case	_	_
-6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	delegacia	delegacia	NOUN	NOUN	_	2	nmod	_	_
-8	de	de	ADP	ADP	_	9	case	_	_
-9	Aberystwyth	_	PROPN	PNOUN	_	7	nmod	_	_
-10	onde	onde	ADV	ADV	_	14	advmod	_	_
-11	continua	continuar	VERB	VERB	_	14	aux	_	_
-12	a	_	ADP	ADP	_	14	mark	_	_
-13	ser	ser	AUX	AUX	_	14	aux:pass	_	_
-14	interrogado	interrogar	VERB	VERB	_	7	acl:relcl	_	SpaceAfter=No
-15	.	.	PUNCT	.	_	2	punct	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	delegacia	delegacia	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Aberystwyth	Aberystwyth	PROPN	_	Number=Sing	7	nmod	_	_
+10	onde	onde	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	11	obl	_	_
+11	continua	continuar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	a	a	SCONJ	_	_	14	mark	_	_
+13	ser	ser	AUX	_	VerbForm=Inf	14	aux:pass	_	_
+14	interrogado	interrogar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	11	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = train-s4935
 # text = O ministro Ricardo Lewandowski, revisor da Ação Penal 470, o chamado mensalão, no Supremo Tribunal Federal (STF), disse nesta sexta - feira (24) que já esperava as críticas em relação aos votos que proferiu na sessão desta quinta - feira (23).
@@ -206,50 +208,52 @@
 65	permitiria	permitir	VERB	VERB	_	55	acl:relcl	_	SpaceAfter=No
 66	.	.	PUNCT	.	_	21	punct	_	_
 
-# sent_id = train-s4938
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = A Fundação de Proteção e Defesa do Consumidor (Procon) de Porto Alegre irá notificar a produtora Time For Fun (T4F), responsável por trazer o show da cantora Madonna ao Brasil.
-1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	Fundação	_	PROPN	PNOUN	_	17	nsubj	_	_
-3	de	de	ADP	ADP	_	4	case	_	_
-4	Proteção	_	PROPN	PNOUN	_	2	nmod	_	_
-5	e	e	CCONJ	CONJ	_	6	cc	_	_
-6	Defesa	_	PROPN	PNOUN	_	4	conj	_	_
+# sent_id = train-s4938
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Fundação	Fundação	PROPN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Proteção	Proteção	PROPN	_	Number=Sing	2	nmod	_	_
+5	e	e	CCONJ	_	_	4	flat:name	_	_
+6	Defesa	Defesa	PROPN	_	Number=Sing	4	flat:name	_	_
 7-8	do	_	_	_	_	_	_	_	_
-7	de	de	ADP	ADP	_	9	case	_	_
-8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	Consumidor	_	PROPN	PNOUN	_	4	nmod	_	_
-10	(	(	PUNCT	.	_	11	punct	_	SpaceAfter=No
-11	Procon	_	PROPN	PNOUN	_	2	appos	_	SpaceAfter=No
-12	)	)	PUNCT	.	_	11	punct	_	_
-13	de	de	ADP	ADP	_	14	case	_	_
-14	Porto	_	PROPN	PNOUN	_	2	nmod	_	_
-15	Alegre	_	PROPN	PNOUN	_	14	amod	_	_
-16	irá	_	AUX	AUX	_	17	aux	_	_
-17	notificar	notificar	VERB	VERB	_	0	root	_	_
-18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	produtora	produtor	NOUN	NOUN	_	17	obj	_	_
-20	Time	_	PROPN	PNOUN	_	19	appos	_	_
-21	For	_	PROPN	PNOUN	_	22	case	_	_
-22	Fun	_	PROPN	PNOUN	_	20	nmod	_	_
-23	(	(	PUNCT	.	_	24	punct	_	SpaceAfter=No
-24	T4F	_	PROPN	PNOUN	_	20	appos	_	SpaceAfter=No
-25	)	)	PUNCT	.	_	24	punct	_	SpaceAfter=No
-26	,	,	PUNCT	.	_	27	punct	_	_
-27	responsável	responsável	ADJ	ADJ	_	19	amod	_	_
-28	por	_	ADP	ADP	_	29	mark	_	_
-29	trazer	trazer	VERB	VERB	_	27	nmod	_	_
-30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-31	show	show	NOUN	NOUN	_	29	obj	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Consumidor	Consumidor	PROPN	_	Number=Sing	4	nmod	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	Procon	Procon	PROPN	_	Gender=Fem|Number=Sing	2	appos	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	Porto	Porto	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	2	nmod	_	_
+15	Alegre	Alegre	PROPN	_	Number=Sing	14	flat:name	_	_
+16	irá	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	17	aux	_	_
+17	notificar	notificar	VERB	_	VerbForm=Inf	0	root	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	produtora	produtor	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+20	Time	Time	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	19	appos	_	_
+21	For	For	PROPN	_	Number=Sing	20	flat:name	_	_
+22	Fun	Fun	PROPN	_	Number=Sing	20	flat:name	_	_
+23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	T4F	T4F	PROPN	_	Gender=Fem|Number=Sing	19	appos	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	responsável	responsável	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
+28	por	por	SCONJ	_	_	29	mark	_	_
+29	trazer	trazer	VERB	_	VerbForm=Inf	27	acl	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	show	show	NOUN	_	Gender=Masc|Number=Sing	29	obj	_	_
 32-33	da	_	_	_	_	_	_	_	_
-32	de	de	ADP	ADP	_	34	case	_	_
-33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
-34	cantora	cantor	NOUN	NOUN	_	31	nmod	_	_
-35	Madonna	_	PROPN	PNOUN	_	34	appos	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	cantora	cantora	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	_
+35	Madonna	Madonna	PROPN	_	Gender=Fem|Number=Sing	34	appos	_	_
 36-37	ao	_	_	_	_	_	_	_	_
-36	a	a	ADP	ADP	_	38	case	_	_
-37	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
-38	Brasil	_	PROPN	PNOUN	_	29	nmod	_	SpaceAfter=No
-39	.	.	PUNCT	.	_	17	punct	_	_
+36	a	a	ADP	_	_	38	case	_	_
+37	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	Brasil	Brasil	PROPN	_	Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
 
 # sent_id = train-s4939
 # text = O terremoto de 9 graus na escala Richter que sacudiu o arquipélago em 11 de março de 2011 bloqueou boa parte das linhas telefônicas do país, mas a internet resistiu, se transformando num recurso crucial para coordenar a ajuda em meio à crise.

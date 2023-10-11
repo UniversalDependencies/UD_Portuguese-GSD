@@ -44,27 +44,27 @@
 8	médico	médico	ADJ	ADJ	_	7	amod	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s8152
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Certamente havia acabado de fugir dalguma gaiola ou viveiro e ali pousara para descansar um pouco.
-1	Certamente	certamente	ADV	ADV	_	5	advmod	_	_
-2	havia	haver	AUX	AUX	_	5	aux	_	_
-3	acabado	acabar	AUX	AUX	_	5	aux	_	_
-4	de	_	ADP	ADP	_	5	mark	_	_
-5	fugir	fugir	VERB	VERB	_	0	root	_	_
-6-7	dalguma	_	_	_	_	_	_	_	_
-6	de	de	ADP	ADP	_	8	case	_	_
-7	alguma	_	DET	DET	_	8	det	_	_
-8	gaiola	_	NOUN	NOUN	_	5	nmod	_	_
-9	ou	ou	CCONJ	CONJ	_	10	cc	_	_
-10	viveiro	viveiro	NOUN	NOUN	_	8	conj	_	_
-11	e	e	CCONJ	CONJ	_	13	cc	_	_
-12	ali	ali	ADV	ADV	_	13	advmod	_	_
-13	pousara	pousar	VERB	VERB	_	5	conj	_	_
-14	para	_	ADP	ADP	_	15	mark	_	_
-15	descansar	descansar	VERB	VERB	_	13	advcl	_	_
-16	um	um	DET	DET	_	17	det	_	_
-17	pouco	pouco	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
-18	.	.	PUNCT	.	_	5	punct	_	_
+# sent_id = train-s8152
+1	Certamente	certamente	ADV	_	_	3	advmod	_	_
+2	havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+3	acabado	acabar	VERB	_	VerbForm=Part	0	root	_	_
+4	de	de	SCONJ	_	_	5	mark	_	_
+5	fugir	fugir	VERB	_	VerbForm=Inf	3	xcomp	_	_
+6	dalguma	dalgum	DET	_	Gender=Fem|Number=Sing|PronType=Ind	7	det	_	_
+7	gaiola	gaiola	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	ou	ou	CCONJ	_	_	9	cc	_	_
+9	viveiro	viveiro	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	_
+10	e	e	CCONJ	_	_	12	cc	_	_
+11	ali	ali	ADV	_	_	12	advmod	_	_
+12	pousara	pousar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin	5	conj	_	_
+13	para	para	SCONJ	_	_	14	mark	_	_
+14	descansar	descansar	VERB	_	VerbForm=Inf	12	advcl	_	_
+15	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	advmod	_	_
+16	pouco	pouco	ADV	_	_	15	fixed	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # sent_id = train-s8153
 # text = Apesar de mais raros, observa Samuel, há registro também entre os jovens e, sempre que isto ocorre, desconfia-se da possibilidade de ser um problema hereditário.

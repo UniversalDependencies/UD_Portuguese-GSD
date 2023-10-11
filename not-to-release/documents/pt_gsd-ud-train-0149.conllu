@@ -153,27 +153,29 @@
 6	conhecer	conhecer	VERB	VERB	_	4	csubj	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s1484
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O pai (Papa Woodpecker) tenta criar o Pica - Pau que se mostra um bebê revoltado.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	pai	pai	NOUN	NOUN	_	7	nsubj	_	_
-3	(	(	PUNCT	.	_	4	punct	_	SpaceAfter=No
-4	Papa	_	PROPN	PNOUN	_	2	appos	_	_
-5	Woodpecker	_	PROPN	PNOUN	_	4	flat	_	SpaceAfter=No
-6	)	)	PUNCT	.	_	4	punct	_	_
-7	tenta	tentar	VERB	VERB	_	0	root	_	_
-8	criar	criar	VERB	VERB	_	7	xcomp	_	_
-9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	Pica	_	PROPN	PNOUN	_	8	obj	_	_
-11	-	-	PUNCT	.	_	10	punct	_	_
-12	Pau	_	PROPN	PNOUN	_	10	flat	_	_
-13	que	_	PRON	PRON	_	17	nsubj	_	_
-14	se	_	PART	PRT	_	17	expl:pv	_	_
-15	mostra	mostrar	AUX	AUX	_	17	cop	_	_
-16	um	um	DET	DET	_	17	det	_	_
-17	bebê	bebê	NOUN	NOUN	_	10	acl:relcl	_	_
-18	revoltado	revoltado	ADJ	ADJ	_	17	amod	_	SpaceAfter=No
-19	.	.	PUNCT	.	_	7	punct	_	_
+# sent_id = train-s1484
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	pai	pai	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Papa	Papa	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	2	appos	_	_
+5	Woodpecker	Woodpecker	PROPN	_	Number=Sing	4	flat:name	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	4	punct	_	_
+7	tenta	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	criar	criar	VERB	_	VerbForm=Inf	7	xcomp	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Pica	Pica	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	8	obj	_	_
+11	-	-	PUNCT	_	_	10	punct	_	_
+12	Pau	Pau	PROPN	_	Gender=Masc|Number=Sing	10	flat:name	_	_
+13	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	15	nsubj	_	_
+14	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	expl	_	_
+15	mostra	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+16	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	bebê	bebê	NOUN	_	Gender=Masc|Number=Sing	15	xcomp	_	_
+18	revoltado	revoltar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	17	acl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
 # sent_id = train-s1485
 # text = Descrita como mais uma profiler do grupo, ainda não existem mais detalhes sobre como será seu papel.
@@ -235,37 +237,39 @@
 19	euros	euro	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	11	punct	_	_
 
-# sent_id = train-s1488
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Vivendo uma péssima fase, o atacante alvinegro chegou a ser cogitado no Bangu, para o Carioca de 2012, mas o interesse também não o seduziu.
-1	Vivendo	viver	VERB	VERB	_	7	acl	_	_
-2	uma	um	DET	DET	_	4	det	_	_
-3	péssima	_	ADJ	ADJ	_	4	amod	_	_
-4	fase	fase	NOUN	NOUN	_	1	obj	_	SpaceAfter=No
-5	,	,	PUNCT	.	_	1	punct	_	_
-6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	atacante	atacante	NOUN	NOUN	_	12	nsubj:pass	_	_
-8	alvinegro	alvinegro	ADJ	ADJ	_	7	amod	_	_
-9	chegou	chegar	AUX	AUX	_	12	aux	_	_
-10	a	_	ADP	ADP	_	12	mark	_	_
-11	ser	ser	AUX	AUX	_	12	aux:pass	_	_
-12	cogitado	cogitar	VERB	VERB	_	0	root	_	_
+# sent_id = train-s1488
+1	Vivendo	viver	VERB	_	VerbForm=Ger	12	advcl	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	péssima	péssimo	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+4	fase	fase	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	1	punct	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	atacante	atacante	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+8	alvinegro	alvinegro	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+9	chegou	chegar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	a	a	SCONJ	_	_	12	mark	_	_
+11	ser	ser	AUX	_	VerbForm=Inf	12	aux:pass	_	_
+12	cogitado	cogitar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	xcomp	_	_
 13-14	no	_	_	_	_	_	_	_	_
-13	em	em	ADP	ADP	_	15	case	_	_
-14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	Bangu	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
-16	,	,	PUNCT	.	_	19	punct	_	_
-17	para	para	ADP	ADP	_	19	case	_	_
-18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	Carioca	_	PROPN	PNOUN	_	12	nmod	_	_
-20	de	de	ADP	ADP	_	21	case	_	_
-21	2012	2012	NUM	NUM	NumType=Card	19	nmod	_	SpaceAfter=No
-22	,	,	PUNCT	.	_	19	punct	_	_
-23	mas	mas	CCONJ	CONJ	_	29	cc	_	_
-24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	interesse	interesse	NOUN	NOUN	_	29	nsubj	_	_
-26	também	também	ADV	ADV	_	29	advmod	_	_
-27	não	não	ADV	ADV	Polarity=Neg	29	advmod	_	_
-28	o	_	PRON	PRON	_	29	obj	_	_
-29	seduziu	seduzir	VERB	VERB	_	12	conj	_	SpaceAfter=No
-30	.	.	PUNCT	.	_	12	punct	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Bangu	Bangu	PROPN	_	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	19	punct	_	_
+17	para	para	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Carioca	Carioca	PROPN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	2012	2012	NUM	_	NumType=Card	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	19	punct	_	_
+23	mas	mas	CCONJ	_	_	29	cc	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	interesse	interesse	NOUN	_	Gender=Masc|Number=Sing	29	nsubj	_	_
+26	também	também	ADV	_	_	29	advmod	_	_
+27	não	não	ADV	_	Polarity=Neg	29	advmod	_	_
+28	o	ele	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	obj	_	_
+29	seduziu	seduzir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	conj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
 

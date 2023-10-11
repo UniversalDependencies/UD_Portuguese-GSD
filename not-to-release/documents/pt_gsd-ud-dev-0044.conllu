@@ -80,76 +80,78 @@
 16	2016	2016	NUM	NUM	NumType=Card	6	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = dev-s431
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = No início de abril de 2010, Mansur também desfez a aquisição da Faculdade Batista de Vitória (Fabavi), na capital do Espírito Santo, negociada em outubro de 2009, e reassumida pelo Instituto Batista de Educação de Vitória (IBEV), após o empresário deixar de pagar parcelas da aquisição.
+# sent_id = dev-s431
 1-2	No	_	_	_	_	_	_	_	_
-1	Em	em	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	início	início	NOUN	NOUN	_	11	nmod	_	_
-4	de	de	ADP	ADP	_	5	case	_	_
-5	abril	_	PROPN	PNOUN	_	3	nmod	_	_
-6	de	de	ADP	ADP	_	7	case	_	_
-7	2010	2010	NUM	NUM	NumType=Card	5	nmod	_	SpaceAfter=No
-8	,	,	PUNCT	.	_	3	punct	_	_
-9	Mansur	_	PROPN	PNOUN	_	11	nsubj	_	_
-10	também	também	ADV	ADV	_	11	advmod	_	_
-11	desfez	desfazer	VERB	VERB	_	0	root	_	_
-12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	aquisição	aquisição	NOUN	NOUN	_	11	obj	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	início	início	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	abril	abril	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	2010	2010	NUM	_	NumType=Card	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	3	punct	_	_
+9	Mansur	Mansur	PROPN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+10	também	também	ADV	_	_	11	advmod	_	_
+11	desfez	desfazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	aquisição	aquisição	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
 14-15	da	_	_	_	_	_	_	_	_
-14	de	de	ADP	ADP	_	16	case	_	_
-15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	Faculdade	_	PROPN	PNOUN	_	13	nmod	_	_
-17	Batista	_	PROPN	PNOUN	_	16	amod	_	_
-18	de	de	ADP	ADP	_	19	case	_	_
-19	Vitória	_	PROPN	PNOUN	_	16	nmod	_	_
-20	(	(	PUNCT	.	_	21	punct	_	SpaceAfter=No
-21	Fabavi	_	PROPN	PNOUN	_	16	appos	_	SpaceAfter=No
-22	)	)	PUNCT	.	_	21	punct	_	SpaceAfter=No
-23	,	,	PUNCT	.	_	26	punct	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Faculdade	Faculdade	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	13	nmod	_	_
+17	Batista	Batista	PROPN	_	Number=Sing	16	flat:name	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	Vitória	Vitória	PROPN	_	Number=Sing	16	nmod	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	Fabavi	Fabavi	PROPN	_	Gender=Fem|Number=Sing	16	appos	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	26	punct	_	_
 24-25	na	_	_	_	_	_	_	_	_
-24	em	em	ADP	ADP	_	26	case	_	_
-25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	capital	capital	NOUN	NOUN	_	16	nmod	_	_
+24	em	em	ADP	_	_	26	case	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	capital	capital	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
 27-28	do	_	_	_	_	_	_	_	_
-27	de	de	ADP	ADP	_	29	case	_	_
-28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-29	Espírito	_	PROPN	PNOUN	_	26	nmod	_	_
-30	Santo	_	PROPN	PNOUN	_	29	amod	_	SpaceAfter=No
-31	,	,	PUNCT	.	_	26	punct	_	_
-32	negociada	negociar	VERB	VERB	_	16	acl	_	_
-33	em	em	ADP	ADP	_	34	case	_	_
-34	outubro	_	PROPN	PNOUN	_	32	nmod	_	_
-35	de	de	ADP	ADP	_	36	case	_	_
-36	2009	2009	NUM	NUM	NumType=Card	34	nmod	_	SpaceAfter=No
-37	,	,	PUNCT	.	_	39	punct	_	_
-38	e	e	CCONJ	CONJ	_	39	cc	_	_
-39	reassumida	reassumir	VERB	VERB	_	32	conj	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	Espírito	Espírito	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	26	nmod	_	_
+30	Santo	Santo	PROPN	_	Number=Sing	29	flat:name	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	32	punct	_	_
+32	negociada	negociar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	26	acl	_	_
+33	em	em	ADP	_	_	34	case	_	_
+34	outubro	outubro	NOUN	_	Gender=Masc|Number=Sing	32	obl	_	_
+35	de	de	ADP	_	_	36	case	_	_
+36	2009	2009	NUM	_	NumType=Card	34	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	32	punct	_	_
+38	e	e	CCONJ	_	_	39	cc	_	_
+39	reassumida	reassumir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	32	conj	_	_
 40-41	pelo	_	_	_	_	_	_	_	_
-40	por	por	ADP	ADP	_	42	case	_	_
-41	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
-42	Instituto	_	PROPN	PNOUN	_	39	nmod	_	_
-43	Batista	_	PROPN	PNOUN	_	42	amod	_	_
-44	de	de	ADP	ADP	_	45	case	_	_
-45	Educação	_	PROPN	PNOUN	_	42	nmod	_	_
-46	de	de	ADP	ADP	_	47	case	_	_
-47	Vitória	_	PROPN	PNOUN	_	42	nmod	_	_
-48	(	(	PUNCT	.	_	49	punct	_	SpaceAfter=No
-49	IBEV	_	PROPN	PNOUN	_	42	appos	_	SpaceAfter=No
-50	)	)	PUNCT	.	_	49	punct	_	SpaceAfter=No
-51	,	,	PUNCT	.	_	57	punct	_	_
-52	após	_	ADP	ADP	_	57	mark	_	_
-53	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
-54	empresário	empresário	NOUN	NOUN	_	57	nsubj	_	_
-55	deixar	deixar	AUX	AUX	_	57	aux	_	_
-56	de	_	ADP	ADP	_	57	mark	_	_
-57	pagar	pagar	VERB	VERB	_	39	advcl	_	_
-58	parcelas	parcela	NOUN	NOUN	_	57	obj	_	_
+40	por	por	ADP	_	_	42	case	_	_
+41	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	Instituto	Instituto	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	39	obl:agent	_	_
+43	Batista	Batista	PROPN	_	Number=Sing	42	flat:name	_	_
+44	de	de	ADP	_	_	45	case	_	_
+45	Educação	Educação	PROPN	_	Number=Sing	42	nmod	_	_
+46	de	de	ADP	_	_	47	case	_	_
+47	Vitória	Vitória	PROPN	_	Number=Sing	45	nmod	_	_
+48	(	(	PUNCT	_	_	49	punct	_	SpaceAfter=No
+49	IBEV	IBEV	PROPN	_	Gender=Masc|Number=Sing	42	appos	_	SpaceAfter=No
+50	)	)	PUNCT	_	_	49	punct	_	SpaceAfter=No
+51	,	,	PUNCT	_	_	55	punct	_	_
+52	após	após	SCONJ	_	_	55	mark	_	_
+53	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	empresário	empresário	NOUN	_	Gender=Masc|Number=Sing	55	nsubj	_	_
+55	deixar	deixar	VERB	_	ExtPos=AUX|VerbForm=Inf	39	advcl	_	_
+56	de	de	SCONJ	_	_	57	mark	_	_
+57	pagar	pagar	VERB	_	VerbForm=Inf	55	xcomp	_	_
+58	parcelas	parcela	NOUN	_	Gender=Fem|Number=Plur	57	obj	_	_
 59-60	da	_	_	_	_	_	_	_	_
-59	de	de	ADP	ADP	_	61	case	_	_
-60	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	61	det	_	_
-61	aquisição	aquisição	NOUN	NOUN	_	58	nmod	_	SpaceAfter=No
-62	.	.	PUNCT	.	_	11	punct	_	_
+59	de	de	ADP	_	_	61	case	_	_
+60	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	61	det	_	_
+61	aquisição	aquisição	NOUN	_	Gender=Fem|Number=Sing	58	nmod	_	SpaceAfter=No
+62	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
 
 # sent_id = dev-s432
 # text = Um dos mais famosos e visitados da lista, o terraço que fica na Avenida Niemeyer recebeu recentemente vigas de concreto, teve o assoalho revitalizado e ganhou melhorias no sistema de drenagem.
@@ -235,27 +237,31 @@
 31	n	n	NOUN	NOUN	_	30	dep	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = dev-s434
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Ela também estrelou em várias séries de televisão, também em anúncios de televisão para a AT &amp; T.
-1	Ela	_	PRON	PRON	_	3	nsubj	_	_
-2	também	também	ADV	ADV	_	3	advmod	_	_
-3	estrelou	estrelar	VERB	VERB	_	0	root	_	_
-4	em	em	ADP	ADP	_	6	case	_	_
-5	várias	_	DET	DET	_	6	det	_	_
-6	séries	série	NOUN	NOUN	_	3	nmod	_	_
-7	de	de	ADP	ADP	_	8	case	_	_
-8	televisão	televisão	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	12	punct	_	_
-10	também	também	ADV	ADV	_	12	advmod	_	_
-11	em	em	ADP	ADP	_	12	case	_	_
-12	anúncios	anúncio	NOUN	NOUN	_	6	conj	_	_
-13	de	de	ADP	ADP	_	14	case	_	_
-14	televisão	televisão	NOUN	NOUN	_	12	nmod	_	_
-15	para	para	ADP	ADP	_	17	case	_	_
-16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	AT	_	PROPN	PNOUN	_	12	nmod	_	_
-18	&amp;	_	PROPN	PNOUN	_	19	cc	_	_
-19	T.	_	PROPN	PNOUN	_	17	conj	_	_
+# sent_id = dev-s434
+1	Ela	ela	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	também	também	ADV	_	_	3	advmod	_	_
+3	estrelou	estrelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	várias	várias	DET	_	Gender=Fem|Number=Plur|PronType=Ind	6	det	_	_
+6	séries	série	NOUN	_	Gender=Fem|Number=Plur	3	obl	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	televisão	televisão	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	3	punct	_	_
+10	também	também	ADV	_	_	12	advmod	_	_
+11	em	em	ADP	_	_	12	case	_	_
+12	anúncios	anúncio	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	televisão	televisão	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+15	para	para	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	AT	AT	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	12	nmod	_	_
+18	&	&	PROPN	_	Number=Sing	17	flat:name	_	SpaceAfter=No
+19	amp	amp	PROPN	_	Number=Sing	17	flat:name	_	SpaceAfter=No
+20	;	;	PUNCT	_	_	21	punct	_	_
+21	T.	Tass	PROPN	_	Abbr=Yes|Gender=Masc|Number=Sing	17	appos	_	SpaceAfter=No
 
 # sent_id = dev-s435
 # text = 78 pessoas foram abordadas, recolhidas três armas brancas (facas e canivetes) e uma pessoa presa, com mandado de prisão que estava em aberto.

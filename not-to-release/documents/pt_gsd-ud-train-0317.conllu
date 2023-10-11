@@ -42,49 +42,53 @@
 25	Santoro	_	PROPN	PNOUN	_	24	nsubj	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	24	punct	_	_
 
-# sent_id = train-s3148
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O dirigente afirmou também que já conversou com o treinador Luiz Felipe Scolari e que o treinador alviverde ressaltou que a sequência do atleta no clube depende do foco dele no Palmeiras.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	dirigente	dirigente	NOUN	NOUN	_	3	nsubj	_	_
-3	afirmou	afirmar	VERB	VERB	_	0	root	_	_
-4	também	também	ADV	ADV	_	3	advmod	_	_
-5	que	que	CCONJ	CONJ	_	7	mark	_	_
-6	já	já	ADV	ADV	_	7	advmod	_	_
-7	conversou	conversar	VERB	VERB	_	3	ccomp	_	_
-8	com	com	ADP	ADP	_	10	case	_	_
-9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	treinador	treinador	NOUN	NOUN	_	7	nmod	_	_
-11	Luiz	_	PROPN	PNOUN	_	10	appos	_	_
-12	Felipe	_	PROPN	PNOUN	_	11	flat	_	_
-13	Scolari	_	PROPN	PNOUN	_	11	flat	_	_
-14	e	e	CCONJ	CONJ	_	19	cc	_	_
-15	que	que	CCONJ	CONJ	_	19	mark	_	_
-16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	treinador	treinador	NOUN	NOUN	_	19	nsubj	_	_
-18	alviverde	alviverde	ADJ	ADJ	_	17	amod	_	_
-19	ressaltou	ressaltar	VERB	VERB	_	7	conj	_	_
-20	que	que	CCONJ	CONJ	_	29	mark	_	_
-21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	sequência	sequência	NOUN	NOUN	_	29	nsubj	_	_
+# sent_id = train-s3148
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	dirigente	dirigente	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	também	também	ADV	_	_	3	advmod	_	_
+5	que	que	SCONJ	_	_	7	mark	_	_
+6	já	já	ADV	_	_	7	advmod	_	_
+7	conversou	conversar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+8	com	com	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	treinador	treinador	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+11	Luiz	Luiz	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	10	appos	_	_
+12	Felipe	Felipe	PROPN	_	Number=Sing	11	flat:name	_	_
+13	Scolari	Scolari	PROPN	_	Number=Sing	11	flat:name	_	_
+14	e	e	CCONJ	_	_	19	cc	_	_
+15	que	que	SCONJ	_	_	19	mark	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	treinador	treinador	NOUN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
+18	alviverde	alviverde	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
+19	ressaltou	ressaltar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+20	que	que	SCONJ	_	_	29	mark	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	sequência	sequência	NOUN	_	Gender=Fem|Number=Sing	29	nsubj	_	_
 23-24	do	_	_	_	_	_	_	_	_
-23	de	de	ADP	ADP	_	25	case	_	_
-24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	atleta	atleta	NOUN	NOUN	_	22	nmod	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	atleta	atleta	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
 26-27	no	_	_	_	_	_	_	_	_
-26	em	em	ADP	ADP	_	28	case	_	_
-27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
-28	clube	clube	NOUN	NOUN	_	22	nmod	_	_
-29	depende	depender	VERB	VERB	_	19	ccomp	_	_
+26	em	em	ADP	_	_	28	case	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	clube	clube	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
+29	depende	depender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
 30-31	do	_	_	_	_	_	_	_	_
-30	de	de	ADP	ADP	_	32	case	_	_
-31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
-32	foco	foco	NOUN	NOUN	_	29	nmod	_	_
-33	dele	_	X	ADPPRON	_	32	det:poss	_	_
-34-35	no	_	_	_	_	_	_	_	_
-34	em	em	ADP	ADP	_	36	case	_	_
-35	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
-36	Palmeiras	_	PROPN	PNOUN	_	32	nmod	_	SpaceAfter=No
-37	.	.	PUNCT	.	_	3	punct	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	foco	foco	NOUN	_	Gender=Masc|Number=Sing	29	obj	_	_
+33-34	dele	_	_	_	_	_	_	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	ele	ele	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nmod	_	_
+35-36	no	_	_	_	_	_	_	_	_
+35	em	em	ADP	_	_	37	case	_	_
+36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	Palmeiras	Palmeiras	PROPN	_	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = train-s3149
 # text = O mês de novembro ainda nem acabou e já tem muita gente fazendo as compras do fim de ano.
@@ -111,37 +115,41 @@
 20	ano	ano	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = train-s3150
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Diferentemente do que havia divulgado o jornal italiano La Gazzetta dello Sport na última quarta - feira, Zé Eduardo não vai mais defender o Milan.
-1	Diferentemente	diferentemente	ADV	ADV	_	25	advmod	_	_
-2	do	_	X	ADPPRON	_	1	nmod	_	_
-3	que	_	PRON	PRON	_	5	obj	_	_
-4	havia	haver	AUX	AUX	_	5	aux	_	_
-5	divulgado	divulgar	VERB	VERB	_	2	acl:relcl	_	_
-6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	jornal	jornal	NOUN	NOUN	_	5	nsubj	_	_
-8	italiano	italiano	ADJ	ADJ	_	7	amod	_	_
-9	La	_	PROPN	PNOUN	_	10	det	_	_
-10	Gazzetta	_	PROPN	PNOUN	_	7	appos	_	_
-11	dello	_	ADP	ADP	_	12	case	_	_
-12	Sport	_	PROPN	PNOUN	_	10	nmod	_	_
-13-14	na	_	_	_	_	_	_	_	_
-13	em	em	ADP	ADP	_	18	case	_	_
-14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-15	última	último	ADJ	ADJ	_	18	amod	_	_
-16	quarta	_	PROPN	PNOUN	_	18	amod	_	_
-17	-	-	PUNCT	.	_	18	punct	_	_
-18	feira	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	1	punct	_	_
-20	Zé	_	PROPN	PNOUN	_	25	nsubj	_	_
-21	Eduardo	_	PROPN	PNOUN	_	20	flat	_	_
-22	não	não	ADV	ADV	Polarity=Neg	25	advmod	_	_
-23	vai	ir	AUX	AUX	_	25	aux	_	_
-24	mais	mais	ADV	ADV	_	25	advmod	_	_
-25	defender	defender	VERB	VERB	_	0	root	_	_
-26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	Milan	_	PROPN	PNOUN	_	25	obj	_	SpaceAfter=No
-28	.	.	PUNCT	.	_	25	punct	_	_
+# sent_id = train-s3150
+1	Diferentemente	diferentemente	ADV	_	_	26	advmod	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	obl	_	_
+4	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	6	obj	_	_
+5	havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	divulgado	divulgar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	3	acl:relcl	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	jornal	jornal	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+9	italiano	italiano	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+10	La	La	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	8	appos	_	_
+11	Gazzetta	Gazzetta	PROPN	_	Number=Sing	10	flat:name	_	_
+12	dello	dello	PROPN	_	Number=Sing	10	flat:name	_	_
+13	Sport	Sport	PROPN	_	Number=Sing	10	flat:name	_	_
+14-15	na	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	17	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	última	último	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	17	amod	_	_
+17	quarta	quarta	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+18	-	-	PUNCT	_	_	19	punct	_	_
+19	feira	feira	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	1	punct	_	_
+21	Zé	Zé	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	26	nsubj	_	_
+22	Eduardo	Eduardo	PROPN	_	Number=Sing	21	flat:name	_	_
+23	não	não	ADV	_	Polarity=Neg	26	advmod	_	_
+24	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+25	mais	mais	ADV	_	_	26	advmod	_	_
+26	defender	defender	VERB	_	VerbForm=Inf	0	root	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	Milan	Milan	PROPN	_	Gender=Masc|Number=Sing	26	obj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
 
 # sent_id = train-s3151
 # text = A trilha e os efeitos sonoros ficaram a cargo de Eduardo Souto Neto.

@@ -170,41 +170,43 @@
 50	direção	direção	NOUN	NOUN	_	48	nmod	_	SpaceAfter=No
 51	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = train-s8364
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Conhecido por seu desejo constante de se reinventar e experimentar com diferentes gêneros musicais, Bowie é considerado uma das estrelas mais influentes e incomuns da era pop.
-1	Conhecido	conhecer	VERB	VERB	_	16	acl	_	_
-2	por	por	ADP	ADP	_	4	case	_	_
-3	seu	_	DET	DET	_	4	det:poss	_	_
-4	desejo	desejo	NOUN	NOUN	_	1	nmod	_	_
-5	constante	constante	ADJ	ADJ	_	4	amod	_	_
-6	de	_	ADP	ADP	_	8	mark	_	_
-7	se	_	PRON	PRON	_	8	obj	_	_
-8	reinventar	reinventar	VERB	VERB	_	4	nmod	_	_
-9	e	e	CCONJ	CONJ	_	10	cc	_	_
-10	experimentar	experimentar	VERB	VERB	_	8	conj	_	_
-11	com	com	ADP	ADP	_	13	case	_	_
-12	diferentes	_	DET	DET	_	13	det	_	_
-13	gêneros	gênero	NOUN	NOUN	_	10	nmod	_	_
-14	musicais	musical	ADJ	ADJ	_	13	amod	_	SpaceAfter=No
-15	,	,	PUNCT	.	_	1	punct	_	_
-16	Bowie	_	PROPN	PNOUN	_	19	nsubj:pass	_	_
-17	é	ser	AUX	AUX	_	19	aux:pass	_	_
-18	considerado	considerar	AUX	AUX	_	19	cop	_	_
-19	uma	_	PRON	PRON	_	0	root	_	_
+# sent_id = train-s8364
+1	Conhecido	conhecer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	16	acl	_	_
+2	por	por	ADP	_	_	4	case	_	_
+3	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	4	det	_	_
+4	desejo	desejo	NOUN	_	Gender=Masc|Number=Sing	1	obl:agent	_	_
+5	constante	constante	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+6	de	de	SCONJ	_	_	8	mark	_	_
+7	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	expl	_	_
+8	reinventar	reinventar	VERB	_	VerbForm=Inf	4	acl	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	experimentar	experimentar	VERB	_	VerbForm=Inf	8	conj	_	_
+11	com	com	ADP	_	_	13	case	_	_
+12	diferentes	diferente	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	_
+13	gêneros	gênero	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
+14	musicais	musical	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	1	punct	_	_
+16	Bowie	Bowie	PROPN	_	Gender=Masc|Number=Sing	18	nsubj:pass	_	_
+17	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
+18	considerado	considerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+19	uma	um	NUM	_	NumType=Card	18	xcomp	_	_
 20-21	das	_	_	_	_	_	_	_	_
-20	de	de	ADP	ADP	_	22	case	_	_
-21	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
-22	estrelas	estrela	NOUN	NOUN	_	19	nmod	_	_
-23	mais	mais	ADV	ADV	_	24	advmod	_	_
-24	influentes	influente	ADJ	ADJ	_	22	amod	_	_
-25	e	e	CCONJ	CONJ	_	26	cc	_	_
-26	incomuns	incomum	ADJ	ADJ	_	24	conj	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	estrelas	estrela	NOUN	_	Gender=Fem|Number=Plur	19	nmod	_	_
+23	mais	mais	ADV	_	_	24	advmod	_	_
+24	influentes	influente	ADJ	_	Gender=Fem|Number=Plur	22	amod	_	_
+25	e	e	CCONJ	_	_	26	cc	_	_
+26	incomuns	incomum	ADJ	_	Gender=Fem|Number=Plur	24	conj	_	_
 27-28	da	_	_	_	_	_	_	_	_
-27	de	de	ADP	ADP	_	29	case	_	_
-28	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-29	era	era	NOUN	NOUN	_	22	nmod	_	_
-30	pop	pop	NOUN	NOUN	_	29	flat	_	SpaceAfter=No
-31	.	.	PUNCT	.	_	19	punct	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	era	era	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
+30	pop	pop	ADJ	_	Gender=Fem|Number=Sing	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
 
 # sent_id = train-s8365
 # text = O objetivo, de acordo com o deputado, é evitar uma paralisação nacional da categoria e chegar a uma negociação com os médicos de hospitais públicos.

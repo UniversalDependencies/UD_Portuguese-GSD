@@ -1,46 +1,48 @@
-# sent_id = train-s751
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O manto, uma enorme massa de gelo com até 4 km de espessura que cobre a superfície terrestre e se estende até o mar, derrete mais rapidamente do que em qualquer parte da Antártica.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	manto	manto	NOUN	NOUN	_	27	nsubj	_	SpaceAfter=No
-3	,	,	PUNCT	.	_	6	punct	_	_
-4	uma	um	DET	DET	_	6	det	_	_
-5	enorme	enorme	ADJ	ADJ	_	6	amod	_	_
-6	massa	massa	NOUN	NOUN	_	2	appos	_	_
-7	de	de	ADP	ADP	_	8	case	_	_
-8	gelo	gelo	NOUN	NOUN	_	6	nmod	_	_
-9	com	com	ADP	ADP	_	12	case	_	_
-10	até	até	ADV	ADV	_	11	advmod	_	_
-11	4	4	NUM	NUM	NumType=Card	12	nummod	_	_
-12	km	km	NOUN	NOUN	_	6	nmod	_	_
-13	de	de	ADP	ADP	_	14	case	_	_
-14	espessura	espessura	NOUN	NOUN	_	12	nmod	_	_
-15	que	_	PRON	PRON	_	16	nsubj	_	_
-16	cobre	_	VERB	VERB	_	6	acl:relcl	_	_
-17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	superfície	superfície	NOUN	NOUN	_	16	obj	_	_
-19	terrestre	terrestre	ADJ	ADJ	_	18	amod	_	_
-20	e	e	CCONJ	CONJ	_	22	cc	_	_
-21	se	_	PRON	PRON	_	22	obj	_	_
-22	estende	estender	VERB	VERB	_	16	conj	_	_
-23	até	_	ADP	ADP	_	25	case	_	_
-24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	mar	mar	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
-26	,	,	PUNCT	.	_	6	punct	_	_
-27	derrete	derreter	VERB	VERB	_	0	root	_	_
-28	mais	mais	ADV	ADV	_	29	advmod	_	_
-29	rapidamente	rapidamente	ADV	ADV	_	27	advmod	_	_
+# sent_id = train-s751
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	manto	manto	NOUN	_	Gender=Masc|Number=Sing	27	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	enorme	enorme	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+6	massa	massa	NOUN	_	Gender=Fem|Number=Sing	2	appos	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	gelo	gelo	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+9	com	com	ADP	_	_	12	case	_	_
+10	até	até	ADP	_	_	12	case	_	_
+11	4	4	NUM	_	NumType=Card	12	nummod	_	_
+12	km	km	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	espessura	espessura	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+15	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	16	nsubj	_	_
+16	cobre	cobrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	superfície	superfície	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+19	terrestre	terrestre	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+20	e	e	CCONJ	_	_	22	cc	_	_
+21	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	expl	_	_
+22	estende	estender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
+23	até	até	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	mar	mar	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	22	punct	_	_
+27	derrete	derreter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+28	mais	mais	ADV	_	_	29	advmod	_	_
+29	rapidamente	rapidamente	ADV	_	_	27	advmod	_	_
 30-31	do	_	_	_	_	_	_	_	_
-30	de	de	ADP	ADP	_	27	case	_	_
-31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-32	que	_	ADP	ADP	_	30	fixed	_	_
-33	em	em	ADP	ADP	_	35	case	_	_
-34	qualquer	_	DET	DET	_	35	det	_	_
-35	parte	parte	NOUN	NOUN	_	30	nmod	_	_
+30	de	de	ADP	_	_	35	case	_	_
+31	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	30	fixed	_	_
+32	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	30	fixed	_	_
+33	em	em	ADP	_	_	35	case	_	_
+34	qualquer	qualquer	DET	_	Gender=Fem|Number=Sing|PronType=Ind	35	det	_	_
+35	parte	parte	NOUN	_	Gender=Fem|Number=Sing	27	obl	_	_
 36-37	da	_	_	_	_	_	_	_	_
-36	de	de	ADP	ADP	_	38	case	_	_
-37	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
-38	Antártica	_	PROPN	PNOUN	_	35	nmod	_	SpaceAfter=No
-39	.	.	PUNCT	.	_	27	punct	_	_
+36	de	de	ADP	_	_	38	case	_	_
+37	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	Antártica	Antártica	PROPN	_	Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
 
 # sent_id = train-s752
 # text = A IGB não fez menções a Apple no comunicado, porém diz que é a empresa que detém de maneiras exclusiva os direitos para registro do nome iphone no Brasil.
@@ -99,56 +101,60 @@
 12	esporte	esporte	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s754
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = A grande final dos 200 m T11, que trará no mínimo mais duas medalhas para o Brasil, será disputada ainda nesta terça - feira, às 16h15 (de Brasília), no Estádio Olímpico de Londres.
-1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-2	grande	grande	ADJ	ADJ	_	3	amod	_	_
-3	final	final	NOUN	NOUN	_	23	nsubj:pass	_	_
+# sent_id = train-s754
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	grande	grande	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+3	final	final	NOUN	_	Gender=Fem|Number=Sing	23	nsubj:pass	_	_
 4-5	dos	_	_	_	_	_	_	_	_
-4	de	de	ADP	ADP	_	7	case	_	_
-5	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
-6	200	200	NUM	NUM	NumType=Card	7	nummod	_	_
-7	m	m	NOUN	NOUN	_	3	nmod	_	_
-8	T11	_	PROPN	PNOUN	_	7	appos	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	11	punct	_	_
-10	que	_	PRON	PRON	_	11	nsubj	_	_
-11	trará	trazer	VERB	VERB	_	3	acl:relcl	_	_
+4	de	de	ADP	_	_	7	case	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	200	200	NUM	_	NumType=Card	7	nummod	_	_
+7	m	m	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
+8	T11	T11	PROPN	_	Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	3	punct	_	_
+10	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	11	nsubj	_	_
+11	trará	trazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	acl:relcl	_	_
 12-13	no	_	_	_	_	_	_	_	_
-12	em	em	ADP	ADP	_	11	case	_	_
-13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-14	mínimo	mínimo	ADJ	ADJ	_	12	amod	_	_
-15	mais	mais	ADV	ADV	_	16	advmod	_	_
-16	duas	_	NUM	NUM	NumType=Card	17	nummod	_	_
-17	medalhas	medalha	NOUN	NOUN	_	11	obj	_	_
-18	para	para	ADP	ADP	_	20	case	_	_
-19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	Brasil	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
-21	,	,	PUNCT	.	_	11	punct	_	_
-22	será	ser	AUX	AUX	_	23	aux:pass	_	_
-23	disputada	disputar	VERB	VERB	_	0	root	_	_
-24	ainda	ainda	ADV	ADV	_	23	advmod	_	_
-25	nesta	_	ADP	ADP	_	28	case	_	_
-26	terça	_	ADJ	ADJ	_	28	amod	_	_
-27	-	-	PUNCT	.	_	28	punct	_	_
-28	feira	_	PROPN	PNOUN	_	24	nmod	_	SpaceAfter=No
-29	,	,	PUNCT	.	_	32	punct	_	_
-30-31	às	_	_	_	_	_	_	_	_
-30	a	a	ADP	ADP	_	32	case	_	_
-31	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
-32	16h15	_	NUM	NUM	NumType=Card	28	nmod	_	_
-33	(	(	PUNCT	.	_	35	punct	_	SpaceAfter=No
-34	de	de	ADP	ADP	_	35	case	_	_
-35	Brasília	_	PROPN	PNOUN	_	32	nmod	_	SpaceAfter=No
-36	)	)	PUNCT	.	_	35	punct	_	SpaceAfter=No
-37	,	,	PUNCT	.	_	40	punct	_	_
-38-39	no	_	_	_	_	_	_	_	_
-38	em	em	ADP	ADP	_	40	case	_	_
-39	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
-40	Estádio	_	PROPN	PNOUN	_	23	nmod	_	_
-41	Olímpico	_	PROPN	PNOUN	_	40	amod	_	_
-42	de	de	ADP	ADP	_	43	case	_	_
-43	Londres	_	PROPN	PNOUN	_	40	nmod	_	SpaceAfter=No
-44	.	.	PUNCT	.	_	23	punct	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	mínimo	mínimo	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+15	mais	mais	ADV	_	_	16	advmod	_	_
+16	duas	dois	NUM	_	NumType=Card	17	nummod	_	_
+17	medalhas	medalha	NOUN	_	Gender=Fem|Number=Plur	11	obj	_	_
+18	para	para	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Brasil	Brasil	PROPN	_	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	11	punct	_	_
+22	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	23	aux:pass	_	_
+23	disputada	disputar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+24	ainda	ainda	ADV	_	_	27	advmod	_	_
+25-26	nesta	_	_	_	_	_	_	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	27	det	_	_
+27	terça	terça	NOUN	_	Gender=Fem|Number=Sing	23	obl	_	_
+28	-	-	PUNCT	_	_	29	punct	_	_
+29	feira	feira	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	23	punct	_	_
+31-32	às	_	_	_	_	_	_	_	_
+31	a	a	ADP	_	_	33	case	_	_
+32	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	16h15	16h15	NOUN	_	Gender=Fem|Number=Plur	23	obl	_	_
+34	(	(	PUNCT	_	_	36	punct	_	SpaceAfter=No
+35	de	de	ADP	_	_	36	case	_	_
+36	Brasília	Brasília	PROPN	_	Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+37	)	)	PUNCT	_	_	36	punct	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	23	punct	_	_
+39-40	no	_	_	_	_	_	_	_	_
+39	em	em	ADP	_	_	41	case	_	_
+40	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	Estádio	Estádio	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	23	obl	_	_
+42	Olímpico	Olímpico	PROPN	_	Number=Sing	41	flat:name	_	_
+43	de	de	ADP	_	_	44	case	_	_
+44	Londres	Londres	PROPN	_	Number=Sing	41	nmod	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
 
 # sent_id = train-s755
 # text = A determinação é do Ministério Público Estadual (MPE) que devolveu o inquérito à Polícia Civil requerendo os depoimentos dos estudantes que estavam na sala de aula no dia que o professor agarrou a menina.

@@ -56,36 +56,38 @@
 14	nada	_	PRON	PRON	_	13	obj	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = test-s271
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Tenho seguido todas as recomendações médicas e quero voltar logo, quem sabe começando a treinar com bola na próxima semana -- comemorou o atacante.
-1	Tenho	ter	AUX	AUX	_	2	aux	_	_
-2	seguido	seguir	VERB	VERB	_	24	ccomp	_	_
-3	todas	_	DET	DET	_	5	det	_	_
-4	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
-5	recomendações	recomendação	NOUN	NOUN	_	2	obj	_	_
-6	médicas	médico	ADJ	ADJ	_	5	amod	_	_
-7	e	e	CCONJ	CONJ	_	8	cc	_	_
-8	quero	querer	VERB	VERB	_	2	conj	_	_
-9	voltar	voltar	VERB	VERB	_	8	xcomp	_	_
-10	logo	logo	ADV	ADV	_	9	advmod	_	SpaceAfter=No
-11	,	,	PUNCT	.	_	16	punct	_	_
-12	quem	_	PRON	PRON	_	13	nsubj	_	_
-13	sabe	saber	VERB	VERB	_	16	advcl	_	_
-14	começando	começar	AUX	AUX	_	16	aux	_	_
-15	a	_	ADP	ADP	_	16	mark	_	_
-16	treinar	treinar	VERB	VERB	_	9	acl	_	_
-17	com	com	ADP	ADP	_	18	case	_	_
-18	bola	bola	NOUN	NOUN	_	16	nmod	_	_
+# sent_id = test-s271
+1	Tenho	ter	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	seguido	seguir	VERB	_	VerbForm=Part	24	ccomp	_	_
+3	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Tot	5	det	_	_
+4	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	recomendações	recomendação	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	_
+6	médicas	médico	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	quero	querer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+9	voltar	voltar	VERB	_	VerbForm=Inf	8	xcomp	_	_
+10	logo	logo	ADV	_	_	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	quem	quem	PRON	_	Number=Sing|PronType=Rel	13	nsubj	_	_
+13	sabe	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+14	começando	começar	VERB	_	VerbForm=Ger	13	xcomp	_	_
+15	a	a	SCONJ	_	_	16	mark	_	_
+16	treinar	treinar	VERB	_	VerbForm=Inf	14	xcomp	_	_
+17	com	com	ADP	_	_	18	case	_	_
+18	bola	bola	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
 19-20	na	_	_	_	_	_	_	_	_
-19	em	em	ADP	ADP	_	22	case	_	_
-20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-21	próxima	próximo	ADJ	ADJ	_	22	amod	_	_
-22	semana	semana	NOUN	NOUN	_	16	nmod	_	_
-23	--	_	PUNCT	.	_	24	punct	_	_
-24	comemorou	comemorar	VERB	VERB	_	0	root	_	_
-25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	atacante	atacante	NOUN	NOUN	_	24	nsubj	_	SpaceAfter=No
-27	.	.	PUNCT	.	_	24	punct	_	_
+19	em	em	ADP	_	_	22	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	próxima	próximo	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
+22	semana	semana	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
+23	--	--	PUNCT	_	_	2	punct	_	_
+24	comemorou	comemorar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	atacante	atacante	NOUN	_	Gender=Masc|Number=Sing	24	nsubj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	24	punct	_	SpaceAfter=No
 
 # sent_id = test-s272
 # text = A cantora Fiona Apple admitiu que o haxixe e a maconha encontrados no ônibus de sua turnê pertenciam a ela mesma.
@@ -250,42 +252,44 @@
 20	polícia	polícia	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = test-s278
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = "Ainda não está confirmado, mas a inscrição calcula-se no máximo até R $ 53,00 para nível médio e R $ 75,00 para nível superior", mensurou Carlos Sérgio.
-1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
-2	Ainda	ainda	ADV	ADV	_	4	advmod	_	_
-3	não	não	ADV	ADV	Polarity=Neg	4	advmod	_	_
-4	está	estar	VERB	VERB	_	31	ccomp	_	_
-5	confirmado	confirmado	ADJ	ADJ	_	4	xcomp	_	SpaceAfter=No
-6	,	,	PUNCT	.	_	10	punct	_	_
-7	mas	mas	CCONJ	CONJ	_	10	cc	_	_
-8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	inscrição	inscrição	NOUN	NOUN	_	10	nsubj	_	_
+# sent_id = test-s278
+1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+2	Ainda	ainda	ADV	_	_	3	advmod	_	_
+3	não	não	ADV	_	Polarity=Neg	5	advmod	_	_
+4	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	confirmado	confirmado	ADJ	_	Gender=Masc|Number=Sing	31	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	10	punct	_	_
+7	mas	mas	CCONJ	_	_	10	cc	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	inscrição	inscrição	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 10-11	calcula-se	_	_	_	_	_	_	_	_
-10	calcula	calcular	VERB	VERB	_	4	conj	_	_
-11	se	_	PRON	PRON	_	10	expl:pv	_	_
+10	calcula	calcular	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+11	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	expl	_	_
 12-13	no	_	_	_	_	_	_	_	_
-12	em	em	ADP	ADP	_	14	case	_	_
-13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	máximo	máximo	NOUN	NOUN	_	18	advmod	_	_
-15	até	_	ADP	ADP	_	16	case	_	_
-16	R	r	NOUN	NOUN	_	10	nmod	_	_
-17	$	_	SYM	SYM	_	16	flat	_	_
-18	53,00	53,00	NUM	NUM	NumType=Card	16	nummod	_	_
-19	para	para	ADP	ADP	_	20	case	_	_
-20	nível	nível	NOUN	NOUN	_	16	nmod	_	_
-21	médio	médio	ADJ	ADJ	_	20	amod	_	_
-22	e	e	CCONJ	CONJ	_	23	cc	_	_
-23	R	r	NOUN	NOUN	_	16	conj	_	_
-24	$	_	SYM	SYM	_	23	flat	_	_
-25	75,00	75,00	NUM	NUM	NumType=Card	23	nummod	_	_
-26	para	para	ADP	ADP	_	27	case	_	_
-27	nível	nível	NOUN	NOUN	_	23	nmod	_	_
-28	superior	superior	ADJ	ADJ	_	27	amod	_	SpaceAfter=No
-29	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
-30	,	,	PUNCT	.	_	31	punct	_	_
-31	mensurou	mensurar	VERB	VERB	_	0	root	_	_
-32	Carlos	_	PROPN	PNOUN	_	31	nsubj	_	_
-33	Sérgio	_	PROPN	PNOUN	_	32	flat	_	SpaceAfter=No
-34	.	.	PUNCT	.	_	31	punct	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	máximo	máximo	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+15	até	até	ADP	_	_	16	case	_	_
+16	R	R	PROPN	_	_	10	obl	_	_
+17	$	$	SYM	_	_	16	nmod	_	_
+18	53,00	53,00	NUM	_	NumType=Card	17	nummod	_	_
+19	para	para	ADP	_	_	20	case	_	_
+20	nível	nível	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+21	médio	médio	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	R	R	PROPN	_	_	16	conj	_	_
+24	$	$	SYM	_	_	23	nmod	_	_
+25	75,00	75,00	NUM	_	NumType=Card	24	nummod	_	_
+26	para	para	ADP	_	_	27	case	_	_
+27	nível	nível	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+28	superior	superior	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
+29	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	31	punct	_	_
+31	mensurou	mensurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+32	Carlos	Carlos	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	31	nsubj	_	_
+33	Sérgio	Sérgio	PROPN	_	Number=Sing	32	flat:name	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
 

@@ -72,48 +72,48 @@
 38	Senado	_	PROPN	PNOUN	_	35	nmod	_	SpaceAfter=No
 39	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s6839
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = "It 's a Long Way to the Top (If You Wanna Rock 'n' Roll)" é a primeira música do álbum T.N.T. da banda de rock australiana AC / DC.
-1	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
-2	It	_	PROPN	PNOUN	_	6	nsubj	_	_
-3	's	_	AUX	AUX	_	6	cop	_	_
-4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-5	Long	_	PROPN	PNOUN	_	6	amod	_	_
-6	Way	_	PROPN	PNOUN	_	24	csubj	_	_
-7	to	_	ADP	ADP	_	9	case	_	_
-8	the	_	DET	DET	_	9	det	_	_
-9	Top	_	PROPN	PNOUN	_	6	nmod	_	_
-10	(	(	PUNCT	.	_	14	punct	_	SpaceAfter=No
-11	If	_	PROPN	PNOUN	_	14	mark	_	_
-12	You	_	PROPN	PNOUN	_	14	nsubj	_	_
-13	Wanna	_	PROPN	PNOUN	_	14	aux	_	_
-14	Rock	_	PROPN	PNOUN	_	6	advcl	_	_
-15	'	_	PUNCT	.	_	16	punct	_	SpaceAfter=No
-16	n	n	NOUN	NOUN	_	14	conj	_	SpaceAfter=No
-17	'	_	PUNCT	.	_	18	punct	_	_
-18	Roll	_	PROPN	PNOUN	_	14	conj	_	SpaceAfter=No
-19	)	)	PUNCT	.	_	14	punct	_	SpaceAfter=No
-20	"	"	PUNCT	.	_	6	punct	_	_
-21	é	ser	AUX	AUX	_	24	cop	_	_
-22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-23	primeira	primeiro	ADJ	ADJ	_	24	amod	_	_
-24	música	_	NOUN	NOUN	_	0	root	_	_
-25-26	do	_	_	_	_	_	_	_	_
-25	de	de	ADP	ADP	_	27	case	_	_
-26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	álbum	álbum	NOUN	NOUN	_	24	nmod	_	_
-28	T.N.T.	_	PROPN	PNOUN	_	27	appos	_	_
-29-30	da	_	_	_	_	_	_	_	_
-29	de	de	ADP	ADP	_	31	case	_	_
-30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-31	banda	banda	NOUN	NOUN	_	27	nmod	_	_
-32	de	de	ADP	ADP	_	33	case	_	_
-33	rock	rock	NOUN	NOUN	_	31	nmod	_	_
-34	australiana	australiano	ADJ	ADJ	_	31	amod	_	_
-35	AC	_	PROPN	PNOUN	_	31	appos	_	_
-36	/	/	PUNCT	.	_	35	punct	_	_
-37	DC	_	PROPN	PNOUN	_	35	flat	_	SpaceAfter=No
-38	.	.	PUNCT	.	_	24	punct	_	_
+# sent_id = train-s6839
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	It	It	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	22	nsubj	_	_
+3	's	's	PROPN	_	_	2	flat:name	_	_
+4	a	a	PROPN	_	Number=Sing	2	flat:name	_	_
+5	Long	Long	PROPN	_	Number=Sing	2	flat:name	_	_
+6	Way	Way	PROPN	_	Number=Sing	2	flat:name	_	_
+7	to	to	PROPN	_	Number=Sing	2	flat:name	_	_
+8	the	the	PROPN	_	Number=Sing	2	flat:name	_	_
+9	Top	Top	PROPN	_	Number=Sing	2	flat:name	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	If	If	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	2	appos	_	_
+12	You	You	PROPN	_	Number=Sing	11	flat:name	_	_
+13	Wanna	Wanna	PROPN	_	Number=Sing	11	flat:name	_	_
+14	Rock	Rock	PROPN	_	Number=Sing	11	flat:name	_	_
+15	'n'	'n'	PROPN	_	Number=Sing	11	flat:name	_	_
+16	Roll	Roll	PROPN	_	Number=Sing	11	flat:name	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	2	punct	_	_
+19	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	22	amod	_	_
+22	música	música	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	álbum	álbum	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
+26	T.N.T.	T.N.T.	PROPN	_	Gender=Masc|Number=Sing	25	appos	_	_
+27-28	da	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	banda	banda	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	rock	rock	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
+32	australiana	australiano	ADJ	_	Gender=Fem|Number=Sing	29	amod	_	_
+33	AC	AC	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	29	appos	_	_
+34	/	/	PUNCT	_	_	33	punct	_	_
+35	DC	DC	PROPN	_	Gender=Masc|Number=Sing	33	flat:name	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
 
 # sent_id = train-s6840
 # text = Um universo de Kerr é uma variedade pseudoriemanniana ou espaço - tempo onde se verificam as equações de campo de Einstein no vazio, usando as coordenadas de Boyer - Lindquist que vem a ser dadas por:

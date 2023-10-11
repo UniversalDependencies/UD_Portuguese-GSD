@@ -113,26 +113,28 @@
 9	possa	_	VERB	VERB	_	7	ccomp	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = train-s3268
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Ninguém deve abdicar dos seus sonhos, sejam humildes, majestáticos, pequenos, grandiosos.
-1	Ninguém	_	PRON	PRON	_	3	nsubj	_	_
-2	deve	dever	AUX	AUX	_	3	aux	_	_
-3	abdicar	abdicar	VERB	VERB	_	0	root	_	_
+# sent_id = train-s3268
+1	Ninguém	ninguém	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	2	nsubj	_	_
+2	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	abdicar	abdicar	VERB	_	VerbForm=Inf	2	xcomp	_	_
 4-5	dos	_	_	_	_	_	_	_	_
-4	de	de	ADP	ADP	_	7	case	_	_
-5	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
-6	seus	_	DET	DET	_	7	det:poss	_	_
-7	sonhos	sonho	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
-8	,	,	PUNCT	.	_	10	punct	_	_
-9	sejam	ser	VERB	VERB	_	10	cc	_	_
-10	humildes	humilde	ADJ	ADJ	_	7	amod	_	SpaceAfter=No
-11	,	,	PUNCT	.	_	12	punct	_	_
-12	majestáticos	majestático	ADJ	ADJ	_	10	conj	_	SpaceAfter=No
-13	,	,	PUNCT	.	_	14	punct	_	_
-14	pequenos	pequeno	ADJ	ADJ	_	10	conj	_	SpaceAfter=No
-15	,	,	PUNCT	.	_	16	punct	_	_
-16	grandiosos	grandioso	ADJ	ADJ	_	10	conj	_	SpaceAfter=No
-17	.	.	PUNCT	.	_	3	punct	_	_
+4	de	de	ADP	_	_	7	case	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	seus	seu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	7	det	_	_
+7	sonhos	sonho	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	sejam	ser	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	humildes	humilde	ADJ	_	Gender=Masc|Number=Plur	3	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	majestáticos	majestático	ADJ	_	Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	pequenos	pequeno	ADJ	_	Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	grandiosos	grandioso	ADJ	_	Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = train-s3269
 # text = "Eu tenho um passaporte russo, mas sou francês e com certeza terei também a nacionalidade belga", disse o ator, negando ter aceito o novo passaporte como meio de escapar da receita federal.

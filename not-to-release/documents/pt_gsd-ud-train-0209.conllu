@@ -226,52 +226,56 @@
 6	incêndio	incêndio	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = train-s2082
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Soltz alega que Xuxa se apropriou dos personagens dele na criação da Turma da Xuxinha, na ocasião da comemoração dos 500 anos de descoberta do Brasil.
-1	Soltz	_	PROPN	PNOUN	_	2	nsubj	_	_
-2	alega	alegar	VERB	VERB	_	0	root	_	_
-3	que	que	CCONJ	CONJ	_	6	mark	_	_
-4	Xuxa	_	PROPN	PNOUN	_	6	nsubj	_	_
-5	se	_	PRON	PRON	_	6	expl:pv	_	_
-6	apropriou	apropriar	VERB	VERB	_	2	ccomp	_	_
+# sent_id = train-s2082
+1	Soltz	Soltz	PROPN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	alega	alegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	6	mark	_	_
+4	Xuxa	Xuxa	PROPN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+5	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl	_	_
+6	apropriou	apropriar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
 7-8	dos	_	_	_	_	_	_	_	_
-7	de	de	ADP	ADP	_	9	case	_	_
-8	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
-9	personagens	personagem	NOUN	NOUN	_	6	nmod	_	_
-10	dele	_	X	ADPPRON	_	9	det:poss	_	_
-11-12	na	_	_	_	_	_	_	_	_
-11	em	em	ADP	ADP	_	13	case	_	_
-12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	criação	criação	NOUN	NOUN	_	6	nmod	_	_
-14-15	da	_	_	_	_	_	_	_	_
-14	de	de	ADP	ADP	_	16	case	_	_
-15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	Turma	_	PROPN	PNOUN	_	13	nmod	_	_
-17-18	da	_	_	_	_	_	_	_	_
-17	de	de	ADP	ADP	_	19	case	_	_
-18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	Xuxinha	_	PROPN	PNOUN	_	16	nmod	_	SpaceAfter=No
-20	,	,	PUNCT	.	_	23	punct	_	_
-21-22	na	_	_	_	_	_	_	_	_
-21	em	em	ADP	ADP	_	23	case	_	_
-22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-23	ocasião	ocasião	NOUN	NOUN	_	6	nmod	_	_
-24-25	da	_	_	_	_	_	_	_	_
-24	de	de	ADP	ADP	_	26	case	_	_
-25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	comemoração	comemoração	NOUN	NOUN	_	23	nmod	_	_
-27-28	dos	_	_	_	_	_	_	_	_
-27	de	de	ADP	ADP	_	30	case	_	_
-28	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
-29	500	500	NUM	NUM	NumType=Card	30	nummod	_	_
-30	anos	ano	NOUN	NOUN	_	26	nmod	_	_
-31	de	de	ADP	ADP	_	32	case	_	_
-32	descoberta	_	NOUN	NOUN	_	30	nmod	_	_
-33-34	do	_	_	_	_	_	_	_	_
-33	de	de	ADP	ADP	_	35	case	_	_
-34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
-35	Brasil	_	PROPN	PNOUN	_	32	nmod	_	SpaceAfter=No
-36	.	.	PUNCT	.	_	2	punct	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	personagens	personagem	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
+10-11	dele	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	ele	ele	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nmod	_	_
+12-13	na	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	criação	criação	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+15-16	da	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Turma	Turma	PROPN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+18-19	da	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Xuxinha	Xuxinha	PROPN	_	Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	6	punct	_	_
+22-23	na	_	_	_	_	_	_	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	ocasião	ocasião	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+25-26	da	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	comemoração	comemoração	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
+28-29	dos	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	31	case	_	_
+29	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+30	500	500	NUM	_	NumType=Card	31	nummod	_	_
+31	anos	ano	NOUN	_	Gender=Masc|Number=Plur	27	nmod	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	descoberta	descoberta	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	_
+34-35	do	_	_	_	_	_	_	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	Brasil	Brasil	PROPN	_	Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = train-s2083
 # text = Em 2012, ele foi reserva da equipe inglesa e participou de 15 dos primeiros treinos livres dos GPs na elite do automobilismo mundial no lugar do próprio Bruno.

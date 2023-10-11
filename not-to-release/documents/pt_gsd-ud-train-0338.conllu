@@ -142,72 +142,78 @@
 39	Marcos	_	PROPN	PNOUN	_	37	nmod	_	SpaceAfter=No
 40	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = train-s3355
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = "É claro que o Independência, hoje, é um negócio muito melhor do que o Mineirão, nos moldes em que nos foi oferecido.
-1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
-2	É	ser	VERB	VERB	_	0	root	_	_
-3	claro	claro	ADJ	ADJ	_	2	xcomp	_	_
-4	que	que	CCONJ	CONJ	_	12	mark	_	_
-5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	Independência	_	PROPN	PNOUN	_	12	nsubj	_	SpaceAfter=No
-7	,	,	PUNCT	.	_	8	punct	_	_
-8	hoje	hoje	ADV	ADV	_	12	advmod	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	8	punct	_	_
-10	é	ser	AUX	AUX	_	12	cop	_	_
-11	um	um	DET	DET	_	12	det	_	_
-12	negócio	negócio	NOUN	NOUN	_	2	csubj	_	_
-13	muito	muito	ADV	ADV	_	14	advmod	_	_
-14	melhor	melhor	ADJ	ADJ	_	12	amod	_	_
+# sent_id = train-s3355
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	claro	claro	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+4	que	que	SCONJ	_	_	12	mark	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Independência	Independência	PROPN	_	Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	hoje	hoje	ADV	_	_	12	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	negócio	negócio	NOUN	_	Gender=Masc|Number=Sing	3	csubj	_	_
+13	muito	muito	ADV	_	_	14	advmod	_	_
+14	melhor	melhor	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
 15-16	do	_	_	_	_	_	_	_	_
-15	de	de	ADP	ADP	_	19	case	_	_
-16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-17	que	_	ADP	ADP	_	15	fixed	_	_
-18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	Mineirão	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
-20	,	,	PUNCT	.	_	23	punct	_	_
+15	de	de	ADP	_	_	19	case	_	_
+16	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	15	fixed	_	_
+17	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	15	fixed	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Mineirão	Mineirão	PROPN	_	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	23	punct	_	_
 21-22	nos	_	_	_	_	_	_	_	_
-21	em	em	ADP	ADP	_	23	case	_	_
-22	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
-23	moldes	molde	NOUN	NOUN	_	19	nmod	_	_
-24	em	em	ADP	ADP	_	25	case	_	_
-25	que	_	PRON	PRON	_	28	nmod	_	_
-26	nos	_	PRON	PRON	_	28	iobj	_	_
-27	foi	_	AUX	AUX	_	28	aux:pass	_	_
-28	oferecido	oferecer	VERB	VERB	_	23	acl:relcl	_	SpaceAfter=No
-29	.	.	PUNCT	.	_	2	punct	_	_
+21	em	em	ADP	_	_	23	case	_	_
+22	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	moldes	molde	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
+24	em	em	ADP	_	_	25	case	_	_
+25	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	29	obl	_	_
+26-27	nos	_	_	_	_	_	_	_	_
+26	em	em	ADP	_	_	27	case	_	_
+27	os	o	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	29	obl	_	_
+28	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	aux:pass	_	_
+29	oferecido	oferecer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	23	acl:relcl	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
-# sent_id = train-s3356
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Fazer uma novela é tudo que sempre quis, mas tem um pouco de preconceito: mulher bonita, gostosa, do samba, fica meio rotulada.
-1	Fazer	fazer	VERB	VERB	_	5	csubj	_	_
-2	uma	um	DET	DET	_	3	det	_	_
-3	novela	novela	NOUN	NOUN	_	1	obj	_	_
-4	é	ser	AUX	AUX	_	5	cop	_	_
-5	tudo	_	PRON	PRON	_	0	root	_	_
-6	que	_	PRON	PRON	_	8	obj	_	_
-7	sempre	sempre	ADV	ADV	_	8	advmod	_	_
-8	quis	querer	VERB	VERB	_	5	acl:relcl	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	11	punct	_	_
-10	mas	mas	CCONJ	CONJ	_	11	cc	_	_
-11	tem	ter	VERB	VERB	_	5	conj	_	_
-12	um	um	DET	DET	_	13	det	_	_
-13	pouco	pouco	NOUN	NOUN	_	11	obj	_	_
-14	de	de	ADP	ADP	_	15	case	_	_
-15	preconceito	preconceito	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
-16	:	:	PUNCT	.	_	11	punct	_	_
-17	mulher	mulher	NOUN	NOUN	_	26	nsubj	_	_
-18	bonita	bonito	ADJ	ADJ	_	17	amod	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	24	punct	_	_
-20	gostosa	gostoso	ADJ	ADJ	_	18	amod	_	SpaceAfter=No
-21	,	,	PUNCT	.	_	24	punct	_	_
+# sent_id = train-s3356
+1	Fazer	fazer	VERB	_	VerbForm=Inf	5	csubj	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	novela	novela	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	tudo	tudo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+6	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	8	obj	_	_
+7	sempre	sempre	ADV	_	_	8	advmod	_	_
+8	quis	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	mas	mas	CCONJ	_	_	11	cc	_	_
+11	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+12	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	pouco	pouco	ADV	_	Gender=Masc|Number=Sing|PronType=Ind	11	obj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	preconceito	preconceito	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+16	:	:	PUNCT	_	_	17	punct	_	_
+17	mulher	mulher	NOUN	_	Gender=Fem|Number=Sing	26	nsubj	_	_
+18	bonita	bonito	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	gostosa	gostoso	ADJ	_	Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	24	punct	_	_
 22-23	do	_	_	_	_	_	_	_	_
-22	de	de	ADP	ADP	_	24	case	_	_
-23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	samba	samba	NOUN	NOUN	_	18	conj	_	SpaceAfter=No
-25	,	,	PUNCT	.	_	18	punct	_	_
-26	fica	ficar	VERB	VERB	_	11	parataxis	_	_
-27	meio	meio	ADV	ADV	_	28	advmod	_	_
-28	rotulada	rotulado	ADJ	ADJ	_	26	xcomp	_	SpaceAfter=No
-29	.	.	PUNCT	.	_	5	punct	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	samba	samba	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	fica	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+27	meio	meio	ADV	_	_	28	advmod	_	_
+28	rotulada	rotulado	ADJ	_	Gender=Fem|Number=Sing	26	xcomp	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # sent_id = train-s3357
 # text = As importações também diminuíram (10,0 %), atingindo US $ 1,49 bilhão.

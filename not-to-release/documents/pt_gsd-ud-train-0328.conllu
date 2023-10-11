@@ -251,32 +251,34 @@
 22	isso	_	PRON	PRON	_	21	obj	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	1	punct	_	_
 
-# sent_id = train-s3259
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Na rádio O POVO / CNB, o ouvinte poderá acompanhar uma programação especial a partir das 8 horas.
+# sent_id = train-s3259
 1-2	Na	_	_	_	_	_	_	_	_
-1	Em	em	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	rádio	rádio	NOUN	NOUN	_	12	nmod	_	_
-4	O	_	PROPN	PNOUN	_	5	det	_	_
-5	POVO	_	PROPN	PNOUN	_	3	appos	_	_
-6	/	/	PUNCT	.	_	5	punct	_	_
-7	CNB	_	PROPN	PNOUN	_	5	flat	_	SpaceAfter=No
-8	,	,	PUNCT	.	_	3	punct	_	_
-9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	ouvinte	ouvinte	NOUN	NOUN	_	12	nsubj	_	_
-11	poderá	poder	AUX	AUX	_	12	aux	_	_
-12	acompanhar	acompanhar	VERB	VERB	_	0	root	_	_
-13	uma	um	DET	DET	_	14	det	_	_
-14	programação	programação	NOUN	NOUN	_	12	obj	_	_
-15	especial	especial	ADJ	ADJ	_	14	amod	_	_
-16	a	_	ADP	ADP	_	17	mark	_	_
-17	partir	partir	VERB	VERB	_	12	nmod	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	rádio	rádio	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+4	O	O	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing|PronType=Art	3	appos	_	_
+5	POVO	POVO	PROPN	_	Number=Sing	4	flat:name	_	_
+6	/	/	PUNCT	_	_	7	punct	_	_
+7	CNB	CNB	PROPN	_	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	3	punct	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	ouvinte	ouvinte	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+11	poderá	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+12	acompanhar	acompanhar	VERB	_	VerbForm=Inf	11	xcomp	_	_
+13	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	programação	programação	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+15	especial	especial	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+16	a	a	ADP	_	_	17	case	_	_
+17	partir	partir	VERB	_	VerbForm=Inf	12	obl	_	_
 18-19	das	_	_	_	_	_	_	_	_
-18	de	de	ADP	ADP	_	21	case	_	_
-19	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
-20	8	8	NUM	NUM	NumType=Card	21	nummod	_	_
-21	horas	hora	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
-22	.	.	PUNCT	.	_	12	punct	_	_
+18	de	de	ADP	_	_	21	case	_	_
+19	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+20	8	8	NUM	_	NumType=Card	21	nummod	_	_
+21	horas	hora	NOUN	_	Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
 
 # sent_id = train-s3260
 # text = Estaremos mais fortes no ano que vem ", aposta.

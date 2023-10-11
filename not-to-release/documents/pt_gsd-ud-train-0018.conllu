@@ -14,29 +14,31 @@
 11	entidade	entidade	NOUN	NOUN	_	8	iobj	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = train-s172
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = A Farmácia Popular de Londrina começou na última semana a distribuir de forma gratuita medicamentos contra a asma.
-1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	Farmácia	_	PROPN	PNOUN	_	12	nsubj	_	_
-3	Popular	_	PROPN	PNOUN	_	2	amod	_	_
-4	de	de	ADP	ADP	_	5	case	_	_
-5	Londrina	_	PROPN	PNOUN	_	2	nmod	_	_
-6	começou	começar	AUX	AUX	_	12	aux	_	_
+# sent_id = train-s172
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Farmácia	Farmácia	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	Popular	Popular	PROPN	_	Number=Sing	2	flat:name	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	Londrina	Londrina	PROPN	_	Number=Sing	2	nmod	_	_
+6	começou	começar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 7-8	na	_	_	_	_	_	_	_	_
-7	em	em	ADP	ADP	_	10	case	_	_
-8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-9	última	último	ADJ	ADJ	_	10	amod	_	_
-10	semana	semana	NOUN	NOUN	_	12	nmod	_	_
-11	a	_	ADP	ADP	_	12	mark	_	_
-12	distribuir	distribuir	VERB	VERB	_	0	root	_	_
-13	de	de	ADP	ADP	_	14	case	_	_
-14	forma	forma	NOUN	NOUN	_	12	nmod	_	_
-15	gratuita	gratuito	ADJ	ADJ	_	14	amod	_	_
-16	medicamentos	medicamento	NOUN	NOUN	_	12	obj	_	_
-17	contra	_	ADP	ADP	_	19	case	_	_
-18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	asma	asma	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
-20	.	.	PUNCT	.	_	12	punct	_	_
+7	em	em	ADP	_	_	10	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	última	último	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	10	amod	_	_
+10	semana	semana	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+11	a	a	SCONJ	_	_	12	mark	_	_
+12	distribuir	distribuir	VERB	_	VerbForm=Inf	6	xcomp	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	forma	forma	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+15	gratuita	gratuito	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+16	medicamentos	medicamento	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	_
+17	contra	contra	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	asma	asma	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
 # sent_id = train-s173
 # text = Em 13 de Novembro de 2010, o Powderfinger fez seu último show como uma banda, significando a sua partida e o término da banda.
@@ -224,32 +226,34 @@
 26	rotina	rotina	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s179
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Isto é, são defeitos ou não conformidades que a execução pode produzi - los, reproduzi - los ou eliminá - los.
-1	Isto	_	PRON	PRON	_	5	cc	_	_
-2	é	ser	VERB	VERB	_	1	fixed	_	SpaceAfter=No
-3	,	,	PUNCT	.	_	1	punct	_	_
-4	são	ser	AUX	AUX	_	5	cop	_	_
-5	defeitos	defeito	NOUN	NOUN	_	0	root	_	_
-6	ou	ou	CCONJ	CONJ	_	8	cc	_	_
-7	não	não	ADV	ADV	Polarity=Neg	8	advmod	_	_
-8	conformidades	conformidade	NOUN	NOUN	_	5	conj	_	_
-9	que	_	PRON	PRON	_	13	obj	_	_
-10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	execução	execução	NOUN	NOUN	_	13	nsubj	_	_
-12	pode	_	AUX	AUX	_	13	aux	_	_
-13	produzi	produzir	VERB	VERB	_	5	acl:relcl	_	_
-14	-	-	PUNCT	.	_	17	punct	_	_
-15	los	_	PRON	PRON	_	13	obj	_	SpaceAfter=No
-16	,	,	PUNCT	.	_	17	punct	_	_
-17	reproduzi	reproduzir	VERB	VERB	_	13	conj	_	_
-18	-	-	PUNCT	.	_	17	punct	_	_
-19	los	_	PRON	PRON	_	17	obj	_	_
-20	ou	ou	CCONJ	CONJ	_	21	cc	_	_
-21	eliminá	eliminar	VERB	VERB	_	13	conj	_	_
-22	-	-	PUNCT	.	_	21	punct	_	_
-23	los	_	PRON	PRON	_	21	obj	_	SpaceAfter=No
-24	.	.	PUNCT	.	_	5	punct	_	_
+# sent_id = train-s179
+1	Isto	isto	PRON	_	ExtPos=CCONJ|Gender=Masc|Number=Sing|PronType=Dem	5	cc	_	_
+2	é	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	defeitos	defeito	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+6	ou	ou	CCONJ	_	_	8	cc	_	_
+7	não	não	ADV	_	Polarity=Neg	8	advmod	_	_
+8	conformidades	conformidade	NOUN	_	Gender=Fem|Number=Plur	5	conj	_	_
+9	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	13	obj	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	execução	execução	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
+12	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+13	produzi	produzir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	xcomp	_	_
+14	-	-	PUNCT	_	_	13	punct	_	_
+15	los	eles	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	reproduzi	reproduzir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+18	-	-	PUNCT	_	_	17	punct	_	_
+19	los	eles	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	17	obj	_	_
+20	ou	ou	CCONJ	_	_	21	cc	_	_
+21	eliminá	eliminar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+22	-	-	PUNCT	_	_	21	punct	_	_
+23	los	eles	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	21	obj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # sent_id = train-s180
 # text = Desta forma, cortava cruzamentos altos, tomava as bolas nos pés dos atacantes e bloquear-lhe os ângulos.

@@ -124,47 +124,49 @@
 25	cidade	cidade	NOUN	NOUN	_	23	obj	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s9054
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Com a inauguração de sua fábrica de polietileno derivado de etanol de cana - de - açúcar, com capacidade anual de 200 mil toneladas, tornou-se a maior produtora de biopolímeros do mundo.
-1	Com	_	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	inauguração	inauguração	NOUN	NOUN	_	31	nmod	_	_
-4	de	de	ADP	ADP	_	6	case	_	_
-5	sua	_	DET	DET	_	6	det:poss	_	_
-6	fábrica	fábrica	NOUN	NOUN	_	3	nmod	_	_
-7	de	de	ADP	ADP	_	8	case	_	_
-8	polietileno	polietileno	NOUN	NOUN	_	6	nmod	_	_
-9	derivado	derivar	VERB	VERB	_	8	acl	_	_
-10	de	de	ADP	ADP	_	11	case	_	_
-11	etanol	etanol	NOUN	NOUN	_	9	nmod	_	_
-12	de	de	ADP	ADP	_	13	case	_	_
-13	cana	cana	NOUN	NOUN	_	11	nmod	_	_
-14	-	-	PUNCT	.	_	13	punct	_	_
-15	de	_	ADP	ADP	_	17	mark	_	_
-16	-	-	PUNCT	.	_	17	punct	_	_
-17	açúcar	_	VERB	VERB	_	13	nmod	_	SpaceAfter=No
-18	,	,	PUNCT	.	_	20	punct	_	_
-19	com	com	ADP	ADP	_	20	case	_	_
-20	capacidade	capacidade	NOUN	NOUN	_	6	nmod	_	_
-21	anual	anual	ADJ	ADJ	_	20	amod	_	_
-22	de	de	ADP	ADP	_	25	case	_	_
-23	200	200	NUM	NUM	NumType=Card	24	nummod	_	_
-24	mil	_	NUM	NUM	NumType=Card	25	nummod	_	_
-25	toneladas	tonelada	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
-26	,	,	PUNCT	.	_	3	punct	_	_
+# sent_id = train-s9054
+1	Com	com	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	inauguração	inauguração	NOUN	_	Gender=Fem|Number=Sing	27	obl	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	6	det	_	_
+6	fábrica	fábrica	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	polietileno	polietileno	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+9	derivado	derivar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	8	acl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	etanol	etanol	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	cana	cana	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+14	-	-	PUNCT	_	_	17	punct	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	-	-	PUNCT	_	_	17	punct	_	_
+17	açúcar	açúcar	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	com	com	ADP	_	_	20	case	_	_
+20	capacidade	capacidade	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+21	anual	anual	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
+22	de	de	ADP	_	_	25	case	_	_
+23	200	200	NUM	_	NumType=Card	25	nummod	_	_
+24	mil	mil	NUM	_	NumType=Card	23	flat	_	_
+25	toneladas	tonelada	NOUN	_	Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	20	punct	_	_
 27-28	tornou-se	_	_	_	_	_	_	_	_
-27	tornou	tornar	AUX	AUX	_	31	cop	_	_
-28	se	_	PRON	PRON	_	31	expl:pv	_	_
-29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-30	maior	maior	ADJ	ADJ	_	31	amod	_	_
-31	produtora	produtor	NOUN	NOUN	_	0	root	_	_
-32	de	de	ADP	ADP	_	33	case	_	_
-33	biopolímeros	_	NOUN	NOUN	_	31	nmod	_	_
+27	tornou	tornar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+28	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	expl	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+30	maior	maior	ADJ	_	Gender=Fem|Number=Sing	31	amod	_	_
+31	produtora	produtor	NOUN	_	Gender=Fem|Number=Sing	27	obj	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	biopolímeros	biopolímero	NOUN	_	Gender=Masc|Number=Plur	31	nmod	_	_
 34-35	do	_	_	_	_	_	_	_	_
-34	de	de	ADP	ADP	_	36	case	_	_
-35	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
-36	mundo	mundo	NOUN	NOUN	_	31	nmod	_	SpaceAfter=No
-37	.	.	PUNCT	.	_	31	punct	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
 
 # sent_id = train-s9055
 # text = O meia Zé Roberto, suspenso pelo terceiro cartão amarelo, é o único jogador considerado titular que ficará de fora.

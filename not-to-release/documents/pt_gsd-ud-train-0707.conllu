@@ -1,32 +1,34 @@
-# sent_id = train-s7016
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Segundo o seu proceder habitual, a partir de esboços gerais do edifício Gaudí improvisou a construção à medida que esta avançava.
-1	Segundo	_	ADP	ADP	_	4	case	_	_
-2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-3	seu	_	DET	DET	_	4	det:poss	_	_
-4	proceder	proceder	NOUN	NOUN	_	16	nmod	_	_
-5	habitual	habitual	ADJ	ADJ	_	4	amod	_	SpaceAfter=No
-6	,	,	PUNCT	.	_	4	punct	_	_
-7	a	_	ADP	ADP	_	8	mark	_	_
-8	partir	partir	VERB	VERB	_	16	nmod	_	_
-9	de	de	ADP	ADP	_	10	case	_	_
-10	esboços	esboço	NOUN	NOUN	_	8	nmod	_	_
-11	gerais	geral	ADJ	ADJ	_	10	amod	_	_
+# sent_id = train-s7016
+1	Segundo	segundo	ADP	_	_	4	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	4	det	_	_
+4	proceder	proceder	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+5	habitual	habitual	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	4	punct	_	_
+7	a	a	ADP	_	ExtPos=ADP	10	case	_	_
+8	partir	partir	VERB	_	VerbForm=Inf	7	fixed	_	_
+9	de	de	ADP	_	_	7	fixed	_	_
+10	esboços	esboço	NOUN	_	Gender=Masc|Number=Plur	16	obl	_	_
+11	gerais	geral	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	_
 12-13	do	_	_	_	_	_	_	_	_
-12	de	de	ADP	ADP	_	14	case	_	_
-13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	edifício	edifício	NOUN	NOUN	_	10	nmod	_	_
-15	Gaudí	_	PROPN	PNOUN	_	16	nsubj	_	_
-16	improvisou	improvisar	VERB	VERB	_	0	root	_	_
-17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	construção	construção	NOUN	NOUN	_	16	obj	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	edifício	edifício	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+15	Gaudí	Gaudí	PROPN	_	Gender=Masc|Number=Sing	14	appos	_	_
+16	improvisou	improvisar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	construção	construção	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
 19-20	à	_	_	_	_	_	_	_	_
-19	a	a	ADP	ADP	_	24	case	_	_
-20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-21	medida	medida	NOUN	NOUN	_	19	fixed	_	_
-22	que	_	CCONJ	CONJ	_	19	fixed	_	_
-23	esta	_	PRON	PRON	_	24	nsubj	_	_
-24	avançava	avançar	VERB	VERB	_	16	advcl	_	SpaceAfter=No
-25	.	.	PUNCT	.	_	16	punct	_	_
+19	a	a	ADP	_	_	24	mark	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	fixed	_	_
+21	medida	medida	ADP	_	_	22	case	_	_
+22	que	que	NOUN	_	_	19	fixed	_	_
+23	esta	este	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	24	nsubj	_	_
+24	avançava	avançar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	advcl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
 
 # sent_id = train-s7017
 # text = Mais informações podem ser obtidas pelo telefone 0800-727-8888.

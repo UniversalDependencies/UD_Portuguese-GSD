@@ -100,43 +100,45 @@
 12	facebook	_	PROPN	PNOUN	_	8	conj	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	1	punct	_	_
 
-# sent_id = train-s6929
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O centro posicionará a Lenovo para alcançar um crescimento superior ao do mercado brasileiro, ajudando a empresa a repetir a sua história de sucesso em todo o mundo".
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	centro	centro	NOUN	NOUN	_	3	nsubj	_	_
-3	posicionará	posicionar	VERB	VERB	_	0	root	_	_
-4	a	_	ADP	ADP	_	5	case	_	_
-5	Lenovo	_	PROPN	PNOUN	_	3	obj	_	_
-6	para	_	ADP	ADP	_	7	mark	_	_
-7	alcançar	alcançar	VERB	VERB	_	3	nmod	_	_
-8	um	um	DET	DET	_	9	det	_	_
-9	crescimento	crescimento	NOUN	NOUN	_	7	obj	_	_
-10	superior	superior	ADJ	ADJ	_	9	amod	_	_
+# sent_id = train-s6929
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	centro	centro	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	posicionará	posicionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Lenovo	Lenovo	PROPN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	para	para	SCONJ	_	_	7	mark	_	_
+7	alcançar	alcançar	VERB	_	VerbForm=Inf	3	advcl	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	crescimento	crescimento	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	superior	superior	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
 11-12	ao	_	_	_	_	_	_	_	_
-11	a	a	ADP	ADP	_	10	case	_	_
-12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+11	a	a	ADP	_	_	12	case	_	_
+12	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	10	obl	_	_
 13-14	do	_	_	_	_	_	_	_	_
-13	de	de	ADP	ADP	_	15	case	_	_
-14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	mercado	mercado	NOUN	NOUN	_	11	nmod	_	_
-16	brasileiro	brasileiro	ADJ	ADJ	_	15	amod	_	SpaceAfter=No
-17	,	,	PUNCT	.	_	18	punct	_	_
-18	ajudando	ajudar	VERB	VERB	_	3	acl	_	_
-19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	empresa	empresa	NOUN	NOUN	_	18	obj	_	_
-21	a	_	ADP	ADP	_	22	mark	_	_
-22	repetir	repetir	VERB	VERB	_	18	nmod	_	_
-23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-24	sua	_	DET	DET	_	25	det:poss	_	_
-25	história	história	NOUN	NOUN	_	22	obj	_	_
-26	de	de	ADP	ADP	_	27	case	_	_
-27	sucesso	sucesso	NOUN	NOUN	_	25	nmod	_	_
-28	em	em	ADP	ADP	_	31	case	_	_
-29	todo	_	DET	DET	_	31	det	_	_
-30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-31	mundo	mundo	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
-32	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
-33	.	.	PUNCT	.	_	3	punct	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	mercado	mercado	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+16	brasileiro	brasileiro	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	ajudando	ajudar	VERB	_	VerbForm=Ger	3	advcl	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	_
+21	a	a	SCONJ	_	_	22	mark	_	_
+22	repetir	repetir	VERB	_	VerbForm=Inf	18	xcomp	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	25	det	_	_
+25	história	história	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	sucesso	sucesso	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
+28	em	em	ADP	_	_	31	case	_	_
+29	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Tot	31	det	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+32	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = train-s6930
 # text = Luster é uma comuna da Noruega, com 2 702 km ² de área e 4 926 habitantes (censo de 2004).

@@ -242,49 +242,51 @@
 28	lados	lado	NOUN	NOUN	_	23	nmod	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	13	punct	_	_
 
-# sent_id = train-s8632
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Segundo Russell, apesar da natureza de suas descobertas marcarem época, sua obra permaneceu na obscuridade até 1903, quando o próprio filósofo e matemático inglês chamou atenção para a relevância dos escritos.
-1	Segundo	_	ADP	ADP	_	2	case	_	_
-2	Russell	_	PROPN	PNOUN	_	16	nmod	_	SpaceAfter=No
-3	,	,	PUNCT	.	_	2	punct	_	_
-4	apesar	apesar	ADV	ADV	_	11	mark	_	_
+# sent_id = train-s8632
+1	Segundo	segundo	ADP	_	_	2	case	_	_
+2	Russell	Russell	PROPN	_	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	apesar	apesar	ADV	_	ExtPos=SCONJ	11	mark	_	_
 5-6	da	_	_	_	_	_	_	_	_
-5	de	de	ADP	ADP	_	4	case	_	_
-6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-7	natureza	natureza	NOUN	NOUN	_	11	nsubj	_	_
-8	de	de	ADP	ADP	_	10	case	_	_
-9	suas	_	DET	DET	_	10	det:poss	_	_
-10	descobertas	_	NOUN	NOUN	_	7	nmod	_	_
-11	marcarem	marcar	VERB	VERB	_	16	advcl	_	_
-12	época	época	NOUN	NOUN	_	11	obj	_	SpaceAfter=No
-13	,	,	PUNCT	.	_	11	punct	_	_
-14	sua	_	DET	DET	_	15	det:poss	_	_
-15	obra	obra	NOUN	NOUN	_	16	nsubj	_	_
-16	permaneceu	permanecer	VERB	VERB	_	0	root	_	_
+5	de	de	ADP	_	_	4	fixed	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	natureza	natureza	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	suas	seu	DET	_	Gender=Fem|Number=Plur|PronType=Prs	10	det	_	_
+10	descobertas	descoberta	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
+11	marcarem	marcar	VERB	_	Number=Plur|Person=3|VerbForm=Inf	16	advcl	_	_
+12	época	época	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	11	punct	_	_
+14	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	15	det	_	_
+15	obra	obra	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
+16	permaneceu	permanecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 17-18	na	_	_	_	_	_	_	_	_
-17	em	em	ADP	ADP	_	19	case	_	_
-18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	obscuridade	obscuridade	NOUN	NOUN	_	16	nmod	_	_
-20	até	_	ADP	ADP	_	21	case	_	_
-21	1903	1903	NUM	NUM	NumType=Card	16	nmod	_	SpaceAfter=No
-22	,	,	PUNCT	.	_	30	punct	_	_
-23	quando	quando	ADV	ADV	_	30	advmod	_	_
-24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-25	próprio	próprio	ADJ	ADJ	_	26	amod	_	_
-26	filósofo	filósofo	NOUN	NOUN	_	30	nsubj	_	_
-27	e	e	CCONJ	CONJ	_	28	cc	_	_
-28	matemático	matemático	NOUN	NOUN	_	26	conj	_	_
-29	inglês	inglês	ADJ	ADJ	_	26	amod	_	_
-30	chamou	chamar	VERB	VERB	_	21	acl:relcl	_	_
-31	atenção	atenção	NOUN	NOUN	_	30	obj	_	_
-32	para	para	ADP	ADP	_	34	case	_	_
-33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
-34	relevância	relevância	NOUN	NOUN	_	31	nmod	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	obscuridade	obscuridade	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
+20	até	até	ADP	_	_	21	case	_	_
+21	1903	1903	NUM	_	NumType=Card	16	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	16	punct	_	_
+23	quando	quando	ADV	_	_	30	advmod	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	próprio	próprio	DET	_	Gender=Masc|Number=Sing|PronType=Emp	26	det	_	_
+26	filósofo	filósofo	NOUN	_	Gender=Masc|Number=Sing	30	nsubj	_	_
+27	e	e	CCONJ	_	_	28	cc	_	_
+28	matemático	matemático	NOUN	_	Gender=Masc|Number=Sing	26	conj	_	_
+29	inglês	inglês	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	_
+30	chamou	chamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	advcl	_	_
+31	atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	30	obj	_	_
+32	para	para	ADP	_	_	34	case	_	_
+33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	relevância	relevância	NOUN	_	Gender=Fem|Number=Sing	30	obl	_	_
 35-36	dos	_	_	_	_	_	_	_	_
-35	de	de	ADP	ADP	_	37	case	_	_
-36	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
-37	escritos	escrito	NOUN	NOUN	_	34	nmod	_	SpaceAfter=No
-38	.	.	PUNCT	.	_	16	punct	_	_
+35	de	de	ADP	_	_	37	case	_	_
+36	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	escritos	escrito	NOUN	_	Gender=Masc|Number=Plur	34	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
 
 # sent_id = train-s8633
 # text = Bruno Senna é 13 º.

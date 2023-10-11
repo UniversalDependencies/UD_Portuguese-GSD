@@ -116,39 +116,43 @@
 31	dias	dia	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	24	punct	_	_
 
-# sent_id = train-s8035
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Suspenso, o camisa 11 está com fôlego total para comandar o ataque corintiano no La Bombonera, nesta quarta - feira, contra o temido Boca Juniors.
-1	Suspenso	suspenso	ADJ	ADJ	_	4	amod	_	SpaceAfter=No
-2	,	,	PUNCT	.	_	1	punct	_	_
-3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	camisa	camisa	NOUN	NOUN	_	6	nsubj	_	_
-5	11	11	NUM	NUM	NumType=Card	4	appos	_	_
-6	está	estar	VERB	VERB	_	0	root	_	_
-7	com	com	ADP	ADP	_	8	case	_	_
-8	fôlego	fôlego	NOUN	NOUN	_	6	nmod	_	_
-9	total	total	ADJ	ADJ	_	8	amod	_	_
-10	para	_	ADP	ADP	_	11	mark	_	_
-11	comandar	comandar	VERB	VERB	_	8	nmod	_	_
-12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	ataque	ataque	NOUN	NOUN	_	11	obj	_	_
-14	corintiano	corintiano	ADJ	ADJ	_	13	amod	_	_
+# sent_id = train-s8035
+1	Suspenso	suspender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	8	acl	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	camisa	camisa	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+5	11	11	NUM	_	NumType=Card	4	nummod	_	_
+6	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	com	com	ADP	_	_	8	case	_	_
+8	fôlego	fôlego	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+9	total	total	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+10	para	para	SCONJ	_	_	11	mark	_	_
+11	comandar	comandar	VERB	_	VerbForm=Inf	8	acl	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	ataque	ataque	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+14	corintiano	corintiano	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
 15-16	no	_	_	_	_	_	_	_	_
-15	em	em	ADP	ADP	_	18	case	_	_
-16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-17	La	_	PROPN	PNOUN	_	18	det	_	_
-18	Bombonera	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	23	punct	_	_
-20	nesta	_	ADP	ADP	_	23	case	_	_
-21	quarta	_	ADJ	ADJ	_	23	amod	_	_
-22	-	-	PUNCT	.	_	23	punct	_	_
-23	feira	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
-24	,	,	PUNCT	.	_	28	punct	_	_
-25	contra	_	ADP	ADP	_	28	case	_	_
-26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
-27	temido	temido	ADJ	ADJ	_	28	amod	_	_
-28	Boca	_	PROPN	PNOUN	_	13	nmod	_	_
-29	Juniors	_	PROPN	PNOUN	_	28	flat	_	SpaceAfter=No
-30	.	.	PUNCT	.	_	6	punct	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	La	La	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	11	obl	_	_
+18	Bombonera	Bombonera	PROPN	_	Number=Sing	17	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	11	punct	_	_
+20-21	nesta	_	_	_	_	_	_	_	_
+20	em	em	ADP	_	_	22	case	_	_
+21	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	22	det	_	_
+22	quarta	quarta	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+23	-	-	PUNCT	_	_	24	punct	_	_
+24	feira	feira	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	11	punct	_	_
+26	contra	contra	ADP	_	_	29	case	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28	temido	temido	ADJ	_	Gender=Masc|Number=Sing	29	amod	_	_
+29	Boca	Boca	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	11	obl	_	_
+30	Juniors	Juniors	PROPN	_	Number=Sing	29	flat:name	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
 
 # sent_id = train-s8036
 # text = A obra é uma reivindicação antiga da comunidade, uma vez que o grande fluxo de veículos na região (cerca de 20 mil por dia) causa muitos acidentes e torna o fluxo lento na região.

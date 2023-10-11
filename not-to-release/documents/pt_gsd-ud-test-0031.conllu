@@ -1,24 +1,26 @@
-# sent_id = test-s299
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Por isso, ela deixou claro que pretende fazer uma parceria com o brasileiro no futuro.
-1	Por	_	ADP	ADP	_	2	case	_	_
-2	isso	_	PRON	PRON	_	5	nmod	_	SpaceAfter=No
-3	,	,	PUNCT	.	_	2	punct	_	_
-4	ela	_	PRON	PRON	_	5	nsubj	_	_
-5	deixou	deixar	VERB	VERB	_	0	root	_	_
-6	claro	claro	ADJ	ADJ	_	5	xcomp	_	_
-7	que	_	PRON	PRON	_	8	mark	_	_
-8	pretende	pretender	VERB	VERB	_	5	ccomp	_	_
-9	fazer	fazer	VERB	VERB	_	8	xcomp	_	_
-10	uma	um	DET	DET	_	11	det	_	_
-11	parceria	parceria	NOUN	NOUN	_	9	obj	_	_
-12	com	com	ADP	ADP	_	14	case	_	_
-13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	brasileiro	brasileiro	NOUN	NOUN	_	11	nmod	_	_
+# sent_id = test-s299
+1	Por	por	ADP	_	_	2	case	_	_
+2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	ela	ela	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	deixou	deixar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	claro	claro	ADV	_	_	5	advmod	_	_
+7	que	que	SCONJ	_	_	8	mark	_	_
+8	pretende	pretender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+9	fazer	fazer	VERB	_	VerbForm=Inf	8	xcomp	_	_
+10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	parceria	parceria	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12	com	com	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	brasileiro	brasileiro	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
 15-16	no	_	_	_	_	_	_	_	_
-15	em	em	ADP	ADP	_	17	case	_	_
-16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	futuro	futuro	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
-18	.	.	PUNCT	.	_	5	punct	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	futuro	futuro	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # sent_id = test-s300
 # text = Outros tipos de veículos incluíam unidades.
@@ -57,21 +59,23 @@
 21	necropsia	necropsia	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = test-s302
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Fica na Rua Mateus Leme, 2467, Bom Retiro.
-1	Fica	ficar	VERB	VERB	_	0	root	_	_
+# sent_id = test-s302
+1	Fica	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2-3	na	_	_	_	_	_	_	_	_
-2	em	em	ADP	ADP	_	4	case	_	_
-3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	Rua	_	PROPN	PNOUN	_	1	nmod	_	_
-5	Mateus	_	PROPN	PNOUN	_	4	flat	_	_
-6	Leme	_	PROPN	PNOUN	_	4	case	_	SpaceAfter=No
-7	,	,	PUNCT	.	_	8	punct	_	_
-8	2467	2467	NUM	NUM	NumType=Card	4	appos	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	11	punct	_	_
-10	Bom	_	PROPN	PNOUN	_	11	amod	_	_
-11	Retiro	_	PROPN	PNOUN	_	4	appos	_	SpaceAfter=No
-12	.	.	PUNCT	.	_	1	punct	_	_
+2	em	em	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Rua	Rua	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	1	obl	_	_
+5	Mateus	Mateus	PROPN	_	Number=Sing	4	flat:name	_	_
+6	Leme	Leme	PROPN	_	Number=Sing	4	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	2467	2467	NUM	_	NumType=Card	4	parataxis	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	Bom	Bom	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	4	appos	_	_
+11	Retiro	Retiro	PROPN	_	Number=Sing	10	flat:name	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = test-s303
 # text = Mas, eu teria de vir à tribuna, primeiro para agradecer, ao presidente Guilherme Uchoa, aos integrantes da Mesa da Casa, a todos os deputados e todas as deputadas com quem convivi durante quase dois anos, agradecer aos funcionários da Assembleia, ao pessoal administrativo das diversas áreas e, sobretudo, agradecer pela convivência democrática, solidária, mutuamente respeitosa que pude ter nesse tempo com todos os deputados e todas as deputadas que aqui representam o povo de Pernambuco ", afirmou Luciano ao iniciar seu discurso.
@@ -292,37 +296,39 @@
 19	municípios	município	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	15	punct	_	_
 
-# sent_id = test-s308
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Chegou a ser ovacionado no Vaticano após ter discursado, assim como na Academia Brasileira de Letras, onde cunhou o primeiro nome mato - grossense.
-1	Chegou	chegar	AUX	AUX	_	4	aux	_	_
-2	a	_	ADP	ADP	_	4	mark	_	_
-3	ser	ser	AUX	AUX	_	4	aux:pass	_	_
-4	ovacionado	ovacionar	VERB	VERB	_	0	root	_	_
+# sent_id = test-s308
+1	Chegou	chegar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	a	a	SCONJ	_	_	4	mark	_	_
+3	ser	ser	AUX	_	VerbForm=Inf	4	aux:pass	_	_
+4	ovacionado	ovacionar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	xcomp	_	_
 5-6	no	_	_	_	_	_	_	_	_
-5	em	em	ADP	ADP	_	7	case	_	_
-6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	Vaticano	_	PROPN	PNOUN	_	4	nmod	_	_
-8	após	_	ADP	ADP	_	10	mark	_	_
-9	ter	ter	AUX	AUX	_	10	aux	_	_
-10	discursado	discursar	VERB	VERB	_	4	advcl	_	SpaceAfter=No
-11	,	,	PUNCT	.	_	12	punct	_	_
-12	assim	assim	ADV	ADV	_	4	nmod	_	_
-13	como	_	ADP	ADP	_	12	fixed	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Vaticano	Vaticano	PROPN	_	Gender=Masc|Number=Sing	4	obl	_	_
+8	após	após	SCONJ	_	_	10	mark	_	_
+9	ter	ter	AUX	_	VerbForm=Inf	10	aux	_	_
+10	discursado	discursar	VERB	_	VerbForm=Part	4	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	16	punct	_	_
+12	assim	assim	ADV	_	_	16	cc	_	_
+13	como	como	ADP	_	_	12	fixed	_	_
 14-15	na	_	_	_	_	_	_	_	_
-14	em	em	ADP	ADP	_	16	case	_	_
-15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	Academia	academia	NOUN	NOUN	_	12	nmod	_	_
-17	Brasileira	_	PROPN	PNOUN	_	16	amod	_	_
-18	de	de	ADP	ADP	_	19	case	_	_
-19	Letras	_	PROPN	PNOUN	_	16	nmod	_	SpaceAfter=No
-20	,	,	PUNCT	.	_	22	punct	_	_
-21	onde	onde	ADV	ADV	_	22	advmod	_	_
-22	cunhou	cunhar	VERB	VERB	_	16	acl:relcl	_	_
-23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-24	primeiro	primeiro	ADJ	ADJ	_	25	amod	_	_
-25	nome	nome	NOUN	NOUN	_	22	obj	_	_
-26	mato	_	ADJ	ADJ	_	28	amod	_	_
-27	-	-	PUNCT	.	_	28	punct	_	_
-28	grossense	grossense	ADJ	ADJ	_	25	amod	_	SpaceAfter=No
-29	.	.	PUNCT	.	_	4	punct	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Academia	Academia	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	10	conj	_	_
+17	Brasileira	Brasileira	PROPN	_	Number=Sing	16	flat:name	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	Letras	Letras	PROPN	_	Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	_
+21	onde	onde	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	22	obl	_	_
+22	cunhou	cunhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	acl:relcl	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	primeiro	primeiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	25	amod	_	_
+25	nome	nome	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
+26	mato	mato	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
+27	-	-	PUNCT	_	_	28	punct	_	_
+28	grossense	grossense	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
 

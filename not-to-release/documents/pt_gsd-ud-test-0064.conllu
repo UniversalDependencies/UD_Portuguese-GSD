@@ -120,86 +120,92 @@
 29	Argentina	_	PROPN	PNOUN	_	23	conj	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = test-s630
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Jung Kyung - Eun, Kim Ha - Na, Ha Jung - Eun e Kim Min - Jung estão proibidas de participarem de competições nacionais ou internacionais durante esse período.
-1	Jung	_	PROPN	PNOUN	_	20	nsubj	_	_
-2	Kyung	_	PROPN	PNOUN	_	1	flat	_	_
-3	-	-	PUNCT	.	_	6	punct	_	_
-4	Eun	_	PROPN	PNOUN	_	1	flat	_	SpaceAfter=No
-5	,	,	PUNCT	.	_	6	punct	_	_
-6	Kim	_	PROPN	PNOUN	_	1	conj	_	_
-7	Ha	_	PROPN	PNOUN	_	6	flat	_	_
-8	-	-	PUNCT	.	_	6	punct	_	_
-9	Na	_	PROPN	PNOUN	_	6	flat	_	SpaceAfter=No
-10	,	,	PUNCT	.	_	11	punct	_	_
-11	Ha	_	PROPN	PNOUN	_	1	conj	_	_
-12	Jung	_	PROPN	PNOUN	_	11	flat	_	_
-13	-	-	PUNCT	.	_	11	punct	_	_
-14	Eun	_	PROPN	PNOUN	_	11	flat	_	_
-15	e	e	CCONJ	CONJ	_	16	cc	_	_
-16	Kim	_	PROPN	PNOUN	_	1	conj	_	_
-17	Min	_	PROPN	PNOUN	_	16	flat	_	_
-18	-	-	PUNCT	.	_	16	punct	_	_
-19	Jung	_	PROPN	PNOUN	_	16	flat	_	_
-20	estão	estar	VERB	VERB	_	0	root	_	_
-21	proibidas	proibido	ADJ	ADJ	_	20	xcomp	_	_
-22	de	_	ADP	ADP	_	23	mark	_	_
-23	participarem	participar	VERB	VERB	_	21	nmod	_	_
-24	de	de	ADP	ADP	_	25	case	_	_
-25	competições	competição	NOUN	NOUN	_	23	nmod	_	_
-26	nacionais	nacional	ADJ	ADJ	_	25	amod	_	_
-27	ou	ou	CCONJ	CONJ	_	28	cc	_	_
-28	internacionais	internacional	ADJ	ADJ	_	26	conj	_	_
-29	durante	_	ADP	ADP	_	31	case	_	_
-30	esse	_	DET	DET	_	31	det	_	_
-31	período	período	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
-32	.	.	PUNCT	.	_	20	punct	_	_
+# sent_id = test-s630
+1	Jung	Jung	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	22	nsubj	_	_
+2	Kyung	Kyung	PROPN	_	Number=Sing	1	flat:name	_	_
+3	-	-	PUNCT	_	_	4	punct	_	_
+4	Eun	Eun	PROPN	_	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	Kim	Kim	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	1	conj	_	_
+7	Ha	Ha	PROPN	_	Number=Sing	6	flat:name	_	_
+8	-	-	PUNCT	_	_	10	punct	_	_
+9-10	Na	_	_	_	_	_	_	_	SpaceAfter=No
+9	Em	em	ADP	_	_	10	case	_	_
+10	a	o	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nmod	_	_
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	Ha	Ha	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	1	conj	_	_
+13	Jung	Jung	PROPN	_	Number=Sing	12	flat:name	_	_
+14	-	-	PUNCT	_	_	15	punct	_	_
+15	Eun	Eun	PROPN	_	Gender=Fem|Number=Sing	12	conj	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	Kim	Kim	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	1	conj	_	_
+18	Min	Min	PROPN	_	Number=Sing	17	flat:name	_	_
+19	-	-	PUNCT	_	_	20	punct	_	_
+20	Jung	Jung	PROPN	_	Gender=Fem|Number=Sing	17	appos	_	_
+21	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	proibidas	proibido	ADJ	_	Gender=Fem|Number=Plur	0	root	_	_
+23	de	de	SCONJ	_	_	24	mark	_	_
+24	participarem	participar	VERB	_	Number=Plur|Person=3|VerbForm=Inf	22	xcomp	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	competições	competição	NOUN	_	Gender=Fem|Number=Plur	24	obj	_	_
+27	nacionais	nacional	ADJ	_	Gender=Fem|Number=Plur	26	amod	_	_
+28	ou	ou	CCONJ	_	_	29	cc	_	_
+29	internacionais	internacional	ADJ	_	Gender=Fem|Number=Plur	27	conj	_	_
+30	durante	durante	ADP	_	_	32	case	_	_
+31	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	32	det	_	_
+32	período	período	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
 
-# sent_id = test-s631
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = No sudeste e no Vale do Tennessee elas ficarão abaixo dos 30 º C, "ainda bastante quente", disse Orrison, mas não tão quente como nos últimos dias.
+# sent_id = test-s631
 1-2	No	_	_	_	_	_	_	_	_
-1	Em	em	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	sudeste	sudeste	NOUN	NOUN	_	12	nmod	_	_
-4	e	e	CCONJ	CONJ	_	7	cc	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sudeste	sudeste	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+4	e	e	CCONJ	_	_	7	cc	_	_
 5-6	no	_	_	_	_	_	_	_	_
-5	em	em	ADP	ADP	_	7	case	_	_
-6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	Vale	_	PROPN	PNOUN	_	3	conj	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Vale	Vale	PROPN	_	Gender=Masc|Number=Sing	3	conj	_	_
 8-9	do	_	_	_	_	_	_	_	_
-8	de	de	ADP	ADP	_	10	case	_	_
-9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	Tennessee	_	PROPN	PNOUN	_	7	nmod	_	_
-11	elas	_	PRON	PRON	_	12	nsubj	_	_
-12	ficarão	ficar	VERB	VERB	_	0	root	_	_
-13	abaixo	abaixo	ADV	ADV	_	12	advmod	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Tennessee	Tennessee	PROPN	_	Number=Sing	7	nmod	_	_
+11	elas	elas	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	_
+12	ficarão	ficar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	26	parataxis	_	_
+13	abaixo	abaixo	ADV	_	_	12	advmod	_	_
 14-15	dos	_	_	_	_	_	_	_	_
-14	de	de	ADP	ADP	_	17	case	_	_
-15	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
-16	30	30	NUM	NUM	NumType=Card	17	nummod	_	_
-17	º	_	NOUN	NOUN	_	13	nmod	_	_
-18	C	c	NOUN	NOUN	_	17	flat	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	23	punct	_	_
-20	"	"	PUNCT	.	_	23	punct	_	SpaceAfter=No
-21	ainda	ainda	ADV	ADV	_	23	advmod	_	_
-22	bastante	bastante	ADV	ADV	_	23	advmod	_	_
-23	quente	quente	ADJ	ADJ	_	12	parataxis	_	SpaceAfter=No
-24	"	"	PUNCT	.	_	32	punct	_	SpaceAfter=No
-25	,	,	PUNCT	.	_	26	punct	_	_
-26	disse	dizer	VERB	VERB	_	23	parataxis	_	_
-27	Orrison	_	PROPN	PNOUN	_	26	nsubj	_	SpaceAfter=No
-28	,	,	PUNCT	.	_	26	punct	_	_
-29	mas	mas	CCONJ	CONJ	_	32	cc	_	_
-30	não	não	ADV	ADV	Polarity=Neg	32	advmod	_	_
-31	tão	tão	ADV	ADV	_	32	advmod	_	_
-32	quente	quente	ADJ	ADJ	_	23	conj	_	_
-33	como	_	ADP	ADP	_	32	nmod	_	_
+14	de	de	ADP	_	_	17	case	_	_
+15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+16	30	30	NUM	_	NumType=Card	17	nummod	_	_
+17	º	º	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
+18	C	C	PROPN	_	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	23	punct	_	_
+20	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+21	ainda	ainda	ADV	_	_	22	advmod	_	_
+22	bastante	bastante	ADV	_	_	23	advmod	_	_
+23	quente	quente	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+27	Orrison	Orrison	PROPN	_	Gender=Masc|Number=Sing	26	nsubj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	32	punct	_	_
+29	mas	mas	CCONJ	_	_	32	cc	_	_
+30	não	não	ADV	_	Polarity=Neg	32	advmod	_	_
+31	tão	tão	ADV	_	_	32	advmod	_	_
+32	quente	quente	ADJ	_	Gender=Masc|Number=Sing	26	conj	_	_
+33	como	como	ADP	_	_	37	case	_	_
 34-35	nos	_	_	_	_	_	_	_	_
-34	em	em	ADP	ADP	_	37	case	_	_
-35	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
-36	últimos	último	ADJ	ADJ	_	37	amod	_	_
-37	dias	dia	NOUN	NOUN	_	33	nmod	_	SpaceAfter=No
-38	.	.	PUNCT	.	_	12	punct	_	_
+34	em	em	ADP	_	_	37	case	_	_
+35	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+36	últimos	último	ADJ	_	Gender=Masc|Number=Plur|NumType=Ord	37	amod	_	_
+37	dias	dia	NOUN	_	Gender=Masc|Number=Plur	32	obl	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
 
 # sent_id = test-s632
 # text = O casamento de Glafira com Arquelau foi considerado, pelos judeus, como uma transgressão da lei, porque ela havia sido casada com Alexandre, irmão de Arquelau.

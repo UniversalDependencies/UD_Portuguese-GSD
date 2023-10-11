@@ -187,52 +187,54 @@
 16	Raider	_	PROPN	PNOUN	_	15	flat	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = train-s8621
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O gol deu confiança para os donos da casa, que passaram a dominar as ações contra um Corinthians que deu sinais de falta de entrosamento nalgumas jogadas, mas sempre que conseguiu encaixar os passes ameaçou os celestes.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	gol	gol	NOUN	NOUN	_	3	nsubj	_	_
-3	deu	dar	VERB	VERB	_	0	root	_	_
-4	confiança	confiança	NOUN	NOUN	_	3	obj	_	_
-5	para	para	ADP	ADP	_	7	case	_	_
-6	os	o	DET	DET	_	7	det	_	_
-7	donos	dono	NOUN	NOUN	_	3	nmod	_	_
+# sent_id = train-s8621
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	gol	gol	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	deu	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	confiança	confiança	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+5	para	para	ADP	_	_	7	case	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	donos	dono	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	_
 8-9	da	_	_	_	_	_	_	_	_
-8	de	de	ADP	ADP	_	10	case	_	_
-9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	casa	casa	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-11	,	,	PUNCT	.	_	15	punct	_	_
-12	que	_	PRON	PRON	_	15	nsubj	_	_
-13	passaram	passar	AUX	AUX	_	15	aux	_	_
-14	a	_	ADP	ADP	_	15	mark	_	_
-15	dominar	dominar	VERB	VERB	_	7	acl:relcl	_	_
-16	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
-17	ações	ação	NOUN	NOUN	_	15	obj	_	_
-18	contra	_	ADP	ADP	_	20	case	_	_
-19	um	um	DET	DET	_	20	det	_	_
-20	Corinthians	_	PROPN	PNOUN	_	17	nmod	_	_
-21	que	_	PRON	PRON	_	22	nsubj	_	_
-22	deu	dar	VERB	VERB	_	20	acl:relcl	_	_
-23	sinais	_	NOUN	NOUN	_	22	obj	_	_
-24	de	de	ADP	ADP	_	25	case	_	_
-25	falta	_	NOUN	NOUN	_	23	nmod	_	_
-26	de	de	ADP	ADP	_	27	case	_	_
-27	entrosamento	entrosamento	NOUN	NOUN	_	25	nmod	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	casa	casa	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	13	nsubj	_	_
+13	passaram	passar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+14	a	a	SCONJ	_	_	15	mark	_	_
+15	dominar	dominar	VERB	_	VerbForm=Inf	13	xcomp	_	_
+16	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	ações	ação	NOUN	_	Gender=Fem|Number=Plur	15	obj	_	_
+18	contra	contra	ADP	_	_	20	case	_	_
+19	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Corinthians	Corinthians	PROPN	_	Gender=Masc|Number=Sing	15	obl	_	_
+21	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	22	nsubj	_	_
+22	deu	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	acl:relcl	_	_
+23	sinais	sinal	NOUN	_	Gender=Masc|Number=Plur	22	obj	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	falta	falta	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	entrosamento	entrosamento	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
 28-29	nalgumas	_	_	_	_	_	_	_	_
-28	em	em	ADP	ADP	_	30	case	_	_
-29	algumas	_	DET	DET	_	30	det	_	_
-30	jogadas	jogada	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
-31	,	,	PUNCT	.	_	39	punct	_	_
-32	mas	mas	CCONJ	CONJ	_	39	cc	_	_
-33	sempre	sempre	ADV	ADV	_	35	mark	_	_
-34	que	_	CCONJ	CONJ	_	33	fixed	_	_
-35	conseguiu	conseguir	VERB	VERB	_	39	advcl	_	_
-36	encaixar	encaixar	VERB	VERB	_	35	xcomp	_	_
-37	os	o	DET	DET	_	38	det	_	_
-38	passes	passe	NOUN	NOUN	_	36	obj	_	_
-39	ameaçou	ameaçar	VERB	VERB	_	22	conj	_	_
-40	os	o	DET	DET	_	41	det	_	_
-41	celestes	_	NOUN	NOUN	_	39	obj	_	SpaceAfter=No
-42	.	.	PUNCT	.	_	3	punct	_	_
+28	em	em	ADP	_	_	30	case	_	_
+29	algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	30	det	_	_
+30	jogadas	jogada	NOUN	_	Gender=Fem|Number=Plur	22	obl	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	39	punct	_	_
+32	mas	mas	CCONJ	_	_	39	cc	_	_
+33	sempre	sempre	ADV	_	_	35	mark	_	_
+34	que	que	SCONJ	_	_	33	fixed	_	_
+35	conseguiu	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	39	advcl	_	_
+36	encaixar	encaixar	VERB	_	VerbForm=Inf	35	xcomp	_	_
+37	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+38	passes	passe	NOUN	_	Gender=Masc|Number=Plur	36	obj	_	_
+39	ameaçou	ameaçar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	conj	_	_
+40	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	_
+41	celestes	celeste	NOUN	_	Gender=Masc|Number=Plur	39	obj	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = train-s8622
 # text = O brasileiro defendeu-se dos ataques de Kimi Raikkonen na última volta e ajudou a Ferrari no mundial de construtores.

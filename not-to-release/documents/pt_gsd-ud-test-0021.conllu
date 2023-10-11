@@ -37,46 +37,48 @@
 31	anos	ano	NOUN	NOUN	_	25	nmod	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = test-s201
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Segundo o iMore, as entregas do iPhone 5 e dos outros produtos começariam em 21 de setembro, uma sexta - feira -- nove dias depois do evento de lançamento.
-1	Segundo	_	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	iMore	_	PROPN	PNOUN	_	16	nmod	_	SpaceAfter=No
-4	,	,	PUNCT	.	_	3	punct	_	_
-5	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
-6	entregas	entrega	NOUN	NOUN	_	16	nsubj	_	_
+# sent_id = test-s201
+1	Segundo	segundo	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	iMore	imore	PROPN	_	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	entregas	entrega	NOUN	_	Gender=Fem|Number=Plur	16	nsubj	_	_
 7-8	do	_	_	_	_	_	_	_	_
-7	de	de	ADP	ADP	_	9	case	_	_
-8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	iPhone	_	PROPN	PNOUN	_	6	nmod	_	_
-10	5	5	NUM	NUM	NumType=Card	9	appos	_	_
-11	e	e	CCONJ	CONJ	_	9	cc	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	iPhone	iphone	PROPN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+10	5	5	NUM	_	NumType=Card	9	flat:name	_	_
+11	e	e	CCONJ	_	_	15	cc	_	_
 12-13	dos	_	_	_	_	_	_	_	_
-12	de	de	ADP	ADP	_	15	case	_	_
-13	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
-14	outros	_	DET	DET	_	15	det	_	_
-15	produtos	produto	NOUN	NOUN	_	9	nmod	_	_
-16	começariam	começar	VERB	VERB	_	0	root	_	_
-17	em	em	ADP	ADP	_	18	case	_	_
-18	21	21	NUM	NUM	NumType=Card	16	nmod	_	_
-19	de	de	ADP	ADP	_	20	case	_	_
-20	setembro	_	PROPN	PNOUN	_	18	nmod	_	SpaceAfter=No
-21	,	,	PUNCT	.	_	25	punct	_	_
-22	uma	um	DET	DET	_	25	det	_	_
-23	sexta	_	PROPN	PNOUN	_	25	amod	_	_
-24	-	-	PUNCT	.	_	25	punct	_	_
-25	feira	_	PROPN	PNOUN	_	18	appos	_	_
-26	--	_	PUNCT	.	_	16	punct	_	_
-27	nove	_	NUM	NUM	NumType=Card	28	nummod	_	_
-28	dias	dia	NOUN	NOUN	_	29	nmod	_	_
-29	depois	depois	ADV	ADV	_	32	case	_	_
+12	de	de	ADP	_	_	15	case	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	15	det	_	_
+15	produtos	produto	NOUN	_	Gender=Masc|Number=Plur	9	conj	_	_
+16	começariam	começar	VERB	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+17	em	em	ADP	_	_	18	case	_	_
+18	21	21	NUM	_	NumType=Card	16	obl	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	setembro	setembro	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	_
+22	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	sexta	sexta	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
+24	-	-	PUNCT	_	_	23	punct	_	_
+25	feira	feira	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
+26	--	--	PUNCT	_	_	28	punct	_	_
+27	nove	nove	NUM	_	NumType=Card	28	nummod	_	_
+28	dias	dia	NOUN	_	Gender=Masc|Number=Plur	23	appos	_	_
+29	depois	depois	ADV	_	_	28	advmod	_	_
 30-31	do	_	_	_	_	_	_	_	_
-30	de	de	ADP	ADP	_	29	case	_	_
-31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-32	evento	evento	NOUN	NOUN	_	16	nmod	_	_
-33	de	de	ADP	ADP	_	34	case	_	_
-34	lançamento	lançamento	NOUN	NOUN	_	32	nmod	_	SpaceAfter=No
-35	.	.	PUNCT	.	_	16	punct	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	evento	evento	NOUN	_	Gender=Masc|Number=Sing	29	obl	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	lançamento	lançamento	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
 
 # sent_id = test-s202
 # text = Sete dias depois, partes do corpo foram encontradas em Cotia, na Grande São Paulo.
@@ -133,41 +135,43 @@
 23	Libertadores	_	PROPN	PNOUN	_	22	flat	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = test-s204
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = -- Hoje em dia está melhor do que antigamente, até pelas câmeras e pela cobrança da imprensa, mas sempre usam aquela catimba.
-1	--	_	PUNCT	.	_	5	punct	_	_
-2	Hoje	_	NOUN	NOUN	_	5	nsubj	_	_
-3	em	em	ADP	ADP	_	4	case	_	_
-4	dia	dia	NOUN	NOUN	_	2	nmod	_	_
-5	está	estar	VERB	VERB	_	0	root	_	_
-6	melhor	melhor	ADJ	ADJ	_	5	xcomp	_	_
+# sent_id = test-s204
+1	--	--	PUNCT	_	_	6	punct	_	_
+2	Hoje	hoje	ADV	_	ExtPos=ADV	6	advmod	_	_
+3	em	em	ADP	_	_	4	case	_	_
+4	dia	dia	NOUN	_	Gender=Masc|Number=Sing	2	fixed	_	_
+5	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	melhor	melhor	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 7-8	do	_	_	_	_	_	_	_	_
-7	de	de	ADP	ADP	_	10	case	_	_
-8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-9	que	_	ADP	ADP	_	7	fixed	_	_
-10	antigamente	antigamente	ADV	ADV	_	5	nmod	_	SpaceAfter=No
-11	,	,	PUNCT	.	_	15	punct	_	_
-12	até	até	ADV	ADV	_	15	advmod	_	_
+7	de	de	ADP	_	_	10	case	_	_
+8	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	7	fixed	_	_
+9	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	7	fixed	_	_
+10	antigamente	antigamente	ADV	_	_	6	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	15	punct	_	_
+12	até	até	ADV	_	_	15	advmod	_	_
 13-14	pelas	_	_	_	_	_	_	_	_
-13	por	por	ADP	ADP	_	15	case	_	_
-14	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
-15	câmeras	câmera	NOUN	NOUN	_	5	nmod	_	_
-16	e	e	CCONJ	CONJ	_	19	cc	_	_
+13	por	por	ADP	_	_	15	case	_	_
+14	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	câmeras	câmera	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	_
+16	e	e	CCONJ	_	_	19	cc	_	_
 17-18	pela	_	_	_	_	_	_	_	_
-17	por	por	ADP	ADP	_	19	case	_	_
-18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	cobrança	cobrança	NOUN	NOUN	_	15	conj	_	_
+17	por	por	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	cobrança	cobrança	NOUN	_	Gender=Fem|Number=Sing	15	conj	_	_
 20-21	da	_	_	_	_	_	_	_	_
-20	de	de	ADP	ADP	_	22	case	_	_
-21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	imprensa	imprensa	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
-23	,	,	PUNCT	.	_	26	punct	_	_
-24	mas	mas	CCONJ	CONJ	_	26	cc	_	_
-25	sempre	sempre	ADV	ADV	_	26	advmod	_	_
-26	usam	usar	VERB	VERB	_	5	conj	_	_
-27	aquela	_	DET	DET	_	28	det	_	_
-28	catimba	_	NOUN	NOUN	_	26	obj	_	SpaceAfter=No
-29	.	.	PUNCT	.	_	5	punct	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	imprensa	imprensa	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	26	punct	_	_
+24	mas	mas	CCONJ	_	_	26	cc	_	_
+25	sempre	sempre	ADV	_	_	26	advmod	_	_
+26	usam	usar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+27	aquela	aquele	DET	_	Gender=Fem|Number=Sing|PronType=Dem	28	det	_	_
+28	catimba	catimba	NOUN	_	Gender=Fem|Number=Sing	26	obj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
 # sent_id = test-s205
 # text = Na opinião de Paulo Takeuchi, diretor da Honda -- marca que detém 80 % do mercado --, uma alteração no recolhimento dos depósitos compulsórios dos bancos poderia liberar R $ 3 bilhões em crédito para o financiamento dos veículos de duas rodas.
@@ -231,31 +235,33 @@
 51	rodas	roda	NOUN	NOUN	_	48	nmod	_	SpaceAfter=No
 52	.	.	PUNCT	.	_	36	punct	_	_
 
-# sent_id = test-s206
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O rodízio de veículos na capital volta a valer amanhã, para carros com final de placa 5 ou 6.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	rodízio	rodízio	NOUN	NOUN	_	10	nsubj	_	_
-3	de	de	ADP	ADP	_	4	case	_	_
-4	veículos	veículo	NOUN	NOUN	_	2	nmod	_	_
+# sent_id = test-s206
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	rodízio	rodízio	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	veículos	veículo	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
 5-6	na	_	_	_	_	_	_	_	_
-5	em	em	ADP	ADP	_	7	case	_	_
-6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	capital	capital	NOUN	NOUN	_	2	nmod	_	_
-8	volta	voltar	AUX	AUX	_	10	aux	_	_
-9	a	_	ADP	ADP	_	10	mark	_	_
-10	valer	valer	VERB	VERB	_	0	root	_	_
-11	amanhã	amanhã	ADV	ADV	_	10	advmod	_	SpaceAfter=No
-12	,	,	PUNCT	.	_	14	punct	_	_
-13	para	para	ADP	ADP	_	14	case	_	_
-14	carros	carro	NOUN	NOUN	_	10	nmod	_	_
-15	com	com	ADP	ADP	_	16	case	_	_
-16	final	final	NOUN	NOUN	_	14	nmod	_	_
-17	de	de	ADP	ADP	_	18	case	_	_
-18	placa	placa	NOUN	NOUN	_	16	nmod	_	_
-19	5	5	NUM	NUM	NumType=Card	16	appos	_	_
-20	ou	ou	CCONJ	CONJ	_	21	cc	_	_
-21	6	6	NUM	NUM	NumType=Card	19	conj	_	SpaceAfter=No
-22	.	.	PUNCT	.	_	10	punct	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	capital	capital	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+8	volta	voltar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	a	a	SCONJ	_	_	10	mark	_	_
+10	valer	valer	VERB	_	VerbForm=Inf	8	xcomp	_	_
+11	amanhã	amanhã	ADV	_	_	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	10	punct	_	_
+13	para	para	ADP	_	_	14	case	_	_
+14	carros	carro	NOUN	_	Gender=Masc|Number=Plur	10	obl	_	_
+15	com	com	ADP	_	_	16	case	_	_
+16	final	final	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	placa	placa	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+19	5	5	NUM	_	NumType=Card	18	nummod	_	_
+20	ou	ou	CCONJ	_	_	21	cc	_	_
+21	6	6	NUM	_	NumType=Card	19	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
 
 # sent_id = test-s207
 # text = A corrente majoritária entende que isso não é possível.
@@ -306,37 +312,39 @@
 29	linha	_	NOUN	NOUN	_	26	nmod	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	11	punct	_	_
 
-# sent_id = test-s209
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = "Em 1970, mais ou menos, a área começou a ter um pouco de notoriedade e comecei a dar uma olhada e ver o que a TI fazia.
-1	"	"	PUNCT	.	_	13	punct	_	SpaceAfter=No
-2	Em	em	ADP	ADP	_	3	case	_	_
-3	1970	1970	NUM	NUM	NumType=Card	13	nmod	_	SpaceAfter=No
-4	,	,	PUNCT	.	_	5	punct	_	_
-5	mais	mais	ADV	ADV	_	3	advmod	_	_
-6	ou	ou	CCONJ	CONJ	_	7	cc	_	_
-7	menos	menos	ADV	ADV	_	5	conj	_	SpaceAfter=No
-8	,	,	PUNCT	.	_	5	punct	_	_
-9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	área	área	NOUN	NOUN	_	13	nsubj	_	_
-11	começou	começar	AUX	AUX	_	13	aux	_	_
-12	a	_	ADP	ADP	_	13	mark	_	_
-13	ter	ter	VERB	VERB	_	0	root	_	_
-14	um	um	DET	DET	_	15	det	_	_
-15	pouco	pouco	NOUN	NOUN	_	13	obj	_	_
-16	de	de	ADP	ADP	_	17	case	_	_
-17	notoriedade	notoriedade	NOUN	NOUN	_	15	nmod	_	_
-18	e	e	CCONJ	CONJ	_	21	cc	_	_
-19	comecei	começar	AUX	AUX	_	21	aux	_	_
-20	a	_	ADP	ADP	_	21	mark	_	_
-21	dar	dar	VERB	VERB	_	13	conj	_	_
-22	uma	um	DET	DET	_	23	det	_	_
-23	olhada	_	NOUN	NOUN	_	21	obj	_	_
-24	e	e	CCONJ	CONJ	_	25	cc	_	_
-25	ver	ver	VERB	VERB	_	21	conj	_	_
-26	o	_	PRON	PRON	_	25	obj	_	_
-27	que	_	PRON	PRON	_	30	obj	_	_
-28	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-29	TI	_	PROPN	PNOUN	_	30	nsubj	_	_
-30	fazia	fazer	VERB	VERB	_	26	acl:relcl	_	SpaceAfter=No
-31	.	.	PUNCT	.	_	13	punct	_	_
+# sent_id = test-s209
+1	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+2	Em	em	ADP	_	_	3	case	_	_
+3	1970	1970	NUM	_	NumType=Card	13	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	mais	mais	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+6	ou	ou	ADP	_	_	7	case	_	_
+7	menos	menos	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	5	punct	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	área	área	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+11	começou	começar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	a	a	SCONJ	_	_	13	mark	_	_
+13	ter	ter	VERB	_	VerbForm=Inf	11	xcomp	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	pouco	pouco	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	notoriedade	notoriedade	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+18	e	e	CCONJ	_	_	21	cc	_	_
+19	comecei	começar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	13	conj	_	_
+20	a	a	SCONJ	_	_	21	mark	_	_
+21	dar	dar	VERB	_	VerbForm=Inf	19	xcomp	_	_
+22	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	olhada	olhada	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
+24	e	e	CCONJ	_	_	25	cc	_	_
+25	ver	ver	VERB	_	VerbForm=Inf	21	conj	_	_
+26	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	25	obj	_	_
+27	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	30	obj	_	_
+28	a	ela	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	TI	ti	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
+30	fazia	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	acl:relcl	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
 

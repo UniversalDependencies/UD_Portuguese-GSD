@@ -12,10 +12,6 @@
 	  (directory "reports/pt_gsd-ud-*.report") :initial-value nil))
 
 
-;; total number of sentences
-(loop for a in (proc-reports)
-      sum (length (getf a 'sents)))
-
 (defun get-sentences (fn sents)
   (let* ((as (cl-conllu:read-conllu (make-pathname :name fn
 						   :directory '(:RELATIVE "documents")
@@ -45,4 +41,8 @@
       (car (cl-conllu:read-conllu in)))))
 
 
-
+(defun main ()
+  ;; (loop for a in (proc-reports) sum (length (getf a 'sents)))
+  (dolist (a (proc-reports))
+    (print a)
+    (get-sentences (getf a 'file) (getf a 'sents))))

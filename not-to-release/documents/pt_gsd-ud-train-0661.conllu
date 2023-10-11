@@ -1,12 +1,14 @@
-# sent_id = train-s6562
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = "Ela acabou invadindo a contramão.
-1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
-2	Ela	_	PRON	PRON	_	4	nsubj	_	_
-3	acabou	acabar	AUX	AUX	_	4	aux	_	_
-4	invadindo	invadir	VERB	VERB	_	0	root	_	_
-5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	contramão	contramão	NOUN	NOUN	_	4	obj	_	SpaceAfter=No
-7	.	.	PUNCT	.	_	4	punct	_	_
+# sent_id = train-s6562
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Ela	ela	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	acabou	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	invadindo	invadir	VERB	_	VerbForm=Ger	3	xcomp	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	contramão	contramão	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = train-s6563
 # text = Durante a visita é possível circular entre grandes painéis na Sala Anjos Barrocos, onde estão expostas imagens em movimento dos craques Pelé, Sócrates, Falcão, Zico, Bebeto, Romário, Ronaldo, Gérson e Rivelino, entre outros.
@@ -58,84 +60,90 @@
 44	outros	_	PRON	PRON	_	25	nmod	_	SpaceAfter=No
 45	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s6564
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = A sua georeferenciação localiza-se para oeste da sede de concelho, numa encosta à direita da estrada nacional 314-1 que passa pela freguesia de Pombal em direcção a Brunheda, ligando os concelhos de Murça e de Mirandela, respectivamente, nos distritos de Vila Real e Bragança, após atravessar uma ponte sobre o rio Tua na margem esquerda deste.
-1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-2	sua	_	DET	DET	_	3	det:poss	_	_
-3	georeferenciação	_	NOUN	NOUN	_	4	nsubj	_	_
+# sent_id = train-s6564
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	3	det	_	_
+3	georeferenciação	georeferenciação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 4-5	localiza-se	_	_	_	_	_	_	_	_
-4	localiza	localizar	VERB	VERB	_	0	root	_	_
-5	se	_	PART	PRT	_	4	expl:pv	_	_
-6	para	para	ADP	ADP	_	7	case	_	_
-7	oeste	oeste	NOUN	NOUN	_	4	nmod	_	_
+4	localiza	localizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+6	para	para	ADP	_	_	7	case	_	_
+7	oeste	oeste	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
 8-9	da	_	_	_	_	_	_	_	_
-8	de	de	ADP	ADP	_	10	case	_	_
-9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	sede	sede	NOUN	NOUN	_	7	nmod	_	_
-11	de	de	ADP	ADP	_	12	case	_	_
-12	concelho	concelho	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
-13	,	,	PUNCT	.	_	15	punct	_	_
-14	numa	_	ADP	ADP	_	15	case	_	_
-15	encosta	encosta	NOUN	NOUN	_	4	nmod	_	_
-16-17	à	_	_	_	_	_	_	_	_
-16	a	a	ADP	ADP	_	18	case	_	_
-17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	direita	_	NOUN	NOUN	_	15	nmod	_	_
-19-20	da	_	_	_	_	_	_	_	_
-19	de	de	ADP	ADP	_	21	case	_	_
-20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-21	estrada	estrada	NOUN	NOUN	_	18	nmod	_	_
-22	nacional	nacional	ADJ	ADJ	_	21	amod	_	_
-23	314-1	_	NUM	NUM	NumType=Card	21	appos	_	_
-24	que	_	PRON	PRON	_	25	nsubj	_	_
-25	passa	passar	VERB	VERB	_	21	acl:relcl	_	_
-26-27	pela	_	_	_	_	_	_	_	_
-26	por	por	ADP	ADP	_	28	case	_	_
-27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
-28	freguesia	freguesia	NOUN	NOUN	_	25	nmod	_	_
-29	de	de	ADP	ADP	_	30	case	_	_
-30	Pombal	_	PROPN	PNOUN	_	28	nmod	_	_
-31	em	em	ADP	ADP	_	32	case	_	_
-32	direcção	direcção	NOUN	NOUN	_	25	nmod	_	_
-33	a	_	ADP	ADP	_	34	case	_	_
-34	Brunheda	_	PROPN	PNOUN	_	32	nmod	_	SpaceAfter=No
-35	,	,	PUNCT	.	_	36	punct	_	_
-36	ligando	ligar	VERB	VERB	_	4	acl	_	_
-37	os	o	DET	DET	_	38	det	_	_
-38	concelhos	concelho	NOUN	NOUN	_	36	obj	_	_
-39	de	de	ADP	ADP	_	40	case	_	_
-40	Murça	_	PROPN	PNOUN	_	38	nmod	_	_
-41	e	e	CCONJ	CONJ	_	43	cc	_	_
-42	de	de	ADP	ADP	_	43	case	_	_
-43	Mirandela	_	PROPN	PNOUN	_	40	conj	_	SpaceAfter=No
-44	,	,	PUNCT	.	_	45	punct	_	_
-45	respectivamente	respectivamente	ADV	ADV	_	36	advmod	_	SpaceAfter=No
-46	,	,	PUNCT	.	_	45	punct	_	_
-47-48	nos	_	_	_	_	_	_	_	_
-47	em	em	ADP	ADP	_	49	case	_	_
-48	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	49	det	_	_
-49	distritos	distrito	NOUN	NOUN	_	36	nmod	_	_
-50	de	de	ADP	ADP	_	51	case	_	_
-51	Vila	_	PROPN	PNOUN	_	49	nmod	_	_
-52	Real	_	PROPN	PNOUN	_	51	amod	_	_
-53	e	e	CCONJ	CONJ	_	54	cc	_	_
-54	Bragança	_	PROPN	PNOUN	_	51	conj	_	SpaceAfter=No
-55	,	,	PUNCT	.	_	57	punct	_	_
-56	após	_	ADP	ADP	_	57	mark	_	_
-57	atravessar	atravessar	VERB	VERB	_	36	advcl	_	_
-58	uma	um	DET	DET	_	59	det	_	_
-59	ponte	ponte	NOUN	NOUN	_	57	obj	_	_
-60	sobre	_	ADP	ADP	_	62	case	_	_
-61	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
-62	rio	rio	NOUN	NOUN	_	59	nmod	_	_
-63	Tua	_	PROPN	PNOUN	_	62	appos	_	_
-64-65	na	_	_	_	_	_	_	_	_
-64	em	em	ADP	ADP	_	66	case	_	_
-65	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	66	det	_	_
-66	margem	margem	NOUN	NOUN	_	57	nmod	_	_
-67	esquerda	esquerdo	ADJ	ADJ	_	66	amod	_	_
-68	deste	_	X	ADPPRON	_	66	det:poss	_	SpaceAfter=No
-69	.	.	PUNCT	.	_	4	punct	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	sede	sede	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	concelho	concelho	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	_
+14-15	numa	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	encosta	encosta	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+17-18	à	_	_	_	_	_	_	_	_
+17	a	a	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	direita	direita	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+20-21	da	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	estrada	estrada	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+23	nacional	nacional	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
+24	314-1	314-1	NUM	_	NumType=Card	22	nummod	_	_
+25	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	26	nsubj	_	_
+26	passa	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+27-28	pela	_	_	_	_	_	_	_	_
+27	por	por	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	freguesia	freguesia	NOUN	_	Gender=Fem|Number=Sing	26	obl	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	Pombal	Pombal	PROPN	_	Number=Sing	29	nmod	_	_
+32	em	em	ADP	_	_	33	case	_	_
+33	direcção	direcção	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
+34	a	a	ADP	_	_	35	case	_	_
+35	Brunheda	Brunheda	PROPN	_	Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	37	punct	_	_
+37	ligando	ligar	VERB	_	VerbForm=Ger	26	advcl	_	_
+38	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
+39	concelhos	concelho	NOUN	_	Gender=Masc|Number=Plur	37	obj	_	_
+40	de	de	ADP	_	_	41	case	_	_
+41	Murça	Murça	PROPN	_	Number=Sing	39	nmod	_	_
+42	e	e	CCONJ	_	_	44	cc	_	_
+43	de	de	ADP	_	_	44	case	_	_
+44	Mirandela	Mirandela	PROPN	_	Number=Sing	41	conj	_	SpaceAfter=No
+45	,	,	PUNCT	_	_	37	punct	_	_
+46	respectivamente	respectivamente	ADV	_	_	37	advmod	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	46	punct	_	_
+48-49	nos	_	_	_	_	_	_	_	_
+48	em	em	ADP	_	_	50	case	_	_
+49	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	50	det	_	_
+50	distritos	distrito	NOUN	_	Gender=Masc|Number=Plur	37	obl	_	_
+51	de	de	ADP	_	_	52	case	_	_
+52	Vila	Vila	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	50	nmod	_	_
+53	Real	Real	PROPN	_	Number=Sing	52	flat:name	_	_
+54	e	e	CCONJ	_	_	55	cc	_	_
+55	Bragança	Bragança	PROPN	_	Number=Sing	52	conj	_	SpaceAfter=No
+56	,	,	PUNCT	_	_	58	punct	_	_
+57	após	após	SCONJ	_	_	58	mark	_	_
+58	atravessar	atravessar	VERB	_	VerbForm=Inf	37	advcl	_	_
+59	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	60	det	_	_
+60	ponte	ponte	NOUN	_	Gender=Fem|Number=Sing	58	obj	_	_
+61	sobre	sobre	ADP	_	_	63	case	_	_
+62	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	63	det	_	_
+63	rio	rio	NOUN	_	Gender=Masc|Number=Sing	60	nmod	_	_
+64	Tua	Tua	PROPN	_	Gender=Masc|Number=Sing	63	appos	_	_
+65-66	na	_	_	_	_	_	_	_	_
+65	em	em	ADP	_	_	67	case	_	_
+66	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	67	det	_	_
+67	margem	margem	NOUN	_	Gender=Fem|Number=Sing	60	nmod	_	_
+68	esquerda	esquerdo	ADJ	_	Gender=Fem|Number=Sing	67	amod	_	_
+69-70	deste	_	_	_	_	_	_	_	SpaceAfter=No
+69	de	de	ADP	_	_	70	case	_	_
+70	este	este	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	67	nmod	_	_
+71	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # sent_id = train-s6565
 # text = A avaliação foi feita pelo coordenador do Grupo de Estudos do Setor Elétrico (Gesel) da Universidade Federal do Rio de Janeiro (UFRJ), Nivalde de Castro.

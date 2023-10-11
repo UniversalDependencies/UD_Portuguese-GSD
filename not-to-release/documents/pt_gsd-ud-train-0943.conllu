@@ -17,45 +17,49 @@
 14	Esporte	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = train-s9358
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Já o filho dele, o advogado Ralph Tórtima Sttetinger Filho, defensor de Ricardo Candia, fez perguntas sobre a forma de entrega do dinheiro e em quais momentos seu cliente estava presente.
-1	Já	já	ADV	ADV	_	18	advmod	_	_
-2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	filho	filho	NOUN	NOUN	_	18	nsubj	_	_
-4	dele	_	X	ADPPRON	_	3	det:poss	_	SpaceAfter=No
-5	,	,	PUNCT	.	_	7	punct	_	_
-6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	advogado	advogado	NOUN	NOUN	_	3	appos	_	_
-8	Ralph	_	PROPN	PNOUN	_	7	appos	_	_
-9	Tórtima	_	PROPN	PNOUN	_	8	flat	_	_
-10	Sttetinger	_	PROPN	PNOUN	_	8	flat	_	_
-11	Filho	_	PROPN	PNOUN	_	8	flat	_	SpaceAfter=No
-12	,	,	PUNCT	.	_	13	punct	_	_
-13	defensor	defensor	NOUN	NOUN	_	7	appos	_	_
-14	de	de	ADP	ADP	_	15	case	_	_
-15	Ricardo	_	PROPN	PNOUN	_	13	nmod	_	_
-16	Candia	_	PROPN	PNOUN	_	15	flat	_	SpaceAfter=No
-17	,	,	PUNCT	.	_	13	punct	_	_
-18	fez	fazer	VERB	VERB	_	0	root	_	_
-19	perguntas	pergunta	NOUN	NOUN	_	18	obj	_	_
-20	sobre	_	ADP	ADP	_	22	case	_	_
-21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	forma	forma	NOUN	NOUN	_	19	nmod	_	_
-23	de	de	ADP	ADP	_	24	case	_	_
-24	entrega	entrega	NOUN	NOUN	_	22	nmod	_	_
-25-26	do	_	_	_	_	_	_	_	_
-25	de	de	ADP	ADP	_	27	case	_	_
-26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	dinheiro	dinheiro	NOUN	NOUN	_	24	nmod	_	_
-28	e	e	CCONJ	CONJ	_	34	cc	_	_
-29	em	em	ADP	ADP	_	31	case	_	_
-30	quais	_	DET	DET	_	31	det	_	_
-31	momentos	momento	NOUN	NOUN	_	34	nmod	_	_
-32	seu	_	DET	DET	_	33	det:poss	_	_
-33	cliente	cliente	NOUN	NOUN	_	34	nsubj	_	_
-34	estava	estar	VERB	VERB	_	22	conj	_	_
-35	presente	presente	ADJ	ADJ	_	34	xcomp	_	SpaceAfter=No
-36	.	.	PUNCT	.	_	18	punct	_	_
+# sent_id = train-s9358
+1	Já	já	ADV	_	_	19	advmod	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	filho	filho	NOUN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
+4-5	dele	_	_	_	_	_	_	_	SpaceAfter=No
+4	de	de	ADP	_	_	5	case	_	_
+5	ele	ele	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nmod	_	_
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	advogado	advogado	NOUN	_	Gender=Masc|Number=Sing	3	appos	_	_
+9	Ralph	Ralph	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	8	appos	_	_
+10	Tórtima	Tórtima	PROPN	_	Number=Sing	9	flat:name	_	_
+11	Sttetinger	Sttetinger	PROPN	_	Number=Sing	9	flat:name	_	_
+12	Filho	Filho	PROPN	_	Number=Sing	9	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	defensor	defensor	NOUN	_	Gender=Masc|Number=Sing	8	appos	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	Ricardo	Ricardo	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	14	nmod	_	_
+17	Candia	Candia	PROPN	_	Number=Sing	16	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	14	punct	_	_
+19	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20	perguntas	pergunta	NOUN	_	Gender=Fem|Number=Plur	19	obj	_	_
+21	sobre	sobre	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	forma	forma	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	entrega	entrega	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
+26-27	do	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
+29	e	e	CCONJ	_	_	36	cc	_	_
+30	em	em	ADP	_	_	32	case	_	_
+31	quais	qual	DET	_	Gender=Masc|Number=Plur|PronType=Rel	32	det	_	_
+32	momentos	momento	NOUN	_	Gender=Masc|Number=Plur	36	obl	_	_
+33	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	34	det	_	_
+34	cliente	cliente	NOUN	_	Gender=Masc|Number=Sing	36	nsubj	_	_
+35	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	36	cop	_	_
+36	presente	presente	ADJ	_	Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
 
 # sent_id = train-s9359
 # text = Com uma atuação impecável, o paulista Miguel Pupo comandou as ações na abertura do US Open of Surfing, etapa Prime do circuito mundial que rola em Huntington Beach, Califórnia (EUA).
@@ -269,35 +273,37 @@
 29	Rural	_	PROPN	PNOUN	_	28	amod	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	19	punct	_	_
 
-# sent_id = train-s9364
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Como retorna à equipe depois de dois meses se recuperando duma cirurgia, o meia iniciará a partida no banco.
-1	Como	_	CCONJ	CONJ	_	2	mark	_	_
-2	retorna	retornar	VERB	VERB	_	18	advcl	_	_
+# sent_id = train-s9364
+1	Como	como	SCONJ	_	_	2	mark	_	_
+2	retorna	retornar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	_
 3-4	à	_	_	_	_	_	_	_	_
-3	a	a	ADP	ADP	_	5	case	_	_
-4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	equipe	equipe	NOUN	NOUN	_	2	nmod	_	_
-6	depois	depois	ADV	ADV	_	9	case	_	_
-7	de	_	ADP	ADP	_	6	fixed	_	_
-8	dois	_	NUM	NUM	NumType=Card	9	nummod	_	_
-9	meses	mês	NOUN	NOUN	_	11	mark	_	_
-10	se	_	PRON	PRON	_	11	obj	_	_
-11	recuperando	recuperar	VERB	VERB	_	2	advcl	_	_
+3	a	a	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	equipe	equipe	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+6	depois	depois	ADV	_	_	11	advmod	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	dois	dois	NUM	_	NumType=Card	9	nummod	_	_
+9	meses	mês	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
+10	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	expl	_	_
+11	recuperando	recuperar	VERB	_	VerbForm=Ger	2	advcl	_	_
 12-13	duma	_	_	_	_	_	_	_	_
-12	de	de	ADP	ADP	_	14	case	_	_
-13	uma	um	DET	DET	_	14	det	_	_
-14	cirurgia	cirurgia	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
-15	,	,	PUNCT	.	_	2	punct	_	_
-16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	meia	_	NOUN	NOUN	_	18	nsubj	_	_
-18	iniciará	iniciar	VERB	VERB	_	0	root	_	_
-19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	partida	partida	NOUN	NOUN	_	18	obj	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	cirurgia	cirurgia	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	11	punct	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	meia	meia	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
+18	iniciará	iniciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	partida	partida	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	_
 21-22	no	_	_	_	_	_	_	_	_
-21	em	em	ADP	ADP	_	23	case	_	_
-22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	banco	banco	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
-24	.	.	PUNCT	.	_	18	punct	_	_
+21	em	em	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	banco	banco	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
 
 # sent_id = train-s9365
 # text = Compras de fim de ano -- Segundo a pesquisa, 78 % dos entrevistados vão comprar até 3 presentes para famílias e amigos, sendo que o valor médio, por presente, é de R $ 190,00, valores acima do registrado o ano passado quando 77 % dos consumidores afirmaram que iriam comprar presentes de até R $ 125,00, injetando, na época, mais de R $ 460 mi no comércio varejista.

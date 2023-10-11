@@ -201,41 +201,43 @@
 44	espécies	espécie	NOUN	NOUN	_	41	nmod	_	SpaceAfter=No
 45	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s9105
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Já David Moura ganhou 60 pontos no ranking mundial em razão do seu desempenho na etapa de Roma da Copa do Mundo.
-1	Já	já	ADV	ADV	_	4	advmod	_	_
-2	David	_	PROPN	PNOUN	_	4	nsubj	_	_
-3	Moura	_	PROPN	PNOUN	_	2	flat	_	_
-4	ganhou	ganhar	VERB	VERB	_	0	root	_	_
-5	60	60	NUM	NUM	NumType=Card	6	nummod	_	_
-6	pontos	ponto	NOUN	NOUN	_	4	obj	_	_
+# sent_id = train-s9105
+1	Já	já	ADV	_	_	4	advmod	_	_
+2	David	David	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	Moura	Moura	PROPN	_	Number=Sing	2	flat:name	_	_
+4	ganhou	ganhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	60	60	NUM	_	NumType=Card	6	nummod	_	_
+6	pontos	ponto	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
 7-8	no	_	_	_	_	_	_	_	_
-7	em	em	ADP	ADP	_	9	case	_	_
-8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	ranking	ranking	NOUN	NOUN	_	4	nmod	_	_
-10	mundial	mundial	ADJ	ADJ	_	9	amod	_	_
-11	em	em	ADP	ADP	_	16	case	_	_
-12	razão	razão	NOUN	NOUN	_	11	fixed	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	ranking	ranking	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+10	mundial	mundial	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
+11	em	em	ADP	_	_	12	case	_	_
+12	razão	razão	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
 13-14	do	_	_	_	_	_	_	_	_
-13	de	de	ADP	ADP	_	11	case	_	_
-14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-15	seu	_	DET	DET	_	16	det:poss	_	_
-16	desempenho	desempenho	NOUN	NOUN	_	4	nmod	_	_
+13	de	de	ADP	_	_	16	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	16	det	_	_
+16	desempenho	desempenho	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
 17-18	na	_	_	_	_	_	_	_	_
-17	em	em	ADP	ADP	_	19	case	_	_
-18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	etapa	etapa	NOUN	NOUN	_	16	nmod	_	_
-20	de	de	ADP	ADP	_	21	case	_	_
-21	Roma	_	PROPN	PNOUN	_	19	nmod	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	etapa	etapa	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	Roma	Roma	PROPN	_	Gender=Fem|Number=Sing	19	nmod	_	_
 22-23	da	_	_	_	_	_	_	_	_
-22	de	de	ADP	ADP	_	24	case	_	_
-23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-24	Copa	_	PROPN	PNOUN	_	19	nmod	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Copa	Copa	PROPN	_	Gender=Fem|Number=Sing	19	nmod	_	_
 25-26	do	_	_	_	_	_	_	_	_
-25	de	de	ADP	ADP	_	27	case	_	_
-26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	Mundo	_	PROPN	PNOUN	_	24	nmod	_	SpaceAfter=No
-28	.	.	PUNCT	.	_	4	punct	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Mundo	Mundo	PROPN	_	Number=Sing	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # sent_id = train-s9106
 # text = Como nas presidenciais de outubro, nas quais Chávez foi reeleito com 55 % dos votos para o terceiro mandato de seis anos, o PSUV adotou a estratégia de 'um por dez', para que cada simpatizante chavista consiga dez votos.

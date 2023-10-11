@@ -161,52 +161,54 @@
 24	driblar	driblar	VERB	VERB	_	22	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s2130
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Estão convocados para esse dia o ex - diretor - geral do Departamento Nacional de Infraestrutura de Transporte (Dnit), Luiz Antônio Pagot, e o empresário Adir Assad, que devem falar a partir das 10h15.
-1	Estão	_	ADV	ADV	_	0	root	_	_
-2	convocados	convocado	ADJ	ADJ	_	1	xcomp	_	_
-3	para	para	ADP	ADP	_	5	case	_	_
-4	esse	_	DET	DET	_	5	det	_	_
-5	dia	dia	NOUN	NOUN	_	1	nmod	_	_
-6	o	o	DET	DET	_	7	det	_	_
-7	ex	_	PART	PRT	_	1	nsubj	_	_
-8	-	-	PUNCT	.	_	30	punct	_	_
-9	diretor	diretor	NOUN	NOUN	_	7	flat	_	_
-10	-	-	PUNCT	.	_	30	punct	_	_
-11	geral	geral	ADJ	ADJ	_	7	amod	_	_
+# sent_id = train-s2130
+1	Estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	convocados	convocar,convocado	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
+3	para	para	ADP	_	_	5	case	_	_
+4	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	dia	dia	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+7	ex	ex	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
+8	-	-	PUNCT	_	_	9	punct	_	_
+9	diretor	diretor	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
+10	-	-	PUNCT	_	_	11	punct	_	_
+11	geral	geral	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
 12-13	do	_	_	_	_	_	_	_	_
-12	de	de	ADP	ADP	_	14	case	_	_
-13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	Departamento	_	PROPN	PNOUN	_	7	nmod	_	_
-15	Nacional	_	PROPN	PNOUN	_	14	amod	_	_
-16	de	de	ADP	ADP	_	17	case	_	_
-17	Infraestrutura	_	PROPN	PNOUN	_	14	nmod	_	_
-18	de	de	ADP	ADP	_	19	case	_	_
-19	Transporte	_	PROPN	PNOUN	_	17	nmod	_	_
-20	(	(	PUNCT	.	_	21	punct	_	SpaceAfter=No
-21	Dnit	_	PROPN	PNOUN	_	14	appos	_	SpaceAfter=No
-22	)	)	PUNCT	.	_	21	punct	_	SpaceAfter=No
-23	,	,	PUNCT	.	_	24	punct	_	_
-24	Luiz	_	PROPN	PNOUN	_	7	appos	_	_
-25	Antônio	_	PROPN	PNOUN	_	24	flat	_	_
-26	Pagot	_	PROPN	PNOUN	_	24	flat	_	SpaceAfter=No
-27	,	,	PUNCT	.	_	30	punct	_	_
-28	e	e	CCONJ	CONJ	_	30	cc	_	_
-29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
-30	empresário	empresário	NOUN	NOUN	_	7	conj	_	_
-31	Adir	_	PROPN	PNOUN	_	30	appos	_	_
-32	Assad	_	PROPN	PNOUN	_	31	flat	_	SpaceAfter=No
-33	,	,	PUNCT	.	_	36	punct	_	_
-34	que	_	PRON	PRON	_	36	nsubj	_	_
-35	devem	_	AUX	AUX	_	36	aux	_	_
-36	falar	falar	VERB	VERB	_	7	acl:relcl	_	_
-37	a	_	ADP	ADP	_	38	mark	_	_
-38	partir	partir	VERB	VERB	_	36	nmod	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Departamento	departamento	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+15	Nacional	nacional	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	Infraestrutura	infraestrutura	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	Transporte	transporte	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	Dnit	Dnit	PROPN	_	Gender=Masc|Number=Sing	14	appos	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	Luiz	Luiz	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	9	appos	_	_
+25	Antônio	Antônio	PROPN	_	Number=Sing	24	flat:name	_	_
+26	Pagot	Pagot	PROPN	_	Number=Sing	24	flat:name	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	24	punct	_	_
+28	e	e	CCONJ	_	_	30	cc	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	empresário	empresário	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
+31	Adir	Adir	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	30	appos	_	_
+32	Assad	Assad	PROPN	_	Number=Sing	31	flat:name	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	35	punct	_	_
+34	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	35	nsubj	_	_
+35	devem	dever	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	_
+36	falar	falar	VERB	_	VerbForm=Inf	35	xcomp	_	_
+37	a	a	ADP	_	_	38	case	_	_
+38	partir	partir	VERB	_	VerbForm=Inf	36	obl	_	_
 39-40	das	_	_	_	_	_	_	_	_
-39	de	de	ADP	ADP	_	41	case	_	_
-40	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
-41	10h15	_	NUM	NUM	NumType=Card	38	nmod	_	SpaceAfter=No
-42	.	.	PUNCT	.	_	1	punct	_	_
+39	de	de	ADP	_	_	41	case	_	_
+40	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
+41	10h15	10h15	NOUN	_	Gender=Fem|Number=Plur	38	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = train-s2131
 # text = A taxa de inscrição é R $ 150,00.
@@ -220,54 +222,56 @@
 8	150,00	150,00	NUM	NUM	NumType=Card	6	nummod	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = train-s2132
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = No início dos anos 1990s, as companhias farmacêuticas iniciaram a produzir produtos com o fator sintético recombinante, o que atualmente previne praticamente quase todas as formas de transmissão de doença durante o tratamento de reposição do fator.
+# sent_id = train-s2132
 1-2	No	_	_	_	_	_	_	_	_
-1	Em	em	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	início	início	NOUN	NOUN	_	14	nmod	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	início	início	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
 4-5	dos	_	_	_	_	_	_	_	_
-4	de	de	ADP	ADP	_	6	case	_	_
-5	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
-6	anos	ano	NOUN	NOUN	_	3	nmod	_	_
-7	1990s	_	NUM	NUM	NumType=Card	6	nmod	_	SpaceAfter=No
-8	,	,	PUNCT	.	_	3	punct	_	_
-9	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
-10	companhias	companhia	NOUN	NOUN	_	14	nsubj	_	_
-11	farmacêuticas	farmacêutico	ADJ	ADJ	_	10	amod	_	_
-12	iniciaram	iniciar	AUX	AUX	_	14	aux	_	_
-13	a	_	ADP	ADP	_	14	mark	_	_
-14	produzir	produzir	VERB	VERB	_	0	root	_	_
-15	produtos	produto	NOUN	NOUN	_	14	obj	_	_
-16	com	com	ADP	ADP	_	18	case	_	_
-17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	fator	fator	NOUN	NOUN	_	15	nmod	_	_
-19	sintético	sintético	ADJ	ADJ	_	18	amod	_	_
-20	recombinante	recombinante	ADJ	ADJ	_	18	amod	_	SpaceAfter=No
-21	,	,	PUNCT	.	_	25	punct	_	_
-22	o	o	DET	DET	_	23	det	_	_
-23	que	_	PRON	PRON	_	25	nsubj	_	_
-24	atualmente	atualmente	ADV	ADV	_	25	advmod	_	_
-25	previne	prevenir	VERB	VERB	_	14	parataxis	_	_
-26	praticamente	praticamente	ADV	ADV	_	27	advmod	_	_
-27	quase	quase	ADV	ADV	_	30	advmod	_	_
-28	todas	_	DET	DET	_	30	det	_	_
-29	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
-30	formas	forma	NOUN	NOUN	_	25	obj	_	_
-31	de	de	ADP	ADP	_	32	case	_	_
-32	transmissão	transmissão	NOUN	NOUN	_	30	nmod	_	_
-33	de	de	ADP	ADP	_	34	case	_	_
-34	doença	doença	NOUN	NOUN	_	32	nmod	_	_
-35	durante	_	ADP	ADP	_	37	case	_	_
-36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
-37	tratamento	tratamento	NOUN	NOUN	_	25	nmod	_	_
-38	de	de	ADP	ADP	_	39	case	_	_
-39	reposição	reposição	NOUN	NOUN	_	37	nmod	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	anos	ano	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
+7	1990s	1990s	NUM	_	NumType=Card	6	nummod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	3	punct	_	_
+9	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	companhias	companhia	NOUN	_	Gender=Fem|Number=Plur	12	nsubj	_	_
+11	farmacêuticas	farmacêutico	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
+12	iniciaram	iniciar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	a	a	SCONJ	_	_	14	mark	_	_
+14	produzir	produzir	VERB	_	VerbForm=Inf	12	xcomp	_	_
+15	produtos	produto	NOUN	_	Gender=Masc|Number=Plur	14	obj	_	_
+16	com	com	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	fator	fator	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+19	sintético	sintético	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
+20	recombinante	recombinante	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	14	punct	_	_
+22	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	14	appos	_	_
+23	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	25	nsubj	_	_
+24	atualmente	atualmente	ADV	_	_	25	advmod	_	_
+25	previne	previner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+26	praticamente	praticamente	ADV	_	_	25	advmod	_	_
+27	quase	quase	ADV	_	_	30	advmod	_	_
+28	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Tot	30	det	_	_
+29	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	formas	forma	NOUN	_	Gender=Fem|Number=Plur	25	obj	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	transmissão	transmissão	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	doença	doença	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	_
+35	durante	durante	ADP	_	_	37	case	_	_
+36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	tratamento	tratamento	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	_
+38	de	de	ADP	_	_	39	case	_	_
+39	reposição	reposição	NOUN	_	Gender=Fem|Number=Sing	37	nmod	_	_
 40-41	do	_	_	_	_	_	_	_	_
-40	de	de	ADP	ADP	_	42	case	_	_
-41	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
-42	fator	fator	NOUN	NOUN	_	39	nmod	_	SpaceAfter=No
-43	.	.	PUNCT	.	_	14	punct	_	_
+40	de	de	ADP	_	_	42	case	_	_
+41	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	fator	fator	NOUN	_	Gender=Masc|Number=Sing	39	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
 
 # sent_id = train-s2133
 # text = Segundo um dos artistas do projeto, Leandro Shesko, o tema do painel seguirá a ideia que o grupo tem do ambiente, com temas relacionados ao mar, natureza, arte e o esporte.

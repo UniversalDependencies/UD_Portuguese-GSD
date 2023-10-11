@@ -39,35 +39,37 @@
 24	evolução	evolução	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s5890
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Como nos principais shoppings da cidade, os lojistas de rua também se preparam para o movimento crescente que a data propõe.
-1	Como	_	ADP	ADP	_	16	nmod	_	_
+# sent_id = train-s5890
+1	Como	como	ADP	_	_	5	case	_	_
 2-3	nos	_	_	_	_	_	_	_	_
-2	em	em	ADP	ADP	_	5	case	_	_
-3	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
-4	principais	principal	ADJ	ADJ	_	5	amod	_	_
-5	shoppings	shopping	NOUN	NOUN	_	1	nmod	_	_
+2	em	em	ADP	_	_	5	case	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	principais	principal	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	_
+5	shoppings	shoppings	NOUN	_	Gender=Masc|Number=Plur	16	obl	_	_
 6-7	da	_	_	_	_	_	_	_	_
-6	de	de	ADP	ADP	_	8	case	_	_
-7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	cidade	cidade	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	1	punct	_	_
-10	os	o	DET	DET	_	11	det	_	_
-11	lojistas	lojista	NOUN	NOUN	_	16	nsubj	_	_
-12	de	de	ADP	ADP	_	13	case	_	_
-13	rua	rua	NOUN	NOUN	_	11	nmod	_	_
-14	também	também	ADV	ADV	_	16	advmod	_	_
-15	se	_	PRON	PRON	_	16	obj	_	_
-16	preparam	preparar	VERB	VERB	_	0	root	_	_
-17	para	para	ADP	ADP	_	19	case	_	_
-18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	movimento	movimento	NOUN	NOUN	_	16	nmod	_	_
-20	crescente	crescente	ADJ	ADJ	_	19	amod	_	_
-21	que	_	PRON	PRON	_	24	nsubj	_	_
-22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-23	data	data	NOUN	NOUN	_	24	nsubj	_	_
-24	propõe	propor	VERB	VERB	_	19	acl:relcl	_	SpaceAfter=No
-25	.	.	PUNCT	.	_	16	punct	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	cidade	cidade	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	5	punct	_	_
+10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	lojistas	lojista	NOUN	_	Gender=Masc|Number=Plur	16	nsubj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	rua	rua	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+14	também	também	ADV	_	_	16	advmod	_	_
+15	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	expl	_	_
+16	preparam	preparar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	para	para	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	movimento	movimento	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
+20	crescente	crescente	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
+21	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	24	obj	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	data	data	NOUN	_	Gender=Fem|Number=Sing	24	nsubj	_	_
+24	propõe	propor	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
 
 # sent_id = train-s5891
 # text = Inspirados numa gestão inovadora, o Sindicato das Empresas de Asseio e Conservação do Distrito Federal (Seac / DF) e o Sindicato das Empresas de Segurança Privada do Distrito Federal (Sindesp / DF) apoiam o 4 ° Infra Brasília, iniciativa da Revista Infra, um dos principais eventos do setor na capital federal, reunindo gestores e prestadores de serviços.
@@ -156,70 +158,72 @@
 74	serviços	serviço	NOUN	NOUN	_	72	nmod	_	SpaceAfter=No
 75	.	.	PUNCT	.	_	43	punct	_	_
 
-# sent_id = train-s5892
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Aos 36 minutos, Warley que já tinha desperdiçado um gol após perder uma penalidade chutando a bola no travessão do Naça, tentou mais uma vez marcar o seu segundo gol na competição e voltou a desperdiçar mais uma oportunidade, chutando a bola longe da trave defendida por Cesar.
+# sent_id = train-s5892
 1-2	Aos	_	_	_	_	_	_	_	_
-1	A	a	ADP	ADP	_	4	case	_	_
-2	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
-3	36	36	NUM	NUM	NumType=Card	4	nummod	_	_
-4	minutos	minuto	NOUN	NOUN	_	27	nmod	_	SpaceAfter=No
-5	,	,	PUNCT	.	_	4	punct	_	_
-6	Warley	_	PROPN	PNOUN	_	27	nsubj	_	_
-7	que	_	PRON	PRON	_	10	nsubj	_	_
-8	já	já	ADV	ADV	_	10	advmod	_	_
-9	tinha	ter	AUX	AUX	_	10	aux	_	_
-10	desperdiçado	desperdiçar	VERB	VERB	_	6	acl:relcl	_	_
-11	um	um	DET	DET	_	12	det	_	_
-12	gol	gol	NOUN	NOUN	_	10	obj	_	_
-13	após	_	ADP	ADP	_	14	mark	_	_
-14	perder	perder	VERB	VERB	_	10	advcl	_	_
-15	uma	um	DET	DET	_	16	det	_	_
-16	penalidade	penalidade	NOUN	NOUN	_	14	obj	_	_
-17	chutando	chutar	VERB	VERB	_	14	acl	_	_
-18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	bola	bola	NOUN	NOUN	_	17	obj	_	_
+1	A	a	ADP	_	_	4	case	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	36	36	NUM	_	NumType=Card	4	nummod	_	_
+4	minutos	minuto	NOUN	_	Gender=Masc|Number=Plur	27	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	Warley	Warley	PROPN	_	Gender=Masc|Number=Sing	27	nsubj	_	_
+7	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	10	nsubj	_	_
+8	já	já	ADV	_	_	10	advmod	_	_
+9	tinha	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	desperdiçado	desperdiçar	VERB	_	VerbForm=Part	6	acl:relcl	_	_
+11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	gol	gol	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+13	após	após	SCONJ	_	_	14	mark	_	_
+14	perder	perder	VERB	_	VerbForm=Inf	10	advcl	_	_
+15	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	penalidade	penalidade	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+17	chutando	chutar	VERB	_	VerbForm=Ger	14	advcl	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	bola	bola	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
 20-21	no	_	_	_	_	_	_	_	_
-20	em	em	ADP	ADP	_	22	case	_	_
-21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-22	travessão	travessão	NOUN	NOUN	_	17	nmod	_	_
+20	em	em	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	travessão	travessão	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
 23-24	do	_	_	_	_	_	_	_	_
-23	de	de	ADP	ADP	_	25	case	_	_
-24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	Naça	_	PROPN	PNOUN	_	22	nmod	_	SpaceAfter=No
-26	,	,	PUNCT	.	_	10	punct	_	_
-27	tentou	tentar	VERB	VERB	_	0	root	_	_
-28	mais	mais	ADV	ADV	_	29	advmod	_	_
-29	uma	_	NUM	NUM	NumType=Card	30	nummod	_	_
-30	vez	vez	NOUN	NOUN	_	27	nmod	_	_
-31	marcar	marcar	VERB	VERB	_	27	xcomp	_	_
-32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
-33	seu	_	DET	DET	_	35	det:poss	_	_
-34	segundo	segundo	ADJ	ADJ	_	35	amod	_	_
-35	gol	gol	NOUN	NOUN	_	31	obj	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Naça	Naça	PROPN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	17	punct	_	_
+27	tentou	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+28	mais	mais	NOUN	_	Gender=Masc|Number=Sing	27	obl	_	_
+29	uma	uma	ADP	_	_	30	case	_	_
+30	vez	vez	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
+31	marcar	marcar	VERB	_	VerbForm=Inf	27	xcomp	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+33	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	35	det	_	_
+34	segundo	segundo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	35	amod	_	_
+35	gol	gol	NOUN	_	Gender=Masc|Number=Sing	31	obj	_	_
 36-37	na	_	_	_	_	_	_	_	_
-36	em	em	ADP	ADP	_	38	case	_	_
-37	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
-38	competição	competição	NOUN	NOUN	_	31	nmod	_	_
-39	e	e	CCONJ	CONJ	_	42	cc	_	_
-40	voltou	voltar	AUX	AUX	_	42	aux	_	_
-41	a	_	ADP	ADP	_	42	mark	_	_
-42	desperdiçar	desperdiçar	VERB	VERB	_	27	conj	_	_
-43	mais	mais	ADV	ADV	_	44	advmod	_	_
-44	uma	_	NUM	NUM	NumType=Card	45	nummod	_	_
-45	oportunidade	oportunidade	NOUN	NOUN	_	42	obj	_	SpaceAfter=No
-46	,	,	PUNCT	.	_	47	punct	_	_
-47	chutando	chutar	VERB	VERB	_	42	acl	_	_
-48	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
-49	bola	bola	NOUN	NOUN	_	47	obj	_	_
-50	longe	longe	ADV	ADV	_	47	advmod	_	_
+36	em	em	ADP	_	_	38	case	_	_
+37	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	competição	competição	NOUN	_	Gender=Fem|Number=Sing	31	obl	_	_
+39	e	e	CCONJ	_	_	42	cc	_	_
+40	voltou	voltar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	conj	_	_
+41	a	a	SCONJ	_	_	42	mark	_	_
+42	desperdiçar	desperdiçar	VERB	_	VerbForm=Inf	40	xcomp	_	_
+43	mais	mais	ADV	_	_	44	advmod	_	_
+44	uma	um	NUM	_	NumType=Card	45	nummod	_	_
+45	oportunidade	oportunidade	NOUN	_	Gender=Fem|Number=Sing	42	obj	_	SpaceAfter=No
+46	,	,	PUNCT	_	_	47	punct	_	_
+47	chutando	chutar	VERB	_	VerbForm=Ger	42	advcl	_	_
+48	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+49	bola	bola	NOUN	_	Gender=Fem|Number=Sing	47	obj	_	_
+50	longe	longe	ADV	_	_	47	advmod	_	_
 51-52	da	_	_	_	_	_	_	_	_
-51	de	de	ADP	ADP	_	53	case	_	_
-52	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
-53	trave	trave	NOUN	NOUN	_	50	nmod	_	_
-54	defendida	defender	VERB	VERB	_	53	acl	_	_
-55	por	por	ADP	ADP	_	56	case	_	_
-56	Cesar	_	PROPN	PNOUN	_	54	nmod	_	SpaceAfter=No
-57	.	.	PUNCT	.	_	27	punct	_	_
+51	de	de	ADP	_	_	53	case	_	_
+52	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
+53	trave	trave	NOUN	_	Gender=Fem|Number=Sing	50	obl	_	_
+54	defendida	defender	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	53	acl	_	_
+55	por	por	ADP	_	_	56	case	_	_
+56	Cesar	Cesar	PROPN	_	Gender=Masc|Number=Sing	54	obl:agent	_	SpaceAfter=No
+57	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
 
 # sent_id = train-s5893
 # text = Agora, as mudanças ocorreram em dez Estados: São Paulo, Rio de Janeiro, Minas Gerais, Distrito Federal, Mato Grosso, Rio Grande do Sul, Bahia, Alagoas, Pernambuco e Amazonas.

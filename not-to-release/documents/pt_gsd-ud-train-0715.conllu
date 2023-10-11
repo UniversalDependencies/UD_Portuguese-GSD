@@ -84,61 +84,67 @@
 35	Secin	_	PROPN	PNOUN	_	34	flat	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = train-s7098
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Que segredo tão cabeludo será esse que ronda o passado deles?
-1	Que	_	DET	DET	_	2	det	_	_
-2	segredo	segredo	NOUN	NOUN	_	6	nsubj	_	_
-3	tão	tão	ADV	ADV	_	4	advmod	_	_
-4	cabeludo	cabeludo	ADJ	ADJ	_	2	amod	_	_
-5	será	ser	AUX	AUX	_	6	cop	_	_
-6	esse	_	PRON	PRON	_	0	root	_	_
-7	que	_	PRON	PRON	_	8	nsubj	_	_
-8	ronda	rondar	VERB	VERB	_	6	acl:relcl	_	_
-9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	passado	passado	NOUN	NOUN	_	8	obj	_	_
-11	deles	_	X	ADPPRON	_	10	det:poss	_	SpaceAfter=No
-12	?	?	PUNCT	.	_	6	punct	_	_
+# sent_id = train-s7098
+1	Que	que	DET	_	Gender=Masc|Number=Sing|PronType=Int	2	det	_	_
+2	segredo	segredo	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	tão	tão	ADV	_	_	4	advmod	_	_
+4	cabeludo	cabeludo	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+5	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	cop	_	_
+6	esse	esse	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+7	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	8	nsubj	_	_
+8	ronda	rondar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	passado	passado	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11-12	deles	_	_	_	_	_	_	_	SpaceAfter=No
+11	de	de	ADP	_	_	12	case	_	_
+12	eles	eles	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	nmod	_	_
+13	?	?	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
-# sent_id = train-s7099
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = A vitória afasta qualquer dúvida sobre seu domínio nos 100 metros, ameaçado por Blake com o título no Mundial de Daegu - 2011, quando Bolt foi eliminado por queimar a largada.
-1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	vitória	vitória	NOUN	NOUN	_	3	nsubj	_	_
-3	afasta	afastar	VERB	VERB	_	0	root	_	_
-4	qualquer	_	DET	DET	_	5	det	_	_
-5	dúvida	dúvida	NOUN	NOUN	_	3	obj	_	_
-6	sobre	_	ADP	ADP	_	8	case	_	_
-7	seu	_	DET	DET	_	8	det:poss	_	_
-8	domínio	domínio	NOUN	NOUN	_	5	nmod	_	_
+# sent_id = train-s7099
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	vitória	vitória	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	afasta	afastar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	qualquer	qualquer	DET	_	Gender=Fem|Number=Sing|PronType=Ind	5	det	_	_
+5	dúvida	dúvida	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	sobre	sobre	ADP	_	_	8	case	_	_
+7	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	8	det	_	_
+8	domínio	domínio	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 9-10	nos	_	_	_	_	_	_	_	_
-9	em	em	ADP	ADP	_	12	case	_	_
-10	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
-11	100	100	NUM	NUM	NumType=Card	12	nummod	_	_
-12	metros	metro	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-13	,	,	PUNCT	.	_	14	punct	_	_
-14	ameaçado	ameaçar	VERB	VERB	_	8	acl	_	_
-15	por	por	ADP	ADP	_	16	case	_	_
-16	Blake	_	PROPN	PNOUN	_	14	nmod	_	_
-17	com	com	ADP	ADP	_	19	case	_	_
-18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	título	título	NOUN	NOUN	_	14	nmod	_	_
+9	em	em	ADP	_	_	12	case	_	_
+10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	100	100	NUM	_	NumType=Card	12	nummod	_	_
+12	metros	metro	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	ameaçado	ameaçar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	8	acl	_	_
+15	por	por	ADP	_	_	16	case	_	_
+16	Blake	Blake	PROPN	_	Gender=Masc|Number=Sing	14	obl:agent	_	_
+17	com	com	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	título	título	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
 20-21	no	_	_	_	_	_	_	_	_
-20	em	em	ADP	ADP	_	22	case	_	_
-21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-22	Mundial	_	PROPN	PNOUN	_	19	nmod	_	_
-23	de	de	ADP	ADP	_	24	case	_	_
-24	Daegu	_	PROPN	PNOUN	_	22	nmod	_	_
-25	-	-	PUNCT	.	_	31	punct	_	_
-26	2011	2011	NUM	NUM	NumType=Card	22	nmod	_	SpaceAfter=No
-27	,	,	PUNCT	.	_	31	punct	_	_
-28	quando	quando	ADV	ADV	_	31	advmod	_	_
-29	Bolt	_	PROPN	PNOUN	_	31	nsubj:pass	_	_
-30	foi	_	AUX	AUX	_	31	aux:pass	_	_
-31	eliminado	eliminar	VERB	VERB	_	22	acl:relcl	_	_
-32	por	_	ADP	ADP	_	33	mark	_	_
-33	queimar	queimar	VERB	VERB	_	31	advcl	_	_
-34	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
-35	largada	largada	NOUN	NOUN	_	33	obj	_	SpaceAfter=No
-36	.	.	PUNCT	.	_	3	punct	_	_
+20	em	em	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Mundial	Mundial	PROPN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	Daegu	Daegu	PROPN	_	Number=Sing	22	nmod	_	_
+25	-	-	PUNCT	_	_	26	punct	_	_
+26	2011	2011	NUM	_	NumType=Card	22	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	quando	quando	ADV	_	_	31	advmod	_	_
+29	Bolt	Bolt	PROPN	_	Gender=Masc|Number=Sing	31	nsubj:pass	_	_
+30	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	aux:pass	_	_
+31	eliminado	eliminar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	22	acl:relcl	_	_
+32	por	por	SCONJ	_	_	33	mark	_	_
+33	queimar	queimar	VERB	_	VerbForm=Inf	31	advcl	_	_
+34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	largada	largada	NOUN	_	Gender=Fem|Number=Sing	33	obj	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = train-s7100
 # text = Em nota oficial, Aldo lamentou bastante a lesão e pediu desculpas aos fãs por não poder lutar no Rio.
@@ -311,47 +317,49 @@
 29	meses	mês	NOUN	NOUN	_	27	nmod	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = train-s7105
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Em agosto de 2004, Lee anunciou o lançamento da "Stan Lee 's Sunday Comics", para serem hospedadas pelo Komicwerks.com, onde assinantes mensais poderão ler uma nova e atualizada história todo domingo.
-1	Em	em	ADP	ADP	_	2	case	_	_
-2	agosto	_	PROPN	PNOUN	_	7	nmod	_	_
-3	de	de	ADP	ADP	_	4	case	_	_
-4	2004	2004	NUM	NUM	NumType=Card	2	nmod	_	SpaceAfter=No
-5	,	,	PUNCT	.	_	2	punct	_	_
-6	Lee	_	PROPN	PNOUN	_	7	nsubj	_	_
-7	anunciou	anunciar	VERB	VERB	_	0	root	_	_
-8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	lançamento	lançamento	NOUN	NOUN	_	7	obj	_	_
+# sent_id = train-s7105
+1	Em	em	ADP	_	_	2	case	_	_
+2	agosto	agosto	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	2004	2004	NUM	_	NumType=Card	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	Lee	Lee	PROPN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	anunciou	anunciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	lançamento	lançamento	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
 10-11	da	_	_	_	_	_	_	_	_
-10	de	de	ADP	ADP	_	13	case	_	_
-11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-12	"	"	PUNCT	.	_	13	punct	_	SpaceAfter=No
-13	Stan	_	PROPN	PNOUN	_	9	nmod	_	_
-14	Lee	_	PROPN	PNOUN	_	13	flat	_	_
-15	's	_	PROPN	PNOUN	_	14	det:poss	_	_
-16	Sunday	_	PROPN	PNOUN	_	13	flat	_	_
-17	Comics	_	PROPN	PNOUN	_	13	flat	_	SpaceAfter=No
-18	"	"	PUNCT	.	_	13	punct	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	22	punct	_	_
-20	para	_	ADP	ADP	_	22	mark	_	_
-21	serem	ser	AUX	AUX	_	22	aux:pass	_	_
-22	hospedadas	hospedar	VERB	VERB	_	9	nmod	_	_
+10	de	de	ADP	_	_	13	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	Stan	Stan	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	9	nmod	_	_
+14	Lee	Lee	PROPN	_	Number=Sing	13	flat:name	_	_
+15	's	's	PUNCT	_	_	13	punct	_	_
+16	Sunday	Sunday	PROPN	_	ExtPos=PROPN|Number=Sing	13	appos	_	_
+17	Comics	Comics	PROPN	_	Number=Sing	13	flat:name	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	22	punct	_	_
+20	para	para	SCONJ	_	_	22	mark	_	_
+21	serem	ser	AUX	_	Number=Plur|Person=3|VerbForm=Inf	22	aux:pass	_	_
+22	hospedadas	hospedar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	7	advcl	_	_
 23-24	pelo	_	_	_	_	_	_	_	_
-23	por	por	ADP	ADP	_	25	case	_	_
-24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	Komicwerks.com	_	PROPN	PNOUN	_	22	nmod	_	SpaceAfter=No
-26	,	,	PUNCT	.	_	31	punct	_	_
-27	onde	onde	ADV	ADV	_	31	advmod	_	_
-28	assinantes	assinante	NOUN	NOUN	_	31	nsubj	_	_
-29	mensais	mensal	ADJ	ADJ	_	28	amod	_	_
-30	poderão	poder	AUX	AUX	_	31	aux	_	_
-31	ler	ler	VERB	VERB	_	25	acl:relcl	_	_
-32	uma	um	DET	DET	_	36	det	_	_
-33	nova	novo	ADJ	ADJ	_	36	amod	_	_
-34	e	e	CCONJ	CONJ	_	35	cc	_	_
-35	atualizada	atualizado	ADJ	ADJ	_	33	conj	_	_
-36	história	história	NOUN	NOUN	_	31	obj	_	_
-37	todo	_	DET	DET	_	38	det	_	_
-38	domingo	_	PROPN	PNOUN	_	31	nmod	_	SpaceAfter=No
-39	.	.	PUNCT	.	_	7	punct	_	_
+23	por	por	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Komicwerks.com	Komicwerks.com	PROPN	_	Gender=Masc|Number=Sing	22	obl:agent	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	30	punct	_	_
+27	onde	onde	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	30	obl	_	_
+28	assinantes	assinante	NOUN	_	Gender=Masc|Number=Plur	30	nsubj	_	_
+29	mensais	mensal	ADJ	_	Gender=Masc|Number=Plur	28	amod	_	_
+30	poderão	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	25	acl:relcl	_	_
+31	ler	ler	VERB	_	VerbForm=Inf	30	xcomp	_	_
+32	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+33	nova	novo	ADJ	_	Gender=Fem|Number=Sing	36	amod	_	_
+34	e	e	CCONJ	_	_	35	cc	_	_
+35	atualizada	atualizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	33	conj	_	_
+36	história	história	NOUN	_	Gender=Fem|Number=Sing	31	obj	_	_
+37	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Tot	38	det	_	_
+38	domingo	domingo	NOUN	_	Gender=Masc|Number=Sing	31	obl	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 

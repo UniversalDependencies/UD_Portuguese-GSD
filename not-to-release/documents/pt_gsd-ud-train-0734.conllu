@@ -50,27 +50,29 @@
 26	clientes	cliente	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = train-s7288
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Em resposta, dois minutos após sofrer o gol, o Vasco foi para cima e quase marcou.
-1	Em	em	ADP	ADP	_	2	case	_	_
-2	resposta	resposta	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
-3	,	,	PUNCT	.	_	2	punct	_	_
-4	dois	_	NUM	NUM	NumType=Card	5	nummod	_	_
-5	minutos	minuto	NOUN	NOUN	_	6	nmod	_	_
-6	após	_	ADP	ADP	_	7	mark	_	_
-7	sofrer	sofrer	VERB	VERB	_	13	advcl	_	_
-8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	gol	gol	NOUN	NOUN	_	7	obj	_	SpaceAfter=No
-10	,	,	PUNCT	.	_	7	punct	_	_
-11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	Vasco	_	PROPN	PNOUN	_	13	nsubj	_	_
-13	foi	_	VERB	VERB	_	0	root	_	_
-14	para	para	ADP	ADP	_	15	case	_	_
-15	cima	cima	NOUN	NOUN	_	13	nmod	_	_
-16	e	e	CCONJ	CONJ	_	18	cc	_	_
-17	quase	quase	ADV	ADV	_	18	advmod	_	_
-18	marcou	marcar	VERB	VERB	_	13	conj	_	SpaceAfter=No
-19	.	.	PUNCT	.	_	13	punct	_	_
+# sent_id = train-s7288
+1	Em	em	ADP	_	_	2	case	_	_
+2	resposta	resposta	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	dois	dois	NUM	_	NumType=Card	5	nummod	_	_
+5	minutos	minuto	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
+6	após	após	SCONJ	_	_	7	mark	_	_
+7	sofrer	sofrer	VERB	_	VerbForm=Inf	5	acl	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	gol	gol	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	7	punct	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Vasco	Vasco	PROPN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+13	foi	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	para	para	ADP	_	_	15	case	_	_
+15	cima	cima	ADV	_	_	13	obl	_	_
+16	e	e	CCONJ	_	_	18	cc	_	_
+17	quase	quase	ADV	_	_	18	advmod	_	_
+18	marcou	marcar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
 
 # sent_id = train-s7289
 # text = Um tiro no pé.
@@ -82,54 +84,58 @@
 5	pé	pé	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = train-s7290
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Quando o assistente foi me ajudar acabei caindo no chão em cima do joelho dele, foi quando fraturei as duas costelas, que atingiram a parede externa do pulmão e tive que ser hospitalizado imediatamente ", explica.
-1	Quando	_	CCONJ	CONJ	_	6	mark	_	_
-2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	assistente	assistente	NOUN	NOUN	_	6	nsubj	_	_
-4	foi	_	AUX	AUX	_	6	aux	_	_
-5	me	_	PRON	PRON	_	6	obj	_	_
-6	ajudar	ajudar	VERB	VERB	_	8	advcl	_	_
-7	acabei	acabar	AUX	AUX	_	8	aux	_	_
-8	caindo	cair	VERB	VERB	_	42	ccomp	_	_
+# sent_id = train-s7290
+1	Quando	quando	SCONJ	_	_	6	mark	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	assistente	assistente	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	foi	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
+5	me	eu	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+6	ajudar	ajudar	VERB	_	VerbForm=Inf	7	advcl	_	_
+7	acabei	acabar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	43	parataxis	_	_
+8	caindo	cair	VERB	_	VerbForm=Ger	7	xcomp	_	_
 9-10	no	_	_	_	_	_	_	_	_
-9	em	em	ADP	ADP	_	11	case	_	_
-10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	chão	chão	NOUN	NOUN	_	8	nmod	_	_
-12	em	em	ADP	ADP	_	13	case	_	_
-13	cima	cima	NOUN	NOUN	_	8	nmod	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	chão	chão	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+12	em	em	ADP	_	_	13	case	_	_
+13	cima	cima	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
 14-15	do	_	_	_	_	_	_	_	_
-14	de	de	ADP	ADP	_	16	case	_	_
-15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	joelho	joelho	NOUN	NOUN	_	13	nmod	_	_
-17	dele	_	X	ADPPRON	_	16	det:poss	_	SpaceAfter=No
-18	,	,	PUNCT	.	_	19	punct	_	_
-19	foi	_	VERB	VERB	_	8	conj	_	_
-20	quando	_	CCONJ	CONJ	_	21	mark	_	_
-21	fraturei	fraturar	VERB	VERB	_	19	advcl	_	_
-22	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
-23	duas	_	NUM	NUM	NumType=Card	24	nummod	_	_
-24	costelas	costela	NOUN	NOUN	_	21	obj	_	SpaceAfter=No
-25	,	,	PUNCT	.	_	27	punct	_	_
-26	que	_	PRON	PRON	_	27	nsubj	_	_
-27	atingiram	atingir	VERB	VERB	_	24	acl:relcl	_	_
-28	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-29	parede	parede	NOUN	NOUN	_	27	obj	_	_
-30	externa	externo	ADJ	ADJ	_	29	amod	_	_
-31-32	do	_	_	_	_	_	_	_	_
-31	de	de	ADP	ADP	_	33	case	_	_
-32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
-33	pulmão	pulmão	NOUN	NOUN	_	29	nmod	_	_
-34	e	e	CCONJ	CONJ	_	38	cc	_	_
-35	tive	ter	AUX	AUX	_	38	aux	_	_
-36	que	que	CCONJ	CONJ	_	38	mark	_	_
-37	ser	ser	AUX	AUX	_	38	aux:pass	_	_
-38	hospitalizado	hospitalizar	VERB	VERB	_	21	conj	_	_
-39	imediatamente	imediatamente	ADV	ADV	_	38	advmod	_	_
-40	"	"	PUNCT	.	_	8	punct	_	SpaceAfter=No
-41	,	,	PUNCT	.	_	42	punct	_	_
-42	explica	explicar	VERB	VERB	_	0	root	_	SpaceAfter=No
-43	.	.	PUNCT	.	_	42	punct	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	joelho	joelho	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+17-18	dele	_	_	_	_	_	_	_	SpaceAfter=No
+17	de	de	ADP	_	_	18	case	_	_
+18	ele	ele	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nmod	_	_
+19	,	,	PUNCT	_	_	8	punct	_	_
+20	foi	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	43	parataxis	_	_
+21	quando	quando	SCONJ	_	_	22	mark	_	_
+22	fraturei	fraturar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	20	advcl	_	_
+23	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+24	duas	dois	NUM	_	NumType=Card	25	nummod	_	_
+25	costelas	costela	NOUN	_	Gender=Fem|Number=Plur	22	obj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	28	punct	_	_
+27	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	28	nsubj	_	_
+28	atingiram	atingir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	25	acl:relcl	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	parede	parede	NOUN	_	Gender=Fem|Number=Sing	28	obj	_	_
+31	externa	externo	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	_
+32-33	do	_	_	_	_	_	_	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	pulmão	pulmão	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	_
+35	e	e	CCONJ	_	_	39	cc	_	_
+36	tive	ter	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	39	aux	_	_
+37	que	que	SCONJ	_	_	39	mark	_	_
+38	ser	ser	AUX	_	VerbForm=Inf	39	aux:pass	_	_
+39	hospitalizado	hospitalizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	28	conj	_	_
+40	imediatamente	imediatamente	ADV	_	_	39	advmod	_	_
+41	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	43	punct	_	_
+43	explica	explicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	43	punct	_	SpaceAfter=No
 
 # sent_id = train-s7291
 # text = "Insensível às seduções dos detentores do poder", toda a sua carreira pública decorreu no mais difícil das trincheiras a do oposicionismo ao regime nascido do "28 de Maio de 1926", regime que sempre lhe manifestou respeito.

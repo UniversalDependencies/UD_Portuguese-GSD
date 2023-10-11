@@ -65,72 +65,76 @@
 20	Gerdau	_	PROPN	PNOUN	_	19	nsubj	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	19	punct	_	_
 
-# sent_id = train-s3050
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = A investida minuciosamente planejada foi levada a cabo justamente antes do empossamento de Barack, assim ele pôde dizer que era hora de vislumbrar o futuro, não o passado.
-1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	investida	_	NOUN	NOUN	_	6	nsubj:pass	_	_
-3	minuciosamente	minuciosamente	ADV	ADV	_	4	advmod	_	_
-4	planejada	planejar	VERB	VERB	_	2	acl	_	_
-5	foi	_	AUX	AUX	_	6	aux:pass	_	_
-6	levada	levar	VERB	VERB	_	0	root	_	_
-7	a	_	ADP	ADP	_	8	case	_	_
-8	cabo	cabo	NOUN	NOUN	_	6	nmod	_	_
-9	justamente	justamente	ADV	ADV	_	10	advmod	_	_
-10	antes	antes	ADV	ADV	_	13	case	_	_
+# sent_id = train-s3050
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	investida	investida	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+3	minuciosamente	minuciosamente	ADV	_	_	4	advmod	_	_
+4	planejada	planejar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	2	acl	_	_
+5	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+6	levada	levar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+7	a	a	ADP	_	_	8	case	_	_
+8	cabo	cabo	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+9	justamente	justamente	ADV	_	_	6	advmod	_	_
+10	antes	antes	ADV	_	_	6	advmod	_	_
 11-12	do	_	_	_	_	_	_	_	_
-11	de	de	ADP	ADP	_	10	case	_	_
-12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-13	empossamento	empossamento	NOUN	NOUN	_	6	nmod	_	_
-14	de	de	ADP	ADP	_	15	case	_	_
-15	Barack	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
-16	,	,	PUNCT	.	_	20	punct	_	_
-17	assim	assim	ADV	ADV	_	20	advmod	_	_
-18	ele	_	PRON	PRON	_	20	nsubj	_	_
-19	pôde	poder	AUX	AUX	_	20	aux	_	_
-20	dizer	dizer	VERB	VERB	_	6	conj	_	_
-21	que	que	CCONJ	CONJ	_	23	mark	_	_
-22	era	_	AUX	AUX	_	23	cop	_	_
-23	hora	hora	NOUN	NOUN	_	20	ccomp	_	_
-24	de	_	ADP	ADP	_	25	mark	_	_
-25	vislumbrar	vislumbrar	VERB	VERB	_	23	nmod	_	_
-26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	futuro	futuro	NOUN	NOUN	_	25	obj	_	SpaceAfter=No
-28	,	,	PUNCT	.	_	31	punct	_	_
-29	não	não	ADV	ADV	Polarity=Neg	31	advmod	_	_
-30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-31	passado	passado	NOUN	NOUN	_	27	conj	_	SpaceAfter=No
-32	.	.	PUNCT	.	_	6	punct	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	empossamento	empossamento	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	Barack	Barack	PROPN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	6	punct	_	_
+17	assim	assim	ADV	_	_	19	advmod	_	_
+18	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	pôde	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
+20	dizer	dizer	VERB	_	VerbForm=Inf	19	xcomp	_	_
+21	que	que	SCONJ	_	_	23	mark	_	_
+22	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	cop	_	_
+23	hora	hora	NOUN	_	Gender=Fem|Number=Sing	20	ccomp	_	_
+24	de	de	SCONJ	_	_	25	mark	_	_
+25	vislumbrar	vislumbrar	VERB	_	VerbForm=Inf	23	acl	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	futuro	futuro	NOUN	_	Gender=Masc|Number=Sing	25	obj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	31	punct	_	_
+29	não	não	ADV	_	Polarity=Neg	31	advmod	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	passado	passado	NOUN	_	Gender=Masc|Number=Sing	27	conj	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
-# sent_id = train-s3051
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Trinta minutos antes do horário previsto, dezenas de atores já encenavam numa fazenda montada no centro do gramado.
-1	Trinta	_	NUM	NUM	NumType=Card	2	nummod	_	_
-2	minutos	minuto	NOUN	NOUN	_	3	nmod	_	_
-3	antes	antes	ADV	ADV	_	6	case	_	_
+# sent_id = train-s3051
+1	Trinta	trinta	NUM	_	NumType=Card	2	nummod	_	_
+2	minutos	minuto	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
+3	antes	antes	ADV	_	_	2	advmod	_	_
 4-5	do	_	_	_	_	_	_	_	_
-4	de	de	ADP	ADP	_	3	case	_	_
-5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-6	horário	horário	NOUN	NOUN	_	13	nmod	_	_
-7	previsto	previsto	ADJ	ADJ	_	6	amod	_	SpaceAfter=No
-8	,	,	PUNCT	.	_	6	punct	_	_
-9	dezenas	dezena	NOUN	NOUN	_	13	nsubj	_	_
-10	de	de	ADP	ADP	_	11	case	_	_
-11	atores	ator	NOUN	NOUN	_	9	nmod	_	_
-12	já	já	ADV	ADV	_	13	advmod	_	_
-13	encenavam	encenar	VERB	VERB	_	0	root	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	horário	horário	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+7	previsto	prever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	6	acl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	dezenas	dezena	DET	_	Gender=Fem|Number=Plur|PronType=Ind	11	det	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	atores	ator	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	_
+12	já	já	ADV	_	_	13	advmod	_	_
+13	encenavam	encenar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 14-15	numa	_	_	_	_	_	_	_	_
-14	em	em	ADP	ADP	_	16	case	_	_
-15	uma	um	DET	DET	_	16	det	_	_
-16	fazenda	fazenda	NOUN	NOUN	_	13	nmod	_	_
-17	montada	montar	VERB	VERB	_	16	acl	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	fazenda	fazenda	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+17	montada	montar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	16	acl	_	_
 18-19	no	_	_	_	_	_	_	_	_
-18	em	em	ADP	ADP	_	20	case	_	_
-19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	centro	centro	NOUN	NOUN	_	17	nmod	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	centro	centro	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
 21-22	do	_	_	_	_	_	_	_	_
-21	de	de	ADP	ADP	_	23	case	_	_
-22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	gramado	gramado	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
-24	.	.	PUNCT	.	_	13	punct	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	gramado	gramado	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
 
 # sent_id = train-s3052
 # text = Há manifestações organizadas no Cairo, capital do Egito, onde na semana passada os protestos provocaram vítimas.

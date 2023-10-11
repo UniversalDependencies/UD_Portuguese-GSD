@@ -265,30 +265,32 @@
 19	centralizado	centralizado	ADJ	ADJ	_	18	xcomp	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = train-s7980
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Friedrich Hayek identificou duas tradições diferentes no liberalismo clássico: a "tradição Britânica" e a "tradição Francesa".
-1	Friedrich	_	PROPN	PNOUN	_	3	nsubj	_	_
-2	Hayek	_	PROPN	PNOUN	_	1	flat	_	_
-3	identificou	identificar	VERB	VERB	_	0	root	_	_
-4	duas	_	NUM	NUM	NumType=Card	5	nummod	_	_
-5	tradições	tradição	NOUN	NOUN	_	3	obj	_	_
-6	diferentes	diferente	ADJ	ADJ	_	5	amod	_	_
+# sent_id = train-s7980
+1	Friedrich	Friedrich	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	Hayek	Hayek	PROPN	_	Number=Sing	1	flat:name	_	_
+3	identificou	identificar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	duas	dois	NUM	_	NumType=Card	5	nummod	_	_
+5	tradições	tradição	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
+6	diferentes	diferente	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	_
 7-8	no	_	_	_	_	_	_	_	_
-7	em	em	ADP	ADP	_	9	case	_	_
-8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	liberalismo	liberalismo	NOUN	NOUN	_	3	nmod	_	_
-10	clássico	clássico	ADJ	ADJ	_	9	amod	_	SpaceAfter=No
-11	:	:	PUNCT	.	_	5	punct	_	_
-12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-13	"	"	PUNCT	.	_	14	punct	_	SpaceAfter=No
-14	tradição	tradição	NOUN	NOUN	_	5	appos	_	_
-15	Britânica	britânico	ADJ	ADJ	_	14	amod	_	SpaceAfter=No
-16	"	"	PUNCT	.	_	20	punct	_	_
-17	e	e	CCONJ	CONJ	_	20	cc	_	_
-18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-19	"	"	PUNCT	.	_	20	punct	_	SpaceAfter=No
-20	tradição	tradição	NOUN	NOUN	_	14	conj	_	_
-21	Francesa	francês	ADJ	ADJ	_	20	amod	_	SpaceAfter=No
-22	"	"	PUNCT	.	_	20	punct	_	SpaceAfter=No
-23	.	.	PUNCT	.	_	3	punct	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	liberalismo	liberalismo	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+10	clássico	clássico	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	14	punct	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	tradição	tradição	NOUN	_	Gender=Fem|Number=Sing	9	appos	_	_
+15	Britânica	Britânica	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	14	punct	_	_
+17	e	e	CCONJ	_	_	20	cc	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	tradição	tradição	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	_
+21	Francesa	Francesa	PROPN	_	Gender=Fem|Number=Sing	20	appos	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 

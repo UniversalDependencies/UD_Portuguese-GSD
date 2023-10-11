@@ -21,79 +21,81 @@
 19	guerreira	_	NOUN	NOUN	_	2	parataxis	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = train-s6673
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Apesar da presença de 130.000 soldados da coalizão da Aliança Atlântica para apoiar os 352.000 militares e policiais afegãos, o governo de Cabul e seus aliados da Força Internacional da Otan no Afeganistão (Isaf) não conseguiram derrotar a insurreição dos talibãs, expulsos do poder no final de 2001.
-1	Apesar	apesar	ADV	ADV	_	4	case	_	_
+# sent_id = train-s6673
+1	Apesar	apesar	ADV	_	ExtPos=ADP	4	case	_	_
 2-3	da	_	_	_	_	_	_	_	_
-2	de	de	ADP	ADP	_	1	case	_	_
-3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
-4	presença	presença	NOUN	NOUN	_	45	nmod	_	_
-5	de	de	ADP	ADP	_	7	case	_	_
-6	130.000	_	NUM	NUM	NumType=Card	7	nummod	_	_
-7	soldados	soldado	NOUN	NOUN	_	4	nmod	_	_
+2	de	de	ADP	_	_	1	fixed	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	presença	presença	NOUN	_	Gender=Fem|Number=Sing	45	obl	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	130.000	130.000	NUM	_	NumType=Card	7	nummod	_	_
+7	soldados	soldado	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
 8-9	da	_	_	_	_	_	_	_	_
-8	de	de	ADP	ADP	_	10	case	_	_
-9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	coalizão	coalizão	NOUN	NOUN	_	7	nmod	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	coalizão	coalizão	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 11-12	da	_	_	_	_	_	_	_	_
-11	de	de	ADP	ADP	_	13	case	_	_
-12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	Aliança	_	PROPN	PNOUN	_	10	nmod	_	_
-14	Atlântica	_	PROPN	PNOUN	_	13	amod	_	_
-15	para	_	ADP	ADP	_	16	mark	_	_
-16	apoiar	apoiar	VERB	VERB	_	7	nmod	_	_
-17	os	o	DET	DET	_	19	det	_	_
-18	352.000	_	NUM	NUM	NumType=Card	19	nummod	_	_
-19	militares	militar	NOUN	NOUN	_	16	obj	_	_
-20	e	e	CCONJ	CONJ	_	21	cc	_	_
-21	policiais	policial	NOUN	NOUN	_	19	conj	_	_
-22	afegãos	afegão	ADJ	ADJ	_	21	amod	_	SpaceAfter=No
-23	,	,	PUNCT	.	_	4	punct	_	_
-24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	governo	governo	NOUN	NOUN	_	45	nsubj	_	_
-26	de	de	ADP	ADP	_	27	case	_	_
-27	Cabul	_	PROPN	PNOUN	_	25	nmod	_	_
-28	e	e	CCONJ	CONJ	_	30	cc	_	_
-29	seus	_	DET	DET	_	30	det:poss	_	_
-30	aliados	aliado	NOUN	NOUN	_	25	conj	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|PronType=Art	13	det	_	_
+13	Aliança	Aliança	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	10	nmod	_	_
+14	Atlântica	Atlântica	PROPN	_	Number=Sing	13	flat:name	_	_
+15	para	para	SCONJ	_	_	16	mark	_	_
+16	apoiar	apoiar	VERB	_	VerbForm=Inf	4	acl	_	_
+17	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	352.000	352.000	NUM	_	NumType=Card	19	nummod	_	_
+19	militares	militar	NOUN	_	Gender=Masc|Number=Plur	16	obj	_	_
+20	e	e	CCONJ	_	_	21	cc	_	_
+21	policiais	policial	NOUN	_	Gender=Masc|Number=Plur	19	conj	_	_
+22	afegãos	afegão	ADJ	_	Gender=Masc|Number=Plur	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	16	punct	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	governo	governo	NOUN	_	Gender=Masc|Number=Sing	45	nsubj	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	Cabul	Cabul	PROPN	_	Number=Sing	25	nmod	_	_
+28	e	e	CCONJ	_	_	30	cc	_	_
+29	seus	seu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	30	det	_	_
+30	aliados	aliado	NOUN	_	Gender=Masc|Number=Plur	25	conj	_	_
 31-32	da	_	_	_	_	_	_	_	_
-31	de	de	ADP	ADP	_	33	case	_	_
-32	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
-33	Força	_	PROPN	PNOUN	_	30	nmod	_	_
-34	Internacional	_	PROPN	PNOUN	_	33	amod	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	Força	Força	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	30	nmod	_	_
+34	Internacional	Internacional	PROPN	_	Number=Sing	33	flat:name	_	_
 35-36	da	_	_	_	_	_	_	_	_
-35	de	de	ADP	ADP	_	37	case	_	_
-36	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
-37	Otan	_	PROPN	PNOUN	_	33	nmod	_	_
+35	de	de	ADP	_	_	37	case	_	_
+36	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	Otan	Otan	PROPN	_	Number=Sing	33	nmod	_	_
 38-39	no	_	_	_	_	_	_	_	_
-38	em	em	ADP	ADP	_	40	case	_	_
-39	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
-40	Afeganistão	_	PROPN	PNOUN	_	33	nmod	_	_
-41	(	(	PUNCT	.	_	42	punct	_	SpaceAfter=No
-42	Isaf	_	PROPN	PNOUN	_	33	appos	_	SpaceAfter=No
-43	)	)	PUNCT	.	_	42	punct	_	_
-44	não	não	ADV	ADV	Polarity=Neg	45	advmod	_	_
-45	conseguiram	conseguir	VERB	VERB	_	0	root	_	_
-46	derrotar	derrotar	VERB	VERB	_	45	xcomp	_	_
-47	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
-48	insurreição	insurreição	NOUN	NOUN	_	46	obj	_	_
+38	em	em	ADP	_	_	40	case	_	_
+39	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	Afeganistão	Afeganistão	PROPN	_	Gender=Masc|Number=Sing	33	nmod	_	_
+41	(	(	PUNCT	_	_	42	punct	_	SpaceAfter=No
+42	Isaf	Isaf	PROPN	_	Gender=Fem|Number=Sing	40	appos	_	SpaceAfter=No
+43	)	)	PUNCT	_	_	42	punct	_	_
+44	não	não	ADV	_	Polarity=Neg	45	advmod	_	_
+45	conseguiram	conseguir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+46	derrotar	derrotar	VERB	_	VerbForm=Inf	45	xcomp	_	_
+47	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	insurreição	insurreição	NOUN	_	Gender=Fem|Number=Sing	46	obj	_	_
 49-50	dos	_	_	_	_	_	_	_	_
-49	de	de	ADP	ADP	_	51	case	_	_
-50	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	51	det	_	_
-51	talibãs	talibã	NOUN	NOUN	_	48	nmod	_	SpaceAfter=No
-52	,	,	PUNCT	.	_	53	punct	_	_
-53	expulsos	expulsar	VERB	VERB	_	51	acl	_	_
+49	de	de	ADP	_	_	51	case	_	_
+50	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	51	det	_	_
+51	talibãs	talibã	NOUN	_	Gender=Masc|Number=Plur	48	nmod	_	SpaceAfter=No
+52	,	,	PUNCT	_	_	53	punct	_	_
+53	expulsos	expulr	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	51	acl	_	_
 54-55	do	_	_	_	_	_	_	_	_
-54	de	de	ADP	ADP	_	56	case	_	_
-55	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
-56	poder	poder	NOUN	NOUN	_	53	nmod	_	_
+54	de	de	ADP	_	_	56	case	_	_
+55	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+56	poder	poder	NOUN	_	Gender=Masc|Number=Sing	53	obl	_	_
 57-58	no	_	_	_	_	_	_	_	_
-57	em	em	ADP	ADP	_	59	case	_	_
-58	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
-59	final	final	NOUN	NOUN	_	53	nmod	_	_
-60	de	de	ADP	ADP	_	61	case	_	_
-61	2001	2001	NUM	NUM	NumType=Card	59	nmod	_	SpaceAfter=No
-62	.	.	PUNCT	.	_	45	punct	_	_
+57	em	em	ADP	_	_	59	case	_	_
+58	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
+59	final	final	NOUN	_	Gender=Masc|Number=Sing	53	obl	_	_
+60	de	de	ADP	_	_	61	case	_	_
+61	2001	2001	NUM	_	NumType=Card	59	nmod	_	SpaceAfter=No
+62	.	.	PUNCT	_	_	45	punct	_	SpaceAfter=No
 
 # sent_id = train-s6674
 # text = Assim como a Espanha na véspera, o Uruguai passou por maus bocados no confronto, sofrendo no primeiro tempo.
@@ -188,22 +190,24 @@
 19	bilhões	_	NUM	NUM	NumType=Card	16	nummod	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = train-s6677
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Temia um apagão por causa da grande quantidade de televisores ligados.
-1	Temia	temer	VERB	VERB	_	0	root	_	_
-2	um	um	DET	DET	_	3	det	_	_
-3	apagão	apagão	NOUN	NOUN	_	1	obj	_	_
-4	por	por	ADP	ADP	_	9	case	_	_
-5	causa	causa	NOUN	NOUN	_	4	fixed	_	_
+# sent_id = train-s6677
+1	Temia	temer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	apagão	apagão	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+4	por	por	ADP	_	_	5	case	_	_
+5	causa	causa	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
 6-7	da	_	_	_	_	_	_	_	_
-6	de	de	ADP	ADP	_	4	case	_	_
-7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-8	grande	grande	ADJ	ADJ	_	9	amod	_	_
-9	quantidade	quantidade	NOUN	NOUN	_	1	nmod	_	_
-10	de	de	ADP	ADP	_	11	case	_	_
-11	televisores	televisor	NOUN	NOUN	_	9	nmod	_	_
-12	ligados	ligado	ADJ	ADJ	_	11	amod	_	SpaceAfter=No
-13	.	.	PUNCT	.	_	1	punct	_	_
+6	de	de	ADP	_	_	9	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	grande	grande	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+9	quantidade	quantidade	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	televisores	televisor	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
+12	ligados	ligar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	11	acl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = train-s6678
 # text = Os cinco candidatos a prefeito de Apucarana já votaram.

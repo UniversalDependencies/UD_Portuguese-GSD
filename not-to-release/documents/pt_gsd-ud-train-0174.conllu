@@ -1,23 +1,25 @@
-# sent_id = train-s1728
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Mantemos a meta de produção e de market share, mas tem de haver projeto, disse.
-1	Mantemos	_	VERB	VERB	_	17	ccomp	_	_
-2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	meta	meta	NOUN	NOUN	_	1	obj	_	_
-4	de	de	ADP	ADP	_	5	case	_	_
-5	produção	produção	NOUN	NOUN	_	3	nmod	_	_
-6	e	e	CCONJ	CONJ	_	8	cc	_	_
-7	de	de	ADP	ADP	_	8	case	_	_
-8	market	_	NOUN	NOUN	_	5	conj	_	_
-9	share	share	NOUN	NOUN	_	8	flat	_	SpaceAfter=No
-10	,	,	PUNCT	.	_	14	punct	_	_
-11	mas	mas	CCONJ	CONJ	_	14	cc	_	_
-12	tem	ter	VERB	VERB	_	14	aux	_	_
-13	de	_	ADP	ADP	_	14	mark	_	_
-14	haver	haver	VERB	VERB	_	1	conj	_	_
-15	projeto	projeto	NOUN	NOUN	_	14	obj	_	SpaceAfter=No
-16	,	,	PUNCT	.	_	17	punct	_	_
-17	disse	dizer	VERB	VERB	_	0	root	_	SpaceAfter=No
-18	.	.	PUNCT	.	_	17	punct	_	_
+# sent_id = train-s1728
+1	Mantemos	manter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	parataxis	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	meta	meta	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	produção	produção	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+6	e	e	CCONJ	_	_	8	cc	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	market	market	X	_	ExtPos=NOUN|Gender=Masc|Number=Sing	5	conj	_	_
+9	share	share	X	_	_	8	flat:foreign	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	mas	mas	CCONJ	_	_	12	cc	_	_
+12	tem	ter	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+13	de	de	SCONJ	_	_	14	mark	_	_
+14	haver	haver	VERB	_	VerbForm=Inf	12	xcomp	_	_
+15	projeto	projeto	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	1	punct	_	_
+17	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
 
 # sent_id = train-s1729
 # text = Em Duque de Caxias, a maior gravidade é no distrito de Xerém, onde 45 casas foram destruídas e 200 danificadas.
@@ -316,45 +318,47 @@
 59	)	)	PUNCT	.	_	56	punct	_	SpaceAfter=No
 60	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = train-s1736
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = No dia seguinte, atravessaram o C'rculo Antárctico, e quase de imediato as condições meteorológicas pioraram significativamente, resultando em cabinas inundadas com água e mau estar devido à forte ondulação.
+# sent_id = train-s1736
 1-2	No	_	_	_	_	_	_	_	_
-1	Em	em	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	dia	dia	NOUN	NOUN	_	6	nmod	_	_
-4	seguinte	seguinte	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
-5	,	,	PUNCT	.	_	3	punct	_	_
-6	atravessaram	atravessar	VERB	VERB	_	0	root	_	_
-7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	C'rculo	_	PROPN	PNOUN	_	6	obj	_	_
-9	Antárctico	_	PROPN	PNOUN	_	8	flat	_	SpaceAfter=No
-10	,	,	PUNCT	.	_	18	punct	_	_
-11	e	e	CCONJ	CONJ	_	18	cc	_	_
-12	quase	quase	ADV	ADV	_	14	advmod	_	_
-13	de	_	ADP	ADP	_	14	mark	_	_
-14	imediato	imediato	ADJ	ADJ	_	18	nmod	_	_
-15	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
-16	condições	condição	NOUN	NOUN	_	18	nsubj	_	_
-17	meteorológicas	meteorológico	ADJ	ADJ	_	16	amod	_	_
-18	pioraram	piorar	VERB	VERB	_	6	conj	_	_
-19	significativamente	significativamente	ADV	ADV	_	18	advmod	_	SpaceAfter=No
-20	,	,	PUNCT	.	_	21	punct	_	_
-21	resultando	resultar	VERB	VERB	_	18	acl	_	_
-22	em	em	ADP	ADP	_	23	case	_	_
-23	cabinas	cabina	NOUN	NOUN	_	21	nmod	_	_
-24	inundadas	inundado	ADJ	ADJ	_	23	amod	_	_
-25	com	com	ADP	ADP	_	26	case	_	_
-26	água	água	NOUN	NOUN	_	24	nmod	_	_
-27	e	e	CCONJ	CONJ	_	29	cc	_	_
-28	mau	mau	ADJ	ADJ	_	29	amod	_	_
-29	estar	_	NOUN	NOUN	_	23	conj	_	_
-30	devido	dever	VERB	VERB	_	34	case	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	dia	dia	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+4	seguinte	seguinte	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	atravessaram	atravessar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	C'rculo	C'rculo	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	6	obj	_	_
+9	Antárctico	Antárctico	PROPN	_	Number=Sing	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	18	punct	_	_
+11	e	e	CCONJ	_	_	18	cc	_	_
+12	quase	quase	ADV	_	_	14	advmod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	imediato	imediato	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+15	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	condições	condição	NOUN	_	Gender=Fem|Number=Plur	18	nsubj	_	_
+17	meteorológicas	meteorológico	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	_
+18	pioraram	piorar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
+19	significativamente	significativamente	ADV	_	_	18	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	resultando	resultar	VERB	_	VerbForm=Ger	18	advcl	_	_
+22	em	em	ADP	_	_	23	case	_	_
+23	cabinas	cabina	NOUN	_	Gender=Fem|Number=Plur	21	obj	_	_
+24	inundadas	inundar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	23	acl	_	_
+25	com	com	ADP	_	_	26	case	_	_
+26	água	água	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
+27	e	e	CCONJ	_	_	28	cc	_	_
+28	mau	mau	ADJ	_	Gender=Masc|Number=Sing	26	conj	_	_
+29	estar	estar	VERB	_	VerbForm=Inf	24	conj	_	_
+30	devido	devido	ADV	_	_	29	advmod	_	_
 31-32	à	_	_	_	_	_	_	_	_
-31	a	a	ADP	ADP	_	30	case	_	_
-32	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
-33	forte	forte	ADJ	ADJ	_	34	amod	_	_
-34	ondulação	ondulação	NOUN	NOUN	_	29	nmod	_	SpaceAfter=No
-35	.	.	PUNCT	.	_	6	punct	_	_
+31	a	a	ADP	_	_	34	case	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+33	forte	forte	ADJ	_	Gender=Fem|Number=Sing	34	amod	_	_
+34	ondulação	ondulação	NOUN	_	Gender=Fem|Number=Sing	30	obl	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
 # sent_id = train-s1737
 # text = O suspeito de efetuar os disparos é um adolescente de 15 anos, que foi preso com o comparsa de 21 anos.

@@ -26,29 +26,31 @@
 14	lojas	loja	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = train-s5271
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Contém os sucessos dos anos de 1985 a 2004, algumas inéditas e um acústico de Forever Blue.
-1	Contém	conter	VERB	VERB	_	0	root	_	_
-2	os	o	DET	DET	_	3	det	_	_
-3	sucessos	sucesso	NOUN	NOUN	_	1	obj	_	_
+# sent_id = train-s5271
+1	Contém	conter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	sucessos	sucesso	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
 4-5	dos	_	_	_	_	_	_	_	_
-4	de	de	ADP	ADP	_	6	case	_	_
-5	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
-6	anos	ano	NOUN	NOUN	_	3	nmod	_	_
-7	de	de	ADP	ADP	_	8	case	_	_
-8	1985	1985	NUM	NUM	NumType=Card	6	nmod	_	_
-9	a	_	ADP	ADP	_	10	case	_	_
-10	2004	2004	NUM	NUM	NumType=Card	8	nmod	_	SpaceAfter=No
-11	,	,	PUNCT	.	_	13	punct	_	_
-12	algumas	_	DET	DET	_	13	det	_	_
-13	inéditas	_	NOUN	NOUN	_	3	conj	_	_
-14	e	e	CCONJ	CONJ	_	16	cc	_	_
-15	um	um	DET	DET	_	16	det	_	_
-16	acústico	acústico	NOUN	NOUN	_	3	conj	_	_
-17	de	de	ADP	ADP	_	19	case	_	_
-18	Forever	_	PROPN	PNOUN	_	19	advmod	_	_
-19	Blue	_	PROPN	PNOUN	_	16	nmod	_	SpaceAfter=No
-20	.	.	PUNCT	.	_	1	punct	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	anos	ano	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	1985	1985	NUM	_	NumType=Card	6	nmod	_	_
+9	a	a	ADP	_	_	10	case	_	_
+10	2004	2004	NUM	_	NumType=Card	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	13	det	_	_
+13	inéditas	inédita	NOUN	_	Gender=Fem|Number=Plur	3	conj	_	_
+14	e	e	CCONJ	_	_	16	cc	_	_
+15	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	acústico	acústico	NOUN	_	Gender=Masc|Number=Sing	3	conj	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	Forever	Forever	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	16	nmod	_	_
+19	Blue	Blue	PROPN	_	Number=Sing	18	flat:name	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = train-s5272
 # text = Possui uma declinação de +61 ° 31 '49 "e uma ascensão recta de 10 horas, 59 minutos e 08,8 segundos.

@@ -97,30 +97,30 @@
 12	)	)	PUNCT	.	_	11	punct	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s6158
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Antes mesmo do posicionamento da EFSA, o estudo já vinha sofrendo críticas doutros pesquisadores.
-1	Antes	antes	ADV	ADV	_	5	case	_	_
-2	mesmo	mesmo	ADV	ADV	_	1	advmod	_	_
+# sent_id = train-s6158
+1	Antes	antes	ADV	_	_	14	advmod	_	_
+2	mesmo	mesmo	ADV	_	_	5	advmod	_	_
 3-4	do	_	_	_	_	_	_	_	_
-3	de	de	ADP	ADP	_	1	case	_	_
-4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
-5	posicionamento	posicionamento	NOUN	NOUN	_	14	nmod	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	posicionamento	posicionamento	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
 6-7	da	_	_	_	_	_	_	_	_
-6	de	de	ADP	ADP	_	8	case	_	_
-7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	EFSA	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	5	punct	_	_
-10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	estudo	estudo	NOUN	NOUN	_	14	nsubj	_	_
-12	já	já	ADV	ADV	_	14	advmod	_	_
-13	vinha	vir	AUX	AUX	_	14	aux	_	_
-14	sofrendo	sofrer	VERB	VERB	_	0	root	_	_
-15	críticas	_	NOUN	NOUN	_	14	obj	_	_
-16-17	doutros	_	_	_	_	_	_	_	_
-16	de	de	ADP	ADP	_	18	case	_	_
-17	outros	_	DET	DET	_	18	det	_	_
-18	pesquisadores	pesquisador	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
-19	.	.	PUNCT	.	_	14	punct	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	EFSA	EFSA	PROPN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	1	punct	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+12	já	já	ADV	_	_	14	advmod	_	_
+13	vinha	vir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+14	sofrendo	sofrer	VERB	_	VerbForm=Ger	13	xcomp	_	_
+15	críticas	crítica	NOUN	_	Gender=Fem|Number=Plur	14	obj	_	_
+16	doutros	doutro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	17	det	_	_
+17	pesquisadores	pesquisador	NOUN	_	Gender=Masc|Number=Plur	14	obj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
 
 # sent_id = train-s6159
 # text = O país apresenta o maior corficiente de Gini (que mede a desigualdade) da América Latina.
@@ -145,36 +145,38 @@
 18	Latina	_	PROPN	PNOUN	_	17	amod	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s6160
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Nascida em Turim em 22 de abril de 1909, de pai engenheiro e mãe artista, ela começou a estudar medicina aos 20 anos.
-1	Nascida	nascer	VERB	VERB	_	18	acl	_	_
-2	em	em	ADP	ADP	_	3	case	_	_
-3	Turim	_	PROPN	PNOUN	_	1	nmod	_	_
-4	em	em	ADP	ADP	_	5	case	_	_
-5	22	22	NUM	NUM	NumType=Card	1	nmod	_	_
-6	de	de	ADP	ADP	_	7	case	_	_
-7	abril	_	PROPN	PNOUN	_	5	nmod	_	_
-8	de	de	ADP	ADP	_	9	case	_	_
-9	1909	1909	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
-10	,	,	PUNCT	.	_	12	punct	_	_
-11	de	de	ADP	ADP	_	12	case	_	_
-12	pai	pai	NOUN	NOUN	_	1	nmod	_	_
-13	engenheiro	engenheiro	NOUN	NOUN	_	12	flat	_	_
-14	e	e	CCONJ	CONJ	_	15	cc	_	_
-15	mãe	mãe	NOUN	NOUN	_	12	conj	_	_
-16	artista	artista	NOUN	NOUN	_	15	flat	_	SpaceAfter=No
-17	,	,	PUNCT	.	_	1	punct	_	_
-18	ela	_	PRON	PRON	_	21	nsubj	_	_
-19	começou	começar	AUX	AUX	_	21	aux	_	_
-20	a	_	ADP	ADP	_	21	mark	_	_
-21	estudar	estudar	VERB	VERB	_	0	root	_	_
-22	medicina	medicina	NOUN	NOUN	_	21	obj	_	_
+# sent_id = train-s6160
+1	Nascida	nascer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	18	acl	_	_
+2	em	em	ADP	_	_	3	case	_	_
+3	Turim	Turim	PROPN	_	Gender=Masc|Number=Sing	1	obl	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	22	22	NUM	_	NumType=Card	1	obl	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	abril	abril	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	1909	1909	NUM	_	NumType=Card	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	1	punct	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	pai	pai	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
+13	engenheiro	engenheiro	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	mãe	mãe	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	_
+16	artista	artista	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	1	punct	_	_
+18	ela	ela	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	começou	começar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20	a	a	SCONJ	_	_	21	mark	_	_
+21	estudar	estudar	VERB	_	VerbForm=Inf	19	xcomp	_	_
+22	medicina	medicina	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
 23-24	aos	_	_	_	_	_	_	_	_
-23	a	a	ADP	ADP	_	26	case	_	_
-24	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
-25	20	20	NUM	NUM	NumType=Card	26	nummod	_	_
-26	anos	ano	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
-27	.	.	PUNCT	.	_	21	punct	_	_
+23	a	a	ADP	_	_	26	case	_	_
+24	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+25	20	20	NUM	_	NumType=Card	26	nummod	_	_
+26	anos	ano	NOUN	_	Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
 
 # sent_id = train-s6161
 # text = "O que se sabe é que havia intimidade entre a vítima e a professora, uma relação de amizade bastante notória", disse o delegado Amaro.
@@ -282,41 +284,43 @@
 23	milhões	_	NUM	NUM	NumType=Card	20	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = train-s6164
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O atacante tem 24 anos, 1,88 m e já passou pelo Tupi - MG, América - MG, Ferroviária - SP, Ponte Preta, Cruzeiro, Bahia e Goiás.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	atacante	atacante	NOUN	NOUN	_	3	nsubj	_	_
-3	tem	ter	VERB	VERB	_	0	root	_	_
-4	24	24	NUM	NUM	NumType=Card	5	nummod	_	_
-5	anos	ano	NOUN	NOUN	_	3	obj	_	SpaceAfter=No
-6	,	,	PUNCT	.	_	8	punct	_	_
-7	1,88	1,88	NUM	NUM	NumType=Card	8	nummod	_	_
-8	m	m	NOUN	NOUN	_	5	conj	_	_
-9	e	e	CCONJ	CONJ	_	11	cc	_	_
-10	já	já	ADV	ADV	_	11	advmod	_	_
-11	passou	passar	VERB	VERB	_	3	conj	_	_
+# sent_id = train-s6164
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	atacante	atacante	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	24	24	NUM	_	NumType=Card	5	nummod	_	_
+5	anos	ano	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	1,88	1,88	NUM	_	NumType=Card	8	nummod	_	_
+8	m	m	NOUN	_	Gender=Masc|Number=Plur	5	conj	_	_
+9	e	e	CCONJ	_	_	11	cc	_	_
+10	já	já	ADV	_	_	11	advmod	_	_
+11	passou	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
 12-13	pelo	_	_	_	_	_	_	_	_
-12	por	por	ADP	ADP	_	14	case	_	_
-13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	Tupi	_	PROPN	PNOUN	_	11	nmod	_	_
-15	-	-	PUNCT	.	_	18	punct	_	_
-16	MG	_	PROPN	PNOUN	_	14	flat	_	SpaceAfter=No
-17	,	,	PUNCT	.	_	18	punct	_	_
-18	América	_	PROPN	PNOUN	_	14	conj	_	_
-19	-	-	PUNCT	.	_	18	punct	_	_
-20	MG	_	PROPN	PNOUN	_	18	flat	_	SpaceAfter=No
-21	,	,	PUNCT	.	_	22	punct	_	_
-22	Ferroviária	_	PROPN	PNOUN	_	14	conj	_	_
-23	-	-	PUNCT	.	_	22	punct	_	_
-24	SP	_	PROPN	PNOUN	_	22	flat	_	SpaceAfter=No
-25	,	,	PUNCT	.	_	26	punct	_	_
-26	Ponte	_	PROPN	PNOUN	_	14	conj	_	_
-27	Preta	_	PROPN	PNOUN	_	26	amod	_	SpaceAfter=No
-28	,	,	PUNCT	.	_	29	punct	_	_
-29	Cruzeiro	_	PROPN	PNOUN	_	14	conj	_	SpaceAfter=No
-30	,	,	PUNCT	.	_	31	punct	_	_
-31	Bahia	_	PROPN	PNOUN	_	14	conj	_	_
-32	e	e	CCONJ	CONJ	_	33	cc	_	_
-33	Goiás	_	PROPN	PNOUN	_	14	conj	_	SpaceAfter=No
-34	.	.	PUNCT	.	_	3	punct	_	_
+12	por	por	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Tupi	Tupi	PROPN	_	Gender=Masc|Number=Sing	11	obl	_	_
+15	-	-	PUNCT	_	_	16	punct	_	_
+16	MG	MG	PROPN	_	Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	América	América	PROPN	_	Gender=Fem|Number=Sing	14	conj	_	_
+19	-	-	PUNCT	_	_	20	punct	_	_
+20	MG	MG	PROPN	_	Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	Ferroviária	Ferroviária	PROPN	_	Gender=Fem|Number=Sing	14	conj	_	_
+23	-	-	PUNCT	_	_	24	punct	_	_
+24	SP	SP	PROPN	_	Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	Ponte	Ponte	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	14	conj	_	_
+27	Preta	Preta	PROPN	_	Number=Sing	26	flat:name	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	_
+29	Cruzeiro	Cruzeiro	PROPN	_	Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	31	punct	_	_
+31	Bahia	Bahia	PROPN	_	Gender=Fem|Number=Sing	14	conj	_	_
+32	e	e	CCONJ	_	_	33	cc	_	_
+33	Goiás	Goiás	PROPN	_	Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 

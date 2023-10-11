@@ -119,42 +119,44 @@
 27	votar	votar	VERB	VERB	_	25	nmod	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = train-s3692
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Toda a comunidade acadêmica esperava que, depois do doutorado, você fosse para uma universidade de renome no exterior, voltasse e estabelecesse uma linha de pesquisa própria.
-1	Toda	_	DET	DET	_	3	det	_	_
-2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	comunidade	comunidade	NOUN	NOUN	_	5	nsubj	_	_
-4	acadêmica	acadêmico	ADJ	ADJ	_	3	amod	_	_
-5	esperava	esperar	VERB	VERB	_	0	root	_	_
-6	que	que	CCONJ	CONJ	_	14	mark	_	SpaceAfter=No
-7	,	,	PUNCT	.	_	14	punct	_	_
-8	depois	depois	ADV	ADV	_	11	case	_	_
+# sent_id = train-s3692
+1	Toda	todo	DET	_	Gender=Fem|Number=Sing|PronType=Tot	3	det	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	comunidade	comunidade	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	acadêmica	acadêmico	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+5	esperava	esperar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	que	que	SCONJ	_	_	14	mark	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	depois	depois	ADV	_	_	14	advmod	_	_
 9-10	do	_	_	_	_	_	_	_	_
-9	de	de	ADP	ADP	_	8	case	_	_
-10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-11	doutorado	doutorado	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
-12	,	,	PUNCT	.	_	11	punct	_	_
-13	você	_	PRON	PRON	_	14	nsubj	_	_
-14	fosse	_	VERB	VERB	_	5	ccomp	_	_
-15	para	para	ADP	ADP	_	17	case	_	_
-16	uma	um	DET	DET	_	17	det	_	_
-17	universidade	universidade	NOUN	NOUN	_	14	nmod	_	_
-18	de	de	ADP	ADP	_	19	case	_	_
-19	renome	renome	NOUN	NOUN	_	17	nmod	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	doutorado	doutorado	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	8	punct	_	_
+13	você	você	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	fosse	ser	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	ccomp	_	_
+15	para	para	ADP	_	_	17	case	_	_
+16	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	universidade	universidade	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	renome	renome	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
 20-21	no	_	_	_	_	_	_	_	_
-20	em	em	ADP	ADP	_	22	case	_	_
-21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-22	exterior	exterior	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
-23	,	,	PUNCT	.	_	24	punct	_	_
-24	voltasse	voltar	VERB	VERB	_	14	conj	_	_
-25	e	e	CCONJ	CONJ	_	26	cc	_	_
-26	estabelecesse	estabelecer	VERB	VERB	_	14	conj	_	_
-27	uma	um	DET	DET	_	28	det	_	_
-28	linha	_	NOUN	NOUN	_	26	obj	_	_
-29	de	de	ADP	ADP	_	30	case	_	_
-30	pesquisa	pesquisa	NOUN	NOUN	_	28	nmod	_	_
-31	própria	próprio	ADJ	ADJ	_	28	amod	_	SpaceAfter=No
-32	.	.	PUNCT	.	_	5	punct	_	_
+20	em	em	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	exterior	exterior	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	voltasse	voltar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
+25	e	e	CCONJ	_	_	26	cc	_	_
+26	estabelecesse	estabelecer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	conj	_	_
+27	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	linha	linha	NOUN	_	Gender=Fem|Number=Sing	26	obj	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	pesquisa	pesquisa	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	_
+31	própria	próprio	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # sent_id = train-s3693
 # text = O Grupo Gay da Bahia tem um trabalho bastante interessante quando o assunto é esse.

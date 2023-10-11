@@ -104,18 +104,20 @@
 27	Solimões	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = train-s425
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Vinte e duas pessoas foram indiciadas por sete crimes.
-1	Vinte	_	NUM	NUM	NumType=Card	2	nummod	_	_
-2	e	_	CCONJ	CONJ	_	3	nummod	_	_
-3	duas	_	NUM	NUM	NumType=Card	4	nummod	_	_
-4	pessoas	pessoa	NOUN	NOUN	_	6	nsubj:pass	_	_
-5	foram	_	AUX	AUX	_	6	aux:pass	_	_
-6	indiciadas	indiciar	VERB	VERB	_	0	root	_	_
-7	por	por	ADP	ADP	_	9	case	_	_
-8	sete	_	NUM	NUM	NumType=Card	9	nummod	_	_
-9	crimes	crime	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
-10	.	.	PUNCT	.	_	6	punct	_	_
+# sent_id = train-s425
+1	Vinte	vinte	NUM	_	NumType=Card	4	nummod	_	_
+2	e	e	CCONJ	_	_	1	fixed	_	_
+3	duas	dois	NUM	_	NumType=Card	1	conj	_	_
+4	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	6	nsubj:pass	_	_
+5	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	6	aux:pass	_	_
+6	indiciadas	indiciar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+7	por	por	ADP	_	_	9	case	_	_
+8	sete	sete	NUM	_	NumType=Card	9	nummod	_	_
+9	crimes	crime	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
 # sent_id = train-s426
 # text = Para os líderes políticos latino - americanos, houve rompimento da ordem democrática no processo de destituição de Lugo do poder.
@@ -239,65 +241,67 @@
 74	juiz	juiz	NOUN	NOUN	_	71	nmod	_	SpaceAfter=No
 75	.	.	PUNCT	.	_	10	punct	_	_
 
-# sent_id = train-s428
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O lucro da Vale, maior produtora mundial de ferro, caiu 66,2 % no terceiro trimestre de 2012 em relação ao mesmo período de 2011, devido à queda dos preços internacionais e da demanda num contexto de crise econômica mundial.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	lucro	lucro	NOUN	NOUN	_	13	nsubj	_	_
+# sent_id = train-s428
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	lucro	lucro	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
-3	de	de	ADP	ADP	_	5	case	_	_
-4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	Vale	_	PROPN	PNOUN	_	2	nmod	_	SpaceAfter=No
-6	,	,	PUNCT	.	_	8	punct	_	_
-7	maior	maior	ADJ	ADJ	_	8	amod	_	_
-8	produtora	produtor	NOUN	NOUN	_	5	appos	_	_
-9	mundial	mundial	ADJ	ADJ	_	8	amod	_	_
-10	de	de	ADP	ADP	_	11	case	_	_
-11	ferro	ferro	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-12	,	,	PUNCT	.	_	8	punct	_	_
-13	caiu	cair	VERB	VERB	_	0	root	_	_
-14	66,2	66,2	NUM	NUM	NumType=Card	15	nummod	_	_
-15	%	_	SYM	SYM	_	13	nmod	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Vale	Vale	PROPN	_	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	maior	maior	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+8	produtora	produtor	NOUN	_	Gender=Fem|Number=Sing	5	appos	_	_
+9	mundial	mundial	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	ferro	ferro	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	8	punct	_	_
+13	caiu	cair	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	66,2	66,2	NUM	_	NumType=Card	15	nummod	_	_
+15	%	%	SYM	_	_	13	obj	_	_
 16-17	no	_	_	_	_	_	_	_	_
-16	em	em	ADP	ADP	_	19	case	_	_
-17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-18	terceiro	_	ADJ	ADJ	_	19	amod	_	_
-19	trimestre	trimestre	NOUN	NOUN	_	13	nmod	_	_
-20	de	de	ADP	ADP	_	21	case	_	_
-21	2012	2012	NUM	NUM	NumType=Card	19	nmod	_	_
-22	em	em	ADP	ADP	_	23	case	_	_
-23	relação	relação	NOUN	NOUN	_	13	nmod	_	_
+16	em	em	ADP	_	_	19	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	terceiro	terceiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	19	amod	_	_
+19	trimestre	trimestre	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	2012	2012	NUM	_	NumType=Card	19	nmod	_	_
+22	em	em	ADP	_	_	23	case	_	_
+23	relação	relação	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
 24-25	ao	_	_	_	_	_	_	_	_
-24	a	a	ADP	ADP	_	27	case	_	_
-25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-26	mesmo	mesmo	ADJ	ADJ	_	27	amod	_	_
-27	período	período	NOUN	NOUN	_	23	nmod	_	_
-28	de	de	ADP	ADP	_	29	case	_	_
-29	2011	2011	NUM	NUM	NumType=Card	27	nmod	_	SpaceAfter=No
-30	,	,	PUNCT	.	_	34	punct	_	_
-31	devido	dever	VERB	VERB	_	34	case	_	_
+24	a	a	ADP	_	_	27	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	mesmo	mesmo	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	_
+27	período	período	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	2011	2011	NUM	_	NumType=Card	27	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	13	punct	_	_
+31	devido	devido	ADV	_	_	13	advmod	_	_
 32-33	à	_	_	_	_	_	_	_	_
-32	a	a	ADP	ADP	_	31	case	_	_
-33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-34	queda	queda	NOUN	NOUN	_	13	nmod	_	_
+32	a	a	ADP	_	_	34	case	_	_
+33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	queda	queda	NOUN	_	Gender=Fem|Number=Sing	31	obl	_	_
 35-36	dos	_	_	_	_	_	_	_	_
-35	de	de	ADP	ADP	_	37	case	_	_
-36	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
-37	preços	preço	NOUN	NOUN	_	34	nmod	_	_
-38	internacionais	internacional	ADJ	ADJ	_	37	amod	_	_
-39	e	e	CCONJ	CONJ	_	42	cc	_	_
+35	de	de	ADP	_	_	37	case	_	_
+36	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	preços	preço	NOUN	_	Gender=Masc|Number=Plur	34	nmod	_	_
+38	internacionais	internacional	ADJ	_	Gender=Masc|Number=Plur	37	amod	_	_
+39	e	e	CCONJ	_	_	42	cc	_	_
 40-41	da	_	_	_	_	_	_	_	_
-40	de	de	ADP	ADP	_	42	case	_	_
-41	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
-42	demanda	demanda	NOUN	NOUN	_	37	conj	_	_
+40	de	de	ADP	_	_	42	case	_	_
+41	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	demanda	demanda	NOUN	_	Gender=Fem|Number=Sing	37	conj	_	_
 43-44	num	_	_	_	_	_	_	_	_
-43	em	em	ADP	ADP	_	45	case	_	_
-44	um	um	DET	DET	_	45	det	_	_
-45	contexto	contexto	NOUN	NOUN	_	34	nmod	_	_
-46	de	de	ADP	ADP	_	47	case	_	_
-47	crise	crise	NOUN	NOUN	_	45	nmod	_	_
-48	econômica	econômico	ADJ	ADJ	_	47	amod	_	_
-49	mundial	mundial	ADJ	ADJ	_	47	amod	_	SpaceAfter=No
-50	.	.	PUNCT	.	_	13	punct	_	_
+43	em	em	ADP	_	_	45	case	_	_
+44	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	contexto	contexto	NOUN	_	Gender=Masc|Number=Sing	34	nmod	_	_
+46	de	de	ADP	_	_	47	case	_	_
+47	crise	crise	NOUN	_	Gender=Fem|Number=Sing	45	nmod	_	_
+48	econômica	econômico	ADJ	_	Gender=Fem|Number=Sing	47	amod	_	_
+49	mundial	mundial	ADJ	_	Gender=Fem|Number=Sing	47	amod	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
 
 # sent_id = train-s429
 # text = As inscrições podem ser feitas até o dia 13 de julho de 2012.

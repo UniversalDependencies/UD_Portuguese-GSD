@@ -27,42 +27,44 @@
 23	Fernandópolis	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	13	punct	_	_
 
-# sent_id = train-s5928
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Uma semana depois da abertura, uma bomba de fabricação caseira explodiu num parque em meio a uma multidão, com um saldo de dois mortos e onze feridos.
-1	Uma	_	DET	DET	_	2	det	_	_
-2	semana	semana	NOUN	NOUN	_	3	nmod	_	_
-3	depois	depois	ADV	ADV	_	6	case	_	_
+# sent_id = train-s5928
+1	Uma	um	NUM	_	NumType=Card	2	nummod	_	_
+2	semana	semana	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+3	depois	depois	ADV	_	_	2	advmod	_	_
 4-5	da	_	_	_	_	_	_	_	_
-4	de	de	ADP	ADP	_	3	case	_	_
-5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-6	abertura	abertura	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
-7	,	,	PUNCT	.	_	6	punct	_	_
-8	uma	um	DET	DET	_	9	det	_	_
-9	bomba	bomba	NOUN	NOUN	_	13	nsubj	_	_
-10	de	de	ADP	ADP	_	11	case	_	_
-11	fabricação	fabricação	NOUN	NOUN	_	9	nmod	_	_
-12	caseira	caseiro	ADJ	ADJ	_	11	amod	_	_
-13	explodiu	explodir	VERB	VERB	_	0	root	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	abertura	abertura	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	2	punct	_	_
+8	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	bomba	bomba	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	fabricação	fabricação	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+12	caseira	caseiro	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+13	explodiu	explodir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 14-15	num	_	_	_	_	_	_	_	_
-14	em	em	ADP	ADP	_	16	case	_	_
-15	um	um	DET	DET	_	16	det	_	_
-16	parque	parque	NOUN	NOUN	_	13	nmod	_	_
-17	em	em	ADP	ADP	_	18	case	_	_
-18	meio	meio	NOUN	NOUN	_	13	nmod	_	_
-19	a	_	ADP	ADP	_	21	case	_	_
-20	uma	um	DET	DET	_	21	det	_	_
-21	multidão	multidão	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
-22	,	,	PUNCT	.	_	25	punct	_	_
-23	com	com	ADP	ADP	_	25	case	_	_
-24	um	um	DET	DET	_	25	det	_	_
-25	saldo	saldo	NOUN	NOUN	_	13	nmod	_	_
-26	de	de	ADP	ADP	_	28	case	_	_
-27	dois	_	NUM	NUM	NumType=Card	28	nummod	_	_
-28	mortos	morto	NOUN	NOUN	_	25	nmod	_	_
-29	e	e	CCONJ	CONJ	_	31	cc	_	_
-30	onze	_	NUM	NUM	NumType=Card	31	nummod	_	_
-31	feridos	ferido	NOUN	NOUN	_	28	conj	_	SpaceAfter=No
-32	.	.	PUNCT	.	_	13	punct	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	parque	parque	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+17	em	em	ADP	_	_	18	case	_	_
+18	meio	meio	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+19	a	a	ADP	_	_	21	case	_	_
+20	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	multidão	multidão	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	25	punct	_	_
+23	com	com	ADP	_	_	25	case	_	_
+24	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	saldo	saldo	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	dois	dois	NUM	_	NumType=Card	28	nummod	_	_
+28	mortos	morto	NOUN	_	Gender=Masc|Number=Plur	25	nmod	_	_
+29	e	e	CCONJ	_	_	31	cc	_	_
+30	onze	onze	NUM	_	NumType=Card	31	nummod	_	_
+31	feridos	ferido	NOUN	_	Gender=Masc|Number=Plur	28	conj	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
 
 # sent_id = train-s5929
 # text = A banda Oficina G3 já iniciou a pré - produção de seu novo álbum.

@@ -220,49 +220,51 @@
 37	TRF1	_	PROPN	PNOUN	_	31	nmod	_	SpaceAfter=No
 38	.	.	PUNCT	.	_	25	punct	_	_
 
-# sent_id = train-s3487
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = No evento de relançamento da revista em quadrinhos "Pelezinho", o Rei do futebol voltou a frisar a torcida pelo Corinthians, mas não deixou de provocar o rival santista.
+# sent_id = train-s3487
 1-2	No	_	_	_	_	_	_	_	_
-1	Em	em	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	evento	evento	NOUN	NOUN	_	22	nmod	_	_
-4	de	de	ADP	ADP	_	5	case	_	_
-5	relançamento	relançamento	NOUN	NOUN	_	3	nmod	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	evento	evento	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	relançamento	relançamento	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 6-7	da	_	_	_	_	_	_	_	_
-6	de	de	ADP	ADP	_	8	case	_	_
-7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	revista	revista	NOUN	NOUN	_	5	nmod	_	_
-9	em	em	ADP	ADP	_	10	case	_	_
-10	quadrinhos	quadro	NOUN	NOUN	_	8	nmod	_	_
-11	"	"	PUNCT	.	_	12	punct	_	SpaceAfter=No
-12	Pelezinho	_	PROPN	PNOUN	_	8	appos	_	SpaceAfter=No
-13	"	"	PUNCT	.	_	12	punct	_	SpaceAfter=No
-14	,	,	PUNCT	.	_	3	punct	_	_
-15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	Rei	_	PROPN	PNOUN	_	22	nsubj	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	revista	revista	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+9	em	em	ADP	_	_	10	case	_	_
+10	quadrinhos	quadrinho	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	Pelezinho	Pelezinho	PROPN	_	Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	3	punct	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Rei	Rei	PROPN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
 17-18	do	_	_	_	_	_	_	_	_
-17	de	de	ADP	ADP	_	19	case	_	_
-18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	futebol	futebol	NOUN	NOUN	_	16	nmod	_	_
-20	voltou	voltar	AUX	AUX	_	22	aux	_	_
-21	a	_	ADP	ADP	_	22	mark	_	_
-22	frisar	frisar	VERB	VERB	_	0	root	_	_
-23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-24	torcida	torcida	NOUN	NOUN	_	22	obj	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	futebol	futebol	NOUN	_	Number=Sing	16	nmod	_	_
+20	voltou	voltar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+21	a	a	SCONJ	_	_	22	mark	_	_
+22	frisar	frisar	VERB	_	VerbForm=Inf	20	xcomp	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	torcida	torcida	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
 25-26	pelo	_	_	_	_	_	_	_	_
-25	por	por	ADP	ADP	_	27	case	_	_
-26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	Corinthians	_	PROPN	PNOUN	_	24	nmod	_	SpaceAfter=No
-28	,	,	PUNCT	.	_	33	punct	_	_
-29	mas	mas	CCONJ	CONJ	_	33	cc	_	_
-30	não	não	ADV	ADV	Polarity=Neg	33	advmod	_	_
-31	deixou	deixar	AUX	AUX	_	33	aux	_	_
-32	de	_	ADP	ADP	_	33	mark	_	_
-33	provocar	provocar	VERB	VERB	_	22	conj	_	_
-34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
-35	rival	rival	NOUN	NOUN	_	33	obj	_	_
-36	santista	santista	ADJ	ADJ	_	35	amod	_	SpaceAfter=No
-37	.	.	PUNCT	.	_	22	punct	_	_
+25	por	por	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Corinthians	Corinthians	PROPN	_	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	31	punct	_	_
+29	mas	mas	CCONJ	_	_	31	cc	_	_
+30	não	não	ADV	_	Polarity=Neg	31	advmod	_	_
+31	deixou	deixar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	conj	_	_
+32	de	de	SCONJ	_	_	33	mark	_	_
+33	provocar	provocar	VERB	_	VerbForm=Inf	31	xcomp	_	_
+34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	rival	rival	NOUN	_	Gender=Masc|Number=Sing	33	obj	_	_
+36	santista	santista	ADJ	_	Gender=Masc|Number=Sing	35	amod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
 
 # sent_id = train-s3488
 # text = Com essa parceria, as diversas instituições de pesquisa científica de Sergipe poderão oferecer aos gestores da Seed o exercício da produção do conhecimento e do tratamento objetivo das informações necessárias à reflexão, qualificando a leitura e o debate e, desta forma, executando propostas de intervenção para melhorar a qualidade da educação básica no Estado.

@@ -18,53 +18,55 @@
 15	chamas	chama	NOUN	NOUN	_	13	obj	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = train-s7952
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = A procissão e a missa de encerramento da festa da padroeira de Natal, Nossa Senhora da Apresentação, ocorrida no final da tarde de hoje, contou com a presença de muitos políticos.
-1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	procissão	procissão	NOUN	NOUN	_	33	nsubj	_	_
-3	e	e	CCONJ	CONJ	_	5	cc	_	_
-4	a	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	missa	missa	NOUN	NOUN	_	2	conj	_	_
-6	de	de	ADP	ADP	_	7	case	_	_
-7	encerramento	encerramento	NOUN	NOUN	_	5	nmod	_	_
+# sent_id = train-s7952
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	procissão	procissão	NOUN	_	Gender=Fem|Number=Sing	33	nsubj	_	_
+3	e	e	CCONJ	_	_	5	cc	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	missa	missa	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	encerramento	encerramento	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 8-9	da	_	_	_	_	_	_	_	_
-8	de	de	ADP	ADP	_	10	case	_	_
-9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	festa	festa	NOUN	NOUN	_	7	nmod	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	festa	festa	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 11-12	da	_	_	_	_	_	_	_	_
-11	de	de	ADP	ADP	_	13	case	_	_
-12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	padroeira	padroeiro	NOUN	NOUN	_	10	nmod	_	_
-14	de	de	ADP	ADP	_	15	case	_	_
-15	Natal	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
-16	,	,	PUNCT	.	_	18	punct	_	_
-17	Nossa	_	PROPN	PNOUN	_	18	det:poss	_	_
-18	Senhora	_	PROPN	PNOUN	_	13	appos	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	padroeira	padroeira	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	Natal	Natal	PROPN	_	Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	Nossa	Nossa	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	13	appos	_	_
+18	Senhora	Senhora	PROPN	_	Number=Sing	17	flat:name	_	_
 19-20	da	_	_	_	_	_	_	_	_
-19	de	de	ADP	ADP	_	21	case	_	_
-20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-21	Apresentação	_	PROPN	PNOUN	_	18	nmod	_	SpaceAfter=No
-22	,	,	PUNCT	.	_	18	punct	_	_
-23	ocorrida	ocorrer	VERB	VERB	_	5	acl	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Apresentação	Apresentação	PROPN	_	Number=Sing	17	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	ocorrida	ocorrer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	10	acl	_	_
 24-25	no	_	_	_	_	_	_	_	_
-24	em	em	ADP	ADP	_	26	case	_	_
-25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	final	final	NOUN	NOUN	_	23	nmod	_	_
+24	em	em	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	final	final	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	_
 27-28	da	_	_	_	_	_	_	_	_
-27	de	de	ADP	ADP	_	29	case	_	_
-28	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-29	tarde	tarde	NOUN	NOUN	_	26	nmod	_	_
-30	de	_	ADP	ADP	_	31	mark	_	_
-31	hoje	hoje	ADV	ADV	_	29	nmod	_	SpaceAfter=No
-32	,	,	PUNCT	.	_	23	punct	_	_
-33	contou	contar	VERB	VERB	_	0	root	_	_
-34	com	com	ADP	ADP	_	36	case	_	_
-35	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-36	presença	presença	NOUN	NOUN	_	33	nmod	_	_
-37	de	de	ADP	ADP	_	39	case	_	_
-38	muitos	_	DET	DET	_	39	det	_	_
-39	políticos	político	NOUN	NOUN	_	36	nmod	_	SpaceAfter=No
-40	.	.	PUNCT	.	_	33	punct	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	tarde	tarde	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	hoje	hoje	ADV	_	_	29	advmod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	23	punct	_	_
+33	contou	contar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+34	com	com	ADP	_	_	36	case	_	_
+35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	presença	presença	NOUN	_	Gender=Fem|Number=Sing	33	obj	_	_
+37	de	de	ADP	_	_	39	case	_	_
+38	muitos	muito	DET	_	Gender=Masc|Number=Plur|PronType=Ind	39	det	_	_
+39	políticos	político	NOUN	_	Gender=Masc|Number=Plur	36	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	33	punct	_	SpaceAfter=No
 
 # sent_id = train-s7953
 # text = Gameiro, que marcou duas vezes no mês passado no único jogo que havia começado como titular nesta temporada, cabeceou após cruzamento de Maxwell aos 20 do segundo tempo.
@@ -108,97 +110,103 @@
 34	tempo	tempo	NOUN	NOUN	_	30	nmod	_	SpaceAfter=No
 35	.	.	PUNCT	.	_	23	punct	_	_
 
-# sent_id = train-s7954
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Acima e um tanto atrás se eleva outro arco ogival, já mais rico de espinhas e florões, terminando em pináculo, com um grande óculo ovalado com uma rosácea redonda de oito lobos em seu interior.
-1	Acima	acima	ADV	ADV	_	7	advmod	_	_
-2	e	e	CCONJ	CONJ	_	5	cc	_	_
-3	um	um	DET	DET	_	4	det	_	_
-4	tanto	tanto	NOUN	NOUN	_	5	advmod	_	_
-5	atrás	atrás	ADV	ADV	_	1	conj	_	_
-6	se	_	PART	PRT	_	7	expl:pv	_	_
-7	eleva	elevar	VERB	VERB	_	0	root	_	_
-8	outro	_	DET	DET	_	9	det	_	_
-9	arco	arco	NOUN	NOUN	_	7	nsubj	_	_
-10	ogival	ogival	ADJ	ADJ	_	9	amod	_	SpaceAfter=No
-11	,	,	PUNCT	.	_	14	punct	_	_
-12	já	já	ADV	ADV	_	13	advmod	_	_
-13	mais	mais	ADV	ADV	_	14	advmod	_	_
-14	rico	rico	ADJ	ADJ	_	9	amod	_	_
-15	de	de	ADP	ADP	_	16	case	_	_
-16	espinhas	_	NOUN	NOUN	_	14	nmod	_	_
-17	e	e	CCONJ	CONJ	_	18	cc	_	_
-18	florões	florão	NOUN	NOUN	_	16	conj	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	20	punct	_	_
-20	terminando	terminar	VERB	VERB	_	9	acl	_	_
-21	em	em	ADP	ADP	_	22	case	_	_
-22	pináculo	pináculo	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
-23	,	,	PUNCT	.	_	20	punct	_	_
-24	com	com	ADP	ADP	_	27	case	_	_
-25	um	um	DET	DET	_	27	det	_	_
-26	grande	grande	ADJ	ADJ	_	27	amod	_	_
-27	óculo	óculo	NOUN	NOUN	_	9	nmod	_	_
-28	ovalado	_	ADJ	ADJ	_	27	amod	_	_
-29	com	com	ADP	ADP	_	31	case	_	_
-30	uma	um	DET	DET	_	31	det	_	_
-31	rosácea	rosácea	NOUN	NOUN	_	27	nmod	_	_
-32	redonda	redondo	ADJ	ADJ	_	31	amod	_	_
-33	de	de	ADP	ADP	_	35	case	_	_
-34	oito	_	NUM	NUM	NumType=Card	35	nummod	_	_
-35	lobos	lobo	NOUN	NOUN	_	31	nmod	_	_
-36	em	em	ADP	ADP	_	38	case	_	_
-37	seu	_	DET	DET	_	38	det:poss	_	_
-38	interior	interior	NOUN	NOUN	_	31	nmod	_	SpaceAfter=No
-39	.	.	PUNCT	.	_	7	punct	_	_
+# sent_id = train-s7954
+1	Acima	acima	ADV	_	_	7	advmod	_	_
+2	e	e	CCONJ	_	_	3	cc	_	_
+3	um	um	NUM	_	NumType=Card	1	conj	_	_
+4	tanto	tanto	ADV	_	_	3	advmod	_	_
+5	atrás	atrás	ADV	_	_	7	advmod	_	_
+6	se	se	PRON	_	Case=Acc|PronType=Prs	7	expl	_	_
+7	eleva	elevar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	9	det	_	_
+9	arco	arco	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+10	ogival	ogival	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12	já	já	ADV	_	_	14	advmod	_	_
+13	mais	mais	ADV	_	_	14	advmod	_	_
+14	rico	rico	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	espinhas	espinha	NOUN	_	Gender=Fem|Number=Plur	14	obl	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	florões	florão	NOUN	_	Gender=Masc|Number=Plur	16	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	terminando	terminar	VERB	_	VerbForm=Ger	7	advcl	_	_
+21	em	em	ADP	_	_	22	case	_	_
+22	pináculo	pináculo	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	20	punct	_	_
+24	com	com	ADP	_	_	27	case	_	_
+25	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	grande	grande	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	_
+27	óculo	óculo	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
+28	ovalado	ovalar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	27	acl	_	_
+29	com	com	ADP	_	_	31	case	_	_
+30	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	rosácea	rosácea	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	_
+32	redonda	redondo	ADJ	_	Gender=Fem|Number=Sing	31	amod	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	oito	oito	NUM	_	NumType=Card	35	nummod	_	_
+35	lobos	lobo	NOUN	_	Gender=Masc|Number=Plur	31	nmod	_	_
+36	em	em	ADP	_	_	38	case	_	_
+37	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	38	det	_	_
+38	interior	interior	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
-# sent_id = train-s7955
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = A primeira temporada da série não está mais sendo exibida em nenhum canal, sendo também que a T.I. já encerrou a exibição da segunda e a Teen Model começou a exibir a segunda temporada e a encerrou em Janeiro deste ano.
-1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-2	primeira	primeiro	ADJ	ADJ	_	3	amod	_	_
-3	temporada	temporada	NOUN	NOUN	_	11	nsubj:pass	_	_
+# sent_id = train-s7955
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	temporada	temporada	NOUN	_	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
 4-5	da	_	_	_	_	_	_	_	_
-4	de	de	ADP	ADP	_	6	case	_	_
-5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	série	série	NOUN	NOUN	_	3	nmod	_	_
-7	não	não	ADV	ADV	Polarity=Neg	11	advmod	_	_
-8	está	estar	AUX	AUX	_	11	aux	_	_
-9	mais	mais	ADV	ADV	_	11	advmod	_	_
-10	sendo	ser	AUX	AUX	_	11	aux:pass	_	_
-11	exibida	exibir	VERB	VERB	_	0	root	_	_
-12	em	em	ADP	ADP	_	14	case	_	_
-13	nenhum	_	DET	DET	_	14	det	_	_
-14	canal	canal	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
-15	,	,	PUNCT	.	_	16	punct	_	_
-16	sendo	ser	VERB	VERB	_	11	acl	_	_
-17	também	também	ADV	ADV	_	16	advmod	_	_
-18	que	que	CCONJ	CONJ	_	22	mark	_	_
-19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	T.I.	_	PROPN	PNOUN	_	22	nsubj	_	_
-21	já	já	ADV	ADV	_	22	advmod	_	_
-22	encerrou	encerrar	VERB	VERB	_	16	csubj	_	_
-23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-24	exibição	exibição	NOUN	NOUN	_	22	obj	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	série	série	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+7	não	não	ADV	_	Polarity=Neg	11	advmod	_	_
+8	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+9	mais	mais	ADV	_	_	11	advmod	_	_
+10	sendo	ser	AUX	_	VerbForm=Ger	11	aux:pass	_	_
+11	exibida	exibir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	nenhum	nenhum	DET	_	Gender=Masc|Number=Sing|PronType=Neg	14	det	_	_
+14	canal	canal	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	11	punct	_	_
+16	sendo	ser	AUX	_	VerbForm=Ger	22	mark	_	_
+17	também	também	ADV	_	_	16	fixed	_	_
+18	que	que	SCONJ	_	_	22	mark	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	T.I.	T.I.	PROPN	_	Gender=Fem|Number=Sing	22	nsubj	_	_
+21	já	já	ADV	_	_	22	advmod	_	_
+22	encerrou	encerrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	advcl	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	exibição	exibição	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
 25-26	da	_	_	_	_	_	_	_	_
-25	de	de	ADP	ADP	_	27	case	_	_
-26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	segunda	_	NOUN	NOUN	_	24	nmod	_	_
-28	e	e	CCONJ	CONJ	_	34	cc	_	_
-29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
-30	Teen	_	PROPN	PNOUN	_	34	nsubj	_	_
-31	Model	_	PROPN	PNOUN	_	30	flat	_	_
-32	começou	começar	AUX	AUX	_	34	aux	_	_
-33	a	_	ADP	ADP	_	34	mark	_	_
-34	exibir	exibir	VERB	VERB	_	22	conj	_	_
-35	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
-36	segunda	segundo	ADJ	ADJ	_	37	amod	_	_
-37	temporada	temporada	NOUN	NOUN	_	34	obj	_	_
-38	e	e	CCONJ	CONJ	_	40	cc	_	_
-39	a	_	PRON	PRON	_	40	obj	_	_
-40	encerrou	encerrar	VERB	VERB	_	34	conj	_	_
-41	em	em	ADP	ADP	_	42	case	_	_
-42	Janeiro	_	PROPN	PNOUN	_	40	nmod	_	_
-43	deste	_	ADP	ADP	_	44	case	_	_
-44	ano	ano	NOUN	NOUN	_	42	nmod	_	SpaceAfter=No
-45	.	.	PUNCT	.	_	11	punct	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	segunda	segundo	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	24	nmod	_	_
+28	e	e	CCONJ	_	_	32	cc	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	Teen	Teen	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	32	nsubj	_	_
+31	Model	Model	PROPN	_	Number=Sing	30	flat:name	_	_
+32	começou	começar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	conj	_	_
+33	a	a	SCONJ	_	_	34	mark	_	_
+34	exibir	exibir	VERB	_	VerbForm=Inf	32	xcomp	_	_
+35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+36	segunda	segundo	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	37	amod	_	_
+37	temporada	temporada	NOUN	_	Gender=Fem|Number=Sing	34	obj	_	_
+38	e	e	CCONJ	_	_	40	cc	_	_
+39	a	ela	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	40	obj	_	_
+40	encerrou	encerrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	34	conj	_	_
+41	em	em	ADP	_	_	42	case	_	_
+42	Janeiro	janeiro	NOUN	_	Gender=Masc|Number=Sing	40	obl	_	_
+43-44	deste	_	_	_	_	_	_	_	_
+43	de	de	ADP	_	_	45	case	_	_
+44	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	45	det	_	_
+45	ano	ano	NOUN	_	Gender=Masc|Number=Sing	42	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
 
 # sent_id = train-s7956
 # text = Outra companhia que operou o tipo, dois modelos que acabaram na frota da TAM, foi a extinta TABA.
@@ -281,40 +289,42 @@
 16	afirmou	afirmar	VERB	VERB	_	0	root	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	16	punct	_	_
 
-# sent_id = train-s7959
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Mais do que isso, lembrará da conquista da Copa do Brasil, seu primeiro título como dono do gol alviverde.
-1	Mais	mais	ADV	ADV	_	7	advmod	_	_
+# sent_id = train-s7959
+1	Mais	mais	ADV	_	_	7	advmod	_	_
 2-3	do	_	_	_	_	_	_	_	_
-2	de	de	ADP	ADP	_	5	case	_	_
-3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-4	que	_	CCONJ	CONJ	_	2	fixed	_	_
-5	isso	_	PRON	PRON	_	1	nmod	_	SpaceAfter=No
-6	,	,	PUNCT	.	_	1	punct	_	_
-7	lembrará	lembrar	VERB	VERB	_	0	root	_	_
+2	de	de	ADP	_	_	1	fixed	_	_
+3	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	fixed	_	_
+4	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	1	fixed	_	_
+5	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	fixed	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	1	punct	_	_
+7	lembrará	lembrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 8-9	da	_	_	_	_	_	_	_	_
-8	de	de	ADP	ADP	_	10	case	_	_
-9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	conquista	conquista	NOUN	NOUN	_	7	nmod	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	conquista	conquista	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
 11-12	da	_	_	_	_	_	_	_	_
-11	de	de	ADP	ADP	_	13	case	_	_
-12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	Copa	_	PROPN	PNOUN	_	10	nmod	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Copa	Copa	PROPN	_	Gender=Fem|Number=Sing	10	nmod	_	_
 14-15	do	_	_	_	_	_	_	_	_
-14	de	de	ADP	ADP	_	16	case	_	_
-15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	Brasil	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
-17	,	,	PUNCT	.	_	20	punct	_	_
-18	seu	_	DET	DET	_	20	det:poss	_	_
-19	primeiro	primeiro	ADJ	ADJ	_	20	amod	_	_
-20	título	título	NOUN	NOUN	_	13	appos	_	_
-21	como	como	ADP	ADP	_	22	case	_	_
-22	dono	dono	NOUN	NOUN	_	20	nmod	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Brasil	Brasil	PROPN	_	Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	20	punct	_	_
+18	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	20	det	_	_
+19	primeiro	primeiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	20	amod	_	_
+20	título	título	NOUN	_	Gender=Masc|Number=Sing	10	appos	_	_
+21	como	como	ADP	_	_	22	case	_	_
+22	dono	dono	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
 23-24	do	_	_	_	_	_	_	_	_
-23	de	de	ADP	ADP	_	25	case	_	_
-24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	gol	gol	NOUN	NOUN	_	22	nmod	_	_
-26	alviverde	alviverde	ADJ	ADJ	_	25	amod	_	SpaceAfter=No
-27	.	.	PUNCT	.	_	7	punct	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	gol	gol	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
+26	alviverde	alviverde	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
 # sent_id = train-s7960
 # text = O atacante, que é velho conhecido do futebol cearense, marcou de pênalti, aos 24 minutos do 2 ° tempo.

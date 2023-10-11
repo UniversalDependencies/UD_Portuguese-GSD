@@ -230,28 +230,30 @@
 29	)	)	PUNCT	.	_	21	punct	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s4223
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = "Tínhamos feito duas substituições no intervalo, que iriam melhorar o time e chegaram a melhorar.
-1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
-2	Tínhamos	ter	AUX	AUX	_	3	aux	_	_
-3	feito	_	VERB	VERB	_	0	root	_	_
-4	duas	_	NUM	NUM	NumType=Card	5	nummod	_	_
-5	substituições	substituição	NOUN	NOUN	_	3	obj	_	_
+# sent_id = train-s4223
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Tínhamos	ter	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	feito	fazer	VERB	_	VerbForm=Part	0	root	_	_
+4	duas	dois	NUM	_	NumType=Card	5	nummod	_	_
+5	substituições	substituição	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
 6-7	no	_	_	_	_	_	_	_	_
-6	em	em	ADP	ADP	_	8	case	_	_
-7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	intervalo	intervalo	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	12	punct	_	_
-10	que	_	PRON	PRON	_	12	nsubj	_	_
-11	iriam	_	AUX	AUX	_	12	aux	_	_
-12	melhorar	melhorar	VERB	VERB	_	5	acl:relcl	_	_
-13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	time	time	NOUN	NOUN	_	12	obj	_	_
-15	e	e	CCONJ	CONJ	_	18	cc	_	_
-16	chegaram	chegar	AUX	AUX	_	18	aux	_	_
-17	a	_	ADP	ADP	_	18	mark	_	_
-18	melhorar	melhorar	VERB	VERB	_	12	conj	_	SpaceAfter=No
-19	.	.	PUNCT	.	_	3	punct	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	intervalo	intervalo	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	12	nsubj	_	_
+11	iriam	ir	AUX	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	12	aux	_	_
+12	melhorar	melhorar	VERB	_	VerbForm=Inf	5	acl:relcl	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	time	time	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	chegaram	chegar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	conj	_	_
+17	a	a	SCONJ	_	_	18	mark	_	_
+18	melhorar	melhorar	VERB	_	VerbForm=Inf	16	xcomp	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = train-s4224
 # text = Alguns anos mais tarde, Cuba sofreria as mesmas investidas da CIA e Fidel Castro teria escapado de mais de vinte tentativas de assassinato.

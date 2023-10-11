@@ -62,22 +62,24 @@
 19	russo	russo	ADJ	ADJ	_	17	amod	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = train-s2912
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = A nossa obrigação é seguir jogando para formar uma boa base para 2013.
-1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-2	nossa	_	DET	DET	_	3	det:poss	_	_
-3	obrigação	obrigação	NOUN	NOUN	_	0	root	_	_
-4	é	ser	AUX	AUX	_	3	cop	_	_
-5	seguir	seguir	AUX	AUX	_	6	aux	_	_
-6	jogando	jogar	VERB	VERB	_	3	csubj	_	_
-7	para	_	ADP	ADP	_	8	mark	_	_
-8	formar	formar	VERB	VERB	_	6	advcl	_	_
-9	uma	um	DET	DET	_	11	det	_	_
-10	boa	bom	ADJ	ADJ	_	11	amod	_	_
-11	base	base	NOUN	NOUN	_	8	obj	_	_
-12	para	para	ADP	ADP	_	13	case	_	_
-13	2013	2013	NUM	NUM	NumType=Card	11	nmod	_	SpaceAfter=No
-14	.	.	PUNCT	.	_	3	punct	_	_
+# sent_id = train-s2912
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	nossa	nosso	DET	_	Gender=Fem|Number=Sing|PronType=Prs	3	det	_	_
+3	obrigação	obrigação	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	seguir	seguir	VERB	_	VerbForm=Inf	0	root	_	_
+6	jogando	jogar	VERB	_	VerbForm=Ger	5	advcl	_	_
+7	para	para	SCONJ	_	_	8	mark	_	_
+8	formar	formar	VERB	_	VerbForm=Inf	6	advcl	_	_
+9	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	boa	bom	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+11	base	base	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+12	para	para	ADP	_	_	13	case	_	_
+13	2013	2013	NUM	_	NumType=Card	8	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # sent_id = train-s2913
 # text = A Folha apurou com a produção do "Programa Silvio Santos" que a emissora pretende capitalizar com o vídeo, que já ultrapassou 3,5 milhões de visualizações no YouTube e tornou a jovem Lívia Padilha, de 11 anos, a mais nova estrela do SBT.

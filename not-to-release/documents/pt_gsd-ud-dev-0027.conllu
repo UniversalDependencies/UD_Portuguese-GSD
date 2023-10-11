@@ -285,31 +285,33 @@
 53	)	)	PUNCT	.	_	52	punct	_	SpaceAfter=No
 54	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = dev-s269
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Depois ela acabou descobrindo que era traída pelo marido com a própria cunhada e que ele também se envolveu com outras mulheres.
-1	Depois	depois	ADV	ADV	_	4	advmod	_	_
-2	ela	_	PRON	PRON	_	4	nsubj	_	_
-3	acabou	acabar	AUX	AUX	_	4	aux	_	_
-4	descobrindo	descobrir	VERB	VERB	_	0	root	_	_
-5	que	que	CCONJ	CONJ	_	7	mark	_	_
-6	era	_	AUX	AUX	_	7	aux:pass	_	_
-7	traída	trair	VERB	VERB	_	4	ccomp	_	_
+# sent_id = dev-s269
+1	Depois	depois	ADV	_	_	3	advmod	_	_
+2	ela	ela	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	acabou	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	descobrindo	descobrir	VERB	_	VerbForm=Ger	3	xcomp	_	_
+5	que	que	SCONJ	_	_	7	mark	_	_
+6	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux:pass	_	_
+7	traída	trair	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	4	ccomp	_	_
 8-9	pelo	_	_	_	_	_	_	_	_
-8	por	por	ADP	ADP	_	10	case	_	_
-9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	marido	marido	NOUN	NOUN	_	7	nmod	_	_
-11	com	com	ADP	ADP	_	14	case	_	_
-12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-13	própria	próprio	ADJ	ADJ	_	14	amod	_	_
-14	cunhada	cunhado	NOUN	NOUN	_	7	nmod	_	_
-15	e	e	CCONJ	CONJ	_	20	cc	_	_
-16	que	que	CCONJ	CONJ	_	20	mark	_	_
-17	ele	_	PRON	PRON	_	20	nsubj	_	_
-18	também	também	ADV	ADV	_	20	advmod	_	_
-19	se	_	PRON	PRON	_	20	obj	_	_
-20	envolveu	envolver	VERB	VERB	_	7	conj	_	_
-21	com	com	ADP	ADP	_	23	case	_	_
-22	outras	_	DET	DET	_	23	det	_	_
-23	mulheres	mulher	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
-24	.	.	PUNCT	.	_	4	punct	_	_
+8	por	por	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	marido	marido	NOUN	_	Gender=Masc|Number=Sing	7	obl:agent	_	_
+11	com	com	ADP	_	_	14	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	própria	próprio	DET	_	Gender=Fem|Number=Sing|PronType=Emp	14	det	_	_
+14	cunhada	cunhada	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+15	e	e	CCONJ	_	_	20	cc	_	_
+16	que	que	SCONJ	_	_	20	mark	_	_
+17	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+18	também	também	ADV	_	_	20	advmod	_	_
+19	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	expl	_	_
+20	envolveu	envolver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+21	com	com	ADP	_	_	23	case	_	_
+22	outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	23	det	_	_
+23	mulheres	mulher	NOUN	_	Gender=Fem|Number=Plur	20	obj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 

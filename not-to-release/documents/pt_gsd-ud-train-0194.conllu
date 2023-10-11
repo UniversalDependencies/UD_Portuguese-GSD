@@ -191,69 +191,73 @@
 41	Cristo	_	PROPN	PNOUN	_	39	nmod	_	SpaceAfter=No
 42	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s1932
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Ela atendia em Los Angeles, Chicago e Houston, assim como em Las Vegas.
-1	Ela	_	PRON	PRON	_	2	nsubj	_	_
-2	atendia	atender	VERB	VERB	_	0	root	_	_
-3	em	em	ADP	ADP	_	5	case	_	_
-4	Los	_	PROPN	PNOUN	_	5	det	_	_
-5	Angeles	_	PROPN	PNOUN	_	2	nmod	_	SpaceAfter=No
-6	,	,	PUNCT	.	_	7	punct	_	_
-7	Chicago	_	PROPN	PNOUN	_	5	conj	_	_
-8	e	e	CCONJ	CONJ	_	9	cc	_	_
-9	Houston	_	PROPN	PNOUN	_	5	conj	_	SpaceAfter=No
-10	,	,	PUNCT	.	_	11	punct	_	_
-11	assim	assim	ADV	ADV	_	2	nmod	_	_
-12	como	_	ADP	ADP	_	11	fixed	_	_
-13	em	em	ADP	ADP	_	15	case	_	_
-14	Las	_	PROPN	PNOUN	_	15	det	_	_
-15	Vegas	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
-16	.	.	PUNCT	.	_	2	punct	_	_
+# sent_id = train-s1932
+1	Ela	ela	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	atendia	atender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	em	em	ADP	_	_	4	case	_	_
+4	Los	Los	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	2	obl	_	_
+5	Angeles	Angeles	PROPN	_	Number=Sing	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	Chicago	Chicago	PROPN	_	Gender=Masc|Number=Sing	4	conj	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	Houston	Houston	PROPN	_	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	14	punct	_	_
+11	assim	assim	ADV	_	_	14	cc	_	_
+12	como	como	ADP	_	_	11	fixed	_	_
+13	em	em	ADP	_	_	14	case	_	_
+14	Las	Las	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	4	conj	_	_
+15	Vegas	Vegas	PROPN	_	Number=Sing	14	flat:name	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
-# sent_id = train-s1933
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Sampaoli, inclusive, crê que a sua equipe terá mais dificuldades contra o Santos do que quando teve ao encarar o Boca Juniors (Argentina), nas semifinais da última Libertadores.
-1	Sampaoli	_	PROPN	PNOUN	_	5	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	.	_	3	punct	_	_
-3	inclusive	inclusive	ADV	ADV	_	5	advmod	_	SpaceAfter=No
-4	,	,	PUNCT	.	_	3	punct	_	_
-5	crê	crer	VERB	VERB	_	0	root	_	_
-6	que	que	CCONJ	CONJ	_	10	mark	_	_
-7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-8	sua	_	DET	DET	_	9	det:poss	_	_
-9	equipe	equipe	NOUN	NOUN	_	10	nsubj	_	_
-10	terá	ter	VERB	VERB	_	5	ccomp	_	_
-11	mais	_	DET	DET	_	12	det	_	_
-12	dificuldades	dificuldade	NOUN	NOUN	_	10	obj	_	_
-13	contra	_	ADP	ADP	_	15	case	_	_
-14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	Santos	_	PROPN	PNOUN	_	10	nmod	_	_
+# sent_id = train-s1933
+1	Sampaoli	Sampaoli	PROPN	_	Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	inclusive	inclusive	ADV	_	_	5	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	crê	crer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	que	que	SCONJ	_	_	10	mark	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	9	det	_	_
+9	equipe	equipe	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+10	terá	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	ccomp	_	_
+11	mais	mais	DET	_	Gender=Fem|Number=Plur|PronType=Ind	12	det	_	_
+12	dificuldades	dificuldade	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	_
+13	contra	contra	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Santos	Santos	PROPN	_	Gender=Masc|Number=Sing	12	nmod	_	_
 16-17	do	_	_	_	_	_	_	_	_
-16	de	de	ADP	ADP	_	20	case	_	_
-17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-18	que	_	CCONJ	CONJ	_	16	fixed	_	_
-19	quando	quando	ADV	ADV	_	20	advmod	_	_
-20	teve	ter	VERB	VERB	_	10	advcl	_	_
+16	de	de	ADP	_	_	20	mark	_	_
+17	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	16	fixed	_	_
+18	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	16	fixed	_	_
+19	quando	quando	ADV	_	_	20	advmod	_	_
+20	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	advcl	_	_
 21-22	ao	_	_	_	_	_	_	_	_
-21	a	a	ADP	ADP	_	23	case	_	_
-22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	encarar	encarar	VERB	VERB	_	20	advcl	_	_
-24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	Boca	_	PROPN	PNOUN	_	23	obj	_	_
-26	Juniors	_	PROPN	PNOUN	_	25	flat	_	_
-27	(	(	PUNCT	.	_	28	punct	_	SpaceAfter=No
-28	Argentina	_	PROPN	PNOUN	_	25	appos	_	SpaceAfter=No
-29	)	)	PUNCT	.	_	28	punct	_	SpaceAfter=No
-30	,	,	PUNCT	.	_	33	punct	_	_
+21	a	a	SCONJ	_	_	23	mark	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	encarar	encarar	VERB	_	VerbForm=Inf	20	advcl	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Boca	Boca	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	23	obj	_	_
+26	Juniors	Juniors	PROPN	_	Number=Sing	25	flat:name	_	_
+27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	Argentina	Argentina	PROPN	_	Gender=Fem|Number=Sing	25	parataxis	_	SpaceAfter=No
+29	)	)	PUNCT	_	_	28	punct	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	23	punct	_	_
 31-32	nas	_	_	_	_	_	_	_	_
-31	em	em	ADP	ADP	_	33	case	_	_
-32	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
-33	semifinais	semifinal	NOUN	NOUN	_	23	nmod	_	_
+31	em	em	ADP	_	_	33	case	_	_
+32	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	semifinais	semifinal	NOUN	_	Gender=Fem|Number=Plur	23	obl	_	_
 34-35	da	_	_	_	_	_	_	_	_
-34	de	de	ADP	ADP	_	37	case	_	_
-35	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
-36	última	último	ADJ	ADJ	_	37	amod	_	_
-37	Libertadores	_	PROPN	PNOUN	_	33	nmod	_	SpaceAfter=No
-38	.	.	PUNCT	.	_	5	punct	_	_
+34	de	de	ADP	_	_	37	case	_	_
+35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+36	última	último	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	37	amod	_	_
+37	Libertadores	Libertadores	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # sent_id = train-s1934
 # text = Na reunião com a chanceler da Alemanha, Angela Merkel, Jiabao d ...

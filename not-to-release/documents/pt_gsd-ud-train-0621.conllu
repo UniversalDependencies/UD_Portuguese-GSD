@@ -187,47 +187,49 @@
 36	municipal	municipal	ADJ	ADJ	_	35	amod	_	SpaceAfter=No
 37	.	.	PUNCT	.	_	21	punct	_	_
 
-# sent_id = train-s6172
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Lula disse a Pelegrino que "você vai governar para todo o povo de Salvador, mas vai ter que olhar em especial para os mais pobres, pois são eles quem mais precisam da Prefeitura.
-1	Lula	_	PROPN	PNOUN	_	2	nsubj	_	_
-2	disse	dizer	VERB	VERB	_	0	root	_	_
-3	a	_	ADP	ADP	_	4	case	_	_
-4	Pelegrino	_	PROPN	PNOUN	_	2	iobj	_	_
-5	que	_	PRON	PRON	_	9	mark	_	_
-6	"	"	PUNCT	.	_	9	punct	_	SpaceAfter=No
-7	você	_	PRON	PRON	_	9	nsubj	_	_
-8	vai	ir	AUX	AUX	_	9	aux	_	_
-9	governar	governar	VERB	VERB	_	2	ccomp	_	_
-10	para	para	ADP	ADP	_	13	case	_	_
-11	todo	_	DET	DET	_	13	det	_	_
-12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	povo	povo	NOUN	NOUN	_	9	nmod	_	_
-14	de	de	ADP	ADP	_	15	case	_	_
-15	Salvador	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
-16	,	,	PUNCT	.	_	21	punct	_	_
-17	mas	mas	CCONJ	CONJ	_	21	cc	_	_
-18	vai	ir	AUX	AUX	_	21	aux	_	_
-19	ter	ter	AUX	AUX	_	21	aux	_	_
-20	que	que	CCONJ	CONJ	_	21	mark	_	_
-21	olhar	olhar	VERB	VERB	_	9	conj	_	_
-22	em	_	ADP	ADP	_	23	mark	_	_
-23	especial	especial	ADJ	ADJ	_	21	nmod	_	_
-24	para	para	ADP	ADP	_	27	case	_	_
-25	os	o	DET	DET	_	27	det	_	_
-26	mais	_	DET	DET	_	27	det	_	_
-27	pobres	pobre	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
-28	,	,	PUNCT	.	_	31	punct	_	_
-29	pois	_	CCONJ	CONJ	_	31	mark	_	_
-30	são	ser	AUX	AUX	_	31	cop	_	_
-31	eles	_	PRON	PRON	_	21	advcl	_	_
-32	quem	_	PRON	PRON	_	34	nsubj	_	_
-33	mais	mais	ADV	ADV	_	34	advmod	_	_
-34	precisam	precisar	VERB	VERB	_	31	csubj	_	_
+# sent_id = train-s6172
+1	Lula	Lula	PROPN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	_	_	4	case	_	_
+4	Pelegrino	Pelegrino	PROPN	_	Gender=Masc|Number=Sing	2	obj	_	_
+5	que	que	SCONJ	_	_	9	mark	_	_
+6	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+7	você	você	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	governar	governar	VERB	_	VerbForm=Inf	2	ccomp	_	_
+10	para	para	ADP	_	_	13	case	_	_
+11	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Tot	13	det	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	povo	povo	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	Salvador	Salvador	PROPN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	21	punct	_	_
+17	mas	mas	CCONJ	_	_	21	cc	_	_
+18	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+19	ter	ter	AUX	_	VerbForm=Inf	21	aux	_	_
+20	que	que	SCONJ	_	_	21	mark	_	_
+21	olhar	olhar	VERB	_	VerbForm=Inf	9	conj	_	_
+22	em	em	ADP	_	_	23	case	_	_
+23	especial	especial	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
+24	para	para	ADP	_	_	27	case	_	_
+25	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+26	mais	mais	ADV	_	_	27	advmod	_	_
+27	pobres	pobre	NOUN	_	Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	21	punct	_	_
+29	pois	pois	SCONJ	_	_	34	mark	_	_
+30	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	_
+31	eles	eles	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	34	nsubj	_	_
+32	quem	quem	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	34	nsubj	_	_
+33	mais	mais	ADV	_	_	34	advmod	_	_
+34	precisam	precisar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	_
 35-36	da	_	_	_	_	_	_	_	_
-35	de	de	ADP	ADP	_	37	case	_	_
-36	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
-37	Prefeitura	_	PROPN	PNOUN	_	34	nmod	_	SpaceAfter=No
-38	.	.	PUNCT	.	_	2	punct	_	_
+35	de	de	ADP	_	_	37	case	_	_
+36	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	Prefeitura	prefeitura	NOUN	_	Gender=Fem|Number=Sing	34	obj	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = train-s6173
 # text = O filme fala sobre o início da Legião Urbana, uma parte que poucas pessoas conhecem.

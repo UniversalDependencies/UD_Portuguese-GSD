@@ -134,41 +134,41 @@
 25	programadas	programado	ADJ	ADJ	_	24	amod	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	13	punct	_	_
 
-# sent_id = test-s730
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Vou me reunir junto com o vice-presidente de futebol para nós começarmos a receber os relatórios do departamento, daquelas avaliações, da pré-temporada.
-1	Vou	ir	AUX	AUX	_	3	aux	_	_
-2	me	_	PRON	PRON	_	3	obj	_	_
-3	reunir	reunir	VERB	VERB	_	0	root	_	_
-4	junto	junto	ADV	ADV	_	3	advmod	_	_
-5	com	com	ADP	ADP	_	7	case	_	_
-6	o	o	DET	DET	_	7	det	_	_
-7	vice	_	PART	PRT	_	4	nmod	_	_
-8	-	-	PUNCT	.	_	7	punct	_	_
-9	presidente	presidente	NOUN	NOUN	_	7	flat	_	_
-10	de	de	ADP	ADP	_	11	case	_	_
-11	futebol	futebol	NOUN	NOUN	_	7	nmod	_	_
-12	para	_	ADP	ADP	_	16	mark	_	_
-13	nós	nó	NOUN	NOUN	_	16	nsubj	_	_
-14	começarmos	começar	AUX	AUX	_	16	aux	_	_
-15	a	_	ADP	ADP	_	16	mark	_	_
-16	receber	receber	VERB	VERB	_	3	advcl	_	_
-17	os	o	DET	DET	_	18	det	_	_
-18	relatórios	relatório	NOUN	NOUN	_	16	obj	_	_
-19-20	do	_	_	_	_	_	_	_	_
-19	de	de	ADP	ADP	_	21	case	_	_
-20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	departamento	departamento	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
-22	,	,	PUNCT	.	_	24	punct	_	_
-23	daquelas	_	ADP	ADP	_	24	case	_	_
-24	avaliações	avaliação	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
-25	,	,	PUNCT	.	_	28	punct	_	_
-26-27	da	_	_	_	_	_	_	_	_
-26	de	de	ADP	ADP	_	28	case	_	_
-27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
-28	pré	_	PART	PRT	_	18	nmod	_	_
-29	-	-	PUNCT	.	_	28	punct	_	_
-30	temporada	temporada	NOUN	NOUN	_	28	flat	_	SpaceAfter=No
-31	.	.	PUNCT	.	_	3	punct	_	_
+# sent_id = test-s730
+1	Vou	ir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	me	eu	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+3	reunir	reunir	VERB	_	VerbForm=Inf	0	root	_	_
+4	junto	junto	ADV	_	_	3	advmod	_	_
+5	com	com	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	vice-presidente	vice-presidente	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	futebol	futebol	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+10	para	para	SCONJ	_	_	12	mark	_	_
+11	nós	nós	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
+12	começarmos	começar	VERB	_	Number=Plur|Person=1|VerbForm=Inf	3	advcl	_	_
+13	a	a	SCONJ	_	_	14	mark	_	_
+14	receber	receber	VERB	_	VerbForm=Inf	12	xcomp	_	_
+15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	relatórios	relatório	NOUN	_	Gender=Masc|Number=Plur	14	obj	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	departamento	departamento	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	23	punct	_	_
+21-22	daquelas	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	aquelas	aquele	DET	_	Gender=Fem|Number=Plur|PronType=Dem	23	det	_	_
+23	avaliações	avaliação	NOUN	_	Gender=Fem|Number=Plur	19	conj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	27	punct	_	_
+25-26	da	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	pré-temporada	pré-temporada	NOUN	_	Gender=Fem|Number=Sing	19	conj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = test-s731
 # text = Foram 359 shido em 254 lutas, média de cerca de 1,41 penalidades aplicadas em cada combate.
@@ -205,29 +205,31 @@
 9	judiciais	judicial	ADJ	ADJ	_	8	amod	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = test-s733
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Se você não estiver logado no Twitter, será necessário fazer o login antes da confirmação.
-1	Se	_	CCONJ	CONJ	_	4	mark	_	_
-2	você	_	PRON	PRON	_	4	nsubj	_	_
-3	não	não	ADV	ADV	Polarity=Neg	4	advmod	_	_
-4	estiver	estar	VERB	VERB	_	10	advcl	_	_
-5	logado	_	ADJ	ADJ	_	4	xcomp	_	_
+# sent_id = test-s733
+1	Se	se	SCONJ	_	_	5	mark	_	_
+2	você	você	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	não	não	ADV	_	Polarity=Neg	5	advmod	_	_
+4	estiver	estar	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	cop	_	_
+5	logado	logado	ADJ	_	Gender=Masc|Number=Sing	11	advcl	_	_
 6-7	no	_	_	_	_	_	_	_	_
-6	em	em	ADP	ADP	_	8	case	_	_
-7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	Twitter	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	4	punct	_	_
-10	será	ser	VERB	VERB	_	0	root	_	_
-11	necessário	necessário	ADJ	ADJ	_	10	xcomp	_	_
-12	fazer	fazer	VERB	VERB	_	10	csubj	_	_
-13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	login	_	NOUN	NOUN	_	12	obj	_	_
-15	antes	antes	ADV	ADV	_	18	case	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Twitter	Twitter	PROPN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	5	punct	_	_
+10	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	cop	_	_
+11	necessário	necessário	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+12	fazer	fazer	VERB	_	VerbForm=Inf	11	csubj	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	login	login	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
+15	antes	antes	ADV	_	_	12	advmod	_	_
 16-17	da	_	_	_	_	_	_	_	_
-16	de	de	ADP	ADP	_	15	case	_	_
-17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-18	confirmação	confirmação	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
-19	.	.	PUNCT	.	_	10	punct	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	confirmação	confirmação	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
 
 # sent_id = test-s734
 # text = A MTV é uma emissora que dá liberdade e a gente pode fazer um trabalho autoral e sugerir piada.

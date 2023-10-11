@@ -1,29 +1,33 @@
-# sent_id = train-s6512
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Sim, Antero não deixa de ser um mito e merece análise mais aprofundada dessa sua trajetória tão cheia de idas e vindas.
-1	Sim	sim	ADV	ADV	_	9	advmod	_	SpaceAfter=No
-2	,	,	PUNCT	.	_	1	punct	_	_
-3	Antero	_	PROPN	PNOUN	_	9	nsubj	_	_
-4	não	não	ADV	ADV	Polarity=Neg	9	advmod	_	_
-5	deixa	deixar	AUX	AUX	_	9	aux	_	_
-6	de	_	ADP	ADP	_	9	mark	_	_
-7	ser	ser	AUX	AUX	_	9	cop	_	_
-8	um	um	DET	DET	_	9	det	_	_
-9	mito	mito	NOUN	NOUN	_	0	root	_	_
-10	e	e	CCONJ	CONJ	_	11	cc	_	_
-11	merece	merecer	VERB	VERB	_	9	conj	_	_
-12	análise	análise	NOUN	NOUN	_	11	obj	_	_
-13	mais	mais	ADV	ADV	_	14	advmod	_	_
-14	aprofundada	aprofundado	ADJ	ADJ	_	12	amod	_	_
-15	dessa	_	ADP	ADP	_	17	case	_	_
-16	sua	_	DET	DET	_	17	det:poss	_	_
-17	trajetória	trajetória	NOUN	NOUN	_	12	nmod	_	_
-18	tão	tão	ADV	ADV	_	19	advmod	_	_
-19	cheia	cheio	ADJ	ADJ	_	17	amod	_	_
-20	de	de	ADP	ADP	_	21	case	_	_
-21	idas	ida	NOUN	NOUN	_	19	nmod	_	_
-22	e	e	CCONJ	CONJ	_	23	cc	_	_
-23	vindas	vinda	NOUN	NOUN	_	21	conj	_	SpaceAfter=No
-24	.	.	PUNCT	.	_	9	punct	_	_
+# sent_id = train-s6512
+1	Sim	sim	ADV	_	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	Antero	Antero	PROPN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	não	não	ADV	_	Polarity=Neg	9	advmod	_	_
+5	deixa	deixar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	de	de	SCONJ	_	_	9	mark	_	_
+7	ser	ser	AUX	_	VerbForm=Inf	9	cop	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	mito	mito	NOUN	_	Gender=Masc|Number=Sing	5	xcomp	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	merece	merecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+12	análise	análise	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+13	mais	mais	ADV	_	_	14	advmod	_	_
+14	aprofundada	aprofundado	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
+15-16	dessa	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	18	case	_	_
+16	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	18	det	_	_
+17	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	18	det	_	_
+18	trajetória	trajetória	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+19	tão	tão	ADV	_	_	20	advmod	_	_
+20	cheia	cheio	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	idas	ida	NOUN	_	Gender=Fem|Number=Plur	20	obl	_	_
+23	e	e	CCONJ	_	_	24	cc	_	_
+24	vindas	vinda	NOUN	_	Gender=Fem|Number=Plur	22	conj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
 
 # sent_id = train-s6513
 # text = A nota informa ainda que o caso é acompanhado pela PM (Polícia Militar) de Alto Araguaia e por uma equipe do Corpo de Bombeiros de Mineiros (GO), que tem experiência na busca em rios.
@@ -108,56 +112,58 @@
 28	vez	vez	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = train-s6515
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O primeiro lançamento, inicialmente planeado para 19 de Agosto de 2009, realizou-se a 25 de Agosto de 2009 usando um foguete espacial russo / sul - coreano, o Naro - 1, mas o satélite não chegou a atingir a órbiita desejada.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-2	primeiro	primeiro	ADJ	ADJ	_	3	amod	_	_
-3	lançamento	lançamento	NOUN	NOUN	_	14	nsubj	_	SpaceAfter=No
-4	,	,	PUNCT	.	_	6	punct	_	_
-5	inicialmente	inicialmente	ADV	ADV	_	6	advmod	_	_
-6	planeado	planear	VERB	VERB	_	3	acl	_	_
-7	para	para	ADP	ADP	_	8	case	_	_
-8	19	19	NUM	NUM	NumType=Card	6	nmod	_	_
-9	de	de	ADP	ADP	_	10	case	_	_
-10	Agosto	_	PROPN	PNOUN	_	8	nmod	_	_
-11	de	de	ADP	ADP	_	12	case	_	_
-12	2009	2009	NUM	NUM	NumType=Card	10	nmod	_	SpaceAfter=No
-13	,	,	PUNCT	.	_	6	punct	_	_
+# sent_id = train-s6515
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	primeiro	primeiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	lançamento	lançamento	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	inicialmente	inicialmente	ADV	_	_	6	advmod	_	_
+6	planeado	planear	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	3	acl	_	_
+7	para	para	ADP	_	_	8	case	_	_
+8	19	19	NUM	_	NumType=Card	6	obl	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Agosto	agosto	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	2009	2009	NUM	_	NumType=Card	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	6	punct	_	_
 14-15	realizou-se	_	_	_	_	_	_	_	_
-14	realizou	realizar	VERB	VERB	_	0	root	_	_
-15	se	_	PART	PRT	_	14	expl:pv	_	_
-16	a	_	ADP	ADP	_	17	case	_	_
-17	25	25	NUM	NUM	NumType=Card	14	nmod	_	_
-18	de	de	ADP	ADP	_	19	case	_	_
-19	Agosto	_	PROPN	PNOUN	_	17	nmod	_	_
-20	de	de	ADP	ADP	_	21	case	_	_
-21	2009	2009	NUM	NUM	NumType=Card	19	nmod	_	_
-22	usando	usar	VERB	VERB	_	14	acl	_	_
-23	um	um	DET	DET	_	24	det	_	_
-24	foguete	foguete	NOUN	NOUN	_	22	obj	_	_
-25	espacial	espacial	ADJ	ADJ	_	24	amod	_	_
-26	russo	russo	ADJ	ADJ	_	24	amod	_	_
-27	/	/	PUNCT	.	_	30	punct	_	_
-28	sul	sul	ADJ	ADJ	_	30	amod	_	_
-29	-	-	PUNCT	.	_	30	punct	_	_
-30	coreano	coreano	ADJ	ADJ	_	26	conj	_	SpaceAfter=No
-31	,	,	PUNCT	.	_	43	punct	_	_
-32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
-33	Naro	_	PROPN	PNOUN	_	24	appos	_	_
-34	-	-	PUNCT	.	_	33	punct	_	_
-35	1	1	NUM	NUM	NumType=Card	33	appos	_	SpaceAfter=No
-36	,	,	PUNCT	.	_	33	punct	_	_
-37	mas	mas	CCONJ	CONJ	_	43	cc	_	_
-38	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
-39	satélite	satélite	NOUN	NOUN	_	43	nsubj	_	_
-40	não	não	ADV	ADV	Polarity=Neg	43	advmod	_	_
-41	chegou	chegar	AUX	AUX	_	43	aux	_	_
-42	a	_	ADP	ADP	_	43	mark	_	_
-43	atingir	atingir	VERB	VERB	_	14	conj	_	_
-44	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
-45	órbiita	_	NOUN	NOUN	_	43	obj	_	_
-46	desejada	desejar	VERB	VERB	_	45	acl	_	SpaceAfter=No
-47	.	.	PUNCT	.	_	14	punct	_	_
+14	realizou	realizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	expl	_	_
+16	a	a	ADP	_	_	17	case	_	_
+17	25	25	NUM	_	NumType=Card	14	obl	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	Agosto	agosto	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	2009	2009	NUM	_	NumType=Card	19	nmod	_	_
+22	usando	usar	VERB	_	VerbForm=Ger	14	advcl	_	_
+23	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	foguete	foguete	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
+25	espacial	espacial	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
+26	russo	russo	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
+27	/	/	PUNCT	_	_	28	punct	_	_
+28	sul	sul	ADJ	_	Gender=Masc|Number=Sing	26	conj	_	_
+29	-	-	PUNCT	_	_	28	punct	_	_
+30	coreano	coreano	ADJ	_	Gender=Masc|Number=Sing	26	conj	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	33	punct	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	Naro	Naro	PROPN	_	Gender=Masc|Number=Sing	24	appos	_	_
+34	-	-	PUNCT	_	_	35	punct	_	_
+35	1	1	NUM	_	NumType=Card	33	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	33	punct	_	_
+37	mas	mas	CCONJ	_	_	41	cc	_	_
+38	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	satélite	satélite	NOUN	_	Gender=Masc|Number=Sing	41	nsubj	_	_
+40	não	não	ADV	_	Polarity=Neg	41	advmod	_	_
+41	chegou	chegar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	conj	_	_
+42	a	a	SCONJ	_	_	43	mark	_	_
+43	atingir	atingir	VERB	_	VerbForm=Inf	41	xcomp	_	_
+44	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	órbiita	órbiita	NOUN	_	Gender=Fem|Number=Sing	43	obj	_	_
+46	desejada	desejar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	45	acl	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
 
 # sent_id = train-s6516
 # text = Segundo estudo divulgado nesta segunda - feira (22) pela consultoria Economatica, o recorde é do resultado apresentado no mesmo período de 2011 pelo Itaú Unibanco, que lucrou R $ 10,94 bilhões.

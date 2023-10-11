@@ -122,33 +122,35 @@
 24	Rousseff	_	PROPN	PNOUN	_	23	flat	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = test-s1160
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = A ideia é fornecer um meio de comunicação direto para que as pequenas empresas comuniquem-se com potenciais parceiros, fornecedores e clientes.
-1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	ideia	ideia	NOUN	NOUN	_	0	root	_	_
-3	é	ser	AUX	AUX	_	2	cop	_	_
-4	fornecer	fornecer	VERB	VERB	_	2	csubj	_	_
-5	um	um	DET	DET	_	6	det	_	_
-6	meio	meio	NOUN	NOUN	_	4	obj	_	_
-7	de	de	ADP	ADP	_	8	case	_	_
-8	comunicação	comunicação	NOUN	NOUN	_	6	nmod	_	_
-9	direto	direto	ADJ	ADJ	_	6	amod	_	_
-10	para	_	ADP	ADP	_	11	nmod	_	_
-11	que	que	CCONJ	CONJ	_	15	mark	_	_
-12	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
-13	pequenas	pequeno	ADJ	ADJ	_	14	amod	_	_
-14	empresas	empresa	NOUN	NOUN	_	15	nsubj	_	_
+# sent_id = test-s1160
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ideia	ideia	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	fornecer	fornecer	VERB	_	VerbForm=Inf	0	root	_	_
+5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	meio	meio	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	comunicação	comunicação	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+9	direto	direto	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+10	para	para	SCONJ	_	_	15	mark	_	_
+11	que	que	SCONJ	_	_	15	mark	_	_
+12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	pequenas	pequeno	ADJ	_	Gender=Fem|Number=Plur	14	amod	_	_
+14	empresas	empresa	NOUN	_	Gender=Fem|Number=Plur	15	nsubj	_	_
 15-16	comuniquem-se	_	_	_	_	_	_	_	_
-15	comuniquem	comunicar	VERB	VERB	_	2	advcl	_	_
-16	se	_	PRON	PRON	_	15	expl:pv	_	_
-17	com	com	ADP	ADP	_	19	case	_	_
-18	potenciais	potencial	ADJ	ADJ	_	19	amod	_	_
-19	parceiros	parceiro	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
-20	,	,	PUNCT	.	_	21	punct	_	_
-21	fornecedores	fornecedor	NOUN	NOUN	_	19	conj	_	_
-22	e	e	CCONJ	CONJ	_	23	cc	_	_
-23	clientes	cliente	NOUN	NOUN	_	19	conj	_	SpaceAfter=No
-24	.	.	PUNCT	.	_	2	punct	_	_
+15	comuniquem	comunicar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+16	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	15	expl	_	_
+17	com	com	ADP	_	_	19	case	_	_
+18	potenciais	potencial	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	_
+19	parceiros	parceiro	NOUN	_	Gender=Masc|Number=Plur	15	obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	fornecedores	fornecedor	NOUN	_	Gender=Masc|Number=Plur	19	conj	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	clientes	cliente	NOUN	_	Gender=Masc|Number=Plur	19	conj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # sent_id = test-s1161
 # text = Tudo é poder.

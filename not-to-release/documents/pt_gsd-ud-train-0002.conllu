@@ -1,27 +1,29 @@
-# sent_id = train-s11
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Se nenhuma providência for tomada, a população vai voltar a usar lamparinas à noite e geladeira a querosene.
-1	Se	_	CCONJ	CONJ	_	5	mark	_	_
-2	nenhuma	_	DET	DET	_	3	det	_	_
-3	providência	providência	NOUN	NOUN	_	5	nsubj:pass	_	_
-4	for	_	AUX	AUX	_	5	aux:pass	_	_
-5	tomada	tomar	VERB	VERB	_	12	advcl	_	SpaceAfter=No
-6	,	,	PUNCT	.	_	5	punct	_	_
-7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	população	população	NOUN	NOUN	_	12	nsubj	_	_
-9	vai	ir	AUX	AUX	_	12	aux	_	_
-10	voltar	voltar	AUX	AUX	_	12	aux	_	_
-11	a	_	ADP	ADP	_	12	mark	_	_
-12	usar	usar	VERB	VERB	_	0	root	_	_
-13	lamparinas	lamparina	NOUN	NOUN	_	12	obj	_	_
+# sent_id = train-s11
+1	Se	se	SCONJ	_	_	5	mark	_	_
+2	nenhuma	nenhum	DET	_	Gender=Fem|Number=Sing|PronType=Neg	3	det	_	_
+3	providência	providência	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+4	for	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	aux:pass	_	_
+5	tomada	tomar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	12	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	população	população	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+9	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+10	voltar	voltar	VERB	_	ExtPos=AUX|VerbForm=Inf	0	root	_	_
+11	a	a	SCONJ	_	_	12	mark	_	_
+12	usar	usar	VERB	_	VerbForm=Inf	10	xcomp	_	_
+13	lamparinas	lamparina	NOUN	_	Gender=Fem|Number=Plur	12	obj	_	_
 14-15	à	_	_	_	_	_	_	_	_
-14	a	a	ADP	ADP	_	16	case	_	_
-15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	noite	noite	NOUN	NOUN	_	12	nmod	_	_
-17	e	e	CCONJ	CONJ	_	18	cc	_	_
-18	geladeira	geladeira	NOUN	NOUN	_	13	conj	_	_
-19	a	_	ADP	ADP	_	20	case	_	_
-20	querosene	querosene	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
-21	.	.	PUNCT	.	_	12	punct	_	_
+14	a	a	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	noite	noite	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	geladeira	geladeira	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	_
+19	a	a	ADP	_	_	20	case	_	_
+20	querosene	querosene	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
 
 # sent_id = train-s12
 # text = Em relação ao socorro, é necessário olhar para a Serra com cuidado.
@@ -158,53 +160,55 @@
 6	nada	_	PRON	PRON	_	4	nmod	_	SpaceAfter=No
 7	!	!	PUNCT	.	_	2	punct	_	_
 
-# sent_id = train-s18
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O número 35 pelo ranking da ATP mais uma vez mostrou irregularidade no circuito profissional, já que em sua última participação foi um grande oponente diante do número um do mundo Roger Federer.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	número	número	NOUN	NOUN	_	13	nsubj	_	_
-3	35	35	NUM	NUM	NumType=Card	2	appos	_	_
+# sent_id = train-s18
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	número	número	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+3	35	35	NUM	_	NumType=Card	2	nummod	_	_
 4-5	pelo	_	_	_	_	_	_	_	_
-4	por	por	ADP	ADP	_	6	case	_	_
-5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	ranking	ranking	NOUN	NOUN	_	2	nmod	_	_
+4	por	por	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ranking	ranking	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 7-8	da	_	_	_	_	_	_	_	_
-7	de	de	ADP	ADP	_	9	case	_	_
-8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	ATP	_	PROPN	PNOUN	_	6	nmod	_	_
-10	mais	mais	ADV	ADV	_	11	advmod	_	_
-11	uma	_	NUM	NUM	NumType=Card	12	nummod	_	_
-12	vez	vez	NOUN	NOUN	_	13	nsubj	_	_
-13	mostrou	mostrar	VERB	VERB	_	0	root	_	_
-14	irregularidade	irregularidade	NOUN	NOUN	_	13	obj	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	ATP	ATP	PROPN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+10	mais	mais	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+11	uma	uma	ADP	_	_	12	case	_	_
+12	vez	vez	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+13	mostrou	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	irregularidade	irregularidade	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
 15-16	no	_	_	_	_	_	_	_	_
-15	em	em	ADP	ADP	_	17	case	_	_
-16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	circuito	circuito	NOUN	NOUN	_	14	nmod	_	_
-18	profissional	profissional	ADJ	ADJ	_	17	amod	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	29	punct	_	_
-20	já	já	ADV	ADV	_	29	mark	_	_
-21	que	_	CCONJ	CONJ	_	20	fixed	_	_
-22	em	em	ADP	ADP	_	25	case	_	_
-23	sua	_	DET	DET	_	25	det:poss	_	_
-24	última	último	ADJ	ADJ	_	25	amod	_	_
-25	participação	participação	NOUN	NOUN	_	29	nmod	_	_
-26	foi	_	AUX	AUX	_	29	cop	_	_
-27	um	um	DET	DET	_	29	det	_	_
-28	grande	grande	ADJ	ADJ	_	29	amod	_	_
-29	oponente	oponente	NOUN	NOUN	_	13	advcl	_	_
-30	diante	diante	ADV	ADV	_	29	advmod	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	circuito	circuito	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+18	profissional	profissional	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	13	punct	_	_
+20	já	já	ADV	_	ExtPos=SCONJ	29	mark	_	_
+21	que	que	SCONJ	_	_	20	fixed	_	_
+22	em	em	ADP	_	_	25	case	_	_
+23	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	25	det	_	_
+24	última	último	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	25	amod	_	_
+25	participação	participação	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
+26	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	cop	_	_
+27	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28	grande	grande	ADJ	_	Gender=Masc|Number=Sing	29	amod	_	_
+29	oponente	oponente	NOUN	_	Gender=Masc|Number=Sing	13	advcl	_	_
+30	diante	diante	ADV	_	ExtPos=ADP	33	case	_	_
 31-32	do	_	_	_	_	_	_	_	_
-31	de	de	ADP	ADP	_	33	case	_	_
-32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
-33	número	número	NOUN	NOUN	_	30	nmod	_	_
-34	um	_	PRON	PRON	_	33	appos	_	_
+31	de	de	ADP	_	_	30	fixed	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	número	número	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
+34	um	um	NUM	_	NumType=Card	33	nummod	_	_
 35-36	do	_	_	_	_	_	_	_	_
-35	de	de	ADP	ADP	_	37	case	_	_
-36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
-37	mundo	mundo	NOUN	NOUN	_	33	nmod	_	_
-38	Roger	_	PROPN	PNOUN	_	33	appos	_	_
-39	Federer	_	PROPN	PNOUN	_	38	flat	_	SpaceAfter=No
-40	.	.	PUNCT	.	_	13	punct	_	_
+35	de	de	ADP	_	_	37	case	_	_
+36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	_
+38	Roger	Roger	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	33	appos	_	_
+39	Federer	Federer	PROPN	_	Number=Sing	38	flat:name	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
 
 # sent_id = train-s19
 # text = Na semifinal, a judoca vai enfrentar a norte - americana Kayla Harrison, quarta do mundo, que ganhou da húngara Abigel Joo, quinta do ranking.

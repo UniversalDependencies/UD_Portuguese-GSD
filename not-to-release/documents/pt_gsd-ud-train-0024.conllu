@@ -229,31 +229,35 @@
 58	2003	2003	NUM	NUM	NumType=Card	47	nmod	_	SpaceAfter=No
 59	.	.	PUNCT	.	_	16	punct	_	_
 
-# sent_id = train-s238
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = No meio deste ano, o Leão chegou a anunciar a contratação do polêmico atacante de 24 anos.
+# sent_id = train-s238
 1-2	No	_	_	_	_	_	_	_	_
-1	Em	em	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	meio	meio	NOUN	NOUN	_	11	nmod	_	_
-4	deste	_	ADP	ADP	_	5	case	_	_
-5	ano	ano	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
-6	,	,	PUNCT	.	_	3	punct	_	_
-7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	Leão	_	PROPN	PNOUN	_	11	nsubj	_	_
-9	chegou	chegar	AUX	AUX	_	11	aux	_	_
-10	a	_	ADP	ADP	_	11	mark	_	_
-11	anunciar	anunciar	VERB	VERB	_	0	root	_	_
-12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	contratação	contratação	NOUN	NOUN	_	11	obj	_	_
-14-15	do	_	_	_	_	_	_	_	_
-14	de	de	ADP	ADP	_	17	case	_	_
-15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-16	polêmico	polêmico	ADJ	ADJ	_	17	amod	_	_
-17	atacante	atacante	NOUN	NOUN	_	13	nmod	_	_
-18	de	de	ADP	ADP	_	20	case	_	_
-19	24	24	NUM	NUM	NumType=Card	20	nummod	_	_
-20	anos	ano	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
-21	.	.	PUNCT	.	_	11	punct	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	meio	meio	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+4-5	deste	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	ano	ano	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Leão	Leão	PROPN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+10	chegou	chegar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	a	a	SCONJ	_	_	12	mark	_	_
+12	anunciar	anunciar	VERB	_	VerbForm=Inf	10	xcomp	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	contratação	contratação	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	18	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	polêmico	polêmico	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
+18	atacante	atacante	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	24	24	NUM	_	NumType=Card	21	nummod	_	_
+21	anos	ano	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
 
 # sent_id = train-s239
 # text = Quando segmentos da sociedade se debulham em lágrimas diante da questão da maioridade penal, essa condição não é levada em conta.

@@ -118,24 +118,26 @@
 31	público	público	ADJ	ADJ	_	30	amod	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s2744
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O calendário de lançamentos começa essa semana com a chegada da premiada bareMinerals.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	calendário	calendário	NOUN	NOUN	_	5	nsubj	_	_
-3	de	de	ADP	ADP	_	4	case	_	_
-4	lançamentos	lançamento	NOUN	NOUN	_	2	nmod	_	_
-5	começa	_	VERB	VERB	_	0	root	_	_
-6	essa	_	DET	DET	_	7	det	_	_
-7	semana	semana	NOUN	NOUN	_	5	nmod	_	_
-8	com	com	ADP	ADP	_	10	case	_	_
-9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	chegada	chegada	NOUN	NOUN	_	5	nmod	_	_
+# sent_id = train-s2744
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	calendário	calendário	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	lançamentos	lançamento	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+5	começa	começar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	semana	semana	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+8	com	com	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	chegada	chegada	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
 11-12	da	_	_	_	_	_	_	_	_
-11	de	de	ADP	ADP	_	10	case	_	_
-12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-13	premiada	premiado	ADJ	ADJ	_	14	amod	_	_
-14	bareMinerals	_	PROPN	PNOUN	_	11	appos	_	SpaceAfter=No
-15	.	.	PUNCT	.	_	5	punct	_	_
+11	de	de	ADP	_	_	14	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	premiada	premiado	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+14	bareMinerals	bareminerals	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # sent_id = train-s2745
 # text = Em Dezembro do mesmo ano, o governo autorizou a Companhia a adquirir outro terreno, para expandir a estação e construir habitações para o pessoal.
@@ -182,31 +184,33 @@
 8	Anastácio	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s2747
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Chamado de Assassin 's Creed III: Liberation, o jogo traz Aveline como a primeira protagonista mulher da série.
-1	Chamado	chamar	VERB	VERB	_	11	acl	_	_
-2	de	de	ADP	ADP	_	3	case	_	_
-3	Assassin	_	PROPN	PNOUN	_	1	nmod	_	_
-4	's	_	PROPN	PNOUN	_	3	det:poss	_	_
-5	Creed	_	PROPN	PNOUN	_	3	flat	_	_
-6	III	_	PROPN	PNOUN	_	3	appos	_	SpaceAfter=No
-7	:	:	PUNCT	.	_	3	punct	_	_
-8	Liberation	_	PROPN	PNOUN	_	3	appos	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	1	punct	_	_
-10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	jogo	jogo	NOUN	NOUN	_	12	nsubj	_	_
-12	traz	trazer	VERB	VERB	_	0	root	_	_
-13	Aveline	_	PROPN	PNOUN	_	12	obj	_	_
-14	como	como	ADP	ADP	_	17	case	_	_
-15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-16	primeira	primeiro	ADJ	ADJ	_	17	amod	_	_
-17	protagonista	protagonista	NOUN	NOUN	_	12	nmod	_	_
-18	mulher	mulher	NOUN	NOUN	_	17	flat	_	_
+# sent_id = train-s2747
+1	Chamado	chamar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	11	acl	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	Assassin	Assassin	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	1	obl	_	_
+4	's	's	PROPN	_	Number=Sing	3	flat:name	_	_
+5	Creed	Creed	PROPN	_	Number=Sing	3	flat:name	_	_
+6	III	III	PROPN	_	Number=Sing	3	flat:name	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	8	punct	_	_
+8	Liberation	Liberation	PROPN	_	Number=Sing	3	appos	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	1	punct	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	jogo	jogo	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+12	traz	trazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	Aveline	Aveline	PROPN	_	Gender=Fem|Number=Sing	12	obj	_	_
+14	como	como	ADP	_	_	17	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	17	amod	_	_
+17	protagonista	protagonista	NOUN	_	Gender=Fem|Number=Sing	12	xcomp	_	_
+18	mulher	mulher	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
 19-20	da	_	_	_	_	_	_	_	_
-19	de	de	ADP	ADP	_	21	case	_	_
-20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-21	série	série	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
-22	.	.	PUNCT	.	_	12	punct	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	série	série	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
 
 # sent_id = train-s2748
 # text = Retornou com os habituais titulares Gómez e Podolski nas vagas de Klose e Reus, respectivamente, e lançou o jovem Toni Kroos do Bayern de Munique no lugar que, supostamente, seria de Thomas Muller.

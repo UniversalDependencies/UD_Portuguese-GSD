@@ -65,31 +65,35 @@
 12	mail	mail	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	1	punct	_	_
 
-# sent_id = train-s3234
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O PIB potencial, que chegou a ser superior a 4 % no Brasil, hoje está aquém desse patamar.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	PIB	_	PROPN	PNOUN	_	18	nsubj	_	_
-3	potencial	potencial	ADJ	ADJ	_	2	amod	_	SpaceAfter=No
-4	,	,	PUNCT	.	_	8	punct	_	_
-5	que	_	PRON	PRON	_	8	nsubj	_	_
-6	chegou	chegar	AUX	AUX	_	8	aux	_	_
-7	a	_	ADP	ADP	_	8	mark	_	_
-8	ser	ser	VERB	VERB	_	2	acl:relcl	_	_
-9	superior	superior	ADJ	ADJ	_	8	xcomp	_	_
-10	a	_	ADP	ADP	_	12	case	_	_
-11	4	4	NUM	NUM	NumType=Card	12	nummod	_	_
-12	%	_	SYM	SYM	_	9	nmod	_	_
+# sent_id = train-s3234
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	PIB	PIB	PROPN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
+3	potencial	potencial	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	6	nsubj	_	_
+6	chegou	chegar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+7	a	a	SCONJ	_	_	9	mark	_	_
+8	ser	ser	AUX	_	VerbForm=Inf	9	cop	_	_
+9	superior	superior	ADJ	_	Gender=Masc|Number=Sing	6	xcomp	_	_
+10	a	a	ADP	_	_	12	case	_	_
+11	4	4	NUM	_	NumType=Card	12	nummod	_	_
+12	%	%	SYM	_	_	9	obl	_	_
 13-14	no	_	_	_	_	_	_	_	_
-13	em	em	ADP	ADP	_	15	case	_	_
-14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	Brasil	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
-16	,	,	PUNCT	.	_	8	punct	_	_
-17	hoje	hoje	ADV	ADV	_	18	advmod	_	_
-18	está	estar	VERB	VERB	_	0	root	_	_
-19	aquém	aquém	ADV	ADV	_	18	advmod	_	_
-20	desse	_	ADP	ADP	_	21	case	_	_
-21	patamar	patamar	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
-22	.	.	PUNCT	.	_	18	punct	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Brasil	Brasil	PROPN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	9	punct	_	_
+17	hoje	hoje	ADV	_	_	19	advmod	_	_
+18	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	aquém	aquém	ADV	_	_	0	root	_	_
+20-21	desse	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
+22	patamar	patamar	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
 
 # sent_id = train-s3235
 # text = Um projeto que será realizado em Caruaru, no Agreste de Pernambuco, vai promover a despoluição de rios e a orientação acerca da água que é consumida pelas comunidades e sua potabilidade.

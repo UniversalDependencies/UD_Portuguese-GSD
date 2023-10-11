@@ -255,54 +255,56 @@
 25	governador	governador	NOUN	NOUN	_	23	nsubj	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	23	punct	_	_
 
-# sent_id = train-s2469
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Apenas duas linhas de passageiros funcionam atualmente no País: uma liga Belo Horizonte (MG) a Vitória (ES) e outra, São Luís (MA) a Carajás (PA) -- ambas são operadas pela Vale.
-1	Apenas	apenas	ADV	ADV	_	2	advmod	_	_
-2	duas	_	NUM	NUM	NumType=Card	3	nummod	_	_
-3	linhas	_	NOUN	NOUN	_	6	nsubj	_	_
-4	de	de	ADP	ADP	_	5	case	_	_
-5	passageiros	passageiro	NOUN	NOUN	_	3	nmod	_	_
-6	funcionam	funcionar	VERB	VERB	_	0	root	_	_
-7	atualmente	atualmente	ADV	ADV	_	6	advmod	_	_
+# sent_id = train-s2469
+1	Apenas	apenas	ADV	_	_	2	advmod	_	_
+2	duas	dois	NUM	_	NumType=Card	3	nummod	_	_
+3	linhas	linha	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	passageiros	passageiro	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
+6	funcionam	funcionar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	atualmente	atualmente	ADV	_	_	6	advmod	_	_
 8-9	no	_	_	_	_	_	_	_	_
-8	em	em	ADP	ADP	_	10	case	_	_
-9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	País	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
-11	:	:	PUNCT	.	_	6	punct	_	_
-12	uma	_	PRON	PRON	_	13	nsubj	_	_
-13	liga	liga	NOUN	NOUN	_	6	parataxis	_	_
-14	Belo	_	PROPN	PNOUN	_	15	amod	_	_
-15	Horizonte	_	PROPN	PNOUN	_	13	obj	_	_
-16	(	(	PUNCT	.	_	17	punct	_	SpaceAfter=No
-17	MG	_	PROPN	PNOUN	_	15	appos	_	SpaceAfter=No
-18	)	)	PUNCT	.	_	17	punct	_	_
-19	a	_	DET	DET	_	20	case	_	_
-20	Vitória	_	PROPN	PNOUN	_	13	nmod	_	_
-21	(	(	PUNCT	.	_	22	punct	_	SpaceAfter=No
-22	ES	_	PROPN	PNOUN	_	20	appos	_	SpaceAfter=No
-23	)	)	PUNCT	.	_	22	punct	_	_
-24	e	e	CCONJ	CONJ	_	25	cc	_	_
-25	outra	_	PRON	PRON	_	13	conj	_	SpaceAfter=No
-26	,	,	PUNCT	.	_	25	punct	_	_
-27	São	_	PROPN	PNOUN	_	25	obj	_	_
-28	Luís	_	PROPN	PNOUN	_	27	flat	_	_
-29	(	(	PUNCT	.	_	30	punct	_	SpaceAfter=No
-30	MA	_	PROPN	PNOUN	_	27	appos	_	SpaceAfter=No
-31	)	)	PUNCT	.	_	30	punct	_	_
-32	a	_	ADP	ADP	_	33	case	_	_
-33	Carajás	_	PROPN	PNOUN	_	27	nmod	_	_
-34	(	(	PUNCT	.	_	35	punct	_	SpaceAfter=No
-35	PA	_	PROPN	PNOUN	_	33	appos	_	SpaceAfter=No
-36	)	)	PUNCT	.	_	35	punct	_	_
-37	--	_	PUNCT	.	_	6	punct	_	_
-38	ambas	_	PRON	PRON	_	40	nsubj:pass	_	_
-39	são	ser	AUX	AUX	_	40	aux:pass	_	_
-40	operadas	operar	VERB	VERB	_	6	parataxis	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	País	país	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	13	punct	_	_
+12	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	liga	liga	NOUN	_	Gender=Fem|Number=Sing	6	parataxis	_	_
+14	Belo	Belo	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	13	appos	_	_
+15	Horizonte	Horizonte	PROPN	_	Number=Sing	14	flat:name	_	_
+16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	MG	MG	PROPN	_	Gender=Fem|Number=Sing	14	parataxis	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	17	punct	_	_
+19	a	a	ADP	_	_	20	case	_	_
+20	Vitória	Vitória	PROPN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	ES	ES	PROPN	_	Gender=Masc|Number=Sing	20	parataxis	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	22	punct	_	_
+24	e	e	CCONJ	_	_	25	cc	_	_
+25	outra	outro	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	13	conj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	São	São	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	25	appos	_	_
+28	Luís	Luís	PROPN	_	Number=Sing	27	flat:name	_	_
+29	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
+30	MA	MA	PROPN	_	Gender=Fem|Number=Sing	27	appos	_	SpaceAfter=No
+31	)	)	PUNCT	_	_	30	punct	_	_
+32	a	a	ADP	_	_	33	case	_	_
+33	Carajás	Carajás	PROPN	_	Gender=Masc|Number=Sing	27	nmod	_	_
+34	(	(	PUNCT	_	_	35	punct	_	SpaceAfter=No
+35	PA	PA	PROPN	_	Gender=Masc|Number=Sing	33	parataxis	_	SpaceAfter=No
+36	)	)	PUNCT	_	_	35	punct	_	_
+37	--	--	PUNCT	_	_	40	punct	_	_
+38	ambas	ambos	PRON	_	Gender=Fem|Number=Plur|PronType=Tot	40	nsubj:pass	_	_
+39	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	40	aux:pass	_	_
+40	operadas	operar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	6	parataxis	_	_
 41-42	pela	_	_	_	_	_	_	_	_
-41	por	por	ADP	ADP	_	43	case	_	_
-42	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
-43	Vale	_	PROPN	PNOUN	_	40	nmod	_	SpaceAfter=No
-44	.	.	PUNCT	.	_	6	punct	_	_
+41	por	por	ADP	_	_	43	case	_	_
+42	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	Vale	Vale	PROPN	_	Gender=Fem|Number=Sing	40	obl:agent	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
 # sent_id = train-s2470
 # text = Outro modelo bastante elogiado foi o Audi A6 Avant.

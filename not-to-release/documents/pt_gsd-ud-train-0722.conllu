@@ -1,47 +1,51 @@
-# sent_id = train-s7166
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Para o cientista político do Insper / SP Humberto Dantas é uma incoerência do partido criticar Marcos Valério pelo fato dele ter sido considerado um criminoso pelo Supremo Tribunal Federal (STF).
-1	Para	_	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	cientista	cientista	NOUN	NOUN	_	14	nmod	_	_
-4	político	político	ADJ	ADJ	_	3	amod	_	_
+# sent_id = train-s7166
+1	Para	para	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	cientista	cientista	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+4	político	político	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 5-6	do	_	_	_	_	_	_	_	_
-5	de	de	ADP	ADP	_	7	case	_	_
-6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	Insper	_	PROPN	PNOUN	_	3	nmod	_	_
-8	/	/	PUNCT	.	_	7	punct	_	_
-9	SP	_	PROPN	PNOUN	_	7	flat	_	_
-10	Humberto	_	PROPN	PNOUN	_	3	appos	_	_
-11	Dantas	_	PROPN	PNOUN	_	10	flat	_	_
-12	é	ser	AUX	AUX	_	14	cop	_	_
-13	uma	um	DET	DET	_	14	det	_	_
-14	incoerência	incoerência	NOUN	NOUN	_	0	root	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Insper	Insper	PROPN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+8	/	/	PUNCT	_	_	9	punct	_	_
+9	SP	SP	PROPN	_	Gender=Masc|Number=Sing	7	conj	_	_
+10	Humberto	Humberto	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	7	flat:name	_	_
+11	Dantas	Dantas	PROPN	_	Number=Sing	10	flat:name	_	_
+12	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	incoerência	incoerência	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 15-16	do	_	_	_	_	_	_	_	_
-15	de	de	ADP	ADP	_	17	case	_	_
-16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	partido	partido	NOUN	NOUN	_	14	nmod	_	_
-18	criticar	criticar	VERB	VERB	_	14	csubj	_	_
-19	Marcos	_	PROPN	PNOUN	_	18	obj	_	_
-20	Valério	_	PROPN	PNOUN	_	19	flat	_	_
+15	de	de	SCONJ	_	_	18	mark	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	partido	partido	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
+18	criticar	criticar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	14	acl	_	_
+19	Marcos	Marcos	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	18	obj	_	_
+20	Valério	Valério	PROPN	_	Number=Sing	19	flat:name	_	_
 21-22	pelo	_	_	_	_	_	_	_	_
-21	por	por	ADP	ADP	_	29	case	_	_
-22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-23	fato	fato	NOUN	NOUN	_	21	fixed	_	_
-24	dele	_	ADP	ADP	_	21	fixed	_	_
-25	ter	ter	AUX	AUX	_	29	aux	_	_
-26	sido	ser	AUX	AUX	_	29	aux:pass	_	_
-27	considerado	considerar	AUX	AUX	_	29	cop	_	_
-28	um	um	DET	DET	_	29	det	_	_
-29	criminoso	criminoso	NOUN	NOUN	_	18	advcl	_	_
-30-31	pelo	_	_	_	_	_	_	_	_
-30	por	por	ADP	ADP	_	33	case	_	_
-31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
-32	Supremo	_	PROPN	PNOUN	_	33	amod	_	_
-33	Tribunal	_	PROPN	PNOUN	_	29	nmod	_	_
-34	Federal	_	PROPN	PNOUN	_	33	amod	_	_
-35	(	(	PUNCT	.	_	36	punct	_	SpaceAfter=No
-36	STF	_	PROPN	PNOUN	_	33	appos	_	SpaceAfter=No
-37	)	)	PUNCT	.	_	36	punct	_	SpaceAfter=No
-38	.	.	PUNCT	.	_	14	punct	_	_
+21	por	por	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	fato	fato	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+24-25	dele	_	_	_	_	_	_	_	_
+24	de	de	SCONJ	_	_	28	mark	_	_
+25	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj:pass	_	_
+26	ter	ter	AUX	_	Number=Sing|Person=3|VerbForm=Inf	28	aux	_	_
+27	sido	ser	AUX	_	VerbForm=Part	28	aux:pass	_	_
+28	considerado	considerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	23	acl	_	_
+29	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	criminoso	criminoso	NOUN	_	Gender=Masc|Number=Sing	28	xcomp	_	_
+31-32	pelo	_	_	_	_	_	_	_	_
+31	por	por	ADP	_	_	33	case	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	Supremo	Supremo	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	28	obl:agent	_	_
+34	Tribunal	Tribunal	PROPN	_	Number=Sing	33	flat:name	_	_
+35	Federal	Federal	PROPN	_	Number=Sing	33	flat:name	_	_
+36	(	(	PUNCT	_	_	37	punct	_	SpaceAfter=No
+37	STF	STF	PROPN	_	Gender=Masc|Number=Sing	33	appos	_	SpaceAfter=No
+38	)	)	PUNCT	_	_	37	punct	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
 
 # sent_id = train-s7167
 # text = A reforma do Fórum de Tabaporã está prevista no plano de obras e está englobada no grupo de comarcas que precisam de obras consideradas de pequeno porte, cujo investimento não ultrapassa R $ 150 mil.
@@ -105,34 +109,36 @@
 11	RSS	_	PROPN	PNOUN	_	8	conj	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	1	punct	_	_
 
-# sent_id = train-s7170
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Até lá, a estudante ficará num abrigo para menores (Children 's Village), em Miami, na Flórida.
-1	Até	_	ADP	ADP	_	2	mark	_	_
-2	lá	lá	ADV	ADV	_	6	nmod	_	SpaceAfter=No
-3	,	,	PUNCT	.	_	2	punct	_	_
-4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	estudante	estudante	NOUN	NOUN	_	6	nsubj	_	_
-6	ficará	ficar	VERB	VERB	_	0	root	_	_
+# sent_id = train-s7170
+1	Até	até	ADP	_	_	2	case	_	_
+2	lá	lá	ADV	_	_	6	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	estudante	estudante	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+6	ficará	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 7-8	num	_	_	_	_	_	_	_	_
-7	em	em	ADP	ADP	_	9	case	_	_
-8	um	um	DET	DET	_	9	det	_	_
-9	abrigo	abrigo	NOUN	NOUN	_	6	nmod	_	_
-10	para	para	ADP	ADP	_	11	case	_	_
-11	menores	_	NOUN	NOUN	_	9	nmod	_	_
-12	(	(	PUNCT	.	_	13	punct	_	SpaceAfter=No
-13	Children	_	PROPN	PNOUN	_	9	appos	_	_
-14	's	_	PROPN	PNOUN	_	13	det:poss	_	_
-15	Village	_	PROPN	PNOUN	_	13	flat	_	SpaceAfter=No
-16	)	)	PUNCT	.	_	13	punct	_	SpaceAfter=No
-17	,	,	PUNCT	.	_	19	punct	_	_
-18	em	em	ADP	ADP	_	19	case	_	_
-19	Miami	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
-20	,	,	PUNCT	.	_	23	punct	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	abrigo	abrigo	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+10	para	para	ADP	_	_	11	case	_	_
+11	menores	pequeno	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	Children	Children	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	9	appos	_	_
+14	's	's	PUNCT	_	_	13	punct	_	_
+15	Village	Village	PROPN	_	Gender=Masc|Number=Sing	13	appos	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	6	punct	_	_
+18	em	em	ADP	_	_	19	case	_	_
+19	Miami	Miami	PROPN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
 21-22	na	_	_	_	_	_	_	_	_
-21	em	em	ADP	ADP	_	23	case	_	_
-22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-23	Flórida	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
-24	.	.	PUNCT	.	_	6	punct	_	_
+21	em	em	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Flórida	Flórida	PROPN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
 # sent_id = train-s7171
 # text = Esses eventos ocorrem em paralelo no contexto do nascimento e da consciência do nacionalismo árabe na Palestina e da violência política palestina.

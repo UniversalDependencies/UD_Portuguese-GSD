@@ -33,41 +33,43 @@
 28	inadimplência	inadimplência	NOUN	NOUN	_	26	obj	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	10	punct	_	_
 
-# sent_id = train-s1827
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Não se trata duma promessa frágil, que se apaga da memória antes do bronzeado que você ganhará no feriadão do Reveillón.
-1	Não	não	ADV	ADV	Polarity=Neg	3	advmod	_	_
-2	se	_	PART	PRT	_	3	expl:pv	_	_
-3	trata	tratar	VERB	VERB	_	0	root	_	_
+# sent_id = train-s1827
+1	Não	não	ADV	_	Polarity=Neg	3	advmod	_	_
+2	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+3	trata	tratar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4-5	duma	_	_	_	_	_	_	_	_
-4	de	de	ADP	ADP	_	6	case	_	_
-5	uma	um	DET	DET	_	6	det	_	_
-6	promessa	promessa	NOUN	NOUN	_	3	nmod	_	_
-7	frágil	frágil	ADJ	ADJ	_	6	amod	_	SpaceAfter=No
-8	,	,	PUNCT	.	_	11	punct	_	_
-9	que	_	PRON	PRON	_	11	nsubj	_	_
-10	se	_	PART	PRT	_	11	expl:pv	_	_
-11	apaga	apagar	VERB	VERB	_	6	acl:relcl	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	promessa	promessa	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+7	frágil	frágil	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	_
+9	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	11	nsubj	_	_
+10	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	expl	_	_
+11	apaga	apagar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
 12-13	da	_	_	_	_	_	_	_	_
-12	de	de	ADP	ADP	_	14	case	_	_
-13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	memória	memória	NOUN	NOUN	_	11	nmod	_	_
-15	antes	antes	ADV	ADV	_	18	case	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	memória	memória	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+15	antes	antes	ADV	_	_	11	advmod	_	_
 16-17	do	_	_	_	_	_	_	_	_
-16	de	de	ADP	ADP	_	15	case	_	_
-17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-18	bronzeado	bronzeado	NOUN	NOUN	_	11	nmod	_	_
-19	que	_	PRON	PRON	_	21	obj	_	_
-20	você	_	PRON	PRON	_	21	nsubj	_	_
-21	ganhará	ganhar	VERB	VERB	_	18	acl:relcl	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	bronzeado	bronzeado	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+19	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	21	obj	_	_
+20	você	você	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+21	ganhará	ganhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	18	acl:relcl	_	_
 22-23	no	_	_	_	_	_	_	_	_
-22	em	em	ADP	ADP	_	24	case	_	_
-23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	feriadão	feriado	NOUN	NOUN	_	21	nmod	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	feriadão	feriadão	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
 25-26	do	_	_	_	_	_	_	_	_
-25	de	de	ADP	ADP	_	27	case	_	_
-26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	Reveillón	_	PROPN	PNOUN	_	24	nmod	_	SpaceAfter=No
-28	.	.	PUNCT	.	_	3	punct	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Reveillón	Reveillón	PROPN	_	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = train-s1828
 # text = A policial, de 27 anos, não resistiu ao ver uma das salas, onde um falo gigante estava em exposição, e fez uma foto.
@@ -209,69 +211,77 @@
 24	anos	ano	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	15	punct	_	_
 
-# sent_id = train-s1833
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Depois da atividade da Fazenda do terror, a peoa demorou para conseguir dormir e qualquer barulho que ouvia fora do celeiro se assustava.
-1	Depois	depois	ADV	ADV	_	14	advmod	_	_
+# sent_id = train-s1833
+1	Depois	depois	ADV	_	_	14	advmod	_	_
 2-3	da	_	_	_	_	_	_	_	_
-2	de	de	ADP	ADP	_	4	case	_	_
-3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	atividade	atividade	NOUN	NOUN	_	1	nmod	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
 5-6	da	_	_	_	_	_	_	_	_
-5	de	de	ADP	ADP	_	7	case	_	_
-6	A	_	PROPN	PNOUN	_	7	det	_	_
-7	Fazenda	_	PROPN	PNOUN	_	4	nmod	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Fazenda	fazenda	PROPN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 8-9	do	_	_	_	_	_	_	_	_
-8	de	de	ADP	ADP	_	10	case	_	_
-9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	terror	terror	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-11	,	,	PUNCT	.	_	1	punct	_	_
-12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	peoa	peão	NOUN	NOUN	_	14	nsubj	_	_
-14	demorou	demorar	VERB	VERB	_	0	root	_	_
-15	para	_	ADP	ADP	_	16	mark	_	_
-16	conseguir	conseguir	VERB	VERB	_	14	nmod	_	_
-17	dormir	dormir	VERB	VERB	_	16	xcomp	_	_
-18	e	e	CCONJ	CONJ	_	28	cc	_	_
-19	qualquer	_	DET	DET	_	20	det	_	_
-20	barulho	barulho	NOUN	NOUN	_	28	dep	_	_
-21	que	_	PRON	PRON	_	22	obj	_	_
-22	ouvia	ouvir	VERB	VERB	_	20	acl:relcl	_	_
-23	fora	fora	ADV	ADV	_	20	advmod	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	terror	terror	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	1	punct	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	peoa	peoa	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
+14	demorou	demorar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	para	para	SCONJ	_	_	16	mark	_	_
+16	conseguir	conseguir	VERB	_	VerbForm=Inf	14	advcl	_	_
+17	dormir	dormir	VERB	_	VerbForm=Inf	16	xcomp	_	_
+18	e	e	CCONJ	_	_	28	cc	_	_
+19	qualquer	qualquer	DET	_	Gender=Masc|Number=Sing|PronType=Ind	20	det	_	_
+20	barulho	barulho	NOUN	_	Gender=Masc|Number=Sing	28	nsubj	_	_
+21	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	22	obj	_	_
+22	ouvia	ouvir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	acl:relcl	_	_
+23	fora	fora	ADV	_	_	22	advmod	_	_
 24-25	do	_	_	_	_	_	_	_	_
-24	de	de	ADP	ADP	_	26	case	_	_
-25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	celeiro	celeiro	NOUN	NOUN	_	23	nmod	_	_
-27	se	_	PRON	PRON	_	28	expl:pv	_	_
-28	assustava	assustar	VERB	VERB	_	14	conj	_	SpaceAfter=No
-29	.	.	PUNCT	.	_	14	punct	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	celeiro	celeiro	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	_
+27	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	expl	_	_
+28	assustava	assustar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	conj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
 
-# sent_id = train-s1834
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Ex - funcionário daquela empresa, Anselmo costuma dormir naquele local com a permissão do proprietário, Edson dos Santos.
-1	Ex	_	PART	PRT	_	9	nsubj	_	_
-2	-	-	PUNCT	.	_	1	punct	_	_
-3	funcionário	funcionário	NOUN	NOUN	_	1	flat	_	_
-4	daquela	_	ADP	ADP	_	5	case	_	_
-5	empresa	empresa	NOUN	NOUN	_	1	nmod	_	SpaceAfter=No
-6	,	,	PUNCT	.	_	7	punct	_	_
-7	Anselmo	_	PROPN	PNOUN	_	1	appos	_	_
-8	costuma	costumar	AUX	AUX	_	9	aux	_	_
-9	dormir	dormir	VERB	VERB	_	0	root	_	_
-10	naquele	_	ADP	ADP	_	11	case	_	_
-11	local	local	NOUN	NOUN	_	9	nmod	_	_
-12	com	com	ADP	ADP	_	14	case	_	_
-13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	permissão	permissão	NOUN	NOUN	_	9	nmod	_	_
-15-16	do	_	_	_	_	_	_	_	_
-15	de	de	ADP	ADP	_	17	case	_	_
-16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	proprietário	proprietário	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
-18	,	,	PUNCT	.	_	19	punct	_	_
-19	Edson	_	PROPN	PNOUN	_	17	appos	_	_
-20-21	dos	_	_	_	_	_	_	_	_
-20	de	de	ADP	ADP	_	22	case	_	_
-21	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
-22	Santos	_	PROPN	PNOUN	_	19	nmod	_	SpaceAfter=No
-23	.	.	PUNCT	.	_	9	punct	_	_
+# sent_id = train-s1834
+1	Ex	ex	ADP	_	_	3	case	_	_
+2	-	-	PUNCT	_	_	3	punct	_	_
+3	funcionário	funcionário	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+4-5	daquela	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	aquela	aquele	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	Anselmo	Anselmo	PROPN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+9	costuma	costumar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	dormir	dormir	VERB	_	VerbForm=Inf	9	xcomp	_	_
+11-12	naquele	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	aquele	aquele	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+13	local	local	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+14	com	com	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	permissão	permissão	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	proprietário	proprietário	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	Edson	Edson	PROPN	_	Gender=Masc|Number=Sing	19	appos	_	_
+22-23	dos	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	Santos	Santos	PROPN	_	Number=Sing	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
 
 # sent_id = train-s1835
 # text = Vou estar muito bem preparado na luta ", comentou o campeão.

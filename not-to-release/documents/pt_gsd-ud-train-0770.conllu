@@ -1,18 +1,20 @@
-# sent_id = train-s7643
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Merecia, mais do que ninguém, levar este campeonato.
-1	Merecia	merecer	VERB	VERB	_	0	root	_	SpaceAfter=No
-2	,	,	PUNCT	.	_	7	punct	_	_
-3	mais	mais	ADV	ADV	_	7	case	_	_
+# sent_id = train-s7643
+1	Merecia	merecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	mais	mais	ADV	_	_	1	advmod	_	_
 4-5	do	_	_	_	_	_	_	_	_
-4	de	de	ADP	ADP	_	7	case	_	_
-5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-6	que	_	ADP	ADP	_	4	fixed	_	_
-7	ninguém	_	PRON	PRON	_	1	advmod	_	SpaceAfter=No
-8	,	,	PUNCT	.	_	7	punct	_	_
-9	levar	levar	VERB	VERB	_	1	xcomp	_	_
-10	este	_	DET	DET	_	11	det	_	_
-11	campeonato	campeonato	NOUN	NOUN	_	9	obj	_	SpaceAfter=No
-12	.	.	PUNCT	.	_	1	punct	_	_
+4	de	de	ADP	_	_	7	case	_	_
+5	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	fixed	_	_
+6	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	4	fixed	_	_
+7	ninguém	ninguém	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	levar	levar	VERB	_	VerbForm=Inf	1	xcomp	_	_
+10	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	campeonato	campeonato	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = train-s7644
 # text = Luiz Flávio aponta que desde 2008 todas as pesquisas de opinião mostram a segurança pública como a maior preocupação da sociedade, perdendo apenas para o tema saúde, que vive outro caos.

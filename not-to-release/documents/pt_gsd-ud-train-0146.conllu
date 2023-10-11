@@ -1,28 +1,30 @@
-# sent_id = train-s1449
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O segundo álbum do One Direction, "Take Me Home", tem lançamento marcado para 12 de novembro.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-2	segundo	segundo	ADJ	ADJ	_	3	amod	_	_
-3	álbum	álbum	NOUN	NOUN	_	15	nsubj	_	_
+# sent_id = train-s1449
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	segundo	segundo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	álbum	álbum	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
 4-5	do	_	_	_	_	_	_	_	_
-4	de	de	ADP	ADP	_	7	case	_	_
-5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-6	One	_	PROPN	PNOUN	_	7	nummod	_	_
-7	Direction	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
-8	,	,	PUNCT	.	_	10	punct	_	_
-9	"	"	PUNCT	.	_	10	punct	_	SpaceAfter=No
-10	Take	_	PROPN	PNOUN	_	3	appos	_	_
-11	Me	_	PROPN	PNOUN	_	10	obj	_	_
-12	Home	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
-13	"	"	PUNCT	.	_	10	punct	_	SpaceAfter=No
-14	,	,	PUNCT	.	_	10	punct	_	_
-15	tem	ter	VERB	VERB	_	0	root	_	_
-16	lançamento	lançamento	NOUN	NOUN	_	15	obj	_	_
-17	marcado	marcar	VERB	VERB	_	16	acl	_	_
-18	para	para	ADP	ADP	_	19	case	_	_
-19	12	12	NUM	NUM	NumType=Card	17	nmod	_	_
-20	de	de	ADP	ADP	_	21	case	_	_
-21	novembro	_	PROPN	PNOUN	_	19	nmod	_	SpaceAfter=No
-22	.	.	PUNCT	.	_	15	punct	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	One	One	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	3	nmod	_	_
+7	Direction	Direction	PROPN	_	Number=Sing	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	Take	Take	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	3	appos	_	_
+11	Me	Me	PROPN	_	Number=Sing	10	flat:name	_	_
+12	Home	Home	PROPN	_	Number=Sing	10	flat:name	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	10	punct	_	_
+15	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	lançamento	lançamento	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
+17	marcado	marcar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	16	acl	_	_
+18	para	para	ADP	_	_	19	case	_	_
+19	12	12	NUM	_	NumType=Card	17	obl	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	novembro	novembro	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
 
 # sent_id = train-s1450
 # text = A derrota deixou o Vasco fora do G4.

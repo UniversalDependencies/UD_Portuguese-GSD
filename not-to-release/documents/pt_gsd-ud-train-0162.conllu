@@ -144,25 +144,29 @@
 23	Mega	_	PROPN	PNOUN	_	21	obj	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = train-s1614
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Ela não pode prestar depoimento nesta terça - feira devido ao seu estado emocional.
-1	Ela	_	PRON	PRON	_	4	nsubj	_	_
-2	não	não	ADV	ADV	Polarity=Neg	4	advmod	_	_
-3	pode	_	AUX	AUX	_	4	aux	_	_
-4	prestar	prestar	VERB	VERB	_	0	root	_	_
-5	depoimento	depoimento	NOUN	NOUN	_	4	obj	_	_
-6	nesta	_	ADP	ADP	_	9	case	_	_
-7	terça	_	PROPN	PNOUN	_	9	amod	_	_
-8	-	-	PUNCT	.	_	9	punct	_	_
-9	feira	_	PROPN	PNOUN	_	4	nmod	_	_
-10	devido	dever	VERB	VERB	_	14	case	_	_
-11-12	ao	_	_	_	_	_	_	_	_
-11	a	a	ADP	ADP	_	10	case	_	_
-12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-13	seu	_	DET	DET	_	14	det:poss	_	_
-14	estado	estado	NOUN	NOUN	_	4	nmod	_	_
-15	emocional	emocional	ADJ	ADJ	_	14	amod	_	SpaceAfter=No
-16	.	.	PUNCT	.	_	4	punct	_	_
+# sent_id = train-s1614
+1	Ela	ela	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	não	não	ADV	_	Polarity=Neg	4	advmod	_	_
+3	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	prestar	prestar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	depoimento	depoimento	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+6-7	nesta	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	terça	terça	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+9	-	-	PUNCT	_	_	10	punct	_	_
+10	feira	feira	NOUN	_	Gender=Fem|Number=Sing	8	appos	_	_
+11	devido	devido	ADV	_	_	4	advmod	_	_
+12-13	ao	_	_	_	_	_	_	_	_
+12	a	a	ADP	_	_	15	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	15	det	_	_
+15	estado	estado	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+16	emocional	emocional	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # sent_id = train-s1615
 # text = Leandro Baran assume como novo vice - presidente de Vendas de Inovação e Sandra Vaz, como vice - presidente de Vendas para Ecossistema e Canais.
@@ -194,62 +198,64 @@
 26	Canais	_	PROPN	PNOUN	_	24	conj	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s1616
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = No início da semana, antes da aprovação final do Parlamento, o presidente disse que considerava o veto às adoções uma "resposta emotiva, mas apropriada" aos Estados Unidos, porém não confirmou se iria sancioná - lo.
+# sent_id = train-s1616
 1-2	No	_	_	_	_	_	_	_	_
-1	Em	em	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	início	início	NOUN	NOUN	_	19	nmod	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	início	início	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
 4-5	da	_	_	_	_	_	_	_	_
-4	de	de	ADP	ADP	_	6	case	_	_
-5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	semana	semana	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
-7	,	,	PUNCT	.	_	3	punct	_	_
-8	antes	antes	ADV	ADV	_	11	case	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	semana	semana	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	antes	antes	ADV	_	_	19	advmod	_	_
 9-10	da	_	_	_	_	_	_	_	_
-9	de	de	ADP	ADP	_	8	case	_	_
-10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-11	aprovação	aprovação	NOUN	NOUN	_	19	nmod	_	_
-12	final	final	ADJ	ADJ	_	11	amod	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	aprovação	aprovação	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+12	final	final	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
 13-14	do	_	_	_	_	_	_	_	_
-13	de	de	ADP	ADP	_	15	case	_	_
-14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	Parlamento	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
-16	,	,	PUNCT	.	_	11	punct	_	_
-17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	presidente	presidente	NOUN	NOUN	_	19	nsubj	_	_
-19	disse	dizer	VERB	VERB	_	0	root	_	_
-20	que	que	CCONJ	CONJ	_	21	mark	_	_
-21	considerava	considerar	VERB	VERB	_	19	ccomp	_	_
-22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	veto	veto	NOUN	NOUN	_	29	nsubj	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Parlamento	parlamento	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	8	punct	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	presidente	presidente	NOUN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
+19	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20	que	que	SCONJ	_	_	21	mark	_	_
+21	considerava	considerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	ccomp	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	veto	veto	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	_
 24-25	às	_	_	_	_	_	_	_	_
-24	a	a	ADP	ADP	_	26	case	_	_
-25	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
-26	adoções	adoção	NOUN	NOUN	_	23	nmod	_	_
-27	uma	um	DET	DET	_	29	det	_	_
-28	"	"	PUNCT	.	_	29	punct	_	SpaceAfter=No
-29	resposta	resposta	NOUN	NOUN	_	21	xcomp	_	_
-30	emotiva	emotivo	ADJ	ADJ	_	29	amod	_	SpaceAfter=No
-31	,	,	PUNCT	.	_	30	punct	_	_
-32	mas	mas	CCONJ	CONJ	_	30	cc	_	_
-33	apropriada	apropriado	ADJ	ADJ	_	30	amod	_	SpaceAfter=No
-34	"	"	PUNCT	.	_	29	punct	_	_
+24	a	a	ADP	_	_	26	case	_	_
+25	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	adoções	adoção	NOUN	_	Gender=Fem|Number=Plur	23	nmod	_	_
+27	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	"	"	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	resposta	resposta	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
+30	emotiva	emotivo	ADJ	_	Gender=Fem|Number=Sing	29	amod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	33	punct	_	_
+32	mas	mas	CCONJ	_	_	33	cc	_	_
+33	apropriada	apropriar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	30	conj	_	SpaceAfter=No
+34	"	"	PUNCT	_	_	29	punct	_	_
 35-36	aos	_	_	_	_	_	_	_	_
-35	a	a	ADP	ADP	_	37	case	_	_
-36	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
-37	Estados	_	PROPN	PNOUN	_	29	nmod	_	_
-38	Unidos	_	PROPN	PNOUN	_	37	amod	_	SpaceAfter=No
-39	,	,	PUNCT	.	_	42	punct	_	_
-40	porém	_	ADV	ADV	_	42	advmod	_	_
-41	não	não	ADV	ADV	Polarity=Neg	42	advmod	_	_
-42	confirmou	confirmar	VERB	VERB	_	19	conj	_	_
-43	se	_	CCONJ	CONJ	_	45	mark	_	_
-44	iria	_	AUX	AUX	_	45	aux	_	_
-45	sancioná	sancionar	VERB	VERB	_	42	ccomp	_	_
-46	-	-	PUNCT	.	_	45	punct	_	_
-47	lo	_	PRON	PRON	_	45	obj	_	SpaceAfter=No
-48	.	.	PUNCT	.	_	19	punct	_	_
+35	a	a	ADP	_	_	37	case	_	_
+36	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	Estados	Estados	PROPN	_	Gender=Masc|Number=Plur	29	nmod	_	_
+38	Unidos	Unidos	PROPN	_	Number=Sing	37	flat:name	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	42	punct	_	_
+40	porém	porém	CCONJ	_	_	42	cc	_	_
+41	não	não	ADV	_	Polarity=Neg	42	advmod	_	_
+42	confirmou	confirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	conj	_	_
+43	se	se	SCONJ	_	_	45	mark	_	_
+44	iria	ir	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	45	aux	_	_
+45	sancioná	sancionar	VERB	_	VerbForm=Inf	42	ccomp	_	_
+46	-	-	PUNCT	_	_	45	punct	_	_
+47	lo	ele	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	45	obj	_	SpaceAfter=No
+48	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
 
 # sent_id = train-s1617
 # text = Em meados de 2001 a Ancine, Agência Nacional do Cinema, ficou responsável por recolher o Condecine, Contribuição para o Desenvolvimento da Indústria Cinematográfica Nacional.

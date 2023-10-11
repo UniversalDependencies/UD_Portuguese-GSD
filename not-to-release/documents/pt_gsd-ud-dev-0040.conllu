@@ -10,53 +10,55 @@
 8	Willie	_	PROPN	PNOUN	_	7	obj	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = dev-s388
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Edição: Fábio Massalli / / matéria atualizada às 17h40 do dia 5 de dezembro para correção da informação de que a Rede de Gestão Integrada de Ciência, Tecnologia e Inovação e a Rede Ipê eram sinônimos.
-1	Edição	edição	NOUN	NOUN	_	0	root	_	SpaceAfter=No
-2	:	:	PUNCT	.	_	7	punct	_	_
-3	Fábio	_	PROPN	PNOUN	_	1	appos	_	_
-4	Massalli	_	PROPN	PNOUN	_	3	flat	_	_
-5	/	/	PUNCT	.	_	7	punct	_	_
-6	/	/	PUNCT	.	_	7	punct	_	_
-7	matéria	matéria	NOUN	NOUN	_	1	conj	_	_
-8	atualizada	atualizar	VERB	VERB	_	7	acl	_	_
+# sent_id = dev-s388
+1	Edição	edição	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	3	punct	_	_
+3	Fábio	Fábio	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	1	appos	_	_
+4	Massalli	Massalli	PROPN	_	Number=Sing	3	flat:name	_	_
+5	/	/	PUNCT	_	_	7	punct	_	_
+6	/	/	PUNCT	_	_	7	punct	_	_
+7	matéria	matéria	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	_
+8	atualizada	atualizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	7	acl	_	_
 9-10	às	_	_	_	_	_	_	_	_
-9	a	a	ADP	ADP	_	11	case	_	_
-10	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
-11	17h40	_	NUM	NUM	NumType=Card	8	nmod	_	_
+9	a	a	ADP	_	_	11	case	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	17h40	17h40	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
 12-13	do	_	_	_	_	_	_	_	_
-12	de	de	ADP	ADP	_	14	case	_	_
-13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	dia	dia	NOUN	NOUN	_	11	nmod	_	_
-15	5	5	NUM	NUM	NumType=Card	14	nmod	_	_
-16	de	de	ADP	ADP	_	17	case	_	_
-17	dezembro	_	PROPN	PNOUN	_	15	nmod	_	_
-18	para	para	ADP	ADP	_	19	case	_	_
-19	correção	correção	NOUN	NOUN	_	8	nmod	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	dia	dia	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+15	5	5	NUM	_	NumType=Card	14	nummod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	dezembro	dezembro	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+18	para	para	ADP	_	_	19	case	_	_
+19	correção	correção	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
 20-21	da	_	_	_	_	_	_	_	_
-20	de	de	ADP	ADP	_	22	case	_	_
-21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	informação	informação	NOUN	NOUN	_	19	nmod	_	_
-23	de	_	ADP	ADP	_	41	mark	_	_
-24	que	que	CCONJ	CONJ	_	41	mark	_	_
-25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	Rede	_	PROPN	PNOUN	_	41	nsubj	_	_
-27	de	de	ADP	ADP	_	28	case	_	_
-28	Gestão	_	PROPN	PNOUN	_	26	nmod	_	_
-29	Integrada	_	PROPN	PNOUN	_	28	amod	_	_
-30	de	de	ADP	ADP	_	31	case	_	_
-31	Ciência	_	PROPN	PNOUN	_	28	nmod	_	SpaceAfter=No
-32	,	,	PUNCT	.	_	33	punct	_	_
-33	Tecnologia	_	PROPN	PNOUN	_	31	conj	_	_
-34	e	e	CCONJ	CONJ	_	35	cc	_	_
-35	Inovação	_	PROPN	PNOUN	_	31	conj	_	_
-36	e	e	CCONJ	CONJ	_	38	cc	_	_
-37	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
-38	Rede	_	PROPN	PNOUN	_	26	conj	_	_
-39	Ipê	_	PROPN	PNOUN	_	38	flat	_	_
-40	eram	_	AUX	AUX	_	41	cop	_	_
-41	sinônimos	sinônimo	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
-42	.	.	PUNCT	.	_	1	punct	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	informação	informação	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+23	de	de	SCONJ	_	_	41	mark	_	_
+24	que	que	SCONJ	_	_	41	mark	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	Rede	Rede	PROPN	_	Gender=Fem|Number=Sing	41	nsubj	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	Gestão	Gestão	PROPN	_	Number=Sing	26	nmod	_	_
+29	Integrada	Integrada	PROPN	_	Number=Sing	28	flat:name	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	Ciência	Ciência	PROPN	_	Number=Sing	28	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	33	punct	_	_
+33	Tecnologia	Tecnologia	PROPN	_	ExtPos=PROPN|Number=Sing	31	conj	_	_
+34	e	e	CCONJ	_	_	33	flat:name	_	_
+35	Inovação	Inovação	PROPN	_	Number=Sing	31	flat:name	_	_
+36	e	e	CCONJ	_	_	38	cc	_	_
+37	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	Rede	Rede	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	26	conj	_	_
+39	Ipê	Ipê	PROPN	_	Number=Sing	38	flat:name	_	_
+40	eram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	41	cop	_	_
+41	sinônimos	sinônimo	ADJ	_	Gender=Masc|Number=Plur	22	acl	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = dev-s389
 # text = Ja fiz promessas na PERPETUO SOCORRO, recebi tantas graças DEUS sabe do seu CORAÇÃO E CONHECE SEUS PENSAMENTOS E SEUS PROPOSTOS.

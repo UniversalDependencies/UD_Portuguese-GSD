@@ -11,35 +11,37 @@
 9	voltar	voltar	VERB	VERB	_	7	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	6	punct	_	_
 
-# sent_id = train-s8754
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O presidente do Suprmeo sustentou ainda que os "empréstimos foram concedidos a fundo perdido, a descoberto, sem posibilidade de retorno".
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	presidente	presidente	NOUN	NOUN	_	6	nsubj	_	_
+# sent_id = train-s8754
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
-3	de	de	ADP	ADP	_	5	case	_	_
-4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	Suprmeo	_	PROPN	PNOUN	_	2	nmod	_	_
-6	sustentou	sustentar	VERB	VERB	_	0	root	_	_
-7	ainda	ainda	ADV	ADV	_	6	advmod	_	_
-8	que	que	CCONJ	CONJ	_	13	mark	_	_
-9	os	o	DET	DET	_	11	det	_	_
-10	"	"	PUNCT	.	_	13	punct	_	SpaceAfter=No
-11	empréstimos	empréstimo	NOUN	NOUN	_	13	nsubj:pass	_	_
-12	foram	_	AUX	AUX	_	13	aux:pass	_	_
-13	concedidos	conceder	VERB	VERB	_	6	ccomp	_	_
-14	a	_	ADP	ADP	_	15	case	_	_
-15	fundo	fundo	NOUN	NOUN	_	13	nmod	_	_
-16	perdido	perdido	ADJ	ADJ	_	15	amod	_	SpaceAfter=No
-17	,	,	PUNCT	.	_	19	punct	_	_
-18	a	_	DET	DET	_	19	mark	_	_
-19	descoberto	descoberto	ADJ	ADJ	_	13	nmod	_	SpaceAfter=No
-20	,	,	PUNCT	.	_	22	punct	_	_
-21	sem	_	ADP	ADP	_	22	case	_	_
-22	posibilidade	_	NOUN	NOUN	_	13	nmod	_	_
-23	de	de	ADP	ADP	_	24	case	_	_
-24	retorno	retorno	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
-25	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
-26	.	.	PUNCT	.	_	6	punct	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Suprmeo	suprmeo	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	sustentou	sustentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	ainda	ainda	ADV	_	_	6	advmod	_	_
+8	que	que	SCONJ	_	_	13	mark	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	empréstimos	empréstimo	NOUN	_	Gender=Masc|Number=Plur	13	nsubj:pass	_	_
+12	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	13	aux:pass	_	_
+13	concedidos	conceder	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	6	ccomp	_	_
+14	a	a	ADP	_	_	15	case	_	_
+15	fundo	fundo	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+16	perdido	perder	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	15	acl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	a	a	SCONJ	_	_	19	case	_	_
+19	descoberto	descobrir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	15	acl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	_
+21	sem	sem	ADP	_	_	22	case	_	_
+22	posibilidade	posibilidade	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	retorno	retorno	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
 # sent_id = train-s8755
 # text = Não é o primeiro livro de JR Duran.
@@ -94,24 +96,28 @@
 17	Peak	_	PROPN	PNOUN	_	16	flat	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s8758
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = -- Agora o técnico deles já disse que o quer de volta, não é?
-1	--	_	PUNCT	.	_	7	punct	_	_
-2	Agora	agora	ADV	ADV	_	7	advmod	_	_
-3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	técnico	técnico	NOUN	NOUN	_	7	nsubj	_	_
-5	deles	_	X	ADPPRON	_	4	det:poss	_	_
-6	já	já	ADV	ADV	_	7	advmod	_	_
-7	disse	dizer	VERB	VERB	_	0	root	_	_
-8	que	que	CCONJ	CONJ	_	10	mark	_	_
-9	o	_	PRON	PRON	_	10	obj	_	_
-10	quer	querer	VERB	VERB	_	7	ccomp	_	_
-11	de	de	ADP	ADP	_	12	case	_	_
-12	volta	volta	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
-13	,	,	PUNCT	.	_	15	punct	_	_
-14	não	não	ADV	ADV	Polarity=Neg	15	advmod	_	_
-15	é	ser	VERB	VERB	_	7	parataxis	_	SpaceAfter=No
-16	?	?	PUNCT	.	_	7	punct	_	_
+# sent_id = train-s8758
+1	--	--	PUNCT	_	_	8	punct	_	_
+2	Agora	agora	ADV	_	_	8	advmod	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	técnico	técnico	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+5-6	deles	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	eles	eles	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	nmod	_	_
+7	já	já	ADV	_	_	8	advmod	_	_
+8	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	que	que	SCONJ	_	_	11	mark	_	_
+10	o	ele	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+11	quer	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	volta	volta	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	11	punct	_	_
+15	não	não	ADV	_	Polarity=Neg	16	advmod	_	_
+16	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	SpaceAfter=No
+17	?	?	PUNCT	_	_	8	punct	_	SpaceAfter=No
 
 # sent_id = train-s8759
 # text = A perda de florestas brasileiras possivelmente deve ser intensificada pelo aquecimento global.
@@ -131,46 +137,50 @@
 13	global	global	ADJ	ADJ	_	12	amod	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = train-s8760
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = A afirmação foi feita pelo presidente da Associação dos Produtores de Soja e Milho do país (Aprosoja Brasil), Glauber Silveira, no microblog dele.
-1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	afirmação	afirmação	NOUN	NOUN	_	4	nsubj:pass	_	_
-3	foi	_	AUX	AUX	_	4	aux:pass	_	_
-4	feita	_	VERB	VERB	_	0	root	_	_
+# sent_id = train-s8760
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	afirmação	afirmação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	feita	fazer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 5-6	pelo	_	_	_	_	_	_	_	_
-5	por	por	ADP	ADP	_	7	case	_	_
-6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	presidente	presidente	NOUN	NOUN	_	4	nmod	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	presidente	presidente	NOUN	_	Gender=Masc|Number=Sing	4	obl:agent	_	_
 8-9	da	_	_	_	_	_	_	_	_
-8	de	de	ADP	ADP	_	10	case	_	_
-9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	Associação	_	PROPN	PNOUN	_	7	nmod	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Associação	associação	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 11-12	dos	_	_	_	_	_	_	_	_
-11	de	de	ADP	ADP	_	13	case	_	_
-12	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
-13	Produtores	_	PROPN	PNOUN	_	10	nmod	_	_
-14	de	de	ADP	ADP	_	15	case	_	_
-15	Soja	_	PROPN	PNOUN	_	13	nmod	_	_
-16	e	e	CCONJ	CONJ	_	17	cc	_	_
-17	Milho	_	PROPN	PNOUN	_	15	conj	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	Produtores	produtor	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	Soja	soja	NOUN	_	Number=Sing	13	nmod	_	_
+16	e	e	CCONJ	_	_	15	flat:name	_	_
+17	Milho	milho	NOUN	_	Number=Sing	15	flat:name	_	_
 18-19	do	_	_	_	_	_	_	_	_
-18	de	de	ADP	ADP	_	20	case	_	_
-19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	país	país	NOUN	NOUN	_	13	nmod	_	_
-21	(	(	PUNCT	.	_	22	punct	_	SpaceAfter=No
-22	Aprosoja	_	PROPN	PNOUN	_	10	appos	_	_
-23	Brasil	_	PROPN	PNOUN	_	22	flat	_	SpaceAfter=No
-24	)	)	PUNCT	.	_	22	punct	_	SpaceAfter=No
-25	,	,	PUNCT	.	_	26	punct	_	_
-26	Glauber	_	PROPN	PNOUN	_	7	appos	_	_
-27	Silveira	_	PROPN	PNOUN	_	26	flat	_	SpaceAfter=No
-28	,	,	PUNCT	.	_	31	punct	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	país	país	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	Aprosoja	Aprosoja	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	20	appos	_	_
+23	Brasil	Brasil	PROPN	_	Number=Sing	22	flat:name	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	Glauber	Glauber	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	10	appos	_	_
+27	Silveira	Silveira	PROPN	_	Number=Sing	26	flat:name	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	26	punct	_	_
 29-30	no	_	_	_	_	_	_	_	_
-29	em	em	ADP	ADP	_	31	case	_	_
-30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-31	microblog	_	NOUN	NOUN	_	4	nmod	_	_
-32	dele	_	X	ADPPRON	_	31	det:poss	_	SpaceAfter=No
-33	.	.	PUNCT	.	_	4	punct	_	_
+29	em	em	ADP	_	_	31	case	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	microblog	microblog	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+32-33	dele	_	_	_	_	_	_	_	SpaceAfter=No
+32	de	de	ADP	_	_	33	case	_	_
+33	ele	ele	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	nmod	_	_
+34	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # sent_id = train-s8761
 # text = O Índice de Expectativas (IE) também melhorou, com alta de 0,4 %, para 105,3 pontos, também o maior nível desde junho de 2011 (106,5).

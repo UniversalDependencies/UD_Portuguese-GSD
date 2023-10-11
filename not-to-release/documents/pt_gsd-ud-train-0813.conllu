@@ -101,40 +101,42 @@
 33	investigações	investigação	NOUN	NOUN	_	32	obj	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s8075
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Alheia a tudo, Consuelo aproveitou uma distração dos peões, no final da tarde, para voltar a invadir o celeiro e comer feno.
-1	Alheia	alheio	ADJ	ADJ	_	5	amod	_	_
-2	a	_	ADP	ADP	_	3	case	_	_
-3	tudo	_	PRON	PRON	_	1	nmod	_	SpaceAfter=No
-4	,	,	PUNCT	.	_	1	punct	_	_
-5	Consuelo	_	PROPN	PNOUN	_	6	nsubj	_	_
-6	aproveitou	aproveitar	VERB	VERB	_	0	root	_	_
-7	uma	um	DET	DET	_	8	det	_	_
-8	distração	distração	NOUN	NOUN	_	6	obj	_	_
+# sent_id = train-s8075
+1	Alheia	alheia	ADJ	_	Gender=Fem|Number=Sing	6	advcl	_	_
+2	a	a	ADP	_	_	3	case	_	_
+3	tudo	tudo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	Consuelo	Consuelo	PROPN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	aproveitou	aproveitar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	distração	distração	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
 9-10	dos	_	_	_	_	_	_	_	_
-9	de	de	ADP	ADP	_	11	case	_	_
-10	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
-11	peões	peão	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
-12	,	,	PUNCT	.	_	15	punct	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	peões	peão	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	15	punct	_	_
 13-14	no	_	_	_	_	_	_	_	_
-13	em	em	ADP	ADP	_	15	case	_	_
-14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	final	final	NOUN	NOUN	_	6	nmod	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	final	final	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
 16-17	da	_	_	_	_	_	_	_	_
-16	de	de	ADP	ADP	_	18	case	_	_
-17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	tarde	tarde	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	15	punct	_	_
-20	para	_	ADP	ADP	_	23	mark	_	_
-21	voltar	voltar	AUX	AUX	_	23	aux	_	_
-22	a	_	ADP	ADP	_	23	mark	_	_
-23	invadir	invadir	VERB	VERB	_	6	nmod	_	_
-24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	celeiro	celeiro	NOUN	NOUN	_	23	obj	_	_
-26	e	e	CCONJ	CONJ	_	27	cc	_	_
-27	comer	comer	VERB	VERB	_	23	conj	_	_
-28	feno	feno	NOUN	NOUN	_	27	obj	_	SpaceAfter=No
-29	.	.	PUNCT	.	_	6	punct	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	tarde	tarde	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	15	punct	_	_
+20	para	para	SCONJ	_	_	21	mark	_	_
+21	voltar	voltar	VERB	_	ExtPos=AUX|VerbForm=Inf	6	advcl	_	_
+22	a	a	SCONJ	_	_	23	mark	_	_
+23	invadir	invadir	VERB	_	VerbForm=Inf	21	xcomp	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	celeiro	celeiro	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
+26	e	e	CCONJ	_	_	27	cc	_	_
+27	comer	comer	VERB	_	VerbForm=Inf	23	conj	_	_
+28	feno	feno	NOUN	_	Gender=Masc|Number=Sing	27	obj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
 # sent_id = train-s8076
 # text = Testemunhas disseram que ele havia saído do trabalho e foi alvo de dois homens numa moto.
@@ -224,36 +226,38 @@
 7	acabou	acabar	VERB	VERB	_	3	parataxis	_	SpaceAfter=No
 8	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s8080
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Entre os convidados, estão o ex - presidente Fernando Henrique Cardoso, o governador Geraldo Alckmin, Kassab e o presidente do PSDB, Sérgio Guerra.
-1	Entre	_	ADP	ADP	_	3	case	_	_
-2	os	o	DET	DET	_	3	det	_	_
-3	convidados	convidado	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
-4	,	,	PUNCT	.	_	3	punct	_	_
-5	estão	estar	VERB	VERB	_	0	root	_	_
-6	o	o	DET	DET	_	7	det	_	_
-7	ex	_	PART	PRT	_	5	nsubj	_	_
-8	-	-	PUNCT	.	_	15	punct	_	_
-9	presidente	presidente	NOUN	NOUN	_	7	flat	_	_
-10	Fernando	_	PROPN	PNOUN	_	7	appos	_	_
-11	Henrique	_	PROPN	PNOUN	_	10	flat	_	_
-12	Cardoso	_	PROPN	PNOUN	_	10	flat	_	SpaceAfter=No
-13	,	,	PUNCT	.	_	15	punct	_	_
-14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	governador	governador	NOUN	NOUN	_	7	conj	_	_
-16	Geraldo	_	PROPN	PNOUN	_	15	appos	_	_
-17	Alckmin	_	PROPN	PNOUN	_	16	flat	_	SpaceAfter=No
-18	,	,	PUNCT	.	_	19	punct	_	_
-19	Kassab	_	PROPN	PNOUN	_	7	conj	_	_
-20	e	e	CCONJ	CONJ	_	22	cc	_	_
-21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-22	presidente	presidente	NOUN	NOUN	_	7	conj	_	_
+# sent_id = train-s8080
+1	Entre	entre	ADP	_	_	3	case	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	convidados	convidado	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	estão	estar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+7	ex	ex	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
+8	-	-	PUNCT	_	_	9	punct	_	_
+9	presidente	presidente	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+10	Fernando	Fernando	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	9	appos	_	_
+11	Henrique	Henrique	PROPN	_	Number=Sing	10	flat:name	_	_
+12	Cardoso	Cardoso	PROPN	_	Number=Sing	10	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	governador	governador	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
+16	Geraldo	Geraldo	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	15	appos	_	_
+17	Alckmin	Alckmin	PROPN	_	Number=Sing	16	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	Kassab	Kassab	PROPN	_	Gender=Masc|Number=Sing	9	conj	_	_
+20	e	e	CCONJ	_	_	22	cc	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	presidente	presidente	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
 23-24	do	_	_	_	_	_	_	_	_
-23	de	de	ADP	ADP	_	25	case	_	_
-24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	PSDB	_	PROPN	PNOUN	_	22	nmod	_	SpaceAfter=No
-26	,	,	PUNCT	.	_	27	punct	_	_
-27	Sérgio	_	PROPN	PNOUN	_	22	appos	_	_
-28	Guerra	_	PROPN	PNOUN	_	27	flat	_	SpaceAfter=No
-29	.	.	PUNCT	.	_	5	punct	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	PSDB	PSDB	PROPN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	Sérgio	Sérgio	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	22	appos	_	_
+28	Guerra	Guerra	PROPN	_	Number=Sing	27	flat:name	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 

@@ -197,34 +197,36 @@
 17	cariocas	carioca	ADJ	ADJ	_	16	amod	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	12	punct	_	_
 
-# sent_id = train-s4503
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O segundo volume do livro Fazendo meu filme apresenta as aventuras de Estefânia Castelino Belluz na terra da rainha.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-2	segundo	segundo	ADJ	ADJ	_	3	amod	_	_
-3	volume	volume	NOUN	NOUN	_	10	nsubj	_	_
+# sent_id = train-s4503
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	segundo	segundo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	volume	volume	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 4-5	do	_	_	_	_	_	_	_	_
-4	de	de	ADP	ADP	_	6	case	_	_
-5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	livro	livro	NOUN	NOUN	_	3	nmod	_	_
-7	Fazendo	_	PROPN	PNOUN	_	6	appos	_	_
-8	meu	_	PROPN	PNOUN	_	9	det:poss	_	_
-9	filme	_	PROPN	PNOUN	_	7	obj	_	_
-10	apresenta	apresentar	VERB	VERB	_	0	root	_	_
-11	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
-12	aventuras	aventura	NOUN	NOUN	_	10	obj	_	_
-13	de	de	ADP	ADP	_	14	case	_	_
-14	Estefânia	_	PROPN	PNOUN	_	12	nmod	_	_
-15	Castelino	_	PROPN	PNOUN	_	14	flat	_	_
-16	Belluz	_	PROPN	PNOUN	_	14	flat	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	livro	livro	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+7	Fazendo	fazer	VERB	_	VerbForm=Ger	6	acl	_	_
+8	meu	meu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	9	det	_	_
+9	filme	filme	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	apresenta	apresentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	aventuras	aventura	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	Estefânia	Estefânia	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	12	nmod	_	_
+15	Castelino	Castelino	PROPN	_	Number=Sing	14	flat:name	_	_
+16	Belluz	Belluz	PROPN	_	Number=Sing	14	flat:name	_	_
 17-18	na	_	_	_	_	_	_	_	_
-17	em	em	ADP	ADP	_	19	case	_	_
-18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	terra	terra	NOUN	NOUN	_	12	nmod	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	terra	terra	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
 20-21	da	_	_	_	_	_	_	_	_
-20	de	de	ADP	ADP	_	22	case	_	_
-21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	rainha	_	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
-23	.	.	PUNCT	.	_	10	punct	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	rainha	rainha	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
 
 # sent_id = train-s4504
 # text = Cláudio Nascimento e seu cônjuge, João Silva, foram o primeiro casal no estado e o terceiro no Brasil a ter convertida a sua união em casamento.

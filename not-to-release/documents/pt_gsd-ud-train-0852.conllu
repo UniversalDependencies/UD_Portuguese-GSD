@@ -150,48 +150,52 @@
 19	vivos	vivo	ADJ	ADJ	_	18	amod	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = train-s8462
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Como afirmei na semana passada, comecei o programa de recuperação 'Road to Recovery' e estamos ansiosos para utilizar esses recursos e sua conclusão para voltar a competir num futuro próximo -- disse o piloto.
-1	Como	_	CCONJ	CONJ	_	2	mark	_	_
-2	afirmei	afirmar	VERB	VERB	_	8	advcl	_	_
+# sent_id = train-s8462
+1	Como	como	SCONJ	_	_	2	mark	_	_
+2	afirmei	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	advcl	_	_
 3-4	na	_	_	_	_	_	_	_	_
-3	em	em	ADP	ADP	_	5	case	_	_
-4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	semana	semana	NOUN	NOUN	_	2	nmod	_	_
-6	passada	passado	ADJ	ADJ	_	5	amod	_	SpaceAfter=No
-7	,	,	PUNCT	.	_	2	punct	_	_
-8	comecei	começar	VERB	VERB	_	36	ccomp	_	_
-9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	programa	programa	NOUN	NOUN	_	8	obj	_	_
-11	de	de	ADP	ADP	_	12	case	_	_
-12	recuperação	recuperação	NOUN	NOUN	_	10	nmod	_	_
-13	'	_	PUNCT	.	_	14	punct	_	SpaceAfter=No
-14	Road	_	PROPN	PNOUN	_	10	appos	_	_
-15	to	_	ADP	ADP	_	16	case	_	_
-16	Recovery	_	PROPN	PNOUN	_	14	nmod	_	SpaceAfter=No
-17	'	_	PUNCT	.	_	14	punct	_	_
-18	e	e	CCONJ	CONJ	_	19	cc	_	_
-19	estamos	estar	VERB	VERB	_	8	conj	_	_
-20	ansiosos	ansioso	ADJ	ADJ	_	19	xcomp	_	_
-21	para	_	ADP	ADP	_	22	mark	_	_
-22	utilizar	utilizar	VERB	VERB	_	20	nmod	_	_
-23	esses	_	DET	DET	_	24	det	_	_
-24	recursos	recurso	NOUN	NOUN	_	22	obj	_	_
-25	e	e	CCONJ	CONJ	_	27	cc	_	_
-26	sua	_	DET	DET	_	27	det:poss	_	_
-27	conclusão	conclusão	NOUN	NOUN	_	24	conj	_	_
-28	para	_	ADP	ADP	_	31	mark	_	_
-29	voltar	voltar	AUX	AUX	_	31	aux	_	_
-30	a	_	ADP	ADP	_	31	mark	_	_
-31	competir	competir	VERB	VERB	_	22	advcl	_	_
-32	num	_	ADP	ADP	_	33	case	_	_
-33	futuro	futuro	NOUN	NOUN	_	31	nmod	_	_
-34	próximo	próximo	ADJ	ADJ	_	33	amod	_	_
-35	--	_	PUNCT	.	_	36	punct	_	_
-36	disse	dizer	VERB	VERB	_	0	root	_	_
-37	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
-38	piloto	piloto	NOUN	NOUN	_	36	nsubj	_	SpaceAfter=No
-39	.	.	PUNCT	.	_	36	punct	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	semana	semana	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+6	passada	passado	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	2	punct	_	_
+8	comecei	começar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	37	parataxis	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	programa	programa	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	recuperação	recuperação	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+13	'	'	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	Road	Road	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	10	appos	_	_
+15	to	to	PROPN	_	Number=Sing	14	flat:name	_	_
+16	Recovery	Recovery	PROPN	_	Number=Sing	14	flat:name	_	SpaceAfter=No
+17	'	'	PUNCT	_	_	14	punct	_	_
+18	e	e	CCONJ	_	_	20	cc	_	_
+19	estamos	estar	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	ansiosos	ansioso	ADJ	_	Gender=Masc|Number=Plur	8	conj	_	_
+21	para	para	SCONJ	_	_	22	mark	_	_
+22	utilizar	utilizar	VERB	_	VerbForm=Inf	20	advcl	_	_
+23	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	24	det	_	_
+24	recursos	recurso	NOUN	_	Gender=Masc|Number=Plur	22	obj	_	_
+25	e	e	CCONJ	_	_	27	cc	_	_
+26	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	27	det	_	_
+27	conclusão	conclusão	NOUN	_	Gender=Fem|Number=Sing	24	conj	_	_
+28	para	para	SCONJ	_	_	29	mark	_	_
+29	voltar	voltar	VERB	_	ExtPos=AUX|VerbForm=Inf	27	acl	_	_
+30	a	a	SCONJ	_	_	31	mark	_	_
+31	competir	competir	VERB	_	VerbForm=Inf	29	xcomp	_	_
+32-33	num	_	_	_	_	_	_	_	_
+32	em	em	ADP	_	_	34	case	_	_
+33	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	futuro	futuro	NOUN	_	Gender=Masc|Number=Sing	31	obl	_	_
+35	próximo	próximo	ADJ	_	Gender=Masc|Number=Sing	34	amod	_	_
+36	--	--	PUNCT	_	_	8	punct	_	_
+37	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+38	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	piloto	piloto	NOUN	_	Gender=Masc|Number=Sing	37	nsubj	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
 
 # sent_id = train-s8463
 # text = Todas essas perguntas são complexas de responder e muitas respostas só aparecem no momento, de acordo com seu feeling.
@@ -239,44 +243,46 @@
 15	expediente	expediente	NOUN	NOUN	_	14	obj	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	11	punct	_	_
 
-# sent_id = train-s8465
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Para nós, essa luta não acabou e vamos juntos ao Senado no PNE continuar lutando para que os royalties sejam encaminhados para a educação brasileira ", disse o ministro.
-1	Para	_	ADP	ADP	_	2	case	_	_
-2	nós	_	PRON	PRON	_	7	nmod	_	SpaceAfter=No
-3	,	,	PUNCT	.	_	2	punct	_	_
-4	essa	_	DET	DET	_	5	det	_	_
-5	luta	luta	NOUN	NOUN	_	7	nsubj	_	_
-6	não	não	ADV	ADV	Polarity=Neg	7	advmod	_	_
-7	acabou	acabar	VERB	VERB	_	31	ccomp	_	_
-8	e	e	CCONJ	CONJ	_	9	cc	_	_
-9	vamos	ir	VERB	VERB	_	7	conj	_	_
-10	juntos	junto	ADJ	ADJ	_	9	xcomp	_	_
+# sent_id = train-s8465
+1	Para	para	ADP	_	_	2	case	_	_
+2	nós	nós	PRON	_	Number=Plur|Person=1|PronType=Prs	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	luta	luta	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	não	não	ADV	_	Polarity=Neg	7	advmod	_	_
+7	acabou	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	parataxis	_	_
+8	e	e	CCONJ	_	_	10	cc	_	_
+9	vamos	ir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	juntos	junto	ADV	_	Gender=Masc|Number=Plur	7	conj	_	_
 11-12	ao	_	_	_	_	_	_	_	_
-11	a	a	ADP	ADP	_	13	case	_	_
-12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	Senado	_	PROPN	PNOUN	_	9	nmod	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Senado	senado	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
 14-15	no	_	_	_	_	_	_	_	_
-14	em	em	ADP	ADP	_	16	case	_	_
-15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	PNE	_	PROPN	PNOUN	_	13	nmod	_	_
-17	continuar	continuar	AUX	AUX	_	18	aux	_	_
-18	lutando	lutar	VERB	VERB	_	9	xcomp	_	_
-19	para	_	ADP	ADP	_	24	mark	_	_
-20	que	_	CCONJ	CONJ	_	19	fixed	_	_
-21	os	o	DET	DET	_	22	det	_	_
-22	royalties	_	NOUN	NOUN	_	24	nsubj:pass	_	_
-23	sejam	ser	AUX	AUX	_	24	aux:pass	_	_
-24	encaminhados	encaminhar	VERB	VERB	_	18	advcl	_	_
-25	para	para	ADP	ADP	_	27	case	_	_
-26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	educação	educação	NOUN	NOUN	_	24	nmod	_	_
-28	brasileira	brasileiro	ADJ	ADJ	_	27	amod	_	_
-29	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
-30	,	,	PUNCT	.	_	31	punct	_	_
-31	disse	dizer	VERB	VERB	_	0	root	_	_
-32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
-33	ministro	ministro	NOUN	NOUN	_	31	nsubj	_	SpaceAfter=No
-34	.	.	PUNCT	.	_	31	punct	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	PNE	PNE	PROPN	_	Gender=Masc|Number=Sing	10	obl	_	_
+17	continuar	continuar	VERB	_	VerbForm=Inf	7	advcl	_	_
+18	lutando	lutar	VERB	_	VerbForm=Ger	17	xcomp	_	_
+19	para	para	SCONJ	_	_	24	mark	_	_
+20	que	que	SCONJ	_	_	24	mark	_	_
+21	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	royalties	royaltie	NOUN	_	Gender=Masc|Number=Plur	24	nsubj:pass	_	_
+23	sejam	ser	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux:pass	_	_
+24	encaminhados	encaminhar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	18	advcl	_	_
+25	para	para	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	educação	educação	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
+28	brasileira	brasileiro	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	_
+29	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	31	punct	_	_
+31	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	31	nsubj	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
 
 # sent_id = train-s8466
 # text = No entanto, como ressaltei, essas iniciativas não estavam articuladas, como deve ser o ideal para gerenciar uma instituição com o Judiciário.

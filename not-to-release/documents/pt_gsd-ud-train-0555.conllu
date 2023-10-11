@@ -336,36 +336,38 @@
 19	investidores	investidor	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	11	punct	_	_
 
-# sent_id = train-s5518
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = A expressão antiga "extinção K - T", hoje extinção K - Pl faz referência ao Terciário (K = Cretáceo, T = Terciário)
-1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	expressão	expressão	NOUN	NOUN	_	16	nsubj	_	_
-3	antiga	antigo	ADJ	ADJ	_	2	amod	_	_
-4	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
-5	extinção	extinção	NOUN	NOUN	_	2	appos	_	_
-6	K	_	PROPN	PNOUN	_	5	appos	_	_
-7	-	-	PUNCT	.	_	6	punct	_	_
-8	T	_	PROPN	PNOUN	_	6	flat	_	SpaceAfter=No
-9	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
-10	,	,	PUNCT	.	_	12	punct	_	_
-11	hoje	hoje	ADV	ADV	_	12	advmod	_	_
-12	extinção	extinção	NOUN	NOUN	_	5	appos	_	_
-13	K	_	PROPN	PNOUN	_	12	appos	_	_
-14	-	-	PUNCT	.	_	13	punct	_	_
-15	Pl	_	PROPN	PNOUN	_	13	flat	_	_
-16	faz	fazer	VERB	VERB	_	0	root	_	_
-17	referência	referência	NOUN	NOUN	_	16	obj	_	_
+# sent_id = train-s5518
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	expressão	expressão	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
+3	antiga	antigo	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	extinção	extinção	NOUN	_	Gender=Fem|Number=Sing	2	appos	_	_
+6	K	K	PROPN	_	Gender=Fem|Number=Sing	5	appos	_	_
+7	-	-	PUNCT	_	_	6	punct	_	_
+8	T	T	PROPN	_	Gender=Fem|Number=Sing	6	flat:name	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	hoje	hoje	ADV	_	_	12	advmod	_	_
+12	extinção	extinção	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
+13	K	K	PROPN	_	Gender=Fem|Number=Sing	12	appos	_	_
+14	-	-	PUNCT	_	_	15	punct	_	_
+15	Pl	Pl	PROPN	_	Gender=Fem|Number=Sing	13	appos	_	_
+16	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	referência	referência	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
 18-19	ao	_	_	_	_	_	_	_	_
-18	a	a	ADP	ADP	_	20	case	_	_
-19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	Terciário	_	PROPN	PNOUN	_	16	nmod	_	_
-21	(	(	PUNCT	.	_	22	punct	_	SpaceAfter=No
-22	K	_	PROPN	PNOUN	_	20	appos	_	_
-23	=	_	PUNCT	.	_	26	punct	_	_
-24	Cretáceo	_	PROPN	PNOUN	_	22	appos	_	SpaceAfter=No
-25	,	,	PUNCT	.	_	26	punct	_	_
-26	T	_	PROPN	PNOUN	_	22	conj	_	_
-27	=	_	PUNCT	.	_	26	punct	_	_
-28	Terciário	_	PROPN	PNOUN	_	26	appos	_	SpaceAfter=No
-29	)	)	PUNCT	.	_	22	punct	_	_
+18	a	a	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Terciário	Terciário	PROPN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	K	K	PROPN	_	Gender=Masc|Number=Sing	20	appos	_	_
+23	=	=	PUNCT	_	_	24	punct	_	_
+24	Cretáceo	Cretáceo	PROPN	_	Gender=Masc|Number=Sing	22	appos	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	T	T	PROPN	_	Gender=Masc|Number=Sing	22	conj	_	_
+27	=	=	PUNCT	_	_	28	punct	_	_
+28	Terciário	Terciário	PROPN	_	Gender=Masc|Number=Sing	26	appos	_	SpaceAfter=No
+29	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
 

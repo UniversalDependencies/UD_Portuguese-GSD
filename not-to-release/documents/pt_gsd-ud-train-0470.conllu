@@ -129,38 +129,40 @@
 10	refeições	refeição	NOUN	NOUN	_	9	obj	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = train-s4668
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O comandante do Estado - Maior israelense, general Benny Gantz, pediu recentemente ao Egito que "assuma sua soberania sobre o Sinai".
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	comandante	comandante	NOUN	NOUN	_	14	nsubj	_	_
+# sent_id = train-s4668
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	comandante	comandante	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
-3	de	de	ADP	ADP	_	5	case	_	_
-4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	Estado	_	PROPN	PNOUN	_	2	nmod	_	_
-6	-	-	PUNCT	.	_	5	punct	_	_
-7	Maior	_	PROPN	PNOUN	_	5	amod	_	_
-8	israelense	israelense	ADJ	ADJ	_	5	amod	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	10	punct	_	_
-10	general	general	NOUN	NOUN	_	2	appos	_	_
-11	Benny	_	PROPN	PNOUN	_	10	appos	_	_
-12	Gantz	_	PROPN	PNOUN	_	11	flat	_	SpaceAfter=No
-13	,	,	PUNCT	.	_	10	punct	_	_
-14	pediu	pedir	VERB	VERB	_	0	root	_	_
-15	recentemente	recentemente	ADV	ADV	_	14	advmod	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Estado	estado	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	-	-	PUNCT	_	_	7	punct	_	_
+7	Maior	maior	NOUN	_	Gender=Masc|Number=Sing	5	amod	_	_
+8	israelense	israelense	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	general	general	NOUN	_	Gender=Masc|Number=Sing	5	appos	_	_
+11	Benny	Benny	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	10	appos	_	_
+12	Gantz	Gantz	PROPN	_	Number=Sing	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	10	punct	_	_
+14	pediu	pedir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	recentemente	recentemente	ADV	_	_	14	advmod	_	_
 16-17	ao	_	_	_	_	_	_	_	_
-16	a	a	ADP	ADP	_	18	case	_	_
-17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	Egito	_	PROPN	PNOUN	_	14	iobj	_	_
-19	que	_	PRON	PRON	_	21	mark	_	_
-20	"	"	PUNCT	.	_	21	punct	_	SpaceAfter=No
-21	assuma	assumir	VERB	VERB	_	14	ccomp	_	_
-22	sua	_	DET	DET	_	23	det:poss	_	_
-23	soberania	soberania	NOUN	NOUN	_	21	obj	_	_
-24	sobre	_	ADP	ADP	_	26	case	_	_
-25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	Sinai	_	PROPN	PNOUN	_	23	nmod	_	SpaceAfter=No
-27	"	"	PUNCT	.	_	21	punct	_	SpaceAfter=No
-28	.	.	PUNCT	.	_	14	punct	_	_
+16	a	a	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Egito	Egito	PROPN	_	Gender=Masc|Number=Sing	14	obj	_	_
+19	que	que	SCONJ	_	_	21	mark	_	_
+20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	assuma	assumir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+22	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	23	det	_	_
+23	soberania	soberania	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
+24	sobre	sobre	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Sinai	Sinai	PROPN	_	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
 
 # sent_id = train-s4669
 # text = Noutros casos (como o da Igreja Apostólica Armênia), o catholicós é superior ao patriarca.
@@ -282,42 +284,44 @@
 30	possível	_	ADV	ADV	_	29	advmod	_	SpaceAfter=No
 31	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = train-s4673
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = BRASÍLIA -- Seis milhões dos 31,7 milhões de eleitores aptos a votar no segundo turno das eleições municipais faltaram hoje (28) às urnas ...
-1	BRASÍLIA	_	PROPN	PNOUN	_	22	parataxis	_	_
-2	--	_	PUNCT	.	_	22	punct	_	_
-3	Seis	_	NUM	NUM	NumType=Card	4	nummod	_	_
-4	milhões	_	NUM	NUM	NumType=Card	10	nummod	_	_
+# sent_id = train-s4673
+1	BRASÍLIA	Brasília	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	--	--	PUNCT	_	_	1	punct	_	_
+3	Seis	seis	NUM	_	NumType=Card	22	nsubj	_	_
+4	milhões	milhão	NUM	_	NumType=Card	3	flat	_	_
 5-6	dos	_	_	_	_	_	_	_	_
-5	de	de	ADP	ADP	_	4	case	_	_
-6	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
-7	31,7	31,7	NUM	NUM	NumType=Card	8	nummod	_	_
-8	milhões	_	NUM	NUM	NumType=Card	5	nummod	_	_
-9	de	de	ADP	ADP	_	10	case	_	_
-10	eleitores	eleitor	NOUN	NOUN	_	22	nsubj	_	_
-11	aptos	apto	ADJ	ADJ	_	10	amod	_	_
-12	a	_	ADP	ADP	_	13	mark	_	_
-13	votar	votar	VERB	VERB	_	11	nmod	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	31,7	31,7	NUM	_	NumType=Card	3	nmod	_	_
+8	milhões	milhão	NUM	_	NumType=Card	7	flat	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	eleitores	eleitor	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
+11	aptos	apto	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	_
+12	a	a	SCONJ	_	_	13	mark	_	_
+13	votar	votar	VERB	_	VerbForm=Inf	11	xcomp	_	_
 14-15	no	_	_	_	_	_	_	_	_
-14	em	em	ADP	ADP	_	17	case	_	_
-15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-16	segundo	segundo	ADJ	ADJ	_	17	amod	_	_
-17	turno	turno	NOUN	NOUN	_	13	nmod	_	_
+14	em	em	ADP	_	_	17	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	segundo	segundo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	17	amod	_	_
+17	turno	turno	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
 18-19	das	_	_	_	_	_	_	_	_
-18	de	de	ADP	ADP	_	20	case	_	_
-19	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
-20	eleições	eleição	NOUN	NOUN	_	17	nmod	_	_
-21	municipais	municipal	ADJ	ADJ	_	20	amod	_	_
-22	faltaram	faltar	VERB	VERB	_	0	root	_	_
-23	hoje	hoje	ADV	ADV	_	22	advmod	_	_
-24	(	(	PUNCT	.	_	25	punct	_	SpaceAfter=No
-25	28	28	NUM	NUM	NumType=Card	23	nmod	_	SpaceAfter=No
-26	)	)	PUNCT	.	_	25	punct	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	17	nmod	_	_
+21	municipais	municipal	ADJ	_	Gender=Fem|Number=Plur	20	amod	_	_
+22	faltaram	faltar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	parataxis	_	_
+23	hoje	hoje	ADV	_	_	22	advmod	_	_
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	28	28	NUM	_	NumType=Card	22	parataxis	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	25	punct	_	_
 27-28	às	_	_	_	_	_	_	_	_
-27	a	a	ADP	ADP	_	29	case	_	_
-28	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
-29	urnas	urna	NOUN	NOUN	_	22	nmod	_	_
-30	...	_	PUNCT	.	_	22	punct	_	_
+27	a	a	ADP	_	_	29	case	_	_
+28	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	urnas	urna	NOUN	_	Gender=Fem|Number=Plur	22	obl	_	_
+30	...	...	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = train-s4674
 # text = Também é preciso ter inglês fluente e pleno domínio de informática.

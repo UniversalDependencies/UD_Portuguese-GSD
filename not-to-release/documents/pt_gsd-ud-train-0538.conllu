@@ -196,55 +196,57 @@
 21	visualizações	visualização	NOUN	NOUN	_	17	obj	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = train-s5346
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Quem passa por lá, além do passeio pelos cânions, não pode deixar de conhecer o museu do Cangaço, onde estão expostas cartas, fotos, além de objetos pessoais de Lampião, Maria Bonita e o bando.
-1	Quem	_	PRON	PRON	_	2	nsubj	_	_
-2	passa	passar	VERB	VERB	_	18	csubj	_	_
-3	por	_	ADP	ADP	_	4	mark	_	_
-4	lá	lá	ADV	ADV	_	2	nmod	_	SpaceAfter=No
-5	,	,	PUNCT	.	_	2	punct	_	_
-6	além	além	ADV	ADV	_	18	advmod	_	_
+# sent_id = train-s5346
+1	Quem	quem	PRON	_	Number=Sing|PronType=Rel	2	nsubj	_	_
+2	passa	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	xcomp	_	_
+3	por	por	ADP	_	_	4	case	_	_
+4	lá	lá	ADV	_	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	além	além	ADV	_	_	2	advmod	_	_
 7-8	do	_	_	_	_	_	_	_	_
-7	de	de	ADP	ADP	_	9	case	_	_
-8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	passeio	passeio	NOUN	NOUN	_	6	nmod	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	passeio	passeio	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
 10-11	pelos	_	_	_	_	_	_	_	_
-10	por	por	ADP	ADP	_	12	case	_	_
-11	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
-12	cânions	cânion	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
-13	,	,	PUNCT	.	_	6	punct	_	_
-14	não	não	ADV	ADV	Polarity=Neg	18	advmod	_	_
-15	pode	_	AUX	AUX	_	18	aux	_	_
-16	deixar	deixar	AUX	AUX	_	18	aux	_	_
-17	de	_	ADP	ADP	_	18	mark	_	_
-18	conhecer	conhecer	VERB	VERB	_	0	root	_	_
-19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	museu	museu	NOUN	NOUN	_	18	obj	_	_
+10	por	por	ADP	_	_	12	case	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	cânions	cânion	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	6	punct	_	_
+14	não	não	ADV	_	Polarity=Neg	15	advmod	_	_
+15	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	deixar	deixar	VERB	_	ExtPos=AUX|VerbForm=Inf	15	xcomp	_	_
+17	de	de	SCONJ	_	_	18	mark	_	_
+18	conhecer	conhecer	VERB	_	VerbForm=Inf	16	xcomp	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	museu	museu	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
 21-22	do	_	_	_	_	_	_	_	_
-21	de	de	ADP	ADP	_	23	case	_	_
-22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	Cangaço	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
-24	,	,	PUNCT	.	_	26	punct	_	_
-25	onde	onde	ADV	ADV	_	26	advmod	_	_
-26	estão	estar	VERB	VERB	_	20	acl:relcl	_	_
-27	expostas	exposto	ADJ	ADJ	_	26	xcomp	_	_
-28	cartas	carta	NOUN	NOUN	_	26	nsubj	_	SpaceAfter=No
-29	,	,	PUNCT	.	_	30	punct	_	_
-30	fotos	foto	NOUN	NOUN	_	28	conj	_	SpaceAfter=No
-31	,	,	PUNCT	.	_	32	punct	_	_
-32	além	além	ADV	ADV	_	26	advmod	_	_
-33	de	de	ADP	ADP	_	34	case	_	_
-34	objetos	objeto	NOUN	NOUN	_	32	nmod	_	_
-35	pessoais	pessoal	ADJ	ADJ	_	34	amod	_	_
-36	de	de	ADP	ADP	_	37	case	_	_
-37	Lampião	_	PROPN	PNOUN	_	34	nmod	_	SpaceAfter=No
-38	,	,	PUNCT	.	_	39	punct	_	_
-39	Maria	_	PROPN	PNOUN	_	37	conj	_	_
-40	Bonita	_	PROPN	PNOUN	_	39	flat	_	_
-41	e	e	CCONJ	CONJ	_	43	cc	_	_
-42	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
-43	bando	bando	NOUN	NOUN	_	37	conj	_	SpaceAfter=No
-44	.	.	PUNCT	.	_	18	punct	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Cangaço	Cangaço	PROPN	_	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	27	punct	_	_
+25	onde	onde	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	27	obl	_	_
+26	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+27	expostas	expor,exposta	ADJ	_	Gender=Fem|Number=Plur	20	acl:relcl	_	_
+28	cartas	carta	NOUN	_	Gender=Fem|Number=Plur	27	nsubj	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	30	punct	_	_
+30	fotos	foto	NOUN	_	Gender=Fem|Number=Plur	28	conj	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	34	punct	_	_
+32	além	além	ADV	_	_	34	cc	_	_
+33	de	de	ADP	_	_	32	fixed	_	_
+34	objetos	objeto	NOUN	_	Gender=Masc|Number=Plur	28	conj	_	_
+35	pessoais	pessoal	ADJ	_	Gender=Masc|Number=Plur	34	amod	_	_
+36	de	de	ADP	_	_	37	case	_	_
+37	Lampião	Lampião	PROPN	_	Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	39	punct	_	_
+39	Maria	Maria	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	37	conj	_	_
+40	Bonita	Bonita	PROPN	_	Number=Sing	39	flat:name	_	_
+41	e	e	CCONJ	_	_	43	cc	_	_
+42	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	bando	bando	NOUN	_	Gender=Masc|Number=Sing	37	conj	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
 
 # sent_id = train-s5347
 # text = Mesmo assim, ao se despedir, fez menção à sua provável ida para a cadeia.

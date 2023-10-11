@@ -297,41 +297,45 @@
 10	equilibrado	equilibrado	ADJ	ADJ	_	5	conj	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s8998
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O livro conta com prefácio de Antonio Fadiga, CEO da Fischer &amp; Friends, e posfácio de Antonio Roberto Oliveira, diretor para a América Latina do Instituto Managic.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	livro	livro	NOUN	NOUN	_	3	nsubj	_	_
-3	conta	contar	VERB	VERB	_	0	root	_	_
-4	com	com	ADP	ADP	_	5	case	_	_
-5	prefácio	prefácio	NOUN	NOUN	_	3	nmod	_	_
-6	de	de	ADP	ADP	_	7	case	_	_
-7	Antonio	_	PROPN	PNOUN	_	5	nmod	_	_
-8	Fadiga	_	PROPN	PNOUN	_	7	flat	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	10	punct	_	_
-10	CEO	_	PROPN	PNOUN	_	7	appos	_	_
+# sent_id = train-s8998
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	livro	livro	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	conta	contar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	com	com	ADP	_	_	5	case	_	_
+5	prefácio	prefácio	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Antonio	Antonio	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	5	nmod	_	_
+8	Fadiga	Fadiga	PROPN	_	Number=Sing	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	CEO	CEO	NOUN	_	Gender=Masc|Number=Sing	7	appos	_	_
 11-12	da	_	_	_	_	_	_	_	_
-11	de	de	ADP	ADP	_	13	case	_	_
-12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	Fischer	_	PROPN	PNOUN	_	10	nmod	_	_
-14	&amp;	_	PROPN	PNOUN	_	15	cc	_	_
-15	Friends	_	PROPN	PNOUN	_	13	conj	_	SpaceAfter=No
-16	,	,	PUNCT	.	_	10	punct	_	_
-17	e	e	CCONJ	CONJ	_	18	cc	_	_
-18	posfácio	posfácio	NOUN	NOUN	_	5	conj	_	_
-19	de	de	ADP	ADP	_	20	case	_	_
-20	Antonio	_	PROPN	PNOUN	_	18	nmod	_	_
-21	Roberto	_	PROPN	PNOUN	_	20	flat	_	_
-22	Oliveira	_	PROPN	PNOUN	_	20	flat	_	SpaceAfter=No
-23	,	,	PUNCT	.	_	24	punct	_	_
-24	diretor	diretor	NOUN	NOUN	_	20	appos	_	_
-25	para	para	ADP	ADP	_	27	case	_	_
-26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	América	_	PROPN	PNOUN	_	24	nmod	_	_
-28	Latina	_	PROPN	PNOUN	_	27	amod	_	_
-29-30	do	_	_	_	_	_	_	_	_
-29	de	de	ADP	ADP	_	31	case	_	_
-30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-31	Instituto	_	PROPN	PNOUN	_	24	nmod	_	_
-32	Managic	_	PROPN	PNOUN	_	31	flat	_	SpaceAfter=No
-33	.	.	PUNCT	.	_	3	punct	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Fischer	Fischer	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	10	nmod	_	_
+14	&	&	PROPN	_	Number=Sing	13	flat:name	_	SpaceAfter=No
+15	amp	amp	PROPN	_	Number=Sing	13	flat:name	_	SpaceAfter=No
+16	;	;	PUNCT	_	_	17	punct	_	_
+17	Friends	Friends	PROPN	_	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	e	e	CCONJ	_	_	20	cc	_	_
+20	posfácio	posfácio	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	Antonio	Antonio	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	20	nmod	_	_
+23	Roberto	Roberto	PROPN	_	Number=Sing	22	flat:name	_	_
+24	Oliveira	Oliveira	PROPN	_	Number=Sing	22	flat:name	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	diretor	diretor	NOUN	_	Gender=Masc|Number=Sing	22	appos	_	_
+27	para	para	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	América	América	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	26	nmod	_	_
+30	Latina	Latina	PROPN	_	Number=Sing	29	flat:name	_	_
+31-32	do	_	_	_	_	_	_	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	Instituto	Instituto	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	29	nmod	_	_
+34	Managic	Managic	PROPN	_	Number=Sing	33	flat:name	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 

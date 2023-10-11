@@ -267,30 +267,32 @@
 23	resultado	resultado	NOUN	NOUN	_	21	obj	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = train-s8712
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Sangrando muito, o jogador tricolor levou a pior e precisou ser removido para um hospital próximo ao ginásio.
-1	Sangrando	sangrar	VERB	VERB	_	5	acl	_	_
-2	muito	muito	ADV	ADV	_	1	advmod	_	SpaceAfter=No
-3	,	,	PUNCT	.	_	1	punct	_	_
-4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	jogador	jogador	NOUN	NOUN	_	7	nsubj	_	_
-6	tricolor	tricolor	ADJ	ADJ	_	5	amod	_	_
-7	levou	levar	VERB	VERB	_	0	root	_	_
-8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	pior	_	NOUN	NOUN	_	7	obj	_	_
-10	e	e	CCONJ	CONJ	_	13	cc	_	_
-11	precisou	precisar	AUX	AUX	_	13	aux	_	_
-12	ser	ser	AUX	AUX	_	13	aux:pass	_	_
-13	removido	remover	VERB	VERB	_	7	conj	_	_
-14	para	para	ADP	ADP	_	16	case	_	_
-15	um	um	DET	DET	_	16	det	_	_
-16	hospital	hospital	NOUN	NOUN	_	13	nmod	_	_
-17	próximo	próximo	ADJ	ADJ	_	16	amod	_	_
+# sent_id = train-s8712
+1	Sangrando	sangrar	VERB	_	VerbForm=Ger	7	advcl	_	_
+2	muito	muito	ADV	_	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	jogador	jogador	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+6	tricolor	tricolor	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7	levou	levar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	a	a	ADP	_	_	9	case	_	_
+9	pior	pior	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	precisou	precisar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+12	ser	ser	AUX	_	VerbForm=Inf	13	aux:pass	_	_
+13	removido	remover	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	11	xcomp	_	_
+14	para	para	ADP	_	_	16	case	_	_
+15	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	hospital	hospital	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+17	próximo	próximo	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
 18-19	ao	_	_	_	_	_	_	_	_
-18	a	a	ADP	ADP	_	20	case	_	_
-19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	ginásio	ginásio	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
-21	.	.	PUNCT	.	_	7	punct	_	_
+18	a	a	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	ginásio	ginásio	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
 # sent_id = train-s8713
 # text = Do total de imóveis comercializados entre janeiro e julho deste ano, 45 % foram por intermédio de financiamentos concedidos pelos bancos, mesmo índice registrado em 2011.

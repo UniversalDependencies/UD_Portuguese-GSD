@@ -11,67 +11,73 @@
 9	engastadas	engastado	ADJ	ADJ	_	8	amod	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = train-s5023
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = E se depender da opinião de Neymar, os dirigentes alvinegros continuarão enfrentando dificuldades no mercado do futebol.
-1	E	_	CCONJ	CONJ	_	14	cc	_	_
-2	se	_	CCONJ	CONJ	_	3	mark	_	_
-3	depender	depender	VERB	VERB	_	14	advcl	_	_
+# sent_id = train-s5023
+1	E	e	CCONJ	_	_	14	cc	_	_
+2	se	se	SCONJ	_	_	3	mark	_	_
+3	depender	depender	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	advcl	_	_
 4-5	da	_	_	_	_	_	_	_	_
-4	de	de	ADP	ADP	_	6	case	_	_
-5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	opinião	opinião	NOUN	NOUN	_	3	nmod	_	_
-7	de	de	ADP	ADP	_	8	case	_	_
-8	Neymar	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	3	punct	_	_
-10	os	o	DET	DET	_	11	det	_	_
-11	dirigentes	dirigente	NOUN	NOUN	_	14	nsubj	_	_
-12	alvinegros	alvinegro	ADJ	ADJ	_	11	amod	_	_
-13	continuarão	continuar	AUX	AUX	_	14	aux	_	_
-14	enfrentando	enfrentar	VERB	VERB	_	0	root	_	_
-15	dificuldades	dificuldade	NOUN	NOUN	_	14	obj	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	opinião	opinião	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Neymar	Neymar	PROPN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	3	punct	_	_
+10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	dirigentes	dirigente	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	_
+12	alvinegros	alvinegro	ADJ	_	Gender=Masc|Number=Plur	11	amod	_	_
+13	continuarão	continuar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+14	enfrentando	enfrentar	VERB	_	VerbForm=Ger	13	xcomp	_	_
+15	dificuldades	dificuldade	NOUN	_	Gender=Fem|Number=Plur	14	obj	_	_
 16-17	no	_	_	_	_	_	_	_	_
-16	em	em	ADP	ADP	_	18	case	_	_
-17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	mercado	mercado	NOUN	NOUN	_	15	nmod	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	mercado	mercado	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
 19-20	do	_	_	_	_	_	_	_	_
-19	de	de	ADP	ADP	_	21	case	_	_
-20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	futebol	futebol	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
-22	.	.	PUNCT	.	_	14	punct	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	futebol	futebol	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
 
-# sent_id = train-s5024
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = No caso de Elicarlos, o jogador faz testes antes da partida.
+# sent_id = train-s5024
 1-2	No	_	_	_	_	_	_	_	_
-1	Em	em	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	caso	caso	NOUN	NOUN	_	9	nmod	_	_
-4	de	de	ADP	ADP	_	5	case	_	_
-5	Elicarlos	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
-6	,	,	PUNCT	.	_	3	punct	_	_
-7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	jogador	jogador	NOUN	NOUN	_	9	nsubj	_	_
-9	faz	fazer	VERB	VERB	_	0	root	_	_
-10	testes	teste	NOUN	NOUN	_	9	obj	_	_
-11	antes	antes	ADV	ADV	_	14	case	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	caso	caso	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	Elicarlos	Elicarlos	PROPN	_	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	jogador	jogador	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+9	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	testes	teste	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	_
+11	antes	antes	ADV	_	_	9	advmod	_	_
 12-13	da	_	_	_	_	_	_	_	_
-12	de	de	ADP	ADP	_	11	case	_	_
-13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-14	partida	partida	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
-15	.	.	PUNCT	.	_	9	punct	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	partida	partida	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
 
-# sent_id = train-s5025
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Lá que comecei a participar de rodeio, em 2004.
-1	Lá	lá	ADV	ADV	_	5	advmod	_	_
-2	que	que	CCONJ	CONJ	_	5	mark	_	_
-3	comecei	começar	AUX	AUX	_	5	aux	_	_
-4	a	_	ADP	ADP	_	5	mark	_	_
-5	participar	participar	VERB	VERB	_	0	root	_	_
-6	de	de	ADP	ADP	_	7	case	_	_
-7	rodeio	rodeio	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
-8	,	,	PUNCT	.	_	10	punct	_	_
-9	em	em	ADP	ADP	_	10	case	_	_
-10	2004	2004	NUM	NUM	NumType=Card	5	nmod	_	SpaceAfter=No
-11	.	.	PUNCT	.	_	5	punct	_	_
+# sent_id = train-s5025
+1	Lá	lá	ADV	_	_	5	advmod	_	_
+2	que	que	SCONJ	_	_	1	fixed	_	_
+3	comecei	começar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	SCONJ	_	_	5	mark	_	_
+5	participar	participar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	rodeio	rodeio	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	5	punct	_	_
+9	em	em	ADP	_	_	10	case	_	_
+10	2004	2004	NUM	_	NumType=Card	5	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # sent_id = train-s5026
 # text = As principais vias que dão acesso aos litorais Norte e Sul de Alagoas passaram boa parte desta manhã com um intenso fluxo de veículos.

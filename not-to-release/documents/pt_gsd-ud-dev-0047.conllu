@@ -74,38 +74,40 @@
 21	corpo	corpo	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	12	punct	_	_
 
-# sent_id = dev-s459
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Ele lembrou aos moradores que como vereador foi um dos principais combatentes da prática de bota - foras predominante na cidade.
-1	Ele	_	PRON	PRON	_	2	nsubj	_	_
-2	lembrou	lembrar	VERB	VERB	_	0	root	_	_
+# sent_id = dev-s459
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	lembrou	lembrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3-4	aos	_	_	_	_	_	_	_	_
-3	a	a	ADP	ADP	_	5	case	_	_
-4	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
-5	moradores	morador	NOUN	NOUN	_	2	iobj	_	_
-6	que	_	PRON	PRON	_	10	mark	_	_
-7	como	como	ADP	ADP	_	8	case	_	_
-8	vereador	vereador	NOUN	NOUN	_	10	nmod	_	_
-9	foi	_	AUX	AUX	_	10	cop	_	_
-10	um	_	PRON	PRON	_	2	ccomp	_	_
+3	a	a	ADP	_	_	5	case	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	moradores	morador	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
+6	que	que	SCONJ	_	_	10	mark	_	_
+7	como	como	ADP	_	_	8	case	_	_
+8	vereador	vereador	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+9	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+10	um	um	NUM	_	NumType=Card	2	ccomp	_	_
 11-12	dos	_	_	_	_	_	_	_	_
-11	de	de	ADP	ADP	_	14	case	_	_
-12	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
-13	principais	principal	ADJ	ADJ	_	14	amod	_	_
-14	combatentes	combatente	NOUN	NOUN	_	10	nmod	_	_
+11	de	de	ADP	_	_	14	case	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	principais	principal	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	_
+14	combatentes	combatente	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
 15-16	da	_	_	_	_	_	_	_	_
-15	de	de	ADP	ADP	_	17	case	_	_
-16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	prática	_	NOUN	NOUN	_	14	nmod	_	_
-18	de	de	ADP	ADP	_	19	case	_	_
-19	bota	bota	NOUN	NOUN	_	17	nmod	_	_
-20	-	-	PUNCT	.	_	19	punct	_	_
-21	foras	fora	NOUN	NOUN	_	19	flat	_	_
-22	predominante	predominante	ADJ	ADJ	_	17	amod	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	prática	prática	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	bota	bota	NOUN	_	ExtPos=NOUN|Gender=Fem|Number=Sing	17	nmod	_	_
+20	-	-	PUNCT	_	_	21	punct	_	_
+21	foras	fora	NOUN	_	Gender=Fem|Number=Plur	19	conj	_	_
+22	predominante	predominante	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
 23-24	na	_	_	_	_	_	_	_	_
-23	em	em	ADP	ADP	_	25	case	_	_
-24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-25	cidade	cidade	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
-26	.	.	PUNCT	.	_	2	punct	_	_
+23	em	em	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	cidade	cidade	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = dev-s460
 # text = Também deu origem a uma nova expressão na internet, "Eastwooding", para pessoas que postam fotos suas '' conversando '' com cadeiras vazias.
@@ -171,67 +173,71 @@
 13	morava	morar	VERB	VERB	_	9	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = dev-s463
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Ao que me parece, esse juiz soltou o rapaz e ainda lhe devolveu a chave do carro para que ele tenha a possibilidade de cometer o mesmo erro novamente.
+# sent_id = dev-s463
 1-2	Ao	_	_	_	_	_	_	_	_
-1	A	a	ADP	ADP	_	5	case	_	_
-2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-3	que	_	CCONJ	CONJ	_	1	fixed	_	_
-4	me	_	PRON	PRON	_	5	iobj	_	_
-5	parece	parecer	VERB	VERB	_	9	advcl	_	SpaceAfter=No
-6	,	,	PUNCT	.	_	5	punct	_	_
-7	esse	_	DET	DET	_	8	det	_	_
-8	juiz	juiz	NOUN	NOUN	_	9	nsubj	_	_
-9	soltou	soltar	VERB	VERB	_	0	root	_	_
-10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	rapaz	rapaz	NOUN	NOUN	_	9	obj	_	_
-12	e	e	CCONJ	CONJ	_	15	cc	_	_
-13	ainda	ainda	ADV	ADV	_	15	advmod	_	_
-14	lhe	_	PRON	PRON	_	15	iobj	_	_
-15	devolveu	devolver	VERB	VERB	_	9	conj	_	_
-16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	chave	chave	NOUN	NOUN	_	15	obj	_	_
+1	A	a	ADP	_	_	2	case	_	_
+2	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	9	obl	_	_
+3	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	5	nsubj	_	_
+4	me	eu	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+5	parece	parecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	juiz	juiz	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+9	soltou	soltar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	rapaz	rapaz	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+12	e	e	CCONJ	_	_	15	cc	_	_
+13	ainda	ainda	ADV	_	_	15	advmod	_	_
+14	lhe	ele	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	iobj	_	_
+15	devolveu	devolver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	chave	chave	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
 18-19	do	_	_	_	_	_	_	_	_
-18	de	de	ADP	ADP	_	20	case	_	_
-19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	carro	carro	NOUN	NOUN	_	17	nmod	_	_
-21	para	_	ADP	ADP	_	24	mark	_	_
-22	que	_	CCONJ	CONJ	_	21	fixed	_	_
-23	ele	_	PRON	PRON	_	24	nsubj	_	_
-24	tenha	ter	VERB	VERB	_	15	advcl	_	_
-25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	possibilidade	possibilidade	NOUN	NOUN	_	24	obj	_	_
-27	de	_	ADP	ADP	_	28	mark	_	_
-28	cometer	cometer	VERB	VERB	_	26	nmod	_	_
-29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-30	mesmo	mesmo	ADJ	ADJ	_	31	amod	_	_
-31	erro	erro	NOUN	NOUN	_	28	obj	_	_
-32	novamente	novamente	ADV	ADV	_	28	advmod	_	SpaceAfter=No
-33	.	.	PUNCT	.	_	9	punct	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	carro	carro	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+21	para	para	SCONJ	_	_	24	mark	_	_
+22	que	que	SCONJ	_	_	24	mark	_	_
+23	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+24	tenha	ter	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	possibilidade	possibilidade	NOUN	_	Gender=Fem|Number=Sing	24	obj	_	_
+27	de	de	SCONJ	_	_	28	mark	_	_
+28	cometer	cometer	VERB	_	VerbForm=Inf	26	acl	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+30	mesmo	mesmo	ADJ	_	Gender=Masc|Number=Sing	31	amod	_	_
+31	erro	erro	NOUN	_	Gender=Masc|Number=Sing	28	obj	_	_
+32	novamente	novamente	ADV	_	_	28	advmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
 
-# sent_id = dev-s464
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Ou como "Love Without Tragedy", que pergunta "o que é o amor sem a tragédia?"
-1	Ou	_	CCONJ	CONJ	_	4	cc	_	_
-2	como	como	ADP	ADP	_	4	case	_	_
-3	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
-4	Love	_	PROPN	PNOUN	_	0	root	_	_
-5	Without	_	PROPN	PNOUN	_	6	case	_	_
-6	Tragedy	_	PROPN	PNOUN	_	4	nmod	_	SpaceAfter=No
-7	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
-8	,	,	PUNCT	.	_	10	punct	_	_
-9	que	_	PRON	PRON	_	10	nsubj	_	_
-10	pergunta	perguntar	VERB	VERB	_	4	acl:relcl	_	_
-11	"	"	PUNCT	.	_	13	punct	_	SpaceAfter=No
-12	o	o	DET	DET	_	13	det	_	_
-13	que	_	PRON	PRON	_	10	ccomp	_	_
-14	é	ser	AUX	AUX	_	13	cop	_	_
-15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	amor	amor	NOUN	NOUN	_	13	nsubj	_	_
-17	sem	_	ADP	ADP	_	19	case	_	_
-18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	tragédia	tragédia	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
-20	?	?	PUNCT	.	_	13	punct	_	SpaceAfter=No
-21	"	"	PUNCT	.	_	13	punct	_	_
+# sent_id = dev-s464
+1	Ou	ou	CCONJ	_	_	4	cc	_	_
+2	como	como	ADP	_	_	4	case	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Love	Love	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	0	root	_	_
+5	Without	Without	PROPN	_	Number=Sing	4	flat:name	_	_
+6	Tragedy	Tragedy	PROPN	_	Number=Sing	4	flat:name	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	4	punct	_	_
+9	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	10	nsubj	_	_
+10	pergunta	perguntar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+11	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+12	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+13	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Int	10	ccomp	_	_
+14	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	amor	amor	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+17	sem	sem	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	tragédia	tragédia	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+20	?	?	PUNCT	_	_	4	punct	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # sent_id = dev-s465
 # text = Assim, termina por viver e morrer sem conversão, sem arrependimento, fechando-se eternamente para a salvação!

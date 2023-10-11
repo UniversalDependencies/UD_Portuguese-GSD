@@ -275,26 +275,28 @@
 32	livros	livro	NOUN	NOUN	_	29	nmod	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = train-s4622
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Deixou de circular na década de 1980, sendo retomada nos anos 1990.
-1	Deixou	deixar	AUX	AUX	_	3	aux	_	_
-2	de	_	ADP	ADP	_	3	mark	_	_
-3	circular	circular	VERB	VERB	_	0	root	_	_
+# sent_id = train-s4622
+1	Deixou	deixar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	de	de	SCONJ	_	_	3	mark	_	_
+3	circular	circular	VERB	_	VerbForm=Inf	1	xcomp	_	_
 4-5	na	_	_	_	_	_	_	_	_
-4	em	em	ADP	ADP	_	6	case	_	_
-5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	década	década	NOUN	NOUN	_	3	nmod	_	_
-7	de	de	ADP	ADP	_	8	case	_	_
-8	1980	1980	NUM	NUM	NumType=Card	6	nmod	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	11	punct	_	_
-10	sendo	ser	AUX	AUX	_	11	aux:pass	_	_
-11	retomada	retomar	VERB	VERB	_	3	acl	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	década	década	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	1980	1980	NUM	_	NumType=Card	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	sendo	ser	AUX	_	VerbForm=Ger	11	aux:pass	_	_
+11	retomada	retomar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	advcl	_	_
 12-13	nos	_	_	_	_	_	_	_	_
-12	em	em	ADP	ADP	_	14	case	_	_
-13	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
-14	anos	ano	NOUN	NOUN	_	11	nmod	_	_
-15	1990	1990	NUM	NUM	NumType=Card	14	nmod	_	SpaceAfter=No
-16	.	.	PUNCT	.	_	3	punct	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	anos	ano	NOUN	_	Gender=Masc|Number=Plur	11	obl	_	_
+15	1990	1990	NUM	_	NumType=Card	14	nummod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = train-s4623
 # text = Leandro Amaro se atrapalhou, o Timbu roubou a bola.

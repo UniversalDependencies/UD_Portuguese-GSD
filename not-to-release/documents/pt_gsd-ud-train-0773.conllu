@@ -277,27 +277,31 @@
 37	motocicletas	motocicleta	NOUN	NOUN	_	35	conj	_	SpaceAfter=No
 38	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = train-s7682
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = E é por isso que o Tribunal Constitucional com muita probabilidade chumbará o Orçamento do Estado neste ponto.
-1	E	_	CCONJ	CONJ	_	2	cc	_	_
-2	é	ser	VERB	VERB	_	0	root	_	_
-3	por	por	ADP	ADP	_	4	case	_	_
-4	isso	_	PRON	PRON	_	2	nmod	_	_
-5	que	_	PRON	PRON	_	12	mark	_	_
-6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	Tribunal	_	PROPN	PNOUN	_	12	nsubj	_	_
-8	Constitucional	_	PROPN	PNOUN	_	7	amod	_	_
-9	com	com	ADP	ADP	_	11	case	_	_
-10	muita	_	DET	DET	_	11	det	_	_
-11	probabilidade	probabilidade	NOUN	NOUN	_	12	nmod	_	_
-12	chumbará	chumbar	VERB	VERB	_	2	csubj	_	_
-13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	Orçamento	_	PROPN	PNOUN	_	12	obj	_	_
+# sent_id = train-s7682
+1	E	e	CCONJ	_	_	12	cc	_	_
+2	é	ser	AUX	_	_	12	mark	_	_
+3	por	por	ADP	_	_	4	case	_	_
+4	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	12	obl	_	_
+5	que	que	SCONJ	_	_	12	mark	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Tribunal	Tribunal	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	12	nsubj	_	_
+8	Constitucional	Constitucional	PROPN	_	Number=Sing	7	flat:name	_	_
+9	com	com	ADP	_	_	11	case	_	_
+10	muita	muito	DET	_	Gender=Fem|Number=Sing|PronType=Ind	11	det	_	_
+11	probabilidade	probabilidade	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+12	chumbará	chumbar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Orçamento	Orçamento	PROPN	_	Gender=Masc|Number=Sing	12	obj	_	_
 15-16	do	_	_	_	_	_	_	_	_
-15	de	de	ADP	ADP	_	17	case	_	_
-16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	Estado	_	PROPN	PNOUN	_	14	nmod	_	_
-18	neste	_	ADP	ADP	_	19	case	_	_
-19	ponto	ponto	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
-20	.	.	PUNCT	.	_	2	punct	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Estado	Estado	PROPN	_	Number=Sing	14	nmod	_	_
+18-19	neste	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	20	det	_	_
+20	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
 

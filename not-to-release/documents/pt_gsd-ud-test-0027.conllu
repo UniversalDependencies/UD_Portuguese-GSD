@@ -1,34 +1,36 @@
-# sent_id = test-s259
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Giovanni de Médici não teve filhos pelo que, antes de morrer, deixou a villa ao jovem sobrinho - neto Giuliano de Médici.
-1	Giovanni	_	PROPN	PNOUN	_	5	nsubj	_	_
-2	de	de	ADP	ADP	_	3	case	_	_
-3	Médici	_	PROPN	PNOUN	_	1	nmod	_	_
-4	não	não	ADV	ADV	Polarity=Neg	5	advmod	_	_
-5	teve	ter	VERB	VERB	_	0	root	_	_
-6	filhos	filho	NOUN	NOUN	_	5	obj	_	_
+# sent_id = test-s259
+1	Giovanni	Giovanni	PROPN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	Médici	Médici	PROPN	_	Number=Sing	1	nmod	_	_
+4	não	não	ADV	_	Polarity=Neg	5	advmod	_	_
+5	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	filhos	filho	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
 7-8	pelo	_	_	_	_	_	_	_	_
-7	por	por	ADP	ADP	_	15	case	_	_
-8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-9	que	_	CCONJ	CONJ	_	7	fixed	_	SpaceAfter=No
-10	,	,	PUNCT	.	_	13	punct	_	_
-11	antes	antes	ADV	ADV	_	13	mark	_	_
-12	de	_	ADP	ADP	_	11	fixed	_	_
-13	morrer	morrer	VERB	VERB	_	15	advcl	_	SpaceAfter=No
-14	,	,	PUNCT	.	_	13	punct	_	_
-15	deixou	deixar	VERB	VERB	_	5	advcl	_	_
-16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	villa	_	NOUN	NOUN	_	15	obj	_	_
+7	por	por	ADP	_	ExtPos=SCONJ	15	mark	_	_
+8	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	7	fixed	_	_
+9	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	7	fixed	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	_
+11	antes	antes	ADV	_	ExtPos=SCONJ	13	mark	_	_
+12	de	de	ADP	_	_	11	fixed	_	_
+13	morrer	morrer	VERB	_	VerbForm=Inf	15	advcl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	deixou	deixar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	advcl	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	villa	villa	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
 18-19	ao	_	_	_	_	_	_	_	_
-18	a	a	ADP	ADP	_	21	case	_	_
-19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-20	jovem	jovem	ADJ	ADJ	_	21	amod	_	_
-21	sobrinho	_	NOUN	NOUN	_	15	iobj	_	_
-22	-	-	PUNCT	.	_	21	punct	_	_
-23	neto	neto	NOUN	NOUN	_	21	flat	_	_
-24	Giuliano	_	PROPN	PNOUN	_	21	appos	_	_
-25	de	de	ADP	ADP	_	26	case	_	_
-26	Médici	_	PROPN	PNOUN	_	24	nmod	_	SpaceAfter=No
-27	.	.	PUNCT	.	_	5	punct	_	_
+18	a	a	ADP	_	_	21	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	jovem	jovem	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
+21	sobrinho	sobrinho	NOUN	_	Gender=Masc|Number=Sing	15	iobj	_	_
+22	-	-	PUNCT	_	_	23	punct	_	_
+23	neto	neto	NOUN	_	Gender=Masc|Number=Sing	21	appos	_	_
+24	Giuliano	Giuliano	PROPN	_	Gender=Masc|Number=Sing	21	appos	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	Médici	Médici	PROPN	_	Number=Sing	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # sent_id = test-s260
 # text = Fogo toma conta de barracos na região central de São Paulo.
@@ -119,38 +121,40 @@
 33	monetária	monetário	ADJ	ADJ	_	32	amod	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	1	punct	_	_
 
-# sent_id = test-s264
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Conforme Só Notícias informou, a fase Centro - Oeste corresponde ao grupo 3 dos 5 formados (cada região do país).
-1	Conforme	_	CCONJ	CONJ	_	4	mark	_	_
-2	Só	_	PROPN	PNOUN	_	3	advmod	_	_
-3	Notícias	_	PROPN	PNOUN	_	4	nsubj	_	_
-4	informou	informar	VERB	VERB	_	11	advcl	_	SpaceAfter=No
-5	,	,	PUNCT	.	_	4	punct	_	_
-6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	fase	fase	NOUN	NOUN	_	11	nsubj	_	_
-8	Centro	_	PROPN	PNOUN	_	7	appos	_	_
-9	-	-	PUNCT	.	_	8	punct	_	_
-10	Oeste	_	PROPN	PNOUN	_	8	flat	_	_
-11	corresponde	corresponder	VERB	VERB	_	0	root	_	_
+# sent_id = test-s264
+1	Conforme	conforme	SCONJ	_	_	4	mark	_	_
+2	Só	só	ADV	_	_	3	advmod	_	_
+3	Notícias	Notícias	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	informou	informar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	fase	fase	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+8	Centro	Centro	PROPN	_	Gender=Fem|Number=Sing	7	appos	_	_
+9	-	-	PUNCT	_	_	10	punct	_	_
+10	Oeste	Oeste	PROPN	_	Gender=Masc|Number=Sing	8	conj	_	_
+11	corresponde	corresponder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12-13	ao	_	_	_	_	_	_	_	_
-12	a	a	ADP	ADP	_	14	case	_	_
-13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	grupo	grupo	NOUN	NOUN	_	11	nmod	_	_
-15	3	3	NUM	NUM	NumType=Card	14	appos	_	_
+12	a	a	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	grupo	grupo	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+15	3	3	NUM	_	NumType=Card	14	nummod	_	_
 16-17	dos	_	_	_	_	_	_	_	_
-16	de	de	ADP	ADP	_	18	case	_	_
-17	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
-18	5	5	NUM	NUM	NumType=Card	15	nmod	_	_
-19	formados	formar	VERB	VERB	_	18	acl	_	_
-20	(	(	PUNCT	.	_	22	punct	_	SpaceAfter=No
-21	cada	_	DET	DET	_	22	det	_	_
-22	região	região	NOUN	NOUN	_	18	appos	_	_
+16	de	de	ADP	_	_	19	case	_	_
+17	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	5	5	NUM	_	NumType=Card	19	nummod	_	_
+19	formados	formado	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
+20	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
+21	cada	cada	DET	_	Gender=Fem|Number=Sing|PronType=Tot	22	det	_	_
+22	região	região	NOUN	_	Gender=Fem|Number=Sing	19	appos	_	_
 23-24	do	_	_	_	_	_	_	_	_
-23	de	de	ADP	ADP	_	25	case	_	_
-24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	país	país	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
-26	)	)	PUNCT	.	_	22	punct	_	SpaceAfter=No
-27	.	.	PUNCT	.	_	11	punct	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	país	país	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
 
 # sent_id = test-s265
 # text = Com isso, poderei trazer empresas para cá.

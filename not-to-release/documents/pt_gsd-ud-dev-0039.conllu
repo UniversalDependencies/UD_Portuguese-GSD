@@ -63,31 +63,33 @@
 14	embora	embora	ADV	ADV	_	13	advmod	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	12	punct	_	_
 
-# sent_id = dev-s379
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O bebê Luigi tem uma personalidade muito tímida, ainda que mais corajosa do que seu irmão, Baby Mario.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	bebê	bebê	NOUN	NOUN	_	4	nsubj	_	_
-3	Luigi	_	PROPN	PNOUN	_	2	appos	_	_
-4	tem	ter	VERB	VERB	_	0	root	_	_
-5	uma	um	DET	DET	_	6	det	_	_
-6	personalidade	personalidade	NOUN	NOUN	_	4	obj	_	_
-7	muito	muito	ADV	ADV	_	8	advmod	_	_
-8	tímida	tímido	ADJ	ADJ	_	6	amod	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	10	punct	_	_
-10	ainda	ainda	ADV	ADV	_	13	cc	_	_
-11	que	_	CCONJ	CONJ	_	10	fixed	_	_
-12	mais	mais	ADV	ADV	_	13	advmod	_	_
-13	corajosa	corajoso	ADJ	ADJ	_	8	conj	_	_
+# sent_id = dev-s379
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	bebê	bebê	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	Luigi	Luigi	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
+4	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	personalidade	personalidade	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	muito	muito	ADV	_	_	8	advmod	_	_
+8	tímida	tímido	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	13	punct	_	_
+10	ainda	ainda	ADV	_	ExtPos=SCONJ	13	mark	_	_
+11	que	que	SCONJ	_	_	10	fixed	_	_
+12	mais	mais	ADV	_	_	13	advmod	_	_
+13	corajosa	corajoso	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
 14-15	do	_	_	_	_	_	_	_	_
-14	de	de	ADP	ADP	_	18	case	_	_
-15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-16	que	_	ADP	ADP	_	14	fixed	_	_
-17	seu	_	DET	DET	_	18	det:poss	_	_
-18	irmão	irmão	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	20	punct	_	_
-20	Baby	_	PROPN	PNOUN	_	18	appos	_	_
-21	Mario	_	PROPN	PNOUN	_	20	flat	_	SpaceAfter=No
-22	.	.	PUNCT	.	_	4	punct	_	_
+14	de	de	ADP	_	_	18	case	_	_
+15	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	14	fixed	_	_
+16	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	14	fixed	_	_
+17	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	18	det	_	_
+18	irmão	irmão	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	Baby	Baby	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	18	appos	_	_
+21	Mario	Mario	PROPN	_	Number=Sing	20	flat:name	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # sent_id = dev-s380
 # text = Ao analisar processo relacionado ao caso no dia 21 de março deste ano, a ministra decidiu que a jurisprudência do Supremo é no sentido da obrigatoriedade de destinação de vagas em concurso público a pessoas com deficiência.

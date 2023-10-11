@@ -36,48 +36,51 @@
 5	financeira	financeiro	ADJ	ADJ	_	4	amod	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = train-s743
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = "Eu adoro Detalhes, Emoções e tem aquela que não é dele, mas que ninguém cantou como ele que é 'Você foi o maior dos meus casos, de todos os abraços ...'.
-1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
-2	Eu	_	PRON	PRON	_	3	nsubj	_	_
-3	adoro	adorar	VERB	VERB	_	0	root	_	_
-4	Detalhes	_	PROPN	PNOUN	_	3	obj	_	SpaceAfter=No
-5	,	,	PUNCT	.	_	6	punct	_	_
-6	Emoções	_	PROPN	PNOUN	_	4	conj	_	_
-7	e	e	CCONJ	CONJ	_	8	cc	_	_
-8	tem	ter	VERB	VERB	_	3	conj	_	_
-9	aquela	_	PRON	PRON	_	8	obj	_	_
-10	que	_	PRON	PRON	_	12	nsubj	_	_
-11	não	não	ADV	ADV	Polarity=Neg	12	advmod	_	_
-12	é	ser	VERB	VERB	_	9	acl:relcl	_	_
-13	dele	_	X	ADPPRON	_	12	det:poss	_	SpaceAfter=No
-14	,	,	PUNCT	.	_	18	punct	_	_
-15	mas	mas	CCONJ	CONJ	_	18	cc	_	_
-16	que	_	PRON	PRON	_	18	obj	_	_
-17	ninguém	_	PRON	PRON	_	18	nsubj	_	_
-18	cantou	cantar	VERB	VERB	_	12	conj	_	_
-19	como	como	ADP	ADP	_	20	case	_	_
-20	ele	_	PRON	PRON	_	18	nmod	_	_
-21	que	_	PRON	PRON	_	27	nsubj	_	_
-22	é	ser	AUX	AUX	_	27	cop	_	_
-23	'	_	PUNCT	.	_	27	punct	_	SpaceAfter=No
-24	Você	_	PROPN	PNOUN	_	27	nsubj	_	_
-25	foi	_	PROPN	PNOUN	_	27	cop	_	_
-26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	maior	_	PROPN	PNOUN	_	9	acl:relcl	_	_
-28-29	dos	_	_	_	_	_	_	_	_
-28	de	de	ADP	ADP	_	31	case	_	_
-29	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
-30	meus	_	DET	DET	_	31	det	_	_
-31	casos	_	PROPN	PNOUN	_	27	nmod	_	SpaceAfter=No
-32	,	,	PUNCT	.	_	36	punct	_	_
-33	de	de	ADP	ADP	_	36	case	_	_
-34	todos	_	DET	DET	_	36	det	_	_
-35	os	o	DET	DET	_	36	det	_	_
-36	abraços	_	PROPN	PNOUN	_	31	conj	_	_
-37	...	_	PUNCT	.	_	27	punct	_	SpaceAfter=No
-38	'	_	PUNCT	.	_	27	punct	_	SpaceAfter=No
-39	.	.	PUNCT	.	_	3	punct	_	_
+# sent_id = train-s743
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Eu	eu	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	adoro	adorar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	Detalhes	Detalhes	PROPN	_	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	Emoções	emoção	NOUN	_	Gender=Fem|Number=Plur	4	conj	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+9	aquela	aquele	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	8	obj	_	_
+10	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	14	nsubj	_	_
+11	não	não	ADV	_	Polarity=Neg	14	advmod	_	_
+12	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13-14	dele	_	_	_	_	_	_	_	SpaceAfter=No
+13	de	de	ADP	_	_	14	case	_	_
+14	ele	ele	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	acl:relcl	_	_
+15	,	,	PUNCT	_	_	19	punct	_	_
+16	mas	mas	CCONJ	_	_	19	cc	_	_
+17	que	que	PRON	_	_	19	obj	_	_
+18	ninguém	ninguém	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	19	nsubj	_	_
+19	cantou	cantar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	conj	_	_
+20	como	como	ADP	_	_	21	case	_	_
+21	ele	ele	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obl	_	_
+22	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	28	nsubj	_	_
+23	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+24	'	'	PUNCT	_	_	28	punct	_	SpaceAfter=No
+25	Você	você	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+26	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	cop	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	maior	maior	ADJ	_	Gender=Masc|Number=Sing	21	acl:relcl	_	_
+29-30	dos	_	_	_	_	_	_	_	_
+29	de	de	ADP	_	_	32	case	_	_
+30	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+31	meus	meu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	32	det	_	_
+32	casos	caso	NOUN	_	Gender=Masc|Number=Plur	28	obl	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	37	punct	_	_
+34	de	de	ADP	_	_	37	case	_	_
+35	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	37	det	_	_
+36	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	abraços	abraço	NOUN	_	Gender=Masc|Number=Plur	32	conj	_	_
+38	...'	...'	PUNCT	_	_	3	punct	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = train-s744
 # text = Segundo ele, o texto só pode ser revogado caso seja convocada uma sessão extraordinária -- a próxima sessão ordinária só acontece após o pleito.

@@ -47,21 +47,23 @@
 8	sustenta	sustentar	VERB	VERB	_	4	acl:relcl	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s413
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = As raízes, no entanto, acabam tendo portos principais.
-1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
-2	raízes	raiz	NOUN	NOUN	_	9	nsubj	_	SpaceAfter=No
-3	,	,	PUNCT	.	_	6	punct	_	_
+# sent_id = train-s413
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	raízes	raiz	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
 4-5	no	_	_	_	_	_	_	_	_
-4	em	em	ADP	ADP	_	6	case	_	_
-5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	entanto	entanto	ADV	ADV	_	9	nmod	_	SpaceAfter=No
-7	,	,	PUNCT	.	_	6	punct	_	_
-8	acabam	acabar	AUX	AUX	_	9	aux	_	_
-9	tendo	_	VERB	VERB	_	0	root	_	_
-10	portos	porto	NOUN	NOUN	_	9	obj	_	_
-11	principais	principal	ADJ	ADJ	_	10	amod	_	SpaceAfter=No
-12	.	.	PUNCT	.	_	9	punct	_	_
+4	em	em	ADP	_	ExtPos=CCONJ	8	cc	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	fixed	_	_
+6	entanto	entanto	NOUN	_	Gender=Masc|Number=Sing	4	fixed	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	acabam	acabar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	tendo	ter	VERB	_	VerbForm=Ger	8	xcomp	_	_
+10	portos	porto	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	_
+11	principais	principal	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
 
 # sent_id = train-s414
 # text = Quanto à vice - prefeitura, disse estar honrado com o cargo e que trabalhará em harmonia com o prefeito Mauro Mendes (PSB).

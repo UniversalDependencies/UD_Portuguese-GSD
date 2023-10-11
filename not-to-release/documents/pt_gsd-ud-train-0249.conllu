@@ -1,41 +1,43 @@
-# sent_id = train-s2471
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = De acordo com ele, a suspeita chegou a cumprir uma parte da pena, mas ao ganhar liberdade provisória, deixou de comparecer periodicamente à Vara de Execução.
-1	De	_	ADP	ADP	_	2	case	_	_
-2	acordo	acordo	NOUN	NOUN	_	26	nmod	_	_
-3	com	com	ADP	ADP	_	4	case	_	_
-4	ele	_	PRON	PRON	_	2	nmod	_	SpaceAfter=No
-5	,	,	PUNCT	.	_	2	punct	_	_
-6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	suspeita	_	NOUN	NOUN	_	26	nsubj	_	_
-8	chegou	chegar	AUX	AUX	_	26	aux	_	_
-9	a	_	ADP	ADP	_	26	mark	_	_
-10	cumprir	cumprir	VERB	VERB	_	26	mark	_	_
-11	uma	um	DET	DET	_	12	det	_	_
-12	parte	parte	NOUN	NOUN	_	26	obj	_	_
+# sent_id = train-s2471
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+3	com	com	ADP	_	_	4	case	_	_
+4	ele	ele	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	suspeita	suspeita	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+8	chegou	chegar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	a	a	SCONJ	_	_	10	mark	_	_
+10	cumprir	cumprir	VERB	_	VerbForm=Inf	8	xcomp	_	_
+11	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	parte	parte	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
 13-14	da	_	_	_	_	_	_	_	_
-13	de	de	ADP	ADP	_	15	case	_	_
-14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	pena	_	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
-16	,	,	PUNCT	.	_	26	punct	_	_
-17	mas	mas	CCONJ	CONJ	_	26	cc	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	pena	pena	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	20	punct	_	_
+17	mas	mas	CCONJ	_	_	24	cc	_	_
 18-19	ao	_	_	_	_	_	_	_	_
-18	a	a	ADP	ADP	_	20	case	_	_
-19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	ganhar	ganhar	VERB	VERB	_	26	advcl	_	_
-21	liberdade	liberdade	NOUN	NOUN	_	20	obj	_	_
-22	provisória	provisório	ADJ	ADJ	_	21	amod	_	SpaceAfter=No
-23	,	,	PUNCT	.	_	20	punct	_	_
-24	deixou	deixar	AUX	AUX	_	26	aux	_	_
-25	de	_	ADP	ADP	_	26	mark	_	_
-26	comparecer	comparecer	VERB	VERB	_	0	root	_	_
-27	periodicamente	periodicamente	ADV	ADV	_	26	advmod	_	_
+18	a	a	SCONJ	_	_	20	mark	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	ganhar	ganhar	VERB	_	VerbForm=Inf	26	advcl	_	_
+21	liberdade	liberdade	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	_
+22	provisória	provisório	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	20	punct	_	_
+24	deixou	deixar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	conj	_	_
+25	de	de	SCONJ	_	_	26	mark	_	_
+26	comparecer	comparecer	VERB	_	VerbForm=Inf	24	xcomp	_	_
+27	periodicamente	periodicamente	ADV	_	_	26	advmod	_	_
 28-29	à	_	_	_	_	_	_	_	_
-28	a	a	ADP	ADP	_	30	case	_	_
-29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
-30	Vara	_	PROPN	PNOUN	_	26	nmod	_	_
-31	de	de	ADP	ADP	_	32	case	_	_
-32	Execução	_	PROPN	PNOUN	_	30	nmod	_	SpaceAfter=No
-33	.	.	PUNCT	.	_	26	punct	_	_
+28	a	a	ADP	_	_	30	case	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	Vara	Vara	PROPN	_	Gender=Fem|Number=Sing	26	obl	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	Execução	Execução	PROPN	_	Number=Sing	30	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
 
 # sent_id = train-s2472
 # text = De acordo com o Tribunal de Justiça de Minas Gerais (TJMG), o advogado da acusada, Zanone Manuel de Oliveira, entrou com recurso contra a sentença de pronúncia, mas ainda não foi julgado.

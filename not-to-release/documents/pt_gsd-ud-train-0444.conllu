@@ -1,32 +1,34 @@
-# sent_id = train-s4405
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Um dos primeiros palacetes construídos em Petrópolis, considerado por muitos um dos mais bonitos também, completou três décadas de tombamento.
-1	Um	_	PRON	PRON	_	20	nsubj	_	_
+# sent_id = train-s4405
+1	Um	um	NUM	_	NumType=Card	20	nsubj	_	_
 2-3	dos	_	_	_	_	_	_	_	_
-2	de	de	ADP	ADP	_	5	case	_	_
-3	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
-4	primeiros	primeiro	ADJ	ADJ	_	5	amod	_	_
-5	palacetes	_	NOUN	NOUN	_	1	nmod	_	_
-6	construídos	construir	VERB	VERB	_	5	acl	_	_
-7	em	em	ADP	ADP	_	8	case	_	_
-8	Petrópolis	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	13	punct	_	_
-10	considerado	considerar	AUX	AUX	_	13	cop	_	_
-11	por	por	ADP	ADP	_	12	case	_	_
-12	muitos	_	PRON	PRON	_	13	nmod	_	_
-13	um	_	PRON	PRON	_	1	acl	_	_
+2	de	de	ADP	_	_	5	case	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	primeiros	primeiro	ADJ	_	Gender=Masc|Number=Plur|NumType=Ord	5	amod	_	_
+5	palacetes	palacete	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+6	construídos	construir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	5	acl	_	_
+7	em	em	ADP	_	_	8	case	_	_
+8	Petrópolis	Petrópolis	PROPN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	considerado	considerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	acl	_	_
+11	por	por	ADP	_	_	12	case	_	_
+12	muitos	muito	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	10	obl:agent	_	_
+13	um	um	NUM	_	NumType=Card	10	obj	_	_
 14-15	dos	_	_	_	_	_	_	_	_
-14	de	de	ADP	ADP	_	17	case	_	_
-15	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
-16	mais	_	DET	DET	_	17	det	_	_
-17	bonitos	bonito	NOUN	NOUN	_	13	nmod	_	_
-18	também	também	ADV	ADV	_	13	advmod	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	13	punct	_	_
-20	completou	completar	VERB	VERB	_	0	root	_	_
-21	três	_	NUM	NUM	NumType=Card	22	nummod	_	_
-22	décadas	década	NOUN	NOUN	_	20	obj	_	_
-23	de	de	ADP	ADP	_	24	case	_	_
-24	tombamento	tombamento	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
-25	.	.	PUNCT	.	_	20	punct	_	_
+14	de	de	ADP	_	_	17	case	_	_
+15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+16	mais	mais	ADV	_	_	17	advmod	_	_
+17	bonitos	bonito	ADJ	_	Gender=Masc|Number=Plur	13	nmod	_	_
+18	também	também	ADV	_	_	17	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	10	punct	_	_
+20	completou	completar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+21	três	três	NUM	_	NumType=Card	22	nummod	_	_
+22	décadas	década	NOUN	_	Gender=Fem|Number=Plur	20	obj	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	tombamento	tombamento	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
 
 # sent_id = train-s4406
 # text = A reunião acolherá uma centena de representantes estatais e de organizações internacionais, mas não contará com a presença da China nem da Rússia, países que sinalizaram que não queriam participar.
@@ -190,44 +192,48 @@
 18	revelada	revelado	ADJ	ADJ	_	15	xcomp	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s4412
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Mas para cerca de três por cento dos que têm a doença, ela é extremamente debilitante, causando intensa angústia, medo e aflição, e deixando-os incapazes de exercer suas funções.
-1	Mas	_	CCONJ	CONJ	_	15	cc	_	_
-2	para	para	ADP	ADP	_	5	case	_	_
-3	cerca	cerca	ADV	ADV	_	5	advmod	_	_
-4	de	de	ADP	ADP	_	3	case	_	_
-5	três	_	NUM	NUM	NumType=Card	15	nmod	_	_
-6	por	por	ADP	ADP	_	7	case	_	_
-7	cento	cento	NOUN	NOUN	_	5	nmod	_	_
-8	dos	_	X	ADPPRON	_	5	det:poss	_	_
-9	que	_	PRON	PRON	_	10	nsubj	_	_
-10	têm	ter	VERB	VERB	_	8	acl:relcl	_	_
-11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	doença	doença	NOUN	NOUN	_	10	obj	_	SpaceAfter=No
-13	,	,	PUNCT	.	_	5	punct	_	_
-14	ela	_	PRON	PRON	_	15	nsubj	_	_
-15	é	ser	VERB	VERB	_	0	root	_	_
-16	extremamente	extremamente	ADV	ADV	_	17	advmod	_	_
-17	debilitante	debilitante	ADJ	ADJ	_	15	xcomp	_	SpaceAfter=No
-18	,	,	PUNCT	.	_	19	punct	_	_
-19	causando	causar	VERB	VERB	_	15	acl	_	_
-20	intensa	intenso	ADJ	ADJ	_	21	amod	_	_
-21	angústia	angústia	NOUN	NOUN	_	19	obj	_	SpaceAfter=No
-22	,	,	PUNCT	.	_	23	punct	_	_
-23	medo	medo	NOUN	NOUN	_	21	conj	_	_
-24	e	e	CCONJ	CONJ	_	25	cc	_	_
-25	aflição	aflição	NOUN	NOUN	_	21	conj	_	SpaceAfter=No
-26	,	,	PUNCT	.	_	28	punct	_	_
-27	e	e	CCONJ	CONJ	_	28	cc	_	_
-28-29	deixando-os	_	_	_	_	_	_	_	_
-28	deixando	deixar	VERB	VERB	_	15	conj	_	_
-29	os	_	PRON	PRON	_	30	nsubj	_	_
-30	incapazes	incapaz	ADJ	ADJ	_	28	xcomp	_	_
-31	de	_	ADP	ADP	_	32	mark	_	_
-32	exercer	exercer	VERB	VERB	_	30	nmod	_	_
-33	suas	_	DET	DET	_	34	det:poss	_	_
-34	funções	função	NOUN	NOUN	_	32	obj	_	SpaceAfter=No
-35	.	.	PUNCT	.	_	15	punct	_	_
+# sent_id = train-s4412
+1	Mas	mas	CCONJ	_	_	18	cc	_	_
+2	para	para	ADP	_	_	6	case	_	_
+3	cerca	cerca	ADV	_	ExtPos=ADV	5	advmod	_	_
+4	de	de	ADP	_	_	3	fixed	_	_
+5	três	três	NUM	_	NumType=Card	6	nummod	_	_
+6	por	por	ADP	_	ExtPos=NOUN	18	obl	_	_
+7	cento	cento	NUM	_	Gender=Masc|Number=Sing|NumType=Mult	6	compound	_	_
+8-9	dos	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	os	o	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	6	nmod	_	_
+10	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	11	nsubj	_	_
+11	têm	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	doença	doença	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	11	punct	_	_
+15	ela	ela	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+16	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	extremamente	extremamente	ADV	_	_	18	advmod	_	_
+18	debilitante	debilitante	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	causando	causar	VERB	_	VerbForm=Ger	18	advcl	_	_
+21	intensa	intenso	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
+22	angústia	angústia	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	medo	medo	NOUN	_	Gender=Masc|Number=Sing	22	conj	_	_
+25	e	e	CCONJ	_	_	26	cc	_	_
+26	aflição	aflição	NOUN	_	Gender=Fem|Number=Sing	22	conj	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	29	punct	_	_
+28	e	e	CCONJ	_	_	29	cc	_	_
+29-30	deixando-os	_	_	_	_	_	_	_	_
+29	deixando	deixar	VERB	_	VerbForm=Ger	20	conj	_	_
+30	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	incapazes	incapaz	NOUN	_	Gender=Masc|Number=Plur	29	obj	_	_
+32	de	de	SCONJ	_	_	33	mark	_	_
+33	exercer	exercer	VERB	_	VerbForm=Inf	31	acl	_	_
+34	suas	seu	DET	_	Gender=Fem|Number=Plur|PronType=Prs	35	det	_	_
+35	funções	função	NOUN	_	Gender=Fem|Number=Plur	33	obj	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
 
 # sent_id = train-s4413
 # text = Beatriz Penaforte, organizadora do evento na capital cearense, conta que cerca de 100 pessoas devem participar da passeata e explica que o protesto busca o direito de escolha do tipo de parto que as mulheres preferem.

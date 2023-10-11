@@ -1,50 +1,56 @@
-# sent_id = train-s5259
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = É um fruto de efeito visual atraente, dado o contraste entre a casca laranja com espinhos e o verde translúcido da polpa.
-1	É	ser	AUX	AUX	_	3	cop	_	_
-2	um	um	DET	DET	_	3	det	_	_
-3	fruto	fruto	NOUN	NOUN	_	0	root	_	_
-4	de	de	ADP	ADP	_	5	case	_	_
-5	efeito	efeito	NOUN	NOUN	_	3	nmod	_	_
-6	visual	visual	ADJ	ADJ	_	5	amod	_	_
-7	atraente	atraente	ADJ	ADJ	_	5	amod	_	SpaceAfter=No
-8	,	,	PUNCT	.	_	11	punct	_	_
-9	dado	dado	ADJ	ADJ	_	11	case	_	_
-10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	contraste	contraste	NOUN	NOUN	_	3	nmod	_	_
-12	entre	_	ADP	ADP	_	14	case	_	_
-13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	casca	casca	NOUN	NOUN	_	11	nmod	_	_
-15	laranja	_	ADJ	ADJ	_	14	amod	_	_
-16	com	com	ADP	ADP	_	17	case	_	_
-17	espinhos	espinho	NOUN	NOUN	_	14	nmod	_	_
-18	e	e	CCONJ	CONJ	_	20	cc	_	_
-19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	verde	verde	NOUN	NOUN	_	14	conj	_	_
-21	translúcido	translúcido	ADJ	ADJ	_	20	amod	_	_
+# sent_id = train-s5259
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	fruto	fruto	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	efeito	efeito	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+6	visual	visual	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7	atraente	atraente	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	dado	dar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	3	advcl	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	contraste	contraste	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+12	entre	entre	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	casca	casca	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+15	laranja	laranja	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+16	com	com	ADP	_	_	17	case	_	_
+17	espinhos	espinho	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
+18	e	e	CCONJ	_	_	20	cc	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	verde	verde	NOUN	_	Gender=Masc|Number=Sing	11	conj	_	_
+21	translúcido	translúcido	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
 22-23	da	_	_	_	_	_	_	_	_
-22	de	de	ADP	ADP	_	24	case	_	_
-23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-24	polpa	polpa	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
-25	.	.	PUNCT	.	_	3	punct	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	polpa	polpa	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
-# sent_id = train-s5260
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Creia e não deixe de cuidar dessa semente por todos os dias de sua vida.
-1	Creia	crer	VERB	VERB	_	0	root	_	_
-2	e	e	CCONJ	CONJ	_	6	cc	_	_
-3	não	não	ADV	ADV	Polarity=Neg	6	advmod	_	_
-4	deixe	deixar	AUX	AUX	_	6	aux	_	_
-5	de	_	ADP	ADP	_	6	mark	_	_
-6	cuidar	cuidar	VERB	VERB	_	1	conj	_	_
-7	dessa	_	ADP	ADP	_	8	case	_	_
-8	semente	semente	NOUN	NOUN	_	6	nmod	_	_
-9	por	por	ADP	ADP	_	12	case	_	_
-10	todos	_	DET	DET	_	12	det	_	_
-11	os	o	DET	DET	_	12	det	_	_
-12	dias	dia	NOUN	NOUN	_	6	nmod	_	_
-13	de	de	ADP	ADP	_	15	case	_	_
-14	sua	_	DET	DET	_	15	det:poss	_	_
-15	vida	vida	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
-16	.	.	PUNCT	.	_	1	punct	_	_
+# sent_id = train-s5260
+1	Creia	crer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	e	e	CCONJ	_	_	4	cc	_	_
+3	não	não	ADV	_	Polarity=Neg	4	advmod	_	_
+4	deixe	deixar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	conj	_	_
+5	de	de	SCONJ	_	_	6	mark	_	_
+6	cuidar	cuidar	VERB	_	VerbForm=Inf	4	xcomp	_	_
+7-8	dessa	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	semente	semente	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+10	por	por	ADP	_	_	13	case	_	_
+11	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	13	det	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	dias	dia	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	16	det	_	_
+16	vida	vida	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = train-s5261
 # text = Aloe steudneri é uma espécie de liliopsida do gênero Aloe, pertencente à família Asphodelaceae.
@@ -69,24 +75,28 @@
 17	Asphodelaceae	_	PROPN	PNOUN	_	16	appos	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = train-s5262
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = "Gravei uma música com o Ponto de Equilíbrio no último disco deles.
-1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
-2	Gravei	gravar	VERB	VERB	_	0	root	_	_
-3	uma	um	DET	DET	_	4	det	_	_
-4	música	_	NOUN	NOUN	_	2	obj	_	_
-5	com	com	ADP	ADP	_	7	case	_	_
-6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	Ponto	_	PROPN	PNOUN	_	2	nmod	_	_
-8	de	de	ADP	ADP	_	9	case	_	_
-9	Equilíbrio	_	PROPN	PNOUN	_	7	nmod	_	_
+# sent_id = train-s5262
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Gravei	gravar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	música	música	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5	com	com	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Ponto	Ponto	PROPN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Equilíbrio	Equilíbrio	PROPN	_	Number=Sing	7	nmod	_	_
 10-11	no	_	_	_	_	_	_	_	_
-10	em	em	ADP	ADP	_	13	case	_	_
-11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-12	último	último	ADJ	ADJ	_	13	amod	_	_
-13	disco	disco	NOUN	NOUN	_	2	nmod	_	_
-14	deles	_	X	ADPPRON	_	13	det:poss	_	SpaceAfter=No
-15	.	.	PUNCT	.	_	2	punct	_	_
+10	em	em	ADP	_	_	13	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	último	último	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	13	amod	_	_
+13	disco	disco	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+14-15	deles	_	_	_	_	_	_	_	SpaceAfter=No
+14	de	de	ADP	_	_	15	case	_	_
+15	eles	ele	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	nmod	_	_
+16	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = train-s5263
 # text = Já a presidente do Sindicato dos Trabalhadores Federais da Saúde, Trabalho e Previdência do Rio de Janeiro (Sindisprev - RJ), Cristiana Gerardo, disse que o governo não tem dado assistência à saúde, refletindo no atendimento ao usuário e nas condições de trabalho.

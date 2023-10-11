@@ -1,21 +1,25 @@
-# sent_id = dev-s764
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Na internet, manifestar-se dessa forma é o mesmo que gritar;
+# sent_id = dev-s764
 1-2	Na	_	_	_	_	_	_	_	_
-1	Em	em	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	internet	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
-4	,	,	PUNCT	.	_	3	punct	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	internet	internet	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
 5-6	manifestar-se	_	_	_	_	_	_	_	_
-5	manifestar	manifestar	VERB	VERB	_	9	csubj	_	_
-6	se	_	PRON	PRON	_	5	expl:pv	_	_
-7	dessa	_	ADP	ADP	_	8	case	_	_
-8	forma	forma	NOUN	NOUN	_	5	nmod	_	_
-9	é	ser	VERB	VERB	_	0	root	_	_
-10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	mesmo	mesmo	NOUN	NOUN	_	9	nsubj	_	_
-12	que	que	CCONJ	CONJ	_	13	mark	_	_
-13	gritar	gritar	VERB	VERB	_	9	advcl	_	SpaceAfter=No
-14	;	_	PUNCT	.	_	9	punct	_	_
+5	manifestar	manifestar	VERB	_	VerbForm=Inf	12	csubj	_	_
+6	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
+7-8	dessa	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	forma	forma	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+10	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	mesmo	mesmo	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+13	que	que	SCONJ	_	_	14	mark	_	_
+14	gritar	gritar	VERB	_	VerbForm=Inf	12	acl	_	SpaceAfter=No
+15	;	;	PUNCT	_	_	12	punct	_	SpaceAfter=No
 
 # sent_id = dev-s765
 # text = O motivo da extensão do prazo é a necessidade de realizar novas diligências e tomadas de depoimentos.
@@ -55,31 +59,33 @@
 9	continentes	continente	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = dev-s767
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Já aposentado, em 1999, na China, seu primeiro livro intitulado "The Crossing Borders" foi lançado.
-1	Já	já	ADV	ADV	_	2	advmod	_	_
-2	aposentado	aposentado	ADJ	ADJ	_	21	dep	_	SpaceAfter=No
-3	,	,	PUNCT	.	_	2	punct	_	_
-4	em	em	ADP	ADP	_	5	case	_	_
-5	1999	1999	NUM	NUM	NumType=Card	21	nmod	_	SpaceAfter=No
-6	,	,	PUNCT	.	_	5	punct	_	_
+# sent_id = dev-s767
+1	Já	já	ADV	_	_	2	advmod	_	_
+2	aposentado	aposentar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	21	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	1999	1999	NUM	_	NumType=Card	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
 7-8	na	_	_	_	_	_	_	_	_
-7	em	em	ADP	ADP	_	9	case	_	_
-8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	China	_	PROPN	PNOUN	_	21	nmod	_	SpaceAfter=No
-10	,	,	PUNCT	.	_	9	punct	_	_
-11	seu	_	DET	DET	_	13	det:poss	_	_
-12	primeiro	primeiro	ADJ	ADJ	_	13	amod	_	_
-13	livro	livro	NOUN	NOUN	_	21	nsubj:pass	_	_
-14	intitulado	intitular	AUX	AUX	_	17	cop	_	_
-15	"	"	PUNCT	.	_	17	punct	_	SpaceAfter=No
-16	The	_	PROPN	PNOUN	_	17	det	_	_
-17	Crossing	_	PROPN	PNOUN	_	13	acl	_	_
-18	Borders	_	PROPN	PNOUN	_	17	flat	_	SpaceAfter=No
-19	"	"	PUNCT	.	_	17	punct	_	_
-20	foi	_	AUX	AUX	_	21	aux:pass	_	_
-21	lançado	lançar	VERB	VERB	_	0	root	_	SpaceAfter=No
-22	.	.	PUNCT	.	_	21	punct	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	China	China	PROPN	_	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	2	punct	_	_
+11	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	13	det	_	_
+12	primeiro	primeiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	13	amod	_	_
+13	livro	livro	NOUN	_	Gender=Masc|Number=Sing	21	nsubj:pass	_	_
+14	intitulado	intitular	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	13	acl	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	The	The	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	13	appos	_	_
+17	Crossing	Crossing	PROPN	_	Number=Sing	16	flat:name	_	_
+18	Borders	Borders	PROPN	_	Number=Sing	16	flat:name	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	16	punct	_	_
+20	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	aux:pass	_	_
+21	lançado	lançar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
 
 # sent_id = dev-s768
 # text = Para o presidente da Fenabrave, o ideal seria que fosse liberado montante equivalente a 10 % dos R $ 18 bilhões já disponibilizados para o financiamento de automóveis e veículos comerciais leves.

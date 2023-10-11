@@ -128,71 +128,75 @@
 18	%	_	SYM	SYM	_	15	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	13	punct	_	_
 
-# sent_id = train-s1195
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Mil e setecentos ônibus serão colocados para circular domingo em Manaus, com gratuidade ao usuário, para incentivar as pessoas a votarem no dia da eleição.
-1	Mil	_	NUM	NUM	NumType=Card	2	nummod	_	_
-2	e	_	CCONJ	CONJ	_	3	nummod	_	_
-3	setecentos	_	NUM	NUM	NumType=Card	4	nummod	_	_
-4	ônibus	ônibus	NOUN	NOUN	_	6	nsubj:pass	_	_
-5	serão	ser	AUX	AUX	_	6	aux:pass	_	_
-6	colocados	colocar	VERB	VERB	_	0	root	_	_
-7	para	_	ADP	ADP	_	8	mark	_	_
-8	circular	circular	VERB	VERB	_	6	nmod	_	_
-9	domingo	_	PROPN	PNOUN	_	6	nmod	_	_
-10	em	em	ADP	ADP	_	11	case	_	_
-11	Manaus	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
-12	,	,	PUNCT	.	_	11	punct	_	_
-13	com	com	ADP	ADP	_	14	case	_	_
-14	gratuidade	gratuidade	NOUN	NOUN	_	6	nmod	_	_
+# sent_id = train-s1195
+1	Mil	mil	NUM	_	NumType=Card	4	nummod	_	_
+2	e	e	CCONJ	_	_	3	cc	_	_
+3	setecentos	setecentos	NUM	_	NumType=Card	1	conj	_	_
+4	ônibus	ônibus	NOUN	_	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
+5	serão	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	6	aux:pass	_	_
+6	colocados	colocar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+7	para	para	SCONJ	_	_	8	mark	_	_
+8	circular	circular	VERB	_	VerbForm=Inf	6	advcl	_	_
+9	domingo	domingo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	Manaus	Manaus	PROPN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	com	com	ADP	_	_	14	case	_	_
+14	gratuidade	gratuidade	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
 15-16	ao	_	_	_	_	_	_	_	_
-15	a	a	ADP	ADP	_	17	case	_	_
-16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	usuário	usuário	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
-18	,	,	PUNCT	.	_	14	punct	_	_
-19	para	_	ADP	ADP	_	20	mark	_	_
-20	incentivar	incentivar	VERB	VERB	_	6	advcl	_	_
-21	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
-22	pessoas	pessoa	NOUN	NOUN	_	20	obj	_	_
-23	a	_	ADP	ADP	_	24	mark	_	_
-24	votarem	votar	VERB	VERB	_	20	nmod	_	_
+15	a	a	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	usuário	usuário	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	para	para	SCONJ	_	_	20	mark	_	_
+20	incentivar	incentivar	VERB	_	VerbForm=Inf	6	advcl	_	_
+21	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	20	obj	_	_
+23	a	a	SCONJ	_	_	24	mark	_	_
+24	votarem	votar	VERB	_	Number=Plur|Person=3|VerbForm=Inf	20	xcomp	_	_
 25-26	no	_	_	_	_	_	_	_	_
-25	em	em	ADP	ADP	_	27	case	_	_
-26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	dia	dia	NOUN	NOUN	_	24	nmod	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	dia	dia	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	_
 28-29	da	_	_	_	_	_	_	_	_
-28	de	de	ADP	ADP	_	30	case	_	_
-29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
-30	eleição	eleição	NOUN	NOUN	_	27	nmod	_	SpaceAfter=No
-31	.	.	PUNCT	.	_	6	punct	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	eleição	eleição	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
-# sent_id = train-s1196
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Apesar da tensão, as autoridades britânicas se esforçaram para manter o clima de festa e receptividade a turistas que estão em Londres.
-1	Apesar	apesar	ADV	ADV	_	4	case	_	_
+# sent_id = train-s1196
+1	Apesar	apesar	ADV	_	ExtPos=ADP	4	case	_	_
 2-3	da	_	_	_	_	_	_	_	_
-2	de	de	ADP	ADP	_	1	case	_	_
-3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
-4	tensão	tensão	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
-5	,	,	PUNCT	.	_	4	punct	_	_
-6	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
-7	autoridades	autoridade	NOUN	NOUN	_	10	nsubj	_	_
-8	britânicas	britânico	ADJ	ADJ	_	7	amod	_	_
-9	se	_	PRON	PRON	_	10	obj	_	_
-10	esforçaram	esforçar	VERB	VERB	_	0	root	_	_
-11	para	_	ADP	ADP	_	12	mark	_	_
-12	manter	manter	VERB	VERB	_	10	nmod	_	_
-13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	clima	clima	NOUN	NOUN	_	12	obj	_	_
-15	de	de	ADP	ADP	_	16	case	_	_
-16	festa	festa	NOUN	NOUN	_	14	nmod	_	_
-17	e	e	CCONJ	CONJ	_	18	cc	_	_
-18	receptividade	receptividade	NOUN	NOUN	_	14	conj	_	_
-19	a	_	ADP	ADP	_	20	case	_	_
-20	turistas	turista	NOUN	NOUN	_	18	nmod	_	_
-21	que	_	PRON	PRON	_	22	nsubj	_	_
-22	estão	estar	VERB	VERB	_	20	acl:relcl	_	_
-23	em	em	ADP	ADP	_	24	case	_	_
-24	Londres	_	PROPN	PNOUN	_	22	nmod	_	SpaceAfter=No
-25	.	.	PUNCT	.	_	10	punct	_	_
+2	de	de	ADP	_	_	1	fixed	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	tensão	tensão	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	autoridades	autoridade	NOUN	_	Gender=Fem|Number=Plur	10	nsubj	_	_
+8	britânicas	britânico	ADJ	_	Gender=Fem|Number=Plur	7	amod	_	_
+9	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	10	expl	_	_
+10	esforçaram	esforçar	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+11	para	para	SCONJ	_	_	12	mark	_	_
+12	manter	manter	VERB	_	VerbForm=Inf	10	advcl	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	clima	clima	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	festa	festa	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	receptividade	receptividade	NOUN	_	Gender=Fem|Number=Sing	16	conj	_	_
+19	a	a	ADP	_	_	20	case	_	_
+20	turistas	turista	NOUN	_	Number=Plur	12	iobj	_	_
+21	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	24	nsubj	_	_
+22	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+23	em	em	ADP	_	_	24	case	_	_
+24	Londres	Londres	PROPN	_	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
 
 # sent_id = train-s1197
 # text = Na próxima rodada, as equipes encaram respectivamente Corinthians e Fluminense.

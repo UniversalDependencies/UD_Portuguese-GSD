@@ -93,42 +93,44 @@
 33	constar	constar	VERB	VERB	_	32	xcomp	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	14	punct	_	_
 
-# sent_id = train-s7249
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Durante o Natal, todas as sextas - feiras, sábados e domingos, é realizado o concerto de música barroca no interior da Igreja Matriz de Santo Antônio.
-1	Durante	_	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	Natal	_	PROPN	PNOUN	_	16	nmod	_	SpaceAfter=No
-4	,	,	PUNCT	.	_	3	punct	_	_
-5	todas	_	DET	DET	_	9	det	_	_
-6	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
-7	sextas	_	PROPN	PNOUN	_	9	amod	_	_
-8	-	-	PUNCT	.	_	9	punct	_	_
-9	feiras	_	PROPN	PNOUN	_	16	nsubj	_	SpaceAfter=No
-10	,	,	PUNCT	.	_	11	punct	_	_
-11	sábados	_	PROPN	PNOUN	_	9	conj	_	_
-12	e	e	CCONJ	CONJ	_	13	cc	_	_
-13	domingos	_	PROPN	PNOUN	_	9	conj	_	SpaceAfter=No
-14	,	,	PUNCT	.	_	9	punct	_	_
-15	é	ser	AUX	AUX	_	16	aux:pass	_	_
-16	realizado	realizar	VERB	VERB	_	0	root	_	_
-17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	concerto	concerto	NOUN	NOUN	_	16	nsubj:pass	_	_
-19	de	de	ADP	ADP	_	20	case	_	_
-20	música	_	NOUN	NOUN	_	18	nmod	_	_
-21	barroca	barroco	ADJ	ADJ	_	20	amod	_	_
+# sent_id = train-s7249
+1	Durante	durante	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Natal	natal	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Tot	7	det	_	_
+6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	fixed	_	_
+7	sextas	sexta	NOUN	_	Gender=Fem|Number=Plur	16	obl	_	_
+8	-	-	PUNCT	_	_	9	punct	_	_
+9	feiras	feira	NOUN	_	Gender=Fem|Number=Plur	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	sábados	sábado	NOUN	_	Gender=Masc|Number=Plur	7	conj	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	domingos	domingo	NOUN	_	Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	7	punct	_	_
+15	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
+16	realizado	realizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	concerto	concerto	NOUN	_	Gender=Masc|Number=Sing	16	nsubj:pass	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	música	música	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+21	barroca	barroco	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
 22-23	no	_	_	_	_	_	_	_	_
-22	em	em	ADP	ADP	_	24	case	_	_
-23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	interior	interior	NOUN	NOUN	_	16	nmod	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	interior	interior	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
 25-26	da	_	_	_	_	_	_	_	_
-25	de	de	ADP	ADP	_	27	case	_	_
-26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	Igreja	_	PROPN	PNOUN	_	24	nmod	_	_
-28	Matriz	_	PROPN	PNOUN	_	27	amod	_	_
-29	de	de	ADP	ADP	_	30	case	_	_
-30	Santo	_	PROPN	PNOUN	_	27	nmod	_	_
-31	Antônio	_	PROPN	PNOUN	_	30	flat	_	SpaceAfter=No
-32	.	.	PUNCT	.	_	16	punct	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|PronType=Art	27	det	_	_
+27	Igreja	Igreja	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	24	nmod	_	_
+28	Matriz	Matriz	PROPN	_	Number=Sing	27	flat:name	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	Santo	Santo	PROPN	_	ExtPos=PROPN|Number=Sing	27	nmod	_	_
+31	Antônio	Antônio	PROPN	_	Number=Sing	30	flat:name	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
 
 # sent_id = train-s7250
 # text = A partir daí, uma equipe de três geógrafos visitam o local e definem a área que será considerada como verde.
@@ -155,24 +157,26 @@
 21	verde	verde	ADJ	ADJ	_	19	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	10	punct	_	_
 
-# sent_id = train-s7251
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = "Going Under" é uma canção da banda de rock americana Evanescence.
-1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
-2	Going	_	PROPN	PNOUN	_	7	csubj	_	_
-3	Under	_	PROPN	PNOUN	_	2	advmod	_	SpaceAfter=No
-4	"	"	PUNCT	.	_	2	punct	_	_
-5	é	ser	AUX	AUX	_	7	cop	_	_
-6	uma	um	DET	DET	_	7	det	_	_
-7	canção	canção	NOUN	NOUN	_	0	root	_	_
+# sent_id = train-s7251
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Going	Going	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	7	nsubj	_	_
+3	Under	Under	PROPN	_	Number=Sing	2	flat:name	_	SpaceAfter=No
+4	"	"	PUNCT	_	_	2	punct	_	_
+5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	canção	canção	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 8-9	da	_	_	_	_	_	_	_	_
-8	de	de	ADP	ADP	_	10	case	_	_
-9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	banda	banda	NOUN	NOUN	_	7	nmod	_	_
-11	de	de	ADP	ADP	_	12	case	_	_
-12	rock	rock	NOUN	NOUN	_	10	nmod	_	_
-13	americana	americano	ADJ	ADJ	_	10	amod	_	_
-14	Evanescence	_	PROPN	PNOUN	_	10	appos	_	SpaceAfter=No
-15	.	.	PUNCT	.	_	7	punct	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	banda	banda	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	rock	rock	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+13	americana	americano	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
+14	Evanescence	Evanescence	PROPN	_	Gender=Fem|Number=Sing	12	appos	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
 # sent_id = train-s7252
 # text = O IGP - M fechou setembro com alta de 0,97 %, ante variação positiva de 1,43 % em agosto.

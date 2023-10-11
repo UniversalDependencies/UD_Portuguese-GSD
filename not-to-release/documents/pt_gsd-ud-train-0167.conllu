@@ -1,52 +1,54 @@
-# sent_id = train-s1659
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Mal entrava na adolescência quando, na sua avidez de saber, em meio aos pertences de seu pai, descobriu e leu o livro do filósofo alemão Schopenhauer, "As dores do mundo".
-1	Mal	mal	ADV	ADV	_	2	advmod	_	_
-2	entrava	_	VERB	VERB	_	0	root	_	_
+# sent_id = train-s1659
+1	Mal	Mal	ADV	_	Gender=Masc|Number=Sing	2	advmod	_	_
+2	entrava	entrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3-4	na	_	_	_	_	_	_	_	_
-3	em	em	ADP	ADP	_	5	case	_	_
-4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	adolescência	adolescência	NOUN	NOUN	_	2	nmod	_	_
-6	quando	_	CCONJ	CONJ	_	24	mark	_	SpaceAfter=No
-7	,	,	PUNCT	.	_	11	punct	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	adolescência	adolescência	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+6	quando	quando	ADV	_	_	24	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	11	punct	_	_
 8-9	na	_	_	_	_	_	_	_	_
-8	em	em	ADP	ADP	_	11	case	_	_
-9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-10	sua	_	DET	DET	_	11	det:poss	_	_
-11	avidez	avidez	NOUN	NOUN	_	24	nmod	_	_
-12	de	_	ADP	ADP	_	13	mark	_	_
-13	saber	saber	VERB	VERB	_	11	nmod	_	SpaceAfter=No
-14	,	,	PUNCT	.	_	11	punct	_	_
-15	em	em	ADP	ADP	_	16	case	_	_
-16	meio	meio	NOUN	NOUN	_	24	nmod	_	_
+8	em	em	ADP	_	_	11	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	11	det	_	_
+11	avidez	avidez	NOUN	_	Gender=Fem|Number=Sing	24	obl	_	_
+12	de	de	SCONJ	_	_	13	mark	_	_
+13	saber	saber	VERB	_	VerbForm=Inf	11	acl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	em	em	ADP	_	_	16	case	_	_
+16	meio	meio	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	_
 17-18	aos	_	_	_	_	_	_	_	_
-17	a	a	ADP	ADP	_	19	case	_	_
-18	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
-19	pertences	pertence	NOUN	NOUN	_	16	nmod	_	_
-20	de	de	ADP	ADP	_	22	case	_	_
-21	seu	_	DET	DET	_	22	det:poss	_	_
-22	pai	pai	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
-23	,	,	PUNCT	.	_	16	punct	_	_
-24	descobriu	descobrir	VERB	VERB	_	2	advcl	_	_
-25	e	e	CCONJ	CONJ	_	26	cc	_	_
-26	leu	ler	VERB	VERB	_	24	conj	_	_
-27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
-28	livro	livro	NOUN	NOUN	_	24	obj	_	_
+17	a	a	ADP	_	_	19	case	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	pertences	pertence	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	22	det	_	_
+22	pai	pai	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	16	punct	_	_
+24	descobriu	descobrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	_
+25	e	e	CCONJ	_	_	26	cc	_	_
+26	leu	ler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	conj	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	livro	livro	NOUN	_	Gender=Masc|Number=Sing	26	obj	_	_
 29-30	do	_	_	_	_	_	_	_	_
-29	de	de	ADP	ADP	_	31	case	_	_
-30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-31	filósofo	filósofo	NOUN	NOUN	_	28	nmod	_	_
-32	alemão	alemão	ADJ	ADJ	_	31	amod	_	_
-33	Schopenhauer	_	PROPN	PNOUN	_	31	appos	_	SpaceAfter=No
-34	,	,	PUNCT	.	_	37	punct	_	_
-35	"	"	PUNCT	.	_	37	punct	_	SpaceAfter=No
-36	As	_	PROPN	PNOUN	_	37	det	_	_
-37	dores	_	PROPN	PNOUN	_	28	appos	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	filósofo	filósofo	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
+32	alemão	alemão	ADJ	_	Gender=Masc|Number=Sing	31	amod	_	_
+33	Schopenhauer	Schopenhauer	PROPN	_	Gender=Masc|Number=Sing	31	appos	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	37	punct	_	_
+35	"	"	PUNCT	_	_	37	punct	_	SpaceAfter=No
+36	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
+37	dores	dores	PROPN	_	Number=Sing	31	appos	_	_
 38-39	do	_	_	_	_	_	_	_	_
-38	de	de	ADP	ADP	_	40	case	_	_
-39	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
-40	mundo	mundo	NOUN	NOUN	_	37	nmod	_	SpaceAfter=No
-41	"	"	PUNCT	.	_	37	punct	_	SpaceAfter=No
-42	.	.	PUNCT	.	_	2	punct	_	_
+38	de	de	ADP	_	_	40	case	_	_
+39	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	mundo	mundo	PROPN	_	Number=Sing	37	nmod	_	SpaceAfter=No
+41	"	"	PUNCT	_	_	37	punct	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = train-s1660
 # text = 'O Kleber não aceita derrota, luta do início ao fim.
@@ -68,47 +70,49 @@
 14	fim	fim	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	5	punct	_	_
 
-# sent_id = train-s1661
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Já Lídia Sawada defendeu bem o título conquistado em 2011 na mesma competição e se sagrou novamente campeã da categoria scratch feminina, com 87 tacadas, contra 90 do Toshiko Hiramatsu.
-1	Já	já	ADV	ADV	_	4	advmod	_	_
-2	Lídia	_	PROPN	PNOUN	_	4	nsubj	_	_
-3	Sawada	_	PROPN	PNOUN	_	2	flat	_	_
-4	defendeu	defender	VERB	VERB	_	0	root	_	_
-5	bem	bem	ADV	ADV	_	4	advmod	_	_
-6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	título	título	NOUN	NOUN	_	4	obj	_	_
-8	conquistado	conquistar	VERB	VERB	_	7	acl	_	_
-9	em	em	ADP	ADP	_	10	case	_	_
-10	2011	2011	NUM	NUM	NumType=Card	8	nmod	_	_
+# sent_id = train-s1661
+1	Já	já	ADV	_	_	4	advmod	_	_
+2	Lídia	Lídia	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	Sawada	Sawada	PROPN	_	Number=Sing	2	flat:name	_	_
+4	defendeu	defender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	bem	bem	ADV	_	_	4	advmod	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	título	título	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+8	conquistado	conquistar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	7	acl	_	_
+9	em	em	ADP	_	_	10	case	_	_
+10	2011	2011	NUM	_	NumType=Card	8	obl	_	_
 11-12	na	_	_	_	_	_	_	_	_
-11	em	em	ADP	ADP	_	14	case	_	_
-12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-13	mesma	mesmo	ADJ	ADJ	_	14	amod	_	_
-14	competição	competição	NOUN	NOUN	_	8	nmod	_	_
-15	e	e	CCONJ	CONJ	_	19	cc	_	_
-16	se	_	PART	PRT	_	19	expl:pv	_	_
-17	sagrou	sagrar	AUX	AUX	_	19	cop	_	_
-18	novamente	novamente	ADV	ADV	_	19	advmod	_	_
-19	campeã	campeão	NOUN	NOUN	_	4	conj	_	_
+11	em	em	ADP	_	_	14	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	mesma	mesmo	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+14	competição	competição	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+15	e	e	CCONJ	_	_	17	cc	_	_
+16	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	expl	_	_
+17	sagrou	sagrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+18	novamente	novamente	ADV	_	_	17	advmod	_	_
+19	campeã	campeão	NOUN	_	Gender=Fem|Number=Sing	17	xcomp	_	_
 20-21	da	_	_	_	_	_	_	_	_
-20	de	de	ADP	ADP	_	22	case	_	_
-21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	categoria	categoria	NOUN	NOUN	_	19	nmod	_	_
-23	scratch	_	NOUN	NOUN	_	22	appos	_	_
-24	feminina	feminino	ADJ	ADJ	_	23	amod	_	SpaceAfter=No
-25	,	,	PUNCT	.	_	28	punct	_	_
-26	com	com	ADP	ADP	_	28	case	_	_
-27	87	87	NUM	NUM	NumType=Card	28	nummod	_	_
-28	tacadas	tacada	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
-29	,	,	PUNCT	.	_	31	punct	_	_
-30	contra	_	ADP	ADP	_	31	case	_	_
-31	90	90	NUM	NUM	NumType=Card	19	nmod	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	categoria	categoria	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+23	scratch	scratch	NOUN	_	Gender=Fem|Number=Sing	22	amod	_	_
+24	feminina	feminino	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	28	punct	_	_
+26	com	com	ADP	_	_	28	case	_	_
+27	87	87	NUM	_	NumType=Card	28	nummod	_	_
+28	tacadas	tacada	NOUN	_	Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	contra	contra	ADP	_	_	31	case	_	_
+31	90	90	NUM	_	NumType=Card	17	obl	_	_
 32-33	do	_	_	_	_	_	_	_	_
-32	de	de	ADP	ADP	_	34	case	_	_
-33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
-34	Toshiko	_	PROPN	PNOUN	_	31	nmod	_	_
-35	Hiramatsu	_	PROPN	PNOUN	_	34	flat	_	SpaceAfter=No
-36	.	.	PUNCT	.	_	4	punct	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	Toshiko	Toshiko	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	31	nmod	_	_
+35	Hiramatsu	Hiramatsu	PROPN	_	Number=Sing	34	flat:name	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # sent_id = train-s1662
 # text = Outro benefício ao empresariado será a linha de crédito especial adotada pela Caixa Econômica Federal e Banco do Brasil para a aquisição do terreno, atendendo um pedido da Prefeitura.

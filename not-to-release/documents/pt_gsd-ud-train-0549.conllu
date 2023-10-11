@@ -1,45 +1,48 @@
-# sent_id = train-s5449
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = A ocorrência de pontas estreitas do tipo de Biblos coloca-a no período O. Aurenche 's Fase 3, ou seja, nos primeiros tempos do "(PPNB).
-1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	ocorrência	ocorrência	NOUN	NOUN	_	11	nsubj	_	_
-3	de	de	ADP	ADP	_	4	case	_	_
-4	pontas	ponta	NOUN	NOUN	_	2	nmod	_	_
-5	estreitas	estreito	ADJ	ADJ	_	4	amod	_	_
+# sent_id = train-s5449
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ocorrência	ocorrência	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	pontas	ponta	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
+5	estreitas	estreito	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	_
 6-7	do	_	_	_	_	_	_	_	_
-6	de	de	ADP	ADP	_	8	case	_	_
-7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	tipo	tipo	NOUN	NOUN	_	4	nmod	_	_
-9	de	de	ADP	ADP	_	10	case	_	_
-10	Biblos	_	PROPN	PNOUN	_	8	nmod	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Biblos	Biblos	PROPN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 11-12	coloca-a	_	_	_	_	_	_	_	_
-11	coloca	colocar	VERB	VERB	_	0	root	_	_
-12	a	_	PRON	PRON	_	11	obj	_	_
+11	coloca	colocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	a	ela	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
 13-14	no	_	_	_	_	_	_	_	_
-13	em	em	ADP	ADP	_	15	case	_	_
-14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	período	período	NOUN	NOUN	_	11	nmod	_	_
-16	O.	_	PROPN	PNOUN	_	15	appos	_	_
-17	Aurenche	_	PROPN	PNOUN	_	16	flat	_	_
-18	's	_	PROPN	PNOUN	_	17	det:poss	_	_
-19	Fase	_	PROPN	PNOUN	_	16	flat	_	_
-20	3	3	NUM	NUM	NumType=Card	16	appos	_	SpaceAfter=No
-21	,	,	PUNCT	.	_	28	punct	_	_
-22	ou	ou	CCONJ	CONJ	_	28	cc	_	_
-23	seja	ser	VERB	VERB	_	22	fixed	_	SpaceAfter=No
-24	,	,	PUNCT	.	_	28	punct	_	_
-25-26	nos	_	_	_	_	_	_	_	_
-25	em	em	ADP	ADP	_	28	case	_	_
-26	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
-27	primeiros	primeiro	ADJ	ADJ	_	28	amod	_	_
-28	tempos	tempo	NOUN	NOUN	_	15	conj	_	_
-29-30	do	_	_	_	_	_	_	_	_
-29	de	de	ADP	ADP	_	33	case	_	_
-30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
-31	"	"	PUNCT	.	_	33	punct	_	SpaceAfter=No
-32	(	(	PUNCT	.	_	33	punct	_	SpaceAfter=No
-33	PPNB	_	PROPN	PNOUN	_	28	nmod	_	SpaceAfter=No
-34	)	)	PUNCT	.	_	33	punct	_	SpaceAfter=No
-35	.	.	PUNCT	.	_	11	punct	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	período	período	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+16	O	O	PROPN	_	Gender=Masc|Number=Sing	15	appos	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+18	Aurenche	Aurenche	PROPN	_	Number=Sing	16	appos	_	_
+19	's	's	PUNCT	_	_	20	punct	_	_
+20	Fase	Fase	PROPN	_	Gender=Fem|Number=Sing	16	appos	_	_
+21	3	3	NUM	_	Number=Sing	20	flat:name	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	ou	ou	CCONJ	_	ExtPos=CCONJ	29	cc	_	_
+24	seja	ser	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	fixed	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	23	punct	_	_
+26-27	nos	_	_	_	_	_	_	_	_
+26	em	em	ADP	_	_	29	case	_	_
+27	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+28	primeiros	primeiro	ADJ	_	Gender=Masc|Number=Plur|NumType=Ord	29	amod	_	_
+29	tempos	tempo	NOUN	_	Gender=Masc|Number=Plur	15	conj	_	_
+30-31	do	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+32	"	"	PUNCT	_	_	29	punct	_	SpaceAfter=No
+33	(	(	PUNCT	_	_	34	punct	_	SpaceAfter=No
+34	PPNB	PPNB	PROPN	_	Gender=Masc|Number=Sing	29	appos	_	SpaceAfter=No
+35	)	)	PUNCT	_	_	34	punct	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
 
 # sent_id = train-s5450
 # text = O desafio, na avaliação de Lucio, é crescer em produtividade, uma das respostas à falta de investimentos do setor apontado por Pastore.
@@ -210,41 +213,43 @@
 24	0	0	NUM	NUM	NumType=Card	22	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s5455
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Segundo Passarinho, é preciso lembrar que, apesar dos benefícios dos programas de transferência de renda aplicados no país, a estrutura tributária é regressiva.
-1	Segundo	_	ADP	ADP	_	2	case	_	_
-2	Passarinho	_	PROPN	PNOUN	_	4	nmod	_	SpaceAfter=No
-3	,	,	PUNCT	.	_	2	punct	_	_
-4	é	ser	VERB	VERB	_	0	root	_	_
-5	preciso	preciso	ADJ	ADJ	_	4	xcomp	_	_
-6	lembrar	lembrar	VERB	VERB	_	4	csubj	_	_
-7	que	que	CCONJ	CONJ	_	28	mark	_	SpaceAfter=No
-8	,	,	PUNCT	.	_	12	punct	_	_
-9	apesar	apesar	ADV	ADV	_	12	case	_	_
+# sent_id = train-s5455
+1	Segundo	segundo	ADP	_	_	2	case	_	_
+2	Passarinho	Passarinho	PROPN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	preciso	preciso	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+6	lembrar	lembrar	VERB	_	VerbForm=Inf	5	csubj	_	_
+7	que	que	SCONJ	_	_	29	mark	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	12	punct	_	_
+9	apesar	apesar	ADV	_	ExtPos=ADP	12	case	_	_
 10-11	dos	_	_	_	_	_	_	_	_
-10	de	de	ADP	ADP	_	9	case	_	_
-11	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
-12	benefícios	benefício	NOUN	NOUN	_	28	nmod	_	_
+10	de	de	ADP	_	_	9	fixed	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	benefícios	benefício	NOUN	_	Gender=Masc|Number=Plur	29	obl	_	_
 13-14	dos	_	_	_	_	_	_	_	_
-13	de	de	ADP	ADP	_	15	case	_	_
-14	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
-15	programas	programa	NOUN	NOUN	_	12	nmod	_	_
-16	de	de	ADP	ADP	_	17	case	_	_
-17	transferência	transferência	NOUN	NOUN	_	15	nmod	_	_
-18	de	de	ADP	ADP	_	19	case	_	_
-19	renda	renda	NOUN	NOUN	_	17	nmod	_	_
-20	aplicados	aplicar	VERB	VERB	_	15	acl	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	programas	programa	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	transferência	transferência	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	renda	renda	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+20	aplicados	aplicar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	15	acl	_	_
 21-22	no	_	_	_	_	_	_	_	_
-21	em	em	ADP	ADP	_	23	case	_	_
-22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	país	país	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
-24	,	,	PUNCT	.	_	12	punct	_	_
-25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	estrutura	estrutura	NOUN	NOUN	_	28	nsubj	_	_
-27	tributária	tributário	ADJ	ADJ	_	26	amod	_	_
-28	é	ser	VERB	VERB	_	6	ccomp	_	_
-29	regressiva	regressivo	ADJ	ADJ	_	28	xcomp	_	SpaceAfter=No
-30	.	.	PUNCT	.	_	4	punct	_	_
+21	em	em	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	país	país	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	20	punct	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	estrutura	estrutura	NOUN	_	Gender=Fem|Number=Sing	29	nsubj	_	_
+27	tributária	tributário	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	_
+28	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+29	regressiva	regressivo	ADJ	_	Gender=Fem|Number=Sing	6	ccomp	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # sent_id = train-s5456
 # text = É deliberação policial precária, fundada em suspeitas não submetidas ao titular da ação penal, nem verificadas pela autoridade judicial ", afirmaram os subscritores da nota, o presidente da ANPR, Alexandre Camanho de Assis, e o diretor jurídico da associação, Vladimir Aras.

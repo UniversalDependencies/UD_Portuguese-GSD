@@ -43,69 +43,71 @@
 30	Vaticano	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
 31	.	.	PUNCT	.	_	15	punct	_	_
 
-# sent_id = train-s4866
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = A Aiguille du Fou é sobretudo conhecida pela sua face sul excecionalmente a pique e lisa, pelo que esta via só foi aberta 50 anos depois de se ter vencido o cume, utilizando a escalada artificial, sistema estudado e preparado por John Harlin e Tom Frost no Parque Nacional de Yosemite.
-1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	Aiguille	_	PROPN	PNOUN	_	7	nsubj:pass	_	_
-3	du	_	ADP	ADP	_	4	case	_	_
-4	Fou	_	PROPN	PNOUN	_	2	nmod	_	_
-5	é	ser	AUX	AUX	_	7	aux:pass	_	_
-6	sobretudo	sobretudo	ADV	ADV	_	7	advmod	_	_
-7	conhecida	conhecer	VERB	VERB	_	0	root	_	_
+# sent_id = train-s4866
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Aiguille	Aiguille	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+3	du	du	PROPN	_	Number=Sing	2	flat:name	_	_
+4	Fou	Fou	PROPN	_	Number=Sing	2	flat:name	_	_
+5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+6	sobretudo	sobretudo	ADV	_	_	7	advmod	_	_
+7	conhecida	conhecer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 8-9	pela	_	_	_	_	_	_	_	_
-8	por	por	ADP	ADP	_	11	case	_	_
-9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-10	sua	_	DET	DET	_	11	det:poss	_	_
-11	face	face	NOUN	NOUN	_	7	nmod	_	_
-12	sul	sul	ADJ	ADJ	_	11	amod	_	_
-13	excecionalmente	excecionalmente	ADV	ADV	_	15	advmod	_	_
-14	a	_	ADP	ADP	_	15	case	_	_
-15	pique	pique	NOUN	NOUN	_	11	nmod	_	_
-16	e	e	CCONJ	CONJ	_	17	cc	_	_
-17	lisa	liso	ADJ	ADJ	_	15	conj	_	SpaceAfter=No
-18	,	,	PUNCT	.	_	26	punct	_	_
+8	por	por	ADP	_	_	11	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	11	det	_	_
+11	face	face	NOUN	_	Gender=Fem|Number=Sing	7	obl:agent	_	_
+12	sul	sul	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+13	excecionalmente	excecionalmente	ADV	_	_	15	advmod	_	_
+14	a	a	ADP	_	_	15	case	_	_
+15	pique	pique	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	lisa	lisa	NOUN	_	Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	26	punct	_	_
 19-20	pelo	_	_	_	_	_	_	_	_
-19	por	por	ADP	ADP	_	26	case	_	_
-20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-21	que	_	CCONJ	CONJ	_	19	fixed	_	_
-22	esta	_	DET	DET	_	23	det	_	_
-23	via	via	NOUN	NOUN	_	26	nsubj:pass	_	_
-24	só	só	ADV	ADV	_	26	advmod	_	_
-25	foi	_	AUX	AUX	_	26	aux:pass	_	_
-26	aberta	abrir	VERB	VERB	_	7	advcl	_	_
-27	50	50	NUM	NUM	NumType=Card	28	nummod	_	_
-28	anos	ano	NOUN	NOUN	_	29	nmod	_	_
-29	depois	depois	ADV	ADV	_	33	mark	_	_
-30	de	_	ADP	ADP	_	29	fixed	_	_
-31	se	_	PART	PRT	_	33	expl:pv	_	_
-32	ter	ter	AUX	AUX	_	33	aux	_	_
-33	vencido	vencer	VERB	VERB	_	26	advcl	_	_
-34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
-35	cume	cume	NOUN	NOUN	_	33	obj	_	SpaceAfter=No
-36	,	,	PUNCT	.	_	37	punct	_	_
-37	utilizando	utilizar	VERB	VERB	_	33	acl	_	_
-38	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
-39	escalada	escalada	NOUN	NOUN	_	37	obj	_	_
-40	artificial	artificial	ADJ	ADJ	_	39	amod	_	SpaceAfter=No
-41	,	,	PUNCT	.	_	42	punct	_	_
-42	sistema	sistema	NOUN	NOUN	_	39	appos	_	_
-43	estudado	estudar	VERB	VERB	_	42	acl	_	_
-44	e	e	CCONJ	CONJ	_	45	cc	_	_
-45	preparado	preparar	VERB	VERB	_	43	conj	_	_
-46	por	por	ADP	ADP	_	47	case	_	_
-47	John	_	PROPN	PNOUN	_	43	nmod	_	_
-48	Harlin	_	PROPN	PNOUN	_	47	flat	_	_
-49	e	e	CCONJ	CONJ	_	50	cc	_	_
-50	Tom	_	PROPN	PNOUN	_	47	conj	_	_
-51	Frost	_	PROPN	PNOUN	_	50	flat	_	_
+19	por	por	ADP	_	ExtPos=SCONJ	26	mark	_	_
+20	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	19	fixed	_	_
+21	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	19	fixed	_	_
+22	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	23	det	_	_
+23	via	via	NOUN	_	Gender=Fem|Number=Sing	26	nsubj:pass	_	_
+24	só	só	ADV	_	_	26	advmod	_	_
+25	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	aux:pass	_	_
+26	aberta	abrir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	7	advcl	_	_
+27	50	50	NUM	_	NumType=Card	28	nummod	_	_
+28	anos	ano	NOUN	_	Gender=Masc|Number=Plur	26	obl	_	_
+29	depois	depois	ADV	_	ExtPos=SCONJ	33	mark	_	_
+30	de	de	ADP	_	_	29	fixed	_	_
+31	se	se	PRON	_	Case=Acc|PronType=Prs	33	nsubj	_	_
+32	ter	ter	AUX	_	Number=Sing|Person=3|VerbForm=Inf	33	aux	_	_
+33	vencido	vencer	VERB	_	VerbForm=Part	26	advcl	_	_
+34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	cume	cume	NOUN	_	Gender=Masc|Number=Sing	33	obj	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	37	punct	_	_
+37	utilizando	utilizar	VERB	_	VerbForm=Ger	26	advcl	_	_
+38	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	escalada	escalada	NOUN	_	Gender=Fem|Number=Sing	37	obj	_	_
+40	artificial	artificial	ADJ	_	Gender=Fem|Number=Sing	39	amod	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	42	punct	_	_
+42	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	39	appos	_	_
+43	estudado	estudar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	42	acl	_	_
+44	e	e	CCONJ	_	_	45	cc	_	_
+45	preparado	preparar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	43	conj	_	_
+46	por	por	ADP	_	_	47	case	_	_
+47	John	John	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	45	obl:agent	_	_
+48	Harlin	Harlin	PROPN	_	Number=Sing	47	flat:name	_	_
+49	e	e	CCONJ	_	_	50	cc	_	_
+50	Tom	Tom	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	47	conj	_	_
+51	Frost	Frost	PROPN	_	Number=Sing	50	flat:name	_	_
 52-53	no	_	_	_	_	_	_	_	_
-52	em	em	ADP	ADP	_	54	case	_	_
-53	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
-54	Parque	_	PROPN	PNOUN	_	43	nmod	_	_
-55	Nacional	_	PROPN	PNOUN	_	54	amod	_	_
-56	de	de	ADP	ADP	_	57	case	_	_
-57	Yosemite	_	PROPN	PNOUN	_	54	nmod	_	SpaceAfter=No
-58	.	.	PUNCT	.	_	7	punct	_	_
+52	em	em	ADP	_	_	54	case	_	_
+53	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	Parque	Parque	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	45	obl	_	_
+55	Nacional	Nacional	PROPN	_	Number=Sing	54	flat:name	_	_
+56	de	de	ADP	_	_	57	case	_	_
+57	Yosemite	Yosemite	PROPN	_	Number=Sing	54	nmod	_	SpaceAfter=No
+58	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
 # sent_id = train-s4867
 # text = Nesta segunda - feira, sites europeus noticiaram que o francês Florent Malouda, do Chelsea (ING), estaria tentando sua rescisão de contrato com o time londrino para acertar sua transferência para o Vasco.
@@ -249,29 +251,31 @@
 32	prefeito	prefeito	NOUN	NOUN	_	30	flat	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = train-s4872
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Bruce Wayne torna-se, então, a máscara que usa para disfarçar sua dor e sua verdadeira natureza.
-1	Bruce	_	PROPN	PNOUN	_	9	nsubj	_	_
-2	Wayne	_	PROPN	PNOUN	_	1	flat	_	_
+# sent_id = train-s4872
+1	Bruce	Bruce	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	Wayne	Wayne	PROPN	_	Number=Sing	1	flat:name	_	_
 3-4	torna-se	_	_	_	_	_	_	_	SpaceAfter=No
-3	torna	tornar	AUX	AUX	_	9	cop	_	_
-4	se	_	PRON	PRON	_	9	expl:pv	_	_
-5	,	,	PUNCT	.	_	6	punct	_	_
-6	então	então	ADV	ADV	_	9	advmod	_	SpaceAfter=No
-7	,	,	PUNCT	.	_	6	punct	_	_
-8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	máscara	máscara	NOUN	NOUN	_	0	root	_	_
-10	que	_	PRON	PRON	_	11	obj	_	_
-11	usa	usar	VERB	VERB	_	9	acl:relcl	_	_
-12	para	_	ADP	ADP	_	13	mark	_	_
-13	disfarçar	disfarçar	VERB	VERB	_	11	advcl	_	_
-14	sua	_	DET	DET	_	15	det:poss	_	_
-15	dor	dor	NOUN	NOUN	_	13	obj	_	_
-16	e	e	CCONJ	CONJ	_	19	cc	_	_
-17	sua	_	DET	DET	_	19	det:poss	_	_
-18	verdadeira	verdadeiro	ADJ	ADJ	_	19	amod	_	_
-19	natureza	natureza	NOUN	NOUN	_	15	conj	_	SpaceAfter=No
-20	.	.	PUNCT	.	_	9	punct	_	_
+3	torna	tornar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	então	então	ADV	_	_	3	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	máscara	máscara	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+10	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	11	obj	_	_
+11	usa	usar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	para	para	SCONJ	_	_	13	mark	_	_
+13	disfarçar	disfarçar	VERB	_	VerbForm=Inf	11	advcl	_	_
+14	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	15	det	_	_
+15	dor	dor	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+16	e	e	CCONJ	_	_	19	cc	_	_
+17	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	19	det	_	_
+18	verdadeira	verdadeiro	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
+19	natureza	natureza	NOUN	_	Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = train-s4873
 # text = Não trabalho exclusivamente com o Scolari.

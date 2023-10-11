@@ -298,38 +298,40 @@
 54	Idesa	_	PROPN	PNOUN	_	50	nmod	_	SpaceAfter=No
 55	.	.	PUNCT	.	_	12	punct	_	_
 
-# sent_id = test-s614
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Mais dois EP foram lançados, Feed Me With Your Kiss e You Made Me Realise, que ampliaram ainda mais o culto ao My Bloody Valentine.
-1	Mais	mais	ADV	ADV	_	2	advmod	_	_
-2	dois	_	NUM	NUM	NumType=Card	3	nummod	_	_
-3	EP	_	PROPN	PNOUN	_	5	nsubj:pass	_	_
-4	foram	_	AUX	AUX	_	5	aux:pass	_	_
-5	lançados	lançar	VERB	VERB	_	0	root	_	SpaceAfter=No
-6	,	,	PUNCT	.	_	7	punct	_	_
-7	Feed	_	PROPN	PNOUN	_	5	parataxis	_	_
-8	Me	_	PROPN	PNOUN	_	7	obj	_	_
-9	With	_	PROPN	PNOUN	_	11	case	_	_
-10	Your	_	PROPN	PNOUN	_	11	det:poss	_	_
-11	Kiss	_	PROPN	PNOUN	_	7	nmod	_	_
-12	e	e	CCONJ	CONJ	_	14	cc	_	_
-13	You	_	PROPN	PNOUN	_	14	nsubj	_	_
-14	Made	_	PROPN	PNOUN	_	7	conj	_	_
-15	Me	_	PROPN	PNOUN	_	14	iobj	_	_
-16	Realise	_	PROPN	PNOUN	_	14	xcomp	_	SpaceAfter=No
-17	,	,	PUNCT	.	_	19	punct	_	_
-18	que	_	PRON	PRON	_	19	nsubj	_	_
-19	ampliaram	ampliar	VERB	VERB	_	7	acl:relcl	_	_
-20	ainda	ainda	ADV	ADV	_	21	advmod	_	_
-21	mais	mais	ADV	ADV	_	19	advmod	_	_
-22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	culto	culto	NOUN	NOUN	_	19	obj	_	_
+# sent_id = test-s614
+1	Mais	mais	ADV	_	_	2	advmod	_	_
+2	dois	dois	NUM	_	NumType=Card	3	nummod	_	_
+3	EP	EP	PROPN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+4	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	5	aux:pass	_	_
+5	lançados	lançar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	Feed	Feed	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	5	parataxis	_	_
+8	Me	Me	PROPN	_	Number=Sing	7	flat:name	_	_
+9	With	With	PROPN	_	Number=Sing	7	flat:name	_	_
+10	Your	Your	PROPN	_	Number=Sing	7	flat:name	_	_
+11	Kiss	Kiss	PROPN	_	Number=Sing	7	flat:name	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	You	You	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	7	conj	_	_
+14	Made	Made	PROPN	_	Number=Sing	13	flat:name	_	_
+15	Me	Me	PROPN	_	Number=Sing	13	flat:name	_	_
+16	Realise	Realise	PROPN	_	Number=Sing	13	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	7	punct	_	_
+18	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	19	nsubj	_	_
+19	ampliaram	ampliar	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	7	acl:relcl	_	_
+20	ainda	ainda	ADV	_	_	21	advmod	_	_
+21	mais	mais	ADV	_	_	19	advmod	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	culto	culto	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
 24-25	ao	_	_	_	_	_	_	_	_
-24	a	a	ADP	ADP	_	28	case	_	_
-25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
-26	My	_	PROPN	PNOUN	_	28	det:poss	_	_
-27	Bloody	_	PROPN	PNOUN	_	28	amod	_	_
-28	Valentine	_	PROPN	PNOUN	_	23	nmod	_	SpaceAfter=No
-29	.	.	PUNCT	.	_	5	punct	_	_
+24	a	a	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	My	My	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	23	nmod	_	_
+27	Bloody	Bloody	PROPN	_	Number=Sing	26	flat:name	_	_
+28	Valentine	Valentine	PROPN	_	Number=Sing	26	flat:name	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # sent_id = test-s615
 # text = Caso alguém já tenha feito o contato pelo telefone, existe a probabilidade do incômodo ter sido solucionado ou do pedido de serviço já estar sendo atendido.

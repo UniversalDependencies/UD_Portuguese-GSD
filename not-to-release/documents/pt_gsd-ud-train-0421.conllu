@@ -230,31 +230,33 @@
 32	%	_	SYM	SYM	_	29	nmod	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	28	punct	_	_
 
-# sent_id = train-s4185
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Quem mais lhe marcou como arquiteto foi o franco - suíço Le Corbusier, que o introduziu no ideário modernista.
-1	Quem	_	PRON	PRON	_	4	nsubj	_	_
-2	mais	mais	ADV	ADV	_	4	advmod	_	_
-3	lhe	_	PRON	PRON	_	4	obj	_	_
-4	marcou	marcar	VERB	VERB	_	11	csubj	_	_
-5	como	como	ADP	ADP	_	6	case	_	_
-6	arquiteto	arquiteto	NOUN	NOUN	_	4	nmod	_	_
-7	foi	_	AUX	AUX	_	11	cop	_	_
-8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-9	franco	_	PART	PRT	_	11	amod	_	_
-10	-	-	PUNCT	.	_	11	punct	_	_
-11	suíço	suíço	NOUN	NOUN	_	0	root	_	_
-12	Le	_	PROPN	PNOUN	_	13	det	_	_
-13	Corbusier	_	PROPN	PNOUN	_	11	appos	_	SpaceAfter=No
-14	,	,	PUNCT	.	_	17	punct	_	_
-15	que	_	PRON	PRON	_	17	nsubj	_	_
-16	o	_	PRON	PRON	_	17	obj	_	_
-17	introduziu	introduzir	VERB	VERB	_	11	acl:relcl	_	_
+# sent_id = train-s4185
+1	Quem	quem	PRON	_	Number=Sing|PronType=Rel	4	nsubj	_	_
+2	mais	mais	ADV	_	_	4	advmod	_	_
+3	lhe	ele	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+4	marcou	marcar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	csubj	_	_
+5	como	como	ADP	_	_	6	case	_	_
+6	arquiteto	arquiteto	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+7	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	franco	franco	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+10	-	-	PUNCT	_	_	11	punct	_	_
+11	suíço	suíço	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
+12	Le	Le	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	9	appos	_	_
+13	Corbusier	Corbusier	PROPN	_	Number=Sing	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	17	punct	_	_
+15	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	17	nsubj	_	_
+16	o	ele	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+17	introduziu	introduzir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	acl:relcl	_	_
 18-19	no	_	_	_	_	_	_	_	_
-18	em	em	ADP	ADP	_	20	case	_	_
-19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	ideário	ideário	NOUN	NOUN	_	17	nmod	_	_
-21	modernista	modernista	ADJ	ADJ	_	20	amod	_	SpaceAfter=No
-22	.	.	PUNCT	.	_	11	punct	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	ideário	ideário	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+21	modernista	modernista	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
 
 # sent_id = train-s4186
 # text = Nós tivemos de desmarcar em média 12 pessoas que iam para uma formatura.

@@ -9,49 +9,51 @@
 7	acertos	acerto	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
 8	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = train-s1091
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Os Cupcakes do "Be Our Guest Restaurant" -- Disponível em três sabores -- Cream Cheese de morango, Chocolate Triplo e Merengue de limão -- essas deliciosas sobremesas tipicamente americana estão lhe esperando para serem devoradas.
-1	Os	o	DET	DET	_	2	det	_	_
-2	Cupcakes	_	PROPN	PNOUN	_	36	nsubj	_	_
+# sent_id = train-s1091
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	Cupcakes	Cupcakes	PROPN	_	Gender=Masc|Number=Plur	36	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
-3	de	de	ADP	ADP	_	8	case	_	_
-4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-5	"	"	PUNCT	.	_	8	punct	_	SpaceAfter=No
-6	Be	_	PROPN	PNOUN	_	8	cop	_	_
-7	Our	_	PROPN	PNOUN	_	8	det:poss	_	_
-8	Guest	_	PROPN	PNOUN	_	2	nmod	_	_
-9	Restaurant	_	PROPN	PNOUN	_	8	flat	_	SpaceAfter=No
-10	"	"	PUNCT	.	_	8	punct	_	_
-11	--	_	PUNCT	.	_	12	punct	_	_
-12	Disponível	disponível	ADJ	ADJ	_	2	amod	_	_
-13	em	em	ADP	ADP	_	15	case	_	_
-14	três	_	NUM	NUM	NumType=Card	15	nummod	_	_
-15	sabores	sabor	NOUN	NOUN	_	12	nmod	_	_
-16	--	_	PUNCT	.	_	17	punct	_	_
-17	Cream	_	PROPN	PNOUN	_	15	appos	_	_
-18	Cheese	_	PROPN	PNOUN	_	17	flat	_	_
-19	de	de	ADP	ADP	_	20	case	_	_
-20	morango	morango	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
-21	,	,	PUNCT	.	_	22	punct	_	_
-22	Chocolate	_	PROPN	PNOUN	_	17	conj	_	_
-23	Triplo	_	PROPN	PNOUN	_	22	amod	_	_
-24	e	e	CCONJ	CONJ	_	25	cc	_	_
-25	Merengue	_	PROPN	PNOUN	_	17	conj	_	_
-26	de	de	ADP	ADP	_	27	case	_	_
-27	limão	limão	NOUN	NOUN	_	25	nmod	_	_
-28	--	_	PUNCT	.	_	17	punct	_	_
-29	essas	_	DET	DET	_	31	det	_	_
-30	deliciosas	delicioso	ADJ	ADJ	_	31	amod	_	_
-31	sobremesas	sobremesa	NOUN	NOUN	_	2	appos	_	_
-32	tipicamente	tipicamente	ADV	ADV	_	33	advmod	_	_
-33	americana	americano	ADJ	ADJ	_	31	amod	_	_
-34	estão	estar	AUX	AUX	_	36	aux	_	_
-35	lhe	_	PRON	PRON	_	36	obj	_	_
-36	esperando	esperar	VERB	VERB	_	0	root	_	_
-37	para	_	ADP	ADP	_	39	mark	_	_
-38	serem	ser	AUX	AUX	_	39	aux:pass	_	_
-39	devoradas	devorar	VERB	VERB	_	36	advcl	_	SpaceAfter=No
-40	.	.	PUNCT	.	_	36	punct	_	_
+3	de	de	ADP	_	_	6	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	Be	Be	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	2	nmod	_	_
+7	Our	Our	PROPN	_	Number=Sing	6	flat:name	_	_
+8	Guest	Guest	PROPN	_	Number=Sing	6	flat:name	_	_
+9	Restaurant	Restaurant	PROPN	_	Number=Sing	6	flat:name	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	6	punct	_	_
+11	--	--	PUNCT	_	_	12	punct	_	_
+12	Disponível	disponível	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	três	três	NUM	_	NumType=Card	15	nummod	_	_
+15	sabores	sabor	NOUN	_	Gender=Masc|Number=Plur	12	obl	_	_
+16	--	--	PUNCT	_	_	17	punct	_	_
+17	Cream	Cream	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	15	appos	_	_
+18	Cheese	Cheese	PROPN	_	Number=Sing	17	flat:name	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	morango	morango	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	Chocolate	Chocolate	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	17	conj	_	_
+23	Triplo	Triplo	PROPN	_	Number=Sing	22	flat:name	_	_
+24	e	e	CCONJ	_	_	25	cc	_	_
+25	Merengue	Merengue	PROPN	_	Gender=Masc|Number=Sing	17	conj	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	limão	limão	NOUN	_	Number=Sing	25	nmod	_	_
+28	--	--	PUNCT	_	_	17	punct	_	_
+29	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	31	det	_	_
+30	deliciosas	delicioso	ADJ	_	Gender=Fem|Number=Plur	31	amod	_	_
+31	sobremesas	sobremesa	NOUN	_	Gender=Fem|Number=Plur	36	nsubj	_	_
+32	tipicamente	tipicamente	ADV	_	_	33	advmod	_	_
+33	americana	americano	ADJ	_	Gender=Fem|Number=Sing	31	amod	_	_
+34	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+35	lhe	ele	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	iobj	_	_
+36	esperando	esperar	VERB	_	VerbForm=Ger	0	root	_	_
+37	para	para	SCONJ	_	_	39	mark	_	_
+38	serem	ser	AUX	_	Number=Plur|Person=3|VerbForm=Inf	39	aux:pass	_	_
+39	devoradas	devorar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	36	advcl	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	36	punct	_	SpaceAfter=No
 
 # sent_id = train-s1092
 # text = Meu objetivo aqui não é travar, não é frear o livre debate".

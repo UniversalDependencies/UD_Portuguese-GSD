@@ -236,41 +236,45 @@
 15	Billboard	_	PROPN	PNOUN	_	14	flat	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = dev-s831
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Atriz, que estava quase careca por causa do tratamento, almoçou com amigos nesta terça - feira, 2, no Rio, e exibiu novo visual.
-1	Atriz	_	NOUN	NOUN	_	13	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	.	_	4	punct	_	_
-3	que	_	PRON	PRON	_	4	nsubj	_	_
-4	estava	estar	VERB	VERB	_	1	acl:relcl	_	_
-5	quase	quase	ADV	ADV	_	6	advmod	_	_
-6	careca	careca	ADJ	ADJ	_	4	xcomp	_	_
-7	por	por	ADP	ADP	_	11	case	_	_
-8	causa	causa	NOUN	NOUN	_	7	fixed	_	_
+# sent_id = dev-s831
+1	Atriz	atriz	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	6	nsubj	_	_
+4	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+5	quase	quase	ADV	_	_	6	advmod	_	_
+6	careca	careco	ADJ	_	Gender=Fem|Number=Sing	1	acl:relcl	_	_
+7	por	por	ADP	_	_	8	case	_	_
+8	causa	causa	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
 9-10	do	_	_	_	_	_	_	_	_
-9	de	de	ADP	ADP	_	7	case	_	_
-10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-11	tratamento	tratamento	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
-12	,	,	PUNCT	.	_	4	punct	_	_
-13	almoçou	almoçar	VERB	VERB	_	0	root	_	_
-14	com	com	ADP	ADP	_	15	case	_	_
-15	amigos	amigo	NOUN	NOUN	_	13	nmod	_	_
-16	nesta	_	ADP	ADP	_	19	case	_	_
-17	terça	_	PROPN	PNOUN	_	19	amod	_	_
-18	-	-	PUNCT	.	_	19	punct	_	_
-19	feira	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
-20	,	,	PUNCT	.	_	21	punct	_	_
-21	2	2	NUM	NUM	NumType=Card	19	nmod	_	SpaceAfter=No
-22	,	,	PUNCT	.	_	25	punct	_	_
-23-24	no	_	_	_	_	_	_	_	_
-23	em	em	ADP	ADP	_	25	case	_	_
-24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	Rio	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
-26	,	,	PUNCT	.	_	25	punct	_	_
-27	e	e	CCONJ	CONJ	_	30	cc	_	_
-28	exibiu	exibir	VERB	VERB	_	30	case	_	_
-29	novo	novo	ADJ	ADJ	_	30	amod	_	_
-30	visual	_	NOUN	NOUN	_	13	conj	_	SpaceAfter=No
-31	.	.	PUNCT	.	_	13	punct	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	tratamento	tratamento	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	6	punct	_	_
+13	almoçou	almoçar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	com	com	ADP	_	_	15	case	_	_
+15	amigos	amigo	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
+16-17	nesta	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	18	det	_	_
+18	terça	terça	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+19	-	-	PUNCT	_	_	20	punct	_	_
+20	feira	feira	NOUN	_	Gender=Fem|Number=Sing	18	appos	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	2	2	NUM	_	NumType=Card	18	appos	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24-25	no	_	_	_	_	_	_	_	_
+24	em	em	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Rio	Rio	PROPN	_	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	29	punct	_	_
+28	e	e	CCONJ	_	_	29	cc	_	_
+29	exibiu	exibir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	conj	_	_
+30	novo	novo	ADJ	_	Gender=Masc|Number=Sing	31	amod	_	_
+31	visual	visual	NOUN	_	Gender=Masc|Number=Sing	29	obj	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
 
 # sent_id = dev-s832
 # text = O relator também evitou fazer prognósticos sobre a data de conclusão do julgamento.

@@ -134,33 +134,35 @@
 40	curiosidade	curiosidade	NOUN	NOUN	_	36	conj	_	SpaceAfter=No
 41	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = train-s1104
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O 19 de novembro foi instituído Dia da Bandeira em 1889, logo depois da Proclamação da República.
-1	O	o	DET	DET	_	2	det	_	_
-2	19	19	NUM	NUM	NumType=Card	7	nsubj:pass	_	_
-3	de	de	ADP	ADP	_	4	case	_	_
-4	novembro	_	PROPN	PNOUN	_	2	nmod	_	_
-5	foi	_	AUX	AUX	_	7	aux:pass	_	_
-6	instituído	instituir	AUX	AUX	_	7	cop	_	_
-7	Dia	_	PROPN	PNOUN	_	0	root	_	_
+# sent_id = train-s1104
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	19	19	NUM	_	NumType=Card	6	nsubj:pass	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	novembro	novembro	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+5	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+6	instituído	instituir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+7	Dia	Dia	PROPN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 8-9	da	_	_	_	_	_	_	_	_
-8	de	de	ADP	ADP	_	10	case	_	_
-9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	Bandeira	_	PROPN	PNOUN	_	7	nmod	_	_
-11	em	em	ADP	ADP	_	12	case	_	_
-12	1889	1889	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
-13	,	,	PUNCT	.	_	18	punct	_	_
-14	logo	logo	ADV	ADV	_	15	advmod	_	_
-15	depois	depois	ADV	ADV	_	18	case	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Bandeira	Bandeira	PROPN	_	Number=Sing	7	nmod	_	_
+11	em	em	ADP	_	_	12	case	_	_
+12	1889	1889	NUM	_	NumType=Card	6	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	6	punct	_	_
+14	logo	logo	ADV	_	_	6	advmod	_	_
+15	depois	depois	ADV	_	_	6	advmod	_	_
 16-17	da	_	_	_	_	_	_	_	_
-16	de	de	ADP	ADP	_	15	case	_	_
-17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-18	Proclamação	_	PROPN	PNOUN	_	7	nmod	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Proclamação	Proclamação	PROPN	_	Gender=Fem|Number=Sing	15	obl	_	_
 19-20	da	_	_	_	_	_	_	_	_
-19	de	de	ADP	ADP	_	21	case	_	_
-20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-21	República	_	PROPN	PNOUN	_	18	nmod	_	SpaceAfter=No
-22	.	.	PUNCT	.	_	7	punct	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	República	República	PROPN	_	Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
 # sent_id = train-s1105
 # text = De acordo com especialistas da Thomson Reuters, a expectativa é de que o lucro cresça 16 % no ano que vem, em contraste com os 73 % esperados para 2012.

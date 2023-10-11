@@ -129,56 +129,58 @@
 32	coronel	coronel	NOUN	NOUN	_	30	flat	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	28	punct	_	_
 
-# sent_id = train-s5195
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Aos quinze anos de idade deixou a carreira inicial de lado e resolveu ir para a Califórnia (mas especificamente para Burbank), onde ele conseguiu imediatamente um contrato de seis meses para a telenovela da NBC, Days of Our Lives.
+# sent_id = train-s5195
 1-2	Aos	_	_	_	_	_	_	_	_
-1	A	a	ADP	ADP	_	4	case	_	_
-2	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
-3	quinze	_	NUM	NUM	NumType=Card	4	nummod	_	_
-4	anos	ano	NOUN	NOUN	_	7	nmod	_	_
-5	de	de	ADP	ADP	_	6	case	_	_
-6	idade	idade	NOUN	NOUN	_	4	nmod	_	_
-7	deixou	deixar	VERB	VERB	_	0	root	_	_
-8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	carreira	_	NOUN	NOUN	_	7	obj	_	_
-10	inicial	inicial	ADJ	ADJ	_	9	amod	_	_
-11	de	de	ADP	ADP	_	12	case	_	_
-12	lado	lado	NOUN	NOUN	_	7	nmod	_	_
-13	e	e	CCONJ	CONJ	_	14	cc	_	_
-14	resolveu	resolver	VERB	VERB	_	7	conj	_	_
-15	ir	ir	VERB	VERB	_	14	xcomp	_	_
-16	para	para	ADP	ADP	_	18	case	_	_
-17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	Califórnia	_	PROPN	PNOUN	_	15	nmod	_	_
-19	(	(	PUNCT	.	_	23	punct	_	SpaceAfter=No
-20	mas	mas	ADV	ADV	_	21	advmod	_	_
-21	especificamente	especificamente	ADV	ADV	_	23	advmod	_	_
-22	para	para	ADP	ADP	_	23	case	_	_
-23	Burbank	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
-24	)	)	PUNCT	.	_	23	punct	_	SpaceAfter=No
-25	,	,	PUNCT	.	_	28	punct	_	_
-26	onde	onde	ADV	ADV	_	28	advmod	_	_
-27	ele	_	PRON	PRON	_	28	nsubj	_	_
-28	conseguiu	conseguir	VERB	VERB	_	18	acl	_	_
-29	imediatamente	imediatamente	ADV	ADV	_	28	advmod	_	_
-30	um	um	DET	DET	_	31	det	_	_
-31	contrato	contrato	NOUN	NOUN	_	28	obj	_	_
-32	de	de	ADP	ADP	_	34	case	_	_
-33	seis	_	NUM	NUM	NumType=Card	34	nummod	_	_
-34	meses	mês	NOUN	NOUN	_	31	nmod	_	_
-35	para	para	ADP	ADP	_	37	case	_	_
-36	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
-37	telenovela	telenovela	NOUN	NOUN	_	31	nmod	_	_
+1	A	a	ADP	_	_	4	case	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	quinze	quinze	NUM	_	NumType=Card	4	nummod	_	_
+4	anos	ano	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	idade	idade	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+7	deixou	deixar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	carreira	carreira	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10	inicial	inicial	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	lado	lado	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	resolveu	resolver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+15	ir	ir	VERB	_	VerbForm=Inf	14	xcomp	_	_
+16	para	para	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Califórnia	Califórnia	PROPN	_	Gender=Fem|Number=Sing	15	obl	_	_
+19	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
+20	mas	mas	CCONJ	_	_	23	cc	_	_
+21	especificamente	especificamente	ADV	_	_	23	advmod	_	_
+22	para	para	ADP	_	_	23	case	_	_
+23	Burbank	Burbank	PROPN	_	Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	28	punct	_	_
+26	onde	onde	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	28	obl	_	_
+27	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+28	conseguiu	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	acl:relcl	_	_
+29	imediatamente	imediatamente	ADV	_	_	28	advmod	_	_
+30	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	contrato	contrato	NOUN	_	Gender=Masc|Number=Sing	28	obj	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	seis	seis	NUM	_	NumType=Card	34	nummod	_	_
+34	meses	mês	NOUN	_	Gender=Masc|Number=Plur	31	nmod	_	_
+35	para	para	ADP	_	_	37	case	_	_
+36	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	telenovela	telenovela	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	_
 38-39	da	_	_	_	_	_	_	_	_
-38	de	de	ADP	ADP	_	40	case	_	_
-39	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
-40	NBC	_	PROPN	PNOUN	_	37	nmod	_	SpaceAfter=No
-41	,	,	PUNCT	.	_	42	punct	_	_
-42	Days	_	PROPN	PNOUN	_	37	appos	_	_
-43	of	_	ADP	ADP	_	45	case	_	_
-44	Our	_	PROPN	PNOUN	_	45	det:poss	_	_
-45	Lives	_	PROPN	PNOUN	_	42	nmod	_	SpaceAfter=No
-46	.	.	PUNCT	.	_	7	punct	_	_
+38	de	de	ADP	_	_	40	case	_	_
+39	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	NBC	NBC	PROPN	_	Gender=Fem|Number=Sing	37	nmod	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	42	punct	_	_
+42	Days	Days	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	37	appos	_	_
+43	of	of	PROPN	_	Number=Sing	42	flat:name	_	_
+44	Our	Our	PROPN	_	Number=Sing	42	flat:name	_	_
+45	Lives	Lives	PROPN	_	Number=Sing	42	flat:name	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
 # sent_id = train-s5196
 # text = Mas o Bahia terá desfalques importantes neste domingo.
@@ -192,49 +194,49 @@
 8	domingo	_	PROPN	PNOUN	_	4	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s5197
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Na tarde de quinta-feira (6), dois homens armados tentaram assaltar uma mulher, enquanto ela estava em sua casa, na Avenida Getúlio Vargas, em Jandaia do Sul.
+# sent_id = train-s5197
 1-2	Na	_	_	_	_	_	_	_	_
-1	Em	em	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	tarde	tarde	NOUN	NOUN	_	16	nmod	_	_
-4	de	de	ADP	ADP	_	7	case	_	_
-5	quinta	_	PROPN	PNOUN	_	7	amod	_	_
-6	-	-	PUNCT	.	_	7	punct	_	_
-7	feira	_	PROPN	PNOUN	_	3	nmod	_	_
-8	(	(	PUNCT	.	_	9	punct	_	SpaceAfter=No
-9	6	6	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
-10	)	)	PUNCT	.	_	9	punct	_	SpaceAfter=No
-11	,	,	PUNCT	.	_	3	punct	_	_
-12	dois	_	NUM	NUM	NumType=Card	13	nummod	_	_
-13	homens	homem	NOUN	NOUN	_	16	nsubj	_	_
-14	armados	armado	ADJ	ADJ	_	13	amod	_	_
-15	tentaram	tentar	AUX	AUX	_	16	aux	_	_
-16	assaltar	assaltar	VERB	VERB	_	0	root	_	_
-17	uma	um	DET	DET	_	18	det	_	_
-18	mulher	mulher	NOUN	NOUN	_	16	obj	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	22	punct	_	_
-20	enquanto	_	CCONJ	CONJ	_	22	mark	_	_
-21	ela	_	PRON	PRON	_	22	nsubj	_	_
-22	estava	estar	VERB	VERB	_	16	advcl	_	_
-23	em	em	ADP	ADP	_	25	case	_	_
-24	sua	_	DET	DET	_	25	det:poss	_	_
-25	casa	casa	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
-26	,	,	PUNCT	.	_	29	punct	_	_
-27-28	na	_	_	_	_	_	_	_	_
-27	em	em	ADP	ADP	_	29	case	_	_
-28	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-29	Avenida	avenida	NOUN	NOUN	_	22	nmod	_	_
-30	Getúlio	_	PROPN	PNOUN	_	29	flat	_	_
-31	Vargas	_	PROPN	PNOUN	_	29	flat	_	SpaceAfter=No
-32	,	,	PUNCT	.	_	34	punct	_	_
-33	em	em	ADP	ADP	_	34	case	_	_
-34	Jandaia	_	PROPN	PNOUN	_	22	nmod	_	_
-35-36	do	_	_	_	_	_	_	_	_
-35	de	de	ADP	ADP	_	37	case	_	_
-36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
-37	Sul	_	PROPN	PNOUN	_	34	nmod	_	SpaceAfter=No
-38	.	.	PUNCT	.	_	16	punct	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	tarde	tarde	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	quinta-feira	quinta-feira	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	6	6	NUM	_	NumType=Card	3	appos	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	3	punct	_	_
+10	dois	dois	NUM	_	NumType=Card	11	nummod	_	_
+11	homens	homem	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	_
+12	armados	armar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	11	acl	_	_
+13	tentaram	tentar	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+14	assaltar	assaltar	VERB	_	VerbForm=Inf	13	xcomp	_	_
+15	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	mulher	mulher	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	14	punct	_	_
+18	enquanto	enquanto	ADV	_	_	23	advmod	_	_
+19	ela	ela	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+20	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	cop	_	_
+21	em	em	ADP	_	_	23	case	_	_
+22	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	23	det	_	_
+23	casa	casa	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25-26	na	_	_	_	_	_	_	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	Avenida	avenida	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	23	nmod	_	_
+28	Getúlio	Getúlio	PROPN	_	Number=Sing	27	flat:name	_	_
+29	Vargas	Vargas	PROPN	_	Number=Sing	27	flat:name	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	27	punct	_	_
+31	em	em	ADP	_	_	32	case	_	_
+32	Jandaia	Jandaia	PROPN	_	Gender=Fem|Number=Sing	27	nmod	_	_
+33-34	do	_	_	_	_	_	_	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	Sul	Sul	PROPN	_	Number=Sing	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
 
 # sent_id = train-s5198
 # text = A maioria dos israelenses apoia a criação dum Estado palestino, apesar de não ter esperanças de que se chegue a um acordo de paz, segundo uma pesquisa realizada pelo jornal israelense Hayom divulgada nesta sexta - feira.

@@ -1,56 +1,62 @@
-# sent_id = train-s9327
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Espanha -- O lateral Daniel Alves disse nesta sexta - feira (17) que, apesar de ter perdido o último título do Campeonato Espanhol para o Real Madrid, o Barcelona continua sendo "a equipe a ser batida" pelos rivais nesta temporada.
-1	Espanha	_	PROPN	PNOUN	_	7	parataxis	_	_
-2	--	_	PUNCT	.	_	7	punct	_	_
-3	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	lateral	lateral	NOUN	NOUN	_	7	nsubj	_	_
-5	Daniel	_	PROPN	PNOUN	_	4	appos	_	_
-6	Alves	_	PROPN	PNOUN	_	5	flat	_	_
-7	disse	dizer	VERB	VERB	_	0	root	_	_
-8	nesta	_	ADP	ADP	_	11	case	_	_
-9	sexta	_	ADJ	ADJ	_	11	amod	_	_
-10	-	-	PUNCT	.	_	11	punct	_	_
-11	feira	_	PROPN	PNOUN	_	7	nmod	_	_
-12	(	(	PUNCT	.	_	13	punct	_	SpaceAfter=No
-13	17	17	NUM	NUM	NumType=Card	11	nmod	_	SpaceAfter=No
-14	)	)	PUNCT	.	_	13	punct	_	_
-15	que	que	CCONJ	CONJ	_	39	mark	_	SpaceAfter=No
-16	,	,	PUNCT	.	_	20	punct	_	_
-17	apesar	apesar	ADV	ADV	_	20	mark	_	_
-18	de	_	ADP	ADP	_	17	fixed	_	_
-19	ter	ter	AUX	AUX	_	20	aux	_	_
-20	perdido	perder	VERB	VERB	_	39	advcl	_	_
-21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-22	último	último	ADJ	ADJ	_	23	amod	_	_
-23	título	título	NOUN	NOUN	_	20	obj	_	_
-24-25	do	_	_	_	_	_	_	_	_
-24	de	de	ADP	ADP	_	26	case	_	_
-25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	Campeonato	_	PROPN	PNOUN	_	23	nmod	_	_
-27	Espanhol	_	PROPN	PNOUN	_	26	amod	_	_
-28	para	para	ADP	ADP	_	31	case	_	_
-29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-30	Real	_	PROPN	PNOUN	_	31	amod	_	_
-31	Madrid	_	PROPN	PNOUN	_	23	nmod	_	SpaceAfter=No
-32	,	,	PUNCT	.	_	20	punct	_	_
-33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
-34	Barcelona	_	PROPN	PNOUN	_	39	nsubj	_	_
-35	continua	continuar	AUX	AUX	_	39	aux	_	_
-36	sendo	ser	AUX	AUX	_	39	cop	_	_
-37	"	"	PUNCT	.	_	39	punct	_	SpaceAfter=No
-38	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
-39	equipe	equipe	NOUN	NOUN	_	7	ccomp	_	_
-40	a	_	ADP	ADP	_	42	mark	_	_
-41	ser	ser	AUX	AUX	_	42	aux:pass	_	_
-42	batida	bater	VERB	VERB	_	39	nmod	_	SpaceAfter=No
-43	"	"	PUNCT	.	_	39	punct	_	_
-44-45	pelos	_	_	_	_	_	_	_	_
-44	por	por	ADP	ADP	_	46	case	_	_
-45	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	46	det	_	_
-46	rivais	rival	NOUN	NOUN	_	42	nmod	_	_
-47	nesta	_	ADP	ADP	_	48	case	_	_
-48	temporada	temporada	NOUN	NOUN	_	39	nmod	_	SpaceAfter=No
-49	.	.	PUNCT	.	_	7	punct	_	_
+# sent_id = train-s9327
+1	Espanha	Espanha	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	--	--	PUNCT	_	_	1	punct	_	_
+3	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	lateral	lateral	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+5	Daniel	Daniel	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	4	appos	_	_
+6	Alves	Alves	PROPN	_	Number=Sing	5	flat:name	_	_
+7	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	parataxis	_	_
+8-9	nesta	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	sexta	sexta	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+11	-	-	PUNCT	_	_	12	punct	_	_
+12	feira	feira	NOUN	_	Gender=Fem|Number=Sing	10	appos	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	17	17	NUM	_	NumType=Card	12	appos	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	_
+16	que	que	SCONJ	_	_	36	mark	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	21	punct	_	_
+18	apesar	apesar	ADV	_	ExtPos=SCONJ	21	mark	_	_
+19	de	de	ADP	_	_	18	fixed	_	_
+20	ter	ter	AUX	_	VerbForm=Inf	21	aux	_	_
+21	perdido	perder	VERB	_	VerbForm=Part	36	advcl	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	último	último	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	24	amod	_	_
+24	título	título	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	_
+25-26	do	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Campeonato	Campeonato	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	24	nmod	_	_
+28	Espanhol	Espanhol	PROPN	_	Number=Sing	27	flat:name	_	_
+29	para	para	ADP	_	_	31	case	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	Real	Real	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	24	nmod	_	_
+32	Madrid	Madrid	PROPN	_	Number=Sing	31	flat:name	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	21	punct	_	_
+34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	Barcelona	Barcelona	PROPN	_	Gender=Masc|Number=Sing	36	nsubj	_	_
+36	continua	continuar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+37	sendo	ser	AUX	_	VerbForm=Ger	40	cop	_	_
+38	"	"	PUNCT	_	_	40	punct	_	SpaceAfter=No
+39	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	equipe	equipe	NOUN	_	Gender=Fem|Number=Sing	36	xcomp	_	_
+41	a	a	SCONJ	_	_	43	mark	_	_
+42	ser	ser	AUX	_	VerbForm=Inf	43	aux:pass	_	_
+43	batida	bater	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	40	acl	_	SpaceAfter=No
+44	"	"	PUNCT	_	_	43	punct	_	_
+45-46	pelos	_	_	_	_	_	_	_	_
+45	por	por	ADP	_	_	47	case	_	_
+46	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	47	det	_	_
+47	rivais	rival	NOUN	_	Gender=Masc|Number=Plur	43	obl:agent	_	_
+48-49	nesta	_	_	_	_	_	_	_	_
+48	em	em	ADP	_	_	50	case	_	_
+49	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	50	det	_	_
+50	temporada	temporada	NOUN	_	Gender=Fem|Number=Sing	43	obl	_	SpaceAfter=No
+51	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = train-s9328
 # text = No segundo foi diferente, até tomarmos o gol cedo num lance polêmico.
@@ -300,30 +306,34 @@
 55	Brasil	_	PROPN	PNOUN	_	53	nmod	_	SpaceAfter=No
 56	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = train-s9335
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Nesta quinta - feira (27) todas as agências que estiveram em greve já voltaram a atender a população normalmente.
-1	Nesta	_	ADP	ADP	_	4	case	_	_
-2	quinta	_	PROPN	PNOUN	_	4	amod	_	_
-3	-	-	PUNCT	.	_	4	punct	_	_
-4	feira	_	PROPN	PNOUN	_	18	nmod	_	_
-5	(	(	PUNCT	.	_	6	punct	_	SpaceAfter=No
-6	27	27	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
-7	)	)	PUNCT	.	_	6	punct	_	_
-8	todas	_	DET	DET	_	10	det	_	_
-9	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
-10	agências	agência	NOUN	NOUN	_	18	nsubj	_	_
-11	que	_	PRON	PRON	_	12	nsubj	_	_
-12	estiveram	estar	VERB	VERB	_	10	acl:relcl	_	_
-13	em	em	ADP	ADP	_	14	case	_	_
-14	greve	greve	NOUN	NOUN	_	12	nmod	_	_
-15	já	já	ADV	ADV	_	18	advmod	_	_
-16	voltaram	voltar	AUX	AUX	_	18	aux	_	_
-17	a	_	ADP	ADP	_	18	mark	_	_
-18	atender	atender	VERB	VERB	_	0	root	_	_
-19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	população	população	NOUN	NOUN	_	18	obj	_	_
-21	normalmente	normalmente	ADV	ADV	_	18	advmod	_	SpaceAfter=No
-22	.	.	PUNCT	.	_	18	punct	_	_
+# sent_id = train-s9335
+1-2	Nesta	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	quinta	quinta	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	_
+4	-	-	PUNCT	_	_	3	punct	_	_
+5	feira	feira	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	27	27	NUM	_	NumType=Card	3	appos	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	_
+9	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Tot	11	det	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	agências	agência	NOUN	_	Gender=Fem|Number=Plur	17	nsubj	_	_
+12	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	15	nsubj	_	_
+13	estiveram	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	15	cop	_	_
+14	em	em	ADP	_	_	15	case	_	_
+15	greve	greve	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+16	já	já	ADV	_	_	19	advmod	_	_
+17	voltaram	voltar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+18	a	a	SCONJ	_	_	19	mark	_	_
+19	atender	atender	VERB	_	VerbForm=Inf	17	xcomp	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	população	população	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
+22	normalmente	normalmente	ADV	_	_	19	advmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
 
 # sent_id = train-s9336
 # text = Segundo Johannes Kleinschmidt, autor duma tese de doutorado sobre o assunto, um dos motivos do chamado Fraternisierungsverbot era a segurança militar.

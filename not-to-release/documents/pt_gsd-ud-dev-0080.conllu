@@ -20,28 +20,30 @@
 18	som	som	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = dev-s785
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Se não tivermos um setor unido não conseguiremos combater as imposições tributárias, trabalhistas e comerciais ", diz.
-1	Se	_	CCONJ	CONJ	_	3	mark	_	_
-2	não	não	ADV	ADV	Polarity=Neg	3	advmod	_	_
-3	tivermos	ter	VERB	VERB	_	9	advcl	_	_
-4	um	um	DET	DET	_	5	det	_	_
-5	setor	setor	NOUN	NOUN	_	3	obj	_	_
-6	unido	unido	ADJ	ADJ	_	5	amod	_	_
-7	não	não	ADV	ADV	Polarity=Neg	9	advmod	_	_
-8	conseguiremos	conseguir	AUX	AUX	_	9	aux	_	_
-9	combater	combater	VERB	VERB	_	19	ccomp	_	_
-10	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
-11	imposições	imposição	NOUN	NOUN	_	9	obj	_	_
-12	tributárias	tributário	ADJ	ADJ	_	11	amod	_	SpaceAfter=No
-13	,	,	PUNCT	.	_	14	punct	_	_
-14	trabalhistas	trabalhista	ADJ	ADJ	_	12	conj	_	_
-15	e	e	CCONJ	CONJ	_	16	cc	_	_
-16	comerciais	comercial	ADJ	ADJ	_	12	conj	_	_
-17	"	"	PUNCT	.	_	9	punct	_	SpaceAfter=No
-18	,	,	PUNCT	.	_	19	punct	_	_
-19	diz	dizer	VERB	VERB	_	0	root	_	SpaceAfter=No
-20	.	.	PUNCT	.	_	19	punct	_	_
+# sent_id = dev-s785
+1	Se	se	SCONJ	_	_	3	mark	_	_
+2	não	não	ADV	_	Polarity=Neg	3	advmod	_	_
+3	tivermos	ter	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	8	advcl	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	setor	setor	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	unido	unir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	5	acl	_	_
+7	não	não	ADV	_	Polarity=Neg	8	advmod	_	_
+8	conseguiremos	conseguir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	19	parataxis	_	_
+9	combater	combater	VERB	_	VerbForm=Inf	8	xcomp	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	imposições	imposição	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	_
+12	tributárias	tributário	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	trabalhistas	trabalhista	ADJ	_	Gender=Fem|Number=Plur	12	conj	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	comerciais	comercial	ADJ	_	Gender=Fem|Number=Plur	12	conj	_	_
+17	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
 
 # sent_id = dev-s786
 # text = A Prova do Fazendeiro nem começou, mas já tem peoa bem pessimista na noite desta quarta - feira (8).

@@ -107,30 +107,32 @@
 16	mil	_	NUM	NUM	NumType=Card	13	nummod	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	8	punct	_	_
 
-# sent_id = train-s1494
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Nivea Stelmann virou notícia no último fim de semana quando apareceu na praia com um novo affair.
-1	Nivea	_	PROPN	PNOUN	_	4	nsubj	_	_
-2	Stelmann	_	PROPN	PNOUN	_	1	flat	_	_
-3	virou	virar	AUX	AUX	_	4	cop	_	_
-4	notícia	notícia	NOUN	NOUN	_	0	root	_	_
+# sent_id = train-s1494
+1	Nivea	Nivea	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	Stelmann	Stelmann	PROPN	_	Number=Sing	1	flat:name	_	_
+3	virou	virar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	notícia	notícia	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
 5-6	no	_	_	_	_	_	_	_	_
-5	em	em	ADP	ADP	_	8	case	_	_
-6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-7	último	último	ADJ	ADJ	_	8	amod	_	_
-8	fim	fim	NOUN	NOUN	_	4	nmod	_	_
-9	de	de	ADP	ADP	_	10	case	_	_
-10	semana	semana	NOUN	NOUN	_	8	nmod	_	_
-11	quando	quando	ADV	ADV	_	12	advmod	_	_
-12	apareceu	aparecer	VERB	VERB	_	8	acl:relcl	_	_
+5	em	em	ADP	_	_	8	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	último	último	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	8	amod	_	_
+8	fim	fim	NOUN	_	ExtPos=NOUN|Gender=Masc|Number=Sing	3	obl	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	semana	semana	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+11	quando	quando	ADV	_	_	12	advmod	_	_
+12	apareceu	aparecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	advcl	_	_
 13-14	na	_	_	_	_	_	_	_	_
-13	em	em	ADP	ADP	_	15	case	_	_
-14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	praia	praia	NOUN	NOUN	_	12	nmod	_	_
-16	com	com	ADP	ADP	_	19	case	_	_
-17	um	um	DET	DET	_	19	det	_	_
-18	novo	novo	ADJ	ADJ	_	19	amod	_	_
-19	affair	_	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
-20	.	.	PUNCT	.	_	4	punct	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	praia	praia	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+16	com	com	ADP	_	_	19	case	_	_
+17	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	novo	novo	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
+19	affair	affair	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = train-s1495
 # text = "Projetamos 65 milhões até o fim do ano", diz o CEO da empresa, Gastão Mattos.
@@ -183,85 +185,91 @@
 19	44,80	44,80	NUM	NUM	NumType=Card	17	nummod	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	9	punct	_	_
 
-# sent_id = train-s1497
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = A história vem à tona após o GP da Espanha, dias antes do italiano Alessandro Nannini vir a sofrer um acidente de helicóptero que colocaria fim à sua carreira na F1.
-1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	história	história	NOUN	NOUN	_	3	nsubj	_	_
-3	vem	vir	VERB	VERB	_	0	root	_	_
+# sent_id = train-s1497
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	história	história	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	vem	vir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4-5	à	_	_	_	_	_	_	_	_
-4	a	a	ADP	ADP	_	6	case	_	_
-5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	tona	tona	NOUN	NOUN	_	3	nmod	_	_
-7	após	_	ADP	ADP	_	9	case	_	_
-8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	GP	_	PROPN	PNOUN	_	3	nmod	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	tona	tona	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+7	após	após	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	GP	GP	PROPN	_	Gender=Masc|Number=Sing	3	obl	_	_
 10-11	da	_	_	_	_	_	_	_	_
-10	de	de	ADP	ADP	_	12	case	_	_
-11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	Espanha	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
-13	,	,	PUNCT	.	_	3	punct	_	_
-14	dias	dia	NOUN	NOUN	_	15	nmod	_	_
-15	antes	antes	ADV	ADV	_	22	mark	_	_
-16	do	_	CCONJ	CONJ	_	15	fixed	_	_
-17	italiano	italiano	NOUN	NOUN	_	22	nsubj	_	_
-18	Alessandro	_	PROPN	PNOUN	_	17	appos	_	_
-19	Nannini	_	PROPN	PNOUN	_	18	flat	_	_
-20	vir	_	AUX	AUX	_	22	aux	_	_
-21	a	_	ADP	ADP	_	22	mark	_	_
-22	sofrer	sofrer	VERB	VERB	_	3	advcl	_	_
-23	um	um	DET	DET	_	24	det	_	_
-24	acidente	acidente	NOUN	NOUN	_	22	obj	_	_
-25	de	de	ADP	ADP	_	26	case	_	_
-26	helicóptero	helicóptero	NOUN	NOUN	_	24	nmod	_	_
-27	que	_	PRON	PRON	_	28	nsubj	_	_
-28	colocaria	colocar	VERB	VERB	_	24	acl:relcl	_	_
-29	fim	fim	NOUN	NOUN	_	28	obj	_	_
-30-31	à	_	_	_	_	_	_	_	_
-30	a	a	ADP	ADP	_	33	case	_	_
-31	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
-32	sua	_	DET	DET	_	33	det:poss	_	_
-33	carreira	_	NOUN	NOUN	_	29	nmod	_	_
-34-35	na	_	_	_	_	_	_	_	_
-34	em	em	ADP	ADP	_	36	case	_	_
-35	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-36	F1	_	PROPN	PNOUN	_	33	nmod	_	SpaceAfter=No
-37	.	.	PUNCT	.	_	3	punct	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Espanha	Espanha	PROPN	_	Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	dias	dia	NOUN	_	Gender=Masc|Number=Plur	9	appos	_	_
+15	antes	antes	ADV	_	ExtPos=SCONJ	21	mark	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	15	fixed	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	italiano	italiano	NOUN	_	Gender=Masc|Number=Sing	21	nsubj	_	_
+19	Alessandro	Alessandro	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	18	appos	_	_
+20	Nannini	Nannini	PROPN	_	Number=Sing	19	flat:name	_	_
+21	vir	vir	VERB	_	ExtPos=AUX|VerbForm=Inf	14	acl	_	_
+22	a	a	SCONJ	_	_	23	mark	_	_
+23	sofrer	sofrer	VERB	_	VerbForm=Inf	21	xcomp	_	_
+24	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	acidente	acidente	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	helicóptero	helicóptero	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
+28	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	29	nsubj	_	_
+29	colocaria	colocar	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	25	acl:relcl	_	_
+30	fim	fim	NOUN	_	Gender=Masc|Number=Sing	29	obj	_	_
+31-32	à	_	_	_	_	_	_	_	_
+31	a	a	ADP	_	_	34	case	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+33	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	34	det	_	_
+34	carreira	carreira	NOUN	_	Gender=Fem|Number=Sing	29	iobj	_	_
+35-36	na	_	_	_	_	_	_	_	_
+35	em	em	ADP	_	_	37	case	_	_
+36	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	F1	F1	PROPN	_	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
-# sent_id = train-s1498
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O ministro Solminihac explicou ao canal 24 Horas que a atividade vulcânica é bem menor agora, mas que resolveram decretar o alerta laranja para acompanhar a evolução do vulcão.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	ministro	ministro	NOUN	NOUN	_	4	nsubj	_	_
-3	Solminihac	_	PROPN	PNOUN	_	2	appos	_	_
-4	explicou	explicar	VERB	VERB	_	0	root	_	_
+# sent_id = train-s1498
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	Solminihac	Solminihac	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	_
+4	explicou	explicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5-6	ao	_	_	_	_	_	_	_	_
-5	a	a	ADP	ADP	_	7	case	_	_
-6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	canal	canal	NOUN	NOUN	_	4	iobj	_	_
-8	24	24	NUM	NUM	NumType=Card	9	nummod	_	_
-9	Horas	_	PROPN	PNOUN	_	7	appos	_	_
-10	que	que	CCONJ	CONJ	_	14	mark	_	_
-11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	atividade	atividade	NOUN	NOUN	_	14	nsubj	_	_
-13	vulcânica	vulcânico	ADJ	ADJ	_	12	amod	_	_
-14	é	ser	VERB	VERB	_	4	ccomp	_	_
-15	bem	bem	ADV	ADV	_	16	advmod	_	_
-16	menor	menor	ADJ	ADJ	_	14	xcomp	_	_
-17	agora	agora	ADV	ADV	_	14	advmod	_	SpaceAfter=No
-18	,	,	PUNCT	.	_	21	punct	_	_
-19	mas	mas	CCONJ	CONJ	_	21	cc	_	_
-20	que	_	PRON	PRON	_	21	mark	_	_
-21	resolveram	resolver	VERB	VERB	_	14	conj	_	_
-22	decretar	decretar	VERB	VERB	_	21	xcomp	_	_
-23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	alerta	alerta	NOUN	NOUN	_	22	obj	_	_
-25	laranja	_	ADJ	ADJ	_	24	amod	_	_
-26	para	_	ADP	ADP	_	27	mark	_	_
-27	acompanhar	acompanhar	VERB	VERB	_	22	advcl	_	_
-28	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-29	evolução	evolução	NOUN	NOUN	_	27	obj	_	_
+5	a	a	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	canal	canal	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+8	24	24	NUM	_	NumType=Card	9	nummod	_	_
+9	Horas	Horas	PROPN	_	Gender=Fem|Number=Plur	4	obl	_	_
+10	que	que	SCONJ	_	_	16	mark	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
+13	vulcânica	vulcânico	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
+14	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	bem	bem	ADV	_	_	16	advmod	_	_
+16	menor	menor	ADJ	_	Gender=Fem|Number=Sing	4	ccomp	_	_
+17	agora	agora	ADV	_	_	16	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	21	punct	_	_
+19	mas	mas	CCONJ	_	_	21	cc	_	_
+20	que	que	SCONJ	_	_	21	mark	_	_
+21	resolveram	resolver	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	16	conj	_	_
+22	decretar	decretar	VERB	_	VerbForm=Inf	21	xcomp	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	alerta	alerta	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
+25	laranja	laranja	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
+26	para	para	SCONJ	_	_	27	mark	_	_
+27	acompanhar	acompanhar	VERB	_	VerbForm=Inf	22	advcl	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	evolução	evolução	NOUN	_	Gender=Fem|Number=Sing	27	obj	_	_
 30-31	do	_	_	_	_	_	_	_	_
-30	de	de	ADP	ADP	_	32	case	_	_
-31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
-32	vulcão	vulcão	NOUN	NOUN	_	29	nmod	_	SpaceAfter=No
-33	.	.	PUNCT	.	_	4	punct	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	vulcão	vulcão	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
 

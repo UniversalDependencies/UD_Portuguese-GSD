@@ -208,58 +208,60 @@
 23	VHT	_	PROPN	PNOUN	_	22	flat	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	11	punct	_	_
 
-# sent_id = train-s8895
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Primeiro cabeça de chave na categoria dos meio - médios (até 81 quilos), Leandro Guilheiro lutará na terça - feira para conseguir sua primeira medalha de ouro em Jogos Olímpicos depois dos bronzes conseguidos em Atenas e Pequim.
-1	Primeiro	primeiro	ADJ	ADJ	_	2	amod	_	_
-2	cabeça	cabeça	NOUN	NOUN	_	21	nsubj	_	_
-3	de	de	ADP	ADP	_	4	case	_	_
-4	chave	chave	NOUN	NOUN	_	2	nmod	_	_
+# sent_id = train-s8895
+1	Primeiro	primeiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	2	amod	_	_
+2	cabeça	cabeça	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	chave	chave	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 5-6	na	_	_	_	_	_	_	_	_
-5	em	em	ADP	ADP	_	7	case	_	_
-6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	categoria	categoria	NOUN	NOUN	_	2	nmod	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	categoria	categoria	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 8-9	dos	_	_	_	_	_	_	_	_
-8	de	de	ADP	ADP	_	10	case	_	_
-9	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
-10	meio	meio	NOUN	NOUN	_	7	nmod	_	_
-11	-	-	PUNCT	.	_	10	punct	_	_
-12	médios	médio	NOUN	NOUN	_	10	flat	_	_
-13	(	(	PUNCT	.	_	16	punct	_	SpaceAfter=No
-14	até	até	ADV	ADV	_	15	advmod	_	_
-15	81	81	NUM	NUM	NumType=Card	16	nummod	_	_
-16	quilos	quilo	NOUN	NOUN	_	10	appos	_	SpaceAfter=No
-17	)	)	PUNCT	.	_	16	punct	_	SpaceAfter=No
-18	,	,	PUNCT	.	_	19	punct	_	_
-19	Leandro	_	PROPN	PNOUN	_	2	appos	_	_
-20	Guilheiro	_	PROPN	PNOUN	_	19	flat	_	_
-21	lutará	lutar	VERB	VERB	_	0	root	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	meio	meio	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
+11	-	-	PUNCT	_	_	12	punct	_	_
+12	médios	médio	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	_
+13	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+14	até	até	ADP	_	_	16	case	_	_
+15	81	81	NUM	_	NumType=Card	16	nummod	_	_
+16	quilos	quilo	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	2	punct	_	_
+19	Leandro	Leandro	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	21	nsubj	_	_
+20	Guilheiro	Guilheiro	PROPN	_	Number=Sing	19	flat:name	_	_
+21	lutará	lutar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 22-23	na	_	_	_	_	_	_	_	_
-22	em	em	ADP	ADP	_	26	case	_	_
-23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-24	terça	_	PROPN	PNOUN	_	26	amod	_	_
-25	-	-	PUNCT	.	_	26	punct	_	_
-26	feira	_	PROPN	PNOUN	_	21	nmod	_	_
-27	para	_	ADP	ADP	_	28	mark	_	_
-28	conseguir	conseguir	VERB	VERB	_	21	advcl	_	_
-29	sua	_	DET	DET	_	31	det:poss	_	_
-30	primeira	primeiro	ADJ	ADJ	_	31	amod	_	_
-31	medalha	medalha	NOUN	NOUN	_	28	obj	_	_
-32	de	de	ADP	ADP	_	33	case	_	_
-33	ouro	ouro	NOUN	NOUN	_	31	nmod	_	_
-34	em	em	ADP	ADP	_	35	case	_	_
-35	Jogos	_	PROPN	PNOUN	_	28	nmod	_	_
-36	Olímpicos	_	PROPN	PNOUN	_	35	amod	_	_
-37	depois	depois	ADV	ADV	_	40	case	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	terça	terça	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	_
+25	-	-	PUNCT	_	_	26	punct	_	_
+26	feira	feira	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
+27	para	para	SCONJ	_	_	28	mark	_	_
+28	conseguir	conseguir	VERB	_	VerbForm=Inf	21	advcl	_	_
+29	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	31	det	_	_
+30	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	31	amod	_	_
+31	medalha	medalha	NOUN	_	Gender=Fem|Number=Sing	28	obj	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	ouro	ouro	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	_
+34	em	em	ADP	_	_	35	case	_	_
+35	Jogos	Jogos	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	28	obl	_	_
+36	Olímpicos	Olímpicos	PROPN	_	Number=Sing	35	flat:name	_	_
+37	depois	depois	ADV	_	_	28	advmod	_	_
 38-39	dos	_	_	_	_	_	_	_	_
-38	de	de	ADP	ADP	_	37	case	_	_
-39	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
-40	bronzes	bronze	NOUN	NOUN	_	28	nmod	_	_
-41	conseguidos	conseguir	VERB	VERB	_	40	acl	_	_
-42	em	em	ADP	ADP	_	43	case	_	_
-43	Atenas	_	PROPN	PNOUN	_	41	nmod	_	_
-44	e	e	CCONJ	CONJ	_	45	cc	_	_
-45	Pequim	_	PROPN	PNOUN	_	43	conj	_	SpaceAfter=No
-46	.	.	PUNCT	.	_	21	punct	_	_
+38	de	de	ADP	_	_	40	case	_	_
+39	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
+40	bronzes	bronze	NOUN	_	Gender=Masc|Number=Plur	37	obl	_	_
+41	conseguidos	conseguir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	40	acl	_	_
+42	em	em	ADP	_	_	43	case	_	_
+43	Atenas	Atenas	PROPN	_	Gender=Masc|Number=Sing	41	obl	_	_
+44	e	e	CCONJ	_	_	45	cc	_	_
+45	Pequim	Pequim	PROPN	_	Gender=Masc|Number=Sing	43	conj	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
 
 # sent_id = train-s8896
 # text = O diagrama seguinte representa as localidades num raio de 12 km ao redor de Fairport Harbor.

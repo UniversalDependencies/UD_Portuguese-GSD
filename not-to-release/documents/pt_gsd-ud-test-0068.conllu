@@ -174,48 +174,50 @@
 28	UFBA	_	PROPN	PNOUN	_	25	nmod	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	23	punct	_	_
 
-# sent_id = test-s674
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = "O objetivo da audiência é regularizar a situação promovendo a identificação dos valores depositados, nomes de trabalhadores e municípios beneficiados," esclarece o procurador - chefe do MPT / RN.
-1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
-2	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	objetivo	objetivo	NOUN	NOUN	_	27	ccomp	_	_
+# sent_id = test-s674
+1	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+2	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	objetivo	objetivo	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 4-5	da	_	_	_	_	_	_	_	_
-4	de	de	ADP	ADP	_	6	case	_	_
-5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	audiência	audiência	NOUN	NOUN	_	3	nmod	_	_
-7	é	ser	AUX	AUX	_	3	cop	_	_
-8	regularizar	regularizar	VERB	VERB	_	3	csubj	_	_
-9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	situação	situação	NOUN	NOUN	_	8	obj	_	_
-11	promovendo	promover	VERB	VERB	_	8	acl	_	_
-12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	identificação	identificação	NOUN	NOUN	_	11	obj	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	audiência	audiência	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	regularizar	regularizar	VERB	_	VerbForm=Inf	27	parataxis	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	situação	situação	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	promovendo	promover	VERB	_	VerbForm=Ger	8	advcl	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	identificação	identificação	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
 14-15	dos	_	_	_	_	_	_	_	_
-14	de	de	ADP	ADP	_	16	case	_	_
-15	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
-16	valores	_	NOUN	NOUN	_	13	nmod	_	_
-17	depositados	depositar	VERB	VERB	_	16	acl	_	SpaceAfter=No
-18	,	,	PUNCT	.	_	19	punct	_	_
-19	nomes	nome	NOUN	NOUN	_	16	conj	_	_
-20	de	de	ADP	ADP	_	21	case	_	_
-21	trabalhadores	trabalhador	NOUN	NOUN	_	19	nmod	_	_
-22	e	e	CCONJ	CONJ	_	23	cc	_	_
-23	municípios	município	NOUN	NOUN	_	21	conj	_	_
-24	beneficiados	beneficiar	VERB	VERB	_	21	acl	_	SpaceAfter=No
-25	,	,	PUNCT	.	_	27	punct	_	SpaceAfter=No
-26	"	"	PUNCT	.	_	3	punct	_	_
-27	esclarece	esclarecer	VERB	VERB	_	0	root	_	_
-28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-29	procurador	procurador	NOUN	NOUN	_	27	nsubj	_	_
-30	-	-	PUNCT	.	_	29	punct	_	_
-31	chefe	chefe	NOUN	NOUN	_	29	flat	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	valores	valor	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
+17	depositados	depositar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	16	acl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	nomes	nome	NOUN	_	Gender=Masc|Number=Plur	16	conj	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	trabalhadores	trabalhador	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	_
+22	e	e	CCONJ	_	_	23	cc	_	_
+23	municípios	município	NOUN	_	Gender=Masc|Number=Plur	21	conj	_	_
+24	beneficiados	beneficiar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	23	acl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	8	punct	_	SpaceAfter=No
+26	"	"	PUNCT	_	_	8	punct	_	_
+27	esclarece	esclarecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	procurador	procurador	NOUN	_	Gender=Masc|Number=Sing	27	nsubj	_	_
+30	-	-	PUNCT	_	_	31	punct	_	_
+31	chefe	chefe	NOUN	_	Gender=Masc|Number=Sing	29	appos	_	_
 32-33	do	_	_	_	_	_	_	_	_
-32	de	de	ADP	ADP	_	34	case	_	_
-33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
-34	MPT	_	PROPN	PNOUN	_	29	nmod	_	_
-35	/	/	PUNCT	.	_	34	punct	_	_
-36	RN	_	PROPN	PNOUN	_	34	flat	_	SpaceAfter=No
-37	.	.	PUNCT	.	_	27	punct	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	MPT	MPT	PROPN	_	Gender=Masc|Number=Sing	31	nmod	_	_
+35	/	/	PUNCT	_	_	36	punct	_	_
+36	RN	RN	PROPN	_	Gender=Masc|Number=Sing	34	conj	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
 
 # sent_id = test-s675
 # text = Tarja • 8 horas atrás Foi dá uma de gostoso, dizendo NAO pra todo mundo, agora vem com o rabinho entre as pernas.

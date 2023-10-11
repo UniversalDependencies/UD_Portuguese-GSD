@@ -67,52 +67,54 @@
 59	Lima	_	PROPN	PNOUN	_	57	flat	_	SpaceAfter=No
 60	.	.	PUNCT	.	_	31	punct	_	_
 
-# sent_id = test-s211
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = JWT (ou J. W. Thompson) é uma agência de publicidade multinacional, de origem americana, fundada em 1864 por William James Carlton, e modificada por John Walter Thompson em 1877 para J. Walter Thompson Company (até 2005).
-1	JWT	_	PROPN	PNOUN	_	10	nsubj	_	_
-2	(	(	PUNCT	.	_	3	punct	_	SpaceAfter=No
-3	ou	ou	CCONJ	CONJ	_	4	cc	_	_
-4	J.	_	PROPN	PNOUN	_	1	conj	_	_
-5	W.	_	PROPN	PNOUN	_	4	flat	_	_
-6	Thompson	_	PROPN	PNOUN	_	4	flat	_	SpaceAfter=No
-7	)	)	PUNCT	.	_	3	punct	_	_
-8	é	ser	AUX	AUX	_	10	cop	_	_
-9	uma	um	DET	DET	_	10	det	_	_
-10	agência	agência	NOUN	NOUN	_	0	root	_	_
-11	de	de	ADP	ADP	_	12	case	_	_
-12	publicidade	publicidade	NOUN	NOUN	_	10	nmod	_	_
-13	multinacional	multinacional	ADJ	ADJ	_	10	amod	_	SpaceAfter=No
-14	,	,	PUNCT	.	_	16	punct	_	_
-15	de	de	ADP	ADP	_	16	case	_	_
-16	origem	origem	NOUN	NOUN	_	10	nmod	_	_
-17	americana	americano	ADJ	ADJ	_	16	amod	_	SpaceAfter=No
-18	,	,	PUNCT	.	_	19	punct	_	_
-19	fundada	fundar	VERB	VERB	_	10	acl	_	_
-20	em	em	ADP	ADP	_	21	case	_	_
-21	1864	1864	NUM	NUM	NumType=Card	19	nmod	_	_
-22	por	por	ADP	ADP	_	23	case	_	_
-23	William	_	PROPN	PNOUN	_	19	nmod	_	_
-24	James	_	PROPN	PNOUN	_	23	flat	_	_
-25	Carlton	_	PROPN	PNOUN	_	23	flat	_	SpaceAfter=No
-26	,	,	PUNCT	.	_	28	punct	_	_
-27	e	e	CCONJ	CONJ	_	28	cc	_	_
-28	modificada	modificar	VERB	VERB	_	19	conj	_	_
-29	por	por	ADP	ADP	_	30	case	_	_
-30	John	_	PROPN	PNOUN	_	28	nmod	_	_
-31	Walter	_	PROPN	PNOUN	_	30	flat	_	_
-32	Thompson	_	PROPN	PNOUN	_	30	flat	_	_
-33	em	em	ADP	ADP	_	34	case	_	_
-34	1877	1877	NUM	NUM	NumType=Card	28	nmod	_	_
-35	para	para	ADP	ADP	_	36	case	_	_
-36	J.	_	PROPN	PNOUN	_	28	nmod	_	_
-37	Walter	_	PROPN	PNOUN	_	36	flat	_	_
-38	Thompson	_	PROPN	PNOUN	_	36	flat	_	_
-39	Company	_	PROPN	PNOUN	_	36	flat	_	_
-40	(	(	PUNCT	.	_	42	punct	_	SpaceAfter=No
-41	até	_	ADP	ADP	_	42	case	_	_
-42	2005	2005	NUM	NUM	NumType=Card	36	nmod	_	SpaceAfter=No
-43	)	)	PUNCT	.	_	42	punct	_	SpaceAfter=No
-44	.	.	PUNCT	.	_	10	punct	_	_
+# sent_id = test-s211
+1	JWT	JWT	PROPN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+2	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+3	ou	ou	CCONJ	_	_	4	cc	_	_
+4	J.	J.	PROPN	_	Abbr=Yes|Gender=Masc|Number=Sing	1	conj	_	_
+5	W.	W.	PROPN	_	Number=Sing	4	flat:name	_	_
+6	Thompson	Thompson	PROPN	_	Number=Sing	4	flat:name	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	4	punct	_	_
+8	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	agência	agência	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	publicidade	publicidade	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+13	multinacional	multinacional	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	origem	origem	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+17	americana	americano	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	16	punct	_	_
+19	fundada	fundar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	10	acl	_	_
+20	em	em	ADP	_	_	21	case	_	_
+21	1864	1864	NUM	_	NumType=Card	19	obl	_	_
+22	por	por	ADP	_	_	23	case	_	_
+23	William	William	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	19	obl:agent	_	_
+24	James	James	PROPN	_	Number=Sing	23	flat:name	_	_
+25	Carlton	Carlton	PROPN	_	Number=Sing	23	flat:name	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	28	punct	_	_
+27	e	e	CCONJ	_	_	28	cc	_	_
+28	modificada	modificar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	19	conj	_	_
+29	por	por	ADP	_	_	30	case	_	_
+30	John	John	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	28	obl:agent	_	_
+31	Walter	Walter	PROPN	_	Number=Sing	30	flat:name	_	_
+32	Thompson	Thompson	PROPN	_	Number=Sing	30	flat:name	_	_
+33	em	em	ADP	_	_	34	case	_	_
+34	1877	1877	NUM	_	NumType=Card	28	obl	_	_
+35	para	para	ADP	_	_	36	case	_	_
+36	J.	J.	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	28	obl	_	_
+37	Walter	Walter	PROPN	_	Number=Sing	36	flat:name	_	_
+38	Thompson	Thompson	PROPN	_	Number=Sing	36	flat:name	_	_
+39	Company	Company	PROPN	_	Number=Sing	36	flat:name	_	_
+40	(	(	PUNCT	_	_	42	punct	_	SpaceAfter=No
+41	até	até	ADP	_	_	42	case	_	_
+42	2005	2005	NUM	_	NumType=Card	36	nmod	_	SpaceAfter=No
+43	)	)	PUNCT	_	_	42	punct	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
 
 # sent_id = test-s212
 # text = No primeiro semestre deste ano, 34 mulheres foram assassinadas no DF -- dez mortes a mais em relação ao ano passado, o que representa um aumento de 41 %.
@@ -322,30 +324,34 @@
 14	etc	_	X	X	_	6	conj	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = test-s218
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Atividade jornalística de Carvalho Déda, in Carvalho Déda - Vida &amp; Obra - Coletânea .. Grafica e Editora J. andrade.
-1	Atividade	atividade	NOUN	NOUN	_	0	root	_	_
-2	jornalística	jornalístico	ADJ	ADJ	_	1	amod	_	_
-3	de	de	ADP	ADP	_	4	case	_	_
-4	Carvalho	_	PROPN	PNOUN	_	1	nmod	_	_
-5	Déda	_	PROPN	PNOUN	_	4	flat	_	SpaceAfter=No
-6	,	,	PUNCT	.	_	8	punct	_	_
-7	in	_	NOUN	NOUN	_	8	case	_	_
-8	Carvalho	_	PROPN	PNOUN	_	1	nmod	_	_
-9	Déda	_	PROPN	PNOUN	_	8	flat	_	_
-10	-	-	PUNCT	.	_	11	punct	_	_
-11	Vida	_	PROPN	PNOUN	_	8	appos	_	_
-12	&amp;	_	PROPN	PNOUN	_	13	cc	_	_
-13	Obra	_	PROPN	PNOUN	_	11	conj	_	_
-14	-	-	PUNCT	.	_	15	punct	_	_
-15	Coletânea	_	PROPN	PNOUN	_	11	appos	_	_
-16	..	_	PUNCT	.	_	8	punct	_	_
-17	Grafica	_	PROPN	PNOUN	_	8	appos	_	_
-18	e	e	CCONJ	CONJ	_	19	cc	_	_
-19	Editora	_	PROPN	PNOUN	_	17	conj	_	_
-20	J.	_	PROPN	PNOUN	_	17	appos	_	_
-21	andrade	_	PROPN	PNOUN	_	20	flat	_	SpaceAfter=No
-22	.	.	PUNCT	.	_	1	punct	_	_
+# sent_id = test-s218
+1	Atividade	atividade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	jornalística	jornalístico	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Carvalho	Carvalho	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	1	nmod	_	_
+5	Déda	Déda	PROPN	_	Number=Sing	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	in	in	NOUN	_	_	1	parataxis	_	_
+8	Carvalho	Carvalho	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	7	appos	_	_
+9	Déda	Déda	PROPN	_	Number=Sing	8	flat:name	_	_
+10	-	-	PUNCT	_	_	11	punct	_	_
+11	Vida	Vida	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	8	conj	_	_
+12	&	&	PROPN	_	Number=Sing	11	flat:name	_	SpaceAfter=No
+13	amp	amp	PROPN	_	Number=Sing	11	flat:name	_	SpaceAfter=No
+14	;	;	PUNCT	_	_	15	punct	_	_
+15	Obra	Obra	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	8	conj	_	_
+16	-	-	PUNCT	_	_	15	punct	_	_
+17	Coletânea	Coletânea	PROPN	_	Number=Sing	15	flat:name	_	_
+18	..	..	PUNCT	_	_	19	punct	_	_
+19	Grafica	Grafica	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	1	appos	_	_
+20	e	e	CCONJ	_	_	19	flat:name	_	_
+21	Editora	Editora	PROPN	_	Number=Sing	19	flat:name	_	_
+22	J.	J.	PROPN	_	Number=Sing	19	flat:name	_	_
+23	andrade	andrade	PROPN	_	Number=Sing	19	flat:name	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = test-s219
 # text = A notícia atribui a desistência ao custo da ferrovia.

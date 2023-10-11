@@ -22,19 +22,21 @@
 19	definitivamente	definitivamente	ADV	ADV	_	18	advmod	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	12	punct	_	_
 
-# sent_id = train-s4546
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Nossa equipe precisa voltar a vencer o mais rápido possível.
-1	Nossa	_	DET	DET	_	2	det:poss	_	_
-2	equipe	equipe	NOUN	NOUN	_	3	nsubj	_	_
-3	precisa	precisar	VERB	VERB	_	0	root	_	_
-4	voltar	voltar	AUX	AUX	_	6	aux	_	_
-5	a	_	ADP	ADP	_	6	mark	_	_
-6	vencer	vencer	VERB	VERB	_	3	xcomp	_	_
-7	o	o	DET	DET	_	8	det	_	_
-8	mais	mais	ADV	ADV	_	9	advmod	_	_
-9	rápido	rápido	ADV	ADV	_	6	advmod	_	_
-10	possível	_	ADV	ADV	_	9	advmod	_	SpaceAfter=No
-11	.	.	PUNCT	.	_	3	punct	_	_
+# sent_id = train-s4546
+1	Nossa	nosso	DET	_	Gender=Fem|Number=Sing|PronType=Prs	2	det	_	_
+2	equipe	equipe	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	precisa	precisar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	voltar	voltar	VERB	_	ExtPos=AUX|VerbForm=Inf	3	xcomp	_	_
+5	a	a	SCONJ	_	_	6	mark	_	_
+6	vencer	vencer	VERB	_	VerbForm=Inf	4	xcomp	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	mais	mais	ADV	_	_	9	advmod	_	_
+9	rápido	rápido	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+10	possível	possível	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = train-s4547
 # text = Os Estados Unidos mantêm esse programa, voltado para viajantes frequentes, que têm seus antecedentes checados previamente, apenas com o México e a Holanda.
@@ -113,30 +115,32 @@
 25	Galileo	_	PROPN	PNOUN	_	23	obj	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	7	punct	_	_
 
-# sent_id = train-s4550
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = That Was Then, This Is Now () é um romance de Susan E. Hinton, publicado inicialmente em 1971.
-1	That	_	PROPN	PNOUN	_	2	nsubj	_	_
-2	Was	_	PROPN	PNOUN	_	12	csubj	_	_
-3	Then	_	PROPN	PNOUN	_	2	advmod	_	SpaceAfter=No
-4	,	,	PUNCT	.	_	6	punct	_	_
-5	This	_	PROPN	PNOUN	_	6	nsubj	_	_
-6	Is	_	PROPN	PNOUN	_	2	conj	_	_
-7	Now	_	PROPN	PNOUN	_	6	advmod	_	_
-8	(	(	PUNCT	.	_	2	punct	_	SpaceAfter=No
-9	)	)	PUNCT	.	_	2	punct	_	_
-10	é	ser	AUX	AUX	_	12	cop	_	_
-11	um	um	DET	DET	_	12	det	_	_
-12	romance	romance	NOUN	NOUN	_	0	root	_	_
-13	de	de	ADP	ADP	_	14	case	_	_
-14	Susan	_	PROPN	PNOUN	_	12	nmod	_	_
-15	E.	_	PROPN	PNOUN	_	14	flat	_	_
-16	Hinton	_	PROPN	PNOUN	_	14	flat	_	SpaceAfter=No
-17	,	,	PUNCT	.	_	18	punct	_	_
-18	publicado	publicar	VERB	VERB	_	12	acl	_	_
-19	inicialmente	inicialmente	ADV	ADV	_	18	advmod	_	_
-20	em	em	ADP	ADP	_	21	case	_	_
-21	1971	1971	NUM	NUM	NumType=Card	18	nmod	_	SpaceAfter=No
-22	.	.	PUNCT	.	_	12	punct	_	_
+# sent_id = train-s4550
+1	That	That	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	12	nsubj	_	_
+2	Was	Was	PROPN	_	Number=Sing	1	flat:name	_	_
+3	Then	Then	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	This	This	PROPN	_	ExtPos=PROPN|Number=Sing	1	appos	_	_
+6	Is	Is	PROPN	_	Number=Sing	5	flat:name	_	_
+7	Now	Now	PROPN	_	Number=Sing	5	flat:name	_	_
+8	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	1	punct	_	_
+10	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	romance	romance	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	Susan	Susan	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	12	nmod	_	_
+15	E.	E.	PROPN	_	Number=Sing	14	flat:name	_	_
+16	Hinton	Hinton	PROPN	_	Number=Sing	14	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	publicado	publicar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	12	acl	_	_
+19	inicialmente	inicialmente	ADV	_	_	18	advmod	_	_
+20	em	em	ADP	_	_	21	case	_	_
+21	1971	1971	NUM	_	NumType=Card	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
 
 # sent_id = train-s4551
 # text = É um grande companheiro e grande jogador, declarou.

@@ -124,46 +124,48 @@
 42	camelôs	camelô	NOUN	NOUN	_	39	nmod	_	SpaceAfter=No
 43	.	.	PUNCT	.	_	34	punct	_	_
 
-# sent_id = train-s6238
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = "A crise afeta em maior grau os países mais dependentes dos mercados desenvolvidos, mas o Brasil, por depender menos do que os outros países, leva vantagem", afirmou.
-1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
-2	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	crise	crise	NOUN	NOUN	_	4	nsubj	_	_
-4	afeta	afetar	VERB	VERB	_	35	ccomp	_	_
-5	em	em	ADP	ADP	_	7	case	_	_
-6	maior	maior	ADJ	ADJ	_	7	amod	_	_
-7	grau	grau	NOUN	NOUN	_	4	nmod	_	_
-8	os	o	DET	DET	_	9	det	_	_
-9	países	país	NOUN	NOUN	_	4	obj	_	_
-10	mais	mais	ADV	ADV	_	11	advmod	_	_
-11	dependentes	dependente	ADJ	ADJ	_	9	amod	_	_
+# sent_id = train-s6238
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	crise	crise	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	afeta	afetar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	parataxis	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	maior	maior	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+7	grau	grau	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	países	país	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
+10	mais	mais	ADV	_	_	11	advmod	_	_
+11	dependentes	dependente	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
 12-13	dos	_	_	_	_	_	_	_	_
-12	de	de	ADP	ADP	_	14	case	_	_
-13	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
-14	mercados	mercado	NOUN	NOUN	_	11	nmod	_	_
-15	desenvolvidos	desenvolvido	ADJ	ADJ	_	14	amod	_	SpaceAfter=No
-16	,	,	PUNCT	.	_	31	punct	_	_
-17	mas	mas	CCONJ	CONJ	_	31	cc	_	_
-18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	Brasil	_	PROPN	PNOUN	_	31	nsubj	_	SpaceAfter=No
-20	,	,	PUNCT	.	_	22	punct	_	_
-21	por	_	ADP	ADP	_	22	mark	_	_
-22	depender	depender	VERB	VERB	_	31	advcl	_	_
-23	menos	menos	ADV	ADV	_	22	advmod	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	mercados	mercado	NOUN	_	Gender=Masc|Number=Plur	11	obl	_	_
+15	desenvolvidos	desenvolver	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	14	acl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	31	punct	_	_
+17	mas	mas	CCONJ	_	_	31	cc	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Brasil	Brasil	PROPN	_	Gender=Masc|Number=Sing	31	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	_
+21	por	por	SCONJ	_	_	22	mark	_	_
+22	depender	depender	VERB	_	VerbForm=Inf	31	advcl	_	_
+23	menos	menos	ADV	_	_	22	advmod	_	_
 24-25	do	_	_	_	_	_	_	_	_
-24	de	de	ADP	ADP	_	29	case	_	_
-25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-26	que	_	ADP	ADP	_	24	fixed	_	_
-27	os	o	DET	DET	_	29	det	_	_
-28	outros	_	DET	DET	_	29	det	_	_
-29	países	país	NOUN	NOUN	_	23	nmod	_	SpaceAfter=No
-30	,	,	PUNCT	.	_	22	punct	_	_
-31	leva	levar	VERB	VERB	_	4	conj	_	_
-32	vantagem	vantagem	NOUN	NOUN	_	31	obj	_	SpaceAfter=No
-33	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
-34	,	,	PUNCT	.	_	35	punct	_	_
-35	afirmou	afirmar	VERB	VERB	_	0	root	_	SpaceAfter=No
-36	.	.	PUNCT	.	_	35	punct	_	_
+24	de	de	ADP	_	_	29	case	_	_
+25	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	24	fixed	_	_
+26	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	24	fixed	_	_
+27	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+28	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	29	det	_	_
+29	países	país	NOUN	_	Gender=Masc|Number=Plur	23	obl	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	22	punct	_	_
+31	leva	levar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+32	vantagem	vantagem	NOUN	_	Gender=Fem|Number=Sing	31	obj	_	SpaceAfter=No
+33	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	35	punct	_	_
+35	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	SpaceAfter=No
 
 # sent_id = train-s6239
 # text = "Tenho dito que se tivermos um segundo turno no Rio de Janeiro eu estarei com o que for.
@@ -209,55 +211,57 @@
 14	mais	mais	ADV	ADV	_	13	advmod	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	13	punct	_	_
 
-# sent_id = train-s6241
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = À frente de seu impactante e imprevisível O som ao redor, o pernambucano Kleber Mendonça Filho faturou quatro troféus Kikito -- entre eles, o de melhor diretor e o de melhor longa na opinião dos espectadores.
+# sent_id = train-s6241
 1-2	À	_	_	_	_	_	_	_	_
-1	A	a	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	frente	frente	NOUN	NOUN	_	20	nmod	_	_
-4	de	de	ADP	ADP	_	10	case	_	_
-5	seu	_	DET	DET	_	10	det:poss	_	_
-6	impactante	impactante	ADJ	ADJ	_	10	amod	_	_
-7	e	e	CCONJ	CONJ	_	8	cc	_	_
-8	imprevisível	imprevisível	ADJ	ADJ	_	6	conj	_	_
-9	O	_	PROPN	PNOUN	_	10	det	_	_
-10	som	som	NOUN	NOUN	_	3	nmod	_	_
+1	A	a	ADP	_	_	3	case	_	_
+2	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	frente	frente	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	6	det	_	_
+6	impactante	impactante	ADJ	_	Gender=Masc|Number=Sing	3	nmod	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	imprevisível	imprevisível	ADJ	_	Gender=Masc|Number=Sing	6	conj	_	_
+9	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	som	som	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
 11-12	ao	_	_	_	_	_	_	_	_
-11	a	a	ADP	ADP	_	13	case	_	_
-12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	redor	redor	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
-14	,	,	PUNCT	.	_	3	punct	_	_
-15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	pernambucano	pernambucano	NOUN	NOUN	_	20	nsubj	_	_
-17	Kleber	_	PROPN	PNOUN	_	16	appos	_	_
-18	Mendonça	_	PROPN	PNOUN	_	17	flat	_	_
-19	Filho	_	PROPN	PNOUN	_	17	flat	_	_
-20	faturou	faturar	VERB	VERB	_	0	root	_	_
-21	quatro	_	NUM	NUM	NumType=Card	22	nummod	_	_
-22	troféus	troféu	NOUN	NOUN	_	20	obj	_	_
-23	Kikito	_	PROPN	PNOUN	_	22	appos	_	_
-24	--	_	PUNCT	.	_	28	punct	_	_
-25	entre	_	ADP	ADP	_	26	case	_	_
-26	eles	_	PRON	PRON	_	28	nmod	_	SpaceAfter=No
-27	,	,	PUNCT	.	_	26	punct	_	_
-28	o	_	PRON	PRON	_	22	appos	_	_
-29	de	de	ADP	ADP	_	31	case	_	_
-30	melhor	melhor	ADJ	ADJ	_	31	amod	_	_
-31	diretor	diretor	NOUN	NOUN	_	28	nmod	_	_
-32	e	e	CCONJ	CONJ	_	36	cc	_	_
-33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
-34	de	de	ADP	ADP	_	36	case	_	_
-35	melhor	melhor	ADJ	ADJ	_	36	amod	_	_
-36	longa	_	NOUN	NOUN	_	31	conj	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	redor	redor	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	10	punct	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	pernambucano	pernambucano	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
+17	Kleber	Kleber	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	16	appos	_	_
+18	Mendonça	Mendonça	PROPN	_	Number=Sing	17	flat:name	_	_
+19	Filho	Filho	PROPN	_	Number=Sing	17	flat:name	_	_
+20	faturou	faturar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+21	quatro	quatro	NUM	_	NumType=Card	22	nummod	_	_
+22	troféus	troféu	NOUN	_	Gender=Masc|Number=Plur	20	obj	_	_
+23	Kikito	Kikito	PROPN	_	Gender=Masc|Number=Sing	22	appos	_	_
+24	--	--	PUNCT	_	_	28	punct	_	_
+25	entre	entre	ADP	_	_	26	case	_	_
+26	eles	eles	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	28	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	28	punct	_	_
+28	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	22	appos	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	melhor	melhor	ADJ	_	Gender=Masc|Number=Sing	31	amod	_	_
+31	diretor	diretor	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
+32	e	e	CCONJ	_	_	33	cc	_	_
+33	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	28	conj	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	melhor	melhor	ADJ	_	Gender=Fem|Number=Sing	36	amod	_	_
+36	longa	longa	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	_
 37-38	na	_	_	_	_	_	_	_	_
-37	em	em	ADP	ADP	_	39	case	_	_
-38	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
-39	opinião	opinião	NOUN	NOUN	_	36	nmod	_	_
+37	em	em	ADP	_	_	39	case	_	_
+38	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	opinião	opinião	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	_
 40-41	dos	_	_	_	_	_	_	_	_
-40	de	de	ADP	ADP	_	42	case	_	_
-41	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	42	det	_	_
-42	espectadores	espectador	NOUN	NOUN	_	39	nmod	_	SpaceAfter=No
-43	.	.	PUNCT	.	_	20	punct	_	_
+40	de	de	ADP	_	_	42	case	_	_
+41	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	42	det	_	_
+42	espectadores	espectador	NOUN	_	Gender=Masc|Number=Plur	39	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
 
 # sent_id = train-s6242
 # text = Pela manhã, Fratesh participa de ato em prol da campanha de Daniela Ribeiro (PP) à Prefeitura Municipal de Campina Grande e, às 10h30, concede entrevista coletiva à imprensa na sede da Associação Campinense de Imprensa.

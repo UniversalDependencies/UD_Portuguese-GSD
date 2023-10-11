@@ -1,28 +1,30 @@
-# sent_id = train-s21
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = E as outras obras, eu tenho certeza que até o dia 31 de dezembro, o prefeito Roberto Sobrinho irá concluir.
-1	E	_	CCONJ	CONJ	_	7	cc	_	_
-2	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
-3	outras	_	DET	DET	_	4	det	_	_
-4	obras	obra	NOUN	NOUN	_	22	obj	_	SpaceAfter=No
-5	,	,	PUNCT	.	_	4	punct	_	_
-6	eu	_	PRON	PRON	_	7	nsubj	_	_
-7	tenho	ter	VERB	VERB	_	0	root	_	_
-8	certeza	certeza	NOUN	NOUN	_	7	obj	_	_
-9	que	_	PRON	PRON	_	22	mark	_	_
-10	até	_	ADP	ADP	_	12	case	_	_
-11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	dia	dia	NOUN	NOUN	_	22	nmod	_	_
-13	31	31	NUM	NUM	NumType=Card	12	nmod	_	_
-14	de	de	ADP	ADP	_	15	case	_	_
-15	dezembro	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
-16	,	,	PUNCT	.	_	12	punct	_	_
-17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	prefeito	prefeito	NOUN	NOUN	_	22	nsubj	_	_
-19	Roberto	_	PROPN	PNOUN	_	18	appos	_	_
-20	Sobrinho	_	PROPN	PNOUN	_	19	flat	_	_
-21	irá	_	AUX	AUX	_	22	aux	_	_
-22	concluir	concluir	VERB	VERB	_	8	dep	_	SpaceAfter=No
-23	.	.	PUNCT	.	_	7	punct	_	_
+# sent_id = train-s21
+1	E	e	CCONJ	_	_	7	cc	_	_
+2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
+4	obras	obra	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	tenho	ter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	certeza	certeza	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+9	que	que	SCONJ	_	_	22	mark	_	_
+10	até	até	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	dia	dia	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	_
+13	31	31	NUM	_	NumType=Card	12	nummod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	dezembro	dezembro	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	12	punct	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	prefeito	prefeito	NOUN	_	Gender=Masc|Number=Sing	22	nsubj	_	_
+19	Roberto	Roberto	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	18	appos	_	_
+20	Sobrinho	Sobrinho	PROPN	_	Number=Sing	19	flat:name	_	_
+21	irá	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	22	aux	_	_
+22	concluir	concluir	VERB	_	VerbForm=Inf	7	ccomp	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
 # sent_id = train-s22
 # text = Marcelo Zormann foi o primeiro representante do país a jogar, começou vencendo a partida contra Stefan Kozlov, mas foi derrotada, de virada, com 6 / 7 (0), 6 / 0 e 6 / 2.
@@ -214,53 +216,55 @@
 45	Califórnia	_	PROPN	PNOUN	_	43	conj	_	SpaceAfter=No
 46	.	.	PUNCT	.	_	26	punct	_	_
 
-# sent_id = train-s27
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Apesar do receio dalguns funcionários do governo britânico, Londres terminou aceitando a realização dos julgamentos de Nuremberg, que entre novembro de 1945 e outubro de 1946 processaram a cúpula do Terceiro Reich.
-1	Apesar	apesar	ADV	ADV	_	4	case	_	_
+# sent_id = train-s27
+1	Apesar	apesar	ADV	_	ExtPos=ADP	4	case	_	_
 2-3	do	_	_	_	_	_	_	_	_
-2	de	de	ADP	ADP	_	1	case	_	_
-3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
-4	receio	receio	NOUN	NOUN	_	15	nmod	_	_
+2	de	de	ADP	_	_	1	fixed	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	receio	receio	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
 5-6	dalguns	_	_	_	_	_	_	_	_
-5	de	de	ADP	ADP	_	7	case	_	_
-6	alguns	_	DET	DET	_	7	det	_	_
-7	funcionários	funcionário	NOUN	NOUN	_	4	nmod	_	_
+5	dm	dm	ADP	_	_	7	case	_	_
+6	alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+7	funcionários	funcionário	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
 8-9	do	_	_	_	_	_	_	_	_
-8	de	de	ADP	ADP	_	10	case	_	_
-9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	governo	governo	NOUN	NOUN	_	7	nmod	_	_
-11	britânico	britânico	ADJ	ADJ	_	10	amod	_	SpaceAfter=No
-12	,	,	PUNCT	.	_	4	punct	_	_
-13	Londres	_	PROPN	PNOUN	_	15	nsubj	_	_
-14	terminou	terminar	AUX	AUX	_	15	aux	_	_
-15	aceitando	aceitar	VERB	VERB	_	0	root	_	_
-16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	realização	realização	NOUN	NOUN	_	15	obj	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	governo	governo	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11	britânico	britânico	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	4	punct	_	_
+13	Londres	Londres	PROPN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
+14	terminou	terminar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	aceitando	aceitar	VERB	_	VerbForm=Ger	14	advcl	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	realização	realização	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
 18-19	dos	_	_	_	_	_	_	_	_
-18	de	de	ADP	ADP	_	20	case	_	_
-19	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
-20	julgamentos	julgamento	NOUN	NOUN	_	17	nmod	_	_
-21	de	de	ADP	ADP	_	22	case	_	_
-22	Nuremberg	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
-23	,	,	PUNCT	.	_	33	punct	_	_
-24	que	_	PRON	PRON	_	33	nsubj	_	_
-25	entre	_	ADP	ADP	_	26	case	_	_
-26	novembro	_	PROPN	PNOUN	_	33	nmod	_	_
-27	de	de	ADP	ADP	_	28	case	_	_
-28	1945	1945	NUM	NUM	NumType=Card	26	nmod	_	_
-29	e	e	CCONJ	CONJ	_	30	cc	_	_
-30	outubro	_	PROPN	PNOUN	_	26	conj	_	_
-31	de	de	ADP	ADP	_	32	case	_	_
-32	1946	1946	NUM	NUM	NumType=Card	30	nmod	_	_
-33	processaram	processar	VERB	VERB	_	20	acl:relcl	_	_
-34	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
-35	cúpula	cúpula	NOUN	NOUN	_	33	obj	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	julgamentos	julgamento	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	Nuremberg	Nuremberg	PROPN	_	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	33	punct	_	_
+24	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	33	nsubj	_	_
+25	entre	entre	ADP	_	_	26	case	_	_
+26	novembro	novembro	NOUN	_	Gender=Masc|Number=Sing	33	obl	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	1945	1945	NUM	_	NumType=Card	26	nmod	_	_
+29	e	e	CCONJ	_	_	30	cc	_	_
+30	outubro	outubro	NOUN	_	Gender=Masc|Number=Sing	26	conj	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	1946	1946	NUM	_	NumType=Card	30	nmod	_	_
+33	processaram	processar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	20	acl:relcl	_	_
+34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	cúpula	cúpula	NOUN	_	Gender=Fem|Number=Sing	33	obj	_	_
 36-37	do	_	_	_	_	_	_	_	_
-36	de	de	ADP	ADP	_	39	case	_	_
-37	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
-38	Terceiro	_	PROPN	PNOUN	_	39	amod	_	_
-39	Reich	_	PROPN	PNOUN	_	35	nmod	_	SpaceAfter=No
-40	.	.	PUNCT	.	_	15	punct	_	_
+36	de	de	ADP	_	_	38	case	_	_
+37	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	Terceiro	Terceiro	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	35	nmod	_	_
+39	Reich	Reich	PROPN	_	Number=Sing	38	flat:name	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
 
 # sent_id = train-s28
 # text = Ele está pronto ", disse o treinador.

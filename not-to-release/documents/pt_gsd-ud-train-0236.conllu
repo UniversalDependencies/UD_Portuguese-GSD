@@ -53,29 +53,31 @@
 17	delegado	delegado	NOUN	NOUN	_	15	nsubj	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	15	punct	_	_
 
-# sent_id = train-s2345
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Para ele, o sistema prisional e a Lei Penal são ainda mais violentos do que o crime.
-1	Para	_	ADP	ADP	_	2	case	_	_
-2	ele	_	PRON	PRON	_	11	nmod	_	SpaceAfter=No
-3	,	,	PUNCT	.	_	2	punct	_	_
-4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	sistema	sistema	NOUN	NOUN	_	11	nsubj	_	_
-6	prisional	prisional	ADJ	ADJ	_	5	amod	_	_
-7	e	e	CCONJ	CONJ	_	9	cc	_	_
-8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	Lei	_	PROPN	PNOUN	_	5	conj	_	_
-10	Penal	_	PROPN	PNOUN	_	9	amod	_	_
-11	são	ser	VERB	VERB	_	0	root	_	_
-12	ainda	ainda	ADV	ADV	_	13	advmod	_	_
-13	mais	mais	ADV	ADV	_	14	advmod	_	_
-14	violentos	violento	ADJ	ADJ	_	11	xcomp	_	_
+# sent_id = train-s2345
+1	Para	para	ADP	_	_	2	case	_	_
+2	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
+6	prisional	prisional	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7	e	e	CCONJ	_	_	9	cc	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Lei	Lei	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	5	conj	_	_
+10	Penal	Penal	PROPN	_	Number=Sing	9	flat:name	_	_
+11	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12	ainda	ainda	ADV	_	_	13	advmod	_	_
+13	mais	mais	ADV	_	_	14	advmod	_	_
+14	violentos	violento	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
 15-16	do	_	_	_	_	_	_	_	_
-15	de	de	ADP	ADP	_	19	case	_	_
-16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-17	que	_	ADP	ADP	_	15	fixed	_	_
-18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	crime	crime	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
-20	.	.	PUNCT	.	_	11	punct	_	_
+15	de	de	ADP	_	_	19	case	_	_
+16	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	15	fixed	_	_
+17	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	15	fixed	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	crime	crime	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
 
 # sent_id = train-s2346
 # text = Quer conhecer mais esse conceito do custo zero?

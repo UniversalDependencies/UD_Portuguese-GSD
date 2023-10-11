@@ -222,48 +222,52 @@
 4	motivado	motivado	ADJ	ADJ	_	2	xcomp	_	SpaceAfter=No
 5	.	.	PUNCT	.	_	2	punct	_	_
 
-# sent_id = train-s9167
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Helena explica que o filhote de Gavião - real demora dois anos e meio para abandonar o ninho, nesse período os pais continuam trazendo alimentação e o filhote só voa no entorno do ninho.
-1	Helena	_	PROPN	PNOUN	_	2	nsubj	_	_
-2	explica	explicar	VERB	VERB	_	0	root	_	_
-3	que	que	CCONJ	CONJ	_	10	mark	_	_
-4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	filhote	filhote	NOUN	NOUN	_	10	nsubj	_	_
-6	de	de	ADP	ADP	_	7	case	_	_
-7	Gavião	_	PROPN	PNOUN	_	5	nmod	_	_
-8	-	-	PUNCT	.	_	7	punct	_	_
-9	real	_	PROPN	PNOUN	_	7	amod	_	_
-10	demora	demorar	VERB	VERB	_	2	ccomp	_	_
-11	dois	_	NUM	NUM	NumType=Card	12	nummod	_	_
-12	anos	ano	NOUN	NOUN	_	10	nmod	_	_
-13	e	e	CCONJ	CONJ	_	14	cc	_	_
-14	meio	meio	NOUN	NOUN	_	11	conj	_	_
-15	para	_	ADP	ADP	_	16	mark	_	_
-16	abandonar	abandonar	VERB	VERB	_	10	nmod	_	_
-17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	ninho	ninho	NOUN	NOUN	_	16	obj	_	SpaceAfter=No
-19	,	,	PUNCT	.	_	25	punct	_	_
-20	nesse	_	ADP	ADP	_	21	case	_	_
-21	período	período	NOUN	NOUN	_	25	nmod	_	_
-22	os	o	DET	DET	_	23	det	_	_
-23	pais	_	NOUN	NOUN	_	25	nsubj	_	_
-24	continuam	continuar	AUX	AUX	_	25	aux	_	_
-25	trazendo	trazer	VERB	VERB	_	10	conj	_	_
-26	alimentação	alimentação	NOUN	NOUN	_	25	obj	_	_
-27	e	e	CCONJ	CONJ	_	31	cc	_	_
-28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-29	filhote	filhote	NOUN	NOUN	_	31	nsubj	_	_
-30	só	só	ADV	ADV	_	31	advmod	_	_
-31	voa	voar	VERB	VERB	_	25	conj	_	_
-32-33	no	_	_	_	_	_	_	_	_
-32	em	em	ADP	ADP	_	34	case	_	_
-33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
-34	entorno	_	NOUN	NOUN	_	31	nmod	_	_
-35-36	do	_	_	_	_	_	_	_	_
-35	de	de	ADP	ADP	_	37	case	_	_
-36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
-37	ninho	ninho	NOUN	NOUN	_	34	nmod	_	SpaceAfter=No
-38	.	.	PUNCT	.	_	2	punct	_	_
+# sent_id = train-s9167
+1	Helena	Helena	PROPN	_	Gender=Fem|Number=Sing	2	nsubj	_	_
+2	explica	explicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	10	mark	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	filhote	filhote	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Gavião	Gavião	PROPN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+8	-	-	PUNCT	_	_	7	punct	_	_
+9	real	real	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+10	demora	demorar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+11	dois	dois	NUM	_	NumType=Card	12	nummod	_	_
+12	anos	ano	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	meio	meio	NOUN	_	Gender=Masc|Number=Sing	12	conj	_	_
+15	para	para	SCONJ	_	_	16	mark	_	_
+16	abandonar	abandonar	VERB	_	VerbForm=Inf	10	advcl	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	ninho	ninho	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	25	punct	_	_
+20-21	nesse	_	_	_	_	_	_	_	_
+20	em	em	ADP	_	_	22	case	_	_
+21	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
+22	período	período	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	_
+23	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	pais	pai	NOUN	_	Gender=Masc|Number=Plur	25	nsubj	_	_
+25	continuam	continuar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+26	trazendo	trazer	VERB	_	VerbForm=Ger	25	xcomp	_	_
+27	alimentação	alimentação	NOUN	_	Gender=Fem|Number=Sing	26	obj	_	_
+28	e	e	CCONJ	_	_	32	cc	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	filhote	filhote	NOUN	_	Gender=Masc|Number=Sing	32	nsubj	_	_
+31	só	só	ADV	_	_	32	advmod	_	_
+32	voa	voar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	conj	_	_
+33-34	no	_	_	_	_	_	_	_	_
+33	em	em	ADP	_	_	35	case	_	_
+34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	entorno	entorno	NOUN	_	Gender=Masc|Number=Sing	32	obl	_	_
+36-37	do	_	_	_	_	_	_	_	_
+36	de	de	ADP	_	_	38	case	_	_
+37	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	ninho	ninho	NOUN	_	Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = train-s9168
 # text = A faixa "Going Home" e seus mais de 11 minutos também é um destaque.

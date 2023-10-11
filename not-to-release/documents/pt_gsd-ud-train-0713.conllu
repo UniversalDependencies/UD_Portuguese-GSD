@@ -177,74 +177,78 @@
 32	Silva	_	PROPN	PNOUN	_	27	nmod	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	11	punct	_	_
 
-# sent_id = train-s7082
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Antes mesmo da estreia de 'Salve Jorge' todos já sabiam que Drika, personagem de Mariana Rios seria uma vilã, só não estava claro o quão malvada ela seria.
-1	Antes	antes	ADV	ADV	_	5	case	_	_
-2	mesmo	mesmo	ADV	ADV	_	1	advmod	_	_
+# sent_id = train-s7082
+1	Antes	antes	ADV	_	_	13	advmod	_	_
+2	mesmo	mesmo	ADV	_	_	5	advmod	_	_
 3-4	da	_	_	_	_	_	_	_	_
-3	de	de	ADP	ADP	_	1	case	_	_
-4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
-5	estreia	estreia	NOUN	NOUN	_	13	nmod	_	_
-6	de	de	ADP	ADP	_	8	case	_	_
-7	'	_	PUNCT	.	_	8	punct	_	SpaceAfter=No
-8	Salve	_	PROPN	PNOUN	_	5	nmod	_	_
-9	Jorge	_	PROPN	PNOUN	_	8	flat	_	SpaceAfter=No
-10	'	_	PUNCT	.	_	8	punct	_	_
-11	todos	_	PRON	PRON	_	13	nsubj	_	_
-12	já	já	ADV	ADV	_	13	advmod	_	_
-13	sabiam	saber	VERB	VERB	_	0	root	_	_
-14	que	que	CCONJ	CONJ	_	23	mark	_	_
-15	Drika	_	PROPN	PNOUN	_	23	nsubj	_	SpaceAfter=No
-16	,	,	PUNCT	.	_	17	punct	_	_
-17	personagem	personagem	NOUN	NOUN	_	15	appos	_	_
-18	de	de	ADP	ADP	_	19	case	_	_
-19	Mariana	_	PROPN	PNOUN	_	17	nmod	_	_
-20	Rios	_	PROPN	PNOUN	_	19	flat	_	_
-21	seria	_	AUX	AUX	_	23	cop	_	_
-22	uma	um	DET	DET	_	23	det	_	_
-23	vilã	vilão	NOUN	NOUN	_	13	ccomp	_	SpaceAfter=No
-24	,	,	PUNCT	.	_	27	punct	_	_
-25	só	só	ADV	ADV	_	27	advmod	_	_
-26	não	não	ADV	ADV	Polarity=Neg	27	advmod	_	_
-27	estava	estar	VERB	VERB	_	13	conj	_	_
-28	claro	claro	ADJ	ADJ	_	27	xcomp	_	_
-29	o	o	DET	DET	_	31	det	_	_
-30	quão	_	DET	DET	_	31	det	_	_
-31	malvada	malvado	ADJ	ADJ	_	33	xcomp	_	_
-32	ela	_	PRON	PRON	_	33	nsubj	_	_
-33	seria	_	VERB	VERB	_	27	csubj	_	SpaceAfter=No
-34	.	.	PUNCT	.	_	13	punct	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	estreia	estreia	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	'	'	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	Salve	Salve	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	5	nmod	_	_
+9	Jorge	Jorge	PROPN	_	Number=Sing	8	flat:name	_	SpaceAfter=No
+10	'	'	PUNCT	_	_	8	punct	_	_
+11	todos	todo	PRON	_	Gender=Masc|Number=Plur|PronType=Tot	13	nsubj	_	_
+12	já	já	ADV	_	_	13	advmod	_	_
+13	sabiam	saber	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+14	que	que	SCONJ	_	_	23	mark	_	_
+15	Drika	Drika	PROPN	_	Gender=Fem|Number=Sing	23	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	personagem	personagem	NOUN	_	Gender=Fem|Number=Sing	15	appos	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	Mariana	Mariana	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	17	nmod	_	_
+20	Rios	Rios	PROPN	_	Number=Sing	19	flat:name	_	_
+21	seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	23	cop	_	_
+22	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	vilã	vilã	NOUN	_	Gender=Fem|Number=Sing	13	ccomp	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	28	punct	_	_
+25	só	só	ADV	_	_	28	advmod	_	_
+26	não	não	ADV	_	Polarity=Neg	28	advmod	_	_
+27	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	cop	_	_
+28	claro	claro	ADJ	_	Gender=Masc|Number=Sing	13	advcl	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	quão	quão	PRON	_	Gender=Masc|Number=Sing|PronType=Int	31	nsubj	_	_
+31	malvada	malvar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	32	acl	_	_
+32	ela	ela	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+33	seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	28	cop	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
 
-# sent_id = train-s7083
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O príncipe - herdeiro acabou casando-se com a princesa Margarida de Saboia, sua prima em primeiro grau, em 21 de abril de 1868.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	príncipe	príncipe	NOUN	NOUN	_	6	nsubj	_	_
-3	-	-	PUNCT	.	_	2	punct	_	_
-4	herdeiro	herdeiro	NOUN	NOUN	_	2	flat	_	_
-5	acabou	acabar	AUX	AUX	_	6	aux	_	_
+# sent_id = train-s7083
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	príncipe	príncipe	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	-	-	PUNCT	_	_	4	punct	_	_
+4	herdeiro	herdeiro	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
+5	acabou	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 6-7	casando-se	_	_	_	_	_	_	_	_
-6	casando	casar	VERB	VERB	_	0	root	_	_
-7	se	_	PRON	PRON	_	6	obj	_	_
-8	com	com	ADP	ADP	_	10	case	_	_
-9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	princesa	_	NOUN	NOUN	_	6	nmod	_	_
-11	Margarida	_	PROPN	PNOUN	_	10	appos	_	_
-12	de	de	ADP	ADP	_	13	case	_	_
-13	Saboia	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
-14	,	,	PUNCT	.	_	16	punct	_	_
-15	sua	_	DET	DET	_	16	det:poss	_	_
-16	prima	_	NOUN	NOUN	_	10	appos	_	_
-17	em	em	ADP	ADP	_	19	case	_	_
-18	primeiro	primeiro	ADJ	ADJ	_	19	amod	_	_
-19	grau	grau	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
-20	,	,	PUNCT	.	_	22	punct	_	_
-21	em	em	ADP	ADP	_	22	case	_	_
-22	21	21	NUM	NUM	NumType=Card	6	nmod	_	_
-23	de	de	ADP	ADP	_	24	case	_	_
-24	abril	_	PROPN	PNOUN	_	22	nmod	_	_
-25	de	de	ADP	ADP	_	26	case	_	_
-26	1868	1868	NUM	NUM	NumType=Card	24	nmod	_	SpaceAfter=No
-27	.	.	PUNCT	.	_	6	punct	_	_
+6	casando	casar	VERB	_	VerbForm=Ger	5	xcomp	_	_
+7	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl	_	_
+8	com	com	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	princesa	princesa	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+11	Margarida	Margarida	PROPN	_	Gender=Fem|Number=Sing	10	appos	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Saboia	Saboia	PROPN	_	Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	16	det	_	_
+16	prima	prima	NOUN	_	Gender=Fem|Number=Sing	10	appos	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	primeiro	primeiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	19	amod	_	_
+19	grau	grau	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	16	punct	_	_
+21	em	em	ADP	_	_	22	case	_	_
+22	21	21	NUM	_	NumType=Card	6	obl	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	abril	abril	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	1868	1868	NUM	_	NumType=Card	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
 # sent_id = train-s7084
 # text = Os resultados estão fazendo com que o modelo seja referência.

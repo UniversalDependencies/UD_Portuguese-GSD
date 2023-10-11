@@ -32,22 +32,24 @@
 27	2013	2013	NUM	NUM	NumType=Card	25	nmod	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	17	punct	_	_
 
-# sent_id = train-s6781
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O clero costuma evitar ostentar elmos ou timbres em suas cotas de armas.
-1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	clero	clero	NOUN	NOUN	_	4	nsubj	_	_
-3	costuma	costumar	AUX	AUX	_	4	aux	_	_
-4	evitar	evitar	VERB	VERB	_	0	root	_	_
-5	ostentar	ostentar	VERB	VERB	_	4	xcomp	_	_
-6	elmos	elmo	NOUN	NOUN	_	5	obj	_	_
-7	ou	ou	CCONJ	CONJ	_	8	cc	_	_
-8	timbres	timbre	NOUN	NOUN	_	6	conj	_	_
-9	em	em	ADP	ADP	_	11	case	_	_
-10	suas	_	DET	DET	_	11	det:poss	_	_
-11	cotas	cota	NOUN	NOUN	_	5	nmod	_	_
-12	de	de	ADP	ADP	_	13	case	_	_
-13	armas	arma	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
-14	.	.	PUNCT	.	_	4	punct	_	_
+# sent_id = train-s6781
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	clero	clero	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	costuma	costumar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	evitar	evitar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	ostentar	ostentar	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	elmos	elmo	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
+7	ou	ou	CCONJ	_	_	8	cc	_	_
+8	timbres	timbre	NOUN	_	Gender=Masc|Number=Plur	6	conj	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	suas	seu	DET	_	Gender=Fem|Number=Plur|PronType=Prs	11	det	_	_
+11	cotas	cota	NOUN	_	Gender=Fem|Number=Plur	5	obl	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	armas	arma	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = train-s6782
 # text = No pleito em questão, ela concorreu ao cargo de vice - governadora na chapa de Nelson Júnior (PSOL).

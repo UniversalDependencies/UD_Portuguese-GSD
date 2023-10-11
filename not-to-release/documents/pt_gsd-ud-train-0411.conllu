@@ -59,39 +59,41 @@
 42	Tocantins	_	PROPN	PNOUN	_	17	conj	_	SpaceAfter=No
 43	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s4079
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Resolveu-se adotar como verdade de fé a doutrina proposta por Cirilo, concedendo a Maria o título de Mãe de Deus, e os nestorianos foram considerados hereges.
+# sent_id = train-s4079
 1-2	Resolveu-se	_	_	_	_	_	_	_	_
-1	Resolveu	resolver	VERB	VERB	_	0	root	_	_
-2	se	_	PART	PRT	_	1	expl:pv	_	_
-3	adotar	adotar	VERB	VERB	_	1	xcomp	_	_
-4	como	como	ADP	ADP	_	5	case	_	_
-5	verdade	verdade	NOUN	NOUN	_	3	nmod	_	_
-6	de	de	ADP	ADP	_	7	case	_	_
-7	fé	fé	NOUN	NOUN	_	5	nmod	_	_
-8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	doutrina	doutrina	NOUN	NOUN	_	3	obj	_	_
-10	proposta	propor	VERB	VERB	_	9	acl	_	_
-11	por	por	ADP	ADP	_	12	case	_	_
-12	Cirilo	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
-13	,	,	PUNCT	.	_	14	punct	_	_
-14	concedendo	conceder	VERB	VERB	_	9	acl	_	_
-15	a	_	DET	DET	_	16	case	_	_
-16	Maria	_	PROPN	PNOUN	_	14	iobj	_	_
-17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	título	título	NOUN	NOUN	_	14	obj	_	_
-19	de	de	ADP	ADP	_	20	case	_	_
-20	Mãe	_	PROPN	PNOUN	_	18	nmod	_	_
-21	de	de	ADP	ADP	_	22	case	_	_
-22	Deus	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
-23	,	,	PUNCT	.	_	29	punct	_	_
-24	e	e	CCONJ	CONJ	_	29	cc	_	_
-25	os	o	DET	DET	_	26	det	_	_
-26	nestorianos	nestoriano	NOUN	NOUN	_	29	nsubj:pass	_	_
-27	foram	_	AUX	AUX	_	29	aux:pass	_	_
-28	considerados	considerar	AUX	AUX	_	29	cop	_	_
-29	hereges	herege	NOUN	NOUN	_	1	conj	_	SpaceAfter=No
-30	.	.	PUNCT	.	_	1	punct	_	_
+1	Resolveu	resolver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	se	se	PRON	_	Case=Acc|PronType=Prs	1	nsubj	_	_
+3	adotar	adotar	VERB	_	VerbForm=Inf	1	xcomp	_	_
+4	como	como	ADP	_	_	5	case	_	_
+5	verdade	verdade	NOUN	_	Gender=Fem|Number=Sing	3	xcomp	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	fé	fé	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	doutrina	doutrina	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+10	proposta	propor	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	9	acl	_	_
+11	por	por	ADP	_	_	12	case	_	_
+12	Cirilo	Cirilo	PROPN	_	Gender=Masc|Number=Sing	10	obl:agent	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	concedendo	conceder	VERB	_	VerbForm=Ger	3	advcl	_	_
+15	a	a	ADP	_	_	16	case	_	_
+16	Maria	Maria	PROPN	_	Gender=Fem|Number=Sing	14	obj	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	título	título	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	Mãe	Mãe	PROPN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	Deus	Deus	PROPN	_	Number=Sing	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	28	punct	_	_
+24	e	e	CCONJ	_	_	28	cc	_	_
+25	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	nestorianos	nestoriano	NOUN	_	Gender=Masc|Number=Plur	28	nsubj:pass	_	_
+27	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	28	aux:pass	_	_
+28	considerados	considerar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	3	conj	_	_
+29	hereges	herege	NOUN	_	Gender=Masc|Number=Plur	28	xcomp	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = train-s4080
 # text = Foi condecorado com a Cruz de Cavaleiro da Cruz de Ferro (30 de Julho de 1941), com Folhas de Carvalho (23 de Dezembro de 1942, n ° 162) e Espadas (23 de Outubro de 1944, n ° 105).

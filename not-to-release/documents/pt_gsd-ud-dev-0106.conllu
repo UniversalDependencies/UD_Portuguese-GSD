@@ -116,42 +116,44 @@
 54	iniciativa	iniciativa	NOUN	NOUN	_	47	conj	_	SpaceAfter=No
 55	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = dev-s1044
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = À frente do principal ministério do governo, Erenice se tornou alvo duma série de denúncias de suposto favorecimento de empresas em troca de propina.
+# sent_id = dev-s1044
 1-2	À	_	_	_	_	_	_	_	_
-1	A	a	ADP	ADP	_	3	case	_	_
-2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	frente	frente	NOUN	NOUN	_	15	nmod	_	_
+1	A	a	ADP	_	_	3	case	_	_
+2	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	frente	frente	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
 4-5	do	_	_	_	_	_	_	_	_
-4	de	de	ADP	ADP	_	7	case	_	_
-5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-6	principal	principal	ADJ	ADJ	_	7	amod	_	_
-7	ministério	ministério	NOUN	NOUN	_	3	nmod	_	_
+4	de	de	ADP	_	_	7	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	principal	principal	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+7	ministério	ministério	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 8-9	do	_	_	_	_	_	_	_	_
-8	de	de	ADP	ADP	_	10	case	_	_
-9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	governo	governo	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
-11	,	,	PUNCT	.	_	3	punct	_	_
-12	Erenice	_	PROPN	PNOUN	_	15	nsubj	_	_
-13	se	_	PART	PRT	_	15	expl:pv	_	_
-14	tornou	tornar	AUX	AUX	_	15	cop	_	_
-15	alvo	alvo	NOUN	NOUN	_	0	root	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	governo	governo	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	3	punct	_	_
+12	Erenice	Erenice	PROPN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
+13	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	expl	_	_
+14	tornou	tornar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	alvo	alvo	NOUN	_	Gender=Masc|Number=Sing	14	xcomp	_	_
 16-17	duma	_	_	_	_	_	_	_	_
-16	de	de	ADP	ADP	_	18	case	_	_
-17	uma	um	DET	DET	_	18	det	_	_
-18	série	série	NOUN	NOUN	_	15	nmod	_	_
-19	de	de	ADP	ADP	_	20	case	_	_
-20	denúncias	denúncia	NOUN	NOUN	_	18	nmod	_	_
-21	de	de	ADP	ADP	_	23	case	_	_
-22	suposto	suposto	ADJ	ADJ	_	23	amod	_	_
-23	favorecimento	favorecimento	NOUN	NOUN	_	20	nmod	_	_
-24	de	de	ADP	ADP	_	25	case	_	_
-25	empresas	empresa	NOUN	NOUN	_	23	nmod	_	_
-26	em	em	ADP	ADP	_	27	case	_	_
-27	troca	_	NOUN	NOUN	_	23	nmod	_	_
-28	de	de	ADP	ADP	_	29	case	_	_
-29	propina	propina	NOUN	NOUN	_	27	nmod	_	SpaceAfter=No
-30	.	.	PUNCT	.	_	15	punct	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	série	série	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	denúncias	denúncia	NOUN	_	Gender=Fem|Number=Plur	18	nmod	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	suposto	suposto	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	_
+23	favorecimento	favorecimento	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	empresas	empresa	NOUN	_	Gender=Fem|Number=Plur	23	nmod	_	_
+26	em	em	ADP	_	_	27	case	_	_
+27	troca	troca	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	propina	propina	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
 
 # sent_id = dev-s1045
 # text = Dos jogos, a maior variação de preço encontrada pelos pesquisadores foi no War -- Império Romano, da Graw (36,49 %), com valores que vão de R $ 109,90 (PB Toys), a R $ 150 (Ri Happy).
@@ -374,46 +376,47 @@
 22	pública	público	ADJ	ADJ	_	21	xcomp	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	15	punct	_	_
 
-# sent_id = dev-s1051
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Na segunda partida, a equipe da Imprensa de Apucarana bateu o Punk 's por 6 a 1, com gols de Rafael Silva (3), Juliano Tamya (2) e Serginho.
+# sent_id = dev-s1051
 1-2	Na	_	_	_	_	_	_	_	_
-1	Em	em	ADP	ADP	_	4	case	_	_
-2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-3	segunda	segundo	ADJ	ADJ	_	4	amod	_	_
-4	partida	partida	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
-5	,	,	PUNCT	.	_	4	punct	_	_
-6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	equipe	equipe	NOUN	NOUN	_	13	nsubj	_	_
+1	Em	em	ADP	_	_	4	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	segunda	segundo	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
+4	partida	partida	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	equipe	equipe	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
 8-9	da	_	_	_	_	_	_	_	_
-8	de	de	ADP	ADP	_	10	case	_	_
-9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	Imprensa	_	PROPN	PNOUN	_	7	nmod	_	_
-11	de	de	ADP	ADP	_	12	case	_	_
-12	Apucarana	_	PROPN	PNOUN	_	10	nmod	_	_
-13	bateu	bater	VERB	VERB	_	0	root	_	_
-14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	Punk	_	PROPN	PNOUN	_	13	obj	_	_
-16	's	_	PROPN	PNOUN	_	15	det:poss	_	_
-17	por	por	ADP	ADP	_	18	case	_	_
-18	6	6	NUM	NUM	NumType=Card	13	nmod	_	_
-19	a	_	ADP	ADP	_	20	case	_	_
-20	1	1	NUM	NUM	NumType=Card	18	nmod	_	SpaceAfter=No
-21	,	,	PUNCT	.	_	23	punct	_	_
-22	com	com	ADP	ADP	_	23	case	_	_
-23	gols	gol	NOUN	NOUN	_	13	nmod	_	_
-24	de	de	ADP	ADP	_	25	case	_	_
-25	Rafael	_	PROPN	PNOUN	_	23	nmod	_	_
-26	Silva	_	PROPN	PNOUN	_	25	flat	_	_
-27	(	(	PUNCT	.	_	28	punct	_	SpaceAfter=No
-28	3	3	NUM	NUM	NumType=Card	25	appos	_	SpaceAfter=No
-29	)	)	PUNCT	.	_	28	punct	_	SpaceAfter=No
-30	,	,	PUNCT	.	_	31	punct	_	_
-31	Juliano	_	PROPN	PNOUN	_	25	conj	_	_
-32	Tamya	_	PROPN	PNOUN	_	31	flat	_	_
-33	(	(	PUNCT	.	_	34	punct	_	SpaceAfter=No
-34	2	2	NUM	NUM	NumType=Card	31	appos	_	SpaceAfter=No
-35	)	)	PUNCT	.	_	34	punct	_	_
-36	e	e	CCONJ	CONJ	_	37	cc	_	_
-37	Serginho	_	PROPN	PNOUN	_	25	conj	_	SpaceAfter=No
-38	.	.	PUNCT	.	_	13	punct	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Imprensa	Imprensa	PROPN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	Apucarana	Apucarana	PROPN	_	Number=Sing	10	nmod	_	_
+13	bateu	bater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Punk	Punk	PROPN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16	's	's	PUNCT	_	_	15	punct	_	_
+17	por	por	ADP	_	_	18	case	_	_
+18	6	6	NUM	_	NumType=Card	13	obl	_	_
+19	a	a	ADP	_	_	20	case	_	_
+20	1	1	NUM	_	NumType=Card	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	_
+22	com	com	ADP	_	_	23	case	_	_
+23	gols	gol	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	Rafael	Rafael	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	23	nmod	_	_
+26	Silva	Silva	PROPN	_	Number=Sing	25	flat:name	_	_
+27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
+28	3	3	NUM	_	NumType=Card	25	parataxis	_	SpaceAfter=No
+29	)	)	PUNCT	_	_	28	punct	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	31	punct	_	_
+31	Juliano	Juliano	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	25	conj	_	_
+32	Tamya	Tamya	PROPN	_	Number=Sing	31	flat:name	_	_
+33	(2	(2	NUM	_	NumType=Card	31	flat:name	_	SpaceAfter=No
+34	)	)	PUNCT	_	_	31	punct	_	_
+35	e	e	CCONJ	_	_	36	cc	_	_
+36	Serginho	Serginho	PROPN	_	Gender=Masc|Number=Sing	25	conj	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
 

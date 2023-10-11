@@ -1,32 +1,36 @@
-# sent_id = train-s7186
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Assim como Ricardo Ferraço, ele questionou o fato de Demóstenes ter convivido durante tanto tempo com Cachoeira sem saber das atividades ilícitas dele.
-1	Assim	assim	ADV	ADV	_	3	case	_	_
-2	como	_	ADP	ADP	_	1	fixed	_	_
-3	Ricardo	_	PROPN	PNOUN	_	7	nmod	_	_
-4	Ferraço	_	PROPN	PNOUN	_	3	flat	_	SpaceAfter=No
-5	,	,	PUNCT	.	_	3	punct	_	_
-6	ele	_	PRON	PRON	_	7	nsubj	_	_
-7	questionou	questionar	VERB	VERB	_	0	root	_	_
-8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	fato	fato	NOUN	NOUN	_	7	obj	_	_
-10	de	_	ADP	ADP	_	13	mark	_	_
-11	Demóstenes	_	PROPN	PNOUN	_	13	nsubj	_	_
-12	ter	ter	AUX	AUX	_	13	aux	_	_
-13	convivido	conviver	VERB	VERB	_	9	nmod	_	_
-14	durante	_	ADP	ADP	_	16	case	_	_
-15	tanto	_	DET	DET	_	16	det	_	_
-16	tempo	tempo	NOUN	NOUN	_	13	nmod	_	_
-17	com	com	ADP	ADP	_	18	case	_	_
-18	Cachoeira	_	PROPN	PNOUN	_	13	nmod	_	_
-19	sem	_	CCONJ	CONJ	_	20	mark	_	_
-20	saber	saber	VERB	VERB	_	13	advcl	_	_
+# sent_id = train-s7186
+1	Assim	assim	ADV	_	_	3	mark	_	_
+2	como	como	ADP	_	_	1	fixed	_	_
+3	Ricardo	Ricardo	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	7	obl	_	_
+4	Ferraço	Ferraço	PROPN	_	Number=Sing	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	questionou	questionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	fato	fato	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	de	de	SCONJ	_	_	13	mark	_	_
+11	Demóstenes	Demóstenes	PROPN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+12	ter	ter	AUX	_	Number=Sing|Person=3|VerbForm=Inf	13	aux	_	_
+13	convivido	conviver	VERB	_	VerbForm=Part	9	acl	_	_
+14	durante	durante	ADP	_	_	16	case	_	_
+15	tanto	tanto	DET	_	Gender=Masc|Number=Sing|PronType=Ind	16	det	_	_
+16	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+17	com	com	ADP	_	_	18	case	_	_
+18	Cachoeira	Cachoeira	PROPN	_	Gender=Fem|Number=Sing	13	obl	_	_
+19	sem	sem	SCONJ	_	_	20	mark	_	_
+20	saber	saber	VERB	_	VerbForm=Inf	13	advcl	_	_
 21-22	das	_	_	_	_	_	_	_	_
-21	de	de	ADP	ADP	_	23	case	_	_
-22	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
-23	atividades	atividade	NOUN	NOUN	_	20	nmod	_	_
-24	ilícitas	ilícito	ADJ	ADJ	_	23	amod	_	_
-25	dele	_	X	ADPPRON	_	23	det:poss	_	SpaceAfter=No
-26	.	.	PUNCT	.	_	7	punct	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	atividades	atividade	NOUN	_	Gender=Fem|Number=Plur	20	obj	_	_
+24	ilícitas	ilícito	ADJ	_	Gender=Fem|Number=Plur	23	amod	_	_
+25-26	dele	_	_	_	_	_	_	_	SpaceAfter=No
+25	de	de	ADP	_	_	26	case	_	_
+26	ele	ele	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nmod	_	_
+27	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
 # sent_id = train-s7187
 # text = Situações são apontadas como a de profissionais que são usuários contumazes de drogas e expõem a advocacia a situação vexatória no ambiente de trabalho, e a de advogados que causam problemas na comunidade.
@@ -70,47 +74,55 @@
 36	comunidade	comunidade	NOUN	NOUN	_	33	nmod	_	SpaceAfter=No
 37	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s7188
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = A categoria masculina terá competição Body Muscle até 1,75 m e acima de 1,75 m, além da competição entre atletas Senior de 70kg, 75kg, 80kg, 85kg, 90kg e acima de 90kg.
-1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	categoria	categoria	NOUN	NOUN	_	4	nsubj	_	_
-3	masculina	masculino	ADJ	ADJ	_	2	amod	_	_
-4	terá	ter	VERB	VERB	_	0	root	_	_
-5	competição	competição	NOUN	NOUN	_	4	obj	_	_
-6	Body	_	PROPN	PNOUN	_	5	appos	_	_
-7	Muscle	_	PROPN	PNOUN	_	6	flat	_	_
-8	até	até	ADV	ADV	_	9	advmod	_	_
-9	1,75	1,75	NUM	NUM	NumType=Card	10	nummod	_	_
-10	m	m	NOUN	NOUN	_	5	appos	_	_
-11	e	e	CCONJ	CONJ	_	15	cc	_	_
-12	acima	acima	ADV	ADV	_	14	advmod	_	_
-13	de	de	ADP	ADP	_	12	case	_	_
-14	1,75	1,75	NUM	NUM	NumType=Card	15	nummod	_	_
-15	m	m	NOUN	NOUN	_	10	conj	_	SpaceAfter=No
-16	,	,	PUNCT	.	_	17	punct	_	_
-17	além	além	ADV	ADV	_	4	advmod	_	_
+# sent_id = train-s7188
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	categoria	categoria	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	masculina	masculino	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	terá	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	competição	competição	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+6	Body	Body	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	5	appos	_	_
+7	Muscle	Muscle	PROPN	_	Number=Sing	6	flat:name	_	_
+8	até	até	ADP	_	_	10	case	_	_
+9	1,75	1,75	NUM	_	NumType=Card	10	nummod	_	_
+10	m	m	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	_
+11	e	e	CCONJ	_	_	15	cc	_	_
+12	acima	acima	ADV	_	_	10	conj	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	1,75	1,75	NUM	_	NumType=Card	15	nummod	_	_
+15	m	m	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	20	punct	_	_
+17	além	além	ADV	_	_	20	cc	_	_
 18-19	da	_	_	_	_	_	_	_	_
-18	de	de	ADP	ADP	_	20	case	_	_
-19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	competição	competição	NOUN	NOUN	_	17	nmod	_	_
-21	entre	_	ADP	ADP	_	22	case	_	_
-22	atletas	atleta	NOUN	NOUN	_	20	nmod	_	_
-23	Senior	_	ADJ	ADJ	_	22	amod	_	_
-24	de	de	ADP	ADP	_	27	case	_	_
-25	70kg	_	NUM	NUM	NumType=Card	37	case	_	SpaceAfter=No
-26	,	,	PUNCT	.	_	27	punct	_	_
-27	75kg	_	NUM	NUM	NumType=Card	22	nmod	_	SpaceAfter=No
-28	,	,	PUNCT	.	_	29	punct	_	_
-29	80kg	_	NUM	NUM	NumType=Card	27	conj	_	SpaceAfter=No
-30	,	,	PUNCT	.	_	31	punct	_	_
-31	85kg	_	NUM	NUM	NumType=Card	27	conj	_	SpaceAfter=No
-32	,	,	PUNCT	.	_	33	punct	_	_
-33	90kg	_	NUM	NUM	NumType=Card	27	conj	_	_
-34	e	e	CCONJ	CONJ	_	37	cc	_	_
-35	acima	acima	ADV	ADV	_	37	advmod	_	_
-36	de	de	ADP	ADP	_	35	case	_	_
-37	90kg	_	NUM	NUM	NumType=Card	27	conj	_	SpaceAfter=No
-38	.	.	PUNCT	.	_	4	punct	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	competição	competição	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
+21	entre	entre	ADP	_	_	22	case	_	_
+22	atletas	atleta	NOUN	_	Gender=Masc|Number=Plur	20	nmod	_	_
+23	Senior	senior	ADJ	_	Gender=Masc|Number=Plur	22	amod	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	70	70	NUM	_	NumType=Card	26	nummod	_	SpaceAfter=No
+26	kg	kg	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	29	punct	_	_
+28	75	75	NUM	_	NumType=Card	29	nummod	_	SpaceAfter=No
+29	kg	kg	NOUN	_	Gender=Masc|Number=Plur	26	conj	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	32	punct	_	_
+31	80	80	NUM	_	NumType=Card	32	nummod	_	SpaceAfter=No
+32	kg	kg	NOUN	_	Gender=Masc|Number=Plur	26	conj	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	35	punct	_	_
+34	85	85	NUM	_	NumType=Card	35	nummod	_	SpaceAfter=No
+35	kg	kg	NOUN	_	Gender=Masc|Number=Plur	26	conj	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	38	punct	_	_
+37	90	90	NUM	_	NumType=Card	38	nummod	_	SpaceAfter=No
+38	kg	kg	NOUN	_	Gender=Masc|Number=Plur	26	conj	_	_
+39	e	e	CCONJ	_	_	40	cc	_	_
+40	acima	acima	ADV	_	_	26	conj	_	_
+41	de	de	ADP	_	_	43	case	_	_
+42	90	90	NUM	_	NumType=Card	43	nummod	_	SpaceAfter=No
+43	kg	kg	NOUN	_	Gender=Masc|Number=Plur	40	obl	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # sent_id = train-s7189
 # text = Ela tem 31 anos e é uma mulher de classe média que vira garota de programa por opção e convida as outras meninas para começarem "o negócio".

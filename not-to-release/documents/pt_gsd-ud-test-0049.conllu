@@ -63,38 +63,40 @@
 22	participantes	participante	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	13	punct	_	_
 
-# sent_id = test-s480
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = No entanto, o produtor deixou claro que a intenção da Marvel é colocar seus personagens juntos na tela nos Vingadores.
+# sent_id = test-s480
 1-2	No	_	_	_	_	_	_	_	_
-1	Em	em	ADP	ADP	_	3	case	_	_
-2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	entanto	entanto	ADV	ADV	_	7	nmod	_	SpaceAfter=No
-4	,	,	PUNCT	.	_	3	punct	_	_
-5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	produtor	produtor	NOUN	NOUN	_	7	nsubj	_	_
-7	deixou	deixar	VERB	VERB	_	0	root	_	_
-8	claro	claro	ADJ	ADJ	_	7	xcomp	_	_
-9	que	que	CCONJ	CONJ	_	11	mark	_	_
-10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	intenção	intenção	NOUN	NOUN	_	7	ccomp	_	_
+1	Em	em	ADP	_	ExtPos=CCONJ	7	cc	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
+3	entanto	entanto	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	produtor	produtor	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	deixou	deixar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	claro	claro	ADV	_	_	7	advmod	_	_
+9	que	que	SCONJ	_	_	16	mark	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	intenção	intenção	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
 12-13	da	_	_	_	_	_	_	_	_
-12	de	de	ADP	ADP	_	14	case	_	_
-13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	Marvel	_	PROPN	PNOUN	_	11	nmod	_	_
-15	é	ser	AUX	AUX	_	11	cop	_	_
-16	colocar	colocar	VERB	VERB	_	11	csubj	_	_
-17	seus	_	DET	DET	_	18	det:poss	_	_
-18	personagens	personagem	NOUN	NOUN	_	19	nsubj	_	_
-19	juntos	junto	ADJ	ADJ	_	16	xcomp	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Marvel	Marvel	PROPN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+15	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	colocar	colocar	VERB	_	VerbForm=Inf	7	ccomp	_	_
+17	seus	seu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	18	det	_	_
+18	personagens	personagem	NOUN	_	Gender=Masc|Number=Plur	16	obj	_	_
+19	juntos	junto	ADV	_	Gender=Masc|Number=Plur	18	amod	_	_
 20-21	na	_	_	_	_	_	_	_	_
-20	em	em	ADP	ADP	_	22	case	_	_
-21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	tela	tela	NOUN	NOUN	_	19	nmod	_	_
+20	em	em	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	tela	tela	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
 23-24	nos	_	_	_	_	_	_	_	_
-23	em	em	ADP	ADP	_	25	case	_	_
-24	Os	_	PROPN	PNOUN	_	25	det	_	_
-25	Vingadores	_	PROPN	PNOUN	_	19	nmod	_	SpaceAfter=No
-26	.	.	PUNCT	.	_	7	punct	_	_
+23	em	em	ADP	_	_	25	case	_	_
+24	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	Vingadores	vingador	PROPN	_	Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
 # sent_id = test-s481
 # text = A ministra Ideli Salvatti (Relações Institucionais) despachou da liderança do governo na Câmara para tentar vencer as resistências.
