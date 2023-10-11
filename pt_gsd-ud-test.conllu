@@ -6450,9 +6450,9 @@
 # text = -- Hoje em dia está melhor do que antigamente, até pelas câmeras e pela cobrança da imprensa, mas sempre usam aquela catimba.
 # sent_id = test-s204
 1	--	--	PUNCT	_	_	6	punct	_	_
-2	Hoje	hoje	ADV	_	ExtPos=ADV	6	advmod	_	_
+2	Hoje	hoje	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
 3	em	em	ADP	_	_	4	case	_	_
-4	dia	dia	NOUN	_	Gender=Masc|Number=Sing	2	fixed	_	_
+4	dia	dia	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 5	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 6	melhor	melhor	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 7-8	do	_	_	_	_	_	_	_	_
@@ -6626,11 +6626,11 @@
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = "Em 1970, mais ou menos, a área começou a ter um pouco de notoriedade e comecei a dar uma olhada e ver o que a TI fazia.
 # sent_id = test-s209
-1	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+1	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
 2	Em	em	ADP	_	_	3	case	_	_
-3	1970	1970	NUM	_	NumType=Card	13	obl	_	SpaceAfter=No
+3	1970	1970	NUM	_	NumType=Card	11	obl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	mais	mais	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+5	mais	mais	NOUN	_	Gender=Masc|Number=Sing	3	appos	_	_
 6	ou	ou	ADP	_	_	7	case	_	_
 7	menos	menos	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
@@ -6643,7 +6643,7 @@
 15	pouco	pouco	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
 16	de	de	ADP	_	_	17	case	_	_
 17	notoriedade	notoriedade	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
-18	e	e	CCONJ	_	_	21	cc	_	_
+18	e	e	CCONJ	_	_	19	cc	_	_
 19	comecei	começar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	13	conj	_	_
 20	a	a	SCONJ	_	_	21	mark	_	_
 21	dar	dar	VERB	_	VerbForm=Inf	19	xcomp	_	_
@@ -6656,7 +6656,7 @@
 28	a	ela	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	TI	ti	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
 30	fazia	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	acl:relcl	_	SpaceAfter=No
-31	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
 
 # sent_id = test-s210
 # text = Salvador A participação da presidente Dilma Rousseff em campanhas de candidatos do PT em capitais onde há disputa com partidos da base aliada do governo federal provocou "mal - estar e estranheza em todo o PMDB nacional", segundo o presidente do partido na Bahia, deputado federal Lúcio Vieira Lima.
@@ -12317,8 +12317,10 @@
 
 # udpipe_model = portuguese-bosque-ud-2.12-230717
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# text = Ganhou a primeira dica na Flórida: "Então, uma noite, sentado e olhando através da baía enquanto estacionado em Key Largo e perguntando o que eu deveria estar fazendo, automaticamente escrevi num pedaço de papel, 'me tornar uma carga oposta", diz ele no livro.
 # sent_id = test-s400
+# text = Ganhou a primeira dica na Flórida: "Então, uma noite, sentado e olhando através da baía enquanto estacionado em Key Largo e perguntando o que eu deveria estar fazendo, automaticamente escrevi num pedaço de papel, 'me tornar uma carga oposta", diz ele no livro.
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-bosque-ud-2.12-230717
 1	Ganhou	ganhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	52	parataxis	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
@@ -13031,8 +13033,10 @@
 
 # udpipe_model = portuguese-bosque-ud-2.12-230717
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# text = O canal, no trecho lagunar sul, além de estreito, possui vinte e duas ilhotas, sem contar a do Linguado (às vezes denominada João Dias), que é a maior em todo o braço de mar, com quatro quilômetros de comprimento.
 # sent_id = test-s421
+# text = O canal, no trecho lagunar sul, além de estreito, possui vinte e duas ilhotas, sem contar a do Linguado (às vezes denominada João Dias), que é a maior em todo o braço de mar, com quatro quilômetros de comprimento.
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-bosque-ud-2.12-230717
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	canal	canal	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	_
@@ -14256,8 +14260,10 @@
 
 # udpipe_model = portuguese-bosque-ud-2.12-230717
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# text = Então proprietário da Kuarup Discos, que encerrou as atividades em 2009, Mário de Aratanha captou, em plenos anos 1980, o potencial da música regional que, se não vende milhares de cópias, como continuam querendo as combalidas gravadoras, consegue reunir centenas, e às vezes, milhares de pessoas, em concertos e shows.
 # sent_id = test-s460
+# text = Então proprietário da Kuarup Discos, que encerrou as atividades em 2009, Mário de Aratanha captou, em plenos anos 1980, o potencial da música regional que, se não vende milhares de cópias, como continuam querendo as combalidas gravadoras, consegue reunir centenas, e às vezes, milhares de pessoas, em concertos e shows.
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-bosque-ud-2.12-230717
 1	Então	então	ADV	_	_	2	advmod	_	_
 2	proprietário	proprietário	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -15608,8 +15614,10 @@
 
 # udpipe_model = portuguese-bosque-ud-2.12-230717
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# text = Gravado no Pavilhão de Exposições do Complexo do Anhembi, em São Paulo, o show, com direção do cantor Ney Matogrosso, traz grandes sucessos, como Revoluções Por Minuto, Rádio Pirata, Olhar 43 e as então inéditas Naja (instrumental baseado nos teclados de Luiz Schiavon) e Alvorada Voraz, além das regravações de London, London (de Caetano Veloso) e de Flores Astrais (do grupo Secos &amp; Molhados, do qual Ney Matogrosso fez parte).
 # sent_id = test-s502
+# text = Gravado no Pavilhão de Exposições do Complexo do Anhembi, em São Paulo, o show, com direção do cantor Ney Matogrosso, traz grandes sucessos, como Revoluções Por Minuto, Rádio Pirata, Olhar 43 e as então inéditas Naja (instrumental baseado nos teclados de Luiz Schiavon) e Alvorada Voraz, além das regravações de London, London (de Caetano Veloso) e de Flores Astrais (do grupo Secos &amp; Molhados, do qual Ney Matogrosso fez parte).
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-bosque-ud-2.12-230717
 1	Gravado	gravar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	19	acl	_	_
 2-3	no	_	_	_	_	_	_	_	_
 2	em	em	ADP	_	_	4	case	_	_
@@ -19980,8 +19988,10 @@
 
 # udpipe_model = portuguese-bosque-ud-2.12-230717
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# text = Primeiro veio o (goleiro) Rafael, o (lateral - esquerdo) Léo, todo mundo veio me cumprimentar.
 # sent_id = test-s638
+# text = Primeiro veio o (goleiro) Rafael, o (lateral - esquerdo) Léo, todo mundo veio me cumprimentar.
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-bosque-ud-2.12-230717
 1	Primeiro	primeiro	ADV	_	_	2	advmod	_	_
 2	veio	vir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -24867,8 +24877,10 @@
 
 # udpipe_model = portuguese-bosque-ud-2.12-230717
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# text = Focam o desafio de levar algo novo (ou diferente) ao mercado.
 # sent_id = test-s783
+# text = Focam o desafio de levar algo novo (ou diferente) ao mercado.
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-bosque-ud-2.12-230717
 1	Focam	focar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	desafio	desafio	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
@@ -25252,8 +25264,10 @@
 
 # udpipe_model = portuguese-bosque-ud-2.12-230717
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# text = Com o término das festividades, a Comissão de japoneses deveria ser dissolvida, mas revelando-se a união conseguida, resolveu criar-se uma entidade representativa, que mais tarde passou a ser denominada de Sociedade Brasileira de Cultura Japonesa.
 # sent_id = test-s798
+# text = Com o término das festividades, a Comissão de japoneses deveria ser dissolvida, mas revelando-se a união conseguida, resolveu criar-se uma entidade representativa, que mais tarde passou a ser denominada de Sociedade Brasileira de Cultura Japonesa.
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-bosque-ud-2.12-230717
 1	Com	com	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	término	término	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
@@ -25507,8 +25521,10 @@
 
 # udpipe_model = portuguese-bosque-ud-2.12-230717
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# text = "Como estão as coisas, eu não posso deixar de receber nem um dia sequer.
 # sent_id = test-s806
+# text = "Como estão as coisas, eu não posso deixar de receber nem um dia sequer.
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-bosque-ud-2.12-230717
 1	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
 2	Como	como	ADV	_	_	3	advmod	_	_
 3	estão	estar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
@@ -31072,8 +31088,10 @@
 
 # udpipe_model = portuguese-bosque-ud-2.12-230717
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# text = Em resposta, o tucano afirmou que o petista "está seguindo as lições" do ex - ministro da Casa Civil José Dirceu, condenado pelo Supremo Tribunal Federal na terça - feira, pelo crime de corrupção ativa.
 # sent_id = test-s990
+# text = Em resposta, o tucano afirmou que o petista "está seguindo as lições" do ex - ministro da Casa Civil José Dirceu, condenado pelo Supremo Tribunal Federal na terça - feira, pelo crime de corrupção ativa.
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-bosque-ud-2.12-230717
 1	Em	em	ADP	_	_	2	case	_	_
 2	resposta	resposta	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -36969,8 +36987,10 @@
 
 # udpipe_model = portuguese-bosque-ud-2.12-230717
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# text = Aos quatro minutos, a África do Sul voltou a assustar, quando Parker dominou pela direita, driblou David Luiz e cruzou da linha de fundo para Dedé quase marcar contra.
 # sent_id = test-s1183
+# text = Aos quatro minutos, a África do Sul voltou a assustar, quando Parker dominou pela direita, driblou David Luiz e cruzou da linha de fundo para Dedé quase marcar contra.
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-bosque-ud-2.12-230717
 1-2	Aos	_	_	_	_	_	_	_	_
 1	A	a	ADP	_	_	4	case	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_

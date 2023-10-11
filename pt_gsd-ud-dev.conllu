@@ -13308,7 +13308,7 @@
 9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	Monte	Monte	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	7	obl	_	_
 11	Arafat	Arafat	PROPN	_	Number=Sing	10	flat:name	_	SpaceAfter=No
-12	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	18	punct	_	_
 14	onde	onde	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	18	obl	_	_
 15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
@@ -15993,8 +15993,8 @@
 32	como	como	SCONJ	_	_	33	mark	_	_
 33	ver	ver	VERB	_	VerbForm=Inf	29	advcl	_	_
 34	crescer	crescer	VERB	_	VerbForm=Inf	33	xcomp	_	_
-35	sãos	são	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	36	cop	_	_
-36	cada	cada	DET	_	Gender=Masc|Number=Sing	33	nsubj	_	_
+35	sãos	são	ADJ	_	Gender=Masc|Number=Plur	36	amod	_	_
+36	cada	cada	DET	_	Gender=Masc|Number=Sing	34	nsubj	_	ExtPos=NOUN
 37	um	um	NUM	_	NumType=Card	36	fixed	_	_
 38-39	dos	_	_	_	_	_	_	_	_
 38	de	de	ADP	_	_	41	case	_	_
@@ -18848,7 +18848,7 @@
 13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	livro	livro	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
 15	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
-16	Vá	Vá	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+16	Vá	ir	AUX	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	18	aux	_	_
 17	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	expl	_	_
 18	drenar	drenar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	14	acl:relcl	_	SpaceAfter=No
 19	!	!	PUNCT	_	_	12	punct	_	SpaceAfter=No
@@ -19141,8 +19141,10 @@
 
 # udpipe_model = portuguese-bosque-ud-2.12-230717
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# text = O coevento principal destaca o britânico Dan Hardy, que luta em sua cidade e terá a torcida completamente a seu favor, contra Amir Sadollah, ex - campeão do reality show "The Ultimate Fighter".
 # sent_id = dev-s587
+# text = O coevento principal destaca o britânico Dan Hardy, que luta em sua cidade e terá a torcida completamente a seu favor, contra Amir Sadollah, ex-campeão do reality show "The Ultimate Fighter".
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-bosque-ud-2.12-230717
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	coevento	coevento	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	principal	principal	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -19169,21 +19171,19 @@
 24	contra	contra	ADP	_	_	25	case	_	_
 25	Amir	Amir	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	16	obl	_	_
 26	Sadollah	Sadollah	PROPN	_	Number=Sing	25	flat:name	_	SpaceAfter=No
-27	,	,	PUNCT	_	_	30	punct	_	_
-28	ex	ex	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
-29	-	-	PUNCT	_	_	28	punct	_	_
-30	campeão	campeão	NOUN	_	Gender=Masc|Number=Sing	25	appos	_	_
-31-32	do	_	_	_	_	_	_	_	_
-31	de	de	ADP	_	_	33	case	_	_
-32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
-33	reality	reality	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	_
-34	show	show	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	_
-35	"	"	PUNCT	_	_	36	punct	_	SpaceAfter=No
-36	The	The	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	33	appos	_	_
-37	Ultimate	Ultimate	PROPN	_	Number=Sing	36	flat:name	_	_
-38	Fighter	Fighter	PROPN	_	Number=Sing	36	flat:name	_	SpaceAfter=No
-39	"	"	PUNCT	_	_	36	punct	_	SpaceAfter=No
-40	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	28	punct	_	_
+28	ex-campeão	ex-campeão	NOUN	_	Gender=Masc|Number=Sing	25	appos	_	_
+29-30	do	_	_	_	_	_	_	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	reality	reality	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
+32	show	show	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	_
+33	"	"	PUNCT	_	_	34	punct	_	SpaceAfter=No
+34	The	The	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	31	appos	_	_
+35	Ultimate	Ultimate	PROPN	_	Number=Sing	34	flat:name	_	_
+36	Fighter	Fighter	PROPN	_	Number=Sing	34	flat:name	_	SpaceAfter=No
+37	"	"	PUNCT	_	_	34	punct	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
 
 # sent_id = dev-s588
 # text = A delegação gremista deixou o Rio de Janeiro e foi direto para a concentração.
@@ -20330,7 +20330,7 @@
 32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 33	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	34	amod	_	_
 34	etapa	etapa	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
-35	,	,	PUNCT	_	_	5	punct	_	_
+35	,	,	PUNCT	_	_	37	punct	_	_
 36	por	por	ADP	_	_	37	case	_	_
 37	outro	outro	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	43	obl	_	SpaceAfter=No
 38	,	,	PUNCT	_	_	37	punct	_	_
@@ -22423,49 +22423,47 @@
 
 # udpipe_model = portuguese-bosque-ud-2.12-230717
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# text = Escreveu os livros "Com Esperança no Coração: Os Imigrantes Brasileiros nos Estados Unidos", "Sabor de Mar" e "Pelé" (Official Biography, Simon &amp; Schuster).
+# text = Escreveu os livros "Com Esperança no Coração: Os Imigrantes Brasileiros nos Estados Unidos", "Sabor de Mar" e "Pelé" (Official Biography, Simon & Schuster).
 # sent_id = dev-s688
 1	Escreveu	escrever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	livros	livro	NOUN	_	Gender=Masc|Number=Plur	1	obj	_	_
-4	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
-5	Com	Com	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	3	appos	_	_
-6	Esperança	Esperança	PROPN	_	Number=Sing	5	flat:name	_	_
+4	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+5	Com	com	ADP	_	_	6	case	_	_
+6	Esperança	esperança	NOUN	_	Gender=Fem|Number=Sing	3	appos	_	_
 7-8	no	_	_	_	_	_	_	_	_
 7	em	em	ADP	_	_	9	case	_	_
 8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	Coração	Coração	PROPN	_	Number=Sing	5	nmod	_	SpaceAfter=No
-10	:	:	PUNCT	_	_	5	punct	_	_
-11	Os	Os	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	appos	_	_
-12	Imigrantes	Imigrantes	PROPN	_	Number=Sing	5	flat:name	_	_
-13	Brasileiros	Brasileiros	PROPN	_	Number=Sing	11	flat:name	_	_
+9	Coração	coração	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	12	punct	_	_
+11	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	Imigrantes	imigrante	NOUN	_	Gender=Masc|Number=Plur	9	appos	_	_
+13	Brasileiros	brasileiro	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	_
 14-15	nos	_	_	_	_	_	_	_	_
 14	em	em	ADP	_	_	16	case	_	_
 15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
-16	Estados	Estados	PROPN	_	Gender=Masc|Number=Plur	11	nmod	_	_
+16	Estados	Estados	PROPN	_	Gender=Masc|Number=Plur	12	nmod	_	_
 17	Unidos	Unidos	PROPN	_	Number=Sing	16	flat:name	_	SpaceAfter=No
-18	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+18	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	21	punct	_	_
 20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
-21	Sabor	Sabor	PROPN	_	Gender=Masc|Number=Sing	5	conj	_	_
+21	Sabor	Sabor	PROPN	_	Gender=Masc|Number=Sing	6	conj	_	_
 22	de	de	ADP	_	_	23	case	_	_
 23	Mar	Mar	PROPN	_	Number=Sing	21	nmod	_	SpaceAfter=No
 24	"	"	PUNCT	_	_	21	punct	_	_
 25	e	e	CCONJ	_	_	27	cc	_	_
 26	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
-27	Pelé	Pelé	PROPN	_	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+27	Pelé	Pelé	PROPN	_	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
 28	"	"	PUNCT	_	_	27	punct	_	_
 29	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
 30	Official	Official	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	27	parataxis	_	_
 31	Biography	Biography	PROPN	_	Number=Sing	30	flat:name	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	33	punct	_	_
-33	Simon	Simon	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	30	appos	_	_
-34	&	&	PROPN	_	Number=Sing	33	flat:name	_	SpaceAfter=No
-35	amp	amp	PROPN	_	Number=Sing	33	flat:name	_	SpaceAfter=No
-36	;	;	PUNCT	_	_	37	punct	_	_
-37	Schuster	Schuster	PROPN	_	Gender=Masc|Number=Sing	30	conj	_	SpaceAfter=No
-38	)	)	PUNCT	_	_	30	punct	_	SpaceAfter=No
-39	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
+33	Simon	Simon	PROPN	_	Gender=Masc|Number=Sing	30	appos	_	_
+34	&	&	CCONJ	_	_	35	cc	_	_
+35	Schuster	Schuster	PROPN	_	Gender=Masc|Number=Sing	33	conj	_	SpaceAfter=No
+36	)	)	PUNCT	_	_	30	punct	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = dev-s689
 # text = Embora algumas petições legais acusando Shafik de corrupção foram apresentadas em abril, "não há absolutamente nenhuma processo judicial pendentes contra meu cliente", disse Elsayed.
@@ -24267,150 +24265,146 @@
 
 # udpipe_model = portuguese-bosque-ud-2.12-230717
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# text = Planetas extrassolares que possuem mais de 50 vezes a massa do planeta Júpiter (planeta) Júpiter, os super - Júpiteres são planetas gigantes gasosos cujo estado do gás que o compõe é semelhante ao estado do gás das estrelas anãs marrons (isto é, gás comprimido, devido à própria massa do planeta e consequentemente devido ao campo gravitacional do gigante de gás que exerce compressão sobre os átomos e moléculas do gás que compõe o planeta, de modo a exercer pressão no interior que aproxima os núcleos atômicos e as nuvens eletrônicas do gás, fazendo com que haja destruição parcial de núcleos atômicos, processo esse que gera radiação eletromagnética).
 # sent_id = dev-s756
-1	Planetas	planeta	NOUN	_	Gender=Masc|Number=Plur	25	nsubj	_	_
+# text = Planetas extrassolares que possuem mais de 50 vezes a massa do (planeta) Júpiter, os super-Júpiteres são planetas gigantes gasosos cujo estado do gás que o compõe é semelhante ao estado do gás das estrelas anãs marrons (isto é, gás comprimido, devido à própria massa do planeta e consequentemente devido ao campo gravitacional do gigante de gás que exerce compressão sobre os átomos e moléculas do gás que compõe o planeta, de modo a exercer pressão no interior que aproxima os núcleos atômicos e as nuvens eletrônicas do gás, fazendo com que haja destruição parcial de núcleos atômicos, processo esse que gera radiação eletromagnética).
+1	Planetas	planeta	NOUN	_	Gender=Masc|Number=Plur	21	nsubj	_	_
 2	extrassolares	extrassolar	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 3	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	4	nsubj	_	_
 4	possuem	possuir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
-5	mais	mais	ADV	_	_	7	advmod	_	_
+5	mais	mais	ADV	_	_	8	advmod	_	_
 6	de	de	ADP	_	_	5	fixed	_	_
 7	50	50	NUM	_	NumType=Card	8	nummod	_	_
 8	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
 9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	massa	massa	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
 11-12	do	_	_	_	_	_	_	_	_
-11	de	de	ADP	_	_	13	case	_	_
-12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	planeta	planeta	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
-14	Júpiter	Júpiter	PROPN	_	Gender=Masc|Number=Sing	13	appos	_	_
-15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
-16	planeta	planeta	NOUN	_	Gender=Masc|Number=Sing	13	appos	_	SpaceAfter=No
-17	)	)	PUNCT	_	_	16	punct	_	_
-18	Júpiter	Júpiter	PROPN	_	Gender=Masc|Number=Sing	13	appos	_	SpaceAfter=No
-19	,	,	PUNCT	_	_	21	punct	_	_
-20	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
-21	super	super	NOUN	_	Gender=Masc|Number=Plur	25	nsubj	_	_
-22	-	-	PUNCT	_	_	23	punct	_	_
-23	Júpiteres	Júpiteres	PROPN	_	Gender=Masc|Number=Plur	25	nsubj	_	_
-24	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
-25	planetas	planeta	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
-26	gigantes	gigante	ADJ	_	Gender=Masc|Number=Plur	25	amod	_	_
-27	gasosos	gasoso	ADJ	_	Gender=Masc|Number=Plur	25	amod	_	_
-28	cujo	cujo	DET	_	Gender=Masc|Number=Sing|PronType=Rel	29	det	_	_
-29	estado	estado	NOUN	_	Gender=Masc|Number=Sing	37	nsubj	_	_
-30-31	do	_	_	_	_	_	_	_	_
-30	de	de	ADP	_	_	32	case	_	_
-31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
-32	gás	gás	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
-33	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	35	nsubj	_	_
-34	o	ele	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	obj	_	_
-35	compõe	compor	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	_
-36	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	cop	_	_
-37	semelhante	semelhante	ADJ	_	Gender=Masc|Number=Sing	25	acl:relcl	_	_
-38-39	ao	_	_	_	_	_	_	_	_
-38	a	a	ADP	_	_	40	case	_	_
-39	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
-40	estado	estado	NOUN	_	Gender=Masc|Number=Sing	37	obl	_	_
-41-42	do	_	_	_	_	_	_	_	_
-41	de	de	ADP	_	_	43	case	_	_
-42	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
-43	gás	gás	NOUN	_	Gender=Masc|Number=Sing	40	nmod	_	_
-44-45	das	_	_	_	_	_	_	_	_
-44	de	de	ADP	_	_	46	case	_	_
-45	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	46	det	_	_
-46	estrelas	estrela	NOUN	_	Gender=Fem|Number=Plur	43	nmod	_	_
-47	anãs	anã	NOUN	_	Gender=Fem|Number=Plur	46	nmod	_	_
-48	marrons	marron	ADJ	_	Gender=Fem|Number=Plur	46	amod	_	_
-49	(	(	PUNCT	_	_	53	punct	_	SpaceAfter=No
-50	isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	53	cc	_	_
-51	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	fixed	_	SpaceAfter=No
-52	,	,	PUNCT	_	_	53	punct	_	_
-53	gás	gás	NOUN	_	Gender=Masc|Number=Sing	40	appos	_	_
-54	comprimido	comprimir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	53	acl	_	SpaceAfter=No
-55	,	,	PUNCT	_	_	56	punct	_	_
-56	devido	devido	ADV	_	_	53	advmod	_	_
-57-58	à	_	_	_	_	_	_	_	_
-57	a	a	ADP	_	_	60	case	_	_
-58	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	60	det	_	_
-59	própria	próprio	DET	_	Gender=Fem|Number=Sing|PronType=Emp	60	det	_	_
-60	massa	massa	NOUN	_	Gender=Fem|Number=Sing	56	obl	_	_
-61-62	do	_	_	_	_	_	_	_	_
-61	de	de	ADP	_	_	63	case	_	_
-62	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	63	det	_	_
-63	planeta	planeta	NOUN	_	Gender=Masc|Number=Sing	60	nmod	_	_
-64	e	e	CCONJ	_	_	69	cc	_	_
-65	consequentemente	consequentemente	ADV	_	_	69	advmod	_	_
-66	devido	devido	ADV	_	_	69	case	_	_
-67-68	ao	_	_	_	_	_	_	_	_
-67	a	a	ADP	_	_	69	case	_	_
+11	de	de	ADP	_	_	14	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	planeta	planeta	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	_
+16	Júpiter	Júpiter	PROPN	_	Gender=Masc|Number=Sing	14	appos	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	4	punct	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	super-Júpiteres	super-júpiter	NOUN	_	Gender=Masc|Number=Plur	21	nsubj	_	_
+20	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	planetas	planeta	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+22	gigantes	gigante	ADJ	_	Gender=Masc|Number=Plur	21	amod	_	_
+23	gasosos	gasoso	ADJ	_	Gender=Masc|Number=Plur	21	amod	_	_
+24	cujo	cujo	DET	_	Gender=Masc|Number=Sing|PronType=Rel	25	det	_	_
+25	estado	estado	NOUN	_	Gender=Masc|Number=Sing	33	nsubj	_	_
+26-27	do	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	gás	gás	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
+29	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	31	nsubj	_	_
+30	o	ele	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	obj	_	_
+31	compõe	compor	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+32	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
+33	semelhante	semelhante	ADJ	_	Gender=Masc|Number=Sing	21	acl:relcl	_	_
+34-35	ao	_	_	_	_	_	_	_	_
+34	a	a	ADP	_	_	36	case	_	_
+35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	estado	estado	NOUN	_	Gender=Masc|Number=Sing	33	obl	_	_
+37-38	do	_	_	_	_	_	_	_	_
+37	de	de	ADP	_	_	39	case	_	_
+38	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	gás	gás	NOUN	_	Gender=Masc|Number=Sing	36	nmod	_	_
+40-41	das	_	_	_	_	_	_	_	_
+40	de	de	ADP	_	_	42	case	_	_
+41	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	42	det	_	_
+42	estrelas	estrela	NOUN	_	Gender=Fem|Number=Plur	39	nmod	_	_
+43	anãs	anã	NOUN	_	Gender=Fem|Number=Plur	42	nmod	_	_
+44	marrons	marron	ADJ	_	Gender=Fem|Number=Plur	42	amod	_	_
+45	(	(	PUNCT	_	_	49	punct	_	SpaceAfter=No
+46	isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	49	cc	_	_
+47	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	fixed	_	SpaceAfter=No
+48	,	,	PUNCT	_	_	49	punct	_	_
+49	gás	gás	NOUN	_	Gender=Masc|Number=Sing	36	appos	_	_
+50	comprimido	comprimir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	49	acl	_	SpaceAfter=No
+51	,	,	PUNCT	_	_	52	punct	_	_
+52	devido	devido	ADV	_	_	49	advmod	_	_
+53-54	à	_	_	_	_	_	_	_	_
+53	a	a	ADP	_	_	56	case	_	_
+54	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
+55	própria	próprio	DET	_	Gender=Fem|Number=Sing|PronType=Emp	56	det	_	_
+56	massa	massa	NOUN	_	Gender=Fem|Number=Sing	52	obl	_	_
+57-58	do	_	_	_	_	_	_	_	_
+57	de	de	ADP	_	_	59	case	_	_
+58	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
+59	planeta	planeta	NOUN	_	Gender=Masc|Number=Sing	56	nmod	_	_
+60	e	e	CCONJ	_	_	65	cc	_	_
+61	consequentemente	consequentemente	ADV	_	_	65	advmod	_	_
+62	devido	devido	ADV	_	_	65	case	_	_
+63-64	ao	_	_	_	_	_	_	_	_
+63	a	a	ADP	_	_	65	case	_	_
+64	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	65	det	_	_
+65	campo	campo	NOUN	_	Gender=Masc|Number=Sing	52	obl	_	_
+66	gravitacional	gravitacional	ADJ	_	Gender=Masc|Number=Sing	65	amod	_	_
+67-68	do	_	_	_	_	_	_	_	_
+67	de	de	ADP	_	_	69	case	_	_
 68	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	69	det	_	_
-69	campo	campo	NOUN	_	Gender=Masc|Number=Sing	56	obl	_	_
-70	gravitacional	gravitacional	ADJ	_	Gender=Masc|Number=Sing	69	amod	_	_
-71-72	do	_	_	_	_	_	_	_	_
-71	de	de	ADP	_	_	73	case	_	_
-72	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	73	det	_	_
-73	gigante	gigante	NOUN	_	Gender=Masc|Number=Sing	69	nmod	_	_
-74	de	de	ADP	_	_	75	case	_	_
-75	gás	gás	NOUN	_	Gender=Masc|Number=Sing	73	nmod	_	_
-76	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	77	nsubj	_	_
-77	exerce	exercer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	73	acl:relcl	_	_
-78	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	77	obj	_	_
-79	sobre	sobre	ADP	_	_	81	case	_	_
-80	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	81	det	_	_
-81	átomos	átomo	NOUN	_	Gender=Masc|Number=Plur	78	nmod	_	_
-82	e	e	CCONJ	_	_	83	cc	_	_
-83	moléculas	molécula	NOUN	_	Gender=Fem|Number=Plur	81	conj	_	_
-84-85	do	_	_	_	_	_	_	_	_
-84	de	de	ADP	_	_	86	case	_	_
+69	gigante	gigante	NOUN	_	Gender=Masc|Number=Sing	65	nmod	_	_
+70	de	de	ADP	_	_	71	case	_	_
+71	gás	gás	NOUN	_	Gender=Masc|Number=Sing	69	nmod	_	_
+72	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	73	nsubj	_	_
+73	exerce	exercer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	69	acl:relcl	_	_
+74	compressão	compressão	NOUN	_	Gender=Fem|Number=Sing	73	obj	_	_
+75	sobre	sobre	ADP	_	_	77	case	_	_
+76	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	77	det	_	_
+77	átomos	átomo	NOUN	_	Gender=Masc|Number=Plur	74	nmod	_	_
+78	e	e	CCONJ	_	_	79	cc	_	_
+79	moléculas	molécula	NOUN	_	Gender=Fem|Number=Plur	77	conj	_	_
+80-81	do	_	_	_	_	_	_	_	_
+80	de	de	ADP	_	_	82	case	_	_
+81	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	82	det	_	_
+82	gás	gás	NOUN	_	Gender=Masc|Number=Sing	79	nmod	_	_
+83	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	84	nsubj	_	_
+84	compõe	compor	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	69	acl:relcl	_	_
 85	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	86	det	_	_
-86	gás	gás	NOUN	_	Gender=Masc|Number=Sing	83	nmod	_	_
-87	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	88	nsubj	_	_
-88	compõe	compor	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	73	acl:relcl	_	_
-89	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	90	det	_	_
-90	planeta	planeta	NOUN	_	Gender=Masc|Number=Sing	88	obj	_	SpaceAfter=No
-91	,	,	PUNCT	_	_	93	punct	_	_
-92	de	de	ADP	_	_	93	case	_	_
-93	modo	modo	NOUN	_	Gender=Masc|Number=Sing	77	obl	_	_
-94	a	a	SCONJ	_	_	95	mark	_	_
-95	exercer	exercer	VERB	_	VerbForm=Inf	93	acl	_	_
-96	pressão	pressão	NOUN	_	Gender=Fem|Number=Sing	95	obj	_	_
-97-98	no	_	_	_	_	_	_	_	_
-97	em	em	ADP	_	_	99	case	_	_
-98	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	99	det	_	_
-99	interior	interior	NOUN	_	Gender=Masc|Number=Sing	96	nmod	_	_
-100	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	101	nsubj	_	_
-101	aproxima	aproximar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	99	acl:relcl	_	_
-102	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	103	det	_	_
-103	núcleos	núcleo	NOUN	_	Gender=Masc|Number=Plur	101	obj	_	_
-104	atômicos	atômico	ADJ	_	Gender=Masc|Number=Plur	103	amod	_	_
-105	e	e	CCONJ	_	_	107	cc	_	_
-106	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	107	det	_	_
-107	nuvens	nuvem	NOUN	_	Gender=Fem|Number=Plur	103	conj	_	_
-108	eletrônicas	eletrônico	ADJ	_	Gender=Fem|Number=Plur	107	amod	_	_
-109-110	do	_	_	_	_	_	_	_	_
-109	de	de	ADP	_	_	111	case	_	_
-110	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	111	det	_	_
-111	gás	gás	NOUN	_	Gender=Masc|Number=Sing	107	nmod	_	SpaceAfter=No
-112	,	,	PUNCT	_	_	113	punct	_	_
-113	fazendo	fazer	VERB	_	VerbForm=Ger	101	advcl	_	_
-114	com	com	SCONJ	_	_	116	mark	_	_
-115	que	que	SCONJ	_	_	116	mark	_	_
-116	haja	haver	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	113	ccomp	_	_
-117	destruição	destruição	NOUN	_	Gender=Fem|Number=Sing	116	obj	_	_
-118	parcial	parcial	ADJ	_	Gender=Fem|Number=Sing	117	amod	_	_
-119	de	de	ADP	_	_	120	case	_	_
-120	núcleos	núcleo	NOUN	_	Gender=Masc|Number=Plur	117	nmod	_	_
-121	atômicos	atômico	ADJ	_	Gender=Masc|Number=Plur	120	amod	_	SpaceAfter=No
-122	,	,	PUNCT	_	_	123	punct	_	_
-123	processo	processo	NOUN	_	Gender=Masc|Number=Sing	117	appos	_	_
-124	esse	esse	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	123	nmod	_	_
-125	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	126	nsubj	_	_
-126	gera	gerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	123	acl:relcl	_	_
-127	radiação	radiação	NOUN	_	Gender=Fem|Number=Sing	126	obj	_	_
-128	eletromagnética	eletromagnético	ADJ	_	Gender=Fem|Number=Sing	127	amod	_	SpaceAfter=No
-129	)	)	PUNCT	_	_	123	punct	_	SpaceAfter=No
-130	.	.	PUNCT	_	_	25	punct	_	SpaceAfter=No
+86	planeta	planeta	NOUN	_	Gender=Masc|Number=Sing	84	obj	_	SpaceAfter=No
+87	,	,	PUNCT	_	_	89	punct	_	_
+88	de	de	ADP	_	_	89	case	_	_
+89	modo	modo	NOUN	_	Gender=Masc|Number=Sing	73	obl	_	_
+90	a	a	SCONJ	_	_	91	mark	_	_
+91	exercer	exercer	VERB	_	VerbForm=Inf	89	acl	_	_
+92	pressão	pressão	NOUN	_	Gender=Fem|Number=Sing	91	obj	_	_
+93-94	no	_	_	_	_	_	_	_	_
+93	em	em	ADP	_	_	95	case	_	_
+94	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	95	det	_	_
+95	interior	interior	NOUN	_	Gender=Masc|Number=Sing	92	nmod	_	_
+96	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	97	nsubj	_	_
+97	aproxima	aproximar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	95	acl:relcl	_	_
+98	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	99	det	_	_
+99	núcleos	núcleo	NOUN	_	Gender=Masc|Number=Plur	97	obj	_	_
+100	atômicos	atômico	ADJ	_	Gender=Masc|Number=Plur	99	amod	_	_
+101	e	e	CCONJ	_	_	103	cc	_	_
+102	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	103	det	_	_
+103	nuvens	nuvem	NOUN	_	Gender=Fem|Number=Plur	99	conj	_	_
+104	eletrônicas	eletrônico	ADJ	_	Gender=Fem|Number=Plur	103	amod	_	_
+105-106	do	_	_	_	_	_	_	_	_
+105	de	de	ADP	_	_	107	case	_	_
+106	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	107	det	_	_
+107	gás	gás	NOUN	_	Gender=Masc|Number=Sing	103	nmod	_	SpaceAfter=No
+108	,	,	PUNCT	_	_	109	punct	_	_
+109	fazendo	fazer	VERB	_	VerbForm=Ger	97	advcl	_	_
+110	com	com	SCONJ	_	_	112	mark	_	_
+111	que	que	SCONJ	_	_	112	mark	_	_
+112	haja	haver	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	109	ccomp	_	_
+113	destruição	destruição	NOUN	_	Gender=Fem|Number=Sing	112	obj	_	_
+114	parcial	parcial	ADJ	_	Gender=Fem|Number=Sing	113	amod	_	_
+115	de	de	ADP	_	_	116	case	_	_
+116	núcleos	núcleo	NOUN	_	Gender=Masc|Number=Plur	113	nmod	_	_
+117	atômicos	atômico	ADJ	_	Gender=Masc|Number=Plur	116	amod	_	SpaceAfter=No
+118	,	,	PUNCT	_	_	119	punct	_	_
+119	processo	processo	NOUN	_	Gender=Masc|Number=Sing	113	appos	_	_
+120	esse	esse	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	119	nmod	_	_
+121	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	122	nsubj	_	_
+122	gera	gerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	119	acl:relcl	_	_
+123	radiação	radiação	NOUN	_	Gender=Fem|Number=Sing	122	obj	_	_
+124	eletromagnética	eletromagnético	ADJ	_	Gender=Fem|Number=Sing	123	amod	_	SpaceAfter=No
+125	)	)	PUNCT	_	_	119	punct	_	SpaceAfter=No
+126	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
 
 # sent_id = dev-s757
 # text = "Está tudo aberto, jogo aqui, jogo lá, não tem muita diferença não.
@@ -25620,7 +25614,7 @@
 32-33	da	_	_	_	_	_	_	_	_
 32	de	de	ADP	_	_	34	case	_	_
 33	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
-34	qual	qual	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	36	nsubj	_	_
+34	qual	qual	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	36	obl	_	_
 35	não	não	ADV	_	Polarity=Neg	36	advmod	_	_
 36	fazem	fazer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
 37	parte	parte	NOUN	_	Gender=Fem|Number=Sing	36	obj	_	_
@@ -26767,8 +26761,10 @@
 
 # udpipe_model = portuguese-bosque-ud-2.12-230717
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# text = Antes de comprar, eles fazem as contas para não gastar mais do que têm.
 # sent_id = dev-s837
+# text = Antes de comprar, eles fazem as contas para não gastar mais do que têm.
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-bosque-ud-2.12-230717
 1	Antes	antes	ADV	_	ExtPos=SCONJ	3	mark	_	_
 2	de	de	ADP	_	_	1	fixed	_	_
 3	comprar	comprar	VERB	_	VerbForm=Inf	6	advcl	_	SpaceAfter=No
@@ -34862,7 +34858,7 @@
 36-37	ao	_	_	_	_	_	_	_	_
 36	a	a	SCONJ	_	_	38	mark	_	_
 37	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
-38	comentar	comentar	VERB	_	VerbForm=Inf	17	advcl	_	_
+38	comentar	comentar	VERB	_	VerbForm=Inf	4	advcl	_	_
 39	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
 40	anúncios	anúncio	NOUN	_	Gender=Masc|Number=Plur	38	obj	_	_
 41	feitos	fazer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	40	acl	_	_
@@ -35826,8 +35822,10 @@
 
 # udpipe_model = portuguese-bosque-ud-2.12-230717
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# text = Mais medidas Coordenador do Movimento de Associações de Bairros contra o Trânsito de Carretas na Avenida Nossa Senhora do Carmo, o engenheiro Aloísio de Araújo Prince avalia que as ações de Dnit e BHTrans são importantes, mas não bastam para regular o trânsito na rodovia federal e na avenida da Região Centro - Sul.
 # sent_id = dev-s1124
+# text = Mais medidas Coordenador do Movimento de Associações de Bairros contra o Trânsito de Carretas na Avenida Nossa Senhora do Carmo, o engenheiro Aloísio de Araújo Prince avalia que as ações de Dnit e BHTrans são importantes, mas não bastam para regular o trânsito na rodovia federal e na avenida da Região Centro - Sul.
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-bosque-ud-2.12-230717
 1	Mais	mais	DET	_	Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
 2	medidas	medida	NOUN	_	Gender=Fem|Number=Plur	31	nsubj	_	_
 3	Coordenador	Coordenador	PROPN	_	Gender=Fem|Number=Sing	2	appos	_	_
