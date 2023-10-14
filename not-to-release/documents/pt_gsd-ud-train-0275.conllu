@@ -1,23 +1,25 @@
-# sent_id = train-s2730b
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = A Expedição Ártica Jackson - Harmsworth (1894-1897) foi patrocinada pela Royal Geographical Society.
-1	A	_	PROPN	PNOUN	_	2	det	_	_
-2	Expedição	_	PROPN	PNOUN	_	11	nsubj:pass	_	_
-3	Ártica	_	PROPN	PNOUN	_	2	amod	_	_
-4	Jackson	_	PROPN	PNOUN	_	2	appos	_	_
-5	-	-	PUNCT	.	_	4	punct	_	_
-6	Harmsworth	_	PROPN	PNOUN	_	4	flat	_	_
-7	(	(	PUNCT	.	_	8	punct	_	SpaceAfter=No
-8	1894-1897	_	NUM	NUM	NumType=Card	2	nmod	_	SpaceAfter=No
-9	)	)	PUNCT	.	_	8	punct	_	_
-10	foi	_	AUX	AUX	_	11	aux:pass	_	_
-11	patrocinada	patrocinar	VERB	VERB	_	0	root	_	_
+# sent_id = train-s2730b
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Expedição	Expedição	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+3	Ártica	Ártica	PROPN	_	Number=Sing	2	flat:name	_	_
+4	Jackson	Jackson	PROPN	_	Number=Sing	2	flat:name	_	_
+5	-	-	PUNCT	_	_	6	punct	_	_
+6	Harmsworth	Harmsworth	PROPN	_	Gender=Fem|Number=Sing	2	appos	_	_
+7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	1894-1897	1894-1897	NUM	_	NumType=Card	2	nmod	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	8	punct	_	_
+10	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
+11	patrocinada	patrocinar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 12-13	pela	_	_	_	_	_	_	_	_
-12	por	por	ADP	ADP	_	16	case	_	_
-13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-14	Royal	_	PROPN	PNOUN	_	16	amod	_	_
-15	Geographical	_	PROPN	PNOUN	_	16	amod	_	_
-16	Society	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
-17	.	.	PUNCT	.	_	11	punct	_	_
+12	por	por	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Royal	Royal	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	11	obl:agent	_	_
+15	Geographical	Geographical	PROPN	_	Number=Sing	14	flat:name	_	_
+16	Society	Society	PROPN	_	Number=Sing	14	flat:name	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
 
 # sent_id = train-s2731
 # text = Rachel de Farias, voluntária da Associação Esportiva Turma dos Ratos, acha que a questão do aborto em casos de estupro é mais delicada.
@@ -164,35 +166,37 @@
 23	Guilherme	_	PROPN	PNOUN	_	21	nmod	_	_
 24	I.	_	PROPN	PNOUN	_	23	amod	_	_
 
-# sent_id = train-s2735b
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Em 19 de julho de 1870 teve início a Guerra Franco - prussiana, que levou à queda do Segundo Império Francês.
-1	Em	_	PROPN	PNOUN	_	2	case	_	_
-2	19	19	NUM	NUM	NumType=Card	0	root	_	_
-3	de	de	ADP	ADP	_	4	case	_	_
-4	julho	_	PROPN	PNOUN	_	2	nmod	_	_
-5	de	de	ADP	ADP	_	6	case	_	_
-6	1870	1870	NUM	NUM	NumType=Card	4	nmod	_	_
-7	teve	ter	VERB	VERB	_	2	case	_	_
-8	início	início	NOUN	NOUN	_	2	obj	_	_
-9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	Guerra	_	PROPN	PNOUN	_	2	nsubj	_	_
-11	Franco	_	PROPN	PNOUN	_	13	amod	_	_
-12	-	-	PUNCT	.	_	13	punct	_	_
-13	prussiana	_	PROPN	PNOUN	_	10	amod	_	SpaceAfter=No
-14	,	,	PUNCT	.	_	16	punct	_	_
-15	que	_	PRON	PRON	_	16	nsubj	_	_
-16	levou	levar	VERB	VERB	_	10	acl:relcl	_	_
+# sent_id = train-s2735b
+1	Em	em	ADP	_	_	2	case	_	_
+2	19	19	NUM	_	NumType=Card	7	obl	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	julho	julho	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	1870	1870	NUM	_	NumType=Card	4	nmod	_	_
+7	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	início	início	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Guerra	Guerra	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	7	nsubj	_	_
+11	Franco	Franco	PROPN	_	Number=Sing	10	flat:name	_	_
+12	-	-	PUNCT	_	_	13	punct	_	_
+13	prussiana	prussiano	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	16	nsubj	_	_
+16	levou	levar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	acl:relcl	_	_
 17-18	à	_	_	_	_	_	_	_	_
-17	a	a	ADP	ADP	_	19	case	_	_
-18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	queda	queda	NOUN	NOUN	_	16	nmod	_	_
+17	a	a	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	queda	queda	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
 20-21	do	_	_	_	_	_	_	_	_
-20	de	de	ADP	ADP	_	23	case	_	_
-21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-22	Segundo	_	PROPN	PNOUN	_	23	amod	_	_
-23	Império	_	PROPN	PNOUN	_	19	nmod	_	_
-24	Francês	_	PROPN	PNOUN	_	23	amod	_	SpaceAfter=No
-25	.	.	PUNCT	.	_	2	punct	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Segundo	Segundo	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	19	nmod	_	_
+23	Império	Império	PROPN	_	Number=Sing	22	flat:name	_	_
+24	Francês	Francês	PROPN	_	Number=Sing	22	flat:name	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
 # sent_id = train-s2736
 # text = "Os trabalhos já tinham sido encerrados.

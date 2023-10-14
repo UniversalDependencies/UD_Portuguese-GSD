@@ -166,8 +166,8 @@
 
 # udpipe_model = portuguese-bosque-ud-2.12-230717
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Gravado no Pavilhão de Exposições do Complexo do Anhembi, em São Paulo, o show, com direção do cantor Ney Matogrosso, traz grandes sucessos, como Revoluções Por Minuto, Rádio Pirata, Olhar 43 e as então inéditas Naja (instrumental baseado nos teclados de Luiz Schiavon) e Alvorada Voraz, além das regravações de London, London (de Caetano Veloso) e de Flores Astrais (do grupo Secos & Molhados, do qual Ney Matogrosso fez parte).
 # sent_id = test-s502
-# text = Gravado no Pavilhão de Exposições do Complexo do Anhembi, em São Paulo, o show, com direção do cantor Ney Matogrosso, traz grandes sucessos, como Revoluções Por Minuto, Rádio Pirata, Olhar 43 e as então inéditas Naja (instrumental baseado nos teclados de Luiz Schiavon) e Alvorada Voraz, além das regravações de London, London (de Caetano Veloso) e de Flores Astrais (do grupo Secos &amp; Molhados, do qual Ney Matogrosso fez parte).
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # udpipe_model = portuguese-bosque-ud-2.12-230717
 1	Gravado	gravar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	19	acl	_	_
@@ -260,21 +260,19 @@
 81	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	82	det	_	_
 82	grupo	grupo	NOUN	_	Gender=Masc|Number=Sing	77	nmod	_	_
 83	Secos	Secos	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	82	appos	_	_
-84	&	&	PROPN	_	Number=Sing	83	flat:name	_	SpaceAfter=No
-85	amp	amp	PROPN	_	Number=Sing	83	flat:name	_	SpaceAfter=No
-86	;	;	PUNCT	_	_	87	punct	_	_
-87	Molhados	Molhados	PROPN	_	Gender=Masc|Number=Sing	67	conj	_	SpaceAfter=No
-88	,	,	PUNCT	_	_	94	punct	_	_
-89-90	do	_	_	_	_	_	_	_	_
-89	de	de	ADP	_	_	91	case	_	_
-90	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	91	det	_	_
-91	qual	qual	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	94	obl	_	_
-92	Ney	Ney	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	94	nsubj	_	_
-93	Matogrosso	Matogrosso	PROPN	_	Number=Sing	92	flat:name	_	_
-94	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	82	acl:relcl	_	_
-95	parte	parte	NOUN	_	Gender=Fem|Number=Sing	94	obj	_	SpaceAfter=No
-96	)	)	PUNCT	_	_	82	punct	_	SpaceAfter=No
-97	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+84	&	&	PROPN	_	Number=Sing	83	flat:name	_	_
+85	Molhados	Molhados	PROPN	_	Number=Sing	83	flat:name	_	SpaceAfter=No
+86	,	,	PUNCT	_	_	92	punct	_	_
+87-88	do	_	_	_	_	_	_	_	_
+87	de	de	ADP	_	_	89	case	_	_
+88	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	89	det	_	_
+89	qual	qual	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	92	obl	_	_
+90	Ney	Ney	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	92	nsubj	_	_
+91	Matogrosso	Matogrosso	PROPN	_	Number=Sing	90	flat:name	_	_
+92	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	82	acl:relcl	_	_
+93	parte	parte	NOUN	_	Gender=Fem|Number=Sing	92	obj	_	SpaceAfter=No
+94	)	)	PUNCT	_	_	82	punct	_	SpaceAfter=No
+95	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
 
 # udpipe_model = portuguese-bosque-ud-2.12-230717
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe

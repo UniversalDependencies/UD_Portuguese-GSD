@@ -2,16 +2,14 @@
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # sent_id = test-s806
 # text = "Como estão as coisas, eu não posso deixar de receber nem um dia sequer.
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
 1	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
 2	Como	como	ADV	_	_	3	advmod	_	_
 3	estão	estar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
 4	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
-5	coisas	coisa	NOUN	_	Gender=Fem|Number=Plur	9	nsubj	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	3	punct	_	_
+5	coisas	coisa	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	_
 7	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
-8	não	não	ADV	_	Polarity=Neg	12	advmod	_	_
+8	não	não	ADV	_	Polarity=Neg	9	advmod	_	_
 9	posso	poder	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	deixar	deixar	VERB	_	ExtPos=AUX|VerbForm=Inf	9	xcomp	_	_
 11	de	de	SCONJ	_	_	12	mark	_	_

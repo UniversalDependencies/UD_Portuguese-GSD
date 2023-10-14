@@ -115,8 +115,6 @@
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # sent_id = test-s460
 # text = Então proprietário da Kuarup Discos, que encerrou as atividades em 2009, Mário de Aratanha captou, em plenos anos 1980, o potencial da música regional que, se não vende milhares de cópias, como continuam querendo as combalidas gravadoras, consegue reunir centenas, e às vezes, milhares de pessoas, em concertos e shows.
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
 1	Então	então	ADV	_	_	2	advmod	_	_
 2	proprietário	proprietário	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -124,7 +122,7 @@
 4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Kuarup	Kuarup	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	2	nmod	_	_
 6	Discos	Discos	PROPN	_	Number=Sing	5	flat:name	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	2	punct	_	_
+7	,	,	PUNCT	_	_	9	punct	_	_
 8	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	9	nsubj	_	_
 9	encerrou	encerrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
 10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
@@ -168,13 +166,13 @@
 47	consegue	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	_
 48	reunir	reunir	VERB	_	VerbForm=Inf	47	xcomp	_	_
 49	centenas	centena	NOUN	_	Gender=Fem|Number=Plur	48	obj	_	SpaceAfter=No
-50	,	,	PUNCT	_	_	52	punct	_	_
+50	,	,	PUNCT	_	_	51	punct	_	_
 51	e	e	CCONJ	_	_	56	cc	_	_
 52-53	às	_	_	_	_	_	_	_	_
-52	a	a	ADP	_	ExtPos=ADV	48	advmod	_	_
-53	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	52	fixed	_	_
-54	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	52	fixed	_	SpaceAfter=No
-55	,	,	PUNCT	_	_	52	punct	_	_
+52	a	a	ADP	_	_	54	mark	_	_
+53	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	54	det	_	_
+54	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	48	obl	_	SpaceAfter=No
+55	,	,	PUNCT	_	_	56	punct	_	_
 56	milhares	milhar	NUM	_	NumType=Card	49	conj	_	_
 57	de	de	ADP	_	_	58	case	_	_
 58	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	56	nmod	_	SpaceAfter=No

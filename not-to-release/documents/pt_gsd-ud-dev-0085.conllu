@@ -55,8 +55,6 @@
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # sent_id = dev-s837
 # text = Antes de comprar, eles fazem as contas para não gastar mais do que têm.
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
 1	Antes	antes	ADV	_	ExtPos=SCONJ	3	mark	_	_
 2	de	de	ADP	_	_	1	fixed	_	_
 3	comprar	comprar	VERB	_	VerbForm=Inf	6	advcl	_	SpaceAfter=No
@@ -70,10 +68,10 @@
 11	gastar	gastar	VERB	_	VerbForm=Inf	6	advcl	_	_
 12	mais	mais	ADV	_	_	11	advmod	_	_
 13-14	do	_	_	_	_	_	_	_	_
-13	de	de	ADP	_	_	16	mark	_	_
+13	de	de	ADP	_	_	14	mark	_	_
 14	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	12	obl	_	_
-15	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	13	fixed	_	_
-16	têm	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl	_	SpaceAfter=No
+15	que	que	ADP	_	_	16	mark	_	_
+16	têm	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
 # sent_id = dev-s838

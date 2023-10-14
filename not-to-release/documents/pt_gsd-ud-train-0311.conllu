@@ -30,41 +30,41 @@
 27	antes	antes	ADV	ADV	_	26	advmod	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	12	punct	_	_
 
-# sent_id = train-s3088
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Foi o mais barato seriado da Republic de 1939 e um dos únicos três do pré-guerra a ser feito dentro do orçamento.
-1	Foi	_	AUX	AUX	_	5	cop	_	_
-2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-3	mais	mais	ADV	ADV	_	4	advmod	_	_
-4	barato	barato	ADJ	ADJ	_	5	amod	_	_
-5	seriado	seriado	NOUN	NOUN	_	0	root	_	_
+# sent_id = train-s3088
+1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+3	mais	mais	ADV	_	_	4	advmod	_	_
+4	barato	barato	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+5	seriado	seriado	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 6-7	da	_	_	_	_	_	_	_	_
-6	de	de	ADP	ADP	_	8	case	_	_
-7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	Republic	_	PROPN	PNOUN	_	5	nmod	_	_
-9	de	de	ADP	ADP	_	10	case	_	_
-10	1939	1939	NUM	NUM	NumType=Card	5	nmod	_	_
-11	e	e	CCONJ	CONJ	_	12	cc	_	_
-12	um	_	PRON	PRON	_	5	conj	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Republic	Republic	PROPN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	1939	1939	NUM	_	NumType=Card	5	nmod	_	_
+11	e	e	CCONJ	_	_	12	cc	_	_
+12	um	um	NUM	_	NumType=Card	5	conj	_	_
 13-14	dos	_	_	_	_	_	_	_	_
-13	de	de	ADP	ADP	_	16	case	_	_
-14	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
-15	únicos	único	ADJ	ADJ	_	16	amod	_	_
-16	três	_	NUM	NUM	NumType=Card	12	nmod	_	_
+13	de	de	ADP	_	_	16	case	_	_
+14	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+15	únicos	único	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	_
+16	três	três	NUM	_	NumType=Card	12	nmod	_	_
 17-18	do	_	_	_	_	_	_	_	_
-17	de	de	ADP	ADP	_	19	case	_	_
-18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	pré	_	PART	PRT	_	16	nmod	_	_
-20	-	-	PUNCT	.	_	19	punct	_	_
-21	guerra	guerra	NOUN	NOUN	_	19	flat	_	_
-22	a	_	ADP	ADP	_	24	mark	_	_
-23	ser	ser	AUX	AUX	_	24	aux:pass	_	_
-24	feito	_	VERB	VERB	_	16	nmod	_	_
-25	dentro	dentro	ADV	ADV	_	24	advmod	_	_
-26-27	do	_	_	_	_	_	_	_	_
-26	de	de	ADP	ADP	_	28	case	_	_
-27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
-28	orçamento	orçamento	NOUN	NOUN	_	25	nmod	_	SpaceAfter=No
-29	.	.	PUNCT	.	_	5	punct	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	pré-guerra	pré-guerra	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+20	a	a	SCONJ	_	_	22	mark	_	_
+21	ser	ser	AUX	_	VerbForm=Inf	22	aux:pass	_	_
+22	feito	fazer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	16	acl	_	_
+23	dentro	dentro	ADV	_	_	22	advmod	_	_
+24-25	do	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	orçamento	orçamento	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # sent_id = train-s3089
 # text = O dublador Marcelo Gastaldi também participou das dublagens do filme, como locutor, e fazendo ainda algumas vozes secundárias.
@@ -217,44 +217,46 @@
 29	sociais	social	ADJ	ADJ	_	28	amod	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	22	punct	_	_
 
-# sent_id = train-s3095
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Os dados são da pesquisa feita pelo Instituto Nacional de Ciência e Tecnologia para Políticas Públicas do Álcool e Drogas, apresentada nesta quarta-feira (5).
-1	Os	o	DET	DET	_	2	det	_	_
-2	dados	dado	NOUN	NOUN	_	3	nsubj	_	_
-3	são	ser	VERB	VERB	_	0	root	_	_
+# sent_id = train-s3095
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	dados	dado	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
+3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 4-5	da	_	_	_	_	_	_	_	_
-4	de	de	ADP	ADP	_	6	case	_	_
-5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	pesquisa	pesquisa	NOUN	NOUN	_	3	nmod	_	_
-7	feita	_	VERB	VERB	_	6	acl	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	pesquisa	pesquisa	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+7	feita	fazer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	6	acl	_	_
 8-9	pelo	_	_	_	_	_	_	_	_
-8	por	por	ADP	ADP	_	10	case	_	_
-9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	Instituto	_	PROPN	PNOUN	_	7	nmod	_	_
-11	Nacional	_	PROPN	PNOUN	_	10	amod	_	_
-12	de	de	ADP	ADP	_	13	case	_	_
-13	Ciência	_	PROPN	PNOUN	_	10	nmod	_	_
-14	e	e	CCONJ	CONJ	_	15	cc	_	_
-15	Tecnologia	_	PROPN	PNOUN	_	13	conj	_	_
-16	para	para	ADP	ADP	_	17	case	_	_
-17	Políticas	_	PROPN	PNOUN	_	10	nmod	_	_
-18	Públicas	_	PROPN	PNOUN	_	17	amod	_	_
+8	por	por	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Instituto	Instituto	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	7	obl:agent	_	_
+11	Nacional	Nacional	PROPN	_	Number=Sing	10	flat:name	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Ciência	Ciência	PROPN	_	ExtPos=PROPN|Number=Sing	10	nmod	_	_
+14	e	e	CCONJ	_	_	13	flat:name	_	_
+15	Tecnologia	Tecnologia	PROPN	_	Number=Sing	13	flat:name	_	_
+16	para	para	ADP	_	_	17	case	_	_
+17	Políticas	Políticas	PROPN	_	ExtPos=PROPN|Number=Sing	10	nmod	_	_
+18	Públicas	Públicas	PROPN	_	Number=Sing	17	flat:name	_	_
 19-20	do	_	_	_	_	_	_	_	_
-19	de	de	ADP	ADP	_	21	case	_	_
-20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	Álcool	_	PROPN	PNOUN	_	17	nmod	_	_
-22	e	e	CCONJ	CONJ	_	23	cc	_	_
-23	Drogas	_	PROPN	PNOUN	_	21	conj	_	SpaceAfter=No
-24	,	,	PUNCT	.	_	25	punct	_	_
-25	apresentada	apresentar	VERB	VERB	_	6	acl	_	_
-26	nesta	_	ADP	ADP	_	29	case	_	_
-27	quarta	_	PROPN	PNOUN	_	29	amod	_	_
-28	-	-	PUNCT	.	_	29	punct	_	_
-29	feira	_	PROPN	PNOUN	_	25	nmod	_	_
-30	(	(	PUNCT	.	_	31	punct	_	SpaceAfter=No
-31	5	5	NUM	NUM	NumType=Card	29	nmod	_	SpaceAfter=No
-32	)	)	PUNCT	.	_	31	punct	_	SpaceAfter=No
-33	.	.	PUNCT	.	_	3	punct	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Álcool	Álcool	PROPN	_	ExtPos=PROPN|Number=Sing	17	nmod	_	_
+22	e	e	CCONJ	_	_	21	flat:name	_	_
+23	Drogas	Drogas	PROPN	_	Number=Sing	21	flat:name	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	apresentada	apresentar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	10	acl	_	_
+26-27	nesta	_	_	_	_	_	_	_	_
+26	em	em	ADP	_	_	28	case	_	_
+27	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	28	det	_	_
+28	quarta-feira	quarta-feira	NOUN	_	Gender=Fem|Number=Sing	25	obl	_	_
+29	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
+30	5	5	NUM	_	NumType=Card	28	appos	_	SpaceAfter=No
+31	)	)	PUNCT	_	_	30	punct	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
 # sent_id = train-s3096
 # text = A narração era de Tércio de Lima e o anunciador das lutas era Jayme Ferreira.

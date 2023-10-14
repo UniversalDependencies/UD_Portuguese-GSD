@@ -118,7 +118,7 @@
 41	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # sent_id = dev-s470a
-# text = É utilizada para observar com mais detalhe pequenos objectos ou superfícies.Também
+# text = É utilizada para observar com mais detalhe pequenos objectos ou superfícies.
 1	É	ser	AUX	AUX	_	2	aux:pass	_	_
 2	utilizada	utilizar	VERB	VERB	_	0	root	_	_
 3	para	_	ADP	ADP	_	4	mark	_	_
@@ -129,24 +129,28 @@
 8	pequenos	pequeno	ADJ	ADJ	_	9	amod	_	_
 9	objectos	objecto	NOUN	NOUN	_	4	obj	_	_
 10	ou	ou	CCONJ	CONJ	_	11	cc	_	_
-11	superfícies.Também	_	NOUN	NOUN	_	9	conj	_	_
+11	superfícies	superfície	NOUN	NOUN	Gender=Fem|Number=Plur	9	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	_
 
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Também denominada microscópio simples -- é constituída duma única lente esférica convergente.
 # sent_id = dev-s470b
-# text = denominada microscópio simples -- é constituída duma única lente esférica convergente.
-1	denominada	denominar	AUX	AUX	_	2	cop	_	_
-2	microscópio	microscópio	NOUN	NOUN	_	6	acl	_	_
-3	simples	simples	ADJ	ADJ	_	2	amod	_	_
-4	--	_	PUNCT	.	_	2	punct	_	_
-5	é	ser	AUX	AUX	_	6	aux:pass	_	_
-6	constituída	constituir	VERB	VERB	_	0	root	_	_
-7-8	duma	_	_	_	_	_	_	_	_
-7	de	de	ADP	ADP	_	10	case	_	_
-8	uma	um	DET	DET	_	10	det	_	_
-9	única	único	ADJ	ADJ	_	10	amod	_	_
-10	lente	lente	NOUN	NOUN	_	6	nmod	_	_
-11	esférica	esférico	ADJ	ADJ	_	10	amod	_	_
-12	convergente	convergente	ADJ	ADJ	_	10	amod	_	SpaceAfter=No
-13	.	.	PUNCT	.	_	6	punct	_	_
+1	Também	também	ADV	_	_	2	advmod	_	_
+2	denominada	denominar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	7	advcl	_	_
+3	microscópio	microscópio	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+4	simples	simples	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
+5	--	--	PUNCT	_	_	2	punct	_	_
+6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	constituída	constituir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+8-9	duma	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	11	case	_	_
+9	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	única	único	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+11	lente	lente	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+12	esférica	esférico	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+13	convergente	convergente	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
 
 # sent_id = dev-s471
 # text = O Tribunal Regional Eleitoral (TRE) entra na reta final dos preparativos das eleições municipais esta semana, com a geração das mídias a serem introduzidas nas urnas eletrônicas, a partir da próxima segunda - feira.

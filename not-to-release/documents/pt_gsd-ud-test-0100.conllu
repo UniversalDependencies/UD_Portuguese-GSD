@@ -119,10 +119,8 @@
 
 # udpipe_model = portuguese-bosque-ud-2.12-230717
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Em resposta, o tucano afirmou que o petista "está seguindo as lições" do ex-ministro da Casa Civil José Dirceu, condenado pelo Supremo Tribunal Federal na terça-feira, pelo crime de corrupção ativa.
 # sent_id = test-s990
-# text = Em resposta, o tucano afirmou que o petista "está seguindo as lições" do ex - ministro da Casa Civil José Dirceu, condenado pelo Supremo Tribunal Federal na terça - feira, pelo crime de corrupção ativa.
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
 1	Em	em	ADP	_	_	2	case	_	_
 2	resposta	resposta	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -137,43 +135,39 @@
 12	seguindo	seguir	VERB	_	VerbForm=Ger	6	ccomp	_	_
 13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
 14	lições	lição	NOUN	_	Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No
-15	"	"	PUNCT	_	_	12	punct	_	_
+15	"	"	PUNCT	_	_	14	punct	_	_
 16-17	do	_	_	_	_	_	_	_	_
-16	de	de	ADP	_	_	20	case	_	_
-17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-18	ex	ex	ADJ	_	Gender=Masc|Number=Sing	14	nmod	_	_
-19	-	-	PUNCT	_	_	20	punct	_	_
-20	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
-21-22	da	_	_	_	_	_	_	_	_
-21	de	de	ADP	_	_	23	case	_	_
-22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-23	Casa	casa	NOUN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	20	nmod	_	_
-24	Civil	civil	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
-25	José	José	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	20	appos	_	_
-26	Dirceu	Dirceu	PROPN	_	Number=Sing	25	flat:name	_	SpaceAfter=No
-27	,	,	PUNCT	_	_	28	punct	_	_
-28	condenado	condenar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	20	acl	_	_
-29-30	pelo	_	_	_	_	_	_	_	_
-29	por	por	ADP	_	_	31	case	_	_
-30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-31	Supremo	Supremo	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	28	obl:agent	_	_
-32	Tribunal	Tribunal	PROPN	_	Number=Sing	31	flat:name	_	_
-33	Federal	Federal	PROPN	_	Number=Sing	31	flat:name	_	_
-34-35	na	_	_	_	_	_	_	_	_
-34	em	em	ADP	_	_	36	case	_	_
-35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-36	terça	terça	NOUN	_	Gender=Fem|Number=Sing	28	obl	_	_
-37	-	-	PUNCT	_	_	38	punct	_	_
-38	feira	feira	NOUN	_	Gender=Fem|Number=Sing	36	nmod	_	SpaceAfter=No
-39	,	,	PUNCT	_	_	28	punct	_	_
-40-41	pelo	_	_	_	_	_	_	_	_
-40	por	por	ADP	_	_	42	case	_	_
-41	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
-42	crime	crime	NOUN	_	Gender=Masc|Number=Sing	28	obl	_	_
-43	de	de	ADP	_	_	44	case	_	_
-44	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	42	nmod	_	_
-45	ativa	ativo	ADJ	_	Gender=Fem|Number=Sing	44	amod	_	SpaceAfter=No
-46	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	ex-ministro	ex-ministro	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Casa	casa	NOUN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	18	nmod	_	_
+22	Civil	civil	ADJ	_	Number=Sing	21	amod	_	_
+23	José	José	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	21	appos	_	_
+24	Dirceu	Dirceu	PROPN	_	Number=Sing	21	flat:name	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	condenado	condenar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	18	acl	_	_
+27-28	pelo	_	_	_	_	_	_	_	_
+27	por	por	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	Supremo	Supremo	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	26	obl:agent	_	_
+30	Tribunal	Tribunal	PROPN	_	Number=Sing	29	flat:name	_	_
+31	Federal	Federal	PROPN	_	Number=Sing	29	flat:name	_	_
+32-33	na	_	_	_	_	_	_	_	_
+32	em	em	ADP	_	_	34	case	_	_
+33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	terça-feira	terça-feira	NOUN	_	Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	26	punct	_	_
+36-37	pelo	_	_	_	_	_	_	_	_
+36	por	por	ADP	_	_	38	case	_	_
+37	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	crime	crime	NOUN	_	Gender=Masc|Number=Sing	26	obl	_	_
+39	de	de	ADP	_	_	40	case	_	_
+40	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	38	nmod	_	_
+41	ativa	ativo	ADJ	_	Gender=Fem|Number=Sing	40	amod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
 # sent_id = test-s991
 # text = O evento é destinado à divulgação científica dos membros do Programa de Apoio a Núcleos de Excelência (Pronex), uma parceria da Fundação Amazônia Paraense, UFPA, Fundação de Amparo e Desenvolvimento da Pesquisa (Fadesp) e Secretaria de Estado de Ciência, Tecnologia e Inovação (Secti).

@@ -127,55 +127,55 @@
 39	bilhões	_	NUM	NUM	NumType=Card	36	nummod	_	SpaceAfter=No
 40	.	.	PUNCT	.	_	14	punct	_	_
 
-# sent_id = test-s651
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Como o título não está disponível em pré-venda na PSN americana, isso pode significar que a versão para download do PS3 não dará acesso ao Premiere Club, que permite baixar conteúdos como a classe Mechromancer gratuitamente.
-1	Como	_	CCONJ	CONJ	_	5	mark	_	_
-2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	título	título	NOUN	NOUN	_	5	nsubj	_	_
-4	não	não	ADV	ADV	Polarity=Neg	5	advmod	_	_
-5	está	estar	VERB	VERB	_	18	advcl	_	_
-6	disponível	disponível	ADJ	ADJ	_	5	xcomp	_	_
-7	em	em	ADP	ADP	_	8	case	_	_
-8	pré	_	PART	PRT	_	6	nmod	_	_
-9	-	-	PUNCT	.	_	8	punct	_	_
-10	venda	venda	NOUN	NOUN	_	8	flat	_	_
-11-12	na	_	_	_	_	_	_	_	_
-11	em	em	ADP	ADP	_	13	case	_	_
-12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	PSN	_	PROPN	PNOUN	_	6	nmod	_	_
-14	americana	americano	ADJ	ADJ	_	13	amod	_	SpaceAfter=No
-15	,	,	PUNCT	.	_	5	punct	_	_
-16	isso	_	PRON	PRON	_	18	nsubj	_	_
-17	pode	_	AUX	AUX	_	18	aux	_	_
-18	significar	significar	VERB	VERB	_	0	root	_	_
-19	que	que	CCONJ	CONJ	_	28	mark	_	_
-20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-21	versão	versão	NOUN	NOUN	_	28	nsubj	_	_
-22	para	para	ADP	ADP	_	23	case	_	_
-23	download	_	NOUN	NOUN	_	21	nmod	_	_
-24-25	do	_	_	_	_	_	_	_	_
-24	de	de	ADP	ADP	_	26	case	_	_
-25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	PS3	_	PROPN	PNOUN	_	21	nmod	_	_
-27	não	não	ADV	ADV	Polarity=Neg	28	advmod	_	_
-28	dará	dar	VERB	VERB	_	18	ccomp	_	_
-29	acesso	acesso	NOUN	NOUN	_	28	obj	_	_
-30-31	ao	_	_	_	_	_	_	_	_
-30	a	a	ADP	ADP	_	32	case	_	_
-31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
-32	Premiere	_	PROPN	PNOUN	_	29	nmod	_	_
-33	Club	_	PROPN	PNOUN	_	32	flat	_	SpaceAfter=No
-34	,	,	PUNCT	.	_	36	punct	_	_
-35	que	_	PRON	PRON	_	36	nsubj	_	_
-36	permite	permitir	VERB	VERB	_	32	acl:relcl	_	_
-37	baixar	baixar	VERB	VERB	_	36	xcomp	_	_
-38	conteúdos	conteúdo	NOUN	NOUN	_	37	obj	_	_
-39	como	como	ADP	ADP	_	41	case	_	_
-40	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
-41	classe	classe	NOUN	NOUN	_	38	nmod	_	_
-42	Mechromancer	_	PROPN	PNOUN	_	41	appos	_	_
-43	gratuitamente	gratuitamente	ADV	ADV	_	37	advmod	_	SpaceAfter=No
-44	.	.	PUNCT	.	_	18	punct	_	_
+# sent_id = test-s651
+1	Como	como	SCONJ	_	_	6	mark	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	título	título	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	não	não	ADV	_	Polarity=Neg	6	advmod	_	_
+5	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	disponível	disponível	ADJ	_	Gender=Masc|Number=Sing	16	advcl	_	_
+7	em	em	ADP	_	_	8	case	_	_
+8	pré-venda	pré-venda	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+9-10	na	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	PSN	PSN	PROPN	_	Gender=Fem|Number=Sing	6	obl	_	_
+12	americana	americano	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	6	punct	_	_
+14	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	15	nsubj	_	_
+15	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	significar	significar	VERB	_	VerbForm=Inf	15	xcomp	_	_
+17	que	que	SCONJ	_	_	26	mark	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	versão	versão	NOUN	_	Gender=Fem|Number=Sing	26	nsubj	_	_
+20	para	para	ADP	_	_	21	case	_	_
+21	download	download	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	PS3	PS3	PROPN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+25	não	não	ADV	_	Polarity=Neg	26	advmod	_	_
+26	dará	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	ccomp	_	_
+27	acesso	acesso	NOUN	_	Gender=Masc|Number=Sing	26	obj	_	_
+28-29	ao	_	_	_	_	_	_	_	_
+28	a	a	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	Premiere	Premiere	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	26	obl	_	_
+31	Club	Club	PROPN	_	Number=Sing	30	flat:name	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	34	punct	_	_
+33	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	34	nsubj	_	_
+34	permite	permitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	_
+35	baixar	baixar	VERB	_	VerbForm=Inf	34	xcomp	_	_
+36	conteúdos	conteúdo	NOUN	_	Gender=Masc|Number=Plur	35	obj	_	_
+37	como	como	ADP	_	_	39	case	_	_
+38	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	classe	classe	NOUN	_	Gender=Fem|Number=Sing	36	nmod	_	_
+40	Mechromancer	Mechromancer	PROPN	_	Gender=Fem|Number=Sing	39	appos	_	_
+41	gratuitamente	gratuitamente	ADV	_	_	35	advmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
 
 # sent_id = test-s652
 # text = Graça defendeu o aumento da proporção de etanol misturado à gasolina, apesar de dizer que não tem influência sobre a decisão, que cabe ao governo e à Agência Nacional do Petróleo (ANP).

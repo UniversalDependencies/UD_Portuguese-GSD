@@ -65,8 +65,6 @@
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # sent_id = test-s421
 # text = O canal, no trecho lagunar sul, além de estreito, possui vinte e duas ilhotas, sem contar a do Linguado (às vezes denominada João Dias), que é a maior em todo o braço de mar, com quatro quilômetros de comprimento.
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	canal	canal	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	_
@@ -96,7 +94,7 @@
 25	Linguado	Linguado	PROPN	_	Gender=Masc|Number=Sing	22	nmod	_	_
 26	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
 27-28	às	_	_	_	_	_	_	_	_
-27	a	a	ADP	_	_	30	advmod	_	_
+27	a	a	ADP	_	_	29	mark	_	_
 28	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
 29	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	30	obl	_	_
 30	denominada	denominar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	25	acl	_	_

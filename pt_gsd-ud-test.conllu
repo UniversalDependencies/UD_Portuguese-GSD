@@ -286,8 +286,8 @@
 # text = Face à reiterada ausência e à paulatina transferência do centro da diocese para Ponta Delgada, o cabido apresentou queixa ao rei, que em 1772 mandou o prelado recolher à sua Sé.
 1	Face	face	NOUN	NOUN	_	5	case	_	_
 2-3	à	_	_	_	_	_	_	_	_
-2	a	a	ADP	ADP	_	1	case	_	_
-3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	det	_	_
+2	a	a	ADP	ADP	_	5	case	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 4	reiterada	reiterado	ADJ	ADJ	_	5	amod	_	_
 5	ausência	ausência	NOUN	NOUN	_	23	nmod	_	_
 6	e	e	CCONJ	CONJ	_	10	cc	_	_
@@ -5166,15 +5166,9 @@
 6	metilbutano	_	NOUN	NOUN	_	4	conj	_	_
 7	(	(	PUNCT	.	_	8	punct	_	SpaceAfter=No
 8	CH3	_	PROPN	PNOUN	_	1	appos	_	SpaceAfter=No
-9	)	)	PUNCT	.	_	12	punct	_	_
-10	2	2	NUM	NUM	NumType=Card	8	appos	_	_
-11	-	-	PUNCT	.	_	12	punct	_	_
-12	CH	_	PROPN	PNOUN	_	8	conj	_	_
-13	-	-	PUNCT	.	_	14	punct	_	_
-14	CH2	_	PROPN	PNOUN	_	8	conj	_	_
-15	-	-	PUNCT	.	_	16	punct	_	_
-16	CH3	_	PROPN	PNOUN	_	8	conj	_	_
-18	.	.	PUNCT	.	_	1	punct	_	_
+9	)	)	PUNCT	.	_	8	punct	_	_
+10	2-CH-CH2-CH3	2-CH-CH2-CH3	NOUN	NOUN	_	8	appos	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = test-s163
 # text = "Não é isso que está sendo feito.
@@ -10642,15 +10636,15 @@
 28	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = test-s344a
-# text = Times da NBA vencem europeus --
-1	Times	time	NOUN	NOUN	_	6	nsubj	_	_
+# text = Times da NBA vencem europeus.
+1	Times	time	NOUN	NOUN	_	5	nsubj	_	_
 2-3	da	_	_	_	_	_	_	_	_
 2	de	de	ADP	ADP	_	4	case	_	_
 3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	NBA	_	PROPN	PNOUN	_	1	nmod	_	_
-5	vencem	vencer	AUX	AUX	_	6	cop	_	_
-6	europeus	europeu	NOUN	NOUN	_	0	root	_	_
-7	--	_	PUNCT	.	_	6	punct	_	_
+5	vencem	vencer	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	europeus	europeu	NOUN	NOUN	_	5	obj	_	SpaceAfter=No
+7	.	_	PUNCT	.	_	6	punct	_	_
 
 # sent_id = test-s344b
 # text = Outras três equipes da liga norte - americana de basquete entraram em quadra na noite deste sábado para enfrentar equipes europeias e não decepcionaram.
@@ -11710,11 +11704,12 @@
 23	viveria	viver	VERB	VERB	_	7	ccomp	_	_
 24	depois	depois	ADV	ADV	_	27	case	_	_
 25-26	dos	_	_	_	_	_	_	_	_
-25	de	de	ADP	ADP	_	24	case	_	_
-26	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+25	de	de	ADP	ADP	_	27	case	_	_
+26	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
 27	idos	idos	NOUN	NOUN	_	23	nmod	_	_
 28	de	de	ADP	ADP	_	29	case	_	_
-29	Março.	_	PROPN	PNOUN	_	27	nmod	_	_
+29	Março	_	PROPN	PNOUN	_	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = test-s379b
 # text = Impressionado, César resolveu não sair de casa naquele dia.
@@ -12317,10 +12312,8 @@
 
 # udpipe_model = portuguese-bosque-ud-2.12-230717
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# sent_id = test-s400
 # text = Ganhou a primeira dica na Flórida: "Então, uma noite, sentado e olhando através da baía enquanto estacionado em Key Largo e perguntando o que eu deveria estar fazendo, automaticamente escrevi num pedaço de papel, 'me tornar uma carga oposta", diz ele no livro.
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
+# sent_id = test-s400
 1	Ganhou	ganhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	52	parataxis	_	_
 2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
@@ -12329,7 +12322,7 @@
 5	em	em	ADP	_	_	7	case	_	_
 6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Flórida	Flórida	PROPN	_	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
-8	:	:	PUNCT	_	_	1	punct	_	_
+8	:	:	PUNCT	_	_	7	punct	_	_
 9	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
 10	Então	então	ADV	_	_	15	advmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
@@ -13035,8 +13028,6 @@
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # sent_id = test-s421
 # text = O canal, no trecho lagunar sul, além de estreito, possui vinte e duas ilhotas, sem contar a do Linguado (às vezes denominada João Dias), que é a maior em todo o braço de mar, com quatro quilômetros de comprimento.
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	canal	canal	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	_
@@ -13066,7 +13057,7 @@
 25	Linguado	Linguado	PROPN	_	Gender=Masc|Number=Sing	22	nmod	_	_
 26	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
 27-28	às	_	_	_	_	_	_	_	_
-27	a	a	ADP	_	_	30	advmod	_	_
+27	a	a	ADP	_	_	29	mark	_	_
 28	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
 29	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	30	obl	_	_
 30	denominada	denominar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	25	acl	_	_
@@ -14262,8 +14253,6 @@
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # sent_id = test-s460
 # text = Então proprietário da Kuarup Discos, que encerrou as atividades em 2009, Mário de Aratanha captou, em plenos anos 1980, o potencial da música regional que, se não vende milhares de cópias, como continuam querendo as combalidas gravadoras, consegue reunir centenas, e às vezes, milhares de pessoas, em concertos e shows.
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
 1	Então	então	ADV	_	_	2	advmod	_	_
 2	proprietário	proprietário	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
 3-4	da	_	_	_	_	_	_	_	_
@@ -14271,7 +14260,7 @@
 4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Kuarup	Kuarup	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	2	nmod	_	_
 6	Discos	Discos	PROPN	_	Number=Sing	5	flat:name	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	2	punct	_	_
+7	,	,	PUNCT	_	_	9	punct	_	_
 8	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	9	nsubj	_	_
 9	encerrou	encerrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
 10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
@@ -14315,13 +14304,13 @@
 47	consegue	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	_
 48	reunir	reunir	VERB	_	VerbForm=Inf	47	xcomp	_	_
 49	centenas	centena	NOUN	_	Gender=Fem|Number=Plur	48	obj	_	SpaceAfter=No
-50	,	,	PUNCT	_	_	52	punct	_	_
+50	,	,	PUNCT	_	_	51	punct	_	_
 51	e	e	CCONJ	_	_	56	cc	_	_
 52-53	às	_	_	_	_	_	_	_	_
-52	a	a	ADP	_	ExtPos=ADV	48	advmod	_	_
-53	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	52	fixed	_	_
-54	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	52	fixed	_	SpaceAfter=No
-55	,	,	PUNCT	_	_	52	punct	_	_
+52	a	a	ADP	_	_	54	mark	_	_
+53	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	54	det	_	_
+54	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	48	obl	_	SpaceAfter=No
+55	,	,	PUNCT	_	_	56	punct	_	_
 56	milhares	milhar	NUM	_	NumType=Card	49	conj	_	_
 57	de	de	ADP	_	_	58	case	_	_
 58	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	56	nmod	_	SpaceAfter=No
@@ -15614,8 +15603,8 @@
 
 # udpipe_model = portuguese-bosque-ud-2.12-230717
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Gravado no Pavilhão de Exposições do Complexo do Anhembi, em São Paulo, o show, com direção do cantor Ney Matogrosso, traz grandes sucessos, como Revoluções Por Minuto, Rádio Pirata, Olhar 43 e as então inéditas Naja (instrumental baseado nos teclados de Luiz Schiavon) e Alvorada Voraz, além das regravações de London, London (de Caetano Veloso) e de Flores Astrais (do grupo Secos & Molhados, do qual Ney Matogrosso fez parte).
 # sent_id = test-s502
-# text = Gravado no Pavilhão de Exposições do Complexo do Anhembi, em São Paulo, o show, com direção do cantor Ney Matogrosso, traz grandes sucessos, como Revoluções Por Minuto, Rádio Pirata, Olhar 43 e as então inéditas Naja (instrumental baseado nos teclados de Luiz Schiavon) e Alvorada Voraz, além das regravações de London, London (de Caetano Veloso) e de Flores Astrais (do grupo Secos &amp; Molhados, do qual Ney Matogrosso fez parte).
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # udpipe_model = portuguese-bosque-ud-2.12-230717
 1	Gravado	gravar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	19	acl	_	_
@@ -15708,21 +15697,19 @@
 81	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	82	det	_	_
 82	grupo	grupo	NOUN	_	Gender=Masc|Number=Sing	77	nmod	_	_
 83	Secos	Secos	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	82	appos	_	_
-84	&	&	PROPN	_	Number=Sing	83	flat:name	_	SpaceAfter=No
-85	amp	amp	PROPN	_	Number=Sing	83	flat:name	_	SpaceAfter=No
-86	;	;	PUNCT	_	_	87	punct	_	_
-87	Molhados	Molhados	PROPN	_	Gender=Masc|Number=Sing	67	conj	_	SpaceAfter=No
-88	,	,	PUNCT	_	_	94	punct	_	_
-89-90	do	_	_	_	_	_	_	_	_
-89	de	de	ADP	_	_	91	case	_	_
-90	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	91	det	_	_
-91	qual	qual	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	94	obl	_	_
-92	Ney	Ney	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	94	nsubj	_	_
-93	Matogrosso	Matogrosso	PROPN	_	Number=Sing	92	flat:name	_	_
-94	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	82	acl:relcl	_	_
-95	parte	parte	NOUN	_	Gender=Fem|Number=Sing	94	obj	_	SpaceAfter=No
-96	)	)	PUNCT	_	_	82	punct	_	SpaceAfter=No
-97	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+84	&	&	PROPN	_	Number=Sing	83	flat:name	_	_
+85	Molhados	Molhados	PROPN	_	Number=Sing	83	flat:name	_	SpaceAfter=No
+86	,	,	PUNCT	_	_	92	punct	_	_
+87-88	do	_	_	_	_	_	_	_	_
+87	de	de	ADP	_	_	89	case	_	_
+88	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	89	det	_	_
+89	qual	qual	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	92	obl	_	_
+90	Ney	Ney	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	92	nsubj	_	_
+91	Matogrosso	Matogrosso	PROPN	_	Number=Sing	90	flat:name	_	_
+92	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	82	acl:relcl	_	_
+93	parte	parte	NOUN	_	Gender=Fem|Number=Sing	92	obj	_	SpaceAfter=No
+94	)	)	PUNCT	_	_	82	punct	_	SpaceAfter=No
+95	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
 
 # udpipe_model = portuguese-bosque-ud-2.12-230717
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
@@ -19990,8 +19977,6 @@
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # sent_id = test-s638
 # text = Primeiro veio o (goleiro) Rafael, o (lateral - esquerdo) Léo, todo mundo veio me cumprimentar.
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
 1	Primeiro	primeiro	ADV	_	_	2	advmod	_	_
 2	veio	vir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -20006,8 +19991,8 @@
 12	-	-	PUNCT	_	_	13	punct	_	_
 13	esquerdo	esquerdo	ADJ	_	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
 14	)	)	PUNCT	_	_	11	punct	_	_
-15	Léo	Léo	PROPN	_	Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	21	punct	_	_
+15	Léo	Léo	PROPN	_	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	19	punct	_	_
 17	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Tot	18	det	_	_
 18	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
 19	veio	vir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	_
@@ -20369,55 +20354,55 @@
 39	bilhões	_	NUM	NUM	NumType=Card	36	nummod	_	SpaceAfter=No
 40	.	.	PUNCT	.	_	14	punct	_	_
 
-# sent_id = test-s651
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Como o título não está disponível em pré-venda na PSN americana, isso pode significar que a versão para download do PS3 não dará acesso ao Premiere Club, que permite baixar conteúdos como a classe Mechromancer gratuitamente.
-1	Como	_	CCONJ	CONJ	_	5	mark	_	_
-2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	título	título	NOUN	NOUN	_	5	nsubj	_	_
-4	não	não	ADV	ADV	Polarity=Neg	5	advmod	_	_
-5	está	estar	VERB	VERB	_	18	advcl	_	_
-6	disponível	disponível	ADJ	ADJ	_	5	xcomp	_	_
-7	em	em	ADP	ADP	_	8	case	_	_
-8	pré	_	PART	PRT	_	6	nmod	_	_
-9	-	-	PUNCT	.	_	8	punct	_	_
-10	venda	venda	NOUN	NOUN	_	8	flat	_	_
-11-12	na	_	_	_	_	_	_	_	_
-11	em	em	ADP	ADP	_	13	case	_	_
-12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	PSN	_	PROPN	PNOUN	_	6	nmod	_	_
-14	americana	americano	ADJ	ADJ	_	13	amod	_	SpaceAfter=No
-15	,	,	PUNCT	.	_	5	punct	_	_
-16	isso	_	PRON	PRON	_	18	nsubj	_	_
-17	pode	_	AUX	AUX	_	18	aux	_	_
-18	significar	significar	VERB	VERB	_	0	root	_	_
-19	que	que	CCONJ	CONJ	_	28	mark	_	_
-20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-21	versão	versão	NOUN	NOUN	_	28	nsubj	_	_
-22	para	para	ADP	ADP	_	23	case	_	_
-23	download	_	NOUN	NOUN	_	21	nmod	_	_
-24-25	do	_	_	_	_	_	_	_	_
-24	de	de	ADP	ADP	_	26	case	_	_
-25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	PS3	_	PROPN	PNOUN	_	21	nmod	_	_
-27	não	não	ADV	ADV	Polarity=Neg	28	advmod	_	_
-28	dará	dar	VERB	VERB	_	18	ccomp	_	_
-29	acesso	acesso	NOUN	NOUN	_	28	obj	_	_
-30-31	ao	_	_	_	_	_	_	_	_
-30	a	a	ADP	ADP	_	32	case	_	_
-31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
-32	Premiere	_	PROPN	PNOUN	_	29	nmod	_	_
-33	Club	_	PROPN	PNOUN	_	32	flat	_	SpaceAfter=No
-34	,	,	PUNCT	.	_	36	punct	_	_
-35	que	_	PRON	PRON	_	36	nsubj	_	_
-36	permite	permitir	VERB	VERB	_	32	acl:relcl	_	_
-37	baixar	baixar	VERB	VERB	_	36	xcomp	_	_
-38	conteúdos	conteúdo	NOUN	NOUN	_	37	obj	_	_
-39	como	como	ADP	ADP	_	41	case	_	_
-40	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
-41	classe	classe	NOUN	NOUN	_	38	nmod	_	_
-42	Mechromancer	_	PROPN	PNOUN	_	41	appos	_	_
-43	gratuitamente	gratuitamente	ADV	ADV	_	37	advmod	_	SpaceAfter=No
-44	.	.	PUNCT	.	_	18	punct	_	_
+# sent_id = test-s651
+1	Como	como	SCONJ	_	_	6	mark	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	título	título	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	não	não	ADV	_	Polarity=Neg	6	advmod	_	_
+5	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	disponível	disponível	ADJ	_	Gender=Masc|Number=Sing	16	advcl	_	_
+7	em	em	ADP	_	_	8	case	_	_
+8	pré-venda	pré-venda	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+9-10	na	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	PSN	PSN	PROPN	_	Gender=Fem|Number=Sing	6	obl	_	_
+12	americana	americano	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	6	punct	_	_
+14	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	15	nsubj	_	_
+15	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	significar	significar	VERB	_	VerbForm=Inf	15	xcomp	_	_
+17	que	que	SCONJ	_	_	26	mark	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	versão	versão	NOUN	_	Gender=Fem|Number=Sing	26	nsubj	_	_
+20	para	para	ADP	_	_	21	case	_	_
+21	download	download	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	PS3	PS3	PROPN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+25	não	não	ADV	_	Polarity=Neg	26	advmod	_	_
+26	dará	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	ccomp	_	_
+27	acesso	acesso	NOUN	_	Gender=Masc|Number=Sing	26	obj	_	_
+28-29	ao	_	_	_	_	_	_	_	_
+28	a	a	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	Premiere	Premiere	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	26	obl	_	_
+31	Club	Club	PROPN	_	Number=Sing	30	flat:name	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	34	punct	_	_
+33	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	34	nsubj	_	_
+34	permite	permitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	_
+35	baixar	baixar	VERB	_	VerbForm=Inf	34	xcomp	_	_
+36	conteúdos	conteúdo	NOUN	_	Gender=Masc|Number=Plur	35	obj	_	_
+37	como	como	ADP	_	_	39	case	_	_
+38	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	classe	classe	NOUN	_	Gender=Fem|Number=Sing	36	nmod	_	_
+40	Mechromancer	Mechromancer	PROPN	_	Gender=Fem|Number=Sing	39	appos	_	_
+41	gratuitamente	gratuitamente	ADV	_	_	35	advmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
 
 # sent_id = test-s652
 # text = Graça defendeu o aumento da proporção de etanol misturado à gasolina, apesar de dizer que não tem influência sobre a decisão, que cabe ao governo e à Agência Nacional do Petróleo (ANP).
@@ -24879,15 +24864,13 @@
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # sent_id = test-s783
 # text = Focam o desafio de levar algo novo (ou diferente) ao mercado.
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
 1	Focam	focar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	desafio	desafio	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
 4	de	de	SCONJ	_	_	5	mark	_	_
 5	levar	levar	VERB	_	VerbForm=Inf	3	acl	_	_
-6	algo	algo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	7	advmod	_	_
-7	novo	novo	ADJ	_	Gender=Masc|Number=Sing	5	obj	_	_
+6	algo	algo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	5	obj	_	_
+7	novo	novo	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
 8	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
 9	ou	ou	CCONJ	_	_	10	cc	_	_
 10	diferente	diferente	ADJ	_	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
@@ -25266,8 +25249,6 @@
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # sent_id = test-s798
 # text = Com o término das festividades, a Comissão de japoneses deveria ser dissolvida, mas revelando-se a união conseguida, resolveu criar-se uma entidade representativa, que mais tarde passou a ser denominada de Sociedade Brasileira de Cultura Japonesa.
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
 1	Com	com	ADP	_	_	3	case	_	_
 2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	término	término	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
@@ -25287,7 +25268,7 @@
 16	mas	mas	CCONJ	_	_	17	cc	_	_
 17-18	revelando-se	_	_	_	_	_	_	_	_
 17	revelando	revelar	VERB	_	VerbForm=Ger	14	conj	_	_
-18	se	se	PRON	_	Case=Acc|PronType=Prs	17	nsubj	_	_
+18	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	expl	_	_
 19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	união	união	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
 21	conseguida	conseguir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	20	acl	_	SpaceAfter=No
@@ -25523,16 +25504,14 @@
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # sent_id = test-s806
 # text = "Como estão as coisas, eu não posso deixar de receber nem um dia sequer.
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
 1	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
 2	Como	como	ADV	_	_	3	advmod	_	_
 3	estão	estar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
 4	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
-5	coisas	coisa	NOUN	_	Gender=Fem|Number=Plur	9	nsubj	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	3	punct	_	_
+5	coisas	coisa	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	_
 7	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
-8	não	não	ADV	_	Polarity=Neg	12	advmod	_	_
+8	não	não	ADV	_	Polarity=Neg	9	advmod	_	_
 9	posso	poder	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	deixar	deixar	VERB	_	ExtPos=AUX|VerbForm=Inf	9	xcomp	_	_
 11	de	de	SCONJ	_	_	12	mark	_	_
@@ -31088,10 +31067,8 @@
 
 # udpipe_model = portuguese-bosque-ud-2.12-230717
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Em resposta, o tucano afirmou que o petista "está seguindo as lições" do ex-ministro da Casa Civil José Dirceu, condenado pelo Supremo Tribunal Federal na terça-feira, pelo crime de corrupção ativa.
 # sent_id = test-s990
-# text = Em resposta, o tucano afirmou que o petista "está seguindo as lições" do ex - ministro da Casa Civil José Dirceu, condenado pelo Supremo Tribunal Federal na terça - feira, pelo crime de corrupção ativa.
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
 1	Em	em	ADP	_	_	2	case	_	_
 2	resposta	resposta	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -31106,43 +31083,39 @@
 12	seguindo	seguir	VERB	_	VerbForm=Ger	6	ccomp	_	_
 13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
 14	lições	lição	NOUN	_	Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No
-15	"	"	PUNCT	_	_	12	punct	_	_
+15	"	"	PUNCT	_	_	14	punct	_	_
 16-17	do	_	_	_	_	_	_	_	_
-16	de	de	ADP	_	_	20	case	_	_
-17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-18	ex	ex	ADJ	_	Gender=Masc|Number=Sing	14	nmod	_	_
-19	-	-	PUNCT	_	_	20	punct	_	_
-20	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
-21-22	da	_	_	_	_	_	_	_	_
-21	de	de	ADP	_	_	23	case	_	_
-22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-23	Casa	casa	NOUN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	20	nmod	_	_
-24	Civil	civil	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
-25	José	José	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	20	appos	_	_
-26	Dirceu	Dirceu	PROPN	_	Number=Sing	25	flat:name	_	SpaceAfter=No
-27	,	,	PUNCT	_	_	28	punct	_	_
-28	condenado	condenar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	20	acl	_	_
-29-30	pelo	_	_	_	_	_	_	_	_
-29	por	por	ADP	_	_	31	case	_	_
-30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-31	Supremo	Supremo	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	28	obl:agent	_	_
-32	Tribunal	Tribunal	PROPN	_	Number=Sing	31	flat:name	_	_
-33	Federal	Federal	PROPN	_	Number=Sing	31	flat:name	_	_
-34-35	na	_	_	_	_	_	_	_	_
-34	em	em	ADP	_	_	36	case	_	_
-35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-36	terça	terça	NOUN	_	Gender=Fem|Number=Sing	28	obl	_	_
-37	-	-	PUNCT	_	_	38	punct	_	_
-38	feira	feira	NOUN	_	Gender=Fem|Number=Sing	36	nmod	_	SpaceAfter=No
-39	,	,	PUNCT	_	_	28	punct	_	_
-40-41	pelo	_	_	_	_	_	_	_	_
-40	por	por	ADP	_	_	42	case	_	_
-41	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
-42	crime	crime	NOUN	_	Gender=Masc|Number=Sing	28	obl	_	_
-43	de	de	ADP	_	_	44	case	_	_
-44	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	42	nmod	_	_
-45	ativa	ativo	ADJ	_	Gender=Fem|Number=Sing	44	amod	_	SpaceAfter=No
-46	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	ex-ministro	ex-ministro	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Casa	casa	NOUN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	18	nmod	_	_
+22	Civil	civil	ADJ	_	Number=Sing	21	amod	_	_
+23	José	José	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	21	appos	_	_
+24	Dirceu	Dirceu	PROPN	_	Number=Sing	21	flat:name	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	condenado	condenar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	18	acl	_	_
+27-28	pelo	_	_	_	_	_	_	_	_
+27	por	por	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	Supremo	Supremo	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	26	obl:agent	_	_
+30	Tribunal	Tribunal	PROPN	_	Number=Sing	29	flat:name	_	_
+31	Federal	Federal	PROPN	_	Number=Sing	29	flat:name	_	_
+32-33	na	_	_	_	_	_	_	_	_
+32	em	em	ADP	_	_	34	case	_	_
+33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	terça-feira	terça-feira	NOUN	_	Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	26	punct	_	_
+36-37	pelo	_	_	_	_	_	_	_	_
+36	por	por	ADP	_	_	38	case	_	_
+37	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	crime	crime	NOUN	_	Gender=Masc|Number=Sing	26	obl	_	_
+39	de	de	ADP	_	_	40	case	_	_
+40	corrupção	corrupção	NOUN	_	Gender=Fem|Number=Sing	38	nmod	_	_
+41	ativa	ativo	ADJ	_	Gender=Fem|Number=Sing	40	amod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
 # sent_id = test-s991
 # text = O evento é destinado à divulgação científica dos membros do Programa de Apoio a Núcleos de Excelência (Pronex), uma parceria da Fundação Amazônia Paraense, UFPA, Fundação de Amparo e Desenvolvimento da Pesquisa (Fadesp) e Secretaria de Estado de Ciência, Tecnologia e Inovação (Secti).
@@ -36404,34 +36377,34 @@
 5	perdido	perdido	ADJ	ADJ	_	4	xcomp	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = test-s1159
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = O ex-jogador afirmou que a entidade não tinha "decência", e pediu até a invervenção da presidente Dilma Rousseff.
-1	O	o	DET	DET	_	2	det	_	_
-2	ex	_	PART	PRT	_	5	nsubj	_	_
-3	-	-	PUNCT	.	_	2	punct	_	_
-4	jogador	jogador	NOUN	NOUN	_	2	flat	_	_
-5	afirmou	afirmar	VERB	VERB	_	0	root	_	_
-6	que	que	CCONJ	CONJ	_	10	mark	_	_
-7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	entidade	entidade	NOUN	NOUN	_	10	nsubj	_	_
-9	não	não	ADV	ADV	Polarity=Neg	10	advmod	_	_
-10	tinha	ter	VERB	VERB	_	5	ccomp	_	_
-11	"	"	PUNCT	.	_	12	punct	_	SpaceAfter=No
-12	decência	decência	NOUN	NOUN	_	10	obj	_	SpaceAfter=No
-13	"	"	PUNCT	.	_	12	punct	_	SpaceAfter=No
-14	,	,	PUNCT	.	_	10	punct	_	_
-15	e	e	CCONJ	CONJ	_	16	cc	_	_
-16	pediu	pedir	VERB	VERB	_	5	conj	_	_
-17	até	até	ADV	ADV	_	16	advmod	_	_
-18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	invervenção	_	NOUN	NOUN	_	16	obj	_	_
-20-21	da	_	_	_	_	_	_	_	_
-20	de	de	ADP	ADP	_	22	case	_	_
-21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	presidente	presidente	NOUN	NOUN	_	19	nmod	_	_
-23	Dilma	_	PROPN	PNOUN	_	22	appos	_	_
-24	Rousseff	_	PROPN	PNOUN	_	23	flat	_	SpaceAfter=No
-25	.	.	PUNCT	.	_	5	punct	_	_
+# sent_id = test-s1159
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ex-jogador	ex-jogador	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	8	mark	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	entidade	entidade	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+7	não	não	ADV	_	Polarity=Neg	8	advmod	_	_
+8	tinha	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	ccomp	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	decência	decência	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	pediu	pedir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
+15	até	até	ADV	_	_	17	advmod	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	invervenção	invervenção	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+18-19	da	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	presidente	presidente	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+21	Dilma	Dilma	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	20	appos	_	_
+22	Rousseff	Rousseff	PROPN	_	Number=Sing	21	flat:name	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
 
 # udpipe_model = portuguese-bosque-ud-2.12-230717
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
@@ -36985,10 +36958,8 @@
 20	ONG	_	PROPN	PNOUN	_	18	obj	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	3	punct	_	_
 
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# sent_id = test-s1183
 # text = Aos quatro minutos, a África do Sul voltou a assustar, quando Parker dominou pela direita, driblou David Luiz e cruzou da linha de fundo para Dedé quase marcar contra.
+# sent_id = test-s1183
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # udpipe_model = portuguese-bosque-ud-2.12-230717
 1-2	Aos	_	_	_	_	_	_	_	_
@@ -37030,7 +37001,7 @@
 33	Dedé	Dedé	PROPN	_	Gender=Masc|Number=Sing	35	nsubj	_	_
 34	quase	quase	ADV	_	_	35	advmod	_	_
 35	marcar	marcar	VERB	_	VerbForm=Inf	26	advcl	_	_
-36	contra	contra	ADP	_	_	35	advmod	_	SpaceAfter=No
+36	contra	contra	ADV	_	_	35	advmod	_	SpaceAfter=No
 37	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
 
 # sent_id = test-s1184

@@ -44,49 +44,51 @@
 13	Müller	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	3	punct	_	_
 
-# sent_id = train-s1331
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Antônio Vivaldi, François Couperin, Girolamo Frescobaldi, Dietrich Buxtehude e Luiz Álvares Pinto se encontram, a partir desta terça-feira (3), no I Festival de Música Barroca do Recife.
-1	Antônio	_	PROPN	PNOUN	_	17	nsubj	_	_
-2	Vivaldi	_	PROPN	PNOUN	_	1	flat	_	SpaceAfter=No
-3	,	,	PUNCT	.	_	4	punct	_	_
-4	François	_	PROPN	PNOUN	_	1	conj	_	_
-5	Couperin	_	PROPN	PNOUN	_	4	flat	_	SpaceAfter=No
-6	,	,	PUNCT	.	_	7	punct	_	_
-7	Girolamo	_	PROPN	PNOUN	_	1	conj	_	_
-8	Frescobaldi	_	PROPN	PNOUN	_	7	flat	_	SpaceAfter=No
-9	,	,	PUNCT	.	_	10	punct	_	_
-10	Dietrich	_	PROPN	PNOUN	_	1	conj	_	_
-11	Buxtehude	_	PROPN	PNOUN	_	10	flat	_	_
-12	e	e	CCONJ	CONJ	_	13	cc	_	_
-13	Luiz	_	PROPN	PNOUN	_	1	conj	_	_
-14	Álvares	_	PROPN	PNOUN	_	13	flat	_	_
-15	Pinto	_	PROPN	PNOUN	_	13	flat	_	_
-16	se	_	PRON	PRON	_	17	obj	_	_
-17	encontram	encontrar	VERB	VERB	_	0	root	_	SpaceAfter=No
-18	,	,	PUNCT	.	_	20	punct	_	_
-19	a	_	ADP	ADP	_	20	mark	_	_
-20	partir	partir	VERB	VERB	_	17	nmod	_	_
-21	desta	_	ADP	ADP	_	24	case	_	_
-22	terça	_	PROPN	PNOUN	_	24	amod	_	_
-23	-	-	PUNCT	.	_	24	punct	_	_
-24	feira	_	PROPN	PNOUN	_	20	nmod	_	_
-25	(	(	PUNCT	.	_	26	punct	_	SpaceAfter=No
-26	3	3	NUM	NUM	NumType=Card	24	nmod	_	SpaceAfter=No
-27	)	)	PUNCT	.	_	26	punct	_	SpaceAfter=No
-28	,	,	PUNCT	.	_	20	punct	_	_
-29-30	no	_	_	_	_	_	_	_	_
-29	em	em	ADP	ADP	_	32	case	_	_
-30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
-31	I	_	PROPN	PNOUN	_	32	amod	_	_
-32	Festival	_	PROPN	PNOUN	_	17	nmod	_	_
-33	de	de	ADP	ADP	_	34	case	_	_
-34	Música	_	PROPN	PNOUN	_	32	nmod	_	_
-35	Barroca	_	PROPN	PNOUN	_	34	amod	_	_
-36-37	do	_	_	_	_	_	_	_	_
-36	de	de	ADP	ADP	_	38	case	_	_
-37	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
-38	Recife	_	PROPN	PNOUN	_	34	nmod	_	SpaceAfter=No
-39	.	.	PUNCT	.	_	17	punct	_	_
+# sent_id = train-s1331
+1	Antônio	Antônio	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	17	nsubj	_	_
+2	Vivaldi	Vivaldi	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	François	François	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	1	conj	_	_
+5	Couperin	Couperin	PROPN	_	Number=Sing	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	Girolamo	Girolamo	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	1	conj	_	_
+8	Frescobaldi	Frescobaldi	PROPN	_	Number=Sing	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	Dietrich	Dietrich	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	1	conj	_	_
+11	Buxtehude	Buxtehude	PROPN	_	Number=Sing	10	flat:name	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	Luiz	Luiz	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	1	conj	_	_
+14	Álvares	Álvares	PROPN	_	Number=Sing	13	flat:name	_	_
+15	Pinto	Pinto	PROPN	_	Number=Sing	13	flat:name	_	_
+16	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	17	expl	_	_
+17	encontram	encontrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	a	a	ADP	_	_	20	case	_	_
+20	partir	partir	VERB	_	VerbForm=Inf	17	obl	_	_
+21-22	desta	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	23	det	_	_
+23	terça-feira	terça-feira	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	3	3	NUM	_	NumType=Card	23	appos	_	SpaceAfter=No
+26	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	17	punct	_	_
+28-29	no	_	_	_	_	_	_	_	_
+28	em	em	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	I	I	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	17	obl	_	_
+31	Festival	Festival	PROPN	_	Number=Sing	30	flat:name	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	Música	Música	PROPN	_	ExtPos=PROPN|Number=Sing	30	nmod	_	_
+34	Barroca	Barroca	PROPN	_	Number=Sing	33	flat:name	_	_
+35-36	do	_	_	_	_	_	_	_	_
+35	de	de	ADP	_	_	37	case	_	_
+36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	Recife	Recife	PROPN	_	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
 
 # sent_id = train-s1332
 # text = Terra: O que você acha das mulheres que tentam seguir um padrão muito diferente do seu biótipo e estão sempre se achando gordas?

@@ -235,30 +235,32 @@
 34	paulista	paulista	ADJ	ADJ	_	33	amod	_	SpaceAfter=No
 35	.	.	PUNCT	.	_	4	punct	_	_
 
-# sent_id = train-s8426
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Essa é a terceira ocorrência desse tipo desde a última sexta-feira (23), totalizando oito veículos incendiados.
-1	Essa	_	PRON	PRON	_	5	nsubj	_	_
-2	é	ser	AUX	AUX	_	5	cop	_	_
-3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-4	terceira	_	ADJ	ADJ	_	5	amod	_	_
-5	ocorrência	ocorrência	NOUN	NOUN	_	0	root	_	_
-6	desse	_	ADP	ADP	_	7	case	_	_
-7	tipo	tipo	NOUN	NOUN	_	5	nmod	_	_
-8	desde	_	ADP	ADP	_	13	case	_	_
-9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-10	última	último	ADJ	ADJ	_	13	amod	_	_
-11	sexta	_	PROPN	PNOUN	_	13	amod	_	_
-12	-	-	PUNCT	.	_	13	punct	_	_
-13	feira	_	PROPN	PNOUN	_	5	nmod	_	_
-14	(	(	PUNCT	.	_	15	punct	_	SpaceAfter=No
-15	23	23	NUM	NUM	NumType=Card	13	nmod	_	SpaceAfter=No
-16	)	)	PUNCT	.	_	15	punct	_	SpaceAfter=No
-17	,	,	PUNCT	.	_	18	punct	_	_
-18	totalizando	totalizar	VERB	VERB	_	5	acl	_	_
-19	oito	_	NUM	NUM	NumType=Card	20	nummod	_	_
-20	veículos	veículo	NOUN	NOUN	_	18	obj	_	_
-21	incendiados	incendiar	VERB	VERB	_	20	acl	_	SpaceAfter=No
-22	.	.	PUNCT	.	_	18	punct	_	_
+# sent_id = train-s8426
+1	Essa	esse	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	5	nsubj	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	terceira	terceiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	5	amod	_	_
+5	ocorrência	ocorrência	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+6-7	desse	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9	desde	desde	ADP	_	_	12	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	última	último	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	12	amod	_	_
+12	sexta-feira	sexta-feira	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	23	23	NUM	_	NumType=Card	12	appos	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	totalizando	totalizar	VERB	_	VerbForm=Ger	5	advcl	_	_
+18	oito	oito	NUM	_	NumType=Card	19	nummod	_	_
+19	veículos	veículo	NOUN	_	Gender=Masc|Number=Plur	17	obj	_	_
+20	incendiados	incendiar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	19	acl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
 
 # sent_id = train-s8427
 # text = Precisamos ser mais cultos e menos cults ", diz Alceu, fã da nova geração.

@@ -5,7 +5,7 @@
   (reduce (lambda (res fn) 
 	    (let ((data (reduce (lambda (res a)
 				  (multiple-value-bind (m r) 
-				      (ppcre:scan-to-strings "\\[Line [0-9]+ Sent ((train|test|dev)-s[0-9]+) Node [0-9]+\\]" a)
+				      (ppcre:scan-to-strings "\\[Line [0-9]+ Sent ((train|test|dev)-s[0-9a-z]+)( Node [0-9]+)?\\]" a)
 				    (if m (cons (aref r 0) res) res)))
 				(uiop:read-file-lines fn) :initial-value nil))) 
 	      (if data (cons (list 'file (pathname-name fn) 'sents (remove-duplicates data :test #'equal)) res) res))) 
