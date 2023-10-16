@@ -10,12 +10,12 @@ Treebank v2.0 (legacy)](https://github.com/ryanmcd/uni-dep-tb).
  * start to fix the enclitics tokenization
 
 * 2021-05-01 v2.8
- * Fixed verbs that are not AUX in PT 
+ * Fixed verbs that are not AUX in PT
  * Fixed some cases of missing MWT (contractions)
- * Fixed some other erros in validation. 
- * added many more missing lemmas 
+ * Fixed some other erros in validation.
+ * added many more missing lemmas
  * removed undocumented subtypes "xcomp:adj" and "acl:part".
- 
+
   We still have many validation errors and incompatibilities with
   UD_Portuguese-Bosque.
 
@@ -104,10 +104,10 @@ Includes text: yes
 Genre: blog news
 Lemmas: automatic
 UPOS: converted from manual
-XPOS: manual native
-Features: not available
+XPOS: automatic
+Features: automatic
 Relations: converted from manual
-Contributors: Rademaker, Alexandre; McDonald, Ryan; Nivre, Joakim; Zeman, Daniel; Chalub, Fabricio; Ramisch, Carlos; Belieni, Juan; Wille, Vanessa Berwanger; Pintucci, Rodrigo 
+Contributors: Rademaker, Alexandre; McDonald, Ryan; Nivre, Joakim; Zeman, Daniel; Chalub, Fabricio; Ramisch, Carlos; Belieni, Juan; Wille, Vanessa Berwanger; Pintucci, Rodrigo
 Contributing: here
 Contact: arademaker@gmail.com
 ===============================================================================
