@@ -116,97 +116,55 @@
 28	tucanos	tucano	NOUN	NOUN	_	25	nmod	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	1	punct	_	_
 
-# udpipe_model = portuguese-bosque-ud-2.12-230717
+# sent_id = train-s3465a
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# text = O Número e no Cálculo == A função exponencial y = e ^ {x} tem a intrigante propriedade de ser sua própria derivada, i.e.: \ frac {d} {dx} e ^ {x} = e ^ {x} Isto significa que e tem a notável propriedade de que a taxa de variação de e ^ {x} no ponto x = t vale e ^ {t}.
-# sent_id = train-s3465
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	Número	número	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
-3	e	e	CCONJ	_	_	6	cc	_	_
-4-5	no	_	_	_	_	_	_	_	_
-4	em	em	ADP	_	_	6	case	_	_
-5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	Cálculo	Cálculo	PROPN	_	Gender=Masc|Number=Sing	2	conj	_	_
-7	==	==	PUNCT	_	_	2	punct	_	_
-8	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	função	função	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
-10	exponencial	exponencial	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
-11	y	y	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
-12	=	=	PUNCT	_	_	14	punct	_	_
-13	e	e	CCONJ	_	_	14	cc	_	_
-14	^	^	X	_	_	9	conj	_	_
-15	{	{	X	_	_	14	flat:name	_	SpaceAfter=No
-16	x	x	X	_	Number=Sing	14	flat:name	_	SpaceAfter=No
-17	}	}	PROPN	_	_	14	flat:name	_	_
-18	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-20	intrigante	intrigante	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
-21	propriedade	propriedade	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	_
-22	de	de	SCONJ	_	_	26	mark	_	_
-23	ser	ser	AUX	_	VerbForm=Inf	26	cop	_	_
-24	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	26	det	_	_
-25	própria	próprio	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	_
-26	derivada	derivada	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
-27	,	,	PUNCT	_	_	29	punct	_	_
-28	i.e.:	i.e.:	NOUN	_	_	26	appos	_	_
-29	\	\	NOUN	_	_	26	appos	_	_
-30	frac	frac	X	_	_	29	flat:foreign	_	_
-31	{d}	{d}	X	_	_	29	flat:foreign	_	_
-32	{	{	PUNCT	_	_	29	punct	_	SpaceAfter=No
-33	dx	dx	NOUN	_	_	29	nmod	_	SpaceAfter=No
-34	}	}	PUNCT	_	_	29	punct	_	_
-35	e	e	CCONJ	_	_	36	cc	_	_
-36	^	^	X	_	_	29	conj	_	_
-37	{	{	X	_	_	36	flat:foreign	_	SpaceAfter=No
-38	x	x	X	_	_	36	nmod	_	SpaceAfter=No
-39	}	}	X	_	_	36	flat:foreign	_	_
-40	=	=	PUNCT	_	_	42	punct	_	_
-41	e	e	CCONJ	_	_	42	cc	_	_
-42	^	^	PUNCT	_	_	29	conj	_	_
-43	{	{	PUNCT	_	_	42	punct	_	SpaceAfter=No
-44	x	x	NOUN	_	Gender=Masc|Number=Sing	42	nmod	_	SpaceAfter=No
-45	}	}	PUNCT	_	_	42	punct	_	_
-46	Isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	47	nsubj	_	_
-47	significa	significar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
-48	que	que	SCONJ	_	_	50	mark	_	_
-49	e	e	CCONJ	_	_	50	cc	_	_
-50	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	ccomp	_	_
-51	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
-52	notável	notável	ADJ	_	Gender=Fem|Number=Sing	53	amod	_	_
-53	propriedade	propriedade	NOUN	_	Gender=Fem|Number=Sing	50	obj	_	_
-54	de	de	SCONJ	_	_	71	mark	_	_
-55	que	que	SCONJ	_	_	71	mark	_	_
-56	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	57	det	_	_
-57	taxa	taxa	NOUN	_	Gender=Fem|Number=Sing	71	nsubj	_	_
-58	de	de	ADP	_	_	59	case	_	_
-59	variação	variação	NOUN	_	Gender=Fem|Number=Sing	57	nmod	_	_
-60	de	de	ADP	_	_	62	case	_	_
-61	e	e	CCONJ	_	_	62	cc	_	_
-62	^	^	X	_	_	59	nmod	_	_
-63	{x	{x	X	_	_	62	flat:foreign	_	SpaceAfter=No
-64	}	}	X	_	_	62	flat:foreign	_	_
-65-66	no	_	_	_	_	_	_	_	_
-65	em	em	ADP	_	_	67	case	_	_
-66	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	67	det	_	_
-67	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	59	nmod	_	_
-68	x	x	NOUN	_	Gender=Masc|Number=Sing	67	nmod	_	_
-69	=	=	PUNCT	_	_	70	punct	_	_
-70	t	t	NOUN	_	Gender=Masc|Number=Sing	67	appos	_	_
-71	vale	valer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	53	acl	_	_
-72	e	e	CCONJ	_	_	73	cc	_	_
-73	^	^	PUNCT	_	_	71	conj	_	_
-74	{	{	X	_	_	73	flat:foreign	_	SpaceAfter=No
-75	t	t	X	_	_	73	flat:foreign	_	SpaceAfter=No
-76	}	}	X	_	_	73	punct	_	SpaceAfter=No
-77	.	.	PUNCT	_	_	18	punct	_	SpaceAfter=No
+# text = A função exponencial y=e^x tem a intrigante propriedade de ser sua própria derivada, i.e., \frac{d}{dx}e^{x}=e^{x}.
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	função	função	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	exponencial	exponencial	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	y=e^x	y=e^x	PROPN	_	Gender=Fem|Number=Sing	2	appos	_	_
+5	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	intrigante	intrigante	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+8	propriedade	propriedade	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+9	de	de	SCONJ	_	_	13	mark	_	_
+10	ser	ser	AUX	_	VerbForm=Inf	13	cop	_	_
+11	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	13	det	_	_
+12	própria	próprio	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+13	derivada	derivada	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	i.e.	i.e.	CCONJ	_	_	17	cc	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	\frac{d}{dx}e^{x}=e^{x}	\frac{d}{dx}e^{x}=e^{x}	PROPN	_	Gender=Fem|Number=Sing	13	appos	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = train-s3465b
+# text = Isto significa que e tem a notável propriedade de que a taxa de variação de e^x no ponto x=t vale e^t.
+1	Isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	significa	significar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	5	mark	_	_
+4	e	e	NOUN	_	_	5	nsubj	_	_
+5	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	notável	notável	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+8	propriedade	propriedade	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+9	de	de	SCONJ	_	_	21	mark	_	_
+10	que	que	SCONJ	_	_	21	mark	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	taxa	taxa	NOUN	_	Gender=Fem|Number=Sing	21	nsubj	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	variação	variação	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	e^x	e^x	PROPN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+17-18	no	_	_	_	_	_	_	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+20	x=t	x=t	NOUN	_	_	19	appos	_	_
+21	vale	valer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	_
+22	e^t	e^t	NOUN	_	_	21	obj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
 
 # sent_id = train-s3466
 # text = Apenas falta de atenção.
