@@ -228,30 +228,22 @@
 10	mortos	morto	NOUN	NOUN	_	8	obj	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	4	punct	_	_
 
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Então, essa história é algo extremamente importante para mim, algo que venho construindo na minha cabeça desde que comecei a trabalhar com o Homem - Morcego.
 # sent_id = train-s1903
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-1	Então	então	ADV	_	_	8	advmod	_	SpaceAfter=No
+1	Então	então	ADV	_	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
-4	história	história	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
-5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
-6	algo	algo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	8	nsubj	_	_
+4	história	história	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	algo	algo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
 7	extremamente	extremamente	ADV	_	_	8	advmod	_	_
-8	importante	importante	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+8	importante	importante	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
 9	para	para	ADP	_	_	10	case	_	_
 10	mim	eu	PRON	_	Number=Sing|Person=1|PronType=Prs	8	obl	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
-12	algo	algo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	8	appos	_	_
+12	algo	algo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	6	appos	_	_
 13	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	14	obj	_	_
 14	venho	vir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
 15	construindo	construir	VERB	_	VerbForm=Ger	14	xcomp	_	_
@@ -270,7 +262,7 @@
 27	Homem	Homem	PROPN	_	Gender=Masc|Number=Sing	24	obl	_	_
 28	-	-	PUNCT	_	_	27	punct	_	_
 29	Morcego	Morcego	PROPN	_	Number=Sing	27	flat:name	_	SpaceAfter=No
-30	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
 # sent_id = train-s1904
 # text = As crianças com menos de dez não deviam trabalhar.
