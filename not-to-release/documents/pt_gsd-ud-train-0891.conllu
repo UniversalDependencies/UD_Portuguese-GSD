@@ -171,16 +171,8 @@
 46	Warwick	_	PROPN	PNOUN	_	44	nmod	_	SpaceAfter=No
 47	.	.	PUNCT	.	_	11	punct	_	_
 
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# text = Essa tentativa de desconstrução ideológica partiu do Associação Comercial de São Paulo, capitaneada pelo político Afif Domingos, hoje vice - governador, proveniente do PSD do Kassab, ex - DEM, ex - PFL, ex - PDS, ex - ARENA.
+# text = Essa tentativa de desconstrução ideológica partiu do Associação Comercial de São Paulo, capitaneada pelo político Afif Domingos, hoje vice - governador, proveniente do PSD do Kassab, ex-DEM, ex-PFL, ex-PDS, ex-ARENA.
 # sent_id = train-s8846
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # udpipe_model = portuguese-bosque-ud-2.12-230717
 1	Essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
@@ -221,20 +213,20 @@
 32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	Kassab	Kassab	PROPN	_	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	37	punct	_	_
-35	ex	ex	ADP	_	_	37	case	_	_
-36	-	-	PUNCT	_	_	37	punct	_	_
+35	ex	ex	ADJ	_	_	37	amod	_	SpaceAfter=No
+36	-	-	PUNCT	_	_	37	punct	_	SpaceAfter=No
 37	DEM	DEM	PROPN	_	Gender=Masc|Number=Sing	30	appos	_	SpaceAfter=No
 38	,	,	PUNCT	_	_	41	punct	_	_
-39	ex	ex	NOUN	_	Gender=Masc|Number=Sing	37	conj	_	_
-40	-	-	PUNCT	_	_	41	punct	_	_
+39	ex	ex	ADJ	_	Gender=Masc|Number=Sing	41	amod	_	SpaceAfter=No
+40	-	-	PUNCT	_	_	41	punct	_	SpaceAfter=No
 41	PFL	PFL	PROPN	_	Gender=Masc|Number=Sing	37	conj	_	SpaceAfter=No
 42	,	,	PUNCT	_	_	45	punct	_	_
-43	ex	ex	ADJ	_	Gender=Masc|Number=Sing	37	conj	_	_
-44	-	-	PUNCT	_	_	45	punct	_	_
+43	ex	ex	ADJ	_	Gender=Masc|Number=Sing	45	amod	_	SpaceAfter=No
+44	-	-	PUNCT	_	_	45	punct	_	SpaceAfter=No
 45	PDS	PDS	PROPN	_	Gender=Masc|Number=Sing	37	conj	_	SpaceAfter=No
 46	,	,	PUNCT	_	_	49	punct	_	_
-47	ex	ex	ADP	_	_	49	advmod	_	_
-48	-	-	PUNCT	_	_	49	punct	_	_
+47	ex	ex	ADJ	_	_	49	amod	_	SpaceAfter=No
+48	-	-	PUNCT	_	_	49	punct	_	SpaceAfter=No
 49	ARENA	ARENA	PROPN	_	Gender=Masc|Number=Sing	37	conj	_	SpaceAfter=No
 50	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 

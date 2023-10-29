@@ -257,16 +257,8 @@
 29	repescagem	repescagem	NOUN	NOUN	_	26	nmod	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	22	punct	_	_
 
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # text = Seu primeiro grande destaque na TV veio com o papel do congressista viúvo Glen Morley, na série "The Farmer 's Daughter", adaptação do filme homônimo ("Ambiciosa", no Brasil), de 1947.
 # sent_id = train-s8229
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # udpipe_model = portuguese-bosque-ud-2.12-230717
 1	Seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	4	det	_	_
@@ -293,12 +285,12 @@
 19	em	em	ADP	_	_	21	case	_	_
 20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	série	série	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
-22	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
-23	The	The	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	21	appos	_	_
-24	Farmer	Farmer	PROPN	_	Number=Sing	23	flat:name	_	_
-25	's	's	PUNCT	_	_	23	flat:name	_	_
-26	Daughter	Daughter	PROPN	_	Number=Sing	23	flat:name	_	SpaceAfter=No
-27	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
+23	The	the	DET	_	ExtPos=PROPN|Gender=Fem|Number=Sing	24	det	_	_
+24	Farmer	farmer	NOUN	_	Number=Sing	21	appos	_	_
+25	's	's	PART	_	_	23	case	_	_
+26	Daughter	Daughter	PROPN	_	Number=Sing	24	flat:name	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	29	punct	_	_
 29	adaptação	adaptação	NOUN	_	Gender=Fem|Number=Sing	23	appos	_	_
 30-31	do	_	_	_	_	_	_	_	_
