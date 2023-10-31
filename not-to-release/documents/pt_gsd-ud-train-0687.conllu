@@ -29,8 +29,10 @@
 26	)	)	PUNCT	.	_	25	punct	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	10	punct	_	_
 
-# text = A Roda de Choro continua reunindo os chorões da cidade toda quinta-feira, a partir das 17h, no Conservatório de MPB de Curitiba.
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # sent_id = train-s6818
+# text = A Roda de Choro continua reunindo os chorões da cidade toda quinta-feira, a partir das 17h, no Conservatório de MPB de Curitiba.
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Roda	Roda	PROPN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -44,26 +46,24 @@
 10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	cidade	cidade	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
 12	toda	todo	DET	_	Gender=Fem|Number=Sing|PronType=Tot	13	det	_	_
-13	quinta	quinta	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
-14	-	-	PUNCT	_	_	15	case	_	_
-15	feira	feira	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	6	punct	_	_
-17	a	a	ADP	_	_	18	case	_	_
-18	partir	partir	VERB	_	VerbForm=Inf	6	obl	_	_
-19-20	das	_	_	_	_	_	_	_	_
-19	de	de	ADP	_	_	21	case	_	_
-20	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
-21	17h	17h	NOUN	_	Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No
-22	,	,	PUNCT	_	_	6	punct	_	_
-23-24	no	_	_	_	_	_	_	_	_
-23	em	em	ADP	_	_	25	case	_	_
-24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	Conservatório	Conservatório	PROPN	_	Gender=Masc|Number=Sing	6	obl	_	_
+13	quinta-feira	quinta-feira	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	6	punct	_	_
+15	a	a	ADP	_	_	16	case	_	_
+16	partir	partir	VERB	_	VerbForm=Inf	6	obl	_	_
+17-18	das	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	17h	17h	NOUN	_	Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	6	punct	_	_
+21-22	no	_	_	_	_	_	_	_	_
+21	em	em	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Conservatório	Conservatório	PROPN	_	Gender=Masc|Number=Sing	6	obl	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	MPB	MPB	PROPN	_	Number=Sing	23	nmod	_	_
 26	de	de	ADP	_	_	27	case	_	_
-27	MPB	MPB	PROPN	_	Number=Sing	25	nmod	_	_
-28	de	de	ADP	_	_	29	case	_	_
-29	Curitiba	Curitiba	PROPN	_	Number=Sing	25	nmod	_	SpaceAfter=No
-30	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+27	Curitiba	Curitiba	PROPN	_	Number=Sing	23	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
 # sent_id = train-s6819
 # text = Jogamos no interior do quarto da pousada.

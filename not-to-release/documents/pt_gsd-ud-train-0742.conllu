@@ -64,10 +64,12 @@
 24	direitos	direito	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	10	punct	_	_
 
-# text = Estou num ponto da minha carreira no qual só quero trabalhar com gente que me agrada", afirmou o ator indicado ao Oscar por "As Duas Faces dum Crime" (1996) e "A Outra História Americana" (1998).
-# sent_id = train-s7368
+# udpipe_model = portuguese-bosque-ud-2.12-230717
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# sent_id = train-s7368
+# text = Estou num ponto da minha carreira no qual só quero trabalhar com gente que me agrada", afirmou o ator indicado ao Oscar por "As Duas Faces dum Crime" (1996) e "A Outra História Americana" (1998).
 1	Estou	estar	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
 2-3	num	_	_	_	_	_	_	_	_
 2	em	em	ADP	_	_	4	case	_	_
@@ -107,19 +109,23 @@
 33	Faces	Faces	PROPN	_	Number=Sing	31	flat:name	_	_
 34-35	dum	_	_	_	_	_	_	_	_
 34	de	de	ADP	_	_	35	case	_	_
-35	um	um	PROPN	_	Number=Sing	31	nmod	_	_
+35	um	um	DET	_	Number=Sing	31	nmod	_	_
 36	Crime	Crime	PROPN	_	Number=Sing	35	flat:name	_	SpaceAfter=No
-37	"(1996	"(1996	PROPN	_	Number=Sing	35	flat:name	_	_
-38	)	)	PUNCT	_	_	31	punct	_	_
-39	e	e	CCONJ	_	_	41	cc	_	SpaceAfter=No
-40	"	"	PUNCT	_	_	41	punct	_	_
-41	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
-42	Outra	Outra	PROPN	_	Number=Sing	31	flat:name	_	_
-43	História	História	PROPN	_	Number=Sing	41	flat:name	_	_
-44	Americana	Americana	PROPN	_	Number=Sing	41	flat:name	_	_
-45	"(1998	"(1998	PROPN	_	Number=Sing	41	flat:name	_	SpaceAfter=No
-46	)	)	PUNCT	_	_	41	punct	_	SpaceAfter=No
-47	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+37	"	"	PUNCT	_	_	31	punct	_	_
+38	(	(	PUNCT	_	_	39	punct	_	SpaceAfter=No
+39	1996	1996	NUM	_	NumType=Card	31	nmod	_	SpaceAfter=No
+40	)	)	PUNCT	_	_	39	punct	_	_
+41	e	e	CCONJ	_	_	43	cc	_	_
+42	"	"	PUNCT	_	_	43	punct	_	SpaceAfter=No
+43	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	conj	_	_
+44	Outra	Outra	PROPN	_	Number=Sing	43	flat:name	_	_
+45	História	História	PROPN	_	Number=Sing	43	flat:name	_	_
+46	Americana	Americana	PROPN	_	Number=Sing	43	flat:name	_	SpaceAfter=No
+47	"	"	PUNCT	_	_	43	punct	_	_
+48	(	(	PUNCT	_	_	49	punct	_	SpaceAfter=No
+49	1998	1998	NUM	_	NumType=Card	43	nmod	_	SpaceAfter=No
+50	)	)	PUNCT	_	_	49	punct	_	SpaceAfter=No
+51	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
 
 # sent_id = train-s7369
 # text = O "Príncipe" Ivair, estrela do time nos anos 60, o recomendou.
