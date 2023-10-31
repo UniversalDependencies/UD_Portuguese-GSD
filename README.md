@@ -5,6 +5,20 @@ Treebank v2.0 (legacy)](https://github.com/ryanmcd/uni-dep-tb).
 
 # Changelog
 
+* 2023-10-31 
+
+ * This treebank was not included in the last release, issue 36 fixes
+   the errors and the data is valid again.
+ * we had ~11% of the corpus invalid according to validation
+   script. Many errors remain from the annotations done back in UD 1.x
+   guidelines. I (Alexandre) fixed the invalid sentences
+   automatically, running UDPipe with the model trained from
+   Bosque. The sentences were annnotated with extra metadata for
+   further manual review.
+ * During the fixes, I also fixed tokenization and segmentation of few
+   cases, so the number of sentences changed. New sentences got IDs
+   with sufixes 'a', 'b' etc.
+
 * 2022-11-01 v2.11
  * added missing lemmas of NUM tokens
  * start to fix the enclitics tokenization
