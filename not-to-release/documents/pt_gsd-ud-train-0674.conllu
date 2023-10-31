@@ -187,18 +187,8 @@
 21	Atreia	_	PROPN	PNOUN	_	18	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	13	punct	_	_
 
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# text = Anthony Hopkins no novo trailer de Hitchcock Publicada em 10/11/2012 Foi divulgado um novo trailer de Hitchcock, do diretor Sacha Gervasi (co - roteirista do Terminal), onde o diretor Hitchcock (Anthony Hopkins) ...
+# text = Anthony Hopkins no novo trailer de Hitchcock.
 # sent_id = train-s6699
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
 1	Anthony	Anthony	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	13	nsubj:pass	_	_
 2	Hopkins	Hopkins	PROPN	_	Number=Sing	1	flat:name	_	_
 3-4	no	_	_	_	_	_	_	_	_
@@ -208,9 +198,9 @@
 6	trailer	trailer	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	Hitchcock	Hitchcock	PROPN	_	Gender=Masc|Number=Sing	6	nmod	_	_
-9	Publicada	publicar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	6	acl	_	_
-10	em	em	ADP	_	_	11	case	_	_
-11	10/11/2012	10/11/2012	NUM	_	NumType=Card	9	obl	_	_
+
+# text = Foi divulgado um novo trailer de Hitchcock, do diretor Sacha Gervasi (co-roteirista do Terminal), onde o diretor Hitchcock (Anthony Hopkins)...
+# sent_id = train-s6699
 12	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
 13	divulgado	divulgar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_

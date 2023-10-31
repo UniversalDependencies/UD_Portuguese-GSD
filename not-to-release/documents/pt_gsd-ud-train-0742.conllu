@@ -64,16 +64,8 @@
 24	direitos	direito	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	10	punct	_	_
 
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# text = Estou num ponto da minha carreira no qual só quero trabalhar com gente que me agrada ", afirmou o ator indicado ao Oscar por" As Duas Faces dum Crime "(1996) e" A Outra História Americana "(1998).
+# text = Estou num ponto da minha carreira no qual só quero trabalhar com gente que me agrada", afirmou o ator indicado ao Oscar por "As Duas Faces dum Crime" (1996) e "A Outra História Americana" (1998).
 # sent_id = train-s7368
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # udpipe_model = portuguese-bosque-ud-2.12-230717
 1	Estou	estar	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -97,7 +89,7 @@
 16	gente	gente	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
 17	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	19	nsubj	_	_
 18	me	eu	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	19	obj	_	_
-19	agrada	agradar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+19	agrada	agradar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	SpaceAfter=No
 20	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -108,16 +100,16 @@
 26	a	a	ADP	_	_	28	case	_	_
 27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	Oscar	oscar	NOUN	_	Gender=Masc|Number=Sing	25	obj	_	_
-29	por	por	ADP	_	_	31	case	_	SpaceAfter=No
-30	"	"	PUNCT	_	_	31	punct	_	_
+29	por	por	ADP	_	_	31	case	_	_
+30	"	"	PUNCT	_	_	31	punct	_	SpaceAfter=No
 31	As	As	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing|PronType=Art	25	obl	_	_
 32	Duas	Duas	PROPN	_	Number=Sing	31	flat:name	_	_
 33	Faces	Faces	PROPN	_	Number=Sing	31	flat:name	_	_
 34-35	dum	_	_	_	_	_	_	_	_
 34	de	de	ADP	_	_	35	case	_	_
 35	um	um	PROPN	_	Number=Sing	31	nmod	_	_
-36	Crime	Crime	PROPN	_	Number=Sing	35	flat:name	_	_
-37	"(1996	"(1996	PROPN	_	Number=Sing	35	flat:name	_	SpaceAfter=No
+36	Crime	Crime	PROPN	_	Number=Sing	35	flat:name	_	SpaceAfter=No
+37	"(1996	"(1996	PROPN	_	Number=Sing	35	flat:name	_	_
 38	)	)	PUNCT	_	_	31	punct	_	_
 39	e	e	CCONJ	_	_	41	cc	_	SpaceAfter=No
 40	"	"	PUNCT	_	_	41	punct	_	_

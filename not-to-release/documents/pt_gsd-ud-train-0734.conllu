@@ -84,16 +84,8 @@
 5	pé	pé	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	2	punct	_	_
 
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# text = Quando o assistente foi me ajudar acabei caindo no chão em cima do joelho dele, foi quando fraturei as duas costelas, que atingiram a parede externa do pulmão e tive que ser hospitalizado imediatamente ", explica.
+# text = Quando o assistente foi me ajudar acabei caindo no chão em cima do joelho dele, foi quando fraturei as duas costelas, que atingiram a parede externa do pulmão e tive que ser hospitalizado imediatamente", explica.
 # sent_id = train-s7290
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # udpipe_model = portuguese-bosque-ud-2.12-230717
 1	Quando	quando	SCONJ	_	_	6	mark	_	_
@@ -117,8 +109,8 @@
 17-18	dele	_	_	_	_	_	_	_	SpaceAfter=No
 17	de	de	ADP	_	_	18	case	_	_
 18	ele	ele	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nmod	_	_
-19	,	,	PUNCT	_	_	8	punct	_	_
-20	foi	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	43	parataxis	_	_
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	foi	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	parataxis	_	_
 21	quando	quando	SCONJ	_	_	22	mark	_	_
 22	fraturei	fraturar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	20	advcl	_	_
 23	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
@@ -139,7 +131,7 @@
 37	que	que	SCONJ	_	_	39	mark	_	_
 38	ser	ser	AUX	_	VerbForm=Inf	39	aux:pass	_	_
 39	hospitalizado	hospitalizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	28	conj	_	_
-40	imediatamente	imediatamente	ADV	_	_	39	advmod	_	_
+40	imediatamente	imediatamente	ADV	_	_	39	advmod	_	SpaceAfter=No
 41	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
 42	,	,	PUNCT	_	_	43	punct	_	_
 43	explica	explicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
