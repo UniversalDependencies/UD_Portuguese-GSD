@@ -130,18 +130,8 @@
 11	fabricante	fabricante	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
 12	?	?	PUNCT	.	_	3	punct	_	_
 
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # sent_id = train-s4858
 # text = A entrada alemã deste ano, foi a primeira a utilizar adereços em palco, tendo levado um telefone para a sua actuação (visto a sua música intitular-se Telefone, Telefone em português).
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # udpipe_model = portuguese-bosque-ud-2.12-230717
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
@@ -177,11 +167,11 @@
 30-31	intitular-se	_	_	_	_	_	_	_	_
 30	intitular	intitular	VERB	_	Number=Sing|Person=3|VerbForm=Inf	26	ccomp	_	_
 31	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	expl	_	_
-32	Telefone	Telefone	PROPN	_	Gender=Masc|Number=Sing	30	nsubj	_	SpaceAfter=No
+32	Telefone	Telefone	PROPN	_	Gender=Masc|Number=Sing	30	obj	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	34	punct	_	_
 34	Telefone	telefone	NOUN	_	Gender=Masc|Number=Sing	32	conj	_	_
 35	em	em	ADP	_	_	36	case	_	_
-36	português	português	NOUN	_	Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
+36	português	português	NOUN	_	Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No
 37	)	)	PUNCT	_	_	26	punct	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
 

@@ -180,25 +180,15 @@
 28	setor	setor	NOUN	NOUN	_	25	nmod	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	14	punct	_	_
 
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # sent_id = train-s4450
-# text = Obama e Calderón, anfitrião da reunião que começará na segunda - feira em Los Cabos, se reunirão antes do início da cúpula para revisar os progressos na relação bilateral, explicou em entrevista coletiva o conselheiro adjunto de Segurança Nacional da Casa Branca, Ben Rhodes.
+# text = Obama e Calderón, anfitrião da reunião que começará na segunda-feira em Los Cabos, se reunirão antes do início da cúpula para revisar os progressos na relação bilateral, explicou em entrevista coletiva o conselheiro adjunto de Segurança Nacional da Casa Branca, Ben Rhodes.
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-1	Obama	Obama	PROPN	_	Gender=Masc|Number=Sing	38	nsubj	_	_
+1	Obama	Obama	PROPN	_	Gender=Masc|Number=Sing	21	nsubj	_	_
 2	e	e	CCONJ	_	_	3	cc	_	_
 3	Calderón	Calderón	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
-5	anfitrião	anfitrião	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
+5	anfitrião	anfitrião	NOUN	_	Gender=Masc|Number=Sing	3	appos	_	_
 6-7	da	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	8	case	_	_
 7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -208,13 +198,13 @@
 11-12	na	_	_	_	_	_	_	_	_
 11	em	em	ADP	_	_	13	case	_	_
 12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	segunda	segunda	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	10	obl	_	_
-14	-	-	PUNCT	_	_	15	punct	_	_
+13	segunda	segunda	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	10	obl	_	SpaceAfter=No
+14	-	-	PUNCT	_	_	15	punct	_	SpaceAfter=No
 15	feira	feira	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
 16	em	em	ADP	_	_	17	case	_	_
 17	Los	Los	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	10	obl	_	_
 18	Cabos	Cabos	PROPN	_	Number=Sing	17	flat:name	_	SpaceAfter=No
-19	,	,	PUNCT	_	_	10	punct	_	_
+19	,	,	PUNCT	_	_	5	punct	_	_
 20	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	21	expl	_	_
 21	reunirão	reunir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	38	parataxis	_	_
 22	antes	antes	ADV	_	_	21	advmod	_	_
@@ -265,7 +255,7 @@
 5	?	?	PUNCT	.	_	1	punct	_	_
 
 # sent_id = train-s4452
-# text = Presentes, ainda, na abertura do evento, na última sexta - feira, a vereadora Raquel Picelli, autora da lei que instituiu a Festa do Produtor, seus colegas Julinho Lopes e Maria do Carmo Guilherme.
+# text = Presentes, ainda, na abertura do evento, na última sexta-feira, a vereadora Raquel Picelli, autora da lei que instituiu a Festa do Produtor, seus colegas Julinho Lopes e Maria do Carmo Guilherme.
 1	Presentes	presente	ADJ	ADJ	_	20	amod	_	SpaceAfter=No
 2	,	,	PUNCT	.	_	3	punct	_	_
 3	ainda	ainda	ADV	ADV	_	1	advmod	_	SpaceAfter=No
@@ -283,8 +273,8 @@
 12	em	em	ADP	ADP	_	17	case	_	_
 13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 14	última	último	ADJ	ADJ	_	17	amod	_	_
-15	sexta	_	PROPN	PNOUN	_	17	amod	_	_
-16	-	-	PUNCT	.	_	17	punct	_	_
+15	sexta	_	PROPN	PNOUN	_	17	amod	_	SpaceAfter=No
+16	-	-	PUNCT	.	_	17	punct	_	SpaceAfter=No
 17	feira	_	PROPN	PNOUN	_	1	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	.	_	17	punct	_	_
 19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_

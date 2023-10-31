@@ -201,18 +201,8 @@
 8	étnica	étnico	ADJ	ADJ	_	7	amod	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	5	punct	_	_
 
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # sent_id = train-s4163
 # text = A Ingresso.com deu início as vendas de entradas para o filme "Batman -- O Cavaleiro das Trevas ressurge", que estreia no dia 27 de julho em todo país.
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # udpipe_model = portuguese-bosque-ud-2.12-230717
 1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
@@ -229,13 +219,13 @@
 12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
 13	Batman	Batman	PROPN	_	Gender=Masc|Number=Sing	11	appos	_	_
 14	--	--	PUNCT	_	_	13	punct	_	_
-15	O	O	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-16	Cavaleiro	Cavaleiro	PROPN	_	Number=Sing	13	flat:name	_	_
+15	O	O	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Cavaleiro	cavaleiro	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
 17-18	das	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	19	case	_	_
 18	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
-19	Trevas	Trevas	PROPN	_	Number=Sing	13	nmod	_	_
-20	ressurge	ressurgir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	SpaceAfter=No
+19	Trevas	treva	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+20	ressurge	ressurgir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	appos	_	SpaceAfter=No
 21	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	24	punct	_	_
 23	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	24	nsubj	_	_

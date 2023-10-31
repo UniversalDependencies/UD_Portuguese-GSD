@@ -256,18 +256,8 @@
 19	Trovão	_	PROPN	PNOUN	_	16	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	4	punct	_	_
 
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # sent_id = train-s3618
-# text = No relatório da denúncia, a Procuradoria - Geral da República apontou como operadores do núcleo central do esquema José Dirceu, o ex - deputado e ex - presidente do PT José Genoino, o ex - tesoureiro do partido Delúbio Soares, e o ex - secretário - geral Silvio Pereira.
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
+# text = No relatório da denúncia, a Procuradoria-Geral da República apontou como operadores do núcleo central do esquema José Dirceu, o ex-deputado e ex-presidente do PT José Genoino, o ex-tesoureiro do partido Delúbio Soares, e o ex-secretário-geral Silvio Pereira.
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # udpipe_model = portuguese-bosque-ud-2.12-230717
 1-2	No	_	_	_	_	_	_	_	_
@@ -280,9 +270,9 @@
 6	denúncia	denúncia	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	_
 8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	Procuradoria	Procuradoria	PROPN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
-10	-	-	PUNCT	_	_	11	punct	_	_
-11	Geral	Geral	PROPN	_	Gender=Fem|Number=Sing	9	appos	_	_
+9	Procuradoria	Procuradoria	PROPN	_	Gender=Fem|Number=Sing	15	nsubj	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	Geral	Geral	PROPN	_	Gender=Fem|Number=Sing	9	amod	_	_
 12-13	da	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
@@ -303,12 +293,12 @@
 26	Dirceu	Dirceu	PROPN	_	Number=Sing	25	flat:name	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	29	punct	_	_
 28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-29	ex	ex	NOUN	_	Gender=Masc|Number=Sing	20	amod	_	_
-30	-	-	PUNCT	_	_	31	punct	_	_
-31	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	29	conj	_	_
+29	ex	ex	NOUN	_	Gender=Masc|Number=Sing	31	amod	_	SpaceAfter=No
+30	-	-	PUNCT	_	_	31	punct	_	SpaceAfter=No
+31	deputado	deputado	NOUN	_	Gender=Masc|Number=Sing	25	conj	_	_
 32	e	e	CCONJ	_	_	33	cc	_	_
-33	ex	ex	ADJ	_	Gender=Masc|Number=Sing	31	conj	_	_
-34	-	-	PUNCT	_	_	35	punct	_	_
+33	ex	ex	ADJ	_	Gender=Masc|Number=Sing	35	amod	_	SpaceAfter=No
+34	-	-	PUNCT	_	_	35	punct	_	SpaceAfter=No
 35	presidente	presidente	NOUN	_	Gender=Masc|Number=Sing	31	conj	_	_
 36-37	do	_	_	_	_	_	_	_	_
 36	de	de	ADP	_	_	38	case	_	_
@@ -318,8 +308,8 @@
 40	Genoino	Genoino	PROPN	_	Number=Sing	39	flat:name	_	SpaceAfter=No
 41	,	,	PUNCT	_	_	43	punct	_	_
 42	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
-43	ex	ex	ADJ	_	Gender=Masc|Number=Sing	31	conj	_	_
-44	-	-	PUNCT	_	_	45	punct	_	_
+43	ex	ex	ADJ	_	Gender=Masc|Number=Sing	45	amod	_	SpaceAfter=No
+44	-	-	PUNCT	_	_	45	punct	_	SpaceAfter=No
 45	tesoureiro	tesoureiro	NOUN	_	Gender=Masc|Number=Sing	31	conj	_	_
 46-47	do	_	_	_	_	_	_	_	_
 46	de	de	ADP	_	_	48	case	_	_
@@ -330,10 +320,10 @@
 51	,	,	PUNCT	_	_	56	punct	_	_
 52	e	e	CCONJ	_	_	56	cc	_	_
 53	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
-54	ex	ex	ADJ	_	Gender=Masc|Number=Sing	56	amod	_	_
-55	-	-	PUNCT	_	_	56	punct	_	_
-56	secretário	secretário	NOUN	_	Gender=Masc|Number=Sing	20	conj	_	_
-57	-	-	PUNCT	_	_	59	punct	_	_
+54	ex	ex	ADJ	_	Gender=Masc|Number=Sing	56	amod	_	SpaceAfter=No
+55	-	-	PUNCT	_	_	56	punct	_	SpaceAfter=No
+56	secretário	secretário	NOUN	_	Gender=Masc|Number=Sing	20	conj	_	SpaceAfter=No
+57	-	-	PUNCT	_	_	58	punct	_	SpaceAfter=No
 58	geral	geral	ADJ	_	Gender=Masc|Number=Sing	56	amod	_	_
 59	Silvio	Silvio	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	56	appos	_	_
 60	Pereira	Pereira	PROPN	_	Number=Sing	59	flat:name	_	SpaceAfter=No

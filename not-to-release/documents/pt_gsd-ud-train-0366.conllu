@@ -84,8 +84,6 @@
 41	partida	partida	NOUN	NOUN	_	38	nmod	_	SpaceAfter=No
 42	.	.	PUNCT	.	_	12	punct	_	_
 
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # sent_id = train-s3631a
 # text = Se não ganharem nessa que é a maior chance da história deles, esse bom time será desmontado, dificilmente se recuperará no Brasileirão para voltar a Libertadores ano que vem, e nós, rivais, teremos nossa independência "libertadorística" extendida ... rs ...
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
@@ -143,8 +141,8 @@
 47	"	"	PUNCT	_	_	46	punct	_	_
 48	extendida	extender	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	44	acl	_	_
 49	...	...	PUNCT	_	_	50	punct	_	_
-50	rs	rs	PROPN	_	_	48	advmod	_	_
-51	...	...	PUNCT	_	_	21	punct	_	SpaceAfter=No
+50	rs	riso	NOUN	_	Abbr=Yes|Gender=Masc|Number=Plur	48	parataxis	_	_
+51	...	...	PUNCT	_	_	50	punct	_	SpaceAfter=No
 
 # sent_id = train-s3631b
 # text = E também tem a secação amanhã, contra a porcada.
@@ -220,18 +218,8 @@
 8	prisão	prisão	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	4	punct	_	_
 
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # sent_id = train-s3635
 # text = Imediatamente após o parto a criança passa por extensas modificações fisiológicas à medida que se habitua à sua respiração independente.
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
-# udpipe_model = portuguese-bosque-ud-2.12-230717
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # udpipe_model = portuguese-bosque-ud-2.12-230717
 1	Imediatamente	imediatamente	ADV	_	_	7	advmod	_	_
@@ -246,10 +234,10 @@
 10	modificações	modificação	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
 11	fisiológicas	fisiológico	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
 12-13	à	_	_	_	_	_	_	_	_
-12	a	a	ADP	_	ExtPos=SCONJ	17	mark	_	_
-13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	fixed	_	_
-14	medida	medida	ADP	_	_	15	case	_	_
-15	que	que	NOUN	_	Gender=Masc|Number=Sing	12	fixed	_	_
+12	a	a	ADP	_	ExtPos=SCONJ	14	mark	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	medida	medida	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+15	que	que	ADP	_	Gender=Masc|Number=Sing	17	mark	_	_
 16	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	expl	_	_
 17	habitua	habituar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
 18-19	à	_	_	_	_	_	_	_	_
