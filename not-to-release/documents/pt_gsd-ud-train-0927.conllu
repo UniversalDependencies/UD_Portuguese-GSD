@@ -1,0 +1,272 @@
+# sent_id = train-s9198
+# text = O estudo deve ser realizado a cada cinco anos.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	estudo	estudo	NOUN	NOUN	_	5	nsubj:pass	_	_
+3	deve	dever	AUX	AUX	_	5	aux	_	_
+4	ser	ser	AUX	AUX	_	5	aux:pass	_	_
+5	realizado	realizar	VERB	VERB	_	0	root	_	_
+6	a	_	ADP	ADP	_	9	case	_	_
+7	cada	_	DET	DET	_	9	det	_	_
+8	cinco	_	NUM	NUM	NumType=Card	9	nummod	_	_
+9	anos	ano	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s9199
+# text = "Ele está crescendo e com essa sequencia de jogos acredito que irá conseguir jogar mais.
+1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
+2	Ele	_	PRON	PRON	_	4	nsubj	_	_
+3	está	estar	AUX	AUX	_	4	aux	_	_
+4	crescendo	crescer	VERB	VERB	_	0	root	_	_
+5	e	e	CCONJ	CONJ	_	11	cc	_	_
+6	com	com	ADP	ADP	_	8	case	_	_
+7	essa	_	DET	DET	_	8	det	_	_
+8	sequencia	_	NOUN	NOUN	_	11	nmod	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
+10	jogos	jogo	NOUN	NOUN	_	8	nmod	_	_
+11	acredito	acreditar	VERB	VERB	_	4	conj	_	_
+12	que	que	CCONJ	CONJ	_	14	mark	_	_
+13	irá	_	AUX	AUX	_	14	aux	_	_
+14	conseguir	conseguir	VERB	VERB	_	11	ccomp	_	_
+15	jogar	jogar	VERB	VERB	_	14	xcomp	_	_
+16	mais	mais	ADV	ADV	_	15	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s9200
+# text = A Lua Me Traiu é uma música da Banda Calypso.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Lua	_	PROPN	PNOUN	_	4	nsubj	_	_
+3	Me	_	PROPN	PNOUN	_	4	obj	_	_
+4	Traiu	_	PROPN	PNOUN	_	7	csubj	_	_
+5	é	ser	AUX	AUX	_	7	cop	_	_
+6	uma	um	DET	DET	_	7	det	_	_
+7	música	_	NOUN	NOUN	_	0	root	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	ADP	_	10	case	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Banda	_	PROPN	PNOUN	_	7	nmod	_	_
+11	Calypso	_	PROPN	PNOUN	_	10	flat	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s9201
+# text = Em agosto deste ano, ficou em 57,5 % do PIB.
+1	Em	em	ADP	ADP	_	2	case	_	_
+2	agosto	_	PROPN	PNOUN	_	6	nmod	_	_
+3	deste	_	ADP	ADP	_	4	case	_	_
+4	ano	ano	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	.	_	2	punct	_	_
+6	ficou	ficar	VERB	VERB	_	0	root	_	_
+7	em	em	ADP	ADP	_	9	case	_	_
+8	57,5	57,5	NUM	NUM	NumType=Card	9	nummod	_	_
+9	%	_	SYM	SYM	_	6	nmod	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	ADP	_	12	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	PIB	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s9202
+# text = A vez dos homens / A vaidade masculina também está florescendo e alcançando os mesmos percentuais dos procedimentos feitos em mulheres.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	vez	vez	NOUN	NOUN	_	12	nsubj	_	_
+3-4	dos	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	homens	homem	NOUN	NOUN	_	2	nmod	_	_
+6	/	/	PUNCT	.	_	8	punct	_	_
+7	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	vaidade	vaidade	NOUN	NOUN	_	2	appos	_	_
+9	masculina	masculino	ADJ	ADJ	_	8	amod	_	_
+10	também	também	ADV	ADV	_	12	advmod	_	_
+11	está	estar	AUX	AUX	_	12	aux	_	_
+12	florescendo	florescer	VERB	VERB	_	0	root	_	_
+13	e	e	CCONJ	CONJ	_	14	cc	_	_
+14	alcançando	alcançar	VERB	VERB	_	12	conj	_	_
+15	os	o	DET	DET	_	17	det	_	_
+16	mesmos	mesmo	ADJ	ADJ	_	17	amod	_	_
+17	percentuais	_	NOUN	NOUN	_	14	obj	_	_
+18-19	dos	_	_	_	_	_	_	_	_
+18	de	de	ADP	ADP	_	20	case	_	_
+19	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	procedimentos	procedimento	NOUN	NOUN	_	17	nmod	_	_
+21	feitos	fazer	VERB	VERB	_	20	acl	_	_
+22	em	em	ADP	ADP	_	23	case	_	_
+23	mulheres	mulher	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	12	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Isso não corresponde ao estilo da política externa brasileira menos ainda da presidente Dilma Rousseff -- afirmou Marco Aurélio Garcia, na segunda-feira.
+# sent_id = train-s9203
+1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
+2	não	não	ADV	_	Polarity=Neg	3	advmod	_	_
+3	corresponde	corresponder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	parataxis	_	_
+4-5	ao	_	_	_	_	_	_	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	estilo	estilo	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	política	política	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+10	externa	externo	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+11	brasileira	brasileiro	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+12	menos	menos	ADV	_	_	13	advmod	_	_
+13	ainda	ainda	ADV	_	_	16	advmod	_	_
+14-15	da	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	presidente	presidente	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+17	Dilma	Dilma	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	16	appos	_	_
+18	Rousseff	Rousseff	PROPN	_	Number=Sing	17	flat:name	_	_
+19	--	--	PUNCT	_	_	3	punct	_	_
+20	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+21	Marco	Marco	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	20	nsubj	_	_
+22	Aurélio	Aurélio	PROPN	_	Number=Sing	21	flat:name	_	_
+23	Garcia	Garcia	PROPN	_	Number=Sing	21	flat:name	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	20	punct	_	_
+25-26	na	_	_	_	_	_	_	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	segunda-feira	segunda-feira	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = train-s9204a
+# text = Bragança Paulista, SP, 17 (AFI) -- O volante Serginho não deve vestir mais a camisa do Bragantino no Campeonato Brasileiro da Série B.
+1	Bragança	_	PROPN	PNOUN	_	16	parataxis	_	_
+2	Paulista	_	PROPN	PNOUN	_	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	.	_	4	punct	_	_
+4	SP	_	PROPN	PNOUN	_	1	appos	_	SpaceAfter=No
+5	,	,	PUNCT	.	_	6	punct	_	_
+6	17	17	NUM	NUM	NumType=Card	1	nmod	_	_
+7	(	(	PUNCT	.	_	8	punct	_	SpaceAfter=No
+8	AFI	_	PROPN	PNOUN	_	1	appos	_	SpaceAfter=No
+9	)	)	PUNCT	.	_	8	punct	_	_
+10	--	_	PUNCT	.	_	16	punct	_	_
+11	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	volante	volante	NOUN	NOUN	_	16	nsubj	_	_
+13	Serginho	_	PROPN	PNOUN	_	12	appos	_	_
+14	não	não	ADV	ADV	Polarity=Neg	16	advmod	_	_
+15	deve	dever	AUX	AUX	_	16	aux	_	_
+16	vestir	vestir	VERB	VERB	_	0	root	_	_
+17	mais	mais	ADV	ADV	_	16	advmod	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	camisa	camisa	NOUN	NOUN	_	16	obj	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	ADP	_	22	case	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Bragantino	_	PROPN	PNOUN	_	19	nmod	_	_
+23-24	no	_	_	_	_	_	_	_	_
+23	em	em	ADP	ADP	_	25	case	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Campeonato	_	PROPN	PNOUN	_	16	nmod	_	_
+26	Brasileiro	_	PROPN	PNOUN	_	25	amod	_	_
+27-28	da	_	_	_	_	_	_	_	_
+27	de	de	ADP	ADP	_	29	case	_	_
+28	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	Série	_	PROPN	PNOUN	_	25	nmod	_	_
+30	B.	_	PROPN	PNOUN	_	29	flat	_	_
+
+# sent_id = train-s9204b
+# text = Isso porque o jogador está sendo negociado por empréstimo com o Al Ittihad Kalba, dos Emirados Árabes.
+1	Isso	_	PRON	PRON	_	0	root	_	_
+2	porque	_	CCONJ	CONJ	_	7	mark	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	jogador	jogador	NOUN	NOUN	_	7	nsubj:pass	_	_
+5	está	estar	AUX	AUX	_	7	aux	_	_
+6	sendo	ser	AUX	AUX	_	7	aux:pass	_	_
+7	negociado	negociar	VERB	VERB	_	1	advcl	_	_
+8	por	por	ADP	ADP	_	9	case	_	_
+9	empréstimo	empréstimo	NOUN	NOUN	_	7	nmod	_	_
+10	com	com	ADP	ADP	_	12	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Al	_	PROPN	PNOUN	_	7	nmod	_	_
+13	Ittihad	_	PROPN	PNOUN	_	12	flat	_	_
+14	Kalba	_	PROPN	PNOUN	_	12	flat	_	SpaceAfter=No
+15	,	,	PUNCT	.	_	18	punct	_	_
+16-17	dos	_	_	_	_	_	_	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
+17	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	Emirados	_	PROPN	PNOUN	_	12	nmod	_	_
+19	Árabes	_	PROPN	PNOUN	_	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s9205
+# text = Como no ano passado, um coro formado por 180 crianças, de quatro escolas municipais, se apresentará na sacada do bloco intermediário para a platéia que deverá se acomodar na rua em frente.
+1	Como	_	ADP	ADP	_	20	nmod	_	_
+2-3	no	_	_	_	_	_	_	_	_
+2	em	em	ADP	ADP	_	4	case	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	ano	ano	NOUN	NOUN	_	1	nmod	_	_
+5	passado	passado	ADJ	ADJ	_	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	.	_	1	punct	_	_
+7	um	um	DET	DET	_	8	det	_	_
+8	coro	coro	NOUN	NOUN	_	20	nsubj	_	_
+9	formado	formar	VERB	VERB	_	8	acl	_	_
+10	por	por	ADP	ADP	_	12	case	_	_
+11	180	180	NUM	NUM	NumType=Card	12	nummod	_	_
+12	crianças	criança	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	.	_	16	punct	_	_
+14	de	de	ADP	ADP	_	16	case	_	_
+15	quatro	_	NUM	NUM	NumType=Card	16	nummod	_	_
+16	escolas	escola	NOUN	NOUN	_	12	nmod	_	_
+17	municipais	municipal	ADJ	ADJ	_	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	.	_	16	punct	_	_
+19	se	_	PRON	PRON	_	20	obj	_	_
+20	apresentará	apresentar	VERB	VERB	_	0	root	_	_
+21-22	na	_	_	_	_	_	_	_	_
+21	em	em	ADP	ADP	_	23	case	_	_
+22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	sacada	_	NOUN	NOUN	_	20	nmod	_	_
+24-25	do	_	_	_	_	_	_	_	_
+24	de	de	ADP	ADP	_	26	case	_	_
+25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	bloco	bloco	NOUN	NOUN	_	23	nmod	_	_
+27	intermediário	intermediário	ADJ	ADJ	_	26	amod	_	_
+28	para	para	ADP	ADP	_	30	case	_	_
+29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	platéia	platéia	NOUN	NOUN	_	20	nmod	_	_
+31	que	_	PRON	PRON	_	34	nsubj	_	_
+32	deverá	dever	AUX	AUX	_	34	aux	_	_
+33	se	_	PRON	PRON	_	34	obj	_	_
+34	acomodar	acomodar	VERB	VERB	_	30	acl:relcl	_	_
+35-36	na	_	_	_	_	_	_	_	_
+35	em	em	ADP	ADP	_	37	case	_	_
+36	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	rua	rua	NOUN	NOUN	_	34	nmod	_	_
+38	em	em	ADP	ADP	_	39	case	_	_
+39	frente	frente	NOUN	NOUN	_	37	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	20	punct	_	_
+
+# sent_id = train-s9206
+# text = As autoridades estudam se houve falha no motor ou no trem de pouso do Tupolev, ou um erro do piloto.
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	autoridades	autoridade	NOUN	NOUN	_	3	nsubj	_	_
+3	estudam	estudar	VERB	VERB	_	0	root	_	_
+4	se	_	CCONJ	CONJ	_	5	mark	_	_
+5	houve	haver	VERB	VERB	_	3	ccomp	_	_
+6	falha	_	NOUN	NOUN	_	5	obj	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	motor	motor	NOUN	NOUN	_	6	nmod	_	_
+10	ou	ou	CCONJ	CONJ	_	13	cc	_	_
+11-12	no	_	_	_	_	_	_	_	_
+11	em	em	ADP	ADP	_	13	case	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	trem	trem	NOUN	NOUN	_	9	conj	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
+15	pouso	pouso	NOUN	NOUN	_	13	nmod	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Tupolev	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	.	_	22	punct	_	_
+20	ou	ou	CCONJ	CONJ	_	22	cc	_	_
+21	um	um	DET	DET	_	22	det	_	_
+22	erro	erro	NOUN	NOUN	_	6	conj	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	ADP	_	25	case	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	piloto	piloto	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	3	punct	_	_
+

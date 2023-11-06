@@ -1,0 +1,282 @@
+# sent_id = train-s141
+# text = -- Eu entendo que para algumas pessoas que olham para o episódio sem entender completamente como as coisas funcionam a imagem tenha parecido forte.
+1	--	_	PUNCT	.	_	3	punct	_	_
+2	Eu	_	PRON	PRON	_	3	nsubj	_	_
+3	entendo	entender	VERB	VERB	_	0	root	_	_
+4	que	que	CCONJ	CONJ	_	23	mark	_	_
+5	para	para	ADP	ADP	_	7	case	_	_
+6	algumas	_	DET	DET	_	7	det	_	_
+7	pessoas	pessoa	NOUN	NOUN	_	23	nmod	_	_
+8	que	_	PRON	PRON	_	9	nsubj	_	_
+9	olham	olhar	VERB	VERB	_	7	acl:relcl	_	_
+10	para	para	ADP	ADP	_	12	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	episódio	episódio	NOUN	NOUN	_	9	nmod	_	_
+13	sem	_	ADP	ADP	_	14	mark	_	_
+14	entender	entender	VERB	VERB	_	9	advcl	_	_
+15	completamente	completamente	ADV	ADV	_	14	advmod	_	_
+16	como	como	ADV	ADV	_	19	advmod	_	_
+17	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	coisas	coisa	NOUN	NOUN	_	19	nsubj	_	_
+19	funcionam	funcionar	VERB	VERB	_	14	ccomp	_	_
+20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	imagem	imagem	NOUN	NOUN	_	23	nsubj	_	_
+22	tenha	ter	AUX	AUX	_	23	aux	_	_
+23	parecido	parecer	VERB	VERB	_	3	ccomp	_	_
+24	forte	forte	ADJ	ADJ	_	23	xcomp	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s142
+# text = Um dia antes, o prefeito Luiz Marinho (PT) afirmou ao Diário que a Prefeitura ainda não havia sido procurada para conversar sobre a instalação da unidade na cidade.
+1	Um	_	NUM	NUM	NumType=Card	2	nummod	_	_
+2	dia	dia	NOUN	NOUN	_	3	nmod	_	_
+3	antes	antes	ADV	ADV	_	12	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	prefeito	prefeito	NOUN	NOUN	_	12	nsubj	_	_
+7	Luiz	_	PROPN	PNOUN	_	6	appos	_	_
+8	Marinho	_	PROPN	PNOUN	_	7	flat	_	_
+9	(	(	PUNCT	.	_	10	punct	_	SpaceAfter=No
+10	PT	_	PROPN	PNOUN	_	6	appos	_	SpaceAfter=No
+11	)	)	PUNCT	.	_	10	punct	_	_
+12	afirmou	afirmar	VERB	VERB	_	0	root	_	_
+13-14	ao	_	_	_	_	_	_	_	_
+13	a	a	ADP	ADP	_	15	case	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Diário	_	PROPN	PNOUN	_	12	iobj	_	_
+16	que	que	CCONJ	CONJ	_	23	mark	_	_
+17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Prefeitura	_	PROPN	PNOUN	_	23	nsubj:pass	_	_
+19	ainda	ainda	ADV	ADV	_	23	advmod	_	_
+20	não	não	ADV	ADV	Polarity=Neg	23	advmod	_	_
+21	havia	haver	AUX	AUX	_	23	aux	_	_
+22	sido	ser	AUX	AUX	_	23	aux:pass	_	_
+23	procurada	procurar	VERB	VERB	_	12	ccomp	_	_
+24	para	_	ADP	ADP	_	25	mark	_	_
+25	conversar	conversar	VERB	VERB	_	23	advcl	_	_
+26	sobre	_	ADP	ADP	_	28	case	_	_
+27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	instalação	instalação	NOUN	NOUN	_	25	nmod	_	_
+29-30	da	_	_	_	_	_	_	_	_
+29	de	de	ADP	ADP	_	31	case	_	_
+30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	unidade	unidade	NOUN	NOUN	_	28	nmod	_	_
+32-33	na	_	_	_	_	_	_	_	_
+32	em	em	ADP	ADP	_	34	case	_	_
+33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	cidade	cidade	NOUN	NOUN	_	28	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = train-s143
+# text = A Equipe tem a responsabilidade de coletar os dados e informações necessárias para possibilitar uma transição de governo tranquila e apresente um diagnóstico da estrutura administrativa para o futuro gestor.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Equipe	_	PROPN	PNOUN	_	3	nsubj	_	_
+3	tem	ter	VERB	VERB	_	0	root	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	responsabilidade	responsabilidade	NOUN	NOUN	_	3	obj	_	_
+6	de	_	ADP	ADP	_	7	mark	_	_
+7	coletar	coletar	VERB	VERB	_	5	nmod	_	_
+8	os	o	DET	DET	_	9	det	_	_
+9	dados	dado	NOUN	NOUN	_	7	obj	_	_
+10	e	e	CCONJ	CONJ	_	11	cc	_	_
+11	informações	informação	NOUN	NOUN	_	9	conj	_	_
+12	necessárias	necessário	ADJ	ADJ	_	11	amod	_	_
+13	para	_	ADP	ADP	_	14	mark	_	_
+14	possibilitar	possibilitar	VERB	VERB	_	7	advcl	_	_
+15	uma	um	DET	DET	_	16	det	_	_
+16	transição	transição	NOUN	NOUN	_	14	obj	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
+18	governo	governo	NOUN	NOUN	_	16	nmod	_	_
+19	tranquila	tranquilo	ADJ	ADJ	_	16	amod	_	_
+20	e	e	CCONJ	CONJ	_	21	cc	_	_
+21	apresente	apresentar	VERB	VERB	_	7	conj	_	_
+22	um	um	DET	DET	_	23	det	_	_
+23	diagnóstico	diagnóstico	NOUN	NOUN	_	21	obj	_	_
+24-25	da	_	_	_	_	_	_	_	_
+24	de	de	ADP	ADP	_	26	case	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	estrutura	estrutura	NOUN	NOUN	_	23	nmod	_	_
+27	administrativa	administrativo	ADJ	ADJ	_	26	amod	_	_
+28	para	para	ADP	ADP	_	31	case	_	_
+29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+30	futuro	futuro	ADJ	ADJ	_	31	amod	_	_
+31	gestor	gestor	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	3	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Há um artigo bem orientativo, denominado Análise de escoamento em condutos forçados.
+# sent_id = train-s144
+1	Há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	artigo	artigo	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+4	bem	bem	ADV	_	_	5	advmod	_	_
+5	orientativo	orientativo	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	denominado	denominar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	3	acl	_	_
+8	Análise	Análise	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	escoamento	escoamento	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+11	em	em	ADP	_	_	12	case	_	_
+12	condutos	conduto	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
+13	forçados	forçar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	12	acl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = train-s145
+# text = "O objeto da exposição é a história do Brasil por meio da fotografia.
+1	"	"	PUNCT	.	_	9	punct	_	SpaceAfter=No
+2	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	objeto	objeto	NOUN	NOUN	_	9	nsubj	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	ADP	_	6	case	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	exposição	exposição	NOUN	NOUN	_	3	nmod	_	_
+7	é	ser	AUX	AUX	_	9	cop	_	_
+8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	história	história	NOUN	NOUN	_	0	root	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	ADP	_	12	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Brasil	_	PROPN	PNOUN	_	9	nmod	_	_
+13	por	por	ADP	ADP	_	14	case	_	_
+14	meio	meio	NOUN	NOUN	_	9	nmod	_	_
+15-16	da	_	_	_	_	_	_	_	_
+15	de	de	ADP	ADP	_	17	case	_	_
+16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	fotografia	fotografia	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = train-s146
+# text = O delegado também vai verificar se há registro de desaparecimento feito por parentes.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	delegado	delegado	NOUN	NOUN	_	5	nsubj	_	_
+3	também	também	ADV	ADV	_	5	advmod	_	_
+4	vai	ir	AUX	AUX	_	5	aux	_	_
+5	verificar	verificar	VERB	VERB	_	0	root	_	_
+6	se	_	CCONJ	CONJ	_	7	mark	_	_
+7	há	haver	VERB	VERB	_	5	ccomp	_	_
+8	registro	registro	NOUN	NOUN	_	7	obj	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
+10	desaparecimento	desaparecimento	NOUN	NOUN	_	8	nmod	_	_
+11	feito	_	VERB	VERB	_	8	acl	_	_
+12	por	por	ADP	ADP	_	13	case	_	_
+13	parentes	parente	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s147
+# text = A tensão nos mercados elevou o bônus espanhol a dez anos a quase 7 %, ao se situar pela primeira vez desde a criação do euro em 6,92 %.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	tensão	tensão	NOUN	NOUN	_	6	nsubj	_	_
+3-4	nos	_	_	_	_	_	_	_	_
+3	em	em	ADP	ADP	_	5	case	_	_
+4	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	mercados	mercado	NOUN	NOUN	_	2	nmod	_	_
+6	elevou	elevar	VERB	VERB	_	0	root	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	bônus	bônus	NOUN	NOUN	_	6	obj	_	_
+9	espanhol	espanhol	ADJ	ADJ	_	8	amod	_	_
+10	a	_	ADP	ADP	_	12	case	_	_
+11	dez	_	NUM	NUM	NumType=Card	12	nummod	_	_
+12	anos	ano	NOUN	NOUN	_	8	nmod	_	_
+13	a	_	ADP	ADP	_	16	case	_	_
+14	quase	quase	ADV	ADV	_	15	advmod	_	_
+15	7	7	NUM	NUM	NumType=Card	16	nummod	_	_
+16	%	_	SYM	SYM	_	6	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	.	_	21	punct	_	_
+18-19	ao	_	_	_	_	_	_	_	_
+18	a	a	ADP	ADP	_	21	case	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	se	_	PRON	PRON	_	21	expl:pv	_	_
+21	situar	situar	VERB	VERB	_	6	advcl	_	_
+22-23	pela	_	_	_	_	_	_	_	_
+22	por	por	ADP	ADP	_	25	case	_	_
+23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	primeira	primeiro	ADJ	ADJ	_	25	amod	_	_
+25	vez	vez	NOUN	NOUN	_	21	nmod	_	_
+26	desde	_	ADP	ADP	_	28	case	_	_
+27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	criação	criação	NOUN	NOUN	_	25	nmod	_	_
+29-30	do	_	_	_	_	_	_	_	_
+29	de	de	ADP	ADP	_	31	case	_	_
+30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	euro	euro	NOUN	NOUN	_	28	nmod	_	_
+32	em	em	ADP	ADP	_	34	case	_	_
+33	6,92	6,92	NUM	NUM	NumType=Card	34	nummod	_	_
+34	%	_	SYM	SYM	_	21	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s148
+# text = O tribunal não tem estimativa de quantas execuções deverão ser feitas ainda nesta semana.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tribunal	tribunal	NOUN	NOUN	_	4	nsubj	_	_
+3	não	não	ADV	ADV	Polarity=Neg	4	advmod	_	_
+4	tem	ter	VERB	VERB	_	0	root	_	_
+5	estimativa	_	NOUN	NOUN	_	4	obj	_	_
+6	de	_	ADP	ADP	_	11	mark	_	_
+7	quantas	_	DET	DET	_	8	det	_	_
+8	execuções	execução	NOUN	NOUN	_	11	nsubj:pass	_	_
+9	deverão	dever	AUX	AUX	_	11	aux	_	_
+10	ser	ser	AUX	AUX	_	11	aux:pass	_	_
+11	feitas	_	VERB	VERB	_	5	nmod	_	_
+12	ainda	ainda	ADV	ADV	_	14	advmod	_	_
+13	nesta	_	ADP	ADP	_	14	case	_	_
+14	semana	semana	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s149
+# text = Também serão investidos recursos na incorporação e oferta do medicamento usados no tratamento.
+1	Também	também	ADV	ADV	_	3	advmod	_	_
+2	serão	ser	AUX	AUX	_	3	aux:pass	_	_
+3	investidos	investir	VERB	VERB	_	0	root	_	_
+4	recursos	recurso	NOUN	NOUN	_	3	nsubj:pass	_	_
+5-6	na	_	_	_	_	_	_	_	_
+5	em	em	ADP	ADP	_	7	case	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	incorporação	incorporação	NOUN	NOUN	_	3	nmod	_	_
+8	e	e	CCONJ	CONJ	_	9	cc	_	_
+9	oferta	oferta	NOUN	NOUN	_	7	conj	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	ADP	_	12	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	medicamento	medicamento	NOUN	NOUN	_	7	nmod	_	_
+13	usados	usar	VERB	VERB	_	12	acl	_	_
+14-15	no	_	_	_	_	_	_	_	_
+14	em	em	ADP	ADP	_	16	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	tratamento	tratamento	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s150
+# text = Sua disseminação foi incentivado pelo imperador Mingzong (926-933), que ordenou a impressão das obras clássicas em Kaishu, usando novos blocos de madeira.
+1	Sua	_	DET	DET	_	2	det:poss	_	_
+2	disseminação	disseminação	NOUN	NOUN	_	4	nsubj:pass	_	_
+3	foi	_	AUX	AUX	_	4	aux:pass	_	_
+4	incentivado	incentivar	VERB	VERB	_	0	root	_	_
+5-6	pelo	_	_	_	_	_	_	_	_
+5	por	por	ADP	ADP	_	7	case	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	imperador	imperador	NOUN	NOUN	_	4	nmod	_	_
+8	Mingzong	_	PROPN	PNOUN	_	7	appos	_	_
+9	(	(	PUNCT	.	_	10	punct	_	SpaceAfter=No
+10	926-933	_	NUM	NUM	NumType=Card	8	nmod	_	SpaceAfter=No
+11	)	)	PUNCT	.	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	.	_	14	punct	_	_
+13	que	_	PRON	PRON	_	14	nsubj	_	_
+14	ordenou	ordenar	VERB	VERB	_	7	acl:relcl	_	_
+15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	impressão	impressão	NOUN	NOUN	_	14	obj	_	_
+17-18	das	_	_	_	_	_	_	_	_
+17	de	de	ADP	ADP	_	19	case	_	_
+18	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	obras	obra	NOUN	NOUN	_	16	nmod	_	_
+20	clássicas	clássico	ADJ	ADJ	_	19	amod	_	_
+21	em	em	ADP	ADP	_	22	case	_	_
+22	Kaishu	_	PROPN	PNOUN	_	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	.	_	24	punct	_	_
+24	usando	usar	VERB	VERB	_	16	acl	_	_
+25	novos	novo	ADJ	ADJ	_	26	amod	_	_
+26	blocos	bloco	NOUN	NOUN	_	24	obj	_	_
+27	de	de	ADP	ADP	_	28	case	_	_
+28	madeira	madeira	NOUN	NOUN	_	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	4	punct	_	_
+

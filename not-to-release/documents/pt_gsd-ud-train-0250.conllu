@@ -1,0 +1,313 @@
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Morsi já começou a trabalhar nesta segunda - feira, disse Jihad Haddad, um conselheiro da equipe de transição.
+# sent_id = train-s2481
+1	Morsi	Morsi	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+2	já	já	ADV	_	_	5	advmod	_	_
+3	começou	começar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	parataxis	_	_
+4	a	a	SCONJ	_	_	5	mark	_	_
+5	trabalhar	trabalhar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+6-7	nesta	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	segunda	segundo	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	5	obl	_	_
+9	-	-	PUNCT	_	_	10	punct	_	_
+10	feira	feira	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	5	punct	_	_
+12	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	Jihad	Jihad	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	12	nsubj	_	_
+14	Haddad	Haddad	PROPN	_	Number=Sing	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	conselheiro	conselheiro	NOUN	_	Gender=Masc|Number=Sing	13	appos	_	_
+18-19	da	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	equipe	equipe	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	transição	transição	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = train-s2482
+# text = A estimativa é da Associação Brasileira das Empresas de Serviços Terceirizáveis e de Trabalho Temporário (Assertem).
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	estimativa	_	NOUN	NOUN	_	3	nsubj	_	_
+3	é	ser	VERB	VERB	_	0	root	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	ADP	_	6	case	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Associação	_	PROPN	PNOUN	_	3	nmod	_	_
+7	Brasileira	_	PROPN	PNOUN	_	6	amod	_	_
+8-9	das	_	_	_	_	_	_	_	_
+8	de	de	ADP	ADP	_	10	case	_	_
+9	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	Empresas	_	PROPN	PNOUN	_	6	nmod	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
+12	Serviços	_	PROPN	PNOUN	_	10	nmod	_	_
+13	Terceirizáveis	_	PROPN	PNOUN	_	12	amod	_	_
+14	e	e	CCONJ	CONJ	_	16	cc	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
+16	Trabalho	_	PROPN	PNOUN	_	12	conj	_	_
+17	Temporário	_	PROPN	PNOUN	_	16	amod	_	_
+18	(	(	PUNCT	.	_	19	punct	_	SpaceAfter=No
+19	Assertem	_	PROPN	PNOUN	_	6	appos	_	SpaceAfter=No
+20	)	)	PUNCT	.	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s2483
+# text = Um eventual reencontro com Serena, numa reedição da final do ano passado, só aconteceria na final.
+1	Um	_	DET	DET	_	3	det	_	_
+2	eventual	eventual	ADJ	ADJ	_	3	amod	_	_
+3	reencontro	reencontro	NOUN	NOUN	_	18	nsubj	_	_
+4	com	com	ADP	ADP	_	5	case	_	_
+5	Serena	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	.	_	8	punct	_	_
+7	numa	_	ADP	ADP	_	8	case	_	_
+8	reedição	reedição	NOUN	NOUN	_	3	nmod	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	ADP	_	11	case	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	final	final	NOUN	NOUN	_	8	nmod	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	ADP	_	14	case	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	ano	ano	NOUN	NOUN	_	11	nmod	_	_
+15	passado	passado	ADJ	ADJ	_	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	.	_	8	punct	_	_
+17	só	só	ADV	ADV	_	18	advmod	_	_
+18	aconteceria	acontecer	VERB	VERB	_	0	root	_	_
+19-20	na	_	_	_	_	_	_	_	_
+19	em	em	ADP	ADP	_	21	case	_	_
+20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	final	final	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = train-s2484
+# text = já se documentou que um Volvo P1800 de 1966 dirigiu mais de 2.8 milhas e esse marco foi registrado no Livro Guinness dos Recordes como o veículo não comercial com o maior número de milhas dirigidas por um único proprietário.
+1	já	já	ADV	ADV	_	3	advmod	_	_
+2	se	_	PART	PRT	_	3	expl:pv	_	_
+3	documentou	documentar	VERB	VERB	_	0	root	_	_
+4	que	que	CCONJ	CONJ	_	10	mark	_	_
+5	um	um	DET	DET	_	6	det	_	_
+6	Volvo	_	PROPN	PNOUN	_	10	nsubj	_	_
+7	P1800	_	NUM	NUM	NumType=Card	6	appos	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
+9	1966	1966	NUM	NUM	NumType=Card	6	nmod	_	_
+10	dirigiu	dirigir	VERB	VERB	_	3	ccomp	_	_
+11	mais	mais	ADV	ADV	_	13	advmod	_	_
+12	de	de	ADP	ADP	_	11	case	_	_
+13	2.8	_	NUM	NUM	NumType=Card	14	nummod	_	_
+14	milhas	_	NOUN	NOUN	_	10	obj	_	_
+15	e	e	CCONJ	CONJ	_	19	cc	_	_
+16	esse	_	DET	DET	_	17	det	_	_
+17	marco	marco	NOUN	NOUN	_	19	nsubj:pass	_	_
+18	foi	_	AUX	AUX	_	19	aux:pass	_	_
+19	registrado	registrar	VERB	VERB	_	3	conj	_	_
+20-21	no	_	_	_	_	_	_	_	_
+20	em	em	ADP	ADP	_	22	case	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Livro	_	PROPN	PNOUN	_	19	nmod	_	_
+23	Guinness	_	PROPN	PNOUN	_	22	flat	_	_
+24-25	dos	_	_	_	_	_	_	_	_
+24	de	de	ADP	ADP	_	26	case	_	_
+25	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	Recordes	_	PROPN	PNOUN	_	22	nmod	_	_
+27	como	como	ADP	ADP	_	29	case	_	_
+28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	veículo	veículo	NOUN	NOUN	_	19	nmod	_	_
+30	não	não	ADV	ADV	Polarity=Neg	31	advmod	_	_
+31	comercial	comercial	ADJ	ADJ	_	29	amod	_	_
+32	com	com	ADP	ADP	_	35	case	_	_
+33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+34	maior	maior	ADJ	ADJ	_	35	amod	_	_
+35	número	número	NOUN	NOUN	_	29	nmod	_	_
+36	de	de	ADP	ADP	_	37	case	_	_
+37	milhas	_	NOUN	NOUN	_	35	nmod	_	_
+38	dirigidas	dirigir	VERB	VERB	_	37	acl	_	_
+39	por	por	ADP	ADP	_	42	case	_	_
+40	um	um	DET	DET	_	42	det	_	_
+41	único	único	ADJ	ADJ	_	42	amod	_	_
+42	proprietário	proprietário	NOUN	NOUN	_	38	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s2485
+# text = O resultado é o musical "Bandeira de retalhos", que faz temporada gratuita de hoje ao dia 23 no Casarão, sede do Nós do Morro, transferindo-se no dia 29 para o Planetário da Gávea.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	resultado	resultado	NOUN	NOUN	_	5	nsubj	_	_
+3	é	ser	AUX	AUX	_	5	cop	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	musical	musical	NOUN	NOUN	_	0	root	_	_
+6	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
+7	Bandeira	_	PROPN	PNOUN	_	5	appos	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
+9	retalhos	retalho	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
+10	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	13	punct	_	_
+12	que	_	PRON	PRON	_	13	nsubj	_	_
+13	faz	fazer	VERB	VERB	_	5	acl:relcl	_	_
+14	temporada	temporada	NOUN	NOUN	_	13	obj	_	_
+15	gratuita	gratuito	ADJ	ADJ	_	14	amod	_	_
+16	de	_	ADP	ADP	_	17	mark	_	_
+17	hoje	hoje	ADV	ADV	_	13	nmod	_	_
+18-19	ao	_	_	_	_	_	_	_	_
+18	a	a	ADP	ADP	_	20	case	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	dia	dia	NOUN	NOUN	_	13	nmod	_	_
+21	23	23	NUM	NUM	NumType=Card	20	nmod	_	_
+22-23	no	_	_	_	_	_	_	_	_
+22	em	em	ADP	ADP	_	24	case	_	_
+23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Casarão	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	.	_	26	punct	_	_
+26	sede	sede	NOUN	NOUN	_	24	appos	_	_
+27-28	do	_	_	_	_	_	_	_	_
+27	de	de	ADP	ADP	_	29	case	_	_
+28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	Nós	_	PROPN	PNOUN	_	26	nmod	_	_
+30-31	do	_	_	_	_	_	_	_	_
+30	de	de	ADP	ADP	_	32	case	_	_
+31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	Morro	_	PROPN	PNOUN	_	29	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	.	_	26	punct	_	_
+34-35	transferindo-se	_	_	_	_	_	_	_	_
+34	transferindo	transferir	VERB	VERB	_	13	acl	_	_
+35	se	_	PRON	PRON	_	34	obj	_	_
+36-37	no	_	_	_	_	_	_	_	_
+36	em	em	ADP	ADP	_	38	case	_	_
+37	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	dia	dia	NOUN	NOUN	_	34	nmod	_	_
+39	29	29	NUM	NUM	NumType=Card	38	nmod	_	_
+40	para	para	ADP	ADP	_	42	case	_	_
+41	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	Planetário	_	PROPN	PNOUN	_	34	nmod	_	_
+43-44	da	_	_	_	_	_	_	_	_
+43	de	de	ADP	ADP	_	45	case	_	_
+44	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	Gávea	_	PROPN	PNOUN	_	42	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s2486
+# text = Por telefone o diretor da guarda, Marco Túlio Gianvecchio, informou que vai intensificar a 'Operação Cerol' que está sendo realizada em Uberaba.
+1	Por	_	ADP	ADP	_	2	case	_	_
+2	telefone	telefone	NOUN	NOUN	_	13	nmod	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	diretor	diretor	NOUN	NOUN	_	13	nsubj	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	ADP	_	7	case	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	guarda	guarda	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	9	punct	_	_
+9	Marco	_	PROPN	PNOUN	_	4	appos	_	_
+10	Túlio	_	PROPN	PNOUN	_	9	flat	_	_
+11	Gianvecchio	_	PROPN	PNOUN	_	9	flat	_	SpaceAfter=No
+12	,	,	PUNCT	.	_	9	punct	_	_
+13	informou	informar	VERB	VERB	_	0	root	_	_
+14	que	que	CCONJ	CONJ	_	16	mark	_	_
+15	vai	ir	AUX	AUX	_	16	aux	_	_
+16	intensificar	intensificar	VERB	VERB	_	13	ccomp	_	_
+17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	'	_	PUNCT	.	_	19	punct	_	SpaceAfter=No
+19	Operação	_	PROPN	PNOUN	_	16	obj	_	_
+20	Cerol	_	PROPN	PNOUN	_	19	flat	_	SpaceAfter=No
+21	'	_	PUNCT	.	_	19	punct	_	_
+22	que	_	PRON	PRON	_	25	nsubj:pass	_	_
+23	está	estar	AUX	AUX	_	25	aux	_	_
+24	sendo	ser	AUX	AUX	_	25	aux:pass	_	_
+25	realizada	realizar	VERB	VERB	_	19	acl:relcl	_	_
+26	em	em	ADP	ADP	_	27	case	_	_
+27	Uberaba	_	PROPN	PNOUN	_	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = train-s2487
+# text = O estudo usou dados do IMS Health, instituto que audita o mercado farmacêutico.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	estudo	estudo	NOUN	NOUN	_	3	nsubj	_	_
+3	usou	usar	VERB	VERB	_	0	root	_	_
+4	dados	dado	NOUN	NOUN	_	3	obj	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	ADP	_	7	case	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	IMS	_	PROPN	PNOUN	_	4	nmod	_	_
+8	Health	_	PROPN	PNOUN	_	7	flat	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	10	punct	_	_
+10	instituto	instituto	NOUN	NOUN	_	7	appos	_	_
+11	que	_	PRON	PRON	_	12	nsubj	_	_
+12	audita	_	VERB	VERB	_	10	acl:relcl	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	mercado	mercado	NOUN	NOUN	_	12	obj	_	_
+15	farmacêutico	farmacêutico	ADJ	ADJ	_	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s2488
+# text = Na prática, como existe o compromisso de recompra em prazo muito curto, o efeito imediato sobre o câmbio é menor.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	ADP	_	3	case	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	prática	_	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	como	_	CCONJ	CONJ	_	6	mark	_	_
+6	existe	existir	VERB	VERB	_	22	advcl	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	compromisso	compromisso	NOUN	NOUN	_	6	nsubj	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
+10	recompra	_	NOUN	NOUN	_	8	nmod	_	_
+11	em	em	ADP	ADP	_	12	case	_	_
+12	prazo	prazo	NOUN	NOUN	_	10	nmod	_	_
+13	muito	muito	ADV	ADV	_	14	advmod	_	_
+14	curto	curto	ADJ	ADJ	_	12	amod	_	SpaceAfter=No
+15	,	,	PUNCT	.	_	8	punct	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	efeito	efeito	NOUN	NOUN	_	22	nsubj	_	_
+18	imediato	imediato	ADJ	ADJ	_	17	amod	_	_
+19	sobre	_	ADP	ADP	_	21	case	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	câmbio	câmbio	NOUN	NOUN	_	17	nmod	_	_
+22	é	ser	VERB	VERB	_	0	root	_	_
+23	menor	menor	ADJ	ADJ	_	22	xcomp	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	22	punct	_	_
+
+# sent_id = train-s2489
+# text = Dá para tirar um belo cochilo com uma vista maravilhosa da Serra da Mantiqueira.
+1	Dá	dar	VERB	VERB	_	0	root	_	_
+2	para	_	ADP	ADP	_	3	mark	_	_
+3	tirar	tirar	VERB	VERB	_	1	nmod	_	_
+4	um	um	DET	DET	_	6	det	_	_
+5	belo	belo	ADJ	ADJ	_	6	amod	_	_
+6	cochilo	cochilo	NOUN	NOUN	_	3	obj	_	_
+7	com	com	ADP	ADP	_	9	case	_	_
+8	uma	um	DET	DET	_	9	det	_	_
+9	vista	vista	NOUN	NOUN	_	6	nmod	_	_
+10	maravilhosa	maravilhoso	ADJ	ADJ	_	9	amod	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	ADP	_	13	case	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Serra	_	PROPN	PNOUN	_	9	nmod	_	_
+14-15	da	_	_	_	_	_	_	_	_
+14	de	de	ADP	ADP	_	16	case	_	_
+15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Mantiqueira	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s2490
+# text = Douglas Leite, Nirley, Elias, Diego Oliveira, André Gava, Rodrigo Tiuí, Lins e Douglas.
+1	Douglas	_	PROPN	PNOUN	_	0	root	_	_
+2	Leite	_	PROPN	PNOUN	_	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	.	_	4	punct	_	_
+4	Nirley	_	PROPN	PNOUN	_	1	conj	_	SpaceAfter=No
+5	,	,	PUNCT	.	_	6	punct	_	_
+6	Elias	_	PROPN	PNOUN	_	1	conj	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	8	punct	_	_
+8	Diego	_	PROPN	PNOUN	_	1	conj	_	_
+9	Oliveira	_	PROPN	PNOUN	_	8	flat	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	11	punct	_	_
+11	André	_	PROPN	PNOUN	_	1	conj	_	_
+12	Gava	_	PROPN	PNOUN	_	11	flat	_	SpaceAfter=No
+13	,	,	PUNCT	.	_	14	punct	_	_
+14	Rodrigo	_	PROPN	PNOUN	_	1	conj	_	_
+15	Tiuí	_	PROPN	PNOUN	_	14	flat	_	SpaceAfter=No
+16	,	,	PUNCT	.	_	17	punct	_	_
+17	Lins	_	PROPN	PNOUN	_	1	conj	_	_
+18	e	e	CCONJ	CONJ	_	19	cc	_	_
+19	Douglas	_	PROPN	PNOUN	_	1	conj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	1	punct	_	_
+

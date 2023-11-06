@@ -1,0 +1,335 @@
+# sent_id = train-s4077
+# text = As informações são do UOL Tecnologia.
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	informações	informação	NOUN	NOUN	_	3	nsubj	_	_
+3	são	ser	VERB	VERB	_	0	root	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	UOL	_	PROPN	PNOUN	_	3	nmod	_	_
+7	Tecnologia	_	PROPN	PNOUN	_	6	flat	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s4078
+# text = As aeronaves foram apreendidas por tráfico de drogas e serão doadas aos estados do Acre, Amazonas, Bahia, Maranhão, Mato Grosso, Mato Grosso do Sul, Pará, Paraná, Piauí, Rondônia e Tocantins.
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	aeronaves	aeronave	NOUN	NOUN	_	4	nsubj:pass	_	_
+3	foram	_	AUX	AUX	_	4	aux:pass	_	_
+4	apreendidas	apreender	VERB	VERB	_	0	root	_	_
+5	por	por	ADP	ADP	_	6	case	_	_
+6	tráfico	tráfico	NOUN	NOUN	_	4	nmod	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
+8	drogas	droga	NOUN	NOUN	_	6	nmod	_	_
+9	e	e	CCONJ	CONJ	_	11	cc	_	_
+10	serão	ser	AUX	AUX	_	11	aux:pass	_	_
+11	doadas	doar	VERB	VERB	_	4	conj	_	_
+12-13	aos	_	_	_	_	_	_	_	_
+12	a	a	ADP	ADP	_	14	case	_	_
+13	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	estados	estado	NOUN	NOUN	_	11	iobj	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Acre	_	PROPN	PNOUN	_	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	.	_	19	punct	_	_
+19	Amazonas	_	PROPN	PNOUN	_	17	conj	_	SpaceAfter=No
+20	,	,	PUNCT	.	_	21	punct	_	_
+21	Bahia	_	PROPN	PNOUN	_	17	conj	_	SpaceAfter=No
+22	,	,	PUNCT	.	_	23	punct	_	_
+23	Maranhão	_	PROPN	PNOUN	_	17	conj	_	SpaceAfter=No
+24	,	,	PUNCT	.	_	25	punct	_	_
+25	Mato	_	PROPN	PNOUN	_	17	conj	_	_
+26	Grosso	_	PROPN	PNOUN	_	25	amod	_	SpaceAfter=No
+27	,	,	PUNCT	.	_	28	punct	_	_
+28	Mato	_	PROPN	PNOUN	_	17	conj	_	_
+29	Grosso	_	PROPN	PNOUN	_	28	amod	_	_
+30-31	do	_	_	_	_	_	_	_	_
+30	de	de	ADP	ADP	_	32	case	_	_
+31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	Sul	_	PROPN	PNOUN	_	28	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	.	_	34	punct	_	_
+34	Pará	_	PROPN	PNOUN	_	17	conj	_	SpaceAfter=No
+35	,	,	PUNCT	.	_	36	punct	_	_
+36	Paraná	_	PROPN	PNOUN	_	17	conj	_	SpaceAfter=No
+37	,	,	PUNCT	.	_	38	punct	_	_
+38	Piauí	_	PROPN	PNOUN	_	17	conj	_	SpaceAfter=No
+39	,	,	PUNCT	.	_	40	punct	_	_
+40	Rondônia	_	PROPN	PNOUN	_	17	conj	_	_
+41	e	e	CCONJ	CONJ	_	42	cc	_	_
+42	Tocantins	_	PROPN	PNOUN	_	17	conj	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	4	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Resolveu-se adotar como verdade de fé a doutrina proposta por Cirilo, concedendo a Maria o título de Mãe de Deus, e os nestorianos foram considerados hereges.
+# sent_id = train-s4079
+1-2	Resolveu-se	_	_	_	_	_	_	_	_
+1	Resolveu	resolver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	se	se	PRON	_	Case=Acc|PronType=Prs	1	nsubj	_	_
+3	adotar	adotar	VERB	_	VerbForm=Inf	1	xcomp	_	_
+4	como	como	ADP	_	_	5	case	_	_
+5	verdade	verdade	NOUN	_	Gender=Fem|Number=Sing	3	xcomp	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	fé	fé	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	doutrina	doutrina	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+10	proposta	propor	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	9	acl	_	_
+11	por	por	ADP	_	_	12	case	_	_
+12	Cirilo	Cirilo	PROPN	_	Gender=Masc|Number=Sing	10	obl:agent	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	concedendo	conceder	VERB	_	VerbForm=Ger	3	advcl	_	_
+15	a	a	ADP	_	_	16	case	_	_
+16	Maria	Maria	PROPN	_	Gender=Fem|Number=Sing	14	obj	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	título	título	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	Mãe	Mãe	PROPN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	Deus	Deus	PROPN	_	Number=Sing	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	28	punct	_	_
+24	e	e	CCONJ	_	_	28	cc	_	_
+25	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	nestorianos	nestoriano	NOUN	_	Gender=Masc|Number=Plur	28	nsubj:pass	_	_
+27	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	28	aux:pass	_	_
+28	considerados	considerar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	3	conj	_	_
+29	hereges	herege	NOUN	_	Gender=Masc|Number=Plur	28	xcomp	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = train-s4080
+# text = Foi condecorado com a Cruz de Cavaleiro da Cruz de Ferro (30 de Julho de 1941), com Folhas de Carvalho (23 de Dezembro de 1942, n ° 162) e Espadas (23 de Outubro de 1944, n ° 105).
+1	Foi	_	AUX	AUX	_	2	aux:pass	_	_
+2	condecorado	condecorar	VERB	VERB	_	0	root	_	_
+3	com	com	ADP	ADP	_	5	case	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Cruz	_	PROPN	PNOUN	_	2	nmod	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
+7	Cavaleiro	_	PROPN	PNOUN	_	5	nmod	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	ADP	_	10	case	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Cruz	_	PROPN	PNOUN	_	7	nmod	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
+12	Ferro	_	PROPN	PNOUN	_	10	nmod	_	_
+13	(	(	PUNCT	.	_	14	punct	_	SpaceAfter=No
+14	30	30	NUM	NUM	NumType=Card	2	nmod	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
+16	Julho	_	PROPN	PNOUN	_	14	nmod	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
+18	1941	1941	NUM	NUM	NumType=Card	16	nmod	_	SpaceAfter=No
+19	)	)	PUNCT	.	_	14	punct	_	SpaceAfter=No
+20	,	,	PUNCT	.	_	22	punct	_	_
+21	com	com	ADP	ADP	_	22	case	_	_
+22	Folhas	_	PROPN	PNOUN	_	2	nmod	_	_
+23	de	de	ADP	ADP	_	24	case	_	_
+24	Carvalho	_	PROPN	PNOUN	_	22	nmod	_	_
+25	(	(	PUNCT	.	_	26	punct	_	SpaceAfter=No
+26	23	23	NUM	NUM	NumType=Card	22	nmod	_	_
+27	de	de	ADP	ADP	_	28	case	_	_
+28	Dezembro	_	PROPN	PNOUN	_	26	nmod	_	_
+29	de	de	ADP	ADP	_	30	case	_	_
+30	1942	1942	NUM	NUM	NumType=Card	28	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	.	_	32	punct	_	_
+32	n	n	NOUN	NOUN	_	26	appos	_	_
+33	°	_	PUNCT	.	_	32	punct	_	_
+34	162	162	NUM	NUM	NumType=Card	32	appos	_	SpaceAfter=No
+35	)	)	PUNCT	.	_	26	punct	_	_
+36	e	e	CCONJ	CONJ	_	37	cc	_	_
+37	Espadas	_	PROPN	PNOUN	_	22	conj	_	_
+38	(	(	PUNCT	.	_	39	punct	_	SpaceAfter=No
+39	23	23	NUM	NUM	NumType=Card	37	nmod	_	_
+40	de	de	ADP	ADP	_	41	case	_	_
+41	Outubro	_	PROPN	PNOUN	_	39	nmod	_	_
+42	de	de	ADP	ADP	_	43	case	_	_
+43	1944	1944	NUM	NUM	NumType=Card	41	nmod	_	SpaceAfter=No
+44	,	,	PUNCT	.	_	45	punct	_	_
+45	n	n	NOUN	NOUN	_	39	appos	_	_
+46	°	_	PUNCT	.	_	45	punct	_	_
+47	105	105	NUM	NUM	NumType=Card	45	appos	_	SpaceAfter=No
+48	)	)	PUNCT	.	_	39	punct	_	SpaceAfter=No
+49	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s4081
+# text = Iniciou e realizou a maior parte doutras obras importantes que deixou para seu sucessor inaugurar: o novo viaduto do Chá e os demais viadutos sobre a avenida 9 de Julho, o Estádio do Pacaembu, a avenida Rebouças, o Parque do Ibirapuera e o Hospital da Prefeitura.
+1	Iniciou	iniciar	VERB	VERB	_	0	root	_	_
+2	e	e	CCONJ	CONJ	_	3	cc	_	_
+3	realizou	realizar	VERB	VERB	_	1	conj	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	maior	maior	ADJ	ADJ	_	6	amod	_	_
+6	parte	parte	NOUN	NOUN	_	3	obj	_	_
+7-8	doutras	_	_	_	_	_	_	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
+8	outras	_	DET	DET	_	9	det	_	_
+9	obras	obra	NOUN	NOUN	_	6	nmod	_	_
+10	importantes	importante	ADJ	ADJ	_	9	amod	_	_
+11	que	_	PRON	PRON	_	12	nsubj	_	_
+12	deixou	deixar	VERB	VERB	_	9	acl:relcl	_	_
+13	para	_	ADP	ADP	_	16	mark	_	_
+14	seu	_	DET	DET	_	15	det:poss	_	_
+15	sucessor	sucessor	NOUN	NOUN	_	16	nsubj	_	_
+16	inaugurar	inaugurar	VERB	VERB	_	12	nmod	_	SpaceAfter=No
+17	:	:	PUNCT	.	_	9	punct	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	novo	novo	ADJ	ADJ	_	20	amod	_	_
+20	viaduto	viaduto	NOUN	NOUN	_	9	appos	_	_
+21-22	do	_	_	_	_	_	_	_	_
+21	de	de	ADP	ADP	_	23	case	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Chá	_	PROPN	PNOUN	_	20	nmod	_	_
+24	e	e	CCONJ	CONJ	_	27	cc	_	_
+25	os	o	DET	DET	_	27	det	_	_
+26	demais	_	DET	DET	_	27	det	_	_
+27	viadutos	viaduto	NOUN	NOUN	_	20	conj	_	_
+28	sobre	_	ADP	ADP	_	30	case	_	_
+29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	avenida	avenida	NOUN	NOUN	_	27	nmod	_	_
+31	9	9	NUM	NUM	NumType=Card	30	appos	_	_
+32	de	de	ADP	ADP	_	33	case	_	_
+33	Julho	_	PROPN	PNOUN	_	31	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	.	_	36	punct	_	_
+35	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	Estádio	_	PROPN	PNOUN	_	20	conj	_	_
+37-38	do	_	_	_	_	_	_	_	_
+37	de	de	ADP	ADP	_	39	case	_	_
+38	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	Pacaembu	_	PROPN	PNOUN	_	36	nmod	_	SpaceAfter=No
+40	,	,	PUNCT	.	_	42	punct	_	_
+41	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	avenida	avenida	NOUN	NOUN	_	20	conj	_	_
+43	Rebouças	_	PROPN	PNOUN	_	42	appos	_	SpaceAfter=No
+44	,	,	PUNCT	.	_	46	punct	_	_
+45	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	Parque	_	PROPN	PNOUN	_	20	conj	_	_
+47-48	do	_	_	_	_	_	_	_	_
+47	de	de	ADP	ADP	_	49	case	_	_
+48	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	Ibirapuera	_	PROPN	PNOUN	_	46	nmod	_	_
+50	e	e	CCONJ	CONJ	_	52	cc	_	_
+51	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+52	Hospital	_	PROPN	PNOUN	_	20	conj	_	_
+53-54	da	_	_	_	_	_	_	_	_
+53	de	de	ADP	ADP	_	55	case	_	_
+54	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
+55	Prefeitura	_	PROPN	PNOUN	_	52	nmod	_	SpaceAfter=No
+56	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s4082
+# text = Tom Kristensen (Hobro, 7 de setembro de 1967) é um automobilista dinamarquês.
+1	Tom	_	PROPN	PNOUN	_	14	nsubj	_	_
+2	Kristensen	_	PROPN	PNOUN	_	1	flat	_	_
+3	(	(	PUNCT	.	_	4	punct	_	SpaceAfter=No
+4	Hobro	_	PROPN	PNOUN	_	1	appos	_	SpaceAfter=No
+5	,	,	PUNCT	.	_	6	punct	_	_
+6	7	7	NUM	NUM	NumType=Card	4	nmod	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
+8	setembro	_	PROPN	PNOUN	_	6	nmod	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
+10	1967	1967	NUM	NUM	NumType=Card	8	nmod	_	SpaceAfter=No
+11	)	)	PUNCT	.	_	4	punct	_	_
+12	é	ser	AUX	AUX	_	14	cop	_	_
+13	um	um	DET	DET	_	14	det	_	_
+14	automobilista	automobilista	NOUN	NOUN	_	0	root	_	_
+15	dinamarquês	dinamarquês	ADJ	ADJ	_	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = train-s4083
+# text = Luverdense cai de rendimento.
+1	Luverdense	_	PROPN	PNOUN	_	2	nsubj	_	_
+2	cai	cair	VERB	VERB	_	0	root	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
+4	rendimento	rendimento	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s4084
+# text = Na noite desta terça - feira, o time do ABC paulista foi derrotado pelo ASA por 4 a 1, no Estádio Coaracy da Mata, em Arapiraca (AL), e saiu fora do grupo dos quatro primeiros colocados do campeonato.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	ADP	_	3	case	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	noite	noite	NOUN	NOUN	_	16	nmod	_	_
+4	desta	_	ADP	ADP	_	7	case	_	_
+5	terça	_	PROPN	PNOUN	_	7	amod	_	_
+6	-	-	PUNCT	.	_	7	punct	_	_
+7	feira	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	3	punct	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	time	time	NOUN	NOUN	_	16	nsubj:pass	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	ADP	_	13	case	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	ABC	_	PROPN	PNOUN	_	10	nmod	_	_
+14	paulista	paulista	ADJ	ADJ	_	13	amod	_	_
+15	foi	_	AUX	AUX	_	16	aux:pass	_	_
+16	derrotado	derrotar	VERB	VERB	_	0	root	_	_
+17-18	pelo	_	_	_	_	_	_	_	_
+17	por	por	ADP	ADP	_	19	case	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	ASA	_	PROPN	PNOUN	_	16	nmod	_	_
+20	por	por	ADP	ADP	_	21	case	_	_
+21	4	4	NUM	NUM	NumType=Card	16	nmod	_	_
+22	a	_	ADP	ADP	_	23	case	_	_
+23	1	1	NUM	NUM	NumType=Card	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	.	_	27	punct	_	_
+25-26	no	_	_	_	_	_	_	_	_
+25	em	em	ADP	ADP	_	27	case	_	_
+26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Estádio	estádio	NOUN	NOUN	_	16	nmod	_	_
+28	Coaracy	_	PROPN	PNOUN	_	27	flat	_	_
+29-30	da	_	_	_	_	_	_	_	_
+29	de	de	ADP	ADP	_	31	case	_	_
+30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	Mata	_	PROPN	PNOUN	_	27	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	.	_	27	punct	_	_
+33	em	em	ADP	ADP	_	34	case	_	_
+34	Arapiraca	_	PROPN	PNOUN	_	16	nmod	_	_
+35	(	(	PUNCT	.	_	36	punct	_	SpaceAfter=No
+36	AL	_	PROPN	PNOUN	_	34	appos	_	SpaceAfter=No
+37	)	)	PUNCT	.	_	36	punct	_	SpaceAfter=No
+38	,	,	PUNCT	.	_	34	punct	_	_
+39	e	e	CCONJ	CONJ	_	40	cc	_	_
+40	saiu	sair	VERB	VERB	_	16	conj	_	_
+41	fora	fora	ADV	ADV	_	40	advmod	_	_
+42-43	do	_	_	_	_	_	_	_	_
+42	de	de	ADP	ADP	_	44	case	_	_
+43	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	grupo	grupo	NOUN	NOUN	_	41	nmod	_	_
+45-46	dos	_	_	_	_	_	_	_	_
+45	de	de	ADP	ADP	_	49	case	_	_
+46	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	49	det	_	_
+47	quatro	_	NUM	NUM	NumType=Card	49	nummod	_	_
+48	primeiros	primeiro	ADJ	ADJ	_	49	amod	_	_
+49	colocados	_	NOUN	NOUN	_	44	nmod	_	_
+50-51	do	_	_	_	_	_	_	_	_
+50	de	de	ADP	ADP	_	52	case	_	_
+51	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+52	campeonato	campeonato	NOUN	NOUN	_	49	nmod	_	SpaceAfter=No
+53	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = train-s4085
+# text = "Nesse caso [jogar após a derrota] é bom.
+1	"	"	PUNCT	.	_	10	punct	_	SpaceAfter=No
+2	Nesse	_	ADP	ADP	_	3	case	_	_
+3	caso	caso	NOUN	NOUN	_	10	nmod	_	_
+4	[	_	PUNCT	.	_	5	punct	_	SpaceAfter=No
+5	jogar	jogar	VERB	VERB	_	10	csubj	_	_
+6	após	_	ADP	ADP	_	8	case	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	derrota	derrota	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
+9	]	_	PUNCT	.	_	5	punct	_	_
+10	é	ser	VERB	VERB	_	0	root	_	_
+11	bom	bom	ADJ	ADJ	_	10	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = train-s4086
+# text = Pterygostemon é um género botânico pertencente à família Brassicaceae.
+1	Pterygostemon	_	PROPN	PNOUN	_	4	nsubj	_	_
+2	é	ser	AUX	AUX	_	4	cop	_	_
+3	um	um	DET	DET	_	4	det	_	_
+4	género	género	NOUN	NOUN	_	0	root	_	_
+5	botânico	botânico	ADJ	ADJ	_	4	amod	_	_
+6	pertencente	pertencente	ADJ	ADJ	_	4	amod	_	_
+7-8	à	_	_	_	_	_	_	_	_
+7	a	a	ADP	ADP	_	9	case	_	_
+8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	família	família	NOUN	NOUN	_	6	nmod	_	_
+10	Brassicaceae	_	PROPN	PNOUN	_	9	appos	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+

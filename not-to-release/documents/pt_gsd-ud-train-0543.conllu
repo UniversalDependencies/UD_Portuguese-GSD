@@ -1,0 +1,312 @@
+# sent_id = train-s5389
+# text = A doença de Chávez tem gerado especulações e incertezas tanto na Venezuela quanto nos países vizinhos.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	doença	doença	NOUN	NOUN	_	6	nsubj	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
+4	Chávez	_	PROPN	PNOUN	_	2	nmod	_	_
+5	tem	ter	AUX	AUX	_	6	aux	_	_
+6	gerado	gerar	VERB	VERB	_	0	root	_	_
+7	especulações	especulação	NOUN	NOUN	_	6	obj	_	_
+8	e	e	CCONJ	CONJ	_	9	cc	_	_
+9	incertezas	incerteza	NOUN	NOUN	_	7	conj	_	_
+10	tanto	tanto	ADV	ADV	_	13	cc	_	_
+11-12	na	_	_	_	_	_	_	_	_
+11	em	em	ADP	ADP	_	13	case	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Venezuela	_	PROPN	PNOUN	_	6	nmod	_	_
+14	quanto	_	CCONJ	CONJ	_	17	cc	_	_
+15-16	nos	_	_	_	_	_	_	_	_
+15	em	em	ADP	ADP	_	17	case	_	_
+16	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	países	país	NOUN	NOUN	_	13	conj	_	_
+18	vizinhos	_	ADJ	ADJ	_	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	6	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = O Google costuma comemorar datas importantes para a humanidade, como aniversários de invenções e personalidades ligadas à cultura e à política, por exemplo, com customizações do logo na página inicial do site de buscas.
+# sent_id = train-s5390
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Google	Google	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	costuma	costumar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	comemorar	comemorar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	datas	data	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
+6	importantes	importante	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	_
+7	para	para	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	humanidade	humanidade	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	como	como	ADP	_	_	12	case	_	_
+12	aniversários	aniversário	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	invenções	invenção	NOUN	_	Gender=Fem|Number=Plur	12	nmod	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	personalidades	personalidade	NOUN	_	Gender=Fem|Number=Plur	14	conj	_	_
+17	ligadas	ligar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	16	acl	_	_
+18-19	à	_	_	_	_	_	_	_	_
+18	a	a	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	cultura	cultura	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+21	e	e	CCONJ	_	_	24	cc	_	_
+22-23	à	_	_	_	_	_	_	_	_
+22	a	a	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	política	política	NOUN	_	Gender=Fem|Number=Sing	20	conj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	17	punct	_	_
+26	por	por	ADP	_	ExtPos=ADV	30	advmod	_	_
+27	exemplo	exemplo	NOUN	_	Gender=Masc|Number=Sing	26	fixed	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	26	punct	_	_
+29	com	com	ADP	_	_	30	case	_	_
+30	customizações	customização	NOUN	_	Gender=Fem|Number=Plur	4	obl	_	_
+31-32	do	_	_	_	_	_	_	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	logo	logo	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	_
+34-35	na	_	_	_	_	_	_	_	_
+34	em	em	ADP	_	_	36	case	_	_
+35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	página	página	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
+37	inicial	inicial	ADJ	_	Gender=Fem|Number=Sing	36	amod	_	_
+38-39	do	_	_	_	_	_	_	_	_
+38	de	de	ADP	_	_	40	case	_	_
+39	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	site	site	NOUN	_	Gender=Masc|Number=Sing	36	nmod	_	_
+41	de	de	ADP	_	_	42	case	_	_
+42	buscas	busca	NOUN	_	Gender=Fem|Number=Plur	40	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+
+# sent_id = train-s5391
+# text = A blindagem armada junto à imprensa corporativa impediu que a realidade sobre a violência não chegasse à população, sobretudo pelos veículos tradicionais ou de massa, como os jornais e televisão.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	blindagem	blindagem	NOUN	NOUN	_	9	nsubj	_	_
+3	armada	armado	ADJ	ADJ	_	2	amod	_	_
+4	junto	junto	ADV	ADV	_	2	advmod	_	_
+5-6	à	_	_	_	_	_	_	_	_
+5	a	a	ADP	ADP	_	7	case	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	imprensa	imprensa	NOUN	NOUN	_	4	nmod	_	_
+8	corporativa	corporativo	ADJ	ADJ	_	7	amod	_	_
+9	impediu	impedir	VERB	VERB	_	0	root	_	_
+10	que	que	CCONJ	CONJ	_	17	mark	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	realidade	realidade	NOUN	NOUN	_	17	nsubj	_	_
+13	sobre	_	ADP	ADP	_	15	case	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	violência	violência	NOUN	NOUN	_	12	nmod	_	_
+16	não	não	ADV	ADV	Polarity=Neg	17	advmod	_	_
+17	chegasse	chegar	VERB	VERB	_	9	ccomp	_	_
+18-19	à	_	_	_	_	_	_	_	_
+18	a	a	ADP	ADP	_	20	case	_	_
+19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	população	população	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	.	_	25	punct	_	_
+22	sobretudo	sobretudo	ADV	ADV	_	25	advmod	_	_
+23-24	pelos	_	_	_	_	_	_	_	_
+23	por	por	ADP	ADP	_	25	case	_	_
+24	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	veículos	veículo	NOUN	NOUN	_	17	nmod	_	_
+26	tradicionais	tradicional	ADJ	ADJ	_	25	amod	_	_
+27	ou	ou	CCONJ	CONJ	_	29	cc	_	_
+28	de	de	ADP	ADP	_	29	case	_	_
+29	massa	massa	NOUN	NOUN	_	25	conj	_	SpaceAfter=No
+30	,	,	PUNCT	.	_	33	punct	_	_
+31	como	como	ADP	ADP	_	33	case	_	_
+32	os	o	DET	DET	_	33	det	_	_
+33	jornais	jornal	NOUN	NOUN	_	25	nmod	_	_
+34	e	e	CCONJ	CONJ	_	35	cc	_	_
+35	televisão	televisão	NOUN	NOUN	_	33	conj	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = train-s5392
+# text = O ideal é consumir a bebida em pequenas doses e combinada com um cardápio balanceado.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ideal	ideal	NOUN	NOUN	_	0	root	_	_
+3	é	ser	AUX	AUX	_	2	cop	_	_
+4	consumir	consumir	VERB	VERB	_	2	csubj	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	bebida	bebida	NOUN	NOUN	_	4	obj	_	_
+7	em	em	ADP	ADP	_	9	case	_	_
+8	pequenas	pequeno	ADJ	ADJ	_	9	amod	_	_
+9	doses	dose	NOUN	NOUN	_	4	nmod	_	_
+10	e	e	CCONJ	CONJ	_	11	cc	_	_
+11	combinada	combinar	VERB	VERB	_	9	conj	_	_
+12	com	com	ADP	ADP	_	14	case	_	_
+13	um	um	DET	DET	_	14	det	_	_
+14	cardápio	cardápio	NOUN	NOUN	_	11	nmod	_	_
+15	balanceado	balanceado	ADJ	ADJ	_	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s5393
+# text = A placa original é de Brasília (DF) e o carro foi roubado no dia 26 de novembro de 2011.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	placa	placa	NOUN	NOUN	_	4	nsubj	_	_
+3	original	original	ADJ	ADJ	_	2	amod	_	_
+4	é	ser	VERB	VERB	_	0	root	_	_
+5	de	de	ADP	ADP	_	6	case	_	_
+6	Brasília	_	PROPN	PNOUN	_	4	nmod	_	_
+7	(	(	PUNCT	.	_	8	punct	_	SpaceAfter=No
+8	DF	_	PROPN	PNOUN	_	6	appos	_	SpaceAfter=No
+9	)	)	PUNCT	.	_	8	punct	_	_
+10	e	e	CCONJ	CONJ	_	14	cc	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+12	carro	carro	NOUN	NOUN	_	14	nsubj:pass	_	_
+13	foi	_	AUX	AUX	_	14	aux:pass	_	_
+14	roubado	roubar	VERB	VERB	_	4	conj	_	_
+15-16	no	_	_	_	_	_	_	_	_
+15	em	em	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	dia	dia	NOUN	NOUN	_	14	nmod	_	_
+18	26	26	NUM	NUM	NumType=Card	17	nmod	_	_
+19	de	de	ADP	ADP	_	20	case	_	_
+20	novembro	_	PROPN	PNOUN	_	18	nmod	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
+22	2011	2011	NUM	NUM	NumType=Card	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s5394
+# text = Outras duas serão assinadas pelos seis.
+1	Outras	_	DET	DET	_	2	det	_	_
+2	duas	_	NUM	NUM	NumType=Card	4	nsubj:pass	_	_
+3	serão	ser	AUX	AUX	_	4	aux:pass	_	_
+4	assinadas	assinar	VERB	VERB	_	0	root	_	_
+5-6	pelos	_	_	_	_	_	_	_	_
+5	por	por	ADP	ADP	_	7	case	_	_
+6	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	seis	_	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s5395
+# text = Campeã olímpica nos 400 m livre em 2004, a nadadora francesa Laure Manaudou luta contra o tempo para não fracassar em Londres.
+1	Campeã	campeão	NOUN	NOUN	_	16	nsubj	_	_
+2	olímpica	olímpico	ADJ	ADJ	_	1	amod	_	_
+3-4	nos	_	_	_	_	_	_	_	_
+3	em	em	ADP	ADP	_	6	case	_	_
+4	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	400	400	NUM	NUM	NumType=Card	6	nummod	_	_
+6	m	m	NOUN	NOUN	_	1	nmod	_	_
+7	livre	livre	ADJ	ADJ	_	6	amod	_	_
+8	em	em	ADP	ADP	_	9	case	_	_
+9	2004	2004	NUM	NUM	NumType=Card	1	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	12	punct	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	nadadora	nadador	NOUN	NOUN	_	1	appos	_	_
+13	francesa	francês	ADJ	ADJ	_	12	amod	_	_
+14	Laure	_	PROPN	PNOUN	_	12	appos	_	_
+15	Manaudou	_	PROPN	PNOUN	_	14	flat	_	_
+16	luta	lutar	VERB	VERB	_	0	root	_	_
+17	contra	_	ADP	ADP	_	19	case	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	tempo	tempo	NOUN	NOUN	_	16	nmod	_	_
+20	para	_	ADP	ADP	_	22	mark	_	_
+21	não	não	ADV	ADV	Polarity=Neg	22	advmod	_	_
+22	fracassar	fracassar	VERB	VERB	_	16	advcl	_	_
+23	em	em	ADP	ADP	_	24	case	_	_
+24	Londres	_	PROPN	PNOUN	_	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = train-s5396
+# text = A natação nos Jogos Pan - Americanos de 1963 foi realizada nos dias 21 de abril a 28 de abril.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	natação	natação	NOUN	NOUN	_	12	nsubj:pass	_	_
+3-4	nos	_	_	_	_	_	_	_	_
+3	em	em	ADP	ADP	_	5	case	_	_
+4	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	Jogos	_	PROPN	PNOUN	_	2	nmod	_	_
+6	Pan	_	PROPN	PNOUN	_	8	amod	_	_
+7	-	-	PUNCT	.	_	8	punct	_	_
+8	Americanos	_	PROPN	PNOUN	_	5	amod	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
+10	1963	1963	NUM	NUM	NumType=Card	5	nmod	_	_
+11	foi	_	AUX	AUX	_	12	aux:pass	_	_
+12	realizada	realizar	VERB	VERB	_	0	root	_	_
+13-14	nos	_	_	_	_	_	_	_	_
+13	em	em	ADP	ADP	_	15	case	_	_
+14	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	dias	dia	NOUN	NOUN	_	12	nmod	_	_
+16	21	21	NUM	NUM	NumType=Card	15	nmod	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
+18	abril	_	PROPN	PNOUN	_	16	nmod	_	_
+19	a	_	ADP	ADP	_	20	case	_	_
+20	28	28	NUM	NUM	NumType=Card	16	nmod	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
+22	abril	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = train-s5397
+# text = Eles deverão se apresentar na sede do Samu, no Bairro Alvorada, até este dia 11, das 13h às 19h, a fim de retomarem os serviços no local.
+1	Eles	_	PRON	PRON	_	4	nsubj	_	_
+2	deverão	dever	AUX	AUX	_	4	aux	_	_
+3	se	_	PRON	PRON	_	4	obj	_	_
+4	apresentar	apresentar	VERB	VERB	_	0	root	_	_
+5-6	na	_	_	_	_	_	_	_	_
+5	em	em	ADP	ADP	_	7	case	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	sede	sede	NOUN	NOUN	_	4	nmod	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	ADP	_	10	case	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Samu	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	14	punct	_	_
+12-13	no	_	_	_	_	_	_	_	_
+12	em	em	ADP	ADP	_	14	case	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Bairro	_	PROPN	PNOUN	_	4	nmod	_	_
+15	Alvorada	_	PROPN	PNOUN	_	14	flat	_	SpaceAfter=No
+16	,	,	PUNCT	.	_	14	punct	_	_
+17	até	_	ADP	ADP	_	19	case	_	_
+18	este	_	DET	DET	_	19	det	_	_
+19	dia	dia	NOUN	NOUN	_	4	nmod	_	_
+20	11	11	NUM	NUM	NumType=Card	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	.	_	24	punct	_	_
+22-23	das	_	_	_	_	_	_	_	_
+22	de	de	ADP	ADP	_	24	case	_	_
+23	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	13h	_	NUM	NUM	NumType=Card	4	nmod	_	_
+25-26	às	_	_	_	_	_	_	_	_
+25	a	a	ADP	ADP	_	27	case	_	_
+26	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	19h	_	NUM	NUM	NumType=Card	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	.	_	24	punct	_	_
+29	a	_	DET	DET	_	32	mark	_	_
+30	fim	fim	NOUN	NOUN	_	29	fixed	_	_
+31	de	_	ADP	ADP	_	29	fixed	_	_
+32	retomarem	retomar	VERB	VERB	_	4	advcl	_	_
+33	os	o	DET	DET	_	34	det	_	_
+34	serviços	serviço	NOUN	NOUN	_	32	obj	_	_
+35-36	no	_	_	_	_	_	_	_	_
+35	em	em	ADP	ADP	_	37	case	_	_
+36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	local	local	NOUN	NOUN	_	32	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	4	punct	_	_
+
+# text = Schneider afirmou que sua gestão na Secretaria de Educação teve "avanços significativos, especialmente frente à situação que encontramos".
+# sent_id = train-s5398
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+1	Schneider	Schneider	PROPN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	11	mark	_	_
+4	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	5	det	_	_
+5	gestão	gestão	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+6-7	na	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Secretaria	Secretaria	PROPN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Educação	Educação	PROPN	_	Number=Sing	8	nmod	_	_
+11	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	avanços	avanço	NOUN	_	Gender=Masc|Number=Plur	11	obj	_	_
+14	significativos	significativo	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	especialmente	especialmente	ADV	_	_	17	advmod	_	_
+17	frente	frente	ADV	_	_	13	advmod	_	_
+18-19	à	_	_	_	_	_	_	_	_
+18	a	a	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	situação	situação	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+21	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	22	obj	_	_
+22	encontramos	encontrar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
+

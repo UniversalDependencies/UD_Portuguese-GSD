@@ -1,0 +1,265 @@
+# sent_id = train-s6751
+# text = Refez o "new look", a obra - prima do dono da casa.
+1	Refez	refazer	VERB	VERB	_	0	root	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+3	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
+4	new	_	ADJ	ADJ	_	5	amod	_	_
+5	look	_	NOUN	NOUN	_	1	obj	_	SpaceAfter=No
+6	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	9	punct	_	_
+8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	obra	obra	NOUN	NOUN	_	5	appos	_	_
+10	-	-	PUNCT	.	_	9	punct	_	_
+11	prima	primo	ADJ	ADJ	_	9	amod	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	ADP	_	14	case	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	dono	dono	NOUN	NOUN	_	9	nmod	_	_
+15-16	da	_	_	_	_	_	_	_	_
+15	de	de	ADP	ADP	_	17	case	_	_
+16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	casa	casa	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	1	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Este personagem, que se tornou governador de Sergipe aos 49 anos, ficou no comando do Estado entre os anos de 1959 à 1962.
+# sent_id = train-s6752
+1	Este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	personagem	personagem	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	6	nsubj	_	_
+5	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl	_	_
+6	tornou	tornar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+7	governador	governador	NOUN	_	Gender=Masc|Number=Sing	6	xcomp	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Sergipe	Sergipe	PROPN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+10-11	aos	_	_	_	_	_	_	_	_
+10	a	a	ADP	_	_	13	case	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	49	49	NUM	_	NumType=Card	13	nummod	_	_
+13	anos	ano	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	6	punct	_	_
+15	ficou	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16-17	no	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	comando	comando	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+19-20	do	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Estado	estado	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+22	entre	entre	ADP	_	_	24	case	_	_
+23	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	anos	ano	NOUN	_	Gender=Masc|Number=Plur	15	obl	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	1959	1959	NUM	_	NumType=Card	24	nmod	_	_
+27-28	à	_	_	_	_	_	_	_	_
+27	a	a	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	1962	1962	NUM	_	NumType=Card	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = train-s6753
+# text = A ideia original era tratar mulheres que fossem se submeter a tratamento de câncer, o que prejudica a fertilidade.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ideia	ideia	NOUN	NOUN	_	0	root	_	_
+3	original	original	ADJ	ADJ	_	2	amod	_	_
+4	era	_	AUX	AUX	_	2	cop	_	_
+5	tratar	tratar	VERB	VERB	_	2	csubj	_	_
+6	mulheres	mulher	NOUN	NOUN	_	5	obj	_	_
+7	que	_	PRON	PRON	_	10	nsubj	_	_
+8	fossem	_	AUX	AUX	_	10	aux	_	_
+9	se	_	PRON	PRON	_	10	obj	_	_
+10	submeter	submeter	VERB	VERB	_	6	acl:relcl	_	_
+11	a	_	ADP	ADP	_	12	case	_	_
+12	tratamento	tratamento	NOUN	NOUN	_	10	nmod	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
+14	câncer	câncer	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	.	_	18	punct	_	_
+16	o	o	DET	DET	_	17	det	_	_
+17	que	_	PRON	PRON	_	18	nsubj	_	_
+18	prejudica	prejudicar	VERB	VERB	_	10	parataxis	_	_
+19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	fertilidade	fertilidade	NOUN	NOUN	_	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s6754
+# text = São elas: a paixão e a fidelidade de sua torcida;
+1	São	ser	AUX	AUX	_	5	cop	_	_
+2	elas	_	PRON	PRON	_	5	nsubj	_	SpaceAfter=No
+3	:	:	PUNCT	.	_	5	punct	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	paixão	paixão	NOUN	NOUN	_	0	root	_	_
+6	e	e	CCONJ	CONJ	_	8	cc	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	fidelidade	fidelidade	NOUN	NOUN	_	5	conj	_	_
+9	de	de	ADP	ADP	_	11	case	_	_
+10	sua	_	DET	DET	_	11	det:poss	_	_
+11	torcida	torcida	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
+12	;	_	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s6755
+# text = Logo aos 21 minutos, o centroavante Mário Gomez marcou o primeiro do time da Baviera.
+1	Logo	logo	ADV	ADV	_	11	advmod	_	_
+2-3	aos	_	_	_	_	_	_	_	_
+2	a	a	ADP	ADP	_	5	case	_	_
+3	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	21	21	NUM	NUM	NumType=Card	5	nummod	_	_
+5	minutos	minuto	NOUN	NOUN	_	1	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	.	_	1	punct	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	centroavante	centroavante	NOUN	NOUN	_	11	nsubj	_	_
+9	Mário	_	PROPN	PNOUN	_	8	appos	_	_
+10	Gomez	_	PROPN	PNOUN	_	9	flat	_	_
+11	marcou	marcar	VERB	VERB	_	0	root	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	primeiro	primeiro	NOUN	NOUN	_	11	obj	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	ADP	_	16	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	time	time	NOUN	NOUN	_	13	nmod	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	ADP	_	19	case	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Baviera	_	PROPN	PNOUN	_	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = train-s6756
+# text = Também denuncia a alimentação precária e a falta de assistência médica.
+1	Também	também	ADV	ADV	_	2	advmod	_	_
+2	denuncia	denunciar	VERB	VERB	_	0	root	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	alimentação	alimentação	NOUN	NOUN	_	2	obj	_	_
+5	precária	precário	ADJ	ADJ	_	4	amod	_	_
+6	e	e	CCONJ	CONJ	_	8	cc	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	falta	_	NOUN	NOUN	_	4	conj	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
+10	assistência	assistência	NOUN	NOUN	_	8	nmod	_	_
+11	médica	médico	ADJ	ADJ	_	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s6757
+# text = Deixando uma pequena força para cercar Munda, o vitorioso Cesar marchou com o grosso de seu exército para Córdoba, para finalizar o negócio.
+1	Deixando	deixar	VERB	VERB	_	11	acl	_	_
+2	uma	um	DET	DET	_	4	det	_	_
+3	pequena	pequeno	ADJ	ADJ	_	4	amod	_	_
+4	força	força	NOUN	NOUN	_	1	obj	_	_
+5	para	_	ADP	ADP	_	6	mark	_	_
+6	cercar	cercar	VERB	VERB	_	1	advcl	_	_
+7	Munda	_	PROPN	PNOUN	_	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	1	punct	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	vitorioso	vitorioso	ADJ	ADJ	_	11	amod	_	_
+11	Cesar	_	PROPN	PNOUN	_	12	nsubj	_	_
+12	marchou	marchar	VERB	VERB	_	0	root	_	_
+13	com	com	ADP	ADP	_	15	case	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	grosso	grosso	NOUN	NOUN	_	12	nmod	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
+17	seu	_	DET	DET	_	18	det:poss	_	_
+18	exército	exército	NOUN	NOUN	_	15	nmod	_	_
+19	para	para	ADP	ADP	_	20	case	_	_
+20	Córdoba	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	.	_	23	punct	_	_
+22	para	_	ADP	ADP	_	23	mark	_	_
+23	finalizar	finalizar	VERB	VERB	_	12	advcl	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	negócio	negócio	NOUN	NOUN	_	23	obj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = train-s6758
+# text = Dá para se investir muito dinheiro na área da saúde e isso eu vou fazer.
+1	Dá	dar	VERB	VERB	_	0	root	_	_
+2	para	_	ADP	ADP	_	4	mark	_	_
+3	se	_	PRON	PRON	_	4	expl:pv	_	_
+4	investir	investir	VERB	VERB	_	1	nmod	_	_
+5	muito	_	DET	DET	_	6	det	_	_
+6	dinheiro	dinheiro	NOUN	NOUN	_	4	obj	_	_
+7-8	na	_	_	_	_	_	_	_	_
+7	em	em	ADP	ADP	_	9	case	_	_
+8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	área	área	NOUN	NOUN	_	4	nmod	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	ADP	_	12	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	saúde	saúde	NOUN	NOUN	_	9	nmod	_	_
+13	e	e	CCONJ	CONJ	_	17	cc	_	_
+14	isso	_	PRON	PRON	_	17	obj	_	_
+15	eu	_	PRON	PRON	_	17	nsubj	_	_
+16	vou	ir	AUX	AUX	_	17	aux	_	_
+17	fazer	fazer	VERB	VERB	_	1	conj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s6759
+# text = As chances de gol já não eram tão claras e os dois times chegavam com intensidade parecida, embora o Corinthians ainda tivesse um ligeiro domínio.
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	chances	chance	NOUN	NOUN	_	7	nsubj	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
+4	gol	gol	NOUN	NOUN	_	2	nmod	_	_
+5	já	já	ADV	ADV	_	7	advmod	_	_
+6	não	não	ADV	ADV	Polarity=Neg	7	advmod	_	_
+7	eram	_	VERB	VERB	_	0	root	_	_
+8	tão	tão	ADV	ADV	_	9	advmod	_	_
+9	claras	claro	ADJ	ADJ	_	7	xcomp	_	_
+10	e	e	CCONJ	CONJ	_	14	cc	_	_
+11	os	o	DET	DET	_	13	det	_	_
+12	dois	_	NUM	NUM	NumType=Card	13	nummod	_	_
+13	times	time	NOUN	NOUN	_	14	nsubj	_	_
+14	chegavam	chegar	VERB	VERB	_	7	conj	_	_
+15	com	com	ADP	ADP	_	16	case	_	_
+16	intensidade	intensidade	NOUN	NOUN	_	14	nmod	_	_
+17	parecida	parecido	ADJ	ADJ	_	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	.	_	23	punct	_	_
+19	embora	_	CCONJ	CONJ	_	23	mark	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Corinthians	_	PROPN	PNOUN	_	23	nsubj	_	_
+22	ainda	ainda	ADV	ADV	_	23	advmod	_	_
+23	tivesse	ter	VERB	VERB	_	14	advcl	_	_
+24	um	um	DET	DET	_	26	det	_	_
+25	ligeiro	ligeiro	ADJ	ADJ	_	26	amod	_	_
+26	domínio	domínio	NOUN	NOUN	_	23	obj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s6760
+# text = Ele disse que não há prazo para a "descontaminação" do terreno, mas afirmou que o Exército já comprou equipamentos novos para tornar mais eficaz o trabalho de localização e desativação de explosivos.
+1	Ele	_	PRON	PRON	_	2	nsubj	_	_
+2	disse	dizer	VERB	VERB	_	0	root	_	_
+3	que	que	CCONJ	CONJ	_	5	mark	_	_
+4	não	não	ADV	ADV	Polarity=Neg	5	advmod	_	_
+5	há	haver	VERB	VERB	_	2	ccomp	_	_
+6	prazo	prazo	NOUN	NOUN	_	5	obj	_	_
+7	para	para	ADP	ADP	_	10	case	_	_
+8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	"	"	PUNCT	.	_	10	punct	_	SpaceAfter=No
+10	descontaminação	descontaminação	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
+11	"	"	PUNCT	.	_	10	punct	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	ADP	_	14	case	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	terreno	terreno	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	.	_	17	punct	_	_
+16	mas	mas	CCONJ	CONJ	_	17	cc	_	_
+17	afirmou	afirmar	VERB	VERB	_	2	conj	_	_
+18	que	que	CCONJ	CONJ	_	22	mark	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Exército	_	PROPN	PNOUN	_	22	nsubj	_	_
+21	já	já	ADV	ADV	_	22	advmod	_	_
+22	comprou	comprar	VERB	VERB	_	17	ccomp	_	_
+23	equipamentos	equipamento	NOUN	NOUN	_	22	obj	_	_
+24	novos	novo	ADJ	ADJ	_	23	amod	_	_
+25	para	_	ADP	ADP	_	26	mark	_	_
+26	tornar	tornar	VERB	VERB	_	22	advcl	_	_
+27	mais	mais	ADV	ADV	_	28	advmod	_	_
+28	eficaz	eficaz	ADJ	ADJ	_	26	xcomp	_	_
+29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	trabalho	trabalho	NOUN	NOUN	_	28	nsubj	_	_
+31	de	de	ADP	ADP	_	32	case	_	_
+32	localização	localização	NOUN	NOUN	_	30	nmod	_	_
+33	e	e	CCONJ	CONJ	_	34	cc	_	_
+34	desativação	desativação	NOUN	NOUN	_	32	conj	_	_
+35	de	de	ADP	ADP	_	36	case	_	_
+36	explosivos	explosivo	NOUN	NOUN	_	32	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	2	punct	_	_
+

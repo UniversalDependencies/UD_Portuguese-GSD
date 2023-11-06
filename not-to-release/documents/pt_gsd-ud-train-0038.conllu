@@ -1,0 +1,274 @@
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Com o programa Enem, Chego Junto, Chego Bem, lançado neste ano, o governo distribuiu apostilas com questões de todas as provas anteriores do exame e organizou aulas e simulados.
+# sent_id = train-s371
+1	Com	com	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	programa	programa	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
+4	Enem	Enem	PROPN	_	Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	Chego	Chego	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	4	conj	_	_
+7	Junto	Junto	PROPN	_	Number=Sing	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	Chego	Chego	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	4	conj	_	_
+10	Bem	Bem	PROPN	_	Number=Sing	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	lançado	lançar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	3	acl	_	_
+13-14	neste	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+15	ano	ano	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	12	punct	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	governo	governo	NOUN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
+19	distribuiu	distribuir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20	apostilas	apostila	NOUN	_	Gender=Fem|Number=Plur	19	obj	_	_
+21	com	com	ADP	_	_	22	case	_	_
+22	questões	questão	NOUN	_	Gender=Fem|Number=Plur	20	nmod	_	_
+23	de	de	ADP	_	_	26	case	_	_
+24	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Tot	26	det	_	_
+25	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	provas	prova	NOUN	_	Gender=Fem|Number=Plur	22	nmod	_	_
+27	anteriores	anterior	ADJ	_	Gender=Fem|Number=Plur	26	amod	_	_
+28-29	do	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	exame	exame	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
+31	e	e	CCONJ	_	_	32	cc	_	_
+32	organizou	organizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	conj	_	_
+33	aulas	aula	NOUN	_	Gender=Fem|Number=Plur	32	obj	_	_
+34	e	e	CCONJ	_	_	35	cc	_	_
+35	simulados	simulado	NOUN	_	Gender=Masc|Number=Plur	33	conj	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = train-s372
+# text = Estou aqui e espero seguir por todo o tempo em que assinei.
+1	Estou	estar	VERB	VERB	_	0	root	_	_
+2	aqui	aqui	ADV	ADV	_	1	advmod	_	_
+3	e	e	CCONJ	CONJ	_	4	cc	_	_
+4	espero	esperar	VERB	VERB	_	1	conj	_	_
+5	seguir	seguir	VERB	VERB	_	4	xcomp	_	_
+6	por	por	ADP	ADP	_	9	case	_	_
+7	todo	_	DET	DET	_	9	det	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	tempo	tempo	NOUN	NOUN	_	5	nmod	_	_
+10	em	em	ADP	ADP	_	11	case	_	_
+11	que	_	PRON	PRON	_	12	nmod	_	_
+12	assinei	assinar	VERB	VERB	_	9	acl:relcl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s373
+# text = A expectativa da organização da festa era de encerrar as atividades com um público superior aos 100 mil visitantes, mas os números ainda não foram divulgados.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	expectativa	expectativa	NOUN	NOUN	_	9	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	organização	organização	NOUN	NOUN	_	2	nmod	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	festa	festa	NOUN	NOUN	_	5	nmod	_	_
+9	era	_	VERB	VERB	_	0	root	_	_
+10	de	_	ADP	ADP	_	11	mark	_	_
+11	encerrar	encerrar	VERB	VERB	_	9	nmod	_	_
+12	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	atividades	atividade	NOUN	NOUN	_	11	obj	_	_
+14	com	com	ADP	ADP	_	16	case	_	_
+15	um	um	DET	DET	_	16	det	_	_
+16	público	público	NOUN	NOUN	_	11	nmod	_	_
+17	superior	superior	ADJ	ADJ	_	16	amod	_	_
+18-19	aos	_	_	_	_	_	_	_	_
+18	a	a	ADP	ADP	_	22	case	_	_
+19	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+20	100	100	NUM	NUM	NumType=Card	21	nummod	_	_
+21	mil	_	NUM	NUM	NumType=Card	22	nummod	_	_
+22	visitantes	_	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	.	_	30	punct	_	_
+24	mas	mas	CCONJ	CONJ	_	30	cc	_	_
+25	os	o	DET	DET	_	26	det	_	_
+26	números	número	NOUN	NOUN	_	30	nsubj:pass	_	_
+27	ainda	ainda	ADV	ADV	_	30	advmod	_	_
+28	não	não	ADV	ADV	Polarity=Neg	30	advmod	_	_
+29	foram	_	AUX	AUX	_	30	aux:pass	_	_
+30	divulgados	divulgar	VERB	VERB	_	9	conj	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = train-s374
+# text = Em seguida, os militares deslocaram para o hospital onde a vítima estava sendo atendida, sendo informados pelo médico que ela está com três meses de gestação.
+1	Em	em	ADP	ADP	_	2	case	_	_
+2	seguida	_	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	.	_	2	punct	_	_
+4	os	o	DET	DET	_	5	det	_	_
+5	militares	militar	NOUN	NOUN	_	6	nsubj	_	_
+6	deslocaram	deslocar	VERB	VERB	_	0	root	_	_
+7	para	para	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	hospital	hospital	NOUN	NOUN	_	6	nmod	_	_
+10	onde	onde	ADV	ADV	_	15	advmod	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	vítima	vítima	NOUN	NOUN	_	15	nsubj:pass	_	_
+13	estava	estar	AUX	AUX	_	15	aux	_	_
+14	sendo	ser	AUX	AUX	_	15	aux:pass	_	_
+15	atendida	atender	VERB	VERB	_	9	acl:relcl	_	SpaceAfter=No
+16	,	,	PUNCT	.	_	18	punct	_	_
+17	sendo	ser	AUX	AUX	_	18	aux:pass	_	_
+18	informados	informar	VERB	VERB	_	6	acl	_	_
+19-20	pelo	_	_	_	_	_	_	_	_
+19	por	por	ADP	ADP	_	21	case	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	médico	médico	NOUN	NOUN	_	18	nmod	_	_
+22	que	que	CCONJ	CONJ	_	24	mark	_	_
+23	ela	_	PRON	PRON	_	24	nsubj	_	_
+24	está	estar	VERB	VERB	_	18	ccomp	_	_
+25	com	com	ADP	ADP	_	27	case	_	_
+26	três	_	NUM	NUM	NumType=Card	27	nummod	_	_
+27	meses	mês	NOUN	NOUN	_	24	nmod	_	_
+28	de	de	ADP	ADP	_	29	case	_	_
+29	gestação	gestação	NOUN	NOUN	_	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s375
+# text = Esperamos que o material possa ajudá - los na conquista desse sonho ", reafirmou Lauro.
+1	Esperamos	esperar	VERB	VERB	_	16	ccomp	_	_
+2	que	que	CCONJ	CONJ	_	6	mark	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	material	material	NOUN	NOUN	_	6	nsubj	_	_
+5	possa	_	AUX	AUX	_	6	aux	_	_
+6	ajudá	ajudar	VERB	VERB	_	1	ccomp	_	_
+7	-	-	PUNCT	.	_	6	punct	_	_
+8	los	_	PRON	PRON	_	6	obj	_	_
+9-10	na	_	_	_	_	_	_	_	_
+9	em	em	ADP	ADP	_	11	case	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	conquista	conquista	NOUN	NOUN	_	6	nmod	_	_
+12	desse	_	ADP	ADP	_	13	case	_	_
+13	sonho	sonho	NOUN	NOUN	_	11	nmod	_	_
+14	"	"	PUNCT	.	_	1	punct	_	SpaceAfter=No
+15	,	,	PUNCT	.	_	16	punct	_	_
+16	reafirmou	reafirmar	VERB	VERB	_	0	root	_	_
+17	Lauro	_	PROPN	PNOUN	_	16	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = train-s376
+# text = No olfativo: Aromas complexos de frutas (ameixas, cerejas e cassis), defumados, especiarias e toques florais.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	ADP	_	3	case	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	olfativo	_	NOUN	NOUN	_	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	.	_	3	punct	_	_
+5	Aromas	_	PROPN	PNOUN	_	3	parataxis	_	_
+6	complexos	complexo	ADJ	ADJ	_	5	amod	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
+8	frutas	fruta	NOUN	NOUN	_	5	nmod	_	_
+9	(	(	PUNCT	.	_	10	punct	_	SpaceAfter=No
+10	ameixas	ameixa	NOUN	NOUN	_	8	appos	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	12	punct	_	_
+12	cerejas	cereja	NOUN	NOUN	_	10	conj	_	_
+13	e	e	CCONJ	CONJ	_	14	cc	_	_
+14	cassis	_	NOUN	NOUN	_	10	conj	_	SpaceAfter=No
+15	)	)	PUNCT	.	_	10	punct	_	SpaceAfter=No
+16	,	,	PUNCT	.	_	17	punct	_	_
+17	defumados	_	NOUN	NOUN	_	8	conj	_	SpaceAfter=No
+18	,	,	PUNCT	.	_	19	punct	_	_
+19	especiarias	especiaria	NOUN	NOUN	_	8	conj	_	_
+20	e	e	CCONJ	CONJ	_	21	cc	_	_
+21	toques	toque	NOUN	NOUN	_	8	conj	_	_
+22	florais	floral	ADJ	ADJ	_	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s377
+# text = O local de construção foi concedido pelo prefeito Alberto Bins.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	local	local	NOUN	NOUN	_	6	nsubj:pass	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
+4	construção	construção	NOUN	NOUN	_	2	nmod	_	_
+5	foi	_	AUX	AUX	_	6	aux:pass	_	_
+6	concedido	conceder	VERB	VERB	_	0	root	_	_
+7-8	pelo	_	_	_	_	_	_	_	_
+7	por	por	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	prefeito	prefeito	NOUN	NOUN	_	6	nmod	_	_
+10	Alberto	_	PROPN	PNOUN	_	9	appos	_	_
+11	Bins	_	PROPN	PNOUN	_	10	flat	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s378
+# text = Ele terá pela frente o brasileiro Vitor Belfort.
+1	Ele	_	PRON	PRON	_	2	nsubj	_	_
+2	terá	ter	VERB	VERB	_	0	root	_	_
+3-4	pela	_	_	_	_	_	_	_	_
+3	por	por	ADP	ADP	_	5	case	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	frente	frente	NOUN	NOUN	_	2	nmod	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	brasileiro	brasileiro	NOUN	NOUN	_	2	obj	_	_
+8	Vitor	_	PROPN	PNOUN	_	7	appos	_	_
+9	Belfort	_	PROPN	PNOUN	_	8	flat	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s379
+# text = "Temos também oportunidades muito relevantes de investimentos em saneamento básico e Copa do Mundo de 2014", destacou.
+1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
+2	Temos	ter	VERB	VERB	_	21	ccomp	_	_
+3	também	também	ADV	ADV	_	2	advmod	_	_
+4	oportunidades	oportunidade	NOUN	NOUN	_	2	obj	_	_
+5	muito	muito	ADV	ADV	_	6	advmod	_	_
+6	relevantes	relevante	ADJ	ADJ	_	4	amod	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
+8	investimentos	investimento	NOUN	NOUN	_	4	nmod	_	_
+9	em	em	ADP	ADP	_	10	case	_	_
+10	saneamento	saneamento	NOUN	NOUN	_	8	nmod	_	_
+11	básico	básico	ADJ	ADJ	_	10	amod	_	_
+12	e	e	CCONJ	CONJ	_	13	cc	_	_
+13	Copa	_	PROPN	PNOUN	_	10	conj	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	ADP	_	16	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Mundo	_	PROPN	PNOUN	_	13	nmod	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
+18	2014	2014	NUM	NUM	NumType=Card	13	nmod	_	SpaceAfter=No
+19	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
+20	,	,	PUNCT	.	_	21	punct	_	_
+21	destacou	destacar	VERB	VERB	_	0	root	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	21	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Mesmo assim, o Brasil sofreu uma "pane" quando vencia por 13 a 10 e chegou a ter seis matchpoints contra antes de fechar de forma heróica em 21 / 19.
+# sent_id = train-s380
+1	Mesmo	mesmo	ADV	_	ExtPos=ADV	6	advmod	_	_
+2	assim	assim	ADV	_	_	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Brasil	Brasil	PROPN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	sofreu	sofrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	uma	um	NUM	_	NumType=Card	9	nummod	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	pane	pane	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	_
+11	quando	quando	ADV	_	_	12	advmod	_	_
+12	vencia	vencer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	advcl	_	_
+13	por	por	ADP	_	_	14	case	_	_
+14	13	13	NUM	_	NumType=Card	12	obl	_	_
+15	a	a	ADP	_	_	16	case	_	_
+16	10	10	NUM	_	NumType=Card	14	nmod	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	chegou	chegar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
+19	a	a	SCONJ	_	_	20	mark	_	_
+20	ter	ter	VERB	_	VerbForm=Inf	18	xcomp	_	_
+21	seis	seis	NUM	_	NumType=Card	22	nummod	_	_
+22	matchpoints	matchpoint	NOUN	_	Gender=Masc|Number=Plur	20	obj	_	_
+23	contra	contra	ADP	_	_	26	mark	_	_
+24	antes	antes	ADV	_	ExtPos=SCONJ	26	mark	_	_
+25	de	de	ADP	_	_	24	fixed	_	_
+26	fechar	fechar	VERB	_	VerbForm=Inf	20	advcl	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	forma	forma	NOUN	_	Gender=Fem|Number=Sing	26	obl	_	_
+29	heróica	heróico	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	_
+30	em	em	ADP	_	_	31	case	_	_
+31	21	21	NUM	_	NumType=Card	26	obl	_	_
+32	/	/	PUNCT	_	_	33	punct	_	_
+33	19	19	NUM	_	NumType=Card	31	conj	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+

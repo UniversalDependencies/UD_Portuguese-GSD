@@ -1,0 +1,302 @@
+# sent_id = train-s741
+# text = A seleção será feita pelo desempenho do aluno no Exame Nacional do Ensino Médio (Enem).
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	seleção	seleção	NOUN	NOUN	_	4	nsubj:pass	_	_
+3	será	ser	AUX	AUX	_	4	aux:pass	_	_
+4	feita	_	VERB	VERB	_	0	root	_	_
+5-6	pelo	_	_	_	_	_	_	_	_
+5	por	por	ADP	ADP	_	7	case	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	desempenho	desempenho	NOUN	NOUN	_	4	nmod	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	ADP	_	10	case	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	aluno	aluno	NOUN	NOUN	_	7	nmod	_	_
+11-12	no	_	_	_	_	_	_	_	_
+11	em	em	ADP	ADP	_	13	case	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Exame	_	PROPN	PNOUN	_	7	nmod	_	_
+14	Nacional	_	PROPN	PNOUN	_	13	amod	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Ensino	_	PROPN	PNOUN	_	13	nmod	_	_
+18	Médio	_	PROPN	PNOUN	_	17	amod	_	_
+19	(	(	PUNCT	.	_	20	punct	_	SpaceAfter=No
+20	Enem	_	PROPN	PNOUN	_	13	appos	_	SpaceAfter=No
+21	)	)	PUNCT	.	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s742
+# text = É cargo de assistente financeira.
+1	É	ser	AUX	AUX	_	2	cop	_	_
+2	cargo	cargo	NOUN	NOUN	_	0	root	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
+4	assistente	assistente	NOUN	NOUN	_	2	nmod	_	_
+5	financeira	financeiro	ADJ	ADJ	_	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# text = "Eu adoro Detalhes, Emoções e tem aquela que não é dele, mas que ninguém cantou como ele que é 'Você foi o maior dos meus casos, de todos os abraços ...'.
+# sent_id = train-s743
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Eu	eu	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	adoro	adorar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	Detalhes	Detalhes	PROPN	_	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	Emoções	emoção	NOUN	_	Gender=Fem|Number=Plur	4	conj	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+9	aquela	aquele	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	8	obj	_	_
+10	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	14	nsubj	_	_
+11	não	não	ADV	_	Polarity=Neg	14	advmod	_	_
+12	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13-14	dele	_	_	_	_	_	_	_	SpaceAfter=No
+13	de	de	ADP	_	_	14	case	_	_
+14	ele	ele	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	acl:relcl	_	_
+15	,	,	PUNCT	_	_	19	punct	_	_
+16	mas	mas	CCONJ	_	_	19	cc	_	_
+17	que	que	PRON	_	_	19	obj	_	_
+18	ninguém	ninguém	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	19	nsubj	_	_
+19	cantou	cantar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	conj	_	_
+20	como	como	ADP	_	_	21	case	_	_
+21	ele	ele	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obl	_	_
+22	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	28	nsubj:outer	_	_
+23	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+24	'	'	PUNCT	_	_	28	punct	_	SpaceAfter=No
+25	Você	você	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+26	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	cop	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	maior	maior	ADJ	_	Gender=Masc|Number=Sing	21	acl:relcl	_	_
+29-30	dos	_	_	_	_	_	_	_	_
+29	de	de	ADP	_	_	32	case	_	_
+30	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+31	meus	meu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	32	det	_	_
+32	casos	caso	NOUN	_	Gender=Masc|Number=Plur	28	obl	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	37	punct	_	_
+34	de	de	ADP	_	_	37	case	_	_
+35	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	37	det	_	_
+36	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	abraços	abraço	NOUN	_	Gender=Masc|Number=Plur	32	conj	_	_
+38	...	...	PUNCT	_	_	28	punct	_	SpaceAfter=No
+39	'	'	PUNCT	_	_	28	punct	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+
+# sent_id = train-s744
+# text = Segundo ele, o texto só pode ser revogado caso seja convocada uma sessão extraordinária -- a próxima sessão ordinária só acontece após o pleito.
+1	Segundo	_	ADP	ADP	_	2	case	_	_
+2	ele	_	PRON	PRON	_	9	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	.	_	2	punct	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	texto	texto	NOUN	NOUN	_	9	nsubj:pass	_	_
+6	só	só	ADV	ADV	_	9	advmod	_	_
+7	pode	_	AUX	AUX	_	9	aux	_	_
+8	ser	ser	AUX	AUX	_	9	aux:pass	_	_
+9	revogado	revogar	VERB	VERB	_	0	root	_	_
+10	caso	_	CCONJ	CONJ	_	12	mark	_	_
+11	seja	ser	AUX	AUX	_	12	aux	_	_
+12	convocada	convocar	VERB	VERB	_	9	advcl	_	_
+13	uma	um	DET	DET	_	14	det	_	_
+14	sessão	sessão	NOUN	NOUN	_	12	nsubj:pass	_	_
+15	extraordinária	extraordinário	ADJ	ADJ	_	14	amod	_	_
+16	--	_	PUNCT	.	_	12	punct	_	_
+17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	próxima	próximo	ADJ	ADJ	_	19	amod	_	_
+19	sessão	sessão	NOUN	NOUN	_	22	nsubj	_	_
+20	ordinária	ordinário	ADJ	ADJ	_	19	amod	_	_
+21	só	só	ADV	ADV	_	22	advmod	_	_
+22	acontece	acontecer	VERB	VERB	_	12	parataxis	_	_
+23	após	_	ADP	ADP	_	25	case	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	pleito	pleito	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = train-s745
+# text = Ele ficou de fora da derrota para o Sport, no último domingo, mas o técnico Celso Roth tinha esperanças de poder contar com o atleta.
+1	Ele	_	PRON	PRON	_	2	nsubj	_	_
+2	ficou	ficar	VERB	VERB	_	0	root	_	_
+3	de	_	ADP	ADP	_	4	mark	_	_
+4	fora	fora	ADV	ADV	_	2	nmod	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	ADP	_	7	case	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	derrota	derrota	NOUN	NOUN	_	4	nmod	_	_
+8	para	para	ADP	ADP	_	10	case	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Sport	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	15	punct	_	_
+12-13	no	_	_	_	_	_	_	_	_
+12	em	em	ADP	ADP	_	15	case	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	último	último	ADJ	ADJ	_	15	amod	_	_
+15	domingo	domingo	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	.	_	15	punct	_	_
+17	mas	mas	CCONJ	CONJ	_	22	cc	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	técnico	técnico	NOUN	NOUN	_	22	nsubj	_	_
+20	Celso	_	PROPN	PNOUN	_	19	appos	_	_
+21	Roth	_	PROPN	PNOUN	_	20	flat	_	_
+22	tinha	ter	VERB	VERB	_	2	conj	_	_
+23	esperanças	esperança	NOUN	NOUN	_	22	obj	_	_
+24	de	_	ADP	ADP	_	26	mark	_	_
+25	poder	poder	AUX	AUX	_	26	aux	_	_
+26	contar	contar	VERB	VERB	_	23	nmod	_	_
+27	com	com	ADP	ADP	_	29	case	_	_
+28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	atleta	atleta	NOUN	NOUN	_	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	2	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Eu tenho alguns brancos na minha vida, mas vou resgatá-los".
+# sent_id = train-s746
+1	Eu	eu	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	tenho	ter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
+4	brancos	branco	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
+5-6	na	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	8	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	minha	meu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	8	det	_	_
+8	vida	vida	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10	mas	mas	CCONJ	_	_	12	cc	_	_
+11	vou	ir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12-13	resgatá-los	_	_	_	_	_	_	_	SpaceAfter=No
+12	resgatá	resgatar	VERB	_	VerbForm=Inf	2	conj	_	_
+13	los	eles	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	obj	_	_
+14	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
+
+# sent_id = train-s747
+# text = Com esse panorama, foi fácil convencer a sede a investir em novos produtos no Rio ", disse Marc Bailliart.
+1	Com	_	ADP	ADP	_	3	case	_	_
+2	esse	_	DET	DET	_	3	det	_	_
+3	panorama	panorama	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	foi	_	VERB	VERB	_	20	ccomp	_	_
+6	fácil	fácil	ADJ	ADJ	_	5	xcomp	_	_
+7	convencer	convencer	VERB	VERB	_	5	csubj	_	_
+8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	sede	sede	NOUN	NOUN	_	7	obj	_	_
+10	a	_	ADP	ADP	_	11	mark	_	_
+11	investir	investir	VERB	VERB	_	7	nmod	_	_
+12	em	em	ADP	ADP	_	14	case	_	_
+13	novos	novo	ADJ	ADJ	_	14	amod	_	_
+14	produtos	produto	NOUN	NOUN	_	11	nmod	_	_
+15-16	no	_	_	_	_	_	_	_	_
+15	em	em	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Rio	_	PROPN	PNOUN	_	11	nmod	_	_
+18	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
+19	,	,	PUNCT	.	_	20	punct	_	_
+20	disse	dizer	VERB	VERB	_	0	root	_	_
+21	Marc	_	PROPN	PNOUN	_	20	nsubj	_	_
+22	Bailliart	_	PROPN	PNOUN	_	21	flat	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	20	punct	_	_
+
+# sent_id = train-s748
+# text = Segundo a Riotur, já subiram o Pão de Açúcar por ele mais de 40 milhões de pessoas.
+1	Segundo	_	ADP	ADP	_	3	case	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Riotur	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	já	já	ADV	ADV	_	6	advmod	_	_
+6	subiram	subir	VERB	VERB	_	0	root	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Pão	_	PROPN	PNOUN	_	6	obj	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
+10	Açúcar	_	PROPN	PNOUN	_	8	nmod	_	_
+11	por	por	ADP	ADP	_	12	case	_	_
+12	ele	_	PRON	PRON	_	6	nmod	_	_
+13	mais	mais	ADV	ADV	_	16	advmod	_	_
+14	de	de	ADP	ADP	_	13	case	_	_
+15	40	40	NUM	NUM	NumType=Card	16	nummod	_	_
+16	milhões	_	NUM	NUM	NumType=Card	18	nummod	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
+18	pessoas	pessoa	NOUN	NOUN	_	6	nsubj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s749
+# text = Nos Estados Unidos, os Centros para o Controle e a Prevenção de Doenças dizem que os norovírus provocam 21 milhões de enfermidades por ano, com 70.000 casos exigindo internação hospitalar e cerca de 800 terminando em morte.
+1-2	Nos	_	_	_	_	_	_	_	_
+1	Em	em	ADP	ADP	_	3	case	_	_
+2	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	Estados	_	PROPN	PNOUN	_	16	nmod	_	_
+4	Unidos	_	PROPN	PNOUN	_	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	.	_	3	punct	_	_
+6	os	o	DET	DET	_	7	det	_	_
+7	Centros	_	PROPN	PNOUN	_	16	nsubj	_	_
+8	para	para	ADP	ADP	_	10	case	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Controle	_	PROPN	PNOUN	_	7	nmod	_	_
+11	e	e	CCONJ	CONJ	_	13	cc	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Prevenção	_	PROPN	PNOUN	_	10	conj	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
+15	Doenças	_	PROPN	PNOUN	_	10	nmod	_	_
+16	dizem	dizer	VERB	VERB	_	0	root	_	_
+17	que	que	CCONJ	CONJ	_	20	mark	_	_
+18	os	o	DET	DET	_	19	det	_	_
+19	norovírus	_	NOUN	NOUN	_	20	nsubj	_	_
+20	provocam	provocar	VERB	VERB	_	16	ccomp	_	_
+21	21	21	NUM	NUM	NumType=Card	22	nummod	_	_
+22	milhões	_	NUM	NUM	NumType=Card	24	nummod	_	_
+23	de	de	ADP	ADP	_	24	case	_	_
+24	enfermidades	enfermidade	NOUN	NOUN	_	20	obj	_	_
+25	por	por	ADP	ADP	_	26	case	_	_
+26	ano	ano	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	.	_	30	punct	_	_
+28	com	com	ADP	ADP	_	30	case	_	_
+29	70.000	_	NUM	NUM	NumType=Card	30	nummod	_	_
+30	casos	caso	NOUN	NOUN	_	20	nmod	_	_
+31	exigindo	exigir	VERB	VERB	_	30	acl	_	_
+32	internação	internação	NOUN	NOUN	_	31	obj	_	_
+33	hospitalar	hospitalar	ADJ	ADJ	_	32	amod	_	_
+34	e	e	CCONJ	CONJ	_	37	cc	_	_
+35	cerca	cerca	ADV	ADV	_	37	advmod	_	_
+36	de	de	ADP	ADP	_	35	case	_	_
+37	800	800	NUM	NUM	NumType=Card	30	conj	_	_
+38	terminando	terminar	VERB	VERB	_	37	acl	_	_
+39	em	em	ADP	ADP	_	40	case	_	_
+40	morte	morte	NOUN	NOUN	_	38	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = train-s750
+# text = Serão 40 homens subordinados diretamente ao CPI - 1 (Comando de Policiamento do Interior), cuja sede fica em São José, e atuando em operações especiais.
+1	Serão	ser	AUX	AUX	_	3	cop	_	_
+2	40	40	NUM	NUM	NumType=Card	3	nummod	_	_
+3	homens	homem	NOUN	NOUN	_	0	root	_	_
+4	subordinados	subordinado	ADJ	ADJ	_	3	amod	_	_
+5	diretamente	diretamente	ADV	ADV	_	4	advmod	_	_
+6-7	ao	_	_	_	_	_	_	_	_
+6	a	a	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	CPI	_	PROPN	PNOUN	_	4	nmod	_	_
+9	-	-	PUNCT	.	_	8	punct	_	_
+10	1	1	NUM	NUM	NumType=Card	8	appos	_	_
+11	(	(	PUNCT	.	_	12	punct	_	SpaceAfter=No
+12	Comando	_	PROPN	PNOUN	_	8	appos	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
+14	Policiamento	_	PROPN	PNOUN	_	12	nmod	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Interior	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
+18	)	)	PUNCT	.	_	12	punct	_	SpaceAfter=No
+19	,	,	PUNCT	.	_	22	punct	_	_
+20	cuja	_	DET	DET	_	21	det	_	_
+21	sede	sede	NOUN	NOUN	_	22	nsubj	_	_
+22	fica	ficar	VERB	VERB	_	8	acl:relcl	_	_
+23	em	em	ADP	ADP	_	24	case	_	_
+24	São	_	PROPN	PNOUN	_	22	nmod	_	_
+25	José	_	PROPN	PNOUN	_	24	flat	_	SpaceAfter=No
+26	,	,	PUNCT	.	_	22	punct	_	_
+27	e	e	CCONJ	CONJ	_	28	cc	_	_
+28	atuando	atuar	VERB	VERB	_	3	conj	_	_
+29	em	em	ADP	ADP	_	30	case	_	_
+30	operações	operação	NOUN	NOUN	_	28	nmod	_	_
+31	especiais	especial	ADJ	ADJ	_	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	3	punct	_	_
+

@@ -1,0 +1,266 @@
+# sent_id = train-s411
+# text = Conforme o executivo, foi feito registro policial, e também estão sendo pesquisadas imagens registradas no entorno, através de câmeras de vídeomonitoramento, buscando identificação dos autores.
+1	Conforme	_	ADP	ADP	_	3	case	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	executivo	executivo	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	foi	_	AUX	AUX	_	6	aux:pass	_	_
+6	feito	_	VERB	VERB	_	0	root	_	_
+7	registro	registro	NOUN	NOUN	_	6	nsubj:pass	_	_
+8	policial	policial	ADJ	ADJ	_	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	14	punct	_	_
+10	e	e	CCONJ	CONJ	_	14	cc	_	_
+11	também	também	ADV	ADV	_	14	advmod	_	_
+12	estão	estar	AUX	AUX	_	14	aux	_	_
+13	sendo	ser	AUX	AUX	_	14	aux:pass	_	_
+14	pesquisadas	pesquisar	VERB	VERB	_	6	conj	_	_
+15	imagens	imagem	NOUN	NOUN	_	14	nsubj:pass	_	_
+16	registradas	registrar	VERB	VERB	_	15	acl	_	_
+17-18	no	_	_	_	_	_	_	_	_
+17	em	em	ADP	ADP	_	19	case	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	entorno	_	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	.	_	21	punct	_	_
+21	através	através	ADV	ADV	_	16	advmod	_	_
+22	de	de	ADP	ADP	_	23	case	_	_
+23	câmeras	câmera	NOUN	NOUN	_	21	nmod	_	_
+24	de	de	ADP	ADP	_	25	case	_	_
+25	vídeomonitoramento	_	NOUN	NOUN	_	23	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	.	_	27	punct	_	_
+27	buscando	buscar	VERB	VERB	_	14	acl	_	_
+28	identificação	identificação	NOUN	NOUN	_	27	obj	_	_
+29-30	dos	_	_	_	_	_	_	_	_
+29	de	de	ADP	ADP	_	31	case	_	_
+30	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	autores	autor	NOUN	NOUN	_	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s412
+# text = O desafio é o que mais me sustenta.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	desafio	desafio	NOUN	NOUN	_	4	nsubj	_	_
+3	é	ser	AUX	AUX	_	4	cop	_	_
+4	o	_	PRON	PRON	_	0	root	_	_
+5	que	_	PRON	PRON	_	8	nsubj	_	_
+6	mais	mais	ADV	ADV	_	8	advmod	_	_
+7	me	_	PRON	PRON	_	8	obj	_	_
+8	sustenta	sustentar	VERB	VERB	_	4	acl:relcl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = As raízes, no entanto, acabam tendo portos principais.
+# sent_id = train-s413
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	raízes	raiz	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	ExtPos=CCONJ	8	cc	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	fixed	_	_
+6	entanto	entanto	NOUN	_	Gender=Masc|Number=Sing	4	fixed	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	acabam	acabar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	tendo	ter	VERB	_	VerbForm=Ger	8	xcomp	_	_
+10	portos	porto	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	_
+11	principais	principal	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = train-s414
+# text = Quanto à vice - prefeitura, disse estar honrado com o cargo e que trabalhará em harmonia com o prefeito Mauro Mendes (PSB).
+1	Quanto	quanto	ADV	ADV	_	8	advmod	_	_
+2-3	à	_	_	_	_	_	_	_	_
+2	a	a	ADP	ADP	_	4	case	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	vice	_	PART	PRT	_	1	nmod	_	_
+5	-	-	PUNCT	.	_	4	punct	_	_
+6	prefeitura	prefeitura	NOUN	NOUN	_	4	flat	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	1	punct	_	_
+8	disse	dizer	VERB	VERB	_	0	root	_	_
+9	estar	estar	VERB	VERB	_	8	xcomp	_	_
+10	honrado	honrado	ADJ	ADJ	_	9	xcomp	_	_
+11	com	com	ADP	ADP	_	13	case	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	cargo	cargo	NOUN	NOUN	_	10	nmod	_	_
+14	e	e	CCONJ	CONJ	_	16	cc	_	_
+15	que	que	CCONJ	CONJ	_	16	mark	_	_
+16	trabalhará	trabalhar	VERB	VERB	_	9	conj	_	_
+17	em	em	ADP	ADP	_	18	case	_	_
+18	harmonia	harmonia	NOUN	NOUN	_	16	nmod	_	_
+19	com	com	ADP	ADP	_	21	case	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	prefeito	prefeito	NOUN	NOUN	_	16	nmod	_	_
+22	Mauro	_	PROPN	PNOUN	_	21	appos	_	_
+23	Mendes	_	PROPN	PNOUN	_	22	flat	_	_
+24	(	(	PUNCT	.	_	25	punct	_	SpaceAfter=No
+25	PSB	_	PROPN	PNOUN	_	21	appos	_	SpaceAfter=No
+26	)	)	PUNCT	.	_	25	punct	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s415
+# text = Segundo ela, a facilidade de voltar para o Brasil faz com que muitos tenham dificuldades de se identificar como paraguaios.
+1	Segundo	_	ADP	ADP	_	2	case	_	_
+2	ela	_	PRON	PRON	_	11	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	.	_	2	punct	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	facilidade	facilidade	NOUN	NOUN	_	11	nsubj	_	_
+6	de	_	ADP	ADP	_	7	mark	_	_
+7	voltar	voltar	VERB	VERB	_	5	nmod	_	_
+8	para	para	ADP	ADP	_	10	case	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Brasil	_	PROPN	PNOUN	_	7	nmod	_	_
+11	faz	fazer	VERB	VERB	_	0	root	_	_
+12	com	_	ADP	ADP	_	15	mark	_	_
+13	que	que	CCONJ	CONJ	_	15	mark	_	_
+14	muitos	_	PRON	PRON	_	15	nsubj	_	_
+15	tenham	ter	VERB	VERB	_	11	nmod	_	_
+16	dificuldades	dificuldade	NOUN	NOUN	_	15	obj	_	_
+17	de	_	ADP	ADP	_	19	mark	_	_
+18	se	_	PRON	PRON	_	19	obj	_	_
+19	identificar	identificar	VERB	VERB	_	16	nmod	_	_
+20	como	como	ADP	ADP	_	21	case	_	_
+21	paraguaios	_	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = train-s416
+# text = O árbitro Felipe Gomes da Silva não apitou.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	árbitro	árbitro	NOUN	NOUN	_	9	nsubj	_	_
+3	Felipe	_	PROPN	PNOUN	_	2	appos	_	_
+4	Gomes	_	PROPN	PNOUN	_	3	flat	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	ADP	_	7	case	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Silva	_	PROPN	PNOUN	_	3	nmod	_	_
+8	não	não	ADV	ADV	Polarity=Neg	9	advmod	_	_
+9	apitou	apitar	VERB	VERB	_	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = train-s417
+# text = Quantos eram deputados à época da denúncia?
+1	Quantos	_	PRON	PRON	_	3	nsubj	_	_
+2	eram	_	AUX	AUX	_	3	cop	_	_
+3	deputados	deputado	NOUN	NOUN	_	0	root	_	_
+4-5	à	_	_	_	_	_	_	_	_
+4	a	a	ADP	ADP	_	6	case	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	época	época	NOUN	NOUN	_	3	nmod	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
+8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	denúncia	denúncia	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s418
+# text = Na quarta - feira, será firmado acordo com os governos estaduais e, nos próximos dias, com a Confederação de Agricultura e Pecuária do Brasil (CNA) e a Organização das Cooperativas Brasileiras (OC).
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	ADP	_	5	case	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+3	quarta	_	PROPN	PNOUN	_	5	amod	_	_
+4	-	-	PUNCT	.	_	5	punct	_	_
+5	feira	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	.	_	5	punct	_	_
+7	será	ser	AUX	AUX	_	8	aux:pass	_	_
+8	firmado	firmar	VERB	VERB	_	0	root	_	_
+9	acordo	acordo	NOUN	NOUN	_	8	nsubj:pass	_	_
+10	com	com	ADP	ADP	_	12	case	_	_
+11	os	o	DET	DET	_	12	det	_	_
+12	governos	governo	NOUN	NOUN	_	8	nmod	_	_
+13	estaduais	estadual	ADJ	ADJ	_	12	amod	_	_
+14	e	e	CCONJ	CONJ	_	23	cc	_	SpaceAfter=No
+15	,	,	PUNCT	.	_	19	punct	_	_
+16-17	nos	_	_	_	_	_	_	_	_
+16	em	em	ADP	ADP	_	19	case	_	_
+17	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	próximos	próximo	ADJ	ADJ	_	19	amod	_	_
+19	dias	dia	NOUN	NOUN	_	23	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	.	_	19	punct	_	_
+21	com	com	ADP	ADP	_	23	case	_	_
+22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Confederação	_	PROPN	PNOUN	_	12	conj	_	_
+24	de	de	ADP	ADP	_	25	case	_	_
+25	Agricultura	_	PROPN	PNOUN	_	23	nmod	_	_
+26	e	e	CCONJ	CONJ	_	27	cc	_	_
+27	Pecuária	_	PROPN	PNOUN	_	25	conj	_	_
+28-29	do	_	_	_	_	_	_	_	_
+28	de	de	ADP	ADP	_	30	case	_	_
+29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	Brasil	_	PROPN	PNOUN	_	23	nmod	_	_
+31	(	(	PUNCT	.	_	32	punct	_	SpaceAfter=No
+32	CNA	_	PROPN	PNOUN	_	23	appos	_	SpaceAfter=No
+33	)	)	PUNCT	.	_	32	punct	_	_
+34	e	e	CCONJ	CONJ	_	36	cc	_	_
+35	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	Organização	_	PROPN	PNOUN	_	23	conj	_	_
+37-38	das	_	_	_	_	_	_	_	_
+37	de	de	ADP	ADP	_	39	case	_	_
+38	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
+39	Cooperativas	_	PROPN	PNOUN	_	36	nmod	_	_
+40	Brasileiras	_	PROPN	PNOUN	_	39	amod	_	_
+41	(	(	PUNCT	.	_	42	punct	_	SpaceAfter=No
+42	OC	_	PROPN	PNOUN	_	36	appos	_	SpaceAfter=No
+43	)	)	PUNCT	.	_	42	punct	_	SpaceAfter=No
+44	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s419
+# text = "Abriram a porta a uma nova era de experimentação na física quântica ao conseguir a observação direta de partículas quânticas individuais sem destruí - las", ressalta a argumentação da Rela Academia.
+1	"	"	PUNCT	.	_	31	punct	_	SpaceAfter=No
+2	Abriram	abrir	VERB	VERB	_	31	ccomp	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	porta	porta	NOUN	NOUN	_	2	obj	_	_
+5	a	_	ADP	ADP	_	8	case	_	_
+6	uma	um	DET	DET	_	8	det	_	_
+7	nova	novo	ADJ	ADJ	_	8	amod	_	_
+8	era	era	NOUN	NOUN	_	2	iobj	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
+10	experimentação	experimentação	NOUN	NOUN	_	8	nmod	_	_
+11-12	na	_	_	_	_	_	_	_	_
+11	em	em	ADP	ADP	_	13	case	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	física	_	NOUN	NOUN	_	8	nmod	_	_
+14	quântica	quântico	ADJ	ADJ	_	13	amod	_	_
+15-16	ao	_	_	_	_	_	_	_	_
+15	a	a	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	conseguir	conseguir	VERB	VERB	_	2	advcl	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	observação	observação	NOUN	NOUN	_	17	obj	_	_
+20	direta	direto	ADJ	ADJ	_	19	amod	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
+22	partículas	partícula	NOUN	NOUN	_	19	nmod	_	_
+23	quânticas	quântico	ADJ	ADJ	_	22	amod	_	_
+24	individuais	individual	ADJ	ADJ	_	22	amod	_	_
+25	sem	_	ADP	ADP	_	26	mark	_	_
+26	destruí	destruir	VERB	VERB	_	17	advcl	_	_
+27	-	-	PUNCT	.	_	26	punct	_	_
+28	las	_	PRON	PRON	_	26	obj	_	SpaceAfter=No
+29	"	"	PUNCT	.	_	17	punct	_	SpaceAfter=No
+30	,	,	PUNCT	.	_	31	punct	_	_
+31	ressalta	ressaltar	VERB	VERB	_	0	root	_	_
+32	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	argumentação	argumentação	NOUN	NOUN	_	31	nsubj	_	_
+34-35	da	_	_	_	_	_	_	_	_
+34	de	de	ADP	ADP	_	37	case	_	_
+35	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+36	Rela	_	PROPN	PNOUN	_	37	amod	_	_
+37	Academia	_	PROPN	PNOUN	_	33	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	31	punct	_	_
+
+# sent_id = train-s420
+# text = "Cielo e Fratus garantem vaga nas semifinais dos 50m livres!
+1	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
+2	Cielo	_	PROPN	PNOUN	_	5	nsubj	_	_
+3	e	e	CCONJ	CONJ	_	4	cc	_	_
+4	Fratus	_	PROPN	PNOUN	_	2	conj	_	_
+5	garantem	garantir	VERB	VERB	_	0	root	_	_
+6	vaga	vaga	NOUN	NOUN	_	5	obj	_	_
+7-8	nas	_	_	_	_	_	_	_	_
+7	em	em	ADP	ADP	_	9	case	_	_
+8	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	semifinais	semifinal	NOUN	NOUN	_	5	nmod	_	_
+10-11	dos	_	_	_	_	_	_	_	_
+10	de	de	ADP	ADP	_	12	case	_	_
+11	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	50m	_	NOUN	NOUN	_	9	nmod	_	_
+13	livres	livre	ADJ	ADJ	_	12	amod	_	SpaceAfter=No
+14	!	!	PUNCT	.	_	5	punct	_	_
+

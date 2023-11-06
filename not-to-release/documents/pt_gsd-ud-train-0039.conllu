@@ -1,0 +1,334 @@
+# sent_id = train-s381
+# text = Usar a internet sim, para marcar encontros, por exemplo, mas desejar um Feliz Natal pessoalmente.
+1	Usar	usar	VERB	VERB	_	0	root	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	internet	_	PROPN	PNOUN	_	1	obj	_	_
+4	sim	sim	ADV	ADV	_	1	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	.	_	7	punct	_	_
+6	para	_	ADP	ADP	_	7	mark	_	_
+7	marcar	marcar	VERB	VERB	_	1	advcl	_	_
+8	encontros	encontro	NOUN	NOUN	_	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	11	punct	_	_
+10	por	por	ADP	ADP	_	11	case	_	_
+11	exemplo	exemplo	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	.	_	11	punct	_	_
+13	mas	mas	CCONJ	CONJ	_	14	cc	_	_
+14	desejar	desejar	VERB	VERB	_	1	conj	_	_
+15	um	um	DET	DET	_	17	det	_	_
+16	Feliz	_	PROPN	PNOUN	_	17	amod	_	_
+17	Natal	_	PROPN	PNOUN	_	14	obj	_	_
+18	pessoalmente	pessoalmente	ADV	ADV	_	14	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s382
+# text = A primeira lista de doadores foi divulgada há duas semanas.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	primeira	primeiro	ADJ	ADJ	_	3	amod	_	_
+3	lista	lista	NOUN	NOUN	_	7	nsubj:pass	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
+5	doadores	doador	NOUN	NOUN	_	3	nmod	_	_
+6	foi	_	AUX	AUX	_	7	aux:pass	_	_
+7	divulgada	divulgar	VERB	VERB	_	0	root	_	_
+8	há	haver	VERB	VERB	_	7	advcl	_	_
+9	duas	_	NUM	NUM	NumType=Card	10	nummod	_	_
+10	semanas	semana	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s383
+# text = Ela foi criada num bairro irlandês - americano, na zona sul de Indianápolis.
+1	Ela	_	PRON	PRON	_	3	nsubj:pass	_	_
+2	foi	_	AUX	AUX	_	3	aux:pass	_	_
+3	criada	criar	VERB	VERB	_	0	root	_	_
+4-5	num	_	_	_	_	_	_	_	_
+4	em	em	ADP	ADP	_	6	case	_	_
+5	um	um	DET	DET	_	6	det	_	_
+6	bairro	bairro	NOUN	NOUN	_	3	nmod	_	_
+7	irlandês	irlandês	ADJ	ADJ	_	9	amod	_	_
+8	-	-	PUNCT	.	_	9	punct	_	_
+9	americano	americano	ADJ	ADJ	_	6	amod	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	13	punct	_	_
+11-12	na	_	_	_	_	_	_	_	_
+11	em	em	ADP	ADP	_	13	case	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	zona	zona	NOUN	NOUN	_	3	nmod	_	_
+14	sul	sul	ADJ	ADJ	_	13	amod	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
+16	Indianápolis	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Hollande ressaltou que, desde sua posse no último dia 15 de maio, após vencer seu antecessor, o conservador Nicolas Sarkozy, "foram cumpridos muitos compromissos" que assumiu durante a campanha eleitoral, e mencionou especialmente os relacionados com "o restabelecimento das contas públicas".
+# sent_id = train-s384
+1	Hollande	Hollande	PROPN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	ressaltou	ressaltar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	28	mark	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	desde	desde	ADP	_	_	7	case	_	_
+6	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	7	det	_	_
+7	posse	posse	NOUN	_	Gender=Fem|Number=Sing	28	obl	_	_
+8-9	no	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	11	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	último	último	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	11	amod	_	_
+11	dia	dia	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+12	15	15	NUM	_	NumType=Card	11	nummod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	maio	maio	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	7	punct	_	_
+16	após	após	SCONJ	_	_	17	mark	_	_
+17	vencer	vencer	VERB	_	VerbForm=Inf	28	advcl	_	_
+18	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	19	det	_	_
+19	antecessor	antecessor	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	conservador	conservador	NOUN	_	Gender=Masc|Number=Sing	19	appos	_	_
+23	Nicolas	Nicolas	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	22	appos	_	_
+24	Sarkozy	Sarkozy	PROPN	_	Number=Sing	23	flat:name	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	22	punct	_	_
+26	"	"	PUNCT	_	_	28	punct	_	SpaceAfter=No
+27	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	28	aux:pass	_	_
+28	cumpridos	cumprir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	2	ccomp	_	_
+29	muitos	muito	DET	_	Gender=Masc|Number=Plur|PronType=Ind	30	det	_	_
+30	compromissos	compromisso	NOUN	_	Gender=Masc|Number=Plur	28	nsubj:pass	_	SpaceAfter=No
+31	"	"	PUNCT	_	_	30	punct	_	_
+32	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	33	obj	_	_
+33	assumiu	assumir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	acl:relcl	_	_
+34	durante	durante	ADP	_	_	36	case	_	_
+35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	33	obl	_	_
+37	eleitoral	eleitoral	ADJ	_	Gender=Fem|Number=Sing	36	amod	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	40	punct	_	_
+39	e	e	CCONJ	_	_	40	cc	_	_
+40	mencionou	mencionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	conj	_	_
+41	especialmente	especialmente	ADV	_	_	40	advmod	_	_
+42	os	o	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	40	obj	_	_
+43	relacionados	relacionar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	42	acl	_	_
+44	com	com	ADP	_	_	47	case	_	_
+45	"	"	PUNCT	_	_	47	punct	_	SpaceAfter=No
+46	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+47	restabelecimento	restabelecimento	NOUN	_	Gender=Masc|Number=Sing	43	obj	_	_
+48-49	das	_	_	_	_	_	_	_	_
+48	de	de	ADP	_	_	50	case	_	_
+49	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	50	det	_	_
+50	contas	conta	NOUN	_	Gender=Fem|Number=Plur	47	nmod	_	_
+51	públicas	público	ADJ	_	Gender=Fem|Number=Plur	50	amod	_	SpaceAfter=No
+52	"	"	PUNCT	_	_	47	punct	_	SpaceAfter=No
+53	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
+
+# sent_id = train-s385
+# text = Estava trabalhando forte, estava bem fisicamente e o Jairo conversou comigo falando que eu ia para o jogo.
+1	Estava	estar	AUX	AUX	_	2	aux	_	_
+2	trabalhando	trabalhar	VERB	VERB	_	0	root	_	_
+3	forte	forte	ADV	ADV	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	5	punct	_	_
+5	estava	estar	VERB	VERB	_	2	conj	_	_
+6	bem	bem	ADV	ADV	_	5	advmod	_	_
+7	fisicamente	fisicamente	ADV	ADV	_	6	advmod	_	_
+8	e	e	CCONJ	CONJ	_	11	cc	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	Jairo	_	PROPN	PNOUN	_	11	nsubj	_	_
+11	conversou	conversar	VERB	VERB	_	2	conj	_	_
+12	comigo	_	X	ADPPRON	_	11	nmod	_	_
+13	falando	falar	VERB	VERB	_	11	acl	_	_
+14	que	que	CCONJ	CONJ	_	16	mark	_	_
+15	eu	_	PRON	PRON	_	16	nsubj	_	_
+16	ia	ir	VERB	VERB	_	13	ccomp	_	_
+17	para	para	ADP	ADP	_	19	case	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	jogo	jogo	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s386
+# text = A Diretoria Estadual de Investigações Criminais também está mobilizada para apurar as causas dos ataques e a Polícia Civil instaurou inquérito para verificar se há alguma relação entre eles.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Diretoria	_	PROPN	PNOUN	_	8	nsubj	_	_
+3	Estadual	_	PROPN	PNOUN	_	2	amod	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
+5	Investigações	_	PROPN	PNOUN	_	2	nmod	_	_
+6	Criminais	_	PROPN	PNOUN	_	5	amod	_	_
+7	também	também	ADV	ADV	_	8	advmod	_	_
+8	está	estar	VERB	VERB	_	0	root	_	_
+9	mobilizada	mobilizado	ADJ	ADJ	_	8	xcomp	_	_
+10	para	_	ADP	ADP	_	11	mark	_	_
+11	apurar	apurar	VERB	VERB	_	8	advcl	_	_
+12	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	causas	causa	NOUN	NOUN	_	11	obj	_	_
+14-15	dos	_	_	_	_	_	_	_	_
+14	de	de	ADP	ADP	_	16	case	_	_
+15	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	ataques	ataque	NOUN	NOUN	_	13	nmod	_	_
+17	e	e	CCONJ	CONJ	_	21	cc	_	_
+18	a	o	DET	DET	_	21	det	_	_
+19	Polícia	_	PROPN	PNOUN	_	21	nsubj	_	_
+20	Civil	_	PROPN	PNOUN	_	19	amod	_	_
+21	instaurou	instaurar	VERB	VERB	_	8	conj	_	_
+22	inquérito	inquérito	NOUN	NOUN	_	21	obj	_	_
+23	para	_	ADP	ADP	_	24	mark	_	_
+24	verificar	verificar	VERB	VERB	_	21	advcl	_	_
+25	se	_	CCONJ	CONJ	_	26	mark	_	_
+26	há	haver	VERB	VERB	_	24	ccomp	_	_
+27	alguma	_	DET	DET	_	28	det	_	_
+28	relação	relação	NOUN	NOUN	_	26	obj	_	_
+29	entre	_	ADP	ADP	_	30	case	_	_
+30	eles	_	PRON	PRON	_	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s387
+# text = Como era de madrugada, a maioria dos 83 passageiros estava dormindo, e não teve tempo de sair dos camarotes.
+1	Como	como	ADV	ADV	_	2	mark	_	_
+2	era	_	VERB	VERB	_	13	advcl	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
+4	madrugada	madrugada	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	.	_	2	punct	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	maioria	maioria	NOUN	NOUN	_	13	nsubj	_	_
+8-9	dos	_	_	_	_	_	_	_	_
+8	de	de	ADP	ADP	_	11	case	_	_
+9	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	83	83	NUM	NUM	NumType=Card	11	nummod	_	_
+11	passageiros	passageiro	NOUN	NOUN	_	7	nmod	_	_
+12	estava	estar	AUX	AUX	_	13	aux	_	_
+13	dormindo	dormir	VERB	VERB	_	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	17	punct	_	_
+15	e	e	CCONJ	CONJ	_	17	cc	_	_
+16	não	não	ADV	ADV	Polarity=Neg	17	advmod	_	_
+17	teve	ter	VERB	VERB	_	13	conj	_	_
+18	tempo	tempo	NOUN	NOUN	_	17	obj	_	_
+19	de	_	ADP	ADP	_	20	mark	_	_
+20	sair	sair	VERB	VERB	_	18	nmod	_	_
+21-22	dos	_	_	_	_	_	_	_	_
+21	de	de	ADP	ADP	_	23	case	_	_
+22	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	camarotes	camarote	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = train-s388
+# text = Em abril o MPRN entrou com uma ação civil pública para suspender a licença e conseguiu paralisar as obras através duma liminar.
+1	Em	em	ADP	ADP	_	2	case	_	_
+2	abril	_	PROPN	PNOUN	_	5	nmod	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	MPRN	_	PROPN	PNOUN	_	5	nsubj	_	_
+5	entrou	entrar	VERB	VERB	_	0	root	_	_
+6	com	com	ADP	ADP	_	8	case	_	_
+7	uma	um	DET	DET	_	8	det	_	_
+8	ação	ação	NOUN	NOUN	_	5	nmod	_	_
+9	civil	civil	ADJ	ADJ	_	8	amod	_	_
+10	pública	público	ADJ	ADJ	_	8	amod	_	_
+11	para	_	ADP	ADP	_	12	mark	_	_
+12	suspender	suspender	VERB	VERB	_	5	advcl	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	licença	licença	NOUN	NOUN	_	12	obj	_	_
+15	e	e	CCONJ	CONJ	_	16	cc	_	_
+16	conseguiu	conseguir	VERB	VERB	_	5	conj	_	_
+17	paralisar	paralisar	VERB	VERB	_	16	xcomp	_	_
+18	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	obras	obra	NOUN	NOUN	_	17	obj	_	_
+20	através	através	ADV	ADV	_	16	advmod	_	_
+21-22	duma	_	_	_	_	_	_	_	_
+21	de	de	ADP	ADP	_	23	case	_	_
+22	uma	um	DET	DET	_	23	det	_	_
+23	liminar	liminar	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s389
+# text = Apresentado em Doha com pompas de grande astro e principal reforço do PSG para 2013, o brasileiro Lucas, que inclusive já fez sua estreia pelo novo clube na vitória de 5 a 1 diante do Lekhwiya, do Catar, recebeu as boas vindas especiais da ex - atriz pornô Virginie Caprice.
+1	Apresentado	apresentar	VERB	VERB	_	19	acl	_	_
+2	em	em	ADP	ADP	_	3	case	_	_
+3	Doha	_	PROPN	PNOUN	_	1	nmod	_	_
+4	com	com	ADP	ADP	_	5	case	_	_
+5	pompas	pompa	NOUN	NOUN	_	1	nmod	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	grande	grande	ADJ	ADJ	_	8	amod	_	_
+8	astro	astro	NOUN	NOUN	_	5	nmod	_	_
+9	e	e	CCONJ	CONJ	_	11	cc	_	_
+10	principal	principal	ADJ	ADJ	_	11	amod	_	_
+11	reforço	reforço	NOUN	NOUN	_	8	conj	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	ADP	_	14	case	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	PSG	_	PROPN	PNOUN	_	11	nmod	_	_
+15	para	para	ADP	ADP	_	16	case	_	_
+16	2013	2013	NUM	NUM	NumType=Card	11	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	.	_	1	punct	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	brasileiro	brasileiro	NOUN	NOUN	_	48	nsubj	_	_
+20	Lucas	_	PROPN	PNOUN	_	19	appos	_	SpaceAfter=No
+21	,	,	PUNCT	.	_	25	punct	_	_
+22	que	_	PRON	PRON	_	25	nsubj	_	_
+23	inclusive	inclusive	ADV	ADV	_	25	advmod	_	_
+24	já	já	ADV	ADV	_	25	advmod	_	_
+25	fez	fazer	VERB	VERB	_	19	acl:relcl	_	_
+26	sua	_	DET	DET	_	27	det:poss	_	_
+27	estreia	estreia	NOUN	NOUN	_	25	obj	_	_
+28-29	pelo	_	_	_	_	_	_	_	_
+28	por	por	ADP	ADP	_	31	case	_	_
+29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+30	novo	novo	ADJ	ADJ	_	31	amod	_	_
+31	clube	clube	NOUN	NOUN	_	27	nmod	_	_
+32-33	na	_	_	_	_	_	_	_	_
+32	em	em	ADP	ADP	_	34	case	_	_
+33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	vitória	vitória	NOUN	NOUN	_	27	nmod	_	_
+35	de	de	ADP	ADP	_	36	case	_	_
+36	5	5	NUM	NUM	NumType=Card	34	nmod	_	_
+37	a	_	ADP	ADP	_	38	case	_	_
+38	1	1	NUM	NUM	NumType=Card	36	nmod	_	_
+39	diante	diante	ADV	ADV	_	34	advmod	_	_
+40-41	do	_	_	_	_	_	_	_	_
+40	de	de	ADP	ADP	_	42	case	_	_
+41	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	Lekhwiya	_	PROPN	PNOUN	_	39	nmod	_	SpaceAfter=No
+43	,	,	PUNCT	.	_	46	punct	_	_
+44-45	do	_	_	_	_	_	_	_	_
+44	de	de	ADP	ADP	_	46	case	_	_
+45	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	Catar	_	PROPN	PNOUN	_	42	nmod	_	SpaceAfter=No
+47	,	,	PUNCT	.	_	46	punct	_	_
+48	recebeu	receber	VERB	VERB	_	0	root	_	_
+49	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	51	det	_	_
+50	boas	bom	ADJ	ADJ	_	51	amod	_	_
+51	vindas	vinda	NOUN	NOUN	_	48	obj	_	_
+52	especiais	especial	ADJ	ADJ	_	51	amod	_	_
+53-54	da	_	_	_	_	_	_	_	_
+53	de	de	ADP	ADP	_	55	case	_	_
+54	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
+55	ex	_	PART	PRT	_	51	nmod	_	_
+56	-	-	PUNCT	.	_	55	punct	_	_
+57	atriz	_	NOUN	NOUN	_	55	flat	_	_
+58	pornô	pornô	ADJ	ADJ	_	55	amod	_	_
+59	Virginie	_	PROPN	PNOUN	_	55	appos	_	_
+60	Caprice	_	PROPN	PNOUN	_	59	flat	_	SpaceAfter=No
+61	.	.	PUNCT	.	_	48	punct	_	_
+
+# sent_id = train-s390
+# text = "Desde o primeiro dia de meu governo cumpri a obrigação constitucional de buscar a paz", lembrou na segunda - feira o mandatário.
+1	"	"	PUNCT	.	_	9	punct	_	SpaceAfter=No
+2	Desde	_	ADP	ADP	_	5	case	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	primeiro	primeiro	ADJ	ADJ	_	5	amod	_	_
+5	dia	dia	NOUN	NOUN	_	9	nmod	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	meu	_	DET	DET	_	8	det:poss	_	_
+8	governo	governo	NOUN	NOUN	_	5	nmod	_	_
+9	cumpri	cumprir	VERB	VERB	_	19	ccomp	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	obrigação	obrigação	NOUN	NOUN	_	9	obj	_	_
+12	constitucional	constitucional	ADJ	ADJ	_	11	amod	_	_
+13	de	_	ADP	ADP	_	14	mark	_	_
+14	buscar	buscar	VERB	VERB	_	11	nmod	_	_
+15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	paz	paz	NOUN	NOUN	_	14	obj	_	SpaceAfter=No
+17	"	"	PUNCT	.	_	9	punct	_	SpaceAfter=No
+18	,	,	PUNCT	.	_	19	punct	_	_
+19	lembrou	lembrar	VERB	VERB	_	0	root	_	_
+20-21	na	_	_	_	_	_	_	_	_
+20	em	em	ADP	ADP	_	24	case	_	_
+21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+22	segunda	_	PROPN	PNOUN	_	24	amod	_	_
+23	-	-	PUNCT	.	_	24	punct	_	_
+24	feira	_	PROPN	PNOUN	_	19	nmod	_	_
+25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	mandatário	mandatário	NOUN	NOUN	_	19	nsubj	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	19	punct	_	_
+

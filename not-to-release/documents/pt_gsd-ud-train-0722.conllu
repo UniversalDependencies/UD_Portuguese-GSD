@@ -1,0 +1,283 @@
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Para o cientista político do Insper / SP Humberto Dantas é uma incoerência do partido criticar Marcos Valério pelo fato dele ter sido considerado um criminoso pelo Supremo Tribunal Federal (STF).
+# sent_id = train-s7166
+1	Para	para	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	cientista	cientista	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+4	político	político	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Insper	Insper	PROPN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+8	/	/	PUNCT	_	_	9	punct	_	_
+9	SP	SP	PROPN	_	Gender=Masc|Number=Sing	7	conj	_	_
+10	Humberto	Humberto	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	7	flat:name	_	_
+11	Dantas	Dantas	PROPN	_	Number=Sing	10	flat:name	_	_
+12	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	incoerência	incoerência	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	SCONJ	_	_	18	mark	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	partido	partido	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
+18	criticar	criticar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	14	acl	_	_
+19	Marcos	Marcos	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	18	obj	_	_
+20	Valério	Valério	PROPN	_	Number=Sing	19	flat:name	_	_
+21-22	pelo	_	_	_	_	_	_	_	_
+21	por	por	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	fato	fato	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+24-25	dele	_	_	_	_	_	_	_	_
+24	de	de	SCONJ	_	_	28	mark	_	_
+25	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj:pass	_	_
+26	ter	ter	AUX	_	Number=Sing|Person=3|VerbForm=Inf	28	aux	_	_
+27	sido	ser	AUX	_	VerbForm=Part	28	aux:pass	_	_
+28	considerado	considerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	23	acl	_	_
+29	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	criminoso	criminoso	NOUN	_	Gender=Masc|Number=Sing	28	xcomp	_	_
+31-32	pelo	_	_	_	_	_	_	_	_
+31	por	por	ADP	_	_	33	case	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	Supremo	Supremo	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	28	obl:agent	_	_
+34	Tribunal	Tribunal	PROPN	_	Number=Sing	33	flat:name	_	_
+35	Federal	Federal	PROPN	_	Number=Sing	33	flat:name	_	_
+36	(	(	PUNCT	_	_	37	punct	_	SpaceAfter=No
+37	STF	STF	PROPN	_	Gender=Masc|Number=Sing	33	appos	_	SpaceAfter=No
+38	)	)	PUNCT	_	_	37	punct	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = train-s7167
+# text = A reforma do Fórum de Tabaporã está prevista no plano de obras e está englobada no grupo de comarcas que precisam de obras consideradas de pequeno porte, cujo investimento não ultrapassa R $ 150 mil.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	reforma	reforma	NOUN	NOUN	_	8	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Fórum	_	PROPN	PNOUN	_	2	nmod	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
+7	Tabaporã	_	PROPN	PNOUN	_	5	nmod	_	_
+8	está	estar	VERB	VERB	_	0	root	_	_
+9	prevista	previsto	ADJ	ADJ	_	8	xcomp	_	_
+10-11	no	_	_	_	_	_	_	_	_
+10	em	em	ADP	ADP	_	12	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	plano	plano	NOUN	NOUN	_	9	nmod	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
+14	obras	obra	NOUN	NOUN	_	12	nmod	_	_
+15	e	e	CCONJ	CONJ	_	16	cc	_	_
+16	está	estar	VERB	VERB	_	8	conj	_	_
+17	englobada	englobado	ADJ	ADJ	_	16	xcomp	_	_
+18-19	no	_	_	_	_	_	_	_	_
+18	em	em	ADP	ADP	_	20	case	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	grupo	grupo	NOUN	NOUN	_	17	nmod	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
+22	comarcas	comarca	NOUN	NOUN	_	20	nmod	_	_
+23	que	_	PRON	PRON	_	24	nsubj	_	_
+24	precisam	precisar	VERB	VERB	_	22	acl:relcl	_	_
+25	de	de	ADP	ADP	_	26	case	_	_
+26	obras	obra	NOUN	NOUN	_	24	nmod	_	_
+27	consideradas	considerar	VERB	VERB	_	26	acl	_	_
+28	de	de	ADP	ADP	_	30	case	_	_
+29	pequeno	pequeno	ADJ	ADJ	_	30	amod	_	_
+30	porte	porte	NOUN	NOUN	_	27	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	.	_	35	punct	_	_
+32	cujo	_	DET	DET	_	33	det	_	_
+33	investimento	investimento	NOUN	NOUN	_	35	nsubj	_	_
+34	não	não	ADV	ADV	Polarity=Neg	35	advmod	_	_
+35	ultrapassa	ultrapassar	VERB	VERB	_	26	acl:relcl	_	_
+36	R	r	NOUN	NOUN	_	35	obj	_	_
+37	$	_	SYM	SYM	_	36	flat	_	_
+38	150	150	NUM	NUM	NumType=Card	39	nummod	_	_
+39	mil	_	NUM	NUM	NumType=Card	36	nummod	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s7169
+# text = Siga também o G1 Paraíba no Twitter e por RSS.
+1	Siga	seguir	VERB	VERB	_	0	root	_	_
+2	também	também	ADV	ADV	_	1	advmod	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	G1	_	PROPN	PNOUN	_	1	obj	_	_
+5	Paraíba	_	PROPN	PNOUN	_	4	flat	_	_
+6-7	no	_	_	_	_	_	_	_	_
+6	em	em	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Twitter	_	PROPN	PNOUN	_	1	nmod	_	_
+9	e	e	CCONJ	CONJ	_	11	cc	_	_
+10	por	por	ADP	ADP	_	11	case	_	_
+11	RSS	_	PROPN	PNOUN	_	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	1	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Até lá, a estudante ficará num abrigo para menores (Children 's Village), em Miami, na Flórida.
+# sent_id = train-s7170
+1	Até	até	ADP	_	_	2	case	_	_
+2	lá	lá	ADV	_	_	6	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	estudante	estudante	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+6	ficará	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+7-8	num	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	abrigo	abrigo	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+10	para	para	ADP	_	_	11	case	_	_
+11	menores	pequeno	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	Children	Children	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	9	appos	_	_
+14	's	's	PUNCT	_	_	13	punct	_	_
+15	Village	Village	PROPN	_	Gender=Masc|Number=Sing	13	appos	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	6	punct	_	_
+18	em	em	ADP	_	_	19	case	_	_
+19	Miami	Miami	PROPN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21-22	na	_	_	_	_	_	_	_	_
+21	em	em	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Flórida	Flórida	PROPN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = train-s7171
+# text = Esses eventos ocorrem em paralelo no contexto do nascimento e da consciência do nacionalismo árabe na Palestina e da violência política palestina.
+1	Esses	_	DET	DET	_	2	det	_	_
+2	eventos	evento	NOUN	NOUN	_	3	nsubj	_	_
+3	ocorrem	ocorrer	VERB	VERB	_	0	root	_	_
+4	em	em	ADP	ADP	_	5	case	_	_
+5	paralelo	paralelo	NOUN	NOUN	_	3	nmod	_	_
+6-7	no	_	_	_	_	_	_	_	_
+6	em	em	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	contexto	contexto	NOUN	NOUN	_	3	nmod	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	ADP	_	11	case	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	nascimento	nascimento	NOUN	NOUN	_	8	nmod	_	_
+12	e	e	CCONJ	CONJ	_	15	cc	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	consciência	consciência	NOUN	NOUN	_	11	conj	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	nacionalismo	nacionalismo	NOUN	NOUN	_	15	nmod	_	_
+19	árabe	árabe	ADJ	ADJ	_	18	amod	_	_
+20-21	na	_	_	_	_	_	_	_	_
+20	em	em	ADP	ADP	_	22	case	_	_
+21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Palestina	_	PROPN	PNOUN	_	18	nmod	_	_
+23	e	e	CCONJ	CONJ	_	26	cc	_	_
+24-25	da	_	_	_	_	_	_	_	_
+24	de	de	ADP	ADP	_	26	case	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	violência	violência	NOUN	NOUN	_	11	conj	_	_
+27	política	político	ADJ	ADJ	_	26	amod	_	_
+28	palestina	palestino	ADJ	ADJ	_	26	amod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s7172
+# text = Vale ressaltar que, de acordo com participantes do DA em São Paulo, a maior parte dos que procuram ajuda são pessoas bem - sucedidas, de classes sociais elevadas.
+1	Vale	_	VERB	VERB	_	0	root	_	_
+2	ressaltar	ressaltar	VERB	VERB	_	1	csubj	_	_
+3	que	que	CCONJ	CONJ	_	24	mark	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	6	punct	_	_
+5	de	de	ADP	ADP	_	6	case	_	_
+6	acordo	acordo	NOUN	NOUN	_	24	nmod	_	_
+7	com	com	ADP	ADP	_	8	case	_	_
+8	participantes	participante	NOUN	NOUN	_	6	nmod	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	ADP	_	11	case	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	DA	_	PROPN	PNOUN	_	8	nmod	_	_
+12	em	em	ADP	ADP	_	13	case	_	_
+13	São	_	PROPN	PNOUN	_	11	nmod	_	_
+14	Paulo	_	PROPN	PNOUN	_	13	flat	_	SpaceAfter=No
+15	,	,	PUNCT	.	_	6	punct	_	_
+16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	maior	maior	ADJ	ADJ	_	18	amod	_	_
+18	parte	parte	NOUN	NOUN	_	24	nsubj	_	_
+19	dos	_	X	ADPPRON	_	18	nmod	_	_
+20	que	_	PRON	PRON	_	21	nsubj	_	_
+21	procuram	procurar	VERB	VERB	_	19	acl:relcl	_	_
+22	ajuda	ajuda	NOUN	NOUN	_	21	obj	_	_
+23	são	ser	AUX	AUX	_	24	cop	_	_
+24	pessoas	pessoa	NOUN	NOUN	_	2	ccomp	_	_
+25	bem	bem	ADV	ADV	_	27	advmod	_	_
+26	-	-	PUNCT	.	_	27	punct	_	_
+27	sucedidas	sucedido	ADJ	ADJ	_	24	amod	_	SpaceAfter=No
+28	,	,	PUNCT	.	_	30	punct	_	_
+29	de	de	ADP	ADP	_	30	case	_	_
+30	classes	classe	NOUN	NOUN	_	24	nmod	_	_
+31	sociais	social	ADJ	ADJ	_	30	amod	_	_
+32	elevadas	elevado	ADJ	ADJ	_	30	amod	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s7173
+# text = Já o atleta do Inter foi escalado oito vezes e balançou a rede uma única vez.
+1	Já	já	ADV	ADV	_	8	advmod	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	atleta	atleta	NOUN	NOUN	_	8	nsubj:pass	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Inter	_	PROPN	PNOUN	_	3	nmod	_	_
+7	foi	_	AUX	AUX	_	8	aux:pass	_	_
+8	escalado	escalar	VERB	VERB	_	0	root	_	_
+9	oito	_	NUM	NUM	NumType=Card	10	nummod	_	_
+10	vezes	vez	NOUN	NOUN	_	8	nmod	_	_
+11	e	e	CCONJ	CONJ	_	12	cc	_	_
+12	balançou	balançar	VERB	VERB	_	8	conj	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	rede	rede	NOUN	NOUN	_	12	obj	_	_
+15	uma	_	NUM	NUM	NumType=Card	17	nummod	_	_
+16	única	único	ADJ	ADJ	_	17	amod	_	_
+17	vez	vez	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s7174
+# text = O Paris Saint - Germain prepara uma oferta tentadora para tirar Cristiano Ronaldo do Real Madrid.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Paris	_	PROPN	PNOUN	_	6	nsubj	_	_
+3	Saint	_	PROPN	PNOUN	_	2	flat	_	_
+4	-	-	PUNCT	.	_	2	punct	_	_
+5	Germain	_	PROPN	PNOUN	_	2	flat	_	_
+6	prepara	preparar	VERB	VERB	_	0	root	_	_
+7	uma	um	DET	DET	_	8	det	_	_
+8	oferta	oferta	NOUN	NOUN	_	6	obj	_	_
+9	tentadora	tentador	ADJ	ADJ	_	8	amod	_	_
+10	para	_	ADP	ADP	_	11	mark	_	_
+11	tirar	tirar	VERB	VERB	_	6	advcl	_	_
+12	Cristiano	_	PROPN	PNOUN	_	11	obj	_	_
+13	Ronaldo	_	PROPN	PNOUN	_	12	flat	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	ADP	_	17	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	Real	_	PROPN	PNOUN	_	17	amod	_	_
+17	Madrid	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s7175
+# text = Se o retrospecto parece favorável, o momento dos campineiros não é dos melhores.
+1	Se	_	CCONJ	CONJ	_	4	mark	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	retrospecto	retrospecto	NOUN	NOUN	_	4	nsubj	_	_
+4	parece	parecer	VERB	VERB	_	13	advcl	_	_
+5	favorável	favorável	ADJ	ADJ	_	4	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	.	_	4	punct	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	momento	momento	NOUN	NOUN	_	13	nsubj	_	_
+9-10	dos	_	_	_	_	_	_	_	_
+9	de	de	ADP	ADP	_	11	case	_	_
+10	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	campineiros	campineiro	NOUN	NOUN	_	8	nmod	_	_
+12	não	não	ADV	ADV	Polarity=Neg	13	advmod	_	_
+13	é	ser	VERB	VERB	_	0	root	_	_
+14-15	dos	_	_	_	_	_	_	_	_
+14	de	de	ADP	ADP	_	16	case	_	_
+15	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	melhores	melhor	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	13	punct	_	_
+

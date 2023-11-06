@@ -1,0 +1,245 @@
+# sent_id = train-s121
+# text = Vamos tentar acertar o que tem que acertar.
+1	Vamos	ir	AUX	AUX	_	2	aux	_	_
+2	tentar	tentar	VERB	VERB	_	0	root	_	_
+3	acertar	acertar	VERB	VERB	_	2	xcomp	_	_
+4	o	_	PRON	PRON	_	3	obj	_	_
+5	que	_	PRON	PRON	_	8	obj	_	_
+6	tem	ter	AUX	AUX	_	8	aux	_	_
+7	que	que	CCONJ	CONJ	_	8	mark	_	_
+8	acertar	acertar	VERB	VERB	_	4	acl:relcl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s122
+# text = As universidades Federal Fluminense, Federal Rural e da Federal do Estado do Rio de Janeiro permanecem paralisadas.
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	universidades	universidade	NOUN	NOUN	_	20	nsubj	_	_
+3	Federal	_	PROPN	PNOUN	_	2	appos	_	_
+4	Fluminense	_	PROPN	PNOUN	_	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	.	_	6	punct	_	_
+6	Federal	_	PROPN	PNOUN	_	3	conj	_	_
+7	Rural	_	PROPN	PNOUN	_	6	amod	_	_
+8	e	e	CCONJ	CONJ	_	11	cc	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	ADP	_	11	case	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Federal	_	PROPN	PNOUN	_	3	conj	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	ADP	_	14	case	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Estado	_	PROPN	PNOUN	_	11	nmod	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Rio	_	PROPN	PNOUN	_	14	nmod	_	_
+18	de	de	ADP	ADP	_	19	case	_	_
+19	Janeiro	_	PROPN	PNOUN	_	17	nmod	_	_
+20	permanecem	permanecer	VERB	VERB	_	0	root	_	_
+21	paralisadas	paralisado	ADJ	ADJ	_	20	xcomp	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	20	punct	_	_
+
+# sent_id = train-s123
+# text = No 2 º tempo, o Sampaio foi se soltando e aos 24 minutos, novamente Eloir, agora pela ponta direita, levantou na área e outra Arlindo Maracanã desviou de cabeça para fazer 2 a 0, num gol bem parecido com o primeiro.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	ADP	_	5	case	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+3	2	_	ADJ	ADJ	_	5	amod	_	_
+4	º	_	PUNCT	.	_	3	punct	_	_
+5	tempo	tempo	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	.	_	5	punct	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Sampaio	_	PROPN	PNOUN	_	11	nsubj	_	_
+9	foi	_	AUX	AUX	_	11	aux	_	_
+10	se	_	PRON	PRON	_	11	obj	_	_
+11	soltando	soltar	VERB	VERB	_	0	root	_	_
+12	e	e	CCONJ	CONJ	_	27	cc	_	_
+13-14	aos	_	_	_	_	_	_	_	_
+13	a	a	ADP	ADP	_	16	case	_	_
+14	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+15	24	24	NUM	NUM	NumType=Card	16	nummod	_	_
+16	minutos	minuto	NOUN	NOUN	_	27	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	.	_	16	punct	_	_
+18	novamente	novamente	ADV	ADV	_	19	advmod	_	_
+19	Eloir	_	PROPN	PNOUN	_	27	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	.	_	24	punct	_	_
+21	agora	agora	ADV	ADV	_	24	advmod	_	_
+22-23	pela	_	_	_	_	_	_	_	_
+22	por	por	ADP	ADP	_	24	case	_	_
+23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	ponta	ponta	NOUN	NOUN	_	19	nmod	_	_
+25	direita	direito	ADJ	ADJ	_	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	.	_	24	punct	_	_
+27	levantou	levantar	VERB	VERB	_	11	conj	_	_
+28-29	na	_	_	_	_	_	_	_	_
+28	em	em	ADP	ADP	_	30	case	_	_
+29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	área	área	NOUN	NOUN	_	27	nmod	_	_
+31	e	e	CCONJ	CONJ	_	35	cc	_	_
+32	outra	_	PRON	PRON	_	35	obj	_	_
+33	Arlindo	_	PROPN	PNOUN	_	35	nsubj	_	_
+34	Maracanã	_	PROPN	PNOUN	_	33	flat	_	_
+35	desviou	desviar	VERB	VERB	_	27	conj	_	_
+36	de	de	ADP	ADP	_	37	case	_	_
+37	cabeça	cabeça	NOUN	NOUN	_	35	nmod	_	_
+38	para	_	ADP	ADP	_	39	mark	_	_
+39	fazer	fazer	VERB	VERB	_	35	advcl	_	_
+40	2	2	NUM	NUM	NumType=Card	39	obj	_	_
+41	a	_	ADP	ADP	_	42	case	_	_
+42	0	0	NUM	NUM	NumType=Card	40	nmod	_	SpaceAfter=No
+43	,	,	PUNCT	.	_	45	punct	_	_
+44	num	_	ADP	ADP	_	45	case	_	_
+45	gol	gol	NOUN	NOUN	_	39	nmod	_	_
+46	bem	bem	ADV	ADV	_	47	advmod	_	_
+47	parecido	parecido	ADJ	ADJ	_	45	amod	_	_
+48	com	com	ADP	ADP	_	50	case	_	_
+49	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	primeiro	primeiro	NOUN	NOUN	_	47	nmod	_	SpaceAfter=No
+51	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = train-s124
+# text = Logo depois, monitores do Programa Peti realizarão a grafitagem de oito painéis com o 'marco legal' contra a exploração de mão de obra infantil.
+1	Logo	logo	ADV	ADV	_	2	advmod	_	_
+2	depois	depois	ADV	ADV	_	9	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	.	_	2	punct	_	_
+4	monitores	monitor	NOUN	NOUN	_	9	nsubj	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	ADP	_	7	case	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Programa	_	PROPN	PNOUN	_	4	nmod	_	_
+8	Peti	_	PROPN	PNOUN	_	7	flat	_	_
+9	realizarão	realizar	VERB	VERB	_	0	root	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	grafitagem	_	NOUN	NOUN	_	9	obj	_	_
+12	de	de	ADP	ADP	_	14	case	_	_
+13	oito	_	NUM	NUM	NumType=Card	14	nummod	_	_
+14	painéis	painel	NOUN	NOUN	_	11	nmod	_	_
+15	com	com	ADP	ADP	_	18	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	'	_	PUNCT	.	_	18	punct	_	SpaceAfter=No
+18	marco	marco	NOUN	NOUN	_	11	nmod	_	_
+19	legal	legal	ADJ	ADJ	_	18	amod	_	SpaceAfter=No
+20	'	_	PUNCT	.	_	18	punct	_	_
+21	contra	_	ADP	ADP	_	23	case	_	_
+22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	exploração	exploração	NOUN	NOUN	_	18	nmod	_	_
+24	de	de	ADP	ADP	_	25	case	_	_
+25	mão	mão	NOUN	NOUN	_	23	nmod	_	_
+26	de	de	ADP	ADP	_	27	case	_	_
+27	obra	obra	NOUN	NOUN	_	25	nmod	_	_
+28	infantil	infantil	ADJ	ADJ	_	25	amod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = train-s125
+# text = por este motivo, os sassânidas construíram diversas fortalezas na região.
+1	por	por	ADP	ADP	_	3	case	_	_
+2	este	_	DET	DET	_	3	det	_	_
+3	motivo	motivo	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	os	o	DET	DET	_	6	det	_	_
+6	sassânidas	_	NOUN	NOUN	_	7	nsubj	_	_
+7	construíram	construir	VERB	VERB	_	0	root	_	_
+8	diversas	_	DET	DET	_	9	det	_	_
+9	fortalezas	fortaleza	NOUN	NOUN	_	7	obj	_	_
+10-11	na	_	_	_	_	_	_	_	_
+10	em	em	ADP	ADP	_	12	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	região	região	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s126
+# text = No espaço haverá presépio em tamanho natural, duas áreas para concertos natalinos, praça de alimentação e a presença do Papai Noel.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	ADP	_	3	case	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	espaço	espaço	NOUN	NOUN	_	4	nmod	_	_
+4	haverá	haver	VERB	VERB	_	0	root	_	_
+5	presépio	presépio	NOUN	NOUN	_	4	obj	_	_
+6	em	em	ADP	ADP	_	7	case	_	_
+7	tamanho	tamanho	NOUN	NOUN	_	5	nmod	_	_
+8	natural	natural	ADJ	ADJ	_	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	11	punct	_	_
+10	duas	_	NUM	NUM	NumType=Card	11	nummod	_	_
+11	áreas	área	NOUN	NOUN	_	5	conj	_	_
+12	para	para	ADP	ADP	_	13	case	_	_
+13	concertos	concerto	NOUN	NOUN	_	11	nmod	_	_
+14	natalinos	natalino	ADJ	ADJ	_	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	.	_	16	punct	_	_
+16	praça	praça	NOUN	NOUN	_	5	conj	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
+18	alimentação	alimentação	NOUN	NOUN	_	16	nmod	_	_
+19	e	e	CCONJ	CONJ	_	21	cc	_	_
+20	a	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	presença	presença	NOUN	NOUN	_	5	conj	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	ADP	_	24	case	_	_
+23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Papai	_	PROPN	PNOUN	_	21	nmod	_	_
+25	Noel	_	PROPN	PNOUN	_	24	flat	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s127
+# text = Era parte de Nankaido.
+1	Era	_	AUX	AUX	_	2	cop	_	_
+2	parte	parte	NOUN	NOUN	_	0	root	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
+4	Nankaido	_	PROPN	PNOUN	_	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s128
+# text = Por exatos 83 minutos, Almiro Sena ouviu queixas, desabafos e relatos de ameaças e intimidações.
+1	Por	_	ADP	ADP	_	4	case	_	_
+2	exatos	exato	ADJ	ADJ	_	4	amod	_	_
+3	83	83	NUM	NUM	NumType=Card	4	nummod	_	_
+4	minutos	minuto	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	.	_	4	punct	_	_
+6	Almiro	_	PROPN	PNOUN	_	8	nsubj	_	_
+7	Sena	_	PROPN	PNOUN	_	6	flat	_	_
+8	ouviu	ouvir	VERB	VERB	_	0	root	_	_
+9	queixas	queixa	NOUN	NOUN	_	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	11	punct	_	_
+11	desabafos	desabafo	NOUN	NOUN	_	9	conj	_	_
+12	e	e	CCONJ	CONJ	_	13	cc	_	_
+13	relatos	relato	NOUN	NOUN	_	9	conj	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
+15	ameaças	ameaça	NOUN	NOUN	_	13	nmod	_	_
+16	e	e	CCONJ	CONJ	_	17	cc	_	_
+17	intimidações	intimidação	NOUN	NOUN	_	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	8	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Foi a primeira derrota do Mais Querido na Terceirona.
+# sent_id = train-s129
+1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
+4	derrota	derrota	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	8	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	Mais	mais	ADV	_	_	8	advmod	_	_
+8	Querido	querido	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+9-10	na	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Terceirona	Terceirona	PROPN	_	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+
+# sent_id = train-s130
+# text = As vendas começam no próximo dia 30, às 00h01.
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	vendas	venda	NOUN	NOUN	_	3	nsubj	_	_
+3	começam	_	VERB	VERB	_	0	root	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	ADP	_	7	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	próximo	próximo	ADJ	ADJ	_	7	amod	_	_
+7	dia	dia	NOUN	NOUN	_	3	nmod	_	_
+8	30	30	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	12	punct	_	_
+10-11	às	_	_	_	_	_	_	_	_
+10	a	a	ADP	ADP	_	12	case	_	_
+11	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	00h01	_	NUM	NUM	NumType=Card	3	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+

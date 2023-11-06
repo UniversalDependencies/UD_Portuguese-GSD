@@ -1,0 +1,282 @@
+# sent_id = train-s531
+# text = O Luverdense sempre faz grandes times.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Luverdense	_	PROPN	PNOUN	_	4	nsubj	_	_
+3	sempre	sempre	ADV	ADV	_	4	advmod	_	_
+4	faz	fazer	VERB	VERB	_	0	root	_	_
+5	grandes	grande	ADJ	ADJ	_	6	amod	_	_
+6	times	time	NOUN	NOUN	_	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = O centro de compras que inicialmente se chamava Megacenter Salvador foi rebatizado em para Shopping Metrô Santa Cruz Salvador em março de 2008, e em setembro de 2008 teve o seu nome novamente alterado, dessa vez passando a se chamar Shopping Bela Vista Salvador, e o novo bairro se chamará Horto Bela Vista.
+# sent_id = train-s532
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	centro	centro	NOUN	_	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	compras	compra	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
+5	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	8	nsubj	_	_
+6	inicialmente	inicialmente	ADV	_	_	8	advmod	_	_
+7	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	expl	_	_
+8	chamava	chamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+9	Megacenter	Megacenter	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	8	xcomp	_	_
+10	Salvador	Salvador	PROPN	_	Number=Sing	9	flat:name	_	_
+11	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
+12	rebatizado	rebatizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	para	para	ADP	_	_	15	case	_	_
+15	Shopping	Shopping	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	12	obl	_	_
+16	Metrô	Metrô	PROPN	_	Number=Sing	15	flat:name	_	_
+17	Santa	Santa	PROPN	_	Number=Sing	15	flat:name	_	_
+18	Cruz	Cruz	PROPN	_	Number=Sing	15	flat:name	_	_
+19	Salvador	Salvador	PROPN	_	Number=Sing	15	flat:name	_	_
+20	em	em	ADP	_	_	21	case	_	_
+21	março	março	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	2008	2008	NUM	_	NumType=Card	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	30	punct	_	_
+25	e	e	CCONJ	_	_	30	cc	_	_
+26	em	em	ADP	_	_	27	case	_	_
+27	setembro	setembro	NOUN	_	Gender=Masc|Number=Sing	30	obl	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	2008	2008	NUM	_	NumType=Card	27	nmod	_	_
+30	teve	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	conj	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+32	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	33	det	_	_
+33	nome	nome	NOUN	_	Gender=Masc|Number=Sing	30	obj	_	_
+34	novamente	novamente	ADV	_	_	35	advmod	_	_
+35	alterado	alterar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	33	acl	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	40	punct	_	_
+37-38	dessa	_	_	_	_	_	_	_	_
+37	de	de	ADP	_	_	39	case	_	_
+38	essa	esse	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	vez	vez	NOUN	_	Gender=Fem|Number=Sing	40	obl	_	_
+40	passando	passar	VERB	_	ExtPos=AUX|VerbForm=Ger	30	advcl	_	_
+41	a	a	SCONJ	_	_	43	mark	_	_
+42	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	43	expl	_	_
+43	chamar	chamar	VERB	_	VerbForm=Inf	40	xcomp	_	_
+44	Shopping	Shopping	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	43	obj	_	_
+45	Bela	Bela	PROPN	_	Number=Sing	44	flat:name	_	_
+46	Vista	Vista	PROPN	_	Number=Sing	44	flat:name	_	_
+47	Salvador	Salvador	PROPN	_	Number=Sing	44	flat:name	_	SpaceAfter=No
+48	,	,	PUNCT	_	_	54	punct	_	_
+49	e	e	CCONJ	_	_	54	cc	_	_
+50	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+51	novo	novo	ADJ	_	Gender=Masc|Number=Sing	52	amod	_	_
+52	bairro	bairro	NOUN	_	Gender=Masc|Number=Sing	54	nsubj	_	_
+53	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	54	expl	_	_
+54	chamará	chamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	40	conj	_	_
+55	Horto	Horto	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	54	obj	_	_
+56	Bela	Bela	PROPN	_	Number=Sing	55	flat:name	_	_
+57	Vista	Vista	PROPN	_	Number=Sing	55	flat:name	_	SpaceAfter=No
+58	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = train-s533
+# text = Nesta sexta - feira (dia 2), Preta Gil sobe ao palco.
+1	Nesta	_	ADP	ADP	_	4	case	_	_
+2	sexta	_	PROPN	PNOUN	_	4	amod	_	_
+3	-	-	PUNCT	.	_	4	punct	_	_
+4	feira	_	PROPN	PNOUN	_	12	nmod	_	_
+5	(	(	PUNCT	.	_	6	punct	_	SpaceAfter=No
+6	dia	dia	NOUN	NOUN	_	4	nmod	_	_
+7	2	2	NUM	NUM	NumType=Card	6	appos	_	SpaceAfter=No
+8	)	)	PUNCT	.	_	6	punct	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	4	punct	_	_
+10	Preta	_	PROPN	PNOUN	_	12	nsubj	_	_
+11	Gil	_	PROPN	PNOUN	_	10	flat	_	_
+12	sobe	subir	VERB	VERB	_	0	root	_	_
+13-14	ao	_	_	_	_	_	_	_	_
+13	a	a	ADP	ADP	_	15	case	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	palco	palco	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = train-s534
+# text = Uma máquina de estados finitos tipo transdutor é uma sêxtupla 0, δ, ω _, onde:
+1	Uma	_	DET	DET	_	2	det	_	_
+2	máquina	máquina	NOUN	NOUN	_	10	nsubj	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
+4	estados	estado	NOUN	NOUN	_	2	nmod	_	_
+5	finitos	_	ADJ	ADJ	_	4	amod	_	_
+6	tipo	tipo	NOUN	NOUN	_	2	appos	_	_
+7	transdutor	transdutor	NOUN	NOUN	_	6	appos	_	_
+8	é	ser	AUX	AUX	_	10	cop	_	_
+9	uma	um	DET	DET	_	10	det	_	_
+10	sêxtupla	_	NOUN	NOUN	_	0	root	_	_
+11	0	0	NUM	NUM	NumType=Card	10	appos	_	SpaceAfter=No
+12	,	,	PUNCT	.	_	13	punct	_	_
+13	δ	_	NOUN	NOUN	_	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	15	punct	_	_
+15	ω	_	NOUN	NOUN	_	11	conj	_	_
+16	_	_	NOUN	NOUN	_	15	flat	_	SpaceAfter=No
+17	,	,	PUNCT	.	_	18	punct	_	_
+18	onde	onde	ADV	ADV	_	10	advmod	_	SpaceAfter=No
+19	:	:	PUNCT	.	_	10	punct	_	_
+
+# sent_id = train-s535
+# text = "O mesmo vale para Guatemala e os países na América Central.
+1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
+2	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	mesmo	mesmo	NOUN	NOUN	_	4	nsubj	_	_
+4	vale	_	VERB	VERB	_	0	root	_	_
+5	para	para	ADP	ADP	_	6	case	_	_
+6	Guatemala	_	PROPN	PNOUN	_	4	nmod	_	_
+7	e	e	CCONJ	CONJ	_	9	cc	_	_
+8	os	o	DET	DET	_	9	det	_	_
+9	países	país	NOUN	NOUN	_	6	conj	_	_
+10-11	na	_	_	_	_	_	_	_	_
+10	em	em	ADP	ADP	_	12	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	América	_	PROPN	PNOUN	_	9	nmod	_	_
+13	Central	_	PROPN	PNOUN	_	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s536
+# text = Os percentuais equivalem a 7.444.082 e 6.151.544 eleitores, respectivamente.
+1	Os	o	DET	DET	_	2	det	_	_
+2	percentuais	_	NOUN	NOUN	_	3	nsubj	_	_
+3	equivalem	equivaler	VERB	VERB	_	0	root	_	_
+4	a	_	ADP	ADP	_	8	case	_	_
+5	7.444.082	_	NUM	NUM	NumType=Card	8	nummod	_	_
+6	e	e	CCONJ	CONJ	_	7	cc	_	_
+7	6.151.544	_	NUM	NUM	NumType=Card	5	conj	_	_
+8	eleitores	eleitor	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	10	punct	_	_
+10	respectivamente	respectivamente	ADV	ADV	_	3	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s537
+# text = Eles respondem por pelo menos três crimes: formação de quadrilha, corrupção ativa e lavagem de dinheiro.
+1	Eles	_	PRON	PRON	_	2	nsubj	_	_
+2	respondem	responder	VERB	VERB	_	0	root	_	_
+3	por	por	ADP	ADP	_	8	case	_	_
+4-5	pelo	_	_	_	_	_	_	_	_
+4	por	por	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	menos	menos	ADV	ADV	_	7	advmod	_	_
+7	três	_	NUM	NUM	NumType=Card	8	nummod	_	_
+8	crimes	crime	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
+9	:	:	PUNCT	.	_	8	punct	_	_
+10	formação	formação	NOUN	NOUN	_	8	appos	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
+12	quadrilha	quadrilha	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	.	_	14	punct	_	_
+14	corrupção	corrupção	NOUN	NOUN	_	10	conj	_	_
+15	ativa	ativo	ADJ	ADJ	_	14	amod	_	_
+16	e	e	CCONJ	CONJ	_	17	cc	_	_
+17	lavagem	lavagem	NOUN	NOUN	_	10	conj	_	_
+18	de	de	ADP	ADP	_	19	case	_	_
+19	dinheiro	dinheiro	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s538
+# text = O padre foi levado para a Santa Casa de Piracicaba e precisou passar por uma cirurgia.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	padre	padre	NOUN	NOUN	_	4	nsubj:pass	_	_
+3	foi	_	AUX	AUX	_	4	aux:pass	_	_
+4	levado	levar	VERB	VERB	_	0	root	_	_
+5	para	para	ADP	ADP	_	8	case	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	Santa	_	PROPN	PNOUN	_	8	amod	_	_
+8	Casa	_	PROPN	PNOUN	_	4	nmod	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
+10	Piracicaba	_	PROPN	PNOUN	_	8	nmod	_	_
+11	e	e	CCONJ	CONJ	_	12	cc	_	_
+12	precisou	precisar	VERB	VERB	_	4	conj	_	_
+13	passar	passar	VERB	VERB	_	12	xcomp	_	_
+14	por	por	ADP	ADP	_	16	case	_	_
+15	uma	um	DET	DET	_	16	det	_	_
+16	cirurgia	cirurgia	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Já o tom da reunião entre FMI e Banco Mundial foi estabelecido, após as projeções mais sombrias para a economia mundial, divulgadas no começo da semana.
+# sent_id = train-s539
+1	Já	já	ADV	_	_	13	advmod	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tom	tom	NOUN	_	Gender=Masc|Number=Sing	13	nsubj:pass	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	reunião	reunião	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+7	entre	entre	ADP	_	_	8	case	_	_
+8	FMI	FMI	PROPN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	Banco	Banco	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	8	conj	_	_
+11	Mundial	Mundial	PROPN	_	Number=Sing	10	flat:name	_	_
+12	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
+13	estabelecido	estabelecer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	após	após	ADP	_	_	17	case	_	_
+16	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	projeções	projeção	NOUN	_	Gender=Fem|Number=Plur	13	obl	_	_
+18	mais	mais	ADV	_	_	19	advmod	_	_
+19	sombrias	sombrio	ADJ	_	Gender=Fem|Number=Plur	17	amod	_	_
+20	para	para	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	economia	economia	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+23	mundial	mundial	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	divulgadas	divulgar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	17	acl	_	_
+26-27	no	_	_	_	_	_	_	_	_
+26	em	em	ADP	_	_	28	case	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	começo	começo	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	_
+29-30	da	_	_	_	_	_	_	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	semana	semana	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = train-s540
+# text = Aos 29 anos, Huntelaar agradeceu ao apoio recebido dentro do clube de Gelsenkirchen e disse estar completamente focado para justificar o investimento de sua equipe nas oitavas de final da Liga dos Campeões.
+1-2	Aos	_	_	_	_	_	_	_	_
+1	A	a	ADP	ADP	_	4	case	_	_
+2	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	29	29	NUM	NUM	NumType=Card	4	nummod	_	_
+4	anos	ano	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	.	_	4	punct	_	_
+6	Huntelaar	_	PROPN	PNOUN	_	7	nsubj	_	_
+7	agradeceu	agradecer	VERB	VERB	_	0	root	_	_
+8-9	ao	_	_	_	_	_	_	_	_
+8	a	a	ADP	ADP	_	10	case	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	apoio	apoio	NOUN	NOUN	_	7	nmod	_	_
+11	recebido	receber	VERB	VERB	_	10	acl	_	_
+12	dentro	dentro	ADV	ADV	_	11	advmod	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	clube	clube	NOUN	NOUN	_	12	nmod	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
+17	Gelsenkirchen	_	PROPN	PNOUN	_	15	nmod	_	_
+18	e	e	CCONJ	CONJ	_	19	cc	_	_
+19	disse	dizer	VERB	VERB	_	7	conj	_	_
+20	estar	estar	VERB	VERB	_	19	xcomp	_	_
+21	completamente	completamente	ADV	ADV	_	22	advmod	_	_
+22	focado	focado	ADJ	ADJ	_	20	xcomp	_	_
+23	para	_	ADP	ADP	_	24	mark	_	_
+24	justificar	justificar	VERB	VERB	_	22	nmod	_	_
+25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	investimento	investimento	NOUN	NOUN	_	24	obj	_	_
+27	de	de	ADP	ADP	_	29	case	_	_
+28	sua	_	DET	DET	_	29	det:poss	_	_
+29	equipe	equipe	NOUN	NOUN	_	26	nmod	_	_
+30-31	nas	_	_	_	_	_	_	_	_
+30	em	em	ADP	ADP	_	32	case	_	_
+31	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	oitavas	_	NOUN	NOUN	_	26	nmod	_	_
+33	de	de	ADP	ADP	_	34	case	_	_
+34	final	final	NOUN	NOUN	_	32	nmod	_	_
+35-36	da	_	_	_	_	_	_	_	_
+35	de	de	ADP	ADP	_	37	case	_	_
+36	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	Liga	_	PROPN	PNOUN	_	32	nmod	_	_
+38-39	dos	_	_	_	_	_	_	_	_
+38	de	de	ADP	ADP	_	40	case	_	_
+39	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
+40	Campeões	_	PROPN	PNOUN	_	37	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	.	_	7	punct	_	_
+

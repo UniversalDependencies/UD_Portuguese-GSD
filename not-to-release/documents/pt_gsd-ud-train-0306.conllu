@@ -1,0 +1,280 @@
+# sent_id = train-s3037
+# text = As informações são da Agência Brasil.
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	informações	informação	NOUN	NOUN	_	3	nsubj	_	_
+3	são	ser	VERB	VERB	_	0	root	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	ADP	_	6	case	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Agência	_	PROPN	PNOUN	_	3	nmod	_	_
+7	Brasil	_	PROPN	PNOUN	_	6	flat	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s3038
+# text = Será criada também a CBMTV, que dará cobertura total, das etapas e dos bastidores do Motocross.
+1	Será	ser	AUX	AUX	_	2	aux:pass	_	_
+2	criada	criar	VERB	VERB	_	0	root	_	_
+3	também	também	ADV	ADV	_	2	advmod	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	CBMTV	_	NOUN	NOUN	_	2	nsubj:pass	_	SpaceAfter=No
+6	,	,	PUNCT	.	_	8	punct	_	_
+7	que	_	PRON	PRON	_	8	nsubj	_	_
+8	dará	dar	VERB	VERB	_	5	acl:relcl	_	_
+9	cobertura	cobertura	NOUN	NOUN	_	8	obj	_	_
+10	total	total	ADJ	ADJ	_	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	14	punct	_	_
+12-13	das	_	_	_	_	_	_	_	_
+12	de	de	ADP	ADP	_	14	case	_	_
+13	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	etapas	etapa	NOUN	NOUN	_	9	nmod	_	_
+15	e	e	CCONJ	CONJ	_	18	cc	_	_
+16-17	dos	_	_	_	_	_	_	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
+17	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	bastidores	bastidor	NOUN	NOUN	_	14	conj	_	_
+19-20	do	_	_	_	_	_	_	_	_
+19	de	de	ADP	ADP	_	21	case	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Motocross	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Foi então, que ele bateu na porta e disse que Deus havia dito a ele que eu seria sua esposa e que ele iria se casar comigo.
+# sent_id = train-s3039
+1	Foi	foi	SCONJ	_	_	6	mark	_	_
+2	então	então	ADV	_	_	6	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	que	que	SCONJ	_	_	6	mark	_	_
+5	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	bateu	bater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7-8	na	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	porta	porta	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	_
+12	que	que	SCONJ	_	_	15	mark	_	_
+13	Deus	Deus	PROPN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+14	havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15	dito	dizer	VERB	_	VerbForm=Part	11	ccomp	_	_
+16	a	a	ADP	_	_	17	case	_	_
+17	ele	ele	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	iobj	_	_
+18	que	que	SCONJ	_	_	22	mark	_	_
+19	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+20	seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	22	cop	_	_
+21	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	22	det	_	_
+22	esposa	esposa	NOUN	_	Gender=Fem|Number=Sing	15	ccomp	_	_
+23	e	e	CCONJ	_	_	28	cc	_	_
+24	que	que	SCONJ	_	_	28	mark	_	_
+25	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+26	iria	ir	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	28	aux	_	_
+27	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	expl	_	_
+28	casar	casar	VERB	_	VerbForm=Inf	22	conj	_	_
+29	comigo	comigo	NOUN	_	Gender=Masc|Number=Sing	28	xcomp	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = train-s3040
+# text = não combina com seu sistema e modo de pensar (Conf. 3,5,9).
+1	não	não	ADV	ADV	Polarity=Neg	2	advmod	_	_
+2	combina	combinar	VERB	VERB	_	0	root	_	_
+3	com	com	ADP	ADP	_	5	case	_	_
+4	seu	_	DET	DET	_	5	det:poss	_	_
+5	sistema	sistema	NOUN	NOUN	_	2	nmod	_	_
+6	e	e	CCONJ	CONJ	_	7	cc	_	_
+7	modo	modo	NOUN	NOUN	_	5	conj	_	_
+8	de	_	ADP	ADP	_	9	mark	_	_
+9	pensar	pensar	VERB	VERB	_	7	nmod	_	_
+10	(	(	PUNCT	.	_	11	punct	_	SpaceAfter=No
+11	Conf.	_	PROPN	PNOUN	_	2	parataxis	_	_
+12	3,5,9	3,5,9	NUM	NUM	NumType=Card	11	appos	_	SpaceAfter=No
+13	)	)	PUNCT	.	_	11	punct	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s3041
+# text = Já Luzia Bello luta para manter a liderança no feminino.
+1	Já	já	ADV	ADV	_	4	advmod	_	_
+2	Luzia	_	PROPN	PNOUN	_	4	nsubj	_	_
+3	Bello	_	PROPN	PNOUN	_	2	flat	_	_
+4	luta	lutar	VERB	VERB	_	0	root	_	_
+5	para	_	ADP	ADP	_	6	mark	_	_
+6	manter	manter	VERB	VERB	_	4	advcl	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	liderança	liderança	NOUN	NOUN	_	6	obj	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	ADP	_	11	case	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	feminino	feminino	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s3042
+# text = As letras usadas descrevem vários estados mentais como alucinação, ilusão e paranóia.
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	letras	_	NOUN	NOUN	_	4	nsubj	_	_
+3	usadas	usar	VERB	VERB	_	2	acl	_	_
+4	descrevem	descrever	VERB	VERB	_	0	root	_	_
+5	vários	_	DET	DET	_	6	det	_	_
+6	estados	estado	NOUN	NOUN	_	4	obj	_	_
+7	mentais	mental	ADJ	ADJ	_	6	amod	_	_
+8	como	como	ADP	ADP	_	9	case	_	_
+9	alucinação	alucinação	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	11	punct	_	_
+11	ilusão	ilusão	NOUN	NOUN	_	9	conj	_	_
+12	e	e	CCONJ	CONJ	_	13	cc	_	_
+13	paranóia	paranóia	NOUN	NOUN	_	9	conj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s3043
+# text = A pesquisa encomendada pela Associação Comercial do Paraná (ACP), que mede a expectativa dos lojistas e consumidores com relação às vendas para o Dia das Crianças, constatou previsão de aumento de 4 % em comparação com 2011.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	pesquisa	pesquisa	NOUN	NOUN	_	36	nsubj	_	_
+3	encomendada	encomendar	VERB	VERB	_	2	acl	_	_
+4-5	pela	_	_	_	_	_	_	_	_
+4	por	por	ADP	ADP	_	6	case	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Associação	_	PROPN	PNOUN	_	3	nmod	_	_
+7	Comercial	_	PROPN	PNOUN	_	6	amod	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	ADP	_	10	case	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Paraná	_	PROPN	PNOUN	_	6	nmod	_	_
+11	(	(	PUNCT	.	_	12	punct	_	SpaceAfter=No
+12	ACP	_	PROPN	PNOUN	_	6	appos	_	SpaceAfter=No
+13	)	)	PUNCT	.	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	16	punct	_	_
+15	que	_	PRON	PRON	_	16	nsubj	_	_
+16	mede	medir	VERB	VERB	_	2	acl:relcl	_	_
+17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	expectativa	expectativa	NOUN	NOUN	_	16	obj	_	_
+19-20	dos	_	_	_	_	_	_	_	_
+19	de	de	ADP	ADP	_	21	case	_	_
+20	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	lojistas	lojista	NOUN	NOUN	_	18	nmod	_	_
+22	e	e	CCONJ	CONJ	_	23	cc	_	_
+23	consumidores	consumidor	NOUN	NOUN	_	21	conj	_	_
+24	com	com	ADP	ADP	_	25	case	_	_
+25	relação	relação	NOUN	NOUN	_	18	nmod	_	_
+26-27	às	_	_	_	_	_	_	_	_
+26	a	a	ADP	ADP	_	28	case	_	_
+27	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	vendas	venda	NOUN	NOUN	_	25	nmod	_	_
+29	para	para	ADP	ADP	_	31	case	_	_
+30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	Dia	_	PROPN	PNOUN	_	28	nmod	_	_
+32-33	das	_	_	_	_	_	_	_	_
+32	de	de	ADP	ADP	_	34	case	_	_
+33	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	Crianças	_	PROPN	PNOUN	_	31	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	.	_	16	punct	_	_
+36	constatou	constatar	VERB	VERB	_	0	root	_	_
+37	previsão	previsão	NOUN	NOUN	_	36	obj	_	_
+38	de	de	ADP	ADP	_	39	case	_	_
+39	aumento	aumento	NOUN	NOUN	_	37	nmod	_	_
+40	de	de	ADP	ADP	_	42	case	_	_
+41	4	4	NUM	NUM	NumType=Card	42	nummod	_	_
+42	%	_	SYM	SYM	_	39	nmod	_	_
+43	em	em	ADP	ADP	_	44	case	_	_
+44	comparação	comparação	NOUN	NOUN	_	39	nmod	_	_
+45	com	com	ADP	ADP	_	46	case	_	_
+46	2011	2011	NUM	NUM	NumType=Card	44	nmod	_	SpaceAfter=No
+47	.	.	PUNCT	.	_	36	punct	_	_
+
+# sent_id = train-s3044
+# text = Cremos que estes fatos não podem ser considerados como meras coincidências de sorte ou azar.
+1	Cremos	crer	VERB	VERB	_	0	root	_	_
+2	que	que	CCONJ	CONJ	_	8	mark	_	_
+3	estes	_	DET	DET	_	4	det	_	_
+4	fatos	fato	NOUN	NOUN	_	8	nsubj:pass	_	_
+5	não	não	ADV	ADV	Polarity=Neg	8	advmod	_	_
+6	podem	_	AUX	AUX	_	8	aux	_	_
+7	ser	ser	AUX	AUX	_	8	aux:pass	_	_
+8	considerados	considerar	VERB	VERB	_	1	ccomp	_	_
+9	como	como	ADP	ADP	_	11	case	_	_
+10	meras	mero	ADJ	ADJ	_	11	amod	_	_
+11	coincidências	coincidência	NOUN	NOUN	_	8	nmod	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
+13	sorte	sorte	NOUN	NOUN	_	11	nmod	_	_
+14	ou	ou	CCONJ	CONJ	_	15	cc	_	_
+15	azar	azar	NOUN	NOUN	_	13	conj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	1	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = O sinal disso foi o incêndio num gerador da subestação de Furnas na quarta - feira passada, que provocou a interrupção da energia em 12 Estados.
+# sent_id = train-s3045
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sinal	sinal	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+3-4	disso	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nmod	_	_
+5	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	incêndio	incêndio	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+8-9	num	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	gerador	gerador	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	subestação	subestação	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	Furnas	Furnas	PROPN	_	Gender=Fem|Number=Plur	13	nmod	_	_
+16-17	na	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	quarta	quarta	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+19	-	-	PUNCT	_	_	20	punct	_	_
+20	feira	feira	NOUN	_	Gender=Fem|Number=Sing	18	appos	_	_
+21	passada	passado	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	24	punct	_	_
+23	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	24	nsubj	_	_
+24	provocou	provocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	acl:relcl	_	_
+25	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	interrupção	interrupção	NOUN	_	Gender=Fem|Number=Sing	24	obj	_	_
+27-28	da	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	energia	energia	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
+30	em	em	ADP	_	_	32	case	_	_
+31	12	12	NUM	_	NumType=Card	32	nummod	_	_
+32	Estados	estado	NOUN	_	Gender=Masc|Number=Plur	24	obl	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Ele começou sua carreira cantando na rádio Dirceu de Marília, no Estado de São Paulo, e logo se tornou apresentador dum programa infantil.
+# sent_id = train-s3046
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	começou	começar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	4	det	_	_
+4	carreira	carreira	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5	cantando	cantar	VERB	_	VerbForm=Ger	2	advcl	_	_
+6-7	na	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	rádio	rádio	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+9	Dirceu	Dirceu	PROPN	_	Gender=Fem|Number=Sing	8	appos	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	Marília	Marília	PROPN	_	Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	15	punct	_	_
+13-14	no	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Estado	estado	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	São	São	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	15	nmod	_	_
+18	Paulo	Paulo	PROPN	_	Number=Sing	17	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	15	punct	_	_
+20	e	e	CCONJ	_	_	23	cc	_	_
+21	logo	logo	ADV	_	_	23	advmod	_	_
+22	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	expl	_	_
+23	tornou	tornar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+24	apresentador	apresentador	NOUN	_	Gender=Masc|Number=Sing	23	xcomp	_	_
+25-26	dum	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	programa	programa	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
+28	infantil	infantil	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
+

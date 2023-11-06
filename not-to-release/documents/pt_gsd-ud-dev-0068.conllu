@@ -1,0 +1,305 @@
+# sent_id = dev-s664
+# text = Entre 2010 e 2012, os gastos do governo federal com assistência oncológica aumentaram 26 %, passando de R $ 1,9 bilhão (em 2010) para R $ 2,4 bilhões (estimativa de 2012).
+1	Entre	_	ADP	ADP	_	2	case	_	_
+2	2010	2010	NUM	NUM	NumType=Card	15	nmod	_	_
+3	e	e	CCONJ	CONJ	_	4	cc	_	_
+4	2012	2012	NUM	NUM	NumType=Card	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	.	_	2	punct	_	_
+6	os	o	DET	DET	_	7	det	_	_
+7	gastos	gasto	NOUN	NOUN	_	15	nsubj	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	ADP	_	10	case	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	governo	governo	NOUN	NOUN	_	7	nmod	_	_
+11	federal	federal	ADJ	ADJ	_	10	amod	_	_
+12	com	com	ADP	ADP	_	13	case	_	_
+13	assistência	assistência	NOUN	NOUN	_	7	nmod	_	_
+14	oncológica	oncológico	ADJ	ADJ	_	13	amod	_	_
+15	aumentaram	aumentar	VERB	VERB	_	0	root	_	_
+16	26	26	NUM	NUM	NumType=Card	17	nummod	_	_
+17	%	_	SYM	SYM	_	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	.	_	19	punct	_	_
+19	passando	passar	VERB	VERB	_	15	acl	_	_
+20	de	de	ADP	ADP	_	21	case	_	_
+21	R	r	NOUN	NOUN	_	19	nmod	_	_
+22	$	_	SYM	SYM	_	21	flat	_	_
+23	1,9	1,9	NUM	NUM	NumType=Card	24	nummod	_	_
+24	bilhão	_	NUM	NUM	NumType=Card	21	nummod	_	_
+25	(	(	PUNCT	.	_	27	punct	_	SpaceAfter=No
+26	em	em	ADP	ADP	_	27	case	_	_
+27	2010	2010	NUM	NUM	NumType=Card	21	nmod	_	SpaceAfter=No
+28	)	)	PUNCT	.	_	27	punct	_	_
+29	para	para	ADP	ADP	_	30	case	_	_
+30	R	r	NOUN	NOUN	_	19	nmod	_	_
+31	$	_	SYM	SYM	_	30	flat	_	_
+32	2,4	2,4	NUM	NUM	NumType=Card	33	nummod	_	_
+33	bilhões	_	NUM	NUM	NumType=Card	30	nummod	_	_
+34	(	(	PUNCT	.	_	35	punct	_	SpaceAfter=No
+35	estimativa	_	NOUN	NOUN	_	30	appos	_	_
+36	de	de	ADP	ADP	_	37	case	_	_
+37	2012	2012	NUM	NUM	NumType=Card	35	nmod	_	SpaceAfter=No
+38	)	)	PUNCT	.	_	35	punct	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = dev-s665
+# text = "Não vejo nada de mais na foto.
+1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
+2	Não	não	ADV	ADV	Polarity=Neg	3	advmod	_	_
+3	vejo	ver	VERB	VERB	_	0	root	_	_
+4	nada	_	PRON	PRON	_	3	obj	_	_
+5	de	_	ADP	ADP	_	6	mark	_	_
+6	mais	mais	ADV	ADV	_	4	nmod	_	_
+7-8	na	_	_	_	_	_	_	_	_
+7	em	em	ADP	ADP	_	9	case	_	_
+8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	foto	foto	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = dev-s666
+# text = A lei brasileira será pisada e a cerveja invadirá os estádios.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	lei	lei	NOUN	NOUN	_	5	nsubj:pass	_	_
+3	brasileira	brasileiro	ADJ	ADJ	_	2	amod	_	_
+4	será	ser	AUX	AUX	_	5	aux:pass	_	_
+5	pisada	pisar	VERB	VERB	_	0	root	_	_
+6	e	e	CCONJ	CONJ	_	9	cc	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	cerveja	cerveja	NOUN	NOUN	_	9	nsubj	_	_
+9	invadirá	invadir	VERB	VERB	_	5	conj	_	_
+10	os	o	DET	DET	_	11	det	_	_
+11	estádios	estádio	NOUN	NOUN	_	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = dev-s667
+# text = Um grande número de figuras notáveis, como Vanessa Redgrave, negaram a estilização.
+1	Um	_	DET	DET	_	3	det	_	_
+2	grande	grande	ADJ	ADJ	_	3	amod	_	_
+3	número	número	NOUN	NOUN	_	12	nsubj	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
+5	figuras	figura	NOUN	NOUN	_	3	nmod	_	_
+6	notáveis	notável	ADJ	ADJ	_	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	9	punct	_	_
+8	como	como	ADP	ADP	_	9	case	_	_
+9	Vanessa	_	PROPN	PNOUN	_	5	nmod	_	_
+10	Redgrave	_	PROPN	PNOUN	_	9	flat	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	9	punct	_	_
+12	negaram	negar	VERB	VERB	_	0	root	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	estilização	estilização	NOUN	NOUN	_	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = dev-s668
+# text = Nas janelas dos quartos, vista para um campo de golfe e para o famoso Canal de Dubai.
+1-2	Nas	_	_	_	_	_	_	_	_
+1	Em	em	ADP	ADP	_	3	case	_	_
+2	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	janelas	janela	NOUN	NOUN	_	8	nmod	_	_
+4-5	dos	_	_	_	_	_	_	_	_
+4	de	de	ADP	ADP	_	6	case	_	_
+5	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	quartos	quarto	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	3	punct	_	_
+8	vista	vista	NOUN	NOUN	_	0	root	_	_
+9	para	para	ADP	ADP	_	11	case	_	_
+10	um	um	DET	DET	_	11	det	_	_
+11	campo	campo	NOUN	NOUN	_	8	nmod	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
+13	golfe	golfe	NOUN	NOUN	_	11	nmod	_	_
+14	e	e	CCONJ	CONJ	_	18	cc	_	_
+15	para	para	ADP	ADP	_	18	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	famoso	famoso	ADJ	ADJ	_	18	amod	_	_
+18	Canal	_	PROPN	PNOUN	_	11	conj	_	_
+19	de	de	ADP	ADP	_	20	case	_	_
+20	Dubai	_	PROPN	PNOUN	_	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = dev-s669
+# text = Em 1885, após a derrota na Guerra Sino - Francesa, o imperador Hàm Nghi foi obrigado a aceitar o protetorado francês sobre o império.
+1	Em	em	ADP	ADP	_	2	case	_	_
+2	1885	1885	NUM	NUM	NumType=Card	19	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	.	_	2	punct	_	_
+4	após	_	ADP	ADP	_	6	case	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	derrota	derrota	NOUN	NOUN	_	19	nmod	_	_
+7-8	na	_	_	_	_	_	_	_	_
+7	em	em	ADP	ADP	_	9	case	_	_
+8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Guerra	_	PROPN	PNOUN	_	6	nmod	_	_
+10	Sino	_	PROPN	PNOUN	_	12	amod	_	_
+11	-	-	PUNCT	.	_	12	punct	_	_
+12	Francesa	_	PROPN	PNOUN	_	9	amod	_	SpaceAfter=No
+13	,	,	PUNCT	.	_	6	punct	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	imperador	imperador	NOUN	NOUN	_	19	nsubj:pass	_	_
+16	Hàm	_	PROPN	PNOUN	_	15	appos	_	_
+17	Nghi	_	PROPN	PNOUN	_	16	flat	_	_
+18	foi	_	AUX	AUX	_	19	aux:pass	_	_
+19	obrigado	obrigar	VERB	VERB	_	0	root	_	_
+20	a	_	ADP	ADP	_	21	mark	_	_
+21	aceitar	aceitar	VERB	VERB	_	19	nmod	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	protetorado	protetorado	NOUN	NOUN	_	21	obj	_	_
+24	francês	francês	ADJ	ADJ	_	23	amod	_	_
+25	sobre	_	ADP	ADP	_	27	case	_	_
+26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	império	império	NOUN	NOUN	_	23	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	19	punct	_	_
+
+# sent_id = dev-s670
+# text = Moradores foram completamente desalojados e alguns deles receberam seus pertences.
+1	Moradores	morador	NOUN	NOUN	_	4	nsubj:pass	_	_
+2	foram	_	AUX	AUX	_	4	aux:pass	_	_
+3	completamente	completamente	ADV	ADV	_	4	advmod	_	_
+4	desalojados	desalojar	VERB	VERB	_	0	root	_	_
+5	e	e	CCONJ	CONJ	_	8	cc	_	_
+6	alguns	_	PRON	PRON	_	8	nsubj	_	_
+7	deles	_	X	ADPPRON	_	6	nmod	_	_
+8	receberam	receber	VERB	VERB	_	4	conj	_	_
+9	seus	_	DET	DET	_	10	det:poss	_	_
+10	pertences	pertence	NOUN	NOUN	_	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Barbosa chegou a reconsiderar seu voto, enquadrando a pena base no patamar dum a oito anos, mas manteve a punição inicial que propôs (quatro anos e oito meses e 210 dias - multa de 10 salários mínimos), considerando que o papel de Marcos Valério foi fundamental no esquema e merecia a condição agravante.
+# sent_id = dev-s671
+1	Barbosa	Barbosa	PROPN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	chegou	chegar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	SCONJ	_	_	4	mark	_	_
+4	reconsiderar	reconsiderar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+5	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	6	det	_	_
+6	voto	voto	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	enquadrando	enquadrar	VERB	_	VerbForm=Ger	4	advcl	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	pena	pena	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	base	base	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+12-13	no	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	patamar	patamar	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+15-16	dum	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	um	um	NUM	_	NumType=Card	14	nmod	_	_
+17	a	a	ADP	_	_	19	case	_	_
+18	oito	oito	NUM	_	NumType=Card	19	nummod	_	_
+19	anos	ano	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	_
+21	mas	mas	CCONJ	_	_	22	cc	_	_
+22	manteve	manter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	punição	punição	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
+25	inicial	inicial	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	_
+26	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	27	obj	_	_
+27	propôs	propor	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	acl:relcl	_	_
+28	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
+29	quatro	quatro	NUM	_	NumType=Card	30	nummod	_	_
+30	anos	ano	NOUN	_	Gender=Masc|Number=Plur	24	appos	_	_
+31	e	e	CCONJ	_	_	33	cc	_	_
+32	oito	oito	NUM	_	NumType=Card	33	nummod	_	_
+33	meses	mês	NOUN	_	Gender=Masc|Number=Plur	30	conj	_	_
+34	e	e	CCONJ	_	_	36	cc	_	_
+35	210	210	NUM	_	NumType=Card	36	nummod	_	_
+36	dias	dia	NOUN	_	Gender=Masc|Number=Plur	30	conj	_	_
+37	-	-	PUNCT	_	_	38	punct	_	_
+38	multa	multa	NOUN	_	Gender=Fem|Number=Sing	30	conj	_	_
+39	de	de	ADP	_	_	41	case	_	_
+40	10	10	NUM	_	NumType=Card	41	nummod	_	_
+41	salários	salário	NOUN	_	Gender=Masc|Number=Plur	38	nmod	_	_
+42	mínimos	mínimo	ADJ	_	Gender=Masc|Number=Plur	41	amod	_	SpaceAfter=No
+43	)	)	PUNCT	_	_	30	punct	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	45	punct	_	_
+45	considerando	considerar	VERB	_	VerbForm=Ger	22	advcl	_	_
+46	que	que	SCONJ	_	_	53	mark	_	_
+47	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	papel	papel	NOUN	_	Gender=Masc|Number=Sing	53	nsubj	_	_
+49	de	de	ADP	_	_	50	case	_	_
+50	Marcos	Marcos	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	48	nmod	_	_
+51	Valério	Valério	PROPN	_	Number=Sing	50	flat:name	_	_
+52	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	53	cop	_	_
+53	fundamental	fundamental	ADJ	_	Gender=Masc|Number=Sing	45	ccomp	_	_
+54-55	no	_	_	_	_	_	_	_	_
+54	em	em	ADP	_	_	56	case	_	_
+55	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+56	esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	53	obl	_	_
+57	e	e	CCONJ	_	_	58	cc	_	_
+58	merecia	merecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	53	conj	_	_
+59	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	60	det	_	_
+60	condição	condição	NOUN	_	Gender=Fem|Number=Sing	58	obj	_	_
+61	agravante	agravante	ADJ	_	Gender=Fem|Number=Sing	60	amod	_	SpaceAfter=No
+62	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+
+# sent_id = dev-s672
+# text = De férias, mas ainda no Recife, Tobi conta que tem recebido apoio da torcida por onde passa.
+1	De	_	ADP	ADP	_	2	case	_	_
+2	férias	_	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	.	_	8	punct	_	_
+4	mas	mas	CCONJ	CONJ	_	8	cc	_	_
+5	ainda	ainda	ADV	ADV	_	8	advmod	_	_
+6-7	no	_	_	_	_	_	_	_	_
+6	em	em	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Recife	_	PROPN	PNOUN	_	2	conj	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	2	punct	_	_
+10	Tobi	_	PROPN	PNOUN	_	11	nsubj	_	_
+11	conta	contar	VERB	VERB	_	0	root	_	_
+12	que	que	CCONJ	CONJ	_	14	mark	_	_
+13	tem	ter	AUX	AUX	_	14	aux	_	_
+14	recebido	receber	VERB	VERB	_	11	ccomp	_	_
+15	apoio	apoio	NOUN	NOUN	_	14	obj	_	_
+16-17	da	_	_	_	_	_	_	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
+17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	torcida	torcida	NOUN	NOUN	_	14	nmod	_	_
+19	por	_	ADP	ADP	_	21	mark	_	_
+20	onde	onde	ADV	ADV	_	21	advmod	_	_
+21	passa	passar	VERB	VERB	_	14	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = dev-s673
+# text = Tudo isso aconteceu pela dificuldade que o autor Walcyr Carrasco está tendo para montar o elenco de sua primeira novela no horário nobre da emissora, mas a partir de agora vai ficar bem mais fácil.
+1	Tudo	_	PRON	PRON	_	2	det	_	_
+2	isso	_	PRON	PRON	_	3	nsubj	_	_
+3	aconteceu	acontecer	VERB	VERB	_	0	root	_	_
+4-5	pela	_	_	_	_	_	_	_	_
+4	por	por	ADP	ADP	_	6	case	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	dificuldade	dificuldade	NOUN	NOUN	_	3	nmod	_	_
+7	que	_	PRON	PRON	_	13	obj	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	autor	autor	NOUN	NOUN	_	13	nsubj	_	_
+10	Walcyr	_	PROPN	PNOUN	_	9	appos	_	_
+11	Carrasco	_	PROPN	PNOUN	_	10	flat	_	_
+12	está	estar	AUX	AUX	_	13	aux	_	_
+13	tendo	_	VERB	VERB	_	6	acl:relcl	_	_
+14	para	_	ADP	ADP	_	15	mark	_	_
+15	montar	montar	VERB	VERB	_	13	advcl	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	elenco	elenco	NOUN	NOUN	_	15	obj	_	_
+18	de	de	ADP	ADP	_	21	case	_	_
+19	sua	_	DET	DET	_	21	det:poss	_	_
+20	primeira	primeiro	ADJ	ADJ	_	21	amod	_	_
+21	novela	novela	NOUN	NOUN	_	17	nmod	_	_
+22-23	no	_	_	_	_	_	_	_	_
+22	em	em	ADP	ADP	_	24	case	_	_
+23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	horário	horário	NOUN	NOUN	_	21	nmod	_	_
+25	nobre	nobre	ADJ	ADJ	_	24	amod	_	_
+26-27	da	_	_	_	_	_	_	_	_
+26	de	de	ADP	ADP	_	28	case	_	_
+27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	emissora	_	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	.	_	36	punct	_	_
+30	mas	mas	CCONJ	CONJ	_	36	cc	_	_
+31	a	_	ADP	ADP	_	32	mark	_	_
+32	partir	partir	VERB	VERB	_	36	nmod	_	_
+33	de	_	ADP	ADP	_	34	mark	_	_
+34	agora	agora	ADV	ADV	_	32	nmod	_	_
+35	vai	ir	AUX	AUX	_	36	aux	_	_
+36	ficar	ficar	VERB	VERB	_	3	conj	_	_
+37	bem	bem	ADV	ADV	_	38	advmod	_	_
+38	mais	mais	ADV	ADV	_	39	advmod	_	_
+39	fácil	fácil	ADJ	ADJ	_	36	xcomp	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	3	punct	_	_
+

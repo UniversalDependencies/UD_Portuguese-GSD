@@ -1,0 +1,270 @@
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = "Embora os resultados tenham sido até certo ponto melhores, nós persistimos trabalhando com determinação e foco na recuperação da rentabilidade da companhia, empenhados em melhorar nosso desempenho", disse.
+# sent_id = train-s3987
+1	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+2	Embora	embora	SCONJ	_	_	10	mark	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
+5	tenham	ter	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+6	sido	ser	AUX	_	VerbForm=Part	10	cop	_	_
+7	até	até	ADP	_	_	9	case	_	_
+8	certo	certo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	9	det	_	_
+9	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+10	melhores	bom	ADJ	_	Gender=Masc|Number=Plur	13	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	nós	nós	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
+13	persistimos	persistir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	36	parataxis	_	_
+14	trabalhando	trabalhar	VERB	_	VerbForm=Ger	13	xcomp	_	_
+15	com	com	ADP	_	_	16	case	_	_
+16	determinação	determinação	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	foco	foco	NOUN	_	Gender=Masc|Number=Sing	16	conj	_	_
+19-20	na	_	_	_	_	_	_	_	_
+19	em	em	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	recuperação	recuperação	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+22-23	da	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	rentabilidade	rentabilidade	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+25-26	da	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	companhia	companhia	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	_
+29	empenhados	empenhado	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	16	acl	_	_
+30	em	em	SCONJ	_	_	31	mark	_	_
+31	melhorar	melhorar	VERB	_	VerbForm=Inf	29	xcomp	_	_
+32	nosso	nosso	DET	_	Gender=Masc|Number=Sing|PronType=Prs	33	det	_	_
+33	desempenho	desempenho	NOUN	_	Gender=Masc|Number=Sing	31	obj	_	SpaceAfter=No
+34	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	36	punct	_	_
+36	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	SpaceAfter=No
+
+# sent_id = train-s3988
+# text = A assinatura do acordo, presidida pelos dois líderes, encerrou a segunda rodada de consultas intergovernamentais, da qual participaram sete dos 14 ministros do Gabinete de Merkel.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	assinatura	assinatura	NOUN	NOUN	_	13	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	acordo	acordo	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	.	_	7	punct	_	_
+7	presidida	presidir	VERB	VERB	_	2	acl	_	_
+8-9	pelos	_	_	_	_	_	_	_	_
+8	por	por	ADP	ADP	_	11	case	_	_
+9	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	dois	_	NUM	NUM	NumType=Card	11	nummod	_	_
+11	líderes	líder	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	.	_	7	punct	_	_
+13	encerrou	encerrar	VERB	VERB	_	0	root	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	segunda	segundo	ADJ	ADJ	_	16	amod	_	_
+16	rodada	_	NOUN	NOUN	_	13	obj	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
+18	consultas	consulta	NOUN	NOUN	_	16	nmod	_	_
+19	intergovernamentais	intergovernamental	ADJ	ADJ	_	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	.	_	24	punct	_	_
+21-22	da	_	_	_	_	_	_	_	_
+21	de	de	ADP	ADP	_	23	case	_	_
+22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	qual	_	PRON	PRON	_	24	nmod	_	_
+24	participaram	participar	VERB	VERB	_	16	acl:relcl	_	_
+25	sete	_	NUM	NUM	NumType=Card	29	nummod	_	_
+26-27	dos	_	_	_	_	_	_	_	_
+26	de	de	ADP	ADP	_	28	case	_	_
+27	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	14	14	NUM	NUM	NumType=Card	25	nmod	_	_
+29	ministros	ministro	NOUN	NOUN	_	24	nsubj	_	_
+30-31	do	_	_	_	_	_	_	_	_
+30	de	de	ADP	ADP	_	32	case	_	_
+31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	Gabinete	_	PROPN	PNOUN	_	29	nmod	_	_
+33	de	de	ADP	ADP	_	34	case	_	_
+34	Merkel	_	PROPN	PNOUN	_	32	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = train-s3989
+# text = Mas não houve penetração ", disse.
+1	Mas	_	CCONJ	CONJ	_	3	cc	_	_
+2	não	não	ADV	ADV	Polarity=Neg	3	advmod	_	_
+3	houve	haver	VERB	VERB	_	7	ccomp	_	_
+4	penetração	penetração	NOUN	NOUN	_	3	obj	_	_
+5	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
+6	,	,	PUNCT	.	_	7	punct	_	_
+7	disse	dizer	VERB	VERB	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s3990
+# text = Além disso, tem uma experiência incrível, já atuou em grandes clubes da Europa -- disse.
+1	Além	além	ADV	ADV	_	4	advmod	_	_
+2	disso	_	X	ADPPRON	_	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	.	_	1	punct	_	_
+4	tem	ter	VERB	VERB	_	18	ccomp	_	_
+5	uma	um	DET	DET	_	6	det	_	_
+6	experiência	experiência	NOUN	NOUN	_	4	obj	_	_
+7	incrível	incrível	ADJ	ADJ	_	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	10	punct	_	_
+9	já	já	ADV	ADV	_	10	advmod	_	_
+10	atuou	atuar	VERB	VERB	_	4	conj	_	_
+11	em	em	ADP	ADP	_	13	case	_	_
+12	grandes	grande	ADJ	ADJ	_	13	amod	_	_
+13	clubes	clube	NOUN	NOUN	_	10	nmod	_	_
+14-15	da	_	_	_	_	_	_	_	_
+14	de	de	ADP	ADP	_	16	case	_	_
+15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Europa	_	PROPN	PNOUN	_	13	nmod	_	_
+17	--	_	PUNCT	.	_	18	punct	_	_
+18	disse	dizer	VERB	VERB	_	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = train-s3991
+# text = Após a primeira parcial ficar empatada em 7 a 7, o Brasil abriu uma vantagem decisiva com quatro pontos seguidos no saque de Lucão, que estava numa noite inspirada.
+1	Após	_	ADP	ADP	_	5	mark	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	primeira	primeiro	ADJ	ADJ	_	4	amod	_	_
+4	parcial	_	NOUN	NOUN	_	5	nsubj	_	_
+5	ficar	ficar	VERB	VERB	_	14	advcl	_	_
+6	empatada	empatado	ADJ	ADJ	_	5	xcomp	_	_
+7	em	em	ADP	ADP	_	8	case	_	_
+8	7	7	NUM	NUM	NumType=Card	6	nmod	_	_
+9	a	_	ADP	ADP	_	10	case	_	_
+10	7	7	NUM	NUM	NumType=Card	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	5	punct	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Brasil	_	PROPN	PNOUN	_	14	nsubj	_	_
+14	abriu	abrir	VERB	VERB	_	0	root	_	_
+15	uma	um	DET	DET	_	16	det	_	_
+16	vantagem	vantagem	NOUN	NOUN	_	14	obj	_	_
+17	decisiva	decisivo	ADJ	ADJ	_	16	amod	_	_
+18	com	com	ADP	ADP	_	20	case	_	_
+19	quatro	_	NUM	NUM	NumType=Card	20	nummod	_	_
+20	pontos	ponto	NOUN	NOUN	_	14	nmod	_	_
+21	seguidos	seguido	ADJ	ADJ	_	20	amod	_	_
+22-23	no	_	_	_	_	_	_	_	_
+22	em	em	ADP	ADP	_	24	case	_	_
+23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	saque	saque	NOUN	NOUN	_	14	nmod	_	_
+25	de	de	ADP	ADP	_	26	case	_	_
+26	Lucão	_	PROPN	PNOUN	_	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	.	_	29	punct	_	_
+28	que	_	PRON	PRON	_	29	nsubj	_	_
+29	estava	estar	VERB	VERB	_	26	acl:relcl	_	_
+30	numa	_	ADP	ADP	_	31	case	_	_
+31	noite	noite	NOUN	NOUN	_	29	nmod	_	_
+32	inspirada	inspirado	ADJ	ADJ	_	31	amod	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = train-s3992
+# text = Apenas, caixa dois para despesas de campanhas eleitorais.
+1	Apenas	apenas	ADV	ADV	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	.	_	1	punct	_	_
+3	caixa	caixa	NOUN	NOUN	_	0	root	_	_
+4	dois	_	NUM	NUM	NumType=Card	3	appos	_	_
+5	para	para	ADP	ADP	_	6	case	_	_
+6	despesas	despesa	NOUN	NOUN	_	3	nmod	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
+8	campanhas	campanha	NOUN	NOUN	_	6	nmod	_	_
+9	eleitorais	eleitoral	ADJ	ADJ	_	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s3993
+# text = Ataliva Roca encontra-se a 45 km da capital da província.
+1	Ataliva	_	NOUN	NOUN	_	3	nsubj	_	_
+2	Roca	_	PROPN	PNOUN	_	1	flat	_	_
+3-4	encontra-se	_	_	_	_	_	_	_	_
+3	encontra	encontrar	VERB	VERB	_	0	root	_	_
+4	se	_	PART	PRT	_	3	expl:pv	_	_
+5	a	_	ADP	ADP	_	7	case	_	_
+6	45	45	NUM	NUM	NumType=Card	7	nummod	_	_
+7	km	km	NOUN	NOUN	_	3	nmod	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	ADP	_	10	case	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	capital	capital	NOUN	NOUN	_	7	nmod	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	ADP	_	13	case	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	província	província	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s3994
+# text = Em caso de correção, por Fechamento do Censo.
+1	Em	em	ADP	ADP	_	2	case	_	_
+2	caso	caso	NOUN	NOUN	_	0	root	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
+4	correção	correção	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	.	_	7	punct	_	_
+6	por	por	ADP	ADP	_	7	case	_	_
+7	Fechamento	fechamento	NOUN	NOUN	_	4	nmod	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	ADP	_	10	case	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Censo	censo	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s3995
+# text = O presidente boliviano Evo Morales foi reeleito este domingo como o principal dirigente dos produtores de coca de Chapare (centro), prometendo a descriminalização da folha de coca.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	NOUN	_	7	nsubj:pass	_	_
+3	boliviano	boliviano	ADJ	ADJ	_	2	amod	_	_
+4	Evo	_	PROPN	PNOUN	_	2	appos	_	_
+5	Morales	_	PROPN	PNOUN	_	4	flat	_	_
+6	foi	_	AUX	AUX	_	7	aux:pass	_	_
+7	reeleito	reeleger	VERB	VERB	_	0	root	_	_
+8	este	_	DET	DET	_	9	det	_	_
+9	domingo	_	PROPN	PNOUN	_	7	nmod	_	_
+10	como	como	ADP	ADP	_	13	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	principal	principal	ADJ	ADJ	_	13	amod	_	_
+13	dirigente	dirigente	NOUN	NOUN	_	7	nmod	_	_
+14-15	dos	_	_	_	_	_	_	_	_
+14	de	de	ADP	ADP	_	16	case	_	_
+15	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	produtores	produtor	NOUN	NOUN	_	13	nmod	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
+18	coca	coca	NOUN	NOUN	_	16	nmod	_	_
+19	de	de	ADP	ADP	_	20	case	_	_
+20	Chapare	_	PROPN	PNOUN	_	16	nmod	_	_
+21	(	(	PUNCT	.	_	22	punct	_	SpaceAfter=No
+22	centro	centro	NOUN	NOUN	_	20	appos	_	SpaceAfter=No
+23	)	)	PUNCT	.	_	22	punct	_	SpaceAfter=No
+24	,	,	PUNCT	.	_	25	punct	_	_
+25	prometendo	prometer	VERB	VERB	_	7	acl	_	_
+26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	descriminalização	descriminalização	NOUN	NOUN	_	25	obj	_	_
+28-29	da	_	_	_	_	_	_	_	_
+28	de	de	ADP	ADP	_	30	case	_	_
+29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	folha	folha	NOUN	NOUN	_	27	nmod	_	_
+31	de	de	ADP	ADP	_	32	case	_	_
+32	coca	coca	NOUN	NOUN	_	30	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s3996
+# text = Mas eu acho que existem outras pessoas que [que são] vai votar em coisas como saúde e economia."
+1	Mas	_	CCONJ	CONJ	_	3	cc	_	_
+2	eu	_	PRON	PRON	_	3	nsubj	_	_
+3	acho	achar	VERB	VERB	_	0	root	_	_
+4	que	que	CCONJ	CONJ	_	5	mark	_	_
+5	existem	existir	VERB	VERB	_	3	ccomp	_	_
+6	outras	_	DET	DET	_	7	det	_	_
+7	pessoas	pessoa	NOUN	NOUN	_	5	nsubj	_	_
+8	que	_	PRON	PRON	_	14	nsubj	_	_
+9	[	_	PUNCT	.	_	11	punct	_	SpaceAfter=No
+10	que	_	PRON	PRON	_	11	nsubj	_	_
+11	são	ser	VERB	VERB	_	14	dep	_	SpaceAfter=No
+12	]	_	PUNCT	.	_	11	punct	_	_
+13	vai	ir	AUX	AUX	_	14	aux	_	_
+14	votar	votar	VERB	VERB	_	7	acl:relcl	_	_
+15	em	em	ADP	ADP	_	16	case	_	_
+16	coisas	coisa	NOUN	NOUN	_	14	nmod	_	_
+17	como	como	ADP	ADP	_	18	case	_	_
+18	saúde	saúde	NOUN	NOUN	_	16	nmod	_	_
+19	e	e	CCONJ	CONJ	_	20	cc	_	_
+20	economia	economia	NOUN	NOUN	_	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+22	"	"	PUNCT	.	_	3	punct	_	_
+

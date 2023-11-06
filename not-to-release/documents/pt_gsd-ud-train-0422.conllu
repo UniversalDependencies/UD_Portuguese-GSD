@@ -1,0 +1,310 @@
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Disse também que Ivair entrou no campo nos minutos finais da primeira etapa para ir ao vestiário e que a presença dele não foi o motivo que o levou a encerrar a partida.
+# sent_id = train-s4187
+1	Disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	também	também	ADV	_	_	1	advmod	_	_
+3	que	que	SCONJ	_	_	5	mark	_	_
+4	Ivair	Ivair	PROPN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+5	entrou	entrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	ccomp	_	_
+6-7	no	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	campo	campo	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+9-10	nos	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	minutos	minuto	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	_
+12	finais	final	ADJ	_	Gender=Masc|Number=Plur	11	amod	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	16	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	16	amod	_	_
+16	etapa	etapa	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+17	para	para	SCONJ	_	_	18	mark	_	_
+18	ir	ir	VERB	_	VerbForm=Inf	5	advcl	_	_
+19-20	ao	_	_	_	_	_	_	_	_
+19	a	a	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	vestiário	vestiário	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+22	e	e	CCONJ	_	_	31	cc	_	_
+23	que	que	SCONJ	_	_	31	mark	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	presença	presença	NOUN	_	Gender=Fem|Number=Sing	31	nsubj	_	_
+26-27	dele	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	ele	ele	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nmod	_	_
+28	não	não	ADV	_	Polarity=Neg	31	advmod	_	_
+29	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	cop	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	motivo	motivo	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	_
+32	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	34	nsubj	_	_
+33	o	ele	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	obj	_	_
+34	levou	levar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	acl:relcl	_	_
+35	a	a	SCONJ	_	_	36	mark	_	_
+36	encerrar	encerrar	VERB	_	VerbForm=Inf	34	xcomp	_	_
+37	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	partida	partida	NOUN	_	Gender=Fem|Number=Sing	36	obj	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = O Corinthians realizou nesta segunda - feira o seu último treinamento antes da viagem para Buenos Aires, onde vai enfrentar o Boca Juniors, quarta, no jogo de ida da decisão da Libertadores.
+# sent_id = train-s4188
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Corinthians	Corinthians	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	realizou	realizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4-5	nesta	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	segunda	segunda	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	3	obl	_	_
+7	-	-	PUNCT	_	_	8	punct	_	_
+8	feira	feira	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+10	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	12	det	_	_
+11	último	último	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	12	amod	_	_
+12	treinamento	treinamento	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+13	antes	antes	ADV	_	_	3	advmod	_	_
+14-15	da	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	viagem	viagem	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+17	para	para	ADP	_	_	18	case	_	_
+18	Buenos	Buenos	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	16	nmod	_	_
+19	Aires	Aires	PROPN	_	Number=Sing	18	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	23	punct	_	_
+21	onde	onde	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	23	obl	_	_
+22	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	enfrentar	enfrentar	VERB	_	VerbForm=Inf	18	acl:relcl	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Boca	Boca	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	23	obj	_	_
+26	Juniors	Juniors	PROPN	_	Number=Sing	25	flat:name	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	28	punct	_	_
+28	quarta	quarto	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	25	amod	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30-31	no	_	_	_	_	_	_	_	_
+30	em	em	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	jogo	jogo	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	ida	ida	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	_
+35-36	da	_	_	_	_	_	_	_	_
+35	de	de	ADP	_	_	37	case	_	_
+36	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	_
+38-39	da	_	_	_	_	_	_	_	_
+38	de	de	ADP	_	_	40	case	_	_
+39	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	Libertadores	Libertadores	PROPN	_	Gender=Fem|Number=Sing	37	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+
+# sent_id = train-s4189
+# text = Foram ouvidos 4 mil eleitores na cidade.
+1	Foram	_	AUX	AUX	_	2	aux:pass	_	_
+2	ouvidos	ouvir	VERB	VERB	_	0	root	_	_
+3	4	4	NUM	NUM	NumType=Card	4	nummod	_	_
+4	mil	_	NUM	NUM	NumType=Card	5	nummod	_	_
+5	eleitores	eleitor	NOUN	NOUN	_	2	nsubj:pass	_	_
+6-7	na	_	_	_	_	_	_	_	_
+6	em	em	ADP	ADP	_	8	case	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	cidade	cidade	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s4190
+# text = Carlos Godinho, segundo Thomaz Bastos, estaria ressentido com sua demissão da instituição e teria sido a única testemunha a mencionar o nome do ex - diretor.
+1	Carlos	_	PROPN	PNOUN	_	8	nsubj	_	_
+2	Godinho	_	PROPN	PNOUN	_	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	.	_	5	punct	_	_
+4	segundo	_	ADP	ADP	_	5	case	_	_
+5	Thomaz	_	PROPN	PNOUN	_	8	nmod	_	_
+6	Bastos	_	PROPN	PNOUN	_	5	flat	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	5	punct	_	_
+8	estaria	estar	VERB	VERB	_	0	root	_	_
+9	ressentido	ressentido	ADJ	ADJ	_	8	xcomp	_	_
+10	com	com	ADP	ADP	_	12	case	_	_
+11	sua	_	DET	DET	_	12	det:poss	_	_
+12	demissão	demissão	NOUN	NOUN	_	9	nmod	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	instituição	instituição	NOUN	NOUN	_	12	nmod	_	_
+16	e	e	CCONJ	CONJ	_	21	cc	_	_
+17	teria	ter	AUX	AUX	_	21	aux	_	_
+18	sido	ser	AUX	AUX	_	21	cop	_	_
+19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	única	único	ADJ	ADJ	_	21	amod	_	_
+21	testemunha	testemunha	NOUN	NOUN	_	8	conj	_	_
+22	a	_	ADP	ADP	_	23	mark	_	_
+23	mencionar	mencionar	VERB	VERB	_	21	acl:inf	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	nome	nome	NOUN	NOUN	_	23	obj	_	_
+26-27	do	_	_	_	_	_	_	_	_
+26	de	de	ADP	ADP	_	28	case	_	_
+27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	ex	_	PART	PRT	_	25	nmod	_	_
+29	-	-	PUNCT	.	_	28	punct	_	_
+30	diretor	diretor	NOUN	NOUN	_	28	flat	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s4191
+# text = Para saber qual é o tipo de lubrificante ideal para a sua moto e o prazo de troca, deve-se consultar o manual do proprietário.
+1	Para	_	ADP	ADP	_	2	mark	_	_
+2	saber	saber	VERB	VERB	_	22	advcl	_	_
+3	qual	_	PRON	PRON	_	2	ccomp	_	_
+4	é	ser	AUX	AUX	_	3	cop	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	tipo	tipo	NOUN	NOUN	_	3	nsubj	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
+8	lubrificante	lubrificante	NOUN	NOUN	_	6	nmod	_	_
+9	ideal	ideal	ADJ	ADJ	_	6	amod	_	_
+10	para	para	ADP	ADP	_	13	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	sua	_	DET	DET	_	13	det:poss	_	_
+13	moto	moto	NOUN	NOUN	_	9	nmod	_	_
+14	e	e	CCONJ	CONJ	_	16	cc	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	prazo	prazo	NOUN	NOUN	_	6	conj	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
+18	troca	_	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	.	_	2	punct	_	_
+20-21	deve-se	_	_	_	_	_	_	_	_
+20	deve	dever	AUX	AUX	_	22	aux	_	_
+21	se	_	PRON	PRON	_	22	expl:pv	_	_
+22	consultar	consultar	VERB	VERB	_	0	root	_	_
+23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	manual	manual	NOUN	NOUN	_	22	nsubj	_	_
+25-26	do	_	_	_	_	_	_	_	_
+25	de	de	ADP	ADP	_	27	case	_	_
+26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	proprietário	proprietário	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	22	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Mas no geral a minha ausência foi mais pelas lesões e não pude dar continuidade, não pude voltar a fazer aquilo que estava acostumado que era jogar bem e fazer gols ", completou.
+# sent_id = train-s4192
+1	Mas	mas	CCONJ	_	_	8	cc	_	_
+2-3	no	_	_	_	_	_	_	_	_
+2	em	em	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	geral	geral	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	minha	meu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	7	det	_	_
+7	ausência	ausência	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+8	foi	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	37	parataxis	_	_
+9	mais	mais	ADV	_	_	12	advmod	_	_
+10-11	pelas	_	_	_	_	_	_	_	_
+10	por	por	ADP	_	_	12	case	_	_
+11	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	lesões	lesão	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
+13	e	e	CCONJ	_	_	15	cc	_	_
+14	não	não	ADV	_	Polarity=Neg	15	advmod	_	_
+15	pude	pudir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	conj	_	_
+16	dar	dar	VERB	_	VerbForm=Inf	15	xcomp	_	_
+17	continuidade	continuidade	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	não	não	ADV	_	Polarity=Neg	20	advmod	_	_
+20	pude	pudir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	conj	_	_
+21	voltar	voltar	VERB	_	ExtPos=AUX|VerbForm=Inf	20	xcomp	_	_
+22	a	a	SCONJ	_	_	23	mark	_	_
+23	fazer	fazer	VERB	_	VerbForm=Inf	21	xcomp	_	_
+24	aquilo	aquilo	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	23	obj	_	_
+25	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	27	nsubj	_	_
+26	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	cop	_	_
+27	acostumado	acostumado	ADJ	_	Gender=Masc|Number=Sing	24	acl:relcl	_	_
+28	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	30	nsubj	_	_
+29	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	cop	_	_
+30	jogar	jogar	VERB	_	VerbForm=Inf	24	acl:relcl	_	_
+31	bem	bem	ADV	_	_	30	advmod	_	_
+32	e	e	CCONJ	_	_	33	cc	_	_
+33	fazer	fazer	VERB	_	VerbForm=Inf	30	conj	_	_
+34	gols	gol	NOUN	_	Gender=Masc|Number=Plur	33	obj	_	_
+35	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	37	punct	_	_
+37	completou	completar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	SpaceAfter=No
+
+# sent_id = train-s4193
+# text = Entretanto, não deu tempo para as comemorações visitantes nem para as lamentações mineiras.
+1	Entretanto	entretanto	ADV	ADV	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	.	_	1	punct	_	_
+3	não	não	ADV	ADV	Polarity=Neg	4	advmod	_	_
+4	deu	dar	VERB	VERB	_	0	root	_	_
+5	tempo	tempo	NOUN	NOUN	_	4	obj	_	_
+6	para	para	ADP	ADP	_	8	case	_	_
+7	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	comemorações	comemoração	NOUN	NOUN	_	5	nmod	_	_
+9	visitantes	visitante	ADJ	ADJ	_	8	amod	_	_
+10	nem	_	CCONJ	CONJ	_	13	cc	_	_
+11	para	para	ADP	ADP	_	13	case	_	_
+12	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	lamentações	lamentação	NOUN	NOUN	_	8	conj	_	_
+14	mineiras	mineiro	ADJ	ADJ	_	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s4194
+# text = Seu pai foi preso;
+1	Seu	_	DET	DET	_	2	det:poss	_	_
+2	pai	pai	NOUN	NOUN	_	4	nsubj:pass	_	_
+3	foi	_	AUX	AUX	_	4	aux:pass	_	_
+4	preso	_	VERB	VERB	_	0	root	_	SpaceAfter=No
+5	;	_	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s4195
+# text = Os indivíduos do sexo masculino constituem 52 % da população e os do sexo feminino 48 %.
+1	Os	o	DET	DET	_	2	det	_	_
+2	indivíduos	indivíduo	NOUN	NOUN	_	7	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	sexo	sexo	NOUN	NOUN	_	2	nmod	_	_
+6	masculino	masculino	ADJ	ADJ	_	5	amod	_	_
+7	constituem	constituir	VERB	VERB	_	0	root	_	_
+8	52	52	NUM	NUM	NumType=Card	9	nummod	_	_
+9	%	_	SYM	SYM	_	7	obj	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	ADP	_	12	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	população	população	NOUN	NOUN	_	9	nmod	_	_
+13	e	e	CCONJ	CONJ	_	14	cc	_	_
+14	os	_	PRON	PRON	_	7	conj	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	sexo	sexo	NOUN	NOUN	_	14	nmod	_	_
+18	feminino	feminino	ADJ	ADJ	_	17	amod	_	_
+19	48	48	NUM	NUM	NumType=Card	20	nummod	_	_
+20	%	_	SYM	SYM	_	14	appos	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s4196
+# text = Entregue ao departamento médico do clube, o atleta não sabe se terá condições de entrar em campo no sábado.
+1	Entregue	entregar	VERB	VERB	_	11	acl	_	_
+2-3	ao	_	_	_	_	_	_	_	_
+2	a	a	ADP	ADP	_	4	case	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	departamento	departamento	NOUN	NOUN	_	1	nmod	_	_
+5	médico	médico	ADJ	ADJ	_	4	amod	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	clube	clube	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	1	punct	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	atleta	atleta	NOUN	NOUN	_	13	nsubj	_	_
+12	não	não	ADV	ADV	Polarity=Neg	13	advmod	_	_
+13	sabe	saber	VERB	VERB	_	0	root	_	_
+14	se	_	CCONJ	CONJ	_	15	mark	_	_
+15	terá	ter	VERB	VERB	_	13	ccomp	_	_
+16	condições	condição	NOUN	NOUN	_	15	obj	_	_
+17	de	_	ADP	ADP	_	18	mark	_	_
+18	entrar	entrar	VERB	VERB	_	16	nmod	_	_
+19	em	em	ADP	ADP	_	20	case	_	_
+20	campo	campo	NOUN	NOUN	_	18	nmod	_	_
+21-22	no	_	_	_	_	_	_	_	_
+21	em	em	ADP	ADP	_	23	case	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	sábado	_	PROPN	PNOUN	_	18	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	13	punct	_	_
+

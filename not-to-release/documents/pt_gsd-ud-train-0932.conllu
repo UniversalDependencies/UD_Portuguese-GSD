@@ -1,0 +1,308 @@
+# sent_id = train-s9247
+# text = Como mesmo aterrorizada mantém seu poder de aterrorizar, isso derivaria não tanto da monstruosidade que a distancia dos homens e sim da proximidade com eles, por mostrar o pavor da morte, comum a todos os mortais.
+1	Como	_	ADP	ADP	_	4	mark	_	_
+2	mesmo	mesmo	ADV	ADV	_	3	advmod	_	_
+3	aterrorizada	aterrorizado	ADJ	ADJ	_	4	amod	_	_
+4	mantém	manter	VERB	VERB	_	11	advcl	_	_
+5	seu	_	DET	DET	_	6	det:poss	_	_
+6	poder	poder	NOUN	NOUN	_	4	obj	_	_
+7	de	_	ADP	ADP	_	8	mark	_	_
+8	aterrorizar	aterrorizar	VERB	VERB	_	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	6	punct	_	_
+10	isso	_	PRON	PRON	_	11	nsubj	_	_
+11	derivaria	derivar	VERB	VERB	_	0	root	_	_
+12	não	não	ADV	ADV	Polarity=Neg	11	advmod	_	_
+13	tanto	tanto	ADV	ADV	_	11	advmod	_	_
+14-15	da	_	_	_	_	_	_	_	_
+14	de	de	ADP	ADP	_	16	case	_	_
+15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	monstruosidade	monstruosidade	NOUN	NOUN	_	11	nmod	_	_
+17	que	_	PRON	PRON	_	19	nsubj	_	_
+18	a	_	PRON	PRON	_	19	obj	_	_
+19	distancia	distanciar	VERB	VERB	_	16	acl:relcl	_	_
+20-21	dos	_	_	_	_	_	_	_	_
+20	de	de	ADP	ADP	_	22	case	_	_
+21	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	homens	homem	NOUN	NOUN	_	19	nmod	_	_
+23	e	e	CCONJ	CONJ	_	11	cc	_	_
+24	sim	sim	ADV	ADV	_	11	advmod	_	_
+25-26	da	_	_	_	_	_	_	_	_
+25	de	de	ADP	ADP	_	27	case	_	_
+26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	proximidade	proximidade	NOUN	NOUN	_	11	nmod	_	_
+28	com	com	ADP	ADP	_	29	case	_	_
+29	eles	_	PRON	PRON	_	27	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	.	_	32	punct	_	_
+31	por	_	ADP	ADP	_	32	mark	_	_
+32	mostrar	mostrar	VERB	VERB	_	11	advcl	_	_
+33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	pavor	pavor	NOUN	NOUN	_	32	obj	_	_
+35-36	da	_	_	_	_	_	_	_	_
+35	de	de	ADP	ADP	_	37	case	_	_
+36	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	morte	morte	NOUN	NOUN	_	34	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	.	_	39	punct	_	_
+39	comum	comum	ADJ	ADJ	_	34	amod	_	_
+40	a	_	ADP	ADP	_	43	case	_	_
+41	todos	_	DET	DET	_	43	det	_	_
+42	os	o	DET	DET	_	43	det	_	_
+43	mortais	_	NOUN	NOUN	_	39	nmod	_	SpaceAfter=No
+44	.	.	PUNCT	.	_	11	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Seja uma raquete de tênis ou uma bicicleta.
+# sent_id = train-s9248
+1	Seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	raquete	raquete	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	tênis	tênis	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+6	ou	ou	CCONJ	_	_	8	cc	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	bicicleta	bicicleta	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+
+# sent_id = train-s9249
+# text = Já o trigo sofreu elevação de 11,8 % em setembro por reflexo duma quebra de safra na Rússia.
+1	Já	já	ADV	ADV	_	4	advmod	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	trigo	trigo	NOUN	NOUN	_	4	nsubj	_	_
+4	sofreu	sofrer	VERB	VERB	_	0	root	_	_
+5	elevação	elevação	NOUN	NOUN	_	4	obj	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	11,8	11,8	NUM	NUM	NumType=Card	8	nummod	_	_
+8	%	_	SYM	SYM	_	5	nmod	_	_
+9	em	em	ADP	ADP	_	10	case	_	_
+10	setembro	_	PROPN	PNOUN	_	5	nmod	_	_
+11	por	por	ADP	ADP	_	12	case	_	_
+12	reflexo	reflexo	NOUN	NOUN	_	4	nmod	_	_
+13-14	duma	_	_	_	_	_	_	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
+14	uma	um	DET	DET	_	15	det	_	_
+15	quebra	quebra	NOUN	NOUN	_	12	nmod	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
+17	safra	safra	NOUN	NOUN	_	15	nmod	_	_
+18-19	na	_	_	_	_	_	_	_	_
+18	em	em	ADP	ADP	_	20	case	_	_
+19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Rússia	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s9250
+# text = Duas viaturas do batalhão, com seis policiais, estão realizando a segurança no local, fazendo rondas e dando todo o apoio necessário.
+1	Duas	_	NUM	NUM	NumType=Card	2	nummod	_	_
+2	viaturas	viatura	NOUN	NOUN	_	12	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	batalhão	batalhão	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	.	_	9	punct	_	_
+7	com	com	ADP	ADP	_	9	case	_	_
+8	seis	_	NUM	NUM	NumType=Card	9	nummod	_	_
+9	policiais	policial	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	9	punct	_	_
+11	estão	estar	AUX	AUX	_	12	aux	_	_
+12	realizando	realizar	VERB	VERB	_	0	root	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	segurança	segurança	NOUN	NOUN	_	12	obj	_	_
+15-16	no	_	_	_	_	_	_	_	_
+15	em	em	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	local	local	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	.	_	19	punct	_	_
+19	fazendo	fazer	VERB	VERB	_	12	acl	_	_
+20	rondas	ronda	NOUN	NOUN	_	19	obj	_	_
+21	e	e	CCONJ	CONJ	_	22	cc	_	_
+22	dando	dar	VERB	VERB	_	19	conj	_	_
+23	todo	_	DET	DET	_	25	det	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	apoio	apoio	NOUN	NOUN	_	22	obj	_	_
+26	necessário	necessário	ADJ	ADJ	_	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = train-s9251
+# text = Tem muito chão pela frente.
+1	Tem	ter	VERB	VERB	_	0	root	_	_
+2	muito	_	DET	DET	_	3	det	_	_
+3	chão	chão	NOUN	NOUN	_	1	obj	_	_
+4-5	pela	_	_	_	_	_	_	_	_
+4	por	por	ADP	ADP	_	6	case	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	frente	frente	NOUN	NOUN	_	1	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Era o fim da ditadura militar com a abertura democrática, a campanha Diretas Já, a eleição indireta de Tancredo Neves e sua morte, a posse de José Sarney e o Plano Cruzado.
+# sent_id = train-s9252
+1	Era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	fim	fim	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	ditadura	ditadura	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+7	militar	militar	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+8	com	com	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	abertura	abertura	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+11	democrática	democrático	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	_
+15	Diretas	Diretas	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+16	Já	já	ADV	_	_	14	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	eleição	eleição	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	_
+20	indireta	indireto	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	Tancredo	Tancredo	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	19	nmod	_	_
+23	Neves	Neves	PROPN	_	Number=Sing	22	flat:name	_	_
+24	e	e	CCONJ	_	_	26	cc	_	_
+25	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	26	det	_	_
+26	morte	morte	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	29	punct	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	posse	posse	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	José	José	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	29	nmod	_	_
+32	Sarney	Sarney	PROPN	_	Number=Sing	31	flat:name	_	_
+33	e	e	CCONJ	_	_	35	cc	_	_
+34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	Plano	Plano	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	10	conj	_	_
+36	Cruzado	Cruzado	PROPN	_	Number=Sing	35	flat:name	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+
+# sent_id = train-s9253
+# text = O Nuci (Nível de Utilização da Capacidade Instalada) da indústria cresceu de 83,7 % para 84,0 % na passagem de julho para o mês de agosto, na série com ajuste sazonal.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Nuci	_	PROPN	PNOUN	_	15	nsubj	_	_
+3	(	(	PUNCT	.	_	4	punct	_	SpaceAfter=No
+4	Nível	_	PROPN	PNOUN	_	2	appos	_	_
+5	de	de	ADP	ADP	_	6	case	_	_
+6	Utilização	_	PROPN	PNOUN	_	4	nmod	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
+8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Capacidade	_	PROPN	PNOUN	_	6	nmod	_	_
+10	Instalada	_	PROPN	PNOUN	_	9	amod	_	SpaceAfter=No
+11	)	)	PUNCT	.	_	4	punct	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	ADP	_	14	case	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	indústria	indústria	NOUN	NOUN	_	2	nmod	_	_
+15	cresceu	crescer	VERB	VERB	_	0	root	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
+17	83,7	83,7	NUM	NUM	NumType=Card	18	nummod	_	_
+18	%	_	SYM	SYM	_	15	nmod	_	_
+19	para	para	ADP	ADP	_	21	case	_	_
+20	84,0	84,0	NUM	NUM	NumType=Card	21	nummod	_	_
+21	%	_	SYM	SYM	_	15	nmod	_	_
+22-23	na	_	_	_	_	_	_	_	_
+22	em	em	ADP	ADP	_	24	case	_	_
+23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	passagem	passagem	NOUN	NOUN	_	15	nmod	_	_
+25	de	de	ADP	ADP	_	26	case	_	_
+26	julho	_	PROPN	PNOUN	_	24	nmod	_	_
+27	para	para	ADP	ADP	_	29	case	_	_
+28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	mês	mês	NOUN	NOUN	_	24	nmod	_	_
+30	de	de	ADP	ADP	_	31	case	_	_
+31	agosto	_	PROPN	PNOUN	_	29	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	.	_	35	punct	_	_
+33-34	na	_	_	_	_	_	_	_	_
+33	em	em	ADP	ADP	_	35	case	_	_
+34	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	série	série	NOUN	NOUN	_	15	nmod	_	_
+36	com	com	ADP	ADP	_	37	case	_	_
+37	ajuste	ajustar	VERB	VERB	_	35	nmod	_	_
+38	sazonal	sazonal	ADJ	ADJ	_	37	amod	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = train-s9254
+# text = Sacado da Volta da França por sua equipe, a RadioShack, o ciclista de 32 anos exige o direito de realizar a chamada contraprova.
+1	Sacado	sacar	VERB	VERB	_	16	acl	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	ADP	_	4	case	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Volta	_	PROPN	PNOUN	_	1	nmod	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	ADP	_	7	case	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	França	_	PROPN	PNOUN	_	4	nmod	_	_
+8	por	por	ADP	ADP	_	10	case	_	_
+9	sua	_	DET	DET	_	10	det:poss	_	_
+10	equipe	equipe	NOUN	NOUN	_	1	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	13	punct	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	RadioShack	_	PROPN	PNOUN	_	10	appos	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	13	punct	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	ciclista	ciclista	NOUN	NOUN	_	20	nsubj	_	_
+17	de	de	ADP	ADP	_	19	case	_	_
+18	32	32	NUM	NUM	NumType=Card	19	nummod	_	_
+19	anos	ano	NOUN	NOUN	_	16	nmod	_	_
+20	exige	exigir	VERB	VERB	_	0	root	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	direito	direito	NOUN	NOUN	_	20	obj	_	_
+23	de	_	ADP	ADP	_	24	mark	_	_
+24	realizar	realizar	VERB	VERB	_	22	nmod	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	chamada	chamado	ADJ	ADJ	_	27	amod	_	_
+27	contraprova	contraprova	NOUN	NOUN	_	24	obj	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	20	punct	_	_
+
+# sent_id = train-s9255
+# text = º Salão Latino - Americano de Veículos Elétricos e Componentes será realizado pela MES Eventos, com promoção e organização da Mastran Business Fairs e o apoio da Associação Brasileira de Veículos Elétricos e da Prefeitura Municipal de São Paulo.
+1	º	_	PUNCT	.	_	2	punct	_	_
+2	Salão	_	PROPN	PNOUN	_	12	nsubj:pass	_	_
+3	Latino	_	PROPN	PNOUN	_	5	amod	_	_
+4	-	-	PUNCT	.	_	5	punct	_	_
+5	Americano	_	PROPN	PNOUN	_	2	amod	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
+7	Veículos	_	PROPN	PNOUN	_	2	nmod	_	_
+8	Elétricos	_	PROPN	PNOUN	_	7	amod	_	_
+9	e	e	CCONJ	CONJ	_	10	cc	_	_
+10	Componentes	_	PROPN	PNOUN	_	7	conj	_	_
+11	será	ser	AUX	AUX	_	12	aux:pass	_	_
+12	realizado	realizar	VERB	VERB	_	0	root	_	_
+13-14	pela	_	_	_	_	_	_	_	_
+13	por	por	ADP	ADP	_	15	case	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	MES	_	PROPN	PNOUN	_	12	nmod	_	_
+16	Eventos	_	PROPN	PNOUN	_	15	flat	_	SpaceAfter=No
+17	,	,	PUNCT	.	_	19	punct	_	_
+18	com	com	ADP	ADP	_	19	case	_	_
+19	promoção	promoção	NOUN	NOUN	_	12	nmod	_	_
+20	e	e	CCONJ	CONJ	_	21	cc	_	_
+21	organização	organização	NOUN	NOUN	_	19	conj	_	_
+22-23	da	_	_	_	_	_	_	_	_
+22	de	de	ADP	ADP	_	24	case	_	_
+23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Mastran	_	PROPN	PNOUN	_	19	nmod	_	_
+25	Business	_	PROPN	PNOUN	_	24	flat	_	_
+26	Fairs	_	PROPN	PNOUN	_	24	flat	_	_
+27	e	e	CCONJ	CONJ	_	29	cc	_	_
+28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	apoio	apoio	NOUN	NOUN	_	19	conj	_	_
+30-31	da	_	_	_	_	_	_	_	_
+30	de	de	ADP	ADP	_	32	case	_	_
+31	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	Associação	_	PROPN	PNOUN	_	29	nmod	_	_
+33	Brasileira	_	PROPN	PNOUN	_	32	amod	_	_
+34	de	de	ADP	ADP	_	35	case	_	_
+35	Veículos	_	PROPN	PNOUN	_	32	nmod	_	_
+36	Elétricos	_	PROPN	PNOUN	_	35	amod	_	_
+37	e	e	CCONJ	CONJ	_	40	cc	_	_
+38-39	da	_	_	_	_	_	_	_	_
+38	de	de	ADP	ADP	_	40	case	_	_
+39	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	Prefeitura	_	PROPN	PNOUN	_	32	conj	_	_
+41	Municipal	_	PROPN	PNOUN	_	40	amod	_	_
+42	de	de	ADP	ADP	_	43	case	_	_
+43	São	_	PROPN	PNOUN	_	40	nmod	_	_
+44	Paulo	_	PROPN	PNOUN	_	43	flat	_	SpaceAfter=No
+45	.	.	PUNCT	.	_	12	punct	_	_
+

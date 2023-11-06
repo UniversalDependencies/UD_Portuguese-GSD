@@ -1,0 +1,275 @@
+# sent_id = train-s3887
+# text = A expectativa agora é iniciar uma série positiva de resultados, não só na competição espanhola, como também na Euroleague, que começa nesta semana ", analisou Huertas
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	expectativa	expectativa	NOUN	NOUN	_	31	ccomp	_	_
+3	agora	agora	ADV	ADV	_	2	advmod	_	_
+4	é	ser	AUX	AUX	_	2	cop	_	_
+5	iniciar	iniciar	VERB	VERB	_	2	csubj	_	_
+6	uma	um	DET	DET	_	7	det	_	_
+7	série	série	NOUN	NOUN	_	5	obj	_	_
+8	positiva	positivo	ADJ	ADJ	_	7	amod	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
+10	resultados	resultado	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	5	punct	_	_
+12	não	não	ADV	ADV	Polarity=Neg	5	advmod	_	_
+13	só	só	ADV	ADV	_	5	advmod	_	_
+14-15	na	_	_	_	_	_	_	_	_
+14	em	em	ADP	ADP	_	16	case	_	_
+15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	competição	competição	NOUN	NOUN	_	5	nmod	_	_
+17	espanhola	espanhol	ADJ	ADJ	_	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	.	_	23	punct	_	_
+19	como	_	CCONJ	CONJ	_	23	cc	_	_
+20	também	também	ADV	ADV	_	23	advmod	_	_
+21-22	na	_	_	_	_	_	_	_	_
+21	em	em	ADP	ADP	_	23	case	_	_
+22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Euroleague	_	PROPN	PNOUN	_	16	conj	_	SpaceAfter=No
+24	,	,	PUNCT	.	_	26	punct	_	_
+25	que	_	PRON	PRON	_	26	nsubj	_	_
+26	começa	_	VERB	VERB	_	23	acl:relcl	_	_
+27	nesta	_	ADP	ADP	_	28	case	_	_
+28	semana	semana	NOUN	NOUN	_	26	nmod	_	_
+29	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
+30	,	,	PUNCT	.	_	31	punct	_	_
+31	analisou	analisar	VERB	VERB	_	0	root	_	_
+32	Huertas	_	PROPN	PNOUN	_	31	nsubj	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Mas já estão começando a usar celular.
+# sent_id = train-s3888
+1	Mas	mas	CCONJ	_	_	4	cc	_	_
+2	já	já	ADV	_	_	4	advmod	_	_
+3	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	começando	começar	VERB	_	VerbForm=Ger	0	root	_	_
+5	a	a	SCONJ	_	_	6	mark	_	_
+6	usar	usar	VERB	_	VerbForm=Inf	4	xcomp	_	_
+7	celular	celular	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+
+# sent_id = train-s3889
+# text = Os medicamentos biológicos, usados no tratamento de doenças como câncer e artrite reumatoide, podem demorar mais dum ano para terem a comercialização liberada pela Anvisa.
+1	Os	o	DET	DET	_	2	det	_	_
+2	medicamentos	medicamento	NOUN	NOUN	_	18	nsubj	_	_
+3	biológicos	biológico	ADJ	ADJ	_	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	5	punct	_	_
+5	usados	usar	VERB	VERB	_	2	acl	_	_
+6-7	no	_	_	_	_	_	_	_	_
+6	em	em	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	tratamento	tratamento	NOUN	NOUN	_	5	nmod	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
+10	doenças	doença	NOUN	NOUN	_	8	nmod	_	_
+11	como	como	ADP	ADP	_	12	case	_	_
+12	câncer	câncer	NOUN	NOUN	_	10	nmod	_	_
+13	e	e	CCONJ	CONJ	_	14	cc	_	_
+14	artrite	artrite	NOUN	NOUN	_	12	conj	_	_
+15	reumatoide	reumatoide	ADJ	ADJ	_	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	.	_	5	punct	_	_
+17	podem	_	AUX	AUX	_	18	aux	_	_
+18	demorar	demorar	VERB	VERB	_	0	root	_	_
+19	mais	mais	ADV	ADV	_	21	advmod	_	_
+20-21	dum	_	_	_	_	_	_	_	_
+20	de	de	ADP	ADP	_	19	case	_	_
+21	um	_	NUM	NUM	NumType=Card	22	nummod	_	_
+22	ano	ano	NOUN	NOUN	_	18	nmod	_	_
+23	para	_	ADP	ADP	_	24	mark	_	_
+24	terem	ter	VERB	VERB	_	18	nmod	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	comercialização	comercialização	NOUN	NOUN	_	24	obj	_	_
+27	liberada	liberar	VERB	VERB	_	24	acl	_	_
+28-29	pela	_	_	_	_	_	_	_	_
+28	por	por	ADP	ADP	_	30	case	_	_
+29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	Anvisa	_	PROPN	PNOUN	_	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = train-s3890
+# text = Isso é suficiente?
+1	Isso	_	PRON	PRON	_	2	nsubj	_	_
+2	é	ser	VERB	VERB	_	0	root	_	_
+3	suficiente	suficiente	ADJ	ADJ	_	2	xcomp	_	SpaceAfter=No
+4	?	?	PUNCT	.	_	2	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = A Nikon vai continuar atendendo às exigências e expectativas profissionais, com os mais avançados recursos fotográficos e formas de expressão, lançando lentes de alto desempenho para ampliar e fortalecer a linha NIKKOR.
+# sent_id = train-s3891
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Nikon	Nikon	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	continuar	continuar	VERB	_	VerbForm=Inf	0	root	_	_
+5	atendendo	atender	VERB	_	VerbForm=Ger	4	xcomp	_	_
+6-7	às	_	_	_	_	_	_	_	_
+6	a	a	ADP	_	_	8	case	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	exigências	exigência	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	expectativas	expectativa	NOUN	_	Gender=Fem|Number=Plur	8	conj	_	_
+11	profissionais	profissional	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	17	punct	_	_
+13	com	com	ADP	_	_	17	case	_	_
+14	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+15	mais	mais	ADV	_	_	16	advmod	_	_
+16	avançados	avançado	ADJ	_	Gender=Masc|Number=Plur	17	acl	_	_
+17	recursos	recurso	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+18	fotográficos	fotográfico	ADJ	_	Gender=Masc|Number=Plur	17	amod	_	_
+19	e	e	CCONJ	_	_	20	cc	_	_
+20	formas	forma	NOUN	_	Gender=Fem|Number=Plur	17	conj	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	expressão	expressão	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	lançando	lançar	VERB	_	VerbForm=Ger	5	advcl	_	_
+25	lentes	lente	NOUN	_	Gender=Fem|Number=Plur	24	obj	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	alto	alto	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	_
+28	desempenho	desempenho	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
+29	para	para	SCONJ	_	_	30	mark	_	_
+30	ampliar	ampliar	VERB	_	VerbForm=Inf	24	advcl	_	_
+31	e	e	CCONJ	_	_	32	cc	_	_
+32	fortalecer	fortalecer	VERB	_	VerbForm=Inf	30	conj	_	_
+33	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	linha	linha	NOUN	_	Gender=Fem|Number=Sing	30	obj	_	_
+35	NIKKOR	NIKKOR	PROPN	_	Gender=Fem|Number=Sing	34	appos	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+
+# sent_id = train-s3892
+# text = Haddad disse que colocou os dois coordenadores de sua campanha, Antonio Donato e Chico Macena, para tratar do assunto, mas a decisão final será tomada por ele.
+1	Haddad	_	PROPN	PNOUN	_	2	nsubj	_	_
+2	disse	dizer	VERB	VERB	_	0	root	_	_
+3	que	que	CCONJ	CONJ	_	4	mark	_	_
+4	colocou	colocar	VERB	VERB	_	2	ccomp	_	_
+5	os	o	DET	DET	_	7	det	_	_
+6	dois	_	NUM	NUM	NumType=Card	7	nummod	_	_
+7	coordenadores	coordenador	NOUN	NOUN	_	4	obj	_	_
+8	de	de	ADP	ADP	_	10	case	_	_
+9	sua	_	DET	DET	_	10	det:poss	_	_
+10	campanha	campanha	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	12	punct	_	_
+12	Antonio	_	PROPN	PNOUN	_	7	appos	_	_
+13	Donato	_	PROPN	PNOUN	_	12	flat	_	_
+14	e	e	CCONJ	CONJ	_	15	cc	_	_
+15	Chico	_	PROPN	PNOUN	_	12	conj	_	_
+16	Macena	_	PROPN	PNOUN	_	15	flat	_	SpaceAfter=No
+17	,	,	PUNCT	.	_	12	punct	_	_
+18	para	_	ADP	ADP	_	19	mark	_	_
+19	tratar	tratar	VERB	VERB	_	4	nmod	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	ADP	_	22	case	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	assunto	assunto	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	.	_	29	punct	_	_
+24	mas	mas	CCONJ	CONJ	_	29	cc	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	decisão	decisão	NOUN	NOUN	_	29	nsubj:pass	_	_
+27	final	final	ADJ	ADJ	_	26	amod	_	_
+28	será	ser	AUX	AUX	_	29	aux:pass	_	_
+29	tomada	tomar	VERB	VERB	_	4	conj	_	_
+30	por	por	ADP	ADP	_	31	case	_	_
+31	ele	_	PRON	PRON	_	29	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s3893
+# text = "Vou passar cada dia, cada hora, cada minuto da minha vida provando minha inocência.
+1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
+2	Vou	ir	AUX	AUX	_	3	aux	_	_
+3	passar	passar	VERB	VERB	_	0	root	_	_
+4	cada	_	DET	DET	_	5	det	_	_
+5	dia	dia	NOUN	NOUN	_	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	.	_	8	punct	_	_
+7	cada	_	DET	DET	_	8	det	_	_
+8	hora	hora	NOUN	NOUN	_	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	11	punct	_	_
+10	cada	_	DET	DET	_	11	det	_	_
+11	minuto	minuto	NOUN	NOUN	_	5	conj	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	ADP	_	15	case	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	minha	_	DET	DET	_	15	det:poss	_	_
+15	vida	vida	NOUN	NOUN	_	5	nmod	_	_
+16	provando	provar	VERB	VERB	_	3	acl	_	_
+17	minha	_	DET	DET	_	18	det:poss	_	_
+18	inocência	inocência	NOUN	NOUN	_	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s3894
+# text = "Os venezuelanos e iranianos dão muitas declarações extravagantes.
+1	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
+2	Os	o	DET	DET	_	3	det	_	_
+3	venezuelanos	_	NOUN	NOUN	_	6	nsubj	_	_
+4	e	e	CCONJ	CONJ	_	5	cc	_	_
+5	iranianos	iraniano	NOUN	NOUN	_	3	conj	_	_
+6	dão	dar	VERB	VERB	_	0	root	_	_
+7	muitas	_	DET	DET	_	8	det	_	_
+8	declarações	declaração	NOUN	NOUN	_	6	obj	_	_
+9	extravagantes	extravagante	ADJ	ADJ	_	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = O grupo só teria parado de dar socos e chutes em Vitor, que ficou desacordado, quando um amigo dele interferiu.
+# sent_id = train-s3895
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	grupo	grupo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	só	só	ADV	_	_	5	advmod	_	_
+4	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	5	aux	_	_
+5	parado	parar	VERB	_	VerbForm=Part	0	root	_	_
+6	de	de	SCONJ	_	_	7	mark	_	_
+7	dar	dar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+8	socos	soco	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	chutes	chute	NOUN	_	Gender=Masc|Number=Plur	8	conj	_	_
+11	em	em	ADP	_	_	12	case	_	_
+12	Vitor	Vitor	PROPN	_	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	15	nsubj	_	_
+15	ficou	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	acl:relcl	_	_
+16	desacordado	desacordado	ADJ	_	Gender=Masc|Number=Sing	15	xcomp	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	15	punct	_	_
+18	quando	quando	ADV	_	_	23	advmod	_	_
+19	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	amigo	amigo	NOUN	_	Gender=Masc|Number=Sing	23	nsubj	_	_
+21-22	dele	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	ele	ele	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nmod	_	_
+23	interferiu	interferir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	advcl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = train-s3896
+# text = "É aconselhável pedir uma planilha do banco com a projeção de todas as parcelas do financiamento, incluindo as taxas extras e os seguros que compõem a prestação.
+1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
+2	É	ser	VERB	VERB	_	0	root	_	_
+3	aconselhável	aconselhável	ADJ	ADJ	_	2	xcomp	_	_
+4	pedir	pedir	VERB	VERB	_	2	csubj	_	_
+5	uma	um	DET	DET	_	6	det	_	_
+6	planilha	planilha	NOUN	NOUN	_	4	obj	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	banco	banco	NOUN	NOUN	_	6	nmod	_	_
+10	com	com	ADP	ADP	_	12	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	projeção	projeção	NOUN	NOUN	_	6	nmod	_	_
+13	de	de	ADP	ADP	_	16	case	_	_
+14	todas	_	DET	DET	_	16	det	_	_
+15	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	parcelas	parcela	NOUN	NOUN	_	12	nmod	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	ADP	_	19	case	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	financiamento	financiamento	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	.	_	21	punct	_	_
+21	incluindo	incluir	VERB	VERB	_	6	acl	_	_
+22	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	taxas	taxa	NOUN	NOUN	_	21	obj	_	_
+24	extras	extra	ADJ	ADJ	_	23	amod	_	_
+25	e	e	CCONJ	CONJ	_	27	cc	_	_
+26	os	o	DET	DET	_	27	det	_	_
+27	seguros	seguro	NOUN	NOUN	_	23	conj	_	_
+28	que	_	PRON	PRON	_	29	nsubj	_	_
+29	compõem	compor	VERB	VERB	_	23	acl:relcl	_	_
+30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	prestação	prestação	NOUN	NOUN	_	29	obj	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	2	punct	_	_
+

@@ -1,0 +1,264 @@
+# sent_id = train-s7306
+# text = Outros não se mostraram satisfeitos com a medida.
+1	Outros	_	PRON	PRON	_	4	nsubj	_	_
+2	não	não	ADV	ADV	Polarity=Neg	4	advmod	_	_
+3	se	_	PART	PRT	_	4	expl:pv	_	_
+4	mostraram	mostrar	VERB	VERB	_	0	root	_	_
+5	satisfeitos	satisfeito	ADJ	ADJ	_	4	xcomp	_	_
+6	com	com	ADP	ADP	_	8	case	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	medida	medida	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s7307
+# text = A sua dureza é de 4 a 5.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	sua	_	DET	DET	_	3	det:poss	_	_
+3	dureza	dureza	NOUN	NOUN	_	4	nsubj	_	_
+4	é	ser	VERB	VERB	_	0	root	_	_
+5	de	de	ADP	ADP	_	6	case	_	_
+6	4	4	NUM	NUM	NumType=Card	4	nmod	_	_
+7	a	_	ADP	ADP	_	8	case	_	_
+8	5	5	NUM	NUM	NumType=Card	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# text = Mubuza acrescentou que 'o trem arrastou o caminhão por um quilômetro' e que 'dezenas de feridos foram transferidos ao hospital de Nelspruit', a capital da província.
+# sent_id = train-s7308
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+1	Mubuza	Mubuza	PROPN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	acrescentou	acrescentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	6	mark	_	_
+4	'o	'o	PUNCT	_	_	5	punct	_	_
+5	trem	trem	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	arrastou	arrastar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	caminhão	caminhão	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+9	por	por	ADP	_	_	11	case	_	_
+10	um	um	NUM	_	NumType=Card	11	nummod	_	_
+11	quilômetro	quilômetro	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+12	'	'	PUNCT	_	_	6	punct	_	_
+13	e	e	CCONJ	_	_	20	cc	_	_
+14	que	que	SCONJ	_	_	20	mark	_	_
+15	'	'	PUNCT	_	_	20	punct	_	SpaceAfter=No
+16	dezenas	dezena	DET	_	Gender=Fem|Number=Plur|PronType=Ind	18	det	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	feridos	ferido	NOUN	_	Gender=Masc|Number=Plur	20	nsubj:pass	_	_
+19	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	20	aux:pass	_	_
+20	transferidos	transferir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	6	conj	_	_
+21-22	ao	_	_	_	_	_	_	_	_
+21	a	a	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	hospital	hospital	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	Nelspruit	Nelspruit	PROPN	_	Number=Sing	23	nmod	_	SpaceAfter=No
+26	'	'	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	29	punct	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	capital	capital	NOUN	_	Gender=Fem|Number=Sing	23	appos	_	_
+30-31	da	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	província	província	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
+
+# sent_id = train-s7309
+# text = Mas o Santos, sem tirar o pé do acelerador, manteve a correria no meio - campo e não demorou para recuperar a dianteira no marcador.
+1	Mas	_	CCONJ	CONJ	_	13	cc	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Santos	_	PROPN	PNOUN	_	13	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	6	punct	_	_
+5	sem	_	ADP	ADP	_	6	mark	_	_
+6	tirar	tirar	VERB	VERB	_	13	advcl	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	pé	pé	NOUN	NOUN	_	6	obj	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	ADP	_	11	case	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	acelerador	acelerador	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	.	_	6	punct	_	_
+13	manteve	manter	VERB	VERB	_	0	root	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	correria	correria	NOUN	NOUN	_	13	obj	_	_
+16-17	no	_	_	_	_	_	_	_	_
+16	em	em	ADP	ADP	_	18	case	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	meio	meio	NOUN	NOUN	_	13	nmod	_	_
+19	-	-	PUNCT	.	_	18	punct	_	_
+20	campo	campo	NOUN	NOUN	_	18	flat	_	_
+21	e	e	CCONJ	CONJ	_	23	cc	_	_
+22	não	não	ADV	ADV	Polarity=Neg	23	advmod	_	_
+23	demorou	demorar	VERB	VERB	_	13	conj	_	_
+24	para	_	ADP	ADP	_	25	mark	_	_
+25	recuperar	recuperar	VERB	VERB	_	23	nmod	_	_
+26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	dianteira	_	NOUN	NOUN	_	25	obj	_	_
+28-29	no	_	_	_	_	_	_	_	_
+28	em	em	ADP	ADP	_	30	case	_	_
+29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	marcador	marcador	NOUN	NOUN	_	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = train-s7310
+# text = Mas foi o trabalho atual que o impulsionou a pegar de novo nos cadernos.
+1	Mas	_	CCONJ	CONJ	_	2	cc	_	_
+2	foi	_	VERB	VERB	_	0	root	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	trabalho	trabalho	NOUN	NOUN	_	2	nsubj	_	_
+5	atual	atual	ADJ	ADJ	_	4	amod	_	_
+6	que	_	PRON	PRON	_	8	nsubj	_	_
+7	o	_	PRON	PRON	_	8	obj	_	_
+8	impulsionou	impulsionar	VERB	VERB	_	4	acl:relcl	_	_
+9	a	_	ADP	ADP	_	10	case	_	_
+10	pegar	_	NOUN	NOUN	_	8	nmod	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
+12	novo	novo	NOUN	NOUN	_	10	nmod	_	_
+13-14	nos	_	_	_	_	_	_	_	_
+13	em	em	ADP	ADP	_	15	case	_	_
+14	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	cadernos	caderno	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s7311
+# text = Mas os trabalhadores não se satisfizeram com o acordo.
+1	Mas	_	CCONJ	CONJ	_	6	cc	_	_
+2	os	o	DET	DET	_	3	det	_	_
+3	trabalhadores	trabalhador	NOUN	NOUN	_	6	nsubj	_	_
+4	não	não	ADV	ADV	Polarity=Neg	6	advmod	_	_
+5	se	_	PRON	PRON	_	6	expl:pv	_	_
+6	satisfizeram	satisfazer	VERB	VERB	_	0	root	_	_
+7	com	com	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	acordo	acordo	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s7312
+# text = Embora teoricamente, os empréstimos foram créditos privados feitos por bancos privados sob a forma de investimentos no desenvolvimento da China, na realidade, o empréstimo foi assinado pelo governo japonês para ajudar Duan Qirui na guerra civil contra os seus rivais pelo controle do norte da China.
+1	Embora	_	CCONJ	CONJ	_	7	mark	_	_
+2	teoricamente	teoricamente	ADV	ADV	_	7	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	.	_	2	punct	_	_
+4	os	o	DET	DET	_	5	det	_	_
+5	empréstimos	empréstimo	NOUN	NOUN	_	7	nsubj	_	_
+6	foram	_	AUX	AUX	_	7	cop	_	_
+7	créditos	crédito	NOUN	NOUN	_	32	advcl	_	_
+8	privados	privado	ADJ	ADJ	_	7	amod	_	_
+9	feitos	fazer	VERB	VERB	_	7	acl	_	_
+10	por	por	ADP	ADP	_	11	case	_	_
+11	bancos	banco	NOUN	NOUN	_	9	nmod	_	_
+12	privados	privado	ADJ	ADJ	_	11	amod	_	_
+13	sob	_	ADP	ADP	_	15	case	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	forma	forma	NOUN	NOUN	_	9	nmod	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
+17	investimentos	investimento	NOUN	NOUN	_	15	nmod	_	_
+18-19	no	_	_	_	_	_	_	_	_
+18	em	em	ADP	ADP	_	20	case	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	desenvolvimento	desenvolvimento	NOUN	NOUN	_	17	nmod	_	_
+21-22	da	_	_	_	_	_	_	_	_
+21	de	de	ADP	ADP	_	23	case	_	_
+22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	China	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	.	_	27	punct	_	_
+25-26	na	_	_	_	_	_	_	_	_
+25	em	em	ADP	ADP	_	27	case	_	_
+26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	realidade	realidade	NOUN	NOUN	_	32	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	.	_	27	punct	_	_
+29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	empréstimo	empréstimo	NOUN	NOUN	_	32	nsubj:pass	_	_
+31	foi	_	AUX	AUX	_	32	aux:pass	_	_
+32	assinado	assinar	VERB	VERB	_	0	root	_	_
+33-34	pelo	_	_	_	_	_	_	_	_
+33	por	por	ADP	ADP	_	35	case	_	_
+34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	governo	governo	NOUN	NOUN	_	32	nmod	_	_
+36	japonês	japonês	ADJ	ADJ	_	35	amod	_	_
+37	para	_	ADP	ADP	_	38	mark	_	_
+38	ajudar	ajudar	VERB	VERB	_	32	advcl	_	_
+39	Duan	_	PROPN	PNOUN	_	38	obj	_	_
+40	Qirui	_	PROPN	PNOUN	_	39	flat	_	_
+41-42	na	_	_	_	_	_	_	_	_
+41	em	em	ADP	ADP	_	43	case	_	_
+42	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	guerra	guerra	NOUN	NOUN	_	38	nmod	_	_
+44	civil	civil	ADJ	ADJ	_	43	amod	_	_
+45	contra	_	ADP	ADP	_	48	case	_	_
+46	os	o	DET	DET	_	48	det	_	_
+47	seus	_	DET	DET	_	48	det:poss	_	_
+48	rivais	rival	NOUN	NOUN	_	43	nmod	_	_
+49-50	pelo	_	_	_	_	_	_	_	_
+49	por	por	ADP	ADP	_	51	case	_	_
+50	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	controle	_	NOUN	NOUN	_	43	nmod	_	_
+52-53	do	_	_	_	_	_	_	_	_
+52	de	de	ADP	ADP	_	54	case	_	_
+53	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	norte	norte	NOUN	NOUN	_	51	nmod	_	_
+55-56	da	_	_	_	_	_	_	_	_
+55	de	de	ADP	ADP	_	57	case	_	_
+56	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	57	det	_	_
+57	China	_	PROPN	PNOUN	_	54	nmod	_	SpaceAfter=No
+58	.	.	PUNCT	.	_	32	punct	_	_
+
+# sent_id = train-s7313
+# text = Foram ouvidas 1066 pessoas, sendo 600 homens e 466 mulheres, de 13 regiões da cidade.
+1	Foram	_	AUX	AUX	_	2	aux:pass	_	_
+2	ouvidas	ouvir	VERB	VERB	_	0	root	_	_
+3	1066	1066	NUM	NUM	NumType=Card	4	nummod	_	_
+4	pessoas	pessoa	NOUN	NOUN	_	2	nsubj:pass	_	SpaceAfter=No
+5	,	,	PUNCT	.	_	6	punct	_	_
+6	sendo	ser	VERB	VERB	_	4	acl	_	_
+7	600	600	NUM	NUM	NumType=Card	8	nummod	_	_
+8	homens	homem	NOUN	NOUN	_	6	nsubj	_	_
+9	e	e	CCONJ	CONJ	_	11	cc	_	_
+10	466	466	NUM	NUM	NumType=Card	11	nummod	_	_
+11	mulheres	mulher	NOUN	NOUN	_	8	conj	_	SpaceAfter=No
+12	,	,	PUNCT	.	_	15	punct	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
+14	13	13	NUM	NUM	NumType=Card	15	nummod	_	_
+15	regiões	região	NOUN	NOUN	_	8	nmod	_	_
+16-17	da	_	_	_	_	_	_	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
+17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	cidade	cidade	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s7314
+# text = "A responsabilidade era toda do Corinthians.
+1	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
+2	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	responsabilidade	responsabilidade	NOUN	NOUN	_	5	nsubj	_	_
+4	era	_	AUX	AUX	_	5	cop	_	_
+5	toda	_	PRON	PRON	_	0	root	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Corinthians	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s7315
+# text = Ambas de situação, sendo que a de Fouad e Odacir Soares já anunciavam que o então presidente tentativa a reeleição.
+1	Ambas	_	PRON	PRON	_	0	root	_	_
+2	de	de	ADP	ADP	_	3	case	_	_
+3	situação	situação	NOUN	NOUN	_	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	5	punct	_	_
+5	sendo	ser	VERB	VERB	_	1	acl	_	_
+6	que	que	CCONJ	CONJ	_	14	mark	_	_
+7	a	_	PRON	PRON	_	14	nsubj	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
+9	Fouad	_	PROPN	PNOUN	_	7	nmod	_	_
+10	e	e	CCONJ	CONJ	_	11	cc	_	_
+11	Odacir	_	PROPN	PNOUN	_	9	conj	_	_
+12	Soares	_	PROPN	PNOUN	_	11	flat	_	_
+13	já	já	ADV	ADV	_	14	advmod	_	_
+14	anunciavam	anunciar	VERB	VERB	_	5	csubj	_	_
+15	que	que	CCONJ	CONJ	_	19	mark	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	então	então	ADV	ADV	_	18	advmod	_	_
+18	presidente	presidente	NOUN	NOUN	_	19	nsubj	_	_
+19	tentativa	_	VERB	VERB	_	14	ccomp	_	_
+20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	reeleição	reeleição	NOUN	NOUN	_	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	1	punct	_	_
+

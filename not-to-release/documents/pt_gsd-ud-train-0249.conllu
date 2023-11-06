@@ -1,0 +1,333 @@
+# sent_id = train-s2471
+# text = De acordo com ele, a suspeita chegou a cumprir uma parte da pena, mas ao ganhar liberdade provisória, deixou de comparecer periodicamente à Vara de Execução.
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+3	com	com	ADP	_	_	4	case	_	_
+4	ele	ele	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	suspeita	suspeita	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+8	chegou	chegar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	a	a	SCONJ	_	_	10	mark	_	_
+10	cumprir	cumprir	VERB	_	VerbForm=Inf	8	xcomp	_	_
+11	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	parte	parte	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	pena	pena	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	24	punct	_	_
+17	mas	mas	CCONJ	_	_	24	cc	_	_
+18-19	ao	_	_	_	_	_	_	_	_
+18	a	a	SCONJ	_	_	20	mark	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	ganhar	ganhar	VERB	_	VerbForm=Inf	24	advcl	_	_
+21	liberdade	liberdade	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	_
+22	provisória	provisório	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	20	punct	_	_
+24	deixou	deixar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	conj	_	_
+25	de	de	SCONJ	_	_	26	mark	_	_
+26	comparecer	comparecer	VERB	_	VerbForm=Inf	24	xcomp	_	_
+27	periodicamente	periodicamente	ADV	_	_	26	advmod	_	_
+28-29	à	_	_	_	_	_	_	_	_
+28	a	a	ADP	_	_	30	case	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	Vara	Vara	PROPN	_	Gender=Fem|Number=Sing	26	obl	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	Execução	Execução	PROPN	_	Number=Sing	30	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = train-s2472
+# text = De acordo com o Tribunal de Justiça de Minas Gerais (TJMG), o advogado da acusada, Zanone Manuel de Oliveira, entrou com recurso contra a sentença de pronúncia, mas ainda não foi julgado.
+1	De	_	ADP	ADP	_	2	case	_	_
+2	acordo	acordo	NOUN	NOUN	_	26	nmod	_	_
+3	com	com	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Tribunal	_	PROPN	PNOUN	_	2	nmod	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
+7	Justiça	_	PROPN	PNOUN	_	5	nmod	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
+9	Minas	_	PROPN	PNOUN	_	5	nmod	_	_
+10	Gerais	_	PROPN	PNOUN	_	9	amod	_	_
+11	(	(	PUNCT	.	_	12	punct	_	SpaceAfter=No
+12	TJMG	_	PROPN	PNOUN	_	5	appos	_	SpaceAfter=No
+13	)	)	PUNCT	.	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	2	punct	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	advogado	advogado	NOUN	NOUN	_	26	nsubj	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	ADP	_	19	case	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	acusada	acusado	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	.	_	21	punct	_	_
+21	Zanone	_	PROPN	PNOUN	_	16	appos	_	_
+22	Manuel	_	PROPN	PNOUN	_	21	flat	_	_
+23	de	de	ADP	ADP	_	24	case	_	_
+24	Oliveira	_	PROPN	PNOUN	_	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	.	_	21	punct	_	_
+26	entrou	entrar	VERB	VERB	_	0	root	_	_
+27	com	com	ADP	ADP	_	28	case	_	_
+28	recurso	recurso	NOUN	NOUN	_	26	nmod	_	_
+29	contra	_	ADP	ADP	_	31	case	_	_
+30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	sentença	sentença	NOUN	NOUN	_	28	nmod	_	_
+32	de	de	ADP	ADP	_	33	case	_	_
+33	pronúncia	pronúncia	NOUN	NOUN	_	31	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	.	_	39	punct	_	_
+35	mas	mas	CCONJ	CONJ	_	39	cc	_	_
+36	ainda	ainda	ADV	ADV	_	39	advmod	_	_
+37	não	não	ADV	ADV	Polarity=Neg	39	advmod	_	_
+38	foi	_	AUX	AUX	_	39	aux:pass	_	_
+39	julgado	julgar	VERB	VERB	_	26	conj	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	26	punct	_	_
+
+# sent_id = train-s2473
+# text = Há seis anos, a Assembléia Geral da ONU adotou a primeira resolução sobre o Tratado de Comércio de Armas Convencionais, abrindo o período para consultas.
+1	Há	haver	VERB	VERB	_	11	advcl	_	_
+2	seis	_	NUM	NUM	NumType=Card	3	nummod	_	_
+3	anos	ano	NOUN	NOUN	_	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	1	punct	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Assembléia	_	PROPN	PNOUN	_	11	nsubj	_	_
+7	Geral	_	PROPN	PNOUN	_	6	amod	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	ADP	_	10	case	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	ONU	_	PROPN	PNOUN	_	6	nmod	_	_
+11	adotou	adotar	VERB	VERB	_	0	root	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	primeira	primeiro	ADJ	ADJ	_	14	amod	_	_
+14	resolução	resolução	NOUN	NOUN	_	11	obj	_	_
+15	sobre	_	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Tratado	_	PROPN	PNOUN	_	14	nmod	_	_
+18	de	de	ADP	ADP	_	19	case	_	_
+19	Comércio	_	PROPN	PNOUN	_	17	nmod	_	_
+20	de	de	ADP	ADP	_	21	case	_	_
+21	Armas	_	PROPN	PNOUN	_	19	nmod	_	_
+22	Convencionais	_	PROPN	PNOUN	_	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	.	_	24	punct	_	_
+24	abrindo	abrir	VERB	VERB	_	11	acl	_	_
+25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	período	período	NOUN	NOUN	_	24	obj	_	_
+27	para	para	ADP	ADP	_	28	case	_	_
+28	consultas	consulta	NOUN	NOUN	_	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = train-s2474
+# text = Sexta colocada, com 55 pontos, a equipe encerra sua participação na competição nacional diante do campeão Fluminense, no domingo que vem, no Engenhão.
+1	Sexta	_	ADJ	ADJ	_	2	amod	_	_
+2	colocada	colocado	ADJ	ADJ	_	9	amod	_	SpaceAfter=No
+3	,	,	PUNCT	.	_	2	punct	_	_
+4	com	com	ADP	ADP	_	6	case	_	_
+5	55	55	NUM	NUM	NumType=Card	6	nummod	_	_
+6	pontos	ponto	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	6	punct	_	_
+8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	equipe	equipe	NOUN	NOUN	_	10	nsubj	_	_
+10	encerra	encerrar	VERB	VERB	_	0	root	_	_
+11	sua	_	DET	DET	_	12	det:poss	_	_
+12	participação	participação	NOUN	NOUN	_	10	obj	_	_
+13-14	na	_	_	_	_	_	_	_	_
+13	em	em	ADP	ADP	_	15	case	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	competição	competição	NOUN	NOUN	_	12	nmod	_	_
+16	nacional	nacional	ADJ	ADJ	_	15	amod	_	_
+17	diante	diante	ADV	ADV	_	10	advmod	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	ADP	_	20	case	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	campeão	campeão	NOUN	NOUN	_	17	nmod	_	_
+21	Fluminense	_	PROPN	PNOUN	_	20	appos	_	SpaceAfter=No
+22	,	,	PUNCT	.	_	25	punct	_	_
+23-24	no	_	_	_	_	_	_	_	_
+23	em	em	ADP	ADP	_	25	case	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	domingo	_	PROPN	PNOUN	_	10	nmod	_	_
+26	que	_	PRON	PRON	_	27	nsubj	_	_
+27	vem	vir	VERB	VERB	_	25	acl:relcl	_	SpaceAfter=No
+28	,	,	PUNCT	.	_	31	punct	_	_
+29-30	no	_	_	_	_	_	_	_	_
+29	em	em	ADP	ADP	_	31	case	_	_
+30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	Engenhão	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = train-s2475
+# text = Os índios aproveitam a Cúpula dos Povos também para vender seu artesanato, pulseiras, colares, anéis, brincos e cocares
+1	Os	o	DET	DET	_	2	det	_	_
+2	índios	índio	NOUN	NOUN	_	3	nsubj	_	_
+3	aproveitam	aproveitar	VERB	VERB	_	0	root	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Cúpula	cúpula	NOUN	NOUN	_	3	obj	_	_
+6-7	dos	_	_	_	_	_	_	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	Povos	_	PROPN	PNOUN	_	5	nmod	_	_
+9	também	também	ADV	ADV	_	11	advmod	_	_
+10	para	_	ADP	ADP	_	11	mark	_	_
+11	vender	vender	VERB	VERB	_	3	advcl	_	_
+12	seu	_	DET	DET	_	13	det:poss	_	_
+13	artesanato	artesanato	NOUN	NOUN	_	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	15	punct	_	_
+15	pulseiras	pulseira	NOUN	NOUN	_	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	.	_	17	punct	_	_
+17	colares	colar	NOUN	NOUN	_	13	conj	_	SpaceAfter=No
+18	,	,	PUNCT	.	_	19	punct	_	_
+19	anéis	anel	NOUN	NOUN	_	13	conj	_	SpaceAfter=No
+20	,	,	PUNCT	.	_	21	punct	_	_
+21	brincos	brinco	NOUN	NOUN	_	13	conj	_	_
+22	e	e	CCONJ	CONJ	_	23	cc	_	_
+23	cocares	cocar	NOUN	NOUN	_	13	conj	_	_
+
+# sent_id = train-s2476
+# text = O DNS (Sistema de Nomes de Domínio, na sigla em inglês) converte um endereço amigável para um protocolo IP, endereço numérico que os computadores usam para se comunicar entre si.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	DNS	_	PROPN	PNOUN	_	16	nsubj	_	_
+3	(	(	PUNCT	.	_	4	punct	_	SpaceAfter=No
+4	Sistema	_	PROPN	PNOUN	_	2	appos	_	_
+5	de	de	ADP	ADP	_	6	case	_	_
+6	Nomes	_	PROPN	PNOUN	_	4	nmod	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
+8	Domínio	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	12	punct	_	_
+10-11	na	_	_	_	_	_	_	_	_
+10	em	em	ADP	ADP	_	12	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	sigla	sigla	NOUN	NOUN	_	4	nmod	_	_
+13	em	em	ADP	ADP	_	14	case	_	_
+14	inglês	inglês	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
+15	)	)	PUNCT	.	_	4	punct	_	_
+16	converte	converter	VERB	VERB	_	0	root	_	_
+17	um	um	DET	DET	_	18	det	_	_
+18	endereço	endereço	NOUN	NOUN	_	16	obj	_	_
+19	amigável	amigável	ADJ	ADJ	_	18	amod	_	_
+20	para	para	ADP	ADP	_	22	case	_	_
+21	um	um	DET	DET	_	22	det	_	_
+22	protocolo	protocolo	NOUN	NOUN	_	16	nmod	_	_
+23	IP	_	PROPN	PNOUN	_	22	appos	_	SpaceAfter=No
+24	,	,	PUNCT	.	_	25	punct	_	_
+25	endereço	endereço	NOUN	NOUN	_	22	appos	_	_
+26	numérico	numérico	ADJ	ADJ	_	25	amod	_	_
+27	que	_	PRON	PRON	_	30	obj	_	_
+28	os	o	DET	DET	_	29	det	_	_
+29	computadores	computador	NOUN	NOUN	_	30	nsubj	_	_
+30	usam	usar	VERB	VERB	_	25	acl:relcl	_	_
+31	para	_	ADP	ADP	_	33	mark	_	_
+32	se	_	PRON	PRON	_	33	obj	_	_
+33	comunicar	comunicar	VERB	VERB	_	30	advcl	_	_
+34	entre	_	ADP	ADP	_	35	case	_	_
+35	si	_	PRON	PRON	_	33	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = train-s2477
+# text = Ele pesa 144 quilos e precisa perder, ao menos, 14 para ficar com 130 quilos.
+1	Ele	_	PRON	PRON	_	2	nsubj	_	_
+2	pesa	pesar	VERB	VERB	_	0	root	_	_
+3	144	144	NUM	NUM	NumType=Card	4	nummod	_	_
+4	quilos	quilo	NOUN	NOUN	_	2	nmod	_	_
+5	e	e	CCONJ	CONJ	_	6	cc	_	_
+6	precisa	precisar	VERB	VERB	_	2	conj	_	_
+7	perder	perder	VERB	VERB	_	6	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	11	punct	_	_
+9-10	ao	_	_	_	_	_	_	_	_
+9	a	a	ADP	ADP	_	11	case	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	menos	menos	ADV	ADV	_	13	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	.	_	11	punct	_	_
+13	14	14	NUM	NUM	NumType=Card	7	nmod	_	_
+14	para	_	ADP	ADP	_	15	mark	_	_
+15	ficar	ficar	VERB	VERB	_	6	advcl	_	_
+16	com	com	ADP	ADP	_	18	case	_	_
+17	130	130	NUM	NUM	NumType=Card	18	nummod	_	_
+18	quilos	quilo	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s2478
+# text = A comissão também fiscalizará o trecho da PR - 090, de Piraí do Sul em direção a Ventania.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	comissão	comissão	NOUN	NOUN	_	4	nsubj	_	_
+3	também	também	ADV	ADV	_	4	advmod	_	_
+4	fiscalizará	fiscalizar	VERB	VERB	_	0	root	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	trecho	trecho	NOUN	NOUN	_	4	obj	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
+8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	PR	_	PROPN	PNOUN	_	6	nmod	_	_
+10	-	-	PUNCT	.	_	9	punct	_	_
+11	090	090	NUM	NUM	NumType=Card	9	appos	_	SpaceAfter=No
+12	,	,	PUNCT	.	_	14	punct	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
+14	Piraí	_	PROPN	PNOUN	_	6	nmod	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Sul	_	PROPN	PNOUN	_	14	nmod	_	_
+18	em	em	ADP	ADP	_	19	case	_	_
+19	direção	direção	NOUN	NOUN	_	6	nmod	_	_
+20	a	_	ADP	ADP	_	21	case	_	_
+21	Ventania	_	PROPN	PNOUN	_	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s2479
+# text = Ele também cogita reduções na Cota de Desenvolvimento Energético (CDE), usada para a universalização da energia elétrica, e no PIS e Cofins.
+1	Ele	_	PRON	PRON	_	3	nsubj	_	_
+2	também	também	ADV	ADV	_	3	advmod	_	_
+3	cogita	cogitar	VERB	VERB	_	0	root	_	_
+4	reduções	redução	NOUN	NOUN	_	3	obj	_	_
+5-6	na	_	_	_	_	_	_	_	_
+5	em	em	ADP	ADP	_	7	case	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Cota	_	PROPN	PNOUN	_	4	nmod	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
+9	Desenvolvimento	_	PROPN	PNOUN	_	7	nmod	_	_
+10	Energético	_	PROPN	PNOUN	_	9	amod	_	_
+11	(	(	PUNCT	.	_	12	punct	_	SpaceAfter=No
+12	CDE	_	PROPN	PNOUN	_	7	appos	_	SpaceAfter=No
+13	)	)	PUNCT	.	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	15	punct	_	_
+15	usada	usar	VERB	VERB	_	7	acl	_	_
+16	para	para	ADP	ADP	_	18	case	_	_
+17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	universalização	universalização	NOUN	NOUN	_	15	nmod	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	ADP	_	21	case	_	_
+20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	energia	energia	NOUN	NOUN	_	18	nmod	_	_
+22	elétrica	elétrico	ADJ	ADJ	_	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	.	_	15	punct	_	_
+24	e	e	CCONJ	CONJ	_	27	cc	_	_
+25-26	no	_	_	_	_	_	_	_	_
+25	em	em	ADP	ADP	_	27	case	_	_
+26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	PIS	_	PROPN	PNOUN	_	7	conj	_	_
+28	e	e	CCONJ	CONJ	_	29	cc	_	_
+29	Cofins	_	PROPN	PNOUN	_	27	conj	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s2480
+# text = Sem o meia, Oswaldo optou por adianta Renato e colocar Gabriel, de 20 anos, como titular.
+1	Sem	_	VERB	VERB	_	3	case	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	meia	_	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	Oswaldo	_	PROPN	PNOUN	_	6	nsubj	_	_
+6	optou	optar	VERB	VERB	_	0	root	_	_
+7	por	_	ADP	ADP	_	8	mark	_	_
+8	adianta	adiantar	VERB	VERB	_	6	nmod	_	_
+9	Renato	_	PROPN	PNOUN	_	8	obj	_	_
+10	e	e	CCONJ	CONJ	_	11	cc	_	_
+11	colocar	colocar	VERB	VERB	_	8	conj	_	_
+12	Gabriel	_	PROPN	PNOUN	_	11	obj	_	SpaceAfter=No
+13	,	,	PUNCT	.	_	16	punct	_	_
+14	de	de	ADP	ADP	_	16	case	_	_
+15	20	20	NUM	NUM	NumType=Card	16	nummod	_	_
+16	anos	ano	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	.	_	16	punct	_	_
+18	como	como	ADP	ADP	_	19	case	_	_
+19	titular	titular	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	6	punct	_	_
+

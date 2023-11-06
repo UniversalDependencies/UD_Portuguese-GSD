@@ -1,0 +1,285 @@
+# sent_id = train-s3738
+# text = E o que dizer da cobrança da torcida?
+1	E	_	CCONJ	CONJ	_	4	cc	_	_
+2	o	o	DET	DET	_	3	det	_	_
+3	que	_	PRON	PRON	_	4	obj	_	_
+4	dizer	dizer	VERB	VERB	_	0	root	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	ADP	_	7	case	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	cobrança	cobrança	NOUN	NOUN	_	4	nmod	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	ADP	_	10	case	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	torcida	torcida	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
+11	?	?	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s3739
+# text = [1] Doutor e Mestre em Filosofia do Direito e do Estado pela Pontifícia Universidade Católica de São Paulo.
+1	[	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
+2	1	1	NUM	NUM	NumType=Card	4	parataxis	_	SpaceAfter=No
+3	]	_	PUNCT	.	_	2	punct	_	_
+4	Doutor	_	PROPN	PNOUN	_	0	root	_	_
+5	e	e	CCONJ	CONJ	_	6	cc	_	_
+6	Mestre	_	PROPN	PNOUN	_	4	conj	_	_
+7	em	em	ADP	ADP	_	8	case	_	_
+8	Filosofia	_	PROPN	PNOUN	_	4	nmod	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	ADP	_	11	case	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Direito	_	PROPN	PNOUN	_	8	nmod	_	_
+12	e	e	CCONJ	CONJ	_	15	cc	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Estado	_	PROPN	PNOUN	_	11	conj	_	_
+16-17	pela	_	_	_	_	_	_	_	_
+16	por	por	ADP	ADP	_	18	case	_	_
+17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Pontifícia	_	PROPN	PNOUN	_	4	nmod	_	_
+19	Universidade	_	PROPN	PNOUN	_	18	flat	_	_
+20	Católica	_	PROPN	PNOUN	_	18	amod	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
+22	São	_	PROPN	PNOUN	_	18	nmod	_	_
+23	Paulo	_	PROPN	PNOUN	_	22	flat	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	4	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Lin Zixu disse à emissora independente NTDTV que as atividades recentes são um desafio ousado aos 'Oito Regulamentos' de Xi Jinping, que avisam os oficiais a manterem distância da publicidade e teatralidade política.
+# sent_id = train-s3740
+1	Lin	Lin	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	Zixu	Zixu	PROPN	_	Number=Sing	1	flat:name	_	_
+3	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4-5	à	_	_	_	_	_	_	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	emissora	emissora	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+7	independente	independente	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+8	NTDTV	NTDTV	PROPN	_	Gender=Fem|Number=Sing	6	appos	_	_
+9	que	que	SCONJ	_	_	15	mark	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	atividades	atividade	NOUN	_	Gender=Fem|Number=Plur	15	nsubj	_	_
+12	recentes	recente	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	_
+13	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	desafio	desafio	NOUN	_	Gender=Masc|Number=Sing	3	ccomp	_	_
+16	ousado	ousar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	15	acl	_	_
+17-18	aos	_	_	_	_	_	_	_	_
+17	a	a	ADP	_	_	20	case	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+19	'	'	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	Oito	Oito	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Plur	16	obl	_	_
+21	Regulamentos	Regulamentos	PROPN	_	Number=Sing	20	flat:name	_	SpaceAfter=No
+22	'	'	PUNCT	_	_	20	punct	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	Xi	Xi	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	20	nmod	_	_
+25	Jinping	Jinping	PROPN	_	Number=Sing	24	flat:name	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	28	punct	_	_
+27	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	28	nsubj	_	_
+28	avisam	avisar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+29	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	oficiais	oficial	NOUN	_	Gender=Masc|Number=Plur	28	obj	_	_
+31	a	a	SCONJ	_	_	32	mark	_	_
+32	manterem	manter	VERB	_	Number=Plur|Person=3|VerbForm=Inf	28	xcomp	_	_
+33	distância	distância	NOUN	_	Gender=Fem|Number=Sing	32	obj	_	_
+34-35	da	_	_	_	_	_	_	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	publicidade	publicidade	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	_
+37	e	e	CCONJ	_	_	38	cc	_	_
+38	teatralidade	teatralidade	NOUN	_	Gender=Fem|Number=Sing	36	conj	_	_
+39	política	político	ADJ	_	Gender=Fem|Number=Sing	38	amod	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+
+# sent_id = train-s3741
+# text = O sinal é o mesmo que já foi usado por Lula.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sinal	sinal	NOUN	NOUN	_	5	nsubj	_	_
+3	é	ser	AUX	AUX	_	5	cop	_	_
+4	o	o	DET	DET	_	5	det	_	_
+5	mesmo	_	PRON	PRON	_	0	root	_	_
+6	que	_	PRON	PRON	_	9	nsubj:pass	_	_
+7	já	já	ADV	ADV	_	9	advmod	_	_
+8	foi	_	AUX	AUX	_	9	aux:pass	_	_
+9	usado	usar	VERB	VERB	_	5	acl:relcl	_	_
+10	por	por	ADP	ADP	_	11	case	_	_
+11	Lula	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s3742
+# text = Mais tarde, sob a administração do prefeito Alberto Bins, foi dado seguimento à drenagem, ao nivelamento e à arborização de toda a parte sul do Campo, conforme um projeto inspirado em Alfredo Agache para a exposição do Centenário da Revolução Farroupilha.
+1	Mais	mais	ADV	ADV	_	2	advmod	_	_
+2	tarde	tarde	ADV	ADV	_	14	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	.	_	6	punct	_	_
+4	sob	_	ADP	ADP	_	6	case	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	administração	administração	NOUN	NOUN	_	14	nmod	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	prefeito	prefeito	NOUN	NOUN	_	6	nmod	_	_
+10	Alberto	_	PROPN	PNOUN	_	9	appos	_	_
+11	Bins	_	PROPN	PNOUN	_	10	flat	_	SpaceAfter=No
+12	,	,	PUNCT	.	_	6	punct	_	_
+13	foi	_	AUX	AUX	_	14	aux:pass	_	_
+14	dado	dar	VERB	VERB	_	0	root	_	_
+15	seguimento	seguimento	NOUN	NOUN	_	14	nsubj:pass	_	_
+16-17	à	_	_	_	_	_	_	_	_
+16	a	a	ADP	ADP	_	18	case	_	_
+17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	drenagem	drenagem	NOUN	NOUN	_	14	iobj	_	SpaceAfter=No
+19	,	,	PUNCT	.	_	22	punct	_	_
+20-21	ao	_	_	_	_	_	_	_	_
+20	a	a	ADP	ADP	_	22	case	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	nivelamento	nivelamento	NOUN	NOUN	_	18	conj	_	_
+23	e	e	CCONJ	CONJ	_	26	cc	_	_
+24-25	à	_	_	_	_	_	_	_	_
+24	a	a	ADP	ADP	_	26	case	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	arborização	arborização	NOUN	NOUN	_	18	conj	_	_
+27	de	de	ADP	ADP	_	30	case	_	_
+28	toda	_	DET	DET	_	30	det	_	_
+29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	parte	parte	NOUN	NOUN	_	18	nmod	_	_
+31	sul	sul	ADJ	ADJ	_	30	amod	_	_
+32-33	do	_	_	_	_	_	_	_	_
+32	de	de	ADP	ADP	_	34	case	_	_
+33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	Campo	_	PROPN	PNOUN	_	30	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	.	_	38	punct	_	_
+36	conforme	_	ADP	ADP	_	38	case	_	_
+37	um	um	DET	DET	_	38	det	_	_
+38	projeto	projeto	NOUN	NOUN	_	14	nmod	_	_
+39	inspirado	inspirar	VERB	VERB	_	38	acl	_	_
+40	em	em	ADP	ADP	_	41	case	_	_
+41	Alfredo	_	PROPN	PNOUN	_	39	nmod	_	_
+42	Agache	_	PROPN	PNOUN	_	41	flat	_	_
+43	para	para	ADP	ADP	_	45	case	_	_
+44	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	exposição	exposição	NOUN	NOUN	_	39	nmod	_	_
+46-47	do	_	_	_	_	_	_	_	_
+46	de	de	ADP	ADP	_	48	case	_	_
+47	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	Centenário	_	PROPN	PNOUN	_	45	nmod	_	_
+49-50	da	_	_	_	_	_	_	_	_
+49	de	de	ADP	ADP	_	51	case	_	_
+50	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
+51	Revolução	_	PROPN	PNOUN	_	48	nmod	_	_
+52	Farroupilha	_	PROPN	PNOUN	_	51	amod	_	SpaceAfter=No
+53	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = train-s3743
+# text = No entanto, temos jogadoras que já jogaram juntas e isso ajuda um pouco.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	ADP	_	3	case	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	entanto	entanto	ADV	ADV	_	5	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	temos	ter	VERB	VERB	_	0	root	_	_
+6	jogadoras	jogador	NOUN	NOUN	_	5	obj	_	_
+7	que	_	PRON	PRON	_	9	nsubj	_	_
+8	já	já	ADV	ADV	_	9	advmod	_	_
+9	jogaram	jogar	VERB	VERB	_	6	acl:relcl	_	_
+10	juntas	junto	ADJ	ADJ	_	9	xcomp	_	_
+11	e	e	CCONJ	CONJ	_	13	cc	_	_
+12	isso	_	PRON	PRON	_	13	nsubj	_	_
+13	ajuda	ajudar	VERB	VERB	_	5	conj	_	_
+14	um	um	DET	DET	_	15	det	_	_
+15	pouco	pouco	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s3744
+# text = Difícil é conciliar tantas atrações interessantes, tendo em vista o confronto de agendas.
+1	Difícil	difícil	ADJ	ADJ	_	2	xcomp	_	_
+2	é	ser	VERB	VERB	_	0	root	_	_
+3	conciliar	conciliar	VERB	VERB	_	2	csubj	_	_
+4	tantas	_	DET	DET	_	5	det	_	_
+5	atrações	atração	NOUN	NOUN	_	3	obj	_	_
+6	interessantes	interessante	ADJ	ADJ	_	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	8	punct	_	_
+8	tendo	_	VERB	VERB	_	2	acl	_	_
+9	em	em	ADP	ADP	_	10	case	_	_
+10	vista	vista	NOUN	NOUN	_	8	nmod	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	confronto	confronto	NOUN	NOUN	_	8	obj	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
+14	agendas	agenda	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s3745
+# text = Como oficial do Exército brasileiro, combateu na Guerra do Paraguai e chegou à patente de marechal - de - campo.
+1	Como	_	ADP	ADP	_	2	case	_	_
+2	oficial	oficial	NOUN	NOUN	_	8	nmod	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Exército	_	PROPN	PNOUN	_	2	nmod	_	_
+6	brasileiro	brasileiro	ADJ	ADJ	_	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	2	punct	_	_
+8	combateu	combater	VERB	VERB	_	0	root	_	_
+9-10	na	_	_	_	_	_	_	_	_
+9	em	em	ADP	ADP	_	11	case	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Guerra	_	PROPN	PNOUN	_	8	nmod	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	ADP	_	14	case	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Paraguai	_	PROPN	PNOUN	_	11	nmod	_	_
+15	e	e	CCONJ	CONJ	_	16	cc	_	_
+16	chegou	chegar	VERB	VERB	_	8	conj	_	_
+17-18	à	_	_	_	_	_	_	_	_
+17	a	a	ADP	ADP	_	19	case	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	patente	patente	NOUN	NOUN	_	16	nmod	_	_
+20	de	de	ADP	ADP	_	21	case	_	_
+21	marechal	marechal	NOUN	NOUN	_	19	nmod	_	_
+22	-	-	PUNCT	.	_	21	punct	_	_
+23	de	de	ADP	ADP	_	25	case	_	_
+24	-	-	PUNCT	.	_	25	punct	_	_
+25	campo	campo	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s3746
+# text = O sistema defensivo do Flamengo não vem passando por uma boa fase.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sistema	sistema	NOUN	NOUN	_	9	nsubj	_	_
+3	defensivo	defensivo	ADJ	ADJ	_	2	amod	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Flamengo	_	PROPN	PNOUN	_	2	nmod	_	_
+7	não	não	ADV	ADV	Polarity=Neg	9	advmod	_	_
+8	vem	vir	AUX	AUX	_	9	aux	_	_
+9	passando	passar	VERB	VERB	_	0	root	_	_
+10	por	por	ADP	ADP	_	13	case	_	_
+11	uma	um	DET	DET	_	13	det	_	_
+12	boa	bom	ADJ	ADJ	_	13	amod	_	_
+13	fase	fase	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = train-s3747
+# text = Primal Scream é o segundo álbum de estúdio da banda escocesa Primal Scream, foi lançado em 1989.
+1	Primal	_	PROPN	PNOUN	_	2	amod	_	_
+2	Scream	_	PROPN	PNOUN	_	6	nsubj	_	_
+3	é	ser	AUX	AUX	_	6	cop	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	segundo	segundo	ADJ	ADJ	_	6	amod	_	_
+6	álbum	álbum	NOUN	NOUN	_	0	root	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
+8	estúdio	estúdio	NOUN	NOUN	_	6	nmod	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	ADP	_	11	case	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	banda	banda	NOUN	NOUN	_	6	nmod	_	_
+12	escocesa	escocês	ADJ	ADJ	_	11	amod	_	_
+13	Primal	_	PROPN	PNOUN	_	14	amod	_	_
+14	Scream	_	PROPN	PNOUN	_	11	appos	_	SpaceAfter=No
+15	,	,	PUNCT	.	_	17	punct	_	_
+16	foi	_	AUX	AUX	_	17	aux:pass	_	_
+17	lançado	lançar	VERB	VERB	_	6	parataxis	_	_
+18	em	em	ADP	ADP	_	19	case	_	_
+19	1989	1989	NUM	NUM	NumType=Card	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	6	punct	_	_
+

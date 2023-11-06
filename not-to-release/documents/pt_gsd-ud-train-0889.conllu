@@ -1,0 +1,280 @@
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = O mimo em questão foi o CD "Deixa clarear", de Zeca Pagodinho.
+# sent_id = train-s8822
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	mimo	mimo	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+3	em	em	ADP	_	_	4	case	_	_
+4	questão	questão	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	CD	cd	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	Deixa	Deixa	PROPN	_	Gender=Masc|Number=Sing	7	appos	_	_
+10	clarear	clarear	VERB	_	Number=Sing	9	flat:name	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	Zeca	Zeca	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	7	nmod	_	_
+15	Pagodinho	Pagodinho	PROPN	_	Number=Sing	14	flat:name	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = train-s8823
+# text = "Não podemos travar todas.
+1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
+2	Não	não	ADV	ADV	Polarity=Neg	4	advmod	_	_
+3	podemos	_	AUX	AUX	_	4	aux	_	_
+4	travar	travar	VERB	VERB	_	0	root	_	_
+5	todas	_	PRON	PRON	_	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s8824
+# text = Em viagens longas, é comum as crianças deitarem no banco traseiro ou até mesmo se acomodarem no colo das mães.
+1	Em	em	ADP	ADP	_	2	case	_	_
+2	viagens	viagem	NOUN	NOUN	_	5	nmod	_	_
+3	longas	longo	ADJ	ADJ	_	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	2	punct	_	_
+5	é	ser	VERB	VERB	_	0	root	_	_
+6	comum	comum	ADJ	ADJ	_	5	xcomp	_	_
+7	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	crianças	criança	NOUN	NOUN	_	9	nsubj	_	_
+9	deitarem	deitar	VERB	VERB	_	5	csubj	_	_
+10-11	no	_	_	_	_	_	_	_	_
+10	em	em	ADP	ADP	_	12	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	banco	banco	NOUN	NOUN	_	9	nmod	_	_
+13	traseiro	traseiro	ADJ	ADJ	_	12	amod	_	_
+14	ou	ou	CCONJ	CONJ	_	18	cc	_	_
+15	até	até	ADV	ADV	_	16	advmod	_	_
+16	mesmo	mesmo	ADV	ADV	_	18	advmod	_	_
+17	se	_	PRON	PRON	_	18	obj	_	_
+18	acomodarem	acomodar	VERB	VERB	_	9	conj	_	_
+19-20	no	_	_	_	_	_	_	_	_
+19	em	em	ADP	ADP	_	21	case	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	colo	colo	NOUN	NOUN	_	18	nmod	_	_
+22-23	das	_	_	_	_	_	_	_	_
+22	de	de	ADP	ADP	_	24	case	_	_
+23	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	mães	mãe	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s8825
+# text = A carta endereçada a José Aparecido e os papéis do Serviço Público Eleitoral do Distrito Federal com o pedido de transferência de título ficaram guardados por mais de 25 anos e são revelados agora com exclusividade pelo Correio (leia fac - símile).
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	carta	carta	NOUN	NOUN	_	26	nsubj	_	_
+3	endereçada	endereçar	VERB	VERB	_	2	acl	_	_
+4	a	_	ADP	ADP	_	5	case	_	_
+5	José	_	PROPN	PNOUN	_	3	nmod	_	_
+6	Aparecido	_	PROPN	PNOUN	_	5	flat	_	_
+7	e	e	CCONJ	CONJ	_	9	cc	_	_
+8	os	o	DET	DET	_	9	det	_	_
+9	papéis	_	NOUN	NOUN	_	2	conj	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	ADP	_	12	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Serviço	_	PROPN	PNOUN	_	9	nmod	_	_
+13	Público	_	PROPN	PNOUN	_	12	amod	_	_
+14	Eleitoral	_	PROPN	PNOUN	_	12	amod	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Distrito	_	PROPN	PNOUN	_	12	nmod	_	_
+18	Federal	_	PROPN	PNOUN	_	17	amod	_	_
+19	com	com	ADP	ADP	_	21	case	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	pedido	pedido	NOUN	NOUN	_	9	nmod	_	_
+22	de	de	ADP	ADP	_	23	case	_	_
+23	transferência	transferência	NOUN	NOUN	_	21	nmod	_	_
+24	de	de	ADP	ADP	_	25	case	_	_
+25	título	título	NOUN	NOUN	_	23	nmod	_	_
+26	ficaram	ficar	VERB	VERB	_	0	root	_	_
+27	guardados	guardado	ADJ	ADJ	_	26	xcomp	_	_
+28	por	por	ADP	ADP	_	32	case	_	_
+29	mais	mais	ADV	ADV	_	31	advmod	_	_
+30	de	de	ADP	ADP	_	29	case	_	_
+31	25	25	NUM	NUM	NumType=Card	32	nummod	_	_
+32	anos	ano	NOUN	NOUN	_	26	nmod	_	_
+33	e	e	CCONJ	CONJ	_	35	cc	_	_
+34	são	ser	AUX	AUX	_	35	aux:pass	_	_
+35	revelados	revelar	VERB	VERB	_	26	conj	_	_
+36	agora	agora	ADV	ADV	_	35	advmod	_	_
+37	com	com	ADP	ADP	_	38	case	_	_
+38	exclusividade	exclusividade	NOUN	NOUN	_	35	nmod	_	_
+39-40	pelo	_	_	_	_	_	_	_	_
+39	por	por	ADP	ADP	_	41	case	_	_
+40	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	Correio	_	PROPN	PNOUN	_	35	nmod	_	_
+42	(	(	PUNCT	.	_	43	punct	_	SpaceAfter=No
+43	leia	ler	VERB	VERB	_	26	parataxis	_	_
+44	fac	_	NOUN	NOUN	_	43	obj	_	_
+45	-	-	PUNCT	.	_	44	punct	_	_
+46	símile	símile	NOUN	NOUN	_	44	flat	_	SpaceAfter=No
+47	)	)	PUNCT	.	_	43	punct	_	SpaceAfter=No
+48	.	.	PUNCT	.	_	26	punct	_	_
+
+# sent_id = train-s8826
+# text = "Partiu tranquilamente, como ele teria desejado", disse a família em nota.
+1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
+2	Partiu	partir	VERB	VERB	_	11	ccomp	_	_
+3	tranquilamente	tranquilamente	ADV	ADV	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	6	punct	_	_
+5	como	_	CCONJ	CONJ	_	6	mark	_	_
+6	ele	_	PRON	PRON	_	2	advcl	_	_
+7	teria	ter	AUX	AUX	_	6	aux	_	_
+8	desejado	desejar	VERB	VERB	_	6	case	_	SpaceAfter=No
+9	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	2	punct	_	_
+11	disse	dizer	VERB	VERB	_	0	root	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	família	família	NOUN	NOUN	_	11	nsubj	_	_
+14	em	em	ADP	ADP	_	15	case	_	_
+15	nota	nota	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = train-s8827
+# text = A TV 3D UD tem acesso a mais de 1.400 aplicativos e conteúdos que incluem filmes e jogos.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	TV	tv	NOUN	NOUN	_	5	nsubj	_	_
+3	3D	_	NUM	NUM	NumType=Card	2	appos	_	_
+4	UD	_	PROPN	PNOUN	_	2	appos	_	_
+5	tem	ter	VERB	VERB	_	0	root	_	_
+6	acesso	acesso	NOUN	NOUN	_	5	obj	_	_
+7	a	_	ADP	ADP	_	11	case	_	_
+8	mais	mais	ADV	ADV	_	10	advmod	_	_
+9	de	de	ADP	ADP	_	8	case	_	_
+10	1.400	_	NUM	NUM	NumType=Card	11	nummod	_	_
+11	aplicativos	aplicativo	NOUN	NOUN	_	6	nmod	_	_
+12	e	e	CCONJ	CONJ	_	13	cc	_	_
+13	conteúdos	conteúdo	NOUN	NOUN	_	11	conj	_	_
+14	que	_	PRON	PRON	_	15	nsubj	_	_
+15	incluem	incluir	VERB	VERB	_	13	acl:relcl	_	_
+16	filmes	filme	NOUN	NOUN	_	15	obj	_	_
+17	e	e	CCONJ	CONJ	_	18	cc	_	_
+18	jogos	jogo	NOUN	NOUN	_	16	conj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = A ação penal começou a ser julgada em 2 de agosto de 2012.
+# sent_id = train-s8828
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ação	ação	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	penal	penal	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	começou	começar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	a	a	SCONJ	_	_	7	mark	_	_
+6	ser	ser	AUX	_	VerbForm=Inf	7	aux:pass	_	_
+7	julgada	julgar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	4	xcomp	_	_
+8	em	em	ADP	_	_	9	case	_	_
+9	2	2	NUM	_	NumType=Card	7	obl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	agosto	agosto	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	2012	2012	NUM	_	NumType=Card	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Faixas como "This Is the Place" e "Don't Forget Me", expressou o seu desagrado intenso de entorpecentes e os efeitos nocivos físicos e emocionais que lhe causou.
+# sent_id = train-s8829
+1	Faixas	faixa	NOUN	_	Gender=Fem|Number=Plur	16	nsubj	_	_
+2	como	como	ADP	_	_	4	case	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	This	This	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	1	nmod	_	_
+5	Is	Is	PROPN	_	Number=Sing	4	flat:name	_	_
+6	the	the	PROPN	_	Number=Sing	4	flat:name	_	_
+7	Place	Place	PROPN	_	Number=Sing	4	flat:name	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	4	punct	_	_
+9	e	e	CCONJ	_	_	11	cc	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	Don't	Don't	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	4	conj	_	_
+12	Forget	Forget	PROPN	_	Number=Sing	11	flat:name	_	_
+13	Me	Me	PROPN	_	Number=Sing	11	flat:name	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	4	punct	_	_
+16	expressou	expressar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	19	det	_	_
+19	desagrado	desagrado	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
+20	intenso	intenso	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	entorpecentes	entorpecente	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	_
+23	e	e	CCONJ	_	_	25	cc	_	_
+24	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	efeitos	efeito	NOUN	_	Gender=Masc|Number=Plur	19	conj	_	_
+26	nocivos	nocivo	ADJ	_	Gender=Masc|Number=Plur	25	amod	_	_
+27	físicos	físico	ADJ	_	Gender=Masc|Number=Plur	25	amod	_	_
+28	e	e	CCONJ	_	_	29	cc	_	_
+29	emocionais	emocional	ADJ	_	Gender=Masc|Number=Plur	27	conj	_	_
+30	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	32	nsubj	_	_
+31	lhe	ele	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	iobj	_	_
+32	causou	causar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	acl:relcl	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Quando começou a se interessar pela carreira musical, seu pai, antigo tenente da RAF, tentou convencê - lo a seguir uma carreira mais convencional.
+# sent_id = train-s8830
+1	Quando	quando	SCONJ	_	_	2	mark	_	_
+2	começou	começar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	advcl	_	_
+3	a	a	SCONJ	_	_	5	mark	_	_
+4	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
+5	interessar	interessar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+6-7	pela	_	_	_	_	_	_	_	_
+6	por	por	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	carreira	carreira	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+9	musical	musical	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	5	punct	_	_
+11	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	12	det	_	_
+12	pai	pai	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	antigo	antigo	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+15	tenente	tenente	NOUN	_	Gender=Masc|Number=Sing	12	appos	_	_
+16-17	da	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	RAF	RAF	PROPN	_	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	15	punct	_	_
+20	tentou	tentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+21	convencê	convencer	VERB	_	VerbForm=Inf	20	xcomp	_	_
+22	-	-	PUNCT	_	_	21	punct	_	_
+23	lo	ele	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
+24	a	a	SCONJ	_	_	25	mark	_	_
+25	seguir	seguir	VERB	_	VerbForm=Inf	21	xcomp	_	_
+26	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	carreira	carreira	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	_
+28	mais	mais	ADV	_	_	29	advmod	_	_
+29	convencional	convencional	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = train-s8831
+# text = Os outros três atletas haviam chegado ao Palestra Itália ao longo deste ano e também tinham seus contratos em vias de expirar.
+1	Os	o	DET	DET	_	4	det	_	_
+2	outros	_	DET	DET	_	4	det	_	_
+3	três	_	NUM	NUM	NumType=Card	4	nummod	_	_
+4	atletas	atleta	NOUN	NOUN	_	6	nsubj	_	_
+5	haviam	haver	AUX	AUX	_	6	aux	_	_
+6	chegado	chegar	VERB	VERB	_	0	root	_	_
+7-8	ao	_	_	_	_	_	_	_	_
+7	a	a	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Palestra	_	PROPN	PNOUN	_	6	nmod	_	_
+10	Itália	_	PROPN	PNOUN	_	9	flat	_	_
+11-12	ao	_	_	_	_	_	_	_	_
+11	a	a	ADP	ADP	_	13	case	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	longo	longo	NOUN	NOUN	_	6	nmod	_	_
+14	deste	_	ADP	ADP	_	15	case	_	_
+15	ano	ano	NOUN	NOUN	_	13	nmod	_	_
+16	e	e	CCONJ	CONJ	_	18	cc	_	_
+17	também	também	ADV	ADV	_	18	advmod	_	_
+18	tinham	ter	VERB	VERB	_	6	conj	_	_
+19	seus	_	DET	DET	_	20	det:poss	_	_
+20	contratos	contrato	NOUN	NOUN	_	18	obj	_	_
+21	em	em	ADP	ADP	_	22	case	_	_
+22	vias	via	NOUN	NOUN	_	18	nmod	_	_
+23	de	_	ADP	ADP	_	24	mark	_	_
+24	expirar	expirar	VERB	VERB	_	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	6	punct	_	_
+

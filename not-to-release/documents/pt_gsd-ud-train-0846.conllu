@@ -1,0 +1,331 @@
+# sent_id = train-s8400
+# text = Entretanto, 61,1 % desse mercado, que representou R $ 94,3 bilhões, foi ocupado por produtos importados.
+1	Entretanto	entretanto	ADV	ADV	_	16	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	.	_	1	punct	_	_
+3	61,1	61,1	NUM	NUM	NumType=Card	4	nummod	_	_
+4	%	_	SYM	SYM	_	16	nsubj:pass	_	_
+5	desse	_	ADP	ADP	_	6	case	_	_
+6	mercado	mercado	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	9	punct	_	_
+8	que	_	PRON	PRON	_	9	nsubj	_	_
+9	representou	representar	VERB	VERB	_	4	acl:relcl	_	_
+10	R	r	NOUN	NOUN	_	9	obj	_	_
+11	$	_	SYM	SYM	_	10	flat	_	_
+12	94,3	94,3	NUM	NUM	NumType=Card	13	nummod	_	_
+13	bilhões	_	NUM	NUM	NumType=Card	10	nummod	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	9	punct	_	_
+15	foi	_	AUX	AUX	_	16	aux:pass	_	_
+16	ocupado	ocupar	VERB	VERB	_	0	root	_	_
+17	por	por	ADP	ADP	_	18	case	_	_
+18	produtos	produto	NOUN	NOUN	_	16	nmod	_	_
+19	importados	importado	ADJ	ADJ	_	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = train-s8401
+# text = Ao se aproximar da cantora com papel e caneta, provavelmente para pedir um autógrafo de Gaga, o fã foi imobilizado por dois seguranças.
+1-2	Ao	_	_	_	_	_	_	_	_
+1	A	a	ADP	ADP	_	4	case	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	se	_	PRON	PRON	_	4	obj	_	_
+4	aproximar	aproximar	VERB	VERB	_	24	advcl	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	ADP	_	7	case	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	cantora	cantor	NOUN	NOUN	_	4	nmod	_	_
+8	com	com	ADP	ADP	_	9	case	_	_
+9	papel	papel	NOUN	NOUN	_	4	nmod	_	_
+10	e	e	CCONJ	CONJ	_	11	cc	_	_
+11	caneta	caneta	NOUN	NOUN	_	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	.	_	15	punct	_	_
+13	provavelmente	provavelmente	ADV	ADV	_	15	advmod	_	_
+14	para	_	ADP	ADP	_	15	mark	_	_
+15	pedir	pedir	VERB	VERB	_	4	advcl	_	_
+16	um	um	DET	DET	_	17	det	_	_
+17	autógrafo	autógrafo	NOUN	NOUN	_	15	obj	_	_
+18	de	de	ADP	ADP	_	19	case	_	_
+19	Gaga	_	PROPN	PNOUN	_	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	.	_	4	punct	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	fã	fã	NOUN	NOUN	_	24	nsubj:pass	_	_
+23	foi	_	AUX	AUX	_	24	aux:pass	_	_
+24	imobilizado	imobilizar	VERB	VERB	_	0	root	_	_
+25	por	por	ADP	ADP	_	27	case	_	_
+26	dois	_	NUM	NUM	NumType=Card	27	nummod	_	_
+27	seguranças	segurança	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	24	punct	_	_
+
+# sent_id = train-s8402a
+# text = Sua civilização floresceu até o século II A.D.
+1	Sua	_	DET	DET	_	2	det:poss	_	_
+2	civilização	civilização	NOUN	NOUN	_	3	nsubj	_	_
+3	floresceu	florescer	VERB	VERB	_	0	root	_	_
+4	até	_	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	século	século	NOUN	NOUN	_	3	nmod	_	_
+7	II	_	NUM	NUM	NumType=Card	6	appos	_	_
+8	A.D.	_	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s8402b
+# text = Alguns estudiosos pensam que eles começaram a prática da siderurgia na segunda metade do primeiro milénio a.C., o primeiro em toda África subsariana.
+1	Alguns	_	DET	DET	_	2	det	_	_
+2	estudiosos	estudioso	NOUN	NOUN	_	3	nsubj	_	_
+3	pensam	pensar	VERB	VERB	_	0	root	_	_
+4	que	que	CCONJ	CONJ	_	6	mark	_	_
+5	eles	_	PRON	PRON	_	6	nsubj	_	_
+6	começaram	começar	VERB	VERB	_	3	ccomp	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	prática	_	NOUN	NOUN	_	6	obj	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	ADP	_	11	case	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	siderurgia	siderurgia	NOUN	NOUN	_	8	nmod	_	_
+12-13	na	_	_	_	_	_	_	_	_
+12	em	em	ADP	ADP	_	15	case	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	segunda	segundo	ADJ	ADJ	_	15	amod	_	_
+15	metade	metade	NOUN	NOUN	_	6	nmod	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	ADP	_	19	case	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	primeiro	primeiro	ADJ	ADJ	_	19	amod	_	_
+19	milénio	milénio	NOUN	NOUN	_	15	nmod	_	_
+20	a.C.	_	PUNCT	.	_	19	punct	_	SpaceAfter=No
+21	,	,	PUNCT	.	_	23	punct	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	primeiro	primeiro	NOUN	NOUN	_	6	parataxis	_	_
+24	em	em	ADP	ADP	_	26	case	_	_
+25	toda	_	DET	DET	_	26	det	_	_
+26	África	_	NOUN	NOUN	_	23	nmod	_	_
+27	subsariana	subsariano	ADJ	ADJ	_	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	3	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Em 28 de dezembro de 1984, uma nota da coluna Roda Viva, do jornal O Dia, anunciava que a Secretaria de Educação do Piauí pretendia montar já no ano seguinte "a TV Educativa até o mês de setembro".
+# sent_id = train-s8403
+1	Em	em	ADP	_	_	2	case	_	_
+2	28	28	NUM	_	NumType=Card	22	obl	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	dezembro	dezembro	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	1984	1984	NUM	_	NumType=Card	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	2	punct	_	_
+8	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	nota	nota	NOUN	_	Gender=Fem|Number=Sing	22	nsubj	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	coluna	coluna	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+13	Roda	Roda	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	12	appos	_	_
+14	Viva	Viva	PROPN	_	Number=Sing	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	jornal	jornal	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+19	O	O	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing|PronType=Art	18	appos	_	_
+20	Dia	Dia	PROPN	_	Number=Sing	19	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	18	punct	_	_
+22	anunciava	anunciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+23	que	que	SCONJ	_	_	31	mark	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	Secretaria	Secretaria	PROPN	_	Gender=Fem|Number=Sing	31	nsubj	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	Educação	Educação	PROPN	_	Number=Sing	25	nmod	_	_
+28-29	do	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	Piauí	Piauí	PROPN	_	Number=Sing	25	nmod	_	_
+31	pretendia	pretender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	ccomp	_	_
+32	montar	montar	VERB	_	VerbForm=Inf	31	xcomp	_	_
+33	já	já	ADV	_	_	32	advmod	_	_
+34-35	no	_	_	_	_	_	_	_	_
+34	em	em	ADP	_	_	36	case	_	_
+35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	ano	ano	NOUN	_	Gender=Masc|Number=Sing	32	obl	_	_
+37	seguinte	seguinte	ADJ	_	Gender=Masc|Number=Sing	36	amod	_	_
+38	"	"	PUNCT	_	_	40	punct	_	SpaceAfter=No
+39	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	TV	tv	NOUN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	32	obj	_	_
+41	Educativa	Educativa	PROPN	_	Gender=Fem|Number=Sing	40	amod	_	_
+42	até	até	ADP	_	_	44	case	_	_
+43	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	mês	mês	NOUN	_	Gender=Masc|Number=Sing	41	nmod	_	_
+45	de	de	ADP	_	_	46	case	_	_
+46	setembro	setembro	NOUN	_	Gender=Masc|Number=Sing	44	nmod	_	SpaceAfter=No
+47	"	"	PUNCT	_	_	40	punct	_	SpaceAfter=No
+48	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = train-s8404
+# text = A denúncia foi feita pelo vereador Marco Rillo (PT).
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	denúncia	denúncia	NOUN	NOUN	_	4	nsubj:pass	_	_
+3	foi	_	AUX	AUX	_	4	aux:pass	_	_
+4	feita	_	VERB	VERB	_	0	root	_	_
+5-6	pelo	_	_	_	_	_	_	_	_
+5	por	por	ADP	ADP	_	7	case	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	vereador	vereador	NOUN	NOUN	_	4	nmod	_	_
+8	Marco	_	PROPN	PNOUN	_	7	appos	_	_
+9	Rillo	_	PROPN	PNOUN	_	8	flat	_	_
+10	(	(	PUNCT	.	_	11	punct	_	SpaceAfter=No
+11	PT	_	PROPN	PNOUN	_	7	appos	_	SpaceAfter=No
+12	)	)	PUNCT	.	_	11	punct	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s8405
+# text = Algumas comunidades cristãs que falavam português, nas Índia, Sri Lanka, Malásia e Indonésia preservaram a sua língua mesmo depois de se isolarem de Portugal.
+1	Algumas	_	DET	DET	_	2	det	_	_
+2	comunidades	comunidade	NOUN	NOUN	_	18	nsubj	_	_
+3	cristãs	cristão	ADJ	ADJ	_	2	amod	_	_
+4	que	_	PRON	PRON	_	5	nsubj	_	_
+5	falavam	falar	VERB	VERB	_	2	acl:relcl	_	_
+6	português	português	NOUN	NOUN	_	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	10	punct	_	_
+8-9	nas	_	_	_	_	_	_	_	_
+8	em	em	ADP	ADP	_	10	case	_	_
+9	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	Índia	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	12	punct	_	_
+12	Sri	_	PROPN	PNOUN	_	10	conj	_	_
+13	Lanka	_	PROPN	PNOUN	_	12	flat	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	15	punct	_	_
+15	Malásia	_	PROPN	PNOUN	_	10	conj	_	_
+16	e	e	CCONJ	CONJ	_	17	cc	_	_
+17	Indonésia	_	PROPN	PNOUN	_	10	conj	_	_
+18	preservaram	preservar	VERB	VERB	_	0	root	_	_
+19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	sua	_	DET	DET	_	21	det:poss	_	_
+21	língua	língua	NOUN	NOUN	_	18	obj	_	_
+22	mesmo	mesmo	ADV	ADV	_	23	advmod	_	_
+23	depois	depois	ADV	ADV	_	26	mark	_	_
+24	de	_	ADP	ADP	_	23	fixed	_	_
+25	se	_	PRON	PRON	_	26	obj	_	_
+26	isolarem	isolar	VERB	VERB	_	18	advcl	_	_
+27	de	de	ADP	ADP	_	28	case	_	_
+28	Portugal	_	PROPN	PNOUN	_	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	18	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Até agora, segundo os dirigentes, cinco clubes brasileiros procuraram o Cruzeiro, interessados em ter o meia celeste: Flamengo, Fluminense, São Paulo, Santos e Grêmio.
+# sent_id = train-s8406
+1	Até	até	ADP	_	_	2	case	_	_
+2	agora	agora	ADV	_	_	11	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	segundo	segundo	ADP	_	_	6	case	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	dirigentes	dirigente	NOUN	_	Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	cinco	cinco	NUM	_	NumType=Card	9	nummod	_	_
+9	clubes	clube	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
+10	brasileiros	brasileiro	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
+11	procuraram	procurar	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Cruzeiro	Cruzeiro	PROPN	_	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	interessados	interessar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	13	acl	_	_
+16	em	em	SCONJ	_	_	17	mark	_	_
+17	ter	ter	VERB	_	VerbForm=Inf	15	xcomp	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	meia	meia	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+20	celeste	celeste	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+21	:	:	PUNCT	_	_	22	punct	_	_
+22	Flamengo	Flamengo	PROPN	_	Gender=Masc|Number=Sing	19	appos	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	Fluminense	Fluminense	PROPN	_	Gender=Masc|Number=Sing	22	conj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	São	São	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	22	conj	_	_
+27	Paulo	Paulo	PROPN	_	Number=Sing	26	flat:name	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	_
+29	Santos	Santos	PROPN	_	Gender=Masc|Number=Sing	22	conj	_	_
+30	e	e	CCONJ	_	_	31	cc	_	_
+31	Grêmio	Grêmio	PROPN	_	Gender=Masc|Number=Sing	22	conj	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Não há ainda nenhuma data ou algo mais concreto além dos eventos tradicionais, como a Assembleia Geral das Nações Unidas -- setembro, em Nova York -- e o encontro do Mercosul para selar a entrada da Venezuela no bloco em 31 de julho -- e esta nem viagem será, pois foi transferida do Rio para Brasília.
+# sent_id = train-s8407
+1	Não	não	ADV	_	Polarity=Neg	2	advmod	_	_
+2	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ainda	ainda	ADV	_	_	2	advmod	_	_
+4	nenhuma	nenhum	DET	_	Gender=Fem|Number=Sing|PronType=Neg	5	det	_	_
+5	data	data	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+6	ou	ou	CCONJ	_	_	7	cc	_	_
+7	algo	algo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	5	conj	_	_
+8	mais	mais	ADV	_	_	9	advmod	_	_
+9	concreto	concreto	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+10	além	além	ADV	_	_	2	advmod	_	_
+11-12	dos	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	eventos	evento	NOUN	_	Gender=Masc|Number=Plur	10	obl	_	_
+14	tradicionais	tradicional	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	como	como	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Assembleia	Assembleia	PROPN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+19	Geral	Geral	PROPN	_	Number=Sing	18	flat:name	_	_
+20-21	das	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	Nações	Nações	PROPN	_	ExtPos=PROPN|Number=Sing	18	nmod	_	_
+23	Unidas	Unidas	PROPN	_	Number=Sing	22	flat:name	_	_
+24	--	--	PUNCT	_	_	25	punct	_	_
+25	setembro	setembro	NOUN	_	Gender=Masc|Number=Sing	18	appos	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	28	punct	_	_
+27	em	em	ADP	_	_	28	case	_	_
+28	Nova	Nova	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	25	nmod	_	_
+29	York	York	PROPN	_	Number=Sing	28	flat:name	_	_
+30	--	--	PUNCT	_	_	25	punct	_	_
+31	e	e	CCONJ	_	_	33	cc	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	encontro	encontro	NOUN	_	Gender=Masc|Number=Sing	18	conj	_	_
+34-35	do	_	_	_	_	_	_	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	Mercosul	Mercosul	PROPN	_	Gender=Masc|Number=Sing	33	nmod	_	_
+37	para	para	SCONJ	_	_	38	mark	_	_
+38	selar	selar	VERB	_	VerbForm=Inf	33	acl	_	_
+39	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	entrada	entrada	NOUN	_	Gender=Fem|Number=Sing	38	obj	_	_
+41-42	da	_	_	_	_	_	_	_	_
+41	de	de	ADP	_	_	43	case	_	_
+42	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	Venezuela	Venezuela	PROPN	_	Gender=Fem|Number=Sing	40	nmod	_	_
+44-45	no	_	_	_	_	_	_	_	_
+44	em	em	ADP	_	_	46	case	_	_
+45	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	bloco	bloco	NOUN	_	Gender=Masc|Number=Sing	40	nmod	_	_
+47	em	em	ADP	_	_	48	case	_	_
+48	31	31	NUM	_	NumType=Card	38	obl	_	_
+49	de	de	ADP	_	_	50	case	_	_
+50	julho	julho	NOUN	_	Gender=Masc|Number=Sing	48	nmod	_	_
+51	--	--	PUNCT	_	_	18	punct	_	_
+52	e	e	CCONJ	_	_	56	cc	_	_
+53	esta	este	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	56	nsubj	_	_
+54	nem	nem	ADV	_	_	55	cc	_	_
+55	viagem	viagem	NOUN	_	Gender=Fem|Number=Sing	53	conj	_	_
+56	será	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	conj	_	SpaceAfter=No
+57	,	,	PUNCT	_	_	56	punct	_	_
+58	pois	pois	SCONJ	_	_	60	mark	_	_
+59	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	60	aux:pass	_	_
+60	transferida	transferir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	56	advcl	_	_
+61-62	do	_	_	_	_	_	_	_	_
+61	de	de	ADP	_	_	63	case	_	_
+62	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	63	det	_	_
+63	Rio	Rio	PROPN	_	Gender=Masc|Number=Sing	60	obl	_	_
+64	para	para	ADP	_	_	65	case	_	_
+65	Brasília	Brasília	PROPN	_	Gender=Fem|Number=Sing	60	obl	_	SpaceAfter=No
+66	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
+
+# sent_id = train-s8408
+# text = Rafinha Bastos mudou de ideia.
+1	Rafinha	_	PROPN	PNOUN	_	3	nsubj	_	_
+2	Bastos	_	PROPN	PNOUN	_	1	flat	_	_
+3	mudou	mudar	VERB	VERB	_	0	root	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
+5	ideia	ideia	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+

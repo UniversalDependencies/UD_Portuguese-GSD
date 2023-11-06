@@ -1,0 +1,217 @@
+# sent_id = train-s5539
+# text = "Não temos aqui um aproveitamento bom por acaso.
+1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
+2	Não	não	ADV	ADV	Polarity=Neg	3	advmod	_	_
+3	temos	ter	VERB	VERB	_	0	root	_	_
+4	aqui	aqui	ADV	ADV	_	3	advmod	_	_
+5	um	um	DET	DET	_	6	det	_	_
+6	aproveitamento	aproveitamento	NOUN	NOUN	_	3	obj	_	_
+7	bom	bom	ADJ	ADJ	_	6	amod	_	_
+8	por	por	ADP	ADP	_	9	case	_	_
+9	acaso	acaso	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Já o candidato Carlos Amastha (PP), coligação "Um novo caminho é possível", grava programa eleitoral, faz reunião com coordenadores de campanha e se prepara para o debate.
+# sent_id = train-s5540
+1	Já	já	ADV	_	_	19	advmod	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	candidato	candidato	NOUN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
+4	Carlos	Carlos	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	3	appos	_	_
+5	Amastha	Amastha	PROPN	_	Number=Sing	4	flat:name	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	PP	PP	PROPN	_	Gender=Masc|Number=Sing	3	parataxis	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	coligação	coligação	NOUN	_	Gender=Fem|Number=Sing	3	appos	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	Um	Um	PROPN	_	Gender=Masc|Number=Sing	10	appos	_	_
+13	novo	novo	ADJ	_	Number=Sing	12	flat:name	_	_
+14	caminho	caminho	PROPN	_	Number=Sing	12	flat:name	_	_
+15	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	possível	possível	ADJ	_	Number=Sing	10	acl:relcl	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	10	punct	_	_
+19	grava	gravar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	programa	programa	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
+21	eleitoral	eleitoral	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	_
+24	reunião	reunião	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	_
+25	com	com	ADP	_	_	26	case	_	_
+26	coordenadores	coordenador	NOUN	_	Gender=Masc|Number=Plur	24	nmod	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
+29	e	e	CCONJ	_	_	31	cc	_	_
+30	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	expl	_	_
+31	prepara	preparar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	_
+32	para	para	ADP	_	_	34	case	_	_
+33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	debate	debate	NOUN	_	Gender=Masc|Number=Sing	31	obj	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = train-s5541
+# text = São Paulo -- Movimentos sociais, liderados pela Frente de Esculacho Popular fizeram hoje (20), na região da Avenida Paulista, no centro de São Paulo, uma manifestação para expor publicamente um ex - militar reformado acusado de ter comandado sessões de tortura e homicídios durante a ditadura militar.
+1	São	_	PROPN	PNOUN	_	14	parataxis	_	_
+2	Paulo	_	PROPN	PNOUN	_	1	flat	_	_
+3	--	_	PUNCT	.	_	14	punct	_	_
+4	Movimentos	movimento	NOUN	NOUN	_	14	nsubj	_	_
+5	sociais	social	ADJ	ADJ	_	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	.	_	7	punct	_	_
+7	liderados	liderar	VERB	VERB	_	4	acl	_	_
+8-9	pela	_	_	_	_	_	_	_	_
+8	por	por	ADP	ADP	_	10	case	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Frente	_	PROPN	PNOUN	_	7	nmod	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
+12	Esculacho	_	PROPN	PNOUN	_	10	nmod	_	_
+13	Popular	_	PROPN	PNOUN	_	12	amod	_	_
+14	fizeram	fazer	VERB	VERB	_	0	root	_	_
+15	hoje	hoje	ADV	ADV	_	14	advmod	_	_
+16	(	(	PUNCT	.	_	17	punct	_	SpaceAfter=No
+17	20	20	NUM	NUM	NumType=Card	15	nmod	_	SpaceAfter=No
+18	)	)	PUNCT	.	_	17	punct	_	SpaceAfter=No
+19	,	,	PUNCT	.	_	22	punct	_	_
+20-21	na	_	_	_	_	_	_	_	_
+20	em	em	ADP	ADP	_	22	case	_	_
+21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	região	região	NOUN	NOUN	_	14	nmod	_	_
+23-24	da	_	_	_	_	_	_	_	_
+23	de	de	ADP	ADP	_	25	case	_	_
+24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	Avenida	avenida	NOUN	NOUN	_	22	nmod	_	_
+26	Paulista	_	PROPN	PNOUN	_	25	appos	_	SpaceAfter=No
+27	,	,	PUNCT	.	_	30	punct	_	_
+28-29	no	_	_	_	_	_	_	_	_
+28	em	em	ADP	ADP	_	30	case	_	_
+29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	centro	centro	NOUN	NOUN	_	25	nmod	_	_
+31	de	de	ADP	ADP	_	32	case	_	_
+32	São	_	PROPN	PNOUN	_	30	nmod	_	_
+33	Paulo	_	PROPN	PNOUN	_	32	flat	_	SpaceAfter=No
+34	,	,	PUNCT	.	_	30	punct	_	_
+35	uma	um	DET	DET	_	36	det	_	_
+36	manifestação	manifestação	NOUN	NOUN	_	14	obj	_	_
+37	para	_	ADP	ADP	_	38	mark	_	_
+38	expor	expor	VERB	VERB	_	14	advcl	_	_
+39	publicamente	publicamente	ADV	ADV	_	38	advmod	_	_
+40	um	um	DET	DET	_	41	det	_	_
+41	ex	_	PART	PRT	_	38	obj	_	_
+42	-	-	PUNCT	.	_	41	punct	_	_
+43	militar	militar	NOUN	NOUN	_	41	flat	_	_
+44	reformado	reformado	ADJ	ADJ	_	41	amod	_	_
+45	acusado	acusar	VERB	VERB	_	41	acl	_	_
+46	de	_	ADP	ADP	_	48	mark	_	_
+47	ter	ter	AUX	AUX	_	48	aux	_	_
+48	comandado	comandar	VERB	VERB	_	45	nmod	_	_
+49	sessões	sessão	NOUN	NOUN	_	48	obj	_	_
+50	de	de	ADP	ADP	_	51	case	_	_
+51	tortura	tortura	NOUN	NOUN	_	49	nmod	_	_
+52	e	e	CCONJ	CONJ	_	53	cc	_	_
+53	homicídios	homicídio	NOUN	NOUN	_	49	conj	_	_
+54	durante	_	ADP	ADP	_	56	case	_	_
+55	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
+56	ditadura	ditadura	NOUN	NOUN	_	48	nmod	_	_
+57	militar	militar	ADJ	ADJ	_	56	amod	_	SpaceAfter=No
+58	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = train-s5543
+# text = O Serrano Futebol Clube é um time tradicional no município.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Serrano	_	PROPN	PNOUN	_	7	nsubj	_	_
+3	Futebol	_	PROPN	PNOUN	_	2	flat	_	_
+4	Clube	_	PROPN	PNOUN	_	2	flat	_	_
+5	é	ser	AUX	AUX	_	7	cop	_	_
+6	um	um	DET	DET	_	7	det	_	_
+7	time	time	NOUN	NOUN	_	0	root	_	_
+8	tradicional	tradicional	ADJ	ADJ	_	7	amod	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	ADP	_	11	case	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	município	município	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s5544
+# text = Segundo o chefe da Flona, Alexandre Cordeiro, houve demora na obtenção da madeira que será substituída.
+1	Segundo	_	ADP	ADP	_	3	case	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	chefe	chefe	NOUN	NOUN	_	11	nmod	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	ADP	_	6	case	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Flona	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	8	punct	_	_
+8	Alexandre	_	PROPN	PNOUN	_	3	appos	_	_
+9	Cordeiro	_	PROPN	PNOUN	_	8	flat	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	8	punct	_	_
+11	houve	haver	VERB	VERB	_	0	root	_	_
+12	demora	demora	NOUN	NOUN	_	11	obj	_	_
+13-14	na	_	_	_	_	_	_	_	_
+13	em	em	ADP	ADP	_	15	case	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	obtenção	obtenção	NOUN	NOUN	_	12	nmod	_	_
+16-17	da	_	_	_	_	_	_	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
+17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	madeira	madeira	NOUN	NOUN	_	15	nmod	_	_
+19	que	_	PRON	PRON	_	21	nsubj:pass	_	_
+20	será	ser	AUX	AUX	_	21	aux:pass	_	_
+21	substituída	substituir	VERB	VERB	_	18	acl:relcl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = train-s5545
+# text = Foi reeleito em 1997.
+1	Foi	_	AUX	AUX	_	2	aux:pass	_	_
+2	reeleito	reeleger	VERB	VERB	_	0	root	_	_
+3	em	em	ADP	ADP	_	4	case	_	_
+4	1997	1997	NUM	NUM	NumType=Card	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s5546
+# text = Todos naturais do estado do Piauí.
+1	Todos	_	PRON	PRON	_	0	root	_	_
+2	naturais	natural	ADJ	ADJ	_	1	amod	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	estado	estado	NOUN	NOUN	_	2	nmod	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Piauí	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s5547
+# text = A coluna não a encontrou.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	coluna	coluna	NOUN	NOUN	_	5	nsubj	_	_
+3	não	não	ADV	ADV	Polarity=Neg	5	advmod	_	_
+4	a	_	PRON	PRON	_	5	obj	_	_
+5	encontrou	encontrar	VERB	VERB	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s5548
+# text = O suposto assaltante teria então exigido a carteira e o celular do senhor e simulado que estava armado.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	suposto	suposto	ADJ	ADJ	_	3	amod	_	_
+3	assaltante	assaltante	NOUN	NOUN	_	6	nsubj	_	_
+4	teria	ter	AUX	AUX	_	6	aux	_	_
+5	então	então	ADV	ADV	_	6	advmod	_	_
+6	exigido	exigir	VERB	VERB	_	0	root	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	carteira	_	NOUN	NOUN	_	6	obj	_	_
+9	e	e	CCONJ	CONJ	_	11	cc	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	celular	_	NOUN	NOUN	_	8	conj	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	ADP	_	14	case	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	senhor	senhor	NOUN	NOUN	_	8	nmod	_	_
+15	e	e	CCONJ	CONJ	_	16	cc	_	_
+16	simulado	simular	VERB	VERB	_	6	conj	_	_
+17	que	que	CCONJ	CONJ	_	18	mark	_	_
+18	estava	estar	VERB	VERB	_	16	ccomp	_	_
+19	armado	armado	ADJ	ADJ	_	18	xcomp	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	6	punct	_	_
+

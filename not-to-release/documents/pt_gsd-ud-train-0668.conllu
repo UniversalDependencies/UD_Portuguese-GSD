@@ -1,0 +1,279 @@
+# sent_id = train-s6632
+# text = O documento cita um parecer do juiz Bitencourt, que afirma que todos os atos praticados estariam dentro do conceito amplo de gestão fraudulenta.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	documento	documento	NOUN	NOUN	_	3	nsubj	_	_
+3	cita	citar	VERB	VERB	_	0	root	_	_
+4	um	um	DET	DET	_	5	det	_	_
+5	parecer	parecer	NOUN	NOUN	_	3	obj	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	juiz	juiz	NOUN	NOUN	_	5	nmod	_	_
+9	Bitencourt	_	PROPN	PNOUN	_	8	appos	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	12	punct	_	_
+11	que	_	PRON	PRON	_	12	nsubj	_	_
+12	afirma	afirmar	VERB	VERB	_	5	acl:relcl	_	_
+13	que	que	CCONJ	CONJ	_	18	mark	_	_
+14	todos	_	DET	DET	_	16	det	_	_
+15	os	o	DET	DET	_	16	det	_	_
+16	atos	ato	NOUN	NOUN	_	18	nsubj	_	_
+17	praticados	praticar	VERB	VERB	_	16	acl	_	_
+18	estariam	estar	VERB	VERB	_	12	ccomp	_	_
+19	dentro	dentro	ADV	ADV	_	18	advmod	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	ADP	_	22	case	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	conceito	conceito	NOUN	NOUN	_	19	nmod	_	_
+23	amplo	amplo	ADJ	ADJ	_	22	amod	_	_
+24	de	de	ADP	ADP	_	25	case	_	_
+25	gestão	gestão	NOUN	NOUN	_	22	nmod	_	_
+26	fraudulenta	fraudulento	ADJ	ADJ	_	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s6633
+# text = Nesta reunião percebemos a preocupação de todos em que o evento seja um sucesso e que tudo saia conforme programado ", disse.
+1	Nesta	_	ADP	ADP	_	2	case	_	_
+2	reunião	reunião	NOUN	NOUN	_	3	nmod	_	_
+3	percebemos	perceber	VERB	VERB	_	23	ccomp	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	preocupação	preocupação	NOUN	NOUN	_	3	obj	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
+7	todos	_	PRON	PRON	_	5	nmod	_	_
+8	em	em	ADP	ADP	_	9	case	_	_
+9	que	_	PRON	PRON	_	14	nmod	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	evento	evento	NOUN	NOUN	_	14	nsubj	_	_
+12	seja	ser	AUX	AUX	_	14	cop	_	_
+13	um	um	DET	DET	_	14	det	_	_
+14	sucesso	sucesso	NOUN	NOUN	_	5	acl:relcl	_	_
+15	e	e	CCONJ	CONJ	_	18	cc	_	_
+16	que	_	PRON	PRON	_	18	dep	_	_
+17	tudo	_	PRON	PRON	_	18	nsubj	_	_
+18	saia	sair	VERB	VERB	_	14	conj	_	_
+19	conforme	_	CCONJ	CONJ	_	20	mark	_	_
+20	programado	programar	VERB	VERB	_	18	advcl	_	_
+21	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
+22	,	,	PUNCT	.	_	23	punct	_	_
+23	disse	dizer	VERB	VERB	_	0	root	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	23	punct	_	_
+
+# sent_id = train-s6634
+# text = Possui uma excentricidade de 0,0607789 e um período orbital de 2 094,46 dias (5,74 anos).
+1	Possui	possuir	VERB	VERB	_	0	root	_	_
+2	uma	um	DET	DET	_	3	det	_	_
+3	excentricidade	excentricidade	NOUN	NOUN	_	1	obj	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
+5	0,0607789	0,0607789	NUM	NUM	NumType=Card	3	nmod	_	_
+6	e	e	CCONJ	CONJ	_	8	cc	_	_
+7	um	um	DET	DET	_	8	det	_	_
+8	período	período	NOUN	NOUN	_	3	conj	_	_
+9	orbital	orbital	ADJ	ADJ	_	8	amod	_	_
+10	de	de	ADP	ADP	_	13	case	_	_
+11	2	2	NUM	NUM	NumType=Card	12	nummod	_	_
+12	094,46	094,46	NUM	NUM	NumType=Card	13	nummod	_	_
+13	dias	dia	NOUN	NOUN	_	8	nmod	_	_
+14	(	(	PUNCT	.	_	16	punct	_	SpaceAfter=No
+15	5,74	5,74	NUM	NUM	NumType=Card	16	nummod	_	_
+16	anos	ano	NOUN	NOUN	_	13	appos	_	SpaceAfter=No
+17	)	)	PUNCT	.	_	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s6635
+# text = A reforma significará a primeira alta do IVA no Japão em 15 anos, algo que fez com que Noda convocasse eleições antecipadas.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	reforma	reforma	NOUN	NOUN	_	3	nsubj	_	_
+3	significará	significar	VERB	VERB	_	0	root	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	primeira	primeiro	ADJ	ADJ	_	6	amod	_	_
+6	alta	_	NOUN	NOUN	_	3	obj	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	IVA	_	PROPN	PNOUN	_	6	nmod	_	_
+10-11	no	_	_	_	_	_	_	_	_
+10	em	em	ADP	ADP	_	12	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Japão	_	PROPN	PNOUN	_	6	nmod	_	_
+13	em	em	ADP	ADP	_	15	case	_	_
+14	15	15	NUM	NUM	NumType=Card	15	nummod	_	_
+15	anos	ano	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	.	_	17	punct	_	_
+17	algo	_	PRON	PRON	_	6	appos	_	_
+18	que	_	PRON	PRON	_	19	nsubj	_	_
+19	fez	fazer	VERB	VERB	_	17	acl:relcl	_	_
+20	com	_	ADP	ADP	_	23	mark	_	_
+21	que	que	CCONJ	CONJ	_	23	mark	_	_
+22	Noda	_	PROPN	PNOUN	_	23	nsubj	_	_
+23	convocasse	convocar	VERB	VERB	_	19	nmod	_	_
+24	eleições	eleição	NOUN	NOUN	_	23	obj	_	_
+25	antecipadas	antecipado	ADJ	ADJ	_	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s6636
+# text = Pastores de gado, camelos, ovinos, caprinos e, a Zaghawa também ganharam uma parte substancial do seu sustento pela recolha selvagem dos grãos e outros produtos.
+1	Pastores	pastor	NOUN	NOUN	_	15	nsubj	_	_
+2	de	de	ADP	ADP	_	3	case	_	_
+3	gado	gado	NOUN	NOUN	_	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	5	punct	_	_
+5	camelos	camelo	NOUN	NOUN	_	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	.	_	7	punct	_	_
+7	ovinos	_	NOUN	NOUN	_	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	9	punct	_	_
+9	caprinos	_	NOUN	NOUN	_	3	conj	_	_
+10	e	e	CCONJ	CONJ	_	13	cc	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	13	punct	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Zaghawa	_	PROPN	PNOUN	_	1	conj	_	_
+14	também	também	ADV	ADV	_	15	advmod	_	_
+15	ganharam	ganhar	VERB	VERB	_	0	root	_	_
+16	uma	um	DET	DET	_	17	det	_	_
+17	parte	parte	NOUN	NOUN	_	15	obj	_	_
+18	substancial	substancial	ADJ	ADJ	_	17	amod	_	_
+19-20	do	_	_	_	_	_	_	_	_
+19	de	de	ADP	ADP	_	22	case	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	seu	_	DET	DET	_	22	det:poss	_	_
+22	sustento	sustento	NOUN	NOUN	_	17	nmod	_	_
+23-24	pela	_	_	_	_	_	_	_	_
+23	por	por	ADP	ADP	_	25	case	_	_
+24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	recolha	recolha	NOUN	NOUN	_	15	nmod	_	_
+26	selvagem	selvagem	ADJ	ADJ	_	25	amod	_	_
+27-28	dos	_	_	_	_	_	_	_	_
+27	de	de	ADP	ADP	_	29	case	_	_
+28	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	grãos	grão	NOUN	NOUN	_	25	nmod	_	_
+30	e	e	CCONJ	CONJ	_	32	cc	_	_
+31	outros	_	DET	DET	_	32	det	_	_
+32	produtos	produto	NOUN	NOUN	_	29	conj	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = train-s6637
+# text = A queda foi a mais intensa desde dezembro de 2010, quando ficou em -3,0 %, informou nesta terça - feira o Instituto Brasileiro de Geografia e Estatística (IBGE).
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	queda	queda	NOUN	NOUN	_	3	nsubj	_	_
+3	foi	_	VERB	VERB	_	18	ccomp	_	_
+4	a	o	DET	DET	_	5	det	_	_
+5	mais	mais	ADV	ADV	_	6	advmod	_	_
+6	intensa	intenso	ADJ	ADJ	_	3	xcomp	_	_
+7	desde	_	ADP	ADP	_	8	case	_	_
+8	dezembro	_	PROPN	PNOUN	_	3	nmod	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
+10	2010	2010	NUM	NUM	NumType=Card	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	13	punct	_	_
+12	quando	quando	ADV	ADV	_	13	advmod	_	_
+13	ficou	ficar	VERB	VERB	_	8	acl:relcl	_	_
+14	em	em	ADP	ADP	_	16	case	_	_
+15	-3,0	_	NUM	NUM	NumType=Card	16	nummod	_	_
+16	%	_	SYM	SYM	_	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	.	_	18	punct	_	_
+18	informou	informar	VERB	VERB	_	0	root	_	_
+19	nesta	_	ADP	ADP	_	22	case	_	_
+20	terça	_	PROPN	PNOUN	_	22	amod	_	_
+21	-	-	PUNCT	.	_	22	punct	_	_
+22	feira	_	PROPN	PNOUN	_	18	nmod	_	_
+23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Instituto	_	PROPN	PNOUN	_	18	nsubj	_	_
+25	Brasileiro	_	PROPN	PNOUN	_	24	amod	_	_
+26	de	de	ADP	ADP	_	27	case	_	_
+27	Geografia	_	PROPN	PNOUN	_	24	nmod	_	_
+28	e	e	CCONJ	CONJ	_	29	cc	_	_
+29	Estatística	_	PROPN	PNOUN	_	27	conj	_	_
+30	(	(	PUNCT	.	_	31	punct	_	SpaceAfter=No
+31	IBGE	_	PROPN	PNOUN	_	24	appos	_	SpaceAfter=No
+32	)	)	PUNCT	.	_	31	punct	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	18	punct	_	_
+
+# sent_id = train-s6638
+# text = Sabemos que o Paulo tem uma importância muito grande para o grupo, por tudo o que ele representa, pela sua qualidade dentro de campo.
+1	Sabemos	saber	VERB	VERB	_	0	root	_	_
+2	que	que	CCONJ	CONJ	_	5	mark	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Paulo	_	PROPN	PNOUN	_	5	nsubj	_	_
+5	tem	ter	VERB	VERB	_	1	ccomp	_	_
+6	uma	um	DET	DET	_	7	det	_	_
+7	importância	importância	NOUN	NOUN	_	5	obj	_	_
+8	muito	muito	ADV	ADV	_	9	advmod	_	_
+9	grande	grande	ADJ	ADJ	_	7	amod	_	_
+10	para	para	ADP	ADP	_	12	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	grupo	grupo	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	.	_	15	punct	_	_
+14	por	por	ADP	ADP	_	15	case	_	_
+15	tudo	_	PRON	PRON	_	5	nmod	_	_
+16	o	_	PRON	PRON	_	15	appos	_	_
+17	que	_	PRON	PRON	_	19	obj	_	_
+18	ele	_	PRON	PRON	_	19	nsubj	_	_
+19	representa	representar	VERB	VERB	_	16	acl:relcl	_	SpaceAfter=No
+20	,	,	PUNCT	.	_	5	punct	_	_
+21-22	pela	_	_	_	_	_	_	_	_
+21	por	por	ADP	ADP	_	24	case	_	_
+22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	sua	_	DET	DET	_	24	det:poss	_	_
+24	qualidade	qualidade	NOUN	NOUN	_	5	nmod	_	_
+25	dentro	dentro	ADV	ADV	_	24	advmod	_	_
+26	de	de	ADP	ADP	_	27	case	_	_
+27	campo	campo	NOUN	NOUN	_	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s6639
+# text = A história se passa durante uma viagem do trem Expresso do Oriente com cinco clowns.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	história	história	NOUN	NOUN	_	4	nsubj	_	_
+3	se	_	PART	PRT	_	4	expl:pv	_	_
+4	passa	passar	VERB	VERB	_	0	root	_	_
+5	durante	_	ADP	ADP	_	7	case	_	_
+6	uma	um	DET	DET	_	7	det	_	_
+7	viagem	viagem	NOUN	NOUN	_	4	nmod	_	_
+8-9	do	_	_	_	_	_	_	_	_
+8	de	de	ADP	ADP	_	10	case	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	trem	trem	NOUN	NOUN	_	7	nmod	_	_
+11	Expresso	_	PROPN	PNOUN	_	10	appos	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	ADP	_	14	case	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Oriente	_	PROPN	PNOUN	_	11	nmod	_	_
+15	com	com	ADP	ADP	_	17	case	_	_
+16	cinco	_	NUM	NUM	NumType=Card	17	nummod	_	_
+17	clowns	clown	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s6640
+# text = Educar é tema que faz parte da realidade de todos os cidadãos.
+1	Educar	educar	VERB	VERB	_	3	csubj	_	_
+2	é	ser	AUX	AUX	_	3	cop	_	_
+3	tema	tema	NOUN	NOUN	_	0	root	_	_
+4	que	_	PRON	PRON	_	5	nsubj	_	_
+5	faz	fazer	VERB	VERB	_	3	acl:relcl	_	_
+6	parte	parte	NOUN	NOUN	_	5	obj	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
+8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	realidade	realidade	NOUN	NOUN	_	6	nmod	_	_
+10	de	de	ADP	ADP	_	13	case	_	_
+11	todos	_	DET	DET	_	13	det	_	_
+12	os	o	DET	DET	_	13	det	_	_
+13	cidadãos	cidadão	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s6641
+# text = O Sisu entrou no ar no ar por volta de zero hora.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Sisu	_	PROPN	PNOUN	_	3	nsubj	_	_
+3	entrou	entrar	VERB	VERB	_	0	root	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ar	ar	NOUN	NOUN	_	3	nmod	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	ar	ar	NOUN	NOUN	_	3	nmod	_	_
+10	por	por	ADP	ADP	_	11	case	_	_
+11	volta	volta	NOUN	NOUN	_	3	nmod	_	_
+12	de	de	ADP	ADP	_	14	case	_	_
+13	zero	_	NUM	NUM	NumType=Card	14	nummod	_	_
+14	hora	hora	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	_
+

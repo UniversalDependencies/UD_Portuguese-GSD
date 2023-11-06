@@ -1,0 +1,352 @@
+# sent_id = train-s5818
+# text = No confronto com a Argentina, cuja volta será em Resistência, no país hermano, no dia 3 de outubro, Mano poderá utilizar apenas jogadores que atuam no Brasil, regra que também se aplica à seleção rival.
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	confronto	confronto	NOUN	_	Gender=Masc|Number=Sing	28	obl	_	_
+4	com	com	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Argentina	Argentina	PROPN	_	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	cuja	cujo	DET	_	Gender=Fem|Number=Sing|PronType=Rel	9	det	_	_
+9	volta	volta	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
+10	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	cop	_	_
+11	em	em	ADP	_	_	12	case	_	_
+12	Resistência	Resistência	PROPN	_	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	_
+14-15	no	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	país	país	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+17	hermano	hermano	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	16	punct	_	_
+19-20	no	_	_	_	_	_	_	_	_
+19	em	em	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	dia	dia	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+22	3	3	NUM	_	NumType=Card	21	nummod	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	outubro	outubro	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	3	punct	_	_
+26	Mano	Mano	PROPN	_	Gender=Masc|Number=Sing	27	nsubj	_	_
+27	poderá	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+28	utilizar	utilizar	VERB	_	VerbForm=Inf	27	xcomp	_	_
+29	apenas	apenas	ADV	_	_	30	advmod	_	_
+30	jogadores	jogador	NOUN	_	Gender=Masc|Number=Plur	28	obj	_	_
+31	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	32	nsubj	_	_
+32	atuam	atuar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	_
+33-34	no	_	_	_	_	_	_	_	_
+33	em	em	ADP	_	_	35	case	_	_
+34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	Brasil	Brasil	PROPN	_	Gender=Masc|Number=Sing	32	obl	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	37	punct	_	_
+37	regra	regra	NOUN	_	Gender=Fem|Number=Sing	30	appos	_	_
+38	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	41	nsubj	_	_
+39	também	também	ADV	_	_	41	advmod	_	_
+40	se	se	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	41	expl	_	_
+41	aplica	aplicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	acl:relcl	_	_
+42-43	à	_	_	_	_	_	_	_	_
+42	a	a	ADP	_	_	44	case	_	_
+43	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	seleção	seleção	NOUN	_	Gender=Fem|Number=Sing	41	obj	_	_
+45	rival	rival	ADJ	_	Gender=Fem|Number=Sing	44	amod	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	28	punct	_	SpaceAfter=No
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = O assalto, na modalidade denominada "Novo Cangaço" durou cerca de 30 minutos.
+# sent_id = train-s5819
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	assalto	assalto	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4-5	na	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	modalidade	modalidade	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+7	denominada	denominar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	6	acl	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	Novo	Novo	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	7	xcomp	_	_
+10	Cangaço	Cangaço	PROPN	_	Number=Sing	9	flat:name	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	9	punct	_	_
+12	durou	durar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	cerca	cerca	ADV	_	ExtPos=ADV	16	advmod	_	_
+14	de	de	ADP	_	_	13	fixed	_	_
+15	30	30	NUM	_	NumType=Card	16	nummod	_	_
+16	minutos	minuto	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = train-s5820
+# text = São Paulo -- Com o time já definido, o técnico Mano Menezes comandou ontem apenas um treino leve na preparação da Seleção Brasileira masculina para a estreia dos Jogos Olímpicos de Londres, quando irá enfrentar o Egito nesta quinta - feira, em Cardiff, pelo grupo C.
+1	São	_	PROPN	PNOUN	_	14	parataxis	_	_
+2	Paulo	_	PROPN	PNOUN	_	1	flat	_	_
+3	--	_	PUNCT	.	_	14	punct	_	_
+4	Com	_	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	time	time	NOUN	NOUN	_	14	nmod	_	_
+7	já	já	ADV	ADV	_	8	advmod	_	_
+8	definido	definir	VERB	VERB	_	6	acl	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	6	punct	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	técnico	técnico	NOUN	NOUN	_	14	nsubj	_	_
+12	Mano	_	PROPN	PNOUN	_	11	appos	_	_
+13	Menezes	_	PROPN	PNOUN	_	12	flat	_	_
+14	comandou	comandar	VERB	VERB	_	0	root	_	_
+15	ontem	ontem	ADV	ADV	_	14	advmod	_	_
+16	apenas	apenas	ADV	ADV	_	18	advmod	_	_
+17	um	um	DET	DET	_	18	det	_	_
+18	treino	treino	NOUN	NOUN	_	14	obj	_	_
+19	leve	leve	ADJ	ADJ	_	18	amod	_	_
+20-21	na	_	_	_	_	_	_	_	_
+20	em	em	ADP	ADP	_	22	case	_	_
+21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	preparação	preparação	NOUN	NOUN	_	14	nmod	_	_
+23-24	da	_	_	_	_	_	_	_	_
+23	de	de	ADP	ADP	_	25	case	_	_
+24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	Seleção	_	PROPN	PNOUN	_	22	nmod	_	_
+26	Brasileira	_	PROPN	PNOUN	_	25	amod	_	_
+27	masculina	masculino	ADJ	ADJ	_	25	amod	_	_
+28	para	para	ADP	ADP	_	30	case	_	_
+29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	estreia	estreia	NOUN	NOUN	_	22	nmod	_	_
+31-32	dos	_	_	_	_	_	_	_	_
+31	de	de	ADP	ADP	_	33	case	_	_
+32	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	Jogos	_	PROPN	PNOUN	_	30	nmod	_	_
+34	Olímpicos	_	PROPN	PNOUN	_	33	amod	_	_
+35	de	de	ADP	ADP	_	36	case	_	_
+36	Londres	_	PROPN	PNOUN	_	33	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	.	_	40	punct	_	_
+38	quando	quando	ADV	ADV	_	40	advmod	_	_
+39	irá	_	AUX	AUX	_	40	aux	_	_
+40	enfrentar	enfrentar	VERB	VERB	_	33	acl:relcl	_	_
+41	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	Egito	_	PROPN	PNOUN	_	40	obj	_	_
+43	nesta	_	ADP	ADP	_	46	case	_	_
+44	quinta	_	PROPN	PNOUN	_	46	amod	_	_
+45	-	-	PUNCT	.	_	46	punct	_	_
+46	feira	_	PROPN	PNOUN	_	40	nmod	_	SpaceAfter=No
+47	,	,	PUNCT	.	_	49	punct	_	_
+48	em	em	ADP	ADP	_	49	case	_	_
+49	Cardiff	_	PROPN	PNOUN	_	40	conj	_	SpaceAfter=No
+50	,	,	PUNCT	.	_	53	punct	_	_
+51-52	pelo	_	_	_	_	_	_	_	_
+51	por	por	ADP	ADP	_	53	case	_	_
+52	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
+53	grupo	grupo	NOUN	NOUN	_	40	nmod	_	_
+54	C.	_	PROPN	PNOUN	_	53	appos	_	_
+
+# sent_id = train-s5821
+# text = O futebol de cinco para cegos e deficientes visuais é praticado com máscara que tampam os olhos.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	futebol	futebol	NOUN	NOUN	_	11	nsubj:pass	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
+4	cinco	_	NUM	NUM	NumType=Card	2	nmod	_	_
+5	para	para	ADP	ADP	_	6	case	_	_
+6	cegos	cego	NOUN	NOUN	_	2	nmod	_	_
+7	e	e	CCONJ	CONJ	_	8	cc	_	_
+8	deficientes	_	NOUN	NOUN	_	6	conj	_	_
+9	visuais	visual	ADJ	ADJ	_	8	amod	_	_
+10	é	ser	AUX	AUX	_	11	aux:pass	_	_
+11	praticado	praticar	VERB	VERB	_	0	root	_	_
+12	com	com	ADP	ADP	_	13	case	_	_
+13	máscara	máscara	NOUN	NOUN	_	11	nmod	_	_
+14	que	_	PRON	PRON	_	15	nsubj	_	_
+15	tampam	tampar	VERB	VERB	_	13	acl:relcl	_	_
+16	os	o	DET	DET	_	17	det	_	_
+17	olhos	olho	NOUN	NOUN	_	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = train-s5822
+# text = "Evoluiu bem e estou sem dor.
+1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
+2	Evoluiu	evoluir	VERB	VERB	_	0	root	_	_
+3	bem	bem	ADV	ADV	_	2	advmod	_	_
+4	e	e	CCONJ	CONJ	_	5	cc	_	_
+5	estou	estar	VERB	VERB	_	2	conj	_	_
+6	sem	_	ADP	ADP	_	7	case	_	_
+7	dor	dor	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s5823
+# text = Do lado heróico, o motivo para a discussão é a presença de Magneto, o arquiinimigo dos X - Men, que não é bem recebido para lutar do lado de Capitão América e companhia, por mais que Charles Xavier, o principal antagonista do mestre do magnetismo, defenda sua presença no grupo.
+1-2	Do	_	_	_	_	_	_	_	_
+1	De	de	ADP	ADP	_	3	case	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	lado	lado	NOUN	NOUN	_	13	nmod	_	_
+4	heróico	heróico	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	.	_	3	punct	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	motivo	motivo	NOUN	NOUN	_	13	nsubj	_	_
+8	para	para	ADP	ADP	_	10	case	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	discussão	discussão	NOUN	NOUN	_	7	nmod	_	_
+11	é	ser	AUX	AUX	_	13	cop	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	presença	presença	NOUN	NOUN	_	0	root	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
+15	Magneto	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	.	_	18	punct	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	arquiinimigo	arquiinimigo	NOUN	NOUN	_	15	appos	_	_
+19-20	dos	_	_	_	_	_	_	_	_
+19	de	de	ADP	ADP	_	21	case	_	_
+20	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	X	_	PROPN	PNOUN	_	18	nmod	_	_
+22	-	-	PUNCT	.	_	21	punct	_	_
+23	Men	_	PROPN	PNOUN	_	21	flat	_	SpaceAfter=No
+24	,	,	PUNCT	.	_	29	punct	_	_
+25	que	_	PRON	PRON	_	29	nsubj:pass	_	_
+26	não	não	ADV	ADV	Polarity=Neg	29	advmod	_	_
+27	é	ser	AUX	AUX	_	29	aux:pass	_	_
+28	bem	bem	ADV	ADV	_	29	advmod	_	_
+29	recebido	receber	VERB	VERB	_	15	acl:relcl	_	_
+30	para	_	ADP	ADP	_	31	mark	_	_
+31	lutar	lutar	VERB	VERB	_	29	advcl	_	_
+32-33	do	_	_	_	_	_	_	_	_
+32	de	de	ADP	ADP	_	34	case	_	_
+33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	lado	lado	NOUN	NOUN	_	31	nmod	_	_
+35	de	de	ADP	ADP	_	36	case	_	_
+36	Capitão	_	PROPN	PNOUN	_	34	nmod	_	_
+37	América	_	PROPN	PNOUN	_	36	flat	_	_
+38	e	e	CCONJ	CONJ	_	39	cc	_	_
+39	companhia	companhia	NOUN	NOUN	_	36	conj	_	SpaceAfter=No
+40	,	,	PUNCT	.	_	57	punct	_	_
+41	por	_	ADP	ADP	_	57	mark	_	_
+42	mais	mais	ADV	ADV	_	41	fixed	_	_
+43	que	_	CCONJ	CONJ	_	41	fixed	_	_
+44	Charles	_	PROPN	PNOUN	_	57	nsubj	_	_
+45	Xavier	_	PROPN	PNOUN	_	44	flat	_	SpaceAfter=No
+46	,	,	PUNCT	.	_	49	punct	_	_
+47	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+48	principal	principal	ADJ	ADJ	_	49	amod	_	_
+49	antagonista	antagonista	NOUN	NOUN	_	44	appos	_	_
+50-51	do	_	_	_	_	_	_	_	_
+50	de	de	ADP	ADP	_	52	case	_	_
+51	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+52	mestre	mestre	NOUN	NOUN	_	49	nmod	_	_
+53-54	do	_	_	_	_	_	_	_	_
+53	de	de	ADP	ADP	_	55	case	_	_
+54	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
+55	magnetismo	magnetismo	NOUN	NOUN	_	52	nmod	_	SpaceAfter=No
+56	,	,	PUNCT	.	_	49	punct	_	_
+57	defenda	defender	VERB	VERB	_	29	advcl	_	_
+58	sua	_	DET	DET	_	59	det:poss	_	_
+59	presença	presença	NOUN	NOUN	_	57	obj	_	_
+60-61	no	_	_	_	_	_	_	_	_
+60	em	em	ADP	ADP	_	62	case	_	_
+61	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
+62	grupo	grupo	NOUN	NOUN	_	59	nmod	_	SpaceAfter=No
+63	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = train-s5824
+# text = A entojada se aproxima de Conrado bem na hora que ele está admirando a ex.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	entojada	_	NOUN	NOUN	_	4	nsubj	_	_
+3	se	_	PRON	PRON	_	4	obj	_	_
+4	aproxima	aproximar	VERB	VERB	_	0	root	_	_
+5	de	de	ADP	ADP	_	6	case	_	_
+6	Conrado	_	PROPN	PNOUN	_	4	nmod	_	_
+7	bem	bem	ADV	ADV	_	10	advmod	_	_
+8-9	na	_	_	_	_	_	_	_	_
+8	em	em	ADP	ADP	_	10	case	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	hora	hora	NOUN	NOUN	_	4	nmod	_	_
+11	que	_	PRON	PRON	_	14	nmod	_	_
+12	ele	_	PRON	PRON	_	14	nsubj	_	_
+13	está	estar	AUX	AUX	_	14	aux	_	_
+14	admirando	admirar	VERB	VERB	_	10	ccomp	_	_
+15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	ex	ex	NOUN	NOUN	_	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s5825
+# text = Natércia contou que se não tivesse descoberto a doença, poderia ter doenças cardíacas graves nos próximos anos.
+1	Natércia	_	PROPN	PNOUN	_	2	nsubj	_	_
+2	contou	contar	VERB	VERB	_	0	root	_	_
+3	que	que	CCONJ	CONJ	_	12	mark	_	_
+4	se	_	CCONJ	CONJ	_	7	mark	_	_
+5	não	não	ADV	ADV	Polarity=Neg	7	advmod	_	_
+6	tivesse	ter	AUX	AUX	_	7	aux	_	_
+7	descoberto	descobrir	VERB	VERB	_	12	advcl	_	_
+8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	doença	doença	NOUN	NOUN	_	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	7	punct	_	_
+11	poderia	poder	AUX	AUX	_	12	aux	_	_
+12	ter	ter	VERB	VERB	_	2	ccomp	_	_
+13	doenças	doença	NOUN	NOUN	_	12	obj	_	_
+14	cardíacas	cardíaco	ADJ	ADJ	_	13	amod	_	_
+15	graves	grave	ADJ	ADJ	_	13	amod	_	_
+16-17	nos	_	_	_	_	_	_	_	_
+16	em	em	ADP	ADP	_	19	case	_	_
+17	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	próximos	próximo	ADJ	ADJ	_	19	amod	_	_
+19	anos	ano	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Após a partida, o treinador revelou à imprensa que o jogador se recusou a ficar no banco de reservas, o que foi desmentido pelo próprio atleta.
+# sent_id = train-s5826
+1	Após	após	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	partida	partida	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	treinador	treinador	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	revelou	revelar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8-9	à	_	_	_	_	_	_	_	_
+8	a	a	ADP	_	_	10	case	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	imprensa	imprensa	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+11	que	que	SCONJ	_	_	15	mark	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	jogador	jogador	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+14	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	expl	_	_
+15	recusou	recusar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	ccomp	_	_
+16	a	a	SCONJ	_	_	17	mark	_	_
+17	ficar	ficar	VERB	_	VerbForm=Inf	15	xcomp	_	_
+18-19	no	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	banco	banco	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	reservas	reserva	NOUN	_	Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	17	punct	_	_
+24	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	17	appos	_	_
+25	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	27	nsubj:pass	_	_
+26	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	aux:pass	_	_
+27	desmentido	desmentir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	24	acl:relcl	_	_
+28-29	pelo	_	_	_	_	_	_	_	_
+28	por	por	ADP	_	_	31	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+30	próprio	próprio	DET	_	Gender=Masc|Number=Sing|PronType=Emp	31	det	_	_
+31	atleta	atleta	NOUN	_	Gender=Masc|Number=Sing	27	obl:agent	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = train-s5827
+# text = Isso inclui um santuário, com vestígios da uma praça pavimentada, um sacellum e um tholus.
+1	Isso	_	PRON	PRON	_	2	nsubj	_	_
+2	inclui	incluir	VERB	VERB	_	0	root	_	_
+3	um	um	DET	DET	_	4	det	_	_
+4	santuário	santuário	NOUN	NOUN	_	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	.	_	7	punct	_	_
+6	com	com	ADP	ADP	_	7	case	_	_
+7	vestígios	vestígio	NOUN	NOUN	_	4	nmod	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	ADP	_	11	case	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	uma	um	DET	DET	_	11	det	_	_
+11	praça	praça	NOUN	NOUN	_	7	nmod	_	_
+12	pavimentada	pavimentado	ADJ	ADJ	_	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	.	_	15	punct	_	_
+14	um	um	DET	DET	_	15	det	_	_
+15	sacellum	_	NOUN	NOUN	_	4	conj	_	_
+16	e	e	CCONJ	CONJ	_	18	cc	_	_
+17	um	um	DET	DET	_	18	det	_	_
+18	tholus	_	NOUN	NOUN	_	4	conj	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+

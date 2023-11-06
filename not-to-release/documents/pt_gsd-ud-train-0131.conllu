@@ -1,0 +1,241 @@
+# sent_id = train-s1299
+# text = As duas empresas criaram a empresa Ericsson Inovação SA para prestação de serviços à Vivo de soluções BSS ("Business Suport System").
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	duas	_	NUM	NUM	NumType=Card	3	nummod	_	_
+3	empresas	empresa	NOUN	NOUN	_	4	nsubj	_	_
+4	criaram	criar	VERB	VERB	_	0	root	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	empresa	empresa	NOUN	NOUN	_	4	obj	_	_
+7	Ericsson	_	PROPN	PNOUN	_	6	appos	_	_
+8	Inovação	_	PROPN	PNOUN	_	7	flat	_	_
+9	SA	_	PROPN	PNOUN	_	7	flat	_	_
+10	para	para	ADP	ADP	_	11	case	_	_
+11	prestação	prestação	NOUN	NOUN	_	4	nmod	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
+13	serviços	serviço	NOUN	NOUN	_	11	nmod	_	_
+14-15	à	_	_	_	_	_	_	_	_
+14	a	a	ADP	ADP	_	16	case	_	_
+15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Vivo	_	PROPN	PNOUN	_	11	nmod	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
+18	soluções	solução	NOUN	NOUN	_	11	nmod	_	_
+19	BSS	_	PROPN	PNOUN	_	18	appos	_	_
+20	(	(	PUNCT	.	_	22	punct	_	SpaceAfter=No
+21	"	"	PUNCT	.	_	22	punct	_	SpaceAfter=No
+22	Business	_	PROPN	PNOUN	_	19	appos	_	_
+23	Suport	_	PROPN	PNOUN	_	22	flat	_	_
+24	System	_	PROPN	PNOUN	_	22	flat	_	SpaceAfter=No
+25	"	"	PUNCT	.	_	22	punct	_	SpaceAfter=No
+26	)	)	PUNCT	.	_	22	punct	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s1300
+# text = O que preciso mesmo é praticar a pronúncia porque sou muito tímida ", confessa.
+1	O	_	PRON	PRON	_	15	ccomp	_	_
+2	que	_	PRON	PRON	_	3	obj	_	_
+3	preciso	precisar	VERB	VERB	_	1	acl:relcl	_	_
+4	mesmo	mesmo	ADV	ADV	_	3	advmod	_	_
+5	é	ser	AUX	AUX	_	1	cop	_	_
+6	praticar	praticar	VERB	VERB	_	1	csubj	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	pronúncia	pronúncia	NOUN	NOUN	_	6	obj	_	_
+9	porque	_	CCONJ	CONJ	_	10	mark	_	_
+10	sou	ser	VERB	VERB	_	1	advcl	_	_
+11	muito	muito	ADV	ADV	_	12	advmod	_	_
+12	tímida	tímido	ADJ	ADJ	_	10	xcomp	_	_
+13	"	"	PUNCT	.	_	1	punct	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	15	punct	_	_
+15	confessa	confessar	VERB	VERB	_	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = train-s1301
+# text = O benefício não será válido para veículos 0 km.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	benefício	benefício	NOUN	NOUN	_	4	nsubj	_	_
+3	não	não	ADV	ADV	Polarity=Neg	4	advmod	_	_
+4	será	ser	VERB	VERB	_	0	root	_	_
+5	válido	válido	ADJ	ADJ	_	4	xcomp	_	_
+6	para	para	ADP	ADP	_	7	case	_	_
+7	veículos	veículo	NOUN	NOUN	_	5	nmod	_	_
+8	0	0	NUM	NUM	NumType=Card	9	nummod	_	_
+9	km	km	NOUN	NOUN	_	7	appos	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s1302
+# text = Este referendo foi precedido por várias semanas de protestos que, ocasionalmente, degeneraram em confrontos entre opositores e partidários do presidente Mohamed Mursi e a Irmandade Muçulmana, que defendem a proposta de Constituição.
+1	Este	_	DET	DET	_	2	det	_	_
+2	referendo	referendo	NOUN	NOUN	_	4	nsubj:pass	_	_
+3	foi	_	AUX	AUX	_	4	aux:pass	_	_
+4	precedido	preceder	VERB	VERB	_	0	root	_	_
+5	por	por	ADP	ADP	_	7	case	_	_
+6	várias	_	DET	DET	_	7	det	_	_
+7	semanas	semana	NOUN	NOUN	_	4	nmod	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
+9	protestos	protesto	NOUN	NOUN	_	7	nmod	_	_
+10	que	_	PRON	PRON	_	14	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	12	punct	_	_
+12	ocasionalmente	ocasionalmente	ADV	ADV	_	14	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	.	_	12	punct	_	_
+14	degeneraram	degenerar	VERB	VERB	_	9	acl:relcl	_	_
+15	em	em	ADP	ADP	_	16	case	_	_
+16	confrontos	confronto	NOUN	NOUN	_	14	nmod	_	_
+17	entre	_	ADP	ADP	_	18	case	_	_
+18	opositores	opositor	NOUN	NOUN	_	16	nmod	_	_
+19	e	e	CCONJ	CONJ	_	20	cc	_	_
+20	partidários	partidário	NOUN	NOUN	_	18	conj	_	_
+21-22	do	_	_	_	_	_	_	_	_
+21	de	de	ADP	ADP	_	23	case	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	presidente	presidente	NOUN	NOUN	_	18	nmod	_	_
+24	Mohamed	_	PROPN	PNOUN	_	23	appos	_	_
+25	Mursi	_	PROPN	PNOUN	_	24	flat	_	_
+26	e	e	CCONJ	CONJ	_	28	cc	_	_
+27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Irmandade	_	PROPN	PNOUN	_	18	conj	_	_
+29	Muçulmana	_	PROPN	PNOUN	_	28	amod	_	SpaceAfter=No
+30	,	,	PUNCT	.	_	32	punct	_	_
+31	que	_	PRON	PRON	_	32	nsubj	_	_
+32	defendem	defender	VERB	VERB	_	28	acl:relcl	_	_
+33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	proposta	_	NOUN	NOUN	_	32	obj	_	_
+35	de	de	ADP	ADP	_	36	case	_	_
+36	Constituição	_	PROPN	PNOUN	_	34	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s1303
+# text = Esta doutrina está especialmente ligada à Calvinismo, à eleição incondicional, a predestinação decretiva e ao monergismo.
+1	Esta	_	DET	DET	_	2	det	_	_
+2	doutrina	doutrina	NOUN	NOUN	_	3	nsubj	_	_
+3	está	estar	VERB	VERB	_	0	root	_	_
+4	especialmente	especialmente	ADV	ADV	_	5	advmod	_	_
+5	ligada	ligado	ADJ	ADJ	_	3	xcomp	_	_
+6-7	à	_	_	_	_	_	_	_	_
+6	a	a	ADP	ADP	_	8	case	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Calvinismo	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	12	punct	_	_
+10-11	à	_	_	_	_	_	_	_	_
+10	a	a	ADP	ADP	_	12	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	eleição	eleição	NOUN	NOUN	_	8	conj	_	_
+13	incondicional	incondicional	ADJ	ADJ	_	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	16	punct	_	_
+15	a	_	ADP	ADP	_	16	case	_	_
+16	predestinação	predestinação	NOUN	NOUN	_	8	conj	_	_
+17	decretiva	_	ADJ	ADJ	_	16	amod	_	_
+18	e	e	CCONJ	CONJ	_	21	cc	_	_
+19-20	ao	_	_	_	_	_	_	_	_
+19	a	a	ADP	ADP	_	21	case	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	monergismo	_	NOUN	NOUN	_	8	conj	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s1304
+# text = "Como podia ser a deusa sexy dos heterossexuais e gostar de mulheres?
+1	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
+2	Como	como	ADV	ADV	_	6	advmod	_	_
+3	podia	poder	AUX	AUX	_	6	aux	_	_
+4	ser	ser	AUX	AUX	_	6	cop	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	deusa	deus	NOUN	NOUN	_	0	root	_	_
+7	sexy	sexy	ADJ	ADJ	_	6	amod	_	_
+8-9	dos	_	_	_	_	_	_	_	_
+8	de	de	ADP	ADP	_	10	case	_	_
+9	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	heterossexuais	heterossexual	NOUN	NOUN	_	6	nmod	_	_
+11	e	e	CCONJ	CONJ	_	12	cc	_	_
+12	gostar	gostar	VERB	VERB	_	6	conj	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
+14	mulheres	mulher	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
+15	?	?	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s1305
+# text = Um dos presos foi assassinado com dois tiros após tentar roubar uma moto.
+1	Um	_	PRON	PRON	_	6	nsubj:pass	_	_
+2-3	dos	_	_	_	_	_	_	_	_
+2	de	de	ADP	ADP	_	4	case	_	_
+3	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	presos	preso	NOUN	NOUN	_	1	nmod	_	_
+5	foi	_	AUX	AUX	_	6	aux:pass	_	_
+6	assassinado	assassinar	VERB	VERB	_	0	root	_	_
+7	com	com	ADP	ADP	_	9	case	_	_
+8	dois	_	NUM	NUM	NumType=Card	9	nummod	_	_
+9	tiros	tiro	NOUN	NOUN	_	6	nmod	_	_
+10	após	_	ADP	ADP	_	11	mark	_	_
+11	tentar	tentar	VERB	VERB	_	6	advcl	_	_
+12	roubar	roubar	VERB	VERB	_	11	xcomp	_	_
+13	uma	um	DET	DET	_	14	det	_	_
+14	moto	moto	NOUN	NOUN	_	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s1306
+# text = Caso ele atinja o limite da franquia contratada, a velocidade de navegação será reduzida para até 50 Kbps.
+1	Caso	_	CCONJ	CONJ	_	3	mark	_	_
+2	ele	_	PRON	PRON	_	3	nsubj	_	_
+3	atinja	atingir	VERB	VERB	_	16	advcl	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	limite	limite	NOUN	NOUN	_	3	obj	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	franquia	franquia	NOUN	NOUN	_	5	nmod	_	_
+9	contratada	contratar	VERB	VERB	_	8	acl	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	3	punct	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	velocidade	velocidade	NOUN	NOUN	_	16	nsubj:pass	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
+14	navegação	navegação	NOUN	NOUN	_	12	nmod	_	_
+15	será	ser	AUX	AUX	_	16	aux:pass	_	_
+16	reduzida	reduzir	VERB	VERB	_	0	root	_	_
+17	para	para	ADP	ADP	_	20	case	_	_
+18	até	até	ADV	ADV	_	19	advmod	_	_
+19	50	50	NUM	NUM	NumType=Card	20	nummod	_	_
+20	Kbps	_	PROPN	PNOUN	_	16	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = train-s1307
+# text = 'Não me cabe fazer juízo de valor [do julgamento], além de haver impedimento de ordem legal.
+1	'	_	PUNCT	.	_	4	punct	_	SpaceAfter=No
+2	Não	não	ADV	ADV	Polarity=Neg	4	advmod	_	_
+3	me	_	PRON	PRON	_	4	iobj	_	_
+4	cabe	caber	VERB	VERB	_	0	root	_	_
+5	fazer	fazer	VERB	VERB	_	4	csubj	_	_
+6	juízo	juízo	NOUN	NOUN	_	5	obj	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
+8	valor	valor	NOUN	NOUN	_	6	nmod	_	_
+9	[	_	PUNCT	.	_	12	punct	_	SpaceAfter=No
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	ADP	_	12	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	julgamento	julgamento	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
+13	]	_	PUNCT	.	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	15	punct	_	_
+15	além	além	ADV	ADV	_	4	advmod	_	_
+16	de	_	ADP	ADP	_	17	mark	_	_
+17	haver	haver	VERB	VERB	_	15	nmod	_	_
+18	impedimento	impedimento	NOUN	NOUN	_	17	obj	_	_
+19	de	de	ADP	ADP	_	20	case	_	_
+20	ordem	ordem	NOUN	NOUN	_	18	nmod	_	_
+21	legal	legal	ADJ	ADJ	_	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s1308
+# text = A expulsão foi divulgada em boletim publicado pela Polícia Militar em 10 de setembro.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	expulsão	expulsão	NOUN	NOUN	_	4	nsubj:pass	_	_
+3	foi	_	AUX	AUX	_	4	aux:pass	_	_
+4	divulgada	divulgar	VERB	VERB	_	0	root	_	_
+5	em	em	ADP	ADP	_	6	case	_	_
+6	boletim	boletim	NOUN	NOUN	_	4	nmod	_	_
+7	publicado	publicar	VERB	VERB	_	6	acl	_	_
+8-9	pela	_	_	_	_	_	_	_	_
+8	por	por	ADP	ADP	_	10	case	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Polícia	_	PROPN	PNOUN	_	7	nmod	_	_
+11	Militar	_	PROPN	PNOUN	_	10	amod	_	_
+12	em	em	ADP	ADP	_	13	case	_	_
+13	10	10	NUM	NUM	NumType=Card	7	nmod	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
+15	setembro	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+

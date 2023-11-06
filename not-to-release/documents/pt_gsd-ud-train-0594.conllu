@@ -1,0 +1,338 @@
+# sent_id = train-s5898
+# text = A prisão se deu após mandado expedido pela 15 ª Vara Criminal da Capital.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	prisão	prisão	NOUN	NOUN	_	4	nsubj	_	_
+3	se	_	PRON	PRON	_	4	expl:pv	_	_
+4	deu	dar	VERB	VERB	_	0	root	_	_
+5	após	_	ADP	ADP	_	6	case	_	_
+6	mandado	mandado	NOUN	NOUN	_	4	nmod	_	_
+7	expedido	expedir	VERB	VERB	_	6	acl	_	_
+8-9	pela	_	_	_	_	_	_	_	_
+8	por	por	ADP	ADP	_	12	case	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+10	15	_	ADJ	ADJ	_	12	amod	_	_
+11	ª	_	PUNCT	.	_	10	punct	_	_
+12	Vara	_	PROPN	PNOUN	_	7	nmod	_	_
+13	Criminal	_	PROPN	PNOUN	_	12	amod	_	_
+14-15	da	_	_	_	_	_	_	_	_
+14	de	de	ADP	ADP	_	16	case	_	_
+15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Capital	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = A carteira total de crédito expandida somou R $ 13,2 bilhões, no período de julho a setembro deste ano, 22,5 % maior do que no trimestre anterior.
+# sent_id = train-s5899
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	carteira	carteira	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	total	total	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	crédito	crédito	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	expandida	expandir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	2	acl	_	_
+7	somou	somar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	R	R	PROPN	_	Gender=Masc|Number=Sing	7	obj	_	_
+9	$	$	SYM	_	_	7	obj	_	_
+10	13,2	13,2	NUM	_	NumType=Card	9	nummod	_	_
+11	bilhões	bilhão	NUM	_	NumType=Card	10	flat	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	7	punct	_	_
+13-14	no	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	período	período	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	julho	julho	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+18	a	a	ADP	_	_	19	case	_	_
+19	setembro	setembro	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+20-21	deste	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
+22	ano	ano	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	25	punct	_	_
+24	22,5	22,5	NUM	_	NumType=Card	25	nummod	_	_
+25	%	%	SYM	_	_	17	appos	_	_
+26	maior	maior	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
+27-28	do	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	32	case	_	_
+28	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	27	fixed	_	_
+29	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	27	fixed	_	_
+30-31	no	_	_	_	_	_	_	_	_
+30	em	em	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	trimestre	trimestre	NOUN	_	Gender=Masc|Number=Sing	26	obl	_	_
+33	anterior	anterior	ADJ	_	Gender=Masc|Number=Sing	32	amod	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = train-s5900
+# text = Mas quem levou o primeiro livro autografado foi a portuguesa Ana Paula Pereira.
+1	Mas	_	CCONJ	CONJ	_	10	cc	_	_
+2	quem	_	PRON	PRON	_	3	nsubj	_	_
+3	levou	levar	VERB	VERB	_	10	csubj	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	primeiro	primeiro	ADJ	ADJ	_	6	amod	_	_
+6	livro	livro	NOUN	NOUN	_	3	obj	_	_
+7	autografado	autografado	ADJ	ADJ	_	6	amod	_	_
+8	foi	_	AUX	AUX	_	10	cop	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	portuguesa	_	NOUN	NOUN	_	0	root	_	_
+11	Ana	_	PROPN	PNOUN	_	10	appos	_	_
+12	Paula	_	PROPN	PNOUN	_	11	flat	_	_
+13	Pereira	_	PROPN	PNOUN	_	11	flat	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = train-s5901
+# text = "Quando a Central 192 identifica uma tentativa de suicídio, a equipe de enfermeiros e técnicos de enfermagem vê a parte clínica e se o paciente precisa ser encaminhado ao hospital.
+1	"	"	PUNCT	.	_	20	punct	_	SpaceAfter=No
+2	Quando	_	CCONJ	CONJ	_	6	mark	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Central	_	PROPN	PNOUN	_	6	nsubj	_	_
+5	192	192	NUM	NUM	NumType=Card	4	appos	_	_
+6	identifica	identificar	VERB	VERB	_	20	advcl	_	_
+7	uma	um	DET	DET	_	8	det	_	_
+8	tentativa	_	NOUN	NOUN	_	6	obj	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
+10	suicídio	suicídio	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	6	punct	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	equipe	equipe	NOUN	NOUN	_	20	nsubj	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
+15	enfermeiros	enfermeiro	NOUN	NOUN	_	13	nmod	_	_
+16	e	e	CCONJ	CONJ	_	17	cc	_	_
+17	técnicos	técnico	NOUN	NOUN	_	15	conj	_	_
+18	de	de	ADP	ADP	_	19	case	_	_
+19	enfermagem	enfermagem	NOUN	NOUN	_	17	nmod	_	_
+20	vê	ver	VERB	VERB	_	0	root	_	_
+21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	parte	parte	NOUN	NOUN	_	20	obj	_	_
+23	clínica	clínico	ADJ	ADJ	_	22	amod	_	_
+24	e	e	CCONJ	CONJ	_	28	cc	_	_
+25	se	_	CCONJ	CONJ	_	28	mark	_	_
+26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	paciente	paciente	NOUN	NOUN	_	28	nsubj	_	_
+28	precisa	precisar	VERB	VERB	_	22	conj	_	_
+29	ser	ser	AUX	AUX	_	30	aux:pass	_	_
+30	encaminhado	encaminhar	VERB	VERB	_	28	xcomp	_	_
+31-32	ao	_	_	_	_	_	_	_	_
+31	a	a	ADP	ADP	_	33	case	_	_
+32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	hospital	hospital	NOUN	NOUN	_	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	20	punct	_	_
+
+# sent_id = train-s5902
+# text = O debate em si reforça a defesa doutro ideal democrático -- a separação dos poderes.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	debate	debate	NOUN	NOUN	_	5	nsubj	_	_
+3	em	em	ADP	ADP	_	4	case	_	_
+4	si	_	PRON	PRON	_	2	nmod	_	_
+5	reforça	reforçar	VERB	VERB	_	0	root	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	defesa	_	NOUN	NOUN	_	5	obj	_	_
+8-9	doutro	_	_	_	_	_	_	_	_
+8	de	de	ADP	ADP	_	10	case	_	_
+9	outro	_	DET	DET	_	10	det	_	_
+10	ideal	ideal	NOUN	NOUN	_	7	nmod	_	_
+11	democrático	democrático	ADJ	ADJ	_	10	amod	_	_
+12	--	_	PUNCT	.	_	14	punct	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	separação	separação	NOUN	NOUN	_	10	appos	_	_
+15-16	dos	_	_	_	_	_	_	_	_
+15	de	de	ADP	ADP	_	17	case	_	_
+16	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	poderes	_	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s5903
+# text = A mudança dos serviços se estenderá à Urbs -- Urbanização de Curitiba S / A, que ocupa o prédio central, além de parte do antigo bloco ferroviário em que funciona também a Secretaria Municipal de Trânsito (Setran).
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mudança	mudança	NOUN	NOUN	_	7	nsubj	_	_
+3-4	dos	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	serviços	serviço	NOUN	NOUN	_	2	nmod	_	_
+6	se	_	PRON	PRON	_	7	expl:pv	_	_
+7	estenderá	estender	VERB	VERB	_	0	root	_	_
+8-9	à	_	_	_	_	_	_	_	_
+8	a	a	ADP	ADP	_	10	case	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Urbs	_	PROPN	PNOUN	_	7	nmod	_	_
+11	--	_	PUNCT	.	_	12	punct	_	_
+12	Urbanização	urbanização	NOUN	NOUN	_	10	appos	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
+14	Curitiba	_	PROPN	PNOUN	_	12	nmod	_	_
+15	S	_	PROPN	PNOUN	_	14	flat	_	_
+16	/	/	PUNCT	.	_	14	punct	_	_
+17	A	_	PROPN	PNOUN	_	14	flat	_	SpaceAfter=No
+18	,	,	PUNCT	.	_	20	punct	_	_
+19	que	_	PRON	PRON	_	20	nsubj	_	_
+20	ocupa	ocupar	VERB	VERB	_	10	acl:relcl	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	prédio	prédio	NOUN	NOUN	_	20	obj	_	_
+23	central	central	ADJ	ADJ	_	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	.	_	25	punct	_	_
+25	além	além	ADV	ADV	_	20	advmod	_	_
+26	de	de	ADP	ADP	_	27	case	_	_
+27	parte	parte	NOUN	NOUN	_	25	nmod	_	_
+28-29	do	_	_	_	_	_	_	_	_
+28	de	de	ADP	ADP	_	31	case	_	_
+29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+30	antigo	antigo	ADJ	ADJ	_	31	amod	_	_
+31	bloco	bloco	NOUN	NOUN	_	27	nmod	_	_
+32	ferroviário	ferroviário	ADJ	ADJ	_	31	amod	_	_
+33	em	em	ADP	ADP	_	34	case	_	_
+34	que	_	PRON	PRON	_	35	nmod	_	_
+35	funciona	funcionar	VERB	VERB	_	31	acl:relcl	_	_
+36	também	também	ADV	ADV	_	35	advmod	_	_
+37	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	Secretaria	_	PROPN	PNOUN	_	35	nsubj	_	_
+39	Municipal	_	PROPN	PNOUN	_	38	amod	_	_
+40	de	de	ADP	ADP	_	41	case	_	_
+41	Trânsito	_	PROPN	PNOUN	_	38	nmod	_	_
+42	(	(	PUNCT	.	_	43	punct	_	SpaceAfter=No
+43	Setran	_	PROPN	PNOUN	_	38	appos	_	SpaceAfter=No
+44	)	)	PUNCT	.	_	43	punct	_	SpaceAfter=No
+45	.	.	PUNCT	.	_	7	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = O produto, que é largamente utilizado no exterior em diferentes aplicações domésticas, como fixação de quadros ou itens no teto, ainda não está bem difundido no Brasil.
+# sent_id = train-s5904
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	produto	produto	NOUN	_	Gender=Masc|Number=Sing	30	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	7	nsubj:pass	_	_
+5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+6	largamente	largamente	ADV	_	_	7	advmod	_	_
+7	utilizado	utilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl:relcl	_	_
+8-9	no	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	exterior	exterior	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	diferentes	diferente	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	_
+13	aplicações	aplicação	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	_
+14	domésticas	doméstico	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	como	como	ADP	_	_	17	case	_	_
+17	fixação	fixação	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	quadros	quadro	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	_
+20	ou	ou	CCONJ	_	_	21	cc	_	_
+21	itens	item	NOUN	_	Gender=Masc|Number=Plur	19	conj	_	_
+22-23	no	_	_	_	_	_	_	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	teto	teto	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	17	punct	_	_
+26	ainda	ainda	ADV	_	_	27	advmod	_	_
+27	não	não	ADV	_	Polarity=Neg	30	advmod	_	_
+28	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+29	bem	bem	ADV	_	_	30	advmod	_	_
+30	difundido	difundir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+31-32	no	_	_	_	_	_	_	_	_
+31	em	em	ADP	_	_	33	case	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	Brasil	Brasil	PROPN	_	Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = train-s5905
+# text = A Petrobras não me informou nada.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Petrobras	_	PROPN	PNOUN	_	5	nsubj	_	_
+3	não	não	ADV	ADV	Polarity=Neg	5	advmod	_	_
+4	me	_	PRON	PRON	_	5	iobj	_	_
+5	informou	informar	VERB	VERB	_	0	root	_	_
+6	nada	_	PRON	PRON	_	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s5906
+# text = Os compostos químicos têm uma estrutura química única e definida e consistem numa razão fixa de átomos, que são mantidos juntos num arranjo espacial definida por ligações químicas.
+1	Os	o	DET	DET	_	2	det	_	_
+2	compostos	composto	NOUN	NOUN	_	4	nsubj	_	_
+3	químicos	químico	ADJ	ADJ	_	2	amod	_	_
+4	têm	ter	VERB	VERB	_	0	root	_	_
+5	uma	um	DET	DET	_	6	det	_	_
+6	estrutura	estrutura	NOUN	NOUN	_	4	obj	_	_
+7	química	químico	ADJ	ADJ	_	6	amod	_	_
+8	única	único	ADJ	ADJ	_	6	amod	_	_
+9	e	e	CCONJ	CONJ	_	10	cc	_	_
+10	definida	definido	ADJ	ADJ	_	8	conj	_	_
+11	e	e	CCONJ	CONJ	_	12	cc	_	_
+12	consistem	consistir	VERB	VERB	_	4	conj	_	_
+13-14	numa	_	_	_	_	_	_	_	_
+13	em	em	ADP	ADP	_	15	case	_	_
+14	uma	um	DET	DET	_	15	det	_	_
+15	razão	razão	NOUN	NOUN	_	12	nmod	_	_
+16	fixa	fixo	ADJ	ADJ	_	15	amod	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
+18	átomos	átomo	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	.	_	22	punct	_	_
+20	que	_	PRON	PRON	_	22	nsubj:pass	_	_
+21	são	ser	AUX	AUX	_	22	aux:pass	_	_
+22	mantidos	manter	VERB	VERB	_	18	acl:relcl	_	_
+23	juntos	junto	ADJ	ADJ	_	22	xcomp	_	_
+24	num	_	ADP	ADP	_	25	case	_	_
+25	arranjo	arranjo	NOUN	NOUN	_	22	nmod	_	_
+26	espacial	espacial	ADJ	ADJ	_	25	amod	_	_
+27	definida	definir	VERB	VERB	_	25	acl	_	_
+28	por	por	ADP	ADP	_	29	case	_	_
+29	ligações	_	NOUN	NOUN	_	27	nmod	_	_
+30	químicas	químico	ADJ	ADJ	_	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s5907
+# text = Em outubro de 1968, foi preso por participar, junto com dezenas doutras lideranças estudantis, do 30 º Congresso da União Nacional dos Estudantes (UNE), em Ibiúna (SP), realizado clandestinamente, sem autorização do governo.
+1	Em	em	ADP	ADP	_	2	case	_	_
+2	outubro	_	PROPN	PNOUN	_	7	nmod	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
+4	1968	1968	NUM	NUM	NumType=Card	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	.	_	2	punct	_	_
+6	foi	_	AUX	AUX	_	7	aux:pass	_	_
+7	preso	_	VERB	VERB	_	0	root	_	_
+8	por	_	ADP	ADP	_	9	mark	_	_
+9	participar	participar	VERB	VERB	_	7	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	11	punct	_	_
+11	junto	junto	ADV	ADV	_	9	advmod	_	_
+12	com	com	ADP	ADP	_	13	case	_	_
+13	dezenas	dezena	NOUN	NOUN	_	11	nmod	_	_
+14-15	doutras	_	_	_	_	_	_	_	_
+14	de	de	ADP	ADP	_	16	case	_	_
+15	outras	_	DET	DET	_	16	det	_	_
+16	lideranças	liderança	NOUN	NOUN	_	13	nmod	_	_
+17	estudantis	estudantil	ADJ	ADJ	_	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	.	_	11	punct	_	_
+19-20	do	_	_	_	_	_	_	_	_
+19	de	de	ADP	ADP	_	23	case	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+21	30	_	ADJ	ADJ	_	23	amod	_	_
+22	º	_	PUNCT	.	_	21	punct	_	_
+23	Congresso	_	PROPN	PNOUN	_	9	nmod	_	_
+24-25	da	_	_	_	_	_	_	_	_
+24	de	de	ADP	ADP	_	26	case	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	União	_	PROPN	PNOUN	_	23	nmod	_	_
+27	Nacional	_	PROPN	PNOUN	_	26	amod	_	_
+28-29	dos	_	_	_	_	_	_	_	_
+28	de	de	ADP	ADP	_	30	case	_	_
+29	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	Estudantes	_	PROPN	PNOUN	_	26	nmod	_	_
+31	(	(	PUNCT	.	_	32	punct	_	SpaceAfter=No
+32	UNE	_	PROPN	PNOUN	_	26	appos	_	SpaceAfter=No
+33	)	)	PUNCT	.	_	32	punct	_	SpaceAfter=No
+34	,	,	PUNCT	.	_	36	punct	_	_
+35	em	em	ADP	ADP	_	36	case	_	_
+36	Ibiúna	_	PROPN	PNOUN	_	23	nmod	_	_
+37	(	(	PUNCT	.	_	38	punct	_	SpaceAfter=No
+38	SP	_	PROPN	PNOUN	_	36	appos	_	SpaceAfter=No
+39	)	)	PUNCT	.	_	38	punct	_	SpaceAfter=No
+40	,	,	PUNCT	.	_	41	punct	_	_
+41	realizado	realizar	VERB	VERB	_	23	acl	_	_
+42	clandestinamente	clandestinamente	ADV	ADV	_	41	advmod	_	SpaceAfter=No
+43	,	,	PUNCT	.	_	45	punct	_	_
+44	sem	_	ADP	ADP	_	45	case	_	_
+45	autorização	autorização	NOUN	NOUN	_	41	nmod	_	_
+46-47	do	_	_	_	_	_	_	_	_
+46	de	de	ADP	ADP	_	48	case	_	_
+47	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	governo	governo	NOUN	NOUN	_	45	nmod	_	SpaceAfter=No
+49	.	.	PUNCT	.	_	7	punct	_	_
+

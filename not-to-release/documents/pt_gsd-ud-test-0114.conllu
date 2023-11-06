@@ -1,0 +1,338 @@
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = O 'A Cidade' não se responsabiliza pelas opiniões emitidas nos comentários.
+# sent_id = test-s1125
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	'	'	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	A	A	PROPN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+4	Cidade	Cidade	PROPN	_	Number=Sing	3	flat:name	_	SpaceAfter=No
+5	'	'	PUNCT	_	_	3	punct	_	_
+6	não	não	ADV	_	Polarity=Neg	8	advmod	_	_
+7	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	expl	_	_
+8	responsabiliza	responsabilizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9-10	pelas	_	_	_	_	_	_	_	_
+9	por	por	ADP	_	_	11	case	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	opiniões	opinião	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	_
+12	emitidas	emitir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	11	acl	_	_
+13-14	nos	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	comentários	comentário	NOUN	_	Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = test-s1126
+# text = "Nosso objetivo é dar mais uma alternativa musical à nossa cidade.
+1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
+2	Nosso	_	DET	DET	_	3	det:poss	_	_
+3	objetivo	objetivo	NOUN	NOUN	_	0	root	_	_
+4	é	ser	AUX	AUX	_	3	cop	_	_
+5	dar	dar	VERB	VERB	_	3	csubj	_	_
+6	mais	mais	ADV	ADV	_	7	advmod	_	_
+7	uma	_	NUM	NUM	NumType=Card	8	nummod	_	_
+8	alternativa	_	NOUN	NOUN	_	5	obj	_	_
+9	musical	musical	ADJ	ADJ	_	8	amod	_	_
+10-11	à	_	_	_	_	_	_	_	_
+10	a	a	ADP	ADP	_	13	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	nossa	_	DET	DET	_	13	det:poss	_	_
+13	cidade	cidade	NOUN	NOUN	_	5	iobj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = test-s1127
+# text = Os negociadores do governo colombiano e das Forças Armadas Revolucionárias da Colômbia (Farc) marcaram a próxima etapa de reuniões em busca dum acordo de paz na região.
+1	Os	o	DET	DET	_	2	det	_	_
+2	negociadores	negociador	NOUN	NOUN	_	19	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	governo	governo	NOUN	NOUN	_	2	nmod	_	_
+6	colombiano	colombiano	ADJ	ADJ	_	5	amod	_	_
+7	e	e	CCONJ	CONJ	_	10	cc	_	_
+8-9	das	_	_	_	_	_	_	_	_
+8	de	de	ADP	ADP	_	10	case	_	_
+9	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	Forças	_	PROPN	PNOUN	_	5	conj	_	_
+11	Armadas	_	PROPN	PNOUN	_	10	amod	_	_
+12	Revolucionárias	_	PROPN	PNOUN	_	10	amod	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Colômbia	_	PROPN	PNOUN	_	10	nmod	_	_
+16	(	(	PUNCT	.	_	17	punct	_	SpaceAfter=No
+17	Farc	_	PROPN	PNOUN	_	10	appos	_	SpaceAfter=No
+18	)	)	PUNCT	.	_	17	punct	_	_
+19	marcaram	marcar	VERB	VERB	_	0	root	_	_
+20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	próxima	próximo	ADJ	ADJ	_	22	amod	_	_
+22	etapa	etapa	NOUN	NOUN	_	19	obj	_	_
+23	de	de	ADP	ADP	_	24	case	_	_
+24	reuniões	reunião	NOUN	NOUN	_	22	nmod	_	_
+25	em	em	ADP	ADP	_	26	case	_	_
+26	busca	busca	NOUN	NOUN	_	19	nmod	_	_
+27-28	dum	_	_	_	_	_	_	_	_
+27	de	de	ADP	ADP	_	29	case	_	_
+28	um	um	DET	DET	_	29	det	_	_
+29	acordo	acordo	NOUN	NOUN	_	26	nmod	_	_
+30	de	de	ADP	ADP	_	31	case	_	_
+31	paz	paz	NOUN	NOUN	_	29	nmod	_	_
+32-33	na	_	_	_	_	_	_	_	_
+32	em	em	ADP	ADP	_	34	case	_	_
+33	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	região	região	NOUN	NOUN	_	31	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	19	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Praticamente acabei de completar dois anos como profissional e ter todas essas partidas na minha trajetória é sinal de que tenho feito um bom trabalho.
+# sent_id = test-s1128
+1	Praticamente	praticamente	ADV	_	_	2	advmod	_	_
+2	acabei	acabar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	de	de	SCONJ	_	_	4	mark	_	_
+4	completar	completar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+5	dois	dois	NUM	_	NumType=Card	6	nummod	_	_
+6	anos	ano	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
+7	como	como	ADP	_	_	8	case	_	_
+8	profissional	profissional	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	ter	ter	VERB	_	VerbForm=Inf	4	conj	_	_
+11	todas	todo	DET	_	Gender=Fem|Number=Plur|PronType=Tot	13	det	_	_
+12	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	13	det	_	_
+13	partidas	partida	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	_
+14-15	na	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	17	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	minha	meu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	17	det	_	_
+17	trajetória	trajetória	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+18	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	sinal	sinal	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	_
+20	de	de	SCONJ	_	_	23	mark	_	_
+21	que	que	SCONJ	_	_	23	mark	_	_
+22	tenho	ter	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	feito	fazer	VERB	_	VerbForm=Part	19	acl	_	_
+24	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	bom	bom	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	_
+26	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
+
+# sent_id = test-s1129
+# text = A proposta é eliminar lajes intermediárias do estacionamento.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	proposta	_	NOUN	NOUN	_	0	root	_	_
+3	é	ser	AUX	AUX	_	2	cop	_	_
+4	eliminar	eliminar	VERB	VERB	_	2	csubj	_	_
+5	lajes	laje	NOUN	NOUN	_	4	obj	_	_
+6	intermediárias	intermediário	ADJ	ADJ	_	5	amod	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	estacionamento	estacionamento	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = test-s1130
+# text = Trovit é um motor de busca vertical especializado em anúncios de classificados.
+1	Trovit	_	PROPN	PNOUN	_	4	nsubj	_	_
+2	é	ser	AUX	AUX	_	4	cop	_	_
+3	um	um	DET	DET	_	4	det	_	_
+4	motor	motor	NOUN	NOUN	_	0	root	_	_
+5	de	de	ADP	ADP	_	6	case	_	_
+6	busca	busca	NOUN	NOUN	_	4	nmod	_	_
+7	vertical	vertical	ADJ	ADJ	_	6	amod	_	_
+8	especializado	especializar	VERB	VERB	_	4	acl	_	_
+9	em	em	ADP	ADP	_	10	case	_	_
+10	anúncios	anúncio	NOUN	NOUN	_	8	nmod	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
+12	classificados	classificado	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = test-s1131
+# text = O representante fluminense informou que a contribuição patronal sobre a folha representa 20 % do que é gasto com o pagamento de salários.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	representante	representante	NOUN	NOUN	_	4	nsubj	_	_
+3	fluminense	fluminense	ADJ	ADJ	_	2	amod	_	_
+4	informou	informar	VERB	VERB	_	0	root	_	_
+5	que	que	CCONJ	CONJ	_	12	mark	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	contribuição	contribuição	NOUN	NOUN	_	12	nsubj	_	_
+8	patronal	patronal	ADJ	ADJ	_	7	amod	_	_
+9	sobre	_	ADP	ADP	_	11	case	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	folha	folha	NOUN	NOUN	_	7	nmod	_	_
+12	representa	representar	VERB	VERB	_	4	ccomp	_	_
+13	20	20	NUM	NUM	NumType=Card	14	nummod	_	_
+14	%	_	SYM	SYM	_	12	obj	_	_
+15	do	_	X	ADPPRON	_	14	nmod	_	_
+16	que	_	PRON	PRON	_	18	nsubj	_	_
+17	é	ser	AUX	AUX	_	18	aux:pass	_	_
+18	gasto	gastar	VERB	VERB	_	15	acl:relcl	_	_
+19	com	com	ADP	ADP	_	21	case	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	pagamento	pagamento	NOUN	NOUN	_	18	nmod	_	_
+22	de	de	ADP	ADP	_	23	case	_	_
+23	salários	salário	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = test-s1132
+# text = "O Egito se dirige para a estabilidade", foi a manchete do jornal governamental "Al - Akhbar", enquanto o independente "Al - Masri Al - Yom" denunciou o que chamou de "violações em massa".
+1	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
+2	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Egito	_	PROPN	PNOUN	_	5	nsubj	_	_
+4	se	_	PRON	PRON	_	5	obj	_	_
+5	dirige	dirigir	VERB	VERB	_	13	csubj	_	_
+6	para	para	ADP	ADP	_	8	case	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	estabilidade	estabilidade	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
+9	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	13	punct	_	_
+11	foi	_	AUX	AUX	_	13	cop	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	manchete	manchete	NOUN	NOUN	_	0	root	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	ADP	_	16	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	jornal	jornal	NOUN	NOUN	_	13	nmod	_	_
+17	governamental	governamental	ADJ	ADJ	_	16	amod	_	_
+18	"	"	PUNCT	.	_	19	punct	_	SpaceAfter=No
+19	Al	_	PROPN	PNOUN	_	16	appos	_	_
+20	-	-	PUNCT	.	_	19	punct	_	_
+21	Akhbar	_	PROPN	PNOUN	_	19	flat	_	SpaceAfter=No
+22	"	"	PUNCT	.	_	19	punct	_	SpaceAfter=No
+23	,	,	PUNCT	.	_	35	punct	_	_
+24	enquanto	_	CCONJ	CONJ	_	35	mark	_	_
+25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	independente	_	NOUN	NOUN	_	35	nsubj	_	_
+27	"	"	PUNCT	.	_	28	punct	_	SpaceAfter=No
+28	Al	_	PROPN	PNOUN	_	26	appos	_	_
+29	-	-	PUNCT	.	_	28	punct	_	_
+30	Masri	_	PROPN	PNOUN	_	28	flat	_	_
+31	Al	_	PROPN	PNOUN	_	28	flat	_	_
+32	-	-	PUNCT	.	_	28	punct	_	_
+33	Yom	_	PROPN	PNOUN	_	28	flat	_	SpaceAfter=No
+34	"	"	PUNCT	.	_	28	punct	_	_
+35	denunciou	denunciar	VERB	VERB	_	13	advcl	_	_
+36	o	_	PRON	PRON	_	35	obj	_	_
+37	que	_	PRON	PRON	_	38	obj	_	_
+38	chamou	chamar	VERB	VERB	_	36	acl:relcl	_	_
+39	de	de	ADP	ADP	_	41	case	_	_
+40	"	"	PUNCT	.	_	41	punct	_	SpaceAfter=No
+41	violações	violação	NOUN	NOUN	_	38	nmod	_	_
+42	em	em	ADP	ADP	_	43	case	_	_
+43	massa	massa	NOUN	NOUN	_	41	nmod	_	SpaceAfter=No
+44	"	"	PUNCT	.	_	41	punct	_	SpaceAfter=No
+45	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = test-s1133
+# text = Você acha que seria bom e viável para o país voltar com a circulação de pessoas nos trens?
+1	Você	_	PRON	PRON	_	2	nsubj	_	_
+2	acha	acha	NOUN	NOUN	_	0	root	_	_
+3	que	que	CCONJ	CONJ	_	4	mark	_	_
+4	seria	_	VERB	VERB	_	2	ccomp	_	_
+5	bom	bom	ADJ	ADJ	_	4	xcomp	_	_
+6	e	e	CCONJ	CONJ	_	7	cc	_	_
+7	viável	viável	ADJ	ADJ	_	5	conj	_	_
+8	para	para	ADP	ADP	_	10	case	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	país	país	NOUN	NOUN	_	4	nmod	_	_
+11	voltar	voltar	VERB	VERB	_	4	csubj	_	_
+12	com	com	ADP	ADP	_	14	case	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	circulação	circulação	NOUN	NOUN	_	11	nmod	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
+16	pessoas	pessoa	NOUN	NOUN	_	14	nmod	_	_
+17-18	nos	_	_	_	_	_	_	_	_
+17	em	em	ADP	ADP	_	19	case	_	_
+18	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	trens	trem	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
+20	?	?	PUNCT	.	_	2	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = De igual maneira nestes momentos é considerado um dos artistas mais importantes na cena do teatro musical do México, havendo participado de grande musicais como El Fantasma de la Opera com o papel de Raoul, Jose el Soñador tendo o papel de José, Los Miserables intepretando o papel de Marius, La Bella y la Bestia como a fera, esses foram alguns classicos do teatro que Ernesto já atuou.
+# sent_id = test-s1134
+1	De	de	ADP	_	_	3	case	_	_
+2	igual	igual	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+3	maneira	maneira	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+4-5	nestes	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	6	det	_	_
+6	momentos	momento	NOUN	_	Gender=Masc|Number=Plur	8	obl	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	considerado	considerar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+9	um	um	NUM	_	NumType=Card	8	nsubj:pass	_	_
+10-11	dos	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	artistas	artista	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
+13	mais	mais	ADV	_	_	14	advmod	_	_
+14	importantes	importante	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	_
+15-16	na	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	cena	cena	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	teatro	teatro	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+21	musical	musical	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	México	México	PROPN	_	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	27	punct	_	_
+26	havendo	haver	AUX	_	VerbForm=Ger	27	aux	_	_
+27	participado	participar	VERB	_	VerbForm=Part	8	advcl	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	grande	grande	ADJ	_	Gender=Masc|Number=Sing	30	amod	_	_
+30	musicais	musical	NOUN	_	Gender=Masc|Number=Plur	27	obj	_	_
+31	como	como	ADP	_	_	32	case	_	_
+32	El	El	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	30	nmod	_	_
+33	Fantasma	Fantasma	PROPN	_	Number=Sing	32	flat:name	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	la	la	PROPN	_	ExtPos=PROPN|Number=Sing	32	nmod	_	_
+36	Opera	Opera	PROPN	_	Number=Sing	35	flat:name	_	_
+37	com	com	ADP	_	_	39	case	_	_
+38	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	papel	papel	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	_
+40	de	de	ADP	_	_	41	case	_	_
+41	Raoul	Raoul	PROPN	_	Gender=Masc|Number=Sing	39	nmod	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	43	punct	_	_
+43	Jose	Jose	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	32	conj	_	_
+44	el	el	PROPN	_	Number=Sing	43	flat:name	_	_
+45	Soñador	Soñador	PROPN	_	Number=Sing	43	flat:name	_	_
+46	tendo	ter	VERB	_	VerbForm=Ger	43	acl	_	_
+47	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	papel	papel	NOUN	_	Gender=Masc|Number=Sing	46	obj	_	_
+49	de	de	ADP	_	_	50	case	_	_
+50	José	José	PROPN	_	Gender=Masc|Number=Sing	48	nmod	_	SpaceAfter=No
+51	,	,	PUNCT	_	_	52	punct	_	_
+52	Los	Los	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	32	conj	_	_
+53	Miserables	Miserables	PROPN	_	Number=Sing	52	flat:name	_	_
+54	intepretando	intepretar	VERB	_	VerbForm=Ger	52	acl	_	_
+55	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+56	papel	papel	NOUN	_	Gender=Masc|Number=Sing	54	obj	_	_
+57	de	de	ADP	_	_	58	case	_	_
+58	Marius	Marius	PROPN	_	Gender=Masc|Number=Sing	56	nmod	_	SpaceAfter=No
+59	,	,	PUNCT	_	_	60	punct	_	_
+60	La	La	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	32	conj	_	_
+61	Bella	Bella	PROPN	_	Number=Sing	60	flat:name	_	_
+62	y	y	PROPN	_	Number=Sing	60	flat:name	_	_
+63	la	la	PROPN	_	Number=Sing	60	flat:name	_	_
+64	Bestia	Bestia	PROPN	_	Number=Sing	60	flat:name	_	_
+65	como	como	ADP	_	_	67	case	_	_
+66	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	67	det	_	_
+67	fera	fera	NOUN	_	Gender=Fem|Number=Sing	60	nmod	_	SpaceAfter=No
+68	,	,	PUNCT	_	_	72	punct	_	_
+69	esses	esse	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	72	nsubj	_	_
+70	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	72	cop	_	_
+71	alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	72	det	_	_
+72	classicos	classico	NOUN	_	Gender=Masc|Number=Plur	8	parataxis	_	_
+73-74	do	_	_	_	_	_	_	_	_
+73	de	de	ADP	_	_	75	case	_	_
+74	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	75	det	_	_
+75	teatro	teatro	NOUN	_	Gender=Masc|Number=Sing	72	nmod	_	_
+76	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	79	obj	_	_
+77	Ernesto	Ernesto	PROPN	_	Gender=Masc|Number=Sing	79	nsubj	_	_
+78	já	já	ADV	_	_	79	advmod	_	_
+79	atuou	atuar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	75	acl:relcl	_	SpaceAfter=No
+80	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+

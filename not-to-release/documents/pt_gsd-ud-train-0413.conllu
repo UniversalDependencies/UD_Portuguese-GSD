@@ -1,0 +1,302 @@
+# sent_id = train-s4097
+# text = Em 1991, Ken morreu inesperadamente num acidente de carro.
+1	Em	em	ADP	ADP	_	2	case	_	_
+2	1991	1991	NUM	NUM	NumType=Card	5	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	.	_	2	punct	_	_
+4	Ken	_	PROPN	PNOUN	_	5	nsubj	_	_
+5	morreu	morrer	VERB	VERB	_	0	root	_	_
+6	inesperadamente	inesperadamente	ADV	ADV	_	5	advmod	_	_
+7-8	num	_	_	_	_	_	_	_	_
+7	em	em	ADP	ADP	_	9	case	_	_
+8	um	um	DET	DET	_	9	det	_	_
+9	acidente	acidente	NOUN	NOUN	_	5	nmod	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
+11	carro	carro	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s4098
+# text = O acidente aconteceu na última sexta - feira e até às 10h30 de hoje (3) a embarcação continuava totalmente submersa, no Terminal de São Joaquim.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	acidente	acidente	NOUN	NOUN	_	3	nsubj	_	_
+3	aconteceu	acontecer	VERB	VERB	_	0	root	_	_
+4-5	na	_	_	_	_	_	_	_	_
+4	em	em	ADP	ADP	_	9	case	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+6	última	último	ADJ	ADJ	_	9	amod	_	_
+7	sexta	_	PROPN	PNOUN	_	9	amod	_	_
+8	-	-	PUNCT	.	_	9	punct	_	_
+9	feira	_	PROPN	PNOUN	_	3	nmod	_	_
+10	e	e	CCONJ	CONJ	_	22	cc	_	_
+11	até	_	ADP	ADP	_	22	nmod	_	_
+12-13	às	_	_	_	_	_	_	_	_
+12	a	a	ADP	ADP	_	14	case	_	_
+13	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	10h30	_	NUM	NUM	NumType=Card	11	nmod	_	_
+15	de	_	ADP	ADP	_	16	mark	_	_
+16	hoje	hoje	ADV	ADV	_	14	nmod	_	_
+17	(	(	PUNCT	.	_	18	punct	_	SpaceAfter=No
+18	3	3	NUM	NUM	NumType=Card	16	nmod	_	SpaceAfter=No
+19	)	)	PUNCT	.	_	18	punct	_	_
+20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	embarcação	embarcação	NOUN	NOUN	_	22	nsubj	_	_
+22	continuava	continuar	VERB	VERB	_	3	conj	_	_
+23	totalmente	totalmente	ADV	ADV	_	24	advmod	_	_
+24	submersa	submerso	ADJ	ADJ	_	22	xcomp	_	SpaceAfter=No
+25	,	,	PUNCT	.	_	28	punct	_	_
+26-27	no	_	_	_	_	_	_	_	_
+26	em	em	ADP	ADP	_	28	case	_	_
+27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	Terminal	_	PROPN	PNOUN	_	22	nmod	_	_
+29	de	de	ADP	ADP	_	30	case	_	_
+30	São	_	PROPN	PNOUN	_	28	nmod	_	_
+31	Joaquim	_	PROPN	PNOUN	_	30	flat	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s4099
+# text = Com o início da fase de superestrutura (parte da construção situada acima do solo) o processo vai ganhar uma celeridade maior.
+1	Com	_	ADP	ADP	_	3	case	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	início	início	NOUN	NOUN	_	23	nmod	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	ADP	_	6	case	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	fase	fase	NOUN	NOUN	_	3	nmod	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
+8	superestrutura	superestrutura	NOUN	NOUN	_	6	nmod	_	_
+9	(	(	PUNCT	.	_	10	punct	_	SpaceAfter=No
+10	parte	parte	NOUN	NOUN	_	6	appos	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	ADP	_	13	case	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	construção	construção	NOUN	NOUN	_	10	nmod	_	_
+14	situada	situar	VERB	VERB	_	10	acl	_	_
+15	acima	acima	ADV	ADV	_	14	advmod	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	solo	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
+19	)	)	PUNCT	.	_	10	punct	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	processo	processo	NOUN	NOUN	_	23	nsubj	_	_
+22	vai	ir	AUX	AUX	_	23	aux	_	_
+23	ganhar	ganhar	VERB	VERB	_	0	root	_	_
+24	uma	um	DET	DET	_	25	det	_	_
+25	celeridade	celeridade	NOUN	NOUN	_	23	obj	_	_
+26	maior	maior	ADJ	ADJ	_	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	23	punct	_	_
+
+# sent_id = train-s4100
+# text = O executivo lembra, ainda, que o site do TSE apenas informa sua situação eleitoral, caso esteja realmente irregular, o eleitor deve comparecer ao cartório eleitoral para regularização do documento.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	executivo	executivo	NOUN	NOUN	_	3	nsubj	_	_
+3	lembra	lembrar	VERB	VERB	_	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	5	punct	_	_
+5	ainda	ainda	ADV	ADV	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	.	_	5	punct	_	_
+7	que	que	CCONJ	CONJ	_	14	mark	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	site	site	NOUN	NOUN	_	14	nsubj	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	ADP	_	12	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	TSE	_	PROPN	PNOUN	_	9	nmod	_	_
+13	apenas	apenas	ADV	ADV	_	14	advmod	_	_
+14	informa	informar	VERB	VERB	_	3	ccomp	_	_
+15	sua	_	DET	DET	_	16	det:poss	_	_
+16	situação	situação	NOUN	NOUN	_	14	obj	_	_
+17	eleitoral	eleitoral	ADJ	ADJ	_	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	.	_	27	punct	_	_
+19	caso	_	CCONJ	CONJ	_	20	mark	_	_
+20	esteja	estar	VERB	VERB	_	27	advcl	_	_
+21	realmente	realmente	ADV	ADV	_	20	advmod	_	_
+22	irregular	irregular	ADJ	ADJ	_	20	xcomp	_	SpaceAfter=No
+23	,	,	PUNCT	.	_	20	punct	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	eleitor	eleitor	NOUN	NOUN	_	27	nsubj	_	_
+26	deve	dever	AUX	AUX	_	27	aux	_	_
+27	comparecer	comparecer	VERB	VERB	_	14	conj	_	_
+28-29	ao	_	_	_	_	_	_	_	_
+28	a	a	ADP	ADP	_	30	case	_	_
+29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	cartório	cartório	NOUN	NOUN	_	27	nmod	_	_
+31	eleitoral	eleitoral	ADJ	ADJ	_	30	amod	_	_
+32	para	para	ADP	ADP	_	33	case	_	_
+33	regularização	regularização	NOUN	NOUN	_	27	nmod	_	_
+34-35	do	_	_	_	_	_	_	_	_
+34	de	de	ADP	ADP	_	36	case	_	_
+35	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	documento	documento	NOUN	NOUN	_	33	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s4101
+# text = na pintura são os retratos de doadores de joelhos de Matteo e sua esposa Niccolosa de Serragli.
+1-2	na	_	_	_	_	_	_	_	_
+1	em	em	ADP	ADP	_	3	case	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	pintura	pintura	NOUN	NOUN	_	6	nmod	_	_
+4	são	ser	AUX	AUX	_	6	cop	_	_
+5	os	o	DET	DET	_	6	det	_	_
+6	retratos	retrato	NOUN	NOUN	_	0	root	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
+8	doadores	doador	NOUN	NOUN	_	6	nmod	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
+10	joelhos	joelho	NOUN	NOUN	_	8	nmod	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
+12	Matteo	_	PROPN	PNOUN	_	6	nmod	_	_
+13	e	e	CCONJ	CONJ	_	15	cc	_	_
+14	sua	_	DET	DET	_	15	det:poss	_	_
+15	esposa	esposo	NOUN	NOUN	_	12	conj	_	_
+16	Niccolosa	_	PROPN	PNOUN	_	15	appos	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
+18	Serragli	_	PROPN	PNOUN	_	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s4102
+# text = Ela assumiu o comando interino da pasta na semana passada com a saída do ex - secretário Gedeão Amorim.
+1	Ela	_	PRON	PRON	_	2	nsubj	_	_
+2	assumiu	assumir	VERB	VERB	_	0	root	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	comando	comando	NOUN	NOUN	_	2	obj	_	_
+5	interino	interino	ADJ	ADJ	_	4	amod	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	pasta	pasta	NOUN	NOUN	_	4	nmod	_	_
+9-10	na	_	_	_	_	_	_	_	_
+9	em	em	ADP	ADP	_	11	case	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	semana	semana	NOUN	NOUN	_	2	nmod	_	_
+12	passada	passado	ADJ	ADJ	_	11	amod	_	_
+13	com	com	ADP	ADP	_	15	case	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	saída	saída	NOUN	NOUN	_	2	nmod	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	ex	_	PART	PRT	_	15	nmod	_	_
+19	-	-	PUNCT	.	_	18	punct	_	_
+20	secretário	secretário	NOUN	NOUN	_	18	flat	_	_
+21	Gedeão	_	PROPN	PNOUN	_	18	appos	_	_
+22	Amorim	_	PROPN	PNOUN	_	21	flat	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s4103
+# text = Pacaembu -- No outro jogo que começou às 22 horas, o Corinthians saiu atrás do Flamengo no Pacaembu, mas conseguiu a vitória de virada, por 3 a 2.
+1	Pacaembu	_	PROPN	PNOUN	_	16	parataxis	_	_
+2	--	_	PUNCT	.	_	16	punct	_	_
+3-4	No	_	_	_	_	_	_	_	_
+3	Em	em	ADP	ADP	_	6	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	outro	_	DET	DET	_	6	det	_	_
+6	jogo	jogo	NOUN	NOUN	_	16	nmod	_	_
+7	que	_	PRON	PRON	_	8	nsubj	_	_
+8	começou	começar	VERB	VERB	_	6	acl:relcl	_	_
+9-10	às	_	_	_	_	_	_	_	_
+9	a	a	ADP	ADP	_	12	case	_	_
+10	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+11	22	22	NUM	NUM	NumType=Card	12	nummod	_	_
+12	horas	hora	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	.	_	6	punct	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Corinthians	_	PROPN	PNOUN	_	16	nsubj	_	_
+16	saiu	sair	VERB	VERB	_	0	root	_	_
+17	atrás	atrás	ADV	ADV	_	16	advmod	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	ADP	_	20	case	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Flamengo	_	PROPN	PNOUN	_	17	nmod	_	_
+21-22	no	_	_	_	_	_	_	_	_
+21	em	em	ADP	ADP	_	23	case	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Pacaembu	_	PROPN	PNOUN	_	16	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	.	_	26	punct	_	_
+25	mas	mas	CCONJ	CONJ	_	26	cc	_	_
+26	conseguiu	conseguir	VERB	VERB	_	16	conj	_	_
+27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	vitória	vitória	NOUN	NOUN	_	26	obj	_	_
+29	de	de	ADP	ADP	_	30	case	_	_
+30	virada	_	NOUN	NOUN	_	28	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	.	_	33	punct	_	_
+32	por	por	ADP	ADP	_	33	case	_	_
+33	3	3	NUM	NUM	NumType=Card	28	nmod	_	_
+34	a	_	ADP	ADP	_	35	case	_	_
+35	2	2	NUM	NUM	NumType=Card	33	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = train-s4104
+# text = "Esse é o grande mérito dum treinador e Mourinho tem essa condição.
+1	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
+2	Esse	_	PRON	PRON	_	6	nsubj	_	_
+3	é	ser	AUX	AUX	_	6	cop	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	grande	grande	ADJ	ADJ	_	6	amod	_	_
+6	mérito	mérito	NOUN	NOUN	_	0	root	_	_
+7-8	dum	_	_	_	_	_	_	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
+8	um	um	DET	DET	_	9	det	_	_
+9	treinador	treinador	NOUN	NOUN	_	6	nmod	_	_
+10	e	e	CCONJ	CONJ	_	12	cc	_	_
+11	Mourinho	_	PROPN	PNOUN	_	12	nsubj	_	_
+12	tem	ter	VERB	VERB	_	6	conj	_	_
+13	essa	_	DET	DET	_	14	det	_	_
+14	condição	condição	NOUN	NOUN	_	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s4105
+# text = O capitão do Corpo de Bombeiros e integrante da Comdec, Éden Santos, esteve presente.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	capitão	capitão	NOUN	NOUN	_	17	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Corpo	_	PROPN	PNOUN	_	2	nmod	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
+7	Bombeiros	_	PROPN	PNOUN	_	5	nmod	_	_
+8	e	e	CCONJ	CONJ	_	9	cc	_	_
+9	integrante	_	NOUN	NOUN	_	2	conj	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	ADP	_	12	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Comdec	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	.	_	14	punct	_	_
+14	Éden	_	PROPN	PNOUN	_	2	appos	_	_
+15	Santos	_	PROPN	PNOUN	_	14	flat	_	SpaceAfter=No
+16	,	,	PUNCT	.	_	14	punct	_	_
+17	esteve	_	VERB	VERB	_	0	root	_	_
+18	presente	presente	ADJ	ADJ	_	17	xcomp	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = train-s4106
+# text = O treinador fez o último corte na equipe ao liberar o ala / pivô Augusto Lima, do Unicaja, da Espanha.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	treinador	treinador	NOUN	NOUN	_	3	nsubj	_	_
+3	fez	fazer	VERB	VERB	_	0	root	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	último	último	ADJ	ADJ	_	6	amod	_	_
+6	corte	corte	NOUN	NOUN	_	3	obj	_	_
+7-8	na	_	_	_	_	_	_	_	_
+7	em	em	ADP	ADP	_	9	case	_	_
+8	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	equipe	equipe	NOUN	NOUN	_	3	nmod	_	_
+10-11	ao	_	_	_	_	_	_	_	_
+10	a	a	ADP	ADP	_	12	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	liberar	liberar	VERB	VERB	_	3	advcl	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	ala	ala	NOUN	NOUN	_	12	obj	_	_
+15	/	/	PUNCT	.	_	14	punct	_	_
+16	pivô	pivô	NOUN	NOUN	_	14	flat	_	_
+17	Augusto	_	PROPN	PNOUN	_	14	appos	_	_
+18	Lima	_	PROPN	PNOUN	_	17	flat	_	SpaceAfter=No
+19	,	,	PUNCT	.	_	22	punct	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	ADP	_	22	case	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Unicaja	_	PROPN	PNOUN	_	14	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	.	_	26	punct	_	_
+24-25	da	_	_	_	_	_	_	_	_
+24	de	de	ADP	ADP	_	26	case	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	Espanha	_	PROPN	PNOUN	_	22	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	3	punct	_	_
+

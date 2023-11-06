@@ -1,0 +1,269 @@
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = As duas começarão a pensar formas de contornar esta situação.
+# sent_id = train-s111
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	duas	dois	NUM	_	NumType=Card	3	nsubj	_	_
+3	começarão	começar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	SCONJ	_	_	5	mark	_	_
+5	pensar	pensar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+6	formas	forma	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	_
+7	de	de	SCONJ	_	_	8	mark	_	_
+8	contornar	contornar	VERB	_	VerbForm=Inf	6	acl	_	_
+9	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	situação	situação	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = train-s112
+# text = Do lado de fora, as pesquisas visam métodos de recuperar a biodiversidade de áreas de proteção degradadas.
+1-2	Do	_	_	_	_	_	_	_	_
+1	De	de	ADP	ADP	_	3	case	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	lado	lado	NOUN	NOUN	_	9	nmod	_	_
+4	de	_	ADP	ADP	_	5	mark	_	_
+5	fora	fora	ADV	ADV	_	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	.	_	3	punct	_	_
+7	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	pesquisas	pesquisa	NOUN	NOUN	_	9	nsubj	_	_
+9	visam	visar	VERB	VERB	_	0	root	_	_
+10	métodos	método	NOUN	NOUN	_	9	obj	_	_
+11	de	_	ADP	ADP	_	12	mark	_	_
+12	recuperar	recuperar	VERB	VERB	_	10	nmod	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	biodiversidade	biodiversidade	NOUN	NOUN	_	12	obj	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
+16	áreas	área	NOUN	NOUN	_	14	nmod	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
+18	proteção	proteção	NOUN	NOUN	_	16	nmod	_	_
+19	degradadas	degradado	ADJ	ADJ	_	16	amod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = train-s113
+# text = A assessoria da concessionária disse que câmeras captaram o veículo em zigue - zague.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	assessoria	assessoria	NOUN	NOUN	_	6	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	concessionária	concessionário	NOUN	NOUN	_	2	nmod	_	_
+6	disse	dizer	VERB	VERB	_	0	root	_	_
+7	que	que	CCONJ	CONJ	_	9	mark	_	_
+8	câmeras	câmera	NOUN	NOUN	_	9	nsubj	_	_
+9	captaram	captar	VERB	VERB	_	6	ccomp	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	veículo	veículo	NOUN	NOUN	_	9	obj	_	_
+12	em	em	ADP	ADP	_	13	case	_	_
+13	zigue	_	NOUN	NOUN	_	11	nmod	_	_
+14	-	-	PUNCT	.	_	13	punct	_	_
+15	zague	_	NOUN	NOUN	_	13	flat	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s114
+# text = O Arsenal busca desesperadamente reforçar seu sistema ofensivo.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Arsenal	_	PROPN	PNOUN	_	3	nsubj	_	_
+3	busca	buscar	VERB	VERB	_	0	root	_	_
+4	desesperadamente	desesperadamente	ADV	ADV	_	3	advmod	_	_
+5	reforçar	reforçar	VERB	VERB	_	3	xcomp	_	_
+6	seu	_	DET	DET	_	7	det:poss	_	_
+7	sistema	sistema	NOUN	NOUN	_	5	obj	_	_
+8	ofensivo	ofensivo	ADJ	ADJ	_	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s115
+# text = A servidora Iracy Araújo de Oliveira, 47 anos, técnica em enfermagem, que atua há sete anos na coleta de sangue, integra a equipe desde a inauguração do Henca.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	servidora	servidor	NOUN	NOUN	_	26	nsubj	_	_
+3	Iracy	_	PROPN	PNOUN	_	2	appos	_	_
+4	Araújo	_	PROPN	PNOUN	_	3	flat	_	_
+5	de	de	ADP	ADP	_	6	case	_	_
+6	Oliveira	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	9	punct	_	_
+8	47	47	NUM	NUM	NumType=Card	9	nummod	_	_
+9	anos	ano	NOUN	NOUN	_	2	appos	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	9	punct	_	_
+11	técnica	_	NOUN	NOUN	_	2	appos	_	_
+12	em	em	ADP	ADP	_	13	case	_	_
+13	enfermagem	enfermagem	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	16	punct	_	_
+15	que	_	PRON	PRON	_	16	nsubj	_	_
+16	atua	_	VERB	VERB	_	2	acl:relcl	_	_
+17	há	haver	VERB	VERB	_	16	advcl	_	_
+18	sete	_	NUM	NUM	NumType=Card	19	nummod	_	_
+19	anos	ano	NOUN	NOUN	_	17	nmod	_	_
+20-21	na	_	_	_	_	_	_	_	_
+20	em	em	ADP	ADP	_	22	case	_	_
+21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	coleta	coleta	NOUN	NOUN	_	16	nmod	_	_
+23	de	de	ADP	ADP	_	24	case	_	_
+24	sangue	sangue	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	.	_	16	punct	_	_
+26	integra	integrar	VERB	VERB	_	0	root	_	_
+27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	equipe	equipe	NOUN	NOUN	_	26	obj	_	_
+29	desde	_	ADP	ADP	_	31	case	_	_
+30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	inauguração	inauguração	NOUN	NOUN	_	26	nmod	_	_
+32-33	do	_	_	_	_	_	_	_	_
+32	de	de	ADP	ADP	_	34	case	_	_
+33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	Henca	_	PROPN	PNOUN	_	31	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	26	punct	_	_
+
+# sent_id = train-s116
+# text = Emboscada -- A polícia investiga a hipótese de Wallace ter sido alvo duma emboscada.
+1	Emboscada	_	PROPN	PNOUN	_	5	parataxis	_	_
+2	--	_	PUNCT	.	_	5	punct	_	_
+3	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	polícia	polícia	NOUN	NOUN	_	5	nsubj	_	_
+5	investiga	investigar	VERB	VERB	_	0	root	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	hipótese	hipótese	NOUN	NOUN	_	5	obj	_	_
+8	de	_	ADP	ADP	_	12	mark	_	_
+9	Wallace	_	PROPN	PNOUN	_	12	nsubj	_	_
+10	ter	ter	AUX	AUX	_	12	aux	_	_
+11	sido	ser	AUX	AUX	_	12	cop	_	_
+12	alvo	alvo	NOUN	NOUN	_	7	nmod	_	_
+13-14	duma	_	_	_	_	_	_	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
+14	uma	um	DET	DET	_	15	det	_	_
+15	emboscada	emboscada	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s117
+# text = Temperatura estável.
+1	Temperatura	temperatura	NOUN	NOUN	_	0	root	_	_
+2	estável	estável	ADJ	ADJ	_	1	amod	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Algumas das maiores perdas foram nos principais Estados que o partido governa: São Paulo (menos 34 prefeituras) e Minas Gerais (menos 17).
+# sent_id = train-s118
+1	Algumas	algum	PRON	_	Gender=Fem|Number=Plur|PronType=Ind	10	nsubj	_	_
+2-3	das	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	5	case	_	_
+3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+4	maiores	grande	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	_
+5	perdas	perda	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
+6	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	10	cop	_	_
+7-8	nos	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	10	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	principais	principal	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	_
+10	Estados	estado	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+11	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	14	obj	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	partido	partido	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
+14	governa	governar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	SpaceAfter=No
+15	:	:	PUNCT	_	_	16	punct	_	_
+16	São	São	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	10	appos	_	_
+17	Paulo	Paulo	PROPN	_	Number=Sing	16	flat:name	_	_
+18	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+19	menos	menos	ADV	_	_	21	advmod	_	_
+20	34	34	NUM	_	NumType=Card	21	nummod	_	_
+21	prefeituras	prefeitura	NOUN	_	Gender=Fem|Number=Plur	16	appos	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	_	_
+23	e	e	CCONJ	_	_	24	cc	_	_
+24	Minas	Minas	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	16	conj	_	_
+25	Gerais	Gerais	PROPN	_	Number=Sing	24	flat:name	_	_
+26	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
+27	menos	menos	ADV	_	_	28	advmod	_	_
+28	17	17	NUM	_	NumType=Card	24	appos	_	SpaceAfter=No
+29	)	)	PUNCT	_	_	28	punct	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = train-s119
+# text = De acordo com o Instituto Nacional do Câncer (Inca), a medula óssea, constituída por tecido líquido - gelatinoso e encontrada no interior dos ossos e produz os componentes do sangue, incluindo as hemácias ou células vermelhas.
+1	De	_	ADP	ADP	_	2	case	_	_
+2	acordo	acordo	NOUN	NOUN	_	25	nmod	_	_
+3	com	com	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Instituto	_	PROPN	PNOUN	_	2	nmod	_	_
+6	Nacional	_	PROPN	PNOUN	_	5	amod	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Câncer	_	PROPN	PNOUN	_	5	nmod	_	_
+10	(	(	PUNCT	.	_	11	punct	_	SpaceAfter=No
+11	Inca	_	PROPN	PNOUN	_	5	appos	_	SpaceAfter=No
+12	)	)	PUNCT	.	_	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	.	_	2	punct	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	medula	medula	NOUN	NOUN	_	25	nsubj:pass	_	_
+16	óssea	ósseo	ADJ	ADJ	_	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	.	_	18	punct	_	_
+18	constituída	constituir	VERB	VERB	_	15	acl	_	_
+19	por	por	ADP	ADP	_	20	case	_	_
+20	tecido	tecido	NOUN	NOUN	_	18	nmod	_	_
+21	líquido	líquido	ADJ	ADJ	_	23	amod	_	_
+22	-	-	PUNCT	.	_	23	punct	_	_
+23	gelatinoso	gelatinoso	ADJ	ADJ	_	20	amod	_	_
+24	e	_	AUX	AUX	_	25	aux:pass	_	_
+25	encontrada	encontrar	VERB	VERB	_	0	root	_	_
+26-27	no	_	_	_	_	_	_	_	_
+26	em	em	ADP	ADP	_	28	case	_	_
+27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	interior	interior	NOUN	NOUN	_	25	nmod	_	_
+29-30	dos	_	_	_	_	_	_	_	_
+29	de	de	ADP	ADP	_	31	case	_	_
+30	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	ossos	osso	NOUN	NOUN	_	28	nmod	_	_
+32	e	e	CCONJ	CONJ	_	33	cc	_	_
+33	produz	produzir	VERB	VERB	_	25	conj	_	_
+34	os	o	DET	DET	_	35	det	_	_
+35	componentes	componente	NOUN	NOUN	_	33	obj	_	_
+36-37	do	_	_	_	_	_	_	_	_
+36	de	de	ADP	ADP	_	38	case	_	_
+37	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	sangue	sangue	NOUN	NOUN	_	35	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	.	_	40	punct	_	_
+40	incluindo	incluir	VERB	VERB	_	35	acl	_	_
+41	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	42	det	_	_
+42	hemácias	hemácia	NOUN	NOUN	_	40	obj	_	_
+43	ou	ou	CCONJ	CONJ	_	44	cc	_	_
+44	células	célula	NOUN	NOUN	_	42	conj	_	_
+45	vermelhas	vermelho	ADJ	ADJ	_	44	amod	_	SpaceAfter=No
+46	.	.	PUNCT	.	_	25	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = A Prefeitura de Santa Cruz do Sul anunciou na manhã desta sexta-feira, 6, que o edital de licitação do transporte coletivo urbano já está pronto.
+# sent_id = train-s120
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Prefeitura	Prefeitura	PROPN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	Santa	Santa	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	2	nmod	_	_
+5	Cruz	Cruz	PROPN	_	Number=Sing	4	flat:name	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Sul	Sul	PROPN	_	Number=Sing	4	nmod	_	_
+9	anunciou	anunciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10-11	na	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	manhã	manhã	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+13-14	desta	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	15	det	_	_
+15	sexta-feira	sexta-feira	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	6	6	NUM	_	NumType=Card	15	appos	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	que	que	SCONJ	_	_	31	mark	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	edital	edital	NOUN	_	Gender=Masc|Number=Sing	31	nsubj	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	licitação	licitação	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+24-25	do	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	transporte	transporte	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+27	coletivo	coletivo	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	_
+28	urbano	urbano	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	_
+29	já	já	ADV	_	_	31	advmod	_	_
+30	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+31	pronto	pronto	ADJ	_	Gender=Masc|Number=Sing	9	ccomp	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+

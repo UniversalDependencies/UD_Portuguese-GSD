@@ -1,0 +1,276 @@
+# sent_id = test-s378
+# text = Castro Faria, formou uma geração inteira de antropólogos brasileiros.
+1	Castro	_	PROPN	PNOUN	_	4	nsubj	_	_
+2	Faria	_	PROPN	PNOUN	_	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	.	_	1	punct	_	_
+4	formou	formar	VERB	VERB	_	0	root	_	_
+5	uma	um	DET	DET	_	6	det	_	_
+6	geração	geração	NOUN	NOUN	_	4	obj	_	_
+7	inteira	inteiro	ADJ	ADJ	_	6	amod	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
+9	antropólogos	antropólogo	NOUN	NOUN	_	6	nmod	_	_
+10	brasileiros	brasileiro	ADJ	ADJ	_	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = test-s379a
+# text = Segundo Suetônio, César teria sido avisado pelo adivinho Spurinna, que lhe teria avisado do perigo, que não viveria depois dos idos de Março.
+1	Segundo	_	ADP	ADP	_	2	case	_	_
+2	Suetônio	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	.	_	2	punct	_	_
+4	César	_	PROPN	PNOUN	_	7	nsubj:pass	_	_
+5	teria	ter	AUX	AUX	_	7	aux	_	_
+6	sido	ser	AUX	AUX	_	7	aux:pass	_	_
+7	avisado	avisar	VERB	VERB	_	0	root	_	_
+8-9	pelo	_	_	_	_	_	_	_	_
+8	por	por	ADP	ADP	_	10	case	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	adivinho	adivinho	NOUN	NOUN	_	7	nmod	_	_
+11	Spurinna	_	PROPN	PNOUN	_	10	appos	_	SpaceAfter=No
+12	,	,	PUNCT	.	_	16	punct	_	_
+13	que	_	PRON	PRON	_	16	nsubj	_	_
+14	lhe	_	PRON	PRON	_	16	iobj	_	_
+15	teria	ter	AUX	AUX	_	16	aux	_	_
+16	avisado	avisar	VERB	VERB	_	10	acl:relcl	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	ADP	_	19	case	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	perigo	perigo	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	.	_	23	punct	_	_
+21	que	que	CCONJ	CONJ	_	23	mark	_	_
+22	não	não	ADV	ADV	Polarity=Neg	23	advmod	_	_
+23	viveria	viver	VERB	VERB	_	7	ccomp	_	_
+24	depois	depois	ADV	ADV	_	27	case	_	_
+25-26	dos	_	_	_	_	_	_	_	_
+25	de	de	ADP	ADP	_	27	case	_	_
+26	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	idos	idos	NOUN	NOUN	_	23	nmod	_	_
+28	de	de	ADP	ADP	_	29	case	_	_
+29	Março	_	PROPN	PNOUN	_	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = test-s379b
+# text = Impressionado, César resolveu não sair de casa naquele dia.
+1	Impressionado	impressionado	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
+2	,	,	PUNCT	.	_	1	punct	_	_
+3	César	_	PROPN	PNOUN	_	4	nsubj	_	_
+4	resolveu	resolver	VERB	VERB	_	0	root	_	_
+5	não	não	ADV	ADV	Polarity=Neg	6	advmod	_	_
+6	sair	sair	VERB	VERB	_	4	xcomp	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
+8	casa	casa	NOUN	NOUN	_	6	nmod	_	_
+9	naquele	_	ADP	ADP	_	10	case	_	_
+10	dia	dia	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = test-s380
+# text = Integrante da rede internacional de universidades Laureate, a FADERGS programou o evento com vagas abertas ao público e gratuitas.
+1	Integrante	_	NOUN	NOUN	_	12	nsubj	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	ADP	_	4	case	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	rede	rede	NOUN	NOUN	_	1	nmod	_	_
+5	internacional	internacional	ADJ	ADJ	_	4	amod	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
+7	universidades	universidade	NOUN	NOUN	_	4	nmod	_	_
+8	Laureate	_	PROPN	PNOUN	_	4	appos	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	11	punct	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	FADERGS	_	PROPN	PNOUN	_	1	appos	_	_
+12	programou	programar	VERB	VERB	_	0	root	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	evento	evento	NOUN	NOUN	_	12	obj	_	_
+15	com	com	ADP	ADP	_	16	case	_	_
+16	vagas	vaga	NOUN	NOUN	_	12	nmod	_	_
+17	abertas	aberto	ADJ	ADJ	_	16	amod	_	_
+18-19	ao	_	_	_	_	_	_	_	_
+18	a	a	ADP	ADP	_	20	case	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	público	público	NOUN	NOUN	_	17	nmod	_	_
+21	e	e	CCONJ	CONJ	_	22	cc	_	_
+22	gratuitas	gratuito	ADJ	ADJ	_	17	conj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = test-s381
+# text = Representantes de Moçambique levaram a preocupação ao secretário - geral da Organização das Nações Unidas (ONU), Ban Ki - moon.
+1	Representantes	representante	NOUN	NOUN	_	4	nsubj	_	_
+2	de	de	ADP	ADP	_	3	case	_	_
+3	Moçambique	_	PROPN	PNOUN	_	1	nmod	_	_
+4	levaram	levar	VERB	VERB	_	0	root	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	preocupação	preocupação	NOUN	NOUN	_	4	obj	_	_
+7-8	ao	_	_	_	_	_	_	_	_
+7	a	a	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	secretário	secretário	NOUN	NOUN	_	4	iobj	_	_
+10	-	-	PUNCT	.	_	9	punct	_	_
+11	geral	geral	ADJ	ADJ	_	9	amod	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	ADP	_	14	case	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Organização	organização	NOUN	NOUN	_	9	nmod	_	_
+15-16	das	_	_	_	_	_	_	_	_
+15	de	de	ADP	ADP	_	17	case	_	_
+16	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	Nações	_	PROPN	PNOUN	_	14	nmod	_	_
+18	Unidas	_	PROPN	PNOUN	_	17	amod	_	_
+19	(	(	PUNCT	.	_	20	punct	_	SpaceAfter=No
+20	ONU	_	PROPN	PNOUN	_	14	appos	_	SpaceAfter=No
+21	)	)	PUNCT	.	_	20	punct	_	SpaceAfter=No
+22	,	,	PUNCT	.	_	23	punct	_	_
+23	Ban	_	PROPN	PNOUN	_	9	appos	_	_
+24	Ki	_	PROPN	PNOUN	_	23	flat	_	_
+25	-	-	PUNCT	.	_	23	punct	_	_
+26	moon	_	PROPN	PNOUN	_	23	flat	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = test-s382
+# text = Mesmo com Luis Fabiano lesionado e fora deste confronto, Leandro Damião ficou na reserva e depois substituiu Arouca ao longo da atividade desta terça.
+1	Mesmo	mesmo	ADV	ADV	_	3	advmod	_	_
+2	com	com	ADP	ADP	_	3	case	_	_
+3	Luis	_	PROPN	PNOUN	_	13	nmod	_	_
+4	Fabiano	_	PROPN	PNOUN	_	3	flat	_	_
+5	lesionado	lesionado	ADJ	ADJ	_	3	amod	_	_
+6	e	e	CCONJ	CONJ	_	7	cc	_	_
+7	fora	fora	ADV	ADV	_	5	conj	_	_
+8	deste	_	ADP	ADP	_	9	case	_	_
+9	confronto	confronto	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	3	punct	_	_
+11	Leandro	_	PROPN	PNOUN	_	13	nsubj	_	_
+12	Damião	_	PROPN	PNOUN	_	11	flat	_	_
+13	ficou	ficar	VERB	VERB	_	0	root	_	_
+14-15	na	_	_	_	_	_	_	_	_
+14	em	em	ADP	ADP	_	16	case	_	_
+15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	reserva	reserva	NOUN	NOUN	_	13	nmod	_	_
+17	e	e	CCONJ	CONJ	_	19	cc	_	_
+18	depois	depois	ADV	ADV	_	19	advmod	_	_
+19	substituiu	substituir	VERB	VERB	_	13	conj	_	_
+20	Arouca	_	PROPN	PNOUN	_	19	obj	_	_
+21-22	ao	_	_	_	_	_	_	_	_
+21	a	a	ADP	ADP	_	23	case	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	longo	longo	NOUN	NOUN	_	19	nmod	_	_
+24-25	da	_	_	_	_	_	_	_	_
+24	de	de	ADP	ADP	_	26	case	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	atividade	atividade	NOUN	NOUN	_	23	nmod	_	_
+27	desta	_	ADP	ADP	_	28	case	_	_
+28	terça	_	PROPN	PNOUN	_	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = test-s383
+# text = A paisagem da cidade guardava alguns segredos que, com o programa de revitalização dos mirantes, começam a ser desvendados -- afirmou o secretário municipal de Conservação e Serviços Públicos Carlos Roberto Osório.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	paisagem	paisagem	NOUN	NOUN	_	6	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	cidade	cidade	NOUN	NOUN	_	2	nmod	_	_
+6	guardava	guardar	VERB	VERB	_	25	ccomp	_	_
+7	alguns	_	DET	DET	_	8	det	_	_
+8	segredos	segredo	NOUN	NOUN	_	6	obj	_	_
+9	que	_	PRON	PRON	_	23	nsubj:pass	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	13	punct	_	_
+11	com	com	ADP	ADP	_	13	case	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	programa	programa	NOUN	NOUN	_	23	nmod	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
+15	revitalização	revitalização	NOUN	NOUN	_	13	nmod	_	_
+16-17	dos	_	_	_	_	_	_	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
+17	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	mirantes	mirante	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	.	_	13	punct	_	_
+20	começam	_	AUX	AUX	_	23	aux	_	_
+21	a	_	ADP	ADP	_	23	mark	_	_
+22	ser	ser	AUX	AUX	_	23	aux:pass	_	_
+23	desvendados	desvendar	VERB	VERB	_	8	acl:relcl	_	_
+24	--	_	PUNCT	.	_	25	punct	_	_
+25	afirmou	afirmar	VERB	VERB	_	0	root	_	_
+26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	secretário	secretário	NOUN	NOUN	_	25	nsubj	_	_
+28	municipal	municipal	ADJ	ADJ	_	27	amod	_	_
+29	de	de	ADP	ADP	_	30	case	_	_
+30	Conservação	_	PROPN	PNOUN	_	27	nmod	_	_
+31	e	e	CCONJ	CONJ	_	32	cc	_	_
+32	Serviços	_	PROPN	PNOUN	_	30	conj	_	_
+33	Públicos	_	PROPN	PNOUN	_	32	amod	_	_
+34	Carlos	_	PROPN	PNOUN	_	27	appos	_	_
+35	Roberto	_	PROPN	PNOUN	_	34	flat	_	_
+36	Osório	_	PROPN	PNOUN	_	34	flat	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	25	punct	_	_
+
+# sent_id = test-s384
+# text = Existem 15 unidades frigoríficas brasileiras à espera de autorização para exportar para aquele mercado, informa Esequiel Liuson, que foi adido agrícola do Brasil em Pequim, entre 2010 até este ano.
+1	Existem	existir	VERB	VERB	_	17	ccomp	_	_
+2	15	15	NUM	NUM	NumType=Card	3	nummod	_	_
+3	unidades	unidade	NOUN	NOUN	_	1	nsubj	_	_
+4	frigoríficas	frigorífico	ADJ	ADJ	_	3	amod	_	_
+5	brasileiras	brasileiro	ADJ	ADJ	_	3	amod	_	_
+6-7	à	_	_	_	_	_	_	_	_
+6	a	a	ADP	ADP	_	8	case	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	espera	espera	NOUN	NOUN	_	3	nmod	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
+10	autorização	autorização	NOUN	NOUN	_	8	nmod	_	_
+11	para	_	ADP	ADP	_	12	mark	_	_
+12	exportar	exportar	VERB	VERB	_	10	nmod	_	_
+13	para	para	ADP	ADP	_	15	case	_	_
+14	aquele	_	DET	DET	_	15	det	_	_
+15	mercado	mercado	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	.	_	17	punct	_	_
+17	informa	informar	VERB	VERB	_	0	root	_	_
+18	Esequiel	_	PROPN	PNOUN	_	17	nsubj	_	_
+19	Liuson	_	PROPN	PNOUN	_	18	flat	_	SpaceAfter=No
+20	,	,	PUNCT	.	_	23	punct	_	_
+21	que	_	PRON	PRON	_	23	nsubj	_	_
+22	foi	_	AUX	AUX	_	23	cop	_	_
+23	adido	adido	NOUN	NOUN	_	18	acl:relcl	_	_
+24	agrícola	agrícola	ADJ	ADJ	_	23	amod	_	_
+25-26	do	_	_	_	_	_	_	_	_
+25	de	de	ADP	ADP	_	27	case	_	_
+26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Brasil	_	PROPN	PNOUN	_	23	nmod	_	_
+28	em	em	ADP	ADP	_	29	case	_	_
+29	Pequim	_	PROPN	PNOUN	_	23	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	.	_	32	punct	_	_
+31	entre	_	ADP	ADP	_	32	case	_	_
+32	2010	2010	NUM	NUM	NumType=Card	23	nmod	_	_
+33	até	_	ADP	ADP	_	35	case	_	_
+34	este	_	DET	DET	_	35	det	_	_
+35	ano	ano	NOUN	NOUN	_	23	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = test-s385
+# text = Foi disputado por 16 equipes.
+1	Foi	_	AUX	AUX	_	2	aux:pass	_	_
+2	disputado	disputar	VERB	VERB	_	0	root	_	_
+3	por	por	ADP	ADP	_	5	case	_	_
+4	16	16	NUM	NUM	NumType=Card	5	nummod	_	_
+5	equipes	equipe	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = test-s386
+# text = Não bastasse ser a minha primeira vez no rafting, encarei o desafio na modalidade noturna.
+1	Não	não	ADV	ADV	Polarity=Neg	2	advmod	_	_
+2	bastasse	bastar	VERB	VERB	_	12	advcl	_	_
+3	ser	ser	AUX	AUX	_	7	cop	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+5	minha	_	DET	DET	_	7	det:poss	_	_
+6	primeira	primeiro	ADJ	ADJ	_	7	amod	_	_
+7	vez	vez	NOUN	NOUN	_	2	xcomp	_	_
+8-9	no	_	_	_	_	_	_	_	_
+8	em	em	ADP	ADP	_	10	case	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	rafting	_	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	2	punct	_	_
+12	encarei	encarar	VERB	VERB	_	0	root	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	desafio	desafio	NOUN	NOUN	_	12	obj	_	_
+15-16	na	_	_	_	_	_	_	_	_
+15	em	em	ADP	ADP	_	17	case	_	_
+16	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	modalidade	modalidade	NOUN	NOUN	_	12	nmod	_	_
+18	noturna	noturno	ADJ	ADJ	_	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	12	punct	_	_
+

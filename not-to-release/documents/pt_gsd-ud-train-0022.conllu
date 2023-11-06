@@ -1,0 +1,304 @@
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Os baianos e pernambucanos e os outros considerados estrangeiros ficaram do lado dos portugueses.
+# sent_id = train-s211
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	baianos	baiano	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
+3	e	e	CCONJ	_	_	4	cc	_	_
+4	pernambucanos	pernambucano	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	_
+5	e	e	CCONJ	_	_	8	cc	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
+8	considerados	considerar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	2	conj	_	_
+9	estrangeiros	estrangeiro	ADJ	_	Gender=Masc|Number=Plur	8	xcomp	_	_
+10	ficaram	ficar	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	lado	lado	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+14-15	dos	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	portugueses	português	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = O grande destaque da goleada do Sampaio Corrêa sobre o Comercial / PI, ontem, à tarde, no Nhozinho Santos, foi o experiente Arlindo Maracanã, que fez dois gols, ambos de cabeça, sendo um no primeiro tempo e o outro no segundo tempo e por pouco não fez o terceiro, para se tornar o artilheiro do Fantástico desde domingo e pedir música.
+# sent_id = train-s212
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	grande	grande	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
+3	destaque	destaque	NOUN	_	Gender=Masc|Number=Sing	31	nsubj	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	goleada	goleada	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Sampaio	Sampaio	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	6	nmod	_	_
+10	Corrêa	Corrêa	PROPN	_	Number=Sing	9	flat:name	_	_
+11	sobre	sobre	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Comercial	Comercial	PROPN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+14	/	/	PUNCT	_	_	15	punct	_	_
+15	PI	PI	PROPN	_	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	ontem	ontem	ADV	_	_	31	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	21	punct	_	_
+19-20	à	_	_	_	_	_	_	_	_
+19	a	a	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	tarde	tarde	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	25	punct	_	_
+23-24	no	_	_	_	_	_	_	_	_
+23	em	em	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Nhozinho	Nhozinho	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	31	nmod	_	_
+26	Santos	Santos	PROPN	_	Number=Sing	25	flat:name	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	25	punct	_	_
+28	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	cop	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+30	experiente	experiente	ADJ	_	Gender=Masc|Number=Sing	31	amod	_	_
+31	Arlindo	Arlindo	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	0	root	_	_
+32	Maracanã	Maracanã	PROPN	_	Number=Sing	31	flat:name	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	35	punct	_	_
+34	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	35	nsubj	_	_
+35	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	acl:relcl	_	_
+36	dois	dois	NUM	_	NumType=Card	37	nummod	_	_
+37	gols	gol	NOUN	_	Gender=Masc|Number=Plur	35	obj	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	39	punct	_	_
+39	ambos	ambos	PRON	_	Gender=Masc|Number=Plur|PronType=Tot	37	appos	_	_
+40	de	de	ADP	_	_	41	case	_	_
+41	cabeça	cabeça	NOUN	_	Gender=Fem|Number=Sing	39	nmod	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	44	punct	_	_
+43	sendo	ser	AUX	_	VerbForm=Ger	44	cop	_	_
+44	um	um	NUM	_	NumType=Card	35	advcl	_	_
+45-46	no	_	_	_	_	_	_	_	_
+45	em	em	ADP	_	_	48	case	_	_
+46	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+47	primeiro	primeiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	48	amod	_	_
+48	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	44	nmod	_	_
+49	e	e	CCONJ	_	_	51	cc	_	_
+50	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	outro	outro	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	44	conj	_	_
+52-53	no	_	_	_	_	_	_	_	_
+52	em	em	ADP	_	_	55	case	_	_
+53	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
+54	segundo	segundo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	55	amod	_	_
+55	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	51	nmod	_	_
+56	e	e	CCONJ	_	_	60	cc	_	_
+57	por	por	ADP	_	_	58	case	_	_
+58	pouco	pouco	NOUN	_	Gender=Masc|Number=Sing	60	obl	_	_
+59	não	não	ADV	_	Polarity=Neg	60	advmod	_	_
+60	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	35	conj	_	_
+61	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
+62	terceiro	terceiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	60	obj	_	SpaceAfter=No
+63	,	,	PUNCT	_	_	66	punct	_	_
+64	para	para	SCONJ	_	_	66	mark	_	_
+65	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	66	expl	_	_
+66	tornar	tornar	VERB	_	VerbForm=Inf	60	advcl	_	_
+67	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	68	det	_	_
+68	artilheiro	artilheiro	NOUN	_	Gender=Masc|Number=Sing	66	obj	_	_
+69-70	do	_	_	_	_	_	_	_	_
+69	de	de	ADP	_	_	71	case	_	_
+70	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	71	det	_	_
+71	Fantástico	Fantástico	PROPN	_	Gender=Masc|Number=Sing	68	nmod	_	_
+72	desde	desde	ADP	_	_	73	case	_	_
+73	domingo	domingo	NOUN	_	Gender=Masc|Number=Sing	66	obl	_	_
+74	e	e	CCONJ	_	_	75	cc	_	_
+75	pedir	pedir	VERB	_	VerbForm=Inf	66	conj	_	_
+76	música	música	NOUN	_	Gender=Fem|Number=Sing	75	obj	_	SpaceAfter=No
+77	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = train-s213
+# text = Dickory.
+1	Dickory	_	PROPN	PNOUN	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s214
+# text = Pela primeira vez a instituição entregou um diploma a uma aluna de etnia indígena.
+1-2	Pela	_	_	_	_	_	_	_	_
+1	Por	por	ADP	ADP	_	4	case	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	primeira	primeiro	ADJ	ADJ	_	4	amod	_	_
+4	vez	vez	NOUN	NOUN	_	7	nmod	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	instituição	instituição	NOUN	NOUN	_	7	nsubj	_	_
+7	entregou	entregar	VERB	VERB	_	0	root	_	_
+8	um	um	DET	DET	_	9	det	_	_
+9	diploma	diploma	NOUN	NOUN	_	7	obj	_	_
+10	a	_	ADP	ADP	_	12	case	_	_
+11	uma	um	DET	DET	_	12	det	_	_
+12	aluna	aluno	NOUN	NOUN	_	7	iobj	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
+14	etnia	etnia	NOUN	NOUN	_	12	nmod	_	_
+15	indígena	indígena	ADJ	ADJ	_	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s215
+# text = O pedido foi negado.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	pedido	pedido	NOUN	NOUN	_	4	nsubj:pass	_	_
+3	foi	_	AUX	AUX	_	4	aux:pass	_	_
+4	negado	negar	VERB	VERB	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s216
+# text = Esta última modificação é o resultado dum longo debate, geralmente árduo, entre psiquiatras, as fundações e organizações de pacientes, sobretudo no caso do autismo.
+1	Esta	_	DET	DET	_	3	det	_	_
+2	última	último	ADJ	ADJ	_	3	amod	_	_
+3	modificação	modificação	NOUN	NOUN	_	6	nsubj	_	_
+4	é	ser	AUX	AUX	_	6	cop	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	resultado	resultado	NOUN	NOUN	_	0	root	_	_
+7-8	dum	_	_	_	_	_	_	_	_
+7	de	de	ADP	ADP	_	10	case	_	_
+8	um	um	DET	DET	_	10	det	_	_
+9	longo	longo	ADJ	ADJ	_	10	amod	_	_
+10	debate	debate	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	13	punct	_	_
+12	geralmente	geralmente	ADV	ADV	_	13	advmod	_	_
+13	árduo	árduo	ADJ	ADJ	_	10	amod	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	13	punct	_	_
+15	entre	_	ADP	ADP	_	16	case	_	_
+16	psiquiatras	_	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	.	_	19	punct	_	_
+18	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	fundações	fundação	NOUN	NOUN	_	16	conj	_	_
+20	e	e	CCONJ	CONJ	_	21	cc	_	_
+21	organizações	_	PROPN	PNOUN	_	16	conj	_	_
+22	de	de	ADP	ADP	_	23	case	_	_
+23	pacientes	paciente	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	.	_	28	punct	_	_
+25	sobretudo	sobretudo	ADV	ADV	_	28	advmod	_	_
+26-27	no	_	_	_	_	_	_	_	_
+26	em	em	ADP	ADP	_	28	case	_	_
+27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	caso	caso	NOUN	NOUN	_	6	nmod	_	_
+29-30	do	_	_	_	_	_	_	_	_
+29	de	de	ADP	ADP	_	31	case	_	_
+30	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	autismo	autismo	NOUN	NOUN	_	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s217
+# text = O material foi encontrado na tarde da última sexta - feira (26) e será encaminhado ao Promotor de Justiça da cidade, Dr.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	material	material	NOUN	NOUN	_	4	nsubj:pass	_	_
+3	foi	_	AUX	AUX	_	4	aux:pass	_	_
+4	encontrado	encontrar	VERB	VERB	_	0	root	_	_
+5-6	na	_	_	_	_	_	_	_	_
+5	em	em	ADP	ADP	_	7	case	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	tarde	tarde	NOUN	NOUN	_	4	nmod	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	ADP	_	13	case	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+10	última	último	ADJ	ADJ	_	13	amod	_	_
+11	sexta	_	PROPN	PNOUN	_	13	amod	_	_
+12	-	-	PUNCT	.	_	13	punct	_	_
+13	feira	_	PROPN	PNOUN	_	7	nmod	_	_
+14	(	(	PUNCT	.	_	15	punct	_	SpaceAfter=No
+15	26	26	NUM	NUM	NumType=Card	13	nmod	_	SpaceAfter=No
+16	)	)	PUNCT	.	_	15	punct	_	_
+17	e	e	CCONJ	CONJ	_	19	cc	_	_
+18	será	ser	AUX	AUX	_	19	aux:pass	_	_
+19	encaminhado	encaminhar	VERB	VERB	_	4	conj	_	_
+20-21	ao	_	_	_	_	_	_	_	_
+20	a	a	ADP	ADP	_	22	case	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Promotor	_	PROPN	PNOUN	_	19	iobj	_	_
+23	de	de	ADP	ADP	_	24	case	_	_
+24	Justiça	_	PROPN	PNOUN	_	22	nmod	_	_
+25-26	da	_	_	_	_	_	_	_	_
+25	de	de	ADP	ADP	_	27	case	_	_
+26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	cidade	cidade	NOUN	NOUN	_	22	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	.	_	29	punct	_	_
+29	Dr	_	PROPN	PNOUN	_	22	appos	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s218
+# text = Patrick toca violão, bandolim, percussão, saxofone, flauta, violino, clarinete, trompete e trombone.
+1	Patrick	_	PROPN	PNOUN	_	2	nsubj	_	_
+2	toca	tocar	VERB	VERB	_	0	root	_	_
+3	violão	violão	NOUN	NOUN	_	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	5	punct	_	_
+5	bandolim	bandolim	NOUN	NOUN	_	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	.	_	7	punct	_	_
+7	percussão	percussão	NOUN	NOUN	_	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	9	punct	_	_
+9	saxofone	saxofone	NOUN	NOUN	_	3	conj	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	11	punct	_	_
+11	flauta	flauta	NOUN	NOUN	_	3	conj	_	SpaceAfter=No
+12	,	,	PUNCT	.	_	13	punct	_	_
+13	violino	violino	NOUN	NOUN	_	3	conj	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	15	punct	_	_
+15	clarinete	clarinete	NOUN	NOUN	_	3	conj	_	SpaceAfter=No
+16	,	,	PUNCT	.	_	17	punct	_	_
+17	trompete	trompete	NOUN	NOUN	_	3	conj	_	_
+18	e	e	CCONJ	CONJ	_	19	cc	_	_
+19	trombone	_	PROPN	PNOUN	_	3	conj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s219
+# text = As discussões provocaram nova manifestação de Barbosa, que engatou: "Minha proposta é deixarmos na nossa decisão consignada a perda.
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	discussões	discussão	NOUN	NOUN	_	3	nsubj	_	_
+3	provocaram	provocar	VERB	VERB	_	0	root	_	_
+4	nova	novo	ADJ	ADJ	_	5	amod	_	_
+5	manifestação	manifestação	NOUN	NOUN	_	3	obj	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
+7	Barbosa	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	10	punct	_	_
+9	que	_	PRON	PRON	_	10	nsubj	_	_
+10	engatou	engatar	VERB	VERB	_	7	acl:relcl	_	SpaceAfter=No
+11	:	:	PUNCT	.	_	10	punct	_	_
+12	"	"	PUNCT	.	_	14	punct	_	SpaceAfter=No
+13	Minha	_	DET	DET	_	14	det:poss	_	_
+14	proposta	_	NOUN	NOUN	_	10	ccomp	_	_
+15	é	ser	AUX	AUX	_	14	cop	_	_
+16	deixarmos	deixar	VERB	VERB	_	14	csubj	_	_
+17-18	na	_	_	_	_	_	_	_	_
+17	em	em	ADP	ADP	_	20	case	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	nossa	_	DET	DET	_	20	det:poss	_	_
+20	decisão	decisão	NOUN	NOUN	_	16	nmod	_	_
+21	consignada	consignado	ADJ	ADJ	_	16	xcomp	_	_
+22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	perda	perda	NOUN	NOUN	_	21	nsubj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s220
+# text = A cooperativa é proprietária das marcas Hyper U, Super U e Marché U que são colocadas à disposição dos seus associados.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	cooperativa	_	NOUN	NOUN	_	4	nsubj	_	_
+3	é	ser	AUX	AUX	_	4	cop	_	_
+4	proprietária	proprietário	NOUN	NOUN	_	0	root	_	_
+5-6	das	_	_	_	_	_	_	_	_
+5	de	de	ADP	ADP	_	7	case	_	_
+6	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	marcas	marca	NOUN	NOUN	_	4	nmod	_	_
+8	Hyper	_	PROPN	PNOUN	_	7	appos	_	_
+9	U	_	PROPN	PNOUN	_	8	flat	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	11	punct	_	_
+11	Super	_	PROPN	PNOUN	_	8	conj	_	_
+12	U	_	PROPN	PNOUN	_	11	flat	_	_
+13	e	e	CCONJ	CONJ	_	14	cc	_	_
+14	Marché	_	PROPN	PNOUN	_	8	conj	_	_
+15	U	_	PROPN	PNOUN	_	14	flat	_	_
+16	que	_	PRON	PRON	_	18	nsubj:pass	_	_
+17	são	ser	AUX	AUX	_	18	aux:pass	_	_
+18	colocadas	colocar	VERB	VERB	_	7	acl:relcl	_	_
+19-20	à	_	_	_	_	_	_	_	_
+19	a	a	ADP	ADP	_	21	case	_	_
+20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	disposição	disposição	NOUN	NOUN	_	18	nmod	_	_
+22-23	dos	_	_	_	_	_	_	_	_
+22	de	de	ADP	ADP	_	25	case	_	_
+23	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+24	seus	_	DET	DET	_	25	det:poss	_	_
+25	associados	associado	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	4	punct	_	_
+

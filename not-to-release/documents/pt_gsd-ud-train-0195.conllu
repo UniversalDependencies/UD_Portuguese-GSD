@@ -1,0 +1,322 @@
+# sent_id = train-s1935
+# text = O seu nome é uma homenagem ao industrial britânico William Beardmore (1856 -- 1936) financiador da expedição de Ernest Shackleton à Antártida em 1907.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	seu	_	DET	DET	_	3	det:poss	_	_
+3	nome	nome	NOUN	NOUN	_	6	nsubj	_	_
+4	é	ser	AUX	AUX	_	6	cop	_	_
+5	uma	um	DET	DET	_	6	det	_	_
+6	homenagem	homenagem	NOUN	NOUN	_	0	root	_	_
+7-8	ao	_	_	_	_	_	_	_	_
+7	a	a	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	industrial	industrial	NOUN	NOUN	_	6	nmod	_	_
+10	britânico	britânico	ADJ	ADJ	_	9	amod	_	_
+11	William	_	PROPN	PNOUN	_	9	appos	_	_
+12	Beardmore	_	PROPN	PNOUN	_	11	flat	_	_
+13	(	(	PUNCT	.	_	14	punct	_	SpaceAfter=No
+14	1856	1856	NUM	NUM	NumType=Card	11	appos	_	_
+15	--	_	PUNCT	.	_	14	punct	_	_
+16	1936	1936	NUM	NUM	NumType=Card	14	dep	_	SpaceAfter=No
+17	)	)	PUNCT	.	_	14	punct	_	_
+18	financiador	financiador	ADJ	ADJ	_	9	amod	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	ADP	_	21	case	_	_
+20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	expedição	expedição	NOUN	NOUN	_	18	nmod	_	_
+22	de	de	ADP	ADP	_	23	case	_	_
+23	Ernest	_	PROPN	PNOUN	_	21	nmod	_	_
+24	Shackleton	_	PROPN	PNOUN	_	23	flat	_	_
+25-26	à	_	_	_	_	_	_	_	_
+25	a	a	ADP	ADP	_	27	case	_	_
+26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	Antártida	_	PROPN	PNOUN	_	21	nmod	_	_
+28	em	em	ADP	ADP	_	29	case	_	_
+29	1907	1907	NUM	NUM	NumType=Card	21	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s1936
+# text = Eles reivindicam a realização de novos concursos, reajuste salarial e melhores condições de trabalho.
+1	Eles	_	PRON	PRON	_	2	nsubj	_	_
+2	reivindicam	reivindicar	VERB	VERB	_	0	root	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	realização	realização	NOUN	NOUN	_	2	obj	_	_
+5	de	de	ADP	ADP	_	7	case	_	_
+6	novos	novo	ADJ	ADJ	_	7	amod	_	_
+7	concursos	concurso	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	9	punct	_	_
+9	reajuste	reajuste	NOUN	NOUN	_	4	conj	_	_
+10	salarial	salarial	ADJ	ADJ	_	9	amod	_	_
+11	e	e	CCONJ	CONJ	_	13	cc	_	_
+12	melhores	melhor	ADJ	ADJ	_	13	amod	_	_
+13	condições	condição	NOUN	NOUN	_	4	conj	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
+15	trabalho	trabalho	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s1937
+# text = Durante a reunião, informou-se também que a Egesa teria a receber valor superior a quatro milhões de reais, em razão de serviços já executados, além do total dado em garantia pela empresa, em quantia que ultrapassa oito milhões de reais.
+1	Durante	_	ADP	ADP	_	3	case	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	reunião	reunião	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	3	punct	_	_
+5-6	informou-se	_	_	_	_	_	_	_	_
+5	informou	informar	VERB	VERB	_	0	root	_	_
+6	se	_	PART	PRT	_	5	expl:pv	_	_
+7	também	também	ADV	ADV	_	5	advmod	_	_
+8	que	que	CCONJ	CONJ	_	11	mark	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Egesa	_	PROPN	PNOUN	_	11	nsubj	_	_
+11	teria	ter	AUX	AUX	_	5	ccomp	_	_
+12	a	_	ADP	ADP	_	13	mark	_	_
+13	receber	receber	VERB	VERB	_	14	acl:inf	_	_
+14	valor	valor	NOUN	NOUN	_	11	obj	_	_
+15	superior	superior	ADJ	ADJ	_	14	amod	_	_
+16	a	_	ADP	ADP	_	20	case	_	_
+17	quatro	_	NUM	NUM	NumType=Card	18	nummod	_	_
+18	milhões	_	NUM	NUM	NumType=Card	20	nummod	_	_
+19	de	de	ADP	ADP	_	20	case	_	_
+20	reais	real	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	.	_	25	punct	_	_
+22	em	em	ADP	ADP	_	25	case	_	_
+23	razão	razão	NOUN	NOUN	_	22	fixed	_	_
+24	de	_	ADP	ADP	_	22	fixed	_	_
+25	serviços	serviço	NOUN	NOUN	_	11	nmod	_	_
+26	já	já	ADV	ADV	_	27	advmod	_	_
+27	executados	executar	VERB	VERB	_	25	acl	_	SpaceAfter=No
+28	,	,	PUNCT	.	_	29	punct	_	_
+29	além	além	ADV	ADV	_	11	advmod	_	_
+30-31	do	_	_	_	_	_	_	_	_
+30	de	de	ADP	ADP	_	32	case	_	_
+31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	total	total	NOUN	NOUN	_	29	nmod	_	_
+33	dado	dar	VERB	VERB	_	32	acl	_	_
+34	em	em	ADP	ADP	_	35	case	_	_
+35	garantia	garantia	NOUN	NOUN	_	33	nmod	_	_
+36-37	pela	_	_	_	_	_	_	_	_
+36	por	por	ADP	ADP	_	38	case	_	_
+37	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	empresa	empresa	NOUN	NOUN	_	33	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	.	_	41	punct	_	_
+40	em	em	ADP	ADP	_	41	case	_	_
+41	quantia	quantia	NOUN	NOUN	_	32	nmod	_	_
+42	que	_	PRON	PRON	_	43	nsubj	_	_
+43	ultrapassa	ultrapassar	VERB	VERB	_	41	acl:relcl	_	_
+44	oito	_	NUM	NUM	NumType=Card	45	nummod	_	_
+45	milhões	_	NUM	NUM	NumType=Card	47	nummod	_	_
+46	de	de	ADP	ADP	_	47	case	_	_
+47	reais	real	NOUN	NOUN	_	43	obj	_	SpaceAfter=No
+48	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s1938
+# text = "Nos damos muito bem.
+1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
+2	Nos	_	PRON	PRON	_	3	obj	_	_
+3	damos	dar	VERB	VERB	_	0	root	_	_
+4	muito	muito	ADV	ADV	_	5	advmod	_	_
+5	bem	bem	ADV	ADV	_	3	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s1939
+# text = Os depoimentos coletados pela entidade revelam que houve uma briga entre funcionários e os inspetores de qualidade que resultou em espancamento, pessoas feridas e outras hospitalizadas.
+1	Os	o	DET	DET	_	2	det	_	_
+2	depoimentos	depoimento	NOUN	NOUN	_	7	nsubj	_	_
+3	coletados	coletar	VERB	VERB	_	2	acl	_	_
+4-5	pela	_	_	_	_	_	_	_	_
+4	por	por	ADP	ADP	_	6	case	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	entidade	entidade	NOUN	NOUN	_	3	nmod	_	_
+7	revelam	revelar	VERB	VERB	_	0	root	_	_
+8	que	que	CCONJ	CONJ	_	9	mark	_	_
+9	houve	haver	VERB	VERB	_	7	ccomp	_	_
+10	uma	um	DET	DET	_	11	det	_	_
+11	briga	briga	NOUN	NOUN	_	9	obj	_	_
+12	entre	_	ADP	ADP	_	13	case	_	_
+13	funcionários	funcionário	NOUN	NOUN	_	11	nmod	_	_
+14	e	e	CCONJ	CONJ	_	16	cc	_	_
+15	os	o	DET	DET	_	16	det	_	_
+16	inspetores	inspetor	NOUN	NOUN	_	13	conj	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
+18	qualidade	qualidade	NOUN	NOUN	_	16	nmod	_	_
+19	que	_	PRON	PRON	_	20	nsubj	_	_
+20	resultou	resultar	VERB	VERB	_	11	acl:relcl	_	_
+21	em	em	ADP	ADP	_	22	case	_	_
+22	espancamento	espancamento	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	.	_	24	punct	_	_
+24	pessoas	pessoa	NOUN	NOUN	_	22	conj	_	_
+25	feridas	ferido	ADJ	ADJ	_	24	amod	_	_
+26	e	e	CCONJ	CONJ	_	28	cc	_	_
+27	outras	_	DET	DET	_	28	det	_	_
+28	hospitalizadas	_	NOUN	NOUN	_	22	conj	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s1940
+# text = Sarabhai (asteróide 2987) é um asteróide da cintura principal com um diâmetro de 17,97 quilómetros, a 2,7081477 UA.
+1	Sarabhai	_	PROPN	PNOUN	_	8	nsubj	_	_
+2	(	(	PUNCT	.	_	3	punct	_	SpaceAfter=No
+3	asteróide	_	NOUN	NOUN	_	1	appos	_	_
+4	2987	2987	NUM	NUM	NumType=Card	3	appos	_	SpaceAfter=No
+5	)	)	PUNCT	.	_	3	punct	_	_
+6	é	ser	AUX	AUX	_	8	cop	_	_
+7	um	um	DET	DET	_	8	det	_	_
+8	asteróide	_	NOUN	NOUN	_	0	root	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	ADP	_	11	case	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	cintura	cintura	NOUN	NOUN	_	8	nmod	_	_
+12	principal	principal	ADJ	ADJ	_	11	amod	_	_
+13	com	com	ADP	ADP	_	15	case	_	_
+14	um	um	DET	DET	_	15	det	_	_
+15	diâmetro	diâmetro	NOUN	NOUN	_	8	nmod	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
+17	17,97	17,97	NUM	NUM	NumType=Card	18	nummod	_	_
+18	quilómetros	quilómetro	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	.	_	22	punct	_	_
+20	a	_	ADP	ADP	_	22	case	_	_
+21	2,7081477	2,7081477	NUM	NUM	NumType=Card	22	nummod	_	_
+22	UA	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s1941
+# text = Sua população recenseada em 2010 pelo IBGE foi de 41.886 habitantes e está dividida em 3 municípios.
+1	Sua	_	DET	DET	_	2	det:poss	_	_
+2	população	população	NOUN	NOUN	_	9	nsubj	_	_
+3	recenseada	recensear	VERB	VERB	_	2	acl	_	_
+4	em	em	ADP	ADP	_	5	case	_	_
+5	2010	2010	NUM	NUM	NumType=Card	3	nmod	_	_
+6-7	pelo	_	_	_	_	_	_	_	_
+6	por	por	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	IBGE	_	PROPN	PNOUN	_	3	nmod	_	_
+9	foi	_	VERB	VERB	_	0	root	_	_
+10	de	de	ADP	ADP	_	12	case	_	_
+11	41.886	_	NUM	NUM	NumType=Card	12	nummod	_	_
+12	habitantes	habitante	NOUN	NOUN	_	9	nmod	_	_
+13	e	e	CCONJ	CONJ	_	14	cc	_	_
+14	está	estar	VERB	VERB	_	9	conj	_	_
+15	dividida	dividido	ADJ	ADJ	_	14	xcomp	_	_
+16	em	em	ADP	ADP	_	18	case	_	_
+17	3	3	NUM	NUM	NumType=Card	18	nummod	_	_
+18	municípios	município	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = train-s1942
+# text = A mudança visa adequar o calendário de Mato Grosso do Sul às datas previstas pela CBF para todos os campeonatos estaduais.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	mudança	mudança	NOUN	NOUN	_	3	nsubj	_	_
+3	visa	visar	VERB	VERB	_	0	root	_	_
+4	adequar	adequar	VERB	VERB	_	3	xcomp	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	calendário	calendário	NOUN	NOUN	_	4	obj	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
+8	Mato	_	PROPN	PNOUN	_	6	nmod	_	_
+9	Grosso	_	PROPN	PNOUN	_	8	amod	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	ADP	_	12	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Sul	_	PROPN	PNOUN	_	8	nmod	_	_
+13-14	às	_	_	_	_	_	_	_	_
+13	a	a	ADP	ADP	_	15	case	_	_
+14	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	datas	data	NOUN	NOUN	_	4	nmod	_	_
+16	previstas	prever	VERB	VERB	_	15	acl	_	_
+17-18	pela	_	_	_	_	_	_	_	_
+17	por	por	ADP	ADP	_	19	case	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	CBF	_	PROPN	PNOUN	_	16	nmod	_	_
+20	para	para	ADP	ADP	_	23	case	_	_
+21	todos	_	DET	DET	_	23	det	_	_
+22	os	o	DET	DET	_	23	det	_	_
+23	campeonatos	campeonato	NOUN	NOUN	_	16	nmod	_	_
+24	estaduais	estadual	ADJ	ADJ	_	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = O comandante do Exército acrescentou que "esta Brigada vai receber carros de combate Urutu novos, enquanto os Guaranis não chegam e será contemplada com prioridade também no recebimento de armamento individual novo, equipamentos de comunicação, como estações rádio e rádios de comunicação individual para que todos sejam interligados".
+# sent_id = train-s1943
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	comandante	comandante	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Exército	exército	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	acrescentou	acrescentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	que	que	SCONJ	_	_	12	mark	_	_
+8	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+9	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	Brigada	Brigada	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
+11	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	receber	receber	VERB	_	VerbForm=Inf	6	ccomp	_	_
+13	carros	carro	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	_
+14	de	de	ADP	_	_	13	compound	_	_
+15	combate	combate	NOUN	_	Gender=Masc|Number=Sing	13	compound	_	_
+16	Urutu	Urutu	PROPN	_	Gender=Masc|Number=Sing	13	appos	_	_
+17	novos	novo	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	12	punct	_	_
+19	enquanto	enquanto	ADV	_	_	23	advmod	_	_
+20	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	Guaranis	Guaranis	PROPN	_	Gender=Masc|Number=Plur	23	nsubj	_	_
+22	não	não	ADV	_	Polarity=Neg	23	advmod	_	_
+23	chegam	chegar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+24	e	e	CCONJ	_	_	26	cc	_	_
+25	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	26	aux:pass	_	_
+26	contemplada	contemplar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	12	conj	_	_
+27	com	com	ADP	_	_	28	case	_	_
+28	prioridade	prioridade	NOUN	_	Gender=Fem|Number=Sing	26	obl	_	_
+29	também	também	ADV	_	_	32	advmod	_	_
+30-31	no	_	_	_	_	_	_	_	_
+30	em	em	ADP	_	_	32	case	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	recebimento	recebimento	NOUN	_	Gender=Masc|Number=Sing	26	obl	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	armamento	armamento	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	_
+35	individual	individual	ADJ	_	Gender=Masc|Number=Sing	34	amod	_	_
+36	novo	novo	ADJ	_	Gender=Masc|Number=Sing	34	amod	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	38	punct	_	_
+38	equipamentos	equipamento	NOUN	_	Gender=Masc|Number=Plur	34	conj	_	_
+39	de	de	ADP	_	_	40	case	_	_
+40	comunicação	comunicação	NOUN	_	Gender=Fem|Number=Sing	38	nmod	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	43	punct	_	_
+42	como	como	ADP	_	_	43	case	_	_
+43	estações	estação	NOUN	_	Gender=Fem|Number=Plur	34	conj	_	_
+44	rádio	rádio	ADJ	_	Gender=Fem|Number=Sing	43	amod	_	_
+45	e	e	CCONJ	_	_	46	cc	_	_
+46	rádios	rádio	NOUN	_	Gender=Masc|Number=Plur	43	conj	_	_
+47	de	de	ADP	_	_	48	case	_	_
+48	comunicação	comunicação	NOUN	_	Gender=Fem|Number=Sing	46	nmod	_	_
+49	individual	individual	ADJ	_	Gender=Fem|Number=Sing	48	amod	_	_
+50	para	para	SCONJ	_	_	54	mark	_	_
+51	que	que	SCONJ	_	_	54	mark	_	_
+52	todos	todo	PRON	_	Gender=Masc|Number=Plur|PronType=Tot	54	nsubj:pass	_	_
+53	sejam	ser	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	54	aux:pass	_	_
+54	interligados	interligar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	46	acl	_	SpaceAfter=No
+55	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+56	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = train-s1944
+# text = Ele reage com muitos ácidos formando sais solúveis de bário, por exemplo, com o ácido clorídrico, o cloreto de bário.
+1	Ele	_	PRON	PRON	_	2	nsubj	_	_
+2	reage	reagir	VERB	VERB	_	0	root	_	_
+3	com	com	ADP	ADP	_	5	case	_	_
+4	muitos	_	DET	DET	_	5	det	_	_
+5	ácidos	ácido	NOUN	NOUN	_	2	nmod	_	_
+6	formando	formar	VERB	VERB	_	2	acl	_	_
+7	sais	_	NOUN	NOUN	_	6	obj	_	_
+8	solúveis	solúvel	ADJ	ADJ	_	7	amod	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
+10	bário	bário	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	13	punct	_	_
+12	por	por	ADP	ADP	_	13	case	_	_
+13	exemplo	exemplo	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	13	punct	_	_
+15	com	com	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	ácido	ácido	NOUN	NOUN	_	2	nmod	_	_
+18	clorídrico	clorídrico	ADJ	ADJ	_	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	.	_	21	punct	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	cloreto	cloreto	NOUN	NOUN	_	17	obj	_	_
+22	de	de	ADP	ADP	_	23	case	_	_
+23	bário	bário	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	2	punct	_	_
+

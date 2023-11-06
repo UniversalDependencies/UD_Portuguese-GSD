@@ -1,0 +1,287 @@
+# sent_id = train-s2909
+# text = Atendo há mais de dez anos essas pessoas e tenho uma metodologia que não sai da Bíblia.
+1	Atendo	_	VERB	VERB	_	0	root	_	_
+2	há	haver	VERB	VERB	_	1	advcl	_	_
+3	mais	mais	ADV	ADV	_	5	advmod	_	_
+4	de	de	ADP	ADP	_	3	case	_	_
+5	dez	_	NUM	NUM	NumType=Card	6	nummod	_	_
+6	anos	ano	NOUN	NOUN	_	2	nmod	_	_
+7	essas	_	DET	DET	_	8	det	_	_
+8	pessoas	pessoa	NOUN	NOUN	_	1	obj	_	_
+9	e	e	CCONJ	CONJ	_	10	cc	_	_
+10	tenho	ter	VERB	VERB	_	1	conj	_	_
+11	uma	um	DET	DET	_	12	det	_	_
+12	metodologia	metodologia	NOUN	NOUN	_	10	obj	_	_
+13	que	_	PRON	PRON	_	15	nsubj	_	_
+14	não	não	ADV	ADV	Polarity=Neg	15	advmod	_	_
+15	sai	sair	VERB	VERB	_	12	acl:relcl	_	_
+16-17	da	_	_	_	_	_	_	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
+17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Bíblia	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s2910
+# text = Foi casado com Jeanne Worden de 1971 até o divórcio em 1989.
+1	Foi	_	VERB	VERB	_	0	root	_	_
+2	casado	casado	ADJ	ADJ	_	1	xcomp	_	_
+3	com	com	ADP	ADP	_	4	case	_	_
+4	Jeanne	_	PROPN	PNOUN	_	1	nmod	_	_
+5	Worden	_	PROPN	PNOUN	_	4	flat	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
+7	1971	1971	NUM	NUM	NumType=Card	1	nmod	_	_
+8	até	_	ADP	ADP	_	10	case	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	divórcio	divórcio	NOUN	NOUN	_	1	nmod	_	_
+11	em	em	ADP	ADP	_	12	case	_	_
+12	1989	1989	NUM	NUM	NumType=Card	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s2911
+# text = Na terça - feira viajará a Belém, na Cisjordânia, para inaugurar um centro cultural russo.
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	ADP	_	5	case	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+3	terça	_	PROPN	PNOUN	_	5	amod	_	_
+4	-	-	PUNCT	.	_	5	punct	_	_
+5	feira	_	PROPN	PNOUN	_	6	nmod	_	_
+6	viajará	viajar	VERB	VERB	_	0	root	_	_
+7	a	_	ADP	ADP	_	8	case	_	_
+8	Belém	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	12	punct	_	_
+10-11	na	_	_	_	_	_	_	_	_
+10	em	em	ADP	ADP	_	12	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Cisjordânia	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	.	_	12	punct	_	_
+14	para	_	ADP	ADP	_	15	mark	_	_
+15	inaugurar	inaugurar	VERB	VERB	_	6	advcl	_	_
+16	um	um	DET	DET	_	17	det	_	_
+17	centro	centro	NOUN	NOUN	_	15	obj	_	_
+18	cultural	cultural	ADJ	ADJ	_	17	amod	_	_
+19	russo	russo	ADJ	ADJ	_	17	amod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	6	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = A nossa obrigação é seguir jogando para formar uma boa base para 2013.
+# sent_id = train-s2912
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	nossa	nosso	DET	_	Gender=Fem|Number=Sing|PronType=Prs	3	det	_	_
+3	obrigação	obrigação	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	seguir	seguir	VERB	_	VerbForm=Inf	0	root	_	_
+6	jogando	jogar	VERB	_	VerbForm=Ger	5	advcl	_	_
+7	para	para	SCONJ	_	_	8	mark	_	_
+8	formar	formar	VERB	_	VerbForm=Inf	6	advcl	_	_
+9	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	boa	bom	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+11	base	base	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+12	para	para	ADP	_	_	13	case	_	_
+13	2013	2013	NUM	_	NumType=Card	8	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = train-s2913
+# text = A Folha apurou com a produção do "Programa Silvio Santos" que a emissora pretende capitalizar com o vídeo, que já ultrapassou 3,5 milhões de visualizações no YouTube e tornou a jovem Lívia Padilha, de 11 anos, a mais nova estrela do SBT.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Folha	_	PROPN	PNOUN	_	3	nsubj	_	_
+3	apurou	apurar	VERB	VERB	_	0	root	_	_
+4	com	com	ADP	ADP	_	6	case	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	produção	produção	NOUN	NOUN	_	3	nmod	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	ADP	_	10	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	"	"	PUNCT	.	_	10	punct	_	SpaceAfter=No
+10	Programa	_	PROPN	PNOUN	_	6	nmod	_	_
+11	Silvio	_	PROPN	PNOUN	_	10	flat	_	_
+12	Santos	_	PROPN	PNOUN	_	10	flat	_	SpaceAfter=No
+13	"	"	PUNCT	.	_	10	punct	_	_
+14	que	que	CCONJ	CONJ	_	17	mark	_	_
+15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	emissora	_	NOUN	NOUN	_	17	nsubj	_	_
+17	pretende	pretender	VERB	VERB	_	3	ccomp	_	_
+18	capitalizar	capitalizar	VERB	VERB	_	17	xcomp	_	_
+19	com	com	ADP	ADP	_	21	case	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	vídeo	vídeo	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	.	_	25	punct	_	_
+23	que	_	PRON	PRON	_	25	nsubj	_	_
+24	já	já	ADV	ADV	_	25	advmod	_	_
+25	ultrapassou	ultrapassar	VERB	VERB	_	21	acl:relcl	_	_
+26	3,5	3,5	NUM	NUM	NumType=Card	27	nummod	_	_
+27	milhões	_	NUM	NUM	NumType=Card	29	nummod	_	_
+28	de	de	ADP	ADP	_	29	case	_	_
+29	visualizações	visualização	NOUN	NOUN	_	25	obj	_	_
+30-31	no	_	_	_	_	_	_	_	_
+30	em	em	ADP	ADP	_	32	case	_	_
+31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	YouTube	_	PROPN	PNOUN	_	29	nmod	_	_
+33	e	e	CCONJ	CONJ	_	34	cc	_	_
+34	tornou	tornar	VERB	VERB	_	25	conj	_	_
+35	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	jovem	jovem	NOUN	NOUN	_	47	nsubj	_	_
+37	Lívia	_	PROPN	PNOUN	_	36	appos	_	_
+38	Padilha	_	PROPN	PNOUN	_	37	flat	_	SpaceAfter=No
+39	,	,	PUNCT	.	_	42	punct	_	_
+40	de	de	ADP	ADP	_	42	case	_	_
+41	11	11	NUM	NUM	NumType=Card	42	nummod	_	_
+42	anos	ano	NOUN	NOUN	_	36	nmod	_	SpaceAfter=No
+43	,	,	PUNCT	.	_	42	punct	_	_
+44	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
+45	mais	mais	ADV	ADV	_	46	advmod	_	_
+46	nova	novo	ADJ	ADJ	_	47	amod	_	_
+47	estrela	estrela	NOUN	NOUN	_	34	xcomp	_	_
+48-49	do	_	_	_	_	_	_	_	_
+48	de	de	ADP	ADP	_	50	case	_	_
+49	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	SBT	_	PROPN	PNOUN	_	47	nmod	_	SpaceAfter=No
+51	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s2914
+# text = É coisa bem de paulistano.
+1	É	ser	AUX	AUX	_	2	cop	_	_
+2	coisa	coisa	NOUN	NOUN	_	0	root	_	_
+3	bem	bem	ADV	ADV	_	5	advmod	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
+5	paulistano	paulistano	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s2915
+# text = Além do aumento salarial, a categoria que a criação do Plano de Cargos e Carreiras (PCC) para todas as instituições financeiras e maior estabilidade para os bancários do setor privado.
+1	Além	além	ADV	ADV	_	8	advmod	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	ADP	_	4	case	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	aumento	aumento	NOUN	NOUN	_	1	nmod	_	_
+5	salarial	salarial	ADJ	ADJ	_	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	.	_	1	punct	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	categoria	categoria	NOUN	NOUN	_	0	root	_	_
+9	que	_	PRON	PRON	_	11	dep	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	criação	criação	NOUN	NOUN	_	8	appos	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	ADP	_	14	case	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Plano	_	PROPN	PNOUN	_	11	nmod	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
+16	Cargos	_	PROPN	PNOUN	_	14	nmod	_	_
+17	e	e	CCONJ	CONJ	_	18	cc	_	_
+18	Carreiras	_	PROPN	PNOUN	_	16	conj	_	_
+19	(	(	PUNCT	.	_	20	punct	_	SpaceAfter=No
+20	PCC	_	PROPN	PNOUN	_	14	appos	_	SpaceAfter=No
+21	)	)	PUNCT	.	_	20	punct	_	_
+22	para	para	ADP	ADP	_	25	case	_	_
+23	todas	_	DET	DET	_	25	det	_	_
+24	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	instituições	instituição	NOUN	NOUN	_	11	nmod	_	_
+26	financeiras	financeiro	ADJ	ADJ	_	25	amod	_	_
+27	e	e	CCONJ	CONJ	_	29	cc	_	_
+28	maior	maior	ADJ	ADJ	_	29	amod	_	_
+29	estabilidade	estabilidade	NOUN	NOUN	_	8	conj	_	_
+30	para	para	ADP	ADP	_	32	case	_	_
+31	os	o	DET	DET	_	32	det	_	_
+32	bancários	bancário	NOUN	NOUN	_	29	nmod	_	_
+33-34	do	_	_	_	_	_	_	_	_
+33	de	de	ADP	ADP	_	35	case	_	_
+34	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	setor	setor	NOUN	NOUN	_	32	nmod	_	_
+36	privado	privado	ADJ	ADJ	_	35	amod	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s2916
+# text = As melhoras no clima da Índia, com recentes chuvas de monção que amenizaram temores sobre fracas safras, pesaram sobre os preços do açúcar bruto.
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	melhoras	melhora	NOUN	NOUN	_	22	nsubj	_	_
+3-4	no	_	_	_	_	_	_	_	_
+3	em	em	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	clima	clima	NOUN	NOUN	_	2	nmod	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Índia	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	12	punct	_	_
+10	com	com	ADP	ADP	_	12	case	_	_
+11	recentes	recente	ADJ	ADJ	_	12	amod	_	_
+12	chuvas	chuva	NOUN	NOUN	_	2	nmod	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
+14	monção	monção	NOUN	NOUN	_	12	nmod	_	_
+15	que	_	PRON	PRON	_	16	nsubj	_	_
+16	amenizaram	amenizar	VERB	VERB	_	12	acl:relcl	_	_
+17	temores	temor	NOUN	NOUN	_	16	obj	_	_
+18	sobre	_	ADP	ADP	_	20	case	_	_
+19	fracas	fraco	ADJ	ADJ	_	20	amod	_	_
+20	safras	safra	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	.	_	12	punct	_	_
+22	pesaram	pesar	VERB	VERB	_	0	root	_	_
+23	sobre	_	ADP	ADP	_	25	case	_	_
+24	os	o	DET	DET	_	25	det	_	_
+25	preços	preço	NOUN	NOUN	_	22	nmod	_	_
+26-27	do	_	_	_	_	_	_	_	_
+26	de	de	ADP	ADP	_	28	case	_	_
+27	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	açúcar	açúcar	NOUN	NOUN	_	25	nmod	_	_
+29	bruto	bruto	ADJ	ADJ	_	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	22	punct	_	_
+
+# sent_id = train-s2917
+# text = Este asteróide foi descoberto em 9 de Outubro de 1980 por Carolyn Shoemaker.
+1	Este	_	DET	DET	_	2	det	_	_
+2	asteróide	_	NOUN	NOUN	_	4	nsubj:pass	_	_
+3	foi	_	AUX	AUX	_	4	aux:pass	_	_
+4	descoberto	descobrir	VERB	VERB	_	0	root	_	_
+5	em	em	ADP	ADP	_	6	case	_	_
+6	9	9	NUM	NUM	NumType=Card	4	nmod	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
+8	Outubro	_	PROPN	PNOUN	_	6	nmod	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
+10	1980	1980	NUM	NUM	NumType=Card	8	nmod	_	_
+11	por	por	ADP	ADP	_	12	case	_	_
+12	Carolyn	_	PROPN	PNOUN	_	4	nmod	_	_
+13	Shoemaker	_	PROPN	PNOUN	_	12	flat	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s2918
+# text = Estes jovens "ainda não conhecem a ordem (por fração de mercado de cada produto e marca) do Ocidente, e aí vemos uma clara oportunidade para poder posicionar o licor", acrescentou.
+1	Estes	_	DET	DET	_	2	det	_	_
+2	jovens	jovem	NOUN	NOUN	_	6	nsubj	_	_
+3	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
+4	ainda	ainda	ADV	ADV	_	6	advmod	_	_
+5	não	não	ADV	ADV	Polarity=Neg	6	advmod	_	_
+6	conhecem	conhecer	VERB	VERB	_	37	ccomp	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	ordem	ordem	NOUN	NOUN	_	6	obj	_	_
+9	(	(	PUNCT	.	_	11	punct	_	SpaceAfter=No
+10	por	por	ADP	ADP	_	11	case	_	_
+11	fração	fração	NOUN	NOUN	_	8	nmod	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
+13	mercado	mercado	NOUN	NOUN	_	11	nmod	_	_
+14	de	de	ADP	ADP	_	16	case	_	_
+15	cada	_	DET	DET	_	16	det	_	_
+16	produto	produto	NOUN	NOUN	_	11	nmod	_	_
+17	e	e	CCONJ	CONJ	_	18	cc	_	_
+18	marca	marca	NOUN	NOUN	_	16	conj	_	SpaceAfter=No
+19	)	)	PUNCT	.	_	11	punct	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	ADP	_	22	case	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Ocidente	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	.	_	26	punct	_	_
+24	e	e	CCONJ	CONJ	_	26	cc	_	_
+25	aí	aí	ADV	ADV	_	26	advmod	_	_
+26	vemos	ver	VERB	VERB	_	6	conj	_	_
+27	uma	um	DET	DET	_	29	det	_	_
+28	clara	claro	ADJ	ADJ	_	29	amod	_	_
+29	oportunidade	oportunidade	NOUN	NOUN	_	26	obj	_	_
+30	para	_	ADP	ADP	_	32	mark	_	_
+31	poder	poder	AUX	AUX	_	32	aux	_	_
+32	posicionar	posicionar	VERB	VERB	_	29	nmod	_	_
+33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	licor	licor	NOUN	NOUN	_	32	obj	_	SpaceAfter=No
+35	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
+36	,	,	PUNCT	.	_	37	punct	_	_
+37	acrescentou	acrescentar	VERB	VERB	_	0	root	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	37	punct	_	_
+

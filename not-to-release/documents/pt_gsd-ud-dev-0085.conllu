@@ -1,0 +1,237 @@
+# sent_id = dev-s834
+# text = Se conquistar o título da Copa Sul - Americana, o São Paulo ficará fora da Copa do Brasil de 2013.
+1	Se	_	CCONJ	CONJ	_	2	mark	_	_
+2	conquistar	conquistar	VERB	VERB	_	15	advcl	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	título	título	NOUN	NOUN	_	2	obj	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	ADP	_	7	case	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Copa	_	PROPN	PNOUN	_	4	nmod	_	_
+8	Sul	_	PROPN	PNOUN	_	10	amod	_	_
+9	-	-	PUNCT	.	_	10	punct	_	_
+10	Americana	_	PROPN	PNOUN	_	7	amod	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	2	punct	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	São	_	PROPN	PNOUN	_	15	nsubj	_	_
+14	Paulo	_	PROPN	PNOUN	_	13	flat	_	_
+15	ficará	ficar	VERB	VERB	_	0	root	_	_
+16	fora	fora	ADV	ADV	_	15	advmod	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	ADP	_	19	case	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Copa	_	PROPN	PNOUN	_	16	nmod	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	ADP	_	22	case	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Brasil	_	PROPN	PNOUN	_	19	nmod	_	_
+23	de	de	ADP	ADP	_	24	case	_	_
+24	2013	2013	NUM	NUM	NumType=Card	19	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = dev-s835
+# text = O que é lei orgânica?
+1	O	o	DET	DET	_	2	det	_	_
+2	que	_	PRON	PRON	_	0	root	_	_
+3	é	ser	AUX	AUX	_	2	cop	_	_
+4	lei	lei	NOUN	NOUN	_	2	nsubj	_	_
+5	orgânica	orgânico	ADJ	ADJ	_	4	amod	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	2	punct	_	_
+
+# sent_id = dev-s836
+# text = Ano passado, esse índice ficou em 6,56 %.
+1	Ano	ano	NOUN	NOUN	_	6	nmod	_	_
+2	passado	passado	ADJ	ADJ	_	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	.	_	1	punct	_	_
+4	esse	_	DET	DET	_	5	det	_	_
+5	índice	índice	NOUN	NOUN	_	6	nsubj	_	_
+6	ficou	ficar	VERB	VERB	_	0	root	_	_
+7	em	em	ADP	ADP	_	9	case	_	_
+8	6,56	6,56	NUM	NUM	NumType=Card	9	nummod	_	_
+9	%	_	SYM	SYM	_	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	6	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# sent_id = dev-s837
+# text = Antes de comprar, eles fazem as contas para não gastar mais do que têm.
+1	Antes	antes	ADV	_	ExtPos=SCONJ	3	mark	_	_
+2	de	de	ADP	_	_	1	fixed	_	_
+3	comprar	comprar	VERB	_	VerbForm=Inf	6	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	eles	eles	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+6	fazem	fazer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	contas	conta	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
+9	para	para	SCONJ	_	_	11	mark	_	_
+10	não	não	ADV	_	Polarity=Neg	11	advmod	_	_
+11	gastar	gastar	VERB	_	VerbForm=Inf	6	advcl	_	_
+12	mais	mais	ADV	_	_	11	advmod	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	14	mark	_	_
+14	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	12	obl	_	_
+15	que	que	ADP	_	_	16	mark	_	_
+16	têm	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = dev-s838
+# text = Nesse circuito obtido também existe portas repetidas.
+1	Nesse	_	ADP	ADP	_	2	case	_	_
+2	circuito	circuito	NOUN	NOUN	_	5	nmod	_	_
+3	obtido	obter	VERB	VERB	_	2	acl	_	_
+4	também	também	ADV	ADV	_	5	advmod	_	_
+5	existe	existir	VERB	VERB	_	0	root	_	_
+6	portas	porta	NOUN	NOUN	_	5	nsubj	_	_
+7	repetidas	repetido	ADJ	ADJ	_	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = dev-s839
+# text = Não perca tempo e seja o primeiro a comentar esta notícia.
+1	Não	não	ADV	ADV	Polarity=Neg	2	advmod	_	_
+2	perca	perder	VERB	VERB	_	0	root	_	_
+3	tempo	tempo	NOUN	NOUN	_	2	obj	_	_
+4	e	e	CCONJ	CONJ	_	7	cc	_	_
+5	seja	ser	AUX	AUX	_	7	cop	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	primeiro	primeiro	NOUN	NOUN	_	2	conj	_	_
+8	a	_	ADP	ADP	_	9	mark	_	_
+9	comentar	comentar	VERB	VERB	_	7	nmod	_	_
+10	esta	_	DET	DET	_	11	det	_	_
+11	notícia	notícia	NOUN	NOUN	_	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = dev-s840
+# text = Na opinião do candidato do PSOL, casado duas vezes, pai de quatro filhos e atualmente separado, "essa questão de achar que tem de ser a mulher do prefeito a assumir o Fundo Social ou ter de indicar uma mulher para o cargo é um pensamento machista".
+1-2	Na	_	_	_	_	_	_	_	_
+1	Em	em	ADP	ADP	_	3	case	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	opinião	opinião	NOUN	NOUN	_	53	nmod	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	candidato	candidato	NOUN	NOUN	_	3	nmod	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	PSOL	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	11	punct	_	_
+11	casado	casar	VERB	VERB	_	6	acl	_	_
+12	duas	_	NUM	NUM	NumType=Card	13	nummod	_	_
+13	vezes	vez	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	15	punct	_	_
+15	pai	pai	NOUN	NOUN	_	11	conj	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
+17	quatro	_	NUM	NUM	NumType=Card	18	nummod	_	_
+18	filhos	filho	NOUN	NOUN	_	15	nmod	_	_
+19	e	e	CCONJ	CONJ	_	21	cc	_	_
+20	atualmente	atualmente	ADV	ADV	_	21	advmod	_	_
+21	separado	separado	ADJ	ADJ	_	11	conj	_	SpaceAfter=No
+22	,	,	PUNCT	.	_	11	punct	_	_
+23	"	"	PUNCT	.	_	53	punct	_	SpaceAfter=No
+24	essa	_	DET	DET	_	25	det	_	_
+25	questão	questão	NOUN	NOUN	_	53	nsubj	_	_
+26	de	_	ADP	ADP	_	27	mark	_	_
+27	achar	achar	VERB	VERB	_	25	nmod	_	_
+28	que	que	CCONJ	CONJ	_	31	mark	_	_
+29	tem	ter	AUX	AUX	_	31	aux	_	_
+30	de	_	ADP	ADP	_	31	mark	_	_
+31	ser	ser	VERB	VERB	_	27	ccomp	_	_
+32	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	mulher	mulher	NOUN	NOUN	_	31	nsubj	_	_
+34-35	do	_	_	_	_	_	_	_	_
+34	de	de	ADP	ADP	_	36	case	_	_
+35	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	prefeito	prefeito	NOUN	NOUN	_	33	nmod	_	_
+37	a	_	ADP	ADP	_	38	mark	_	_
+38	assumir	assumir	VERB	VERB	_	33	acl:inf	_	_
+39	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	Fundo	_	PROPN	PNOUN	_	38	obj	_	_
+41	Social	_	PROPN	PNOUN	_	40	amod	_	_
+42	ou	ou	CCONJ	CONJ	_	45	cc	_	_
+43	ter	ter	AUX	AUX	_	45	aux	_	_
+44	de	_	ADP	ADP	_	45	mark	_	_
+45	indicar	indicar	VERB	VERB	_	38	conj	_	_
+46	uma	um	DET	DET	_	47	det	_	_
+47	mulher	mulher	NOUN	NOUN	_	45	obj	_	_
+48	para	para	ADP	ADP	_	50	case	_	_
+49	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	cargo	cargo	NOUN	NOUN	_	45	nmod	_	_
+51	é	ser	AUX	AUX	_	53	cop	_	_
+52	um	um	DET	DET	_	53	det	_	_
+53	pensamento	pensamento	NOUN	NOUN	_	0	root	_	_
+54	machista	machista	ADJ	ADJ	_	53	amod	_	SpaceAfter=No
+55	"	"	PUNCT	.	_	53	punct	_	SpaceAfter=No
+56	.	.	PUNCT	.	_	53	punct	_	_
+
+# sent_id = dev-s841
+# text = Não se espante se você não lembra bem do rosto ou do estilo de jogo desses atletas.
+1	Não	não	ADV	ADV	Polarity=Neg	3	advmod	_	_
+2	se	_	PRON	PRON	_	3	expl:pv	_	_
+3	espante	espantar	VERB	VERB	_	0	root	_	_
+4	se	_	CCONJ	CONJ	_	7	mark	_	_
+5	você	_	PRON	PRON	_	7	nsubj	_	_
+6	não	não	ADV	ADV	Polarity=Neg	7	advmod	_	_
+7	lembra	lembrar	VERB	VERB	_	3	advcl	_	_
+8	bem	bem	ADV	ADV	_	7	advmod	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	ADP	_	11	case	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	rosto	rosto	NOUN	NOUN	_	7	nmod	_	_
+12	ou	ou	CCONJ	CONJ	_	15	cc	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	estilo	estilo	NOUN	NOUN	_	11	conj	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
+17	jogo	jogo	NOUN	NOUN	_	15	nmod	_	_
+18	desses	_	ADP	ADP	_	19	case	_	_
+19	atletas	atleta	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = dev-s842
+# text = "A obesidade é uma doença, mas no fundo as pessoas ainda a consideração como opção.
+1	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
+2	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	obesidade	obesidade	NOUN	NOUN	_	6	nsubj	_	_
+4	é	ser	AUX	AUX	_	6	cop	_	_
+5	uma	um	DET	DET	_	6	det	_	_
+6	doença	doença	NOUN	NOUN	_	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	16	punct	_	_
+8	mas	mas	CCONJ	CONJ	_	16	cc	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	ADP	_	11	case	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	fundo	fundo	NOUN	NOUN	_	16	nmod	_	_
+12	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	pessoas	pessoa	NOUN	NOUN	_	16	nsubj	_	_
+14	ainda	ainda	ADV	ADV	_	16	advmod	_	_
+15	a	_	PRON	PRON	_	16	obj	_	_
+16	consideração	_	VERB	VERB	_	6	conj	_	_
+17	como	como	ADP	ADP	_	18	case	_	_
+18	opção	opção	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = dev-s843
+# text = Ele ressalta ainda a importância de observar no site se constam todos os dados do fornecedor.
+1	Ele	_	PRON	PRON	_	2	nsubj	_	_
+2	ressalta	ressaltar	VERB	VERB	_	0	root	_	_
+3	ainda	ainda	ADV	ADV	_	2	advmod	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	importância	importância	NOUN	NOUN	_	2	obj	_	_
+6	de	_	ADP	ADP	_	7	mark	_	_
+7	observar	observar	VERB	VERB	_	5	nmod	_	_
+8-9	no	_	_	_	_	_	_	_	_
+8	em	em	ADP	ADP	_	10	case	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	site	site	NOUN	NOUN	_	7	nmod	_	_
+11	se	_	CCONJ	CONJ	_	12	mark	_	_
+12	constam	constar	VERB	VERB	_	7	ccomp	_	_
+13	todos	_	DET	DET	_	15	det	_	_
+14	os	o	DET	DET	_	15	det	_	_
+15	dados	dado	NOUN	NOUN	_	12	obj	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	fornecedor	fornecedor	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+

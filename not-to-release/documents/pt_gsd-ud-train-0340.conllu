@@ -1,0 +1,301 @@
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = O esquimó "dá" a mulher dele para dormir com os visitantes e ainda acha que, se o visitante não aceitar, é um destrato com ele.
+# sent_id = train-s3371
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	esquimó	esquimó	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	dá	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	mulher	mulher	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+8-9	dele	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	ele	ele	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nmod	_	_
+10	para	para	SCONJ	_	_	11	mark	_	_
+11	dormir	dormir	VERB	_	VerbForm=Inf	4	advcl	_	_
+12	com	com	ADP	_	_	14	case	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	visitantes	visitante	NOUN	_	Gender=Masc|Number=Plur	11	obj	_	_
+15	e	e	CCONJ	_	_	17	cc	_	_
+16	ainda	ainda	ADV	_	_	17	advmod	_	_
+17	acha	achar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+18	que	que	SCONJ	_	_	28	mark	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	24	punct	_	_
+20	se	se	SCONJ	_	_	24	mark	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	visitante	visitante	NOUN	_	Gender=Masc|Number=Sing	24	nsubj	_	_
+23	não	não	ADV	_	Polarity=Neg	24	advmod	_	_
+24	aceitar	aceitar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	28	advcl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+27	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	destrato	destrato	NOUN	_	Gender=Masc|Number=Sing	17	ccomp	_	_
+29	com	com	ADP	_	_	30	case	_	_
+30	ele	ele	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+
+# sent_id = train-s3372
+# text = Nem depois disso, no entanto, teria tido o apoio de colegas.
+1	Nem	_	ADV	ADV	_	10	advmod	_	_
+2	depois	depois	ADV	ADV	_	10	nmod	_	_
+3	disso	_	X	ADPPRON	_	2	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	2	punct	_	_
+5-6	no	_	_	_	_	_	_	_	_
+5	em	em	ADP	ADP	_	7	case	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	entanto	entanto	ADV	ADV	_	10	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	7	punct	_	_
+9	teria	ter	AUX	AUX	_	10	aux	_	_
+10	tido	ter	VERB	VERB	_	0	root	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	apoio	apoio	NOUN	NOUN	_	10	obj	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
+14	colegas	colega	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = train-s3373
+# text = Com a acção de Tossa de Mar, foram assim lançadas as bases para o desenvolvimento do conceito de cidade antitouradas, que se espalhou por várias outras cidades.
+1	Com	_	ADP	ADP	_	3	case	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	acção	acção	NOUN	NOUN	_	11	nmod	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
+5	Tossa	_	PROPN	PNOUN	_	3	nmod	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
+7	Mar	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	3	punct	_	_
+9	foram	_	AUX	AUX	_	11	aux:pass	_	_
+10	assim	assim	ADV	ADV	_	11	advmod	_	_
+11	lançadas	lançar	VERB	VERB	_	0	root	_	_
+12	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	bases	base	NOUN	NOUN	_	11	nsubj:pass	_	_
+14	para	para	ADP	ADP	_	16	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	desenvolvimento	desenvolvimento	NOUN	NOUN	_	13	nmod	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	ADP	_	19	case	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	conceito	conceito	NOUN	NOUN	_	16	nmod	_	_
+20	de	de	ADP	ADP	_	21	case	_	_
+21	cidade	cidade	NOUN	NOUN	_	19	nmod	_	_
+22	antitouradas	_	ADJ	ADJ	_	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	.	_	26	punct	_	_
+24	que	_	PRON	PRON	_	26	nsubj	_	_
+25	se	_	PART	PRT	_	26	expl:pv	_	_
+26	espalhou	espalhar	VERB	VERB	_	19	acl:relcl	_	_
+27	por	por	ADP	ADP	_	30	case	_	_
+28	várias	_	DET	DET	_	30	det	_	_
+29	outras	_	DET	DET	_	30	det	_	_
+30	cidades	cidade	NOUN	NOUN	_	26	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	11	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Antes do intervalo, Vandinho, aos 31min, descontou.
+# sent_id = train-s3374
+1	Antes	antes	ADV	_	_	12	advmod	_	_
+2-3	do	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	intervalo	intervalo	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	1	punct	_	_
+6	Vandinho	Vandinho	PROPN	_	Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8-9	aos	_	_	_	_	_	_	_	_
+8	a	a	ADP	_	_	10	case	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	31min	31min	NOUN	_	Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	descontou	descontar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Logo após, é preciso espalhá - la sobre uma superfície quente, até formar uma pasta de aproximadamente trinta centímetros de diâmetro, que deverá ser assado até se tornar beiju.
+# sent_id = train-s3375
+1	Logo	logo	ADV	_	_	5	advmod	_	_
+2	após	após	ADV	_	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	preciso	preciso	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+6	espalhá	espalhar	VERB	_	VerbForm=Inf	5	csubj	_	_
+7	-	-	PUNCT	_	_	6	punct	_	_
+8	la	ela	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+9	sobre	sobre	ADP	_	_	11	case	_	_
+10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	superfície	superfície	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+12	quente	quente	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	até	até	SCONJ	_	_	15	mark	_	_
+15	formar	formar	VERB	_	VerbForm=Inf	6	advcl	_	_
+16	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	pasta	pasta	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+18	de	de	ADP	_	_	21	case	_	_
+19	aproximadamente	aproximadamente	ADV	_	_	20	advmod	_	_
+20	trinta	trinta	NUM	_	NumType=Card	21	nummod	_	_
+21	centímetros	centímetro	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	diâmetro	diâmetro	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	26	punct	_	_
+25	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	26	nsubj:pass	_	_
+26	deverá	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	17	acl:relcl	_	_
+27	ser	ser	AUX	_	VerbForm=Inf	28	aux:pass	_	_
+28	assado	assar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	26	xcomp	_	_
+29	até	até	SCONJ	_	_	31	mark	_	_
+30	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	expl	_	_
+31	tornar	tornar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	28	advcl	_	_
+32	beiju	beiju	NOUN	_	Gender=Masc|Number=Sing	31	xcomp	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = O programa passou por diversas fases, desde o colunismo social eletrônico, destacando personalidades da sociedade manauara, até fases mais polêmicas, ao promover debates com temas de interesse público, com entrevistas com autoridades locais.
+# sent_id = train-s3376
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	programa	programa	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	passou	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	por	por	ADP	_	_	6	case	_	_
+5	diversas	diverso	DET	_	Gender=Fem|Number=Plur|PronType=Ind	6	det	_	_
+6	fases	fase	NOUN	_	Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8	desde	desde	ADP	_	_	10	case	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	colunismo	colunismo	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+11	social	social	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
+12	eletrônico	eletrônico	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	destacando	destacar	VERB	_	VerbForm=Ger	10	acl	_	_
+15	personalidades	personalidade	NOUN	_	Gender=Fem|Number=Plur	14	obj	_	_
+16-17	da	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	sociedade	sociedade	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+19	manauara	manauar	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	14	punct	_	_
+21	até	até	ADP	_	_	22	case	_	_
+22	fases	fase	NOUN	_	Gender=Fem|Number=Plur	3	obl	_	_
+23	mais	mais	ADV	_	_	24	advmod	_	_
+24	polêmicas	polêmico	ADJ	_	Gender=Fem|Number=Plur	22	amod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	28	punct	_	_
+26-27	ao	_	_	_	_	_	_	_	_
+26	a	a	SCONJ	_	_	28	mark	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	promover	promover	VERB	_	VerbForm=Inf	22	acl	_	_
+29	debates	debate	NOUN	_	Gender=Masc|Number=Plur	28	obj	_	_
+30	com	com	ADP	_	_	31	case	_	_
+31	temas	tema	NOUN	_	Gender=Masc|Number=Plur	29	nmod	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	interesse	interesse	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	_
+34	público	público	ADJ	_	Gender=Masc|Number=Sing	33	amod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	37	punct	_	_
+36	com	com	ADP	_	_	37	case	_	_
+37	entrevistas	entrevista	NOUN	_	Gender=Fem|Number=Plur	29	nmod	_	_
+38	com	com	ADP	_	_	39	case	_	_
+39	autoridades	autoridade	NOUN	_	Gender=Fem|Number=Plur	37	nmod	_	_
+40	locais	local	ADJ	_	Gender=Fem|Number=Plur	39	amod	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+
+# sent_id = train-s3377
+# text = Nossa preocupação agora é ainda maior por conta do período chuvoso e queremos pedir o apoio da comunidade nesse combate, que deve ser continuo, como vem acontecendo, solicita.
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+1	Nossa	nosso	DET	_	Gender=Fem|Number=Sing|PronType=Prs	2	det	_	_
+2	preocupação	preocupação	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	agora	agora	ADV	_	_	6	advmod	_	_
+4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	ainda	ainda	ADV	_	_	6	advmod	_	_
+6	maior	maior	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+7	por	por	ADP	_	_	8	case	_	_
+8	conta	conta	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	período	período	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+12	chuvoso	chuvoso	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	queremos	querer	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	conj	_	_
+15	pedir	pedir	VERB	_	VerbForm=Inf	14	xcomp	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	apoio	apoio	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
+18-19	da	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	comunidade	comunidade	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+21-22	nesse	_	_	_	_	_	_	_	_
+21	em	em	ADP	_	_	23	case	_	_
+22	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	23	det	_	_
+23	combate	combate	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	26	punct	_	_
+25	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	26	nsubj	_	_
+26	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+27	ser	ser	AUX	_	VerbForm=Inf	28	cop	_	_
+28	continuo	continuo	ADJ	_	Gender=Masc|Number=Sing	26	xcomp	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	31	punct	_	_
+30	como	como	ADV	_	_	31	advmod	_	_
+31	vem	vir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	advcl	_	_
+32	acontecendo	acontecer	VERB	_	VerbForm=Ger	31	xcomp	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	31	punct	_	_
+34	solicita	solicitar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = train-s3378
+# text = Para ele, é necessário aguardar a conclusão do exame feito para detectar a presença de chumbo na mão da vítima.
+1	Para	_	ADP	ADP	_	2	case	_	_
+2	ele	_	PRON	PRON	_	4	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	.	_	2	punct	_	_
+4	é	ser	VERB	VERB	_	0	root	_	_
+5	necessário	necessário	ADJ	ADJ	_	4	xcomp	_	_
+6	aguardar	aguardar	VERB	VERB	_	4	csubj	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	conclusão	conclusão	NOUN	NOUN	_	6	obj	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	ADP	_	11	case	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	exame	exame	NOUN	NOUN	_	8	nmod	_	_
+12	feito	_	VERB	VERB	_	11	acl	_	_
+13	para	_	ADP	ADP	_	14	mark	_	_
+14	detectar	detectar	VERB	VERB	_	12	advcl	_	_
+15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	presença	presença	NOUN	NOUN	_	14	obj	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
+18	chumbo	chumbo	NOUN	NOUN	_	16	nmod	_	_
+19-20	na	_	_	_	_	_	_	_	_
+19	em	em	ADP	ADP	_	21	case	_	_
+20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	mão	mão	NOUN	NOUN	_	16	nmod	_	_
+22-23	da	_	_	_	_	_	_	_	_
+22	de	de	ADP	ADP	_	24	case	_	_
+23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	vítima	vítima	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s3379
+# text = "Eu fazia alguns trabalinhos temporários, renda no final do mês era um sonho.
+1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
+2	Eu	_	PRON	PRON	_	3	nsubj	_	_
+3	fazia	fazer	VERB	VERB	_	0	root	_	_
+4	alguns	_	DET	DET	_	5	det	_	_
+5	trabalinhos	_	NOUN	NOUN	_	3	obj	_	_
+6	temporários	temporário	ADJ	ADJ	_	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	17	punct	_	_
+8	renda	renda	NOUN	NOUN	_	17	nsubj	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	ADP	_	11	case	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	final	final	NOUN	NOUN	_	8	nmod	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	ADP	_	14	case	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	mês	mês	NOUN	NOUN	_	11	nmod	_	_
+15	era	_	AUX	AUX	_	17	cop	_	_
+16	um	um	DET	DET	_	17	det	_	_
+17	sonho	sonho	NOUN	NOUN	_	3	parataxis	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s3380
+# text = E que cidadãos!
+1	E	_	CCONJ	CONJ	_	3	cc	_	_
+2	que	_	DET	DET	_	3	det	_	_
+3	cidadãos	cidadão	NOUN	NOUN	_	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	.	_	3	punct	_	_
+

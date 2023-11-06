@@ -1,0 +1,344 @@
+# sent_id = train-s8832
+# text = Durante o ano, as empresas Eletrobras energizaram 955 km de linhas.
+1	Durante	_	ADP	ADP	_	3	case	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	ano	ano	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	empresas	empresa	NOUN	NOUN	_	8	nsubj	_	_
+7	Eletrobras	_	PROPN	PNOUN	_	6	appos	_	_
+8	energizaram	_	VERB	VERB	_	0	root	_	_
+9	955	955	NUM	NUM	NumType=Card	10	nummod	_	_
+10	km	km	NOUN	NOUN	_	8	obj	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
+12	linhas	_	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s8833
+# text = Possui uma cidade, Tervel, que é sua capital, e 25 vilas, distribuídas numa área de 583 quilômetros quadrados.
+1	Possui	possuir	VERB	VERB	_	0	root	_	_
+2	uma	um	DET	DET	_	3	det	_	_
+3	cidade	cidade	NOUN	NOUN	_	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	5	punct	_	_
+5	Tervel	_	PROPN	PNOUN	_	3	appos	_	SpaceAfter=No
+6	,	,	PUNCT	.	_	5	punct	_	_
+7	que	_	PRON	PRON	_	10	nsubj	_	_
+8	é	ser	AUX	AUX	_	10	cop	_	_
+9	sua	_	DET	DET	_	10	det:poss	_	_
+10	capital	capital	NOUN	NOUN	_	3	acl:relcl	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	14	punct	_	_
+12	e	e	CCONJ	CONJ	_	14	cc	_	_
+13	25	25	NUM	NUM	NumType=Card	14	nummod	_	_
+14	vilas	vila	NOUN	NOUN	_	3	conj	_	SpaceAfter=No
+15	,	,	PUNCT	.	_	16	punct	_	_
+16	distribuídas	distribuir	VERB	VERB	_	14	acl	_	_
+17	numa	_	ADP	ADP	_	18	case	_	_
+18	área	área	NOUN	NOUN	_	16	nmod	_	_
+19	de	de	ADP	ADP	_	21	case	_	_
+20	583	583	NUM	NUM	NumType=Card	21	nummod	_	_
+21	quilômetros	quilômetro	NOUN	NOUN	_	18	nmod	_	_
+22	quadrados	quadrado	ADJ	ADJ	_	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	1	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = De acordo com a empresa Wildfire, que conduziu a pesquisa, cerca de 96 % dos atletas tiveram maior crescimento na base de fãs pelo Facebook do que pelo Twitter.
+# sent_id = train-s8834
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	Wildfire	Wildfire	PROPN	_	Gender=Fem|Number=Sing	5	appos	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	9	nsubj	_	_
+9	conduziu	conduzir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	pesquisa	pesquisa	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	9	punct	_	_
+13	cerca	cerca	ADV	_	ExtPos=ADV	16	advmod	_	_
+14	de	de	ADP	_	_	13	fixed	_	_
+15	96	96	NUM	_	NumType=Card	16	nummod	_	_
+16	%	%	SYM	_	_	20	nsubj	_	_
+17-18	dos	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	atletas	atleta	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
+20	tiveram	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+21	maior	maior	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
+22	crescimento	crescimento	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
+23-24	na	_	_	_	_	_	_	_	_
+23	em	em	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	base	base	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	fãs	fã	NOUN	_	Gender=Fem|Number=Plur	25	nmod	_	_
+28-29	pelo	_	_	_	_	_	_	_	_
+28	por	por	ADP	_	_	30	case	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	Facebook	Facebook	PROPN	_	Gender=Masc|Number=Sing	25	nmod	_	_
+31-32	do	_	_	_	_	_	_	_	_
+31	de	de	ADP	_	_	36	case	_	_
+32	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	31	fixed	_	_
+33	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	31	fixed	_	_
+34-35	pelo	_	_	_	_	_	_	_	_
+34	por	por	ADP	_	_	36	case	_	_
+35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	Twitter	Twitter	PROPN	_	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = train-s8835
+# text = Aristóbulo, filho de Mariane, foi o segundo marido de Salomé, a dançarina, que não teve filhos de seu casamento anterior com Filipe, o tetrarca da Traconítia.
+1	Aristóbulo	_	PROPN	PNOUN	_	10	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	.	_	3	punct	_	_
+3	filho	filho	NOUN	NOUN	_	1	appos	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
+5	Mariane	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	.	_	3	punct	_	_
+7	foi	_	AUX	AUX	_	10	cop	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	segundo	segundo	ADJ	ADJ	_	10	amod	_	_
+10	marido	marido	NOUN	NOUN	_	0	root	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
+12	Salomé	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	.	_	15	punct	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	dançarina	dançarino	NOUN	NOUN	_	12	appos	_	SpaceAfter=No
+16	,	,	PUNCT	.	_	19	punct	_	_
+17	que	_	PRON	PRON	_	19	nsubj	_	_
+18	não	não	ADV	ADV	Polarity=Neg	19	advmod	_	_
+19	teve	ter	VERB	VERB	_	15	acl:relcl	_	_
+20	filhos	filho	NOUN	NOUN	_	19	obj	_	_
+21	de	de	ADP	ADP	_	23	case	_	_
+22	seu	_	DET	DET	_	23	det:poss	_	_
+23	casamento	casamento	NOUN	NOUN	_	20	nmod	_	_
+24	anterior	anterior	ADJ	ADJ	_	23	amod	_	_
+25	com	com	ADP	ADP	_	26	case	_	_
+26	Filipe	_	PROPN	PNOUN	_	23	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	.	_	29	punct	_	_
+28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	tetrarca	tetrarca	NOUN	NOUN	_	26	appos	_	_
+30-31	da	_	_	_	_	_	_	_	_
+30	de	de	ADP	ADP	_	32	case	_	_
+31	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	Traconítia	_	PROPN	PNOUN	_	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = train-s8836
+# text = A diferença no verão 2013 é que ele ganhou novas e diversas versões.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	diferença	diferença	NOUN	NOUN	_	0	root	_	_
+3-4	no	_	_	_	_	_	_	_	_
+3	em	em	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	verão	_	PROPN	PNOUN	_	2	nmod	_	_
+6	2013	2013	NUM	NUM	NumType=Card	5	nmod	_	_
+7	é	ser	AUX	AUX	_	2	cop	_	_
+8	que	que	CCONJ	CONJ	_	10	mark	_	_
+9	ele	_	PRON	PRON	_	10	nsubj	_	_
+10	ganhou	ganhar	VERB	VERB	_	2	csubj	_	_
+11	novas	novo	ADJ	ADJ	_	14	amod	_	_
+12	e	e	CCONJ	CONJ	_	11	cc	_	_
+13	diversas	diverso	ADJ	ADJ	_	11	amod	_	_
+14	versões	versão	NOUN	NOUN	_	10	obj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s8837
+# text = E o lance do pênalti?
+1	E	_	CCONJ	CONJ	_	3	cc	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	lance	lance	NOUN	NOUN	_	0	root	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	pênalti	pênalti	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
+7	?	?	PUNCT	.	_	3	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Infowaves fala da participação brasileira no US Open of Surfing 2012 em Huntington Beach, California (EUA), do Billabong Pro Tahiti, quinta etapa do World Tour 2012 em Teahupoo, Tahiti, da Nordeste Surf Expo 2012 no Centro de Negócios SEBRAE, Fortaleza (CE) e do Rio Bodyboarding International em Copacabana ou Ipanema, Rio de Janeiro (RJ).
+# sent_id = train-s8838
+1	Infowaves	Infowaves	PROPN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	fala	falar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	participação	participação	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+6	brasileira	brasileiro	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	US	US	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	5	nmod	_	_
+10	Open	Open	PROPN	_	Number=Sing	9	flat:name	_	_
+11	of	of	PROPN	_	Number=Sing	9	flat:name	_	_
+12	Surfing	Surfing	PROPN	_	Number=Sing	9	flat:name	_	_
+13	2012	2012	NUM	_	NumType=Card	9	flat:name	_	_
+14	em	em	ADP	_	_	15	case	_	_
+15	Huntington	Huntington	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	9	nmod	_	_
+16	Beach	Beach	PROPN	_	Number=Sing	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	California	California	PROPN	_	Gender=Fem|Number=Sing	15	parataxis	_	_
+19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	EUA	EUA	PROPN	_	Gender=Masc|Number=Plur	18	parataxis	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	25	punct	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Billabong	Billabong	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	9	conj	_	_
+26	Pro	Pro	PROPN	_	Number=Sing	25	flat:name	_	_
+27	Tahiti	Tahiti	PROPN	_	Number=Sing	25	flat:name	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	30	punct	_	_
+29	quinta	quinto	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	30	amod	_	_
+30	etapa	etapa	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
+31-32	do	_	_	_	_	_	_	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	World	World	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	30	nmod	_	_
+34	Tour	Tour	PROPN	_	Number=Sing	33	flat:name	_	_
+35	2012	2012	NUM	_	Number=Sing	33	flat:name	_	_
+36	em	em	ADP	_	_	37	case	_	_
+37	Teahupoo	Teahupoo	PROPN	_	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	39	punct	_	_
+39	Tahiti	Tahiti	PROPN	_	Gender=Masc|Number=Sing	37	appos	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	43	punct	_	_
+41-42	da	_	_	_	_	_	_	_	_
+41	de	de	ADP	_	_	43	case	_	_
+42	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	Nordeste	Nordeste	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	9	conj	_	_
+44	Surf	Surf	PROPN	_	Number=Sing	43	flat:name	_	_
+45	Expo	Expo	PROPN	_	Number=Sing	43	flat:name	_	_
+46	2012	2012	NUM	_	NumType=Card	43	flat:name	_	_
+47-48	no	_	_	_	_	_	_	_	_
+47	em	em	ADP	_	_	49	case	_	_
+48	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	Centro	Centro	PROPN	_	Gender=Masc|Number=Sing	43	nmod	_	_
+50	de	de	ADP	_	_	51	case	_	_
+51	Negócios	Negócios	PROPN	_	Number=Sing	49	nmod	_	_
+52	SEBRAE	SEBRAE	PROPN	_	Number=Sing	51	flat:name	_	SpaceAfter=No
+53	,	,	PUNCT	_	_	54	punct	_	_
+54	Fortaleza	Fortaleza	PROPN	_	Gender=Masc|Number=Sing	49	appos	_	_
+55	(	(	PUNCT	_	_	56	punct	_	SpaceAfter=No
+56	CE	CE	PROPN	_	Gender=Masc|Number=Sing	54	parataxis	_	SpaceAfter=No
+57	)	)	PUNCT	_	_	56	punct	_	_
+58	e	e	CCONJ	_	_	61	cc	_	_
+59-60	do	_	_	_	_	_	_	_	_
+59	de	de	ADP	_	_	61	case	_	_
+60	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	61	det	_	_
+61	Rio	Rio	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	9	conj	_	_
+62	Bodyboarding	Bodyboarding	PROPN	_	Number=Sing	61	flat:name	_	_
+63	International	International	PROPN	_	Number=Sing	61	flat:name	_	_
+64	em	em	ADP	_	_	65	case	_	_
+65	Copacabana	Copacabana	PROPN	_	Gender=Masc|Number=Sing	61	nmod	_	_
+66	ou	ou	CCONJ	_	_	67	cc	_	_
+67	Ipanema	Ipanema	PROPN	_	Gender=Masc|Number=Sing	65	conj	_	SpaceAfter=No
+68	,	,	PUNCT	_	_	69	punct	_	_
+69	Rio	Rio	PROPN	_	Gender=Masc|Number=Sing	61	appos	_	_
+70	de	de	ADP	_	_	71	case	_	_
+71	Janeiro	Janeiro	PROPN	_	Number=Sing	69	nmod	_	_
+72	(	(	PUNCT	_	_	73	punct	_	SpaceAfter=No
+73	RJ	RJ	PROPN	_	Gender=Masc|Number=Sing	69	parataxis	_	SpaceAfter=No
+74	)	)	PUNCT	_	_	73	punct	_	SpaceAfter=No
+75	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
+
+# sent_id = train-s8839
+# text = Mais urgente, só a saúde, restrita às sempre esquecidas promessas de campanha ...
+1	Mais	mais	ADV	ADV	_	2	advmod	_	_
+2	urgente	urgente	ADJ	ADJ	_	6	amod	_	SpaceAfter=No
+3	,	,	PUNCT	.	_	2	punct	_	_
+4	só	só	ADV	ADV	_	6	advmod	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	saúde	saúde	NOUN	NOUN	_	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	8	punct	_	_
+8	restrita	restrito	ADJ	ADJ	_	6	amod	_	_
+9-10	às	_	_	_	_	_	_	_	_
+9	a	a	ADP	ADP	_	13	case	_	_
+10	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+11	sempre	sempre	ADV	ADV	_	12	advmod	_	_
+12	esquecidas	esquecido	ADJ	ADJ	_	13	amod	_	_
+13	promessas	promessa	NOUN	NOUN	_	8	nmod	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
+15	campanha	campanha	NOUN	NOUN	_	13	nmod	_	_
+16	...	_	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s8840
+# text = Como o Xgl, o Quartz 2D Extreme traz a aceleração OpenGL para todas as operações de desenho 2D (não apenas composição desktop) e vem com o Mac OS X v10.4, mas é desabilitado por padrão exigindo uma declaração formal para entrar em funcionamento.
+1	Como	_	ADP	ADP	_	3	case	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Xgl	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Quartz	_	PROPN	PNOUN	_	9	nsubj	_	_
+7	2D	_	PROPN	PNOUN	_	6	appos	_	_
+8	Extreme	_	PROPN	PNOUN	_	6	amod	_	_
+9	traz	trazer	VERB	VERB	_	0	root	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	aceleração	aceleração	NOUN	NOUN	_	9	obj	_	_
+12	OpenGL	_	PROPN	PNOUN	_	11	appos	_	_
+13	para	para	ADP	ADP	_	16	case	_	_
+14	todas	_	DET	DET	_	16	det	_	_
+15	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	operações	operação	NOUN	NOUN	_	9	nmod	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
+18	desenho	desenho	NOUN	NOUN	_	16	nmod	_	_
+19	2D	_	PROPN	PNOUN	_	18	appos	_	_
+20	(	(	PUNCT	.	_	23	punct	_	SpaceAfter=No
+21	não	não	ADV	ADV	Polarity=Neg	22	advmod	_	_
+22	apenas	apenas	ADV	ADV	_	23	advmod	_	_
+23	composição	composição	NOUN	NOUN	_	16	appos	_	_
+24	desktop	_	NOUN	NOUN	_	23	flat	_	SpaceAfter=No
+25	)	)	PUNCT	.	_	23	punct	_	_
+26	e	e	CCONJ	CONJ	_	27	cc	_	_
+27	vem	vir	VERB	VERB	_	9	conj	_	_
+28	com	com	ADP	ADP	_	30	case	_	_
+29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	Mac	_	PROPN	PNOUN	_	27	nmod	_	_
+31	OS	_	PROPN	PNOUN	_	30	flat	_	_
+32	X	_	PROPN	PNOUN	_	30	flat	_	_
+33	v10.4	_	PROPN	PNOUN	_	30	flat	_	SpaceAfter=No
+34	,	,	PUNCT	.	_	37	punct	_	_
+35	mas	mas	CCONJ	CONJ	_	37	cc	_	_
+36	é	ser	AUX	AUX	_	37	aux:pass	_	_
+37	desabilitado	desabilitar	VERB	VERB	_	9	conj	_	_
+38	por	por	ADP	ADP	_	39	case	_	_
+39	padrão	padrão	NOUN	NOUN	_	37	nmod	_	_
+40	exigindo	exigir	VERB	VERB	_	37	acl	_	_
+41	uma	um	DET	DET	_	42	det	_	_
+42	declaração	declaração	NOUN	NOUN	_	40	obj	_	_
+43	formal	formal	ADJ	ADJ	_	42	amod	_	_
+44	para	_	ADP	ADP	_	45	mark	_	_
+45	entrar	entrar	VERB	VERB	_	42	nmod	_	_
+46	em	em	ADP	ADP	_	47	case	_	_
+47	funcionamento	funcionamento	NOUN	NOUN	_	45	nmod	_	SpaceAfter=No
+48	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = train-s8841
+# text = Essa adequação torna-se, portanto, importante para a sustentabilidade da política fiscal ", escreveu o ministro da Fazenda.
+1	Essa	_	DET	DET	_	2	det	_	_
+2	adequação	adequação	NOUN	NOUN	_	3	nsubj	_	_
+3-4	torna-se	_	_	_	_	_	_	_	SpaceAfter=No
+3	torna	tornar	VERB	VERB	_	18	ccomp	_	_
+4	se	_	PRON	PRON	_	3	expl:pv	_	_
+5	,	,	PUNCT	.	_	6	punct	_	_
+6	portanto	_	ADV	ADV	_	3	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	6	punct	_	_
+8	importante	importante	ADJ	ADJ	_	3	xcomp	_	_
+9	para	para	ADP	ADP	_	11	case	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	sustentabilidade	sustentabilidade	NOUN	NOUN	_	8	nmod	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	ADP	_	14	case	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	política	_	NOUN	NOUN	_	11	nmod	_	_
+15	fiscal	fiscal	ADJ	ADJ	_	14	amod	_	_
+16	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
+17	,	,	PUNCT	.	_	18	punct	_	_
+18	escreveu	escrever	VERB	VERB	_	0	root	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	ministro	ministro	NOUN	NOUN	_	18	nsubj	_	_
+21-22	da	_	_	_	_	_	_	_	_
+21	de	de	ADP	ADP	_	23	case	_	_
+22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Fazenda	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	18	punct	_	_
+

@@ -1,0 +1,334 @@
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = A decisão ocorre três dias depois da Turquia ter interceptado o avião de passageiros sírio e ter anunciado a descoberta de equipamento militar na aeronave.
+# sent_id = train-s71
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	decisão	decisão	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	ocorre	ocorrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	três	três	NUM	_	NumType=Card	5	nummod	_	_
+5	dias	dia	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	_
+6	depois	depois	ADV	_	ExtPos=SCONJ	11	mark	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	6	fixed	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Turquia	Turquia	PROPN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+10	ter	ter	AUX	_	Number=Sing|Person=3|VerbForm=Inf	11	aux	_	_
+11	interceptado	interceptar	VERB	_	VerbForm=Part	3	advcl	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	avião	avião	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	passageiros	passageiro	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
+16	sírio	sírio	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
+17	e	e	CCONJ	_	_	19	cc	_	_
+18	ter	ter	AUX	_	VerbForm=Inf	19	aux	_	_
+19	anunciado	anunciar	VERB	_	VerbForm=Part	11	conj	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	descoberta	descoberta	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	equipamento	equipamento	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+24	militar	militar	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	_
+25-26	na	_	_	_	_	_	_	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	aeronave	aeronave	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+
+# sent_id = train-s72
+# text = Segundo a chanceler, as conversas devem ser difíceis, mas ela não deu mais detalhes.
+1	Segundo	_	ADP	ADP	_	3	case	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	chanceler	chanceler	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	conversas	_	NOUN	NOUN	_	8	nsubj	_	_
+7	devem	_	AUX	AUX	_	8	aux	_	_
+8	ser	ser	VERB	VERB	_	0	root	_	_
+9	difíceis	difícil	ADJ	ADJ	_	8	xcomp	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	14	punct	_	_
+11	mas	mas	CCONJ	CONJ	_	14	cc	_	_
+12	ela	_	PRON	PRON	_	14	nsubj	_	_
+13	não	não	ADV	ADV	Polarity=Neg	14	advmod	_	_
+14	deu	dar	VERB	VERB	_	8	conj	_	_
+15	mais	_	DET	DET	_	16	det	_	_
+16	detalhes	detalhe	NOUN	NOUN	_	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s73
+# text = À IMPRENSA, uma autoridade que participa das investigações afirmou que entre os suspeitos estão o autor dos disparos e os supostos mandantes do crime.
+1-2	À	_	_	_	_	_	_	_	_
+1	A	a	ADP	ADP	_	3	case	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	IMPRENSA	_	PROPN	PNOUN	_	12	iobj	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	uma	um	DET	DET	_	6	det	_	_
+6	autoridade	autoridade	NOUN	NOUN	_	12	nsubj	_	_
+7	que	_	PRON	PRON	_	8	nsubj	_	_
+8	participa	participar	VERB	VERB	_	6	acl:relcl	_	_
+9-10	das	_	_	_	_	_	_	_	_
+9	de	de	ADP	ADP	_	11	case	_	_
+10	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	investigações	investigação	NOUN	NOUN	_	8	nmod	_	_
+12	afirmou	afirmar	VERB	VERB	_	0	root	_	_
+13	que	que	CCONJ	CONJ	_	17	mark	_	_
+14	entre	_	ADP	ADP	_	16	case	_	_
+15	os	o	DET	DET	_	16	det	_	_
+16	suspeitos	suspeito	NOUN	NOUN	_	17	nmod	_	_
+17	estão	estar	VERB	VERB	_	12	ccomp	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	autor	autor	NOUN	NOUN	_	17	nsubj	_	_
+20-21	dos	_	_	_	_	_	_	_	_
+20	de	de	ADP	ADP	_	22	case	_	_
+21	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	disparos	disparo	NOUN	NOUN	_	19	nmod	_	_
+23	e	e	CCONJ	CONJ	_	26	cc	_	_
+24	os	o	DET	DET	_	26	det	_	_
+25	supostos	suposto	ADJ	ADJ	_	26	amod	_	_
+26	mandantes	mandante	NOUN	NOUN	_	19	conj	_	_
+27-28	do	_	_	_	_	_	_	_	_
+27	de	de	ADP	ADP	_	29	case	_	_
+28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	crime	crime	NOUN	NOUN	_	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = train-s74
+# text = Ele driblou Mertesacker e tocou na saída de Szczesny para marcar.
+1	Ele	_	PRON	PRON	_	2	nsubj	_	_
+2	driblou	driblar	VERB	VERB	_	0	root	_	_
+3	Mertesacker	_	PROPN	PNOUN	_	2	obj	_	_
+4	e	e	CCONJ	CONJ	_	5	cc	_	_
+5	tocou	tocar	VERB	VERB	_	2	conj	_	_
+6-7	na	_	_	_	_	_	_	_	_
+6	em	em	ADP	ADP	_	8	case	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	saída	saída	NOUN	NOUN	_	5	nmod	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
+10	Szczesny	_	PROPN	PNOUN	_	8	nmod	_	_
+11	para	_	ADP	ADP	_	12	mark	_	_
+12	marcar	marcar	VERB	VERB	_	5	advcl	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s75
+# text = De acordo com o MDS, todo Centro POP deve representar espaço de referência para o convívio grupal, social e o desenvolvimento de relações de solidariedade, afetividade e respeito, além de proporcionar vivências para o alcance da autonomia e estimular a organização, a mobilização e a participação social da população em situação de vulnerabilidade.
+1	De	_	ADP	ADP	_	2	case	_	_
+2	acordo	acordo	NOUN	NOUN	_	11	nmod	_	_
+3	com	com	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	MDS	_	PROPN	PNOUN	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	.	_	2	punct	_	_
+7	todo	_	DET	DET	_	8	det	_	_
+8	Centro	_	PROPN	PNOUN	_	11	nsubj	_	_
+9	POP	_	PROPN	PNOUN	_	8	flat	_	_
+10	deve	dever	AUX	AUX	_	11	aux	_	_
+11	representar	representar	VERB	VERB	_	0	root	_	_
+12	espaço	espaço	NOUN	NOUN	_	11	obj	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
+14	referência	referência	NOUN	NOUN	_	12	nmod	_	_
+15	para	para	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	convívio	convívio	NOUN	NOUN	_	12	nmod	_	_
+18	grupal	grupal	ADJ	ADJ	_	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	.	_	20	punct	_	_
+20	social	social	ADJ	ADJ	_	18	conj	_	_
+21	e	e	CCONJ	CONJ	_	23	cc	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	desenvolvimento	desenvolvimento	NOUN	NOUN	_	17	conj	_	_
+24	de	de	ADP	ADP	_	25	case	_	_
+25	relações	relação	NOUN	NOUN	_	23	nmod	_	_
+26	de	de	ADP	ADP	_	27	case	_	_
+27	solidariedade	solidariedade	NOUN	NOUN	_	25	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	.	_	29	punct	_	_
+29	afetividade	afetividade	NOUN	NOUN	_	27	conj	_	_
+30	e	e	CCONJ	CONJ	_	31	cc	_	_
+31	respeito	respeito	NOUN	NOUN	_	27	conj	_	SpaceAfter=No
+32	,	,	PUNCT	.	_	33	punct	_	_
+33	além	além	ADV	ADV	_	11	advmod	_	_
+34	de	_	ADP	ADP	_	35	mark	_	_
+35	proporcionar	proporcionar	VERB	VERB	_	33	nmod	_	_
+36	vivências	vivência	NOUN	NOUN	_	35	obj	_	_
+37	para	para	ADP	ADP	_	39	case	_	_
+38	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	alcance	alcance	NOUN	NOUN	_	36	nmod	_	_
+40-41	da	_	_	_	_	_	_	_	_
+40	de	de	ADP	ADP	_	42	case	_	_
+41	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	autonomia	autonomia	NOUN	NOUN	_	39	nmod	_	_
+43	e	e	CCONJ	CONJ	_	44	cc	_	_
+44	estimular	estimular	VERB	VERB	_	35	conj	_	_
+45	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	organização	organização	NOUN	NOUN	_	44	obj	_	SpaceAfter=No
+47	,	,	PUNCT	.	_	49	punct	_	_
+48	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+49	mobilização	mobilização	NOUN	NOUN	_	46	conj	_	_
+50	e	e	CCONJ	CONJ	_	52	cc	_	_
+51	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
+52	participação	participação	NOUN	NOUN	_	46	conj	_	_
+53	social	social	ADJ	ADJ	_	52	amod	_	_
+54-55	da	_	_	_	_	_	_	_	_
+54	de	de	ADP	ADP	_	56	case	_	_
+55	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
+56	população	população	NOUN	NOUN	_	46	nmod	_	_
+57	em	em	ADP	ADP	_	58	case	_	_
+58	situação	situação	NOUN	NOUN	_	56	nmod	_	_
+59	de	de	ADP	ADP	_	60	case	_	_
+60	vulnerabilidade	vulnerabilidade	NOUN	NOUN	_	58	nmod	_	SpaceAfter=No
+61	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = train-s76
+# text = O caso foi registrado no 1 º DP de Osasco.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	caso	caso	NOUN	NOUN	_	4	nsubj:pass	_	_
+3	foi	_	AUX	AUX	_	4	aux:pass	_	_
+4	registrado	registrar	VERB	VERB	_	0	root	_	_
+5-6	no	_	_	_	_	_	_	_	_
+5	em	em	ADP	ADP	_	9	case	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+7	1	_	ADJ	ADJ	_	9	amod	_	_
+8	º	_	PUNCT	.	_	7	punct	_	_
+9	DP	_	PROPN	PNOUN	_	4	nmod	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
+11	Osasco	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s77
+# text = Ele aparece no juro do empréstimo, na remuneração da poupança, nos preços das ações.
+1	Ele	_	PRON	PRON	_	2	nsubj	_	_
+2	aparece	aparecer	VERB	VERB	_	0	root	_	_
+3-4	no	_	_	_	_	_	_	_	_
+3	em	em	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	juro	juro	NOUN	NOUN	_	2	nmod	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	empréstimo	empréstimo	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	12	punct	_	_
+10-11	na	_	_	_	_	_	_	_	_
+10	em	em	ADP	ADP	_	12	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	remuneração	remuneração	NOUN	NOUN	_	5	conj	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	poupança	poupança	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	.	_	19	punct	_	_
+17-18	nos	_	_	_	_	_	_	_	_
+17	em	em	ADP	ADP	_	19	case	_	_
+18	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	preços	preço	NOUN	NOUN	_	5	conj	_	_
+20-21	das	_	_	_	_	_	_	_	_
+20	de	de	ADP	ADP	_	22	case	_	_
+21	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	ações	ação	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s78
+# text = A piloto chegou à Fórmula Renault brasileira em 2003 com a ajuda de André Ribeiro, sócio de Pedro Paulo Diniz, empresários responsáveis pela categoria.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	piloto	piloto	NOUN	NOUN	_	3	nsubj	_	_
+3	chegou	chegar	VERB	VERB	_	0	root	_	_
+4-5	à	_	_	_	_	_	_	_	_
+4	a	a	ADP	ADP	_	6	case	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Fórmula	_	PROPN	PNOUN	_	3	nmod	_	_
+7	Renault	_	PROPN	PNOUN	_	6	flat	_	_
+8	brasileira	brasileiro	ADJ	ADJ	_	6	amod	_	_
+9	em	em	ADP	ADP	_	10	case	_	_
+10	2003	2003	NUM	NUM	NumType=Card	3	nmod	_	_
+11	com	com	ADP	ADP	_	13	case	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	ajuda	ajuda	NOUN	NOUN	_	3	nmod	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
+15	André	_	PROPN	PNOUN	_	13	nmod	_	_
+16	Ribeiro	_	PROPN	PNOUN	_	15	flat	_	SpaceAfter=No
+17	,	,	PUNCT	.	_	18	punct	_	_
+18	sócio	sócio	NOUN	NOUN	_	15	appos	_	_
+19	de	de	ADP	ADP	_	20	case	_	_
+20	Pedro	_	PROPN	PNOUN	_	18	nmod	_	_
+21	Paulo	_	PROPN	PNOUN	_	20	flat	_	_
+22	Diniz	_	PROPN	PNOUN	_	20	flat	_	SpaceAfter=No
+23	,	,	PUNCT	.	_	24	punct	_	_
+24	empresários	empresário	NOUN	NOUN	_	15	appos	_	_
+25	responsáveis	responsável	ADJ	ADJ	_	24	amod	_	_
+26-27	pela	_	_	_	_	_	_	_	_
+26	por	por	ADP	ADP	_	28	case	_	_
+27	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	categoria	categoria	NOUN	NOUN	_	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s79
+# text = "Quando o passageiro se sente prejudicado pela empresa aérea, ele processa a agência que intermediou a venda da passagem e esta se vê obrigada a arcar com todo ônus em prol do cliente.
+1	"	"	PUNCT	.	_	6	punct	_	SpaceAfter=No
+2	Quando	_	CCONJ	CONJ	_	6	mark	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	passageiro	passageiro	NOUN	NOUN	_	6	nsubj	_	_
+5	se	_	PART	PRT	_	6	expl:pv	_	_
+6	sente	_	VERB	VERB	_	14	advcl	_	_
+7	prejudicado	prejudicado	ADJ	ADJ	_	6	xcomp	_	_
+8-9	pela	_	_	_	_	_	_	_	_
+8	por	por	ADP	ADP	_	10	case	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	empresa	empresa	NOUN	NOUN	_	7	nmod	_	_
+11	aérea	aéreo	ADJ	ADJ	_	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	.	_	6	punct	_	_
+13	ele	_	PRON	PRON	_	14	nsubj	_	_
+14	processa	processar	VERB	VERB	_	0	root	_	_
+15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	agência	agência	NOUN	NOUN	_	14	obj	_	_
+17	que	_	PRON	PRON	_	18	nsubj	_	_
+18	intermediou	intermediar	VERB	VERB	_	16	acl:relcl	_	_
+19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	venda	venda	NOUN	NOUN	_	18	obj	_	_
+21-22	da	_	_	_	_	_	_	_	_
+21	de	de	ADP	ADP	_	23	case	_	_
+22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	passagem	passagem	NOUN	NOUN	_	20	nmod	_	_
+24	e	e	CCONJ	CONJ	_	27	cc	_	_
+25	esta	_	PRON	PRON	_	27	nsubj	_	_
+26	se	_	PART	PRT	_	27	expl:pv	_	_
+27	vê	ver	VERB	VERB	_	14	conj	_	_
+28	obrigada	obrigado	ADJ	ADJ	_	27	xcomp	_	_
+29	a	_	ADP	ADP	_	30	mark	_	_
+30	arcar	arcar	VERB	VERB	_	28	nmod	_	_
+31	com	com	ADP	ADP	_	33	case	_	_
+32	todo	_	DET	DET	_	33	det	_	_
+33	ônus	ônus	NOUN	NOUN	_	30	nmod	_	_
+34	em	em	ADP	ADP	_	35	case	_	_
+35	prol	prol	NOUN	NOUN	_	30	nmod	_	_
+36-37	do	_	_	_	_	_	_	_	_
+36	de	de	ADP	ADP	_	38	case	_	_
+37	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	cliente	cliente	NOUN	NOUN	_	35	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = train-s80
+# text = O debate sobre a validade da vitória dominou a expectativa pelo confronto entre Brasil e Espanha no basquete da Olimpíada.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	debate	debate	NOUN	NOUN	_	9	nsubj	_	_
+3	sobre	_	ADP	ADP	_	5	case	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	validade	validade	NOUN	NOUN	_	2	nmod	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	vitória	vitória	NOUN	NOUN	_	5	nmod	_	_
+9	dominou	dominar	VERB	VERB	_	0	root	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	expectativa	expectativa	NOUN	NOUN	_	9	obj	_	_
+12-13	pelo	_	_	_	_	_	_	_	_
+12	por	por	ADP	ADP	_	14	case	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	confronto	confronto	NOUN	NOUN	_	11	nmod	_	_
+15	entre	_	ADP	ADP	_	16	case	_	_
+16	Brasil	_	PROPN	PNOUN	_	14	nmod	_	_
+17	e	e	CCONJ	CONJ	_	18	cc	_	_
+18	Espanha	_	PROPN	PNOUN	_	16	conj	_	_
+19-20	no	_	_	_	_	_	_	_	_
+19	em	em	ADP	ADP	_	21	case	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	basquete	basquete	NOUN	NOUN	_	14	nmod	_	_
+22-23	da	_	_	_	_	_	_	_	_
+22	de	de	ADP	ADP	_	24	case	_	_
+23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Olimpíada	_	PROPN	PNOUN	_	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	9	punct	_	_
+

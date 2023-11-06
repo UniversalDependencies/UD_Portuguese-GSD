@@ -1,0 +1,313 @@
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = E foi justamente por conta disso que o comandante afirmou que o jogo não deve ganhar uma pressão psicológica maior do que já tem.
+# sent_id = train-s7722
+1	E	e	CCONJ	_	_	11	cc	_	_
+2	foi	foi	SCONJ	_	_	11	mark	_	_
+3	justamente	justamente	ADV	_	_	5	advmod	_	_
+4	por	por	ADP	_	_	5	case	_	_
+5	conta	conta	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+6-7	disso	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	5	nmod	_	_
+8	que	que	SCONJ	_	_	11	mark	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	comandante	comandante	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+11	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	que	que	SCONJ	_	_	17	mark	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	jogo	jogo	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
+15	não	não	ADV	_	Polarity=Neg	17	advmod	_	_
+16	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+17	ganhar	ganhar	VERB	_	VerbForm=Inf	16	xcomp	_	_
+18	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	pressão	pressão	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+20	psicológica	psicológico	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
+21	maior	maior	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	26	mark	_	_
+23	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	22	fixed	_	_
+24	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	22	fixed	_	_
+25	já	já	ADV	_	_	26	advmod	_	_
+26	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = train-s7723
+# text = Cy Feuer é elogiado por sua música, que é tanto temperamental quanto emocionante.
+1	Cy	_	PROPN	PNOUN	_	4	nsubj:pass	_	_
+2	Feuer	_	PROPN	PNOUN	_	1	flat	_	_
+3	é	ser	AUX	AUX	_	4	aux:pass	_	_
+4	elogiado	elogiar	VERB	VERB	_	0	root	_	_
+5	por	por	ADP	ADP	_	7	case	_	_
+6	sua	_	DET	DET	_	7	det:poss	_	_
+7	música	_	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	10	punct	_	_
+9	que	_	PRON	PRON	_	10	nsubj	_	_
+10	é	ser	VERB	VERB	_	7	acl:relcl	_	_
+11	tanto	tanto	ADV	ADV	_	12	cc	_	_
+12	temperamental	temperamental	ADJ	ADJ	_	10	xcomp	_	_
+13	quanto	_	CCONJ	CONJ	_	14	cc	_	_
+14	emocionante	emocionante	ADJ	ADJ	_	12	conj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s7724
+# text = Para as entidades, esses atos têm um pano de fundo comum: xenofobia e racismo contra imigrantes africanos no país.
+1	Para	_	ADP	ADP	_	3	case	_	_
+2	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	entidades	entidade	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	esses	_	DET	DET	_	6	det	_	_
+6	atos	ato	NOUN	NOUN	_	7	nsubj	_	_
+7	têm	ter	VERB	VERB	_	0	root	_	_
+8	um	um	DET	DET	_	9	det	_	_
+9	pano	pano	NOUN	NOUN	_	7	obj	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
+11	fundo	fundo	NOUN	NOUN	_	9	nmod	_	_
+12	comum	comum	ADJ	ADJ	_	9	amod	_	SpaceAfter=No
+13	:	:	PUNCT	.	_	9	punct	_	_
+14	xenofobia	xenofobia	NOUN	NOUN	_	9	appos	_	_
+15	e	e	CCONJ	CONJ	_	16	cc	_	_
+16	racismo	racismo	NOUN	NOUN	_	14	conj	_	_
+17	contra	_	ADP	ADP	_	18	case	_	_
+18	imigrantes	imigrante	NOUN	NOUN	_	14	nmod	_	_
+19	africanos	africano	ADJ	ADJ	_	18	amod	_	_
+20-21	no	_	_	_	_	_	_	_	_
+20	em	em	ADP	ADP	_	22	case	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	país	país	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s7725
+# text = Ele utilizava os nomes falsos de Anderson Golçalves Soares e André Luiz da Silva.
+1	Ele	_	PRON	PRON	_	2	nsubj	_	_
+2	utilizava	utilizar	VERB	VERB	_	0	root	_	_
+3	os	o	DET	DET	_	4	det	_	_
+4	nomes	nome	NOUN	NOUN	_	2	obj	_	_
+5	falsos	falso	ADJ	ADJ	_	4	amod	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
+7	Anderson	_	PROPN	PNOUN	_	4	nmod	_	_
+8	Golçalves	_	PROPN	PNOUN	_	7	flat	_	_
+9	Soares	_	PROPN	PNOUN	_	7	flat	_	_
+10	e	e	CCONJ	CONJ	_	11	cc	_	_
+11	André	_	PROPN	PNOUN	_	7	conj	_	_
+12	Luiz	_	PROPN	PNOUN	_	11	flat	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Silva	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s7726
+# text = Pode ser coincidência, mas os mesmos nove pontos que separam o Grêmio do líder do Brasileiro, o Fluminense, distanciam o Palmeiras do último clube a não ser rebaixado, que é justamente o Coritiba, adversário que o Verdão perdeu nessa quinta - feira.
+1	Pode	_	AUX	AUX	_	3	aux	_	_
+2	ser	ser	AUX	AUX	_	3	cop	_	_
+3	coincidência	coincidência	NOUN	NOUN	_	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	24	punct	_	_
+5	mas	mas	CCONJ	CONJ	_	24	cc	_	_
+6	os	o	DET	DET	_	9	det	_	_
+7	mesmos	mesmo	ADJ	ADJ	_	9	amod	_	_
+8	nove	_	NUM	NUM	NumType=Card	9	nummod	_	_
+9	pontos	ponto	NOUN	NOUN	_	24	nsubj	_	_
+10	que	_	PRON	PRON	_	11	nsubj	_	_
+11	separam	separar	VERB	VERB	_	9	acl:relcl	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Grêmio	grêmio	NOUN	NOUN	_	11	obj	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	ADP	_	16	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	líder	líder	NOUN	NOUN	_	11	nmod	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	ADP	_	19	case	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Brasileiro	_	PROPN	PNOUN	_	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	.	_	22	punct	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Fluminense	_	PROPN	PNOUN	_	16	appos	_	SpaceAfter=No
+23	,	,	PUNCT	.	_	22	punct	_	_
+24	distanciam	distanciar	VERB	VERB	_	3	conj	_	_
+25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Palmeiras	_	PROPN	PNOUN	_	24	obj	_	_
+27-28	do	_	_	_	_	_	_	_	_
+27	de	de	ADP	ADP	_	30	case	_	_
+28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	último	último	ADJ	ADJ	_	30	amod	_	_
+30	clube	clube	NOUN	NOUN	_	24	nmod	_	_
+31	a	_	ADP	ADP	_	34	mark	_	_
+32	não	não	ADV	ADV	Polarity=Neg	34	advmod	_	_
+33	ser	ser	AUX	AUX	_	34	aux:pass	_	_
+34	rebaixado	rebaixar	VERB	VERB	_	30	acl:inf	_	SpaceAfter=No
+35	,	,	PUNCT	.	_	40	punct	_	_
+36	que	_	PRON	PRON	_	40	nsubj	_	_
+37	é	ser	AUX	AUX	_	40	cop	_	_
+38	justamente	justamente	ADV	ADV	_	40	advmod	_	_
+39	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	Coritiba	_	PROPN	PNOUN	_	30	acl:relcl	_	SpaceAfter=No
+41	,	,	PUNCT	.	_	42	punct	_	_
+42	adversário	adversário	NOUN	NOUN	_	40	appos	_	_
+43	que	_	PRON	PRON	_	46	obj	_	_
+44	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	Verdão	_	PROPN	PNOUN	_	46	nsubj	_	_
+46	perdeu	perder	VERB	VERB	_	42	acl:relcl	_	_
+47	nessa	_	ADP	ADP	_	50	case	_	_
+48	quinta	_	PROPN	PNOUN	_	50	amod	_	_
+49	-	-	PUNCT	.	_	50	punct	_	_
+50	feira	_	PROPN	PNOUN	_	46	nmod	_	SpaceAfter=No
+51	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s7727
+# text = Atualmente, cada parlamentar recebe R $ 26,7 mil por mês, fora benefícios, como plano de saúde, cota para gastos de gabinete (que cobre telefone, correspondências, transporte, entre outras despesas), além de passagens áreas.
+1	Atualmente	atualmente	ADV	ADV	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	.	_	1	punct	_	_
+3	cada	_	DET	DET	_	4	det	_	_
+4	parlamentar	parlamentar	NOUN	NOUN	_	5	nsubj	_	_
+5	recebe	receber	VERB	VERB	_	0	root	_	_
+6	R	r	NOUN	NOUN	_	5	obj	_	_
+7	$	_	SYM	SYM	_	6	flat	_	_
+8	26,7	26,7	NUM	NUM	NumType=Card	9	nummod	_	_
+9	mil	_	NUM	NUM	NumType=Card	6	nummod	_	_
+10	por	por	ADP	ADP	_	11	case	_	_
+11	mês	_	NUM	NUM	NumType=Card	5	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	.	_	14	punct	_	_
+13	fora	_	ADP	ADP	_	14	case	_	_
+14	benefícios	benefício	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	.	_	17	punct	_	_
+16	como	como	ADP	ADP	_	17	case	_	_
+17	plano	plano	NOUN	NOUN	_	14	nmod	_	_
+18	de	de	ADP	ADP	_	19	case	_	_
+19	saúde	saúde	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	.	_	21	punct	_	_
+21	cota	cota	NOUN	NOUN	_	17	conj	_	_
+22	para	para	ADP	ADP	_	23	case	_	_
+23	gastos	gasto	NOUN	NOUN	_	21	nmod	_	_
+24	de	de	ADP	ADP	_	25	case	_	_
+25	gabinete	gabinete	NOUN	NOUN	_	23	nmod	_	_
+26	(	(	PUNCT	.	_	28	punct	_	SpaceAfter=No
+27	que	_	PRON	PRON	_	28	nsubj	_	_
+28	cobre	_	VERB	VERB	_	21	acl:relcl	_	_
+29	telefone	telefone	NOUN	NOUN	_	28	obj	_	SpaceAfter=No
+30	,	,	PUNCT	.	_	31	punct	_	_
+31	correspondências	correspondência	NOUN	NOUN	_	29	conj	_	SpaceAfter=No
+32	,	,	PUNCT	.	_	33	punct	_	_
+33	transporte	transporte	NOUN	NOUN	_	29	conj	_	SpaceAfter=No
+34	,	,	PUNCT	.	_	37	punct	_	_
+35	entre	_	ADP	ADP	_	37	case	_	_
+36	outras	_	DET	DET	_	37	det	_	_
+37	despesas	despesa	NOUN	NOUN	_	28	nmod	_	SpaceAfter=No
+38	)	)	PUNCT	.	_	28	punct	_	SpaceAfter=No
+39	,	,	PUNCT	.	_	40	punct	_	_
+40	além	além	ADV	ADV	_	17	advmod	_	_
+41	de	de	ADP	ADP	_	42	case	_	_
+42	passagens	passagem	NOUN	NOUN	_	40	nmod	_	_
+43	áreas	_	ADJ	ADJ	_	42	amod	_	SpaceAfter=No
+44	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s7728
+# text = Para o ministro do STJ, nenhum consumidor pode se endividar ou ser endividado além do mínimo necessário à manutenção da família e da própria existência.
+1	Para	_	ADP	ADP	_	3	case	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	ministro	ministro	NOUN	NOUN	_	12	nmod	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	STJ	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	3	punct	_	_
+8	nenhum	_	DET	DET	_	9	det	_	_
+9	consumidor	consumidor	NOUN	NOUN	_	12	nsubj	_	_
+10	pode	_	AUX	AUX	_	12	aux	_	_
+11	se	_	PRON	PRON	_	12	obj	_	_
+12	endividar	endividar	VERB	VERB	_	0	root	_	_
+13	ou	ou	CCONJ	CONJ	_	15	cc	_	_
+14	ser	ser	AUX	AUX	_	15	aux:pass	_	_
+15	endividado	endividar	VERB	VERB	_	12	conj	_	_
+16	além	além	ADV	ADV	_	12	advmod	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	ADP	_	19	case	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	mínimo	mínimo	NOUN	NOUN	_	16	nmod	_	_
+20	necessário	necessário	ADJ	ADJ	_	19	amod	_	_
+21-22	à	_	_	_	_	_	_	_	_
+21	a	a	ADP	ADP	_	23	case	_	_
+22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	manutenção	manutenção	NOUN	NOUN	_	20	nmod	_	_
+24-25	da	_	_	_	_	_	_	_	_
+24	de	de	ADP	ADP	_	26	case	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	família	família	NOUN	NOUN	_	23	nmod	_	_
+27	e	e	CCONJ	CONJ	_	31	cc	_	_
+28-29	da	_	_	_	_	_	_	_	_
+28	de	de	ADP	ADP	_	31	case	_	_
+29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+30	própria	próprio	ADJ	ADJ	_	31	amod	_	_
+31	existência	existência	NOUN	NOUN	_	26	conj	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = train-s7729
+# text = Porém, Isaac Melo Dantas, de 21 anos, foi atingido mas resistiu aos ferimentos.
+1	Porém	_	ADV	ADV	_	12	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	.	_	1	punct	_	_
+3	Isaac	_	PROPN	PNOUN	_	12	nsubj:pass	_	_
+4	Melo	_	PROPN	PNOUN	_	3	flat	_	_
+5	Dantas	_	PROPN	PNOUN	_	3	flat	_	SpaceAfter=No
+6	,	,	PUNCT	.	_	9	punct	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
+8	21	21	NUM	NUM	NumType=Card	9	nummod	_	_
+9	anos	ano	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	9	punct	_	_
+11	foi	_	AUX	AUX	_	12	aux:pass	_	_
+12	atingido	atingir	VERB	VERB	_	0	root	_	_
+13	mas	mas	CCONJ	CONJ	_	14	cc	_	_
+14	resistiu	resistir	VERB	VERB	_	12	conj	_	_
+15-16	aos	_	_	_	_	_	_	_	_
+15	a	a	ADP	ADP	_	17	case	_	_
+16	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	ferimentos	ferimento	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = train-s7730a
+# text = Fortes ventos causaram interrupções do fornecimento de energia para 500 pessoas nos condados de Walton, Washington e Bay.
+1	Fortes	forte	ADJ	ADJ	_	2	amod	_	_
+2	ventos	vento	NOUN	NOUN	_	3	nsubj	_	_
+3	causaram	causar	VERB	VERB	_	0	root	_	_
+4	interrupções	interrupção	NOUN	NOUN	_	3	obj	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	ADP	_	7	case	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	fornecimento	fornecimento	NOUN	NOUN	_	4	nmod	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
+9	energia	energia	NOUN	NOUN	_	7	nmod	_	_
+10	para	para	ADP	ADP	_	12	case	_	_
+11	500	500	NUM	NUM	NumType=Card	12	nummod	_	_
+12	pessoas	pessoa	NOUN	NOUN	_	7	nmod	_	_
+13-14	nos	_	_	_	_	_	_	_	_
+13	em	em	ADP	ADP	_	15	case	_	_
+14	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	condados	condado	NOUN	NOUN	_	12	nmod	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
+17	Walton	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	.	_	19	punct	_	_
+19	Washington	_	PROPN	PNOUN	_	17	conj	_	_
+20	e	e	CCONJ	CONJ	_	21	cc	_	_
+21	Bay.	_	PROPN	PNOUN	_	17	conj	_	_
+
+# sent_id = train-s7730b
+# text = A tempestade gerou um tornado fraco em Navarre, causando pequenos danos em sua trajetória de 200 m.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	tempestade	tempestade	NOUN	NOUN	_	3	nsubj	_	_
+3	gerou	gerar	VERB	VERB	_	0	root	_	_
+4	um	um	DET	DET	_	5	det	_	_
+5	tornado	tornado	NOUN	NOUN	_	3	obj	_	_
+6	fraco	fraco	ADJ	ADJ	_	5	amod	_	_
+7	em	em	ADP	ADP	_	8	case	_	_
+8	Navarre	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	10	punct	_	_
+10	causando	causar	VERB	VERB	_	3	acl	_	_
+11	pequenos	pequeno	ADJ	ADJ	_	12	amod	_	_
+12	danos	dano	NOUN	NOUN	_	10	obj	_	_
+13	em	em	ADP	ADP	_	15	case	_	_
+14	sua	_	DET	DET	_	15	det:poss	_	_
+15	trajetória	trajetória	NOUN	NOUN	_	10	nmod	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
+17	200	200	NUM	NUM	NumType=Card	18	nummod	_	_
+18	m	m	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	_
+

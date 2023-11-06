@@ -1,0 +1,280 @@
+# sent_id = train-s2819
+# text = Vai ser um jogo importantíssimo, porque queremos nos manter lá na frente.
+1	Vai	ir	AUX	AUX	_	4	aux	_	_
+2	ser	ser	AUX	AUX	_	4	cop	_	_
+3	um	um	DET	DET	_	4	det	_	_
+4	jogo	jogo	NOUN	NOUN	_	0	root	_	_
+5	importantíssimo	importante	ADJ	ADJ	_	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	.	_	8	punct	_	_
+7	porque	_	CCONJ	CONJ	_	8	mark	_	_
+8	queremos	querer	VERB	VERB	_	4	advcl	_	_
+9	nos	_	PRON	PRON	_	10	obj	_	_
+10	manter	manter	VERB	VERB	_	8	xcomp	_	_
+11	lá	lá	ADV	ADV	_	10	advmod	_	_
+12-13	na	_	_	_	_	_	_	_	_
+12	em	em	ADP	ADP	_	14	case	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	frente	frente	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s2820
+# text = Em seguida foi a vez do Daniel Solon (PSOL).
+1	Em	em	ADP	ADP	_	2	case	_	_
+2	seguida	_	NOUN	NOUN	_	3	nmod	_	_
+3	foi	_	VERB	VERB	_	0	root	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	vez	vez	NOUN	NOUN	_	3	nsubj	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Daniel	_	PROPN	PNOUN	_	5	nmod	_	_
+9	Solon	_	PROPN	PNOUN	_	8	flat	_	_
+10	(	(	PUNCT	.	_	11	punct	_	SpaceAfter=No
+11	PSOL	_	PROPN	PNOUN	_	8	appos	_	SpaceAfter=No
+12	)	)	PUNCT	.	_	11	punct	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = "Isso é uma mudança maior do que nós imaginávamos há 20 anos, ou mesmo há dez anos", diz Holmen.
+# sent_id = train-s2821
+1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+2	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	mudança	mudança	NOUN	_	Gender=Fem|Number=Sing	23	parataxis	_	_
+6	maior	maior	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	11	mark	_	_
+8	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	7	fixed	_	_
+9	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	7	fixed	_	_
+10	nós	nós	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
+11	imaginávamos	imaginar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	5	acl:relcl	_	_
+12	há	há	ADP	_	_	14	case	_	_
+13	20	20	NUM	_	NumType=Card	14	nummod	_	_
+14	anos	ano	NOUN	_	Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	ou	ou	CCONJ	_	_	18	cc	_	_
+17	mesmo	mesmo	ADV	_	_	18	advmod	_	_
+18	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+19	dez	dez	NUM	_	NumType=Card	20	nummod	_	_
+20	anos	ano	NOUN	_	Gender=Masc|Number=Plur	18	obj	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+24	Holmen	Holmen	PROPN	_	Gender=Masc|Number=Sing	23	nsubj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	23	punct	_	SpaceAfter=No
+
+# sent_id = train-s2822
+# text = Segundo reportagem da emissora de TV "WFAA", Christopher disse que tem sido atacado e alvo de brincadeiras desde que sua mulher foi detida.
+1	Segundo	_	ADP	ADP	_	2	case	_	_
+2	reportagem	reportagem	NOUN	NOUN	_	13	nmod	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	emissora	_	NOUN	NOUN	_	2	nmod	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
+7	TV	tv	NOUN	NOUN	_	5	nmod	_	_
+8	"	"	PUNCT	.	_	9	punct	_	SpaceAfter=No
+9	WFAA	_	PROPN	PNOUN	_	5	appos	_	SpaceAfter=No
+10	"	"	PUNCT	.	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	2	punct	_	_
+12	Christopher	_	PROPN	PNOUN	_	13	nsubj	_	_
+13	disse	dizer	VERB	VERB	_	0	root	_	_
+14	que	que	CCONJ	CONJ	_	17	mark	_	_
+15	tem	ter	AUX	AUX	_	17	aux	_	_
+16	sido	ser	AUX	AUX	_	17	aux:pass	_	_
+17	atacado	atacar	VERB	VERB	_	13	ccomp	_	_
+18	e	e	CCONJ	CONJ	_	19	cc	_	_
+19	alvo	alvo	NOUN	NOUN	_	17	conj	_	_
+20	de	de	ADP	ADP	_	21	case	_	_
+21	brincadeiras	brincadeira	NOUN	NOUN	_	19	nmod	_	_
+22	desde	_	ADP	ADP	_	27	mark	_	_
+23	que	_	CCONJ	CONJ	_	22	fixed	_	_
+24	sua	_	DET	DET	_	25	det:poss	_	_
+25	mulher	mulher	NOUN	NOUN	_	27	nsubj:pass	_	_
+26	foi	_	AUX	AUX	_	27	aux:pass	_	_
+27	detida	deter	VERB	VERB	_	17	advcl	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = train-s2823
+# text = 'Houve procura da Holanda, da Rússia e do futebol árabe.
+1	'	_	PUNCT	.	_	2	punct	_	SpaceAfter=No
+2	Houve	haver	VERB	VERB	_	0	root	_	_
+3	procura	procura	NOUN	NOUN	_	2	obj	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	ADP	_	6	case	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Holanda	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	10	punct	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	ADP	_	10	case	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Rússia	_	PROPN	PNOUN	_	6	conj	_	_
+11	e	e	CCONJ	CONJ	_	14	cc	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	ADP	_	14	case	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	futebol	futebol	NOUN	NOUN	_	6	conj	_	_
+15	árabe	árabe	ADJ	ADJ	_	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s2824
+# text = Em 1944 dirigiu Ethel Barrymore e Cary Grant no filme que deu à atriz o Oscar de melhor atriz coadjuvante, None But the Lonely Heart (exibido no Brasil como "Apenas um coração solitário").
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+1	Em	em	ADP	_	_	2	case	_	_
+2	1944	1944	NUM	_	NumType=Card	3	obl	_	_
+3	dirigiu	dirigir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	Ethel	Ethel	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	3	obj	_	_
+5	Barrymore	Barrymore	PROPN	_	Number=Sing	4	flat:name	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	Cary	Cary	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	4	conj	_	_
+8	Grant	Grant	PROPN	_	Number=Sing	7	flat:name	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	filme	filme	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+12	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	13	nsubj	_	_
+13	deu	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
+14-15	à	_	_	_	_	_	_	_	_
+14	a	a	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	atriz	atriz	NOUN	_	Gender=Fem|Number=Sing	13	iobj	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Oscar	oscar	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	melhor	melhor	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
+21	atriz	atriz	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+22	coadjuvante	coadjuvante	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	None	None	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	18	appos	_	_
+25	But	But	PROPN	_	Number=Sing	24	flat:name	_	_
+26	the	the	PROPN	_	Number=Sing	24	flat:name	_	_
+27	Lonely	Lonely	PROPN	_	Number=Sing	24	flat:name	_	_
+28	Heart	Heart	PROPN	_	Number=Sing	24	flat:name	_	_
+29	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
+30	exibido	exibir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	24	acl	_	_
+31-32	no	_	_	_	_	_	_	_	_
+31	em	em	ADP	_	_	33	case	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	Brasil	Brasil	PROPN	_	Gender=Masc|Number=Sing	30	obl	_	_
+34	como	como	ADP	_	_	38	case	_	_
+35	"	"	PUNCT	_	_	38	punct	_	SpaceAfter=No
+36	Apenas	apenas	ADV	_	_	38	advmod	_	_
+37	um	um	DET	_	Number=Sing	38	det	_	_
+38	coração	coração	NOUN	_	Number=Sing	30	obl	_	_
+39	solitário	solitário	ADJ	_	Gender=Masc|Number=Sing	38	amod	_	SpaceAfter=No
+40	"	"	PUNCT	_	_	38	punct	_	SpaceAfter=No
+41	)	)	PUNCT	_	_	30	punct	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+
+# sent_id = train-s2825
+# text = A companhia estabeleceu uma parceria com várias empresas indianas e com a Medicines Patent Pool, organização sem fins lucrativos que promove a fabricação de medicamentos genéricos.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	companhia	companhia	NOUN	NOUN	_	3	nsubj	_	_
+3	estabeleceu	estabelecer	VERB	VERB	_	0	root	_	_
+4	uma	um	DET	DET	_	5	det	_	_
+5	parceria	parceria	NOUN	NOUN	_	3	obj	_	_
+6	com	com	ADP	ADP	_	8	case	_	_
+7	várias	_	DET	DET	_	8	det	_	_
+8	empresas	empresa	NOUN	NOUN	_	5	nmod	_	_
+9	indianas	indiano	ADJ	ADJ	_	8	amod	_	_
+10	e	e	CCONJ	CONJ	_	13	cc	_	_
+11	com	com	ADP	ADP	_	13	case	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Medicines	_	PROPN	PNOUN	_	8	conj	_	_
+14	Patent	_	PROPN	PNOUN	_	13	flat	_	_
+15	Pool	_	PROPN	PNOUN	_	13	flat	_	SpaceAfter=No
+16	,	,	PUNCT	.	_	17	punct	_	_
+17	organização	organização	NOUN	NOUN	_	13	appos	_	_
+18	sem	_	ADP	ADP	_	19	case	_	_
+19	fins	fim	NOUN	NOUN	_	17	nmod	_	_
+20	lucrativos	lucrativo	ADJ	ADJ	_	19	amod	_	_
+21	que	_	PRON	PRON	_	22	nsubj	_	_
+22	promove	promover	VERB	VERB	_	17	acl:relcl	_	_
+23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	fabricação	fabricação	NOUN	NOUN	_	22	obj	_	_
+25	de	de	ADP	ADP	_	26	case	_	_
+26	medicamentos	medicamento	NOUN	NOUN	_	24	nmod	_	_
+27	genéricos	genérico	ADJ	ADJ	_	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s2826
+# text = Também nesta segunda, várias pessoas ficaram feridas num atentado cometido no bairro de Mazeh, oeste de Damasco, informou a televisão oficial síria, que atribuiu o ataque a terroristas.
+1	Também	também	ADV	ADV	_	3	advmod	_	_
+2	nesta	_	ADP	ADP	_	3	case	_	_
+3	segunda	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	várias	_	DET	DET	_	6	det	_	_
+6	pessoas	pessoa	NOUN	NOUN	_	7	nsubj	_	_
+7	ficaram	ficar	VERB	VERB	_	23	ccomp	_	_
+8	feridas	ferido	ADJ	ADJ	_	7	xcomp	_	_
+9-10	num	_	_	_	_	_	_	_	_
+9	em	em	ADP	ADP	_	11	case	_	_
+10	um	um	DET	DET	_	11	det	_	_
+11	atentado	atentado	NOUN	NOUN	_	7	nmod	_	_
+12	cometido	cometer	VERB	VERB	_	11	acl	_	_
+13-14	no	_	_	_	_	_	_	_	_
+13	em	em	ADP	ADP	_	15	case	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	bairro	bairro	NOUN	NOUN	_	12	nmod	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
+17	Mazeh	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	.	_	19	punct	_	_
+19	oeste	oeste	NOUN	NOUN	_	15	appos	_	_
+20	de	de	ADP	ADP	_	21	case	_	_
+21	Damasco	_	PROPN	PNOUN	_	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	.	_	23	punct	_	_
+23	informou	informar	VERB	VERB	_	0	root	_	_
+24	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	televisão	televisão	NOUN	NOUN	_	23	nsubj	_	_
+26	oficial	oficial	ADJ	ADJ	_	25	amod	_	_
+27	síria	sírio	ADJ	ADJ	_	25	amod	_	SpaceAfter=No
+28	,	,	PUNCT	.	_	30	punct	_	_
+29	que	_	PRON	PRON	_	30	nsubj	_	_
+30	atribuiu	atribuir	VERB	VERB	_	25	acl:relcl	_	_
+31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	ataque	ataque	NOUN	NOUN	_	30	obj	_	_
+33	a	_	ADP	ADP	_	34	case	_	_
+34	terroristas	terrorista	NOUN	NOUN	_	30	iobj	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	23	punct	_	_
+
+# sent_id = train-s2827
+# text = Isso acontece direto lá.
+1	Isso	_	PRON	PRON	_	2	nsubj	_	_
+2	acontece	acontecer	VERB	VERB	_	0	root	_	_
+3	direto	direto	ADV	ADV	_	2	advmod	_	_
+4	lá	lá	ADV	ADV	_	2	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s2828
+# text = Ted Boy Marino faleceu dia 27 de setembro, era o mocinho das lutas de telecatch nas décadas de 1960 e 1970.
+1	Ted	_	PROPN	PNOUN	_	4	nsubj	_	_
+2	Boy	_	PROPN	PNOUN	_	1	flat	_	_
+3	Marino	_	PROPN	PNOUN	_	1	flat	_	_
+4	faleceu	falecer	VERB	VERB	_	0	root	_	_
+5	dia	dia	NOUN	NOUN	_	4	nmod	_	_
+6	27	27	NUM	NUM	NumType=Card	5	appos	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
+8	setembro	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	12	punct	_	_
+10	era	_	AUX	AUX	_	12	cop	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	mocinho	moço	NOUN	NOUN	_	4	conj	_	_
+13-14	das	_	_	_	_	_	_	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
+14	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	lutas	luta	NOUN	NOUN	_	12	nmod	_	_
+16	de	de	ADP	ADP	_	17	case	_	_
+17	telecatch	_	NOUN	NOUN	_	15	nmod	_	_
+18-19	nas	_	_	_	_	_	_	_	_
+18	em	em	ADP	ADP	_	20	case	_	_
+19	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	décadas	década	NOUN	NOUN	_	12	nmod	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
+22	1960	1960	NUM	NUM	NumType=Card	20	nmod	_	_
+23	e	e	CCONJ	CONJ	_	24	cc	_	_
+24	1970	1970	NUM	NUM	NumType=Card	22	conj	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	4	punct	_	_
+

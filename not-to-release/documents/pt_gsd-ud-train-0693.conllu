@@ -1,0 +1,323 @@
+# sent_id = train-s6877
+# text = Durante os dias passados na instituição paulista indicada por um juiz, as crianças e a mãe receberam o acompanhamento de psicólogos e assistentes sociais a fim de reforçar os vínculos familiares.
+1	Durante	_	ADP	ADP	_	3	case	_	_
+2	os	o	DET	DET	_	3	det	_	_
+3	dias	dia	NOUN	NOUN	_	19	nmod	_	_
+4	passados	passar	VERB	VERB	_	3	acl	_	_
+5-6	na	_	_	_	_	_	_	_	_
+5	em	em	ADP	ADP	_	7	case	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	instituição	instituição	NOUN	NOUN	_	4	nmod	_	_
+8	paulista	paulista	ADJ	ADJ	_	7	amod	_	_
+9	indicada	indicar	VERB	VERB	_	7	acl	_	_
+10	por	por	ADP	ADP	_	12	case	_	_
+11	um	um	DET	DET	_	12	det	_	_
+12	juiz	juiz	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	.	_	3	punct	_	_
+14	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	crianças	criança	NOUN	NOUN	_	19	nsubj	_	_
+16	e	e	CCONJ	CONJ	_	18	cc	_	_
+17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	mãe	mãe	NOUN	NOUN	_	15	conj	_	_
+19	receberam	receber	VERB	VERB	_	0	root	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	acompanhamento	acompanhamento	NOUN	NOUN	_	19	obj	_	_
+22	de	de	ADP	ADP	_	23	case	_	_
+23	psicólogos	psicólogo	NOUN	NOUN	_	21	nmod	_	_
+24	e	e	CCONJ	CONJ	_	25	cc	_	_
+25	assistentes	assistente	NOUN	NOUN	_	23	conj	_	_
+26	sociais	social	ADJ	ADJ	_	25	amod	_	_
+27	a	_	ADP	ADP	_	30	mark	_	_
+28	fim	fim	NOUN	NOUN	_	27	fixed	_	_
+29	de	_	ADP	ADP	_	27	fixed	_	_
+30	reforçar	reforçar	VERB	VERB	_	19	advcl	_	_
+31	os	o	DET	DET	_	32	det	_	_
+32	vínculos	vínculo	NOUN	NOUN	_	30	obj	_	_
+33	familiares	familiar	ADJ	ADJ	_	32	amod	_	SpaceAfter=No
+34	.	.	PUNCT	.	_	19	punct	_	_
+
+# sent_id = train-s6878
+# text = "Hoje a formação de tecnólogos é maior que a de bacharelados.
+1	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
+2	Hoje	hoje	ADV	ADV	_	7	advmod	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	formação	formação	NOUN	NOUN	_	7	nsubj	_	_
+5	de	de	ADP	ADP	_	6	case	_	_
+6	tecnólogos	tecnólogo	NOUN	NOUN	_	4	nmod	_	_
+7	é	ser	VERB	VERB	_	0	root	_	_
+8	maior	maior	ADJ	ADJ	_	7	xcomp	_	_
+9	que	_	ADP	ADP	_	10	case	_	_
+10	a	_	PRON	PRON	_	7	nmod	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
+12	bacharelados	bacharelado	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	7	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Pela denúncia do Ministério Público, o mensalão foi um esquema montado no governo do ex - presidente Luiz Inácio Lula da Silva para comprar apoio de parlamentares e para saldar dívidas de campanha com dinheiro não contabilizado, o chamado caixa 2.
+# sent_id = train-s6879
+1-2	Pela	_	_	_	_	_	_	_	_
+1	Por	por	ADP	_	_	3	case	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	denúncia	denúncia	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Ministério	Ministério	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	3	nmod	_	_
+7	Público	Público	PROPN	_	Number=Sing	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	3	punct	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	mensalão	mensalão	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+11	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+12	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	esquema	esquema	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+14	montado	montar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	13	acl	_	_
+15-16	no	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	governo	governo	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	22	case	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+20	ex	ex	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
+21	-	-	PUNCT	_	_	22	punct	_	_
+22	presidente	presidente	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+23	Luiz	Luiz	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	22	appos	_	_
+24	Inácio	Inácio	PROPN	_	Number=Sing	23	flat:name	_	_
+25	Lula	Lula	PROPN	_	Number=Sing	23	flat:name	_	_
+26-27	da	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Silva	Silva	PROPN	_	Number=Sing	23	nmod	_	_
+29	para	para	SCONJ	_	_	30	mark	_	_
+30	comprar	comprar	VERB	_	VerbForm=Inf	14	advcl	_	_
+31	apoio	apoio	NOUN	_	Gender=Masc|Number=Sing	30	obj	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	parlamentares	parlamentar	NOUN	_	Gender=Masc|Number=Plur	31	nmod	_	_
+34	e	e	CCONJ	_	_	36	cc	_	_
+35	para	para	SCONJ	_	_	36	mark	_	_
+36	saldar	saldar	VERB	_	VerbForm=Inf	30	conj	_	_
+37	dívidas	dívida	NOUN	_	Gender=Fem|Number=Plur	36	obj	_	_
+38	de	de	ADP	_	_	39	case	_	_
+39	campanha	campanha	NOUN	_	Gender=Fem|Number=Sing	37	nmod	_	_
+40	com	com	ADP	_	_	41	case	_	_
+41	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	36	obl	_	_
+42	não	não	ADV	_	Polarity=Neg	43	advmod	_	_
+43	contabilizado	contabilizar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	41	acl	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	47	punct	_	_
+45	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+46	chamado	chamado	ADJ	_	Gender=Masc|Number=Sing	47	amod	_	_
+47	caixa	caixa	NOUN	_	Gender=Masc|Number=Sing	41	appos	_	_
+48	2	2	NUM	_	NumType=Card	47	nummod	_	SpaceAfter=No
+49	.	.	PUNCT	_	_	13	punct	_	SpaceAfter=No
+
+# sent_id = train-s6880
+# text = Num contra - ataque rápido, Lenílson avançou pelo lado direito do ataque e cruzou muito alto, não encontrando o companheiro de equipe que esperava, livre, dentro da área.
+1-2	Num	_	_	_	_	_	_	_	_
+1	Em	em	ADP	ADP	_	3	case	_	_
+2	um	um	DET	DET	_	3	det	_	_
+3	contra	contra	NOUN	NOUN	_	9	nmod	_	_
+4	-	-	PUNCT	.	_	3	punct	_	_
+5	ataque	ataque	NOUN	NOUN	_	3	flat	_	_
+6	rápido	rápido	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	3	punct	_	_
+8	Lenílson	_	PROPN	PNOUN	_	9	nsubj	_	_
+9	avançou	avançar	VERB	VERB	_	0	root	_	_
+10-11	pelo	_	_	_	_	_	_	_	_
+10	por	por	ADP	ADP	_	12	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	lado	lado	NOUN	NOUN	_	9	nmod	_	_
+13	direito	direito	NOUN	NOUN	_	12	amod	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	ADP	_	16	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	ataque	ataque	NOUN	NOUN	_	12	nmod	_	_
+17	e	e	CCONJ	CONJ	_	18	cc	_	_
+18	cruzou	cruzar	VERB	VERB	_	9	conj	_	_
+19	muito	muito	ADV	ADV	_	20	advmod	_	_
+20	alto	alto	ADV	ADV	_	18	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	.	_	23	punct	_	_
+22	não	não	ADV	ADV	Polarity=Neg	23	advmod	_	_
+23	encontrando	encontrar	VERB	VERB	_	18	acl	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	companheiro	companheiro	NOUN	NOUN	_	23	obj	_	_
+26	de	de	ADP	ADP	_	27	case	_	_
+27	equipe	equipe	NOUN	NOUN	_	25	nmod	_	_
+28	que	_	PRON	PRON	_	29	nsubj	_	_
+29	esperava	esperar	VERB	VERB	_	25	acl:relcl	_	SpaceAfter=No
+30	,	,	PUNCT	.	_	31	punct	_	_
+31	livre	livre	ADJ	ADJ	_	29	xcomp	_	SpaceAfter=No
+32	,	,	PUNCT	.	_	31	punct	_	_
+33	dentro	dentro	ADV	ADV	_	29	advmod	_	_
+34-35	da	_	_	_	_	_	_	_	_
+34	de	de	ADP	ADP	_	36	case	_	_
+35	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	área	área	NOUN	NOUN	_	33	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = train-s6881
+# text = O Figueirense está na 17 ª posição, com oito pontos e apenas uma vitória nas dez primeiras rodadas.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Figueirense	_	PROPN	PNOUN	_	3	nsubj	_	_
+3	está	estar	VERB	VERB	_	0	root	_	_
+4-5	na	_	_	_	_	_	_	_	_
+4	em	em	ADP	ADP	_	8	case	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+6	17	_	ADJ	ADJ	_	8	amod	_	_
+7	ª	_	PUNCT	.	_	6	punct	_	_
+8	posição	posição	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	12	punct	_	_
+10	com	com	ADP	ADP	_	12	case	_	_
+11	oito	_	NUM	NUM	NumType=Card	12	nummod	_	_
+12	pontos	ponto	NOUN	NOUN	_	3	nmod	_	_
+13	e	e	CCONJ	CONJ	_	16	cc	_	_
+14	apenas	apenas	ADV	ADV	_	15	advmod	_	_
+15	uma	_	NUM	NUM	NumType=Card	16	nummod	_	_
+16	vitória	vitória	NOUN	NOUN	_	12	conj	_	_
+17-18	nas	_	_	_	_	_	_	_	_
+17	em	em	ADP	ADP	_	21	case	_	_
+18	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+19	dez	_	NUM	NUM	NumType=Card	21	nummod	_	_
+20	primeiras	primeiro	ADJ	ADJ	_	21	amod	_	_
+21	rodadas	_	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s6882
+# text = Os acusados estão envolvidos em diversos crimes, como roubo, homicídio, tráfico de drogas, furto e cárcere privado.
+1	Os	o	DET	DET	_	2	det	_	_
+2	acusados	acusado	NOUN	NOUN	_	3	nsubj	_	_
+3	estão	estar	VERB	VERB	_	0	root	_	_
+4	envolvidos	envolvido	ADJ	ADJ	_	3	xcomp	_	_
+5	em	em	ADP	ADP	_	7	case	_	_
+6	diversos	_	DET	DET	_	7	det	_	_
+7	crimes	crime	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	10	punct	_	_
+9	como	como	ADP	ADP	_	10	case	_	_
+10	roubo	roubo	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	12	punct	_	_
+12	homicídio	homicídio	NOUN	NOUN	_	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	.	_	14	punct	_	_
+14	tráfico	tráfico	NOUN	NOUN	_	10	conj	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
+16	drogas	droga	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	.	_	18	punct	_	_
+18	furto	furto	NOUN	NOUN	_	10	conj	_	_
+19	e	e	CCONJ	CONJ	_	20	cc	_	_
+20	cárcere	cárcere	NOUN	NOUN	_	10	conj	_	_
+21	privado	privado	ADJ	ADJ	_	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s6883
+# text = No entanto, vale ressaltar que tons claros expandem visualmente e, por isso, as mulheres gordinhas devem evitá - los.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	ADP	_	3	case	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	entanto	entanto	ADV	ADV	_	5	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	vale	_	VERB	VERB	_	0	root	_	_
+6	ressaltar	ressaltar	VERB	VERB	_	5	csubj	_	_
+7	que	que	CCONJ	CONJ	_	10	mark	_	_
+8	tons	_	PROPN	PNOUN	_	10	nsubj	_	_
+9	claros	claro	ADJ	ADJ	_	8	amod	_	_
+10	expandem	expandir	VERB	VERB	_	6	ccomp	_	_
+11	visualmente	visualmente	ADV	ADV	_	10	advmod	_	_
+12	e	e	CCONJ	CONJ	_	21	cc	_	SpaceAfter=No
+13	,	,	PUNCT	.	_	15	punct	_	_
+14	por	por	ADP	ADP	_	15	case	_	_
+15	isso	_	PRON	PRON	_	21	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	.	_	15	punct	_	_
+17	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	mulheres	mulher	NOUN	NOUN	_	21	nsubj	_	_
+19	gordinhas	_	ADJ	ADJ	_	18	amod	_	_
+20	devem	_	AUX	AUX	_	21	aux	_	_
+21	evitá	evitar	VERB	VERB	_	10	conj	_	_
+22	-	-	PUNCT	.	_	21	punct	_	_
+23	los	_	PRON	PRON	_	21	obj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s6884
+# text = O objetivo de jogo é acabar com as minhocas do (s) oponente (s) e não há regras.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	objetivo	objetivo	NOUN	NOUN	_	0	root	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
+4	jogo	jogo	NOUN	NOUN	_	2	nmod	_	_
+5	é	ser	AUX	AUX	_	2	cop	_	_
+6	acabar	acabar	VERB	VERB	_	2	csubj	_	_
+7	com	com	ADP	ADP	_	9	case	_	_
+8	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	minhocas	_	NOUN	NOUN	_	6	nmod	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	ADP	_	15	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+12	(	(	PUNCT	.	_	13	punct	_	SpaceAfter=No
+13	s	_	PART	PRT	_	15	dep	_	SpaceAfter=No
+14	)	)	PUNCT	.	_	13	punct	_	_
+15	oponente	oponente	NOUN	NOUN	_	9	nmod	_	_
+16	(	(	PUNCT	.	_	17	punct	_	SpaceAfter=No
+17	s	_	PART	PRT	_	15	appos	_	SpaceAfter=No
+18	)	)	PUNCT	.	_	17	punct	_	_
+19	e	e	CCONJ	CONJ	_	21	cc	_	_
+20	não	não	ADV	ADV	Polarity=Neg	21	advmod	_	_
+21	há	haver	VERB	VERB	_	2	conj	_	_
+22	regras	regra	NOUN	NOUN	_	21	obj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s6885a
+# text = O problema é quando falamos duma pessoa que trabalha com a imagem, e que construiu seu legado pelo menos em parte, em cima disso ....
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	problema	problema	NOUN	NOUN	_	3	nsubj	_	_
+3	é	ser	VERB	VERB	_	0	root	_	_
+4	quando	_	CCONJ	CONJ	_	5	mark	_	_
+5	falamos	_	VERB	VERB	_	3	advcl	_	_
+6-7	duma	_	_	_	_	_	_	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	uma	um	DET	DET	_	8	det	_	_
+8	pessoa	pessoa	NOUN	NOUN	_	5	nmod	_	_
+9	que	_	PRON	PRON	_	10	nsubj	_	_
+10	trabalha	trabalhar	VERB	VERB	_	8	acl:relcl	_	_
+11	com	com	ADP	ADP	_	13	case	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	imagem	imagem	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	17	punct	_	_
+15	e	e	CCONJ	CONJ	_	17	cc	_	_
+16	que	_	PRON	PRON	_	17	nsubj	_	_
+17	construiu	construir	VERB	VERB	_	10	conj	_	_
+18	seu	_	DET	DET	_	19	det:poss	_	_
+19	legado	legado	NOUN	NOUN	_	17	obj	_	_
+20-21	pelo	_	_	_	_	_	_	_	_
+20	por	por	ADP	ADP	_	22	case	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	menos	menos	ADV	ADV	_	24	nmod	_	_
+23	em	em	ADP	ADP	_	24	case	_	_
+24	parte	parte	NOUN	NOUN	_	17	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	.	_	27	punct	_	_
+26	em	em	ADP	ADP	_	27	case	_	_
+27	cima	cima	NOUN	NOUN	_	17	nmod	_	_
+28	disso	_	X	ADPPRON	_	27	nmod	_	_
+29	....	_	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s6885b
+# text = Alguém de vocês lembra da Mariah gorda cantando 'Hero', 'Emotios', 'Heartbreaker'?
+1	Alguém	_	PRON	PRON	_	4	nsubj	_	_
+2	de	de	ADP	ADP	_	3	case	_	_
+3	vocês	_	PRON	PRON	_	1	nmod	_	_
+4	lembra	lembrar	VERB	VERB	_	0	root	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	ADP	_	7	case	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Mariah	_	PROPN	PNOUN	_	4	nmod	_	_
+8	gorda	gordo	ADJ	ADJ	_	7	amod	_	_
+9	cantando	cantar	VERB	VERB	_	7	acl	_	_
+10	'	_	PUNCT	.	_	11	punct	_	SpaceAfter=No
+11	Hero	_	PROPN	PNOUN	_	9	obj	_	SpaceAfter=No
+12	'	_	PUNCT	.	_	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	.	_	11	punct	_	_
+14	'	_	PUNCT	.	_	15	punct	_	SpaceAfter=No
+15	Emotios	_	PROPN	PNOUN	_	11	appos	_	SpaceAfter=No
+16	'	_	PUNCT	.	_	15	punct	_	SpaceAfter=No
+17	,	,	PUNCT	.	_	11	punct	_	_
+18	'	_	PUNCT	.	_	19	punct	_	SpaceAfter=No
+19	Heartbreaker	_	PROPN	PNOUN	_	11	appos	_	SpaceAfter=No
+20	'	_	PUNCT	.	_	19	punct	_	SpaceAfter=No
+21	?	?	PUNCT	.	_	4	punct	_	_
+

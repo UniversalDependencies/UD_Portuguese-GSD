@@ -1,0 +1,305 @@
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = O sonho se tornou realidade.
+# sent_id = train-s5032
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sonho	sonho	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+4	tornou	tornar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	realidade	realidade	NOUN	_	Gender=Fem|Number=Sing	4	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Não tem superado o custo por unidade desta próxima geração de Veículos Aéreos Não Tripulados (Unmanned Aerial Vehicle, UAV), ainda que se conheça que os atuais Reaper e Sky Warrior valem 22 milhões de dólares a peça.
+# sent_id = train-s5033
+1	Não	não	ADV	_	Polarity=Neg	3	advmod	_	_
+2	tem	ter	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	superado	superar	VERB	_	VerbForm=Part	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	custo	custo	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	por	por	ADP	_	_	7	case	_	_
+7	unidade	unidade	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+8-9	desta	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	11	case	_	_
+9	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+10	próxima	próximo	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+11	geração	geração	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Veículos	Veículos	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Plur	11	nmod	_	_
+14	Aéreos	Aéreos	PROPN	_	Number=Sing	13	flat:name	_	_
+15	Não	não	ADV	_	Polarity=Neg	13	advmod	_	_
+16	Tripulados	Tripulados	PROPN	_	Number=Sing	13	flat:name	_	_
+17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	Unmanned	Unmanned	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	13	appos	_	_
+19	Aerial	Aerial	PROPN	_	Number=Sing	18	flat:name	_	_
+20	Vehicle	Vehicle	PROPN	_	Number=Sing	18	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	UAV	UAV	PROPN	_	Gender=Fem|Number=Sing	18	appos	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	3	punct	_	_
+25	ainda	ainda	ADV	_	ExtPos=SCONJ	28	mark	_	_
+26	que	que	SCONJ	_	_	25	fixed	_	_
+27	se	se	PRON	_	Case=Acc|PronType=Prs	28	nsubj	_	_
+28	conheça	conhecer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+29	que	que	SCONJ	_	_	36	mark	_	_
+30	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+31	atuais	atual	ADJ	_	Gender=Masc|Number=Plur	32	amod	_	_
+32	Reaper	Reaper	PROPN	_	Gender=Masc|Number=Sing	36	nsubj	_	_
+33	e	e	CCONJ	_	_	34	cc	_	_
+34	Sky	Sky	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	32	conj	_	_
+35	Warrior	Warrior	PROPN	_	Number=Sing	34	flat:name	_	_
+36	valem	valer	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	ccomp	_	_
+37	22	22	NUM	_	NumType=Card	36	obj	_	_
+38	milhões	milhão	NUM	_	NumType=Card	37	flat	_	_
+39	de	de	ADP	_	_	40	case	_	_
+40	dólares	dólar	NOUN	_	Gender=Masc|Number=Plur	37	nmod	_	_
+41	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	peça	peça	NOUN	_	Gender=Fem|Number=Sing	36	obj	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+
+# sent_id = train-s5034
+# text = "Temos qualidade.
+1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
+2	Temos	ter	VERB	VERB	_	0	root	_	_
+3	qualidade	qualidade	NOUN	NOUN	_	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s5035
+# text = Estes dão a vantagem de salvar o progresso mesmo que o jogo ou o sistema não dê suporte a tal.
+1	Estes	_	PRON	PRON	_	2	nsubj	_	_
+2	dão	dar	VERB	VERB	_	0	root	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	vantagem	vantagem	NOUN	NOUN	_	2	obj	_	_
+5	de	_	ADP	ADP	_	6	mark	_	_
+6	salvar	salvar	VERB	VERB	_	4	nmod	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	progresso	progresso	NOUN	NOUN	_	6	obj	_	_
+9	mesmo	mesmo	ADV	ADV	_	17	mark	_	_
+10	que	_	CCONJ	CONJ	_	9	fixed	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	jogo	jogo	NOUN	NOUN	_	17	nsubj	_	_
+13	ou	ou	CCONJ	CONJ	_	15	cc	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	sistema	sistema	NOUN	NOUN	_	12	conj	_	_
+16	não	não	ADV	ADV	Polarity=Neg	17	advmod	_	_
+17	dê	dar	VERB	VERB	_	2	advcl	_	_
+18	suporte	suporte	NOUN	NOUN	_	17	obj	_	_
+19	a	_	ADP	ADP	_	20	case	_	_
+20	tal	_	PRON	PRON	_	17	iobj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = ZURIQUE, 14 Set (Reuters) -- Oslo é a cidade mais cara do mundo, à frente de Zurique e Tóquio, mas os moradores bem remunerados do centro financeiro suíço possuem o melhor poder de compra, de acordo com um estudo divulgado nesta sexta-feira.
+# sent_id = train-s5036
+1	ZURIQUE	ZURIQUE	PROPN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	4	punct	_	_
+3	14	14	NUM	_	NumType=Card	4	nummod	_	_
+4	Set	Set	PROPN	_	Gender=Masc|Number=Plur	1	appos	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	Reuters	Reuters	PROPN	_	Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	--	--	PUNCT	_	_	12	punct	_	_
+9	Oslo	Oslo	PROPN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+10	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	cidade	cidade	NOUN	_	Gender=Fem|Number=Sing	1	parataxis	_	_
+13	mais	mais	ADV	_	_	14	advmod	_	_
+14	cara	caro	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	21	punct	_	_
+19-20	à	_	_	_	_	_	_	_	_
+19	a	a	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	frente	frente	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	Zurique	Zurique	PROPN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+24	e	e	CCONJ	_	_	25	cc	_	_
+25	Tóquio	Tóquio	PROPN	_	Number=Sing	23	conj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	37	punct	_	_
+27	mas	mas	CCONJ	_	_	37	cc	_	_
+28	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	moradores	morador	NOUN	_	Gender=Masc|Number=Plur	37	nsubj	_	_
+30	bem	bem	ADV	_	_	31	advmod	_	_
+31	remunerados	remunerar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	29	acl	_	_
+32-33	do	_	_	_	_	_	_	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	centro	centro	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
+35	financeiro	financeiro	ADJ	_	Gender=Masc|Number=Sing	34	amod	_	_
+36	suíço	suíço	ADJ	_	Gender=Masc|Number=Sing	34	amod	_	_
+37	possuem	possuir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+38	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+39	melhor	melhor	ADJ	_	Gender=Masc|Number=Sing	40	amod	_	_
+40	poder	poder	NOUN	_	Gender=Masc|Number=Sing	37	obj	_	_
+41	de	de	ADP	_	_	42	case	_	_
+42	compra	compra	NOUN	_	Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	45	punct	_	_
+44	de	de	ADP	_	_	45	case	_	_
+45	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	37	obl	_	_
+46	com	com	ADP	_	_	48	case	_	_
+47	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	estudo	estudo	NOUN	_	Gender=Masc|Number=Sing	45	nmod	_	_
+49	divulgado	divulgar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	48	acl	_	_
+50-51	nesta	_	_	_	_	_	_	_	_
+50	em	em	ADP	_	_	52	case	_	_
+51	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	52	det	_	_
+52	sexta-feira	sexta-feira	NOUN	_	Gender=Fem|Number=Sing	49	obl	_	SpaceAfter=No
+53	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = train-s5037
+# text = Segundo ele, a dificuldade inicial foi desenvolver um sistema que permitisse armazenar a energia produzida durante o dia para ser também utilizada à noite.
+1	Segundo	_	ADP	ADP	_	2	case	_	_
+2	ele	_	PRON	PRON	_	5	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	.	_	2	punct	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	dificuldade	dificuldade	NOUN	NOUN	_	0	root	_	_
+6	inicial	inicial	ADJ	ADJ	_	5	amod	_	_
+7	foi	_	AUX	AUX	_	5	cop	_	_
+8	desenvolver	desenvolver	VERB	VERB	_	5	csubj	_	_
+9	um	um	DET	DET	_	10	det	_	_
+10	sistema	sistema	NOUN	NOUN	_	8	obj	_	_
+11	que	_	PRON	PRON	_	12	nsubj	_	_
+12	permitisse	permitir	VERB	VERB	_	10	acl:relcl	_	_
+13	armazenar	armazenar	VERB	VERB	_	12	xcomp	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	energia	energia	NOUN	NOUN	_	13	obj	_	_
+16	produzida	produzir	VERB	VERB	_	15	acl	_	_
+17	durante	_	ADP	ADP	_	19	case	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	dia	dia	NOUN	NOUN	_	16	nmod	_	_
+20	para	_	ADP	ADP	_	23	mark	_	_
+21	ser	ser	AUX	AUX	_	23	aux:pass	_	_
+22	também	também	ADV	ADV	_	23	advmod	_	_
+23	utilizada	utilizar	VERB	VERB	_	13	advcl	_	_
+24-25	à	_	_	_	_	_	_	_	_
+24	a	a	ADP	ADP	_	26	case	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	noite	noite	NOUN	NOUN	_	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s5038
+# text = Foi integrante do grupo Fundo de Quintal e um de seus principais compositores e letristas.
+1	Foi	_	AUX	AUX	_	2	cop	_	_
+2	integrante	_	NOUN	NOUN	_	0	root	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	grupo	grupo	NOUN	NOUN	_	2	nmod	_	_
+6	Fundo	_	PROPN	PNOUN	_	5	appos	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
+8	Quintal	_	PROPN	PNOUN	_	6	nmod	_	_
+9	e	e	CCONJ	CONJ	_	10	cc	_	_
+10	um	_	PRON	PRON	_	2	conj	_	_
+11	de	de	ADP	ADP	_	14	case	_	_
+12	seus	_	DET	DET	_	14	det:poss	_	_
+13	principais	principal	ADJ	ADJ	_	14	amod	_	_
+14	compositores	compositor	NOUN	NOUN	_	10	nmod	_	_
+15	e	e	CCONJ	CONJ	_	16	cc	_	_
+16	letristas	letrista	NOUN	NOUN	_	14	conj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Um ataque mais sangrento com um foguete palestino poderia ser suficiente para que Netanyahu autorizasse uma ofensiva terrestres, apesar dos riscos políticos que podem decorrer caso Israel sofra um número elevado de baixas.
+# sent_id = train-s5039
+1	Um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ataque	ataque	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	mais	mais	ADV	_	_	4	advmod	_	_
+4	sangrento	sangrento	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+5	com	com	ADP	_	_	7	case	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	foguete	foguete	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+8	palestino	palestino	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+9	poderia	poder	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+10	ser	ser	AUX	_	VerbForm=Inf	11	cop	_	_
+11	suficiente	suficiente	ADJ	_	Gender=Masc|Number=Sing	9	xcomp	_	_
+12	para	para	SCONJ	_	_	15	mark	_	_
+13	que	que	SCONJ	_	_	15	mark	_	_
+14	Netanyahu	Netanyahu	PROPN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+15	autorizasse	autorizar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	advcl	_	_
+16	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	ofensiva	ofensiva	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+18	terrestres	terrestre	ADJ	_	Gender=Fem|Number=Plur	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	23	punct	_	_
+20	apesar	apesar	ADV	_	ExtPos=ADP	23	case	_	_
+21-22	dos	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	20	fixed	_	_
+22	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	riscos	risco	NOUN	_	Gender=Masc|Number=Plur	15	obl	_	_
+24	políticos	político	ADJ	_	Gender=Masc|Number=Plur	23	amod	_	_
+25	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	26	nsubj	_	_
+26	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+27	decorrer	decorrer	VERB	_	VerbForm=Inf	26	xcomp	_	_
+28	caso	caso	SCONJ	_	_	30	mark	_	_
+29	Israel	Israel	PROPN	_	Gender=Masc|Number=Sing	30	nsubj	_	_
+30	sofra	sofrer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	advcl	_	_
+31	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	número	número	NOUN	_	Gender=Masc|Number=Sing	30	obj	_	_
+33	elevado	elevado	ADJ	_	Gender=Masc|Number=Sing	32	amod	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	baixas	baixa	NOUN	_	Gender=Fem|Number=Plur	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = train-s5040
+# text = Seu grande feito, no entanto, veio no comando da seleção brasileira.
+1	Seu	_	DET	DET	_	3	det:poss	_	_
+2	grande	grande	ADJ	ADJ	_	3	amod	_	_
+3	feito	feito	NOUN	NOUN	_	9	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	7	punct	_	_
+5-6	no	_	_	_	_	_	_	_	_
+5	em	em	ADP	ADP	_	7	case	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	entanto	_	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	7	punct	_	_
+9	veio	_	VERB	VERB	_	0	root	_	_
+10-11	no	_	_	_	_	_	_	_	_
+10	em	em	ADP	ADP	_	12	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	comando	comando	NOUN	NOUN	_	9	nmod	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	seleção	seleção	NOUN	NOUN	_	12	nmod	_	_
+16	brasileira	brasileiro	ADJ	ADJ	_	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = train-s5041
+# text = No dia 6 de abril do mesmo ano, o Cruzeiro inaugurou os refletores do estádio, num empate contra o Santa Cruz.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	ADP	_	3	case	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	dia	dia	NOUN	NOUN	_	14	nmod	_	_
+4	6	6	NUM	NUM	NumType=Card	3	nmod	_	_
+5	de	de	ADP	ADP	_	6	case	_	_
+6	abril	_	PROPN	PNOUN	_	4	nmod	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	ADP	_	10	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	mesmo	mesmo	ADJ	ADJ	_	10	amod	_	_
+10	ano	ano	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	3	punct	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Cruzeiro	_	PROPN	PNOUN	_	14	nsubj	_	_
+14	inaugurou	inaugurar	VERB	VERB	_	0	root	_	_
+15	os	o	DET	DET	_	16	det	_	_
+16	refletores	_	NOUN	NOUN	_	14	obj	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	ADP	_	19	case	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	estádio	estádio	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	.	_	23	punct	_	_
+21-22	num	_	_	_	_	_	_	_	_
+21	em	em	ADP	ADP	_	23	case	_	_
+22	um	um	DET	DET	_	23	det	_	_
+23	empate	empate	NOUN	NOUN	_	14	nmod	_	_
+24	contra	_	ADP	ADP	_	27	case	_	_
+25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	Santa	_	PROPN	PNOUN	_	27	amod	_	_
+27	Cruz	_	PROPN	PNOUN	_	23	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	14	punct	_	_
+

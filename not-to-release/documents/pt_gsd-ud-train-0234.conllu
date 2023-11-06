@@ -1,0 +1,330 @@
+# sent_id = train-s2323
+# text = Em 2010, o número de óbitos subiu para 151.
+1	Em	em	ADP	ADP	_	2	case	_	_
+2	2010	2010	NUM	NUM	NumType=Card	8	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	.	_	2	punct	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	número	número	NOUN	NOUN	_	8	nsubj	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
+7	óbitos	óbito	NOUN	NOUN	_	5	nmod	_	_
+8	subiu	subir	VERB	VERB	_	0	root	_	_
+9	para	para	ADP	ADP	_	10	case	_	_
+10	151	151	NUM	NUM	NumType=Card	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s2324
+# text = O que criou a expectativa de que ele ficaria em liberdade ao longo do mês.
+1	O	o	DET	DET	_	2	det	_	_
+2	que	_	PRON	PRON	_	3	nsubj	_	_
+3	criou	criar	VERB	VERB	_	0	root	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	expectativa	expectativa	NOUN	NOUN	_	3	obj	_	_
+6	de	_	ADP	ADP	_	9	mark	_	_
+7	que	que	CCONJ	CONJ	_	9	mark	_	_
+8	ele	_	PRON	PRON	_	9	nsubj	_	_
+9	ficaria	ficar	VERB	VERB	_	5	nmod	_	_
+10	em	em	ADP	ADP	_	11	case	_	_
+11	liberdade	liberdade	NOUN	NOUN	_	9	nmod	_	_
+12-13	ao	_	_	_	_	_	_	_	_
+12	a	a	ADP	ADP	_	14	case	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	longo	longo	NOUN	NOUN	_	9	nmod	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	mês	mês	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s2325
+# text = A gente já passou por outras experiências, não só essa no Cruzeiro.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	gente	gente	NOUN	NOUN	_	4	nsubj	_	_
+3	já	já	ADV	ADV	_	4	advmod	_	_
+4	passou	passar	VERB	VERB	_	0	root	_	_
+5	por	por	ADP	ADP	_	7	case	_	_
+6	outras	_	DET	DET	_	7	det	_	_
+7	experiências	experiência	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	11	punct	_	_
+9	não	não	ADV	ADV	Polarity=Neg	10	advmod	_	_
+10	só	só	ADV	ADV	_	11	advmod	_	_
+11	essa	_	PRON	PRON	_	4	conj	_	_
+12-13	no	_	_	_	_	_	_	_	_
+12	em	em	ADP	ADP	_	14	case	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Cruzeiro	_	PROPN	PNOUN	_	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Segundo o "TMZ", ela está prestes a ser acusada de mentir para a polícia, depois do acidente que sofreu na Pacific Coast Highway em junho deste ano.
+# sent_id = train-s2326
+1	Segundo	segundo	ADP	_	_	4	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	TMZ	TMZ	PROPN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	4	punct	_	_
+7	ela	ela	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	prestes	prestes	ADJ	_	_	0	root	_	_
+10	a	a	SCONJ	_	_	12	mark	_	_
+11	ser	ser	AUX	_	VerbForm=Inf	12	aux:pass	_	_
+12	acusada	acusar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	9	xcomp	_	_
+13	de	de	SCONJ	_	_	14	mark	_	_
+14	mentir	mentir	VERB	_	VerbForm=Inf	12	xcomp	_	_
+15	para	para	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	polícia	polícia	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	14	punct	_	_
+19	depois	depois	ADV	_	_	14	advmod	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	acidente	acidente	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
+23	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	24	nsubj	_	_
+24	sofreu	sofrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	acl:relcl	_	_
+25-26	na	_	_	_	_	_	_	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	Pacific	Pacific	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	24	obl	_	_
+28	Coast	Coast	PROPN	_	Number=Sing	27	flat:name	_	_
+29	Highway	Highway	PROPN	_	Number=Sing	27	flat:name	_	_
+30	em	em	ADP	_	_	31	case	_	_
+31	junho	junho	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	_
+32-33	deste	_	_	_	_	_	_	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	34	det	_	_
+34	ano	ano	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = De acordo com a vítima do roubo ocorrido em Porto Velho durante o dia, dois homens a renderam, levando a mesma até um lixão, a amarram e subtraíram o veículo.
+# sent_id = train-s2327
+1	De	de	ADP	_	_	2	case	_	_
+2	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
+3	com	com	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	vítima	vítima	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	roubo	roubo	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9	ocorrido	ocorrer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	8	acl	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	Porto	Porto	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	9	obl	_	_
+12	Velho	Velho	PROPN	_	Number=Sing	11	flat:name	_	_
+13	durante	durante	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	dia	dia	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	9	punct	_	_
+17	dois	dois	NUM	_	NumType=Card	18	nummod	_	_
+18	homens	homem	NOUN	_	Gender=Masc|Number=Plur	20	nsubj	_	_
+19	a	ela	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+20	renderam	render	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	levando	levar	VERB	_	VerbForm=Ger	20	advcl	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	mesma	mesmo	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	22	obj	_	_
+25	até	até	ADP	_	_	27	case	_	_
+26	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	lixão	lixão	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	30	punct	_	_
+29	a	ela	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	obj	_	_
+30	amarram	amarrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	22	conj	_	_
+31	e	e	CCONJ	_	_	32	cc	_	_
+32	subtraíram	subtrair	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	30	conj	_	_
+33	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	veículo	veículo	NOUN	_	Gender=Masc|Number=Sing	32	obj	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	20	punct	_	SpaceAfter=No
+
+# sent_id = train-s2328
+# text = A farmacêutica também tem um outro acordo com a Fiocruz -- no caso, com a unidade Biomanguinhos -- desde 2010 para produção da vacina pneumocócica conjugada.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	farmacêutica	farmacêutico	NOUN	NOUN	_	4	nsubj	_	_
+3	também	também	ADV	ADV	_	4	advmod	_	_
+4	tem	ter	VERB	VERB	_	0	root	_	_
+5	um	um	DET	DET	_	7	det	_	_
+6	outro	_	DET	DET	_	7	det	_	_
+7	acordo	acordo	NOUN	NOUN	_	4	obj	_	_
+8	com	com	ADP	ADP	_	10	case	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Fiocruz	_	PROPN	PNOUN	_	7	nmod	_	_
+11	--	_	PUNCT	.	_	18	punct	_	_
+12-13	no	_	_	_	_	_	_	_	_
+12	em	em	ADP	ADP	_	14	case	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	caso	caso	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	.	_	14	punct	_	_
+16	com	com	ADP	ADP	_	18	case	_	_
+17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	unidade	unidade	NOUN	NOUN	_	10	conj	_	_
+19	Biomanguinhos	_	PROPN	PNOUN	_	18	appos	_	_
+20	--	_	PUNCT	.	_	18	punct	_	_
+21	desde	_	ADP	ADP	_	22	case	_	_
+22	2010	2010	NUM	NUM	NumType=Card	4	nmod	_	_
+23	para	para	ADP	ADP	_	24	case	_	_
+24	produção	produção	NOUN	NOUN	_	7	nmod	_	_
+25-26	da	_	_	_	_	_	_	_	_
+25	de	de	ADP	ADP	_	27	case	_	_
+26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	vacina	vacina	NOUN	NOUN	_	24	nmod	_	_
+28	pneumocócica	pneumocócico	ADJ	ADJ	_	27	amod	_	_
+29	conjugada	conjugar	VERB	VERB	_	27	acl	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	4	punct	_	_
+
+# text = Foi apenas e tão - somente tirada uma sujeira --- devido à grande visibilidade --- duma Casa onde há todo tipo de falcatrua.
+# sent_id = train-s2329
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+2	apenas	apenas	ADV	_	_	7	advmod	_	_
+3	e	e	CCONJ	_	_	4	cc	_	_
+4	tão	tão	ADV	_	_	2	conj	_	_
+5	-	-	PUNCT	_	_	7	punct	_	_
+6	somente	somente	ADV	_	_	7	advmod	_	_
+7	tirada	tirar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	_
+8	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	sujeira	sujeira	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+10	---	---	PUNCT	_	_	11	punct	_	_
+11	devido	devido	ADV	_	_	7	advmod	_	_
+12-13	à	_	_	_	_	_	_	_	_
+12	a	a	ADP	_	_	15	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	grande	grande	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+15	visibilidade	visibilidade	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+16	---	---	PUNCT	_	_	19	punct	_	_
+17-18	duma	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Casa	Casa	PROPN	_	Gender=Fem|Number=Sing	15	nmod	_	_
+20	onde	onde	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	21	obl	_	_
+21	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+22	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Tot	23	det	_	_
+23	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	falcatrua	falcatrua	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = train-s2330
+# text = Batalha de Dilam (1903) -- 410 mortes.
+1	Batalha	_	PROPN	PNOUN	_	0	root	_	_
+2	de	de	ADP	ADP	_	3	case	_	_
+3	Dilam	_	PROPN	PNOUN	_	1	nmod	_	_
+4	(	(	PUNCT	.	_	5	punct	_	SpaceAfter=No
+5	1903	1903	NUM	NUM	NumType=Card	1	nmod	_	SpaceAfter=No
+6	)	)	PUNCT	.	_	5	punct	_	_
+7	--	_	PUNCT	.	_	9	punct	_	_
+8	410	410	NUM	NUM	NumType=Card	9	nummod	_	_
+9	mortes	morte	NOUN	NOUN	_	1	appos	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s2331
+# text = Mesmo que a radioterapia elimine a maioria das células cancerígenas por danificar o DNA e a induzi - las à morte, as poucas restantes podem sofrer mutações que as tornam imunes aos efeitos da radiação e aumentam sua capacidade de se reproduzir.
+1	Mesmo	mesmo	ADV	ADV	_	5	mark	_	_
+2	que	_	CCONJ	CONJ	_	1	fixed	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	radioterapia	radioterapia	NOUN	NOUN	_	5	nsubj	_	_
+5	elimine	eliminar	VERB	VERB	_	29	advcl	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	maioria	maioria	NOUN	NOUN	_	5	obj	_	_
+8-9	das	_	_	_	_	_	_	_	_
+8	de	de	ADP	ADP	_	10	case	_	_
+9	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	células	célula	NOUN	NOUN	_	7	nmod	_	_
+11	cancerígenas	cancerígeno	ADJ	ADJ	_	10	amod	_	_
+12	por	_	ADP	ADP	_	13	mark	_	_
+13	danificar	danificar	VERB	VERB	_	5	advcl	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	DNA	_	NOUN	NOUN	_	13	obj	_	_
+16	e	e	CCONJ	CONJ	_	18	cc	_	_
+17	a	o	DET	DET	_	18	det	_	_
+18	induzi	induzir	VERB	VERB	_	13	conj	_	_
+19	-	-	PUNCT	.	_	18	punct	_	_
+20	las	_	PRON	PRON	_	18	obj	_	_
+21-22	à	_	_	_	_	_	_	_	_
+21	a	a	ADP	ADP	_	23	case	_	_
+22	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	morte	morte	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	.	_	5	punct	_	_
+25	as	o	DET	DET	_	26	det	_	_
+26	poucas	_	PRON	PRON	_	29	nsubj	_	_
+27	restantes	restante	ADJ	ADJ	_	26	amod	_	_
+28	podem	_	AUX	AUX	_	29	aux	_	_
+29	sofrer	sofrer	VERB	VERB	_	0	root	_	_
+30	mutações	mutação	NOUN	NOUN	_	29	obj	_	_
+31	que	_	PRON	PRON	_	33	nsubj	_	_
+32	as	_	PRON	PRON	_	34	nsubj	_	_
+33	tornam	tornar	VERB	VERB	_	30	acl:relcl	_	_
+34	imunes	imune	ADJ	ADJ	_	33	xcomp	_	_
+35-36	aos	_	_	_	_	_	_	_	_
+35	a	a	ADP	ADP	_	37	case	_	_
+36	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+37	efeitos	efeito	NOUN	NOUN	_	34	nmod	_	_
+38-39	da	_	_	_	_	_	_	_	_
+38	de	de	ADP	ADP	_	40	case	_	_
+39	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	radiação	radiação	NOUN	NOUN	_	37	nmod	_	_
+41	e	e	CCONJ	CONJ	_	42	cc	_	_
+42	aumentam	aumentar	VERB	VERB	_	33	conj	_	_
+43	sua	_	DET	DET	_	44	det:poss	_	_
+44	capacidade	capacidade	NOUN	NOUN	_	42	obj	_	_
+45	de	_	ADP	ADP	_	47	mark	_	_
+46	se	_	PRON	PRON	_	47	obj	_	_
+47	reproduzir	reproduzir	VERB	VERB	_	44	nmod	_	SpaceAfter=No
+48	.	.	PUNCT	.	_	29	punct	_	_
+
+# sent_id = train-s2332
+# text = López Obrador já havia denunciado irregularidades e pedido a recontagem dos votos, afirmando que mais de 5 milhões de votos foram "comprados" pelo Partido Revolucionário Institucional (PRI), que elegeu Enrique Peña Nieto presidente com 38,21 % dos votos.
+1	López	_	PROPN	PNOUN	_	5	nsubj	_	_
+2	Obrador	_	PROPN	PNOUN	_	1	flat	_	_
+3	já	já	ADV	ADV	_	5	advmod	_	_
+4	havia	haver	AUX	AUX	_	5	aux	_	_
+5	denunciado	denunciar	VERB	VERB	_	0	root	_	_
+6	irregularidades	irregularidade	NOUN	NOUN	_	5	obj	_	_
+7	e	e	CCONJ	CONJ	_	8	cc	_	_
+8	pedido	pedir	VERB	VERB	_	5	conj	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	recontagem	recontagem	NOUN	NOUN	_	8	obj	_	_
+11-12	dos	_	_	_	_	_	_	_	_
+11	de	de	ADP	ADP	_	13	case	_	_
+12	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	votos	voto	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	15	punct	_	_
+15	afirmando	afirmar	VERB	VERB	_	5	acl	_	_
+16	que	que	CCONJ	CONJ	_	25	mark	_	_
+17	mais	mais	ADV	ADV	_	20	advmod	_	_
+18	de	de	ADP	ADP	_	17	case	_	_
+19	5	5	NUM	NUM	NumType=Card	20	nummod	_	_
+20	milhões	_	NUM	NUM	NumType=Card	22	nummod	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
+22	votos	voto	NOUN	NOUN	_	25	nsubj:pass	_	_
+23	foram	_	AUX	AUX	_	25	aux:pass	_	_
+24	"	"	PUNCT	.	_	25	punct	_	SpaceAfter=No
+25	comprados	comprar	VERB	VERB	_	15	ccomp	_	SpaceAfter=No
+26	"	"	PUNCT	.	_	25	punct	_	_
+27-28	pelo	_	_	_	_	_	_	_	_
+27	por	por	ADP	ADP	_	29	case	_	_
+28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	Partido	_	PROPN	PNOUN	_	25	nmod	_	_
+30	Revolucionário	_	PROPN	PNOUN	_	29	amod	_	_
+31	Institucional	_	PROPN	PNOUN	_	29	amod	_	_
+32	(	(	PUNCT	.	_	33	punct	_	SpaceAfter=No
+33	PRI	_	PROPN	PNOUN	_	29	appos	_	SpaceAfter=No
+34	)	)	PUNCT	.	_	33	punct	_	SpaceAfter=No
+35	,	,	PUNCT	.	_	37	punct	_	_
+36	que	_	PRON	PRON	_	37	nsubj	_	_
+37	elegeu	eleger	VERB	VERB	_	29	acl:relcl	_	_
+38	Enrique	_	PROPN	PNOUN	_	41	nsubj	_	_
+39	Peña	_	PROPN	PNOUN	_	38	flat	_	_
+40	Nieto	_	PROPN	PNOUN	_	38	flat	_	_
+41	presidente	presidente	NOUN	NOUN	_	37	xcomp	_	_
+42	com	com	ADP	ADP	_	44	case	_	_
+43	38,21	38,21	NUM	NUM	NumType=Card	44	nummod	_	_
+44	%	_	SYM	SYM	_	37	nmod	_	_
+45-46	dos	_	_	_	_	_	_	_	_
+45	de	de	ADP	ADP	_	47	case	_	_
+46	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	47	det	_	_
+47	votos	voto	NOUN	NOUN	_	44	nmod	_	SpaceAfter=No
+48	.	.	PUNCT	.	_	5	punct	_	_
+

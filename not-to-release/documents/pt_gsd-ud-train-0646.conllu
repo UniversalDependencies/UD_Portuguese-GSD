@@ -1,0 +1,258 @@
+# sent_id = train-s6412
+# text = Por conta disso, a seleção dos candidatos começa ainda neste ano.
+1	Por	_	ADP	ADP	_	10	nmod	_	_
+2	conta	conta	NOUN	NOUN	_	1	fixed	_	_
+3	disso	_	X	ADPPRON	_	1	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	1	punct	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	seleção	seleção	NOUN	NOUN	_	10	nsubj	_	_
+7-8	dos	_	_	_	_	_	_	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
+8	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	candidatos	candidato	NOUN	NOUN	_	6	nmod	_	_
+10	começa	_	VERB	VERB	_	0	root	_	_
+11	ainda	ainda	ADV	ADV	_	13	advmod	_	_
+12	neste	_	ADP	ADP	_	13	case	_	_
+13	ano	ano	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	10	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Além disso, o banco central alemão divulgou uma nota em que reforçou a sua posição contrária às compras de títulos públicos, o que também foi mal recebido pelos investidores e fez as bolsas no exterior, que até então estavam em alta, inverterem o sinal.
+# sent_id = train-s6413
+1	Além	além	ADV	_	ExtPos=CCONJ	3	cc	_	_
+2-3	disso	_	_	_	_	_	_	_	SpaceAfter=No
+2	de	de	ADP	_	_	1	fixed	_	_
+3	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	9	obl	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	banco	banco	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+7	central	central	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+8	alemão	alemão	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+9	divulgou	divulgar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	nota	nota	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12	em	em	ADP	_	_	13	case	_	_
+13	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	14	obl	_	_
+14	reforçou	reforçar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	sua	seu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	17	det	_	_
+17	posição	posição	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+18	contrária	contrário	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
+19-20	às	_	_	_	_	_	_	_	_
+19	a	a	ADP	_	_	21	case	_	_
+20	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	compras	compra	NOUN	_	Gender=Fem|Number=Plur	17	nmod	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	títulos	título	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	_
+24	públicos	público	ADJ	_	Gender=Masc|Number=Plur	23	amod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	14	punct	_	_
+26	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	14	appos	_	_
+27	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	31	nsubj:pass	_	_
+28	também	também	ADV	_	_	31	advmod	_	_
+29	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	aux:pass	_	_
+30	mal	mal	ADV	_	_	31	advmod	_	_
+31	recebido	receber	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	26	acl:relcl	_	_
+32-33	pelos	_	_	_	_	_	_	_	_
+32	por	por	ADP	_	_	34	case	_	_
+33	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	investidores	investidor	NOUN	_	Gender=Masc|Number=Plur	31	obl:agent	_	_
+35	e	e	CCONJ	_	_	36	cc	_	_
+36	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	conj	_	_
+37	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	38	det	_	_
+38	bolsas	bolsa	NOUN	_	Gender=Fem|Number=Plur	36	obj	_	_
+39-40	no	_	_	_	_	_	_	_	_
+39	em	em	ADP	_	_	41	case	_	_
+40	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	exterior	exterior	NOUN	_	Gender=Masc|Number=Sing	38	nmod	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	48	punct	_	_
+43	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	48	nsubj	_	_
+44	até	até	ADP	_	_	45	case	_	_
+45	então	então	ADV	_	_	48	advmod	_	_
+46	estavam	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	48	cop	_	_
+47	em	em	ADP	_	_	48	case	_	_
+48	alta	alta	NOUN	_	Gender=Fem|Number=Sing	38	nmod	_	SpaceAfter=No
+49	,	,	PUNCT	_	_	48	punct	_	_
+50	inverterem	inverter	VERB	_	Number=Plur|Person=3|VerbForm=Inf	38	acl:relcl	_	_
+51	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+52	sinal	sinal	NOUN	_	Gender=Masc|Number=Sing	50	obj	_	SpaceAfter=No
+53	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = train-s6414
+# text = , questiona Danilo Fraga, produtor do Teatro da Vila, espaço cultural onde grande parte da programação é financiada pela sede do público.
+1	,	,	PUNCT	.	_	2	punct	_	_
+2	questiona	questionar	VERB	VERB	_	0	root	_	_
+3	Danilo	_	PROPN	PNOUN	_	2	nsubj	_	_
+4	Fraga	_	PROPN	PNOUN	_	3	flat	_	SpaceAfter=No
+5	,	,	PUNCT	.	_	6	punct	_	_
+6	produtor	produtor	NOUN	NOUN	_	3	appos	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Teatro	_	PROPN	PNOUN	_	6	nmod	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	ADP	_	12	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Vila	_	PROPN	PNOUN	_	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	.	_	14	punct	_	_
+14	espaço	espaço	NOUN	NOUN	_	9	appos	_	_
+15	cultural	cultural	ADJ	ADJ	_	14	amod	_	_
+16	onde	onde	ADV	ADV	_	23	advmod	_	_
+17	grande	grande	ADJ	ADJ	_	18	amod	_	_
+18	parte	parte	NOUN	NOUN	_	23	nsubj:pass	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	ADP	_	21	case	_	_
+20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	programação	programação	NOUN	NOUN	_	18	nmod	_	_
+22	é	ser	AUX	AUX	_	23	aux:pass	_	_
+23	financiada	financiar	VERB	VERB	_	14	acl:relcl	_	_
+24-25	pela	_	_	_	_	_	_	_	_
+24	por	por	ADP	ADP	_	26	case	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	sede	sede	NOUN	NOUN	_	23	nmod	_	_
+27-28	do	_	_	_	_	_	_	_	_
+27	de	de	ADP	ADP	_	29	case	_	_
+28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	público	público	NOUN	NOUN	_	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s6415
+# text = Ao valor da indenização devem ser acrescidos juros de 1 % ao mês, a partir da citação inicial e correção monetária, com a presente decisão.
+1-2	Ao	_	_	_	_	_	_	_	_
+1	A	a	ADP	ADP	_	3	case	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	valor	valor	NOUN	NOUN	_	9	iobj	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	ADP	_	6	case	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	indenização	indenização	NOUN	NOUN	_	3	nmod	_	_
+7	devem	_	AUX	AUX	_	9	aux	_	_
+8	ser	ser	AUX	AUX	_	9	aux:pass	_	_
+9	acrescidos	acrescer	VERB	VERB	_	0	root	_	_
+10	juros	juro	NOUN	NOUN	_	9	nsubj:pass	_	_
+11	de	de	ADP	ADP	_	13	case	_	_
+12	1	1	NUM	NUM	NumType=Card	13	nummod	_	_
+13	%	_	SYM	SYM	_	10	nmod	_	_
+14-15	ao	_	_	_	_	_	_	_	_
+14	a	a	ADP	ADP	_	16	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	mês	mês	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	.	_	19	punct	_	_
+18	a	_	ADP	ADP	_	19	mark	_	_
+19	partir	partir	VERB	VERB	_	9	nmod	_	_
+20-21	da	_	_	_	_	_	_	_	_
+20	de	de	ADP	ADP	_	22	case	_	_
+21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	citação	citação	NOUN	NOUN	_	19	nmod	_	_
+23	inicial	inicial	ADJ	ADJ	_	22	amod	_	_
+24	e	e	CCONJ	CONJ	_	25	cc	_	_
+25	correção	correção	NOUN	NOUN	_	22	conj	_	_
+26	monetária	monetário	ADJ	ADJ	_	25	amod	_	SpaceAfter=No
+27	,	,	PUNCT	.	_	31	punct	_	_
+28	com	com	ADP	ADP	_	31	case	_	_
+29	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+30	presente	presente	ADJ	ADJ	_	31	amod	_	_
+31	decisão	decisão	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = train-s6416
+# text = "Na verdade, esta negociação não teve uma continuidade.
+1	"	"	PUNCT	.	_	9	punct	_	SpaceAfter=No
+2-3	Na	_	_	_	_	_	_	_	_
+2	Em	em	ADP	ADP	_	4	case	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	verdade	verdade	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	.	_	4	punct	_	_
+6	esta	_	DET	DET	_	7	det	_	_
+7	negociação	negociação	NOUN	NOUN	_	9	nsubj	_	_
+8	não	não	ADV	ADV	Polarity=Neg	9	advmod	_	_
+9	teve	ter	VERB	VERB	_	0	root	_	_
+10	uma	um	DET	DET	_	11	det	_	_
+11	continuidade	continuidade	NOUN	NOUN	_	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = train-s6417
+# text = Sua "beleza real".
+1	Sua	_	DET	DET	_	3	det:poss	_	_
+2	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
+3	beleza	beleza	NOUN	NOUN	_	0	root	_	_
+4	real	real	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
+5	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s6418
+# text = A Grécia foi o primeiro beneficiário, seguido por Irlanda e Portugal.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Grécia	_	PROPN	PNOUN	_	6	nsubj	_	_
+3	foi	_	AUX	AUX	_	6	cop	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	primeiro	primeiro	ADJ	ADJ	_	6	amod	_	_
+6	beneficiário	beneficiário	NOUN	NOUN	_	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	8	punct	_	_
+8	seguido	seguir	VERB	VERB	_	6	acl	_	_
+9	por	por	ADP	ADP	_	10	case	_	_
+10	Irlanda	_	PROPN	PNOUN	_	8	nmod	_	_
+11	e	e	CCONJ	CONJ	_	12	cc	_	_
+12	Portugal	_	PROPN	PNOUN	_	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s6419
+# text = -- Este é um momento muito especial na minha carreira.
+1	--	_	PUNCT	.	_	5	punct	_	_
+2	Este	_	PRON	PRON	_	5	nsubj	_	_
+3	é	ser	AUX	AUX	_	5	cop	_	_
+4	um	um	DET	DET	_	5	det	_	_
+5	momento	momento	NOUN	NOUN	_	0	root	_	_
+6	muito	muito	ADV	ADV	_	7	advmod	_	_
+7	especial	especial	ADJ	ADJ	_	5	amod	_	_
+8-9	na	_	_	_	_	_	_	_	_
+8	em	em	ADP	ADP	_	11	case	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	minha	_	DET	DET	_	11	det:poss	_	_
+11	carreira	_	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s6420
+# text = Cada testemunha é questionada pelo juiz, pelo promotor e pelos advogados de todos os réus.
+1	Cada	_	DET	DET	_	2	det	_	_
+2	testemunha	testemunha	NOUN	NOUN	_	4	nsubj:pass	_	_
+3	é	ser	AUX	AUX	_	4	aux:pass	_	_
+4	questionada	questionar	VERB	VERB	_	0	root	_	_
+5-6	pelo	_	_	_	_	_	_	_	_
+5	por	por	ADP	ADP	_	7	case	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	juiz	juiz	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	11	punct	_	_
+9-10	pelo	_	_	_	_	_	_	_	_
+9	por	por	ADP	ADP	_	11	case	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	promotor	promotor	NOUN	NOUN	_	7	conj	_	_
+12	e	e	CCONJ	CONJ	_	15	cc	_	_
+13-14	pelos	_	_	_	_	_	_	_	_
+13	por	por	ADP	ADP	_	15	case	_	_
+14	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	advogados	advogado	NOUN	NOUN	_	7	conj	_	_
+16	de	de	ADP	ADP	_	19	case	_	_
+17	todos	_	DET	DET	_	19	det	_	_
+18	os	o	DET	DET	_	19	det	_	_
+19	réus	réu	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s6421
+# text = Em nossa edição de amanhã, a previsão de jogos para a nona rodada.
+1	Em	em	ADP	ADP	_	3	case	_	_
+2	nossa	_	DET	DET	_	3	det:poss	_	_
+3	edição	edição	NOUN	NOUN	_	8	nmod	_	_
+4	de	_	ADP	ADP	_	5	mark	_	_
+5	amanhã	amanhã	ADV	ADV	_	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	.	_	3	punct	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	previsão	previsão	NOUN	NOUN	_	0	root	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
+10	jogos	jogo	NOUN	NOUN	_	8	nmod	_	_
+11	para	para	ADP	ADP	_	14	case	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	nona	_	ADJ	ADJ	_	14	amod	_	_
+14	rodada	_	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	8	punct	_	_
+

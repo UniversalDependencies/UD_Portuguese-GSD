@@ -1,0 +1,256 @@
+# sent_id = test-s1075
+# text = Não vou sair desse itinerário.
+1	Não	não	ADV	ADV	Polarity=Neg	3	advmod	_	_
+2	vou	ir	AUX	AUX	_	3	aux	_	_
+3	sair	sair	VERB	VERB	_	0	root	_	_
+4	desse	_	ADP	ADP	_	5	case	_	_
+5	itinerário	itinerário	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = test-s1076
+# text = Grande jogo.
+1	Grande	grande	ADJ	ADJ	_	2	amod	_	_
+2	jogo	jogo	NOUN	NOUN	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = test-s1077
+# text = Ela não é utilizada como defesa pessoal, como nas artes marciais, por exemplo.
+1	Ela	_	PRON	PRON	_	4	nsubj:pass	_	_
+2	não	não	ADV	ADV	Polarity=Neg	4	advmod	_	_
+3	é	ser	AUX	AUX	_	4	aux:pass	_	_
+4	utilizada	utilizar	VERB	VERB	_	0	root	_	_
+5	como	como	ADP	ADP	_	6	case	_	_
+6	defesa	_	NOUN	NOUN	_	4	nmod	_	_
+7	pessoal	pessoal	ADJ	ADJ	_	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	9	punct	_	_
+9	como	_	ADP	ADP	_	6	nmod	_	_
+10-11	nas	_	_	_	_	_	_	_	_
+10	em	em	ADP	ADP	_	12	case	_	_
+11	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	artes	arte	NOUN	NOUN	_	9	nmod	_	_
+13	marciais	marcial	ADJ	ADJ	_	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	16	punct	_	_
+15	por	por	ADP	ADP	_	16	case	_	_
+16	exemplo	exemplo	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = test-s1078
+# text = Numa final o juiz dá um pênalti desse.
+1	Numa	_	ADP	ADP	_	2	case	_	_
+2	final	final	NOUN	NOUN	_	5	nmod	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	juiz	juiz	NOUN	NOUN	_	5	nsubj	_	_
+5	dá	dar	VERB	VERB	_	0	root	_	_
+6	um	um	DET	DET	_	7	det	_	_
+7	pênalti	pênalti	NOUN	NOUN	_	5	obj	_	_
+8	desse	_	X	ADPPRON	_	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = test-s1079
+# text = 14 % da população está abaixo dos 6 anos de idade.
+1	14	14	NUM	NUM	NumType=Card	2	nummod	_	_
+2	%	_	SYM	SYM	_	6	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	população	população	NOUN	NOUN	_	2	nmod	_	_
+6	está	estar	VERB	VERB	_	0	root	_	_
+7	abaixo	abaixo	ADV	ADV	_	6	advmod	_	_
+8-9	dos	_	_	_	_	_	_	_	_
+8	de	de	ADP	ADP	_	11	case	_	_
+9	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	6	6	NUM	NUM	NumType=Card	11	nummod	_	_
+11	anos	ano	NOUN	NOUN	_	7	nmod	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
+13	idade	idade	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	6	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Os que mais sofreram foram o musical Nice Work If You Can Get It e a peça Grace, com queda de 50 % na bilheteria em relação a semana anterior, de acordo com dados divulgados pela Broadway League, uma associação de produtores e donos de teatros.
+# sent_id = test-s1080
+1	Os	o	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	7	nsubj	_	_
+2	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	4	nsubj	_	_
+3	mais	mais	ADV	_	_	4	advmod	_	_
+4	sofreram	sofrer	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	1	acl:relcl	_	_
+5	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	musical	musical	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+8	Nice	Nice	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	7	appos	_	_
+9	Work	Work	PROPN	_	Number=Sing	8	flat:name	_	_
+10	If	If	PROPN	_	Number=Sing	8	flat:name	_	_
+11	You	You	PROPN	_	Number=Sing	8	flat:name	_	_
+12	Can	Can	PROPN	_	Number=Sing	8	flat:name	_	_
+13	Get	Get	PROPN	_	Number=Sing	8	flat:name	_	_
+14	It	It	PROPN	_	Number=Sing	8	flat:name	_	_
+15	e	e	CCONJ	_	_	17	cc	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	peça	peça	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
+18	Grace	Grace	PROPN	_	Gender=Fem|Number=Sing	17	appos	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	21	punct	_	_
+20	com	com	ADP	_	_	21	case	_	_
+21	queda	queda	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	50	50	NUM	_	NumType=Card	24	nummod	_	_
+24	%	%	SYM	_	_	21	nmod	_	_
+25-26	na	_	_	_	_	_	_	_	_
+25	em	em	ADP	_	_	27	case	_	_
+26	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	bilheteria	bilheteria	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+28	em	em	ADP	_	_	29	case	_	_
+29	relação	relação	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+30	a	a	ADP	_	_	31	case	_	_
+31	semana	semana	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
+32	anterior	anterior	ADJ	_	Gender=Fem|Number=Sing	31	amod	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	35	punct	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	acordo	acordo	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+36	com	com	ADP	_	_	37	case	_	_
+37	dados	dado	NOUN	_	Gender=Masc|Number=Plur	35	nmod	_	_
+38	divulgados	divulgar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	37	acl	_	_
+39-40	pela	_	_	_	_	_	_	_	_
+39	por	por	ADP	_	_	41	case	_	_
+40	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	Broadway	Broadway	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	38	obl:agent	_	_
+42	League	League	PROPN	_	Number=Sing	41	flat:name	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	45	punct	_	_
+44	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	associação	associação	NOUN	_	Gender=Fem|Number=Sing	41	appos	_	_
+46	de	de	ADP	_	_	47	case	_	_
+47	produtores	produtor	NOUN	_	Gender=Masc|Number=Plur	45	nmod	_	_
+48	e	e	CCONJ	_	_	49	cc	_	_
+49	donos	dono	NOUN	_	Gender=Masc|Number=Plur	47	conj	_	_
+50	de	de	ADP	_	_	51	case	_	_
+51	teatros	teatro	NOUN	_	Gender=Masc|Number=Plur	49	nmod	_	SpaceAfter=No
+52	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = test-s1081
+# text = A General Motors também optou por um feirão na fábrica de São Caetano do Sul (SP), com direito a test drive.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	General	_	PROPN	PNOUN	_	3	amod	_	_
+3	Motors	_	PROPN	PNOUN	_	5	nsubj	_	_
+4	também	também	ADV	ADV	_	5	advmod	_	_
+5	optou	optar	VERB	VERB	_	0	root	_	_
+6	por	por	ADP	ADP	_	8	case	_	_
+7	um	um	DET	DET	_	8	det	_	_
+8	feirão	_	NOUN	NOUN	_	5	nmod	_	_
+9-10	na	_	_	_	_	_	_	_	_
+9	em	em	ADP	ADP	_	11	case	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	fábrica	fábrica	NOUN	NOUN	_	8	nmod	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
+13	São	_	PROPN	PNOUN	_	11	nmod	_	_
+14	Caetano	_	PROPN	PNOUN	_	13	flat	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	ADP	_	17	case	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Sul	_	PROPN	PNOUN	_	13	nmod	_	_
+18	(	(	PUNCT	.	_	19	punct	_	SpaceAfter=No
+19	SP	_	PROPN	PNOUN	_	13	appos	_	SpaceAfter=No
+20	)	)	PUNCT	.	_	19	punct	_	SpaceAfter=No
+21	,	,	PUNCT	.	_	23	punct	_	_
+22	com	com	ADP	ADP	_	23	case	_	_
+23	direito	direito	NOUN	NOUN	_	8	nmod	_	_
+24	a	_	ADP	ADP	_	25	case	_	_
+25	test	_	NOUN	NOUN	_	23	nmod	_	_
+26	drive	drive	NOUN	NOUN	_	25	flat	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	5	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Cheguei até a comentar isso com o Ricardo Henriques (preparador físico) e o Flavio Tenius (preparador de goleiros), no banco.
+# sent_id = test-s1082
+1	Cheguei	chegar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	até	até	ADV	_	_	4	mark	_	_
+3	a	a	SCONJ	_	_	4	mark	_	_
+4	comentar	comentar	VERB	_	VerbForm=Inf	1	xcomp	_	_
+5	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	obj	_	_
+6	com	com	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Ricardo	Ricardo	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	4	obl	_	_
+9	Henriques	Henriques	PROPN	_	Number=Sing	8	flat:name	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	preparador	preparador	NOUN	_	Gender=Masc|Number=Sing	8	appos	_	_
+12	físico	físico	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	11	punct	_	_
+14	e	e	CCONJ	_	_	16	cc	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Flavio	Flavio	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	8	conj	_	_
+17	Tenius	Tenius	PROPN	_	Number=Sing	16	flat:name	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	preparador	preparador	NOUN	_	Gender=Masc|Number=Sing	16	appos	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	goleiros	goleiro	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	26	punct	_	_
+24-25	no	_	_	_	_	_	_	_	_
+24	em	em	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	banco	banco	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = test-s1083
+# text = O acidente foi na madrugada de 23 de dezembro de 2008 na BR - 476 (antiga BR - 116), no Guabirotuba.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	acidente	acidente	NOUN	NOUN	_	3	nsubj	_	_
+3	foi	_	VERB	VERB	_	0	root	_	_
+4-5	na	_	_	_	_	_	_	_	_
+4	em	em	ADP	ADP	_	6	case	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	madrugada	madrugada	NOUN	NOUN	_	3	nmod	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
+8	23	23	NUM	NUM	NumType=Card	6	nmod	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
+10	dezembro	_	PROPN	PNOUN	_	8	nmod	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
+12	2008	2008	NUM	NUM	NumType=Card	10	nmod	_	_
+13-14	na	_	_	_	_	_	_	_	_
+13	em	em	ADP	ADP	_	15	case	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	BR	_	PROPN	PNOUN	_	3	nmod	_	_
+16	-	-	PUNCT	.	_	15	punct	_	_
+17	476	476	NUM	NUM	NumType=Card	15	appos	_	_
+18	(	(	PUNCT	.	_	20	punct	_	SpaceAfter=No
+19	antiga	antigo	ADJ	ADJ	_	20	amod	_	_
+20	BR	_	PROPN	PNOUN	_	15	appos	_	_
+21	-	-	PUNCT	.	_	20	punct	_	_
+22	116	116	NUM	NUM	NumType=Card	20	appos	_	SpaceAfter=No
+23	)	)	PUNCT	.	_	20	punct	_	SpaceAfter=No
+24	,	,	PUNCT	.	_	27	punct	_	_
+25-26	no	_	_	_	_	_	_	_	_
+25	em	em	ADP	ADP	_	27	case	_	_
+26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Guabirotuba	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = test-s1084
+# text = Já conglomerados de entretenimento como emissoras de TV, gravadoras, estúdios cinematográficos e editoras deram respaldo ao Sopa, cuja votação acabou sendo cancelada.
+1	Já	já	ADV	ADV	_	16	advmod	_	_
+2	conglomerados	conglomerado	NOUN	NOUN	_	16	nsubj	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
+4	entretenimento	entretenimento	NOUN	NOUN	_	2	nmod	_	_
+5	como	como	ADP	ADP	_	6	case	_	_
+6	emissoras	_	NOUN	NOUN	_	2	nmod	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
+8	TV	tv	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	10	punct	_	_
+10	gravadoras	_	NOUN	NOUN	_	6	conj	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	12	punct	_	_
+12	estúdios	estúdio	NOUN	NOUN	_	6	conj	_	_
+13	cinematográficos	cinematográfico	ADJ	ADJ	_	12	amod	_	_
+14	e	e	CCONJ	CONJ	_	15	cc	_	_
+15	editoras	_	NOUN	NOUN	_	6	conj	_	_
+16	deram	dar	VERB	VERB	_	0	root	_	_
+17	respaldo	respaldo	NOUN	NOUN	_	16	obj	_	_
+18-19	ao	_	_	_	_	_	_	_	_
+18	a	a	ADP	ADP	_	20	case	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Sopa	_	PROPN	PNOUN	_	16	iobj	_	SpaceAfter=No
+21	,	,	PUNCT	.	_	24	punct	_	_
+22	cuja	_	DET	DET	_	23	det	_	_
+23	votação	votação	NOUN	NOUN	_	24	nsubj:pass	_	_
+24	acabou	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	acl:relcl	_	_
+25	sendo	ser	AUX	_	VerbForm=Ger	26	aux:pass	_	_
+26	cancelada	cancelar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	24	xcomp	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	16	punct	_	_
+

@@ -1,0 +1,307 @@
+# sent_id = train-s8140
+# text = Não perca esta cena que vai ao ar no próximo sábado, dia 22 de dezembro.
+1	Não	não	ADV	ADV	Polarity=Neg	2	advmod	_	_
+2	perca	perder	VERB	VERB	_	0	root	_	_
+3	esta	_	DET	DET	_	4	det	_	_
+4	cena	cena	NOUN	NOUN	_	2	obj	_	_
+5	que	_	PRON	PRON	_	6	nsubj	_	_
+6	vai	ir	VERB	VERB	_	4	acl:relcl	_	_
+7-8	ao	_	_	_	_	_	_	_	_
+7	a	a	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	ar	ar	NOUN	NOUN	_	6	nmod	_	_
+10-11	no	_	_	_	_	_	_	_	_
+10	em	em	ADP	ADP	_	13	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	próximo	próximo	ADJ	ADJ	_	13	amod	_	_
+13	sábado	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	15	punct	_	_
+15	dia	dia	NOUN	NOUN	_	13	nmod	_	_
+16	22	22	NUM	NUM	NumType=Card	15	appos	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
+18	dezembro	_	PROPN	PNOUN	_	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Nova York -- Depois da trégua duma noite, em que o presidente Barack Obama e seu adversário republicano, Mitt Romney, trocaram piadinhas durante um jantar beneficente, os dois candidatos voltaram à arena, nesta sexta - feira, antes de começarem a preparação para seu terceiro e último debate, previsto para segunda - feira.
+# sent_id = train-s8141
+1	Nova	Nova	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	36	parataxis	_	_
+2	York	York	PROPN	_	Number=Sing	1	flat:name	_	_
+3	--	--	PUNCT	_	_	1	punct	_	_
+4	Depois	depois	ADV	_	_	36	advmod	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	trégua	trégua	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+8-9	duma	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	noite	noite	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	26	punct	_	_
+12	em	em	ADP	_	_	13	case	_	_
+13	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	26	obl	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	presidente	presidente	NOUN	_	Gender=Masc|Number=Sing	26	nsubj	_	_
+16	Barack	Barack	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	15	appos	_	_
+17	Obama	Obama	PROPN	_	Number=Sing	16	flat:name	_	_
+18	e	e	CCONJ	_	_	20	cc	_	_
+19	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	20	det	_	_
+20	adversário	adversário	NOUN	_	Gender=Masc|Number=Sing	15	conj	_	_
+21	republicano	republicano	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	Mitt	Mitt	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	20	appos	_	_
+24	Romney	Romney	PROPN	_	Number=Sing	23	flat:name	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	23	punct	_	_
+26	trocaram	trocar	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	7	acl:relcl	_	_
+27	piadinhas	piadinha	NOUN	_	Gender=Fem|Number=Plur	26	obj	_	_
+28	durante	durante	ADP	_	_	30	case	_	_
+29	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	jantar	jantar	NOUN	_	Gender=Masc|Number=Sing	26	obl	_	_
+31	beneficente	beneficente	ADJ	_	Gender=Masc|Number=Sing	30	amod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	26	punct	_	_
+33	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+34	dois	dois	NUM	_	NumType=Card	35	nummod	_	_
+35	candidatos	candidato	NOUN	_	Gender=Masc|Number=Plur	36	nsubj	_	_
+36	voltaram	voltar	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+37-38	à	_	_	_	_	_	_	_	_
+37	a	a	ADP	_	_	39	case	_	_
+38	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	arena	arena	NOUN	_	Gender=Fem|Number=Sing	36	obl	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	43	punct	_	_
+41-42	nesta	_	_	_	_	_	_	_	_
+41	em	em	ADP	_	_	43	case	_	_
+42	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	43	det	_	_
+43	sexta	sexta	NOUN	_	Gender=Fem|Number=Sing	36	obl	_	_
+44	-	-	PUNCT	_	_	45	punct	_	_
+45	feira	feira	NOUN	_	Gender=Fem|Number=Sing	43	appos	_	SpaceAfter=No
+46	,	,	PUNCT	_	_	49	punct	_	_
+47	antes	antes	ADV	_	ExtPos=SCONJ	49	mark	_	_
+48	de	de	ADP	_	_	47	fixed	_	_
+49	começarem	começar	VERB	_	Number=Plur|Person=3|VerbForm=Inf	36	advcl	_	_
+50	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
+51	preparação	preparação	NOUN	_	Gender=Fem|Number=Sing	49	obj	_	_
+52	para	para	ADP	_	_	57	case	_	_
+53	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	57	det	_	_
+54	terceiro	terceiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	57	amod	_	_
+55	e	e	CCONJ	_	_	56	cc	_	_
+56	último	último	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	54	conj	_	_
+57	debate	debate	NOUN	_	Gender=Masc|Number=Sing	51	nmod	_	SpaceAfter=No
+58	,	,	PUNCT	_	_	59	punct	_	_
+59	previsto	prever	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	57	acl	_	_
+60	para	para	ADP	_	_	61	case	_	_
+61	segunda	segunda	NOUN	_	Gender=Fem|Number=Sing	59	obl	_	_
+62	-	-	PUNCT	_	_	63	punct	_	_
+63	feira	feira	NOUN	_	Gender=Fem|Number=Sing	61	nmod	_	SpaceAfter=No
+64	.	.	PUNCT	_	_	36	punct	_	SpaceAfter=No
+
+# sent_id = train-s8142
+# text = As eleições gerais libanesas de 2009 foram realizadas em 7 de junho.
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	eleições	eleição	NOUN	NOUN	_	8	nsubj:pass	_	_
+3	gerais	geral	ADJ	ADJ	_	2	amod	_	_
+4	libanesas	libanês	ADJ	ADJ	_	2	amod	_	_
+5	de	de	ADP	ADP	_	6	case	_	_
+6	2009	2009	NUM	NUM	NumType=Card	2	nmod	_	_
+7	foram	_	AUX	AUX	_	8	aux:pass	_	_
+8	realizadas	realizar	VERB	VERB	_	0	root	_	_
+9	em	em	ADP	ADP	_	10	case	_	_
+10	7	7	NUM	NUM	NumType=Card	8	nmod	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
+12	junho	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s8143
+# text = Ainda há etapas previstas na França, Itália, Alemanha e Espanha.
+1	Ainda	ainda	ADV	ADV	_	2	advmod	_	_
+2	há	haver	VERB	VERB	_	0	root	_	_
+3	etapas	etapa	NOUN	NOUN	_	2	obj	_	_
+4	previstas	previsto	ADJ	ADJ	_	3	amod	_	_
+5-6	na	_	_	_	_	_	_	_	_
+5	em	em	ADP	ADP	_	7	case	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	França	_	PROPN	PNOUN	_	3	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	9	punct	_	_
+9	Itália	_	PROPN	PNOUN	_	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	11	punct	_	_
+11	Alemanha	_	PROPN	PNOUN	_	7	conj	_	_
+12	e	e	CCONJ	CONJ	_	13	cc	_	_
+13	Espanha	_	PROPN	PNOUN	_	7	conj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s8144
+# text = Desta forma, os sólidos platônicos resultam em simples grafos planares de classe 2 de grau máximo de 3, 4 e 5.
+1	Desta	_	ADP	ADP	_	2	case	_	_
+2	forma	forma	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	.	_	2	punct	_	_
+4	os	o	DET	DET	_	5	det	_	_
+5	sólidos	sólido	NOUN	NOUN	_	7	nsubj	_	_
+6	platônicos	platônico	ADJ	ADJ	_	5	amod	_	_
+7	resultam	resultar	VERB	VERB	_	0	root	_	_
+8	em	em	ADP	ADP	_	10	case	_	_
+9	simples	simples	ADJ	ADJ	_	10	amod	_	_
+10	grafos	grafo	NOUN	NOUN	_	7	nmod	_	_
+11	planares	_	ADJ	ADJ	_	10	amod	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
+13	classe	classe	NOUN	NOUN	_	10	nmod	_	_
+14	2	2	NUM	NUM	NumType=Card	13	appos	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
+16	grau	grau	NOUN	NOUN	_	10	nmod	_	_
+17	máximo	máximo	ADJ	ADJ	_	16	amod	_	_
+18	de	de	ADP	ADP	_	19	case	_	_
+19	3	3	NUM	NUM	NumType=Card	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	.	_	21	punct	_	_
+21	4	4	NUM	NUM	NumType=Card	19	conj	_	_
+22	e	e	CCONJ	CONJ	_	23	cc	_	_
+23	5	5	NUM	NUM	NumType=Card	19	conj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s8145
+# text = Situado entre os rios São Francisco e Real, o litoral sergipano foi visitado em expedição em 1501 por Gaspar de Lemos.
+1	Situado	situar	VERB	VERB	_	11	acl	_	_
+2	entre	_	ADP	ADP	_	4	case	_	_
+3	os	o	DET	DET	_	4	det	_	_
+4	rios	rio	NOUN	NOUN	_	1	nmod	_	_
+5	São	_	PROPN	PNOUN	_	4	appos	_	_
+6	Francisco	_	PROPN	PNOUN	_	5	flat	_	_
+7	e	e	CCONJ	CONJ	_	8	cc	_	_
+8	Real	_	PROPN	PNOUN	_	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	1	punct	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	litoral	litoral	NOUN	NOUN	_	14	nsubj:pass	_	_
+12	sergipano	sergipano	ADJ	ADJ	_	11	amod	_	_
+13	foi	_	AUX	AUX	_	14	aux:pass	_	_
+14	visitado	visitar	VERB	VERB	_	0	root	_	_
+15	em	em	ADP	ADP	_	16	case	_	_
+16	expedição	expedição	NOUN	NOUN	_	14	nmod	_	_
+17	em	em	ADP	ADP	_	18	case	_	_
+18	1501	1501	NUM	NUM	NumType=Card	14	nmod	_	_
+19	por	por	ADP	ADP	_	20	case	_	_
+20	Gaspar	_	PROPN	PNOUN	_	14	nmod	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
+22	Lemos	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	14	punct	_	_
+
+# sent_id = train-s8146
+# text = O comandante afirma, no entanto, que o medo imposto por eles faz com que a população local tenha medo de denunciar.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	comandante	comandante	NOUN	NOUN	_	3	nsubj	_	_
+3	afirma	afirmar	VERB	VERB	_	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	7	punct	_	_
+5-6	no	_	_	_	_	_	_	_	_
+5	em	em	ADP	ADP	_	7	case	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	entanto	entanto	ADV	ADV	_	3	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	7	punct	_	_
+9	que	que	CCONJ	CONJ	_	15	mark	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	medo	medo	NOUN	NOUN	_	15	nsubj	_	_
+12	imposto	_	VERB	VERB	_	11	acl	_	_
+13	por	por	ADP	ADP	_	14	case	_	_
+14	eles	_	PRON	PRON	_	12	nmod	_	_
+15	faz	fazer	VERB	VERB	_	3	ccomp	_	_
+16	com	_	ADP	ADP	_	21	mark	_	_
+17	que	que	CCONJ	CONJ	_	21	mark	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	população	população	NOUN	NOUN	_	21	nsubj	_	_
+20	local	local	ADJ	ADJ	_	19	amod	_	_
+21	tenha	ter	VERB	VERB	_	15	nmod	_	_
+22	medo	medo	NOUN	NOUN	_	21	obj	_	_
+23	de	_	ADP	ADP	_	24	mark	_	_
+24	denunciar	denunciar	VERB	VERB	_	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s8147
+# text = Peter Carsten von der Ohe, do Instituto Helmholtz, afirma que "é imperativo que se inclua essa substância nos programas de monitoramento de rotina em escala continental".
+1	Peter	_	PROPN	PNOUN	_	12	nsubj	_	_
+2	Carsten	_	PROPN	PNOUN	_	1	flat	_	_
+3	von	_	PROPN	PNOUN	_	1	flat	_	_
+4	der	_	PROPN	PNOUN	_	1	flat	_	_
+5	Ohe	_	PROPN	PNOUN	_	1	flat	_	SpaceAfter=No
+6	,	,	PUNCT	.	_	9	punct	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Instituto	_	PROPN	PNOUN	_	1	nmod	_	_
+10	Helmholtz	_	PROPN	PNOUN	_	9	flat	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	9	punct	_	_
+12	afirma	afirmar	VERB	VERB	_	0	root	_	_
+13	que	que	CCONJ	CONJ	_	15	mark	_	_
+14	"	"	PUNCT	.	_	15	punct	_	SpaceAfter=No
+15	é	ser	VERB	VERB	_	12	ccomp	_	_
+16	imperativo	imperativo	ADJ	ADJ	_	15	xcomp	_	_
+17	que	que	CCONJ	CONJ	_	19	mark	_	_
+18	se	_	PRON	PRON	_	19	expl:pv	_	_
+19	inclua	incluir	VERB	VERB	_	15	csubj	_	_
+20	essa	_	DET	DET	_	21	det	_	_
+21	substância	substância	NOUN	NOUN	_	19	nsubj	_	_
+22-23	nos	_	_	_	_	_	_	_	_
+22	em	em	ADP	ADP	_	24	case	_	_
+23	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	programas	programa	NOUN	NOUN	_	19	nmod	_	_
+25	de	de	ADP	ADP	_	26	case	_	_
+26	monitoramento	monitoramento	NOUN	NOUN	_	24	nmod	_	_
+27	de	de	ADP	ADP	_	28	case	_	_
+28	rotina	rotina	NOUN	NOUN	_	24	nmod	_	_
+29	em	em	ADP	ADP	_	30	case	_	_
+30	escala	escala	NOUN	NOUN	_	19	nmod	_	_
+31	continental	continental	ADJ	ADJ	_	30	amod	_	SpaceAfter=No
+32	"	"	PUNCT	.	_	15	punct	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = train-s8148
+# text = Mas Juliana não é seu nome verdadeiro.
+1	Mas	_	CCONJ	CONJ	_	6	cc	_	_
+2	Juliana	_	PROPN	PNOUN	_	6	nsubj	_	_
+3	não	não	ADV	ADV	Polarity=Neg	6	advmod	_	_
+4	é	ser	AUX	AUX	_	6	cop	_	_
+5	seu	_	DET	DET	_	6	det:poss	_	_
+6	nome	nome	NOUN	NOUN	_	0	root	_	_
+7	verdadeiro	verdadeiro	ADJ	ADJ	_	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	6	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Antes da normalização, na Rodoviária do Plano Piloto, usuários do metrô se dividiram entre os que buscaram meios alternativos e os que preferiram esperar o sistema voltar a funcionar.
+# sent_id = train-s8149
+1	Antes	antes	ADV	_	_	19	advmod	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	normalização	normalização	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	1	punct	_	_
+6-7	na	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|PronType=Art	8	det	_	_
+8	Rodoviária	Rodoviária	PROPN	_	Gender=Fem|Number=Sing	19	obl	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Plano	Plano	PROPN	_	ExtPos=PROPN|Number=Sing	8	nmod	_	_
+12	Piloto	Piloto	PROPN	_	Number=Sing	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	8	punct	_	_
+14	usuários	usuário	NOUN	_	Gender=Masc|Number=Plur	19	nsubj	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	metrô	metrô	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+18	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	expl	_	_
+19	dividiram	dividir	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+20	entre	entre	ADP	_	_	21	case	_	_
+21	os	o	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	19	obl	_	_
+22	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	23	nsubj	_	_
+23	buscaram	buscar	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	21	acl:relcl	_	_
+24	meios	meio	NOUN	_	Gender=Masc|Number=Plur	23	obj	_	_
+25	alternativos	alternativo	ADJ	_	Gender=Masc|Number=Plur	24	amod	_	_
+26	e	e	CCONJ	_	_	27	cc	_	_
+27	os	o	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	24	conj	_	_
+28	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	29	nsubj	_	_
+29	preferiram	preferir	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	27	acl:relcl	_	_
+30	esperar	esperar	VERB	_	VerbForm=Inf	29	xcomp	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	30	obj	_	_
+33	voltar	voltar	VERB	_	ExtPos=AUX|VerbForm=Inf	30	xcomp	_	_
+34	a	a	SCONJ	_	_	35	mark	_	_
+35	funcionar	funcionar	VERB	_	VerbForm=Inf	33	xcomp	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	19	punct	_	SpaceAfter=No
+

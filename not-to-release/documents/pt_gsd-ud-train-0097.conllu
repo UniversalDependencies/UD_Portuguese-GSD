@@ -1,0 +1,247 @@
+# sent_id = train-s960
+# text = Rio -- Cozinha japonesa é celeiro de criatividade, do preparo à apresentação do prato.
+1	Rio	_	PROPN	PNOUN	_	6	parataxis	_	_
+2	--	_	PUNCT	.	_	6	punct	_	_
+3	Cozinha	cozinha	NOUN	NOUN	_	6	nsubj	_	_
+4	japonesa	japonês	ADJ	ADJ	_	3	amod	_	_
+5	é	ser	AUX	AUX	_	6	cop	_	_
+6	celeiro	celeiro	NOUN	NOUN	_	0	root	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
+8	criatividade	criatividade	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	12	punct	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	ADP	_	12	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	preparo	preparo	NOUN	NOUN	_	6	nmod	_	_
+13-14	à	_	_	_	_	_	_	_	_
+13	a	a	ADP	ADP	_	15	case	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	apresentação	apresentação	NOUN	NOUN	_	6	nmod	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	prato	prato	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s961
+# text = Ele criou uma fundação, em 1938, para canalizar doações para suas causas favoritas;
+1	Ele	_	PRON	PRON	_	2	nsubj	_	_
+2	criou	criar	VERB	VERB	_	0	root	_	_
+3	uma	um	DET	DET	_	4	det	_	_
+4	fundação	fundação	NOUN	NOUN	_	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	.	_	7	punct	_	_
+6	em	em	ADP	ADP	_	7	case	_	_
+7	1938	1938	NUM	NUM	NumType=Card	2	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	7	punct	_	_
+9	para	_	ADP	ADP	_	10	mark	_	_
+10	canalizar	canalizar	VERB	VERB	_	2	advcl	_	_
+11	doações	doação	NOUN	NOUN	_	10	obj	_	_
+12	para	para	ADP	ADP	_	14	case	_	_
+13	suas	_	DET	DET	_	14	det:poss	_	_
+14	causas	causa	NOUN	NOUN	_	11	nmod	_	_
+15	favoritas	favorito	ADJ	ADJ	_	14	amod	_	SpaceAfter=No
+16	;	_	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s962
+# text = Seus habitantes tem descendência de alemães e italianos (as culturas mais predominantes na cidade), e esta colonização é vista nas arquiteturas das casas, na estrutura do município que lembra os vilarejos na europa.
+1	Seus	_	DET	DET	_	2	det:poss	_	_
+2	habitantes	habitante	NOUN	NOUN	_	3	nsubj	_	_
+3	tem	ter	VERB	VERB	_	0	root	_	_
+4	descendência	descendência	NOUN	NOUN	_	3	obj	_	_
+5	de	de	ADP	ADP	_	6	case	_	_
+6	alemães	alemão	NOUN	NOUN	_	4	nmod	_	_
+7	e	e	CCONJ	CONJ	_	8	cc	_	_
+8	italianos	italiano	NOUN	NOUN	_	6	conj	_	_
+9	(	(	PUNCT	.	_	11	punct	_	SpaceAfter=No
+10	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	culturas	cultura	NOUN	NOUN	_	6	appos	_	_
+12	mais	mais	ADV	ADV	_	13	advmod	_	_
+13	predominantes	predominante	ADJ	ADJ	_	11	amod	_	_
+14-15	na	_	_	_	_	_	_	_	_
+14	em	em	ADP	ADP	_	16	case	_	_
+15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	cidade	cidade	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
+17	)	)	PUNCT	.	_	11	punct	_	SpaceAfter=No
+18	,	,	PUNCT	.	_	23	punct	_	_
+19	e	e	CCONJ	CONJ	_	23	cc	_	_
+20	esta	_	DET	DET	_	21	det	_	_
+21	colonização	colonização	NOUN	NOUN	_	23	nsubj:pass	_	_
+22	é	ser	AUX	AUX	_	23	aux:pass	_	_
+23	vista	_	VERB	VERB	_	3	conj	_	_
+24-25	nas	_	_	_	_	_	_	_	_
+24	em	em	ADP	ADP	_	26	case	_	_
+25	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	arquiteturas	arquitetura	NOUN	NOUN	_	23	nmod	_	_
+27-28	das	_	_	_	_	_	_	_	_
+27	de	de	ADP	ADP	_	29	case	_	_
+28	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	casas	casa	NOUN	NOUN	_	26	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	.	_	33	punct	_	_
+31-32	na	_	_	_	_	_	_	_	_
+31	em	em	ADP	ADP	_	33	case	_	_
+32	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	estrutura	estrutura	NOUN	NOUN	_	26	conj	_	_
+34-35	do	_	_	_	_	_	_	_	_
+34	de	de	ADP	ADP	_	36	case	_	_
+35	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	município	município	NOUN	NOUN	_	33	nmod	_	_
+37	que	_	PRON	PRON	_	38	nsubj	_	_
+38	lembra	lembrar	VERB	VERB	_	33	acl:relcl	_	_
+39	os	o	DET	DET	_	40	det	_	_
+40	vilarejos	vilarejo	NOUN	NOUN	_	38	obj	_	_
+41-42	na	_	_	_	_	_	_	_	_
+41	em	em	ADP	ADP	_	43	case	_	_
+42	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	europa	_	PROPN	PNOUN	_	40	nmod	_	SpaceAfter=No
+44	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s963
+# text = Depois de analisadas essas possibilidades, a UFPB decide então estruturar a rede.
+1	Depois	depois	ADV	ADV	_	3	mark	_	_
+2	de	_	ADP	ADP	_	1	fixed	_	_
+3	analisadas	analisar	VERB	VERB	_	9	advcl	_	_
+4	essas	_	DET	DET	_	5	det	_	_
+5	possibilidades	possibilidade	NOUN	NOUN	_	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	.	_	3	punct	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	UFPB	_	PROPN	PNOUN	_	9	nsubj	_	_
+9	decide	decidir	VERB	VERB	_	0	root	_	_
+10	então	então	ADV	ADV	_	9	advmod	_	_
+11	estruturar	estruturar	VERB	VERB	_	9	xcomp	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	rede	rede	NOUN	NOUN	_	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = train-s964
+# text = Ao todo são 98 mil pés de café que no momento estão sendo adubados.
+1-2	Ao	_	_	_	_	_	_	_	_
+1	A	a	ADP	ADP	_	3	case	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	todo	_	PRON	PRON	_	7	nmod	_	_
+4	são	ser	AUX	AUX	_	7	cop	_	_
+5	98	98	NUM	NUM	NumType=Card	6	nummod	_	_
+6	mil	_	NUM	NUM	NumType=Card	7	nummod	_	_
+7	pés	pé	NOUN	NOUN	_	0	root	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
+9	café	café	NOUN	NOUN	_	7	nmod	_	_
+10	que	_	PRON	PRON	_	16	nsubj:pass	_	_
+11-12	no	_	_	_	_	_	_	_	_
+11	em	em	ADP	ADP	_	13	case	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	momento	momento	NOUN	NOUN	_	16	nmod	_	_
+14	estão	estar	AUX	AUX	_	16	aux	_	_
+15	sendo	ser	AUX	AUX	_	16	aux:pass	_	_
+16	adubados	adubar	VERB	VERB	_	7	acl:relcl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s965
+# text = Me ligava, pedia muito.
+1	Me	_	PRON	PRON	_	2	iobj	_	_
+2	ligava	ligar	VERB	VERB	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	.	_	4	punct	_	_
+4	pedia	pedir	VERB	VERB	_	2	conj	_	_
+5	muito	muito	ADV	ADV	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s966
+# text = Obs: a absorção radicular não sofre efeito de venenos respiratórios encontrados ao redor das raízes, na rizosfera, entretanto estes mesmos venenos respiratórios afetam a absorção do boro via foliar.
+1	Obs	_	NOUN	NOUN	_	7	parataxis	_	SpaceAfter=No
+2	:	:	PUNCT	.	_	1	punct	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	absorção	absorção	NOUN	NOUN	_	7	nsubj	_	_
+5	radicular	radicular	ADJ	ADJ	_	4	amod	_	_
+6	não	não	ADV	ADV	Polarity=Neg	7	advmod	_	_
+7	sofre	sofrer	VERB	VERB	_	0	root	_	_
+8	efeito	efeito	NOUN	NOUN	_	7	obj	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
+10	venenos	veneno	NOUN	NOUN	_	8	nmod	_	_
+11	respiratórios	respiratório	ADJ	ADJ	_	10	amod	_	_
+12	encontrados	encontrar	VERB	VERB	_	10	acl	_	_
+13-14	ao	_	_	_	_	_	_	_	_
+13	a	a	ADP	ADP	_	15	case	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	redor	redor	NOUN	NOUN	_	12	nmod	_	_
+16-17	das	_	_	_	_	_	_	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
+17	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	raízes	raiz	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	.	_	22	punct	_	_
+20-21	na	_	_	_	_	_	_	_	_
+20	em	em	ADP	ADP	_	22	case	_	_
+21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	rizosfera	_	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	.	_	29	punct	_	_
+24	entretanto	entretanto	ADV	ADV	_	29	advmod	_	_
+25	estes	_	DET	DET	_	27	det	_	_
+26	mesmos	mesmo	ADJ	ADJ	_	27	amod	_	_
+27	venenos	veneno	NOUN	NOUN	_	29	nsubj	_	_
+28	respiratórios	respiratório	ADJ	ADJ	_	27	amod	_	_
+29	afetam	afetar	VERB	VERB	_	7	conj	_	_
+30	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	absorção	absorção	NOUN	NOUN	_	29	obj	_	_
+32-33	do	_	_	_	_	_	_	_	_
+32	de	de	ADP	ADP	_	34	case	_	_
+33	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	boro	boro	NOUN	NOUN	_	31	nmod	_	_
+35	via	_	ADP	ADP	_	36	case	_	_
+36	foliar	_	NOUN	NOUN	_	31	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s967
+# text = Ribamar liga para Valdirene.
+1	Ribamar	_	PROPN	PNOUN	_	2	nsubj	_	_
+2	liga	ligar	VERB	VERB	_	0	root	_	_
+3	para	para	ADP	ADP	_	4	case	_	_
+4	Valdirene	_	PROPN	PNOUN	_	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s968
+# text = "Às vezes, eu penso que você está tentando me dominar!"
+1	"	"	PUNCT	.	_	7	punct	_	SpaceAfter=No
+2-3	Às	_	_	_	_	_	_	_	_
+2	A	a	ADP	ADP	_	4	case	_	_
+3	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	vezes	vez	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	.	_	4	punct	_	_
+6	eu	_	PRON	PRON	_	7	nsubj	_	_
+7	penso	pensar	VERB	VERB	_	0	root	_	_
+8	que	que	CCONJ	CONJ	_	11	mark	_	_
+9	você	_	PRON	PRON	_	11	nsubj	_	_
+10	está	estar	AUX	AUX	_	11	aux	_	_
+11	tentando	tentar	VERB	VERB	_	7	ccomp	_	_
+12	me	_	PRON	PRON	_	13	obj	_	_
+13	dominar	dominar	VERB	VERB	_	11	xcomp	_	SpaceAfter=No
+14	!	!	PUNCT	.	_	7	punct	_	SpaceAfter=No
+15	"	"	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s969
+# text = As compras de fim de ano devem se intenficar, em Mato Grosso do Sul, nas duas semanas que antecedem o Natal.
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	compras	compra	NOUN	NOUN	_	9	nsubj	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
+4	fim	fim	NOUN	NOUN	_	2	nmod	_	_
+5	de	de	ADP	ADP	_	6	case	_	_
+6	ano	ano	NOUN	NOUN	_	4	nmod	_	_
+7	devem	_	AUX	AUX	_	9	aux	_	_
+8	se	_	PRON	PRON	_	9	expl:pv	_	_
+9	intenficar	_	VERB	VERB	_	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	12	punct	_	_
+11	em	em	ADP	ADP	_	12	case	_	_
+12	Mato	_	PROPN	PNOUN	_	9	nmod	_	_
+13	Grosso	_	PROPN	PNOUN	_	12	amod	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	ADP	_	16	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Sul	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	.	_	21	punct	_	_
+18-19	nas	_	_	_	_	_	_	_	_
+18	em	em	ADP	ADP	_	21	case	_	_
+19	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+20	duas	_	NUM	NUM	NumType=Card	21	nummod	_	_
+21	semanas	semana	NOUN	NOUN	_	9	nmod	_	_
+22	que	_	PRON	PRON	_	23	nsubj	_	_
+23	antecedem	anteceder	VERB	VERB	_	21	acl:relcl	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Natal	_	PROPN	PNOUN	_	23	obj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	9	punct	_	_
+

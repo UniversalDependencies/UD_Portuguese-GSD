@@ -1,0 +1,378 @@
+# sent_id = test-s497
+# text = O clima de festa estava pronto no Morumbi.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	clima	clima	NOUN	NOUN	_	5	nsubj	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
+4	festa	festa	NOUN	NOUN	_	2	nmod	_	_
+5	estava	estar	VERB	VERB	_	0	root	_	_
+6	pronto	pronto	ADJ	ADJ	_	5	xcomp	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Morumbi	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = test-s498
+# text = Quando tudo estiver conforme o desejado, não se esqueça de clicar em "Salvar" para que as suas alterações sejam armazenadas.
+1	Quando	_	CCONJ	CONJ	_	3	mark	_	_
+2	tudo	_	PRON	PRON	_	3	nsubj	_	_
+3	estiver	estar	VERB	VERB	_	10	advcl	_	_
+4	conforme	_	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	desejado	_	NOUN	NOUN	_	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	3	punct	_	_
+8	não	não	ADV	ADV	Polarity=Neg	10	advmod	_	_
+9	se	_	PRON	PRON	_	10	obj	_	_
+10	esqueça	esquecer	VERB	VERB	_	0	root	_	_
+11	de	_	ADP	ADP	_	12	mark	_	_
+12	clicar	clicar	VERB	VERB	_	10	nmod	_	_
+13	em	em	ADP	ADP	_	15	case	_	_
+14	"	"	PUNCT	.	_	15	punct	_	SpaceAfter=No
+15	Salvar	_	PROPN	PNOUN	_	12	nmod	_	SpaceAfter=No
+16	"	"	PUNCT	.	_	15	punct	_	_
+17	para	_	ADP	ADP	_	23	mark	_	_
+18	que	_	CCONJ	CONJ	_	17	fixed	_	_
+19	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+20	suas	_	DET	DET	_	21	det:poss	_	_
+21	alterações	alteração	NOUN	NOUN	_	23	nsubj:pass	_	_
+22	sejam	ser	AUX	AUX	_	23	aux:pass	_	_
+23	armazenadas	armazenar	VERB	VERB	_	12	advcl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	10	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = O mais novo representante do gênero a chegar ao mercado nacional é o romance Luxúria, da professora de pilates e dublê de escritora, considerada best seller nos EUA, Eve Berlin.
+# sent_id = test-s499
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+2	mais	mais	ADV	_	_	3	advmod	_	_
+3	novo	novo	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+4	representante	representante	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
+5-6	do	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	gênero	gênero	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+8	a	a	SCONJ	_	_	9	mark	_	_
+9	chegar	chegar	VERB	_	VerbForm=Inf	4	acl	_	_
+10-11	ao	_	_	_	_	_	_	_	_
+10	a	a	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	mercado	mercado	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+13	nacional	nacional	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
+14	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	romance	romance	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+17	Luxúria	Luxúria	PROPN	_	Gender=Masc|Number=Sing	16	appos	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	21	punct	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	professora	professor	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	pilates	pilate	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	_
+24	e	e	CCONJ	_	_	25	cc	_	_
+25	dublê	dublê	NOUN	_	Gender=Masc|Number=Sing	21	conj	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	escritora	escritor	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	_
+29	considerada	considerar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	27	acl	_	_
+30	best	best	X	_	ExtPos=NOUN	29	obl	_	_
+31	seller	seller	X	_	_	30	flat:foreign	_	_
+32-33	nos	_	_	_	_	_	_	_	_
+32	em	em	ADP	_	_	34	case	_	_
+33	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	EUA	EUA	PROPN	_	Gender=Masc|Number=Plur	29	obl	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	29	punct	_	_
+36	Eve	Eve	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	16	appos	_	_
+37	Berlin	Berlin	PROPN	_	Number=Sing	36	flat:name	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = test-s500
+# text = Ductos biliares intra - hepáticos malformados e estreitos produzem a maioria dos problemas de saúde associados à síndrome de Alagille, levando a repercussões variáveis sobre o órgão.
+1	Ductos	ducto	NOUN	NOUN	_	9	nsubj	_	_
+2	biliares	biliar	ADJ	ADJ	_	1	amod	_	_
+3	intra	_	PART	PRT	_	5	amod	_	_
+4	-	-	PUNCT	.	_	5	punct	_	_
+5	hepáticos	hepático	ADJ	ADJ	_	1	amod	_	_
+6	malformados	malformado	ADJ	ADJ	_	1	amod	_	_
+7	e	e	CCONJ	CONJ	_	8	cc	_	_
+8	estreitos	estreito	ADJ	ADJ	_	6	conj	_	_
+9	produzem	produzir	VERB	VERB	_	0	root	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	maioria	maioria	NOUN	NOUN	_	9	obj	_	_
+12-13	dos	_	_	_	_	_	_	_	_
+12	de	de	ADP	ADP	_	14	case	_	_
+13	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	problemas	problema	NOUN	NOUN	_	11	nmod	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
+16	saúde	saúde	NOUN	NOUN	_	14	nmod	_	_
+17	associados	associado	ADJ	ADJ	_	14	amod	_	_
+18-19	à	_	_	_	_	_	_	_	_
+18	a	a	ADP	ADP	_	20	case	_	_
+19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	síndrome	síndrome	NOUN	NOUN	_	17	nmod	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
+22	Alagille	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	.	_	24	punct	_	_
+24	levando	levar	VERB	VERB	_	9	acl	_	_
+25	a	_	ADP	ADP	_	26	case	_	_
+26	repercussões	repercussão	NOUN	NOUN	_	24	nmod	_	_
+27	variáveis	variável	ADJ	ADJ	_	26	amod	_	_
+28	sobre	_	ADP	ADP	_	30	case	_	_
+29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	órgão	órgão	NOUN	NOUN	_	26	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = test-s501
+# text = Hoje também acontece a final do concurso de redação das escolas do Sesi - PR e o concurso de sanduíches, explicou o presidente do Sipceo, Vilson Felipe Bogmann.
+1	Hoje	hoje	ADV	ADV	_	3	advmod	_	_
+2	também	também	ADV	ADV	_	3	advmod	_	_
+3	acontece	acontecer	VERB	VERB	_	25	ccomp	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	final	final	NOUN	NOUN	_	3	nsubj	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	concurso	concurso	NOUN	NOUN	_	5	nmod	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
+10	redação	redação	NOUN	NOUN	_	8	nmod	_	_
+11-12	das	_	_	_	_	_	_	_	_
+11	de	de	ADP	ADP	_	13	case	_	_
+12	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	escolas	escola	NOUN	NOUN	_	8	nmod	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	ADP	_	16	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Sesi	_	PROPN	PNOUN	_	13	nmod	_	_
+17	-	-	PUNCT	.	_	16	punct	_	_
+18	PR	_	PROPN	PNOUN	_	16	flat	_	_
+19	e	e	CCONJ	CONJ	_	21	cc	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	concurso	concurso	NOUN	NOUN	_	8	conj	_	_
+22	de	de	ADP	ADP	_	23	case	_	_
+23	sanduíches	sanduíche	NOUN	NOUN	_	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	.	_	3	punct	_	_
+25	explicou	explicar	VERB	VERB	_	0	root	_	_
+26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	presidente	presidente	NOUN	NOUN	_	25	nsubj	_	_
+28-29	do	_	_	_	_	_	_	_	_
+28	de	de	ADP	ADP	_	30	case	_	_
+29	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	Sipceo	_	PROPN	PNOUN	_	27	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	.	_	32	punct	_	_
+32	Vilson	_	PROPN	PNOUN	_	27	appos	_	_
+33	Felipe	_	PROPN	PNOUN	_	32	flat	_	_
+34	Bogmann	_	PROPN	PNOUN	_	32	flat	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	25	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Gravado no Pavilhão de Exposições do Complexo do Anhembi, em São Paulo, o show, com direção do cantor Ney Matogrosso, traz grandes sucessos, como Revoluções Por Minuto, Rádio Pirata, Olhar 43 e as então inéditas Naja (instrumental baseado nos teclados de Luiz Schiavon) e Alvorada Voraz, além das regravações de London, London (de Caetano Veloso) e de Flores Astrais (do grupo Secos & Molhados, do qual Ney Matogrosso fez parte).
+# sent_id = test-s502
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+1	Gravado	gravar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	19	acl	_	_
+2-3	no	_	_	_	_	_	_	_	_
+2	em	em	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Pavilhão	Pavilhão	PROPN	_	Gender=Masc|Number=Sing	1	obl	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Exposições	Exposições	PROPN	_	Number=Sing	4	nmod	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Complexo	Complexo	PROPN	_	Number=Sing	6	nmod	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Anhembi	Anhembi	PROPN	_	Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	em	em	ADP	_	_	15	case	_	_
+15	São	São	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	1	obl	_	_
+16	Paulo	Paulo	PROPN	_	Number=Sing	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	15	punct	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	show	show	NOUN	_	Gender=Masc|Number=Sing	29	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	_
+21	com	com	ADP	_	_	22	case	_	_
+22	direção	direção	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	cantor	cantor	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
+26	Ney	Ney	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	25	appos	_	_
+27	Matogrosso	Matogrosso	PROPN	_	Number=Sing	26	flat:name	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	22	punct	_	_
+29	traz	trazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+30	grandes	grande	ADJ	_	Gender=Masc|Number=Plur	31	amod	_	_
+31	sucessos	sucesso	NOUN	_	Gender=Masc|Number=Plur	29	obj	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	34	punct	_	_
+33	como	como	ADP	_	_	34	case	_	_
+34	Revoluções	Revoluções	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	31	nmod	_	_
+35	Por	Por	PROPN	_	Number=Sing	34	flat:name	_	_
+36	Minuto	Minuto	PROPN	_	Number=Sing	34	flat:name	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	38	punct	_	_
+38	Rádio	Rádio	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	34	conj	_	_
+39	Pirata	Pirata	PROPN	_	Number=Sing	38	flat:name	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	41	punct	_	_
+41	Olhar	Olhar	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	34	conj	_	_
+42	43	43	PROPN	_	Number=Sing	41	flat:name	_	_
+43	e	e	CCONJ	_	_	47	cc	_	_
+44	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	47	det	_	_
+45	então	então	ADV	_	_	46	advmod	_	_
+46	inéditas	inédito	ADJ	_	Gender=Fem|Number=Plur	47	amod	_	_
+47	Naja	Naja	PROPN	_	Gender=Fem|Number=Sing	34	conj	_	_
+48	(	(	PUNCT	_	_	49	punct	_	SpaceAfter=No
+49	instrumental	instrumental	ADJ	_	Gender=Masc|Number=Sing	47	amod	_	_
+50	baseado	basear	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	49	acl	_	_
+51-52	nos	_	_	_	_	_	_	_	_
+51	em	em	ADP	_	_	53	case	_	_
+52	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	53	det	_	_
+53	teclados	teclado	NOUN	_	Gender=Masc|Number=Plur	50	obl	_	_
+54	de	de	ADP	_	_	55	case	_	_
+55	Luiz	Luiz	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	53	nmod	_	_
+56	Schiavon	Schiavon	PROPN	_	Number=Sing	55	flat:name	_	SpaceAfter=No
+57	)	)	PUNCT	_	_	49	punct	_	_
+58	e	e	CCONJ	_	_	59	cc	_	_
+59	Alvorada	Alvorada	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	34	conj	_	_
+60	Voraz	Voraz	PROPN	_	Number=Sing	59	flat:name	_	SpaceAfter=No
+61	,	,	PUNCT	_	_	65	punct	_	_
+62	além	além	ADV	_	_	65	cc	_	_
+63-64	das	_	_	_	_	_	_	_	_
+63	de	de	ADP	_	_	62	fixed	_	_
+64	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	65	det	_	_
+65	regravações	regravação	NOUN	_	Gender=Fem|Number=Plur	47	conj	_	_
+66	de	de	ADP	_	_	67	case	_	_
+67	London	London	PROPN	_	Gender=Masc|Number=Sing	65	nmod	_	SpaceAfter=No
+68	,	,	PUNCT	_	_	69	punct	_	_
+69	London	London	PROPN	_	Gender=Masc|Number=Sing	67	conj	_	_
+70	(	(	PUNCT	_	_	72	punct	_	SpaceAfter=No
+71	de	de	ADP	_	_	72	case	_	_
+72	Caetano	Caetano	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	67	nmod	_	_
+73	Veloso	Veloso	PROPN	_	Number=Sing	72	flat:name	_	SpaceAfter=No
+74	)	)	PUNCT	_	_	72	punct	_	_
+75	e	e	CCONJ	_	_	77	cc	_	_
+76	de	de	ADP	_	_	77	case	_	_
+77	Flores	Flores	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	67	conj	_	_
+78	Astrais	Astrais	PROPN	_	Number=Sing	77	flat:name	_	_
+79	(	(	PUNCT	_	_	82	punct	_	SpaceAfter=No
+80-81	do	_	_	_	_	_	_	_	_
+80	de	de	ADP	_	_	82	case	_	_
+81	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	82	det	_	_
+82	grupo	grupo	NOUN	_	Gender=Masc|Number=Sing	77	nmod	_	_
+83	Secos	Secos	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	82	appos	_	_
+84	&	&	PROPN	_	Number=Sing	83	flat:name	_	_
+85	Molhados	Molhados	PROPN	_	Number=Sing	83	flat:name	_	SpaceAfter=No
+86	,	,	PUNCT	_	_	92	punct	_	_
+87-88	do	_	_	_	_	_	_	_	_
+87	de	de	ADP	_	_	89	case	_	_
+88	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	89	det	_	_
+89	qual	qual	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	92	obl	_	_
+90	Ney	Ney	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	92	nsubj	_	_
+91	Matogrosso	Matogrosso	PROPN	_	Number=Sing	90	flat:name	_	_
+92	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	82	acl:relcl	_	_
+93	parte	parte	NOUN	_	Gender=Fem|Number=Sing	92	obj	_	SpaceAfter=No
+94	)	)	PUNCT	_	_	82	punct	_	SpaceAfter=No
+95	.	.	PUNCT	_	_	29	punct	_	SpaceAfter=No
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Porém numa proporção mais restrita, novos músicos de blues surgem no cenário musical americano como Keb 'Mo' e Corey Harris, mas ainda longe de ser expressivo e significativo como outrora fora.
+# sent_id = test-s503
+1	Porém	porém	ADV	_	_	12	advmod	_	_
+2-3	numa	_	_	_	_	_	_	_	_
+2	em	em	ADP	_	_	4	case	_	_
+3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	proporção	proporção	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+5	mais	mais	ADV	_	_	6	advmod	_	_
+6	restrita	restrito	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	novos	novo	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
+9	músicos	músico	NOUN	_	Gender=Masc|Number=Plur	12	nsubj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	blues	blues	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+12	surgem	surgir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13-14	no	_	_	_	_	_	_	_	_
+13	em	em	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	cenário	cenário	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+16	musical	musical	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+17	americano	americano	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+18	como	como	ADP	_	_	19	case	_	_
+19	Keb	Keb	PROPN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+20	'	'	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	Mo	Mo	PROPN	_	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+22	'	'	PUNCT	_	_	21	punct	_	_
+23	e	e	CCONJ	_	_	24	cc	_	_
+24	Corey	Corey	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	19	conj	_	_
+25	Harris	Harris	PROPN	_	Number=Sing	24	flat:name	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	29	punct	_	_
+27	mas	mas	CCONJ	_	_	29	cc	_	_
+28	ainda	ainda	ADV	_	_	29	advmod	_	_
+29	longe	longe	ADV	_	_	19	conj	_	_
+30	de	de	SCONJ	_	_	32	mark	_	_
+31	ser	ser	AUX	_	VerbForm=Inf	32	cop	_	_
+32	expressivo	expressivo	ADJ	_	Gender=Masc|Number=Sing	29	xcomp	_	_
+33	e	e	CCONJ	_	_	34	cc	_	_
+34	significativo	significativo	ADJ	_	Gender=Masc|Number=Sing	32	conj	_	_
+35	como	como	ADP	_	_	37	case	_	_
+36	outrora	outrora	ADV	_	_	37	advmod	_	_
+37	fora	fora	ADV	_	_	32	advmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+
+# sent_id = test-s504
+# text = Clique aqui para saber mais sobre a beleza de verão!
+1	Clique	clicar	VERB	VERB	_	0	root	_	_
+2	aqui	aqui	ADV	ADV	_	1	advmod	_	_
+3	para	_	ADP	ADP	_	4	mark	_	_
+4	saber	saber	VERB	VERB	_	1	advcl	_	_
+5	mais	mais	ADV	ADV	_	4	advmod	_	_
+6	sobre	_	ADP	ADP	_	8	case	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	beleza	beleza	NOUN	NOUN	_	4	nmod	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
+10	verão	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
+11	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = test-s505
+# text = Seu pai estava em serviço na Coréia quando conheceu sua mãe.
+1	Seu	_	DET	DET	_	2	det:poss	_	_
+2	pai	pai	NOUN	NOUN	_	3	nsubj	_	_
+3	estava	estar	VERB	VERB	_	0	root	_	_
+4	em	em	ADP	ADP	_	5	case	_	_
+5	serviço	serviço	NOUN	NOUN	_	3	nmod	_	_
+6-7	na	_	_	_	_	_	_	_	_
+6	em	em	ADP	ADP	_	8	case	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Coréia	_	PROPN	PNOUN	_	3	nmod	_	_
+9	quando	_	CCONJ	CONJ	_	10	mark	_	_
+10	conheceu	conhecer	VERB	VERB	_	3	advcl	_	_
+11	sua	_	DET	DET	_	12	det:poss	_	_
+12	mãe	mãe	NOUN	NOUN	_	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = test-s506
+# text = A desembargadora Maria Erotides Kneip Baranjak observou que as exigências objetivas de convocação extinguem a possibilidade de escolha por simpatia ou favoritismo.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	desembargadora	desembargador	NOUN	NOUN	_	7	nsubj	_	_
+3	Maria	_	PROPN	PNOUN	_	2	appos	_	_
+4	Erotides	_	PROPN	PNOUN	_	3	flat	_	_
+5	Kneip	_	PROPN	PNOUN	_	3	flat	_	_
+6	Baranjak	_	PROPN	PNOUN	_	3	flat	_	_
+7	observou	observar	VERB	VERB	_	0	root	_	_
+8	que	que	CCONJ	CONJ	_	14	mark	_	_
+9	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	exigências	exigência	NOUN	NOUN	_	14	nsubj	_	_
+11	objetivas	objetivo	ADJ	ADJ	_	10	amod	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
+13	convocação	convocação	NOUN	NOUN	_	10	nmod	_	_
+14	extinguem	extinguir	VERB	VERB	_	7	ccomp	_	_
+15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	possibilidade	possibilidade	NOUN	NOUN	_	14	obj	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
+18	escolha	escolha	NOUN	NOUN	_	16	nmod	_	_
+19	por	por	ADP	ADP	_	20	case	_	_
+20	simpatia	simpatia	NOUN	NOUN	_	18	nmod	_	_
+21	ou	ou	CCONJ	CONJ	_	22	cc	_	_
+22	favoritismo	favoritismo	NOUN	NOUN	_	20	conj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	7	punct	_	_
+

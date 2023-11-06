@@ -1,0 +1,196 @@
+# sent_id = train-s3186
+# text = Os dados, divulgados hoje (4), são da Associação Nacional dos Veículos Automotores (Anfavea).
+1	Os	o	DET	DET	_	2	det	_	_
+2	dados	dado	NOUN	NOUN	_	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	.	_	4	punct	_	_
+4	divulgados	divulgar	VERB	VERB	_	2	acl	_	_
+5	hoje	hoje	ADV	ADV	_	4	advmod	_	_
+6	(	(	PUNCT	.	_	7	punct	_	SpaceAfter=No
+7	4	4	NUM	NUM	NumType=Card	5	nmod	_	SpaceAfter=No
+8	)	)	PUNCT	.	_	7	punct	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	4	punct	_	_
+10	são	ser	VERB	VERB	_	0	root	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	ADP	_	13	case	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Associação	_	PROPN	PNOUN	_	10	nmod	_	_
+14	Nacional	_	PROPN	PNOUN	_	13	amod	_	_
+15-16	dos	_	_	_	_	_	_	_	_
+15	de	de	ADP	ADP	_	17	case	_	_
+16	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	Veículos	_	PROPN	PNOUN	_	13	nmod	_	_
+18	Automotores	_	PROPN	PNOUN	_	17	amod	_	_
+19	(	(	PUNCT	.	_	20	punct	_	SpaceAfter=No
+20	Anfavea	_	PROPN	PNOUN	_	13	appos	_	SpaceAfter=No
+21	)	)	PUNCT	.	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = train-s3187
+# text = "A minha preocupação é que não tivemos entendimento com a oposição e esticasse o mês de fevereiro com o debate e [o Orçamento] só pudesse ser votado no final de fevereiro.
+1	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
+2	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	minha	_	DET	DET	_	4	det:poss	_	_
+4	preocupação	preocupação	NOUN	NOUN	_	0	root	_	_
+5	é	ser	AUX	AUX	_	4	cop	_	_
+6	que	que	CCONJ	CONJ	_	8	mark	_	_
+7	não	não	ADV	ADV	Polarity=Neg	8	advmod	_	_
+8	tivemos	ter	VERB	VERB	_	4	csubj	_	_
+9	entendimento	entendimento	NOUN	NOUN	_	8	obj	_	_
+10	com	com	ADP	ADP	_	12	case	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	oposição	oposição	NOUN	NOUN	_	9	nmod	_	_
+13	e	e	CCONJ	CONJ	_	14	cc	_	_
+14	esticasse	esticar	VERB	VERB	_	8	conj	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	mês	mês	NOUN	NOUN	_	14	nsubj	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
+18	fevereiro	_	PROPN	PNOUN	_	16	nmod	_	_
+19	com	com	ADP	ADP	_	21	case	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	debate	debate	NOUN	NOUN	_	14	nmod	_	_
+22	e	e	CCONJ	CONJ	_	30	cc	_	_
+23	[	_	PUNCT	.	_	25	punct	_	SpaceAfter=No
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Orçamento	_	PROPN	PNOUN	_	30	nsubj:pass	_	SpaceAfter=No
+26	]	_	PUNCT	.	_	25	punct	_	_
+27	só	só	ADV	ADV	_	30	advmod	_	_
+28	pudesse	poder	AUX	AUX	_	30	aux	_	_
+29	ser	ser	AUX	AUX	_	30	aux:pass	_	_
+30	votado	votar	VERB	VERB	_	8	conj	_	_
+31-32	no	_	_	_	_	_	_	_	_
+31	em	em	ADP	ADP	_	33	case	_	_
+32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	final	final	NOUN	NOUN	_	30	nmod	_	_
+34	de	de	ADP	ADP	_	35	case	_	_
+35	fevereiro	_	PROPN	PNOUN	_	33	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s3188
+# text = A expectativa da federação local é que o estádio esteja lotado -- até segunda - feira haviam sido vendidos 16 mil dos cerca de 24 mil bilhetes disponíveis.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	expectativa	expectativa	NOUN	NOUN	_	0	root	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	federação	federação	NOUN	NOUN	_	2	nmod	_	_
+6	local	local	ADJ	ADJ	_	5	amod	_	_
+7	é	ser	AUX	AUX	_	2	cop	_	_
+8	que	que	CCONJ	CONJ	_	11	mark	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	estádio	estádio	NOUN	NOUN	_	11	nsubj	_	_
+11	esteja	estar	VERB	VERB	_	2	csubj	_	_
+12	lotado	lotado	ADJ	ADJ	_	11	xcomp	_	_
+13	--	_	PUNCT	.	_	20	punct	_	_
+14	até	_	ADP	ADP	_	17	case	_	_
+15	segunda	_	PROPN	PNOUN	_	17	amod	_	_
+16	-	-	PUNCT	.	_	17	punct	_	_
+17	feira	_	PROPN	PNOUN	_	20	nmod	_	_
+18	haviam	haver	AUX	AUX	_	20	aux	_	_
+19	sido	ser	AUX	AUX	_	20	aux:pass	_	_
+20	vendidos	vender	VERB	VERB	_	11	parataxis	_	_
+21	16	16	NUM	NUM	NumType=Card	22	nummod	_	_
+22	mil	_	NOUN	NOUN	_	20	nsubj:pass	_	_
+23-24	dos	_	_	_	_	_	_	_	_
+23	de	de	ADP	ADP	_	29	case	_	_
+24	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+25	cerca	cerca	ADV	ADV	_	28	advmod	_	_
+26	de	de	ADP	ADP	_	25	case	_	_
+27	24	24	NUM	NUM	NumType=Card	28	nummod	_	_
+28	mil	_	NUM	NUM	NumType=Card	29	nummod	_	_
+29	bilhetes	bilhete	NOUN	NOUN	_	22	nmod	_	_
+30	disponíveis	disponível	ADJ	ADJ	_	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s3189a
+# text = Dr. Carlos Frederico Duarte da Rocha
+1	Dr.	_	PROPN	PNOUN	_	0	root	_	_
+2	Carlos	_	PROPN	PNOUN	_	1	flat	_	_
+3	Frederico	_	PROPN	PNOUN	_	1	flat	_	_
+4	Duarte	_	PROPN	PNOUN	_	1	flat	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	ADP	_	7	case	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Rocha	_	PROPN	PNOUN	_	1	nmod	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Filmografia e Direção Geral: Luiz Duarte
+# sent_id = train-s3189b
+1	Filmografia	filmografia	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	e	e	CCONJ	_	_	3	cc	_	_
+3	Direção	Direção	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	1	conj	_	_
+4	Geral	Geral	PROPN	_	Number=Sing	3	flat:name	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	1	punct	_	_
+6	Luiz	Luiz	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	1	appos	_	_
+7	Duarte	Duarte	PROPN	_	Number=Sing	6	flat:name	_	SpaceAfter=No
+
+# sent_id = train-s3189c
+# text = Ano da Filmagem: 1999
+1	Ano	_	PROPN	PNOUN	_	0	root	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	ADP	_	4	case	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Filmagem	_	PROPN	PNOUN	_	1	nmod	_	SpaceAfter=No
+5	:	:	PUNCT	.	_	1	punct	_	_
+6	1999	1999	NUM	NUM	NumType=Card	1	nmod	_	_
+
+# sent_id = train-s3189d
+# text = Ano da Produção: 2002
+1	Ano	_	PROPN	PNOUN	_	0	root	_	_
+2-3	da	_	_	_	_	_	_	_	_
+2	de	de	ADP	ADP	_	4	case	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Produção	_	PROPN	PNOUN	_	1	nmod	_	SpaceAfter=No
+5	:	:	PUNCT	.	_	1	punct	_	_
+6	2002	2002	NUM	NUM	NumType=Card	1	nmod	_	_
+
+# sent_id = train-s3189e
+# text = Ano de Lançamento: 2003
+1	Ano	_	PROPN	PNOUN	_	0	root	_	_
+2	de	de	ADP	ADP	_	3	case	_	_
+3	Lançamento	_	PROPN	PNOUN	_	1	nmod	_	SpaceAfter=No
+4	:	:	PUNCT	.	_	1	punct	_	_
+5	2003	2003	NUM	NUM	NumType=Card	1	nmod	_	_
+
+# sent_id = train-s3190
+# text = Espera-se que a eleição se realize ainda nesta semana.
+1-2	Espera-se	_	_	_	_	_	_	_	_
+1	Espera	esperar	VERB	VERB	_	0	root	_	_
+2	se	_	PART	PRT	_	1	expl:pv	_	_
+3	que	que	CCONJ	CONJ	_	7	mark	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	eleição	eleição	NOUN	NOUN	_	7	nsubj	_	_
+6	se	_	PRON	PRON	_	7	expl:pv	_	_
+7	realize	realizar	VERB	VERB	_	1	csubj	_	_
+8	ainda	ainda	ADV	ADV	_	10	advmod	_	_
+9	nesta	_	ADP	ADP	_	10	case	_	_
+10	semana	semana	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	1	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = O Brasil ainda conseguiu salvar três set points antes da seleção cubana fechar a parcial em 25 / 19.
+# sent_id = train-s3191
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Brasil	Brasil	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	ainda	ainda	ADV	_	_	4	advmod	_	_
+4	conseguiu	conseguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	salvar	salvar	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	três	três	NUM	_	NumType=Card	7	nummod	_	_
+7	set	set	NUM	_	NumType=Card	5	obj	_	_
+8	points	points	NOUN	_	Gender=Masc|Number=Plur	7	flat:foreign	_	_
+9	antes	antes	ADV	_	ExtPos=SCONJ	14	mark	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	9	fixed	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	seleção	seleção	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
+13	cubana	cubano	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
+14	fechar	fechar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	5	advcl	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	parcial	parcial	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+17	em	em	ADP	_	_	18	case	_	_
+18	25	25	NUM	_	NumType=Card	14	obl	_	_
+19	/	/	PUNCT	_	_	20	punct	_	_
+20	19	19	NUM	_	NumType=Card	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+

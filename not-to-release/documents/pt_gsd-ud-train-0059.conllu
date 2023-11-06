@@ -1,0 +1,283 @@
+# sent_id = train-s581
+# text = O primeiro tempo chamou mais atenção pelas substituições que por bonitos lances.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	primeiro	primeiro	ADJ	ADJ	_	3	amod	_	_
+3	tempo	tempo	NOUN	NOUN	_	4	nsubj	_	_
+4	chamou	chamar	VERB	VERB	_	0	root	_	_
+5	mais	mais	ADV	ADV	_	4	advmod	_	_
+6	atenção	atenção	NOUN	NOUN	_	4	obj	_	_
+7-8	pelas	_	_	_	_	_	_	_	_
+7	por	por	ADP	ADP	_	9	case	_	_
+8	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	substituições	substituição	NOUN	NOUN	_	6	nmod	_	_
+10	que	_	ADP	ADP	_	4	nmod	_	_
+11	por	por	ADP	ADP	_	13	case	_	_
+12	bonitos	bonito	ADJ	ADJ	_	13	amod	_	_
+13	lances	lance	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s582
+# text = Foi eleito prefeito de São Bernardo em 1951, onde sempre era visto pelas ruas verificando como andavam as coisas pela cidade.
+1	Foi	ser	AUX	AUX	_	2	aux:pass	_	_
+2	eleito	eleger	VERB	AUX	_	0	root	_	_
+3	prefeito	prefeito	NOUN	NOUN	_	2	obj	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
+5	São	_	PROPN	PNOUN	_	3	nmod	_	_
+6	Bernardo	_	PROPN	PNOUN	_	5	flat:name	_	_
+7	em	em	ADP	ADP	_	8	case	_	_
+8	1951	1951	NUM	NUM	NumType=Card	2	obl	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	13	punct	_	_
+10	onde	onde	ADV	ADV	_	13	advmod	_	_
+11	sempre	sempre	ADV	ADV	_	13	advmod	_	_
+12	era	ser	AUX	AUX	_	13	aux:pass	_	_
+13	visto	_	VERB	VERB	_	5	acl:relcl	_	_
+14-15	pelas	_	_	_	_	_	_	_	_
+14	por	por	ADP	ADP	_	16	case	_	_
+15	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	ruas	rua	NOUN	NOUN	_	13	nmod	_	_
+17	verificando	verificar	VERB	VERB	_	13	acl	_	_
+18	como	como	ADV	ADV	_	19	advmod	_	_
+19	andavam	andar	VERB	VERB	_	17	ccomp	_	_
+20	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	coisas	coisa	NOUN	NOUN	_	19	nsubj	_	_
+22-23	pela	_	_	_	_	_	_	_	_
+22	por	por	ADP	ADP	_	24	case	_	_
+23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	cidade	cidade	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s583
+# text = Cuido bastante para não acabar magoando aqueles que não atingiram o maior número de livros, pois só os primeiros quinze colocados recebem premiação.
+1	Cuido	cuidar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	bastante	bastante	ADV	_	_	1	advmod	_	_
+3	para	para	SCONJ	_	_	5	mark	_	_
+4	não	não	ADV	_	Polarity=Neg	5	advmod	_	_
+5	acabar	acabar	VERB	_	VerbForm=Inf	1	advcl	_	_
+6	magoando	magoar	VERB	_	VerbForm=Ger	5	xcomp	_	_
+7	aqueles	aquele	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	6	obj	_	_
+8	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	10	nsubj	_	_
+9	não	não	ADV	_	Polarity=Neg	10	advmod	_	_
+10	atingiram	atingir	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	7	acl:relcl	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	maior	grande	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
+13	número	número	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	livros	livro	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	23	punct	_	_
+17	pois	pois	SCONJ	_	_	23	mark	_	_
+18	só	só	ADV	_	_	22	advmod	_	_
+19	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+20	primeiros	primeiro	ADJ	_	Gender=Masc|Number=Plur|NumType=Ord	22	amod	_	_
+21	quinze	quinze	NUM	_	NumType=Card	22	nummod	_	_
+22	colocados	colocado	NOUN	_	Gender=Masc|Number=Plur	23	nsubj	_	_
+23	recebem	receber	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+24	premiação	premiação	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = train-s584
+# text = Pedidos de apoio financeiro dirigidos ao município e ao Estado ficaram sem resposta.
+1	Pedidos	pedido	NOUN	NOUN	_	13	nsubj	_	_
+2	de	de	ADP	ADP	_	3	case	_	_
+3	apoio	apoio	NOUN	NOUN	_	1	nmod	_	_
+4	financeiro	financeiro	ADJ	ADJ	_	3	amod	_	_
+5	dirigidos	dirigido	ADJ	ADJ	_	1	acl	_	_
+6-7	ao	_	_	_	_	_	_	_	_
+6	a	a	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	município	município	NOUN	NOUN	_	5	nmod	_	_
+9	e	e	CCONJ	CONJ	_	8	cc	_	_
+10-11	ao	_	_	_	_	_	_	_	_
+10	a	a	ADP	ADP	_	8	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+12	Estado	_	PROPN	PNOUN	_	10	conj	_	_
+13	ficaram	ficar	VERB	VERB	_	0	root	_	_
+14	sem	_	ADP	ADP	_	15	case	_	_
+15	resposta	resposta	NOUN	NOUN	_	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = train-s585
+# text = Shadow Training: Um treinamento no escuro!
+1	Shadow	_	PROPN	PNOUN	_	0	root	_	_
+2	Training	_	PROPN	PNOUN	_	1	flat	_	SpaceAfter=No
+3	:	:	PUNCT	.	_	1	punct	_	_
+4	Um	_	DET	DET	_	5	det	_	_
+5	treinamento	treinamento	NOUN	NOUN	_	1	appos	_	_
+6-7	no	_	_	_	_	_	_	_	_
+6	em	em	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	escuro	escuro	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
+9	!	!	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s586
+# text = É também resultado do dever de agir com a máxima boa fé a proteção do consumidor contra a publicidade enganosa, ou seja, aquele que não é feita de modo claro e preciso, além de induzir o consumidor a erro sobre determinado aspecto do produto ou serviço, com base no fornecimento de informações inverídicas, além da proteção contra práticas comerciais abusivas e da garantia do direito de arrependimento, mesmo depois de efetivada a contratação, nos termos do Artigo 49 do CDC.
+1	É	ser	AUX	AUX	_	3	cop	_	_
+2	também	também	ADV	ADV	_	3	advmod	_	_
+3	resultado	resultado	NOUN	NOUN	_	0	root	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	dever	dever	NOUN	NOUN	_	3	nmod	_	_
+7	de	_	ADP	ADP	_	8	mark	_	_
+8	agir	agir	VERB	VERB	_	6	nmod	_	_
+9	com	com	ADP	ADP	_	13	case	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+11	máxima	máximo	ADJ	ADJ	_	13	amod	_	_
+12	boa	bom	ADJ	ADJ	_	13	amod	_	_
+13	fé	fé	NOUN	NOUN	_	8	nmod	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	proteção	proteção	NOUN	NOUN	_	3	nsubj	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	consumidor	consumidor	NOUN	NOUN	_	15	nmod	_	_
+19	contra	_	ADP	ADP	_	21	case	_	_
+20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	publicidade	publicidade	NOUN	NOUN	_	15	nmod	_	_
+22	enganosa	enganoso	ADJ	ADJ	_	21	amod	_	SpaceAfter=No
+23	,	,	PUNCT	.	_	27	punct	_	_
+24	ou	ou	CCONJ	CONJ	_	27	cc	_	_
+25	seja	ser	VERB	VERB	_	24	fixed	_	SpaceAfter=No
+26	,	,	PUNCT	.	_	27	punct	_	_
+27	aquele	_	PRON	PRON	_	21	conj	_	_
+28	que	_	PRON	PRON	_	31	nsubj:pass	_	_
+29	não	não	ADV	ADV	Polarity=Neg	31	advmod	_	_
+30	é	ser	AUX	AUX	_	31	aux:pass	_	_
+31	feita	_	VERB	VERB	_	27	acl:relcl	_	_
+32	de	de	ADP	ADP	_	33	case	_	_
+33	modo	modo	NOUN	NOUN	_	31	nmod	_	_
+34	claro	claro	ADJ	ADJ	_	33	amod	_	_
+35	e	e	CCONJ	CONJ	_	36	cc	_	_
+36	preciso	preciso	ADJ	ADJ	_	34	conj	_	SpaceAfter=No
+37	,	,	PUNCT	.	_	38	punct	_	_
+38	além	além	ADV	ADV	_	31	advmod	_	_
+39	de	_	ADP	ADP	_	40	mark	_	_
+40	induzir	induzir	VERB	VERB	_	38	nmod	_	_
+41	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	consumidor	consumidor	NOUN	NOUN	_	40	obj	_	_
+43	a	_	ADP	ADP	_	44	case	_	_
+44	erro	erro	NOUN	NOUN	_	40	nmod	_	_
+45	sobre	_	ADP	ADP	_	47	case	_	_
+46	determinado	_	DET	DET	_	47	det	_	_
+47	aspecto	aspecto	NOUN	NOUN	_	44	nmod	_	_
+48-49	do	_	_	_	_	_	_	_	_
+48	de	de	ADP	ADP	_	50	case	_	_
+49	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	produto	produto	NOUN	NOUN	_	47	nmod	_	_
+51	ou	ou	CCONJ	CONJ	_	52	cc	_	_
+52	serviço	serviço	NOUN	NOUN	_	50	conj	_	SpaceAfter=No
+53	,	,	PUNCT	.	_	55	punct	_	_
+54	com	com	ADP	ADP	_	55	case	_	_
+55	base	base	NOUN	NOUN	_	40	nmod	_	_
+56-57	no	_	_	_	_	_	_	_	_
+56	em	em	ADP	ADP	_	58	case	_	_
+57	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	58	det	_	_
+58	fornecimento	fornecimento	NOUN	NOUN	_	55	nmod	_	_
+59	de	de	ADP	ADP	_	60	case	_	_
+60	informações	informação	NOUN	NOUN	_	58	nmod	_	_
+61	inverídicas	inverídico	ADJ	ADJ	_	60	amod	_	SpaceAfter=No
+62	,	,	PUNCT	.	_	63	punct	_	_
+63	além	além	ADV	ADV	_	3	advmod	_	_
+64-65	da	_	_	_	_	_	_	_	_
+64	de	de	ADP	ADP	_	66	case	_	_
+65	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	66	det	_	_
+66	proteção	proteção	NOUN	NOUN	_	63	nmod	_	_
+67	contra	_	ADP	ADP	_	68	case	_	_
+68	práticas	_	NOUN	NOUN	_	66	nmod	_	_
+69	comerciais	comercial	ADJ	ADJ	_	68	amod	_	_
+70	abusivas	abusivo	ADJ	ADJ	_	68	amod	_	_
+71	e	e	CCONJ	CONJ	_	74	cc	_	_
+72-73	da	_	_	_	_	_	_	_	_
+72	de	de	ADP	ADP	_	74	case	_	_
+73	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	74	det	_	_
+74	garantia	garantia	NOUN	NOUN	_	66	conj	_	_
+75-76	do	_	_	_	_	_	_	_	_
+75	de	de	ADP	ADP	_	77	case	_	_
+76	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	77	det	_	_
+77	direito	direito	NOUN	NOUN	_	74	nmod	_	_
+78	de	de	ADP	ADP	_	79	case	_	_
+79	arrependimento	arrependimento	NOUN	NOUN	_	77	nmod	_	SpaceAfter=No
+80	,	,	PUNCT	.	_	84	punct	_	_
+81	mesmo	mesmo	ADV	ADV	_	82	advmod	_	_
+82	depois	depois	ADV	ADV	_	84	mark	_	_
+83	de	_	ADP	ADP	_	82	fixed	_	_
+84	efetivada	efetivar	VERB	VERB	_	77	advcl	_	_
+85	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	86	det	_	_
+86	contratação	contratação	NOUN	NOUN	_	84	nsubj	_	SpaceAfter=No
+87	,	,	PUNCT	.	_	90	punct	_	_
+88-89	nos	_	_	_	_	_	_	_	_
+88	em	em	ADP	ADP	_	90	case	_	_
+89	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	90	det	_	_
+90	termos	termo	NOUN	NOUN	_	77	nmod	_	_
+91-92	do	_	_	_	_	_	_	_	_
+91	de	de	ADP	ADP	_	93	case	_	_
+92	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	93	det	_	_
+93	Artigo	_	PROPN	PNOUN	_	90	nmod	_	_
+94	49	49	NUM	NUM	NumType=Card	93	appos	_	_
+95-96	do	_	_	_	_	_	_	_	_
+95	de	de	ADP	ADP	_	97	case	_	_
+96	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	97	det	_	_
+97	CDC	_	PROPN	PNOUN	_	93	nmod	_	SpaceAfter=No
+98	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s587
+# text = Ao todo, já foram inauguradas 158 APS em todo o Brasil.
+1-2	Ao	_	_	_	_	_	_	_	_
+1	A	a	ADP	ADP	_	3	case	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	todo	_	PRON	PRON	_	7	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	já	já	ADV	ADV	_	7	advmod	_	_
+6	foram	_	AUX	AUX	_	7	aux:pass	_	_
+7	inauguradas	inaugurar	VERB	VERB	_	0	root	_	_
+8	158	158	NUM	NUM	NumType=Card	9	nummod	_	_
+9	APS	_	PROPN	PNOUN	_	7	nsubj:pass	_	_
+10	em	em	ADP	ADP	_	13	case	_	_
+11	todo	_	DET	DET	_	13	det	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Brasil	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s588
+# text = Andou se machucando.
+1	Andou	andar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+3	machucando	machucar	VERB	_	VerbForm=Ger	1	xcomp	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = train-s589
+# text = "2012 foi um ano de muito trabalho, mas também de resultados positivos", definiu Lenz César.
+1	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
+2	2012	2012	NUM	NUM	NumType=Card	5	nsubj	_	_
+3	foi	_	AUX	AUX	_	5	cop	_	_
+4	um	um	DET	DET	_	5	det	_	_
+5	ano	ano	NOUN	NOUN	_	17	ccomp	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	muito	_	DET	DET	_	8	det	_	_
+8	trabalho	trabalho	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	13	punct	_	_
+10	mas	mas	CCONJ	CONJ	_	13	cc	_	_
+11	também	também	ADV	ADV	_	13	advmod	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
+13	resultados	resultado	NOUN	NOUN	_	8	conj	_	_
+14	positivos	positivo	ADJ	ADJ	_	13	amod	_	SpaceAfter=No
+15	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
+16	,	,	PUNCT	.	_	17	punct	_	_
+17	definiu	definir	VERB	VERB	_	0	root	_	_
+18	Lenz	_	PROPN	PNOUN	_	17	nsubj	_	_
+19	César	_	PROPN	PNOUN	_	18	flat	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	17	punct	_	_
+
+# sent_id = train-s590
+# text = Dentro de campo, o clima de amizade acabou rapidamente.
+1	Dentro	dentro	ADV	ADV	_	9	advmod	_	_
+2	de	de	ADP	ADP	_	3	case	_	_
+3	campo	campo	NOUN	NOUN	_	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	1	punct	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	clima	clima	NOUN	NOUN	_	9	nsubj	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
+8	amizade	amizade	NOUN	NOUN	_	6	nmod	_	_
+9	acabou	acabar	VERB	VERB	_	0	root	_	_
+10	rapidamente	rapidamente	ADV	ADV	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	9	punct	_	_
+

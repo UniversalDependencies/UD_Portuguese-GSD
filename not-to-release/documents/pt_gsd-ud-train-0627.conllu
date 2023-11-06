@@ -1,0 +1,305 @@
+# sent_id = train-s6225
+# text = Um veterinário - chefe de Tamil Nadu disse: "No cativeiro, elefantes comem constantemente e isso, aliado à falta de exercícios, torna os animais obesos".
+1	Um	_	DET	DET	_	2	det	_	_
+2	veterinário	veterinário	NOUN	NOUN	_	8	nsubj	_	_
+3	-	-	PUNCT	.	_	2	punct	_	_
+4	chefe	chefe	NOUN	NOUN	_	2	flat	_	_
+5	de	de	ADP	ADP	_	6	case	_	_
+6	Tamil	_	PROPN	PNOUN	_	2	nmod	_	_
+7	Nadu	_	PROPN	PNOUN	_	6	flat	_	_
+8	disse	dizer	VERB	VERB	_	0	root	_	SpaceAfter=No
+9	:	:	PUNCT	.	_	8	punct	_	_
+10	"	"	PUNCT	.	_	16	punct	_	SpaceAfter=No
+11-12	No	_	_	_	_	_	_	_	_
+11	Em	em	ADP	ADP	_	13	case	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	cativeiro	cativeiro	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	13	punct	_	_
+15	elefantes	elefante	NOUN	NOUN	_	16	nsubj	_	_
+16	comem	comer	VERB	VERB	_	8	ccomp	_	_
+17	constantemente	constantemente	ADV	ADV	_	16	advmod	_	_
+18	e	e	CCONJ	CONJ	_	28	cc	_	_
+19	isso	_	PRON	PRON	_	28	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	.	_	21	punct	_	_
+21	aliado	aliar	VERB	VERB	_	19	acl	_	_
+22-23	à	_	_	_	_	_	_	_	_
+22	a	a	ADP	ADP	_	24	case	_	_
+23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	falta	_	NOUN	NOUN	_	21	nmod	_	_
+25	de	de	ADP	ADP	_	26	case	_	_
+26	exercícios	exercício	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	.	_	21	punct	_	_
+28	torna	tornar	VERB	VERB	_	16	conj	_	_
+29	os	o	DET	DET	_	30	det	_	_
+30	animais	animal	NOUN	NOUN	_	31	nsubj	_	_
+31	obesos	obeso	ADJ	ADJ	_	28	xcomp	_	SpaceAfter=No
+32	"	"	PUNCT	.	_	16	punct	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s6226
+# text = O Hulk passa a viver em K'ai e, para lhe ensinar o idioma do reino, os sacerdotes de Jarella colocam um feitiço no gigante esmeralda.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Hulk	Hulk	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	passa	passar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	SCONJ	_	_	5	mark	_	_
+5	viver	viver	VERB	_	VerbForm=Inf	3	xcomp	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	K'	K'	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	ai	ai	PROPN	_	Number=Sing	7	flat:name	_	_
+9	e	e	CCONJ	_	_	24	cc	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	_
+11	para	para	SCONJ	_	_	13	mark	_	_
+12	lhe	ele	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	iobj	_	_
+13	ensinar	ensinar	VERB	_	VerbForm=Inf	24	advcl	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	idioma	idioma	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	reino	reino	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	13	punct	_	_
+20	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	sacerdotes	sacerdote	NOUN	_	Gender=Masc|Number=Plur	24	nsubj	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	Jarella	Jarella	PROPN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+24	colocam	colocar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+25	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	feitiço	feitiço	NOUN	_	Gender=Masc|Number=Sing	24	obj	_	_
+27-28	no	_	_	_	_	_	_	_	_
+27	em	em	ADP	_	_	29	case	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	gigante	gigante	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	_
+30	esmeralda	esmeralda	ADJ	_	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = train-s6227
+# text = Apesar de todas as merdas da Apple, há de se reconhecer que os serviços do iTunes são excelentes e não existe, até hoje, um concorrente à altura (pelo menos que eu conheça).
+1	Apesar	apesar	ADV	ADV	_	5	case	_	_
+2	de	_	ADP	ADP	_	1	fixed	_	_
+3	todas	_	DET	DET	_	5	det	_	_
+4	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	merdas	_	NOUN	NOUN	_	13	nmod	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Apple	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	5	punct	_	_
+10	há	haver	AUX	AUX	_	13	aux	_	_
+11	de	_	ADP	ADP	_	13	mark	_	_
+12	se	_	PRON	PRON	_	13	expl:pv	_	_
+13	reconhecer	reconhecer	VERB	VERB	_	0	root	_	_
+14	que	que	CCONJ	CONJ	_	20	mark	_	_
+15	os	o	DET	DET	_	16	det	_	_
+16	serviços	serviço	NOUN	NOUN	_	20	nsubj	_	_
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	ADP	_	19	case	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	iTunes	_	PROPN	PNOUN	_	16	nmod	_	_
+20	são	ser	VERB	VERB	_	13	csubj	_	_
+21	excelentes	excelente	ADJ	ADJ	_	20	xcomp	_	_
+22	e	e	CCONJ	CONJ	_	24	cc	_	_
+23	não	não	ADV	ADV	Polarity=Neg	24	advmod	_	_
+24	existe	existir	VERB	VERB	_	20	conj	_	SpaceAfter=No
+25	,	,	PUNCT	.	_	27	punct	_	_
+26	até	_	ADP	ADP	_	27	mark	_	_
+27	hoje	hoje	ADV	ADV	_	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	.	_	27	punct	_	_
+29	um	um	DET	DET	_	30	det	_	_
+30	concorrente	concorrente	NOUN	NOUN	_	24	nsubj	_	_
+31-32	à	_	_	_	_	_	_	_	_
+31	a	a	ADP	ADP	_	33	case	_	_
+32	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	altura	altura	NOUN	NOUN	_	30	nmod	_	_
+34	(	(	PUNCT	.	_	40	punct	_	SpaceAfter=No
+35-36	pelo	_	_	_	_	_	_	_	_
+35	por	por	ADP	ADP	_	37	case	_	_
+36	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	menos	menos	ADV	ADV	_	40	nmod	_	_
+38	que	que	CCONJ	CONJ	_	40	mark	_	_
+39	eu	_	PRON	PRON	_	40	nsubj	_	_
+40	conheça	conhecer	VERB	VERB	_	24	advcl	_	SpaceAfter=No
+41	)	)	PUNCT	.	_	40	punct	_	SpaceAfter=No
+42	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = train-s6228
+# text = A Lei de Diretrizes Orçamentárias (LDO) estabelece que o Executivo envie a atualização dos parâmetros da economia.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Lei	_	PROPN	PNOUN	_	9	nsubj	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
+4	Diretrizes	_	PROPN	PNOUN	_	2	nmod	_	_
+5	Orçamentárias	_	PROPN	PNOUN	_	4	amod	_	_
+6	(	(	PUNCT	.	_	7	punct	_	SpaceAfter=No
+7	LDO	_	PROPN	PNOUN	_	2	appos	_	SpaceAfter=No
+8	)	)	PUNCT	.	_	7	punct	_	_
+9	estabelece	estabelecer	VERB	VERB	_	0	root	_	_
+10	que	que	CCONJ	CONJ	_	13	mark	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Executivo	_	PROPN	PNOUN	_	13	nsubj	_	_
+13	envie	enviar	VERB	VERB	_	9	ccomp	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	atualização	atualização	NOUN	NOUN	_	13	obj	_	_
+16-17	dos	_	_	_	_	_	_	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
+17	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	parâmetros	parâmetro	NOUN	NOUN	_	15	nmod	_	_
+19-20	da	_	_	_	_	_	_	_	_
+19	de	de	ADP	ADP	_	21	case	_	_
+20	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	economia	economia	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	9	punct	_	_
+
+# sent_id = train-s6229
+# text = Havia sangue no pulmão do executivo, o que só ocorreria se ele estivesse vivo, de acordo com o legista.
+1	Havia	haver	VERB	VERB	_	0	root	_	_
+2	sangue	sangue	NOUN	NOUN	_	1	obj	_	_
+3-4	no	_	_	_	_	_	_	_	_
+3	em	em	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	pulmão	pulmão	NOUN	NOUN	_	1	nmod	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	executivo	executivo	NOUN	NOUN	_	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	1	punct	_	_
+10	o	o	DET	DET	_	11	det	_	_
+11	que	_	PRON	PRON	_	13	nsubj	_	_
+12	só	só	ADV	ADV	_	13	advmod	_	_
+13	ocorreria	ocorrer	VERB	VERB	_	1	acl:relcl	_	_
+14	se	_	CCONJ	CONJ	_	16	mark	_	_
+15	ele	_	PRON	PRON	_	16	nsubj	_	_
+16	estivesse	estar	VERB	VERB	_	13	advcl	_	_
+17	vivo	vivo	ADJ	ADJ	_	16	xcomp	_	SpaceAfter=No
+18	,	,	PUNCT	.	_	20	punct	_	_
+19	de	de	ADP	ADP	_	20	case	_	_
+20	acordo	acordo	NOUN	NOUN	_	13	nmod	_	_
+21	com	com	ADP	ADP	_	23	case	_	_
+22	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	legista	legista	NOUN	NOUN	_	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s6230
+# text = Os corpos dos três serão sepultados às 17h, no cemitério de Vila Rosali, em São João de Meriti, na Baixada Fluminense.
+1	Os	o	DET	DET	_	2	det	_	_
+2	corpos	corpo	NOUN	NOUN	_	7	nsubj:pass	_	_
+3-4	dos	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	três	_	NUM	NUM	NumType=Card	2	nmod	_	_
+6	serão	ser	AUX	AUX	_	7	aux:pass	_	_
+7	sepultados	sepultar	VERB	VERB	_	0	root	_	_
+8-9	às	_	_	_	_	_	_	_	_
+8	a	a	ADP	ADP	_	10	case	_	_
+9	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	17h	_	NUM	NUM	NumType=Card	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	14	punct	_	_
+12-13	no	_	_	_	_	_	_	_	_
+12	em	em	ADP	ADP	_	14	case	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	cemitério	cemitério	NOUN	NOUN	_	7	nmod	_	_
+15	de	de	ADP	ADP	_	16	case	_	_
+16	Vila	_	PROPN	PNOUN	_	14	nmod	_	_
+17	Rosali	_	PROPN	PNOUN	_	16	flat	_	SpaceAfter=No
+18	,	,	PUNCT	.	_	20	punct	_	_
+19	em	em	ADP	ADP	_	20	case	_	_
+20	São	_	PROPN	PNOUN	_	7	nmod	_	_
+21	João	_	PROPN	PNOUN	_	20	flat	_	_
+22	de	de	ADP	ADP	_	23	case	_	_
+23	Meriti	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	.	_	27	punct	_	_
+25-26	na	_	_	_	_	_	_	_	_
+25	em	em	ADP	ADP	_	27	case	_	_
+26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	Baixada	_	PROPN	PNOUN	_	7	nmod	_	_
+28	Fluminense	_	PROPN	PNOUN	_	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s6231
+# text = O aposentado Roberto Augusto Apolinário levava uma vida normal até o início de 2000, quando sentiu uma forte dor que o levou à internação hospitalar urgente.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	aposentado	aposentado	NOUN	NOUN	_	6	nsubj	_	_
+3	Roberto	_	PROPN	PNOUN	_	2	appos	_	_
+4	Augusto	_	PROPN	PNOUN	_	3	flat	_	_
+5	Apolinário	_	PROPN	PNOUN	_	3	flat	_	_
+6	levava	levar	VERB	VERB	_	0	root	_	_
+7	uma	um	DET	DET	_	8	det	_	_
+8	vida	vida	NOUN	NOUN	_	6	obj	_	_
+9	normal	normal	ADJ	ADJ	_	8	amod	_	_
+10	até	_	ADP	ADP	_	12	case	_	_
+11	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	início	início	NOUN	NOUN	_	6	nmod	_	_
+13	de	de	ADP	ADP	_	14	case	_	_
+14	2000	2000	NUM	NUM	NumType=Card	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	.	_	17	punct	_	_
+16	quando	quando	ADV	ADV	_	17	advmod	_	_
+17	sentiu	sentir	VERB	VERB	_	12	acl:relcl	_	_
+18	uma	um	DET	DET	_	20	det	_	_
+19	forte	forte	ADJ	ADJ	_	20	amod	_	_
+20	dor	dor	NOUN	NOUN	_	17	obj	_	_
+21	que	_	PRON	PRON	_	23	nsubj	_	_
+22	o	_	PRON	PRON	_	23	obj	_	_
+23	levou	levar	VERB	VERB	_	20	acl:relcl	_	_
+24-25	à	_	_	_	_	_	_	_	_
+24	a	a	ADP	ADP	_	26	case	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	internação	internação	NOUN	NOUN	_	23	nmod	_	_
+27	hospitalar	hospitalar	ADJ	ADJ	_	26	amod	_	_
+28	urgente	urgente	ADJ	ADJ	_	26	amod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s6232
+# text = Vou ligar para ele para ver se fazemos uma apostinha.
+1	Vou	ir	AUX	AUX	_	2	aux	_	_
+2	ligar	ligar	VERB	VERB	_	0	root	_	_
+3	para	para	ADP	ADP	_	4	case	_	_
+4	ele	_	PRON	PRON	_	2	nmod	_	_
+5	para	_	ADP	ADP	_	6	mark	_	_
+6	ver	ver	VERB	VERB	_	2	advcl	_	_
+7	se	_	CCONJ	CONJ	_	8	mark	_	_
+8	fazemos	fazer	VERB	VERB	_	6	ccomp	_	_
+9	uma	um	DET	DET	_	10	det	_	_
+10	apostinha	_	NOUN	NOUN	_	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s6233
+# text = Para o fim de 2013, a expectativa também não mudou, ficando em 8,50 por cento.
+1	Para	_	ADP	ADP	_	3	case	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	fim	fim	NOUN	NOUN	_	11	nmod	_	_
+4	de	de	ADP	ADP	_	5	case	_	_
+5	2013	2013	NUM	NUM	NumType=Card	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	.	_	3	punct	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	expectativa	expectativa	NOUN	NOUN	_	11	nsubj	_	_
+9	também	também	ADV	ADV	_	11	advmod	_	_
+10	não	não	ADV	ADV	Polarity=Neg	11	advmod	_	_
+11	mudou	mudar	VERB	VERB	_	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	.	_	13	punct	_	_
+13	ficando	ficar	VERB	VERB	_	11	acl	_	_
+14	em	em	ADP	ADP	_	15	case	_	_
+15	8,50	8,50	NUM	NUM	NumType=Card	13	nmod	_	_
+16	por	por	ADP	ADP	_	17	case	_	_
+17	cento	cento	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	11	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = A gente viu todo o processo que aconteceu e quer respeitar o posicionamento dele.
+# sent_id = train-s6234
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	gente	gente	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	viu	ver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Tot	6	det	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	fixed	_	_
+6	processo	processo	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+7	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	8	nsubj	_	_
+8	aconteceu	acontecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	quer	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+11	respeitar	respeitar	VERB	_	VerbForm=Inf	10	xcomp	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	posicionamento	posicionamento	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+14-15	dele	_	_	_	_	_	_	_	SpaceAfter=No
+14	de	de	ADP	_	_	15	case	_	_
+15	ele	ele	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nmod	_	_
+16	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+

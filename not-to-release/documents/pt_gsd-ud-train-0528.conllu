@@ -1,0 +1,311 @@
+# sent_id = train-s5240
+# text = A vitória de virada por 4 a 3 sobre o Joinville mostrou outra vez o potencial dos homens de frente do Alvinegro.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	vitória	vitória	NOUN	NOUN	_	12	nsubj	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
+4	virada	_	NOUN	NOUN	_	2	nmod	_	_
+5	por	por	ADP	ADP	_	6	case	_	_
+6	4	4	NUM	NUM	NumType=Card	2	nmod	_	_
+7	a	_	ADP	ADP	_	8	case	_	_
+8	3	3	NUM	NUM	NumType=Card	6	nmod	_	_
+9	sobre	_	ADP	ADP	_	11	case	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Joinville	_	PROPN	PNOUN	_	2	nmod	_	_
+12	mostrou	mostrar	VERB	VERB	_	0	root	_	_
+13	outra	_	DET	DET	_	14	det	_	_
+14	vez	vez	NOUN	NOUN	_	12	nmod	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	potencial	potencial	NOUN	NOUN	_	12	obj	_	_
+17-18	dos	_	_	_	_	_	_	_	_
+17	de	de	ADP	ADP	_	19	case	_	_
+18	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	homens	homem	NOUN	NOUN	_	16	nmod	_	_
+20	de	de	ADP	ADP	_	21	case	_	_
+21	frente	frente	NOUN	NOUN	_	19	nmod	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	ADP	_	24	case	_	_
+23	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Alvinegro	_	PROPN	PNOUN	_	19	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = train-s5241
+# text = A partida será dia 15, um sábado, às 21h.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	partida	partida	NOUN	NOUN	_	4	nsubj	_	_
+3	será	ser	AUX	AUX	_	4	cop	_	_
+4	dia	dia	NOUN	NOUN	_	0	root	_	_
+5	15	15	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	.	_	8	punct	_	_
+7	um	um	DET	DET	_	8	det	_	_
+8	sábado	_	PROPN	PNOUN	_	4	appos	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	12	punct	_	_
+10-11	às	_	_	_	_	_	_	_	_
+10	a	a	ADP	ADP	_	12	case	_	_
+11	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	21h	_	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s5242
+# text = Aliás, mesmo se vencerem, os dois times permanecem entre os últimos quatro colocados da competição.
+1	Aliás	aliás	ADV	ADV	_	10	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	.	_	1	punct	_	_
+3	mesmo	mesmo	ADV	ADV	_	5	advmod	_	_
+4	se	_	CCONJ	CONJ	_	5	mark	_	_
+5	vencerem	vencer	VERB	VERB	_	10	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	.	_	5	punct	_	_
+7	os	o	DET	DET	_	9	det	_	_
+8	dois	_	NUM	NUM	NumType=Card	9	nummod	_	_
+9	times	time	NOUN	NOUN	_	10	nsubj	_	_
+10	permanecem	permanecer	VERB	VERB	_	0	root	_	_
+11	entre	_	ADP	ADP	_	15	case	_	_
+12	os	o	DET	DET	_	15	det	_	_
+13	últimos	último	ADJ	ADJ	_	15	amod	_	_
+14	quatro	_	NUM	NUM	NumType=Card	15	nummod	_	_
+15	colocados	_	NOUN	NOUN	_	10	nmod	_	_
+16-17	da	_	_	_	_	_	_	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
+17	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	competição	competição	NOUN	NOUN	_	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	10	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Desde 2007, ele, conhecido pelos mexicanos como "Chapulín" (Gafanhoto, em inglês), participa da American Le Mans Series, com um LMP2 Lola B06/42-Acura da Fernández Racing, equipe do ex - piloto Adrián Fernández.
+# sent_id = train-s5243
+1	Desde	desde	ADP	_	_	2	case	_	_
+2	2007	2007	NUM	_	NumType=Card	21	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	conhecido	conhecer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	acl	_	_
+7-8	pelos	_	_	_	_	_	_	_	_
+7	por	por	ADP	_	_	9	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	mexicanos	mexicano	NOUN	_	Gender=Masc|Number=Plur	6	obl:agent	_	_
+10	como	como	ADP	_	_	12	case	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	Chapulín	Chapulín	PROPN	_	Gender=Masc|Number=Sing	6	xcomp	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	12	punct	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	Gafanhoto	Gafanhoto	PROPN	_	Gender=Masc|Number=Sing	12	appos	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	em	em	ADP	_	_	18	case	_	_
+18	inglês	inglês	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	6	punct	_	_
+21	participa	participar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+22-23	da	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	American	American	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	21	obl	_	_
+25	Le	Le	PROPN	_	Number=Sing	24	flat:name	_	_
+26	Mans	Mans	PROPN	_	Number=Sing	24	flat:name	_	_
+27	Series	Series	PROPN	_	Number=Sing	24	flat:name	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	21	punct	_	_
+29	com	com	ADP	_	_	31	case	_	_
+30	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	LMP2	LMP2	PROPN	_	Gender=Masc|Number=Sing	21	obl	_	_
+32	Lola	Lola	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	31	appos	_	_
+33	B06/42-Acura	B06/42-acura	PROPN	_	Number=Sing	32	flat:name	_	_
+34-35	da	_	_	_	_	_	_	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	Fernández	Fernández	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	31	nmod	_	_
+37	Racing	Racing	PROPN	_	Number=Sing	36	flat:name	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	39	punct	_	_
+39	equipe	equipe	NOUN	_	Gender=Fem|Number=Sing	36	appos	_	_
+40-41	do	_	_	_	_	_	_	_	_
+40	de	de	ADP	_	_	44	case	_	_
+41	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+42	ex	ex	ADJ	_	Gender=Masc|Number=Sing	44	amod	_	_
+43	-	-	PUNCT	_	_	44	punct	_	_
+44	piloto	piloto	NOUN	_	Gender=Masc|Number=Sing	39	nmod	_	_
+45	Adrián	Adrián	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	44	appos	_	_
+46	Fernández	Fernández	PROPN	_	Number=Sing	45	flat:name	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = train-s5244
+# text = "Não foi nem o Reino Unido nem meu país natal, a Austrália, que decidiu me proteger da perseguição, mas uma valente nação independente latino - americana", disse o ativista, de 41 anos.
+1	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
+2	Não	não	ADV	ADV	Polarity=Neg	3	advmod	_	_
+3	foi	_	VERB	VERB	_	34	ccomp	_	_
+4	nem	_	CCONJ	CONJ	_	6	cc	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Reino	_	PROPN	PNOUN	_	3	nsubj	_	_
+7	Unido	_	PROPN	PNOUN	_	6	amod	_	_
+8	nem	_	CCONJ	CONJ	_	10	cc	_	_
+9	meu	_	DET	DET	_	10	det:poss	_	_
+10	país	país	NOUN	NOUN	_	6	conj	_	_
+11	natal	natal	ADJ	ADJ	_	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	.	_	14	punct	_	_
+13	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Austrália	_	PROPN	PNOUN	_	10	appos	_	SpaceAfter=No
+15	,	,	PUNCT	.	_	14	punct	_	_
+16	que	_	PRON	PRON	_	17	nsubj	_	_
+17	decidiu	decidir	VERB	VERB	_	6	acl:relcl	_	_
+18	me	_	PRON	PRON	_	19	obj	_	_
+19	proteger	proteger	VERB	VERB	_	17	ccomp	_	_
+20-21	da	_	_	_	_	_	_	_	_
+20	de	de	ADP	ADP	_	22	case	_	_
+21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	perseguição	perseguição	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	.	_	27	punct	_	_
+24	mas	mas	CCONJ	CONJ	_	27	cc	_	_
+25	uma	um	DET	DET	_	27	det	_	_
+26	valente	valente	ADJ	ADJ	_	27	amod	_	_
+27	nação	nação	NOUN	NOUN	_	6	conj	_	_
+28	independente	independente	ADJ	ADJ	_	27	amod	_	_
+29	latino	_	PART	PRT	_	31	amod	_	_
+30	-	-	PUNCT	.	_	31	punct	_	_
+31	americana	americano	ADJ	ADJ	_	27	amod	_	SpaceAfter=No
+32	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
+33	,	,	PUNCT	.	_	34	punct	_	_
+34	disse	dizer	VERB	VERB	_	0	root	_	_
+35	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	ativista	ativista	NOUN	NOUN	_	34	nsubj	_	SpaceAfter=No
+37	,	,	PUNCT	.	_	40	punct	_	_
+38	de	de	ADP	ADP	_	40	case	_	_
+39	41	41	NUM	NUM	NumType=Card	40	nummod	_	_
+40	anos	ano	NOUN	NOUN	_	36	nmod	_	SpaceAfter=No
+41	.	.	PUNCT	.	_	34	punct	_	_
+
+# sent_id = train-s5245
+# text = A polícia constatou que nenhuma porta tinha sido arrombada e que o alarme não tido sido acionado, o que levou aos policiais a suspeitarem da facilitação para o furto.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	polícia	polícia	NOUN	NOUN	_	3	nsubj	_	_
+3	constatou	constatar	VERB	VERB	_	0	root	_	_
+4	que	que	CCONJ	CONJ	_	9	mark	_	_
+5	nenhuma	_	DET	DET	_	6	det	_	_
+6	porta	porta	NOUN	NOUN	_	9	nsubj:pass	_	_
+7	tinha	ter	AUX	AUX	_	9	aux	_	_
+8	sido	ser	AUX	AUX	_	9	aux:pass	_	_
+9	arrombada	arrombar	VERB	VERB	_	3	ccomp	_	_
+10	e	e	CCONJ	CONJ	_	17	cc	_	_
+11	que	que	CCONJ	CONJ	_	17	mark	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	alarme	alarme	NOUN	NOUN	_	17	nsubj:pass	_	_
+14	não	não	ADV	ADV	Polarity=Neg	17	advmod	_	_
+15	tido	ter	AUX	AUX	_	17	aux	_	_
+16	sido	ser	AUX	AUX	_	17	aux:pass	_	_
+17	acionado	acionar	VERB	VERB	_	9	conj	_	SpaceAfter=No
+18	,	,	PUNCT	.	_	21	punct	_	_
+19	o	o	DET	DET	_	20	det	_	_
+20	que	_	PRON	PRON	_	21	nsubj	_	_
+21	levou	levar	VERB	VERB	_	3	parataxis	_	_
+22-23	aos	_	_	_	_	_	_	_	_
+22	a	a	ADP	ADP	_	24	case	_	_
+23	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	policiais	policial	NOUN	NOUN	_	21	iobj	_	_
+25	a	_	ADP	ADP	_	26	mark	_	_
+26	suspeitarem	suspeitar	VERB	VERB	_	21	nmod	_	_
+27-28	da	_	_	_	_	_	_	_	_
+27	de	de	ADP	ADP	_	29	case	_	_
+28	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	facilitação	facilitação	NOUN	NOUN	_	26	nmod	_	_
+30	para	para	ADP	ADP	_	32	case	_	_
+31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	furto	furto	NOUN	NOUN	_	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s5246
+# text = As demais, os projetos estão em fase de conclusão.
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	demais	_	NOUN	NOUN	_	6	dep	_	SpaceAfter=No
+3	,	,	PUNCT	.	_	2	punct	_	_
+4	os	o	DET	DET	_	5	det	_	_
+5	projetos	projeto	NOUN	NOUN	_	6	nsubj	_	_
+6	estão	estar	VERB	VERB	_	0	root	_	_
+7	em	em	ADP	ADP	_	8	case	_	_
+8	fase	fase	NOUN	NOUN	_	6	nmod	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
+10	conclusão	conclusão	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s5247
+# text = Ainda segundo o presidente pessedista no estado, houve uma determinação do presidente do PT, Jonas Paulo, de agir contra o PSD.
+1	Ainda	ainda	ADV	ADV	_	4	advmod	_	_
+2	segundo	_	ADP	ADP	_	4	case	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	presidente	presidente	NOUN	NOUN	_	10	nmod	_	_
+5	pessedista	pessedista	ADJ	ADJ	_	4	amod	_	_
+6-7	no	_	_	_	_	_	_	_	_
+6	em	em	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	estado	estado	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	4	punct	_	_
+10	houve	haver	VERB	VERB	_	0	root	_	_
+11	uma	um	DET	DET	_	12	det	_	_
+12	determinação	determinação	NOUN	NOUN	_	10	obj	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
+14	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	presidente	presidente	NOUN	NOUN	_	12	nmod	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	PT	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	.	_	20	punct	_	_
+20	Jonas	_	PROPN	PNOUN	_	15	appos	_	_
+21	Paulo	_	PROPN	PNOUN	_	20	flat	_	SpaceAfter=No
+22	,	,	PUNCT	.	_	20	punct	_	_
+23	de	_	ADP	ADP	_	24	mark	_	_
+24	agir	agir	VERB	VERB	_	12	nmod	_	_
+25	contra	_	ADP	ADP	_	27	case	_	_
+26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	PSD	_	PROPN	PNOUN	_	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	10	punct	_	_
+
+# sent_id = train-s5248a
+# text = Em praticamente todas as reportagens havia fotos de Niemeyer e imagens de Brasília.Nos
+1	Em	em	ADP	ADP	_	5	case	_	_
+2	praticamente	praticamente	ADV	ADV	_	5	advmod	_	_
+3	todas	_	DET	DET	_	5	det	_	_
+4	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	reportagens	reportagem	NOUN	NOUN	_	6	nmod	_	_
+6	havia	haver	VERB	VERB	_	0	root	_	_
+7	fotos	foto	NOUN	NOUN	_	6	obj	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
+9	Niemeyer	_	PROPN	PNOUN	_	7	nmod	_	_
+10	e	e	CCONJ	CONJ	_	11	cc	_	_
+11	imagens	imagem	NOUN	NOUN	_	7	conj	_	_
+12	de	de	ADP	ADP	_	13	case	_	_
+13	Brasília.Nos	_	PROPN	PNOUN	_	11	nmod	_	_
+
+# sent_id = train-s5248b
+# text = Estados Unidos, os jornais The New York Times e The Washington Post, além de vários veículos regionais, como o Miami Herald, publicaram em destaque a morte de Niemeyer.
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+1	Estados	Estados	PROPN	_	Gender=Masc|Number=Plur	26	parataxis	_	_
+2	Unidos	Unidos	PROPN	_	Number=Sing	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	jornais	jornal	NOUN	_	Gender=Masc|Number=Plur	26	nsubj	_	_
+6	The	The	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	5	appos	_	_
+7	New	New	PROPN	_	Number=Sing	6	flat:name	_	_
+8	York	York	PROPN	_	Number=Sing	6	flat:name	_	_
+9	Times	Times	PROPN	_	Number=Sing	6	flat:name	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	The	The	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	6	conj	_	_
+12	Washington	Washington	PROPN	_	Number=Sing	11	flat:name	_	_
+13	Post	Post	PROPN	_	Number=Sing	11	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	além	além	ADV	_	_	18	cc	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	vários	vários	DET	_	Gender=Masc|Number=Plur|PronType=Ind	18	det	_	_
+18	veículos	veículo	NOUN	_	Gender=Masc|Number=Plur	5	conj	_	_
+19	regionais	regional	ADJ	_	Gender=Masc|Number=Plur	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	23	punct	_	_
+21	como	como	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Miami	Miami	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	18	nmod	_	_
+24	Herald	Herald	PROPN	_	Number=Sing	23	flat:name	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	23	punct	_	_
+26	publicaram	publicar	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+27	em	em	ADP	_	_	28	case	_	_
+28	destaque	destaque	NOUN	_	Gender=Masc|Number=Sing	26	obl	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	morte	morte	NOUN	_	Gender=Fem|Number=Sing	26	obj	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	Niemeyer	Niemeyer	PROPN	_	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	26	punct	_	SpaceAfter=No
+

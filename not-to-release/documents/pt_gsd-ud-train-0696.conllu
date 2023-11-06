@@ -1,0 +1,298 @@
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = É proibido impor ao consumidor que utilize todo o valor do ticket.
+# sent_id = train-s6906
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
+2	proibido	proibir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+3	impor	impor	VERB	_	VerbForm=Inf	2	csubj	_	_
+4-5	ao	_	_	_	_	_	_	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	consumidor	consumidor	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+7	que	que	SCONJ	_	_	8	mark	_	_
+8	utilize	utilizar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+9	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Tot	11	det	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	valor	valor	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	ticket	ticket	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
+
+# sent_id = train-s6907
+# text = Ambos vêm trocando farpas durante o julgamento da Ação Penal 470 como relator e revisor, mas garantem que as divergências estão restritas ao processo e não chegam ao nível pessoal ou institucional.
+1	Ambos	_	PRON	PRON	_	3	nsubj	_	_
+2	vêm	vir	AUX	AUX	_	3	aux	_	_
+3	trocando	trocar	VERB	VERB	_	0	root	_	_
+4	farpas	farpa	NOUN	NOUN	_	3	obj	_	_
+5	durante	_	ADP	ADP	_	7	case	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	julgamento	julgamento	NOUN	NOUN	_	3	nmod	_	_
+8-9	da	_	_	_	_	_	_	_	_
+8	de	de	ADP	ADP	_	10	case	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Ação	_	PROPN	PNOUN	_	7	nmod	_	_
+11	Penal	_	PROPN	PNOUN	_	10	amod	_	_
+12	470	470	NUM	NUM	NumType=Card	10	appos	_	_
+13	como	como	ADP	ADP	_	14	case	_	_
+14	relator	relator	NOUN	NOUN	_	3	nmod	_	_
+15	e	e	CCONJ	CONJ	_	16	cc	_	_
+16	revisor	revisor	NOUN	NOUN	_	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	.	_	19	punct	_	_
+18	mas	mas	CCONJ	CONJ	_	19	cc	_	_
+19	garantem	garantir	VERB	VERB	_	3	conj	_	_
+20	que	que	CCONJ	CONJ	_	23	mark	_	_
+21	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	divergências	divergência	NOUN	NOUN	_	23	nsubj	_	_
+23	estão	estar	VERB	VERB	_	19	ccomp	_	_
+24	restritas	restrito	ADJ	ADJ	_	23	xcomp	_	_
+25-26	ao	_	_	_	_	_	_	_	_
+25	a	a	ADP	ADP	_	27	case	_	_
+26	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	processo	processo	NOUN	NOUN	_	24	nmod	_	_
+28	e	e	CCONJ	CONJ	_	30	cc	_	_
+29	não	não	ADV	ADV	Polarity=Neg	30	advmod	_	_
+30	chegam	chegar	VERB	VERB	_	23	conj	_	_
+31-32	ao	_	_	_	_	_	_	_	_
+31	a	a	ADP	ADP	_	33	case	_	_
+32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	nível	nível	NOUN	NOUN	_	30	nmod	_	_
+34	pessoal	pessoal	ADJ	ADJ	_	33	amod	_	_
+35	ou	ou	CCONJ	CONJ	_	36	cc	_	_
+36	institucional	institucional	ADJ	ADJ	_	34	conj	_	SpaceAfter=No
+37	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s6908
+# text = O evento terá início amanhã (27), às 8 h com credenciamento e segue até às 18h.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	evento	evento	NOUN	NOUN	_	3	nsubj	_	_
+3	terá	ter	VERB	VERB	_	0	root	_	_
+4	início	início	NOUN	NOUN	_	3	obj	_	_
+5	amanhã	amanhã	ADV	ADV	_	3	advmod	_	_
+6	(	(	PUNCT	.	_	7	punct	_	SpaceAfter=No
+7	27	27	NUM	NUM	NumType=Card	5	nmod	_	SpaceAfter=No
+8	)	)	PUNCT	.	_	7	punct	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	13	punct	_	_
+10-11	às	_	_	_	_	_	_	_	_
+10	a	a	ADP	ADP	_	13	case	_	_
+11	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+12	8	8	NUM	NUM	NumType=Card	13	nummod	_	_
+13	h	h	NOUN	NOUN	_	3	nmod	_	_
+14	com	com	ADP	ADP	_	15	case	_	_
+15	credenciamento	credenciamento	NOUN	NOUN	_	3	nmod	_	_
+16	e	e	CCONJ	CONJ	_	17	cc	_	_
+17	segue	_	VERB	VERB	_	3	conj	_	_
+18	até	_	ADP	ADP	_	20	case	_	_
+19	às	_	DET	DET	_	20	det	_	_
+20	18h	_	NUM	NUM	NumType=Card	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s6909
+# text = Tribuna -- O governo vai conseguir construir um sistema de mobilidade eficiente para a Copa ou qual o planejamento do Estado para o mundial?
+1	Tribuna	_	PROPN	PNOUN	_	6	parataxis	_	_
+2	--	_	PUNCT	.	_	6	punct	_	_
+3	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	governo	governo	NOUN	NOUN	_	6	nsubj	_	_
+5	vai	ir	AUX	AUX	_	6	aux	_	_
+6	conseguir	conseguir	VERB	VERB	_	0	root	_	_
+7	construir	construir	VERB	VERB	_	6	xcomp	_	_
+8	um	um	DET	DET	_	9	det	_	_
+9	sistema	sistema	NOUN	NOUN	_	7	obj	_	_
+10	de	de	ADP	ADP	_	11	case	_	_
+11	mobilidade	mobilidade	NOUN	NOUN	_	9	nmod	_	_
+12	eficiente	eficiente	ADJ	ADJ	_	11	amod	_	_
+13	para	para	ADP	ADP	_	15	case	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Copa	_	PROPN	PNOUN	_	7	nmod	_	_
+16	ou	ou	CCONJ	CONJ	_	19	cc	_	_
+17	qual	_	DET	DET	_	19	det	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	planejamento	planejamento	NOUN	NOUN	_	6	conj	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	ADP	_	22	case	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Estado	_	PROPN	PNOUN	_	19	nmod	_	_
+23	para	para	ADP	ADP	_	25	case	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	mundial	mundial	NOUN	NOUN	_	19	nmod	_	SpaceAfter=No
+26	?	?	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s6910
+# text = Entidades como a Unaids dizem que, com medicação, é possível reduzir a carga viral.
+1	Entidades	entidade	NOUN	NOUN	_	5	nsubj	_	_
+2	como	como	ADP	ADP	_	4	case	_	_
+3	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Unaids	_	PROPN	PNOUN	_	1	nmod	_	_
+5	dizem	dizer	VERB	VERB	_	0	root	_	_
+6	que	que	CCONJ	CONJ	_	11	mark	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	9	punct	_	_
+8	com	com	ADP	ADP	_	9	case	_	_
+9	medicação	medicação	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	9	punct	_	_
+11	é	ser	VERB	VERB	_	5	ccomp	_	_
+12	possível	possível	ADJ	ADJ	_	11	xcomp	_	_
+13	reduzir	reduzir	VERB	VERB	_	11	csubj	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	carga	carga	NOUN	NOUN	_	13	obj	_	_
+16	viral	viral	ADJ	ADJ	_	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = train-s6911
+# text = A primeira fábrica do País de automóveis de luxo da BMW deve gerar mil empregos no País.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	primeira	primeiro	ADJ	ADJ	_	3	amod	_	_
+3	fábrica	fábrica	NOUN	NOUN	_	15	nsubj	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	País	_	PROPN	PNOUN	_	3	nmod	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
+8	automóveis	automóvel	NOUN	NOUN	_	3	nmod	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
+10	luxo	luxo	NOUN	NOUN	_	8	nmod	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	ADP	_	13	case	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	BMW	_	PROPN	PNOUN	_	8	nmod	_	_
+14	deve	dever	AUX	AUX	_	15	aux	_	_
+15	gerar	gerar	VERB	VERB	_	0	root	_	_
+16	mil	_	NUM	NUM	NumType=Card	17	nummod	_	_
+17	empregos	emprego	NOUN	NOUN	_	15	obj	_	_
+18-19	no	_	_	_	_	_	_	_	_
+18	em	em	ADP	ADP	_	20	case	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	País	_	PROPN	PNOUN	_	15	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = train-s6912
+# text = Iniciou no jornalismo em 1895, na Gazeta de Notícias, tendo ainda atuado no Correio do Brasil e na Gazeta do Povo.
+1	Iniciou	iniciar	VERB	VERB	_	0	root	_	_
+2-3	no	_	_	_	_	_	_	_	_
+2	em	em	ADP	ADP	_	4	case	_	_
+3	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	jornalismo	jornalismo	NOUN	NOUN	_	1	nmod	_	_
+5	em	em	ADP	ADP	_	6	case	_	_
+6	1895	1895	NUM	NUM	NumType=Card	1	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	10	punct	_	_
+8-9	na	_	_	_	_	_	_	_	_
+8	em	em	ADP	ADP	_	10	case	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Gazeta	_	PROPN	PNOUN	_	1	nmod	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
+12	Notícias	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	.	_	10	punct	_	_
+14	tendo	_	AUX	AUX	_	16	aux	_	_
+15	ainda	ainda	ADV	ADV	_	16	advmod	_	_
+16	atuado	atuar	VERB	VERB	_	1	acl	_	_
+17-18	no	_	_	_	_	_	_	_	_
+17	em	em	ADP	ADP	_	19	case	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Correio	_	PROPN	PNOUN	_	16	nmod	_	_
+20-21	do	_	_	_	_	_	_	_	_
+20	de	de	ADP	ADP	_	22	case	_	_
+21	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Brasil	_	PROPN	PNOUN	_	19	nmod	_	_
+23	e	e	CCONJ	CONJ	_	26	cc	_	_
+24-25	na	_	_	_	_	_	_	_	_
+24	em	em	ADP	ADP	_	26	case	_	_
+25	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	Gazeta	_	PROPN	PNOUN	_	19	conj	_	_
+27-28	do	_	_	_	_	_	_	_	_
+27	de	de	ADP	ADP	_	29	case	_	_
+28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	Povo	_	PROPN	PNOUN	_	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = train-s6913
+# text = Ele hipnotiza ela temporariamente, fazendo-a esquecer de Stefan, mas quando ele se inclina para beijá - la, ela se lembra de seu amor por Stefan, e se afasta dele.
+1	Ele	_	PRON	PRON	_	2	nsubj	_	_
+2	hipnotiza	hipnotizar	VERB	VERB	_	0	root	_	_
+3	ela	_	PRON	PRON	_	2	obj	_	_
+4	temporariamente	temporariamente	ADV	ADV	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	.	_	6	punct	_	_
+6-7	fazendo-a	_	_	_	_	_	_	_	_
+6	fazendo	fazer	VERB	VERB	_	2	acl	_	_
+7	a	_	PRON	PRON	_	6	obj	_	_
+8	esquecer	esquecer	VERB	VERB	_	7	acl:inf	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
+10	Stefan	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	6	punct	_	_
+12	mas	mas	CCONJ	CONJ	_	24	cc	_	_
+13	quando	_	CCONJ	CONJ	_	16	mark	_	_
+14	ele	_	PRON	PRON	_	16	nsubj	_	_
+15	se	_	PRON	PRON	_	16	obj	_	_
+16	inclina	inclinar	VERB	VERB	_	24	advcl	_	_
+17	para	_	ADP	ADP	_	18	mark	_	_
+18	beijá	beijar	VERB	VERB	_	16	advcl	_	_
+19	-	-	PUNCT	.	_	18	punct	_	_
+20	la	_	PRON	PRON	_	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	.	_	16	punct	_	_
+22	ela	_	PRON	PRON	_	24	nsubj	_	_
+23	se	_	PART	PRT	_	24	expl:pv	_	_
+24	lembra	lembrar	VERB	VERB	_	2	conj	_	_
+25	de	de	ADP	ADP	_	27	case	_	_
+26	seu	_	DET	DET	_	27	det:poss	_	_
+27	amor	amor	NOUN	NOUN	_	24	nmod	_	_
+28	por	por	ADP	ADP	_	29	case	_	_
+29	Stefan	_	PROPN	PNOUN	_	27	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	.	_	33	punct	_	_
+31	e	e	CCONJ	CONJ	_	33	cc	_	_
+32	se	_	PRON	PRON	_	33	obj	_	_
+33	afasta	afastar	VERB	VERB	_	24	conj	_	_
+34	dele	_	X	ADPPRON	_	33	nmod	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s6914
+# text = Dr. Marc van Roosmalen (Tilburg, 24 de julho de 1947) é um primatólogo neerlandês naturalizado brasileiro, radicado na Floresta Amazônica.
+1	Dr.	_	PROPN	PNOUN	_	16	nsubj:pass	_	_
+2	Marc	_	PROPN	PNOUN	_	1	flat	_	_
+3	van	_	PROPN	PNOUN	_	1	flat	_	_
+4	Roosmalen	_	PROPN	PNOUN	_	1	flat	_	_
+5	(	(	PUNCT	.	_	6	punct	_	SpaceAfter=No
+6	Tilburg	_	PROPN	PNOUN	_	1	appos	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	8	punct	_	_
+8	24	24	NUM	NUM	NumType=Card	6	nmod	_	_
+9	de	de	ADP	ADP	_	10	case	_	_
+10	julho	_	PROPN	PNOUN	_	8	nmod	_	_
+11	de	de	ADP	ADP	_	12	case	_	_
+12	1947	1947	NUM	NUM	NumType=Card	10	nmod	_	SpaceAfter=No
+13	)	)	PUNCT	.	_	6	punct	_	_
+14	é	ser	AUX	AUX	_	16	cop	_	_
+15	um	um	DET	DET	_	16	det	_	_
+16	primatólogo	primatólogo	NOUN	NOUN	_	0	root	_	_
+17	neerlandês	neerlandês	ADJ	ADJ	_	16	amod	_	_
+18	naturalizado	naturalizar	VERB	VERB	_	16	acl	_	_
+19	brasileiro	brasileiro	ADJ	ADJ	_	18	xcomp	_	SpaceAfter=No
+20	,	,	PUNCT	.	_	21	punct	_	_
+21	radicado	radicar	VERB	VERB	_	16	acl	_	_
+22-23	na	_	_	_	_	_	_	_	_
+22	em	em	ADP	ADP	_	24	case	_	_
+23	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Floresta	_	PROPN	PNOUN	_	21	nmod	_	_
+25	Amazônica	_	PROPN	PNOUN	_	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	16	punct	_	_
+
+# sent_id = train-s6915
+# text = O veterano, ouro em Atenas - 04 e bronze em Pequim - 08, disputa sua quinta Olimpíada.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	veterano	veterano	NOUN	NOUN	_	16	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	.	_	4	punct	_	_
+4	ouro	ouro	NOUN	NOUN	_	2	appos	_	_
+5	em	em	ADP	ADP	_	6	case	_	_
+6	Atenas	_	PROPN	PNOUN	_	4	nmod	_	_
+7	-	-	PUNCT	.	_	6	punct	_	_
+8	04	04	NUM	NUM	NumType=Card	6	nmod	_	_
+9	e	e	CCONJ	CONJ	_	10	cc	_	_
+10	bronze	bronze	NOUN	NOUN	_	4	conj	_	_
+11	em	em	ADP	ADP	_	12	case	_	_
+12	Pequim	_	PROPN	PNOUN	_	10	nmod	_	_
+13	-	-	PUNCT	.	_	12	punct	_	_
+14	08	08	NUM	NUM	NumType=Card	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	.	_	2	punct	_	_
+16	disputa	disputar	VERB	VERB	_	0	root	_	_
+17	sua	_	DET	DET	_	19	det:poss	_	_
+18	quinta	_	ADJ	ADJ	_	19	amod	_	_
+19	Olimpíada	_	PROPN	PNOUN	_	16	obj	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	16	punct	_	_
+

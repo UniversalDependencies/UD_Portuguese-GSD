@@ -1,0 +1,323 @@
+# text = Tiffany e Bond encontram-se primeiramente no apartamento dela em Amsterdã, onde, passando-se por Peter Franks, o contato de Case na organização Spangled Mob (na verdade, uma cobertura da SPECTRE) preso sem seu conhecimento, ele descobre a rede de contrabando de diamantes, da qual Case é um pombo correio.
+# sent_id = train-s7566
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+1	Tiffany	Tiffany	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+2	e	e	CCONJ	_	_	3	cc	_	_
+3	Bond	Bond	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	_
+4-5	encontram-se	_	_	_	_	_	_	_	_
+4	encontram	encontrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	expl	_	_
+6	primeiramente	primeiramente	ADV	_	_	4	advmod	_	_
+7-8	no	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	apartamento	apartamento	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+10-11	dela	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	ela	ela	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nmod	_	_
+12	em	em	ADP	_	_	13	case	_	_
+13	Amsterdã	Amsterdã	PROPN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	onde	onde	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	49	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17-18	passando-se	_	_	_	_	_	_	_	_
+17	passando	passar	VERB	_	VerbForm=Ger	49	advcl	_	_
+18	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	expl	_	_
+19	por	por	ADP	_	_	20	case	_	_
+20	Peter	Peter	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	17	obl:agent	_	_
+21	Franks	Franks	PROPN	_	Number=Sing	20	flat:name	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	24	punct	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	contato	contato	NOUN	_	Gender=Masc|Number=Sing	20	appos	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	Case	Case	PROPN	_	Gender=Masc|Number=Sing	24	nmod	_	_
+27-28	na	_	_	_	_	_	_	_	_
+27	em	em	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	organização	organização	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
+30	Spangled	Spangled	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	29	appos	_	_
+31	Mob	Mob	PROPN	_	Number=Sing	30	flat:name	_	_
+32	(	(	PUNCT	_	_	38	punct	_	SpaceAfter=No
+33-34	na	_	_	_	_	_	_	_	_
+33	em	em	ADP	_	ExtPos=ADV	38	advmod	_	_
+34	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	fixed	_	_
+35	verdade	verdade	NOUN	_	Gender=Fem|Number=Sing	33	fixed	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	33	punct	_	_
+37	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	cobertura	cobertura	NOUN	_	Gender=Fem|Number=Sing	29	appos	_	_
+39-40	da	_	_	_	_	_	_	_	_
+39	de	de	ADP	_	_	41	case	_	_
+40	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	SPECTRE	SPECTRE	PROPN	_	Gender=Fem|Number=Sing	38	nmod	_	SpaceAfter=No
+42	)	)	PUNCT	_	_	38	punct	_	_
+43	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	24	acl	_	_
+44	sem	sem	ADP	_	_	46	case	_	_
+45	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	46	det	_	_
+46	conhecimento	conhecimento	NOUN	_	Gender=Masc|Number=Sing	43	obl	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	43	punct	_	_
+48	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	49	nsubj	_	_
+49	descobre	descobrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+50	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
+51	rede	rede	NOUN	_	Gender=Fem|Number=Sing	49	obj	_	_
+52	de	de	ADP	_	_	53	case	_	_
+53	contrabando	contrabando	NOUN	_	Gender=Masc|Number=Sing	51	nmod	_	_
+54	de	de	ADP	_	_	55	case	_	_
+55	diamantes	diamante	NOUN	_	Gender=Masc|Number=Plur	53	nmod	_	SpaceAfter=No
+56	,	,	PUNCT	_	_	63	punct	_	_
+57-58	da	_	_	_	_	_	_	_	_
+57	de	de	ADP	_	_	59	case	_	_
+58	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	59	det	_	_
+59	qual	qual	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	63	nmod	_	_
+60	Case	Case	PROPN	_	Gender=Masc|Number=Sing	63	nsubj	_	_
+61	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	63	cop	_	_
+62	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	63	det	_	_
+63	pombo	pombo	NOUN	_	Gender=Masc|Number=Sing	51	acl:relcl	_	_
+64	correio	correio	ADJ	_	Gender=Masc|Number=Sing	63	amod	_	SpaceAfter=No
+65	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+
+# sent_id = train-s7567
+# text = No sentido litoral, o fluxo chega a 1.336 veículos por hora.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	ADP	_	3	case	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sentido	sentido	NOUN	NOUN	_	8	nmod	_	_
+4	litoral	litoral	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	.	_	3	punct	_	_
+6	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	fluxo	fluxo	NOUN	NOUN	_	8	nsubj	_	_
+8	chega	chegar	VERB	VERB	_	0	root	_	_
+9	a	_	ADP	ADP	_	11	case	_	_
+10	1.336	_	NUM	NUM	NumType=Card	11	nummod	_	_
+11	veículos	veículo	NOUN	NOUN	_	8	nmod	_	_
+12	por	por	ADP	ADP	_	13	case	_	_
+13	hora	hora	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s7568
+# text = O crime aconteceu na quadra 04, na Vila Buritis I.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	crime	crime	NOUN	NOUN	_	3	nsubj	_	_
+3	aconteceu	acontecer	VERB	VERB	_	0	root	_	_
+4-5	na	_	_	_	_	_	_	_	_
+4	em	em	ADP	ADP	_	6	case	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	quadra	quadra	NOUN	NOUN	_	3	nmod	_	_
+7	04	04	NUM	NUM	NumType=Card	6	appos	_	SpaceAfter=No
+8	,	,	PUNCT	.	_	11	punct	_	_
+9-10	na	_	_	_	_	_	_	_	_
+9	em	em	ADP	ADP	_	11	case	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Vila	_	PROPN	PNOUN	_	3	nmod	_	_
+12	Buritis	_	PROPN	PNOUN	_	11	flat	_	_
+13	I.	_	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s7569
+# text = O ator Vince Vaughn, mais conhecido por comédias como "Penetras Bons de Bico" (2005), vai estrelar e produzir "Gunslingers", filme que será escrito por Randall Wallace, roteirista de "Coração Valente" (1995).
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	ator	ator	NOUN	NOUN	_	22	nsubj	_	_
+3	Vince	_	PROPN	PNOUN	_	2	appos	_	_
+4	Vaughn	_	PROPN	PNOUN	_	3	flat	_	SpaceAfter=No
+5	,	,	PUNCT	.	_	7	punct	_	_
+6	mais	mais	ADV	ADV	_	7	advmod	_	_
+7	conhecido	conhecido	ADJ	ADJ	_	2	amod	_	_
+8	por	por	ADP	ADP	_	9	case	_	_
+9	comédias	comédia	NOUN	NOUN	_	7	nmod	_	_
+10	como	como	ADP	ADP	_	12	case	_	_
+11	"	"	PUNCT	.	_	12	punct	_	SpaceAfter=No
+12	Penetras	_	PROPN	PNOUN	_	9	nmod	_	_
+13	Bons	_	PROPN	PNOUN	_	12	amod	_	_
+14	de	de	ADP	ADP	_	15	case	_	_
+15	Bico	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
+16	"	"	PUNCT	.	_	12	punct	_	_
+17	(	(	PUNCT	.	_	18	punct	_	SpaceAfter=No
+18	2005	2005	NUM	NUM	NumType=Card	12	nmod	_	SpaceAfter=No
+19	)	)	PUNCT	.	_	18	punct	_	SpaceAfter=No
+20	,	,	PUNCT	.	_	7	punct	_	_
+21	vai	ir	AUX	AUX	_	22	aux	_	_
+22	estrelar	estrelar	VERB	VERB	_	0	root	_	_
+23	e	e	CCONJ	CONJ	_	24	cc	_	_
+24	produzir	produzir	VERB	VERB	_	22	conj	_	_
+25	"	"	PUNCT	.	_	26	punct	_	SpaceAfter=No
+26	Gunslingers	_	PROPN	PNOUN	_	24	obj	_	SpaceAfter=No
+27	"	"	PUNCT	.	_	26	punct	_	SpaceAfter=No
+28	,	,	PUNCT	.	_	29	punct	_	_
+29	filme	filme	NOUN	NOUN	_	26	appos	_	_
+30	que	_	PRON	PRON	_	32	nsubj:pass	_	_
+31	será	ser	AUX	AUX	_	32	aux:pass	_	_
+32	escrito	escrever	VERB	VERB	_	29	acl:relcl	_	_
+33	por	por	ADP	ADP	_	34	case	_	_
+34	Randall	_	PROPN	PNOUN	_	32	nmod	_	_
+35	Wallace	_	PROPN	PNOUN	_	34	flat	_	SpaceAfter=No
+36	,	,	PUNCT	.	_	37	punct	_	_
+37	roteirista	roteirista	NOUN	NOUN	_	34	appos	_	_
+38	de	de	ADP	ADP	_	40	case	_	_
+39	"	"	PUNCT	.	_	40	punct	_	SpaceAfter=No
+40	Coração	_	PROPN	PNOUN	_	37	nmod	_	_
+41	Valente	_	PROPN	PNOUN	_	40	amod	_	SpaceAfter=No
+42	"	"	PUNCT	.	_	40	punct	_	_
+43	(	(	PUNCT	.	_	44	punct	_	SpaceAfter=No
+44	1995	1995	NUM	NUM	NumType=Card	40	nmod	_	SpaceAfter=No
+45	)	)	PUNCT	.	_	44	punct	_	SpaceAfter=No
+46	.	.	PUNCT	.	_	22	punct	_	_
+
+# sent_id = train-s7570
+# text = Os vídeos possuem legendas em português.
+1	Os	o	DET	DET	_	2	det	_	_
+2	vídeos	vídeo	NOUN	NOUN	_	3	nsubj	_	_
+3	possuem	possuir	VERB	VERB	_	0	root	_	_
+4	legendas	legenda	NOUN	NOUN	_	3	obj	_	_
+5	em	em	ADP	ADP	_	6	case	_	_
+6	português	português	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Como a corte está em recesso, os pedidos foram conclusos à presidência, mas poderão ser apreciados a partir desta quarta - feira, quando o STF volta a funcionar normalmente.
+# sent_id = train-s7571
+1	Como	como	SCONJ	_	_	6	mark	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	corte	corte	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	em	em	ADP	_	_	6	case	_	_
+6	recesso	recesso	NOUN	_	Gender=Masc|Number=Sing	11	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	pedidos	pedido	NOUN	_	Gender=Masc|Number=Plur	11	nsubj:pass	_	_
+10	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	11	aux:pass	_	_
+11	conclusos	concluso	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+12-13	à	_	_	_	_	_	_	_	_
+12	a	a	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	presidência	presidência	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	mas	mas	CCONJ	_	_	17	cc	_	_
+17	poderão	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	11	conj	_	_
+18	ser	ser	AUX	_	VerbForm=Inf	19	aux:pass	_	_
+19	apreciados	apreciar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	17	xcomp	_	_
+20	a	a	ADP	_	_	21	case	_	_
+21	partir	partir	VERB	_	VerbForm=Inf	19	obl	_	_
+22-23	desta	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	24	det	_	_
+24	quarta	quarta	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+25	-	-	PUNCT	_	_	26	punct	_	_
+26	feira	feira	NOUN	_	Gender=Fem|Number=Sing	24	appos	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	19	punct	_	_
+28	quando	quando	ADV	_	_	31	advmod	_	_
+29	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	STF	STF	PROPN	_	Gender=Masc|Number=Sing	31	nsubj	_	_
+31	volta	voltar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+32	a	a	SCONJ	_	_	33	mark	_	_
+33	funcionar	funcionar	VERB	_	VerbForm=Inf	31	xcomp	_	_
+34	normalmente	normalmente	ADV	_	_	33	advmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = train-s7572
+# text = O Flamengo deu mais um passo em busca da contratação do meia Renato Augusto, do Bayer Leverkusen.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Flamengo	_	PROPN	PNOUN	_	3	nsubj	_	_
+3	deu	dar	VERB	VERB	_	0	root	_	_
+4	mais	mais	ADV	ADV	_	5	advmod	_	_
+5	um	_	NUM	NUM	NumType=Card	6	nummod	_	_
+6	passo	passo	NOUN	NOUN	_	3	obj	_	_
+7	em	em	ADP	ADP	_	8	case	_	_
+8	busca	busca	NOUN	NOUN	_	3	nmod	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	ADP	_	11	case	_	_
+10	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	contratação	contratação	NOUN	NOUN	_	8	nmod	_	_
+12-13	do	_	_	_	_	_	_	_	_
+12	de	de	ADP	ADP	_	14	case	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	meia	_	NOUN	NOUN	_	11	nmod	_	_
+15	Renato	_	PROPN	PNOUN	_	14	appos	_	_
+16	Augusto	_	PROPN	PNOUN	_	15	flat	_	SpaceAfter=No
+17	,	,	PUNCT	.	_	20	punct	_	_
+18-19	do	_	_	_	_	_	_	_	_
+18	de	de	ADP	ADP	_	20	case	_	_
+19	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Bayer	_	PROPN	PNOUN	_	14	nmod	_	_
+21	Leverkusen	_	PROPN	PNOUN	_	20	flat	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s7573
+# text = No ano seguinte, se desentendeu com Carmen Miranda, pois esta, logo após gravar a marcha Querido Adão (Benedito Lacerda e Oswaldo Santiago), viajou para a Argentina, não podendo lançar a música no rádio.
+1-2	No	_	_	_	_	_	_	_	_
+1	Em	em	ADP	ADP	_	3	case	_	_
+2	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	ano	ano	NOUN	NOUN	_	7	nmod	_	_
+4	seguinte	seguinte	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	.	_	3	punct	_	_
+6	se	_	PART	PRT	_	7	expl:pv	_	_
+7	desentendeu	desentender	VERB	VERB	_	0	root	_	_
+8	com	com	ADP	ADP	_	9	case	_	_
+9	Carmen	_	PROPN	PNOUN	_	7	nmod	_	_
+10	Miranda	_	PROPN	PNOUN	_	9	flat	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	30	punct	_	_
+12	pois	_	CCONJ	CONJ	_	30	mark	_	_
+13	esta	_	PRON	PRON	_	30	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	17	punct	_	_
+15	logo	logo	ADV	ADV	_	16	advmod	_	_
+16	após	_	ADP	ADP	_	17	mark	_	_
+17	gravar	gravar	VERB	VERB	_	30	advcl	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	marcha	marcha	NOUN	NOUN	_	17	obj	_	_
+20	Querido	_	PROPN	PNOUN	_	21	amod	_	_
+21	Adão	_	PROPN	PNOUN	_	19	appos	_	_
+22	(	(	PUNCT	.	_	23	punct	_	SpaceAfter=No
+23	Benedito	_	PROPN	PNOUN	_	19	appos	_	_
+24	Lacerda	_	PROPN	PNOUN	_	23	flat	_	_
+25	e	e	CCONJ	CONJ	_	26	cc	_	_
+26	Oswaldo	_	PROPN	PNOUN	_	23	conj	_	_
+27	Santiago	_	PROPN	PNOUN	_	26	flat	_	SpaceAfter=No
+28	)	)	PUNCT	.	_	23	punct	_	SpaceAfter=No
+29	,	,	PUNCT	.	_	17	punct	_	_
+30	viajou	viajar	VERB	VERB	_	7	advcl	_	_
+31	para	para	ADP	ADP	_	33	case	_	_
+32	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	Argentina	_	PROPN	PNOUN	_	30	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	.	_	37	punct	_	_
+35	não	não	ADV	ADV	Polarity=Neg	37	advmod	_	_
+36	podendo	poder	AUX	AUX	_	37	aux	_	_
+37	lançar	lançar	VERB	VERB	_	30	acl	_	_
+38	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	música	_	NOUN	NOUN	_	37	obj	_	_
+40-41	no	_	_	_	_	_	_	_	_
+40	em	em	ADP	ADP	_	42	case	_	_
+41	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	rádio	rádio	NOUN	NOUN	_	37	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = train-s7574
+# text = As altas no preço ante junho chegaram a 121,34 %, em Belo Horizonte;
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	altas	_	NOUN	NOUN	_	8	nsubj	_	_
+3-4	no	_	_	_	_	_	_	_	_
+3	em	em	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	preço	preço	NOUN	NOUN	_	2	nmod	_	_
+6	ante	_	ADP	ADP	_	7	case	_	_
+7	junho	_	PROPN	PNOUN	_	2	nmod	_	_
+8	chegaram	chegar	VERB	VERB	_	0	root	_	_
+9	a	_	ADP	ADP	_	11	case	_	_
+10	121,34	121,34	NUM	NUM	NumType=Card	11	nummod	_	_
+11	%	_	SYM	SYM	_	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	.	_	15	punct	_	_
+13	em	em	ADP	ADP	_	15	case	_	_
+14	Belo	_	PROPN	PNOUN	_	15	amod	_	_
+15	Horizonte	_	PROPN	PNOUN	_	8	nmod	_	SpaceAfter=No
+16	;	_	PUNCT	.	_	8	punct	_	_
+
+# sent_id = train-s7575
+# text = O efeito é praticamente nulo ", alertou.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	efeito	efeito	NOUN	NOUN	_	3	nsubj	_	_
+3	é	ser	VERB	VERB	_	8	ccomp	_	_
+4	praticamente	praticamente	ADV	ADV	_	5	advmod	_	_
+5	nulo	nulo	ADJ	ADJ	_	3	xcomp	_	_
+6	"	"	PUNCT	.	_	3	punct	_	SpaceAfter=No
+7	,	,	PUNCT	.	_	8	punct	_	_
+8	alertou	alertar	VERB	VERB	_	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	_
+

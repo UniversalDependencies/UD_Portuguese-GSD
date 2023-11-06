@@ -1,0 +1,291 @@
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Sorriso (MT), que havia caído de primeiro para terceiro lugar em 2010, voltou a ser o município com maior valor de produção.
+# sent_id = train-s2303
+1	Sorriso	Sorriso	PROPN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
+2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	MT	MT	PROPN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+4	)	)	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	_
+6	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	8	nsubj	_	_
+7	havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	caído	cair	VERB	_	VerbForm=Part	1	acl:relcl	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	primeiro	primeiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	8	obl	_	_
+11	para	para	ADP	_	_	13	case	_	_
+12	terceiro	terceiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	13	amod	_	_
+13	lugar	lugar	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+14	em	em	ADP	_	_	15	case	_	_
+15	2010	2010	NUM	_	NumType=Card	8	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	8	punct	_	_
+17	voltou	voltar	VERB	_	ExtPos=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+18	a	a	SCONJ	_	_	21	mark	_	_
+19	ser	ser	AUX	_	VerbForm=Inf	21	cop	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	município	município	NOUN	_	Gender=Masc|Number=Sing	17	xcomp	_	_
+22	com	com	ADP	_	_	24	case	_	_
+23	maior	maior	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
+24	valor	valor	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	produção	produção	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	21	punct	_	SpaceAfter=No
+
+# sent_id = train-s2304
+# text = Hissa Abrahão, que havia se lançado candidato a prefeito foi o primeiro a discursar, exaltou a parceria com Arthur Neto.
+1	Hissa	_	PROPN	PNOUN	_	13	nsubj	_	_
+2	Abrahão	_	PROPN	PNOUN	_	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	.	_	7	punct	_	_
+4	que	_	PRON	PRON	_	7	nsubj	_	_
+5	havia	haver	AUX	AUX	_	7	aux	_	_
+6	se	_	PRON	PRON	_	8	nsubj	_	_
+7	lançado	lançar	VERB	VERB	_	1	acl:relcl	_	_
+8	candidato	candidato	NOUN	NOUN	_	7	xcomp	_	_
+9	a	_	ADP	ADP	_	10	case	_	_
+10	prefeito	prefeito	NOUN	NOUN	_	8	nmod	_	_
+11	foi	_	AUX	AUX	_	13	cop	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	primeiro	primeiro	NOUN	NOUN	_	0	root	_	_
+14	a	_	ADP	ADP	_	15	mark	_	_
+15	discursar	discursar	VERB	VERB	_	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	.	_	17	punct	_	_
+17	exaltou	exaltar	VERB	VERB	_	13	conj	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	parceria	parceria	NOUN	NOUN	_	17	obj	_	_
+20	com	com	ADP	ADP	_	21	case	_	_
+21	Arthur	_	PROPN	PNOUN	_	19	nmod	_	_
+22	Neto	_	PROPN	PNOUN	_	21	flat	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = train-s2305
+# text = Ela fez o que ele disse e jurou por Satanás que estava a contar a verdade.
+1	Ela	_	PRON	PRON	_	2	nsubj	_	_
+2	fez	fazer	VERB	VERB	_	0	root	_	_
+3	o	_	PRON	PRON	_	2	obj	_	_
+4	que	_	PRON	PRON	_	6	obj	_	_
+5	ele	_	PRON	PRON	_	6	nsubj	_	_
+6	disse	dizer	VERB	VERB	_	3	acl:relcl	_	_
+7	e	e	CCONJ	CONJ	_	8	cc	_	_
+8	jurou	jurar	VERB	VERB	_	2	conj	_	_
+9	por	por	ADP	ADP	_	10	case	_	_
+10	Satanás	_	PROPN	PNOUN	_	8	nmod	_	_
+11	que	que	CCONJ	CONJ	_	14	mark	_	_
+12	estava	estar	AUX	AUX	_	14	aux	_	_
+13	a	_	ADP	ADP	_	14	mark	_	_
+14	contar	contar	VERB	VERB	_	8	ccomp	_	_
+15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	verdade	verdade	NOUN	NOUN	_	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s2306
+# text = Todo aumento deve ser feito em consonância com o governo ", afirmou.
+1	Todo	_	DET	DET	_	2	det	_	_
+2	aumento	aumento	NOUN	NOUN	_	5	nsubj:pass	_	_
+3	deve	dever	AUX	AUX	_	5	aux	_	_
+4	ser	ser	AUX	AUX	_	5	aux:pass	_	_
+5	feito	_	VERB	VERB	_	13	ccomp	_	_
+6	em	em	ADP	ADP	_	7	case	_	_
+7	consonância	consonância	NOUN	NOUN	_	5	nmod	_	_
+8	com	com	ADP	ADP	_	10	case	_	_
+9	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	governo	governo	NOUN	NOUN	_	7	nmod	_	_
+11	"	"	PUNCT	.	_	5	punct	_	SpaceAfter=No
+12	,	,	PUNCT	.	_	13	punct	_	_
+13	afirmou	afirmar	VERB	VERB	_	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	13	punct	_	_
+
+# sent_id = train-s2307
+# text = Gracielle Carvalho aparece só de meias rosas em foto postada por ela na rede social Instagram na madrugada desta terça - feira, 25.
+1	Gracielle	_	PROPN	PNOUN	_	3	nsubj	_	_
+2	Carvalho	_	PROPN	PNOUN	_	1	flat	_	_
+3	aparece	aparecer	VERB	VERB	_	0	root	_	_
+4	só	só	ADV	ADV	_	6	advmod	_	_
+5	de	de	ADP	ADP	_	6	case	_	_
+6	meias	_	NOUN	NOUN	_	3	nmod	_	_
+7	rosas	rosa	ADJ	ADJ	_	6	amod	_	_
+8	em	em	ADP	ADP	_	9	case	_	_
+9	foto	foto	NOUN	NOUN	_	3	nmod	_	_
+10	postada	postar	VERB	VERB	_	9	acl	_	_
+11	por	por	ADP	ADP	_	12	case	_	_
+12	ela	_	PRON	PRON	_	10	nmod	_	_
+13-14	na	_	_	_	_	_	_	_	_
+13	em	em	ADP	ADP	_	15	case	_	_
+14	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	rede	rede	NOUN	NOUN	_	10	nmod	_	_
+16	social	social	ADJ	ADJ	_	15	amod	_	_
+17	Instagram	_	PROPN	PNOUN	_	15	appos	_	_
+18-19	na	_	_	_	_	_	_	_	_
+18	em	em	ADP	ADP	_	20	case	_	_
+19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	madrugada	madrugada	NOUN	NOUN	_	10	nmod	_	_
+21	desta	_	ADP	ADP	_	24	case	_	_
+22	terça	_	PROPN	PNOUN	_	24	amod	_	_
+23	-	-	PUNCT	.	_	24	punct	_	_
+24	feira	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	.	_	26	punct	_	_
+26	25	25	NUM	NUM	NumType=Card	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = train-s2308
+# text = As tropas do governo reforçaram ainda mais a ofensiva na capital após os insurgentes terem tomado grande parte de Alepo, maior cidade síria no norte do país, no final de julho.
+1	As	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	tropas	tropa	NOUN	NOUN	_	6	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	governo	governo	NOUN	NOUN	_	2	nmod	_	_
+6	reforçaram	reforçar	VERB	VERB	_	0	root	_	_
+7	ainda	ainda	ADV	ADV	_	8	advmod	_	_
+8	mais	mais	ADV	ADV	_	6	advmod	_	_
+9	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	ofensiva	_	NOUN	NOUN	_	6	obj	_	_
+11-12	na	_	_	_	_	_	_	_	_
+11	em	em	ADP	ADP	_	13	case	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	capital	capital	NOUN	NOUN	_	10	nmod	_	_
+14	após	_	ADP	ADP	_	18	mark	_	_
+15	os	o	DET	DET	_	16	det	_	_
+16	insurgentes	insurgente	NOUN	NOUN	_	18	nsubj	_	_
+17	terem	ter	AUX	AUX	_	18	aux	_	_
+18	tomado	tomar	VERB	VERB	_	6	advcl	_	_
+19	grande	grande	ADJ	ADJ	_	20	amod	_	_
+20	parte	parte	NOUN	NOUN	_	18	obj	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
+22	Alepo	_	PROPN	PNOUN	_	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	.	_	25	punct	_	_
+24	maior	maior	ADJ	ADJ	_	25	amod	_	_
+25	cidade	cidade	NOUN	NOUN	_	22	appos	_	_
+26	síria	sírio	ADJ	ADJ	_	25	amod	_	_
+27-28	no	_	_	_	_	_	_	_	_
+27	em	em	ADP	ADP	_	29	case	_	_
+28	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	norte	norte	NOUN	NOUN	_	25	nmod	_	_
+30-31	do	_	_	_	_	_	_	_	_
+30	de	de	ADP	ADP	_	32	case	_	_
+31	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	país	país	NOUN	NOUN	_	29	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	.	_	36	punct	_	_
+34-35	no	_	_	_	_	_	_	_	_
+34	em	em	ADP	ADP	_	36	case	_	_
+35	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	final	final	NOUN	NOUN	_	18	nmod	_	_
+37	de	de	ADP	ADP	_	38	case	_	_
+38	julho	_	PROPN	PNOUN	_	36	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = train-s2309
+# text = A Arménia também atua em organizações internacionais de desportos, como a FIFA, a UEFA, e a Federação Internacional de Hóquei no Gelo.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Arménia	_	PROPN	PNOUN	_	4	nsubj	_	_
+3	também	também	ADV	ADV	_	4	advmod	_	_
+4	atua	_	VERB	VERB	_	0	root	_	_
+5	em	em	ADP	ADP	_	6	case	_	_
+6	organizações	organização	NOUN	NOUN	_	4	nmod	_	_
+7	internacionais	internacional	ADJ	ADJ	_	6	amod	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
+9	desportos	desporto	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	13	punct	_	_
+11	como	como	ADP	ADP	_	13	case	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	FIFA	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	16	punct	_	_
+15	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	UEFA	_	PROPN	PNOUN	_	13	conj	_	SpaceAfter=No
+17	,	,	PUNCT	.	_	20	punct	_	_
+18	e	e	CCONJ	CONJ	_	20	cc	_	_
+19	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Federação	_	PROPN	PNOUN	_	13	conj	_	_
+21	Internacional	_	PROPN	PNOUN	_	20	amod	_	_
+22	de	de	ADP	ADP	_	23	case	_	_
+23	Hóquei	_	PROPN	PNOUN	_	20	nmod	_	_
+24-25	no	_	_	_	_	_	_	_	_
+24	em	em	ADP	ADP	_	26	case	_	_
+25	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Gelo	_	PROPN	PNOUN	_	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = train-s2310
+# text = É tempo de safra da cana de açúcar, matéria - prima do etanol, mas abastecer com gasolina continua mais vantajoso na maioria dos estados.
+1	É	ser	AUX	AUX	_	2	cop	_	_
+2	tempo	tempo	NOUN	NOUN	_	0	root	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
+4	safra	safra	NOUN	NOUN	_	2	nmod	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	ADP	_	7	case	_	_
+6	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	cana	cana	NOUN	NOUN	_	4	nmod	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
+9	açúcar	açúcar	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	11	punct	_	_
+11	matéria	matéria	NOUN	NOUN	_	7	appos	_	_
+12	-	-	PUNCT	.	_	11	punct	_	_
+13	prima	primo	ADJ	ADJ	_	11	amod	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	ADP	_	16	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	etanol	etanol	NOUN	NOUN	_	11	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	.	_	22	punct	_	_
+18	mas	mas	CCONJ	CONJ	_	22	cc	_	_
+19	abastecer	abastecer	VERB	VERB	_	22	csubj	_	_
+20	com	com	ADP	ADP	_	21	case	_	_
+21	gasolina	gasolina	NOUN	NOUN	_	19	nmod	_	_
+22	continua	continuar	VERB	VERB	_	2	conj	_	_
+23	mais	mais	ADV	ADV	_	24	advmod	_	_
+24	vantajoso	vantajoso	ADJ	ADJ	_	22	xcomp	_	_
+25-26	na	_	_	_	_	_	_	_	_
+25	em	em	ADP	ADP	_	27	case	_	_
+26	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	maioria	maioria	NOUN	NOUN	_	22	nmod	_	_
+28-29	dos	_	_	_	_	_	_	_	_
+28	de	de	ADP	ADP	_	30	case	_	_
+29	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	estados	estado	NOUN	NOUN	_	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = train-s2311
+# text = Para cada R $ 100 de serviço prestado, o cidadão pagou R $ 146 em média.
+1	Para	_	ADP	ADP	_	3	case	_	_
+2	cada	_	DET	DET	_	3	det	_	_
+3	R	r	NOUN	NOUN	_	12	nmod	_	_
+4	$	_	SYM	SYM	_	3	flat	_	_
+5	100	100	NUM	NUM	NumType=Card	3	nummod	_	_
+6	de	de	ADP	ADP	_	7	case	_	_
+7	serviço	serviço	NOUN	NOUN	_	3	nmod	_	_
+8	prestado	prestar	VERB	VERB	_	7	acl	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	3	punct	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	cidadão	cidadão	NOUN	NOUN	_	12	nsubj	_	_
+12	pagou	pagar	VERB	VERB	_	0	root	_	_
+13	R	r	NOUN	NOUN	_	12	obj	_	_
+14	$	_	SYM	SYM	_	13	flat	_	_
+15	146	146	NUM	NUM	NumType=Card	13	nummod	_	_
+16	em	em	ADP	ADP	_	17	case	_	_
+17	média	_	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	12	punct	_	_
+
+# sent_id = train-s2312
+# text = Já Wellehan opina que "esses vírus vêm infectando cobras atuais e seus ancestrais por pelo menos 35 milhões de anos.
+1	Já	já	ADV	ADV	_	3	advmod	_	_
+2	Wellehan	_	PROPN	PNOUN	_	3	nsubj	_	_
+3	opina	opinar	VERB	VERB	_	0	root	_	_
+4	que	que	CCONJ	CONJ	_	9	mark	_	_
+5	"	"	PUNCT	.	_	9	punct	_	SpaceAfter=No
+6	esses	_	DET	DET	_	7	det	_	_
+7	vírus	vírus	NOUN	NOUN	_	9	nsubj	_	_
+8	vêm	vir	AUX	AUX	_	9	aux	_	_
+9	infectando	infectar	VERB	VERB	_	3	ccomp	_	_
+10	cobras	cobra	NOUN	NOUN	_	9	obj	_	_
+11	atuais	atual	ADJ	ADJ	_	10	amod	_	_
+12	e	e	CCONJ	CONJ	_	14	cc	_	_
+13	seus	_	DET	DET	_	14	det:poss	_	_
+14	ancestrais	_	NOUN	NOUN	_	10	conj	_	_
+15	por	por	ADP	ADP	_	22	case	_	_
+16-17	pelo	_	_	_	_	_	_	_	_
+16	por	por	ADP	ADP	_	18	case	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	menos	menos	ADV	ADV	_	22	nmod	_	_
+19	35	35	NUM	NUM	NumType=Card	20	nummod	_	_
+20	milhões	milhão	NOUN	NOUN	_	22	nummod	_	_
+21	de	de	ADP	ADP	_	22	case	_	_
+22	anos	ano	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	_	_
+

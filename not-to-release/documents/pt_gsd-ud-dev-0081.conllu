@@ -1,0 +1,295 @@
+# sent_id = dev-s794
+# text = Em 1993, tentou sua volta nos 1500 metros em várias corridas de Grand Prix na Europa, mas não obteve o desempenho esperado.
+1	Em	em	ADP	ADP	_	2	case	_	_
+2	1993	1993	NUM	NUM	NumType=Card	4	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	.	_	2	punct	_	_
+4	tentou	tentar	VERB	VERB	_	0	root	_	_
+5	sua	_	DET	DET	_	6	det:poss	_	_
+6	volta	volta	NOUN	NOUN	_	4	obj	_	_
+7-8	nos	_	_	_	_	_	_	_	_
+7	em	em	ADP	ADP	_	10	case	_	_
+8	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	1500	1500	NUM	NUM	NumType=Card	10	nummod	_	_
+10	metros	metro	NOUN	NOUN	_	6	nmod	_	_
+11	em	em	ADP	ADP	_	13	case	_	_
+12	várias	_	DET	DET	_	13	det	_	_
+13	corridas	corrida	NOUN	NOUN	_	4	nmod	_	_
+14	de	de	ADP	ADP	_	16	case	_	_
+15	Grand	_	PROPN	PNOUN	_	16	amod	_	_
+16	Prix	_	PROPN	PNOUN	_	13	nmod	_	_
+17-18	na	_	_	_	_	_	_	_	_
+17	em	em	ADP	ADP	_	19	case	_	_
+18	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Europa	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	.	_	23	punct	_	_
+21	mas	mas	CCONJ	CONJ	_	23	cc	_	_
+22	não	não	ADV	ADV	Polarity=Neg	23	advmod	_	_
+23	obteve	obter	VERB	VERB	_	4	conj	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	desempenho	desempenho	NOUN	NOUN	_	23	obj	_	_
+26	esperado	esperar	VERB	VERB	_	25	acl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = dev-s795
+# text = "Precisava de apoio, e eles trouxeram.
+1	"	"	PUNCT	.	_	2	punct	_	SpaceAfter=No
+2	Precisava	precisar	VERB	VERB	_	0	root	_	_
+3	de	de	ADP	ADP	_	4	case	_	_
+4	apoio	apoio	NOUN	NOUN	_	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	.	_	8	punct	_	_
+6	e	e	CCONJ	CONJ	_	8	cc	_	_
+7	eles	_	PRON	PRON	_	8	nsubj	_	_
+8	trouxeram	trazer	VERB	VERB	_	2	conj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = dev-s796
+# text = O encontro aconteceu na tarde desta segunda - feira, quando o Partido Progressista (PP) do deputado federal Paulo Maluf selou apoio à chapa encabeçada pelo PT nas eleições municipais deste ano.
+1	O	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	encontro	encontro	NOUN	NOUN	_	3	nsubj	_	_
+3	aconteceu	acontecer	VERB	VERB	_	0	root	_	_
+4-5	na	_	_	_	_	_	_	_	_
+4	em	em	ADP	ADP	_	6	case	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	tarde	tarde	NOUN	NOUN	_	3	nmod	_	_
+7	desta	_	ADP	ADP	_	10	case	_	_
+8	segunda	_	PROPN	PNOUN	_	10	amod	_	_
+9	-	-	PUNCT	.	_	10	punct	_	_
+10	feira	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	.	_	25	punct	_	_
+12	quando	quando	ADV	ADV	_	25	advmod	_	_
+13	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Partido	_	PROPN	PNOUN	_	25	nsubj	_	_
+15	Progressista	_	PROPN	PNOUN	_	14	amod	_	_
+16	(	(	PUNCT	.	_	17	punct	_	SpaceAfter=No
+17	PP	_	PROPN	PNOUN	_	14	appos	_	SpaceAfter=No
+18	)	)	PUNCT	.	_	17	punct	_	_
+19-20	do	_	_	_	_	_	_	_	_
+19	de	de	ADP	ADP	_	21	case	_	_
+20	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	deputado	deputado	NOUN	NOUN	_	14	nmod	_	_
+22	federal	federal	ADJ	ADJ	_	21	amod	_	_
+23	Paulo	_	PROPN	PNOUN	_	21	appos	_	_
+24	Maluf	_	PROPN	PNOUN	_	23	flat	_	_
+25	selou	selar	VERB	VERB	_	6	acl:relcl	_	_
+26	apoio	apoio	NOUN	NOUN	_	25	obj	_	_
+27-28	à	_	_	_	_	_	_	_	_
+27	a	a	ADP	ADP	_	29	case	_	_
+28	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	chapa	chapa	NOUN	NOUN	_	26	nmod	_	_
+30	encabeçada	encabeçar	VERB	VERB	_	29	acl	_	_
+31-32	pelo	_	_	_	_	_	_	_	_
+31	por	por	ADP	ADP	_	33	case	_	_
+32	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	PT	_	PROPN	PNOUN	_	30	nmod	_	_
+34-35	nas	_	_	_	_	_	_	_	_
+34	em	em	ADP	ADP	_	36	case	_	_
+35	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
+36	eleições	eleição	NOUN	NOUN	_	25	nmod	_	_
+37	municipais	municipal	ADJ	ADJ	_	36	amod	_	_
+38	deste	_	ADP	ADP	_	39	case	_	_
+39	ano	ano	NOUN	NOUN	_	36	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = dev-s797
+# text = animais representados por bonecos de mão.
+1	animais	animal	NOUN	NOUN	_	0	root	_	_
+2	representados	representar	VERB	VERB	_	1	acl	_	_
+3	por	por	ADP	ADP	_	4	case	_	_
+4	bonecos	boneco	NOUN	NOUN	_	2	nmod	_	_
+5	de	de	ADP	ADP	_	6	case	_	_
+6	mão	mão	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = dev-s798
+# text = Acredito que em 2013 a torcida do Coritiba terá muitas alegrias ", finalizou o goleador.
+1	Acredito	acreditar	VERB	VERB	_	15	ccomp	_	_
+2	que	que	CCONJ	CONJ	_	10	mark	_	_
+3	em	em	ADP	ADP	_	4	case	_	_
+4	2013	2013	NUM	NUM	NumType=Card	10	nmod	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	torcida	torcida	NOUN	NOUN	_	10	nsubj	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
+8	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Coritiba	_	PROPN	PNOUN	_	6	nmod	_	_
+10	terá	ter	VERB	VERB	_	1	ccomp	_	_
+11	muitas	_	DET	DET	_	12	det	_	_
+12	alegrias	alegria	NOUN	NOUN	_	10	obj	_	_
+13	"	"	PUNCT	.	_	1	punct	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	15	punct	_	_
+15	finalizou	finalizar	VERB	VERB	_	0	root	_	_
+16	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	goleador	goleador	NOUN	NOUN	_	15	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	15	punct	_	_
+
+# sent_id = dev-s799
+# text = Logo em seguida, nós retomamos a bola.
+1	Logo	logo	ADV	ADV	_	3	advmod	_	_
+2	em	em	ADP	ADP	_	3	case	_	_
+3	seguida	_	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	.	_	3	punct	_	_
+5	nós	_	PRON	PRON	_	6	nsubj	_	_
+6	retomamos	retomar	VERB	VERB	_	0	root	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	bola	bola	NOUN	NOUN	_	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = O governo dos Estados Unidos expressou nesta segunda - feira seu apoio à nova aliança opositora síria, dominada pelo Conselho Nacional Sírio (CNS) e da qual não fazem parte vários grupos relevantes, e afirmou que trabalhará com ela para seguir proporcionando ajuda humanitária à população.
+# sent_id = dev-s800
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	governo	governo	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+3-4	dos	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	Estados	Estados	PROPN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+6	Unidos	Unidos	PROPN	_	Number=Sing	5	flat:name	_	_
+7	expressou	expressar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8-9	nesta	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	segunda	segundo	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	7	obl	_	_
+11	-	-	PUNCT	_	_	10	punct	_	_
+12	feira	feira	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+13	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	14	det	_	_
+14	apoio	apoio	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+15-16	à	_	_	_	_	_	_	_	_
+15	a	a	ADP	_	_	18	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	nova	novo	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+18	aliança	aliança	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+19	opositora	opositor	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+20	síria	sírio	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	dominada	dominar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	18	acl	_	_
+23-24	pelo	_	_	_	_	_	_	_	_
+23	por	por	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Conselho	Conselho	PROPN	_	Gender=Masc|Number=Sing	22	obl:agent	_	_
+26	Nacional	Nacional	PROPN	_	Number=Sing	25	flat:name	_	_
+27	Sírio	Sírio	PROPN	_	Number=Sing	25	flat:name	_	_
+28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
+29	CNS	CNS	PROPN	_	Gender=Masc|Number=Sing	25	appos	_	SpaceAfter=No
+30	)	)	PUNCT	_	_	29	punct	_	_
+31	e	e	CCONJ	_	_	36	cc	_	_
+32-33	da	_	_	_	_	_	_	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	qual	qual	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	36	obl	_	_
+35	não	não	ADV	_	Polarity=Neg	36	advmod	_	_
+36	fazem	fazer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+37	parte	parte	NOUN	_	Gender=Fem|Number=Sing	36	obj	_	_
+38	vários	vários	DET	_	Gender=Masc|Number=Plur|PronType=Ind	39	det	_	_
+39	grupos	grupo	NOUN	_	Gender=Masc|Number=Plur	36	nsubj	_	_
+40	relevantes	relevante	ADJ	_	Gender=Masc|Number=Plur	39	amod	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	43	punct	_	_
+42	e	e	CCONJ	_	_	43	cc	_	_
+43	afirmou	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+44	que	que	SCONJ	_	_	45	mark	_	_
+45	trabalhará	trabalhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	43	ccomp	_	_
+46	com	com	ADP	_	_	47	case	_	_
+47	ela	ela	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	45	obj	_	_
+48	para	para	SCONJ	_	_	50	mark	_	_
+49	seguir	seguir	VERB	_	VerbForm=Inf	45	advcl	_	_
+50	proporcionando	proporcionar	VERB	_	VerbForm=Ger	49	xcomp	_	_
+51	ajuda	ajuda	NOUN	_	Gender=Fem|Number=Sing	50	obj	_	_
+52	humanitária	humanitário	ADJ	_	Gender=Fem|Number=Sing	51	amod	_	_
+53-54	à	_	_	_	_	_	_	_	_
+53	a	a	ADP	_	_	55	case	_	_
+54	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
+55	população	população	NOUN	_	Gender=Fem|Number=Sing	50	iobj	_	SpaceAfter=No
+56	.	.	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = dev-s801
+# text = Cachoeira foi preso no dia 29 de fevereiro, quando foi levado para o presídio de Mossoró (RN).
+1	Cachoeira	_	PROPN	PNOUN	_	3	nsubj:pass	_	_
+2	foi	_	AUX	AUX	_	3	aux:pass	_	_
+3	preso	_	VERB	VERB	_	0	root	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	ADP	_	6	case	_	_
+5	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	dia	dia	NOUN	NOUN	_	3	nmod	_	_
+7	29	29	NUM	NUM	NumType=Card	6	nmod	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
+9	fevereiro	_	PROPN	PNOUN	_	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	.	_	13	punct	_	_
+11	quando	quando	ADV	ADV	_	13	advmod	_	_
+12	foi	_	AUX	AUX	_	13	aux:pass	_	_
+13	levado	levar	VERB	VERB	_	7	acl:relcl	_	_
+14	para	para	ADP	ADP	_	16	case	_	_
+15	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	presídio	presídio	NOUN	NOUN	_	13	nmod	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
+18	Mossoró	_	PROPN	PNOUN	_	16	nmod	_	_
+19	(	(	PUNCT	.	_	20	punct	_	SpaceAfter=No
+20	RN	_	PROPN	PNOUN	_	18	appos	_	SpaceAfter=No
+21	)	)	PUNCT	.	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = dev-s802
+# text = Entretanto, analistas destacam que tais perspectivas podem mudar nas próximas semanas, dependendo do resultado de novos indicadores econômicos.
+1	Entretanto	entretanto	ADV	ADV	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	.	_	1	punct	_	_
+3	analistas	analista	NOUN	NOUN	_	4	nsubj	_	_
+4	destacam	destacar	VERB	VERB	_	0	root	_	_
+5	que	que	CCONJ	CONJ	_	9	mark	_	_
+6	tais	_	DET	DET	_	7	det	_	_
+7	perspectivas	perspectiva	NOUN	NOUN	_	9	nsubj	_	_
+8	podem	_	AUX	AUX	_	9	aux	_	_
+9	mudar	mudar	VERB	VERB	_	4	ccomp	_	_
+10-11	nas	_	_	_	_	_	_	_	_
+10	em	em	ADP	ADP	_	13	case	_	_
+11	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+12	próximas	próximo	ADJ	ADJ	_	13	amod	_	_
+13	semanas	semana	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	.	_	15	punct	_	_
+15	dependendo	depender	VERB	VERB	_	9	acl	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	ADP	_	18	case	_	_
+17	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	resultado	resultado	NOUN	NOUN	_	15	nmod	_	_
+19	de	de	ADP	ADP	_	21	case	_	_
+20	novos	novo	ADJ	ADJ	_	21	amod	_	_
+21	indicadores	indicador	NOUN	NOUN	_	18	nmod	_	_
+22	econômicos	econômico	ADJ	ADJ	_	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = dev-s803
+# text = A vítima, identificada como Silvano de Melo, de 48 anos, apresentava um ferimento de arma branca na altura do peito esquerdo quando foi encontrada caída por populares.
+1	A	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	vítima	vítima	NOUN	NOUN	_	14	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	.	_	4	punct	_	_
+4	identificada	identificar	VERB	VERB	_	2	acl	_	_
+5	como	como	ADP	ADP	_	6	case	_	_
+6	Silvano	_	PROPN	PNOUN	_	4	nmod	_	_
+7	de	de	ADP	ADP	_	8	case	_	_
+8	Melo	_	PROPN	PNOUN	_	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	12	punct	_	_
+10	de	de	ADP	ADP	_	12	case	_	_
+11	48	48	NUM	NUM	NumType=Card	12	nummod	_	_
+12	anos	ano	NOUN	NOUN	_	6	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	.	_	12	punct	_	_
+14	apresentava	apresentar	VERB	VERB	_	0	root	_	_
+15	um	um	DET	DET	_	16	det	_	_
+16	ferimento	ferimento	NOUN	NOUN	_	14	obj	_	_
+17	de	de	ADP	ADP	_	18	case	_	_
+18	arma	arma	NOUN	NOUN	_	16	nmod	_	_
+19	branca	branco	ADJ	ADJ	_	18	amod	_	_
+20-21	na	_	_	_	_	_	_	_	_
+20	em	em	ADP	ADP	_	22	case	_	_
+21	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	altura	altura	NOUN	NOUN	_	16	nmod	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	ADP	_	25	case	_	_
+24	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	peito	peito	NOUN	NOUN	_	22	nmod	_	_
+26	esquerdo	esquerdo	ADJ	ADJ	_	25	amod	_	_
+27	quando	_	CCONJ	CONJ	_	29	mark	_	_
+28	foi	_	AUX	AUX	_	29	aux	_	_
+29	encontrada	encontrar	VERB	VERB	_	14	advcl	_	_
+30	caída	caído	ADJ	ADJ	_	29	xcomp	_	_
+31	por	por	ADP	ADP	_	32	case	_	_
+32	populares	popular	NOUN	NOUN	_	29	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	14	punct	_	_
+

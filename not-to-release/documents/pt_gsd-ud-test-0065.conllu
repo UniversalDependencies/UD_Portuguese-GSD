@@ -1,0 +1,293 @@
+# sent_id = test-s637
+# text = Com exceção da torcida do Fluminense, feliz da vida há três rodadas, o Brasileirão 2012 não deverá deixar saudade nos torcedores dos outros 19 clubes.
+1	Com	_	ADP	ADP	_	2	case	_	_
+2	exceção	exceção	NOUN	NOUN	_	23	nmod	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	ADP	_	5	case	_	_
+4	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	torcida	torcida	NOUN	NOUN	_	2	nmod	_	_
+6-7	do	_	_	_	_	_	_	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Fluminense	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	.	_	10	punct	_	_
+10	feliz	feliz	ADJ	ADJ	_	5	amod	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	ADP	_	13	case	_	_
+12	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	vida	vida	NOUN	NOUN	_	10	nmod	_	_
+14	há	haver	VERB	VERB	_	10	advcl	_	_
+15	três	_	NUM	NUM	NumType=Card	16	nummod	_	_
+16	rodadas	_	NOUN	NOUN	_	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	.	_	14	punct	_	_
+18	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Brasileirão	_	PROPN	PNOUN	_	23	nsubj	_	_
+20	2012	2012	NUM	NUM	NumType=Card	19	nmod	_	_
+21	não	não	ADV	ADV	Polarity=Neg	23	advmod	_	_
+22	deverá	dever	AUX	AUX	_	23	aux	_	_
+23	deixar	deixar	VERB	VERB	_	0	root	_	_
+24	saudade	saudade	NOUN	NOUN	_	23	obj	_	_
+25-26	nos	_	_	_	_	_	_	_	_
+25	em	em	ADP	ADP	_	27	case	_	_
+26	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	torcedores	torcedor	NOUN	NOUN	_	23	nmod	_	_
+28-29	dos	_	_	_	_	_	_	_	_
+28	de	de	ADP	ADP	_	32	case	_	_
+29	os	o	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+30	outros	_	DET	DET	_	32	det	_	_
+31	19	19	NUM	NUM	NumType=Card	32	nummod	_	_
+32	clubes	clube	NOUN	NOUN	_	27	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	.	_	23	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# sent_id = test-s638
+# text = Primeiro veio o (goleiro) Rafael, o (lateral - esquerdo) Léo, todo mundo veio me cumprimentar.
+1	Primeiro	primeiro	ADV	_	_	2	advmod	_	_
+2	veio	vir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	goleiro	goleiro	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	_
+7	Rafael	Rafael	PROPN	_	Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	lateral	lateral	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	_
+12	-	-	PUNCT	_	_	13	punct	_	_
+13	esquerdo	esquerdo	ADJ	_	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	11	punct	_	_
+15	Léo	Léo	PROPN	_	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	19	punct	_	_
+17	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Tot	18	det	_	_
+18	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
+19	veio	vir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+20	me	eu	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	21	obj	_	_
+21	cumprimentar	cumprimentar	VERB	_	VerbForm=Inf	19	xcomp	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
+
+# sent_id = test-s639
+# text = Pedro e Rodrigo encontram a ficha duma funcionária que pode saber algo sobre Angélica.
+1	Pedro	_	NOUN	NOUN	_	4	nsubj	_	_
+2	e	e	CCONJ	CONJ	_	3	cc	_	_
+3	Rodrigo	_	PROPN	PNOUN	_	1	conj	_	_
+4	encontram	encontrar	VERB	VERB	_	0	root	_	_
+5	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	ficha	ficha	NOUN	NOUN	_	4	obj	_	_
+7-8	duma	_	_	_	_	_	_	_	_
+7	de	de	ADP	ADP	_	9	case	_	_
+8	uma	um	DET	DET	_	9	det	_	_
+9	funcionária	funcionário	NOUN	NOUN	_	6	nmod	_	_
+10	que	_	PRON	PRON	_	12	nsubj	_	_
+11	pode	_	AUX	AUX	_	12	aux	_	_
+12	saber	saber	VERB	VERB	_	9	acl:relcl	_	_
+13	algo	_	PRON	PRON	_	12	obj	_	_
+14	sobre	_	ADP	ADP	_	15	case	_	_
+15	Angélica	_	PROPN	PNOUN	_	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = test-s640
+# text = São exigidos pelo menos três conjuntos de degraus e a largura de cada um é de 1,07 metros.
+1	São	ser	AUX	AUX	_	2	aux:pass	_	_
+2	exigidos	exigir	VERB	VERB	_	0	root	_	_
+3-4	pelo	_	_	_	_	_	_	_	_
+3	por	por	ADP	ADP	_	5	case	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	menos	menos	ADV	ADV	_	6	advmod	_	_
+6	três	_	NUM	NUM	NumType=Card	7	nummod	_	_
+7	conjuntos	conjunto	NOUN	NOUN	_	2	nsubj:pass	_	_
+8	de	de	ADP	ADP	_	9	case	_	_
+9	degraus	degrau	NOUN	NOUN	_	7	nmod	_	_
+10	e	e	CCONJ	CONJ	_	16	cc	_	_
+11	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	largura	largura	NOUN	NOUN	_	16	nsubj	_	_
+13	de	de	ADP	ADP	_	15	case	_	_
+14	cada	_	DET	DET	_	15	det	_	_
+15	um	_	PRON	PRON	_	12	nmod	_	_
+16	é	ser	VERB	VERB	_	2	conj	_	_
+17	de	de	ADP	ADP	_	19	case	_	_
+18	1,07	1,07	NUM	NUM	NumType=Card	19	nummod	_	_
+19	metros	metro	NOUN	NOUN	_	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = test-s641
+# text = Em campo, o Partizan deve causar bem menos problemas para o Inter.
+1	Em	em	ADP	ADP	_	2	case	_	_
+2	campo	campo	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	.	_	2	punct	_	_
+4	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Partizan	_	PROPN	PNOUN	_	7	nsubj	_	_
+6	deve	dever	AUX	AUX	_	7	aux	_	_
+7	causar	causar	VERB	VERB	_	0	root	_	_
+8	bem	bem	ADV	ADV	_	9	advmod	_	_
+9	menos	menos	ADV	ADV	_	10	advmod	_	_
+10	problemas	problema	NOUN	NOUN	_	7	obj	_	_
+11	para	para	ADP	ADP	_	13	case	_	_
+12	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Inter	_	PROPN	PNOUN	_	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = test-s642
+# text = De acordo com as informações da delegacia do município, entre os presos estavam dois menores, que foram liberados após prestarem depoimentos.
+1	De	_	ADP	ADP	_	2	case	_	_
+2	acordo	acordo	NOUN	NOUN	_	16	nmod	_	_
+3	com	com	ADP	ADP	_	5	case	_	_
+4	as	o	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	informações	informação	NOUN	NOUN	_	2	nmod	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	ADP	_	8	case	_	_
+7	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	delegacia	delegacia	NOUN	NOUN	_	5	nmod	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	ADP	_	11	case	_	_
+10	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	município	município	NOUN	NOUN	_	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	.	_	2	punct	_	_
+13	entre	_	ADP	ADP	_	15	case	_	_
+14	os	o	DET	DET	_	15	det	_	_
+15	presos	preso	NOUN	NOUN	_	16	nmod	_	_
+16	estavam	estar	VERB	VERB	_	0	root	_	_
+17	dois	_	NUM	NUM	NumType=Card	18	nummod	_	_
+18	menores	_	NOUN	NOUN	_	16	nsubj	_	SpaceAfter=No
+19	,	,	PUNCT	.	_	22	punct	_	_
+20	que	_	PRON	PRON	_	22	nsubj:pass	_	_
+21	foram	_	AUX	AUX	_	22	aux:pass	_	_
+22	liberados	liberar	VERB	VERB	_	18	acl:relcl	_	_
+23	após	_	ADP	ADP	_	24	mark	_	_
+24	prestarem	prestar	VERB	VERB	_	22	advcl	_	_
+25	depoimentos	depoimento	NOUN	NOUN	_	24	obj	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	16	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Os dois ainda teriam brincado ao telefone e Brad Pitt desejou felicidades à ex - mulher, o que ela teria retribuído, já que Pitt também vai se casar em breve com Angelina.
+# sent_id = test-s643
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	dois	dois	NUM	_	NumType=Card	5	nsubj	_	_
+3	ainda	ainda	ADV	_	_	5	advmod	_	_
+4	teriam	ter	AUX	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	5	aux	_	_
+5	brincado	brincar	VERB	_	VerbForm=Part	0	root	_	_
+6-7	ao	_	_	_	_	_	_	_	_
+6	a	a	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	telefone	telefone	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+9	e	e	CCONJ	_	_	12	cc	_	_
+10	Brad	Brad	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	12	nsubj	_	_
+11	Pitt	Pitt	PROPN	_	Number=Sing	10	flat:name	_	_
+12	desejou	desejar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
+13	felicidades	felicidade	NOUN	_	Gender=Fem|Number=Plur	12	obj	_	_
+14-15	à	_	_	_	_	_	_	_	_
+14	a	a	ADP	_	_	18	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+16	ex	ex	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+17	-	-	PUNCT	_	_	18	punct	_	_
+18	mulher	mulher	NOUN	_	Gender=Fem|Number=Sing	12	iobj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	12	appos	_	_
+21	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	24	obj	_	_
+22	ela	ela	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+23	teria	ter	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	24	aux	_	_
+24	retribuído	retribuir	VERB	_	VerbForm=Part	20	acl:relcl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	já	já	SCONJ	_	ExtPos=SCONJ	32	mark	_	_
+27	que	que	SCONJ	_	_	26	fixed	_	_
+28	Pitt	Pitt	PROPN	_	Gender=Masc|Number=Sing	32	nsubj	_	_
+29	também	também	ADV	_	_	32	advmod	_	_
+30	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+31	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	expl	_	_
+32	casar	casar	VERB	_	VerbForm=Inf	24	advcl	_	_
+33	em	em	ADP	_	_	34	case	_	_
+34	breve	breve	NOUN	_	Gender=Masc|Number=Sing	32	obl	_	_
+35	com	com	ADP	_	_	36	case	_	_
+36	Angelina	Angelina	PROPN	_	Gender=Fem|Number=Sing	32	obl	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+
+# sent_id = test-s644
+# text = Foi a minha escolha vir para o PSG".
+1	Foi	_	AUX	AUX	_	4	cop	_	_
+2	a	o	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	minha	_	DET	DET	_	4	det:poss	_	_
+4	escolha	escolha	NOUN	NOUN	_	0	root	_	_
+5	vir	_	VERB	VERB	_	4	csubj	_	_
+6	para	para	ADP	ADP	_	8	case	_	_
+7	o	o	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	PSG	_	PROPN	PNOUN	_	5	nmod	_	SpaceAfter=No
+9	"	"	PUNCT	.	_	4	punct	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = O destino mais procurado pelos turistas é o Distrito do Pontalete, por causa da Represa de Furnas.
+# sent_id = test-s645
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	destino	destino	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	mais	mais	ADV	_	_	4	advmod	_	_
+4	procurado	procurar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	_
+5-6	pelos	_	_	_	_	_	_	_	_
+5	por	por	ADP	_	_	7	case	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	turistas	turista	NOUN	_	Gender=Masc|Number=Plur	4	obl:agent	_	_
+8	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Distrito	Distrito	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Pontalete	Pontalete	PROPN	_	Number=Sing	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	10	punct	_	_
+15	por	por	ADP	_	_	16	case	_	_
+16	causa	causa	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+17-18	da	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Represa	Represa	PROPN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	Furnas	Furnas	PROPN	_	Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# udpipe_model = portuguese-bosque-ud-2.12-230717
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# text = Miss Universo 1986 foi a 35 ª edição do concurso, realizada no ATLAPA Convention Center, na Cidade do Panamá, Panamá, em 21 de julho daquele ano.
+# sent_id = test-s646
+1	Miss	Miss	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	8	nsubj	_	_
+2	Universo	Universo	PROPN	_	Number=Sing	1	flat:name	_	_
+3	1986	1986	NUM	_	NumType=Card	1	flat:name	_	_
+4	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+6	35	35	NUM	_	NumType=Card	8	nummod	_	_
+7	ª	ª	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	8	amod	_	_
+8	edição	edição	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+9-10	do	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	concurso	concurso	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	realizada	realizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	8	acl	_	_
+14-15	no	_	_	_	_	_	_	_	_
+14	em	em	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	ATLAPA	ATLAPA	PROPN	_	ExtPos=PROPN|Gender=Masc|Number=Sing	13	obl	_	_
+17	Convention	Convention	PROPN	_	Number=Sing	16	flat:name	_	_
+18	Center	Center	PROPN	_	Number=Sing	16	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	13	punct	_	_
+20-21	na	_	_	_	_	_	_	_	_
+20	em	em	ADP	_	_	22	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Cidade	Cidade	PROPN	_	Gender=Fem|Number=Sing	13	obl	_	_
+23-24	do	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Panamá	Panamá	PROPN	_	Number=Sing	22	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	Panamá	Panamá	PROPN	_	Gender=Masc|Number=Sing	22	appos	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	13	punct	_	_
+29	em	em	ADP	_	_	30	case	_	_
+30	21	21	NUM	_	NumType=Card	13	obl	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	julho	julho	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	_
+33-34	daquele	_	_	_	_	_	_	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	aquele	aquele	DET	_	Gender=Masc|Number=Sing|PronType=Dem	35	det	_	_
+35	ano	ano	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
