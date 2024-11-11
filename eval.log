@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Portuguese-GSD:
-commit 916742740ee64196f34e79ac035658962d44cd90
-Merge: 6d85436 5edd2ef
+commit ad188d491df7918939718019c3d01d53bf665661
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun May 5 13:17:16 2024 +0200
 Size: counted 318666 of 318666 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.5282870646618.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -29,7 +29,8 @@ Genres: found 2 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang pt --max-err=10 UD_Portuguese-GSD/pt_gsd-ud-test.conllu
 [Line 15516 Sent test-s499 Node 31]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 15515 Sent test-s499 Node 30]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-Warnings: 2
+[Line 22396 Sent test-s710 Node 19]: [L3 Warning leaf-det] 'det' not expected to have children (19:a:det --> 22:Morbeia:nmod)
+Warnings: 3
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang pt --max-err=10 UD_Portuguese-GSD/pt_gsd-ud-train.conllu
 [Line 54140 Sent train-s1728 Node 9]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
@@ -43,7 +44,7 @@ Warnings: 2
 [Line 107825 Sent train-s3434 Node 14]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 107822 Sent train-s3434 Node 11]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 ...suppressing further errors regarding Warning
-Warnings: 16
+Warnings: 20
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.12) = 0.00923076923076923
