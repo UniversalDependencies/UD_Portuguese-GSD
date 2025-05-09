@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Portuguese-GSD:
-commit ad188d491df7918939718019c3d01d53bf665661
+commit de17e8858517d2844a3aafcfbae0be50cdf8f698
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 13:17:16 2024 +0200
+Date:   Mon Nov 11 16:26:38 2024 +0100
 Size: counted 318666 of 318666 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.5282870646618.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,41 +20,91 @@ Features: source of annotation (from README) factor is 0.4.
 Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL      39129
-Udapi: found 39129 bugs.
+               TOTAL      39047
+Udapi: found 39047 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 318666 words.
-Genres: found 2 out of 17 known.
+Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang pt --max-err=10 UD_Portuguese-GSD/pt_gsd-ud-dev.conllu
-*** PASSED ***
-/net/work/people/zeman/unidep/tools/validate.py --lang pt --max-err=10 UD_Portuguese-GSD/pt_gsd-ud-test.conllu
-[Line 15516 Sent test-s499 Node 31]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 15515 Sent test-s499 Node 30]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 22396 Sent test-s710 Node 19]: [L3 Warning leaf-det] 'det' not expected to have children (19:a:det --> 22:Morbeia:nmod)
-Warnings: 3
-*** PASSED ***
-/net/work/people/zeman/unidep/tools/validate.py --lang pt --max-err=10 UD_Portuguese-GSD/pt_gsd-ud-train.conllu
-[Line 54140 Sent train-s1728 Node 9]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 54139 Sent train-s1728 Node 8]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 99977 Sent train-s3191 Node 8]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 99976 Sent train-s3191 Node 7]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 102665 Sent train-s3276 Node 21]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 102664 Sent train-s3276 Node 20]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 107824 Sent train-s3434 Node 13]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 107822 Sent train-s3434 Node 11]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 107825 Sent train-s3434 Node 14]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 107822 Sent train-s3434 Node 11]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 157 Sent dev-s7 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'para que' does not have the 'ExtPos' feature
+[Line 535 Sent dev-s21 Node 13]: [L3 Warning fixed-without-extpos] Fixed expression 'já que' does not have the 'ExtPos' feature
+[Line 591 Sent dev-s23 Node 19]: [L3 Warning fixed-without-extpos] Fixed expression 'uma vez que' does not have the 'ExtPos' feature
+[Line 591 Sent dev-s23 Node 19]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'uma'
+[Line 1030 Sent dev-s36 Node 34]: [L3 Warning fixed-without-extpos] Fixed expression 'tanto que' does not have the 'ExtPos' feature
+[Line 1184 Sent dev-s40 Node 26]: [L3 Warning fixed-without-extpos] Fixed expression 'de o que' does not have the 'ExtPos' feature
+[Line 1267 Sent dev-s45 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Depois de' does not have the 'ExtPos' feature
+[Line 2395 Sent dev-s77 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'como se' does not have the 'ExtPos' feature
+[Line 3214 Sent dev-s102 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Ou seja' does not have the 'ExtPos' feature
+[Line 4014 Sent dev-s130 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'mais de' does not have the 'ExtPos' feature
+[Line 5069 Sent dev-s159 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Apesar de' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
-Warnings: 20
-*** PASSED ***
-Validity: 1
+[Line 13731 Sent dev-s422 Node 78]: [L3 Syntax rel-upos-mark] 'mark' should not be 'AUX' word 'sendo'
+[Line 20632 Sent dev-s632 Node 15]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PROPN' word 'Nada'
+[Line 24324 Sent dev-s756 Node 46]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON' word 'isto'
+Syntax errors: 4
+Warnings: 74
+*** FAILED *** with 4 errors
+Exit code: 1
+/net/work/people/zeman/unidep/tools/validate.py --lang pt --max-err=10 UD_Portuguese-GSD/pt_gsd-ud-test.conllu
+[Line 808 Sent test-s26 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'Com objetivo de' does not have the 'ExtPos' feature
+[Line 920 Sent test-s29 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'depois de' does not have the 'ExtPos' feature
+[Line 1139 Sent test-s36 Node 19]: [L3 Warning fixed-without-extpos] Fixed expression 'depois de' does not have the 'ExtPos' feature
+[Line 1572 Sent test-s50 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Assim como' does not have the 'ExtPos' feature
+[Line 2345 Sent test-s70 Node 29]: [L3 Warning fixed-without-extpos] Fixed expression 'devido a' does not have the 'ExtPos' feature
+[Line 2375 Sent test-s71 Node 18]: [L3 Warning fixed-without-extpos] Fixed expression 'depois de' does not have the 'ExtPos' feature
+[Line 2406 Sent test-s73 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Assim como' does not have the 'ExtPos' feature
+[Line 2708 Sent test-s85 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' word 'Assim'
+[Line 3008 Sent test-s95 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'depois de' does not have the 'ExtPos' feature
+[Line 3708 Sent test-s118 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'mesmo que' does not have the 'ExtPos' feature
+[Line 5968 Sent test-s188 Node 13]: [L3 Warning fixed-without-extpos] Fixed expression 'como se' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+[Line 7131 Sent test-s224 Node 16]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'uma'
+[Line 21043 Sent test-s669 Node 1]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'Uma'
+[Line 22396 Sent test-s710 Node 19]: [L3 Syntax leaf-det] 'det' not expected to have children (19:a:det --> 22:Morbeia:nmod)
+[Line 23083 Sent test-s729 Node 19]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'uma'
+[Line 25678 Sent test-s810 Node 10]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'uma'
+[Line 27326 Sent test-s865 Node 14]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'uma'
+[Line 32912 Sent test-s1042 Node 8]: [L3 Syntax rel-upos-mark] 'mark' should not be 'AUX' word 'sendo'
+[Line 36131 Sent test-s1148 Node 11]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'uma'
+Syntax errors: 9
+Warnings: 71
+*** FAILED *** with 9 errors
+Exit code: 1
+/net/work/people/zeman/unidep/tools/validate.py --lang pt --max-err=10 UD_Portuguese-GSD/pt_gsd-ud-train.conllu
+[Line 1954 Sent train-s63 Node 19]: [L3 Warning fixed-without-extpos] Fixed expression 'depois de' does not have the 'ExtPos' feature
+[Line 2925 Sent train-s93 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Apesar de' does not have the 'ExtPos' feature
+[Line 4054 Sent train-s137 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'tais como' does not have the 'ExtPos' feature
+[Line 4054 Sent train-s137 Node 4]: [L3 Syntax rel-upos-case] 'case' should not be 'DET' word 'tais'
+[Line 4662 Sent train-s155 Node 22]: [L3 Warning fixed-without-extpos] Fixed expression 'uma vez que' does not have the 'ExtPos' feature
+[Line 4662 Sent train-s155 Node 22]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'uma'
+[Line 6020 Sent train-s195 Node 25]: [L3 Warning fixed-without-extpos] Fixed expression 'de o que' does not have the 'ExtPos' feature
+[Line 7207 Sent train-s234 Node 17]: [L3 Warning fixed-without-extpos] Fixed expression 'de modo a' does not have the 'ExtPos' feature
+[Line 8149 Sent train-s265 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'depois de' does not have the 'ExtPos' feature
+[Line 9597 Sent train-s310 Node 24]: [L3 Warning fixed-without-extpos] Fixed expression 'de o que' does not have the 'ExtPos' feature
+[Line 9616 Sent train-s311 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'em razão de' does not have the 'ExtPos' feature
+[Line 10191 Sent train-s327 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Depois de' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+[Line 14819 Sent train-s475 Node 11]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'em'
+[Line 19575 Sent train-s624 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'por'
+[Line 22605 Sent train-s727 Node 10]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'uma'
+[Line 32313 Sent train-s1019 Node 16]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'por'
+[Line 34453 Sent train-s1087 Node 23]: [L3 Syntax rel-upos-mark] 'mark' should not be 'AUX' word 'sendo'
+[Line 46439 Sent train-s1476 Node 9]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'uma'
+[Line 52832 Sent train-s1683 Node 16]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'em'
+[Line 60223 Sent train-s1922 Node 36]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'uma'
+...suppressing further errors regarding Syntax
+Syntax errors: 53
+Warnings: 614
+*** FAILED *** with 53 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.12) = 0.00923076923076923
-(weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
+(weight=0.0769230769230769) * (score{genres}=0.111111111111111) = 0.00854700854700855
 (weight=0.0769230769230769) * (score{lemmas}=0.01) = 0.000769230769230769
 (weight=0.256410256410256) * (score{size}=0.834445242996542) = 0.213960318717062
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.648648648648649) = 0.0498960498960499
-(TOTAL score=0.395183668763942) * (availability=1) * (validity=1) = 0.395183668763942
-STARS = 2
-UD_Portuguese-GSD	0.395183668763942	2
+(TOTAL score=0.394680903555294) * (availability=1) * (validity=0.01) = 0.00394680903555294
+STARS = 0
+UD_Portuguese-GSD	0.00394680903555294	0
