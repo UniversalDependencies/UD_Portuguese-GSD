@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Portuguese-GSD:
-commit de17e8858517d2844a3aafcfbae0be50cdf8f698
+commit 6317c630adb7b29b054af22e6e62f84ba45f4d05
+Merge: 691a8b5 f8a0b62
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 11 16:26:38 2024 +0100
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'pt_gsd'
+Language code (from CoNLL-U file name) = 'pt'
+Found the following data files: pt_gsd-ud-dev.conllu, pt_gsd-ud-test.conllu, pt_gsd-ud-train.conllu
 Size: counted 318666 of 318666 words (nodes).
 Size: min(0, log((N/1000)**2)) = 11.5282870646618.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,92 +23,91 @@ Features: 71980 out of 318666 total words have one or more features.
 Features: source of annotation (from README) factor is 0.4.
 Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi:
-               TOTAL      39047
-Udapi: found 39047 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 318666 words.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang pt --max-err=10 UD_Portuguese-GSD/pt_gsd-ud-dev.conllu
-[Line 157 Sent dev-s7 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'para que' does not have the 'ExtPos' feature
-[Line 535 Sent dev-s21 Node 13]: [L3 Warning fixed-without-extpos] Fixed expression 'já que' does not have the 'ExtPos' feature
-[Line 591 Sent dev-s23 Node 19]: [L3 Warning fixed-without-extpos] Fixed expression 'uma vez que' does not have the 'ExtPos' feature
-[Line 591 Sent dev-s23 Node 19]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'uma'
-[Line 1030 Sent dev-s36 Node 34]: [L3 Warning fixed-without-extpos] Fixed expression 'tanto que' does not have the 'ExtPos' feature
-[Line 1184 Sent dev-s40 Node 26]: [L3 Warning fixed-without-extpos] Fixed expression 'de o que' does not have the 'ExtPos' feature
-[Line 1267 Sent dev-s45 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Depois de' does not have the 'ExtPos' feature
-[Line 2395 Sent dev-s77 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'como se' does not have the 'ExtPos' feature
-[Line 3214 Sent dev-s102 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Ou seja' does not have the 'ExtPos' feature
-[Line 4014 Sent dev-s130 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'mais de' does not have the 'ExtPos' feature
-[Line 5069 Sent dev-s159 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Apesar de' does not have the 'ExtPos' feature
+[Line 58 Sent dev-s2]: [L3 Warning pron-det-without-prontype] The word 'que' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 74 Sent dev-s3]: [L3 Warning pron-det-without-prontype] The word 'ele' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 82 Sent dev-s4]: [L3 Warning pron-det-without-prontype] The word 'um' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 157 Sent dev-s7]: [L3 Warning fixed-without-extpos] Fixed expression 'para que' does not have the 'ExtPos' feature
+[Line 159 Sent dev-s7]: [L3 Warning pron-det-without-prontype] The word 'esta' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 166 Sent dev-s7]: [L3 Warning pron-det-without-prontype] The word 'sua' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 188 Sent dev-s9]: [L3 Warning pron-det-without-prontype] The word 'Esta' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 190 Sent dev-s9]: [L3 Warning pron-det-without-prontype] The word 'uma' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 196 Sent dev-s9]: [L3 Warning pron-det-without-prontype] The word 'que' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 242 Sent dev-s10]: [L3 Warning pron-det-without-prontype] The word 'a' is tagged 'DET' but it lacks the 'PronType' feature
 ...suppressing further errors regarding Warning
-[Line 13731 Sent dev-s422 Node 78]: [L3 Syntax rel-upos-mark] 'mark' should not be 'AUX' word 'sendo'
-[Line 20632 Sent dev-s632 Node 15]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PROPN' word 'Nada'
-[Line 24324 Sent dev-s756 Node 46]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON' word 'isto'
-Syntax errors: 4
-Warnings: 74
-*** FAILED *** with 4 errors
+[Line 591 Sent dev-s23]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' ('uma')
+[Line 13731 Sent dev-s422]: [L3 Syntax rel-upos-mark] 'mark' should not be 'AUX' ('sendo')
+[Line 15994 Sent dev-s491]: [L3 Syntax too-many-objects] Multiple direct objects [28, 31] ('me', 'satisfação') under the predicate 'deu'.
+[Line 20632 Sent dev-s632]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PROPN' ('Nada')
+[Line 24277 Sent dev-s756]: [L3 Syntax too-many-objects] Multiple direct objects [8, 10] ('vezes', 'massa') under the predicate 'possuem'.
+[Line 24324 Sent dev-s756]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON' ('isto')
+Syntax errors: 6
+Warnings: 1644
+*** FAILED *** with 6 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang pt --max-err=10 UD_Portuguese-GSD/pt_gsd-ud-test.conllu
-[Line 808 Sent test-s26 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'Com objetivo de' does not have the 'ExtPos' feature
-[Line 920 Sent test-s29 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'depois de' does not have the 'ExtPos' feature
-[Line 1139 Sent test-s36 Node 19]: [L3 Warning fixed-without-extpos] Fixed expression 'depois de' does not have the 'ExtPos' feature
-[Line 1572 Sent test-s50 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Assim como' does not have the 'ExtPos' feature
-[Line 2345 Sent test-s70 Node 29]: [L3 Warning fixed-without-extpos] Fixed expression 'devido a' does not have the 'ExtPos' feature
-[Line 2375 Sent test-s71 Node 18]: [L3 Warning fixed-without-extpos] Fixed expression 'depois de' does not have the 'ExtPos' feature
-[Line 2406 Sent test-s73 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Assim como' does not have the 'ExtPos' feature
-[Line 2708 Sent test-s85 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' word 'Assim'
-[Line 3008 Sent test-s95 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'depois de' does not have the 'ExtPos' feature
-[Line 3708 Sent test-s118 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'mesmo que' does not have the 'ExtPos' feature
-[Line 5968 Sent test-s188 Node 13]: [L3 Warning fixed-without-extpos] Fixed expression 'como se' does not have the 'ExtPos' feature
+[Line 7 Sent test-s1]: [L3 Warning pron-det-without-prontype] The word 'um' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 11 Sent test-s1]: [L3 Warning pron-det-without-prontype] The word 'uma' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 91 Sent test-s5]: [L3 Warning pron-det-without-prontype] The word 'que' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 93 Sent test-s5]: [L3 Warning pron-det-without-prontype] The word 'uma' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 123 Sent test-s6]: [L3 Warning pron-det-without-prontype] The word 'uma' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 135 Sent test-s6]: [L3 Warning pron-det-without-prontype] The word 'um' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 197 Sent test-s8]: [L3 Warning pron-det-without-prontype] The word 'sua' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 225 Sent test-s9]: [L3 Warning pron-det-without-prontype] The word 'seu' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 238 Sent test-s10]: [L3 Warning pron-det-without-prontype] The word 'os' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 273 Sent test-s11]: [L3 Warning pron-det-without-prontype] The word 'que' is tagged 'PRON' but it lacks the 'PronType' feature
 ...suppressing further errors regarding Warning
-[Line 7131 Sent test-s224 Node 16]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'uma'
-[Line 21043 Sent test-s669 Node 1]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'Uma'
-[Line 22396 Sent test-s710 Node 19]: [L3 Syntax leaf-det] 'det' not expected to have children (19:a:det --> 22:Morbeia:nmod)
-[Line 23083 Sent test-s729 Node 19]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'uma'
-[Line 25678 Sent test-s810 Node 10]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'uma'
-[Line 27326 Sent test-s865 Node 14]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'uma'
-[Line 32912 Sent test-s1042 Node 8]: [L3 Syntax rel-upos-mark] 'mark' should not be 'AUX' word 'sendo'
-[Line 36131 Sent test-s1148 Node 11]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'uma'
-Syntax errors: 9
-Warnings: 71
-*** FAILED *** with 9 errors
+[Line 2708 Sent test-s85]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' ('Assim')
+[Line 7131 Sent test-s224]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' ('uma')
+[Line 12365 Sent test-s400]: [L3 Syntax too-many-objects] Multiple direct objects [45, 48] ('me', 'carga') under the predicate 'tornar'.
+[Line 18637 Sent test-s601]: [L3 Syntax too-many-objects] Multiple direct objects [19, 24] ('lo', 'delitos') under the predicate 'acusá'.
+[Line 21043 Sent test-s669]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' ('Uma')
+[Line 22396 Sent test-s710]: [L3 Syntax leaf-det] 'det' not expected to have children (19:a:det --> 22:Morbeia:nmod)
+[Line 23083 Sent test-s729]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' ('uma')
+[Line 25678 Sent test-s810]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' ('uma')
+[Line 27326 Sent test-s865]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' ('uma')
+[Line 32912 Sent test-s1042]: [L3 Syntax rel-upos-mark] 'mark' should not be 'AUX' ('sendo')
+...suppressing further errors regarding Syntax
+Syntax errors: 11
+Warnings: 1561
+*** FAILED *** with 11 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang pt --max-err=10 UD_Portuguese-GSD/pt_gsd-ud-train.conllu
-[Line 1954 Sent train-s63 Node 19]: [L3 Warning fixed-without-extpos] Fixed expression 'depois de' does not have the 'ExtPos' feature
-[Line 2925 Sent train-s93 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Apesar de' does not have the 'ExtPos' feature
-[Line 4054 Sent train-s137 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'tais como' does not have the 'ExtPos' feature
-[Line 4054 Sent train-s137 Node 4]: [L3 Syntax rel-upos-case] 'case' should not be 'DET' word 'tais'
-[Line 4662 Sent train-s155 Node 22]: [L3 Warning fixed-without-extpos] Fixed expression 'uma vez que' does not have the 'ExtPos' feature
-[Line 4662 Sent train-s155 Node 22]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'uma'
-[Line 6020 Sent train-s195 Node 25]: [L3 Warning fixed-without-extpos] Fixed expression 'de o que' does not have the 'ExtPos' feature
-[Line 7207 Sent train-s234 Node 17]: [L3 Warning fixed-without-extpos] Fixed expression 'de modo a' does not have the 'ExtPos' feature
-[Line 8149 Sent train-s265 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'depois de' does not have the 'ExtPos' feature
-[Line 9597 Sent train-s310 Node 24]: [L3 Warning fixed-without-extpos] Fixed expression 'de o que' does not have the 'ExtPos' feature
-[Line 9616 Sent train-s311 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'em razão de' does not have the 'ExtPos' feature
-[Line 10191 Sent train-s327 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Depois de' does not have the 'ExtPos' feature
+[Line 26 Sent train-s1]: [L3 Warning pron-det-without-prontype] The word 'cada' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 38 Sent train-s2]: [L3 Warning pron-det-without-prontype] The word 'uma' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 91 Sent train-s2]: [L3 Warning pron-det-without-prontype] The word 'os' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 92 Sent train-s2]: [L3 Warning pron-det-without-prontype] The word 'outros' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 125 Sent train-s3]: [L3 Warning pron-det-without-prontype] The word 'nós' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 128 Sent train-s3]: [L3 Warning pron-det-without-prontype] The word 'nossos' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 132 Sent train-s3]: [L3 Warning pron-det-without-prontype] The word 'nossas' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 148 Sent train-s3]: [L3 Warning pron-det-without-prontype] The word 'eles' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 177 Sent train-s3]: [L3 Warning pron-det-without-prontype] The word 'eles' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 283 Sent train-s6]: [L3 Warning pron-det-without-prontype] The word 'la' is tagged 'PRON' but it lacks the 'PronType' feature
 ...suppressing further errors regarding Warning
-[Line 14819 Sent train-s475 Node 11]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'em'
-[Line 19575 Sent train-s624 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'por'
-[Line 22605 Sent train-s727 Node 10]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'uma'
-[Line 32313 Sent train-s1019 Node 16]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'por'
-[Line 34453 Sent train-s1087 Node 23]: [L3 Syntax rel-upos-mark] 'mark' should not be 'AUX' word 'sendo'
-[Line 46439 Sent train-s1476 Node 9]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'uma'
-[Line 52832 Sent train-s1683 Node 16]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'em'
-[Line 60223 Sent train-s1922 Node 36]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'uma'
+[Line 4054 Sent train-s137]: [L3 Syntax rel-upos-case] 'case' should not be 'DET' ('tais')
+[Line 4662 Sent train-s155]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' ('uma')
+[Line 5473 Sent train-s179]: [L3 Syntax too-many-objects] Multiple direct objects [9, 15] ('que', 'los') under the predicate 'produzi'.
+[Line 14819 Sent train-s475]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('em')
+[Line 15563 Sent train-s501]: [L3 Syntax too-many-objects] Multiple direct objects [27, 30] ('me', 'sensação') under the predicate 'possibilitar'.
+[Line 19575 Sent train-s624]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('por')
+[Line 22605 Sent train-s727]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' ('uma')
+[Line 30988 Sent train-s977]: [L3 Syntax too-many-objects] Multiple direct objects [22, 25] ('que', 'o') under the predicate 'extradite'.
+[Line 32313 Sent train-s1019]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('por')
+[Line 34453 Sent train-s1087]: [L3 Syntax rel-upos-mark] 'mark' should not be 'AUX' ('sendo')
 ...suppressing further errors regarding Syntax
-Syntax errors: 53
-Warnings: 614
-*** FAILED *** with 53 errors
+Syntax errors: 83
+Warnings: 12465
+*** FAILED *** with 83 errors
 Exit code: 1
 Validity: 0.01
-(weight=0.0769230769230769) * (score{features}=0.12) = 0.00923076923076923
-(weight=0.0769230769230769) * (score{genres}=0.111111111111111) = 0.00854700854700855
-(weight=0.0769230769230769) * (score{lemmas}=0.01) = 0.000769230769230769
-(weight=0.256410256410256) * (score{size}=0.834445242996542) = 0.213960318717062
-(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
-(weight=0.0769230769230769) * (score{udeprels}=0.648648648648649) = 0.0498960498960499
-(TOTAL score=0.394680903555294) * (availability=1) * (validity=0.01) = 0.00394680903555294
+(weight=0.111111111111111) * (score{features}=0.12) = 0.0133333333333333
+(weight=0.111111111111111) * (score{genres}=0.111111111111111) = 0.0123456790123457
+(weight=0.111111111111111) * (score{lemmas}=0.01) = 0.00111111111111111
+(weight=0.37037037037037) * (score{size}=0.834445242996542) = 0.309053793702423
+(weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
+(weight=0.111111111111111) * (score{tags}=0.752941176470588) = 0.0836601307189542
+(weight=0.111111111111111) * (score{udeprels}=0.648648648648649) = 0.0720720720720721
+(TOTAL score=0.565650194024313) * (availability=1) * (validity=0.01) = 0.00565650194024313
 STARS = 0
-UD_Portuguese-GSD	0.00394680903555294	0
+UD_Portuguese-GSD	0.00565650194024313	0
