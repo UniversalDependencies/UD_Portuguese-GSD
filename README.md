@@ -115,6 +115,7 @@ Järvinen, Timo; Radici, Alessandra)
 Data available since: UD v1.3
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: blog news
 Lemmas: automatic
 UPOS: converted from manual
